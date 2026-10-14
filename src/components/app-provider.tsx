@@ -13,9 +13,9 @@ import {
 } from "@/lib/progress-store";
 import { getSupabaseBrowser } from "@/lib/supabase/client";
 
-// Learner state (XP, streak, completed lessons) lives on the device so guests can play right away. When
-// signed in, it is merged with the account on login, and every finished
-// lesson is written to Supabase.
+// Learner state (XP, streak, completed lessons) lives on the device so
+// guests can play right away. When signed in, it is merged with the account
+// on login, and every finished lesson is written to Supabase.
 
 type Profile = { is_premium: boolean; display_name: string | null };
 
@@ -30,6 +30,8 @@ type AppState = {
   streak: number;
   todayXp: number;
   completeLesson: (lessonId: string, score: number, xp: number) => void;
+  /** Re-reads the profile, e.g. after a payment (the Stripe webhook updates it). */
+  refreshProfile: () => Promise<void>;
   signOut: () => Promise<void>;
 };
 
@@ -87,6 +89,15 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       clockStore.tick();
       progressStore.set((p) => withCompletedLesson(p, lessonId, score, xp, Date.now()));
       if (supabase && user) void pushProgress(supabase, user.id, progressStore.get(), [lessonId]);
+    },
+    async refreshProfile() {
+      if (!supabase || !user) return;
+      const { data } = await supabase
+        .from("profiles")
+        .select("is_premium, display_name")
+        .eq("id", user.id)
+        .single();
+      if (data) setProfile(data);
     },
     async signOut() {
       await supabase?.auth.signOut();

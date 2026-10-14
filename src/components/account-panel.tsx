@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useApp } from "@/components/app-provider";
 import { BoltIcon, CheckIcon, CrownIcon, FlameIcon } from "@/components/icons";
@@ -9,7 +9,6 @@ import { allLessons } from "@/lib/course";
 
 export function AccountPanel() {
   const router = useRouter();
-  const params = useSearchParams();
   const { ready, user, isPremium, progress, streak, signOut, authEnabled } = useApp();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -42,12 +41,6 @@ export function AccountPanel() {
 
   return (
     <div className="space-y-6">
-      {params.get("checkout") === "success" && (
-        <p className="rounded-2xl bg-ok-soft p-4 font-extrabold text-ok-dark">
-          Payment received. Premium unlocks as soon as Stripe confirms it (usually a few seconds).
-        </p>
-      )}
-
       <div>
         <h1 className="text-3xl font-black">Profile</h1>
         <p className="text-muted">{user.email}</p>

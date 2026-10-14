@@ -41,7 +41,7 @@ export async function POST(request: Request) {
     line_items: [{ price, quantity: 1 }],
     subscription_data: { metadata: { supabase_user_id: user.id } },
     allow_promotion_codes: true,
-    success_url: `${base}/account?checkout=success`,
+    success_url: `${base}/learn?checkout=success`,
     cancel_url: `${base}/pricing`,
   });
   return Response.json({ url: session.url });
