@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { BoltIcon, MicIcon, SpeakerIcon } from "@/components/icons";
+import { featuredEndorsement, type Endorsement } from "@/lib/endorsement";
 
 const features = [
   {
@@ -67,6 +69,54 @@ export default function Landing() {
           </div>
         ))}
       </section>
+
+      <section className="pb-20">
+        <TeacherQuote endorsement={featuredEndorsement} />
+      </section>
     </div>
+  );
+}
+
+function TeacherQuote({ endorsement: e }: { endorsement: Endorsement }) {
+  // Academic titles like "Mgr." don't count towards the initials.
+  const initials = e.name
+    .split(" ")
+    .filter((part) => !part.endsWith("."))
+    .map((part) => part[0])
+    .slice(0, 2)
+    .join("");
+  return (
+    <figure className="card relative overflow-hidden p-6 sm:p-10">
+      <span
+        aria-hidden
+        className="absolute -top-8 left-4 select-none text-[10rem] font-black leading-none text-brand-soft"
+      >
+        “
+      </span>
+      <p className="relative text-sm font-extrabold uppercase tracking-wide text-brand">
+        Made with Slovak teachers
+      </p>
+      <blockquote className="relative mt-3 text-xl font-bold leading-relaxed sm:text-2xl">
+        {e.quote}
+      </blockquote>
+      <figcaption className="relative mt-6 flex items-center gap-4">
+        {e.photo ? (
+          <Image src={e.photo} alt="" width={56} height={56} className="size-14 rounded-full object-cover" />
+        ) : (
+          <span
+            aria-hidden
+            className="grid size-14 shrink-0 place-items-center rounded-full bg-brand text-lg font-black text-white shadow-[0_3px_0_var(--brand-dark)]"
+          >
+            {initials}
+          </span>
+        )}
+        <div>
+          <p className="font-black">{e.name}</p>
+          <p className="text-muted">
+            {e.role} · {e.affiliation}
+          </p>
+        </div>
+      </figcaption>
+    </figure>
   );
 }

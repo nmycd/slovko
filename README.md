@@ -70,6 +70,8 @@ for TTS, `scribe_v2` for STT.
 
 ## Known limitations (MVP)
 
+- The landing-page teacher quote is a PLACEHOLDER (`src/lib/endorsement.ts`).
+  Replace it with a real teacher, with their written permission, before launch.
 - XP and streak are written by the client, so a determined user can
   edit them. Premium status is only written by the Stripe webhook.
 - Premium units are gated in the UI; their content ships in the client bundle.
