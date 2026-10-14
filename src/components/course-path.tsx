@@ -1,8 +1,16 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
 import { useApp } from "@/components/app-provider";
-import { BoltIcon, CheckIcon, CrownIcon, LockIcon, StarIcon } from "@/components/icons";
+import {
+  BoltIcon,
+  CheckIcon,
+  ChevronDownIcon,
+  CrownIcon,
+  LockIcon,
+  StarIcon,
+} from "@/components/icons";
 import { allLessons, course, type Unit } from "@/lib/course";
 
 // Unit banner colours cycle through the palette.
@@ -50,6 +58,7 @@ export function CoursePath() {
             unit={unit}
             color={unitColors[ui % unitColors.length]}
             premiumLocked={unit.premium && !isPremium}
+            completed={unit.lessons.length > 0 && unit.lessons.every((l) => progress.completed[l.id])}
             stateOf={stateOf}
             hrefFor={hrefFor}
           />
@@ -92,26 +101,54 @@ function UnitSection({
   unit,
   color,
   premiumLocked,
+  completed,
   stateOf,
   hrefFor,
 }: {
   unit: Unit;
   color: string;
   premiumLocked: boolean;
+  /** Every lesson done: the unit starts folded to its banner. */
+  completed: boolean;
   stateOf: (lessonId: string) => NodeState;
   hrefFor: (lessonId: string) => string;
 }) {
+  const [expanded, setExpanded] = useState(false);
+  const folded = completed && !expanded;
+  const listId = `${unit.id}-lessons`;
+
   return (
-    <section className="mb-12">
+    <section className={folded ? "mb-6" : "mb-12"}>
       <div
-        className="rounded-2xl p-5 text-white"
+        className="relative flex items-center gap-4 rounded-2xl p-5 text-white"
         style={{ background: color, boxShadow: `0 4px 0 color-mix(in srgb, ${color} 70%, black)` }}
       >
-        <p className="text-sm font-extrabold uppercase tracking-wide opacity-80">
-          Unit {unit.number} · {unit.titleEn}
-        </p>
-        <h2 className="mt-1 text-2xl font-black">{unit.title}</h2>
-        <p className="mt-1 text-sm font-semibold opacity-90">{unit.grammar.join(" · ")}</p>
+        <div className="flex-1">
+          <p className="text-sm font-extrabold uppercase tracking-wide opacity-80">
+            Unit {unit.number} · {unit.titleEn}
+          </p>
+          <h2 className="mt-1 text-2xl font-black">{unit.title}</h2>
+          <p className="mt-1 text-sm font-semibold opacity-90">{unit.grammar.join(" · ")}</p>
+        </div>
+        {completed && (
+          <>
+            <span aria-hidden className="flex shrink-0 items-center gap-2">
+              <span className="flex items-center gap-1 rounded-full bg-white/20 px-3 py-1 text-sm font-extrabold">
+                <CheckIcon size={16} /> Completed
+              </span>
+              <ChevronDownIcon size={26} className={`transition-transform ${expanded ? "rotate-180" : ""}`} />
+            </span>
+            {/* Covers the whole banner so any click toggles the unit. */}
+            <button
+              type="button"
+              onClick={() => setExpanded(!expanded)}
+              aria-expanded={expanded}
+              aria-controls={listId}
+              aria-label={`${expanded ? "Hide" : "Show"} lessons of unit ${unit.number}, ${unit.titleEn} (completed)`}
+              className="absolute inset-0 cursor-pointer rounded-2xl focus-visible:outline-4 focus-visible:outline-offset-4 focus-visible:outline-brand"
+            />
+          </>
+        )}
       </div>
 
       {unit.lessons.length === 0 ? (
@@ -133,8 +170,8 @@ function UnitSection({
             <p className="text-sm text-muted">{unit.lessons.length} lessons: {unit.topics.join(", ")}</p>
           </div>
         </Link>
-      ) : (
-        <ol className="mt-14 flex flex-col items-center gap-12">
+      ) : folded ? null : (
+        <ol id={listId} className="mt-14 flex flex-col items-center gap-12">
           {unit.lessons.map((lesson, i) => (
             <li key={lesson.id} style={{ transform: `translateX(${zigzag[i % zigzag.length]}px)` }}>
               <LessonNode
