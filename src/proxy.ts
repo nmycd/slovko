@@ -4,6 +4,7 @@ import { isSupabaseConfigured, supabasePublishableKey, supabaseUrl } from "@/lib
 
 // Keeps the Supabase auth session fresh: refreshes an expired access token
 // and writes the new cookies onto both the request and the response.
+// Also sends signed-out visitors from lessons to the sign-in page.
 export async function proxy(request: NextRequest) {
   if (!isSupabaseConfigured) return NextResponse.next();
 
@@ -19,7 +20,17 @@ export async function proxy(request: NextRequest) {
     },
   });
   // getClaims verifies the JWT locally and refreshes it when expired.
-  await supabase.auth.getClaims();
+  const { data } = await supabase.auth.getClaims();
+
+  const { pathname } = request.nextUrl;
+  if (!data?.claims && pathname.startsWith("/lesson/")) {
+    const login = new URL("/login", request.url);
+    login.searchParams.set("next", pathname);
+    const redirect = NextResponse.redirect(login);
+    // Keep any cookies Supabase just cleared or refreshed.
+    response.cookies.getAll().forEach((cookie) => redirect.cookies.set(cookie));
+    return redirect;
+  }
   return response;
 }
 

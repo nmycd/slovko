@@ -13,8 +13,9 @@ cp .env.example .env.local   # fill in what you have
 npm run dev                  # http://localhost:3000
 ```
 
-Every service is optional locally. Without Supabase the app runs in guest
-mode (progress in localStorage). Without ElevenLabs, audio falls back to the
+Every service is optional locally. With Supabase configured, lessons require
+an account (the proxy redirects signed-out visitors to /login); without it the
+app runs in guest mode (progress in localStorage). Without ElevenLabs, audio falls back to the
 browser's speech synthesis and speaking exercises can be skipped.
 
 ## Project layout
@@ -72,5 +73,7 @@ for TTS, `scribe_v2` for STT.
 - XP and streak are written by the client, so a determined user can
   edit them. Premium status is only written by the Stripe webhook.
 - Premium units are gated in the UI; their content ships in the client bundle.
+- No ElevenLabs usage cap yet (planned: a hidden per-account TTS/STT quota).
+  TTS only accepts course phrases and caches them; STT requires sign-in.
 - Speaking checks compare the transcript to the target phrase. Open-ended
   answers will need an LLM grader (planned).

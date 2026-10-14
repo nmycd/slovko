@@ -26,6 +26,8 @@ type AppState = {
   profile: Profile | null;
   isPremium: boolean;
   authEnabled: boolean;
+  /** True once we know whether someone is signed in (always true without auth). */
+  authKnown: boolean;
   progress: Progress;
   streak: number;
   todayXp: number;
@@ -52,12 +54,14 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   const now = useSyncExternalStore(clockStore.subscribe, clockStore.get, () => 0);
   const [user, setUser] = useState<User | null>(null);
   const [profile, setProfile] = useState<Profile | null>(null);
+  const [sessionChecked, setSessionChecked] = useState(false);
 
   // Track the auth session; on sign-in, merge device and account progress.
   useEffect(() => {
     if (!supabase) return;
     const { data } = supabase.auth.onAuthStateChange((event, session) => {
       setUser(session?.user ?? null);
+      setSessionChecked(true);
       if (event === "SIGNED_OUT") {
         setProfile(null);
         progressStore.set(EMPTY_PROGRESS);
@@ -67,7 +71,8 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
         // Deferred: Supabase calls inside this callback can deadlock the auth lock.
         setTimeout(async () => {
           const profile = await mergeAccountProgress(supabase, userId);
-          if (profile) setProfile(profile);
+          // Fall back to a free profile so nothing waits forever if the row is missing.
+          setProfile(profile ?? { is_premium: false, display_name: null });
         }, 0);
       }
     });
@@ -82,6 +87,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     profile,
     isPremium,
     authEnabled: Boolean(supabase),
+    authKnown: !supabase || sessionChecked,
     progress,
     streak: liveStreak(progress, now),
     todayXp: progress.dailyXp.day === dayOf(now) ? progress.dailyXp.xp : 0,

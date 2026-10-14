@@ -14,7 +14,11 @@ const zigzag = [0, 44, 66, 44, 0, -44, -66, -44];
 type NodeState = "done" | "current" | "locked";
 
 export function CoursePath() {
-  const { ready, progress, isPremium, todayXp } = useApp();
+  const { ready, progress, isPremium, todayXp, authEnabled, authKnown, user } = useApp();
+  const signedOut = authEnabled && authKnown && !user;
+  // Lessons need an account; signed-out visitors go through sign-in and come back.
+  const hrefFor = (lessonId: string) =>
+    signedOut ? `/login?next=${encodeURIComponent(`/lesson/${lessonId}`)}` : `/lesson/${lessonId}`;
 
   // The first lesson not yet completed is "current"; everything after it is locked.
   const firstOpen = allLessons.findIndex((l) => !progress.completed[l.id]);
@@ -27,6 +31,19 @@ export function CoursePath() {
   return (
     <div className="mx-auto flex max-w-5xl gap-10 px-4 py-8">
       <div className={`mx-auto w-full max-w-xl ${ready ? "" : "invisible"}`}>
+        {signedOut && (
+          <div className="card mb-10 flex flex-col items-start gap-4 p-5 sm:flex-row sm:items-center">
+            <div className="flex-1">
+              <h2 className="text-lg font-black">Start learning Slovak for free</h2>
+              <p className="text-muted">
+                Create an account to play lessons and keep your streak. Units 1–2 are free.
+              </p>
+            </div>
+            <Link href="/login?mode=signup" className="btn shrink-0">
+              Sign up
+            </Link>
+          </div>
+        )}
         {course.map((unit, ui) => (
           <UnitSection
             key={unit.id}
@@ -34,6 +51,7 @@ export function CoursePath() {
             color={unitColors[ui % unitColors.length]}
             premiumLocked={unit.premium && !isPremium}
             stateOf={stateOf}
+            hrefFor={hrefFor}
           />
         ))}
       </div>
@@ -75,11 +93,13 @@ function UnitSection({
   color,
   premiumLocked,
   stateOf,
+  hrefFor,
 }: {
   unit: Unit;
   color: string;
   premiumLocked: boolean;
   stateOf: (lessonId: string) => NodeState;
+  hrefFor: (lessonId: string) => string;
 }) {
   return (
     <section className="mb-12">
@@ -118,7 +138,7 @@ function UnitSection({
           {unit.lessons.map((lesson, i) => (
             <li key={lesson.id} style={{ transform: `translateX(${zigzag[i % zigzag.length]}px)` }}>
               <LessonNode
-                lessonId={lesson.id}
+                href={hrefFor(lesson.id)}
                 title={lesson.title}
                 subtitle={lesson.titleEn}
                 state={stateOf(lesson.id)}
@@ -133,13 +153,13 @@ function UnitSection({
 }
 
 function LessonNode({
-  lessonId,
+  href,
   title,
   subtitle,
   state,
   color,
 }: {
-  lessonId: string;
+  href: string;
   title: string;
   subtitle: string;
   state: NodeState;
@@ -171,7 +191,7 @@ function LessonNode({
       {state === "locked" ? (
         <span aria-label={`${title} (locked)`}>{node}</span>
       ) : (
-        <Link href={`/lesson/${lessonId}`} aria-label={`${title}: ${subtitle}`}>
+        <Link href={href} aria-label={`${title}: ${subtitle}`}>
           {node}
         </Link>
       )}

@@ -3,6 +3,7 @@
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { useApp } from "@/components/app-provider";
+import { safeNext } from "@/lib/redirect";
 import { getSupabaseBrowser } from "@/lib/supabase/client";
 
 export function LoginForm() {
@@ -10,7 +11,12 @@ export function LoginForm() {
   const router = useRouter();
   const params = useSearchParams();
   const { user } = useApp();
-  const [mode, setMode] = useState<"signin" | "signup">("signin");
+  // Where to go after signing in, e.g. the lesson that sent us here.
+  const next = safeNext(params.get("next"));
+  const fromLesson = next.startsWith("/lesson/");
+  const [mode, setMode] = useState<"signin" | "signup">(
+    params.get("mode") === "signup" ? "signup" : "signin",
+  );
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [busy, setBusy] = useState(false);
@@ -35,14 +41,15 @@ export function LoginForm() {
       <div className="card p-6 text-center">
         <h1 className="text-2xl font-black">You&apos;re signed in</h1>
         <p className="mt-2 text-muted">{user.email}</p>
-        <button type="button" onClick={() => router.push("/learn")} className="btn mt-6 w-full">
+        <button type="button" onClick={() => router.push(next)} className="btn mt-6 w-full">
           Continue learning
         </button>
       </div>
     );
   }
 
-  const redirectTo = () => `${window.location.origin}/auth/callback?next=/learn`;
+  const redirectTo = () =>
+    `${window.location.origin}/auth/callback?next=${encodeURIComponent(next)}`;
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
@@ -59,7 +66,7 @@ export function LoginForm() {
     } else if (mode === "signup" && !data.session) {
       setMessage({ kind: "info", text: "Check your email to confirm your account." });
     } else {
-      router.push("/learn");
+      router.push(next);
     }
   }
 
@@ -70,12 +77,12 @@ export function LoginForm() {
   return (
     <div>
       <h1 className="text-center text-3xl font-black">
-        {mode === "signin" ? "Welcome back" : "Create your profile"}
+        {mode === "signin" ? (fromLesson ? "Sign in to start learning" : "Welcome back") : "Create your free account"}
       </h1>
       <p className="mt-2 text-center text-muted">
         {mode === "signin"
-          ? "Sign in to sync your progress."
-          : "Save your progress and keep your streak on every device."}
+          ? "Your progress and streak are saved to your account."
+          : "Units 1–2 are free. Your progress syncs across devices."}
       </p>
 
       <form onSubmit={submit} className="mt-8 space-y-3">

@@ -69,9 +69,19 @@ function hasAnswer(answer: Answer): boolean {
 }
 
 export function LessonPlayer({ lessonId }: { lessonId: string }) {
-  const { ready } = useApp();
-  // Wait for hydration: progress lives in localStorage, and exercises shuffle on mount.
-  if (!ready) return <div className="min-h-dvh" />;
+  const router = useRouter();
+  const { ready, authEnabled, authKnown, user, profile } = useApp();
+  const signedOut = authEnabled && authKnown && !user;
+
+  // The proxy already redirects signed-out visitors; this covers client-side navigation.
+  useEffect(() => {
+    if (signedOut) router.replace(`/login?next=${encodeURIComponent(`/lesson/${lessonId}`)}`);
+  }, [signedOut, router, lessonId]);
+
+  // Wait for hydration (progress lives in localStorage, exercises shuffle on
+  // mount) and for the profile, which decides whether premium units are open.
+  const profileLoading = user !== null && profile === null;
+  if (!ready || !authKnown || signedOut || profileLoading) return <div className="min-h-dvh" />;
   return <Player key={lessonId} lessonId={lessonId} />;
 }
 
