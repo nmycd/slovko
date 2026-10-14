@@ -18,7 +18,7 @@ import {
   type Resolution,
 } from "@/components/lesson/exercises";
 import { checkBuilt, checkTyped, shuffle, toTiles } from "@/lib/answers";
-import { playSlovak } from "@/lib/audio";
+import { playSlovak, stopSlovak } from "@/lib/audio";
 import { fillSentence } from "@/lib/course/helpers";
 import type { Exercise, Lesson } from "@/lib/course/types";
 import type { Locale } from "@/lib/i18n";
@@ -207,6 +207,9 @@ function Step({
   );
 
   // Teaching cards have no answer: just Continue.
+  // Leaving an exercise silences its audio (e.g. the answer read out after Check).
+  useEffect(() => stopSlovak, []);
+
   const isIntro = ex.type === "intro" || ex.type === "grammar";
   const selfGraded = ex.type === "match" || ex.type === "speak";
   const locked = result !== null;

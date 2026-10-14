@@ -6,6 +6,9 @@
 const urls = new Map<string, Promise<string | null>>();
 let ttsUnavailable = false;
 let current: HTMLAudioElement | null = null;
+// Bumped whenever playback should stop, so a clip that is still loading
+// (or its speech-synthesis fallback) never starts after the learner moved on.
+let generation = 0;
 
 function loadAudio(text: string): Promise<string | null> {
   let pending = urls.get(text);
@@ -33,23 +36,35 @@ export function preloadSlovak(text: string) {
   if (!ttsUnavailable) void loadAudio(text);
 }
 
-export async function playSlovak(text: string, { slow = false } = {}) {
+/** Stops whatever is playing and cancels clips that are still loading. */
+export function stopSlovak() {
+  generation++;
   current?.pause();
+  current = null;
   window.speechSynthesis?.cancel();
+}
+
+export async function playSlovak(text: string, { slow = false } = {}) {
+  stopSlovak();
+  const playId = generation;
   if (!ttsUnavailable) {
     const url = await loadAudio(text);
+    if (playId !== generation) return; // superseded while loading
     if (url) {
-      current = new Audio(url);
-      current.playbackRate = slow ? 0.7 : 1;
+      const audio = new Audio(url);
+      audio.playbackRate = slow ? 0.7 : 1;
+      current = audio;
       try {
-        await current.play();
+        await audio.play();
         return;
       } catch {
-        // Autoplay blocked or decode error; fall through to speech synthesis.
+        // Stopped on purpose: stay quiet. Otherwise (autoplay blocked, decode
+        // error) fall through to speech synthesis.
+        if (playId !== generation) return;
       }
     }
   }
-  speakWithBrowser(text, slow);
+  if (playId === generation) speakWithBrowser(text, slow);
 }
 
 function speakWithBrowser(text: string, slow: boolean) {
