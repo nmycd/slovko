@@ -4,7 +4,8 @@ import { isSupabaseConfigured, supabasePublishableKey, supabaseUrl } from "@/lib
 
 // Keeps the Supabase auth session fresh: refreshes an expired access token
 // and writes the new cookies onto both the request and the response.
-// Also sends signed-out visitors from lessons to the sign-in page.
+// Also sends signed-out visitors from lessons to the sign-in page, and
+// signed-in users from the landing page to their learning path.
 export async function proxy(request: NextRequest) {
   if (!isSupabaseConfigured) return NextResponse.next();
 
@@ -22,14 +23,23 @@ export async function proxy(request: NextRequest) {
   // getClaims verifies the JWT locally and refreshes it when expired.
   const { data } = await supabase.auth.getClaims();
 
+  const signedIn = Boolean(data?.claims);
   const { pathname } = request.nextUrl;
-  if (!data?.claims && pathname.startsWith("/lesson/")) {
-    const login = new URL("/login", request.url);
-    login.searchParams.set("next", pathname);
-    const redirect = NextResponse.redirect(login);
+
+  const redirectTo = (url: URL) => {
+    const redirect = NextResponse.redirect(url);
     // Keep any cookies Supabase just cleared or refreshed.
     response.cookies.getAll().forEach((cookie) => redirect.cookies.set(cookie));
     return redirect;
+  };
+
+  // Signed-in users skip the landing page.
+  if (signedIn && pathname === "/") return redirectTo(new URL("/learn", request.url));
+
+  if (!signedIn && pathname.startsWith("/lesson/")) {
+    const login = new URL("/login", request.url);
+    login.searchParams.set("next", pathname);
+    return redirectTo(login);
   }
   return response;
 }

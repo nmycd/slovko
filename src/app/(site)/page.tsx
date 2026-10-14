@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { BoltIcon, MicIcon, SpeakerIcon } from "@/components/icons";
+import { SignedInRedirect } from "@/components/signed-in-redirect";
 import { featuredEndorsement, type Endorsement } from "@/lib/endorsement";
 
 const features = [
@@ -24,6 +25,7 @@ const features = [
 export default function Landing() {
   return (
     <div className="mx-auto max-w-5xl px-4">
+      <SignedInRedirect to="/learn" />
       <section className="grid items-center gap-10 py-14 md:grid-cols-2 md:py-24">
         <div className="order-2 md:order-1">
           <h1 className="text-4xl font-black leading-tight tracking-tight sm:text-5xl">
