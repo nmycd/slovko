@@ -260,7 +260,7 @@ export const unit4: Unit = {
           type: "grammar",
           title: "Jobs: he and she",
           body: [
-            "Most jobs add **-ka** for a woman: kuchár → kuchár**ka**.",
+            "Jobs work like študent → študent**ka**: most add **-ka** for a woman, kuchár → kuchár**ka**.",
             "Jobs ending in **-ník** change to **-níčka**: čašník → čašní**čka**.",
           ],
           table: {
@@ -706,7 +706,7 @@ export const unit4: Unit = {
           title: "Always plural",
           body: [
             "Some nouns exist only in the plural, even for one thing: **nohavice** (trousers), **okuliare** (glasses), **noviny** (a newspaper).",
-            "They always take plural forms, even where English uses the singular: Noviny **sú** nové. = The newspaper is new. Hodinky **stoja** päť eur. = The watch costs five euros.",
+            "They always take plural forms, even where English uses the singular: Noviny **sú** nové. = The newspaper is new. Hodinky **stoja** päť eur. = The watch costs five euros. Words that go with them are plural too: **moje** hodinky = my watch.",
           ],
           table: {
             head: ["Slovak", "English"],

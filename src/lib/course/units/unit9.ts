@@ -26,7 +26,7 @@ export const unit9: Unit = {
           type: "intro",
           sk: "prednáška",
           en: "lecture, talk",
-          note: "At a conference, **mať prednášku** means to give a talk: Tomáš má prednášku. = Tomáš is giving a talk. A presentation with slides is a **prezentácia**.",
+          note: "You know **prednáška** from unit 7. At a conference, **mať prednášku** means to give a talk: Tomáš má prednášku. = Tomáš is giving a talk. A presentation with slides is a **prezentácia**.",
         },
         {
           type: "choice",
@@ -163,7 +163,7 @@ export const unit9: Unit = {
           type: "grammar",
           title: "Sa likes second place",
           body: [
-            "**Sa** is a small, unstressed word. It goes in second place, right after the first word or phrase. It never starts a sentence.",
+            "Like som and si in the past tense (unit 7), **sa** is a small, unstressed word that goes in second place, right after the first word or phrase. It never starts a sentence.",
             "If something else comes first (a name, a question word, a phrase), sa still takes second place and the verb comes after it.",
           ],
           table: {
@@ -615,7 +615,7 @@ export const unit9: Unit = {
           type: "intro",
           sk: "zamestnávateľ",
           en: "employer",
-          note: "Don't mix it up with **zamestnanie** (occupation). Tomáš's employer is a firma (company) **v Košiciach** (in Košice).",
+          note: "Don't mix it up with **zamestnanie** (occupation). Jana's employer is a firma (company) **v Košiciach** (in Košice).",
         },
         {
           type: "fill",

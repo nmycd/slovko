@@ -427,7 +427,7 @@ export const unit8: Unit = {
         },
         {
           type: "build",
-          prompt: "Emma: “I was born on the tenth of July.”",
+          prompt: "Lucia: “I was born on the tenth of July.”",
           promptLang: "en",
           answers: ["Narodila som sa desiateho júla.", "Desiateho júla som sa narodila."],
           distractors: ["desiaty", "júl"],
@@ -748,7 +748,7 @@ export const unit8: Unit = {
           type: "grammar",
           title: "O, po, pri + locative",
           body: [
-            "Three more prepositions take the locative: o (about), po (after) and pri (next to, by). **obed** = lunch, so po obed**e** = after lunch.",
+            "Three more prepositions take the locative: o (about), po (after) and pri (next to, by). **obed** = lunch, so po obed**e** = after lunch. (With the accusative, po means “to get”, as in Idem po chlieb.)",
             "Men's names and other masculine words for people add **-ovi**: o Tomáš**ovi**, o programátor**ovi**. Women's names take the usual endings: o Emm**e**, o Luci**i**.",
           ],
           table: {

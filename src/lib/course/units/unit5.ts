@@ -65,7 +65,7 @@ export const unit5: Unit = {
           type: "intro",
           sk: "Koľko stojí šunka?",
           en: "How much is the ham?",
-          note: "stáť = to cost. Šunka stojí tri eurá. = The ham costs three euros.",
+          note: "You know **stáť** from unit 4: Šunka stojí tri eurá. = The ham costs three euros.",
         },
         {
           type: "fill",

@@ -366,7 +366,7 @@ export const unit7: Unit = {
           type: "intro",
           sk: "Učím sa.",
           en: "I'm studying.",
-          note: "**učiť sa** = to study, to learn: učím sa, učíš sa, učí sa… Like sprchovať sa, it always has **sa**.",
+          note: "**učiť sa** = to study, to learn: učím sa, učíš sa, učí sa… Don't drop the **sa**: učiť alone means to teach (like učiteľ, teacher).",
         },
         { type: "listen", sk: "Poobede sa učím v knižnici.", en: "In the afternoon I study in the library." },
         {
