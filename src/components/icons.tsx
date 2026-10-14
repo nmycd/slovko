@@ -107,3 +107,25 @@ export function ChevronDownIcon(props: IconProps) {
     </svg>
   );
 }
+
+export function BookIcon(props: IconProps) {
+  return (
+    <svg {...svg(props)}>
+      <path
+        fill="currentColor"
+        d="M4 5.5C4 4.1 5.1 3 6.5 3H11v16H6.5c-.9 0-1.7.3-2.5.8V5.5Zm9-2.5h4.5C18.9 3 20 4.1 20 5.5v14.3c-.8-.5-1.6-.8-2.5-.8H13V3ZM6.5 20.5H11V21H6.5a.5.5 0 0 1 0-.5Zm6.5 0h4.5a.5.5 0 0 1 0 .5H13v-.5Z"
+      />
+    </svg>
+  );
+}
+
+export function RepeatIcon(props: IconProps) {
+  return (
+    <svg {...svg(props)} fill="none" stroke="currentColor" strokeWidth={2.6} strokeLinecap="round" strokeLinejoin="round">
+      <path d="M17 2.5 20.5 6 17 9.5" />
+      <path d="M3.5 11.5V10a4 4 0 0 1 4-4h13" />
+      <path d="M7 21.5 3.5 18 7 14.5" />
+      <path d="M20.5 12.5V14a4 4 0 0 1-4 4h-13" />
+    </svg>
+  );
+}

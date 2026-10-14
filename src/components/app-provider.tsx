@@ -2,6 +2,8 @@
 
 import type { SupabaseClient, User } from "@supabase/supabase-js";
 import { createContext, useContext, useEffect, useState, useSyncExternalStore } from "react";
+import { defaultLocale, isLocale, translator, type Locale, type Translate } from "@/lib/i18n";
+import { localeStore, savedLocale } from "@/lib/i18n/locale-store";
 import {
   EMPTY_PROGRESS,
   clockStore,
@@ -13,9 +15,9 @@ import {
 } from "@/lib/progress-store";
 import { getSupabaseBrowser } from "@/lib/supabase/client";
 
-// Learner state (XP, streak, completed lessons) lives on the device so
-// guests can play right away. When signed in, it is merged with the account
-// on login, and every finished lesson is written to Supabase.
+// Learner state (XP, streak, completed lessons, native language) lives on
+// the device so guests can play right away. When signed in, it is merged with
+// the account on login, and every change is written to Supabase.
 
 type Profile = { is_premium: boolean; display_name: string | null };
 
@@ -31,6 +33,11 @@ type AppState = {
   progress: Progress;
   streak: number;
   todayXp: number;
+  /** The learner's native language: interface and course translations. */
+  locale: Locale;
+  setLocale: (locale: Locale) => void;
+  /** Translates an interface string into `locale`. */
+  t: Translate;
   completeLesson: (lessonId: string, score: number, xp: number) => void;
   /** Re-reads the profile, e.g. after a payment (the Stripe webhook updates it). */
   refreshProfile: () => Promise<void>;
@@ -52,6 +59,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   const ready = useSyncExternalStore(noopSubscribe, () => true, () => false);
   const progress = useSyncExternalStore(progressStore.subscribe, progressStore.get, () => EMPTY_PROGRESS);
   const now = useSyncExternalStore(clockStore.subscribe, clockStore.get, () => 0);
+  const locale = useSyncExternalStore(localeStore.subscribe, localeStore.get, () => defaultLocale);
   const [user, setUser] = useState<User | null>(null);
   const [profile, setProfile] = useState<Profile | null>(null);
   const [sessionChecked, setSessionChecked] = useState(false);
@@ -73,11 +81,16 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
           const profile = await mergeAccountProgress(supabase, userId);
           // Fall back to a free profile so nothing waits forever if the row is missing.
           setProfile(profile ?? { is_premium: false, display_name: null });
+          await syncLocale(supabase, userId, profile?.native_language);
         }, 0);
       }
     });
     return () => data.subscription.unsubscribe();
   }, [supabase]);
+
+  useEffect(() => {
+    document.documentElement.lang = locale;
+  }, [locale]);
 
   const isPremium = profile?.is_premium ?? false;
 
@@ -89,6 +102,18 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     authEnabled: Boolean(supabase),
     authKnown: !supabase || sessionChecked,
     progress,
+    locale,
+    setLocale(next) {
+      localeStore.set(next);
+      if (supabase && user) {
+        void supabase
+          .from("profiles")
+          .update({ native_language: next })
+          .eq("id", user.id)
+          .then(({ error }) => error && console.error("Saving language failed:", error.message));
+      }
+    },
+    t: translator(locale),
     streak: liveStreak(progress, now),
     todayXp: progress.dailyXp.day === dayOf(now) ? progress.dailyXp.xp : 0,
     completeLesson(lessonId, score, xp) {
@@ -113,12 +138,29 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
 }
 
+/**
+ * The account's language wins once it has one; a new account (e.g. Google
+ * sign-up, which skips our sign-up form) takes the language picked on this device.
+ */
+async function syncLocale(supabase: SupabaseClient, userId: string, accountLocale: unknown) {
+  if (isLocale(accountLocale)) {
+    if (accountLocale !== localeStore.get()) localeStore.set(accountLocale);
+    return;
+  }
+  const local = savedLocale() ?? localeStore.get();
+  const { error } = await supabase.from("profiles").update({ native_language: local }).eq("id", userId);
+  if (error) console.error("Saving language failed:", error.message);
+}
+
 /** Loads the account's progress, merges it into the device's, and writes the result back. */
-async function mergeAccountProgress(supabase: SupabaseClient, userId: string): Promise<Profile | null> {
+async function mergeAccountProgress(
+  supabase: SupabaseClient,
+  userId: string,
+): Promise<(Profile & { native_language: string | null }) | null> {
   const [{ data: remote }, { data: rows }] = await Promise.all([
     supabase
       .from("profiles")
-      .select("display_name, xp, streak_count, streak_last_day, daily_goal, is_premium")
+      .select("display_name, xp, streak_count, streak_last_day, daily_goal, is_premium, native_language")
       .eq("id", userId)
       .single(),
     supabase.from("lesson_progress").select("lesson_id, best_score, times_completed"),
@@ -146,7 +188,11 @@ async function mergeAccountProgress(supabase: SupabaseClient, userId: string): P
   });
   const merged = progressStore.get();
   await pushProgress(supabase, userId, merged, Object.keys(merged.completed));
-  return { is_premium: remote.is_premium, display_name: remote.display_name };
+  return {
+    is_premium: remote.is_premium,
+    display_name: remote.display_name,
+    native_language: remote.native_language,
+  };
 }
 
 async function pushProgress(supabase: SupabaseClient, userId: string, p: Progress, lessonIds: string[]) {

@@ -2,8 +2,8 @@
 
 export type CheckResult = {
   correct: boolean;
-  /** Shown under the verdict, e.g. "Watch the accents". */
-  note?: string;
+  /** Message key of a hint shown under the verdict, e.g. missing accents. */
+  note?: "answer.accents" | "answer.typo" | "answer.close";
 };
 
 /** Lowercase, drop punctuation, collapse whitespace. Keeps diacritics. */
@@ -11,7 +11,7 @@ export function normalize(s: string): string {
   return s
     .toLowerCase()
     .replace(/[’']/g, "'")
-    .replace(/[.,!?¿¡…:;"“”„—–-]/g, " ")
+    .replace(/[.,!?¿¡…:;"“”„«»—–-]/g, " ")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -44,10 +44,10 @@ export function checkTyped(input: string, accepted: string[]): CheckResult {
 
   const bare = stripDiacritics(given);
   if (targets.some((t) => stripDiacritics(t) === bare)) {
-    return { correct: true, note: "Watch the accents (mäkčeň and dĺžeň)." };
+    return { correct: true, note: "answer.accents" };
   }
   if (targets.some((t) => t.length >= 6 && levenshtein(t, given) <= 1)) {
-    return { correct: true, note: "You have a typo." };
+    return { correct: true, note: "answer.typo" };
   }
   return { correct: false };
 }
@@ -68,13 +68,13 @@ export function checkSpoken(transcript: string, target: string): CheckResult {
   if (!said) return { correct: false };
   if (said === want) return { correct: true };
   const similarity = 1 - levenshtein(said, want) / Math.max(said.length, want.length);
-  return similarity >= 0.75 ? { correct: true, note: "Close enough. Keep practising!" } : { correct: false };
+  return similarity >= 0.75 ? { correct: true, note: "answer.close" } : { correct: false };
 }
 
 /** Split a sentence into word tiles (punctuation removed, case kept). */
 export function toTiles(sentence: string): string[] {
   return sentence
-    .replace(/[.,!?…:;"“”„]/g, " ")
+    .replace(/[.,!?…:;"“”„«»—–]/g, " ")
     .split(/\s+/)
     .filter(Boolean);
 }

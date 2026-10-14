@@ -1,16 +1,15 @@
+import type { MessageKey } from "@/lib/i18n";
+
 // Displayed prices. Keep these in sync with the Prices in your Stripe
-// dashboard; the amount actually charged comes from Stripe.
+// dashboard; the amount actually charged comes from Stripe. Labels are
+// message keys (src/lib/i18n/messages).
 export const plans = {
-  monthly: { label: "Monthly", price: "€6.99", per: "month", note: "Cancel anytime" },
-  yearly: { label: "Yearly", price: "€59.99", per: "year", note: "2 months free" },
-} as const;
+  monthly: { label: "pricing.monthly", price: "€6.99", per: "pricing.perMonth", note: "pricing.note.monthly" },
+  yearly: { label: "pricing.yearly", price: "€59.99", per: "pricing.perYear", note: "pricing.note.yearly" },
+} as const satisfies Record<string, { label: MessageKey; price: string; per: MessageKey; note: MessageKey }>;
 
 export type PlanId = keyof typeof plans;
 
-export const premiumPerks = [
-  "Units 3–10 of the A1 course",
-  "New lessons as they're released",
-  "Support a small Slovak-learning project",
-];
+export const premiumPerks: MessageKey[] = ["pricing.perk1", "pricing.perk2", "pricing.perk3"];
 
 export const FREE_UNIT_COUNT = 2;

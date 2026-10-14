@@ -3,10 +3,11 @@ import { Nunito } from "next/font/google";
 import { AppProvider } from "@/components/app-provider";
 import "./globals.css";
 
-// latin-ext covers Slovak letters like ľ, ĺ, ŕ, ď, ť, ň, ô.
+// latin-ext covers Slovak letters like ľ, ĺ, ŕ, ď, ť, ň, ô; cyrillic covers
+// Ukrainian and Russian.
 const nunito = Nunito({
   variable: "--font-nunito",
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin", "latin-ext", "cyrillic", "cyrillic-ext"],
 });
 
 export const metadata: Metadata = {

@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "validate:course": "tsx scripts/validate-course.ts",
+    "generate:audio": "tsx scripts/generate-audio.ts",
+    "i18n:sync": "tsx scripts/sync-translations.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
@@ -24,6 +27,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.4.1",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   }
 }

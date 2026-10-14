@@ -1,0 +1,1974 @@
+{
+  "u8.titleEn": {
+    "en": "In the company",
+    "t": "У фірмі"
+  },
+  "u8.topics": {
+    "en": [
+      "The company",
+      "Days, months, dates",
+      "CV and job interview"
+    ],
+    "t": [
+      "Фірма",
+      "Дні, місяці, дати",
+      "Резюме й співбесіда"
+    ]
+  },
+  "u8.grammar": {
+    "en": [
+      "Dates (ordinal numbers)",
+      "Double negation",
+      "Locative case",
+      "Locative prepositions and pronouns"
+    ],
+    "t": [
+      "Дати (порядкові числівники)",
+      "Подвійне заперечення",
+      "Місцевий відмінок",
+      "Прийменники й займенники в місцевому відмінку"
+    ]
+  },
+  "u8-l1.titleEn": {
+    "en": "At work",
+    "t": "На роботі"
+  },
+  "u8-l1.0.en": {
+    "en": "company, firm",
+    "t": "фірма, компанія"
+  },
+  "u8-l1.0.note": {
+    "en": "The boss of a firma is the **riaditeľ** (director). Tomáš pracuje vo firme. = Tomáš works for a company.",
+    "t": "Фірму очолює **riaditeľ** (директор). Tomáš pracuje vo firme. = Томаш працює у фірмі."
+  },
+  "u8-l1.1.en": {
+    "en": "department",
+    "t": "відділ"
+  },
+  "u8-l1.1.note": {
+    "en": "**Technické** oddelenie is the technical department. **Personálne** oddelenie is HR.",
+    "t": "**Technické** oddelenie — технічний відділ. **Personálne** oddelenie — відділ кадрів."
+  },
+  "u8-l1.2.en": {
+    "en": "employee (man / woman)",
+    "t": "працівник / працівниця"
+  },
+  "u8-l1.2.note": {
+    "en": "Many employees work in a **kancelária** (office).",
+    "t": "Багато працівників працюють в офісі — **kancelária** (не «канцелярія»)."
+  },
+  "u8-l1.3.question": {
+    "en": "What does this mean?",
+    "t": "Що це означає?"
+  },
+  "u8-l1.3.options": {
+    "en": [
+      "department",
+      "employee",
+      "director"
+    ],
+    "t": [
+      "відділ",
+      "працівник",
+      "директор"
+    ]
+  },
+  "u8-l1.4.en": {
+    "en": "meeting (with colleagues)",
+    "t": "нарада (з колегами)"
+  },
+  "u8-l1.4.note": {
+    "en": "A team meeting at work. Mám poradu. = I have a meeting.",
+    "t": "Робоча нарада з колегами. Не плутайте з українським «порада»! Mám poradu. = У мене нарада."
+  },
+  "u8-l1.5.en": {
+    "en": "meeting, appointment",
+    "t": "зустріч"
+  },
+  "u8-l1.5.note": {
+    "en": "A meeting with someone: a client, a friend, a doctor.",
+    "t": "Зустріч із кимось: із клієнтом, другом, лікарем."
+  },
+  "u8-l1.6.en": {
+    "en": "We have a meeting at ten today.",
+    "t": "Сьогодні о десятій у нас нарада."
+  },
+  "u8-l1.7.pairs": {
+    "en": [
+      "department",
+      "employee",
+      "team meeting",
+      "appointment",
+      "director"
+    ],
+    "t": [
+      "відділ",
+      "працівник",
+      "нарада",
+      "зустріч",
+      "директор"
+    ]
+  },
+  "u8-l1.8.en": {
+    "en": "internship",
+    "t": "стажування"
+  },
+  "u8-l1.8.note": {
+    "en": "Emma hľadá stáž. = Emma is looking for an internship.",
+    "t": "Emma hľadá stáž. = Емма шукає стажування."
+  },
+  "u8-l1.9.en": {
+    "en": "CV, résumé",
+    "t": "резюме (дослівно «життєпис»)"
+  },
+  "u8-l1.10.en": {
+    "en": "job interview",
+    "t": "співбесіда"
+  },
+  "u8-l1.10.note": {
+    "en": "Mám pohovor. = I have a job interview.",
+    "t": "Від hovoriť (говорити). Mám pohovor. = У мене співбесіда."
+  },
+  "u8-l1.11.question": {
+    "en": "Emma wants to work at a company for three months during her studies. What is she looking for?",
+    "t": "Емма хоче під час навчання три місяці попрацювати у фірмі. Що вона шукає?"
+  },
+  "u8-l1.12.prompt": {
+    "en": "The company is looking for a new programmer.",
+    "t": "Фірма шукає нового програміста."
+  },
+  "u8-l1.13.en": {
+    "en": "I have a job interview tomorrow.",
+    "t": "Завтра в мене співбесіда."
+  },
+  "u8-l1.14.en": {
+    "en": "Jana is a new employee.",
+    "t": "Яна — нова працівниця."
+  },
+  "u8-l1.15.prompt": {
+    "en": "Emma is writing a CV.",
+    "t": "Емма пише резюме."
+  },
+  "u8-l1.16.answers": {
+    "en": [
+      "The job interview is at nine.",
+      "The interview is at nine."
+    ],
+    "t": [
+      "Співбесіда о дев'ятій.",
+      "Співбесіда буде о дев'ятій.",
+      "О дев'ятій співбесіда."
+    ]
+  },
+  "u8-l1.16.distractors": {
+    "en": [
+      "ten",
+      "meeting"
+    ],
+    "t": [
+      "десятій",
+      "нарада"
+    ]
+  },
+  "u8-l1.17.en": {
+    "en": "I have a meeting today.",
+    "t": "Сьогодні в мене нарада."
+  },
+  "u8-l2.titleEn": {
+    "en": "Days and months",
+    "t": "Дні та місяці"
+  },
+  "u8-l2.0.title": {
+    "en": "Days of the week",
+    "t": "Дні тижня"
+  },
+  "u8-l2.0.body": {
+    "en": [
+      "Days of the week are written with a small letter. “On Monday” is v + the day: v pondelok.",
+      "Days ending in -a change it to **-u**, like the accusative you know: streda → v stred**u**. Štvrtok is special: **vo** štvrtok."
+    ],
+    "t": [
+      "«У понеділок» — v pondelok: прийменник v + знахідний відмінок, як і в українській.",
+      "Закінчення -a змінюється на **-u**, так само як у нас: streda → v stred**u** (середа → у середу). Štvrtok — особливий: **vo** štvrtok."
+    ]
+  },
+  "u8-l2.0.table.head": {
+    "en": [
+      "day",
+      "on that day",
+      ""
+    ],
+    "t": [
+      "день",
+      "коли?",
+      "українською"
+    ]
+  },
+  "u8-l2.0.table.rows": {
+    "en": [
+      [
+        "pondelok",
+        "v pondelok",
+        "Monday"
+      ],
+      [
+        "utorok",
+        "v utorok",
+        "Tuesday"
+      ],
+      [
+        "streda",
+        "v stred**u**",
+        "Wednesday"
+      ],
+      [
+        "štvrtok",
+        "**vo** štvrtok",
+        "Thursday"
+      ],
+      [
+        "piatok",
+        "v piatok",
+        "Friday"
+      ],
+      [
+        "sobota",
+        "v sobot**u**",
+        "Saturday"
+      ],
+      [
+        "nedeľa",
+        "v nedeľ**u**",
+        "Sunday"
+      ]
+    ],
+    "t": [
+      [
+        "pondelok",
+        "v pondelok",
+        "у понеділок"
+      ],
+      [
+        "utorok",
+        "v utorok",
+        "у вівторок"
+      ],
+      [
+        "streda",
+        "v stred**u**",
+        "у середу"
+      ],
+      [
+        "štvrtok",
+        "**vo** štvrtok",
+        "у четвер"
+      ],
+      [
+        "piatok",
+        "v piatok",
+        "у п'ятницю"
+      ],
+      [
+        "sobota",
+        "v sobot**u**",
+        "у суботу"
+      ],
+      [
+        "nedeľa",
+        "v nedeľ**u**",
+        "у неділю"
+      ]
+    ]
+  },
+  "u8-l2.0.examples": {
+    "en": [
+      "I have an appointment on Wednesday.",
+      "We're going to the cinema on Thursday."
+    ],
+    "t": [
+      "У середу в мене зустріч.",
+      "У четвер ми йдемо в кіно."
+    ]
+  },
+  "u8-l2.1.question": {
+    "en": "What does this mean?",
+    "t": "Що це означає?"
+  },
+  "u8-l2.1.options": {
+    "en": [
+      "Wednesday",
+      "Thursday",
+      "Sunday"
+    ],
+    "t": [
+      "середа",
+      "четвер",
+      "неділя"
+    ]
+  },
+  "u8-l2.2.pairs": {
+    "en": [
+      "Monday",
+      "Tuesday",
+      "Thursday",
+      "Friday",
+      "Sunday"
+    ],
+    "t": [
+      "понеділок",
+      "вівторок",
+      "четвер",
+      "п'ятниця",
+      "неділя"
+    ]
+  },
+  "u8-l2.3.en": {
+    "en": "The meeting is on Wednesday.",
+    "t": "Нарада в середу."
+  },
+  "u8-l2.4.en": {
+    "en": "at the weekend",
+    "t": "на вихідних"
+  },
+  "u8-l2.4.note": {
+    "en": "víkend = weekend. Cez týždeň = during the week.",
+    "t": "víkend = вихідні, вікенд. Cez týždeň = у будні, протягом тижня."
+  },
+  "u8-l2.5.en": {
+    "en": "the day after tomorrow",
+    "t": "післязавтра"
+  },
+  "u8-l2.5.note": {
+    "en": "Its opposite is predvčerom, the day before yesterday.",
+    "t": "Протилежне — predvčerom, позавчора."
+  },
+  "u8-l2.6.answers": {
+    "en": [
+      "The day after tomorrow is Saturday."
+    ],
+    "t": [
+      "Післязавтра буде субота.",
+      "Післязавтра субота."
+    ]
+  },
+  "u8-l2.6.distractors": {
+    "en": [
+      "Sunday",
+      "yesterday"
+    ],
+    "t": [
+      "неділя",
+      "вчора"
+    ]
+  },
+  "u8-l2.7.en": {
+    "en": "I have an appointment on Thursday.",
+    "t": "У четвер у мене зустріч."
+  },
+  "u8-l2.8.prompt": {
+    "en": "I have a job interview on Friday.",
+    "t": "У п'ятницю в мене співбесіда."
+  },
+  "u8-l2.9.title": {
+    "en": "Months",
+    "t": "Місяці"
+  },
+  "u8-l2.9.body": {
+    "en": [
+      "Months are written with a small letter too, and most of them look familiar.",
+      "“In May” is v máji: most months take **-i**, august takes **-e**. Marec and the months in -ber lose their e: v marc**i**, v októbr**i**. Before f, use vo: vo februári."
+    ],
+    "t": [
+      "Назви місяців у словацькій міжнародні, тож їх легко впізнати: január, február, marec…",
+      "«У травні» — v máji (місцевий відмінок): більшість місяців мають **-i**, august — **-e**. Marec і місяці на -ber втрачають e: v marc**i**, v októbr**i**. Перед f — vo: vo februári."
+    ]
+  },
+  "u8-l2.9.table.head": {
+    "en": [
+      "month",
+      "in …",
+      "month",
+      "in …"
+    ],
+    "t": [
+      "місяць",
+      "у …",
+      "місяць",
+      "у …"
+    ]
+  },
+  "u8-l2.9.table.rows": {
+    "en": [
+      [
+        "január",
+        "v január**i**",
+        "júl",
+        "v júl**i**"
+      ],
+      [
+        "február",
+        "vo február**i**",
+        "august",
+        "v august**e**"
+      ],
+      [
+        "marec",
+        "v marc**i**",
+        "september",
+        "v septembr**i**"
+      ],
+      [
+        "apríl",
+        "v apríl**i**",
+        "október",
+        "v októbr**i**"
+      ],
+      [
+        "máj",
+        "v máj**i**",
+        "november",
+        "v novembr**i**"
+      ],
+      [
+        "jún",
+        "v jún**i**",
+        "december",
+        "v decembr**i**"
+      ]
+    ],
+    "t": [
+      [
+        "január",
+        "v január**i**",
+        "júl",
+        "v júl**i**"
+      ],
+      [
+        "február",
+        "vo február**i**",
+        "august",
+        "v august**e**"
+      ],
+      [
+        "marec",
+        "v marc**i**",
+        "september",
+        "v septembr**i**"
+      ],
+      [
+        "apríl",
+        "v apríl**i**",
+        "október",
+        "v októbr**i**"
+      ],
+      [
+        "máj",
+        "v máj**i**",
+        "november",
+        "v novembr**i**"
+      ],
+      [
+        "jún",
+        "v jún**i**",
+        "december",
+        "v decembr**i**"
+      ]
+    ]
+  },
+  "u8-l2.9.examples": {
+    "en": [
+      "Emma's birthday is in May.",
+      "School starts in September."
+    ],
+    "t": [
+      "В Емми день народження в травні.",
+      "У вересні починається школа."
+    ]
+  },
+  "u8-l2.10.pairs": {
+    "en": [
+      "in March",
+      "in February",
+      "in June",
+      "in August",
+      "in December"
+    ],
+    "t": [
+      "у березні",
+      "у лютому",
+      "у червні",
+      "у серпні",
+      "у грудні"
+    ]
+  },
+  "u8-l2.11.en": {
+    "en": "Lucia's birthday is in July.",
+    "t": "У Луції день народження в липні."
+  },
+  "u8-l2.12.en": {
+    "en": "in summer",
+    "t": "влітку"
+  },
+  "u8-l2.12.note": {
+    "en": "leto = summer. Na jar = in spring.",
+    "t": "leto = літо. Na jar = навесні."
+  },
+  "u8-l2.13.en": {
+    "en": "in winter",
+    "t": "взимку"
+  },
+  "u8-l2.13.note": {
+    "en": "zima = winter. Na jeseň = in autumn.",
+    "t": "zima = зима. Na jeseň = восени."
+  },
+  "u8-l2.14.question": {
+    "en": "How do you say “in summer”?",
+    "t": "Як сказати «влітку»?"
+  },
+  "u8-l2.15.en": {
+    "en": "Christmas is in December.",
+    "t": "Різдво в грудні."
+  },
+  "u8-l2.16.answers": {
+    "en": [
+      "In winter I'm at home in Ireland.",
+      "In winter I am at home in Ireland.",
+      "In the winter I'm at home in Ireland.",
+      "I'm at home in Ireland in winter."
+    ],
+    "t": [
+      "Взимку я вдома в Ірландії.",
+      "Я взимку вдома в Ірландії.",
+      "Я вдома в Ірландії взимку.",
+      "Узимку я вдома в Ірландії."
+    ]
+  },
+  "u8-l2.16.distractors": {
+    "en": [
+      "summer",
+      "Slovakia"
+    ],
+    "t": [
+      "влітку",
+      "Словаччині"
+    ]
+  },
+  "u8-l2.17.en": {
+    "en": "I have a meeting on Monday.",
+    "t": "У понеділок у мене нарада."
+  },
+  "u8-l3.titleEn": {
+    "en": "What's the date?",
+    "t": "Яке сьогодні число?"
+  },
+  "u8-l3.0.title": {
+    "en": "Ordinal numbers in dates",
+    "t": "Порядкові числівники в датах"
+  },
+  "u8-l3.0.body": {
+    "en": [
+      "Dates use ordinal numbers: first, second, third… Ktorého je dnes? = What's the date today?",
+      "In a date the ordinal ends in **-ého**: prv**ého**, druh**ého**. Slovak avoids two long syllables in a row, so if the syllable before is already long (á, í, ia, ie, ô…), the ending is short, **-eho**: piat**eho**, šiest**eho**. Tretí gives tret**ieho**."
+    ],
+    "t": [
+      "У датах, як і в українській, уживають порядкові числівники: prvý, druhý, tretí… (перший, другий, третій). Ktorého je dnes? = Яке сьогодні число?",
+      "У даті числівник стоїть у родовому відмінку й закінчується на **-ého** — як наше -ого: prv**ého** = першого, druh**ého** = другого. Словацька уникає двох довгих складів поспіль, тож після довгого складу (á, í, ia, ie, ô…) закінчення коротке — **-eho**: piat**eho**, šiest**eho**. Від tretí — tret**ieho**."
+    ]
+  },
+  "u8-l3.0.table.head": {
+    "en": [
+      "",
+      "1st, 2nd…",
+      "in a date"
+    ],
+    "t": [
+      "число",
+      "1-й, 2-й…",
+      "у даті"
+    ]
+  },
+  "u8-l3.0.table.rows": {
+    "en": [
+      [
+        "1.",
+        "prvý",
+        "prv**ého**"
+      ],
+      [
+        "2.",
+        "druhý",
+        "druh**ého**"
+      ],
+      [
+        "3.",
+        "tretí",
+        "tret**ieho**"
+      ],
+      [
+        "4.",
+        "štvrtý",
+        "štvrt**ého**"
+      ],
+      [
+        "5.",
+        "piaty",
+        "piat**eho**"
+      ],
+      [
+        "6.",
+        "šiesty",
+        "šiest**eho**"
+      ],
+      [
+        "10.",
+        "desiaty",
+        "desiat**eho**"
+      ],
+      [
+        "20.",
+        "dvadsiaty",
+        "dvadsiat**eho**"
+      ]
+    ],
+    "t": [
+      [
+        "1.",
+        "prvý",
+        "prv**ého**"
+      ],
+      [
+        "2.",
+        "druhý",
+        "druh**ého**"
+      ],
+      [
+        "3.",
+        "tretí",
+        "tret**ieho**"
+      ],
+      [
+        "4.",
+        "štvrtý",
+        "štvrt**ého**"
+      ],
+      [
+        "5.",
+        "piaty",
+        "piat**eho**"
+      ],
+      [
+        "6.",
+        "šiesty",
+        "šiest**eho**"
+      ],
+      [
+        "10.",
+        "desiaty",
+        "desiat**eho**"
+      ],
+      [
+        "20.",
+        "dvadsiaty",
+        "dvadsiat**eho**"
+      ]
+    ]
+  },
+  "u8-l3.0.examples": {
+    "en": [
+      "Today is the first of June.",
+      "The meeting is on the fourth of March."
+    ],
+    "t": [
+      "Сьогодні перше червня.",
+      "Нарада четвертого березня."
+    ]
+  },
+  "u8-l3.1.title": {
+    "en": "Months in a date",
+    "t": "Місяць у даті"
+  },
+  "u8-l3.1.body": {
+    "en": [
+      "The month changes too (“of May”): most months just add **-a**. Marec and the months in -ber lose their e: marc**a**, októbr**a**.",
+      "Slovaks write the day first, with dots: 5. 5. is piateho mája, the fifth of May."
+    ],
+    "t": [
+      "Місяць теж стоїть у родовому відмінку, як «травня»: більшість місяців просто додають **-a**. Marec і місяці на -ber втрачають e: marc**a**, októbr**a**.",
+      "Дату пишуть із крапками після дня й місяця: 5. 5. = piateho mája (п'ятого травня). І навіть «Сьогодні п'яте травня» словацькою звучить у родовому: Dnes je piateho mája."
+    ]
+  },
+  "u8-l3.1.table.head": {
+    "en": [
+      "month",
+      "in a date",
+      "month",
+      "in a date"
+    ],
+    "t": [
+      "місяць",
+      "у даті",
+      "місяць",
+      "у даті"
+    ]
+  },
+  "u8-l3.1.table.rows": {
+    "en": [
+      [
+        "január",
+        "január**a**",
+        "júl",
+        "júl**a**"
+      ],
+      [
+        "február",
+        "február**a**",
+        "august",
+        "august**a**"
+      ],
+      [
+        "marec",
+        "marc**a**",
+        "september",
+        "septembr**a**"
+      ],
+      [
+        "apríl",
+        "apríl**a**",
+        "október",
+        "októbr**a**"
+      ],
+      [
+        "máj",
+        "máj**a**",
+        "november",
+        "novembr**a**"
+      ],
+      [
+        "jún",
+        "jún**a**",
+        "december",
+        "decembr**a**"
+      ]
+    ],
+    "t": [
+      [
+        "január",
+        "január**a**",
+        "júl",
+        "júl**a**"
+      ],
+      [
+        "február",
+        "február**a**",
+        "august",
+        "august**a**"
+      ],
+      [
+        "marec",
+        "marc**a**",
+        "september",
+        "septembr**a**"
+      ],
+      [
+        "apríl",
+        "apríl**a**",
+        "október",
+        "októbr**a**"
+      ],
+      [
+        "máj",
+        "máj**a**",
+        "november",
+        "novembr**a**"
+      ],
+      [
+        "jún",
+        "jún**a**",
+        "december",
+        "decembr**a**"
+      ]
+    ]
+  },
+  "u8-l3.1.examples": {
+    "en": [
+      "Today is the fourteenth of October.",
+      "My birthday is on the third of May."
+    ],
+    "t": [
+      "Сьогодні чотирнадцяте жовтня.",
+      "У мене день народження третього травня."
+    ]
+  },
+  "u8-l3.2.question": {
+    "en": "What does this question ask?",
+    "t": "Що означає це питання?"
+  },
+  "u8-l3.2.options": {
+    "en": [
+      "What's the date today?",
+      "What day is it today?",
+      "What time is it?"
+    ],
+    "t": [
+      "Яке сьогодні число?",
+      "Який сьогодні день тижня?",
+      "Котра година?"
+    ]
+  },
+  "u8-l3.3.en": {
+    "en": "Today is the fifth of May.",
+    "t": "Сьогодні п'яте травня."
+  },
+  "u8-l3.4.en": {
+    "en": "The meeting is on the twelfth of June.",
+    "t": "Нарада дванадцятого червня."
+  },
+  "u8-l3.5.prompt": {
+    "en": "Today is the first of October.",
+    "t": "Сьогодні перше жовтня."
+  },
+  "u8-l3.6.title": {
+    "en": "When were you born?",
+    "t": "Коли ви народилися?"
+  },
+  "u8-l3.6.body": {
+    "en": [
+      "To be born is narodiť sa. Use the past tense: narodil som sa (man), narodila som sa (woman).",
+      "In 21st, 22nd… both parts change: dvadsiat**eho** prv**ého**. For a year, say v roku: v roku 2004."
+    ],
+    "t": [
+      "«Народитися» — narodiť sa. Як і в українській, кажуть у минулому часі: narodil som sa (я народився), narodila som sa (я народилася).",
+      "У числах 21, 22… змінюються обидві частини (в українській — лише остання: «двадцять першого»): dvadsiat**eho** prv**ého**. Рік: v roku 2004 = у 2004 році."
+    ]
+  },
+  "u8-l3.6.examples": {
+    "en": [
+      "When were you born?",
+      "I was born on the third of May.",
+      "Tomáš was born on the twenty-first of March."
+    ],
+    "t": [
+      "Коли ти народилася?",
+      "Я народилася третього травня.",
+      "Томаш народився двадцять першого березня."
+    ]
+  },
+  "u8-l3.7.question": {
+    "en": "Emma was born on 3 May. What does she say?",
+    "t": "Емма народилася 3 травня. Що вона скаже?"
+  },
+  "u8-l3.8.en": {
+    "en": "I was born on the second of June.",
+    "t": "Я народилася другого червня."
+  },
+  "u8-l3.9.pairs": {
+    "en": [
+      "1 January",
+      "3 March",
+      "5 May",
+      "10 October",
+      "20 December"
+    ],
+    "t": [
+      "1 січня",
+      "3 березня",
+      "5 травня",
+      "10 жовтня",
+      "20 грудня"
+    ]
+  },
+  "u8-l3.10.en": {
+    "en": "My birthday is on the third of April.",
+    "t": "У мене день народження третього квітня."
+  },
+  "u8-l3.11.answers": {
+    "en": [
+      "The meeting is on the twenty-first of March.",
+      "The meeting is on March twenty-first.",
+      "The meeting is on March the twenty-first."
+    ],
+    "t": [
+      "Зустріч двадцять першого березня.",
+      "Зустріч буде двадцять першого березня."
+    ]
+  },
+  "u8-l3.11.distractors": {
+    "en": [
+      "second",
+      "May"
+    ],
+    "t": [
+      "двадцятого",
+      "другого",
+      "травня"
+    ]
+  },
+  "u8-l3.12.prompt": {
+    "en": "Emma: “I was born on the tenth of July.”",
+    "t": "Емма: «Я народилася десятого липня»."
+  },
+  "u8-l3.13.en": {
+    "en": "The interview is on the twenty-second of September.",
+    "t": "Співбесіда двадцять другого вересня."
+  },
+  "u8-l3.14.en": {
+    "en": "What's the date today?",
+    "t": "Яке сьогодні число?"
+  },
+  "u8-l4.titleEn": {
+    "en": "Nobody, nothing, never",
+    "t": "Ніхто, нічого, ніколи"
+  },
+  "u8-l4.0.title": {
+    "en": "Double negation",
+    "t": "Подвійне заперечення"
+  },
+  "u8-l4.0.body": {
+    "en": [
+      "Nikto (nobody), nič (nothing), nikdy (never), nikde and nikam (nowhere) always go with a negative verb: Nikto **ne**volal. = Nobody called.",
+      "This double negative is normal Slovak, not a mistake. You can even stack them: Nikto nič **ne**robí. = Nobody does anything."
+    ],
+    "t": [
+      "Nikto (ніхто), nič (нічого), nikdy (ніколи), nikde (ніде) і nikam (нікуди) завжди вживаються із запереченим дієсловом: Nikto **ne**volal. = Ніхто не дзвонив.",
+      "Усе як в українській — навіть кілька заперечень поспіль: Nikto nič **ne**robí. = Ніхто нічого не робить. Тільки ne- пишеться разом із дієсловом."
+    ]
+  },
+  "u8-l4.0.table.head": {
+    "en": [
+      "",
+      "some…",
+      "no… + ne-verb"
+    ],
+    "t": [
+      "питання",
+      "хтось, щось…",
+      "ніхто… + ne-дієслово"
+    ]
+  },
+  "u8-l4.0.table.rows": {
+    "en": [
+      [
+        "who",
+        "niekto",
+        "**ni**kto"
+      ],
+      [
+        "what",
+        "niečo",
+        "**ni**č"
+      ],
+      [
+        "when",
+        "niekedy",
+        "**ni**kdy"
+      ],
+      [
+        "where",
+        "niekde",
+        "**ni**kde"
+      ],
+      [
+        "where to",
+        "niekam",
+        "**ni**kam"
+      ]
+    ],
+    "t": [
+      [
+        "хто",
+        "niekto",
+        "**ni**kto"
+      ],
+      [
+        "що",
+        "niečo",
+        "**ni**č"
+      ],
+      [
+        "коли",
+        "niekedy",
+        "**ni**kdy"
+      ],
+      [
+        "де",
+        "niekde",
+        "**ni**kde"
+      ],
+      [
+        "куди",
+        "niekam",
+        "**ni**kam"
+      ]
+    ]
+  },
+  "u8-l4.0.examples": {
+    "en": [
+      "I never have time. (čas = time)",
+      "Tomáš is never late.",
+      "I'm not going anywhere at the weekend."
+    ],
+    "t": [
+      "Я ніколи не маю часу.",
+      "Томаш ніколи не запізнюється.",
+      "На вихідних я нікуди не йду."
+    ]
+  },
+  "u8-l4.1.en": {
+    "en": "I'm not doing anything today.",
+    "t": "Сьогодні я нічого не роблю."
+  },
+  "u8-l4.2.en": {
+    "en": "Nobody is in the library.",
+    "t": "У бібліотеці нікого немає."
+  },
+  "u8-l4.3.question": {
+    "en": "What does this mean?",
+    "t": "Що це означає?"
+  },
+  "u8-l4.3.options": {
+    "en": [
+      "Nobody knows anything.",
+      "Somebody knows something.",
+      "Nobody knows everything."
+    ],
+    "t": [
+      "Ніхто нічого не знає.",
+      "Хтось щось знає.",
+      "Ніхто не знає всього."
+    ]
+  },
+  "u8-l4.4.prompt": {
+    "en": "Nobody is at home.",
+    "t": "Вдома нікого немає."
+  },
+  "u8-l4.5.answers": {
+    "en": [
+      "Emma never drinks coffee."
+    ],
+    "t": [
+      "Емма ніколи не п'є каву.",
+      "Емма ніколи не п'є кави."
+    ]
+  },
+  "u8-l4.5.distractors": {
+    "en": [
+      "always",
+      "tea"
+    ],
+    "t": [
+      "завжди",
+      "чай"
+    ]
+  },
+  "u8-l4.6.question": {
+    "en": "Make it negative: “Niečo vidím.” (I can see something.)",
+    "t": "Зробіть речення заперечним: «Niečo vidím.» (Я щось бачу.)"
+  },
+  "u8-l4.7.title": {
+    "en": "How often?",
+    "t": "Як часто?"
+  },
+  "u8-l4.7.body": {
+    "en": [
+      "These words usually go before the verb. Only nikdy needs a negative verb."
+    ],
+    "t": [
+      "Ці слова зазвичай стоять перед дієсловом. Заперечення потрібне тільки з nikdy — як «ніколи не»."
+    ]
+  },
+  "u8-l4.7.table.rows": {
+    "en": [
+      [
+        "vždy",
+        "always"
+      ],
+      [
+        "zvyčajne",
+        "usually"
+      ],
+      [
+        "často",
+        "often"
+      ],
+      [
+        "niekedy",
+        "sometimes"
+      ],
+      [
+        "málokedy",
+        "rarely"
+      ],
+      [
+        "nikdy … **ne**-",
+        "never"
+      ]
+    ],
+    "t": [
+      [
+        "vždy",
+        "завжди"
+      ],
+      [
+        "zvyčajne",
+        "зазвичай"
+      ],
+      [
+        "často",
+        "часто"
+      ],
+      [
+        "niekedy",
+        "іноді"
+      ],
+      [
+        "málokedy",
+        "рідко"
+      ],
+      [
+        "nikdy … **ne**-",
+        "ніколи не…"
+      ]
+    ]
+  },
+  "u8-l4.7.examples": {
+    "en": [
+      "On Fridays Tomáš usually works from home.",
+      "Marek rarely cooks at home."
+    ],
+    "t": [
+      "По п'ятницях Томаш зазвичай працює вдома.",
+      "Марек рідко готує вдома."
+    ]
+  },
+  "u8-l4.8.pairs": {
+    "en": [
+      "always",
+      "often",
+      "sometimes",
+      "rarely",
+      "never"
+    ],
+    "t": [
+      "завжди",
+      "часто",
+      "іноді",
+      "рідко",
+      "ніколи"
+    ]
+  },
+  "u8-l4.9.en": {
+    "en": "Marek never cooks at home.",
+    "t": "Марек ніколи не готує вдома."
+  },
+  "u8-l4.10.en": {
+    "en": "Nobody said anything at the meeting.",
+    "t": "На нараді ніхто нічого не говорив."
+  },
+  "u8-l4.11.prompt": {
+    "en": "I never have time.",
+    "t": "Я ніколи не маю часу."
+  },
+  "u8-l4.12.en": {
+    "en": "I'm looking for Tomáš, but I can't see him anywhere.",
+    "t": "Я шукаю Томаша, але ніде його не бачу."
+  },
+  "u8-l4.13.answers": {
+    "en": [
+      "Lucia usually gets up at seven."
+    ],
+    "t": [
+      "Луція зазвичай встає о сьомій.",
+      "Зазвичай Луція встає о сьомій."
+    ]
+  },
+  "u8-l4.13.distractors": {
+    "en": [
+      "never",
+      "eight"
+    ],
+    "t": [
+      "ніколи",
+      "восьмій"
+    ]
+  },
+  "u8-l4.14.en": {
+    "en": "I'm never late.",
+    "t": "Я ніколи не запізнююся."
+  },
+  "u8-l5.titleEn": {
+    "en": "Where? The locative",
+    "t": "Де? Місцевий відмінок"
+  },
+  "u8-l5.0.title": {
+    "en": "Where? The locative case",
+    "t": "Де? Місцевий відмінок"
+  },
+  "u8-l5.0.body": {
+    "en": [
+      "To say where something is, Slovak uses the locative case. You already know some: v knižnici, na prednáške, v januári. It always follows a preposition, usually v (in) or na (on, at). Before v and f, v becomes vo: vo firme.",
+      "Most feminine and neuter nouns take **-e**. After soft letters (c, č, š, ž, j, ň, ľ) it's **-i**. Nouns in -ia get **-ii**, nouns in -ie get **-í**, and -ko becomes **-ku**."
+    ],
+    "t": [
+      "На питання «де?» словацька, як і українська, відповідає місцевим відмінком: vo firme = у фірмі. Кілька форм ви вже знаєте: v knižnici, na prednáške, v januári. Місцевий завжди вживається з прийменником, найчастіше v (у, в) або na (на). Перед v і f замість v кажуть vo: vo firme.",
+      "Більшість іменників жіночого й середнього роду мають **-e**: v škole = у школі. Після м'яких приголосних (c, č, š, ž, j, ň, ľ) — **-i**. Іменники на -ia мають **-ii**, на -ie — **-í**, а -ko стає **-ku**."
+    ]
+  },
+  "u8-l5.0.table.head": {
+    "en": [
+      "",
+      "where?",
+      ""
+    ],
+    "t": [
+      "що?",
+      "де?",
+      "українською"
+    ]
+  },
+  "u8-l5.0.table.rows": {
+    "en": [
+      [
+        "firma",
+        "vo firm**e**",
+        "company"
+      ],
+      [
+        "škola",
+        "v škol**e**",
+        "school"
+      ],
+      [
+        "mesto",
+        "v mest**e**",
+        "town"
+      ],
+      [
+        "ulica",
+        "na ulic**i**",
+        "street"
+      ],
+      [
+        "práca",
+        "v prác**i**",
+        "work"
+      ],
+      [
+        "kancelária",
+        "v kancelári**i**",
+        "office"
+      ],
+      [
+        "oddelenie",
+        "na oddelen**í**",
+        "department"
+      ],
+      [
+        "Slovensko",
+        "na Slovensk**u**",
+        "Slovakia"
+      ]
+    ],
+    "t": [
+      [
+        "firma",
+        "vo firm**e**",
+        "у фірмі"
+      ],
+      [
+        "škola",
+        "v škol**e**",
+        "у школі"
+      ],
+      [
+        "mesto",
+        "v mest**e**",
+        "у місті"
+      ],
+      [
+        "ulica",
+        "na ulic**i**",
+        "на вулиці"
+      ],
+      [
+        "práca",
+        "v prác**i**",
+        "на роботі"
+      ],
+      [
+        "kancelária",
+        "v kancelári**i**",
+        "в офісі"
+      ],
+      [
+        "oddelenie",
+        "na oddelen**í**",
+        "у відділі"
+      ],
+      [
+        "Slovensko",
+        "na Slovensk**u**",
+        "у Словаччині"
+      ]
+    ]
+  },
+  "u8-l5.0.examples": {
+    "en": [
+      "Lucia lives in Bratislava.",
+      "Tomáš is at work."
+    ],
+    "t": [
+      "Луція живе в Братиславі.",
+      "Томаш на роботі."
+    ]
+  },
+  "u8-l5.1.title": {
+    "en": "Masculine nouns, v or na",
+    "t": "Чоловічий рід. V чи na?"
+  },
+  "u8-l5.1.body": {
+    "en": [
+      "Masculine nouns for things mostly add **-e** too. After k, g, h, ch the ending is **-u**. After soft letters, and in a few words like hotel, it's **-i**.",
+      "V or na? Most places take v. Some take na, so learn them as set phrases: na univerzite, na pošte, na stanici, na porade, na Slovensku."
+    ],
+    "t": [
+      "Іменники чоловічого роду — назви предметів — теж здебільшого мають **-e**. Після k, g, h, ch закінчення **-u**, як в українській: «у парку». Після м'яких приголосних, а також у кількох словах на кшталт hotel — **-i**.",
+      "V чи na? Здебільшого v, але деякі місця вживаються з na — запам'ятовуйте їх як готові вирази: na univerzite, na pošte, na stanici, na porade, na Slovensku. Прийменник не завжди збігається з українським: v práci = на роботі, na Slovensku = у Словаччині."
+    ]
+  },
+  "u8-l5.1.table.head": {
+    "en": [
+      "",
+      "where?",
+      ""
+    ],
+    "t": [
+      "що?",
+      "де?",
+      "українською"
+    ]
+  },
+  "u8-l5.1.table.rows": {
+    "en": [
+      [
+        "obchod",
+        "v obchod**e**",
+        "shop"
+      ],
+      [
+        "byt",
+        "v byt**e**",
+        "flat"
+      ],
+      [
+        "internát",
+        "na internát**e**",
+        "dormitory"
+      ],
+      [
+        "park",
+        "v park**u**",
+        "park"
+      ],
+      [
+        "vlak",
+        "vo vlak**u**",
+        "train"
+      ],
+      [
+        "počítač",
+        "v počítač**i**",
+        "computer"
+      ],
+      [
+        "hotel",
+        "v hotel**i**",
+        "hotel"
+      ]
+    ],
+    "t": [
+      [
+        "obchod",
+        "v obchod**e**",
+        "у магазині"
+      ],
+      [
+        "byt",
+        "v byt**e**",
+        "у квартирі"
+      ],
+      [
+        "internát",
+        "na internát**e**",
+        "у гуртожитку"
+      ],
+      [
+        "park",
+        "v park**u**",
+        "у парку"
+      ],
+      [
+        "vlak",
+        "vo vlak**u**",
+        "у поїзді"
+      ],
+      [
+        "počítač",
+        "v počítač**i**",
+        "у комп'ютері"
+      ],
+      [
+        "hotel",
+        "v hotel**i**",
+        "у готелі"
+      ]
+    ]
+  },
+  "u8-l5.1.examples": {
+    "en": [
+      "Emma lives in the dormitory.",
+      "We're in the shop."
+    ],
+    "t": [
+      "Емма живе в гуртожитку.",
+      "Ми в магазині."
+    ]
+  },
+  "u8-l5.2.en": {
+    "en": "Tomáš works for a company in Bratislava.",
+    "t": "Томаш працює у фірмі в Братиславі."
+  },
+  "u8-l5.3.en": {
+    "en": "Emma is in the office.",
+    "t": "Емма в офісі."
+  },
+  "u8-l5.4.question": {
+    "en": "How do you say “at the post office”?",
+    "t": "Як сказати «на пошті»?"
+  },
+  "u8-l5.5.prompt": {
+    "en": "We live in Bratislava.",
+    "t": "Ми живемо в Братиславі."
+  },
+  "u8-l5.6.en": {
+    "en": "Lucia is in the park.",
+    "t": "Луція в парку."
+  },
+  "u8-l5.7.en": {
+    "en": "Tomáš is on the train.",
+    "t": "Томаш у поїзді."
+  },
+  "u8-l5.8.title": {
+    "en": "Adjectives in the locative",
+    "t": "Прикметники в місцевому відмінку"
+  },
+  "u8-l5.8.body": {
+    "en": [
+      "Adjectives end in **-om** with masculine and neuter nouns, and in **-ej** with feminine ones.",
+      "Môj, náš and ten work the same way: v moj**om** byte, v naš**ej** firme, v t**ej** kancelárii."
+    ],
+    "t": [
+      "Прикметники в місцевому відмінку закінчуються на **-om** у чоловічому й середньому роді та на **-ej** у жіночому (пор. українські -ому, -ій).",
+      "Так само змінюються môj, náš і ten (мій, наш, той): v moj**om** byte, v naš**ej** firme, v t**ej** kancelárii. Увага: поверхи рахують від prízemie (першого, наземного поверху), тож prvé poschodie = наш другий поверх."
+    ]
+  },
+  "u8-l5.8.table.head": {
+    "en": [
+      "",
+      "where?"
+    ],
+    "t": [
+      "який?",
+      "де?"
+    ]
+  },
+  "u8-l5.8.table.rows": {
+    "en": [
+      [
+        "nový byt",
+        "v nov**om** byte"
+      ],
+      [
+        "technické oddelenie",
+        "na technick**om** oddelení"
+      ],
+      [
+        "prvé poschodie",
+        "na prv**om** poschodí"
+      ],
+      [
+        "veľká firma",
+        "vo veľk**ej** firme"
+      ],
+      [
+        "malá kancelária",
+        "v mal**ej** kancelárii"
+      ]
+    ],
+    "t": [
+      [
+        "nový byt",
+        "v nov**om** byte"
+      ],
+      [
+        "technické oddelenie",
+        "na technick**om** oddelení"
+      ],
+      [
+        "prvé poschodie",
+        "na prv**om** poschodí"
+      ],
+      [
+        "veľká firma",
+        "vo veľk**ej** firme"
+      ],
+      [
+        "malá kancelária",
+        "v mal**ej** kancelárii"
+      ]
+    ]
+  },
+  "u8-l5.8.examples": {
+    "en": [
+      "Tomáš works in the technical department.",
+      "Our office is on the second floor."
+    ],
+    "t": [
+      "Томаш працює в технічному відділі.",
+      "Наш офіс на третьому поверсі."
+    ]
+  },
+  "u8-l5.9.en": {
+    "en": "Emma lives in a small room.",
+    "t": "Емма живе в маленькій кімнаті."
+  },
+  "u8-l5.10.en": {
+    "en": "Lucia wants to work for a big company.",
+    "t": "Луція хоче працювати у великій фірмі."
+  },
+  "u8-l5.11.prompt": {
+    "en": "Marek works in a small restaurant.",
+    "t": "Марек працює в маленькому ресторані."
+  },
+  "u8-l5.12.answers": {
+    "en": [
+      "The office is on the first floor."
+    ],
+    "t": [
+      "Офіс на другому поверсі."
+    ]
+  },
+  "u8-l5.12.distractors": {
+    "en": [
+      "second",
+      "in"
+    ],
+    "t": [
+      "першому",
+      "в"
+    ]
+  },
+  "u8-l5.13.question": {
+    "en": "How do you say “in Slovakia”?",
+    "t": "Як сказати «у Словаччині»?"
+  },
+  "u8-l5.14.en": {
+    "en": "I'm at work.",
+    "t": "Я на роботі."
+  },
+  "u8-l6.titleEn": {
+    "en": "About me, about you",
+    "t": "Про мене, про тебе"
+  },
+  "u8-l6.0.title": {
+    "en": "O, po, pri + locative",
+    "t": "O, po, pri + місцевий відмінок"
+  },
+  "u8-l6.0.body": {
+    "en": [
+      "Three more prepositions take the locative: o (about), po (after) and pri (next to, by). **obed** = lunch, so po obed**e** = after lunch.",
+      "Men's names and other masculine words for people add **-ovi**: o Tomáš**ovi**, o programátor**ovi**. Women's names take the usual endings: o Emm**e**, o Luci**i**."
+    ],
+    "t": [
+      "Ще три прийменники вимагають місцевого відмінка: o (про), po (після) і pri (біля, при). **obed** = обід, тож po obed**e** = після обіду (пор. «по обіді»). Увага: українське «про» вимагає знахідного (про роботу), а словацьке o — місцевого: o práci.",
+      "Чоловічі імена та інші назви осіб чоловічого роду мають **-ovi** — як наше -ові/-еві («при Томашеві»): o Tomáš**ovi**, o programátor**ovi**. Жіночі імена мають звичайні закінчення: o Emm**e**, o Luci**i**."
+    ]
+  },
+  "u8-l6.0.table.head": {
+    "en": [
+      "",
+      "meaning",
+      "example"
+    ],
+    "t": [
+      "прийменник",
+      "значення",
+      "приклад"
+    ]
+  },
+  "u8-l6.0.table.rows": {
+    "en": [
+      [
+        "o",
+        "about",
+        "o prác**i**, o Tomáš**ovi**"
+      ],
+      [
+        "po",
+        "after",
+        "po porad**e**, po obed**e**"
+      ],
+      [
+        "pri",
+        "next to, by",
+        "pri okn**e**, pri počítač**i**"
+      ]
+    ],
+    "t": [
+      [
+        "o",
+        "про",
+        "o prác**i**, o Tomáš**ovi**"
+      ],
+      [
+        "po",
+        "після",
+        "po porad**e**, po obed**e**"
+      ],
+      [
+        "pri",
+        "біля, при",
+        "pri okn**e**, pri počítač**i**"
+      ]
+    ]
+  },
+  "u8-l6.0.examples": {
+    "en": [
+      "After the meeting I'm going for lunch.",
+      "We're talking about Marek.",
+      "Tomáš is sitting at the computer."
+    ],
+    "t": [
+      "Після наради я йду на обід.",
+      "Ми говоримо про Марека.",
+      "Томаш сидить за комп'ютером."
+    ]
+  },
+  "u8-l6.1.title": {
+    "en": "Pronouns: o mne, o tebe…",
+    "t": "Займенники: o mne, o tebe…"
+  },
+  "u8-l6.1.body": {
+    "en": [
+      "Pronouns have their own locative forms. Like every locative, they always follow a preposition: o mne (about me), pri tebe (next to you). Before mne, v becomes vo: vo mne.",
+      "About myself, yourself… is o sebe: Povedzte mi niečo o sebe. = Tell me something about yourself."
+    ],
+    "t": [
+      "Займенники мають свої форми місцевого відмінка й теж завжди стоять після прийменника: o mne (про мене), pri tebe (біля тебе). Перед mne замість v кажуть vo: vo mne (у мені).",
+      "«Про себе» — o sebe: Povedzte mi niečo o sebe. = Розкажіть мені щось про себе."
+    ]
+  },
+  "u8-l6.1.table.head": {
+    "en": [
+      "",
+      "locative",
+      "",
+      "locative"
+    ],
+    "t": [
+      "хто?",
+      "місцевий",
+      "хто?",
+      "місцевий"
+    ]
+  },
+  "u8-l6.1.table.rows": {
+    "en": [
+      [
+        "ja",
+        "o **mne**",
+        "my",
+        "o **nás**"
+      ],
+      [
+        "ty",
+        "o **tebe**",
+        "vy",
+        "o **vás**"
+      ],
+      [
+        "on, ono",
+        "o **ňom**",
+        "oni",
+        "o **nich**"
+      ],
+      [
+        "ona",
+        "o **nej**",
+        "ony",
+        "o **nich**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "o **mne**",
+        "my",
+        "o **nás**"
+      ],
+      [
+        "ty",
+        "o **tebe**",
+        "vy",
+        "o **vás**"
+      ],
+      [
+        "on, ono",
+        "o **ňom**",
+        "oni",
+        "o **nich**"
+      ],
+      [
+        "ona",
+        "o **nej**",
+        "ony",
+        "o **nich**"
+      ]
+    ]
+  },
+  "u8-l6.1.examples": {
+    "en": [
+      "Are you talking about me?",
+      "What do you know about him?"
+    ],
+    "t": [
+      "Ви говорите про мене?",
+      "Що ти знаєш про нього?"
+    ]
+  },
+  "u8-l6.2.en": {
+    "en": "Lucia, we're talking about you!",
+    "t": "Луціє, ми говоримо про тебе!"
+  },
+  "u8-l6.3.en": {
+    "en": "After the meeting I'm going home.",
+    "t": "Після наради я йду додому."
+  },
+  "u8-l6.4.question": {
+    "en": "How do you ask “What do you know about Tomáš?”",
+    "t": "Як запитати «Що ти знаєш про Томаша?»"
+  },
+  "u8-l6.5.prompt": {
+    "en": "What do you know about our company? (formal)",
+    "t": "Що ви знаєте про нашу фірму? (до «ви»)"
+  },
+  "u8-l6.6.en": {
+    "en": "Tell me something about yourself.",
+    "t": "Розкажіть мені щось про себе."
+  },
+  "u8-l6.7.en": {
+    "en": "Mrs Horváthová? We were talking about her.",
+    "t": "Пані Горватова? Ми говорили про неї."
+  },
+  "u8-l6.8.answers": {
+    "en": [
+      "Tomáš is sitting by the window.",
+      "Tomáš is sitting next to the window.",
+      "Tomáš sits by the window."
+    ],
+    "t": [
+      "Томаш сидить біля вікна.",
+      "Томаш сидить при вікні.",
+      "Біля вікна сидить Томаш."
+    ]
+  },
+  "u8-l6.8.distractors": {
+    "en": [
+      "table",
+      "after"
+    ],
+    "t": [
+      "столу",
+      "після"
+    ]
+  },
+  "u8-l6.9.pairs": {
+    "en": [
+      "about me",
+      "about you",
+      "about him",
+      "about her",
+      "about us"
+    ],
+    "t": [
+      "про мене",
+      "про тебе",
+      "про нього",
+      "про неї",
+      "про нас"
+    ]
+  },
+  "u8-l6.10.en": {
+    "en": "At the interview, Emma talked about herself.",
+    "t": "На співбесіді Емма розповідала про себе."
+  },
+  "u8-l6.11.prompt": {
+    "en": "After lunch I have a job interview.",
+    "t": "Після обіду в мене співбесіда."
+  },
+  "u8-l6.12.question": {
+    "en": "What does “nej” refer to here?",
+    "t": "На що тут вказує «nej»?"
+  },
+  "u8-l6.12.options": {
+    "en": [
+      "the company",
+      "the office",
+      "me"
+    ],
+    "t": [
+      "фірма",
+      "офіс",
+      "я"
+    ]
+  },
+  "u8-l6.13.en": {
+    "en": "Can I sit by the window?",
+    "t": "Можна мені сісти біля вікна?"
+  },
+  "u8-l7.titleEn": {
+    "en": "Review: in the company",
+    "t": "Повторення: у фірмі"
+  },
+  "u8-l7.0.question": {
+    "en": "What is the HR manager asking?",
+    "t": "Що запитує менеджер із персоналу?"
+  },
+  "u8-l7.0.options": {
+    "en": [
+      "When do you have time for an interview?",
+      "Where is the interview?",
+      "Who has an interview today?"
+    ],
+    "t": [
+      "Коли у вас є час на співбесіду?",
+      "Де буде співбесіда?",
+      "У кого сьогодні співбесіда?"
+    ]
+  },
+  "u8-l7.1.en": {
+    "en": "The interview is on Wednesday.",
+    "t": "Співбесіда в середу."
+  },
+  "u8-l7.2.prompt": {
+    "en": "Emma was born in Dublin.",
+    "t": "Емма народилася в Дубліні."
+  },
+  "u8-l7.3.en": {
+    "en": "I study at the university in Bratislava.",
+    "t": "Я навчаюся в університеті в Братиславі."
+  },
+  "u8-l7.4.en": {
+    "en": "I was born on the sixth of April.",
+    "t": "Я народилася шостого квітня."
+  },
+  "u8-l7.5.pairs": {
+    "en": [
+      "CV",
+      "job interview",
+      "internship",
+      "department",
+      "team meeting"
+    ],
+    "t": [
+      "резюме",
+      "співбесіда",
+      "стажування",
+      "відділ",
+      "нарада"
+    ]
+  },
+  "u8-l7.6.answers": {
+    "en": [
+      "Nobody was late for the meeting."
+    ],
+    "t": [
+      "Ніхто не запізнився на нараду.",
+      "Ніхто не спізнився на нараду.",
+      "На нараду ніхто не запізнився."
+    ]
+  },
+  "u8-l7.6.distractors": {
+    "en": [
+      "somebody",
+      "never"
+    ],
+    "t": [
+      "хтось",
+      "ніколи"
+    ]
+  },
+  "u8-l7.7.en": {
+    "en": "Emma is looking for an internship at a big company.",
+    "t": "Емма шукає стажування у великій фірмі."
+  },
+  "u8-l7.8.question": {
+    "en": "How do you say “in August”?",
+    "t": "Як сказати «у серпні»?"
+  },
+  "u8-l7.9.prompt": {
+    "en": "We're talking about him.",
+    "t": "Ми говоримо про нього."
+  },
+  "u8-l7.10.en": {
+    "en": "I never have time on Fridays.",
+    "t": "По п'ятницях я ніколи не маю часу."
+  },
+  "u8-l7.11.en": {
+    "en": "I was born in Ireland.",
+    "t": "Я народилася в Ірландії."
+  },
+  "u8-l7.12.en": {
+    "en": "After the meeting, nobody was in the office.",
+    "t": "Після наради в офісі нікого не було."
+  },
+  "u8-l7.13.answers": {
+    "en": [
+      "The job interview is on the third floor.",
+      "The interview is on the third floor."
+    ],
+    "t": [
+      "Співбесіда на четвертому поверсі.",
+      "Співбесіда буде на четвертому поверсі."
+    ]
+  },
+  "u8-l7.13.distractors": {
+    "en": [
+      "first",
+      "in"
+    ],
+    "t": [
+      "третьому",
+      "в"
+    ]
+  },
+  "u8-l7.14.question": {
+    "en": "Emma's CV says: “Študovala som v Dubline.” What does it mean?",
+    "t": "У резюме Емми написано: «Študovala som v Dubline.» Що це означає?"
+  },
+  "u8-l7.14.options": {
+    "en": [
+      "I studied in Dublin.",
+      "I was born in Dublin.",
+      "I work in Dublin."
+    ],
+    "t": [
+      "Я навчалася в Дубліні.",
+      "Я народилася в Дубліні.",
+      "Я працюю в Дубліні."
+    ]
+  },
+  "u8-l7.15.prompt": {
+    "en": "Today is the fourteenth of October.",
+    "t": "Сьогодні чотирнадцяте жовтня."
+  }
+}

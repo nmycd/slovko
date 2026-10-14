@@ -1,19 +1,24 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { MicIcon } from "@/components/icons";
+import { BookIcon, MicIcon } from "@/components/icons";
+import { useApp } from "@/components/app-provider";
 import { AudioButton } from "@/components/lesson/audio-button";
+import { RichText } from "@/components/lesson/rich-text";
 import { checkSpoken, shuffle, type CheckResult } from "@/lib/answers";
 import { playSlovak } from "@/lib/audio";
+import { stripMarkup } from "@/lib/course/helpers";
+import type { MessageKey } from "@/lib/i18n";
 import type {
   BuildExercise,
   ChoiceExercise,
   FillExercise,
+  GrammarExercise,
   IntroExercise,
   ListenExercise,
   MatchExercise,
   SpeakExercise,
-} from "@/lib/course";
+} from "@/lib/course/types";
 import { useRecorder } from "@/lib/useRecorder";
 
 // Exercise screens. These mount only on the client (the player waits for
@@ -38,9 +43,10 @@ function Title({ children }: { children: React.ReactNode }) {
 }
 
 export function IntroView({ exercise }: { exercise: IntroExercise }) {
+  const { t } = useApp();
   return (
     <div className="animate-pop space-y-6">
-      <p className="text-sm font-extrabold uppercase tracking-wide text-brand">New phrase</p>
+      <p className="text-sm font-extrabold uppercase tracking-wide text-brand">{t("ex.newPhrase")}</p>
       <div className="flex items-center gap-4">
         <AudioButton text={exercise.sk} autoPlay />
         <span className="text-3xl font-black sm:text-4xl">{exercise.sk}</span>
@@ -48,9 +54,77 @@ export function IntroView({ exercise }: { exercise: IntroExercise }) {
       <p className="text-xl font-semibold text-muted">{exercise.en}</p>
       {exercise.note && (
         <p className="rounded-2xl bg-surface p-4">
-          <span className="mr-2 font-extrabold text-brand">Tip</span>
-          {exercise.note}
+          <span className="mr-2 font-extrabold text-brand">{t("ex.tip")}</span>
+          <RichText text={exercise.note} />
         </p>
+      )}
+    </div>
+  );
+}
+
+export function GrammarView({ exercise }: { exercise: GrammarExercise }) {
+  const { t } = useApp();
+  const { title, body, table, examples } = exercise;
+  return (
+    <div className="animate-pop space-y-6">
+      <p className="flex items-center gap-2 text-sm font-extrabold uppercase tracking-wide text-accent">
+        <BookIcon size={18} /> {t("ex.grammar")}
+      </p>
+      <h1 className="text-2xl font-black sm:text-3xl">{title}</h1>
+      {body.map((paragraph, i) => (
+        <p key={i} className="text-lg leading-relaxed">
+          <RichText text={paragraph} />
+        </p>
+      ))}
+
+      {table && (
+        <div className="overflow-x-auto rounded-2xl border-2 border-border">
+          <table className="w-full border-collapse text-left text-base sm:text-lg">
+            {table.caption && (
+              <caption className="bg-surface px-4 py-2 text-left text-sm font-extrabold uppercase tracking-wide text-muted">
+                {table.caption}
+              </caption>
+            )}
+            {table.head && (
+              <thead>
+                <tr className="border-b-2 border-border">
+                  {table.head.map((cell, i) => (
+                    <th key={i} className="px-3 py-2 text-xs font-extrabold text-muted sm:px-4 sm:text-sm">
+                      <RichText text={cell} />
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+            )}
+            <tbody>
+              {table.rows.map((row, r) => (
+                <tr key={r} className="even:bg-surface">
+                  {row.map((cell, c) => (
+                    <td key={c} className={`px-3 py-2 sm:px-4 ${c === 0 ? "font-bold" : ""}`}>
+                      <RichText text={cell} />
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+
+      {examples && examples.length > 0 && (
+        <ul className="space-y-3">
+          {examples.map((example) => (
+            <li key={example.sk} className="flex items-center gap-4 rounded-2xl bg-surface p-3">
+              <AudioButton text={stripMarkup(example.sk)} />
+              <div>
+                <p className="text-lg font-bold">
+                  <RichText text={example.sk} />
+                </p>
+                <p className="text-muted">{example.en}</p>
+              </div>
+            </li>
+          ))}
+        </ul>
       )}
     </div>
   );
@@ -98,11 +172,12 @@ export function ChoiceView({ exercise, answer, setAnswer, locked }: Props<Choice
 }
 
 export function FillView({ exercise, answer, setAnswer, locked }: Props<FillExercise>) {
+  const { t } = useApp();
   useNumberKeys(exercise.options.length, setAnswer, locked);
   const chosen = typeof answer === "number" ? exercise.options[answer] : null;
   return (
     <div className="space-y-8">
-      <Title>Fill in the blank</Title>
+      <Title>{t("ex.fill")}</Title>
       <p className="text-muted">{exercise.en}</p>
       <p className="flex flex-wrap items-baseline gap-x-2 gap-y-3 text-2xl font-black">
         {exercise.before && <span>{exercise.before}</span>}
@@ -140,12 +215,13 @@ export function BuildView({
   setAnswer,
   locked,
 }: Props<BuildExercise> & { tiles: string[] }) {
+  const { t } = useApp();
   const picked = Array.isArray(answer) ? answer : [];
   const toSk = exercise.promptLang === "en";
 
   return (
     <div className="space-y-8">
-      <Title>{toSk ? "Write this in Slovak" : "Write this in English"}</Title>
+      <Title>{t(toSk ? "ex.writeSlovak" : "ex.writeNative")}</Title>
       <div className="flex items-center gap-4">
         {!toSk && <AudioButton text={exercise.prompt} autoPlay />}
         <span className="rounded-2xl border-2 border-border px-4 py-3 text-xl font-bold">
@@ -194,9 +270,10 @@ export function BuildView({
 }
 
 export function ListenView({ exercise, answer, setAnswer, locked }: Props<ListenExercise>) {
+  const { t } = useApp();
   return (
     <div className="space-y-8">
-      <Title>Type what you hear</Title>
+      <Title>{t("ex.listen")}</Title>
       <div className="flex justify-center">
         <AudioButton text={exercise.sk} autoPlay size="lg" withSlow />
       </div>
@@ -213,7 +290,7 @@ export function ListenView({ exercise, answer, setAnswer, locked }: Props<Listen
         lang="sk"
         spellCheck={false}
         autoCapitalize="off"
-        placeholder="Type in Slovak"
+        placeholder={t("ex.listenPlaceholder")}
         className="w-full resize-none rounded-2xl border-2 border-border bg-surface p-4 text-xl outline-none focus:border-brand"
       />
       <SlovakKeys
@@ -252,6 +329,7 @@ export function MatchView({
   onResolve: (r: Resolution) => void;
   locked: boolean;
 }) {
+  const { t } = useApp();
   const [left] = useState(() => shuffle(exercise.pairs.map((_, i) => i)));
   const [right] = useState(() => shuffle(exercise.pairs.map((_, i) => i)));
   const [pick, setPick] = useState<{ side: "sk" | "en"; index: number } | null>(null);
@@ -286,7 +364,7 @@ export function MatchView({
 
   return (
     <div className="space-y-8">
-      <Title>Tap the matching pairs</Title>
+      <Title>{t("ex.match")}</Title>
       <div className="grid grid-cols-2 gap-3 sm:gap-6">
         {(["sk", "en"] as const).map((side) => (
           <div key={side} className="grid gap-3">
@@ -320,21 +398,21 @@ export function SpeakView({
   onResolve: (r: Resolution) => void;
   locked: boolean;
 }) {
+  const { t } = useApp();
   const { recording, error: micError, level, deviceLabel, start, stop } = useRecorder();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [notice, setNotice] = useState<MessageKey | null>(null);
 
   async function record() {
     if (recording) return stop();
     setError(null);
+    setNotice(null);
     const rec = await start();
     if (!rec) return;
     // Silence isn't a wrong answer: don't grade it, and don't pay for transcribing it.
     if (rec.silent) {
-      setError(
-        `We couldn't hear anything${rec.deviceLabel ? ` from “${rec.deviceLabel}”` : ""}. ` +
-          "Check that the right microphone is selected (on a Mac: System Settings → Sound → Input), then try again.",
-      );
+      setError(rec.deviceLabel ? t("ex.mic.silentFrom", { name: rec.deviceLabel }) : t("ex.mic.silent"));
       return;
     }
     setBusy(true);
@@ -342,19 +420,26 @@ export function SpeakView({
       const body = new FormData();
       body.append("audio", rec.audio);
       const res = await fetch("/api/stt", { method: "POST", body });
-      const data = (await res.json()) as { text?: string; error?: string };
+      const data = (await res.json()) as { text?: string };
+      if (res.status === 429) {
+        // Usage cap: not an error on the learner's side.
+        setNotice("ex.mic.quota");
+        return;
+      }
       if (!res.ok) {
-        setError(data.error ?? "Speech recognition failed.");
+        setError(
+          t(res.status === 401 ? "ex.mic.signIn" : res.status === 413 ? "ex.mic.tooLong" : "ex.mic.failed"),
+        );
         return;
       }
       const heard = data.text ?? "";
       if (!heard) {
-        setError("We didn't catch any words. Speak a little louder and try again.");
+        setError(t("ex.mic.noWords"));
         return;
       }
       onResolve({ ...checkSpoken(heard, exercise.sk), solution: exercise.sk, heard });
     } catch {
-      setError("Couldn't reach the server. Try again.");
+      setError(t("ex.mic.offline"));
     } finally {
       setBusy(false);
     }
@@ -362,7 +447,7 @@ export function SpeakView({
 
   return (
     <div className="space-y-8">
-      <Title>Speak this sentence</Title>
+      <Title>{t("ex.speak")}</Title>
       <div className="flex items-center gap-4">
         <AudioButton text={exercise.sk} autoPlay />
         <div>
@@ -377,7 +462,7 @@ export function SpeakView({
         className={`btn btn-ghost h-20 w-full text-lg ${recording ? "!border-bad !text-bad" : ""}`}
       >
         <MicIcon size={30} className={recording ? "animate-pulse" : ""} />
-        {busy ? "Checking…" : recording ? "Tap to stop" : "Tap to speak"}
+        {t(busy ? "ex.mic.checking" : recording ? "ex.mic.stop" : "ex.mic.speak")}
       </button>
       {recording && (
         <div className="space-y-2">
@@ -387,10 +472,13 @@ export function SpeakView({
               style={{ width: `${Math.round(level * 100)}%` }}
             />
           </div>
-          {deviceLabel && <p className="text-sm text-muted">Microphone: {deviceLabel}</p>}
+          {deviceLabel && <p className="text-sm text-muted">{t("ex.mic.device", { name: deviceLabel })}</p>}
         </div>
       )}
-      {(error ?? micError) && <p className="font-bold text-bad">{error ?? micError}</p>}
+      {(error ?? micError) && (
+        <p className="font-bold text-bad">{error ?? (micError && t(micError))}</p>
+      )}
+      {notice && <p className="rounded-2xl bg-surface p-4 font-bold text-muted">{t(notice)}</p>}
     </div>
   );
 }

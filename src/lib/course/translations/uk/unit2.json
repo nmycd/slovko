@@ -1,0 +1,1431 @@
+{
+  "u2.titleEn": {
+    "en": "Hi, I am…",
+    "t": "Привіт, я…"
+  },
+  "u2.topics": {
+    "en": [
+      "Where are you from?",
+      "Countries and nationalities",
+      "Who is who?",
+      "Jobs and studies",
+      "Numbers and age"
+    ],
+    "t": [
+      "Звідки ти?",
+      "Країни й національності",
+      "Хто є хто?",
+      "Робота й навчання",
+      "Числа й вік"
+    ]
+  },
+  "u2.grammar": {
+    "en": [
+      "Personal pronouns",
+      "The verb byť (to be)",
+      "Noun gender",
+      "Present tense: verb groups I–IV",
+      "Negation",
+      "Numbers 0–100"
+    ],
+    "t": [
+      "Особові займенники",
+      "Дієслово byť (бути)",
+      "Рід іменників",
+      "Теперішній час: дієвідміни I–IV",
+      "Заперечення",
+      "Числа 0–100"
+    ]
+  },
+  "u2-l1.titleEn": {
+    "en": "Where are you from?",
+    "t": "Звідки ти?"
+  },
+  "u2-l1.0.en": {
+    "en": "Where are you from? (informal)",
+    "t": "Звідки ти?"
+  },
+  "u2-l1.0.note": {
+    "en": "To a stranger, a teacher or a group: **Odkiaľ ste?**",
+    "t": "До незнайомої людини, вчителя чи групи людей: **Odkiaľ ste?** (Звідки ви?)"
+  },
+  "u2-l1.1.en": {
+    "en": "I'm from Ireland.",
+    "t": "Я з Ірландії."
+  },
+  "u2-l1.1.note": {
+    "en": "Írsko = Ireland. After **z** (from), the -o at the end changes to **-a**: z Írsk**a**.",
+    "t": "Írsko = Ірландія. Після **z** (з) кінцеве -o змінюється на **-a**: z Írsk**a**. Це родовий відмінок, як «місто → з міста»."
+  },
+  "u2-l1.2.question": {
+    "en": "What does this mean?",
+    "t": "Що це означає?"
+  },
+  "u2-l1.2.options": {
+    "en": [
+      "Where are you from?",
+      "What's your name?",
+      "How are you?"
+    ],
+    "t": [
+      "Звідки ви?",
+      "Як вас звати?",
+      "Як справи?"
+    ]
+  },
+  "u2-l1.3.en": {
+    "en": "Lucia is from Slovakia.",
+    "t": "Луція зі Словаччини."
+  },
+  "u2-l1.3.note": {
+    "en": "**je** = is. Before s, z, š or ž, “z” becomes **zo**: zo Slovenska.",
+    "t": "**je** — це «є»: українською його пропускаємо, а словацькою ні. Перед s, z, š, ž прийменник z стає **zo**: zo Slovenska, як наше «зі Словаччини»."
+  },
+  "u2-l1.4.en": {
+    "en": "Germany, Italy, Poland",
+    "t": "Німеччина, Італія, Польща"
+  },
+  "u2-l1.4.note": {
+    "en": "Many country names end in -sko or -cko. From Germany: z Nemecka.",
+    "t": "Багато назв країн закінчуються на -sko або -cko. З Німеччини: z Nemecka."
+  },
+  "u2-l1.5.pairs": {
+    "en": [
+      "Slovakia",
+      "Ireland",
+      "Germany",
+      "Italy",
+      "Poland"
+    ],
+    "t": [
+      "Словаччина",
+      "Ірландія",
+      "Німеччина",
+      "Італія",
+      "Польща"
+    ]
+  },
+  "u2-l1.6.en": {
+    "en": "Tomáš is from Slovakia.",
+    "t": "Томаш зі Словаччини."
+  },
+  "u2-l1.7.prompt": {
+    "en": "I'm from Germany.",
+    "t": "Я з Німеччини."
+  },
+  "u2-l1.8.en": {
+    "en": "I'm from Ukraine.",
+    "t": "Я з України."
+  },
+  "u2-l1.8.note": {
+    "en": "Most countries ending in -a change it to **-y**: Ukrajin**a** → z Ukrajin**y**, Amerik**a** → z Amerik**y**.",
+    "t": "Більшість назв країн на -a після z змінюють -a на **-y**: Ukrajin**a** → z Ukrajin**y**, Amerik**a** → z Amerik**y**. Як і в українській: з України, з Америки. Словацьке y звучить як і."
+  },
+  "u2-l1.9.question": {
+    "en": "Peter is from America. Which sentence is right?",
+    "t": "Петер з Америки. Яке речення правильне?"
+  },
+  "u2-l1.10.en": {
+    "en": "Where are you from? I'm from Poland.",
+    "t": "Звідки ти? Я з Польщі."
+  },
+  "u2-l1.11.en": {
+    "en": "I'm Irish. (said by a woman)",
+    "t": "Я ірландка."
+  },
+  "u2-l1.11.note": {
+    "en": "Nationalities have a form for men and one for women: Ír → Ír**ka**.",
+    "t": "Як і в українській, національність має чоловічу й жіночу форму: Ír → Ír**ka** (ірландець → ірландка)."
+  },
+  "u2-l1.12.en": {
+    "en": "a Slovak man, a Slovak woman",
+    "t": "словак, словачка"
+  },
+  "u2-l1.12.note": {
+    "en": "Women's forms end in **-ka**: Sloven**ka**, Nem**ka** (German), Talian**ka** (Italian). Men's: Slovák, Nemec, Talian.",
+    "t": "Жіночі форми закінчуються на **-ka**: Sloven**ka**, Nem**ka** (німкеня), Talian**ka** (італійка). Чоловічі: Slovák, Nemec, Talian."
+  },
+  "u2-l1.13.pairs": {
+    "en": [
+      "Slovak (man)",
+      "Slovak (woman)",
+      "Irish (man)",
+      "Irish (woman)"
+    ],
+    "t": [
+      "словак",
+      "словачка",
+      "ірландець",
+      "ірландка"
+    ]
+  },
+  "u2-l1.14.en": {
+    "en": "Emma is Irish.",
+    "t": "Емма — ірландка."
+  },
+  "u2-l1.15.question": {
+    "en": "Who would say “Som Slovenka”?",
+    "t": "Хто скаже «Som Slovenka»?"
+  },
+  "u2-l1.15.options": {
+    "en": [
+      "Lucia",
+      "Tomáš",
+      "Emma"
+    ],
+    "t": [
+      "Луція",
+      "Томаш",
+      "Емма"
+    ]
+  },
+  "u2-l1.16.answers": {
+    "en": [
+      "Lucia is Slovak. She is from Slovakia."
+    ],
+    "t": [
+      "Луція — словачка. Вона зі Словаччини.",
+      "Луція — словачка. Зі Словаччини."
+    ]
+  },
+  "u2-l1.16.distractors": {
+    "en": [
+      "Slovenia",
+      "He"
+    ],
+    "t": [
+      "Він",
+      "словак",
+      "Словенії"
+    ]
+  },
+  "u2-l1.17.en": {
+    "en": "I'm from Ireland.",
+    "t": "Я з Ірландії."
+  },
+  "u2-l2.titleEn": {
+    "en": "I am, you are",
+    "t": "Дієслово «бути»"
+  },
+  "u2-l2.0.title": {
+    "en": "Byť (to be)",
+    "t": "Byť (бути)"
+  },
+  "u2-l2.0.body": {
+    "en": [
+      "**Byť** (to be) is irregular, like English am, are, is. Learn each form together with its pronoun.",
+      "The verb form already shows who it is, so the pronoun is often dropped: **Som** Emma. = I'm Emma."
+    ],
+    "t": [
+      "**Byť** (бути) — неправильне дієслово. Вивчайте кожну форму разом із займенником.",
+      "Українською ми кажемо «Я Емма» без дієслова, а словацькою воно обов'язкове: **Som** Emma. Займенник же часто пропускають — форма дієслова й так показує, хто це."
+    ]
+  },
+  "u2-l2.0.table.head": {
+    "en": [
+      "singular",
+      "",
+      "plural",
+      ""
+    ],
+    "t": [
+      "однина",
+      "українською",
+      "множина",
+      "українською"
+    ]
+  },
+  "u2-l2.0.table.rows": {
+    "en": [
+      [
+        "ja **som**",
+        "I am",
+        "my **sme**",
+        "we are"
+      ],
+      [
+        "ty **si**",
+        "you are",
+        "vy **ste**",
+        "you are"
+      ],
+      [
+        "on, ona, ono **je**",
+        "he, she, it is",
+        "oni, ony **sú**",
+        "they are"
+      ]
+    ],
+    "t": [
+      [
+        "ja **som**",
+        "я (є)",
+        "my **sme**",
+        "ми (є)"
+      ],
+      [
+        "ty **si**",
+        "ти (є)",
+        "vy **ste**",
+        "ви (є)"
+      ],
+      [
+        "on, ona, ono **je**",
+        "він, вона, воно (є)",
+        "oni, ony **sú**",
+        "вони (є)"
+      ]
+    ]
+  },
+  "u2-l2.0.examples": {
+    "en": [
+      "I'm Emma.",
+      "Are you Lucia?",
+      "Who's that? — That's Tomáš.",
+      "We're from Ireland."
+    ],
+    "t": [
+      "Я Емма.",
+      "Ти Луція?",
+      "Хто це? — Це Томаш.",
+      "Ми з Ірландії."
+    ]
+  },
+  "u2-l2.1.title": {
+    "en": "Ty or vy? Oni or ony?",
+    "t": "Ty чи vy? Oni чи ony?"
+  },
+  "u2-l2.1.body": {
+    "en": [
+      "**Ty**: one friend, a child, family. **Vy**: a stranger or a teacher (polite), or any group of people.",
+      "**Oni** = they, when there is at least one man in the group. **Ony** = they, for women only (or things)."
+    ],
+    "t": [
+      "**Ty** і **vy** — як українські «ти» і «ви»: **ty** — другові, дитині, рідним; **vy** — незнайомій людині чи вчителеві (ввічливо) або групі людей.",
+      "А для «вони» є два слова: **oni** — коли в групі є хоча б один чоловік, **ony** — коли самі жінки (або предмети)."
+    ]
+  },
+  "u2-l2.1.examples": {
+    "en": [
+      "Mr Kováč, are you Slovak?",
+      "Tomáš and Marek? They're from Slovakia.",
+      "Anna and Eva? They're from Poland."
+    ],
+    "t": [
+      "Пане Ковачу, ви словак?",
+      "Томаш і Марек? Вони зі Словаччини.",
+      "Анна та Єва? Вони з Польщі."
+    ]
+  },
+  "u2-l2.2.en": {
+    "en": "I'm from Ireland.",
+    "t": "Я з Ірландії."
+  },
+  "u2-l2.3.pairs": {
+    "en": [
+      "you are (one friend)",
+      "he is",
+      "we are",
+      "you are (polite or plural)",
+      "they are"
+    ],
+    "t": [
+      "ти (є)",
+      "він (є)",
+      "ми (є)",
+      "ви (є)",
+      "вони (є)"
+    ]
+  },
+  "u2-l2.4.en": {
+    "en": "Lucia, are you Slovak?",
+    "t": "Луціє, ти словачка?"
+  },
+  "u2-l2.5.question": {
+    "en": "You ask your teacher, pani Horváthová, where she is from. What do you say?",
+    "t": "Ви питаєте вчительку, пані Горватову, звідки вона. Що ви скажете?"
+  },
+  "u2-l2.6.prompt": {
+    "en": "We're from Slovakia.",
+    "t": "Ми зі Словаччини."
+  },
+  "u2-l2.7.en": {
+    "en": "Tomáš and Lucia are from Slovakia.",
+    "t": "Томаш і Луція зі Словаччини."
+  },
+  "u2-l2.8.en": {
+    "en": "Who's that? That's Marek.",
+    "t": "Хто це? Це Марек."
+  },
+  "u2-l2.9.question": {
+    "en": "Anna and Eva: which word means “they”?",
+    "t": "Анна та Єва: яке слово означає «вони»?"
+  },
+  "u2-l2.10.prompt": {
+    "en": "Are you Slovak? (to a male friend)",
+    "t": "Ти словак?"
+  },
+  "u2-l2.11.en": {
+    "en": "Excuse me, are you from Germany?",
+    "t": "Перепрошую, ви з Німеччини?"
+  },
+  "u2-l2.12.answers": {
+    "en": [
+      "They're from Italy.",
+      "They are from Italy."
+    ],
+    "t": [
+      "Вони з Італії."
+    ]
+  },
+  "u2-l2.12.distractors": {
+    "en": [
+      "We",
+      "is"
+    ],
+    "t": [
+      "Ми",
+      "Італія"
+    ]
+  },
+  "u2-l2.13.en": {
+    "en": "I'm from Ireland.",
+    "t": "Я з Ірландії."
+  },
+  "u2-l3.titleEn": {
+    "en": "He, she, it: gender",
+    "t": "Він, вона, воно: рід"
+  },
+  "u2-l3.0.title": {
+    "en": "People: he and she",
+    "t": "Люди: він і вона"
+  },
+  "u2-l3.0.body": {
+    "en": [
+      "Most words for people have a masculine and a feminine form. The feminine one often adds **-ka**.",
+      "Slovak has no word for “a” or “the”: Lucia je študentka. = Lucia is a student."
+    ],
+    "t": [
+      "Більшість слів, що називають людей, мають форму чоловічого й жіночого роду. Жіноча часто утворюється за допомогою **-ka**.",
+      "Майже як в українській: студент — студентка, учитель — учителька. Тільки не пропускайте je: Lucia je študentka. = Луція — студентка."
+    ]
+  },
+  "u2-l3.0.table.head": {
+    "en": [
+      "man",
+      "woman",
+      ""
+    ],
+    "t": [
+      "чоловік",
+      "жінка",
+      "українською"
+    ]
+  },
+  "u2-l3.0.table.rows": {
+    "en": [
+      [
+        "študent",
+        "študent**ka**",
+        "student"
+      ],
+      [
+        "učiteľ",
+        "učiteľ**ka**",
+        "teacher"
+      ],
+      [
+        "kamarát",
+        "kamarát**ka**",
+        "friend"
+      ],
+      [
+        "Nemec",
+        "Nem**ka**",
+        "German"
+      ],
+      [
+        "Talian",
+        "Talian**ka**",
+        "Italian"
+      ]
+    ],
+    "t": [
+      [
+        "študent",
+        "študent**ka**",
+        "студент / студентка"
+      ],
+      [
+        "učiteľ",
+        "učiteľ**ka**",
+        "учитель / учителька"
+      ],
+      [
+        "kamarát",
+        "kamarát**ka**",
+        "друг / подруга"
+      ],
+      [
+        "Nemec",
+        "Nem**ka**",
+        "німець / німкеня"
+      ],
+      [
+        "Talian",
+        "Talian**ka**",
+        "італієць / італійка"
+      ]
+    ]
+  },
+  "u2-l3.0.examples": {
+    "en": [
+      "Lucia is a student.",
+      "Mrs Horváthová is a teacher.",
+      "Giulia is Italian."
+    ],
+    "t": [
+      "Луція — студентка.",
+      "Пані Горватова — вчителька.",
+      "Джулія — італійка."
+    ]
+  },
+  "u2-l3.1.en": {
+    "en": "Lucia is a student.",
+    "t": "Луція — студентка."
+  },
+  "u2-l3.2.prompt": {
+    "en": "Jana is a teacher.",
+    "t": "Яна — вчителька."
+  },
+  "u2-l3.3.question": {
+    "en": "Which word means a female friend?",
+    "t": "Яке слово означає «подруга»?"
+  },
+  "u2-l3.4.en": {
+    "en": "Peter is German, and Anna is German too.",
+    "t": "Петер — німець, і Анна теж німкеня."
+  },
+  "u2-l3.5.en": {
+    "en": "Mrs Horváthová is a teacher.",
+    "t": "Пані Горватова — вчителька."
+  },
+  "u2-l3.6.title": {
+    "en": "Things have a gender too",
+    "t": "Предмети теж мають рід"
+  },
+  "u2-l3.6.body": {
+    "en": [
+      "Every noun is masculine, feminine or neuter. The last letter usually tells you which: a consonant means masculine, **-a** feminine, **-o** or **-e** neuter.",
+      "Watch out for exceptions: dievč**a** (girl) is neuter, and noc (night) is feminine."
+    ],
+    "t": [
+      "Як і в українській, кожен іменник має рід: чоловічий, жіночий або середній. Зазвичай його видно з останньої літери: приголосний — чоловічий, **-a** — жіночий, **-o** або **-e** — середній.",
+      "Є й винятки: dievč**a** (дівчинка) — середнього роду, як наше «дівча», а noc (ніч) — жіночого, як і в українській."
+    ]
+  },
+  "u2-l3.6.table.head": {
+    "en": [
+      "masculine",
+      "feminine",
+      "neuter"
+    ],
+    "t": [
+      "чоловічий",
+      "жіночий",
+      "середній"
+    ]
+  },
+  "u2-l3.6.table.rows": {
+    "en": [
+      [
+        "muž (man)",
+        "žen**a** (woman)",
+        "mest**o** (town)"
+      ],
+      [
+        "mobil (phone)",
+        "izb**a** (room)",
+        "aut**o** (car)"
+      ],
+      [
+        "internát (dorm)",
+        "univerzit**a** (university)",
+        "mor**e** (sea)"
+      ]
+    ],
+    "t": [
+      [
+        "muž (чоловік)",
+        "žen**a** (жінка)",
+        "mest**o** (місто)"
+      ],
+      [
+        "mobil (телефон)",
+        "izb**a** (кімната)",
+        "aut**o** (авто)"
+      ],
+      [
+        "internát (гуртожиток)",
+        "univerzit**a** (університет)",
+        "mor**e** (море)"
+      ]
+    ]
+  },
+  "u2-l3.6.examples": {
+    "en": [
+      "That's the dorm.",
+      "That's a room.",
+      "That's a car."
+    ],
+    "t": [
+      "Це гуртожиток.",
+      "Це кімната.",
+      "Це авто."
+    ]
+  },
+  "u2-l3.7.question": {
+    "en": "Which word is feminine?",
+    "t": "Яке слово жіночого роду?"
+  },
+  "u2-l3.8.question": {
+    "en": "Which word is neuter?",
+    "t": "Яке слово середнього роду?"
+  },
+  "u2-l3.9.en": {
+    "en": "Lucia? Yes, she's a student.",
+    "t": "Луція? Так, вона студентка."
+  },
+  "u2-l3.10.en": {
+    "en": "Peter? He's German.",
+    "t": "Петер? Він німець."
+  },
+  "u2-l3.11.pairs": {
+    "en": [
+      "teacher (woman)",
+      "friend (man)",
+      "German (woman)",
+      "room",
+      "town"
+    ],
+    "t": [
+      "вчителька",
+      "друг",
+      "німкеня",
+      "кімната",
+      "місто"
+    ]
+  },
+  "u2-l3.12.prompt": {
+    "en": "Martin is a teacher and Eva is a student.",
+    "t": "Мартін — учитель, а Єва — студентка."
+  },
+  "u2-l3.13.en": {
+    "en": "That's the university.",
+    "t": "Це університет."
+  },
+  "u2-l4.titleEn": {
+    "en": "I study and I work",
+    "t": "Я вчуся й працюю"
+  },
+  "u2-l4.0.title": {
+    "en": "Verbs: an ending for each person",
+    "t": "Дієслова: своє закінчення для кожної особи"
+  },
+  "u2-l4.0.body": {
+    "en": [
+      "Slovak verbs change their ending to show who is doing something: **-m** (I), **-š** (you), no ending (he, she), **-me** (we), **-te** (you), and **-jú**, **-ú** or **-ia** (they).",
+      "Like hovoriť: **robiť** (to do) → robím, robíš, robí… Čo robíš? = What do you do?",
+      "Languages go with **po**: hovoriť po slovensky (Slovak), po anglicky (English), po nemecky (German)."
+    ],
+    "t": [
+      "Як і в українській, дієслово змінює закінчення за особами: **-m** (я), **-š** (ти), без закінчення (він, вона), **-me** (ми), **-te** (ви) і **-jú**, **-ú** або **-ia** (вони). Порівняйте: hovorí**š** — говориш, hovorí**te** — говорите.",
+      "Так само, як hovoriť: **robiť** (робити) → robím, robíš, robí… Čo robíš? = Чим ти займаєшся? (досл. «Що робиш?»)",
+      "Мови — з **po**, як у «по-українськи», тільки без дефіса: hovoriť po slovensky (говорити словацькою), po anglicky (англійською), po nemecky (німецькою)."
+    ]
+  },
+  "u2-l4.0.table.head": {
+    "en": [
+      "",
+      "volať sa (be called)",
+      "hovoriť (speak)"
+    ],
+    "t": [
+      "хто",
+      "volať sa (зватися)",
+      "hovoriť (говорити)"
+    ]
+  },
+  "u2-l4.0.table.rows": {
+    "en": [
+      [
+        "ja",
+        "volá**m** sa",
+        "hovorí**m**"
+      ],
+      [
+        "ty",
+        "volá**š** sa",
+        "hovorí**š**"
+      ],
+      [
+        "on, ona, ono",
+        "volá sa",
+        "hovorí"
+      ],
+      [
+        "my",
+        "volá**me** sa",
+        "hovorí**me**"
+      ],
+      [
+        "vy",
+        "volá**te** sa",
+        "hovorí**te**"
+      ],
+      [
+        "oni, ony",
+        "vola**jú** sa",
+        "hovor**ia**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "volá**m** sa",
+        "hovorí**m**"
+      ],
+      [
+        "ty",
+        "volá**š** sa",
+        "hovorí**š**"
+      ],
+      [
+        "on, ona, ono",
+        "volá sa",
+        "hovorí"
+      ],
+      [
+        "my",
+        "volá**me** sa",
+        "hovorí**me**"
+      ],
+      [
+        "vy",
+        "volá**te** sa",
+        "hovorí**te**"
+      ],
+      [
+        "oni, ony",
+        "vola**jú** sa",
+        "hovor**ia**"
+      ]
+    ]
+  },
+  "u2-l4.0.examples": {
+    "en": [
+      "My name is Emma.",
+      "Lucia speaks English.",
+      "What do you do?"
+    ],
+    "t": [
+      "Мене звати Емма.",
+      "Луція говорить англійською.",
+      "Чим ти займаєшся?"
+    ]
+  },
+  "u2-l4.1.en": {
+    "en": "Lucia speaks English.",
+    "t": "Луція говорить англійською."
+  },
+  "u2-l4.2.en": {
+    "en": "Tomáš and Marek speak Slovak.",
+    "t": "Томаш і Марек говорять словацькою."
+  },
+  "u2-l4.3.prompt": {
+    "en": "What's her name?",
+    "t": "Як її звати?"
+  },
+  "u2-l4.4.question": {
+    "en": "How do you say “We speak Slovak”?",
+    "t": "Як сказати «Ми говоримо словацькою»?"
+  },
+  "u2-l4.5.title": {
+    "en": "Študovať and rozumieť",
+    "t": "Študovať і rozumieť"
+  },
+  "u2-l4.5.body": {
+    "en": [
+      "Verbs in **-ovať** change -ova- to **-uje-**: študovať → študujem. **Pracovať** (to work) does the same: pracujem.",
+      "Verbs in **-ieť** keep -ie-: rozumieť → rozumiem. Only “they” is different: rozume**jú**."
+    ],
+    "t": [
+      "Дієслова на **-ovať** міняють -ova- на **-uje-**: študovať → študujem. Так само **pracovať** (працювати): pracujem. Знайомо: працювати → працюю.",
+      "Дієслова на **-ieť** зберігають -ie-: rozumieť → rozumiem. Інша лише форма «вони»: rozume**jú**."
+    ]
+  },
+  "u2-l4.5.table.head": {
+    "en": [
+      "",
+      "študovať (study)",
+      "rozumieť (understand)"
+    ],
+    "t": [
+      "хто",
+      "študovať (вчитися)",
+      "rozumieť (розуміти)"
+    ]
+  },
+  "u2-l4.5.table.rows": {
+    "en": [
+      [
+        "ja",
+        "študuje**m**",
+        "rozumie**m**"
+      ],
+      [
+        "ty",
+        "študuje**š**",
+        "rozumie**š**"
+      ],
+      [
+        "on, ona, ono",
+        "študuje",
+        "rozumie"
+      ],
+      [
+        "my",
+        "študuje**me**",
+        "rozumie**me**"
+      ],
+      [
+        "vy",
+        "študuje**te**",
+        "rozumie**te**"
+      ],
+      [
+        "oni, ony",
+        "študuj**ú**",
+        "rozume**jú**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "študuje**m**",
+        "rozumie**m**"
+      ],
+      [
+        "ty",
+        "študuje**š**",
+        "rozumie**š**"
+      ],
+      [
+        "on, ona, ono",
+        "študuje",
+        "rozumie"
+      ],
+      [
+        "my",
+        "študuje**me**",
+        "rozumie**me**"
+      ],
+      [
+        "vy",
+        "študuje**te**",
+        "rozumie**te**"
+      ],
+      [
+        "oni, ony",
+        "študuj**ú**",
+        "rozume**jú**"
+      ]
+    ]
+  },
+  "u2-l4.5.examples": {
+    "en": [
+      "Do you study or work?",
+      "Tomáš works as a programmer.",
+      "Marek works as a cook.",
+      "Do you understand? — Yes, I do."
+    ],
+    "t": [
+      "Ти вчишся чи працюєш?",
+      "Томаш працює програмістом.",
+      "Марек працює кухарем.",
+      "Ви розумієте? — Так, розумію."
+    ]
+  },
+  "u2-l4.6.pairs": {
+    "en": [
+      "to study",
+      "to work",
+      "to speak",
+      "to understand",
+      "to do"
+    ],
+    "t": [
+      "вчитися",
+      "працювати",
+      "говорити",
+      "розуміти",
+      "робити"
+    ]
+  },
+  "u2-l4.7.en": {
+    "en": "Lucia studies and Marek works.",
+    "t": "Луція вчиться, а Марек працює."
+  },
+  "u2-l4.8.en": {
+    "en": "Lucia and Tomáš understand English.",
+    "t": "Луція й Томаш розуміють англійську."
+  },
+  "u2-l4.9.prompt": {
+    "en": "Tomáš, do you work as a programmer?",
+    "t": "Томашу, ти працюєш програмістом?"
+  },
+  "u2-l4.10.en": {
+    "en": "I study and work.",
+    "t": "Я вчуся й працюю."
+  },
+  "u2-l4.11.answers": {
+    "en": [
+      "Do you speak English?"
+    ],
+    "t": [
+      "Ви говорите англійською?",
+      "Говорите англійською?"
+    ]
+  },
+  "u2-l4.11.distractors": {
+    "en": [
+      "speaks",
+      "Slovak"
+    ],
+    "t": [
+      "говорить",
+      "словацькою"
+    ]
+  },
+  "u2-l4.12.en": {
+    "en": "What do you do? — I study.",
+    "t": "Чим ти займаєшся? — Вчуся."
+  },
+  "u2-l4.13.en": {
+    "en": "Do you study or work?",
+    "t": "Ти вчишся чи працюєш?"
+  },
+  "u2-l5.titleEn": {
+    "en": "Saying “not”",
+    "t": "Як сказати «не»"
+  },
+  "u2-l5.0.title": {
+    "en": "Not: ne- + verb",
+    "t": "Заперечення: ne- + дієслово"
+  },
+  "u2-l5.0.body": {
+    "en": [
+      "To say “not”, put **ne-** in front of the verb. It is written as one word.",
+      "A phrase to know by heart: **Ne**rozumiem. = I don't understand."
+    ],
+    "t": [
+      "Щоб сказати «не», додайте **ne-** перед дієсловом. На відміну від української, пишуть разом: **ne**hovorím = не говорю.",
+      "Фраза, яку варто знати напам'ять: **Ne**rozumiem. = Я не розумію."
+    ]
+  },
+  "u2-l5.0.table.head": {
+    "en": [
+      "yes",
+      "not"
+    ],
+    "t": [
+      "ствердження",
+      "заперечення"
+    ]
+  },
+  "u2-l5.0.table.rows": {
+    "en": [
+      [
+        "hovorím",
+        "**ne**hovorím"
+      ],
+      [
+        "študuješ",
+        "**ne**študuješ"
+      ],
+      [
+        "pracuje",
+        "**ne**pracuje"
+      ],
+      [
+        "rozumejú",
+        "**ne**rozumejú"
+      ]
+    ],
+    "t": [
+      [
+        "hovorím",
+        "**ne**hovorím"
+      ],
+      [
+        "študuješ",
+        "**ne**študuješ"
+      ],
+      [
+        "pracuje",
+        "**ne**pracuje"
+      ],
+      [
+        "rozumejú",
+        "**ne**rozumejú"
+      ]
+    ]
+  },
+  "u2-l5.0.examples": {
+    "en": [
+      "I don't speak German.",
+      "Marek doesn't study, he works.",
+      "Sorry, I don't understand."
+    ],
+    "t": [
+      "Я не говорю німецькою.",
+      "Марек не вчиться, він працює.",
+      "Перепрошую, я не розумію."
+    ]
+  },
+  "u2-l5.1.en": {
+    "en": "Marek doesn't speak English.",
+    "t": "Марек не говорить англійською."
+  },
+  "u2-l5.2.question": {
+    "en": "Which one is correct?",
+    "t": "Який варіант правильний?"
+  },
+  "u2-l5.3.prompt": {
+    "en": "We don't speak German.",
+    "t": "Ми не говоримо німецькою."
+  },
+  "u2-l5.4.en": {
+    "en": "Lucia doesn't work, she studies.",
+    "t": "Луція не працює, вона вчиться."
+  },
+  "u2-l5.5.question": {
+    "en": "Pán Kováč speaks very fast and you don't understand. What do you say?",
+    "t": "Пан Ковач говорить дуже швидко, і ви не розумієте. Що ви скажете?"
+  },
+  "u2-l5.6.title": {
+    "en": "Not with byť: nie som",
+    "t": "Заперечення з byť: nie som"
+  },
+  "u2-l5.6.body": {
+    "en": [
+      "**Byť** is the exception. It takes a separate word, **nie**, in front of the verb.",
+      "When you answer “no”, you often hear nie twice: Si Slovák? — **Nie, nie** som."
+    ],
+    "t": [
+      "**Byť** — виняток: з ним заперечення пишуть окремим словом **nie** перед дієсловом: **nie** som, **nie** je.",
+      "Nie — це ще й «ні», тож у відповіді його часто чути двічі: Si Slovák? — **Nie, nie** som. (Ні, не словак.)"
+    ]
+  },
+  "u2-l5.6.table.head": {
+    "en": [
+      "",
+      "byť",
+      "not"
+    ],
+    "t": [
+      "хто",
+      "byť",
+      "заперечення"
+    ]
+  },
+  "u2-l5.6.table.rows": {
+    "en": [
+      [
+        "ja",
+        "som",
+        "**nie** som"
+      ],
+      [
+        "ty",
+        "si",
+        "**nie** si"
+      ],
+      [
+        "on, ona, ono",
+        "je",
+        "**nie** je"
+      ],
+      [
+        "my",
+        "sme",
+        "**nie** sme"
+      ],
+      [
+        "vy",
+        "ste",
+        "**nie** ste"
+      ],
+      [
+        "oni, ony",
+        "sú",
+        "**nie** sú"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "som",
+        "**nie** som"
+      ],
+      [
+        "ty",
+        "si",
+        "**nie** si"
+      ],
+      [
+        "on, ona, ono",
+        "je",
+        "**nie** je"
+      ],
+      [
+        "my",
+        "sme",
+        "**nie** sme"
+      ],
+      [
+        "vy",
+        "ste",
+        "**nie** ste"
+      ],
+      [
+        "oni, ony",
+        "sú",
+        "**nie** sú"
+      ]
+    ]
+  },
+  "u2-l5.6.examples": {
+    "en": [
+      "I'm not Slovak, I'm Irish.",
+      "That's not Tomáš, that's Marek."
+    ],
+    "t": [
+      "Я не словачка, я ірландка.",
+      "Це не Томаш, це Марек."
+    ]
+  },
+  "u2-l5.7.en": {
+    "en": "Emma isn't from Slovakia.",
+    "t": "Емма не зі Словаччини."
+  },
+  "u2-l5.8.question": {
+    "en": "“Si zo Slovenska?” You are from Ireland. What do you answer?",
+    "t": "«Si zo Slovenska?» Ви з Ірландії. Що ви відповісте?"
+  },
+  "u2-l5.9.prompt": {
+    "en": "Tomáš isn't German, he's Slovak.",
+    "t": "Томаш не німець, він словак."
+  },
+  "u2-l5.10.en": {
+    "en": "Lucia and Tomáš aren't from Ireland.",
+    "t": "Луція й Томаш не з Ірландії."
+  },
+  "u2-l5.11.pairs": {
+    "en": [
+      "I am not",
+      "you are not (polite)",
+      "I don't speak",
+      "he/she doesn't work",
+      "you don't understand"
+    ],
+    "t": [
+      "я не (є)",
+      "ви не (є)",
+      "я не говорю",
+      "він/вона не працює",
+      "ти не розумієш"
+    ]
+  },
+  "u2-l5.12.answers": {
+    "en": [
+      "That's not Lucia, that's Jana."
+    ],
+    "t": [
+      "Це не Луція, це Яна."
+    ]
+  },
+  "u2-l5.12.distractors": {
+    "en": [
+      "is",
+      "Who"
+    ],
+    "t": [
+      "Хто",
+      "Луції"
+    ]
+  },
+  "u2-l5.13.en": {
+    "en": "Sorry, I don't understand Slovak.",
+    "t": "Перепрошую, я не розумію словацької."
+  },
+  "u2-l5.14.en": {
+    "en": "No, I'm not from Slovakia.",
+    "t": "Ні, я не зі Словаччини."
+  },
+  "u2-l6.titleEn": {
+    "en": "Numbers",
+    "t": "Числа"
+  },
+  "u2-l6.0.en": {
+    "en": "one, two, three, four, five",
+    "t": "один, два, три, чотири, п'ять"
+  },
+  "u2-l6.0.note": {
+    "en": "Zero is **nula**. “One” matches the noun's gender: jeden mobil, jedn**a** izba, jedn**o** auto.",
+    "t": "Нуль — **nula**. «Один» змінюється за родами, як в українській: jeden mobil (один), jedn**a** izba (одна), jedn**o** auto (одне)."
+  },
+  "u2-l6.1.en": {
+    "en": "six, seven, eight, nine, ten",
+    "t": "шість, сім, вісім, дев'ять, десять"
+  },
+  "u2-l6.2.pairs": {
+    "en": [
+      "2",
+      "4",
+      "5",
+      "7",
+      "9"
+    ],
+    "t": [
+      "2",
+      "4",
+      "5",
+      "7",
+      "9"
+    ]
+  },
+  "u2-l6.3.question": {
+    "en": "What number is this?",
+    "t": "Яке це число?"
+  },
+  "u2-l6.3.options": {
+    "en": [
+      "3",
+      "8",
+      "6"
+    ],
+    "t": [
+      "3",
+      "8",
+      "6"
+    ]
+  },
+  "u2-l6.4.en": {
+    "en": "five, six, seven",
+    "t": "п'ять, шість, сім"
+  },
+  "u2-l6.5.en": {
+    "en": "eleven, twelve, thirteen",
+    "t": "одинадцять, дванадцять, тринадцять"
+  },
+  "u2-l6.5.note": {
+    "en": "11–19 end in **-násť**: **štr**násť (14, a short form of štyri), pätnásť, šestnásť, sedemnásť, osemnásť, devätnásť.",
+    "t": "11–19 закінчуються на **-násť** (як наше -надцять): **štr**násť (14: štr- — це скорочене štyri), pätnásť, šestnásť, sedemnásť, osemnásť, devätnásť."
+  },
+  "u2-l6.6.en": {
+    "en": "twenty, thirty, forty",
+    "t": "двадцять, тридцять, сорок"
+  },
+  "u2-l6.6.note": {
+    "en": "From 50 on, tens end in **-desiat**: päťdesiat, šesťdesiat, sedemdesiat… And 100 is **sto**.",
+    "t": "Починаючи з 50, десятки закінчуються на **-desiat** (як наше -десят): päťdesiat, šesťdesiat, sedemdesiat… А 100 — **sto**, як у нас. Зверніть увагу: 40 — це štyridsať, нічого схожого на «сорок»."
+  },
+  "u2-l6.7.pairs": {
+    "en": [
+      "11",
+      "15",
+      "20",
+      "50",
+      "100"
+    ],
+    "t": [
+      "11",
+      "15",
+      "20",
+      "50",
+      "100"
+    ]
+  },
+  "u2-l6.8.question": {
+    "en": "How do you say 14?",
+    "t": "Як сказати 14?"
+  },
+  "u2-l6.9.en": {
+    "en": "How old are you? (informal)",
+    "t": "Скільки тобі років?"
+  },
+  "u2-l6.9.note": {
+    "en": "Literally “How many years do you have?” Polite form: Koľko **máte** rokov?",
+    "t": "Дослівно: «Скільки маєш років?» Ввічливо: Koľko **máte** rokov? (Скільки вам років?)"
+  },
+  "u2-l6.10.en": {
+    "en": "I'm twenty-five.",
+    "t": "Мені двадцять п'ять років."
+  },
+  "u2-l6.10.note": {
+    "en": "**Mám** = I have (má = he or she has). Tens and ones join into one word: dvadsať + päť = **dvadsaťpäť**.",
+    "t": "**Mám** = я маю (má = він/вона має). Десятки й одиниці пишуть разом: dvadsať + päť = **dvadsaťpäť**."
+  },
+  "u2-l6.11.prompt": {
+    "en": "I'm twenty years old.",
+    "t": "Мені двадцять років."
+  },
+  "u2-l6.12.en": {
+    "en": "How old are you, Mr Kováč?",
+    "t": "Скільки вам років, пане Ковачу?"
+  },
+  "u2-l6.13.en": {
+    "en": "Tomáš is thirty.",
+    "t": "Томашеві тридцять років."
+  },
+  "u2-l6.14.en": {
+    "en": "first, second, third",
+    "t": "перший, другий, третій"
+  },
+  "u2-l6.14.note": {
+    "en": "Words for order end in **-ý** or **-í**: prvý, druhý, tretí, štvrtý, piaty.",
+    "t": "Порядкові числівники закінчуються на **-ý** або **-í**: prvý, druhý, tretí, štvrtý, piaty. Druhý — як наше «другий»."
+  },
+  "u2-l6.15.question": {
+    "en": "What does “druhý” mean?",
+    "t": "Що означає «druhý»?"
+  },
+  "u2-l6.15.options": {
+    "en": [
+      "two",
+      "second",
+      "twelve"
+    ],
+    "t": [
+      "два",
+      "другий",
+      "дванадцять"
+    ]
+  },
+  "u2-l6.16.en": {
+    "en": "I have one car.",
+    "t": "У мене одне авто."
+  },
+  "u2-l6.17.en": {
+    "en": "How old are you?",
+    "t": "Скільки тобі років?"
+  },
+  "u2-l7.titleEn": {
+    "en": "Review",
+    "t": "Повторення"
+  },
+  "u2-l7.0.en": {
+    "en": "Where are you from? I'm from Italy.",
+    "t": "Звідки ви? Я з Італії."
+  },
+  "u2-l7.1.en": {
+    "en": "Marek is from Slovakia.",
+    "t": "Марек зі Словаччини."
+  },
+  "u2-l7.2.prompt": {
+    "en": "They're from Germany.",
+    "t": "Вони з Німеччини."
+  },
+  "u2-l7.3.en": {
+    "en": "I'm not a student, I'm a teacher.",
+    "t": "Я не студентка, я вчителька."
+  },
+  "u2-l7.4.pairs": {
+    "en": [
+      "Irish (woman)",
+      "Italian (man)",
+      "German (woman)",
+      "Slovak (man)",
+      "friend (woman)"
+    ],
+    "t": [
+      "ірландка",
+      "італієць",
+      "німкеня",
+      "словак",
+      "подруга"
+    ]
+  },
+  "u2-l7.5.question": {
+    "en": "Which word is masculine?",
+    "t": "Яке слово чоловічого роду?"
+  },
+  "u2-l7.6.en": {
+    "en": "Marek works as a cook.",
+    "t": "Марек працює кухарем."
+  },
+  "u2-l7.7.answers": {
+    "en": [
+      "Lucia doesn't speak German."
+    ],
+    "t": [
+      "Луція не говорить німецькою.",
+      "Луція німецькою не говорить."
+    ]
+  },
+  "u2-l7.7.distractors": {
+    "en": [
+      "speaks",
+      "English"
+    ],
+    "t": [
+      "англійською",
+      "говорю"
+    ]
+  },
+  "u2-l7.8.en": {
+    "en": "Do you study or work?",
+    "t": "Ви вчитеся чи працюєте?"
+  },
+  "u2-l7.9.en": {
+    "en": "Lucia is nineteen.",
+    "t": "Луції дев'ятнадцять років."
+  },
+  "u2-l7.10.question": {
+    "en": "How do you say 40?",
+    "t": "Як сказати 40?"
+  },
+  "u2-l7.11.prompt": {
+    "en": "I'm not from Slovakia. I'm from Ireland.",
+    "t": "Я не зі Словаччини. Я з Ірландії."
+  },
+  "u2-l7.12.question": {
+    "en": "You meet a new teacher for the first time. How do you ask her name?",
+    "t": "Ви вперше зустрічаєте нову вчительку. Як запитати її ім'я?"
+  },
+  "u2-l7.13.en": {
+    "en": "What are their names? — Tomáš and Marek.",
+    "t": "Як їх звати? — Томаш і Марек."
+  },
+  "u2-l7.14.pairs": {
+    "en": [
+      "6",
+      "12",
+      "8",
+      "30",
+      "100"
+    ],
+    "t": [
+      "6",
+      "12",
+      "8",
+      "30",
+      "100"
+    ]
+  },
+  "u2-l7.15.en": {
+    "en": "I don't speak German.",
+    "t": "Я не говорю німецькою."
+  }
+}

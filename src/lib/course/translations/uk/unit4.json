@@ -1,0 +1,1420 @@
+{
+  "u4.titleEn": {
+    "en": "Towns and places",
+    "t": "Міста й місця"
+  },
+  "u4.topics": {
+    "en": [
+      "The town",
+      "Asking the way",
+      "Jobs",
+      "Prices"
+    ],
+    "t": [
+      "Місто",
+      "Як запитати дорогу",
+      "Професії",
+      "Ціни"
+    ]
+  },
+  "u4.grammar": {
+    "en": [
+      "Nominative plural",
+      "Adjectives after je / sú",
+      "Numbers 2, 3, 4 + nouns",
+      "The verb stáť",
+      "Plural-only nouns"
+    ],
+    "t": [
+      "Називний відмінок множини",
+      "Прикметники після je / sú",
+      "Числівники 2, 3, 4 + іменники",
+      "Дієслово stáť",
+      "Іменники лише в множині"
+    ]
+  },
+  "u4-l1.titleEn": {
+    "en": "The town",
+    "t": "Місто"
+  },
+  "u4-l1.0.en": {
+    "en": "town, city",
+    "t": "місто"
+  },
+  "u4-l1.0.note": {
+    "en": "Neuter: to mesto. The capital is **hlavné mesto**; Bratislava's historic centre is **Staré Mesto** (the Old Town).",
+    "t": "Середній рід, як і «місто»: to mesto. Столиця — **hlavné mesto** (дослівно «головне місто»); історичний центр Братислави — **Staré Mesto** (Старе Місто)."
+  },
+  "u4-l1.1.en": {
+    "en": "village",
+    "t": "село"
+  },
+  "u4-l1.2.question": {
+    "en": "What does this mean?",
+    "t": "Що це означає?"
+  },
+  "u4-l1.2.options": {
+    "en": [
+      "village",
+      "town",
+      "square"
+    ],
+    "t": [
+      "село",
+      "місто",
+      "площа"
+    ]
+  },
+  "u4-l1.3.en": {
+    "en": "square",
+    "t": "площа"
+  },
+  "u4-l1.3.note": {
+    "en": "Neuter, like mesto: to námestie.",
+    "t": "Середній рід, як mesto: to námestie."
+  },
+  "u4-l1.4.en": {
+    "en": "church",
+    "t": "церква, костел"
+  },
+  "u4-l1.5.pairs": {
+    "en": [
+      "town",
+      "village",
+      "square",
+      "church"
+    ],
+    "t": [
+      "місто",
+      "село",
+      "площа",
+      "церква"
+    ]
+  },
+  "u4-l1.6.en": {
+    "en": "The castle is old.",
+    "t": "Замок старий."
+  },
+  "u4-l1.6.note": {
+    "en": "After **je**, the adjective still matches the noun: hrad je star**ý**, dedina je star**á**, mesto je star**é**.",
+    "t": "На відміну від української, **je** (є) тут обов'язкове. Прикметник і після нього узгоджується з іменником: hrad je star**ý**, dedina je star**á**, mesto je star**é**."
+  },
+  "u4-l1.7.en": {
+    "en": "Bratislava is the capital of Slovakia.",
+    "t": "Братислава — столиця Словаччини."
+  },
+  "u4-l1.8.en": {
+    "en": "bridge",
+    "t": "міст"
+  },
+  "u4-l1.9.question": {
+    "en": "How do you say “The bridge is new”?",
+    "t": "Як сказати «Міст новий»?"
+  },
+  "u4-l1.10.en": {
+    "en": "river",
+    "t": "річка"
+  },
+  "u4-l1.10.note": {
+    "en": "Bratislava's river is the **Dunaj** (the Danube). **dlhý** = long: dlh**á** rieka.",
+    "t": "Братиславою тече **Dunaj** (Дунай). **dlhý** = довгий: dlh**á** rieka."
+  },
+  "u4-l1.11.en": {
+    "en": "The Danube is long.",
+    "t": "Дунай довгий."
+  },
+  "u4-l1.12.en": {
+    "en": "Lucia, where's the castle?",
+    "t": "Луціє, де замок?"
+  },
+  "u4-l1.13.prompt": {
+    "en": "The town is small and pretty.",
+    "t": "Місто маленьке й гарне."
+  },
+  "u4-l1.14.en": {
+    "en": "tall, high",
+    "t": "високий"
+  },
+  "u4-l1.14.note": {
+    "en": "Like nový: vysok**ý** hrad, vysok**á** lampa, vysok**é** okno.",
+    "t": "Як nový: vysok**ý** hrad, vysok**á** lampa, vysok**é** okno."
+  },
+  "u4-l1.15.question": {
+    "en": "Lucia says this. What is tall?",
+    "t": "Так каже Луція. Що високе?"
+  },
+  "u4-l1.15.options": {
+    "en": [
+      "the church",
+      "the castle",
+      "the bridge"
+    ],
+    "t": [
+      "церква",
+      "замок",
+      "міст"
+    ]
+  },
+  "u4-l1.16.answers": {
+    "en": [
+      "The castle is old and the church is new.",
+      "The castle is old and the church new."
+    ],
+    "t": [
+      "Замок старий, а церква нова.",
+      "Церква нова, а замок старий."
+    ]
+  },
+  "u4-l1.16.distractors": {
+    "en": [
+      "bridge",
+      "young"
+    ],
+    "t": [
+      "міст",
+      "молода"
+    ]
+  },
+  "u4-l1.17.en": {
+    "en": "That's the Old Town.",
+    "t": "Це Старе Місто."
+  },
+  "u4-l2.titleEn": {
+    "en": "Where's the post office?",
+    "t": "Де пошта?"
+  },
+  "u4-l2.0.en": {
+    "en": "Excuse me, where's the post office?",
+    "t": "Перепрошую, де пошта?"
+  },
+  "u4-l2.0.note": {
+    "en": "**Kde je…?** works for any place: Kde je **banka** (the bank)? Kde je **hotel**?",
+    "t": "**Kde je…?** («Де…?») — для будь-якого місця: Kde je **banka** (банк)? Kde je **hotel** (готель)?"
+  },
+  "u4-l2.1.en": {
+    "en": "café",
+    "t": "кав'ярня"
+  },
+  "u4-l2.1.note": {
+    "en": "Feminine, even though it ends in a consonant: tá kaviareň. **káva** = coffee.",
+    "t": "Жіночий рід, хоч і закінчується на приголосний, як «ніч» чи «сіль»: tá kaviareň. **káva** = кава."
+  },
+  "u4-l2.2.question": {
+    "en": "Emma wants a coffee. Where does she go?",
+    "t": "Емма хоче кави. Куди вона піде?"
+  },
+  "u4-l2.3.en": {
+    "en": "cinema",
+    "t": "кінотеатр"
+  },
+  "u4-l2.4.en": {
+    "en": "theatre",
+    "t": "театр"
+  },
+  "u4-l2.5.en": {
+    "en": "museum",
+    "t": "музей"
+  },
+  "u4-l2.5.note": {
+    "en": "Kino, divadlo and múzeum are all neuter: to kino, to divadlo, to múzeum.",
+    "t": "Kino, divadlo і múzeum — усі середнього роду (хоча «театр» і «музей» — чоловічого): to kino, to divadlo, to múzeum."
+  },
+  "u4-l2.6.pairs": {
+    "en": [
+      "post office",
+      "café",
+      "cinema",
+      "theatre",
+      "museum"
+    ],
+    "t": [
+      "пошта",
+      "кав'ярня",
+      "кінотеатр",
+      "театр",
+      "музей"
+    ]
+  },
+  "u4-l2.7.en": {
+    "en": "Excuse me, where's the bank?",
+    "t": "Перепрошую, де банк?"
+  },
+  "u4-l2.8.en": {
+    "en": "(to the) left – (to the) right",
+    "t": "наліво – направо"
+  },
+  "u4-l2.8.note": {
+    "en": "Use these for directions, where to go. For where something is, you know **vľavo – vpravo**: Pošta je vľavo.",
+    "t": "Це відповідь на «куди?» — напрямок руху (do- як «до»). На питання «де?» відповідають уже знайомі **vľavo – vpravo** (ліворуч, праворуч): Pošta je vľavo."
+  },
+  "u4-l2.9.en": {
+    "en": "Go straight on, then right.",
+    "t": "Ідіть прямо, потім направо."
+  },
+  "u4-l2.9.note": {
+    "en": "**potom** = then. **Choďte** is for vy (strangers); to a friend: **Choď** rovno!",
+    "t": "**potom** = потім, **rovno** = прямо. **Choďte** — на «ви» (до незнайомих); другові: **Choď** rovno!"
+  },
+  "u4-l2.10.question": {
+    "en": "What does pán Kováč tell Emma?",
+    "t": "Що пан Ковач каже Еммі?"
+  },
+  "u4-l2.10.options": {
+    "en": [
+      "Go left.",
+      "Go right.",
+      "Go straight on."
+    ],
+    "t": [
+      "Ідіть наліво.",
+      "Ідіть направо.",
+      "Ідіть прямо."
+    ]
+  },
+  "u4-l2.11.en": {
+    "en": "The post office is opposite.",
+    "t": "Пошта навпроти."
+  },
+  "u4-l2.11.note": {
+    "en": "**oproti** = opposite, across the street.",
+    "t": "**oproti** = навпроти, через дорогу."
+  },
+  "u4-l2.12.en": {
+    "en": "The cinema is on the left, the theatre is on the right.",
+    "t": "Кінотеатр ліворуч, театр праворуч."
+  },
+  "u4-l2.13.prompt": {
+    "en": "Excuse me, where's the museum?",
+    "t": "Перепрошую, де музей?"
+  },
+  "u4-l2.14.en": {
+    "en": "Hi Tomáš! Go straight on, then left.",
+    "t": "Привіт, Томашу! Іди прямо, потім наліво."
+  },
+  "u4-l2.15.en": {
+    "en": "The museum is new.",
+    "t": "Музей новий."
+  },
+  "u4-l2.16.answers": {
+    "en": [
+      "The post office is opposite, the bank is on the left."
+    ],
+    "t": [
+      "Пошта навпроти, банк ліворуч.",
+      "Банк ліворуч, пошта навпроти."
+    ]
+  },
+  "u4-l2.16.distractors": {
+    "en": [
+      "right"
+    ],
+    "t": [
+      "праворуч",
+      "внизу"
+    ]
+  },
+  "u4-l2.17.en": {
+    "en": "Excuse me, where's the post office?",
+    "t": "Перепрошую, де пошта?"
+  },
+  "u4-l3.titleEn": {
+    "en": "Jobs",
+    "t": "Професії"
+  },
+  "u4-l3.0.en": {
+    "en": "What do you do? — I'm a cook.",
+    "t": "Ким ти працюєш? — Я кухар."
+  },
+  "u4-l3.0.note": {
+    "en": "Marek, Lucia's brother, is a cook. To someone you call vy: Čo robíte?",
+    "t": "Марек, брат Луції, працює кухарем. Дослівно це «Що робиш?», але так питають і про професію. На «ви»: Čo robíte?"
+  },
+  "u4-l3.1.en": {
+    "en": "waiter",
+    "t": "офіціант"
+  },
+  "u4-l3.2.question": {
+    "en": "Who cooks in a restaurant?",
+    "t": "Хто готує в ресторані?"
+  },
+  "u4-l3.3.en": {
+    "en": "shop assistant",
+    "t": "продавець"
+  },
+  "u4-l3.4.en": {
+    "en": "journalist",
+    "t": "журналіст"
+  },
+  "u4-l3.5.title": {
+    "en": "Jobs: he and she",
+    "t": "Професії: він і вона"
+  },
+  "u4-l3.5.body": {
+    "en": [
+      "Most jobs add **-ka** for a woman: kuchár → kuchár**ka**.",
+      "Jobs ending in **-ník** change to **-níčka**: čašník → čašní**čka**."
+    ],
+    "t": [
+      "Жіноча назва більшості професій має **-ka**, як «студент → студентка»: kuchár → kuchár**ka**.",
+      "Назви на **-ník** змінюються на **-níčka**: čašník → čašní**čka**."
+    ]
+  },
+  "u4-l3.5.table.head": {
+    "en": [
+      "he",
+      "she"
+    ],
+    "t": [
+      "він",
+      "вона"
+    ]
+  },
+  "u4-l3.5.table.rows": {
+    "en": [
+      [
+        "kuchár",
+        "kuchár**ka**"
+      ],
+      [
+        "predavač",
+        "predavač**ka**"
+      ],
+      [
+        "novinár",
+        "novinár**ka**"
+      ],
+      [
+        "programátor",
+        "programátor**ka**"
+      ],
+      [
+        "čašník",
+        "čašní**čka**"
+      ]
+    ],
+    "t": [
+      [
+        "kuchár",
+        "kuchár**ka**"
+      ],
+      [
+        "predavač",
+        "predavač**ka**"
+      ],
+      [
+        "novinár",
+        "novinár**ka**"
+      ],
+      [
+        "programátor",
+        "programátor**ka**"
+      ],
+      [
+        "čašník",
+        "čašní**čka**"
+      ]
+    ]
+  },
+  "u4-l3.5.examples": {
+    "en": [
+      "Marek is a cook.",
+      "Martina is a journalist.",
+      "Peter is a waiter and Jana is a waitress."
+    ],
+    "t": [
+      "Марек — кухар.",
+      "Мартіна — журналістка.",
+      "Петер — офіціант, а Яна — офіціантка."
+    ]
+  },
+  "u4-l3.6.en": {
+    "en": "Ivan is a waiter and Mária is a shop assistant.",
+    "t": "Іван — офіціант, а Марія — продавчиня."
+  },
+  "u4-l3.7.en": {
+    "en": "driver",
+    "t": "водій"
+  },
+  "u4-l3.7.note": {
+    "en": "A woman driver: šofér**ka**.",
+    "t": "Водійка — šofér**ka**."
+  },
+  "u4-l3.8.en": {
+    "en": "pensioner (a retired man)",
+    "t": "пенсіонер"
+  },
+  "u4-l3.8.note": {
+    "en": "A retired woman is dôchod**kyňa**: many words ending in -ca switch to **-kyňa**.",
+    "t": "Пенсіонерка — dôchod**kyňa**: багато слів на -ca мають жіночу форму на **-kyňa**. Сам dôchodca — чоловічого роду, хоч і на -a, як «Микола»."
+  },
+  "u4-l3.9.pairs": {
+    "en": [
+      "cook",
+      "waiter",
+      "shop assistant",
+      "journalist",
+      "driver"
+    ],
+    "t": [
+      "кухар",
+      "офіціант",
+      "продавець",
+      "журналіст",
+      "водій"
+    ]
+  },
+  "u4-l3.10.en": {
+    "en": "young – old",
+    "t": "молодий – старий"
+  },
+  "u4-l3.10.note": {
+    "en": "You know **starý** for things; it works for people too: mlad**á** študentka, star**ý** dôchodca.",
+    "t": "Як і в українській, **starý** — і про речі, і про людей: mlad**á** študentka, star**ý** dôchodca."
+  },
+  "u4-l3.11.en": {
+    "en": "Marek is a young cook.",
+    "t": "Марек — молодий кухар."
+  },
+  "u4-l3.12.prompt": {
+    "en": "She is a journalist.",
+    "t": "Вона журналістка."
+  },
+  "u4-l3.13.en": {
+    "en": "Mr Novák doesn't work, he's a pensioner.",
+    "t": "Пан Новак не працює, він пенсіонер."
+  },
+  "u4-l3.14.question": {
+    "en": "How do you ask a stranger what they do?",
+    "t": "Як запитати незнайому людину, ким вона працює?"
+  },
+  "u4-l3.15.answers": {
+    "en": [
+      "Tomáš is a programmer, not a driver."
+    ],
+    "t": [
+      "Томаш — програміст, а не водій.",
+      "Томаш не водій, а програміст.",
+      "Томаш програміст, не водій."
+    ]
+  },
+  "u4-l3.15.distractors": {
+    "en": [
+      "cook",
+      "waiter"
+    ],
+    "t": [
+      "кухар",
+      "офіціант"
+    ]
+  },
+  "u4-l3.16.en": {
+    "en": "Lucia isn't a waitress, she's a student.",
+    "t": "Луція не офіціантка, вона студентка."
+  },
+  "u4-l3.17.en": {
+    "en": "What do you do? (formal)",
+    "t": "Ким ви працюєте?"
+  },
+  "u4-l4.titleEn": {
+    "en": "The plural",
+    "t": "Множина"
+  },
+  "u4-l4.0.title": {
+    "en": "Plural: places and things",
+    "t": "Множина: місця й речі"
+  },
+  "u4-l4.0.body": {
+    "en": [
+      "In the plural, most masculine and feminine nouns end in **-y** (or **-e** after a soft sound like ň). Neuter nouns in -o end in **-á**, and those in -ie end in **-ia**.",
+      "“That” becomes **tie** for all of them, “is” becomes **sú**, and adjectives end in **-é**: tie mosty sú nov**é**."
+    ],
+    "t": [
+      "У множині іменники чоловічого й жіночого роду здебільшого мають **-y** (після м'якого приголосного, як ň, — **-e**): mosty, rieky — як «мости», «річки». Середній рід на -o має **-á** (mestá — «міста»), на -ie — **-ia**.",
+      "«Ті» для всіх них — **tie**, je змінюється на **sú**, а прикметники закінчуються на **-é**: tie mosty sú nov**é** (ті мости нові)."
+    ]
+  },
+  "u4-l4.0.table.head": {
+    "en": [
+      "",
+      "one",
+      "many"
+    ],
+    "t": [
+      "",
+      "однина",
+      "множина"
+    ]
+  },
+  "u4-l4.0.table.rows": {
+    "en": [
+      [
+        "masculine",
+        "most",
+        "most**y**"
+      ],
+      [
+        "feminine",
+        "rieka",
+        "riek**y**"
+      ],
+      [
+        "feminine",
+        "kaviareň",
+        "kaviarn**e**"
+      ],
+      [
+        "neuter",
+        "mesto",
+        "mest**á**"
+      ],
+      [
+        "neuter",
+        "námestie",
+        "námesti**a**"
+      ]
+    ],
+    "t": [
+      [
+        "чоловічий",
+        "most",
+        "most**y**"
+      ],
+      [
+        "жіночий",
+        "rieka",
+        "riek**y**"
+      ],
+      [
+        "жіночий",
+        "kaviareň",
+        "kaviarn**e**"
+      ],
+      [
+        "середній",
+        "mesto",
+        "mest**á**"
+      ],
+      [
+        "середній",
+        "námestie",
+        "námesti**a**"
+      ]
+    ]
+  },
+  "u4-l4.0.examples": {
+    "en": [
+      "Those castles are old.",
+      "Cafés are expensive.",
+      "The towns are pretty."
+    ],
+    "t": [
+      "Ті замки старі.",
+      "Кав'ярні дорогі.",
+      "Міста гарні."
+    ]
+  },
+  "u4-l4.1.en": {
+    "en": "Those churches are old.",
+    "t": "Ті церкви старі."
+  },
+  "u4-l4.2.en": {
+    "en": "The villages are small.",
+    "t": "Села маленькі."
+  },
+  "u4-l4.3.prompt": {
+    "en": "The squares are pretty.",
+    "t": "Площі гарні."
+  },
+  "u4-l4.4.en": {
+    "en": "Those rivers are long.",
+    "t": "Ті річки довгі."
+  },
+  "u4-l4.5.answers": {
+    "en": [
+      "The cinemas and theatres are new.",
+      "Cinemas and theatres are new."
+    ],
+    "t": [
+      "Кінотеатри й театри нові.",
+      "Театри й кінотеатри нові."
+    ]
+  },
+  "u4-l4.5.distractors": {
+    "en": [
+      "old",
+      "is"
+    ],
+    "t": [
+      "старі",
+      "новий"
+    ]
+  },
+  "u4-l4.6.title": {
+    "en": "Plural: people",
+    "t": "Множина: люди"
+  },
+  "u4-l4.6.body": {
+    "en": [
+      "Groups of men take **-i**: študent → študent**i**. A final k turns into c: čašník → čašní**ci**. Some words take **-ia** or **-ovia**.",
+      "For men, “that” is **tí** and adjectives end in **-í**: tí mladí kuchári. Women follow the pattern of things: tie mlad**é** kuchárky.",
+      "A mixed group of men and women counts as men."
+    ],
+    "t": [
+      "Назви чоловіків у множині мають **-i**: študent → študent**i**. Кінцеве k переходить у c (як «рука → руці»): čašník → čašní**ci**. Деякі слова мають **-ia** або **-ovia**.",
+      "В українській у множині рід не розрізняється, а в словацькій чоловіки мають окремі форми: «ті» — **tí**, прикметники на **-í**: tí mladí kuchári. Жінки — як речі: tie mlad**é** kuchárky.",
+      "Змішана група чоловіків і жінок — як чоловіки."
+    ]
+  },
+  "u4-l4.6.table.head": {
+    "en": [
+      "one",
+      "many"
+    ],
+    "t": [
+      "однина",
+      "множина"
+    ]
+  },
+  "u4-l4.6.table.rows": {
+    "en": [
+      [
+        "študent",
+        "študent**i**"
+      ],
+      [
+        "kuchár",
+        "kuchár**i**"
+      ],
+      [
+        "čašník",
+        "čašní**ci**"
+      ],
+      [
+        "Slovák",
+        "Slová**ci**"
+      ],
+      [
+        "učiteľ",
+        "učitel**ia**"
+      ],
+      [
+        "dôchodca",
+        "dôchodc**ovia**"
+      ],
+      [
+        "kuchárka",
+        "kuchárk**y**"
+      ]
+    ],
+    "t": [
+      [
+        "študent",
+        "študent**i**"
+      ],
+      [
+        "kuchár",
+        "kuchár**i**"
+      ],
+      [
+        "čašník",
+        "čašní**ci**"
+      ],
+      [
+        "Slovák",
+        "Slová**ci**"
+      ],
+      [
+        "učiteľ",
+        "učitel**ia**"
+      ],
+      [
+        "dôchodca",
+        "dôchodc**ovia**"
+      ],
+      [
+        "kuchárka",
+        "kuchárk**y**"
+      ]
+    ]
+  },
+  "u4-l4.6.examples": {
+    "en": [
+      "Those (male) students are young.",
+      "Those (female) students are young.",
+      "Peter and Jana are Slovaks."
+    ],
+    "t": [
+      "Ті студенти молоді.",
+      "Ті студентки молоді.",
+      "Петер і Яна — словаки."
+    ]
+  },
+  "u4-l4.7.en": {
+    "en": "Marek and Peter are cooks.",
+    "t": "Марек і Петер — кухарі."
+  },
+  "u4-l4.8.en": {
+    "en": "Those waiters are young.",
+    "t": "Ті офіціанти молоді."
+  },
+  "u4-l4.9.question": {
+    "en": "How do you say “Emma and Lucia are students”?",
+    "t": "Як сказати «Емма й Луція — студентки»?"
+  },
+  "u4-l4.10.prompt": {
+    "en": "Tomáš and Marek are not journalists.",
+    "t": "Томаш і Марек не журналісти."
+  },
+  "u4-l4.11.en": {
+    "en": "Pensioners don't work.",
+    "t": "Пенсіонери не працюють."
+  },
+  "u4-l4.12.en": {
+    "en": "Lucia and Tomáš are Slovaks.",
+    "t": "Луція й Томаш — словаки."
+  },
+  "u4-l4.13.en": {
+    "en": "Those bridges are new.",
+    "t": "Ті мости нові."
+  },
+  "u4-l5.titleEn": {
+    "en": "Two, three, four",
+    "t": "Два, три, чотири"
+  },
+  "u4-l5.0.title": {
+    "en": "Two, three, four + plural",
+    "t": "Два, три, чотири + множина"
+  },
+  "u4-l5.0.body": {
+    "en": [
+      "After 2, 3 and 4, use the plural you just learned: dva most**y**, tri mest**á**.",
+      "Two has two forms: **dva** for masculine words, **dve** for feminine and neuter ones. For things, **tri** and **štyri** stay the same.",
+      "**tu** = here, **tam** = there. Tu sú dva hotely. = There are two hotels here."
+    ],
+    "t": [
+      "Після 2, 3 і 4 вживайте щойно вивчену множину, як в українській: dva most**y** — «два мости», tri mest**á** — «три міста».",
+      "Як і в українській (два / дві), «два» має дві форми: **dva** — для чоловічого роду, **dve** — для жіночого й середнього (dve mestá, хоча «два міста»). **tri** і **štyri** для речей не змінюються.",
+      "**tu** = тут, **tam** = там. Tu sú dva hotely. = Тут два готелі."
+    ]
+  },
+  "u4-l5.0.table.head": {
+    "en": [
+      "",
+      "2",
+      "3, 4"
+    ],
+    "t": [
+      "",
+      "2",
+      "3, 4"
+    ]
+  },
+  "u4-l5.0.table.rows": {
+    "en": [
+      [
+        "masculine",
+        "**dva** mosty",
+        "tri / štyri mosty"
+      ],
+      [
+        "feminine",
+        "**dve** rieky",
+        "tri / štyri rieky"
+      ],
+      [
+        "neuter",
+        "**dve** mestá",
+        "tri / štyri mestá"
+      ]
+    ],
+    "t": [
+      [
+        "чоловічий",
+        "**dva** mosty",
+        "tri / štyri mosty"
+      ],
+      [
+        "жіночий",
+        "**dve** rieky",
+        "tri / štyri rieky"
+      ],
+      [
+        "середній",
+        "**dve** mestá",
+        "tri / štyri mestá"
+      ]
+    ]
+  },
+  "u4-l5.0.examples": {
+    "en": [
+      "There are two hotels here.",
+      "The town has two squares.",
+      "There are four cinemas here."
+    ],
+    "t": [
+      "Тут два готелі.",
+      "У місті дві площі.",
+      "Тут чотири кінотеатри."
+    ]
+  },
+  "u4-l5.1.en": {
+    "en": "The town has two bridges.",
+    "t": "У місті два мости."
+  },
+  "u4-l5.2.en": {
+    "en": "There are two cafés here.",
+    "t": "Тут дві кав'ярні."
+  },
+  "u4-l5.3.question": {
+    "en": "How do you say “two towns”?",
+    "t": "Як сказати «два міста»?"
+  },
+  "u4-l5.4.prompt": {
+    "en": "There are four bridges here.",
+    "t": "Тут чотири мости."
+  },
+  "u4-l5.5.en": {
+    "en": "The town has three churches.",
+    "t": "У місті три церкви."
+  },
+  "u4-l5.6.title": {
+    "en": "Counting men: dvaja, traja, štyria",
+    "t": "Рахуємо чоловіків: dvaja, traja, štyria"
+  },
+  "u4-l5.6.body": {
+    "en": [
+      "When you count men (or a mixed group), 2, 3 and 4 change to **dvaja**, **traja**, **štyria**, and the noun takes the men's plural: dvaja kuchár**i**.",
+      "Women and things keep **dve** (or **dva**), **tri**, **štyri**."
+    ],
+    "t": [
+      "Коли рахуєте чоловіків (або змішану групу), 2, 3 і 4 стають **dvaja**, **traja**, **štyria** (пор. «двоє, троє, четверо»), а іменник стоїть у «чоловічій» множині: dvaja kuchár**i** (двоє кухарів).",
+      "Для жінок і речей — звичайні **dve** (або **dva**), **tri**, **štyri**."
+    ]
+  },
+  "u4-l5.6.table.head": {
+    "en": [
+      "men",
+      "women",
+      "things"
+    ],
+    "t": [
+      "чоловіки",
+      "жінки",
+      "речі"
+    ]
+  },
+  "u4-l5.6.table.rows": {
+    "en": [
+      [
+        "**dvaja** kuchári",
+        "dve kuchárky",
+        "dva mosty"
+      ],
+      [
+        "**traja** študenti",
+        "tri študentky",
+        "tri mestá"
+      ],
+      [
+        "**štyria** čašníci",
+        "štyri čašníčky",
+        "štyri kaviarne"
+      ]
+    ],
+    "t": [
+      [
+        "**dvaja** kuchári",
+        "dve kuchárky",
+        "dva mosty"
+      ],
+      [
+        "**traja** študenti",
+        "tri študentky",
+        "tri mestá"
+      ],
+      [
+        "**štyria** čašníci",
+        "štyri čašníčky",
+        "štyri kaviarne"
+      ]
+    ]
+  },
+  "u4-l5.6.examples": {
+    "en": [
+      "Three students are working.",
+      "There are two journalists here."
+    ],
+    "t": [
+      "Троє студентів працюють.",
+      "Тут двоє журналістів."
+    ]
+  },
+  "u4-l5.7.en": {
+    "en": "There are two waiters over there.",
+    "t": "Там двоє офіціантів."
+  },
+  "u4-l5.8.en": {
+    "en": "Lucia has three friends.",
+    "t": "У Луції три подруги."
+  },
+  "u4-l5.9.question": {
+    "en": "Which one is correct?",
+    "t": "Який варіант правильний?"
+  },
+  "u4-l5.10.prompt": {
+    "en": "Two waiters and two waitresses.",
+    "t": "Двоє офіціантів і дві офіціантки."
+  },
+  "u4-l5.11.answers": {
+    "en": [
+      "The town has two hotels and three cafés."
+    ],
+    "t": [
+      "У місті два готелі й три кав'ярні.",
+      "У місті три кав'ярні й два готелі."
+    ]
+  },
+  "u4-l5.11.distractors": {
+    "en": [
+      "four",
+      "museums"
+    ],
+    "t": [
+      "чотири",
+      "музеї"
+    ]
+  },
+  "u4-l5.12.en": {
+    "en": "Two cooks and four waiters.",
+    "t": "Двоє кухарів і четверо офіціантів."
+  },
+  "u4-l5.13.en": {
+    "en": "Bratislava has two castles.",
+    "t": "У Братиславі два замки."
+  },
+  "u4-l6.titleEn": {
+    "en": "How much is it?",
+    "t": "Скільки це коштує?"
+  },
+  "u4-l6.0.title": {
+    "en": "stáť: to cost, to stand",
+    "t": "stáť: коштувати, стояти"
+  },
+  "u4-l6.0.body": {
+    "en": [
+      "**Koľko to stojí?** means “How much is it?” The verb **stáť** means “to cost”, and also “to stand”.",
+      "One thing **stojí**, two or more things **stoja**."
+    ],
+    "t": [
+      "**Koľko to stojí?** — «Скільки це коштує?» Дієслово **stáť** означає і «коштувати», і «стояти».",
+      "Одна річ **stojí**, дві й більше — **stoja**."
+    ]
+  },
+  "u4-l6.0.table.head": {
+    "en": [
+      "",
+      "stáť"
+    ],
+    "t": [
+      "",
+      "stáť"
+    ]
+  },
+  "u4-l6.0.table.rows": {
+    "en": [
+      [
+        "ja",
+        "stoj**ím**"
+      ],
+      [
+        "ty",
+        "stoj**íš**"
+      ],
+      [
+        "on, ona, ono",
+        "stoj**í**"
+      ],
+      [
+        "my",
+        "stoj**íme**"
+      ],
+      [
+        "vy",
+        "stoj**íte**"
+      ],
+      [
+        "oni, ony",
+        "stoj**a**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "stoj**ím**"
+      ],
+      [
+        "ty",
+        "stoj**íš**"
+      ],
+      [
+        "on, ona, ono",
+        "stoj**í**"
+      ],
+      [
+        "my",
+        "stoj**íme**"
+      ],
+      [
+        "vy",
+        "stoj**íte**"
+      ],
+      [
+        "oni, ony",
+        "stoj**a**"
+      ]
+    ]
+  },
+  "u4-l6.0.examples": {
+    "en": [
+      "How much is it?",
+      "Emma and Lucia are standing at the front."
+    ],
+    "t": [
+      "Скільки це коштує?",
+      "Емма й Луція стоять попереду."
+    ]
+  },
+  "u4-l6.1.title": {
+    "en": "Prices in euros",
+    "t": "Ціни в євро"
+  },
+  "u4-l6.1.body": {
+    "en": [
+      "**Euro** is neuter, so two is **dve**: dve eur**á**.",
+      "From five up, Slovak uses a special short form: päť **eur**, desať **eur**."
+    ],
+    "t": [
+      "**Euro** — середнього роду, тож «два» — **dve**: dve eur**á**. На відміну від українського «євро», це слово відмінюється.",
+      "Від п'яти — родовий відмінок множини, як в українській «п'ять міст»: päť **eur**, desať **eur**."
+    ]
+  },
+  "u4-l6.1.table.head": {
+    "en": [
+      "number",
+      "euros"
+    ],
+    "t": [
+      "число",
+      "євро"
+    ]
+  },
+  "u4-l6.1.table.rows": {
+    "en": [
+      [
+        "1",
+        "jedno euro"
+      ],
+      [
+        "2, 3, 4",
+        "dve, tri, štyri eur**á**"
+      ],
+      [
+        "5, 6, 7…",
+        "päť, šesť, sedem **eur**"
+      ]
+    ],
+    "t": [
+      [
+        "1",
+        "jedno euro"
+      ],
+      [
+        "2, 3, 4",
+        "dve, tri, štyri eur**á**"
+      ],
+      [
+        "5, 6, 7…",
+        "päť, šesť, sedem **eur**"
+      ]
+    ]
+  },
+  "u4-l6.1.examples": {
+    "en": [
+      "The coffee costs two euros.",
+      "The lamp costs twenty euros."
+    ],
+    "t": [
+      "Кава коштує два євро.",
+      "Лампа коштує двадцять євро."
+    ]
+  },
+  "u4-l6.2.en": {
+    "en": "How much is it?",
+    "t": "Скільки це коштує?"
+  },
+  "u4-l6.3.en": {
+    "en": "The phone costs a hundred euros.",
+    "t": "Телефон коштує сто євро."
+  },
+  "u4-l6.4.question": {
+    "en": "How do you say “five euros”?",
+    "t": "Як сказати «п'ять євро»?"
+  },
+  "u4-l6.5.prompt": {
+    "en": "The coffee costs three euros.",
+    "t": "Кава коштує три євро."
+  },
+  "u4-l6.6.en": {
+    "en": "Tomáš is standing at the back.",
+    "t": "Томаш стоїть позаду."
+  },
+  "u4-l6.7.en": {
+    "en": "We're standing here.",
+    "t": "Ми стоїмо тут."
+  },
+  "u4-l6.8.title": {
+    "en": "Always plural",
+    "t": "Тільки множина"
+  },
+  "u4-l6.8.body": {
+    "en": [
+      "Some nouns exist only in the plural, even for one thing: **nohavice** (trousers), **okuliare** (glasses), **noviny** (a newspaper).",
+      "They always take plural forms, even where English uses the singular: Noviny **sú** nové. = The newspaper is new. Hodinky **stoja** päť eur. = The watch costs five euros."
+    ],
+    "t": [
+      "Деякі іменники мають лише множину, навіть коли йдеться про одну річ, як «окуляри» чи «штани»: **nohavice** (штани), **okuliare** (окуляри), **noviny** (газета).",
+      "У словацькій таких слів більше, ніж в українській. Дієслово й прикметник при них завжди в множині: Noviny **sú** nové. = Газета нова. Hodinky **stoja** päť eur. = Годинник коштує п'ять євро."
+    ]
+  },
+  "u4-l6.8.table.head": {
+    "en": [
+      "Slovak",
+      "English"
+    ],
+    "t": [
+      "Словацькою",
+      "Українською"
+    ]
+  },
+  "u4-l6.8.table.rows": {
+    "en": [
+      [
+        "nohavice",
+        "trousers"
+      ],
+      [
+        "okuliare",
+        "glasses"
+      ],
+      [
+        "noviny",
+        "newspaper"
+      ],
+      [
+        "hodinky",
+        "watch"
+      ],
+      [
+        "dvere",
+        "door"
+      ],
+      [
+        "Vianoce",
+        "Christmas"
+      ],
+      [
+        "narodeniny",
+        "birthday"
+      ],
+      [
+        "Košice",
+        "Košice (a city)"
+      ]
+    ],
+    "t": [
+      [
+        "nohavice",
+        "штани"
+      ],
+      [
+        "okuliare",
+        "окуляри"
+      ],
+      [
+        "noviny",
+        "газета"
+      ],
+      [
+        "hodinky",
+        "годинник"
+      ],
+      [
+        "dvere",
+        "двері"
+      ],
+      [
+        "Vianoce",
+        "Різдво"
+      ],
+      [
+        "narodeniny",
+        "день народження"
+      ],
+      [
+        "Košice",
+        "Кошиці (місто)"
+      ]
+    ]
+  },
+  "u4-l6.8.examples": {
+    "en": [
+      "That door is new.",
+      "Košice is pretty."
+    ],
+    "t": [
+      "Ті двері нові.",
+      "Кошиці гарні."
+    ]
+  },
+  "u4-l6.9.pairs": {
+    "en": [
+      "trousers",
+      "glasses",
+      "newspaper",
+      "watch",
+      "door"
+    ],
+    "t": [
+      "штани",
+      "окуляри",
+      "газета",
+      "годинник",
+      "двері"
+    ]
+  },
+  "u4-l6.10.en": {
+    "en": "Those trousers are expensive.",
+    "t": "Ті штани дорогі."
+  },
+  "u4-l6.11.en": {
+    "en": "The glasses cost ten euros.",
+    "t": "Окуляри коштують десять євро."
+  },
+  "u4-l6.12.prompt": {
+    "en": "Where is my watch?",
+    "t": "Де мій годинник?"
+  },
+  "u4-l6.13.en": {
+    "en": "Christmas is here!",
+    "t": "Ось і Різдво!"
+  },
+  "u4-l6.14.en": {
+    "en": "How much is it?",
+    "t": "Скільки це коштує?"
+  },
+  "u4-l7.titleEn": {
+    "en": "Review",
+    "t": "Повторення"
+  },
+  "u4-l7.0.pairs": {
+    "en": [
+      "square",
+      "bridge",
+      "castle",
+      "river",
+      "church"
+    ],
+    "t": [
+      "площа",
+      "міст",
+      "замок",
+      "річка",
+      "церква"
+    ]
+  },
+  "u4-l7.1.question": {
+    "en": "What are you told to do?",
+    "t": "Куди вам треба йти?"
+  },
+  "u4-l7.1.options": {
+    "en": [
+      "Go straight on, then left.",
+      "Go left, then straight on.",
+      "Go right, then straight on."
+    ],
+    "t": [
+      "Ідіть прямо, потім наліво.",
+      "Ідіть наліво, потім прямо.",
+      "Ідіть направо, потім прямо."
+    ]
+  },
+  "u4-l7.2.en": {
+    "en": "Excuse me, where's the post office? — It's opposite.",
+    "t": "Перепрошую, де пошта? — Навпроти."
+  },
+  "u4-l7.3.prompt": {
+    "en": "Marek is a cook and Lucia is a student.",
+    "t": "Марек — кухар, а Луція — студентка."
+  },
+  "u4-l7.4.en": {
+    "en": "Mrs Horváthová is a teacher.",
+    "t": "Пані Горватова — вчителька."
+  },
+  "u4-l7.5.en": {
+    "en": "Those cafés are expensive.",
+    "t": "Ті кав'ярні дорогі."
+  },
+  "u4-l7.6.en": {
+    "en": "Those journalists are young.",
+    "t": "Ті журналісти молоді."
+  },
+  "u4-l7.7.question": {
+    "en": "How do you say “three waiters”?",
+    "t": "Як сказати «троє офіціантів»?"
+  },
+  "u4-l7.8.prompt": {
+    "en": "The town has three churches and two theatres.",
+    "t": "У місті три церкви й два театри."
+  },
+  "u4-l7.9.en": {
+    "en": "Excuse me, where's the bank?",
+    "t": "Перепрошую, де банк?"
+  },
+  "u4-l7.10.en": {
+    "en": "How much are those glasses?",
+    "t": "Скільки коштують ці окуляри?"
+  },
+  "u4-l7.11.answers": {
+    "en": [
+      "The watch costs four euros.",
+      "The watches cost four euros.",
+      "A watch costs four euros."
+    ],
+    "t": [
+      "Годинник коштує чотири євро.",
+      "Годинники коштують чотири євро."
+    ]
+  },
+  "u4-l7.11.distractors": {
+    "en": [
+      "five",
+      "is"
+    ],
+    "t": [
+      "п'ять",
+      "коштують"
+    ]
+  },
+  "u4-l7.12.en": {
+    "en": "Those cooks are from Slovakia.",
+    "t": "Ті кухарі зі Словаччини."
+  },
+  "u4-l7.13.question": {
+    "en": "Which word is always plural?",
+    "t": "Яке слово вживається лише в множині?"
+  },
+  "u4-l7.14.prompt": {
+    "en": "The bridge is new and the castle is old.",
+    "t": "Міст новий, а замок старий."
+  }
+}

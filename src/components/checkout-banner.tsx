@@ -11,7 +11,7 @@ const MAX_CHECKS = 15; // every 2 s, so ~30 s
 export function CheckoutBanner() {
   const router = useRouter();
   const params = useSearchParams();
-  const { ready, user, isPremium, refreshProfile } = useApp();
+  const { ready, user, isPremium, refreshProfile, t } = useApp();
   const [checks, setChecks] = useState(0);
   const visible = params.get("checkout") === "success";
 
@@ -40,19 +40,19 @@ export function CheckoutBanner() {
         <CrownIcon size={32} className="shrink-0 text-gold" />
         <div className="flex-1">
           <p className="text-lg font-black">
-            {status === "done" ? "Vitaj v Premium! You're all set." : "Payment received!"}
+            {status === "done" ? t("checkout.done.title") : t("checkout.received")}
           </p>
           <p className="font-semibold">
             {status === "done"
-              ? "Units 3–10 are unlocked. Thanks for supporting Slovko."
+              ? t("checkout.done.body")
               : status === "pending"
-                ? "Unlocking Premium…"
-                : "Premium is taking longer than usual to switch on. Refresh in a minute; your payment is safe."}
+                ? t("checkout.pending")
+                : t("checkout.slow")}
           </p>
         </div>
         <button
           type="button"
-          aria-label="Dismiss"
+          aria-label={t("common.dismiss")}
           onClick={() => router.replace("/learn", { scroll: false })}
           className="shrink-0 opacity-70 hover:opacity-100"
         >

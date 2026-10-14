@@ -52,6 +52,28 @@ export type SpeakExercise = {
   en: string;
 };
 
+/**
+ * A grammar explanation card: a short rule, an optional table (e.g. a
+ * conjugation) and voiced examples. In body, table cells and example `sk`,
+ * wrap the part to highlight (usually an ending) in **double asterisks**:
+ * "študent**ka**".
+ */
+export type GrammarExercise = {
+  type: "grammar";
+  title: string;
+  /** 1–3 short paragraphs. */
+  body: string[];
+  table?: GrammarTable;
+  /** Up to 4 example sentences; each gets an audio button. */
+  examples?: { sk: string; en: string }[];
+};
+
+export type GrammarTable = {
+  caption?: string;
+  head?: string[];
+  rows: string[][];
+};
+
 /** Pick the word that fills the gap. */
 export type FillExercise = {
   type: "fill";
@@ -69,12 +91,18 @@ export type Exercise =
   | ListenExercise
   | MatchExercise
   | SpeakExercise
-  | FillExercise;
+  | FillExercise
+  | GrammarExercise;
+
+/** "grammar" lessons open with grammar cards; "review" lessons mix earlier material. */
+export type LessonKind = "vocab" | "grammar" | "review";
 
 export type Lesson = {
   id: string;
   title: string;
   titleEn: string;
+  /** Defaults to "vocab". */
+  kind?: LessonKind;
   exercises: Exercise[];
 };
 
@@ -88,3 +116,7 @@ export type Unit = {
   premium: boolean;
   lessons: Lesson[];
 };
+
+/** What the learning path needs: units and lesson titles, without exercises. */
+export type LessonOutline = Pick<Lesson, "id" | "title" | "titleEn" | "kind">;
+export type UnitOutline = Omit<Unit, "lessons"> & { lessons: LessonOutline[] };

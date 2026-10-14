@@ -1,0 +1,1103 @@
+{
+  "u1.titleEn": {
+    "en": "Welcome to Slovakia!",
+    "t": "Добро пожаловать в Словакию!"
+  },
+  "u1.topics": {
+    "en": [
+      "Greetings and goodbyes",
+      "Polite phrases",
+      "How are you?",
+      "Introductions"
+    ],
+    "t": [
+      "Приветствия и прощания",
+      "Вежливые фразы",
+      "Как дела?",
+      "Знакомство"
+    ]
+  },
+  "u1.grammar": {
+    "en": [
+      "Informal and formal “you” (ty / vy)",
+      "Slovak alphabet and pronunciation"
+    ],
+    "t": [
+      "Обращение на «ты» и на «вы» (ty / vy)",
+      "Словацкий алфавит и произношение"
+    ]
+  },
+  "u1-l1.titleEn": {
+    "en": "Hello and goodbye",
+    "t": "Привет и до свидания"
+  },
+  "u1-l1.0.en": {
+    "en": "Hi! / Bye!",
+    "t": "Привет! / Пока!"
+  },
+  "u1-l1.0.note": {
+    "en": "For friends, family and children. It works for hello and goodbye, and so does **Čau!**",
+    "t": "Для друзей, родных и детей. Годится и для приветствия, и для прощания — так же, как **Čau!** («чау»)."
+  },
+  "u1-l1.1.en": {
+    "en": "Hello. (polite)",
+    "t": "Добрый день."
+  },
+  "u1-l1.1.note": {
+    "en": "Literally “good day”: the polite hello for shops, strangers and teachers. With a name: **Dobrý deň, pán Kováč** (Mr Kováč).",
+    "t": "Буквально «добрый день», но это универсальное вежливое приветствие, как «здравствуйте»: в магазине, с незнакомыми, с учителем. С именем: **Dobrý deň, pán Kováč** (пан Ковач)."
+  },
+  "u1-l1.2.question": {
+    "en": "Emma walks into a bakery. What does she say?",
+    "t": "Эмма заходит в пекарню. Что она говорит?"
+  },
+  "u1-l1.3.en": {
+    "en": "Good morning.",
+    "t": "Доброе утро."
+  },
+  "u1-l1.3.note": {
+    "en": "For the early morning. Later in the day, switch to “Dobrý deň”.",
+    "t": "Только для раннего утра. Позже, днём, переходите на «Dobrý deň»."
+  },
+  "u1-l1.4.en": {
+    "en": "Good evening.",
+    "t": "Добрый вечер."
+  },
+  "u1-l1.5.pairs": {
+    "en": [
+      "Hi!",
+      "Hello. (polite)",
+      "Good morning.",
+      "Good evening."
+    ],
+    "t": [
+      "Привет!",
+      "Добрый день.",
+      "Доброе утро.",
+      "Добрый вечер."
+    ]
+  },
+  "u1-l1.6.en": {
+    "en": "Good morning, Mr Kováč.",
+    "t": "Доброе утро, пан Ковач."
+  },
+  "u1-l1.7.en": {
+    "en": "Goodbye. (polite)",
+    "t": "До свидания."
+  },
+  "u1-l1.7.note": {
+    "en": "The polite goodbye: **Dovidenia, pani Horváthová** (Mrs Horváthová). With friends, “Ahoj!” works both ways.",
+    "t": "Вежливое прощание, буквально — «до свидания»: **Dovidenia, pani Horváthová** (госпожа Горватова). С друзьями «Ahoj!» годится и для приветствия, и для прощания."
+  },
+  "u1-l1.8.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "u1-l1.8.options": {
+    "en": [
+      "Goodbye.",
+      "Good evening.",
+      "Hello."
+    ],
+    "t": [
+      "До свидания.",
+      "Добрый вечер.",
+      "Добрый день."
+    ]
+  },
+  "u1-l1.9.en": {
+    "en": "Good night.",
+    "t": "Спокойной ночи."
+  },
+  "u1-l1.9.note": {
+    "en": "Only when someone goes to bed or you leave late at night. It is never a greeting.",
+    "t": "Говорят только тогда, когда кто-то ложится спать или когда вы уходите поздно вечером. Для приветствия не годится."
+  },
+  "u1-l1.10.en": {
+    "en": "Enjoy your meal!",
+    "t": "Приятного аппетита!"
+  },
+  "u1-l1.10.note": {
+    "en": "Said to people who are about to eat. Notice the endings: dobr**ý** deň, dobr**é** ráno, dobr**ú** noc.",
+    "t": "Говорят тем, кто садится есть. Обратите внимание на окончания: dobr**ý** deň, dobr**é** ráno, dobr**ú** noc — почти как «добрый», «доброе», «добрую»."
+  },
+  "u1-l1.11.question": {
+    "en": "It's late and Lucia is going to bed. What do you say?",
+    "t": "Уже поздно, и Луция идёт спать. Что вы скажете?"
+  },
+  "u1-l1.12.en": {
+    "en": "Good morning, Emma!",
+    "t": "Доброе утро, Эмма!"
+  },
+  "u1-l1.13.en": {
+    "en": "Enjoy your meal, Tomáš!",
+    "t": "Приятного аппетита, Томаш!"
+  },
+  "u1-l1.14.prompt": {
+    "en": "Goodbye, Mrs Horváthová.",
+    "t": "До свидания, госпожа Горватова."
+  },
+  "u1-l1.15.prompt": {
+    "en": "Good evening, Mr Kováč.",
+    "t": "Добрый вечер, пан Ковач."
+  },
+  "u1-l1.16.en": {
+    "en": "Good night, Lucia.",
+    "t": "Спокойной ночи, Луция."
+  },
+  "u1-l1.17.en": {
+    "en": "Hello.",
+    "t": "Добрый день."
+  },
+  "u1-l2.titleEn": {
+    "en": "Please and thank you",
+    "t": "Пожалуйста и спасибо"
+  },
+  "u1-l2.0.en": {
+    "en": "Thank you.",
+    "t": "Спасибо."
+  },
+  "u1-l2.0.note": {
+    "en": "Warmer: **Ďakujem pekne.** = Thank you very much.",
+    "t": "Похоже на украинское «дякую». Теплее: **Ďakujem pekne.** = Большое спасибо."
+  },
+  "u1-l2.1.en": {
+    "en": "Please. / You're welcome.",
+    "t": "Пожалуйста."
+  },
+  "u1-l2.1.note": {
+    "en": "One word, many jobs. As a question, **Prosím?** means “Pardon?”",
+    "t": "Как и «пожалуйста», это и просьба, и ответ на «спасибо». А с вопросительной интонацией **Prosím?** значит «Простите?» — когда вы не расслышали."
+  },
+  "u1-l2.2.question": {
+    "en": "Lucia says “Ďakujem.” What's the natural reply?",
+    "t": "Луция говорит: «Ďakujem». Что ей ответить?"
+  },
+  "u1-l2.3.en": {
+    "en": "Here you go.",
+    "t": "Вот, пожалуйста. / Держите."
+  },
+  "u1-l2.3.note": {
+    "en": "Say it when you hand something over, offer a seat or let someone go first.",
+    "t": "Говорят, когда что-то подают, предлагают сесть или пропускают кого-то вперёд."
+  },
+  "u1-l2.4.question": {
+    "en": "Marek puts a plate of food in front of you. What does he say?",
+    "t": "Марек ставит перед вами тарелку с едой. Что он говорит?"
+  },
+  "u1-l2.5.en": {
+    "en": "Yes, please.",
+    "t": "Да, пожалуйста."
+  },
+  "u1-l2.5.note": {
+    "en": "**Áno** = yes. The opposite: **Nie, ďakujem.** = No, thank you.",
+    "t": "**Áno** = да. А отказ: **Nie, ďakujem.** = Нет, спасибо."
+  },
+  "u1-l2.6.question": {
+    "en": "Tomáš offers you a coffee, but you don't want one. What do you say?",
+    "t": "Томаш предлагает вам кофе, но вы не хотите. Что вы скажете?"
+  },
+  "u1-l2.7.pairs": {
+    "en": [
+      "Thank you.",
+      "Here you go.",
+      "Yes, please.",
+      "No, thank you.",
+      "Pardon?"
+    ],
+    "t": [
+      "Спасибо.",
+      "Вот, пожалуйста.",
+      "Да, пожалуйста.",
+      "Нет, спасибо.",
+      "Простите?"
+    ]
+  },
+  "u1-l2.8.prompt": {
+    "en": "Thank you very much.",
+    "t": "Большое спасибо."
+  },
+  "u1-l2.9.en": {
+    "en": "Sorry! / Excuse me!",
+    "t": "Извините!"
+  },
+  "u1-l2.9.note": {
+    "en": "The polite form. To a friend, say **Prepáč!**",
+    "t": "Форма на «вы» — как «извините». Другу скажите **Prepáč!** (= извини)."
+  },
+  "u1-l2.10.en": {
+    "en": "That's OK. / No problem.",
+    "t": "Ничего страшного."
+  },
+  "u1-l2.10.note": {
+    "en": "The usual answer to “Prepáčte!” or “Prepáč!”.",
+    "t": "Обычный ответ на «Prepáčte!» или «Prepáč!». Дословно — «ничего не случилось»."
+  },
+  "u1-l2.11.question": {
+    "en": "Emma bumps into pán Kováč in the corridor. What does she say?",
+    "t": "Эмма в коридоре нечаянно толкнула пана Ковача. Что она скажет?"
+  },
+  "u1-l2.12.en": {
+    "en": "Sorry! — That's OK.",
+    "t": "Извините! — Ничего страшного."
+  },
+  "u1-l2.13.en": {
+    "en": "Cheers! / Bless you!",
+    "t": "За здоровье! / Будь здоров!"
+  },
+  "u1-l2.13.note": {
+    "en": "Say it when you raise a glass, and when someone sneezes.",
+    "t": "Дословно «на здоровье», но это не ответ на «спасибо»: так говорят, когда поднимают бокал и когда кто-то чихнул."
+  },
+  "u1-l2.14.question": {
+    "en": "Tomáš sneezes. What do you say?",
+    "t": "Томаш чихнул. Что вы скажете?"
+  },
+  "u1-l2.15.en": {
+    "en": "That's OK.",
+    "t": "Ничего страшного."
+  },
+  "u1-l2.16.answers": {
+    "en": [
+      "No, thank you."
+    ],
+    "t": [
+      "Нет, спасибо."
+    ]
+  },
+  "u1-l2.16.distractors": {
+    "en": [
+      "please",
+      "Yes"
+    ],
+    "t": [
+      "Да",
+      "пожалуйста"
+    ]
+  },
+  "u1-l2.17.en": {
+    "en": "Thank you very much.",
+    "t": "Большое спасибо."
+  },
+  "u1-l3.titleEn": {
+    "en": "How are you? What's your name?",
+    "t": "Как дела? Как тебя зовут?"
+  },
+  "u1-l3.0.en": {
+    "en": "How are you?",
+    "t": "Как дела?"
+  },
+  "u1-l3.0.note": {
+    "en": "The friendly form, for friends and family. Literally “How do you have yourself?”",
+    "t": "Дружеская форма — для друзей и родных. Дословно «как себя имеешь?»: **sa** — это наше «-ся»."
+  },
+  "u1-l3.1.en": {
+    "en": "I'm fine, and you?",
+    "t": "У меня всё хорошо, а у тебя?"
+  },
+  "u1-l3.1.note": {
+    "en": "**Mám sa dobre.** = I'm fine. **A ty?** = And you?",
+    "t": "**Mám sa dobre.** = У меня всё хорошо. **A ty?** = А ты?"
+  },
+  "u1-l3.2.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "u1-l3.2.options": {
+    "en": [
+      "How are you?",
+      "Where are you?",
+      "Good evening."
+    ],
+    "t": [
+      "Как дела?",
+      "Где ты?",
+      "Добрый вечер."
+    ]
+  },
+  "u1-l3.3.en": {
+    "en": "I'm great.",
+    "t": "У меня всё отлично."
+  },
+  "u1-l3.4.en": {
+    "en": "I'm not doing well.",
+    "t": "У меня всё плохо."
+  },
+  "u1-l3.5.pairs": {
+    "en": [
+      "I'm great.",
+      "I'm fine.",
+      "I'm not doing well.",
+      "And you?"
+    ],
+    "t": [
+      "У меня всё отлично.",
+      "У меня всё хорошо.",
+      "У меня всё плохо.",
+      "А ты?"
+    ]
+  },
+  "u1-l3.6.en": {
+    "en": "Hi! How are you, Tomáš?",
+    "t": "Привет! Как дела, Томаш?"
+  },
+  "u1-l3.7.en": {
+    "en": "I'm great, and you?",
+    "t": "У меня всё отлично, а у тебя?"
+  },
+  "u1-l3.8.en": {
+    "en": "What's your name?",
+    "t": "Как тебя зовут?"
+  },
+  "u1-l3.8.note": {
+    "en": "Literally “How do you call yourself?”",
+    "t": "Дословно — «как ты зовёшься?»"
+  },
+  "u1-l3.9.en": {
+    "en": "My name is Emma.",
+    "t": "Меня зовут Эмма."
+  },
+  "u1-l3.9.note": {
+    "en": "Put in your own name: Volám sa…",
+    "t": "Подставьте своё имя: Volám sa…"
+  },
+  "u1-l3.10.prompt": {
+    "en": "My name is Tomáš.",
+    "t": "Меня зовут Томаш."
+  },
+  "u1-l3.11.en": {
+    "en": "Nice to meet you.",
+    "t": "Приятно познакомиться."
+  },
+  "u1-l3.11.note": {
+    "en": "The answer is **Aj mňa.** = Nice to meet you, too.",
+    "t": "Дословно «меня радует». Ответ: **Aj mňa.** = Мне тоже (дословно «и меня»)."
+  },
+  "u1-l3.12.question": {
+    "en": "Tomáš says “Teší ma.” What do you answer?",
+    "t": "Томаш говорит: «Teší ma». Что вы ответите?"
+  },
+  "u1-l3.13.en": {
+    "en": "Hi! What's your name? — My name is Lucia.",
+    "t": "Привет! Как тебя зовут? — Меня зовут Луция."
+  },
+  "u1-l3.14.answers": {
+    "en": [
+      "I'm fine, and you?"
+    ],
+    "t": [
+      "У меня всё хорошо, а у тебя?",
+      "Всё хорошо, а у тебя?"
+    ]
+  },
+  "u1-l3.14.distractors": {
+    "en": [
+      "great",
+      "your",
+      "name"
+    ],
+    "t": [
+      "отлично",
+      "зовут",
+      "вас"
+    ]
+  },
+  "u1-l3.15.en": {
+    "en": "What's your name?",
+    "t": "Как тебя зовут?"
+  },
+  "u1-l3.16.prompt": {
+    "en": "Hi! How are you?",
+    "t": "Привет! Как дела?"
+  },
+  "u1-l3.17.en": {
+    "en": "Nice to meet you.",
+    "t": "Приятно познакомиться."
+  },
+  "u1-l4.titleEn": {
+    "en": "Ty or vy? Informal and polite",
+    "t": "Ty или vy? На «ты» и на «вы»"
+  },
+  "u1-l4.0.title": {
+    "en": "Two ways to say “you”",
+    "t": "Ty и vy — как «ты» и «вы»"
+  },
+  "u1-l4.0.body": {
+    "en": [
+      "Slovak has two words for “you”. Say **ty** to friends, family and children. Say **vy** to strangers, older people and teachers, and to a group of people.",
+      "The verb shows which one you mean: in questions like these, the ty form ends in **-š** and the vy form in **-te**."
+    ],
+    "t": [
+      "Всё как в русском: **ty** = ты, **vy** = вы. На **ty** — с друзьями, родными и детьми. На **vy** — с незнакомыми, старшими и учителями, а также когда обращаетесь к нескольким людям.",
+      "Глагол тоже показывает, кого вы имеете в виду: в таких вопросах форма на ty оканчивается на **-š**, а форма на vy — на **-te**. Почти как у нас: говоришь — говорите."
+    ]
+  },
+  "u1-l4.0.table.head": {
+    "en": [
+      "ty (a friend)",
+      "vy (polite or a group)",
+      "English"
+    ],
+    "t": [
+      "ty — ты (другу)",
+      "vy — вы (вежливо или нескольким)",
+      "По-русски"
+    ]
+  },
+  "u1-l4.0.table.rows": {
+    "en": [
+      [
+        "Ako sa má**š**?",
+        "Ako sa má**te**?",
+        "How are you?"
+      ],
+      [
+        "Ako sa volá**š**?",
+        "Ako sa volá**te**?",
+        "What's your name?"
+      ],
+      [
+        "Hovorí**š** po slovensky?",
+        "Hovorí**te** po slovensky?",
+        "Do you speak Slovak?"
+      ],
+      [
+        "A **ty**?",
+        "A **vy**?",
+        "And you?"
+      ]
+    ],
+    "t": [
+      [
+        "Ako sa má**š**?",
+        "Ako sa má**te**?",
+        "Как у тебя / у вас дела?"
+      ],
+      [
+        "Ako sa volá**š**?",
+        "Ako sa volá**te**?",
+        "Как тебя / вас зовут?"
+      ],
+      [
+        "Hovorí**š** po slovensky?",
+        "Hovorí**te** po slovensky?",
+        "Говоришь / говорите по-словацки?"
+      ],
+      [
+        "A **ty**?",
+        "A **vy**?",
+        "А ты? / А вы?"
+      ]
+    ]
+  },
+  "u1-l4.0.examples": {
+    "en": [
+      "Hi, Lucia! How are you?",
+      "Hello, Mr Kováč. How are you?",
+      "Do you speak Slovak? — Yes, a little."
+    ],
+    "t": [
+      "Привет, Луция! Как дела?",
+      "Добрый день, пан Ковач. Как у вас дела?",
+      "Вы говорите по-словацки? — Да, немного."
+    ]
+  },
+  "u1-l4.1.question": {
+    "en": "Emma meets pani Horváthová, her teacher. Which question fits?",
+    "t": "Эмма встречает свою учительницу, госпожу Горватову. Какой вопрос подходит?"
+  },
+  "u1-l4.2.en": {
+    "en": "Hi, Tomáš! How are you?",
+    "t": "Привет, Томаш! Как дела?"
+  },
+  "u1-l4.3.en": {
+    "en": "Hello. What's your name?",
+    "t": "Добрый день. Как вас зовут?"
+  },
+  "u1-l4.4.prompt": {
+    "en": "Do you speak Slovak? (polite)",
+    "t": "Вы говорите по-словацки?"
+  },
+  "u1-l4.5.question": {
+    "en": "Emma meets Lucia and Tomáš together. How does she ask how they are?",
+    "t": "Эмма встречает Луцию и Томаша вместе. Как она спросит, как у них дела?"
+  },
+  "u1-l4.6.title": {
+    "en": "Same phrase, ty or vy",
+    "t": "Одна фраза — на ty или на vy"
+  },
+  "u1-l4.6.body": {
+    "en": [
+      "Many everyday phrases have a ty form and a vy form. The vy form often just adds **-te**.",
+      "With vy, say hello with **Dobrý deň** and goodbye with **Dovidenia**. Meeting a group of friends? Say **Ahojte!**"
+    ],
+    "t": [
+      "У многих повседневных фраз есть форма на ty и форма на vy. Форма на vy часто просто добавляет **-te** — как у нас: извини → извините.",
+      "На vy здороваются словами **Dobrý deň**, а прощаются — **Dovidenia**. Встретили компанию друзей? Скажите **Ahojte!**"
+    ]
+  },
+  "u1-l4.6.table.head": {
+    "en": [
+      "ty",
+      "vy",
+      "English"
+    ],
+    "t": [
+      "ty — ты",
+      "vy — вы",
+      "По-русски"
+    ]
+  },
+  "u1-l4.6.table.rows": {
+    "en": [
+      [
+        "Ahoj!",
+        "Dobrý deň.",
+        "Hello."
+      ],
+      [
+        "Prepáč!",
+        "Prepáč**te**!",
+        "Sorry!"
+      ],
+      [
+        "Maj sa!",
+        "Maj**te** sa!",
+        "Take care!"
+      ],
+      [
+        "Vitaj!",
+        "Vitaj**te**!",
+        "Welcome!"
+      ],
+      [
+        "Aj **tebe**.",
+        "Aj **vám**.",
+        "You too."
+      ]
+    ],
+    "t": [
+      [
+        "Ahoj!",
+        "Dobrý deň.",
+        "Привет! / Добрый день."
+      ],
+      [
+        "Prepáč!",
+        "Prepáč**te**!",
+        "Извини! / Извините!"
+      ],
+      [
+        "Maj sa!",
+        "Maj**te** sa!",
+        "Счастливо! / Всего хорошего!"
+      ],
+      [
+        "Vitaj!",
+        "Vitaj**te**!",
+        "Добро пожаловать!"
+      ],
+      [
+        "Aj **tebe**.",
+        "Aj **vám**.",
+        "И тебе. / И вам."
+      ]
+    ]
+  },
+  "u1-l4.6.examples": {
+    "en": [
+      "Welcome to Slovakia!",
+      "Good night! — You too.",
+      "Enjoy your meal! — Thank you, you too."
+    ],
+    "t": [
+      "Добро пожаловать в Словакию!",
+      "Спокойной ночи! — И тебе.",
+      "Приятного аппетита! — Спасибо, и вам."
+    ]
+  },
+  "u1-l4.7.question": {
+    "en": "Lucia says “Dobrú noc!” What does Emma answer?",
+    "t": "Луция говорит: «Dobrú noc!» Что ответит Эмма?"
+  },
+  "u1-l4.8.en": {
+    "en": "Enjoy your meal, Emma! — Thank you, you too, Mrs Horváthová.",
+    "t": "Приятного аппетита, Эмма! — Спасибо, и вам, госпожа Горватова."
+  },
+  "u1-l4.9.prompt": {
+    "en": "Take care, Lucia!",
+    "t": "Счастливо, Луция!"
+  },
+  "u1-l4.10.en": {
+    "en": "Hi, Emma! Welcome to Slovakia!",
+    "t": "Привет, Эмма! Добро пожаловать в Словакию!"
+  },
+  "u1-l4.11.pairs": {
+    "en": [
+      "How are you? (polite)",
+      "How are you? (friend)",
+      "You too. (polite)",
+      "You too. (friend)",
+      "Hi, everyone!"
+    ],
+    "t": [
+      "Как у вас дела?",
+      "Как у тебя дела?",
+      "И вам.",
+      "И тебе.",
+      "Всем привет!"
+    ]
+  },
+  "u1-l4.12.en": {
+    "en": "Hello, how are you?",
+    "t": "Добрый день, как у вас дела?"
+  },
+  "u1-l4.13.en": {
+    "en": "What's your name? (polite)",
+    "t": "Как вас зовут?"
+  },
+  "u1-l5.titleEn": {
+    "en": "Alphabet and pronunciation",
+    "t": "Алфавит и произношение"
+  },
+  "u1-l5.0.title": {
+    "en": "Letters with a hook: mäkčeň",
+    "t": "Галочка над буквой: mäkčeň"
+  },
+  "u1-l5.0.body": {
+    "en": [
+      "The little hook is called **mäkčeň**. On c, s, z it gives the sounds in “**ch**ip”, “**sh**ip” and “plea**s**ure”: č, š, ž.",
+      "On d, t, n, l it makes the sound soft, as if a short “y” followed: ď, ť, ň, ľ. Before **e** and **i** these usually sound soft even without the hook: **de**ň, **Te**ší ma. Before **y** they stay hard: **ty**.",
+      "**ch** is a single letter. It sounds like “ch” in Scottish “lo**ch**”."
+    ],
+    "t": [
+      "Галочка называется **mäkčeň** (от mäkký — «мягкий»). Над c, s, z она даёт знакомые звуки: č = ч, š = ш, ž = ж. Без галочки c — это ц: noc (ночь).",
+      "Над d, t, n, l галочка смягчает звук: ď = дь, ť = ть, ň = нь, ľ = ль. Перед **e** и **i** эти согласные обычно мягкие и без галочки, как в русском: **de**ň звучит как «день», **Te**ší ma — как «теши ма». Перед **y** они твёрдые: **ty** — твёрдое т + и (не «ы»).",
+      "**ch** — одна буква, и звучит она как х: Dobrú **ch**uť. А **h** — это лёгкое г с придыханием, как в украинском или в «ага»: A**h**oj, **H**ovoríte. Обычное русское г пишется **g**."
+    ]
+  },
+  "u1-l5.0.table.head": {
+    "en": [
+      "letter",
+      "sounds like",
+      "example"
+    ],
+    "t": [
+      "буква",
+      "звучит как",
+      "пример"
+    ]
+  },
+  "u1-l5.0.table.rows": {
+    "en": [
+      [
+        "č",
+        "ch in “chip”",
+        "**Č**au!"
+      ],
+      [
+        "š",
+        "sh in “ship”",
+        "Te**š**í ma."
+      ],
+      [
+        "ž",
+        "s in “pleasure”",
+        "**Ž**ilina (a town)"
+      ],
+      [
+        "ď",
+        "d + y",
+        "**Ď**akujem."
+      ],
+      [
+        "ť",
+        "t + y",
+        "chu**ť**"
+      ],
+      [
+        "ň",
+        "ny in “canyon”",
+        "de**ň**"
+      ],
+      [
+        "ľ",
+        "lli in “million”",
+        "učite**ľ** (teacher)"
+      ],
+      [
+        "ch",
+        "ch in “loch”",
+        "Dobrú **ch**uť!"
+      ]
+    ],
+    "t": [
+      [
+        "č",
+        "ч",
+        "**Č**au!"
+      ],
+      [
+        "š",
+        "ш",
+        "Te**š**í ma."
+      ],
+      [
+        "ž",
+        "ж",
+        "**Ž**ilina (город)"
+      ],
+      [
+        "ď",
+        "дь",
+        "**Ď**akujem."
+      ],
+      [
+        "ť",
+        "ть",
+        "chu**ť**"
+      ],
+      [
+        "ň",
+        "нь",
+        "de**ň**"
+      ],
+      [
+        "ľ",
+        "ль",
+        "učite**ľ** (учитель)"
+      ],
+      [
+        "ch",
+        "х",
+        "Dobrú **ch**uť!"
+      ]
+    ]
+  },
+  "u1-l5.0.examples": {
+    "en": [
+      "Thank you.",
+      "Nice to meet you.",
+      "Enjoy your meal!",
+      "That's OK."
+    ],
+    "t": [
+      "Спасибо.",
+      "Приятно познакомиться.",
+      "Приятного аппетита!",
+      "Ничего страшного."
+    ]
+  },
+  "u1-l5.1.title": {
+    "en": "Long vowels and stress",
+    "t": "Долгие гласные и ударение"
+  },
+  "u1-l5.1.body": {
+    "en": [
+      "The mark on á, é, í, ó, ú, ý is called **dĺžeň**. It makes the vowel long: hold it about twice as long. **y** and **ý** sound just like **i** and **í**.",
+      "Stress is easy: it is always on the **first** syllable, even when a later vowel is long: **Do**brý deň, **Ďa**kujem, **Do**videnia."
+    ],
+    "t": [
+      "Чёрточка над á, é, í, ó, ú, ý называется **dĺžeň**. Она делает гласный долгим: тяните его примерно вдвое дольше. **y** и **ý** звучат точно так же, как **i** и **í**, — как русское и, никогда не как ы.",
+      "Ударение всегда на **первом** слоге, даже если дальше есть долгий гласный: долгота и ударение — разные вещи. **Do**brý deň, **Ďa**kujem, **Do**videnia (не «до-ви-ДЕ-ня»)."
+    ]
+  },
+  "u1-l5.1.table.head": {
+    "en": [
+      "short",
+      "long",
+      "example"
+    ],
+    "t": [
+      "краткий",
+      "долгий",
+      "пример"
+    ]
+  },
+  "u1-l5.1.table.rows": {
+    "en": [
+      [
+        "a",
+        "á",
+        "**Á**no."
+      ],
+      [
+        "e",
+        "é",
+        "Dobr**é** ráno."
+      ],
+      [
+        "i, y",
+        "í, ý",
+        "Dobr**ý** deň."
+      ],
+      [
+        "o",
+        "ó",
+        "telef**ó**n"
+      ],
+      [
+        "u",
+        "ú",
+        "Dobr**ú** noc."
+      ]
+    ],
+    "t": [
+      [
+        "a",
+        "á",
+        "**Á**no."
+      ],
+      [
+        "e",
+        "é",
+        "Dobr**é** ráno."
+      ],
+      [
+        "i, y",
+        "í, ý",
+        "Dobr**ý** deň."
+      ],
+      [
+        "o",
+        "ó",
+        "telef**ó**n"
+      ],
+      [
+        "u",
+        "ú",
+        "Dobr**ú** noc."
+      ]
+    ]
+  },
+  "u1-l5.1.examples": {
+    "en": [
+      "Yes, please.",
+      "Good night.",
+      "Good morning."
+    ],
+    "t": [
+      "Да, пожалуйста.",
+      "Спокойной ночи.",
+      "Доброе утро."
+    ]
+  },
+  "u1-l5.2.question": {
+    "en": "Which phrase has the “sh” sound?",
+    "t": "В какой фразе есть звук «ш»?"
+  },
+  "u1-l5.3.question": {
+    "en": "Which syllable is stressed?",
+    "t": "Какой слог ударный?"
+  },
+  "u1-l5.3.options": {
+    "en": [
+      "do-",
+      "-vi-",
+      "-de-"
+    ],
+    "t": [
+      "do-",
+      "-vi-",
+      "-de-"
+    ]
+  },
+  "u1-l5.4.en": {
+    "en": "I'm fine.",
+    "t": "У меня всё хорошо."
+  },
+  "u1-l5.5.en": {
+    "en": "Good morning!",
+    "t": "Доброе утро!"
+  },
+  "u1-l5.6.question": {
+    "en": "Which word has a soft ň?",
+    "t": "В каком слове есть мягкое ň (нь)?"
+  },
+  "u1-l5.7.en": {
+    "en": "Thank you, good night.",
+    "t": "Спасибо, спокойной ночи."
+  },
+  "u1-l5.8.title": {
+    "en": "ä, ô and ia, ie, iu",
+    "t": "ä, ô и ia, ie, iu"
+  },
+  "u1-l5.8.body": {
+    "en": [
+      "**ä** usually sounds like the “e” in “bed”: p**ä**ť (five). **ô** sounds like “wo”: st**ô**l (table) sounds like “stwol”.",
+      "**ia**, **ie** and **iu** glide together into one syllable: Dovide**nia**, Na zdrav**ie**, N**ie**."
+    ],
+    "t": [
+      "**ä** обычно звучит как э: p**ä**ť (пять) ≈ «пэть». **ô** звучит как «уо»: st**ô**l (стол) ≈ «стуол».",
+      "**ia**, **ie** и **iu** произносятся в один слог, почти как я, е, ю: Dovide**nia**, Na zdrav**ie**, N**ie** (≈ «нье», один слог)."
+    ]
+  },
+  "u1-l5.8.examples": {
+    "en": [
+      "five",
+      "table",
+      "No, thank you.",
+      "Cheers!"
+    ],
+    "t": [
+      "пять",
+      "стол",
+      "Нет, спасибо.",
+      "За здоровье!"
+    ]
+  },
+  "u1-l5.9.question": {
+    "en": "How many syllables does “Nie” have?",
+    "t": "Сколько слогов в слове «Nie»?"
+  },
+  "u1-l5.9.options": {
+    "en": [
+      "One",
+      "Two",
+      "Three"
+    ],
+    "t": [
+      "Один",
+      "Два",
+      "Три"
+    ]
+  },
+  "u1-l5.10.question": {
+    "en": "Which word has ô, the “wo” sound?",
+    "t": "В каком слове есть ô — звук «уо»?"
+  },
+  "u1-l5.11.pairs": {
+    "en": [
+      "five",
+      "table",
+      "day",
+      "night",
+      "morning"
+    ],
+    "t": [
+      "пять",
+      "стол",
+      "день",
+      "ночь",
+      "утро"
+    ]
+  },
+  "u1-l5.12.en": {
+    "en": "Cheers!",
+    "t": "За здоровье!"
+  },
+  "u1-l5.13.prompt": {
+    "en": "I'm fine, thank you.",
+    "t": "У меня всё хорошо, спасибо."
+  },
+  "u1-l5.14.en": {
+    "en": "Enjoy your meal!",
+    "t": "Приятного аппетита!"
+  },
+  "u1-l6.titleEn": {
+    "en": "Review",
+    "t": "Повторение"
+  },
+  "u1-l6.0.question": {
+    "en": "You meet pani Horváthová early in the morning. What do you say?",
+    "t": "Рано утром вы встречаете госпожу Горватову. Что вы скажете?"
+  },
+  "u1-l6.1.prompt": {
+    "en": "Hi, Lucia! How are you?",
+    "t": "Привет, Луция! Как дела?"
+  },
+  "u1-l6.2.en": {
+    "en": "I'm great, and you?",
+    "t": "У меня всё отлично, а у вас?"
+  },
+  "u1-l6.3.en": {
+    "en": "Good night, Emma! — You too, Lucia.",
+    "t": "Спокойной ночи, Эмма! — И тебе, Луция."
+  },
+  "u1-l6.4.pairs": {
+    "en": [
+      "Here you go.",
+      "That's OK.",
+      "Cheers!",
+      "Enjoy your meal!",
+      "Nice to meet you."
+    ],
+    "t": [
+      "Вот, пожалуйста.",
+      "Ничего страшного.",
+      "За здоровье!",
+      "Приятного аппетита!",
+      "Приятно познакомиться."
+    ]
+  },
+  "u1-l6.5.answers": {
+    "en": [
+      "Hello, what's your name?"
+    ],
+    "t": [
+      "Добрый день, как вас зовут?"
+    ]
+  },
+  "u1-l6.5.distractors": {
+    "en": [
+      "night",
+      "how"
+    ],
+    "t": [
+      "тебя",
+      "вечер"
+    ]
+  },
+  "u1-l6.6.question": {
+    "en": "When do you say this?",
+    "t": "Когда так говорят?"
+  },
+  "u1-l6.6.options": {
+    "en": [
+      "When you didn't catch what someone said",
+      "When you leave a shop",
+      "When someone sneezes"
+    ],
+    "t": [
+      "Когда вы не расслышали, что вам сказали",
+      "Когда выходите из магазина",
+      "Когда кто-то чихнул"
+    ]
+  },
+  "u1-l6.7.en": {
+    "en": "Hello, Mr Kováč. How are you?",
+    "t": "Добрый день, пан Ковач. Как у вас дела?"
+  },
+  "u1-l6.8.en": {
+    "en": "How are you? (polite)",
+    "t": "Как у вас дела?"
+  },
+  "u1-l6.9.prompt": {
+    "en": "Sorry! — That's OK.",
+    "t": "Извините! — Ничего страшного."
+  },
+  "u1-l6.10.en": {
+    "en": "Goodbye, Mrs Horváthová.",
+    "t": "До свидания, госпожа Горватова."
+  },
+  "u1-l6.11.question": {
+    "en": "Which one means “Hi, everyone!”?",
+    "t": "Что из этого значит «Всем привет!»?"
+  },
+  "u1-l6.12.prompt": {
+    "en": "My name is Emma. Nice to meet you.",
+    "t": "Меня зовут Эмма. Приятно познакомиться."
+  },
+  "u1-l6.13.en": {
+    "en": "Do you speak Slovak? — Yes, a little.",
+    "t": "Вы говорите по-словацки? — Да, немного."
+  },
+  "u1-l6.14.en": {
+    "en": "Nice to meet you. — Nice to meet you, too.",
+    "t": "Приятно познакомиться. — Мне тоже."
+  },
+  "u1-l6.15.en": {
+    "en": "I'm fine, thank you.",
+    "t": "У меня всё хорошо, спасибо."
+  }
+}

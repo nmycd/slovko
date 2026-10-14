@@ -1,0 +1,1145 @@
+{
+  "u3.titleEn": {
+    "en": "Dormitory",
+    "t": "Общежитие"
+  },
+  "u3.topics": {
+    "en": [
+      "The dormitory",
+      "Rooms and furniture",
+      "Where is it?",
+      "Opposites"
+    ],
+    "t": [
+      "Общежитие",
+      "Комнаты и мебель",
+      "Где это?",
+      "Противоположности"
+    ]
+  },
+  "u3.grammar": {
+    "en": [
+      "Adjectives: -ý, -á, -é",
+      "Possessives: môj, tvoj, náš…",
+      "Čí? Aký? Ktorý?"
+    ],
+    "t": [
+      "Прилагательные: -ý, -á, -é",
+      "Притяжательные местоимения: môj, tvoj, náš…",
+      "Čí? Aký? Ktorý?"
+    ]
+  },
+  "u3-l1.titleEn": {
+    "en": "The dormitory",
+    "t": "Общежитие"
+  },
+  "u3-l1.0.en": {
+    "en": "room",
+    "t": "комната"
+  },
+  "u3-l1.1.en": {
+    "en": "kitchen",
+    "t": "кухня"
+  },
+  "u3-l1.2.en": {
+    "en": "bathroom",
+    "t": "ванная"
+  },
+  "u3-l1.2.note": {
+    "en": "In Slovak homes the toilet (WC) is often a separate little room.",
+    "t": "В словацких квартирах туалет (WC) часто отдельно от ванной — раздельный санузел."
+  },
+  "u3-l1.3.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "u3-l1.3.options": {
+    "en": [
+      "kitchen",
+      "bathroom",
+      "room"
+    ],
+    "t": [
+      "кухня",
+      "ванная",
+      "комната"
+    ]
+  },
+  "u3-l1.4.en": {
+    "en": "balcony",
+    "t": "балкон"
+  },
+  "u3-l1.5.pairs": {
+    "en": [
+      "room",
+      "kitchen",
+      "bathroom",
+      "balcony"
+    ],
+    "t": [
+      "комната",
+      "кухня",
+      "ванная",
+      "балкон"
+    ]
+  },
+  "u3-l1.6.en": {
+    "en": "Where is the kitchen?",
+    "t": "Где кухня?"
+  },
+  "u3-l1.6.note": {
+    "en": "**kde** = where",
+    "t": "**kde** = где"
+  },
+  "u3-l1.7.en": {
+    "en": "upstairs – downstairs",
+    "t": "наверху – внизу"
+  },
+  "u3-l1.7.note": {
+    "en": "Also simply up and down. Kuchyňa je **hore**. = The kitchen is upstairs.",
+    "t": "Это ещё и просто «вверх» и «вниз». Запомнить легко: hore — как «гора», dole — как «долина». Kuchyňa je **hore**. = Кухня наверху."
+  },
+  "u3-l1.8.question": {
+    "en": "How do you say “The kitchen is downstairs”?",
+    "t": "Как сказать «Кухня внизу»?"
+  },
+  "u3-l1.9.en": {
+    "en": "The bathroom is upstairs.",
+    "t": "Ванная наверху."
+  },
+  "u3-l1.10.en": {
+    "en": "front desk, porter's lodge",
+    "t": "вахта, проходная"
+  },
+  "u3-l1.10.note": {
+    "en": "The desk at the entrance, where the porter (**vrátnik**) sits. In Emma's dorm, that's pán Kováč.",
+    "t": "Место у входа, где сидит вахтёр (**vrátnik**, ср. «привратник»). В общежитии Эммы это пан Ковач."
+  },
+  "u3-l1.11.en": {
+    "en": "The front desk is downstairs.",
+    "t": "Вахта внизу."
+  },
+  "u3-l1.12.en": {
+    "en": "I live in the dorm.",
+    "t": "Я живу в общежитии."
+  },
+  "u3-l1.12.note": {
+    "en": "**internát** = student dormitory. Emma and Lucia share a room there.",
+    "t": "**internát** (мужского рода, как «интернат») = студенческое общежитие, а не школа-интернат. Эмма и Луция живут там в одной комнате."
+  },
+  "u3-l1.13.prompt": {
+    "en": "Where is the bathroom?",
+    "t": "Где ванная?"
+  },
+  "u3-l1.14.answers": {
+    "en": [
+      "The room is upstairs and the kitchen is downstairs.",
+      "The room is upstairs and the kitchen downstairs."
+    ],
+    "t": [
+      "Комната наверху, а кухня внизу.",
+      "Наверху комната, а внизу кухня."
+    ]
+  },
+  "u3-l1.14.distractors": {
+    "en": [
+      "bathroom",
+      "here"
+    ],
+    "t": [
+      "ванная",
+      "здесь"
+    ]
+  },
+  "u3-l1.15.prompt": {
+    "en": "Emma lives in the dorm.",
+    "t": "Эмма живёт в общежитии."
+  },
+  "u3-l1.16.question": {
+    "en": "Lucia wants to cook. Where does she go?",
+    "t": "Луция хочет готовить. Куда она пойдёт?"
+  },
+  "u3-l1.17.en": {
+    "en": "Where is the bathroom?",
+    "t": "Где ванная?"
+  },
+  "u3-l2.titleEn": {
+    "en": "What is it like?",
+    "t": "Какой? Какая? Какое?"
+  },
+  "u3-l2.0.en": {
+    "en": "big – small",
+    "t": "большой – маленький"
+  },
+  "u3-l2.1.en": {
+    "en": "new – old",
+    "t": "новый – старый"
+  },
+  "u3-l2.2.title": {
+    "en": "One adjective, three endings",
+    "t": "Одно прилагательное — три окончания"
+  },
+  "u3-l2.2.body": {
+    "en": [
+      "An adjective takes the gender of its noun: **-ý** for masculine, **-á** for feminine, **-é** for neuter.",
+      "The ending is the same before the noun (malá izba) and after je (Izba je malá)."
+    ],
+    "t": [
+      "Как и в русском, прилагательное согласуется с существительным в роде: **-ý** — мужской, **-á** — женский, **-é** — средний (новый, новая, новое).",
+      "Окончание одно и то же перед существительным (malá izba) и после je (Izba je malá). Кратких форм вроде «мала» здесь нет."
+    ]
+  },
+  "u3-l2.2.table.head": {
+    "en": [
+      "masculine",
+      "feminine",
+      "neuter"
+    ],
+    "t": [
+      "мужской",
+      "женский",
+      "средний"
+    ]
+  },
+  "u3-l2.2.table.rows": {
+    "en": [
+      [
+        "veľk**ý** balkón",
+        "veľk**á** izba",
+        "veľk**é** auto"
+      ],
+      [
+        "mal**ý** internát",
+        "mal**á** kúpeľňa",
+        "mal**é** auto"
+      ],
+      [
+        "nov**ý** balkón",
+        "nov**á** kuchyňa",
+        "nov**é** auto"
+      ]
+    ],
+    "t": [
+      [
+        "veľk**ý** balkón",
+        "veľk**á** izba",
+        "veľk**é** auto"
+      ],
+      [
+        "mal**ý** internát",
+        "mal**á** kúpeľňa",
+        "mal**é** auto"
+      ],
+      [
+        "nov**ý** balkón",
+        "nov**á** kuchyňa",
+        "nov**é** auto"
+      ]
+    ]
+  },
+  "u3-l2.2.examples": {
+    "en": [
+      "The dorm is old.",
+      "The kitchen is new.",
+      "The car is small."
+    ],
+    "t": [
+      "Общежитие старое.",
+      "Кухня новая.",
+      "Машина маленькая."
+    ]
+  },
+  "u3-l2.3.en": {
+    "en": "The room is big.",
+    "t": "Комната большая."
+  },
+  "u3-l2.4.en": {
+    "en": "The balcony is small.",
+    "t": "Балкон маленький."
+  },
+  "u3-l2.5.question": {
+    "en": "Which one is correct?",
+    "t": "Как правильно?"
+  },
+  "u3-l2.6.en": {
+    "en": "small but nice",
+    "t": "маленький, но красивый"
+  },
+  "u3-l2.6.note": {
+    "en": "**pekný** = nice, pretty. **ale** = but. Pekný works the same way: pekn**á** izba.",
+    "t": "**pekný** = красивый, симпатичный. **ale** = но. Pekný изменяется так же: pekn**á** izba."
+  },
+  "u3-l2.7.prompt": {
+    "en": "That's a big kitchen.",
+    "t": "Это большая кухня."
+  },
+  "u3-l2.8.en": {
+    "en": "The room is small but nice.",
+    "t": "Комната маленькая, но красивая."
+  },
+  "u3-l2.9.title": {
+    "en": "Aký? What is it like?",
+    "t": "Aký? Какой?"
+  },
+  "u3-l2.9.body": {
+    "en": [
+      "To ask what something is like, use **aký?** It changes just like an adjective: **aký** (masculine), **aká** (feminine), **aké** (neuter)."
+    ],
+    "t": [
+      "**aký?** = «какой?». Изменяется как прилагательное: **aký** (мужской род), **aká** (женский), **aké** (средний) — как какой / какая / какое."
+    ]
+  },
+  "u3-l2.9.examples": {
+    "en": [
+      "What's the dorm like? – Old.",
+      "What's the room like? – Nice.",
+      "What's the car like? – New."
+    ],
+    "t": [
+      "Какое общежитие? – Старое.",
+      "Какая комната? – Красивая.",
+      "Какая машина? – Новая."
+    ]
+  },
+  "u3-l2.10.en": {
+    "en": "What's the bathroom like?",
+    "t": "Какая ванная?"
+  },
+  "u3-l2.11.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "u3-l2.11.options": {
+    "en": [
+      "What is the balcony like?",
+      "Where is the balcony?",
+      "Is the balcony big?"
+    ],
+    "t": [
+      "Какой балкон?",
+      "Где балкон?",
+      "Балкон большой?"
+    ]
+  },
+  "u3-l2.12.en": {
+    "en": "What's the car like? – It's old.",
+    "t": "Какое авто? – Старое."
+  },
+  "u3-l2.13.prompt": {
+    "en": "What is the dorm like?",
+    "t": "Какое общежитие?"
+  },
+  "u3-l2.14.answers": {
+    "en": [
+      "The kitchen is old but nice.",
+      "The kitchen is old but pretty."
+    ],
+    "t": [
+      "Кухня старая, но красивая."
+    ]
+  },
+  "u3-l2.14.distractors": {
+    "en": [
+      "new",
+      "small"
+    ],
+    "t": [
+      "новая",
+      "маленькая"
+    ]
+  },
+  "u3-l2.15.en": {
+    "en": "The dorm is big, but the kitchen is small.",
+    "t": "Общежитие большое, но кухня маленькая."
+  },
+  "u3-l2.16.en": {
+    "en": "The room is big and nice.",
+    "t": "Комната большая и красивая."
+  },
+  "u3-l3.titleEn": {
+    "en": "In the room",
+    "t": "В комнате"
+  },
+  "u3-l3.0.en": {
+    "en": "bed",
+    "t": "кровать"
+  },
+  "u3-l3.0.note": {
+    "en": "Posteľ is feminine, even without -a: posteľ je mal**á**.",
+    "t": "Posteľ — женского рода, как «постель» (но значит «кровать»): posteľ je mal**á**."
+  },
+  "u3-l3.1.en": {
+    "en": "table, desk",
+    "t": "стол"
+  },
+  "u3-l3.2.en": {
+    "en": "wardrobe",
+    "t": "шкаф (по-словацки — женского рода)"
+  },
+  "u3-l3.3.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "u3-l3.3.options": {
+    "en": [
+      "wardrobe",
+      "bed",
+      "window"
+    ],
+    "t": [
+      "шкаф",
+      "кровать",
+      "окно"
+    ]
+  },
+  "u3-l3.4.en": {
+    "en": "lamp",
+    "t": "лампа"
+  },
+  "u3-l3.5.en": {
+    "en": "window",
+    "t": "окно"
+  },
+  "u3-l3.5.note": {
+    "en": "Okno is neuter, like auto: okno je veľk**é**.",
+    "t": "Okno — среднего рода, как «окно» и auto: okno je veľk**é**."
+  },
+  "u3-l3.6.pairs": {
+    "en": [
+      "bed",
+      "desk",
+      "wardrobe",
+      "lamp",
+      "window"
+    ],
+    "t": [
+      "кровать",
+      "стол",
+      "шкаф",
+      "лампа",
+      "окно"
+    ]
+  },
+  "u3-l3.7.en": {
+    "en": "on the left – on the right",
+    "t": "слева – справа"
+  },
+  "u3-l3.8.en": {
+    "en": "The desk is on the left.",
+    "t": "Стол слева."
+  },
+  "u3-l3.9.en": {
+    "en": "The lamp is on the right.",
+    "t": "Лампа справа."
+  },
+  "u3-l3.10.en": {
+    "en": "at the front – at the back",
+    "t": "впереди – сзади"
+  },
+  "u3-l3.11.question": {
+    "en": "How do you say “The wardrobe is at the back”?",
+    "t": "Как сказать «Шкаф сзади»?"
+  },
+  "u3-l3.12.prompt": {
+    "en": "The desk is on the left and the bed is on the right.",
+    "t": "Стол слева, а кровать справа."
+  },
+  "u3-l3.13.en": {
+    "en": "The window is big.",
+    "t": "Окно большое."
+  },
+  "u3-l3.14.en": {
+    "en": "The bed is new.",
+    "t": "Кровать новая."
+  },
+  "u3-l3.15.answers": {
+    "en": [
+      "The room is small but the window is big.",
+      "The room is small but the window is large."
+    ],
+    "t": [
+      "Комната маленькая, но окно большое."
+    ]
+  },
+  "u3-l3.15.distractors": {
+    "en": [
+      "bed",
+      "left"
+    ],
+    "t": [
+      "кровать",
+      "слева"
+    ]
+  },
+  "u3-l3.16.en": {
+    "en": "The lamp is on the left.",
+    "t": "Лампа слева."
+  },
+  "u3-l4.titleEn": {
+    "en": "Whose is it?",
+    "t": "Чьё это?"
+  },
+  "u3-l4.0.title": {
+    "en": "My, your, our",
+    "t": "Мой, твой, наш"
+  },
+  "u3-l4.0.body": {
+    "en": [
+      "Possessives match the gender of the thing owned, just like adjectives: môj stôl, moj**a** izba, moj**e** okno.",
+      "Watch the vowel: m**ô**j but m**o**ja, n**á**š but n**a**ša. Use **tvoj** with ty and **váš** with vy."
+    ],
+    "t": [
+      "Как и в русском, притяжательные местоимения меняются по роду предмета: môj stôl, moj**a** izba, moj**e** okno (мой стол, моя комната, моё окно).",
+      "Следите за гласной: m**ô**j, но m**o**ja; n**á**š, но n**a**ša. **tvoj** — на «ты», **váš** — на «вы»."
+    ]
+  },
+  "u3-l4.0.table.head": {
+    "en": [
+      "",
+      "masculine",
+      "feminine",
+      "neuter"
+    ],
+    "t": [
+      "По-русски",
+      "мужской",
+      "женский",
+      "средний"
+    ]
+  },
+  "u3-l4.0.table.rows": {
+    "en": [
+      [
+        "my",
+        "môj",
+        "moj**a**",
+        "moj**e**"
+      ],
+      [
+        "your (ty)",
+        "tvoj",
+        "tvoj**a**",
+        "tvoj**e**"
+      ],
+      [
+        "our",
+        "náš",
+        "naš**a**",
+        "naš**e**"
+      ],
+      [
+        "your (vy)",
+        "váš",
+        "vaš**a**",
+        "vaš**e**"
+      ]
+    ],
+    "t": [
+      [
+        "мой",
+        "môj",
+        "moj**a**",
+        "moj**e**"
+      ],
+      [
+        "твой (ты)",
+        "tvoj",
+        "tvoj**a**",
+        "tvoj**e**"
+      ],
+      [
+        "наш",
+        "náš",
+        "naš**a**",
+        "naš**e**"
+      ],
+      [
+        "ваш (вы)",
+        "váš",
+        "vaš**a**",
+        "vaš**e**"
+      ]
+    ]
+  },
+  "u3-l4.0.examples": {
+    "en": [
+      "That's my desk.",
+      "Your bed is on the left.",
+      "Our window is big."
+    ],
+    "t": [
+      "Это мой стол.",
+      "Твоя кровать слева.",
+      "Наше окно большое."
+    ]
+  },
+  "u3-l4.1.title": {
+    "en": "His, her, their",
+    "t": "Его, её, их"
+  },
+  "u3-l4.1.body": {
+    "en": [
+      "**jeho** (his), **jej** (her) and **ich** (their) never change. They go with any noun."
+    ],
+    "t": [
+      "**jeho** (его), **jej** (её) и **ich** (их) никогда не изменяются и подходят к любому существительному — как в русском."
+    ]
+  },
+  "u3-l4.1.examples": {
+    "en": [
+      "That's his desk.",
+      "That's her bed.",
+      "Their window is small."
+    ],
+    "t": [
+      "Это его стол.",
+      "Это её кровать.",
+      "Их окно маленькое."
+    ]
+  },
+  "u3-l4.2.en": {
+    "en": "That's my room.",
+    "t": "Это моя комната."
+  },
+  "u3-l4.3.en": {
+    "en": "Where is your desk?",
+    "t": "Где твой стол?"
+  },
+  "u3-l4.4.pairs": {
+    "en": [
+      "my",
+      "our",
+      "his",
+      "her",
+      "their"
+    ],
+    "t": [
+      "мой",
+      "наш",
+      "его",
+      "её",
+      "их"
+    ]
+  },
+  "u3-l4.5.prompt": {
+    "en": "That's our kitchen.",
+    "t": "Это наша кухня."
+  },
+  "u3-l4.6.en": {
+    "en": "His bed is on the left.",
+    "t": "Его кровать слева."
+  },
+  "u3-l4.7.title": {
+    "en": "Čí? Whose?",
+    "t": "Čí? Чей?"
+  },
+  "u3-l4.7.body": {
+    "en": [
+      "**Čí?** means whose. It matches the gender of the thing too: **čí** (masculine), **čia** (feminine), **čie** (neuter).",
+      "A short answer is just the possessive: Môj. Jej. Naše."
+    ],
+    "t": [
+      "**Čí?** = «чей?». Тоже меняется по роду предмета: **čí** (чей), **čia** (чья), **čie** (чьё).",
+      "Короткий ответ — просто местоимение: Môj. Jej. Naše."
+    ]
+  },
+  "u3-l4.7.examples": {
+    "en": [
+      "Whose desk is it? – Mine.",
+      "Whose lamp is it? – Hers.",
+      "Whose window is it? – Ours."
+    ],
+    "t": [
+      "Чей это стол? – Мой.",
+      "Чья это лампа? – Её.",
+      "Чьё это окно? – Наше."
+    ]
+  },
+  "u3-l4.8.en": {
+    "en": "Whose bed is it?",
+    "t": "Чья это кровать?"
+  },
+  "u3-l4.9.question": {
+    "en": "“Čia je to skriňa?” Which answer fits?",
+    "t": "«Čia je to skriňa?» Какой ответ подходит?"
+  },
+  "u3-l4.10.prompt": {
+    "en": "Whose window is it?",
+    "t": "Чьё это окно?"
+  },
+  "u3-l4.11.en": {
+    "en": "Lucia, where is your wardrobe?",
+    "t": "Луция, где твой шкаф?"
+  },
+  "u3-l4.12.en": {
+    "en": "Mrs Horváthová, is this your lamp?",
+    "t": "Госпожа Горватова, это ваша лампа?"
+  },
+  "u3-l4.13.prompt": {
+    "en": "Their room is upstairs.",
+    "t": "Их комната наверху."
+  },
+  "u3-l4.14.en": {
+    "en": "That's my room.",
+    "t": "Это моя комната."
+  },
+  "u3-l5.titleEn": {
+    "en": "A new flat",
+    "t": "Новая квартира"
+  },
+  "u3-l5.0.en": {
+    "en": "flat, apartment",
+    "t": "квартира"
+  },
+  "u3-l5.0.note": {
+    "en": "Marek, Lucia's brother, has a new flat. Byt is masculine: nov**ý** byt.",
+    "t": "У Марека, брата Луции, новая квартира. Byt — мужского рода (в отличие от «квартира»): nov**ý** byt."
+  },
+  "u3-l5.1.en": {
+    "en": "Come in!",
+    "t": "Проходите!"
+  },
+  "u3-l5.1.note": {
+    "en": "To two or more people, or formally. To one friend: **Poď ďalej!**",
+    "t": "Дословно «идите дальше», то есть «проходите». Так говорят нескольким людям или на «вы»; одному другу: **Poď ďalej!**"
+  },
+  "u3-l5.2.question": {
+    "en": "Marek opens the door for Emma and Lucia. What does he say?",
+    "t": "Марек открывает дверь Эмме и Луции. Что он говорит?"
+  },
+  "u3-l5.3.en": {
+    "en": "hallway",
+    "t": "коридор (по-словацки — женского рода)"
+  },
+  "u3-l5.4.en": {
+    "en": "living room",
+    "t": "гостиная"
+  },
+  "u3-l5.4.note": {
+    "en": "The full name is **obývacia izba**. Obývací is a soft adjective: it ends in **-í, -ia, -ie**, not -ý, -á, -é.",
+    "t": "Полное название — **obývacia izba**. Obývací — мягкое прилагательное, как «синий»: окончания **-í, -ia, -ie**, а не -ý, -á, -é."
+  },
+  "u3-l5.5.en": {
+    "en": "bedroom",
+    "t": "спальня"
+  },
+  "u3-l5.6.pairs": {
+    "en": [
+      "flat",
+      "hallway",
+      "living room",
+      "bedroom",
+      "kitchen"
+    ],
+    "t": [
+      "квартира",
+      "коридор",
+      "гостиная",
+      "спальня",
+      "кухня"
+    ]
+  },
+  "u3-l5.7.en": {
+    "en": "The hallway is in the middle.",
+    "t": "Посередине — коридор."
+  },
+  "u3-l5.7.note": {
+    "en": "**v strede** = in the middle",
+    "t": "**v strede** = посередине (stred ≈ «середина»)"
+  },
+  "u3-l5.8.en": {
+    "en": "The hallway is in the middle.",
+    "t": "Коридор посередине."
+  },
+  "u3-l5.9.en": {
+    "en": "The bedroom is on the left and the living room on the right.",
+    "t": "Спальня слева, а гостиная справа."
+  },
+  "u3-l5.10.en": {
+    "en": "expensive – cheap",
+    "t": "дорогой – дешёвый"
+  },
+  "u3-l5.11.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "u3-l5.11.options": {
+    "en": [
+      "The flat is expensive.",
+      "The flat is cheap.",
+      "The flat is new."
+    ],
+    "t": [
+      "Квартира дорогая.",
+      "Квартира дешёвая.",
+      "Квартира новая."
+    ]
+  },
+  "u3-l5.12.en": {
+    "en": "bright – dark",
+    "t": "светлый – тёмный"
+  },
+  "u3-l5.12.note": {
+    "en": "svetl**á** izba = a bright room, full of light",
+    "t": "svetl**á** izba = светлая комната, где много света"
+  },
+  "u3-l5.13.en": {
+    "en": "The living room is big and bright.",
+    "t": "Гостиная большая и светлая."
+  },
+  "u3-l5.14.answers": {
+    "en": [
+      "The flat is nice but expensive.",
+      "The apartment is nice but expensive.",
+      "The flat is pretty but expensive."
+    ],
+    "t": [
+      "Квартира красивая, но дорогая."
+    ]
+  },
+  "u3-l5.14.distractors": {
+    "en": [
+      "cheap",
+      "new"
+    ],
+    "t": [
+      "дешёвая",
+      "новая"
+    ]
+  },
+  "u3-l5.15.prompt": {
+    "en": "The hallway is dark.",
+    "t": "Коридор тёмный."
+  },
+  "u3-l5.16.en": {
+    "en": "The flat isn't expensive, it's cheap.",
+    "t": "Квартира не дорогая, а дешёвая."
+  },
+  "u3-l5.17.en": {
+    "en": "Come in!",
+    "t": "Проходите!"
+  },
+  "u3-l6.titleEn": {
+    "en": "Which one is yours?",
+    "t": "Который твой?"
+  },
+  "u3-l6.0.title": {
+    "en": "Ktorý? Which one?",
+    "t": "Ktorý? Который?"
+  },
+  "u3-l6.0.body": {
+    "en": [
+      "**Ktorý?** asks which one. It changes like an adjective: **ktorý** (masculine), **ktorá** (feminine), **ktoré** (neuter).",
+      "To answer, point with **ten**, **tá**, **to** (that one). Add **-to** for “this one here”: tento, táto, toto."
+    ],
+    "t": [
+      "**Ktorý?** = «который? какой именно?». Изменяется как прилагательное: **ktorý** (мужской род), **ktorá** (женский), **ktoré** (средний).",
+      "В ответе указывайте: **ten**, **tá**, **to** (тот, та, то). С **-to** получается «вот этот»: tento, táto, toto."
+    ]
+  },
+  "u3-l6.0.table.head": {
+    "en": [
+      "",
+      "which?",
+      "that one",
+      "this one"
+    ],
+    "t": [
+      "Род",
+      "который?",
+      "тот",
+      "вот этот"
+    ]
+  },
+  "u3-l6.0.table.rows": {
+    "en": [
+      [
+        "masculine",
+        "ktor**ý**",
+        "ten",
+        "ten**to**"
+      ],
+      [
+        "feminine",
+        "ktor**á**",
+        "tá",
+        "tá**to**"
+      ],
+      [
+        "neuter",
+        "ktor**é**",
+        "to",
+        "to**to**"
+      ]
+    ],
+    "t": [
+      [
+        "мужской",
+        "ktor**ý**",
+        "ten",
+        "ten**to**"
+      ],
+      [
+        "женский",
+        "ktor**á**",
+        "tá",
+        "tá**to**"
+      ],
+      [
+        "средний",
+        "ktor**é**",
+        "to",
+        "to**to**"
+      ]
+    ]
+  },
+  "u3-l6.0.examples": {
+    "en": [
+      "Which desk is yours? – The one on the left.",
+      "Which bed is mine? – The one on the right.",
+      "Which window? – This one."
+    ],
+    "t": [
+      "Который стол твой? – Тот, что слева.",
+      "Которая кровать моя? – Та, что справа.",
+      "Которое окно? – Вот это."
+    ]
+  },
+  "u3-l6.1.en": {
+    "en": "Which room is yours?",
+    "t": "Которая комната твоя?"
+  },
+  "u3-l6.2.en": {
+    "en": "Which desk is mine? – The one at the front.",
+    "t": "Который стол мой? – Тот, что впереди."
+  },
+  "u3-l6.3.question": {
+    "en": "Lucia asks: “Ktorá lampa je tvoja?” Emma's lamp is on the left. What does Emma say?",
+    "t": "Луция спрашивает: «Ktorá lampa je tvoja?» Эммина лампа слева. Что говорит Эмма?"
+  },
+  "u3-l6.4.en": {
+    "en": "Which window? – This one.",
+    "t": "Которое окно? – Вот это."
+  },
+  "u3-l6.5.prompt": {
+    "en": "Which window is ours?",
+    "t": "Которое окно наше?"
+  },
+  "u3-l6.6.en": {
+    "en": "Which wardrobe is mine?",
+    "t": "Который шкаф мой?"
+  },
+  "u3-l6.7.title": {
+    "en": "Whose? Tomáš's, Lucia's",
+    "t": "Чей? Томаша, Луции"
+  },
+  "u3-l6.7.body": {
+    "en": [
+      "To say whose, Slovak turns the name into an adjective. Men's names add **-ov**: Tomáš → Tomáš**ov**. Women's names drop the final -a and add **-in**: Emm**a** → Emm**in**, Luci**a** → Luci**in**.",
+      "Then add the ending for the thing owned: nothing for masculine, **-a** for feminine, **-o** for neuter."
+    ],
+    "t": [
+      "Вместо «квартира Томаша» словацкий делает из имени прилагательное, как «мамин, папин». Мужские имена получают **-ov**: Tomáš → Tomáš**ov**. Женские теряют -a и получают **-in**: Emm**a** → Emm**in**, Luci**a** → Luci**in**.",
+      "Затем добавьте окончание по роду предмета: для мужского — ничего, **-a** для женского, **-o** для среднего (как мамин, мамина, мамино)."
+    ]
+  },
+  "u3-l6.7.table.head": {
+    "en": [
+      "",
+      "masculine",
+      "feminine",
+      "neuter"
+    ],
+    "t": [
+      "Имя",
+      "мужской",
+      "женский",
+      "средний"
+    ]
+  },
+  "u3-l6.7.table.rows": {
+    "en": [
+      [
+        "Tomáš",
+        "Tomáš**ov** stôl",
+        "Tomáš**ova** izba",
+        "Tomáš**ovo** auto"
+      ],
+      [
+        "Lucia",
+        "Luci**in** stôl",
+        "Luci**ina** izba",
+        "Luci**ino** auto"
+      ],
+      [
+        "Emma",
+        "Emm**in** stôl",
+        "Emm**ina** izba",
+        "Emm**ino** auto"
+      ]
+    ],
+    "t": [
+      [
+        "Tomáš",
+        "Tomáš**ov** stôl",
+        "Tomáš**ova** izba",
+        "Tomáš**ovo** auto"
+      ],
+      [
+        "Lucia",
+        "Luci**in** stôl",
+        "Luci**ina** izba",
+        "Luci**ino** auto"
+      ],
+      [
+        "Emma",
+        "Emm**in** stôl",
+        "Emm**ina** izba",
+        "Emm**ino** auto"
+      ]
+    ]
+  },
+  "u3-l6.7.examples": {
+    "en": [
+      "That's Tomáš's flat.",
+      "Lucia's bed is on the left.",
+      "Whose car is it? – Tomáš's."
+    ],
+    "t": [
+      "Это квартира Томаша.",
+      "Кровать Луции слева.",
+      "Чья это машина? – Томаша."
+    ]
+  },
+  "u3-l6.8.en": {
+    "en": "That's Tomáš's flat.",
+    "t": "Это квартира Томаша."
+  },
+  "u3-l6.9.en": {
+    "en": "Lucia's bed is on the left.",
+    "t": "Кровать Луции слева."
+  },
+  "u3-l6.10.question": {
+    "en": "How do you say “Emma's room”?",
+    "t": "Как сказать «Эммина комната»?"
+  },
+  "u3-l6.11.prompt": {
+    "en": "Which bed is Emma's?",
+    "t": "Которая кровать Эммина?"
+  },
+  "u3-l6.12.en": {
+    "en": "What's the flat like? – Big and bright.",
+    "t": "Какая квартира? – Большая и светлая."
+  },
+  "u3-l6.13.en": {
+    "en": "Which room is yours?",
+    "t": "Которая комната твоя?"
+  },
+  "u3-l7.titleEn": {
+    "en": "Review",
+    "t": "Повторение"
+  },
+  "u3-l7.0.pairs": {
+    "en": [
+      "bed",
+      "wardrobe",
+      "window",
+      "front desk",
+      "hallway"
+    ],
+    "t": [
+      "кровать",
+      "шкаф",
+      "окно",
+      "вахта",
+      "коридор"
+    ]
+  },
+  "u3-l7.1.en": {
+    "en": "Our kitchen is small.",
+    "t": "Наша кухня маленькая."
+  },
+  "u3-l7.2.en": {
+    "en": "The front desk is downstairs, on the left.",
+    "t": "Вахта внизу, слева."
+  },
+  "u3-l7.3.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "u3-l7.3.options": {
+    "en": [
+      "Whose bed is it?",
+      "Which bed is it?",
+      "What is the bed like?"
+    ],
+    "t": [
+      "Чья это кровать?",
+      "Которая это кровать?",
+      "Какая кровать?"
+    ]
+  },
+  "u3-l7.4.prompt": {
+    "en": "My room is upstairs.",
+    "t": "Моя комната наверху."
+  },
+  "u3-l7.5.en": {
+    "en": "Which desk is yours?",
+    "t": "Который стол твой?"
+  },
+  "u3-l7.6.answers": {
+    "en": [
+      "Tomáš's flat is big and bright.",
+      "Tomáš's apartment is big and bright."
+    ],
+    "t": [
+      "Квартира Томаша большая и светлая."
+    ]
+  },
+  "u3-l7.6.distractors": {
+    "en": [
+      "dark",
+      "small"
+    ],
+    "t": [
+      "тёмная",
+      "маленькая"
+    ]
+  },
+  "u3-l7.7.en": {
+    "en": "Where is Emma's lamp?",
+    "t": "Где Эммина лампа?"
+  },
+  "u3-l7.8.question": {
+    "en": "Which answer fits “Aká je izba?”",
+    "t": "«Aká je izba?» Какой ответ подходит?"
+  },
+  "u3-l7.9.en": {
+    "en": "Their flat is cheap.",
+    "t": "Их квартира дешёвая."
+  },
+  "u3-l7.10.prompt": {
+    "en": "Which window is yours?",
+    "t": "Которое окно твоё?"
+  },
+  "u3-l7.11.en": {
+    "en": "Which bed is Lucia's? – The one on the right.",
+    "t": "Которая кровать Луции? – Та, что справа."
+  },
+  "u3-l7.12.en": {
+    "en": "Mrs Horváthová, is this your desk?",
+    "t": "Госпожа Горватова, это ваш стол?"
+  },
+  "u3-l7.13.prompt": {
+    "en": "The bathroom is on the right and the kitchen is at the back.",
+    "t": "Ванная справа, а кухня сзади."
+  },
+  "u3-l7.14.en": {
+    "en": "His bed is old.",
+    "t": "Его кровать старая."
+  },
+  "u3-l7.15.en": {
+    "en": "What's your room like?",
+    "t": "Какая у тебя комната?"
+  }
+}

@@ -5,13 +5,16 @@ import { useState } from "react";
 import { useApp } from "@/components/app-provider";
 import {
   BoltIcon,
+  BookIcon,
   CheckIcon,
   ChevronDownIcon,
   CrownIcon,
   LockIcon,
+  RepeatIcon,
   StarIcon,
 } from "@/components/icons";
-import { allLessons, course, type Unit } from "@/lib/course";
+import type { LessonKind, UnitOutline } from "@/lib/course/types";
+import type { Locale, MessageKey, Translate } from "@/lib/i18n";
 
 // Unit banner colours cycle through the palette.
 const unitColors = ["var(--brand)", "var(--ok)", "var(--accent)", "#8b5cf6", "#0ea5a4"];
@@ -21,14 +24,17 @@ const zigzag = [0, 44, 66, 44, 0, -44, -66, -44];
 
 type NodeState = "done" | "current" | "locked";
 
-export function CoursePath() {
-  const { ready, progress, isPremium, todayXp, authEnabled, authKnown, user } = useApp();
+/** `outlines` holds the path in each native language (titleEn = the translated title). */
+export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[]> }) {
+  const { ready, progress, isPremium, todayXp, authEnabled, authKnown, user, locale, t } = useApp();
+  const outline = outlines[locale];
   const signedOut = authEnabled && authKnown && !user;
   // Lessons need an account; signed-out visitors go through sign-in and come back.
   const hrefFor = (lessonId: string) =>
     signedOut ? `/login?next=${encodeURIComponent(`/lesson/${lessonId}`)}` : `/lesson/${lessonId}`;
 
   // The first lesson not yet completed is "current"; everything after it is locked.
+  const allLessons = outline.flatMap((u) => u.lessons);
   const firstOpen = allLessons.findIndex((l) => !progress.completed[l.id]);
   const stateOf = (lessonId: string): NodeState => {
     const i = allLessons.findIndex((l) => l.id === lessonId);
@@ -42,17 +48,15 @@ export function CoursePath() {
         {signedOut && (
           <div className="card mb-10 flex flex-col items-start gap-4 p-5 sm:flex-row sm:items-center">
             <div className="flex-1">
-              <h2 className="text-lg font-black">Start learning Slovak for free</h2>
-              <p className="text-muted">
-                Create an account to play lessons and keep your streak. Units 1–2 are free.
-              </p>
+              <h2 className="text-lg font-black">{t("path.signup.title")}</h2>
+              <p className="text-muted">{t("path.signup.body")}</p>
             </div>
             <Link href="/login?mode=signup" className="btn shrink-0">
-              Sign up
+              {t("path.signup.button")}
             </Link>
           </div>
         )}
-        {course.map((unit, ui) => (
+        {outline.map((unit, ui) => (
           <UnitSection
             key={unit.id}
             unit={unit}
@@ -61,13 +65,14 @@ export function CoursePath() {
             completed={unit.lessons.length > 0 && unit.lessons.every((l) => progress.completed[l.id])}
             stateOf={stateOf}
             hrefFor={hrefFor}
+            t={t}
           />
         ))}
       </div>
 
       <aside className="sticky top-24 hidden h-fit w-80 shrink-0 space-y-4 lg:block">
         <div className="card p-5">
-          <h2 className="font-black">Daily goal</h2>
+          <h2 className="font-black">{t("path.dailyGoal")}</h2>
           <div className="mt-3 flex items-center gap-3">
             <BoltIcon className="text-gold" />
             <div className="h-4 flex-1 overflow-hidden rounded-full bg-surface-2">
@@ -77,18 +82,18 @@ export function CoursePath() {
               />
             </div>
             <span className="text-sm font-bold text-muted">
-              {todayXp}/{progress.dailyGoal} XP
+              {t("path.xp", { done: todayXp, goal: progress.dailyGoal })}
             </span>
           </div>
         </div>
         {!isPremium && (
           <div className="card p-5">
             <h2 className="flex items-center gap-2 font-black">
-              <CrownIcon className="text-gold" /> Slovko Premium
+              <CrownIcon className="text-gold" /> {t("path.premium.title")}
             </h2>
-            <p className="mt-2 text-muted">Unlock units 3–10 of the A1 course.</p>
+            <p className="mt-2 text-muted">{t("path.premium.body")}</p>
             <Link href="/pricing" className="btn btn-gold mt-4 w-full">
-              Try Premium
+              {t("path.premium.button")}
             </Link>
           </div>
         )}
@@ -104,14 +109,16 @@ function UnitSection({
   completed,
   stateOf,
   hrefFor,
+  t,
 }: {
-  unit: Unit;
+  unit: UnitOutline;
   color: string;
   premiumLocked: boolean;
   /** Every lesson done: the unit starts folded to its banner. */
   completed: boolean;
   stateOf: (lessonId: string) => NodeState;
   hrefFor: (lessonId: string) => string;
+  t: Translate;
 }) {
   const [expanded, setExpanded] = useState(false);
   const folded = completed && !expanded;
@@ -125,7 +132,7 @@ function UnitSection({
       >
         <div className="flex-1">
           <p className="text-sm font-extrabold uppercase tracking-wide opacity-80">
-            Unit {unit.number} · {unit.titleEn}
+            {t("path.unit", { n: unit.number })} · {unit.titleEn}
           </p>
           <h2 className="mt-1 text-2xl font-black">{unit.title}</h2>
           <p className="mt-1 text-sm font-semibold opacity-90">{unit.grammar.join(" · ")}</p>
@@ -134,7 +141,7 @@ function UnitSection({
           <>
             <span aria-hidden className="flex shrink-0 items-center gap-2">
               <span className="flex items-center gap-1 rounded-full bg-white/20 px-3 py-1 text-sm font-extrabold">
-                <CheckIcon size={16} /> Completed
+                <CheckIcon size={16} /> {t("path.completed")}
               </span>
               <ChevronDownIcon size={26} className={`transition-transform ${expanded ? "rotate-180" : ""}`} />
             </span>
@@ -144,7 +151,10 @@ function UnitSection({
               onClick={() => setExpanded(!expanded)}
               aria-expanded={expanded}
               aria-controls={listId}
-              aria-label={`${expanded ? "Hide" : "Show"} lessons of unit ${unit.number}, ${unit.titleEn} (completed)`}
+              aria-label={t(expanded ? "path.hideLessons" : "path.showLessons", {
+                n: unit.number,
+                title: unit.titleEn,
+              })}
               className="absolute inset-0 cursor-pointer rounded-2xl focus-visible:outline-4 focus-visible:outline-offset-4 focus-visible:outline-brand"
             />
           </>
@@ -155,8 +165,8 @@ function UnitSection({
         <div className="mt-6 flex items-center gap-3 rounded-2xl border-2 border-dashed border-border p-5 text-muted">
           <LockIcon className="shrink-0" />
           <div>
-            <p className="font-extrabold">Coming soon</p>
-            <p className="text-sm">Topics: {unit.topics.join(", ")}</p>
+            <p className="font-extrabold">{t("path.comingSoon")}</p>
+            <p className="text-sm">{t("path.topics", { topics: unit.topics.join(", ") })}</p>
           </div>
         </div>
       ) : premiumLocked ? (
@@ -166,8 +176,10 @@ function UnitSection({
         >
           <CrownIcon className="shrink-0 text-gold" />
           <div>
-            <p className="font-extrabold">Unlock with Premium</p>
-            <p className="text-sm text-muted">{unit.lessons.length} lessons: {unit.topics.join(", ")}</p>
+            <p className="font-extrabold">{t("path.unlock")}</p>
+            <p className="text-sm text-muted">
+              {t("path.unlockDetail", { n: unit.lessons.length, topics: unit.topics.join(", ") })}
+            </p>
           </div>
         </Link>
       ) : folded ? null : (
@@ -178,8 +190,10 @@ function UnitSection({
                 href={hrefFor(lesson.id)}
                 title={lesson.title}
                 subtitle={lesson.titleEn}
+                kind={lesson.kind ?? "vocab"}
                 state={stateOf(lesson.id)}
                 color={color}
+                t={t}
               />
             </li>
           ))}
@@ -189,20 +203,33 @@ function UnitSection({
   );
 }
 
+const kindIcon = { vocab: StarIcon, grammar: BookIcon, review: RepeatIcon };
+const kindLabel: Record<LessonKind, MessageKey | null> = {
+  vocab: null,
+  grammar: "path.kind.grammar",
+  review: "path.kind.review",
+};
+
 function LessonNode({
   href,
   title,
   subtitle,
+  kind,
   state,
   color,
+  t,
 }: {
   href: string;
   title: string;
   subtitle: string;
+  kind: LessonKind;
   state: NodeState;
   color: string;
+  t: Translate;
 }) {
+  const label = kindLabel[kind];
   const bg = state === "done" ? "var(--gold)" : state === "current" ? color : "var(--locked)";
+  const KindIcon = kindIcon[kind];
   const node = (
     <span
       className="relative grid size-[4.5rem] place-items-center rounded-full text-white transition-transform active:translate-y-1"
@@ -211,13 +238,13 @@ function LessonNode({
       {state === "done" ? (
         <CheckIcon size={34} />
       ) : state === "current" ? (
-        <StarIcon size={34} />
+        <KindIcon size={34} />
       ) : (
         <LockIcon size={28} className="opacity-80" />
       )}
       {state === "current" && (
         <span className="animate-bob absolute -top-11 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-xl border-2 border-border bg-bg px-3 py-1.5 text-sm font-black uppercase tracking-wide text-brand">
-          Start
+          {t("path.start")}
         </span>
       )}
     </span>
@@ -226,13 +253,16 @@ function LessonNode({
   return (
     <div className="flex flex-col items-center gap-2 text-center">
       {state === "locked" ? (
-        <span aria-label={`${title} (locked)`}>{node}</span>
+        <span aria-label={t("path.locked", { title })}>{node}</span>
       ) : (
         <Link href={href} aria-label={`${title}: ${subtitle}`}>
           {node}
         </Link>
       )}
       <span className="leading-tight">
+        {label && (
+          <span className="block text-xs font-black uppercase tracking-wide text-muted">{t(label)}</span>
+        )}
         <span className="block font-extrabold">{title}</span>
         <span className="block text-sm text-muted">{subtitle}</span>
       </span>

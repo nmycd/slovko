@@ -1,5 +1,5 @@
 import { createServerClient } from "@supabase/ssr";
-import { createClient, type SupabaseClient } from "@supabase/supabase-js";
+import type { SupabaseClient } from "@supabase/supabase-js";
 import { cookies } from "next/headers";
 import { isSupabaseConfigured, supabasePublishableKey, supabaseUrl } from "@/lib/env";
 
@@ -30,14 +30,4 @@ export async function getCurrentUser() {
   return data.user;
 }
 
-let admin: SupabaseClient | null = null;
-
-/** Service-role client that bypasses RLS. Server only: webhooks, TTS cache. */
-export function getSupabaseAdmin(): SupabaseClient | null {
-  const secret = process.env.SUPABASE_SECRET_KEY ?? process.env.SUPABASE_SERVICE_ROLE_KEY;
-  if (!supabaseUrl || !secret) return null;
-  admin ??= createClient(supabaseUrl, secret, {
-    auth: { persistSession: false, autoRefreshToken: false },
-  });
-  return admin;
-}
+export { getSupabaseAdmin } from "./admin";

@@ -1,0 +1,1070 @@
+{
+  "u10.titleEn": {
+    "en": "Newspapers",
+    "t": "Газеты"
+  },
+  "u10.topics": {
+    "en": [
+      "Newspapers and news",
+      "Weather",
+      "Small ads",
+      "Review"
+    ],
+    "t": [
+      "Газеты и новости",
+      "Погода",
+      "Объявления",
+      "Повторение"
+    ]
+  },
+  "u10.grammar": {
+    "en": [
+      "The cases at a glance",
+      "Present vs past",
+      "Review of A1"
+    ],
+    "t": [
+      "Обзор падежей",
+      "Настоящее и прошедшее время",
+      "Повторение уровня A1"
+    ]
+  },
+  "u10-l1.titleEn": {
+    "en": "The newspaper",
+    "t": "Газета"
+  },
+  "u10-l1.0.en": {
+    "en": "newspaper",
+    "t": "газета"
+  },
+  "u10-l1.0.note": {
+    "en": "Always plural in Slovak: Noviny **sú** tu. In the newspaper = **v novinách**.",
+    "t": "Всегда во множественном числе, как «ножницы»: Noviny **sú** tu. В газете = **v novinách**."
+  },
+  "u10-l1.1.en": {
+    "en": "article",
+    "t": "статья"
+  },
+  "u10-l1.1.note": {
+    "en": "Plural: články.",
+    "t": "Множественное число: články."
+  },
+  "u10-l1.2.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "u10-l1.2.options": {
+    "en": [
+      "newspaper",
+      "article",
+      "letter"
+    ],
+    "t": [
+      "газета",
+      "статья",
+      "письмо"
+    ]
+  },
+  "u10-l1.3.en": {
+    "en": "headline",
+    "t": "заголовок"
+  },
+  "u10-l1.3.note": {
+    "en": "The big title over an article. **zaujímavý** = interesting: zaujímavý titulok.",
+    "t": "Крупное название над статьёй. **zaujímavý** = интересный: zaujímavý titulok — интересный заголовок."
+  },
+  "u10-l1.4.en": {
+    "en": "the news",
+    "t": "новости"
+  },
+  "u10-l1.4.note": {
+    "en": "One news item is **správa**. Správy are also the news on TV and radio.",
+    "t": "Одна новость — **správa**. Správy — это ещё и выпуск новостей по телевизору и радио."
+  },
+  "u10-l1.5.en": {
+    "en": "magazine",
+    "t": "журнал"
+  },
+  "u10-l1.6.pairs": {
+    "en": [
+      "newspaper",
+      "article",
+      "headline",
+      "the news",
+      "magazine"
+    ],
+    "t": [
+      "газета",
+      "статья",
+      "заголовок",
+      "новости",
+      "журнал"
+    ]
+  },
+  "u10-l1.7.en": {
+    "en": "Emma is reading a Slovak newspaper.",
+    "t": "Эмма читает словацкую газету."
+  },
+  "u10-l1.7.note": {
+    "en": "Noviny is plural, so the adjective is plural too: slovensk**é** noviny.",
+    "t": "Noviny — множественное число, поэтому и прилагательное во множественном: slovensk**é** noviny."
+  },
+  "u10-l1.8.en": {
+    "en": "Emma is reading a Slovak newspaper.",
+    "t": "Эмма читает словацкую газету."
+  },
+  "u10-l1.9.en": {
+    "en": "sport and culture",
+    "t": "спорт и культура"
+  },
+  "u10-l1.9.note": {
+    "en": "Two sections of every newspaper. An article about sport: článok o **športe**; about culture: o **kultúre**.",
+    "t": "Две рубрики каждой газеты. Статья о спорте: článok o **športe**; о культуре: o **kultúre**. Как и в русском, после o — предложный падеж."
+  },
+  "u10-l1.10.question": {
+    "en": "How do you say “an article about culture”?",
+    "t": "Как сказать «статья о культуре»?"
+  },
+  "u10-l1.11.en": {
+    "en": "Lucia is in the paper!",
+    "t": "Луция в газете!"
+  },
+  "u10-l1.12.prompt": {
+    "en": "Emma is reading an article about Lucia.",
+    "t": "Эмма читает статью о Луции."
+  },
+  "u10-l1.13.en": {
+    "en": "The headline is very interesting.",
+    "t": "Заголовок очень интересный."
+  },
+  "u10-l1.14.answers": {
+    "en": [
+      "Tomáš doesn't read newspapers."
+    ],
+    "t": [
+      "Томаш не читает газет.",
+      "Томаш газет не читает."
+    ]
+  },
+  "u10-l1.14.distractors": {
+    "en": [
+      "magazines",
+      "reads"
+    ],
+    "t": [
+      "журналов",
+      "читаю"
+    ]
+  },
+  "u10-l1.15.en": {
+    "en": "I'm reading the newspaper.",
+    "t": "Я читаю газету."
+  },
+  "u10-l2.titleEn": {
+    "en": "Weather and small ads",
+    "t": "Погода и объявления"
+  },
+  "u10-l2.0.en": {
+    "en": "weather",
+    "t": "погода"
+  },
+  "u10-l2.0.note": {
+    "en": "Aké je počasie? = What's the weather like? It's neuter, so in the past: Aké **bolo** počasie?",
+    "t": "Aké je počasie? = Какая погода? Это средний род (а наша «погода» — женского рода), поэтому в прошедшем: Aké **bolo** počasie? — Какая была погода?"
+  },
+  "u10-l2.1.en": {
+    "en": "It's sunny.",
+    "t": "Солнечно."
+  },
+  "u10-l2.2.en": {
+    "en": "It's cloudy.",
+    "t": "Облачно."
+  },
+  "u10-l2.3.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "u10-l2.3.options": {
+    "en": [
+      "It's sunny.",
+      "It's cold.",
+      "It's cloudy."
+    ],
+    "t": [
+      "Солнечно.",
+      "Холодно.",
+      "Облачно."
+    ]
+  },
+  "u10-l2.4.en": {
+    "en": "It's raining.",
+    "t": "Идёт дождь."
+  },
+  "u10-l2.4.note": {
+    "en": "Rain is **dážď**, snow is **sneh**. When it snows: **Sneží.**",
+    "t": "Дождь — **dážď**, снег — **sneh**. Когда идёт снег: **Sneží.**"
+  },
+  "u10-l2.5.en": {
+    "en": "It's warm. It's cold.",
+    "t": "Тепло. Холодно."
+  },
+  "u10-l2.5.note": {
+    "en": "Zima also means winter. In the mountains, **v Tatrách** (in the Tatras), it's often cold.",
+    "t": "Zima — это и «холод», и «зима». В горах, **v Tatrách** (в Татрах), часто холодно."
+  },
+  "u10-l2.6.pairs": {
+    "en": [
+      "It's sunny.",
+      "It's cloudy.",
+      "It's raining.",
+      "It's warm.",
+      "It's cold."
+    ],
+    "t": [
+      "Солнечно.",
+      "Облачно.",
+      "Идёт дождь.",
+      "Тепло.",
+      "Холодно."
+    ]
+  },
+  "u10-l2.7.en": {
+    "en": "Today it's cloudy and raining.",
+    "t": "Сегодня облачно и идёт дождь."
+  },
+  "u10-l2.8.answers": {
+    "en": [
+      "It's sunny in Košice.",
+      "In Košice it's sunny."
+    ],
+    "t": [
+      "В Кошице солнечно.",
+      "Солнечно в Кошице."
+    ]
+  },
+  "u10-l2.8.distractors": {
+    "en": [
+      "cloudy",
+      "raining"
+    ],
+    "t": [
+      "облачно",
+      "холодно"
+    ]
+  },
+  "u10-l2.9.en": {
+    "en": "It's warm in Bratislava, but it's cold in the Tatras.",
+    "t": "В Братиславе тепло, а в Татрах холодно."
+  },
+  "u10-l2.10.en": {
+    "en": "small ad",
+    "t": "объявление"
+  },
+  "u10-l2.10.note": {
+    "en": "A short ad in the paper: someone sells, buys or looks for something.",
+    "t": "Короткое объявление в газете: кто-то что-то продаёт, покупает или ищет."
+  },
+  "u10-l2.11.en": {
+    "en": "A company is looking for a programmer.",
+    "t": "Фирма ищет программиста."
+  },
+  "u10-l2.11.note": {
+    "en": "hľadať + accusative. A person gets **-a**: programátor**a**, kuchár**a**.",
+    "t": "hľadať + винительный падеж. Одушевлённые существительные мужского рода получают **-a**, как и в русском: programátor**a**, kuchár**a** — программиста, повара."
+  },
+  "u10-l2.12.en": {
+    "en": "A restaurant is looking for a cook.",
+    "t": "Ресторан ищет повара."
+  },
+  "u10-l2.13.prompt": {
+    "en": "Tomáš is looking for a new flat.",
+    "t": "Томаш ищет новую квартиру."
+  },
+  "u10-l2.14.question": {
+    "en": "You want to know the weather. What do you ask?",
+    "t": "Вы хотите узнать погоду. Что вы спросите?"
+  },
+  "u10-l2.15.en": {
+    "en": "What's the weather like today?",
+    "t": "Какая сегодня погода?"
+  },
+  "u10-l3.titleEn": {
+    "en": "The cases at a glance",
+    "t": "Обзор падежей"
+  },
+  "u10-l3.0.title": {
+    "en": "Four cases, one table",
+    "t": "Четыре падежа в одной таблице"
+  },
+  "u10-l3.0.body": {
+    "en": [
+      "You have now met four cases. The ending tells you what job a noun does in the sentence.",
+      "Nominative is the subject. Accusative is the object (what you read, buy, see). Instrumental goes with **s** (with). Locative always comes after a preposition like **o**, **v** or **na**."
+    ],
+    "t": [
+      "Вы уже знаете четыре падежа. Как и в русском, окончание показывает, какую роль существительное играет в предложении. Даже вопросы почти такие же.",
+      "Именительный — подлежащее. Винительный — дополнение (что читаете, покупаете, видите). Творительный — после **s** (с). Предложный всегда стоит после предлога (**o**, **v**, **na**…) — совсем как у нас: o knih**e** = о книге."
+    ]
+  },
+  "u10-l3.0.table.head": {
+    "en": [
+      "case",
+      "question",
+      "feminine",
+      "masculine"
+    ],
+    "t": [
+      "падеж",
+      "вопрос",
+      "женский",
+      "мужской"
+    ]
+  },
+  "u10-l3.0.table.rows": {
+    "en": [
+      [
+        "nominative",
+        "kto? čo?",
+        "kniha",
+        "kamarát"
+      ],
+      [
+        "accusative",
+        "koho? čo?",
+        "knih**u**",
+        "kamarát**a**"
+      ],
+      [
+        "instrumental",
+        "s kým? s čím?",
+        "knih**ou**",
+        "kamarát**om**"
+      ],
+      [
+        "locative",
+        "o kom? o čom?",
+        "knih**e**",
+        "kamarát**ovi**"
+      ]
+    ],
+    "t": [
+      [
+        "именительный (кто? что?)",
+        "kto? čo?",
+        "kniha",
+        "kamarát"
+      ],
+      [
+        "винительный (кого? что?)",
+        "koho? čo?",
+        "knih**u**",
+        "kamarát**a**"
+      ],
+      [
+        "творительный (с кем? с чем?)",
+        "s kým? s čím?",
+        "knih**ou**",
+        "kamarát**om**"
+      ],
+      [
+        "предложный (о ком? о чём?)",
+        "o kom? o čom?",
+        "knih**e**",
+        "kamarát**ovi**"
+      ]
+    ]
+  },
+  "u10-l3.0.examples": {
+    "en": [
+      "Emma is reading a book.",
+      "Lucia is talking to a friend.",
+      "I'm writing an article about a book."
+    ],
+    "t": [
+      "Эмма читает книгу.",
+      "Луция разговаривает с другом.",
+      "Я пишу статью о книге."
+    ]
+  },
+  "u10-l3.1.en": {
+    "en": "Emma is looking for a book about Slovakia.",
+    "t": "Эмма ищет книгу о Словакии."
+  },
+  "u10-l3.2.en": {
+    "en": "Lucia is going to the cinema with Tomáš.",
+    "t": "Луция идёт в кино с Томашем."
+  },
+  "u10-l3.3.pairs": {
+    "en": [
+      "Lucia is here.",
+      "for Lucia",
+      "with Lucia",
+      "about Lucia"
+    ],
+    "t": [
+      "Луция здесь.",
+      "для Луции",
+      "с Луцией",
+      "о Луции"
+    ]
+  },
+  "u10-l3.4.question": {
+    "en": "Which question does the locative answer?",
+    "t": "На какой вопрос отвечает предложный падеж?"
+  },
+  "u10-l3.5.title": {
+    "en": "Prepositions choose the case",
+    "t": "Предлог определяет падеж"
+  },
+  "u10-l3.5.body": {
+    "en": [
+      "After a preposition the case is fixed, so learn each preposition together with its case.",
+      "Watch **na**: na pošt**e** answers “where?” (locative), na pošt**u** answers “where to?” (accusative).",
+      "**do** (to, into) and **z** (from) take yet another case. For now, learn them in phrases: do kina, do práce, z Írska."
+    ],
+    "t": [
+      "Как и в русском, предлог требует определённого падежа, поэтому учите каждый предлог вместе с его падежом.",
+      "Обратите внимание на **na**: na pošt**e** отвечает на вопрос «где?» (предложный), na pošt**u** — «куда?» (винительный). Совсем как у нас: на почте — на почту.",
+      "**do** (в, до) и **z** (из) требуют ещё одного падежа — родительного, как и в русском. Пока учите их во фразах: do kina, do práce, z Írska."
+    ]
+  },
+  "u10-l3.5.table.head": {
+    "en": [
+      "preposition",
+      "case",
+      "example"
+    ],
+    "t": [
+      "предлог",
+      "падеж",
+      "пример"
+    ]
+  },
+  "u10-l3.5.table.rows": {
+    "en": [
+      [
+        "v, na (where?)",
+        "locative",
+        "v mest**e**, na pošt**e**"
+      ],
+      [
+        "o (about)",
+        "locative",
+        "o Marek**ovi**"
+      ],
+      [
+        "na (where to?)",
+        "accusative",
+        "na pošt**u**"
+      ],
+      [
+        "pre (for)",
+        "accusative",
+        "pre Luci**u**"
+      ],
+      [
+        "s (with)",
+        "instrumental",
+        "s Tomáš**om**"
+      ],
+      [
+        "pred (in front of)",
+        "instrumental",
+        "pred dom**om**"
+      ]
+    ],
+    "t": [
+      [
+        "v, na (где?)",
+        "предложный",
+        "v mest**e**, na pošt**e**"
+      ],
+      [
+        "o (о)",
+        "предложный",
+        "o Marek**ovi**"
+      ],
+      [
+        "na (куда?)",
+        "винительный",
+        "na pošt**u**"
+      ],
+      [
+        "pre (для)",
+        "винительный",
+        "pre Luci**u**"
+      ],
+      [
+        "s (с)",
+        "творительный",
+        "s Tomáš**om**"
+      ],
+      [
+        "pred (перед)",
+        "творительный",
+        "pred dom**om**"
+      ]
+    ]
+  },
+  "u10-l3.5.examples": {
+    "en": [
+      "Lucia is at the post office.",
+      "Emma is going to the post office.",
+      "I drink coffee with milk."
+    ],
+    "t": [
+      "Луция на почте.",
+      "Эмма идёт на почту.",
+      "Я пью кофе с молоком."
+    ]
+  },
+  "u10-l3.6.en": {
+    "en": "Marek works in a restaurant.",
+    "t": "Марек работает в ресторане."
+  },
+  "u10-l3.7.en": {
+    "en": "I'm going to the university now.",
+    "t": "Сейчас я иду в университет."
+  },
+  "u10-l3.8.prompt": {
+    "en": "I'm writing an article about Bratislava.",
+    "t": "Я пишу статью о Братиславе."
+  },
+  "u10-l3.9.en": {
+    "en": "Emma lives in the dorm with Lucia.",
+    "t": "Эмма живёт с Луцией в общежитии."
+  },
+  "u10-l3.10.prompt": {
+    "en": "This gift is for Marek.",
+    "t": "Этот подарок для Марека."
+  },
+  "u10-l3.11.en": {
+    "en": "What do you know about Tomáš?",
+    "t": "Что ты знаешь о Томаше?"
+  },
+  "u10-l3.12.answers": {
+    "en": [
+      "Mr Kováč is sitting in front of the dorm."
+    ],
+    "t": [
+      "Пан Ковач сидит перед общежитием."
+    ]
+  },
+  "u10-l3.12.distractors": {
+    "en": [
+      "behind",
+      "inside"
+    ],
+    "t": [
+      "за",
+      "возле"
+    ]
+  },
+  "u10-l3.13.en": {
+    "en": "I live with a friend.",
+    "t": "Я живу с подругой."
+  },
+  "u10-l4.titleEn": {
+    "en": "Today and yesterday",
+    "t": "Сегодня и вчера"
+  },
+  "u10-l4.0.title": {
+    "en": "Present and past side by side",
+    "t": "Настоящее и прошедшее время рядом"
+  },
+  "u10-l4.0.body": {
+    "en": [
+      "Past tense = the l-form of the verb + som, si, sme or ste. With on, ona and oni there is no extra word.",
+      "The l-form shows gender and number: Tomáš čítal, Emma čítal**a**, oni čítal**i**."
+    ],
+    "t": [
+      "Прошедшее время = форма на -l (как наши «читал», «читала») + som, si, sme или ste. С on, ona и oni больше ничего не нужно.",
+      "Как и в русском, эта форма показывает род и число: Tomáš čítal, Emma čítal**a**, oni čítal**i**."
+    ]
+  },
+  "u10-l4.0.table.head": {
+    "en": [
+      "",
+      "present",
+      "past"
+    ],
+    "t": [
+      "лицо",
+      "настоящее",
+      "прошедшее"
+    ]
+  },
+  "u10-l4.0.table.rows": {
+    "en": [
+      [
+        "ja",
+        "čítam",
+        "čítal / čítal**a** **som**"
+      ],
+      [
+        "ty",
+        "čítaš",
+        "čítal / čítal**a** **si**"
+      ],
+      [
+        "on / ona",
+        "číta",
+        "čítal / čítal**a**"
+      ],
+      [
+        "my",
+        "čítame",
+        "čítal**i** **sme**"
+      ],
+      [
+        "vy",
+        "čítate",
+        "čítal**i** **ste**"
+      ],
+      [
+        "oni",
+        "čítajú",
+        "čítal**i**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "čítam",
+        "čítal / čítal**a** **som**"
+      ],
+      [
+        "ty",
+        "čítaš",
+        "čítal / čítal**a** **si**"
+      ],
+      [
+        "on / ona",
+        "číta",
+        "čítal / čítal**a**"
+      ],
+      [
+        "my",
+        "čítame",
+        "čítal**i** **sme**"
+      ],
+      [
+        "vy",
+        "čítate",
+        "čítal**i** **ste**"
+      ],
+      [
+        "oni",
+        "čítajú",
+        "čítal**i**"
+      ]
+    ]
+  },
+  "u10-l4.0.examples": {
+    "en": [
+      "Today I'm reading the paper.",
+      "Yesterday I read a magazine.",
+      "Tomáš didn't read the news yesterday."
+    ],
+    "t": [
+      "Сегодня я читаю газету.",
+      "Вчера я читала журнал.",
+      "Томаш вчера не читал новости."
+    ]
+  },
+  "u10-l4.1.en": {
+    "en": "Yesterday I read an article about the Tatras.",
+    "t": "Вчера я читала статью о Татрах."
+  },
+  "u10-l4.2.en": {
+    "en": "Lucia and Tomáš sat in a café.",
+    "t": "Луция и Томаш сидели в кафе."
+  },
+  "u10-l4.3.question": {
+    "en": "Which sentence is in the past tense?",
+    "t": "Какое предложение в прошедшем времени?"
+  },
+  "u10-l4.4.prompt": {
+    "en": "Yesterday Marek cooked soup.",
+    "t": "Вчера Марек варил суп."
+  },
+  "u10-l4.5.title": {
+    "en": "Special past forms and word order",
+    "t": "Особые формы прошедшего времени и порядок слов"
+  },
+  "u10-l4.5.body": {
+    "en": [
+      "A few common verbs have their own past forms. Learn them as words.",
+      "Som, si, sme and ste come second in the sentence, before sa: Včera **som sa** učila."
+    ],
+    "t": [
+      "Несколько частых глаголов имеют особые формы прошедшего времени. Учите их как отдельные слова — многие похожи на русские: bol — был, mohol — мог, chcel — хотел.",
+      "Som, si, sme и ste стоят в предложении на втором месте, перед sa (наше -ся): Včera **som sa** učila. = Вчера я занималась."
+    ]
+  },
+  "u10-l4.5.table.head": {
+    "en": [
+      "",
+      "on",
+      "ona",
+      "oni"
+    ],
+    "t": [
+      "глагол",
+      "on",
+      "ona",
+      "oni"
+    ]
+  },
+  "u10-l4.5.table.rows": {
+    "en": [
+      [
+        "byť",
+        "bol",
+        "bola",
+        "boli"
+      ],
+      [
+        "ísť",
+        "išiel",
+        "išla",
+        "išli"
+      ],
+      [
+        "jesť",
+        "jedol",
+        "jedla",
+        "jedli"
+      ],
+      [
+        "môcť",
+        "mohol",
+        "mohla",
+        "mohli"
+      ],
+      [
+        "chcieť",
+        "chcel",
+        "chcela",
+        "chceli"
+      ]
+    ],
+    "t": [
+      [
+        "byť",
+        "bol",
+        "bola",
+        "boli"
+      ],
+      [
+        "ísť",
+        "išiel",
+        "išla",
+        "išli"
+      ],
+      [
+        "jesť",
+        "jedol",
+        "jedla",
+        "jedli"
+      ],
+      [
+        "môcť",
+        "mohol",
+        "mohla",
+        "mohli"
+      ],
+      [
+        "chcieť",
+        "chcel",
+        "chcela",
+        "chceli"
+      ]
+    ]
+  },
+  "u10-l4.5.examples": {
+    "en": [
+      "Yesterday I studied.",
+      "Marek went to work.",
+      "Have you been to Košice?"
+    ],
+    "t": [
+      "Вчера я занималась.",
+      "Марек пошёл на работу.",
+      "Вы были в Кошице?"
+    ]
+  },
+  "u10-l4.6.en": {
+    "en": "Emma went home by bus.",
+    "t": "Эмма поехала домой на автобусе."
+  },
+  "u10-l4.7.en": {
+    "en": "Yesterday I studied in the library.",
+    "t": "Вчера я занималась в библиотеке."
+  },
+  "u10-l4.8.prompt": {
+    "en": "Emma: “I didn't have time.”",
+    "t": "Эмма: «У меня не было времени»."
+  },
+  "u10-l4.9.pairs": {
+    "en": [
+      "he was",
+      "she went",
+      "they ate",
+      "he could",
+      "she wanted"
+    ],
+    "t": [
+      "он был",
+      "она пошла",
+      "они ели",
+      "он мог",
+      "она хотела"
+    ]
+  },
+  "u10-l4.10.en": {
+    "en": "Have you read the paper yet?",
+    "t": "Ты уже читал газету?"
+  },
+  "u10-l4.11.en": {
+    "en": "Have you eaten yet? — No, not yet.",
+    "t": "Ты уже ел? — Нет, ещё нет."
+  },
+  "u10-l4.12.answers": {
+    "en": [
+      "Tomáš couldn't come."
+    ],
+    "t": [
+      "Томаш не мог прийти."
+    ]
+  },
+  "u10-l4.12.distractors": {
+    "en": [
+      "can't",
+      "go"
+    ],
+    "t": [
+      "может",
+      "пойти"
+    ]
+  },
+  "u10-l4.13.en": {
+    "en": "Yesterday we were at the cinema.",
+    "t": "Вчера мы были в кино."
+  },
+  "u10-l5.titleEn": {
+    "en": "Emma reads the paper",
+    "t": "Эмма читает газету"
+  },
+  "u10-l5.0.question": {
+    "en": "What does this headline mean?",
+    "t": "Что значит этот заголовок?"
+  },
+  "u10-l5.0.options": {
+    "en": [
+      "A new restaurant on Main Street",
+      "A new café on Main Street",
+      "An old café in the main square"
+    ],
+    "t": [
+      "Новый ресторан на Главной улице",
+      "Новое кафе на Главной улице",
+      "Старое кафе на главной площади"
+    ]
+  },
+  "u10-l5.1.en": {
+    "en": "Emma bought a newspaper in a shop.",
+    "t": "Эмма купила газету в магазине."
+  },
+  "u10-l5.2.prompt": {
+    "en": "There's a new café on Main Street.",
+    "t": "На Главной улице есть новое кафе."
+  },
+  "u10-l5.3.en": {
+    "en": "The weather was nice on Saturday.",
+    "t": "В субботу была хорошая погода."
+  },
+  "u10-l5.4.pairs": {
+    "en": [
+      "Monday",
+      "green",
+      "cook",
+      "train",
+      "shop"
+    ],
+    "t": [
+      "понедельник",
+      "зелёный",
+      "повар",
+      "поезд",
+      "магазин"
+    ]
+  },
+  "u10-l5.5.en": {
+    "en": "Tomáš is a programmer and lives in Košice.",
+    "t": "Томаш — программист и живёт в Кошице."
+  },
+  "u10-l5.6.answers": {
+    "en": [
+      "Marek works as a cook in a restaurant."
+    ],
+    "t": [
+      "Марек работает поваром в ресторане.",
+      "Марек работает в ресторане поваром."
+    ]
+  },
+  "u10-l5.6.distractors": {
+    "en": [
+      "waiter",
+      "teacher"
+    ],
+    "t": [
+      "официантом",
+      "учителем"
+    ]
+  },
+  "u10-l5.7.question": {
+    "en": "Emma tells her friend Lucia “You're in the paper!” Which is right?",
+    "t": "Эмма говорит подруге Луции: «Ты в газете!» Как правильно?"
+  },
+  "u10-l5.8.en": {
+    "en": "The article is about Lucia. They're writing about her in the paper.",
+    "t": "Статья о Луции. О ней пишут в газете."
+  },
+  "u10-l5.9.prompt": {
+    "en": "Yesterday we read the article with Lucia.",
+    "t": "Вчера мы вместе с Луцией читали статью."
+  },
+  "u10-l5.10.en": {
+    "en": "Ms Horváthová always reads the paper in the morning.",
+    "t": "Госпожа Горватова всегда читает газету по утрам."
+  },
+  "u10-l5.11.en": {
+    "en": "Today it's sunny and warm.",
+    "t": "Сегодня солнечно и тепло."
+  },
+  "u10-l5.12.prompt": {
+    "en": "Mr Kováč never reads magazines.",
+    "t": "Пан Ковач никогда не читает журналы."
+  },
+  "u10-l5.13.answers": {
+    "en": [
+      "Yesterday I saw Marek in town.",
+      "I saw Marek in town yesterday."
+    ],
+    "t": [
+      "Вчера я видела Марека в городе.",
+      "Я вчера видела Марека в городе.",
+      "Я видела Марека в городе вчера."
+    ]
+  },
+  "u10-l5.13.distractors": {
+    "en": [
+      "see",
+      "city"
+    ],
+    "t": [
+      "вижу",
+      "город"
+    ]
+  },
+  "u10-l5.14.en": {
+    "en": "That's an interesting article.",
+    "t": "Это интересная статья."
+  },
+  "u10-l6.titleEn": {
+    "en": "The big review",
+    "t": "Большое повторение"
+  },
+  "u10-l6.0.question": {
+    "en": "You meet your teacher, pani Horváthová. What do you say?",
+    "t": "Вы встречаете свою учительницу, госпожу Горватову. Что вы скажете?"
+  },
+  "u10-l6.1.question": {
+    "en": "Emma is from Ireland. How does she say it?",
+    "t": "Эмма из Ирландии. Как она это скажет?"
+  },
+  "u10-l6.2.en": {
+    "en": "There are two magazines on the table.",
+    "t": "На столе лежат два журнала."
+  },
+  "u10-l6.3.en": {
+    "en": "Three students are sitting in the café.",
+    "t": "В кафе сидят трое студентов."
+  },
+  "u10-l6.4.prompt": {
+    "en": "Emma has two Slovak friends. (female)",
+    "t": "У Эммы две подруги-словачки."
+  },
+  "u10-l6.5.en": {
+    "en": "Today I have to go to the university.",
+    "t": "Сегодня мне нужно идти в университет."
+  },
+  "u10-l6.6.pairs": {
+    "en": [
+      "I have to",
+      "I can",
+      "I want",
+      "I know",
+      "I'm allowed to"
+    ],
+    "t": [
+      "мне надо",
+      "я могу",
+      "я хочу",
+      "я знаю",
+      "мне можно"
+    ]
+  },
+  "u10-l6.7.en": {
+    "en": "Marek can cook, but today he has no time.",
+    "t": "Марек умеет готовить, но сегодня у него нет времени."
+  },
+  "u10-l6.8.en": {
+    "en": "That's Lucia's brother Marek.",
+    "t": "Это брат Луции, Марек."
+  },
+  "u10-l6.9.prompt": {
+    "en": "It's eight o'clock.",
+    "t": "Восемь часов."
+  },
+  "u10-l6.10.en": {
+    "en": "We met in a café yesterday.",
+    "t": "Вчера мы встретились в кафе."
+  },
+  "u10-l6.11.answers": {
+    "en": [
+      "Emma and Lucia live together in the dorm."
+    ],
+    "t": [
+      "Эмма и Луция вместе живут в общежитии.",
+      "Эмма и Луция живут вместе в общежитии."
+    ]
+  },
+  "u10-l6.11.distractors": {
+    "en": [
+      "lives",
+      "house"
+    ],
+    "t": [
+      "живёт",
+      "доме"
+    ]
+  },
+  "u10-l6.12.question": {
+    "en": "How do you say “Today is the 2nd of May”?",
+    "t": "Как сказать «Сегодня второе мая»?"
+  },
+  "u10-l6.13.en": {
+    "en": "Lucia, can I go to the cinema with you?",
+    "t": "Луция, можно я пойду с тобой в кино?"
+  },
+  "u10-l6.14.en": {
+    "en": "We didn't go anywhere yesterday.",
+    "t": "Вчера мы нигде не были."
+  },
+  "u10-l6.15.en": {
+    "en": "I can speak Slovak now!",
+    "t": "Я уже говорю по-словацки!"
+  }
+}

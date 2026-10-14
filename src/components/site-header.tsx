@@ -9,7 +9,7 @@ import { StatsBar } from "@/components/stats-bar";
 
 export function SiteHeader() {
   const pathname = usePathname();
-  const { user, authEnabled, isPremium } = useApp();
+  const { user, authEnabled, isPremium, t } = useApp();
   const onLanding = pathname === "/";
 
   return (
@@ -27,21 +27,21 @@ export function SiteHeader() {
               href="/pricing"
               className="hidden items-center gap-1 text-sm font-extrabold uppercase tracking-wide text-gold sm:flex"
             >
-              <CrownIcon size={18} /> Premium
+              <CrownIcon size={18} /> {t("nav.premium")}
             </Link>
           )}
           {authEnabled &&
             (user ? (
               <Link
                 href="/account"
-                aria-label="Account"
+                aria-label={t("nav.account")}
                 className="grid size-10 place-items-center rounded-full bg-brand-soft font-black text-brand"
               >
                 {(user.email ?? "?")[0].toUpperCase()}
               </Link>
             ) : (
               <Link href="/login" className="text-sm font-extrabold uppercase tracking-wide text-brand">
-                Sign in
+                {t("nav.signIn")}
               </Link>
             ))}
         </nav>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
+import type { MessageKey } from "@/lib/i18n";
 
 const MAX_SECONDS = 10;
 /** Peak RMS below this means the mic picked up (almost) nothing. */
@@ -19,7 +20,8 @@ export type Recording = {
  */
 export function useRecorder() {
   const [recording, setRecording] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  /** Message key of the last microphone problem. */
+  const [error, setError] = useState<MessageKey | null>(null);
   /** Current input level, 0–1, for a meter. */
   const [level, setLevel] = useState(0);
   /** Name of the microphone the browser picked, e.g. "MacBook Pro Microphone". */
@@ -39,7 +41,7 @@ export function useRecorder() {
     try {
       stream = await navigator.mediaDevices.getUserMedia({ audio: true });
     } catch {
-      setError("Microphone access was blocked. Allow it in your browser's site settings.");
+      setError("ex.mic.blocked");
       return null;
     }
     const label = stream.getAudioTracks()[0]?.label || null;

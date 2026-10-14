@@ -9,6 +9,7 @@ import {
   BuildView,
   ChoiceView,
   FillView,
+  GrammarView,
   IntroView,
   ListenView,
   MatchView,
@@ -18,9 +19,12 @@ import {
 } from "@/components/lesson/exercises";
 import { checkBuilt, checkTyped, shuffle, toTiles } from "@/lib/answers";
 import { playSlovak } from "@/lib/audio";
-import { fillSentence, findLesson, nextLessonId, type Exercise } from "@/lib/course";
+import { fillSentence } from "@/lib/course/helpers";
+import type { Exercise, Lesson } from "@/lib/course/types";
+import type { Locale } from "@/lib/i18n";
 
-type Item = { ex: Exercise; key: string; retry: boolean };
+/** A queued exercise: its index in the lesson (so a language switch updates the text). */
+type Item = { index: number; key: string; retry: boolean };
 type Phase = "playing" | "done" | "paywall";
 type Summary = { xp: number; score: number; seconds: number };
 
@@ -68,7 +72,17 @@ function hasAnswer(answer: Answer): boolean {
   return true;
 }
 
-export function LessonPlayer({ lessonId }: { lessonId: string }) {
+type PlayerProps = {
+  /** The lesson in each native language (same exercises, translated). */
+  lessons: Record<Locale, Lesson>;
+  /** The lesson's unit needs Premium. */
+  premiumUnit: boolean;
+  /** The following lesson, for the "Next lesson" button. */
+  nextId: string | null;
+};
+
+export function LessonPlayer(props: PlayerProps) {
+  const lessonId = props.lessons.en.id;
   const router = useRouter();
   const { ready, authEnabled, authKnown, user, profile } = useApp();
   const signedOut = authEnabled && authKnown && !user;
@@ -82,20 +96,21 @@ export function LessonPlayer({ lessonId }: { lessonId: string }) {
   // mount) and for the profile, which decides whether premium units are open.
   const profileLoading = user !== null && profile === null;
   if (!ready || !authKnown || signedOut || profileLoading) return <div className="min-h-dvh" />;
-  return <Player key={lessonId} lessonId={lessonId} />;
+  return <Player key={lessonId} {...props} />;
 }
 
-function Player({ lessonId }: { lessonId: string }) {
-  const { lesson, unit } = findLesson(lessonId)!;
+function Player({ lessons, premiumUnit, nextId }: PlayerProps) {
   const router = useRouter();
-  const { isPremium, completeLesson } = useApp();
+  const { isPremium, completeLesson, t, locale } = useApp();
+  const lesson = lessons[locale];
+  const lessonId = lesson.id;
 
   const [queue, setQueue] = useState<Item[]>(() =>
-    lesson.exercises.map((ex, i) => ({ ex, key: String(i), retry: false })),
+    lesson.exercises.map((_, index) => ({ index, key: String(index), retry: false })),
   );
   const [pos, setPos] = useState(0);
   const [phase, setPhase] = useState<Phase>(() =>
-    unit.premium && !isPremium ? "paywall" : "playing",
+    premiumUnit && !isPremium ? "paywall" : "playing",
   );
   const stats = useRef({ right: 0, graded: 0, startedAt: 0 });
   const [summary, setSummary] = useState<Summary | null>(null);
@@ -105,6 +120,7 @@ function Player({ lessonId }: { lessonId: string }) {
   }, []);
 
   const item = queue[pos];
+  const exercise = lesson.exercises[item.index];
 
   function onGraded(r: Resolution) {
     if (r.skipped) return;
@@ -114,9 +130,9 @@ function Player({ lessonId }: { lessonId: string }) {
     }
     // Mistakes come back once at the end of the lesson.
     if (!r.correct && !item.retry) {
-      setQueue((q) => [...q, { ex: item.ex, key: `${item.key}r`, retry: true }]);
+      setQueue((q) => [...q, { index: item.index, key: `${item.key}r`, retry: true }]);
     }
-    const audio = solutionAudio(item.ex);
+    const audio = solutionAudio(exercise);
     if (audio) void playSlovak(audio);
   }
 
@@ -138,7 +154,7 @@ function Player({ lessonId }: { lessonId: string }) {
     return (
       <DoneScreen
         {...summary}
-        nextId={nextLessonId(lessonId)}
+        nextId={nextId}
         onContinue={() => router.push("/learn")}
       />
     );
@@ -152,10 +168,10 @@ function Player({ lessonId }: { lessonId: string }) {
       <div className="mx-auto flex w-full max-w-3xl items-center gap-4 px-4 pt-6">
         <Link
           href="/learn"
-          aria-label="Quit lesson"
+          aria-label={t("lesson.quit")}
           className="text-muted hover:text-text"
           onClick={(e) => {
-            if (pos > 0 && !confirm("Quit? Your progress in this lesson will be lost.")) e.preventDefault();
+            if (pos > 0 && !confirm(t("lesson.quitConfirm"))) e.preventDefault();
           }}
         >
           <CloseIcon size={28} />
@@ -168,7 +184,8 @@ function Player({ lessonId }: { lessonId: string }) {
         </div>
       </div>
 
-      <Step key={item.key} exercise={item.ex} onGraded={onGraded} onNext={next} />
+      {/* Remounts on a language switch so word tiles are rebuilt in the new language. */}
+      <Step key={`${item.key}-${locale}`} exercise={exercise} onGraded={onGraded} onNext={next} />
     </div>
   );
 }
@@ -189,7 +206,8 @@ function Step({
     ex.type === "build" ? shuffle([...toTiles(ex.answers[0]), ...ex.distractors]) : [],
   );
 
-  const isIntro = ex.type === "intro";
+  // Teaching cards have no answer: just Continue.
+  const isIntro = ex.type === "intro" || ex.type === "grammar";
   const selfGraded = ex.type === "match" || ex.type === "speak";
   const locked = result !== null;
 
@@ -216,6 +234,7 @@ function Step({
     <>
       <div className="mx-auto w-full max-w-2xl flex-1 px-4 py-10">
         {ex.type === "intro" && <IntroView exercise={ex} />}
+        {ex.type === "grammar" && <GrammarView exercise={ex} />}
         {ex.type === "choice" && (
           <ChoiceView exercise={ex} answer={answer} setAnswer={setAnswer} locked={locked} />
         )}
@@ -259,6 +278,7 @@ function Footer({
   onNext: () => void;
   onSkip?: () => void;
 }) {
+  const { t } = useApp();
   const [word] = useState(() => praise[Math.floor(Math.random() * praise.length)]);
 
   if (result) {
@@ -273,16 +293,18 @@ function Footer({
               {ok ? <CheckIcon size={30} /> : <CloseIcon size={30} />}
             </span>
             <div className={ok ? "text-ok-dark" : "text-bad"}>
-              <p className="text-2xl font-black">{ok ? word : "Correct solution:"}</p>
+              <p className="text-2xl font-black">{ok ? word : t("lesson.correctSolution")}</p>
               {!ok && result.solution && <p className="text-lg font-semibold">{result.solution}</p>}
               {result.heard !== undefined && (
-                <p className="text-sm font-semibold opacity-80">We heard: “{result.heard || "…"}”</p>
+                <p className="text-sm font-semibold opacity-80">
+                  {t("lesson.weHeard", { text: result.heard || "…" })}
+                </p>
               )}
-              {result.note && <p className="text-sm font-semibold">{result.note}</p>}
+              {result.note && <p className="text-sm font-semibold">{t(result.note)}</p>}
             </div>
           </div>
           <button type="button" onClick={onNext} className={`btn ${ok ? "btn-ok" : "btn-bad"} sm:min-w-40`}>
-            Continue
+            {t("lesson.continue")}
           </button>
         </div>
       </footer>
@@ -294,18 +316,18 @@ function Footer({
       <div className="mx-auto flex max-w-3xl items-center justify-between gap-4 px-4 py-6">
         {onSkip ? (
           <button type="button" onClick={onSkip} className="btn btn-ghost">
-            Can&apos;t speak now
+            {t("lesson.cantSpeak")}
           </button>
         ) : (
           <span />
         )}
         {mode === "continue" ? (
           <button type="button" onClick={onNext} className="btn btn-ok sm:min-w-40">
-            Continue
+            {t("lesson.continue")}
           </button>
         ) : mode === "check" ? (
           <button type="button" onClick={onCheck} disabled={!canCheck} className="btn btn-ok sm:min-w-40">
-            Check
+            {t("lesson.check")}
           </button>
         ) : null}
       </div>
@@ -334,27 +356,28 @@ function DoneScreen({
   nextId: string | null;
   onContinue: () => void;
 }) {
+  const { t } = useApp();
   const time = `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`;
   return (
     <Screen>
       <StarIcon size={96} className="animate-pop text-gold" />
       <div>
-        <h1 className="text-3xl font-black text-gold">Lesson complete!</h1>
-        <p className="mt-1 text-muted">{score === 100 ? "Perfect lesson. Bez chyby!" : "Keep it up!"}</p>
+        <h1 className="text-3xl font-black text-gold">{t("lesson.done.title")}</h1>
+        <p className="mt-1 text-muted">{t(score === 100 ? "lesson.done.perfect" : "lesson.done.keepUp")}</p>
       </div>
       <div className="grid w-full grid-cols-3 gap-3">
-        <Stat label="Total XP" value={`+${xp}`} color="var(--gold)" icon={<BoltIcon size={20} />} />
-        <Stat label="Accuracy" value={`${score}%`} color="var(--ok)" icon={<CheckIcon size={20} />} />
-        <Stat label="Time" value={time} color="var(--brand)" icon={<StarIcon size={20} />} />
+        <Stat label={t("lesson.stat.xp")} value={`+${xp}`} color="var(--gold)" icon={<BoltIcon size={20} />} />
+        <Stat label={t("lesson.stat.accuracy")} value={`${score}%`} color="var(--ok)" icon={<CheckIcon size={20} />} />
+        <Stat label={t("lesson.stat.time")} value={time} color="var(--brand)" icon={<StarIcon size={20} />} />
       </div>
       <div className="flex w-full flex-col gap-3">
         {nextId && (
           <Link href={`/lesson/${nextId}`} className="btn btn-ok w-full">
-            Next lesson
+            {t("lesson.next")}
           </Link>
         )}
         <button type="button" onClick={onContinue} className="btn btn-ghost w-full">
-          Back to path
+          {t("lesson.backToPath")}
         </button>
       </div>
     </Screen>
@@ -386,19 +409,20 @@ function Stat({
 }
 
 function PaywallScreen() {
+  const { t } = useApp();
   return (
     <Screen>
       <CrownIcon size={96} className="text-gold" />
       <div>
-        <h1 className="text-3xl font-black">This is a Premium unit</h1>
-        <p className="mt-2 text-muted">Unlock every unit of the A1 course with Slovko Premium.</p>
+        <h1 className="text-3xl font-black">{t("lesson.paywall.title")}</h1>
+        <p className="mt-2 text-muted">{t("lesson.paywall.body")}</p>
       </div>
       <div className="flex w-full flex-col gap-3">
         <Link href="/pricing" className="btn btn-gold w-full">
-          See plans
+          {t("lesson.paywall.button")}
         </Link>
         <Link href="/learn" className="btn btn-ghost w-full">
-          Back to path
+          {t("lesson.backToPath")}
         </Link>
       </div>
     </Screen>

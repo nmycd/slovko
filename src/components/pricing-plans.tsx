@@ -8,7 +8,7 @@ import { FREE_UNIT_COUNT, plans, premiumPerks, type PlanId } from "@/lib/plans";
 
 export function PricingPlans() {
   const router = useRouter();
-  const { user, isPremium, authEnabled } = useApp();
+  const { user, isPremium, authEnabled, t } = useApp();
   const [busy, setBusy] = useState<PlanId | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -28,7 +28,7 @@ export function PricingPlans() {
     if (data.url) {
       window.location.assign(data.url);
     } else {
-      setError(data.error ?? "Something went wrong.");
+      setError(data.error ?? t("common.error"));
       setBusy(null);
     }
   }
@@ -39,21 +39,21 @@ export function PricingPlans() {
         <CrownIcon size={56} className="mx-auto text-gold" />
         <h1 className="mt-3 text-4xl font-black">Slovko Premium</h1>
         <p className="mt-2 text-lg text-muted">
-          The first {FREE_UNIT_COUNT} units are free forever. Premium unlocks the rest.
+          {t("pricing.subtitle", { n: FREE_UNIT_COUNT })}
         </p>
       </div>
 
       <ul className="mx-auto mt-8 max-w-sm space-y-2">
         {premiumPerks.map((perk) => (
           <li key={perk} className="flex items-center gap-3 font-bold">
-            <CheckIcon size={22} className="shrink-0 text-ok" /> {perk}
+            <CheckIcon size={22} className="shrink-0 text-ok" /> {t(perk)}
           </li>
         ))}
       </ul>
 
       {isPremium ? (
         <p className="mt-10 rounded-2xl bg-ok-soft p-5 text-center font-extrabold text-ok-dark">
-          You&apos;re Premium. Ďakujeme!
+          {t("pricing.youArePremium")}
         </p>
       ) : (
         <div className="mt-10 grid gap-4 sm:grid-cols-2">
@@ -67,22 +67,22 @@ export function PricingPlans() {
               >
                 {featured && (
                   <span className="absolute -top-3 left-6 rounded-full bg-gold px-3 py-0.5 text-xs font-black uppercase text-[#3a2a00]">
-                    Best value
+                    {t("pricing.bestValue")}
                   </span>
                 )}
-                <h2 className="text-xl font-black">{plan.label}</h2>
+                <h2 className="text-xl font-black">{t(plan.label)}</h2>
                 <p className="mt-2">
                   <span className="text-4xl font-black">{plan.price}</span>
-                  <span className="text-muted"> / {plan.per}</span>
+                  <span className="text-muted"> / {t(plan.per)}</span>
                 </p>
-                <p className="mt-1 text-sm font-bold text-muted">{plan.note}</p>
+                <p className="mt-1 text-sm font-bold text-muted">{t(plan.note)}</p>
                 <button
                   type="button"
                   disabled={busy !== null || !authEnabled}
                   onClick={() => subscribe(id)}
                   className={`btn mt-6 ${featured ? "btn-gold" : ""}`}
                 >
-                  {busy === id ? "Redirecting…" : user ? "Subscribe" : "Sign in to subscribe"}
+                  {t(busy === id ? "pricing.redirecting" : user ? "pricing.subscribe" : "pricing.signInToSubscribe")}
                 </button>
               </div>
             );
@@ -92,7 +92,7 @@ export function PricingPlans() {
       {error && <p className="mt-4 text-center font-bold text-bad">{error}</p>}
       {!authEnabled && (
         <p className="mt-4 text-center text-sm text-muted">
-          Payments need accounts: add Supabase and Stripe keys to <code>.env.local</code>.
+          {t("pricing.notConfigured")}
         </p>
       )}
     </div>

@@ -1,0 +1,1541 @@
+{
+  "u5.titleEn": {
+    "en": "We have a party today",
+    "t": "Сегодня у нас вечеринка"
+  },
+  "u5.topics": {
+    "en": [
+      "Food and drink",
+      "Shopping",
+      "Colours and clothes",
+      "A birthday party"
+    ],
+    "t": [
+      "Еда и напитки",
+      "Покупки",
+      "Цвета и одежда",
+      "День рождения"
+    ]
+  },
+  "u5.grammar": {
+    "en": [
+      "Accusative case",
+      "Accusative pronouns",
+      "Accusative prepositions",
+      "The verb ísť",
+      "Modal verbs"
+    ],
+    "t": [
+      "Винительный падеж",
+      "Местоимения в винительном падеже",
+      "Предлоги с винительным падежом",
+      "Глагол ísť",
+      "Модальные глаголы"
+    ]
+  },
+  "u5-l1.titleEn": {
+    "en": "Food and drink",
+    "t": "Еда и напитки"
+  },
+  "u5-l1.0.en": {
+    "en": "What do we need for the party?",
+    "t": "Что нам нужно на вечеринку?"
+  },
+  "u5-l1.0.note": {
+    "en": "Emma and Lucia are planning a party (oslava). potrebovať = to need: potrebuj**em**, potrebuj**eš**, potrebuj**e**…",
+    "t": "Эмма и Луция планируют вечеринку (oslava). potrebovať = нуждаться, «нужно» (а не «потребовать»): potrebuj**em** = мне нужно, potrebuj**eš**, potrebuj**e**…"
+  },
+  "u5-l1.1.en": {
+    "en": "bread and butter",
+    "t": "хлеб и масло"
+  },
+  "u5-l1.2.question": {
+    "en": "How do you say “butter”?",
+    "t": "Как сказать «масло»?"
+  },
+  "u5-l1.3.en": {
+    "en": "cheese and ham",
+    "t": "сыр и ветчина"
+  },
+  "u5-l1.4.prompt": {
+    "en": "We need bread and cheese.",
+    "t": "Нам нужны хлеб и сыр."
+  },
+  "u5-l1.5.en": {
+    "en": "wine, beer and juice",
+    "t": "вино, пиво и сок"
+  },
+  "u5-l1.6.en": {
+    "en": "coffee and mineral water",
+    "t": "кофе и минеральная вода"
+  },
+  "u5-l1.6.note": {
+    "en": "minerálka is short for minerálna voda.",
+    "t": "minerálka = minerálna voda, как наша «минералка»."
+  },
+  "u5-l1.7.pairs": {
+    "en": [
+      "butter",
+      "cheese",
+      "ham",
+      "wine",
+      "mineral water"
+    ],
+    "t": [
+      "масло",
+      "сыр",
+      "ветчина",
+      "вино",
+      "минеральная вода"
+    ]
+  },
+  "u5-l1.8.en": {
+    "en": "We need wine and juice.",
+    "t": "Нам нужны вино и сок."
+  },
+  "u5-l1.9.en": {
+    "en": "How much is the ham?",
+    "t": "Сколько стоит ветчина?"
+  },
+  "u5-l1.9.note": {
+    "en": "stáť = to cost. Šunka stojí tri eurá. = The ham costs three euros.",
+    "t": "stáť = стоить. Šunka stojí tri eurá. = Ветчина стоит три евро."
+  },
+  "u5-l1.10.en": {
+    "en": "How much is the coffee?",
+    "t": "Сколько стоит кофе?"
+  },
+  "u5-l1.11.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "u5-l1.11.options": {
+    "en": [
+      "The cheese costs four euros.",
+      "The ham costs four euros.",
+      "The cheese costs ten euros."
+    ],
+    "t": [
+      "Сыр стоит четыре евро.",
+      "Ветчина стоит четыре евро.",
+      "Сыр стоит десять евро."
+    ]
+  },
+  "u5-l1.12.prompt": {
+    "en": "The coffee costs three euros.",
+    "t": "Кофе стоит три евро."
+  },
+  "u5-l1.13.en": {
+    "en": "I'll buy fresh bread.",
+    "t": "Я куплю свежий хлеб."
+  },
+  "u5-l1.13.note": {
+    "en": "kúpiť = to buy: kúpim, kúpiš, kúpi… It usually points to the future: “I'll buy”. čerstvý = fresh.",
+    "t": "kúpiť = купить: kúpim, kúpiš, kúpi… Как и «куплю», kúpim означает будущее. čerstvý = свежий (а не «чёрствый»!)."
+  },
+  "u5-l1.14.answers": {
+    "en": [
+      "I'll buy wine and beer.",
+      "I will buy wine and beer.",
+      "I'll buy beer and wine."
+    ],
+    "t": [
+      "Я куплю вино и пиво.",
+      "Куплю вино и пиво.",
+      "Я куплю пиво и вино.",
+      "Куплю пиво и вино."
+    ]
+  },
+  "u5-l1.14.distractors": {
+    "en": [
+      "need",
+      "juice"
+    ],
+    "t": [
+      "покупаю",
+      "сок"
+    ]
+  },
+  "u5-l1.15.en": {
+    "en": "We have cheese, but we don't have butter.",
+    "t": "У нас есть сыр, но нет масла."
+  },
+  "u5-l1.16.en": {
+    "en": "Do you have fresh bread?",
+    "t": "У вас есть свежий хлеб?"
+  },
+  "u5-l1.17.en": {
+    "en": "What do we need for the party?",
+    "t": "Что нам нужно на вечеринку?"
+  },
+  "u5-l2.titleEn": {
+    "en": "The accusative case",
+    "t": "Винительный падеж"
+  },
+  "u5-l2.0.title": {
+    "en": "The accusative: the object case",
+    "t": "Винительный падеж: кого? что?"
+  },
+  "u5-l2.0.body": {
+    "en": [
+      "After verbs like mať, potrebovať, kúpiť and hľadať (to look for), the object goes into the accusative case (akuzatív).",
+      "Feminine nouns change -a to **-u**. Masculine things and neuter nouns stay the same."
+    ],
+    "t": [
+      "После глаголов mať, potrebovať, kúpiť и hľadať (искать) дополнение стоит в винительном падеже (akuzatív), как в русском «ищу ветчину». Даже после potrebovať, где по-русски именительный: Potrebujem šunk**u**. = Мне нужна ветчина.",
+      "Существительные женского рода меняют -a на **-u** (вода → воду). Неодушевлённые существительные мужского рода и средний род не меняются (сыр, вино)."
+    ]
+  },
+  "u5-l2.0.table.head": {
+    "en": [
+      "nominative",
+      "accusative"
+    ],
+    "t": [
+      "именительный",
+      "винительный"
+    ]
+  },
+  "u5-l2.0.table.rows": {
+    "en": [
+      [
+        "káva",
+        "káv**u**"
+      ],
+      [
+        "šunka",
+        "šunk**u**"
+      ],
+      [
+        "minerálka",
+        "minerálk**u**"
+      ],
+      [
+        "syr",
+        "syr"
+      ],
+      [
+        "víno",
+        "víno"
+      ]
+    ],
+    "t": [
+      [
+        "káva",
+        "káv**u**"
+      ],
+      [
+        "šunka",
+        "šunk**u**"
+      ],
+      [
+        "minerálka",
+        "minerálk**u**"
+      ],
+      [
+        "syr",
+        "syr"
+      ],
+      [
+        "víno",
+        "víno"
+      ]
+    ]
+  },
+  "u5-l2.0.examples": {
+    "en": [
+      "I'll buy coffee and cheese.",
+      "We need ham and butter."
+    ],
+    "t": [
+      "Я куплю кофе и сыр.",
+      "Нам нужны ветчина и масло."
+    ]
+  },
+  "u5-l2.1.en": {
+    "en": "I need coffee.",
+    "t": "Мне нужен кофе."
+  },
+  "u5-l2.2.title": {
+    "en": "Adjectives change too",
+    "t": "Прилагательные тоже меняются"
+  },
+  "u5-l2.2.body": {
+    "en": [
+      "An adjective agrees with its noun. In the accusative, feminine -á becomes **-ú**.",
+      "With masculine things and neuter nouns, nothing changes."
+    ],
+    "t": [
+      "Прилагательное согласуется с существительным. В винительном падеже женское -á становится **-ú**, как у нас: свежая → свежую.",
+      "С неодушевлёнными существительными мужского рода и со средним родом ничего не меняется."
+    ]
+  },
+  "u5-l2.2.table.head": {
+    "en": [
+      "nominative",
+      "accusative"
+    ],
+    "t": [
+      "именительный",
+      "винительный"
+    ]
+  },
+  "u5-l2.2.table.rows": {
+    "en": [
+      [
+        "dobrá káva",
+        "dobr**ú** káv**u**"
+      ],
+      [
+        "čerstvá šunka",
+        "čerstv**ú** šunk**u**"
+      ],
+      [
+        "čerstvý chlieb",
+        "čerstvý chlieb"
+      ],
+      [
+        "dobré víno",
+        "dobré víno"
+      ]
+    ],
+    "t": [
+      [
+        "dobrá káva",
+        "dobr**ú** káv**u**"
+      ],
+      [
+        "čerstvá šunka",
+        "čerstv**ú** šunk**u**"
+      ],
+      [
+        "čerstvý chlieb",
+        "čerstvý chlieb"
+      ],
+      [
+        "dobré víno",
+        "dobré víno"
+      ]
+    ]
+  },
+  "u5-l2.2.examples": {
+    "en": [
+      "I'm looking for good coffee.",
+      "Do you have fresh ham?"
+    ],
+    "t": [
+      "Я ищу хороший кофе.",
+      "У вас есть свежая ветчина?"
+    ]
+  },
+  "u5-l2.3.en": {
+    "en": "I'm looking for fresh ham.",
+    "t": "Я ищу свежую ветчину."
+  },
+  "u5-l2.4.prompt": {
+    "en": "I'll buy coffee and butter.",
+    "t": "Я куплю кофе и масло."
+  },
+  "u5-l2.5.question": {
+    "en": "Which sentence is correct?",
+    "t": "Какое предложение правильное?"
+  },
+  "u5-l2.6.en": {
+    "en": "We have good wine.",
+    "t": "У нас есть хорошее вино."
+  },
+  "u5-l2.7.en": {
+    "en": "I'll buy coffee and fresh bread.",
+    "t": "Я куплю кофе и свежий хлеб."
+  },
+  "u5-l2.8.title": {
+    "en": "People: Koho?",
+    "t": "Люди: Koho? (кого?)"
+  },
+  "u5-l2.8.body": {
+    "en": [
+      "Ask **Koho?** (whom?) about people and **Čo?** (what?) about things.",
+      "Masculine nouns for people (and animals) add **-a**, and their adjectives end in **-ého**. Women follow the -u rule: Luci**a** → Luci**u**."
+    ],
+    "t": [
+      "**Koho?** (кого?) спрашиваем о людях, **Čo?** (что?) — о вещах.",
+      "Одушевлённые существительные мужского рода (люди и животные) получают **-a**, а их прилагательные — **-ého**, как в русском: брат → брата, нового друга. Женщины — по правилу -u: Luci**a** → Luci**u**."
+    ]
+  },
+  "u5-l2.8.table.head": {
+    "en": [
+      "nominative",
+      "accusative"
+    ],
+    "t": [
+      "именительный",
+      "винительный"
+    ]
+  },
+  "u5-l2.8.table.rows": {
+    "en": [
+      [
+        "brat (brother)",
+        "brat**a**"
+      ],
+      [
+        "Tomáš",
+        "Tomáš**a**"
+      ],
+      [
+        "pán Kováč",
+        "pán**a** Kováč**a**"
+      ],
+      [
+        "nový kamarát",
+        "nov**ého** kamarát**a**"
+      ]
+    ],
+    "t": [
+      [
+        "brat (брат)",
+        "brat**a**"
+      ],
+      [
+        "Tomáš",
+        "Tomáš**a**"
+      ],
+      [
+        "pán Kováč",
+        "pán**a** Kováč**a**"
+      ],
+      [
+        "nový kamarát",
+        "nov**ého** kamarát**a**"
+      ]
+    ]
+  },
+  "u5-l2.8.examples": {
+    "en": [
+      "Lucia has a brother, Marek.",
+      "I'm looking for Mr Kováč."
+    ],
+    "t": [
+      "У Луции есть брат Марек.",
+      "Я ищу пана Ковача."
+    ]
+  },
+  "u5-l2.9.en": {
+    "en": "Lucia has a brother.",
+    "t": "У Луции есть брат."
+  },
+  "u5-l2.10.question": {
+    "en": "Which answer fits the question?",
+    "t": "Какой ответ подходит к вопросу?"
+  },
+  "u5-l2.11.prompt": {
+    "en": "We're looking for Tomáš and Lucia.",
+    "t": "Мы ищем Томаша и Луцию."
+  },
+  "u5-l2.12.en": {
+    "en": "I have a new friend.",
+    "t": "У меня есть новый друг."
+  },
+  "u5-l2.13.answers": {
+    "en": [
+      "We need fresh ham.",
+      "We need some fresh ham."
+    ],
+    "t": [
+      "Нам нужна свежая ветчина."
+    ]
+  },
+  "u5-l2.13.distractors": {
+    "en": [
+      "cheese",
+      "buy"
+    ],
+    "t": [
+      "свежую",
+      "сыр"
+    ]
+  },
+  "u5-l2.14.en": {
+    "en": "I'm looking for Mr Kováč.",
+    "t": "Я ищу пана Ковача."
+  },
+  "u5-l3.titleEn": {
+    "en": "Colours and clothes",
+    "t": "Цвета и одежда"
+  },
+  "u5-l3.0.en": {
+    "en": "red, blue, green",
+    "t": "красный, синий, зелёный"
+  },
+  "u5-l3.0.note": {
+    "en": "Colours are adjectives, like nový: červen**é** víno = red wine.",
+    "t": "Цвета — это прилагательные, как nový: červen**é** víno = красное вино."
+  },
+  "u5-l3.1.en": {
+    "en": "white, black, yellow",
+    "t": "белый, чёрный, жёлтый"
+  },
+  "u5-l3.1.note": {
+    "en": "biely and čierny have short endings: biel**a**, čiern**a**, and biel**u**, čiern**u** as objects (not -á, -ú). biele víno = white wine.",
+    "t": "У biely и čierny короткие окончания: biel**a**, čiern**a**, а в винительном — biel**u**, čiern**u** (не -á, -ú). biele víno = белое вино."
+  },
+  "u5-l3.2.pairs": {
+    "en": [
+      "red",
+      "blue",
+      "green",
+      "white",
+      "black"
+    ],
+    "t": [
+      "красный",
+      "синий",
+      "зелёный",
+      "белый",
+      "чёрный"
+    ]
+  },
+  "u5-l3.3.en": {
+    "en": "T-shirt and sweater",
+    "t": "футболка и свитер"
+  },
+  "u5-l3.4.en": {
+    "en": "skirt and shirt",
+    "t": "юбка и рубашка"
+  },
+  "u5-l3.5.en": {
+    "en": "The skirt is red.",
+    "t": "Юбка красная."
+  },
+  "u5-l3.6.en": {
+    "en": "I want a black T-shirt.",
+    "t": "Я хочу чёрную футболку."
+  },
+  "u5-l3.6.note": {
+    "en": "chcieť = to want: chcem, chceš, chce… The colour takes the accusative too: čiern**u** sukň**u**.",
+    "t": "chcieť = хотеть: chcem, chceš, chce… Цвет тоже стоит в винительном: čiern**u** sukň**u** = чёрную юбку. А tričko — среднего рода, поэтому čierne tričko не меняется."
+  },
+  "u5-l3.7.en": {
+    "en": "I'm looking for a black skirt.",
+    "t": "Я ищу чёрную юбку."
+  },
+  "u5-l3.8.prompt": {
+    "en": "I want a white shirt.",
+    "t": "Я хочу белую рубашку."
+  },
+  "u5-l3.9.en": {
+    "en": "present, gift",
+    "t": "подарок"
+  },
+  "u5-l3.9.note": {
+    "en": "Emma and Tomáš are looking for a present for Lucia's party.",
+    "t": "Эмма и Томаш ищут подарок Луции на день рождения."
+  },
+  "u5-l3.10.en": {
+    "en": "Emma and Tomáš are looking for a present.",
+    "t": "Эмма и Томаш ищут подарок."
+  },
+  "u5-l3.11.en": {
+    "en": "What colour do you like? (to a woman)",
+    "t": "Какой цвет ты любишь? (к женщине)"
+  },
+  "u5-l3.11.note": {
+    "en": "mať rád (said of a man) / mať rada (of a woman) = to like. Mám rada zelen**ú** farb**u**. = I like green.",
+    "t": "mať rád = любить (rád — как «рад»: мужчина говорит rád, женщина — rada). Mám rada zelen**ú** farb**u**. = Я люблю зелёный цвет."
+  },
+  "u5-l3.12.question": {
+    "en": "What does Tomáš like?",
+    "t": "Какой цвет любит Томаш?"
+  },
+  "u5-l3.12.options": {
+    "en": [
+      "Blue.",
+      "Green.",
+      "Black."
+    ],
+    "t": [
+      "Синий.",
+      "Зелёный.",
+      "Чёрный."
+    ]
+  },
+  "u5-l3.13.en": {
+    "en": "I want a blue sweater.",
+    "t": "Я хочу синий свитер."
+  },
+  "u5-l3.14.prompt": {
+    "en": "Emma is looking for a green T-shirt.",
+    "t": "Эмма ищет зелёную футболку."
+  },
+  "u5-l3.15.en": {
+    "en": "How much is the black sweater?",
+    "t": "Сколько стоит чёрный свитер?"
+  },
+  "u5-l3.16.answers": {
+    "en": [
+      "Lucia likes yellow.",
+      "Lucia likes the colour yellow.",
+      "Lucia likes the color yellow."
+    ],
+    "t": [
+      "Луция любит жёлтый цвет.",
+      "Луция любит жёлтый."
+    ]
+  },
+  "u5-l3.16.distractors": {
+    "en": [
+      "green",
+      "has"
+    ],
+    "t": [
+      "имеет",
+      "жёлтую"
+    ]
+  },
+  "u5-l3.17.en": {
+    "en": "I want a black T-shirt.",
+    "t": "Я хочу чёрную футболку."
+  },
+  "u5-l4.titleEn": {
+    "en": "Pronouns and prepositions",
+    "t": "Местоимения и предлоги"
+  },
+  "u5-l4.0.title": {
+    "en": "Me, you, him, her",
+    "t": "Меня, тебя, его, её"
+  },
+  "u5-l4.0.body": {
+    "en": [
+      "Pronouns have object forms too. The short forms go in second place in the sentence, like sa: Mám **ho** rád.",
+      "**ho** means both him and it: Sveter? Kúpim **ho**. = The sweater? I'll buy it."
+    ],
+    "t": [
+      "У местоимений тоже есть формы винительного падежа. Краткие формы стоят на втором месте в предложении, как sa: Mám **ho** rád. = Я его люблю.",
+      "Как и русское «его», **ho** — это и человек, и предмет: Sveter? Kúpim **ho**. = Свитер? Я его куплю."
+    ]
+  },
+  "u5-l4.0.table.head": {
+    "en": [
+      "",
+      "object"
+    ],
+    "t": [
+      "местоимение",
+      "винительный"
+    ]
+  },
+  "u5-l4.0.table.rows": {
+    "en": [
+      [
+        "ja",
+        "**ma**"
+      ],
+      [
+        "ty",
+        "**ťa**"
+      ],
+      [
+        "on",
+        "**ho**"
+      ],
+      [
+        "ona",
+        "**ju**"
+      ],
+      [
+        "my",
+        "**nás**"
+      ],
+      [
+        "vy",
+        "**vás**"
+      ],
+      [
+        "oni",
+        "**ich**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "**ma**"
+      ],
+      [
+        "ty",
+        "**ťa**"
+      ],
+      [
+        "on",
+        "**ho**"
+      ],
+      [
+        "ona",
+        "**ju**"
+      ],
+      [
+        "my",
+        "**nás**"
+      ],
+      [
+        "vy",
+        "**vás**"
+      ],
+      [
+        "oni",
+        "**ich**"
+      ]
+    ]
+  },
+  "u5-l4.0.examples": {
+    "en": [
+      "Where are you? I'm looking for you.",
+      "Lucia? I like her.",
+      "The sweater? I'll buy it."
+    ],
+    "t": [
+      "Где ты? Я тебя ищу.",
+      "Луция? Я её люблю.",
+      "Свитер? Я его куплю."
+    ]
+  },
+  "u5-l4.1.en": {
+    "en": "Where are you, Emma? I'm looking for you.",
+    "t": "Где ты, Эмма? Я тебя ищу."
+  },
+  "u5-l4.2.title": {
+    "en": "pre + accusative: for",
+    "t": "pre + винительный: для"
+  },
+  "u5-l4.2.body": {
+    "en": [
+      "**pre** (for) takes the accusative: darček pre Luci**u**, pre Tomáš**a**.",
+      "After a preposition, pronouns use their long forms."
+    ],
+    "t": [
+      "**pre** (для) требует винительного падежа (а русское «для» — родительного): darček pre Luci**u**, pre Tomáš**a**.",
+      "После предлога местоимения стоят в полной форме; в 3-м лице появляется н-, как в русском: для него, для неё, для них."
+    ]
+  },
+  "u5-l4.2.table.head": {
+    "en": [
+      "",
+      "for …"
+    ],
+    "t": [
+      "местоимение",
+      "для …"
+    ]
+  },
+  "u5-l4.2.table.rows": {
+    "en": [
+      [
+        "ja",
+        "pre **mňa**"
+      ],
+      [
+        "ty",
+        "pre **teba**"
+      ],
+      [
+        "on",
+        "pre **neho**"
+      ],
+      [
+        "ona",
+        "pre **ňu**"
+      ],
+      [
+        "my",
+        "pre **nás**"
+      ],
+      [
+        "vy",
+        "pre **vás**"
+      ],
+      [
+        "oni",
+        "pre **nich**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "pre **mňa**"
+      ],
+      [
+        "ty",
+        "pre **teba**"
+      ],
+      [
+        "on",
+        "pre **neho**"
+      ],
+      [
+        "ona",
+        "pre **ňu**"
+      ],
+      [
+        "my",
+        "pre **nás**"
+      ],
+      [
+        "vy",
+        "pre **vás**"
+      ],
+      [
+        "oni",
+        "pre **nich**"
+      ]
+    ]
+  },
+  "u5-l4.2.examples": {
+    "en": [
+      "This is for you.",
+      "The present is for Lucia."
+    ],
+    "t": [
+      "Это для тебя.",
+      "Подарок для Луции."
+    ]
+  },
+  "u5-l4.3.en": {
+    "en": "Tomáš? I like him.",
+    "t": "Томаш? Я его люблю."
+  },
+  "u5-l4.4.en": {
+    "en": "This is for you.",
+    "t": "Это для тебя."
+  },
+  "u5-l4.5.en": {
+    "en": "The present is for Lucia.",
+    "t": "Подарок для Луции."
+  },
+  "u5-l4.6.prompt": {
+    "en": "The sweater is for him.",
+    "t": "Свитер для него."
+  },
+  "u5-l4.7.pairs": {
+    "en": [
+      "me",
+      "you",
+      "him",
+      "her",
+      "them"
+    ],
+    "t": [
+      "меня",
+      "тебя",
+      "его",
+      "её",
+      "их"
+    ]
+  },
+  "u5-l4.8.title": {
+    "en": "na + accusative",
+    "t": "na + винительный"
+  },
+  "u5-l4.8.body": {
+    "en": [
+      "Some verbs come with **na** + accusative: čakať na (to wait for), pozývať na (to invite to).",
+      "Pronouns use the long forms here too: na **teba**, na **neho**, na **ňu**."
+    ],
+    "t": [
+      "Некоторые глаголы требуют **na** + винительный: čakať na (ждать — по-словацки с предлогом!), pozývať na (приглашать на).",
+      "Местоимения и здесь в полной форме: na **teba**, na **neho**, na **ňu**."
+    ]
+  },
+  "u5-l4.8.examples": {
+    "en": [
+      "I'm waiting for you.",
+      "We're waiting for Tomáš.",
+      "I'm inviting you to the party."
+    ],
+    "t": [
+      "Я жду тебя.",
+      "Мы ждём Томаша.",
+      "Приглашаю тебя на вечеринку."
+    ]
+  },
+  "u5-l4.9.en": {
+    "en": "We're waiting for Tomáš.",
+    "t": "Мы ждём Томаша."
+  },
+  "u5-l4.10.question": {
+    "en": "Which sentence is correct?",
+    "t": "Какое предложение правильное?"
+  },
+  "u5-l4.11.prompt": {
+    "en": "We're inviting you to the party.",
+    "t": "Мы приглашаем тебя на вечеринку."
+  },
+  "u5-l4.12.en": {
+    "en": "I'm inviting you to the party.",
+    "t": "Приглашаю тебя на вечеринку."
+  },
+  "u5-l4.13.answers": {
+    "en": [
+      "I'm waiting for you.",
+      "I am waiting for you."
+    ],
+    "t": [
+      "Я жду тебя.",
+      "Жду тебя.",
+      "Я тебя жду."
+    ]
+  },
+  "u5-l4.13.distractors": {
+    "en": [
+      "looking",
+      "me"
+    ],
+    "t": [
+      "на",
+      "ищу"
+    ]
+  },
+  "u5-l4.14.en": {
+    "en": "This is for you.",
+    "t": "Это для тебя."
+  },
+  "u5-l5.titleEn": {
+    "en": "Go, want, must",
+    "t": "Иду, хочу, должен"
+  },
+  "u5-l5.0.title": {
+    "en": "ísť: to go",
+    "t": "ísť: идти"
+  },
+  "u5-l5.0.body": {
+    "en": [
+      "ísť (to go) is irregular, so learn it by heart.",
+      "Three prepositions often follow it, and they take the accusative. **na** = to (an event): Idem na oslav**u**. **po** = to go and get: Idem po chlieb. **cez** = through: Idem cez park (through the park)."
+    ],
+    "t": [
+      "ísť (идти) — неправильный глагол, так что выучите его наизусть. Формы похожи на русские: idem — иду, ideš — идёшь.",
+      "После него часто стоят три предлога с винительным падежом. **na** = на (мероприятие): Idem na oslav**u**. **po** = за (чем-то): Idem po chlieb. = Иду за хлебом. **cez** = через: Idem cez park."
+    ]
+  },
+  "u5-l5.0.table.head": {
+    "en": [
+      "",
+      "ísť"
+    ],
+    "t": [
+      "лицо",
+      "ísť"
+    ]
+  },
+  "u5-l5.0.table.rows": {
+    "en": [
+      [
+        "ja",
+        "id**em**"
+      ],
+      [
+        "ty",
+        "id**eš**"
+      ],
+      [
+        "on, ona",
+        "id**e**"
+      ],
+      [
+        "my",
+        "id**eme**"
+      ],
+      [
+        "vy",
+        "id**ete**"
+      ],
+      [
+        "oni",
+        "id**ú**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "id**em**"
+      ],
+      [
+        "ty",
+        "id**eš**"
+      ],
+      [
+        "on, ona",
+        "id**e**"
+      ],
+      [
+        "my",
+        "id**eme**"
+      ],
+      [
+        "vy",
+        "id**ete**"
+      ],
+      [
+        "oni",
+        "id**ú**"
+      ]
+    ]
+  },
+  "u5-l5.0.examples": {
+    "en": [
+      "Where are you going?",
+      "I'm going to the party.",
+      "Tomáš is going to get the wine."
+    ],
+    "t": [
+      "Куда ты идёшь?",
+      "Я иду на вечеринку.",
+      "Томаш идёт за вином."
+    ]
+  },
+  "u5-l5.1.en": {
+    "en": "Where are you going, Emma?",
+    "t": "Куда ты идёшь, Эмма?"
+  },
+  "u5-l5.2.title": {
+    "en": "Want, can, must + infinitive",
+    "t": "Хочу, могу, должен + инфинитив"
+  },
+  "u5-l5.2.body": {
+    "en": [
+      "chcieť (to want), môcť (can) and musieť (must, have to) are followed by an infinitive, the -ť form: ísť, kúpiť, piť (to drink).",
+      "Say no with ne-: nechcem, nemôžem, nemusím (I don't have to)."
+    ],
+    "t": [
+      "После chcieť (хотеть), môcť (мочь) и musieť (быть должным, «надо») стоит инфинитив — форма на -ť (как наше -ть): ísť, kúpiť, piť (пить).",
+      "Отрицание ne- пишется слитно с глаголом: nechcem, nemôžem, nemusím (мне не надо)."
+    ]
+  },
+  "u5-l5.2.table.head": {
+    "en": [
+      "",
+      "chcieť",
+      "môcť",
+      "musieť"
+    ],
+    "t": [
+      "лицо",
+      "chcieť",
+      "môcť",
+      "musieť"
+    ]
+  },
+  "u5-l5.2.table.rows": {
+    "en": [
+      [
+        "ja",
+        "chcem",
+        "môžem",
+        "musím"
+      ],
+      [
+        "ty",
+        "chceš",
+        "môžeš",
+        "musíš"
+      ],
+      [
+        "on, ona",
+        "chce",
+        "môže",
+        "musí"
+      ],
+      [
+        "my",
+        "chceme",
+        "môžeme",
+        "musíme"
+      ],
+      [
+        "vy",
+        "chcete",
+        "môžete",
+        "musíte"
+      ],
+      [
+        "oni",
+        "chcú",
+        "môžu",
+        "musia"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "chcem",
+        "môžem",
+        "musím"
+      ],
+      [
+        "ty",
+        "chceš",
+        "môžeš",
+        "musíš"
+      ],
+      [
+        "on, ona",
+        "chce",
+        "môže",
+        "musí"
+      ],
+      [
+        "my",
+        "chceme",
+        "môžeme",
+        "musíme"
+      ],
+      [
+        "vy",
+        "chcete",
+        "môžete",
+        "musíte"
+      ],
+      [
+        "oni",
+        "chcú",
+        "môžu",
+        "musia"
+      ]
+    ]
+  },
+  "u5-l5.2.examples": {
+    "en": [
+      "I have to go.",
+      "Can you buy bread?",
+      "What do you want to drink?"
+    ],
+    "t": [
+      "Мне надо идти.",
+      "Можешь купить хлеб?",
+      "Что ты хочешь пить?"
+    ]
+  },
+  "u5-l5.3.en": {
+    "en": "Lucia and Marek are going to the party.",
+    "t": "Луция и Марек идут на вечеринку."
+  },
+  "u5-l5.4.en": {
+    "en": "I have to go, bye!",
+    "t": "Мне надо идти, пока!"
+  },
+  "u5-l5.5.prompt": {
+    "en": "Can you buy bread?",
+    "t": "Можешь купить хлеб?"
+  },
+  "u5-l5.6.prompt": {
+    "en": "We're going to the party.",
+    "t": "Мы идём на вечеринку."
+  },
+  "u5-l5.7.en": {
+    "en": "I'm going to get bread and wine.",
+    "t": "Я иду за хлебом и вином."
+  },
+  "u5-l5.8.prompt": {
+    "en": "What do you want to drink?",
+    "t": "Что ты хочешь пить?"
+  },
+  "u5-l5.9.title": {
+    "en": "smieť and vedieť",
+    "t": "smieť и vedieť"
+  },
+  "u5-l5.9.body": {
+    "en": [
+      "**smieť** = to be allowed to. Careful: nesmieš = you mustn't, but nemusíš = you don't have to.",
+      "**vedieť** + infinitive = to know how to: Viem variť. = I can cook."
+    ],
+    "t": [
+      "**smieť** = «можно, разрешено». Внимание: nesmieš = тебе нельзя (ср. «не смей!»), а nemusíš = тебе не надо.",
+      "**vedieť** = знать (ср. «ведать»), а с инфинитивом — уметь: Viem variť. = Я умею готовить."
+    ]
+  },
+  "u5-l5.9.table.head": {
+    "en": [
+      "",
+      "smieť",
+      "vedieť"
+    ],
+    "t": [
+      "лицо",
+      "smieť",
+      "vedieť"
+    ]
+  },
+  "u5-l5.9.table.rows": {
+    "en": [
+      [
+        "ja",
+        "smiem",
+        "viem"
+      ],
+      [
+        "ty",
+        "smieš",
+        "vieš"
+      ],
+      [
+        "on, ona",
+        "smie",
+        "vie"
+      ],
+      [
+        "my",
+        "smieme",
+        "vieme"
+      ],
+      [
+        "vy",
+        "smiete",
+        "viete"
+      ],
+      [
+        "oni",
+        "smú",
+        "vedia"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "smiem",
+        "viem"
+      ],
+      [
+        "ty",
+        "smieš",
+        "vieš"
+      ],
+      [
+        "on, ona",
+        "smie",
+        "vie"
+      ],
+      [
+        "my",
+        "smieme",
+        "vieme"
+      ],
+      [
+        "vy",
+        "smiete",
+        "viete"
+      ],
+      [
+        "oni",
+        "smú",
+        "vedia"
+      ]
+    ]
+  },
+  "u5-l5.9.examples": {
+    "en": [
+      "May I come in?",
+      "You can't smoke here.",
+      "Marek can cook well."
+    ],
+    "t": [
+      "Можно войти?",
+      "Здесь нельзя курить.",
+      "Марек умеет хорошо готовить."
+    ]
+  },
+  "u5-l5.10.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "u5-l5.10.options": {
+    "en": [
+      "I can cook.",
+      "I want to cook.",
+      "I have to cook."
+    ],
+    "t": [
+      "Я умею готовить.",
+      "Я хочу готовить.",
+      "Мне надо готовить."
+    ]
+  },
+  "u5-l5.11.prompt": {
+    "en": "You mustn't drink wine.",
+    "t": "Тебе нельзя пить вино."
+  },
+  "u5-l5.12.answers": {
+    "en": [
+      "You don't have to go.",
+      "You do not have to go."
+    ],
+    "t": [
+      "Тебе не надо идти."
+    ]
+  },
+  "u5-l5.12.distractors": {
+    "en": [
+      "must",
+      "want"
+    ],
+    "t": [
+      "нельзя",
+      "хочешь"
+    ]
+  },
+  "u5-l5.13.en": {
+    "en": "We're going through the park.",
+    "t": "Мы идём через парк."
+  },
+  "u5-l5.14.en": {
+    "en": "I have to go.",
+    "t": "Мне надо идти."
+  },
+  "u5-l6.titleEn": {
+    "en": "Happy birthday!",
+    "t": "С днём рождения!"
+  },
+  "u5-l6.0.en": {
+    "en": "It's Lucia's birthday today.",
+    "t": "Сегодня у Луции день рождения."
+  },
+  "u5-l6.0.note": {
+    "en": "narodeniny (birthday) is always plural.",
+    "t": "narodeniny (день рождения) употребляется только во множественном числе, как «именины»."
+  },
+  "u5-l6.1.en": {
+    "en": "Happy birthday! / All the best!",
+    "t": "С днём рождения! / Всего наилучшего!"
+  },
+  "u5-l6.1.note": {
+    "en": "The standard wish for birthdays and name days.",
+    "t": "Обычное поздравление с днём рождения и с именинами (meniny)."
+  },
+  "u5-l6.2.question": {
+    "en": "It's your friend's birthday. What do you say?",
+    "t": "У вашего друга день рождения. Что вы скажете?"
+  },
+  "u5-l6.3.en": {
+    "en": "cake and candles",
+    "t": "торт и свечи"
+  },
+  "u5-l6.3.note": {
+    "en": "One candle is sviečka. Plural things don't change as objects: Kúpime sviečky.",
+    "t": "Одна свеча — sviečka. Неодушевлённые во множественном числе в винительном не меняются, как и в русском: Kúpime sviečky. Внимание: torta — женского рода."
+  },
+  "u5-l6.4.en": {
+    "en": "bouquet (of flowers)",
+    "t": "букет (цветов)"
+  },
+  "u5-l6.4.note": {
+    "en": "Kúpime kytic**u**. = We'll buy a bouquet.",
+    "t": "Kúpime kytic**u**. = Мы купим букет."
+  },
+  "u5-l6.5.pairs": {
+    "en": [
+      "cake",
+      "candles",
+      "present",
+      "bouquet",
+      "party"
+    ],
+    "t": [
+      "торт",
+      "свечи",
+      "подарок",
+      "букет",
+      "вечеринка"
+    ]
+  },
+  "u5-l6.6.en": {
+    "en": "We'll buy a cake and candles.",
+    "t": "Мы купим торт и свечи."
+  },
+  "u5-l6.7.en": {
+    "en": "Lots of health, happiness and love!",
+    "t": "Много здоровья, счастья и любви!"
+  },
+  "u5-l6.7.note": {
+    "en": "A classic birthday wish, often added after “Všetko najlepšie!”.",
+    "t": "Классическое пожелание на день рождения, часто после «Všetko najlepšie!». veľa = много."
+  },
+  "u5-l6.8.en": {
+    "en": "Happy birthday, Lucia!",
+    "t": "С днём рождения, Луция!"
+  },
+  "u5-l6.9.prompt": {
+    "en": "The present is for you.",
+    "t": "Подарок для тебя."
+  },
+  "u5-l6.10.en": {
+    "en": "Thanks for the present.",
+    "t": "Спасибо за подарок."
+  },
+  "u5-l6.10.note": {
+    "en": "ďakovať za + accusative: Ďakujem za kytic**u**.",
+    "t": "ďakovať za + винительный, как «благодарить за»: Ďakujem za kytic**u**. = Спасибо за букет."
+  },
+  "u5-l6.11.en": {
+    "en": "Thanks for the bouquet.",
+    "t": "Спасибо за букет."
+  },
+  "u5-l6.12.en": {
+    "en": "When are you coming? — In an hour.",
+    "t": "Когда ты придёшь? — Через час."
+  },
+  "u5-l6.12.note": {
+    "en": "prísť (to come) works like ísť: prídem, prídeš, príde… o + accusative: o hodin**u** = in an hour.",
+    "t": "prísť (прийти) спрягается как ísť: prídem, prídeš, príde… = приду, придёшь, придёт. o + винительный: o hodin**u** = через час (hodina = час)."
+  },
+  "u5-l6.13.en": {
+    "en": "Tomáš is coming in an hour.",
+    "t": "Томаш придёт через час."
+  },
+  "u5-l6.14.answers": {
+    "en": [
+      "I can't come, I have to work.",
+      "I cannot come, I have to work.",
+      "I can't come, I must work."
+    ],
+    "t": [
+      "Я не могу прийти, мне надо работать.",
+      "Не могу прийти, мне надо работать.",
+      "Я не могу прийти, надо работать."
+    ]
+  },
+  "u5-l6.14.distractors": {
+    "en": [
+      "want",
+      "go"
+    ],
+    "t": [
+      "хочу",
+      "идти"
+    ]
+  },
+  "u5-l6.15.question": {
+    "en": "Marek raises his glass. What does he mean?",
+    "t": "Марек поднимает бокал. Что он имеет в виду?"
+  },
+  "u5-l6.15.options": {
+    "en": [
+      "Cheers!",
+      "Happy birthday!",
+      "Enjoy your meal!"
+    ],
+    "t": [
+      "За здоровье!",
+      "С днём рождения!",
+      "Приятного аппетита!"
+    ]
+  },
+  "u5-l6.16.prompt": {
+    "en": "I'll buy a bouquet for Lucia.",
+    "t": "Я куплю букет для Луции."
+  },
+  "u5-l6.17.en": {
+    "en": "Happy birthday!",
+    "t": "С днём рождения!"
+  },
+  "u5-l7.titleEn": {
+    "en": "Review",
+    "t": "Повторение"
+  },
+  "u5-l7.0.pairs": {
+    "en": [
+      "ham",
+      "mineral water",
+      "skirt",
+      "sweater",
+      "bouquet"
+    ],
+    "t": [
+      "ветчина",
+      "минеральная вода",
+      "юбка",
+      "свитер",
+      "букет"
+    ]
+  },
+  "u5-l7.1.en": {
+    "en": "Lucia needs a new skirt.",
+    "t": "Луции нужна новая юбка."
+  },
+  "u5-l7.2.en": {
+    "en": "I'll buy fresh ham and cheese.",
+    "t": "Я куплю свежую ветчину и сыр."
+  },
+  "u5-l7.3.en": {
+    "en": "Emma is looking for a white shirt.",
+    "t": "Эмма ищет белую рубашку."
+  },
+  "u5-l7.4.prompt": {
+    "en": "I'm looking for Marek.",
+    "t": "Я ищу Марека."
+  },
+  "u5-l7.5.question": {
+    "en": "Which sentence is correct?",
+    "t": "Какое предложение правильное?"
+  },
+  "u5-l7.6.en": {
+    "en": "Tomáš? I'm waiting for him.",
+    "t": "Томаш? Я его жду."
+  },
+  "u5-l7.7.prompt": {
+    "en": "The bouquet is for her.",
+    "t": "Букет для неё."
+  },
+  "u5-l7.8.en": {
+    "en": "They're going to the party.",
+    "t": "Они идут на вечеринку."
+  },
+  "u5-l7.9.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "u5-l7.9.options": {
+    "en": [
+      "Are you going to the party?",
+      "Do you want a party?",
+      "Are you at the party?"
+    ],
+    "t": [
+      "Ты идёшь на вечеринку?",
+      "Ты хочешь вечеринку?",
+      "Ты на вечеринке?"
+    ]
+  },
+  "u5-l7.10.prompt": {
+    "en": "Can you buy a cake?",
+    "t": "Можешь купить торт?"
+  },
+  "u5-l7.11.en": {
+    "en": "You're not allowed to smoke here.",
+    "t": "Здесь нельзя курить."
+  },
+  "u5-l7.12.answers": {
+    "en": [
+      "I like him.",
+      "I like it."
+    ],
+    "t": [
+      "Я его люблю.",
+      "Я люблю его."
+    ]
+  },
+  "u5-l7.12.distractors": {
+    "en": [
+      "her",
+      "have"
+    ],
+    "t": [
+      "её",
+      "имею"
+    ]
+  },
+  "u5-l7.13.en": {
+    "en": "We're having a party today!",
+    "t": "Сегодня у нас вечеринка!"
+  },
+  "u5-l7.14.en": {
+    "en": "I'm inviting you to the party.",
+    "t": "Приглашаю тебя на вечеринку."
+  }
+}

@@ -1,0 +1,1506 @@
+{
+  "u6.titleEn": {
+    "en": "In the restaurant",
+    "t": "В ресторане"
+  },
+  "u6.topics": {
+    "en": [
+      "Restaurant",
+      "Ordering and paying",
+      "Getting around"
+    ],
+    "t": [
+      "Ресторан",
+      "Заказ и оплата",
+      "Транспорт"
+    ]
+  },
+  "u6.grammar": {
+    "en": [
+      "Instrumental case with s/so",
+      "Travelling by bus, train, tram",
+      "Instrumental pronouns and place prepositions",
+      "Verbs pozvať, piť, niesť, jesť, stať sa"
+    ],
+    "t": [
+      "Творительный падеж с s/so",
+      "Ехать автобусом, поездом, трамваем",
+      "Местоимения в творительном и предлоги места",
+      "Глаголы pozvať, piť, niesť, jesť, stať sa"
+    ]
+  },
+  "u6-l1.titleEn": {
+    "en": "The menu",
+    "t": "Меню"
+  },
+  "u6-l1.0.en": {
+    "en": "menu",
+    "t": "меню"
+  },
+  "u6-l1.0.note": {
+    "en": "Ask for it politely: Jedálny lístok, prosím.",
+    "t": "Попросите вежливо: Jedálny lístok, prosím."
+  },
+  "u6-l1.1.en": {
+    "en": "soup",
+    "t": "суп"
+  },
+  "u6-l1.1.note": {
+    "en": "A Slovak lunch nearly always starts with a hot soup.",
+    "t": "Словацкий обед почти всегда начинается с горячего супа — как и у нас."
+  },
+  "u6-l1.2.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "u6-l1.2.options": {
+    "en": [
+      "soup",
+      "menu",
+      "meat"
+    ],
+    "t": [
+      "суп",
+      "меню",
+      "мясо"
+    ]
+  },
+  "u6-l1.3.en": {
+    "en": "main course",
+    "t": "основное блюдо"
+  },
+  "u6-l1.3.note": {
+    "en": "**jedlo** = food, a dish; **hlavné** = main.",
+    "t": "**jedlo** = еда, блюдо; **hlavné** = главное, основное."
+  },
+  "u6-l1.4.en": {
+    "en": "chicken (meat)",
+    "t": "курятина"
+  },
+  "u6-l1.4.note": {
+    "en": "Menus name meat after the animal: kuracie mäso = chicken, bravčové mäso = pork.",
+    "t": "Дословно «куриное мясо». Так же: bravčové mäso = свинина."
+  },
+  "u6-l1.5.en": {
+    "en": "fish",
+    "t": "рыба"
+  },
+  "u6-l1.5.note": {
+    "en": "**veľmi** = very: Ryba je veľmi dobrá. = The fish is very good.",
+    "t": "**veľmi** = очень (ср. старинное «вельми»): Ryba je veľmi dobrá. = Рыба очень хорошая."
+  },
+  "u6-l1.6.pairs": {
+    "en": [
+      "menu",
+      "soup",
+      "main course",
+      "chicken",
+      "fish"
+    ],
+    "t": [
+      "меню",
+      "суп",
+      "основное блюдо",
+      "курятина",
+      "рыба"
+    ]
+  },
+  "u6-l1.7.en": {
+    "en": "rice",
+    "t": "рис"
+  },
+  "u6-l1.7.note": {
+    "en": "A typical side dish (príloha) with chicken or fish.",
+    "t": "Типичный гарнир (príloha) к курице или рыбе."
+  },
+  "u6-l1.8.en": {
+    "en": "chips / French fries",
+    "t": "картошка фри"
+  },
+  "u6-l1.8.note": {
+    "en": "Always plural, like English “chips”: Hranolky **sú** dobré.",
+    "t": "Всегда во множественном числе (в отличие от «картошка фри»): Hranolky **sú** dobré."
+  },
+  "u6-l1.9.question": {
+    "en": "Which one is a side dish?",
+    "t": "Что из этого — гарнир?"
+  },
+  "u6-l1.10.en": {
+    "en": "The menu, please.",
+    "t": "Меню, пожалуйста."
+  },
+  "u6-l1.11.en": {
+    "en": "Marek is cooking soup.",
+    "t": "Марек варит суп."
+  },
+  "u6-l1.12.prompt": {
+    "en": "The fish is very good.",
+    "t": "Рыба очень хорошая."
+  },
+  "u6-l1.13.en": {
+    "en": "The chips are good.",
+    "t": "Картошка фри вкусная."
+  },
+  "u6-l1.14.answers": {
+    "en": [
+      "Chicken and rice."
+    ],
+    "t": [
+      "Курятина и рис."
+    ]
+  },
+  "u6-l1.14.distractors": {
+    "en": [
+      "fish",
+      "soup"
+    ],
+    "t": [
+      "рыба",
+      "суп"
+    ]
+  },
+  "u6-l1.15.prompt": {
+    "en": "Is the soup good?",
+    "t": "Суп вкусный?"
+  },
+  "u6-l1.16.question": {
+    "en": "How do you say “main course”?",
+    "t": "Как сказать «основное блюдо»?"
+  },
+  "u6-l1.17.en": {
+    "en": "The menu, please.",
+    "t": "Меню, пожалуйста."
+  },
+  "u6-l2.titleEn": {
+    "en": "Ordering food",
+    "t": "Заказываем еду"
+  },
+  "u6-l2.0.en": {
+    "en": "What will you have?",
+    "t": "Что будете заказывать?"
+  },
+  "u6-l2.0.note": {
+    "en": "The waiter's question (formal). You may also hear: Čo si prajete?",
+    "t": "Так спрашивает официант (на «вы»). Можно услышать и: Čo si prajete? (Что желаете?)"
+  },
+  "u6-l2.1.en": {
+    "en": "I'll have the soup.",
+    "t": "Я возьму суп."
+  },
+  "u6-l2.1.note": {
+    "en": "After **dám si** use the accusative: polievka → polievk**u**, ryba → ryb**u**.",
+    "t": "После **dám si** — винительный падеж, как и у нас: polievka → polievk**u**, ryba → ryb**u** (возьму рыбу)."
+  },
+  "u6-l2.2.question": {
+    "en": "A waiter says this. What does he want to know?",
+    "t": "Это говорит официант. Что он хочет узнать?"
+  },
+  "u6-l2.2.options": {
+    "en": [
+      "What you'd like to order",
+      "Where you're from",
+      "How you are"
+    ],
+    "t": [
+      "Что вы закажете",
+      "Откуда вы",
+      "Как у вас дела"
+    ]
+  },
+  "u6-l2.3.en": {
+    "en": "I'll have the fish and chips.",
+    "t": "Я возьму рыбу и картошку фри."
+  },
+  "u6-l2.4.en": {
+    "en": "And to drink?",
+    "t": "А из напитков?"
+  },
+  "u6-l2.4.note": {
+    "en": "Answer the same way: Dám si minerálku. Or: Prosím si minerálku.",
+    "t": "Отвечайте так же: Dám si minerálku. Или: Prosím si minerálku. (minerálka = минералка)"
+  },
+  "u6-l2.5.prompt": {
+    "en": "I'll have a coffee.",
+    "t": "Я возьму кофе."
+  },
+  "u6-l2.6.en": {
+    "en": "Do you like it? (food)",
+    "t": "Тебе вкусно?"
+  },
+  "u6-l2.6.note": {
+    "en": "Answer: Chutí mi. (I like it.) or Nechutí mi. (I don't like it.) Formal: Chutí vám?",
+    "t": "Ответ: Chutí mi. (Мне вкусно.) или Nechutí mi. (Мне невкусно.) На «вы»: Chutí vám?"
+  },
+  "u6-l2.7.question": {
+    "en": "Your soup is delicious. Lucia asks “Chutí ti?”. What do you say?",
+    "t": "Ваш суп очень вкусный. Луция спрашивает: «Chutí ti?» Что вы ответите?"
+  },
+  "u6-l2.8.en": {
+    "en": "hot",
+    "t": "горячий"
+  },
+  "u6-l2.8.note": {
+    "en": "It agrees like other adjectives, but with short endings: horúc**i** čaj, horúc**a** polievka, horúc**e** jedlo.",
+    "t": "Меняется по родам, как другие прилагательные, но окончания без долготы (i, a, e): horúc**i** čaj, horúc**a** polievka, horúc**e** jedlo."
+  },
+  "u6-l2.9.en": {
+    "en": "sweet",
+    "t": "сладкий"
+  },
+  "u6-l2.9.note": {
+    "en": "Torta je sladk**á**.",
+    "t": "Torta je sladk**á**. (Торт сладкий.) Внимание: torta — женского рода."
+  },
+  "u6-l2.10.en": {
+    "en": "salty",
+    "t": "солёный"
+  },
+  "u6-l2.11.pairs": {
+    "en": [
+      "What will you have?",
+      "And to drink?",
+      "hot",
+      "sweet",
+      "salty"
+    ],
+    "t": [
+      "Что будете заказывать?",
+      "А из напитков?",
+      "горячий",
+      "сладкий",
+      "солёный"
+    ]
+  },
+  "u6-l2.12.en": {
+    "en": "The soup is hot.",
+    "t": "Суп горячий."
+  },
+  "u6-l2.13.en": {
+    "en": "The cake is very sweet.",
+    "t": "Торт очень сладкий."
+  },
+  "u6-l2.14.prompt": {
+    "en": "We'll have soup and fish.",
+    "t": "Мы возьмём суп и рыбу."
+  },
+  "u6-l2.15.en": {
+    "en": "The tea is hot.",
+    "t": "Чай горячий."
+  },
+  "u6-l2.16.answers": {
+    "en": [
+      "Do you like the soup?"
+    ],
+    "t": [
+      "Тебе нравится суп?",
+      "Нравится тебе суп?",
+      "Суп тебе нравится?"
+    ]
+  },
+  "u6-l2.16.distractors": {
+    "en": [
+      "fish",
+      "where"
+    ],
+    "t": [
+      "рыба",
+      "вам"
+    ]
+  },
+  "u6-l2.17.en": {
+    "en": "And to drink?",
+    "t": "А из напитков?"
+  },
+  "u6-l3.titleEn": {
+    "en": "Coffee with milk",
+    "t": "Кофе с молоком"
+  },
+  "u6-l3.0.title": {
+    "en": "S (with) + the instrumental",
+    "t": "S (с) + творительный падеж"
+  },
+  "u6-l3.0.body": {
+    "en": [
+      "**S** means “with”. The noun after it takes the instrumental case (the “with” case).",
+      "Masculine nouns add **-om**, neuter nouns change -o to **-om**. Feminine nouns change **-a** to **-ou**.",
+      "Before a word starting with s, z, š or ž, **s** becomes **so**: so syr**om**."
+    ],
+    "t": [
+      "**S** значит «с». Как и в русском, существительное после него стоит в творительном падеже (с кем? с чем?).",
+      "Мужской род: + **-om**; средний: -o → **-om** (у нас -ом: с лимоном, с молоком). Женский: **-a** → **-ou** (у нас -ой: с рыбой).",
+      "Перед словами на s, z, š, ž вместо **s** говорят **so**: so syr**om** (а по-русски — «с сыром»)."
+    ]
+  },
+  "u6-l3.0.table.head": {
+    "en": [
+      "",
+      "word",
+      "with …"
+    ],
+    "t": [
+      "",
+      "слово",
+      "с …"
+    ]
+  },
+  "u6-l3.0.table.rows": {
+    "en": [
+      [
+        "he",
+        "citrón (lemon)",
+        "s citrón**om**"
+      ],
+      [
+        "he",
+        "syr",
+        "so syr**om**"
+      ],
+      [
+        "she",
+        "ryža",
+        "s ryž**ou**"
+      ],
+      [
+        "she",
+        "Lucia",
+        "s Luci**ou**"
+      ],
+      [
+        "it",
+        "mlieko",
+        "s mliek**om**"
+      ]
+    ],
+    "t": [
+      [
+        "муж.",
+        "citrón (лимон)",
+        "s citrón**om**"
+      ],
+      [
+        "муж.",
+        "syr",
+        "so syr**om**"
+      ],
+      [
+        "жен.",
+        "ryža",
+        "s ryž**ou**"
+      ],
+      [
+        "жен.",
+        "Lucia",
+        "s Luci**ou**"
+      ],
+      [
+        "ср.",
+        "mlieko",
+        "s mliek**om**"
+      ]
+    ]
+  },
+  "u6-l3.0.examples": {
+    "en": [
+      "Coffee with milk, please.",
+      "I'll have chicken with rice.",
+      "Emma lives with Lucia."
+    ],
+    "t": [
+      "Кофе с молоком, пожалуйста.",
+      "Я возьму курицу с рисом.",
+      "Эмма живёт с Луцией."
+    ]
+  },
+  "u6-l3.1.question": {
+    "en": "How do you say “tea with lemon”?",
+    "t": "Как сказать «чай с лимоном»?"
+  },
+  "u6-l3.2.en": {
+    "en": "Coffee with milk, please.",
+    "t": "Кофе с молоком, пожалуйста."
+  },
+  "u6-l3.3.en": {
+    "en": "I'll have fish with rice.",
+    "t": "Я возьму рыбу с рисом."
+  },
+  "u6-l3.4.prompt": {
+    "en": "Bread with cheese.",
+    "t": "Хлеб с сыром."
+  },
+  "u6-l3.5.question": {
+    "en": "Which word needs “so” instead of “s”?",
+    "t": "Перед каким словом нужно «so», а не «s»?"
+  },
+  "u6-l3.6.en": {
+    "en": "Lucia is talking to Tomáš.",
+    "t": "Луция разговаривает с Томашем."
+  },
+  "u6-l3.7.en": {
+    "en": "Tomáš is with Marek.",
+    "t": "Томаш с Мареком."
+  },
+  "u6-l3.8.title": {
+    "en": "Adjectives after s",
+    "t": "Прилагательные после s"
+  },
+  "u6-l3.8.body": {
+    "en": [
+      "Adjectives change too. Masculine and neuter: **-ý** → **-ým**, **-é** → **-ým**. Feminine: **-á** → **-ou**, the same ending as the noun."
+    ],
+    "t": [
+      "Прилагательные тоже меняются. Мужской и средний род: **-ý** → **-ým**, **-é** → **-ým** (у нас -ым: с новым другом). Женский: **-á** → **-ou**, как и у существительного (у нас -ой: с новой подругой)."
+    ]
+  },
+  "u6-l3.8.table.head": {
+    "en": [
+      "",
+      "word",
+      "with …"
+    ],
+    "t": [
+      "",
+      "слово",
+      "с …"
+    ]
+  },
+  "u6-l3.8.table.rows": {
+    "en": [
+      [
+        "he",
+        "dobrý kamarát",
+        "s dobr**ým** kamarát**om**"
+      ],
+      [
+        "she",
+        "čierna káva",
+        "s čiern**ou** káv**ou**"
+      ],
+      [
+        "it",
+        "studené mlieko",
+        "so studen**ým** mliek**om**"
+      ]
+    ],
+    "t": [
+      [
+        "муж.",
+        "dobrý kamarát",
+        "s dobr**ým** kamarát**om**"
+      ],
+      [
+        "жен.",
+        "čierna káva",
+        "s čiern**ou** káv**ou**"
+      ],
+      [
+        "ср.",
+        "studené mlieko",
+        "so studen**ým** mliek**om**"
+      ]
+    ]
+  },
+  "u6-l3.8.examples": {
+    "en": [
+      "Emma is talking to a new friend.",
+      "I'll have coffee with cold milk."
+    ],
+    "t": [
+      "Эмма разговаривает с новым другом.",
+      "Я возьму кофе с холодным молоком."
+    ]
+  },
+  "u6-l3.9.en": {
+    "en": "Lucia is with a good friend.",
+    "t": "Луция с хорошей подругой."
+  },
+  "u6-l3.10.en": {
+    "en": "Tomáš is talking to a new friend.",
+    "t": "Томаш разговаривает с новым другом."
+  },
+  "u6-l3.11.prompt": {
+    "en": "I'll have tea with cold milk.",
+    "t": "Я возьму чай с холодным молоком."
+  },
+  "u6-l3.12.question": {
+    "en": "How do you say “with Marek”?",
+    "t": "Как сказать «с Мареком»?"
+  },
+  "u6-l3.13.answers": {
+    "en": [
+      "Emma lives with Lucia."
+    ],
+    "t": [
+      "Эмма живёт с Луцией.",
+      "С Луцией живёт Эмма."
+    ]
+  },
+  "u6-l3.13.distractors": {
+    "en": [
+      "works",
+      "Marek"
+    ],
+    "t": [
+      "работает",
+      "Луция"
+    ]
+  },
+  "u6-l3.14.en": {
+    "en": "Coffee with milk, please.",
+    "t": "Кофе с молоком, пожалуйста."
+  },
+  "u6-l4.titleEn": {
+    "en": "Paying and going home",
+    "t": "Платим и едем домой"
+  },
+  "u6-l4.0.en": {
+    "en": "The bill, please.",
+    "t": "Счёт, пожалуйста."
+  },
+  "u6-l4.0.note": {
+    "en": "To say you're paying: Zaplatím. (I'll pay.)",
+    "t": "Чтобы сказать, что платите вы: Zaplatím. (Я заплачу.)"
+  },
+  "u6-l4.1.en": {
+    "en": "Together or separately?",
+    "t": "Вместе или раздельно?"
+  },
+  "u6-l4.1.note": {
+    "en": "The waiter wants to know how you'll split the bill. Answer: Spolu. or Osobitne.",
+    "t": "Официант спрашивает, как вы будете платить. Ответ: Spolu. (Вместе.) или Osobitne. (Раздельно.)"
+  },
+  "u6-l4.2.question": {
+    "en": "The waiter asks “Spolu alebo osobitne?”. You're paying for everyone. What do you say?",
+    "t": "Официант спрашивает: «Spolu alebo osobitne?» Вы платите за всех. Что вы скажете?"
+  },
+  "u6-l4.3.en": {
+    "en": "How are you getting home?",
+    "t": "Как ты добираешься домой?"
+  },
+  "u6-l4.3.note": {
+    "en": "**Domov** = home (where you're heading). Formal: Ako idete domov?",
+    "t": "**Domov** = домой (куда?). На «вы»: Ako idete domov?"
+  },
+  "u6-l4.4.en": {
+    "en": "I'm going by bus.",
+    "t": "Я еду автобусом."
+  },
+  "u6-l4.4.note": {
+    "en": "There's no word for “by”: the vehicle takes the instrumental. autobus → autobus**om**.",
+    "t": "Предлога нет — транспорт стоит в творительном падеже: autobus → autobus**om** (автобусом). Даже там, где мы скажем «на автобусе» или «на машине», словаки говорят autobus**om**, aut**om**."
+  },
+  "u6-l4.5.question": {
+    "en": "How is this person travelling?",
+    "t": "Как добирается этот человек?"
+  },
+  "u6-l4.5.options": {
+    "en": [
+      "by bus",
+      "by car",
+      "on foot"
+    ],
+    "t": [
+      "автобусом",
+      "на машине",
+      "пешком"
+    ]
+  },
+  "u6-l4.6.title": {
+    "en": "How you travel",
+    "t": "Едем автобусом"
+  },
+  "u6-l4.6.body": {
+    "en": [
+      "Put the vehicle in the instrumental, with no **s**: Idem vlak**om**. = I'm going by train.",
+      "The endings are the ones you know: **-om** for masculine and neuter, **-ou** for feminine.",
+      "**Cestovať** (to travel) goes like študovať: cestuj**em**, cestuj**eš**, cestuj**e**…"
+    ],
+    "t": [
+      "Транспорт ставим в творительный падеж без **s**: Idem vlak**om**. = Я еду поездом. По-русски часто говорят «на машине», «на такси», а по-словацки и здесь творительный: aut**om**, taxík**om**.",
+      "Окончания уже знакомы: **-om** для мужского и среднего рода, **-ou** для женского.",
+      "**Cestovať** (путешествовать, ездить) спрягается, как študovať: cestuj**em**, cestuj**eš**, cestuj**e**…"
+    ]
+  },
+  "u6-l4.6.table.head": {
+    "en": [
+      "vehicle",
+      "by …",
+      ""
+    ],
+    "t": [
+      "транспорт",
+      "чем?",
+      ""
+    ]
+  },
+  "u6-l4.6.table.rows": {
+    "en": [
+      [
+        "autobus",
+        "autobus**om**",
+        "by bus"
+      ],
+      [
+        "vlak",
+        "vlak**om**",
+        "by train"
+      ],
+      [
+        "taxík",
+        "taxík**om**",
+        "by taxi"
+      ],
+      [
+        "auto",
+        "aut**om**",
+        "by car"
+      ],
+      [
+        "lietadlo",
+        "lietadl**om**",
+        "by plane"
+      ],
+      [
+        "električka",
+        "električk**ou**",
+        "by tram"
+      ]
+    ],
+    "t": [
+      [
+        "autobus",
+        "autobus**om**",
+        "автобусом"
+      ],
+      [
+        "vlak",
+        "vlak**om**",
+        "поездом"
+      ],
+      [
+        "taxík",
+        "taxík**om**",
+        "на такси"
+      ],
+      [
+        "auto",
+        "aut**om**",
+        "на машине"
+      ],
+      [
+        "lietadlo",
+        "lietadl**om**",
+        "самолётом"
+      ],
+      [
+        "električka",
+        "električk**ou**",
+        "трамваем"
+      ]
+    ]
+  },
+  "u6-l4.6.examples": {
+    "en": [
+      "Mrs Horváthová travels by car.",
+      "We're travelling by plane."
+    ],
+    "t": [
+      "Госпожа Горватова ездит на машине.",
+      "Мы летим самолётом."
+    ]
+  },
+  "u6-l4.7.en": {
+    "en": "Tomáš is travelling home by train.",
+    "t": "Томаш едет домой поездом."
+  },
+  "u6-l4.8.question": {
+    "en": "How do you say “by plane”?",
+    "t": "Как сказать «самолётом»?"
+  },
+  "u6-l4.9.en": {
+    "en": "Lucia is going home by tram.",
+    "t": "Луция едет домой трамваем."
+  },
+  "u6-l4.10.en": {
+    "en": "on foot",
+    "t": "пешком"
+  },
+  "u6-l4.10.note": {
+    "en": "Idem pešo. = I'm walking. By bike is different too: **na bicykli**.",
+    "t": "Idem pešo. = Я иду пешком. А велосипед — с предлогом, как у нас: **na bicykli** (на велосипеде)."
+  },
+  "u6-l4.11.pairs": {
+    "en": [
+      "by bus",
+      "by train",
+      "by car",
+      "on foot",
+      "by bike"
+    ],
+    "t": [
+      "автобусом",
+      "поездом",
+      "на машине",
+      "пешком",
+      "на велосипеде"
+    ]
+  },
+  "u6-l4.12.prompt": {
+    "en": "We're going home by taxi.",
+    "t": "Мы едем домой на такси."
+  },
+  "u6-l4.13.en": {
+    "en": "I'm walking home.",
+    "t": "Я иду домой пешком."
+  },
+  "u6-l4.14.en": {
+    "en": "I travel with friends.",
+    "t": "Я путешествую с друзьями."
+  },
+  "u6-l4.14.note": {
+    "en": "In the plural, the noun after s ends in **-mi** or **-ami**: s kamarát**mi**, s kamarátk**ami**.",
+    "t": "Во множественном числе существительное после s оканчивается на **-mi** или **-ami**, почти как у нас (-ми, -ами): s kamarát**mi**, s kamarátk**ami**."
+  },
+  "u6-l4.15.answers": {
+    "en": [
+      "Emma travels with friends."
+    ],
+    "t": [
+      "Эмма путешествует с подругами.",
+      "С подругами путешествует Эмма."
+    ]
+  },
+  "u6-l4.15.distractors": {
+    "en": [
+      "by",
+      "train"
+    ],
+    "t": [
+      "подругой",
+      "поездом"
+    ]
+  },
+  "u6-l4.16.en": {
+    "en": "Lucia is going home with her friends.",
+    "t": "Луция идёт домой с подругами."
+  },
+  "u6-l4.17.en": {
+    "en": "The bill, please.",
+    "t": "Счёт, пожалуйста."
+  },
+  "u6-l5.titleEn": {
+    "en": "Are you coming with me?",
+    "t": "Идёшь со мной?"
+  },
+  "u6-l5.0.title": {
+    "en": "With me, with you",
+    "t": "Со мной, с тобой"
+  },
+  "u6-l5.0.body": {
+    "en": [
+      "Pronouns have their own instrumental forms. After **s** they mean “with me, with you…”.",
+      "Before mnou, **s** becomes **so**: so mnou."
+    ],
+    "t": [
+      "У местоимений свои формы творительного падежа, очень похожие на наши. После **s** они значат «со мной, с тобой…».",
+      "Перед mnou **s** превращается в **so**: so mnou — совсем как «со мной»."
+    ]
+  },
+  "u6-l5.0.table.head": {
+    "en": [
+      "",
+      "with …"
+    ],
+    "t": [
+      "",
+      "с …"
+    ]
+  },
+  "u6-l5.0.table.rows": {
+    "en": [
+      [
+        "ja",
+        "so **mnou**"
+      ],
+      [
+        "ty",
+        "s **tebou**"
+      ],
+      [
+        "on, ono",
+        "s **ním**"
+      ],
+      [
+        "ona",
+        "s **ňou**"
+      ],
+      [
+        "my",
+        "s **nami**"
+      ],
+      [
+        "vy",
+        "s **vami**"
+      ],
+      [
+        "oni, ony",
+        "s **nimi**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "so **mnou**"
+      ],
+      [
+        "ty",
+        "s **tebou**"
+      ],
+      [
+        "on, ono",
+        "s **ním**"
+      ],
+      [
+        "ona",
+        "s **ňou**"
+      ],
+      [
+        "my",
+        "s **nami**"
+      ],
+      [
+        "vy",
+        "s **vami**"
+      ],
+      [
+        "oni, ony",
+        "s **nimi**"
+      ]
+    ]
+  },
+  "u6-l5.0.examples": {
+    "en": [
+      "Are you coming with me?",
+      "Mrs Horváthová is here. We're talking to her."
+    ],
+    "t": [
+      "Идёшь со мной?",
+      "Госпожа Горватова здесь. Мы с ней разговариваем."
+    ]
+  },
+  "u6-l5.1.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "u6-l5.1.options": {
+    "en": [
+      "Are you coming with me?",
+      "Are you coming with us?",
+      "Is he coming with you?"
+    ],
+    "t": [
+      "Идёшь со мной?",
+      "Идёшь с нами?",
+      "Он идёт с тобой?"
+    ]
+  },
+  "u6-l5.2.en": {
+    "en": "Tomáš is here. Lucia is talking to him.",
+    "t": "Томаш здесь. Луция разговаривает с ним."
+  },
+  "u6-l5.3.en": {
+    "en": "Lucia is my friend. I live with her.",
+    "t": "Луция — моя подруга. Я живу с ней."
+  },
+  "u6-l5.4.prompt": {
+    "en": "Are you coming with us, Tomáš?",
+    "t": "Идёшь с нами, Томаш?"
+  },
+  "u6-l5.5.en": {
+    "en": "Do you want to go with me?",
+    "t": "Хочешь пойти со мной?"
+  },
+  "u6-l5.6.title": {
+    "en": "Where? pred, za, nad, pod, medzi",
+    "t": "Где? pred, za, nad, pod, medzi"
+  },
+  "u6-l5.6.body": {
+    "en": [
+      "These five words also take the instrumental when they say where something is.",
+      "They work with pronouns too: pred **nami**, za **tebou**.",
+      "Feminine words without -a take **-ou** too: posteľ → pod posteľ**ou**."
+    ],
+    "t": [
+      "Когда говорят, где что-то находится, эти пять предлогов тоже требуют творительного падежа — как наши перед, за, над, под, между.",
+      "С местоимениями тоже: pred **nami** (перед нами), za **tebou** (за тобой).",
+      "Слова женского рода без -a тоже получают **-ou**: posteľ (кровать) → pod posteľ**ou**."
+    ]
+  },
+  "u6-l5.6.table.head": {
+    "en": [
+      "word",
+      "meaning",
+      "example"
+    ],
+    "t": [
+      "слово",
+      "значение",
+      "пример"
+    ]
+  },
+  "u6-l5.6.table.rows": {
+    "en": [
+      [
+        "pred",
+        "in front of",
+        "pred reštauráci**ou**"
+      ],
+      [
+        "za",
+        "behind",
+        "za dom**om**"
+      ],
+      [
+        "nad",
+        "above",
+        "nad stol**om**"
+      ],
+      [
+        "pod",
+        "under",
+        "pod stol**om**"
+      ],
+      [
+        "medzi",
+        "between",
+        "medzi bank**ou** a pošt**ou**"
+      ]
+    ],
+    "t": [
+      [
+        "pred",
+        "перед",
+        "pred reštauráci**ou**"
+      ],
+      [
+        "za",
+        "за",
+        "za dom**om**"
+      ],
+      [
+        "nad",
+        "над",
+        "nad stol**om**"
+      ],
+      [
+        "pod",
+        "под",
+        "pod stol**om**"
+      ],
+      [
+        "medzi",
+        "между",
+        "medzi bank**ou** a pošt**ou**"
+      ]
+    ]
+  },
+  "u6-l5.6.examples": {
+    "en": [
+      "I'm waiting in front of the restaurant.",
+      "The cat is under the table."
+    ],
+    "t": [
+      "Я жду перед рестораном.",
+      "Кошка под столом."
+    ]
+  },
+  "u6-l5.7.pairs": {
+    "en": [
+      "in front of",
+      "behind",
+      "above",
+      "under",
+      "between"
+    ],
+    "t": [
+      "перед",
+      "за",
+      "над",
+      "под",
+      "между"
+    ]
+  },
+  "u6-l5.8.en": {
+    "en": "Tomáš is waiting in front of the university.",
+    "t": "Томаш ждёт перед университетом."
+  },
+  "u6-l5.9.en": {
+    "en": "The café is between the bank and the post office.",
+    "t": "Кафе между банком и почтой."
+  },
+  "u6-l5.10.prompt": {
+    "en": "The cat is under the bed.",
+    "t": "Кошка под кроватью."
+  },
+  "u6-l5.11.en": {
+    "en": "The lamp is above the table.",
+    "t": "Лампа над столом."
+  },
+  "u6-l5.12.en": {
+    "en": "Emma is standing behind you.",
+    "t": "Эмма стоит за тобой."
+  },
+  "u6-l5.13.en": {
+    "en": "Marek is waiting behind the restaurant.",
+    "t": "Марек ждёт за рестораном."
+  },
+  "u6-l5.14.answers": {
+    "en": [
+      "Mr Kováč is standing in front of the dorm."
+    ],
+    "t": [
+      "Пан Ковач стоит перед общежитием.",
+      "Перед общежитием стоит пан Ковач."
+    ]
+  },
+  "u6-l5.14.distractors": {
+    "en": [
+      "behind",
+      "under"
+    ],
+    "t": [
+      "за",
+      "под"
+    ]
+  },
+  "u6-l5.15.en": {
+    "en": "Are you coming with me?",
+    "t": "Идёшь со мной?"
+  },
+  "u6-l6.titleEn": {
+    "en": "Let me take you to dinner",
+    "t": "Приглашаю тебя на ужин"
+  },
+  "u6-l6.0.title": {
+    "en": "Pozvať, piť, niesť",
+    "t": "Pozvať, piť, niesť"
+  },
+  "u6-l6.0.body": {
+    "en": [
+      "Three new patterns: **pozvať** (to invite), **piť** (to drink) and **niesť** (to carry). Learn the ja and oni forms; the rest follow.",
+      "**Žiť** (to live) goes like piť: žij**em**, žij**eš**, žij**e**…",
+      "Pozvať points to the future: Pozvem ťa. = I'll invite you."
+    ],
+    "t": [
+      "Три новых типа спряжения: **pozvať** (пригласить), **piť** (пить) и **niesť** (нести). Запомните формы ja и oni, остальные — по образцу.",
+      "**Žiť** (жить) спрягается, как piť: žij**em**, žij**eš**, žij**e**…",
+      "Pozvať — совершенного вида, поэтому, как и в русском, эти формы означают будущее: Pozvem ťa. = Я тебя приглашу."
+    ]
+  },
+  "u6-l6.0.table.head": {
+    "en": [
+      "",
+      "pozvať",
+      "piť",
+      "niesť"
+    ],
+    "t": [
+      "",
+      "pozvať",
+      "piť",
+      "niesť"
+    ]
+  },
+  "u6-l6.0.table.rows": {
+    "en": [
+      [
+        "ja",
+        "pozv**em**",
+        "pij**em**",
+        "nes**iem**"
+      ],
+      [
+        "ty",
+        "pozv**eš**",
+        "pij**eš**",
+        "nes**ieš**"
+      ],
+      [
+        "on, ona",
+        "pozv**e**",
+        "pij**e**",
+        "nes**ie**"
+      ],
+      [
+        "my",
+        "pozv**eme**",
+        "pij**eme**",
+        "nes**ieme**"
+      ],
+      [
+        "vy",
+        "pozv**ete**",
+        "pij**ete**",
+        "nes**iete**"
+      ],
+      [
+        "oni",
+        "pozv**ú**",
+        "pij**ú**",
+        "nes**ú**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "pozv**em**",
+        "pij**em**",
+        "nes**iem**"
+      ],
+      [
+        "ty",
+        "pozv**eš**",
+        "pij**eš**",
+        "nes**ieš**"
+      ],
+      [
+        "on, ona",
+        "pozv**e**",
+        "pij**e**",
+        "nes**ie**"
+      ],
+      [
+        "my",
+        "pozv**eme**",
+        "pij**eme**",
+        "nes**ieme**"
+      ],
+      [
+        "vy",
+        "pozv**ete**",
+        "pij**ete**",
+        "nes**iete**"
+      ],
+      [
+        "oni",
+        "pozv**ú**",
+        "pij**ú**",
+        "nes**ú**"
+      ]
+    ]
+  },
+  "u6-l6.0.examples": {
+    "en": [
+      "I'll invite you to dinner.",
+      "What are you drinking? — I'm drinking tea.",
+      "The waiter is carrying a beer.",
+      "I live in Bratislava."
+    ],
+    "t": [
+      "Я приглашу тебя на ужин.",
+      "Что ты пьёшь? — Я пью чай.",
+      "Официант несёт пиво.",
+      "Я живу в Братиславе."
+    ]
+  },
+  "u6-l6.1.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "u6-l6.1.options": {
+    "en": [
+      "I'm drinking coffee.",
+      "I'm eating coffee.",
+      "I'm carrying coffee."
+    ],
+    "t": [
+      "Я пью кофе.",
+      "Я ем кофе.",
+      "Я несу кофе."
+    ]
+  },
+  "u6-l6.2.title": {
+    "en": "Jesť and stať sa",
+    "t": "Jesť и stať sa"
+  },
+  "u6-l6.2.body": {
+    "en": [
+      "**Jesť** (to eat) is irregular. Careful: **je** means both “is” and “eats”.",
+      "**Stať sa** (to become) takes the instrumental: stať sa lekár**om**, stať sa učiteľk**ou**. Like pozvať, it points to the future: Stanem sa lekárom. = I'll become a doctor."
+    ],
+    "t": [
+      "**Jesť** (есть, кушать) — неправильный глагол. Внимание: **je** значит и «является» (от byť), и «ест».",
+      "**Stať sa** (стать) требует творительного, как и у нас: stať sa lekár**om** (стать врачом), stať sa učiteľk**ou**. Как и у pozvať, его формы означают будущее: Stanem sa lekárom. = Я стану врачом."
+    ]
+  },
+  "u6-l6.2.table.head": {
+    "en": [
+      "",
+      "jesť",
+      "stať sa"
+    ],
+    "t": [
+      "",
+      "jesť",
+      "stať sa"
+    ]
+  },
+  "u6-l6.2.table.rows": {
+    "en": [
+      [
+        "ja",
+        "jem",
+        "stan**em** sa"
+      ],
+      [
+        "ty",
+        "ješ",
+        "stan**eš** sa"
+      ],
+      [
+        "on, ona",
+        "je",
+        "stan**e** sa"
+      ],
+      [
+        "my",
+        "jeme",
+        "stan**eme** sa"
+      ],
+      [
+        "vy",
+        "jete",
+        "stan**ete** sa"
+      ],
+      [
+        "oni",
+        "**jedia**",
+        "stan**ú** sa"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "jem",
+        "stan**em** sa"
+      ],
+      [
+        "ty",
+        "ješ",
+        "stan**eš** sa"
+      ],
+      [
+        "on, ona",
+        "je",
+        "stan**e** sa"
+      ],
+      [
+        "my",
+        "jeme",
+        "stan**eme** sa"
+      ],
+      [
+        "vy",
+        "jete",
+        "stan**ete** sa"
+      ],
+      [
+        "oni",
+        "**jedia**",
+        "stan**ú** sa"
+      ]
+    ]
+  },
+  "u6-l6.2.examples": {
+    "en": [
+      "Marek is a cook. Now he's eating soup.",
+      "Emma wants to become a doctor."
+    ],
+    "t": [
+      "Марек — повар. Сейчас он ест суп.",
+      "Эмма хочет стать врачом."
+    ]
+  },
+  "u6-l6.3.en": {
+    "en": "What are you drinking, Emma? — I'm drinking tea.",
+    "t": "Что ты пьёшь, Эмма? — Я пью чай."
+  },
+  "u6-l6.4.en": {
+    "en": "Lucia and Emma drink coffee with milk.",
+    "t": "Луция и Эмма пьют кофе с молоком."
+  },
+  "u6-l6.5.en": {
+    "en": "Marek is carrying the soup to the table.",
+    "t": "Марек несёт суп на стол."
+  },
+  "u6-l6.6.prompt": {
+    "en": "I'll invite Lucia to dinner.",
+    "t": "Я приглашу Луцию на ужин."
+  },
+  "u6-l6.7.en": {
+    "en": "Thanks for the invitation.",
+    "t": "Спасибо за приглашение."
+  },
+  "u6-l6.7.note": {
+    "en": "If they ask “Prídeš?” (Will you come?): Určite. (Definitely.) or Možno. (Maybe.)",
+    "t": "Если спрашивают «Prídeš?» (Придёшь?): Určite. (Обязательно.) или Možno. (Может быть.)"
+  },
+  "u6-l6.8.question": {
+    "en": "Tomáš says “Pozvem ťa na večeru.” What's a natural reply?",
+    "t": "Томаш говорит: «Pozvem ťa na večeru.» Что уместно ответить?"
+  },
+  "u6-l6.9.en": {
+    "en": "What are you eating, Tomáš?",
+    "t": "Что ты ешь, Томаш?"
+  },
+  "u6-l6.10.en": {
+    "en": "I'm eating fish and Lucia is eating chicken.",
+    "t": "Я ем рыбу, а Луция ест курицу."
+  },
+  "u6-l6.11.en": {
+    "en": "Emma and Lucia are eating fish with rice.",
+    "t": "Эмма и Луция едят рыбу с рисом."
+  },
+  "u6-l6.12.en": {
+    "en": "Lucia wants to become a teacher.",
+    "t": "Луция хочет стать учительницей."
+  },
+  "u6-l6.13.prompt": {
+    "en": "We live in Bratislava.",
+    "t": "Мы живём в Братиславе."
+  },
+  "u6-l6.14.answers": {
+    "en": [
+      "Tomáš and Marek are drinking beer."
+    ],
+    "t": [
+      "Томаш и Марек пьют пиво."
+    ]
+  },
+  "u6-l6.14.distractors": {
+    "en": [
+      "wine",
+      "eating"
+    ],
+    "t": [
+      "вино",
+      "едят"
+    ]
+  },
+  "u6-l6.15.en": {
+    "en": "I want to become a cook.",
+    "t": "Я хочу стать поваром."
+  },
+  "u6-l6.16.en": {
+    "en": "I'll buy you a coffee.",
+    "t": "Приглашаю тебя на кофе."
+  },
+  "u6-l6.17.en": {
+    "en": "I'll invite you to dinner.",
+    "t": "Я приглашу тебя на ужин."
+  },
+  "u6-l7.titleEn": {
+    "en": "Review",
+    "t": "Повторение"
+  },
+  "u6-l7.0.question": {
+    "en": "What's wrong with the soup?",
+    "t": "Что не так с супом?"
+  },
+  "u6-l7.0.options": {
+    "en": [
+      "It's very salty.",
+      "It's very sweet.",
+      "It's very hot."
+    ],
+    "t": [
+      "Он очень солёный.",
+      "Он очень сладкий.",
+      "Он очень горячий."
+    ]
+  },
+  "u6-l7.1.prompt": {
+    "en": "I'll have the soup and fish with rice.",
+    "t": "Я возьму суп и рыбу с рисом."
+  },
+  "u6-l7.2.en": {
+    "en": "And to drink? — Mineral water, please.",
+    "t": "А из напитков? — Минералку, пожалуйста."
+  },
+  "u6-l7.3.pairs": {
+    "en": [
+      "with milk",
+      "with lemon",
+      "with cheese",
+      "with rice"
+    ],
+    "t": [
+      "с молоком",
+      "с лимоном",
+      "с сыром",
+      "с рисом"
+    ]
+  },
+  "u6-l7.4.en": {
+    "en": "Do you like the fish?",
+    "t": "Тебе нравится рыба?"
+  },
+  "u6-l7.5.en": {
+    "en": "Marek is standing behind Tomáš.",
+    "t": "Марек стоит за Томашем."
+  },
+  "u6-l7.6.answers": {
+    "en": [
+      "Are you coming home with me?"
+    ],
+    "t": [
+      "Идёшь со мной домой?",
+      "Идёшь домой со мной?"
+    ]
+  },
+  "u6-l7.6.distractors": {
+    "en": [
+      "us",
+      "by"
+    ],
+    "t": [
+      "нами",
+      "с"
+    ]
+  },
+  "u6-l7.7.en": {
+    "en": "Tomáš is going home by taxi.",
+    "t": "Томаш едет домой на такси."
+  },
+  "u6-l7.8.question": {
+    "en": "How do you ask for the bill?",
+    "t": "Как попросить счёт?"
+  },
+  "u6-l7.9.prompt": {
+    "en": "We're going home by tram.",
+    "t": "Мы едем домой трамваем."
+  },
+  "u6-l7.10.en": {
+    "en": "Lucia, I'll take you out to dinner.",
+    "t": "Луция, я приглашу тебя на ужин."
+  },
+  "u6-l7.11.en": {
+    "en": "Tomáš is drinking beer with Marek.",
+    "t": "Томаш пьёт пиво с Мареком."
+  },
+  "u6-l7.12.prompt": {
+    "en": "Lucia wants to become a teacher.",
+    "t": "Луция хочет стать учительницей."
+  },
+  "u6-l7.13.question": {
+    "en": "How do you say “The cat is under the table”?",
+    "t": "Как сказать «Кошка под столом»?"
+  },
+  "u6-l7.14.en": {
+    "en": "How are you getting home, Mrs Horváthová?",
+    "t": "Как вы добираетесь домой, госпожа Горватова?"
+  },
+  "u6-l7.15.en": {
+    "en": "I'll have coffee with milk.",
+    "t": "Я возьму кофе с молоком."
+  }
+}
