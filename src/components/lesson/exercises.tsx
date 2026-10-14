@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { BookIcon, MicIcon } from "@/components/icons";
 import { useApp } from "@/components/app-provider";
 import { AudioButton } from "@/components/lesson/audio-button";
@@ -271,6 +271,28 @@ export function BuildView({
 
 export function ListenView({ exercise, answer, setAnswer, locked }: Props<ListenExercise>) {
   const { t } = useApp();
+  const input = useRef<HTMLTextAreaElement>(null);
+  const caret = useRef<number | null>(null);
+  const text = typeof answer === "string" ? answer : "";
+
+  // Accent keys type at the cursor (replacing any selection) and keep the focus.
+  function insert(ch: string) {
+    const el = input.current;
+    const start = el?.selectionStart ?? text.length;
+    const end = el?.selectionEnd ?? text.length;
+    caret.current = start + ch.length;
+    setAnswer(text.slice(0, start) + ch + text.slice(end));
+  }
+
+  // React puts the cursor at the end when it writes a new value; put it back
+  // right after the inserted letter.
+  useLayoutEffect(() => {
+    if (caret.current === null || !input.current) return;
+    input.current.focus();
+    input.current.setSelectionRange(caret.current, caret.current);
+    caret.current = null;
+  });
+
   return (
     <div className="space-y-8">
       <Title>{t("ex.listen")}</Title>
@@ -278,8 +300,9 @@ export function ListenView({ exercise, answer, setAnswer, locked }: Props<Listen
         <AudioButton text={exercise.sk} autoPlay size="lg" withSlow />
       </div>
       <textarea
+        ref={input}
         autoFocus
-        value={typeof answer === "string" ? answer : ""}
+        value={text}
         onChange={(e) => setAnswer(e.target.value)}
         onKeyDown={(e) => {
           // Enter submits via the player's key handler; don't add a newline.
@@ -293,29 +316,39 @@ export function ListenView({ exercise, answer, setAnswer, locked }: Props<Listen
         placeholder={t("ex.listenPlaceholder")}
         className="w-full resize-none rounded-2xl border-2 border-border bg-surface p-4 text-xl outline-none focus:border-brand"
       />
-      <SlovakKeys
-        disabled={locked}
-        onKey={(ch) => setAnswer(`${typeof answer === "string" ? answer : ""}${ch}`)}
-      />
+      <SlovakKeys label={t("ex.accentKeys")} disabled={locked} onKey={insert} />
     </div>
   );
 }
 
-/** On-screen keys for Slovak letters most keyboards don't have. */
-function SlovakKeys({ onKey, disabled }: { onKey: (ch: string) => void; disabled: boolean }) {
+/** On-screen keys for Slovak letters most keyboards don't have (plain letters come from the keyboard). */
+function SlovakKeys({
+  label,
+  onKey,
+  disabled,
+}: {
+  label: string;
+  onKey: (ch: string) => void;
+  disabled: boolean;
+}) {
   return (
-    <div className="flex flex-wrap gap-1.5">
-      {["á", "ä", "č", "ď", "é", "í", "ľ", "ĺ", "ň", "ó", "ô", "ŕ", "š", "ť", "ú", "ý", "ž"].map((ch) => (
-        <button
-          key={ch}
-          type="button"
-          disabled={disabled}
-          onClick={() => onKey(ch)}
-          className="tile size-10 text-lg"
-        >
-          {ch}
-        </button>
-      ))}
+    <div className="space-y-2">
+      <p className="text-sm font-bold text-muted">{label}</p>
+      <div className="flex flex-wrap gap-1.5">
+        {["á", "ä", "č", "ď", "é", "í", "ľ", "ĺ", "ň", "ó", "ô", "ŕ", "š", "ť", "ú", "ý", "ž"].map((ch) => (
+          <button
+            key={ch}
+            type="button"
+            disabled={disabled}
+            // Keep the text box focused so the letter goes in at the cursor.
+            onMouseDown={(e) => e.preventDefault()}
+            onClick={() => onKey(ch)}
+            className="tile size-10 text-lg"
+          >
+            {ch}
+          </button>
+        ))}
+      </div>
     </div>
   );
 }

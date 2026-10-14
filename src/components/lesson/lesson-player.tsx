@@ -21,6 +21,7 @@ import { checkBuilt, checkTyped, shuffle, toTiles } from "@/lib/answers";
 import { playSlovak, stopSlovak } from "@/lib/audio";
 import { fillSentence } from "@/lib/course/helpers";
 import type { Exercise, Lesson } from "@/lib/course/types";
+import { unlockAllLessons } from "@/lib/env";
 import type { Locale } from "@/lib/i18n";
 
 /** A queued exercise: its index in the lesson (so a language switch updates the text). */
@@ -110,7 +111,7 @@ function Player({ lessons, premiumUnit, nextId }: PlayerProps) {
   );
   const [pos, setPos] = useState(0);
   const [phase, setPhase] = useState<Phase>(() =>
-    premiumUnit && !isPremium ? "paywall" : "playing",
+    premiumUnit && !isPremium && !unlockAllLessons ? "paywall" : "playing",
   );
   const stats = useRef({ right: 0, graded: 0, startedAt: 0 });
   const [summary, setSummary] = useState<Summary | null>(null);

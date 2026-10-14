@@ -8,6 +8,9 @@ export const supabasePublishableKey =
 
 export const isSupabaseConfigured = Boolean(supabaseUrl && supabasePublishableKey);
 
+/** Testing switch: every lesson opens, ignoring lesson order and Premium. Never set it in production. */
+export const unlockAllLessons = process.env.NEXT_PUBLIC_UNLOCK_ALL_LESSONS === "true";
+
 /** Absolute site URL for redirects (Stripe, auth emails). */
 export function siteUrl(request?: Request): string {
   const configured = process.env.NEXT_PUBLIC_SITE_URL;

@@ -14,6 +14,7 @@ import {
   StarIcon,
 } from "@/components/icons";
 import type { LessonKind, UnitOutline } from "@/lib/course/types";
+import { unlockAllLessons } from "@/lib/env";
 import type { Locale, MessageKey, Translate } from "@/lib/i18n";
 
 // Unit banner colours cycle through the palette.
@@ -22,7 +23,8 @@ const unitColors = ["var(--brand)", "var(--ok)", "var(--accent)", "#8b5cf6", "#0
 // Horizontal offsets (px) for the zig-zag path.
 const zigzag = [0, 44, 66, 44, 0, -44, -66, -44];
 
-type NodeState = "done" | "current" | "locked";
+/** "open": playable but not next in line (only with the unlock-all testing switch). */
+type NodeState = "done" | "current" | "open" | "locked";
 
 /** `outlines` holds the path in each native language (titleEn = the translated title). */
 export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[]> }) {
@@ -39,7 +41,8 @@ export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[
   const stateOf = (lessonId: string): NodeState => {
     const i = allLessons.findIndex((l) => l.id === lessonId);
     if (progress.completed[lessonId]) return "done";
-    return i === firstOpen ? "current" : "locked";
+    if (i === firstOpen) return "current";
+    return unlockAllLessons ? "open" : "locked";
   };
 
   return (
@@ -61,7 +64,7 @@ export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[
             key={unit.id}
             unit={unit}
             color={unitColors[ui % unitColors.length]}
-            premiumLocked={unit.premium && !isPremium}
+            premiumLocked={unit.premium && !isPremium && !unlockAllLessons}
             completed={unit.lessons.length > 0 && unit.lessons.every((l) => progress.completed[l.id])}
             stateOf={stateOf}
             hrefFor={hrefFor}
@@ -228,7 +231,7 @@ function LessonNode({
   t: Translate;
 }) {
   const label = kindLabel[kind];
-  const bg = state === "done" ? "var(--gold)" : state === "current" ? color : "var(--locked)";
+  const bg = state === "done" ? "var(--gold)" : state === "locked" ? "var(--locked)" : color;
   const KindIcon = kindIcon[kind];
   const node = (
     <span
@@ -237,10 +240,10 @@ function LessonNode({
     >
       {state === "done" ? (
         <CheckIcon size={34} />
-      ) : state === "current" ? (
-        <KindIcon size={34} />
-      ) : (
+      ) : state === "locked" ? (
         <LockIcon size={28} className="opacity-80" />
+      ) : (
+        <KindIcon size={34} />
       )}
       {state === "current" && (
         <span className="animate-bob absolute -top-11 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-xl border-2 border-border bg-bg px-3 py-1.5 text-sm font-black uppercase tracking-wide text-brand">
