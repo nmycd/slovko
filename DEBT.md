@@ -1,0 +1,146 @@
+# Debt
+
+What's unfinished, half-done or waiting on someone. Two kinds:
+
+- **Needs the owner:** keys, accounts, payments and decisions that code can't
+  do. Each says where to click and what to set.
+- **Tech and content debt:** shortcuts in the code or course, and what fixing
+  them involves.
+
+Production is https://slovko-eight.vercel.app (Vercel Hobby, deploys every
+push to `main`). After changing a Vercel environment variable, redeploy.
+
+## Needs the owner
+
+### High priority
+
+- [ ] **Sign-up emails: set up custom SMTP in Supabase.** The built-in sender
+  is meant for testing: it allows only a few auth emails an hour and often
+  lands in spam. Real users signing up with email and password may never get
+  their confirmation email. Supabase → Project Settings → Authentication → SMTP:
+  enable custom SMTP with Resend (or another provider). This needs a verified
+  sender domain (see *Domain* below). Until then, Google sign-in avoids the
+  problem.
+- [ ] **Rotate the Gemini API keys.** Two Gemini keys were pasted into a chat
+  on 2026-10-14. In Google AI Studio, delete the unused one (the free-tier key
+  starting `AQ.`) and rotate the live one, then update `GEMINI_API_KEY` in
+  `.env.local`. It's used only by the local illustration tools, never on Vercel.
+- [ ] **Contact form emails (Resend).** Messages are stored in Supabase
+  (`contact_messages`); read them in the Supabase table editor. To also get
+  each one by email: create a Resend API key, and on Vercel set
+  `RESEND_API_KEY` and `CONTACT_TO_EMAIL` (your inbox). Without a verified
+  domain, Resend only delivers to your Resend account's own address. Once the
+  domain is verified, set `CONTACT_FROM_EMAIL` too.
+
+### Domain and name
+
+- [ ] **Pick and buy a domain.** slovko.com, slovko.app and slovko.sk are taken
+  by live sites. As of 2026-10-15 these looked free: learnslovko.com,
+  getslovko.com, slovko.io, slovko.co, slovko.org, slovko.net, slovko.cz,
+  slovko.eu (.eu needs an EU or EEA registrant).
+- [ ] **Check the "Slovko" name before investing in the brand.** slovko.app is
+  a Ukrainian-language language-flashcard app, the same space and an audience
+  we share; slovko.sk is a Slovak "coming soon" page. Search the EUIPO and the
+  Slovak trademark register, and consider renaming while it's cheap.
+- [ ] **After the domain:** add it in Vercel; update `NEXT_PUBLIC_SITE_URL`;
+  set the Supabase Auth site URL and redirect URLs; move the Stripe webhook to
+  the new URL (with its new signing secret); verify the domain in Resend.
+
+### Before taking real money
+
+- [ ] **Leave Vercel Hobby.** Its terms forbid commercial use, so Stripe stays
+  in test mode there. Move to Vercel Pro (about $20 a month) or a small droplet
+  (about $6 a month, `next start` behind Caddy) before switching on live
+  payments.
+- [ ] **Stripe live mode:** live keys and prices, plus a live webhook endpoint
+  and its secret, all set on the production host.
+- [ ] **Legal pages:** privacy policy (we store emails, progress and contact
+  messages; EU users), terms of service, and a refund and cancellation policy
+  (Stripe expects one). Link them in the footer. Decide on a cookie notice: the
+  app only uses its own functional storage today.
+
+### Housekeeping
+
+- [ ] **Supabase redirect URLs:** remove the old trycloudflare.com tunnel
+  entries.
+- [ ] **Stray test account:** the Google account used in the first Google
+  sign-in attempt became a separate free user. Delete it in Supabase → Auth if
+  you don't need it. Your main account now has Google linked.
+- [ ] **Vercel preview deployments** have no environment variables (only
+  Production is set), so branch previews can't sign in or pay. Add Preview
+  values if you want previews.
+
+## Tech debt
+
+- **The repo lives on the iCloud-synced Desktop.** iCloud rewrites files
+  that git and Next.js keep changing. It renamed `.git/index` to `index 2`, and
+  it keeps deleting files from `.next`, so the dev server serves 500s, missing
+  scripts and stylesheets, and missing route types. A `.nosync` symlink
+  workaround didn't survive. **Fix:** move the repo out of iCloud, e.g. to
+  `~/Developer/slovko`. Until then: stop dev, `rm -rf .next/dev`, restart, and
+  check builds outside iCloud.
+- **Testing switch:** `NEXT_PUBLIC_UNLOCK_ALL_LESSONS=true` lives in the local
+  `.env.development.local`. It opens every lesson, skips Premium, and enables
+  `?step=N` deep links. It must never be set on production (it isn't). Delete
+  the file when you don't need it.
+- **No automated tests or CI.** Checks are `npm run validate:course`,
+  `npm run i18n:sync -- --check`, `npx tsc --noEmit` and `npx eslint src`, all
+  run by hand. Worth a small GitHub Actions workflow running those on push.
+- **No error tracking or analytics.** Production errors are only visible in
+  Vercel's logs. Consider Sentry (or Vercel's own tools) and privacy-friendly
+  analytics.
+- **Light only.** Dark mode was dropped in the Ivory & Sage redesign, because
+  the illustrations blend into a light page. Supporting dark mode would need a
+  design for the pictures (a paper card behind them, say). The previous design
+  is the git tag `design-classic`.
+- **The page is hidden until hydration.** Text stays invisible until the
+  client knows the learner's language, so the wrong language never flashes.
+  That costs a moment of blank page, and some SEO. The alternative,
+  server-side language routing via Accept-Language, was declined for now.
+- **Speaking errors are vague.** Any non-JSON reply from `/api/stt` (such as a
+  proxy error page) shows "Couldn't reach the server". A clearer split between
+  network, server and quota errors would help support.
+- **Contact spam protection** is a honeypot field, a minimum fill time and a
+  per-IP or per-email rate limit. That's fine at this scale; add Cloudflare
+  Turnstile if spam gets through.
+- **`editorial-findings.md`** (repo root, uncommitted) is the editorial
+  review's working list. All 11 findings are fixed. Delete it or move it into
+  docs.
+- **Course audio:** clips are pre-generated and cached in Supabase Storage,
+  and production never generates new ones (`TTS_LIVE_GENERATION=false`).
+  Whenever Slovak text changes, run `npm run generate:audio` (it costs
+  ElevenLabs credits) or the browser voice fills in.
+- **Translations:** when English course text changes, run `npm run i18n:sync`
+  and translate the stale Ukrainian and Russian entries (see
+  `src/lib/course/TRANSLATING.md`).
+
+## Content debt
+
+- **No native-speaker review yet.** The A1 course (Slovak, plus the Ukrainian
+  and Russian translations) was written and proofread by AI, plus one editorial
+  pass. A Slovak teacher, and native Ukrainian and Russian readers, should
+  review it before launch. The landing page's teacher quote is a placeholder
+  too.
+- **A2, B1 and the driving-exam course** are "coming soon" pages.
+- **Illustrations:**
+  - **Style references** are pages from Beatrice Alemagna's *On a Magical
+    Do-Nothing Day*, a living illustrator. They're fine for exploring a look,
+    but before commercial use, build our own style sheet from our renders and
+    stop sending her pages (`illustrations/tools/gemini.ts`).
+  - **Grammar lessons are mostly unillustrated:** only 6 of 75 grammar cards
+    have a picture. One picture per grammar lesson would cost about $1.40, one
+    per card about $3.25.
+  - **40 exercises reuse an earlier picture.** Unique pictures for them would
+    cost about $2.
+  - **The illustration plan traces the textbook's situations.** The textbook
+    crops stay local and git-ignored, and are never fed to the model. Keep it
+    that way.
+  - The web pictures (about 18 MB in `public/illustrations`) live in git. Fine
+    for now; move them to object storage if the repo gets heavy.
+- **Recommended resources:** Reddit couldn't be mined (it blocks automated
+  access), so the picks come from university worksheets and film-institute
+  lists. Many streaming links only work in Slovakia, and some DVDs are sold
+  out. Recheck links now and then.
+- **Answer grading** accepts listed answers, with tolerance for missing accents
+  and small typos. The idea of an LLM grader for open answers that miss the
+  list is not built.
