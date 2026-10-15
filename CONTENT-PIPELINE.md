@@ -1,0 +1,253 @@
+# Content pipeline
+
+How a unit of the course goes from the textbook to the live app, in order. Each
+stage says what goes in, what to run, and what comes out. The detailed rules live
+in the guides linked from each stage; this page is the map.
+
+Everything here runs from the repo root. Paid steps are marked **$**.
+
+| # | Stage | Run | Writes | |
+| --- | --- | --- | --- | --- |
+| 1 | [Read the textbook](#1-read-the-textbook) | (the PDF scan) | notes | |
+| 2 | [Write the unit](#2-write-the-unit) | | `src/lib/course/units/unitN.ts` | |
+| 3 | [Check it](#3-check-it) | `npm run -s validate:course -- uN` | | |
+| 4 | [Editorial pass](#4-editorial-pass) | a review session | a findings list, then fixes | |
+| 5 | [Translate](#5-translate) | `npm run i18n:sync` | `translations/{uk,ru}/unitN.json` | |
+| 6 | [Spelling cards](#6-spelling-cards) | `npm run plan:spelling` | `src/lib/course/spelling.json` | |
+| 7 | [Illustration plan](#7-illustration-plan) | `illustrations/tools/*` | `illustrations/plan/unitN.json` | |
+| 8 | [Render pictures](#8-render-pictures) | `render-plan.ts` | `public/illustrations/`, `illustrations.json` | **$** |
+| 9 | [Record audio](#9-record-audio) | `npm run generate:audio` | clips in Supabase Storage | **$** |
+| 10 | [Final checks and ship](#10-final-checks-and-ship) | checks, then push to `main` | the live site | |
+
+The dictionary on /learn needs no step: it's [built from the content](#automatic).
+
+## 1. Read the textbook
+
+The course follows *Krížom-krážom Slovenčina A1* (Kamenárová, 2007): one unit
+per Lekcia, same topics, same grammar order, vocabulary from the lesson's
+glossary. The scan is `renata-kamenarova-krizom-krazom-slovencina-a1-2007.pdf`
+in the repo root: **local only** (`*.pdf` is git-ignored; the book is
+copyrighted and the repo is public).
+
+- The PDF has no text layer; pages are images. PDF page numbers differ from the
+  printed ones by 3 (Lekcia 1–5), 5 (6–8) and 7 (9–10). The table is in
+  [illustrations/README.md](illustrations/README.md#book-crops).
+- Take **what** to teach from the book, never its dialogues, texts, exercise
+  items or characters. Slovko has its own cast (Emma, Lucia, Tomáš, Marek, pani
+  Horváthová, pán Kováč). See [AUTHORING.md](src/lib/course/AUTHORING.md#using-the-textbook-and-what-not-to-copy).
+
+## 2. Write the unit
+
+One file per unit, `src/lib/course/units/unitN.ts`, in English and Slovak only.
+[AUTHORING.md](src/lib/course/AUTHORING.md) has the rules: 5–7 lessons, a review
+lesson last, 10–18 exercises a lesson, introduce before testing, the exercise
+types and how grammar cards are written. The types are in
+[types.ts](src/lib/course/types.ts).
+
+Don't write spelling cards (stage 6 places them) or dictionary entries (built
+automatically).
+
+## 3. Check it
+
+```bash
+npm run -s validate:course -- u3
+```
+
+```bash
+npx tsc --noEmit
+```
+
+`validate:course` catches structure the type checker can't: lesson ids, answer
+indices, tiles, Slovak-only fields, sentence lengths. It must print "✓ no
+errors". A capitalised word in the middle of a `listen` sentence must be listed
+in [names.ts](src/lib/course/names.ts): names are graded leniently (a misspelt name
+is marked yellow, never wrong), so the grader has to know every one.
+
+## 4. Editorial pass
+
+Units written in parallel don't know about each other: the same word taught twice
+as new, a later lesson contradicting an earlier one. One reader goes through the
+whole course in order and lists findings without changing anything; the owner
+picks which to fix. The brief is
+[EDITORIAL-REVIEW.md](src/lib/course/EDITORIAL-REVIEW.md). Worth repeating after
+any large batch of new or rewritten lessons.
+
+## 5. Translate
+
+Learners pick English, Ukrainian or Russian. English lives in the unit files;
+Ukrainian and Russian live in catalogs, one per unit and language.
+
+```bash
+npm run i18n:sync
+```
+
+This adds keys for new English text and marks changed English as stale. Fill in
+`t` for every new or stale entry, following
+[TRANSLATING.md](src/lib/course/TRANSLATING.md) (adapt rather than calque; fixed
+spellings for names). Slovak text is never translated.
+
+## 6. Spelling cards
+
+Before a word turns up in a typed sentence ("Type what you hear"), the learner
+types it once on its own, on a spelling card. A script places the cards:
+
+```bash
+npm run plan:spelling
+```
+
+- One card per word form that typed sentences use, except names and Slovak's
+  little words (pronouns, forms of byť, prepositions, conjunctions, question
+  words, possessives; [little-words.ts](src/lib/course/little-words.ts)).
+- Each card goes 2–5 cards after the word first appears in writing, at least 2
+  before the first sentence that needs it, at most 5 cards per lesson. The
+  2–5 is a fixed pick per word, so the same course always gets the same plan.
+- The plan is [spelling.json](src/lib/course/spelling.json), committed. Lessons
+  get the cards when the course loads (after translation), so translation keys
+  and picture positions keep counting only the exercises you wrote.
+
+`validate:course` fails if a typed sentence needs a word that hasn't been spelled
+yet: rerun the planner whenever lessons change. New spelling words need audio
+(stage 9).
+
+## 7. Illustration plan
+
+Decide which exercises get a picture and what it shows, checked against what the
+textbook illustrated. Full rules, the cast's looks and the recurring places are in
+[illustrations/README.md](illustrations/README.md).
+
+1. List the unit's exercises with their indices:
+   ```bash
+   npx tsx illustrations/tools/list-exercises.ts . 3
+   ```
+2. Read the book lesson and note the pictures that show the same situations as
+   ours. Write their boxes to `illustrations/plan/book-panels-u3.txt` (committed),
+   then cut the crops (git-ignored, `illustrations/book-refs/`):
+   ```bash
+   sh illustrations/tools/cut-panels.sh 3
+   ```
+3. Write `illustrations/plan/map-u3.json`: for each exercise that gets a picture,
+   a `picture` description (who, where, doing what; never style) or a `reuse` of
+   an earlier picture, and the matching crop if there is one. A crop and its
+   picture must show the same situation; describe the scene, never the book's
+   drawing.
+4. Build the plan, giving the unit's printed-minus-PDF page offset:
+   ```bash
+   npx tsx illustrations/tools/build-plan.ts . 3 3
+   ```
+   It writes `illustrations/plan/unit3.json` and checks every crop and reuse.
+
+Which exercises get one: intro cards that can be shown, choice exercises that
+describe a situation, and grammar cards only where a scene carries the point.
+
+## 8. Render pictures
+
+**$** About $0.05 a picture (Nano Banana 2.1 at 1K, October 2026). Needs
+`GEMINI_API_KEY` in `.env.local`.
+
+```bash
+npx tsx illustrations/tools/render-plan.ts --unit 3
+```
+
+- The prompt ([gemini.ts](illustrations/tools/gemini.ts)) sends three style
+  reference images, the scene, and the looks of every cast member it names. It
+  asks for no text in the picture and a vignette on white paper: soft brushy
+  edges, nothing touching the border, so pictures blend into the page.
+- **The textbook crops never go to the model.** They are only for checking
+  coverage in stage 7.
+- Renders land in `illustrations/renders/` (git-ignored); the script resumes
+  where it stopped. It converts each one to
+  `public/illustrations/<lesson>-<exercise>-<hash>.webp` (the hash changes when
+  the picture does, so caches never show an old one) and writes
+  [illustrations.json](src/lib/course/illustrations.json), which the lesson page
+  reads.
+- To redo a picture, delete its file in `renders/` and run again. To try prompt
+  changes on a few pictures first, use `render-test.ts`; to find pictures whose
+  paint runs into the border, `check-edges.ts`.
+- Entries whose exercise text changed since the plan are left out until the
+  plan is updated (stage 7).
+
+## 9. Record audio
+
+**$** ElevenLabs, charged per character; a unit's new clips are usually a few
+thousand characters. Needs `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ID` and the
+Supabase keys in `.env.local`.
+
+```bash
+npm run generate:audio -- --dry-run
+```
+
+```bash
+npm run generate:audio
+```
+
+Every Slovak text the app can play (intro cards, sentences, word tiles, options,
+spelling words) is pre-generated into Supabase Storage. Production never
+generates audio (`TTS_LIVE_GENERATION=false`), so a text without a clip falls
+back to the browser's own voice. Run this after any change to Slovak text,
+including new spelling cards. `--prune` also deletes clips no longer used.
+
+## 10. Final checks and ship
+
+```bash
+npm run -s validate:course
+```
+
+```bash
+npm run i18n:sync -- --check
+```
+
+```bash
+npx tsc --noEmit && npx eslint src
+```
+
+Then commit and push to `main`: Vercel deploys it. Commits are authored as
+`nmycd` (see the repo history).
+
+## Automatic
+
+These follow from the content; there's nothing to run.
+
+- **Dictionary.** Every intro card, grammar-card example, matching pair and
+  grammar card is indexed at build time and served as `/api/dictionary`, which
+  the search on /learn fetches when first used. New content is searchable after
+  the next deploy.
+- **Spelling cards in lessons** and **picture positions**: inserted and shifted
+  as the course loads, from `spelling.json` and `illustrations.json`.
+- **Loading**: each lesson fetches its pictures and audio in the background as it
+  starts.
+
+## When you change existing content
+
+| You change | Then |
+| --- | --- |
+| English text | `npm run i18n:sync`, retranslate the stale entries |
+| Slovak text | `npm run generate:audio`; `npm run plan:spelling` if it's in or before a typed sentence; the picture plan if the exercise has a picture (its text snapshot no longer matches) |
+| A typed sentence | `npm run plan:spelling`; add any new name to `names.ts` |
+| The order of exercises | Picture plan entries are keyed by exercise index: update `map-uN.json` and rerun `build-plan.ts`; rerun `plan:spelling` |
+| A lesson's pictures | Edit `map-uN.json`, `build-plan.ts`, then `render-plan.ts` |
+
+## Never in git, never to the model
+
+- The textbook PDF and its crops (`illustrations/book-refs/`).
+- The style references (`illustrations/style-refs/`): pages from Beatrice
+  Alemagna's *On a Magical Do-Nothing Day*. Fine for finding a look; before
+  commercial use, replace them with a style sheet made from our own renders
+  (see [DEBT.md](DEBT.md)).
+- API keys (`.env.local` only).
+
+## Not covered yet
+
+Gaps in the pipeline, most also tracked in [DEBT.md](DEBT.md):
+
+- **Native-speaker review.** The Slovak and both translations were written and
+  checked by AI. A Slovak teacher and native Ukrainian and Russian readers
+  should review before launch.
+- **Automation.** No CI runs the stage 10 checks; they're run by hand.
+- **More than one course.** Lesson ids (`u1-l1`), progress and the dictionary
+  assume A1 is the only course. A2, B1 and the driving exam need a multi-course
+  data model first.
+- **Grammar cards are mostly unillustrated**, and about 40 exercises reuse an
+  earlier picture.
+- **Spelling cards show a meaning** only for words taught on their own intro card;
+  the rest are audio only.
+- **The dictionary knows no synonyms**: "праворуч" doesn't find "направо".

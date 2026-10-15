@@ -1,8 +1,10 @@
 # Illustrations plan
 
-Slovko's lessons get their own illustrations. This folder plans them before we
-pick an image API: which exercise gets a picture, what the picture shows, and
-which page of the Krížom-krážom A1 textbook illustrated the same thing.
+Slovko's lessons get their own illustrations. This folder plans them (which
+exercise gets a picture, what the picture shows, and which page of the
+Krížom-krážom A1 textbook illustrated the same thing) and renders them (see
+Rendering). Where this fits in the whole course workflow:
+[CONTENT-PIPELINE.md](../CONTENT-PIPELINE.md).
 
 - `plan/unitN.json`: one entry per exercise that gets a picture.
 - `book-refs/`: crops of the textbook's pictures, matched to entries. **Not in
@@ -27,8 +29,8 @@ which page of the Krížom-krážom A1 textbook illustrated the same thing.
   phrase.
 - **Use the cast.** Recurring characters look the same everywhere (see below).
   Name them in `picture` descriptions; the image prompt adds their look.
-- **Style is undecided.** Keep descriptions about content (who, where, doing
-  what, mood), not about style or medium.
+- **Style comes from the references** (see Rendering). Keep descriptions about
+  content (who, where, doing what, mood), not about style or medium.
 
 ## Which exercises get a picture
 
@@ -149,3 +151,7 @@ Lekcia 6 and 9 have no title page in the scan. The answer key starts at PDF 152.
   runs into the image border instead of fading out on paper.
 - Model: Nano Banana 2.1 (`gemini-nano-banana-2.1`) at 1K, about $0.05 a
   picture (October 2026). The key is `GEMINI_API_KEY` in `.env.local`.
+- Style: three pages of Beatrice Alemagna's *On a Magical Do-Nothing Day* in
+  `style-refs/` (git-ignored, from the PDF in the project root), sent with every
+  prompt ([gemini.ts](tools/gemini.ts)). Replace them with our own style sheet
+  before commercial use.
