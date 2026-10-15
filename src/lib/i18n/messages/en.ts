@@ -75,7 +75,6 @@ export const en = {
     "Road signs, traffic vocabulary and the wording of theory test questions, for passing the driving exam in Slovakia. Planned.",
   "resources.title": "Recommended resources",
   "resources.intro": "Good places to keep learning alongside Slovko. All free unless noted.",
-  "resources.courses": "Courses and books",
   "resources.dictionaries": "Dictionaries",
   "resources.listening": "Listening and pronunciation",
 

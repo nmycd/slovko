@@ -7,29 +7,6 @@ export type ResourceGroup = { title: MessageKey; items: Resource[] };
 
 export const resourceGroups: ResourceGroup[] = [
   {
-    title: "resources.courses",
-    items: [
-      {
-        name: "Slovake.eu",
-        url: "https://slovake.eu/",
-        description: {
-          en: "A free online course from beginner to advanced, with a dictionary and exercises, in many languages.",
-          uk: "Безкоштовний онлайн-курс від початкового до просунутого рівня, зі словником і вправами, багатьма мовами.",
-          ru: "Бесплатный онлайн-курс от начального до продвинутого уровня, со словарём и упражнениями, на многих языках.",
-        },
-      },
-      {
-        name: "Studia Academica Slovaca",
-        url: "https://fphil.uniba.sk/en/departments-and-research-centres/studia-academica-slovaca/",
-        description: {
-          en: "Comenius University's summer school of Slovak language and culture in Bratislava (paid), and the home of the Krížom-krážom textbooks our A1 course follows.",
-          uk: "Літня школа словацької мови й культури Університету Коменського в Братиславі (платна), а також автори підручників Krížom-krážom, на яких побудовано наш курс A1.",
-          ru: "Летняя школа словацкого языка и культуры Университета Коменского в Братиславе (платная), а также авторы учебников Krížom-krážom, на которых построен наш курс A1.",
-        },
-      },
-    ],
-  },
-  {
     title: "resources.dictionaries",
     items: [
       {
