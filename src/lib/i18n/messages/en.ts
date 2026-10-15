@@ -54,6 +54,28 @@ export const en = {
   "path.start": "Start",
   "path.locked": "{title} (locked)",
 
+  // Courses (tabs on /learn)
+  "courses.label": "Courses",
+  "courses.driving": "Driving exam",
+  "courses.resources": "Resources",
+  "courses.soon": "soon",
+  "courses.comingSoon": "Coming soon",
+  "courses.backToA1": "Continue with A1",
+  "courses.a2.title": "A2: Pre-intermediate",
+  "courses.a2.body":
+    "The next step after A1: longer conversations, the past and future in more depth, and more of everyday life in Slovakia. It's in the works.",
+  "courses.b1.title": "B1: Intermediate",
+  "courses.b1.body":
+    "Using Slovak on your own: giving opinions, making plans, and talking about work and study. Planned after A2.",
+  "courses.driving.title": "Slovak for the driving exam",
+  "courses.driving.body":
+    "Road signs, traffic vocabulary and the wording of theory test questions, for passing the driving exam in Slovakia. Planned.",
+  "resources.title": "Recommended resources",
+  "resources.intro": "Good places to keep learning alongside Slovko. All free unless noted.",
+  "resources.courses": "Courses and books",
+  "resources.dictionaries": "Dictionaries",
+  "resources.listening": "Listening and pronunciation",
+
   // After checkout
   "checkout.done.title": "Vitaj v Premium! You're all set.",
   "checkout.done.body": "Units 3–10 are unlocked. Thanks for supporting Slovko.",

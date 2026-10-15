@@ -50,6 +50,27 @@ export const ru: Messages = {
   "path.start": "Начать",
   "path.locked": "{title} (закрыто)",
 
+  "courses.label": "Курсы",
+  "courses.driving": "Экзамен по вождению",
+  "courses.resources": "Ресурсы",
+  "courses.soon": "скоро",
+  "courses.comingSoon": "Скоро",
+  "courses.backToA1": "Продолжить A1",
+  "courses.a2.title": "A2: Ниже среднего",
+  "courses.a2.body":
+    "Следующий шаг после A1: более длинные разговоры, прошедшее и будущее время подробнее, больше повседневной жизни в Словакии. Курс уже в работе.",
+  "courses.b1.title": "B1: Средний уровень",
+  "courses.b1.body":
+    "Самостоятельный словацкий: высказывать мнение, строить планы, говорить о работе и учёбе. Запланировано после A2.",
+  "courses.driving.title": "Словацкий для экзамена по вождению",
+  "courses.driving.body":
+    "Дорожные знаки, лексика дорожного движения и формулировки вопросов теоретического экзамена, чтобы сдать экзамен по вождению в Словакии. Запланировано.",
+  "resources.title": "Полезные ресурсы",
+  "resources.intro": "Где ещё учиться вместе со Slovko. Всё бесплатно, если не указано иное.",
+  "resources.courses": "Курсы и учебники",
+  "resources.dictionaries": "Словари",
+  "resources.listening": "Аудирование и произношение",
+
   "checkout.done.title": "Vitaj v Premium! Всё готово.",
   "checkout.done.body": "Разделы 3–10 открыты. Спасибо, что поддерживаете Slovko.",
   "checkout.received": "Оплата получена!",
