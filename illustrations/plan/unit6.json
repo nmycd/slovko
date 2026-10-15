@@ -1,0 +1,373 @@
+{
+  "unit": "u6",
+  "pictures": 21,
+  "items": [
+    {
+      "lesson": "u6-l1",
+      "exercise": 0,
+      "type": "intro",
+      "text": "jedálny lístok = menu",
+      "picture": "Marek's restaurant in the evening: Emma, Lucia and Tomáš sit down at a table with a checked cloth and open big leather-bound menus; Emma studies hers with great concentration.",
+      "book": {
+        "pdfPage": 87,
+        "printedPage": 92,
+        "panel": "1",
+        "crop": "book-refs/panels/p87-1.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l1",
+      "exercise": 1,
+      "type": "intro",
+      "text": "polievka = soup",
+      "picture": "A deep bowl of steaming soup set in front of Tomáš at the restaurant table, a basket of bread beside it; he rubs his hands.",
+      "book": {
+        "pdfPage": 82,
+        "printedPage": 87,
+        "panel": "A",
+        "crop": "book-refs/panels/p82-A.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l1",
+      "exercise": 3,
+      "type": "intro",
+      "text": "hlavné jedlo = main course",
+      "picture": "Dušan the waiter sets three big plates of main courses on the restaurant table; Emma, Lucia and Tomáš lean back to make room.",
+      "book": {
+        "pdfPage": 85,
+        "printedPage": 90,
+        "panel": "H",
+        "crop": "book-refs/panels/p85-H.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l1",
+      "exercise": 4,
+      "type": "intro",
+      "text": "kuracie mäso = chicken (meat)",
+      "picture": "In the restaurant kitchen, Marek lifts a golden roast chicken out of the oven.",
+      "book": {
+        "pdfPage": 85,
+        "printedPage": 90,
+        "panel": "B",
+        "crop": "book-refs/panels/p85-B.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l1",
+      "exercise": 5,
+      "type": "intro",
+      "text": "ryba = fish",
+      "picture": "Emma tastes a grilled trout with a slice of lemon on her plate and nods: very good.",
+      "book": {
+        "pdfPage": 85,
+        "printedPage": 90,
+        "panel": "C",
+        "crop": "book-refs/panels/p85-C.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l1",
+      "exercise": 7,
+      "type": "intro",
+      "text": "ryža = rice",
+      "picture": "A plate of roast chicken with a neat dome of white rice; Marek adds a sprig of parsley on top.",
+      "book": {
+        "pdfPage": 82,
+        "printedPage": 87,
+        "panel": "B",
+        "crop": "book-refs/panels/p82-B.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l1",
+      "exercise": 8,
+      "type": "intro",
+      "text": "hranolky = chips / French fries",
+      "picture": "Tomáš, at the restaurant table, dips a chip into ketchup from a big heap of fries on his plate.",
+      "book": {
+        "pdfPage": 86,
+        "printedPage": 91,
+        "panel": "A",
+        "crop": "book-refs/panels/p86-A.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l2",
+      "exercise": 0,
+      "type": "intro",
+      "text": "Čo si dáte? = What will you have?",
+      "picture": "Dušan the waiter stands at the friends' table with his notepad and pen ready, smiling politely as Emma, Lucia and Tomáš look up from their menus.",
+      "book": [
+        {
+          "pdfPage": 87,
+          "printedPage": 92,
+          "panel": "1",
+          "crop": "book-refs/panels/p87-1.jpg"
+        },
+        {
+          "pdfPage": 82,
+          "printedPage": 87,
+          "panel": "1",
+          "crop": "book-refs/panels/p82-1.jpg"
+        }
+      ]
+    },
+    {
+      "lesson": "u6-l2",
+      "exercise": 1,
+      "type": "intro",
+      "text": "Dám si polievku. = I'll have the soup.",
+      "picture": "Emma points to a line on her menu and orders; Dušan writes it down.",
+      "book": {
+        "pdfPage": 82,
+        "printedPage": 87,
+        "panel": "1",
+        "crop": "book-refs/panels/p82-1.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l2",
+      "exercise": 2,
+      "type": "choice",
+      "text": "Čo si dáte? A waiter says this. What does he want to know?",
+      "reuse": "u6-l2#0",
+      "book": {
+        "pdfPage": 87,
+        "printedPage": 92,
+        "panel": "1",
+        "crop": "book-refs/panels/p87-1.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l2",
+      "exercise": 4,
+      "type": "intro",
+      "text": "A na pitie? = And to drink?",
+      "picture": "Dušan, pen still on his notepad, raises his eyebrows at Tomáš, who has turned to the drinks page of the menu.",
+      "book": {
+        "pdfPage": 87,
+        "printedPage": 92,
+        "panel": "2",
+        "crop": "book-refs/panels/p87-2.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l2",
+      "exercise": 6,
+      "type": "intro",
+      "text": "Chutí ti? = Do you like it? (food)",
+      "picture": "Mid-meal at the restaurant: Lucia leans over to Emma with a questioning look; Emma, her mouth full, gives an enthusiastic thumbs up.",
+      "book": {
+        "pdfPage": 87,
+        "printedPage": 92,
+        "panel": "4",
+        "crop": "book-refs/panels/p87-4.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l2",
+      "exercise": 7,
+      "type": "choice",
+      "text": "Your soup is delicious. Lucia asks “Chutí ti?”. What do you say?",
+      "reuse": "u6-l2#6",
+      "book": {
+        "pdfPage": 87,
+        "printedPage": 92,
+        "panel": "4",
+        "crop": "book-refs/panels/p87-4.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l2",
+      "exercise": 8,
+      "type": "intro",
+      "text": "horúci = hot",
+      "picture": "Tomáš blows on a steaming cup of tea that's far too hot to drink, pulling a face.",
+      "book": {
+        "pdfPage": 86,
+        "printedPage": 91,
+        "panel": "C",
+        "crop": "book-refs/panels/p86-C.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l2",
+      "exercise": 9,
+      "type": "intro",
+      "text": "sladký = sweet",
+      "picture": "Emma takes a bite of a slice of cake piled with whipped cream and chocolate, eyes closed in bliss.",
+      "book": {
+        "pdfPage": 86,
+        "printedPage": 91,
+        "panel": "B",
+        "crop": "book-refs/panels/p86-B.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l2",
+      "exercise": 10,
+      "type": "intro",
+      "text": "slaný = salty",
+      "picture": "Tomáš pulls a face after a spoonful of soup and pushes away the salt shaker; Lucia laughs.",
+      "book": {
+        "pdfPage": 86,
+        "printedPage": 91,
+        "panel": "B",
+        "crop": "book-refs/panels/p86-B.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l4",
+      "exercise": 0,
+      "type": "intro",
+      "text": "Účet, prosím. = The bill, please.",
+      "picture": "At the end of the meal, Dušan comes over to the table and Tomáš, getting up, asks him for the bill, his wallet already in his hand; Emma and Lucia finish their drinks.",
+      "book": {
+        "pdfPage": 84,
+        "printedPage": 89,
+        "panel": "1",
+        "crop": "book-refs/panels/p84-1.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l4",
+      "exercise": 1,
+      "type": "intro",
+      "text": "Spolu alebo osobitne? = Together or separately?",
+      "picture": "Dušan holds out the bill and a card reader and looks from one friend to the next; Lucia and Emma both reach for their purses.",
+      "book": {
+        "pdfPage": 87,
+        "printedPage": 92,
+        "panel": "3",
+        "crop": "book-refs/panels/p87-3.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l4",
+      "exercise": 2,
+      "type": "choice",
+      "text": "The waiter asks “Spolu alebo osobitne?”. You're paying for everyone. What do you say?",
+      "reuse": "u6-l4#1",
+      "book": {
+        "pdfPage": 87,
+        "printedPage": 92,
+        "panel": "3",
+        "crop": "book-refs/panels/p87-3.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l4",
+      "exercise": 3,
+      "type": "intro",
+      "text": "Ako ideš domov? = How are you getting home?",
+      "picture": "Late evening at a tram stop near Marek's restaurant, a tram pulling in: Emma, Lucia and Tomáš stand talking about how each of them is getting home.",
+      "book": {
+        "pdfPage": 84,
+        "printedPage": 89,
+        "panel": "2",
+        "crop": "book-refs/panels/p84-2.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l4",
+      "exercise": 4,
+      "type": "intro",
+      "text": "Idem autobusom. = I'm going by bus.",
+      "reuse": "u4-l3#7",
+      "book": {
+        "pdfPage": 90,
+        "printedPage": 95,
+        "panel": "A",
+        "crop": "book-refs/panels/p90-A.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l4",
+      "exercise": 10,
+      "type": "intro",
+      "text": "pešo = on foot",
+      "picture": "Lucia walks home along a quiet lamplit street, hands in her pockets, humming.",
+      "book": {
+        "pdfPage": 90,
+        "printedPage": 95,
+        "panel": "C",
+        "crop": "book-refs/panels/p90-C.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l4",
+      "exercise": 14,
+      "type": "intro",
+      "text": "Cestujem s kamarátmi. = I travel with friends.",
+      "picture": "Emma, Lucia and Tomáš sit together in a train compartment with backpacks on the rack, sharing snacks and laughing.",
+      "book": null
+    },
+    {
+      "lesson": "u6-l5",
+      "exercise": 6,
+      "type": "grammar",
+      "text": "Where? pred, za, nad, pod, medzi",
+      "picture": "Tomáš's untidy office: a lamp hangs above the desk, a bin sits under it, a printer stands between the desk and the shelves, and Tomáš, carrying a stack of boxes, stands behind his chair.",
+      "book": {
+        "pdfPage": 91,
+        "printedPage": 96,
+        "panel": "1",
+        "crop": "book-refs/panels/p91-1.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l6",
+      "exercise": 7,
+      "type": "intro",
+      "text": "Ďakujem za pozvanie. = Thanks for the invitation.",
+      "picture": "Split picture of a phone call. Left: Tomáš on his phone outside the university. Right: Emma on hers in the dorm room, beaming and thanking him for the dinner invitation.",
+      "book": {
+        "pdfPage": 81,
+        "printedPage": 86,
+        "panel": "1",
+        "crop": "book-refs/panels/p81-1.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l6",
+      "exercise": 8,
+      "type": "choice",
+      "text": "Tomáš says “Pozvem ťa na večeru.” What's a natural reply?",
+      "reuse": "u6-l6#7",
+      "book": {
+        "pdfPage": 81,
+        "printedPage": 86,
+        "panel": "1",
+        "crop": "book-refs/panels/p81-1.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l7",
+      "exercise": 0,
+      "type": "choice",
+      "text": "Polievka je veľmi slaná. What's wrong with the soup?",
+      "reuse": "u6-l2#10",
+      "book": {
+        "pdfPage": 86,
+        "printedPage": 91,
+        "panel": "B",
+        "crop": "book-refs/panels/p86-B.jpg"
+      }
+    },
+    {
+      "lesson": "u6-l7",
+      "exercise": 8,
+      "type": "choice",
+      "text": "How do you ask for the bill?",
+      "reuse": "u6-l4#0",
+      "book": {
+        "pdfPage": 84,
+        "printedPage": 89,
+        "panel": "1",
+        "crop": "book-refs/panels/p84-1.jpg"
+      }
+    }
+  ]
+}

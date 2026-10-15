@@ -37,7 +37,7 @@ export function PricingPlans() {
     <div className="mx-auto max-w-3xl px-4 py-12">
       <div className="text-center">
         <CrownIcon size={56} className="mx-auto text-gold" />
-        <h1 className="mt-3 text-4xl font-black">Slovko Premium</h1>
+        <h1 className="mt-3 text-4xl">Slovko Premium</h1>
         <p className="mt-2 text-lg text-muted">
           {t("pricing.subtitle", { n: FREE_UNIT_COUNT })}
         </p>
@@ -52,7 +52,7 @@ export function PricingPlans() {
       </ul>
 
       {isPremium ? (
-        <p className="mt-10 rounded-2xl bg-ok-soft p-5 text-center font-extrabold text-ok-dark">
+        <p className="mt-10 rounded-2xl bg-ok-soft p-5 text-center font-semibold text-ok-dark">
           {t("pricing.youArePremium")}
         </p>
       ) : (
@@ -66,13 +66,13 @@ export function PricingPlans() {
                 className={`card relative flex flex-col p-6 ${featured ? "!border-gold" : ""}`}
               >
                 {featured && (
-                  <span className="absolute -top-3 left-6 rounded-full bg-gold px-3 py-0.5 text-xs font-black uppercase text-[#3a2a00]">
+                  <span className="absolute -top-3 left-6 rounded-full bg-gold px-3 py-0.5 text-xs font-semibold text-[#2a2006]">
                     {t("pricing.bestValue")}
                   </span>
                 )}
-                <h2 className="text-xl font-black">{t(plan.label)}</h2>
+                <h2 className="text-xl">{t(plan.label)}</h2>
                 <p className="mt-2">
-                  <span className="text-4xl font-black">{plan.price}</span>
+                  <span className="text-4xl font-semibold">{plan.price}</span>
                   <span className="text-muted"> / {t(plan.per)}</span>
                 </p>
                 <p className="mt-1 text-sm font-bold text-muted">{t(plan.note)}</p>

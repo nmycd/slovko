@@ -1,0 +1,252 @@
+{
+  "unit": "u7",
+  "pictures": 18,
+  "items": [
+    {
+      "lesson": "u7-l1",
+      "exercise": 0,
+      "type": "intro",
+      "text": "prednáška = lecture",
+      "picture": "A big lecture hall with tiered rows of seats: a professor speaks at the front by a projector screen, and Emma takes notes among a crowd of students.",
+      "book": {
+        "pdfPage": 102,
+        "printedPage": 107,
+        "panel": "1",
+        "crop": "book-refs/panels/p102-1.jpg"
+      }
+    },
+    {
+      "lesson": "u7-l1",
+      "exercise": 1,
+      "type": "intro",
+      "text": "seminár = seminar, small class",
+      "picture": "A seminar in the Slovak classroom, the desks pushed together into one big table: six students and pani Horváthová sit round it in discussion; Oksana talks with her hands while Emma listens.",
+      "book": null
+    },
+    {
+      "lesson": "u7-l1",
+      "exercise": 3,
+      "type": "intro",
+      "text": "knižnica = library",
+      "picture": "The university library: tall shelves and long reading tables with green lamps. Emma carries a stack of books to the librarian's desk.",
+      "book": {
+        "pdfPage": 100,
+        "printedPage": 105,
+        "panel": "1",
+        "crop": "book-refs/panels/p100-1.jpg"
+      }
+    },
+    {
+      "lesson": "u7-l1",
+      "exercise": 5,
+      "type": "intro",
+      "text": "rozvrh hodín = timetable",
+      "picture": "Emma pins her weekly timetable, a grid of coloured blocks, to the wall above her desk in the dorm room.",
+      "book": null
+    },
+    {
+      "lesson": "u7-l1",
+      "exercise": 7,
+      "type": "intro",
+      "text": "skúška = exam",
+      "picture": "An exam in the Slovak classroom: students bent over their papers in silence; Emma chews her pen as pani Horváthová walks slowly between the desks.",
+      "book": null
+    },
+    {
+      "lesson": "u7-l1",
+      "exercise": 8,
+      "type": "intro",
+      "text": "referát = paper, presentation",
+      "picture": "Late evening at her dorm desk, Emma types a paper on her laptop, books and notes spread around her and a cold cup of tea at her elbow.",
+      "book": null
+    },
+    {
+      "lesson": "u7-l1",
+      "exercise": 12,
+      "type": "intro",
+      "text": "Prepáčte, že meškám. = Sorry I'm late. (formal)",
+      "picture": "Emma bursts into the classroom out of breath, scarf flying, mid-apology; pani Horváthová, by the board, turns with a calm, kind look.",
+      "book": {
+        "pdfPage": 98,
+        "printedPage": 103,
+        "panel": "1",
+        "crop": "book-refs/panels/p98-1.jpg"
+      }
+    },
+    {
+      "lesson": "u7-l1",
+      "exercise": 13,
+      "type": "choice",
+      "text": "Emma comes in late. What does pani Horváthová say?",
+      "reuse": "u7-l1#12",
+      "book": {
+        "pdfPage": 98,
+        "printedPage": 103,
+        "panel": "1",
+        "crop": "book-refs/panels/p98-1.jpg"
+      }
+    },
+    {
+      "lesson": "u7-l2",
+      "exercise": 0,
+      "type": "intro",
+      "text": "Koľko je hodín? = What time is it?",
+      "picture": "In the porter's lodge, Emma asks pán Kováč the time; he turns round to look at the big clock on the wall behind him.",
+      "book": {
+        "pdfPage": 103,
+        "printedPage": 108,
+        "panel": "A",
+        "crop": "book-refs/panels/p103-A.jpg"
+      }
+    },
+    {
+      "lesson": "u7-l2",
+      "exercise": 8,
+      "type": "intro",
+      "text": "Je pol ôsmej. = It's half past seven. (7:30)",
+      "picture": "The alarm clock on Emma's bedside table shows half past seven; Lucia, already dressed, shakes a sleeping Emma by the shoulder.",
+      "book": [
+        {
+          "pdfPage": 97,
+          "printedPage": 102,
+          "panel": "1",
+          "crop": "book-refs/panels/p97-1.jpg"
+        },
+        {
+          "pdfPage": 97,
+          "printedPage": 102,
+          "panel": "A",
+          "crop": "book-refs/panels/p97-A.jpg"
+        }
+      ]
+    },
+    {
+      "lesson": "u7-l2",
+      "exercise": 10,
+      "type": "intro",
+      "text": "Je štvrť na deväť. = It's a quarter past eight. (8:15)",
+      "picture": "Outside the university's main building, the big clock over the entrance shows a quarter past eight; Emma and other students hurry up the steps.",
+      "book": {
+        "pdfPage": 96,
+        "printedPage": 101,
+        "panel": "1",
+        "crop": "book-refs/panels/p96-1.jpg"
+      }
+    },
+    {
+      "lesson": "u7-l3",
+      "exercise": 0,
+      "type": "intro",
+      "text": "Ráno vstávam o siedmej. = In the morning I get up at seven.",
+      "picture": "Seven in the morning in the dorm room, the window pale with sunrise: Emma sits up in bed and stretches, her alarm clock beside her.",
+      "book": {
+        "pdfPage": 105,
+        "printedPage": 110,
+        "panel": "B",
+        "crop": "book-refs/panels/p105-B.jpg"
+      }
+    },
+    {
+      "lesson": "u7-l3",
+      "exercise": 1,
+      "type": "intro",
+      "text": "Sprchujem sa. = I take a shower.",
+      "picture": "Emma in the dorm shower behind a half-drawn curtain, shampoo foam in her hair, singing to herself.",
+      "book": {
+        "pdfPage": 105,
+        "printedPage": 110,
+        "panel": "C",
+        "crop": "book-refs/panels/p105-C.jpg"
+      }
+    },
+    {
+      "lesson": "u7-l3",
+      "exercise": 3,
+      "type": "intro",
+      "text": "Raňajkujem. = I'm having breakfast.",
+      "picture": "Emma, still sleepy, has breakfast at the dorm kitchen table: a buttered roll, a boiled egg and a mug of tea.",
+      "book": {
+        "pdfPage": 105,
+        "printedPage": 110,
+        "panel": "D",
+        "crop": "book-refs/panels/p105-D.jpg"
+      }
+    },
+    {
+      "lesson": "u7-l3",
+      "exercise": 5,
+      "type": "intro",
+      "text": "Najprv sa sprchujem, potom raňajkujem. = First I shower, then I have breakfast.",
+      "picture": "A two-step picture with an arrow between. Left: Emma in the shower. Right: Emma at breakfast with her hair wrapped in a towel.",
+      "book": null
+    },
+    {
+      "lesson": "u7-l3",
+      "exercise": 8,
+      "type": "intro",
+      "text": "Doobeda mám prednášky. = In the morning I have lectures.",
+      "reuse": "u7-l1#0",
+      "book": null
+    },
+    {
+      "lesson": "u7-l3",
+      "exercise": 10,
+      "type": "intro",
+      "text": "Učím sa. = I'm studying.",
+      "reuse": "u3-l3#1",
+      "book": {
+        "pdfPage": 105,
+        "printedPage": 110,
+        "panel": "E",
+        "crop": "book-refs/panels/p105-E.jpg"
+      }
+    },
+    {
+      "lesson": "u7-l3",
+      "exercise": 13,
+      "type": "intro",
+      "text": "Večer som unavená. = In the evening I'm tired. (woman speaking)",
+      "picture": "Late evening in the dorm room, the window dark: Emma, worn out, has flopped onto her bed still in her clothes and fallen fast asleep.",
+      "book": {
+        "pdfPage": 105,
+        "printedPage": 110,
+        "panel": "F",
+        "crop": "book-refs/panels/p105-F.jpg"
+      }
+    },
+    {
+      "lesson": "u7-l6",
+      "exercise": 2,
+      "type": "choice",
+      "text": "Tomáš missed the bus. What does he say?",
+      "picture": "Tomáš, his laptop bag bouncing, runs after a city bus that is just pulling away from the stop.",
+      "book": {
+        "pdfPage": 97,
+        "printedPage": 102,
+        "panel": "B",
+        "crop": "book-refs/panels/p97-B.jpg"
+      }
+    },
+    {
+      "lesson": "u7-l6",
+      "exercise": 5,
+      "type": "grammar",
+      "text": "ešte and už",
+      "picture": "Two halves, both at eight in the morning in the dorm room. Left: Lucia still asleep while her alarm clock rings. Right: Lucia already up, pulling on her sweater.",
+      "book": {
+        "pdfPage": 112,
+        "printedPage": 117,
+        "panel": "A",
+        "crop": "book-refs/panels/p112-A.jpg"
+      }
+    },
+    {
+      "lesson": "u7-l7",
+      "exercise": 3,
+      "type": "choice",
+      "text": "Lucia hasn't had breakfast yet. What does she say?",
+      "picture": "In the dorm kitchen, Emma holds out a plate of toast; Lucia, coat already on and hand on her stomach, reaches for a slice gratefully.",
+      "book": null
+    }
+  ]
+}

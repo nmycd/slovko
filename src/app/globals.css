@@ -1,57 +1,37 @@
 @import "tailwindcss";
 
+/* Ivory & Sage: warm ivory paper, sage for actions, a lichen green for
+   progress, clay for mistakes. Light only: the illustrations are painted on
+   white paper and blend into the page (see .illustration). */
 :root {
-  --bg: #ffffff;
-  --surface: #f5f7fb;
-  --surface-2: #eceff5;
-  --border: #dfe3eb;
-  --text: #1b2333;
-  --muted: #687389;
+  color-scheme: light;
 
-  --brand: #1d5fd8;
-  --brand-dark: #1446a5;
-  --brand-soft: #e5edfc;
-  --accent: #e2343f;
-  --accent-dark: #b2222c;
+  --bg: #faf9f5;
+  --surface: #f0eee6;
+  --surface-2: #e8e5da;
+  --border: #e3e0d5;
+  --border-strong: #d3cfc1;
+  --text: #1f1e1b;
+  --muted: #6b6a63;
 
-  --ok: #2c9f4b;
-  --ok-dark: #1f7a37;
-  --ok-soft: #e1f5e6;
-  --bad: #d93641;
-  --bad-dark: #a8222b;
-  --bad-soft: #fde6e7;
-  --gold: #f2b307;
-  --gold-dark: #c48f00;
-  --locked: #c9ced8;
-  --locked-dark: #a8afbc;
-}
+  --brand: #3e5a3e;
+  --brand-dark: #2f4630;
+  --brand-soft: #e8ede3;
+  --accent: #5e7d5b;
+  --lichen: #b5bd68;
+  --lichen-soft: #eef0d8;
+  --flame: #c26a3d;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #111722;
-    --surface: #18202e;
-    --surface-2: #212b3c;
-    --border: #2c374a;
-    --text: #e8ecf3;
-    --muted: #93a0b6;
-
-    --brand: #3d7bf0;
-    --brand-dark: #2556b8;
-    --brand-soft: #1b2b4a;
-    --accent: #f0525b;
-    --accent-dark: #b8303a;
-
-    --ok: #3cb95d;
-    --ok-dark: #278a41;
-    --ok-soft: #173424;
-    --bad: #ef5560;
-    --bad-dark: #b23540;
-    --bad-soft: #3b1d22;
-    --gold: #f5c033;
-    --gold-dark: #b98d0c;
-    --locked: #3a4558;
-    --locked-dark: #2a3343;
-  }
+  --ok: #5e7d5b;
+  --ok-dark: #3e5a3e;
+  --ok-soft: #e8ede3;
+  --bad: #b5573a;
+  --bad-dark: #8e3f27;
+  --bad-soft: #f6e6df;
+  --gold: #c49a3a;
+  --gold-dark: #9a7726;
+  --locked: #ece9df;
+  --locked-dark: #d9d5c7;
 }
 
 @theme inline {
@@ -59,12 +39,16 @@
   --color-surface: var(--surface);
   --color-surface-2: var(--surface-2);
   --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
   --color-text: var(--text);
   --color-muted: var(--muted);
   --color-brand: var(--brand);
   --color-brand-dark: var(--brand-dark);
   --color-brand-soft: var(--brand-soft);
   --color-accent: var(--accent);
+  --color-lichen: var(--lichen);
+  --color-lichen-soft: var(--lichen-soft);
+  --color-flame: var(--flame);
   --color-ok: var(--ok);
   --color-ok-dark: var(--ok-dark);
   --color-ok-soft: var(--ok-soft);
@@ -73,7 +57,8 @@
   --color-bad-soft: var(--bad-soft);
   --color-gold: var(--gold);
   --color-locked: var(--locked);
-  --font-sans: var(--font-nunito), ui-rounded, system-ui, sans-serif;
+  --font-sans: var(--font-onest), system-ui, sans-serif;
+  --font-serif: var(--font-literata), Georgia, serif;
 }
 
 body {
@@ -81,112 +66,121 @@ body {
   color: var(--text);
 }
 
+@layer base {
+  h1,
+  h2 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+}
+
 @layer components {
-  /* Chunky, pressable buttons. The bottom shadow is the "3D" edge. */
+  /* Flat buttons: a quiet fill, no 3D edge. */
   .btn {
     --btn-bg: var(--brand);
-    --btn-edge: var(--brand-dark);
-    --btn-fg: #fff;
+    --btn-hover: var(--brand-dark);
+    --btn-fg: var(--bg);
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
     min-height: 3rem;
     padding: 0.75rem 1.5rem;
-    border-radius: 1rem;
+    border-radius: 0.75rem;
     background: var(--btn-bg);
     color: var(--btn-fg);
-    font-weight: 800;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    font-size: 0.95rem;
-    box-shadow: 0 4px 0 var(--btn-edge);
+    font-weight: 600;
+    font-size: 1rem;
     transition:
       transform 80ms ease,
-      box-shadow 80ms ease,
-      filter 120ms ease;
+      background 120ms ease;
     user-select: none;
   }
   .btn:hover:not(:disabled) {
-    filter: brightness(1.06);
+    background: var(--btn-hover);
   }
   .btn:active:not(:disabled) {
-    transform: translateY(4px);
-    box-shadow: 0 0 0 var(--btn-edge);
+    transform: translateY(1px);
   }
   .btn:disabled {
     --btn-bg: var(--surface-2);
-    --btn-edge: var(--border);
     --btn-fg: var(--muted);
     cursor: not-allowed;
   }
   .btn-ok {
     --btn-bg: var(--ok);
-    --btn-edge: var(--ok-dark);
+    --btn-hover: var(--ok-dark);
   }
   .btn-bad {
     --btn-bg: var(--bad);
-    --btn-edge: var(--bad-dark);
+    --btn-hover: var(--bad-dark);
   }
   .btn-gold {
     --btn-bg: var(--gold);
-    --btn-edge: var(--gold-dark);
-    --btn-fg: #3a2a00;
+    --btn-hover: var(--gold-dark);
+    --btn-fg: #2a2006;
+  }
+  .btn-soft {
+    --btn-bg: var(--surface);
+    --btn-hover: var(--surface-2);
+    --btn-fg: var(--brand);
+    border: 1px solid var(--border-strong);
   }
   .btn-ghost {
-    --btn-bg: var(--bg);
-    --btn-edge: var(--border);
+    --btn-bg: transparent;
+    --btn-hover: var(--surface);
     --btn-fg: var(--brand);
-    border: 2px solid var(--border);
+    border: 1.5px solid var(--border-strong);
   }
 
   /* Selectable answer card / word tile. */
   .tile {
-    border: 2px solid var(--border);
-    border-radius: 0.9rem;
+    border: 1.5px solid var(--border-strong);
+    border-radius: 0.75rem;
     background: var(--bg);
-    box-shadow: 0 3px 0 var(--border);
-    font-weight: 700;
+    font-weight: 500;
     transition:
       transform 80ms ease,
-      box-shadow 80ms ease,
-      background 120ms ease;
+      background 120ms ease,
+      border-color 120ms ease;
   }
   .tile:hover:not(:disabled) {
     background: var(--surface);
   }
   .tile:active:not(:disabled) {
-    transform: translateY(3px);
-    box-shadow: 0 0 0 var(--border);
+    transform: translateY(1px);
   }
   .tile[data-state="selected"] {
-    border-color: var(--brand);
+    border-color: var(--accent);
     background: var(--brand-soft);
-    box-shadow: 0 3px 0 var(--brand);
     color: var(--brand);
   }
   .tile[data-state="correct"] {
     border-color: var(--ok);
-    background: var(--ok-soft);
-    box-shadow: 0 3px 0 var(--ok);
-    color: var(--ok-dark);
+    background: var(--ok);
+    color: var(--bg);
   }
   .tile[data-state="wrong"] {
     border-color: var(--bad);
     background: var(--bad-soft);
-    box-shadow: 0 3px 0 var(--bad);
-    color: var(--bad);
+    color: var(--bad-dark);
   }
   .tile[data-state="done"] {
     opacity: 0.35;
-    box-shadow: none;
-    transform: translateY(3px);
   }
 
   .card {
-    border: 2px solid var(--border);
-    border-radius: 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: 1rem;
     background: var(--bg);
+  }
+
+  /* Lesson illustrations are painted on white paper: multiply drops the
+     paper into the page colour, and the mask softens any edge that's left. */
+  .illustration {
+    mix-blend-mode: multiply;
+    mask-image: radial-gradient(ellipse 78% 78% at 50% 50%, #000 72%, transparent 100%);
   }
 }
 

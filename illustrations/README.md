@@ -1,0 +1,135 @@
+# Illustrations plan
+
+Slovko's lessons get their own illustrations. This folder plans them before we
+pick an image API: which exercise gets a picture, what the picture shows, and
+which page of the Krížom-krážom A1 textbook illustrated the same thing.
+
+- `plan/unitN.json`: one entry per exercise that gets a picture.
+- `book-refs/`: crops of the textbook's pictures, matched to entries. **Not in
+  git** (the repo is public and the book is copyrighted). Rebuild them from the
+  PDF in the project root; see "Book crops" below.
+
+## Rules
+
+- **Our pictures are our own.** The book crops show what the textbook chose
+  to depict, so we can check that we covered the same situations. Never give a
+  crop to an image model as input, and don't describe a book picture's layout
+  in a `picture` description. Describe the scene the lesson needs.
+- **No words in pictures.** The app shows the phrase in three languages next
+  to the picture. No speech bubbles with text, no signs to read. An empty name
+  badge or a blank sign is fine.
+- **A crop and its picture show the same situation.** When an entry has a
+  book crop, its `picture` shows what happens in that crop (the kind of place,
+  who does what) with our cast in the roles. Describe the situation, not the
+  drawing: no layout, poses or framing. If the exercise's own text sets a
+  different scene ("Emma bumps into pán Kováč in the corridor"), follow the
+  text and set `book` to null. Never link a crop only because it has the same
+  phrase.
+- **Use the cast.** Recurring characters look the same everywhere (see below).
+  Name them in `picture` descriptions; the image prompt adds their look.
+- **Style is undecided.** Keep descriptions about content (who, where, doing
+  what, mood), not about style or medium.
+
+## Which exercises get a picture
+
+- `intro` cards: yes, when the word or phrase can be shown.
+- `choice` exercises that describe a situation ("Emma walks into a bakery"):
+  yes. Reuse an earlier picture when it shows the same situation.
+- `grammar` cards: only when a scene carries the point (ty vs vy).
+- Everything else (`listen`, `speak`, `build`, `fill`, `match`): no.
+- Pronunciation lessons: no.
+
+## Entry format
+
+```jsonc
+{
+  "lesson": "u1-l1",
+  "exercise": 3,              // index in lesson.exercises
+  "type": "intro",
+  "text": "Dobré ráno. = Good morning.",   // snapshot, to spot edits that shift indices
+  "picture": "…",             // what to draw; omitted when reusing
+  "reuse": "u1-l1#1",         // instead of picture: show that entry's picture
+  "book": {                   // null when the book has no matching picture
+    "pdfPage": 6, "printedPage": 9, "panel": "6",
+    "crop": "book-refs/panels/p6-6.jpg"
+  }
+}
+```
+
+## Cast
+
+| Name | Look |
+| --- | --- |
+| **Emma** | 21, Irish exchange student. Auburn shoulder-length wavy hair, freckles. Mustard-yellow cardigan over a white T-shirt, jeans, canvas tote bag. |
+| **Lucia** | 19, Slovak student, Emma's roommate. Long dark-brown hair in a high ponytail, round glasses. Navy-and-white striped top, dark trousers. |
+| **Tomáš** | 30, programmer from Košice. Tall, short black hair, neat short beard. Grey hoodie, laptop backpack. |
+| **Marek** | 28, Lucia's brother, a cook. Stocky, short curly dark hair. White chef's jacket at work, red flannel shirt otherwise. |
+| **pani Horváthová** | About 55, Slovak teacher at the university. Short silver bob, glasses on a chain, teal blazer, patterned scarf. |
+| **pán Kováč** | About 65, porter at the dormitory. Grey moustache, flat cap, brown cardigan, a big ring of keys. |
+
+Minor characters who appear in more than one picture. The course doesn't name
+Oksana or Dušan; the names are only handles for the image prompt.
+
+| Name | Look |
+| --- | --- |
+| **Oksana** | 20, Ukrainian student in Emma's Slovak class. Long straight blonde hair in a side braid, green bomber jacket. |
+| **Dušan** | About 35, the waiter at Marek's restaurant. Tall and thin, slicked-back dark hair, black waistcoat over a white shirt, notepad in his apron pocket. |
+| **the baker** | About 50, runs the neighbourhood bakery. Round face, bald, white apron, flour on his forearms. |
+| **the salesman** | About 25, at the clothes shop. Short fair hair, black polo shirt, a tape measure round his neck. |
+| **the woman with the shopping bag** | About 70, a Bratislava local who gives Emma directions. Grey perm, beige raincoat, a string shopping bag. |
+| **the pensioner** | About 80. Felt hat, long dark coat, walking stick. |
+| **the clerk at the international office** | About 25, at the university's international office. Neat side parting, light-blue shirt, lanyard. |
+
+## Recurring places
+
+Places that come back in several units. Keep their layout the same each time.
+
+| Place | What it looks like | First in |
+| --- | --- | --- |
+| Emma and Lucia's dorm room | Small and cosy. Seen from the door: two desks along the left wall, Lucia's at the front by the door and Emma's at the back under the window, with a map of Europe above it; the two beds along the right wall; a tall wooden wardrobe at the back; plants on the windowsill. | u1-l1#11, u3-l1#0, u3-l3#7 |
+| Dorm kitchen | Shared. Small stove, fridge, sink, microwave, kettle, a washing machine under the counter, a table by the window. Lucia's birthday party is here. | u1-l2#5, u3-l1#1 |
+| Dorm bathroom | Shower with a curtain, sink with two toothbrushes in a mug, towels on hooks. | u3-l1#2 |
+| Dormitory building | Tall concrete student block with rows of windows; long corridors of identical doors, a staircase, a narrow balcony. | u3-l1#12 |
+| Porter's lodge | Just inside the dormitory entrance: pán Kováč sits behind a window onto the entrance hall, with a computer, a small TV and a big clock on the wall. Notices get pinned to the entrance door. | u3-l1#10, u7-l2#0 |
+| Slovak classroom | Desks in rows facing pani Horváthová's desk and a whiteboard. Pushed into one big table for seminars. | u2-l2#5, u7-l1#1 |
+| University | Main building with a clock over the entrance; a sunny courtyard; tiered lecture hall; library with tall shelves, long tables and green lamps; canteen; international office counter. | u1-l1#0, u7-l1#0 |
+| Café near the university | Small round tables, a big street window, a counter with a coffee machine. | u1-l4#5, u4-l2#1 |
+| Marek's restaurant | Dining room with checked tablecloths and leather-bound menus; a busy kitchen with big pots. | u1-l2#4, u4-l3#0, u6-l1#0 |
+| Marek's flat | Hallway in the middle; bright living room with a big window, sofa, rug and TV; small dim bedroom facing a courtyard. | u3-l5#0 |
+| Corner shop | Near the dorm. Shelves of groceries, a deli counter with scales. | u5-l1#9 |
+| Clothes shop | Racks and shelves of clothes, a mirror, a counter with high shelves behind it. | u4-l3#3, u5-l3#3 |
+| Neighbourhood bakery | Small; shelves of rolls and loaves behind the counter. | u1-l1#1 |
+| Tomáš's company | An office building with several floors: a reception desk at the entrance, a canteen, a meeting room, a training room, a room for staff parties, the technical department. Tomáš's own office is untidy: a desk with a lamp above it, a printer, shelves. | u8-l1#0, u6-l5#6 |
+| Bratislava Old Town | Square with a fountain and pastel houses, narrow streets, a church with a tall spire; the white castle with four corner towers on its hill; the bridge with one pylon and a round saucer on top; café tables on the Danube embankment. | u4-l1#0 |
+| Park bench | Tomáš's bench from the weather pictures (sunny, partly cloudy, cloudy, rain); the pensioner feeds pigeons in the same park. | u1-l3#1, u10-l2#2 |
+| Conference centre | Foyer with a registration desk and posters; a hall with a lectern and a big screen. | u9-l1#0 |
+
+## Book crops
+
+The PDF has no text layer; pages are scans. PDF page numbers differ from the
+printed ones by an offset that grows where the scan skips a page (Lekcia 1 is
+PDF 4 = printed 7). Read the printed number off the page.
+
+| Lekcia | PDF pages | Printed minus PDF |
+| --- | --- | --- |
+| 1–5 | 4–80 | 3 |
+| 6–8 | 81–128 | 5 |
+| 9–10 | 129–151 | 7 |
+
+Lekcia 6 and 9 have no title page in the scan. The answer key starts at PDF 152.
+
+## Workflow per unit
+
+1. `npx tsx illustrations/tools/list-exercises.ts . N` lists the unit's
+   exercises with their indices.
+2. Read the book lesson's pages and pick the pictures that match.
+3. Write the panel boxes to `plan/book-panels-uN.txt` (committed), then
+   `sh illustrations/tools/cut-panels.sh N` cuts the crops. Check them on a
+   contact sheet (`magick montage …`) and fix boxes that cut off a picture.
+4. Write `plan/map-uN.json` (see `map-u1.json`), then
+   `npx tsx illustrations/tools/build-plan.ts . N <printed minus PDF page>`
+   writes `plan/unitN.json`. It checks that every crop exists and that every
+   reuse points at an entry with a picture. A reuse may point into an earlier
+   unit (`"reuse": "u1-l3#3"`); prefer that to describing the same scene again.
+   Unused crops in `book-panels-uN.txt` are fine: they show what the book
+   pictured that we chose not to.

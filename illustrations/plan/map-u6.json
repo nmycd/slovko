@@ -1,0 +1,35 @@
+{
+  "u6-l1#0": {"picture": "Marek's restaurant in the evening: Emma, Lucia and Tomáš sit down at a table with a checked cloth and open big leather-bound menus; Emma studies hers with great concentration.", "panel": "p87-1"},
+  "u6-l1#1": {"picture": "A deep bowl of steaming soup set in front of Tomáš at the restaurant table, a basket of bread beside it; he rubs his hands.", "panel": "p82-A"},
+  "u6-l1#3": {"picture": "Dušan the waiter sets three big plates of main courses on the restaurant table; Emma, Lucia and Tomáš lean back to make room.", "panel": "p85-H"},
+  "u6-l1#4": {"picture": "In the restaurant kitchen, Marek lifts a golden roast chicken out of the oven.", "panel": "p85-B"},
+  "u6-l1#5": {"picture": "Emma tastes a grilled trout with a slice of lemon on her plate and nods: very good.", "panel": "p85-C"},
+  "u6-l1#7": {"picture": "A plate of roast chicken with a neat dome of white rice; Marek adds a sprig of parsley on top.", "panel": "p82-B"},
+  "u6-l1#8": {"picture": "Tomáš, at the restaurant table, dips a chip into ketchup from a big heap of fries on his plate.", "panel": "p86-A"},
+
+  "u6-l2#0": {"picture": "Dušan the waiter stands at the friends' table with his notepad and pen ready, smiling politely as Emma, Lucia and Tomáš look up from their menus.", "panel": "p87-1", "panel2": "p82-1"},
+  "u6-l2#1": {"picture": "Emma points to a line on her menu and orders; Dušan writes it down.", "panel": "p82-1"},
+  "u6-l2#2": {"reuse": "u6-l2#0", "panel": "p87-1"},
+  "u6-l2#4": {"picture": "Dušan, pen still on his notepad, raises his eyebrows at Tomáš, who has turned to the drinks page of the menu.", "panel": "p87-2"},
+  "u6-l2#6": {"picture": "Mid-meal at the restaurant: Lucia leans over to Emma with a questioning look; Emma, her mouth full, gives an enthusiastic thumbs up.", "panel": "p87-4"},
+  "u6-l2#7": {"reuse": "u6-l2#6", "panel": "p87-4"},
+  "u6-l2#8": {"picture": "Tomáš blows on a steaming cup of tea that's far too hot to drink, pulling a face.", "panel": "p86-C"},
+  "u6-l2#9": {"picture": "Emma takes a bite of a slice of cake piled with whipped cream and chocolate, eyes closed in bliss.", "panel": "p86-B"},
+  "u6-l2#10": {"picture": "Tomáš pulls a face after a spoonful of soup and pushes away the salt shaker; Lucia laughs.", "panel": "p86-B"},
+
+  "u6-l4#0": {"picture": "At the end of the meal, Dušan comes over to the table and Tomáš, getting up, asks him for the bill, his wallet already in his hand; Emma and Lucia finish their drinks.", "panel": "p84-1"},
+  "u6-l4#1": {"picture": "Dušan holds out the bill and a card reader and looks from one friend to the next; Lucia and Emma both reach for their purses.", "panel": "p87-3"},
+  "u6-l4#2": {"reuse": "u6-l4#1", "panel": "p87-3"},
+  "u6-l4#3": {"picture": "Late evening at a tram stop near Marek's restaurant, a tram pulling in: Emma, Lucia and Tomáš stand talking about how each of them is getting home.", "panel": "p84-2"},
+  "u6-l4#4": {"reuse": "u4-l3#7", "panel": "p90-A"},
+  "u6-l4#10": {"picture": "Lucia walks home along a quiet lamplit street, hands in her pockets, humming.", "panel": "p90-C"},
+  "u6-l4#14": {"picture": "Emma, Lucia and Tomáš sit together in a train compartment with backpacks on the rack, sharing snacks and laughing.", "panel": null},
+
+  "u6-l5#6": {"picture": "Tomáš's untidy office: a lamp hangs above the desk, a bin sits under it, a printer stands between the desk and the shelves, and Tomáš, carrying a stack of boxes, stands behind his chair.", "panel": "p91-1"},
+
+  "u6-l6#7": {"picture": "Split picture of a phone call. Left: Tomáš on his phone outside the university. Right: Emma on hers in the dorm room, beaming and thanking him for the dinner invitation.", "panel": "p81-1"},
+  "u6-l6#8": {"reuse": "u6-l6#7", "panel": "p81-1"},
+
+  "u6-l7#0": {"reuse": "u6-l2#10", "panel": "p86-B"},
+  "u6-l7#8": {"reuse": "u6-l4#0", "panel": "p84-1"}
+}

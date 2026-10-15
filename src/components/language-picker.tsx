@@ -11,7 +11,7 @@ export function LanguageSelect({ id, className = "" }: { id?: string; className?
       id={id}
       value={locale}
       onChange={(e) => setLocale(e.target.value as Locale)}
-      className={`rounded-xl border-2 border-border bg-surface px-3 py-2 font-bold outline-none focus:border-brand ${className}`}
+      className={`rounded-xl border-[1.5px] border-border-strong bg-bg px-3 py-2 font-medium outline-none focus:border-accent ${className}`}
     >
       {locales.map((l) => (
         <option key={l} value={l}>

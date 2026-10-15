@@ -14,7 +14,7 @@
 /coverage
 
 # next.js
-/.next/
+/.next
 /out/
 
 # production
@@ -43,3 +43,9 @@ next-env.d.ts
 # source textbook (copyrighted, large)
 *.pdf
 !.env.example
+
+# Illustration work files, local only: textbook crops and style references
+# (copyrighted, reference only) and test renders
+/illustrations/book-refs/
+/illustrations/style-refs/
+/illustrations/test-renders/

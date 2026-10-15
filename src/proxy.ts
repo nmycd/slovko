@@ -24,7 +24,7 @@ export async function proxy(request: NextRequest) {
   const { data } = await supabase.auth.getClaims();
 
   const signedIn = Boolean(data?.claims);
-  const { pathname } = request.nextUrl;
+  const { pathname, search } = request.nextUrl;
 
   const redirectTo = (url: URL) => {
     const redirect = NextResponse.redirect(url);
@@ -38,7 +38,7 @@ export async function proxy(request: NextRequest) {
 
   if (!signedIn && pathname.startsWith("/lesson/")) {
     const login = new URL("/login", request.url);
-    login.searchParams.set("next", pathname);
+    login.searchParams.set("next", pathname + search);
     return redirectTo(login);
   }
   return response;

@@ -1,0 +1,275 @@
+{
+  "unit": "u9",
+  "pictures": 18,
+  "items": [
+    {
+      "lesson": "u9-l1",
+      "exercise": 0,
+      "type": "intro",
+      "text": "konferencia = conference",
+      "picture": "Registration at the conference, in a busy foyer: an organiser with a lanyard welcomes Tomáš and hands him his name badge; other participants queue at the desk behind them.",
+      "book": {
+        "pdfPage": 132,
+        "printedPage": 139,
+        "panel": "1",
+        "crop": "book-refs/panels/p132-1.jpg"
+      }
+    },
+    {
+      "lesson": "u9-l1",
+      "exercise": 1,
+      "type": "intro",
+      "text": "prednáška = lecture, talk",
+      "picture": "Tomáš gives his talk in the conference hall, standing at a lectern beside a big screen showing a chart; the audience listens in rows, Emma among them.",
+      "book": null
+    },
+    {
+      "lesson": "u9-l1",
+      "exercise": 3,
+      "type": "intro",
+      "text": "pozvánka = invitation",
+      "picture": "Split picture of a phone call. Left: Emma, cooking in the dorm kitchen, holds up an invitation card as she tells her news. Right: Emma's mum, at home in Ireland, listens, delighted.",
+      "book": {
+        "pdfPage": 129,
+        "printedPage": 136,
+        "panel": "1",
+        "crop": "book-refs/panels/p129-1.jpg"
+      }
+    },
+    {
+      "lesson": "u9-l1",
+      "exercise": 5,
+      "type": "intro",
+      "text": "prihláška = registration form",
+      "picture": "At the conference registration desk, Emma fills in a form on a clipboard while a smiling organiser with a lanyard waits with her badge.",
+      "book": [
+        {
+          "pdfPage": 132,
+          "printedPage": 139,
+          "panel": "V",
+          "crop": "book-refs/panels/p132-V.jpg"
+        },
+        {
+          "pdfPage": 132,
+          "printedPage": 139,
+          "panel": "1",
+          "crop": "book-refs/panels/p132-1.jpg"
+        }
+      ]
+    },
+    {
+      "lesson": "u9-l1",
+      "exercise": 8,
+      "type": "intro",
+      "text": "prestávka na kávu = coffee break",
+      "picture": "Coffee break at the conference: people with badges crowd round a long table of cups and pastries. Tomáš balances a coffee and a croissant while chatting to Emma.",
+      "book": null
+    },
+    {
+      "lesson": "u9-l1",
+      "exercise": 11,
+      "type": "intro",
+      "text": "Teším sa na konferenciu. = I'm looking forward to the conference.",
+      "reuse": "u9-l1#3",
+      "book": {
+        "pdfPage": 129,
+        "printedPage": 136,
+        "panel": "1",
+        "crop": "book-refs/panels/p129-1.jpg"
+      }
+    },
+    {
+      "lesson": "u9-l1",
+      "exercise": 12,
+      "type": "choice",
+      "text": "Emma got an invitation. How does she say it?",
+      "reuse": "u9-l1#3",
+      "book": {
+        "pdfPage": 129,
+        "printedPage": 136,
+        "panel": "1",
+        "crop": "book-refs/panels/p129-1.jpg"
+      }
+    },
+    {
+      "lesson": "u9-l3",
+      "exercise": 0,
+      "type": "intro",
+      "text": "súbor = file",
+      "picture": "Tomáš frowns at his office computer screen, full of folders and file icons, hunting for one file.",
+      "book": {
+        "pdfPage": 131,
+        "printedPage": 138,
+        "panel": "A",
+        "crop": "book-refs/panels/p131-A.jpg"
+      }
+    },
+    {
+      "lesson": "u9-l3",
+      "exercise": 1,
+      "type": "intro",
+      "text": "otvoriť = to open",
+      "picture": "Two halves at Emma's laptop. Left: she double-clicks and a document opens on the screen. Right: she clicks it closed and folds the laptop shut.",
+      "book": {
+        "pdfPage": 131,
+        "printedPage": 138,
+        "panel": "A",
+        "crop": "book-refs/panels/p131-A.jpg"
+      }
+    },
+    {
+      "lesson": "u9-l3",
+      "exercise": 3,
+      "type": "intro",
+      "text": "uložiť = to save",
+      "picture": "Late at night at her dorm desk, Emma clicks save on her finished paper and slumps back with a huge sigh of relief.",
+      "book": {
+        "pdfPage": 131,
+        "printedPage": 138,
+        "panel": "A",
+        "crop": "book-refs/panels/p131-A.jpg"
+      }
+    },
+    {
+      "lesson": "u9-l3",
+      "exercise": 5,
+      "type": "intro",
+      "text": "kliknúť na ikonu = to click on the icon",
+      "picture": "Close-up of Emma's hand on a computer mouse; on the screen the pointer hovers over a bright, colourful icon on the desktop.",
+      "book": {
+        "pdfPage": 131,
+        "printedPage": 138,
+        "panel": "A",
+        "crop": "book-refs/panels/p131-A.jpg"
+      }
+    },
+    {
+      "lesson": "u9-l3",
+      "exercise": 8,
+      "type": "intro",
+      "text": "kopírovať a vložiť = to copy and paste",
+      "picture": "At the dorm desk, Lucia shows Emma how to copy a chart from one window and paste it into her slides; Emma leans in, following on the laptop screen.",
+      "book": {
+        "pdfPage": 131,
+        "printedPage": 138,
+        "panel": "1",
+        "crop": "book-refs/panels/p131-1.jpg"
+      }
+    },
+    {
+      "lesson": "u9-l3",
+      "exercise": 11,
+      "type": "intro",
+      "text": "vytlačiť = to print",
+      "picture": "In the office at Tomáš's company, Tomáš waits by the printer as the pages of his talk slide out into the tray.",
+      "book": null
+    },
+    {
+      "lesson": "u9-l3",
+      "exercise": 13,
+      "type": "intro",
+      "text": "poslať e-mailom = to send by e-mail",
+      "picture": "Lucia, at her laptop in the dorm room, sends an e-mail with a file attached; a bubble shows the friend it's for, at her own laptop far away, receiving it.",
+      "book": {
+        "pdfPage": 130,
+        "printedPage": 137,
+        "panel": "1",
+        "crop": "book-refs/panels/p130-1.jpg"
+      }
+    },
+    {
+      "lesson": "u9-l4",
+      "exercise": 0,
+      "type": "grammar",
+      "text": "Si: for yourself",
+      "picture": "Two halves. Left: Tomáš in the shower, washing himself. Right: Lucia at the bathroom sink, washing just her hands.",
+      "book": {
+        "pdfPage": 137,
+        "printedPage": 144,
+        "panel": "A",
+        "crop": "book-refs/panels/p137-A.jpg"
+      }
+    },
+    {
+      "lesson": "u9-l5",
+      "exercise": 0,
+      "type": "intro",
+      "text": "dotazník = questionnaire, form",
+      "picture": "At the counter of the university's international office, Emma bends over a long printed form full of empty boxes, pen in hand.",
+      "book": {
+        "pdfPage": 136,
+        "printedPage": 143,
+        "panel": "A",
+        "crop": "book-refs/panels/p136-A.jpg"
+      }
+    },
+    {
+      "lesson": "u9-l5",
+      "exercise": 1,
+      "type": "intro",
+      "text": "Vypíšte, prosím, dotazník. = Please fill in the questionnaire.",
+      "picture": "The clerk at the international office slides a form and a pen across the counter to Emma with a polite gesture.",
+      "book": {
+        "pdfPage": 136,
+        "printedPage": 143,
+        "panel": "A",
+        "crop": "book-refs/panels/p136-A.jpg"
+      }
+    },
+    {
+      "lesson": "u9-l5",
+      "exercise": 3,
+      "type": "intro",
+      "text": "trvalé bydlisko = permanent address",
+      "picture": "Emma writes her home address on the form; a thought bubble shows her family's small terraced house in Ireland with a red front door.",
+      "book": {
+        "pdfPage": 136,
+        "printedPage": 143,
+        "panel": "A",
+        "crop": "book-refs/panels/p136-A.jpg"
+      }
+    },
+    {
+      "lesson": "u9-l5",
+      "exercise": 6,
+      "type": "intro",
+      "text": "národnosť = nationality",
+      "reuse": "u2-l1#11",
+      "book": null
+    },
+    {
+      "lesson": "u9-l5",
+      "exercise": 7,
+      "type": "intro",
+      "text": "zamestnávateľ = employer",
+      "reuse": "u8-l1#0",
+      "book": null
+    },
+    {
+      "lesson": "u9-l5",
+      "exercise": 10,
+      "type": "intro",
+      "text": "Podpíšte sa tu, prosím. = Please sign here.",
+      "picture": "The clerk at the international office points to the line at the bottom of the form; Emma signs her name with a flourish.",
+      "book": {
+        "pdfPage": 132,
+        "printedPage": 139,
+        "panel": "P",
+        "crop": "book-refs/panels/p132-P.jpg"
+      }
+    },
+    {
+      "lesson": "u9-l5",
+      "exercise": 12,
+      "type": "intro",
+      "text": "Ako sa vám páčila konferencia? = How did you like the conference?",
+      "picture": "After the last talk, Emma meets pani Horváthová in the conference foyer; they shake hands, and pani Horváthová, looking proud, asks her how she liked the conference.",
+      "book": {
+        "pdfPage": 133,
+        "printedPage": 140,
+        "panel": "1",
+        "crop": "book-refs/panels/p133-1.jpg"
+      }
+    }
+  ]
+}

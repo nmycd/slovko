@@ -1,0 +1,16 @@
+# Panel boxes for unit 5 (Lekcia 5, PDF 64–80 = printed 67–83): name pdfPage x0 y0 x1 y1
+# Coordinates are in an 808-px-wide page; pages are rendered 2x (1616 px), so multiply by 2.
+# Crops go to book-refs/panels/<name>.jpg
+p65-1 65 435 10 808 335
+p65-A 65 35 560 705 745
+p65-B 65 705 610 808 705
+p66-1 66 35 85 350 385
+p66-A 66 465 590 575 705
+p67-A 67 460 390 565 665
+p68-1 68 315 65 685 350
+p69-1 69 425 20 790 310
+p70-A 70 355 25 765 305
+p70-B 70 265 825 355 1005
+p71-A 71 25 140 475 440
+p71-B 71 440 140 808 385
+p72-A 72 10 90 745 170

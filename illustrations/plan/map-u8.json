@@ -1,0 +1,18 @@
+{
+  "u8-l1#0": {"picture": "A busy morning at Tomáš's company: on every floor of the building people are at work, in offices, in a meeting, at a training session and in the canteen. At the entrance, Tomáš waves to the receptionist.", "panel": "p119-1"},
+  "u8-l1#1": {"picture": "The technical department of Tomáš's company: Tomáš and two colleagues work at their screens while an IT technician carries a new computer through the room.", "panel": "p119-3"},
+  "u8-l1#2": {"picture": "An after-work party at Tomáš's company: employees, men and women, chat in small groups round a table of snacks and drinks; Tomáš talks with a woman colleague in a blazer.", "panel": "p119-E"},
+  "u8-l1#4": {"picture": "A team meeting at Tomáš's company: Tomáš and four colleagues sit round a table with their manager, talking things over.", "panel": "p115-A"},
+  "u8-l1#5": {"picture": "A business lunch: Tomáš and a client in a suit sit across a restaurant table from each other, talking over their plates.", "panel": "p119-S"},
+  "u8-l1#8": {"picture": "At her dorm desk, Emma scrolls through job ads on her laptop and circles one in a printed list, a mug of tea beside her.", "panel": "p128-A"},
+  "u8-l1#9": {"picture": "Emma's CV lies finished on her desk, one page with a small photo of her in the corner; she signs it with a flourish.", "panel": "p128-B"},
+  "u8-l1#10": {"picture": "A job interview in a small office at Tomáš's company: Emma, in a smart blazer, sits upright across the desk from the HR manager, who reads her CV through her glasses.", "panel": "p128-C"},
+  "u8-l1#11": {"reuse": "u8-l1#8", "panel": "p128-A"},
+
+  "u8-l2#4": {"picture": "A sunny Saturday: Emma, Lucia and Tomáš hike up a forest path in the hills above Bratislava with backpacks, Lucia leading the way.", "panel": null},
+  "u8-l2#12": {"picture": "Summer: Emma and Lucia cycle along a path through green rolling hills under a hot sun.", "panel": "p121-L"},
+  "u8-l2#13": {"picture": "Winter: the same rolling hills under deep snow; Emma and Lucia, in woolly hats and scarves, trudge along the path.", "panel": "p121-Z"},
+
+  "u8-l7#0": {"reuse": "u8-l1#10", "panel": "p128-C"},
+  "u8-l7#14": {"reuse": "u8-l1#9", "panel": "p128-B"}
+}

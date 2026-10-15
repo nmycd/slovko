@@ -1,0 +1,26 @@
+# Panel boxes for unit 4 (Lekcia 4, PDF 46–63 = printed 49–66): name pdfPage x0 y0 x1 y1
+# Coordinates are in an 808-px-wide page; pages are rendered 2x (1616 px), so multiply by 2.
+# Crops go to book-refs/panels/<name>.jpg
+# p39-B and p40-A sit on Lekcia 3's adjective pages (same offset).
+p39-B 39 425 300 505 385
+p40-A 40 40 135 375 290
+p48-A 48 270 345 485 495
+p48-B 48 505 370 725 480
+p48-C 48 430 50 600 315
+p49-1 49 300 15 605 265
+p49-A 49 325 505 645 660
+p49-C 49 680 505 775 615
+p49-I 49 305 665 800 735
+p50-1 50 85 55 415 330
+p50-A 50 25 595 490 680
+p51-1 51 305 50 505 305
+p51-A 51 315 340 600 550
+p52-1 52 15 85 750 750
+p53-A 53 55 105 235 285
+p53-B 53 185 355 325 505
+p53-C 53 55 355 205 505
+p53-D 53 55 575 215 750
+p53-E 53 505 360 635 525
+p53-F 53 645 830 800 965
+p49-D 49 395 665 490 735
+p49-K 49 705 665 800 735

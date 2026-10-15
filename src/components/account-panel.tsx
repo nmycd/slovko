@@ -17,7 +17,7 @@ export function AccountPanel() {
   if (!authEnabled || !user) {
     return (
       <div className="card p-6 text-center">
-        <h1 className="text-2xl font-black">{t("account.notSignedIn")}</h1>
+        <h1 className="text-2xl">{t("account.notSignedIn")}</h1>
         <Link href="/login" className="btn mt-6 w-full">
           {t("account.signIn")}
         </Link>
@@ -42,18 +42,18 @@ export function AccountPanel() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-3xl font-black">{t("account.title")}</h1>
+        <h1 className="text-3xl">{t("account.title")}</h1>
         <p className="text-muted">{user.email}</p>
       </div>
 
       <div className="grid grid-cols-3 gap-3">
-        <Stat icon={<FlameIcon className="text-accent" />} value={streak} label={t("stats.streak")} />
+        <Stat icon={<FlameIcon className="text-flame" />} value={streak} label={t("stats.streak")} />
         <Stat icon={<BoltIcon className="text-gold" />} value={progress.xp} label={t("stats.xp")} />
         <Stat icon={<CheckIcon className="text-ok" />} value={completed} label={t("account.lessons")} />
       </div>
 
       <div className="card p-5">
-        <label htmlFor="native-language" className="text-lg font-black">
+        <label htmlFor="native-language" className="text-lg font-semibold">
           {t("account.language")}
         </label>
         <p className="mt-1 text-muted">{t("account.languageBody")}</p>
@@ -61,7 +61,7 @@ export function AccountPanel() {
       </div>
 
       <div className="card p-5">
-        <h2 className="flex items-center gap-2 text-lg font-black">
+        <h2 className="flex items-center gap-2 text-lg">
           <CrownIcon className="text-gold" /> {t(isPremium ? "account.premium" : "account.free")}
         </h2>
         <p className="mt-1 text-muted">
@@ -97,7 +97,7 @@ function Stat({ icon, value, label }: { icon: React.ReactNode; value: number; la
   return (
     <div className="card p-4">
       {icon}
-      <p className="mt-1 text-2xl font-black">{value}</p>
+      <p className="mt-1 text-2xl font-semibold">{value}</p>
       <p className="text-sm font-bold text-muted">{label}</p>
     </div>
   );

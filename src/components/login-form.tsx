@@ -28,7 +28,7 @@ export function LoginForm() {
   if (!supabase) {
     return (
       <div className="card p-6 text-center">
-        <h1 className="text-2xl font-black">{t("login.notConfigured.title")}</h1>
+        <h1 className="text-2xl">{t("login.notConfigured.title")}</h1>
         <p className="mt-2 text-muted">{t("login.notConfigured.body")}</p>
       </div>
     );
@@ -37,7 +37,7 @@ export function LoginForm() {
   if (user) {
     return (
       <div className="card p-6 text-center">
-        <h1 className="text-2xl font-black">{t("login.signedIn")}</h1>
+        <h1 className="text-2xl">{t("login.signedIn")}</h1>
         <p className="mt-2 text-muted">{user.email}</p>
         <button type="button" onClick={() => router.push(next)} className="btn mt-6 w-full">
           {t("login.continue")}
@@ -79,7 +79,7 @@ export function LoginForm() {
 
   return (
     <div>
-      <h1 className="text-center text-3xl font-black">
+      <h1 className="text-center text-3xl">
         {t(mode === "signup" ? "login.title.signUp" : fromLesson ? "login.title.fromLesson" : "login.title.signIn")}
       </h1>
       <p className="mt-2 text-center text-muted">
@@ -89,7 +89,7 @@ export function LoginForm() {
       <form onSubmit={submit} className="mt-8 space-y-3">
         {mode === "signup" && (
           <fieldset className="mb-5 space-y-2">
-            <legend className="mb-2 font-extrabold">{t("login.language")}</legend>
+            <legend className="mb-2 font-semibold">{t("login.language")}</legend>
             <LanguageCards value={locale} onChange={setLocale} />
             <p className="text-sm text-muted">{t("login.languageHint")}</p>
           </fieldset>
@@ -101,7 +101,7 @@ export function LoginForm() {
           placeholder={t("login.email")}
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full rounded-2xl border-2 border-border bg-surface px-4 py-3 outline-none focus:border-brand"
+          className="w-full rounded-xl border-[1.5px] border-border-strong bg-bg px-4 py-3 outline-none focus:border-accent"
         />
         <input
           type="password"
@@ -111,7 +111,7 @@ export function LoginForm() {
           placeholder={t("login.password")}
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          className="w-full rounded-2xl border-2 border-border bg-surface px-4 py-3 outline-none focus:border-brand"
+          className="w-full rounded-xl border-[1.5px] border-border-strong bg-bg px-4 py-3 outline-none focus:border-accent"
         />
         {message && (
           <p className={`text-sm font-bold ${message.kind === "error" ? "text-bad" : "text-ok-dark"}`}>
@@ -138,7 +138,7 @@ export function LoginForm() {
             setMode(mode === "signin" ? "signup" : "signin");
             setMessage(null);
           }}
-          className="font-extrabold text-brand"
+          className="font-semibold text-brand"
         >
           {t(mode === "signin" ? "login.toSignUp" : "login.toSignIn")}
         </button>

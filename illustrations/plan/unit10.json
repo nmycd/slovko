@@ -1,0 +1,202 @@
+{
+  "unit": "u10",
+  "pictures": 11,
+  "items": [
+    {
+      "lesson": "u10-l1",
+      "exercise": 0,
+      "type": "intro",
+      "text": "noviny = newspaper",
+      "picture": "At a newspaper kiosk on a street corner, magazines hanging all round its window, Emma buys a newspaper from the vendor and tucks it under her arm.",
+      "book": {
+        "pdfPage": 140,
+        "printedPage": 147,
+        "panel": "1",
+        "crop": "book-refs/panels/p140-1.jpg"
+      }
+    },
+    {
+      "lesson": "u10-l1",
+      "exercise": 1,
+      "type": "intro",
+      "text": "článok = article",
+      "picture": "In the café near the university, Emma spreads the newspaper on the table and reads an article, a finger following the lines, her coffee going cold beside her.",
+      "book": {
+        "pdfPage": 141,
+        "printedPage": 148,
+        "panel": "A",
+        "crop": "book-refs/panels/p141-A.jpg"
+      }
+    },
+    {
+      "lesson": "u10-l1",
+      "exercise": 4,
+      "type": "intro",
+      "text": "správy = the news",
+      "picture": "Evening in the porter's lodge: pán Kováč watches the news on a small TV, a newsreader at a desk on the screen, a mug of tea in his hand.",
+      "book": null
+    },
+    {
+      "lesson": "u10-l1",
+      "exercise": 5,
+      "type": "intro",
+      "text": "časopis = magazine",
+      "picture": "At the newspaper kiosk, Lucia takes a glossy magazine off the rack and flips through its colourful pages.",
+      "book": {
+        "pdfPage": 140,
+        "printedPage": 147,
+        "panel": "1",
+        "crop": "book-refs/panels/p140-1.jpg"
+      }
+    },
+    {
+      "lesson": "u10-l1",
+      "exercise": 7,
+      "type": "intro",
+      "text": "Emma číta slovenské noviny. = Emma is reading a Slovak newspaper.",
+      "reuse": "u10-l1#1",
+      "book": {
+        "pdfPage": 141,
+        "printedPage": 148,
+        "panel": "A",
+        "crop": "book-refs/panels/p141-A.jpg"
+      }
+    },
+    {
+      "lesson": "u10-l1",
+      "exercise": 9,
+      "type": "intro",
+      "text": "šport a kultúra = sport and culture",
+      "picture": "Two halves, as if two newspaper pages came to life. Left: an ice hockey player shoots the puck into the net. Right: a violinist plays on a concert stage under a spotlight.",
+      "book": null
+    },
+    {
+      "lesson": "u10-l2",
+      "exercise": 0,
+      "type": "intro",
+      "text": "počasie = weather",
+      "picture": "The weather page of the newspaper, open on the dorm kitchen table: a map of Slovakia covered in little sun, cloud, rain and snow symbols. Emma studies it over breakfast.",
+      "book": {
+        "pdfPage": 142,
+        "printedPage": 149,
+        "panel": "W",
+        "crop": "book-refs/panels/p142-W.jpg"
+      }
+    },
+    {
+      "lesson": "u10-l2",
+      "exercise": 1,
+      "type": "intro",
+      "text": "Je slnečno. = It's sunny.",
+      "reuse": "u1-l3#3",
+      "book": {
+        "pdfPage": 142,
+        "printedPage": 149,
+        "panel": "S",
+        "crop": "book-refs/panels/p142-S.jpg"
+      }
+    },
+    {
+      "lesson": "u10-l2",
+      "exercise": 2,
+      "type": "intro",
+      "text": "Je oblačno. = It's cloudy.",
+      "picture": "Tomáš on the same park bench as in the other weather pictures, under a thick grey sky with no sun at all, zipping up his hoodie.",
+      "book": {
+        "pdfPage": 142,
+        "printedPage": 149,
+        "panel": "O",
+        "crop": "book-refs/panels/p142-O.jpg"
+      }
+    },
+    {
+      "lesson": "u10-l2",
+      "exercise": 4,
+      "type": "intro",
+      "text": "Prší. = It's raining.",
+      "reuse": "u1-l3#4",
+      "book": {
+        "pdfPage": 142,
+        "printedPage": 149,
+        "panel": "D",
+        "crop": "book-refs/panels/p142-D.jpg"
+      }
+    },
+    {
+      "lesson": "u10-l2",
+      "exercise": 5,
+      "type": "intro",
+      "text": "Je teplo. Je zima. = It's warm. It's cold.",
+      "picture": "Two halves. Left: Emma in a T-shirt and sunglasses fans herself on the sunny Danube embankment. Right: Emma, bundled up in a woolly hat and scarf, shivers on a snowy mountain path in the Tatras.",
+      "book": null
+    },
+    {
+      "lesson": "u10-l2",
+      "exercise": 10,
+      "type": "intro",
+      "text": "inzerát = small ad",
+      "picture": "At the dorm kitchen table, Lucia reads the small-ads page of the newspaper, a grid of little boxed ads, and circles one in red pen.",
+      "book": {
+        "pdfPage": 142,
+        "printedPage": 149,
+        "panel": "I",
+        "crop": "book-refs/panels/p142-I.jpg"
+      }
+    },
+    {
+      "lesson": "u10-l2",
+      "exercise": 11,
+      "type": "intro",
+      "text": "Firma hľadá programátora. = A company is looking for a programmer.",
+      "picture": "Emma, reading the small ads, points out one with a little drawing of a person at a computer; Tomáš leans over her shoulder, interested.",
+      "book": {
+        "pdfPage": 142,
+        "printedPage": 149,
+        "panel": "I",
+        "crop": "book-refs/panels/p142-I.jpg"
+      }
+    },
+    {
+      "lesson": "u10-l2",
+      "exercise": 14,
+      "type": "choice",
+      "text": "You want to know the weather. What do you ask?",
+      "reuse": "u10-l2#0",
+      "book": {
+        "pdfPage": 142,
+        "printedPage": 149,
+        "panel": "W",
+        "crop": "book-refs/panels/p142-W.jpg"
+      }
+    },
+    {
+      "lesson": "u10-l5",
+      "exercise": 7,
+      "type": "choice",
+      "text": "Emma tells her friend Lucia “You're in the paper!” Which is right?",
+      "picture": "Emma bursts into the dorm kitchen waving the newspaper, open at a page with a photo of Lucia; Lucia, mid-bite of toast, stares at it in surprise.",
+      "book": {
+        "pdfPage": 142,
+        "printedPage": 149,
+        "panel": "1",
+        "crop": "book-refs/panels/p142-1.jpg"
+      }
+    },
+    {
+      "lesson": "u10-l6",
+      "exercise": 0,
+      "type": "choice",
+      "text": "You meet your teacher, pani Horváthová. What do you say?",
+      "reuse": "u1-l1#3",
+      "book": null
+    },
+    {
+      "lesson": "u10-l6",
+      "exercise": 1,
+      "type": "choice",
+      "text": "Emma is from Ireland. How does she say it?",
+      "reuse": "u2-l1#1",
+      "book": null
+    }
+  ]
+}

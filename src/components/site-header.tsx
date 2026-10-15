@@ -25,7 +25,7 @@ export function SiteHeader() {
           {!isPremium && (
             <Link
               href="/pricing"
-              className="hidden items-center gap-1 text-sm font-extrabold uppercase tracking-wide text-gold sm:flex"
+              className="hidden items-center gap-1 text-sm font-semibold text-gold sm:flex"
             >
               <CrownIcon size={18} /> {t("nav.premium")}
             </Link>
@@ -35,12 +35,12 @@ export function SiteHeader() {
               <Link
                 href="/account"
                 aria-label={t("nav.account")}
-                className="grid size-10 place-items-center rounded-full bg-brand-soft font-black text-brand"
+                className="grid size-10 place-items-center rounded-full bg-brand-soft font-semibold text-brand"
               >
                 {(user.email ?? "?")[0].toUpperCase()}
               </Link>
             ) : (
-              <Link href="/login" className="text-sm font-extrabold uppercase tracking-wide text-brand">
+              <Link href="/login" className="text-sm font-semibold text-brand">
                 {t("nav.signIn")}
               </Link>
             ))}

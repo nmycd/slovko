@@ -23,7 +23,7 @@ export function Landing() {
       <SignedInRedirect to="/learn" />
       <section className="grid items-center gap-10 py-14 md:grid-cols-2 md:py-24">
         <div className="order-2 md:order-1">
-          <h1 className="text-4xl font-black leading-tight tracking-tight sm:text-5xl">
+          <h1 className="text-4xl leading-tight tracking-tight sm:text-5xl">
             {t("landing.title")}
             <br />
             <span className="text-brand">Krok za krokom.</span>
@@ -39,11 +39,11 @@ export function Landing() {
           </div>
         </div>
         <div className="order-1 md:order-2">
-          <div className="card mx-auto max-w-sm rotate-1 p-6 shadow-[0_6px_0_var(--border)]">
-            <p className="text-sm font-extrabold uppercase tracking-wide text-muted">
+          <div className="card mx-auto max-w-sm rotate-1 p-6 shadow-[0_12px_32px_rgba(31,30,27,0.07)]">
+            <p className="text-sm font-semibold text-muted">
               {t("landing.demo.label")}
             </p>
-            <p className="mt-3 text-2xl font-black">Dobrý deň!</p>
+            <p className="mt-3 font-serif text-2xl font-medium">Dobrý deň!</p>
             <div className="mt-5 flex flex-wrap gap-2">
               {tiles.map((w, i) => (
                 <span key={w} className="tile px-3 py-2" data-state={selected.has(i) ? "selected" : undefined}>
@@ -51,7 +51,7 @@ export function Landing() {
                 </span>
               ))}
             </div>
-            <div className="mt-6 rounded-xl bg-ok-soft p-3 font-extrabold text-ok-dark">
+            <div className="mt-6 rounded-xl bg-ok-soft p-3 font-semibold text-ok-dark">
               Výborne! {t("landing.demo.correct")}
             </div>
           </div>
@@ -62,7 +62,7 @@ export function Landing() {
         {features.map(({ icon: Icon, title, body }) => (
           <div key={title} className="card p-5">
             <Icon size={28} className="text-brand" />
-            <h2 className="mt-3 text-lg font-black">{t(title)}</h2>
+            <h2 className="mt-3 text-lg">{t(title)}</h2>
             <p className="mt-1 text-muted">{t(body)}</p>
           </div>
         ))}
@@ -88,14 +88,14 @@ function TeacherQuote({ endorsement: e }: { endorsement: Endorsement }) {
     <figure className="card relative overflow-hidden p-6 sm:p-10">
       <span
         aria-hidden
-        className="absolute -top-8 left-4 select-none text-[10rem] font-black leading-none text-brand-soft"
+        className="absolute -top-8 left-4 select-none text-[10rem] font-semibold leading-none text-brand-soft"
       >
         “
       </span>
-      <p className="relative text-sm font-extrabold uppercase tracking-wide text-brand">
+      <p className="relative text-sm font-semibold text-brand">
         {t("landing.teachers")}
       </p>
-      <blockquote className="relative mt-3 text-xl font-bold leading-relaxed sm:text-2xl">
+      <blockquote className="relative mt-3 font-serif text-xl leading-relaxed sm:text-2xl">
         {t("endorsement.quote")}
       </blockquote>
       <figcaption className="relative mt-6 flex items-center gap-4">
@@ -104,13 +104,13 @@ function TeacherQuote({ endorsement: e }: { endorsement: Endorsement }) {
         ) : (
           <span
             aria-hidden
-            className="grid size-14 shrink-0 place-items-center rounded-full bg-brand text-lg font-black text-white shadow-[0_3px_0_var(--brand-dark)]"
+            className="grid size-14 shrink-0 place-items-center rounded-full bg-lichen text-lg font-semibold text-brand"
           >
             {initials}
           </span>
         )}
         <div>
-          <p className="font-black">{e.name}</p>
+          <p className="font-semibold">{e.name}</p>
           <p className="text-muted">
             {t("endorsement.role")} · {t("endorsement.affiliation")}
           </p>

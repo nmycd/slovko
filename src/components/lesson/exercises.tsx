@@ -39,22 +39,23 @@ type Props<E> = {
 };
 
 function Title({ children }: { children: React.ReactNode }) {
-  return <h1 className="text-2xl font-black sm:text-3xl">{children}</h1>;
+  // Instructions are interface text (sans); Slovak gets the serif.
+  return <h1 className="font-sans text-xl font-semibold tracking-normal sm:text-2xl">{children}</h1>;
 }
 
 export function IntroView({ exercise }: { exercise: IntroExercise }) {
   const { t } = useApp();
   return (
     <div className="animate-pop space-y-6">
-      <p className="text-sm font-extrabold uppercase tracking-wide text-brand">{t("ex.newPhrase")}</p>
+      <p className="text-sm font-semibold text-brand">{t("ex.newPhrase")}</p>
       <div className="flex items-center gap-4">
         <AudioButton text={exercise.sk} autoPlay />
-        <span className="text-3xl font-black sm:text-4xl">{exercise.sk}</span>
+        <span className="font-serif text-3xl font-medium sm:text-4xl">{exercise.sk}</span>
       </div>
-      <p className="text-xl font-semibold text-muted">{exercise.en}</p>
+      <p className="text-xl text-muted">{exercise.en}</p>
       {exercise.note && (
         <p className="rounded-2xl bg-surface p-4">
-          <span className="mr-2 font-extrabold text-brand">{t("ex.tip")}</span>
+          <span className="mr-2 font-semibold text-brand">{t("ex.tip")}</span>
           <RichText text={exercise.note} />
         </p>
       )}
@@ -67,10 +68,10 @@ export function GrammarView({ exercise }: { exercise: GrammarExercise }) {
   const { title, body, table, examples } = exercise;
   return (
     <div className="animate-pop space-y-6">
-      <p className="flex items-center gap-2 text-sm font-extrabold uppercase tracking-wide text-accent">
+      <p className="flex items-center gap-2 text-sm font-semibold text-accent">
         <BookIcon size={18} /> {t("ex.grammar")}
       </p>
-      <h1 className="text-2xl font-black sm:text-3xl">{title}</h1>
+      <h1 className="text-2xl sm:text-3xl">{title}</h1>
       {body.map((paragraph, i) => (
         <p key={i} className="text-lg leading-relaxed">
           <RichText text={paragraph} />
@@ -78,18 +79,18 @@ export function GrammarView({ exercise }: { exercise: GrammarExercise }) {
       ))}
 
       {table && (
-        <div className="overflow-x-auto rounded-2xl border-2 border-border">
+        <div className="overflow-x-auto rounded-xl border border-border">
           <table className="w-full border-collapse text-left text-base sm:text-lg">
             {table.caption && (
-              <caption className="bg-surface px-4 py-2 text-left text-sm font-extrabold uppercase tracking-wide text-muted">
+              <caption className="bg-surface px-4 py-2 text-left text-sm font-semibold text-muted">
                 {table.caption}
               </caption>
             )}
             {table.head && (
               <thead>
-                <tr className="border-b-2 border-border">
+                <tr className="border-b border-border">
                   {table.head.map((cell, i) => (
-                    <th key={i} className="px-3 py-2 text-xs font-extrabold text-muted sm:px-4 sm:text-sm">
+                    <th key={i} className="px-3 py-2 text-xs font-semibold text-muted sm:px-4 sm:text-sm">
                       <RichText text={cell} />
                     </th>
                   ))}
@@ -145,7 +146,7 @@ export function ChoiceView({ exercise, answer, setAnswer, locked }: Props<Choice
       {exercise.sk && (
         <div className="flex items-center gap-4">
           <AudioButton text={exercise.sk} autoPlay />
-          <span className="rounded-2xl border-2 border-border px-4 py-3 text-2xl font-black">
+          <span className="rounded-xl border-[1.5px] border-border-strong px-4 py-3 font-serif text-2xl font-medium">
             {exercise.sk}
           </span>
         </div>
@@ -179,7 +180,7 @@ export function FillView({ exercise, answer, setAnswer, locked }: Props<FillExer
     <div className="space-y-8">
       <Title>{t("ex.fill")}</Title>
       <p className="text-muted">{exercise.en}</p>
-      <p className="flex flex-wrap items-baseline gap-x-2 gap-y-3 text-2xl font-black">
+      <p className="flex flex-wrap items-baseline gap-x-2 gap-y-3 font-serif text-2xl font-medium">
         {exercise.before && <span>{exercise.before}</span>}
         <span
           className={`inline-block min-w-24 border-b-4 px-2 text-center ${
@@ -224,7 +225,7 @@ export function BuildView({
       <Title>{t(toSk ? "ex.writeSlovak" : "ex.writeNative")}</Title>
       <div className="flex items-center gap-4">
         {!toSk && <AudioButton text={exercise.prompt} autoPlay />}
-        <span className="rounded-2xl border-2 border-border px-4 py-3 text-xl font-bold">
+        <span className="rounded-xl border-[1.5px] border-border-strong px-4 py-3 font-serif text-xl font-medium">
           {exercise.prompt}
         </span>
       </div>
@@ -314,7 +315,7 @@ export function ListenView({ exercise, answer, setAnswer, locked }: Props<Listen
         spellCheck={false}
         autoCapitalize="off"
         placeholder={t("ex.listenPlaceholder")}
-        className="w-full resize-none rounded-2xl border-2 border-border bg-surface p-4 text-xl outline-none focus:border-brand"
+        className="w-full resize-none rounded-xl border-[1.5px] border-border-strong bg-bg p-4 font-serif text-xl outline-none focus:border-accent"
       />
       <SlovakKeys label={t("ex.accentKeys")} disabled={locked} onKey={insert} />
     </div>
@@ -484,7 +485,7 @@ export function SpeakView({
       <div className="flex items-center gap-4">
         <AudioButton text={exercise.sk} autoPlay />
         <div>
-          <p className="text-2xl font-black">{exercise.sk}</p>
+          <p className="font-serif text-2xl font-medium">{exercise.sk}</p>
           <p className="text-muted">{exercise.en}</p>
         </div>
       </div>

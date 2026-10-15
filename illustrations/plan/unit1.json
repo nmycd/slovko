@@ -1,0 +1,434 @@
+{
+  "unit": "u1",
+  "pictures": 26,
+  "items": [
+    {
+      "lesson": "u1-l1",
+      "exercise": 0,
+      "type": "intro",
+      "text": "Ahoj! = Hi! / Bye!",
+      "picture": "On a sunny university courtyard, Emma meets Lucia and Tomáš, who are walking up together. All three greet each other casually, hands raised.",
+      "book": {
+        "pdfPage": 7,
+        "printedPage": 10,
+        "panel": "22",
+        "crop": "book-refs/panels/p7-22.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l1",
+      "exercise": 1,
+      "type": "intro",
+      "text": "Dobrý deň. = Hello. (polite)",
+      "picture": "Emma walks into a small bakery. The baker, crouching to stock a low shelf of loaves, looks up and greets her.",
+      "book": {
+        "pdfPage": 6,
+        "printedPage": 9,
+        "panel": "7",
+        "crop": "book-refs/panels/p6-7.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l1",
+      "exercise": 2,
+      "type": "choice",
+      "text": "Emma walks into a bakery. What does she say?",
+      "reuse": "u1-l1#1",
+      "book": {
+        "pdfPage": 6,
+        "printedPage": 9,
+        "panel": "7",
+        "crop": "book-refs/panels/p6-7.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l1",
+      "exercise": 3,
+      "type": "intro",
+      "text": "Dobré ráno. = Good morning.",
+      "picture": "Early morning on a Bratislava street, low sun. Emma, holding a takeaway coffee, meets pani Horváthová walking to the university with a briefcase. They greet each other.",
+      "book": {
+        "pdfPage": 6,
+        "printedPage": 9,
+        "panel": "6",
+        "crop": "book-refs/panels/p6-6.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l1",
+      "exercise": 4,
+      "type": "intro",
+      "text": "Dobrý večer. = Good evening.",
+      "picture": "Evening on the street outside the dormitory, streetlamps lit. Emma, coming home, greets an older neighbour and her small grandson walking past.",
+      "book": {
+        "pdfPage": 6,
+        "printedPage": 9,
+        "panel": "12",
+        "crop": "book-refs/panels/p6-12.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l1",
+      "exercise": 7,
+      "type": "intro",
+      "text": "Dovidenia. = Goodbye. (polite)",
+      "picture": "Emma leaves the bakery with a paper bag of rolls, turning in the doorway to say goodbye to the baker.",
+      "book": {
+        "pdfPage": 6,
+        "printedPage": 9,
+        "panel": "9",
+        "crop": "book-refs/panels/p6-9.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l1",
+      "exercise": 9,
+      "type": "intro",
+      "text": "Dobrú noc. = Good night.",
+      "picture": "Late at night outside a cinema, under a streetlamp, Emma and Lucia part ways, waving good night to each other.",
+      "book": {
+        "pdfPage": 6,
+        "printedPage": 9,
+        "panel": "14",
+        "crop": "book-refs/panels/p6-14.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l1",
+      "exercise": 10,
+      "type": "intro",
+      "text": "Dobrú chuť! = Enjoy your meal!",
+      "picture": "In the university canteen, Emma, carrying her lunch tray, passes pani Horváthová eating at a table and wishes her a good meal.",
+      "book": {
+        "pdfPage": 6,
+        "printedPage": 9,
+        "panel": "10",
+        "crop": "book-refs/panels/p6-10.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l1",
+      "exercise": 11,
+      "type": "choice",
+      "text": "It's late and Lucia is going to bed. What do you say?",
+      "picture": "Late at night in Emma and Lucia's dorm room, moon in the window. Lucia, in pyjamas and yawning, is getting into bed.",
+      "book": null
+    },
+    {
+      "lesson": "u1-l2",
+      "exercise": 0,
+      "type": "intro",
+      "text": "Ďakujem. = Thank you.",
+      "picture": "In the bakery, the baker hands Emma a paper bag of rolls across the counter. Emma takes it with a grateful smile.",
+      "book": {
+        "pdfPage": 6,
+        "printedPage": 9,
+        "panel": "8",
+        "crop": "book-refs/panels/p6-8.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l2",
+      "exercise": 1,
+      "type": "intro",
+      "text": "Prosím. = Please. / You're welcome.",
+      "picture": "Emma holds the dormitory door open for pani Horváthová, who carries a stack of books. Both smile: she has just said thank you and Emma is answering.",
+      "book": null
+    },
+    {
+      "lesson": "u1-l2",
+      "exercise": 3,
+      "type": "intro",
+      "text": "Nech sa páči. = Here you go.",
+      "picture": "On a busy tram, Emma stands up and offers her seat to an elderly lady with a walking stick and a heavy bag.",
+      "book": {
+        "pdfPage": 5,
+        "printedPage": 8,
+        "panel": "2",
+        "crop": "book-refs/panels/p5-2.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l2",
+      "exercise": 4,
+      "type": "choice",
+      "text": "Marek puts a plate of food in front of you. What does he say?",
+      "picture": "Marek, in his chef's jacket, sets a steaming plate of halušky on a restaurant table in front of the viewer, smiling.",
+      "book": null
+    },
+    {
+      "lesson": "u1-l2",
+      "exercise": 5,
+      "type": "intro",
+      "text": "Áno, prosím. = Yes, please.",
+      "picture": "In the dorm kitchen, Tomáš holds up a coffee pot with raised eyebrows; Emma nods eagerly and holds out her mug.",
+      "book": null
+    },
+    {
+      "lesson": "u1-l2",
+      "exercise": 6,
+      "type": "choice",
+      "text": "Tomáš offers you a coffee, but you don't want one. What do you say?",
+      "reuse": "u1-l2#5",
+      "book": null
+    },
+    {
+      "lesson": "u1-l2",
+      "exercise": 9,
+      "type": "intro",
+      "text": "Prepáčte! = Sorry! / Excuse me!",
+      "picture": "In the university canteen, Emma turns with her tray and bumps into Tomáš, who is carrying his. His glass of juice tips over and spills. Emma looks apologetic.",
+      "book": {
+        "pdfPage": 6,
+        "printedPage": 9,
+        "panel": "11",
+        "crop": "book-refs/panels/p6-11.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l2",
+      "exercise": 10,
+      "type": "intro",
+      "text": "Nič sa nestalo. = That's OK. / No problem.",
+      "picture": "In the canteen, Tomáš mops up the spilled juice with a napkin and waves it off with a smile; Emma still looks sheepish.",
+      "book": {
+        "pdfPage": 6,
+        "printedPage": 9,
+        "panel": "11",
+        "crop": "book-refs/panels/p6-11.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l2",
+      "exercise": 11,
+      "type": "choice",
+      "text": "Emma bumps into pán Kováč in the corridor. What does she say?",
+      "picture": "In the dormitory corridor, Emma hurries round a corner and almost collides with pán Kováč; both step back in surprise.",
+      "book": null
+    },
+    {
+      "lesson": "u1-l2",
+      "exercise": 13,
+      "type": "intro",
+      "text": "Na zdravie! = Cheers! / Bless you!",
+      "picture": "Two halves for the two meanings. Left: Emma, Lucia and Tomáš clink glasses of kofola at a pub table. Right: Tomáš sneezes into a tissue while Lucia turns to him.",
+      "book": [
+        {
+          "pdfPage": 7,
+          "printedPage": 10,
+          "panel": "19",
+          "crop": "book-refs/panels/p7-19.jpg"
+        },
+        {
+          "pdfPage": 5,
+          "printedPage": 8,
+          "panel": "3",
+          "crop": "book-refs/panels/p5-3.jpg"
+        }
+      ]
+    },
+    {
+      "lesson": "u1-l2",
+      "exercise": 14,
+      "type": "choice",
+      "text": "Tomáš sneezes. What do you say?",
+      "picture": "On a train, Tomáš sneezes into a tissue; Emma, in the seat next to him, turns towards him.",
+      "book": {
+        "pdfPage": 5,
+        "printedPage": 8,
+        "panel": "3",
+        "crop": "book-refs/panels/p5-3.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l3",
+      "exercise": 0,
+      "type": "intro",
+      "text": "Ako sa máš? = How are you?",
+      "picture": "Emma at a tram stop, smiling into her phone as she asks a friend how they are.",
+      "book": {
+        "pdfPage": 7,
+        "printedPage": 10,
+        "panel": "15",
+        "crop": "book-refs/panels/p7-15.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l3",
+      "exercise": 1,
+      "type": "intro",
+      "text": "Mám sa dobre, a ty? = I'm fine, and you?",
+      "picture": "One of three linked pictures of Tomáš on the same park bench, with the weather matching his mood. This one: partly cloudy, he sits relaxed with a content smile.",
+      "book": {
+        "pdfPage": 7,
+        "printedPage": 10,
+        "panel": "B",
+        "crop": "book-refs/panels/p7-B.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l3",
+      "exercise": 3,
+      "type": "intro",
+      "text": "Mám sa výborne. = I'm great.",
+      "picture": "Tomáš on the same park bench in bright sunshine, beaming, an ice cream in hand.",
+      "book": {
+        "pdfPage": 7,
+        "printedPage": 10,
+        "panel": "A",
+        "crop": "book-refs/panels/p7-A.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l3",
+      "exercise": 4,
+      "type": "intro",
+      "text": "Mám sa zle. = I'm not doing well.",
+      "picture": "Tomáš on the same park bench in pouring rain, no umbrella, soaked and gloomy.",
+      "book": {
+        "pdfPage": 7,
+        "printedPage": 10,
+        "panel": "C",
+        "crop": "book-refs/panels/p7-C.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l3",
+      "exercise": 8,
+      "type": "intro",
+      "text": "Ako sa voláš? = What's your name?",
+      "picture": "At a student welcome party, Lucia turns to Emma, a new face, with a friendly, curious look, a drink in her hand.",
+      "book": {
+        "pdfPage": 7,
+        "printedPage": 10,
+        "panel": "17",
+        "crop": "book-refs/panels/p7-17.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l3",
+      "exercise": 9,
+      "type": "intro",
+      "text": "Volám sa Emma. = My name is Emma.",
+      "picture": "At the welcome party, Emma introduces herself, a hand on her chest, a blank name sticker on her cardigan.",
+      "book": {
+        "pdfPage": 7,
+        "printedPage": 10,
+        "panel": "17",
+        "crop": "book-refs/panels/p7-17.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l3",
+      "exercise": 11,
+      "type": "intro",
+      "text": "Teší ma. = Nice to meet you.",
+      "picture": "Emma and Tomáš shake hands warmly; Lucia, beside them, has just introduced them.",
+      "book": {
+        "pdfPage": 7,
+        "printedPage": 10,
+        "panel": "18",
+        "crop": "book-refs/panels/p7-18.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l3",
+      "exercise": 12,
+      "type": "choice",
+      "text": "Tomáš says “Teší ma.” What do you answer?",
+      "reuse": "u1-l3#11",
+      "book": {
+        "pdfPage": 7,
+        "printedPage": 10,
+        "panel": "18",
+        "crop": "book-refs/panels/p7-18.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l4",
+      "exercise": 0,
+      "type": "grammar",
+      "text": "Two ways to say “you”",
+      "picture": "Split picture. Left: Emma chats with Lucia on the dorm sofa, relaxed, feet tucked up. Right: Emma talks with pani Horváthová in her office, standing upright and polite.",
+      "book": [
+        {
+          "pdfPage": 7,
+          "printedPage": 10,
+          "panel": "17",
+          "crop": "book-refs/panels/p7-17.jpg"
+        },
+        {
+          "pdfPage": 7,
+          "printedPage": 10,
+          "panel": "16",
+          "crop": "book-refs/panels/p7-16.jpg"
+        }
+      ]
+    },
+    {
+      "lesson": "u1-l4",
+      "exercise": 1,
+      "type": "choice",
+      "text": "Emma meets pani Horváthová, her teacher. Which question fits?",
+      "reuse": "u1-l1#3",
+      "book": {
+        "pdfPage": 6,
+        "printedPage": 9,
+        "panel": "6",
+        "crop": "book-refs/panels/p6-6.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l4",
+      "exercise": 5,
+      "type": "choice",
+      "text": "Emma meets Lucia and Tomáš together. How does she ask how they are?",
+      "reuse": "u1-l1#0",
+      "book": {
+        "pdfPage": 7,
+        "printedPage": 10,
+        "panel": "22",
+        "crop": "book-refs/panels/p7-22.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l4",
+      "exercise": 7,
+      "type": "choice",
+      "text": "Lucia says “Dobrú noc!” What does Emma answer?",
+      "reuse": "u1-l1#9",
+      "book": {
+        "pdfPage": 6,
+        "printedPage": 9,
+        "panel": "14",
+        "crop": "book-refs/panels/p6-14.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l6",
+      "exercise": 0,
+      "type": "choice",
+      "text": "You meet pani Horváthová early in the morning. What do you say?",
+      "reuse": "u1-l1#3",
+      "book": {
+        "pdfPage": 6,
+        "printedPage": 9,
+        "panel": "6",
+        "crop": "book-refs/panels/p6-6.jpg"
+      }
+    },
+    {
+      "lesson": "u1-l6",
+      "exercise": 11,
+      "type": "choice",
+      "text": "Which one means “Hi, everyone!”?",
+      "reuse": "u1-l1#0",
+      "book": {
+        "pdfPage": 7,
+        "printedPage": 10,
+        "panel": "22",
+        "crop": "book-refs/panels/p7-22.jpg"
+      }
+    }
+  ]
+}

@@ -35,11 +35,11 @@ export function CheckoutBanner() {
     <div className="mx-auto max-w-5xl px-4 pt-6">
       <div
         role="status"
-        className="animate-pop flex items-start gap-4 rounded-2xl border-2 border-ok bg-ok-soft p-5 text-ok-dark"
+        className="animate-pop flex items-start gap-4 rounded-2xl border border-ok bg-ok-soft p-5 text-ok-dark"
       >
         <CrownIcon size={32} className="shrink-0 text-gold" />
         <div className="flex-1">
-          <p className="text-lg font-black">
+          <p className="text-lg font-semibold">
             {status === "done" ? t("checkout.done.title") : t("checkout.received")}
           </p>
           <p className="font-semibold">

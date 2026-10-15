@@ -1,0 +1,13 @@
+# Panel boxes for unit 10 (Lekcia 10, PDF 140–151 = printed 147–158): name pdfPage x0 y0 x1 y1
+# Coordinates are in an 808-px-wide page; pages are rendered 2x (1616 px), so multiply by 2.
+# Crops go to book-refs/panels/<name>.jpg
+p140-1 140 100 0 670 600
+p141-1 141 55 30 800 230
+p141-A 141 60 180 540 510
+p142-1 142 15 35 255 320
+p142-I 142 505 40 745 265
+p142-W 142 260 660 500 865
+p142-B 142 255 960 800 1015
+p142-S 142 255 955 360 1015
+p142-O 142 488 955 595 1015
+p142-D 142 595 955 690 1015
