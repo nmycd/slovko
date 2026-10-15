@@ -284,14 +284,11 @@ function Player({
             <p className="text-xs font-semibold text-muted">{t("lesson.place", place)}</p>
             <p className="hidden truncate font-serif text-lg leading-tight sm:block">{lesson.title}</p>
           </div>
-          {/* Phones have room for it beside the course (the lesson's title is hidden); wider screens, under it. */}
-          <VolumeSlider className="flex sm:hidden" />
           <div className="shrink-0 text-right">
             <p className="text-xs font-semibold text-muted">{t("lesson.course")}</p>
             <p className="text-sm leading-tight font-semibold text-brand sm:text-lg">
               {t("lesson.coursePct", { pct: coursePct })}
             </p>
-            <VolumeSlider className="mt-1 hidden sm:flex" />
           </div>
         </div>
         <div className="mt-2 h-2.5 overflow-hidden rounded-full bg-locked sm:mt-3">
@@ -308,6 +305,7 @@ function Player({
             />
           )}
         </div>
+        <VolumeSlider className="mt-2 flex" />
       </header>
 
       {lookUp !== null ? (

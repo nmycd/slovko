@@ -93,14 +93,9 @@ function Session({ deck }: { deck: ReviewItem[] }) {
             <CloseIcon size={28} />
           </Link>
           <p className="min-w-0 flex-1 truncate font-serif text-lg">{t("review.title")}</p>
-          {/* As in lessons: beside the count on phones, under it on wider screens. */}
-          <VolumeSlider className="flex sm:hidden" />
-          <div className="shrink-0 text-right">
-            <p className="text-sm font-semibold text-muted">
-              {t("review.progress", { n: Math.min(pos + 1, cards.length), total: cards.length })}
-            </p>
-            <VolumeSlider className="mt-1 hidden sm:flex" />
-          </div>
+          <p className="shrink-0 text-sm font-semibold text-muted">
+            {t("review.progress", { n: Math.min(pos + 1, cards.length), total: cards.length })}
+          </p>
         </div>
         <div className="mt-2 h-2.5 overflow-hidden rounded-full bg-locked sm:mt-3">
           <div
@@ -108,6 +103,7 @@ function Session({ deck }: { deck: ReviewItem[] }) {
             style={{ width: `${Math.max((pos / queue.length) * 100, 2)}%` }}
           />
         </div>
+        <VolumeSlider className="mt-2 flex" />
       </header>
 
       <Step
