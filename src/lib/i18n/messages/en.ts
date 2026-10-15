@@ -97,6 +97,12 @@ export const en = {
   // Lesson player
   "lesson.quit": "Quit lesson",
   "lesson.quitConfirm": "Quit? Your progress in this lesson will be lost.",
+  "lesson.place": "Unit {unit} · Lesson {lesson}",
+  "lesson.course": "Slovak A1",
+  "lesson.coursePct": "{pct}% complete",
+  "lesson.nav": "Exercises in this lesson",
+  "lesson.navItem": "Exercise {n}",
+  "lesson.backTo": "Back to exercise {n}",
   "lesson.correctSolution": "Correct solution:",
   "lesson.weHeard": "We heard: “{text}”",
   "lesson.continue": "Continue",

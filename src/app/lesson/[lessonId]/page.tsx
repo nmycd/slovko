@@ -46,6 +46,11 @@ async function Lesson({ params }: { params: Promise<{ lessonId: string }> }) {
       premiumUnit={found.unit.premium}
       nextId={nextLessonId(lessonId)}
       pictures={lessonIllustrations(lessonId)}
+      place={{
+        unit: found.unit.number,
+        lesson: found.unit.lessons.findIndex((l) => l.id === lessonId) + 1,
+      }}
+      courseLessonIds={allLessons.map((l) => l.id)}
     />
   );
 }

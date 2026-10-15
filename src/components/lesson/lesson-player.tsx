@@ -84,7 +84,14 @@ type PlayerProps = {
   nextId: string | null;
   /** The lesson's pictures by exercise index. */
   pictures: Record<number, Illustration>;
+  /** Unit number and the lesson's number within it, for the header. */
+  place: { unit: number; lesson: number };
+  /** Every lesson in the course, for the course progress in the header. */
+  courseLessonIds: string[];
 };
+
+/** An exercise already played: what was answered, so it can be shown again. */
+type Visit = { answer: Answer; tiles: string[]; result: Resolution | null };
 
 export function LessonPlayer(props: PlayerProps) {
   const lessonId = props.lessons.en.id;
@@ -114,9 +121,9 @@ function startStep(count: number): number {
   return Number.isInteger(step) && step > 0 && step < count ? step : 0;
 }
 
-function Player({ lessons, premiumUnit, nextId, pictures }: PlayerProps) {
+function Player({ lessons, premiumUnit, nextId, pictures, place, courseLessonIds }: PlayerProps) {
   const router = useRouter();
-  const { isPremium, completeLesson, t, locale } = useApp();
+  const { isPremium, completeLesson, t, locale, progress } = useApp();
   const lesson = lessons[locale];
   const lessonId = lesson.id;
 
@@ -128,6 +135,9 @@ function Player({ lessons, premiumUnit, nextId, pictures }: PlayerProps) {
     premiumUnit && !isPremium && !unlockAllLessons ? "paywall" : "playing",
   );
   const stats = useRef({ right: 0, graded: 0, startedAt: 0 });
+  // Played exercises by queue key, and the one being looked back at (a queue position).
+  const [history, setHistory] = useState<Record<string, Visit>>({});
+  const [viewing, setViewing] = useState<number | null>(null);
 
   // Fetch and decode the lesson's pictures up front, so each one is ready when its
   // exercise appears instead of loading in after it.
@@ -147,7 +157,8 @@ function Player({ lessons, premiumUnit, nextId, pictures }: PlayerProps) {
   const item = queue[pos];
   const exercise = lesson.exercises[item.index];
 
-  function onGraded(r: Resolution) {
+  function onGraded(r: Resolution, answer: Answer, tiles: string[]) {
+    setHistory((h) => ({ ...h, [item.key]: { answer, tiles, result: r } }));
     if (r.skipped) return;
     if (!item.retry) {
       stats.current.graded++;
@@ -162,6 +173,8 @@ function Player({ lessons, premiumUnit, nextId, pictures }: PlayerProps) {
   }
 
   function next() {
+    // Teaching cards have no answer; remember them as seen.
+    setHistory((h) => (h[item.key] ? h : { ...h, [item.key]: { answer: null, tiles: [], result: null } }));
     if (pos + 1 < queue.length) {
       setPos(pos + 1);
       return;
@@ -192,36 +205,67 @@ function Player({ lessons, premiumUnit, nextId, pictures }: PlayerProps) {
   const book = Object.keys(pictures).length > 0;
   const frame = book ? "max-w-6xl px-4 lg:px-8" : "max-w-3xl px-4";
 
+  const done = courseLessonIds.filter((id) => progress.completed[id]).length;
+  const coursePct = Math.round((done / courseLessonIds.length) * 100);
+
+  // Looking back at a finished exercise, or playing the current one. Either way an
+  // exercise that was already answered comes back with its answer and result.
+  const reviewing = viewing !== null;
+  const shown = reviewing ? queue[viewing] : item;
+
   return (
     <div className="flex min-h-dvh flex-col">
-      {/* Top bar */}
-      <div className={`mx-auto flex w-full items-center gap-4 pt-6 ${frame}`}>
-        <Link
-          href="/learn"
-          aria-label={t("lesson.quit")}
-          className="text-muted hover:text-text"
-          onClick={(e) => {
-            if (pos > 0 && !confirm(t("lesson.quitConfirm"))) e.preventDefault();
-          }}
-        >
-          <CloseIcon size={28} />
-        </Link>
-        <div className="h-2.5 flex-1 overflow-hidden rounded-full bg-locked">
+      <header className={`mx-auto w-full pt-3 sm:pt-5 ${frame}`}>
+        <div className="flex items-center gap-3">
+          <Link
+            href="/learn"
+            aria-label={t("lesson.quit")}
+            className="shrink-0 text-muted hover:text-text"
+            onClick={(e) => {
+              if (pos > 0 && !confirm(t("lesson.quitConfirm"))) e.preventDefault();
+            }}
+          >
+            <CloseIcon size={28} />
+          </Link>
+          <div className="min-w-0 flex-1">
+            <p className="text-xs font-semibold text-muted">{t("lesson.place", place)}</p>
+            <p className="hidden truncate font-serif text-lg leading-tight sm:block">{lesson.title}</p>
+          </div>
+          <div className="shrink-0 text-right">
+            <p className="text-xs font-semibold text-muted">{t("lesson.course")}</p>
+            <p className="text-sm leading-tight font-semibold text-brand sm:text-lg">
+              {t("lesson.coursePct", { pct: coursePct })}
+            </p>
+          </div>
+        </div>
+        <div className="mt-2 h-2.5 overflow-hidden rounded-full bg-locked sm:mt-3">
           <div
             className="h-full rounded-full bg-lichen transition-[width] duration-300"
             style={{ width: `${Math.max(progressPct, 2)}%` }}
           />
         </div>
-      </div>
+      </header>
 
       {/* Remounts on a language switch so word tiles are rebuilt in the new language. */}
       <Step
-        key={`${item.key}-${locale}`}
-        exercise={exercise}
-        illustration={pictures[item.index]}
+        key={`${shown.key}-${locale}${reviewing ? "-review" : ""}`}
+        exercise={lesson.exercises[shown.index]}
+        illustration={pictures[shown.index]}
         frame={frame}
+        initial={history[shown.key]}
+        review={reviewing}
+        nextLabel={reviewing ? t("lesson.backTo", { n: pos + 1 }) : undefined}
         onGraded={onGraded}
-        onNext={next}
+        onNext={reviewing ? () => setViewing(null) : next}
+      />
+
+      <StepNav
+        queue={queue}
+        pos={pos}
+        viewing={viewing}
+        history={history}
+        frame={frame}
+        onPick={(i) => setViewing(i < pos ? i : null)}
       />
     </div>
   );
@@ -232,6 +276,9 @@ function Step({
   exercise: ex,
   illustration,
   frame,
+  initial,
+  review = false,
+  nextLabel,
   onGraded,
   onNext,
 }: {
@@ -239,13 +286,23 @@ function Step({
   illustration?: Illustration;
   /** Width classes shared with the top bar and footer. */
   frame: string;
-  onGraded: (r: Resolution) => void;
+  /** An earlier answer to restore (a finished exercise, or the current one after a look back). */
+  initial?: Visit;
+  /** Looking back at a finished exercise: read-only, and Continue returns to the current one. */
+  review?: boolean;
+  /** Label for the Continue button (e.g. "Back to exercise 5" when reviewing). */
+  nextLabel?: string;
+  onGraded: (r: Resolution, answer: Answer, tiles: string[]) => void;
   onNext: () => void;
 }) {
-  const [answer, setAnswer] = useState<Answer>(null);
-  const [result, setResult] = useState<Resolution | null>(null);
+  const [answer, setAnswer] = useState<Answer>(initial?.answer ?? null);
+  const [result, setResult] = useState<Resolution | null>(initial?.result ?? null);
   const [tiles] = useState(() =>
-    ex.type === "build" ? shuffle([...toTiles(ex.answers[0]), ...ex.distractors]) : [],
+    initial?.tiles.length
+      ? initial.tiles
+      : ex.type === "build"
+        ? shuffle([...toTiles(ex.answers[0]), ...ex.distractors])
+        : [],
   );
 
   // Teaching cards have no answer: just Continue.
@@ -254,11 +311,12 @@ function Step({
 
   const isIntro = ex.type === "intro" || ex.type === "grammar";
   const selfGraded = ex.type === "match" || ex.type === "speak";
-  const locked = result !== null;
+  const locked = result !== null || review;
 
   const resolve = (r: Resolution) => {
+    if (review) return;
     setResult(r);
-    onGraded(r);
+    onGraded(r, answer, tiles);
   };
   const check = () => {
     if (!result && hasAnswer(answer)) resolve(grade(ex, answer, tiles));
@@ -268,7 +326,7 @@ function Step({
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key !== "Enter") return;
-      if (result || isIntro) onNext();
+      if (result || isIntro || review) onNext();
       else if (!selfGraded) check();
     };
     window.addEventListener("keydown", onKey);
@@ -278,7 +336,7 @@ function Step({
   return (
     <>
       <div
-        className={`mx-auto w-full flex-1 py-8 ${
+        className={`mx-auto w-full flex-1 py-4 sm:py-8 ${
           illustration
             ? "grid max-w-6xl content-center items-center gap-6 px-4 lg:grid-cols-[minmax(0,34rem)_minmax(0,1fr)] lg:gap-x-16 lg:px-8"
             : "flex max-w-2xl flex-col justify-center px-4"
@@ -323,10 +381,11 @@ function Step({
         frame={frame}
         result={result}
         canCheck={hasAnswer(answer)}
-        mode={isIntro ? "continue" : selfGraded ? "self" : "check"}
+        mode={isIntro || review ? "continue" : selfGraded ? "self" : "check"}
+        nextLabel={nextLabel}
         onCheck={check}
         onNext={onNext}
-        onSkip={ex.type === "speak" ? onNext : undefined}
+        onSkip={ex.type === "speak" && !review ? onNext : undefined}
       />
     </>
   );
@@ -337,6 +396,7 @@ function Footer({
   result,
   canCheck,
   mode,
+  nextLabel,
   onCheck,
   onNext,
   onSkip,
@@ -345,6 +405,7 @@ function Footer({
   result: Resolution | null;
   canCheck: boolean;
   mode: "check" | "continue" | "self";
+  nextLabel?: string;
   onCheck: () => void;
   onNext: () => void;
   onSkip?: () => void;
@@ -356,7 +417,7 @@ function Footer({
     const ok = result.correct;
     return (
       <footer className={`animate-slide-up ${ok ? "bg-ok-soft" : "bg-bad-soft"}`}>
-        <div className={`mx-auto flex flex-col gap-4 py-6 sm:flex-row sm:items-center sm:justify-between ${frame}`}>
+        <div className={`mx-auto flex flex-col gap-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:py-6 ${frame}`}>
           <div className="flex gap-4">
             <span
               className={`grid size-14 shrink-0 place-items-center rounded-full bg-bg ${ok ? "text-ok" : "text-bad"}`}
@@ -375,7 +436,7 @@ function Footer({
             </div>
           </div>
           <button type="button" onClick={onNext} className={`btn ${ok ? "btn-ok" : "btn-bad"} sm:min-w-40`}>
-            {t("lesson.continue")}
+            {nextLabel ?? t("lesson.continue")}
           </button>
         </div>
       </footer>
@@ -384,7 +445,7 @@ function Footer({
 
   return (
     <footer className="border-t border-border">
-      <div className={`mx-auto flex items-center justify-between gap-4 py-6 ${frame}`}>
+      <div className={`mx-auto flex items-center justify-between gap-4 py-4 sm:py-6 ${frame}`}>
         {onSkip ? (
           <button type="button" onClick={onSkip} className="btn btn-ghost">
             {t("lesson.cantSpeak")}
@@ -394,7 +455,7 @@ function Footer({
         )}
         {mode === "continue" ? (
           <button type="button" onClick={onNext} className="btn btn-ok sm:min-w-40">
-            {t("lesson.continue")}
+            {nextLabel ?? t("lesson.continue")}
           </button>
         ) : mode === "check" ? (
           <button type="button" onClick={onCheck} disabled={!canCheck} className="btn btn-ok sm:min-w-40">
@@ -403,6 +464,62 @@ function Footer({
         ) : null}
       </div>
     </footer>
+  );
+}
+
+/**
+ * One dot per exercise in the lesson (mistakes that come back add more). Finished
+ * ones can be opened again; the current one returns to playing.
+ */
+function StepNav({
+  queue,
+  pos,
+  viewing,
+  history,
+  frame,
+  onPick,
+}: {
+  queue: Item[];
+  pos: number;
+  viewing: number | null;
+  history: Record<string, Visit>;
+  frame: string;
+  onPick: (index: number) => void;
+}) {
+  const { t } = useApp();
+  return (
+    <nav aria-label={t("lesson.nav")} className="border-t border-border">
+      <ol className={`mx-auto flex gap-1.5 overflow-x-auto py-2 sm:py-3 ${frame}`}>
+        {queue.map((item, i) => {
+          const result = history[item.key]?.result;
+          const state = i === pos ? "current" : i > pos ? "upcoming" : !result ? "seen" : result.correct ? "right" : "wrong";
+          const look = {
+            current: "border-brand bg-bg text-brand",
+            upcoming: "border-transparent bg-locked text-locked-dark",
+            seen: "border-transparent bg-surface-2 text-muted hover:bg-border",
+            right: "border-transparent bg-ok text-bg hover:bg-ok-dark",
+            wrong: "border-transparent bg-bad-soft text-bad-dark hover:bg-bad hover:text-bg",
+          }[state];
+          const open = viewing === i || (viewing === null && i === pos);
+          return (
+            <li key={item.key} className="shrink-0">
+              <button
+                type="button"
+                disabled={state === "upcoming"}
+                onClick={() => onPick(i)}
+                aria-label={t("lesson.navItem", { n: i + 1 })}
+                aria-current={open ? "step" : undefined}
+                className={`grid size-7 place-items-center rounded-full border-2 text-xs font-semibold transition-colors sm:size-8 ${look} ${
+                  open ? "ring-2 ring-lichen ring-offset-2 ring-offset-bg" : ""
+                }`}
+              >
+                {i + 1}
+              </button>
+            </li>
+          );
+        })}
+      </ol>
+    </nav>
   );
 }
 

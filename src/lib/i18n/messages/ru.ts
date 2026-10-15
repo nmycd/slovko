@@ -90,6 +90,12 @@ export const ru: Messages = {
 
   "lesson.quit": "Выйти из урока",
   "lesson.quitConfirm": "Выйти? Прогресс этого урока будет потерян.",
+  "lesson.place": "Раздел {unit} · Урок {lesson}",
+  "lesson.course": "Словацкий A1",
+  "lesson.coursePct": "Пройдено {pct}%",
+  "lesson.nav": "Упражнения этого урока",
+  "lesson.navItem": "Упражнение {n}",
+  "lesson.backTo": "Назад к упражнению {n}",
   "lesson.correctSolution": "Правильный ответ:",
   "lesson.weHeard": "Мы услышали: «{text}»",
   "lesson.continue": "Дальше",
