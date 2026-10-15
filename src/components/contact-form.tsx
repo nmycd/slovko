@@ -101,42 +101,43 @@ export function ContactForm() {
       <h1 className="text-3xl">{t("contact.title")}</h1>
       <p className="mt-2 text-muted">{t("contact.intro")}</p>
 
-      <form onSubmit={submit} className="card mt-8 space-y-4 p-5 sm:p-6">
-        <label className="block">
-          <span className="mb-1.5 block font-semibold">{t("contact.name")}</span>
-          <input
-            type="text"
-            required
-            autoComplete="name"
-            maxLength={contactLimits.name}
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            className={inputClass}
-          />
-        </label>
-        <label className="block">
-          <span className="mb-1.5 block font-semibold">{t("contact.email")}</span>
-          <input
-            type="email"
-            required
-            autoComplete="email"
-            maxLength={contactLimits.email}
-            value={email}
-            onChange={(e) => setTypedEmail(e.target.value)}
-            className={inputClass}
-          />
-        </label>
+      <form onSubmit={submit} className="card mt-6 space-y-4 p-5 sm:p-6">
+        <div className="grid gap-4 sm:grid-cols-2">
+          <label className="block">
+            <span className="mb-1.5 block font-semibold">{t("contact.name")}</span>
+            <input
+              type="text"
+              required
+              autoComplete="name"
+              maxLength={contactLimits.name}
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              className={inputClass}
+            />
+          </label>
+          <label className="block">
+            <span className="mb-1.5 block font-semibold">{t("contact.email")}</span>
+            <input
+              type="email"
+              required
+              autoComplete="email"
+              maxLength={contactLimits.email}
+              value={email}
+              onChange={(e) => setTypedEmail(e.target.value)}
+              className={inputClass}
+            />
+          </label>
+        </div>
         <label className="block">
           <span className="mb-1.5 block font-semibold">{t("contact.message")}</span>
           <textarea
             required
-            rows={6}
             minLength={contactLimits.messageMin}
             maxLength={contactLimits.messageMax}
             placeholder={t("contact.messagePlaceholder")}
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            className={`${inputClass} block resize-y`}
+            className={`${inputClass} block h-[clamp(6rem,18vh,16rem)] resize-y`}
           />
         </label>
         {/* Honeypot: off-screen and hidden from assistive tech, so only bots fill it in. */}
@@ -159,10 +160,12 @@ export function ContactForm() {
             {t(errorMessages[status.error] ?? "contact.error.failed", { n: contactLimits.messageMin })}
           </p>
         )}
-        <button type="submit" disabled={sending} className="btn w-full">
-          {t(sending ? "contact.sending" : "contact.send")}
-        </button>
-        <p className="text-center text-sm text-muted">{t("contact.privacy")}</p>
+        <div className="flex flex-col-reverse gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <p className="text-center text-sm text-muted sm:text-left">{t("contact.privacy")}</p>
+          <button type="submit" disabled={sending} className="btn shrink-0">
+            {t(sending ? "contact.sending" : "contact.send")}
+          </button>
+        </div>
       </form>
     </div>
   );
