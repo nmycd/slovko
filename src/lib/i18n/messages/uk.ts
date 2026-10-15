@@ -93,6 +93,7 @@ export const uk: Messages = {
   "common.error": "Щось пішло не так.",
 
   "lesson.quit": "Вийти з уроку",
+  "lesson.volume": "Гучність",
   "lesson.quitConfirm": "Вийти? Прогрес цього уроку буде втрачено.",
   "lesson.place": "Розділ {unit} · Урок {lesson}",
   "lesson.course": "Словацька A1",

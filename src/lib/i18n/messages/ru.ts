@@ -93,6 +93,7 @@ export const ru: Messages = {
   "common.error": "Что-то пошло не так.",
 
   "lesson.quit": "Выйти из урока",
+  "lesson.volume": "Громкость",
   "lesson.quitConfirm": "Выйти? Прогресс этого урока будет потерян.",
   "lesson.place": "Раздел {unit} · Урок {lesson}",
   "lesson.course": "Словацкий A1",

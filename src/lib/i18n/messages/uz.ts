@@ -100,6 +100,7 @@ export const uz: Messages = {
 
   // Lesson player
   "lesson.quit": "Darsdan chiqish",
+  "lesson.volume": "Ovoz balandligi",
   "lesson.quitConfirm": "Chiqasizmi? Bu darsdagi natijalaringiz saqlanmaydi.",
   "lesson.place": "{unit}-boʻlim · {lesson}-dars",
   "lesson.course": "Slovak tili A1",

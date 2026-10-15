@@ -4,6 +4,7 @@
 // browser's own speech synthesis when TTS isn't configured or fails.
 
 import { useSyncExternalStore } from "react";
+import { createStore } from "@/lib/store";
 
 const urls = new Map<string, Promise<string | null>>();
 let ttsUnavailable = false;
@@ -52,6 +53,49 @@ export function preloadLesson(texts: string[]) {
   for (let i = 0; i < 3; i++) void next();
 }
 
+// Playback volume, 0–1, kept on the device.
+const VOLUME_KEY = "slovko:volume";
+const DEFAULT_VOLUME = 0.8;
+const volumeStore = createStore(
+  DEFAULT_VOLUME,
+  () => {
+    try {
+      const saved = localStorage.getItem(VOLUME_KEY);
+      const value = Number(saved);
+      return saved !== null && value >= 0 && value <= 1 ? value : DEFAULT_VOLUME;
+    } catch {
+      return DEFAULT_VOLUME;
+    }
+  },
+  (value) => {
+    try {
+      localStorage.setItem(VOLUME_KEY, String(value));
+    } catch {}
+  },
+);
+
+export function useVolume(): number {
+  return useSyncExternalStore(volumeStore.subscribe, volumeStore.get, () => DEFAULT_VOLUME);
+}
+
+/** Sets the volume, for the clip playing now too. */
+export function setVolume(value: number) {
+  volumeStore.set(value);
+  if (current) current.volume = value;
+}
+
+let volumeSettable: boolean | undefined;
+
+/** Whether the page may set the volume at all: iPhones and iPads leave it to their buttons. */
+export function canSetVolume(): boolean {
+  if (volumeSettable === undefined) {
+    const probe = new Audio();
+    probe.volume = 0.5;
+    volumeSettable = probe.volume === 0.5;
+  }
+  return volumeSettable;
+}
+
 // Whether a clip is loading or playing, for the mic to step aside meanwhile (see useRecorder).
 let playing = false;
 const playingListeners = new Set<() => void>();
@@ -96,6 +140,7 @@ export async function playSlovak(text: string, { slow = false } = {}) {
     if (url) {
       const audio = new Audio(url);
       audio.playbackRate = slow ? 0.7 : 1;
+      audio.volume = volumeStore.get();
       audio.onended = ended;
       audio.onpause = ended; // also interrupted by the system
       current = audio;
@@ -119,6 +164,7 @@ function speakWithBrowser(text: string, slow: boolean, ended: () => void) {
   utterance.onend = ended;
   utterance.onerror = ended;
   utterance.lang = "sk-SK";
+  utterance.volume = volumeStore.get();
   const voice = synth.getVoices().find((v) => v.lang.toLowerCase().startsWith("sk"));
   if (voice) utterance.voice = voice;
   utterance.rate = slow ? 0.6 : 0.9;

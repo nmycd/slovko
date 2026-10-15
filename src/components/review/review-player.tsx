@@ -10,6 +10,7 @@ import { useApp } from "@/components/app-provider";
 import { BoltIcon, CheckIcon, CloseIcon, RewindIcon } from "@/components/icons";
 import type { Resolution } from "@/components/lesson/exercises";
 import { Screen, Stat, Step } from "@/components/lesson/lesson-player";
+import { VolumeSlider } from "@/components/lesson/volume-slider";
 import { formatWhen } from "@/components/review/when";
 import { playSlovak, preloadLesson } from "@/lib/audio";
 import type { Exercise } from "@/lib/course/types";
@@ -92,9 +93,14 @@ function Session({ deck }: { deck: ReviewItem[] }) {
             <CloseIcon size={28} />
           </Link>
           <p className="min-w-0 flex-1 truncate font-serif text-lg">{t("review.title")}</p>
-          <p className="shrink-0 text-sm font-semibold text-muted">
-            {t("review.progress", { n: Math.min(pos + 1, cards.length), total: cards.length })}
-          </p>
+          {/* As in lessons: beside the count on phones, under it on wider screens. */}
+          <VolumeSlider className="flex sm:hidden" />
+          <div className="shrink-0 text-right">
+            <p className="text-sm font-semibold text-muted">
+              {t("review.progress", { n: Math.min(pos + 1, cards.length), total: cards.length })}
+            </p>
+            <VolumeSlider className="mt-1 hidden sm:flex" />
+          </div>
         </div>
         <div className="mt-2 h-2.5 overflow-hidden rounded-full bg-locked sm:mt-3">
           <div
