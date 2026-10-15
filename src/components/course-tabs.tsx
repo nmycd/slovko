@@ -6,14 +6,15 @@ import { useEffect, useRef } from "react";
 import { useApp } from "@/components/app-provider";
 import type { MessageKey } from "@/lib/i18n";
 
-type Tab = { href: string; label: string | MessageKey; translate?: boolean; soon?: boolean };
+/** `level`: a CEFR code shown before the label (the label is then its standard name). */
+type Tab = { href: string; label: MessageKey; level?: string; soon?: boolean };
 
 const tabs: Tab[] = [
-  { href: "/learn", label: "A1" },
-  { href: "/learn/a2", label: "A2", soon: true },
-  { href: "/learn/b1", label: "B1", soon: true },
-  { href: "/learn/driving", label: "courses.driving", translate: true, soon: true },
-  { href: "/learn/resources", label: "courses.resources", translate: true },
+  { href: "/learn", level: "A1", label: "courses.a1" },
+  { href: "/learn/a2", level: "A2", label: "courses.a2", soon: true },
+  { href: "/learn/b1", level: "B1", label: "courses.b1", soon: true },
+  { href: "/learn/driving", label: "courses.driving", soon: true },
+  { href: "/learn/resources", label: "courses.resources" },
 ];
 
 /** Course switcher at the top of /learn. Scrolls sideways on narrow screens. */
@@ -44,7 +45,8 @@ export function CourseTabs() {
                   active ? "border-brand text-brand" : "border-transparent text-muted hover:text-text"
                 }`}
               >
-                {tab.translate ? t(tab.label as MessageKey) : tab.label}
+                {tab.level && <span>{tab.level}</span>}
+                <span className={tab.level ? "font-normal" : undefined}>{t(tab.label)}</span>
                 {tab.soon && <span className="text-xs font-normal text-muted">{t("courses.soon")}</span>}
               </Link>
             </li>

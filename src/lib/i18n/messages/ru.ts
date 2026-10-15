@@ -51,12 +51,15 @@ export const ru: Messages = {
   "path.locked": "{title} (закрыто)",
 
   "courses.label": "Курсы",
+  "courses.a1": "Начальный",
+  "courses.a2": "Элементарный",
+  "courses.b1": "Средний",
   "courses.driving": "Экзамен по вождению",
   "courses.resources": "Ресурсы",
   "courses.soon": "скоро",
   "courses.comingSoon": "Скоро",
   "courses.backToA1": "Продолжить A1",
-  "courses.a2.title": "A2: Ниже среднего",
+  "courses.a2.title": "A2: Элементарный уровень",
   "courses.a2.body":
     "Следующий шаг после A1: более длинные разговоры, прошедшее и будущее время подробнее, больше повседневной жизни в Словакии. Курс уже в работе.",
   "courses.b1.title": "B1: Средний уровень",

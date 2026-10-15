@@ -51,12 +51,15 @@ export const uk: Messages = {
   "path.locked": "{title} (закрито)",
 
   "courses.label": "Курси",
+  "courses.a1": "Початковий",
+  "courses.a2": "Елементарний",
+  "courses.b1": "Середній",
   "courses.driving": "Іспит з водіння",
   "courses.resources": "Ресурси",
   "courses.soon": "скоро",
   "courses.comingSoon": "Незабаром",
   "courses.backToA1": "Продовжити A1",
-  "courses.a2.title": "A2: Нижче середнього",
+  "courses.a2.title": "A2: Елементарний рівень",
   "courses.a2.body":
     "Наступний крок після A1: довші розмови, минулий і майбутній час докладніше, більше повсякденного життя у Словаччині. Курс уже в роботі.",
   "courses.b1.title": "B1: Середній рівень",

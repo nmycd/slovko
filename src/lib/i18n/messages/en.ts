@@ -56,12 +56,15 @@ export const en = {
 
   // Courses (tabs on /learn)
   "courses.label": "Courses",
+  "courses.a1": "Beginner",
+  "courses.a2": "Elementary",
+  "courses.b1": "Intermediate",
   "courses.driving": "Driving exam",
   "courses.resources": "Resources",
   "courses.soon": "soon",
   "courses.comingSoon": "Coming soon",
   "courses.backToA1": "Continue with A1",
-  "courses.a2.title": "A2: Pre-intermediate",
+  "courses.a2.title": "A2: Elementary",
   "courses.a2.body":
     "The next step after A1: longer conversations, the past and future in more depth, and more of everyday life in Slovakia. It's in the works.",
   "courses.b1.title": "B1: Intermediate",
