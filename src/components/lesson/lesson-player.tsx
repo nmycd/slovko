@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Fragment, useEffect, useRef, useState } from "react";
 import { useApp } from "@/components/app-provider";
 import { BoltIcon, CheckIcon, CloseIcon, CrownIcon, StarIcon } from "@/components/icons";
@@ -103,6 +103,7 @@ type Visit = { answer: Answer; tiles: string[]; result: Resolution | null };
 export function LessonPlayer(props: PlayerProps) {
   const lessonId = props.lessons.en.id;
   const router = useRouter();
+  const search = useSearchParams();
   const { ready, authEnabled, authKnown, user, profile } = useApp();
   const signedOut = authEnabled && authKnown && !user;
 
@@ -118,13 +119,19 @@ export function LessonPlayer(props: PlayerProps) {
   // mount) and for the profile, which decides whether premium units are open.
   const profileLoading = user !== null && profile === null;
   if (!ready || !authKnown || signedOut || profileLoading) return <div className="min-h-dvh" />;
-  return <Player key={lessonId} {...props} />;
+  // Next keeps recently visited pages alive and shows them as they were left. A lesson
+  // should instead start afresh on every visit (a link, not Back): keyed by the visit
+  // (bfcacheId) and by the card a dictionary result asks for.
+  const card = search.get("card");
+  return (
+    <Player key={`${lessonId}:${router.bfcacheId}:${card}`} {...props} card={card} step={search.get("step")} />
+  );
 }
 
 /** Testing only (unlock-all switch): `?step=N` opens the lesson at exercise N. */
-function startStep(count: number): number {
-  if (!unlockAllLessons) return 0;
-  const step = Number(new URLSearchParams(window.location.search).get("step"));
+function startStep(count: number, param: string | null): number {
+  if (!unlockAllLessons || param === null) return 0;
+  const step = Number(param);
   return Number.isInteger(step) && step > 0 && step < count ? step : 0;
 }
 
@@ -132,14 +139,22 @@ function startStep(count: number): number {
  * `?card=N`, from the dictionary on /learn: just that teaching card, then back to
  * /learn. Null for a normal run (or if exercise N isn't a teaching card).
  */
-function lookUpCard(exercises: Exercise[]): number | null {
-  const raw = new URLSearchParams(window.location.search).get("card");
-  const card = Number(raw);
-  const ex = raw === null ? undefined : exercises[card];
+function lookUpCard(exercises: Exercise[], param: string | null): number | null {
+  const card = Number(param);
+  const ex = param === null ? undefined : exercises[card];
   return Number.isInteger(card) && (ex?.type === "intro" || ex?.type === "grammar") ? card : null;
 }
 
-function Player({ lessons, premiumUnit, nextId, pictures, place, courseLessonIds }: PlayerProps) {
+function Player({
+  lessons,
+  premiumUnit,
+  nextId,
+  pictures,
+  place,
+  courseLessonIds,
+  card,
+  step,
+}: PlayerProps & { card: string | null; step: string | null }) {
   const router = useRouter();
   const { isPremium, completeLesson, t, locale, progress } = useApp();
   const lesson = lessons[locale];
@@ -148,9 +163,9 @@ function Player({ lessons, premiumUnit, nextId, pictures, place, courseLessonIds
   const [queue, setQueue] = useState<Item[]>(() =>
     lesson.exercises.map((_, index) => ({ index, key: String(index), retry: false })),
   );
-  const [pos, setPos] = useState(() => startStep(lesson.exercises.length));
+  const [pos, setPos] = useState(() => startStep(lesson.exercises.length, step));
   // Looking a word up: one card, open in any unit (its word and meaning already show in the search).
-  const [lookUp] = useState(() => lookUpCard(lesson.exercises));
+  const lookUp = lookUpCard(lesson.exercises, card);
   const [phase, setPhase] = useState<Phase>(() =>
     lookUp === null && premiumUnit && !isPremium && !unlockAllLessons ? "paywall" : "playing",
   );
