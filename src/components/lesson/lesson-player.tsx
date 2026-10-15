@@ -128,6 +128,17 @@ function startStep(count: number): number {
   return Number.isInteger(step) && step > 0 && step < count ? step : 0;
 }
 
+/**
+ * `?card=N`, from the dictionary on /learn: just that teaching card, then back to
+ * /learn. Null for a normal run (or if exercise N isn't a teaching card).
+ */
+function lookUpCard(exercises: Exercise[]): number | null {
+  const raw = new URLSearchParams(window.location.search).get("card");
+  const card = Number(raw);
+  const ex = raw === null ? undefined : exercises[card];
+  return Number.isInteger(card) && (ex?.type === "intro" || ex?.type === "grammar") ? card : null;
+}
+
 function Player({ lessons, premiumUnit, nextId, pictures, place, courseLessonIds }: PlayerProps) {
   const router = useRouter();
   const { isPremium, completeLesson, t, locale, progress } = useApp();
@@ -138,8 +149,10 @@ function Player({ lessons, premiumUnit, nextId, pictures, place, courseLessonIds
     lesson.exercises.map((_, index) => ({ index, key: String(index), retry: false })),
   );
   const [pos, setPos] = useState(() => startStep(lesson.exercises.length));
+  // Looking a word up: one card, open in any unit (its word and meaning already show in the search).
+  const [lookUp] = useState(() => lookUpCard(lesson.exercises));
   const [phase, setPhase] = useState<Phase>(() =>
-    premiumUnit && !isPremium && !unlockAllLessons ? "paywall" : "playing",
+    lookUp === null && premiumUnit && !isPremium && !unlockAllLessons ? "paywall" : "playing",
   );
   const stats = useRef({ right: 0, graded: 0, startedAt: 0 });
   // Played exercises by queue key, and the one being looked back at (a queue position).
@@ -158,8 +171,8 @@ function Player({ lessons, premiumUnit, nextId, pictures, place, courseLessonIds
 
   // Same for its audio: every clip, fetched in the background from the start.
   useEffect(() => {
-    if (phase !== "paywall") preloadLesson(lesson.exercises.flatMap(speakableTexts));
-  }, [lesson, phase]);
+    if (phase !== "paywall" && lookUp === null) preloadLesson(lesson.exercises.flatMap(speakableTexts));
+  }, [lesson, phase, lookUp]);
   const [summary, setSummary] = useState<Summary | null>(null);
 
   useEffect(() => {
@@ -257,34 +270,55 @@ function Player({ lessons, premiumUnit, nextId, pictures, place, courseLessonIds
           </div>
         </div>
         <div className="mt-2 h-2.5 overflow-hidden rounded-full bg-locked sm:mt-3">
-          <div
-            className="h-full rounded-full bg-lichen transition-[width] duration-300"
-            style={{ width: `${Math.max(progressPct, 2)}%` }}
-          />
+          {lookUp === null ? (
+            <div
+              className="h-full rounded-full bg-lichen transition-[width] duration-300"
+              style={{ width: `${Math.max(progressPct, 2)}%` }}
+            />
+          ) : (
+            // Not a run through the lesson: grey, just marking where the card sits in it.
+            <div
+              className="h-full rounded-full bg-border-strong"
+              style={{ width: `${((lookUp + 1) / lesson.exercises.length) * 100}%` }}
+            />
+          )}
         </div>
       </header>
 
-      {/* Remounts on a language switch so word tiles are rebuilt in the new language. */}
-      <Step
-        key={`${shown.key}-${locale}${reviewing ? "-review" : ""}`}
-        exercise={lesson.exercises[shown.index]}
-        illustration={pictures[shown.index]}
-        frame={frame}
-        initial={history[shown.key]}
-        review={reviewing}
-        nextLabel={reviewing ? t("lesson.backTo", { n: item.index + 1 }) : undefined}
-        nav={
-          <StepNav
-            queue={queue}
-            pos={pos}
-            viewing={viewing}
-            history={history}
-            onPick={(i) => setViewing(i < pos ? i : null)}
-          />
-        }
-        onGraded={onGraded}
-        onNext={reviewing ? () => setViewing(null) : next}
-      />
+      {lookUp !== null ? (
+        <Step
+          key={`card-${lookUp}-${locale}`}
+          exercise={lesson.exercises[lookUp]}
+          illustration={pictures[lookUp]}
+          frame={frame}
+          nextLabel={t("lesson.return")}
+          nav={null}
+          onGraded={() => {}}
+          onNext={() => router.push("/learn")}
+        />
+      ) : (
+        // Remounts on a language switch so word tiles are rebuilt in the new language.
+        <Step
+          key={`${shown.key}-${locale}${reviewing ? "-review" : ""}`}
+          exercise={lesson.exercises[shown.index]}
+          illustration={pictures[shown.index]}
+          frame={frame}
+          initial={history[shown.key]}
+          review={reviewing}
+          nextLabel={reviewing ? t("lesson.backTo", { n: item.index + 1 }) : undefined}
+          nav={
+            <StepNav
+              queue={queue}
+              pos={pos}
+              viewing={viewing}
+              history={history}
+              onPick={(i) => setViewing(i < pos ? i : null)}
+            />
+          }
+          onGraded={onGraded}
+          onNext={reviewing ? () => setViewing(null) : next}
+        />
+      )}
     </div>
   );
 }
@@ -311,7 +345,7 @@ function Step({
   review?: boolean;
   /** Label for the Continue button (e.g. "Back to exercise 5" when reviewing). */
   nextLabel?: string;
-  /** The lesson's exercise navigation, shown in the footer. */
+  /** The lesson's exercise navigation, shown in the footer (null when looking a word up). */
   nav: React.ReactNode;
   onGraded: (r: Resolution, answer: Answer, tiles: string[]) => void;
   onNext: () => void;
@@ -441,7 +475,9 @@ function Footer({
   const [word] = useState(() => praise[Math.floor(Math.random() * praise.length)]);
   // Phones: its own row on top. Wider screens: centred in the space the other parts
   // leave, or on a row of its own when a long answer leaves too little.
-  const navSlot = <div className="order-first flex basis-full justify-center sm:order-none sm:flex-1 sm:basis-0">{nav}</div>;
+  const navSlot = nav && (
+    <div className="order-first flex basis-full justify-center sm:order-none sm:flex-1 sm:basis-0">{nav}</div>
+  );
 
   if (result) {
     const ok = result.correct;

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useApp } from "@/components/app-provider";
+import { Dictionary } from "@/components/dictionary";
 import {
   BoltIcon,
   BookIcon,
@@ -14,6 +15,7 @@ import {
   StarIcon,
 } from "@/components/icons";
 import type { LessonKind, UnitOutline } from "@/lib/course/types";
+import type { DictionaryEntry } from "@/lib/dictionary";
 import { unlockAllLessons } from "@/lib/env";
 import type { Locale, MessageKey, Translate } from "@/lib/i18n";
 
@@ -27,14 +29,35 @@ const zigzag = [0, 44, 66, 44, 0, -44, -66, -44];
 /** "open": playable but not next in line (only with the unlock-all testing switch). */
 type NodeState = "done" | "current" | "open" | "locked";
 
-/** `outlines` holds the path in each native language (titleEn = the translated title). */
-export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[]> }) {
+/**
+ * `outlines` holds the path in each native language (titleEn = the translated title);
+ * `dictionary` feeds the word search beside it.
+ */
+export function CoursePath({
+  outlines,
+  dictionary,
+}: {
+  outlines: Record<Locale, UnitOutline[]>;
+  dictionary: DictionaryEntry[];
+}) {
   const { ready, progress, isPremium, todayXp, authEnabled, authKnown, user, locale, t } = useApp();
   const outline = outlines[locale];
   const signedOut = authEnabled && authKnown && !user;
   // Lessons need an account; signed-out visitors go through sign-in and come back.
-  const hrefFor = (lessonId: string) =>
-    signedOut ? `/login?next=${encodeURIComponent(`/lesson/${lessonId}`)}` : `/lesson/${lessonId}`;
+  const hrefFor = (lessonId: string, query = "") =>
+    signedOut
+      ? `/login?next=${encodeURIComponent(`/lesson/${lessonId}${query}`)}`
+      : `/lesson/${lessonId}${query}`;
+  // A dictionary result opens its intro card on its own (see the lesson player's look-up).
+  const cardHref = (entry: DictionaryEntry) => hrefFor(entry.lessonId, `?card=${entry.index}`);
+  const placeOf = (lessonId: string) => {
+    for (const unit of outline) {
+      const i = unit.lessons.findIndex((l) => l.id === lessonId);
+      if (i >= 0) return { unit: unit.number, lesson: i + 1 };
+    }
+  };
+  const dictionaryCard = (className?: string) =>
+    ready && <Dictionary entries={dictionary} hrefFor={cardHref} placeOf={placeOf} className={className} />;
 
   // The first lesson not yet completed is "current"; everything after it is locked.
   const allLessons = outline.flatMap((u) => u.lessons);
@@ -49,6 +72,8 @@ export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[
   return (
     <div className="mx-auto flex max-w-5xl gap-10 px-4 py-8">
       <div className={`mx-auto w-full max-w-xl ${ready ? "" : "invisible"}`}>
+        {/* Phones and narrow windows have no side column: the dictionary leads the path. */}
+        {dictionaryCard("mb-10 lg:hidden")}
         {signedOut && (
           <div className="card mb-10 flex flex-col items-start gap-4 p-5 sm:flex-row sm:items-center">
             <div className="flex-1">
@@ -90,6 +115,7 @@ export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[
             </span>
           </div>
         </div>
+        {dictionaryCard()}
         {!isPremium && (
           <div className="card p-5">
             <h2 className="flex items-center gap-2">

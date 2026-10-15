@@ -1,6 +1,7 @@
 // The full course content. Import this from server code only (pages, route
 // handlers): client components get what they need as props, so the browser
 // never downloads every unit. Client-safe helpers live in ./helpers.
+import type { DictionaryEntry } from "../dictionary";
 import { locales, type Locale } from "../i18n/locales";
 import { speakableTexts } from "./helpers";
 import { addSpelling } from "./spelling";
@@ -94,6 +95,28 @@ export function nextLessonId(lessonId: string): string | null {
   const i = allLessons.findIndex((l) => l.id === lessonId);
   return i >= 0 && i + 1 < allLessons.length ? allLessons[i + 1].id : null;
 }
+
+/** Every word and phrase taught on an intro card, once each (where first taught), for the dictionary on /learn. */
+export const dictionary: DictionaryEntry[] = (() => {
+  const seen = new Set<string>();
+  const entries: DictionaryEntry[] = [];
+  localizedCourse.en.forEach((unit, u) =>
+    unit.lessons.forEach((lesson, l) =>
+      lesson.exercises.forEach((ex, index) => {
+        if (ex.type !== "intro" || seen.has(ex.sk.toLowerCase())) return;
+        seen.add(ex.sk.toLowerCase());
+        const meaning = Object.fromEntries(
+          locales.map((locale) => {
+            const same = localizedCourse[locale][u].lessons[l].exercises[index];
+            return [locale, same.type === "intro" ? same.en : ex.en];
+          }),
+        ) as Record<Locale, string>;
+        entries.push({ sk: ex.sk, meaning, lessonId: lesson.id, index });
+      }),
+    ),
+  );
+  return entries;
+})();
 
 /** Units with lesson titles only, for the learning path, in every native language. */
 export const courseOutlines: Record<Locale, UnitOutline[]> = Object.fromEntries(
