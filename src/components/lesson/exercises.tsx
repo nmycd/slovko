@@ -348,7 +348,9 @@ function TypedAnswer({
         ref={input}
         autoFocus
         value={text}
-        onChange={(e) => setAnswer(e.target.value)}
+        // One line of Slovak, never more. This also drops the line break the Enter that
+        // left the previous card types once this box takes the focus, and any in a paste.
+        onChange={(e) => setAnswer(e.target.value.replace(/[\r\n]+/g, " ").trimStart())}
         onKeyDown={(e) => {
           // Enter submits via the player's key handler; don't add a newline.
           if (e.key === "Enter") e.preventDefault();
