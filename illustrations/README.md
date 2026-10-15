@@ -138,10 +138,11 @@ Lekcia 6 and 9 have no title page in the scan. The answer key starts at PDF 152.
 
 - `npx tsx illustrations/tools/render-plan.ts [--unit N] [--concurrency 8]`
   renders every entry with a `picture` that has no file in `renders/` yet
-  (git-ignored), converts it to `public/illustrations/<lesson>-<exercise>.webp`
+  (git-ignored), converts it to `public/illustrations/<lesson>-<exercise>-<hash>.webp`
   and writes `src/lib/course/illustrations.json`, which the lesson page reads.
-  To redo a picture, delete its file in `renders/` and its `.webp`, then run it
-  again. Entries whose exercise text changed since the plan are left out.
+  The hash comes from the render, so a redrawn picture gets a new URL and no
+  cache shows the old one. To redo a picture, delete its file in `renders/` and
+  run it again. Entries whose exercise text changed since the plan are left out.
 - `npx tsx illustrations/tools/render-test.ts [--dry-run] u1-l1#3 …` renders
   single entries into `test-renders/` (git-ignored) to try prompt changes.
 - `npx tsx illustrations/tools/check-edges.ts` flags renders whose painting

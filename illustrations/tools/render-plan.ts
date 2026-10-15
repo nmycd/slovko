@@ -4,13 +4,16 @@
 //
 // 1. Renders each entry with a `picture` that has no file in illustrations/renders/
 //    yet (so a failed or interrupted run resumes where it stopped).
-// 2. Converts each render for the web: public/illustrations/<lesson>-<exercise>.webp,
-//    960 px wide, near-white paper pushed to white so it blends into the page.
+// 2. Converts each render for the web: public/illustrations/<lesson>-<exercise>-<hash>.webp,
+//    960 px wide, near-white paper pushed to white so it blends into the page. The hash
+//    comes from the render, so a redrawn picture gets a new URL and no browser or CDN
+//    keeps showing the old one (Next caches optimized images for 4 hours).
 // 3. Writes src/lib/course/illustrations.json: exercise → picture, with reuses resolved.
 //    Entries whose exercise text no longer matches the course are left out (the
 //    exercise moved or changed since the plan was made).
 import { execFileSync } from "node:child_process";
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { existsSync, mkdirSync, readdirSync, readFileSync, renameSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { loadEnvConfig } from "@next/env";
 import { buildParts, dir, RenderError, renderImage } from "./gemini";
@@ -91,15 +94,23 @@ function renderedFile(key: string): string | undefined {
   return ["jpg", "png"].map((ext) => join(rendersDir, `${fileOf(key)}.${ext}`)).find(existsSync);
 }
 
-function toWeb(key: string): { width: number; height: number } | undefined {
+function toWeb(key: string): { src: string; width: number; height: number } | undefined {
   const source = renderedFile(key);
   if (!source) return undefined;
-  const target = join(publicDir, `${fileOf(key)}.webp`);
+  const file = fileOf(key);
+  const hash = createHash("sha256").update(readFileSync(source)).digest("hex").slice(0, 8);
+  const name = `${file}-${hash}.webp`;
+  const target = join(publicDir, name);
   if (!existsSync(target)) {
-    execFileSync("magick", [source, "-resize", "960x", "-channel", "RGB", "-level", "0%,95%", "+channel", "-quality", "80", target]);
+    const unhashed = join(publicDir, `${file}.webp`); // from before names carried a hash
+    if (existsSync(unhashed)) renameSync(unhashed, target);
+    else execFileSync("magick", [source, "-resize", "960x", "-channel", "RGB", "-level", "0%,95%", "+channel", "-quality", "80", target]);
   }
+  // Drop this picture's older versions.
+  const old = new RegExp(`^${file}-[0-9a-f]{8}\\.webp$`);
+  for (const f of readdirSync(publicDir)) if (old.test(f) && f !== name) rmSync(join(publicDir, f));
   const [width, height] = execFileSync("magick", ["identify", "-format", "%w %h", target]).toString().split(" ").map(Number);
-  return { width, height };
+  return { src: `/illustrations/${name}`, width, height };
 }
 
 async function main() {
@@ -138,8 +149,8 @@ async function main() {
     }
     let source = entry;
     while (source.reuse) source = byKey.get(source.reuse)!;
-    const size = toWeb(keyOf(source));
-    if (size) map[key] = { src: `/illustrations/${fileOf(keyOf(source))}.webp`, ...size };
+    const web = toWeb(keyOf(source));
+    if (web) map[key] = web;
   }
   writeFileSync(join(root, "src/lib/course/illustrations.json"), JSON.stringify(map, null, 2) + "\n");
   console.log(`hooked up ${Object.keys(map).length} of ${plan.length} plan entries`);
