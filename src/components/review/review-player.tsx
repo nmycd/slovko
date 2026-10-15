@@ -103,7 +103,7 @@ function Session({ deck }: { deck: ReviewItem[] }) {
             style={{ width: `${Math.max((pos / queue.length) * 100, 2)}%` }}
           />
         </div>
-        <VolumeSlider className="mt-2 flex" />
+        <VolumeSlider className="mt-4.5 flex" />
       </header>
 
       <Step

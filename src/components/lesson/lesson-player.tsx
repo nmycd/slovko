@@ -305,7 +305,7 @@ function Player({
             />
           )}
         </div>
-        <VolumeSlider className="mt-2 flex" />
+        <VolumeSlider className="mt-4.5 flex" />
       </header>
 
       {lookUp !== null ? (
