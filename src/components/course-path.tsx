@@ -139,7 +139,14 @@ function UnitSection({
             {t("path.unit", { n: unit.number })} · {unit.titleEn}
           </p>
           <h2 className="mt-1 text-2xl">{unit.title}</h2>
-          <p className="mt-1 text-sm opacity-90">{unit.grammar.join(" · ")}</p>
+          <ul className="mt-2 space-y-0.5 text-sm opacity-90">
+            {unit.grammar.map((topic) => (
+              <li key={topic} className="flex gap-2">
+                <span aria-hidden className="mt-[0.5lh] size-1.5 shrink-0 -translate-y-1/2 rounded-full bg-lichen" />
+                {topic}
+              </li>
+            ))}
+          </ul>
         </div>
         {completed && (
           <>
