@@ -9,7 +9,7 @@ export const en = {
   "stats.streak": "Day streak",
   "stats.xp": "Total XP",
   "footer.language": "Your language",
-  "footer.contact": "Contact",
+  "footer.contact": "Contact us",
 
   // Landing page
   "landing.title": "Learn Slovak.",

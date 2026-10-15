@@ -1,24 +1,45 @@
 "use client";
 
 import { useApp } from "@/components/app-provider";
+import { ChevronDownIcon } from "@/components/icons";
 import { localeNames, locales, type Locale } from "@/lib/i18n";
 
-/** Compact language dropdown (footer, profile). */
-export function LanguageSelect({ id, className = "" }: { id?: string; className?: string }) {
+/**
+ * Language dropdown (footer, profile). `className` places it (margins, width);
+ * `small` is the footer's size. Draws its own chevron: the browser's sits against
+ * the border.
+ */
+export function LanguageSelect({
+  id,
+  className = "",
+  small = false,
+}: {
+  id?: string;
+  className?: string;
+  small?: boolean;
+}) {
   const { locale, setLocale } = useApp();
   return (
-    <select
-      id={id}
-      value={locale}
-      onChange={(e) => setLocale(e.target.value as Locale)}
-      className={`rounded-xl border-[1.5px] border-border-strong bg-bg px-3 py-2 font-medium outline-none focus:border-accent ${className}`}
-    >
-      {locales.map((l) => (
-        <option key={l} value={l}>
-          {localeNames[l]}
-        </option>
-      ))}
-    </select>
+    <span className={`relative inline-block ${className}`}>
+      <select
+        id={id}
+        value={locale}
+        onChange={(e) => setLocale(e.target.value as Locale)}
+        className={`w-full appearance-none rounded-xl border-[1.5px] border-border-strong bg-bg pr-9 pl-3 font-medium outline-none focus:border-accent ${
+          small ? "py-1.5 text-sm" : "py-2"
+        }`}
+      >
+        {locales.map((l) => (
+          <option key={l} value={l}>
+            {localeNames[l]}
+          </option>
+        ))}
+      </select>
+      <ChevronDownIcon
+        size={small ? 14 : 16}
+        className="pointer-events-none absolute top-1/2 right-3 -translate-y-1/2 text-muted"
+      />
+    </span>
   );
 }
 

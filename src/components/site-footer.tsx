@@ -16,7 +16,7 @@ export function SiteFooter() {
         </Link>
         <label className="flex items-center gap-2 sm:justify-self-end">
           <span>{t("footer.language")}</span>
-          <LanguageSelect className="py-1.5 text-sm" />
+          <LanguageSelect small />
         </label>
       </div>
     </footer>
