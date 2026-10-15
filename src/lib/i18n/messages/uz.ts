@@ -247,7 +247,10 @@ export const uz: Messages = {
   "account.help.button": "Biz bilan bogʻlanish",
 
   // Word review (spaced repetition)
+  "courses.review": "Takrorlash",
   "review.title": "Soʻzlarni takrorlash",
+  "review.intro": "Darslardagi soʻzlar siz ularni unutishingiz mumkin boʻlgan paytda qaytib keladi, har safar biroz qiyinroq: avval maʼnosini tanlaysiz, keyin oʻzingiz yozasiz.",
+  "review.inDeck": "Soʻzlar",
   "review.dueNow": "Takrorlash vaqti",
   "review.new": "Yangi",
   "review.start": "Takrorlashni boshlash",

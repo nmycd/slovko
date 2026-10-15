@@ -237,7 +237,10 @@ export const ru: Messages = {
   "account.help.button": "Написать нам",
 
   // Word review (spaced repetition)
+  "courses.review": "Повторение",
   "review.title": "Повторение слов",
+  "review.intro": "Слова из уроков возвращаются как раз тогда, когда вы могли бы их забыть, и каждый раз немного сложнее: сначала вы выбираете значение, потом пишете их сами.",
+  "review.inDeck": "Слова",
   "review.dueNow": "Пора повторить",
   "review.new": "Новые",
   "review.start": "Начать повторение",

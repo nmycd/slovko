@@ -1,7 +1,8 @@
 "use client";
 
 // The word-review card beside the course on /learn: where the learner's deck stands
-// (what's waiting, or when the next words fall due) and the way into a session.
+// (what's waiting, or when the next words fall due) and the way into a session. The
+// card as a whole opens the review page (/learn/review); its button starts a session.
 import Link from "next/link";
 import { useEffect, useSyncExternalStore } from "react";
 import { useApp } from "@/components/app-provider";
@@ -33,16 +34,21 @@ export function ReviewCard({ className = "" }: { className?: string }) {
             .join(" ");
 
   return (
-    <div className={`card p-5 ${className}`}>
-      <h2 className="text-lg">{t("review.title")}</h2>
+    <div className={`card relative p-5 transition-colors hover:bg-surface ${className}`}>
+      <h2 className="text-lg">
+        {/* Stretched over the card; the button below sits on top of it. */}
+        <Link href="/learn/review" className="after:absolute after:inset-0 after:rounded-2xl">
+          {t("review.title")}
+        </Link>
+      </h2>
       <p className="mt-1 text-sm text-muted">{status}</p>
       {signedOut ? (
-        <Link href={`/login?next=${encodeURIComponent("/learn")}`} className="btn btn-ghost mt-4 w-full">
+        <Link href={`/login?next=${encodeURIComponent("/learn")}`} className="btn btn-ghost relative mt-4 w-full">
           {t("review.signIn")}
         </Link>
       ) : (
         waiting && (
-          <Link href="/review" className="btn btn-ok mt-4 w-full">
+          <Link href="/review" className="btn btn-ok relative mt-4 w-full">
             {t("review.start")}
           </Link>
         )

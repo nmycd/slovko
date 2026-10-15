@@ -19,7 +19,8 @@ export function LearnFrame({ children }: { children: React.ReactNode }) {
 
   const onA1 = pathname === "/learn";
   // They read the device's storage (review cards, the search text), so they wait for the app.
-  const reviewCard = ready && <ReviewCard />;
+  // The review page is the card at length, so it goes without the card.
+  const reviewCard = ready && pathname !== "/learn/review" && <ReviewCard />;
   const dictionaryCard = ready && <Dictionary />;
   // Narrow screens have no side column: review and the dictionary lead the A1 path
   // (long) and follow the other tabs' short text.
