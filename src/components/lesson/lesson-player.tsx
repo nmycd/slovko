@@ -21,7 +21,7 @@ import {
 import { checkBuilt, checkTyped, shuffle, toTiles } from "@/lib/answers";
 import { playSlovak, stopSlovak } from "@/lib/audio";
 import { fillSentence } from "@/lib/course/helpers";
-import { illustrationFor, type Illustration } from "@/lib/course/illustrations";
+import type { Illustration } from "@/lib/course/illustrations";
 import type { Exercise, Lesson } from "@/lib/course/types";
 import { unlockAllLessons } from "@/lib/env";
 import type { Locale } from "@/lib/i18n";
@@ -82,6 +82,8 @@ type PlayerProps = {
   premiumUnit: boolean;
   /** The following lesson, for the "Next lesson" button. */
   nextId: string | null;
+  /** The lesson's pictures by exercise index. */
+  pictures: Record<number, Illustration>;
 };
 
 export function LessonPlayer(props: PlayerProps) {
@@ -112,7 +114,7 @@ function startStep(count: number): number {
   return Number.isInteger(step) && step > 0 && step < count ? step : 0;
 }
 
-function Player({ lessons, premiumUnit, nextId }: PlayerProps) {
+function Player({ lessons, premiumUnit, nextId, pictures }: PlayerProps) {
   const router = useRouter();
   const { isPremium, completeLesson, t, locale } = useApp();
   const lesson = lessons[locale];
@@ -176,7 +178,7 @@ function Player({ lessons, premiumUnit, nextId }: PlayerProps) {
   const progressPct = (pos / queue.length) * 100;
   // Lessons with pictures use a picture-book layout on wide screens: the
   // exercise on the left, the picture on the right.
-  const book = lesson.exercises.some((_, i) => illustrationFor(lessonId, i));
+  const book = Object.keys(pictures).length > 0;
   const frame = book ? "max-w-6xl px-4 lg:px-8" : "max-w-3xl px-4";
 
   return (
@@ -205,7 +207,7 @@ function Player({ lessons, premiumUnit, nextId }: PlayerProps) {
       <Step
         key={`${item.key}-${locale}`}
         exercise={exercise}
-        illustration={illustrationFor(lessonId, item.index)}
+        illustration={pictures[item.index]}
         book={book}
         frame={frame}
         onGraded={onGraded}
@@ -271,8 +273,8 @@ function Step({
       <div
         className={`mx-auto w-full flex-1 py-8 ${
           book
-            ? "grid max-w-6xl content-start gap-6 px-4 lg:grid-cols-[minmax(0,34rem)_minmax(0,1fr)] lg:gap-x-16 lg:px-8"
-            : "max-w-2xl px-4"
+            ? "grid max-w-6xl content-center items-center gap-6 px-4 lg:grid-cols-[minmax(0,34rem)_minmax(0,1fr)] lg:gap-x-16 lg:px-8"
+            : "flex max-w-2xl flex-col justify-center px-4"
         }`}
       >
         {illustration && (
@@ -284,7 +286,7 @@ function Step({
             height={illustration.height}
             alt=""
             priority
-            className="illustration mx-auto h-auto max-h-[24dvh] w-auto max-w-full lg:order-last lg:max-h-[calc(100dvh-14rem)] lg:self-start"
+            className="illustration mx-auto h-auto max-h-[24dvh] w-auto max-w-full lg:order-last lg:max-h-[calc(100dvh-14rem)]"
           />
         )}
         <div className="min-w-0">

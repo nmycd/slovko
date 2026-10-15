@@ -176,11 +176,10 @@ body {
     background: var(--bg);
   }
 
-  /* Lesson illustrations are painted on white paper: multiply drops the
-     paper into the page colour, and the mask softens any edge that's left. */
+  /* Lesson illustrations are painted as vignettes on white paper: multiply
+     drops the paper into the page colour and keeps the painted edges. */
   .illustration {
     mix-blend-mode: multiply;
-    mask-image: radial-gradient(ellipse 78% 78% at 50% 50%, #000 72%, transparent 100%);
   }
 }
 

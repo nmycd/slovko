@@ -8,6 +8,7 @@ import {
   lessonVariants,
   nextLessonId,
 } from "@/lib/course";
+import { lessonIllustrations } from "@/lib/course/illustrations";
 
 export function generateStaticParams() {
   return allLessons.map((l) => ({ lessonId: l.id }));
@@ -44,6 +45,7 @@ async function Lesson({ params }: { params: Promise<{ lessonId: string }> }) {
       lessons={variants}
       premiumUnit={found.unit.premium}
       nextId={nextLessonId(lessonId)}
+      pictures={lessonIllustrations(lessonId)}
     />
   );
 }

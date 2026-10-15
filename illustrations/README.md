@@ -60,12 +60,12 @@ which page of the Krížom-krážom A1 textbook illustrated the same thing.
 
 | Name | Look |
 | --- | --- |
-| **Emma** | 21, Irish exchange student. Auburn shoulder-length wavy hair, freckles. Mustard-yellow cardigan over a white T-shirt, jeans, canvas tote bag. |
-| **Lucia** | 19, Slovak student, Emma's roommate. Long dark-brown hair in a high ponytail, round glasses. Navy-and-white striped top, dark trousers. |
-| **Tomáš** | 30, programmer from Košice. Tall, short black hair, neat short beard. Grey hoodie, laptop backpack. |
-| **Marek** | 28, Lucia's brother, a cook. Stocky, short curly dark hair. White chef's jacket at work, red flannel shirt otherwise. |
-| **pani Horváthová** | About 55, Slovak teacher at the university. Short silver bob, glasses on a chain, teal blazer, patterned scarf. |
-| **pán Kováč** | About 65, porter at the dormitory. Grey moustache, flat cap, brown cardigan, a big ring of keys. |
+| **Emma** | 21, Irish exchange student. Fair skin, auburn shoulder-length wavy hair, freckles. Mustard-yellow cardigan over a white T-shirt, jeans, canvas tote bag. |
+| **Lucia** | 19, Slovak student, Emma's roommate. Fair skin, long dark-brown hair in a high ponytail, round glasses. Navy-and-white striped top, dark trousers. |
+| **Tomáš** | 30, programmer from Košice. Tall, fair skin, short black hair, neat short black beard. Grey hoodie, laptop backpack. |
+| **Marek** | 28, Lucia's brother, a cook. Stocky, fair skin, short curly dark-brown hair. White chef's jacket at work, red flannel shirt otherwise. |
+| **pani Horváthová** | About 55, Slovak teacher at the university. Fair skin, short silver bob, glasses on a chain, teal blazer, patterned scarf. |
+| **pán Kováč** | About 65, porter at the dormitory. Fair, ruddy skin, grey moustache, flat cap, brown cardigan, a big ring of keys. |
 
 Minor characters who appear in more than one picture. The course doesn't name
 Oksana or Dušan; the names are only handles for the image prompt.
@@ -133,3 +133,18 @@ Lekcia 6 and 9 have no title page in the scan. The answer key starts at PDF 152.
    unit (`"reuse": "u1-l3#3"`); prefer that to describing the same scene again.
    Unused crops in `book-panels-uN.txt` are fine: they show what the book
    pictured that we chose not to.
+
+## Rendering
+
+- `npx tsx illustrations/tools/render-plan.ts [--unit N] [--concurrency 8]`
+  renders every entry with a `picture` that has no file in `renders/` yet
+  (git-ignored), converts it to `public/illustrations/<lesson>-<exercise>.webp`
+  and writes `src/lib/course/illustrations.json`, which the lesson page reads.
+  To redo a picture, delete its file in `renders/` and its `.webp`, then run it
+  again. Entries whose exercise text changed since the plan are left out.
+- `npx tsx illustrations/tools/render-test.ts [--dry-run] u1-l1#3 …` renders
+  single entries into `test-renders/` (git-ignored) to try prompt changes.
+- `npx tsx illustrations/tools/check-edges.ts` flags renders whose painting
+  runs into the image border instead of fading out on paper.
+- Model: Nano Banana 2.1 (`gemini-nano-banana-2.1`) at 1K, about $0.05 a
+  picture (October 2026). The key is `GEMINI_API_KEY` in `.env.local`.
