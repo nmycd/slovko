@@ -155,6 +155,7 @@ export const uz: Messages = {
   "ex.mic.silentFrom":
     "«{name}» mikrofonidan hech narsa eshitilmadi. Toʻgʻri mikrofon tanlanganini tekshiring (Mac kompyuterida: System Settings → Sound → Input), soʻng qayta urinib koʻring.",
   "ex.mic.noWords": "Soʻzlarni ajrata olmadik. Biroz balandroq gapirib, qayta urinib koʻring.",
+  "ex.mic.tryAgain": "Hali toʻgʻri emas. Tinglang va yana bir bor urinib koʻring.",
   "ex.mic.offline": "Serverga ulanib boʻlmadi. Qayta urinib koʻring.",
   "ex.mic.failed": "Nutqni aniqlab boʻlmadi.",
   "ex.mic.blocked": "Mikrofonga kirish bloklandi. Brauzerdagi sayt sozlamalarida unga ruxsat bering.",

@@ -13,6 +13,7 @@ import {
   GrammarView,
   IntroView,
   ListenView,
+  MarkedSentence,
   MatchView,
   SpeakView,
   SpellView,
@@ -20,7 +21,7 @@ import {
   type Resolution,
 } from "@/components/lesson/exercises";
 import { VolumeSlider } from "@/components/lesson/volume-slider";
-import { checkBuilt, checkSpelled, checkTyped, shuffle, toTiles, type MarkedWord } from "@/lib/answers";
+import { checkBuilt, checkSpelled, checkTyped, shuffle, toTiles } from "@/lib/answers";
 import { playSlovak, preloadLesson, stopSlovak } from "@/lib/audio";
 import { fillSentence, speakableTexts } from "@/lib/course/helpers";
 import type { Illustration } from "@/lib/course/illustrations";
@@ -567,32 +568,6 @@ function Footer({
         ) : null}
       </div>
     </footer>
-  );
-}
-
-/** A typed answer's expected sentence: forgiven slips and names in yellow, mistakes in red. */
-function MarkedSentence({ words }: { words: MarkedWord[] }) {
-  return (
-    <p className="text-lg font-semibold">
-      {words.map(({ text, mark }, i) => {
-        // Highlight the word itself, not the punctuation around it.
-        const [, lead, core, trail] = /^([^\p{L}\p{N}]*)(.*?)([^\p{L}\p{N}]*)$/u.exec(text) ?? ["", "", text, ""];
-        const look =
-          mark === "bad"
-            ? "rounded bg-bad/15 px-0.5 underline decoration-bad decoration-2 underline-offset-4"
-            : mark === "soft"
-              ? "rounded bg-gold/30 px-0.5"
-              : undefined;
-        return (
-          <Fragment key={i}>
-            {i > 0 && " "}
-            {lead}
-            <span className={look}>{core}</span>
-            {trail}
-          </Fragment>
-        );
-      })}
-    </p>
   );
 }
 

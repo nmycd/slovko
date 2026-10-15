@@ -1,11 +1,11 @@
 "use client";
 
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { Fragment, useEffect, useLayoutEffect, useRef, useState } from "react";
 import { BookIcon, MicIcon } from "@/components/icons";
 import { useApp } from "@/components/app-provider";
 import { AudioButton } from "@/components/lesson/audio-button";
 import { RichText } from "@/components/lesson/rich-text";
-import { checkSpoken, shuffle, type CheckResult } from "@/lib/answers";
+import { checkSpoken, shuffle, type CheckResult, type MarkedWord } from "@/lib/answers";
 import { playSlovak, stopSlovak, useSlovakPlaying } from "@/lib/audio";
 import { stripMarkup } from "@/lib/course/helpers";
 import { properNames } from "@/lib/course/names";
@@ -482,6 +482,41 @@ export function MatchView({
   );
 }
 
+/**
+ * An answer's expected sentence, marked: forgiven slips and names in yellow, mistakes in
+ * red. `className` sets the type (default: the feedback footer's).
+ */
+export function MarkedSentence({
+  words,
+  className = "text-lg font-semibold",
+}: {
+  words: MarkedWord[];
+  className?: string;
+}) {
+  return (
+    <p className={className}>
+      {words.map(({ text, mark }, i) => {
+        // Highlight the word itself, not the punctuation around it.
+        const [, lead, core, trail] = /^([^\p{L}\p{N}]*)(.*?)([^\p{L}\p{N}]*)$/u.exec(text) ?? ["", "", text, ""];
+        const look =
+          mark === "bad"
+            ? "rounded bg-bad/15 px-0.5 underline decoration-bad decoration-2 underline-offset-4"
+            : mark === "soft"
+              ? "rounded bg-gold/30 px-0.5"
+              : undefined;
+        return (
+          <Fragment key={i}>
+            {i > 0 && " "}
+            {lead}
+            <span className={look}>{core}</span>
+            {trail}
+          </Fragment>
+        );
+      })}
+    </p>
+  );
+}
+
 export function SpeakView({
   exercise,
   onResolve,
@@ -498,6 +533,8 @@ export function SpeakView({
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [notice, setNotice] = useState<MessageKey | null>(null);
+  // A miss gets one more try, after hearing the sentence; the second answer counts.
+  const [miss, setMiss] = useState<Resolution | null>(null);
 
   async function record() {
     if (recording) return stop();
@@ -535,11 +572,17 @@ export function SpeakView({
         setError(t("ex.mic.noWords"));
         return;
       }
-      onResolve({
+      const result: Resolution = {
         ...checkSpoken(heard, exercise.sk, (word) => properNames.has(word)),
         solution: exercise.sk,
         heard,
-      });
+      };
+      if (!result.correct && !miss) {
+        setMiss(result);
+        void playSlovak(exercise.sk);
+        return;
+      }
+      onResolve(result);
     } catch {
       setError(t("ex.mic.offline"));
     } finally {
@@ -553,7 +596,11 @@ export function SpeakView({
       <div className="flex items-center gap-4">
         <AudioButton text={exercise.sk} autoPlay />
         <div>
-          <p className="font-serif text-2xl font-medium">{exercise.sk}</p>
+          {miss?.words && !locked ? (
+            <MarkedSentence words={miss.words} className="font-serif text-2xl font-medium" />
+          ) : (
+            <p className="font-serif text-2xl font-medium">{exercise.sk}</p>
+          )}
           <p className="text-muted">{exercise.en}</p>
         </div>
       </div>
@@ -575,6 +622,12 @@ export function SpeakView({
             />
           </div>
           {deviceLabel && <p className="text-sm text-muted">{t("ex.mic.device", { name: deviceLabel })}</p>}
+        </div>
+      )}
+      {miss && !locked && (
+        <div className="rounded-2xl bg-bad-soft p-4 text-bad-dark">
+          <p className="font-semibold">{t("ex.mic.tryAgain")}</p>
+          <p className="text-sm font-semibold opacity-80">{t("lesson.weHeard", { text: miss.heard || "…" })}</p>
         </div>
       )}
       {(error ?? micError) && (

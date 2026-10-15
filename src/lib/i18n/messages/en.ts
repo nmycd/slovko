@@ -155,6 +155,7 @@ export const en = {
   "ex.mic.silentFrom":
     "We couldn't hear anything from “{name}”. Check that the right microphone is selected (on a Mac: System Settings → Sound → Input), then try again.",
   "ex.mic.noWords": "We didn't catch any words. Speak a little louder and try again.",
+  "ex.mic.tryAgain": "Not quite. Listen, then try once more.",
   "ex.mic.offline": "Couldn't reach the server. Try again.",
   "ex.mic.failed": "Speech recognition failed.",
   "ex.mic.blocked": "Microphone access was blocked. Allow it in your browser's site settings.",
