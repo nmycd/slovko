@@ -114,7 +114,9 @@ export const uk: Messages = {
   "lesson.paywall.body": "Відкрийте всі розділи курсу A1 зі Slovko Premium.",
   "lesson.paywall.button": "Переглянути тарифи",
   "answer.accents": "Зверніть увагу на діакритику (mäkčeň і dĺžeň).",
-  "answer.typo": "У вас одруківка.",
+  "answer.typo": "Перевірте написання там, де виділено.",
+  "answer.names": "Імена не впливають на оцінку, але ось як вони пишуться.",
+  "answer.extra": "У вашій відповіді є зайве слово.",
   "answer.close": "Майже ідеально. Тренуйтеся далі!",
 
   "ex.newPhrase": "Нова фраза",

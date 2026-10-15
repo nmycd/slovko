@@ -121,7 +121,9 @@ export const en = {
   "lesson.paywall.body": "Unlock every unit of the A1 course with Slovko Premium.",
   "lesson.paywall.button": "See plans",
   "answer.accents": "Watch the accents (mäkčeň and dĺžeň).",
-  "answer.typo": "You have a typo.",
+  "answer.typo": "Check the spelling where it's highlighted.",
+  "answer.names": "Names don't count against you, but here's how they're spelled.",
+  "answer.extra": "There's an extra word in your answer.",
   "answer.close": "Close enough. Keep practising!",
 
   // Exercises

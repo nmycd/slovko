@@ -10,6 +10,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { normalize, toTiles } from "../src/lib/answers";
 import { fillSentence, speakableTexts } from "../src/lib/course/helpers";
+import { capitalisedWords, properNames } from "../src/lib/course/names";
 import {
   isTranslated,
   localizeUnit,
@@ -50,6 +51,21 @@ function slovak(where: string, text: string, allowMarkup = false) {
       !text.includes("**"),
       `** markup is only allowed in grammar cards and notes: "${text}"`,
     );
+}
+
+/** Capitalised words past the start of a sentence that names.ts doesn't list. */
+function unlistedCapitals(text: string): string[] {
+  const out: string[] = [];
+  let start = true;
+  for (const token of text.split(/\s+/)) {
+    const word = normalize(token);
+    if (!word) continue;
+    if (!start && /^[^\p{L}]*\p{Lu}/u.test(token) && !properNames.has(word) && !capitalisedWords.has(word)) {
+      out.push(token);
+    }
+    start = /[.!?…]\P{L}*$/u.test(token);
+  }
+  return out;
 }
 
 function checkExercise(where: string, ex: Exercise) {
@@ -135,6 +151,10 @@ function checkExercise(where: string, ex: Exercise) {
     case "listen":
       slovak(where, ex.sk);
       hint(where, ex.sk.length <= 80, "listen sentence over 80 characters");
+      // Names are graded leniently, so the grader has to know every one.
+      for (const word of unlistedCapitals(ex.sk)) {
+        check(where, false, `"${word}" is capitalised: add it to properNames or capitalisedWords in src/lib/course/names.ts`);
+      }
       break;
     case "speak":
       slovak(where, ex.sk);

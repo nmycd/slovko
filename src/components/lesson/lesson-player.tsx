@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import { useApp } from "@/components/app-provider";
 import { BoltIcon, CheckIcon, CloseIcon, CrownIcon, StarIcon } from "@/components/icons";
 import {
@@ -18,10 +18,11 @@ import {
   type Answer,
   type Resolution,
 } from "@/components/lesson/exercises";
-import { checkBuilt, checkTyped, shuffle, toTiles } from "@/lib/answers";
+import { checkBuilt, checkTyped, shuffle, toTiles, type MarkedWord } from "@/lib/answers";
 import { playSlovak, stopSlovak } from "@/lib/audio";
 import { fillSentence } from "@/lib/course/helpers";
 import type { Illustration } from "@/lib/course/illustrations";
+import { properNames } from "@/lib/course/names";
 import type { Exercise, Lesson } from "@/lib/course/types";
 import { unlockAllLessons } from "@/lib/env";
 import type { Locale } from "@/lib/i18n";
@@ -48,7 +49,10 @@ function grade(ex: Exercise, answer: Answer, tiles: string[]): Resolution {
       return { ...checkBuilt(words, ex.answers), solution: ex.answers[0] };
     }
     case "listen":
-      return { ...checkTyped(typeof answer === "string" ? answer : "", [ex.sk]), solution: ex.sk };
+      return {
+        ...checkTyped(typeof answer === "string" ? answer : "", [ex.sk], (word) => properNames.has(word)),
+        solution: ex.sk,
+      };
     default:
       return { correct: true };
   }
@@ -441,7 +445,11 @@ function Footer({
             </span>
             <div className={ok ? "text-ok-dark" : "text-bad-dark"}>
               <p className="text-2xl font-semibold">{ok ? word : t("lesson.correctSolution")}</p>
-              {!ok && result.solution && <p className="text-lg font-semibold">{result.solution}</p>}
+              {result.words ? (
+                <MarkedSentence words={result.words} />
+              ) : (
+                !ok && result.solution && <p className="text-lg font-semibold">{result.solution}</p>
+              )}
               {result.heard !== undefined && (
                 <p className="text-sm font-semibold opacity-80">
                   {t("lesson.weHeard", { text: result.heard || "…" })}
@@ -479,6 +487,32 @@ function Footer({
         ) : null}
       </div>
     </footer>
+  );
+}
+
+/** A typed answer's expected sentence: forgiven slips and names in yellow, mistakes in red. */
+function MarkedSentence({ words }: { words: MarkedWord[] }) {
+  return (
+    <p className="text-lg font-semibold">
+      {words.map(({ text, mark }, i) => {
+        // Highlight the word itself, not the punctuation around it.
+        const [, lead, core, trail] = /^([^\p{L}\p{N}]*)(.*?)([^\p{L}\p{N}]*)$/u.exec(text) ?? ["", "", text, ""];
+        const look =
+          mark === "bad"
+            ? "rounded bg-bad/15 px-0.5 underline decoration-bad decoration-2 underline-offset-4"
+            : mark === "soft"
+              ? "rounded bg-gold/30 px-0.5"
+              : undefined;
+        return (
+          <Fragment key={i}>
+            {i > 0 && " "}
+            {lead}
+            <span className={look}>{core}</span>
+            {trail}
+          </Fragment>
+        );
+      })}
+    </p>
   );
 }
 
