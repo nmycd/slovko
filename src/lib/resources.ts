@@ -36,6 +36,16 @@ export const levelSections: LevelSection[] = [
         level: "A1",
         items: [
           {
+            title: "Čačky-hračky",
+            by: "Krista Bendová, 1949",
+            url: "https://www.martinus.sk/95539-cacky-hracky/kniha",
+            note: {
+              en: "Nursery rhymes written for children who can't read yet: very short and repetitive.",
+              uk: "Віршики для дітей, які ще не вміють читати: дуже короткі й з повторами.",
+              ru: "Стишки для детей, которые ещё не умеют читать: очень короткие и с повторами.",
+            },
+          },
+          {
             title: "Zajko Bojko",
             by: "Ľudmila Podjavorinská, 1930",
             url: "https://www.martinus.sk/34243-zajko-bojko/kniha",
@@ -65,21 +75,21 @@ export const levelSections: LevelSection[] = [
               ru: "Рассказы о сёстрах-близняшках простой современной прозой; каждый читается за раз.",
             },
           },
-          {
-            title: "Maťko a Kubko",
-            by: "Marianna Grznárová, 1977",
-            url: "https://www.martinus.sk/106351-matko-a-kubko/kniha",
-            note: {
-              en: "Tiny episodes about two shepherd boys, from the cartoon Pásli ovce valasi.",
-              uk: "Крихітні епізоди про двох хлопчиків-пастушків, за мультфільмом Pásli ovce valasi.",
-              ru: "Крошечные эпизоды о двух мальчиках-пастушках, по мультфильму Pásli ovce valasi.",
-            },
-          },
         ],
       },
       {
         level: "A2",
         items: [
+          {
+            title: "Maťko a Kubko",
+            by: "Marianna Grznárová, 1977",
+            url: "https://www.martinus.sk/106351-matko-a-kubko/kniha",
+            note: {
+              en: "Tiny episodes about two shepherd boys, from the cartoon Pásli ovce valasi. Expect old-fashioned shepherd words.",
+              uk: "Крихітні епізоди про двох хлопчиків-пастушків, за мультфільмом Pásli ovce valasi. Тут багато старовинних пастуших слів.",
+              ru: "Крошечные эпизоды о двух мальчиках-пастушках, по мультфильму Pásli ovce valasi. Здесь много старинных пастушьих слов.",
+            },
+          },
           {
             title: "Osmijankove rozprávky",
             by: "Krista Bendová, 1967–1969",
@@ -155,6 +165,16 @@ export const levelSections: LevelSection[] = [
               ru: "Лёгкий сюжет и много игры слов: хорошо расширяет словарный запас.",
             },
           },
+          {
+            title: "Websterovci",
+            by: "Katarína Kerekesová, Vanda Rozenbergová, 2017",
+            url: "https://www.martinus.sk/909241-websterovci/kniha",
+            note: {
+              en: "The illustrated book of the spider-family cartoon, for ages 8 and up.",
+              uk: "Ілюстрована книжка за мультфільмом про родину павучків, для дітей від 8 років.",
+              ru: "Иллюстрированная книга по мультфильму о семье паучков, для детей от 8 лет.",
+            },
+          },
         ],
       },
       {
@@ -213,7 +233,7 @@ export const levelSections: LevelSection[] = [
         items: [
           {
             title: "Spievankovo",
-            by: "Mária Podhradská and Richard Čanaky, since 2003",
+            by: "Mária Podhradská and Richard Čanaky, since 2002",
             url: "https://www.youtube.com/@Spievankovo",
             note: {
               en: "Children's songs with lots of repetition and clear pronunciation.",
@@ -232,16 +252,6 @@ export const levelSections: LevelSection[] = [
             },
           },
           {
-            title: "Pásli ovce valasi",
-            by: "Ladislav Čapek, 1972",
-            url: "https://www.martinus.sk/521023-pasli-ovce-valasi/film",
-            note: {
-              en: "The cartoon of Maťko a Kubko: one slow narrator, with some folk vocabulary.",
-              uk: "Мультфільм про Maťko a Kubko: один неквапливий оповідач, трохи народної лексики.",
-              ru: "Мультфильм о Maťko a Kubko: один неторопливый рассказчик, немного народной лексики.",
-            },
-          },
-          {
             title: "Fidlibum",
             by: "Slovak Television (STV / RTVS)",
             url: "https://www.stvr.sk/televizia/archiv/13276/374395",
@@ -256,6 +266,16 @@ export const levelSections: LevelSection[] = [
       {
         level: "A2",
         items: [
+          {
+            title: "Pásli ovce valasi",
+            by: "Ladislav Čapek, 1972",
+            url: "https://www.martinus.sk/521023-pasli-ovce-valasi/film",
+            note: {
+              en: "The cartoon of Maťko a Kubko: one slow narrator, with some folk vocabulary.",
+              uk: "Мультфільм про Maťko a Kubko: один неквапливий оповідач, трохи народної лексики.",
+              ru: "Мультфильм о Maťko a Kubko: один неторопливый рассказчик, немного народной лексики.",
+            },
+          },
           {
             title: "Mimi a Líza",
             by: "Katarína Kerekesová, 2013",
@@ -281,9 +301,9 @@ export const levelSections: LevelSection[] = [
             by: "Katarína Kerekesová, 2017",
             url: "https://www.justwatch.com/sk/film/websterovci-vo-filme",
             note: {
-              en: "A family of spiders in short episodes full of family dialogue; the film is on Apple TV with Slovak audio.",
-              uk: "Родина павучків у коротких серіях із сімейними діалогами; фільм є на Apple TV зі словацьким звуком.",
-              ru: "Семья паучков в коротких сериях с семейными диалогами; фильм есть на Apple TV со словацким звуком.",
+              en: "A family of spiders in short episodes full of family dialogue. The film is on HBO Max in Slovakia, or to buy on Apple TV.",
+              uk: "Родина павучків у коротких серіях із сімейними діалогами. Фільм є на HBO Max у Словаччині, або його можна купити на Apple TV.",
+              ru: "Семья паучков в коротких сериях с семейными диалогами. Фильм есть на HBO Max в Словакии, или его можно купить на Apple TV.",
             },
           },
         ],
