@@ -518,7 +518,7 @@ function Footer({
     return (
       <footer className={`animate-slide-up ${ok ? "bg-ok-soft" : "bg-bad-soft"}`}>
         <div className={`mx-auto flex flex-wrap items-center gap-x-6 gap-y-3 py-3 sm:gap-y-4 sm:py-6 ${frame}`}>
-          <div className="flex basis-full gap-4 sm:basis-auto">
+          <div className="flex basis-full items-center gap-4 sm:basis-auto">
             <span
               className={`grid size-14 shrink-0 place-items-center rounded-full bg-bg ${ok ? "text-ok" : "text-bad"}`}
             >
