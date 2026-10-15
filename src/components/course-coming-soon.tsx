@@ -9,7 +9,7 @@ import type { MessageKey } from "@/lib/i18n";
 export function CourseComingSoon({ title, body }: { title: MessageKey; body: MessageKey }) {
   const { t } = useApp();
   return (
-    <div className="mx-auto max-w-xl px-4 py-16">
+    <div className="mx-auto max-w-xl lg:py-8">
       <p className="flex items-center gap-2 text-sm font-semibold text-accent">
         <BookIcon size={18} /> {t("courses.comingSoon")}
       </p>

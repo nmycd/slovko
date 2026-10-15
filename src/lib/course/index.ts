@@ -111,7 +111,7 @@ export const dictionary: DictionaryEntry[] = (() => {
             return [locale, same.type === "intro" ? same.en : ex.en];
           }),
         ) as Record<Locale, string>;
-        entries.push({ sk: ex.sk, meaning, lessonId: lesson.id, index });
+        entries.push({ sk: ex.sk, meaning, lessonId: lesson.id, index, unit: unit.number, lesson: l + 1 });
       }),
     ),
   );

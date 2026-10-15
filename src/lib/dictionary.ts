@@ -4,8 +4,18 @@
 import Fuse from "fuse.js";
 import type { Locale } from "@/lib/i18n";
 
-/** An intro card: its Slovak, its meaning in each native language, and where it's taught (index as played). */
-export type DictionaryEntry = { sk: string; meaning: Record<Locale, string>; lessonId: string; index: number };
+/**
+ * An intro card: its Slovak, its meaning in each native language, and where it's
+ * taught (exercise index as played; unit and lesson numbers for display).
+ */
+export type DictionaryEntry = {
+  sk: string;
+  meaning: Record<Locale, string>;
+  lessonId: string;
+  index: number;
+  unit: number;
+  lesson: number;
+};
 
 /** Lowercase, without accents or punctuation: how queries and entries are compared. */
 function searchKey(text: string): string {

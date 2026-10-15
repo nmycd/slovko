@@ -22,23 +22,19 @@ function savedQuery(): string {
  * The dictionary card on /learn: search the words the course teaches; a result opens
  * its intro card. Client-only: mount it once the app is ready (it reads session storage).
  */
-export function Dictionary({
-  entries,
-  hrefFor,
-  placeOf,
-  className = "",
-}: {
-  entries: DictionaryEntry[];
-  /** Where a result leads: its intro card, or sign-in first. */
-  hrefFor: (entry: DictionaryEntry) => string;
-  placeOf: (lessonId: string) => { unit: number; lesson: number } | undefined;
-  className?: string;
-}) {
-  const { locale, t } = useApp();
+export function Dictionary({ entries, className = "" }: { entries: DictionaryEntry[]; className?: string }) {
+  const { locale, authEnabled, authKnown, user, t } = useApp();
   const router = useRouter();
   const [query, setQuery] = useState(savedQuery);
   const search = useMemo(() => dictionarySearch(entries, locale), [entries, locale]);
   const results = useMemo(() => search(query), [search, query]);
+  // A result opens its intro card on its own (the lesson player's look-up); lessons
+  // need an account, so signed-out visitors sign in first and come back.
+  const signedOut = authEnabled && authKnown && !user;
+  const hrefFor = (entry: DictionaryEntry) => {
+    const card = `/lesson/${entry.lessonId}?card=${entry.index}`;
+    return signedOut ? `/login?next=${encodeURIComponent(card)}` : card;
+  };
 
   function change(value: string) {
     setQuery(value);
@@ -73,21 +69,17 @@ export function Dictionary({
       {query.trim().length >= 2 &&
         (results.length ? (
           <ul className="mt-3 max-h-[50vh] space-y-0.5 overflow-y-auto">
-            {results.map((entry) => {
-              const place = placeOf(entry.lessonId);
-              return (
-                <li key={`${entry.lessonId}#${entry.index}`}>
-                  <Link
-                    href={hrefFor(entry)}
-                    className="block rounded-xl px-3 py-2 transition-colors hover:bg-surface-2"
-                  >
-                    <span className="block font-serif text-lg leading-snug">{entry.sk}</span>
-                    <span className="block text-sm text-muted">{entry.meaning[locale]}</span>
-                    {place && <span className="block text-xs text-muted">{t("lesson.place", place)}</span>}
-                  </Link>
-                </li>
-              );
-            })}
+            {results.map((entry) => (
+              <li key={`${entry.lessonId}#${entry.index}`}>
+                <Link href={hrefFor(entry)} className="block rounded-xl px-3 py-2 transition-colors hover:bg-surface-2">
+                  <span className="block font-serif text-lg leading-snug">{entry.sk}</span>
+                  <span className="block text-sm text-muted">{entry.meaning[locale]}</span>
+                  <span className="block text-xs text-muted">
+                    {t("lesson.place", { unit: entry.unit, lesson: entry.lesson })}
+                  </span>
+                </Link>
+              </li>
+            ))}
           </ul>
         ) : (
           <p className="mt-3 text-sm text-muted">{t("dictionary.none")}</p>
