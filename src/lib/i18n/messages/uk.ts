@@ -235,4 +235,27 @@ export const uk: Messages = {
   "account.help.body":
     "Помітили помилку в уроці, потрібна допомога з Premium чи маєте ідею? Ми читаємо кожне повідомлення.",
   "account.help.button": "Написати нам",
+
+  // Word review (spaced repetition)
+  "courses.review": "Повторення",
+  "review.title": "Повторення слів",
+  "review.intro": "Слова з уроків повертаються саме тоді, коли ви могли б їх забути, і щоразу трохи складніше: спершу ви обираєте значення, згодом пишете їх самі.",
+  "review.inDeck": "Слова",
+  "review.dueNow": "Час повторити",
+  "review.new": "Нові",
+  "review.start": "Почати повторення",
+  "review.caughtUp": "Усе повторено.",
+  "review.nextAt": "Наступне повторення {when}.",
+  "review.emptyDeck": "Сюди потрапляють слова, які ви вивчаєте на уроках.",
+  "review.signIn": "Увійдіть, щоб повторювати слова",
+  "review.whatMeans": "Що це означає?",
+  "review.howSay": "Як сказати «{meaning}»?",
+  "review.cantListen": "Не можу зараз слухати",
+  "review.progress": "{n} з {total}",
+  "review.done.title": "Повторення завершено",
+  "review.done.body": "З першої спроби правильно: {right} з {total}. Кожне слово повернеться, коли настане його час.",
+  "review.back": "Назад до навчання",
+  "path.review": "Повторення слів",
+  "path.reviewDue": "Повторити: {n}",
+  "path.reviewClear": "Усе повторено",
 };

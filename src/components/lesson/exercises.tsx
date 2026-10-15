@@ -142,16 +142,21 @@ function optionState(i: number, selected: Answer, answer: number, locked: boolea
 export function ChoiceView({ exercise, answer, setAnswer, locked }: Props<ChoiceExercise>) {
   useNumberKeys(exercise.options.length, setAnswer, locked);
   return (
-    <div className="space-y-8">
+    <div className="space-y-5 sm:space-y-8">
       <Title>{exercise.question}</Title>
-      {exercise.sk && (
-        <div className="flex items-center gap-4">
-          <AudioButton text={exercise.sk} autoPlay />
-          <span className="rounded-xl border-[1.5px] border-border-strong px-4 py-3 font-serif text-2xl font-medium">
-            {exercise.sk}
-          </span>
-        </div>
-      )}
+      {exercise.sk &&
+        (exercise.audioOnly && !locked ? (
+          <div className="flex justify-center">
+            <AudioButton text={exercise.sk} autoPlay size="lg" withSlow />
+          </div>
+        ) : (
+          <div className="flex items-center gap-4">
+            <AudioButton text={exercise.sk} autoPlay={!exercise.audioOnly} />
+            <span className="rounded-xl border-[1.5px] border-border-strong px-4 py-3 font-serif text-2xl font-medium">
+              {exercise.sk}
+            </span>
+          </div>
+        ))}
       <div className="grid gap-3">
         {exercise.options.map((opt, i) => (
           <button
@@ -295,11 +300,16 @@ export function SpellView({ exercise, answer, setAnswer, locked }: Props<SpellEx
   const { t } = useApp();
   return (
     <div className="space-y-4 sm:space-y-8">
-      <Title>{t("ex.spell")}</Title>
-      <div className="flex flex-col items-center gap-2 sm:gap-3">
-        <AudioButton text={exercise.sk} autoPlay size="lg" withSlow />
-        {exercise.en && <p className="text-muted sm:text-lg">{exercise.en}</p>}
-      </div>
+      <Title>{t(exercise.fromMeaning ? "ex.writeSlovak" : "ex.spell")}</Title>
+      {exercise.fromMeaning ? (
+        // Recall from the meaning alone: the sound would give the answer away.
+        <p className="text-center font-serif text-2xl">{exercise.en}</p>
+      ) : (
+        <div className="flex flex-col items-center gap-2 sm:gap-3">
+          <AudioButton text={exercise.sk} autoPlay size="lg" withSlow />
+          {exercise.en && <p className="text-muted sm:text-lg">{exercise.en}</p>}
+        </div>
+      )}
       <TypedAnswer
         answer={answer}
         setAnswer={setAnswer}

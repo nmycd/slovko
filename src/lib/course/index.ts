@@ -2,6 +2,7 @@
 // handlers): client components get what they need as props, so the browser
 // never downloads every unit. Client-safe helpers live in ./helpers.
 import type { DictionaryEntry } from "../dictionary";
+import { isReviewable, reviewItemId, type ReviewItem } from "../review/items";
 import { locales, type Locale } from "../i18n/locales";
 import { speakableTexts, stripMarkup } from "./helpers";
 import { addSpelling } from "./spelling";
@@ -176,6 +177,36 @@ export const dictionary: DictionaryEntry[] = (() => {
     }),
   );
   return entries;
+})();
+
+/**
+ * The spaced-repetition deck: every word or short set phrase taught on an intro
+ * card (no sentences or lists), once each, with every lesson that teaches it
+ * (see ../review).
+ */
+export const reviewDeck: ReviewItem[] = (() => {
+  const items = new Map<string, ReviewItem>();
+  localizedCourse.en.forEach((unit, u) =>
+    unit.lessons.forEach((lesson, l) =>
+      lesson.exercises.forEach((ex, i) => {
+        if (ex.type !== "intro" || !isReviewable(ex.sk)) return;
+        const id = reviewItemId(ex.sk);
+        const item = items.get(id);
+        if (item) {
+          if (!item.lessons.includes(lesson.id)) item.lessons.push(lesson.id);
+          return;
+        }
+        const meaning = Object.fromEntries(
+          locales.map((locale) => {
+            const same = localizedCourse[locale][u].lessons[l].exercises[i];
+            return [locale, same.type === "intro" ? same.en : ex.en];
+          }),
+        ) as Record<Locale, string>;
+        items.set(id, { id, sk: stripMarkup(ex.sk), meaning, lessons: [lesson.id] });
+      }),
+    ),
+  );
+  return [...items.values()];
 })();
 
 /** Units with lesson titles only, for the learning path, in every native language. */

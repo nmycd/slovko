@@ -4,7 +4,7 @@ import { isSupabaseConfigured, supabasePublishableKey, supabaseUrl } from "@/lib
 
 // Keeps the Supabase auth session fresh: refreshes an expired access token
 // and writes the new cookies onto both the request and the response.
-// Also sends signed-out visitors from lessons to the sign-in page, and
+// Also sends signed-out visitors from lessons and reviews to the sign-in page, and
 // signed-in users from the landing page to their learning path.
 export async function proxy(request: NextRequest) {
   if (!isSupabaseConfigured) return NextResponse.next();
@@ -36,7 +36,7 @@ export async function proxy(request: NextRequest) {
   // Signed-in users skip the landing page.
   if (signedIn && pathname === "/") return redirectTo(new URL("/learn", request.url));
 
-  if (!signedIn && pathname.startsWith("/lesson/")) {
+  if (!signedIn && (pathname.startsWith("/lesson/") || pathname === "/review")) {
     const login = new URL("/login", request.url);
     login.searchParams.set("next", pathname + search);
     return redirectTo(login);

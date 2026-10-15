@@ -235,4 +235,27 @@ export const ru: Messages = {
   "account.help.body":
     "Заметили ошибку в уроке, нужна помощь с Premium или есть идея? Мы читаем каждое сообщение.",
   "account.help.button": "Написать нам",
+
+  // Word review (spaced repetition)
+  "courses.review": "Повторение",
+  "review.title": "Повторение слов",
+  "review.intro": "Слова из уроков возвращаются как раз тогда, когда вы могли бы их забыть, и каждый раз немного сложнее: сначала вы выбираете значение, потом пишете их сами.",
+  "review.inDeck": "Слова",
+  "review.dueNow": "Пора повторить",
+  "review.new": "Новые",
+  "review.start": "Начать повторение",
+  "review.caughtUp": "Всё повторено.",
+  "review.nextAt": "Следующее повторение {when}.",
+  "review.emptyDeck": "Сюда попадают слова, которые вы изучаете на уроках.",
+  "review.signIn": "Войдите, чтобы повторять слова",
+  "review.whatMeans": "Что это значит?",
+  "review.howSay": "Как сказать «{meaning}»?",
+  "review.cantListen": "Не могу сейчас слушать",
+  "review.progress": "{n} из {total}",
+  "review.done.title": "Повторение завершено",
+  "review.done.body": "С первой попытки правильно: {right} из {total}. Каждое слово вернётся, когда придёт его время.",
+  "review.back": "Назад к учёбе",
+  "path.review": "Повторение слов",
+  "path.reviewDue": "Повторить: {n}",
+  "path.reviewClear": "Всё повторено",
 };

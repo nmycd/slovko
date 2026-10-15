@@ -11,8 +11,10 @@ import {
   liveStreak,
   progressStore,
   withCompletedLesson,
+  withXp,
   type Progress,
 } from "@/lib/progress-store";
+import { connectReviewAccount, disconnectReviewAccount } from "@/lib/review/store";
 import { getSupabaseBrowser } from "@/lib/supabase/client";
 
 // Learner state (XP, streak, completed lessons, native language) lives on
@@ -39,6 +41,8 @@ type AppState = {
   /** Translates an interface string into `locale`. */
   t: Translate;
   completeLesson: (lessonId: string, score: number, xp: number) => void;
+  /** XP for something other than a lesson (a review session). */
+  earnXp: (xp: number) => void;
   /** Re-reads the profile, e.g. after a payment (the Stripe webhook updates it). */
   refreshProfile: () => Promise<void>;
   signOut: () => Promise<void>;
@@ -73,6 +77,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       if (event === "SIGNED_OUT") {
         setProfile(null);
         progressStore.set(EMPTY_PROGRESS);
+        disconnectReviewAccount();
       }
       if (session?.user && (event === "INITIAL_SESSION" || event === "SIGNED_IN")) {
         const userId = session.user.id;
@@ -82,6 +87,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
           // Fall back to a free profile so nothing waits forever if the row is missing.
           setProfile(profile ?? { is_premium: false, display_name: null });
           await syncLocale(supabase, userId, profile?.native_language);
+          await connectReviewAccount(supabase, userId);
         }, 0);
       }
     });
@@ -120,6 +126,11 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       clockStore.tick();
       progressStore.set((p) => withCompletedLesson(p, lessonId, score, xp, Date.now()));
       if (supabase && user) void pushProgress(supabase, user.id, progressStore.get(), [lessonId]);
+    },
+    earnXp(xp) {
+      clockStore.tick();
+      progressStore.set((p) => withXp(p, xp, Date.now()));
+      if (supabase && user) void pushProgress(supabase, user.id, progressStore.get(), []);
     },
     async refreshProfile() {
       if (!supabase || !user) return;

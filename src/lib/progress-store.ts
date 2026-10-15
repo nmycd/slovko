@@ -70,6 +70,20 @@ export function liveStreak(p: Progress, now: number): number {
   return p.streakLastDay === dayOf(now) || p.streakLastDay === dayOf(now, -1) ? p.streak : 0;
 }
 
+/** Progress after earning XP: today counts for the streak and the daily goal. */
+export function withXp(p: Progress, xp: number, now: number): Progress {
+  const today = dayOf(now);
+  const streak =
+    p.streakLastDay === today ? p.streak : p.streakLastDay === dayOf(now, -1) ? p.streak + 1 : 1;
+  return {
+    ...p,
+    xp: p.xp + xp,
+    streak,
+    streakLastDay: today,
+    dailyXp: { day: today, xp: (p.dailyXp.day === today ? p.dailyXp.xp : 0) + xp },
+  };
+}
+
 /** Progress after finishing a lesson. */
 export function withCompletedLesson(
   p: Progress,
@@ -78,16 +92,9 @@ export function withCompletedLesson(
   xp: number,
   now: number,
 ): Progress {
-  const today = dayOf(now);
-  const streak =
-    p.streakLastDay === today ? p.streak : p.streakLastDay === dayOf(now, -1) ? p.streak + 1 : 1;
   const prev = p.completed[lessonId];
   return {
-    ...p,
-    xp: p.xp + xp,
-    streak,
-    streakLastDay: today,
-    dailyXp: { day: today, xp: (p.dailyXp.day === today ? p.dailyXp.xp : 0) + xp },
+    ...withXp(p, xp, now),
     completed: {
       ...p.completed,
       [lessonId]: { best: Math.max(prev?.best ?? 0, score), count: (prev?.count ?? 0) + 1 },

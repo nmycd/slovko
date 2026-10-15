@@ -211,6 +211,10 @@ These follow from the content; there's nothing to run.
   grammar card is indexed at build time and served as `/api/dictionary`, which
   the search on /learn fetches when first used. New content is searchable after
   the next deploy.
+- **Word review deck.** Every intro card of up to three words (not a list)
+  becomes a review item, reviewed both ways (recognition and recall) with FSRS
+  once a learner meets it; served as `/api/review-deck`. A longer intro card
+  (a sentence) simply stays out of review.
 - **Spelling cards in lessons** and **picture positions**: inserted and shifted
   as the course loads, from `spelling.json` and `illustrations.json`.
 - **Loading**: each lesson fetches its pictures and audio in the background as it

@@ -15,6 +15,8 @@ export type ChoiceExercise = {
   question: string;
   /** Slovak phrase shown (and spoken) above the options. */
   sk?: string;
+  /** Review only: play `sk` without showing it (a listening drill). */
+  audioOnly?: boolean;
   options: string[];
   optionsLang: "sk" | "en";
   answer: number;
@@ -48,6 +50,8 @@ export type SpellExercise = {
   sk: string;
   /** The word's meaning, when an intro card teaches this exact form. */
   en?: string;
+  /** Review only: ask for the Slovak from the meaning, with no audio until answered. */
+  fromMeaning?: boolean;
 };
 
 /** Tap matching pairs. */

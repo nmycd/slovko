@@ -128,6 +128,16 @@ export function BookIcon(props: IconProps) {
   );
 }
 
+/** Word review: one loop running back (counter-clockwise), unlike the two-arrow repeat of review lessons. */
+export function RewindIcon(props: IconProps) {
+  return (
+    <svg {...svg(props)} fill="none" stroke="currentColor" strokeWidth={2.6} strokeLinecap="round">
+      <path d="M6.34 6.84A8 8 0 1 0 12 4.5" />
+      <path fill="currentColor" stroke="none" d="M8.2 4.5 13.4 1.4v6.2Z" />
+    </svg>
+  );
+}
+
 export function RepeatIcon(props: IconProps) {
   return (
     <svg {...svg(props)} fill="none" stroke="currentColor" strokeWidth={2.6} strokeLinecap="round" strokeLinejoin="round">

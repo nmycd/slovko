@@ -245,6 +245,29 @@ export const en = {
   "account.help.title": "Questions or feedback?",
   "account.help.body": "Spotted a mistake in a lesson, need help with Premium, or have an idea? We read every message.",
   "account.help.button": "Contact us",
+
+  // Word review (spaced repetition)
+  "courses.review": "Review",
+  "review.title": "Word review",
+  "review.intro": "Words from your lessons come back just before you'd forget them, a little harder each time: first you pick the meaning, later you type them yourself.",
+  "review.inDeck": "Words",
+  "review.dueNow": "Due now",
+  "review.new": "New",
+  "review.start": "Start review",
+  "review.caughtUp": "All caught up.",
+  "review.nextAt": "Next review {when}.",
+  "review.emptyDeck": "Words you meet in lessons come here.",
+  "review.signIn": "Sign in to keep a review deck",
+  "review.whatMeans": "What does this mean?",
+  "review.howSay": "How do you say “{meaning}”?",
+  "review.cantListen": "Can't listen now",
+  "review.progress": "{n} of {total}",
+  "review.done.title": "Review done",
+  "review.done.body": "{right} of {total} right the first time. Each word comes back when it's due.",
+  "review.back": "Back to learning",
+  "path.review": "Word review",
+  "path.reviewDue": "{n} to review",
+  "path.reviewClear": "All caught up",
 } as const;
 
 export type MessageKey = keyof typeof en;

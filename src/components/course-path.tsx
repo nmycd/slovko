@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 import { useApp } from "@/components/app-provider";
 import {
   BookIcon,
@@ -10,10 +10,14 @@ import {
   CrownIcon,
   LockIcon,
   RepeatIcon,
+  RewindIcon,
   StarIcon,
 } from "@/components/icons";
 import type { LessonKind, UnitOutline } from "@/lib/course/types";
 import { unlockAllLessons } from "@/lib/env";
+import { clockStore } from "@/lib/progress-store";
+import { reviewCounts } from "@/lib/review/session";
+import { useReviewCards } from "@/lib/review/store";
 import type { Locale, MessageKey, Translate } from "@/lib/i18n";
 
 // Unit banner colours cycle through a family of deep greens (all keep ivory
@@ -34,6 +38,14 @@ export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[
   // Lessons need an account; signed-out visitors go through sign-in and come back.
   const hrefFor = (lessonId: string) =>
     signedOut ? `/login?next=${encodeURIComponent(`/lesson/${lessonId}`)}` : `/lesson/${lessonId}`;
+  // Word review stops: how many cards are waiting (due or new).
+  const reviewCards = useReviewCards();
+  const now = useSyncExternalStore(clockStore.subscribe, clockStore.get, () => 0);
+  const counts = reviewCounts(reviewCards, now);
+  const review = {
+    waiting: counts.due + counts.fresh,
+    href: signedOut ? `/login?next=${encodeURIComponent("/review")}` : "/review",
+  };
 
   // The first lesson not yet completed is "current"; everything after it is locked.
   const allLessons = outline.flatMap((u) => u.lessons);
@@ -67,6 +79,7 @@ export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[
           completed={unit.lessons.length > 0 && unit.lessons.every((l) => progress.completed[l.id])}
           stateOf={stateOf}
           hrefFor={hrefFor}
+          review={review}
           t={t}
         />
       ))}
@@ -81,6 +94,7 @@ function UnitSection({
   completed,
   stateOf,
   hrefFor,
+  review,
   t,
 }: {
   unit: UnitOutline;
@@ -90,6 +104,8 @@ function UnitSection({
   completed: boolean;
   stateOf: (lessonId: string) => NodeState;
   hrefFor: (lessonId: string) => string;
+  /** Cards waiting for word review, and where review starts. */
+  review: { waiting: number; href: string };
   t: Translate;
 }) {
   const [expanded, setExpanded] = useState(false);
@@ -163,7 +179,7 @@ function UnitSection({
         </Link>
       ) : folded ? null : (
         <ol id={listId} className="mt-14 flex flex-col items-center gap-12">
-          {unit.lessons.map((lesson, i) => (
+          {unit.lessons.flatMap((lesson, i) => [
             <li key={lesson.id} style={{ transform: `translateX(${zigzag[i % zigzag.length]}px)` }}>
               <LessonNode
                 href={hrefFor(lesson.id)}
@@ -174,8 +190,27 @@ function UnitSection({
                 color={color}
                 t={t}
               />
-            </li>
-          ))}
+            </li>,
+            // A word review stop after every third lesson, unless the unit's own
+            // review lesson is next anyway. Optional: it never locks what follows.
+            i % 3 === 2 && i < unit.lessons.length - 2 && (
+              <li
+                key={`${lesson.id}-review`}
+                // Room below for the next lesson's "Start" bubble.
+                className="pb-6"
+                style={{
+                  transform: `translateX(${(zigzag[i % zigzag.length] + zigzag[(i + 1) % zigzag.length]) / 2}px)`,
+                }}
+              >
+                <ReviewStop
+                  href={review.href}
+                  waiting={review.waiting}
+                  locked={stateOf(lesson.id) !== "done"}
+                  t={t}
+                />
+              </li>
+            ),
+          ])}
         </ol>
       )}
     </section>
@@ -188,6 +223,34 @@ const kindLabel: Record<LessonKind, MessageKey | null> = {
   grammar: "path.kind.grammar",
   review: "path.kind.review",
 };
+
+/** A word review stop on the path: the cards waiting, or a tick when there are none. */
+function ReviewStop({ href, waiting, locked, t }: { href: string; waiting: number; locked: boolean; t: Translate }) {
+  const node = (
+    <span
+      className="grid size-14 place-items-center rounded-full"
+      style={
+        locked
+          ? { background: "var(--locked)", color: "var(--locked-dark)" }
+          : waiting
+            ? { background: "var(--lichen-soft)", color: "var(--brand)", boxShadow: "inset 0 0 0 2px var(--lichen)" }
+            : { background: "var(--ok-soft)", color: "var(--ok)" }
+      }
+    >
+      {locked ? <LockIcon size={22} /> : waiting ? <RewindIcon size={26} /> : <CheckIcon size={26} />}
+    </span>
+  );
+  const status = locked ? null : waiting ? t("path.reviewDue", { n: waiting }) : t("path.reviewClear");
+  return (
+    <div className="flex flex-col items-center gap-1.5 text-center">
+      {locked ? <span aria-label={t("path.review")}>{node}</span> : <Link href={href}>{node}</Link>}
+      <span className="leading-tight">
+        <span className="block text-sm font-semibold">{t("path.review")}</span>
+        {status && <span className="block text-xs text-muted">{status}</span>}
+      </span>
+    </div>
+  );
+}
 
 function LessonNode({
   href,

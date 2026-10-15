@@ -26,6 +26,8 @@ import type { Illustration } from "@/lib/course/illustrations";
 import { properNames } from "@/lib/course/names";
 import type { Exercise, Lesson } from "@/lib/course/types";
 import { setDictionaryQuery } from "@/lib/dictionary-store";
+import { taughtItemIds } from "@/lib/review/items";
+import { markSeen } from "@/lib/review/store";
 import { unlockAllLessons } from "@/lib/env";
 import type { Locale } from "@/lib/i18n";
 
@@ -214,8 +216,10 @@ function Player({
   }
 
   function next() {
-    // Teaching cards have no answer; remember them as seen.
+    // Teaching cards have no answer; remember them as seen, and put what they
+    // teach into the learner's review deck.
     setHistory((h) => (h[item.key] ? h : { ...h, [item.key]: { answer: null, tiles: [], result: null } }));
+    markSeen(taughtItemIds(exercise));
     if (pos + 1 < queue.length) {
       setPos(pos + 1);
       return;
@@ -224,6 +228,7 @@ function Player({
     const score = graded ? Math.round((right / graded) * 100) : 100;
     const xp = 10 + (score === 100 ? 5 : 0);
     completeLesson(lessonId, score, xp);
+    markSeen(lesson.exercises.flatMap(taughtItemIds)); // all of it, even cards skipped past
     setSummary({ xp, score, seconds: Math.round((Date.now() - startedAt) / 1000) });
     setPhase("done");
   }
@@ -343,8 +348,8 @@ function Player({
   );
 }
 
-/** One exercise: owns its answer, word tiles and result. Remounted per queue item. */
-function Step({
+/** One exercise: owns its answer, word tiles and result. Remounted per queue item. Also used by reviews. */
+export function Step({
   exercise: ex,
   illustration,
   frame,
@@ -352,6 +357,7 @@ function Step({
   review = false,
   nextLabel,
   nav,
+  skip,
   onGraded,
   onNext,
 }: {
@@ -367,6 +373,8 @@ function Step({
   nextLabel?: string;
   /** The lesson's exercise navigation, shown in the footer (null when looking a word up). */
   nav: React.ReactNode;
+  /** A way out of this exercise other than answering (default: "Can't speak now" on speaking). */
+  skip?: { label: string; onSkip: () => void };
   onGraded: (r: Resolution, answer: Answer, tiles: string[]) => void;
   onNext: () => void;
 }) {
@@ -464,7 +472,8 @@ function Step({
         nav={nav}
         onCheck={check}
         onNext={onNext}
-        onSkip={ex.type === "speak" && !review ? onNext : undefined}
+        onSkip={skip?.onSkip ?? (ex.type === "speak" && !review ? onNext : undefined)}
+        skipLabel={skip?.label}
       />
     </>
   );
@@ -480,6 +489,7 @@ function Footer({
   onCheck,
   onNext,
   onSkip,
+  skipLabel,
 }: {
   frame: string;
   result: Resolution | null;
@@ -490,6 +500,7 @@ function Footer({
   onCheck: () => void;
   onNext: () => void;
   onSkip?: () => void;
+  skipLabel?: string;
 }) {
   const { t } = useApp();
   const [word] = useState(() => praise[Math.floor(Math.random() * praise.length)]);
@@ -539,7 +550,7 @@ function Footer({
       <div className={`mx-auto flex flex-wrap items-center gap-x-6 gap-y-3 py-3 sm:py-6 ${frame}`}>
         {onSkip && (
           <button type="button" onClick={onSkip} className="btn btn-ghost">
-            {t("lesson.cantSpeak")}
+            {skipLabel ?? t("lesson.cantSpeak")}
           </button>
         )}
         {navSlot}
@@ -645,7 +656,7 @@ function StepNav({
   );
 }
 
-function Screen({ children }: { children: React.ReactNode }) {
+export function Screen({ children }: { children: React.ReactNode }) {
   return (
     <div className="mx-auto flex min-h-dvh max-w-md flex-col items-center justify-center gap-6 px-4 text-center">
       {children}
@@ -694,7 +705,7 @@ function DoneScreen({
   );
 }
 
-function Stat({
+export function Stat({
   label,
   value,
   color,
