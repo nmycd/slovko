@@ -95,6 +95,7 @@ export const ru: Messages = {
   "lesson.coursePct": "Пройдено {pct}%",
   "lesson.nav": "Упражнения этого урока",
   "lesson.navItem": "Упражнение {n}",
+  "lesson.navRetry": "Упражнение {n} ещё раз",
   "lesson.backTo": "Назад к упражнению {n}",
   "lesson.correctSolution": "Правильный ответ:",
   "lesson.weHeard": "Мы услышали: «{text}»",

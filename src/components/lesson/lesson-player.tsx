@@ -198,7 +198,13 @@ function Player({ lessons, premiumUnit, nextId, pictures, place, courseLessonIds
     );
   }
 
-  const progressPct = (pos / queue.length) * 100;
+  // Each exercise fills its share once settled: answered, or for a miss, once its
+  // second try is answered. A mistake holds the bar still rather than pulling it back.
+  const lastTry = new Map(queue.map((q, i) => [q.index, i]));
+  const settled = queue.filter(
+    (q, i) => lastTry.get(q.index) === i && (i < pos || (i === pos && history[q.key]?.result)),
+  ).length;
+  const progressPct = (settled / lesson.exercises.length) * 100;
   // Lessons with pictures get a wider frame: on wide screens a step with a
   // picture shows the exercise on the left and the picture on the right; steps
   // without one stay centred.
@@ -254,7 +260,7 @@ function Player({ lessons, premiumUnit, nextId, pictures, place, courseLessonIds
         frame={frame}
         initial={history[shown.key]}
         review={reviewing}
-        nextLabel={reviewing ? t("lesson.backTo", { n: pos + 1 }) : undefined}
+        nextLabel={reviewing ? t("lesson.backTo", { n: item.index + 1 }) : undefined}
         nav={
           <StepNav
             queue={queue}
@@ -477,8 +483,9 @@ function Footer({
 }
 
 /**
- * One bar per exercise in the lesson (mistakes that come back add more). Finished
- * ones can be opened again; the current one returns to playing.
+ * The lesson in the order it's played: one bar per exercise, then, after a gap, a
+ * second try for each one missed (added as mistakes happen). Finished ones can be
+ * opened again; the current one returns to playing.
  */
 function StepNav({
   queue,
@@ -494,6 +501,7 @@ function StepNav({
   onPick: (index: number) => void;
 }) {
   const { t } = useApp();
+  const firstRetry = queue.findIndex((item) => item.retry);
   return (
     <nav aria-label={t("lesson.nav")} className="w-full">
       {/* Bars keep a 1:4 shape while there's room and narrow when a lesson runs long. */}
@@ -503,21 +511,22 @@ function StepNav({
           const state = result ? (result.correct ? "right" : "wrong") : i === pos ? "current" : i > pos ? "upcoming" : "seen";
           const look = {
             current: "bg-brand",
-            upcoming: "bg-border-strong",
+            // A second try still ahead is an outline, so it doesn't read as a new exercise.
+            upcoming: item.retry ? "border-[1.5px] border-muted/40" : "bg-border-strong",
             seen: "bg-lichen group-hover:bg-accent",
             right: "bg-ok group-hover:bg-ok-dark",
             wrong: "bg-bad group-hover:bg-bad-dark",
           }[state];
           const open = viewing === i || (viewing === null && i === pos);
-          const label = t("lesson.navItem", { n: i + 1 });
+          const label = t(item.retry ? "lesson.navRetry" : "lesson.navItem", { n: item.index + 1 });
           return (
-            <li key={item.key} className="max-w-8 min-w-1.5 flex-1">
+            <li key={item.key} className={`max-w-8 min-w-1.5 flex-1 ${i === firstRetry ? "ml-3 sm:ml-5" : ""}`}>
               <button
                 type="button"
                 disabled={i > pos}
                 onClick={() => onPick(i)}
                 aria-label={label}
-                title={i > pos ? undefined : label}
+                title={label}
                 aria-current={open ? "step" : undefined}
                 className="group block w-full py-2"
               >

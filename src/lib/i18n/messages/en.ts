@@ -102,6 +102,7 @@ export const en = {
   "lesson.coursePct": "{pct}% complete",
   "lesson.nav": "Exercises in this lesson",
   "lesson.navItem": "Exercise {n}",
+  "lesson.navRetry": "Exercise {n} again",
   "lesson.backTo": "Back to exercise {n}",
   "lesson.correctSolution": "Correct solution:",
   "lesson.weHeard": "We heard: “{text}”",
