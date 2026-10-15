@@ -186,8 +186,9 @@ function Player({ lessons, premiumUnit, nextId, pictures }: PlayerProps) {
   }
 
   const progressPct = (pos / queue.length) * 100;
-  // Lessons with pictures use a picture-book layout on wide screens: the
-  // exercise on the left, the picture on the right.
+  // Lessons with pictures get a wider frame: on wide screens a step with a
+  // picture shows the exercise on the left and the picture on the right; steps
+  // without one stay centred.
   const book = Object.keys(pictures).length > 0;
   const frame = book ? "max-w-6xl px-4 lg:px-8" : "max-w-3xl px-4";
 
@@ -218,7 +219,6 @@ function Player({ lessons, premiumUnit, nextId, pictures }: PlayerProps) {
         key={`${item.key}-${locale}`}
         exercise={exercise}
         illustration={pictures[item.index]}
-        book={book}
         frame={frame}
         onGraded={onGraded}
         onNext={next}
@@ -231,15 +231,12 @@ function Player({ lessons, premiumUnit, nextId, pictures }: PlayerProps) {
 function Step({
   exercise: ex,
   illustration,
-  book,
   frame,
   onGraded,
   onNext,
 }: {
   exercise: Exercise;
   illustration?: Illustration;
-  /** Picture-book layout (see Player). */
-  book: boolean;
   /** Width classes shared with the top bar and footer. */
   frame: string;
   onGraded: (r: Resolution) => void;
@@ -282,7 +279,7 @@ function Step({
     <>
       <div
         className={`mx-auto w-full flex-1 py-8 ${
-          book
+          illustration
             ? "grid max-w-6xl content-center items-center gap-6 px-4 lg:grid-cols-[minmax(0,34rem)_minmax(0,1fr)] lg:gap-x-16 lg:px-8"
             : "flex max-w-2xl flex-col justify-center px-4"
         }`}

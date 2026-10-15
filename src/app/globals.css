@@ -67,6 +67,12 @@ body {
 }
 
 @layer base {
+  /* Scale the whole interface up on large screens: everything is sized in rem,
+     so 16px up to ~1440px wide grows to 20px at ~2560px (1x to 1.25x). */
+  html {
+    font-size: clamp(100%, 0.357vw + 10.86px, 125%);
+  }
+
   h1,
   h2 {
     font-family: var(--font-serif);
