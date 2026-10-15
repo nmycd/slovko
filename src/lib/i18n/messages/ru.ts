@@ -126,6 +126,8 @@ export const ru: Messages = {
   "ex.writeSlovak": "Напишите по-словацки",
   "ex.writeNative": "Напишите по-русски",
   "ex.listen": "Напишите, что слышите",
+  "ex.spell": "Напишите слово, которое слышите",
+  "ex.spellPlaceholder": "Напишите слово",
   "ex.listenPlaceholder": "Пишите по-словацки (диакритика необязательна)",
   "ex.accentKeys": "Буквы, которых может не быть на вашей клавиатуре:",
   "ex.match": "Найдите пары",

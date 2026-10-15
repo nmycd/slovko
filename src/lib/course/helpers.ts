@@ -18,6 +18,7 @@ export function speakableTexts(ex: Exercise): string[] {
     switch (ex.type) {
       case "intro":
       case "listen":
+      case "spell":
       case "speak":
         return [ex.sk];
       case "choice":

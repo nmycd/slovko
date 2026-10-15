@@ -193,6 +193,17 @@ function slips(a: string, b: string): number {
   return d[a.length][b.length];
 }
 
+/** A single word typed from audio: missing accents pass (the word is shown), nothing else does. */
+export function checkSpelled(input: string, word: string): CheckResult {
+  const given = normalize(input);
+  const want = normalize(word);
+  if (given === want) return { correct: true };
+  if (given && stripDiacritics(given) === stripDiacritics(want)) {
+    return { correct: true, note: "answer.accents", words: [{ text: word, mark: "ok" }] };
+  }
+  return { correct: false };
+}
+
 /** Built-from-tiles answers: the words must match exactly. */
 export function checkBuilt(words: string[], accepted: string[]): CheckResult {
   const given = normalize(words.join(" "));

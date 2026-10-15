@@ -1,0 +1,272 @@
+{
+  "u1-l1": [
+    {"after":2,"sk":"pán"},
+    {"after":3,"sk":"ráno"},
+    {"after":4,"sk":"dobré"},
+    {"after":12,"sk":"dobrú"},
+    {"after":13,"sk":"noc"}
+  ],
+  "u1-l2": [
+    {"after":0,"sk":"dobrý"},
+    {"after":1,"sk":"deň"},
+    {"after":4,"sk":"ďakujem","gloss":"u1-l2#0"},
+    {"after":12,"sk":"nestalo"},
+    {"after":13,"sk":"nič"}
+  ],
+  "u1-l3": [
+    {"after":0,"sk":"zdravie"},
+    {"after":1,"sk":"dovidenia","gloss":"u1-l1#7"},
+    {"after":4,"sk":"mám"},
+    {"after":5,"sk":"výborne"},
+    {"after":9,"sk":"voláš"}
+  ],
+  "u1-l4": [
+    {"after":0,"sk":"pani"},
+    {"after":1,"sk":"máte"},
+    {"after":2,"sk":"teší"},
+    {"after":3,"sk":"prepáčte","gloss":"u1-l2#9"}
+  ],
+  "u1-l5": [
+    {"after":9,"sk":"päť"}
+  ],
+  "u2-l3": [
+    {"after":2,"sk":"učiteľka"},
+    {"after":3,"sk":"študentka"},
+    {"after":8,"sk":"mesto","gloss":"u4-l1#0"},
+    {"after":10,"sk":"izba","gloss":"u3-l1#0"}
+  ],
+  "u2-l4": [
+    {"after":6,"sk":"študujem"},
+    {"after":7,"sk":"študuje"},
+    {"after":8,"sk":"pracujem"},
+    {"after":9,"sk":"kuchár"}
+  ],
+  "u2-l5": [
+    {"after":1,"sk":"nepracuje"}
+  ],
+  "u2-l6": [
+    {"after":1,"sk":"sedem"},
+    {"after":2,"sk":"šesť"},
+    {"after":3,"sk":"tri"},
+    {"after":8,"sk":"tridsať"},
+    {"after":11,"sk":"rokov"}
+  ],
+  "u2-l7": [
+    {"after":6,"sk":"devätnásť"}
+  ],
+  "u3-l1": [
+    {"after":3,"sk":"kúpeľňa","gloss":"u3-l1#2"},
+    {"after":7,"sk":"hore"},
+    {"after":11,"sk":"dole"},
+    {"after":12,"sk":"vrátnica","gloss":"u3-l1#10"},
+    {"after":17,"sk":"býva"}
+  ],
+  "u3-l2": [
+    {"after":0,"sk":"internáte"},
+    {"after":3,"sk":"malá"},
+    {"after":4,"sk":"pekná"},
+    {"after":13,"sk":"stará"}
+  ],
+  "u3-l3": [
+    {"after":1,"sk":"posteľ","gloss":"u3-l3#0"},
+    {"after":4,"sk":"skriňa","gloss":"u3-l3#2"},
+    {"after":7,"sk":"lampa","gloss":"u3-l3#4"},
+    {"after":7,"sk":"vpravo"},
+    {"after":11,"sk":"vľavo"}
+  ],
+  "u3-l4": [
+    {"after":0,"sk":"vzadu"}
+  ],
+  "u3-l5": [
+    {"after":6,"sk":"spálňa","gloss":"u3-l5#5"},
+    {"after":7,"sk":"obývačka","gloss":"u3-l5#4"},
+    {"after":13,"sk":"lacný"}
+  ],
+  "u4-l1": [
+    {"after":9,"sk":"hrad"},
+    {"after":14,"sk":"dlhé"},
+    {"after":16,"sk":"pekné"}
+  ],
+  "u4-l2": [
+    {"after":5,"sk":"divadlo","gloss":"u4-l2#4"},
+    {"after":6,"sk":"kino","gloss":"u4-l2#3"}
+  ],
+  "u4-l3": [
+    {"after":8,"sk":"čašníčka"},
+    {"after":10,"sk":"mladý"}
+  ],
+  "u4-l4": [
+    {"after":2,"sk":"rieky"},
+    {"after":4,"sk":"kostoly"},
+    {"after":7,"sk":"kuchári"},
+    {"after":8,"sk":"dôchodcovia"},
+    {"after":9,"sk":"nepracujú"}
+  ],
+  "u4-l5": [
+    {"after":0,"sk":"čašníci"},
+    {"after":6,"sk":"štyria"},
+    {"after":10,"sk":"dvaja"}
+  ],
+  "u4-l6": [
+    {"after":3,"sk":"stojí"},
+    {"after":9,"sk":"Vianoce"},
+    {"after":11,"sk":"noviny","gloss":"u10-l1#0"}
+  ],
+  "u5-l1": [
+    {"after":3,"sk":"chlieb"},
+    {"after":4,"sk":"potrebujeme"},
+    {"after":5,"sk":"džús"},
+    {"after":6,"sk":"víno"},
+    {"after":14,"sk":"čerstvý"}
+  ],
+  "u5-l2": [
+    {"after":0,"sk":"kúpim"},
+    {"after":1,"sk":"kávu"},
+    {"after":2,"sk":"oslavu"},
+    {"after":3,"sk":"čerstvú"},
+    {"after":4,"sk":"šunku"}
+  ],
+  "u5-l3": [
+    {"after":0,"sk":"syr"},
+    {"after":3,"sk":"čierny"},
+    {"after":6,"sk":"sveter"},
+    {"after":7,"sk":"hľadajú"},
+    {"after":9,"sk":"darček","gloss":"u5-l3#9"}
+  ],
+  "u5-l4": [
+    {"after":0,"sk":"máme"},
+    {"after":1,"sk":"pivo"},
+    {"after":10,"sk":"pozývam"}
+  ],
+  "u5-l5": [
+    {"after":2,"sk":"ísť"},
+    {"after":3,"sk":"idem"},
+    {"after":4,"sk":"chceš"},
+    {"after":5,"sk":"môžem"},
+    {"after":6,"sk":"musím"}
+  ],
+  "u5-l6": [
+    {"after":2,"sk":"najlepšie"},
+    {"after":4,"sk":"dnes"},
+    {"after":5,"sk":"všetko"}
+  ],
+  "u6-l1": [
+    {"after":7,"sk":"ryba","gloss":"u6-l1#5"},
+    {"after":8,"sk":"varí"},
+    {"after":9,"sk":"polievku"},
+    {"after":13,"sk":"veľmi"}
+  ],
+  "u6-l2": [
+    {"after":8,"sk":"chutí"},
+    {"after":9,"sk":"horúci","gloss":"u6-l2#8"},
+    {"after":10,"sk":"čaj"}
+  ],
+  "u6-l4": [
+    {"after":6,"sk":"domov"},
+    {"after":10,"sk":"vlaku"},
+    {"after":11,"sk":"pešo","gloss":"u6-l4#10"}
+  ],
+  "u6-l5": [
+    {"after":9,"sk":"reštauráciou"},
+    {"after":10,"sk":"univerzitu"},
+    {"after":11,"sk":"čaká"}
+  ],
+  "u6-l6": [
+    {"after":3,"sk":"pozvem"},
+    {"after":4,"sk":"pije"},
+    {"after":6,"sk":"ješ"}
+  ],
+  "u7-l1": [
+    {"after":2,"sk":"seminár","gloss":"u7-l1#1"},
+    {"after":3,"sk":"prednáška","gloss":"u7-l1#0"},
+    {"after":7,"sk":"prednášku"},
+    {"after":8,"sk":"knižnici"},
+    {"after":13,"sk":"zajtra"}
+  ],
+  "u7-l2": [
+    {"after":5,"sk":"desiatej"},
+    {"after":6,"sk":"ôsmej"},
+    {"after":7,"sk":"deviatej"},
+    {"after":9,"sk":"pol"}
+  ],
+  "u7-l3": [
+    {"after":6,"sk":"poobede"},
+    {"after":10,"sk":"učím"}
+  ],
+  "u7-l4": [
+    {"after":4,"sk":"sedí"}
+  ],
+  "u7-l5": [
+    {"after":1,"sk":"raňajkovali"},
+    {"after":2,"sk":"čítal"},
+    {"after":3,"sk":"včera"},
+    {"after":12,"sk":"stretli"}
+  ],
+  "u7-l6": [
+    {"after":1,"sk":"zaspala"},
+    {"after":2,"sk":"nebola"},
+    {"after":3,"sk":"nebol"},
+    {"after":4,"sk":"neboli"}
+  ],
+  "u7-l7": [
+    {"after":1,"sk":"seminári"}
+  ],
+  "u8-l1": [
+    {"after":9,"sk":"porade"},
+    {"after":11,"sk":"pohovor","gloss":"u8-l1#10"}
+  ],
+  "u8-l2": [
+    {"after":4,"sk":"sobotu"},
+    {"after":10,"sk":"decembri"}
+  ],
+  "u8-l3": [
+    {"after":1,"sk":"druhého"},
+    {"after":2,"sk":"júna"},
+    {"after":6,"sk":"narodila"}
+  ],
+  "u8-l4": [
+    {"after":1,"sk":"nikto"},
+    {"after":3,"sk":"nikde"},
+    {"after":4,"sk":"niečo"},
+    {"after":7,"sk":"nehovoril"}
+  ],
+  "u8-l5": [
+    {"after":3,"sk":"kancelárii"}
+  ],
+  "u8-l6": [
+    {"after":4,"sk":"povedzte"}
+  ],
+  "u8-l7": [
+    {"after":1,"sk":"univerzite"}
+  ],
+  "u9-l1": [
+    {"after":8,"sk":"prestávka"}
+  ],
+  "u9-l2": [
+    {"after":5,"sk":"zaregistrovať"}
+  ],
+  "u9-l3": [
+    {"after":4,"sk":"súbor","gloss":"u9-l3#0"},
+    {"after":12,"sk":"poslal"},
+    {"after":14,"sk":"e-mailom"}
+  ],
+  "u9-l4": [
+    {"after":3,"sk":"vrátil"},
+    {"after":10,"sk":"prestávke"}
+  ],
+  "u9-l5": [
+    {"after":3,"sk":"trvalé"},
+    {"after":3,"sk":"bydlisko"}
+  ],
+  "u10-l1": [
+    {"after":5,"sk":"titulok","gloss":"u10-l1#3"},
+    {"after":10,"sk":"zaujímavý"}
+  ],
+  "u10-l2": [
+    {"after":2,"sk":"počasie","gloss":"u10-l2#0"},
+    {"after":3,"sk":"slnečno"},
+    {"after":4,"sk":"oblačno"},
+    {"after":5,"sk":"prší","gloss":"u10-l2#4"},
+    {"after":9,"sk":"teplo"}
+  ]
+}

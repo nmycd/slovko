@@ -39,6 +39,17 @@ export type ListenExercise = {
   en: string;
 };
 
+/**
+ * Hear one word and type it, so its spelling is practised before a typed sentence
+ * needs it. Not written by hand: scripts/plan-spelling.ts places these (see ../spelling.ts).
+ */
+export type SpellExercise = {
+  type: "spell";
+  sk: string;
+  /** The word's meaning, when an intro card teaches this exact form. */
+  en?: string;
+};
+
 /** Tap matching pairs. */
 export type MatchExercise = {
   type: "match";
@@ -89,6 +100,7 @@ export type Exercise =
   | ChoiceExercise
   | BuildExercise
   | ListenExercise
+  | SpellExercise
   | MatchExercise
   | SpeakExercise
   | FillExercise

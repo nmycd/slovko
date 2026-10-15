@@ -134,6 +134,8 @@ export const en = {
   "ex.writeSlovak": "Write this in Slovak",
   "ex.writeNative": "Write this in English",
   "ex.listen": "Type what you hear",
+  "ex.spell": "Type the word you hear",
+  "ex.spellPlaceholder": "Type the word",
   "ex.listenPlaceholder": "Type in Slovak (accents are optional)",
   "ex.accentKeys": "Letters your keyboard may not have:",
   "ex.match": "Tap the matching pairs",

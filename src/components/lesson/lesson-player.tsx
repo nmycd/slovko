@@ -15,10 +15,11 @@ import {
   ListenView,
   MatchView,
   SpeakView,
+  SpellView,
   type Answer,
   type Resolution,
 } from "@/components/lesson/exercises";
-import { checkBuilt, checkTyped, shuffle, toTiles, type MarkedWord } from "@/lib/answers";
+import { checkBuilt, checkSpelled, checkTyped, shuffle, toTiles, type MarkedWord } from "@/lib/answers";
 import { playSlovak, stopSlovak } from "@/lib/audio";
 import { fillSentence } from "@/lib/course/helpers";
 import type { Illustration } from "@/lib/course/illustrations";
@@ -53,6 +54,8 @@ function grade(ex: Exercise, answer: Answer, tiles: string[]): Resolution {
         ...checkTyped(typeof answer === "string" ? answer : "", [ex.sk], (word) => properNames.has(word)),
         solution: ex.sk,
       };
+    case "spell":
+      return { ...checkSpelled(typeof answer === "string" ? answer : "", ex.sk), solution: ex.sk };
     default:
       return { correct: true };
   }
@@ -384,6 +387,9 @@ function Step({
           )}
           {ex.type === "listen" && (
             <ListenView exercise={ex} answer={answer} setAnswer={setAnswer} locked={locked} />
+          )}
+          {ex.type === "spell" && (
+            <SpellView exercise={ex} answer={answer} setAnswer={setAnswer} locked={locked} />
           )}
           {ex.type === "match" && <MatchView exercise={ex} onResolve={resolve} locked={locked} />}
           {ex.type === "speak" && <SpeakView exercise={ex} onResolve={resolve} locked={locked} />}

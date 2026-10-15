@@ -18,6 +18,7 @@ import type {
   ListenExercise,
   MatchExercise,
   SpeakExercise,
+  SpellExercise,
 } from "@/lib/course/types";
 import { useRecorder } from "@/lib/useRecorder";
 
@@ -272,6 +273,53 @@ export function BuildView({
 
 export function ListenView({ exercise, answer, setAnswer, locked }: Props<ListenExercise>) {
   const { t } = useApp();
+  return (
+    <div className="space-y-4 sm:space-y-8">
+      <Title>{t("ex.listen")}</Title>
+      <div className="flex justify-center">
+        <AudioButton text={exercise.sk} autoPlay size="lg" withSlow />
+      </div>
+      <TypedAnswer
+        answer={answer}
+        setAnswer={setAnswer}
+        locked={locked}
+        rows={2}
+        placeholder={t("ex.listenPlaceholder")}
+      />
+    </div>
+  );
+}
+
+/** One word to type from audio, with its meaning when the course teaches it. */
+export function SpellView({ exercise, answer, setAnswer, locked }: Props<SpellExercise>) {
+  const { t } = useApp();
+  return (
+    <div className="space-y-4 sm:space-y-8">
+      <Title>{t("ex.spell")}</Title>
+      <div className="flex flex-col items-center gap-2 sm:gap-3">
+        <AudioButton text={exercise.sk} autoPlay size="lg" withSlow />
+        {exercise.en && <p className="text-muted sm:text-lg">{exercise.en}</p>}
+      </div>
+      <TypedAnswer
+        answer={answer}
+        setAnswer={setAnswer}
+        locked={locked}
+        rows={1}
+        placeholder={t("ex.spellPlaceholder")}
+      />
+    </div>
+  );
+}
+
+/** A text box for Slovak, with keys for the letters most keyboards lack. */
+function TypedAnswer({
+  answer,
+  setAnswer,
+  locked,
+  rows,
+  placeholder,
+}: Omit<Props<unknown>, "exercise"> & { rows: number; placeholder: string }) {
+  const { t } = useApp();
   const input = useRef<HTMLTextAreaElement>(null);
   const caret = useRef<number | null>(null);
   const text = typeof answer === "string" ? answer : "";
@@ -295,11 +343,7 @@ export function ListenView({ exercise, answer, setAnswer, locked }: Props<Listen
   });
 
   return (
-    <div className="space-y-8">
-      <Title>{t("ex.listen")}</Title>
-      <div className="flex justify-center">
-        <AudioButton text={exercise.sk} autoPlay size="lg" withSlow />
-      </div>
+    <>
       <textarea
         ref={input}
         autoFocus
@@ -310,15 +354,17 @@ export function ListenView({ exercise, answer, setAnswer, locked }: Props<Listen
           if (e.key === "Enter") e.preventDefault();
         }}
         disabled={locked}
-        rows={3}
+        rows={rows}
         lang="sk"
         spellCheck={false}
         autoCapitalize="off"
-        placeholder={t("ex.listenPlaceholder")}
+        autoComplete="off"
+        autoCorrect="off"
+        placeholder={placeholder}
         className="w-full resize-none rounded-xl border-[1.5px] border-border-strong bg-bg p-4 font-serif text-xl outline-none focus:border-accent"
       />
       <SlovakKeys label={t("ex.accentKeys")} disabled={locked} onKey={insert} />
-    </div>
+    </>
   );
 }
 

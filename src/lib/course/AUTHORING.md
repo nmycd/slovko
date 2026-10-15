@@ -122,6 +122,15 @@ show up as missing/stale in `translations/uk` and `translations/ru` and need
 translating (see `TRANSLATING.md`). Keep English notes free of jokes or
 references that only work in English; they get translated.
 
+## Spelling cards
+
+Before a word turns up in a `listen` sentence, the learner types it once on its
+own, on a "spell" card. Don't write these: `npm run plan:spelling` places them
+(in `spelling.json`, see `spelling.ts`), skipping names and little words. Rerun
+it after adding or changing lessons; `npm run validate:course` (whole course)
+fails until you do. New spelling words need audio: `npm run generate:audio`.
+A new name in a `listen` sentence goes in `names.ts`.
+
 ## Checking your work
 
 ```bash

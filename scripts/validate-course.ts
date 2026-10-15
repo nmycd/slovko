@@ -11,6 +11,7 @@ import { join } from "node:path";
 import { normalize, toTiles } from "../src/lib/answers";
 import { fillSentence, speakableTexts } from "../src/lib/course/helpers";
 import { capitalisedWords, properNames } from "../src/lib/course/names";
+import { addSpelling, needsSpelling, sentenceWords, spellingPlan } from "../src/lib/course/spelling";
 import {
   isTranslated,
   localizeUnit,
@@ -155,6 +156,10 @@ function checkExercise(where: string, ex: Exercise) {
       for (const word of unlistedCapitals(ex.sk)) {
         check(where, false, `"${word}" is capitalised: add it to properNames or capitalisedWords in src/lib/course/names.ts`);
       }
+      break;
+    case "spell":
+      slovak(where, ex.sk);
+      check(where, sentenceWords(ex.sk).length === 1, "a spelling card is one word");
       break;
     case "speak":
       slovak(where, ex.sk);
@@ -483,9 +488,45 @@ function summarize(unit: Unit) {
   );
 }
 
+/**
+ * The spelling plan (src/lib/course/spelling.json) is current: every word a typed
+ * sentence needs was spelled on its own before, and every card sits in its lesson.
+ */
+function checkSpelling(units: Unit[]) {
+  const rerun = "run npm run plan:spelling";
+  const lessons = units.flatMap((u) => u.lessons);
+  for (const id of Object.keys(spellingPlan)) {
+    check("spelling.json", lessons.some((l) => l.id === id), `unknown lesson ${id}: ${rerun}`);
+  }
+  const spelled = new Set<string>();
+  const needed = new Set<string>();
+  for (const lesson of lessons) {
+    for (const card of spellingPlan[lesson.id] ?? []) {
+      check(
+        `${lesson.id} spelling`,
+        card.after >= -1 && card.after < lesson.exercises.length,
+        `"${card.sk}" is placed after exercise ${card.after}, past the lesson's end: ${rerun}`,
+      );
+    }
+    addSpelling(lesson, () => undefined).exercises.forEach((ex) => {
+      if (ex.type === "spell") spelled.add(ex.sk.toLowerCase());
+      if (ex.type !== "listen") return;
+      for (const word of sentenceWords(ex.sk).filter(needsSpelling)) {
+        needed.add(word);
+        check(lesson.id, spelled.has(word), `"${word}" is typed before it was spelled on its own: ${rerun}`);
+      }
+    });
+  }
+  const unused = Object.values(spellingPlan)
+    .flat()
+    .filter((c) => !needed.has(c.sk.toLowerCase()));
+  hint("spelling.json", !unused.length, `cards no typed sentence needs: ${unused.map((c) => c.sk).join(", ")} (${rerun})`);
+}
+
 async function main() {
   const seenIds = new Set<string>();
-  for (const unit of await loadUnits()) {
+  const units = await loadUnits();
+  for (const unit of units) {
     check(unit.id, unit.id === `u${unit.number}`, "unit id must be u<number>");
     check(
       unit.id,
@@ -506,6 +547,8 @@ async function main() {
     if (checkI18n) checkTranslations(unit);
     summarize(unit);
   }
+
+  if (!onlyUnit) checkSpelling(units);
 
   if (warnings.length) {
     console.log(`\n${warnings.length} warning(s):`);

@@ -126,6 +126,8 @@ export const uk: Messages = {
   "ex.writeSlovak": "Напишіть словацькою",
   "ex.writeNative": "Напишіть українською",
   "ex.listen": "Напишіть, що чуєте",
+  "ex.spell": "Напишіть слово, яке чуєте",
+  "ex.spellPlaceholder": "Напишіть слово",
   "ex.listenPlaceholder": "Пишіть словацькою (діакритика не обов'язкова)",
   "ex.accentKeys": "Літери, яких може не бути на вашій клавіатурі:",
   "ex.match": "Знайдіть пари",

@@ -38,6 +38,9 @@ function exerciseFields(ex: Exercise): Record<string, Field> {
     case "speak":
     case "fill":
       return { en: ex.en };
+    case "spell":
+      // Added after translation, with the meaning already in the learner's language.
+      return {};
     case "choice":
       return { question: ex.question, ...(ex.optionsLang === "en" ? { options: ex.options } : {}) };
     case "build":
@@ -108,6 +111,8 @@ function localizeExercise(ex: Exercise, tr: <T extends Field>(field: string, fal
     case "speak":
     case "fill":
       return { ...ex, en: tr("en", ex.en) };
+    case "spell":
+      return ex;
     case "choice":
       return {
         ...ex,

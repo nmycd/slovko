@@ -3,6 +3,7 @@
 // never downloads every unit. Client-safe helpers live in ./helpers.
 import { locales, type Locale } from "../i18n/locales";
 import { speakableTexts } from "./helpers";
+import { addSpelling } from "./spelling";
 import { localizeUnit, type Catalog } from "./translatable";
 import type { Lesson, Unit, UnitOutline } from "./types";
 import { unit1 } from "./units/unit1";
@@ -43,6 +44,7 @@ export * from "./helpers";
 // original; the book sets the topic, vocabulary and grammar order.
 export const course: Unit[] = [unit1, unit2, unit3, unit4, unit5, unit6, unit7, unit8, unit9, unit10];
 
+/** The lessons as written (no spelling cards): for ids and order. `findLesson` gives a lesson as played. */
 export const allLessons: Lesson[] = course.flatMap((u) => u.lessons);
 
 // Translation catalogs, in unit order (see ./translatable and scripts/sync-translations.ts).
@@ -51,12 +53,25 @@ const catalogs: Record<Exclude<Locale, "en">, Catalog[]> = {
   ru: [ru1, ru2, ru3, ru4, ru5, ru6, ru7, ru8, ru9, ru10] as Catalog[],
 };
 
-/** The course with translations and explanations in the learner's native language. */
+/**
+ * The course as played: translations and explanations in the learner's native
+ * language, and spelling cards (./spelling) in the lessons.
+ */
 export const localizedCourse: Record<Locale, Unit[]> = Object.fromEntries(
-  locales.map((locale) => [
-    locale,
-    locale === "en" ? course : course.map((unit, i) => localizeUnit(unit, catalogs[locale][i])),
-  ]),
+  locales.map((locale) => {
+    const units = locale === "en" ? course : course.map((unit, i) => localizeUnit(unit, catalogs[locale][i]));
+    // A spelling card's gloss names the intro card ("lessonId#index") whose meaning it shows.
+    const lessons = new Map(units.flatMap((u) => u.lessons).map((l) => [l.id, l]));
+    const meaning = (gloss: string) => {
+      const [lessonId, index] = gloss.split("#");
+      const ex = lessons.get(lessonId)?.exercises[Number(index)];
+      return ex?.type === "intro" ? ex.en : undefined;
+    };
+    return [
+      locale,
+      units.map((unit) => ({ ...unit, lessons: unit.lessons.map((l) => addSpelling(l, meaning)) })),
+    ];
+  }),
 ) as Record<Locale, Unit[]>;
 
 export function findLesson(lessonId: string, locale: Locale = "en"): { unit: Unit; lesson: Lesson } | null {
@@ -97,5 +112,5 @@ export const courseOutlines: Record<Locale, UnitOutline[]> = Object.fromEntries(
  * arbitrary text.
  */
 export const speakableSet: ReadonlySet<string> = new Set(
-  allLessons.flatMap((l) => l.exercises.flatMap(speakableTexts)),
+  localizedCourse.en.flatMap((u) => u.lessons).flatMap((l) => l.exercises.flatMap(speakableTexts)),
 );
