@@ -178,7 +178,7 @@ function longestRun(xs: number[]): Set<number> {
 }
 
 /** Edit distance in which swapping two neighbouring letters is a single slip. */
-function slips(a: string, b: string): number {
+export function slips(a: string, b: string): number {
   const d = Array.from({ length: a.length + 1 }, (_, i) =>
     Array.from({ length: b.length + 1 }, (_, j) => (i === 0 ? j : j === 0 ? i : 0)),
   );
