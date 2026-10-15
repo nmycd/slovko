@@ -79,6 +79,14 @@ export function AccountPanel() {
         {error && <p className="mt-3 text-sm font-bold text-bad">{error}</p>}
       </div>
 
+      <div className="card p-5">
+        <h2 className="text-lg">{t("account.help.title")}</h2>
+        <p className="mt-1 text-muted">{t("account.help.body")}</p>
+        <Link href="/contact" className="btn btn-ghost mt-4 w-full">
+          {t("account.help.button")}
+        </Link>
+      </div>
+
       <button
         type="button"
         onClick={async () => {

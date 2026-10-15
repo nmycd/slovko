@@ -9,6 +9,7 @@ export const en = {
   "stats.streak": "Day streak",
   "stats.xp": "Total XP",
   "footer.language": "Your language",
+  "footer.contact": "Contact",
 
   // Landing page
   "landing.title": "Learn Slovak.",
@@ -190,6 +191,27 @@ export const en = {
   "pricing.youArePremium": "You're Premium. Ďakujeme!",
   "pricing.notConfigured": "Payments need accounts: add Supabase and Stripe keys to .env.local.",
 
+  // Contact
+  "contact.title": "Contact us",
+  "contact.intro":
+    "A question about lessons or Premium, a mistake you spotted, an idea for Slovko: write to us and we'll reply by email.",
+  "contact.name": "Your name",
+  "contact.email": "Email",
+  "contact.message": "Message",
+  "contact.messagePlaceholder": "How can we help?",
+  "contact.honeypot": "Leave this field empty",
+  "contact.send": "Send message",
+  "contact.sending": "Sending…",
+  "contact.privacy": "We use your email only to reply to you.",
+  "contact.sent.title": "Message sent",
+  "contact.sent.body": "Thanks for writing! We'll reply to {email} as soon as we can.",
+  "contact.sendAnother": "Send another message",
+  "contact.backToLearning": "Back to lessons",
+  "contact.error.invalid": "Please add your name, a valid email and a message of at least {n} characters.",
+  "contact.error.tooFast": "That was quick! Wait a few seconds, then send again.",
+  "contact.error.rateLimited": "You've sent several messages in the last hour. Please try again later.",
+  "contact.error.failed": "Your message wasn't sent. Check your connection and try again.",
+
   // Account
   "account.notSignedIn": "Not signed in",
   "account.signIn": "Sign in",
@@ -204,6 +226,9 @@ export const en = {
   "account.signOut": "Sign out",
   "account.language": "Native language",
   "account.languageBody": "Used for the app and for translations and explanations in lessons.",
+  "account.help.title": "Questions or feedback?",
+  "account.help.body": "Spotted a mistake in a lesson, need help with Premium, or have an idea? We read every message.",
+  "account.help.button": "Contact us",
 } as const;
 
 export type MessageKey = keyof typeof en;

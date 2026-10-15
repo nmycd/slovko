@@ -7,6 +7,7 @@ export const uk: Messages = {
   "stats.streak": "Серія днів",
   "stats.xp": "Усього XP",
   "footer.language": "Ваша мова",
+  "footer.contact": "Контакти",
 
   "landing.title": "Вивчайте словацьку.",
   "landing.subtitle":
@@ -180,6 +181,26 @@ export const uk: Messages = {
   "pricing.youArePremium": "У вас Premium. Ďakujeme!",
   "pricing.notConfigured": "Для оплати потрібні акаунти: додайте ключі Supabase і Stripe у .env.local.",
 
+  "contact.title": "Напишіть нам",
+  "contact.intro":
+    "Питання про уроки чи Premium, помилка, яку ви помітили, або ідея для Slovko — напишіть нам, і ми відповімо електронною поштою.",
+  "contact.name": "Ваше ім'я",
+  "contact.email": "Ел. пошта",
+  "contact.message": "Повідомлення",
+  "contact.messagePlaceholder": "Чим ми можемо допомогти?",
+  "contact.honeypot": "Залиште це поле порожнім",
+  "contact.send": "Надіслати повідомлення",
+  "contact.sending": "Надсилаємо…",
+  "contact.privacy": "Вашу адресу ми використаємо лише для відповіді.",
+  "contact.sent.title": "Повідомлення надіслано",
+  "contact.sent.body": "Дякуємо, що написали! Ми відповімо на {email} якнайшвидше.",
+  "contact.sendAnother": "Надіслати ще одне",
+  "contact.backToLearning": "Повернутися до уроків",
+  "contact.error.invalid": "Вкажіть ім'я, правильну адресу пошти й повідомлення щонайменше з {n} символів.",
+  "contact.error.tooFast": "Це було швидко! Зачекайте кілька секунд і надішліть ще раз.",
+  "contact.error.rateLimited": "Ви вже надіслали кілька повідомлень за останню годину. Спробуйте пізніше.",
+  "contact.error.failed": "Повідомлення не надіслано. Перевірте з'єднання й спробуйте ще раз.",
+
   "account.notSignedIn": "Ви не ввійшли",
   "account.signIn": "Увійти",
   "account.title": "Профіль",
@@ -194,4 +215,8 @@ export const uk: Messages = {
   "account.signOut": "Вийти",
   "account.language": "Рідна мова",
   "account.languageBody": "Мова застосунку, перекладів і пояснень в уроках.",
+  "account.help.title": "Є питання чи відгук?",
+  "account.help.body":
+    "Помітили помилку в уроці, потрібна допомога з Premium чи маєте ідею? Ми читаємо кожне повідомлення.",
+  "account.help.button": "Написати нам",
 };

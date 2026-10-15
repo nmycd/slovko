@@ -7,6 +7,7 @@ export const ru: Messages = {
   "stats.streak": "Серия дней",
   "stats.xp": "Всего XP",
   "footer.language": "Ваш язык",
+  "footer.contact": "Контакты",
 
   "landing.title": "Учите словацкий.",
   "landing.subtitle":
@@ -180,6 +181,26 @@ export const ru: Messages = {
   "pricing.youArePremium": "У вас Premium. Ďakujeme!",
   "pricing.notConfigured": "Для оплаты нужны аккаунты: добавьте ключи Supabase и Stripe в .env.local.",
 
+  "contact.title": "Напишите нам",
+  "contact.intro":
+    "Вопрос об уроках или Premium, замеченная ошибка или идея для Slovko — напишите нам, и мы ответим по электронной почте.",
+  "contact.name": "Ваше имя",
+  "contact.email": "Эл. почта",
+  "contact.message": "Сообщение",
+  "contact.messagePlaceholder": "Чем мы можем помочь?",
+  "contact.honeypot": "Оставьте это поле пустым",
+  "contact.send": "Отправить сообщение",
+  "contact.sending": "Отправляем…",
+  "contact.privacy": "Ваш адрес мы используем только для ответа.",
+  "contact.sent.title": "Сообщение отправлено",
+  "contact.sent.body": "Спасибо, что написали! Мы ответим на {email} как можно скорее.",
+  "contact.sendAnother": "Отправить ещё одно",
+  "contact.backToLearning": "Вернуться к урокам",
+  "contact.error.invalid": "Укажите имя, правильный адрес почты и сообщение не короче {n} символов.",
+  "contact.error.tooFast": "Слишком быстро! Подождите несколько секунд и отправьте ещё раз.",
+  "contact.error.rateLimited": "Вы уже отправили несколько сообщений за последний час. Попробуйте позже.",
+  "contact.error.failed": "Сообщение не отправлено. Проверьте подключение и попробуйте ещё раз.",
+
   "account.notSignedIn": "Вы не вошли",
   "account.signIn": "Войти",
   "account.title": "Профиль",
@@ -194,4 +215,8 @@ export const ru: Messages = {
   "account.signOut": "Выйти",
   "account.language": "Родной язык",
   "account.languageBody": "Язык приложения, переводов и объяснений в уроках.",
+  "account.help.title": "Есть вопрос или отзыв?",
+  "account.help.body":
+    "Заметили ошибку в уроке, нужна помощь с Premium или есть идея? Мы читаем каждое сообщение.",
+  "account.help.button": "Написать нам",
 };

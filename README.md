@@ -68,7 +68,7 @@ Every Slovak string in the course is automatically allowed for TTS.
 ### Supabase (accounts + progress)
 
 1. Create a project at supabase.com.
-2. Run the files in `supabase/migrations/` in order (`0001_init.sql`, `0002_stt_usage.sql`, `0003_native_language.sql`) in the SQL editor.
+2. Run the files in `supabase/migrations/` in order (`0001_init.sql`, `0002_stt_usage.sql`, `0003_native_language.sql`, `0004_contact_messages.sql`) in the SQL editor.
 3. Copy the project URL, publishable key and secret key into `.env.local`.
 4. Authentication → URL Configuration: add `http://localhost:3000/auth/callback`
    (and your production URL) to the redirect URLs.
@@ -105,6 +105,15 @@ In production set `TTS_LIVE_GENERATION=false` so requests never spend credits.
 Speech-to-text is capped per user per day (`STT_DAILY_LIMIT`, default 100) and
 for all users per month (`STT_MONTHLY_LIMIT`, default 20,000); past a cap the
 learner sees a friendly "try tomorrow" message and can skip the exercise.
+
+### Resend (contact form email, optional)
+
+Messages from `/contact` are stored in the `contact_messages` table (read them
+in the Supabase Table Editor). To also get each one by email, create an API key
+at resend.com and set `RESEND_API_KEY` and `CONTACT_TO_EMAIL`; replies go
+straight to the sender. Until you verify a domain in Resend, mail comes from
+`onboarding@resend.dev` and can only go to the address your Resend account was
+created with. After verifying one, set `CONTACT_FROM_EMAIL`.
 
 ## Known limitations (MVP)
 
