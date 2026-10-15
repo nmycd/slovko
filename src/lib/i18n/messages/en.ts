@@ -247,10 +247,7 @@ export const en = {
   "account.help.button": "Contact us",
 
   // Word review (spaced repetition)
-  "courses.review": "Review",
   "review.title": "Word review",
-  "review.intro": "Words from your lessons come back just before you'd forget them, a little harder each time: first you pick the meaning, later you type them yourself.",
-  "review.inDeck": "Words",
   "review.dueNow": "Due now",
   "review.new": "New",
   "review.start": "Start review",

@@ -247,10 +247,7 @@ export const ka: Messages = {
   "account.help.button": "მოგვწერეთ",
 
   // Word review (spaced repetition)
-  "courses.review": "გამეორება",
   "review.title": "სიტყვების გამეორება",
-  "review.intro": "გაკვეთილების სიტყვები ბრუნდება სწორედ მაშინ, როცა შეიძლება დაგავიწყდეთ, ყოველ ჯერზე ცოტა უფრო რთულად: ჯერ მნიშვნელობას ირჩევთ, შემდეგ თავად წერთ.",
-  "review.inDeck": "სიტყვები",
   "review.dueNow": "გასამეორებელი",
   "review.new": "ახალი",
   "review.start": "გამეორების დაწყება",

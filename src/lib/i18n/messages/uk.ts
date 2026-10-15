@@ -237,10 +237,7 @@ export const uk: Messages = {
   "account.help.button": "Написати нам",
 
   // Word review (spaced repetition)
-  "courses.review": "Повторення",
   "review.title": "Повторення слів",
-  "review.intro": "Слова з уроків повертаються саме тоді, коли ви могли б їх забути, і щоразу трохи складніше: спершу ви обираєте значення, згодом пишете їх самі.",
-  "review.inDeck": "Слова",
   "review.dueNow": "Час повторити",
   "review.new": "Нові",
   "review.start": "Почати повторення",

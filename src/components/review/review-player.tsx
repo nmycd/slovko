@@ -88,7 +88,7 @@ function Session({ deck }: { deck: ReviewItem[] }) {
     <div className="flex min-h-dvh flex-col">
       <header className={`mx-auto w-full pt-3 sm:pt-5 ${frame}`}>
         <div className="flex items-center gap-3">
-          <Link href="/learn/review" aria-label={t("lesson.quit")} className="shrink-0 text-muted hover:text-text">
+          <Link href="/learn" aria-label={t("lesson.quit")} className="shrink-0 text-muted hover:text-text">
             <CloseIcon size={28} />
           </Link>
           <p className="min-w-0 flex-1 truncate font-serif text-lg">{t("review.title")}</p>

@@ -14,7 +14,6 @@ const tabs: Tab[] = [
   { href: "/learn/a2", level: "A2", label: "courses.a2", soon: true },
   { href: "/learn/b1", level: "B1", label: "courses.b1", soon: true },
   { href: "/learn/driving", label: "courses.driving", soon: true },
-  { href: "/learn/review", label: "courses.review" },
   { href: "/learn/resources", label: "courses.resources" },
 ];
 

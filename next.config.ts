@@ -13,6 +13,10 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  // Word review was a course tab before it became a card beside the course.
+  async redirects() {
+    return [{ source: "/learn/review", destination: "/learn", permanent: false }];
+  },
   partialPrefetching: true,
   turbopack: {
     rules: {

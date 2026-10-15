@@ -5,11 +5,12 @@ import { usePathname } from "next/navigation";
 import { useApp } from "@/components/app-provider";
 import { Dictionary } from "@/components/dictionary";
 import { BoltIcon, CrownIcon } from "@/components/icons";
+import { ReviewCard } from "@/components/review/review-card";
 
 /**
- * The course tabs' frame on /learn: the tab beside a column with the daily goal and
- * the dictionary (and Premium on A1, whose units it unlocks). Resources has the
- * page to itself.
+ * The course tabs' frame on /learn: the tab beside a column with the daily goal, word
+ * review and the dictionary (and Premium on A1, whose units it unlocks). Resources
+ * has the page to itself.
  */
 export function LearnFrame({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -17,17 +18,25 @@ export function LearnFrame({ children }: { children: React.ReactNode }) {
   if (pathname === "/learn/resources") return children;
 
   const onA1 = pathname === "/learn";
-  // Its search text comes from session storage, so it waits for the app.
-  const dictionaryCard = (className?: string) => ready && <Dictionary className={className} />;
+  // They read the device's storage (review cards, the search text), so they wait for the app.
+  const reviewCard = ready && <ReviewCard />;
+  const dictionaryCard = ready && <Dictionary />;
+  // Narrow screens have no side column: review and the dictionary lead the A1 path
+  // (long) and follow the other tabs' short text.
+  const inline = (className: string) =>
+    ready && (
+      <div className={`mx-auto max-w-xl space-y-4 lg:hidden ${className}`}>
+        {reviewCard}
+        {dictionaryCard}
+      </div>
+    );
 
   return (
     <div className="mx-auto flex max-w-5xl gap-10 px-4 py-8">
       <div className="min-w-0 flex-1">
-        {/* Narrow screens have no side column: the dictionary leads the A1 path (long)
-            and follows the other tabs' short text. */}
-        {onA1 && dictionaryCard("mx-auto mb-10 max-w-xl lg:hidden")}
+        {onA1 && inline("mb-10")}
         {children}
-        {!onA1 && dictionaryCard("mx-auto mt-10 max-w-xl lg:hidden")}
+        {!onA1 && inline("mt-10")}
       </div>
 
       <aside className="sticky top-24 hidden h-fit w-80 shrink-0 space-y-4 lg:block">
@@ -46,7 +55,8 @@ export function LearnFrame({ children }: { children: React.ReactNode }) {
             </span>
           </div>
         </div>
-        {dictionaryCard()}
+        {reviewCard}
+        {dictionaryCard}
         {onA1 && !isPremium && (
           <div className="card p-5">
             <h2 className="flex items-center gap-2">
