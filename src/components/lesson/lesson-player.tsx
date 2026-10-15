@@ -25,6 +25,7 @@ import { fillSentence, speakableTexts } from "@/lib/course/helpers";
 import type { Illustration } from "@/lib/course/illustrations";
 import { properNames } from "@/lib/course/names";
 import type { Exercise, Lesson } from "@/lib/course/types";
+import { setDictionaryQuery } from "@/lib/dictionary-query";
 import { unlockAllLessons } from "@/lib/env";
 import type { Locale } from "@/lib/i18n";
 
@@ -309,7 +310,11 @@ function Player({
           nextLabel={t("lesson.return")}
           nav={null}
           onGraded={() => {}}
-          onNext={() => router.push("/learn")}
+          onNext={() => {
+            // Back to the dictionary with an empty search box.
+            setDictionaryQuery("");
+            router.push("/learn");
+          }}
         />
       ) : (
         // Remounts on a language switch so word tiles are rebuilt in the new language.

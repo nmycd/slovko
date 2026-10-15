@@ -18,7 +18,7 @@ export function LearnFrame({ dictionary, children }: { dictionary: DictionaryEnt
   if (pathname === "/learn/resources") return children;
 
   const onA1 = pathname === "/learn";
-  // Client-only (it reads session storage), so it waits for the app.
+  // Its search text comes from session storage, so it waits for the app.
   const dictionaryCard = (className?: string) => ready && <Dictionary entries={dictionary} className={className} />;
 
   return (

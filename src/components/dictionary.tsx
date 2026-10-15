@@ -2,30 +2,20 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import { useApp } from "@/components/app-provider";
 import { SearchIcon } from "@/components/icons";
 import { dictionarySearch, type DictionaryEntry } from "@/lib/dictionary";
-
-const STORAGE_KEY = "slovko:dictionary-query";
-
-/** The last search, so it's still there back from a looked-up word. */
-function savedQuery(): string {
-  try {
-    return sessionStorage.getItem(STORAGE_KEY) ?? "";
-  } catch {
-    return ""; // storage blocked: start empty
-  }
-}
+import { setDictionaryQuery, useDictionaryQuery } from "@/lib/dictionary-query";
 
 /**
  * The dictionary card on /learn: search the words the course teaches; a result opens
- * its intro card. Client-only: mount it once the app is ready (it reads session storage).
+ * its intro card. The search text lives in a shared store (see dictionary-query).
  */
 export function Dictionary({ entries, className = "" }: { entries: DictionaryEntry[]; className?: string }) {
   const { locale, authEnabled, authKnown, user, t } = useApp();
   const router = useRouter();
-  const [query, setQuery] = useState(savedQuery);
+  const query = useDictionaryQuery();
   const search = useMemo(() => dictionarySearch(entries, locale), [entries, locale]);
   const results = useMemo(() => search(query), [search, query]);
   // A result opens its intro card on its own (the lesson player's look-up); lessons
@@ -35,15 +25,6 @@ export function Dictionary({ entries, className = "" }: { entries: DictionaryEnt
     const card = `/lesson/${entry.lessonId}?card=${entry.index}`;
     return signedOut ? `/login?next=${encodeURIComponent(card)}` : card;
   };
-
-  function change(value: string) {
-    setQuery(value);
-    try {
-      sessionStorage.setItem(STORAGE_KEY, value);
-    } catch {
-      // Storage blocked: the search just won't be remembered.
-    }
-  }
 
   return (
     <div className={`card p-5 ${className}`}>
@@ -55,7 +36,7 @@ export function Dictionary({ entries, className = "" }: { entries: DictionaryEnt
         <input
           type="search"
           value={query}
-          onChange={(e) => change(e.target.value)}
+          onChange={(e) => setDictionaryQuery(e.target.value)}
           onKeyDown={(e) => {
             if (e.key === "Enter" && results[0]) router.push(hrefFor(results[0]));
           }}
