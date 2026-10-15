@@ -36,6 +36,20 @@ export function preloadSlovak(text: string) {
   if (!ttsUnavailable) void loadAudio(text);
 }
 
+/**
+ * Fetches a lesson's clips in the background, in lesson order and a few at a time,
+ * so each one plays at once when its exercise comes up.
+ */
+export function preloadLesson(texts: string[]) {
+  const queue = [...new Set(texts)].filter((text) => !urls.has(text));
+  const next = (): Promise<void> => {
+    const text = queue.shift();
+    if (text === undefined || ttsUnavailable) return Promise.resolve();
+    return loadAudio(text).then(next);
+  };
+  for (let i = 0; i < 3; i++) void next();
+}
+
 /** Stops whatever is playing and cancels clips that are still loading. */
 export function stopSlovak() {
   generation++;

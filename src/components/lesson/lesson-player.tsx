@@ -20,8 +20,8 @@ import {
   type Resolution,
 } from "@/components/lesson/exercises";
 import { checkBuilt, checkSpelled, checkTyped, shuffle, toTiles, type MarkedWord } from "@/lib/answers";
-import { playSlovak, stopSlovak } from "@/lib/audio";
-import { fillSentence } from "@/lib/course/helpers";
+import { playSlovak, preloadLesson, stopSlovak } from "@/lib/audio";
+import { fillSentence, speakableTexts } from "@/lib/course/helpers";
 import type { Illustration } from "@/lib/course/illustrations";
 import { properNames } from "@/lib/course/names";
 import type { Exercise, Lesson } from "@/lib/course/types";
@@ -155,6 +155,11 @@ function Player({ lessons, premiumUnit, nextId, pictures, place, courseLessonIds
       img.decode().catch(() => {});
     }
   }, [pictures]);
+
+  // Same for its audio: every clip, fetched in the background from the start.
+  useEffect(() => {
+    if (phase !== "paywall") preloadLesson(lesson.exercises.flatMap(speakableTexts));
+  }, [lesson, phase]);
   const [summary, setSummary] = useState<Summary | null>(null);
 
   useEffect(() => {
