@@ -2,6 +2,7 @@
 // card, searchable in Slovak and in the learner's language. Client-safe; the
 // entries come from the server (see `dictionary` in ./course).
 import { slips } from "@/lib/answers";
+import { littleWords } from "@/lib/course/little-words";
 import type { Locale } from "@/lib/i18n";
 
 /**
@@ -13,6 +14,8 @@ export type DictionaryEntry = {
   kind: "word" | "phrase" | "grammar";
   /** The Slovak (empty for a grammar card). */
   sk: string;
+  /** A grammar card's table, searched for little words only (see `dictionarySearch`). */
+  table?: string;
   /** The meaning in each native language; for a grammar card, its title. */
   meaning: Record<Locale, string>;
   lessonId: string;
@@ -68,6 +71,14 @@ function withoutFleetingVowel(word: string): string {
 const rank = { word: 1, phrase: 0.97, grammar: 0.9 };
 
 /**
+ * A grammar card comes first when the search is about grammar: a word of its title
+ * is searched for ("Sa and si in the past tense"), or a little word (si, som, na…)
+ * that its table shows. Title matches come before table matches, which are kept to
+ * the first few in course order, so words and phrases still show.
+ */
+const grammarFirst = { title: 2, table: 1.5, tableHits: 3 };
+
+/**
  * A search over the dictionary in Slovak and one native language, best matches first.
  * Each query word has to match some word of an entry (see `wordMatch`; meanings count
  * a little less than the Slovak, and shorter entries come first on a tie). Typos are
@@ -94,11 +105,20 @@ export function dictionarySearch(entries: DictionaryEntry[], locale: Locale) {
     entry,
     skWords: searchKey(entry.sk).split(" ").filter(Boolean),
     meaningWords: searchKey(entry.meaning[locale]).split(" "),
+    tableWords: new Set(searchKey(entry.table ?? "").split(" ")),
   }));
 
   function find(words: string[], typos: boolean) {
     return docs
       .map((doc) => {
+        if (doc.entry.kind === "grammar") {
+          if (words.every((w) => doc.meaningWords.includes(w))) {
+            return { entry: doc.entry, score: grammarFirst.title - 0.001 * doc.meaningWords.length };
+          }
+          if (words.length === 1 && littleWords.has(words[0]) && doc.tableWords.has(words[0])) {
+            return { entry: doc.entry, score: grammarFirst.table, table: true };
+          }
+        }
         let total = 0;
         for (const w of words) {
           const short = withoutFleetingVowel(w);
@@ -121,6 +141,7 @@ export function dictionarySearch(entries: DictionaryEntry[], locale: Locale) {
       })
       .filter((hit) => hit !== null)
       .sort((a, b) => b.score - a.score) // stable: ties keep course order
+      .filter((hit, i, all) => !("table" in hit) || all.slice(0, i).filter((h) => "table" in h).length < grammarFirst.tableHits)
       .map((hit) => hit.entry);
   }
 

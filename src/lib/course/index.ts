@@ -131,11 +131,13 @@ export const dictionary: DictionaryEntry[] = (() => {
           word("word", ex.sk, inEach(i, (x) => (x.type === "intro" ? x.en : undefined)), i);
         } else if (ex.type === "grammar") {
           teaching = i;
-          // Found by its title. (Its tables mix Slovak with translations: too noisy to
-          // search; its examples, below, lead here too.)
+          // Found by its title, or by a little word in its table (the tables mix Slovak
+          // with translations, too noisy to search in full); its examples lead here too.
+          const table = [...(ex.table?.head ?? []), ...(ex.table?.rows.flat() ?? [])];
           entries.push({
             kind: "grammar",
             sk: "",
+            table: stripMarkup(table.join(" ")),
             meaning: inEach(i, (x) => (x.type === "grammar" ? x.title : undefined)),
             ...place,
             index: i,
