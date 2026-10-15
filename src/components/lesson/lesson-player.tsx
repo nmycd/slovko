@@ -255,17 +255,17 @@ function Player({ lessons, premiumUnit, nextId, pictures, place, courseLessonIds
         initial={history[shown.key]}
         review={reviewing}
         nextLabel={reviewing ? t("lesson.backTo", { n: pos + 1 }) : undefined}
+        nav={
+          <StepNav
+            queue={queue}
+            pos={pos}
+            viewing={viewing}
+            history={history}
+            onPick={(i) => setViewing(i < pos ? i : null)}
+          />
+        }
         onGraded={onGraded}
         onNext={reviewing ? () => setViewing(null) : next}
-      />
-
-      <StepNav
-        queue={queue}
-        pos={pos}
-        viewing={viewing}
-        history={history}
-        frame={frame}
-        onPick={(i) => setViewing(i < pos ? i : null)}
       />
     </div>
   );
@@ -279,6 +279,7 @@ function Step({
   initial,
   review = false,
   nextLabel,
+  nav,
   onGraded,
   onNext,
 }: {
@@ -292,6 +293,8 @@ function Step({
   review?: boolean;
   /** Label for the Continue button (e.g. "Back to exercise 5" when reviewing). */
   nextLabel?: string;
+  /** The lesson's exercise navigation, shown in the footer. */
+  nav: React.ReactNode;
   onGraded: (r: Resolution, answer: Answer, tiles: string[]) => void;
   onNext: () => void;
 }) {
@@ -383,6 +386,7 @@ function Step({
         canCheck={hasAnswer(answer)}
         mode={isIntro || review ? "continue" : selfGraded ? "self" : "check"}
         nextLabel={nextLabel}
+        nav={nav}
         onCheck={check}
         onNext={onNext}
         onSkip={ex.type === "speak" && !review ? onNext : undefined}
@@ -397,6 +401,7 @@ function Footer({
   canCheck,
   mode,
   nextLabel,
+  nav,
   onCheck,
   onNext,
   onSkip,
@@ -406,19 +411,23 @@ function Footer({
   canCheck: boolean;
   mode: "check" | "continue" | "self";
   nextLabel?: string;
+  nav: React.ReactNode;
   onCheck: () => void;
   onNext: () => void;
   onSkip?: () => void;
 }) {
   const { t } = useApp();
   const [word] = useState(() => praise[Math.floor(Math.random() * praise.length)]);
+  // Phones: its own row on top. Wider screens: centred in the space the other parts
+  // leave, or on a row of its own when a long answer leaves too little.
+  const navSlot = <div className="order-first flex basis-full justify-center sm:order-none sm:flex-1 sm:basis-0">{nav}</div>;
 
   if (result) {
     const ok = result.correct;
     return (
       <footer className={`animate-slide-up ${ok ? "bg-ok-soft" : "bg-bad-soft"}`}>
-        <div className={`mx-auto flex flex-col gap-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:py-6 ${frame}`}>
-          <div className="flex gap-4">
+        <div className={`mx-auto flex flex-wrap items-center gap-x-6 gap-y-3 py-3 sm:gap-y-4 sm:py-6 ${frame}`}>
+          <div className="flex basis-full gap-4 sm:basis-auto">
             <span
               className={`grid size-14 shrink-0 place-items-center rounded-full bg-bg ${ok ? "text-ok" : "text-bad"}`}
             >
@@ -435,7 +444,8 @@ function Footer({
               {result.note && <p className="text-sm font-semibold">{t(result.note)}</p>}
             </div>
           </div>
-          <button type="button" onClick={onNext} className={`btn ${ok ? "btn-ok" : "btn-bad"} sm:min-w-40`}>
+          {navSlot}
+          <button type="button" onClick={onNext} className={`btn ${ok ? "btn-ok" : "btn-bad"} w-full sm:ml-auto sm:w-auto sm:min-w-40`}>
             {nextLabel ?? t("lesson.continue")}
           </button>
         </div>
@@ -445,20 +455,19 @@ function Footer({
 
   return (
     <footer className="border-t border-border">
-      <div className={`mx-auto flex items-center justify-between gap-4 py-4 sm:py-6 ${frame}`}>
-        {onSkip ? (
+      <div className={`mx-auto flex flex-wrap items-center gap-x-6 gap-y-3 py-3 sm:py-6 ${frame}`}>
+        {onSkip && (
           <button type="button" onClick={onSkip} className="btn btn-ghost">
             {t("lesson.cantSpeak")}
           </button>
-        ) : (
-          <span />
         )}
+        {navSlot}
         {mode === "continue" ? (
-          <button type="button" onClick={onNext} className="btn btn-ok sm:min-w-40">
+          <button type="button" onClick={onNext} className="btn btn-ok ml-auto sm:min-w-40">
             {nextLabel ?? t("lesson.continue")}
           </button>
         ) : mode === "check" ? (
-          <button type="button" onClick={onCheck} disabled={!canCheck} className="btn btn-ok sm:min-w-40">
+          <button type="button" onClick={onCheck} disabled={!canCheck} className="btn btn-ok ml-auto sm:min-w-40">
             {t("lesson.check")}
           </button>
         ) : null}
@@ -468,7 +477,7 @@ function Footer({
 }
 
 /**
- * One dot per exercise in the lesson (mistakes that come back add more). Finished
+ * One bar per exercise in the lesson (mistakes that come back add more). Finished
  * ones can be opened again; the current one returns to playing.
  */
 function StepNav({
@@ -476,44 +485,47 @@ function StepNav({
   pos,
   viewing,
   history,
-  frame,
   onPick,
 }: {
   queue: Item[];
   pos: number;
   viewing: number | null;
   history: Record<string, Visit>;
-  frame: string;
   onPick: (index: number) => void;
 }) {
   const { t } = useApp();
   return (
-    <nav aria-label={t("lesson.nav")} className="border-t border-border">
-      <ol className={`mx-auto flex gap-1.5 overflow-x-auto py-2 sm:py-3 ${frame}`}>
+    <nav aria-label={t("lesson.nav")} className="w-full">
+      {/* Bars keep a 1:4 shape while there's room and narrow when a lesson runs long. */}
+      <ol className="flex justify-center gap-1.5">
         {queue.map((item, i) => {
           const result = history[item.key]?.result;
-          const state = i === pos ? "current" : i > pos ? "upcoming" : !result ? "seen" : result.correct ? "right" : "wrong";
+          const state = result ? (result.correct ? "right" : "wrong") : i === pos ? "current" : i > pos ? "upcoming" : "seen";
           const look = {
-            current: "border-brand bg-bg text-brand",
-            upcoming: "border-transparent bg-locked text-locked-dark",
-            seen: "border-transparent bg-surface-2 text-muted hover:bg-border",
-            right: "border-transparent bg-ok text-bg hover:bg-ok-dark",
-            wrong: "border-transparent bg-bad-soft text-bad-dark hover:bg-bad hover:text-bg",
+            current: "bg-brand",
+            upcoming: "bg-border-strong",
+            seen: "bg-lichen group-hover:bg-accent",
+            right: "bg-ok group-hover:bg-ok-dark",
+            wrong: "bg-bad group-hover:bg-bad-dark",
           }[state];
           const open = viewing === i || (viewing === null && i === pos);
+          const label = t("lesson.navItem", { n: i + 1 });
           return (
-            <li key={item.key} className="shrink-0">
+            <li key={item.key} className="max-w-8 min-w-1.5 flex-1">
               <button
                 type="button"
-                disabled={state === "upcoming"}
+                disabled={i > pos}
                 onClick={() => onPick(i)}
-                aria-label={t("lesson.navItem", { n: i + 1 })}
+                aria-label={label}
+                title={i > pos ? undefined : label}
                 aria-current={open ? "step" : undefined}
-                className={`grid size-7 place-items-center rounded-full border-2 text-xs font-semibold transition-colors sm:size-8 ${look} ${
-                  open ? "ring-2 ring-lichen ring-offset-2 ring-offset-bg" : ""
-                }`}
+                className="group block w-full py-2"
               >
-                {i + 1}
+                <span
+                  className={`block h-2 rounded-xs transition-colors ${look} ${
+                    open ? "outline-2 outline-offset-2 outline-lichen" : ""
+                  }`}
+                />
               </button>
             </li>
           );
