@@ -18,7 +18,7 @@ import {
   type Catalog,
 } from "../src/lib/course/translatable";
 
-const LOCALES = ["uk", "ru"] as const;
+const LOCALES = ["uk", "ru", "uz", "ka"] as const;
 const DIR = join(__dirname, "../src/lib/course/translations");
 const checkOnly = process.argv.includes("--check");
 const same = (a: unknown, b: unknown) => JSON.stringify(a) === JSON.stringify(b);

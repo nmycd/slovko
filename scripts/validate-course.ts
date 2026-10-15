@@ -24,7 +24,7 @@ import type { Exercise, Lesson, Unit } from "../src/lib/course/types";
 const args = process.argv.slice(2);
 const onlyUnit = args.find((a) => !a.startsWith("--"));
 const checkI18n = !args.includes("--no-i18n");
-const TRANSLATED_LOCALES = ["uk", "ru"] as const;
+const TRANSLATED_LOCALES = ["uk", "ru", "uz", "ka"] as const;
 const errors: string[] = [];
 const warnings: string[] = [];
 
@@ -359,6 +359,21 @@ function checkScript(where: string, locale: string, source: Field, t: Field) {
         where,
         !/[іїєґ]/i.test(text),
         `Ukrainian letters in Russian: "${text}"`,
+      );
+    // Uzbek is Latin script; Georgian is Georgian, with Latin only for the Slovak.
+    // Anything else (Cyrillic, a stray Arabic letter…) is a slip.
+    if (locale === "uz")
+      check(
+        where,
+        !/[^\p{Script=Latin}\p{Script=Common}\p{Script=Inherited}]/u.test(text),
+        `letters from another script in Uzbek (Latin): "${text}"`,
+      );
+    if (locale === "ka")
+      check(
+        where,
+        !/[^\p{Script=Georgian}\p{Script=Latin}\p{Script=Common}\p{Script=Inherited}]/u.test(text) &&
+          !/[\u1C90-\u1CBF]/u.test(text),
+        `letters from another script (or capitals) in Georgian: "${text}"`,
       );
   }
   const src = flatten(source);

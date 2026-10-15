@@ -1,12 +1,14 @@
 import { en, type MessageKey } from "./messages/en";
+import { ka } from "./messages/ka";
 import { ru } from "./messages/ru";
 import { uk } from "./messages/uk";
+import { uz } from "./messages/uz";
 import type { Locale } from "./locales";
 
 export * from "./locales";
 export type { MessageKey } from "./messages/en";
 
-const catalogs = { en, uk, ru };
+const catalogs = { en, uk, ru, uz, ka };
 
 export type Translate = (key: MessageKey, vars?: Record<string, string | number>) => string;
 

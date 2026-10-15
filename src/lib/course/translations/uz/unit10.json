@@ -1,0 +1,1073 @@
+{
+  "u10.titleEn": {
+    "en": "Newspapers",
+    "t": "Gazetalar"
+  },
+  "u10.topics": {
+    "en": [
+      "Newspapers and news",
+      "Weather",
+      "Small ads",
+      "Review"
+    ],
+    "t": [
+      "Gazetalar va yangiliklar",
+      "Ob-havo",
+      "Eʼlonlar",
+      "Takrorlash"
+    ]
+  },
+  "u10.grammar": {
+    "en": [
+      "The cases at a glance",
+      "Present vs past",
+      "Review of A1"
+    ],
+    "t": [
+      "Kelishiklar bir qarashda",
+      "Hozirgi va oʻtgan zamon",
+      "A1 boʻyicha takrorlash"
+    ]
+  },
+  "u10-l1.titleEn": {
+    "en": "The newspaper",
+    "t": "Gazeta"
+  },
+  "u10-l1.0.en": {
+    "en": "newspaper",
+    "t": "gazeta"
+  },
+  "u10-l1.0.note": {
+    "en": "Always plural in Slovak: Noviny **sú** tu. In the newspaper = **v novinách**.",
+    "t": "Slovak tilida bu soʻz doim koʻplikda: Noviny **sú** tu. = Gazeta shu yerda. Gazetada = **v novinách**."
+  },
+  "u10-l1.1.en": {
+    "en": "article",
+    "t": "maqola"
+  },
+  "u10-l1.1.note": {
+    "en": "Plural: články.",
+    "t": "Koʻpligi: články."
+  },
+  "u10-l1.2.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "u10-l1.2.options": {
+    "en": [
+      "newspaper",
+      "article",
+      "letter"
+    ],
+    "t": [
+      "gazeta",
+      "maqola",
+      "xat"
+    ]
+  },
+  "u10-l1.3.en": {
+    "en": "headline",
+    "t": "sarlavha"
+  },
+  "u10-l1.3.note": {
+    "en": "The big title over an article. **zaujímavý** = interesting: zaujímavý titulok.",
+    "t": "Maqola ustidagi katta nom. **zaujímavý** = qiziqarli: zaujímavý titulok — qiziqarli sarlavha."
+  },
+  "u10-l1.4.en": {
+    "en": "the news",
+    "t": "yangiliklar"
+  },
+  "u10-l1.4.note": {
+    "en": "One news item is **správa**. Správy are also the news on TV and radio.",
+    "t": "Bitta yangilik — **správa**. Televizor va radiodagi yangiliklar ham správy deb ataladi."
+  },
+  "u10-l1.5.en": {
+    "en": "magazine",
+    "t": "jurnal"
+  },
+  "u10-l1.6.pairs": {
+    "en": [
+      "newspaper",
+      "article",
+      "headline",
+      "the news",
+      "magazine"
+    ],
+    "t": [
+      "gazeta",
+      "maqola",
+      "sarlavha",
+      "yangiliklar",
+      "jurnal"
+    ]
+  },
+  "u10-l1.7.en": {
+    "en": "Emma is reading a Slovak newspaper.",
+    "t": "Emma slovakcha gazeta oʻqiyapti."
+  },
+  "u10-l1.7.note": {
+    "en": "Noviny is plural, so the adjective is plural too: slovensk**é** noviny.",
+    "t": "Noviny koʻplikda, shuning uchun sifat ham koʻplikda boʻladi: slovensk**é** noviny."
+  },
+  "u10-l1.8.en": {
+    "en": "Emma is reading a Slovak newspaper.",
+    "t": "Emma slovakcha gazeta oʻqiyapti."
+  },
+  "u10-l1.9.en": {
+    "en": "sport and culture",
+    "t": "sport va madaniyat"
+  },
+  "u10-l1.9.note": {
+    "en": "Two sections of every newspaper. An article about sport: článok o **športe**; about culture: o **kultúre**.",
+    "t": "Har bir gazetadagi ikki boʻlim. Sport haqida maqola: článok o **športe**; madaniyat haqida: o **kultúre**."
+  },
+  "u10-l1.10.question": {
+    "en": "How do you say “an article about culture”?",
+    "t": "«Madaniyat haqida maqola» qanday aytiladi?"
+  },
+  "u10-l1.11.en": {
+    "en": "Lucia is in the paper!",
+    "t": "Lusiya gazetaga chiqibdi!"
+  },
+  "u10-l1.12.prompt": {
+    "en": "Emma is reading an article about Lucia.",
+    "t": "Emma Lusiya haqidagi maqolani oʻqiyapti."
+  },
+  "u10-l1.13.en": {
+    "en": "The headline is very interesting.",
+    "t": "Sarlavha juda qiziqarli."
+  },
+  "u10-l1.14.answers": {
+    "en": [
+      "Tomáš doesn't read newspapers."
+    ],
+    "t": [
+      "Tomash gazeta oʻqimaydi.",
+      "Tomash gazetalarni oʻqimaydi."
+    ]
+  },
+  "u10-l1.14.distractors": {
+    "en": [
+      "magazines",
+      "reads"
+    ],
+    "t": [
+      "jurnal",
+      "oʻqiydi"
+    ]
+  },
+  "u10-l1.15.en": {
+    "en": "I'm reading the newspaper.",
+    "t": "Gazeta oʻqiyapman."
+  },
+  "u10-l2.titleEn": {
+    "en": "Weather and small ads",
+    "t": "Ob-havo va eʼlonlar"
+  },
+  "u10-l2.0.en": {
+    "en": "weather",
+    "t": "ob-havo"
+  },
+  "u10-l2.0.note": {
+    "en": "Aké je počasie? = What's the weather like? It's neuter, so in the past: Aké **bolo** počasie?",
+    "t": "Aké je počasie? = Ob-havo qanday? Bu soʻz oʻrta jinsda, shuning uchun oʻtgan zamonda: Aké **bolo** počasie? = Ob-havo qanday edi?"
+  },
+  "u10-l2.1.en": {
+    "en": "It's sunny.",
+    "t": "Kun quyoshli."
+  },
+  "u10-l2.2.en": {
+    "en": "It's cloudy.",
+    "t": "Havo bulutli."
+  },
+  "u10-l2.3.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "u10-l2.3.options": {
+    "en": [
+      "It's sunny.",
+      "It's cold.",
+      "It's cloudy."
+    ],
+    "t": [
+      "Kun quyoshli.",
+      "Havo sovuq.",
+      "Havo bulutli."
+    ]
+  },
+  "u10-l2.4.en": {
+    "en": "It's raining.",
+    "t": "Yomgʻir yogʻyapti."
+  },
+  "u10-l2.4.note": {
+    "en": "Rain is **dážď**, snow is **sneh**. When it snows: **Sneží.**",
+    "t": "Yomgʻir — **dážď**, qor — **sneh**. Qor yogʻayotganda: **Sneží.**"
+  },
+  "u10-l2.5.en": {
+    "en": "It's warm. It's cold.",
+    "t": "Havo iliq. Havo sovuq."
+  },
+  "u10-l2.5.note": {
+    "en": "Zima also means winter. In the mountains, **v Tatrách** (in the Tatras), it's often cold.",
+    "t": "Zima «qish» degani ham. Togʻlarda, **v Tatrách** (Tatra togʻlarida), koʻpincha sovuq boʻladi."
+  },
+  "u10-l2.6.pairs": {
+    "en": [
+      "It's sunny.",
+      "It's cloudy.",
+      "It's raining.",
+      "It's warm.",
+      "It's cold."
+    ],
+    "t": [
+      "Kun quyoshli.",
+      "Havo bulutli.",
+      "Yomgʻir yogʻyapti.",
+      "Havo iliq.",
+      "Havo sovuq."
+    ]
+  },
+  "u10-l2.7.en": {
+    "en": "Today it's cloudy and raining.",
+    "t": "Bugun havo bulutli, yomgʻir yogʻyapti."
+  },
+  "u10-l2.8.answers": {
+    "en": [
+      "It's sunny in Košice.",
+      "In Košice it's sunny."
+    ],
+    "t": [
+      "Koshitseda kun quyoshli.",
+      "Koshitseda havo ochiq."
+    ]
+  },
+  "u10-l2.8.distractors": {
+    "en": [
+      "cloudy",
+      "raining"
+    ],
+    "t": [
+      "bulutli",
+      "yogʻyapti"
+    ]
+  },
+  "u10-l2.9.en": {
+    "en": "It's warm in Bratislava, but it's cold in the Tatras.",
+    "t": "Bratislavada iliq, lekin Tatra togʻlarida sovuq."
+  },
+  "u10-l2.10.en": {
+    "en": "small ad",
+    "t": "eʼlon"
+  },
+  "u10-l2.10.note": {
+    "en": "A short ad in the paper: someone sells, buys or looks for something.",
+    "t": "Gazetadagi qisqa eʼlon: kimdir nimanidir sotadi, sotib oladi yoki qidiradi."
+  },
+  "u10-l2.11.en": {
+    "en": "A company is looking for a programmer.",
+    "t": "Firma dasturchi qidiryapti."
+  },
+  "u10-l2.11.note": {
+    "en": "hľadať + accusative. A person gets **-a**: programátor**a**, kuchár**a**.",
+    "t": "hľadať + akuzatív (tushum kelishigi). Kishini bildiruvchi erkak jinsidagi soʻz **-a** oladi: programátor**a**, kuchár**a**."
+  },
+  "u10-l2.12.en": {
+    "en": "A restaurant is looking for a cook.",
+    "t": "Restoran oshpaz qidiryapti."
+  },
+  "u10-l2.13.prompt": {
+    "en": "Tomáš is looking for a new flat.",
+    "t": "Tomash yangi kvartira qidiryapti."
+  },
+  "u10-l2.14.question": {
+    "en": "You want to know the weather. What do you ask?",
+    "t": "Ob-havoni bilmoqchisiz. Nima deb soʻraysiz?"
+  },
+  "u10-l2.15.en": {
+    "en": "What's the weather like today?",
+    "t": "Bugun ob-havo qanday?"
+  },
+  "u10-l3.titleEn": {
+    "en": "The cases at a glance",
+    "t": "Kelishiklar bir qarashda"
+  },
+  "u10-l3.0.title": {
+    "en": "Four cases, one table",
+    "t": "Toʻrt kelishik, bitta jadval"
+  },
+  "u10-l3.0.body": {
+    "en": [
+      "You have now met four cases. The ending tells you what job a noun does in the sentence.",
+      "Nominative is the subject. Accusative is the object (what you read, buy, see). Instrumental goes with **s** (with). Locative always comes after a preposition like **o**, **v** or **na**."
+    ],
+    "t": [
+      "Siz endi toʻrtta kelishik bilan tanishdingiz. Xuddi oʻzbek tilidagidek, qoʻshimcha otning gapdagi vazifasini koʻrsatadi.",
+      "Nominatív (bosh kelishik) — ega. Akuzatív (tushum kelishigi) — toʻldiruvchi (nimani oʻqiysiz, sotib olasiz, koʻrasiz). Inštrumentál **s** (bilan) predlogidan keyin keladi; oʻzbek tilida bunday kelishik yoʻq, uning oʻrniga «bilan» ishlatiladi. Lokál (oʻrin-payt kelishigi) doim **o**, **v** yoki **na** kabi predlogdan keyin keladi."
+    ]
+  },
+  "u10-l3.0.table.head": {
+    "en": [
+      "case",
+      "question",
+      "feminine",
+      "masculine"
+    ],
+    "t": [
+      "kelishik",
+      "savol",
+      "ayol jinsi",
+      "erkak jinsi"
+    ]
+  },
+  "u10-l3.0.table.rows": {
+    "en": [
+      [
+        "nominative",
+        "kto? čo?",
+        "kniha",
+        "kamarát"
+      ],
+      [
+        "accusative",
+        "koho? čo?",
+        "knih**u**",
+        "kamarát**a**"
+      ],
+      [
+        "instrumental",
+        "s kým? s čím?",
+        "knih**ou**",
+        "kamarát**om**"
+      ],
+      [
+        "locative",
+        "o kom? o čom?",
+        "knih**e**",
+        "kamarát**ovi**"
+      ]
+    ],
+    "t": [
+      [
+        "nominatív",
+        "kto? čo?",
+        "kniha",
+        "kamarát"
+      ],
+      [
+        "akuzatív",
+        "koho? čo?",
+        "knih**u**",
+        "kamarát**a**"
+      ],
+      [
+        "inštrumentál",
+        "s kým? s čím?",
+        "knih**ou**",
+        "kamarát**om**"
+      ],
+      [
+        "lokál",
+        "o kom? o čom?",
+        "knih**e**",
+        "kamarát**ovi**"
+      ]
+    ]
+  },
+  "u10-l3.0.examples": {
+    "en": [
+      "Emma is reading a book.",
+      "Lucia is talking to a friend.",
+      "I'm writing an article about a book."
+    ],
+    "t": [
+      "Emma kitob oʻqiyapti.",
+      "Lusiya doʻsti bilan gaplashyapti.",
+      "Kitob haqida maqola yozyapman."
+    ]
+  },
+  "u10-l3.1.en": {
+    "en": "Emma is looking for a book about Slovakia.",
+    "t": "Emma Slovakiya haqida kitob qidiryapti."
+  },
+  "u10-l3.2.en": {
+    "en": "Lucia is going to the cinema with Tomáš.",
+    "t": "Lusiya Tomash bilan kinoga ketyapti."
+  },
+  "u10-l3.3.pairs": {
+    "en": [
+      "Lucia is here.",
+      "for Lucia",
+      "with Lucia",
+      "about Lucia"
+    ],
+    "t": [
+      "Lusiya shu yerda.",
+      "Lusiya uchun",
+      "Lusiya bilan",
+      "Lusiya haqida"
+    ]
+  },
+  "u10-l3.4.question": {
+    "en": "Which question does the locative answer?",
+    "t": "Lokál qaysi savolga javob beradi?"
+  },
+  "u10-l3.5.title": {
+    "en": "Prepositions choose the case",
+    "t": "Predlog kelishikni tanlaydi"
+  },
+  "u10-l3.5.body": {
+    "en": [
+      "After a preposition the case is fixed, so learn each preposition together with its case.",
+      "Watch **na**: na pošt**e** answers “where?” (locative), na pošt**u** answers “where to?” (accusative).",
+      "**do** (to, into) and **z** (from) take yet another case. For now, learn them in phrases: do kina, do práce, z Írska."
+    ],
+    "t": [
+      "Predlog — otdan oldin turadigan kichik soʻz (oʻzbek tilida uning oʻrnida qoʻshimcha yoki koʻmakchi boʻladi: uyda, uy haqida). Har bir predlogdan keyin maʼlum bir kelishik keladi, shuning uchun predlogni kelishigi bilan birga yodlang.",
+      "**na** predlogiga eʼtibor bering: na pošt**e** «qayerda?» savoliga javob beradi (lokál, oʻrin-payt kelishigi), na pošt**u** esa «qayerga?» savoliga (akuzatív, tushum kelishigi).",
+      "**do** (-ga, ichiga) va **z** (-dan) yana boshqa kelishikni talab qiladi. Hozircha ularni iboralar bilan yodlang: do kina, do práce, z Írska."
+    ]
+  },
+  "u10-l3.5.table.head": {
+    "en": [
+      "preposition",
+      "case",
+      "example"
+    ],
+    "t": [
+      "predlog",
+      "kelishik",
+      "misol"
+    ]
+  },
+  "u10-l3.5.table.rows": {
+    "en": [
+      [
+        "v, na (where?)",
+        "locative",
+        "v mest**e**, na pošt**e**"
+      ],
+      [
+        "o (about)",
+        "locative",
+        "o Marek**ovi**"
+      ],
+      [
+        "na (where to?)",
+        "accusative",
+        "na pošt**u**"
+      ],
+      [
+        "pre (for)",
+        "accusative",
+        "pre Luci**u**"
+      ],
+      [
+        "s (with)",
+        "instrumental",
+        "s Tomáš**om**"
+      ],
+      [
+        "pred (in front of)",
+        "instrumental",
+        "pred dom**om**"
+      ]
+    ],
+    "t": [
+      [
+        "v, na (qayerda?)",
+        "lokál",
+        "v mest**e**, na pošt**e**"
+      ],
+      [
+        "o (haqida)",
+        "lokál",
+        "o Marek**ovi**"
+      ],
+      [
+        "na (qayerga?)",
+        "akuzatív",
+        "na pošt**u**"
+      ],
+      [
+        "pre (uchun)",
+        "akuzatív",
+        "pre Luci**u**"
+      ],
+      [
+        "s (bilan)",
+        "inštrumentál",
+        "s Tomáš**om**"
+      ],
+      [
+        "pred (oldida)",
+        "inštrumentál",
+        "pred dom**om**"
+      ]
+    ]
+  },
+  "u10-l3.5.examples": {
+    "en": [
+      "Lucia is at the post office.",
+      "Emma is going to the post office.",
+      "I drink coffee with milk."
+    ],
+    "t": [
+      "Lusiya pochtada.",
+      "Emma pochtaga ketyapti.",
+      "Qahvani sut bilan ichaman."
+    ]
+  },
+  "u10-l3.6.en": {
+    "en": "Marek works in a restaurant.",
+    "t": "Marek restoranda ishlaydi."
+  },
+  "u10-l3.7.en": {
+    "en": "I'm going to the university now.",
+    "t": "Hozir universitetga ketyapman."
+  },
+  "u10-l3.8.prompt": {
+    "en": "I'm writing an article about Bratislava.",
+    "t": "Bratislava haqida maqola yozyapman."
+  },
+  "u10-l3.9.en": {
+    "en": "Emma lives in the dorm with Lucia.",
+    "t": "Emma Lusiya bilan yotoqxonada yashaydi."
+  },
+  "u10-l3.10.prompt": {
+    "en": "This gift is for Marek.",
+    "t": "Bu sovgʻa Marek uchun."
+  },
+  "u10-l3.11.en": {
+    "en": "What do you know about Tomáš?",
+    "t": "Tomash haqida nima bilasan?"
+  },
+  "u10-l3.12.answers": {
+    "en": [
+      "Mr Kováč is sitting in front of the dorm."
+    ],
+    "t": [
+      "Janob Kovach yotoqxona oldida oʻtiribdi.",
+      "Janob Kovach yotoqxona oldida oʻtiryapti."
+    ]
+  },
+  "u10-l3.12.distractors": {
+    "en": [
+      "behind",
+      "inside"
+    ],
+    "t": [
+      "orqasida",
+      "ichida"
+    ]
+  },
+  "u10-l3.13.en": {
+    "en": "I live with a friend.",
+    "t": "Doʻstim bilan yashayman."
+  },
+  "u10-l4.titleEn": {
+    "en": "Today and yesterday",
+    "t": "Bugun va kecha"
+  },
+  "u10-l4.0.title": {
+    "en": "Present and past side by side",
+    "t": "Hozirgi va oʻtgan zamon yonma-yon"
+  },
+  "u10-l4.0.body": {
+    "en": [
+      "Past tense = the l-form of the verb + som, si, sme or ste. With on, ona and oni there is no extra word.",
+      "The l-form shows gender and number: Tomáš čítal, Emma čítal**a**, oni čítal**i**."
+    ],
+    "t": [
+      "Oʻtgan zamon = feʼlning l-shakli + som, si, sme yoki ste. On, ona va oni bilan qoʻshimcha soʻz kerak emas.",
+      "L-shakl jins va sonni koʻrsatadi: Tomáš čítal (erkak), Emma čítal**a** (ayol), oni čítal**i** (koʻplik)."
+    ]
+  },
+  "u10-l4.0.table.head": {
+    "en": [
+      "",
+      "present",
+      "past"
+    ],
+    "t": [
+      "",
+      "hozirgi zamon",
+      "oʻtgan zamon"
+    ]
+  },
+  "u10-l4.0.table.rows": {
+    "en": [
+      [
+        "ja",
+        "čítam",
+        "čítal / čítal**a** **som**"
+      ],
+      [
+        "ty",
+        "čítaš",
+        "čítal / čítal**a** **si**"
+      ],
+      [
+        "on / ona",
+        "číta",
+        "čítal / čítal**a**"
+      ],
+      [
+        "my",
+        "čítame",
+        "čítal**i** **sme**"
+      ],
+      [
+        "vy",
+        "čítate",
+        "čítal**i** **ste**"
+      ],
+      [
+        "oni",
+        "čítajú",
+        "čítal**i**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "čítam",
+        "čítal / čítal**a** **som**"
+      ],
+      [
+        "ty",
+        "čítaš",
+        "čítal / čítal**a** **si**"
+      ],
+      [
+        "on / ona",
+        "číta",
+        "čítal / čítal**a**"
+      ],
+      [
+        "my",
+        "čítame",
+        "čítal**i** **sme**"
+      ],
+      [
+        "vy",
+        "čítate",
+        "čítal**i** **ste**"
+      ],
+      [
+        "oni",
+        "čítajú",
+        "čítal**i**"
+      ]
+    ]
+  },
+  "u10-l4.0.examples": {
+    "en": [
+      "Today I'm reading the paper.",
+      "Yesterday I read a magazine.",
+      "Tomáš didn't read the news yesterday."
+    ],
+    "t": [
+      "Bugun gazeta oʻqiyapman.",
+      "Kecha jurnal oʻqidim.",
+      "Tomash kecha yangiliklarni oʻqimadi."
+    ]
+  },
+  "u10-l4.1.en": {
+    "en": "Yesterday I read an article about the Tatras.",
+    "t": "Kecha Tatra togʻlari haqida maqola oʻqidim."
+  },
+  "u10-l4.2.en": {
+    "en": "Lucia and Tomáš sat in a café.",
+    "t": "Lusiya va Tomash kafeda oʻtirishdi."
+  },
+  "u10-l4.3.question": {
+    "en": "Which sentence is in the past tense?",
+    "t": "Qaysi gap oʻtgan zamonda?"
+  },
+  "u10-l4.4.prompt": {
+    "en": "Yesterday Marek cooked soup.",
+    "t": "Kecha Marek shoʻrva pishirdi."
+  },
+  "u10-l4.5.title": {
+    "en": "Special past forms and word order",
+    "t": "Maxsus oʻtgan zamon shakllari va soʻz tartibi"
+  },
+  "u10-l4.5.body": {
+    "en": [
+      "A few common verbs have their own past forms. Learn them as words.",
+      "Som, si, sme and ste come second in the sentence, before sa: Včera **som sa** učila."
+    ],
+    "t": [
+      "Koʻp ishlatiladigan baʼzi feʼllarning oʻtgan zamon shakli oʻziga xos. Ularni alohida soʻz sifatida yodlang.",
+      "Som, si, sme va ste gapda ikkinchi oʻrinda, sa soʻzidan oldin turadi: Včera **som sa** učila. = Kecha dars qildim."
+    ]
+  },
+  "u10-l4.5.table.head": {
+    "en": [
+      "",
+      "on",
+      "ona",
+      "oni"
+    ],
+    "t": [
+      "",
+      "on",
+      "ona",
+      "oni"
+    ]
+  },
+  "u10-l4.5.table.rows": {
+    "en": [
+      [
+        "byť",
+        "bol",
+        "bola",
+        "boli"
+      ],
+      [
+        "ísť",
+        "išiel",
+        "išla",
+        "išli"
+      ],
+      [
+        "jesť",
+        "jedol",
+        "jedla",
+        "jedli"
+      ],
+      [
+        "môcť",
+        "mohol",
+        "mohla",
+        "mohli"
+      ],
+      [
+        "chcieť",
+        "chcel",
+        "chcela",
+        "chceli"
+      ]
+    ],
+    "t": [
+      [
+        "byť",
+        "bol",
+        "bola",
+        "boli"
+      ],
+      [
+        "ísť",
+        "išiel",
+        "išla",
+        "išli"
+      ],
+      [
+        "jesť",
+        "jedol",
+        "jedla",
+        "jedli"
+      ],
+      [
+        "môcť",
+        "mohol",
+        "mohla",
+        "mohli"
+      ],
+      [
+        "chcieť",
+        "chcel",
+        "chcela",
+        "chceli"
+      ]
+    ]
+  },
+  "u10-l4.5.examples": {
+    "en": [
+      "Yesterday I studied.",
+      "Marek went to work.",
+      "Have you been to Košice?"
+    ],
+    "t": [
+      "Kecha dars qildim.",
+      "Marek ishga ketdi.",
+      "Koshitseda boʻlganmisiz?"
+    ]
+  },
+  "u10-l4.6.en": {
+    "en": "Emma went home by bus.",
+    "t": "Emma uyga avtobusda ketdi."
+  },
+  "u10-l4.7.en": {
+    "en": "Yesterday I studied in the library.",
+    "t": "Kecha kutubxonada dars qildim."
+  },
+  "u10-l4.8.prompt": {
+    "en": "Emma: “I didn't have time.”",
+    "t": "Emma: «Vaqtim boʻlmadi.»"
+  },
+  "u10-l4.9.pairs": {
+    "en": [
+      "he was",
+      "she went",
+      "they ate",
+      "he could",
+      "she wanted"
+    ],
+    "t": [
+      "u (erkak) edi",
+      "u (ayol) bordi",
+      "ular yedi",
+      "u (erkak) qila oldi",
+      "u (ayol) xohladi"
+    ]
+  },
+  "u10-l4.10.en": {
+    "en": "Have you read the paper yet?",
+    "t": "Gazetani oʻqib boʻldingmi?"
+  },
+  "u10-l4.11.en": {
+    "en": "Have you eaten yet? — No, not yet.",
+    "t": "Ovqatlanib boʻldingmi? — Yoʻq, hali emas."
+  },
+  "u10-l4.12.answers": {
+    "en": [
+      "Tomáš couldn't come."
+    ],
+    "t": [
+      "Tomash kela olmadi."
+    ]
+  },
+  "u10-l4.12.distractors": {
+    "en": [
+      "can't",
+      "go"
+    ],
+    "t": [
+      "olmaydi",
+      "bora"
+    ]
+  },
+  "u10-l4.13.en": {
+    "en": "Yesterday we were at the cinema.",
+    "t": "Kecha kinoda boʻldik."
+  },
+  "u10-l5.titleEn": {
+    "en": "Emma reads the paper",
+    "t": "Emma gazeta oʻqiydi"
+  },
+  "u10-l5.0.question": {
+    "en": "What does this headline mean?",
+    "t": "Bu sarlavha nimani anglatadi?"
+  },
+  "u10-l5.0.options": {
+    "en": [
+      "A new restaurant on Main Street",
+      "A new café on Main Street",
+      "An old café in the main square"
+    ],
+    "t": [
+      "Bosh koʻchada yangi restoran",
+      "Bosh koʻchada yangi kafe",
+      "Bosh maydonda eski kafe"
+    ]
+  },
+  "u10-l5.1.en": {
+    "en": "Emma bought a newspaper in a shop.",
+    "t": "Emma doʻkondan gazeta sotib oldi."
+  },
+  "u10-l5.2.prompt": {
+    "en": "There's a new café on Main Street.",
+    "t": "Bosh koʻchada yangi kafe bor."
+  },
+  "u10-l5.3.en": {
+    "en": "The weather was nice on Saturday.",
+    "t": "Shanba kuni havo yaxshi edi."
+  },
+  "u10-l5.4.pairs": {
+    "en": [
+      "Monday",
+      "green",
+      "cook",
+      "train",
+      "shop"
+    ],
+    "t": [
+      "dushanba",
+      "yashil",
+      "oshpaz",
+      "poyezd",
+      "doʻkon"
+    ]
+  },
+  "u10-l5.5.en": {
+    "en": "Tomáš is a programmer and lives in Košice.",
+    "t": "Tomash dasturchi va Koshitseda yashaydi."
+  },
+  "u10-l5.6.answers": {
+    "en": [
+      "Marek works as a cook in a restaurant."
+    ],
+    "t": [
+      "Marek restoranda oshpaz boʻlib ishlaydi.",
+      "Marek oshpaz boʻlib restoranda ishlaydi."
+    ]
+  },
+  "u10-l5.6.distractors": {
+    "en": [
+      "waiter",
+      "teacher"
+    ],
+    "t": [
+      "ofitsiant",
+      "oʻqituvchi"
+    ]
+  },
+  "u10-l5.7.question": {
+    "en": "Emma tells her friend Lucia “You're in the paper!” Which is right?",
+    "t": "Emma dugonasi Lusiyaga «Sen gazetadasan!» demoqchi. Qaysi biri toʻgʻri?"
+  },
+  "u10-l5.8.en": {
+    "en": "The article is about Lucia. They're writing about her in the paper.",
+    "t": "Maqola Lusiya haqida. Gazetada u haqida yozishyapti."
+  },
+  "u10-l5.9.prompt": {
+    "en": "Yesterday we read the article with Lucia.",
+    "t": "Kecha Lusiya bilan maqolani oʻqidik."
+  },
+  "u10-l5.10.en": {
+    "en": "Ms Horváthová always reads the paper in the morning.",
+    "t": "Horvatova xonim gazetani doim ertalab oʻqiydi."
+  },
+  "u10-l5.11.en": {
+    "en": "Today it's sunny and warm.",
+    "t": "Bugun kun quyoshli va iliq."
+  },
+  "u10-l5.12.prompt": {
+    "en": "Mr Kováč never reads magazines.",
+    "t": "Janob Kovach hech qachon jurnal oʻqimaydi."
+  },
+  "u10-l5.13.answers": {
+    "en": [
+      "Yesterday I saw Marek in town.",
+      "I saw Marek in town yesterday."
+    ],
+    "t": [
+      "Kecha Marekni shaharda koʻrdim.",
+      "Marekni kecha shaharda koʻrdim.",
+      "Kecha shaharda Marekni koʻrdim."
+    ]
+  },
+  "u10-l5.13.distractors": {
+    "en": [
+      "see",
+      "city"
+    ],
+    "t": [
+      "koʻraman",
+      "shahar"
+    ]
+  },
+  "u10-l5.14.en": {
+    "en": "That's an interesting article.",
+    "t": "Bu qiziqarli maqola."
+  },
+  "u10-l6.titleEn": {
+    "en": "The big review",
+    "t": "Katta takrorlash"
+  },
+  "u10-l6.0.question": {
+    "en": "You meet your teacher, pani Horváthová. What do you say?",
+    "t": "Oʻqituvchingiz Horvatova xonimni uchratdingiz. Nima deysiz?"
+  },
+  "u10-l6.1.question": {
+    "en": "Emma is from Ireland. How does she say it?",
+    "t": "Emma Irlandiyadan. U buni qanday aytadi?"
+  },
+  "u10-l6.2.en": {
+    "en": "There are two magazines on the table.",
+    "t": "Stolda ikkita jurnal bor."
+  },
+  "u10-l6.3.en": {
+    "en": "Three students are sitting in the café.",
+    "t": "Kafeda uchta talaba oʻtiribdi."
+  },
+  "u10-l6.4.prompt": {
+    "en": "Emma has two Slovak friends. (female)",
+    "t": "Emmaning ikkita slovak dugonasi bor."
+  },
+  "u10-l6.5.en": {
+    "en": "Today I have to go to the university.",
+    "t": "Bugun universitetga borishim kerak."
+  },
+  "u10-l6.6.pairs": {
+    "en": [
+      "I have to",
+      "I can",
+      "I want",
+      "I know",
+      "I'm allowed to"
+    ],
+    "t": [
+      "men majburman",
+      "men qila olaman",
+      "men xohlayman",
+      "men bilaman",
+      "menga ruxsat bor"
+    ]
+  },
+  "u10-l6.7.en": {
+    "en": "Marek can cook, but today he has no time.",
+    "t": "Marek ovqat pishirishni biladi, lekin bugun vaqti yoʻq."
+  },
+  "u10-l6.8.en": {
+    "en": "That's Lucia's brother Marek.",
+    "t": "Bu Lusiyaning akasi Marek."
+  },
+  "u10-l6.9.prompt": {
+    "en": "It's eight o'clock.",
+    "t": "Soat sakkiz."
+  },
+  "u10-l6.10.en": {
+    "en": "We met in a café yesterday.",
+    "t": "Kecha kafeda uchrashdik."
+  },
+  "u10-l6.11.answers": {
+    "en": [
+      "Emma and Lucia live together in the dorm."
+    ],
+    "t": [
+      "Emma va Lusiya yotoqxonada birga yashaydi.",
+      "Emma va Lusiya birga yotoqxonada yashaydi.",
+      "Lusiya va Emma yotoqxonada birga yashaydi.",
+      "Emma va Lusiya yotoqxonada birga yashashadi."
+    ]
+  },
+  "u10-l6.11.distractors": {
+    "en": [
+      "lives",
+      "house"
+    ],
+    "t": [
+      "yashaysan",
+      "uyda"
+    ]
+  },
+  "u10-l6.12.question": {
+    "en": "How do you say “Today is the 2nd of May”?",
+    "t": "«Bugun 2-may» qanday aytiladi?"
+  },
+  "u10-l6.13.en": {
+    "en": "Lucia, can I go to the cinema with you?",
+    "t": "Lusiya, sen bilan kinoga borsam boʻladimi?"
+  },
+  "u10-l6.14.en": {
+    "en": "We didn't go anywhere yesterday.",
+    "t": "Kecha hech qayerga bormadik."
+  },
+  "u10-l6.15.en": {
+    "en": "I can speak Slovak now!",
+    "t": "Endi slovakcha gapira olaman!"
+  }
+}

@@ -1,0 +1,1145 @@
+{
+  "u3.titleEn": {
+    "en": "Dormitory",
+    "t": "Yotoqxona"
+  },
+  "u3.topics": {
+    "en": [
+      "The dormitory",
+      "Rooms and furniture",
+      "Where is it?",
+      "Opposites"
+    ],
+    "t": [
+      "Yotoqxona",
+      "Xonalar va mebel",
+      "U qayerda?",
+      "Qarama-qarshi soʻzlar"
+    ]
+  },
+  "u3.grammar": {
+    "en": [
+      "Adjectives: -ý, -á, -é",
+      "Possessives: môj, tvoj, náš…",
+      "Čí? Aký? Ktorý?"
+    ],
+    "t": [
+      "Sifatlar: -ý, -á, -é",
+      "Egalik olmoshlari: môj, tvoj, náš…",
+      "Čí? Aký? Ktorý?"
+    ]
+  },
+  "u3-l1.titleEn": {
+    "en": "The dormitory",
+    "t": "Yotoqxona"
+  },
+  "u3-l1.0.en": {
+    "en": "room",
+    "t": "xona"
+  },
+  "u3-l1.1.en": {
+    "en": "kitchen",
+    "t": "oshxona"
+  },
+  "u3-l1.2.en": {
+    "en": "bathroom",
+    "t": "vannaxona"
+  },
+  "u3-l1.2.note": {
+    "en": "In Slovak homes the toilet (WC) is often a separate little room.",
+    "t": "Slovakiyadagi uylarda hojatxona (WC) koʻpincha alohida kichik xonada boʻladi."
+  },
+  "u3-l1.3.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "u3-l1.3.options": {
+    "en": [
+      "kitchen",
+      "bathroom",
+      "room"
+    ],
+    "t": [
+      "oshxona",
+      "vannaxona",
+      "xona"
+    ]
+  },
+  "u3-l1.4.en": {
+    "en": "balcony",
+    "t": "balkon"
+  },
+  "u3-l1.5.pairs": {
+    "en": [
+      "room",
+      "kitchen",
+      "bathroom",
+      "balcony"
+    ],
+    "t": [
+      "xona",
+      "oshxona",
+      "vannaxona",
+      "balkon"
+    ]
+  },
+  "u3-l1.6.en": {
+    "en": "Where is the kitchen?",
+    "t": "Oshxona qayerda?"
+  },
+  "u3-l1.6.note": {
+    "en": "**kde** = where",
+    "t": "**kde** = qayerda"
+  },
+  "u3-l1.7.en": {
+    "en": "upstairs – downstairs",
+    "t": "yuqorida – pastda"
+  },
+  "u3-l1.7.note": {
+    "en": "Also simply up and down. Kuchyňa je **hore**. = The kitchen is upstairs.",
+    "t": "Oddiy «tepada – pastda» maʼnosida ham ishlatiladi. Kuchyňa je **hore**. = Oshxona yuqorida."
+  },
+  "u3-l1.8.question": {
+    "en": "How do you say “The kitchen is downstairs”?",
+    "t": "«Oshxona pastda» qanday aytiladi?"
+  },
+  "u3-l1.9.en": {
+    "en": "The bathroom is upstairs.",
+    "t": "Vannaxona yuqorida."
+  },
+  "u3-l1.10.en": {
+    "en": "front desk, porter's lodge",
+    "t": "qorovulxona, kirishdagi navbatchi joyi"
+  },
+  "u3-l1.10.note": {
+    "en": "The desk at the entrance, where the porter (**vrátnik**) sits. In Emma's dorm, that's pán Kováč.",
+    "t": "Kirishdagi stol, u yerda qorovul (**vrátnik**) oʻtiradi. Emmaning yotoqxonasida bu — janob Kovach."
+  },
+  "u3-l1.11.en": {
+    "en": "The front desk is downstairs.",
+    "t": "Qorovulxona pastda."
+  },
+  "u3-l1.12.en": {
+    "en": "I live in the dorm.",
+    "t": "Yotoqxonada yashayman."
+  },
+  "u3-l1.12.note": {
+    "en": "**internát** = student dormitory. Emma and Lucia share a room there.",
+    "t": "**internát** = talabalar yotoqxonasi. Emma va Lusiya u yerda bitta xonada yashashadi."
+  },
+  "u3-l1.13.prompt": {
+    "en": "Where is the bathroom?",
+    "t": "Vannaxona qayerda?"
+  },
+  "u3-l1.14.answers": {
+    "en": [
+      "The room is upstairs and the kitchen is downstairs.",
+      "The room is upstairs and the kitchen downstairs."
+    ],
+    "t": [
+      "Xona yuqorida, oshxona esa pastda.",
+      "Xona yuqorida, oshxona pastda."
+    ]
+  },
+  "u3-l1.14.distractors": {
+    "en": [
+      "bathroom",
+      "here"
+    ],
+    "t": [
+      "vannaxona",
+      "oshxonada"
+    ]
+  },
+  "u3-l1.15.prompt": {
+    "en": "Emma lives in the dorm.",
+    "t": "Emma yotoqxonada yashaydi."
+  },
+  "u3-l1.16.question": {
+    "en": "Lucia wants to cook. Where does she go?",
+    "t": "Lusiya ovqat pishirmoqchi. U qayerga boradi?"
+  },
+  "u3-l1.17.en": {
+    "en": "Where is the bathroom?",
+    "t": "Vannaxona qayerda?"
+  },
+  "u3-l2.titleEn": {
+    "en": "What is it like?",
+    "t": "U qanday?"
+  },
+  "u3-l2.0.en": {
+    "en": "big – small",
+    "t": "katta – kichik"
+  },
+  "u3-l2.1.en": {
+    "en": "new – old",
+    "t": "yangi – eski"
+  },
+  "u3-l2.2.title": {
+    "en": "One adjective, three endings",
+    "t": "Bitta sifat, uchta qoʻshimcha"
+  },
+  "u3-l2.2.body": {
+    "en": [
+      "An adjective takes the gender of its noun: **-ý** for masculine, **-á** for feminine, **-é** for neuter.",
+      "The ending is the same before the noun (malá izba) and after je (Izba je malá)."
+    ],
+    "t": [
+      "Sifat oʻz otining jinsiga moslashadi: erkak jinsi uchun **-ý**, ayol jinsi uchun **-á**, oʻrta jins uchun **-é**. Oʻzbekchada sifat oʻzgarmaydi (katta xona, katta mashina), slovakchada esa oʻzgaradi.",
+      "Qoʻshimcha ot oldida ham (malá izba), je soʻzidan keyin ham (Izba je malá) bir xil boʻladi."
+    ]
+  },
+  "u3-l2.2.table.head": {
+    "en": [
+      "masculine",
+      "feminine",
+      "neuter"
+    ],
+    "t": [
+      "erkak jinsi",
+      "ayol jinsi",
+      "oʻrta jins"
+    ]
+  },
+  "u3-l2.2.table.rows": {
+    "en": [
+      [
+        "veľk**ý** balkón",
+        "veľk**á** izba",
+        "veľk**é** auto"
+      ],
+      [
+        "mal**ý** internát",
+        "mal**á** kúpeľňa",
+        "mal**é** auto"
+      ],
+      [
+        "nov**ý** balkón",
+        "nov**á** kuchyňa",
+        "nov**é** auto"
+      ]
+    ],
+    "t": [
+      [
+        "veľk**ý** balkón",
+        "veľk**á** izba",
+        "veľk**é** auto"
+      ],
+      [
+        "mal**ý** internát",
+        "mal**á** kúpeľňa",
+        "mal**é** auto"
+      ],
+      [
+        "nov**ý** balkón",
+        "nov**á** kuchyňa",
+        "nov**é** auto"
+      ]
+    ]
+  },
+  "u3-l2.2.examples": {
+    "en": [
+      "The dorm is old.",
+      "The kitchen is new.",
+      "The car is small."
+    ],
+    "t": [
+      "Yotoqxona eski.",
+      "Oshxona yangi.",
+      "Mashina kichik."
+    ]
+  },
+  "u3-l2.3.en": {
+    "en": "The room is big.",
+    "t": "Xona katta."
+  },
+  "u3-l2.4.en": {
+    "en": "The balcony is small.",
+    "t": "Balkon kichik."
+  },
+  "u3-l2.5.question": {
+    "en": "Which one is correct?",
+    "t": "Qaysi biri toʻgʻri?"
+  },
+  "u3-l2.6.en": {
+    "en": "small but nice",
+    "t": "kichik, lekin chiroyli"
+  },
+  "u3-l2.6.note": {
+    "en": "**pekný** = nice, pretty. **ale** = but. Pekný works the same way: pekn**á** izba.",
+    "t": "**pekný** = chiroyli, yaxshi. **ale** = lekin. Pekný ham xuddi shunday oʻzgaradi: pekn**á** izba."
+  },
+  "u3-l2.7.prompt": {
+    "en": "That's a big kitchen.",
+    "t": "Bu katta oshxona."
+  },
+  "u3-l2.8.en": {
+    "en": "The room is small but nice.",
+    "t": "Xona kichik, lekin chiroyli."
+  },
+  "u3-l2.9.title": {
+    "en": "Aký? What is it like?",
+    "t": "Aký? U qanday?"
+  },
+  "u3-l2.9.body": {
+    "en": [
+      "To ask what something is like, use **aký?** It changes just like an adjective: **aký** (masculine), **aká** (feminine), **aké** (neuter)."
+    ],
+    "t": [
+      "Biror narsa qandayligini soʻrash uchun **aký?** ishlatiladi. U ham sifat kabi oʻzgaradi: **aký** (erkak jinsi), **aká** (ayol jinsi), **aké** (oʻrta jins)."
+    ]
+  },
+  "u3-l2.9.examples": {
+    "en": [
+      "What's the dorm like? – Old.",
+      "What's the room like? – Nice.",
+      "What's the car like? – New."
+    ],
+    "t": [
+      "Yotoqxona qanday? – Eski.",
+      "Xona qanday? – Chiroyli.",
+      "Mashina qanday? – Yangi."
+    ]
+  },
+  "u3-l2.10.en": {
+    "en": "What's the bathroom like?",
+    "t": "Vannaxona qanday?"
+  },
+  "u3-l2.11.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "u3-l2.11.options": {
+    "en": [
+      "What is the balcony like?",
+      "Where is the balcony?",
+      "Is the balcony big?"
+    ],
+    "t": [
+      "Balkon qanday?",
+      "Balkon qayerda?",
+      "Balkon kattami?"
+    ]
+  },
+  "u3-l2.12.en": {
+    "en": "What's the car like? – It's old.",
+    "t": "Mashina qanday? – Eski."
+  },
+  "u3-l2.13.prompt": {
+    "en": "What is the dorm like?",
+    "t": "Yotoqxona qanday?"
+  },
+  "u3-l2.14.answers": {
+    "en": [
+      "The kitchen is old but nice.",
+      "The kitchen is old but pretty."
+    ],
+    "t": [
+      "Oshxona eski, lekin chiroyli."
+    ]
+  },
+  "u3-l2.14.distractors": {
+    "en": [
+      "new",
+      "small"
+    ],
+    "t": [
+      "yangi",
+      "kichik"
+    ]
+  },
+  "u3-l2.15.en": {
+    "en": "The dorm is big, but the kitchen is small.",
+    "t": "Yotoqxona katta, lekin oshxona kichik."
+  },
+  "u3-l2.16.en": {
+    "en": "The room is big and nice.",
+    "t": "Xona katta va chiroyli."
+  },
+  "u3-l3.titleEn": {
+    "en": "In the room",
+    "t": "Xonada"
+  },
+  "u3-l3.0.en": {
+    "en": "bed",
+    "t": "karavot"
+  },
+  "u3-l3.0.note": {
+    "en": "Posteľ is feminine, even without -a: posteľ je mal**á**.",
+    "t": "Posteľ ayol jinsida, garchi -a bilan tugamasa ham: posteľ je mal**á**."
+  },
+  "u3-l3.1.en": {
+    "en": "table, desk",
+    "t": "stol, yozuv stoli"
+  },
+  "u3-l3.2.en": {
+    "en": "wardrobe",
+    "t": "kiyim javoni"
+  },
+  "u3-l3.3.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "u3-l3.3.options": {
+    "en": [
+      "wardrobe",
+      "bed",
+      "window"
+    ],
+    "t": [
+      "kiyim javoni",
+      "karavot",
+      "deraza"
+    ]
+  },
+  "u3-l3.4.en": {
+    "en": "lamp",
+    "t": "chiroq"
+  },
+  "u3-l3.5.en": {
+    "en": "window",
+    "t": "deraza"
+  },
+  "u3-l3.5.note": {
+    "en": "Okno is neuter, like auto: okno je veľk**é**.",
+    "t": "Okno oʻrta jinsda, xuddi auto kabi: okno je veľk**é**."
+  },
+  "u3-l3.6.pairs": {
+    "en": [
+      "bed",
+      "desk",
+      "wardrobe",
+      "lamp",
+      "window"
+    ],
+    "t": [
+      "karavot",
+      "stol",
+      "kiyim javoni",
+      "chiroq",
+      "deraza"
+    ]
+  },
+  "u3-l3.7.en": {
+    "en": "on the left – on the right",
+    "t": "chapda – oʻngda"
+  },
+  "u3-l3.8.en": {
+    "en": "The desk is on the left.",
+    "t": "Stol chapda."
+  },
+  "u3-l3.9.en": {
+    "en": "The lamp is on the right.",
+    "t": "Chiroq oʻngda."
+  },
+  "u3-l3.10.en": {
+    "en": "at the front – at the back",
+    "t": "oldinda – orqada"
+  },
+  "u3-l3.11.question": {
+    "en": "How do you say “The wardrobe is at the back”?",
+    "t": "«Kiyim javoni orqada» qanday aytiladi?"
+  },
+  "u3-l3.12.prompt": {
+    "en": "The desk is on the left and the bed is on the right.",
+    "t": "Stol chapda, karavot esa oʻngda."
+  },
+  "u3-l3.13.en": {
+    "en": "The window is big.",
+    "t": "Deraza katta."
+  },
+  "u3-l3.14.en": {
+    "en": "The bed is new.",
+    "t": "Karavot yangi."
+  },
+  "u3-l3.15.answers": {
+    "en": [
+      "The room is small but the window is big.",
+      "The room is small but the window is large."
+    ],
+    "t": [
+      "Xona kichik, lekin deraza katta."
+    ]
+  },
+  "u3-l3.15.distractors": {
+    "en": [
+      "bed",
+      "left"
+    ],
+    "t": [
+      "karavot",
+      "chapda"
+    ]
+  },
+  "u3-l3.16.en": {
+    "en": "The lamp is on the left.",
+    "t": "Chiroq chapda."
+  },
+  "u3-l4.titleEn": {
+    "en": "Whose is it?",
+    "t": "Bu kimniki?"
+  },
+  "u3-l4.0.title": {
+    "en": "My, your, our",
+    "t": "Mening, sening, bizning"
+  },
+  "u3-l4.0.body": {
+    "en": [
+      "Possessives match the gender of the thing owned, just like adjectives: môj stôl, moj**a** izba, moj**e** okno.",
+      "Watch the vowel: m**ô**j but m**o**ja, n**á**š but n**a**ša. Use **tvoj** with ty and **váš** with vy."
+    ],
+    "t": [
+      "Egalik olmoshlari ham, sifatlar kabi, narsaning jinsiga moslashadi: môj stôl, moj**a** izba, moj**e** okno. Oʻzbekchada «mening» oʻzgarmaydi: mening stolim, mening xonam.",
+      "Unliga eʼtibor bering: m**ô**j, lekin m**o**ja; n**á**š, lekin n**a**ša. **tvoj** ty bilan, **váš** esa vy bilan ishlatiladi."
+    ]
+  },
+  "u3-l4.0.table.head": {
+    "en": [
+      "",
+      "masculine",
+      "feminine",
+      "neuter"
+    ],
+    "t": [
+      "kimning",
+      "erkak jinsi",
+      "ayol jinsi",
+      "oʻrta jins"
+    ]
+  },
+  "u3-l4.0.table.rows": {
+    "en": [
+      [
+        "my",
+        "môj",
+        "moj**a**",
+        "moj**e**"
+      ],
+      [
+        "your (ty)",
+        "tvoj",
+        "tvoj**a**",
+        "tvoj**e**"
+      ],
+      [
+        "our",
+        "náš",
+        "naš**a**",
+        "naš**e**"
+      ],
+      [
+        "your (vy)",
+        "váš",
+        "vaš**a**",
+        "vaš**e**"
+      ]
+    ],
+    "t": [
+      [
+        "mening",
+        "môj",
+        "moj**a**",
+        "moj**e**"
+      ],
+      [
+        "sening (ty)",
+        "tvoj",
+        "tvoj**a**",
+        "tvoj**e**"
+      ],
+      [
+        "bizning",
+        "náš",
+        "naš**a**",
+        "naš**e**"
+      ],
+      [
+        "sizning (vy)",
+        "váš",
+        "vaš**a**",
+        "vaš**e**"
+      ]
+    ]
+  },
+  "u3-l4.0.examples": {
+    "en": [
+      "That's my desk.",
+      "Your bed is on the left.",
+      "Our window is big."
+    ],
+    "t": [
+      "Bu mening stolim.",
+      "Sening karavoting chapda.",
+      "Bizning derazamiz katta."
+    ]
+  },
+  "u3-l4.1.title": {
+    "en": "His, her, their",
+    "t": "Uning, ularning"
+  },
+  "u3-l4.1.body": {
+    "en": [
+      "**jeho** (his), **jej** (her) and **ich** (their) never change. They go with any noun."
+    ],
+    "t": [
+      "**jeho** (uning — erkakning), **jej** (uning — ayolning) va **ich** (ularning) hech qachon oʻzgarmaydi. Ular har qanday ot bilan ishlatiladi. Oʻzbekchada ikkalasi ham «uning», slovakchada esa farqlanadi."
+    ]
+  },
+  "u3-l4.1.examples": {
+    "en": [
+      "That's his desk.",
+      "That's her bed.",
+      "Their window is small."
+    ],
+    "t": [
+      "Bu uning (erkakning) stoli.",
+      "Bu uning (ayolning) karavoti.",
+      "Ularning derazasi kichik."
+    ]
+  },
+  "u3-l4.2.en": {
+    "en": "That's my room.",
+    "t": "Bu mening xonam."
+  },
+  "u3-l4.3.en": {
+    "en": "Where is your desk?",
+    "t": "Sening stoling qayerda?"
+  },
+  "u3-l4.4.pairs": {
+    "en": [
+      "my",
+      "our",
+      "his",
+      "her",
+      "their"
+    ],
+    "t": [
+      "mening",
+      "bizning",
+      "uning (erkak)",
+      "uning (ayol)",
+      "ularning"
+    ]
+  },
+  "u3-l4.5.prompt": {
+    "en": "That's our kitchen.",
+    "t": "Bu bizning oshxonamiz."
+  },
+  "u3-l4.6.en": {
+    "en": "His bed is on the left.",
+    "t": "Uning karavoti chapda."
+  },
+  "u3-l4.7.title": {
+    "en": "Čí? Whose?",
+    "t": "Čí? Kimniki?"
+  },
+  "u3-l4.7.body": {
+    "en": [
+      "**Čí?** means whose. It matches the gender of the thing too: **čí** (masculine), **čia** (feminine), **čie** (neuter).",
+      "A short answer is just the possessive: Môj. Jej. Naše."
+    ],
+    "t": [
+      "**Čí?** — «kimniki?». U ham narsaning jinsiga moslashadi: **čí** (erkak jinsi), **čia** (ayol jinsi), **čie** (oʻrta jins).",
+      "Qisqa javob — faqat egalik olmoshining oʻzi: Môj. Jej. Naše. (Meniki. Uniki. Bizniki.)"
+    ]
+  },
+  "u3-l4.7.examples": {
+    "en": [
+      "Whose desk is it? – Mine.",
+      "Whose lamp is it? – Hers.",
+      "Whose window is it? – Ours."
+    ],
+    "t": [
+      "Bu kimning stoli? – Meniki.",
+      "Bu kimning chirogʻi? – Uniki.",
+      "Bu kimning derazasi? – Bizniki."
+    ]
+  },
+  "u3-l4.8.en": {
+    "en": "Whose bed is it?",
+    "t": "Bu kimning karavoti?"
+  },
+  "u3-l4.9.question": {
+    "en": "“Čia je to skriňa?” Which answer fits?",
+    "t": "«Čia je to skriňa?» Qaysi javob mos keladi?"
+  },
+  "u3-l4.10.prompt": {
+    "en": "Whose window is it?",
+    "t": "Bu kimning derazasi?"
+  },
+  "u3-l4.11.en": {
+    "en": "Lucia, where is your wardrobe?",
+    "t": "Lusiya, sening kiyim javoning qayerda?"
+  },
+  "u3-l4.12.en": {
+    "en": "Mrs Horváthová, is this your lamp?",
+    "t": "Horvatova xonim, bu sizning chirogʻingizmi?"
+  },
+  "u3-l4.13.prompt": {
+    "en": "Their room is upstairs.",
+    "t": "Ularning xonasi yuqorida."
+  },
+  "u3-l4.14.en": {
+    "en": "That's my room.",
+    "t": "Bu mening xonam."
+  },
+  "u3-l5.titleEn": {
+    "en": "A new flat",
+    "t": "Yangi kvartira"
+  },
+  "u3-l5.0.en": {
+    "en": "flat, apartment",
+    "t": "kvartira, xonadon"
+  },
+  "u3-l5.0.note": {
+    "en": "Marek, Lucia's brother, has a new flat. Byt is masculine: nov**ý** byt.",
+    "t": "Lusiyaning akasi Marekning yangi kvartirasi bor. Byt erkak jinsida: nov**ý** byt."
+  },
+  "u3-l5.1.en": {
+    "en": "Come in!",
+    "t": "Kiring!"
+  },
+  "u3-l5.1.note": {
+    "en": "To two or more people, or formally. To one friend: **Poď ďalej!**",
+    "t": "Ikki yoki undan koʻp odamga yoki hurmat bilan aytiladi. Bitta doʻstga: **Poď ďalej!**"
+  },
+  "u3-l5.2.question": {
+    "en": "Marek opens the door for Emma and Lucia. What does he say?",
+    "t": "Marek Emma va Lusiyaga eshikni ochdi. U nima deydi?"
+  },
+  "u3-l5.3.en": {
+    "en": "hallway",
+    "t": "yoʻlak"
+  },
+  "u3-l5.4.en": {
+    "en": "living room",
+    "t": "mehmonxona (zal)"
+  },
+  "u3-l5.4.note": {
+    "en": "The full name is **obývacia izba**. Obývací is a soft adjective: it ends in **-í, -ia, -ie**, not -ý, -á, -é.",
+    "t": "Toʻliq nomi — **obývacia izba**. Obývací — yumshoq sifat: u -ý, -á, -é emas, **-í, -ia, -ie** bilan tugaydi."
+  },
+  "u3-l5.5.en": {
+    "en": "bedroom",
+    "t": "yotoq xonasi"
+  },
+  "u3-l5.6.pairs": {
+    "en": [
+      "flat",
+      "hallway",
+      "living room",
+      "bedroom",
+      "kitchen"
+    ],
+    "t": [
+      "kvartira",
+      "yoʻlak",
+      "mehmonxona",
+      "yotoq xonasi",
+      "oshxona"
+    ]
+  },
+  "u3-l5.7.en": {
+    "en": "The hallway is in the middle.",
+    "t": "Yoʻlak oʻrtada."
+  },
+  "u3-l5.7.note": {
+    "en": "**v strede** = in the middle",
+    "t": "**v strede** = oʻrtada"
+  },
+  "u3-l5.8.en": {
+    "en": "The hallway is in the middle.",
+    "t": "Yoʻlak oʻrtada."
+  },
+  "u3-l5.9.en": {
+    "en": "The bedroom is on the left and the living room on the right.",
+    "t": "Yotoq xonasi chapda, mehmonxona esa oʻngda."
+  },
+  "u3-l5.10.en": {
+    "en": "expensive – cheap",
+    "t": "qimmat – arzon"
+  },
+  "u3-l5.11.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "u3-l5.11.options": {
+    "en": [
+      "The flat is expensive.",
+      "The flat is cheap.",
+      "The flat is new."
+    ],
+    "t": [
+      "Kvartira qimmat.",
+      "Kvartira arzon.",
+      "Kvartira yangi."
+    ]
+  },
+  "u3-l5.12.en": {
+    "en": "bright – dark",
+    "t": "yorugʻ – qorongʻi"
+  },
+  "u3-l5.12.note": {
+    "en": "svetl**á** izba = a bright room, full of light",
+    "t": "svetl**á** izba = yorugʻ xona, yorugʻlikka toʻla"
+  },
+  "u3-l5.13.en": {
+    "en": "The living room is big and bright.",
+    "t": "Mehmonxona katta va yorugʻ."
+  },
+  "u3-l5.14.answers": {
+    "en": [
+      "The flat is nice but expensive.",
+      "The apartment is nice but expensive.",
+      "The flat is pretty but expensive."
+    ],
+    "t": [
+      "Kvartira chiroyli, lekin qimmat."
+    ]
+  },
+  "u3-l5.14.distractors": {
+    "en": [
+      "cheap",
+      "new"
+    ],
+    "t": [
+      "arzon",
+      "yangi"
+    ]
+  },
+  "u3-l5.15.prompt": {
+    "en": "The hallway is dark.",
+    "t": "Yoʻlak qorongʻi."
+  },
+  "u3-l5.16.en": {
+    "en": "The flat isn't expensive, it's cheap.",
+    "t": "Kvartira qimmat emas, arzon."
+  },
+  "u3-l5.17.en": {
+    "en": "Come in!",
+    "t": "Kiring!"
+  },
+  "u3-l6.titleEn": {
+    "en": "Which one is yours?",
+    "t": "Qaysi biri seniki?"
+  },
+  "u3-l6.0.title": {
+    "en": "Ktorý? Which one?",
+    "t": "Ktorý? Qaysi biri?"
+  },
+  "u3-l6.0.body": {
+    "en": [
+      "**Ktorý?** asks which one. It changes like an adjective: **ktorý** (masculine), **ktorá** (feminine), **ktoré** (neuter).",
+      "To answer, point with **ten**, **tá**, **to** (that one). Add **-to** for “this one here”: tento, táto, toto."
+    ],
+    "t": [
+      "**Ktorý?** — «qaysi biri?». U sifat kabi oʻzgaradi: **ktorý** (erkak jinsi), **ktorá** (ayol jinsi), **ktoré** (oʻrta jins).",
+      "Javob berganda **ten**, **tá**, **to** (ana u) bilan koʻrsatiladi. «Mana bu» deyish uchun **-to** qoʻshiladi: tento, táto, toto."
+    ]
+  },
+  "u3-l6.0.table.head": {
+    "en": [
+      "",
+      "which?",
+      "that one",
+      "this one"
+    ],
+    "t": [
+      "jins",
+      "qaysi?",
+      "ana u",
+      "mana bu"
+    ]
+  },
+  "u3-l6.0.table.rows": {
+    "en": [
+      [
+        "masculine",
+        "ktor**ý**",
+        "ten",
+        "ten**to**"
+      ],
+      [
+        "feminine",
+        "ktor**á**",
+        "tá",
+        "tá**to**"
+      ],
+      [
+        "neuter",
+        "ktor**é**",
+        "to",
+        "to**to**"
+      ]
+    ],
+    "t": [
+      [
+        "erkak jinsi",
+        "ktor**ý**",
+        "ten",
+        "ten**to**"
+      ],
+      [
+        "ayol jinsi",
+        "ktor**á**",
+        "tá",
+        "tá**to**"
+      ],
+      [
+        "oʻrta jins",
+        "ktor**é**",
+        "to",
+        "to**to**"
+      ]
+    ]
+  },
+  "u3-l6.0.examples": {
+    "en": [
+      "Which desk is yours? – The one on the left.",
+      "Which bed is mine? – The one on the right.",
+      "Which window? – This one."
+    ],
+    "t": [
+      "Qaysi stol seniki? – Chapdagisi.",
+      "Qaysi karavot meniki? – Oʻngdagisi.",
+      "Qaysi deraza? – Mana bu."
+    ]
+  },
+  "u3-l6.1.en": {
+    "en": "Which room is yours?",
+    "t": "Qaysi xona seniki?"
+  },
+  "u3-l6.2.en": {
+    "en": "Which desk is mine? – The one at the front.",
+    "t": "Qaysi stol meniki? – Oldindagisi."
+  },
+  "u3-l6.3.question": {
+    "en": "Lucia asks: “Ktorá lampa je tvoja?” Emma's lamp is on the left. What does Emma say?",
+    "t": "Lusiya soʻraydi: «Ktorá lampa je tvoja?» Emmaning chirogʻi chapda. Emma nima deydi?"
+  },
+  "u3-l6.4.en": {
+    "en": "Which window? – This one.",
+    "t": "Qaysi deraza? – Mana bu."
+  },
+  "u3-l6.5.prompt": {
+    "en": "Which window is ours?",
+    "t": "Qaysi deraza bizniki?"
+  },
+  "u3-l6.6.en": {
+    "en": "Which wardrobe is mine?",
+    "t": "Qaysi kiyim javoni meniki?"
+  },
+  "u3-l6.7.title": {
+    "en": "Whose? Tomáš's, Lucia's",
+    "t": "Kimniki? Tomashniki, Lusiyaniki"
+  },
+  "u3-l6.7.body": {
+    "en": [
+      "To say whose, Slovak turns the name into an adjective. Men's names add **-ov**: Tomáš → Tomáš**ov**. Women's names drop the final -a and add **-in**: Emm**a** → Emm**in**, Luci**a** → Luci**in**.",
+      "Then add the ending for the thing owned: nothing for masculine, **-a** for feminine, **-o** for neuter."
+    ],
+    "t": [
+      "«Kimniki» deyish uchun slovak tilida ism sifatga aylantiriladi (oʻzbekchadagi «-ning» oʻrniga). Erkaklar ismiga **-ov** qoʻshiladi: Tomáš → Tomáš**ov**. Ayollar ismida oxirgi -a tushib qoladi va **-in** qoʻshiladi: Emm**a** → Emm**in**, Luci**a** → Luci**in**.",
+      "Keyin narsaning jinsiga qarab qoʻshimcha qoʻshiladi: erkak jinsi uchun hech narsa, ayol jinsi uchun **-a**, oʻrta jins uchun **-o**."
+    ]
+  },
+  "u3-l6.7.table.head": {
+    "en": [
+      "",
+      "masculine",
+      "feminine",
+      "neuter"
+    ],
+    "t": [
+      "ism",
+      "erkak jinsi",
+      "ayol jinsi",
+      "oʻrta jins"
+    ]
+  },
+  "u3-l6.7.table.rows": {
+    "en": [
+      [
+        "Tomáš",
+        "Tomáš**ov** stôl",
+        "Tomáš**ova** izba",
+        "Tomáš**ovo** auto"
+      ],
+      [
+        "Lucia",
+        "Luci**in** stôl",
+        "Luci**ina** izba",
+        "Luci**ino** auto"
+      ],
+      [
+        "Emma",
+        "Emm**in** stôl",
+        "Emm**ina** izba",
+        "Emm**ino** auto"
+      ]
+    ],
+    "t": [
+      [
+        "Tomáš",
+        "Tomáš**ov** stôl",
+        "Tomáš**ova** izba",
+        "Tomáš**ovo** auto"
+      ],
+      [
+        "Lucia",
+        "Luci**in** stôl",
+        "Luci**ina** izba",
+        "Luci**ino** auto"
+      ],
+      [
+        "Emma",
+        "Emm**in** stôl",
+        "Emm**ina** izba",
+        "Emm**ino** auto"
+      ]
+    ]
+  },
+  "u3-l6.7.examples": {
+    "en": [
+      "That's Tomáš's flat.",
+      "Lucia's bed is on the left.",
+      "Whose car is it? – Tomáš's."
+    ],
+    "t": [
+      "Bu Tomashning kvartirasi.",
+      "Lusiyaning karavoti chapda.",
+      "Bu kimning mashinasi? – Tomashniki."
+    ]
+  },
+  "u3-l6.8.en": {
+    "en": "That's Tomáš's flat.",
+    "t": "Bu Tomashning kvartirasi."
+  },
+  "u3-l6.9.en": {
+    "en": "Lucia's bed is on the left.",
+    "t": "Lusiyaning karavoti chapda."
+  },
+  "u3-l6.10.question": {
+    "en": "How do you say “Emma's room”?",
+    "t": "«Emmaning xonasi» qanday aytiladi?"
+  },
+  "u3-l6.11.prompt": {
+    "en": "Which bed is Emma's?",
+    "t": "Qaysi karavot Emmaniki?"
+  },
+  "u3-l6.12.en": {
+    "en": "What's the flat like? – Big and bright.",
+    "t": "Kvartira qanday? – Katta va yorugʻ."
+  },
+  "u3-l6.13.en": {
+    "en": "Which room is yours?",
+    "t": "Qaysi xona seniki?"
+  },
+  "u3-l7.titleEn": {
+    "en": "Review",
+    "t": "Takrorlash"
+  },
+  "u3-l7.0.pairs": {
+    "en": [
+      "bed",
+      "wardrobe",
+      "window",
+      "front desk",
+      "hallway"
+    ],
+    "t": [
+      "karavot",
+      "kiyim javoni",
+      "deraza",
+      "qorovulxona",
+      "yoʻlak"
+    ]
+  },
+  "u3-l7.1.en": {
+    "en": "Our kitchen is small.",
+    "t": "Bizning oshxonamiz kichik."
+  },
+  "u3-l7.2.en": {
+    "en": "The front desk is downstairs, on the left.",
+    "t": "Qorovulxona pastda, chapda."
+  },
+  "u3-l7.3.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "u3-l7.3.options": {
+    "en": [
+      "Whose bed is it?",
+      "Which bed is it?",
+      "What is the bed like?"
+    ],
+    "t": [
+      "Bu kimning karavoti?",
+      "Bu qaysi karavot?",
+      "Karavot qanday?"
+    ]
+  },
+  "u3-l7.4.prompt": {
+    "en": "My room is upstairs.",
+    "t": "Mening xonam yuqorida."
+  },
+  "u3-l7.5.en": {
+    "en": "Which desk is yours?",
+    "t": "Qaysi stol seniki?"
+  },
+  "u3-l7.6.answers": {
+    "en": [
+      "Tomáš's flat is big and bright.",
+      "Tomáš's apartment is big and bright."
+    ],
+    "t": [
+      "Tomashning kvartirasi katta va yorugʻ."
+    ]
+  },
+  "u3-l7.6.distractors": {
+    "en": [
+      "dark",
+      "small"
+    ],
+    "t": [
+      "qorongʻi",
+      "kichik"
+    ]
+  },
+  "u3-l7.7.en": {
+    "en": "Where is Emma's lamp?",
+    "t": "Emmaning chirogʻi qayerda?"
+  },
+  "u3-l7.8.question": {
+    "en": "Which answer fits “Aká je izba?”",
+    "t": "«Aká je izba?» savoliga qaysi javob mos keladi?"
+  },
+  "u3-l7.9.en": {
+    "en": "Their flat is cheap.",
+    "t": "Ularning kvartirasi arzon."
+  },
+  "u3-l7.10.prompt": {
+    "en": "Which window is yours?",
+    "t": "Qaysi deraza seniki?"
+  },
+  "u3-l7.11.en": {
+    "en": "Which bed is Lucia's? – The one on the right.",
+    "t": "Qaysi karavot Lusiyaniki? – Oʻngdagisi."
+  },
+  "u3-l7.12.en": {
+    "en": "Mrs Horváthová, is this your desk?",
+    "t": "Horvatova xonim, bu sizning stolingizmi?"
+  },
+  "u3-l7.13.prompt": {
+    "en": "The bathroom is on the right and the kitchen is at the back.",
+    "t": "Vannaxona oʻngda, oshxona esa orqada."
+  },
+  "u3-l7.14.en": {
+    "en": "His bed is old.",
+    "t": "Uning karavoti eski."
+  },
+  "u3-l7.15.en": {
+    "en": "What's your room like?",
+    "t": "Sening xonang qanday?"
+  }
+}

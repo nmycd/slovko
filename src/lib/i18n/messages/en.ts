@@ -1,5 +1,5 @@
-// Interface strings. English is the source: uk.ts and ru.ts must define every
-// key (the type checker enforces it). `{name}` placeholders are filled in by t().
+// Interface strings. English is the source: uk.ts, ru.ts, uz.ts and ka.ts must
+// define every key (the type checker enforces it). `{name}` placeholders are filled in by t().
 
 export const en = {
   // Header, footer

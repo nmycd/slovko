@@ -1,0 +1,1679 @@
+{
+  "u7.titleEn": {
+    "en": "At university",
+    "t": "უნივერსიტეტში"
+  },
+  "u7.topics": {
+    "en": [
+      "University",
+      "Telling the time",
+      "Daily routine"
+    ],
+    "t": [
+      "უნივერსიტეტი",
+      "რომელი საათია",
+      "დღის რეჟიმი"
+    ]
+  },
+  "u7.grammar": {
+    "en": [
+      "Verb groups VIII–X (spať, stretnúť, vidieť)",
+      "Past tense",
+      "Ešte / už"
+    ],
+    "t": [
+      "უღლების ტიპები VIII–X (spať, stretnúť, vidieť)",
+      "წარსული დრო",
+      "Ešte / už"
+    ]
+  },
+  "u7-l1.titleEn": {
+    "en": "At the university",
+    "t": "უნივერსიტეტში"
+  },
+  "u7-l1.0.en": {
+    "en": "lecture",
+    "t": "ლექცია"
+  },
+  "u7-l1.0.note": {
+    "en": "Idem na prednášku. = I'm going to a lecture. At a lecture: **na prednáške**.",
+    "t": "Idem na prednášku. = ლექციაზე მივდივარ. ლექციაზე ვარ (სად?): **na prednáške**."
+  },
+  "u7-l1.1.en": {
+    "en": "seminar, small class",
+    "t": "სემინარი"
+  },
+  "u7-l1.1.note": {
+    "en": "A class where students discuss and present. At a seminar: **na seminári**.",
+    "t": "მეცადინეობა, სადაც სტუდენტები მსჯელობენ და მოხსენებებით გამოდიან. სემინარზე: **na seminári**."
+  },
+  "u7-l1.2.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "u7-l1.2.options": {
+    "en": [
+      "I'm going to a seminar.",
+      "I'm at a lecture.",
+      "I have a seminar tomorrow."
+    ],
+    "t": [
+      "სემინარზე მივდივარ.",
+      "ლექციაზე ვარ.",
+      "ხვალ სემინარი მაქვს."
+    ]
+  },
+  "u7-l1.3.en": {
+    "en": "library",
+    "t": "ბიბლიოთეკა"
+  },
+  "u7-l1.3.note": {
+    "en": "In the library: **v knižnici**. **čítať** = to read (čítam, čítaš, číta…), **kniha** = book: čítam knihu.",
+    "t": "ბიბლიოთეკაში: **v knižnici**. **čítať** = კითხვა (čítam, čítaš, číta…), **kniha** = წიგნი: čítam knihu = წიგნს ვკითხულობ."
+  },
+  "u7-l1.4.en": {
+    "en": "Emma is in the library, reading a book.",
+    "t": "ემა ბიბლიოთეკაშია, წიგნს კითხულობს."
+  },
+  "u7-l1.5.en": {
+    "en": "timetable",
+    "t": "გაკვეთილების ცხრილი"
+  },
+  "u7-l1.5.note": {
+    "en": "**hodina** is an hour, and also one class period.",
+    "t": "**hodina** ნიშნავს საათს და ასევე ერთ გაკვეთილს (მეცადინეობას)."
+  },
+  "u7-l1.6.pairs": {
+    "en": [
+      "lecture",
+      "seminar",
+      "library",
+      "timetable"
+    ],
+    "t": [
+      "ლექცია",
+      "სემინარი",
+      "ბიბლიოთეკა",
+      "გაკვეთილების ცხრილი"
+    ]
+  },
+  "u7-l1.7.en": {
+    "en": "exam",
+    "t": "გამოცდა"
+  },
+  "u7-l1.7.note": {
+    "en": "Mám skúšku. = I have an exam. **zajtra** = tomorrow.",
+    "t": "Mám skúšku. = გამოცდა მაქვს. **zajtra** = ხვალ."
+  },
+  "u7-l1.8.en": {
+    "en": "paper, presentation",
+    "t": "მოხსენება, რეფერატი"
+  },
+  "u7-l1.8.note": {
+    "en": "A short talk or paper for a seminar. **písať** = to write (píšem, píšeš, píše…): Píšem referát. = I'm writing a paper.",
+    "t": "მოკლე გამოსვლა ან წერითი ნაშრომი სემინარისთვის. **písať** = წერა (píšem, píšeš, píše…): Píšem referát. = რეფერატს ვწერ."
+  },
+  "u7-l1.9.en": {
+    "en": "I have an exam tomorrow.",
+    "t": "ხვალ გამოცდა მაქვს."
+  },
+  "u7-l1.10.prompt": {
+    "en": "Lucia is writing a paper.",
+    "t": "ლუცია რეფერატს წერს."
+  },
+  "u7-l1.11.en": {
+    "en": "Today I have a lecture and a seminar.",
+    "t": "დღეს ლექცია და სემინარი მაქვს."
+  },
+  "u7-l1.12.en": {
+    "en": "Sorry I'm late. (formal)",
+    "t": "მაპატიეთ, რომ ვაგვიანებ. (თქვენ)"
+  },
+  "u7-l1.12.note": {
+    "en": "**meškať** = to be late. A kind reply: **To sa stáva.** (It happens.)",
+    "t": "**meškať** = დაგვიანება. თავაზიანი პასუხი: **To sa stáva.** (ხდება ხოლმე.)"
+  },
+  "u7-l1.13.question": {
+    "en": "Emma comes in late. What does pani Horváthová say?",
+    "t": "ემა დაგვიანებით შემოდის. რას ეუბნება ქალბატონი ჰორვატოვა?"
+  },
+  "u7-l1.14.en": {
+    "en": "Mrs Horváthová, sorry I'm late.",
+    "t": "ქალბატონო ჰორვატოვა, მაპატიეთ, რომ ვაგვიანებ."
+  },
+  "u7-l1.15.answers": {
+    "en": [
+      "Lucia is at the lecture.",
+      "Lucia is at a lecture.",
+      "Lucia is in the lecture.",
+      "Lucia is in a lecture."
+    ],
+    "t": [
+      "ლუცია ლექციაზეა.",
+      "ლექციაზეა ლუცია.",
+      "ლუცია ლექციაზე არის."
+    ]
+  },
+  "u7-l1.15.distractors": {
+    "en": [
+      "seminar",
+      "library"
+    ],
+    "t": [
+      "ლექციაში",
+      "სემინარზეა"
+    ]
+  },
+  "u7-l1.16.prompt": {
+    "en": "Sorry I'm late. (formal)",
+    "t": "მაპატიეთ, რომ ვაგვიანებ. (თქვენ)"
+  },
+  "u7-l1.17.en": {
+    "en": "Sorry I'm late.",
+    "t": "მაპატიეთ, რომ ვაგვიანებ."
+  },
+  "u7-l2.titleEn": {
+    "en": "What time is it?",
+    "t": "რომელი საათია?"
+  },
+  "u7-l2.0.en": {
+    "en": "What time is it?",
+    "t": "რომელი საათია?"
+  },
+  "u7-l2.0.note": {
+    "en": "Literally “How many hours is it?”",
+    "t": "სიტყვასიტყვით: „რამდენი საათია?“"
+  },
+  "u7-l2.1.title": {
+    "en": "Telling the time",
+    "t": "როგორ ვთქვათ, რომელი საათია"
+  },
+  "u7-l2.1.body": {
+    "en": [
+      "The word **hodina** (hour) changes its ending with the number.",
+      "1: **je … hodina**. 2–4: **sú … hodiny**. 5 and up: **je … hodín**."
+    ],
+    "t": [
+      "სიტყვა **hodina** (საათი) რიცხვის მიხედვით დაბოლოებას იცვლის. ქართულში რიცხვის შემდეგ სიტყვა არ იცვლება (ორი საათი, ხუთი საათი), სლოვაკურში კი იცვლება.",
+      "1: **je … hodina**. 2–4: **sú … hodiny**. 5 და მეტი: **je … hodín**. ზმნაც იცვლება: je / sú."
+    ]
+  },
+  "u7-l2.1.table.head": {
+    "en": [
+      "time",
+      "Koľko je hodín?"
+    ],
+    "t": [
+      "დრო",
+      "Koľko je hodín?"
+    ]
+  },
+  "u7-l2.1.table.rows": {
+    "en": [
+      [
+        "1:00",
+        "Je jedna hodin**a**."
+      ],
+      [
+        "2:00",
+        "Sú dve hodin**y**."
+      ],
+      [
+        "3:00",
+        "Sú tri hodin**y**."
+      ],
+      [
+        "4:00",
+        "Sú štyri hodin**y**."
+      ],
+      [
+        "5:00",
+        "Je päť hod**ín**."
+      ],
+      [
+        "8:00",
+        "Je osem hod**ín**."
+      ],
+      [
+        "12:00",
+        "Je dvanásť hod**ín**."
+      ]
+    ],
+    "t": [
+      [
+        "1:00",
+        "Je jedna hodin**a**."
+      ],
+      [
+        "2:00",
+        "Sú dve hodin**y**."
+      ],
+      [
+        "3:00",
+        "Sú tri hodin**y**."
+      ],
+      [
+        "4:00",
+        "Sú štyri hodin**y**."
+      ],
+      [
+        "5:00",
+        "Je päť hod**ín**."
+      ],
+      [
+        "8:00",
+        "Je osem hod**ín**."
+      ],
+      [
+        "12:00",
+        "Je dvanásť hod**ín**."
+      ]
+    ]
+  },
+  "u7-l2.1.examples": {
+    "en": [
+      "It's seven o'clock.",
+      "It's two o'clock."
+    ],
+    "t": [
+      "შვიდი საათია.",
+      "ორი საათია."
+    ]
+  },
+  "u7-l2.2.question": {
+    "en": "It's 3:00. What do you say?",
+    "t": "ახლა 3:00-ია. როგორ იტყვით?"
+  },
+  "u7-l2.3.en": {
+    "en": "It's five o'clock.",
+    "t": "ხუთი საათია."
+  },
+  "u7-l2.4.en": {
+    "en": "At what time?",
+    "t": "რომელ საათზე?"
+  },
+  "u7-l2.4.note": {
+    "en": "The answer uses **o** and a special form of the number: o jednej, o druhej…",
+    "t": "პასუხში არის **o** და რიცხვის განსაკუთრებული ფორმა: o jednej (პირველ საათზე), o druhej (ორ საათზე)…"
+  },
+  "u7-l2.5.title": {
+    "en": "At one, at two…",
+    "t": "პირველ საათზე, ორ საათზე…"
+  },
+  "u7-l2.5.body": {
+    "en": [
+      "To say at what time, use **o** and a form ending in **-ej**. Most of them come from “second, third…”, so they don't look exactly like the numbers.",
+      "Also: o štvrtej (4), o šiestej (6), o jedenástej (11), o dvanástej (12)."
+    ],
+    "t": [
+      "იმის სათქმელად, თუ რომელ საათზე, გამოიყენეთ **o** და ფორმა **-ej** დაბოლოებით. მათი უმეტესობა მოდის სიტყვებიდან „მეორე, მესამე…“, ამიტომ რიცხვებს ზუსტად არ ჰგავს.",
+      "ასევე: o štvrtej (4), o šiestej (6), o jedenástej (11), o dvanástej (12)."
+    ]
+  },
+  "u7-l2.5.table.head": {
+    "en": [
+      "",
+      "at …"
+    ],
+    "t": [
+      "",
+      "რომელ საათზე?"
+    ]
+  },
+  "u7-l2.5.table.rows": {
+    "en": [
+      [
+        "1",
+        "o jedn**ej**"
+      ],
+      [
+        "2",
+        "o druh**ej**"
+      ],
+      [
+        "3",
+        "o tret**ej**"
+      ],
+      [
+        "5",
+        "o piat**ej**"
+      ],
+      [
+        "7",
+        "o siedm**ej**"
+      ],
+      [
+        "8",
+        "o ôsm**ej**"
+      ],
+      [
+        "9",
+        "o deviat**ej**"
+      ],
+      [
+        "10",
+        "o desiat**ej**"
+      ]
+    ],
+    "t": [
+      [
+        "1",
+        "o jedn**ej**"
+      ],
+      [
+        "2",
+        "o druh**ej**"
+      ],
+      [
+        "3",
+        "o tret**ej**"
+      ],
+      [
+        "5",
+        "o piat**ej**"
+      ],
+      [
+        "7",
+        "o siedm**ej**"
+      ],
+      [
+        "8",
+        "o ôsm**ej**"
+      ],
+      [
+        "9",
+        "o deviat**ej**"
+      ],
+      [
+        "10",
+        "o desiat**ej**"
+      ]
+    ]
+  },
+  "u7-l2.5.examples": {
+    "en": [
+      "The seminar is at nine.",
+      "The lecture is at ten."
+    ],
+    "t": [
+      "სემინარი ცხრა საათზეა.",
+      "ლექცია ათ საათზეა."
+    ]
+  },
+  "u7-l2.6.pairs": {
+    "en": [
+      "at 8:00",
+      "at 3:00",
+      "at 7:00",
+      "at 1:00"
+    ],
+    "t": [
+      "8:00-ზე",
+      "3:00-ზე",
+      "7:00-ზე",
+      "1:00-ზე"
+    ]
+  },
+  "u7-l2.7.prompt": {
+    "en": "The seminar is at nine.",
+    "t": "სემინარი ცხრა საათზეა."
+  },
+  "u7-l2.8.en": {
+    "en": "It's half past seven. (7:30)",
+    "t": "რვის ნახევარია. (7:30)"
+  },
+  "u7-l2.8.note": {
+    "en": "Slovak looks ahead: **pol ôsmej** is “half of the eighth hour”. At 7:30 = **o pol ôsmej**.",
+    "t": "სლოვაკური წინ იყურება, ზუსტად ისე, როგორც ქართული: **pol ôsmej** = „რვის ნახევარი“. 7:30-ზე = **o pol ôsmej**."
+  },
+  "u7-l2.9.question": {
+    "en": "What time is it?",
+    "t": "რომელი საათია?"
+  },
+  "u7-l2.9.options": {
+    "en": [
+      "9:30",
+      "10:30",
+      "10:00"
+    ],
+    "t": [
+      "9:30",
+      "10:30",
+      "10:00"
+    ]
+  },
+  "u7-l2.10.en": {
+    "en": "It's a quarter past eight. (8:15)",
+    "t": "ცხრის თხუთმეტი წუთია. (8:15)"
+  },
+  "u7-l2.10.note": {
+    "en": "Literally “a quarter towards nine”. 8:45 is **trištvrte na deväť**.",
+    "t": "სიტყვასიტყვით „მეოთხედი ცხრისკენ“: როგორც ქართულში, აქაც მომდევნო საათს ვითვლით. 8:45 (ცხრას აკლია თხუთმეტი) არის **trištvrte na deväť**."
+  },
+  "u7-l2.11.en": {
+    "en": "It's a quarter past eight.",
+    "t": "ცხრის თხუთმეტი წუთია."
+  },
+  "u7-l2.12.question": {
+    "en": "How do you say 8:45?",
+    "t": "როგორ იტყვით 8:45-ს?"
+  },
+  "u7-l2.13.en": {
+    "en": "The lecture is at half past eight.",
+    "t": "ლექცია ცხრის ნახევარზეა."
+  },
+  "u7-l2.14.prompt": {
+    "en": "What time is it?",
+    "t": "რომელი საათია?"
+  },
+  "u7-l2.15.en": {
+    "en": "The seminar is at seven.",
+    "t": "სემინარი შვიდ საათზეა."
+  },
+  "u7-l2.16.en": {
+    "en": "What time is it?",
+    "t": "რომელი საათია?"
+  },
+  "u7-l3.titleEn": {
+    "en": "My day",
+    "t": "ჩემი დღე"
+  },
+  "u7-l3.0.en": {
+    "en": "In the morning I get up at seven.",
+    "t": "დილით შვიდ საათზე ვდგები."
+  },
+  "u7-l3.0.note": {
+    "en": "**vstávať** = to get up: vstávam, vstávaš, vstáva…",
+    "t": "**vstávať** = ადგომა: vstávam, vstávaš, vstáva…"
+  },
+  "u7-l3.1.en": {
+    "en": "I take a shower.",
+    "t": "შხაპს ვიღებ."
+  },
+  "u7-l3.1.note": {
+    "en": "And then: **obliekam sa** = I get dressed. Both use **sa**.",
+    "t": "შემდეგ კი: **obliekam sa** = ვიცვამ. ორივე ზმნას ახლავს **sa** (საკუთარ თავს)."
+  },
+  "u7-l3.2.question": {
+    "en": "Emma says this. What is she doing?",
+    "t": "ემა ამას ამბობს. რას აკეთებს?"
+  },
+  "u7-l3.2.options": {
+    "en": [
+      "She's getting dressed.",
+      "She's taking a shower.",
+      "She's getting up."
+    ],
+    "t": [
+      "იცვამს.",
+      "შხაპს იღებს.",
+      "დგება."
+    ]
+  },
+  "u7-l3.3.en": {
+    "en": "I'm having breakfast.",
+    "t": "ვსაუზმობ."
+  },
+  "u7-l3.3.note": {
+    "en": "Lunch: **obedujem**. Dinner: **večeriam**.",
+    "t": "ვსადილობ: **obedujem**. ვვახშმობ: **večeriam**."
+  },
+  "u7-l3.4.pairs": {
+    "en": [
+      "I get up",
+      "I take a shower",
+      "I get dressed",
+      "I have breakfast",
+      "I have dinner"
+    ],
+    "t": [
+      "ვდგები",
+      "შხაპს ვიღებ",
+      "ვიცვამ",
+      "ვსაუზმობ",
+      "ვვახშმობ"
+    ]
+  },
+  "u7-l3.5.en": {
+    "en": "First I shower, then I have breakfast.",
+    "t": "ჯერ შხაპს ვიღებ, მერე ვსაუზმობ."
+  },
+  "u7-l3.5.note": {
+    "en": "**najprv** = first, **potom** = then, after that.",
+    "t": "**najprv** = ჯერ, თავიდან, **potom** = მერე, შემდეგ."
+  },
+  "u7-l3.6.en": {
+    "en": "First I get dressed, then I have breakfast.",
+    "t": "ჯერ ვიცვამ, მერე ვსაუზმობ."
+  },
+  "u7-l3.7.prompt": {
+    "en": "I get up at seven.",
+    "t": "შვიდ საათზე ვდგები."
+  },
+  "u7-l3.8.en": {
+    "en": "In the morning I have lectures.",
+    "t": "შუადღემდე ლექციები მაქვს."
+  },
+  "u7-l3.8.note": {
+    "en": "**doobeda** = before noon, **naobed** = at lunchtime, **poobede** = in the afternoon, **v noci** = at night.",
+    "t": "**doobeda** = შუადღემდე, **naobed** = შუადღისას, **poobede** = შუადღის შემდეგ, **v noci** = ღამით."
+  },
+  "u7-l3.9.question": {
+    "en": "When is “poobede”?",
+    "t": "როდის არის „poobede“?"
+  },
+  "u7-l3.9.options": {
+    "en": [
+      "in the afternoon",
+      "before noon",
+      "at night"
+    ],
+    "t": [
+      "შუადღის შემდეგ",
+      "შუადღემდე",
+      "ღამით"
+    ]
+  },
+  "u7-l3.10.en": {
+    "en": "I'm studying.",
+    "t": "ვსწავლობ."
+  },
+  "u7-l3.10.note": {
+    "en": "**učiť sa** = to study, to learn: učím sa, učíš sa, učí sa… Don't drop the **sa**: učiť alone means to teach (like učiteľ, teacher).",
+    "t": "**učiť sa** = სწავლა: učím sa, učíš sa, učí sa… **sa** არ გამოტოვოთ: მის გარეშე učiť ნიშნავს სხვისთვის სწავლებას (ვასწავლი), აქედანაა učiteľ = მასწავლებელი."
+  },
+  "u7-l3.11.en": {
+    "en": "In the afternoon I study in the library.",
+    "t": "შუადღის შემდეგ ბიბლიოთეკაში ვსწავლობ."
+  },
+  "u7-l3.12.en": {
+    "en": "Emma has breakfast at half past seven.",
+    "t": "ემა რვის ნახევარზე საუზმობს."
+  },
+  "u7-l3.13.en": {
+    "en": "In the evening I'm tired. (woman speaking)",
+    "t": "საღამოს დაღლილი ვარ. (ამბობს ქალი)"
+  },
+  "u7-l3.13.note": {
+    "en": "A man says: Večer som **unavený**. Then it's time for **idem spať** = I'm going to bed.",
+    "t": "კაცი იტყვის: Večer som **unavený**, რადგან ზედსართავი სახელი სქესის მიხედვით იცვლება. შემდეგ კი: **idem spať** = დასაძინებლად მივდივარ."
+  },
+  "u7-l3.14.en": {
+    "en": "Tomáš is tired in the evening.",
+    "t": "ტომაში საღამოს დაღლილია."
+  },
+  "u7-l3.15.prompt": {
+    "en": "First I study, then I go to bed.",
+    "t": "ჯერ ვსწავლობ, მერე დასაძინებლად მივდივარ."
+  },
+  "u7-l3.16.answers": {
+    "en": [
+      "In the evening Lucia reads a book.",
+      "Lucia reads a book in the evening.",
+      "In the evening Lucia is reading a book.",
+      "Lucia is reading a book in the evening."
+    ],
+    "t": [
+      "საღამოს ლუცია წიგნს კითხულობს.",
+      "ლუცია საღამოს წიგნს კითხულობს.",
+      "ლუცია წიგნს საღამოს კითხულობს.",
+      "საღამოს ლუცია კითხულობს წიგნს."
+    ]
+  },
+  "u7-l3.16.distractors": {
+    "en": [
+      "morning",
+      "writes"
+    ],
+    "t": [
+      "დილით",
+      "წიგნი",
+      "წერს"
+    ]
+  },
+  "u7-l3.17.en": {
+    "en": "I get up at seven in the morning.",
+    "t": "დილით შვიდ საათზე ვდგები."
+  },
+  "u7-l4.titleEn": {
+    "en": "Sleep, meet, see",
+    "t": "მძინავს, შევხვდები, ვხედავ"
+  },
+  "u7-l4.0.title": {
+    "en": "Three new verb types",
+    "t": "უღლების სამი ახალი ტიპი"
+  },
+  "u7-l4.0.body": {
+    "en": [
+      "Three more present-tense patterns. **spať** (to sleep) and **vidieť** (to see) take **-ím**; **stretnúť** (to meet) takes **-em**.",
+      "**stretnúť** is one complete action, so its present form talks about the future: **stretnem** = I'll meet. With **sa** it means to meet up: Kde sa stretneme?"
+    ],
+    "t": [
+      "აწმყო დროის კიდევ სამი ნიმუში. **spať** (ძილი) და **vidieť** (ხედვა) იღებს დაბოლოებას **-ím**, ხოლო **stretnúť** (შეხვედრა) — **-em**.",
+      "**stretnúť** ერთ დასრულებულ მოქმედებას აღნიშნავს (სრული ასპექტი), ამიტომ მისი აწმყოს ფორმა მომავალზე მიუთითებს: **stretnem** = შევხვდები. ქართულშიც მსგავსადაა: ვხვდები → შევხვდები. **sa**-სთან ერთად ნიშნავს ერთმანეთთან შეხვედრას: Kde sa stretneme? = სად შევხვდეთ?"
+    ]
+  },
+  "u7-l4.0.table.head": {
+    "en": [
+      "",
+      "spať",
+      "stretnúť",
+      "vidieť"
+    ],
+    "t": [
+      "",
+      "spať",
+      "stretnúť",
+      "vidieť"
+    ]
+  },
+  "u7-l4.0.table.rows": {
+    "en": [
+      [
+        "ja",
+        "sp**ím**",
+        "stretn**em**",
+        "vid**ím**"
+      ],
+      [
+        "ty",
+        "sp**íš**",
+        "stretn**eš**",
+        "vid**íš**"
+      ],
+      [
+        "on, ona",
+        "sp**í**",
+        "stretn**e**",
+        "vid**í**"
+      ],
+      [
+        "my",
+        "sp**íme**",
+        "stretn**eme**",
+        "vid**íme**"
+      ],
+      [
+        "vy",
+        "sp**íte**",
+        "stretn**ete**",
+        "vid**íte**"
+      ],
+      [
+        "oni",
+        "sp**ia**",
+        "stretn**ú**",
+        "vid**ia**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "sp**ím**",
+        "stretn**em**",
+        "vid**ím**"
+      ],
+      [
+        "ty",
+        "sp**íš**",
+        "stretn**eš**",
+        "vid**íš**"
+      ],
+      [
+        "on, ona",
+        "sp**í**",
+        "stretn**e**",
+        "vid**í**"
+      ],
+      [
+        "my",
+        "sp**íme**",
+        "stretn**eme**",
+        "vid**íme**"
+      ],
+      [
+        "vy",
+        "sp**íte**",
+        "stretn**ete**",
+        "vid**íte**"
+      ],
+      [
+        "oni",
+        "sp**ia**",
+        "stretn**ú**",
+        "vid**ia**"
+      ]
+    ]
+  },
+  "u7-l4.0.examples": {
+    "en": [
+      "Lucia is asleep.",
+      "Can you see Tomáš?",
+      "Where shall we meet?"
+    ],
+    "t": [
+      "ლუციას სძინავს.",
+      "ხედავ ტომაშს?",
+      "სად შევხვდეთ?"
+    ]
+  },
+  "u7-l4.1.en": {
+    "en": "It's morning and Lucia is asleep.",
+    "t": "დილაა და ლუციას სძინავს."
+  },
+  "u7-l4.2.en": {
+    "en": "We sleep at night.",
+    "t": "ღამით გვძინავს."
+  },
+  "u7-l4.3.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "u7-l4.3.options": {
+    "en": [
+      "Can you see Tomáš?",
+      "Are you meeting Tomáš?",
+      "Is Tomáš asleep?"
+    ],
+    "t": [
+      "ხედავ ტომაშს?",
+      "ტომაშს ხვდები?",
+      "ტომაშს სძინავს?"
+    ]
+  },
+  "u7-l4.4.en": {
+    "en": "Tomorrow I'll meet Tomáš.",
+    "t": "ხვალ ტომაშს შევხვდები."
+  },
+  "u7-l4.5.prompt": {
+    "en": "Where shall we meet?",
+    "t": "სად შევხვდეთ?"
+  },
+  "u7-l4.6.title": {
+    "en": "More verbs like these",
+    "t": "კიდევ რამდენიმე ასეთი ზმნა"
+  },
+  "u7-l4.6.body": {
+    "en": [
+      "These verbs follow the same three patterns. Learn each one with its ja form.",
+      "Like stretnúť, **zaspať, stihnúť** and **zabudnúť** are one complete action, so their present forms talk about the future: zabudnem = I'll forget."
+    ],
+    "t": [
+      "ეს ზმნები იმავე სამ ნიმუშს მიჰყვება. თითოეული ისწავლეთ ja-ს ფორმასთან ერთად.",
+      "stretnúť-ის მსგავსად, **zaspať, stihnúť** და **zabudnúť** ერთ დასრულებულ მოქმედებას აღნიშნავს, ამიტომ მათი აწმყოს ფორმა მომავალზე მიუთითებს: zabudnem = დამავიწყდება."
+    ]
+  },
+  "u7-l4.6.table.head": {
+    "en": [
+      "like",
+      "verb",
+      "ja"
+    ],
+    "t": [
+      "როგორც",
+      "ზმნა",
+      "ja"
+    ]
+  },
+  "u7-l4.6.table.rows": {
+    "en": [
+      [
+        "spať",
+        "zaspať (to oversleep, fall asleep)",
+        "zasp**ím**"
+      ],
+      [
+        "stretnúť",
+        "stihnúť (to make it in time)",
+        "stihn**em**"
+      ],
+      [
+        "stretnúť",
+        "zabudnúť (to forget)",
+        "zabudn**em**"
+      ],
+      [
+        "vidieť",
+        "sedieť (to sit)",
+        "sed**ím**"
+      ],
+      [
+        "vidieť",
+        "letieť (to fly, to rush)",
+        "let**ím**"
+      ],
+      [
+        "vidieť",
+        "myslieť na (to think of)",
+        "mysl**ím** na"
+      ]
+    ],
+    "t": [
+      [
+        "spať",
+        "zaspať (გადაძინება, ჩაძინება)",
+        "zasp**ím**"
+      ],
+      [
+        "stretnúť",
+        "stihnúť (მისწრება, დროზე მისვლა)",
+        "stihn**em**"
+      ],
+      [
+        "stretnúť",
+        "zabudnúť (დავიწყება)",
+        "zabudn**em**"
+      ],
+      [
+        "vidieť",
+        "sedieť (ჯდომა)",
+        "sed**ím**"
+      ],
+      [
+        "vidieť",
+        "letieť (ფრენა, ჩქარობა)",
+        "let**ím**"
+      ],
+      [
+        "vidieť",
+        "myslieť na (ფიქრი რამეზე)",
+        "mysl**ím** na"
+      ]
+    ]
+  },
+  "u7-l4.6.examples": {
+    "en": [
+      "Will we catch the bus?",
+      "Where are you sitting?",
+      "What are you thinking about?"
+    ],
+    "t": [
+      "ავტობუსს მივუსწრებთ?",
+      "სად ზიხართ?",
+      "რაზე ფიქრობ?"
+    ]
+  },
+  "u7-l4.7.en": {
+    "en": "It's half past seven. Will we make the bus?",
+    "t": "რვის ნახევარია. ავტობუსს მივუსწრებთ?"
+  },
+  "u7-l4.8.en": {
+    "en": "Emma is sitting in the library.",
+    "t": "ემა ბიბლიოთეკაში ზის."
+  },
+  "u7-l4.9.prompt": {
+    "en": "I'm sitting in the library.",
+    "t": "ბიბლიოთეკაში ვზივარ."
+  },
+  "u7-l4.10.en": {
+    "en": "What are you thinking about, Lucia?",
+    "t": "რაზე ფიქრობ, ლუცია?"
+  },
+  "u7-l4.11.pairs": {
+    "en": [
+      "I sleep",
+      "I see",
+      "I'm sitting",
+      "I'll meet",
+      "I'll forget"
+    ],
+    "t": [
+      "მძინავს",
+      "ვხედავ",
+      "ვზივარ",
+      "შევხვდები",
+      "დამავიწყდება"
+    ]
+  },
+  "u7-l4.12.answers": {
+    "en": [
+      "Lucia is sitting and reading.",
+      "Lucia sits and reads."
+    ],
+    "t": [
+      "ლუცია ზის და კითხულობს."
+    ]
+  },
+  "u7-l4.12.distractors": {
+    "en": [
+      "sleeping",
+      "sees"
+    ],
+    "t": [
+      "სძინავს",
+      "ვზივარ",
+      "ხედავს"
+    ]
+  },
+  "u7-l4.13.en": {
+    "en": "Where shall we meet?",
+    "t": "სად შევხვდეთ?"
+  },
+  "u7-l5.titleEn": {
+    "en": "Yesterday I worked",
+    "t": "გუშინ ვმუშაობდი"
+  },
+  "u7-l5.0.title": {
+    "en": "The past tense: -l, -la, -li",
+    "t": "წარსული დრო: -l, -la, -li"
+  },
+  "u7-l5.0.body": {
+    "en": [
+      "To talk about the past, take the infinitive, drop **-ť** and add **-l** (he), **-la** (she), **-lo** (it) or **-li** (they, any gender).",
+      "So the past form shows who did it: Tomáš robi**l**, Lucia robi**la**. **včera** = yesterday."
+    ],
+    "t": [
+      "წარსულზე სალაპარაკოდ აიღეთ ზმნის საწყისი ფორმა, მოაშორეთ **-ť** და დაუმატეთ **-l** (ის, კაცი), **-la** (ის, ქალი), **-lo** (ის, საშუალო სქესი) ან **-li** (ისინი, ნებისმიერი სქესი).",
+      "ქართულ ზმნაში ეს არ ჩანს, სლოვაკურ წარსულ დროში კი ჩანს, ვინ გააკეთა, კაცმა თუ ქალმა: Tomáš robi**l**, Lucia robi**la**. **včera** = გუშინ."
+    ]
+  },
+  "u7-l5.0.table.head": {
+    "en": [
+      "",
+      "he",
+      "she",
+      "they"
+    ],
+    "t": [
+      "",
+      "ის (კაცი)",
+      "ის (ქალი)",
+      "ისინი"
+    ]
+  },
+  "u7-l5.0.table.rows": {
+    "en": [
+      [
+        "robiť",
+        "robi**l**",
+        "robi**la**",
+        "robi**li**"
+      ],
+      [
+        "čítať",
+        "číta**l**",
+        "číta**la**",
+        "číta**li**"
+      ],
+      [
+        "pracovať",
+        "pracova**l**",
+        "pracova**la**",
+        "pracova**li**"
+      ],
+      [
+        "spať",
+        "spa**l**",
+        "spa**la**",
+        "spa**li**"
+      ]
+    ],
+    "t": [
+      [
+        "robiť",
+        "robi**l**",
+        "robi**la**",
+        "robi**li**"
+      ],
+      [
+        "čítať",
+        "číta**l**",
+        "číta**la**",
+        "číta**li**"
+      ],
+      [
+        "pracovať",
+        "pracova**l**",
+        "pracova**la**",
+        "pracova**li**"
+      ],
+      [
+        "spať",
+        "spa**l**",
+        "spa**la**",
+        "spa**li**"
+      ]
+    ]
+  },
+  "u7-l5.0.examples": {
+    "en": [
+      "Yesterday Tomáš worked.",
+      "Lucia read a book.",
+      "Emma and Lucia slept."
+    ],
+    "t": [
+      "გუშინ ტომაში მუშაობდა.",
+      "ლუცია წიგნს კითხულობდა.",
+      "ემას და ლუციას ეძინათ."
+    ]
+  },
+  "u7-l5.1.title": {
+    "en": "I and you: add som, si, sme, ste",
+    "t": "მე და შენ: დაუმატეთ som, si, sme, ste"
+  },
+  "u7-l5.1.body": {
+    "en": [
+      "With **ja, ty, my, vy**, add the short form of **byť**: som, si, sme, ste. With **on, ona, oni**, add nothing.",
+      "This little word goes second in the sentence: Včera **som** pracovala. Pracovala **som** doma.",
+      "Formal **vy** always takes **-li**, even for one person: Čo **ste** robili, pani Horváthová?"
+    ],
+    "t": [
+      "**ja, ty, my, vy** პირებთან დაუმატეთ **byť**-ის (ყოფნა) მოკლე ფორმა: som, si, sme, ste. **on, ona, oni** პირებთან არაფერი ემატება.",
+      "ეს პატარა სიტყვა წინადადებაში მეორე ადგილზე დგას: Včera **som** pracovala. Pracovala **som** doma.",
+      "თავაზიან **vy**-სთან (თქვენ) ყოველთვის **-li** იწერება, თუნდაც ერთ ადამიანს მიმართავდეთ: Čo **ste** robili, pani Horváthová?"
+    ]
+  },
+  "u7-l5.1.table.head": {
+    "en": [
+      "",
+      "past"
+    ],
+    "t": [
+      "",
+      "წარსული დრო"
+    ]
+  },
+  "u7-l5.1.table.rows": {
+    "en": [
+      [
+        "ja",
+        "robil / robila **som**"
+      ],
+      [
+        "ty",
+        "robil / robila **si**"
+      ],
+      [
+        "on / ona",
+        "robil / robila"
+      ],
+      [
+        "my",
+        "robili **sme**"
+      ],
+      [
+        "vy",
+        "robili **ste**"
+      ],
+      [
+        "oni",
+        "robili"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "robil / robila **som**"
+      ],
+      [
+        "ty",
+        "robil / robila **si**"
+      ],
+      [
+        "on / ona",
+        "robil / robila"
+      ],
+      [
+        "my",
+        "robili **sme**"
+      ],
+      [
+        "vy",
+        "robili **ste**"
+      ],
+      [
+        "oni",
+        "robili"
+      ]
+    ]
+  },
+  "u7-l5.1.examples": {
+    "en": [
+      "I worked yesterday. (woman)",
+      "What did you do? (to a man)"
+    ],
+    "t": [
+      "გუშინ ვმუშაობდი. (ქალი)",
+      "რას აკეთებდი? (კაცს)"
+    ]
+  },
+  "u7-l5.2.en": {
+    "en": "Yesterday Lucia wrote a paper.",
+    "t": "გუშინ ლუცია რეფერატს წერდა."
+  },
+  "u7-l5.3.question": {
+    "en": "Emma wants to say “I studied yesterday.” Which is right?",
+    "t": "ემას სურს თქვას: „გუშინ ვსწავლობდი“. რომელია სწორი?"
+  },
+  "u7-l5.4.prompt": {
+    "en": "I worked yesterday. (woman speaking)",
+    "t": "გუშინ ვმუშაობდი. (ამბობს ქალი)"
+  },
+  "u7-l5.5.en": {
+    "en": "Emma, what did you do yesterday?",
+    "t": "ემა, რას აკეთებდი გუშინ?"
+  },
+  "u7-l5.6.en": {
+    "en": "Lucia and Emma had breakfast at eight.",
+    "t": "ლუციამ და ემამ რვა საათზე ისაუზმეს."
+  },
+  "u7-l5.7.title": {
+    "en": "Irregular past forms",
+    "t": "არაწესიერი წარსულის ფორმები"
+  },
+  "u7-l5.7.body": {
+    "en": [
+      "A few common verbs change more. Learn them as words.",
+      "Verbs in **-ieť** change ie to e: vid**ie**ť → vid**e**l. Verbs like stretnúť swap **-núť** for **-ol / -la**: stihnúť → stihol, stihla; zabudnúť → zabudol, zabudla."
+    ],
+    "t": [
+      "რამდენიმე ხშირი ზმნა უფრო მეტად იცვლება. ისინი ცალკე სიტყვებად დაიმახსოვრეთ.",
+      "ზმნები, რომლებიც **-ieť**-ით ბოლოვდება, ie-ს e-თი ცვლის: vid**ie**ť → vid**e**l. stretnúť-ის მსგავსი ზმნები **-núť**-ის ნაცვლად იღებს **-ol / -la**: stihnúť → stihol, stihla; zabudnúť → zabudol, zabudla."
+    ]
+  },
+  "u7-l5.7.table.head": {
+    "en": [
+      "",
+      "he",
+      "she"
+    ],
+    "t": [
+      "",
+      "ის (კაცი)",
+      "ის (ქალი)"
+    ]
+  },
+  "u7-l5.7.table.rows": {
+    "en": [
+      [
+        "byť",
+        "bol",
+        "bola"
+      ],
+      [
+        "ísť",
+        "išiel",
+        "išla"
+      ],
+      [
+        "prísť",
+        "prišiel",
+        "prišla"
+      ],
+      [
+        "jesť",
+        "jedol",
+        "jedla"
+      ],
+      [
+        "môcť",
+        "mohol",
+        "mohla"
+      ],
+      [
+        "stretnúť",
+        "stretol",
+        "stretla"
+      ],
+      [
+        "vidieť",
+        "videl",
+        "videla"
+      ]
+    ],
+    "t": [
+      [
+        "byť",
+        "bol",
+        "bola"
+      ],
+      [
+        "ísť",
+        "išiel",
+        "išla"
+      ],
+      [
+        "prísť",
+        "prišiel",
+        "prišla"
+      ],
+      [
+        "jesť",
+        "jedol",
+        "jedla"
+      ],
+      [
+        "môcť",
+        "mohol",
+        "mohla"
+      ],
+      [
+        "stretnúť",
+        "stretol",
+        "stretla"
+      ],
+      [
+        "vidieť",
+        "videl",
+        "videla"
+      ]
+    ]
+  },
+  "u7-l5.7.examples": {
+    "en": [
+      "I was at home yesterday. (woman)",
+      "Lucia went to a lecture.",
+      "I met Marek. (man)"
+    ],
+    "t": [
+      "გუშინ სახლში ვიყავი. (ქალი)",
+      "ლუცია ლექციაზე წავიდა.",
+      "მარეკს შევხვდი. (კაცი)"
+    ]
+  },
+  "u7-l5.8.en": {
+    "en": "Emma was at the lecture.",
+    "t": "ემა ლექციაზე იყო."
+  },
+  "u7-l5.9.en": {
+    "en": "Tomáš met Emma yesterday.",
+    "t": "გუშინ ტომაში ემას შეხვდა."
+  },
+  "u7-l5.10.prompt": {
+    "en": "What did you do yesterday? (to a man)",
+    "t": "რას აკეთებდი გუშინ? (კაცს)"
+  },
+  "u7-l5.11.question": {
+    "en": "Lucia says this. What did she do?",
+    "t": "ლუცია ამას ამბობს. რა გააკეთა?"
+  },
+  "u7-l5.11.options": {
+    "en": [
+      "She had soup yesterday.",
+      "She's eating soup now.",
+      "She'll have soup tomorrow."
+    ],
+    "t": [
+      "გუშინ წვნიანი ჭამა.",
+      "ახლა წვნიანს ჭამს.",
+      "ხვალ წვნიანს შეჭამს."
+    ]
+  },
+  "u7-l5.12.answers": {
+    "en": [
+      "I went to the seminar.",
+      "I went to a seminar."
+    ],
+    "t": [
+      "სემინარზე წავედი.",
+      "წავედი სემინარზე.",
+      "მე სემინარზე წავედი."
+    ]
+  },
+  "u7-l5.12.distractors": {
+    "en": [
+      "go",
+      "lecture"
+    ],
+    "t": [
+      "მივდივარ",
+      "ლექციაზე",
+      "წავიდა"
+    ]
+  },
+  "u7-l5.13.en": {
+    "en": "Mr Kováč, where were you?",
+    "t": "ბატონო კოვაჩ, სად იყავით?"
+  },
+  "u7-l5.14.en": {
+    "en": "We were at home yesterday.",
+    "t": "გუშინ სახლში ვიყავით."
+  },
+  "u7-l6.titleEn": {
+    "en": "Not yet!",
+    "t": "ჯერ არა!"
+  },
+  "u7-l6.0.title": {
+    "en": "Didn't: ne- + past form",
+    "t": "„არ“ წარსულში: ne- + წარსულის ფორმა"
+  },
+  "u7-l6.0.body": {
+    "en": [
+      "To say you didn't do something, add **ne-** to the past form, just like in the present: **ne**robil, **ne**bola, **ne**išli.",
+      "som, si, sme, ste still come second: **Nebola som** doma. Včera **som nebola** doma."
+    ],
+    "t": [
+      "იმის სათქმელად, რომ რაღაც არ გააკეთეთ, წარსულის ფორმას წინ დაურთეთ **ne-**, ზუსტად ისე, როგორც აწმყოში: **ne**robil, **ne**bola, **ne**išli. ne ზმნასთან ერთად, ერთ სიტყვად იწერება.",
+      "som, si, sme, ste კვლავ მეორე ადგილზე დგას: **Nebola som** doma. Včera **som nebola** doma."
+    ]
+  },
+  "u7-l6.0.table.head": {
+    "en": [
+      "did",
+      "didn't"
+    ],
+    "t": [
+      "გავაკეთე",
+      "არ გავაკეთე"
+    ]
+  },
+  "u7-l6.0.table.rows": {
+    "en": [
+      [
+        "Bol som doma.",
+        "**Ne**bol som doma."
+      ],
+      [
+        "Jedla som.",
+        "**Ne**jedla som."
+      ],
+      [
+        "Stihli sme autobus.",
+        "**Ne**stihli sme autobus."
+      ],
+      [
+        "Lucia spala.",
+        "Lucia **ne**spala."
+      ]
+    ],
+    "t": [
+      [
+        "Bol som doma.",
+        "**Ne**bol som doma."
+      ],
+      [
+        "Jedla som.",
+        "**Ne**jedla som."
+      ],
+      [
+        "Stihli sme autobus.",
+        "**Ne**stihli sme autobus."
+      ],
+      [
+        "Lucia spala.",
+        "Lucia **ne**spala."
+      ]
+    ]
+  },
+  "u7-l6.0.examples": {
+    "en": [
+      "I missed the bus. (man)",
+      "Sorry, I couldn't come. (woman)"
+    ],
+    "t": [
+      "ავტობუსს ვერ მივუსწარი. (კაცი)",
+      "მაპატიეთ, ვერ მოვედი. (ქალი)"
+    ]
+  },
+  "u7-l6.1.en": {
+    "en": "Emma wasn't at the lecture yesterday.",
+    "t": "ემა გუშინ ლექციაზე არ იყო."
+  },
+  "u7-l6.2.question": {
+    "en": "Tomáš missed the bus. What does he say?",
+    "t": "ტომაშმა ავტობუსს ვერ მიუსწრო. რას ამბობს?"
+  },
+  "u7-l6.3.prompt": {
+    "en": "I didn't have breakfast today. (man speaking)",
+    "t": "დღეს არ მისაუზმია. (ამბობს კაცი)"
+  },
+  "u7-l6.4.en": {
+    "en": "Sorry, I overslept.",
+    "t": "მაპატიეთ, გადამეძინა."
+  },
+  "u7-l6.5.title": {
+    "en": "ešte and už",
+    "t": "ešte და už"
+  },
+  "u7-l6.5.body": {
+    "en": [
+      "**už** = already, **ešte** = still. With a “not” they flip: **ešte nie** = not yet, **už nie** = not any more."
+    ],
+    "t": [
+      "**už** = უკვე, **ešte** = ჯერ კიდევ. უარყოფასთან კი მნიშვნელობა იცვლება: **ešte nie** = ჯერ არა, **už nie** = აღარ."
+    ]
+  },
+  "u7-l6.5.table.head": {
+    "en": [
+      "",
+      "Slovak",
+      "English"
+    ],
+    "t": [
+      "",
+      "სლოვაკურად",
+      "ქართულად"
+    ]
+  },
+  "u7-l6.5.table.rows": {
+    "en": [
+      [
+        "ešte + yes",
+        "Lucia **ešte** spí.",
+        "Lucia is still asleep."
+      ],
+      [
+        "už + no",
+        "Lucia **už ne**spí.",
+        "Lucia is no longer asleep."
+      ],
+      [
+        "už + yes",
+        "**Už** som jedla.",
+        "I've already eaten."
+      ],
+      [
+        "ešte + no",
+        "**Ešte** som **ne**jedla.",
+        "I haven't eaten yet."
+      ]
+    ],
+    "t": [
+      [
+        "ešte + დიახ",
+        "Lucia **ešte** spí.",
+        "ლუციას ჯერ კიდევ სძინავს."
+      ],
+      [
+        "už + არა",
+        "Lucia **už ne**spí.",
+        "ლუციას აღარ სძინავს."
+      ],
+      [
+        "už + დიახ",
+        "**Už** som jedla.",
+        "უკვე ვჭამე."
+      ],
+      [
+        "ešte + არა",
+        "**Ešte** som **ne**jedla.",
+        "ჯერ არ მიჭამია."
+      ]
+    ]
+  },
+  "u7-l6.5.examples": {
+    "en": [
+      "It's already eight!",
+      "Not yet."
+    ],
+    "t": [
+      "უკვე რვა საათია!",
+      "ჯერ არა."
+    ]
+  },
+  "u7-l6.6.en": {
+    "en": "It's eight o'clock and Lucia is still asleep.",
+    "t": "რვა საათია, ლუციას კი ჯერ კიდევ სძინავს."
+  },
+  "u7-l6.7.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "u7-l6.7.options": {
+    "en": [
+      "Not yet.",
+      "Not any more.",
+      "Already."
+    ],
+    "t": [
+      "ჯერ არა.",
+      "აღარ.",
+      "უკვე."
+    ]
+  },
+  "u7-l6.8.en": {
+    "en": "Have you had lunch? — No, I haven't had lunch yet.",
+    "t": "ისადილე? — არა, ჯერ არ მისადილია."
+  },
+  "u7-l6.9.prompt": {
+    "en": "I've already eaten. (woman speaking)",
+    "t": "უკვე ვჭამე. (ამბობს ქალი)"
+  },
+  "u7-l6.10.answers": {
+    "en": [
+      "Tomáš isn't asleep any more.",
+      "Tomáš is not asleep any more.",
+      "Tomáš isn't asleep anymore.",
+      "Tomáš isn't sleeping any more.",
+      "Tomáš is no longer asleep."
+    ],
+    "t": [
+      "ტომაშს აღარ სძინავს.",
+      "აღარ სძინავს ტომაშს.",
+      "ტომაშს უკვე აღარ სძინავს."
+    ]
+  },
+  "u7-l6.10.distractors": {
+    "en": [
+      "still",
+      "yet"
+    ],
+    "t": [
+      "ჯერ",
+      "ისევ",
+      "ტომაში"
+    ]
+  },
+  "u7-l6.11.prompt": {
+    "en": "Were you at the seminar? (to a woman, informal)",
+    "t": "სემინარზე იყავი? (ქალს, შენ)"
+  },
+  "u7-l6.12.en": {
+    "en": "Lucia, have you been to the library yet? — Not yet.",
+    "t": "ლუცია, უკვე იყავი ბიბლიოთეკაში? — ჯერ არა."
+  },
+  "u7-l6.13.en": {
+    "en": "It's already eight!",
+    "t": "უკვე რვა საათია!"
+  },
+  "u7-l7.titleEn": {
+    "en": "Review",
+    "t": "გამეორება"
+  },
+  "u7-l7.0.pairs": {
+    "en": [
+      "It's 7:30.",
+      "It's 8:15.",
+      "It's 8:45.",
+      "It's 2:00.",
+      "It's 5:00."
+    ],
+    "t": [
+      "ახლა 7:30-ია.",
+      "ახლა 8:15-ია.",
+      "ახლა 8:45-ია.",
+      "ახლა 2:00-ია.",
+      "ახლა 5:00-ია."
+    ]
+  },
+  "u7-l7.1.en": {
+    "en": "The lecture is at half past nine.",
+    "t": "ლექცია ათის ნახევარზეა."
+  },
+  "u7-l7.2.prompt": {
+    "en": "I overslept! (woman speaking)",
+    "t": "გადამეძინა! (ამბობს ქალი)"
+  },
+  "u7-l7.3.question": {
+    "en": "Lucia hasn't had breakfast yet. What does she say?",
+    "t": "ლუციას ჯერ არ უსაუზმია. რას ამბობს?"
+  },
+  "u7-l7.4.prompt": {
+    "en": "I have an exam tomorrow.",
+    "t": "ხვალ გამოცდა მაქვს."
+  },
+  "u7-l7.5.en": {
+    "en": "Emma and Lucia are still asleep.",
+    "t": "ემას და ლუციას ჯერ კიდევ სძინავთ."
+  },
+  "u7-l7.6.prompt": {
+    "en": "We'll meet at seven.",
+    "t": "შვიდ საათზე შევხვდებით."
+  },
+  "u7-l7.7.en": {
+    "en": "Yesterday Emma and Lucia sat in the library.",
+    "t": "გუშინ ემა და ლუცია ბიბლიოთეკაში ისხდნენ."
+  },
+  "u7-l7.8.question": {
+    "en": "It's 12:30. What do you say?",
+    "t": "ახლა 12:30-ია. როგორ იტყვით?"
+  },
+  "u7-l7.9.answers": {
+    "en": [
+      "First I showered, then I had breakfast.",
+      "First I took a shower, then I had breakfast."
+    ],
+    "t": [
+      "ჯერ შხაპი მივიღე, მერე ვისაუზმე.",
+      "ჯერ მივიღე შხაპი, მერე ვისაუზმე.",
+      "მე ჯერ შხაპი მივიღე, მერე ვისაუზმე."
+    ]
+  },
+  "u7-l7.9.distractors": {
+    "en": [
+      "dinner",
+      "lunch"
+    ],
+    "t": [
+      "ვისადილე",
+      "ვივახშმე",
+      "შხაპს"
+    ]
+  },
+  "u7-l7.10.en": {
+    "en": "Mr Kováč, have you seen Emma?",
+    "t": "ბატონო კოვაჩ, ემა ხომ არ გინახავთ?"
+  },
+  "u7-l7.11.en": {
+    "en": "I wasn't at the seminar yesterday.",
+    "t": "გუშინ სემინარზე არ ვიყავი."
+  },
+  "u7-l7.12.prompt": {
+    "en": "Did you go to the lecture? (to a man, informal)",
+    "t": "ლექციაზე წახვედი? (კაცს, შენ)"
+  },
+  "u7-l7.13.en": {
+    "en": "Tomáš isn't asleep any more, he's already having breakfast.",
+    "t": "ტომაშს აღარ სძინავს, უკვე საუზმობს."
+  },
+  "u7-l7.14.question": {
+    "en": "Emma says this. What happened?",
+    "t": "ემა ამას ამბობს. რა მოხდა?"
+  },
+  "u7-l7.14.options": {
+    "en": [
+      "She forgot her book.",
+      "She's reading her book.",
+      "She wrote a book."
+    ],
+    "t": [
+      "წიგნი დაავიწყდა.",
+      "თავის წიგნს კითხულობს.",
+      "წიგნი დაწერა."
+    ]
+  },
+  "u7-l7.15.en": {
+    "en": "Yesterday we were in the library.",
+    "t": "გუშინ ბიბლიოთეკაში ვიყავით."
+  }
+}

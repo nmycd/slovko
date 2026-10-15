@@ -1,0 +1,1073 @@
+{
+  "u10.titleEn": {
+    "en": "Newspapers",
+    "t": "გაზეთები"
+  },
+  "u10.topics": {
+    "en": [
+      "Newspapers and news",
+      "Weather",
+      "Small ads",
+      "Review"
+    ],
+    "t": [
+      "გაზეთები და ახალი ამბები",
+      "ამინდი",
+      "განცხადებები",
+      "გამეორება"
+    ]
+  },
+  "u10.grammar": {
+    "en": [
+      "The cases at a glance",
+      "Present vs past",
+      "Review of A1"
+    ],
+    "t": [
+      "ბრუნვები ერთი შეხედვით",
+      "აწმყო და წარსული",
+      "A1 დონის გამეორება"
+    ]
+  },
+  "u10-l1.titleEn": {
+    "en": "The newspaper",
+    "t": "გაზეთი"
+  },
+  "u10-l1.0.en": {
+    "en": "newspaper",
+    "t": "გაზეთი"
+  },
+  "u10-l1.0.note": {
+    "en": "Always plural in Slovak: Noviny **sú** tu. In the newspaper = **v novinách**.",
+    "t": "სლოვაკურში ეს სიტყვა ყოველთვის მრავლობით რიცხვშია: Noviny **sú** tu. (= გაზეთი აქ არის.) გაზეთში = **v novinách**."
+  },
+  "u10-l1.1.en": {
+    "en": "article",
+    "t": "სტატია"
+  },
+  "u10-l1.1.note": {
+    "en": "Plural: články.",
+    "t": "მრავლობითი რიცხვი: články."
+  },
+  "u10-l1.2.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "u10-l1.2.options": {
+    "en": [
+      "newspaper",
+      "article",
+      "letter"
+    ],
+    "t": [
+      "გაზეთი",
+      "სტატია",
+      "წერილი"
+    ]
+  },
+  "u10-l1.3.en": {
+    "en": "headline",
+    "t": "სათაური"
+  },
+  "u10-l1.3.note": {
+    "en": "The big title over an article. **zaujímavý** = interesting: zaujímavý titulok.",
+    "t": "დიდი სათაური სტატიის თავზე. **zaujímavý** = საინტერესო: zaujímavý titulok (საინტერესო სათაური)."
+  },
+  "u10-l1.4.en": {
+    "en": "the news",
+    "t": "ახალი ამბები"
+  },
+  "u10-l1.4.note": {
+    "en": "One news item is **správa**. Správy are also the news on TV and radio.",
+    "t": "ერთი ახალი ამბავი არის **správa**. Správy ასევე ჰქვია ტელევიზიისა და რადიოს ახალ ამბებს."
+  },
+  "u10-l1.5.en": {
+    "en": "magazine",
+    "t": "ჟურნალი"
+  },
+  "u10-l1.6.pairs": {
+    "en": [
+      "newspaper",
+      "article",
+      "headline",
+      "the news",
+      "magazine"
+    ],
+    "t": [
+      "გაზეთი",
+      "სტატია",
+      "სათაური",
+      "ახალი ამბები",
+      "ჟურნალი"
+    ]
+  },
+  "u10-l1.7.en": {
+    "en": "Emma is reading a Slovak newspaper.",
+    "t": "ემა სლოვაკურ გაზეთს კითხულობს."
+  },
+  "u10-l1.7.note": {
+    "en": "Noviny is plural, so the adjective is plural too: slovensk**é** noviny.",
+    "t": "Noviny მრავლობით რიცხვშია, ამიტომ ზედსართავი სახელიც მრავლობით რიცხვშია: slovensk**é** noviny."
+  },
+  "u10-l1.8.en": {
+    "en": "Emma is reading a Slovak newspaper.",
+    "t": "ემა სლოვაკურ გაზეთს კითხულობს."
+  },
+  "u10-l1.9.en": {
+    "en": "sport and culture",
+    "t": "სპორტი და კულტურა"
+  },
+  "u10-l1.9.note": {
+    "en": "Two sections of every newspaper. An article about sport: článok o **športe**; about culture: o **kultúre**.",
+    "t": "ყველა გაზეთის ორი რუბრიკა. სტატია სპორტზე: článok o **športe**; კულტურაზე: o **kultúre**. o (შესახებ, -ზე) + lokál (ადგილობითი ბრუნვა)."
+  },
+  "u10-l1.10.question": {
+    "en": "How do you say “an article about culture”?",
+    "t": "როგორ ითქმის „სტატია კულტურაზე“?"
+  },
+  "u10-l1.11.en": {
+    "en": "Lucia is in the paper!",
+    "t": "ლუცია გაზეთშია!"
+  },
+  "u10-l1.12.prompt": {
+    "en": "Emma is reading an article about Lucia.",
+    "t": "ემა ლუციაზე სტატიას კითხულობს."
+  },
+  "u10-l1.13.en": {
+    "en": "The headline is very interesting.",
+    "t": "სათაური ძალიან საინტერესოა."
+  },
+  "u10-l1.14.answers": {
+    "en": [
+      "Tomáš doesn't read newspapers."
+    ],
+    "t": [
+      "ტომაში გაზეთებს არ კითხულობს.",
+      "ტომაში არ კითხულობს გაზეთებს."
+    ]
+  },
+  "u10-l1.14.distractors": {
+    "en": [
+      "magazines",
+      "reads"
+    ],
+    "t": [
+      "ჟურნალებს",
+      "ვკითხულობ"
+    ]
+  },
+  "u10-l1.15.en": {
+    "en": "I'm reading the newspaper.",
+    "t": "გაზეთს ვკითხულობ."
+  },
+  "u10-l2.titleEn": {
+    "en": "Weather and small ads",
+    "t": "ამინდი და განცხადებები"
+  },
+  "u10-l2.0.en": {
+    "en": "weather",
+    "t": "ამინდი"
+  },
+  "u10-l2.0.note": {
+    "en": "Aké je počasie? = What's the weather like? It's neuter, so in the past: Aké **bolo** počasie?",
+    "t": "Aké je počasie? = როგორი ამინდია? Počasie საშუალო სქესისაა, ამიტომ წარსულში: Aké **bolo** počasie? (= როგორი ამინდი იყო?)"
+  },
+  "u10-l2.1.en": {
+    "en": "It's sunny.",
+    "t": "მზიანი ამინდია."
+  },
+  "u10-l2.2.en": {
+    "en": "It's cloudy.",
+    "t": "მოღრუბლულია."
+  },
+  "u10-l2.3.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "u10-l2.3.options": {
+    "en": [
+      "It's sunny.",
+      "It's cold.",
+      "It's cloudy."
+    ],
+    "t": [
+      "მზიანი ამინდია.",
+      "ცივა.",
+      "მოღრუბლულია."
+    ]
+  },
+  "u10-l2.4.en": {
+    "en": "It's raining.",
+    "t": "წვიმს."
+  },
+  "u10-l2.4.note": {
+    "en": "Rain is **dážď**, snow is **sneh**. When it snows: **Sneží.**",
+    "t": "წვიმა არის **dážď**, თოვლი — **sneh**. როცა თოვს: **Sneží.**"
+  },
+  "u10-l2.5.en": {
+    "en": "It's warm. It's cold.",
+    "t": "თბილა. ცივა."
+  },
+  "u10-l2.5.note": {
+    "en": "Zima also means winter. In the mountains, **v Tatrách** (in the Tatras), it's often cold.",
+    "t": "Zima ასევე ნიშნავს „ზამთარს“. მთებში, **v Tatrách** (ტატრებში), ხშირად ცივა."
+  },
+  "u10-l2.6.pairs": {
+    "en": [
+      "It's sunny.",
+      "It's cloudy.",
+      "It's raining.",
+      "It's warm.",
+      "It's cold."
+    ],
+    "t": [
+      "მზიანი ამინდია.",
+      "მოღრუბლულია.",
+      "წვიმს.",
+      "თბილა.",
+      "ცივა."
+    ]
+  },
+  "u10-l2.7.en": {
+    "en": "Today it's cloudy and raining.",
+    "t": "დღეს მოღრუბლულია და წვიმს."
+  },
+  "u10-l2.8.answers": {
+    "en": [
+      "It's sunny in Košice.",
+      "In Košice it's sunny."
+    ],
+    "t": [
+      "კოშიცეში მზიანი ამინდია.",
+      "მზიანი ამინდია კოშიცეში."
+    ]
+  },
+  "u10-l2.8.distractors": {
+    "en": [
+      "cloudy",
+      "raining"
+    ],
+    "t": [
+      "მოღრუბლულია",
+      "წვიმს"
+    ]
+  },
+  "u10-l2.9.en": {
+    "en": "It's warm in Bratislava, but it's cold in the Tatras.",
+    "t": "ბრატისლავაში თბილა, ტატრებში კი ცივა."
+  },
+  "u10-l2.10.en": {
+    "en": "small ad",
+    "t": "განცხადება"
+  },
+  "u10-l2.10.note": {
+    "en": "A short ad in the paper: someone sells, buys or looks for something.",
+    "t": "მოკლე განცხადება გაზეთში: ვიღაც რაღაცას ყიდის, ყიდულობს ან ეძებს."
+  },
+  "u10-l2.11.en": {
+    "en": "A company is looking for a programmer.",
+    "t": "ფირმა პროგრამისტს ეძებს."
+  },
+  "u10-l2.11.note": {
+    "en": "hľadať + accusative. A person gets **-a**: programátor**a**, kuchár**a**.",
+    "t": "hľadať + akuzatív (ბრალდებითი ბრუნვა). მამრობითი სქესის სიტყვა, რომელიც ადამიანს აღნიშნავს, იღებს **-a**-ს: programátor**a**, kuchár**a**."
+  },
+  "u10-l2.12.en": {
+    "en": "A restaurant is looking for a cook.",
+    "t": "რესტორანი მზარეულს ეძებს."
+  },
+  "u10-l2.13.prompt": {
+    "en": "Tomáš is looking for a new flat.",
+    "t": "ტომაში ახალ ბინას ეძებს."
+  },
+  "u10-l2.14.question": {
+    "en": "You want to know the weather. What do you ask?",
+    "t": "გსურთ, ამინდი გაიგოთ. რას იკითხავთ?"
+  },
+  "u10-l2.15.en": {
+    "en": "What's the weather like today?",
+    "t": "როგორი ამინდია დღეს?"
+  },
+  "u10-l3.titleEn": {
+    "en": "The cases at a glance",
+    "t": "ბრუნვები ერთი შეხედვით"
+  },
+  "u10-l3.0.title": {
+    "en": "Four cases, one table",
+    "t": "ოთხი ბრუნვა, ერთი ცხრილი"
+  },
+  "u10-l3.0.body": {
+    "en": [
+      "You have now met four cases. The ending tells you what job a noun does in the sentence.",
+      "Nominative is the subject. Accusative is the object (what you read, buy, see). Instrumental goes with **s** (with). Locative always comes after a preposition like **o**, **v** or **na**."
+    ],
+    "t": [
+      "თქვენ უკვე იცნობთ ოთხ ბრუნვას. დაბოლოება გვიჩვენებს, რა როლი აქვს არსებით სახელს წინადადებაში, ისევე როგორც ქართულში.",
+      "Nominatív (სახელობითი ბრუნვა) ქვემდებარეა. Akuzatív (ბრალდებითი) ობიექტია (რასაც კითხულობთ, ყიდულობთ, ხედავთ). Inštrumentál (მოქმედებითი) მოდის **s**-ის (= „-თან ერთად“) შემდეგ. Lokál (ადგილობითი) ყოველთვის წინდებულის (სახელის წინ მდგომი პატარა სიტყვის) შემდეგ მოდის: **o**, **v**, **na**."
+    ]
+  },
+  "u10-l3.0.table.head": {
+    "en": [
+      "case",
+      "question",
+      "feminine",
+      "masculine"
+    ],
+    "t": [
+      "ბრუნვა",
+      "კითხვა",
+      "მდედრობითი",
+      "მამრობითი"
+    ]
+  },
+  "u10-l3.0.table.rows": {
+    "en": [
+      [
+        "nominative",
+        "kto? čo?",
+        "kniha",
+        "kamarát"
+      ],
+      [
+        "accusative",
+        "koho? čo?",
+        "knih**u**",
+        "kamarát**a**"
+      ],
+      [
+        "instrumental",
+        "s kým? s čím?",
+        "knih**ou**",
+        "kamarát**om**"
+      ],
+      [
+        "locative",
+        "o kom? o čom?",
+        "knih**e**",
+        "kamarát**ovi**"
+      ]
+    ],
+    "t": [
+      [
+        "nominatív (სახელობითი)",
+        "kto? čo?",
+        "kniha",
+        "kamarát"
+      ],
+      [
+        "akuzatív (ბრალდებითი)",
+        "koho? čo?",
+        "knih**u**",
+        "kamarát**a**"
+      ],
+      [
+        "inštrumentál (მოქმედებითი)",
+        "s kým? s čím?",
+        "knih**ou**",
+        "kamarát**om**"
+      ],
+      [
+        "lokál (ადგილობითი)",
+        "o kom? o čom?",
+        "knih**e**",
+        "kamarát**ovi**"
+      ]
+    ]
+  },
+  "u10-l3.0.examples": {
+    "en": [
+      "Emma is reading a book.",
+      "Lucia is talking to a friend.",
+      "I'm writing an article about a book."
+    ],
+    "t": [
+      "ემა წიგნს კითხულობს.",
+      "ლუცია მეგობარს ესაუბრება.",
+      "წიგნზე სტატიას ვწერ."
+    ]
+  },
+  "u10-l3.1.en": {
+    "en": "Emma is looking for a book about Slovakia.",
+    "t": "ემა სლოვაკეთზე წიგნს ეძებს."
+  },
+  "u10-l3.2.en": {
+    "en": "Lucia is going to the cinema with Tomáš.",
+    "t": "ლუცია ტომაშთან ერთად კინოში მიდის."
+  },
+  "u10-l3.3.pairs": {
+    "en": [
+      "Lucia is here.",
+      "for Lucia",
+      "with Lucia",
+      "about Lucia"
+    ],
+    "t": [
+      "ლუცია აქ არის.",
+      "ლუციასთვის",
+      "ლუციასთან ერთად",
+      "ლუციას შესახებ"
+    ]
+  },
+  "u10-l3.4.question": {
+    "en": "Which question does the locative answer?",
+    "t": "რომელ კითხვას პასუხობს lokál (ადგილობითი ბრუნვა)?"
+  },
+  "u10-l3.5.title": {
+    "en": "Prepositions choose the case",
+    "t": "წინდებული ირჩევს ბრუნვას"
+  },
+  "u10-l3.5.body": {
+    "en": [
+      "After a preposition the case is fixed, so learn each preposition together with its case.",
+      "Watch **na**: na pošt**e** answers “where?” (locative), na pošt**u** answers “where to?” (accusative).",
+      "**do** (to, into) and **z** (from) take yet another case. For now, learn them in phrases: do kina, do práce, z Írska."
+    ],
+    "t": [
+      "წინდებული ქართული თანდებულის (-ში, -ზე, -თან) მსგავსია, ოღონდ სახელის წინ დგას. მის შემდეგ ბრუნვა მყარია, ამიტომ ყოველი წინდებული თავის ბრუნვასთან ერთად ისწავლეთ.",
+      "ყურადღება მიაქციეთ **na**-ს: na pošt**e** პასუხობს კითხვას „სად?“ (lokál, ადგილობითი), na pošt**u** კი — „საით?“ (akuzatív, ბრალდებითი). ქართულში ორივეგან „ფოსტაში“ ვამბობთ.",
+      "**do** (-ში, -მდე) და **z** (-დან) კიდევ სხვა ბრუნვას მოითხოვს. ჯერჯერობით ისინი ფრაზებად ისწავლეთ: do kina, do práce, z Írska."
+    ]
+  },
+  "u10-l3.5.table.head": {
+    "en": [
+      "preposition",
+      "case",
+      "example"
+    ],
+    "t": [
+      "წინდებული",
+      "ბრუნვა",
+      "მაგალითი"
+    ]
+  },
+  "u10-l3.5.table.rows": {
+    "en": [
+      [
+        "v, na (where?)",
+        "locative",
+        "v mest**e**, na pošt**e**"
+      ],
+      [
+        "o (about)",
+        "locative",
+        "o Marek**ovi**"
+      ],
+      [
+        "na (where to?)",
+        "accusative",
+        "na pošt**u**"
+      ],
+      [
+        "pre (for)",
+        "accusative",
+        "pre Luci**u**"
+      ],
+      [
+        "s (with)",
+        "instrumental",
+        "s Tomáš**om**"
+      ],
+      [
+        "pred (in front of)",
+        "instrumental",
+        "pred dom**om**"
+      ]
+    ],
+    "t": [
+      [
+        "v, na (სად?)",
+        "lokál (ადგილობითი)",
+        "v mest**e**, na pošt**e**"
+      ],
+      [
+        "o (შესახებ)",
+        "lokál (ადგილობითი)",
+        "o Marek**ovi**"
+      ],
+      [
+        "na (საით?)",
+        "akuzatív (ბრალდებითი)",
+        "na pošt**u**"
+      ],
+      [
+        "pre (-თვის)",
+        "akuzatív (ბრალდებითი)",
+        "pre Luci**u**"
+      ],
+      [
+        "s (-თან ერთად)",
+        "inštrumentál (მოქმედებითი)",
+        "s Tomáš**om**"
+      ],
+      [
+        "pred (-ის წინ)",
+        "inštrumentál (მოქმედებითი)",
+        "pred dom**om**"
+      ]
+    ]
+  },
+  "u10-l3.5.examples": {
+    "en": [
+      "Lucia is at the post office.",
+      "Emma is going to the post office.",
+      "I drink coffee with milk."
+    ],
+    "t": [
+      "ლუცია ფოსტაშია.",
+      "ემა ფოსტაში მიდის.",
+      "ყავას რძით ვსვამ."
+    ]
+  },
+  "u10-l3.6.en": {
+    "en": "Marek works in a restaurant.",
+    "t": "მარეკი რესტორანში მუშაობს."
+  },
+  "u10-l3.7.en": {
+    "en": "I'm going to the university now.",
+    "t": "ახლა უნივერსიტეტში მივდივარ."
+  },
+  "u10-l3.8.prompt": {
+    "en": "I'm writing an article about Bratislava.",
+    "t": "ბრატისლავაზე სტატიას ვწერ."
+  },
+  "u10-l3.9.en": {
+    "en": "Emma lives in the dorm with Lucia.",
+    "t": "ემა ლუციასთან ერთად საერთო საცხოვრებელში ცხოვრობს."
+  },
+  "u10-l3.10.prompt": {
+    "en": "This gift is for Marek.",
+    "t": "ეს საჩუქარი მარეკისთვისაა."
+  },
+  "u10-l3.11.en": {
+    "en": "What do you know about Tomáš?",
+    "t": "რა იცი ტომაშის შესახებ?"
+  },
+  "u10-l3.12.answers": {
+    "en": [
+      "Mr Kováč is sitting in front of the dorm."
+    ],
+    "t": [
+      "ბატონი კოვაჩი საერთო საცხოვრებლის წინ ზის.",
+      "ბატონი კოვაჩი ზის საერთო საცხოვრებლის წინ."
+    ]
+  },
+  "u10-l3.12.distractors": {
+    "en": [
+      "behind",
+      "inside"
+    ],
+    "t": [
+      "უკან",
+      "შიგნით"
+    ]
+  },
+  "u10-l3.13.en": {
+    "en": "I live with a friend.",
+    "t": "მეგობართან ერთად ვცხოვრობ."
+  },
+  "u10-l4.titleEn": {
+    "en": "Today and yesterday",
+    "t": "დღეს და გუშინ"
+  },
+  "u10-l4.0.title": {
+    "en": "Present and past side by side",
+    "t": "აწმყო და წარსული გვერდიგვერდ"
+  },
+  "u10-l4.0.body": {
+    "en": [
+      "Past tense = the l-form of the verb + som, si, sme or ste. With on, ona and oni there is no extra word.",
+      "The l-form shows gender and number: Tomáš čítal, Emma čítal**a**, oni čítal**i**."
+    ],
+    "t": [
+      "წარსული დრო = ზმნის l-ფორმა + som, si, sme ან ste. on, ona და oni პირებთან დამატებითი სიტყვა არ არის საჭირო.",
+      "l-ფორმა აჩვენებს სქესსა და რიცხვს (ქართულ ზმნას სქესი არ აქვს, სლოვაკურს კი წარსულში აქვს): Tomáš čítal, Emma čítal**a**, oni čítal**i**."
+    ]
+  },
+  "u10-l4.0.table.head": {
+    "en": [
+      "",
+      "present",
+      "past"
+    ],
+    "t": [
+      "",
+      "აწმყო",
+      "წარსული"
+    ]
+  },
+  "u10-l4.0.table.rows": {
+    "en": [
+      [
+        "ja",
+        "čítam",
+        "čítal / čítal**a** **som**"
+      ],
+      [
+        "ty",
+        "čítaš",
+        "čítal / čítal**a** **si**"
+      ],
+      [
+        "on / ona",
+        "číta",
+        "čítal / čítal**a**"
+      ],
+      [
+        "my",
+        "čítame",
+        "čítal**i** **sme**"
+      ],
+      [
+        "vy",
+        "čítate",
+        "čítal**i** **ste**"
+      ],
+      [
+        "oni",
+        "čítajú",
+        "čítal**i**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "čítam",
+        "čítal / čítal**a** **som**"
+      ],
+      [
+        "ty",
+        "čítaš",
+        "čítal / čítal**a** **si**"
+      ],
+      [
+        "on / ona",
+        "číta",
+        "čítal / čítal**a**"
+      ],
+      [
+        "my",
+        "čítame",
+        "čítal**i** **sme**"
+      ],
+      [
+        "vy",
+        "čítate",
+        "čítal**i** **ste**"
+      ],
+      [
+        "oni",
+        "čítajú",
+        "čítal**i**"
+      ]
+    ]
+  },
+  "u10-l4.0.examples": {
+    "en": [
+      "Today I'm reading the paper.",
+      "Yesterday I read a magazine.",
+      "Tomáš didn't read the news yesterday."
+    ],
+    "t": [
+      "დღეს გაზეთს ვკითხულობ.",
+      "გუშინ ჟურნალი წავიკითხე.",
+      "ტომაშმა გუშინ ახალი ამბები არ წაიკითხა."
+    ]
+  },
+  "u10-l4.1.en": {
+    "en": "Yesterday I read an article about the Tatras.",
+    "t": "გუშინ ტატრებზე სტატია წავიკითხე."
+  },
+  "u10-l4.2.en": {
+    "en": "Lucia and Tomáš sat in a café.",
+    "t": "ლუცია და ტომაში კაფეში ისხდნენ."
+  },
+  "u10-l4.3.question": {
+    "en": "Which sentence is in the past tense?",
+    "t": "რომელი წინადადებაა წარსულ დროში?"
+  },
+  "u10-l4.4.prompt": {
+    "en": "Yesterday Marek cooked soup.",
+    "t": "გუშინ მარეკმა წვნიანი მოამზადა."
+  },
+  "u10-l4.5.title": {
+    "en": "Special past forms and word order",
+    "t": "წარსულის განსაკუთრებული ფორმები და სიტყვათა რიგი"
+  },
+  "u10-l4.5.body": {
+    "en": [
+      "A few common verbs have their own past forms. Learn them as words.",
+      "Som, si, sme and ste come second in the sentence, before sa: Včera **som sa** učila."
+    ],
+    "t": [
+      "რამდენიმე ხშირ ზმნას წარსულის საკუთარი ფორმები აქვს. ისწავლეთ ისინი ცალკე სიტყვებად.",
+      "Som, si, sme და ste წინადადებაში მეორე ადგილზე დგას, sa-ს წინ: Včera **som sa** učila. (= გუშინ ვმეცადინეობდი.)"
+    ]
+  },
+  "u10-l4.5.table.head": {
+    "en": [
+      "",
+      "on",
+      "ona",
+      "oni"
+    ],
+    "t": [
+      "",
+      "on",
+      "ona",
+      "oni"
+    ]
+  },
+  "u10-l4.5.table.rows": {
+    "en": [
+      [
+        "byť",
+        "bol",
+        "bola",
+        "boli"
+      ],
+      [
+        "ísť",
+        "išiel",
+        "išla",
+        "išli"
+      ],
+      [
+        "jesť",
+        "jedol",
+        "jedla",
+        "jedli"
+      ],
+      [
+        "môcť",
+        "mohol",
+        "mohla",
+        "mohli"
+      ],
+      [
+        "chcieť",
+        "chcel",
+        "chcela",
+        "chceli"
+      ]
+    ],
+    "t": [
+      [
+        "byť",
+        "bol",
+        "bola",
+        "boli"
+      ],
+      [
+        "ísť",
+        "išiel",
+        "išla",
+        "išli"
+      ],
+      [
+        "jesť",
+        "jedol",
+        "jedla",
+        "jedli"
+      ],
+      [
+        "môcť",
+        "mohol",
+        "mohla",
+        "mohli"
+      ],
+      [
+        "chcieť",
+        "chcel",
+        "chcela",
+        "chceli"
+      ]
+    ]
+  },
+  "u10-l4.5.examples": {
+    "en": [
+      "Yesterday I studied.",
+      "Marek went to work.",
+      "Have you been to Košice?"
+    ],
+    "t": [
+      "გუშინ ვმეცადინეობდი.",
+      "მარეკი სამსახურში წავიდა.",
+      "კოშიცეში ყოფილხართ?"
+    ]
+  },
+  "u10-l4.6.en": {
+    "en": "Emma went home by bus.",
+    "t": "ემა სახლში ავტობუსით წავიდა."
+  },
+  "u10-l4.7.en": {
+    "en": "Yesterday I studied in the library.",
+    "t": "გუშინ ბიბლიოთეკაში ვმეცადინეობდი."
+  },
+  "u10-l4.8.prompt": {
+    "en": "Emma: “I didn't have time.”",
+    "t": "ემა: „დრო არ მქონდა.“"
+  },
+  "u10-l4.9.pairs": {
+    "en": [
+      "he was",
+      "she went",
+      "they ate",
+      "he could",
+      "she wanted"
+    ],
+    "t": [
+      "ის (კაცი) იყო",
+      "ის (ქალი) წავიდა",
+      "ისინი ჭამდნენ",
+      "მას (კაცს) შეეძლო",
+      "მას (ქალს) უნდოდა"
+    ]
+  },
+  "u10-l4.10.en": {
+    "en": "Have you read the paper yet?",
+    "t": "უკვე წაიკითხე გაზეთი?"
+  },
+  "u10-l4.11.en": {
+    "en": "Have you eaten yet? — No, not yet.",
+    "t": "უკვე ჭამე? — არა, ჯერ არა."
+  },
+  "u10-l4.12.answers": {
+    "en": [
+      "Tomáš couldn't come."
+    ],
+    "t": [
+      "ტომაში ვერ მოვიდა."
+    ]
+  },
+  "u10-l4.12.distractors": {
+    "en": [
+      "can't",
+      "go"
+    ],
+    "t": [
+      "წავიდა",
+      "მოდის"
+    ]
+  },
+  "u10-l4.13.en": {
+    "en": "Yesterday we were at the cinema.",
+    "t": "გუშინ კინოში ვიყავით."
+  },
+  "u10-l5.titleEn": {
+    "en": "Emma reads the paper",
+    "t": "ემა გაზეთს კითხულობს"
+  },
+  "u10-l5.0.question": {
+    "en": "What does this headline mean?",
+    "t": "რას ნიშნავს ეს სათაური?"
+  },
+  "u10-l5.0.options": {
+    "en": [
+      "A new restaurant on Main Street",
+      "A new café on Main Street",
+      "An old café in the main square"
+    ],
+    "t": [
+      "ახალი რესტორანი მთავარ ქუჩაზე",
+      "ახალი კაფე მთავარ ქუჩაზე",
+      "ძველი კაფე მთავარ მოედანზე"
+    ]
+  },
+  "u10-l5.1.en": {
+    "en": "Emma bought a newspaper in a shop.",
+    "t": "ემამ მაღაზიაში გაზეთი იყიდა."
+  },
+  "u10-l5.2.prompt": {
+    "en": "There's a new café on Main Street.",
+    "t": "მთავარ ქუჩაზე ახალი კაფეა."
+  },
+  "u10-l5.3.en": {
+    "en": "The weather was nice on Saturday.",
+    "t": "შაბათს კარგი ამინდი იყო."
+  },
+  "u10-l5.4.pairs": {
+    "en": [
+      "Monday",
+      "green",
+      "cook",
+      "train",
+      "shop"
+    ],
+    "t": [
+      "ორშაბათი",
+      "მწვანე",
+      "მზარეული",
+      "მატარებელი",
+      "მაღაზია"
+    ]
+  },
+  "u10-l5.5.en": {
+    "en": "Tomáš is a programmer and lives in Košice.",
+    "t": "ტომაში პროგრამისტია და კოშიცეში ცხოვრობს."
+  },
+  "u10-l5.6.answers": {
+    "en": [
+      "Marek works as a cook in a restaurant."
+    ],
+    "t": [
+      "მარეკი რესტორანში მზარეულად მუშაობს.",
+      "მარეკი მზარეულად მუშაობს რესტორანში.",
+      "მარეკი რესტორანში მუშაობს მზარეულად."
+    ]
+  },
+  "u10-l5.6.distractors": {
+    "en": [
+      "waiter",
+      "teacher"
+    ],
+    "t": [
+      "ოფიციანტად",
+      "მასწავლებლად"
+    ]
+  },
+  "u10-l5.7.question": {
+    "en": "Emma tells her friend Lucia “You're in the paper!” Which is right?",
+    "t": "ემა მეგობარს, ლუციას, ეუბნება: „გაზეთში ხარ!“ რომელია სწორი?"
+  },
+  "u10-l5.8.en": {
+    "en": "The article is about Lucia. They're writing about her in the paper.",
+    "t": "სტატია ლუციას შესახებაა. გაზეთში მის შესახებ წერენ."
+  },
+  "u10-l5.9.prompt": {
+    "en": "Yesterday we read the article with Lucia.",
+    "t": "გუშინ ლუციასთან ერთად სტატია წავიკითხეთ."
+  },
+  "u10-l5.10.en": {
+    "en": "Ms Horváthová always reads the paper in the morning.",
+    "t": "ქალბატონი ჰორვატოვა გაზეთს ყოველთვის დილით კითხულობს."
+  },
+  "u10-l5.11.en": {
+    "en": "Today it's sunny and warm.",
+    "t": "დღეს მზიანი და თბილი ამინდია."
+  },
+  "u10-l5.12.prompt": {
+    "en": "Mr Kováč never reads magazines.",
+    "t": "ბატონი კოვაჩი ჟურნალებს არასდროს კითხულობს."
+  },
+  "u10-l5.13.answers": {
+    "en": [
+      "Yesterday I saw Marek in town.",
+      "I saw Marek in town yesterday."
+    ],
+    "t": [
+      "გუშინ მარეკი ქალაქში ვნახე.",
+      "მარეკი გუშინ ქალაქში ვნახე.",
+      "გუშინ ქალაქში მარეკი ვნახე."
+    ]
+  },
+  "u10-l5.13.distractors": {
+    "en": [
+      "see",
+      "city"
+    ],
+    "t": [
+      "ვხედავ",
+      "ქალაქი"
+    ]
+  },
+  "u10-l5.14.en": {
+    "en": "That's an interesting article.",
+    "t": "ეს საინტერესო სტატიაა."
+  },
+  "u10-l6.titleEn": {
+    "en": "The big review",
+    "t": "დიდი გამეორება"
+  },
+  "u10-l6.0.question": {
+    "en": "You meet your teacher, pani Horváthová. What do you say?",
+    "t": "ხვდებით თქვენს მასწავლებელს, ქალბატონ ჰორვატოვას. რას ეტყვით?"
+  },
+  "u10-l6.1.question": {
+    "en": "Emma is from Ireland. How does she say it?",
+    "t": "ემა ირლანდიიდანაა. როგორ იტყვის ამას?"
+  },
+  "u10-l6.2.en": {
+    "en": "There are two magazines on the table.",
+    "t": "მაგიდაზე ორი ჟურნალი დევს."
+  },
+  "u10-l6.3.en": {
+    "en": "Three students are sitting in the café.",
+    "t": "კაფეში სამი სტუდენტი ზის."
+  },
+  "u10-l6.4.prompt": {
+    "en": "Emma has two Slovak friends. (female)",
+    "t": "ემას ორი სლოვაკი მეგობარი ჰყავს. (ქალები)"
+  },
+  "u10-l6.5.en": {
+    "en": "Today I have to go to the university.",
+    "t": "დღეს უნივერსიტეტში უნდა წავიდე."
+  },
+  "u10-l6.6.pairs": {
+    "en": [
+      "I have to",
+      "I can",
+      "I want",
+      "I know",
+      "I'm allowed to"
+    ],
+    "t": [
+      "მე უნდა…",
+      "შემიძლია",
+      "მინდა",
+      "ვიცი",
+      "ნება მაქვს"
+    ]
+  },
+  "u10-l6.7.en": {
+    "en": "Marek can cook, but today he has no time.",
+    "t": "მარეკმა იცის საჭმლის მომზადება, მაგრამ დღეს დრო არ აქვს."
+  },
+  "u10-l6.8.en": {
+    "en": "That's Lucia's brother Marek.",
+    "t": "ეს ლუციას ძმაა, მარეკი."
+  },
+  "u10-l6.9.prompt": {
+    "en": "It's eight o'clock.",
+    "t": "რვა საათია."
+  },
+  "u10-l6.10.en": {
+    "en": "We met in a café yesterday.",
+    "t": "გუშინ კაფეში შევხვდით ერთმანეთს."
+  },
+  "u10-l6.11.answers": {
+    "en": [
+      "Emma and Lucia live together in the dorm."
+    ],
+    "t": [
+      "ემა და ლუცია ერთად ცხოვრობენ საერთო საცხოვრებელში.",
+      "ემა და ლუცია საერთო საცხოვრებელში ერთად ცხოვრობენ.",
+      "ემა და ლუცია ერთად საერთო საცხოვრებელში ცხოვრობენ."
+    ]
+  },
+  "u10-l6.11.distractors": {
+    "en": [
+      "lives",
+      "house"
+    ],
+    "t": [
+      "ცხოვრობს",
+      "სახლში"
+    ]
+  },
+  "u10-l6.12.question": {
+    "en": "How do you say “Today is the 2nd of May”?",
+    "t": "როგორ ითქმის „დღეს 2 მაისია“?"
+  },
+  "u10-l6.13.en": {
+    "en": "Lucia, can I go to the cinema with you?",
+    "t": "ლუცია, შეიძლება შენთან ერთად წავიდე კინოში?"
+  },
+  "u10-l6.14.en": {
+    "en": "We didn't go anywhere yesterday.",
+    "t": "გუშინ არსად წავსულვართ."
+  },
+  "u10-l6.15.en": {
+    "en": "I can speak Slovak now!",
+    "t": "უკვე სლოვაკურად ვლაპარაკობ!"
+  }
+}

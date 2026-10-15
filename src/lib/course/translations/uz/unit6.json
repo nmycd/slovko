@@ -1,0 +1,1503 @@
+{
+  "u6.titleEn": {
+    "en": "In the restaurant",
+    "t": "Restoranda"
+  },
+  "u6.topics": {
+    "en": [
+      "Restaurant",
+      "Ordering and paying",
+      "Getting around"
+    ],
+    "t": [
+      "Restoran",
+      "Buyurtma va toʻlov",
+      "Transport"
+    ]
+  },
+  "u6.grammar": {
+    "en": [
+      "Instrumental case with s/so",
+      "Travelling by bus, train, tram",
+      "Instrumental pronouns and place prepositions",
+      "Verbs pozvať, piť, niesť, jesť, stať sa"
+    ],
+    "t": [
+      "Inštrumentál: s/so (bilan)",
+      "Avtobusda, poyezdda, tramvayda",
+      "Inštrumentáldagi olmoshlar va joy predloglari",
+      "pozvať, piť, niesť, jesť, stať sa feʼllari"
+    ]
+  },
+  "u6-l1.titleEn": {
+    "en": "The menu",
+    "t": "Menyu"
+  },
+  "u6-l1.0.en": {
+    "en": "menu",
+    "t": "menyu"
+  },
+  "u6-l1.0.note": {
+    "en": "Ask for it politely: Jedálny lístok, prosím.",
+    "t": "Uni xushmuomalalik bilan soʻrang: Jedálny lístok, prosím."
+  },
+  "u6-l1.1.en": {
+    "en": "soup",
+    "t": "shoʻrva"
+  },
+  "u6-l1.1.note": {
+    "en": "A Slovak lunch nearly always starts with a hot soup.",
+    "t": "Slovakiyada tushlik deyarli doim issiq shoʻrva bilan boshlanadi."
+  },
+  "u6-l1.2.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "u6-l1.2.options": {
+    "en": [
+      "soup",
+      "menu",
+      "meat"
+    ],
+    "t": [
+      "shoʻrva",
+      "menyu",
+      "goʻsht"
+    ]
+  },
+  "u6-l1.3.en": {
+    "en": "main course",
+    "t": "asosiy taom"
+  },
+  "u6-l1.3.note": {
+    "en": "**jedlo** = food, a dish; **hlavné** = main.",
+    "t": "**jedlo** = ovqat, taom; **hlavné** = asosiy."
+  },
+  "u6-l1.4.en": {
+    "en": "chicken (meat)",
+    "t": "tovuq goʻshti"
+  },
+  "u6-l1.4.note": {
+    "en": "Menus name meat after the animal: kuracie mäso = chicken, bravčové mäso = pork.",
+    "t": "Menyuda goʻsht hayvon nomi bilan ataladi: kuracie mäso = tovuq goʻshti, bravčové mäso = choʻchqa goʻshti."
+  },
+  "u6-l1.5.en": {
+    "en": "fish",
+    "t": "baliq"
+  },
+  "u6-l1.5.note": {
+    "en": "**veľmi** = very: Ryba je veľmi dobrá. = The fish is very good.",
+    "t": "**veľmi** = juda: Ryba je veľmi dobrá. = Baliq juda mazali (ovqat haqida dobrý = mazali)."
+  },
+  "u6-l1.6.pairs": {
+    "en": [
+      "menu",
+      "soup",
+      "main course",
+      "chicken",
+      "fish"
+    ],
+    "t": [
+      "menyu",
+      "shoʻrva",
+      "asosiy taom",
+      "tovuq goʻshti",
+      "baliq"
+    ]
+  },
+  "u6-l1.7.en": {
+    "en": "rice",
+    "t": "guruch"
+  },
+  "u6-l1.7.note": {
+    "en": "A typical side dish (príloha) with chicken or fish.",
+    "t": "Tovuq yoki baliq bilan beriladigan odatiy garnir (príloha)."
+  },
+  "u6-l1.8.en": {
+    "en": "chips / French fries",
+    "t": "kartoshka fri"
+  },
+  "u6-l1.8.note": {
+    "en": "Always plural, like English “chips”: Hranolky **sú** dobré.",
+    "t": "Doim koʻplikda: Hranolky **sú** dobré."
+  },
+  "u6-l1.9.question": {
+    "en": "Which one is a side dish?",
+    "t": "Qaysi biri garnir?"
+  },
+  "u6-l1.10.en": {
+    "en": "The menu, please.",
+    "t": "Menyu, iltimos."
+  },
+  "u6-l1.11.en": {
+    "en": "Marek is cooking soup.",
+    "t": "Marek shoʻrva pishiryapti."
+  },
+  "u6-l1.12.prompt": {
+    "en": "The fish is very good.",
+    "t": "Baliq juda mazali."
+  },
+  "u6-l1.13.en": {
+    "en": "The chips are good.",
+    "t": "Kartoshka fri mazali."
+  },
+  "u6-l1.14.answers": {
+    "en": [
+      "Chicken and rice."
+    ],
+    "t": [
+      "Tovuq goʻshti va guruch."
+    ]
+  },
+  "u6-l1.14.distractors": {
+    "en": [
+      "fish",
+      "soup"
+    ],
+    "t": [
+      "baliq",
+      "shoʻrva"
+    ]
+  },
+  "u6-l1.15.prompt": {
+    "en": "Is the soup good?",
+    "t": "Shoʻrva mazalimi?"
+  },
+  "u6-l1.16.question": {
+    "en": "How do you say “main course”?",
+    "t": "«Asosiy taom» qanday aytiladi?"
+  },
+  "u6-l1.17.en": {
+    "en": "The menu, please.",
+    "t": "Menyu, iltimos."
+  },
+  "u6-l2.titleEn": {
+    "en": "Ordering food",
+    "t": "Ovqat buyurtma qilish"
+  },
+  "u6-l2.0.en": {
+    "en": "What will you have?",
+    "t": "Nima buyurasiz?"
+  },
+  "u6-l2.0.note": {
+    "en": "The waiter's question (formal). You may also hear: Čo si prajete?",
+    "t": "Ofitsiantning savoli («siz» shaklida). Bunday ham eshitishingiz mumkin: Čo si prajete?"
+  },
+  "u6-l2.1.en": {
+    "en": "I'll have the soup.",
+    "t": "Men shoʻrva olaman."
+  },
+  "u6-l2.1.note": {
+    "en": "After **dám si** use the accusative: polievka → polievk**u**, ryba → ryb**u**.",
+    "t": "**dám si** soʻzlaridan keyin akuzatív (tushum kelishigi) keladi: polievka → polievk**u**, ryba → ryb**u**."
+  },
+  "u6-l2.2.question": {
+    "en": "A waiter says this. What does he want to know?",
+    "t": "Ofitsiant shunday deydi. U nimani bilmoqchi?"
+  },
+  "u6-l2.2.options": {
+    "en": [
+      "What you'd like to order",
+      "Where you're from",
+      "How you are"
+    ],
+    "t": [
+      "Nima buyurtma qilishingizni",
+      "Qayerdan ekaningizni",
+      "Ahvolingiz qandayligini"
+    ]
+  },
+  "u6-l2.3.en": {
+    "en": "I'll have the fish and chips.",
+    "t": "Men baliq va kartoshka fri olaman."
+  },
+  "u6-l2.4.en": {
+    "en": "And to drink?",
+    "t": "Ichishga nima olasiz?"
+  },
+  "u6-l2.4.note": {
+    "en": "Answer the same way: Dám si minerálku. Or: Prosím si minerálku.",
+    "t": "Xuddi shunday javob bering: Dám si minerálku. Yoki: Prosím si minerálku."
+  },
+  "u6-l2.5.prompt": {
+    "en": "I'll have a coffee.",
+    "t": "Men qahva olaman."
+  },
+  "u6-l2.6.en": {
+    "en": "Do you like it? (food)",
+    "t": "Yoqyaptimi? (ovqat haqida)"
+  },
+  "u6-l2.6.note": {
+    "en": "Answer: Chutí mi. (I like it.) or Nechutí mi. (I don't like it.) Formal: Chutí vám?",
+    "t": "Javob: Chutí mi. (Menga yoqyapti.) yoki Nechutí mi. (Menga yoqmayapti.) «Siz» shaklida: Chutí vám?"
+  },
+  "u6-l2.7.question": {
+    "en": "Your soup is delicious. Lucia asks “Chutí ti?”. What do you say?",
+    "t": "Shoʻrvangiz juda mazali. Lusiya «Chutí ti?» deb soʻraydi. Nima deysiz?"
+  },
+  "u6-l2.8.en": {
+    "en": "hot",
+    "t": "issiq"
+  },
+  "u6-l2.8.note": {
+    "en": "It agrees like other adjectives, but with short endings: horúc**i** čaj, horúc**a** polievka, horúc**e** jedlo.",
+    "t": "Boshqa sifatlar kabi moslashadi, lekin qisqa qoʻshimchalar bilan: horúc**i** čaj, horúc**a** polievka, horúc**e** jedlo."
+  },
+  "u6-l2.9.en": {
+    "en": "sweet",
+    "t": "shirin"
+  },
+  "u6-l2.9.note": {
+    "en": "Torta je sladk**á**.",
+    "t": "Torta je sladk**á**. = Tort shirin."
+  },
+  "u6-l2.10.en": {
+    "en": "salty",
+    "t": "shoʻr"
+  },
+  "u6-l2.11.pairs": {
+    "en": [
+      "What will you have?",
+      "And to drink?",
+      "hot",
+      "sweet",
+      "salty"
+    ],
+    "t": [
+      "Nima buyurasiz?",
+      "Ichishga nima olasiz?",
+      "issiq",
+      "shirin",
+      "shoʻr"
+    ]
+  },
+  "u6-l2.12.en": {
+    "en": "The soup is hot.",
+    "t": "Shoʻrva issiq."
+  },
+  "u6-l2.13.en": {
+    "en": "The cake is very sweet.",
+    "t": "Tort juda shirin."
+  },
+  "u6-l2.14.prompt": {
+    "en": "We'll have soup and fish.",
+    "t": "Biz shoʻrva va baliq olamiz."
+  },
+  "u6-l2.15.en": {
+    "en": "The tea is hot.",
+    "t": "Choy issiq."
+  },
+  "u6-l2.16.answers": {
+    "en": [
+      "Do you like the soup?"
+    ],
+    "t": [
+      "Shoʻrva senga yoqyaptimi?",
+      "Senga shoʻrva yoqyaptimi?",
+      "Shoʻrva yoqyaptimi?"
+    ]
+  },
+  "u6-l2.16.distractors": {
+    "en": [
+      "fish",
+      "where"
+    ],
+    "t": [
+      "baliq",
+      "qayerda"
+    ]
+  },
+  "u6-l2.17.en": {
+    "en": "And to drink?",
+    "t": "Ichishga nima olasiz?"
+  },
+  "u6-l3.titleEn": {
+    "en": "Coffee with milk",
+    "t": "Sutli qahva"
+  },
+  "u6-l3.0.title": {
+    "en": "S (with) + the instrumental",
+    "t": "S (bilan) + inštrumentál"
+  },
+  "u6-l3.0.body": {
+    "en": [
+      "**S** means “with”. The noun after it takes the instrumental case (the “with” case).",
+      "Masculine nouns add **-om**, neuter nouns change -o to **-om**. Feminine nouns change **-a** to **-ou**.",
+      "Before a word starting with s, z, š or ž, **s** becomes **so**: so syr**om**."
+    ],
+    "t": [
+      "**S** = «bilan», lekin u otdan oldin turadi: s mliekom = sut bilan. Undan keyingi ot inštrumentál kelishigida boʻladi («bilan» kelishigi; oʻzbek tilida bunday kelishik yoʻq).",
+      "Erkak jinsidagi otlarga **-om** qoʻshiladi, oʻrta jinsda -o oʻrniga **-om** keladi. Ayol jinsida **-a** oʻrniga **-ou** keladi.",
+      "s, z, š yoki ž bilan boshlanadigan soʻzdan oldin **s** oʻrniga **so** ishlatiladi: so syr**om**."
+    ]
+  },
+  "u6-l3.0.table.head": {
+    "en": [
+      "",
+      "word",
+      "with …"
+    ],
+    "t": [
+      "",
+      "soʻz",
+      "… bilan"
+    ]
+  },
+  "u6-l3.0.table.rows": {
+    "en": [
+      [
+        "he",
+        "citrón (lemon)",
+        "s citrón**om**"
+      ],
+      [
+        "he",
+        "syr",
+        "so syr**om**"
+      ],
+      [
+        "she",
+        "ryža",
+        "s ryž**ou**"
+      ],
+      [
+        "she",
+        "Lucia",
+        "s Luci**ou**"
+      ],
+      [
+        "it",
+        "mlieko",
+        "s mliek**om**"
+      ]
+    ],
+    "t": [
+      [
+        "erkak jinsi",
+        "citrón (limon)",
+        "s citrón**om**"
+      ],
+      [
+        "erkak jinsi",
+        "syr",
+        "so syr**om**"
+      ],
+      [
+        "ayol jinsi",
+        "ryža",
+        "s ryž**ou**"
+      ],
+      [
+        "ayol jinsi",
+        "Lucia",
+        "s Luci**ou**"
+      ],
+      [
+        "oʻrta jins",
+        "mlieko",
+        "s mliek**om**"
+      ]
+    ]
+  },
+  "u6-l3.0.examples": {
+    "en": [
+      "Coffee with milk, please.",
+      "I'll have chicken with rice.",
+      "Emma lives with Lucia."
+    ],
+    "t": [
+      "Sut bilan qahva, iltimos.",
+      "Guruch bilan tovuq goʻshti olaman.",
+      "Emma Lusiya bilan yashaydi."
+    ]
+  },
+  "u6-l3.1.question": {
+    "en": "How do you say “tea with lemon”?",
+    "t": "«Limonli choy» qanday aytiladi?"
+  },
+  "u6-l3.2.en": {
+    "en": "Coffee with milk, please.",
+    "t": "Sut bilan qahva, iltimos."
+  },
+  "u6-l3.3.en": {
+    "en": "I'll have fish with rice.",
+    "t": "Men guruch bilan baliq olaman."
+  },
+  "u6-l3.4.prompt": {
+    "en": "Bread with cheese.",
+    "t": "Pishloq bilan non."
+  },
+  "u6-l3.5.question": {
+    "en": "Which word needs “so” instead of “s”?",
+    "t": "Qaysi soʻz oldidan «s» emas, «so» kerak?"
+  },
+  "u6-l3.6.en": {
+    "en": "Lucia is talking to Tomáš.",
+    "t": "Lusiya Tomash bilan gaplashyapti."
+  },
+  "u6-l3.7.en": {
+    "en": "Tomáš is with Marek.",
+    "t": "Tomash Marek bilan birga."
+  },
+  "u6-l3.8.title": {
+    "en": "Adjectives after s",
+    "t": "Sifatlar: s + inštrumentál"
+  },
+  "u6-l3.8.body": {
+    "en": [
+      "Adjectives change too. Masculine and neuter: **-ý** → **-ým**, **-é** → **-ým**. Feminine: **-á** → **-ou**, the same ending as the noun."
+    ],
+    "t": [
+      "Sifatlar ham oʻzgaradi. Erkak va oʻrta jinsda: **-ý** → **-ým**, **-é** → **-ým**. Ayol jinsida: **-á** → **-ou**, xuddi otdagi kabi."
+    ]
+  },
+  "u6-l3.8.table.head": {
+    "en": [
+      "",
+      "word",
+      "with …"
+    ],
+    "t": [
+      "",
+      "soʻz",
+      "… bilan"
+    ]
+  },
+  "u6-l3.8.table.rows": {
+    "en": [
+      [
+        "he",
+        "dobrý kamarát",
+        "s dobr**ým** kamarát**om**"
+      ],
+      [
+        "she",
+        "čierna káva",
+        "s čiern**ou** káv**ou**"
+      ],
+      [
+        "it",
+        "studené mlieko",
+        "so studen**ým** mliek**om**"
+      ]
+    ],
+    "t": [
+      [
+        "erkak jinsi",
+        "dobrý kamarát",
+        "s dobr**ým** kamarát**om**"
+      ],
+      [
+        "ayol jinsi",
+        "čierna káva",
+        "s čiern**ou** káv**ou**"
+      ],
+      [
+        "oʻrta jins",
+        "studené mlieko",
+        "so studen**ým** mliek**om**"
+      ]
+    ]
+  },
+  "u6-l3.8.examples": {
+    "en": [
+      "Emma is talking to a new friend.",
+      "I'll have coffee with cold milk."
+    ],
+    "t": [
+      "Emma yangi doʻsti bilan gaplashyapti.",
+      "Men sovuq sut bilan qahva olaman."
+    ]
+  },
+  "u6-l3.9.en": {
+    "en": "Lucia is with a good friend.",
+    "t": "Lusiya yaxshi dugonasi bilan birga."
+  },
+  "u6-l3.10.en": {
+    "en": "Tomáš is talking to a new friend.",
+    "t": "Tomash yangi doʻsti bilan gaplashyapti."
+  },
+  "u6-l3.11.prompt": {
+    "en": "I'll have tea with cold milk.",
+    "t": "Men sovuq sut bilan choy olaman."
+  },
+  "u6-l3.12.question": {
+    "en": "How do you say “with Marek”?",
+    "t": "«Marek bilan» qanday aytiladi?"
+  },
+  "u6-l3.13.answers": {
+    "en": [
+      "Emma lives with Lucia."
+    ],
+    "t": [
+      "Emma Lusiya bilan yashaydi."
+    ]
+  },
+  "u6-l3.13.distractors": {
+    "en": [
+      "works",
+      "Marek"
+    ],
+    "t": [
+      "ishlaydi",
+      "Marek"
+    ]
+  },
+  "u6-l3.14.en": {
+    "en": "Coffee with milk, please.",
+    "t": "Sut bilan qahva, iltimos."
+  },
+  "u6-l4.titleEn": {
+    "en": "Paying and going home",
+    "t": "Toʻlov va uyga qaytish"
+  },
+  "u6-l4.0.en": {
+    "en": "The bill, please.",
+    "t": "Hisob, iltimos."
+  },
+  "u6-l4.0.note": {
+    "en": "To say you're paying: Zaplatím. (I'll pay.)",
+    "t": "Oʻzingiz toʻlashingizni aytish uchun: Zaplatím. (Men toʻlayman.)"
+  },
+  "u6-l4.1.en": {
+    "en": "Together or separately?",
+    "t": "Birga yoki alohida?"
+  },
+  "u6-l4.1.note": {
+    "en": "The waiter wants to know how you'll split the bill. Answer: Spolu. or Osobitne.",
+    "t": "Ofitsiant hisobni qanday toʻlashingizni bilmoqchi. Javob: Spolu. yoki Osobitne."
+  },
+  "u6-l4.2.question": {
+    "en": "The waiter asks “Spolu alebo osobitne?”. You're paying for everyone. What do you say?",
+    "t": "Ofitsiant «Spolu alebo osobitne?» deb soʻraydi. Siz hamma uchun toʻlaysiz. Nima deysiz?"
+  },
+  "u6-l4.3.en": {
+    "en": "How are you getting home?",
+    "t": "Uyga qanday ketasan?"
+  },
+  "u6-l4.3.note": {
+    "en": "**Domov** = home (where you're heading). Formal: Ako idete domov?",
+    "t": "**Domov** = uyga (borish yoʻnalishi). «Siz» shaklida: Ako idete domov?"
+  },
+  "u6-l4.4.en": {
+    "en": "I'm going by bus.",
+    "t": "Avtobusda ketyapman."
+  },
+  "u6-l4.4.note": {
+    "en": "There's no word for “by”: the vehicle takes the instrumental. autobus → autobus**om**.",
+    "t": "Oʻzbekchadagi «avtobusda» kabi, alohida soʻz kerak emas: transport nomi inštrumentálda keladi. autobus → autobus**om**."
+  },
+  "u6-l4.5.question": {
+    "en": "How is this person travelling?",
+    "t": "Bu odam nimada ketyapti?"
+  },
+  "u6-l4.5.options": {
+    "en": [
+      "by bus",
+      "by car",
+      "on foot"
+    ],
+    "t": [
+      "avtobusda",
+      "mashinada",
+      "piyoda"
+    ]
+  },
+  "u6-l4.6.title": {
+    "en": "How you travel",
+    "t": "Nimada borasiz?"
+  },
+  "u6-l4.6.body": {
+    "en": [
+      "Put the vehicle in the instrumental, with no **s**: Idem vlak**om**. = I'm going by train.",
+      "The endings are the ones you know: **-om** for masculine and neuter, **-ou** for feminine.",
+      "**Cestovať** (to travel) goes like študovať: cestuj**em**, cestuj**eš**, cestuj**e**…"
+    ],
+    "t": [
+      "Transport nomi **s** qoʻshmasdan, inštrumentálda («bilan» kelishigida) keladi: Idem vlak**om**. = Poyezdda ketyapman.",
+      "Qoʻshimchalar sizga tanish: erkak va oʻrta jinsda **-om**, ayol jinsida **-ou**.",
+      "**Cestovať** (sayohat qilmoq) študovať kabi tuslanadi: cestuj**em**, cestuj**eš**, cestuj**e**…"
+    ]
+  },
+  "u6-l4.6.table.head": {
+    "en": [
+      "vehicle",
+      "by …",
+      ""
+    ],
+    "t": [
+      "transport",
+      "nimada?",
+      ""
+    ]
+  },
+  "u6-l4.6.table.rows": {
+    "en": [
+      [
+        "autobus",
+        "autobus**om**",
+        "by bus"
+      ],
+      [
+        "vlak",
+        "vlak**om**",
+        "by train"
+      ],
+      [
+        "taxík",
+        "taxík**om**",
+        "by taxi"
+      ],
+      [
+        "auto",
+        "aut**om**",
+        "by car"
+      ],
+      [
+        "lietadlo",
+        "lietadl**om**",
+        "by plane"
+      ],
+      [
+        "električka",
+        "električk**ou**",
+        "by tram"
+      ]
+    ],
+    "t": [
+      [
+        "autobus",
+        "autobus**om**",
+        "avtobusda"
+      ],
+      [
+        "vlak",
+        "vlak**om**",
+        "poyezdda"
+      ],
+      [
+        "taxík",
+        "taxík**om**",
+        "taksida"
+      ],
+      [
+        "auto",
+        "aut**om**",
+        "mashinada"
+      ],
+      [
+        "lietadlo",
+        "lietadl**om**",
+        "samolyotda"
+      ],
+      [
+        "električka",
+        "električk**ou**",
+        "tramvayda"
+      ]
+    ]
+  },
+  "u6-l4.6.examples": {
+    "en": [
+      "Mrs Horváthová travels by car.",
+      "We're travelling by plane."
+    ],
+    "t": [
+      "Horvatova xonim mashinada sayohat qiladi.",
+      "Biz samolyotda sayohat qilyapmiz."
+    ]
+  },
+  "u6-l4.7.en": {
+    "en": "Tomáš is travelling home by train.",
+    "t": "Tomash uyga poyezdda ketyapti."
+  },
+  "u6-l4.8.question": {
+    "en": "How do you say “by plane”?",
+    "t": "«Samolyotda» qanday aytiladi?"
+  },
+  "u6-l4.9.en": {
+    "en": "Lucia is going home by tram.",
+    "t": "Lusiya uyga tramvayda ketyapti."
+  },
+  "u6-l4.10.en": {
+    "en": "on foot",
+    "t": "piyoda"
+  },
+  "u6-l4.10.note": {
+    "en": "Idem pešo. = I'm walking. By bike is different too: **na bicykli**.",
+    "t": "Idem pešo. = Piyoda ketyapman. Velosipedda ham boshqacha aytiladi: **na bicykli**."
+  },
+  "u6-l4.11.pairs": {
+    "en": [
+      "by bus",
+      "by train",
+      "by car",
+      "on foot",
+      "by bike"
+    ],
+    "t": [
+      "avtobusda",
+      "poyezdda",
+      "mashinada",
+      "piyoda",
+      "velosipedda"
+    ]
+  },
+  "u6-l4.12.prompt": {
+    "en": "We're going home by taxi.",
+    "t": "Biz uyga taksida ketyapmiz."
+  },
+  "u6-l4.13.en": {
+    "en": "I'm walking home.",
+    "t": "Uyga piyoda ketyapman."
+  },
+  "u6-l4.14.en": {
+    "en": "I travel with friends.",
+    "t": "Doʻstlar bilan sayohat qilaman."
+  },
+  "u6-l4.14.note": {
+    "en": "In the plural, the noun after s ends in **-mi** or **-ami**: s kamarát**mi**, s kamarátk**ami**.",
+    "t": "Koʻplikda s soʻzidan keyin ot **-mi** yoki **-ami** oladi: s kamarát**mi**, s kamarátk**ami**."
+  },
+  "u6-l4.15.answers": {
+    "en": [
+      "Emma travels with friends."
+    ],
+    "t": [
+      "Emma dugonalari bilan sayohat qiladi."
+    ]
+  },
+  "u6-l4.15.distractors": {
+    "en": [
+      "by",
+      "train"
+    ],
+    "t": [
+      "poyezdda",
+      "dugonasi"
+    ]
+  },
+  "u6-l4.16.en": {
+    "en": "Lucia is going home with her friends.",
+    "t": "Lusiya uyga dugonalari bilan ketyapti."
+  },
+  "u6-l4.17.en": {
+    "en": "The bill, please.",
+    "t": "Hisob, iltimos."
+  },
+  "u6-l5.titleEn": {
+    "en": "Are you coming with me?",
+    "t": "Men bilan borasanmi?"
+  },
+  "u6-l5.0.title": {
+    "en": "With me, with you",
+    "t": "Men bilan, sen bilan"
+  },
+  "u6-l5.0.body": {
+    "en": [
+      "Pronouns have their own instrumental forms. After **s** they mean “with me, with you…”.",
+      "Before mnou, **s** becomes **so**: so mnou."
+    ],
+    "t": [
+      "Olmoshlarning oʻz inštrumentál shakllari bor. **s** soʻzidan keyin ular «men bilan, sen bilan…» maʼnosini beradi.",
+      "mnou oldidan **s** oʻrniga **so** keladi: so mnou."
+    ]
+  },
+  "u6-l5.0.table.head": {
+    "en": [
+      "",
+      "with …"
+    ],
+    "t": [
+      "",
+      "… bilan"
+    ]
+  },
+  "u6-l5.0.table.rows": {
+    "en": [
+      [
+        "ja",
+        "so **mnou**"
+      ],
+      [
+        "ty",
+        "s **tebou**"
+      ],
+      [
+        "on, ono",
+        "s **ním**"
+      ],
+      [
+        "ona",
+        "s **ňou**"
+      ],
+      [
+        "my",
+        "s **nami**"
+      ],
+      [
+        "vy",
+        "s **vami**"
+      ],
+      [
+        "oni, ony",
+        "s **nimi**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "so **mnou**"
+      ],
+      [
+        "ty",
+        "s **tebou**"
+      ],
+      [
+        "on, ono",
+        "s **ním**"
+      ],
+      [
+        "ona",
+        "s **ňou**"
+      ],
+      [
+        "my",
+        "s **nami**"
+      ],
+      [
+        "vy",
+        "s **vami**"
+      ],
+      [
+        "oni, ony",
+        "s **nimi**"
+      ]
+    ]
+  },
+  "u6-l5.0.examples": {
+    "en": [
+      "Are you coming with me?",
+      "Mrs Horváthová is here. We're talking to her."
+    ],
+    "t": [
+      "Men bilan borasanmi?",
+      "Horvatova xonim shu yerda. Biz u bilan gaplashyapmiz."
+    ]
+  },
+  "u6-l5.1.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "u6-l5.1.options": {
+    "en": [
+      "Are you coming with me?",
+      "Are you coming with us?",
+      "Is he coming with you?"
+    ],
+    "t": [
+      "Men bilan borasanmi?",
+      "Biz bilan borasanmi?",
+      "U sen bilan boradimi?"
+    ]
+  },
+  "u6-l5.2.en": {
+    "en": "Tomáš is here. Lucia is talking to him.",
+    "t": "Tomash shu yerda. Lusiya u bilan gaplashyapti."
+  },
+  "u6-l5.3.en": {
+    "en": "Lucia is my friend. I live with her.",
+    "t": "Lusiya — mening dugonam. Men u bilan yashayman."
+  },
+  "u6-l5.4.prompt": {
+    "en": "Are you coming with us, Tomáš?",
+    "t": "Biz bilan borasanmi, Tomash?"
+  },
+  "u6-l5.5.en": {
+    "en": "Do you want to go with me?",
+    "t": "Men bilan borishni xohlaysanmi?"
+  },
+  "u6-l5.6.title": {
+    "en": "Where? pred, za, nad, pod, medzi",
+    "t": "Qayerda? pred, za, nad, pod, medzi"
+  },
+  "u6-l5.6.body": {
+    "en": [
+      "These five words also take the instrumental when they say where something is.",
+      "They work with pronouns too: pred **nami**, za **tebou**.",
+      "Feminine words without -a take **-ou** too: posteľ → pod posteľ**ou**."
+    ],
+    "t": [
+      "Bu besh soʻz oʻzbekcha «oldida, orqasida…» kabi joyni bildiradi, lekin otdan oldin turadi. Narsa qayerda ekanini aytganda ular ham inštrumentál talab qiladi.",
+      "Ular olmoshlar bilan ham ishlaydi: pred **nami**, za **tebou**.",
+      "-a bilan tugamaydigan ayol jinsidagi soʻzlar ham **-ou** oladi: posteľ → pod posteľ**ou**."
+    ]
+  },
+  "u6-l5.6.table.head": {
+    "en": [
+      "word",
+      "meaning",
+      "example"
+    ],
+    "t": [
+      "soʻz",
+      "maʼnosi",
+      "misol"
+    ]
+  },
+  "u6-l5.6.table.rows": {
+    "en": [
+      [
+        "pred",
+        "in front of",
+        "pred reštauráci**ou**"
+      ],
+      [
+        "za",
+        "behind",
+        "za dom**om**"
+      ],
+      [
+        "nad",
+        "above",
+        "nad stol**om**"
+      ],
+      [
+        "pod",
+        "under",
+        "pod stol**om**"
+      ],
+      [
+        "medzi",
+        "between",
+        "medzi bank**ou** a pošt**ou**"
+      ]
+    ],
+    "t": [
+      [
+        "pred",
+        "oldida",
+        "pred reštauráci**ou**"
+      ],
+      [
+        "za",
+        "orqasida",
+        "za dom**om**"
+      ],
+      [
+        "nad",
+        "tepasida",
+        "nad stol**om**"
+      ],
+      [
+        "pod",
+        "ostida",
+        "pod stol**om**"
+      ],
+      [
+        "medzi",
+        "orasida",
+        "medzi bank**ou** a pošt**ou**"
+      ]
+    ]
+  },
+  "u6-l5.6.examples": {
+    "en": [
+      "I'm waiting in front of the restaurant.",
+      "The cat is under the table."
+    ],
+    "t": [
+      "Restoran oldida kutyapman.",
+      "Mushuk stol ostida."
+    ]
+  },
+  "u6-l5.7.pairs": {
+    "en": [
+      "in front of",
+      "behind",
+      "above",
+      "under",
+      "between"
+    ],
+    "t": [
+      "oldida",
+      "orqasida",
+      "tepasida",
+      "ostida",
+      "orasida"
+    ]
+  },
+  "u6-l5.8.en": {
+    "en": "Tomáš is waiting in front of the university.",
+    "t": "Tomash universitet oldida kutyapti."
+  },
+  "u6-l5.9.en": {
+    "en": "The café is between the bank and the post office.",
+    "t": "Kafe bank bilan pochta orasida."
+  },
+  "u6-l5.10.prompt": {
+    "en": "The cat is under the bed.",
+    "t": "Mushuk karavot ostida."
+  },
+  "u6-l5.11.en": {
+    "en": "The lamp is above the table.",
+    "t": "Chiroq stol tepasida."
+  },
+  "u6-l5.12.en": {
+    "en": "Emma is standing behind you.",
+    "t": "Emma sening orqangda turibdi."
+  },
+  "u6-l5.13.en": {
+    "en": "Marek is waiting behind the restaurant.",
+    "t": "Marek restoran orqasida kutyapti."
+  },
+  "u6-l5.14.answers": {
+    "en": [
+      "Mr Kováč is standing in front of the dorm."
+    ],
+    "t": [
+      "Janob Kovach yotoqxona oldida turibdi."
+    ]
+  },
+  "u6-l5.14.distractors": {
+    "en": [
+      "behind",
+      "under"
+    ],
+    "t": [
+      "orqasida",
+      "ostida"
+    ]
+  },
+  "u6-l5.15.en": {
+    "en": "Are you coming with me?",
+    "t": "Men bilan borasanmi?"
+  },
+  "u6-l6.titleEn": {
+    "en": "Let me take you to dinner",
+    "t": "Seni kechki ovqatga taklif qilaman"
+  },
+  "u6-l6.0.title": {
+    "en": "Pozvať, piť, niesť",
+    "t": "Pozvať, piť, niesť"
+  },
+  "u6-l6.0.body": {
+    "en": [
+      "Three new patterns: **pozvať** (to invite), **piť** (to drink) and **niesť** (to carry). Learn the ja and oni forms; the rest follow.",
+      "**Žiť** (to live) goes like piť: žij**em**, žij**eš**, žij**e**…",
+      "Pozvať points to the future: Pozvem ťa. = I'll invite you."
+    ],
+    "t": [
+      "Uchta yangi tuslanish: **pozvať** (taklif qilmoq), **piť** (ichmoq) va **niesť** (olib bormoq, koʻtarmoq). ja va oni shakllarini yodlang, qolganlari shularga oʻxshaydi.",
+      "**Žiť** (yashamoq) piť kabi tuslanadi: žij**em**, žij**eš**, žij**e**…",
+      "Pozvať kelajakni bildiradi: Pozvem ťa. = Seni taklif qilaman (keyinroq)."
+    ]
+  },
+  "u6-l6.0.table.head": {
+    "en": [
+      "",
+      "pozvať",
+      "piť",
+      "niesť"
+    ],
+    "t": [
+      "",
+      "pozvať",
+      "piť",
+      "niesť"
+    ]
+  },
+  "u6-l6.0.table.rows": {
+    "en": [
+      [
+        "ja",
+        "pozv**em**",
+        "pij**em**",
+        "nes**iem**"
+      ],
+      [
+        "ty",
+        "pozv**eš**",
+        "pij**eš**",
+        "nes**ieš**"
+      ],
+      [
+        "on, ona",
+        "pozv**e**",
+        "pij**e**",
+        "nes**ie**"
+      ],
+      [
+        "my",
+        "pozv**eme**",
+        "pij**eme**",
+        "nes**ieme**"
+      ],
+      [
+        "vy",
+        "pozv**ete**",
+        "pij**ete**",
+        "nes**iete**"
+      ],
+      [
+        "oni",
+        "pozv**ú**",
+        "pij**ú**",
+        "nes**ú**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "pozv**em**",
+        "pij**em**",
+        "nes**iem**"
+      ],
+      [
+        "ty",
+        "pozv**eš**",
+        "pij**eš**",
+        "nes**ieš**"
+      ],
+      [
+        "on, ona",
+        "pozv**e**",
+        "pij**e**",
+        "nes**ie**"
+      ],
+      [
+        "my",
+        "pozv**eme**",
+        "pij**eme**",
+        "nes**ieme**"
+      ],
+      [
+        "vy",
+        "pozv**ete**",
+        "pij**ete**",
+        "nes**iete**"
+      ],
+      [
+        "oni",
+        "pozv**ú**",
+        "pij**ú**",
+        "nes**ú**"
+      ]
+    ]
+  },
+  "u6-l6.0.examples": {
+    "en": [
+      "I'll invite you to dinner.",
+      "What are you drinking? — I'm drinking tea.",
+      "The waiter is carrying a beer.",
+      "I live in Bratislava."
+    ],
+    "t": [
+      "Seni kechki ovqatga taklif qilaman.",
+      "Nima ichyapsan? — Choy ichyapman.",
+      "Ofitsiant pivo olib kelyapti.",
+      "Men Bratislavada yashayman."
+    ]
+  },
+  "u6-l6.1.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "u6-l6.1.options": {
+    "en": [
+      "I'm drinking coffee.",
+      "I'm eating coffee.",
+      "I'm carrying coffee."
+    ],
+    "t": [
+      "Qahva ichyapman.",
+      "Qahva yeyapman.",
+      "Qahva olib ketyapman."
+    ]
+  },
+  "u6-l6.2.title": {
+    "en": "Jesť and stať sa",
+    "t": "Jesť va stať sa"
+  },
+  "u6-l6.2.body": {
+    "en": [
+      "**Jesť** (to eat) is irregular. Careful: **je** means both “is” and “eats”.",
+      "**Stať sa** (to become) takes the instrumental: stať sa lekár**om**, stať sa učiteľk**ou**. Like pozvať, it points to the future: Stanem sa lekárom. = I'll become a doctor."
+    ],
+    "t": [
+      "**Jesť** (yemoq) qoidaga boʻysunmaydi. Ehtiyot boʻling: **je** ham «…dir» (byť feʼli: Marek je kuchár), ham «yeydi» degani.",
+      "**Stať sa** (boʻlmoq, aylanmoq) inštrumentál talab qiladi: stať sa lekár**om**, stať sa učiteľk**ou**. pozvať kabi u ham kelajakni bildiradi: Stanem sa lekárom. = Shifokor boʻlaman."
+    ]
+  },
+  "u6-l6.2.table.head": {
+    "en": [
+      "",
+      "jesť",
+      "stať sa"
+    ],
+    "t": [
+      "",
+      "jesť",
+      "stať sa"
+    ]
+  },
+  "u6-l6.2.table.rows": {
+    "en": [
+      [
+        "ja",
+        "jem",
+        "stan**em** sa"
+      ],
+      [
+        "ty",
+        "ješ",
+        "stan**eš** sa"
+      ],
+      [
+        "on, ona",
+        "je",
+        "stan**e** sa"
+      ],
+      [
+        "my",
+        "jeme",
+        "stan**eme** sa"
+      ],
+      [
+        "vy",
+        "jete",
+        "stan**ete** sa"
+      ],
+      [
+        "oni",
+        "**jedia**",
+        "stan**ú** sa"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "jem",
+        "stan**em** sa"
+      ],
+      [
+        "ty",
+        "ješ",
+        "stan**eš** sa"
+      ],
+      [
+        "on, ona",
+        "je",
+        "stan**e** sa"
+      ],
+      [
+        "my",
+        "jeme",
+        "stan**eme** sa"
+      ],
+      [
+        "vy",
+        "jete",
+        "stan**ete** sa"
+      ],
+      [
+        "oni",
+        "**jedia**",
+        "stan**ú** sa"
+      ]
+    ]
+  },
+  "u6-l6.2.examples": {
+    "en": [
+      "Marek is a cook. Now he's eating soup.",
+      "Emma wants to become a doctor."
+    ],
+    "t": [
+      "Marek — oshpaz. Hozir u shoʻrva yeyapti.",
+      "Emma shifokor boʻlmoqchi."
+    ]
+  },
+  "u6-l6.3.en": {
+    "en": "What are you drinking, Emma? — I'm drinking tea.",
+    "t": "Nima ichyapsan, Emma? — Choy ichyapman."
+  },
+  "u6-l6.4.en": {
+    "en": "Lucia and Emma drink coffee with milk.",
+    "t": "Lusiya va Emma sutli qahva ichadi."
+  },
+  "u6-l6.5.en": {
+    "en": "Marek is carrying the soup to the table.",
+    "t": "Marek shoʻrvani stolga olib kelyapti."
+  },
+  "u6-l6.6.prompt": {
+    "en": "I'll invite Lucia to dinner.",
+    "t": "Lusiyani kechki ovqatga taklif qilaman."
+  },
+  "u6-l6.7.en": {
+    "en": "Thanks for the invitation.",
+    "t": "Taklif uchun rahmat."
+  },
+  "u6-l6.7.note": {
+    "en": "If they ask “Prídeš?” (Will you come?): Určite. (Definitely.) or Možno. (Maybe.)",
+    "t": "Agar «Prídeš?» (Kelasanmi?) deb soʻrashsa: Určite. (Albatta.) yoki Možno. (Balki.)"
+  },
+  "u6-l6.8.question": {
+    "en": "Tomáš says “Pozvem ťa na večeru.” What's a natural reply?",
+    "t": "Tomash «Pozvem ťa na večeru.» deydi. Qaysi javob mos keladi?"
+  },
+  "u6-l6.9.en": {
+    "en": "What are you eating, Tomáš?",
+    "t": "Nima yeyapsan, Tomash?"
+  },
+  "u6-l6.10.en": {
+    "en": "I'm eating fish and Lucia is eating chicken.",
+    "t": "Men baliq yeyapman, Lusiya esa tovuq goʻshti yeyapti."
+  },
+  "u6-l6.11.en": {
+    "en": "Emma and Lucia are eating fish with rice.",
+    "t": "Emma va Lusiya guruch bilan baliq yeyapti."
+  },
+  "u6-l6.12.en": {
+    "en": "Lucia wants to become a teacher.",
+    "t": "Lusiya oʻqituvchi boʻlmoqchi."
+  },
+  "u6-l6.13.prompt": {
+    "en": "We live in Bratislava.",
+    "t": "Biz Bratislavada yashaymiz."
+  },
+  "u6-l6.14.answers": {
+    "en": [
+      "Tomáš and Marek are drinking beer."
+    ],
+    "t": [
+      "Tomash va Marek pivo ichyapti."
+    ]
+  },
+  "u6-l6.14.distractors": {
+    "en": [
+      "wine",
+      "eating"
+    ],
+    "t": [
+      "vino",
+      "yeyapti"
+    ]
+  },
+  "u6-l6.15.en": {
+    "en": "I want to become a cook.",
+    "t": "Men oshpaz boʻlmoqchiman."
+  },
+  "u6-l6.16.en": {
+    "en": "I'll buy you a coffee.",
+    "t": "Seni qahvaga taklif qilaman."
+  },
+  "u6-l6.17.en": {
+    "en": "I'll invite you to dinner.",
+    "t": "Seni kechki ovqatga taklif qilaman."
+  },
+  "u6-l7.titleEn": {
+    "en": "Review",
+    "t": "Takrorlash"
+  },
+  "u6-l7.0.question": {
+    "en": "What's wrong with the soup?",
+    "t": "Shoʻrvada qanday muammo bor?"
+  },
+  "u6-l7.0.options": {
+    "en": [
+      "It's very salty.",
+      "It's very sweet.",
+      "It's very hot."
+    ],
+    "t": [
+      "Juda shoʻr.",
+      "Juda shirin.",
+      "Juda issiq."
+    ]
+  },
+  "u6-l7.1.prompt": {
+    "en": "I'll have the soup and fish with rice.",
+    "t": "Men shoʻrva va guruch bilan baliq olaman."
+  },
+  "u6-l7.2.en": {
+    "en": "And to drink? — Mineral water, please.",
+    "t": "Ichishga nima olasiz? — Mineral suv, iltimos."
+  },
+  "u6-l7.3.pairs": {
+    "en": [
+      "with milk",
+      "with lemon",
+      "with cheese",
+      "with rice"
+    ],
+    "t": [
+      "sut bilan",
+      "limon bilan",
+      "pishloq bilan",
+      "guruch bilan"
+    ]
+  },
+  "u6-l7.4.en": {
+    "en": "Do you like the fish?",
+    "t": "Baliq senga yoqyaptimi?"
+  },
+  "u6-l7.5.en": {
+    "en": "Marek is standing behind Tomáš.",
+    "t": "Marek Tomashning orqasida turibdi."
+  },
+  "u6-l7.6.answers": {
+    "en": [
+      "Are you coming home with me?"
+    ],
+    "t": [
+      "Men bilan uyga borasanmi?",
+      "Uyga men bilan borasanmi?"
+    ]
+  },
+  "u6-l7.6.distractors": {
+    "en": [
+      "us",
+      "by"
+    ],
+    "t": [
+      "biz",
+      "boraman"
+    ]
+  },
+  "u6-l7.7.en": {
+    "en": "Tomáš is going home by taxi.",
+    "t": "Tomash uyga taksida ketyapti."
+  },
+  "u6-l7.8.question": {
+    "en": "How do you ask for the bill?",
+    "t": "Hisobni qanday soʻraysiz?"
+  },
+  "u6-l7.9.prompt": {
+    "en": "We're going home by tram.",
+    "t": "Biz uyga tramvayda ketyapmiz."
+  },
+  "u6-l7.10.en": {
+    "en": "Lucia, I'll take you out to dinner.",
+    "t": "Lusiya, seni kechki ovqatga taklif qilaman."
+  },
+  "u6-l7.11.en": {
+    "en": "Tomáš is drinking beer with Marek.",
+    "t": "Tomash Marek bilan pivo ichyapti."
+  },
+  "u6-l7.12.prompt": {
+    "en": "Lucia wants to become a teacher.",
+    "t": "Lusiya oʻqituvchi boʻlmoqchi."
+  },
+  "u6-l7.13.question": {
+    "en": "How do you say “The cat is under the table”?",
+    "t": "«Mushuk stol ostida» qanday aytiladi?"
+  },
+  "u6-l7.14.en": {
+    "en": "How are you getting home, Mrs Horváthová?",
+    "t": "Uyga qanday ketasiz, Horvatova xonim?"
+  },
+  "u6-l7.15.en": {
+    "en": "I'll have coffee with milk.",
+    "t": "Men sut bilan qahva olaman."
+  }
+}

@@ -37,6 +37,26 @@ import ru7 from "./translations/ru/unit7.json";
 import ru8 from "./translations/ru/unit8.json";
 import ru9 from "./translations/ru/unit9.json";
 import ru10 from "./translations/ru/unit10.json";
+import uz1 from "./translations/uz/unit1.json";
+import uz2 from "./translations/uz/unit2.json";
+import uz3 from "./translations/uz/unit3.json";
+import uz4 from "./translations/uz/unit4.json";
+import uz5 from "./translations/uz/unit5.json";
+import uz6 from "./translations/uz/unit6.json";
+import uz7 from "./translations/uz/unit7.json";
+import uz8 from "./translations/uz/unit8.json";
+import uz9 from "./translations/uz/unit9.json";
+import uz10 from "./translations/uz/unit10.json";
+import ka1 from "./translations/ka/unit1.json";
+import ka2 from "./translations/ka/unit2.json";
+import ka3 from "./translations/ka/unit3.json";
+import ka4 from "./translations/ka/unit4.json";
+import ka5 from "./translations/ka/unit5.json";
+import ka6 from "./translations/ka/unit6.json";
+import ka7 from "./translations/ka/unit7.json";
+import ka8 from "./translations/ka/unit8.json";
+import ka9 from "./translations/ka/unit9.json";
+import ka10 from "./translations/ka/unit10.json";
 
 export type * from "./types";
 export * from "./helpers";
@@ -52,6 +72,8 @@ export const allLessons: Lesson[] = course.flatMap((u) => u.lessons);
 const catalogs: Record<Exclude<Locale, "en">, Catalog[]> = {
   uk: [uk1, uk2, uk3, uk4, uk5, uk6, uk7, uk8, uk9, uk10] as Catalog[],
   ru: [ru1, ru2, ru3, ru4, ru5, ru6, ru7, ru8, ru9, ru10] as Catalog[],
+  uz: [uz1, uz2, uz3, uz4, uz5, uz6, uz7, uz8, uz9, uz10] as Catalog[],
+  ka: [ka1, ka2, ka3, ka4, ka5, ka6, ka7, ka8, ka9, ka10] as Catalog[],
 };
 
 /**

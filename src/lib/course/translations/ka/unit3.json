@@ -1,0 +1,1149 @@
+{
+  "u3.titleEn": {
+    "en": "Dormitory",
+    "t": "საერთო საცხოვრებელი"
+  },
+  "u3.topics": {
+    "en": [
+      "The dormitory",
+      "Rooms and furniture",
+      "Where is it?",
+      "Opposites"
+    ],
+    "t": [
+      "საერთო საცხოვრებელი",
+      "ოთახები და ავეჯი",
+      "სად არის?",
+      "საპირისპირო სიტყვები"
+    ]
+  },
+  "u3.grammar": {
+    "en": [
+      "Adjectives: -ý, -á, -é",
+      "Possessives: môj, tvoj, náš…",
+      "Čí? Aký? Ktorý?"
+    ],
+    "t": [
+      "ზედსართავი სახელი: -ý, -á, -é",
+      "კუთვნილებითი ნაცვალსახელები: môj, tvoj, náš…",
+      "Čí? Aký? Ktorý?"
+    ]
+  },
+  "u3-l1.titleEn": {
+    "en": "The dormitory",
+    "t": "საერთო საცხოვრებელი"
+  },
+  "u3-l1.0.en": {
+    "en": "room",
+    "t": "ოთახი"
+  },
+  "u3-l1.1.en": {
+    "en": "kitchen",
+    "t": "სამზარეულო"
+  },
+  "u3-l1.2.en": {
+    "en": "bathroom",
+    "t": "აბაზანა"
+  },
+  "u3-l1.2.note": {
+    "en": "In Slovak homes the toilet (WC) is often a separate little room.",
+    "t": "სლოვაკურ სახლებში ტუალეტი (WC) ხშირად ცალკე პატარა ოთახია."
+  },
+  "u3-l1.3.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს?"
+  },
+  "u3-l1.3.options": {
+    "en": [
+      "kitchen",
+      "bathroom",
+      "room"
+    ],
+    "t": [
+      "სამზარეულო",
+      "აბაზანა",
+      "ოთახი"
+    ]
+  },
+  "u3-l1.4.en": {
+    "en": "balcony",
+    "t": "აივანი"
+  },
+  "u3-l1.5.pairs": {
+    "en": [
+      "room",
+      "kitchen",
+      "bathroom",
+      "balcony"
+    ],
+    "t": [
+      "ოთახი",
+      "სამზარეულო",
+      "აბაზანა",
+      "აივანი"
+    ]
+  },
+  "u3-l1.6.en": {
+    "en": "Where is the kitchen?",
+    "t": "სად არის სამზარეულო?"
+  },
+  "u3-l1.6.note": {
+    "en": "**kde** = where",
+    "t": "**kde** = სად"
+  },
+  "u3-l1.7.en": {
+    "en": "upstairs – downstairs",
+    "t": "ზემოთ – ქვემოთ"
+  },
+  "u3-l1.7.note": {
+    "en": "Also simply up and down. Kuchyňa je **hore**. = The kitchen is upstairs.",
+    "t": "ზედა და ქვედა სართული, ან უბრალოდ „მაღლა“ და „დაბლა“. Kuchyňa je **hore**. = სამზარეულო ზემოთაა."
+  },
+  "u3-l1.8.question": {
+    "en": "How do you say “The kitchen is downstairs”?",
+    "t": "როგორ ვთქვათ „სამზარეულო ქვემოთაა“?"
+  },
+  "u3-l1.9.en": {
+    "en": "The bathroom is upstairs.",
+    "t": "აბაზანა ზემოთაა."
+  },
+  "u3-l1.10.en": {
+    "en": "front desk, porter's lodge",
+    "t": "რეცეფცია, კარისკაცის ოთახი"
+  },
+  "u3-l1.10.note": {
+    "en": "The desk at the entrance, where the porter (**vrátnik**) sits. In Emma's dorm, that's pán Kováč.",
+    "t": "შესასვლელთან მაგიდა, სადაც კარისკაცი (**vrátnik**) ზის. ემას საერთო საცხოვრებელში ეს ბატონი კოვაჩია."
+  },
+  "u3-l1.11.en": {
+    "en": "The front desk is downstairs.",
+    "t": "რეცეფცია ქვემოთაა."
+  },
+  "u3-l1.12.en": {
+    "en": "I live in the dorm.",
+    "t": "საერთო საცხოვრებელში ვცხოვრობ."
+  },
+  "u3-l1.12.note": {
+    "en": "**internát** = student dormitory. Emma and Lucia share a room there.",
+    "t": "**internát** = სტუდენტური საერთო საცხოვრებელი. ემა და ლუცია იქ ერთ ოთახში ცხოვრობენ."
+  },
+  "u3-l1.13.prompt": {
+    "en": "Where is the bathroom?",
+    "t": "სად არის აბაზანა?"
+  },
+  "u3-l1.14.answers": {
+    "en": [
+      "The room is upstairs and the kitchen is downstairs.",
+      "The room is upstairs and the kitchen downstairs."
+    ],
+    "t": [
+      "ოთახი ზემოთაა და სამზარეულო ქვემოთაა.",
+      "სამზარეულო ქვემოთაა და ოთახი ზემოთაა.",
+      "ოთახი ზემოთაა, სამზარეულო კი ქვემოთ."
+    ]
+  },
+  "u3-l1.14.distractors": {
+    "en": [
+      "bathroom",
+      "here"
+    ],
+    "t": [
+      "აბაზანა",
+      "აქ"
+    ]
+  },
+  "u3-l1.15.prompt": {
+    "en": "Emma lives in the dorm.",
+    "t": "ემა საერთო საცხოვრებელში ცხოვრობს."
+  },
+  "u3-l1.16.question": {
+    "en": "Lucia wants to cook. Where does she go?",
+    "t": "ლუციას საჭმლის მომზადება უნდა. სად წავა?"
+  },
+  "u3-l1.17.en": {
+    "en": "Where is the bathroom?",
+    "t": "სად არის აბაზანა?"
+  },
+  "u3-l2.titleEn": {
+    "en": "What is it like?",
+    "t": "როგორია?"
+  },
+  "u3-l2.0.en": {
+    "en": "big – small",
+    "t": "დიდი – პატარა"
+  },
+  "u3-l2.1.en": {
+    "en": "new – old",
+    "t": "ახალი – ძველი"
+  },
+  "u3-l2.2.title": {
+    "en": "One adjective, three endings",
+    "t": "ერთი ზედსართავი, სამი დაბოლოება"
+  },
+  "u3-l2.2.body": {
+    "en": [
+      "An adjective takes the gender of its noun: **-ý** for masculine, **-á** for feminine, **-é** for neuter.",
+      "The ending is the same before the noun (malá izba) and after je (Izba je malá)."
+    ],
+    "t": [
+      "ზედსართავი სახელი თავისი არსებითი სახელის სქესს ეთანხმება: **-ý** მამრობითში, **-á** მდედრობითში, **-é** საშუალოში. ქართულში „დიდი“ ყველა სიტყვასთან ერთნაირია, სლოვაკურში კი დაბოლოება იმაზეა დამოკიდებული, რომელ სიტყვას ეკუთვნის.",
+      "დაბოლოება ერთი და იგივეა არსებითი სახელის წინაც (malá izba) და je-ს შემდეგაც (Izba je malá)."
+    ]
+  },
+  "u3-l2.2.table.head": {
+    "en": [
+      "masculine",
+      "feminine",
+      "neuter"
+    ],
+    "t": [
+      "მამრობითი",
+      "მდედრობითი",
+      "საშუალო"
+    ]
+  },
+  "u3-l2.2.table.rows": {
+    "en": [
+      [
+        "veľk**ý** balkón",
+        "veľk**á** izba",
+        "veľk**é** auto"
+      ],
+      [
+        "mal**ý** internát",
+        "mal**á** kúpeľňa",
+        "mal**é** auto"
+      ],
+      [
+        "nov**ý** balkón",
+        "nov**á** kuchyňa",
+        "nov**é** auto"
+      ]
+    ],
+    "t": [
+      [
+        "veľk**ý** balkón",
+        "veľk**á** izba",
+        "veľk**é** auto"
+      ],
+      [
+        "mal**ý** internát",
+        "mal**á** kúpeľňa",
+        "mal**é** auto"
+      ],
+      [
+        "nov**ý** balkón",
+        "nov**á** kuchyňa",
+        "nov**é** auto"
+      ]
+    ]
+  },
+  "u3-l2.2.examples": {
+    "en": [
+      "The dorm is old.",
+      "The kitchen is new.",
+      "The car is small."
+    ],
+    "t": [
+      "საერთო საცხოვრებელი ძველია.",
+      "სამზარეულო ახალია.",
+      "მანქანა პატარაა."
+    ]
+  },
+  "u3-l2.3.en": {
+    "en": "The room is big.",
+    "t": "ოთახი დიდია."
+  },
+  "u3-l2.4.en": {
+    "en": "The balcony is small.",
+    "t": "აივანი პატარაა."
+  },
+  "u3-l2.5.question": {
+    "en": "Which one is correct?",
+    "t": "რომელია სწორი?"
+  },
+  "u3-l2.6.en": {
+    "en": "small but nice",
+    "t": "პატარა, მაგრამ ლამაზი"
+  },
+  "u3-l2.6.note": {
+    "en": "**pekný** = nice, pretty. **ale** = but. Pekný works the same way: pekn**á** izba.",
+    "t": "**pekný** = ლამაზი, კარგი. **ale** = მაგრამ. Pekný-ც ასევე იცვლება: pekn**á** izba."
+  },
+  "u3-l2.7.prompt": {
+    "en": "That's a big kitchen.",
+    "t": "ეს დიდი სამზარეულოა."
+  },
+  "u3-l2.8.en": {
+    "en": "The room is small but nice.",
+    "t": "ოთახი პატარაა, მაგრამ ლამაზია."
+  },
+  "u3-l2.9.title": {
+    "en": "Aký? What is it like?",
+    "t": "Aký? როგორი?"
+  },
+  "u3-l2.9.body": {
+    "en": [
+      "To ask what something is like, use **aký?** It changes just like an adjective: **aký** (masculine), **aká** (feminine), **aké** (neuter)."
+    ],
+    "t": [
+      "რომ იკითხოთ, როგორია რამე, გამოიყენეთ **aký?** ის ზედსართავივით იცვლება: **aký** (მამრობითი), **aká** (მდედრობითი), **aké** (საშუალო)."
+    ]
+  },
+  "u3-l2.9.examples": {
+    "en": [
+      "What's the dorm like? – Old.",
+      "What's the room like? – Nice.",
+      "What's the car like? – New."
+    ],
+    "t": [
+      "როგორია საერთო საცხოვრებელი? – ძველი.",
+      "როგორია ოთახი? – ლამაზი.",
+      "როგორია მანქანა? – ახალი."
+    ]
+  },
+  "u3-l2.10.en": {
+    "en": "What's the bathroom like?",
+    "t": "როგორია აბაზანა?"
+  },
+  "u3-l2.11.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს?"
+  },
+  "u3-l2.11.options": {
+    "en": [
+      "What is the balcony like?",
+      "Where is the balcony?",
+      "Is the balcony big?"
+    ],
+    "t": [
+      "როგორია აივანი?",
+      "სად არის აივანი?",
+      "აივანი დიდია?"
+    ]
+  },
+  "u3-l2.12.en": {
+    "en": "What's the car like? – It's old.",
+    "t": "როგორია მანქანა? – ძველია."
+  },
+  "u3-l2.13.prompt": {
+    "en": "What is the dorm like?",
+    "t": "როგორია საერთო საცხოვრებელი?"
+  },
+  "u3-l2.14.answers": {
+    "en": [
+      "The kitchen is old but nice.",
+      "The kitchen is old but pretty."
+    ],
+    "t": [
+      "სამზარეულო ძველია, მაგრამ ლამაზია."
+    ]
+  },
+  "u3-l2.14.distractors": {
+    "en": [
+      "new",
+      "small"
+    ],
+    "t": [
+      "ახალია",
+      "პატარაა"
+    ]
+  },
+  "u3-l2.15.en": {
+    "en": "The dorm is big, but the kitchen is small.",
+    "t": "საერთო საცხოვრებელი დიდია, მაგრამ სამზარეულო პატარაა."
+  },
+  "u3-l2.16.en": {
+    "en": "The room is big and nice.",
+    "t": "ოთახი დიდია და ლამაზი."
+  },
+  "u3-l3.titleEn": {
+    "en": "In the room",
+    "t": "ოთახში"
+  },
+  "u3-l3.0.en": {
+    "en": "bed",
+    "t": "საწოლი"
+  },
+  "u3-l3.0.note": {
+    "en": "Posteľ is feminine, even without -a: posteľ je mal**á**.",
+    "t": "Posteľ მდედრობითი სქესისაა, თუმცა -a-ზე არ ბოლოვდება: posteľ je mal**á**."
+  },
+  "u3-l3.1.en": {
+    "en": "table, desk",
+    "t": "მაგიდა, სამუშაო მაგიდა"
+  },
+  "u3-l3.2.en": {
+    "en": "wardrobe",
+    "t": "კარადა"
+  },
+  "u3-l3.3.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს?"
+  },
+  "u3-l3.3.options": {
+    "en": [
+      "wardrobe",
+      "bed",
+      "window"
+    ],
+    "t": [
+      "კარადა",
+      "საწოლი",
+      "ფანჯარა"
+    ]
+  },
+  "u3-l3.4.en": {
+    "en": "lamp",
+    "t": "ლამპა"
+  },
+  "u3-l3.5.en": {
+    "en": "window",
+    "t": "ფანჯარა"
+  },
+  "u3-l3.5.note": {
+    "en": "Okno is neuter, like auto: okno je veľk**é**.",
+    "t": "Okno საშუალო სქესისაა, როგორც auto: okno je veľk**é**."
+  },
+  "u3-l3.6.pairs": {
+    "en": [
+      "bed",
+      "desk",
+      "wardrobe",
+      "lamp",
+      "window"
+    ],
+    "t": [
+      "საწოლი",
+      "მაგიდა",
+      "კარადა",
+      "ლამპა",
+      "ფანჯარა"
+    ]
+  },
+  "u3-l3.7.en": {
+    "en": "on the left – on the right",
+    "t": "მარცხნივ – მარჯვნივ"
+  },
+  "u3-l3.8.en": {
+    "en": "The desk is on the left.",
+    "t": "მაგიდა მარცხნივაა."
+  },
+  "u3-l3.9.en": {
+    "en": "The lamp is on the right.",
+    "t": "ლამპა მარჯვნივაა."
+  },
+  "u3-l3.10.en": {
+    "en": "at the front – at the back",
+    "t": "წინ – უკან"
+  },
+  "u3-l3.11.question": {
+    "en": "How do you say “The wardrobe is at the back”?",
+    "t": "როგორ ვთქვათ „კარადა უკანაა“?"
+  },
+  "u3-l3.12.prompt": {
+    "en": "The desk is on the left and the bed is on the right.",
+    "t": "მაგიდა მარცხნივაა, საწოლი კი მარჯვნივ."
+  },
+  "u3-l3.13.en": {
+    "en": "The window is big.",
+    "t": "ფანჯარა დიდია."
+  },
+  "u3-l3.14.en": {
+    "en": "The bed is new.",
+    "t": "საწოლი ახალია."
+  },
+  "u3-l3.15.answers": {
+    "en": [
+      "The room is small but the window is big.",
+      "The room is small but the window is large."
+    ],
+    "t": [
+      "ოთახი პატარაა, მაგრამ ფანჯარა დიდია."
+    ]
+  },
+  "u3-l3.15.distractors": {
+    "en": [
+      "bed",
+      "left"
+    ],
+    "t": [
+      "საწოლი",
+      "მარცხნივ"
+    ]
+  },
+  "u3-l3.16.en": {
+    "en": "The lamp is on the left.",
+    "t": "ლამპა მარცხნივაა."
+  },
+  "u3-l4.titleEn": {
+    "en": "Whose is it?",
+    "t": "ვისია?"
+  },
+  "u3-l4.0.title": {
+    "en": "My, your, our",
+    "t": "ჩემი, შენი, ჩვენი"
+  },
+  "u3-l4.0.body": {
+    "en": [
+      "Possessives match the gender of the thing owned, just like adjectives: môj stôl, moj**a** izba, moj**e** okno.",
+      "Watch the vowel: m**ô**j but m**o**ja, n**á**š but n**a**ša. Use **tvoj** with ty and **váš** with vy."
+    ],
+    "t": [
+      "კუთვნილებითი ნაცვალსახელები („ჩემი“, „შენი“…) საგნის სქესს ეთანხმება, ისევე როგორც ზედსართავები: môj stôl, moj**a** izba, moj**e** okno.",
+      "ყურადღება მიაქციეთ ხმოვანს: m**ô**j, მაგრამ m**o**ja; n**á**š, მაგრამ n**a**ša. **tvoj** („შენი“) — ty-სთან, **váš** („თქვენი“) — vy-სთან."
+    ]
+  },
+  "u3-l4.0.table.head": {
+    "en": [
+      "",
+      "masculine",
+      "feminine",
+      "neuter"
+    ],
+    "t": [
+      "ქართულად",
+      "მამრობითი",
+      "მდედრობითი",
+      "საშუალო"
+    ]
+  },
+  "u3-l4.0.table.rows": {
+    "en": [
+      [
+        "my",
+        "môj",
+        "moj**a**",
+        "moj**e**"
+      ],
+      [
+        "your (ty)",
+        "tvoj",
+        "tvoj**a**",
+        "tvoj**e**"
+      ],
+      [
+        "our",
+        "náš",
+        "naš**a**",
+        "naš**e**"
+      ],
+      [
+        "your (vy)",
+        "váš",
+        "vaš**a**",
+        "vaš**e**"
+      ]
+    ],
+    "t": [
+      [
+        "ჩემი",
+        "môj",
+        "moj**a**",
+        "moj**e**"
+      ],
+      [
+        "შენი (ty)",
+        "tvoj",
+        "tvoj**a**",
+        "tvoj**e**"
+      ],
+      [
+        "ჩვენი",
+        "náš",
+        "naš**a**",
+        "naš**e**"
+      ],
+      [
+        "თქვენი (vy)",
+        "váš",
+        "vaš**a**",
+        "vaš**e**"
+      ]
+    ]
+  },
+  "u3-l4.0.examples": {
+    "en": [
+      "That's my desk.",
+      "Your bed is on the left.",
+      "Our window is big."
+    ],
+    "t": [
+      "ეს ჩემი მაგიდაა.",
+      "შენი საწოლი მარცხნივაა.",
+      "ჩვენი ფანჯარა დიდია."
+    ]
+  },
+  "u3-l4.1.title": {
+    "en": "His, her, their",
+    "t": "Jeho, jej, ich: მისი და მათი"
+  },
+  "u3-l4.1.body": {
+    "en": [
+      "**jeho** (his), **jej** (her) and **ich** (their) never change. They go with any noun."
+    ],
+    "t": [
+      "**jeho** (მისი — კაცის), **jej** (მისი — ქალის) და **ich** (მათი) არასდროს იცვლება და ნებისმიერ არსებით სახელთან გამოიყენება. ქართულ „მისი“-ს სლოვაკურში ორი სიტყვა შეესაბამება: კაცისთვის და ქალისთვის."
+    ]
+  },
+  "u3-l4.1.examples": {
+    "en": [
+      "That's his desk.",
+      "That's her bed.",
+      "Their window is small."
+    ],
+    "t": [
+      "ეს მისი მაგიდაა.",
+      "ეს მისი საწოლია.",
+      "მათი ფანჯარა პატარაა."
+    ]
+  },
+  "u3-l4.2.en": {
+    "en": "That's my room.",
+    "t": "ეს ჩემი ოთახია."
+  },
+  "u3-l4.3.en": {
+    "en": "Where is your desk?",
+    "t": "სად არის შენი მაგიდა?"
+  },
+  "u3-l4.4.pairs": {
+    "en": [
+      "my",
+      "our",
+      "his",
+      "her",
+      "their"
+    ],
+    "t": [
+      "ჩემი",
+      "ჩვენი",
+      "მისი (კაცის)",
+      "მისი (ქალის)",
+      "მათი"
+    ]
+  },
+  "u3-l4.5.prompt": {
+    "en": "That's our kitchen.",
+    "t": "ეს ჩვენი სამზარეულოა."
+  },
+  "u3-l4.6.en": {
+    "en": "His bed is on the left.",
+    "t": "მისი საწოლი მარცხნივაა."
+  },
+  "u3-l4.7.title": {
+    "en": "Čí? Whose?",
+    "t": "Čí? ვისი?"
+  },
+  "u3-l4.7.body": {
+    "en": [
+      "**Čí?** means whose. It matches the gender of the thing too: **čí** (masculine), **čia** (feminine), **čie** (neuter).",
+      "A short answer is just the possessive: Môj. Jej. Naše."
+    ],
+    "t": [
+      "**Čí?** ნიშნავს „ვისი?“. ისიც საგნის სქესს ეთანხმება: **čí** (მამრობითი), **čia** (მდედრობითი), **čie** (საშუალო).",
+      "მოკლე პასუხი უბრალოდ კუთვნილებითი ნაცვალსახელია: Môj. Jej. Naše."
+    ]
+  },
+  "u3-l4.7.examples": {
+    "en": [
+      "Whose desk is it? – Mine.",
+      "Whose lamp is it? – Hers.",
+      "Whose window is it? – Ours."
+    ],
+    "t": [
+      "ვისი მაგიდაა? – ჩემი.",
+      "ვისი ლამპაა? – მისი.",
+      "ვისი ფანჯარაა? – ჩვენი."
+    ]
+  },
+  "u3-l4.8.en": {
+    "en": "Whose bed is it?",
+    "t": "ვისი საწოლია?"
+  },
+  "u3-l4.9.question": {
+    "en": "“Čia je to skriňa?” Which answer fits?",
+    "t": "„Čia je to skriňa?“ რომელი პასუხი შეეფერება?"
+  },
+  "u3-l4.10.prompt": {
+    "en": "Whose window is it?",
+    "t": "ვისი ფანჯარაა?"
+  },
+  "u3-l4.11.en": {
+    "en": "Lucia, where is your wardrobe?",
+    "t": "ლუცია, სად არის შენი კარადა?"
+  },
+  "u3-l4.12.en": {
+    "en": "Mrs Horváthová, is this your lamp?",
+    "t": "ქალბატონო ჰორვატოვა, ეს თქვენი ლამპაა?"
+  },
+  "u3-l4.13.prompt": {
+    "en": "Their room is upstairs.",
+    "t": "მათი ოთახი ზემოთაა."
+  },
+  "u3-l4.14.en": {
+    "en": "That's my room.",
+    "t": "ეს ჩემი ოთახია."
+  },
+  "u3-l5.titleEn": {
+    "en": "A new flat",
+    "t": "ახალი ბინა"
+  },
+  "u3-l5.0.en": {
+    "en": "flat, apartment",
+    "t": "ბინა"
+  },
+  "u3-l5.0.note": {
+    "en": "Marek, Lucia's brother, has a new flat. Byt is masculine: nov**ý** byt.",
+    "t": "ლუციას ძმას, მარეკს, ახალი ბინა აქვს. Byt მამრობითი სქესისაა: nov**ý** byt."
+  },
+  "u3-l5.1.en": {
+    "en": "Come in!",
+    "t": "შემობრძანდით!"
+  },
+  "u3-l5.1.note": {
+    "en": "To two or more people, or formally. To one friend: **Poď ďalej!**",
+    "t": "ორ ან მეტ ადამიანს, ან თავაზიანად. ერთ მეგობარს: **Poď ďalej!** (შემოდი!)"
+  },
+  "u3-l5.2.question": {
+    "en": "Marek opens the door for Emma and Lucia. What does he say?",
+    "t": "მარეკი ემას და ლუციას კარს უღებს. რას ამბობს?"
+  },
+  "u3-l5.3.en": {
+    "en": "hallway",
+    "t": "დერეფანი"
+  },
+  "u3-l5.4.en": {
+    "en": "living room",
+    "t": "მისაღები ოთახი"
+  },
+  "u3-l5.4.note": {
+    "en": "The full name is **obývacia izba**. Obývací is a soft adjective: it ends in **-í, -ia, -ie**, not -ý, -á, -é.",
+    "t": "სრული სახელია **obývacia izba**. Obývací „რბილი“ ზედსართავია: მისი დაბოლოებებია **-í, -ia, -ie**, და არა -ý, -á, -é."
+  },
+  "u3-l5.5.en": {
+    "en": "bedroom",
+    "t": "საძინებელი"
+  },
+  "u3-l5.6.pairs": {
+    "en": [
+      "flat",
+      "hallway",
+      "living room",
+      "bedroom",
+      "kitchen"
+    ],
+    "t": [
+      "ბინა",
+      "დერეფანი",
+      "მისაღები ოთახი",
+      "საძინებელი",
+      "სამზარეულო"
+    ]
+  },
+  "u3-l5.7.en": {
+    "en": "The hallway is in the middle.",
+    "t": "დერეფანი შუაშია."
+  },
+  "u3-l5.7.note": {
+    "en": "**v strede** = in the middle",
+    "t": "**v strede** = შუაში"
+  },
+  "u3-l5.8.en": {
+    "en": "The hallway is in the middle.",
+    "t": "დერეფანი შუაშია."
+  },
+  "u3-l5.9.en": {
+    "en": "The bedroom is on the left and the living room on the right.",
+    "t": "საძინებელი მარცხნივაა, მისაღები ოთახი კი მარჯვნივ."
+  },
+  "u3-l5.10.en": {
+    "en": "expensive – cheap",
+    "t": "ძვირი – იაფი"
+  },
+  "u3-l5.11.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს?"
+  },
+  "u3-l5.11.options": {
+    "en": [
+      "The flat is expensive.",
+      "The flat is cheap.",
+      "The flat is new."
+    ],
+    "t": [
+      "ბინა ძვირია.",
+      "ბინა იაფია.",
+      "ბინა ახალია."
+    ]
+  },
+  "u3-l5.12.en": {
+    "en": "bright – dark",
+    "t": "ნათელი – ბნელი"
+  },
+  "u3-l5.12.note": {
+    "en": "svetl**á** izba = a bright room, full of light",
+    "t": "svetl**á** izba = ნათელი ოთახი, სინათლით სავსე"
+  },
+  "u3-l5.13.en": {
+    "en": "The living room is big and bright.",
+    "t": "მისაღები ოთახი დიდია და ნათელი."
+  },
+  "u3-l5.14.answers": {
+    "en": [
+      "The flat is nice but expensive.",
+      "The apartment is nice but expensive.",
+      "The flat is pretty but expensive."
+    ],
+    "t": [
+      "ბინა ლამაზია, მაგრამ ძვირია.",
+      "ბინა ლამაზია, მაგრამ ძვირი."
+    ]
+  },
+  "u3-l5.14.distractors": {
+    "en": [
+      "cheap",
+      "new"
+    ],
+    "t": [
+      "იაფია",
+      "ახალია"
+    ]
+  },
+  "u3-l5.15.prompt": {
+    "en": "The hallway is dark.",
+    "t": "დერეფანი ბნელია."
+  },
+  "u3-l5.16.en": {
+    "en": "The flat isn't expensive, it's cheap.",
+    "t": "ბინა ძვირი არ არის, იაფია."
+  },
+  "u3-l5.17.en": {
+    "en": "Come in!",
+    "t": "შემობრძანდით!"
+  },
+  "u3-l6.titleEn": {
+    "en": "Which one is yours?",
+    "t": "რომელია შენი?"
+  },
+  "u3-l6.0.title": {
+    "en": "Ktorý? Which one?",
+    "t": "Ktorý? რომელი?"
+  },
+  "u3-l6.0.body": {
+    "en": [
+      "**Ktorý?** asks which one. It changes like an adjective: **ktorý** (masculine), **ktorá** (feminine), **ktoré** (neuter).",
+      "To answer, point with **ten**, **tá**, **to** (that one). Add **-to** for “this one here”: tento, táto, toto."
+    ],
+    "t": [
+      "**Ktorý?** ნიშნავს „რომელი?“. ის ზედსართავივით იცვლება: **ktorý** (მამრობითი), **ktorá** (მდედრობითი), **ktoré** (საშუალო).",
+      "პასუხში მიუთითეთ სიტყვებით **ten**, **tá**, **to** („ის“). „ეს, აი ეს“ რომ თქვათ, დაუმატეთ **-to**: tento, táto, toto."
+    ]
+  },
+  "u3-l6.0.table.head": {
+    "en": [
+      "",
+      "which?",
+      "that one",
+      "this one"
+    ],
+    "t": [
+      "სქესი",
+      "რომელი?",
+      "ის",
+      "ეს"
+    ]
+  },
+  "u3-l6.0.table.rows": {
+    "en": [
+      [
+        "masculine",
+        "ktor**ý**",
+        "ten",
+        "ten**to**"
+      ],
+      [
+        "feminine",
+        "ktor**á**",
+        "tá",
+        "tá**to**"
+      ],
+      [
+        "neuter",
+        "ktor**é**",
+        "to",
+        "to**to**"
+      ]
+    ],
+    "t": [
+      [
+        "მამრობითი",
+        "ktor**ý**",
+        "ten",
+        "ten**to**"
+      ],
+      [
+        "მდედრობითი",
+        "ktor**á**",
+        "tá",
+        "tá**to**"
+      ],
+      [
+        "საშუალო",
+        "ktor**é**",
+        "to",
+        "to**to**"
+      ]
+    ]
+  },
+  "u3-l6.0.examples": {
+    "en": [
+      "Which desk is yours? – The one on the left.",
+      "Which bed is mine? – The one on the right.",
+      "Which window? – This one."
+    ],
+    "t": [
+      "რომელი მაგიდაა შენი? – ის, რომელიც მარცხნივაა.",
+      "რომელი საწოლია ჩემი? – ის, რომელიც მარჯვნივაა.",
+      "რომელი ფანჯარა? – ეს."
+    ]
+  },
+  "u3-l6.1.en": {
+    "en": "Which room is yours?",
+    "t": "რომელი ოთახია შენი?"
+  },
+  "u3-l6.2.en": {
+    "en": "Which desk is mine? – The one at the front.",
+    "t": "რომელი მაგიდაა ჩემი? – ის, რომელიც წინაა."
+  },
+  "u3-l6.3.question": {
+    "en": "Lucia asks: “Ktorá lampa je tvoja?” Emma's lamp is on the left. What does Emma say?",
+    "t": "ლუცია ეკითხება: „Ktorá lampa je tvoja?“ ემას ლამპა მარცხნივაა. რას ეტყვის ემა?"
+  },
+  "u3-l6.4.en": {
+    "en": "Which window? – This one.",
+    "t": "რომელი ფანჯარა? – ეს."
+  },
+  "u3-l6.5.prompt": {
+    "en": "Which window is ours?",
+    "t": "რომელი ფანჯარაა ჩვენი?"
+  },
+  "u3-l6.6.en": {
+    "en": "Which wardrobe is mine?",
+    "t": "რომელი კარადაა ჩემი?"
+  },
+  "u3-l6.7.title": {
+    "en": "Whose? Tomáš's, Lucia's",
+    "t": "ვისი? ტომაშის, ლუციას"
+  },
+  "u3-l6.7.body": {
+    "en": [
+      "To say whose, Slovak turns the name into an adjective. Men's names add **-ov**: Tomáš → Tomáš**ov**. Women's names drop the final -a and add **-in**: Emm**a** → Emm**in**, Luci**a** → Luci**in**.",
+      "Then add the ending for the thing owned: nothing for masculine, **-a** for feminine, **-o** for neuter."
+    ],
+    "t": [
+      "ქართულში ვამბობთ „ტომაშის ბინა“, სლოვაკური კი სახელისგან ზედსართავს აკეთებს. კაცის სახელს ემატება **-ov**: Tomáš → Tomáš**ov**. ქალის სახელი კარგავს ბოლო -a-ს და იღებს **-in**-ს: Emm**a** → Emm**in**, Luci**a** → Luci**in**.",
+      "შემდეგ ემატება დაბოლოება საგნის სქესის მიხედვით: მამრობითში არაფერი, მდედრობითში **-a**, საშუალოში **-o**."
+    ]
+  },
+  "u3-l6.7.table.head": {
+    "en": [
+      "",
+      "masculine",
+      "feminine",
+      "neuter"
+    ],
+    "t": [
+      "სახელი",
+      "მამრობითი",
+      "მდედრობითი",
+      "საშუალო"
+    ]
+  },
+  "u3-l6.7.table.rows": {
+    "en": [
+      [
+        "Tomáš",
+        "Tomáš**ov** stôl",
+        "Tomáš**ova** izba",
+        "Tomáš**ovo** auto"
+      ],
+      [
+        "Lucia",
+        "Luci**in** stôl",
+        "Luci**ina** izba",
+        "Luci**ino** auto"
+      ],
+      [
+        "Emma",
+        "Emm**in** stôl",
+        "Emm**ina** izba",
+        "Emm**ino** auto"
+      ]
+    ],
+    "t": [
+      [
+        "Tomáš",
+        "Tomáš**ov** stôl",
+        "Tomáš**ova** izba",
+        "Tomáš**ovo** auto"
+      ],
+      [
+        "Lucia",
+        "Luci**in** stôl",
+        "Luci**ina** izba",
+        "Luci**ino** auto"
+      ],
+      [
+        "Emma",
+        "Emm**in** stôl",
+        "Emm**ina** izba",
+        "Emm**ino** auto"
+      ]
+    ]
+  },
+  "u3-l6.7.examples": {
+    "en": [
+      "That's Tomáš's flat.",
+      "Lucia's bed is on the left.",
+      "Whose car is it? – Tomáš's."
+    ],
+    "t": [
+      "ეს ტომაშის ბინაა.",
+      "ლუციას საწოლი მარცხნივაა.",
+      "ვისი მანქანაა? – ტომაშის."
+    ]
+  },
+  "u3-l6.8.en": {
+    "en": "That's Tomáš's flat.",
+    "t": "ეს ტომაშის ბინაა."
+  },
+  "u3-l6.9.en": {
+    "en": "Lucia's bed is on the left.",
+    "t": "ლუციას საწოლი მარცხნივაა."
+  },
+  "u3-l6.10.question": {
+    "en": "How do you say “Emma's room”?",
+    "t": "როგორ ვთქვათ „ემას ოთახი“?"
+  },
+  "u3-l6.11.prompt": {
+    "en": "Which bed is Emma's?",
+    "t": "რომელია ემას საწოლი?"
+  },
+  "u3-l6.12.en": {
+    "en": "What's the flat like? – Big and bright.",
+    "t": "როგორია ბინა? – დიდი და ნათელი."
+  },
+  "u3-l6.13.en": {
+    "en": "Which room is yours?",
+    "t": "რომელი ოთახია შენი?"
+  },
+  "u3-l7.titleEn": {
+    "en": "Review",
+    "t": "გამეორება"
+  },
+  "u3-l7.0.pairs": {
+    "en": [
+      "bed",
+      "wardrobe",
+      "window",
+      "front desk",
+      "hallway"
+    ],
+    "t": [
+      "საწოლი",
+      "კარადა",
+      "ფანჯარა",
+      "რეცეფცია",
+      "დერეფანი"
+    ]
+  },
+  "u3-l7.1.en": {
+    "en": "Our kitchen is small.",
+    "t": "ჩვენი სამზარეულო პატარაა."
+  },
+  "u3-l7.2.en": {
+    "en": "The front desk is downstairs, on the left.",
+    "t": "რეცეფცია ქვემოთაა, მარცხნივ."
+  },
+  "u3-l7.3.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს?"
+  },
+  "u3-l7.3.options": {
+    "en": [
+      "Whose bed is it?",
+      "Which bed is it?",
+      "What is the bed like?"
+    ],
+    "t": [
+      "ვისი საწოლია?",
+      "რომელი საწოლია?",
+      "როგორია საწოლი?"
+    ]
+  },
+  "u3-l7.4.prompt": {
+    "en": "My room is upstairs.",
+    "t": "ჩემი ოთახი ზემოთაა."
+  },
+  "u3-l7.5.en": {
+    "en": "Which desk is yours?",
+    "t": "რომელი მაგიდაა შენი?"
+  },
+  "u3-l7.6.answers": {
+    "en": [
+      "Tomáš's flat is big and bright.",
+      "Tomáš's apartment is big and bright."
+    ],
+    "t": [
+      "ტომაშის ბინა დიდია და ნათელი.",
+      "ტომაშის ბინა დიდი და ნათელია."
+    ]
+  },
+  "u3-l7.6.distractors": {
+    "en": [
+      "dark",
+      "small"
+    ],
+    "t": [
+      "ბნელი",
+      "პატარა",
+      "ტომაში"
+    ]
+  },
+  "u3-l7.7.en": {
+    "en": "Where is Emma's lamp?",
+    "t": "სად არის ემას ლამპა?"
+  },
+  "u3-l7.8.question": {
+    "en": "Which answer fits “Aká je izba?”",
+    "t": "რომელი პასუხი შეეფერება კითხვას „Aká je izba?“"
+  },
+  "u3-l7.9.en": {
+    "en": "Their flat is cheap.",
+    "t": "მათი ბინა იაფია."
+  },
+  "u3-l7.10.prompt": {
+    "en": "Which window is yours?",
+    "t": "რომელი ფანჯარაა შენი?"
+  },
+  "u3-l7.11.en": {
+    "en": "Which bed is Lucia's? – The one on the right.",
+    "t": "რომელია ლუციას საწოლი? – ის, რომელიც მარჯვნივაა."
+  },
+  "u3-l7.12.en": {
+    "en": "Mrs Horváthová, is this your desk?",
+    "t": "ქალბატონო ჰორვატოვა, ეს თქვენი მაგიდაა?"
+  },
+  "u3-l7.13.prompt": {
+    "en": "The bathroom is on the right and the kitchen is at the back.",
+    "t": "აბაზანა მარჯვნივაა, სამზარეულო კი უკან."
+  },
+  "u3-l7.14.en": {
+    "en": "His bed is old.",
+    "t": "მისი საწოლი ძველია."
+  },
+  "u3-l7.15.en": {
+    "en": "What's your room like?",
+    "t": "როგორია შენი ოთახი?"
+  }
+}
