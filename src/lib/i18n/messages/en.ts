@@ -39,6 +39,7 @@ export const en = {
   "path.signup.button": "Sign up",
   "dictionary.title": "Dictionary",
   "dictionary.placeholder": "Search in Slovak or English",
+  "dictionary.grammar": "Grammar",
   "dictionary.none": "Nothing found.",
   "path.dailyGoal": "Daily goal",
   "path.xp": "{done}/{goal} XP",

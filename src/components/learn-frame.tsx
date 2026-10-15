@@ -5,21 +5,20 @@ import { usePathname } from "next/navigation";
 import { useApp } from "@/components/app-provider";
 import { Dictionary } from "@/components/dictionary";
 import { BoltIcon, CrownIcon } from "@/components/icons";
-import type { DictionaryEntry } from "@/lib/dictionary";
 
 /**
  * The course tabs' frame on /learn: the tab beside a column with the daily goal and
  * the dictionary (and Premium on A1, whose units it unlocks). Resources has the
  * page to itself.
  */
-export function LearnFrame({ dictionary, children }: { dictionary: DictionaryEntry[]; children: React.ReactNode }) {
+export function LearnFrame({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const { ready, progress, isPremium, todayXp, t } = useApp();
   if (pathname === "/learn/resources") return children;
 
   const onA1 = pathname === "/learn";
   // Its search text comes from session storage, so it waits for the app.
-  const dictionaryCard = (className?: string) => ready && <Dictionary entries={dictionary} className={className} />;
+  const dictionaryCard = (className?: string) => ready && <Dictionary className={className} />;
 
   return (
     <div className="mx-auto flex max-w-5xl gap-10 px-4 py-8">

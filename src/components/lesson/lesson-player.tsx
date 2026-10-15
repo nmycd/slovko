@@ -25,7 +25,7 @@ import { fillSentence, speakableTexts } from "@/lib/course/helpers";
 import type { Illustration } from "@/lib/course/illustrations";
 import { properNames } from "@/lib/course/names";
 import type { Exercise, Lesson } from "@/lib/course/types";
-import { setDictionaryQuery } from "@/lib/dictionary-query";
+import { setDictionaryQuery } from "@/lib/dictionary-store";
 import { unlockAllLessons } from "@/lib/env";
 import type { Locale } from "@/lib/i18n";
 

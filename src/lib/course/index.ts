@@ -3,10 +3,10 @@
 // never downloads every unit. Client-safe helpers live in ./helpers.
 import type { DictionaryEntry } from "../dictionary";
 import { locales, type Locale } from "../i18n/locales";
-import { speakableTexts } from "./helpers";
+import { speakableTexts, stripMarkup } from "./helpers";
 import { addSpelling } from "./spelling";
 import { localizeUnit, type Catalog } from "./translatable";
-import type { Lesson, Unit, UnitOutline } from "./types";
+import type { Exercise, Lesson, Unit, UnitOutline } from "./types";
 import { unit1 } from "./units/unit1";
 import { unit2 } from "./units/unit2";
 import { unit3 } from "./units/unit3";
@@ -96,24 +96,60 @@ export function nextLessonId(lessonId: string): string | null {
   return i >= 0 && i + 1 < allLessons.length ? allLessons[i + 1].id : null;
 }
 
-/** Every word and phrase taught on an intro card, once each (where first taught), for the dictionary on /learn. */
+/**
+ * The dictionary on /learn, in course order: every word and phrase the course
+ * teaches (intro cards, grammar-card examples and matching pairs; each once, where it
+ * first appears), and every grammar card. A word opens the card that teaches it: its
+ * intro or grammar card, or for a matching pair the last of those before the pair.
+ */
 export const dictionary: DictionaryEntry[] = (() => {
   const seen = new Set<string>();
   const entries: DictionaryEntry[] = [];
   localizedCourse.en.forEach((unit, u) =>
-    unit.lessons.forEach((lesson, l) =>
-      lesson.exercises.forEach((ex, index) => {
-        if (ex.type !== "intro" || seen.has(ex.sk.toLowerCase())) return;
-        seen.add(ex.sk.toLowerCase());
-        const meaning = Object.fromEntries(
-          locales.map((locale) => {
-            const same = localizedCourse[locale][u].lessons[l].exercises[index];
-            return [locale, same.type === "intro" ? same.en : ex.en];
-          }),
+    unit.lessons.forEach((lesson, l) => {
+      const place = { lessonId: lesson.id, unit: unit.number, lesson: l + 1 };
+      // A text of exercise `i` in each native language (English where one is missing).
+      const inEach = (i: number, pick: (ex: Exercise) => string | undefined) =>
+        Object.fromEntries(
+          locales.map((locale) => [
+            locale,
+            pick(localizedCourse[locale][u].lessons[l].exercises[i]) ?? pick(lesson.exercises[i]) ?? "",
+          ]),
         ) as Record<Locale, string>;
-        entries.push({ sk: ex.sk, meaning, lessonId: lesson.id, index, unit: unit.number, lesson: l + 1 });
-      }),
-    ),
+      const word = (from: "word" | "phrase", sk: string, meaning: Record<Locale, string>, index: number) => {
+        const text = stripMarkup(sk);
+        const key = text.toLowerCase().replace(/[.!?…]+$/, "");
+        if (seen.has(key)) return;
+        seen.add(key);
+        entries.push({ kind: from, sk: text, meaning, ...place, index });
+      };
+
+      let teaching = -1; // the last intro or grammar card so far
+      lesson.exercises.forEach((ex, i) => {
+        if (ex.type === "intro") {
+          teaching = i;
+          word("word", ex.sk, inEach(i, (x) => (x.type === "intro" ? x.en : undefined)), i);
+        } else if (ex.type === "grammar") {
+          teaching = i;
+          // Found by its title. (Its tables mix Slovak with translations: too noisy to
+          // search; its examples, below, lead here too.)
+          entries.push({
+            kind: "grammar",
+            sk: "",
+            meaning: inEach(i, (x) => (x.type === "grammar" ? x.title : undefined)),
+            ...place,
+            index: i,
+          });
+          ex.examples?.forEach((e, k) =>
+            word("phrase", e.sk, inEach(i, (x) => (x.type === "grammar" ? x.examples?.[k]?.en : undefined)), i),
+          );
+        } else if (ex.type === "match" && teaching >= 0) {
+          ex.pairs.forEach((p, k) =>
+            word("phrase", p.sk, inEach(i, (x) => (x.type === "match" ? x.pairs[k]?.en : undefined)), teaching),
+          );
+        }
+      });
+    }),
   );
   return entries;
 })();

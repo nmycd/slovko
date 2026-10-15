@@ -35,6 +35,7 @@ export const uk: Messages = {
   "path.signup.button": "Зареєструватися",
   "dictionary.title": "Словник",
   "dictionary.placeholder": "Шукайте словацькою або українською",
+  "dictionary.grammar": "Граматика",
   "dictionary.none": "Нічого не знайдено.",
   "path.dailyGoal": "Ціль на день",
   "path.xp": "{done}/{goal} XP",

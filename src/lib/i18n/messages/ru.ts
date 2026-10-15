@@ -35,6 +35,7 @@ export const ru: Messages = {
   "path.signup.button": "Зарегистрироваться",
   "dictionary.title": "Словарь",
   "dictionary.placeholder": "Ищите по-словацки или по-русски",
+  "dictionary.grammar": "Грамматика",
   "dictionary.none": "Ничего не найдено.",
   "path.dailyGoal": "Цель на день",
   "path.xp": "{done}/{goal} XP",
