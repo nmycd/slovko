@@ -59,6 +59,7 @@ export const en = {
   "courses.a1": "Beginner",
   "courses.a2": "Elementary",
   "courses.b1": "Intermediate",
+  "courses.b2": "Upper-intermediate",
   "courses.driving": "Driving exam",
   "courses.resources": "Resources",
   "courses.soon": "soon",
@@ -74,7 +75,12 @@ export const en = {
   "courses.driving.body":
     "Road signs, traffic vocabulary and the wording of theory test questions, for passing the driving exam in Slovakia. Planned.",
   "resources.title": "Recommended resources",
-  "resources.intro": "Good places to keep learning alongside Slovko. All free unless noted.",
+  "resources.intro": "Good places to keep learning alongside Slovko, from first picture books to Slovak cinema.",
+  "resources.books": "Books by level",
+  "resources.booksNote": "In Slovak. Links go to Martinus, a large Slovak bookshop; libraries are another good option.",
+  "resources.watching": "Films and cartoons by level",
+  "resources.watchingNote":
+    "Original Slovak productions. Streaming services are mostly available only in Slovakia; the Slovak Film Institute's DVDs have English subtitles.",
   "resources.dictionaries": "Dictionaries",
   "resources.listening": "Listening and pronunciation",
 
