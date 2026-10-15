@@ -6,8 +6,8 @@
 //    yet (so a failed or interrupted run resumes where it stopped).
 // 2. Converts each render for the web: public/illustrations/<lesson>-<exercise>-<hash>.webp,
 //    960 px wide, near-white paper pushed to white so it blends into the page. The hash
-//    comes from the render, so a redrawn picture gets a new URL and no browser or CDN
-//    keeps showing the old one (Next caches optimized images for 4 hours).
+//    comes from the render, so a redrawn picture gets a new URL, and the files can be
+//    cached forever (next.config.ts marks /illustrations/* immutable).
 // 3. Writes src/lib/course/illustrations.json: exercise → picture, with reuses resolved.
 //    Entries whose exercise text no longer matches the course are left out (the
 //    exercise moved or changed since the plan was made).

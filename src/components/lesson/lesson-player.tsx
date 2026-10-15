@@ -128,6 +128,16 @@ function Player({ lessons, premiumUnit, nextId, pictures }: PlayerProps) {
     premiumUnit && !isPremium && !unlockAllLessons ? "paywall" : "playing",
   );
   const stats = useRef({ right: 0, graded: 0, startedAt: 0 });
+
+  // Fetch and decode the lesson's pictures up front, so each one is ready when its
+  // exercise appears instead of loading in after it.
+  useEffect(() => {
+    for (const src of new Set(Object.values(pictures).map((p) => p.src))) {
+      const img = new window.Image();
+      img.src = src;
+      img.decode().catch(() => {});
+    }
+  }, [pictures]);
   const [summary, setSummary] = useState<Summary | null>(null);
 
   useEffect(() => {
@@ -280,12 +290,15 @@ function Step({
         {illustration && (
           // Decorative: the exercise's own text says what it shows. Phones: small, above
           // the exercise; wide screens: the right-hand page.
+          // Already sized and compressed for the web (render-plan.ts), so served as is:
+          // the same URL the lesson preloads, straight from the cache.
           <Image
             src={illustration.src}
             width={illustration.width}
             height={illustration.height}
             alt=""
-            priority
+            unoptimized
+            preload
             className="illustration mx-auto h-auto max-h-[24dvh] w-auto max-w-full lg:order-last lg:max-h-[calc(100dvh-14rem)]"
           />
         )}
