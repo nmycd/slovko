@@ -7,7 +7,7 @@ export const ru: Messages = {
   "stats.streak": "Серия дней",
   "stats.xp": "Всего XP",
   "footer.language": "Ваш язык",
-  "footer.contact": "Контакты",
+  "footer.contact": "Связаться с нами",
 
   "landing.title": "Учите словацкий.",
   "landing.subtitle":
