@@ -3,6 +3,8 @@
 // Slovak audio playback: ElevenLabs via /api/tts, falling back to the
 // browser's own speech synthesis when TTS isn't configured or fails.
 
+import { useSyncExternalStore } from "react";
+
 const urls = new Map<string, Promise<string | null>>();
 let ttsUnavailable = false;
 let current: HTMLAudioElement | null = null;
@@ -50,23 +52,52 @@ export function preloadLesson(texts: string[]) {
   for (let i = 0; i < 3; i++) void next();
 }
 
+// Whether a clip is loading or playing, for the mic to step aside meanwhile (see useRecorder).
+let playing = false;
+const playingListeners = new Set<() => void>();
+
+function setPlaying(value: boolean) {
+  if (playing === value) return;
+  playing = value;
+  playingListeners.forEach((listener) => listener());
+}
+
+/** True while Slovak audio is loading or playing. */
+export function useSlovakPlaying(): boolean {
+  return useSyncExternalStore(
+    (listener) => {
+      playingListeners.add(listener);
+      return () => playingListeners.delete(listener);
+    },
+    () => playing,
+    () => false,
+  );
+}
+
 /** Stops whatever is playing and cancels clips that are still loading. */
 export function stopSlovak() {
   generation++;
   current?.pause();
   current = null;
   window.speechSynthesis?.cancel();
+  setPlaying(false);
 }
 
 export async function playSlovak(text: string, { slow = false } = {}) {
   stopSlovak();
   const playId = generation;
+  const ended = () => {
+    if (playId === generation) setPlaying(false);
+  };
+  setPlaying(true);
   if (!ttsUnavailable) {
     const url = await loadAudio(text);
     if (playId !== generation) return; // superseded while loading
     if (url) {
       const audio = new Audio(url);
       audio.playbackRate = slow ? 0.7 : 1;
+      audio.onended = ended;
+      audio.onpause = ended; // also interrupted by the system
       current = audio;
       try {
         await audio.play();
@@ -78,13 +109,15 @@ export async function playSlovak(text: string, { slow = false } = {}) {
       }
     }
   }
-  if (playId === generation) speakWithBrowser(text, slow);
+  if (playId === generation) speakWithBrowser(text, slow, ended);
 }
 
-function speakWithBrowser(text: string, slow: boolean) {
+function speakWithBrowser(text: string, slow: boolean, ended: () => void) {
   const synth = window.speechSynthesis;
-  if (!synth) return;
+  if (!synth) return ended();
   const utterance = new SpeechSynthesisUtterance(text);
+  utterance.onend = ended;
+  utterance.onerror = ended;
   utterance.lang = "sk-SK";
   const voice = synth.getVoices().find((v) => v.lang.toLowerCase().startsWith("sk"));
   if (voice) utterance.voice = voice;

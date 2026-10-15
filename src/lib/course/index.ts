@@ -228,3 +228,10 @@ export const courseOutlines: Record<Locale, UnitOutline[]> = Object.fromEntries(
 export const speakableSet: ReadonlySet<string> = new Set(
   localizedCourse.en.flatMap((u) => u.lessons).flatMap((l) => l.exercises.flatMap(speakableTexts)),
 );
+
+/** The sentences of speaking exercises: what /api/stt accepts as the expected answer. */
+export const speakTargets: ReadonlySet<string> = new Set(
+  localizedCourse.en
+    .flatMap((u) => u.lessons)
+    .flatMap((l) => l.exercises.flatMap((ex) => (ex.type === "speak" ? [ex.sk] : []))),
+);

@@ -43,12 +43,17 @@ export async function synthesize(text: string): Promise<ArrayBuffer> {
   return res.arrayBuffer();
 }
 
-/** Recorded audio → transcript, transcribed as Slovak. */
-export async function transcribe(audio: Blob): Promise<string> {
+/**
+ * Recorded audio → transcript, transcribed as Slovak. `keyterms` are words and short
+ * phrases the speaker is likely to say: the recogniser leans towards them (a learner's
+ * accent can otherwise turn a word into a similar-sounding one), at 20% more cost.
+ */
+export async function transcribe(audio: Blob, keyterms: string[] = []): Promise<string> {
   const form = new FormData();
   form.append("model_id", sttModel);
   form.append("language_code", "sk");
   form.append("tag_audio_events", "false");
+  keyterms.forEach((term) => form.append("keyterms", term));
   form.append("file", audio, `speech.${extensionFor(audio.type)}`);
   const res = await fetch(`${API}/speech-to-text`, {
     method: "POST",
@@ -58,6 +63,20 @@ export async function transcribe(audio: Blob): Promise<string> {
   if (!res.ok) throw new ElevenLabsError(`STT failed: ${await res.text()}`, res.status);
   const data = (await res.json()) as { text?: string };
   return data.text?.trim() ?? "";
+}
+
+/**
+ * Keyterms for an expected answer: the phrase itself (if it's short enough to be one:
+ * at most five words) and its words of two letters or more. Keyterms may not contain
+ * punctuation.
+ */
+export function keytermsFor(expected: string): string[] {
+  const words = expected
+    .replace(/[^\p{L}\p{N}\s'-]/gu, " ")
+    .split(/\s+/)
+    .filter(Boolean);
+  const phrase = words.length > 1 && words.length <= 5 ? [words.join(" ")] : [];
+  return [...new Set([...phrase, ...words.filter((w) => w.length >= 2)])];
 }
 
 /** File extension for a recording's MIME type (Chrome records webm, Safari mp4). */

@@ -25,21 +25,6 @@ export function stripDiacritics(s: string): string {
   return s.normalize("NFD").replace(/\p{M}/gu, "");
 }
 
-export function levenshtein(a: string, b: string): number {
-  if (a === b) return 0;
-  const prev = Array.from({ length: b.length + 1 }, (_, i) => i);
-  for (let i = 1; i <= a.length; i++) {
-    let diag = prev[0];
-    prev[0] = i;
-    for (let j = 1; j <= b.length; j++) {
-      const tmp = prev[j];
-      prev[j] = Math.min(prev[j] + 1, prev[j - 1] + 1, diag + (a[i - 1] === b[j - 1] ? 0 : 1));
-      diag = tmp;
-    }
-  }
-  return prev[b.length];
-}
-
 /**
  * Typed answers (dictation), judged word by word. Each typed word is matched to the
  * expected word it most resembles, so a mangled name is still understood as that name.
@@ -60,81 +45,16 @@ export function checkTyped(
   return results.find((r) => r.correct) ?? results[0];
 }
 
-type Verdict = "exact" | "accents" | "slip" | "name" | "wrong";
+/** "missing": not given (or out of order), for the caller to judge. */
+type Verdict = "exact" | "accents" | "slip" | "name" | "wrong" | "missing";
 
 function judgeTyped(expected: string, typed: string[], isName: (word: string) => boolean): CheckResult {
-  // The sentence as shown (punctuation kept), and the words compared in each piece.
-  const pieces = expected
-    .split(/\s+/)
-    .filter(Boolean)
-    .map((text) => ({ text, words: normalize(text).split(" ").filter(Boolean) }));
-  const want = pieces.flatMap((p) => p.words);
-  const names = want.map(isName);
-  const bareWant = want.map(stripDiacritics);
-  const bareTyped = typed.map(stripDiacritics);
-
-  // Candidate pairings: a word with a word, or with two run together (a stray or
-  // missing space). Cheapest first; a small nudge keeps repeated words in order.
-  type Pair = { want: number[]; typed: number[]; cost: number };
-  const pairs: Pair[] = [];
-  const consider = (w: number[], t: number[], extra = 0) => {
-    const a = w.map((i) => bareWant[i]).join("");
-    const b = t.map((j) => bareTyped[j]).join("");
-    const distance = slips(a, b) / Math.max(a.length, b.length);
-    const name = w.some((i) => names[i]);
-    if (!name && distance > 0.5) return;
-    const drift = Math.abs(w[0] / want.length - t[0] / typed.length) / 100;
-    pairs.push({ want: w, typed: t, cost: (name ? Math.min(distance, 0.6) : distance) + extra + drift });
-  };
-  want.forEach((_, i) =>
-    typed.forEach((_, j) => {
-      consider([i], [j]);
-      if (j + 1 < typed.length) consider([i], [j, j + 1], 0.05);
-      if (i + 1 < want.length) consider([i, i + 1], [j], 0.05);
-    }),
-  );
-  pairs.sort((x, y) => x.cost - y.cost);
-
-  // Until matched, a word counts as missing: a name only lightly, anything else fully.
-  const verdicts: Verdict[] = want.map((_, i) => (names[i] ? "name" : "wrong"));
-  const usedWant = new Set<number>();
-  const usedTyped = new Set<number>();
-  const matched: { want: number[]; typed: number }[] = [];
-  for (const pair of pairs) {
-    if (pair.want.some((i) => usedWant.has(i)) || pair.typed.some((j) => usedTyped.has(j))) continue;
-    pair.want.forEach((i) => usedWant.add(i));
-    pair.typed.forEach((j) => usedTyped.add(j));
-    matched.push({ want: pair.want, typed: pair.typed[0] });
-    const spaced = pair.want.length + pair.typed.length > 2;
-    const verdict = judgeWord(
-      pair.want.map((i) => want[i]).join(""),
-      pair.typed.map((j) => typed[j]).join(""),
-      pair.want.some((i) => names[i]),
-    );
-    const forgiven = spaced && (verdict === "exact" || verdict === "accents") ? "slip" : verdict;
-    pair.want.forEach((i) => (verdicts[i] = forgiven));
-  }
-
-  // The recording sets the order: words outside the longest run typed in order are wrong.
-  matched.sort((x, y) => x.want[0] - y.want[0]);
-  const inOrder = longestRun(matched.map((m) => m.typed));
-  matched.forEach((m, k) => {
-    if (!inOrder.has(k)) m.want.forEach((i) => (verdicts[i] = names[i] ? "name" : "wrong"));
+  const { pieces, verdicts, extra } = align(expected, typed, {
+    isName,
+    form: stripDiacritics,
+    judge: judgeWord,
+    missing: (_, name) => (name ? "name" : "wrong"),
   });
-
-  const extra = typed.length - usedTyped.size;
-
-  let w = 0;
-  const words = pieces.map(({ text, words: inPiece }) => {
-    const mine = verdicts.slice(w, (w += inPiece.length));
-    const mark: MarkedWord["mark"] = mine.includes("wrong")
-      ? "bad"
-      : mine.some((v) => v === "slip" || v === "name")
-        ? "soft"
-        : "ok";
-    return { text, mark };
-  });
-
   const correct = !verdicts.includes("wrong") && extra === 0;
   const note: CheckResult["note"] = correct
     ? verdicts.includes("slip")
@@ -147,7 +67,100 @@ function judgeTyped(expected: string, typed: string[], isName: (word: string) =>
     : !verdicts.includes("wrong")
       ? "answer.extra"
       : undefined;
-  return { correct, note, words };
+  return { correct, note, words: marked(pieces, verdicts) };
+}
+
+type AlignRules = {
+  isName: (word: string) => boolean;
+  /** The form words are compared in (e.g. without accents). */
+  form: (word: string) => string;
+  /** A given word (or two run together) against the expected one it was matched to. */
+  judge: (want: string, got: string, name: boolean) => Verdict;
+  /** An expected word that wasn't given, or was out of order. */
+  missing: (word: string, name: boolean) => Verdict;
+};
+
+/**
+ * Matches the given words to the expected sentence's: each given word to the expected
+ * word it most resembles, so a mangled name is still understood as that name. Words
+ * are given in the order heard, so words outside the longest run in order don't count.
+ * Returns the expected words (in the sentence's pieces), a verdict for each, and how
+ * many given words matched nothing.
+ */
+function align(expected: string, given: string[], rules: AlignRules) {
+  // The sentence as shown (punctuation kept), and the words compared in each piece.
+  const pieces = expected
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((text) => ({ text, words: normalize(text).split(" ").filter(Boolean) }));
+  const want = pieces.flatMap((p) => p.words);
+  const names = want.map(rules.isName);
+  const bareWant = want.map(rules.form);
+  const bareGiven = given.map(rules.form);
+
+  // Candidate pairings: a word with a word, or with two run together (a stray or
+  // missing space). Cheapest first; a small nudge keeps repeated words in order.
+  type Pair = { want: number[]; given: number[]; cost: number };
+  const pairs: Pair[] = [];
+  const consider = (w: number[], g: number[], extra = 0) => {
+    const a = w.map((i) => bareWant[i]).join("");
+    const b = g.map((j) => bareGiven[j]).join("");
+    const distance = slips(a, b) / Math.max(a.length, b.length);
+    const name = w.some((i) => names[i]);
+    if (!name && distance > 0.5) return;
+    const drift = Math.abs(w[0] / want.length - g[0] / given.length) / 100;
+    pairs.push({ want: w, given: g, cost: (name ? Math.min(distance, 0.6) : distance) + extra + drift });
+  };
+  want.forEach((_, i) =>
+    given.forEach((_, j) => {
+      consider([i], [j]);
+      if (j + 1 < given.length) consider([i], [j, j + 1], 0.05);
+      if (i + 1 < want.length) consider([i, i + 1], [j], 0.05);
+    }),
+  );
+  pairs.sort((x, y) => x.cost - y.cost);
+
+  const verdicts: Verdict[] = want.map((w, i) => rules.missing(w, names[i]));
+  const usedWant = new Set<number>();
+  const usedGiven = new Set<number>();
+  const matched: { want: number[]; given: number }[] = [];
+  for (const pair of pairs) {
+    if (pair.want.some((i) => usedWant.has(i)) || pair.given.some((j) => usedGiven.has(j))) continue;
+    pair.want.forEach((i) => usedWant.add(i));
+    pair.given.forEach((j) => usedGiven.add(j));
+    matched.push({ want: pair.want, given: pair.given[0] });
+    const spaced = pair.want.length + pair.given.length > 2;
+    const verdict = rules.judge(
+      pair.want.map((i) => want[i]).join(""),
+      pair.given.map((j) => given[j]).join(""),
+      pair.want.some((i) => names[i]),
+    );
+    const forgiven = spaced && (verdict === "exact" || verdict === "accents") ? "slip" : verdict;
+    pair.want.forEach((i) => (verdicts[i] = forgiven));
+  }
+
+  // The recording sets the order: words outside the longest run given in order don't count.
+  matched.sort((x, y) => x.want[0] - y.want[0]);
+  const inOrder = longestRun(matched.map((m) => m.given));
+  matched.forEach((m, k) => {
+    if (!inOrder.has(k)) m.want.forEach((i) => (verdicts[i] = rules.missing(want[i], names[i])));
+  });
+
+  return { pieces, want, verdicts, extra: given.length - usedGiven.size };
+}
+
+/** The sentence as shown, each piece marked by its words' verdicts. */
+function marked(pieces: { text: string; words: string[] }[], verdicts: Verdict[]): MarkedWord[] {
+  let w = 0;
+  return pieces.map(({ text, words }) => {
+    const mine = verdicts.slice(w, (w += words.length));
+    const mark: MarkedWord["mark"] = mine.includes("wrong")
+      ? "bad"
+      : mine.some((v) => v === "slip" || v === "name")
+        ? "soft"
+        : "ok";
+    return { text, mark };
+  });
 }
 
 function judgeWord(want: string, got: string, name: boolean): Verdict {
@@ -211,17 +224,86 @@ export function checkBuilt(words: string[], accepted: string[]): CheckResult {
 }
 
 /**
- * Spoken answers from speech-to-text. Recognisers drop accents and mishear
- * short words, so compare without diacritics and allow some distance.
+ * Spoken answers, from speech-to-text, judged word by word like typed ones but with
+ * the recogniser's quirks forgiven: accents and numbers written as digits ("8" for
+ * "osem", "2" for "dva" or "dve") don't matter, a word may be a little off (one sound in four: a recogniser's
+ * mishearing or an accent, marked "close"), and a missing one- or two-letter word is
+ * marked but doesn't fail the answer (recognisers drop them), unless another word was
+ * said instead. Other extra words (a filler, a word said twice) don't count. Names are
+ * checked only lightly, as in typing.
  */
-export function checkSpoken(transcript: string, target: string): CheckResult {
-  const said = stripDiacritics(normalize(transcript));
-  const want = stripDiacritics(normalize(target));
-  if (!said) return { correct: false };
-  if (said === want) return { correct: true };
-  const similarity = 1 - levenshtein(said, want) / Math.max(said.length, want.length);
-  return similarity >= 0.75 ? { correct: true, note: "answer.close" } : { correct: false };
+export function checkSpoken(
+  transcript: string,
+  target: string,
+  isName: (word: string) => boolean = () => false,
+): CheckResult {
+  // Digits stand for the sentence's number word of that value, whatever its gender.
+  const numberWords = new Map(
+    normalize(target)
+      .split(" ")
+      .flatMap((word) => {
+        const value = numbers.get(stripDiacritics(word));
+        return value ? [[value, word] as const] : [];
+      })
+      .reverse(), // the first one wins
+  );
+  const said = normalize(transcript)
+    .split(" ")
+    .filter(Boolean)
+    .map((word) => numberWords.get(word) ?? word);
+  if (!said.length) return { correct: false };
+  const { pieces, want, verdicts, extra } = align(target, said, {
+    isName,
+    form: stripDiacritics,
+    judge: judgeSpokenWord,
+    missing: (_, name) => (name ? "name" : "missing"),
+  });
+  const judged = verdicts.map((v, i) => (v !== "missing" ? v : want[i].length <= 2 && !extra ? "slip" : "wrong"));
+  if (judged.every((v) => v === "exact")) return { correct: true };
+  const correct = !judged.includes("wrong");
+  return { correct, note: correct ? "answer.close" : undefined, words: marked(pieces, judged) };
 }
+
+function judgeSpokenWord(want: string, got: string, name: boolean): Verdict {
+  const a = stripDiacritics(want);
+  const b = stripDiacritics(got);
+  if (a === b) return "exact";
+  if (name) return "name";
+  return slips(a, b) <= Math.floor(a.length / 4) ? "slip" : "wrong";
+}
+
+/** Slovak number words (without accents, every gender) → digits, 0–100. */
+const numbers: ReadonlyMap<string, string> = (() => {
+  const units = [
+    ["nula"],
+    ["jeden", "jedna", "jedno"],
+    ["dva", "dve", "dvaja"],
+    ["tri", "traja"],
+    ["styri", "styria"],
+    ["pat"],
+    ["sest"],
+    ["sedem"],
+    ["osem"],
+    ["devat"],
+  ];
+  const teens = [
+    "desat", "jedenast", "dvanast", "trinast", "strnast",
+    "patnast", "sestnast", "sedemnast", "osemnast", "devatnast",
+  ];
+  const tens = [
+    "dvadsat", "tridsat", "styridsat", "patdesiat",
+    "sestdesiat", "sedemdesiat", "osemdesiat", "devatdesiat",
+  ];
+  const map = new Map<string, string>();
+  units.forEach((forms, n) => forms.forEach((f) => map.set(f, String(n))));
+  teens.forEach((f, n) => map.set(f, String(10 + n)));
+  tens.forEach((ten, t) => {
+    map.set(ten, String(20 + t * 10));
+    units.slice(1).forEach((forms, n) => forms.forEach((f) => map.set(ten + f, String(20 + t * 10 + n + 1))));
+  });
+  map.set("sto", "100");
+  return map;
+})();
 
 /** Split a sentence into word tiles (punctuation removed, case kept). */
 export function toTiles(sentence: string): string[] {

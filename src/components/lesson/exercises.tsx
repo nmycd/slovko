@@ -6,8 +6,9 @@ import { useApp } from "@/components/app-provider";
 import { AudioButton } from "@/components/lesson/audio-button";
 import { RichText } from "@/components/lesson/rich-text";
 import { checkSpoken, shuffle, type CheckResult } from "@/lib/answers";
-import { playSlovak } from "@/lib/audio";
+import { playSlovak, stopSlovak, useSlovakPlaying } from "@/lib/audio";
 import { stripMarkup } from "@/lib/course/helpers";
+import { properNames } from "@/lib/course/names";
 import type { MessageKey } from "@/lib/i18n";
 import type {
   BuildExercise,
@@ -491,7 +492,9 @@ export function SpeakView({
   locked: boolean;
 }) {
   const { t } = useApp();
-  const { recording, error: micError, level, deviceLabel, start, stop } = useRecorder();
+  // The mic stays open while the card waits for an answer, except while Slovak audio plays.
+  const playing = useSlovakPlaying();
+  const { recording, finishing, error: micError, level, deviceLabel, start, stop } = useRecorder(!locked && !playing);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [notice, setNotice] = useState<MessageKey | null>(null);
@@ -500,6 +503,7 @@ export function SpeakView({
     if (recording) return stop();
     setError(null);
     setNotice(null);
+    stopSlovak();
     const rec = await start();
     if (!rec) return;
     // Silence isn't a wrong answer: don't grade it, and don't pay for transcribing it.
@@ -511,6 +515,8 @@ export function SpeakView({
     try {
       const body = new FormData();
       body.append("audio", rec.audio);
+      body.append("expected", exercise.sk);
+      body.append("peak", rec.peak.toFixed(4));
       const res = await fetch("/api/stt", { method: "POST", body });
       const data = (await res.json()) as { text?: string };
       if (res.status === 429) {
@@ -529,7 +535,11 @@ export function SpeakView({
         setError(t("ex.mic.noWords"));
         return;
       }
-      onResolve({ ...checkSpoken(heard, exercise.sk), solution: exercise.sk, heard });
+      onResolve({
+        ...checkSpoken(heard, exercise.sk, (word) => properNames.has(word)),
+        solution: exercise.sk,
+        heard,
+      });
     } catch {
       setError(t("ex.mic.offline"));
     } finally {
@@ -550,11 +560,11 @@ export function SpeakView({
       <button
         type="button"
         onClick={record}
-        disabled={locked || busy}
+        disabled={locked || busy || finishing}
         className={`btn btn-ghost h-20 w-full text-lg ${recording ? "!border-bad !text-bad" : ""}`}
       >
         <MicIcon size={30} className={recording ? "animate-pulse" : ""} />
-        {t(busy ? "ex.mic.checking" : recording ? "ex.mic.stop" : "ex.mic.speak")}
+        {t(busy || finishing ? "ex.mic.checking" : recording ? "ex.mic.stop" : "ex.mic.speak")}
       </button>
       {recording && (
         <div className="space-y-2">

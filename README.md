@@ -25,11 +25,11 @@ browser's speech synthesis and speaking exercises can be skipped.
 | `src/lib/course/` | Course content: one file per unit in `units/`, following Krížom-krážom A1 (Lekcia 1–10). Server-only; the browser receives one lesson at a time. |
 | `src/lib/course/translations/` | Ukrainian and Russian versions of every translation and explanation (one JSON catalog per unit and language). |
 | `src/lib/i18n/` | Interface strings in uk / en / ru, and the learner's language (device + account). |
-| `src/lib/answers.ts` | Answer checking: accent-insensitive typing, typo tolerance, fuzzy matching for speech. |
+| `src/lib/answers.ts` | Answer checking: accent-insensitive typing with typo tolerance, and speech graded word by word with the recogniser's quirks forgiven. |
 | `src/components/lesson/` | Lesson player and the exercise types: intro and grammar cards, choice, fill, build, listen, match, speak. |
 | `src/components/app-provider.tsx` | Auth session, XP, streak, completed lessons; syncs to Supabase when signed in. |
 | `src/app/api/tts` | Course audio, served from the Supabase Storage cache (`npm run generate:audio` fills it). Only course phrases are accepted. |
-| `src/app/api/stt` | ElevenLabs speech-to-text (Scribe). Requires sign-in, with hidden per-user and monthly caps (`src/lib/stt-quota.ts`). |
+| `src/app/api/stt` | ElevenLabs speech-to-text (Scribe), biased towards the expected sentence's words. Requires sign-in, with hidden per-user and monthly caps (`src/lib/stt-quota.ts`). Each answer is logged (no audio) in `stt_attempts`. |
 | `src/app/api/stripe/*` | Checkout, customer portal, webhook. |
 | `supabase/migrations/` | Database schema with RLS. |
 
@@ -68,7 +68,7 @@ Every Slovak string in the course is automatically allowed for TTS.
 ### Supabase (accounts + progress)
 
 1. Create a project at supabase.com.
-2. Run the files in `supabase/migrations/` in order (`0001_init.sql`, `0002_stt_usage.sql`, `0003_native_language.sql`, `0004_contact_messages.sql`) in the SQL editor.
+2. Run the files in `supabase/migrations/` in order, from `0001_init.sql` on, in the SQL editor.
 3. Copy the project URL, publishable key and secret key into `.env.local`.
 4. Authentication → URL Configuration: add `http://localhost:3000/auth/callback`
    (and your production URL) to the redirect URLs.
@@ -105,6 +105,10 @@ In production set `TTS_LIVE_GENERATION=false` so requests never spend credits.
 Speech-to-text is capped per user per day (`STT_DAILY_LIMIT`, default 100) and
 for all users per month (`STT_MONTHLY_LIMIT`, default 20,000); past a cap the
 learner sees a friendly "try tomorrow" message and can skip the exercise.
+Each transcription is sent the expected sentence's words as keyterms, which
+costs 20% more. Every answer is logged in the `stt_attempts` table: the
+sentence, what was heard and the grade, but no audio (read it in the Supabase
+Table Editor to see where speaking goes wrong).
 
 ### Resend (contact form email, optional)
 
