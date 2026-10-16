@@ -50,7 +50,8 @@ async function Lesson({ params }: { params: Promise<{ lessonId: string }> }) {
         unit: found.unit.number,
         lesson: found.unit.lessons.findIndex((l) => l.id === lessonId) + 1,
       }}
-      courseLessonIds={allLessons.map((l) => l.id)}
+      // The course's progress leaves out the optional writing lessons.
+      courseLessonIds={allLessons.filter((l) => l.kind !== "writing").map((l) => l.id)}
     />
   );
 }

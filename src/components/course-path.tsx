@@ -55,11 +55,14 @@ export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[
   };
 
   // The first lesson not yet completed is "current"; everything after it is locked.
+  // Writing lessons are optional, like review stops: never current, they open once
+  // reached and hold up nothing after them.
   const allLessons = outline.flatMap((u) => u.lessons);
-  const firstOpen = allLessons.findIndex((l) => !progress.completed[l.id]);
+  const firstOpen = allLessons.findIndex((l) => l.kind !== "writing" && !progress.completed[l.id]);
   const stateOf = (lessonId: string): NodeState => {
     const i = allLessons.findIndex((l) => l.id === lessonId);
     if (progress.completed[lessonId]) return "done";
+    if (allLessons[i]?.kind === "writing") return firstOpen < 0 || i < firstOpen || unlockAllLessons ? "open" : "locked";
     if (i === firstOpen) return "current";
     return unlockAllLessons ? "open" : "locked";
   };
@@ -83,7 +86,9 @@ export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[
           unit={unit}
           color={unitColors[ui % unitColors.length]}
           premiumLocked={unit.premium && !isPremium && !unlockAllLessons}
-          completed={unit.lessons.length > 0 && unit.lessons.every((l) => progress.completed[l.id])}
+          completed={
+            unit.lessons.length > 0 && unit.lessons.every((l) => l.kind === "writing" || progress.completed[l.id])
+          }
           stateOf={stateOf}
           hrefFor={hrefFor}
           review={review}

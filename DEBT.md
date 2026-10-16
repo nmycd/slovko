@@ -121,8 +121,10 @@ push to `main`). After changing a Vercel environment variable, redeploy.
 - **Writing lessons are an experiment** (October 2026). Each unit has a writing
   lesson (`uN-pisanie`, before the review lesson) with memorize rounds and most of
   the unit's dictations; standard lessons keep 11 dictations and 24 spelling cards
-  (from 104 and 194). To undo it, revert the commit that added it, or check out the
-  tag `pre-writing-practice`. Then rerun `npm run plan:spelling`.
+  (from 104 and 194). Writing lessons are optional on the path: they open once
+  reached and never lock what follows, and unit completion, the course percentage
+  and the word-review unlock leave them out. To undo it all, revert both commits, or
+  check out the tag `pre-writing-practice`. Then rerun `npm run plan:spelling`.
 - **Native-speaker review in progress.** The A1 course (Slovak, plus the
   Ukrainian, Russian, Uzbek and Georgian versions) was written and proofread by
   AI, plus editorial passes. As of October 2026: English read and fine,
