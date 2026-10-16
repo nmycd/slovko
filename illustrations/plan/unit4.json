@@ -1,6 +1,6 @@
 {
   "unit": "u4",
-  "pictures": 24,
+  "pictures": 30,
   "items": [
     {
       "lesson": "u4-l1",
@@ -328,6 +328,69 @@
         "printedPage": 43,
         "panel": "A",
         "crop": "book-refs/panels/p40-A.jpg"
+      }
+    },
+    {
+      "lesson": "u4-rodina",
+      "exercise": "moja-rodina",
+      "type": "intro",
+      "text": "moja rodina = my family",
+      "picture": "In the dorm room, Emma sits on her bed beside Lucia and shows her a family photo from home in Ireland: Emma's mum, Emma's dad, Emma's brother and sister and Emma herself, all smiling in their living room.",
+      "book": {
+        "pdfPage": 47,
+        "printedPage": 50,
+        "panel": "F",
+        "crop": "book-refs/panels/p47-F.jpg"
+      }
+    },
+    {
+      "lesson": "u4-rodina",
+      "exercise": "mama-a-otec",
+      "type": "intro",
+      "text": "mama a otec = mum and dad",
+      "picture": "At home in Ireland, Emma's mum sits on the living-room sofa next to Emma's dad, his arm round her shoulders, the two of them smiling as if for a photo.",
+      "book": {
+        "pdfPage": 47,
+        "printedPage": 50,
+        "panel": "F",
+        "crop": "book-refs/panels/p47-F.jpg"
+      }
+    },
+    {
+      "lesson": "u4-rodina",
+      "exercise": "brat-a-sestra",
+      "type": "intro",
+      "text": "brat a sestra = brother and sister",
+      "picture": "Marek and his younger sister Lucia goof around in the dorm kitchen: he ruffles her hair and she elbows him, both laughing.",
+      "book": null
+    },
+    {
+      "lesson": "u4-rodina",
+      "exercise": "syn-a-dcera",
+      "type": "intro",
+      "text": "syn a dcéra = son and daughter",
+      "picture": "In the small back garden at home in Ireland, Emma's dad stands with an arm round each of his two younger children, his son and his daughter: Emma's brother and sister. All three grin.",
+      "book": null
+    },
+    {
+      "lesson": "u4-rodina",
+      "exercise": "manzel-a-manzelka",
+      "type": "intro",
+      "text": "manžel a manželka = husband and wife",
+      "picture": "On a Sunday afternoon, pani Horváthová and her husband, pán Horváth, stroll arm in arm across the Old Town square; Emma, passing with a coffee, waves to them.",
+      "book": null
+    },
+    {
+      "lesson": "u4-rodina",
+      "exercise": "zenaty-vydata",
+      "type": "intro",
+      "text": "ženatý / vydatá = married (of a man / of a woman)",
+      "picture": "Pán Horváth and pani Horváthová sit side by side on a park bench and hold up their hands to show their gold wedding rings, smiling.",
+      "book": {
+        "pdfPage": 23,
+        "printedPage": 26,
+        "panel": "R",
+        "crop": "book-refs/panels/p23-R.jpg"
       }
     },
     {

@@ -13,6 +13,9 @@
   "u8-l2#v-lete": {"picture": "Summer: Emma and Lucia cycle along a path through green rolling hills under a hot sun.", "panel": "p121-L"},
   "u8-l2#v-zime": {"picture": "Winter: the same rolling hills under deep snow; Emma and Lucia, in woolly hats and scarves, trudge along the path.", "panel": "p121-Z"},
 
+  "u8-rok#jar-a-jesen": {"picture": "Two halves, the same rolling hills as in the summer and winter pictures, with Emma and Lucia on the path. Left, spring: fresh green fields and trees in white blossom, the two in light jackets. Right, autumn: golden-brown fields and red and yellow trees, the two in scarves, kicking through fallen leaves.", "panel": "p121-JA", "panel2": "p121-JE"},
+  "u8-rok#minuta-a-sekunda": {"picture": "On the university running track, Lucia holds up a stopwatch, her eyes on the ticking seconds, as Tomáš sprints the last metres of his lap.", "panel": null},
+
   "u8-l7#choice-kedy-mate-cas": {"reuse": "u8-l1#pohovor", "panel": "p128-C"},
   "u8-l7#choice-i-studied-dublin": {"reuse": "u8-l1#zivotopis", "panel": "p128-B"}
 }

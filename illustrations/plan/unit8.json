@@ -1,6 +1,6 @@
 {
   "unit": "u8",
-  "pictures": 11,
+  "pictures": 13,
   "items": [
     {
       "lesson": "u8-l1",
@@ -152,6 +152,35 @@
         "panel": "Z",
         "crop": "book-refs/panels/p121-Z.jpg"
       }
+    },
+    {
+      "lesson": "u8-rok",
+      "exercise": "jar-a-jesen",
+      "type": "intro",
+      "text": "jar a jeseň = spring and autumn",
+      "picture": "Two halves, the same rolling hills as in the summer and winter pictures, with Emma and Lucia on the path. Left, spring: fresh green fields and trees in white blossom, the two in light jackets. Right, autumn: golden-brown fields and red and yellow trees, the two in scarves, kicking through fallen leaves.",
+      "book": [
+        {
+          "pdfPage": 121,
+          "printedPage": 126,
+          "panel": "JA",
+          "crop": "book-refs/panels/p121-JA.jpg"
+        },
+        {
+          "pdfPage": 121,
+          "printedPage": 126,
+          "panel": "JE",
+          "crop": "book-refs/panels/p121-JE.jpg"
+        }
+      ]
+    },
+    {
+      "lesson": "u8-rok",
+      "exercise": "minuta-a-sekunda",
+      "type": "intro",
+      "text": "minúta a sekunda = a minute and a second",
+      "picture": "On the university running track, Lucia holds up a stopwatch, her eyes on the ticking seconds, as Tomáš sprints the last metres of his lap.",
+      "book": null
     },
     {
       "lesson": "u8-l7",

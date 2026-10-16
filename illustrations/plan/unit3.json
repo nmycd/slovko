@@ -1,6 +1,6 @@
 {
   "unit": "u3",
-  "pictures": 26,
+  "pictures": 31,
   "items": [
     {
       "lesson": "u3-l1",
@@ -142,6 +142,61 @@
       "text": "malý, ale pekný = small but nice",
       "reuse": "u3-l1#izba",
       "book": null
+    },
+    {
+      "lesson": "u3-aky-je",
+      "exercise": "aky-je-tomas",
+      "type": "intro",
+      "text": "Aký je Tomáš? = What's Tomáš like?",
+      "picture": "In the café near the university, Oksana nods towards Tomáš, who is ordering at the counter, and asks Emma what he's like; Emma smiles, thinking how to describe him.",
+      "book": null
+    },
+    {
+      "lesson": "u3-aky-je",
+      "exercise": "vesely-a-smutny",
+      "type": "intro",
+      "text": "veselý a smutný = cheerful and sad",
+      "picture": "Two halves. Left: Lucia laughs out loud, eyes squeezed shut, clutching her stomach. Right: Emma sits by the dorm room window, sad and homesick, a tear on her cheek and a photo from home in her hand.",
+      "book": {
+        "pdfPage": 40,
+        "printedPage": 43,
+        "panel": "V",
+        "crop": "book-refs/panels/p40-V.jpg"
+      }
+    },
+    {
+      "lesson": "u3-aky-je",
+      "exercise": "mily-a-sympaticky",
+      "type": "intro",
+      "text": "milý a sympatický = kind and likeable",
+      "picture": "Marek, in his red flannel shirt, helps the woman with the shopping bag up the stairs of her building, carrying her heavy bags and chatting cheerfully; she beams at him.",
+      "book": null
+    },
+    {
+      "lesson": "u3-aky-je",
+      "exercise": "mudry-a-hlupy",
+      "type": "intro",
+      "text": "múdry a hlúpy = clever and stupid",
+      "picture": "Two halves. Left: pani Horváthová, deep in thought over a chessboard, calmly makes the winning move. Right: a young man stares into space with a blank, dopey look, an empty thought bubble above his head.",
+      "book": {
+        "pdfPage": 40,
+        "printedPage": 43,
+        "panel": "M",
+        "crop": "book-refs/panels/p40-M.jpg"
+      }
+    },
+    {
+      "lesson": "u3-aky-je",
+      "exercise": "silny-a-slaby",
+      "type": "intro",
+      "text": "silný a slabý = strong and weak",
+      "picture": "Arm-wrestling at the dorm kitchen table: Tomáš pins a skinny student's arm without even trying, while the student strains with all his might, red in the face.",
+      "book": {
+        "pdfPage": 39,
+        "printedPage": 42,
+        "panel": "S",
+        "crop": "book-refs/panels/p39-S.jpg"
+      }
     },
     {
       "lesson": "u3-l3",

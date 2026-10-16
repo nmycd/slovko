@@ -1,6 +1,6 @@
 {
   "unit": "u9",
-  "pictures": 18,
+  "pictures": 25,
   "items": [
     {
       "lesson": "u9-l1",
@@ -90,6 +90,67 @@
         "panel": "1",
         "crop": "book-refs/panels/p129-1.jpg"
       }
+    },
+    {
+      "lesson": "u9-lekar",
+      "exercise": "necitim-sa-dobre",
+      "type": "intro",
+      "text": "Necítim sa dobre. = I don't feel well.",
+      "picture": "Coffee break on the second day of the conference: in the busy foyer, Emma, pale and wrapped tight in her cardigan, tells Tomáš she doesn't feel well; he looks at her with concern, his coffee forgotten.",
+      "book": null
+    },
+    {
+      "lesson": "u9-lekar",
+      "exercise": "boli-ma-hlava",
+      "type": "intro",
+      "text": "Bolí ma hlava. = I've got a headache.",
+      "picture": "In the conference hall, during a talk, Emma sits in the audience pressing her fingertips to her temples, eyes shut against a headache.",
+      "book": null
+    },
+    {
+      "lesson": "u9-lekar",
+      "exercise": "som-chora",
+      "type": "intro",
+      "text": "Som chorá. = I'm ill. (a woman speaking)",
+      "picture": "Back in the dorm room, Emma sits up in bed, flushed and sniffling, wrapped in a blanket with a box of tissues on her knees; her conference badge lies forgotten on the desk.",
+      "book": null
+    },
+    {
+      "lesson": "u9-lekar",
+      "exercise": "mam-horucku",
+      "type": "intro",
+      "text": "Mám horúčku. = I've got a temperature.",
+      "picture": "In the doctor's surgery, the doctor reads a thermometer and raises her eyebrows; Emma, flushed and hot, sits on the edge of the examination couch.",
+      "book": null
+    },
+    {
+      "lesson": "u9-lekar",
+      "exercise": "liek",
+      "type": "intro",
+      "text": "liek = medicine",
+      "picture": "At her desk in the surgery, the doctor hands Emma a box of tablets, a small bottle of syrup and a prescription; Emma, muffled in her scarf, nods weakly.",
+      "book": {
+        "pdfPage": 70,
+        "printedPage": 73,
+        "panel": "L",
+        "crop": "book-refs/panels/p70-L.jpg"
+      }
+    },
+    {
+      "lesson": "u9-lekar",
+      "exercise": "rychlo-sa-uzdrav",
+      "type": "intro",
+      "text": "Rýchlo sa uzdrav! = Get well soon!",
+      "picture": "Lucia and Tomáš visit Emma, ill in bed in the dorm room: Lucia sets a bag of oranges on the bedside table and Tomáš holds out a small bunch of flowers; Emma smiles weakly from under her blanket.",
+      "book": null
+    },
+    {
+      "lesson": "u9-lekar",
+      "exercise": "choice-rychlo-sa-uzdrav",
+      "type": "choice",
+      "text": "Tomáš is ill. What do you say to him?",
+      "picture": "Tomáš lies on the sofa at home under a blanket, red-nosed and miserable, a thermometer in his mouth and crumpled tissues all around him.",
+      "book": null
     },
     {
       "lesson": "u9-l3",

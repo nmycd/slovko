@@ -7,6 +7,14 @@
   "u9-l1#tesim-sa-na": {"reuse": "u9-l1#pozvanka", "panel": "p129-1"},
   "u9-l1#choice-dostala-som-pozvanku": {"reuse": "u9-l1#pozvanka", "panel": "p129-1"},
 
+  "u9-lekar#necitim-sa-dobre": {"picture": "Coffee break on the second day of the conference: in the busy foyer, Emma, pale and wrapped tight in her cardigan, tells Tomáš she doesn't feel well; he looks at her with concern, his coffee forgotten.", "panel": null},
+  "u9-lekar#boli-ma-hlava": {"picture": "In the conference hall, during a talk, Emma sits in the audience pressing her fingertips to her temples, eyes shut against a headache.", "panel": null},
+  "u9-lekar#som-chora": {"picture": "Back in the dorm room, Emma sits up in bed, flushed and sniffling, wrapped in a blanket with a box of tissues on her knees; her conference badge lies forgotten on the desk.", "panel": null},
+  "u9-lekar#mam-horucku": {"picture": "In the doctor's surgery, the doctor reads a thermometer and raises her eyebrows; Emma, flushed and hot, sits on the edge of the examination couch.", "panel": null},
+  "u9-lekar#liek": {"picture": "At her desk in the surgery, the doctor hands Emma a box of tablets, a small bottle of syrup and a prescription; Emma, muffled in her scarf, nods weakly.", "panel": "p70-L", "printedPage": 73},
+  "u9-lekar#rychlo-sa-uzdrav": {"picture": "Lucia and Tomáš visit Emma, ill in bed in the dorm room: Lucia sets a bag of oranges on the bedside table and Tomáš holds out a small bunch of flowers; Emma smiles weakly from under her blanket.", "panel": null},
+  "u9-lekar#choice-rychlo-sa-uzdrav": {"picture": "Tomáš lies on the sofa at home under a blanket, red-nosed and miserable, a thermometer in his mouth and crumpled tissues all around him.", "panel": null},
+
   "u9-l3#subor": {"picture": "Tomáš frowns at his office computer screen, full of folders and file icons, hunting for one file.", "panel": "p131-A"},
   "u9-l3#otvorit": {"picture": "Two halves at Emma's laptop. Left: she double-clicks and a document opens on the screen. Right: she clicks it closed and folds the laptop shut.", "panel": "p131-A"},
   "u9-l3#ulozit": {"picture": "Late at night at her dorm desk, Emma clicks save on her finished paper and slumps back with a huge sigh of relief.", "panel": "p131-A"},

@@ -16,5 +16,14 @@
   "u2-l6#mam-dvadsatpat-rokov": {"reuse": "u2-l6#kolko-mas-rokov", "panel": "p21-1"},
   "u2-l6#prvy-druhy-treti": {"picture": "After a university fun run, Tomáš, Lucia and Emma stand on a winners' podium: Tomáš on the top step, Lucia second, Emma third, all laughing and out of breath.", "panel": "p29-1"},
 
+  "u2-telefon#halo": {"picture": "Split picture of a phone call. Left: in the dorm room, Lucia picks up her ringing phone and answers, curious who it is. Right: Emma calls her from a street in the Old Town, smiling.", "panel": "p7-15"},
+  "u2-telefon#tu-je-emma": {"reuse": "u2-telefon#halo", "panel": "p51-1"},
+  "u2-telefon#choice-halo": {"reuse": "u2-telefon#halo", "panel": "p7-15"},
+  "u2-telefon#telefonovat": {"picture": "Tomáš leans back in his office chair with his feet up on his untidy desk, chatting away on the phone and waving his free hand as he talks.", "panel": "p67-1"},
+  "u2-telefon#telefonne-cislo": {"picture": "After class, in the corridor outside the classroom, Oksana asks Emma for her phone number and types it into her phone as Emma reads it out.", "panel": null},
+  "u2-telefon#ake-mas-telefonne-cislo": {"reuse": "u2-telefon#telefonne-cislo", "panel": null},
+  "u2-telefon#zavolam-ti": {"picture": "Evening at a tram stop: Lucia, stepping onto the tram, turns in the doorway and holds a hand to her ear like a phone; Emma, staying behind on the platform, nods and waves.", "panel": null},
+  "u2-telefon#dopocutia": {"picture": "Emma, at her desk in the dorm room, finishes a phone call: she says goodbye with a warm smile and takes the phone from her ear to hang up.", "panel": "p7-21"},
+
   "u2-l7#choice-ako-sa-volate": {"reuse": "u2-l2#choice-odkial-ste", "panel": null}
 }

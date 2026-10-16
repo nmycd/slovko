@@ -7,6 +7,15 @@
   "u5-l1#kolko-stoji-sunka": {"picture": "In the corner shop, Emma points at a ham in the deli counter and asks the price; the shop assistant lifts it onto the scales.", "panel": null},
   "u5-l1#kupim-cerstvy-chlieb": {"picture": "In the neighbourhood bakery, the baker hands Emma a warm loaf straight from the oven; she closes her eyes to smell it.", "panel": "p65-A"},
 
+  "u5-obchod#obchod": {"reuse": "u5-l1#kolko-stoji-sunka", "panel": null},
+  "u5-obchod#ovocie-a-zelenina": {"picture": "In the corner shop, wooden crates are piled with fruit and vegetables: apples, bananas, oranges and grapes on one side, tomatoes, potatoes, onions and carrots on the other. Emma fills her basket.", "panel": "p71-O", "panel2": "p71-V"},
+  "u5-obchod#jablko-a-banan": {"picture": "At her desk in the dorm room, Emma bites into a shiny red apple; a banana waits next to her open notebook.", "panel": "p71-O"},
+  "u5-obchod#zemiaky-a-cibula": {"picture": "In the dorm kitchen, Emma chops an onion with tears running down her cheeks; Lucia, peeling potatoes from a big bag beside her, laughs.", "panel": "p71-V"},
+  "u5-obchod#prosim-si-dve-jablka": {"picture": "At the fruit crates in the corner shop, Emma holds up two fingers; the shop assistant picks out two red apples for her.", "panel": null},
+  "u5-obchod#este-nieco": {"picture": "At the corner shop counter, the shop assistant sets Emma's bag of apples on the scales and looks up at her with a friendly, questioning smile, ready for whatever she wants next.", "panel": null},
+  "u5-obchod#choice-este-nieco": {"reuse": "u5-obchod#este-nieco", "panel": null},
+  "u5-obchod#platim-kartou": {"picture": "At the till in the corner shop, Emma holds her bank card to the card reader; the shop assistant waits with her shopping already packed.", "panel": "p67-2"},
+
   "u5-l3#cerveny-modry-zeleny": {"picture": "A washing line on the dormitory balcony with three T-shirts drying in the sun: a red one, a blue one and a green one.", "panel": "p72-A"},
   "u5-l3#biely-cierny-zlty": {"picture": "The same washing line, now with a white T-shirt, a black one and a yellow one; Lucia pegs up the last.", "panel": "p72-A"},
   "u5-l3#tricko-a-sveter": {"picture": "In a clothes shop, Emma holds up a T-shirt in one hand and a chunky knitted sweater in the other, trying to decide.", "panel": "p70-A"},
@@ -14,6 +23,12 @@
   "u5-l3#chcem-cierne-tricko": {"picture": "At the clothes shop counter, Tomáš points at a black T-shirt on a high shelf; a young salesman reaches up for it.", "panel": null},
   "u5-l3#darcek": {"picture": "Emma and Tomáš come out of a shop carrying a present for Lucia, wrapped in bright paper with a big bow, looking pleased with themselves.", "panel": "p67-A"},
   "u5-l3#aku-farbu-mas": {"picture": "In the clothes shop, Tomáš holds up two scarves, a green one and a blue one, and asks Emma which colour she likes; she points at the green one.", "panel": "p72-A"},
+
+  "u5-mam-rad#hudba-a-film": {"picture": "Two halves. Left: Lucia sits on her bed playing the guitar and singing. Right: Emma and Tomáš watch a film on a laptop in the dark, sharing a bowl of popcorn.", "panel": null},
+  "u5-mam-rad#futbal-a-tenis": {"picture": "Two halves. Left: Tomáš kicks a football across the grass in the park, friends running after it. Right: Tomáš, in white shorts, serves on a red clay tennis court.", "panel": null},
+  "u5-mam-rad#pocuvat-hudbu": {"picture": "Emma lies on her bed in the dorm room with big headphones on, eyes closed, smiling and tapping her foot to the music.", "panel": null},
+  "u5-mam-rad#tancovat-a-spievat": {"picture": "At a party in the dorm kitchen, Lucia sings into a wooden spoon like a microphone while Emma and Tomáš dance around her.", "panel": null},
+  "u5-mam-rad#grammar-paci-sa-mi": {"reuse": "u5-l3#aku-farbu-mas", "panel": null},
 
   "u5-l6#lucia-ma-dnes": {"picture": "Morning in the dorm room: Lucia wakes up to balloons tied to her bed; Emma stands beside it holding a small birthday cake with lit candles.", "panel": "p65-B"},
   "u5-l6#vsetko-najlepsie": {"picture": "Lucia's birthday party in the dorm kitchen, balloons everywhere: Emma hugs Lucia and holds out the present; Tomáš and Marek clap behind them.", "panel": "p69-1"},

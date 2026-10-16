@@ -368,6 +368,19 @@
         "panel": "1",
         "crop": "book-refs/panels/p84-1.jpg"
       }
+    },
+    {
+      "lesson": "u6-l7",
+      "exercise": "choice-mozem-platit-kartou",
+      "type": "choice",
+      "text": "You want to pay by card. What do you ask the waiter?",
+      "reuse": "u6-l4#spolu-alebo-osobitne",
+      "book": {
+        "pdfPage": 87,
+        "printedPage": 92,
+        "panel": "3",
+        "crop": "book-refs/panels/p87-3.jpg"
+      }
     }
   ]
 }

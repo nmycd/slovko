@@ -1,6 +1,6 @@
 {
   "unit": "u2",
-  "pictures": 12,
+  "pictures": 17,
   "items": [
     {
       "lesson": "u2-l1",
@@ -154,6 +154,95 @@
         "printedPage": 32,
         "panel": "1",
         "crop": "book-refs/panels/p29-1.jpg"
+      }
+    },
+    {
+      "lesson": "u2-telefon",
+      "exercise": "halo",
+      "type": "intro",
+      "text": "Haló? = Hello? (on the phone)",
+      "picture": "Split picture of a phone call. Left: in the dorm room, Lucia picks up her ringing phone and answers, curious who it is. Right: Emma calls her from a street in the Old Town, smiling.",
+      "book": {
+        "pdfPage": 7,
+        "printedPage": 10,
+        "panel": "15",
+        "crop": "book-refs/panels/p7-15.jpg"
+      }
+    },
+    {
+      "lesson": "u2-telefon",
+      "exercise": "tu-je-emma",
+      "type": "intro",
+      "text": "Tu je Emma. = It's Emma. (on the phone)",
+      "reuse": "u2-telefon#halo",
+      "book": {
+        "pdfPage": 51,
+        "printedPage": 54,
+        "panel": "1",
+        "crop": "book-refs/panels/p51-1.jpg"
+      }
+    },
+    {
+      "lesson": "u2-telefon",
+      "exercise": "choice-halo",
+      "type": "choice",
+      "text": "Your phone rings and you pick it up. What do you say?",
+      "reuse": "u2-telefon#halo",
+      "book": {
+        "pdfPage": 7,
+        "printedPage": 10,
+        "panel": "15",
+        "crop": "book-refs/panels/p7-15.jpg"
+      }
+    },
+    {
+      "lesson": "u2-telefon",
+      "exercise": "telefonovat",
+      "type": "intro",
+      "text": "telefonovať = to phone, to be on the phone",
+      "picture": "Tomáš leans back in his office chair with his feet up on his untidy desk, chatting away on the phone and waving his free hand as he talks.",
+      "book": {
+        "pdfPage": 67,
+        "printedPage": 70,
+        "panel": "1",
+        "crop": "book-refs/panels/p67-1.jpg"
+      }
+    },
+    {
+      "lesson": "u2-telefon",
+      "exercise": "telefonne-cislo",
+      "type": "intro",
+      "text": "telefónne číslo = phone number",
+      "picture": "After class, in the corridor outside the classroom, Oksana asks Emma for her phone number and types it into her phone as Emma reads it out.",
+      "book": null
+    },
+    {
+      "lesson": "u2-telefon",
+      "exercise": "ake-mas-telefonne-cislo",
+      "type": "intro",
+      "text": "Aké máš telefónne číslo? = What's your phone number? (informal)",
+      "reuse": "u2-telefon#telefonne-cislo",
+      "book": null
+    },
+    {
+      "lesson": "u2-telefon",
+      "exercise": "zavolam-ti",
+      "type": "intro",
+      "text": "Zavolám ti. = I'll call you.",
+      "picture": "Evening at a tram stop: Lucia, stepping onto the tram, turns in the doorway and holds a hand to her ear like a phone; Emma, staying behind on the platform, nods and waves.",
+      "book": null
+    },
+    {
+      "lesson": "u2-telefon",
+      "exercise": "dopocutia",
+      "type": "intro",
+      "text": "Dopočutia! = Goodbye! (on the phone)",
+      "picture": "Emma, at her desk in the dorm room, finishes a phone call: she says goodbye with a warm smile and takes the phone from her ear to hang up.",
+      "book": {
+        "pdfPage": 7,
+        "printedPage": 10,
+        "panel": "21",
+        "crop": "book-refs/panels/p7-21.jpg"
       }
     },
     {

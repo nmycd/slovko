@@ -84,6 +84,12 @@ Oksana or Dušan; the names are only handles for the image prompt.
 | **the woman with the shopping bag** | About 70, a Bratislava local who gives Emma directions. Grey perm, beige raincoat, a string shopping bag. |
 | **the pensioner** | About 80. Felt hat, long dark coat, walking stick. |
 | **the clerk at the international office** | About 25, at the university's international office. Neat side parting, light-blue shirt, lanyard. |
+| **the shop assistant** | About 60, at the corner shop near the dorm. Fair skin, short grey hair, a green checked shirt under a dark-green apron. |
+| **Emma's mum** | About 50, at home in Ireland. Fair skin, rosy cheeks, shoulder-length wavy light-brown hair, a cream jumper with a patterned yoke. |
+| **Emma's dad** | About 55, at home in Ireland. Tall, fair skin and freckles, thinning auburn hair going grey, a short ginger-grey beard, a navy knitted jumper. |
+| **Emma's brother and sister** | Younger than Emma, both fair and freckled with auburn hair. Her brother, about 15: lanky, messy hair, a green football shirt. Her sister, about 11: two plaits, a red jumper. |
+| **pán Horváth** | About 60, pani Horváthová's husband. Tall and broad, fair skin, white hair combed back, a short white beard, a brown corduroy jacket over a checked shirt. |
+| **the doctor** | About 45, a woman GP. Fair skin, short dark-brown hair tucked behind her ears, a white coat over a sage-green blouse, a stethoscope round her neck. |
 
 ## Recurring places
 
@@ -101,13 +107,15 @@ Places that come back in several units. Keep their layout the same each time.
 | Café near the university | Small round tables, a big street window, a counter with a coffee machine. | u1-l4#choice-ako-sa-mate-2, u4-l2#kaviaren |
 | Marek's restaurant | Dining room with checked tablecloths and leather-bound menus; a busy kitchen with big pots. | u1-l2#choice-nech-sa-paci, u4-l3#co-robis-som, u6-l1#jedalny-listok |
 | Marek's flat | Hallway in the middle; bright living room with a big window, sofa, rug and TV; small dim bedroom facing a courtyard. | u3-l5#byt |
-| Corner shop | Near the dorm. Shelves of groceries, a deli counter with scales. | u5-l1#kolko-stoji-sunka |
+| Corner shop | Near the dorm. Shelves of groceries, crates of fruit and vegetables, a deli counter with scales, a small till with a card reader. | u5-l1#kolko-stoji-sunka, u5-obchod#ovocie-a-zelenina |
 | Clothes shop | Racks and shelves of clothes, a mirror, a counter with high shelves behind it. | u4-l3#predavac, u5-l3#tricko-a-sveter |
 | Neighbourhood bakery | Small; shelves of rolls and loaves behind the counter. | u1-l1#dobry-den |
 | Tomáš's company | An office building with several floors: a reception desk at the entrance, a canteen, a meeting room, a training room, a room for staff parties, the technical department. Tomáš's own office is untidy: a desk with a lamp above it, a printer, shelves. | u8-l1#firma, u6-l5#grammar-where-pred-za |
 | Bratislava Old Town | Square with a fountain and pastel houses, narrow streets, a church with a tall spire; the white castle with four corner towers on its hill; the bridge with one pylon and a round saucer on top; café tables on the Danube embankment. | u4-l1#mesto |
 | Park bench | Tomáš's bench from the weather pictures (sunny, partly cloudy, cloudy, rain); the pensioner feeds pigeons in the same park. | u1-l3#mam-sa-dobre, u10-l2#je-oblacno |
 | Conference centre | Foyer with a registration desk and posters; a hall with a lectern and a big screen. | u9-l1#konferencia |
+| Emma's family home in Ireland | A small terraced house with a red front door; a cosy living room with a sofa, an armchair, plants and patterned wallpaper; a small back garden. | u4-rodina#mama-a-otec, u9-l1#pozvanka, u9-l5#trvale-bydlisko |
+| Doctor's surgery | Small and bright: the doctor's desk with a computer, an examination couch with a paper sheet, a glass cabinet of medicines, a window with blinds. | u9-lekar#mam-horucku |
 
 ## Book crops
 

@@ -1,6 +1,6 @@
 {
   "unit": "u5",
-  "pictures": 22,
+  "pictures": 32,
   "items": [
     {
       "lesson": "u5-l1",
@@ -89,6 +89,98 @@
       }
     },
     {
+      "lesson": "u5-obchod",
+      "exercise": "obchod",
+      "type": "intro",
+      "text": "obchod = shop",
+      "reuse": "u5-l1#kolko-stoji-sunka",
+      "book": null
+    },
+    {
+      "lesson": "u5-obchod",
+      "exercise": "ovocie-a-zelenina",
+      "type": "intro",
+      "text": "ovocie a zelenina = fruit and vegetables",
+      "picture": "In the corner shop, wooden crates are piled with fruit and vegetables: apples, bananas, oranges and grapes on one side, tomatoes, potatoes, onions and carrots on the other. Emma fills her basket.",
+      "book": [
+        {
+          "pdfPage": 71,
+          "printedPage": 74,
+          "panel": "O",
+          "crop": "book-refs/panels/p71-O.jpg"
+        },
+        {
+          "pdfPage": 71,
+          "printedPage": 74,
+          "panel": "V",
+          "crop": "book-refs/panels/p71-V.jpg"
+        }
+      ]
+    },
+    {
+      "lesson": "u5-obchod",
+      "exercise": "jablko-a-banan",
+      "type": "intro",
+      "text": "jablko a banán = an apple and a banana",
+      "picture": "At her desk in the dorm room, Emma bites into a shiny red apple; a banana waits next to her open notebook.",
+      "book": {
+        "pdfPage": 71,
+        "printedPage": 74,
+        "panel": "O",
+        "crop": "book-refs/panels/p71-O.jpg"
+      }
+    },
+    {
+      "lesson": "u5-obchod",
+      "exercise": "zemiaky-a-cibula",
+      "type": "intro",
+      "text": "zemiaky a cibuľa = potatoes and an onion",
+      "picture": "In the dorm kitchen, Emma chops an onion with tears running down her cheeks; Lucia, peeling potatoes from a big bag beside her, laughs.",
+      "book": {
+        "pdfPage": 71,
+        "printedPage": 74,
+        "panel": "V",
+        "crop": "book-refs/panels/p71-V.jpg"
+      }
+    },
+    {
+      "lesson": "u5-obchod",
+      "exercise": "prosim-si-dve-jablka",
+      "type": "intro",
+      "text": "Prosím si dve jablká. = Two apples, please.",
+      "picture": "At the fruit crates in the corner shop, Emma holds up two fingers; the shop assistant picks out two red apples for her.",
+      "book": null
+    },
+    {
+      "lesson": "u5-obchod",
+      "exercise": "este-nieco",
+      "type": "intro",
+      "text": "Ešte niečo? = Anything else?",
+      "picture": "At the corner shop counter, the shop assistant sets Emma's bag of apples on the scales and looks up at her with a friendly, questioning smile, ready for whatever she wants next.",
+      "book": null
+    },
+    {
+      "lesson": "u5-obchod",
+      "exercise": "choice-este-nieco",
+      "type": "choice",
+      "text": "The shop assistant asks “Ešte niečo?” You have everything you need. What do you say?",
+      "reuse": "u5-obchod#este-nieco",
+      "book": null
+    },
+    {
+      "lesson": "u5-obchod",
+      "exercise": "platim-kartou",
+      "type": "intro",
+      "text": "Platím kartou. = I'm paying by card.",
+      "picture": "At the till in the corner shop, Emma holds her bank card to the card reader; the shop assistant waits with her shopping already packed.",
+      "book": {
+        "pdfPage": 67,
+        "printedPage": 70,
+        "panel": "2",
+        "crop": "book-refs/panels/p67-2.jpg"
+      }
+    },
+    {
       "lesson": "u5-l3",
       "exercise": "cerveny-modry-zeleny",
       "type": "intro",
@@ -173,6 +265,46 @@
         "panel": "A",
         "crop": "book-refs/panels/p72-A.jpg"
       }
+    },
+    {
+      "lesson": "u5-mam-rad",
+      "exercise": "hudba-a-film",
+      "type": "intro",
+      "text": "hudba a film = music and film",
+      "picture": "Two halves. Left: Lucia sits on her bed playing the guitar and singing. Right: Emma and Tomáš watch a film on a laptop in the dark, sharing a bowl of popcorn.",
+      "book": null
+    },
+    {
+      "lesson": "u5-mam-rad",
+      "exercise": "futbal-a-tenis",
+      "type": "intro",
+      "text": "futbal a tenis = football and tennis",
+      "picture": "Two halves. Left: Tomáš kicks a football across the grass in the park, friends running after it. Right: Tomáš, in white shorts, serves on a red clay tennis court.",
+      "book": null
+    },
+    {
+      "lesson": "u5-mam-rad",
+      "exercise": "pocuvat-hudbu",
+      "type": "intro",
+      "text": "počúvať hudbu = to listen to music",
+      "picture": "Emma lies on her bed in the dorm room with big headphones on, eyes closed, smiling and tapping her foot to the music.",
+      "book": null
+    },
+    {
+      "lesson": "u5-mam-rad",
+      "exercise": "tancovat-a-spievat",
+      "type": "intro",
+      "text": "tancovať a spievať = to dance and to sing",
+      "picture": "At a party in the dorm kitchen, Lucia sings into a wooden spoon like a microphone while Emma and Tomáš dance around her.",
+      "book": null
+    },
+    {
+      "lesson": "u5-mam-rad",
+      "exercise": "grammar-paci-sa-mi",
+      "type": "grammar",
+      "text": "Páči sa mi: I like it",
+      "reuse": "u5-l3#aku-farbu-mas",
+      "book": null
     },
     {
       "lesson": "u5-l6",
