@@ -249,10 +249,21 @@ function checkExercise(where: string, ex: Exercise) {
 
 function checkLesson(unit: Unit, lesson: Lesson, index: number) {
   const where = lesson.id;
+  // A lesson id is a name, like an exercise id: progress, translations, refs, pictures
+  // and spelling cards point at it, so it never changes when lessons are inserted. The
+  // first lessons were numbered (u4-l1 … u4-l7) and keep their numbers, in order; a
+  // lesson added later takes the unit and a name (u4-rodina).
   check(
     where,
-    lesson.id === `${unit.id}-l${index + 1}`,
-    `id should be ${unit.id}-l${index + 1}`,
+    new RegExp(`^${unit.id}-[a-z0-9]+(-[a-z0-9]+)*$`).test(lesson.id),
+    `id should be ${unit.id}- and a name in lowercase letters, digits and hyphens`,
+  );
+  const numbered = (l: Lesson) => Number(l.id.match(new RegExp(`^${unit.id}-l(\\d+)$`))?.[1] ?? NaN);
+  const before = unit.lessons.slice(0, index).map(numbered).filter((n) => !Number.isNaN(n));
+  check(
+    where,
+    Number.isNaN(numbered(lesson)) || numbered(lesson) === before.length + 1,
+    `numbered ids run in order: this should be ${unit.id}-l${before.length + 1}, or a new lesson with a name`,
   );
   check(
     where,

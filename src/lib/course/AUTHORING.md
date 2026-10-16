@@ -53,8 +53,13 @@ nickname, but not the book's Zuzana Šoltýsová).
 - Use at least 4 exercise types per lesson. Aim for ≥1 `listen` and ≥1
   `speak` per lesson, and at most 2 `match`.
 - Never end a lesson on a teaching card.
-- Lesson ids: `uN-l1`, `uN-l2`, … in order. `title` is Slovak, `titleEn`
-  English.
+- Lesson ids are names, like exercise ids: learners' progress (on the device
+  and in Supabase), translation keys, `ref`s, pictures and spelling cards point
+  at them, so a lesson never changes its id. The first lessons were numbered
+  `uN-l1`, `uN-l2`, … and keep those numbers; a lesson added later, wherever it
+  goes in the unit, takes the unit and a name: `u4-rodina`. The path shows
+  lessons in file order, so a lesson inserted before a learner's place becomes
+  their next one. `title` is Slovak, `titleEn` English.
 
 ## Exercise types
 
