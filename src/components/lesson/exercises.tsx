@@ -432,37 +432,25 @@ function SlovakKeys({
   );
 }
 
-/** Memorize rounds: the Slovak blurs for this long before the rows start to move. */
-const BLUR_MS = 300;
-/** One swap of two rows. */
-const SWAP_MS = 200;
+/** Memorize rounds: how long the rows take to blur, and to clear again. */
+const BLUR_MS = 250;
 
-/**
- * The rows' shuffle, shell-game style: n − 1 swaps of two rows (three for four rows),
- * never one straight back, chosen so that every row ends somewhere new.
- */
-function shellSwaps(n: number): [number, number][] {
-  if (n < 2) return [];
+/** A new order for n rows in which every row's content moves somewhere else. */
+function derangement(n: number): number[] {
+  const start = Array.from({ length: n }, (_, i) => i);
+  if (n < 2) return start;
   for (;;) {
-    const swaps: [number, number][] = [];
-    while (swaps.length < n - 1) {
-      const a = Math.floor(Math.random() * n);
-      const b = (a + 1 + Math.floor(Math.random() * (n - 1))) % n;
-      const last = swaps.at(-1);
-      if (last && new Set([...last, a, b]).size === 2) continue;
-      swaps.push([a, b]);
-    }
-    const order = Array.from({ length: n }, (_, i) => i);
-    for (const [a, b] of swaps) [order[a], order[b]] = [order[b], order[a]];
-    if (order.every((v, i) => v !== i)) return swaps;
+    const order = shuffle([...start]);
+    if (order.every((v, i) => v !== i)) return order;
   }
 }
 
 /**
  * Writing practice: four words to memorize. While studying, each meaning stands beside its
- * Slovak. Once the learner is ready (`studied`), the Slovak blurs, the rows shuffle so a
- * word's place gives nothing away, and each row becomes a box to type the word in.
- * `answer` holds the typed words in the order they were dealt, whatever the rows show.
+ * Slovak. Once the learner is ready (`studied`), the rows blur and clear again with the
+ * meanings in a new order (so a word's place gives nothing away) and a box to type each
+ * word in. The rows themselves stay put. `answer` holds the typed words in the order they
+ * were dealt, whatever the rows show.
  */
 export function MemorizeView({
   exercise,
@@ -476,57 +464,34 @@ export function MemorizeView({
   const typed = Array.isArray(answer) ? (answer as string[]) : words.map(() => "");
   const [phase, setPhase] = useState<"study" | "hiding" | "write">(studied ? "write" : "study");
   const [order, setOrder] = useState(() => words.map((_, i) => i));
-  const rows = useRef<(HTMLLIElement | null)[]>([]);
   const inputs = useRef<(HTMLInputElement | null)[]>([]);
-  const from = useRef<number[] | null>(null);
   const focused = useRef(0);
   const caret = useRef<number | null>(null);
 
-  // Ready: blur the Slovak, then shuffle the rows like a shell game, then turn them into
-  // boxes. All at once with reduced motion. Once per round: a round brought back already
-  // studied starts with its boxes.
-  const [swaps] = useState(() => shellSwaps(words.length));
+  // Ready: blur the rows, put the meanings in a new order while they're blurred, and let
+  // them clear with the boxes in. At once with reduced motion. Once per round: a round
+  // brought back already studied starts with its boxes.
   const started = useRef(studied);
   useEffect(() => {
     if (!studied || started.current) return;
     started.current = true;
-    const swap = ([a, b]: [number, number]) =>
-      setOrder((current) => {
-        const next = [...current];
-        [next[a], next[b]] = [next[b], next[a]];
-        return next;
-      });
-    // Rows' places in the layout (offsetTop ignores a swap still gliding).
-    const measure = () => (from.current = rows.current.map((row) => row?.offsetTop ?? 0));
+    const reveal = () => {
+      setOrder((current) => derangement(current.length).map((i) => current[i]));
+      setPhase("write");
+    };
     const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const steps: [number, () => void][] = still
-      ? [[0, () => (swaps.forEach(swap), setPhase("write"))]]
+      ? [[0, reveal]]
       : [
           [0, () => setPhase("hiding")],
-          ...swaps.map((pair, k): [number, () => void] => [BLUR_MS + k * SWAP_MS, () => (measure(), swap(pair))]),
-          [BLUR_MS + swaps.length * SWAP_MS + 60, () => setPhase("write")],
+          [BLUR_MS, reveal],
         ];
     const timers = steps.map(([ms, run]) => setTimeout(run, ms));
     return () => {
       timers.forEach(clearTimeout);
       started.current = false;
     };
-  }, [studied, swaps]);
-
-  // A swap: the two rows slide past each other into each other's places.
-  useLayoutEffect(() => {
-    const before = from.current;
-    if (!before) return;
-    from.current = null;
-    rows.current.forEach((row, i) => {
-      const shift = before[i] - (row?.offsetTop ?? 0);
-      if (!row || !shift) return;
-      row.animate([{ transform: `translateY(${shift}px)` }, { transform: "none" }], {
-        duration: SWAP_MS,
-        easing: "ease-in-out",
-      });
-    });
-  }, [order]);
+  }, [studied]);
 
   useEffect(() => {
     if (phase === "write" && !locked) inputs.current[order[0]]?.focus();
@@ -568,61 +533,62 @@ export function MemorizeView({
         </div>
       </div>
       <ol className="space-y-3">
-        {order.map((i) => {
+        {order.map((i, place) => {
           const word = words[i];
           const mark = marks?.[i];
+          // Rows are keyed by place, so a row stays where it is and only its content blurs
+          // and clears, the new content coming into focus in place.
+          const haze = `transition-[filter,opacity] duration-[250ms] ${phase === "hiding" ? "opacity-60 blur-md select-none" : ""}`;
           return (
             <li
-              key={i}
-              ref={(el) => {
-                rows.current[i] = el;
-              }}
+              key={place}
               className="grid grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)] items-center gap-3 rounded-xl border border-border bg-bg p-3"
             >
-              <span className="text-muted">{word.en}</span>
-              {phase === "write" ? (
-                <div className="min-w-0">
-                  <input
-                    ref={(el) => {
-                      inputs.current[i] = el;
-                    }}
-                    value={typed[i] ?? ""}
-                    onChange={(e) => setAnswer(typed.map((v, j) => (j === i ? e.target.value : v)))}
-                    onFocus={() => {
-                      focused.current = i;
-                    }}
-                    onKeyDown={(e) => {
-                      // Enter goes to the next box; on the last one it checks (the player's key handler).
-                      if (e.key !== "Enter") return;
-                      const next = order[order.indexOf(i) + 1];
-                      if (next === undefined) return;
-                      e.preventDefault();
-                      e.stopPropagation();
-                      inputs.current[next]?.focus();
-                    }}
-                    disabled={locked}
+              <span className={`text-muted ${haze}`}>{word.en}</span>
+              <div className={`min-w-0 ${haze}`}>
+                {phase === "write" ? (
+                  <>
+                    <input
+                      key={i}
+                      ref={(el) => {
+                        inputs.current[i] = el;
+                      }}
+                      value={typed[i] ?? ""}
+                      onChange={(e) => setAnswer(typed.map((v, j) => (j === i ? e.target.value : v)))}
+                      onFocus={() => {
+                        focused.current = i;
+                      }}
+                      onKeyDown={(e) => {
+                        // Enter goes to the next box; on the last one it checks (the player's key handler).
+                        if (e.key !== "Enter") return;
+                        const next = order[place + 1];
+                        if (next === undefined) return;
+                        e.preventDefault();
+                        e.stopPropagation();
+                        inputs.current[next]?.focus();
+                      }}
+                      disabled={locked}
+                      lang="sk"
+                      spellCheck={false}
+                      autoCapitalize="off"
+                      autoComplete="off"
+                      autoCorrect="off"
+                      placeholder={t("ex.memorize.placeholder")}
+                      aria-label={word.en}
+                      data-mark={mark}
+                      className="h-12 w-full rounded-lg border-[1.5px] border-border-strong bg-bg px-3 font-serif text-lg outline-none focus:border-accent data-[mark=accents]:border-gold data-[mark=exact]:border-ok data-[mark=wrong]:border-bad"
+                    />
+                    {mark && mark !== "exact" && <p className="mt-1 font-serif text-base font-semibold">{word.sk}</p>}
+                  </>
+                ) : (
+                  <div
                     lang="sk"
-                    spellCheck={false}
-                    autoCapitalize="off"
-                    autoComplete="off"
-                    autoCorrect="off"
-                    placeholder={t("ex.memorize.placeholder")}
-                    aria-label={word.en}
-                    data-mark={mark}
-                    className="h-12 w-full rounded-lg border-[1.5px] border-border-strong bg-bg px-3 font-serif text-lg outline-none focus:border-accent data-[mark=accents]:border-gold data-[mark=exact]:border-ok data-[mark=wrong]:border-bad"
-                  />
-                  {mark && mark !== "exact" && <p className="mt-1 font-serif text-base font-semibold">{word.sk}</p>}
-                </div>
-              ) : (
-                <div
-                  lang="sk"
-                  className={`flex h-12 items-center rounded-lg border-[1.5px] border-transparent px-3 font-serif text-lg font-semibold transition-[filter,opacity] duration-300 ${
-                    phase === "hiding" ? "opacity-50 blur-md select-none" : ""
-                  }`}
-                >
-                  {word.sk}
-                </div>
-              )}
+                    className="flex h-12 items-center rounded-lg border-[1.5px] border-transparent px-3 font-serif text-lg font-semibold"
+                  >
+                    {word.sk}
+                  </div>
+                )}
+              </div>
             </li>
           );
         })}
