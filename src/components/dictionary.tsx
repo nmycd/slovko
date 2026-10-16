@@ -64,7 +64,9 @@ export function Dictionary({ className = "" }: { className?: string }) {
         (results.length ? (
           <ul className="mt-3 max-h-[50vh] space-y-0.5 overflow-y-auto">
             {results.map((entry) => (
-              <li key={`${entry.lessonId}#${entry.index}`}>
+              // Not the card alone: a grammar card has many entries (its examples, its pairs),
+              // and keys that repeat leave stale rows behind as the results change.
+              <li key={[entry.lessonId, entry.index, entry.kind, entry.sk, entry.meaning.en].join("|")}>
                 <Link href={hrefFor(entry)} className="block rounded-xl px-3 py-2 transition-colors hover:bg-surface-2">
                   {/* A grammar card shows its title; a word, its Slovak and meaning. */}
                   <span className="block font-serif text-lg leading-snug">

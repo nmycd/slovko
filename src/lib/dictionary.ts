@@ -70,6 +70,9 @@ function withoutFleetingVowel(word: string): string {
 /** Words come before phrases, and both before grammar cards, on an equal match. */
 const rank = { word: 1, phrase: 0.97, grammar: 0.9 };
 
+/** What an entry the query is only part of scores, against one it is all of (see `whole` below). */
+const partWeight = 0.95;
+
 /**
  * A grammar card comes first when the search is about grammar: a word of its title
  * is searched for ("Sa and si in the past tense"), or a little word (si, som, na…)
@@ -81,7 +84,8 @@ const grammarFirst = { title: 2, table: 1.5, tableHits: 3 };
 /**
  * A search over the dictionary in Slovak and one native language, best matches first.
  * Each query word has to match some word of an entry (see `wordMatch`; meanings count
- * a little less than the Slovak, and shorter entries come first on a tie). Typos are
+ * a little less than the Slovak). An entry the query is all of comes before one it's
+ * only part of, and shorter entries come first on a tie. Typos are
  * tried only when nothing matches otherwise. Case and accents never matter.
  */
 export function dictionarySearch(entries: DictionaryEntry[], locale: Locale) {
@@ -120,6 +124,7 @@ export function dictionarySearch(entries: DictionaryEntry[], locale: Locale) {
           }
         }
         let total = 0;
+        let inSlovak = 0;
         for (const w of words) {
           const short = withoutFleetingVowel(w);
           const match = (word: string, inflected: boolean) =>
@@ -129,15 +134,22 @@ export function dictionarySearch(entries: DictionaryEntry[], locale: Locale) {
                   wordMatch(w, word, inflected, typos),
                   inflected && short !== w ? 0.95 * wordMatch(short, word, true, typos) : 0,
                 );
-          const best = Math.max(
-            ...doc.skWords.map((word) => match(word, true)),
-            ...doc.meaningWords.map((word) => 0.95 * match(word, locale !== "en")),
-          );
+          const sk = Math.max(0, ...doc.skWords.map((word) => match(word, true)));
+          const meaning = Math.max(0, ...doc.meaningWords.map((word) => 0.95 * match(word, locale !== "en")));
+          const best = Math.max(sk, meaning);
           if (!best) return null;
           total += best;
+          if (sk >= meaning) inSlovak++;
         }
+        // The query is all of the entry, on the side it matched: "night" is all of noc
+        // ("night") but only part of Dobrú noc ("Good night"), so noc comes first.
+        const side = inSlovak * 2 >= words.length ? doc.skWords.length : doc.meaningWords.length;
+        const whole = words.length >= side;
         const length = doc.skWords.length + doc.meaningWords.length;
-        return { entry: doc.entry, score: (rank[doc.entry.kind] * total) / words.length - 0.001 * length };
+        return {
+          entry: doc.entry,
+          score: (rank[doc.entry.kind] * total * (whole ? 1 : partWeight)) / words.length - 0.001 * length,
+        };
       })
       .filter((hit) => hit !== null)
       .sort((a, b) => b.score - a.score) // stable: ties keep course order
