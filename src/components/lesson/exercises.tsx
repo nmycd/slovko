@@ -226,6 +226,8 @@ export function BuildView({
   const { t } = useApp();
   const picked = Array.isArray(answer) ? answer : [];
   const toSk = exercise.promptLang === "en";
+  // Lowercase, or the capitalised tile would give the first word away; names keep theirs.
+  const label = (tile: string) => (exercise.keepCase?.includes(tile) ? tile : tile.toLocaleLowerCase());
 
   return (
     <div className="space-y-8">
@@ -247,7 +249,7 @@ export function BuildView({
             onClick={() => setAnswer(picked.filter((_, j) => j !== i))}
             className="tile animate-pop h-12 px-4 text-lg"
           >
-            {tiles[tileIndex]}
+            {label(tiles[tileIndex])}
           </button>
         ))}
       </div>
@@ -268,7 +270,7 @@ export function BuildView({
               data-state={used ? "done" : undefined}
               className="tile h-12 px-4 text-lg"
             >
-              {word}
+              {label(word)}
             </button>
           );
         })}

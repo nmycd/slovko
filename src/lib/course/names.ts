@@ -11,6 +11,7 @@ export const properNames = new Set([
   "luciou",
   "marek",
   "marekom",
+  "martin",
   "tomáš",
   // Places
   "bratislave",

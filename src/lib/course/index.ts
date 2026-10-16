@@ -7,6 +7,7 @@ import { locales, type Locale } from "../i18n/locales";
 import { speakableTexts, stripMarkup } from "./helpers";
 import { lessonIllustrations } from "./illustrations";
 import { addSpelling } from "./spelling";
+import { namesIn, withTileCase } from "./tile-case";
 import { localizeUnit, type Catalog } from "./translatable";
 import type { Exercise, Lesson, Unit, UnitOutline } from "./types";
 import { unit1 } from "./units/unit1";
@@ -80,7 +81,8 @@ const catalogs: Record<Exclude<Locale, "en">, Catalog[]> = {
 
 /**
  * The course as played: translations and explanations in the learner's native
- * language, and spelling cards (./spelling) in the lessons.
+ * language, spelling cards (./spelling) in the lessons, and word-order tiles marked
+ * for lowercase display (./tile-case).
  */
 export const localizedCourse: Record<Locale, Unit[]> = Object.fromEntries(
   locales.map((locale) => {
@@ -92,10 +94,12 @@ export const localizedCourse: Record<Locale, Unit[]> = Object.fromEntries(
       const ex = lessons.get(lessonId)?.exercises[Number(index)];
       return ex?.type === "intro" ? ex.en : undefined;
     };
-    return [
-      locale,
-      units.map((unit) => ({ ...unit, lessons: unit.lessons.map((l) => addSpelling(l, meaning)) })),
-    ];
+    const names = namesIn([...lessons.values()]);
+    const played = (lesson: Lesson) => {
+      const withSpelling = addSpelling(lesson, meaning);
+      return { ...withSpelling, exercises: withSpelling.exercises.map((ex) => withTileCase(ex, names)) };
+    };
+    return [locale, units.map((unit) => ({ ...unit, lessons: unit.lessons.map(played) }))];
   }),
 ) as Record<Locale, Unit[]>;
 

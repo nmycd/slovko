@@ -224,6 +224,10 @@ These follow from the content; there's nothing to run.
   only after the answer (and not at all on phones).
 - **Spelling cards in lessons** and **picture positions**: inserted and shifted
   as the course loads, from `spelling.json` and `illustrations.json`.
+- **Word-order tiles** show in lowercase, so the capital doesn't give the first
+  word away; names keep theirs ([tile-case.ts](src/lib/course/tile-case.ts)). A
+  name the course only ever writes at the start of a sentence needs adding to
+  `properNames` in `names.ts` (as "Martin" was).
 - **Loading**: each lesson fetches its pictures and audio in the background as it
   starts.
 

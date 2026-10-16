@@ -32,6 +32,11 @@ export type BuildExercise = {
   answers: string[];
   /** Extra wrong tiles mixed in. */
   distractors: string[];
+  /**
+   * Tiles shown with their capital (names, "I"); the rest show in lowercase, so the
+   * first word isn't given away. Filled in as the course loads (see ../tile-case).
+   */
+  keepCase?: string[];
 };
 
 /** Type what you hear. */
