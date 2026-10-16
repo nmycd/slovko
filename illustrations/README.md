@@ -4,7 +4,8 @@ Slovko's lessons get their own illustrations. This folder plans them (which
 exercise gets a picture, what the picture shows, and which page of the
 Krížom-krážom A1 textbook illustrated the same thing) and renders them (see
 Rendering). Where this fits in the whole course workflow:
-[CONTENT-PIPELINE.md](../CONTENT-PIPELINE.md).
+[CONTENT-PIPELINE.md](../CONTENT-PIPELINE.md). How the pictures came about, with
+the brief their descriptions were written to: [HISTORY.md](HISTORY.md).
 
 - `plan/unitN.json`: one entry per exercise that gets a picture.
 - `book-refs/`: crops of the textbook's pictures, matched to entries. **Not in
