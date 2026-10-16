@@ -432,18 +432,20 @@ export async function generateTiles(lessons: Lesson[], options: TileOptions): Pr
       const cut = cutWords(await decode(audio), words, cuts.map((c) => c.word));
       for (const [i, { tile, word, missing, styles }] of cuts.entries()) {
         const clip = cut[i];
+        const short = clip.problem?.startsWith("too short");
         if (clip.problem) {
           failed++;
           console.error(`✗ ${plan.key} "${tile}" in "${take.text}": ${clip.problem}`);
-          continue;
+          // Too short for lessons, but dev mode still compares it in each style.
+          if (!short || !styles.length) continue;
         }
         const live = await encode(clip.samples, tmp, LIVE_TILE_STYLE);
-        if (missing || options.recut) await cache.storeCached(clipPath(plan, tile), live, "audio/mpeg");
+        if (!clip.problem && (missing || options.recut)) await cache.storeCached(clipPath(plan, tile), live, "audio/mpeg");
         for (const style of styles) {
           const mp3 = style === LIVE_TILE_STYLE ? live : await encode(clip.samples, tmp, style);
           await cache.storeCached(clipPath(plan, tile, style), mp3, "audio/mpeg");
         }
-        await save(`${t}-${word}-${tile}.mp3`, live, `<b>${html(tile)}</b> ${clip.seconds.toFixed(2)} s`);
+        if (!clip.problem) await save(`${t}-${word}-${tile}.mp3`, live, `<b>${html(tile)}</b> ${clip.seconds.toFixed(2)} s`);
       }
     }
     done++;

@@ -330,7 +330,8 @@ right, 304 wrong) from 326 takes, 7,233 characters. One take per wrong tile
 would have been 10,296. Five clips failed the length check, all words said in
 under 0.08 s (a, o, je); those tiles play the word's own clip, which the owner
 chose to keep (October 2026). So every run reports those five as failed and
-exits with an error: expected, not a new problem.
+exits with an error: expected, not a new problem. Dev mode's rows still play
+them in each style.
 
 Not done: the sentence played after Check is still its own clip, not the take
 the tiles were cut from.
