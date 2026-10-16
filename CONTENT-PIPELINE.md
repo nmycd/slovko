@@ -222,6 +222,14 @@ These follow from the content; there's nothing to run.
   (the first lesson's with one): review shows it with the question when asking
   for the Slovak; when asking for the meaning, which the picture would give away,
   only after the answer (and not at all on phones).
+- **Wrong options in review** are other review items shaped like the answer, so
+  none gives itself away: a bare word among bare words, a question among
+  questions, a greeting among sentences, a verb among verbs, about as long
+  (`distractors` in [session.ts](src/lib/review/session.ts)). There are no tags:
+  the shape is read from the intro card, which asks three things of it. End a
+  question with "?" and a sentence or greeting with "." or "!", and leave a bare
+  word or phrase unpunctuated ("byt", "jedálny lístok"). Gloss a verb with "to"
+  ("otvoriť" = "to open").
 - **Spelling cards in lessons** and **picture positions**: inserted and shifted
   as the course loads, from `spelling.json` and `illustrations.json`.
 - **Word-order tiles** show in lowercase, so the capital doesn't give the first
@@ -266,3 +274,6 @@ Gaps in the pipeline, most also tracked in [DEBT.md](DEBT.md):
 - **Spelling cards show a meaning** only for words taught on their own intro card;
   the rest are audio only.
 - **The dictionary knows no synonyms**: "праворуч" doesn't find "направо".
+- **Review options know no part of speech or topic** beyond the shape above: an
+  adjective can stand among nouns, and "kuchyňa" can get "pondelok" rather than
+  other rooms. Tagging intro cards (part of speech, topic) would fix both.
