@@ -228,7 +228,7 @@ const kindLabel: Record<LessonKind, MessageKey | null> = {
 function ReviewStop({ href, waiting, locked, t }: { href: string; waiting: number; locked: boolean; t: Translate }) {
   const node = (
     <span
-      className="grid size-14 place-items-center rounded-full"
+      className="grid size-[4.5rem] place-items-center rounded-full"
       style={
         locked
           ? { background: "var(--locked)", color: "var(--locked-dark)" }
@@ -237,7 +237,7 @@ function ReviewStop({ href, waiting, locked, t }: { href: string; waiting: numbe
             : { background: "var(--ok-soft)", color: "var(--ok)" }
       }
     >
-      {locked ? <LockIcon size={22} /> : waiting ? <RewindIcon size={26} /> : <CheckIcon size={26} />}
+      {locked ? <LockIcon size={28} /> : waiting ? <RewindIcon size={34} /> : <CheckIcon size={34} />}
     </span>
   );
   const status = locked ? null : waiting ? t("path.reviewDue", { n: waiting }) : t("path.reviewClear");
