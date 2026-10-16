@@ -147,14 +147,35 @@ async function decode(mp3: ArrayBuffer): Promise<Float32Array> {
   return new Float32Array(pcm.buffer, pcm.byteOffset, pcm.byteLength / 4);
 }
 
+/** A word said faster than this is slowed to it (pitch kept): je, a, sa can be 0.08 s. */
+const SHORTEST = 0.16;
+/** Silence before each clip, so the start isn't lost while the audio output wakes up. */
+const LEAD_IN_MS = 60;
+
 /**
- * Samples → MP3, through a file rather than a pipe so the encoder can write the header
- * that tells players to skip its padding (or every clip would start late).
+ * A clip → MP3: slowed to `SHORTEST` if it's shorter, with `LEAD_IN_MS` of silence
+ * first. Encoded through a file rather than a pipe so the encoder can write the
+ * header that tells players to skip its padding (or every clip would start late).
  */
-async function encode(samples: Float32Array, dir: string, name: string): Promise<Buffer> {
-  const file = join(dir, `${name}.mp3`);
+let encoded = 0;
+
+async function encode(samples: Float32Array, dir: string): Promise<Buffer> {
+  // A name of its own: exercises are encoded side by side.
+  const file = join(dir, `${++encoded}.mp3`);
   const pcm = Buffer.from(samples.buffer, samples.byteOffset, samples.byteLength);
-  await ffmpeg(["-y", "-f", "f32le", "-ar", String(RATE), "-ac", "1", "-i", "pipe:0", "-c:a", "libmp3lame", "-b:a", "128k", file], pcm);
+  const seconds = samples.length / RATE;
+  // atempo needs sound around a short clip, or it eats its start and end; it also
+  // slows to half speed at most, so slower takes two.
+  const tempo = seconds / SHORTEST;
+  const slow = tempo >= 1 ? [] : tempo >= 0.5 ? [tempo] : [Math.sqrt(tempo), Math.sqrt(tempo)];
+  const filters = [
+    `adelay=${LEAD_IN_MS}:all=1`,
+    ...(slow.length ? [`apad=pad_dur=${LEAD_IN_MS / 1000}`, ...slow.map((t) => `atempo=${t.toFixed(3)}`)] : []),
+  ];
+  await ffmpeg(
+    ["-y", "-f", "f32le", "-ar", String(RATE), "-ac", "1", "-i", "pipe:0", "-af", filters.join(","), "-c:a", "libmp3lame", "-b:a", "128k", file],
+    pcm,
+  );
   const mp3 = await readFile(file);
   await rm(file);
   return mp3;
@@ -390,7 +411,7 @@ export async function generateTiles(lessons: Lesson[], options: TileOptions): Pr
           console.error(`✗ ${plan.key} "${tile}" in "${take.text}": ${clip.problem}`);
           continue;
         }
-        const mp3 = await encode(clip.samples, tmp, `${t}-${word}`);
+        const mp3 = await encode(clip.samples, tmp);
         await cache.storeCached(clipPath(plan, tile), mp3, "audio/mpeg");
         await save(`${t}-${word}-${tile}.mp3`, mp3, `<b>${html(tile)}</b> ${clip.seconds.toFixed(2)} s`);
       }

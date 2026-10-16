@@ -4,7 +4,7 @@
 // browser's own speech synthesis when TTS isn't configured or fails.
 
 import { useSyncExternalStore } from "react";
-import { isSilentTile } from "@/lib/course/helpers";
+import { isSilentTile, TILE_CLIPS_VERSION } from "@/lib/course/helpers";
 import { createStore } from "@/lib/store";
 
 /**
@@ -16,7 +16,7 @@ export type Clip = string | { text: string; in: string };
 const query = (clip: Clip) =>
   typeof clip === "string"
     ? `text=${encodeURIComponent(clip)}`
-    : `text=${encodeURIComponent(clip.text)}&in=${encodeURIComponent(clip.in)}`;
+    : `text=${encodeURIComponent(clip.text)}&in=${encodeURIComponent(clip.in)}&v=${TILE_CLIPS_VERSION}`;
 
 /** Object URLs of loaded clips, by query. */
 const urls = new Map<string, Promise<string | null>>();

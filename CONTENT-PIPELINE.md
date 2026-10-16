@@ -240,25 +240,31 @@ sentence. `generate:audio` does this after the phrases, in
    clip's ends is trimmed to a little, and the ends fade in 8 ms and out 15 ms
    so nothing clicks. ffmpeg decodes and encodes (128 kbps MP3); it must be
    installed.
-3. **Wrong tiles come from the same frame.** The sentence is voiced again with
+3. **Make short words audible.** In a sentence the voice says je, a, sa, si, o
+   in as little as 0.08 s (115 clips under 0.15 s), a blip that's easy to miss
+   on a tap. So a clip shorter than 0.16 s is slowed to 0.16 s, pitch kept
+   (ffmpeg `atempo`), and every clip starts with 60 ms of silence, so the word
+   isn't lost while the audio output wakes up (`SHORTEST` and `LEAD_IN_MS` in
+   tile-audio.ts). See "Short words: the options" below.
+4. **Wrong tiles come from the same frame.** The sentence is voiced again with
    each wrong tile in place of the tile it competes with (its trap's `right`;
    one without a trap takes the tile most like it in form), taking that tile's
    case, and cut out the same way. One take carries several wrong tiles when they
    replace different tiles. The frame may be ungrammatical, since only the word
    is kept; what matters is that a wrong tile sounds like a right one, or the
    sound would give the answer away.
-4. **One-letter prepositions get no clip.** Slovak says v, z, s and k as part of
+5. **One-letter prepositions get no clip.** Slovak says v, z, s and k as part of
    the next word, so on their own they'd be a click. Tapping them plays nothing
    (`isSilentTile` in [helpers.ts](src/lib/course/helpers.ts)).
-5. **Tile clips belong to their exercise:** `tiles/` in the bucket, keyed by
+6. **Tile clips belong to their exercise:** `tiles/` in the bucket, keyed by
    exercise ("u3-l1#build-kde-je-kupelna"), sentence and tile, so a changed
    sentence gets new clips. The takes stay in `takes/` (audio and timings), so
    clips can be cut again without paying twice. The app asks for
    `/api/tts?text=je&in=u3-l1%23build-kde-je-kupelna`; the route serves only a tile
    of that exercise, and the word's own clip until the cut one exists. It never
    cuts or voices tiles itself.
-6. **Checks:** each take's words match its tiles; each clip is at least 0.08 s,
-   at most 0.6 s longer than its word's timing, and not silent (peak above
+7. **Checks:** each take's words match its tiles; each clip, as cut (before
+   slowing), is at least 0.08 s, at most 0.6 s longer than its word's timing, and not silent (peak above
    −30 dBFS). A clip that fails isn't stored, and the run exits with an error.
 
 Flags for the tiles:
@@ -272,7 +278,9 @@ npm run generate:audio -- --tiles-only --only u3-,u1-l3#build-volam-sa-tomas --s
 - `--save <dir>` also writes the takes and clips there, with an `index.html` to
   listen to them on (keep it outside the repo, or delete it).
 - `--recut` cuts every clip again from its stored take, for free, after a change
-  to the cutting.
+  to the cutting. Then bump `TILE_CLIPS_VERSION` in
+  [helpers.ts](src/lib/course/helpers.ts), or browsers keep the old clips for up
+  to a week.
 - `--prune` also deletes tile clips and takes that no exercise uses any more.
 
 Size, for the course as of October 2026: 151 exercises, 899 tile clips (595
@@ -284,6 +292,22 @@ exits with an error: expected, not a new problem.
 
 Not done: the sentence played after Check is still its own clip, not the take
 the tiles were cut from.
+
+#### Short words: the options
+
+Chosen in October 2026 after listening to the four side by side; still being
+tried in lessons, so it may change. Each is a small change, then a re-cut:
+
+| | What | Cost to switch |
+| --- | --- | --- |
+| A | The cut as said, no lead-in (first version) | free: `SHORTEST = 0`, `LEAD_IN_MS = 0`, `--recut` |
+| B | 60 ms of silence first, no slowing | free: `SHORTEST = 0`, `--recut` |
+| **C** | **B, and words under 0.16 s slowed to 0.16 s (live)** | |
+| D | B, and words under 0.20 s slowed to 0.20 s (175 clips) | free: `SHORTEST = 0.2`, `--recut` |
+| E | Voice each sentence word by word, a pause after each word, so short words are said at full length; cut at the pauses | **$** a new take of every sentence, about 8,000–10,000 characters; try a few first |
+
+Slowing past half speed sounds unnatural, so C and D are about as far as
+stretching goes; if short words still sound wrong, E is the real fix.
 
 Considered and set aside:
 - **Each word alone, with the sentence as `previous_text`/`next_text`:** cheaper

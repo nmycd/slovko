@@ -81,7 +81,10 @@ push to `main`). After changing a Vercel environment variable, redeploy.
   "Word tiles"). The script checks that each take's words match its tiles and
   that every clip is long enough and not silent, but nobody has listened to all
   of them. A bad cut can be redone for free with `--recut`; a bad take needs
-  voicing again, by deleting it from `takes/` and running the script.
+  voicing again, by deleting it from `takes/` and running the script. Short
+  words (je, a, sa, si, o) are said in 0.08–0.15 s; they're slowed to 0.16 s
+  (option C), on trial in lessons. The other options, including voicing every
+  sentence word by word ($), are in stage 9, "Short words: the options".
 - **No automated tests or CI.** Checks are `npm run validate:course`,
   `npm run i18n:sync -- --check`, `npx tsc --noEmit` and `npx eslint src`, all
   run by hand. Worth a small GitHub Actions workflow running those on push.

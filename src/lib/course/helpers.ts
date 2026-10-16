@@ -21,6 +21,12 @@ export function isSilentTile(word: string): boolean {
 }
 
 /**
+ * The version of the tile clips, in their URLs: bump it after cutting them again
+ * (`generate:audio -- --recut`), or browsers keep the old ones for up to a week.
+ */
+export const TILE_CLIPS_VERSION = 2;
+
+/**
  * The tiles of a word-order exercise with a Slovak answer that play a sound, right
  * and wrong ones, each once. Each has its own clip cut from a take of the exercise's
  * sentence (scripts/tile-audio.ts), falling back to the word's own clip.

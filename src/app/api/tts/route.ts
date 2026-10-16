@@ -3,7 +3,8 @@ import { isElevenLabsConfigured } from "@/lib/elevenlabs";
 import { generateAndCache, liveGenerationEnabled, readCached, readCachedAudio, tileCachePath } from "@/lib/tts-cache";
 
 // GET /api/tts?text=Dobrý%20deň.
-// GET /api/tts?text=je&in=u3-l1%23build-kde-je-kupelna  (a word tile in its exercise)
+// GET /api/tts?text=je&in=u3-l1%23build-kde-je-kupelna&v=2  (a word tile in its exercise;
+//   `v` only busts browser caches when the clips are cut again)
 // Only course phrases are accepted, and a tile only in its own exercise. Audio comes
 // from the Supabase Storage cache (filled ahead of time by `npm run generate:audio`); a
 // missing phrase is generated on the fly unless TTS_LIVE_GENERATION=false. A tile plays
