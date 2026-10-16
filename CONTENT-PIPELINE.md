@@ -233,7 +233,8 @@ instrumental of tools) and words the eleven lessons put only in an English note
 238 points still unfound: 40 taught in other words, 49 book scenes proposed as
 skips, and 149 real gaps, 6 of them high and 43 medium. Most of those the
 comparison never saw: "Čo je to?", "Ja tiež", prečo and pretože, "Môžete mi
-pomôcť?", "Dobre." as a reply, mať + infinitive. Its spot checks of found points
+pomôcť?", "Dobre." as a reply, mať + infinitive (the six high ones were added
+to u2-l3, u2-l4, u2-l5, u6-l6 and u7-l4 the same day). Its spot checks of found points
 turned up 35 more that the markers matched but the course doesn't teach (a word
 in a note, half a function), so "found" is optimistic: the review is not
 optional.

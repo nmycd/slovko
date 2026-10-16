@@ -1,6 +1,6 @@
 {
   "unit": "u7",
-  "pictures": 18,
+  "pictures": 19,
   "items": [
     {
       "lesson": "u7-l1",
@@ -213,6 +213,14 @@
         "panel": "F",
         "crop": "book-refs/panels/p105-F.jpg"
       }
+    },
+    {
+      "lesson": "u7-l4",
+      "exercise": "preco",
+      "type": "intro",
+      "text": "Prečo? = Why?",
+      "picture": "Late morning in the dorm room: Lucia is still fast asleep in her bed with the blanket over her head. Emma, already dressed, stands beside the bed with a cup of coffee and her hands spread, puzzled: why?",
+      "book": null
     },
     {
       "lesson": "u7-l6",

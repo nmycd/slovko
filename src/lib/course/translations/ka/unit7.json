@@ -1045,6 +1045,44 @@
     "en": "The question is to Lucia, so it's **ty**, and the verb ends in **-š**: mysl**íš**. Myslí would be talking about her (ona).",
     "t": "კითხვა ლუციას ეხება, ანუ **ty**-ს, ამიტომ ზმნა **-š**-ზე ბოლოვდება: mysl**íš**. Myslí იქნებოდა მასზე ლაპარაკი (ona)."
   },
+  "u7-l4.preco.en": {
+    "en": "Why?",
+    "t": "რატომ?"
+  },
+  "u7-l4.preco.note": {
+    "en": "Prečo spíš? = Why are you sleeping? The answer often starts with **pretože** (because).",
+    "t": "Prečo spíš? = რატომ გძინავს? პასუხი ხშირად **pretože**-თი (იმიტომ, რომ) იწყება."
+  },
+  "u7-l4.pretoze.en": {
+    "en": "because",
+    "t": "იმიტომ, რომ"
+  },
+  "u7-l4.pretoze.note": {
+    "en": "In everyday speech **lebo** is just as common: Spím, lebo som unavená.",
+    "t": "სასაუბრო ენაში **lebo** ასევე ხშირია: Spím, lebo som unavená. (მძინავს, რადგან დავიღალე.)"
+  },
+  "u7-l4.fill-preco-spis-lucia.en": {
+    "en": "Why are you sleeping, Lucia? — Because I'm tired.",
+    "t": "რატომ გძინავს, ლუცია? — იმიტომ, რომ დაღლილი ვარ."
+  },
+  "u7-l4.fill-preco-spis-lucia.why": {
+    "en": "**Pretože** (because) gives the reason. Prečo asks why, and kde asks where.",
+    "t": "**Pretože** (იმიტომ, რომ) მიზეზს ასახელებს. Prečo კითხულობს „რატომ“, kde კი — „სად“."
+  },
+  "u7-l4.build-preco-lucia-spi.prompt": {
+    "en": "Why is Lucia asleep? Because she's tired.",
+    "t": "რატომ სძინავს ლუციას? იმიტომ, რომ დაღლილია."
+  },
+  "u7-l4.build-preco-lucia-spi.traps": {
+    "en": [
+      "Why? is **Prečo**. Kedy means when.",
+      "Lucia is a woman, so the adjective ends in **-á**: unaven**á**. Unavený is for a man."
+    ],
+    "t": [
+      "„რატომ?“ არის **Prečo**. Kedy ნიშნავს „როდის“.",
+      "ლუცია ქალია, ამიტომ ზედსართავი **-á**-თი ბოლოვდება: unaven**á**. Unavený კაცზე ითქმის."
+    ]
+  },
   "u7-l4.match-spim.pairs": {
     "en": [
       "I sleep",

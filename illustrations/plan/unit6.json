@@ -1,6 +1,6 @@
 {
   "unit": "u6",
-  "pictures": 21,
+  "pictures": 22,
   "items": [
     {
       "lesson": "u6-l1",
@@ -342,6 +342,22 @@
         "panel": "1",
         "crop": "book-refs/panels/p81-1.jpg"
       }
+    },
+    {
+      "lesson": "u6-l6",
+      "exercise": "dobre",
+      "type": "intro",
+      "text": "Dobre. = OK. / All right.",
+      "picture": "At a table in the café near the university, Tomáš has just suggested a plan; Emma nods with a smile and gives a thumbs-up: OK, all right.",
+      "book": null
+    },
+    {
+      "lesson": "u6-l6",
+      "exercise": "choice-dobre-dakujem",
+      "type": "choice",
+      "text": "Tomáš says “Pozvem ťa na večeru.” You'd like to go. What do you say?",
+      "reuse": "u6-l6#dakujem-za-pozvanie",
+      "book": null
     },
     {
       "lesson": "u6-l7",

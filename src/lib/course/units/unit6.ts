@@ -1082,6 +1082,22 @@ export const unit6: Unit = {
           answer: 0,
         },
         {
+          id: "dobre",
+          type: "intro",
+          sk: "Dobre.",
+          en: "OK. / All right.",
+          note: "To say yes to a plan: **Dobre, prídem.** (OK, I'll come.) Also: **V poriadku.** (That's fine.)",
+        },
+        {
+          id: "choice-dobre-dakujem",
+          type: "choice",
+          question: "Tomáš says “Pozvem ťa na večeru.” You'd like to go. What do you say?",
+          options: ["Dobre, ďakujem.", "Nie, ďakujem.", "Dobrú chuť."],
+          optionsLang: "sk",
+          answer: 0,
+          why: "**Dobre** (OK) says yes to the plan. Nie, ďakujem turns it down, and Dobrú chuť is wished before a meal.",
+        },
+        {
           id: "fill-ja-jem-rybu",
           type: "fill",
           before: "Ja",

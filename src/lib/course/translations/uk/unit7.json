@@ -1042,6 +1042,44 @@
     "en": "The question is to Lucia, so it's **ty**, and the verb ends in **-š**: mysl**íš**. Myslí would be talking about her (ona).",
     "t": "Питають Луцію, тобто **ty**, тож дієслово закінчується на **-š**: mysl**íš**. Myslí — це про неї (ona). Увага: «думати про» — myslieť na."
   },
+  "u7-l4.preco.en": {
+    "en": "Why?",
+    "t": "Чому?"
+  },
+  "u7-l4.preco.note": {
+    "en": "Prečo spíš? = Why are you sleeping? The answer often starts with **pretože** (because).",
+    "t": "Prečo spíš? = Чому ти спиш? Відповідь часто починається з **pretože** (тому що)."
+  },
+  "u7-l4.pretoze.en": {
+    "en": "because",
+    "t": "тому що, бо"
+  },
+  "u7-l4.pretoze.note": {
+    "en": "In everyday speech **lebo** is just as common: Spím, lebo som unavená.",
+    "t": "У розмові так само часто кажуть **lebo** (бо): Spím, lebo som unavená. (Сплю, бо втомилася.)"
+  },
+  "u7-l4.fill-preco-spis-lucia.en": {
+    "en": "Why are you sleeping, Lucia? — Because I'm tired.",
+    "t": "Чому ти спиш, Луціє? — Бо я втомилася."
+  },
+  "u7-l4.fill-preco-spis-lucia.why": {
+    "en": "**Pretože** (because) gives the reason. Prečo asks why, and kde asks where.",
+    "t": "**Pretože** (тому що) пояснює причину. Prečo питає «чому», а kde — «де»."
+  },
+  "u7-l4.build-preco-lucia-spi.prompt": {
+    "en": "Why is Lucia asleep? Because she's tired.",
+    "t": "Чому Луція спить? Бо вона втомилася."
+  },
+  "u7-l4.build-preco-lucia-spi.traps": {
+    "en": [
+      "Why? is **Prečo**. Kedy means when.",
+      "Lucia is a woman, so the adjective ends in **-á**: unaven**á**. Unavený is for a man."
+    ],
+    "t": [
+      "«Чому?» — це **Prečo**. Kedy означає «коли».",
+      "Луція — жінка, тож прикметник закінчується на **-á**: unaven**á**. Unavený — про чоловіка."
+    ]
+  },
   "u7-l4.match-spim.pairs": {
     "en": [
       "I sleep",

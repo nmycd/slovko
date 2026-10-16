@@ -29,6 +29,8 @@
 
   "u6-l6#dakujem-za-pozvanie": {"picture": "Split picture of a phone call. Left: Tomáš on his phone outside the university. Right: Emma on hers in the dorm room, beaming and thanking him for the dinner invitation.", "panel": "p81-1"},
   "u6-l6#choice-dakujem-za-pozvanie": {"reuse": "u6-l6#dakujem-za-pozvanie", "panel": "p81-1"},
+  "u6-l6#dobre": {"picture": "At a table in the café near the university, Tomáš has just suggested a plan; Emma nods with a smile and gives a thumbs-up: OK, all right.", "panel": null},
+  "u6-l6#choice-dobre-dakujem": {"reuse": "u6-l6#dakujem-za-pozvanie", "panel": null},
 
   "u6-l7#choice-polievka-je-velmi": {"reuse": "u6-l2#slany", "panel": "p86-B"},
   "u6-l7#choice-ucet-prosim": {"reuse": "u6-l4#ucet-prosim", "panel": "p84-1"},

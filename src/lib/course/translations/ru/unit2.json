@@ -686,6 +686,44 @@
     "en": "**Dievča** (girl) is an exception: it ends in -a but is neuter. Žena is feminine, and muž, ending in a consonant, is masculine.",
     "t": "**Dievča** (девочка) — исключение: оканчивается на -a, но среднего рода, как «дитя». Žena — женского рода, а muž на согласный — мужского."
   },
+  "u2-l3.co-je-to.en": {
+    "en": "What is that?",
+    "t": "Что это?"
+  },
+  "u2-l3.co-je-to.note": {
+    "en": "The answer starts with **To je…**: Čo je to? — To je internát. **Čo** (what) asks about things.",
+    "t": "Ответ начинается с **To je…**: Čo je to? — To je internát. **Čo** (что) спрашивает о вещах."
+  },
+  "u2-l3.kto-je-to.en": {
+    "en": "Who is that?",
+    "t": "Кто это?"
+  },
+  "u2-l3.kto-je-to.note": {
+    "en": "For people, ask **kto** (who): Kto je to? — To je Lucia.",
+    "t": "О людях спрашивают **kto** (кто): Kto je to? — To je Lucia."
+  },
+  "u2-l3.choice-co-je-to.question": {
+    "en": "You point at a building you don't know. What do you ask?",
+    "t": "Вы показываете на незнакомое здание. Что вы спросите?"
+  },
+  "u2-l3.choice-co-je-to.why": {
+    "en": "A building is a thing, so ask **čo** (what). **Kto** (who) is for people.",
+    "t": "Здание — это вещь, поэтому спрашиваем **čo** (что). **Kto** (кто) — о людях, как и в русском."
+  },
+  "u2-l3.build-kto-je-to.prompt": {
+    "en": "Who is that? That's Marek.",
+    "t": "Кто это? Это Марек."
+  },
+  "u2-l3.build-kto-je-to.traps": {
+    "en": [
+      "Marek is a person, so ask **kto** (who). Čo (what) is for things.",
+      "**To je** = that is. Som goes with ja (I)."
+    ],
+    "t": [
+      "Марек — человек, поэтому спрашиваем **kto** (кто). Čo (что) — о вещах.",
+      "**To je** = это (есть). Som употребляют с ja (я)."
+    ]
+  },
   "u2-l3.fill-lucia-ano-ona.en": {
     "en": "Lucia? Yes, she's a student.",
     "t": "Луция? Да, она студентка."
@@ -1063,6 +1101,30 @@
     "en": "The answer študujem is ja, so the question asks **ty** (you), and the verb ends in **-š**: robí**š**. Robím is ja, robia is oni.",
     "t": "Ответ študujem — это ja, значит, вопрос задан **ty**, и глагол оканчивается на **-š**: robí**š**. Robím — ja, robia — oni."
   },
+  "u2-l4.ja-tiez.en": {
+    "en": "Me too.",
+    "t": "Я тоже."
+  },
+  "u2-l4.ja-tiez.note": {
+    "en": "**tiež** = too, also. Just as common: **Aj ja.** After a “not” sentence, say **Ani ja.** (Me neither.)",
+    "t": "**tiež** = тоже, также. Так же часто говорят **Aj ja.** (И я.) А после отрицания — **Ani ja.** (Я тоже нет.)"
+  },
+  "u2-l4.choice-ja-tiez.question": {
+    "en": "Lucia says “Hovorím po anglicky.” You speak English too. What do you say?",
+    "t": "Луция говорит: «Hovorím po anglicky». Вы тоже говорите по-английски. Что вы скажете?"
+  },
+  "u2-l4.choice-ja-tiez.why": {
+    "en": "**Ja tiež** (me too) agrees with a yes sentence. Ani ja (me neither) answers a “not” sentence, and Ja nie means you don't.",
+    "t": "**Ja tiež** (я тоже) — согласие с утвердительной фразой. Ani ja (я тоже нет) отвечает на отрицание, а Ja nie значит, что вы — нет."
+  },
+  "u2-l4.fill-studujem-a-pracujem.en": {
+    "en": "I study and work. — Me too.",
+    "t": "Я учусь и работаю. — Я тоже."
+  },
+  "u2-l4.fill-studujem-a-pracujem.why": {
+    "en": "**Tiež** (too) after ja agrees: Ja tiež. Ja nie would mean you don't, and som (I am) doesn't answer a sentence about studying.",
+    "t": "**Tiež** (тоже) после ja выражает согласие: Ja tiež. Ja nie значило бы, что вы — нет, а som (я есть) не отвечает на фразу об учёбе."
+  },
   "u2-l4.speak-studujes-alebo-pracujes.en": {
     "en": "Do you study or work?",
     "t": "Ты учишься или работаешь?"
@@ -1182,6 +1244,36 @@
   "u2-l5.choice-prepacte-nerozumiem.why": {
     "en": "**Nerozumiem** is ne- + rozumiem, I don't understand, and pán Kováč gets the polite Prepáčte. Áno, rozumiem says the opposite; Nech sa páči is for handing something over.",
     "t": "**Nerozumiem** = ne- + rozumiem, «не понимаю», а к пану Ковачу — вежливое Prepáčte. Áno, rozumiem значит обратное, а Nech sa páči говорят, когда что-то подают."
+  },
+  "u2-l5.mozete-mi-pomoct.en": {
+    "en": "Can you help me?",
+    "t": "Можете мне помочь?"
+  },
+  "u2-l5.mozete-mi-pomoct.note": {
+    "en": "Learn it whole for now. To a friend: **Môžeš** mi pomôcť? A friendly answer: **Áno, samozrejme.** (Yes, of course.)",
+    "t": "Пока запомните целой фразой. Другу: **Môžeš** mi pomôcť? Дружелюбный ответ: **Áno, samozrejme.** (Да, конечно.)"
+  },
+  "u2-l5.choice-mozete-mi-pomoct.question": {
+    "en": "You're lost in town and ask a stranger for help. What do you say?",
+    "t": "Вы заблудились в городе и просите незнакомца о помощи. Что вы скажете?"
+  },
+  "u2-l5.choice-mozete-mi-pomoct.why": {
+    "en": "A stranger gets the polite forms: **Prepáčte** and **môžete** (vy). Ahoj and môžeš are for friends.",
+    "t": "К незнакомцу обращаются на «вы»: **Prepáčte** и **môžete** (vy). Ahoj и môžeš — для друзей."
+  },
+  "u2-l5.build-prepacte-nerozumiem-mozete.prompt": {
+    "en": "Sorry, I don't understand. Can you help me?",
+    "t": "Извините, я не понимаю. Можете мне помочь?"
+  },
+  "u2-l5.build-prepacte-nerozumiem-mozete.traps": {
+    "en": [
+      "“Don't understand” takes **ne-** in front, written as one word: **ne**rozumiem.",
+      "With Prepáčte you're speaking politely (vy), so it's **Môžete**. Môžeš is for a friend."
+    ],
+    "t": [
+      "«Не понимаю» — с **ne-** впереди, слитно: **ne**rozumiem.",
+      "С Prepáčte вы говорите вежливо (vy), поэтому **Môžete**. Môžeš — другу."
+    ]
   },
   "u2-l5.grammar-not-byt-nie.title": {
     "en": "Not with byť: nie som",

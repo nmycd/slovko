@@ -9,8 +9,14 @@
 
   "u2-l2#grammar-ty-or-vy": {"picture": "Split picture of two pairs crossing the campus. Left: Lucia and Tomáš walk together, a man and a woman. Right: Lucia and Emma walk together, two women.", "panel": "p24-2"},
   "u2-l2#choice-odkial-ste": {"picture": "After class, Emma stands at pani Horváthová's desk and asks her something politely; the teacher, packing up her books, turns to answer with a smile.", "panel": null},
+  "u2-l3#co-je-to": {"picture": "In Bratislava's Old Town, Emma, new in the city, points up at the white castle with four corner towers on its hill and turns to Lucia with a curious, questioning look.", "panel": null},
+  "u2-l3#kto-je-to": {"picture": "Emma and Lucia sit on a park bench. Tomáš walks up with a friend Emma doesn't know, Marek; Emma leans towards Lucia and asks quietly who that is.", "panel": "p22-1"},
+  "u2-l3#choice-co-je-to": {"reuse": "u2-l3#co-je-to", "panel": null},
+  "u2-l4#ja-tiez": {"picture": "In the Slovak classroom before the lesson, Oksana tells Emma something about herself; Emma points at herself with a delighted smile: me too!", "panel": null},
 
   "u2-l5#choice-prepacte-nerozumiem": {"picture": "At the dormitory's front desk, Emma checks in with her passport in hand. Pán Kováč, typing at the computer, asks her something very fast; Emma looks lost and apologetic.", "panel": "p19-1"},
+  "u2-l5#mozete-mi-pomoct": {"picture": "In a narrow Old Town street, Emma holds an unfolded city map and looks lost; she politely approaches the woman with the shopping bag to ask for help.", "panel": null},
+  "u2-l5#choice-mozete-mi-pomoct": {"reuse": "u2-l5#mozete-mi-pomoct", "panel": null},
 
   "u2-l6#kolko-mas-rokov": {"picture": "In the dorm common room, Marek lounges in an armchair with his hands behind his head; Emma, sitting forward on a chair, asks him with a teasing smile how old he is.", "panel": "p21-1"},
   "u2-l6#mam-dvadsatpat-rokov": {"reuse": "u2-l6#kolko-mas-rokov", "panel": "p21-1"},

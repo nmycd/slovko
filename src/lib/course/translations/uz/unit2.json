@@ -685,6 +685,44 @@
     "en": "**Dievča** (girl) is an exception: it ends in -a but is neuter. Žena is feminine, and muž, ending in a consonant, is masculine.",
     "t": "**Dievča** (qiz bola) — istisno: -a bilan tugasa ham, oʻrta jinsda. Žena — ayol jinsi, undosh bilan tugaydigan muž esa erkak jinsi."
   },
+  "u2-l3.co-je-to.en": {
+    "en": "What is that?",
+    "t": "Bu nima?"
+  },
+  "u2-l3.co-je-to.note": {
+    "en": "The answer starts with **To je…**: Čo je to? — To je internát. **Čo** (what) asks about things.",
+    "t": "Javob **To je…** bilan boshlanadi: Čo je to? — To je internát. (Bu nima? — Bu yotoqxona.) **Čo** (nima) narsalar haqida soʻraydi."
+  },
+  "u2-l3.kto-je-to.en": {
+    "en": "Who is that?",
+    "t": "Bu kim?"
+  },
+  "u2-l3.kto-je-to.note": {
+    "en": "For people, ask **kto** (who): Kto je to? — To je Lucia.",
+    "t": "Odamlar haqida **kto** (kim) deb soʻraladi: Kto je to? — To je Lucia. (Bu kim? — Bu Lusiya.)"
+  },
+  "u2-l3.choice-co-je-to.question": {
+    "en": "You point at a building you don't know. What do you ask?",
+    "t": "Siz notanish binoni koʻrsatyapsiz. Nima deb soʻraysiz?"
+  },
+  "u2-l3.choice-co-je-to.why": {
+    "en": "A building is a thing, so ask **čo** (what). **Kto** (who) is for people.",
+    "t": "Bino — narsa, shuning uchun **čo** (nima) deb soʻraladi. **Kto** (kim) odamlar uchun."
+  },
+  "u2-l3.build-kto-je-to.prompt": {
+    "en": "Who is that? That's Marek.",
+    "t": "Bu kim? Bu Marek."
+  },
+  "u2-l3.build-kto-je-to.traps": {
+    "en": [
+      "Marek is a person, so ask **kto** (who). Čo (what) is for things.",
+      "**To je** = that is. Som goes with ja (I)."
+    ],
+    "t": [
+      "Marek — odam, shuning uchun **kto** (kim) deb soʻraladi. Čo (nima) narsalar uchun.",
+      "**To je** = bu (…dir). Som esa ja (men) bilan ishlatiladi."
+    ]
+  },
   "u2-l3.fill-lucia-ano-ona.en": {
     "en": "Lucia? Yes, she's a student.",
     "t": "Lusiyami? Ha, u talaba."
@@ -1062,6 +1100,30 @@
     "en": "The answer študujem is ja, so the question asks **ty** (you), and the verb ends in **-š**: robí**š**. Robím is ja, robia is oni.",
     "t": "Javobdagi študujem — ja shakli, demak savolda **ty** (sen) shakli keladi va feʼl **-š** bilan tugaydi: robí**š**. Robím — ja, robia — oni."
   },
+  "u2-l4.ja-tiez.en": {
+    "en": "Me too.",
+    "t": "Men ham."
+  },
+  "u2-l4.ja-tiez.note": {
+    "en": "**tiež** = too, also. Just as common: **Aj ja.** After a “not” sentence, say **Ani ja.** (Me neither.)",
+    "t": "**tiež** = ham. Xuddi shunday koʻp aytiladi: **Aj ja.** Inkor gapdan keyin esa: **Ani ja.** (Men ham yoʻq.)"
+  },
+  "u2-l4.choice-ja-tiez.question": {
+    "en": "Lucia says “Hovorím po anglicky.” You speak English too. What do you say?",
+    "t": "Lusiya aytadi: «Hovorím po anglicky». Siz ham inglizcha gapirasiz. Nima deysiz?"
+  },
+  "u2-l4.choice-ja-tiez.why": {
+    "en": "**Ja tiež** (me too) agrees with a yes sentence. Ani ja (me neither) answers a “not” sentence, and Ja nie means you don't.",
+    "t": "**Ja tiež** (men ham) tasdiq gapga qoʻshilish. Ani ja (men ham yoʻq) inkor gapga javob, Ja nie esa «men yoʻq» degani."
+  },
+  "u2-l4.fill-studujem-a-pracujem.en": {
+    "en": "I study and work. — Me too.",
+    "t": "Men oʻqiyman va ishlayman. — Men ham."
+  },
+  "u2-l4.fill-studujem-a-pracujem.why": {
+    "en": "**Tiež** (too) after ja agrees: Ja tiež. Ja nie would mean you don't, and som (I am) doesn't answer a sentence about studying.",
+    "t": "ja dan keyin **tiež** (ham) qoʻshilishni bildiradi: Ja tiež. Ja nie «men yoʻq» degani boʻlardi, som (men …man) esa oʻqish haqidagi gapga javob boʻlmaydi."
+  },
   "u2-l4.speak-studujes-alebo-pracujes.en": {
     "en": "Do you study or work?",
     "t": "Oʻqiysanmi yoki ishlaysanmi?"
@@ -1181,6 +1243,36 @@
   "u2-l5.choice-prepacte-nerozumiem.why": {
     "en": "**Nerozumiem** is ne- + rozumiem, I don't understand, and pán Kováč gets the polite Prepáčte. Áno, rozumiem says the opposite; Nech sa páči is for handing something over.",
     "t": "**Nerozumiem** — ne- + rozumiem, «tushunmayapman», janob Kovachga esa hurmatli Prepáčte aytiladi. Áno, rozumiem buning teskarisi, Nech sa páči esa biror narsa uzatganda aytiladi."
+  },
+  "u2-l5.mozete-mi-pomoct.en": {
+    "en": "Can you help me?",
+    "t": "Menga yordam bera olasizmi?"
+  },
+  "u2-l5.mozete-mi-pomoct.note": {
+    "en": "Learn it whole for now. To a friend: **Môžeš** mi pomôcť? A friendly answer: **Áno, samozrejme.** (Yes, of course.)",
+    "t": "Hozircha butun ibora sifatida yodlang. Doʻstga (sen): **Môžeš** mi pomôcť? Samimiy javob: **Áno, samozrejme.** (Ha, albatta.)"
+  },
+  "u2-l5.choice-mozete-mi-pomoct.question": {
+    "en": "You're lost in town and ask a stranger for help. What do you say?",
+    "t": "Siz shaharda adashib qoldingiz va notanish odamdan yordam soʻraysiz. Nima deysiz?"
+  },
+  "u2-l5.choice-mozete-mi-pomoct.why": {
+    "en": "A stranger gets the polite forms: **Prepáčte** and **môžete** (vy). Ahoj and môžeš are for friends.",
+    "t": "Notanish odamga hurmat shakllari kerak: **Prepáčte** va **môžete** (vy — siz). Ahoj va môžeš doʻstlar uchun."
+  },
+  "u2-l5.build-prepacte-nerozumiem-mozete.prompt": {
+    "en": "Sorry, I don't understand. Can you help me?",
+    "t": "Kechirasiz, tushunmayapman. Menga yordam bera olasizmi?"
+  },
+  "u2-l5.build-prepacte-nerozumiem-mozete.traps": {
+    "en": [
+      "“Don't understand” takes **ne-** in front, written as one word: **ne**rozumiem.",
+      "With Prepáčte you're speaking politely (vy), so it's **Môžete**. Môžeš is for a friend."
+    ],
+    "t": [
+      "«Tushunmayapman» uchun oldiga **ne-** qoʻshiladi va qoʻshib yoziladi: **ne**rozumiem.",
+      "Prepáčte bilan hurmat bilan (vy — siz) gapiryapsiz, shuning uchun **Môžete**. Môžeš doʻstga aytiladi."
+    ]
   },
   "u2-l5.grammar-not-byt-nie.title": {
     "en": "Not with byť: nie som",

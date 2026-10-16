@@ -647,6 +647,42 @@ export const unit7: Unit = {
           ref: "u7-l4#grammar-more-verbs-like",
         },
         {
+          id: "preco",
+          type: "intro",
+          sk: "Prečo?",
+          en: "Why?",
+          note: "Prečo spíš? = Why are you sleeping? The answer often starts with **pretože** (because).",
+        },
+        {
+          id: "pretoze",
+          type: "intro",
+          sk: "pretože",
+          en: "because",
+          note: "In everyday speech **lebo** is just as common: Spím, lebo som unavená.",
+        },
+        {
+          id: "fill-preco-spis-lucia",
+          type: "fill",
+          before: "Prečo spíš, Lucia? —",
+          after: "som unavená.",
+          options: ["Pretože", "Prečo", "Kde"],
+          answer: 0,
+          en: "Why are you sleeping, Lucia? — Because I'm tired.",
+          why: "**Pretože** (because) gives the reason. Prečo asks why, and kde asks where.",
+        },
+        {
+          id: "build-preco-lucia-spi",
+          type: "build",
+          prompt: "Why is Lucia asleep? Because she's tired.",
+          promptLang: "en",
+          answers: ["Prečo Lucia spí? Pretože je unavená.", "Prečo spí Lucia? Pretože je unavená."],
+          distractors: ["Kedy", "unavený"],
+          traps: [
+            { wrong: "Kedy", right: "Prečo", why: "Why? is **Prečo**. Kedy means when." },
+            { wrong: "unavený", right: "unavená", why: "Lucia is a woman, so the adjective ends in **-á**: unaven**á**. Unavený is for a man." },
+          ],
+        },
+        {
           id: "match-spim",
           type: "match",
           pairs: [

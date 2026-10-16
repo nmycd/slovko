@@ -687,6 +687,44 @@
     "en": "**Dievča** (girl) is an exception: it ends in -a but is neuter. Žena is feminine, and muž, ending in a consonant, is masculine.",
     "t": "**Dievča** (გოგო) გამონაკლისია: -a-ზე ბოლოვდება, მაგრამ საშუალო სქესისაა. Žena მდედრობითია, muž კი, თანხმოვანზე დაბოლოებული, მამრობითი."
   },
+  "u2-l3.co-je-to.en": {
+    "en": "What is that?",
+    "t": "ეს რა არის?"
+  },
+  "u2-l3.co-je-to.note": {
+    "en": "The answer starts with **To je…**: Čo je to? — To je internát. **Čo** (what) asks about things.",
+    "t": "პასუხი **To je…**-თი იწყება: Čo je to? — To je internát. (ეს რა არის? — ეს საერთო საცხოვრებელია.) **Čo** (რა) საგნებზე კითხულობს."
+  },
+  "u2-l3.kto-je-to.en": {
+    "en": "Who is that?",
+    "t": "ეს ვინ არის?"
+  },
+  "u2-l3.kto-je-to.note": {
+    "en": "For people, ask **kto** (who): Kto je to? — To je Lucia.",
+    "t": "ადამიანებზე **kto**-თი (ვინ) კითხულობენ: Kto je to? — To je Lucia. (ეს ვინ არის? — ეს ლუციაა.)"
+  },
+  "u2-l3.choice-co-je-to.question": {
+    "en": "You point at a building you don't know. What do you ask?",
+    "t": "უცნობ შენობაზე მიუთითებთ. რას იკითხავთ?"
+  },
+  "u2-l3.choice-co-je-to.why": {
+    "en": "A building is a thing, so ask **čo** (what). **Kto** (who) is for people.",
+    "t": "შენობა საგანია, ამიტომ ვკითხულობთ **čo**-თი (რა). **Kto** (ვინ) ადამიანებისთვისაა."
+  },
+  "u2-l3.build-kto-je-to.prompt": {
+    "en": "Who is that? That's Marek.",
+    "t": "ეს ვინ არის? ეს მარეკია."
+  },
+  "u2-l3.build-kto-je-to.traps": {
+    "en": [
+      "Marek is a person, so ask **kto** (who). Čo (what) is for things.",
+      "**To je** = that is. Som goes with ja (I)."
+    ],
+    "t": [
+      "მარეკი ადამიანია, ამიტომ ვკითხულობთ **kto**-თი (ვინ). Čo (რა) საგნებისთვისაა.",
+      "**To je** = ეს არის. Som ja-სთან (მე) იხმარება."
+    ]
+  },
   "u2-l3.fill-lucia-ano-ona.en": {
     "en": "Lucia? Yes, she's a student.",
     "t": "ლუცია? დიახ, ის სტუდენტია."
@@ -1065,6 +1103,30 @@
     "en": "The answer študujem is ja, so the question asks **ty** (you), and the verb ends in **-š**: robí**š**. Robím is ja, robia is oni.",
     "t": "პასუხი študujem ja-ს ფორმაა, ამიტომ კითხვა **ty**-ს (შენ) ეკითხება და ზმნა **-š**-ზე ბოლოვდება: robí**š**. Robím ja-ს ფორმაა, robia — oni-ს."
   },
+  "u2-l4.ja-tiez.en": {
+    "en": "Me too.",
+    "t": "მეც."
+  },
+  "u2-l4.ja-tiez.note": {
+    "en": "**tiež** = too, also. Just as common: **Aj ja.** After a “not” sentence, say **Ani ja.** (Me neither.)",
+    "t": "**tiež** = -ც, აგრეთვე. ასევე ხშირად ამბობენ **Aj ja.** უარყოფითი წინადადების შემდეგ კი: **Ani ja.** (არც მე.)"
+  },
+  "u2-l4.choice-ja-tiez.question": {
+    "en": "Lucia says “Hovorím po anglicky.” You speak English too. What do you say?",
+    "t": "ლუცია ამბობს: „Hovorím po anglicky“. თქვენც ლაპარაკობთ ინგლისურად. რას იტყვით?"
+  },
+  "u2-l4.choice-ja-tiez.why": {
+    "en": "**Ja tiež** (me too) agrees with a yes sentence. Ani ja (me neither) answers a “not” sentence, and Ja nie means you don't.",
+    "t": "**Ja tiež** (მეც) დადებით წინადადებას ეთანხმება. Ani ja (არც მე) უარყოფით წინადადებაზე პასუხია, Ja nie კი ნიშნავს „მე არა“."
+  },
+  "u2-l4.fill-studujem-a-pracujem.en": {
+    "en": "I study and work. — Me too.",
+    "t": "ვსწავლობ და ვმუშაობ. — მეც."
+  },
+  "u2-l4.fill-studujem-a-pracujem.why": {
+    "en": "**Tiež** (too) after ja agrees: Ja tiež. Ja nie would mean you don't, and som (I am) doesn't answer a sentence about studying.",
+    "t": "ja-ს შემდეგ **tiež** (-ც) თანხმობას გამოხატავს: Ja tiež. Ja nie ნიშნავს „მე არა“, som (ვარ) კი სწავლაზე ნათქვამ წინადადებას არ პასუხობს."
+  },
   "u2-l4.speak-studujes-alebo-pracujes.en": {
     "en": "Do you study or work?",
     "t": "სწავლობ თუ მუშაობ?"
@@ -1184,6 +1246,36 @@
   "u2-l5.choice-prepacte-nerozumiem.why": {
     "en": "**Nerozumiem** is ne- + rozumiem, I don't understand, and pán Kováč gets the polite Prepáčte. Áno, rozumiem says the opposite; Nech sa páči is for handing something over.",
     "t": "**Nerozumiem** = ne- + rozumiem, „არ მესმის“, ბატონ კოვაჩს კი თავაზიანი Prepáčte შეეფერება. Áno, rozumiem საპირისპიროს ნიშნავს, Nech sa páči კი რამის მიწოდებისას ითქმის."
+  },
+  "u2-l5.mozete-mi-pomoct.en": {
+    "en": "Can you help me?",
+    "t": "შეგიძლიათ დამეხმაროთ?"
+  },
+  "u2-l5.mozete-mi-pomoct.note": {
+    "en": "Learn it whole for now. To a friend: **Môžeš** mi pomôcť? A friendly answer: **Áno, samozrejme.** (Yes, of course.)",
+    "t": "ჯერჯერობით მთლიანად დაიმახსოვრეთ. მეგობარს (შენ): **Môžeš** mi pomôcť? თბილი პასუხი: **Áno, samozrejme.** (დიახ, რა თქმა უნდა.)"
+  },
+  "u2-l5.choice-mozete-mi-pomoct.question": {
+    "en": "You're lost in town and ask a stranger for help. What do you say?",
+    "t": "ქალაქში დაიკარგეთ და უცნობს დახმარებას სთხოვთ. რას ეტყვით?"
+  },
+  "u2-l5.choice-mozete-mi-pomoct.why": {
+    "en": "A stranger gets the polite forms: **Prepáčte** and **môžete** (vy). Ahoj and môžeš are for friends.",
+    "t": "უცნობს თავაზიანი ფორმებით მივმართავთ: **Prepáčte** და **môžete** (vy — თქვენ). Ahoj და môžeš მეგობრებისთვისაა."
+  },
+  "u2-l5.build-prepacte-nerozumiem-mozete.prompt": {
+    "en": "Sorry, I don't understand. Can you help me?",
+    "t": "უკაცრავად, არ მესმის. შეგიძლიათ დამეხმაროთ?"
+  },
+  "u2-l5.build-prepacte-nerozumiem-mozete.traps": {
+    "en": [
+      "“Don't understand” takes **ne-** in front, written as one word: **ne**rozumiem.",
+      "With Prepáčte you're speaking politely (vy), so it's **Môžete**. Môžeš is for a friend."
+    ],
+    "t": [
+      "„არ მესმის“: წინ **ne-**, ერთად დაწერილი: **ne**rozumiem.",
+      "Prepáčte-თი თავაზიანად ლაპარაკობთ (vy — თქვენ), ამიტომ **Môžete**. Môžeš მეგობრისთვისაა."
+    ]
   },
   "u2-l5.grammar-not-byt-nie.title": {
     "en": "Not with byť: nie som",

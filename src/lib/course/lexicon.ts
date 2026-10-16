@@ -4,7 +4,7 @@
 // options that fit (see ../review/session); anything that needs to know what a word is
 // can build on them. Every review item needs an entry: `npm run validate:course` checks.
 
-export type PartOfSpeech = "noun" | "verb" | "adjective" | "adverb" | "expression";
+export type PartOfSpeech = "noun" | "verb" | "adjective" | "adverb" | "conjunction" | "expression";
 
 export type Topic =
   | "greetings"
@@ -120,6 +120,10 @@ export const lexicon: Record<string, WordTags> = {
   "telefónne číslo": noun("n", "phone"),
   "zavolám ti": say("phone", "informal"),
   dopočutia: say("phone"),
+  "čo je to": say("about-me"),
+  "kto je to": say("about-me"),
+  "ja tiež": say("about-me"),
+  "môžete mi pomôcť": say("courtesy", "polite"),
 
   // Unit 3
   izba: noun("f", "home"),
@@ -217,6 +221,7 @@ export const lexicon: Record<string, WordTags> = {
   pešo: { pos: "adverb", topic: "travel" },
   "cestujem s kamarátmi": say("travel"),
   "ďakujem za pozvanie": say("celebrations"),
+  dobre: say("courtesy"),
 
   // Unit 7
   prednáška: noun("f", "study"),
@@ -233,6 +238,8 @@ export const lexicon: Record<string, WordTags> = {
   "doobeda mám prednášky": say("study"),
   "učím sa": say("study"),
   "večer som unavená": say("routine"),
+  prečo: say("routine"),
+  pretože: { pos: "conjunction", topic: "routine" },
 
   // Unit 8
   firma: noun("f", "work"),

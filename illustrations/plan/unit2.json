@@ -1,6 +1,6 @@
 {
   "unit": "u2",
-  "pictures": 17,
+  "pictures": 21,
   "items": [
     {
       "lesson": "u2-l1",
@@ -105,6 +105,43 @@
       "book": null
     },
     {
+      "lesson": "u2-l3",
+      "exercise": "co-je-to",
+      "type": "intro",
+      "text": "Čo je to? = What is that?",
+      "picture": "In Bratislava's Old Town, Emma, new in the city, points up at the white castle with four corner towers on its hill and turns to Lucia with a curious, questioning look.",
+      "book": null
+    },
+    {
+      "lesson": "u2-l3",
+      "exercise": "kto-je-to",
+      "type": "intro",
+      "text": "Kto je to? = Who is that?",
+      "picture": "Emma and Lucia sit on a park bench. Tomáš walks up with a friend Emma doesn't know, Marek; Emma leans towards Lucia and asks quietly who that is.",
+      "book": {
+        "pdfPage": 22,
+        "printedPage": 25,
+        "panel": "1",
+        "crop": "book-refs/panels/p22-1.jpg"
+      }
+    },
+    {
+      "lesson": "u2-l3",
+      "exercise": "choice-co-je-to",
+      "type": "choice",
+      "text": "You point at a building you don't know. What do you ask?",
+      "reuse": "u2-l3#co-je-to",
+      "book": null
+    },
+    {
+      "lesson": "u2-l4",
+      "exercise": "ja-tiez",
+      "type": "intro",
+      "text": "Ja tiež. = Me too.",
+      "picture": "In the Slovak classroom before the lesson, Oksana tells Emma something about herself; Emma points at herself with a delighted smile: me too!",
+      "book": null
+    },
+    {
       "lesson": "u2-l5",
       "exercise": "choice-prepacte-nerozumiem",
       "type": "choice",
@@ -116,6 +153,22 @@
         "panel": "1",
         "crop": "book-refs/panels/p19-1.jpg"
       }
+    },
+    {
+      "lesson": "u2-l5",
+      "exercise": "mozete-mi-pomoct",
+      "type": "intro",
+      "text": "Môžete mi pomôcť? = Can you help me?",
+      "picture": "In a narrow Old Town street, Emma holds an unfolded city map and looks lost; she politely approaches the woman with the shopping bag to ask for help.",
+      "book": null
+    },
+    {
+      "lesson": "u2-l5",
+      "exercise": "choice-mozete-mi-pomoct",
+      "type": "choice",
+      "text": "You're lost in town and ask a stranger for help. What do you say?",
+      "reuse": "u2-l5#mozete-mi-pomoct",
+      "book": null
     },
     {
       "lesson": "u2-l6",
