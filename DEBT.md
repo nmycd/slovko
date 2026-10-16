@@ -130,6 +130,16 @@ push to `main`). After changing a Vercel environment variable, redeploy.
   Ukrainian and Russian under review, Uzbek and Georgian planned. A Slovak
   teacher should still review the Slovak before launch. The landing page's
   teacher quote is a placeholder too.
+- **A1 coverage gaps.** The coverage review of the live A1 course (October
+  2026) left 43 medium and 100 low gaps, 34 points the gate matched but the
+  course doesn't really teach, 5 everyday word fields under 70 % and 7 open
+  checklist items. The six high ones were added in 54f3281. The list, with a
+  suggested fix for each, is [A1-GAPS.md](src/lib/course/A1-GAPS.md). Start
+  with the medium ones ("Pekný deň", "Nevadí", "nefunguje", "Je tu…?", poznať,
+  mať + infinitive, "Ako sa to volá po slovensky?") and the word fields (people
+  around you, shop words that sit only in an English note, clothes, the
+  neighbouring countries). The owner should first confirm or reject the 49
+  skips the review proposed, in `research/comparison/kk1/decisions.tsv` (local).
 - **A2, B1 and the driving-exam course** are "coming soon" pages.
 - **Illustrations:**
   - **Style references** are pages from Beatrice Alemagna's *On a Magical
