@@ -282,6 +282,7 @@ function UnitSection({
             {unit.lessons.flatMap((lesson, i) => [
               <li key={lesson.id} style={{ transform: `translateX(${zigzag[i % zigzag.length]}px)` }}>
                 <LessonNode
+                  shift={zigzag[i % zigzag.length]}
                   href={hrefFor(lesson.id)}
                   title={lesson.title}
                   subtitle={lesson.titleEn}
@@ -294,8 +295,6 @@ function UnitSection({
               hasReviewStop(unit, i) && (
                 <li
                   key={`${lesson.id}-review`}
-                  // Room below for the next lesson's "Start" bubble.
-                  className="pb-6"
                   style={{
                     transform: `translateX(${(zigzag[i % zigzag.length] + zigzag[(i + 1) % zigzag.length]) / 2}px)`,
                   }}
@@ -363,6 +362,7 @@ function ReviewStop({ href, waiting, locked, t }: { href: string; waiting: numbe
 }
 
 function LessonNode({
+  shift,
   href,
   title,
   subtitle,
@@ -371,6 +371,8 @@ function LessonNode({
   color,
   t,
 }: {
+  /** The node's zigzag offset (px): where the "Start" bubble has room. */
+  shift: number;
   href: string;
   title: string;
   subtitle: string;
@@ -404,7 +406,13 @@ function LessonNode({
         <KindIcon size={34} />
       )}
       {state === "current" && (
-        <span className="animate-bob absolute -top-12 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-lg border border-border-strong bg-bg px-3 py-1 text-sm font-semibold text-brand">
+        // Beside the node, on its right; on a phone a node right of centre has no room
+        // there, so its bubble goes on the left.
+        <span
+          className={`animate-bob absolute top-1/2 -translate-y-1/2 whitespace-nowrap rounded-lg border border-border-strong bg-bg px-3 py-1 text-sm font-semibold text-brand ${
+            shift > 0 ? "max-sm:right-full max-sm:mr-4 sm:left-full sm:ml-4" : "left-full ml-4"
+          }`}
+        >
           {t("path.start")}
         </span>
       )}
