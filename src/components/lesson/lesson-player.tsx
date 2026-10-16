@@ -519,85 +519,91 @@ function Footer({
   const { t } = useApp();
   const [word] = useState(() => praise[Math.floor(Math.random() * praise.length)]);
   const [ruleOpen, setRuleOpen] = useState(false);
-  // Phones: its own row on top. Wider screens: centred in the space the other parts
-  // leave, or on a row of its own when a long answer leaves too little.
-  const navSlot = nav && (
-    <div className="order-first flex basis-full justify-center sm:order-none sm:flex-1 sm:basis-0">{nav}</div>
+  // The exercise bars have a strip of their own below the footer, the same in every
+  // state, so a long answer or explanation never moves or squeezes them.
+  const navStrip = nav && (
+    <div className="border-t border-border bg-bg">
+      <div className={`mx-auto py-1 sm:py-1.5 ${frame}`}>{nav}</div>
+    </div>
   );
 
   if (result) {
     const ok = result.correct;
     return (
-      <footer className={`animate-slide-up ${ok ? "bg-ok-soft" : "bg-bad-soft"}`}>
-        <div className={`mx-auto flex flex-wrap items-center gap-x-6 gap-y-3 py-3 sm:gap-y-4 sm:py-6 ${frame}`}>
-          <div className="flex basis-full items-center gap-4 sm:basis-auto">
-            <span
-              className={`grid size-14 shrink-0 place-items-center rounded-full bg-bg ${ok ? "text-ok" : "text-bad"}`}
-            >
-              {ok ? <CheckIcon size={30} /> : <CloseIcon size={30} />}
-            </span>
-            <div className={ok ? "text-ok-dark" : "text-bad-dark"}>
-              <p className="text-2xl font-semibold">{ok ? word : t("lesson.correctSolution")}</p>
-              {result.words ? (
-                <MarkedSentence words={result.words} />
-              ) : (
-                !ok && result.solution && <p className="text-lg font-semibold">{result.solution}</p>
-              )}
-              {result.heard !== undefined && (
-                <p className="text-sm font-semibold opacity-80">
-                  {t("lesson.weHeard", { text: result.heard || "…" })}
-                </p>
-              )}
-              {result.note && <p className="text-sm font-semibold">{t(result.note)}</p>}
-              {!ok && result.why && (
-                <p className="mt-1 max-w-xl text-sm text-text">
-                  <RichText text={result.why} />
-                  {result.rule && (
-                    <>
-                      {" "}
-                      <button
-                        type="button"
-                        onClick={() => setRuleOpen(true)}
-                        className="font-semibold whitespace-nowrap text-brand underline underline-offset-2"
-                      >
-                        {t("lesson.seeRule")}
-                      </button>
-                    </>
-                  )}
-                </p>
-              )}
-              {ruleOpen && result.rule && <RuleSheet rule={result.rule} onClose={() => setRuleOpen(false)} />}
+      <>
+        <footer className={`animate-slide-up ${ok ? "bg-ok-soft" : "bg-bad-soft"}`}>
+          <div className={`mx-auto flex flex-wrap items-center gap-x-6 gap-y-3 py-3 sm:gap-y-4 sm:py-6 ${frame}`}>
+            <div className="flex basis-full items-center gap-4 sm:basis-auto">
+              <span
+                className={`grid size-14 shrink-0 place-items-center rounded-full bg-bg ${ok ? "text-ok" : "text-bad"}`}
+              >
+                {ok ? <CheckIcon size={30} /> : <CloseIcon size={30} />}
+              </span>
+              <div className={ok ? "text-ok-dark" : "text-bad-dark"}>
+                <p className="text-2xl font-semibold">{ok ? word : t("lesson.correctSolution")}</p>
+                {result.words ? (
+                  <MarkedSentence words={result.words} />
+                ) : (
+                  !ok && result.solution && <p className="text-lg font-semibold">{result.solution}</p>
+                )}
+                {result.heard !== undefined && (
+                  <p className="text-sm font-semibold opacity-80">
+                    {t("lesson.weHeard", { text: result.heard || "…" })}
+                  </p>
+                )}
+                {result.note && <p className="text-sm font-semibold">{t(result.note)}</p>}
+                {!ok && result.why && (
+                  <p className="mt-1 max-w-xl text-sm text-text">
+                    <RichText text={result.why} />
+                    {result.rule && (
+                      <>
+                        {" "}
+                        <button
+                          type="button"
+                          onClick={() => setRuleOpen(true)}
+                          className="font-semibold whitespace-nowrap text-brand underline underline-offset-2"
+                        >
+                          {t("lesson.seeRule")}
+                        </button>
+                      </>
+                    )}
+                  </p>
+                )}
+                {ruleOpen && result.rule && <RuleSheet rule={result.rule} onClose={() => setRuleOpen(false)} />}
+              </div>
             </div>
+            <button type="button" onClick={onNext} className={`btn ${ok ? "btn-ok" : "btn-bad"} w-full sm:ml-auto sm:w-auto sm:min-w-40`}>
+              {nextLabel ?? t("lesson.continue")}
+            </button>
           </div>
-          {navSlot}
-          <button type="button" onClick={onNext} className={`btn ${ok ? "btn-ok" : "btn-bad"} w-full sm:ml-auto sm:w-auto sm:min-w-40`}>
-            {nextLabel ?? t("lesson.continue")}
-          </button>
-        </div>
-      </footer>
+        </footer>
+        {navStrip}
+      </>
     );
   }
 
   return (
-    <footer className="border-t border-border">
-      <div className={`mx-auto flex flex-wrap items-center gap-x-6 gap-y-3 py-3 sm:py-6 ${frame}`}>
-        {onSkip && (
-          <button type="button" onClick={onSkip} className="btn btn-ghost">
-            {skipLabel ?? t("lesson.cantSpeak")}
-          </button>
-        )}
-        {navSlot}
-        {mode === "continue" ? (
-          <button type="button" onClick={onNext} className="btn btn-ok ml-auto sm:min-w-40">
-            {nextLabel ?? t("lesson.continue")}
-          </button>
-        ) : mode === "check" ? (
-          <button type="button" onClick={onCheck} disabled={!canCheck} className="btn btn-ok ml-auto sm:min-w-40">
-            {t("lesson.check")}
-          </button>
-        ) : null}
-      </div>
-    </footer>
+    <>
+      <footer className="border-t border-border">
+        <div className={`mx-auto flex flex-wrap items-center gap-x-6 gap-y-3 py-3 sm:py-6 ${frame}`}>
+          {onSkip && (
+            <button type="button" onClick={onSkip} className="btn btn-ghost">
+              {skipLabel ?? t("lesson.cantSpeak")}
+            </button>
+          )}
+          {mode === "continue" ? (
+            <button type="button" onClick={onNext} className="btn btn-ok ml-auto sm:min-w-40">
+              {nextLabel ?? t("lesson.continue")}
+            </button>
+          ) : mode === "check" ? (
+            <button type="button" onClick={onCheck} disabled={!canCheck} className="btn btn-ok ml-auto sm:min-w-40">
+              {t("lesson.check")}
+            </button>
+          ) : null}
+        </div>
+      </footer>
+      {navStrip}
+    </>
   );
 }
 
@@ -688,10 +694,31 @@ function StepNav({
 }) {
   const { t } = useApp();
   const firstRetry = queue.findIndex((item) => item.retry);
+  const exercises = firstRetry < 0 ? queue.length : firstRetry;
+  const list = useRef<HTMLOListElement>(null);
+
+  // A long lesson with many second tries may not fit: keep the current bar in view,
+  // scrolling the strip only (never the page).
+  useEffect(() => {
+    const strip = list.current;
+    const current = strip?.querySelector<HTMLElement>('[aria-current="step"]');
+    if (!strip || !current) return;
+    const bar = current.getBoundingClientRect();
+    const view = strip.getBoundingClientRect();
+    if (bar.left < view.left) strip.scrollLeft += bar.left - view.left - 8;
+    else if (bar.right > view.right) strip.scrollLeft += bar.right - view.right + 8;
+  }, [pos, viewing, queue.length]);
+
   return (
     <nav aria-label={t("lesson.nav")} className="w-full">
-      {/* Bars keep a 1:4 shape while there's room and narrow when a lesson runs long. */}
-      <ol className="flex justify-center gap-1.5">
+      {/* Bars have a fixed size (--bar; small enough on phones for the longest lesson,
+          23), and the lesson's own bars stay centred: second tries extend to the right,
+          so a wrong answer moves and squeezes nothing. Too many to fit, and it scrolls. */}
+      <ol
+        ref={list}
+        className="flex gap-(--gap) overflow-x-auto [--bar:0.625rem] [--gap:0.25rem] [scrollbar-width:none] sm:[--bar:2rem] sm:[--gap:0.375rem]"
+        style={{ paddingLeft: `max(0px, calc((100% - ${exercises} * (var(--bar) + var(--gap)) + var(--gap)) / 2))` }}
+      >
         {queue.map((item, i) => {
           const result = history[item.key]?.result;
           const state = result ? (result.correct ? "right" : "wrong") : i === pos ? "current" : i > pos ? "upcoming" : "seen";
@@ -706,7 +733,7 @@ function StepNav({
           const open = viewing === i || (viewing === null && i === pos);
           const label = t(item.retry ? "lesson.navRetry" : "lesson.navItem", { n: item.index + 1 });
           return (
-            <li key={item.key} className={`max-w-8 min-w-1.5 flex-1 ${i === firstRetry ? "ml-3 sm:ml-5" : ""}`}>
+            <li key={item.key} className={`w-(--bar) shrink-0 ${i === firstRetry ? "ml-3 sm:ml-5" : ""}`}>
               <button
                 type="button"
                 disabled={i > pos}
