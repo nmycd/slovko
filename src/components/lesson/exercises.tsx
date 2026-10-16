@@ -438,7 +438,7 @@ const BLUR_MS = 300;
 const SWAP_MS = 200;
 
 /**
- * The rows' shuffle as a shell game: n − 1 swaps of two rows (three for four rows),
+ * The rows' shuffle, shell-game style: n − 1 swaps of two rows (three for four rows),
  * never one straight back, chosen so that every row ends somewhere new.
  */
 function shellSwaps(n: number): [number, number][] {
@@ -513,8 +513,7 @@ export function MemorizeView({
     };
   }, [studied, swaps]);
 
-  // A swap: the two rows trade places along arcs, the one going down bulging right and
-  // the one going up left, so they visibly pass each other.
+  // A swap: the two rows slide past each other into each other's places.
   useLayoutEffect(() => {
     const before = from.current;
     if (!before) return;
@@ -522,15 +521,10 @@ export function MemorizeView({
     rows.current.forEach((row, i) => {
       const shift = before[i] - (row?.offsetTop ?? 0);
       if (!row || !shift) return;
-      const side = shift < 0 ? 28 : -28;
-      row.animate(
-        [
-          { transform: `translateY(${shift}px)` },
-          { transform: `translate(${side}px, ${shift / 2}px) scale(1.02)`, offset: 0.5 },
-          { transform: "none" },
-        ],
-        { duration: SWAP_MS, easing: "ease-in-out" },
-      );
+      row.animate([{ transform: `translateY(${shift}px)` }, { transform: "none" }], {
+        duration: SWAP_MS,
+        easing: "ease-in-out",
+      });
     });
   }, [order]);
 
