@@ -100,7 +100,7 @@ function Session({ deck }: { deck: ReviewItem[] }) {
     <div className="flex min-h-dvh flex-col">
       <header className={`mx-auto w-full pt-3 sm:pt-5 ${frame}`}>
         <div className="flex items-center gap-3">
-          <Link href="/learn" aria-label={t("lesson.quit")} className="shrink-0 text-muted hover:text-text">
+          <Link href="/learn" scroll={false} aria-label={t("lesson.quit")} className="shrink-0 text-muted hover:text-text">
             <CloseIcon size={28} />
           </Link>
           <p className="min-w-0 flex-1 truncate font-serif text-lg">{t("review.title")}</p>
@@ -190,7 +190,7 @@ function NothingDue({ t, locale }: { t: Translate; locale: Locale }) {
           {next ? t("review.nextAt", { when: formatWhen(next, now, locale) }) : t("review.emptyDeck")}
         </p>
       </div>
-      <Link href="/learn" className="btn w-full">
+      <Link href="/learn" scroll={false} className="btn w-full">
         {t("review.back")}
       </Link>
     </Screen>
@@ -214,7 +214,7 @@ function Done({ right, total, t }: { right: number; total: number; t: Translate 
           icon={<CheckIcon size={20} />}
         />
       </div>
-      <Link href="/learn" className="btn w-full">
+      <Link href="/learn" scroll={false} className="btn w-full">
         {t("review.back")}
       </Link>
     </Screen>

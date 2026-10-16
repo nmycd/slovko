@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useRef, useState, useSyncExternalStore } from "react";
+import { useLayoutEffect, useRef, useState, useSyncExternalStore } from "react";
 import { useApp } from "@/components/app-provider";
 import {
   BookIcon,
@@ -31,9 +31,38 @@ const zigzag = [0, 44, 66, 44, 0, -44, -66, -44];
 /** "open": playable but not next in line (only with the unlock-all testing switch). */
 type NodeState = "done" | "current" | "open" | "locked";
 
+const SCROLL_KEY = "slovko:learn-scroll";
+
+/**
+ * The path keeps its place in the tab: back from a lesson, a review or a word looked
+ * up, it opens where the learner left it rather than at the top (those exits navigate
+ * with `scroll: false`). The position is saved as they scroll and put back before the
+ * page paints, once the cards above the path are in.
+ */
+function useKeptScroll(ready: boolean) {
+  useLayoutEffect(() => {
+    if (!ready) return;
+    try {
+      const saved = Number(sessionStorage.getItem(SCROLL_KEY));
+      if (saved > 0) window.scrollTo({ top: saved, behavior: "instant" });
+    } catch {}
+    // At most once a frame (scroll events come no faster), and cheap: a short string in
+    // the tab's own storage. Not the next page's scroll once the address has moved on.
+    const save = () => {
+      if (window.location.pathname !== "/learn") return;
+      try {
+        sessionStorage.setItem(SCROLL_KEY, String(Math.round(window.scrollY)));
+      } catch {}
+    };
+    window.addEventListener("scroll", save, { passive: true });
+    return () => window.removeEventListener("scroll", save);
+  }, [ready]);
+}
+
 /** `outlines` holds the path in each native language (titleEn = the translated title). */
 export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[]> }) {
   const { ready, progress, isPremium, authEnabled, authKnown, user, locale, t } = useApp();
+  useKeptScroll(ready);
   const outline = outlines[locale];
   const signedOut = authEnabled && authKnown && !user;
   // Lessons need an account; signed-out visitors go through sign-in and come back.

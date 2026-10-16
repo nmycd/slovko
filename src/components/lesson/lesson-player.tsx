@@ -291,7 +291,7 @@ function Player({
       <DoneScreen
         {...summary}
         nextId={nextId}
-        onContinue={() => router.push("/learn")}
+        onContinue={() => router.push("/learn", { scroll: false })}
       />
     );
   }
@@ -323,6 +323,7 @@ function Player({
         <div className="flex items-center gap-3">
           <Link
             href="/learn"
+            scroll={false}
             aria-label={t("lesson.quit")}
             className="shrink-0 text-muted hover:text-text"
             onClick={(e) => {
@@ -375,7 +376,7 @@ function Player({
           onNext={() => {
             // Back to the dictionary with an empty search box.
             setDictionaryQuery("");
-            router.push("/learn");
+            router.push("/learn", { scroll: false });
           }}
         />
       ) : (
@@ -959,7 +960,7 @@ function PaywallScreen() {
         <Link href="/pricing" className="btn btn-gold w-full">
           {t("lesson.paywall.button")}
         </Link>
-        <Link href="/learn" className="btn btn-ghost w-full">
+        <Link href="/learn" scroll={false} className="btn btn-ghost w-full">
           {t("lesson.backToPath")}
         </Link>
       </div>
