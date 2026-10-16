@@ -116,11 +116,12 @@ push to `main`). After changing a Vercel environment variable, redeploy.
 
 ## Content debt
 
-- **No native-speaker review yet.** The A1 course (Slovak, plus the Ukrainian
-  and Russian translations) was written and proofread by AI, plus one editorial
-  pass. A Slovak teacher, and native Ukrainian and Russian readers, should
-  review it before launch. The landing page's teacher quote is a placeholder
-  too.
+- **Native-speaker review in progress.** The A1 course (Slovak, plus the
+  Ukrainian, Russian, Uzbek and Georgian versions) was written and proofread by
+  AI, plus editorial passes. As of October 2026: English read and fine,
+  Ukrainian and Russian under review, Uzbek and Georgian planned. A Slovak
+  teacher should still review the Slovak before launch. The landing page's
+  teacher quote is a placeholder too.
 - **A2, B1 and the driving-exam course** are "coming soon" pages.
 - **Illustrations:**
   - **Style references** are pages from Beatrice Alemagna's *On a Magical

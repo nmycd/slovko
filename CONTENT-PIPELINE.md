@@ -280,9 +280,10 @@ These follow from the content; there's nothing to run.
 
 Gaps in the pipeline, most also tracked in [DEBT.md](DEBT.md):
 
-- **Native-speaker review.** The Slovak and both translations were written and
-  checked by AI. A Slovak teacher and native Ukrainian and Russian readers
-  should review before launch.
+- **Native-speaker review.** The Slovak and the four translations were written
+  and checked by AI. As of October 2026 the English has been read and is fine,
+  Ukrainian and Russian readers are reviewing, and Uzbek and Georgian are
+  planned. A Slovak teacher should still review the Slovak before launch.
 - **Automation.** No CI runs the stage 10 checks; they're run by hand.
 - **More than one course.** Lesson ids (`u1-l1`), progress and the dictionary
   assume A1 is the only course. A2, B1 and the driving exam need a multi-course
