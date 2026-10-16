@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useLayoutEffect, useRef, useState, useSyncExternalStore } from "react";
+import { useLayoutEffect, useRef, useSyncExternalStore } from "react";
 import { useApp } from "@/components/app-provider";
 import {
   BookIcon,
@@ -19,6 +19,7 @@ import { unlockAllLessons } from "@/lib/env";
 import { clockStore } from "@/lib/progress-store";
 import { reviewCounts, reviewFromUnit } from "@/lib/review/session";
 import { useReviewCards } from "@/lib/review/store";
+import { setUnitFold, useUnitFolds } from "@/lib/unit-folds";
 import type { Locale, MessageKey, Translate } from "@/lib/i18n";
 
 // Unit banner colours cycle through a family of deep greens (all keep ivory
@@ -96,6 +97,28 @@ export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[
     return unlockAllLessons ? "open" : "locked";
   };
 
+  // Each unit's share of lessons done (the optional writing lessons left out).
+  const units = outline.map((unit) => {
+    const required = unit.lessons.filter((l) => l.kind !== "writing");
+    const done = required.filter((l) => progress.completed[l.id]).length;
+    return {
+      unit,
+      premiumLocked: unit.premium && !isPremium && !unlockAllLessons,
+      pct: required.length ? Math.round((done / required.length) * 100) : 0,
+      completed: required.length > 0 && done === required.length,
+    };
+  });
+  // Folding: finished units start folded, the next two unfinished ones open (not those
+  // behind Premium), the rest folded. A unit the learner opened or folded themselves in
+  // the last hour stays as they left it.
+  const folds = useUnitFolds();
+  let slots = 2;
+  const openByDefault = new Set(
+    units
+      .filter((u) => !u.completed && !u.premiumLocked && u.unit.lessons.length > 0 && slots-- > 0)
+      .map((u) => u.unit.id),
+  );
+
   return (
     <div className={`mx-auto w-full max-w-xl ${ready ? "" : "invisible"}`}>
       {signedOut && (
@@ -109,15 +132,16 @@ export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[
           </Link>
         </div>
       )}
-      {outline.map((unit, ui) => (
+      {units.map(({ unit, premiumLocked, pct, completed }, ui) => (
         <UnitSection
           key={unit.id}
           unit={unit}
           color={unitColors[ui % unitColors.length]}
-          premiumLocked={unit.premium && !isPremium && !unlockAllLessons}
-          completed={
-            unit.lessons.length > 0 && unit.lessons.every((l) => l.kind === "writing" || progress.completed[l.id])
-          }
+          premiumLocked={premiumLocked}
+          completed={completed}
+          pct={pct}
+          open={folds[unit.id] ?? openByDefault.has(unit.id)}
+          onToggle={(open) => setUnitFold(unit.id, open)}
           stateOf={stateOf}
           hrefFor={hrefFor}
           review={review}
@@ -133,6 +157,9 @@ function UnitSection({
   color,
   premiumLocked,
   completed,
+  pct,
+  open,
+  onToggle,
   stateOf,
   hrefFor,
   review,
@@ -141,16 +168,20 @@ function UnitSection({
   unit: UnitOutline;
   color: string;
   premiumLocked: boolean;
-  /** Every lesson done: the unit starts folded to its banner. */
+  /** Every lesson done (writing lessons aside): the banner says so instead of a percentage. */
   completed: boolean;
+  /** Share of the unit's lessons done. */
+  pct: number;
+  /** Showing its lessons, or folded to its banner. */
+  open: boolean;
+  onToggle: (open: boolean) => void;
   stateOf: (lessonId: string) => NodeState;
   hrefFor: (lessonId: string) => string;
   /** Cards waiting for word review, and where the stop after a lesson leads. */
   review: { waiting: number; hrefAfter: (lessonId: string) => string };
   t: Translate;
 }) {
-  const [expanded, setExpanded] = useState(false);
-  const folded = completed && !expanded;
+  const folded = !open;
   const listId = `${unit.id}-lessons`;
   const section = useRef<HTMLElement>(null);
   // A unit opened in full can run long: the rail along its left edge goes back to its banner.
@@ -179,31 +210,31 @@ function UnitSection({
             ))}
           </ul>
         </div>
-        {completed && (
-          <>
-            <span aria-hidden className="flex shrink-0 items-center gap-2">
-              <span className="flex items-center gap-1 rounded-full bg-white/20 px-3 py-1 text-sm font-semibold">
-                <CheckIcon size={16} /> {t("path.completed")}
-              </span>
-              <ChevronDownIcon size={26} className={`transition-transform ${expanded ? "rotate-180" : ""}`} />
+        <span aria-hidden className="flex shrink-0 items-center gap-2 self-start">
+          {completed ? (
+            <span className="flex items-center gap-1 rounded-full bg-white/20 px-3 py-1 text-sm font-semibold">
+              <CheckIcon size={16} /> {t("path.completed")}
             </span>
-            {/* Covers the whole banner so any click toggles the unit. */}
-            <button
-              type="button"
-              onClick={() => setExpanded(!expanded)}
-              aria-expanded={expanded}
-              aria-controls={listId}
-              aria-label={t(expanded ? "path.hideLessons" : "path.showLessons", {
-                n: unit.number,
-                title: unit.titleEn,
-              })}
-              className="absolute inset-0 cursor-pointer rounded-2xl focus-visible:outline-4 focus-visible:outline-offset-4 focus-visible:outline-brand"
-            />
-          </>
-        )}
+          ) : (
+            unit.lessons.length > 0 && <span className="text-lg font-semibold tabular-nums">{pct}%</span>
+          )}
+          <ChevronDownIcon size={26} className={`transition-transform ${open ? "rotate-180" : ""}`} />
+        </span>
+        {/* Covers the whole banner so any click opens or folds the unit. */}
+        <button
+          type="button"
+          onClick={() => onToggle(!open)}
+          aria-expanded={open}
+          aria-controls={listId}
+          aria-label={t(open ? "path.hideLessons" : "path.showLessons", {
+            n: unit.number,
+            title: unit.titleEn,
+          })}
+          className="absolute inset-0 cursor-pointer rounded-2xl focus-visible:outline-4 focus-visible:outline-offset-4 focus-visible:outline-brand"
+        />
       </div>
 
-      {unit.lessons.length === 0 ? (
+      {folded ? null : unit.lessons.length === 0 ? (
         <div className="mt-6 flex items-center gap-3 rounded-2xl border-[1.5px] border-dashed border-border-strong p-5 text-muted">
           <LockIcon className="shrink-0" />
           <div>
@@ -224,7 +255,7 @@ function UnitSection({
             </p>
           </div>
         </Link>
-      ) : folded ? null : (
+      ) : (
         <div className="relative mt-14">
           {/* The rail and everything left of it, out to the screen's edge, is the button: a faint
               line down the unit's edge and a caret that stays at the bottom of the screen while
