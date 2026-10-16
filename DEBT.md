@@ -72,13 +72,6 @@ push to `main`). After changing a Vercel environment variable, redeploy.
 
 ## Tech debt
 
-- **The repo lives on the iCloud-synced Desktop.** iCloud rewrites files
-  that git and Next.js keep changing. It renamed `.git/index` to `index 2`, and
-  it keeps deleting files from `.next`, so the dev server serves 500s, missing
-  scripts and stylesheets, and missing route types. A `.nosync` symlink
-  workaround didn't survive. **Fix:** move the repo out of iCloud, e.g. to
-  `~/Developer/slovko`. Until then: stop dev, `rm -rf .next/dev`, restart, and
-  check builds outside iCloud.
 - **Testing switch:** `NEXT_PUBLIC_UNLOCK_ALL_LESSONS=true` lives in the local
   `.env.development.local`. It opens every lesson, skips Premium, and enables
   `?step=N` deep links. It must never be set on production (it isn't). Delete
