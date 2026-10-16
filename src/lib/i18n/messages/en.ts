@@ -54,6 +54,7 @@ export const en = {
   "path.completed": "Completed",
   "path.showLessons": "Show lessons of unit {n}, {title} (completed)",
   "path.hideLessons": "Hide lessons of unit {n}, {title} (completed)",
+  "path.unitTop": "Back to the top of unit {n}",
   "path.kind.grammar": "Grammar",
   "path.kind.review": "Review",
   "path.start": "Start",

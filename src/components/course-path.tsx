@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useSyncExternalStore } from "react";
+import { useRef, useState, useSyncExternalStore } from "react";
 import { useApp } from "@/components/app-provider";
 import {
   BookIcon,
@@ -117,9 +117,15 @@ function UnitSection({
   const [expanded, setExpanded] = useState(false);
   const folded = completed && !expanded;
   const listId = `${unit.id}-lessons`;
+  const section = useRef<HTMLElement>(null);
+  // A unit opened in full can run long: the rail along its left edge goes back to its banner.
+  const toTop = () => {
+    const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    section.current?.scrollIntoView({ block: "start", behavior: still ? "auto" : "smooth" });
+  };
 
   return (
-    <section className={folded ? "mb-6" : "mb-12"}>
+    <section ref={section} className={`scroll-mt-24 ${folded ? "mb-6" : "mb-12"}`}>
       <div
         className="relative flex items-center gap-4 rounded-2xl p-5 text-bg"
         style={{ background: color }}
@@ -184,38 +190,60 @@ function UnitSection({
           </div>
         </Link>
       ) : folded ? null : (
-        <ol id={listId} className="mt-14 flex flex-col items-center gap-12">
-          {unit.lessons.flatMap((lesson, i) => [
-            <li key={lesson.id} style={{ transform: `translateX(${zigzag[i % zigzag.length]}px)` }}>
-              <LessonNode
-                href={hrefFor(lesson.id)}
-                title={lesson.title}
-                subtitle={lesson.titleEn}
-                kind={lesson.kind ?? "vocab"}
-                state={stateOf(lesson.id)}
-                color={color}
-                t={t}
-              />
-            </li>,
-            hasReviewStop(unit, i) && (
-              <li
-                key={`${lesson.id}-review`}
-                // Room below for the next lesson's "Start" bubble.
-                className="pb-6"
-                style={{
-                  transform: `translateX(${(zigzag[i % zigzag.length] + zigzag[(i + 1) % zigzag.length]) / 2}px)`,
-                }}
-              >
-                <ReviewStop
-                  href={review.hrefAfter(lesson.id)}
-                  waiting={review.waiting}
-                  locked={stateOf(lesson.id) !== "done"}
+        <div className="relative mt-14">
+          {/* The whole left edge is the button: a faint line the unit's length, and a caret
+              that stays at the bottom of the screen while the unit scrolls past. */}
+          <button
+            type="button"
+            onClick={toTop}
+            aria-label={t("path.unitTop", { n: unit.number })}
+            title={t("path.unitTop", { n: unit.number })}
+            className="group absolute inset-y-0 left-0 flex w-10 cursor-pointer flex-col items-center justify-end rounded-full focus-visible:outline-2 focus-visible:outline-brand"
+          >
+            <span
+              aria-hidden
+              className="absolute inset-y-0 left-1/2 w-0.5 -translate-x-1/2 rounded-full bg-border transition-colors group-hover:bg-lichen"
+            />
+            <span
+              aria-hidden
+              className="sticky bottom-4 grid size-8 place-items-center rounded-full border border-border bg-bg text-muted transition-colors group-hover:border-lichen group-hover:text-brand"
+            >
+              <ChevronDownIcon size={18} className="rotate-180" />
+            </span>
+          </button>
+          <ol id={listId} className="flex flex-col items-center gap-12">
+            {unit.lessons.flatMap((lesson, i) => [
+              <li key={lesson.id} style={{ transform: `translateX(${zigzag[i % zigzag.length]}px)` }}>
+                <LessonNode
+                  href={hrefFor(lesson.id)}
+                  title={lesson.title}
+                  subtitle={lesson.titleEn}
+                  kind={lesson.kind ?? "vocab"}
+                  state={stateOf(lesson.id)}
+                  color={color}
                   t={t}
                 />
-              </li>
-            ),
-          ])}
-        </ol>
+              </li>,
+              hasReviewStop(unit, i) && (
+                <li
+                  key={`${lesson.id}-review`}
+                  // Room below for the next lesson's "Start" bubble.
+                  className="pb-6"
+                  style={{
+                    transform: `translateX(${(zigzag[i % zigzag.length] + zigzag[(i + 1) % zigzag.length]) / 2}px)`,
+                  }}
+                >
+                  <ReviewStop
+                    href={review.hrefAfter(lesson.id)}
+                    waiting={review.waiting}
+                    locked={stateOf(lesson.id) !== "done"}
+                    t={t}
+                  />
+                </li>
+              ),
+            ])}
+          </ol>
+        </div>
       )}
     </section>
   );

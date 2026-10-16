@@ -54,6 +54,7 @@ export const ka: Messages = {
   "path.completed": "გავლილია",
   "path.showLessons": "გაკვეთილების ჩვენება: თავი {n}, {title} (გავლილია)",
   "path.hideLessons": "გაკვეთილების დამალვა: თავი {n}, {title} (გავლილია)",
+  "path.unitTop": "თავის დასაწყისში დაბრუნება",
   "path.kind.grammar": "გრამატიკა",
   "path.kind.review": "გამეორება",
   "path.start": "დაწყება",

@@ -54,6 +54,7 @@ export const uz: Messages = {
   "path.completed": "Tugallandi",
   "path.showLessons": "{n}-boʻlim darslarini koʻrsatish: {title} (tugallangan)",
   "path.hideLessons": "{n}-boʻlim darslarini yashirish: {title} (tugallangan)",
+  "path.unitTop": "{n}-boʻlim boshiga qaytish",
   "path.kind.grammar": "Grammatika",
   "path.kind.review": "Takrorlash",
   "path.start": "Boshlash",

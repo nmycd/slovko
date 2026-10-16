@@ -50,6 +50,7 @@ export const uk: Messages = {
   "path.completed": "Пройдено",
   "path.showLessons": "Показати уроки розділу {n}, {title} (пройдено)",
   "path.hideLessons": "Сховати уроки розділу {n}, {title} (пройдено)",
+  "path.unitTop": "Угору, до початку розділу {n}",
   "path.kind.grammar": "Граматика",
   "path.kind.review": "Повторення",
   "path.start": "Почати",

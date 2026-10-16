@@ -50,6 +50,7 @@ export const ru: Messages = {
   "path.completed": "Пройдено",
   "path.showLessons": "Показать уроки раздела {n}, {title} (пройдено)",
   "path.hideLessons": "Скрыть уроки раздела {n}, {title} (пройдено)",
+  "path.unitTop": "Наверх, к началу раздела {n}",
   "path.kind.grammar": "Грамматика",
   "path.kind.review": "Повторение",
   "path.start": "Начать",
