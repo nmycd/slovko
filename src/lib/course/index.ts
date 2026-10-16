@@ -5,6 +5,7 @@ import type { DictionaryEntry } from "../dictionary";
 import { isReviewable, reviewItemId, type ReviewItem } from "../review/items";
 import { locales, type Locale } from "../i18n/locales";
 import { speakableTexts, stripMarkup } from "./helpers";
+import { lessonIllustrations } from "./illustrations";
 import { addSpelling } from "./spelling";
 import { localizeUnit, type Catalog } from "./translatable";
 import type { Exercise, Lesson, Unit, UnitOutline } from "./types";
@@ -187,13 +188,17 @@ export const dictionary: DictionaryEntry[] = (() => {
 export const reviewDeck: ReviewItem[] = (() => {
   const items = new Map<string, ReviewItem>();
   localizedCourse.en.forEach((unit, u) =>
-    unit.lessons.forEach((lesson, l) =>
+    unit.lessons.forEach((lesson, l) => {
+      // By exercise index as played, like the exercises here (spelling cards included).
+      const pictures = lessonIllustrations(lesson.id);
       lesson.exercises.forEach((ex, i) => {
         if (ex.type !== "intro" || !isReviewable(ex.sk)) return;
         const id = reviewItemId(ex.sk);
+        const picture = pictures[i];
         const item = items.get(id);
         if (item) {
           if (!item.lessons.includes(lesson.id)) item.lessons.push(lesson.id);
+          item.picture ??= picture;
           return;
         }
         const meaning = Object.fromEntries(
@@ -202,9 +207,9 @@ export const reviewDeck: ReviewItem[] = (() => {
             return [locale, same.type === "intro" ? same.en : ex.en];
           }),
         ) as Record<Locale, string>;
-        items.set(id, { id, sk: stripMarkup(ex.sk), meaning, lessons: [lesson.id] });
-      }),
-    ),
+        items.set(id, { id, sk: stripMarkup(ex.sk), meaning, lessons: [lesson.id], ...(picture && { picture }) });
+      });
+    }),
   );
   return [...items.values()];
 })();

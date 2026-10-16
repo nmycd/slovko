@@ -21,7 +21,6 @@ import { addRecallCards, getReviewCards, loadReviewDeck, recordAnswer, useReview
 
 /** XP for finishing a session. */
 const XP = 10;
-const frame = "max-w-3xl px-4";
 
 export function ReviewPlayer() {
   const router = useRouter();
@@ -55,9 +54,21 @@ function Session({ deck }: { deck: ReviewItem[] }) {
   const [audioOff, setAudioOff] = useState(false);
   const [done, setDone] = useState(false);
 
+  const pictures = useMemo(
+    () => cards.flatMap((c) => items.get(c.itemId)!.picture ?? []),
+    [cards, items],
+  );
   useEffect(() => {
     preloadLesson(cards.map((c) => items.get(c.itemId)!.sk));
-  }, [cards, items]);
+    // Decode the pictures up front too, so each is ready when its card comes up.
+    for (const src of new Set(pictures.map((p) => p.src))) {
+      const img = new window.Image();
+      img.src = src;
+      img.decode().catch(() => {});
+    }
+  }, [cards, items, pictures]);
+  // With pictures, the wider frame lessons with pictures use (see the lesson player).
+  const frame = pictures.length ? "max-w-6xl px-4 lg:px-8" : "max-w-3xl px-4";
 
   if (!cards.length) return <NothingDue t={t} locale={locale} />;
   if (done) return <Done right={right} total={cards.length} t={t} />;
@@ -109,6 +120,9 @@ function Session({ deck }: { deck: ReviewItem[] }) {
       <Step
         key={`${item.key}-${asked}-${locale}`}
         exercise={exerciseFor(card, asked, items, locale, t)}
+        illustration={word.picture}
+        // A picture of the word would give its meaning away: shown once that's answered.
+        pictureAfterAnswer={card.direction === "recognize"}
         frame={frame}
         nav={null}
         skip={

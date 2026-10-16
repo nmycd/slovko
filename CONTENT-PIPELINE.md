@@ -115,6 +115,10 @@ Decide which exercises get a picture and what it shows, checked against what the
 textbook illustrated. Full rules, the cast's looks and the recurring places are in
 [illustrations/README.md](illustrations/README.md).
 
+An intro card's picture also illustrates its word in word review (see
+[Automatic](#automatic)), so give short words and phrases a picture where one
+fits, and make it show the meaning plainly.
+
 1. List the unit's exercises with their indices:
    ```bash
    npx tsx illustrations/tools/list-exercises.ts . 3
@@ -214,7 +218,10 @@ These follow from the content; there's nothing to run.
 - **Word review deck.** Every intro card of up to three words (not a list)
   becomes a review item, reviewed both ways (recognition and recall) with FSRS
   once a learner meets it; served as `/api/review-deck`. A longer intro card
-  (a sentence) simply stays out of review.
+  (a sentence) simply stays out of review. An item takes its intro card's picture
+  (the first lesson's with one): review shows it with the question when asking
+  for the Slovak; when asking for the meaning, which the picture would give away,
+  only after the answer (and not at all on phones).
 - **Spelling cards in lessons** and **picture positions**: inserted and shifted
   as the course loads, from `spelling.json` and `illustrations.json`.
 - **Loading**: each lesson fetches its pictures and audio in the background as it

@@ -4,6 +4,7 @@
 // Client-safe; the deck itself is built on the server (see `reviewDeck` in
 // ../course) and served at /api/review-deck.
 import { stripMarkup } from "@/lib/course/helpers";
+import type { Illustration } from "@/lib/course/illustrations";
 import type { Exercise } from "@/lib/course/types";
 import type { Locale } from "@/lib/i18n";
 
@@ -15,6 +16,8 @@ export type ReviewItem = {
   meaning: Record<Locale, string>;
   /** Every lesson that teaches it, in course order. */
   lessons: string[];
+  /** The picture of the card that teaches it, if it has one. */
+  picture?: Illustration;
 };
 
 /** Recognition: Slovak → meaning. Recall: meaning → Slovak. */

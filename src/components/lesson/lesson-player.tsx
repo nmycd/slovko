@@ -355,6 +355,7 @@ function Player({
 export function Step({
   exercise: ex,
   illustration,
+  pictureAfterAnswer = false,
   frame,
   initial,
   review = false,
@@ -366,6 +367,8 @@ export function Step({
 }: {
   exercise: Exercise;
   illustration?: Illustration;
+  /** Keep the picture back until the exercise is answered (where it would give the answer away); phones skip it. */
+  pictureAfterAnswer?: boolean;
   /** Width classes shared with the top bar and footer. */
   frame: string;
   /** An earlier answer to restore (a finished exercise, or the current one after a look back). */
@@ -440,7 +443,11 @@ export function Step({
             alt=""
             unoptimized
             preload
-            className="illustration mx-auto h-auto max-h-[24dvh] w-auto max-w-full lg:order-last lg:max-h-[calc(100dvh-14rem)]"
+            className={`illustration mx-auto h-auto max-h-[24dvh] w-auto max-w-full transition-opacity duration-500 lg:order-last lg:max-h-[calc(100dvh-14rem)] ${
+              // Kept back: beside the exercise its place waits empty until the answer; above
+              // it (narrow screens) a gap would push the exercise down, so it isn't shown.
+              pictureAfterAnswer ? `max-lg:hidden ${result ? "" : "opacity-0"}` : ""
+            }`}
           />
         )}
         <div className="min-w-0">
