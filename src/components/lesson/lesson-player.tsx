@@ -29,7 +29,7 @@ import { playSlovak, preloadLesson, stopSlovak, type Clip } from "@/lib/audio";
 import { fillSentence, speakableTexts, tileWords } from "@/lib/course/helpers";
 import type { Illustration } from "@/lib/course/illustrations";
 import { properNames } from "@/lib/course/names";
-import type { Exercise, ExerciseId, Lesson, RuleCard } from "@/lib/course/types";
+import type { Exercise, ExerciseId, Lesson, MemoWord, RuleCard } from "@/lib/course/types";
 import { setDictionaryQuery } from "@/lib/dictionary-store";
 import { taughtItemIds } from "@/lib/review/items";
 import { markSeen } from "@/lib/review/store";
@@ -90,19 +90,45 @@ function lessonClips(lesson: Lesson): Clip[] {
   });
 }
 
+/** Memorize rounds: about this many letters to type a round, in 2 to 5 words. */
+const ROUND = { letters: 36, minWords: 2, maxWords: 5 };
+
+/** What a word costs to type: its letters and digits (spaces and punctuation aren't graded). */
+const typingCost = (text: string) => (text.match(/[\p{L}\p{N}]/gu) ?? []).length;
+
 /**
- * A writing lesson with its memorize rounds' words: four each, taken in turn from the
- * pool in the order `deal` shuffled it to.
+ * A writing lesson with its memorize rounds' words, dealt from the pool in the order
+ * `deal` shuffled it to. Each round gets about the same typing, `ROUND.letters`: more
+ * short words ("byt"), fewer long ones ("Koľko máš rokov?"). A round takes, first fit,
+ * the next words that keep it within a tenth over, and closes once within a tenth under.
+ * Rounds the pool can't fill with two words are left out.
  */
 function dealWords(lesson: Lesson, deal: number[]): Lesson {
   const pool = lesson.wordPool;
   if (!pool?.length) return lesson;
-  let next = 0;
+  const left = deal.map((i) => pool[i]);
+  const round = () => {
+    const words: MemoWord[] = [];
+    let cost = 0;
+    for (let k = 0; k < left.length && words.length < ROUND.maxWords; ) {
+      const next = typingCost(left[k].sk);
+      if (words.length >= ROUND.minWords && cost + next > ROUND.letters * 1.1) {
+        k++;
+        continue;
+      }
+      words.push(...left.splice(k, 1));
+      cost += next;
+      if (words.length >= ROUND.minWords && cost >= ROUND.letters * 0.9) break;
+    }
+    return words;
+  };
   return {
     ...lesson,
-    exercises: lesson.exercises.map((ex) =>
-      ex.type === "memorize" ? { ...ex, words: deal.slice(next, (next += 4)).map((i) => pool[i]) } : ex,
-    ),
+    exercises: lesson.exercises.flatMap((ex): Exercise[] => {
+      if (ex.type !== "memorize") return [ex];
+      const words = round();
+      return words.length >= ROUND.minWords ? [{ ...ex, words }] : [];
+    }),
   };
 }
 

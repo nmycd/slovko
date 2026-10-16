@@ -127,7 +127,8 @@ export const localizedCourse: Record<Locale, Unit[]> = Object.fromEntries(
 /**
  * Gives each writing lesson its `wordPool`: the words taught on intro cards since the
  * previous writing lesson (those word review takes too: up to three words, no lists),
- * once each. It keeps as many memorize rounds as the pool fills, four words a round.
+ * once each. The lesson player deals its memorize rounds from it, and leaves out the
+ * rounds the pool can't fill.
  */
 function withWordPools(units: Unit[]): Unit[] {
   let since = new Map<string, MemoWord>();
@@ -144,8 +145,7 @@ function withWordPools(units: Unit[]): Unit[] {
       }
       const wordPool = [...since.values()];
       since = new Map();
-      let rounds = Math.floor(wordPool.length / 4);
-      return { ...lesson, wordPool, exercises: lesson.exercises.filter((ex) => ex.type !== "memorize" || rounds-- > 0) };
+      return { ...lesson, wordPool };
     }),
   }));
 }

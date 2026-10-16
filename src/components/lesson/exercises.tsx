@@ -446,7 +446,7 @@ function derangement(n: number): number[] {
 }
 
 /**
- * Writing practice: four words to memorize. While studying, each meaning stands beside its
+ * Writing practice: a few words to memorize. While studying, each meaning stands beside its
  * Slovak. Once the learner is ready (`studied`), the rows blur and clear again with the
  * meanings in a new order (so a word's place gives nothing away) and a box to type each
  * word in. The rows themselves stay put. `answer` holds the typed words in the order they

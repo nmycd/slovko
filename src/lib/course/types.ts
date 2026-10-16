@@ -92,7 +92,7 @@ export type SpellExercise = {
 export type MemoWord = { sk: string; en: string };
 
 /**
- * Writing practice only: memorize how four words are spelled, then type each from its
+ * Writing practice only: memorize how a few words are spelled, then type each from its
  * meaning once the Slovak is hidden and the rows are shuffled. Written as a bare stub;
  * the words are dealt when the lesson starts, from the lesson's `wordPool`.
  */

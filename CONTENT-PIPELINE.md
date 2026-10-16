@@ -83,10 +83,13 @@ from the lessons that present and drill words and grammar:
   ("Written practice"), placed **just before the unit's review lesson**. It holds
   only two kinds of exercise:
   - **Memorize rounds**: up to five bare stubs, `{ id: "memorize-1", type: "memorize" }`.
-    Each is dealt four words when the lesson starts (see [Automatic](#automatic)).
-    The learner studies them, presses "I'm ready", sees the Slovak blur and the rows
-    shuffle, then types each word from its meaning. Only letter-perfect words count,
-    accents included: 0/25/50/75/100%. A missed round comes back once at the end.
+    Each is dealt words when the lesson starts (see [Automatic](#automatic)): about
+    the same typing every round, 36 letters or so, so 2–5 words, more short ones
+    ("byt") or fewer long ones ("Koľko máš rokov?"). The learner studies them and
+    presses "I'm ready"; the rows blur and clear with the meanings in a new order and
+    a box for each word, typed from its meaning. Only letter-perfect words count,
+    accents included; the score is the share of words right. A missed round comes
+    back once at the end.
   - **The unit's dictations** (`listen`): one after the second round, the rest at
     the back, using the words the rounds practised.
 - **Standard lessons keep very few dictations**: two in unit 1, so learners see
@@ -396,8 +399,9 @@ These follow from the content; there's nothing to run.
 - **Spelling cards in lessons** and **picture positions**: inserted and shifted
   as the course loads, from `spelling.json` and `illustrations.json`.
 - **Memorize words** (writing lessons, tentative): each lesson's pool is the intro cards of up
-  to three words since the previous writing lesson, and the rounds that pool fills
-  stay (four words each). The words are dealt afresh each time the lesson starts.
+  to three words since the previous writing lesson. The rounds are dealt from it
+  afresh each time the lesson starts, about 36 letters each (2–5 words); rounds the
+  pool can't fill are left out.
 - **Word-order tiles** show in lowercase, so the capital doesn't give the first
   word away; names keep theirs ([tile-case.ts](src/lib/course/tile-case.ts)). A
   name the course only ever writes at the start of a sentence needs adding to
