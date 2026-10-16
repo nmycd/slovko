@@ -518,12 +518,14 @@ export function MemorizeView({
   });
 
   const marks = locked ? checkMemorized(words.map((w) => w.sk), typed) : null;
+  // The heading and both sides of each row blur together, and clear with their new content.
+  const haze = `transition-[filter,opacity] duration-[250ms] ${phase === "hiding" ? "opacity-60 blur-md select-none" : ""}`;
   return (
     // Every part keeps its size from studying to typing, so nothing jumps when the boxes
     // appear: both headings share one place (the taller sets its height), a word sits in a
     // box shaped like the input that replaces it, and the accent keys are there, unseen.
     <div className="space-y-6">
-      <div className="grid">
+      <div className={`grid ${haze}`}>
         <div className={`[grid-area:1/1] ${phase === "write" ? "invisible" : ""}`}>
           <Title>{t("ex.memorize.title")}</Title>
           <p className="mt-2 text-muted">{t("ex.memorize.prompt")}</p>
@@ -538,7 +540,6 @@ export function MemorizeView({
           const mark = marks?.[i];
           // Rows are keyed by place, so a row stays where it is and only its content blurs
           // and clears, the new content coming into focus in place.
-          const haze = `transition-[filter,opacity] duration-[250ms] ${phase === "hiding" ? "opacity-60 blur-md select-none" : ""}`;
           return (
             <li
               key={place}
