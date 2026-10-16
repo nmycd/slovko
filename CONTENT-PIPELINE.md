@@ -213,43 +213,75 @@ npm run generate:audio
 ```
 
 Every Slovak text the app can play (intro cards, sentences, word tiles, options,
-spelling words) is pre-generated into Supabase Storage. Production never
+spelling words) is pre-generated into Supabase Storage, and then each word tile's
+clip is cut from a take of its sentence (below). Production never
 generates audio (`TTS_LIVE_GENERATION=false`), so a text without a clip falls
 back to the browser's own voice. Run this after any change to Slovak text,
 including new spelling cards. `--prune` also deletes clips no longer used.
 
-### Word tiles: cut from the sentence (decided, not built yet)
+### Word tiles: cut from the sentence
 
-Today a word tile is voiced on its own and keyed by its text, so one clip of
-"je" serves all 48 tiles that say it. Short words (je, to, sa, a) come out wrong
-without a sentence around them. The fix: every tile is cut from a take of its
-own exercise's sentence.
+A short word voiced on its own (je, to, sa, a) comes out wrong, so a word tile in an
+exercise with a Slovak answer plays the word as cut from a take of its own
+sentence. `generate:audio` does this after the phrases, in
+[tile-audio.ts](scripts/tile-audio.ts):
 
 1. **Voice the answer with timings.** `answers[0]` goes to ElevenLabs'
-   `text-to-speech/{voice}/with-timestamps`, which returns the audio plus each
-   character's start and end time. Words are the runs between spaces, punctuation
-   dropped: the same split `toTiles` makes, so word *k* is tile *k*. The script
-   fails if the counts differ. The same take can be the sentence played after
-   Check.
-2. **Cut each word with ffmpeg.** Cut at the middle of the pause between words,
-   or at the alignment's boundary where there's no pause, with a few milliseconds
-   of fade so nothing clicks.
-3. **Wrong tiles come from the same frame.** Voice the sentence again with each
-   distractor in place of the tile it competes with (its trap's `right`; a
-   distractor without a trap takes the closest tile by form), and cut it out. One
-   take can carry several distractors when they replace different tiles. The
-   carrier sentence may be ungrammatical, since only the word is kept. A wrong
-   tile must sound like a right one, or the sound gives the answer away.
+   `text-to-speech/{voice}/with-timestamps`, which returns the audio and each
+   character's start and end. Words are the runs between spaces, punctuation
+   dropped: the split `toTiles` makes, so word *k* is tile *k*. A take whose
+   words don't match its tiles fails.
+2. **Cut each word out.** Where the take pauses between two words (quieter
+   than −40 dBFS near the timings' boundary), the cut goes in the middle of the
+   pause; where it doesn't ("Martin je" runs together), at the boundary itself.
+   The search reaches only a little way into either word, so a short one is
+   never cut short. After v, z, s or k the cut goes just before the next word's
+   start, so its clip doesn't begin with the preposition. The silence at a
+   clip's ends is trimmed to a little, and the ends fade in 8 ms and out 15 ms
+   so nothing clicks. ffmpeg decodes and encodes (128 kbps MP3); it must be
+   installed.
+3. **Wrong tiles come from the same frame.** The sentence is voiced again with
+   each wrong tile in place of the tile it competes with (its trap's `right`;
+   one without a trap takes the tile most like it in form), taking that tile's
+   case, and cut out the same way. One take carries several wrong tiles when they
+   replace different tiles. The frame may be ungrammatical, since only the word
+   is kept; what matters is that a wrong tile sounds like a right one, or the
+   sound would give the answer away.
 4. **One-letter prepositions get no clip.** Slovak says v, z, s and k as part of
-   the next word, so on their own they'd be a click. Tapping them plays nothing.
-5. **Tile clips belong to their exercise,** keyed by exercise id, tile and the
-   sentence text, not to the word. Everything else keeps its text-keyed clip.
-6. **Checks:** word and tile counts match, every clip is long enough and not
-   silent, and a sample is listened to before shipping.
+   the next word, so on their own they'd be a click. Tapping them plays nothing
+   (`isSilentTile` in [helpers.ts](src/lib/course/helpers.ts)).
+5. **Tile clips belong to their exercise:** `tiles/` in the bucket, keyed by
+   exercise ("u3-l1#build-kde-je-kupelna"), sentence and tile, so a changed
+   sentence gets new clips. The takes stay in `takes/` (audio and timings), so
+   clips can be cut again without paying twice. The app asks for
+   `/api/tts?text=je&in=u3-l1%23build-kde-je-kupelna`; the route serves only a tile
+   of that exercise, and the word's own clip until the cut one exists. It never
+   cuts or voices tiles itself.
+6. **Checks:** each take's words match its tiles; each clip is at least 0.08 s,
+   at most 0.6 s longer than its word's timing, and not silent (peak above
+   −30 dBFS). A clip that fails isn't stored, and the run exits with an error.
 
-Size, for the course as of October 2026: 136 exercises, 552 tiles and 280 wrong
-tiles. That's about 9,300 characters with one take per distractor, less when
-takes are shared.
+Flags for the tiles:
+
+```bash
+npm run generate:audio -- --tiles-only --only u3-,u1-l3#build-volam-sa-tomas --save ../tile-clips
+```
+
+- `--tiles-only` skips the phrases.
+- `--only` takes exercise key prefixes.
+- `--save <dir>` also writes the takes and clips there, with an `index.html` to
+  listen to them on (keep it outside the repo, or delete it).
+- `--recut` cuts every clip again from its stored take, for free, after a change
+  to the cutting.
+- `--prune` also deletes tile clips and takes that no exercise uses any more.
+
+Size, for the course as of October 2026: 151 exercises, 899 tile clips (595
+right, 304 wrong) from 326 takes, 7,233 characters. One take per wrong tile
+would have been 10,296. Five clips failed the length check, all words said in
+under 0.08 s (a, o, je); those tiles play the word's own clip.
+
+Not done: the sentence played after Check is still its own clip, not the take
+the tiles were cut from.
 
 Considered and set aside:
 - **Each word alone, with the sentence as `previous_text`/`next_text`:** cheaper
@@ -336,8 +368,6 @@ Gaps in the pipeline, most also tracked in [DEBT.md](DEBT.md):
   Ukrainian and Russian readers are reviewing, and Uzbek and Georgian are
   planned. A Slovak teacher should still review the Slovak before launch.
 - **Automation.** No CI runs the stage 10 checks; they're run by hand.
-- **Word-tile audio** is still voiced word by word. Cutting tiles from the
-  sentence is decided but not built: see stage 9, "Word tiles".
 - **More than one course.** Lesson ids (`u1-l1`), progress and the dictionary
   assume A1 is the only course. A2, B1 and the driving exam need a multi-course
   data model first.

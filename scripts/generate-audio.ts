@@ -1,10 +1,17 @@
 // Pre-generates every course phrase with ElevenLabs into the Supabase
-// Storage cache that /api/tts serves from.
+// Storage cache that /api/tts serves from, then the word tiles' clips, cut from
+// takes of their sentences (scripts/tile-audio.ts).
 //
 //   npm run generate:audio -- --dry-run   # what's missing and how many characters it costs
 //   npm run generate:audio                # generate missing clips (safe to re-run; resumes)
 //   npm run generate:audio -- --prune     # also delete clips no longer used
 //                                         # (old voice/model, removed phrases)
+//
+// Word tiles only:
+//   --tiles-only                          # skip the phrases
+//   --only u3-,u1-l3#build-volam-sa-tomas # just these exercises (key prefixes)
+//   --recut                               # cut every tile clip again from its stored take (free)
+//   --save <dir>                          # also write takes and clips there, with a page to listen on
 //
 // Refuses to spend credits on the placeholder voice: set ELEVENLABS_VOICE_ID first.
 
@@ -13,36 +20,50 @@ import { loadEnvConfig } from "@next/env";
 // Must run before importing modules that read the environment when loaded.
 loadEnvConfig(process.cwd());
 
-const args = new Set(process.argv.slice(2));
+const argv = process.argv.slice(2);
+const args = new Set(argv);
+const value = (flag: string) => {
+  const i = argv.indexOf(flag);
+  return i >= 0 ? argv[i + 1] : undefined;
+};
 const dryRun = args.has("--dry-run");
 const prune = args.has("--prune");
+const tilesOnly = args.has("--tiles-only");
 const CONCURRENCY = 3;
-const MAX_ATTEMPTS = 5;
-
-const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function main() {
-  const { speakableSet } = await import("../src/lib/course");
-  const { ElevenLabsError, isElevenLabsConfigured, ttsModel, voiceId } = await import(
-    "../src/lib/elevenlabs"
-  );
+  const { allLessons, speakableSet } = await import("../src/lib/course");
+  const { isElevenLabsConfigured, ttsModel, voiceId, withRetries } = await import("../src/lib/elevenlabs");
   const cache = await import("../src/lib/tts-cache");
+  const { generateTiles } = await import("./tile-audio");
 
   if (!cache.isTtsCacheConfigured()) throw new Error("Supabase (URL + secret key) is not configured.");
   if (!isElevenLabsConfigured()) throw new Error("ELEVENLABS_API_KEY is not set.");
 
   const phrases = [...speakableSet];
   const cached = await cache.listCachedPaths();
-  const missing = phrases.filter((text) => !cached.has(cache.ttsCachePath(text)));
+  const missing = tilesOnly ? [] : phrases.filter((text) => !cached.has(cache.ttsCachePath(text)));
   const wanted = new Set(phrases.map(cache.ttsCachePath));
   const unused = [...cached].filter((path) => !wanted.has(path));
   const characters = missing.reduce((n, text) => n + text.length, 0);
 
   console.log(`voice ${voiceId} · model ${ttsModel}`);
-  console.log(`${phrases.length} phrases · ${phrases.length - missing.length} cached · ${missing.length} missing`);
-  console.log(`characters to generate: ${characters.toLocaleString("en")}`);
-  console.log(`unused clips in cache: ${unused.length}${prune ? " (will be deleted)" : ""}`);
-  if (dryRun) return;
+  if (!tilesOnly) {
+    console.log(`${phrases.length} phrases · ${phrases.length - missing.length} cached · ${missing.length} missing`);
+    console.log(`characters to generate: ${characters.toLocaleString("en")}`);
+    console.log(`unused clips in cache: ${unused.length}${prune ? " (will be deleted)" : ""}`);
+  }
+  const tileOptions = {
+    dryRun,
+    prune,
+    recut: args.has("--recut"),
+    only: value("--only")?.split(",").filter(Boolean) ?? [],
+    save: value("--save"),
+  };
+  if (dryRun) {
+    await generateTiles(allLessons, tileOptions);
+    return;
+  }
 
   if (!process.env.ELEVENLABS_VOICE_ID) {
     throw new Error("Set ELEVENLABS_VOICE_ID to the chosen Slovak voice before generating.");
@@ -54,32 +75,25 @@ async function main() {
 
   async function worker() {
     for (let text = queue.shift(); text !== undefined; text = queue.shift()) {
-      for (let attempt = 1; ; attempt++) {
-        try {
-          await cache.generateAndCache(text);
-          done++;
-          console.log(`[${String(done).padStart(4)}/${missing.length}] ${text}`);
-          break;
-        } catch (err) {
-          const status = err instanceof ElevenLabsError ? err.status : 0;
-          const retryable = status === 0 || status === 429 || status >= 500;
-          if (!retryable || attempt >= MAX_ATTEMPTS) {
-            failed++;
-            console.error(`✗ ${text}: ${(err as Error).message}`);
-            break;
-          }
-          await sleep(1000 * 2 ** attempt);
-        }
+      try {
+        await withRetries(() => cache.generateAndCache(text));
+        done++;
+        console.log(`[${String(done).padStart(4)}/${missing.length}] ${text}`);
+      } catch (err) {
+        failed++;
+        console.error(`✗ ${text}: ${(err as Error).message}`);
       }
     }
   }
   await Promise.all(Array.from({ length: CONCURRENCY }, worker));
 
-  if (prune) {
+  if (prune && !tilesOnly) {
     await cache.removeCachedPaths(unused);
     console.log(`deleted ${unused.length} unused clips`);
   }
-  console.log(`\ngenerated ${done}, failed ${failed}`);
+  if (!tilesOnly) console.log(`\ngenerated ${done}, failed ${failed}`);
+
+  failed += await generateTiles(allLessons, tileOptions);
   if (failed) process.exit(1);
 }
 

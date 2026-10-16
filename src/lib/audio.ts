@@ -4,8 +4,21 @@
 // browser's own speech synthesis when TTS isn't configured or fails.
 
 import { useSyncExternalStore } from "react";
+import { isSilentTile } from "@/lib/course/helpers";
 import { createStore } from "@/lib/store";
 
+/**
+ * A clip to play: a course phrase, or a word tile `in` its exercise
+ * ("u3-l1#build-kde-je"), which plays the word as cut from that exercise's sentence.
+ */
+export type Clip = string | { text: string; in: string };
+
+const query = (clip: Clip) =>
+  typeof clip === "string"
+    ? `text=${encodeURIComponent(clip)}`
+    : `text=${encodeURIComponent(clip.text)}&in=${encodeURIComponent(clip.in)}`;
+
+/** Object URLs of loaded clips, by query. */
 const urls = new Map<string, Promise<string | null>>();
 let ttsUnavailable = false;
 let current: HTMLAudioElement | null = null;
@@ -13,23 +26,24 @@ let current: HTMLAudioElement | null = null;
 // (or its speech-synthesis fallback) never starts after the learner moved on.
 let generation = 0;
 
-function loadAudio(text: string): Promise<string | null> {
-  let pending = urls.get(text);
+function loadAudio(clip: Clip): Promise<string | null> {
+  const key = query(clip);
+  let pending = urls.get(key);
   if (!pending) {
-    pending = fetch(`/api/tts?text=${encodeURIComponent(text)}`)
+    pending = fetch(`/api/tts?${key}`)
       .then(async (res) => {
         if (res.status === 503) ttsUnavailable = true;
         if (!res.ok) {
-          urls.delete(text);
+          urls.delete(key);
           return null;
         }
         return URL.createObjectURL(await res.blob());
       })
       .catch(() => {
-        urls.delete(text);
+        urls.delete(key);
         return null;
       });
-    urls.set(text, pending);
+    urls.set(key, pending);
   }
   return pending;
 }
@@ -43,12 +57,14 @@ export function preloadSlovak(text: string) {
  * Fetches a lesson's clips in the background, in lesson order and a few at a time,
  * so each one plays at once when its exercise comes up.
  */
-export function preloadLesson(texts: string[]) {
-  const queue = [...new Set(texts)].filter((text) => !urls.has(text));
+export function preloadLesson(clips: Clip[]) {
+  const queue = [...new Map(clips.map((clip) => [query(clip), clip])).entries()]
+    .filter(([key]) => !urls.has(key))
+    .map(([, clip]) => clip);
   const next = (): Promise<void> => {
-    const text = queue.shift();
-    if (text === undefined || ttsUnavailable) return Promise.resolve();
-    return loadAudio(text).then(next);
+    const clip = queue.shift();
+    if (clip === undefined || ttsUnavailable) return Promise.resolve();
+    return loadAudio(clip).then(next);
   };
   for (let i = 0; i < 3; i++) void next();
 }
@@ -127,15 +143,26 @@ export function stopSlovak() {
   setPlaying(false);
 }
 
-export async function playSlovak(text: string, { slow = false } = {}) {
+/**
+ * Plays a word tile of a word-order exercise: the word as cut from the exercise's
+ * sentence (`exercise`: "u3-l1#build-kde-je"), else its own clip. The one-letter
+ * prepositions play nothing, being part of the next word when said.
+ */
+export function playTile(word: string, exercise?: string) {
+  if (isSilentTile(word)) return stopSlovak();
+  void playSlovak(exercise ? { text: word, in: exercise } : word);
+}
+
+export async function playSlovak(clip: Clip, { slow = false } = {}) {
   stopSlovak();
+  const text = typeof clip === "string" ? clip : clip.text;
   const playId = generation;
   const ended = () => {
     if (playId === generation) setPlaying(false);
   };
   setPlaying(true);
   if (!ttsUnavailable) {
-    const url = await loadAudio(text);
+    const url = await loadAudio(clip);
     if (playId !== generation) return; // superseded while loading
     if (url) {
       const audio = new Audio(url);

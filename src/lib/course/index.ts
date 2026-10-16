@@ -10,7 +10,7 @@ import { lexicon } from "./lexicon";
 import { addSpelling } from "./spelling";
 import { namesIn, withTileCase } from "./tile-case";
 import { localizeUnit, type Catalog } from "./translatable";
-import type { Exercise, ExerciseId, Lesson, Unit, UnitOutline } from "./types";
+import type { BuildExercise, Exercise, ExerciseId, Lesson, Unit, UnitOutline } from "./types";
 import { unit1 } from "./units/unit1";
 import { unit2 } from "./units/unit2";
 import { unit3 } from "./units/unit3";
@@ -265,6 +265,18 @@ export const courseOutlines: Record<Locale, UnitOutline[]> = Object.fromEntries(
  */
 export const speakableSet: ReadonlySet<string> = new Set(
   localizedCourse.en.flatMap((u) => u.lessons).flatMap((l) => l.exercises.flatMap(speakableTexts)),
+);
+
+/**
+ * Word-order exercises with a Slovak answer, by lesson and id ("u3-l1#build-kde-je"):
+ * their tiles have clips cut from their own sentence (see `tileWords`).
+ */
+export const tileExercises: ReadonlyMap<string, BuildExercise> = new Map(
+  allLessons.flatMap((l) =>
+    l.exercises.flatMap((ex) =>
+      ex.type === "build" && ex.promptLang === "en" ? [[`${l.id}#${ex.id}`, ex] as const] : [],
+    ),
+  ),
 );
 
 /** The sentences of speaking exercises: what /api/stt accepts as the expected answer. */

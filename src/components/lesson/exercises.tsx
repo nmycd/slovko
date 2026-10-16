@@ -6,7 +6,7 @@ import { useApp } from "@/components/app-provider";
 import { AudioButton } from "@/components/lesson/audio-button";
 import { RichText } from "@/components/lesson/rich-text";
 import { checkSpoken, shuffle, type CheckResult, type MarkedWord } from "@/lib/answers";
-import { playSlovak, stopSlovak, useSlovakPlaying } from "@/lib/audio";
+import { playSlovak, playTile, stopSlovak, useSlovakPlaying } from "@/lib/audio";
 import { stripMarkup } from "@/lib/course/helpers";
 import { properNames } from "@/lib/course/names";
 import type { MessageKey } from "@/lib/i18n";
@@ -227,10 +227,15 @@ export function FillView({ exercise, answer, setAnswer, locked }: Props<FillExer
 export function BuildView({
   exercise,
   tiles,
+  clipsIn,
   answer,
   setAnswer,
   locked,
-}: Props<BuildExercise> & { tiles: string[] }) {
+}: Props<BuildExercise> & {
+  tiles: string[];
+  /** The exercise as "lesson#id", whose tiles have clips cut from its sentence. */
+  clipsIn?: string;
+}) {
   const { t } = useApp();
   const picked = Array.isArray(answer) ? answer : [];
   const toSk = exercise.promptLang === "en";
@@ -272,7 +277,7 @@ export function BuildView({
               type="button"
               disabled={locked || used}
               onClick={() => {
-                if (toSk) void playSlovak(word);
+                if (toSk) playTile(word, clipsIn);
                 setAnswer([...picked, i]);
               }}
               data-state={used ? "done" : undefined}

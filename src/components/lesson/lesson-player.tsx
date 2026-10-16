@@ -24,8 +24,8 @@ import {
 import { RichText } from "@/components/lesson/rich-text";
 import { VolumeSlider } from "@/components/lesson/volume-slider";
 import { checkBuiltAnswer, checkSpelled, checkTyped, shuffle, toTiles } from "@/lib/answers";
-import { playSlovak, preloadLesson, stopSlovak } from "@/lib/audio";
-import { fillSentence, speakableTexts } from "@/lib/course/helpers";
+import { playSlovak, preloadLesson, stopSlovak, type Clip } from "@/lib/audio";
+import { fillSentence, speakableTexts, tileWords } from "@/lib/course/helpers";
 import type { Illustration } from "@/lib/course/illustrations";
 import { properNames } from "@/lib/course/names";
 import type { Exercise, ExerciseId, Lesson, RuleCard } from "@/lib/course/types";
@@ -69,6 +69,18 @@ function grade(ex: Exercise, answer: Answer, tiles: string[]): Resolution {
     default:
       return { correct: true };
   }
+}
+
+/** Every clip a lesson may play, in order: word tiles as cut from their own sentence. */
+function lessonClips(lesson: Lesson): Clip[] {
+  return lesson.exercises.flatMap((ex) => {
+    const tiles = tileWords(ex);
+    const key = `${lesson.id}#${ex.id}`;
+    return [
+      ...speakableTexts(ex).filter((text) => !tiles.includes(text)),
+      ...tiles.map((text) => ({ text, in: key })),
+    ];
+  });
 }
 
 /** The Slovak text to read aloud after an answer is checked, if any. */
@@ -201,7 +213,7 @@ function Player({
 
   // Same for its audio: every clip, fetched in the background from the start.
   useEffect(() => {
-    if (phase !== "paywall" && lookUp === null) preloadLesson(lesson.exercises.flatMap(speakableTexts));
+    if (phase !== "paywall" && lookUp === null) preloadLesson(lessonClips(lesson));
   }, [lesson, phase, lookUp]);
   const [summary, setSummary] = useState<Summary | null>(null);
 
@@ -345,6 +357,7 @@ function Player({
         <Step
           key={`${shown.key}-${locale}${reviewing ? "-review" : ""}`}
           exercise={lesson.exercises[shown.index]}
+          lessonId={lesson.id}
           illustration={pictures[lesson.exercises[shown.index].id]}
           frame={frame}
           initial={history[shown.key]}
@@ -378,6 +391,7 @@ function Player({
 /** One exercise: owns its answer, word tiles and result. Remounted per queue item. Also used by reviews. */
 export function Step({
   exercise: ex,
+  lessonId,
   illustration,
   pictureAfterAnswer = false,
   frame,
@@ -391,6 +405,8 @@ export function Step({
   onNext,
 }: {
   exercise: Exercise;
+  /** The lesson the exercise is in, for its word tiles' clips. */
+  lessonId?: string;
   illustration?: Illustration;
   /** Keep the picture back until the exercise is answered (where it would give the answer away); phones skip it. */
   pictureAfterAnswer?: boolean;
@@ -494,7 +510,14 @@ export function Step({
             <FillView exercise={ex} answer={answer} setAnswer={setAnswer} locked={locked} />
           )}
           {ex.type === "build" && (
-            <BuildView exercise={ex} tiles={tiles} answer={answer} setAnswer={setAnswer} locked={locked} />
+            <BuildView
+              exercise={ex}
+              tiles={tiles}
+              clipsIn={lessonId && `${lessonId}#${ex.id}`}
+              answer={answer}
+              setAnswer={setAnswer}
+              locked={locked}
+            />
           )}
           {ex.type === "listen" && (
             <ListenView exercise={ex} answer={answer} setAnswer={setAnswer} locked={locked} />
