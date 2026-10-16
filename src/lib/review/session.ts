@@ -16,6 +16,12 @@ import type { Locale } from "@/lib/i18n";
 import { cardId, parseCardId, type Direction, type ReviewItem } from "./items";
 import { isNew, ratings, strength, type StoredCard } from "./schedule";
 
+/**
+ * Word review opens with this unit: the path's first review stops are in it, and the
+ * review card on /learn stays closed until every unit before it is done.
+ */
+export const reviewFromUnit = 2;
+
 /** Up to this many cards per session; new cards fill what's left, up to `NEW_PER_SESSION`. */
 export const SESSION_SIZE = 15;
 export const NEW_PER_SESSION = 10;

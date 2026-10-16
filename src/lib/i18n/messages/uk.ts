@@ -251,6 +251,7 @@ export const uk: Messages = {
   "review.caughtUp": "Усе повторено.",
   "review.nextAt": "Наступне повторення {when}.",
   "review.emptyDeck": "Сюди потрапляють слова, які ви вивчаєте на уроках.",
+  "review.afterUnit": "Спершу завершіть розділ {n}. Потім вивчені слова повертатимуться сюди на повторення.",
   "review.signIn": "Увійдіть, щоб повторювати слова",
   "review.whatMeans": "Що це означає?",
   "review.howSay": "Як сказати «{meaning}»?",

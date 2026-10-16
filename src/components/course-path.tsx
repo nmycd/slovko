@@ -16,7 +16,7 @@ import {
 import type { LessonKind, UnitOutline } from "@/lib/course/types";
 import { unlockAllLessons } from "@/lib/env";
 import { clockStore } from "@/lib/progress-store";
-import { reviewCounts } from "@/lib/review/session";
+import { reviewCounts, reviewFromUnit } from "@/lib/review/session";
 import { useReviewCards } from "@/lib/review/store";
 import type { Locale, MessageKey, Translate } from "@/lib/i18n";
 
@@ -42,9 +42,15 @@ export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[
   const reviewCards = useReviewCards();
   const now = useSyncExternalStore(clockStore.subscribe, clockStore.get, () => 0);
   const counts = reviewCounts(reviewCards, now);
+  // A stop starts a session, except the course's first, which opens the review page so
+  // a newcomer learns what word review is before starting one.
+  const firstStop = outline.flatMap((u) => u.lessons.filter((_, i) => hasReviewStop(u, i)))[0]?.id;
   const review = {
     waiting: counts.due + counts.fresh,
-    href: signedOut ? `/login?next=${encodeURIComponent("/review")}` : "/review",
+    hrefAfter: (lessonId: string) => {
+      const path = lessonId === firstStop ? "/learn/review" : "/review";
+      return signedOut ? `/login?next=${encodeURIComponent(path)}` : path;
+    },
   };
 
   // The first lesson not yet completed is "current"; everything after it is locked.
@@ -104,8 +110,8 @@ function UnitSection({
   completed: boolean;
   stateOf: (lessonId: string) => NodeState;
   hrefFor: (lessonId: string) => string;
-  /** Cards waiting for word review, and where review starts. */
-  review: { waiting: number; href: string };
+  /** Cards waiting for word review, and where the stop after a lesson leads. */
+  review: { waiting: number; hrefAfter: (lessonId: string) => string };
   t: Translate;
 }) {
   const [expanded, setExpanded] = useState(false);
@@ -191,10 +197,7 @@ function UnitSection({
                 t={t}
               />
             </li>,
-            // A word review stop after every third lesson, unless the unit's own
-            // review lesson is next anyway. Optional: it never locks what follows.
-            // Not in unit 1: its words are all minutes old, nothing to forget yet.
-            unit.number > 1 && i % 3 === 2 && i < unit.lessons.length - 2 && (
+            hasReviewStop(unit, i) && (
               <li
                 key={`${lesson.id}-review`}
                 // Room below for the next lesson's "Start" bubble.
@@ -204,7 +207,7 @@ function UnitSection({
                 }}
               >
                 <ReviewStop
-                  href={review.href}
+                  href={review.hrefAfter(lesson.id)}
                   waiting={review.waiting}
                   locked={stateOf(lesson.id) !== "done"}
                   t={t}
@@ -224,6 +227,16 @@ const kindLabel: Record<LessonKind, MessageKey | null> = {
   grammar: "path.kind.grammar",
   review: "path.kind.review",
 };
+
+/**
+ * Whether a word review stop follows a unit's lesson `i`: after every third lesson,
+ * unless the unit's own review lesson is next anyway. Optional: a stop never locks what
+ * follows. None before `reviewFromUnit`: unit 1's words are all minutes old, with
+ * nothing to forget yet.
+ */
+function hasReviewStop(unit: UnitOutline, i: number): boolean {
+  return unit.number >= reviewFromUnit && i % 3 === 2 && i < unit.lessons.length - 2;
+}
 
 /** A word review stop on the path: the cards waiting, or a tick when there are none. */
 function ReviewStop({ href, waiting, locked, t }: { href: string; waiting: number; locked: boolean; t: Translate }) {

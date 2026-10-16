@@ -261,6 +261,7 @@ export const en = {
   "review.caughtUp": "All caught up.",
   "review.nextAt": "Next review {when}.",
   "review.emptyDeck": "Words you meet in lessons come here.",
+  "review.afterUnit": "Finish Unit {n} first. Then the words you've learned come back here for review.",
   "review.signIn": "Sign in to keep a review deck",
   "review.whatMeans": "What does this mean?",
   "review.howSay": "How do you say “{meaning}”?",

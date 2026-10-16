@@ -3,16 +3,19 @@
 // The word-review card beside the course on /learn: where the learner's deck stands
 // (what's waiting, or when the next words fall due) and the way into a session. The
 // card as a whole opens the review page (/learn/review); its button starts a session.
+// Until the units before `reviewFromUnit` are done it's closed: greyed, saying when it opens.
 import Link from "next/link";
 import { useEffect, useSyncExternalStore } from "react";
 import { useApp } from "@/components/app-provider";
+import { LockIcon } from "@/components/icons";
 import { formatWhen } from "@/components/review/when";
 import { clockStore } from "@/lib/progress-store";
-import { nextDue, reviewCounts } from "@/lib/review/session";
+import { nextDue, reviewCounts, reviewFromUnit } from "@/lib/review/session";
 import { loadReviewDeck, useReviewCards } from "@/lib/review/store";
 
-export function ReviewCard({ className = "" }: { className?: string }) {
-  const { authEnabled, authKnown, user, locale, t } = useApp();
+/** `opensAfter`: the lessons of the units before `reviewFromUnit`. */
+export function ReviewCard({ opensAfter, className = "" }: { opensAfter: string[]; className?: string }) {
+  const { authEnabled, authKnown, user, progress, locale, t } = useApp();
   const cards = useReviewCards();
   const now = useSyncExternalStore(clockStore.subscribe, clockStore.get, () => 0);
   const signedOut = authEnabled && authKnown && !user;
@@ -32,6 +35,18 @@ export function ReviewCard({ className = "" }: { className?: string }) {
         : [t("review.caughtUp"), next && t("review.nextAt", { when: formatWhen(next, now, locale) })]
             .filter(Boolean)
             .join(" ");
+
+  if (!opensAfter.every((id) => progress.completed[id])) {
+    return (
+      <div className={`card bg-locked/40 p-5 text-muted ${className}`}>
+        <h2 className="flex items-center gap-2 text-lg">
+          <LockIcon size={18} className="shrink-0" />
+          {t("review.title")}
+        </h2>
+        <p className="mt-1 text-sm">{t("review.afterUnit", { n: reviewFromUnit - 1 })}</p>
+      </div>
+    );
+  }
 
   return (
     <div className={`card relative p-5 transition-colors hover:bg-surface ${className}`}>

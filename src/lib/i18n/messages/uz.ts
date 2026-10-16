@@ -261,6 +261,7 @@ export const uz: Messages = {
   "review.caughtUp": "Hammasi takrorlandi.",
   "review.nextAt": "Keyingi takrorlash: {when}.",
   "review.emptyDeck": "Darslarda oʻrgangan soʻzlaringiz shu yerga tushadi.",
+  "review.afterUnit": "Avval {n}-boʻlimni tugating. Keyin oʻrgangan soʻzlaringiz takrorlash uchun shu yerga qaytadi.",
   "review.signIn": "Soʻzlarni takrorlash uchun kiring",
   "review.whatMeans": "Bu nimani anglatadi?",
   "review.howSay": "«{meaning}» slovakchada qanday aytiladi?",

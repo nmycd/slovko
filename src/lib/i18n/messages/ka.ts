@@ -261,6 +261,7 @@ export const ka: Messages = {
   "review.caughtUp": "ყველაფერი გამეორებულია.",
   "review.nextAt": "შემდეგი გამეორება: {when}.",
   "review.emptyDeck": "აქ ხვდება სიტყვები, რომლებსაც გაკვეთილებზე სწავლობთ.",
+  "review.afterUnit": "ჯერ დაასრულეთ თავი {n}. შემდეგ ნასწავლი სიტყვები აქ დაბრუნდება გასამეორებლად.",
   "review.signIn": "შედით, რომ სიტყვები გაიმეოროთ",
   "review.whatMeans": "რას ნიშნავს?",
   "review.howSay": "როგორ ითქმის სლოვაკურად „{meaning}“?",

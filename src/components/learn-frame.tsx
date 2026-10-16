@@ -12,7 +12,14 @@ import { ReviewCard } from "@/components/review/review-card";
  * review and the dictionary (and Premium on A1, whose units it unlocks). Resources
  * has the page to itself.
  */
-export function LearnFrame({ children }: { children: React.ReactNode }) {
+export function LearnFrame({
+  reviewOpensAfter,
+  children,
+}: {
+  /** The lessons to finish before word review opens. */
+  reviewOpensAfter: string[];
+  children: React.ReactNode;
+}) {
   const pathname = usePathname();
   const { ready, progress, isPremium, todayXp, t } = useApp();
   if (pathname === "/learn/resources") return children;
@@ -20,7 +27,7 @@ export function LearnFrame({ children }: { children: React.ReactNode }) {
   const onA1 = pathname === "/learn";
   // They read the device's storage (review cards, the search text), so they wait for the app.
   // The review page is the card at length, so it goes without the card.
-  const reviewCard = ready && pathname !== "/learn/review" && <ReviewCard />;
+  const reviewCard = ready && pathname !== "/learn/review" && <ReviewCard opensAfter={reviewOpensAfter} />;
   const dictionaryCard = ready && <Dictionary />;
   // Narrow screens have no side column: review and the dictionary lead the A1 path
   // (long) and follow the other tabs' short text.
