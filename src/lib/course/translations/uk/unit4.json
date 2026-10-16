@@ -143,6 +143,16 @@
     "en": "The town is small and pretty.",
     "t": "Місто маленьке й гарне."
   },
+  "u4-l1.13.traps": {
+    "en": [
+      "Mesto ends in -o, so it's neuter and the adjective takes **-é**, after je too: mal**é**. Malá is for feminine nouns.",
+      "Both adjectives match mesto, which is neuter: pekn**é**, like malé. Pekný is for masculine nouns."
+    ],
+    "t": [
+      "Mesto закінчується на -o — середній рід, як «місто», тож прикметник бере **-é**, і після je теж: mal**é**. Malá — для жіночого роду.",
+      "Обидва прикметники узгоджуються з mesto, а воно середнього роду: pekn**é**, як і malé. Pekný — для чоловічого роду."
+    ]
+  },
   "u4-l1.14.en": {
     "en": "tall, high",
     "t": "високий"
@@ -302,6 +312,16 @@
   "u4-l2.13.prompt": {
     "en": "Excuse me, where's the museum?",
     "t": "Перепрошую, де музей?"
+  },
+  "u4-l2.13.traps": {
+    "en": [
+      "Múzeum is one thing (ono), so the verb is **je**: Kde je…? works for any one place. Sú goes with oni, ony.",
+      "The museum is **múzeum**. Kino means cinema."
+    ],
+    "t": [
+      "Múzeum — одна річ (ono), тож дієслово **je**: Kde je…? годиться для будь-якого одного місця. Sú — для oni, ony.",
+      "«Музей» — це **múzeum**. Kino означає кінотеатр, «кіно»."
+    ]
   },
   "u4-l2.14.en": {
     "en": "Hi Tomáš! Go straight on, then left.",
@@ -507,6 +527,16 @@
     "en": "She is a journalist.",
     "t": "Вона журналістка."
   },
+  "u4-l3.12.traps": {
+    "en": [
+      "Ona is a woman, so the job takes the feminine **-ka**: novinár**ka**. Novinár is for a man.",
+      "With **ona** (she), byť is **je**. Som goes with ja (I)."
+    ],
+    "t": [
+      "Ona — жінка, тож професія бере жіноче **-ka**: novinár**ka**, «журналістка». Novinár — про чоловіка.",
+      "З **ona** (вона) byť має форму **je**, і на відміну від нашого «вона журналістка», його не пропускають. Som — з ja (я)."
+    ]
+  },
   "u4-l3.13.en": {
     "en": "Mr Novák doesn't work, he's a pensioner.",
     "t": "Пан Новак не працює, він пенсіонер."
@@ -665,6 +695,18 @@
     "en": "The squares are pretty.",
     "t": "Площі гарні."
   },
+  "u4-l4.3.traps": {
+    "en": [
+      "Námestia is plural, so “are” is **sú**. Je is for one thing: námestie je pekné.",
+      "In the plural, adjectives for places and things end in **-é**: pekn**é**. Pekný goes with one masculine noun.",
+      "The squares are more than one, and neuter nouns in -ie end in **-ia** in the plural: námesti**a**. Námestie is just one square."
+    ],
+    "t": [
+      "Námestia — множина, тож «є» — **sú**. Je — для однієї речі: námestie je pekné.",
+      "У множині прикметники при назвах місць і речей закінчуються на **-é**: pekn**é**. Pekný — для одного іменника чоловічого роду.",
+      "Площ кілька, а іменники середнього роду на -ie у множині закінчуються на **-ia**: námesti**a**. Námestie — одна площа."
+    ]
+  },
   "u4-l4.4.en": {
     "en": "Those rivers are long.",
     "t": "Ті річки довгі."
@@ -817,6 +859,16 @@
     "en": "Tomáš and Marek are not journalists.",
     "t": "Томаш і Марек не журналісти."
   },
+  "u4-l4.10.traps": {
+    "en": [
+      "Tomáš and Marek are men, so the job takes the men's plural **-i**: novinár**i**. Novinárky is for women.",
+      "Tomáš and Marek are two people, oni, so byť is **sú**: nie sú. Je is for one person."
+    ],
+    "t": [
+      "Томаш і Марек — чоловіки, тож «чоловіча» множина на **-i**: novinár**i**, як «журналісти». Novinárky — про жінок.",
+      "Томаш і Марек — двоє, тобто oni, тож byť має форму **sú**: nie sú. Je — для однієї особи."
+    ]
+  },
   "u4-l4.11.en": {
     "en": "Pensioners don't work.",
     "t": "Пенсіонери не працюють."
@@ -941,6 +993,18 @@
     "en": "There are four bridges here.",
     "t": "Тут чотири мости."
   },
+  "u4-l5.4.traps": {
+    "en": [
+      "Mosty are things, and for things four stays **štyri**. Štyria is only for counting men.",
+      "After 2, 3 and 4 the noun is plural, so most adds **-y**: štyri most**y**.",
+      "Four bridges are more than one, so “are” is **sú**, as in Tu sú dva hotely. Je is for one thing."
+    ],
+    "t": [
+      "Мости — речі, а для речей «чотири» лишається **štyri**. Štyria (пор. «четверо») — лише коли рахують чоловіків.",
+      "Після 2, 3 і 4 іменник стоїть у множині, як і в нас: štyri most**y**, «чотири мости».",
+      "Чотири мости — це більше одного, тож **sú**, як у Tu sú dva hotely. Je — для однієї речі."
+    ]
+  },
   "u4-l5.5.en": {
     "en": "The town has three churches.",
     "t": "У місті три церкви."
@@ -1044,6 +1108,16 @@
   "u4-l5.10.prompt": {
     "en": "Two waiters and two waitresses.",
     "t": "Двоє офіціантів і дві офіціантки."
+  },
+  "u4-l5.10.traps": {
+    "en": [
+      "For women, two is **dve**: dve čašníčky. Dva is for masculine things, like dva mosty, and men take dvaja: dvaja čašníci.",
+      "The sentence counts two, so men take **dvaja** and women **dve**. Traja means three, and only for men."
+    ],
+    "t": [
+      "Для жінок «дві» — **dve**: dve čašníčky, як наше «дві». Dva — для речей чоловічого роду (dva mosty), а чоловіків рахують із dvaja.",
+      "Тут рахують двох, тож для чоловіків — **dvaja**, як «двоє», а для жінок — dve. Traja означає «троє», і лише про чоловіків."
+    ]
   },
   "u4-l5.11.answers": {
     "en": [
@@ -1256,6 +1330,18 @@
     "en": "The coffee costs three euros.",
     "t": "Кава коштує три євро."
   },
+  "u4-l6.5.traps": {
+    "en": [
+      "The verb agrees with káva, one thing, not with the euros: káva **stojí**. Stoja is for two or more things.",
+      "After 2, 3 and 4, euro takes **eurá**. The short form eur is for five and up: päť eur.",
+      "Euros are things, so three is **tri**: tri eurá. Traja is only for counting men."
+    ],
+    "t": [
+      "Дієслово узгоджується з káva, однією річчю, а не з євро: káva **stojí**, «кава коштує». Stoja — для двох і більше речей.",
+      "На відміну від нашого незмінного «євро», euro змінюється: після 2, 3 і 4 — **eurá**. Коротке eur — від п'яти: päť eur.",
+      "Євро — речі, тож «три» — **tri**: tri eurá. Traja (пор. «троє») — лише коли рахують чоловіків."
+    ]
+  },
   "u4-l6.6.en": {
     "en": "Tomáš is standing at the back.",
     "t": "Томаш стоїть позаду."
@@ -1408,6 +1494,18 @@
     "en": "Where is my watch?",
     "t": "Де мій годинник?"
   },
+  "u4-l6.12.traps": {
+    "en": [
+      "Hodinky (watch) is always plural, even for one watch, so the verb is **sú**. Je is for ordinary singular words.",
+      "Hodinky is always plural, so “my” is plural too: **moje** hodinky. Môj goes with one masculine thing.",
+      "Words that go with hodinky are plural, since it's always plural: **moje**. Moja is for one feminine thing."
+    ],
+    "t": [
+      "На відміну від нашого «годинник», hodinky має лише множину, навіть коли годинник один, тож дієслово **sú**. Je — для звичайних слів в однині.",
+      "Hodinky — завжди множина, тож і «мій» у множині: **moje** hodinky, дослівно «мої». Môj — для однієї речі чоловічого роду.",
+      "Слова при hodinky теж у множині, бо воно завжди множина: **moje**, як «мої окуляри». Moja — для однієї речі жіночого роду."
+    ]
+  },
   "u4-l6.13.en": {
     "en": "Christmas is here!",
     "t": "Ось і Різдво!"
@@ -1464,6 +1562,16 @@
     "en": "Marek is a cook and Lucia is a student.",
     "t": "Марек — кухар, а Луція — студентка."
   },
+  "u4-l7.3.traps": {
+    "en": [
+      "Marek is a man, so it's **kuchár**, with no ending. Kuchárka, with -ka, is for a woman.",
+      "Lucia is a woman, so the job adds **-ka**: študent**ka**. Študent is for a man."
+    ],
+    "t": [
+      "Марек — чоловік, тож **kuchár**, без закінчення, «кухар». Kuchárka з -ka — про жінку.",
+      "Луція — жінка, тож назва додає **-ka**: študent**ka**, «студентка». Študent — про чоловіка."
+    ]
+  },
   "u4-l7.4.en": {
     "en": "Mrs Horváthová is a teacher.",
     "t": "Пані Горватова — вчителька."
@@ -1495,6 +1603,16 @@
   "u4-l7.8.prompt": {
     "en": "The town has three churches and two theatres.",
     "t": "У місті три церкви й два театри."
+  },
+  "u4-l7.8.traps": {
+    "en": [
+      "Divadlo is neuter, so two is **dve**: dve divadlá. Dva is only for masculine words, like dva kostoly.",
+      "After 2, 3 and 4 the noun is plural, so kostol adds **-y**: tri kostol**y**."
+    ],
+    "t": [
+      "Divadlo — середнього роду, тож «два» — **dve**: dve divadlá, хоча в нас «два театри». Dva — лише для чоловічого роду, як dva kostoly.",
+      "Після 2, 3 і 4 іменник у множині, як «три церкви»: kostol додає **-y**, tri kostol**y**."
+    ]
   },
   "u4-l7.9.en": {
     "en": "Excuse me, where's the bank?",
@@ -1544,5 +1662,15 @@
   "u4-l7.14.prompt": {
     "en": "The bridge is new and the castle is old.",
     "t": "Міст новий, а замок старий."
+  },
+  "u4-l7.14.traps": {
+    "en": [
+      "Most ends in a consonant, so it's masculine and the adjective takes **-ý**: nov**ý**. Nové is for neuter nouns.",
+      "Hrad is masculine (it ends in a consonant), so the adjective takes **-ý**: star**ý**. Stará is for feminine nouns."
+    ],
+    "t": [
+      "Most закінчується на приголосний — чоловічий рід, як «міст», тож прикметник бере **-ý**: nov**ý**. Nové — для середнього роду.",
+      "Hrad — чоловічого роду (закінчується на приголосний), як «замок», тож **-ý**: star**ý**. Stará — для жіночого роду."
+    ]
   }
 }

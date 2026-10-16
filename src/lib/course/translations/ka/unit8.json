@@ -141,6 +141,16 @@
     "en": "The company is looking for a new programmer.",
     "t": "ფირმა ახალ პროგრამისტს ეძებს."
   },
+  "u8-l1.12.traps": {
+    "en": [
+      "A man is the object of hľadá, so his adjective ends in **-ého**: nov**ého**. Nový is the plain form.",
+      "A programmer is a person and the object of hľadá, so the masculine word adds **-a**: programátor**a**. Programátor is the plain form."
+    ],
+    "t": [
+      "ქართულშიც ორივე სიტყვა იცვლება („ახალ პროგრამისტს“): კაცი hľadá-ს ობიექტია, ამიტომ მისი ზედსართავი **-ého**-ზე ბოლოვდება: nov**ého**. Nový ძირითადი ფორმაა.",
+      "პროგრამისტი ადამიანია და hľadá-ს ობიექტი, ამიტომ მამრობით სიტყვას ემატება **-a**: programátor**a**. Programátor ძირითადი ფორმაა."
+    ]
+  },
   "u8-l1.13.en": {
     "en": "I have a job interview tomorrow.",
     "t": "ხვალ გასაუბრება მაქვს."
@@ -156,6 +166,16 @@
   "u8-l1.15.prompt": {
     "en": "Emma is writing a CV.",
     "t": "ემა რეზიუმეს წერს."
+  },
+  "u8-l1.15.traps": {
+    "en": [
+      "A CV is a **životopis**. A pohovor is a job interview: you have one (mám pohovor), you don't write it.",
+      "Emma is ona, and with on or ona the verb has no ending: **píše**. Píšem is the ja form."
+    ],
+    "t": [
+      "რეზიუმე არის **životopis**. Pohovor გასაუბრებაა: ის გაქვთ (mám pohovor), მას არ წერენ.",
+      "ემა = ona, on-თან ან ona-სთან კი ზმნას დაბოლოება არ აქვს: **píše**. Píšem ja-ს ფორმაა."
+    ]
   },
   "u8-l1.16.answers": {
     "en": [
@@ -386,6 +406,16 @@
   "u8-l2.8.prompt": {
     "en": "I have a job interview on Friday.",
     "t": "პარასკევს გასაუბრება მაქვს."
+  },
+  "u8-l2.8.traps": {
+    "en": [
+      "“On” a day is v + the plain day: v **piatok**, like v pondelok. Only days ending in -a change, to -u: v stredu.",
+      "“On” a day is v + the day: **v** piatok. Vo is only for štvrtok: vo štvrtok."
+    ],
+    "t": [
+      "ქართული „პარასკევს“ სლოვაკურად არის v + დღის ძირითადი ფორმა: v **piatok**, როგორც v pondelok. იცვლება მხოლოდ -a-ზე დაბოლოებული დღეები: v stredu.",
+      "დღეზე („პარასკევს“) არის v + დღე: **v** piatok. Vo მხოლოდ štvrtok-ის წინ დგას: vo štvrtok."
+    ]
   },
   "u8-l2.9.title": {
     "en": "Months",
@@ -860,6 +890,16 @@
     "en": "Today is the first of October.",
     "t": "დღეს პირველი ოქტომბერია."
   },
+  "u8-l3.5.traps": {
+    "en": [
+      "In a date the ordinal ends in **-ého**: prv**ého** októbra. Prvý is the plain ordinal, first.",
+      "In a date the month changes too (“of October”): add **-a**, and months in -ber lose their e: októbr**a**."
+    ],
+    "t": [
+      "ქართულისგან განსხვავებით („პირველი ოქტომბერი“), თარიღში რიგობითი რიცხვი **-ého**-ზე ბოლოვდება: prv**ého** októbra. Prvý უბრალო რიგობითია, „პირველი“.",
+      "თარიღში თვეც იცვლება: ემატება **-a**, e კი იკარგება, ზუსტად როგორც ქართულ „ოქტომბრის“-ში: október → októbr**a**."
+    ]
+  },
   "u8-l3.6.title": {
     "en": "When were you born?",
     "t": "როდის დაიბადეთ?"
@@ -948,6 +988,16 @@
   "u8-l3.12.prompt": {
     "en": "Lucia: “I was born on the tenth of July.”",
     "t": "ლუცია: „ათ ივლისს დავიბადე.“"
+  },
+  "u8-l3.12.traps": {
+    "en": [
+      "A date uses the ordinal ending in -ého, shortened to **-eho** after a long syllable like ia: desiat**eho**. Desiaty is the plain ordinal.",
+      "In a date the month changes too (“of July”): most months add **-a**: júl**a**. Júl is the plain form."
+    ],
+    "t": [
+      "თარიღში რიგობითი რიცხვი -ého-ზე ბოლოვდება, გრძელი მარცვლის (ia) შემდეგ კი შემოკლებულ **-eho**-ზე: desiat**eho**. Desiaty უბრალო რიგობითია.",
+      "თარიღში თვეც იცვლება („ივლისის“): თვეების უმეტესობა **-a**-ს იღებს: júl**a**. Júl ძირითადი ფორმაა."
+    ]
   },
   "u8-l3.13.en": {
     "en": "The interview is on the twenty-second of September.",
@@ -1099,6 +1149,16 @@
     "en": "Nobody is at home.",
     "t": "სახლში არავინაა."
   },
+  "u8-l4.4.traps": {
+    "en": [
+      "Nobody is **nikto**, and like every ni- word it goes with a negative verb: nie je. Niekto means somebody.",
+      "Nikto (nobody) goes with the on or ona form of byť: nikto nie **je**. Som is only for ja (I)."
+    ],
+    "t": [
+      "**Nikto**-ს, ყველა ni- სიტყვის მსგავსად, უარყოფითი ზმნა სჭირდება, როგორც ქართულ სასაუბროში („არავინ არ არის“): nikto nie je. Niekto ნიშნავს „ვიღაცას“.",
+      "Nikto (არავინ) byť-ის on-ის ან ona-ს ფორმას იღებს: nikto nie **je**. Som მხოლოდ ja-სთვისაა (მე)."
+    ]
+  },
   "u8-l4.5.answers": {
     "en": [
       "Emma never drinks coffee."
@@ -1236,6 +1296,16 @@
   "u8-l4.11.prompt": {
     "en": "I never have time.",
     "t": "დრო არასდროს მაქვს."
+  },
+  "u8-l4.11.traps": {
+    "en": [
+      "**Nikdy** (never) always needs a negative verb, so mať becomes **ne**mám. This double negative is normal Slovak.",
+      "Never is **nikdy**, the ni- word that goes with the negative verb nemám. Niekedy, with nie-, means sometimes."
+    ],
+    "t": [
+      "**Nikdy**-ს ყოველთვის უარყოფითი ზმნა სჭირდება, როგორც ქართულ სასაუბროში („არასდროს არ მაქვს“): mať ხდება **ne**mám. სლოვაკურში ეს ორმაგი უარყოფა ნორმაა.",
+      "„არასდროს“ არის **nikdy**, ni- სიტყვა, რომელიც უარყოფით nemám-თან დგას. Niekedy (nie- სიტყვა) ნიშნავს „ხანდახან“."
+    ]
   },
   "u8-l4.12.en": {
     "en": "I'm looking for Tomáš, but I can't see him anywhere.",
@@ -1535,6 +1605,16 @@
     "en": "We live in Bratislava.",
     "t": "ბრატისლავაში ვცხოვრობთ."
   },
+  "u8-l5.5.traps": {
+    "en": [
+      "Where? takes the locative after v, and most feminine nouns end in **-e**: Bratislav**e**. Bratislava is the plain form.",
+      "Most places, cities too, take **v** (in): v Bratislave. Na is for set phrases like na pošte or na Slovensku."
+    ],
+    "t": [
+      "„სად?“ v-ს შემდეგ lokál-ს (ადგილობით ბრუნვას) მოითხოვს, მდედრობითი სახელების უმეტესობა კი **-e**-ზე ბოლოვდება: Bratislav**e**. Bratislava ძირითადი ფორმაა.",
+      "ადგილების უმეტესობა, ქალაქებიც, **v**-ს („-ში“) იღებს: v Bratislave. Na მზა გამოთქმებისთვისაა, როგორიცაა na pošte ან na Slovensku."
+    ]
+  },
   "u8-l5.6.en": {
     "en": "Lucia is in the park.",
     "t": "ლუცია პარკშია."
@@ -1646,6 +1726,16 @@
   "u8-l5.11.prompt": {
     "en": "Marek works in a small restaurant.",
     "t": "მარეკი პატარა რესტორანში მუშაობს."
+  },
+  "u8-l5.11.traps": {
+    "en": [
+      "Reštaurácia is feminine, so in the locative its adjective ends in **-ej**: mal**ej**. Malom is for masculine and neuter nouns.",
+      "Where? takes the locative, and nouns in -ia get **-ii**: reštaurácia → reštauráci**i**. Reštaurácia is the plain form."
+    ],
+    "t": [
+      "Reštaurácia მდედრობითია, ამიტომ lokál-ში მისი ზედსართავი **-ej**-ზე ბოლოვდება: mal**ej**. Malom მამრობითი და საშუალო სქესის სახელებისთვისაა.",
+      "„სად?“ lokál-ს მოითხოვს, -ia-ზე დაბოლოებული სახელები კი **-ii**-ს იღებს: reštaurácia → reštauráci**i**. Reštaurácia ძირითადი ფორმაა."
+    ]
   },
   "u8-l5.12.answers": {
     "en": [
@@ -1877,6 +1967,16 @@
     "en": "What do you know about our company? (formal)",
     "t": "რა იცით ჩვენი ფირმის შესახებ? (თქვენ)"
   },
+  "u8-l6.5.traps": {
+    "en": [
+      "After **o** (about) comes the locative, and náš with a feminine noun ends in **-ej**: naš**ej** firme. Naša is the plain form.",
+      "**O** (about) takes the locative, so firma ends in **-e**: o firm**e**. Firmu is the object form."
+    ],
+    "t": [
+      "**o**-ს („შესახებ“) შემდეგ lokál მოდის, náš კი მდედრობით სახელთან **-ej**-ზე ბოლოვდება: naš**ej** firme. Naša ძირითადი ფორმაა.",
+      "ქართული „შესახებ“ სახელის შემდეგ დგას (ფირმის შესახებ), o კი წინ, და lokál-ს მოითხოვს: o firm**e**. Firmu ობიექტის ფორმაა."
+    ]
+  },
   "u8-l6.6.en": {
     "en": "Tell me something about yourself.",
     "t": "მომიყევით რამე საკუთარი თავის შესახებ."
@@ -1940,6 +2040,16 @@
     "en": "After lunch I have a job interview.",
     "t": "სადილის შემდეგ გასაუბრება მაქვს."
   },
+  "u8-l6.11.traps": {
+    "en": [
+      "**Po** (after) takes the locative, so obed adds **-e**: po obed**e**. Obed is the plain form.",
+      "“After” is **po**, and it takes the locative: po obede. Na means on or at, as in na porade (at a meeting)."
+    ],
+    "t": [
+      "**Po** („შემდეგ“) lokál-ს მოითხოვს, ამიტომ obed-ს ემატება **-e**: po obed**e**. Obed ძირითადი ფორმაა.",
+      "„შემდეგ“ არის **po**, და ის lokál-ს მოითხოვს: po obede. Na ნიშნავს „-ზე“, როგორც na porade (თათბირზე)."
+    ]
+  },
   "u8-l6.12.question": {
     "en": "What does “nej” refer to here?",
     "t": "რას ეხება აქ „nej“?"
@@ -1995,6 +2105,16 @@
   "u8-l7.2.prompt": {
     "en": "Emma was born in Dublin.",
     "t": "ემა დუბლინში დაიბადა."
+  },
+  "u8-l7.2.traps": {
+    "en": [
+      "Where? takes the locative after v, and masculine places mostly add **-e**: v Dublin**e**, like v obchode. Dublin is the plain form.",
+      "Emma is a woman, so the past tense ends in **-la**: narodil**a** sa. Narodil is for a man."
+    ],
+    "t": [
+      "„სად?“ v-ს შემდეგ lokál-ს მოითხოვს, მამრობითი ადგილები კი უმეტესად **-e**-ს იღებს: v Dublin**e**, როგორც v obchode. Dublin ძირითადი ფორმაა.",
+      "ემა ქალია, ამიტომ წარსული **-la**-ზე ბოლოვდება: narodil**a** sa. Narodil კაცისთვისაა."
+    ]
   },
   "u8-l7.3.en": {
     "en": "I study at the university in Bratislava.",
@@ -2065,6 +2185,16 @@
     "en": "We're talking about him.",
     "t": "მასზე ვლაპარაკობთ. (კაცზე)"
   },
+  "u8-l7.9.traps": {
+    "en": [
+      "After **o** (about), pronouns take their locative form: on becomes **ňom**. On is the plain form, he.",
+      "Him is on, and after o, on becomes **ňom**. Nej is ona (her) after a preposition."
+    ],
+    "t": [
+      "**o**-ს („შესახებ“) შემდეგ ნაცვალსახელები lokál-ის ფორმას იღებს: on ხდება **ňom**. On ძირითადი ფორმაა, „ის“.",
+      "„მასზე“ აქ კაცზეა, ანუ on, o-ს შემდეგ კი on ხდება **ňom**. Nej არის ona წინდებულის შემდეგ."
+    ]
+  },
   "u8-l7.10.en": {
     "en": "I never have time on Fridays.",
     "t": "პარასკევობით დრო არასდროს მაქვს."
@@ -2121,5 +2251,15 @@
   "u8-l7.15.prompt": {
     "en": "Today is the fourteenth of October.",
     "t": "დღეს თოთხმეტი ოქტომბერია."
+  },
+  "u8-l7.15.traps": {
+    "en": [
+      "A date uses the ordinal ending in -ého, shortened to **-eho** after a long syllable like á: štrnást**eho**. Štrnásty is the plain ordinal.",
+      "In a date the month takes **-a** (“of October”): októbr**a**. Októbri is for “in October”: v októbri."
+    ],
+    "t": [
+      "თარიღში რიგობითი რიცხვი -ého-ზე ბოლოვდება, გრძელი მარცვლის (á) შემდეგ კი შემოკლებულ **-eho**-ზე: štrnást**eho**. Štrnásty უბრალო რიგობითია.",
+      "თარიღში თვე **-a**-ს იღებს („ოქტომბრის“): októbr**a**. Októbri „ოქტომბერში“-სთვისაა: v októbri."
+    ]
   }
 }

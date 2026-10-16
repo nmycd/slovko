@@ -217,10 +217,86 @@ export function checkSpelled(input: string, word: string): CheckResult {
   return { correct: false };
 }
 
-/** Built-from-tiles answers: the words must match exactly. */
-export function checkBuilt(words: string[], accepted: string[]): CheckResult {
-  const given = normalize(words.join(" "));
-  return { correct: accepted.some((a) => normalize(a) === given) };
+/**
+ * A built answer (word tiles in order) against its accepted orders. When it's wrong:
+ * the accepted answer it's closest to, to show as the solution, with its words marked
+ * (bad: not used, often because a wrong tile took its place; soft: used, but somewhere
+ * else), and the explanations of the wrong tiles used (`traps`), in the order used.
+ */
+export function checkBuiltAnswer(
+  words: string[],
+  accepted: string[],
+  traps: { wrong: string; right: string; why: string }[] = [],
+): CheckResult & { solution: string; whys: string[] } {
+  const given = words.map(normalize).filter(Boolean);
+  if (accepted.some((a) => normalize(a) === given.join(" "))) return { correct: true, solution: accepted[0], whys: [] };
+
+  const targets = accepted.map((a) => toTiles(a).map(normalize));
+  const distances = targets.map((target) => tileDistance(given, target));
+  const best = distances.indexOf(Math.min(...distances));
+  const target = targets[best];
+
+  // In place: the longest run of the answer's words given in the same order. The rest
+  // were given elsewhere (soft) or not at all (bad).
+  const inPlace = commonOrder(given, target);
+  const spare = new Map<string, number>();
+  given.forEach((w, j) => !inPlace.given.has(j) && spare.set(w, (spare.get(w) ?? 0) + 1));
+  const marks = target.map((w, i): MarkedWord["mark"] => {
+    if (inPlace.target.has(i)) return "ok";
+    if (!spare.get(w)) return "bad";
+    spare.set(w, spare.get(w)! - 1);
+    return "soft";
+  });
+
+  const solution = accepted[best];
+  let k = 0;
+  const marked = solution
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((text): MarkedWord => {
+      const mine = marks.slice(k, (k += toTiles(text).length));
+      return { text, mark: mine.includes("bad") ? "bad" : mine.includes("soft") ? "soft" : "ok" };
+    });
+  // In the order of the solution shown above them, by where each right tile goes.
+  const used = traps
+    .filter((trap) => given.includes(normalize(trap.wrong)))
+    .map((trap) => ({ trap, at: target.indexOf(normalize(trap.right)) }))
+    .sort((a, b) => a.at - b.at);
+  return { correct: false, words: marked, solution, whys: [...new Set(used.map(({ trap }) => trap.why))] };
+}
+
+/** Edit distance between word lists, a swap of neighbours counting as one step. */
+function tileDistance(a: string[], b: string[]): number {
+  const d = Array.from({ length: a.length + 1 }, (_, i) =>
+    Array.from({ length: b.length + 1 }, (_, j) => (i === 0 ? j : j === 0 ? i : 0)),
+  );
+  for (let i = 1; i <= a.length; i++) {
+    for (let j = 1; j <= b.length; j++) {
+      d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+      if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) d[i][j] = Math.min(d[i][j], d[i - 2][j - 2] + 1);
+    }
+  }
+  return d[a.length][b.length];
+}
+
+/** A longest common subsequence of two word lists, as the positions it uses in each. */
+function commonOrder(a: string[], b: string[]): { given: Set<number>; target: Set<number> } {
+  const L = Array.from({ length: a.length + 1 }, () => new Array<number>(b.length + 1).fill(0));
+  for (let i = a.length - 1; i >= 0; i--) {
+    for (let j = b.length - 1; j >= 0; j--) {
+      L[i][j] = a[i] === b[j] ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+    }
+  }
+  const given = new Set<number>();
+  const target = new Set<number>();
+  for (let i = 0, j = 0; i < a.length && j < b.length; ) {
+    if (a[i] === b[j]) {
+      given.add(i++);
+      target.add(j++);
+    } else if (L[i + 1][j] >= L[i][j + 1]) i++;
+    else j++;
+  }
+  return { given, target };
 }
 
 /**

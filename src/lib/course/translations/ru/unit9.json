@@ -127,6 +127,16 @@
     "en": "Tomáš is giving a talk at the conference.",
     "t": "У Томаша доклад на конференции."
   },
+  "u9-l1.10.traps": {
+    "en": [
+      "Being at the conference answers “where?”, so **na** takes the locative, and nouns in -ia get -ii: na **konferencii**. Na konferenciu is for going there.",
+      "The talk is what Tomáš has, the object, so prednáška changes -a to **-u**: má **prednášku**."
+    ],
+    "t": [
+      "«На конференции» отвечает на вопрос «где?», поэтому **na** + предложный, а слова на -ia получают -ii: na **konferencii**. Na konferenciu — когда едут туда.",
+      "Доклад — то, что у Томаша есть, дополнение к má, поэтому prednáška меняет -a на **-u**: má **prednášku**. По-русски «у него доклад», а здесь «имеет доклад»."
+    ]
+  },
   "u9-l1.11.en": {
     "en": "I'm looking forward to the conference.",
     "t": "Я с нетерпением жду конференции."
@@ -146,6 +156,16 @@
   "u9-l1.13.prompt": {
     "en": "I'm looking forward to your talk.",
     "t": "Я с нетерпением жду твоего доклада."
+  },
+  "u9-l1.13.traps": {
+    "en": [
+      "**Tešiť sa na** takes the object form, so tvoja changes to **tvoju**, just like prednáška → prednášku.",
+      "**Tešiť sa na** takes the object form, so prednáška changes -a to **-u**: na **prednášku**. Na prednáške is the locative: at the talk."
+    ],
+    "t": [
+      "**Tešiť sa na** требует винительного (на что?), поэтому tvoja меняется на **tvoju**, как и prednáška → prednášku.",
+      "**Tešiť sa na** требует винительного (на что?): na **prednášku**. Na prednáške — предложный падеж, «на докладе»."
+    ]
   },
   "u9-l1.14.answers": {
     "en": [
@@ -368,6 +388,16 @@
     "en": "We're learning Slovak.",
     "t": "Мы учим словацкий."
   },
+  "u9-l2.5.traps": {
+    "en": [
+      "**Učiť sa** (to learn) always comes with **sa**, and sa stays the same for everyone: Učíme **sa**.",
+      "Slovak is what you learn, the object, so slovenčina changes -a to **-u**: učíme sa **slovenčinu**."
+    ],
+    "t": [
+      "**Učiť sa** всегда с **sa**, даже там, где по-русски без -ся: Učíme **sa** slovenčinu — «учим словацкий». Sa одно для всех лиц.",
+      "Словацкий язык — то, что учат, дополнение, поэтому slovenčina меняет -a на **-u**: učíme sa **slovenčinu**."
+    ]
+  },
   "u9-l2.6.en": {
     "en": "I'm really looking forward to the conference.",
     "t": "Я очень жду конференции."
@@ -476,6 +506,16 @@
     "en": "Emma and Tomáš will meet at the conference.",
     "t": "Эмма и Томаш встретятся на конференции."
   },
+  "u9-l2.10.traps": {
+    "en": [
+      "Emma and Tomáš are two people (oni), so the verb ends in **-ú**: **stretnú** sa. Stretne is for one person (on, ona).",
+      "Meeting at the conference answers “where?”, so **na** takes the locative: na **konferencii**. Na konferenciu is for going there."
+    ],
+    "t": [
+      "Эмма и Томаш — двое (oni), поэтому глагол на **-ú**: **stretnú** sa — «встретятся». Stretne — для одного человека (on, ona).",
+      "Встреча на конференции отвечает на «где?», поэтому **na** + предложный: na **konferencii**, как и по-русски. Na konferenciu — когда едут туда."
+    ]
+  },
   "u9-l2.11.en": {
     "en": "When are you coming back from the conference?",
     "t": "Когда ты вернёшься с конференции?"
@@ -487,6 +527,16 @@
   "u9-l2.12.prompt": {
     "en": "I'll be back at five.",
     "t": "Я вернусь в пять."
+  },
+  "u9-l2.12.traps": {
+    "en": [
+      "Coming back is **vrátiť sa**, with sa: Vrátim **sa**. Without sa, vrátiť means to return something, like a book.",
+      "Here **ja** (I) is speaking, so the verb ends in **-m**: **Vrátim** sa. Vrátiš goes with ty."
+    ],
+    "t": [
+      "«Вернуться» — **vrátiť sa**, с sa, как с -ся: Vrátim **sa**. Без sa vrátiť значит «вернуть» что-то, например книгу.",
+      "Говорит **ja**, поэтому глагол на **-m**: **Vrátim** sa — «вернусь». Vrátiš — для ty."
+    ]
   },
   "u9-l2.13.pairs": {
     "en": [
@@ -634,6 +684,16 @@
   "u9-l3.12.prompt": {
     "en": "I have to print the registration form.",
     "t": "Мне нужно распечатать заявку."
+  },
+  "u9-l3.12.traps": {
+    "en": [
+      "The form is what you print, the object, so prihláška changes -a to **-u**: vytlačiť **prihlášku**.",
+      "To print is **vytlačiť**, from the same word as tlačiareň (printer). Uložiť means to save a file."
+    ],
+    "t": [
+      "Заявку печатают — это дополнение, поэтому prihláška меняет -a на **-u**: vytlačiť **prihlášku**, как «распечатать заявку».",
+      "«Распечатать» — **vytlačiť**, от того же корня, что tlačiareň (принтер). Uložiť — это «сохранить» файл."
+    ]
   },
   "u9-l3.13.en": {
     "en": "to send by e-mail",
@@ -893,6 +953,16 @@
     "en": "Emma bought herself a T-shirt.",
     "t": "Эмма купила себе футболку."
   },
+  "u9-l4.5.traps": {
+    "en": [
+      "Buying something for yourself is **kúpiť si**, like dať si kávu: **si** kúpila tričko. Si means “for yourself”, with the thing after it.",
+      "Emma is a woman, so the past tense ends in **-la**: **kúpila**. Kúpil is for a man."
+    ],
+    "t": [
+      "Купить что-то себе — **kúpiť si**, как dať si kávu: **si** kúpila tričko — «купила себе футболку». Si — это «себе», и после него идёт предмет.",
+      "Эмма — женщина, поэтому прошедшее время на **-la**: **kúpila** (купила). Kúpil — для мужчины."
+    ]
+  },
   "u9-l4.6.en": {
     "en": "When did you come back?",
     "t": "Когда ты вернулся?"
@@ -989,6 +1059,16 @@
     "en": "We met at the conference.",
     "t": "Мы встретились на конференции."
   },
+  "u9-l4.9.traps": {
+    "en": [
+      "Meeting up is **stretnúť sa**, a verb with sa, and sa comes right after sme: Stretli sme **sa**.",
+      "With my (we), the past form ends in **-li** and takes sme: **Stretli** sme sa. Stretol is for one man."
+    ],
+    "t": [
+      "Встретиться — **stretnúť sa**, глагол с sa (как -ся), и sa стоит сразу после sme: Stretli sme **sa** — «встретились».",
+      "С my (мы) прошедшее время на **-li**, вместе с sme: **Stretli** sme sa (встретились). Stretol — для одного мужчины."
+    ]
+  },
   "u9-l4.10.question": {
     "en": "Which word order is correct?",
     "t": "Какой порядок слов правильный?"
@@ -1000,6 +1080,16 @@
   "u9-l4.11.prompt": {
     "en": "Tomáš came back at six.",
     "t": "Томаш вернулся в шесть."
+  },
+  "u9-l4.11.traps": {
+    "en": [
+      "Coming back is **vrátiť sa**, a verb with sa: Tomáš **sa** vrátil. Si (for yourself) needs an object after it, like dať si kávu.",
+      "Tomáš is a man, so the past form ends in **-l**: **vrátil**. Vrátila is for a woman."
+    ],
+    "t": [
+      "Вернуться — **vrátiť sa**, как «вернуться» с -ся: Tomáš **sa** vrátil. Si (себе) требует предмета после себя, как в dať si kávu.",
+      "Томаш — мужчина, поэтому прошедшее время на **-l**: **vrátil** (вернулся). Vrátila — для женщины."
+    ]
   },
   "u9-l4.12.en": {
     "en": "Lucia called a taxi.",
@@ -1146,6 +1236,16 @@
     "en": "My employer is a company in Košice.",
     "t": "Мой работодатель — фирма в Кошице."
   },
+  "u9-l5.9.traps": {
+    "en": [
+      "Zamestnávateľ is masculine (it ends in a consonant), so “my” is **Môj**. Moja is for feminine words like firma.",
+      "After **v** (in) comes the locative. Košice is plural, so it takes a plural ending: v **Košiciach**."
+    ],
+    "t": [
+      "Zamestnávateľ (работодатель) оканчивается на согласный — мужской род, поэтому «мой» — **Môj**. Moja — для женского рода, как firma.",
+      "После **v** (в) — предложный падеж. Košice — множественное число, поэтому окончание как наше -ах: v **Košiciach** (а по-русски «в Кошице»)."
+    ]
+  },
   "u9-l5.10.en": {
     "en": "Please sign here.",
     "t": "Распишитесь здесь, пожалуйста."
@@ -1173,6 +1273,16 @@
   "u9-l5.13.prompt": {
     "en": "I liked the lecture.",
     "t": "Мне понравилась лекция."
+  },
+  "u9-l5.13.traps": {
+    "en": [
+      "With páčiť sa, the verb agrees with what you like: prednáška is feminine, so **Páčila**. Páčil goes with a masculine word, like program.",
+      "**Páčiť sa** (to please) is a verb with sa, and it's always **sa**: Páčila **sa** mi."
+    ],
+    "t": [
+      "Как и с «нравиться», глагол согласуется с тем, что нравится: prednáška женского рода, поэтому **Páčila** (понравилась). Páčil — для мужского рода, как program.",
+      "**Páčiť sa** (нравиться) — глагол с sa, как «нравиться» с -ся, и всегда именно **sa**: Páčila **sa** mi."
+    ]
   },
   "u9-l5.14.question": {
     "en": "Which one is correct?",
@@ -1238,6 +1348,16 @@
     "en": "I have to save the presentation.",
     "t": "Мне нужно сохранить презентацию."
   },
+  "u9-l6.2.traps": {
+    "en": [
+      "The presentation is what you save, the object, so prezentácia changes -a to **-u**: uložiť **prezentáciu**.",
+      "To save is **uložiť**, as in uložiť súbor. Otvoriť means to open."
+    ],
+    "t": [
+      "Презентацию сохраняют — это дополнение, поэтому prezentácia меняет -a на **-u**: uložiť **prezentáciu**, как «сохранить презентацию».",
+      "«Сохранить» — **uložiť**, как в uložiť súbor. Otvoriť — «открыть» (ср. «отворить»)."
+    ]
+  },
   "u9-l6.3.en": {
     "en": "We met during the break.",
     "t": "Мы встретились на перерыве."
@@ -1273,6 +1393,16 @@
   "u9-l6.6.prompt": {
     "en": "Where can I register?",
     "t": "Где я могу зарегистрироваться?"
+  },
+  "u9-l6.6.traps": {
+    "en": [
+      "To register is **zaregistrovať sa**, a verb with sa, and sa takes second place, right after kde: Kde **sa** môžem…",
+      "The question is about **ja** (I), so môcť is **môžem**. Môžeš goes with ty."
+    ],
+    "t": [
+      "Зарегистрироваться — **zaregistrovať sa**, с sa, как с -ся. А sa стоит вторым, сразу после kde: Kde **sa** môžem…",
+      "Вы спрашиваете о себе (**ja**), поэтому у môcť форма **môžem** (могу). Môžeš — для ty."
+    ]
   },
   "u9-l6.7.en": {
     "en": "What is your occupation?",
@@ -1328,6 +1458,16 @@
   "u9-l6.13.prompt": {
     "en": "Emma and Lucia are looking forward to the conference.",
     "t": "Эмма и Луция с нетерпением ждут конференции."
+  },
+  "u9-l6.13.traps": {
+    "en": [
+      "Emma and Lucia are two people (ony), so the verb is **tešia**. Teší is for one person (on, ona).",
+      "**Tešiť sa na** takes the object form, so konferencia changes -a to **-u**: na **konferenciu**. Na konferencii means at the conference."
+    ],
+    "t": [
+      "Эмма и Луция — двое (ony), поэтому глагол **tešia**. Teší — для одного человека (on, ona).",
+      "**Tešiť sa na** требует винительного (на что?): na **konferenciu**. Na konferencii — предложный, «на конференции»."
+    ]
   },
   "u9-l6.14.en": {
     "en": "Tomáš had a coffee during the break.",

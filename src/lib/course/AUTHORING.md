@@ -64,7 +64,7 @@ nickname, but not the book's Zuzana Šoltýsová).
 | `grammar` | Explaining a rule | `title`; `body` 1–3 short paragraphs of plain English; optional `table` (≤8 rows, 2–4 columns, `head` optional); 2–4 `examples` (each is voiced). Wrap endings in `**…**`: `študent**ka**`. Markup only here and in intro notes. |
 | `choice` | Recognition | English `question`; 3 options (2–4 allowed); `optionsLang` says which language the options are in; optional `sk` shows and plays a Slovak phrase; optional `why` (see "Explanations after a wrong answer"). |
 | `fill` | Endings, forms, small words | `before` + gap + `after`; 2–4 options that are real forms (e.g. `študent` / `študentka` / `študenti`); `en` is the translation of the full sentence; optional `why` (see "Explanations after a wrong answer"). |
-| `build` | Producing sentences | `answers[0]` is split into word tiles (punctuation dropped), so it must be buildable from its own words. Add alternative correct answers (e.g. with/without the pronoun). `distractors`: 1–3 single words that are **not** in `answers[0]`, plausibly wrong (wrong ending, gender, case). For `promptLang: "sk"`, answers are English. |
+| `build` | Producing sentences | `answers[0]` is split into word tiles (punctuation dropped), so it must be buildable from its own words. Add alternative correct answers (e.g. with/without the pronoun). `distractors`: 1–3 single words that are **not** in `answers[0]`, plausibly wrong (wrong ending, gender, case). For `promptLang: "sk"`, answers are English. With a Slovak answer, add `traps` for the distractors that compete with one tile (see "Explanations after a wrong answer"). |
 | `listen` | Hearing | A short sentence (≤8 words) typed back; checking forgives missing accents. |
 | `speak` | Pronunciation | ≤6 words, a common phrase. |
 | `match` | Vocabulary sets | 4–5 pairs; both sides unique. |
@@ -121,6 +121,12 @@ correct answer when the learner picks a wrong one.
 - Plain English, about 30 words at most, with the terms the grammar cards use (the
   object form, the past tense, ja, ty, on…). Bold the key form with `**…**`.
 - Don't repeat the whole correct answer just to show it: the footer shows it.
+- Word-order exercises explain their wrong tiles instead: `traps: [{ wrong, right,
+  why }]` pairs a distractor with the answer tile it competes with ("Bratislava" for
+  "Bratislave") and says why the right one is right. A learner who uses it sees the
+  why, under the accepted order closest to theirs with the misplaced and missing
+  words marked. Several whys follow the answer's word order, so each must make sense
+  on its own. A distractor that competes with no particular tile gets no trap.
 - Point it to the grammar card it rests on with `ref: "lessonId#index"` (the index
   as written), a card in the same lesson before the exercise or in an earlier one.
   The learner gets "See the rule", which opens that card over the lesson. Leave

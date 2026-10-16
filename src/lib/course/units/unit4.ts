@@ -101,6 +101,10 @@ export const unit4: Unit = {
           promptLang: "en",
           answers: ["Mesto je malé a pekné."],
           distractors: ["malá", "pekný"],
+          traps: [
+            { wrong: "malá", right: "malé", why: "Mesto ends in -o, so it's neuter and the adjective takes **-é**, after je too: mal**é**. Malá is for feminine nouns." },
+            { wrong: "pekný", right: "pekné", why: "Both adjectives match mesto, which is neuter: pekn**é**, like malé. Pekný is for masculine nouns." },
+          ],
         },
         {
           type: "intro",
@@ -215,6 +219,10 @@ export const unit4: Unit = {
           promptLang: "en",
           answers: ["Prepáčte, kde je múzeum?", "Prepáč, kde je múzeum?"],
           distractors: ["sú", "kino"],
+          traps: [
+            { wrong: "sú", right: "je", why: "Múzeum is one thing (ono), so the verb is **je**: Kde je…? works for any one place. Sú goes with oni, ony." },
+            { wrong: "kino", right: "múzeum", why: "The museum is **múzeum**. Kino means cinema." },
+          ],
         },
         {
           type: "fill",
@@ -339,6 +347,10 @@ export const unit4: Unit = {
           promptLang: "en",
           answers: ["Ona je novinárka.", "Je novinárka."],
           distractors: ["novinár", "som"],
+          traps: [
+            { wrong: "novinár", right: "novinárka", why: "Ona is a woman, so the job takes the feminine **-ka**: novinár**ka**. Novinár is for a man." },
+            { wrong: "som", right: "je", why: "With **ona** (she), byť is **je**. Som goes with ja (I)." },
+          ],
         },
         {
           type: "fill",
@@ -427,6 +439,11 @@ export const unit4: Unit = {
           promptLang: "en",
           answers: ["Námestia sú pekné."],
           distractors: ["je", "pekný", "Námestie"],
+          traps: [
+            { wrong: "je", right: "sú", why: "Námestia is plural, so “are” is **sú**. Je is for one thing: námestie je pekné." },
+            { wrong: "pekný", right: "pekné", why: "In the plural, adjectives for places and things end in **-é**: pekn**é**. Pekný goes with one masculine noun." },
+            { wrong: "Námestie", right: "Námestia", why: "The squares are more than one, and neuter nouns in -ie end in **-ia** in the plural: námesti**a**. Námestie is just one square." },
+          ],
         },
         { type: "listen", sk: "Tie rieky sú dlhé.", en: "Those rivers are long." },
         {
@@ -501,6 +518,10 @@ export const unit4: Unit = {
           promptLang: "en",
           answers: ["Tomáš a Marek nie sú novinári."],
           distractors: ["novinárky", "je"],
+          traps: [
+            { wrong: "novinárky", right: "novinári", why: "Tomáš and Marek are men, so the job takes the men's plural **-i**: novinár**i**. Novinárky is for women." },
+            { wrong: "je", right: "sú", why: "Tomáš and Marek are two people, oni, so byť is **sú**: nie sú. Je is for one person." },
+          ],
         },
         { type: "listen", sk: "Dôchodcovia nepracujú.", en: "Pensioners don't work." },
         {
@@ -579,6 +600,11 @@ export const unit4: Unit = {
           promptLang: "en",
           answers: ["Tu sú štyri mosty.", "Sú tu štyri mosty."],
           distractors: ["štyria", "most", "je"],
+          traps: [
+            { wrong: "štyria", right: "štyri", why: "Mosty are things, and for things four stays **štyri**. Štyria is only for counting men." },
+            { wrong: "most", right: "mosty", why: "After 2, 3 and 4 the noun is plural, so most adds **-y**: štyri most**y**." },
+            { wrong: "je", right: "sú", why: "Four bridges are more than one, so “are” is **sú**, as in Tu sú dva hotely. Je is for one thing." },
+          ],
         },
         { type: "listen", sk: "Mesto má tri kostoly.", en: "The town has three churches." },
         {
@@ -636,6 +662,10 @@ export const unit4: Unit = {
           promptLang: "en",
           answers: ["Dvaja čašníci a dve čašníčky."],
           distractors: ["dva", "traja"],
+          traps: [
+            { wrong: "dva", right: "dve", why: "For women, two is **dve**: dve čašníčky. Dva is for masculine things, like dva mosty, and men take dvaja: dvaja čašníci." },
+            { wrong: "traja", right: "Dvaja", why: "The sentence counts two, so men take **dvaja** and women **dve**. Traja means three, and only for men." },
+          ],
         },
         {
           type: "build",
@@ -736,6 +766,11 @@ export const unit4: Unit = {
           promptLang: "en",
           answers: ["Káva stojí tri eurá."],
           distractors: ["stoja", "eur", "traja"],
+          traps: [
+            { wrong: "stoja", right: "stojí", why: "The verb agrees with káva, one thing, not with the euros: káva **stojí**. Stoja is for two or more things." },
+            { wrong: "eur", right: "eurá", why: "After 2, 3 and 4, euro takes **eurá**. The short form eur is for five and up: päť eur." },
+            { wrong: "traja", right: "tri", why: "Euros are things, so three is **tri**: tri eurá. Traja is only for counting men." },
+          ],
         },
         { type: "listen", sk: "Tomáš stojí vzadu.", en: "Tomáš is standing at the back." },
         {
@@ -809,6 +844,11 @@ export const unit4: Unit = {
           promptLang: "en",
           answers: ["Kde sú moje hodinky?"],
           distractors: ["je", "môj", "moja"],
+          traps: [
+            { wrong: "je", right: "sú", why: "Hodinky (watch) is always plural, even for one watch, so the verb is **sú**. Je is for ordinary singular words." },
+            { wrong: "môj", right: "moje", why: "Hodinky is always plural, so “my” is plural too: **moje** hodinky. Môj goes with one masculine thing." },
+            { wrong: "moja", right: "moje", why: "Words that go with hodinky are plural, since it's always plural: **moje**. Moja is for one feminine thing." },
+          ],
         },
         { type: "listen", sk: "Vianoce sú tu!", en: "Christmas is here!" },
         { type: "speak", sk: "Koľko to stojí?", en: "How much is it?" },
@@ -854,6 +894,10 @@ export const unit4: Unit = {
           promptLang: "en",
           answers: ["Marek je kuchár a Lucia je študentka.", "Marek je kuchár a Lucia študentka."],
           distractors: ["kuchárka", "študent"],
+          traps: [
+            { wrong: "kuchárka", right: "kuchár", why: "Marek is a man, so it's **kuchár**, with no ending. Kuchárka, with -ka, is for a woman." },
+            { wrong: "študent", right: "študentka", why: "Lucia is a woman, so the job adds **-ka**: študent**ka**. Študent is for a man." },
+          ],
         },
         {
           type: "listen",
@@ -895,6 +939,10 @@ export const unit4: Unit = {
           promptLang: "en",
           answers: ["Mesto má tri kostoly a dve divadlá."],
           distractors: ["dva", "kostol"],
+          traps: [
+            { wrong: "dva", right: "dve", why: "Divadlo is neuter, so two is **dve**: dve divadlá. Dva is only for masculine words, like dva kostoly." },
+            { wrong: "kostol", right: "kostoly", why: "After 2, 3 and 4 the noun is plural, so kostol adds **-y**: tri kostol**y**." },
+          ],
         },
         { type: "speak", sk: "Prepáčte, kde je banka?", en: "Excuse me, where's the bank?" },
         {
@@ -934,6 +982,10 @@ export const unit4: Unit = {
           promptLang: "en",
           answers: ["Most je nový a hrad je starý.", "Most je nový a hrad starý."],
           distractors: ["nové", "stará"],
+          traps: [
+            { wrong: "nové", right: "nový", why: "Most ends in a consonant, so it's masculine and the adjective takes **-ý**: nov**ý**. Nové is for neuter nouns." },
+            { wrong: "stará", right: "starý", why: "Hrad is masculine (it ends in a consonant), so the adjective takes **-ý**: star**ý**. Stará is for feminine nouns." },
+          ],
         },
       ],
     },

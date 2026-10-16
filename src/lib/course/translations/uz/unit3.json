@@ -131,6 +131,16 @@
     "en": "Where is the bathroom?",
     "t": "Vannaxona qayerda?"
   },
+  "u3-l1.13.traps": {
+    "en": [
+      "The bathroom is **kúpeľňa**. Kuchyňa looks similar, but it's the kitchen.",
+      "Where? is **kde**, and it starts the question. Hore means upstairs: it's an answer, as in Kúpeľňa je hore."
+    ],
+    "t": [
+      "«Vannaxona» — **kúpeľňa**. Kuchyňa unga oʻxshab koʻrinadi, lekin u «oshxona» degani.",
+      "«Qayerda?» — **kde**, savol shu soʻz bilan boshlanadi. Hore esa «yuqorida»: bu javob, masalan Kúpeľňa je hore."
+    ]
+  },
   "u3-l1.14.answers": {
     "en": [
       "The room is upstairs and the kitchen is downstairs.",
@@ -154,6 +164,16 @@
   "u3-l1.15.prompt": {
     "en": "Emma lives in the dorm.",
     "t": "Emma yotoqxonada yashaydi."
+  },
+  "u3-l1.15.traps": {
+    "en": [
+      "Emma is **ona**, and with on or ona the verb has no ending: **býva**. Bývam, with -m, is ja (I).",
+      "To say where someone lives, use **býva**, like bývam (I live). Je (is) only says where Emma is right now."
+    ],
+    "t": [
+      "Emma haqida «u» — **ona**, on yoki ona bilan esa feʼl qoʻshimchasiz keladi: **býva**. -m bilan bývam — ja (men) shakli.",
+      "Qayerda yashashni aytish uchun **býva** ishlatiladi, xuddi bývam (yashayman) kabi. Je esa faqat Emma hozir qayerdaligini bildiradi."
+    ]
   },
   "u3-l1.16.question": {
     "en": "Lucia wants to cook. Where does she go?",
@@ -285,6 +305,16 @@
     "en": "That's a big kitchen.",
     "t": "Bu katta oshxona."
   },
+  "u3-l2.7.traps": {
+    "en": [
+      "Kuchyňa ends in -a, so it's feminine and the adjective takes **-á**: veľk**á**. Veľký is for masculine nouns.",
+      "The adjective matches kuchyňa, a feminine noun, so it ends in **-á**: veľk**á**. Veľké is for neuter nouns like auto."
+    ],
+    "t": [
+      "Kuchyňa -a bilan tugaydi, demak ayol jinsida, sifat esa **-á** oladi: veľk**á**. Veľký erkak jinsidagi otlar uchun.",
+      "Sifat oʻz otiga — ayol jinsidagi kuchyňa soʻziga moslashadi, shuning uchun **-á** bilan tugaydi: veľk**á**. Veľké esa auto kabi oʻrta jinsdagi otlar uchun."
+    ]
+  },
   "u3-l2.8.en": {
     "en": "The room is small but nice.",
     "t": "Xona kichik, lekin chiroyli."
@@ -352,6 +382,16 @@
   "u3-l2.13.prompt": {
     "en": "What is the dorm like?",
     "t": "Yotoqxona qanday?"
+  },
+  "u3-l2.13.traps": {
+    "en": [
+      "**Aký?** changes like an adjective. Internát ends in a consonant, so it's masculine: **aký**. Aká is for feminine nouns.",
+      "“What is it like?” is **aký?** Kde asks where: Kde je internát?"
+    ],
+    "t": [
+      "**Aký?** sifat kabi oʻzgaradi. Internát undosh bilan tugaydi, demak erkak jinsida: **aký**. Aká ayol jinsidagi otlar uchun.",
+      "«Qanday?» — **aký?** Kde esa «qayerda?» deb soʻraydi: Kde je internát?"
+    ]
   },
   "u3-l2.14.answers": {
     "en": [
@@ -669,6 +709,16 @@
     "en": "That's our kitchen.",
     "t": "Bu bizning oshxonamiz."
   },
+  "u3-l4.5.traps": {
+    "en": [
+      "Kuchyňa is feminine, so “our” is **naša**. Watch the vowel: náš for masculine, but naša.",
+      "Possessives match the thing owned. Kuchyňa is feminine, so **naša**. Naše goes with neuter nouns like okno."
+    ],
+    "t": [
+      "Kuchyňa ayol jinsida, shuning uchun «bizning» — **naša**. Unliga eʼtibor bering: erkak jinsida náš, lekin naša.",
+      "Egalik olmoshi narsaga moslashadi, oʻzbekchadagi «bizning» esa oʻzgarmaydi. Kuchyňa ayol jinsida: **naša**. Naše esa okno kabi oʻrta jinsdagi otlar uchun."
+    ]
+  },
   "u3-l4.6.en": {
     "en": "His bed is on the left.",
     "t": "Uning karavoti chapda."
@@ -719,6 +769,16 @@
     "en": "Whose window is it?",
     "t": "Bu kimning derazasi?"
   },
+  "u3-l4.10.traps": {
+    "en": [
+      "**Čí?** matches the thing it asks about. Okno ends in -o, so it's neuter: **čie**. Čí is for masculine nouns.",
+      "Okno is neuter, so “whose” is **čie**. Čia goes with feminine nouns like posteľ."
+    ],
+    "t": [
+      "**Čí?** soʻralayotgan narsaga moslashadi. Okno -o bilan tugaydi, demak oʻrta jinsda: **čie**. Čí erkak jinsidagi otlar uchun.",
+      "Okno oʻrta jinsda, shuning uchun «kimning» — **čie**. Čia esa posteľ kabi ayol jinsidagi otlar bilan keladi."
+    ]
+  },
   "u3-l4.11.en": {
     "en": "Lucia, where is your wardrobe?",
     "t": "Lusiya, sening kiyim javoning qayerda?"
@@ -738,6 +798,16 @@
   "u3-l4.13.prompt": {
     "en": "Their room is upstairs.",
     "t": "Ularning xonasi yuqorida."
+  },
+  "u3-l4.13.traps": {
+    "en": [
+      "“Their” is **ich**, and like jeho and jej it never changes: ich izba. Jej means her.",
+      "Upstairs is **hore**. Dole is its opposite, downstairs."
+    ],
+    "t": [
+      "«Ularning» — **ich**, u ham jeho va jej kabi hech qachon oʻzgarmaydi: ich izba. Jej esa «uning» (ayolning).",
+      "«Yuqorida» — **hore**. Dole buning teskarisi: «pastda»."
+    ]
   },
   "u3-l4.14.en": {
     "en": "That's my room.",
@@ -879,6 +949,16 @@
     "en": "The hallway is dark.",
     "t": "Yoʻlak qorongʻi."
   },
+  "u3-l5.15.traps": {
+    "en": [
+      "Chodba ends in -a, so it's feminine and the adjective takes **-á**, after je too: tmav**á**. Tmavý is for masculine nouns.",
+      "Dark is **tmavá**. Svetlá has the right feminine ending, but it means bright, the opposite."
+    ],
+    "t": [
+      "Chodba -a bilan tugaydi, demak ayol jinsida, sifat esa je soʻzidan keyin ham **-á** oladi: tmav**á**. Tmavý erkak jinsidagi otlar uchun.",
+      "«Qorongʻi» — **tmavá**. Svetlá ham ayol jinsi qoʻshimchasini olgan, lekin u «yorugʻ» degani, yaʼni teskarisi."
+    ]
+  },
   "u3-l5.16.en": {
     "en": "The flat isn't expensive, it's cheap.",
     "t": "Kvartira qimmat emas, arzon."
@@ -1013,6 +1093,16 @@
     "en": "Which window is ours?",
     "t": "Qaysi deraza bizniki?"
   },
+  "u3-l6.5.traps": {
+    "en": [
+      "**Ktorý?** changes like an adjective. Okno ends in -o, so it's neuter: **ktoré**. Ktorý is for masculine nouns.",
+      "Okno is neuter, so “our” is **naše**, just like ktoré. Naša goes with feminine nouns."
+    ],
+    "t": [
+      "**Ktorý?** sifat kabi oʻzgaradi. Okno -o bilan tugaydi, demak oʻrta jinsda: **ktoré**. Ktorý erkak jinsidagi otlar uchun.",
+      "Okno oʻrta jinsda, shuning uchun «bizniki» — **naše**, xuddi ktoré kabi. Naša ayol jinsidagi otlar bilan keladi."
+    ]
+  },
   "u3-l6.6.en": {
     "en": "Which wardrobe is mine?",
     "t": "Qaysi kiyim javoni meniki?"
@@ -1127,6 +1217,16 @@
     "en": "Which bed is Emma's?",
     "t": "Qaysi karavot Emmaniki?"
   },
+  "u3-l6.11.traps": {
+    "en": [
+      "Emmin takes the ending of the thing owned. Posteľ is feminine, even without -a, so add **-a**: Emmin**a**.",
+      "**Ktorý?** changes like an adjective. Posteľ is feminine, even without -a, so **ktorá**."
+    ],
+    "t": [
+      "Emmin narsaning jinsiga qarab qoʻshimcha oladi. Posteľ -a bilan tugamasa ham ayol jinsida, shuning uchun **-a** qoʻshiladi: Emmin**a**.",
+      "**Ktorý?** sifat kabi oʻzgaradi. Posteľ -a bilan tugamasa ham ayol jinsida, shuning uchun **ktorá**."
+    ]
+  },
   "u3-l6.12.en": {
     "en": "What's the flat like? – Big and bright.",
     "t": "Kvartira qanday? – Katta va yorugʻ."
@@ -1195,6 +1295,16 @@
     "en": "My room is upstairs.",
     "t": "Mening xonam yuqorida."
   },
+  "u3-l7.4.traps": {
+    "en": [
+      "Izba is feminine, so “my” is **moja**. Watch the vowel: môj for masculine, but moja.",
+      "Upstairs is **hore**. Dole is its opposite, downstairs."
+    ],
+    "t": [
+      "Izba ayol jinsida, shuning uchun «mening» — **moja**. Unliga eʼtibor bering: erkak jinsida môj, lekin moja.",
+      "«Yuqorida» — **hore**. Dole buning teskarisi: «pastda»."
+    ]
+  },
   "u3-l7.5.en": {
     "en": "Which desk is yours?",
     "t": "Qaysi stol seniki?"
@@ -1246,6 +1356,16 @@
     "en": "Which window is yours?",
     "t": "Qaysi deraza seniki?"
   },
+  "u3-l7.10.traps": {
+    "en": [
+      "Okno is neuter, so “which” is **ktoré**. Ktorý goes with masculine nouns.",
+      "Okno is neuter, so “your” is **tvoje**, like ktoré. Tvoj goes with masculine nouns."
+    ],
+    "t": [
+      "Okno oʻrta jinsda, shuning uchun «qaysi» — **ktoré**. Ktorý erkak jinsidagi otlar bilan keladi.",
+      "Okno oʻrta jinsda, shuning uchun «seniki» — **tvoje**, xuddi ktoré kabi. Tvoj erkak jinsidagi otlar bilan keladi."
+    ]
+  },
   "u3-l7.11.en": {
     "en": "Which bed is Lucia's? – The one on the right.",
     "t": "Qaysi karavot Lusiyaniki? – Oʻngdagisi."
@@ -1265,6 +1385,16 @@
   "u3-l7.13.prompt": {
     "en": "The bathroom is on the right and the kitchen is at the back.",
     "t": "Vannaxona oʻngda, oshxona esa orqada."
+  },
+  "u3-l7.13.traps": {
+    "en": [
+      "On the right is **vpravo**. Vľavo is its opposite, on the left.",
+      "At the back is **vzadu**. Vpredu is its opposite, at the front."
+    ],
+    "t": [
+      "«Oʻngda» — **vpravo**. Vľavo buning teskarisi: «chapda».",
+      "«Orqada» — **vzadu**. Vpredu buning teskarisi: «oldinda»."
+    ]
   },
   "u3-l7.14.en": {
     "en": "His bed is old.",

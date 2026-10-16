@@ -94,6 +94,10 @@ export const unit7: Unit = {
           promptLang: "en",
           answers: ["Lucia píše referát."],
           distractors: ["píšem", "referáty"],
+          traps: [
+            { wrong: "píšem", right: "píše", why: "Lucia is ona, and with on or ona the verb has no ending: **píše**. Píšem is the ja form." },
+            { wrong: "referáty", right: "referát", why: "Lucia writes one paper, so it's **referát**: as the object, a masculine thing stays the same. Referáty is the plural, papers." },
+          ],
         },
         { type: "listen", sk: "Dnes mám prednášku a seminár.", en: "Today I have a lecture and a seminar." },
         {
@@ -137,6 +141,10 @@ export const unit7: Unit = {
           promptLang: "en",
           answers: ["Prepáčte, že meškám."],
           distractors: ["meškáš", "Prosím"],
+          traps: [
+            { wrong: "meškáš", right: "meškám", why: "Prepáčte is formal vy, but the one who's late is ja (I), so the verb ends in **-m**: mešk**ám**. Meškáš is the ty form." },
+            { wrong: "Prosím", right: "Prepáčte", why: "Sorry is **Prepáčte**, the vy form of prepáč, for a teacher or a stranger. Prosím means please." },
+          ],
         },
         { type: "speak", sk: "Prepáčte, že meškám.", en: "Sorry I'm late." },
       ],
@@ -241,6 +249,10 @@ export const unit7: Unit = {
           promptLang: "en",
           answers: ["Seminár je o deviatej."],
           distractors: ["deväť", "hodín"],
+          traps: [
+            { wrong: "deväť", right: "deviatej", why: "At a time is **o** + the **-ej** form: o deviat**ej**. Deväť is the plain number, for counting." },
+            { wrong: "hodín", right: "deviatej", why: "Hodín is for telling the time: je deväť hodín, it's nine o'clock. To say when something is, use o + the **-ej** form: o deviat**ej**." },
+          ],
         },
         {
           type: "intro",
@@ -287,6 +299,10 @@ export const unit7: Unit = {
           promptLang: "en",
           answers: ["Koľko je hodín?"],
           distractors: ["hodiny", "Kedy"],
+          traps: [
+            { wrong: "hodiny", right: "hodín", why: "**Koľko je hodín?** is a set question, literally “how many hours is it?”, with the form used from 5 up. Hodiny goes with 2–4." },
+            { wrong: "Kedy", right: "Koľko", why: "Asking the time is **Koľko** je hodín?, literally “how many hours?”. Kedy means when: Kedy je seminár?" },
+          ],
         },
         {
           type: "fill",
@@ -363,6 +379,10 @@ export const unit7: Unit = {
           promptLang: "en",
           answers: ["Vstávam o siedmej.", "O siedmej vstávam."],
           distractors: ["sedem", "vstávaš"],
+          traps: [
+            { wrong: "sedem", right: "siedmej", why: "At a time is **o** + the **-ej** form: o siedm**ej**. Sedem is the plain number, for counting." },
+            { wrong: "vstávaš", right: "Vstávam", why: "“I” is ja, so the verb ends in **-m**: vstáva**m**. Vstávaš, with -š, is the ty form (you)." },
+          ],
         },
         {
           type: "intro",
@@ -416,6 +436,10 @@ export const unit7: Unit = {
           promptLang: "en",
           answers: ["Najprv sa učím, potom idem spať."],
           distractors: ["učíš", "ideme"],
+          traps: [
+            { wrong: "učíš", right: "učím", why: "It's ja (I) who studies, so the verb ends in **-m**: najprv sa uč**ím**. Učíš is the ty form (you)." },
+            { wrong: "ideme", right: "idem", why: "It's ja (I) going to bed, so ísť is **idem**: idem spať. Ideme is the my form (we)." },
+          ],
         },
         {
           type: "build",
@@ -506,6 +530,10 @@ export const unit7: Unit = {
           promptLang: "en",
           answers: ["Kde sa stretneme?"],
           distractors: ["stretnem", "Kedy"],
+          traps: [
+            { wrong: "stretnem", right: "stretneme", why: "“We” is my, so stretnúť ends in **-eme**: stretn**eme**. Stretnem is the ja form: I'll meet." },
+            { wrong: "Kedy", right: "Kde", why: "Where? is **Kde**. Kedy means when: Kedy sa stretneme? = When shall we meet?" },
+          ],
         },
         {
           type: "grammar",
@@ -548,6 +576,10 @@ export const unit7: Unit = {
           promptLang: "en",
           answers: ["Sedím v knižnici.", "Ja sedím v knižnici.", "V knižnici sedím."],
           distractors: ["sedí", "knižnica"],
+          traps: [
+            { wrong: "sedí", right: "Sedím", why: "With ja (I), sedieť ends in **-ím**: sed**ím**. Sedí is the on or ona form." },
+            { wrong: "knižnica", right: "knižnici", why: "In the library is **v knižnici**: after v, for being in a place, the word changes its ending. Knižnica is the plain form." },
+          ],
         },
         {
           type: "fill",
@@ -656,6 +688,10 @@ export const unit7: Unit = {
           promptLang: "en",
           answers: ["Včera som pracovala.", "Pracovala som včera."],
           distractors: ["pracoval", "si"],
+          traps: [
+            { wrong: "pracoval", right: "pracovala", why: "A woman is speaking, so the past tense ends in **-la**: pracoval**a**. Pracoval is for a man." },
+            { wrong: "si", right: "som", why: "With ja (I), the past tense adds **som**, in second place: včera **som** pracovala. Si goes with ty (you)." },
+          ],
         },
         {
           type: "fill",
@@ -719,6 +755,10 @@ export const unit7: Unit = {
           promptLang: "en",
           answers: ["Čo si včera robil?", "Čo si robil včera?"],
           distractors: ["robila", "som"],
+          traps: [
+            { wrong: "robila", right: "robil", why: "You're asking a man, so the past tense ends in **-l**: robi**l**. Robila is for a woman." },
+            { wrong: "som", right: "si", why: "The question is to ty (you), so the past tense adds **si**: čo **si** robil. Som goes with ja (I)." },
+          ],
         },
         {
           type: "choice",
@@ -802,6 +842,10 @@ export const unit7: Unit = {
           promptLang: "en",
           answers: ["Dnes som neraňajkoval.", "Neraňajkoval som dnes."],
           distractors: ["neraňajkovala", "si"],
+          traps: [
+            { wrong: "neraňajkovala", right: "neraňajkoval", why: "A man is speaking, so the past tense ends in **-l**: neraňajkova**l**. Neraňajkovala is for a woman." },
+            { wrong: "si", right: "som", why: "With ja (I), the past tense adds **som**, in second place: dnes **som** neraňajkoval. Si goes with ty (you)." },
+          ],
         },
         { type: "listen", sk: "Prepáčte, zaspala som.", en: "Sorry, I overslept." },
         {
@@ -860,6 +904,10 @@ export const unit7: Unit = {
           promptLang: "en",
           answers: ["Už som jedla.", "Ja som už jedla."],
           distractors: ["Ešte", "jedol"],
+          traps: [
+            { wrong: "Ešte", right: "Už", why: "Already is **už**. Ešte means still; with a not, ešte som nejedla is “I haven't eaten yet”." },
+            { wrong: "jedol", right: "jedla", why: "A woman is speaking, so the past of jesť is **jedla**. Jedol is the form for a man." },
+          ],
         },
         {
           type: "build",
@@ -880,6 +928,10 @@ export const unit7: Unit = {
           promptLang: "en",
           answers: ["Bola si na seminári?", "Na seminári si bola?"],
           distractors: ["bol", "som"],
+          traps: [
+            { wrong: "bol", right: "Bola", why: "You're asking a woman, so the past of byť is **bola**. Bol is for a man." },
+            { wrong: "som", right: "si", why: "The question is to ty (you), so the past tense adds **si**: bola **si**. Som goes with ja (I)." },
+          ],
         },
         {
           type: "fill",
@@ -917,6 +969,10 @@ export const unit7: Unit = {
           promptLang: "en",
           answers: ["Zaspala som!", "Ja som zaspala!"],
           distractors: ["zaspal", "si"],
+          traps: [
+            { wrong: "zaspal", right: "Zaspala", why: "A woman is speaking, so the past tense ends in **-la**: zaspal**a**. Zaspal is for a man." },
+            { wrong: "si", right: "som", why: "With ja (I), the past tense adds **som**: zaspala **som**. Si goes with ty (you)." },
+          ],
         },
         {
           type: "choice",
@@ -933,6 +989,10 @@ export const unit7: Unit = {
           promptLang: "en",
           answers: ["Zajtra mám skúšku.", "Mám zajtra skúšku.", "Skúšku mám zajtra."],
           distractors: ["skúška", "máš"],
+          traps: [
+            { wrong: "skúška", right: "skúšku", why: "The exam is what you have, the object, so skúška changes -a to **-u**: mám **skúšku**." },
+            { wrong: "máš", right: "mám", why: "It's ja (I) who has the exam, so mať ends in **-m**: **mám**. Máš is the ty form (you)." },
+          ],
         },
         {
           type: "fill",
@@ -950,6 +1010,10 @@ export const unit7: Unit = {
           promptLang: "en",
           answers: ["Stretneme sa o siedmej.", "O siedmej sa stretneme."],
           distractors: ["sedem", "stretnem"],
+          traps: [
+            { wrong: "sedem", right: "siedmej", why: "At a time is **o** + the **-ej** form: o siedm**ej**. Sedem is the plain number, for counting." },
+            { wrong: "stretnem", right: "Stretneme", why: "“We” is my, so stretnúť ends in **-eme**: stretn**eme** sa. Stretnem is the ja form: I'll meet." },
+          ],
         },
         {
           type: "fill",
@@ -996,6 +1060,10 @@ export const unit7: Unit = {
           promptLang: "en",
           answers: ["Išiel si na prednášku?", "Na prednášku si išiel?"],
           distractors: ["išla", "som"],
+          traps: [
+            { wrong: "išla", right: "Išiel", why: "You're asking a man, so the past of ísť is **išiel**. Išla is for a woman." },
+            { wrong: "som", right: "si", why: "The question is to ty (you), so the past tense adds **si**: išiel **si**. Som goes with ja (I)." },
+          ],
         },
         {
           type: "fill",

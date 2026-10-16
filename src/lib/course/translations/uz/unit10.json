@@ -145,6 +145,16 @@
     "en": "Emma is reading an article about Lucia.",
     "t": "Emma Lusiya haqidagi maqolani oʻqiyapti."
   },
+  "u10-l1.12.traps": {
+    "en": [
+      "**O** (about) takes the locative, and names in -ia get **-ii**: o **Lucii**. Lucia is the subject form.",
+      "**O** (about) takes the locative, and names in -ia get **-ii**: o **Lucii**. Luciu is the object form, as in pre Luciu."
+    ],
+    "t": [
+      "**O** (haqida) lokál talab qiladi, -ia bilan tugaydigan ismlar esa **-ii** oladi: o **Lucii** (Lusiya haqida). Lucia — bosh kelishik, ega shakli.",
+      "**O** (haqida) lokál talab qiladi, -ia bilan tugaydigan ismlar esa **-ii** oladi: o **Lucii**. Luciu — toʻldiruvchi shakli, masalan pre Luciu."
+    ]
+  },
   "u10-l1.13.en": {
     "en": "The headline is very interesting.",
     "t": "Sarlavha juda qiziqarli."
@@ -295,6 +305,16 @@
   "u10-l2.13.prompt": {
     "en": "Tomáš is looking for a new flat.",
     "t": "Tomash yangi kvartira qidiryapti."
+  },
+  "u10-l2.13.traps": {
+    "en": [
+      "In the object form, masculine things like byt don't change, and nor do their adjectives: **nový** byt. Nového is for people: nového kamaráta.",
+      "Byt is masculine (it ends in a consonant), so the adjective ends in **-ý**: **nový** byt. Nová is for feminine words."
+    ],
+    "t": [
+      "Byt kabi erkak jinsidagi narsalar toʻldiruvchi boʻlganda oʻzgarmaydi, ularning sifatlari ham: **nový** byt. Nového esa odamlar uchun: nového kamaráta.",
+      "Byt erkak jinsida (undosh bilan tugaydi), shuning uchun sifat **-ý** bilan tugaydi: **nový** byt. Nová ayol jinsidagi soʻzlar uchun."
+    ]
   },
   "u10-l2.14.question": {
     "en": "You want to know the weather. What do you ask?",
@@ -566,6 +586,16 @@
     "en": "I'm writing an article about Bratislava.",
     "t": "Bratislava haqida maqola yozyapman."
   },
+  "u10-l3.8.traps": {
+    "en": [
+      "**O** (about) takes the locative, so Bratislava changes -a to **-e**: o **Bratislave**.",
+      "About is **o**: článok **o** Bratislave. V Bratislave would mean in Bratislava."
+    ],
+    "t": [
+      "Oʻzbekchada «haqida»dan oldin nom oʻzgarmaydi, slovakchada esa **o** (haqida) lokál talab qiladi: -a oʻrniga -e, o **Bratislave**.",
+      "«Haqida» — **o**: článok **o** Bratislave. V Bratislave esa «Bratislavada» degani boʻlardi."
+    ]
+  },
   "u10-l3.9.en": {
     "en": "Emma lives in the dorm with Lucia.",
     "t": "Emma Lusiya bilan yotoqxonada yashaydi."
@@ -573,6 +603,16 @@
   "u10-l3.10.prompt": {
     "en": "This gift is for Marek.",
     "t": "Bu sovgʻa Marek uchun."
+  },
+  "u10-l3.10.traps": {
+    "en": [
+      "**Pre** (for) takes the accusative, and men's names add **-a**: pre **Mareka**. Marekom goes with s (with).",
+      "**Pre** (for) takes the accusative, and men's names add **-a**: pre **Mareka**. Marekovi goes with o (about): o Marekovi."
+    ],
+    "t": [
+      "**Pre** (uchun) akuzatív talab qiladi, erkak ismlari esa **-a** oladi: pre **Mareka**. Marekom esa s soʻzidan keyin keladi: s Marekom (Marek bilan).",
+      "**Pre** (uchun) akuzatív talab qiladi, erkak ismlari esa **-a** oladi: pre **Mareka**. Marekovi esa o (haqida) soʻzidan keyin keladi: o Marekovi."
+    ]
   },
   "u10-l3.11.en": {
     "en": "What do you know about Tomáš?",
@@ -741,6 +781,16 @@
     "en": "Yesterday Marek cooked soup.",
     "t": "Kecha Marek shoʻrva pishirdi."
   },
+  "u10-l4.4.traps": {
+    "en": [
+      "**Včera** (yesterday) needs the past tense, the l-form: Marek **varil**. Varí is the present.",
+      "The soup is what Marek cooked, the object, so polievka changes -a to **-u**: varil **polievku**."
+    ],
+    "t": [
+      "**Včera** (kecha) oʻtgan zamonni, yaʼni l-shaklni talab qiladi: Marek **varil**. Varí — hozirgi zamon.",
+      "Shoʻrva — Marek pishirgan narsa, toʻldiruvchi, shuning uchun polievka soʻzida -a oʻrniga **-u** keladi: varil **polievku**."
+    ]
+  },
   "u10-l4.5.title": {
     "en": "Special past forms and word order",
     "t": "Maxsus oʻtgan zamon shakllari va soʻz tartibi"
@@ -867,6 +917,16 @@
     "en": "Emma: “I didn't have time.”",
     "t": "Emma: «Vaqtim boʻlmadi.»"
   },
+  "u10-l4.8.traps": {
+    "en": [
+      "“Didn't have” is the past tense: **ne-** + the l-form, with -la for a woman: **Nemala** som. Nemám is the present, I don't have.",
+      "**Ja** (I) in the past tense needs **som**: Nemala **som** čas. Sme goes with my and an -li form."
+    ],
+    "t": [
+      "«Boʻlmadi» — oʻtgan zamon: **ne-** + l-shakl, ayol uchun -la bilan: **Nemala** som. Nemám — hozirgi zamon, «menda yoʻq».",
+      "Oʻtgan zamonda **ja** (men) uchun **som** kerak: Nemala **som** čas. Sme esa my va -li shakli bilan keladi."
+    ]
+  },
   "u10-l4.9.pairs": {
     "en": [
       "he was",
@@ -949,6 +1009,16 @@
     "en": "There's a new café on Main Street.",
     "t": "Bosh koʻchada yangi kafe bor."
   },
+  "u10-l5.2.traps": {
+    "en": [
+      "Kaviareň is feminine, even though it ends in a consonant, so the adjective ends in **-á**: **nová** kaviareň. Nový is for masculine words.",
+      "Saying where takes **na** + the locative, and after c the ending is **-i**: na Hlavnej **ulici**. Ulica is the subject form."
+    ],
+    "t": [
+      "Kaviareň undosh bilan tugasa ham, ayol jinsida, shuning uchun sifat **-á** bilan tugaydi: **nová** kaviareň. Nový erkak jinsidagi soʻzlar uchun.",
+      "Qayerdaligini aytish uchun **na** + lokál keladi, c dan keyin esa qoʻshimcha **-i** boʻladi: na Hlavnej **ulici** (Bosh koʻchada). Ulica — bosh kelishik shakli."
+    ]
+  },
   "u10-l5.3.en": {
     "en": "The weather was nice on Saturday.",
     "t": "Shanba kuni havo yaxshi edi."
@@ -1016,6 +1086,16 @@
     "en": "Yesterday we read the article with Lucia.",
     "t": "Kecha Lusiya bilan maqolani oʻqidik."
   },
+  "u10-l5.9.traps": {
+    "en": [
+      "**S** (with) takes the instrumental, so Lucia changes -a to **-ou**: s **Luciou**.",
+      "**Včera** (yesterday) needs the past tense, and with my (we) the l-form ends in **-li**: sme **čítali**. Čítame is the present."
+    ],
+    "t": [
+      "**S** (bilan) inštrumentál talab qiladi, shuning uchun Lucia soʻzida -a oʻrniga **-ou** keladi: s **Luciou** (Lusiya bilan).",
+      "**Včera** (kecha) oʻtgan zamonni talab qiladi: my (biz) bilan l-shakl **-li** bilan tugaydi va sme oladi, sme **čítali** (oʻqidik). Čítame — hozirgi zamon."
+    ]
+  },
   "u10-l5.10.en": {
     "en": "Ms Horváthová always reads the paper in the morning.",
     "t": "Horvatova xonim gazetani doim ertalab oʻqiydi."
@@ -1031,6 +1111,16 @@
   "u10-l5.12.prompt": {
     "en": "Mr Kováč never reads magazines.",
     "t": "Janob Kovach hech qachon jurnal oʻqimaydi."
+  },
+  "u10-l5.12.traps": {
+    "en": [
+      "**Nikdy** (never) always goes with a negative verb: nikdy **nečíta**. This double negative is normal Slovak.",
+      "Magazines are more than one, and masculine things take **-y** in the plural: **časopisy**. Časopis is just one magazine."
+    ],
+    "t": [
+      "**Nikdy** (hech qachon) doim inkor feʼl bilan keladi: nikdy **nečíta**. Bu qoʻsh inkor oʻzbekchadagi «hech qachon oʻqimaydi» kabi odatiy hol.",
+      "Gap umuman jurnallar haqida, shuning uchun slovakchada koʻplik keladi: erkak jinsidagi narsalar **-y** oladi, **časopisy**. Časopis — bitta jurnal."
+    ]
   },
   "u10-l5.13.answers": {
     "en": [
@@ -1097,6 +1187,16 @@
     "en": "Emma has two Slovak friends. (female)",
     "t": "Emmaning ikkita slovak dugonasi bor."
   },
+  "u10-l6.4.traps": {
+    "en": [
+      "Kamarátka is feminine, so two is **dve**: dve kamarátky. Dva is for masculine words.",
+      "In the plural, adjectives for women and things end in **-é**: **slovenské** kamarátky. Slovenská is for one feminine word."
+    ],
+    "t": [
+      "Kamarátka ayol jinsida, shuning uchun «ikki» — **dve**: dve kamarátky. Dva erkak jinsidagi soʻzlar uchun.",
+      "Koʻplikda ayollar va narsalar haqidagi sifatlar **-é** bilan tugaydi: **slovenské** kamarátky. Slovenská ayol jinsidagi bitta soʻz uchun."
+    ]
+  },
   "u10-l6.5.en": {
     "en": "Today I have to go to the university.",
     "t": "Bugun universitetga borishim kerak."
@@ -1136,6 +1236,16 @@
   "u10-l6.9.prompt": {
     "en": "It's eight o'clock.",
     "t": "Soat sakkiz."
+  },
+  "u10-l6.9.traps": {
+    "en": [
+      "From five up, hodina becomes **hodín**: osem **hodín**. Hodiny is for 2–4: sú tri hodiny.",
+      "From five up, the time takes **je**: **Je** osem hodín. Sú is for 2–4: sú tri hodiny."
+    ],
+    "t": [
+      "Beshdan boshlab hodina **hodín** boʻladi: osem **hodín**. Hodiny 2–4 uchun: sú tri hodiny.",
+      "Beshdan boshlab vaqt **je** bilan aytiladi: **Je** osem hodín. Sú 2–4 uchun: sú tri hodiny."
+    ]
   },
   "u10-l6.10.en": {
     "en": "We met in a café yesterday.",

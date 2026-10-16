@@ -100,6 +100,10 @@ export const unit10: Unit = {
           promptLang: "en",
           answers: ["Emma číta článok o Lucii."],
           distractors: ["Lucia", "Luciu"],
+          traps: [
+            { wrong: "Lucia", right: "Lucii", why: "**O** (about) takes the locative, and names in -ia get **-ii**: o **Lucii**. Lucia is the subject form." },
+            { wrong: "Luciu", right: "Lucii", why: "**O** (about) takes the locative, and names in -ia get **-ii**: o **Lucii**. Luciu is the object form, as in pre Luciu." },
+          ],
         },
         { type: "listen", sk: "Titulok je veľmi zaujímavý.", en: "The headline is very interesting." },
         {
@@ -199,6 +203,10 @@ export const unit10: Unit = {
           promptLang: "en",
           answers: ["Tomáš hľadá nový byt."],
           distractors: ["nového", "nová"],
+          traps: [
+            { wrong: "nového", right: "nový", why: "In the object form, masculine things like byt don't change, and nor do their adjectives: **nový** byt. Nového is for people: nového kamaráta." },
+            { wrong: "nová", right: "nový", why: "Byt is masculine (it ends in a consonant), so the adjective ends in **-ý**: **nový** byt. Nová is for feminine words." },
+          ],
         },
         {
           type: "choice",
@@ -327,6 +335,10 @@ export const unit10: Unit = {
           promptLang: "en",
           answers: ["Píšem článok o Bratislave."],
           distractors: ["Bratislava", "v"],
+          traps: [
+            { wrong: "Bratislava", right: "Bratislave", why: "**O** (about) takes the locative, so Bratislava changes -a to **-e**: o **Bratislave**." },
+            { wrong: "v", right: "o", why: "About is **o**: článok **o** Bratislave. V Bratislave would mean in Bratislava." },
+          ],
         },
         { type: "listen", sk: "Emma býva s Luciou na internáte.", en: "Emma lives in the dorm with Lucia." },
         {
@@ -335,6 +347,10 @@ export const unit10: Unit = {
           promptLang: "en",
           answers: ["Tento darček je pre Mareka."],
           distractors: ["Marekom", "Marekovi"],
+          traps: [
+            { wrong: "Marekom", right: "Mareka", why: "**Pre** (for) takes the accusative, and men's names add **-a**: pre **Mareka**. Marekom goes with s (with)." },
+            { wrong: "Marekovi", right: "Mareka", why: "**Pre** (for) takes the accusative, and men's names add **-a**: pre **Mareka**. Marekovi goes with o (about): o Marekovi." },
+          ],
         },
         {
           type: "fill",
@@ -421,6 +437,10 @@ export const unit10: Unit = {
           promptLang: "en",
           answers: ["Včera Marek varil polievku.", "Marek včera varil polievku."],
           distractors: ["varí", "polievka"],
+          traps: [
+            { wrong: "varí", right: "varil", why: "**Včera** (yesterday) needs the past tense, the l-form: Marek **varil**. Varí is the present." },
+            { wrong: "polievka", right: "polievku", why: "The soup is what Marek cooked, the object, so polievka changes -a to **-u**: varil **polievku**." },
+          ],
         },
         {
           type: "grammar",
@@ -471,6 +491,10 @@ export const unit10: Unit = {
           promptLang: "en",
           answers: ["Nemala som čas."],
           distractors: ["nemám", "sme"],
+          traps: [
+            { wrong: "nemám", right: "Nemala", why: "“Didn't have” is the past tense: **ne-** + the l-form, with -la for a woman: **Nemala** som. Nemám is the present, I don't have." },
+            { wrong: "sme", right: "som", why: "**Ja** (I) in the past tense needs **som**: Nemala **som** čas. Sme goes with my and an -li form." },
+          ],
         },
         {
           type: "match",
@@ -536,6 +560,10 @@ export const unit10: Unit = {
           promptLang: "en",
           answers: ["Na Hlavnej ulici je nová kaviareň.", "Nová kaviareň je na Hlavnej ulici."],
           distractors: ["nový", "ulica"],
+          traps: [
+            { wrong: "nový", right: "nová", why: "Kaviareň is feminine, even though it ends in a consonant, so the adjective ends in **-á**: **nová** kaviareň. Nový is for masculine words." },
+            { wrong: "ulica", right: "ulici", why: "Saying where takes **na** + the locative, and after c the ending is **-i**: na Hlavnej **ulici**. Ulica is the subject form." },
+          ],
         },
         { type: "listen", sk: "V sobotu bolo pekné počasie.", en: "The weather was nice on Saturday." },
         {
@@ -595,6 +623,10 @@ export const unit10: Unit = {
             "Článok sme včera čítali s Luciou.",
           ],
           distractors: ["Lucia", "čítame"],
+          traps: [
+            { wrong: "Lucia", right: "Luciou", why: "**S** (with) takes the instrumental, so Lucia changes -a to **-ou**: s **Luciou**." },
+            { wrong: "čítame", right: "čítali", why: "**Včera** (yesterday) needs the past tense, and with my (we) the l-form ends in **-li**: sme **čítali**. Čítame is the present." },
+          ],
         },
         {
           type: "fill",
@@ -613,6 +645,10 @@ export const unit10: Unit = {
           promptLang: "en",
           answers: ["Pán Kováč nikdy nečíta časopisy."],
           distractors: ["číta", "časopis"],
+          traps: [
+            { wrong: "číta", right: "nečíta", why: "**Nikdy** (never) always goes with a negative verb: nikdy **nečíta**. This double negative is normal Slovak." },
+            { wrong: "časopis", right: "časopisy", why: "Magazines are more than one, and masculine things take **-y** in the plural: **časopisy**. Časopis is just one magazine." },
+          ],
         },
         {
           type: "build",
@@ -673,6 +709,10 @@ export const unit10: Unit = {
           promptLang: "en",
           answers: ["Emma má dve slovenské kamarátky."],
           distractors: ["dva", "slovenská"],
+          traps: [
+            { wrong: "dva", right: "dve", why: "Kamarátka is feminine, so two is **dve**: dve kamarátky. Dva is for masculine words." },
+            { wrong: "slovenská", right: "slovenské", why: "In the plural, adjectives for women and things end in **-é**: **slovenské** kamarátky. Slovenská is for one feminine word." },
+          ],
         },
         { type: "listen", sk: "Dnes musím ísť na univerzitu.", en: "Today I have to go to the university." },
         {
@@ -711,6 +751,10 @@ export const unit10: Unit = {
           promptLang: "en",
           answers: ["Je osem hodín."],
           distractors: ["hodiny", "sú"],
+          traps: [
+            { wrong: "hodiny", right: "hodín", why: "From five up, hodina becomes **hodín**: osem **hodín**. Hodiny is for 2–4: sú tri hodiny." },
+            { wrong: "sú", right: "Je", why: "From five up, the time takes **je**: **Je** osem hodín. Sú is for 2–4: sú tri hodiny." },
+          ],
         },
         {
           type: "fill",

@@ -50,7 +50,7 @@ function exerciseFields(ex: Exercise): Record<string, Field> {
       };
     case "build":
       return ex.promptLang === "en"
-        ? { prompt: ex.prompt }
+        ? { prompt: ex.prompt, ...(ex.traps?.length ? { traps: ex.traps.map((trap) => trap.why) } : {}) }
         : { answers: ex.answers, distractors: ex.distractors };
     case "match":
       return { pairs: ex.pairs.map((p) => p.en) };
@@ -126,10 +126,17 @@ function localizeExercise(ex: Exercise, tr: <T extends Field>(field: string, fal
         options: ex.optionsLang === "en" ? tr("options", ex.options) : ex.options,
         ...(ex.why ? { why: tr("why", ex.why) } : {}),
       };
-    case "build":
-      return ex.promptLang === "en"
-        ? { ...ex, prompt: tr("prompt", ex.prompt) }
-        : { ...ex, answers: tr("answers", ex.answers), distractors: tr("distractors", ex.distractors) };
+    case "build": {
+      if (ex.promptLang !== "en") {
+        return { ...ex, answers: tr("answers", ex.answers), distractors: tr("distractors", ex.distractors) };
+      }
+      const traps = ex.traps?.length ? tr("traps", ex.traps.map((trap) => trap.why)) : [];
+      return {
+        ...ex,
+        prompt: tr("prompt", ex.prompt),
+        ...(ex.traps?.length ? { traps: ex.traps.map((trap, i) => ({ ...trap, why: traps[i] ?? trap.why })) } : {}),
+      };
+    }
     case "match": {
       const en = tr("pairs", ex.pairs.map((p) => p.en));
       return { ...ex, pairs: ex.pairs.map((p, i) => ({ ...p, en: en[i] ?? p.en })) };

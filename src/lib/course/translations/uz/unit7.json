@@ -129,6 +129,16 @@
     "en": "Lucia is writing a paper.",
     "t": "Lusiya referat yozyapti."
   },
+  "u7-l1.10.traps": {
+    "en": [
+      "Lucia is ona, and with on or ona the verb has no ending: **píše**. Píšem is the ja form.",
+      "Lucia writes one paper, so it's **referát**: as the object, a masculine thing stays the same. Referáty is the plural, papers."
+    ],
+    "t": [
+      "Lusiya haqida «u» — ona, on yoki ona bilan esa feʼl qoʻshimchasiz keladi: **píše**. Píšem — ja shakli.",
+      "Lusiya bitta referat yozyapti, shuning uchun **referát**: erkak jinsidagi narsa toʻldiruvchi boʻlganda oʻzgarmaydi. Referáty — koʻplik, «referatlar»."
+    ]
+  },
   "u7-l1.11.en": {
     "en": "Today I have a lecture and a seminar.",
     "t": "Bugun maʼruza va seminarim bor."
@@ -177,6 +187,16 @@
   "u7-l1.16.prompt": {
     "en": "Sorry I'm late. (formal)",
     "t": "Kechirasiz, kechikdim. (siz)"
+  },
+  "u7-l1.16.traps": {
+    "en": [
+      "Prepáčte is formal vy, but the one who's late is ja (I), so the verb ends in **-m**: mešk**ám**. Meškáš is the ty form.",
+      "Sorry is **Prepáčte**, the vy form of prepáč, for a teacher or a stranger. Prosím means please."
+    ],
+    "t": [
+      "Prepáčte — hurmatli vy, lekin kechikkan — ja (men), shuning uchun feʼl **-m** bilan tugaydi: mešk**ám**. Meškáš — ty shakli.",
+      "«Kechirasiz» — **Prepáčte**, prepáč soʻzining vy shakli, oʻqituvchi yoki notanish odam uchun. Prosím esa «iltimos» degani."
+    ]
   },
   "u7-l1.17.en": {
     "en": "Sorry I'm late.",
@@ -436,6 +456,16 @@
     "en": "The seminar is at nine.",
     "t": "Seminar soat toʻqqizda."
   },
+  "u7-l2.7.traps": {
+    "en": [
+      "At a time is **o** + the **-ej** form: o deviat**ej**. Deväť is the plain number, for counting.",
+      "Hodín is for telling the time: je deväť hodín, it's nine o'clock. To say when something is, use o + the **-ej** form: o deviat**ej**."
+    ],
+    "t": [
+      "Soat nechada ekanini aytish uchun **o** + **-ej** shakli keladi: o deviat**ej** (soat toʻqqizda). Deväť — oddiy son, sanash uchun.",
+      "Hodín soat necha ekanini aytganda ishlatiladi: je deväť hodín — soat toʻqqiz. Biror narsa qachon boʻlishini aytish uchun esa o + **-ej** shakli keladi: o deviat**ej**."
+    ]
+  },
   "u7-l2.8.en": {
     "en": "It's half past seven. (7:30)",
     "t": "Soat yetti yarim. (7:30)"
@@ -495,6 +525,16 @@
   "u7-l2.14.prompt": {
     "en": "What time is it?",
     "t": "Soat necha?"
+  },
+  "u7-l2.14.traps": {
+    "en": [
+      "**Koľko je hodín?** is a set question, literally “how many hours is it?”, with the form used from 5 up. Hodiny goes with 2–4.",
+      "Asking the time is **Koľko** je hodín?, literally “how many hours?”. Kedy means when: Kedy je seminár?"
+    ],
+    "t": [
+      "**Koľko je hodín?** — tayyor savol, soʻzma-soʻz «necha soat bor?», 5 dan boshlab ishlatiladigan shakl bilan. Hodiny 2–4 bilan keladi.",
+      "Vaqtni soʻrash — **Koľko** je hodín?, soʻzma-soʻz «necha soat?». Kedy esa «qachon»: Kedy je seminár?"
+    ]
   },
   "u7-l2.15.en": {
     "en": "The seminar is at seven.",
@@ -588,6 +628,16 @@
     "en": "I get up at seven.",
     "t": "Soat yettida turaman."
   },
+  "u7-l3.7.traps": {
+    "en": [
+      "At a time is **o** + the **-ej** form: o siedm**ej**. Sedem is the plain number, for counting.",
+      "“I” is ja, so the verb ends in **-m**: vstáva**m**. Vstávaš, with -š, is the ty form (you)."
+    ],
+    "t": [
+      "Soat nechada ekanini aytish uchun **o** + **-ej** shakli keladi: o siedm**ej** (soat yettida). Sedem — oddiy son, sanash uchun.",
+      "«Men» — ja, shuning uchun feʼl **-m** bilan tugaydi: vstáva**m** (turaman). -š bilan vstávaš — ty (sen) shakli."
+    ]
+  },
   "u7-l3.8.en": {
     "en": "In the morning I have lectures.",
     "t": "Tushgacha maʼruzalarim bor."
@@ -651,6 +701,16 @@
   "u7-l3.15.prompt": {
     "en": "First I study, then I go to bed.",
     "t": "Avval dars qilaman, keyin uxlagani yotaman."
+  },
+  "u7-l3.15.traps": {
+    "en": [
+      "It's ja (I) who studies, so the verb ends in **-m**: najprv sa uč**ím**. Učíš is the ty form (you).",
+      "It's ja (I) going to bed, so ísť is **idem**: idem spať. Ideme is the my form (we)."
+    ],
+    "t": [
+      "Dars qiladigan — ja (men), shuning uchun feʼl **-m** bilan tugaydi: najprv sa uč**ím**. Učíš — ty (sen) shakli.",
+      "Uxlagani yotadigan — ja (men), shuning uchun ísť **idem** boʻladi: idem spať. Ideme — my (biz) shakli."
+    ]
   },
   "u7-l3.16.answers": {
     "en": [
@@ -844,6 +904,16 @@
     "en": "Where shall we meet?",
     "t": "Qayerda uchrashamiz?"
   },
+  "u7-l4.5.traps": {
+    "en": [
+      "“We” is my, so stretnúť ends in **-eme**: stretn**eme**. Stretnem is the ja form: I'll meet.",
+      "Where? is **Kde**. Kedy means when: Kedy sa stretneme? = When shall we meet?"
+    ],
+    "t": [
+      "«Biz» — my, shuning uchun stretnúť **-eme** bilan tugaydi: stretn**eme** (uchrashamiz). Stretnem — ja shakli: «uchrataman».",
+      "«Qayerda?» — **Kde**. Kedy esa «qachon»: Kedy sa stretneme? = Qachon uchrashamiz?"
+    ]
+  },
   "u7-l4.6.title": {
     "en": "More verbs like these",
     "t": "Shunday tuslanadigan yana feʼllar"
@@ -963,6 +1033,16 @@
   "u7-l4.9.prompt": {
     "en": "I'm sitting in the library.",
     "t": "Kutubxonada oʻtiribman."
+  },
+  "u7-l4.9.traps": {
+    "en": [
+      "With ja (I), sedieť ends in **-ím**: sed**ím**. Sedí is the on or ona form.",
+      "In the library is **v knižnici**: after v, for being in a place, the word changes its ending. Knižnica is the plain form."
+    ],
+    "t": [
+      "«Men» — ja, ja bilan esa sedieť **-ím** bilan tugaydi: sed**ím** (oʻtiribman). Sedí — on yoki ona shakli.",
+      "«Kutubxonada» — **v knižnici**: biror joyda ekanini aytganda v soʻzidan keyin soʻzning oxiri oʻzgaradi, oʻzbekchadagi -da kabi. Knižnica — oddiy shakl."
+    ]
   },
   "u7-l4.10.en": {
     "en": "What are you thinking about, Lucia?",
@@ -1220,6 +1300,16 @@
     "en": "I worked yesterday. (woman speaking)",
     "t": "Kecha ishladim. (ayol gapiryapti)"
   },
+  "u7-l5.4.traps": {
+    "en": [
+      "A woman is speaking, so the past tense ends in **-la**: pracoval**a**. Pracoval is for a man.",
+      "With ja (I), the past tense adds **som**, in second place: včera **som** pracovala. Si goes with ty (you)."
+    ],
+    "t": [
+      "Ayol gapiryapti, shuning uchun oʻtgan zamon **-la** bilan tugaydi: pracoval**a**. Pracoval — erkak uchun; oʻzbekchada «ishladim» ikkalasiga bir xil.",
+      "«Men» uchun oʻtgan zamonga **som** qoʻshiladi, gapda ikkinchi oʻrinda: včera **som** pracovala. U «ishladim»dagi -m vazifasini bajaradi; si esa ty (sen) uchun."
+    ]
+  },
   "u7-l5.5.en": {
     "en": "Emma, what did you do yesterday?",
     "t": "Emma, kecha nima qilding?"
@@ -1365,6 +1455,16 @@
   "u7-l5.10.prompt": {
     "en": "What did you do yesterday? (to a man)",
     "t": "Kecha nima qilding? (erkakka)"
+  },
+  "u7-l5.10.traps": {
+    "en": [
+      "You're asking a man, so the past tense ends in **-l**: robi**l**. Robila is for a woman.",
+      "The question is to ty (you), so the past tense adds **si**: čo **si** robil. Som goes with ja (I)."
+    ],
+    "t": [
+      "Siz erkakdan soʻrayapsiz, shuning uchun oʻtgan zamon **-l** bilan tugaydi: robi**l**. Robila — ayol uchun.",
+      "Savol «sen»ga berilyapti, shuning uchun oʻtgan zamonga **si** qoʻshiladi: čo **si** robil, «qilding»dagi -ng kabi. Som — ja (men) uchun."
+    ]
   },
   "u7-l5.11.question": {
     "en": "Lucia says this. What did she do?",
@@ -1514,6 +1614,16 @@
     "en": "I didn't have breakfast today. (man speaking)",
     "t": "Bugun nonushta qilmadim. (erkak gapiryapti)"
   },
+  "u7-l6.3.traps": {
+    "en": [
+      "A man is speaking, so the past tense ends in **-l**: neraňajkova**l**. Neraňajkovala is for a woman.",
+      "With ja (I), the past tense adds **som**, in second place: dnes **som** neraňajkoval. Si goes with ty (you)."
+    ],
+    "t": [
+      "Erkak gapiryapti, shuning uchun oʻtgan zamon **-l** bilan tugaydi: neraňajkova**l**. Neraňajkovala — ayol uchun.",
+      "«Men» uchun oʻtgan zamonga **som** qoʻshiladi, gapda ikkinchi oʻrinda: dnes **som** neraňajkoval. Si — ty (sen) uchun."
+    ]
+  },
   "u7-l6.4.en": {
     "en": "Sorry, I overslept.",
     "t": "Kechirasiz, uxlab qolibman."
@@ -1638,6 +1748,16 @@
     "en": "I've already eaten. (woman speaking)",
     "t": "Men allaqachon ovqatlandim. (ayol gapiryapti)"
   },
+  "u7-l6.9.traps": {
+    "en": [
+      "Already is **už**. Ešte means still; with a not, ešte som nejedla is “I haven't eaten yet”.",
+      "A woman is speaking, so the past of jesť is **jedla**. Jedol is the form for a man."
+    ],
+    "t": [
+      "«Allaqachon» — **už**. Ešte esa «hali»; inkor bilan ešte som nejedla — «hali ovqatlanmadim».",
+      "Ayol gapiryapti, shuning uchun jesť feʼlining oʻtgan zamoni — **jedla**. Jedol — erkak uchun shakl."
+    ]
+  },
   "u7-l6.10.answers": {
     "en": [
       "Tomáš isn't asleep any more.",
@@ -1664,6 +1784,16 @@
   "u7-l6.11.prompt": {
     "en": "Were you at the seminar? (to a woman, informal)",
     "t": "Seminarda boʻldingmi? (ayolga, sen)"
+  },
+  "u7-l6.11.traps": {
+    "en": [
+      "You're asking a woman, so the past of byť is **bola**. Bol is for a man.",
+      "The question is to ty (you), so the past tense adds **si**: bola **si**. Som goes with ja (I)."
+    ],
+    "t": [
+      "Siz ayoldan soʻrayapsiz, shuning uchun byť feʼlining oʻtgan zamoni — **bola**. Bol — erkak uchun.",
+      "Savol «sen»ga berilyapti, shuning uchun oʻtgan zamonga **si** qoʻshiladi: bola **si**, «boʻlding»dagi -ng kabi. Som — ja (men) uchun."
+    ]
   },
   "u7-l6.12.en": {
     "en": "Lucia, have you been to the library yet? — Not yet.",
@@ -1705,6 +1835,16 @@
     "en": "I overslept! (woman speaking)",
     "t": "Uxlab qolibman! (ayol gapiryapti)"
   },
+  "u7-l7.2.traps": {
+    "en": [
+      "A woman is speaking, so the past tense ends in **-la**: zaspal**a**. Zaspal is for a man.",
+      "With ja (I), the past tense adds **som**: zaspala **som**. Si goes with ty (you)."
+    ],
+    "t": [
+      "Ayol gapiryapti, shuning uchun oʻtgan zamon **-la** bilan tugaydi: zaspal**a**. Zaspal — erkak uchun.",
+      "«Men» uchun oʻtgan zamonga **som** qoʻshiladi: zaspala **som**. Si — ty (sen) uchun."
+    ]
+  },
   "u7-l7.3.question": {
     "en": "Lucia hasn't had breakfast yet. What does she say?",
     "t": "Lusiya hali nonushta qilmagan. U nima deydi?"
@@ -1717,6 +1857,16 @@
     "en": "I have an exam tomorrow.",
     "t": "Ertaga imtihonim bor."
   },
+  "u7-l7.4.traps": {
+    "en": [
+      "The exam is what you have, the object, so skúška changes -a to **-u**: mám **skúšku**.",
+      "It's ja (I) who has the exam, so mať ends in **-m**: **mám**. Máš is the ty form (you)."
+    ],
+    "t": [
+      "Imtihon — sizda bor narsa, toʻldiruvchi, shuning uchun skúška soʻzida -a oʻrniga **-u** keladi: mám **skúšku**.",
+      "Imtihon menda, yaʼni ja, shuning uchun mať **-m** bilan tugaydi: **mám** (menda bor). Máš — ty (sen) shakli."
+    ]
+  },
   "u7-l7.5.en": {
     "en": "Emma and Lucia are still asleep.",
     "t": "Emma va Lusiya hali uxlashyapti."
@@ -1728,6 +1878,16 @@
   "u7-l7.6.prompt": {
     "en": "We'll meet at seven.",
     "t": "Soat yettida uchrashamiz."
+  },
+  "u7-l7.6.traps": {
+    "en": [
+      "At a time is **o** + the **-ej** form: o siedm**ej**. Sedem is the plain number, for counting.",
+      "“We” is my, so stretnúť ends in **-eme**: stretn**eme** sa. Stretnem is the ja form: I'll meet."
+    ],
+    "t": [
+      "Soat nechada ekanini aytish uchun **o** + **-ej** shakli keladi: o siedm**ej** (soat yettida). Sedem — oddiy son, sanash uchun.",
+      "«Biz» — my, shuning uchun stretnúť **-eme** bilan tugaydi: stretn**eme** sa (uchrashamiz). Stretnem — ja shakli: «uchrataman»."
+    ]
   },
   "u7-l7.7.en": {
     "en": "Yesterday Emma and Lucia sat in the library.",
@@ -1780,6 +1940,16 @@
   "u7-l7.12.prompt": {
     "en": "Did you go to the lecture? (to a man, informal)",
     "t": "Maʼruzaga bordingmi? (erkakka, sen)"
+  },
+  "u7-l7.12.traps": {
+    "en": [
+      "You're asking a man, so the past of ísť is **išiel**. Išla is for a woman.",
+      "The question is to ty (you), so the past tense adds **si**: išiel **si**. Som goes with ja (I)."
+    ],
+    "t": [
+      "Siz erkakdan soʻrayapsiz, shuning uchun ísť feʼlining oʻtgan zamoni — **išiel**. Išla — ayol uchun.",
+      "Savol «sen»ga berilyapti, shuning uchun oʻtgan zamonga **si** qoʻshiladi: išiel **si** (bording). Som — ja (men) uchun."
+    ]
   },
   "u7-l7.13.en": {
     "en": "Tomáš isn't asleep any more, he's already having breakfast.",

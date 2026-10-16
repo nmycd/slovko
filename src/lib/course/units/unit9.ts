@@ -104,6 +104,10 @@ export const unit9: Unit = {
             "Na konferencii má Tomáš prednášku.",
           ],
           distractors: ["konferenciu", "prednáška"],
+          traps: [
+            { wrong: "konferenciu", right: "konferencii", why: "Being at the conference answers “where?”, so **na** takes the locative, and nouns in -ia get -ii: na **konferencii**. Na konferenciu is for going there." },
+            { wrong: "prednáška", right: "prednášku", why: "The talk is what Tomáš has, the object, so prednáška changes -a to **-u**: má **prednášku**." },
+          ],
         },
         {
           type: "intro",
@@ -126,6 +130,10 @@ export const unit9: Unit = {
           promptLang: "en",
           answers: ["Teším sa na tvoju prednášku.", "Na tvoju prednášku sa teším."],
           distractors: ["tvoja", "prednáške"],
+          traps: [
+            { wrong: "tvoja", right: "tvoju", why: "**Tešiť sa na** takes the object form, so tvoja changes to **tvoju**, just like prednáška → prednášku." },
+            { wrong: "prednáške", right: "prednášku", why: "**Tešiť sa na** takes the object form, so prednáška changes -a to **-u**: na **prednášku**. Na prednáške is the locative: at the talk." },
+          ],
         },
         {
           type: "build",
@@ -223,6 +231,10 @@ export const unit9: Unit = {
           promptLang: "en",
           answers: ["Učíme sa slovenčinu.", "Slovenčinu sa učíme."],
           distractors: ["si", "slovenčina"],
+          traps: [
+            { wrong: "si", right: "sa", why: "**Učiť sa** (to learn) always comes with **sa**, and sa stays the same for everyone: Učíme **sa**." },
+            { wrong: "slovenčina", right: "slovenčinu", why: "Slovak is what you learn, the object, so slovenčina changes -a to **-u**: učíme sa **slovenčinu**." },
+          ],
         },
         {
           type: "fill",
@@ -277,6 +289,10 @@ export const unit9: Unit = {
             "Na konferencii sa Emma a Tomáš stretnú.",
           ],
           distractors: ["stretne", "konferenciu"],
+          traps: [
+            { wrong: "stretne", right: "stretnú", why: "Emma and Tomáš are two people (oni), so the verb ends in **-ú**: **stretnú** sa. Stretne is for one person (on, ona)." },
+            { wrong: "konferenciu", right: "konferencii", why: "Meeting at the conference answers “where?”, so **na** takes the locative: na **konferencii**. Na konferenciu is for going there." },
+          ],
         },
         {
           type: "fill",
@@ -294,6 +310,10 @@ export const unit9: Unit = {
           promptLang: "en",
           answers: ["Vrátim sa o piatej.", "O piatej sa vrátim."],
           distractors: ["si", "vrátiš"],
+          traps: [
+            { wrong: "si", right: "sa", why: "Coming back is **vrátiť sa**, with sa: Vrátim **sa**. Without sa, vrátiť means to return something, like a book." },
+            { wrong: "vrátiš", right: "Vrátim", why: "Here **ja** (I) is speaking, so the verb ends in **-m**: **Vrátim** sa. Vrátiš goes with ty." },
+          ],
         },
         {
           type: "match",
@@ -403,6 +423,10 @@ export const unit9: Unit = {
           promptLang: "en",
           answers: ["Musím vytlačiť prihlášku.", "Prihlášku musím vytlačiť."],
           distractors: ["prihláška", "uložiť"],
+          traps: [
+            { wrong: "prihláška", right: "prihlášku", why: "The form is what you print, the object, so prihláška changes -a to **-u**: vytlačiť **prihlášku**." },
+            { wrong: "uložiť", right: "vytlačiť", why: "To print is **vytlačiť**, from the same word as tlačiareň (printer). Uložiť means to save a file." },
+          ],
         },
         {
           type: "intro",
@@ -518,6 +542,10 @@ export const unit9: Unit = {
           promptLang: "en",
           answers: ["Emma si kúpila tričko."],
           distractors: ["sa", "kúpil"],
+          traps: [
+            { wrong: "sa", right: "si", why: "Buying something for yourself is **kúpiť si**, like dať si kávu: **si** kúpila tričko. Si means “for yourself”, with the thing after it." },
+            { wrong: "kúpil", right: "kúpila", why: "Emma is a woman, so the past tense ends in **-la**: **kúpila**. Kúpil is for a man." },
+          ],
         },
         { type: "listen", sk: "Kedy si sa vrátil?", en: "When did you come back?" },
         {
@@ -556,6 +584,10 @@ export const unit9: Unit = {
           promptLang: "en",
           answers: ["Stretli sme sa na konferencii.", "Na konferencii sme sa stretli."],
           distractors: ["si", "stretol"],
+          traps: [
+            { wrong: "si", right: "sa", why: "Meeting up is **stretnúť sa**, a verb with sa, and sa comes right after sme: Stretli sme **sa**." },
+            { wrong: "stretol", right: "Stretli", why: "With my (we), the past form ends in **-li** and takes sme: **Stretli** sme sa. Stretol is for one man." },
+          ],
         },
         {
           type: "choice",
@@ -572,6 +604,10 @@ export const unit9: Unit = {
           promptLang: "en",
           answers: ["Tomáš sa vrátil o šiestej.", "O šiestej sa Tomáš vrátil."],
           distractors: ["si", "vrátila"],
+          traps: [
+            { wrong: "si", right: "sa", why: "Coming back is **vrátiť sa**, a verb with sa: Tomáš **sa** vrátil. Si (for yourself) needs an object after it, like dať si kávu." },
+            { wrong: "vrátila", right: "vrátil", why: "Tomáš is a man, so the past form ends in **-l**: **vrátil**. Vrátila is for a woman." },
+          ],
         },
         {
           type: "fill",
@@ -672,6 +708,10 @@ export const unit9: Unit = {
           promptLang: "en",
           answers: ["Môj zamestnávateľ je firma v Košiciach."],
           distractors: ["moja", "Košice"],
+          traps: [
+            { wrong: "moja", right: "Môj", why: "Zamestnávateľ is masculine (it ends in a consonant), so “my” is **Môj**. Moja is for feminine words like firma." },
+            { wrong: "Košice", right: "Košiciach", why: "After **v** (in) comes the locative. Košice is plural, so it takes a plural ending: v **Košiciach**." },
+          ],
         },
         {
           type: "intro",
@@ -701,6 +741,10 @@ export const unit9: Unit = {
           promptLang: "en",
           answers: ["Páčila sa mi prednáška.", "Prednáška sa mi páčila."],
           distractors: ["páčil", "si"],
+          traps: [
+            { wrong: "páčil", right: "Páčila", why: "With páčiť sa, the verb agrees with what you like: prednáška is feminine, so **Páčila**. Páčil goes with a masculine word, like program." },
+            { wrong: "si", right: "sa", why: "**Páčiť sa** (to please) is a verb with sa, and it's always **sa**: Páčila **sa** mi." },
+          ],
         },
         {
           type: "choice",
@@ -752,6 +796,10 @@ export const unit9: Unit = {
           promptLang: "en",
           answers: ["Musím uložiť prezentáciu.", "Prezentáciu musím uložiť."],
           distractors: ["prezentácia", "otvoriť"],
+          traps: [
+            { wrong: "prezentácia", right: "prezentáciu", why: "The presentation is what you save, the object, so prezentácia changes -a to **-u**: uložiť **prezentáciu**." },
+            { wrong: "otvoriť", right: "uložiť", why: "To save is **uložiť**, as in uložiť súbor. Otvoriť means to open." },
+          ],
         },
         { type: "listen", sk: "Stretli sme sa na prestávke.", en: "We met during the break." },
         {
@@ -784,6 +832,10 @@ export const unit9: Unit = {
           promptLang: "en",
           answers: ["Kde sa môžem zaregistrovať?"],
           distractors: ["si", "môžeš"],
+          traps: [
+            { wrong: "si", right: "sa", why: "To register is **zaregistrovať sa**, a verb with sa, and sa takes second place, right after kde: Kde **sa** môžem…" },
+            { wrong: "môžeš", right: "môžem", why: "The question is about **ja** (I), so môcť is **môžem**. Môžeš goes with ty." },
+          ],
         },
         {
           type: "fill",
@@ -835,6 +887,10 @@ export const unit9: Unit = {
             "Lucia a Emma sa tešia na konferenciu.",
           ],
           distractors: ["teší", "konferencii"],
+          traps: [
+            { wrong: "teší", right: "tešia", why: "Emma and Lucia are two people (ony), so the verb is **tešia**. Teší is for one person (on, ona)." },
+            { wrong: "konferencii", right: "konferenciu", why: "**Tešiť sa na** takes the object form, so konferencia changes -a to **-u**: na **konferenciu**. Na konferencii means at the conference." },
+          ],
         },
         {
           type: "fill",

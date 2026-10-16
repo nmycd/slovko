@@ -84,6 +84,10 @@ export const unit2: Unit = {
           promptLang: "en",
           answers: ["Som z Nemecka.", "Ja som z Nemecka."],
           distractors: ["Nemecko", "zo"],
+          traps: [
+            { wrong: "Nemecko", right: "Nemecka", why: "After z (from), the -o at the end changes to **-a**: Nemecko → z Nemeck**a**." },
+            { wrong: "zo", right: "z", why: "Nemecko starts with n, so “from” is plain **z**. Zo is only for words starting with s, z, š or ž: zo Slovenska." },
+          ],
         },
         {
           type: "intro",
@@ -234,6 +238,10 @@ export const unit2: Unit = {
           promptLang: "en",
           answers: ["Sme zo Slovenska.", "My sme zo Slovenska."],
           distractors: ["ste", "z"],
+          traps: [
+            { wrong: "ste", right: "Sme", why: "We is **my**, and with my byť is **sme**. Ste goes with vy (you)." },
+            { wrong: "z", right: "zo", why: "Slovensko starts with s, and before s, z, š or ž, “from” is **zo**. Plain z is for the rest: z Írska." },
+          ],
         },
         {
           type: "fill",
@@ -261,6 +269,10 @@ export const unit2: Unit = {
           promptLang: "en",
           answers: ["Si Slovák?", "Ty si Slovák?"],
           distractors: ["ste", "Slovenka"],
+          traps: [
+            { wrong: "ste", right: "Si", why: "A friend gets **ty**, and with ty byť is **si**. Ste is for vy: a stranger, a teacher or a group." },
+            { wrong: "Slovenka", right: "Slovák", why: "Your friend is a man, so it's **Slovák**. Slovenka, with -ka, is a Slovak woman." },
+          ],
         },
         {
           type: "fill",
@@ -327,6 +339,10 @@ export const unit2: Unit = {
           promptLang: "en",
           answers: ["Jana je učiteľka."],
           distractors: ["učiteľ", "som"],
+          traps: [
+            { wrong: "učiteľ", right: "učiteľka", why: "Jana is a woman, so she takes the feminine form with **-ka**: učiteľ**ka**. Učiteľ is for a man." },
+            { wrong: "som", right: "je", why: "Jana is **ona** (she), and with ona byť is **je**. Som goes with ja (I)." },
+          ],
         },
         {
           type: "choice",
@@ -423,6 +439,10 @@ export const unit2: Unit = {
           promptLang: "en",
           answers: ["Martin je učiteľ a Eva je študentka."],
           distractors: ["učiteľka", "študent"],
+          traps: [
+            { wrong: "učiteľka", right: "učiteľ", why: "Martin is a man, so he takes the masculine form: **učiteľ**. Učiteľka, with -ka, is for a woman." },
+            { wrong: "študent", right: "študentka", why: "Eva is a woman, so she takes the feminine form with **-ka**: študent**ka**. Študent is for a man." },
+          ],
         },
         { type: "speak", sk: "To je univerzita.", en: "That's the university." },
       ],
@@ -484,6 +504,10 @@ export const unit2: Unit = {
           promptLang: "en",
           answers: ["Ako sa volá?"],
           distractors: ["voláš", "volám"],
+          traps: [
+            { wrong: "voláš", right: "volá", why: "“Her” name means **ona**, and with on or ona the verb has no ending: Ako sa **volá**? Voláš is ty (you)." },
+            { wrong: "volám", right: "volá", why: "“Her” name means **ona**, and with on or ona the verb has no ending: Ako sa **volá**? Volám is ja (I)." },
+          ],
         },
         {
           type: "choice",
@@ -555,6 +579,10 @@ export const unit2: Unit = {
           promptLang: "en",
           answers: ["Tomáš, pracuješ ako programátor?", "Pracuješ ako programátor, Tomáš?"],
           distractors: ["pracuje", "pracujem"],
+          traps: [
+            { wrong: "pracuje", right: "pracuješ", why: "You're asking Tomáš himself, **ty**, so the verb ends in **-š**: pracuje**š**. Pracuje is for on or ona." },
+            { wrong: "pracujem", right: "pracuješ", why: "You're asking Tomáš himself, **ty**, so the verb ends in **-š**: pracuje**š**. Pracujem, with -m, is ja (I)." },
+          ],
         },
         { type: "listen", sk: "Študujem a pracujem.", en: "I study and work." },
         {
@@ -630,6 +658,10 @@ export const unit2: Unit = {
           promptLang: "en",
           answers: ["Nehovoríme po nemecky.", "My nehovoríme po nemecky.", "Po nemecky nehovoríme."],
           distractors: ["nehovoríte", "nie"],
+          traps: [
+            { wrong: "nehovoríte", right: "Nehovoríme", why: "We is **my**, so the verb ends in **-me**: nehovorí**me**. Nehovoríte, with -te, is vy." },
+            { wrong: "nie", right: "Nehovoríme", why: "To say “not”, put **ne-** in front of the verb, written as one word: **ne**hovoríme. Only byť takes a separate nie: nie som." },
+          ],
         },
         { type: "listen", sk: "Lucia nepracuje, študuje.", en: "Lucia doesn't work, she studies." },
         {
@@ -689,6 +721,10 @@ export const unit2: Unit = {
           promptLang: "en",
           answers: ["Tomáš nie je Nemec, je Slovák."],
           distractors: ["Nemka", "som"],
+          traps: [
+            { wrong: "Nemka", right: "Nemec", why: "Tomáš is a man, so he takes the masculine form: **Nemec**. Nemka is a German woman." },
+            { wrong: "som", right: "je", why: "Tomáš is **on** (he), and with on byť is **je**: nie je, je Slovák. Som goes with ja (I)." },
+          ],
         },
         {
           type: "fill",
@@ -809,6 +845,10 @@ export const unit2: Unit = {
           promptLang: "en",
           answers: ["Mám dvadsať rokov."],
           distractors: ["Som", "roky"],
+          traps: [
+            { wrong: "Som", right: "Mám", why: "Slovak gives your age with **mám** (I have), literally “I have twenty years”. Som means “I am”." },
+            { wrong: "roky", right: "rokov", why: "With dvadsať, “years” is **rokov**, just as in Mám dvadsaťpäť rokov and Koľko máš rokov?" },
+          ],
         },
         {
           type: "fill",
@@ -869,6 +909,10 @@ export const unit2: Unit = {
           promptLang: "en",
           answers: ["Oni sú z Nemecka.", "Sú z Nemecka.", "Ony sú z Nemecka."],
           distractors: ["Nemecko", "sme"],
+          traps: [
+            { wrong: "Nemecko", right: "Nemecka", why: "After z (from), the -o at the end changes to **-a**: Nemecko → z Nemeck**a**." },
+            { wrong: "sme", right: "sú", why: "With **oni** (they), byť is **sú**. Sme goes with my (we)." },
+          ],
         },
         {
           type: "fill",
@@ -941,6 +985,10 @@ export const unit2: Unit = {
           promptLang: "en",
           answers: ["Nie som zo Slovenska. Som z Írska."],
           distractors: ["Írsko", "je"],
+          traps: [
+            { wrong: "Írsko", right: "Írska", why: "After z (from), the -o at the end changes to **-a**: Írsko → z Írsk**a**." },
+            { wrong: "je", right: "som", why: "You're talking about yourself, **ja**, so byť is **som**: nie som, som z Írska. Je is for on or ona." },
+          ],
         },
         {
           type: "choice",

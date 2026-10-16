@@ -60,7 +60,8 @@ verb, end punctuation for an expression). A new topic goes into the `Topic` list
 
 **Explain the multiple-choice answers**: give each `choice` and `fill` whose
 answer can be reasoned out (not a pure vocabulary check) a `why`, and a `ref` to
-the grammar card it rests on, as in AUTHORING.md, "Explanations after a wrong
+the grammar card it rests on; give each word-order exercise with a Slovak answer
+`traps` for its wrong tiles. All as in AUTHORING.md, "Explanations after a wrong
 answer".
 
 ## 3. Check it

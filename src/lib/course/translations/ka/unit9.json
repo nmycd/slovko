@@ -127,6 +127,16 @@
     "en": "Tomáš is giving a talk at the conference.",
     "t": "ტომაშს კონფერენციაზე მოხსენება აქვს."
   },
+  "u9-l1.10.traps": {
+    "en": [
+      "Being at the conference answers “where?”, so **na** takes the locative, and nouns in -ia get -ii: na **konferencii**. Na konferenciu is for going there.",
+      "The talk is what Tomáš has, the object, so prednáška changes -a to **-u**: má **prednášku**."
+    ],
+    "t": [
+      "ქართულში ორივეგან „კონფერენციაზე“ ვამბობთ, სლოვაკურში კი იქ ყოფნა lokál-ია, -ia კი -ii ხდება: na **konferencii**. Na konferenciu იქ წასვლისთვისაა.",
+      "მოხსენება ის არის, რაც ტომაშს აქვს, ანუ ობიექტი, ამიტომ prednáška -a-ს **-u**-თი ცვლის: má **prednášku**."
+    ]
+  },
   "u9-l1.11.en": {
     "en": "I'm looking forward to the conference.",
     "t": "მოუთმენლად ველოდები კონფერენციას."
@@ -146,6 +156,16 @@
   "u9-l1.13.prompt": {
     "en": "I'm looking forward to your talk.",
     "t": "მოუთმენლად ველოდები შენს მოხსენებას."
+  },
+  "u9-l1.13.traps": {
+    "en": [
+      "**Tešiť sa na** takes the object form, so tvoja changes to **tvoju**, just like prednáška → prednášku.",
+      "**Tešiť sa na** takes the object form, so prednáška changes -a to **-u**: na **prednášku**. Na prednáške is the locative: at the talk."
+    ],
+    "t": [
+      "**Tešiť sa na** ობიექტის ფორმას მოითხოვს, ამიტომ tvoja ხდება **tvoju**, ისევე როგორც prednáška → prednášku.",
+      "**Tešiť sa na** ობიექტის ფორმას მოითხოვს, ამიტომ prednáška -a-ს **-u**-თი ცვლის: na **prednášku**. Na prednáške lokál-ია: მოხსენებაზე ყოფნა."
+    ]
   },
   "u9-l1.14.answers": {
     "en": [
@@ -368,6 +388,16 @@
     "en": "We're learning Slovak.",
     "t": "სლოვაკურს ვსწავლობთ."
   },
+  "u9-l2.5.traps": {
+    "en": [
+      "**Učiť sa** (to learn) always comes with **sa**, and sa stays the same for everyone: Učíme **sa**.",
+      "Slovak is what you learn, the object, so slovenčina changes -a to **-u**: učíme sa **slovenčinu**."
+    ],
+    "t": [
+      "**Učiť sa** (სწავლა) ყოველთვის **sa**-თი მოდის, sa კი ყველა პირისთვის ერთია: Učíme **sa**.",
+      "სლოვაკური ობიექტია (ქართულშიც: „სლოვაკურს ვსწავლობთ“), ამიტომ slovenčina -a-ს **-u**-თი ცვლის: učíme sa **slovenčinu**."
+    ]
+  },
   "u9-l2.6.en": {
     "en": "I'm really looking forward to the conference.",
     "t": "კონფერენციას ძალიან ველოდები."
@@ -476,6 +506,16 @@
     "en": "Emma and Tomáš will meet at the conference.",
     "t": "ემა და ტომაში ერთმანეთს კონფერენციაზე შეხვდებიან."
   },
+  "u9-l2.10.traps": {
+    "en": [
+      "Emma and Tomáš are two people (oni), so the verb ends in **-ú**: **stretnú** sa. Stretne is for one person (on, ona).",
+      "Meeting at the conference answers “where?”, so **na** takes the locative: na **konferencii**. Na konferenciu is for going there."
+    ],
+    "t": [
+      "ემა და ტომაში ორნი არიან (oni), ამიტომ ზმნა **-ú**-ზე ბოლოვდება: **stretnú** sa. Stretne ერთი ადამიანისთვისაა (on, ona).",
+      "კონფერენციაზე შეხვედრა „სად?“-ს პასუხობს, ამიტომ **na** lokál-ს მოითხოვს: na **konferencii**. Na konferenciu იქ წასვლისთვისაა."
+    ]
+  },
   "u9-l2.11.en": {
     "en": "When are you coming back from the conference?",
     "t": "როდის დაბრუნდები კონფერენციიდან?"
@@ -487,6 +527,16 @@
   "u9-l2.12.prompt": {
     "en": "I'll be back at five.",
     "t": "ხუთ საათზე დავბრუნდები."
+  },
+  "u9-l2.12.traps": {
+    "en": [
+      "Coming back is **vrátiť sa**, with sa: Vrátim **sa**. Without sa, vrátiť means to return something, like a book.",
+      "Here **ja** (I) is speaking, so the verb ends in **-m**: **Vrátim** sa. Vrátiš goes with ty."
+    ],
+    "t": [
+      "დაბრუნება არის **vrátiť sa**, sa-თი: Vrátim **sa**. sa-ს გარეშე vrátiť ნიშნავს რისამე დაბრუნებას, მაგალითად წიგნისა.",
+      "აქ ლაპარაკობს **ja** (მე), ამიტომ ზმნა **-m**-ზე ბოლოვდება: **Vrátim** sa. Vrátiš ty-სთან დგას."
+    ]
   },
   "u9-l2.13.pairs": {
     "en": [
@@ -635,6 +685,16 @@
   "u9-l3.12.prompt": {
     "en": "I have to print the registration form.",
     "t": "სარეგისტრაციო ფორმა უნდა დავბეჭდო."
+  },
+  "u9-l3.12.traps": {
+    "en": [
+      "The form is what you print, the object, so prihláška changes -a to **-u**: vytlačiť **prihlášku**.",
+      "To print is **vytlačiť**, from the same word as tlačiareň (printer). Uložiť means to save a file."
+    ],
+    "t": [
+      "ფორმა ის არის, რასაც ბეჭდავთ, ანუ ობიექტი, ამიტომ prihláška -a-ს **-u**-თი ცვლის: vytlačiť **prihlášku**.",
+      "დაბეჭდვა არის **vytlačiť**, იმავე სიტყვიდან, რაც tlačiareň (პრინტერი). Uložiť ფაილის შენახვას ნიშნავს."
+    ]
   },
   "u9-l3.13.en": {
     "en": "to send by e-mail",
@@ -895,6 +955,16 @@
     "en": "Emma bought herself a T-shirt.",
     "t": "ემამ თავისთვის მაისური იყიდა."
   },
+  "u9-l4.5.traps": {
+    "en": [
+      "Buying something for yourself is **kúpiť si**, like dať si kávu: **si** kúpila tričko. Si means “for yourself”, with the thing after it.",
+      "Emma is a woman, so the past tense ends in **-la**: **kúpila**. Kúpil is for a man."
+    ],
+    "t": [
+      "თავისთვის რისამე ყიდვა არის **kúpiť si**, როგორც dať si kávu: **si** kúpila tričko. Si ნიშნავს „თავისთვის“, და მის შემდეგ საგანი მოდის.",
+      "ემა ქალია, ამიტომ წარსული **-la**-ზე ბოლოვდება: **kúpila**. Kúpil კაცისთვისაა."
+    ]
+  },
   "u9-l4.6.en": {
     "en": "When did you come back?",
     "t": "როდის დაბრუნდი?"
@@ -991,6 +1061,16 @@
     "en": "We met at the conference.",
     "t": "კონფერენციაზე შევხვდით ერთმანეთს."
   },
+  "u9-l4.9.traps": {
+    "en": [
+      "Meeting up is **stretnúť sa**, a verb with sa, and sa comes right after sme: Stretli sme **sa**.",
+      "With my (we), the past form ends in **-li** and takes sme: **Stretli** sme sa. Stretol is for one man."
+    ],
+    "t": [
+      "შეხვედრა არის **stretnúť sa**, sa-იანი ზმნა, sa კი პირდაპირ sme-ს შემდეგ დგას: Stretli sme **sa**.",
+      "my-სთან (ჩვენ) წარსულის ფორმა **-li**-ზე ბოლოვდება და sme-ს იღებს: **Stretli** sme sa. Stretol ერთი კაცისთვისაა."
+    ]
+  },
   "u9-l4.10.question": {
     "en": "Which word order is correct?",
     "t": "სიტყვების რომელი რიგია სწორი?"
@@ -1002,6 +1082,16 @@
   "u9-l4.11.prompt": {
     "en": "Tomáš came back at six.",
     "t": "ტომაში ექვს საათზე დაბრუნდა."
+  },
+  "u9-l4.11.traps": {
+    "en": [
+      "Coming back is **vrátiť sa**, a verb with sa: Tomáš **sa** vrátil. Si (for yourself) needs an object after it, like dať si kávu.",
+      "Tomáš is a man, so the past form ends in **-l**: **vrátil**. Vrátila is for a woman."
+    ],
+    "t": [
+      "დაბრუნება არის **vrátiť sa**, sa-იანი ზმნა: Tomáš **sa** vrátil. Si-ს („თავისთვის“) შემდეგ ობიექტი უნდა მოდიოდეს, როგორც dať si kávu-ში.",
+      "ტომაში კაცია, ამიტომ წარსულის ფორმა **-l**-ზე ბოლოვდება: **vrátil**. Vrátila ქალისთვისაა."
+    ]
   },
   "u9-l4.12.en": {
     "en": "Lucia called a taxi.",
@@ -1148,6 +1238,16 @@
     "en": "My employer is a company in Košice.",
     "t": "ჩემი დამსაქმებელი არის ფირმა კოშიცეში."
   },
+  "u9-l5.9.traps": {
+    "en": [
+      "Zamestnávateľ is masculine (it ends in a consonant), so “my” is **Môj**. Moja is for feminine words like firma.",
+      "After **v** (in) comes the locative. Košice is plural, so it takes a plural ending: v **Košiciach**."
+    ],
+    "t": [
+      "Zamestnávateľ მამრობითია (თანხმოვანზე ბოლოვდება), ამიტომ „ჩემი“ არის **Môj**. Moja მდედრობითი სიტყვებისთვისაა, როგორიცაა firma.",
+      "**v**-ს („-ში“) შემდეგ lokál მოდის. Košice მრავლობითია, ამიტომ მრავლობითის დაბოლოებას იღებს: v **Košiciach**."
+    ]
+  },
   "u9-l5.10.en": {
     "en": "Please sign here.",
     "t": "აქ მოაწერეთ ხელი, გთხოვთ."
@@ -1175,6 +1275,16 @@
   "u9-l5.13.prompt": {
     "en": "I liked the lecture.",
     "t": "ლექცია მომეწონა."
+  },
+  "u9-l5.13.traps": {
+    "en": [
+      "With páčiť sa, the verb agrees with what you like: prednáška is feminine, so **Páčila**. Páčil goes with a masculine word, like program.",
+      "**Páčiť sa** (to please) is a verb with sa, and it's always **sa**: Páčila **sa** mi."
+    ],
+    "t": [
+      "ქართულ „მომეწონა“-ს მსგავსად, ზმნა მოწონებულ საგანს ეთანხმება, სლოვაკურში მის სქესსაც: prednáška მდედრობითია, ამიტომ **Páčila**. Páčil მამრობითთან დგას (program).",
+      "**Páčiť sa** (მოწონება) sa-იანი ზმნაა, და ყოველთვის **sa**-ა: Páčila **sa** mi."
+    ]
   },
   "u9-l5.14.question": {
     "en": "Which one is correct?",
@@ -1240,6 +1350,16 @@
     "en": "I have to save the presentation.",
     "t": "პრეზენტაცია უნდა შევინახო."
   },
+  "u9-l6.2.traps": {
+    "en": [
+      "The presentation is what you save, the object, so prezentácia changes -a to **-u**: uložiť **prezentáciu**.",
+      "To save is **uložiť**, as in uložiť súbor. Otvoriť means to open."
+    ],
+    "t": [
+      "პრეზენტაცია ის არის, რასაც ინახავთ, ანუ ობიექტი, ამიტომ prezentácia -a-ს **-u**-თი ცვლის: uložiť **prezentáciu**.",
+      "შენახვა არის **uložiť**, როგორც uložiť súbor. Otvoriť ნიშნავს „გახსნას“."
+    ]
+  },
   "u9-l6.3.en": {
     "en": "We met during the break.",
     "t": "შესვენებაზე შევხვდით ერთმანეთს."
@@ -1275,6 +1395,16 @@
   "u9-l6.6.prompt": {
     "en": "Where can I register?",
     "t": "სად შემიძლია დარეგისტრირება?"
+  },
+  "u9-l6.6.traps": {
+    "en": [
+      "To register is **zaregistrovať sa**, a verb with sa, and sa takes second place, right after kde: Kde **sa** môžem…",
+      "The question is about **ja** (I), so môcť is **môžem**. Môžeš goes with ty."
+    ],
+    "t": [
+      "რეგისტრაცია არის **zaregistrovať sa**, sa-იანი ზმნა, sa კი მეორე ადგილზე დგას, პირდაპირ kde-ს შემდეგ: Kde **sa** môžem…",
+      "კითხვა **ja**-ს (მე) ეხება, ამიტომ môcť არის **môžem**. Môžeš ty-სთან დგას."
+    ]
   },
   "u9-l6.7.en": {
     "en": "What is your occupation?",
@@ -1330,6 +1460,16 @@
   "u9-l6.13.prompt": {
     "en": "Emma and Lucia are looking forward to the conference.",
     "t": "ემა და ლუცია მოუთმენლად ელოდებიან კონფერენციას."
+  },
+  "u9-l6.13.traps": {
+    "en": [
+      "Emma and Lucia are two people (ony), so the verb is **tešia**. Teší is for one person (on, ona).",
+      "**Tešiť sa na** takes the object form, so konferencia changes -a to **-u**: na **konferenciu**. Na konferencii means at the conference."
+    ],
+    "t": [
+      "ემა და ლუცია ორნი არიან (ony), ამიტომ ზმნაა **tešia**. Teší ერთი ადამიანისთვისაა (on, ona).",
+      "**Tešiť sa na** ობიექტის ფორმას მოითხოვს, ამიტომ konferencia -a-ს **-u**-თი ცვლის: na **konferenciu**. Na konferencii ნიშნავს იქ ყოფნას, „კონფერენციაზე“."
+    ]
   },
   "u9-l6.14.en": {
     "en": "Tomáš had a coffee during the break.",

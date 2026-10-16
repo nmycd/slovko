@@ -153,9 +153,31 @@
     "en": "Goodbye, Mrs Horváthová.",
     "t": "Xayr, Horvatova xonim."
   },
+  "u1-l1.14.traps": {
+    "en": [
+      "Pani Horváthová gets the polite goodbye, **Dovidenia**. Ahoj! is only for friends, family and children.",
+      "**Pani** is Mrs, for a woman: pani Horváthová. Pán is Mr, for a man, as in pán Kováč."
+    ],
+    "t": [
+      "Horvatova xonimga hurmatli xayrlashuv kerak: **Dovidenia**. Ahoj! faqat doʻstlar, oila aʼzolari va bolalar uchun.",
+      "**Pani** — «xonim», ayolga aytiladi: pani Horváthová. Pán esa «janob», erkakka aytiladi: pán Kováč."
+    ]
+  },
   "u1-l1.15.prompt": {
     "en": "Good evening, Mr Kováč.",
     "t": "Xayrli kech, janob Kovach."
+  },
+  "u1-l1.15.traps": {
+    "en": [
+      "Večer takes **dobrý**, just like dobrý deň. The ending -ú goes with noc and chuť: dobrú noc.",
+      "**Pán** is Mr, for a man: pán Kováč. Pani is Mrs, for a woman, as in pani Horváthová.",
+      "Good evening is Dobrý **večer**, a greeting when you meet. Dobrú noc is only for bedtime, never a greeting."
+    ],
+    "t": [
+      "Večer bilan **dobrý** keladi, xuddi dobrý deň kabi. -ú qoʻshimchasi esa noc va chuť bilan keladi: dobrú noc.",
+      "**Pán** — «janob», erkakka aytiladi: pán Kováč. Pani esa «xonim», ayolga aytiladi: pani Horváthová.",
+      "«Xayrli kech» — Dobrý **večer**, uchrashganda aytiladigan salom. Dobrú noc faqat uxlashdan oldin aytiladi, u salom emas."
+    ]
   },
   "u1-l1.16.en": {
     "en": "Good night, Lucia.",
@@ -240,6 +262,16 @@
   "u1-l2.8.prompt": {
     "en": "Thank you very much.",
     "t": "Katta rahmat."
+  },
+  "u1-l2.8.traps": {
+    "en": [
+      "Thank you is **Ďakujem**. Prosím means please, or you're welcome as the reply to ďakujem.",
+      "**Pekne** makes the thanks warmer: thank you very much. Nie, ďakujem means no, thank you, turning an offer down."
+    ],
+    "t": [
+      "«Rahmat» — **Ďakujem**. Prosím esa «iltimos», ďakujem soʻziga javoban esa «arzimaydi» degani.",
+      "**Pekne** minnatdorchilikni samimiyroq qiladi: «katta rahmat». Nie, ďakujem esa «yoʻq, rahmat», yaʼni taklifni rad etish."
+    ]
   },
   "u1-l2.9.en": {
     "en": "Sorry! / Excuse me!",
@@ -401,6 +433,16 @@
     "en": "My name is Tomáš.",
     "t": "Ismim Tomash."
   },
+  "u1-l3.10.traps": {
+    "en": [
+      "You're giving your own name, so it's **Volám** sa (I). Voláš is for “you”: Ako sa voláš?",
+      "Your name goes with **Volám** sa, literally “I call myself”. Mám sa is about how you are: Mám sa dobre."
+    ],
+    "t": [
+      "Oʻz ismingizni aytyapsiz, shuning uchun **Volám** sa («men»). Voláš esa «sen» uchun: Ako sa voláš?",
+      "Ism **Volám** sa bilan aytiladi, soʻzma-soʻz «oʻzimni chaqiraman». Mám sa esa hol-ahvol haqida: Mám sa dobre."
+    ]
+  },
   "u1-l3.11.en": {
     "en": "Nice to meet you.",
     "t": "Tanishganimdan xursandman."
@@ -452,6 +494,16 @@
   "u1-l3.16.prompt": {
     "en": "Hi! How are you?",
     "t": "Salom! Qalaysan?"
+  },
+  "u1-l3.16.traps": {
+    "en": [
+      "You're asking about the other person, so it's **máš** (you). Mám is for “I”: Mám sa dobre.",
+      "How are you? is Ako sa **máš**? Ako sa voláš? asks for someone's name."
+    ],
+    "t": [
+      "Siz boshqa odamning ahvolini soʻrayapsiz, shuning uchun **máš** («sen»). Mám esa «men» uchun: Mám sa dobre.",
+      "«Qalaysan?» — Ako sa **máš**? Ako sa voláš? esa ismni soʻraydi."
+    ]
   },
   "u1-l3.17.en": {
     "en": "Nice to meet you.",
@@ -572,6 +624,14 @@
   "u1-l4.4.prompt": {
     "en": "Do you speak Slovak? (polite)",
     "t": "Slovakcha gapirasizmi? (siz)"
+  },
+  "u1-l4.4.traps": {
+    "en": [
+      "A polite question takes **vy**, so the verb ends in **-te**: Hovorí**te**. Hovoríš is the ty form, for friends and family."
+    ],
+    "t": [
+      "Hurmat bilan soʻralganda **vy** (siz) ishlatiladi, shuning uchun feʼl **-te** bilan tugaydi: Hovorí**te**. Hovoríš — ty (sen) shakli, doʻstlar va oila uchun."
+    ]
   },
   "u1-l4.5.question": {
     "en": "Emma meets Lucia and Tomáš together. How does she ask how they are?",
@@ -694,6 +754,16 @@
   "u1-l4.9.prompt": {
     "en": "Take care, Lucia!",
     "t": "Yaxshi qol, Lusiya!"
+  },
+  "u1-l4.9.traps": {
+    "en": [
+      "Lucia is one friend, so use ty: **Maj** sa! Majte sa, with -te, is for vy or a group.",
+      "Take care is **Maj** sa. Ahojte! is hello to a group of friends, and Lucia is just one person."
+    ],
+    "t": [
+      "Lusiya — bitta doʻst, shuning uchun ty (sen): **Maj** sa! -te bilan Majte sa esa vy (siz) yoki guruh uchun.",
+      "«Yaxshi qol» — **Maj** sa. Ahojte! esa bir guruh doʻstlarga aytiladigan salom, Lusiya esa bitta odam."
+    ]
   },
   "u1-l4.10.en": {
     "en": "Hi, Emma! Welcome to Slovakia!",
@@ -1089,6 +1159,16 @@
     "en": "I'm fine, thank you.",
     "t": "Yaxshiman, rahmat."
   },
+  "u1-l5.13.traps": {
+    "en": [
+      "With a short e, **dobre** means fine or well: Mám sa dobre. Dobré, with a long é, goes with ráno: Dobré ráno.",
+      "You're saying how you are yourself, so it's **Mám** (I). Máš is for “you”: Ako sa máš?"
+    ],
+    "t": [
+      "Qisqa e bilan **dobre** «yaxshi» degani: Mám sa dobre. Choʻziq é bilan dobré esa ráno bilan keladi: Dobré ráno.",
+      "Siz oʻz ahvolingizni aytyapsiz, shuning uchun **Mám** («men»). Máš esa «sen» uchun: Ako sa máš?"
+    ]
+  },
   "u1-l5.14.en": {
     "en": "Enjoy your meal!",
     "t": "Yoqimli ishtaha!"
@@ -1108,6 +1188,16 @@
   "u1-l6.1.prompt": {
     "en": "Hi, Lucia! How are you?",
     "t": "Salom, Lusiya! Qalaysan?"
+  },
+  "u1-l6.1.traps": {
+    "en": [
+      "Ahoj and one friend, Lucia, mean **ty**, so the verb ends in **-š**: má**š**. Máte is for vy.",
+      "How are you? is Ako sa **máš**? Ako sa voláš? asks for someone's name."
+    ],
+    "t": [
+      "Ahoj va bitta doʻst, Lusiya — demak **ty** (sen), shuning uchun feʼl **-š** bilan tugaydi: má**š**. Máte esa vy (siz) uchun.",
+      "«Qalaysan?» — Ako sa **máš**? Ako sa voláš? esa ismni soʻraydi."
+    ]
   },
   "u1-l6.2.en": {
     "en": "I'm great, and you?",
@@ -1191,6 +1281,16 @@
     "en": "Sorry! — That's OK.",
     "t": "Kechirasiz! — Hech qisi yoʻq."
   },
+  "u1-l6.9.traps": {
+    "en": [
+      "The set reply is **Nič** sa nestalo, literally “nothing happened”. Nie just means no.",
+      "That's OK is Nič sa **nestalo**, literally “nothing happened”. Páči belongs in Nech sa páči, here you go."
+    ],
+    "t": [
+      "Tayyor javob — **Nič** sa nestalo, soʻzma-soʻz «hech narsa boʻlmadi». Nie esa shunchaki «yoʻq» degani.",
+      "«Hech qisi yoʻq» — Nič sa **nestalo**, soʻzma-soʻz «hech narsa boʻlmadi». Páči esa Nech sa páči («marhamat») iborasidan."
+    ]
+  },
   "u1-l6.10.en": {
     "en": "Goodbye, Mrs Horváthová.",
     "t": "Xayr, Horvatova xonim."
@@ -1206,6 +1306,16 @@
   "u1-l6.12.prompt": {
     "en": "My name is Emma. Nice to meet you.",
     "t": "Ismim Emma. Tanishganimdan xursandman."
+  },
+  "u1-l6.12.traps": {
+    "en": [
+      "You're giving your own name, so it's **Volám** sa (I). Voláš is for “you”: Ako sa voláš?",
+      "Nice to meet you is Teší **ma**. Mňa belongs in the reply: Aj mňa, nice to meet you too."
+    ],
+    "t": [
+      "Oʻz ismingizni aytyapsiz, shuning uchun **Volám** sa («men»). Voláš esa «sen» uchun: Ako sa voláš?",
+      "«Tanishganimdan xursandman» — Teší **ma**. Mňa esa javobda keladi: Aj mňa, «men ham xursandman»."
+    ]
   },
   "u1-l6.13.en": {
     "en": "Do you speak Slovak? — Yes, a little.",

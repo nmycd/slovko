@@ -100,6 +100,10 @@ export const unit8: Unit = {
           promptLang: "en",
           answers: ["Firma hľadá nového programátora."],
           distractors: ["nový", "programátor"],
+          traps: [
+            { wrong: "nový", right: "nového", why: "A man is the object of hľadá, so his adjective ends in **-ého**: nov**ého**. Nový is the plain form." },
+            { wrong: "programátor", right: "programátora", why: "A programmer is a person and the object of hľadá, so the masculine word adds **-a**: programátor**a**. Programátor is the plain form." },
+          ],
         },
         { type: "listen", sk: "Zajtra mám pohovor.", en: "I have a job interview tomorrow." },
         {
@@ -118,6 +122,10 @@ export const unit8: Unit = {
           promptLang: "en",
           answers: ["Emma píše životopis."],
           distractors: ["pohovor", "píšem"],
+          traps: [
+            { wrong: "pohovor", right: "životopis", why: "A CV is a **životopis**. A pohovor is a job interview: you have one (mám pohovor), you don't write it." },
+            { wrong: "píšem", right: "píše", why: "Emma is ona, and with on or ona the verb has no ending: **píše**. Píšem is the ja form." },
+          ],
         },
         {
           type: "build",
@@ -221,6 +229,10 @@ export const unit8: Unit = {
           promptLang: "en",
           answers: ["V piatok mám pohovor.", "Mám pohovor v piatok.", "Pohovor mám v piatok."],
           distractors: ["piatku", "vo"],
+          traps: [
+            { wrong: "piatku", right: "piatok", why: "“On” a day is v + the plain day: v **piatok**, like v pondelok. Only days ending in -a change, to -u: v stredu." },
+            { wrong: "vo", right: "V", why: "“On” a day is v + the day: **v** piatok. Vo is only for štvrtok: vo štvrtok." },
+          ],
         },
         {
           type: "grammar",
@@ -390,6 +402,10 @@ export const unit8: Unit = {
           promptLang: "en",
           answers: ["Dnes je prvého októbra."],
           distractors: ["prvý", "október"],
+          traps: [
+            { wrong: "prvý", right: "prvého", why: "In a date the ordinal ends in **-ého**: prv**ého** októbra. Prvý is the plain ordinal, first." },
+            { wrong: "október", right: "októbra", why: "In a date the month changes too (“of October”): add **-a**, and months in -ber lose their e: októbr**a**." },
+          ],
         },
         {
           type: "grammar",
@@ -451,6 +467,10 @@ export const unit8: Unit = {
           promptLang: "en",
           answers: ["Narodila som sa desiateho júla.", "Desiateho júla som sa narodila."],
           distractors: ["desiaty", "júl"],
+          traps: [
+            { wrong: "desiaty", right: "desiateho", why: "A date uses the ordinal ending in -ého, shortened to **-eho** after a long syllable like ia: desiat**eho**. Desiaty is the plain ordinal." },
+            { wrong: "júl", right: "júla", why: "In a date the month changes too (“of July”): most months add **-a**: júl**a**. Júl is the plain form." },
+          ],
         },
         {
           type: "fill",
@@ -530,6 +550,10 @@ export const unit8: Unit = {
           promptLang: "en",
           answers: ["Nikto nie je doma.", "Doma nikto nie je.", "Doma nie je nikto.", "Nikto doma nie je."],
           distractors: ["niekto", "som"],
+          traps: [
+            { wrong: "niekto", right: "Nikto", why: "Nobody is **nikto**, and like every ni- word it goes with a negative verb: nie je. Niekto means somebody." },
+            { wrong: "som", right: "je", why: "Nikto (nobody) goes with the on or ona form of byť: nikto nie **je**. Som is only for ja (I)." },
+          ],
         },
         {
           type: "build",
@@ -595,6 +619,10 @@ export const unit8: Unit = {
           promptLang: "en",
           answers: ["Nikdy nemám čas.", "Ja nikdy nemám čas."],
           distractors: ["mám", "niekedy"],
+          traps: [
+            { wrong: "mám", right: "nemám", why: "**Nikdy** (never) always needs a negative verb, so mať becomes **ne**mám. This double negative is normal Slovak." },
+            { wrong: "niekedy", right: "Nikdy", why: "Never is **nikdy**, the ni- word that goes with the negative verb nemám. Niekedy, with nie-, means sometimes." },
+          ],
         },
         {
           type: "fill",
@@ -706,6 +734,10 @@ export const unit8: Unit = {
           promptLang: "en",
           answers: ["Bývame v Bratislave.", "My bývame v Bratislave.", "V Bratislave bývame."],
           distractors: ["Bratislava", "na"],
+          traps: [
+            { wrong: "Bratislava", right: "Bratislave", why: "Where? takes the locative after v, and most feminine nouns end in **-e**: Bratislav**e**. Bratislava is the plain form." },
+            { wrong: "na", right: "v", why: "Most places, cities too, take **v** (in): v Bratislave. Na is for set phrases like na pošte or na Slovensku." },
+          ],
         },
         {
           type: "fill",
@@ -766,6 +798,10 @@ export const unit8: Unit = {
           promptLang: "en",
           answers: ["Marek pracuje v malej reštaurácii."],
           distractors: ["malom", "reštaurácia"],
+          traps: [
+            { wrong: "malom", right: "malej", why: "Reštaurácia is feminine, so in the locative its adjective ends in **-ej**: mal**ej**. Malom is for masculine and neuter nouns." },
+            { wrong: "reštaurácia", right: "reštaurácii", why: "Where? takes the locative, and nouns in -ia get **-ii**: reštaurácia → reštauráci**i**. Reštaurácia is the plain form." },
+          ],
         },
         {
           type: "build",
@@ -869,6 +905,10 @@ export const unit8: Unit = {
           promptLang: "en",
           answers: ["Čo viete o našej firme?"],
           distractors: ["naša", "firmu"],
+          traps: [
+            { wrong: "naša", right: "našej", why: "After **o** (about) comes the locative, and náš with a feminine noun ends in **-ej**: naš**ej** firme. Naša is the plain form." },
+            { wrong: "firmu", right: "firme", why: "**O** (about) takes the locative, so firma ends in **-e**: o firm**e**. Firmu is the object form." },
+          ],
         },
         { type: "listen", sk: "Povedzte mi niečo o sebe.", en: "Tell me something about yourself." },
         {
@@ -914,6 +954,10 @@ export const unit8: Unit = {
           promptLang: "en",
           answers: ["Po obede mám pohovor.", "Mám pohovor po obede."],
           distractors: ["obed", "na"],
+          traps: [
+            { wrong: "obed", right: "obede", why: "**Po** (after) takes the locative, so obed adds **-e**: po obed**e**. Obed is the plain form." },
+            { wrong: "na", right: "Po", why: "“After” is **po**, and it takes the locative: po obede. Na means on or at, as in na porade (at a meeting)." },
+          ],
         },
         {
           type: "choice",
@@ -962,6 +1006,10 @@ export const unit8: Unit = {
           promptLang: "en",
           answers: ["Emma sa narodila v Dubline."],
           distractors: ["Dublin", "narodil"],
+          traps: [
+            { wrong: "Dublin", right: "Dubline", why: "Where? takes the locative after v, and masculine places mostly add **-e**: v Dublin**e**, like v obchode. Dublin is the plain form." },
+            { wrong: "narodil", right: "narodila", why: "Emma is a woman, so the past tense ends in **-la**: narodil**a** sa. Narodil is for a man." },
+          ],
         },
         { type: "listen", sk: "Študujem na univerzite v Bratislave.", en: "I study at the university in Bratislava." },
         {
@@ -1016,6 +1064,10 @@ export const unit8: Unit = {
           promptLang: "en",
           answers: ["Hovoríme o ňom.", "My hovoríme o ňom.", "O ňom hovoríme."],
           distractors: ["on", "nej"],
+          traps: [
+            { wrong: "on", right: "ňom", why: "After **o** (about), pronouns take their locative form: on becomes **ňom**. On is the plain form, he." },
+            { wrong: "nej", right: "ňom", why: "Him is on, and after o, on becomes **ňom**. Nej is ona (her) after a preposition." },
+          ],
         },
         {
           type: "fill",
@@ -1049,6 +1101,10 @@ export const unit8: Unit = {
           promptLang: "en",
           answers: ["Dnes je štrnásteho októbra."],
           distractors: ["štrnásty", "októbri"],
+          traps: [
+            { wrong: "štrnásty", right: "štrnásteho", why: "A date uses the ordinal ending in -ého, shortened to **-eho** after a long syllable like á: štrnást**eho**. Štrnásty is the plain ordinal." },
+            { wrong: "októbri", right: "októbra", why: "In a date the month takes **-a** (“of October”): októbr**a**. Októbri is for “in October”: v októbri." },
+          ],
         },
       ],
     },

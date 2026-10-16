@@ -23,7 +23,7 @@ import {
 } from "@/components/lesson/exercises";
 import { RichText } from "@/components/lesson/rich-text";
 import { VolumeSlider } from "@/components/lesson/volume-slider";
-import { checkBuilt, checkSpelled, checkTyped, shuffle, toTiles } from "@/lib/answers";
+import { checkBuiltAnswer, checkSpelled, checkTyped, shuffle, toTiles } from "@/lib/answers";
 import { playSlovak, preloadLesson, stopSlovak } from "@/lib/audio";
 import { fillSentence, speakableTexts } from "@/lib/course/helpers";
 import type { Illustration } from "@/lib/course/illustrations";
@@ -56,7 +56,8 @@ function grade(ex: Exercise, answer: Answer, tiles: string[]): Resolution {
       };
     case "build": {
       const words = Array.isArray(answer) ? answer.map((i) => tiles[i]) : [];
-      return { ...checkBuilt(words, ex.answers), solution: ex.answers[0] };
+      const { whys, ...result } = checkBuiltAnswer(words, ex.answers, ex.traps);
+      return { ...result, why: whys.length ? whys.join(" ") : undefined };
     }
     case "listen":
       return {

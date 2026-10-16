@@ -153,9 +153,31 @@
     "en": "Goodbye, Mrs Horváthová.",
     "t": "ნახვამდის, ქალბატონო ჰორვატოვა."
   },
+  "u1-l1.14.traps": {
+    "en": [
+      "Pani Horváthová gets the polite goodbye, **Dovidenia**. Ahoj! is only for friends, family and children.",
+      "**Pani** is Mrs, for a woman: pani Horváthová. Pán is Mr, for a man, as in pán Kováč."
+    ],
+    "t": [
+      "ქალბატონ ჰორვატოვას თავაზიანად ემშვიდობებიან: **Dovidenia**. Ahoj! მხოლოდ მეგობრებთან, ოჯახში და ბავშვებთან ითქმის.",
+      "**Pani** ნიშნავს „ქალბატონს“: pani Horváthová. Pán „ბატონია“, კაცზე ითქმის: pán Kováč."
+    ]
+  },
   "u1-l1.15.prompt": {
     "en": "Good evening, Mr Kováč.",
     "t": "საღამო მშვიდობისა, ბატონო კოვაჩ."
+  },
+  "u1-l1.15.traps": {
+    "en": [
+      "Večer takes **dobrý**, just like dobrý deň. The ending -ú goes with noc and chuť: dobrú noc.",
+      "**Pán** is Mr, for a man: pán Kováč. Pani is Mrs, for a woman, as in pani Horváthová.",
+      "Good evening is Dobrý **večer**, a greeting when you meet. Dobrú noc is only for bedtime, never a greeting."
+    ],
+    "t": [
+      "ქართული „კარგი“ არ იცვლება, სლოვაკურში კი večer-ს სჭირდება **dobrý**, ისევე როგორც dobrý deň-ში. -ú noc-სა და chuť-ს შეეფერება: dobrú noc.",
+      "**Pán** ნიშნავს „ბატონს“, კაცზე ითქმის: pán Kováč. Pani „ქალბატონია“: pani Horváthová.",
+      "„საღამო მშვიდობისა“ არის Dobrý **večer**, შეხვედრისას ითქმის. Dobrú noc მხოლოდ ძილის წინ ითქმის და მისალმება არასდროსაა."
+    ]
   },
   "u1-l1.16.en": {
     "en": "Good night, Lucia.",
@@ -240,6 +262,16 @@
   "u1-l2.8.prompt": {
     "en": "Thank you very much.",
     "t": "დიდი მადლობა."
+  },
+  "u1-l2.8.traps": {
+    "en": [
+      "Thank you is **Ďakujem**. Prosím means please, or you're welcome as the reply to ďakujem.",
+      "**Pekne** makes the thanks warmer: thank you very much. Nie, ďakujem means no, thank you, turning an offer down."
+    ],
+    "t": [
+      "„გმადლობთ“ არის **Ďakujem**. Prosím ნიშნავს „გთხოვთ“, ან „არაფრის“, როცა ďakujem-ს პასუხობენ.",
+      "**Pekne** მადლობას უფრო თბილს ხდის: Ďakujem pekne = დიდი მადლობა. Nie, ďakujem ნიშნავს „არა, გმადლობთ“, ანუ შეთავაზებაზე უარს."
+    ]
   },
   "u1-l2.9.en": {
     "en": "Sorry! / Excuse me!",
@@ -402,6 +434,16 @@
     "en": "My name is Tomáš.",
     "t": "მე ტომაში მქვია."
   },
+  "u1-l3.10.traps": {
+    "en": [
+      "You're giving your own name, so it's **Volám** sa (I). Voláš is for “you”: Ako sa voláš?",
+      "Your name goes with **Volám** sa, literally “I call myself”. Mám sa is about how you are: Mám sa dobre."
+    ],
+    "t": [
+      "საკუთარ სახელს ამბობთ, ამიტომ **Volám** sa (მე). Voláš „შენ“-ისთვისაა: Ako sa voláš? = რა გქვია?",
+      "სახელი ითქმის **Volám** sa-თი, სიტყვასიტყვით „საკუთარ თავს ვეძახი“. Mám sa იმაზეა, როგორ ხართ: Mám sa dobre."
+    ]
+  },
   "u1-l3.11.en": {
     "en": "Nice to meet you.",
     "t": "სასიამოვნოა გაცნობა."
@@ -454,6 +496,16 @@
   "u1-l3.16.prompt": {
     "en": "Hi! How are you?",
     "t": "სალამი! როგორ ხარ?"
+  },
+  "u1-l3.16.traps": {
+    "en": [
+      "You're asking about the other person, so it's **máš** (you). Mám is for “I”: Mám sa dobre.",
+      "How are you? is Ako sa **máš**? Ako sa voláš? asks for someone's name."
+    ],
+    "t": [
+      "მეორე ადამიანს ეკითხებით, ამიტომ **máš** (შენ). Mám „მე“-ს ფორმაა: Mám sa dobre.",
+      "„როგორ ხარ?“ არის Ako sa **máš**? Ako sa voláš? კი სახელს კითხულობს."
+    ]
   },
   "u1-l3.17.en": {
     "en": "Nice to meet you.",
@@ -574,6 +626,14 @@
   "u1-l4.4.prompt": {
     "en": "Do you speak Slovak? (polite)",
     "t": "სლოვაკურად ლაპარაკობთ? (თქვენ)"
+  },
+  "u1-l4.4.traps": {
+    "en": [
+      "A polite question takes **vy**, so the verb ends in **-te**: Hovorí**te**. Hovoríš is the ty form, for friends and family."
+    ],
+    "t": [
+      "თავაზიან კითხვას **vy** (თქვენ) სჭირდება, ამიტომ ზმნა **-te**-ზე ბოლოვდება: Hovorí**te**. Hovoríš ty-ს (შენ) ფორმაა, მეგობრებისა და ოჯახისთვის."
+    ]
   },
   "u1-l4.5.question": {
     "en": "Emma meets Lucia and Tomáš together. How does she ask how they are?",
@@ -696,6 +756,16 @@
   "u1-l4.9.prompt": {
     "en": "Take care, Lucia!",
     "t": "კარგად იყავი, ლუცია!"
+  },
+  "u1-l4.9.traps": {
+    "en": [
+      "Lucia is one friend, so use ty: **Maj** sa! Majte sa, with -te, is for vy or a group.",
+      "Take care is **Maj** sa. Ahojte! is hello to a group of friends, and Lucia is just one person."
+    ],
+    "t": [
+      "ლუცია ერთი მეგობარია, ამიტომ ty (შენ): **Maj** sa! Majte sa, -te-თი, vy-სთვის ან ჯგუფისთვისაა.",
+      "„კარგად იყავი“ არის **Maj** sa. Ahojte! მეგობრების ჯგუფის მისალმებაა, ლუცია კი ერთია."
+    ]
   },
   "u1-l4.10.en": {
     "en": "Hi, Emma! Welcome to Slovakia!",
@@ -1091,6 +1161,16 @@
     "en": "I'm fine, thank you.",
     "t": "კარგად ვარ, გმადლობთ."
   },
+  "u1-l5.13.traps": {
+    "en": [
+      "With a short e, **dobre** means fine or well: Mám sa dobre. Dobré, with a long é, goes with ráno: Dobré ráno.",
+      "You're saying how you are yourself, so it's **Mám** (I). Máš is for “you”: Ako sa máš?"
+    ],
+    "t": [
+      "მოკლე e-თი **dobre** ნიშნავს „კარგად“: Mám sa dobre. Dobré, გრძელი é-თი, ráno-სთან დგას: Dobré ráno.",
+      "საკუთარ თავზე ამბობთ, როგორ ხართ, ამიტომ **Mám** (მე). Máš „შენ“-ისთვისაა: Ako sa máš?"
+    ]
+  },
   "u1-l5.14.en": {
     "en": "Enjoy your meal!",
     "t": "გემრიელად მიირთვით!"
@@ -1110,6 +1190,16 @@
   "u1-l6.1.prompt": {
     "en": "Hi, Lucia! How are you?",
     "t": "სალამი, ლუცია! როგორ ხარ?"
+  },
+  "u1-l6.1.traps": {
+    "en": [
+      "Ahoj and one friend, Lucia, mean **ty**, so the verb ends in **-š**: má**š**. Máte is for vy.",
+      "How are you? is Ako sa **máš**? Ako sa voláš? asks for someone's name."
+    ],
+    "t": [
+      "Ahoj და ერთი მეგობარი, ლუცია, ნიშნავს **ty**-ს (შენ), ამიტომ ზმნა **-š**-ზე ბოლოვდება: má**š**. Máte vy-სთვისაა.",
+      "„როგორ ხარ?“ არის Ako sa **máš**? Ako sa voláš? კი სახელს კითხულობს."
+    ]
   },
   "u1-l6.2.en": {
     "en": "I'm great, and you?",
@@ -1194,6 +1284,16 @@
     "en": "Sorry! — That's OK.",
     "t": "უკაცრავად! — არაუშავს."
   },
+  "u1-l6.9.traps": {
+    "en": [
+      "The set reply is **Nič** sa nestalo, literally “nothing happened”. Nie just means no.",
+      "That's OK is Nič sa **nestalo**, literally “nothing happened”. Páči belongs in Nech sa páči, here you go."
+    ],
+    "t": [
+      "მზა პასუხია **Nič** sa nestalo, სიტყვასიტყვით „არაფერი მომხდარა“. Nie უბრალოდ „არა“-ს ნიშნავს.",
+      "„არაუშავს“ არის Nič sa **nestalo**, სიტყვასიტყვით „არაფერი მომხდარა“. Páči კი Nech sa páči-ს ეკუთვნის, ანუ „ინებეთ“."
+    ]
+  },
   "u1-l6.10.en": {
     "en": "Goodbye, Mrs Horváthová.",
     "t": "ნახვამდის, ქალბატონო ჰორვატოვა."
@@ -1209,6 +1309,16 @@
   "u1-l6.12.prompt": {
     "en": "My name is Emma. Nice to meet you.",
     "t": "მე ემა მქვია. სასიამოვნოა გაცნობა."
+  },
+  "u1-l6.12.traps": {
+    "en": [
+      "You're giving your own name, so it's **Volám** sa (I). Voláš is for “you”: Ako sa voláš?",
+      "Nice to meet you is Teší **ma**. Mňa belongs in the reply: Aj mňa, nice to meet you too."
+    ],
+    "t": [
+      "საკუთარ სახელს ამბობთ, ამიტომ **Volám** sa (მე). Voláš „შენ“-ისთვისაა: Ako sa voláš? = რა გქვია?",
+      "„სასიამოვნოა გაცნობა“ არის Teší **ma**. Mňa პასუხშია: Aj mňa = ჩემთვისაც."
+    ]
   },
   "u1-l6.13.en": {
     "en": "Do you speak Slovak? — Yes, a little.",

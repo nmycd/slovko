@@ -141,6 +141,16 @@
     "en": "The company is looking for a new programmer.",
     "t": "Фирма ищет нового программиста."
   },
+  "u8-l1.12.traps": {
+    "en": [
+      "A man is the object of hľadá, so his adjective ends in **-ého**: nov**ého**. Nový is the plain form.",
+      "A programmer is a person and the object of hľadá, so the masculine word adds **-a**: programátor**a**. Programátor is the plain form."
+    ],
+    "t": [
+      "Программист — человек и дополнение к hľadá, поэтому его прилагательное на **-ého**: nov**ého**, как «нового». Nový — начальная форма.",
+      "Programátor — человек и дополнение к hľadá, поэтому получает **-a**: programátor**a**, как «ищет программиста». Programátor — начальная форма."
+    ]
+  },
   "u8-l1.13.en": {
     "en": "I have a job interview tomorrow.",
     "t": "Завтра у меня собеседование."
@@ -156,6 +166,16 @@
   "u8-l1.15.prompt": {
     "en": "Emma is writing a CV.",
     "t": "Эмма пишет резюме."
+  },
+  "u8-l1.15.traps": {
+    "en": [
+      "A CV is a **životopis**. A pohovor is a job interview: you have one (mám pohovor), you don't write it.",
+      "Emma is ona, and with on or ona the verb has no ending: **píše**. Píšem is the ja form."
+    ],
+    "t": [
+      "Резюме — **životopis**, дословно «жизнеописание». Pohovor — собеседование: его проходят (mám pohovor), а не пишут.",
+      "Эмма — ona, а с on или ona у глагола нет окончания: **píše** (пишет). Píšem — форма для ja."
+    ]
   },
   "u8-l1.16.answers": {
     "en": [
@@ -384,6 +404,16 @@
   "u8-l2.8.prompt": {
     "en": "I have a job interview on Friday.",
     "t": "В пятницу у меня собеседование."
+  },
+  "u8-l2.8.traps": {
+    "en": [
+      "“On” a day is v + the plain day: v **piatok**, like v pondelok. Only days ending in -a change, to -u: v stredu.",
+      "“On” a day is v + the day: **v** piatok. Vo is only for štvrtok: vo štvrtok."
+    ],
+    "t": [
+      "«В пятницу» — v **piatok**: v + день без изменений, как v pondelok. Меняются только дни на -a: v stredu.",
+      "«В пятницу» — просто **v** piatok. Vo — только перед štvrtok: vo štvrtok."
+    ]
   },
   "u8-l2.9.title": {
     "en": "Months",
@@ -858,6 +888,16 @@
     "en": "Today is the first of October.",
     "t": "Сегодня первое октября."
   },
+  "u8-l3.5.traps": {
+    "en": [
+      "In a date the ordinal ends in **-ého**: prv**ého** októbra. Prvý is the plain ordinal, first.",
+      "In a date the month changes too (“of October”): add **-a**, and months in -ber lose their e: októbr**a**."
+    ],
+    "t": [
+      "По-русски «сегодня первое», а по-словацки и здесь форма даты на **-ého**, как наше -ого: prv**ého** októbra. Prvý — просто «первый».",
+      "Месяц в дате тоже меняется, как «октября»: он получает **-a**, а месяцы на -ber теряют e: október → októbr**a**."
+    ]
+  },
   "u8-l3.6.title": {
     "en": "When were you born?",
     "t": "Когда вы родились?"
@@ -945,6 +985,16 @@
   "u8-l3.12.prompt": {
     "en": "Lucia: “I was born on the tenth of July.”",
     "t": "Луция: «Я родилась десятого июля»."
+  },
+  "u8-l3.12.traps": {
+    "en": [
+      "A date uses the ordinal ending in -ého, shortened to **-eho** after a long syllable like ia: desiat**eho**. Desiaty is the plain ordinal.",
+      "In a date the month changes too (“of July”): most months add **-a**: júl**a**. Júl is the plain form."
+    ],
+    "t": [
+      "В дате — порядковое на -ého, но после долгого слога (ia) окончание краткое, **-eho**: desiat**eho** (десятого). Desiaty — простое порядковое.",
+      "Месяц в дате тоже меняется, как «июля»: большинство месяцев получают **-a**, júl**a**. Júl — начальная форма."
+    ]
   },
   "u8-l3.13.en": {
     "en": "The interview is on the twenty-second of September.",
@@ -1096,6 +1146,16 @@
     "en": "Nobody is at home.",
     "t": "Дома никого нет."
   },
+  "u8-l4.4.traps": {
+    "en": [
+      "Nobody is **nikto**, and like every ni- word it goes with a negative verb: nie je. Niekto means somebody.",
+      "Nikto (nobody) goes with the on or ona form of byť: nikto nie **je**. Som is only for ja (I)."
+    ],
+    "t": [
+      "«Никто» — **nikto**, и, как все слова на ni-, требует отрицания: nie je. Niekto — это «кто-то».",
+      "С nikto глагол byť стоит в форме для on или ona: nikto nie **je** (по-русски «никого нет»). Som — только для ja."
+    ]
+  },
   "u8-l4.5.answers": {
     "en": [
       "Emma never drinks coffee."
@@ -1229,6 +1289,16 @@
   "u8-l4.11.prompt": {
     "en": "I never have time.",
     "t": "У меня никогда нет времени."
+  },
+  "u8-l4.11.traps": {
+    "en": [
+      "**Nikdy** (never) always needs a negative verb, so mať becomes **ne**mám. This double negative is normal Slovak.",
+      "Never is **nikdy**, the ni- word that goes with the negative verb nemám. Niekedy, with nie-, means sometimes."
+    ],
+    "t": [
+      "**Nikdy** (никогда), как и в русском, требует отрицания при глаголе: **ne**mám, слитно. По-русски «у меня нет», а здесь просто nemám.",
+      "«Никогда» — **nikdy**, слово на ni-, которое идёт с отрицанием nemám. Niekedy значит «иногда» (не путайте с русским «некогда»)."
+    ]
   },
   "u8-l4.12.en": {
     "en": "I'm looking for Tomáš, but I can't see him anywhere.",
@@ -1527,6 +1597,16 @@
     "en": "We live in Bratislava.",
     "t": "Мы живём в Братиславе."
   },
+  "u8-l5.5.traps": {
+    "en": [
+      "Where? takes the locative after v, and most feminine nouns end in **-e**: Bratislav**e**. Bratislava is the plain form.",
+      "Most places, cities too, take **v** (in): v Bratislave. Na is for set phrases like na pošte or na Slovensku."
+    ],
+    "t": [
+      "На вопрос «где?» после v — предложный падеж, и большинство слов женского рода получают **-e**: v Bratislav**e**, как «в Братиславе». Bratislava — начальная форма.",
+      "С большинством мест, и с городами тоже, — **v** (в): v Bratislave. Na — в готовых выражениях вроде na pošte или na Slovensku."
+    ]
+  },
   "u8-l5.6.en": {
     "en": "Lucia is in the park.",
     "t": "Луция в парке."
@@ -1638,6 +1718,16 @@
   "u8-l5.11.prompt": {
     "en": "Marek works in a small restaurant.",
     "t": "Марек работает в маленьком ресторане."
+  },
+  "u8-l5.11.traps": {
+    "en": [
+      "Reštaurácia is feminine, so in the locative its adjective ends in **-ej**: mal**ej**. Malom is for masculine and neuter nouns.",
+      "Where? takes the locative, and nouns in -ia get **-ii**: reštaurácia → reštauráci**i**. Reštaurácia is the plain form."
+    ],
+    "t": [
+      "Reštaurácia — женского рода, в отличие от «ресторана», поэтому в предложном её прилагательное на **-ej**: mal**ej**, как «в маленькой». Malom — для мужского и среднего рода.",
+      "На вопрос «где?» — предложный падеж, а слова на -ia получают **-ii**, как «станция → на станции»: reštauráci**i**. Reštaurácia — начальная форма."
+    ]
   },
   "u8-l5.12.answers": {
     "en": [
@@ -1868,6 +1958,16 @@
     "en": "What do you know about our company? (formal)",
     "t": "Что вы знаете о нашей фирме? (на «вы»)"
   },
+  "u8-l6.5.traps": {
+    "en": [
+      "After **o** (about) comes the locative, and náš with a feminine noun ends in **-ej**: naš**ej** firme. Naša is the plain form.",
+      "**O** (about) takes the locative, so firma ends in **-e**: o firm**e**. Firmu is the object form."
+    ],
+    "t": [
+      "После **o** (о) — предложный падеж, и náš с существительным женского рода оканчивается на **-ej**: naš**ej** firme, как «о нашей фирме». Naša — начальная форма.",
+      "**O** требует предложного падежа, как и у нас, поэтому firma получает **-e**: o firm**e** — «о фирме». Firmu — форма винительного."
+    ]
+  },
   "u8-l6.6.en": {
     "en": "Tell me something about yourself.",
     "t": "Расскажите мне что-нибудь о себе."
@@ -1930,6 +2030,16 @@
     "en": "After lunch I have a job interview.",
     "t": "После обеда у меня собеседование."
   },
+  "u8-l6.11.traps": {
+    "en": [
+      "**Po** (after) takes the locative, so obed adds **-e**: po obed**e**. Obed is the plain form.",
+      "“After” is **po**, and it takes the locative: po obede. Na means on or at, as in na porade (at a meeting)."
+    ],
+    "t": [
+      "**Po** (после) требует предложного падежа, поэтому obed получает **-e**: po obed**e** — «после обеда». Obed — начальная форма.",
+      "«После» — **po**, с предложным падежом: po obede. Na — это «на»: na porade (на совещании)."
+    ]
+  },
   "u8-l6.12.question": {
     "en": "What does “nej” refer to here?",
     "t": "На что здесь указывает «nej»?"
@@ -1985,6 +2095,16 @@
   "u8-l7.2.prompt": {
     "en": "Emma was born in Dublin.",
     "t": "Эмма родилась в Дублине."
+  },
+  "u8-l7.2.traps": {
+    "en": [
+      "Where? takes the locative after v, and masculine places mostly add **-e**: v Dublin**e**, like v obchode. Dublin is the plain form.",
+      "Emma is a woman, so the past tense ends in **-la**: narodil**a** sa. Narodil is for a man."
+    ],
+    "t": [
+      "На вопрос «где?» после v — предложный падеж, а мужской род чаще всего получает **-e**: v Dublin**e**, как «в Дублине». Dublin — начальная форма.",
+      "Эмма — женщина, поэтому прошедшее время на **-la**: narodil**a** sa — «родилась» (sa — наше -ся). Narodil — для мужчины."
+    ]
   },
   "u8-l7.3.en": {
     "en": "I study at the university in Bratislava.",
@@ -2053,6 +2173,16 @@
     "en": "We're talking about him.",
     "t": "Мы говорим о нём."
   },
+  "u8-l7.9.traps": {
+    "en": [
+      "After **o** (about), pronouns take their locative form: on becomes **ňom**. On is the plain form, he.",
+      "Him is on, and after o, on becomes **ňom**. Nej is ona (her) after a preposition."
+    ],
+    "t": [
+      "После **o** местоимения стоят в предложном падеже: on → **ňom**, как «о нём». On — начальная форма.",
+      "«О нём» — o **ňom**: после o местоимение on превращается в ňom. Nej — это ona после предлога, «о ней»."
+    ]
+  },
   "u8-l7.10.en": {
     "en": "I never have time on Fridays.",
     "t": "По пятницам у меня никогда нет времени."
@@ -2108,5 +2238,15 @@
   "u8-l7.15.prompt": {
     "en": "Today is the fourteenth of October.",
     "t": "Сегодня четырнадцатое октября."
+  },
+  "u8-l7.15.traps": {
+    "en": [
+      "A date uses the ordinal ending in -ého, shortened to **-eho** after a long syllable like á: štrnást**eho**. Štrnásty is the plain ordinal.",
+      "In a date the month takes **-a** (“of October”): októbr**a**. Októbri is for “in October”: v októbri."
+    ],
+    "t": [
+      "В дате — порядковое на -ého, но после долгого слога (á) окончание краткое, **-eho**: štrnást**eho** (четырнадцатого). Štrnásty — простое порядковое.",
+      "В дате месяц получает **-a**, как «октября»: októbr**a**. Októbri — для «в октябре»: v októbri."
+    ]
   }
 }

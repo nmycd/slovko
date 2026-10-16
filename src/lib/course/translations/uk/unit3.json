@@ -131,6 +131,16 @@
     "en": "Where is the bathroom?",
     "t": "Де ванна кімната?"
   },
+  "u3-l1.13.traps": {
+    "en": [
+      "The bathroom is **kúpeľňa**. Kuchyňa looks similar, but it's the kitchen.",
+      "Where? is **kde**, and it starts the question. Hore means upstairs: it's an answer, as in Kúpeľňa je hore."
+    ],
+    "t": [
+      "Ванна кімната — **kúpeľňa**, від «купатися». Kuchyňa схожа на вигляд, але це кухня, як і в нас.",
+      "«Де?» — це **kde**, і з нього починається питання. Hore означає «нагорі», це відповідь: Kúpeľňa je hore."
+    ]
+  },
   "u3-l1.14.answers": {
     "en": [
       "The room is upstairs and the kitchen is downstairs.",
@@ -154,6 +164,16 @@
   "u3-l1.15.prompt": {
     "en": "Emma lives in the dorm.",
     "t": "Емма живе в гуртожитку."
+  },
+  "u3-l1.15.traps": {
+    "en": [
+      "Emma is **ona**, and with on or ona the verb has no ending: **býva**. Bývam, with -m, is ja (I).",
+      "To say where someone lives, use **býva**, like bývam (I live). Je (is) only says where Emma is right now."
+    ],
+    "t": [
+      "Емма — це **ona**, а з on чи ona дієслово без закінчення: **býva**. Bývam з -m — це ja (я).",
+      "«Живе» — це **býva**, як bývam (я живу). Je (є) лише каже, де Емма зараз."
+    ]
   },
   "u3-l1.16.question": {
     "en": "Lucia wants to cook. Where does she go?",
@@ -285,6 +305,16 @@
     "en": "That's a big kitchen.",
     "t": "Це велика кухня."
   },
+  "u3-l2.7.traps": {
+    "en": [
+      "Kuchyňa ends in -a, so it's feminine and the adjective takes **-á**: veľk**á**. Veľký is for masculine nouns.",
+      "The adjective matches kuchyňa, a feminine noun, so it ends in **-á**: veľk**á**. Veľké is for neuter nouns like auto."
+    ],
+    "t": [
+      "Kuchyňa закінчується на -a — жіночий рід, як «кухня», тож прикметник бере **-á**: veľk**á**. Veľký — для чоловічого роду.",
+      "Прикметник узгоджується з kuchyňa, а вона жіночого роду, тож **-á**: veľk**á**, «велика». Veľké — для середнього роду, як auto."
+    ]
+  },
   "u3-l2.8.en": {
     "en": "The room is small but nice.",
     "t": "Кімната маленька, але гарна."
@@ -352,6 +382,16 @@
   "u3-l2.13.prompt": {
     "en": "What is the dorm like?",
     "t": "Який гуртожиток?"
+  },
+  "u3-l2.13.traps": {
+    "en": [
+      "**Aký?** changes like an adjective. Internát ends in a consonant, so it's masculine: **aký**. Aká is for feminine nouns.",
+      "“What is it like?” is **aký?** Kde asks where: Kde je internát?"
+    ],
+    "t": [
+      "**Aký?** змінюється як прикметник, як «який / яка / яке». Internát закінчується на приголосний — чоловічий рід, тож **aký**. Aká — для жіночого.",
+      "«Який він?» — це **aký?** Kde питає «де?»: Kde je internát?"
+    ]
   },
   "u3-l2.14.answers": {
     "en": [
@@ -671,6 +711,16 @@
     "en": "That's our kitchen.",
     "t": "Це наша кухня."
   },
+  "u3-l4.5.traps": {
+    "en": [
+      "Kuchyňa is feminine, so “our” is **naša**. Watch the vowel: náš for masculine, but naša.",
+      "Possessives match the thing owned. Kuchyňa is feminine, so **naša**. Naše goes with neuter nouns like okno."
+    ],
+    "t": [
+      "Kuchyňa — жіночого роду, тож «наша» — **naša**. Зверніть увагу на голосний: náš для чоловічого роду, але naša.",
+      "Присвійний займенник узгоджується з предметом. Kuchyňa — жіночого роду, тож **naša**. Naše — для середнього роду, як okno."
+    ]
+  },
   "u3-l4.6.en": {
     "en": "His bed is on the left.",
     "t": "Його ліжко ліворуч."
@@ -721,6 +771,16 @@
     "en": "Whose window is it?",
     "t": "Чиє це вікно?"
   },
+  "u3-l4.10.traps": {
+    "en": [
+      "**Čí?** matches the thing it asks about. Okno ends in -o, so it's neuter: **čie**. Čí is for masculine nouns.",
+      "Okno is neuter, so “whose” is **čie**. Čia goes with feminine nouns like posteľ."
+    ],
+    "t": [
+      "**Čí?** узгоджується з предметом, як «чий / чия / чиє». Okno — середнього роду, як «вікно», тож **čie**. Čí — для чоловічого роду.",
+      "Okno — середнього роду, тож «чиє» — **čie**. Čia — для жіночого роду, як posteľ."
+    ]
+  },
   "u3-l4.11.en": {
     "en": "Lucia, where is your wardrobe?",
     "t": "Луціє, де твоя шафа?"
@@ -740,6 +800,16 @@
   "u3-l4.13.prompt": {
     "en": "Their room is upstairs.",
     "t": "Їхня кімната нагорі."
+  },
+  "u3-l4.13.traps": {
+    "en": [
+      "“Their” is **ich**, and like jeho and jej it never changes: ich izba. Jej means her.",
+      "Upstairs is **hore**. Dole is its opposite, downstairs."
+    ],
+    "t": [
+      "«Їхня» — **ich**: як jeho і jej (і наші «його», «її»), воно не змінюється: ich izba. Jej означає «її».",
+      "«Нагорі» — **hore**, як «гора». Dole — протилежне, «внизу» (як «додолу»)."
+    ]
   },
   "u3-l4.14.en": {
     "en": "That's my room.",
@@ -882,6 +952,16 @@
     "en": "The hallway is dark.",
     "t": "Коридор темний."
   },
+  "u3-l5.15.traps": {
+    "en": [
+      "Chodba ends in -a, so it's feminine and the adjective takes **-á**, after je too: tmav**á**. Tmavý is for masculine nouns.",
+      "Dark is **tmavá**. Svetlá has the right feminine ending, but it means bright, the opposite."
+    ],
+    "t": [
+      "Chodba закінчується на -a — жіночий рід (хоч наш «коридор» чоловічого), тож **-á**, і після je теж: tmav**á**. Tmavý — для чоловічого роду.",
+      "**Tmavá** означає «темна». Svetlá має правильне жіноче закінчення, але це «світла», протилежне."
+    ]
+  },
   "u3-l5.16.en": {
     "en": "The flat isn't expensive, it's cheap.",
     "t": "Квартира не дорога, вона дешева."
@@ -1016,6 +1096,16 @@
     "en": "Which window is ours?",
     "t": "Котре вікно наше?"
   },
+  "u3-l6.5.traps": {
+    "en": [
+      "**Ktorý?** changes like an adjective. Okno ends in -o, so it's neuter: **ktoré**. Ktorý is for masculine nouns.",
+      "Okno is neuter, so “our” is **naše**, just like ktoré. Naša goes with feminine nouns."
+    ],
+    "t": [
+      "**Ktorý?** змінюється як прикметник, як «котрий / котра / котре». Okno — середнього роду, тож **ktoré**. Ktorý — для чоловічого роду.",
+      "Okno — середнього роду, тож «наше» — **naše**, так само як ktoré. Naša — для жіночого роду."
+    ]
+  },
   "u3-l6.6.en": {
     "en": "Which wardrobe is mine?",
     "t": "Котра шафа моя?"
@@ -1130,6 +1220,16 @@
     "en": "Which bed is Emma's?",
     "t": "Котре ліжко Еммине?"
   },
+  "u3-l6.11.traps": {
+    "en": [
+      "Emmin takes the ending of the thing owned. Posteľ is feminine, even without -a, so add **-a**: Emmin**a**.",
+      "**Ktorý?** changes like an adjective. Posteľ is feminine, even without -a, so **ktorá**."
+    ],
+    "t": [
+      "Posteľ — жіночого роду (а наше «ліжко» — середнього), тож Emmin додає **-a**: Emmin**a**, як «Еммина».",
+      "**Ktorý?** змінюється як прикметник. Posteľ — жіночого роду, хоч і без -a, тож **ktorá**, «котра», хоча в нас «котре ліжко»."
+    ]
+  },
   "u3-l6.12.en": {
     "en": "What's the flat like? – Big and bright.",
     "t": "Яка квартира? – Велика й світла."
@@ -1198,6 +1298,16 @@
     "en": "My room is upstairs.",
     "t": "Моя кімната нагорі."
   },
+  "u3-l7.4.traps": {
+    "en": [
+      "Izba is feminine, so “my” is **moja**. Watch the vowel: môj for masculine, but moja.",
+      "Upstairs is **hore**. Dole is its opposite, downstairs."
+    ],
+    "t": [
+      "Izba — жіночого роду, тож «моя» — **moja**. Зверніть увагу на голосний: môj для чоловічого роду, але moja.",
+      "«Нагорі» — **hore**. Dole — протилежне, «внизу»."
+    ]
+  },
   "u3-l7.5.en": {
     "en": "Which desk is yours?",
     "t": "Котрий стіл твій?"
@@ -1250,6 +1360,16 @@
     "en": "Which window is yours?",
     "t": "Котре вікно твоє?"
   },
+  "u3-l7.10.traps": {
+    "en": [
+      "Okno is neuter, so “which” is **ktoré**. Ktorý goes with masculine nouns.",
+      "Okno is neuter, so “your” is **tvoje**, like ktoré. Tvoj goes with masculine nouns."
+    ],
+    "t": [
+      "Okno — середнього роду, як «вікно», тож «котре» — **ktoré**. Ktorý — для чоловічого роду.",
+      "Okno — середнього роду, тож «твоє» — **tvoje**, як і ktoré. Tvoj — для чоловічого роду."
+    ]
+  },
   "u3-l7.11.en": {
     "en": "Which bed is Lucia's? – The one on the right.",
     "t": "Котре ліжко Луціїне? – Те, що праворуч."
@@ -1269,6 +1389,16 @@
   "u3-l7.13.prompt": {
     "en": "The bathroom is on the right and the kitchen is at the back.",
     "t": "Ванна кімната праворуч, а кухня ззаду."
+  },
+  "u3-l7.13.traps": {
+    "en": [
+      "On the right is **vpravo**. Vľavo is its opposite, on the left.",
+      "At the back is **vzadu**. Vpredu is its opposite, at the front."
+    ],
+    "t": [
+      "«Праворуч» — **vpravo**, як наше «вправо». Vľavo — протилежне, «ліворуч».",
+      "«Ззаду» — **vzadu**, як і в нас. Vpredu — протилежне, «спереду»."
+    ]
   },
   "u3-l7.14.en": {
     "en": "His bed is old.",

@@ -145,6 +145,16 @@
     "en": "Emma is reading an article about Lucia.",
     "t": "Емма читає статтю про Луцію."
   },
+  "u10-l1.12.traps": {
+    "en": [
+      "**O** (about) takes the locative, and names in -ia get **-ii**: o **Lucii**. Lucia is the subject form.",
+      "**O** (about) takes the locative, and names in -ia get **-ii**: o **Lucii**. Luciu is the object form, as in pre Luciu."
+    ],
+    "t": [
+      "Наше «про» вимагає знахідного (про Луцію), а словацьке **o** — місцевого: імена на -ia мають **-ii**, o **Lucii**. Lucia — називний відмінок.",
+      "Не «про Луцію»: після **o** — місцевий, і імена на -ia мають **-ii**: o **Lucii**. Luciu — знахідний, як у pre Luciu."
+    ]
+  },
   "u10-l1.13.en": {
     "en": "The headline is very interesting.",
     "t": "Заголовок дуже цікавий."
@@ -295,6 +305,16 @@
   "u10-l2.13.prompt": {
     "en": "Tomáš is looking for a new flat.",
     "t": "Томаш шукає нову квартиру."
+  },
+  "u10-l2.13.traps": {
+    "en": [
+      "In the object form, masculine things like byt don't change, and nor do their adjectives: **nový** byt. Nového is for people: nového kamaráta.",
+      "Byt is masculine (it ends in a consonant), so the adjective ends in **-ý**: **nový** byt. Nová is for feminine words."
+    ],
+    "t": [
+      "У знахідному неістоти чоловічого роду, як byt, не змінюються, і їхні прикметники теж: **nový** byt. Nového — для людей: nového kamaráta.",
+      "Byt — чоловічого роду (на відміну від нашої «квартири»), тож прикметник закінчується на **-ý**: **nový** byt. Nová — для жіночого роду."
+    ]
   },
   "u10-l2.14.question": {
     "en": "You want to know the weather. What do you ask?",
@@ -566,6 +586,16 @@
     "en": "I'm writing an article about Bratislava.",
     "t": "Я пишу статтю про Братиславу."
   },
+  "u10-l3.8.traps": {
+    "en": [
+      "**O** (about) takes the locative, so Bratislava changes -a to **-e**: o **Bratislave**.",
+      "About is **o**: článok **o** Bratislave. V Bratislave would mean in Bratislava."
+    ],
+    "t": [
+      "Не «про Братиславу»: словацьке **o** вимагає місцевого, тож Bratislava міняє -a на **-e**: o **Bratislave**.",
+      "«Про» — це **o**: článok **o** Bratislave. V Bratislave означало б «у Братиславі»."
+    ]
+  },
   "u10-l3.9.en": {
     "en": "Emma lives in the dorm with Lucia.",
     "t": "Емма живе з Луцією в гуртожитку."
@@ -573,6 +603,16 @@
   "u10-l3.10.prompt": {
     "en": "This gift is for Marek.",
     "t": "Цей подарунок для Марека."
+  },
+  "u10-l3.10.traps": {
+    "en": [
+      "**Pre** (for) takes the accusative, and men's names add **-a**: pre **Mareka**. Marekom goes with s (with).",
+      "**Pre** (for) takes the accusative, and men's names add **-a**: pre **Mareka**. Marekovi goes with o (about): o Marekovi."
+    ],
+    "t": [
+      "**Pre** (для) вимагає знахідного, а чоловічі імена додають **-a**: pre **Mareka**, зовні як наше «для Марека». Marekom — після s (з): s Marekom.",
+      "**Pre** (для) вимагає знахідного, а чоловічі імена додають **-a**: pre **Mareka**. Marekovi — після o (про): o Marekovi."
+    ]
   },
   "u10-l3.11.en": {
     "en": "What do you know about Tomáš?",
@@ -740,6 +780,16 @@
     "en": "Yesterday Marek cooked soup.",
     "t": "Вчора Марек варив суп."
   },
+  "u10-l4.4.traps": {
+    "en": [
+      "**Včera** (yesterday) needs the past tense, the l-form: Marek **varil**. Varí is the present.",
+      "The soup is what Marek cooked, the object, so polievka changes -a to **-u**: varil **polievku**."
+    ],
+    "t": [
+      "**Včera** (учора) вимагає минулого часу, форми на -l, як наше -в: Marek **varil**, «варив». Varí — теперішній час.",
+      "Суп — це що Марек варив, знахідний відмінок, тож polievka міняє -a на **-u**: varil **polievku**. Увага: polievka жіночого роду, а «суп» — чоловічого."
+    ]
+  },
   "u10-l4.5.title": {
     "en": "Special past forms and word order",
     "t": "Особливі форми минулого часу й порядок слів"
@@ -866,6 +916,16 @@
     "en": "Emma: “I didn't have time.”",
     "t": "Емма: «Я не мала часу»."
   },
+  "u10-l4.8.traps": {
+    "en": [
+      "“Didn't have” is the past tense: **ne-** + the l-form, with -la for a woman: **Nemala** som. Nemám is the present, I don't have.",
+      "**Ja** (I) in the past tense needs **som**: Nemala **som** čas. Sme goes with my and an -li form."
+    ],
+    "t": [
+      "«Не мала» — минулий час: **ne-** + форма на -l, з -la для жінки: **Nemala** som. Nemám — теперішній, «не маю».",
+      "**Ja** (я) у минулому часі потребує **som**: Nemala **som** čas. Sme — для my з формою на -li."
+    ]
+  },
   "u10-l4.9.pairs": {
     "en": [
       "he was",
@@ -948,6 +1008,16 @@
     "en": "There's a new café on Main Street.",
     "t": "На Головній вулиці є нова кав'ярня."
   },
+  "u10-l5.2.traps": {
+    "en": [
+      "Kaviareň is feminine, even though it ends in a consonant, so the adjective ends in **-á**: **nová** kaviareň. Nový is for masculine words.",
+      "Saying where takes **na** + the locative, and after c the ending is **-i**: na Hlavnej **ulici**. Ulica is the subject form."
+    ],
+    "t": [
+      "Kaviareň — жіночого роду, хоч і закінчується на приголосний (як і наша «кав'ярня»), тож прикметник має **-á**: **nová** kaviareň. Nový — для чоловічого роду.",
+      "«Де?» — **na** + місцевий, а після c закінчення **-i**: na Hlavnej **ulici**, «на вулиці». Ulica — називний відмінок."
+    ]
+  },
   "u10-l5.3.en": {
     "en": "The weather was nice on Saturday.",
     "t": "У суботу була гарна погода."
@@ -1015,6 +1085,16 @@
     "en": "Yesterday we read the article with Lucia.",
     "t": "Вчора ми з Луцією читали статтю."
   },
+  "u10-l5.9.traps": {
+    "en": [
+      "**S** (with) takes the instrumental, so Lucia changes -a to **-ou**: s **Luciou**.",
+      "**Včera** (yesterday) needs the past tense, and with my (we) the l-form ends in **-li**: sme **čítali**. Čítame is the present."
+    ],
+    "t": [
+      "**S** (з) вимагає орудного, як «з Луцією», тож Lucia міняє -a на **-ou**: s **Luciou**.",
+      "**Včera** (учора) вимагає минулого часу, а з my форма на -l закінчується на **-li**: sme **čítali**, «читали». Čítame — теперішній час."
+    ]
+  },
   "u10-l5.10.en": {
     "en": "Ms Horváthová always reads the paper in the morning.",
     "t": "Пані Горватова завжди читає газету вранці."
@@ -1030,6 +1110,16 @@
   "u10-l5.12.prompt": {
     "en": "Mr Kováč never reads magazines.",
     "t": "Пан Ковач ніколи не читає журналів."
+  },
+  "u10-l5.12.traps": {
+    "en": [
+      "**Nikdy** (never) always goes with a negative verb: nikdy **nečíta**. This double negative is normal Slovak.",
+      "Magazines are more than one, and masculine things take **-y** in the plural: **časopisy**. Časopis is just one magazine."
+    ],
+    "t": [
+      "**Nikdy** (ніколи) завжди йде із запереченим дієсловом, як і в нас: nikdy **nečíta**, «ніколи не читає».",
+      "Після заперечення словацькою не «журналів», а звичайна множина: неістоти чоловічого роду мають **-y**, **časopisy**. Časopis — один журнал."
+    ]
   },
   "u10-l5.13.answers": {
     "en": [
@@ -1096,6 +1186,16 @@
     "en": "Emma has two Slovak friends. (female)",
     "t": "В Емми дві подруги-словачки."
   },
+  "u10-l6.4.traps": {
+    "en": [
+      "Kamarátka is feminine, so two is **dve**: dve kamarátky. Dva is for masculine words.",
+      "In the plural, adjectives for women and things end in **-é**: **slovenské** kamarátky. Slovenská is for one feminine word."
+    ],
+    "t": [
+      "Kamarátka — жіночого роду, тож «дві» — **dve**, як і в нас: dve kamarátky. Dva — для чоловічого роду.",
+      "У множині прикметники для жінок і речей закінчуються на **-é**: **slovenské** kamarátky. Slovenská — для одного слова жіночого роду."
+    ]
+  },
   "u10-l6.5.en": {
     "en": "Today I have to go to the university.",
     "t": "Сьогодні я мушу йти до університету."
@@ -1135,6 +1235,16 @@
   "u10-l6.9.prompt": {
     "en": "It's eight o'clock.",
     "t": "Восьма година."
+  },
+  "u10-l6.9.traps": {
+    "en": [
+      "From five up, hodina becomes **hodín**: osem **hodín**. Hodiny is for 2–4: sú tri hodiny.",
+      "From five up, the time takes **je**: **Je** osem hodín. Sú is for 2–4: sú tri hodiny."
+    ],
+    "t": [
+      "Не «восьма година», а «вісім годин»: від п'яти hodina стає **hodín**, osem **hodín**. Hodiny — для 2–4: sú tri hodiny.",
+      "Від п'яти час уживається з **je**: **Je** osem hodín. Sú — для 2–4: sú tri hodiny."
+    ]
   },
   "u10-l6.10.en": {
     "en": "We met in a café yesterday.",

@@ -88,6 +88,10 @@ export const unit3: Unit = {
           promptLang: "en",
           answers: ["Kde je kúpeľňa?"],
           distractors: ["kuchyňa", "hore"],
+          traps: [
+            { wrong: "kuchyňa", right: "kúpeľňa", why: "The bathroom is **kúpeľňa**. Kuchyňa looks similar, but it's the kitchen." },
+            { wrong: "hore", right: "Kde", why: "Where? is **kde**, and it starts the question. Hore means upstairs: it's an answer, as in Kúpeľňa je hore." },
+          ],
         },
         {
           type: "build",
@@ -105,6 +109,10 @@ export const unit3: Unit = {
           promptLang: "en",
           answers: ["Emma býva na internáte."],
           distractors: ["bývam", "je"],
+          traps: [
+            { wrong: "bývam", right: "býva", why: "Emma is **ona**, and with on or ona the verb has no ending: **býva**. Bývam, with -m, is ja (I)." },
+            { wrong: "je", right: "býva", why: "To say where someone lives, use **býva**, like bývam (I live). Je (is) only says where Emma is right now." },
+          ],
         },
         {
           type: "choice",
@@ -186,6 +194,10 @@ export const unit3: Unit = {
           promptLang: "en",
           answers: ["To je veľká kuchyňa.", "Je to veľká kuchyňa."],
           distractors: ["veľký", "veľké"],
+          traps: [
+            { wrong: "veľký", right: "veľká", why: "Kuchyňa ends in -a, so it's feminine and the adjective takes **-á**: veľk**á**. Veľký is for masculine nouns." },
+            { wrong: "veľké", right: "veľká", why: "The adjective matches kuchyňa, a feminine noun, so it ends in **-á**: veľk**á**. Veľké is for neuter nouns like auto." },
+          ],
         },
         { type: "listen", sk: "Izba je malá, ale pekná.", en: "The room is small but nice." },
         {
@@ -236,6 +248,10 @@ export const unit3: Unit = {
           promptLang: "en",
           answers: ["Aký je internát?"],
           distractors: ["Aká", "Kde"],
+          traps: [
+            { wrong: "Aká", right: "Aký", why: "**Aký?** changes like an adjective. Internát ends in a consonant, so it's masculine: **aký**. Aká is for feminine nouns." },
+            { wrong: "Kde", right: "Aký", why: "“What is it like?” is **aký?** Kde asks where: Kde je internát?" },
+          ],
         },
         {
           type: "build",
@@ -432,6 +448,10 @@ export const unit3: Unit = {
           promptLang: "en",
           answers: ["To je naša kuchyňa.", "Je to naša kuchyňa."],
           distractors: ["náš", "naše"],
+          traps: [
+            { wrong: "náš", right: "naša", why: "Kuchyňa is feminine, so “our” is **naša**. Watch the vowel: náš for masculine, but naša." },
+            { wrong: "naše", right: "naša", why: "Possessives match the thing owned. Kuchyňa is feminine, so **naša**. Naše goes with neuter nouns like okno." },
+          ],
         },
         { type: "listen", sk: "Jeho posteľ je vľavo.", en: "His bed is on the left." },
         {
@@ -472,6 +492,10 @@ export const unit3: Unit = {
           promptLang: "en",
           answers: ["Čie je to okno?", "Čie okno je to?"],
           distractors: ["Čí", "Čia"],
+          traps: [
+            { wrong: "Čí", right: "Čie", why: "**Čí?** matches the thing it asks about. Okno ends in -o, so it's neuter: **čie**. Čí is for masculine nouns." },
+            { wrong: "Čia", right: "Čie", why: "Okno is neuter, so “whose” is **čie**. Čia goes with feminine nouns like posteľ." },
+          ],
         },
         {
           type: "fill",
@@ -499,6 +523,10 @@ export const unit3: Unit = {
           promptLang: "en",
           answers: ["Ich izba je hore.", "Hore je ich izba."],
           distractors: ["Jej", "dole"],
+          traps: [
+            { wrong: "Jej", right: "Ich", why: "“Their” is **ich**, and like jeho and jej it never changes: ich izba. Jej means her." },
+            { wrong: "dole", right: "hore", why: "Upstairs is **hore**. Dole is its opposite, downstairs." },
+          ],
         },
         { type: "speak", sk: "To je moja izba.", en: "That's my room." },
       ],
@@ -608,6 +636,10 @@ export const unit3: Unit = {
           promptLang: "en",
           answers: ["Chodba je tmavá."],
           distractors: ["tmavý", "svetlá"],
+          traps: [
+            { wrong: "tmavý", right: "tmavá", why: "Chodba ends in -a, so it's feminine and the adjective takes **-á**, after je too: tmav**á**. Tmavý is for masculine nouns." },
+            { wrong: "svetlá", right: "tmavá", why: "Dark is **tmavá**. Svetlá has the right feminine ending, but it means bright, the opposite." },
+          ],
         },
         {
           type: "fill",
@@ -694,6 +726,10 @@ export const unit3: Unit = {
           promptLang: "en",
           answers: ["Ktoré okno je naše?"],
           distractors: ["Ktorý", "naša"],
+          traps: [
+            { wrong: "Ktorý", right: "Ktoré", why: "**Ktorý?** changes like an adjective. Okno ends in -o, so it's neuter: **ktoré**. Ktorý is for masculine nouns." },
+            { wrong: "naša", right: "naše", why: "Okno is neuter, so “our” is **naše**, just like ktoré. Naša goes with feminine nouns." },
+          ],
         },
         { type: "listen", sk: "Ktorá skriňa je moja?", en: "Which wardrobe is mine?" },
         {
@@ -752,6 +788,10 @@ export const unit3: Unit = {
           promptLang: "en",
           answers: ["Ktorá posteľ je Emmina?"],
           distractors: ["Emmin", "Ktorý"],
+          traps: [
+            { wrong: "Emmin", right: "Emmina", why: "Emmin takes the ending of the thing owned. Posteľ is feminine, even without -a, so add **-a**: Emmin**a**." },
+            { wrong: "Ktorý", right: "Ktorá", why: "**Ktorý?** changes like an adjective. Posteľ is feminine, even without -a, so **ktorá**." },
+          ],
         },
         {
           type: "fill",
@@ -809,6 +849,10 @@ export const unit3: Unit = {
           promptLang: "en",
           answers: ["Moja izba je hore.", "Hore je moja izba."],
           distractors: ["Môj", "dole"],
+          traps: [
+            { wrong: "Môj", right: "Moja", why: "Izba is feminine, so “my” is **moja**. Watch the vowel: môj for masculine, but moja." },
+            { wrong: "dole", right: "hore", why: "Upstairs is **hore**. Dole is its opposite, downstairs." },
+          ],
         },
         {
           type: "fill",
@@ -853,6 +897,10 @@ export const unit3: Unit = {
           promptLang: "en",
           answers: ["Ktoré okno je tvoje?", "Ktoré okno je vaše?"],
           distractors: ["Ktorý", "tvoj"],
+          traps: [
+            { wrong: "Ktorý", right: "Ktoré", why: "Okno is neuter, so “which” is **ktoré**. Ktorý goes with masculine nouns." },
+            { wrong: "tvoj", right: "tvoje", why: "Okno is neuter, so “your” is **tvoje**, like ktoré. Tvoj goes with masculine nouns." },
+          ],
         },
         {
           type: "fill",
@@ -885,6 +933,10 @@ export const unit3: Unit = {
             "Vpravo je kúpeľňa a vzadu kuchyňa.",
           ],
           distractors: ["vľavo", "vpredu"],
+          traps: [
+            { wrong: "vľavo", right: "vpravo", why: "On the right is **vpravo**. Vľavo is its opposite, on the left." },
+            { wrong: "vpredu", right: "vzadu", why: "At the back is **vzadu**. Vpredu is its opposite, at the front." },
+          ],
         },
         { type: "listen", sk: "Jeho posteľ je stará.", en: "His bed is old." },
         { type: "speak", sk: "Aká je tvoja izba?", en: "What's your room like?" },

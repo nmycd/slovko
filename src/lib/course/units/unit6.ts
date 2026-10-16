@@ -105,6 +105,10 @@ export const unit6: Unit = {
           promptLang: "en",
           answers: ["Ryba je veľmi dobrá."],
           distractors: ["dobrý", "sú"],
+          traps: [
+            { wrong: "dobrý", right: "dobrá", why: "An adjective takes the gender of its noun, after je too. Ryba is feminine, so it's **dobrá**. Dobrý is the masculine form." },
+            { wrong: "sú", right: "je", why: "Ryba is one thing, so byť takes **je** (is). Sú is for two or more, they are." },
+          ],
         },
         {
           type: "fill",
@@ -129,6 +133,10 @@ export const unit6: Unit = {
           promptLang: "en",
           answers: ["Je polievka dobrá?", "Polievka je dobrá?"],
           distractors: ["dobrý", "jedlo"],
+          traps: [
+            { wrong: "dobrý", right: "dobrá", why: "An adjective takes the gender of its noun, after je too. Polievka is feminine, so it's **dobrá**. Dobrý is the masculine form." },
+            { wrong: "jedlo", right: "polievka", why: "Soup is **polievka**; jedlo means food or a dish. Jedlo is also neuter, so it wouldn't fit dobrá." },
+          ],
         },
         {
           type: "choice",
@@ -188,6 +196,10 @@ export const unit6: Unit = {
           promptLang: "en",
           answers: ["Dám si kávu."],
           distractors: ["káva", "dáte"],
+          traps: [
+            { wrong: "káva", right: "kávu", why: "After **dám si**, use the accusative: feminine káva changes -a to **-u**, **kávu**." },
+            { wrong: "dáte", right: "Dám", why: "The speaker is **ja**, so dať ends in **-m**: **dám** si. Dáte is the vy form, as in the waiter's Čo si dáte?" },
+          ],
         },
         {
           type: "intro",
@@ -253,6 +265,10 @@ export const unit6: Unit = {
           promptLang: "en",
           answers: ["Dáme si polievku a rybu.", "Dáme si rybu a polievku."],
           distractors: ["ryba", "dám"],
+          traps: [
+            { wrong: "ryba", right: "rybu", why: "After **dáme si**, use the accusative: feminine ryba changes -a to **-u**, **rybu**, just like polievku." },
+            { wrong: "dám", right: "Dáme", why: "“We” is **my**, so dať takes the my ending **-me**: **dáme** si. Dám is the ja form." },
+          ],
         },
         { type: "listen", sk: "Čaj je horúci.", en: "The tea is hot." },
         {
@@ -330,6 +346,10 @@ export const unit6: Unit = {
           promptLang: "en",
           answers: ["Chlieb so syrom."],
           distractors: ["s", "syr"],
+          traps: [
+            { wrong: "s", right: "so", why: "**S** becomes **so** before a word starting with s, z, š or ž, as syrom does: **so** syrom." },
+            { wrong: "syr", right: "syrom", why: "After **s** (with), masculine nouns take the instrumental ending **-om**: syr → **syrom**." },
+          ],
         },
         {
           type: "choice",
@@ -396,6 +416,11 @@ export const unit6: Unit = {
           promptLang: "en",
           answers: ["Dám si čaj so studeným mliekom."],
           distractors: ["studenou", "s", "mlieko"],
+          traps: [
+            { wrong: "studenou", right: "studeným", why: "Mlieko is neuter, so after s its adjective ends in **-ým**: **studeným**. Studenou is the feminine form." },
+            { wrong: "s", right: "so", why: "**S** becomes **so** before a word starting with s, z, š or ž. The next word, studeným, starts with s: **so** studeným." },
+            { wrong: "mlieko", right: "mliekom", why: "After **s** (with), neuter nouns change -o to **-om**: mlieko → **mliekom**." },
+          ],
         },
         {
           type: "choice",
@@ -536,6 +561,10 @@ export const unit6: Unit = {
           promptLang: "en",
           answers: ["Ideme domov taxíkom.", "Ideme taxíkom domov.", "Domov ideme taxíkom."],
           distractors: ["taxík", "idem"],
+          traps: [
+            { wrong: "taxík", right: "taxíkom", why: "How you travel takes the instrumental, with no s: masculine taxík adds **-om**, **taxíkom**." },
+            { wrong: "idem", right: "Ideme", why: "“We” is **my**, so ísť takes the my form **ideme**. Idem is for ja." },
+          ],
         },
         { type: "listen", sk: "Idem domov pešo.", en: "I'm walking home." },
         {
@@ -632,6 +661,10 @@ export const unit6: Unit = {
           promptLang: "en",
           answers: ["Ideš s nami, Tomáš?", "Tomáš, ideš s nami?"],
           distractors: ["my", "idete"],
+          traps: [
+            { wrong: "my", right: "nami", why: "After **s**, pronouns take their instrumental forms: my becomes **nami**, so s nami = with us." },
+            { wrong: "idete", right: "Ideš", why: "Tomáš is one friend, so use **ty**: ísť takes the ty form **ideš**. Idete is for vy." },
+          ],
         },
         { type: "listen", sk: "Chceš ísť so mnou?", en: "Do you want to go with me?" },
         {
@@ -693,6 +726,10 @@ export const unit6: Unit = {
           promptLang: "en",
           answers: ["Mačka je pod posteľou."],
           distractors: ["posteľ", "nad"],
+          traps: [
+            { wrong: "posteľ", right: "posteľou", why: "**Pod** (under) takes the instrumental when it says where. Feminine words without -a take **-ou** too: posteľ → **posteľou**." },
+            { wrong: "nad", right: "pod", why: "Under is **pod**; nad means above. Both take the instrumental when they say where something is." },
+          ],
         },
         {
           type: "fill",
@@ -824,6 +861,11 @@ export const unit6: Unit = {
           promptLang: "en",
           answers: ["Pozvem Luciu na večeru.", "Luciu pozvem na večeru."],
           distractors: ["pozve", "Lucia", "večera"],
+          traps: [
+            { wrong: "pozve", right: "Pozvem", why: "The speaker is **ja**, so pozvať ends in **-em**: **pozvem** (I'll invite). Pozve goes with on or ona." },
+            { wrong: "Lucia", right: "Luciu", why: "Lucia is the object of pozvem, so her name follows the feminine rule: -a changes to **-u**, **Luciu**." },
+            { wrong: "večera", right: "večeru", why: "**Pozvať na** takes the accusative, like pozývať na, so feminine večera changes -a to **-u**: na **večeru**." },
+          ],
         },
         {
           type: "intro",
@@ -875,6 +917,10 @@ export const unit6: Unit = {
           promptLang: "en",
           answers: ["Žijeme v Bratislave."],
           distractors: ["žijú", "Bratislava"],
+          traps: [
+            { wrong: "žijú", right: "Žijeme", why: "“We” is **my**, and žiť goes like piť, so the my form is **žijeme**. Žijú is the oni form." },
+            { wrong: "Bratislava", right: "Bratislave", why: "After **v** (in), the city changes its ending: v **Bratislave**, as in Žijem v Bratislave. This “where” case comes later; Bratislava is the plain form." },
+          ],
         },
         {
           type: "build",
@@ -917,6 +963,11 @@ export const unit6: Unit = {
           promptLang: "en",
           answers: ["Dám si polievku a rybu s ryžou."],
           distractors: ["ryža", "ryba", "so"],
+          traps: [
+            { wrong: "ryža", right: "ryžou", why: "After **s** (with), feminine nouns change -a to **-ou**: ryža → **ryžou**." },
+            { wrong: "ryba", right: "rybu", why: "The fish is what you'll have, the object of dám si, so feminine ryba changes -a to **-u**: **rybu**." },
+            { wrong: "so", right: "s", why: "**So** is only for words starting with s, z, š or ž. Ryžou starts with r, so plain **s** is right: s ryžou." },
+          ],
         },
         {
           type: "fill",
@@ -977,6 +1028,9 @@ export const unit6: Unit = {
           promptLang: "en",
           answers: ["Ideme domov električkou.", "Ideme električkou domov.", "Domov ideme električkou."],
           distractors: ["električka", "s"],
+          traps: [
+            { wrong: "električka", right: "električkou", why: "How you travel takes the instrumental, with no s: feminine električka changes -a to **-ou**, **električkou**." },
+          ],
         },
         {
           type: "fill",
@@ -995,6 +1049,10 @@ export const unit6: Unit = {
           promptLang: "en",
           answers: ["Lucia sa chce stať učiteľkou."],
           distractors: ["učiteľka", "stane"],
+          traps: [
+            { wrong: "učiteľka", right: "učiteľkou", why: "**Stať sa** (to become) takes the instrumental, so feminine učiteľka changes -a to **-ou**: **učiteľkou**." },
+            { wrong: "stane", right: "stať", why: "After **chce**, the next verb is an infinitive, the -ť form: **stať** sa. Stane already means “she'll become”." },
+          ],
         },
         {
           type: "choice",

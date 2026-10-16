@@ -129,6 +129,16 @@
     "en": "Lucia is writing a paper.",
     "t": "ლუცია რეფერატს წერს."
   },
+  "u7-l1.10.traps": {
+    "en": [
+      "Lucia is ona, and with on or ona the verb has no ending: **píše**. Píšem is the ja form.",
+      "Lucia writes one paper, so it's **referát**: as the object, a masculine thing stays the same. Referáty is the plural, papers."
+    ],
+    "t": [
+      "ლუცია = ona, on-თან ან ona-სთან კი ზმნას დაბოლოება არ აქვს: **píše**. Píšem ja-ს ფორმაა.",
+      "ლუცია ერთ რეფერატს წერს, ამიტომ **referát**: მამრობითი სქესის ნივთი ობიექტად არ იცვლება. Referáty მრავლობითია, „რეფერატები“."
+    ]
+  },
   "u7-l1.11.en": {
     "en": "Today I have a lecture and a seminar.",
     "t": "დღეს ლექცია და სემინარი მაქვს."
@@ -179,6 +189,16 @@
   "u7-l1.16.prompt": {
     "en": "Sorry I'm late. (formal)",
     "t": "მაპატიეთ, რომ ვაგვიანებ. (თქვენ)"
+  },
+  "u7-l1.16.traps": {
+    "en": [
+      "Prepáčte is formal vy, but the one who's late is ja (I), so the verb ends in **-m**: mešk**ám**. Meškáš is the ty form.",
+      "Sorry is **Prepáčte**, the vy form of prepáč, for a teacher or a stranger. Prosím means please."
+    ],
+    "t": [
+      "Prepáčte თავაზიანი vy-ა, მაგრამ აგვიანებს ja (მე), ამიტომ **-m**: mešk**ám**, როგორც „მაპატიეთ, რომ ვაგვიანებ“. Meškáš ty-ს ფორმაა.",
+      "„მაპატიეთ“ არის **Prepáčte**, prepáč-ის vy-ს ფორმა, მასწავლებლისთვის ან უცნობისთვის. Prosím ნიშნავს „გთხოვთ“."
+    ]
   },
   "u7-l1.17.en": {
     "en": "Sorry I'm late.",
@@ -438,6 +458,16 @@
     "en": "The seminar is at nine.",
     "t": "სემინარი ცხრა საათზეა."
   },
+  "u7-l2.7.traps": {
+    "en": [
+      "At a time is **o** + the **-ej** form: o deviat**ej**. Deväť is the plain number, for counting.",
+      "Hodín is for telling the time: je deväť hodín, it's nine o'clock. To say when something is, use o + the **-ej** form: o deviat**ej**."
+    ],
+    "t": [
+      "ქართულში „ცხრაზე“ ვამბობთ, სლოვაკურში კი o + **-ej** ფორმა: o deviat**ej**. Deväť უბრალო რიცხვია, სათვლელად.",
+      "Hodín საათის სათქმელადაა: je deväť hodín = ცხრა საათია. იმის სათქმელად, როდისაა რამე, გამოიყენეთ o + **-ej** ფორმა: o deviat**ej**."
+    ]
+  },
   "u7-l2.8.en": {
     "en": "It's half past seven. (7:30)",
     "t": "რვის ნახევარია. (7:30)"
@@ -497,6 +527,16 @@
   "u7-l2.14.prompt": {
     "en": "What time is it?",
     "t": "რომელი საათია?"
+  },
+  "u7-l2.14.traps": {
+    "en": [
+      "**Koľko je hodín?** is a set question, literally “how many hours is it?”, with the form used from 5 up. Hodiny goes with 2–4.",
+      "Asking the time is **Koľko** je hodín?, literally “how many hours?”. Kedy means when: Kedy je seminár?"
+    ],
+    "t": [
+      "**Koľko je hodín?** მზა კითხვაა, სიტყვასიტყვით „რამდენი საათია?“, იმ ფორმით, რომელიც 5-დან მოყოლებული გამოიყენება. Hodiny 2–4-თან დგას.",
+      "დროს ასე კითხულობენ: **Koľko** je hodín?, სიტყვასიტყვით „რამდენი საათია?“. Kedy ნიშნავს „როდის“: Kedy je seminár?"
+    ]
   },
   "u7-l2.15.en": {
     "en": "The seminar is at seven.",
@@ -590,6 +630,16 @@
     "en": "I get up at seven.",
     "t": "შვიდ საათზე ვდგები."
   },
+  "u7-l3.7.traps": {
+    "en": [
+      "At a time is **o** + the **-ej** form: o siedm**ej**. Sedem is the plain number, for counting.",
+      "“I” is ja, so the verb ends in **-m**: vstáva**m**. Vstávaš, with -š, is the ty form (you)."
+    ],
+    "t": [
+      "„რომელ საათზე“ არის **o** + **-ej** ფორმა: o siedm**ej** (შვიდზე). Sedem უბრალო რიცხვია, სათვლელად.",
+      "„მე“ არის ja, ამიტომ ზმნა **-m**-ზე ბოლოვდება: vstáva**m**. Vstávaš, -š-ით, ty-ს (შენ) ფორმაა."
+    ]
+  },
   "u7-l3.8.en": {
     "en": "In the morning I have lectures.",
     "t": "შუადღემდე ლექციები მაქვს."
@@ -653,6 +703,16 @@
   "u7-l3.15.prompt": {
     "en": "First I study, then I go to bed.",
     "t": "ჯერ ვსწავლობ, მერე დასაძინებლად მივდივარ."
+  },
+  "u7-l3.15.traps": {
+    "en": [
+      "It's ja (I) who studies, so the verb ends in **-m**: najprv sa uč**ím**. Učíš is the ty form (you).",
+      "It's ja (I) going to bed, so ísť is **idem**: idem spať. Ideme is the my form (we)."
+    ],
+    "t": [
+      "სწავლობს ja (მე), ამიტომ ზმნა **-m**-ზე ბოლოვდება: najprv sa uč**ím**. Učíš ty-ს (შენ) ფორმაა.",
+      "დასაძინებლად მიდის ja (მე), ამიტომ ísť არის **idem**: idem spať. Ideme my-ს (ჩვენ) ფორმაა."
+    ]
   },
   "u7-l3.16.answers": {
     "en": [
@@ -849,6 +909,16 @@
     "en": "Where shall we meet?",
     "t": "სად შევხვდეთ?"
   },
+  "u7-l4.5.traps": {
+    "en": [
+      "“We” is my, so stretnúť ends in **-eme**: stretn**eme**. Stretnem is the ja form: I'll meet.",
+      "Where? is **Kde**. Kedy means when: Kedy sa stretneme? = When shall we meet?"
+    ],
+    "t": [
+      "„ჩვენ“ არის my, ამიტომ stretnúť **-eme**-ზე ბოლოვდება: stretn**eme**. Stretnem ja-ს ფორმაა: შევხვდები.",
+      "„სად?“ არის **Kde**. Kedy ნიშნავს „როდის“: Kedy sa stretneme? = როდის შევხვდებით?"
+    ]
+  },
   "u7-l4.6.title": {
     "en": "More verbs like these",
     "t": "კიდევ რამდენიმე ასეთი ზმნა"
@@ -968,6 +1038,16 @@
   "u7-l4.9.prompt": {
     "en": "I'm sitting in the library.",
     "t": "ბიბლიოთეკაში ვზივარ."
+  },
+  "u7-l4.9.traps": {
+    "en": [
+      "With ja (I), sedieť ends in **-ím**: sed**ím**. Sedí is the on or ona form.",
+      "In the library is **v knižnici**: after v, for being in a place, the word changes its ending. Knižnica is the plain form."
+    ],
+    "t": [
+      "ja-სთან (მე) sedieť **-ím**-ზე ბოლოვდება: sed**ím**. Sedí on-ის ან ona-ს ფორმაა.",
+      "ქართულში „-ში“ ემატება (ბიბლიოთეკაში), სლოვაკურში კი v წინ დგას და სიტყვის დაბოლოებაც იცვლება: **v knižnici**. Knižnica ძირითადი ფორმაა."
+    ]
   },
   "u7-l4.10.en": {
     "en": "What are you thinking about, Lucia?",
@@ -1225,6 +1305,16 @@
     "en": "I worked yesterday. (woman speaking)",
     "t": "გუშინ ვმუშაობდი. (ამბობს ქალი)"
   },
+  "u7-l5.4.traps": {
+    "en": [
+      "A woman is speaking, so the past tense ends in **-la**: pracoval**a**. Pracoval is for a man.",
+      "With ja (I), the past tense adds **som**, in second place: včera **som** pracovala. Si goes with ty (you)."
+    ],
+    "t": [
+      "ქართული „ვიმუშავე“ ორივესთვის ერთია, სლოვაკური წარსული კი სქესს აჩვენებს: ქალი ამბობს pracoval**a**. Pracoval კაცისთვისაა.",
+      "ja-სთან (მე) წარსულს ემატება **som**, მეორე ადგილზე: včera **som** pracovala. Si ty-სთან (შენ) დგას."
+    ]
+  },
   "u7-l5.5.en": {
     "en": "Emma, what did you do yesterday?",
     "t": "ემა, რას აკეთებდი გუშინ?"
@@ -1370,6 +1460,16 @@
   "u7-l5.10.prompt": {
     "en": "What did you do yesterday? (to a man)",
     "t": "რას აკეთებდი გუშინ? (კაცს)"
+  },
+  "u7-l5.10.traps": {
+    "en": [
+      "You're asking a man, so the past tense ends in **-l**: robi**l**. Robila is for a woman.",
+      "The question is to ty (you), so the past tense adds **si**: čo **si** robil. Som goes with ja (I)."
+    ],
+    "t": [
+      "კაცს ეკითხებით, ამიტომ წარსული **-l**-ზე ბოლოვდება: robi**l**. Robila ქალისთვისაა.",
+      "კითხვა ty-ს (შენ) ეხება, ამიტომ წარსულს ემატება **si**: čo **si** robil. Som ja-სთან (მე) დგას."
+    ]
   },
   "u7-l5.11.question": {
     "en": "Lucia says this. What did she do?",
@@ -1521,6 +1621,16 @@
     "en": "I didn't have breakfast today. (man speaking)",
     "t": "დღეს არ მისაუზმია. (ამბობს კაცი)"
   },
+  "u7-l6.3.traps": {
+    "en": [
+      "A man is speaking, so the past tense ends in **-l**: neraňajkova**l**. Neraňajkovala is for a woman.",
+      "With ja (I), the past tense adds **som**, in second place: dnes **som** neraňajkoval. Si goes with ty (you)."
+    ],
+    "t": [
+      "ლაპარაკობს კაცი, ამიტომ წარსული **-l**-ზე ბოლოვდება: neraňajkova**l**. Neraňajkovala ქალისთვისაა.",
+      "ja-სთან (მე) წარსულს ემატება **som**, მეორე ადგილზე: dnes **som** neraňajkoval. Si ty-სთან (შენ) დგას."
+    ]
+  },
   "u7-l6.4.en": {
     "en": "Sorry, I overslept.",
     "t": "მაპატიეთ, გადამეძინა."
@@ -1645,6 +1755,16 @@
     "en": "I've already eaten. (woman speaking)",
     "t": "უკვე ვჭამე. (ამბობს ქალი)"
   },
+  "u7-l6.9.traps": {
+    "en": [
+      "Already is **už**. Ešte means still; with a not, ešte som nejedla is “I haven't eaten yet”.",
+      "A woman is speaking, so the past of jesť is **jedla**. Jedol is the form for a man."
+    ],
+    "t": [
+      "„უკვე“ არის **už**. Ešte ნიშნავს „ჯერ კიდევ“; უარყოფასთან ešte som nejedla ნიშნავს „ჯერ არ მიჭამია“.",
+      "ლაპარაკობს ქალი, ამიტომ jesť-ის წარსულია **jedla**. Jedol კაცის ფორმაა."
+    ]
+  },
   "u7-l6.10.answers": {
     "en": [
       "Tomáš isn't asleep any more.",
@@ -1673,6 +1793,16 @@
   "u7-l6.11.prompt": {
     "en": "Were you at the seminar? (to a woman, informal)",
     "t": "სემინარზე იყავი? (ქალს, შენ)"
+  },
+  "u7-l6.11.traps": {
+    "en": [
+      "You're asking a woman, so the past of byť is **bola**. Bol is for a man.",
+      "The question is to ty (you), so the past tense adds **si**: bola **si**. Som goes with ja (I)."
+    ],
+    "t": [
+      "ქალს ეკითხებით, ამიტომ byť-ის წარსულია **bola**. Bol კაცისთვისაა.",
+      "კითხვა ty-ს (შენ) ეხება, ამიტომ წარსულს ემატება **si**: bola **si**. Som ja-სთან (მე) დგას."
+    ]
   },
   "u7-l6.12.en": {
     "en": "Lucia, have you been to the library yet? — Not yet.",
@@ -1714,6 +1844,16 @@
     "en": "I overslept! (woman speaking)",
     "t": "გადამეძინა! (ამბობს ქალი)"
   },
+  "u7-l7.2.traps": {
+    "en": [
+      "A woman is speaking, so the past tense ends in **-la**: zaspal**a**. Zaspal is for a man.",
+      "With ja (I), the past tense adds **som**: zaspala **som**. Si goes with ty (you)."
+    ],
+    "t": [
+      "ლაპარაკობს ქალი, ამიტომ წარსული **-la**-ზე ბოლოვდება: zaspal**a**. Zaspal კაცისთვისაა.",
+      "ja-სთან (მე) წარსულს ემატება **som**: zaspala **som**. Si ty-სთან (შენ) დგას."
+    ]
+  },
   "u7-l7.3.question": {
     "en": "Lucia hasn't had breakfast yet. What does she say?",
     "t": "ლუციას ჯერ არ უსაუზმია. რას ამბობს?"
@@ -1726,6 +1866,16 @@
     "en": "I have an exam tomorrow.",
     "t": "ხვალ გამოცდა მაქვს."
   },
+  "u7-l7.4.traps": {
+    "en": [
+      "The exam is what you have, the object, so skúška changes -a to **-u**: mám **skúšku**.",
+      "It's ja (I) who has the exam, so mať ends in **-m**: **mám**. Máš is the ty form (you)."
+    ],
+    "t": [
+      "გამოცდა ის არის, რაც გაქვთ, ანუ ობიექტი, ამიტომ skúška -a-ს **-u**-თი ცვლის: mám **skúšku**.",
+      "გამოცდა ja-ს (მე) აქვს, ამიტომ mať **-m**-ზე ბოლოვდება: **mám**. Máš ty-ს (შენ) ფორმაა."
+    ]
+  },
   "u7-l7.5.en": {
     "en": "Emma and Lucia are still asleep.",
     "t": "ემას და ლუციას ჯერ კიდევ სძინავთ."
@@ -1737,6 +1887,16 @@
   "u7-l7.6.prompt": {
     "en": "We'll meet at seven.",
     "t": "შვიდ საათზე შევხვდებით."
+  },
+  "u7-l7.6.traps": {
+    "en": [
+      "At a time is **o** + the **-ej** form: o siedm**ej**. Sedem is the plain number, for counting.",
+      "“We” is my, so stretnúť ends in **-eme**: stretn**eme** sa. Stretnem is the ja form: I'll meet."
+    ],
+    "t": [
+      "„რომელ საათზე“ არის **o** + **-ej** ფორმა: o siedm**ej**. Sedem უბრალო რიცხვია, სათვლელად.",
+      "„ჩვენ“ არის my, ამიტომ stretnúť **-eme**-ზე ბოლოვდება: stretn**eme** sa. Stretnem ja-ს ფორმაა: შევხვდები."
+    ]
   },
   "u7-l7.7.en": {
     "en": "Yesterday Emma and Lucia sat in the library.",
@@ -1791,6 +1951,16 @@
   "u7-l7.12.prompt": {
     "en": "Did you go to the lecture? (to a man, informal)",
     "t": "ლექციაზე წახვედი? (კაცს, შენ)"
+  },
+  "u7-l7.12.traps": {
+    "en": [
+      "You're asking a man, so the past of ísť is **išiel**. Išla is for a woman.",
+      "The question is to ty (you), so the past tense adds **si**: išiel **si**. Som goes with ja (I)."
+    ],
+    "t": [
+      "კაცს ეკითხებით, ამიტომ ísť-ის წარსულია **išiel**. Išla ქალისთვისაა.",
+      "კითხვა ty-ს (შენ) ეხება, ამიტომ წარსულს ემატება **si**: išiel **si**. Som ja-სთან (მე) დგას."
+    ]
   },
   "u7-l7.13.en": {
     "en": "Tomáš isn't asleep any more, he's already having breakfast.",

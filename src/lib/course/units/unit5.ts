@@ -42,6 +42,9 @@ export const unit5: Unit = {
           promptLang: "en",
           answers: ["Potrebujeme chlieb a syr.", "Potrebujeme syr a chlieb."],
           distractors: ["Potrebujem", "maslo"],
+          traps: [
+            { wrong: "Potrebujem", right: "Potrebujeme", why: "“We” is **my**, so potrebovať takes the my ending **-me**: **potrebujeme**. Potrebujem is the ja form, I need." },
+          ],
         },
         { type: "intro", sk: "víno, pivo a džús", en: "wine, beer and juice" },
         {
@@ -91,6 +94,10 @@ export const unit5: Unit = {
           promptLang: "en",
           answers: ["Káva stojí tri eurá."],
           distractors: ["stoja", "euro"],
+          traps: [
+            { wrong: "stoja", right: "stojí", why: "Káva is one thing, so stáť takes the one-thing form **stojí**, even though tri eurá is plural. Stoja is for two or more things." },
+            { wrong: "euro", right: "eurá", why: "After 2, 3 and 4, use the plural: neuter euro becomes **eurá**, so tri **eurá**. Euro is for just one: jedno euro." },
+          ],
         },
         {
           type: "intro",
@@ -194,6 +201,10 @@ export const unit5: Unit = {
           promptLang: "en",
           answers: ["Kúpim kávu a maslo.", "Kúpim maslo a kávu."],
           distractors: ["káva", "Kúpiš"],
+          traps: [
+            { wrong: "káva", right: "kávu", why: "Coffee is what you'll buy, the object, so it takes the accusative: feminine nouns change -a to **-u**, káva → **kávu**." },
+            { wrong: "Kúpiš", right: "Kúpim", why: "The speaker is **ja** (I'll buy), so kúpiť takes the ja ending **-m**: **kúpim**. Kúpiš is the ty form." },
+          ],
         },
         {
           type: "choice",
@@ -262,6 +273,10 @@ export const unit5: Unit = {
           promptLang: "en",
           answers: ["Hľadáme Tomáša a Luciu.", "Hľadáme Luciu a Tomáša."],
           distractors: ["Tomáš", "Lucia"],
+          traps: [
+            { wrong: "Tomáš", right: "Tomáša", why: "Tomáš is a person and the object of hľadáme, so the masculine name adds **-a**: **Tomáša**. Only masculine things stay the same." },
+            { wrong: "Lucia", right: "Luciu", why: "Lucia is the object of hľadáme, and women follow the feminine rule: -a changes to **-u**, Lucia → **Luciu**." },
+          ],
         },
         {
           type: "fill",
@@ -344,6 +359,10 @@ export const unit5: Unit = {
           promptLang: "en",
           answers: ["Chcem bielu košeľu."],
           distractors: ["biela", "košeľa"],
+          traps: [
+            { wrong: "biela", right: "bielu", why: "Košeľu is a feminine object, so the colour changes too. Biely has short endings: biela → **bielu**, with -u, not -ú." },
+            { wrong: "košeľa", right: "košeľu", why: "The shirt is what you want, the object of chcem, so feminine košeľa changes -a to **-u**: **košeľu**." },
+          ],
         },
         {
           type: "intro",
@@ -382,6 +401,10 @@ export const unit5: Unit = {
           promptLang: "en",
           answers: ["Emma hľadá zelené tričko."],
           distractors: ["zelenú", "hľadám"],
+          traps: [
+            { wrong: "zelenú", right: "zelené", why: "Tričko is neuter, and neuter nouns don't change as objects, so the colour stays **zelené**. Zelenú is for feminine nouns." },
+            { wrong: "hľadám", right: "hľadá", why: "Emma is **ona**, so hľadať takes the ona form, with no ending: **hľadá**. Hľadám is the ja form." },
+          ],
         },
         { type: "listen", sk: "Koľko stojí čierny sveter?", en: "How much is the black sweater?" },
         {
@@ -495,6 +518,10 @@ export const unit5: Unit = {
           promptLang: "en",
           answers: ["Sveter je pre neho."],
           distractors: ["ho", "ju"],
+          traps: [
+            { wrong: "ho", right: "neho", why: "After a preposition like **pre**, pronouns use their long forms: on → pre **neho**. Ho is the short form, used without a preposition." },
+            { wrong: "ju", right: "neho", why: "Him is on, and after **pre** it takes its long form: pre **neho**. Ju means her, and it's a short form, not used after a preposition." },
+          ],
         },
         {
           type: "match",
@@ -544,6 +571,10 @@ export const unit5: Unit = {
           promptLang: "en",
           answers: ["Pozývame ťa na oslavu.", "Na oslavu ťa pozývame.", "Pozývame vás na oslavu."],
           distractors: ["oslava", "Pozývam"],
+          traps: [
+            { wrong: "oslava", right: "oslavu", why: "**Pozývať na** takes the accusative, so feminine oslava changes -a to **-u**: na **oslavu**." },
+            { wrong: "Pozývam", right: "Pozývame", why: "“We” is **my**, so pozývať takes the my ending **-me**: **pozývame**. Pozývam is the ja form, I'm inviting." },
+          ],
         },
         { type: "listen", sk: "Pozývam ťa na oslavu.", en: "I'm inviting you to the party." },
         {
@@ -646,6 +677,10 @@ export const unit5: Unit = {
           promptLang: "en",
           answers: ["Môžeš kúpiť chlieb?", "Môžete kúpiť chlieb?"],
           distractors: ["kúpim", "Môžem"],
+          traps: [
+            { wrong: "kúpim", right: "kúpiť", why: "Môcť (can) is followed by an infinitive, the -ť form: môžeš **kúpiť**. Kúpim is the ja form, I'll buy." },
+            { wrong: "Môžem", right: "Môžeš", why: "The question is to **ty** (you), so môcť takes the ty form **môžeš**. Môžem is for ja, I can." },
+          ],
         },
         {
           type: "build",
@@ -653,6 +688,10 @@ export const unit5: Unit = {
           promptLang: "en",
           answers: ["Ideme na oslavu.", "My ideme na oslavu."],
           distractors: ["oslava", "Idete"],
+          traps: [
+            { wrong: "oslava", right: "oslavu", why: "**Na** (to an event) takes the accusative, so feminine oslava changes -a to **-u**: na **oslavu**." },
+            { wrong: "Idete", right: "Ideme", why: "“We” is **my**, so ísť takes the my form **ideme**. Idete is for vy." },
+          ],
         },
         { type: "listen", sk: "Idem po chlieb a víno.", en: "I'm going to get bread and wine." },
         {
@@ -661,6 +700,10 @@ export const unit5: Unit = {
           promptLang: "en",
           answers: ["Čo chceš piť?", "Čo chcete piť?"],
           distractors: ["chcem", "kúpiť"],
+          traps: [
+            { wrong: "chcem", right: "chceš", why: "The question is to **ty** (you), so chcieť takes the ty form **chceš**. Chcem is the ja form, I want." },
+            { wrong: "kúpiť", right: "piť", why: "To drink is **piť**; kúpiť means to buy. Both are infinitives, the -ť form that follows chcieť." },
+          ],
         },
         {
           type: "grammar",
@@ -702,6 +745,10 @@ export const unit5: Unit = {
           promptLang: "en",
           answers: ["Nesmieš piť víno.", "Víno nesmieš piť."],
           distractors: ["Nemusíš", "chceš"],
+          traps: [
+            { wrong: "Nemusíš", right: "Nesmieš", why: "Not allowed is **nesmieť**: **nesmieš** = you mustn't. Careful: nemusíš means you don't have to." },
+            { wrong: "chceš", right: "Nesmieš", why: "You mustn't is **nesmieš**, smieť (to be allowed to) with ne-. Chceš means you want." },
+          ],
         },
         {
           type: "build",
@@ -793,6 +840,10 @@ export const unit5: Unit = {
           promptLang: "en",
           answers: ["Darček je pre teba."],
           distractors: ["ťa", "darčeky"],
+          traps: [
+            { wrong: "ťa", right: "teba", why: "After a preposition like **pre**, pronouns use their long forms: pre **teba**. Ťa is the short form, used without a preposition: hľadám ťa." },
+            { wrong: "darčeky", right: "Darček", why: "The present is one thing, so use the singular **darček**, which also fits je. Darčeky is the plural, presents." },
+          ],
         },
         {
           type: "intro",
@@ -847,6 +898,10 @@ export const unit5: Unit = {
           promptLang: "en",
           answers: ["Kúpim kyticu pre Luciu.", "Kúpim pre Luciu kyticu.", "Pre Luciu kúpim kyticu."],
           distractors: ["kytica", "Lucia"],
+          traps: [
+            { wrong: "kytica", right: "kyticu", why: "The bouquet is what you'll buy, the object of kúpim, so feminine kytica changes -a to **-u**: **kyticu**." },
+            { wrong: "Lucia", right: "Luciu", why: "**Pre** (for) takes the accusative, and Lucia follows the feminine -u rule: Lucia → **Luciu**." },
+          ],
         },
         { type: "speak", sk: "Všetko najlepšie!", en: "Happy birthday!" },
       ],
@@ -894,6 +949,10 @@ export const unit5: Unit = {
           promptLang: "en",
           answers: ["Hľadám Mareka.", "Ja hľadám Mareka."],
           distractors: ["Marek", "Hľadáš"],
+          traps: [
+            { wrong: "Marek", right: "Mareka", why: "Marek is a person and the object of hľadám, so the masculine name adds **-a**: **Mareka**. Only masculine things stay the same." },
+            { wrong: "Hľadáš", right: "Hľadám", why: "The speaker is **ja** (I'm looking), so hľadať ends in **-m**: **hľadám**. Hľadáš is the ty form." },
+          ],
         },
         {
           type: "choice",
@@ -920,6 +979,10 @@ export const unit5: Unit = {
           promptLang: "en",
           answers: ["Kytica je pre ňu."],
           distractors: ["ju", "kyticu"],
+          traps: [
+            { wrong: "ju", right: "ňu", why: "After a preposition like **pre**, ona uses its long form: pre **ňu**. Ju is the short form, used without a preposition." },
+            { wrong: "kyticu", right: "Kytica", why: "Here the bouquet isn't an object: the sentence is about it (kytica je…), so it keeps its plain form **kytica**. Kyticu is the object form." },
+          ],
         },
         {
           type: "fill",
@@ -947,6 +1010,10 @@ export const unit5: Unit = {
           promptLang: "en",
           answers: ["Môžeš kúpiť tortu?", "Môžete kúpiť tortu?"],
           distractors: ["torta", "Musíš"],
+          traps: [
+            { wrong: "torta", right: "tortu", why: "The cake is what you'd buy, the object of kúpiť, so feminine torta changes -a to **-u**: **tortu**." },
+            { wrong: "Musíš", right: "Môžeš", why: "Can you is **môžeš**, the ty form of môcť (can). Musíš means you must, from musieť." },
+          ],
         },
         {
           type: "fill",

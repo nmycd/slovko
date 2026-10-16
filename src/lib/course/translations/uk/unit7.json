@@ -129,6 +129,16 @@
     "en": "Lucia is writing a paper.",
     "t": "Луція пише реферат."
   },
+  "u7-l1.10.traps": {
+    "en": [
+      "Lucia is ona, and with on or ona the verb has no ending: **píše**. Píšem is the ja form.",
+      "Lucia writes one paper, so it's **referát**: as the object, a masculine thing stays the same. Referáty is the plural, papers."
+    ],
+    "t": [
+      "Луція — це ona, а з on чи ona дієслово без закінчення: **píše**, як «пише». Píšem — форма для ja.",
+      "Луція пише один реферат, тож **referát**: у знахідному неістота чоловічого роду не змінюється, як «пише реферат». Referáty — множина."
+    ]
+  },
   "u7-l1.11.en": {
     "en": "Today I have a lecture and a seminar.",
     "t": "Сьогодні в мене лекція й семінар."
@@ -178,6 +188,16 @@
   "u7-l1.16.prompt": {
     "en": "Sorry I'm late. (formal)",
     "t": "Вибачте, що запізнююся. (до «ви»)"
+  },
+  "u7-l1.16.traps": {
+    "en": [
+      "Prepáčte is formal vy, but the one who's late is ja (I), so the verb ends in **-m**: mešk**ám**. Meškáš is the ty form.",
+      "Sorry is **Prepáčte**, the vy form of prepáč, for a teacher or a stranger. Prosím means please."
+    ],
+    "t": [
+      "Prepáčte — ввічливе vy, але запізнюєтеся ви (ja), тож **-m**: mešk**ám**. Meškáš — форма для ty. Meškať — «запізнюватися», а не «мешкати».",
+      "«Вибачте» — це **Prepáčte**, форма на vy від prepáč, для вчителя чи незнайомого. Prosím означає «будь ласка»."
+    ]
   },
   "u7-l1.17.en": {
     "en": "Sorry I'm late.",
@@ -437,6 +457,16 @@
     "en": "The seminar is at nine.",
     "t": "Семінар о дев'ятій."
   },
+  "u7-l2.7.traps": {
+    "en": [
+      "At a time is **o** + the **-ej** form: o deviat**ej**. Deväť is the plain number, for counting.",
+      "Hodín is for telling the time: je deväť hodín, it's nine o'clock. To say when something is, use o + the **-ej** form: o deviat**ej**."
+    ],
+    "t": [
+      "«О котрій» — це **o** + форма на **-ej**: o deviat**ej**, як «о дев'ятій». Deväť — звичайне число, для лічби.",
+      "Hodín — щоб сказати, котра година: je deväť hodín, «дев'ять годин». А коли щось відбувається — o + форма на **-ej**: o deviat**ej**."
+    ]
+  },
   "u7-l2.8.en": {
     "en": "It's half past seven. (7:30)",
     "t": "Пів на восьму. (7:30)"
@@ -496,6 +526,16 @@
   "u7-l2.14.prompt": {
     "en": "What time is it?",
     "t": "Котра година?"
+  },
+  "u7-l2.14.traps": {
+    "en": [
+      "**Koľko je hodín?** is a set question, literally “how many hours is it?”, with the form used from 5 up. Hodiny goes with 2–4.",
+      "Asking the time is **Koľko** je hodín?, literally “how many hours?”. Kedy means when: Kedy je seminár?"
+    ],
+    "t": [
+      "Не «котра година», а **Koľko je hodín?**, дослівно «скільки годин?», з формою як після 5. Hodiny — лише з 2–4.",
+      "Час питають через **Koľko** je hodín?, дослівно «скільки годин?». Kedy означає «коли»: Kedy je seminár?"
+    ]
   },
   "u7-l2.15.en": {
     "en": "The seminar is at seven.",
@@ -589,6 +629,16 @@
     "en": "I get up at seven.",
     "t": "Я встаю о сьомій."
   },
+  "u7-l3.7.traps": {
+    "en": [
+      "At a time is **o** + the **-ej** form: o siedm**ej**. Sedem is the plain number, for counting.",
+      "“I” is ja, so the verb ends in **-m**: vstáva**m**. Vstávaš, with -š, is the ty form (you)."
+    ],
+    "t": [
+      "«О котрій» — це **o** + форма на **-ej**: o siedm**ej**, як «о сьомій». Sedem — звичайне число, для лічби.",
+      "«Я» — це ja, тож дієслово закінчується на **-m**: vstáva**m**, «встаю». Vstávaš із -š — форма для ty."
+    ]
+  },
   "u7-l3.8.en": {
     "en": "In the morning I have lectures.",
     "t": "До обіду в мене лекції."
@@ -652,6 +702,16 @@
   "u7-l3.15.prompt": {
     "en": "First I study, then I go to bed.",
     "t": "Спочатку я вчуся, потім іду спати."
+  },
+  "u7-l3.15.traps": {
+    "en": [
+      "It's ja (I) who studies, so the verb ends in **-m**: najprv sa uč**ím**. Učíš is the ty form (you).",
+      "It's ja (I) going to bed, so ísť is **idem**: idem spať. Ideme is the my form (we)."
+    ],
+    "t": [
+      "Вчуся я (ja), тож дієслово закінчується на **-m**: najprv sa uč**ím**, «вчуся» (sa = -ся). Učíš — форма для ty.",
+      "Іду спати я (ja), тож ísť має форму **idem**: idem spať, «іду спати». Ideme — форма для my (ми)."
+    ]
   },
   "u7-l3.16.answers": {
     "en": [
@@ -846,6 +906,16 @@
     "en": "Where shall we meet?",
     "t": "Де зустрінемося?"
   },
+  "u7-l4.5.traps": {
+    "en": [
+      "“We” is my, so stretnúť ends in **-eme**: stretn**eme**. Stretnem is the ja form: I'll meet.",
+      "Where? is **Kde**. Kedy means when: Kedy sa stretneme? = When shall we meet?"
+    ],
+    "t": [
+      "«Ми» — це my, тож stretnúť закінчується на **-eme**: stretn**eme**, як «зустрінемо». Stretnem — форма для ja, «зустріну».",
+      "«Де?» — це **Kde**. Kedy означає «коли»: Kedy sa stretneme? = Коли зустрінемося?"
+    ]
+  },
   "u7-l4.6.title": {
     "en": "More verbs like these",
     "t": "Ще дієслова за цими зразками"
@@ -965,6 +1035,16 @@
   "u7-l4.9.prompt": {
     "en": "I'm sitting in the library.",
     "t": "Я сиджу в бібліотеці."
+  },
+  "u7-l4.9.traps": {
+    "en": [
+      "With ja (I), sedieť ends in **-ím**: sed**ím**. Sedí is the on or ona form.",
+      "In the library is **v knižnici**: after v, for being in a place, the word changes its ending. Knižnica is the plain form."
+    ],
+    "t": [
+      "З ja sedieť закінчується на **-ím**: sed**ím**, як «сиджу». Sedí — форма для on чи ona.",
+      "«У бібліотеці» — **v knižnici**: після v, коли кажуть, де хтось є, слово змінює закінчення, як у нас (місцевий відмінок). Knižnica — початкова форма."
+    ]
   },
   "u7-l4.10.en": {
     "en": "What are you thinking about, Lucia?",
@@ -1221,6 +1301,16 @@
     "en": "I worked yesterday. (woman speaking)",
     "t": "Учора я працювала. (каже жінка)"
   },
+  "u7-l5.4.traps": {
+    "en": [
+      "A woman is speaking, so the past tense ends in **-la**: pracoval**a**. Pracoval is for a man.",
+      "With ja (I), the past tense adds **som**, in second place: včera **som** pracovala. Si goes with ty (you)."
+    ],
+    "t": [
+      "Говорить жінка, тож минулий час закінчується на **-la**: pracoval**a**, як «працювала». Pracoval — про чоловіка.",
+      "З ja до минулого часу додають **som**, на другому місці: včera **som** pracovala, хоча в нас вистачає «я». Si — для ty."
+    ]
+  },
   "u7-l5.5.en": {
     "en": "Emma, what did you do yesterday?",
     "t": "Еммо, що ти робила вчора?"
@@ -1366,6 +1456,16 @@
   "u7-l5.10.prompt": {
     "en": "What did you do yesterday? (to a man)",
     "t": "Що ти робив учора? (до чоловіка)"
+  },
+  "u7-l5.10.traps": {
+    "en": [
+      "You're asking a man, so the past tense ends in **-l**: robi**l**. Robila is for a woman.",
+      "The question is to ty (you), so the past tense adds **si**: čo **si** robil. Som goes with ja (I)."
+    ],
+    "t": [
+      "Питаєте чоловіка, тож минулий час закінчується на **-l**, як наше -в: robi**l**, «робив». Robila — про жінку.",
+      "Питання до ty, тож у минулому додають **si**: čo **si** robil, «що ти робив». Som — для ja."
+    ]
   },
   "u7-l5.11.question": {
     "en": "Lucia says this. What did she do?",
@@ -1516,6 +1616,16 @@
     "en": "I didn't have breakfast today. (man speaking)",
     "t": "Сьогодні я не снідав. (каже чоловік)"
   },
+  "u7-l6.3.traps": {
+    "en": [
+      "A man is speaking, so the past tense ends in **-l**: neraňajkova**l**. Neraňajkovala is for a woman.",
+      "With ja (I), the past tense adds **som**, in second place: dnes **som** neraňajkoval. Si goes with ty (you)."
+    ],
+    "t": [
+      "Говорить чоловік, тож минулий час закінчується на **-l**, як наше -в: neraňajkova**l**, «не снідав». Neraňajkovala — про жінку.",
+      "З ja до минулого часу додають **som**, на другому місці: dnes **som** neraňajkoval. Si — для ty."
+    ]
+  },
   "u7-l6.4.en": {
     "en": "Sorry, I overslept.",
     "t": "Вибачте, я проспала."
@@ -1640,6 +1750,16 @@
     "en": "I've already eaten. (woman speaking)",
     "t": "Я вже поїла. (каже жінка)"
   },
+  "u7-l6.9.traps": {
+    "en": [
+      "Already is **už**. Ešte means still; with a not, ešte som nejedla is “I haven't eaten yet”.",
+      "A woman is speaking, so the past of jesť is **jedla**. Jedol is the form for a man."
+    ],
+    "t": [
+      "«Вже» — це **už**. Ešte означає «ще»; із запереченням ešte som nejedla — «я ще не їла».",
+      "Говорить жінка, тож минулий час від jesť — **jedla**, як «їла». Jedol — форма для чоловіка, «їв»."
+    ]
+  },
   "u7-l6.10.answers": {
     "en": [
       "Tomáš isn't asleep any more.",
@@ -1665,6 +1785,16 @@
   "u7-l6.11.prompt": {
     "en": "Were you at the seminar? (to a woman, informal)",
     "t": "Ти була на семінарі? (до жінки)"
+  },
+  "u7-l6.11.traps": {
+    "en": [
+      "You're asking a woman, so the past of byť is **bola**. Bol is for a man.",
+      "The question is to ty (you), so the past tense adds **si**: bola **si**. Som goes with ja (I)."
+    ],
+    "t": [
+      "Питаєте жінку, тож минулий час від byť — **bola**, «була». Bol — про чоловіка, «був».",
+      "Питання до ty, тож у минулому додають **si**: bola **si**, «ти була». Som — для ja."
+    ]
   },
   "u7-l6.12.en": {
     "en": "Lucia, have you been to the library yet? — Not yet.",
@@ -1706,6 +1836,16 @@
     "en": "I overslept! (woman speaking)",
     "t": "Я проспала! (каже жінка)"
   },
+  "u7-l7.2.traps": {
+    "en": [
+      "A woman is speaking, so the past tense ends in **-la**: zaspal**a**. Zaspal is for a man.",
+      "With ja (I), the past tense adds **som**: zaspala **som**. Si goes with ty (you)."
+    ],
+    "t": [
+      "Говорить жінка, тож **-la**: zaspal**a**, як наше «заспала» (проспала). Zaspal — про чоловіка.",
+      "З ja до минулого часу додають **som**: zaspala **som**. Si — для ty."
+    ]
+  },
   "u7-l7.3.question": {
     "en": "Lucia hasn't had breakfast yet. What does she say?",
     "t": "Луція ще не снідала. Що вона каже?"
@@ -1718,6 +1858,16 @@
     "en": "I have an exam tomorrow.",
     "t": "Завтра в мене іспит."
   },
+  "u7-l7.4.traps": {
+    "en": [
+      "The exam is what you have, the object, so skúška changes -a to **-u**: mám **skúšku**.",
+      "It's ja (I) who has the exam, so mať ends in **-m**: **mám**. Máš is the ty form (you)."
+    ],
+    "t": [
+      "Словацькою не «в мене», а «маю що?»: це знахідний, тож skúška міняє -a на **-u**: mám **skúšku**.",
+      "Іспит у вас (ja), тож mať закінчується на **-m**: **mám**, «маю». Máš — форма для ty."
+    ]
+  },
   "u7-l7.5.en": {
     "en": "Emma and Lucia are still asleep.",
     "t": "Емма й Луція ще сплять."
@@ -1729,6 +1879,16 @@
   "u7-l7.6.prompt": {
     "en": "We'll meet at seven.",
     "t": "Ми зустрінемося о сьомій."
+  },
+  "u7-l7.6.traps": {
+    "en": [
+      "At a time is **o** + the **-ej** form: o siedm**ej**. Sedem is the plain number, for counting.",
+      "“We” is my, so stretnúť ends in **-eme**: stretn**eme** sa. Stretnem is the ja form: I'll meet."
+    ],
+    "t": [
+      "«О котрій» — це **o** + форма на **-ej**: o siedm**ej**, як «о сьомій». Sedem — звичайне число, для лічби.",
+      "«Ми» — це my, тож stretnúť закінчується на **-eme**: stretn**eme** sa, «зустрінемося». Stretnem — форма для ja, «зустріну»."
+    ]
   },
   "u7-l7.7.en": {
     "en": "Yesterday Emma and Lucia sat in the library.",
@@ -1783,6 +1943,16 @@
   "u7-l7.12.prompt": {
     "en": "Did you go to the lecture? (to a man, informal)",
     "t": "Ти пішов на лекцію? (до чоловіка)"
+  },
+  "u7-l7.12.traps": {
+    "en": [
+      "You're asking a man, so the past of ísť is **išiel**. Išla is for a woman.",
+      "The question is to ty (you), so the past tense adds **si**: išiel **si**. Som goes with ja (I)."
+    ],
+    "t": [
+      "Питаєте чоловіка, тож минулий час від ísť — **išiel**, як «ішов». Išla — про жінку.",
+      "Питання до ty, тож у минулому додають **si**: išiel **si**, «ти пішов». Som — для ja."
+    ]
   },
   "u7-l7.13.en": {
     "en": "Tomáš isn't asleep any more, he's already having breakfast.",

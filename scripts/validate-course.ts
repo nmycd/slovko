@@ -147,6 +147,15 @@ function checkExercise(where: string, ex: Exercise) {
         );
       }
       check(where, unique(ex.answers), "build answers must be unique");
+      // Traps: a distractor, the answer tile it competes with, and why.
+      const distractors = new Set(ex.distractors.map(normalize));
+      for (const trap of ex.traps ?? []) {
+        check(where, ex.promptLang === "en", "traps are for answers in Slovak");
+        check(where, distractors.has(normalize(trap.wrong)), `trap "${trap.wrong}" is not a distractor`);
+        check(where, tileSet.has(normalize(trap.right)), `trap's right tile "${trap.right}" is not in the answer`);
+        check(where, trap.why.trim(), `trap "${trap.wrong}" has no why`);
+      }
+      check(where, unique((ex.traps ?? []).map((trap) => normalize(trap.wrong))), "a distractor has two traps");
       if (ex.promptLang === "sk") slovak(where, ex.prompt);
       else ex.answers.forEach((a) => slovak(where, a));
       break;
@@ -290,6 +299,7 @@ const flatten = (f: Field): string[] =>
 // Lists whose items correspond one-to-one with the English source.
 const PARALLEL_LISTS = [
   "options",
+  "traps",
   "pairs",
   "body",
   "table.head",

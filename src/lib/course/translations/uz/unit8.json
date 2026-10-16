@@ -141,6 +141,16 @@
     "en": "The company is looking for a new programmer.",
     "t": "Firma yangi dasturchi qidiryapti."
   },
+  "u8-l1.12.traps": {
+    "en": [
+      "A man is the object of hľadá, so his adjective ends in **-ého**: nov**ého**. Nový is the plain form.",
+      "A programmer is a person and the object of hľadá, so the masculine word adds **-a**: programátor**a**. Programátor is the plain form."
+    ],
+    "t": [
+      "Dasturchi — erkak kishi va hľadá feʼlining toʻldiruvchisi, shuning uchun uning sifati **-ého** bilan tugaydi: nov**ého**. Nový — asosiy shakl.",
+      "Dasturchi — odam va hľadá feʼlining toʻldiruvchisi, shuning uchun erkak jinsidagi soʻz **-a** oladi: programátor**a**. Programátor — asosiy shakl."
+    ]
+  },
   "u8-l1.13.en": {
     "en": "I have a job interview tomorrow.",
     "t": "Ertaga ish suhbatim bor."
@@ -156,6 +166,16 @@
   "u8-l1.15.prompt": {
     "en": "Emma is writing a CV.",
     "t": "Emma rezyume yozyapti."
+  },
+  "u8-l1.15.traps": {
+    "en": [
+      "A CV is a **životopis**. A pohovor is a job interview: you have one (mám pohovor), you don't write it.",
+      "Emma is ona, and with on or ona the verb has no ending: **píše**. Píšem is the ja form."
+    ],
+    "t": [
+      "«Rezyume» — **životopis**. Pohovor esa «ish suhbati»: u sizda boʻladi (mám pohovor), uni yozmaysiz.",
+      "Emma haqida «u» — ona, on yoki ona bilan esa feʼl qoʻshimchasiz keladi: **píše**. Píšem — ja shakli."
+    ]
   },
   "u8-l1.16.answers": {
     "en": [
@@ -382,6 +402,16 @@
   "u8-l2.8.prompt": {
     "en": "I have a job interview on Friday.",
     "t": "Juma kuni ish suhbatim bor."
+  },
+  "u8-l2.8.traps": {
+    "en": [
+      "“On” a day is v + the plain day: v **piatok**, like v pondelok. Only days ending in -a change, to -u: v stredu.",
+      "“On” a day is v + the day: **v** piatok. Vo is only for štvrtok: vo štvrtok."
+    ],
+    "t": [
+      "«…kuni» — v + kunning asosiy shakli: v **piatok** (juma kuni), xuddi v pondelok kabi. Faqat -a bilan tugaydigan kunlar -u ga oʻzgaradi: v stredu.",
+      "«…kuni» — v + kun nomi: **v** piatok. Vo faqat štvrtok bilan keladi: vo štvrtok."
+    ]
   },
   "u8-l2.9.title": {
     "en": "Months",
@@ -855,6 +885,16 @@
     "en": "Today is the first of October.",
     "t": "Bugun birinchi oktabr."
   },
+  "u8-l3.5.traps": {
+    "en": [
+      "In a date the ordinal ends in **-ého**: prv**ého** októbra. Prvý is the plain ordinal, first.",
+      "In a date the month changes too (“of October”): add **-a**, and months in -ber lose their e: októbr**a**."
+    ],
+    "t": [
+      "Sanada tartib son **-ého** bilan tugaydi: prv**ého** októbra. Prvý — oddiy tartib son, «birinchi».",
+      "Sanada oy nomi ham oʻzgaradi («oktabrning» degandek): **-a** qoʻshiladi, -ber bilan tugaydigan oylar esa e ni tushirib qoldiradi: októbr**a**."
+    ]
+  },
   "u8-l3.6.title": {
     "en": "When were you born?",
     "t": "Qachon tugʻilgansiz?"
@@ -941,6 +981,16 @@
   "u8-l3.12.prompt": {
     "en": "Lucia: “I was born on the tenth of July.”",
     "t": "Lusiya: «Oʻninchi iyulda tugʻilganman.»"
+  },
+  "u8-l3.12.traps": {
+    "en": [
+      "A date uses the ordinal ending in -ého, shortened to **-eho** after a long syllable like ia: desiat**eho**. Desiaty is the plain ordinal.",
+      "In a date the month changes too (“of July”): most months add **-a**: júl**a**. Júl is the plain form."
+    ],
+    "t": [
+      "Sanada tartib son -ého bilan tugaydi, ia kabi choʻziq boʻgʻindan keyin esa qisqa **-eho** boʻladi: desiat**eho**. Desiaty — oddiy tartib son.",
+      "Sanada oy nomi ham oʻzgaradi («iyulning» degandek): koʻp oylarga **-a** qoʻshiladi: júl**a**. Júl — asosiy shakl."
+    ]
   },
   "u8-l3.13.en": {
     "en": "The interview is on the twenty-second of September.",
@@ -1092,6 +1142,16 @@
     "en": "Nobody is at home.",
     "t": "Uyda hech kim yoʻq."
   },
+  "u8-l4.4.traps": {
+    "en": [
+      "Nobody is **nikto**, and like every ni- word it goes with a negative verb: nie je. Niekto means somebody.",
+      "Nikto (nobody) goes with the on or ona form of byť: nikto nie **je**. Som is only for ja (I)."
+    ],
+    "t": [
+      "«Hech kim» — **nikto**, va har bir ni- soʻzi kabi u inkor feʼl bilan keladi: nikto nie je, xuddi «hech kim yoʻq» kabi. Niekto esa «kimdir».",
+      "Nikto (hech kim) byť feʼlining on yoki ona shakli bilan keladi: nikto nie **je**. Som faqat ja (men) uchun."
+    ]
+  },
   "u8-l4.5.answers": {
     "en": [
       "Emma never drinks coffee."
@@ -1225,6 +1285,16 @@
   "u8-l4.11.prompt": {
     "en": "I never have time.",
     "t": "Hech qachon vaqtim yoʻq."
+  },
+  "u8-l4.11.traps": {
+    "en": [
+      "**Nikdy** (never) always needs a negative verb, so mať becomes **ne**mám. This double negative is normal Slovak.",
+      "Never is **nikdy**, the ni- word that goes with the negative verb nemám. Niekedy, with nie-, means sometimes."
+    ],
+    "t": [
+      "**Nikdy** (hech qachon) doim inkor feʼl bilan keladi, shuning uchun mať **ne**mám boʻladi. Bu qoʻsh inkor oʻzbekchadagi kabi odatiy hol: «hech qachon vaqtim yoʻq».",
+      "«Hech qachon» — **nikdy**, inkor feʼl nemám bilan keladigan ni- soʻzi. nie- bilan boshlanadigan niekedy esa «baʼzan» degani."
+    ]
   },
   "u8-l4.12.en": {
     "en": "I'm looking for Tomáš, but I can't see him anywhere.",
@@ -1523,6 +1593,16 @@
     "en": "We live in Bratislava.",
     "t": "Biz Bratislavada yashaymiz."
   },
+  "u8-l5.5.traps": {
+    "en": [
+      "Where? takes the locative after v, and most feminine nouns end in **-e**: Bratislav**e**. Bratislava is the plain form.",
+      "Most places, cities too, take **v** (in): v Bratislave. Na is for set phrases like na pošte or na Slovensku."
+    ],
+    "t": [
+      "«Qayerda?» savolida v soʻzidan keyin lokál (oʻrin-payt kelishigi) keladi, oʻzbekchadagi -da kabi: ayol jinsidagi koʻp otlar **-e** oladi, Bratislav**e**.",
+      "Koʻp joylar, shaharlar ham, **v** bilan keladi: v Bratislave. Na esa na pošte yoki na Slovensku kabi tayyor iboralar uchun."
+    ]
+  },
   "u8-l5.6.en": {
     "en": "Lucia is in the park.",
     "t": "Lusiya parkda."
@@ -1634,6 +1714,16 @@
   "u8-l5.11.prompt": {
     "en": "Marek works in a small restaurant.",
     "t": "Marek kichkina restoranda ishlaydi."
+  },
+  "u8-l5.11.traps": {
+    "en": [
+      "Reštaurácia is feminine, so in the locative its adjective ends in **-ej**: mal**ej**. Malom is for masculine and neuter nouns.",
+      "Where? takes the locative, and nouns in -ia get **-ii**: reštaurácia → reštauráci**i**. Reštaurácia is the plain form."
+    ],
+    "t": [
+      "Reštaurácia ayol jinsida, shuning uchun lokálda uning sifati **-ej** bilan tugaydi: mal**ej**. Malom erkak va oʻrta jinsdagi otlar uchun.",
+      "«Qayerda?» savolida lokál keladi, -ia bilan tugaydigan otlar esa **-ii** oladi: reštaurácia → reštauráci**i** (restoranda). Reštaurácia — asosiy shakl."
+    ]
   },
   "u8-l5.12.answers": {
     "en": [
@@ -1863,6 +1953,16 @@
     "en": "What do you know about our company? (formal)",
     "t": "Firmamiz haqida nima bilasiz? (siz)"
   },
+  "u8-l6.5.traps": {
+    "en": [
+      "After **o** (about) comes the locative, and náš with a feminine noun ends in **-ej**: naš**ej** firme. Naša is the plain form.",
+      "**O** (about) takes the locative, so firma ends in **-e**: o firm**e**. Firmu is the object form."
+    ],
+    "t": [
+      "**O** (haqida) soʻzidan keyin lokál keladi, ayol jinsidagi ot bilan náš esa **-ej** bilan tugaydi: naš**ej** firme. Naša — asosiy shakl.",
+      "**O** (haqida) lokál talab qiladi, shuning uchun firma **-e** bilan tugaydi: o firm**e**. Firmu — toʻldiruvchi shakli."
+    ]
+  },
   "u8-l6.6.en": {
     "en": "Tell me something about yourself.",
     "t": "Oʻzingiz haqingizda biror narsa aytib bering."
@@ -1924,6 +2024,16 @@
     "en": "After lunch I have a job interview.",
     "t": "Tushlikdan keyin ish suhbatim bor."
   },
+  "u8-l6.11.traps": {
+    "en": [
+      "**Po** (after) takes the locative, so obed adds **-e**: po obed**e**. Obed is the plain form.",
+      "“After” is **po**, and it takes the locative: po obede. Na means on or at, as in na porade (at a meeting)."
+    ],
+    "t": [
+      "**Po** (keyin) lokál talab qiladi, shuning uchun obed **-e** oladi: po obed**e** (tushlikdan keyin). Obed — asosiy shakl.",
+      "«Keyin» — **po**, u lokál talab qiladi: po obede. Na esa «-da, ustida» degani, masalan na porade (yigʻilishda)."
+    ]
+  },
   "u8-l6.12.question": {
     "en": "What does “nej” refer to here?",
     "t": "Bu yerda «nej» nimani bildiradi?"
@@ -1979,6 +2089,16 @@
   "u8-l7.2.prompt": {
     "en": "Emma was born in Dublin.",
     "t": "Emma Dublinda tugʻilgan."
+  },
+  "u8-l7.2.traps": {
+    "en": [
+      "Where? takes the locative after v, and masculine places mostly add **-e**: v Dublin**e**, like v obchode. Dublin is the plain form.",
+      "Emma is a woman, so the past tense ends in **-la**: narodil**a** sa. Narodil is for a man."
+    ],
+    "t": [
+      "«Qayerda?» savolida v soʻzidan keyin lokál keladi, erkak jinsidagi joy nomlari odatda **-e** oladi: v Dublin**e** (Dublinda), xuddi v obchode kabi.",
+      "Emma — ayol, shuning uchun oʻtgan zamon **-la** bilan tugaydi: narodil**a** sa. Narodil — erkak uchun."
+    ]
   },
   "u8-l7.3.en": {
     "en": "I study at the university in Bratislava.",
@@ -2047,6 +2167,16 @@
     "en": "We're talking about him.",
     "t": "U (erkak) haqida gaplashyapmiz."
   },
+  "u8-l7.9.traps": {
+    "en": [
+      "After **o** (about), pronouns take their locative form: on becomes **ňom**. On is the plain form, he.",
+      "Him is on, and after o, on becomes **ňom**. Nej is ona (her) after a preposition."
+    ],
+    "t": [
+      "**O** (haqida) soʻzidan keyin olmoshlar lokál shaklida keladi: on → **ňom** (u haqida). On — asosiy shakl, «u» (erkak).",
+      "Bu yerda «u» — erkak, yaʼni on, o soʻzidan keyin esa on **ňom** boʻladi. Nej — predlogdan keyingi ona (ayol)."
+    ]
+  },
   "u8-l7.10.en": {
     "en": "I never have time on Fridays.",
     "t": "Juma kunlari hech qachon vaqtim yoʻq."
@@ -2102,5 +2232,15 @@
   "u8-l7.15.prompt": {
     "en": "Today is the fourteenth of October.",
     "t": "Bugun oʻn toʻrtinchi oktabr."
+  },
+  "u8-l7.15.traps": {
+    "en": [
+      "A date uses the ordinal ending in -ého, shortened to **-eho** after a long syllable like á: štrnást**eho**. Štrnásty is the plain ordinal.",
+      "In a date the month takes **-a** (“of October”): októbr**a**. Októbri is for “in October”: v októbri."
+    ],
+    "t": [
+      "Sanada tartib son -ého bilan tugaydi, á kabi choʻziq boʻgʻindan keyin esa qisqa **-eho** boʻladi: štrnást**eho**. Štrnásty — oddiy tartib son.",
+      "Sanada oy nomi **-a** oladi («oktabrning» degandek): októbr**a**. Októbri esa «oktabrda» uchun: v októbri."
+    ]
   }
 }

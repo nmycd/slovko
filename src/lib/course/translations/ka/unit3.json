@@ -131,6 +131,16 @@
     "en": "Where is the bathroom?",
     "t": "სად არის აბაზანა?"
   },
+  "u3-l1.13.traps": {
+    "en": [
+      "The bathroom is **kúpeľňa**. Kuchyňa looks similar, but it's the kitchen.",
+      "Where? is **kde**, and it starts the question. Hore means upstairs: it's an answer, as in Kúpeľňa je hore."
+    ],
+    "t": [
+      "აბაზანა არის **kúpeľňa**. Kuchyňa მსგავსად გამოიყურება, მაგრამ სამზარეულოს ნიშნავს.",
+      "„სად?“ არის **kde**, და კითხვა მისით იწყება. Hore ნიშნავს „ზემოთ“: ეს პასუხია, როგორც Kúpeľňa je hore."
+    ]
+  },
   "u3-l1.14.answers": {
     "en": [
       "The room is upstairs and the kitchen is downstairs.",
@@ -155,6 +165,16 @@
   "u3-l1.15.prompt": {
     "en": "Emma lives in the dorm.",
     "t": "ემა საერთო საცხოვრებელში ცხოვრობს."
+  },
+  "u3-l1.15.traps": {
+    "en": [
+      "Emma is **ona**, and with on or ona the verb has no ending: **býva**. Bývam, with -m, is ja (I).",
+      "To say where someone lives, use **býva**, like bývam (I live). Je (is) only says where Emma is right now."
+    ],
+    "t": [
+      "ემა = **ona**, on-თან ან ona-სთან კი ზმნას დაბოლოება არ აქვს: **býva**. Bývam, -m-ით, ja-ს (მე) ფორმაა.",
+      "სად ცხოვრობს ვინმე, ამას **býva** ამბობს, როგორც bývam (ვცხოვრობ). Je („არის“) მხოლოდ იმას ამბობს, სად არის ემა ახლა."
+    ]
   },
   "u3-l1.16.question": {
     "en": "Lucia wants to cook. Where does she go?",
@@ -286,6 +306,16 @@
     "en": "That's a big kitchen.",
     "t": "ეს დიდი სამზარეულოა."
   },
+  "u3-l2.7.traps": {
+    "en": [
+      "Kuchyňa ends in -a, so it's feminine and the adjective takes **-á**: veľk**á**. Veľký is for masculine nouns.",
+      "The adjective matches kuchyňa, a feminine noun, so it ends in **-á**: veľk**á**. Veľké is for neuter nouns like auto."
+    ],
+    "t": [
+      "Kuchyňa -a-ზე ბოლოვდება, ანუ მდედრობითია, ამიტომ ზედსართავი **-á**-ს იღებს: veľk**á**. Veľký მამრობითი სახელებისთვისაა.",
+      "ქართული „დიდი“ არ იცვლება, სლოვაკური ზედსართავი კი სახელის სქესს მიჰყვება: kuchyňa მდედრობითია, ამიტომ veľk**á**. Veľké საშუალო სქესისთვისაა, როგორც auto."
+    ]
+  },
   "u3-l2.8.en": {
     "en": "The room is small but nice.",
     "t": "ოთახი პატარაა, მაგრამ ლამაზია."
@@ -353,6 +383,16 @@
   "u3-l2.13.prompt": {
     "en": "What is the dorm like?",
     "t": "როგორია საერთო საცხოვრებელი?"
+  },
+  "u3-l2.13.traps": {
+    "en": [
+      "**Aký?** changes like an adjective. Internát ends in a consonant, so it's masculine: **aký**. Aká is for feminine nouns.",
+      "“What is it like?” is **aký?** Kde asks where: Kde je internát?"
+    ],
+    "t": [
+      "**Aký?** ზედსართავივით იცვლება. Internát თანხმოვანზე ბოლოვდება, ანუ მამრობითია: **aký**. Aká მდედრობითი სახელებისთვისაა.",
+      "„როგორია?“ არის **aký?** Kde კი კითხულობს „სად?“: Kde je internát?"
+    ]
   },
   "u3-l2.14.answers": {
     "en": [
@@ -670,6 +710,16 @@
     "en": "That's our kitchen.",
     "t": "ეს ჩვენი სამზარეულოა."
   },
+  "u3-l4.5.traps": {
+    "en": [
+      "Kuchyňa is feminine, so “our” is **naša**. Watch the vowel: náš for masculine, but naša.",
+      "Possessives match the thing owned. Kuchyňa is feminine, so **naša**. Naše goes with neuter nouns like okno."
+    ],
+    "t": [
+      "Kuchyňa მდედრობითია, ამიტომ „ჩვენი“ არის **naša**. ყურადღება მიაქციეთ ხმოვანს: მამრობითთან náš, აქ კი naša.",
+      "ქართული „ჩვენი“ არ იცვლება, სლოვაკური კი იმ საგანს ეთანხმება, რაც გვეკუთვნის: kuchyňa მდედრობითია, ამიტომ **naša**. Naše საშუალო სქესისთვისაა, როგორც okno."
+    ]
+  },
   "u3-l4.6.en": {
     "en": "His bed is on the left.",
     "t": "მისი საწოლი მარცხნივაა."
@@ -720,6 +770,16 @@
     "en": "Whose window is it?",
     "t": "ვისი ფანჯარაა?"
   },
+  "u3-l4.10.traps": {
+    "en": [
+      "**Čí?** matches the thing it asks about. Okno ends in -o, so it's neuter: **čie**. Čí is for masculine nouns.",
+      "Okno is neuter, so “whose” is **čie**. Čia goes with feminine nouns like posteľ."
+    ],
+    "t": [
+      "**Čí?** (ვისი?) იმ საგანს ეთანხმება, რაზეც კითხულობს. Okno -o-ზე ბოლოვდება, ანუ საშუალო სქესისაა: **čie**. Čí მამრობითი სახელებისთვისაა.",
+      "Okno საშუალო სქესისაა, ამიტომ „ვისი“ არის **čie**. Čia მდედრობით სახელებთან დგას, როგორიცაა posteľ."
+    ]
+  },
   "u3-l4.11.en": {
     "en": "Lucia, where is your wardrobe?",
     "t": "ლუცია, სად არის შენი კარადა?"
@@ -739,6 +799,16 @@
   "u3-l4.13.prompt": {
     "en": "Their room is upstairs.",
     "t": "მათი ოთახი ზემოთაა."
+  },
+  "u3-l4.13.traps": {
+    "en": [
+      "“Their” is **ich**, and like jeho and jej it never changes: ich izba. Jej means her.",
+      "Upstairs is **hore**. Dole is its opposite, downstairs."
+    ],
+    "t": [
+      "„მათი“ არის **ich**, და jeho-სა და jej-ის მსგავსად არასდროს იცვლება: ich izba. Jej ნიშნავს „მისი“ (ქალის).",
+      "„ზემოთ“ არის **hore**. Dole მისი საპირისპიროა, „ქვემოთ“."
+    ]
   },
   "u3-l4.14.en": {
     "en": "That's my room.",
@@ -881,6 +951,16 @@
     "en": "The hallway is dark.",
     "t": "დერეფანი ბნელია."
   },
+  "u3-l5.15.traps": {
+    "en": [
+      "Chodba ends in -a, so it's feminine and the adjective takes **-á**, after je too: tmav**á**. Tmavý is for masculine nouns.",
+      "Dark is **tmavá**. Svetlá has the right feminine ending, but it means bright, the opposite."
+    ],
+    "t": [
+      "Chodba -a-ზე ბოლოვდება, ანუ მდედრობითია, ამიტომ ზედსართავი je-ს შემდეგაც **-á**-ს იღებს: tmav**á**. Tmavý მამრობითი სახელებისთვისაა.",
+      "„ბნელი“ არის **tmavá**. Svetlá-ს სწორი მდედრობითი დაბოლოება აქვს, მაგრამ საპირისპიროს ნიშნავს: „ნათელი“."
+    ]
+  },
   "u3-l5.16.en": {
     "en": "The flat isn't expensive, it's cheap.",
     "t": "ბინა ძვირი არ არის, იაფია."
@@ -1015,6 +1095,16 @@
     "en": "Which window is ours?",
     "t": "რომელი ფანჯარაა ჩვენი?"
   },
+  "u3-l6.5.traps": {
+    "en": [
+      "**Ktorý?** changes like an adjective. Okno ends in -o, so it's neuter: **ktoré**. Ktorý is for masculine nouns.",
+      "Okno is neuter, so “our” is **naše**, just like ktoré. Naša goes with feminine nouns."
+    ],
+    "t": [
+      "**Ktorý?** ზედსართავივით იცვლება. Okno -o-ზე ბოლოვდება, ანუ საშუალო სქესისაა: **ktoré**. Ktorý მამრობითი სახელებისთვისაა.",
+      "Okno საშუალო სქესისაა, ამიტომ „ჩვენი“ არის **naše**, ისევე როგორც ktoré. Naša მდედრობით სახელებთან დგას."
+    ]
+  },
   "u3-l6.6.en": {
     "en": "Which wardrobe is mine?",
     "t": "რომელი კარადაა ჩემი?"
@@ -1129,6 +1219,16 @@
     "en": "Which bed is Emma's?",
     "t": "რომელია ემას საწოლი?"
   },
+  "u3-l6.11.traps": {
+    "en": [
+      "Emmin takes the ending of the thing owned. Posteľ is feminine, even without -a, so add **-a**: Emmin**a**.",
+      "**Ktorý?** changes like an adjective. Posteľ is feminine, even without -a, so **ktorá**."
+    ],
+    "t": [
+      "Emmin იღებს იმ საგნის დაბოლოებას, რომელიც ემას ეკუთვნის. Posteľ მდედრობითია, -a-ს გარეშეც, ამიტომ ემატება **-a**: Emmin**a**.",
+      "**Ktorý?** ზედსართავივით იცვლება. Posteľ მდედრობითია, -a-ს გარეშეც, ამიტომ **ktorá**."
+    ]
+  },
   "u3-l6.12.en": {
     "en": "What's the flat like? – Big and bright.",
     "t": "როგორია ბინა? – დიდი და ნათელი."
@@ -1197,6 +1297,16 @@
     "en": "My room is upstairs.",
     "t": "ჩემი ოთახი ზემოთაა."
   },
+  "u3-l7.4.traps": {
+    "en": [
+      "Izba is feminine, so “my” is **moja**. Watch the vowel: môj for masculine, but moja.",
+      "Upstairs is **hore**. Dole is its opposite, downstairs."
+    ],
+    "t": [
+      "Izba მდედრობითია, ამიტომ „ჩემი“ არის **moja**. ყურადღება მიაქციეთ ხმოვანს: მამრობითთან môj, აქ კი moja.",
+      "„ზემოთ“ არის **hore**. Dole მისი საპირისპიროა, „ქვემოთ“."
+    ]
+  },
   "u3-l7.5.en": {
     "en": "Which desk is yours?",
     "t": "რომელი მაგიდაა შენი?"
@@ -1250,6 +1360,16 @@
     "en": "Which window is yours?",
     "t": "რომელი ფანჯარაა შენი?"
   },
+  "u3-l7.10.traps": {
+    "en": [
+      "Okno is neuter, so “which” is **ktoré**. Ktorý goes with masculine nouns.",
+      "Okno is neuter, so “your” is **tvoje**, like ktoré. Tvoj goes with masculine nouns."
+    ],
+    "t": [
+      "Okno საშუალო სქესისაა, ამიტომ „რომელი“ არის **ktoré**. Ktorý მამრობით სახელებთან დგას.",
+      "Okno საშუალო სქესისაა, ამიტომ „შენი“ არის **tvoje**, ისევე როგორც ktoré. Tvoj მამრობით სახელებთან დგას."
+    ]
+  },
   "u3-l7.11.en": {
     "en": "Which bed is Lucia's? – The one on the right.",
     "t": "რომელია ლუციას საწოლი? – ის, რომელიც მარჯვნივაა."
@@ -1269,6 +1389,16 @@
   "u3-l7.13.prompt": {
     "en": "The bathroom is on the right and the kitchen is at the back.",
     "t": "აბაზანა მარჯვნივაა, სამზარეულო კი უკან."
+  },
+  "u3-l7.13.traps": {
+    "en": [
+      "On the right is **vpravo**. Vľavo is its opposite, on the left.",
+      "At the back is **vzadu**. Vpredu is its opposite, at the front."
+    ],
+    "t": [
+      "„მარჯვნივ“ არის **vpravo**. Vľavo მისი საპირისპიროა, „მარცხნივ“.",
+      "„უკან“ არის **vzadu**. Vpredu მისი საპირისპიროა, „წინ“."
+    ]
   },
   "u3-l7.14.en": {
     "en": "His bed is old.",

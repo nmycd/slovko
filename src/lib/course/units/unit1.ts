@@ -109,6 +109,10 @@ export const unit1: Unit = {
           promptLang: "en",
           answers: ["Dovidenia, pani Horváthová."],
           distractors: ["Ahoj", "pán"],
+          traps: [
+            { wrong: "Ahoj", right: "Dovidenia", why: "Pani Horváthová gets the polite goodbye, **Dovidenia**. Ahoj! is only for friends, family and children." },
+            { wrong: "pán", right: "pani", why: "**Pani** is Mrs, for a woman: pani Horváthová. Pán is Mr, for a man, as in pán Kováč." },
+          ],
         },
         {
           type: "build",
@@ -116,6 +120,11 @@ export const unit1: Unit = {
           promptLang: "en",
           answers: ["Dobrý večer, pán Kováč."],
           distractors: ["Dobrú", "pani", "noc"],
+          traps: [
+            { wrong: "Dobrú", right: "Dobrý", why: "Večer takes **dobrý**, just like dobrý deň. The ending -ú goes with noc and chuť: dobrú noc." },
+            { wrong: "pani", right: "pán", why: "**Pán** is Mr, for a man: pán Kováč. Pani is Mrs, for a woman, as in pani Horváthová." },
+            { wrong: "noc", right: "večer", why: "Good evening is Dobrý **večer**, a greeting when you meet. Dobrú noc is only for bedtime, never a greeting." },
+          ],
         },
         { type: "listen", sk: "Dobrú noc, Lucia.", en: "Good night, Lucia." },
         { type: "speak", sk: "Dobrý deň.", en: "Hello." },
@@ -189,6 +198,10 @@ export const unit1: Unit = {
           promptLang: "en",
           answers: ["Ďakujem pekne.", "Pekne ďakujem."],
           distractors: ["Prosím", "Nie"],
+          traps: [
+            { wrong: "Prosím", right: "Ďakujem", why: "Thank you is **Ďakujem**. Prosím means please, or you're welcome as the reply to ďakujem." },
+            { wrong: "Nie", right: "pekne", why: "**Pekne** makes the thanks warmer: thank you very much. Nie, ďakujem means no, thank you, turning an offer down." },
+          ],
         },
         {
           type: "intro",
@@ -307,6 +320,10 @@ export const unit1: Unit = {
           promptLang: "en",
           answers: ["Volám sa Tomáš."],
           distractors: ["voláš", "mám"],
+          traps: [
+            { wrong: "voláš", right: "Volám", why: "You're giving your own name, so it's **Volám** sa (I). Voláš is for “you”: Ako sa voláš?" },
+            { wrong: "mám", right: "Volám", why: "Your name goes with **Volám** sa, literally “I call myself”. Mám sa is about how you are: Mám sa dobre." },
+          ],
         },
         {
           type: "intro",
@@ -345,6 +362,10 @@ export const unit1: Unit = {
           promptLang: "en",
           answers: ["Ahoj! Ako sa máš?"],
           distractors: ["mám", "voláš"],
+          traps: [
+            { wrong: "mám", right: "máš", why: "You're asking about the other person, so it's **máš** (you). Mám is for “I”: Mám sa dobre." },
+            { wrong: "voláš", right: "máš", why: "How are you? is Ako sa **máš**? Ako sa voláš? asks for someone's name." },
+          ],
         },
         { type: "speak", sk: "Teší ma.", en: "Nice to meet you." },
       ],
@@ -412,6 +433,9 @@ export const unit1: Unit = {
           promptLang: "en",
           answers: ["Hovoríte po slovensky?"],
           distractors: ["Hovoríš", "Ako"],
+          traps: [
+            { wrong: "Hovoríš", right: "Hovoríte", why: "A polite question takes **vy**, so the verb ends in **-te**: Hovorí**te**. Hovoríš is the ty form, for friends and family." },
+          ],
         },
         {
           type: "choice",
@@ -470,6 +494,10 @@ export const unit1: Unit = {
           promptLang: "en",
           answers: ["Maj sa, Lucia!"],
           distractors: ["Majte", "Ahojte"],
+          traps: [
+            { wrong: "Majte", right: "Maj", why: "Lucia is one friend, so use ty: **Maj** sa! Majte sa, with -te, is for vy or a group." },
+            { wrong: "Ahojte", right: "Maj", why: "Take care is **Maj** sa. Ahojte! is hello to a group of friends, and Lucia is just one person." },
+          ],
         },
         {
           type: "fill",
@@ -651,6 +679,10 @@ export const unit1: Unit = {
           promptLang: "en",
           answers: ["Mám sa dobre, ďakujem.", "Ďakujem, mám sa dobre."],
           distractors: ["dobré", "máš"],
+          traps: [
+            { wrong: "dobré", right: "dobre", why: "With a short e, **dobre** means fine or well: Mám sa dobre. Dobré, with a long é, goes with ráno: Dobré ráno." },
+            { wrong: "máš", right: "Mám", why: "You're saying how you are yourself, so it's **Mám** (I). Máš is for “you”: Ako sa máš?" },
+          ],
         },
         { type: "speak", sk: "Dobrú chuť!", en: "Enjoy your meal!" },
       ],
@@ -675,6 +707,10 @@ export const unit1: Unit = {
           promptLang: "en",
           answers: ["Ahoj, Lucia! Ako sa máš?", "Ahoj! Ako sa máš, Lucia?"],
           distractors: ["máte", "voláš"],
+          traps: [
+            { wrong: "máte", right: "máš", why: "Ahoj and one friend, Lucia, mean **ty**, so the verb ends in **-š**: má**š**. Máte is for vy." },
+            { wrong: "voláš", right: "máš", why: "How are you? is Ako sa **máš**? Ako sa voláš? asks for someone's name." },
+          ],
         },
         { type: "listen", sk: "Mám sa výborne, a vy?", en: "I'm great, and you?" },
         {
@@ -734,6 +770,10 @@ export const unit1: Unit = {
           promptLang: "en",
           answers: ["Prepáčte! Nič sa nestalo."],
           distractors: ["Nie", "páči"],
+          traps: [
+            { wrong: "Nie", right: "Nič", why: "The set reply is **Nič** sa nestalo, literally “nothing happened”. Nie just means no." },
+            { wrong: "páči", right: "nestalo", why: "That's OK is Nič sa **nestalo**, literally “nothing happened”. Páči belongs in Nech sa páči, here you go." },
+          ],
         },
         { type: "listen", sk: "Dovidenia, pani Horváthová.", en: "Goodbye, Mrs Horváthová." },
         {
@@ -751,6 +791,10 @@ export const unit1: Unit = {
           promptLang: "en",
           answers: ["Volám sa Emma. Teší ma."],
           distractors: ["voláš", "mňa"],
+          traps: [
+            { wrong: "voláš", right: "Volám", why: "You're giving your own name, so it's **Volám** sa (I). Voláš is for “you”: Ako sa voláš?" },
+            { wrong: "mňa", right: "ma", why: "Nice to meet you is Teší **ma**. Mňa belongs in the reply: Aj mňa, nice to meet you too." },
+          ],
         },
         {
           type: "fill",

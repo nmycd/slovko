@@ -61,6 +61,14 @@
     "en": "We need bread and cheese.",
     "t": "Bizga non va pishloq kerak."
   },
+  "u5-l1.4.traps": {
+    "en": [
+      "“We” is **my**, so potrebovať takes the my ending **-me**: **potrebujeme**. Potrebujem is the ja form, I need."
+    ],
+    "t": [
+      "«Biz» — **my**, shuning uchun potrebovať **-me** qoʻshimchasini oladi: **potrebujeme** (bizga kerak). Potrebujem — ja shakli, «menga kerak»."
+    ]
+  },
   "u5-l1.5.en": {
     "en": "wine, beer and juice",
     "t": "vino, pivo va sharbat"
@@ -128,6 +136,16 @@
   "u5-l1.12.prompt": {
     "en": "The coffee costs three euros.",
     "t": "Qahva uch yevro turadi."
+  },
+  "u5-l1.12.traps": {
+    "en": [
+      "Káva is one thing, so stáť takes the one-thing form **stojí**, even though tri eurá is plural. Stoja is for two or more things.",
+      "After 2, 3 and 4, use the plural: neuter euro becomes **eurá**, so tri **eurá**. Euro is for just one: jedno euro."
+    ],
+    "t": [
+      "Káva — bitta narsa, shuning uchun stáť bitta narsa shaklida keladi: **stojí**, tri eurá koʻplik boʻlsa ham. Stoja ikki va undan ortiq narsa uchun.",
+      "2, 3 va 4 dan keyin koʻplik keladi: oʻrta jinsdagi euro **eurá** boʻladi, tri **eurá**. Euro faqat bitta uchun: jedno euro."
+    ]
   },
   "u5-l1.13.en": {
     "en": "I'll buy fresh bread.",
@@ -350,6 +368,16 @@
     "en": "I'll buy coffee and butter.",
     "t": "Qahva va sariyogʻ sotib olaman."
   },
+  "u5-l2.4.traps": {
+    "en": [
+      "Coffee is what you'll buy, the object, so it takes the accusative: feminine nouns change -a to **-u**, káva → **kávu**.",
+      "The speaker is **ja** (I'll buy), so kúpiť takes the ja ending **-m**: **kúpim**. Kúpiš is the ty form."
+    ],
+    "t": [
+      "Qahva — siz sotib oladigan narsa, toʻldiruvchi, shuning uchun akuzatívda (tushum kelishigida) keladi: ayol jinsidagi otlarda -a oʻrniga **-u**, káva → **kávu**.",
+      "Gapiruvchi — **ja** (sotib olaman), shuning uchun kúpiť **-m** bilan tugaydi: **kúpim**. Kúpiš — ty shakli."
+    ]
+  },
   "u5-l2.5.question": {
     "en": "Which sentence is correct?",
     "t": "Qaysi gap toʻgʻri?"
@@ -462,6 +490,16 @@
     "en": "We're looking for Tomáš and Lucia.",
     "t": "Biz Tomash va Lusiyani qidiryapmiz."
   },
+  "u5-l2.11.traps": {
+    "en": [
+      "Tomáš is a person and the object of hľadáme, so the masculine name adds **-a**: **Tomáša**. Only masculine things stay the same.",
+      "Lucia is the object of hľadáme, and women follow the feminine rule: -a changes to **-u**, Lucia → **Luciu**."
+    ],
+    "t": [
+      "Tomash — odam va qidirilayotgan kishi (oʻzbekchada «Tomashni»), shuning uchun erkak ismi **-a** oladi: **Tomáša**. Faqat erkak jinsidagi narsalar oʻzgarmaydi.",
+      "Lusiya — hľadáme feʼlining toʻldiruvchisi, ayollar esa ayol jinsi qoidasiga boʻysunadi: -a oʻrniga **-u**, Lucia → **Luciu** (Lusiyani)."
+    ]
+  },
   "u5-l2.12.en": {
     "en": "I have a new friend.",
     "t": "Mening yangi doʻstim bor."
@@ -565,6 +603,16 @@
     "en": "I want a white shirt.",
     "t": "Men oq koʻylak xohlayman."
   },
+  "u5-l3.8.traps": {
+    "en": [
+      "Košeľu is a feminine object, so the colour changes too. Biely has short endings: biela → **bielu**, with -u, not -ú.",
+      "The shirt is what you want, the object of chcem, so feminine košeľa changes -a to **-u**: **košeľu**."
+    ],
+    "t": [
+      "Košeľu — ayol jinsidagi toʻldiruvchi, shuning uchun rang ham oʻzgaradi. Biely qisqa qoʻshimchalar oladi: biela → **bielu**, -ú emas, -u bilan.",
+      "Koʻylak — siz xohlagan narsa, chcem feʼlining toʻldiruvchisi, shuning uchun ayol jinsidagi košeľa soʻzida -a oʻrniga **-u** keladi: **košeľu**."
+    ]
+  },
   "u5-l3.9.en": {
     "en": "present, gift",
     "t": "sovgʻa"
@@ -612,6 +660,16 @@
   "u5-l3.14.prompt": {
     "en": "Emma is looking for a green T-shirt.",
     "t": "Emma yashil futbolka qidiryapti."
+  },
+  "u5-l3.14.traps": {
+    "en": [
+      "Tričko is neuter, and neuter nouns don't change as objects, so the colour stays **zelené**. Zelenú is for feminine nouns.",
+      "Emma is **ona**, so hľadať takes the ona form, with no ending: **hľadá**. Hľadám is the ja form."
+    ],
+    "t": [
+      "Tričko oʻrta jinsda, oʻrta jins otlari esa toʻldiruvchi boʻlganda oʻzgarmaydi, shuning uchun rang ham **zelené** boʻlib qoladi. Zelenú ayol jinsidagi otlar uchun.",
+      "Emma haqida «u» — **ona**, shuning uchun hľadať ona shaklida, qoʻshimchasiz keladi: **hľadá**. Hľadám — ja shakli."
+    ]
   },
   "u5-l3.15.en": {
     "en": "How much is the black sweater?",
@@ -875,6 +933,16 @@
     "en": "The sweater is for him.",
     "t": "Sviter u (erkak) uchun."
   },
+  "u5-l4.6.traps": {
+    "en": [
+      "After a preposition like **pre**, pronouns use their long forms: on → pre **neho**. Ho is the short form, used without a preposition.",
+      "Him is on, and after **pre** it takes its long form: pre **neho**. Ju means her, and it's a short form, not used after a preposition."
+    ],
+    "t": [
+      "**Pre** kabi predlogdan keyin olmoshlarning uzun shakli keladi: on → pre **neho** (u uchun). Ho — qisqa shakl, predlogsiz ishlatiladi.",
+      "Bu yerda «u» — erkak, yaʼni on, pre soʻzidan keyin esa uning uzun shakli keladi: pre **neho**. Ju — «uni» (ayolni), qisqa shakl, predlogdan keyin ishlatilmaydi."
+    ]
+  },
   "u5-l4.7.pairs": {
     "en": [
       "me",
@@ -936,6 +1004,16 @@
   "u5-l4.11.prompt": {
     "en": "We're inviting you to the party.",
     "t": "Biz seni bazmga taklif qilamiz."
+  },
+  "u5-l4.11.traps": {
+    "en": [
+      "**Pozývať na** takes the accusative, so feminine oslava changes -a to **-u**: na **oslavu**.",
+      "“We” is **my**, so pozývať takes the my ending **-me**: **pozývame**. Pozývam is the ja form, I'm inviting."
+    ],
+    "t": [
+      "«Bazmga» slovakchada **pozývať na** + akuzatív bilan aytiladi: oslava soʻzida -a oʻrniga **-u** keladi, na **oslavu**.",
+      "«Biz» — **my**, shuning uchun pozývať **-me** bilan tugaydi: **pozývame**, oʻzbekchadagi -miz kabi (taklif qilamiz). Pozývam — ja shakli."
+    ]
   },
   "u5-l4.12.en": {
     "en": "I'm inviting you to the party.",
@@ -1205,9 +1283,29 @@
     "en": "Can you buy bread?",
     "t": "Non sotib ola olasanmi?"
   },
+  "u5-l5.5.traps": {
+    "en": [
+      "Môcť (can) is followed by an infinitive, the -ť form: môžeš **kúpiť**. Kúpim is the ja form, I'll buy.",
+      "The question is to **ty** (you), so môcť takes the ty form **môžeš**. Môžem is for ja, I can."
+    ],
+    "t": [
+      "Môcť (qila olmoq) feʼlidan keyin infinitív, yaʼni -ť bilan tugaydigan shakl keladi: môžeš **kúpiť**. Kúpim — ja shakli, «sotib olaman».",
+      "Savol «sen»ga berilyapti, shuning uchun môcť ty shaklida keladi: **môžeš** (ola olasan). Môžem — ja uchun, «qila olaman»."
+    ]
+  },
   "u5-l5.6.prompt": {
     "en": "We're going to the party.",
     "t": "Biz bazmga boryapmiz."
+  },
+  "u5-l5.6.traps": {
+    "en": [
+      "**Na** (to an event) takes the accusative, so feminine oslava changes -a to **-u**: na **oslavu**.",
+      "“We” is **my**, so ísť takes the my form **ideme**. Idete is for vy."
+    ],
+    "t": [
+      "Tadbirga borish **na** + akuzatív bilan aytiladi, shuning uchun oslava soʻzida -a oʻrniga **-u** keladi: na **oslavu** (bazmga).",
+      "«Biz» — **my**, shuning uchun ísť my shaklida keladi: **ideme** (boryapmiz). Idete vy uchun."
+    ]
   },
   "u5-l5.7.en": {
     "en": "I'm going to get bread and wine.",
@@ -1216,6 +1314,16 @@
   "u5-l5.8.prompt": {
     "en": "What do you want to drink?",
     "t": "Nima ichmoqchisan?"
+  },
+  "u5-l5.8.traps": {
+    "en": [
+      "The question is to **ty** (you), so chcieť takes the ty form **chceš**. Chcem is the ja form, I want.",
+      "To drink is **piť**; kúpiť means to buy. Both are infinitives, the -ť form that follows chcieť."
+    ],
+    "t": [
+      "Savol «sen»ga berilyapti, shuning uchun chcieť ty shaklida keladi: **chceš**. Chcem — ja shakli, «xohlayman».",
+      "«Ichmoq» — **piť**, kúpiť esa «sotib olmoq». Ikkalasi ham infinitív, yaʼni chcieť feʼlidan keyin keladigan -ť shakli."
+    ]
   },
   "u5-l5.9.title": {
     "en": "smieť and vedieť",
@@ -1345,6 +1453,16 @@
     "en": "You mustn't drink wine.",
     "t": "Senga vino ichish mumkin emas."
   },
+  "u5-l5.11.traps": {
+    "en": [
+      "Not allowed is **nesmieť**: **nesmieš** = you mustn't. Careful: nemusíš means you don't have to.",
+      "You mustn't is **nesmieš**, smieť (to be allowed to) with ne-. Chceš means you want."
+    ],
+    "t": [
+      "«Mumkin emas» — **nesmieť**: **nesmieš** = senga mumkin emas. Ehtiyot boʻling: nemusíš «shart emas» degani.",
+      "«Mumkin emas» — **nesmieš**, yaʼni ne- bilan smieť (ruxsat boʻlmoq). Chceš esa «xohlaysan» degani."
+    ]
+  },
   "u5-l5.12.answers": {
     "en": [
       "You don't have to go.",
@@ -1456,6 +1574,16 @@
     "en": "The present is for you.",
     "t": "Sovgʻa sen uchun."
   },
+  "u5-l6.9.traps": {
+    "en": [
+      "After a preposition like **pre**, pronouns use their long forms: pre **teba**. Ťa is the short form, used without a preposition: hľadám ťa.",
+      "The present is one thing, so use the singular **darček**, which also fits je. Darčeky is the plural, presents."
+    ],
+    "t": [
+      "**Pre** kabi predlogdan keyin olmoshlarning uzun shakli keladi: pre **teba** (sen uchun). Ťa — qisqa shakl, predlogsiz ishlatiladi: hľadám ťa.",
+      "Sovgʻa — bitta narsa, shuning uchun birlikdagi **darček** keladi, u je soʻziga ham mos. Darčeky — koʻplik, «sovgʻalar»."
+    ]
+  },
   "u5-l6.10.en": {
     "en": "Thanks for the present.",
     "t": "Sovgʻa uchun rahmat."
@@ -1529,6 +1657,16 @@
     "en": "I'll buy a bouquet for Lucia.",
     "t": "Lusiya uchun guldasta sotib olaman."
   },
+  "u5-l6.16.traps": {
+    "en": [
+      "The bouquet is what you'll buy, the object of kúpim, so feminine kytica changes -a to **-u**: **kyticu**.",
+      "**Pre** (for) takes the accusative, and Lucia follows the feminine -u rule: Lucia → **Luciu**."
+    ],
+    "t": [
+      "Guldasta — siz sotib oladigan narsa, kúpim feʼlining toʻldiruvchisi, shuning uchun kytica soʻzida -a oʻrniga **-u** keladi: **kyticu**.",
+      "Oʻzbekchada «uchun»dan oldin ism oʻzgarmaydi, slovakchada esa **pre** (uchun) akuzatív talab qiladi: Lucia → **Luciu**."
+    ]
+  },
   "u5-l6.17.en": {
     "en": "Happy birthday!",
     "t": "Tugʻilgan kuning bilan!"
@@ -1577,6 +1715,16 @@
     "en": "I'm looking for Marek.",
     "t": "Men Marekni qidiryapman."
   },
+  "u5-l7.4.traps": {
+    "en": [
+      "Marek is a person and the object of hľadám, so the masculine name adds **-a**: **Mareka**. Only masculine things stay the same.",
+      "The speaker is **ja** (I'm looking), so hľadať ends in **-m**: **hľadám**. Hľadáš is the ty form."
+    ],
+    "t": [
+      "Marek — odam va hľadám feʼlining toʻldiruvchisi (oʻzbekchada «Marekni»), shuning uchun erkak ismi **-a** oladi: **Mareka**. Faqat erkak jinsidagi narsalar oʻzgarmaydi.",
+      "Gapiruvchi — **ja** (qidiryapman), shuning uchun hľadať **-m** bilan tugaydi: **hľadám**. Hľadáš — ty shakli."
+    ]
+  },
   "u5-l7.5.question": {
     "en": "Which sentence is correct?",
     "t": "Qaysi gap toʻgʻri?"
@@ -1596,6 +1744,16 @@
   "u5-l7.7.prompt": {
     "en": "The bouquet is for her.",
     "t": "Guldasta u (ayol) uchun."
+  },
+  "u5-l7.7.traps": {
+    "en": [
+      "After a preposition like **pre**, ona uses its long form: pre **ňu**. Ju is the short form, used without a preposition.",
+      "Here the bouquet isn't an object: the sentence is about it (kytica je…), so it keeps its plain form **kytica**. Kyticu is the object form."
+    ],
+    "t": [
+      "**Pre** kabi predlogdan keyin ona uzun shaklda keladi: pre **ňu** (u uchun). Ju — qisqa shakl, predlogsiz ishlatiladi.",
+      "Bu yerda guldasta — gapning egasi (kytica je…), toʻldiruvchi emas, shuning uchun asosiy shakl qoladi: **kytica**. Kyticu — toʻldiruvchi shakli, «guldastani»."
+    ]
   },
   "u5-l7.8.en": {
     "en": "They're going to the party.",
@@ -1628,6 +1786,16 @@
   "u5-l7.10.prompt": {
     "en": "Can you buy a cake?",
     "t": "Tort sotib ola olasanmi?"
+  },
+  "u5-l7.10.traps": {
+    "en": [
+      "The cake is what you'd buy, the object of kúpiť, so feminine torta changes -a to **-u**: **tortu**.",
+      "Can you is **môžeš**, the ty form of môcť (can). Musíš means you must, from musieť."
+    ],
+    "t": [
+      "Tort — siz sotib oladigan narsa, kúpiť feʼlining toʻldiruvchisi, shuning uchun torta soʻzida -a oʻrniga **-u** keladi: **tortu**.",
+      "«Ola olasanmi?» — **môžeš**, môcť (qila olmoq) feʼlining ty shakli. Musíš esa musieť feʼlidan, «majbursan» degani."
+    ]
   },
   "u5-l7.11.en": {
     "en": "You're not allowed to smoke here.",

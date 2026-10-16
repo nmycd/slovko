@@ -28,6 +28,9 @@ export type ChoiceExercise = {
   rule?: RuleCard;
 };
 
+/** A wrong tile of a word-order exercise, the answer's tile it competes with, and why that one is right. */
+export type Trap = { wrong: string; right: string; why: string };
+
 /** Build a sentence from word tiles. */
 export type BuildExercise = {
   type: "build";
@@ -38,6 +41,12 @@ export type BuildExercise = {
   answers: string[];
   /** Extra wrong tiles mixed in. */
   distractors: string[];
+  /**
+   * Answer in Slovak only: the distractors that compete with one tile of the answer
+   * (`wrong` "Bratislava" for `right` "Bratislave"), and `why` the right one is right,
+   * shown when a learner uses the wrong one (see AUTHORING.md).
+   */
+  traps?: Trap[];
   /**
    * Tiles shown with their capital (names, "I"); the rest show in lowercase, so the
    * first word isn't given away. Filled in as the course loads (see ../tile-case).

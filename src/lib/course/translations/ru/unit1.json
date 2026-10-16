@@ -153,9 +153,31 @@
     "en": "Goodbye, Mrs Horváthová.",
     "t": "До свидания, госпожа Горватова."
   },
+  "u1-l1.14.traps": {
+    "en": [
+      "Pani Horváthová gets the polite goodbye, **Dovidenia**. Ahoj! is only for friends, family and children.",
+      "**Pani** is Mrs, for a woman: pani Horváthová. Pán is Mr, for a man, as in pán Kováč."
+    ],
+    "t": [
+      "С госпожой Горватовой прощаются вежливо: **Dovidenia**, буквально «до свидания». Ahoj! — только для друзей, родных и детей.",
+      "**Pani** — для женщины, как «госпожа»: pani Horváthová. Pán — для мужчины, как в pán Kováč."
+    ]
+  },
   "u1-l1.15.prompt": {
     "en": "Good evening, Mr Kováč.",
     "t": "Добрый вечер, пан Ковач."
+  },
+  "u1-l1.15.traps": {
+    "en": [
+      "Večer takes **dobrý**, just like dobrý deň. The ending -ú goes with noc and chuť: dobrú noc.",
+      "**Pán** is Mr, for a man: pán Kováč. Pani is Mrs, for a woman, as in pani Horváthová.",
+      "Good evening is Dobrý **večer**, a greeting when you meet. Dobrú noc is only for bedtime, never a greeting."
+    ],
+    "t": [
+      "Večer идёт с **dobrý**, как и deň: dobrý večer — «добрый вечер». Окончание -ú — для noc и chuť: dobrú noc.",
+      "**Pán** — для мужчины, как «пан»: pán Kováč. Pani — для женщины, как в pani Horváthová.",
+      "«Добрый вечер» — Dobrý **večer**, так здороваются при встрече. Dobrú noc говорят только перед сном, это не приветствие."
+    ]
   },
   "u1-l1.16.en": {
     "en": "Good night, Lucia.",
@@ -240,6 +262,16 @@
   "u1-l2.8.prompt": {
     "en": "Thank you very much.",
     "t": "Большое спасибо."
+  },
+  "u1-l2.8.traps": {
+    "en": [
+      "Thank you is **Ďakujem**. Prosím means please, or you're welcome as the reply to ďakujem.",
+      "**Pekne** makes the thanks warmer: thank you very much. Nie, ďakujem means no, thank you, turning an offer down."
+    ],
+    "t": [
+      "«Спасибо» — **Ďakujem**. Prosím — это «пожалуйста»: и просьба, и ответ на ďakujem, как у нас.",
+      "**Pekne** делает благодарность теплее: Ďakujem pekne — «большое спасибо». Nie, ďakujem — «нет, спасибо», отказ от предложения."
+    ]
   },
   "u1-l2.9.en": {
     "en": "Sorry! / Excuse me!",
@@ -401,6 +433,16 @@
     "en": "My name is Tomáš.",
     "t": "Меня зовут Томаш."
   },
+  "u1-l3.10.traps": {
+    "en": [
+      "You're giving your own name, so it's **Volám** sa (I). Voláš is for “you”: Ako sa voláš?",
+      "Your name goes with **Volám** sa, literally “I call myself”. Mám sa is about how you are: Mám sa dobre."
+    ],
+    "t": [
+      "Вы называете своё имя, то есть говорите о себе: **Volám** sa (я). Voláš — это «ты»: Ako sa voláš?",
+      "Имя называют с **Volám** sa, дословно «я зовусь». Mám sa — о том, как дела: Mám sa dobre."
+    ]
+  },
   "u1-l3.11.en": {
     "en": "Nice to meet you.",
     "t": "Приятно познакомиться."
@@ -453,6 +495,16 @@
   "u1-l3.16.prompt": {
     "en": "Hi! How are you?",
     "t": "Привет! Как дела?"
+  },
+  "u1-l3.16.traps": {
+    "en": [
+      "You're asking about the other person, so it's **máš** (you). Mám is for “I”: Mám sa dobre.",
+      "How are you? is Ako sa **máš**? Ako sa voláš? asks for someone's name."
+    ],
+    "t": [
+      "Вы спрашиваете о собеседнике, поэтому **máš** (ты; -š — как наше -шь). Mám — это «я»: Mám sa dobre.",
+      "«Как дела?» — Ako sa **máš**? А Ako sa voláš? — это «как тебя зовут?»."
+    ]
   },
   "u1-l3.17.en": {
     "en": "Nice to meet you.",
@@ -573,6 +625,14 @@
   "u1-l4.4.prompt": {
     "en": "Do you speak Slovak? (polite)",
     "t": "Вы говорите по-словацки?"
+  },
+  "u1-l4.4.traps": {
+    "en": [
+      "A polite question takes **vy**, so the verb ends in **-te**: Hovorí**te**. Hovoríš is the ty form, for friends and family."
+    ],
+    "t": [
+      "Вежливый вопрос — на **vy**, поэтому глагол оканчивается на **-te**: Hovorí**te**, как «говорите». Hovoríš — форма на ty, для друзей и родных."
+    ]
   },
   "u1-l4.5.question": {
     "en": "Emma meets Lucia and Tomáš together. How does she ask how they are?",
@@ -695,6 +755,16 @@
   "u1-l4.9.prompt": {
     "en": "Take care, Lucia!",
     "t": "Счастливо, Луция!"
+  },
+  "u1-l4.9.traps": {
+    "en": [
+      "Lucia is one friend, so use ty: **Maj** sa! Majte sa, with -te, is for vy or a group.",
+      "Take care is **Maj** sa. Ahojte! is hello to a group of friends, and Lucia is just one person."
+    ],
+    "t": [
+      "Луция — одна подруга, значит, на ty: **Maj** sa! Majte sa с -te — для vy или для компании.",
+      "«Счастливо!» — **Maj** sa! Ahojte! — это «привет» компании друзей, а Луция одна."
+    ]
   },
   "u1-l4.10.en": {
     "en": "Hi, Emma! Welcome to Slovakia!",
@@ -1090,6 +1160,16 @@
     "en": "I'm fine, thank you.",
     "t": "У меня всё хорошо, спасибо."
   },
+  "u1-l5.13.traps": {
+    "en": [
+      "With a short e, **dobre** means fine or well: Mám sa dobre. Dobré, with a long é, goes with ráno: Dobré ráno.",
+      "You're saying how you are yourself, so it's **Mám** (I). Máš is for “you”: Ako sa máš?"
+    ],
+    "t": [
+      "С кратким e **dobre** значит «хорошо»: Mám sa dobre. Dobré с долгим é — для ráno: Dobré ráno.",
+      "Вы говорите о себе, поэтому **Mám** (я). Máš — это «ты»: Ako sa máš?"
+    ]
+  },
   "u1-l5.14.en": {
     "en": "Enjoy your meal!",
     "t": "Приятного аппетита!"
@@ -1109,6 +1189,16 @@
   "u1-l6.1.prompt": {
     "en": "Hi, Lucia! How are you?",
     "t": "Привет, Луция! Как дела?"
+  },
+  "u1-l6.1.traps": {
+    "en": [
+      "Ahoj and one friend, Lucia, mean **ty**, so the verb ends in **-š**: má**š**. Máte is for vy.",
+      "How are you? is Ako sa **máš**? Ako sa voláš? asks for someone's name."
+    ],
+    "t": [
+      "Ahoj и одна подруга, Луция, — значит, на **ty**, и глагол оканчивается на **-š**: má**š**. Máte — для vy.",
+      "«Как дела?» — Ako sa **máš**? А Ako sa voláš? спрашивает имя."
+    ]
   },
   "u1-l6.2.en": {
     "en": "I'm great, and you?",
@@ -1192,6 +1282,16 @@
     "en": "Sorry! — That's OK.",
     "t": "Извините! — Ничего страшного."
   },
+  "u1-l6.9.traps": {
+    "en": [
+      "The set reply is **Nič** sa nestalo, literally “nothing happened”. Nie just means no.",
+      "That's OK is Nič sa **nestalo**, literally “nothing happened”. Páči belongs in Nech sa páči, here you go."
+    ],
+    "t": [
+      "Устойчивый ответ — **Nič** sa nestalo, дословно «ничего не случилось». Nie значит просто «нет».",
+      "«Ничего страшного» — Nič sa **nestalo**, дословно «ничего не случилось». Páči — из Nech sa páči, «вот, пожалуйста»."
+    ]
+  },
   "u1-l6.10.en": {
     "en": "Goodbye, Mrs Horváthová.",
     "t": "До свидания, госпожа Горватова."
@@ -1207,6 +1307,16 @@
   "u1-l6.12.prompt": {
     "en": "My name is Emma. Nice to meet you.",
     "t": "Меня зовут Эмма. Приятно познакомиться."
+  },
+  "u1-l6.12.traps": {
+    "en": [
+      "You're giving your own name, so it's **Volám** sa (I). Voláš is for “you”: Ako sa voláš?",
+      "Nice to meet you is Teší **ma**. Mňa belongs in the reply: Aj mňa, nice to meet you too."
+    ],
+    "t": [
+      "Вы называете своё имя, то есть говорите о себе: **Volám** sa (я). Voláš — это «ты»: Ako sa voláš?",
+      "«Приятно познакомиться» — Teší **ma**, дословно «меня радует». Mňa — из ответа Aj mňa, «мне тоже»."
+    ]
   },
   "u1-l6.13.en": {
     "en": "Do you speak Slovak? — Yes, a little.",

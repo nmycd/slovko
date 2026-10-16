@@ -127,6 +127,16 @@
     "en": "Tomáš is giving a talk at the conference.",
     "t": "Tomash konferensiyada maʼruza qilyapti."
   },
+  "u9-l1.10.traps": {
+    "en": [
+      "Being at the conference answers “where?”, so **na** takes the locative, and nouns in -ia get -ii: na **konferencii**. Na konferenciu is for going there.",
+      "The talk is what Tomáš has, the object, so prednáška changes -a to **-u**: má **prednášku**."
+    ],
+    "t": [
+      "«Qayerda?» savoliga javob — na + lokál, -ia bilan tugaydigan otlar esa -ii oladi: na **konferencii** (konferensiyada). Na konferenciu — u yerga borish uchun (konferensiyaga).",
+      "Maʼruza — Tomashda bor narsa, toʻldiruvchi, shuning uchun prednáška soʻzida -a oʻrniga **-u** keladi: má **prednášku**."
+    ]
+  },
   "u9-l1.11.en": {
     "en": "I'm looking forward to the conference.",
     "t": "Konferensiyani intiqlik bilan kutyapman."
@@ -146,6 +156,16 @@
   "u9-l1.13.prompt": {
     "en": "I'm looking forward to your talk.",
     "t": "Maʼruzangni intiqlik bilan kutyapman."
+  },
+  "u9-l1.13.traps": {
+    "en": [
+      "**Tešiť sa na** takes the object form, so tvoja changes to **tvoju**, just like prednáška → prednášku.",
+      "**Tešiť sa na** takes the object form, so prednáška changes -a to **-u**: na **prednášku**. Na prednáške is the locative: at the talk."
+    ],
+    "t": [
+      "**Tešiť sa na** toʻldiruvchi shaklini talab qiladi (oʻzbekchada «…ni intiqlik bilan kutmoq»), shuning uchun tvoja **tvoju** boʻladi, xuddi prednáška → prednášku kabi.",
+      "**Tešiť sa na** toʻldiruvchi shaklini talab qiladi, shuning uchun prednáška soʻzida -a oʻrniga **-u** keladi: na **prednášku**. Na prednáške — lokál: «maʼruzada»."
+    ]
   },
   "u9-l1.14.answers": {
     "en": [
@@ -368,6 +388,16 @@
     "en": "We're learning Slovak.",
     "t": "Biz slovak tilini oʻrganyapmiz."
   },
+  "u9-l2.5.traps": {
+    "en": [
+      "**Učiť sa** (to learn) always comes with **sa**, and sa stays the same for everyone: Učíme **sa**.",
+      "Slovak is what you learn, the object, so slovenčina changes -a to **-u**: učíme sa **slovenčinu**."
+    ],
+    "t": [
+      "**Učiť sa** (oʻrganmoq) doim **sa** bilan keladi, sa esa hamma shaxslar uchun bir xil: Učíme **sa**.",
+      "Slovak tili — siz oʻrganayotgan narsa, toʻldiruvchi (oʻzbekchada «slovak tilini»), shuning uchun slovenčina soʻzida -a oʻrniga **-u** keladi: učíme sa **slovenčinu**."
+    ]
+  },
   "u9-l2.6.en": {
     "en": "I'm really looking forward to the conference.",
     "t": "Konferensiyani katta intiqlik bilan kutyapman."
@@ -476,6 +506,16 @@
     "en": "Emma and Tomáš will meet at the conference.",
     "t": "Emma va Tomash konferensiyada uchrashishadi."
   },
+  "u9-l2.10.traps": {
+    "en": [
+      "Emma and Tomáš are two people (oni), so the verb ends in **-ú**: **stretnú** sa. Stretne is for one person (on, ona).",
+      "Meeting at the conference answers “where?”, so **na** takes the locative: na **konferencii**. Na konferenciu is for going there."
+    ],
+    "t": [
+      "Emma va Tomash — ikki kishi (oni), shuning uchun feʼl **-ú** bilan tugaydi: **stretnú** sa. Stretne — bitta kishi uchun (on, ona).",
+      "Konferensiyada uchrashish «qayerda?» savoliga javob beradi, shuning uchun na + lokál keladi: na **konferencii**. Na konferenciu — u yerga borish uchun."
+    ]
+  },
   "u9-l2.11.en": {
     "en": "When are you coming back from the conference?",
     "t": "Konferensiyadan qachon qaytasan?"
@@ -487,6 +527,16 @@
   "u9-l2.12.prompt": {
     "en": "I'll be back at five.",
     "t": "Soat beshda qaytaman."
+  },
+  "u9-l2.12.traps": {
+    "en": [
+      "Coming back is **vrátiť sa**, with sa: Vrátim **sa**. Without sa, vrátiť means to return something, like a book.",
+      "Here **ja** (I) is speaking, so the verb ends in **-m**: **Vrátim** sa. Vrátiš goes with ty."
+    ],
+    "t": [
+      "Qaytmoq — **vrátiť sa**, sa bilan: Vrátim **sa**. Sa boʻlmasa, vrátiť biror narsani, masalan kitobni «qaytarmoq» degani.",
+      "Bu yerda **ja** (men) gapiryapti, shuning uchun feʼl **-m** bilan tugaydi: **Vrátim** sa (qaytaman). Vrátiš ty bilan keladi."
+    ]
   },
   "u9-l2.13.pairs": {
     "en": [
@@ -634,6 +684,16 @@
   "u9-l3.12.prompt": {
     "en": "I have to print the registration form.",
     "t": "Roʻyxatdan oʻtish arizasini chop etishim kerak."
+  },
+  "u9-l3.12.traps": {
+    "en": [
+      "The form is what you print, the object, so prihláška changes -a to **-u**: vytlačiť **prihlášku**.",
+      "To print is **vytlačiť**, from the same word as tlačiareň (printer). Uložiť means to save a file."
+    ],
+    "t": [
+      "Ariza — siz chop etadigan narsa, toʻldiruvchi, shuning uchun prihláška soʻzida -a oʻrniga **-u** keladi: vytlačiť **prihlášku**.",
+      "«Chop etmoq» — **vytlačiť**, tlačiareň (printer) soʻzi bilan bir oʻzakdan. Uložiť esa faylni «saqlamoq» degani."
+    ]
   },
   "u9-l3.13.en": {
     "en": "to send by e-mail",
@@ -894,6 +954,16 @@
     "en": "Emma bought herself a T-shirt.",
     "t": "Emma oʻziga futbolka sotib oldi."
   },
+  "u9-l4.5.traps": {
+    "en": [
+      "Buying something for yourself is **kúpiť si**, like dať si kávu: **si** kúpila tričko. Si means “for yourself”, with the thing after it.",
+      "Emma is a woman, so the past tense ends in **-la**: **kúpila**. Kúpil is for a man."
+    ],
+    "t": [
+      "Oʻzi uchun sotib olish — **kúpiť si**, xuddi dať si kávu kabi: Emma **si** kúpila tričko. Si — «oʻziga», undan keyin esa narsa keladi.",
+      "Emma — ayol, shuning uchun oʻtgan zamon **-la** bilan tugaydi: **kúpila**. Kúpil — erkak uchun."
+    ]
+  },
   "u9-l4.6.en": {
     "en": "When did you come back?",
     "t": "Qachon qaytding?"
@@ -990,6 +1060,16 @@
     "en": "We met at the conference.",
     "t": "Konferensiyada uchrashdik."
   },
+  "u9-l4.9.traps": {
+    "en": [
+      "Meeting up is **stretnúť sa**, a verb with sa, and sa comes right after sme: Stretli sme **sa**.",
+      "With my (we), the past form ends in **-li** and takes sme: **Stretli** sme sa. Stretol is for one man."
+    ],
+    "t": [
+      "Uchrashmoq — **stretnúť sa**, sa bilan keladigan feʼl (uchramoq → uchrashmoq kabi), sa esa sme soʻzidan keyin darhol turadi: Stretli sme **sa**.",
+      "«Biz» — my, my bilan esa oʻtgan zamon **-li** bilan tugaydi va sme oladi: **Stretli** sme sa (uchrashdik). Stretol — bitta erkak uchun."
+    ]
+  },
   "u9-l4.10.question": {
     "en": "Which word order is correct?",
     "t": "Qaysi soʻz tartibi toʻgʻri?"
@@ -1001,6 +1081,16 @@
   "u9-l4.11.prompt": {
     "en": "Tomáš came back at six.",
     "t": "Tomash soat oltida qaytdi."
+  },
+  "u9-l4.11.traps": {
+    "en": [
+      "Coming back is **vrátiť sa**, a verb with sa: Tomáš **sa** vrátil. Si (for yourself) needs an object after it, like dať si kávu.",
+      "Tomáš is a man, so the past form ends in **-l**: **vrátil**. Vrátila is for a woman."
+    ],
+    "t": [
+      "Qaytmoq — **vrátiť sa**, sa bilan keladigan feʼl: Tomáš **sa** vrátil. Si («oʻzi uchun») bilan esa toʻldiruvchi kerak boʻladi, masalan dať si kávu.",
+      "Tomash — erkak, shuning uchun oʻtgan zamon **-l** bilan tugaydi: **vrátil**. Vrátila — ayol uchun."
+    ]
   },
   "u9-l4.12.en": {
     "en": "Lucia called a taxi.",
@@ -1147,6 +1237,16 @@
     "en": "My employer is a company in Košice.",
     "t": "Mening ish beruvchim — Koshitsedagi firma."
   },
+  "u9-l5.9.traps": {
+    "en": [
+      "Zamestnávateľ is masculine (it ends in a consonant), so “my” is **Môj**. Moja is for feminine words like firma.",
+      "After **v** (in) comes the locative. Košice is plural, so it takes a plural ending: v **Košiciach**."
+    ],
+    "t": [
+      "Zamestnávateľ erkak jinsida (undosh bilan tugaydi), shuning uchun «mening» — **Môj**. Moja esa firma kabi ayol jinsidagi soʻzlar uchun.",
+      "**V** soʻzidan keyin lokál keladi. Košice — koʻplikdagi nom, shuning uchun koʻplik qoʻshimchasini oladi: v **Košiciach** (Koshitseda)."
+    ]
+  },
   "u9-l5.10.en": {
     "en": "Please sign here.",
     "t": "Iltimos, shu yerga imzo qoʻying."
@@ -1174,6 +1274,16 @@
   "u9-l5.13.prompt": {
     "en": "I liked the lecture.",
     "t": "Maʼruza menga yoqdi."
+  },
+  "u9-l5.13.traps": {
+    "en": [
+      "With páčiť sa, the verb agrees with what you like: prednáška is feminine, so **Páčila**. Páčil goes with a masculine word, like program.",
+      "**Páčiť sa** (to please) is a verb with sa, and it's always **sa**: Páčila **sa** mi."
+    ],
+    "t": [
+      "Páčiť sa bilan feʼl, oʻzbekchadagi «yoqmoq» kabi, yoqqan narsaga moslashadi: prednáška ayol jinsida, shuning uchun **Páčila**. Páčil — program kabi erkak jinsidagi soʻz uchun.",
+      "**Páčiť sa** (yoqmoq) — sa bilan keladigan feʼl, unda doim **sa** boʻladi: Páčila **sa** mi."
+    ]
   },
   "u9-l5.14.question": {
     "en": "Which one is correct?",
@@ -1240,6 +1350,16 @@
     "en": "I have to save the presentation.",
     "t": "Taqdimotni saqlashim kerak."
   },
+  "u9-l6.2.traps": {
+    "en": [
+      "The presentation is what you save, the object, so prezentácia changes -a to **-u**: uložiť **prezentáciu**.",
+      "To save is **uložiť**, as in uložiť súbor. Otvoriť means to open."
+    ],
+    "t": [
+      "Taqdimot — siz saqlaydigan narsa, toʻldiruvchi (oʻzbekchada «taqdimotni»), shuning uchun prezentácia soʻzida -a oʻrniga **-u** keladi: uložiť **prezentáciu**.",
+      "«Saqlamoq» — **uložiť**, masalan uložiť súbor. Otvoriť esa «ochmoq» degani."
+    ]
+  },
   "u9-l6.3.en": {
     "en": "We met during the break.",
     "t": "Tanaffusda uchrashdik."
@@ -1275,6 +1395,16 @@
   "u9-l6.6.prompt": {
     "en": "Where can I register?",
     "t": "Qayerda roʻyxatdan oʻtishim mumkin?"
+  },
+  "u9-l6.6.traps": {
+    "en": [
+      "To register is **zaregistrovať sa**, a verb with sa, and sa takes second place, right after kde: Kde **sa** môžem…",
+      "The question is about **ja** (I), so môcť is **môžem**. Môžeš goes with ty."
+    ],
+    "t": [
+      "Roʻyxatdan oʻtmoq — **zaregistrovať sa**, sa bilan keladigan feʼl, sa esa ikkinchi oʻrinda, kde soʻzidan keyin darhol turadi: Kde **sa** môžem…",
+      "Savol **ja** (men) haqida, shuning uchun môcť — **môžem** (qila olaman). Môžeš ty bilan keladi."
+    ]
   },
   "u9-l6.7.en": {
     "en": "What is your occupation?",
@@ -1332,6 +1462,16 @@
   "u9-l6.13.prompt": {
     "en": "Emma and Lucia are looking forward to the conference.",
     "t": "Emma va Lusiya konferensiyani intiqlik bilan kutishyapti."
+  },
+  "u9-l6.13.traps": {
+    "en": [
+      "Emma and Lucia are two people (ony), so the verb is **tešia**. Teší is for one person (on, ona).",
+      "**Tešiť sa na** takes the object form, so konferencia changes -a to **-u**: na **konferenciu**. Na konferencii means at the conference."
+    ],
+    "t": [
+      "Emma va Lusiya — ikki kishi (ony), shuning uchun feʼl **tešia** boʻladi. Teší — bitta kishi uchun (on, ona).",
+      "**Tešiť sa na** toʻldiruvchi shaklini talab qiladi (…ni intiqlik bilan kutmoq), shuning uchun konferencia soʻzida -a oʻrniga **-u** keladi: na **konferenciu**. Na konferencii — «konferensiyada»."
+    ]
   },
   "u9-l6.14.en": {
     "en": "Tomáš had a coffee during the break.",

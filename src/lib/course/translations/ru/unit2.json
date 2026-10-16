@@ -117,6 +117,16 @@
     "en": "I'm from Germany.",
     "t": "Я из Германии."
   },
+  "u2-l1.7.traps": {
+    "en": [
+      "After z (from), the -o at the end changes to **-a**: Nemecko → z Nemeck**a**.",
+      "Nemecko starts with n, so “from” is plain **z**. Zo is only for words starting with s, z, š or ž: zo Slovenska."
+    ],
+    "t": [
+      "После z (из) конечное -o меняется на **-a**: Nemecko → z Nemeck**a**. Это родительный падеж, как «село → из села».",
+      "Nemecko начинается на n, поэтому «из» — просто **z**. Zo — только перед s, z, š или ž: zo Slovenska."
+    ]
+  },
   "u2-l1.8.en": {
     "en": "I'm from Ukraine.",
     "t": "Я из Украины."
@@ -377,6 +387,16 @@
     "en": "We're from Slovakia.",
     "t": "Мы из Словакии."
   },
+  "u2-l2.6.traps": {
+    "en": [
+      "We is **my**, and with my byť is **sme**. Ste goes with vy (you).",
+      "Slovensko starts with s, and before s, z, š or ž, “from” is **zo**. Plain z is for the rest: z Írska."
+    ],
+    "t": [
+      "«Мы» — **my**, а с my глагол byť — **sme**. Ste — с vy (вы).",
+      "Slovensko начинается на s, а перед s, z, š или ž «из» — это **zo** (сравните: с → со). Просто z — в остальных случаях: z Írska."
+    ]
+  },
   "u2-l2.7.en": {
     "en": "Tomáš and Lucia are from Slovakia.",
     "t": "Томаш и Луция из Словакии."
@@ -400,6 +420,16 @@
   "u2-l2.10.prompt": {
     "en": "Are you Slovak? (to a male friend)",
     "t": "Ты словак?"
+  },
+  "u2-l2.10.traps": {
+    "en": [
+      "A friend gets **ty**, and with ty byť is **si**. Ste is for vy: a stranger, a teacher or a group.",
+      "Your friend is a man, so it's **Slovák**. Slovenka, with -ka, is a Slovak woman."
+    ],
+    "t": [
+      "Другу — на **ty**, а с ty глагол byť — **si**. Ste — для vy: незнакомому, учителю или группе.",
+      "Ваш друг — мужчина, поэтому **Slovák** (словак). Slovenka с -ka — словачка."
+    ]
   },
   "u2-l2.11.en": {
     "en": "Excuse me, are you from Germany?",
@@ -541,6 +571,16 @@
   "u2-l3.2.prompt": {
     "en": "Jana is a teacher.",
     "t": "Яна — учительница."
+  },
+  "u2-l3.2.traps": {
+    "en": [
+      "Jana is a woman, so she takes the feminine form with **-ka**: učiteľ**ka**. Učiteľ is for a man.",
+      "Jana is **ona** (she), and with ona byť is **je**. Som goes with ja (I)."
+    ],
+    "t": [
+      "Яна — женщина, поэтому нужна женская форма с **-ka**: učiteľ**ka** (учительница). Učiteľ — для мужчины.",
+      "Яна — это **ona** (она), а с ona глагол byť — **je**, его не опускают. Som — с ja (я)."
+    ]
   },
   "u2-l3.3.question": {
     "en": "Which word means a female friend?",
@@ -688,6 +728,16 @@
     "en": "Martin is a teacher and Eva is a student.",
     "t": "Мартин — учитель, а Ева — студентка."
   },
+  "u2-l3.12.traps": {
+    "en": [
+      "Martin is a man, so he takes the masculine form: **učiteľ**. Učiteľka, with -ka, is for a woman.",
+      "Eva is a woman, so she takes the feminine form with **-ka**: študent**ka**. Študent is for a man."
+    ],
+    "t": [
+      "Мартин — мужчина, поэтому мужской род: **učiteľ** (учитель). Učiteľka с -ka — для женщины.",
+      "Эва — женщина, поэтому женская форма с **-ka**: študent**ka**, как «студентка». Študent — для мужчины."
+    ]
+  },
   "u2-l3.13.en": {
     "en": "That's the university.",
     "t": "Это университет."
@@ -821,6 +871,16 @@
   "u2-l4.3.prompt": {
     "en": "What's her name?",
     "t": "Как её зовут?"
+  },
+  "u2-l4.3.traps": {
+    "en": [
+      "“Her” name means **ona**, and with on or ona the verb has no ending: Ako sa **volá**? Voláš is ty (you).",
+      "“Her” name means **ona**, and with on or ona the verb has no ending: Ako sa **volá**? Volám is ja (I)."
+    ],
+    "t": [
+      "Ako sa **volá**? — дословно «как она зовётся»: с on или ona у глагола нет окончания. Voláš — это ty (ты).",
+      "Речь о ней (**ona**), а с on или ona у глагола нет окончания: Ako sa **volá**? Volám — это ja (я)."
+    ]
   },
   "u2-l4.4.question": {
     "en": "How do you say “We speak Slovak”?",
@@ -972,6 +1032,16 @@
     "en": "Tomáš, do you work as a programmer?",
     "t": "Томаш, ты работаешь программистом?"
   },
+  "u2-l4.9.traps": {
+    "en": [
+      "You're asking Tomáš himself, **ty**, so the verb ends in **-š**: pracuje**š**. Pracuje is for on or ona.",
+      "You're asking Tomáš himself, **ty**, so the verb ends in **-š**: pracuje**š**. Pracujem, with -m, is ja (I)."
+    ],
+    "t": [
+      "Вы спрашиваете самого Томаша, на **ty**, поэтому глагол на **-š**: pracuje**š**, как «работаешь». Pracuje — для on или ona.",
+      "Вы обращаетесь к Томашу на **ty**, поэтому окончание **-š**: pracuje**š** (работаешь). Pracujem с -m — это ja (я)."
+    ]
+  },
   "u2-l4.10.en": {
     "en": "I study and work.",
     "t": "Я учусь и работаю."
@@ -1104,6 +1174,16 @@
   "u2-l5.3.prompt": {
     "en": "We don't speak German.",
     "t": "Мы не говорим по-немецки."
+  },
+  "u2-l5.3.traps": {
+    "en": [
+      "We is **my**, so the verb ends in **-me**: nehovorí**me**. Nehovoríte, with -te, is vy.",
+      "To say “not”, put **ne-** in front of the verb, written as one word: **ne**hovoríme. Only byť takes a separate nie: nie som."
+    ],
+    "t": [
+      "«Мы» — **my**, поэтому глагол на **-me**: nehovorí**me** (не говорим). Nehovoríte с -te — для vy.",
+      "«Не» — это **ne-**, и, в отличие от русского, оно пишется с глаголом слитно: **ne**hovoríme. Отдельное nie — только у byť: nie som."
+    ]
   },
   "u2-l5.4.en": {
     "en": "Lucia doesn't work, she studies.",
@@ -1238,6 +1318,16 @@
   "u2-l5.9.prompt": {
     "en": "Tomáš isn't German, he's Slovak.",
     "t": "Томаш не немец, он словак."
+  },
+  "u2-l5.9.traps": {
+    "en": [
+      "Tomáš is a man, so he takes the masculine form: **Nemec**. Nemka is a German woman.",
+      "Tomáš is **on** (he), and with on byť is **je**: nie je, je Slovák. Som goes with ja (I)."
+    ],
+    "t": [
+      "Томаш — мужчина, поэтому мужской род: **Nemec** (немец). Nemka — немка.",
+      "Томаш — **on** (он), а с on глагол byť — **je**: nie je, je Slovák. Som — с ja (я)."
+    ]
   },
   "u2-l5.10.en": {
     "en": "Lucia and Tomáš aren't from Ireland.",
@@ -1405,6 +1495,16 @@
     "en": "I'm twenty years old.",
     "t": "Мне двадцать лет."
   },
+  "u2-l6.11.traps": {
+    "en": [
+      "Slovak gives your age with **mám** (I have), literally “I have twenty years”. Som means “I am”.",
+      "With dvadsať, “years” is **rokov**, just as in Mám dvadsaťpäť rokov and Koľko máš rokov?"
+    ],
+    "t": [
+      "Возраст по-словацки не «мне», а «имею»: **Mám** dvadsať rokov — «имею двадцать лет». Som значит «я есть».",
+      "С dvadsať нужно **rokov** — как у нас «двадцать лет», а не «года». Так же: Mám dvadsaťpäť rokov, Koľko máš rokov?"
+    ]
+  },
   "u2-l6.12.en": {
     "en": "How old are you, Mr Kováč?",
     "t": "Сколько вам лет, пан Ковач?"
@@ -1476,6 +1576,16 @@
   "u2-l7.2.prompt": {
     "en": "They're from Germany.",
     "t": "Они из Германии."
+  },
+  "u2-l7.2.traps": {
+    "en": [
+      "After z (from), the -o at the end changes to **-a**: Nemecko → z Nemeck**a**.",
+      "With **oni** (they), byť is **sú**. Sme goes with my (we)."
+    ],
+    "t": [
+      "После z (из) конечное -o меняется на **-a**: Nemecko → z Nemeck**a**, как «из Германии».",
+      "С **oni** (они) глагол byť — **sú**. Sme — с my (мы)."
+    ]
   },
   "u2-l7.3.en": {
     "en": "I'm not a student, I'm a teacher.",
@@ -1559,6 +1669,16 @@
   "u2-l7.11.prompt": {
     "en": "I'm not from Slovakia. I'm from Ireland.",
     "t": "Я не из Словакии. Я из Ирландии."
+  },
+  "u2-l7.11.traps": {
+    "en": [
+      "After z (from), the -o at the end changes to **-a**: Írsko → z Írsk**a**.",
+      "You're talking about yourself, **ja**, so byť is **som**: nie som, som z Írska. Je is for on or ona."
+    ],
+    "t": [
+      "После z (из) конечное -o меняется на **-a**: Írsko → z Írsk**a**, как «из Ирландии».",
+      "Вы говорите о себе, **ja**, поэтому byť — **som**: nie som, som z Írska. Je — для on или ona."
+    ]
   },
   "u2-l7.12.question": {
     "en": "You meet a new teacher for the first time. How do you ask her name?",

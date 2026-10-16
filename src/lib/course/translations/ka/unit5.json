@@ -61,6 +61,14 @@
     "en": "We need bread and cheese.",
     "t": "პური და ყველი გვჭირდება."
   },
+  "u5-l1.4.traps": {
+    "en": [
+      "“We” is **my**, so potrebovať takes the my ending **-me**: **potrebujeme**. Potrebujem is the ja form, I need."
+    ],
+    "t": [
+      "„ჩვენ“ არის **my**, ამიტომ potrebovať my-ს დაბოლოებას, **-me**-ს იღებს: **potrebujeme**. Potrebujem ja-ს ფორმაა, „მჭირდება“."
+    ]
+  },
   "u5-l1.5.en": {
     "en": "wine, beer and juice",
     "t": "ღვინო, ლუდი და წვენი"
@@ -128,6 +136,16 @@
   "u5-l1.12.prompt": {
     "en": "The coffee costs three euros.",
     "t": "ყავა სამი ევრო ღირს."
+  },
+  "u5-l1.12.traps": {
+    "en": [
+      "Káva is one thing, so stáť takes the one-thing form **stojí**, even though tri eurá is plural. Stoja is for two or more things.",
+      "After 2, 3 and 4, use the plural: neuter euro becomes **eurá**, so tri **eurá**. Euro is for just one: jedno euro."
+    ],
+    "t": [
+      "Káva ერთი რამაა, ამიტომ stáť ერთი ნივთის ფორმას იღებს, **stojí**, თუმცა tri eurá მრავლობითია. Stoja ორი ან მეტი ნივთისთვისაა.",
+      "2, 3 და 4-ის შემდეგ მრავლობითია: საშუალო სქესის euro ხდება **eurá**, ანუ tri eurá. Euro მხოლოდ ერთისთვისაა: jedno euro."
+    ]
   },
   "u5-l1.13.en": {
     "en": "I'll buy fresh bread.",
@@ -352,6 +370,16 @@
     "en": "I'll buy coffee and butter.",
     "t": "ყავას და კარაქს ვიყიდი."
   },
+  "u5-l2.4.traps": {
+    "en": [
+      "Coffee is what you'll buy, the object, so it takes the accusative: feminine nouns change -a to **-u**, káva → **kávu**.",
+      "The speaker is **ja** (I'll buy), so kúpiť takes the ja ending **-m**: **kúpim**. Kúpiš is the ty form."
+    ],
+    "t": [
+      "ყავა ობიექტია (რას იყიდით?), ამიტომ akuzatív-ში (ბრალდებით ბრუნვაში) დგება: მდედრობითი სახელები -a-ს **-u**-თი ცვლის, káva → **kávu**.",
+      "ლაპარაკობს **ja** (ვიყიდი), ამიტომ kúpiť ja-ს დაბოლოებას, **-m**-ს იღებს: **kúpim**. Kúpiš ty-ს ფორმაა."
+    ]
+  },
   "u5-l2.5.question": {
     "en": "Which sentence is correct?",
     "t": "რომელი წინადადებაა სწორი?"
@@ -464,6 +492,16 @@
     "en": "We're looking for Tomáš and Lucia.",
     "t": "ტომაშს და ლუციას ვეძებთ."
   },
+  "u5-l2.11.traps": {
+    "en": [
+      "Tomáš is a person and the object of hľadáme, so the masculine name adds **-a**: **Tomáša**. Only masculine things stay the same.",
+      "Lucia is the object of hľadáme, and women follow the feminine rule: -a changes to **-u**, Lucia → **Luciu**."
+    ],
+    "t": [
+      "ტომაში ადამიანია და hľadáme-ს ობიექტი, ამიტომ მამრობით სახელს ემატება **-a**: **Tomáša**. უცვლელი მხოლოდ მამრობითი სქესის ნივთები რჩება.",
+      "ქართულშიც ობიექტს -ს ემატება (ლუციას ვეძებთ), სლოვაკურში კი მდედრობითი სახელის -a იცვლება **-u**-თი: Lucia → **Luciu**."
+    ]
+  },
   "u5-l2.12.en": {
     "en": "I have a new friend.",
     "t": "ახალი მეგობარი მყავს."
@@ -568,6 +606,16 @@
     "en": "I want a white shirt.",
     "t": "თეთრი პერანგი მინდა."
   },
+  "u5-l3.8.traps": {
+    "en": [
+      "Košeľu is a feminine object, so the colour changes too. Biely has short endings: biela → **bielu**, with -u, not -ú.",
+      "The shirt is what you want, the object of chcem, so feminine košeľa changes -a to **-u**: **košeľu**."
+    ],
+    "t": [
+      "Košeľu მდედრობითი ობიექტია, ამიტომ ფერიც იცვლება. Biely-ს მოკლე დაბოლოებები აქვს: biela → **bielu**, -u-თი და არა -ú-თი.",
+      "პერანგი ის არის, რაც გინდათ, ანუ chcem-ის ობიექტი, ამიტომ მდედრობითი košeľa -a-ს **-u**-თი ცვლის: **košeľu**."
+    ]
+  },
   "u5-l3.9.en": {
     "en": "present, gift",
     "t": "საჩუქარი"
@@ -615,6 +663,16 @@
   "u5-l3.14.prompt": {
     "en": "Emma is looking for a green T-shirt.",
     "t": "ემა მწვანე მაისურს ეძებს."
+  },
+  "u5-l3.14.traps": {
+    "en": [
+      "Tričko is neuter, and neuter nouns don't change as objects, so the colour stays **zelené**. Zelenú is for feminine nouns.",
+      "Emma is **ona**, so hľadať takes the ona form, with no ending: **hľadá**. Hľadám is the ja form."
+    ],
+    "t": [
+      "Tričko საშუალო სქესისაა, საშუალო სქესის სახელები კი ობიექტად არ იცვლება, ამიტომ ფერიც რჩება **zelené**. Zelenú მდედრობითი სახელებისთვისაა.",
+      "ემა = **ona**, ამიტომ hľadať ona-ს ფორმას იღებს, დაბოლოების გარეშე: **hľadá**. Hľadám ja-ს ფორმაა."
+    ]
   },
   "u5-l3.15.en": {
     "en": "How much is the black sweater?",
@@ -879,6 +937,16 @@
     "en": "The sweater is for him.",
     "t": "სვიტერი მისთვისაა (კაცისთვის)."
   },
+  "u5-l4.6.traps": {
+    "en": [
+      "After a preposition like **pre**, pronouns use their long forms: on → pre **neho**. Ho is the short form, used without a preposition.",
+      "Him is on, and after **pre** it takes its long form: pre **neho**. Ju means her, and it's a short form, not used after a preposition."
+    ],
+    "t": [
+      "**pre**-ს მსგავსი წინდებულის შემდეგ ნაცვალსახელები გრძელ ფორმას იღებს: on → pre **neho** (მისთვის). Ho მოკლე ფორმაა, წინდებულის გარეშე.",
+      "„მისთვის“ აქ კაცზეა, ანუ on, pre-ს შემდეგ კი on გრძელ ფორმას იღებს: pre **neho**. Ju ქალზეა და მოკლე ფორმაა, წინდებულის შემდეგ არ დგება."
+    ]
+  },
   "u5-l4.7.pairs": {
     "en": [
       "me",
@@ -940,6 +1008,16 @@
   "u5-l4.11.prompt": {
     "en": "We're inviting you to the party.",
     "t": "ჩვენ წვეულებაზე გპატიჟებთ."
+  },
+  "u5-l4.11.traps": {
+    "en": [
+      "**Pozývať na** takes the accusative, so feminine oslava changes -a to **-u**: na **oslavu**.",
+      "“We” is **my**, so pozývať takes the my ending **-me**: **pozývame**. Pozývam is the ja form, I'm inviting."
+    ],
+    "t": [
+      "**Pozývať na** (დაპატიჟება რაიმეზე) akuzatív-ს მოითხოვს, ამიტომ მდედრობითი oslava -a-ს **-u**-თი ცვლის: na **oslavu** (წვეულებაზე).",
+      "„ჩვენ“ არის **my**, ამიტომ pozývať my-ს დაბოლოებას, **-me**-ს იღებს: **pozývame**. Pozývam ja-ს ფორმაა, „ვპატიჟებ“."
+    ]
   },
   "u5-l4.12.en": {
     "en": "I'm inviting you to the party.",
@@ -1209,9 +1287,29 @@
     "en": "Can you buy bread?",
     "t": "შეგიძლია პური იყიდო?"
   },
+  "u5-l5.5.traps": {
+    "en": [
+      "Môcť (can) is followed by an infinitive, the -ť form: môžeš **kúpiť**. Kúpim is the ja form, I'll buy.",
+      "The question is to **ty** (you), so môcť takes the ty form **môžeš**. Môžem is for ja, I can."
+    ],
+    "t": [
+      "ქართულში ვამბობთ „შეგიძლია იყიდო“, სლოვაკურში კი môcť-ის შემდეგ ინფინიტივი მოდის, -ť ფორმა: môžeš **kúpiť**. Kúpim ნიშნავს „ვიყიდი“.",
+      "კითხვა **ty**-ს (შენ) ეხება, ამიტომ môcť ty-ს ფორმას იღებს: **môžeš**. Môžem ja-სთვისაა, „შემიძლია“."
+    ]
+  },
   "u5-l5.6.prompt": {
     "en": "We're going to the party.",
     "t": "წვეულებაზე მივდივართ."
+  },
+  "u5-l5.6.traps": {
+    "en": [
+      "**Na** (to an event) takes the accusative, so feminine oslava changes -a to **-u**: na **oslavu**.",
+      "“We” is **my**, so ísť takes the my form **ideme**. Idete is for vy."
+    ],
+    "t": [
+      "**Na** (ღონისძიებაზე წასვლა) akuzatív-ს მოითხოვს, ამიტომ მდედრობითი oslava -a-ს **-u**-თი ცვლის: na **oslavu**.",
+      "„ჩვენ“ არის **my**, ამიტომ ísť my-ს ფორმას იღებს: **ideme**. Idete vy-სთვისაა."
+    ]
   },
   "u5-l5.7.en": {
     "en": "I'm going to get bread and wine.",
@@ -1220,6 +1318,16 @@
   "u5-l5.8.prompt": {
     "en": "What do you want to drink?",
     "t": "რა გინდა დალიო?"
+  },
+  "u5-l5.8.traps": {
+    "en": [
+      "The question is to **ty** (you), so chcieť takes the ty form **chceš**. Chcem is the ja form, I want.",
+      "To drink is **piť**; kúpiť means to buy. Both are infinitives, the -ť form that follows chcieť."
+    ],
+    "t": [
+      "კითხვა **ty**-ს (შენ) ეხება, ამიტომ chcieť ty-ს ფორმას იღებს: **chceš**. Chcem ja-ს ფორმაა, „მინდა“.",
+      "„დალევა“ არის **piť**, kúpiť კი „ყიდვას“ ნიშნავს. ორივე ინფინიტივია, -ť ფორმა, რომელიც chcieť-ს მოსდევს."
+    ]
   },
   "u5-l5.9.title": {
     "en": "smieť and vedieť",
@@ -1349,6 +1457,16 @@
     "en": "You mustn't drink wine.",
     "t": "ღვინის დალევის უფლება არ გაქვს."
   },
+  "u5-l5.11.traps": {
+    "en": [
+      "Not allowed is **nesmieť**: **nesmieš** = you mustn't. Careful: nemusíš means you don't have to.",
+      "You mustn't is **nesmieš**, smieť (to be allowed to) with ne-. Chceš means you want."
+    ],
+    "t": [
+      "„არ შეიძლება“ არის **nesmieť**: **nesmieš** = უფლება არ გაქვს. ფრთხილად: nemusíš ნიშნავს „საჭირო არ არის“.",
+      "„უფლება არ გაქვს“ არის **nesmieš**: smieť (უფლების ქონა) + ne-. Chceš ნიშნავს „გინდა“."
+    ]
+  },
   "u5-l5.12.answers": {
     "en": [
       "You don't have to go.",
@@ -1461,6 +1579,16 @@
     "en": "The present is for you.",
     "t": "საჩუქარი შენთვისაა."
   },
+  "u5-l6.9.traps": {
+    "en": [
+      "After a preposition like **pre**, pronouns use their long forms: pre **teba**. Ťa is the short form, used without a preposition: hľadám ťa.",
+      "The present is one thing, so use the singular **darček**, which also fits je. Darčeky is the plural, presents."
+    ],
+    "t": [
+      "**pre**-ს მსგავსი წინდებულის შემდეგ ნაცვალსახელები გრძელ ფორმას იღებს: pre **teba** (შენთვის). Ťa მოკლე ფორმაა, წინდებულის გარეშე: hľadám ťa.",
+      "საჩუქარი ერთია, ამიტომ მხოლობითი **darček**, რომელიც je-საც შეეფერება. Darčeky მრავლობითია, „საჩუქრები“."
+    ]
+  },
   "u5-l6.10.en": {
     "en": "Thanks for the present.",
     "t": "მადლობა საჩუქრისთვის."
@@ -1534,6 +1662,16 @@
     "en": "I'll buy a bouquet for Lucia.",
     "t": "ლუციასთვის თაიგულს ვიყიდი."
   },
+  "u5-l6.16.traps": {
+    "en": [
+      "The bouquet is what you'll buy, the object of kúpim, so feminine kytica changes -a to **-u**: **kyticu**.",
+      "**Pre** (for) takes the accusative, and Lucia follows the feminine -u rule: Lucia → **Luciu**."
+    ],
+    "t": [
+      "თაიგული ის არის, რასაც ყიდულობთ, ანუ kúpim-ის ობიექტი, ამიტომ მდედრობითი kytica -a-ს **-u**-თი ცვლის: **kyticu**.",
+      "ქართული „-თვის“ სიტყვის ბოლოს ემატება (ლუციასთვის), pre კი წინ დგას და akuzatív-ს მოითხოვს: Lucia → pre **Luciu**."
+    ]
+  },
   "u5-l6.17.en": {
     "en": "Happy birthday!",
     "t": "გილოცავ დაბადების დღეს!"
@@ -1582,6 +1720,16 @@
     "en": "I'm looking for Marek.",
     "t": "მარეკს ვეძებ."
   },
+  "u5-l7.4.traps": {
+    "en": [
+      "Marek is a person and the object of hľadám, so the masculine name adds **-a**: **Mareka**. Only masculine things stay the same.",
+      "The speaker is **ja** (I'm looking), so hľadať ends in **-m**: **hľadám**. Hľadáš is the ty form."
+    ],
+    "t": [
+      "მარეკი ადამიანია და hľadám-ის ობიექტი, ამიტომ მამრობით სახელს ემატება **-a**: **Mareka**. უცვლელი მხოლოდ მამრობითი სქესის ნივთები რჩება.",
+      "ლაპარაკობს **ja** (ვეძებ), ამიტომ hľadať **-m**-ზე ბოლოვდება: **hľadám**. Hľadáš ty-ს ფორმაა."
+    ]
+  },
   "u5-l7.5.question": {
     "en": "Which sentence is correct?",
     "t": "რომელი წინადადებაა სწორი?"
@@ -1601,6 +1749,16 @@
   "u5-l7.7.prompt": {
     "en": "The bouquet is for her.",
     "t": "თაიგული მისთვისაა (ქალისთვის)."
+  },
+  "u5-l7.7.traps": {
+    "en": [
+      "After a preposition like **pre**, ona uses its long form: pre **ňu**. Ju is the short form, used without a preposition.",
+      "Here the bouquet isn't an object: the sentence is about it (kytica je…), so it keeps its plain form **kytica**. Kyticu is the object form."
+    ],
+    "t": [
+      "**pre**-ს მსგავსი წინდებულის შემდეგ ona გრძელ ფორმას იღებს: pre **ňu**. Ju მოკლე ფორმაა, წინდებულის გარეშე.",
+      "აქ თაიგული ობიექტი არ არის: წინადადება მასზეა (kytica je…), ამიტომ რჩება ძირითადი ფორმა **kytica**. Kyticu ობიექტის ფორმაა."
+    ]
   },
   "u5-l7.8.en": {
     "en": "They're going to the party.",
@@ -1633,6 +1791,16 @@
   "u5-l7.10.prompt": {
     "en": "Can you buy a cake?",
     "t": "შეგიძლია ტორტი იყიდო?"
+  },
+  "u5-l7.10.traps": {
+    "en": [
+      "The cake is what you'd buy, the object of kúpiť, so feminine torta changes -a to **-u**: **tortu**.",
+      "Can you is **môžeš**, the ty form of môcť (can). Musíš means you must, from musieť."
+    ],
+    "t": [
+      "ტორტი ის არის, რასაც იყიდდით, ანუ kúpiť-ის ობიექტი, ამიტომ მდედრობითი torta -a-ს **-u**-თი ცვლის: **tortu**.",
+      "„შეგიძლია?“ არის **môžeš**, môcť-ის (შეძლება) ty-ს ფორმა. Musíš ნიშნავს „უნდა“ (musieť)."
+    ]
   },
   "u5-l7.11.en": {
     "en": "You're not allowed to smoke here.",
