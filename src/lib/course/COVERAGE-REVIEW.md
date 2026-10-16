@@ -76,8 +76,11 @@ scratchpad or the session's notes folder, not the repo. For each:
 
 Rank by importance at the level: **high** = needed in the first weeks,
 **medium** = expected at the level, **low** = breadth. Give the smallest fix:
-which lesson, roughly how many exercises, or a new lesson only when no existing
-one fits.
+**one** lesson by id, never "u2-l1 or u2-l4" (the writer shouldn't have to
+choose), roughly how many exercises, or a new lesson only when no existing one
+fits. A gap that turns up as points of several lessons (the same can-do in L2 and
+L3) is one finding that lists every id, placed in the earliest lesson where the
+learner needs it.
 
 Then the decisions you propose, as rows for `decisions.tsv` in the inventory
 folder (tab-separated, header `id	verdict	note`):
