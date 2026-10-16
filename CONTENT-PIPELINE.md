@@ -17,7 +17,7 @@ Everything here runs from the repo root. Paid steps are marked **$**.
 | 2 | [Write the unit](#2-write-the-unit) | | `src/lib/course/units/unitN.ts`, `lexicon.ts` | |
 | 3 | [Check it](#3-check-it) | `npm run -s validate:course -- uN`, `npm run -s course:coverage -- uN` | | |
 | 4 | [Review](#4-review) | a coverage review per unit, then an editorial pass | findings, decisions, then fixes | |
-| 5 | [Translate](#5-translate) | `npm run i18n:sync` | `translations/{uk,ru}/unitN.json` | |
+| 5 | [Translate](#5-translate) | `npm run i18n:sync` | `translations/{uk,ru,uz,ka}/unitN.json` | |
 | 6 | [Spelling cards](#6-spelling-cards) | `npm run plan:spelling` | `src/lib/course/spelling.json` | |
 | 7 | [Illustration plan](#7-illustration-plan) | `illustrations/tools/*` | `illustrations/plan/unitN.json` | |
 | 8 | [Render pictures](#8-render-pictures) | `render-plan.ts` | `public/illustrations/`, `illustrations.json` | **$** |
