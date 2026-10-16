@@ -193,7 +193,8 @@ function UnitSection({
             </li>,
             // A word review stop after every third lesson, unless the unit's own
             // review lesson is next anyway. Optional: it never locks what follows.
-            i % 3 === 2 && i < unit.lessons.length - 2 && (
+            // Not in unit 1: its words are all minutes old, nothing to forget yet.
+            unit.number > 1 && i % 3 === 2 && i < unit.lessons.length - 2 && (
               <li
                 key={`${lesson.id}-review`}
                 // Room below for the next lesson's "Start" bubble.
