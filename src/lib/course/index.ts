@@ -117,12 +117,20 @@ export const localizedCourse: Record<Locale, Unit[]> = Object.fromEntries(
       const withSpelling = addSpelling(lesson, meaning);
       return {
         ...withSpelling,
-        exercises: withSpelling.exercises.map((ex) => withRule(withTileCase(ex, names))),
+        exercises: withSpelling.exercises.map((ex) => withGender(withRule(withTileCase(ex, names)))),
       };
     };
     return [locale, withWordPools(units.map((unit) => ({ ...unit, lessons: unit.lessons.map(played) })))];
   }),
 ) as Record<Locale, Unit[]>;
+
+/** An intro card for a single noun shows its gender (or plural only), from its tags in the lexicon. */
+function withGender(ex: Exercise): Exercise {
+  if (ex.type !== "intro" || !isReviewable(ex.sk)) return ex;
+  const tags = lexicon[reviewItemId(ex.sk)];
+  const gender = tags?.pos === "noun" ? (tags.plural ? "plural" : tags.gender) : undefined;
+  return gender ? { ...ex, gender } : ex;
+}
 
 /**
  * Gives each writing lesson its `wordPool`: the words taught on intro cards since the

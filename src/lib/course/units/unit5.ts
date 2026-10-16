@@ -533,6 +533,7 @@ export const unit5: Unit = {
           sk: "Akú farbu máš rada?",
           en: "What colour do you like? (to a woman)",
           note: "mať rád (said of a man) / mať rada (of a woman) = to like. Mám rada zelen**ú** farb**u**. = I like green.",
+          otherGender: { sk: "Akú farbu máš rád?", gender: "m" },
         },
         {
           id: "choice-tomas-ma-rad",

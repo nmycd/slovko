@@ -460,7 +460,8 @@ export const unit7: Unit = {
           type: "intro",
           sk: "Večer som unavená.",
           en: "In the evening I'm tired. (woman speaking)",
-          note: "A man says: Večer som **unavený**. Then it's time for **idem spať** = I'm going to bed.",
+          note: "Then it's time for **idem spať** = I'm going to bed.",
+          otherGender: { sk: "Večer som unavený.", gender: "m" },
         },
         {
           id: "fill-tomas-je-vecer",

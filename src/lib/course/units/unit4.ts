@@ -289,7 +289,7 @@ export const unit4: Unit = {
           en: "What do you do? — I'm a cook.",
           note: "Marek, Lucia's brother, is a cook. To someone you call vy: Čo robíte?",
         },
-        { id: "casnik", type: "intro", sk: "čašník", en: "waiter" },
+        { id: "casnik", type: "intro", sk: "čašník", en: "waiter", otherGender: { sk: "čašníčka", gender: "f" } },
         {
           id: "choice-kuchar",
           type: "choice",
@@ -298,8 +298,8 @@ export const unit4: Unit = {
           optionsLang: "sk",
           answer: 0,
         },
-        { id: "predavac", type: "intro", sk: "predavač", en: "shop assistant" },
-        { id: "novinar", type: "intro", sk: "novinár", en: "journalist" },
+        { id: "predavac", type: "intro", sk: "predavač", en: "shop assistant", otherGender: { sk: "predavačka", gender: "f" } },
+        { id: "novinar", type: "intro", sk: "novinár", en: "journalist", otherGender: { sk: "novinárka", gender: "f" } },
         {
           id: "grammar-jobs-he-she",
           type: "grammar",
@@ -340,7 +340,7 @@ export const unit4: Unit = {
           type: "intro",
           sk: "šofér",
           en: "driver",
-          note: "A woman driver: šofér**ka**.",
+          otherGender: { sk: "šoférka", gender: "f" },
         },
         {
           id: "dochodca",
@@ -348,6 +348,7 @@ export const unit4: Unit = {
           sk: "dôchodca",
           en: "pensioner (a retired man)",
           note: "A retired woman is dôchod**kyňa**: many words ending in -ca switch to **-kyňa**.",
+          otherGender: { sk: "dôchodkyňa", gender: "f" },
         },
         {
           id: "match-kuchar",

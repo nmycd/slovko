@@ -139,6 +139,12 @@ export const en = {
   // Exercises
   "ex.newPhrase": "New phrase",
   "ex.tip": "Tip",
+  "ex.gender.m": "masculine",
+  "ex.gender.f": "feminine",
+  "ex.gender.n": "neuter",
+  "ex.gender.plural": "plural only",
+  "ex.otherGender.m": "For a man:",
+  "ex.otherGender.f": "For a woman:",
   "ex.grammar": "Grammar",
   "ex.fill": "Fill in the blank",
   "ex.writeSlovak": "Write this in Slovak",

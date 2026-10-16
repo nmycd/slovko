@@ -139,6 +139,12 @@ export const ka: Messages = {
   // Exercises
   "ex.newPhrase": "ახალი ფრაზა",
   "ex.tip": "რჩევა",
+  "ex.gender.m": "მამრობითი სქესი",
+  "ex.gender.f": "მდედრობითი სქესი",
+  "ex.gender.n": "საშუალო სქესი",
+  "ex.gender.plural": "მხოლოდ მრავლობითი",
+  "ex.otherGender.m": "კაცისთვის:",
+  "ex.otherGender.f": "ქალისთვის:",
   "ex.grammar": "გრამატიკა",
   "ex.fill": "შეავსეთ გამოტოვებული ადგილი",
   "ex.writeSlovak": "დაწერეთ სლოვაკურად",

@@ -139,6 +139,12 @@ export const uz: Messages = {
   // Exercises
   "ex.newPhrase": "Yangi ibora",
   "ex.tip": "Maslahat",
+  "ex.gender.m": "erkak jinsi",
+  "ex.gender.f": "ayol jinsi",
+  "ex.gender.n": "oʻrta jins",
+  "ex.gender.plural": "faqat koʻplik",
+  "ex.otherGender.m": "Erkak uchun:",
+  "ex.otherGender.f": "Ayol uchun:",
   "ex.grammar": "Grammatika",
   "ex.fill": "Boʻsh joyni toʻldiring",
   "ex.writeSlovak": "Slovak tilida yozing",

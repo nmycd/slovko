@@ -121,6 +121,7 @@ export const unit2: Unit = {
           sk: "Som Írka.",
           en: "I'm Irish. (said by a woman)",
           note: "Nationalities have a form for men and one for women: Ír → Ír**ka**.",
+          otherGender: { sk: "Som Ír.", gender: "m" },
         },
         {
           id: "slovak-slovenka",

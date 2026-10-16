@@ -131,6 +131,12 @@ export const ru: Messages = {
 
   "ex.newPhrase": "Новая фраза",
   "ex.tip": "Совет",
+  "ex.gender.m": "мужской род",
+  "ex.gender.f": "женский род",
+  "ex.gender.n": "средний род",
+  "ex.gender.plural": "только множественное число",
+  "ex.otherGender.m": "Для мужчины:",
+  "ex.otherGender.f": "Для женщины:",
   "ex.grammar": "Грамматика",
   "ex.fill": "Заполните пропуск",
   "ex.writeSlovak": "Напишите по-словацки",

@@ -131,6 +131,12 @@ export const uk: Messages = {
 
   "ex.newPhrase": "Нова фраза",
   "ex.tip": "Порада",
+  "ex.gender.m": "чоловічий рід",
+  "ex.gender.f": "жіночий рід",
+  "ex.gender.n": "середній рід",
+  "ex.gender.plural": "лише множина",
+  "ex.otherGender.m": "Для чоловіка:",
+  "ex.otherGender.f": "Для жінки:",
   "ex.grammar": "Граматика",
   "ex.fill": "Заповніть пропуск",
   "ex.writeSlovak": "Напишіть словацькою",

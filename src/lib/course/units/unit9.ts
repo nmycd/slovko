@@ -398,7 +398,7 @@ export const unit9: Unit = {
           type: "intro",
           sk: "Som chorá.",
           en: "I'm ill. (a woman speaking)",
-          note: "A man says **Som chorý.**",
+          otherGender: { sk: "Som chorý.", gender: "m" },
         },
         {
           id: "mam-horucku",
@@ -872,6 +872,7 @@ export const unit9: Unit = {
           sk: "zamestnávateľ",
           en: "employer",
           note: "Don't mix it up with **zamestnanie** (occupation). Jana's employer is a firma (company) **v Košiciach** (in Košice).",
+          otherGender: { sk: "zamestnávateľka", gender: "f" },
         },
         {
           id: "fill-aka-je-vasa",

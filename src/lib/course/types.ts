@@ -16,6 +16,14 @@ export type IntroExercise = {
   sk: string;
   en: string;
   note?: string;
+  /**
+   * A card about a person: the form for the other gender, if Slovak has one
+   * ("čašník" → "čašníčka", "Som chorá." → "Som chorý."). Shown on the card as
+   * "For a woman: …" or "For a man: …".
+   */
+  otherGender?: { sk: string; gender: "m" | "f" };
+  /** Single nouns, added as the course loads from the word's tags: its gender, or plural only. */
+  gender?: "m" | "f" | "n" | "plural";
 };
 
 /** Pick the right option. Slovak options get audio buttons. */
