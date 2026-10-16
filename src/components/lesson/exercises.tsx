@@ -9,10 +9,9 @@ import { checkMemorized, checkSpoken, shuffle, toTiles, type CheckResult, type M
 import { playSlovak, playTile, preloadLesson, stopSlovak, useSlovakPlaying } from "@/lib/audio";
 import {
   isSilentTile,
-  LIVE_TILE_STYLE,
+  LESSON_TILE_STYLE,
   stripMarkup,
   tileStyles,
-  TILES_PLAY_CUTS,
   tileWords,
   type TileStyle,
 } from "@/lib/course/helpers";
@@ -70,11 +69,24 @@ export function IntroView({ exercise }: { exercise: IntroExercise }) {
   return (
     <div className="animate-pop space-y-6">
       <p className="text-sm font-semibold text-brand">{t("ex.newPhrase")}</p>
-      <div className="flex items-center gap-4">
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
         <AudioButton text={exercise.sk} autoPlay />
         <span className="font-serif text-3xl font-medium sm:text-4xl">{exercise.sk}</span>
+        {exercise.gender && (
+          <span className="rounded-full border border-border-strong px-2.5 py-0.5 text-sm font-semibold text-muted">
+            {t(`ex.gender.${exercise.gender}`)}
+          </span>
+        )}
       </div>
       <p className="text-xl text-muted">{exercise.en}</p>
+      {exercise.otherGender && (
+        <p className="text-lg">
+          <span className="text-muted">{t(`ex.otherGender.${exercise.otherGender.gender}`)} </span>
+          <span lang="sk" className="font-serif text-xl font-medium">
+            {exercise.otherGender.sk}
+          </span>
+        </p>
+      )}
       {exercise.note && (
         <p className="rounded-2xl bg-surface p-4">
           <span className="mr-2 font-semibold text-brand">{t("ex.tip")}</span>
@@ -292,7 +304,7 @@ export function BuildView({
               type="button"
               disabled={locked || used}
               onClick={() => {
-                if (toSk) playTile(word, TILES_PLAY_CUTS ? clipsIn : undefined);
+                if (toSk) playTile(word, LESSON_TILE_STYLE ? clipsIn : undefined);
                 setAnswer([...picked, i]);
               }}
               data-state={used ? "done" : undefined}
@@ -346,14 +358,14 @@ function TileStyleRows({
   return (
     <div className="space-y-2 rounded-xl border border-dashed border-border-strong p-3 text-sm">
       <p className="text-muted">
-        Dev: tile sounds in each style. Lessons play {TILES_PLAY_CUTS ? "the (live) style" : "each word's own clip"};
-        a tile with no clip in a style plays nothing.
+        Dev: tile sounds in each style. Lessons play {LESSON_TILE_STYLE ? "the (lessons) style" : "each word's own clip"};
+        a tile with no clip in a style plays nothing here, and its own clip in lessons.
       </p>
       {styleNames.map((style) => (
         <div key={style} className="flex flex-wrap items-center gap-1.5">
           <span className="basis-full text-muted sm:basis-48">
             {tileStyles[style].label}
-            {TILES_PLAY_CUTS && style === LIVE_TILE_STYLE && " (live)"}
+            {style === LESSON_TILE_STYLE && " (lessons)"}
           </span>
           {right.map((word) => tile(word, style))}
           {wrong.length > 0 && (

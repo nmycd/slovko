@@ -1,6 +1,6 @@
 // Pre-generates every course phrase with ElevenLabs into the Supabase
-// Storage cache that /api/tts serves from, then the word tiles' clips, cut from
-// takes of their sentences (scripts/tile-audio.ts).
+// Storage cache that /api/tts serves from, then the word tiles' clips in the style
+// lessons play (scripts/tile-audio.ts).
 //
 //   npm run generate:audio -- --dry-run   # what's missing and how many characters it costs
 //   npm run generate:audio                # generate missing clips (safe to re-run; resumes)
@@ -10,10 +10,12 @@
 // Word tiles only:
 //   --tiles-only                          # skip the phrases
 //   --only u3-,u1-l3#build-volam-sa-tomas # just these exercises (key prefixes)
-//   --recut                               # cut every tile clip again from its stored take (free)
-//   --save <dir>                          # also write takes and clips there, with a page to listen on
 //   --styles                              # also cut every clip in styles A–D for dev mode (free)
-//   --styles e1,e2                        # …or in these styles; E1 and E2 voice the words one by one ($)
+//   --styles e1                           # …or in these styles; E1 and E2 voice the words one by one ($)
+//   --recut                               # cut every clip again from its stored take (free)
+//   --revoice                             # voice again stored word-by-word takes that ran words together ($)
+//   --budget 7000                         # voice nothing more after this many characters
+//   --save <dir>                          # also write takes and clips there, with a page to listen on
 //
 // Refuses to spend credits on the placeholder voice: set ELEVENLABS_VOICE_ID first.
 
@@ -75,7 +77,10 @@ async function main() {
     only: value("--only")?.split(",").filter(Boolean) ?? [],
     save: value("--save"),
     styles: styles(),
+    revoice: args.has("--revoice"),
+    budget: value("--budget") ? Number(value("--budget")) : Infinity,
   };
+  if (Number.isNaN(tileOptions.budget)) throw new Error("--budget takes a number of characters.");
   if (dryRun) {
     await generateTiles(allLessons, tileOptions);
     return;

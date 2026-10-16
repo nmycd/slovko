@@ -24,7 +24,7 @@ export function isSilentTile(word: string): boolean {
  * The version of the tile clips, in their URLs: bump it after cutting them again
  * (`generate:audio -- --recut`), or browsers keep the old ones for up to a week.
  */
-export const TILE_CLIPS_VERSION = 2;
+export const TILE_CLIPS_VERSION = 3;
 
 type TileStyleSpec = {
   label: string;
@@ -42,8 +42,9 @@ type TileStyleSpec = {
 
 /**
  * Ways to make a tile's clip (CONTENT-PIPELINE.md, stage 9, "Short words: the
- * options"). Dev mode plays them side by side under each word-order exercise. A to D
- * are cut from the sentence; E1 and E2 from the words said one at a time.
+ * options"). Lessons play `LESSON_TILE_STYLE`; dev mode plays them all side by side
+ * under each word-order exercise. A to D are cut from the sentence; E1 and E2 from the
+ * words said one at a time.
  */
 export const tileStyles = {
   a: { label: "A: as said", shortest: 0, leadInMs: 0 },
@@ -61,15 +62,13 @@ export function tileStyle(style: TileStyle): TileStyleSpec {
   return tileStyles[style];
 }
 
-/** The style of the cut clips in tiles/, which lessons play when `TILES_PLAY_CUTS`. */
-export const LIVE_TILE_STYLE: TileStyle = "c";
-
 /**
- * Whether lessons play a tile's cut clip (tiles/) or the word's own clip. Off since
- * October 2026: cut from a fluent sentence, short words (je, to, sú, kde) lose their
- * first or last sound. Word-by-word takes (E) are on trial in dev mode.
+ * The style lessons play a tile in (from tile-styles/), or null for the word's own
+ * clip. A tile with no clip in it plays the word's own clip too. E2 since October 2026:
+ * cut from a fluent sentence, short words (je, to, sú, kde) lost their first or last
+ * sound in every style; said one at a time, they don't.
  */
-export const TILES_PLAY_CUTS = false;
+export const LESSON_TILE_STYLE: TileStyle | null = "e2";
 
 export function isTileStyle(value: string): value is TileStyle {
   return Object.hasOwn(tileStyles, value);

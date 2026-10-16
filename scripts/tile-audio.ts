@@ -13,7 +13,7 @@ import { mkdtemp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { normalize, slips, stripDiacritics, toTiles } from "../src/lib/answers";
-import { isSilentTile, LIVE_TILE_STYLE, tileStyle, tileStyles, type TileStyle } from "../src/lib/course/helpers";
+import { isSilentTile, LESSON_TILE_STYLE, tileStyle, tileStyles, type TileStyle } from "../src/lib/course/helpers";
 import type { BuildExercise, Lesson, Trap } from "../src/lib/course/types";
 import { synthesizeWithTimings, withRetries, type Alignment } from "../src/lib/elevenlabs";
 import * as cache from "../src/lib/tts-cache";
@@ -344,65 +344,79 @@ export function cutWords(samples: Float32Array, words: Word[], wanted: number[],
 
 export type TileOptions = {
   dryRun: boolean;
-  /** Delete tile clips and takes no exercise uses any more. */
+  /** Delete tile clips and takes no exercise uses any more (and the old tiles/). */
   prune: boolean;
   /** Cut every clip again from its stored take (free), not just the missing ones. */
   recut: boolean;
+  /** Voice again, with another seed, stored word-by-word takes whose words ran together (paid). */
+  revoice: boolean;
+  /** Voice nothing more once this many characters are spent in the run. */
+  budget: number;
   /** Only exercises whose key starts with one of these ("u3-", "u1-l3#build-volam-sa-tomas"). */
   only: string[];
   /** Also write each take and its clips here, with a page to listen to them on. */
   save?: string;
   /**
-   * Also make every clip in these of `tileStyles`, for dev mode to compare: free for
-   * the styles cut from the sentence, paid for word by word (option E).
+   * Styles to make besides the lessons' own (`LESSON_TILE_STYLE`), for dev mode to
+   * compare. The styles cut from the sentence use its stored takes only (free); word
+   * by word (E) voices a take of its own (paid).
    */
   styles: TileStyle[];
 };
 
 const styleNames = Object.keys(tileStyles) as TileStyle[];
+/** How many more takes, with other seeds, a word-by-word take gets if its words ran together. */
+const REVOICES = 1;
+const ranTogether = (clips: Clip[]) => clips.filter((c) => c.problem?.startsWith("no pause")).length;
 
 /** Generates the missing tile clips. Returns how many takes or clips failed. */
 export async function generateTiles(lessons: Lesson[], options: TileOptions): Promise<number> {
   const all = planTiles(lessons);
+  const wanted = [...new Set([...(LESSON_TILE_STYLE ? [LESSON_TILE_STYLE] : []), ...options.styles])];
+  const cutStyles = wanted.filter((s) => !tileStyle(s).words);
+  // Sentence takes are only paid for when lessons play a style cut from them.
+  const voiceSentences = LESSON_TILE_STYLE !== null && cutStyles.includes(LESSON_TILE_STYLE);
   const plans = all
     .filter((p) => !options.only.length || options.only.some((prefix) => p.key.startsWith(prefix)))
-    // Word by word, the exercise's words get a take of their own in each style asked for.
     .map((p) => ({
       ...p,
-      takes: [...p.takes, ...options.styles.filter((s) => tileStyle(s).words).map((s) => wordByWordTake(p, s))],
+      takes: [
+        ...(cutStyles.length ? p.takes : []),
+        ...wanted.filter((s) => tileStyle(s).words).map((s) => wordByWordTake(p, s)),
+      ],
     }));
-  const sentenceStyles = options.styles.filter((s) => !tileStyle(s).words);
-  const [clips, takes, ...styled] = await Promise.all([
-    cache.listCachedPaths("tiles"),
+  const [takes, oldClips, ...styled] = await Promise.all([
     cache.listCachedPaths("takes"),
-    ...(options.styles.length || options.prune ? styleNames.map((s) => cache.listCachedPaths(`tile-styles/${s}`)) : []),
+    cache.listCachedPaths("tiles"),
+    ...styleNames.map((s) => cache.listCachedPaths(`tile-styles/${s}`)),
   ]);
-  const styleClips = new Set(styled.flatMap((set) => [...set]));
-  const clipPath = (plan: TilePlan, tile: string, style?: TileStyle) =>
+  const clips = new Set(styled.flatMap((set) => [...set]));
+  const clipPath = (plan: TilePlan, tile: string, style: TileStyle) =>
     cache.tileCachePath(plan.key, plan.sentence, tile, style);
   const stored = (take: Take) => {
     const path = cache.takeCachePath(take.text);
     return takes.has(`${path}.mp3`) && takes.has(`${path}.json`);
   };
 
-  // What each cut is for: the lessons' clip (missing, or all to cut again), the dev
-  // styles still missing (or all, cutting again), and the local copy to listen to.
+  // What each cut is for: the styles its clip is missing in (or all of them, cutting
+  // again), and the local copy to listen to. A word-by-word take makes only its style.
   const jobs = plans.map((plan) => ({
     plan,
     takes: plan.takes
       .map((take) => {
-        const cuts = take.cuts.map((c) => ({
-          ...c,
-          // A word-by-word take makes only its own style's clips.
-          missing: take.style ? !styleClips.has(clipPath(plan, c.tile, take.style)) : !clips.has(clipPath(plan, c.tile)),
-          styles: (take.style ? [take.style] : sentenceStyles).filter(
-            (s) => options.recut || !styleClips.has(clipPath(plan, c.tile, s)),
-          ),
-        }));
-        const missing = cuts.some((c) => c.missing);
-        // Anything but a missing clip only uses a take already paid for.
-        const wanted = missing || stored(take) ? cuts.filter((c) => c.missing || options.recut || options.save || c.styles.length) : [];
-        return { take, cuts: wanted, voice: missing && !stored(take) };
+        const cuts = take.cuts.map((c) => {
+          const styles = take.style ? [take.style] : cutStyles;
+          const missing = styles.filter((st) => !clips.has(clipPath(plan, c.tile, st)));
+          return { ...c, missing, styles: options.recut ? styles : missing };
+        });
+        const missing = cuts.some((c) => c.missing.length);
+        const paid = Boolean(take.style) || voiceSentences;
+        const usable = stored(take) || (missing && paid);
+        return {
+          take,
+          cuts: usable ? cuts.filter((c) => c.styles.length || options.save) : [],
+          voice: !stored(take) && missing && paid,
+        };
       })
       .filter((t) => t.cuts.length),
   }));
@@ -410,36 +424,38 @@ export async function generateTiles(lessons: Lesson[], options: TileOptions): Pr
   const toVoice = work.flatMap((j) => j.takes.filter((t) => t.voice));
   const characters = toVoice.reduce((n, t) => n + t.take.text.length, 0);
   const tileCount = all.reduce((n, p) => n + p.takes.reduce((m, t) => m + t.cuts.length, 0), 0);
-  const missingCount = jobs.reduce(
-    (n, j) =>
-      n + j.plan.takes.reduce((m, t) => m + (t.style ? 0 : t.cuts.filter((c) => !clips.has(clipPath(j.plan, c.tile))).length), 0),
-    0,
-  );
-  const styleCount = work.reduce((n, j) => n + j.takes.reduce((m, t) => m + t.cuts.reduce((k, c) => k + c.styles.length, 0), 0), 0);
+  const missingIn = (style: TileStyle) =>
+    plans.reduce(
+      (n, p) =>
+        n +
+        new Set(
+          p.takes
+            .filter((t) => (t.style ? t.style === style : !tileStyle(style).words))
+            .flatMap((t) => t.cuts.map((c) => c.tile))
+            .filter((tile) => !clips.has(clipPath(p, tile, style))),
+        ).size,
+      0,
+    );
 
-  const wanted = new Set(all.flatMap((p) => p.takes.flatMap((t) => t.cuts.map((c) => clipPath(p, c.tile)))));
-  // Every take any style could use, word by word too: takes are paid for, so pruning
-  // keeps them all.
+  // Every clip and take any style could use: takes are paid for, so pruning keeps them all.
   const everyTake = all.flatMap((p) => [
     ...p.takes,
-    ...styleNames.filter((s) => tileStyle(s).words).map((s) => wordByWordTake(p, s)),
+    ...styleNames.filter((st) => tileStyle(st).words).map((st) => wordByWordTake(p, st)),
   ]);
   const wantedTakes = new Set(everyTake.flatMap((t) => [".mp3", ".json"].map((ext) => cache.takeCachePath(t.text) + ext)));
-  const wantedStyles = new Set(
-    all.flatMap((p) => p.takes.flatMap((t) => t.cuts.flatMap((c) => styleNames.map((s) => clipPath(p, c.tile, s))))),
+  const wantedClips = new Set(
+    all.flatMap((p) => p.takes.flatMap((t) => t.cuts.flatMap((c) => styleNames.map((st) => clipPath(p, c.tile, st))))),
   );
-  const unused = [...clips, ...[...styleClips].filter((path) => !wantedStyles.has(path))].filter(
-    (path) => !wanted.has(path) && !wantedStyles.has(path),
-  );
+  const unused = [...[...clips].filter((path) => !wantedClips.has(path)), ...oldClips];
   const unusedTakes = [...takes].filter((path) => !wantedTakes.has(path));
 
-  console.log(`\nword tiles: ${all.length} exercises · ${tileCount} clips · ${all.reduce((n, p) => n + p.takes.length, 0)} takes`);
+  console.log(`\nword tiles: ${all.length} exercises · ${tileCount} tiles · lessons play ${LESSON_TILE_STYLE ?? "the words' own clips"}`);
   if (options.only.length) console.log(`only ${options.only.join(", ")}: ${plans.length} exercises`);
-  console.log(`clips missing: ${missingCount}${options.recut ? " · cutting the rest again" : ""}`);
-  if (options.styles.length) console.log(`dev styles to make: ${styleCount} clips (${options.styles.join(", ")})`);
+  console.log(`clips missing: ${wanted.map((st) => `${st} ${missingIn(st)}`).join(" · ")}${options.recut ? " · cutting the rest again" : ""}`);
   console.log(`takes to voice: ${toVoice.length} · characters to generate: ${characters.toLocaleString("en")}`);
+  if (Number.isFinite(options.budget)) console.log(`budget: ${options.budget.toLocaleString("en")} characters, re-voices included`);
   console.log(
-    `unused in cache: ${unused.length} clips, ${unusedTakes.length / 2} takes${options.prune ? " (will be deleted)" : ""}`,
+    `unused in cache: ${unused.length} clips (${oldClips.size} in the old tiles/), ${unusedTakes.length / 2} takes${options.prune ? " (will be deleted)" : ""}`,
   );
   if (options.dryRun) return 0;
 
@@ -447,7 +463,15 @@ export async function generateTiles(lessons: Lesson[], options: TileOptions): Pr
   const page = new Map<string, string>();
   let failed = 0;
   let done = 0;
+  let spent = 0;
   const queue = [...work];
+
+  /** Voices a take, within the budget. */
+  async function voiceTake(text: string, seed: number) {
+    if (spent + text.length > options.budget) throw new Error(`over the budget of ${options.budget} characters`);
+    spent += text.length;
+    return withRetries(() => synthesizeWithTimings(text, seed));
+  }
 
   async function run({ plan, takes: needed }: (typeof work)[number]) {
     const folder = plan.key.replace("#", "__");
@@ -460,20 +484,22 @@ export async function generateTiles(lessons: Lesson[], options: TileOptions): Pr
     };
     for (const [t, { take, cuts, voice }] of needed.entries()) {
       const path = cache.takeCachePath(take.text);
+      // Stored before cutting, so a failed cut never costs the take again.
+      const storeTake = async (audio: ArrayBuffer, alignment: Alignment) => {
+        await cache.storeCached(`${path}.mp3`, audio, "audio/mpeg");
+        await cache.storeCached(`${path}.json`, Buffer.from(JSON.stringify(alignment)), "application/json");
+      };
       let audio: ArrayBuffer | null;
       let alignment: Alignment;
       if (voice) {
-        ({ audio, alignment } = await withRetries(() => synthesizeWithTimings(take.text)));
-        // Stored before cutting, so a failed cut never costs the take again.
-        await cache.storeCached(`${path}.mp3`, audio, "audio/mpeg");
-        await cache.storeCached(`${path}.json`, Buffer.from(JSON.stringify(alignment)), "application/json");
+        ({ audio, alignment } = await voiceTake(take.text, 1));
+        await storeTake(audio, alignment);
       } else {
         audio = await cache.readCached(`${path}.mp3`);
         const json = await cache.readCached(`${path}.json`);
         if (!audio || !json) throw new Error(`take "${take.text}" is listed but can't be read`);
         alignment = JSON.parse(Buffer.from(json).toString());
       }
-      await save(`take-${t}.mp3`, Buffer.from(audio), `<i>${html(take.text)}</i>`);
 
       let words: Word[];
       try {
@@ -483,24 +509,46 @@ export async function generateTiles(lessons: Lesson[], options: TileOptions): Pr
         console.error(`✗ ${plan.key} "${take.text}": ${(err as Error).message}`);
         continue;
       }
-      const cut = cutWords(await decode(audio), words, cuts.map((c) => c.word), Boolean(take.style));
-      for (const [i, { tile, word, missing, styles }] of cuts.entries()) {
+      const wanted = cuts.map((c) => c.word);
+      let cut = cutWords(await decode(audio), words, wanted, Boolean(take.style));
+      // Words said one at a time that ran together: another seed, keeping the better take.
+      for (let seed = 2; take.style && ranTogether(cut) && (voice || options.revoice) && seed <= 1 + REVOICES; seed++) {
+        if (spent + take.text.length > options.budget) {
+          console.error(`  not voiced again (budget): "${take.text}"`);
+          break;
+        }
+        const again = await voiceTake(take.text, seed);
+        let againCut: Clip[];
+        try {
+          againCut = cutWords(await decode(again.audio), wordTimes(take.text, again.alignment), wanted, true);
+        } catch {
+          continue;
+        }
+        const better = ranTogether(againCut) < ranTogether(cut);
+        console.log(`  voiced again (seed ${seed}): "${take.text}" ran together ${ranTogether(cut)} → ${ranTogether(againCut)}${better ? ", kept" : ""}`);
+        if (better) {
+          ({ audio, alignment } = again);
+          cut = againCut;
+          await storeTake(audio, alignment);
+        }
+      }
+      await save(`take-${t}.mp3`, Buffer.from(audio), `<i>${html(take.text)}</i>`);
+
+      for (const [i, { tile, word, styles }] of cuts.entries()) {
         const clip = cut[i];
-        const short = clip.problem?.startsWith("too short");
+        const short = clip.problem?.startsWith("too short") ?? false;
         if (clip.problem) {
           failed++;
           console.error(`✗ ${plan.key} "${tile}" in "${take.text}": ${clip.problem}`);
-          // Too short for lessons, but dev mode still compares it in each style.
-          if (!short || !styles.length) continue;
         }
-        // The lessons' clip comes from the sentence's takes only.
-        const live = take.style ? null : await encode(clip.samples, tmp, LIVE_TILE_STYLE);
-        if (live && !clip.problem && (missing || options.recut)) {
-          await cache.storeCached(clipPath(plan, tile), live, "audio/mpeg");
-        }
-        let kept = live;
-        for (const style of styles) {
-          const mp3 = live && style === LIVE_TILE_STYLE ? live : await encode(clip.samples, tmp, style);
+        // A clip that failed is never kept (an older one is removed), except a word too
+        // short for lessons, which dev mode still compares in the other cut styles.
+        const keep = styles.filter((st) => !clip.problem || (short && !take.style && st !== LESSON_TILE_STYLE));
+        const stale = styles.filter((st) => !keep.includes(st) && clips.has(clipPath(plan, tile, st)));
+        if (stale.length) await cache.removeCachedPaths(stale.map((st) => clipPath(plan, tile, st)));
+        let kept: Buffer | undefined;
+        for (const style of keep) {
+          const mp3 = await encode(clip.samples, tmp, style);
           await cache.storeCached(clipPath(plan, tile, style), mp3, "audio/mpeg");
           kept ??= mp3;
         }
@@ -539,7 +587,7 @@ export async function generateTiles(lessons: Lesson[], options: TileOptions): Pr
     await cache.removeCachedPaths([...unused, ...unusedTakes]);
     console.log(`deleted ${unused.length} unused clips and ${unusedTakes.length / 2} takes`);
   }
-  console.log(`word tiles: ${done} exercises done, ${failed} failed`);
+  console.log(`word tiles: ${done} exercises done, ${failed} failed · characters spent: ${spent.toLocaleString("en")}`);
   return failed;
 }
 

@@ -57,12 +57,16 @@ export type Alignment = {
 
 /**
  * Slovak text → MP3 bytes and each character's timing, for cutting words out (see
- * scripts/tile-audio.ts). A fixed seed keeps a sentence's takes as alike as it can.
+ * scripts/tile-audio.ts). A fixed seed keeps a sentence's takes as alike as it can;
+ * another seed gives another take of the same text.
  */
-export async function synthesizeWithTimings(text: string): Promise<{ audio: ArrayBuffer; alignment: Alignment }> {
+export async function synthesizeWithTimings(
+  text: string,
+  seed = 1,
+): Promise<{ audio: ArrayBuffer; alignment: Alignment }> {
   const res = await fetch(
     `${API}/text-to-speech/${voiceId}/with-timestamps?output_format=mp3_44100_128`,
-    speechRequest(text, { seed: 1 }),
+    speechRequest(text, { seed }),
   );
   if (!res.ok) throw new ElevenLabsError(`TTS failed: ${await res.text()}`, res.status);
   const data = (await res.json()) as { audio_base64: string; alignment: Alignment | null };

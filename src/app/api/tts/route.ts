@@ -1,17 +1,16 @@
-import { isTileStyle, speakableSet, tileExercises, tileWords } from "@/lib/course";
+import { isTileStyle, LESSON_TILE_STYLE, speakableSet, tileExercises, tileWords } from "@/lib/course";
 import { isElevenLabsConfigured } from "@/lib/elevenlabs";
 import { generateAndCache, liveGenerationEnabled, readCached, readCachedAudio, tileCachePath } from "@/lib/tts-cache";
 
 // GET /api/tts?text=Dobrý%20deň.
-// GET /api/tts?text=je&in=u3-l1%23build-kde-je-kupelna&v=2  (a word tile in its exercise;
-//   `v` only busts browser caches when the clips are cut again)
+// GET /api/tts?text=je&in=u3-l1%23build-kde-je-kupelna&v=3  (a word tile in its exercise;
+//   `v` only busts browser caches when the clips are made again)
 // GET /api/tts?text=je&in=…&style=a  (dev mode: the tile in one of `tileStyles`, no fallback)
 // Only course phrases are accepted, and a tile only in its own exercise. Audio comes
 // from the Supabase Storage cache (filled ahead of time by `npm run generate:audio`); a
 // missing phrase is generated on the fly unless TTS_LIVE_GENERATION=false. A tile plays
-// its clip cut from the exercise's sentence, or the word's own clip until that's cut;
-// tile clips are never generated here. Phrase responses are immutable so browsers cache
-// them too.
+// its clip in `LESSON_TILE_STYLE`, or the word's own clip until that's made; tile clips
+// are never generated here. Phrase responses are immutable so browsers cache them too.
 export async function GET(request: Request) {
   const params = new URL(request.url).searchParams;
   const text = params.get("text") ?? "";
@@ -29,7 +28,7 @@ export async function GET(request: Request) {
         ? audio(clip, "public, max-age=604800")
         : Response.json({ error: "Not cut in this style" }, { status: 404 });
     }
-    const clip = await readCached(tileCachePath(exercise, ex.answers[0], text));
+    const clip = LESSON_TILE_STYLE && (await readCached(tileCachePath(exercise, ex.answers[0], text, LESSON_TILE_STYLE)));
     // Kept a week, not forever: a sentence that changes keeps its URL.
     if (clip) return audio(clip, "public, max-age=604800");
   }
