@@ -191,24 +191,23 @@ function UnitSection({
         </Link>
       ) : folded ? null : (
         <div className="relative mt-14">
-          {/* The whole empty left half is the button, drawn as a faint line down the unit's edge
-              and a caret that stays at the bottom of the screen while the unit scrolls past.
-              The lessons sit above it (their transforms paint them later), so their own
-              clicks are theirs. */}
+          {/* The rail and everything left of it, out to the screen's edge, is the button: a faint
+              line down the unit's edge and a caret that stays at the bottom of the screen while
+              the unit scrolls past. (Overflow to the left never scrolls the page.) */}
           <button
             type="button"
             onClick={toTop}
             aria-label={t("path.unitTop", { n: unit.number })}
             title={t("path.unitTop", { n: unit.number })}
-            className="group absolute inset-y-0 left-0 flex w-1/2 cursor-pointer flex-col items-start justify-end rounded-2xl focus-visible:outline-2 focus-visible:outline-brand"
+            className="group absolute inset-y-0 -left-[100vw] right-[calc(100%-2.5rem)] flex cursor-pointer flex-col items-end justify-end focus-visible:outline-2 focus-visible:outline-brand"
           >
             <span
               aria-hidden
-              className="absolute inset-y-0 left-5 w-0.5 -translate-x-1/2 rounded-full bg-border transition-colors group-hover:bg-lichen"
+              className="absolute inset-y-0 right-5 w-0.5 translate-x-1/2 rounded-full bg-border transition-colors group-hover:bg-lichen"
             />
             <span
               aria-hidden
-              className="sticky bottom-4 ml-1 grid size-8 place-items-center rounded-full border border-border bg-bg text-muted transition-colors group-hover:border-lichen group-hover:text-brand"
+              className="sticky bottom-4 mr-1 grid size-8 place-items-center rounded-full border border-border bg-bg text-muted transition-colors group-hover:border-lichen group-hover:text-brand"
             >
               <ChevronDownIcon size={18} className="rotate-180" />
             </span>
