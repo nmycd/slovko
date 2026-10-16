@@ -336,6 +336,30 @@ si…" (u6-l7) is said as the phrase "Dám si" both times, so those two tiles pl
 words' own clips, and every run reports them as failed: expected, not a new
 problem.
 
+### Single words: said one at a time too
+
+The same problem hits a single word played anywhere else: a matching pair (ťa,
+ma, ho), an intro card, a spelling card, a Slovak answer option, word review. So
+every bare single word the course plays outside word tiles (no "?", "!" or "."
+that gives it a tone of its own: "Prosím?" keeps its phrase clip) has a clip of
+its own from a take of words said one at a time, made by
+[word-audio.ts](scripts/word-audio.ts) after the tiles:
+
+- Eight words to a take, "zamestnávateľ… víno… internát… …", long and short
+  dealt out together so the voice keeps to Slovak, cut at the pauses with the
+  tiles' checks and finish (style E2). Words that ran together get one more take,
+  with other words.
+- Clips in `words/`, keyed by the text; takes in `word-takes/`, whose timings give
+  their words back, so `--recut` needs nothing else. The phrase clips stay as they
+  were: `WORD_CLIPS` in [helpers.ts](src/lib/course/helpers.ts) switches between
+  them, and the route falls back to the phrase clip for a word without one.
+- The app asks for `/api/tts?text=ma&v=1` for any single word (`isBareWord`); bump
+  `WORD_CLIPS_VERSION` after making them again, or browsers keep the old ones.
+- `--words-only` runs just this step; `--budget` caps it.
+
+Size, October 2026: 246 words, 31 takes, 1,982 characters (4 words voiced twice).
+Short words now last 0.19–0.45 s (ťa, ma, ho, ju, ich).
+
 #### How we got here: the styles compared
 
 Dev mode (an account with `app_metadata.dev`) shows, under each word-order

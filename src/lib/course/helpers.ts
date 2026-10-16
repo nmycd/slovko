@@ -26,6 +26,22 @@ export function isSilentTile(word: string): boolean {
  */
 export const TILE_CLIPS_VERSION = 3;
 
+/**
+ * A text that is one word, without a "?", "!" or "." that would give it a tone of its
+ * own: "ma", "kúpeľňa", but not "Prosím?". Played anywhere (matching, intro cards,
+ * spelling, options, review), such a word has its clip cut from a take of words said
+ * one at a time (scripts/word-audio.ts), like a tile, when `WORD_CLIPS` is on.
+ */
+export function isBareWord(text: string): boolean {
+  return toTiles(text).length === 1 && !/[.?!…]$/.test(text.trim());
+}
+
+/** Whether single words play their word-by-word clips (words/) or their own old ones. */
+export const WORD_CLIPS = true;
+
+/** The version of the single-word clips, in their URLs: bump it after making them again. */
+export const WORD_CLIPS_VERSION = 1;
+
 type TileStyleSpec = {
   label: string;
   /** A word said faster than this (seconds) is slowed to it, pitch kept. */

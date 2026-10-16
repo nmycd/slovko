@@ -1,7 +1,7 @@
 // Course audio cache in Supabase Storage. Shared by /api/tts and
 // scripts/generate-audio.ts, so both agree on where a phrase's clip lives: phrases at
-// the top level, word tiles in tile-styles/<style>/, and the takes tiles are cut from
-// in takes/.
+// the top level, word tiles in tile-styles/<style>/ and the takes they're cut from in
+// takes/, single words in words/ and theirs in word-takes/.
 import { createHash } from "node:crypto";
 import type { TileStyle } from "@/lib/course/helpers";
 import { synthesize, ttsModel, voiceId } from "@/lib/elevenlabs";
@@ -23,6 +23,19 @@ export function ttsCachePath(text: string): string {
  */
 export function tileCachePath(exercise: string, sentence: string, tile: string, style: TileStyle): string {
   return `tile-styles/${style}/${hash(`${exercise}|${sentence}|${tile}`)}.mp3`;
+}
+
+/** Storage path of a single word's clip, cut from a take of words said one at a time. */
+export function wordCachePath(text: string): string {
+  return `words/${hash(`word|${text}`)}.mp3`;
+}
+
+/**
+ * Storage path, without extension, of a take of single words said one at a time:
+ * the audio (`.mp3`) and its character timings (`.json`), which also give its words.
+ */
+export function wordTakePath(text: string): string {
+  return `word-takes/${hash(text)}`;
 }
 
 /**

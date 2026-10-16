@@ -1,14 +1,18 @@
 // Pre-generates every course phrase with ElevenLabs into the Supabase
 // Storage cache that /api/tts serves from, then the word tiles' clips in the style
-// lessons play (scripts/tile-audio.ts).
+// lessons play (scripts/tile-audio.ts), then single words said one at a time
+// (scripts/word-audio.ts).
 //
 //   npm run generate:audio -- --dry-run   # what's missing and how many characters it costs
 //   npm run generate:audio                # generate missing clips (safe to re-run; resumes)
 //   npm run generate:audio -- --prune     # also delete clips no longer used
 //                                         # (old voice/model, removed phrases)
 //
-// Word tiles only:
-//   --tiles-only                          # skip the phrases
+// One step only:
+//   --tiles-only                          # just the word tiles
+//   --words-only                          # just the single words (scripts/word-audio.ts)
+//
+// Word tiles (and --recut, --budget, --save for single words too):
 //   --only u3-,u1-l3#build-volam-sa-tomas # just these exercises (key prefixes)
 //   --styles                              # also cut every clip in styles A–D for dev mode (free)
 //   --styles e1                           # …or in these styles; E1 and E2 voice the words one by one ($)
@@ -34,7 +38,9 @@ const value = (flag: string) => {
 };
 const dryRun = args.has("--dry-run");
 const prune = args.has("--prune");
-const tilesOnly = args.has("--tiles-only");
+// One step only: the word tiles, or the single words. Otherwise phrases, then both.
+const only = args.has("--tiles-only") ? "tiles" : args.has("--words-only") ? "words" : null;
+const phrasesStep = only === null;
 const CONCURRENCY = 3;
 
 /** The styles `--styles` asks for: those named, or the free ones (cut from the sentence). */
@@ -49,23 +55,24 @@ function styles() {
 }
 
 async function main() {
-  const { allLessons, speakableSet } = await import("../src/lib/course");
+  const { allLessons, singleWords, speakableSet } = await import("../src/lib/course");
   const { isElevenLabsConfigured, ttsModel, voiceId, withRetries } = await import("../src/lib/elevenlabs");
   const cache = await import("../src/lib/tts-cache");
   const { generateTiles } = await import("./tile-audio");
+  const { generateWords } = await import("./word-audio");
 
   if (!cache.isTtsCacheConfigured()) throw new Error("Supabase (URL + secret key) is not configured.");
   if (!isElevenLabsConfigured()) throw new Error("ELEVENLABS_API_KEY is not set.");
 
   const phrases = [...speakableSet];
   const cached = await cache.listCachedPaths();
-  const missing = tilesOnly ? [] : phrases.filter((text) => !cached.has(cache.ttsCachePath(text)));
+  const missing = phrasesStep ? phrases.filter((text) => !cached.has(cache.ttsCachePath(text))) : [];
   const wanted = new Set(phrases.map(cache.ttsCachePath));
   const unused = [...cached].filter((path) => !wanted.has(path));
   const characters = missing.reduce((n, text) => n + text.length, 0);
 
   console.log(`voice ${voiceId} · model ${ttsModel}`);
-  if (!tilesOnly) {
+  if (phrasesStep) {
     console.log(`${phrases.length} phrases · ${phrases.length - missing.length} cached · ${missing.length} missing`);
     console.log(`characters to generate: ${characters.toLocaleString("en")}`);
     console.log(`unused clips in cache: ${unused.length}${prune ? " (will be deleted)" : ""}`);
@@ -81,8 +88,10 @@ async function main() {
     budget: value("--budget") ? Number(value("--budget")) : Infinity,
   };
   if (Number.isNaN(tileOptions.budget)) throw new Error("--budget takes a number of characters.");
+  const wordOptions = { dryRun, recut: tileOptions.recut, budget: tileOptions.budget, save: tileOptions.save };
   if (dryRun) {
-    await generateTiles(allLessons, tileOptions);
+    if (only !== "words") await generateTiles(allLessons, tileOptions);
+    if (only !== "tiles") await generateWords([...singleWords], wordOptions);
     return;
   }
 
@@ -108,13 +117,14 @@ async function main() {
   }
   await Promise.all(Array.from({ length: CONCURRENCY }, worker));
 
-  if (prune && !tilesOnly) {
+  if (prune && phrasesStep) {
     await cache.removeCachedPaths(unused);
     console.log(`deleted ${unused.length} unused clips`);
   }
-  if (!tilesOnly) console.log(`\ngenerated ${done}, failed ${failed}`);
+  if (phrasesStep) console.log(`\ngenerated ${done}, failed ${failed}`);
 
-  failed += await generateTiles(allLessons, tileOptions);
+  if (only !== "words") failed += await generateTiles(allLessons, tileOptions);
+  if (only !== "tiles") failed += await generateWords([...singleWords], wordOptions);
   if (failed) process.exit(1);
 }
 

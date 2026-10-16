@@ -82,7 +82,9 @@ push to `main`). After changing a Vercel environment variable, redeploy.
   clip has a pause on both sides, length and loudness; a tester has heard a few
   exercises, nobody all 899. Two tiles ("Dám", "si" in u6-l7) still play the
   words' own clips. The old cut clips (tiles/, and A to D in tile-styles/) are
-  only for dev-mode comparison; `--prune` deletes tiles/.
+  only for dev-mode comparison; `--prune` deletes tiles/. The 246 single words
+  played elsewhere (matching, intro cards, spelling, options, review) have clips
+  made the same way (words/), checked the same way.
 - **No automated tests or CI.** Checks are `npm run validate:course`,
   `npm run i18n:sync -- --check`, `npx tsc --noEmit` and `npx eslint src`, all
   run by hand. Worth a small GitHub Actions workflow running those on push.

@@ -4,7 +4,7 @@
 // browser's own speech synthesis when TTS isn't configured or fails.
 
 import { useSyncExternalStore } from "react";
-import { isSilentTile, TILE_CLIPS_VERSION, type TileStyle } from "@/lib/course/helpers";
+import { isBareWord, isSilentTile, TILE_CLIPS_VERSION, WORD_CLIPS_VERSION, type TileStyle } from "@/lib/course/helpers";
 import { createStore } from "@/lib/store";
 
 /**
@@ -16,7 +16,8 @@ export type Clip = string | { text: string; in: string; style?: TileStyle };
 
 const query = (clip: Clip) =>
   typeof clip === "string"
-    ? `text=${encodeURIComponent(clip)}`
+    ? // A single word's clip may be made again: its version keeps browsers from holding an old one.
+      `text=${encodeURIComponent(clip)}` + (isBareWord(clip) ? `&v=${WORD_CLIPS_VERSION}` : "")
     : `text=${encodeURIComponent(clip.text)}&in=${encodeURIComponent(clip.in)}&v=${TILE_CLIPS_VERSION}` +
       (clip.style ? `&style=${clip.style}` : "");
 

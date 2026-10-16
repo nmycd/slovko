@@ -4,7 +4,7 @@
 import type { DictionaryEntry } from "../dictionary";
 import { isReviewable, reviewItemId, type ReviewItem } from "../review/items";
 import { locales, type Locale } from "../i18n/locales";
-import { speakableTexts, stripMarkup } from "./helpers";
+import { isBareWord, speakableTexts, stripMarkup, tileWords } from "./helpers";
 import { lessonIllustrations } from "./illustrations";
 import { lexicon } from "./lexicon";
 import { addSpelling } from "./spelling";
@@ -311,6 +311,18 @@ export const tileExercises: ReadonlyMap<string, BuildExercise> = new Map(
       ex.type === "build" && ex.promptLang === "en" ? [[`${l.id}#${ex.id}`, ex] as const] : [],
     ),
   ),
+);
+
+/**
+ * The single words the course plays on their own, anywhere but a word tile (tiles have
+ * their own clips): each has a clip cut from a take of words said one at a time.
+ */
+export const singleWords: ReadonlySet<string> = new Set(
+  localizedCourse.en
+    .flatMap((u) => u.lessons)
+    .flatMap((l) => l.exercises)
+    .flatMap((ex) => (ex.type === "build" ? speakableTexts(ex).filter((t) => !tileWords(ex).includes(t)) : speakableTexts(ex)))
+    .filter(isBareWord),
 );
 
 /** The sentences of speaking exercises: what /api/stt accepts as the expected answer. */

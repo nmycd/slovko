@@ -155,7 +155,7 @@ function ffmpeg(args: string[], input: Buffer): Promise<Buffer> {
 }
 
 /** MP3 → mono samples at 44.1 kHz. */
-async function decode(mp3: ArrayBuffer): Promise<Float32Array> {
+export async function decode(mp3: ArrayBuffer): Promise<Float32Array> {
   const pcm = await ffmpeg(["-i", "pipe:0", "-f", "f32le", "-ac", "1", "-ar", String(RATE), "pipe:1"], Buffer.from(mp3));
   return new Float32Array(pcm.buffer, pcm.byteOffset, pcm.byteLength / 4);
 }
@@ -168,7 +168,7 @@ async function decode(mp3: ArrayBuffer): Promise<Float32Array> {
  */
 let encoded = 0;
 
-async function encode(samples: Float32Array, dir: string, style: TileStyle): Promise<Buffer> {
+export async function encode(samples: Float32Array, dir: string, style: TileStyle): Promise<Buffer> {
   const { shortest, leadInMs } = tileStyles[style];
   // A name of its own: exercises are encoded side by side.
   const file = join(dir, `${++encoded}.mp3`);
