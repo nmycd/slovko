@@ -33,8 +33,9 @@ nickname, but not the book's Zuzana Šoltýsová).
 
 ## Unit structure
 
-- **5–7 lessons per unit.** Order them like the book: situation and
-  vocabulary first, grammar where the book introduces it.
+- **Order the lessons like the book**: situation and vocabulary first, grammar
+  where the book introduces it. Cover what the book's lesson teaches, its everyday
+  words and situations as well as its topic.
 - `kind: "vocab"` (default): new words and phrases for a topic, then practice.
 - `kind: "grammar"`: teaches **one** grammar point. Starts with 1–2 grammar
   cards (exercise 1–3), may add one more card mid-lesson, then 8–12 drills

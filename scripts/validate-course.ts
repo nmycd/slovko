@@ -675,11 +675,6 @@ async function main() {
       "units 1–2 are free, 3–10 premium",
     );
     slovak(unit.id, unit.title);
-    hint(
-      unit.id,
-      unit.lessons.length >= 4,
-      `has ${unit.lessons.length} lessons (4+ expected)`,
-    );
     unit.lessons.forEach((lesson, i) => {
       check(lesson.id, !seenIds.has(lesson.id), "duplicate lesson id");
       seenIds.add(lesson.id);

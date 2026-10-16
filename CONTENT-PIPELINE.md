@@ -39,8 +39,8 @@ copyrighted and the repo is public).
 ## 2. Write the unit
 
 One file per unit, `src/lib/course/units/unitN.ts`, in English and Slovak only.
-[AUTHORING.md](src/lib/course/AUTHORING.md) has the rules: 5–7 lessons, a review
-lesson last, 10–18 exercises a lesson, introduce before testing, the exercise
+[AUTHORING.md](src/lib/course/AUTHORING.md) has the rules: lessons in the book's
+order, a review lesson last, 10–18 exercises a lesson, introduce before testing, the exercise
 types and how grammar cards are written. The types are in
 [types.ts](src/lib/course/types.ts).
 
