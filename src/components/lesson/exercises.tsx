@@ -560,10 +560,18 @@ export function MemorizeView({
 
   const marks = locked ? checkMemorized(words.map((w) => w.sk), typed) : null;
   return (
+    // Every part keeps its size from studying to typing, so nothing jumps when the boxes
+    // appear: both headings share one place (the taller sets its height), a word sits in a
+    // box shaped like the input that replaces it, and the accent keys are there, unseen.
     <div className="space-y-6">
-      <div>
-        <Title>{t(phase === "write" ? "ex.memorize.write" : "ex.memorize.title")}</Title>
-        {phase === "study" && <p className="mt-2 text-muted">{t("ex.memorize.prompt")}</p>}
+      <div className="grid">
+        <div className={`[grid-area:1/1] ${phase === "write" ? "invisible" : ""}`}>
+          <Title>{t("ex.memorize.title")}</Title>
+          <p className="mt-2 text-muted">{t("ex.memorize.prompt")}</p>
+        </div>
+        <div className={`[grid-area:1/1] ${phase === "write" ? "" : "invisible"}`}>
+          <Title>{t("ex.memorize.write")}</Title>
+        </div>
       </div>
       <ol className="space-y-3">
         {order.map((i) => {
@@ -607,25 +615,27 @@ export function MemorizeView({
                     placeholder={t("ex.memorize.placeholder")}
                     aria-label={word.en}
                     data-mark={mark}
-                    className="w-full rounded-lg border-[1.5px] border-border-strong bg-bg px-3 py-2 font-serif text-lg outline-none focus:border-accent data-[mark=accents]:border-gold data-[mark=exact]:border-ok data-[mark=wrong]:border-bad"
+                    className="h-12 w-full rounded-lg border-[1.5px] border-border-strong bg-bg px-3 font-serif text-lg outline-none focus:border-accent data-[mark=accents]:border-gold data-[mark=exact]:border-ok data-[mark=wrong]:border-bad"
                   />
                   {mark && mark !== "exact" && <p className="mt-1 font-serif text-base font-semibold">{word.sk}</p>}
                 </div>
               ) : (
-                <span
+                <div
                   lang="sk"
-                  className={`font-serif text-xl font-semibold transition-[filter,opacity] duration-300 ${
+                  className={`flex h-12 items-center rounded-lg border-[1.5px] border-transparent px-3 font-serif text-lg font-semibold transition-[filter,opacity] duration-300 ${
                     phase === "hiding" ? "opacity-50 blur-md select-none" : ""
                   }`}
                 >
                   {word.sk}
-                </span>
+                </div>
               )}
             </li>
           );
         })}
       </ol>
-      {phase === "write" && <SlovakKeys label={t("ex.accentKeys")} disabled={locked} onKey={insert} />}
+      <div className={phase === "write" ? "transition-opacity duration-300" : "invisible opacity-0"}>
+        <SlovakKeys label={t("ex.accentKeys")} disabled={locked || phase !== "write"} onKey={insert} />
+      </div>
     </div>
   );
 }
