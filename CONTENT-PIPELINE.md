@@ -4,14 +4,19 @@ How a unit of the course goes from the textbook to the live app, in order. Each
 stage says what goes in, what to run, and what comes out. The detailed rules live
 in the guides linked from each stage; this page is the map.
 
+Stage 1 is done once per level, for every textbook lesson, before any unit is
+written; stages 2–4 then run for each unit. Together they make a level complete
+in one pass: A1 needed a whole second course, written afterwards from the
+textbook's other edition, to show what its units had left out (see stage 3).
+
 Everything here runs from the repo root. Paid steps are marked **$**.
 
 | # | Stage | Run | Writes | |
 | --- | --- | --- | --- | --- |
-| 1 | [Read the textbook](#1-read-the-textbook) | (the PDF scan) | notes | |
+| 1 | [Inventory the textbook](#1-inventory-the-textbook) | a reader per lesson (the PDF scan) | `research/inventory/<level>/` (local), `levels/<level>.ts` | |
 | 2 | [Write the unit](#2-write-the-unit) | | `src/lib/course/units/unitN.ts`, `lexicon.ts` | |
-| 3 | [Check it](#3-check-it) | `npm run -s validate:course -- uN` | | |
-| 4 | [Editorial pass](#4-editorial-pass) | a review session | a findings list, then fixes | |
+| 3 | [Check it](#3-check-it) | `npm run -s validate:course -- uN`, `npm run -s course:coverage -- uN` | | |
+| 4 | [Review](#4-review) | a coverage review per unit, then an editorial pass | findings, decisions, then fixes | |
 | 5 | [Translate](#5-translate) | `npm run i18n:sync` | `translations/{uk,ru}/unitN.json` | |
 | 6 | [Spelling cards](#6-spelling-cards) | `npm run plan:spelling` | `src/lib/course/spelling.json` | |
 | 7 | [Illustration plan](#7-illustration-plan) | `illustrations/tools/*` | `illustrations/plan/unitN.json` | |
@@ -21,7 +26,7 @@ Everything here runs from the repo root. Paid steps are marked **$**.
 
 The dictionary on /learn needs no step: it's [built from the content](#automatic).
 
-## 1. Read the textbook
+## 1. Inventory the textbook
 
 The course follows *Krížom-krážom Slovenčina A1* (Kamenárová, 2007): one unit
 per Lekcia, same topics, same grammar order, vocabulary from the lesson's
@@ -36,6 +41,31 @@ copyrighted and the repo is public).
   items or characters. Slovko has its own cast (Emma, Lucia, Tomáš, Marek, pani
   Horváthová, pán Kováč). See [AUTHORING.md](src/lib/course/AUTHORING.md#using-the-textbook-and-what-not-to-copy).
 
+Before any unit of a level is written, three things, in this order:
+
+1. **An inventory per textbook lesson.** One reader per lesson, who opens the
+   book and nothing else, writes down what it teaches: its grammar, situations
+   and functions with page numbers, and its glossary entry by entry. Three
+   files per lesson in `research/inventory/<level>/`: the inventory for people
+   (`unitN-inventory.md`), the glossary (`glossary-LN.tsv`) and the points with
+   the markers the gate searches for (`points-LN.tsv`). The brief, with the
+   formats, is [INVENTORY.md](src/lib/course/INVENTORY.md). They stay in
+   `research/`, which is git-ignored: they transcribe the book. A1's are in
+   `research/comparison/kk1/`.
+2. **The level's checklist**, from outside the book: what CEFR's
+   self-assessment grid and the Slovak minimum (Kvapil et al. 2018) require at
+   this level, item by item, in `src/lib/course/levels/<level>.ts`
+   ([A1's](src/lib/course/levels/a1.ts); committed, since it's our summary of
+   public standards). Both editions of the A1
+   book leave out the compound future and barely touch health; only an outside
+   list shows that. The same file lists the level's everyday **word fields**
+   (core words only) and maps textbook lessons to units.
+3. **A unit for everything**: each checklist item and field gets the unit that
+   will teach it (`in: ["u4"]`), so no item is left for "some unit" to pick up.
+
+Each unit writer then gets the lesson's inventory and the checklist items
+placed in the unit.
+
 ## 2. Write the unit
 
 One file per unit, `src/lib/course/units/unitN.ts`, in English and Slovak only.
@@ -43,6 +73,10 @@ One file per unit, `src/lib/course/units/unitN.ts`, in English and Slovak only.
 order, a review lesson last, 10–18 exercises a lesson, introduce before testing, the exercise
 types and how grammar cards are written. The types are in
 [types.ts](src/lib/course/types.ts).
+
+Write from the lesson's inventory (stage 1): its functions and situations, its
+everyday words as well as its topic, and the checklist items placed in this
+unit. Stage 3 measures all three.
 
 Don't write spelling cards (stage 6 places them) or dictionary entries (built
 automatically).
@@ -132,7 +166,95 @@ errors". A capitalised word in the middle of a `listen` sentence must be listed
 in [names.ts](src/lib/course/names.ts): names are graded leniently (a misspelt name
 is marked yellow, never wrong), so the grader has to know every one.
 
-## 4. Editorial pass
+### The coverage gate
+
+```bash
+npm run -s course:coverage -- u3
+```
+
+Does the unit teach what its textbook lesson and the level's standards say it
+must? [course-coverage.ts](scripts/course-coverage.ts) answers in four parts:
+
+1. **Glossary.** The lesson's glossary (`glossary-LN.tsv`) against every word
+   the course uses, overall and by everyday field: family, food, shops and
+   paying, people, free time, phone and contact, time, health… An entry counts
+   when all its words are used somewhere in the course's Slovak, matched by
+   stem (prídem counts for prísť). A word that appears only in an English note
+   is *mentioned*, not taught, and the output says where.
+2. **Core words.** The level's fields (in `levels/<level>.ts`) against the
+   whole course, with its four topic fields as controls.
+3. **Points.** Each grammar point, situation and function of the lesson
+   (`points-LN.tsv`), found when all its markers match. Every miss must be
+   decided in stage 4.
+4. **Checklist.** Each outside-standard item is placed (`in`), the lessons named
+   exist, and its probe matches in them, so the record can't go stale; `open`
+   items stay flagged.
+
+It exits with code 1 when anything is flagged. Without the local inventory
+(`research/` isn't in git) parts 1 and 3 are skipped with a note and the rest
+still runs. `-- a2` picks a level, `--detail` lists every miss and every
+decision, `--find 'regex'` shows where the course says something, and
+`--planned` checks each checklist item against its whole unit, as placed in
+stage 1, before its lessons exist (or to backtest an older course).
+
+**Thresholds**, from what the A1 comparison measured on the course before its
+fix:
+
+| Check | Flagged when | Why |
+| --- | --- | --- |
+| A field of core words, whole course | under 70 % | The fields the course had dropped were at 10–59 % (family 2/20, free time 4/15), the fields of its own topics at 80–92 %, an independent course written for full coverage at 94–100 %. 70 % sits in the gap with room either way, and still lets a unit leave out three words in ten for good reasons. |
+| A field of one lesson's glossary | under 70 %, from 4 entries | The same line; below 4 entries a single word moves the share by a quarter or more. |
+| A textbook point | not found and not decided | One point is one rule or one can-do. A share can't tell a course with A1's gaps from one without: the A1 course found 65 % of its book's points before its fix and 69 % after. The 35 points the fix closed (paying by card, answering the phone, the plural cases…) are what tell them apart. |
+| A checklist item | unplaced, unverified or `open` | Every requirement has a lesson, or a reason it hasn't. |
+| The glossary overall | never (reported only) | It measures the glossary's size more than the course's choices: the A1 book's lesson 4 has 297 entries, most of them nationalities and jobs. The fields measure the choices. |
+
+What it can't see: whether a matched point is practised or only shown, how much
+practice each point gets, and words that no field lists. That's the review's
+job (stage 4).
+
+**On A1.** Run on the course as it was before the A1 comparison found its gaps
+(git tag `a1-before-additions`, 67 lessons, with `--planned`) and on the course
+after the eleven lessons that closed them (88 lessons):
+
+| | Before | After |
+| --- | --- | --- |
+| Glossary words taught (not gated) | 34 % | 39 % |
+| Core-word fields under 70 % | 11 of 11 everyday fields; controls pass | 5: people around you 1/7, food 15/24, shops and paying 10/16, clothes 5/14, countries 9/15 |
+| Lesson glossary fields under 70 % | 13 | 6 |
+| Checklist | 30 of 48 covered, 12 failing: family, shopping, free time, telephoning, the three plural cases, the compound future, health… | 41 covered, 0 failing, 7 open (all listed as open in the comparison) |
+| Textbook points found | 507 of 780 (65 %) | 542 (69 %), none lost |
+
+It reproduces the comparison's numbers exactly (34 % of the glossaries, family
+2/20, food 8/24, shops 6/16) and flags every gap the comparison ranked. On the
+current course what's left is what the comparison still lists as open (clothes,
+the neighbouring countries, letter formulas, the adverbs určite/možno/asi, the
+instrumental of tools) and words the eleven lessons put only in an English note
+(pokladňa, potraviny, drogéria, pomaranč). The coverage review (stage 4a) of the
+238 points still unfound: 40 taught in other words, 49 book scenes proposed as
+skips, and 149 real gaps, 6 of them high and 43 medium. Most of those the
+comparison never saw: "Čo je to?", "Ja tiež", prečo and pretože, "Môžete mi
+pomôcť?", "Dobre." as a reply, mať + infinitive. Its spot checks of found points
+turned up 35 more that the markers matched but the course doesn't teach (a word
+in a note, half a function), so "found" is optimistic: the review is not
+optional.
+
+## 4. Review
+
+### 4a. Coverage review, each unit
+
+One skeptical reader per draft unit, who didn't write it, reads it against its
+inventory, the gate's run on it and the checklist items placed in it. Every
+flag is classified (a real gap, taught under another form, not for this
+level, a false find), and the reader looks for what the gate can't see: a
+function only mentioned in a note, half a function (answering the phone but not
+ending the call), everyday words no field lists, a grammar point with two
+drills where the others get eight. One pass, not a second course: the output
+is a ranked findings list with the smallest fix for each, and proposed
+decisions. The owner picks; fixes are written; decisions go into
+`decisions.tsv` next to the inventory; the gate runs again. The brief is
+[COVERAGE-REVIEW.md](src/lib/course/COVERAGE-REVIEW.md).
+
+### 4b. Editorial pass, whole course
 
 Units written in parallel don't know about each other: the same word taught twice
 as new, a later lesson contradicting an earlier one. One reader goes through the
@@ -467,10 +589,13 @@ These follow from the content; there's nothing to run.
 | The exercises in a lesson (add, remove, reorder) | `npm run course:ids` for new ones; `npm run plan:spelling`. Nothing else shifts: translations, `ref`s and pictures follow exercise ids. A removed exercise's picture fails `validate:course` until its entry leaves `map-uN.json` and `illustrations.json` |
 | An exercise's lesson (moving it) | Its pointers change lesson (`u1-l1#…` → `u1-l2#…`): update `ref`s and picture entries as `validate:course` says, and move its translation entries before `npm run i18n:sync` |
 | A lesson's pictures | Edit `map-uN.json`, `build-plan.ts`, then `render-plan.ts` |
+| Lessons named in a level's checklist (renamed, moved, rewritten) | `npm run -s course:coverage`: it names each item whose lessons or probe no longer hold; update `in` in `levels/<level>.ts` |
 
 ## Never in git, never to the model
 
 - The textbook PDF and its crops (`illustrations/book-refs/`).
+- The textbook inventories, points and coverage decisions (`research/`, stage 1),
+  and anything quoted from them.
 - The style references (`illustrations/style-refs/`): pages from Beatrice
   Alemagna's *On a Magical Do-Nothing Day*. Fine for finding a look; before
   commercial use, replace them with a style sheet made from our own renders
@@ -488,7 +613,12 @@ Gaps in the pipeline, most also tracked in [DEBT.md](DEBT.md):
 - **Automation.** No CI runs the stage 10 checks; they're run by hand.
 - **More than one course.** Lesson ids (`u1-l1`), progress and the dictionary
   assume A1 is the only course. A2, B1 and the driving exam need a multi-course
-  data model first.
+  data model first. The coverage gate is ready for A2 except for its level file,
+  [levels/a2.ts](src/lib/course/levels/a2.ts), an empty slot that says what to
+  fill (stage 1).
+- **Free production.** No exercise asks the learner to type a Slovak sentence
+  from scratch, so the gate's "taught" means seen and assembled from tiles, not
+  produced.
 - **Grammar cards are mostly unillustrated**, and about 40 exercises reuse an
   earlier picture.
 - **Spelling cards show a meaning** only for words taught on their own intro card;

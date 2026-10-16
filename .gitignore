@@ -44,6 +44,10 @@ next-env.d.ts
 *.pdf
 !.env.example
 
+# Textbook inventories and research derived from copyrighted books
+# (CONTENT-PIPELINE.md, stage 1): local only
+/research/
+
 # Illustration work files, local only: textbook crops and style references
 # (copyrighted, reference only) and test renders
 /illustrations/book-refs/

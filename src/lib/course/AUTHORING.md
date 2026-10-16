@@ -12,7 +12,13 @@ Types are in `types.ts`; read them first.
 
 Use the book for **what** to teach: the unit's topics and situations, its
 vocabulary (the unit's glossary section is the best word list), its grammar
-points, their order, and the grammar tables.
+points, their order, and the grammar tables. Work from the lesson's inventory
+([INVENTORY.md](INVENTORY.md); CONTENT-PIPELINE.md, stage 1), which lists all of
+these with page numbers, and from the level's checklist items placed in your
+unit (`levels/<level>.ts`). Teach the lesson's functions and its everyday words
+(family, shopping and paying, free time, the phone…), not only its topic: A1's
+first units kept their setting's words and lost the everyday ones, and the
+coverage gate now checks for it.
 
 Do **not** reproduce the book's dialogues, reading texts, exercise items,
 characters (Johanna, Zuzana, Róbert, Carlo, …) or their stories. Short
@@ -217,6 +223,7 @@ A new name in a `listen` sentence goes in `names.ts`.
 npm run -s course:ids                # names new exercises
 npm run -s validate:course -- u3     # must print "✓ no errors"; fix warnings where sensible
 npx tsc --noEmit 2>&1 | grep unit3   # must print nothing
+npm run -s course:coverage -- u3     # what the unit still leaves out (CONTENT-PIPELINE.md, stage 3)
 ```
 
 Then reread every Slovak sentence once more, slowly.

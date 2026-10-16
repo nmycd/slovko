@@ -11,7 +11,8 @@
     "course:ids": "tsx scripts/add-exercise-ids.ts",
     "generate:audio": "tsx scripts/generate-audio.ts",
     "i18n:sync": "tsx scripts/sync-translations.ts",
-    "plan:spelling": "tsx scripts/plan-spelling.ts"
+    "plan:spelling": "tsx scripts/plan-spelling.ts",
+    "course:coverage": "tsx scripts/course-coverage.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
