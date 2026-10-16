@@ -76,15 +76,14 @@ push to `main`). After changing a Vercel environment variable, redeploy.
   `.env.development.local`. It opens every lesson, skips Premium, and enables
   `?step=N` deep links. It must never be set on production (it isn't). Delete
   the file when you don't need it.
-- **Word-tile clips are checked by machine, not by ear.** Since October 2026
-  each tile plays its word from a take of its exercise's words said one at a time
-  (style E2; CONTENT-PIPELINE.md, stage 9, "Word tiles"). The script checks each
-  clip has a pause on both sides, length and loudness; a tester has heard a few
-  exercises, nobody all 899. Two tiles ("Dám", "si" in u6-l7) still play the
-  words' own clips. The old cut clips (tiles/, and A to D in tile-styles/) are
-  only for dev-mode comparison; `--prune` deletes tiles/. The 246 single words
-  played elsewhere (matching, intro cards, spelling, options, review) have clips
-  made the same way (words/), checked the same way.
+- **Word clips are checked by machine, not by ear.** Since October 2026 every
+  word the app plays by itself (899 tiles, 246 single words) comes from a take of
+  words said one at a time (CONTENT-PIPELINE.md, stage 9, "Short words are never
+  voiced on their own"). The script checks each clip has a pause on both sides,
+  length and loudness; a tester has heard a few exercises, nobody all of them.
+  Two tiles ("Dám", "si" in u6-l7) still play the words' phrase clips. The old cut
+  clips (tiles/, and A to D in tile-styles/) are only for dev-mode comparison;
+  `--prune` deletes tiles/.
 - **No automated tests or CI.** Checks are `npm run validate:course`,
   `npm run i18n:sync -- --check`, `npx tsc --noEmit` and `npx eslint src`, all
   run by hand. Worth a small GitHub Actions workflow running those on push.

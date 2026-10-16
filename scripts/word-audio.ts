@@ -1,5 +1,6 @@
 // Single-word clips, cut from takes of words said one at a time (CONTENT-PIPELINE.md,
-// stage 9, "Single words"). Run as part of scripts/generate-audio.ts.
+// stage 9, "Short words are never voiced on their own"). Run as part of
+// scripts/generate-audio.ts.
 //
 // A word voiced on its own (ma, ťa, ho) comes out wrong, maybe not even in Slovak. So
 // the course's single words are voiced eight to a take, "ťa… kúpeľňa… ho… …", long

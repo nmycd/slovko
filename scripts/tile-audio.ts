@@ -1,12 +1,12 @@
-// Word-tile clips, cut from a take of their own sentence (CONTENT-PIPELINE.md,
-// stage 9, "Word tiles"). Run as part of scripts/generate-audio.ts.
+// Word-tile clips (CONTENT-PIPELINE.md, stage 9, "Short words are never voiced on
+// their own"). Run as part of scripts/generate-audio.ts.
 //
-// For every word-order exercise with a Slovak answer: the answer is voiced with
-// character timings, split on spaces into words (word k is tile k), and each word is
-// cut out at the pauses. Each wrong tile is voiced in the same sentence, in place of
-// the tile it competes with, and cut out the same way; one take carries several wrong
-// tiles when they replace different words. The takes are kept in storage too, so
-// clips can be cut again without paying for them twice.
+// Lessons play style E2: for every word-order exercise with a Slovak answer, its
+// tiles, right and wrong, are voiced in one take said one at a time ("To… je…
+// naša…") with character timings, and each is cut out at the pauses. The comparison
+// styles A to D (dev mode) are cut from takes of the answer sentence instead, each
+// wrong tile voiced in the sentence in place of the tile it competes with. Takes are
+// kept in storage, so clips can be cut again without paying for them twice.
 
 import { spawn } from "node:child_process";
 import { mkdtemp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
@@ -352,6 +352,8 @@ export type TileOptions = {
   revoice: boolean;
   /** Voice nothing more once this many characters are spent in the run. */
   budget: number;
+  /** The seed of new takes (1 unless a take is being redone); a second take uses the next. */
+  seed: number;
   /** Only exercises whose key starts with one of these ("u3-", "u1-l3#build-volam-sa-tomas"). */
   only: string[];
   /** Also write each take and its clips here, with a page to listen to them on. */
@@ -492,7 +494,7 @@ export async function generateTiles(lessons: Lesson[], options: TileOptions): Pr
       let audio: ArrayBuffer | null;
       let alignment: Alignment;
       if (voice) {
-        ({ audio, alignment } = await voiceTake(take.text, 1));
+        ({ audio, alignment } = await voiceTake(take.text, options.seed));
         await storeTake(audio, alignment);
       } else {
         audio = await cache.readCached(`${path}.mp3`);
@@ -512,7 +514,11 @@ export async function generateTiles(lessons: Lesson[], options: TileOptions): Pr
       const wanted = cuts.map((c) => c.word);
       let cut = cutWords(await decode(audio), words, wanted, Boolean(take.style));
       // Words said one at a time that ran together: another seed, keeping the better take.
-      for (let seed = 2; take.style && ranTogether(cut) && (voice || options.revoice) && seed <= 1 + REVOICES; seed++) {
+      for (
+        let seed = options.seed + 1;
+        take.style && ranTogether(cut) && (voice || options.revoice) && seed <= options.seed + REVOICES;
+        seed++
+      ) {
         if (spent + take.text.length > options.budget) {
           console.error(`  not voiced again (budget): "${take.text}"`);
           break;

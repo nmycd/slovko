@@ -57,8 +57,8 @@ type TileStyleSpec = {
 };
 
 /**
- * Ways to make a tile's clip (CONTENT-PIPELINE.md, stage 9, "Short words: the
- * options"). Lessons play `LESSON_TILE_STYLE`; dev mode plays them all side by side
+ * Ways to make a tile's clip (CONTENT-PIPELINE.md, stage 9, "How we got here: the
+ * styles compared"). Lessons play `LESSON_TILE_STYLE`; dev mode plays them all side by side
  * under each word-order exercise. A to D are cut from the sentence; E1 and E2 from the
  * words said one at a time.
  */

@@ -16,7 +16,7 @@ Everything here runs from the repo root. Paid steps are marked **$**.
 | 6 | [Spelling cards](#6-spelling-cards) | `npm run plan:spelling` | `src/lib/course/spelling.json` | |
 | 7 | [Illustration plan](#7-illustration-plan) | `illustrations/tools/*` | `illustrations/plan/unitN.json` | |
 | 8 | [Render pictures](#8-render-pictures) | `render-plan.ts` | `public/illustrations/`, `illustrations.json` | **$** |
-| 9 | [Record audio](#9-record-audio) | `npm run generate:audio` | clips in Supabase Storage | **$** |
+| 9 | [Record audio](#9-record-audio) | `npm run generate:audio` | phrase, tile and word clips in Supabase Storage | **$** |
 | 10 | [Final checks and ship](#10-final-checks-and-ship) | checks, then push to `main` | the live site | |
 
 The dictionary on /learn needs no step: it's [built from the content](#automatic).
@@ -250,121 +250,122 @@ npx tsx illustrations/tools/render-plan.ts --unit 3
 ## 9. Record audio
 
 **$** ElevenLabs, charged per character; a unit's new clips are usually a few
-thousand characters. Needs `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ID` and the
-Supabase keys in `.env.local`.
+thousand characters. Needs `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ID`, the
+Supabase keys in `.env.local`, and ffmpeg installed.
 
 ```bash
 npm run generate:audio -- --dry-run
 ```
 
 ```bash
-npm run generate:audio
+npm run generate:audio -- --budget 5000
 ```
 
-Every Slovak text the app can play (intro cards, sentences, word tiles, options,
-spelling words) is pre-generated into Supabase Storage, and so is each word
-tile's clip, cut from a take of its exercise's words said one at a time (below). Production never
-generates audio (`TTS_LIVE_GENERATION=false`), so a text without a clip falls
-back to the browser's own voice. Run this after any change to Slovak text,
-including new spelling cards. `--prune` also deletes clips no longer used.
+Every Slovak text the app can play is pre-generated into Supabase Storage.
+Production never generates audio (`TTS_LIVE_GENERATION=false`), so a text without
+a clip falls back to the browser's own voice. Run this after any change to Slovak
+text, including new spelling cards; it makes only what's missing, so new lessons
+get all their clips, word tiles and single words included. Keep a `--budget` on
+it (characters, all steps).
 
-### Word tiles: said one at a time
+### Short words are never voiced on their own
 
-A short word voiced on its own (je, to, sa, a) comes out wrong: alone, the voice
-may not even take it for Slovak. So a word tile in an exercise with a Slovak
-answer plays its word as said in a take of the exercise's own words, one at a
-time. `generate:audio` makes these after the phrases, in
-[tile-audio.ts](scripts/tile-audio.ts):
+A word voiced alone comes out wrong: je, to, sa, ma, ťa lose a sound, take an odd
+tone, or don't even sound Slovak. Cut out of a fluent sentence it's no better: its
+first or last sound blends into its neighbour, and the clip loses it. So **every
+word the app plays by itself is voiced in a take of several words said one at a
+time**, "To… je… naša… kuchyňa…", and cut out at the pauses:
 
-1. **One take per exercise, word by word.** The exercise's tiles, right then
-   wrong, each once, go to ElevenLabs' `text-to-speech/{voice}/with-timestamps`
-   joined with "…": "To… je… naša… kuchyňa… náš… naše…". It returns the audio and
-   each character's start and end. Words are the runs between spaces, punctuation
-   dropped, the split `toTiles` makes; a take whose words don't match fails. In
-   one Slovak take the voice knows the language, says short words at full length
-   (je 0.2–0.4 s), and says right and wrong tiles alike, so the sound gives no
-   answer away.
-2. **Cut at the pauses.** Between two words the cut goes in the middle of the
-   longest pause (50 ms or more of quiet below −40 dBFS) between the words'
-   middles. A word with no pause on one side ran into its neighbour: it fails and
-   isn't stored. A take whose words ran together is voiced once more with another
-   seed, and the better take is kept. The silence at a clip's ends is trimmed to a
-   little, 60 ms of silence goes first (so the word isn't lost while the audio
-   output wakes up), and the ends fade so nothing clicks. ffmpeg decodes and
-   encodes (128 kbps MP3); it must be installed.
-3. **One-letter prepositions get no clip.** Slovak says v, z, s and k as part of
-   the next word, so on their own they'd be a click. They're left out of the take,
-   and tapping them plays nothing (`isSilentTile` in
-   [helpers.ts](src/lib/course/helpers.ts)).
-4. **Clips belong to their exercise:** `tile-styles/e2/` in the bucket, keyed by
-   exercise ("u3-l1#build-kde-je-kupelna"), sentence and tile, so a changed
-   sentence gets new clips. The takes stay in `takes/` (audio and timings), so
-   clips can be cut again without paying twice. The app asks for
-   `/api/tts?text=je&in=u3-l1%23build-kde-je-kupelna&v=3`; the route serves only a
-   tile of that exercise, in `LESSON_TILE_STYLE`, and the word's own clip until
-   that exists. It never voices or cuts tiles itself.
-5. **Checks:** each take's words match its tiles; each clip has a pause on both
-   sides, is at least 0.08 s, at most 0.6 s longer than its word's timing, and not
-   silent (peak above −30 dBFS). A clip that fails isn't stored (an older one is
-   removed), and the run exits with an error.
+| What plays | Its clip | Made by |
+| --- | --- | --- |
+| A sentence or phrase (intro card, listen, speak, fill, grammar example, "Prosím?") | voiced as written, one clip per text | the phrases step |
+| A word tile, right or wrong, in a word-order exercise with a Slovak answer | from one take of that exercise's tiles: "To… je… naša… kuchyňa… náš… naše…" | [tile-audio.ts](scripts/tile-audio.ts) |
+| A single word anywhere else: matching pair, intro card, spelling card, Slovak option, word review | from a take of eight of the course's single words, long and short mixed | [word-audio.ts](scripts/word-audio.ts) |
+| v, z, s, k as a tile | nothing: Slovak says them as part of the next word | (`isSilentTile`) |
 
-Flags for the tiles:
+A "single word" is one word without a "?", "!" or "." after it (`isBareWord`):
+"Prosím?" and "Ďakujem." are utterances with a tone of their own and keep their
+phrase clips.
+
+**What an author does:** nothing special. Run `generate:audio`; it reports every
+word whose clip failed, and those keep playing their phrase clip (the old
+problem) until fixed. Listen to a new lesson's tiles and words; in dev mode (an
+account with `app_metadata.dev`) each word-order exercise also shows its tiles in
+every style compared below.
+
+**When a word sounds wrong:** if the run says a tile ran into its neighbour, run
+with `--revoice` (a new take, paid). If a word passed the checks but sounds wrong,
+delete its clip in storage (paths from `tileCachePath` and `wordCachePath` in
+[tts-cache.ts](src/lib/tts-cache.ts)) and run again:
+- a single word (`words/`) is voiced in a new take with other words;
+- a tile (`tile-styles/e2/`) would be cut from the same take again, so also delete
+  that take in `takes/` and run with `--only <exercise> --seed 2`, or the same
+  words and seed may come out the same.
+
+### How the takes are cut
+
+1. **The take.** The words go to ElevenLabs'
+   `text-to-speech/{voice}/with-timestamps` joined with "… ", which returns the
+   audio and each character's start and end. Words are the runs between spaces,
+   punctuation dropped (the split `toTiles` makes); a take whose words don't match
+   fails. In one Slovak take the voice keeps to Slovak and says short words at
+   full length (je, ma, ťa 0.2–0.4 s). A tile take holds the exercise's right and
+   wrong tiles alike, so the sound gives no answer away.
+2. **The cut.** Between two words the cut goes in the middle of the longest pause
+   (50 ms or more below −40 dBFS) between the words' middles. A word with no pause
+   on one side ran into its neighbour: it fails and isn't stored. Words that ran
+   together get one more take with another seed (tiles: the same words; single
+   words: in new takes with each other), and the better result is kept.
+3. **The finish.** The silence at a clip's ends is trimmed to a little, 60 ms of
+   silence goes first (so the word isn't lost while the audio output wakes up),
+   and the ends fade so nothing clicks; 128 kbps MP3.
+4. **The checks.** Each clip has a pause on both sides, lasts at least 0.08 s and
+   at most 0.6 s longer than its word's timing, and isn't silent (peak above
+   −30 dBFS). A clip that fails isn't stored (an older one is removed), and the
+   run exits with an error.
+5. **Storage.** Tile clips in `tile-styles/e2/`, keyed by exercise
+   ("u3-l1#build-kde-je-kupelna"), sentence and tile, so a changed sentence gets
+   new clips; their takes in `takes/`. Single-word clips in `words/`, keyed by the
+   text; their takes in `word-takes/`, whose timings give their words back. Takes
+   are kept, so clips can be cut again without paying twice.
+6. **Playing.** A tile asks for `/api/tts?text=je&in=u3-l1%23build-kde-je-kupelna&v=3`,
+   a single word for `/api/tts?text=ma&v=1`. The route serves only a tile of that
+   exercise, or a word of the course, and falls back to the phrase clip while
+   there's none; it never voices or cuts anything itself. The `v` keeps browsers
+   from holding old clips: bump `TILE_CLIPS_VERSION` or `WORD_CLIPS_VERSION` in
+   [helpers.ts](src/lib/course/helpers.ts) after making clips again. There too,
+   `LESSON_TILE_STYLE` (`"e2"`, or null) and `WORD_CLIPS` switch back to the phrase
+   clips; those were never overwritten.
+
+Flags:
 
 ```bash
 npm run generate:audio -- --tiles-only --only u3-,u1-l3#build-volam-sa-tomas --dry-run
 ```
 
-- `--tiles-only` skips the phrases; `--only` takes exercise key prefixes.
-- `--budget <characters>` voices nothing more once that many are spent, re-voices
-  included. Use it on any large run.
-- `--revoice` voices again, once, stored takes whose words ran together (paid).
+- `--tiles-only` or `--words-only` runs one step; `--only` takes exercise key
+  prefixes (tiles).
+- `--budget <characters>` voices nothing more once that many are spent, second
+  takes included.
+- `--revoice` gives stored tile takes whose words ran together one more take (paid).
+- `--seed <n>` voices new tile takes with another seed (default 1), to redo one.
 - `--recut` cuts every clip again from its stored take, for free, after a change
-  to the cutting. Then bump `TILE_CLIPS_VERSION` in
-  [helpers.ts](src/lib/course/helpers.ts), or browsers keep the old clips for up
-  to a week.
+  to the cutting; then bump the version.
 - `--styles` also makes the comparison styles below for dev mode (A to D, free);
   `--styles e1` makes the named ones.
-- `--save <dir>` also writes the takes and clips there, with an `index.html` to
-  listen to them on (keep it outside the repo).
-- `--prune` also deletes tile clips and takes no exercise uses any more, and the
-  old `tiles/`.
+- `--save <dir>` also writes takes and clips there to listen to (keep it outside
+  the repo).
+- `--prune` also deletes clips and takes nothing uses any more, and the old
+  `tiles/`.
 
-Size, for the course as of October 2026: 151 exercises, 899 tiles, one take each,
-5,934 characters (6,303 spent in the run that made 145 of them, re-voices
-included). 16 takes ran words together; voiced again, 15 came out clean. "Dám…
-si…" (u6-l7) is said as the phrase "Dám si" both times, so those two tiles play the
-words' own clips, and every run reports them as failed: expected, not a new
-problem.
+Size, for the course as of October 2026:
+- **Word tiles:** 151 exercises, 899 tiles, a take each, 6,303 characters with
+  second takes. 16 takes ran words together; 15 came out clean the second time.
+  "Dám… si…" (u6-l7) is said as the phrase "Dám si" both times, so those two tiles
+  play the words' phrase clips, and every run reports them as failed: expected.
+- **Single words:** 246, 31 takes, 1,982 characters; 4 words needed a second take.
 
-### Single words: said one at a time too
-
-The same problem hits a single word played anywhere else: a matching pair (ťa,
-ma, ho), an intro card, a spelling card, a Slovak answer option, word review. So
-every bare single word the course plays outside word tiles (no "?", "!" or "."
-that gives it a tone of its own: "Prosím?" keeps its phrase clip) has a clip of
-its own from a take of words said one at a time, made by
-[word-audio.ts](scripts/word-audio.ts) after the tiles:
-
-- Eight words to a take, "zamestnávateľ… víno… internát… …", long and short
-  dealt out together so the voice keeps to Slovak, cut at the pauses with the
-  tiles' checks and finish (style E2). Words that ran together get one more take,
-  with other words.
-- Clips in `words/`, keyed by the text; takes in `word-takes/`, whose timings give
-  their words back, so `--recut` needs nothing else. The phrase clips stay as they
-  were: `WORD_CLIPS` in [helpers.ts](src/lib/course/helpers.ts) switches between
-  them, and the route falls back to the phrase clip for a word without one.
-- The app asks for `/api/tts?text=ma&v=1` for any single word (`isBareWord`); bump
-  `WORD_CLIPS_VERSION` after making them again, or browsers keep the old ones.
-- `--words-only` runs just this step; `--budget` caps it.
-
-Size, October 2026: 246 words, 31 takes, 1,982 characters (4 words voiced twice).
-Short words now last 0.19–0.45 s (ťa, ma, ho, ju, ich).
-
-#### How we got here: the styles compared
-
-Dev mode (an account with `app_metadata.dev`) shows, under each word-order
-exercise with a Slovak answer, a row of its tiles in each style of `tileStyles`,
-to compare by ear in the lesson itself. Lessons play `LESSON_TILE_STYLE`.
+### How we got here: the styles compared
 
 | | What | Made with |
 | --- | --- | --- |
@@ -375,23 +376,22 @@ to compare by ear in the lesson itself. Lessons play `LESSON_TILE_STYLE`.
 | E1 | Word by word, "To. Je. Naša." | `--styles e1` **$** |
 | **E2** | **Word by word, "To… je… naša…" (lessons)** | default **$** |
 
-A to D cut each tile out of a take of the answer (wrong tiles from the same
-sentence with the wrong word swapped in), at the pauses or at the timings'
-boundary. In fluent speech a short word's edge blends into its neighbour: in a
-sentence je, a, sa took as little as 0.08 s, and a tester found every cut lost
-the first or last sound of je, to, sú, kde. Slowing (C, D) only stretched what
-was left. The sentence takes (326, 7,233 characters) and the A to D clips are
-kept for comparison, made for the course as of October 2026.
+At first a tile was voiced alone, keyed by its text, and short words sounded off.
+Then A to D cut each tile out of a take of the answer sentence (wrong tiles from
+the same sentence with the wrong word swapped in). In fluent speech je, a, sa took
+as little as 0.08 s, and a tester found every cut lost the first or last sound of
+je, to, sú, kde; slowing (C, D) only stretched what was left. Word by word fixed
+it: tried on 6 exercises, the voice paused at 24 of 28 word boundaries with
+periods (E1) and at 27 of 28 with "…" (E2). Single words played elsewhere had the
+same problem as the first tiles, and got the same fix. The sentence takes (326,
+7,233 characters) and the A to D clips are kept for comparison in dev mode.
 
-Tried on 6 exercises first: with periods (E1) the voice paused at 24 of 28 word
-boundaries and ran "Kuchyňa. Náš. Naše." together; with "…" (E2), at 27 of 28.
-
-Not done: the sentence played after Check is its own clip, not from these takes.
+Not done: the sentence played after Check is its own phrase clip, not from these
+takes.
 
 Considered and set aside:
-- **Each word alone, with the sentence as `previous_text`/`next_text`:** no
-  cutting, but a separate take per word, with no guarantee that a short word
-  comes out right or in Slovak.
+- **Each word alone, with the sentence as `previous_text`/`next_text`:** a take
+  per word, with no guarantee that a short word comes out right or in Slovak.
 - **ElevenLabs' forced alignment of the existing sentence clips:** cheaper, but
   cutting from fluent speech is what failed.
 

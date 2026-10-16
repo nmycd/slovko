@@ -19,6 +19,7 @@
 //   --recut                               # cut every clip again from its stored take (free)
 //   --revoice                             # voice again stored word-by-word takes that ran words together ($)
 //   --budget 7000                         # voice nothing more after this many characters
+//   --seed 2                              # new tile takes with another seed, to redo one that sounds wrong
 //   --save <dir>                          # also write takes and clips there, with a page to listen on
 //
 // Refuses to spend credits on the placeholder voice: set ELEVENLABS_VOICE_ID first.
@@ -86,7 +87,9 @@ async function main() {
     styles: styles(),
     revoice: args.has("--revoice"),
     budget: value("--budget") ? Number(value("--budget")) : Infinity,
+    seed: value("--seed") ? Number(value("--seed")) : 1,
   };
+  if (!Number.isInteger(tileOptions.seed)) throw new Error("--seed takes a whole number.");
   if (Number.isNaN(tileOptions.budget)) throw new Error("--budget takes a number of characters.");
   const wordOptions = { dryRun, recut: tileOptions.recut, budget: tileOptions.budget, save: tileOptions.save };
   if (dryRun) {
