@@ -140,7 +140,6 @@ export const unit1: Unit = {
             { wrong: "noc", right: "večer", why: "Good evening is Dobrý **večer**, a greeting when you meet. Dobrú noc is only for bedtime, never a greeting." },
           ],
         },
-        { id: "listen-dobru-noc-lucia", type: "listen", sk: "Dobrú noc, Lucia.", en: "Good night, Lucia." },
         { id: "speak-dobry-den", type: "speak", sk: "Dobrý deň.", en: "Hello." },
       ],
     },
@@ -274,7 +273,6 @@ export const unit1: Unit = {
           optionsLang: "sk",
           answer: 0,
         },
-        { id: "listen-nic-sa-nestalo", type: "listen", sk: "Nič sa nestalo.", en: "That's OK." },
         {
           id: "build-nie-dakujem",
           type: "build",
@@ -397,7 +395,6 @@ export const unit1: Unit = {
           answers: ["I'm fine, and you?"],
           distractors: ["great", "your", "name"],
         },
-        { id: "listen-ako-sa-volas", type: "listen", sk: "Ako sa voláš?", en: "What's your name?" },
         {
           id: "build-ahoj-ako-sa",
           type: "build",
@@ -574,7 +571,6 @@ export const unit1: Unit = {
             { sk: "Ahojte!", en: "Hi, everyone!" },
           ],
         },
-        { id: "listen-dobry-den-ako", type: "listen", sk: "Dobrý deň, ako sa máte?", en: "Hello, how are you?" },
         { id: "speak-ako-sa-volate", type: "speak", sk: "Ako sa voláte?", en: "What's your name? (polite)" },
       ],
     },
@@ -690,7 +686,6 @@ export const unit1: Unit = {
           why: "The hook (mäkčeň) on n makes it soft, like “ny” in “canyon”: de**ň**. Noc and ráno have a plain n.",
           ref: "u1-l5#grammar-letters-hook-makcen",
         },
-        { id: "listen-dakujem-dobru-noc", type: "listen", sk: "Ďakujem, dobrú noc.", en: "Thank you, good night." },
         {
           id: "grammar-o-ia-ie",
           type: "grammar",
@@ -738,7 +733,6 @@ export const unit1: Unit = {
             { sk: "ráno", en: "morning" },
           ],
         },
-        { id: "listen-na-zdravie", type: "listen", sk: "Na zdravie!", en: "Cheers!" },
         {
           id: "build-mam-sa-dobre",
           type: "build",
@@ -752,6 +746,30 @@ export const unit1: Unit = {
           ],
         },
         { id: "speak-dobru-chut", type: "speak", sk: "Dobrú chuť!", en: "Enjoy your meal!" },
+      ],
+    },
+    // Written practice: memorize rounds (four words at a time, dealt from the cards
+    // since the previous writing lesson), then most of the unit's dictations.
+    {
+      id: "u1-pisanie",
+      title: "Píšeme",
+      titleEn: "Written practice",
+      kind: "writing",
+      exercises: [
+        { id: "memorize-1", type: "memorize" },
+        { id: "memorize-2", type: "memorize" },
+        { id: "listen-dobru-noc-lucia", type: "listen", sk: "Dobrú noc, Lucia.", en: "Good night, Lucia." },
+        { id: "memorize-3", type: "memorize" },
+        { id: "memorize-4", type: "memorize" },
+        { id: "memorize-5", type: "memorize" },
+        { id: "listen-nic-sa-nestalo", type: "listen", sk: "Nič sa nestalo.", en: "That's OK." },
+        { id: "listen-ako-sa-volas", type: "listen", sk: "Ako sa voláš?", en: "What's your name?" },
+        { id: "listen-dobry-den-ako", type: "listen", sk: "Dobrý deň, ako sa máte?", en: "Hello, how are you?" },
+        { id: "listen-dakujem-dobru-noc", type: "listen", sk: "Ďakujem, dobrú noc.", en: "Thank you, good night." },
+        { id: "listen-na-zdravie", type: "listen", sk: "Na zdravie!", en: "Cheers!" },
+        { id: "listen-mam-sa-vyborne", type: "listen", sk: "Mám sa výborne, a vy?", en: "I'm great, and you?" },
+        { id: "listen-dovidenia-pani-horvathova", type: "listen", sk: "Dovidenia, pani Horváthová.", en: "Goodbye, Mrs Horváthová." },
+        { id: "listen-tesi-ma-aj", type: "listen", sk: "Teší ma. — Aj mňa.", en: "Nice to meet you. — Nice to meet you, too." },
       ],
     },
     {
@@ -781,7 +799,6 @@ export const unit1: Unit = {
             { wrong: "voláš", right: "máš", why: "How are you? is Ako sa **máš**? Ako sa voláš? asks for someone's name." },
           ],
         },
-        { id: "listen-mam-sa-vyborne", type: "listen", sk: "Mám sa výborne, a vy?", en: "I'm great, and you?" },
         {
           id: "fill-dobru-noc-emma",
           type: "fill",
@@ -850,7 +867,6 @@ export const unit1: Unit = {
             { wrong: "páči", right: "nestalo", why: "That's OK is Nič sa **nestalo**, literally “nothing happened”. Páči belongs in Nech sa páči, here you go." },
           ],
         },
-        { id: "listen-dovidenia-pani-horvathova", type: "listen", sk: "Dovidenia, pani Horváthová.", en: "Goodbye, Mrs Horváthová." },
         {
           id: "choice-ahojte",
           type: "choice",
@@ -882,7 +898,6 @@ export const unit1: Unit = {
           answer: 0,
           en: "Do you speak Slovak? — Yes, a little.",
         },
-        { id: "listen-tesi-ma-aj", type: "listen", sk: "Teší ma. — Aj mňa.", en: "Nice to meet you. — Nice to meet you, too." },
         { id: "speak-mam-sa-dobre", type: "speak", sk: "Mám sa dobre, ďakujem.", en: "I'm fine, thank you." },
       ],
     },

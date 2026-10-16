@@ -290,6 +290,18 @@ function checkLesson(unit: Unit, lesson: Lesson, index: number) {
     "must not end on a teaching card",
   );
 
+  // Writing practice: memorize rounds and dictations only, and rounds nowhere else.
+  check(
+    where,
+    lesson.kind === "writing"
+      ? lesson.exercises.every((e) => e.type === "memorize" || e.type === "listen") &&
+          lesson.exercises.some((e) => e.type === "memorize")
+      : lesson.exercises.every((e) => e.type !== "memorize"),
+    lesson.kind === "writing"
+      ? "a writing lesson holds memorize rounds and dictations only"
+      : "memorize rounds belong in writing lessons",
+  );
+
   if (lesson.kind === "grammar") {
     const firstGrammar = lesson.exercises.findIndex(
       (e) => e.type === "grammar",
@@ -573,7 +585,8 @@ function checkSpelling(units: Unit[]) {
     check(`${lesson.id} spelling`, new Set(played.map((ex) => ex.id)).size === played.length, "two spelling cards share an id");
     played.forEach((ex) => {
       if (ex.type === "spell") spelled.add(ex.sk.toLowerCase());
-      if (ex.type !== "listen") return;
+      // A writing lesson's sentences lean on its memorize rounds instead.
+      if (ex.type !== "listen" || lesson.kind === "writing") return;
       for (const word of sentenceWords(ex.sk).filter(needsSpelling)) {
         needed.add(word);
         check(lesson.id, spelled.has(word), `"${word}" is typed before it was spelled on its own: ${rerun}`);

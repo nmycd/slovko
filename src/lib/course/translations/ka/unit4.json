@@ -309,10 +309,6 @@
     "en": "**oproti** = opposite, across the street.",
     "t": "**oproti** = მოპირდაპირედ, ქუჩის გაღმა."
   },
-  "u4-l2.listen-kino-je-vlavo.en": {
-    "en": "The cinema is on the left, the theatre is on the right.",
-    "t": "კინოთეატრი მარცხნივაა, თეატრი — მარჯვნივ."
-  },
   "u4-l2.build-prepacte-kde-je.prompt": {
     "en": "Excuse me, where's the museum?",
     "t": "უკაცრავად, სად არის მუზეუმი?"
@@ -522,10 +518,6 @@
     "en": "You know **starý** for things; it works for people too: mlad**á** študentka, star**ý** dôchodca.",
     "t": "**starý** ნივთებზე უკვე იცით (ძველი); ადამიანებზეც ითქმის (მოხუცი): mlad**á** študentka, star**ý** dôchodca."
   },
-  "u4-l3.listen-marek-je-mlady.en": {
-    "en": "Marek is a young cook.",
-    "t": "მარეკი ახალგაზრდა მზარეულია."
-  },
   "u4-l3.build-ona-je-novinarka.prompt": {
     "en": "She is a journalist.",
     "t": "ის (ქალი) ჟურნალისტია."
@@ -570,10 +562,6 @@
       "მზარეული",
       "ოფიციანტი"
     ]
-  },
-  "u4-l3.listen-lucia-nie-je.en": {
-    "en": "Lucia isn't a waitress, she's a student.",
-    "t": "ლუცია ოფიციანტი არ არის, ის სტუდენტია."
   },
   "u4-l3.speak-co-robite.en": {
     "en": "What do you do? (formal)",
@@ -708,10 +696,6 @@
       "მრავლობითში ადგილებისა და ნივთების ზედსართავები **-é**-ზე ბოლოვდება: pekn**é**. Pekný ერთ მამრობით სახელთან დგას.",
       "მოედნები ერთზე მეტია, -ie-ზე დაბოლოებული საშუალო სქესის სახელები კი მრავლობითში **-ia**-ზე ბოლოვდება: námesti**a**. Námestie მხოლოდ ერთი მოედანია."
     ]
-  },
-  "u4-l4.listen-tie-rieky-su.en": {
-    "en": "Those rivers are long.",
-    "t": "ის მდინარეები გრძელია."
   },
   "u4-l4.build-kina-a-divadla.answers": {
     "en": [
@@ -870,10 +854,6 @@
       "ტომაში და მარეკი კაცები არიან, ამიტომ პროფესია კაცების მრავლობითს, **-i**-ს იღებს: novinár**i**. Novinárky ქალებზეა.",
       "ტომაში და მარეკი ორნი არიან, oni, ამიტომ byť არის **sú**: nie sú. Je ერთი ადამიანისთვისაა."
     ]
-  },
-  "u4-l4.listen-dochodcovia-nepracuju.en": {
-    "en": "Pensioners don't work.",
-    "t": "პენსიონერები არ მუშაობენ."
   },
   "u4-l4.fill-lucia-a-tomas.en": {
     "en": "Lucia and Tomáš are Slovaks.",
@@ -1111,10 +1091,6 @@
       "Rodičia მრავლობითია, oni, ამიტომ byť არის **sú**. Je ერთი ადამიანისთვისაა."
     ]
   },
-  "u4-rodina.listen-moja-sestra-je.en": {
-    "en": "My sister is cheerful and kind.",
-    "t": "ჩემი და არის მხიარული და კეთილი."
-  },
   "u4-rodina.fill-to-su-moje.en": {
     "en": "These are my sisters.",
     "t": "ესენი ჩემი დები არიან."
@@ -1271,10 +1247,6 @@
       "ოთხი ხიდი ერთზე მეტია, ამიტომ ზმნაა **sú**, როგორც Tu sú dva hotely-ში, თუმცა ქართულში ვამბობთ „აქ ოთხი ხიდია“. Je ერთი რამისთვისაა."
     ]
   },
-  "u4-l5.listen-mesto-ma-tri.en": {
-    "en": "The town has three churches.",
-    "t": "ქალაქს სამი ეკლესია აქვს."
-  },
   "u4-l5.grammar-counting-men-dvaja.title": {
     "en": "Counting men: dvaja, traja, štyria",
     "t": "კაცების თვლა: dvaja, traja, štyria"
@@ -1403,10 +1375,6 @@
       "ოთხი",
       "მუზეუმი"
     ]
-  },
-  "u4-l5.listen-dvaja-kuchari-a.en": {
-    "en": "Two cooks and four waiters.",
-    "t": "ორი მზარეული და ოთხი ოფიციანტი."
   },
   "u4-l5.speak-bratislava-ma-dva.en": {
     "en": "Bratislava has two castles.",
@@ -1608,10 +1576,6 @@
       "ევრო ნივთია, ამიტომ „სამი“ არის **tri**: tri eurá. Traja მხოლოდ კაცების თვლისთვისაა."
     ]
   },
-  "u4-l6.listen-tomas-stoji-vzadu.en": {
-    "en": "Tomáš is standing at the back.",
-    "t": "ტომაში უკან დგას."
-  },
   "u4-l6.fill-my-stojime-tu.en": {
     "en": "We're standing here.",
     "t": "ჩვენ აქ ვდგავართ."
@@ -1772,13 +1736,61 @@
       "Hodinky-სთან ყველა სიტყვა მრავლობითშია, რადგან ის ყოველთვის მრავლობითია: **moje**. Moja ერთი მდედრობითი ნივთისთვისაა."
     ]
   },
-  "u4-l6.listen-vianoce-su-tu.en": {
-    "en": "Christmas is here!",
-    "t": "შობა მოვიდა!"
-  },
   "u4-l6.speak-kolko-to-stoji.en": {
     "en": "How much is it?",
     "t": "რა ღირს?"
+  },
+  "u4-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "წერითი ვარჯიში"
+  },
+  "u4-pisanie.listen-kino-je-vlavo.en": {
+    "en": "The cinema is on the left, the theatre is on the right.",
+    "t": "კინოთეატრი მარცხნივაა, თეატრი — მარჯვნივ."
+  },
+  "u4-pisanie.listen-marek-je-mlady.en": {
+    "en": "Marek is a young cook.",
+    "t": "მარეკი ახალგაზრდა მზარეულია."
+  },
+  "u4-pisanie.listen-lucia-nie-je.en": {
+    "en": "Lucia isn't a waitress, she's a student.",
+    "t": "ლუცია ოფიციანტი არ არის, ის სტუდენტია."
+  },
+  "u4-pisanie.listen-tie-rieky-su.en": {
+    "en": "Those rivers are long.",
+    "t": "ის მდინარეები გრძელია."
+  },
+  "u4-pisanie.listen-dochodcovia-nepracuju.en": {
+    "en": "Pensioners don't work.",
+    "t": "პენსიონერები არ მუშაობენ."
+  },
+  "u4-pisanie.listen-moja-sestra-je.en": {
+    "en": "My sister is cheerful and kind.",
+    "t": "ჩემი და არის მხიარული და კეთილი."
+  },
+  "u4-pisanie.listen-mesto-ma-tri.en": {
+    "en": "The town has three churches.",
+    "t": "ქალაქს სამი ეკლესია აქვს."
+  },
+  "u4-pisanie.listen-dvaja-kuchari-a.en": {
+    "en": "Two cooks and four waiters.",
+    "t": "ორი მზარეული და ოთხი ოფიციანტი."
+  },
+  "u4-pisanie.listen-tomas-stoji-vzadu.en": {
+    "en": "Tomáš is standing at the back.",
+    "t": "ტომაში უკან დგას."
+  },
+  "u4-pisanie.listen-vianoce-su-tu.en": {
+    "en": "Christmas is here!",
+    "t": "შობა მოვიდა!"
+  },
+  "u4-pisanie.listen-pani-horvathova-je.en": {
+    "en": "Mrs Horváthová is a teacher.",
+    "t": "ქალბატონი ჰორვატოვა მასწავლებელია."
+  },
+  "u4-pisanie.listen-ti-kuchari-su.en": {
+    "en": "Those cooks are from Slovakia.",
+    "t": "ის მზარეულები სლოვაკეთიდან არიან."
   },
   "u4-l7.titleEn": {
     "en": "Review",
@@ -1837,10 +1849,6 @@
       "მარეკი კაცია, ამიტომ **kuchár**, დაბოლოების გარეშე. Kuchárka, -ka-თი, ქალზე ითქმის.",
       "ლუცია ქალია, ამიტომ პროფესიას ემატება **-ka**: študent**ka**. Študent კაცზე ითქმის."
     ]
-  },
-  "u4-l7.listen-pani-horvathova-je.en": {
-    "en": "Mrs Horváthová is a teacher.",
-    "t": "ქალბატონი ჰორვატოვა მასწავლებელია."
   },
   "u4-l7.fill-tie-kaviarne-su.en": {
     "en": "Those cafés are expensive.",
@@ -1912,10 +1920,6 @@
       "ხუთი",
       "სამი"
     ]
-  },
-  "u4-l7.listen-ti-kuchari-su.en": {
-    "en": "Those cooks are from Slovakia.",
-    "t": "ის მზარეულები სლოვაკეთიდან არიან."
   },
   "u4-l7.choice-nohavice.question": {
     "en": "Which word is always plural?",

@@ -5,7 +5,7 @@ import { BookIcon, MicIcon } from "@/components/icons";
 import { useApp } from "@/components/app-provider";
 import { AudioButton } from "@/components/lesson/audio-button";
 import { RichText } from "@/components/lesson/rich-text";
-import { checkSpoken, shuffle, type CheckResult, type MarkedWord } from "@/lib/answers";
+import { checkMemorized, checkSpoken, shuffle, type CheckResult, type MarkedWord } from "@/lib/answers";
 import { playSlovak, playTile, stopSlovak, useSlovakPlaying } from "@/lib/audio";
 import { stripMarkup } from "@/lib/course/helpers";
 import { properNames } from "@/lib/course/names";
@@ -19,6 +19,7 @@ import type {
   IntroExercise,
   ListenExercise,
   MatchExercise,
+  MemorizeExercise,
   SpeakExercise,
   SpellExercise,
 } from "@/lib/course/types";
@@ -28,7 +29,8 @@ import { useRecorder } from "@/lib/useRecorder";
 // hydration), so shuffling with Math.random in state initialisers is safe.
 
 /** null = nothing entered yet. */
-export type Answer = number | number[] | string | null;
+/** A memorize round's answer is one typed word per row, in the order the words were dealt. */
+export type Answer = number | number[] | string | string[] | null;
 
 /** Result reported by exercises that grade themselves (match, speak). */
 /** `why` and `rule`: shown after a wrong answer, why the answer is right and the card that teaches it. */
@@ -38,6 +40,8 @@ export type Resolution = CheckResult & {
   skipped?: boolean;
   why?: string;
   rule?: RuleCard;
+  /** Memorize rounds: the share of words spelled right (0–100). */
+  score?: number;
 };
 
 type Props<E> = {
@@ -237,7 +241,7 @@ export function BuildView({
   clipsIn?: string;
 }) {
   const { t } = useApp();
-  const picked = Array.isArray(answer) ? answer : [];
+  const picked = Array.isArray(answer) ? (answer as number[]) : [];
   const toSk = exercise.promptLang === "en";
   // Lowercase, or the capitalised tile would give the first word away; names keep theirs.
   const label = (tile: string) => (exercise.keepCase?.includes(tile) ? tile : tile.toLocaleLowerCase());
@@ -424,6 +428,166 @@ function SlovakKeys({
           </button>
         ))}
       </div>
+    </div>
+  );
+}
+
+/**
+ * Writing practice: four words to memorize. While studying, each meaning stands beside its
+ * Slovak. Once the learner is ready (`studied`), the Slovak blurs, the rows shuffle so a
+ * word's place gives nothing away, and each row becomes a box to type the word in.
+ * `answer` holds the typed words in the order they were dealt, whatever the rows show.
+ */
+export function MemorizeView({
+  exercise,
+  answer,
+  setAnswer,
+  locked,
+  studied,
+}: Props<MemorizeExercise> & { studied: boolean }) {
+  const { t } = useApp();
+  const words = exercise.words ?? [];
+  const typed = Array.isArray(answer) ? (answer as string[]) : words.map(() => "");
+  const [phase, setPhase] = useState<"study" | "hiding" | "write">(studied ? "write" : "study");
+  const [order, setOrder] = useState(() => words.map((_, i) => i));
+  const rows = useRef<(HTMLLIElement | null)[]>([]);
+  const inputs = useRef<(HTMLInputElement | null)[]>([]);
+  const from = useRef<number[] | null>(null);
+  const focused = useRef(0);
+  const caret = useRef<number | null>(null);
+
+  // Ready: blur the Slovak, then shuffle the rows (never back into the same order), then
+  // turn them into boxes. All at once with reduced motion. Once per round: a round brought
+  // back already studied starts with its boxes.
+  const started = useRef(studied);
+  useEffect(() => {
+    if (!studied || started.current) return;
+    started.current = true;
+    const reorder = () =>
+      setOrder((current) => {
+        if (current.length < 2) return current;
+        let next = current;
+        while (next.every((v, i) => v === current[i])) next = shuffle([...current]);
+        return next;
+      });
+    const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const steps: [number, () => void][] = still
+      ? [[0, () => (reorder(), setPhase("write"))]]
+      : [
+          [0, () => setPhase("hiding")],
+          [450, () => ((from.current = rows.current.map((row) => row?.getBoundingClientRect().top ?? 0)), reorder())],
+          [950, () => setPhase("write")],
+        ];
+    const timers = steps.map(([ms, run]) => setTimeout(run, ms));
+    return () => {
+      timers.forEach(clearTimeout);
+      started.current = false;
+    };
+  }, [studied]);
+
+  // The shuffle itself: each row glides from where it was to where it now is.
+  useLayoutEffect(() => {
+    const before = from.current;
+    if (!before) return;
+    from.current = null;
+    rows.current.forEach((row, i) => {
+      const shift = before[i] - (row?.getBoundingClientRect().top ?? 0);
+      if (row && shift) row.animate([{ transform: `translateY(${shift}px)` }, { transform: "none" }], { duration: 450, easing: "cubic-bezier(.3,.7,.2,1)" });
+    });
+  }, [order]);
+
+  useEffect(() => {
+    if (phase === "write" && !locked) inputs.current[order[0]]?.focus();
+    // Only when the boxes first appear.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase]);
+
+  // Accent keys type into the focused box, at its cursor.
+  function insert(ch: string) {
+    const i = focused.current;
+    const el = inputs.current[i];
+    const text = typed[i] ?? "";
+    const start = el?.selectionStart ?? text.length;
+    const end = el?.selectionEnd ?? text.length;
+    caret.current = start + ch.length;
+    setAnswer(typed.map((v, j) => (j === i ? text.slice(0, start) + ch + text.slice(end) : v)));
+  }
+  useLayoutEffect(() => {
+    const el = inputs.current[focused.current];
+    if (caret.current === null || !el) return;
+    el.focus();
+    el.setSelectionRange(caret.current, caret.current);
+    caret.current = null;
+  });
+
+  const marks = locked ? checkMemorized(words.map((w) => w.sk), typed) : null;
+  return (
+    <div className="space-y-6">
+      <div>
+        <Title>{t(phase === "write" ? "ex.memorize.write" : "ex.memorize.title")}</Title>
+        {phase === "study" && <p className="mt-2 text-muted">{t("ex.memorize.prompt")}</p>}
+      </div>
+      <ol className="space-y-3">
+        {order.map((i) => {
+          const word = words[i];
+          const mark = marks?.[i];
+          return (
+            <li
+              key={i}
+              ref={(el) => {
+                rows.current[i] = el;
+              }}
+              className="grid grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)] items-center gap-3 rounded-xl border border-border bg-bg p-3"
+            >
+              <span className="text-muted">{word.en}</span>
+              {phase === "write" ? (
+                <div className="min-w-0">
+                  <input
+                    ref={(el) => {
+                      inputs.current[i] = el;
+                    }}
+                    value={typed[i] ?? ""}
+                    onChange={(e) => setAnswer(typed.map((v, j) => (j === i ? e.target.value : v)))}
+                    onFocus={() => {
+                      focused.current = i;
+                    }}
+                    onKeyDown={(e) => {
+                      // Enter goes to the next box; on the last one it checks (the player's key handler).
+                      if (e.key !== "Enter") return;
+                      const next = order[order.indexOf(i) + 1];
+                      if (next === undefined) return;
+                      e.preventDefault();
+                      e.stopPropagation();
+                      inputs.current[next]?.focus();
+                    }}
+                    disabled={locked}
+                    lang="sk"
+                    spellCheck={false}
+                    autoCapitalize="off"
+                    autoComplete="off"
+                    autoCorrect="off"
+                    placeholder={t("ex.memorize.placeholder")}
+                    aria-label={word.en}
+                    data-mark={mark}
+                    className="w-full rounded-lg border-[1.5px] border-border-strong bg-bg px-3 py-2 font-serif text-lg outline-none focus:border-accent data-[mark=accents]:border-gold data-[mark=exact]:border-ok data-[mark=wrong]:border-bad"
+                  />
+                  {mark && mark !== "exact" && <p className="mt-1 font-serif text-base font-semibold">{word.sk}</p>}
+                </div>
+              ) : (
+                <span
+                  lang="sk"
+                  className={`font-serif text-xl font-semibold transition-[filter,opacity] duration-300 ${
+                    phase === "hiding" ? "opacity-50 blur-md select-none" : ""
+                  }`}
+                >
+                  {word.sk}
+                </span>
+              )}
+            </li>
+          );
+        })}
+      </ol>
+      {phase === "write" && <SlovakKeys label={t("ex.accentKeys")} disabled={locked} onKey={insert} />}
     </div>
   );
 }

@@ -252,10 +252,6 @@
       "Havo sovuq."
     ]
   },
-  "u10-l2.listen-dnes-je-oblacno.en": {
-    "en": "Today it's cloudy and raining.",
-    "t": "Bugun havo bulutli, yomgʻir yogʻyapti."
-  },
   "u10-l2.build-v-kosiciach-je.answers": {
     "en": [
       "It's sunny in Košice.",
@@ -597,10 +593,6 @@
       "Oʻzbekchada «haqida»dan oldin nom oʻzgarmaydi, slovakchada esa **o** (haqida) lokál talab qiladi: -a oʻrniga -e, o **Bratislave**.",
       "«Haqida» — **o**: článok **o** Bratislave. V Bratislave esa «Bratislavada» degani boʻlardi."
     ]
-  },
-  "u10-l3.listen-emma-byva-s.en": {
-    "en": "Emma lives in the dorm with Lucia.",
-    "t": "Emma Lusiya bilan yotoqxonada yashaydi."
   },
   "u10-l3.build-tento-darcek-je.prompt": {
     "en": "This gift is for Marek.",
@@ -945,10 +937,6 @@
       "u (ayol) xohladi"
     ]
   },
-  "u10-l4.listen-uz-si-cital.en": {
-    "en": "Have you read the paper yet?",
-    "t": "Gazetani oʻqib boʻldingmi?"
-  },
   "u10-l4.fill-uz-si-jedol.en": {
     "en": "Have you eaten yet? — No, not yet.",
     "t": "Ovqatlanib boʻldingmi? — Yoʻq, hali emas."
@@ -1227,10 +1215,6 @@
       "Budeme soʻzidan keyin infinitív, yaʼni -ť shakli keladi: budeme **študovať**. Študujeme — hozirgi zamon (oʻqiyapmiz)."
     ]
   },
-  "u10-budem.listen-cez-vikend-bude.en": {
-    "en": "Marek will be cooking at the weekend.",
-    "t": "Dam olish kunlari Marek ovqat pishiradi."
-  },
   "u10-budem.build-zajtra-nebudem-v.answers": {
     "en": [
       "Tomorrow I won't be at school, I'll be working.",
@@ -1298,10 +1282,6 @@
       "Kaviareň undosh bilan tugasa ham, ayol jinsida, shuning uchun sifat **-á** bilan tugaydi: **nová** kaviareň. Nový erkak jinsidagi soʻzlar uchun.",
       "Qayerdaligini aytish uchun **na** + lokál keladi, c dan keyin esa qoʻshimcha **-i** boʻladi: na Hlavnej **ulici** (Bosh koʻchada). Ulica — bosh kelishik shakli."
     ]
-  },
-  "u10-l5.listen-v-sobotu-bolo.en": {
-    "en": "The weather was nice on Saturday.",
-    "t": "Shanba kuni havo yaxshi edi."
   },
   "u10-l5.match-pondelok.pairs": {
     "en": [
@@ -1384,10 +1364,6 @@
     "en": "Pani Horváthová is ona (she), so the verb has no ending: **číta**. Čítam goes with ja, čítajú with oni.",
     "t": "Horvatova xonim — ona (u), shuning uchun feʼl qoʻshimchasiz keladi: **číta**. Čítam ja bilan, čítajú esa oni bilan keladi."
   },
-  "u10-l5.listen-dnes-je-slnecno.en": {
-    "en": "Today it's sunny and warm.",
-    "t": "Bugun kun quyoshli va iliq."
-  },
   "u10-l5.build-pan-kovac-nikdy.prompt": {
     "en": "Mr Kováč never reads magazines.",
     "t": "Janob Kovach hech qachon jurnal oʻqimaydi."
@@ -1426,6 +1402,42 @@
   "u10-l5.speak-to-je-zaujimavy.en": {
     "en": "That's an interesting article.",
     "t": "Bu qiziqarli maqola."
+  },
+  "u10-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Yozma mashq"
+  },
+  "u10-pisanie.listen-dnes-je-oblacno.en": {
+    "en": "Today it's cloudy and raining.",
+    "t": "Bugun havo bulutli, yomgʻir yogʻyapti."
+  },
+  "u10-pisanie.listen-emma-byva-s.en": {
+    "en": "Emma lives in the dorm with Lucia.",
+    "t": "Emma Lusiya bilan yotoqxonada yashaydi."
+  },
+  "u10-pisanie.listen-uz-si-cital.en": {
+    "en": "Have you read the paper yet?",
+    "t": "Gazetani oʻqib boʻldingmi?"
+  },
+  "u10-pisanie.listen-cez-vikend-bude.en": {
+    "en": "Marek will be cooking at the weekend.",
+    "t": "Dam olish kunlari Marek ovqat pishiradi."
+  },
+  "u10-pisanie.listen-v-sobotu-bolo.en": {
+    "en": "The weather was nice on Saturday.",
+    "t": "Shanba kuni havo yaxshi edi."
+  },
+  "u10-pisanie.listen-dnes-je-slnecno.en": {
+    "en": "Today it's sunny and warm.",
+    "t": "Bugun kun quyoshli va iliq."
+  },
+  "u10-pisanie.listen-dnes-musim-ist.en": {
+    "en": "Today I have to go to the university.",
+    "t": "Bugun universitetga borishim kerak."
+  },
+  "u10-pisanie.listen-vcera-sme-nikde.en": {
+    "en": "We didn't go anywhere yesterday.",
+    "t": "Kecha hech qayerga bormadik."
   },
   "u10-l6.titleEn": {
     "en": "The big review",
@@ -1476,10 +1488,6 @@
       "Kamarátka ayol jinsida, shuning uchun «ikki» — **dve**: dve kamarátky. Dva erkak jinsidagi soʻzlar uchun.",
       "Koʻplikda ayollar va narsalar haqidagi sifatlar **-é** bilan tugaydi: **slovenské** kamarátky. Slovenská ayol jinsidagi bitta soʻz uchun."
     ]
-  },
-  "u10-l6.listen-dnes-musim-ist.en": {
-    "en": "Today I have to go to the university.",
-    "t": "Bugun universitetga borishim kerak."
   },
   "u10-l6.match-musim.pairs": {
     "en": [
@@ -1571,10 +1579,6 @@
   "u10-l6.fill-lucia-mozem-ist.why": {
     "en": "After **s** (with), ty becomes **tebou**: s **tebou**. Teba goes with pre (pre teba), tebe with o (o tebe).",
     "t": "**s** (bilan) soʻzidan keyin ty **tebou** boʻladi: s **tebou** (sen bilan). Teba pre bilan (pre teba), tebe esa o bilan (o tebe) keladi."
-  },
-  "u10-l6.listen-vcera-sme-nikde.en": {
-    "en": "We didn't go anywhere yesterday.",
-    "t": "Kecha hech qayerga bormadik."
   },
   "u10-l6.speak-uz-hovorim-po.en": {
     "en": "I can speak Slovak now!",

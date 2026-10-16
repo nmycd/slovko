@@ -333,7 +333,6 @@ export const unit8: Unit = {
           optionsLang: "sk",
           answer: 0,
         },
-        { id: "listen-v-decembri-su", type: "listen", sk: "V decembri sú Vianoce.", en: "Christmas is in December." },
         {
           id: "build-v-zime-som",
           type: "build",
@@ -475,7 +474,6 @@ export const unit8: Unit = {
           why: "Emma is a woman, so the past tense ends in **-a**: narodil**a** som sa. The date needs its date forms too: **tretieho mája**, not tretí máj.",
           ref: "u8-l3#grammar-when-were-you",
         },
-        { id: "listen-narodila-som-sa", type: "listen", sk: "Narodila som sa druhého júna.", en: "I was born on the second of June." },
         {
           id: "match-prveho-januara",
           type: "match",
@@ -647,7 +645,6 @@ export const unit8: Unit = {
             { wrong: "skúšku", right: "skúšky", why: "Exams are more than one, so it's the plural: skúšk**y**. Skúšku is one exam." },
           ],
         },
-        { id: "listen-lucia-ma-narodeniny", type: "listen", sk: "Lucia má narodeniny v lete.", en: "Lucia's birthday is in summer." },
         {
           id: "fill-vianoce-su-v",
           type: "fill",
@@ -798,7 +795,6 @@ export const unit8: Unit = {
           why: "Never is **nikdy**, and like nikto and nič it takes a negative verb: nikdy nevarí = never cooks. Vždy is always, často often.",
           ref: "u8-l4#grammar-how-often",
         },
-        { id: "listen-na-porade-nikto", type: "listen", sk: "Na porade nikto nič nehovoril.", en: "Nobody said anything at the meeting." },
         {
           id: "build-nikdy-nemam-cas",
           type: "build",
@@ -945,7 +941,6 @@ export const unit8: Unit = {
           why: "After k, g, h, ch the locative ending is **-u**, not -e: park → park**u**, like vo vlaku. Parky means parks.",
           ref: "u8-l5#grammar-masculine-nouns-v",
         },
-        { id: "listen-tomas-je-vo", type: "listen", sk: "Tomáš je vo vlaku.", en: "Tomáš is on the train." },
         {
           id: "grammar-adjectives-locative",
           type: "grammar",
@@ -1118,7 +1113,6 @@ export const unit8: Unit = {
             { wrong: "firmu", right: "firme", why: "**O** (about) takes the locative, so firma ends in **-e**: o firm**e**. Firmu is the object form." },
           ],
         },
-        { id: "listen-povedzte-mi-nieco", type: "listen", sk: "Povedzte mi niečo o sebe.", en: "Tell me something about yourself." },
         {
           id: "fill-pani-horvathova-hovorili",
           type: "fill",
@@ -1291,8 +1285,31 @@ export const unit8: Unit = {
           answers: ["There are no big shops in small towns.", "In small towns there are no big shops."],
           distractors: ["villages", "cheap"],
         },
-        { id: "listen-tomas-rad-cita", type: "listen", sk: "Tomáš rád číta o počítačoch.", en: "Tomáš likes reading about computers." },
         { id: "speak-byvame-na-internatoch", type: "speak", sk: "Bývame na internátoch.", en: "We live in dormitories." },
+      ],
+    },
+    // Written practice: memorize rounds (four words at a time, dealt from the cards
+    // since the previous writing lesson), then most of the unit's dictations.
+    {
+      id: "u8-pisanie",
+      title: "Píšeme",
+      titleEn: "Written practice",
+      kind: "writing",
+      exercises: [
+        { id: "memorize-1", type: "memorize" },
+        { id: "memorize-2", type: "memorize" },
+        { id: "listen-v-decembri-su", type: "listen", sk: "V decembri sú Vianoce.", en: "Christmas is in December." },
+        { id: "memorize-3", type: "memorize" },
+        { id: "memorize-4", type: "memorize" },
+        { id: "memorize-5", type: "memorize" },
+        { id: "listen-narodila-som-sa", type: "listen", sk: "Narodila som sa druhého júna.", en: "I was born on the second of June." },
+        { id: "listen-lucia-ma-narodeniny", type: "listen", sk: "Lucia má narodeniny v lete.", en: "Lucia's birthday is in summer." },
+        { id: "listen-na-porade-nikto", type: "listen", sk: "Na porade nikto nič nehovoril.", en: "Nobody said anything at the meeting." },
+        { id: "listen-tomas-je-vo", type: "listen", sk: "Tomáš je vo vlaku.", en: "Tomáš is on the train." },
+        { id: "listen-povedzte-mi-nieco", type: "listen", sk: "Povedzte mi niečo o sebe.", en: "Tell me something about yourself." },
+        { id: "listen-tomas-rad-cita", type: "listen", sk: "Tomáš rád číta o počítačoch.", en: "Tomáš likes reading about computers." },
+        { id: "listen-studujem-na-univerzite", type: "listen", sk: "Študujem na univerzite v Bratislave.", en: "I study at the university in Bratislava." },
+        { id: "listen-po-porade-nikto", type: "listen", sk: "Po porade nikto nebol v kancelárii.", en: "After the meeting, nobody was in the office." },
       ],
     },
     {
@@ -1337,7 +1354,6 @@ export const unit8: Unit = {
             { wrong: "narodil", right: "narodila", why: "Emma is a woman, so the past tense ends in **-la**: narodil**a** sa. Narodil is for a man." },
           ],
         },
-        { id: "listen-studujem-na-univerzite", type: "listen", sk: "Študujem na univerzite v Bratislave.", en: "I study at the university in Bratislava." },
         {
           id: "fill-narodila-som-sa",
           type: "fill",
@@ -1413,7 +1429,6 @@ export const unit8: Unit = {
           ref: "u8-l4#grammar-double-negation",
         },
         { id: "speak-narodila-som-sa", type: "speak", sk: "Narodila som sa v Írsku.", en: "I was born in Ireland." },
-        { id: "listen-po-porade-nikto", type: "listen", sk: "Po porade nikto nebol v kancelárii.", en: "After the meeting, nobody was in the office." },
         {
           id: "build-pohovor-je-na",
           type: "build",

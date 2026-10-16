@@ -407,10 +407,6 @@
     "en": "Tomáš and Lucia are two people, **oni** (they), and with oni byť is **sú**. Je is for one person, sme for my (we).",
     "t": "Томаш і Луція — двоє людей, **oni** (вони), а з oni byť — це **sú**. Je — для однієї особи, sme — для my (ми)."
   },
-  "u2-l2.listen-kto-je-to.en": {
-    "en": "Who's that? That's Marek.",
-    "t": "Хто це? Це Марек."
-  },
   "u2-l2.choice-ony.question": {
     "en": "Anna and Eva: which word means “they”?",
     "t": "Анна та Єва: яке слово означає «вони»?"
@@ -599,10 +595,6 @@
   "u2-l3.fill-peter-je-nemec.why": {
     "en": "Peter is a man, so he takes the masculine form: **Nemec**. Nemka is for a woman, and Nemecko is the country, Germany.",
     "t": "Петер — чоловік, тож потрібна чоловіча форма: **Nemec**, як «німець». Nemka — про жінку, а Nemecko — це країна, Німеччина."
-  },
-  "u2-l3.listen-pani-horvathova-je.en": {
-    "en": "Mrs Horváthová is a teacher.",
-    "t": "Пані Горватова — вчителька."
   },
   "u2-l3.grammar-things-have-gender.title": {
     "en": "Things have a gender too",
@@ -1044,10 +1036,6 @@
       "Ви питаєте самого Томаша, на **ty**, тож дієслово закінчується на **-š**: pracuje**š**, як «працюєш». Pracujem з -m — це ja (я)."
     ]
   },
-  "u2-l4.listen-studujem-a-pracujem.en": {
-    "en": "I study and work.",
-    "t": "Я вчуся й працюю."
-  },
   "u2-l4.build-hovorite-po-anglicky.answers": {
     "en": [
       "Do you speak English?"
@@ -1186,10 +1174,6 @@
       "«Ми» — це **my**, тож дієслово закінчується на **-me**: nehovorí**me**, як «говоримо». Nehovoríte з -te — для vy.",
       "На відміну від нашого «не», **ne-** пишуть разом із дієсловом: **ne**hovoríme. Окреме nie — лише з byť: nie som."
     ]
-  },
-  "u2-l5.listen-lucia-nepracuje-studuje.en": {
-    "en": "Lucia doesn't work, she studies.",
-    "t": "Луція не працює, вона вчиться."
   },
   "u2-l5.choice-prepacte-nerozumiem.question": {
     "en": "Pán Kováč speaks very fast and you don't understand. What do you say?",
@@ -1433,10 +1417,6 @@
       "6"
     ]
   },
-  "u2-l6.listen-pat-sest-sedem.en": {
-    "en": "five, six, seven",
-    "t": "п'ять, шість, сім"
-  },
   "u2-l6.jedenast-dvanast-trinast.en": {
     "en": "eleven, twelve, thirteen",
     "t": "одинадцять, дванадцять, тринадцять"
@@ -1514,10 +1494,6 @@
   "u2-l6.fill-kolko-mate-rokov.why": {
     "en": "Pán Kováč gets the polite **vy**, so the verb ends in **-te**: má**te**. Máš is for a friend (ty).",
     "t": "До пана Ковача — на **vy**, тож дієслово закінчується на **-te**: má**te**. Máš — до друга (ty)."
-  },
-  "u2-l6.listen-tomas-ma-tridsat.en": {
-    "en": "Tomáš is thirty.",
-    "t": "Томашеві тридцять років."
   },
   "u2-l6.prvy-druhy-treti.en": {
     "en": "first, second, third",
@@ -1631,10 +1607,6 @@
       "904"
     ]
   },
-  "u2-telefon.listen-cislo-je-nula.en": {
-    "en": "The number is 0905.",
-    "t": "Номер — 0905."
-  },
   "u2-telefon.build-ake-mas-telefonne.prompt": {
     "en": "What's your phone number? (to a friend)",
     "t": "Який у тебе номер телефону?"
@@ -1715,13 +1687,49 @@
     "en": "Hello? It's Emma.",
     "t": "Алло? Це Емма."
   },
+  "u2-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Письмова практика"
+  },
+  "u2-pisanie.listen-kto-je-to.en": {
+    "en": "Who's that? That's Marek.",
+    "t": "Хто це? Це Марек."
+  },
+  "u2-pisanie.listen-pani-horvathova-je.en": {
+    "en": "Mrs Horváthová is a teacher.",
+    "t": "Пані Горватова — вчителька."
+  },
+  "u2-pisanie.listen-studujem-a-pracujem.en": {
+    "en": "I study and work.",
+    "t": "Я вчуся й працюю."
+  },
+  "u2-pisanie.listen-lucia-nepracuje-studuje.en": {
+    "en": "Lucia doesn't work, she studies.",
+    "t": "Луція не працює, вона вчиться."
+  },
+  "u2-pisanie.listen-pat-sest-sedem.en": {
+    "en": "five, six, seven",
+    "t": "п'ять, шість, сім"
+  },
+  "u2-pisanie.listen-tomas-ma-tridsat.en": {
+    "en": "Tomáš is thirty.",
+    "t": "Томашеві тридцять років."
+  },
+  "u2-pisanie.listen-cislo-je-nula.en": {
+    "en": "The number is 0905.",
+    "t": "Номер — 0905."
+  },
+  "u2-pisanie.listen-odkial-ste-som.en": {
+    "en": "Where are you from? I'm from Italy.",
+    "t": "Звідки ви? Я з Італії."
+  },
+  "u2-pisanie.listen-lucia-ma-devatnast.en": {
+    "en": "Lucia is nineteen.",
+    "t": "Луції дев'ятнадцять років."
+  },
   "u2-l7.titleEn": {
     "en": "Review",
     "t": "Повторення"
-  },
-  "u2-l7.listen-odkial-ste-som.en": {
-    "en": "Where are you from? I'm from Italy.",
-    "t": "Звідки ви? Я з Італії."
   },
   "u2-l7.fill-marek-je-zo.en": {
     "en": "Marek is from Slovakia.",
@@ -1811,10 +1819,6 @@
   "u2-l7.fill-vy-studujete-alebo.why": {
     "en": "With **vy**, the verb ends in **-te**, just like pracujete: študuje**te**. Študuješ is ty, študujú is oni.",
     "t": "З **vy** дієслово закінчується на **-te**, як і pracujete: študuje**te**. Študuješ — ty, študujú — oni."
-  },
-  "u2-l7.listen-lucia-ma-devatnast.en": {
-    "en": "Lucia is nineteen.",
-    "t": "Луції дев'ятнадцять років."
   },
   "u2-l7.choice-styridsat.question": {
     "en": "How do you say 40?",

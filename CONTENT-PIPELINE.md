@@ -114,8 +114,11 @@ English only as a pointer to the point being made.
 
 ## 6. Spelling cards
 
-Before a word turns up in a typed sentence ("Type what you hear"), the learner
-types it once on its own, on a spelling card. A script places the cards:
+Before a word turns up in a typed sentence ("Type what you hear") in a standard
+lesson, the learner types it once on its own, on a spelling card. Sentences in a
+writing lesson don't get cards: its memorize rounds practise the unit's spelling
+instead, so only the few dictations left in standard lessons do. A script places
+the cards:
 
 ```bash
 npm run plan:spelling
@@ -358,6 +361,9 @@ These follow from the content; there's nothing to run.
   phrase unpunctuated ("byt", "jedálny lístok").
 - **Spelling cards in lessons** and **picture positions**: inserted and shifted
   as the course loads, from `spelling.json` and `illustrations.json`.
+- **Memorize words** (writing lessons): each lesson's pool is the intro cards of up
+  to three words since the previous writing lesson, and the rounds that pool fills
+  stay (four words each). The words are dealt afresh each time the lesson starts.
 - **Word-order tiles** show in lowercase, so the capital doesn't give the first
   word away; names keep theirs ([tile-case.ts](src/lib/course/tile-case.ts)). A
   name the course only ever writes at the start of a sentence needs adding to

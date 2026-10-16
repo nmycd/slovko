@@ -53,6 +53,8 @@ export function speakableTexts(ex: Exercise): string[] {
         return ex.promptLang === "sk" ? [ex.prompt] : [ex.answers[0], ...tileWords(ex)];
       case "match":
         return ex.pairs.map((p) => p.sk);
+      case "memorize":
+        return (ex.words ?? []).map((w) => w.sk);
       case "fill":
         return [fillSentence(ex.before, ex.options[ex.answer], ex.after)];
       case "grammar":

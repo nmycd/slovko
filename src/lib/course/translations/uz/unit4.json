@@ -309,10 +309,6 @@
     "en": "**oproti** = opposite, across the street.",
     "t": "**oproti** = roʻparada, koʻchaning narigi tomonida."
   },
-  "u4-l2.listen-kino-je-vlavo.en": {
-    "en": "The cinema is on the left, the theatre is on the right.",
-    "t": "Kinoteatr chapda, teatr oʻngda."
-  },
   "u4-l2.build-prepacte-kde-je.prompt": {
     "en": "Excuse me, where's the museum?",
     "t": "Kechirasiz, muzey qayerda?"
@@ -523,10 +519,6 @@
     "en": "You know **starý** for things; it works for people too: mlad**á** študentka, star**ý** dôchodca.",
     "t": "**starý** sizga narsalar haqida tanish (eski). U odamlar haqida ham ishlatiladi (keksa): mlad**á** študentka, star**ý** dôchodca."
   },
-  "u4-l3.listen-marek-je-mlady.en": {
-    "en": "Marek is a young cook.",
-    "t": "Marek — yosh oshpaz."
-  },
   "u4-l3.build-ona-je-novinarka.prompt": {
     "en": "She is a journalist.",
     "t": "U (ayol) jurnalist."
@@ -571,10 +563,6 @@
       "oshpaz",
       "ofitsiant"
     ]
-  },
-  "u4-l3.listen-lucia-nie-je.en": {
-    "en": "Lucia isn't a waitress, she's a student.",
-    "t": "Lusiya ofitsiant emas, u talaba."
   },
   "u4-l3.speak-co-robite.en": {
     "en": "What do you do? (formal)",
@@ -709,10 +697,6 @@
       "Koʻplikda joy va narsalar haqidagi sifatlar **-é** bilan tugaydi: pekn**é**. Pekný erkak jinsidagi bitta ot bilan keladi.",
       "Maydonlar bittadan koʻp, -ie bilan tugaydigan oʻrta jins otlari esa koʻplikda **-ia** oladi: námesti**a** (oʻzbekchadagi -lar oʻrnida). Námestie — bitta maydon."
     ]
-  },
-  "u4-l4.listen-tie-rieky-su.en": {
-    "en": "Those rivers are long.",
-    "t": "Oʻsha daryolar uzun."
   },
   "u4-l4.build-kina-a-divadla.answers": {
     "en": [
@@ -871,10 +855,6 @@
       "Tomash va Marek — erkaklar, shuning uchun **-i** bilan erkaklar koʻpligi keladi: novinár**i**. Novinárky — ayollar uchun.",
       "Tomash va Marek — ikki kishi, oni, shuning uchun byť — **sú**: nie sú. Je bitta kishi uchun."
     ]
-  },
-  "u4-l4.listen-dochodcovia-nepracuju.en": {
-    "en": "Pensioners don't work.",
-    "t": "Nafaqaxoʻrlar ishlamaydi."
   },
   "u4-l4.fill-lucia-a-tomas.en": {
     "en": "Lucia and Tomáš are Slovaks.",
@@ -1112,10 +1092,6 @@
       "Rodičia — koʻplik, oni (ular), shuning uchun byť — **sú**. Je bitta kishi uchun."
     ]
   },
-  "u4-rodina.listen-moja-sestra-je.en": {
-    "en": "My sister is cheerful and kind.",
-    "t": "Singlim quvnoq va mehribon."
-  },
   "u4-rodina.fill-to-su-moje.en": {
     "en": "These are my sisters.",
     "t": "Bular mening opa-singillarim."
@@ -1270,10 +1246,6 @@
       "Toʻrtta koʻprik bittadan koʻp, shuning uchun «bor» oʻrnida **sú** keladi, xuddi Tu sú dva hotely kabi. Je bitta narsa uchun."
     ]
   },
-  "u4-l5.listen-mesto-ma-tri.en": {
-    "en": "The town has three churches.",
-    "t": "Shaharda uchta cherkov bor."
-  },
   "u4-l5.grammar-counting-men-dvaja.title": {
     "en": "Counting men: dvaja, traja, štyria",
     "t": "Erkaklarni sanash: dvaja, traja, štyria"
@@ -1402,10 +1374,6 @@
       "toʻrtta",
       "muzey"
     ]
-  },
-  "u4-l5.listen-dvaja-kuchari-a.en": {
-    "en": "Two cooks and four waiters.",
-    "t": "Ikki oshpaz va toʻrt ofitsiant."
   },
   "u4-l5.speak-bratislava-ma-dva.en": {
     "en": "Bratislava has two castles.",
@@ -1607,10 +1575,6 @@
       "Yevro — narsa, shuning uchun «uch» — **tri**: tri eurá. Traja faqat erkaklarni sanash uchun."
     ]
   },
-  "u4-l6.listen-tomas-stoji-vzadu.en": {
-    "en": "Tomáš is standing at the back.",
-    "t": "Tomash orqada turibdi."
-  },
   "u4-l6.fill-my-stojime-tu.en": {
     "en": "We're standing here.",
     "t": "Biz bu yerda turibmiz."
@@ -1771,13 +1735,61 @@
       "Hodinky doim koʻplikda, shuning uchun u bilan keladigan soʻzlar ham koʻplikda boʻladi: **moje**. Moja ayol jinsidagi bitta narsa uchun."
     ]
   },
-  "u4-l6.listen-vianoce-su-tu.en": {
-    "en": "Christmas is here!",
-    "t": "Rojdestvo keldi!"
-  },
   "u4-l6.speak-kolko-to-stoji.en": {
     "en": "How much is it?",
     "t": "Bu qancha turadi?"
+  },
+  "u4-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Yozma mashq"
+  },
+  "u4-pisanie.listen-kino-je-vlavo.en": {
+    "en": "The cinema is on the left, the theatre is on the right.",
+    "t": "Kinoteatr chapda, teatr oʻngda."
+  },
+  "u4-pisanie.listen-marek-je-mlady.en": {
+    "en": "Marek is a young cook.",
+    "t": "Marek — yosh oshpaz."
+  },
+  "u4-pisanie.listen-lucia-nie-je.en": {
+    "en": "Lucia isn't a waitress, she's a student.",
+    "t": "Lusiya ofitsiant emas, u talaba."
+  },
+  "u4-pisanie.listen-tie-rieky-su.en": {
+    "en": "Those rivers are long.",
+    "t": "Oʻsha daryolar uzun."
+  },
+  "u4-pisanie.listen-dochodcovia-nepracuju.en": {
+    "en": "Pensioners don't work.",
+    "t": "Nafaqaxoʻrlar ishlamaydi."
+  },
+  "u4-pisanie.listen-moja-sestra-je.en": {
+    "en": "My sister is cheerful and kind.",
+    "t": "Singlim quvnoq va mehribon."
+  },
+  "u4-pisanie.listen-mesto-ma-tri.en": {
+    "en": "The town has three churches.",
+    "t": "Shaharda uchta cherkov bor."
+  },
+  "u4-pisanie.listen-dvaja-kuchari-a.en": {
+    "en": "Two cooks and four waiters.",
+    "t": "Ikki oshpaz va toʻrt ofitsiant."
+  },
+  "u4-pisanie.listen-tomas-stoji-vzadu.en": {
+    "en": "Tomáš is standing at the back.",
+    "t": "Tomash orqada turibdi."
+  },
+  "u4-pisanie.listen-vianoce-su-tu.en": {
+    "en": "Christmas is here!",
+    "t": "Rojdestvo keldi!"
+  },
+  "u4-pisanie.listen-pani-horvathova-je.en": {
+    "en": "Mrs Horváthová is a teacher.",
+    "t": "Horvatova xonim — oʻqituvchi."
+  },
+  "u4-pisanie.listen-ti-kuchari-su.en": {
+    "en": "Those cooks are from Slovakia.",
+    "t": "Oʻsha oshpazlar Slovakiyadan."
   },
   "u4-l7.titleEn": {
     "en": "Review",
@@ -1836,10 +1848,6 @@
       "Marek — erkak, shuning uchun qoʻshimchasiz **kuchár**. -ka bilan kuchárka esa ayol uchun.",
       "Lusiya — ayol, shuning uchun kasb nomiga **-ka** qoʻshiladi: študent**ka**. Študent erkak uchun."
     ]
-  },
-  "u4-l7.listen-pani-horvathova-je.en": {
-    "en": "Mrs Horváthová is a teacher.",
-    "t": "Horvatova xonim — oʻqituvchi."
   },
   "u4-l7.fill-tie-kaviarne-su.en": {
     "en": "Those cafés are expensive.",
@@ -1910,10 +1918,6 @@
       "besh",
       "turibdi"
     ]
-  },
-  "u4-l7.listen-ti-kuchari-su.en": {
-    "en": "Those cooks are from Slovakia.",
-    "t": "Oʻsha oshpazlar Slovakiyadan."
   },
   "u4-l7.choice-nohavice.question": {
     "en": "Which word is always plural?",

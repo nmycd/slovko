@@ -179,10 +179,6 @@
       "«Добрий вечір» — це Dobrý **večer**, привітання при зустрічі. Dobrú noc — «на добраніч», лише перед сном, не привітання."
     ]
   },
-  "u1-l1.listen-dobru-noc-lucia.en": {
-    "en": "Good night, Lucia.",
-    "t": "На добраніч, Луціє."
-  },
   "u1-l1.speak-dobry-den.en": {
     "en": "Hello.",
     "t": "Добрий день."
@@ -316,10 +312,6 @@
   "u1-l2.choice-na-zdravie.question": {
     "en": "Tomáš sneezes. What do you say?",
     "t": "Томаш чхнув. Що ви скажете?"
-  },
-  "u1-l2.listen-nic-sa-nestalo.en": {
-    "en": "That's OK.",
-    "t": "Нічого страшного."
   },
   "u1-l2.build-nie-dakujem.answers": {
     "en": [
@@ -488,10 +480,6 @@
       "звати",
       "вас"
     ]
-  },
-  "u1-l3.listen-ako-sa-volas.en": {
-    "en": "What's your name?",
-    "t": "Як тебе звати?"
   },
   "u1-l3.build-ahoj-ako-sa.prompt": {
     "en": "Hi! How are you?",
@@ -791,10 +779,6 @@
       "Привіт усім!"
     ]
   },
-  "u1-l4.listen-dobry-den-ako.en": {
-    "en": "Hello, how are you?",
-    "t": "Добрий день, як у вас справи?"
-  },
   "u1-l4.speak-ako-sa-volate.en": {
     "en": "What's your name? (polite)",
     "t": "Як вас звати?"
@@ -1077,10 +1061,6 @@
     "en": "The hook (mäkčeň) on n makes it soft, like “ny” in “canyon”: de**ň**. Noc and ráno have a plain n.",
     "t": "Гачок (mäkčeň) над n пом'якшує його: de**ň** закінчується на нь, як наше «день». У noc і ráno звичайне n."
   },
-  "u1-l5.listen-dakujem-dobru-noc.en": {
-    "en": "Thank you, good night.",
-    "t": "Дякую, на добраніч."
-  },
   "u1-l5.grammar-o-ia-ie.title": {
     "en": "ä, ô and ia, ie, iu",
     "t": "ä, ô та ia, ie, iu"
@@ -1153,10 +1133,6 @@
       "ранок"
     ]
   },
-  "u1-l5.listen-na-zdravie.en": {
-    "en": "Cheers!",
-    "t": "За здоров'я!"
-  },
   "u1-l5.build-mam-sa-dobre.prompt": {
     "en": "I'm fine, thank you.",
     "t": "У мене все добре, дякую."
@@ -1174,6 +1150,46 @@
   "u1-l5.speak-dobru-chut.en": {
     "en": "Enjoy your meal!",
     "t": "Смачного!"
+  },
+  "u1-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Письмова практика"
+  },
+  "u1-pisanie.listen-dobru-noc-lucia.en": {
+    "en": "Good night, Lucia.",
+    "t": "На добраніч, Луціє."
+  },
+  "u1-pisanie.listen-nic-sa-nestalo.en": {
+    "en": "That's OK.",
+    "t": "Нічого страшного."
+  },
+  "u1-pisanie.listen-ako-sa-volas.en": {
+    "en": "What's your name?",
+    "t": "Як тебе звати?"
+  },
+  "u1-pisanie.listen-dobry-den-ako.en": {
+    "en": "Hello, how are you?",
+    "t": "Добрий день, як у вас справи?"
+  },
+  "u1-pisanie.listen-dakujem-dobru-noc.en": {
+    "en": "Thank you, good night.",
+    "t": "Дякую, на добраніч."
+  },
+  "u1-pisanie.listen-na-zdravie.en": {
+    "en": "Cheers!",
+    "t": "За здоров'я!"
+  },
+  "u1-pisanie.listen-mam-sa-vyborne.en": {
+    "en": "I'm great, and you?",
+    "t": "У мене все чудово, а у вас?"
+  },
+  "u1-pisanie.listen-dovidenia-pani-horvathova.en": {
+    "en": "Goodbye, Mrs Horváthová.",
+    "t": "До побачення, пані Горватова."
+  },
+  "u1-pisanie.listen-tesi-ma-aj.en": {
+    "en": "Nice to meet you. — Nice to meet you, too.",
+    "t": "Приємно познайомитися. — Мені теж."
   },
   "u1-l6.titleEn": {
     "en": "Review",
@@ -1200,10 +1216,6 @@
       "Ahoj і одна подруга, Луція, — отже, на **ty**, і дієслово закінчується на **-š**: má**š**. Máte — для vy.",
       "«Як справи?» — це Ako sa **máš**?, як «як ся маєш?». Ako sa voláš? питає ім'я."
     ]
-  },
-  "u1-l6.listen-mam-sa-vyborne.en": {
-    "en": "I'm great, and you?",
-    "t": "У мене все чудово, а у вас?"
   },
   "u1-l6.fill-dobru-noc-emma.en": {
     "en": "Good night, Emma! — You too, Lucia.",
@@ -1293,10 +1305,6 @@
       "«Нічого страшного» — це Nič sa **nestalo**, дослівно «нічого не сталося». Páči — зі звороту Nech sa páči, «прошу, тримайте»."
     ]
   },
-  "u1-l6.listen-dovidenia-pani-horvathova.en": {
-    "en": "Goodbye, Mrs Horváthová.",
-    "t": "До побачення, пані Горватова."
-  },
   "u1-l6.choice-ahojte.question": {
     "en": "Which one means “Hi, everyone!”?",
     "t": "Що з цього означає «Привіт усім!»?"
@@ -1322,10 +1330,6 @@
   "u1-l6.fill-hovorite-po-slovensky.en": {
     "en": "Do you speak Slovak? — Yes, a little.",
     "t": "Ви розмовляєте словацькою? — Так, трохи."
-  },
-  "u1-l6.listen-tesi-ma-aj.en": {
-    "en": "Nice to meet you. — Nice to meet you, too.",
-    "t": "Приємно познайомитися. — Мені теж."
   },
   "u1-l6.speak-mam-sa-dobre.en": {
     "en": "I'm fine, thank you.",

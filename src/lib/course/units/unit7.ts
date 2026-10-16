@@ -321,7 +321,6 @@ export const unit7: Unit = {
           answer: 0,
           why: "Three quarters of the way to nine is **trištvrte** na deväť. Štvrť na deväť is 8:15, and pol deviatej is 8:30.",
         },
-        { id: "listen-prednaska-je-o", type: "listen", sk: "Prednáška je o pol deviatej.", en: "The lecture is at half past eight." },
         {
           id: "build-kolko-je-hodin",
           type: "build",
@@ -445,7 +444,6 @@ export const unit7: Unit = {
           en: "I'm studying.",
           note: "**učiť sa** = to study, to learn: učím sa, učíš sa, učí sa… Don't drop the **sa**: učiť alone means to teach (like učiteľ, teacher).",
         },
-        { id: "listen-poobede-sa-ucim", type: "listen", sk: "Poobede sa učím v knižnici.", en: "In the afternoon I study in the library." },
         {
           id: "fill-emma-ranajkuje-o",
           type: "fill",
@@ -624,7 +622,6 @@ export const unit7: Unit = {
           why: "With **my** (we), stihnúť ends in **-eme**: stihn**eme**. Stihnem goes with ja, stihnú with oni.",
           ref: "u7-l4#grammar-more-verbs-like",
         },
-        { id: "listen-emma-sedi-v", type: "listen", sk: "Emma sedí v knižnici.", en: "Emma is sitting in the library." },
         {
           id: "build-sedim-v-kniznici",
           type: "build",
@@ -768,7 +765,6 @@ export const unit7: Unit = {
           why: "Emma is a woman, so the past tense ends in **-la**: robil**a**. Robil is for a man, robili for more people or formal vy.",
           ref: "u7-l5#grammar-past-tense-l",
         },
-        { id: "listen-lucia-a-emma", type: "listen", sk: "Lucia a Emma raňajkovali o ôsmej.", en: "Lucia and Emma had breakfast at eight." },
         {
           id: "grammar-irregular-past-forms",
           type: "grammar",
@@ -923,7 +919,6 @@ export const unit7: Unit = {
             { wrong: "si", right: "som", why: "With ja (I), the past tense adds **som**, in second place: dnes **som** neraňajkoval. Si goes with ty (you)." },
           ],
         },
-        { id: "listen-prepacte-zaspala-som", type: "listen", sk: "Prepáčte, zaspala som.", en: "Sorry, I overslept." },
         {
           id: "grammar-este-uz",
           type: "grammar",
@@ -1030,6 +1025,28 @@ export const unit7: Unit = {
         { id: "speak-uz-je-osem", type: "speak", sk: "Už je osem hodín!", en: "It's already eight!" },
       ],
     },
+    // Written practice: memorize rounds (four words at a time, dealt from the cards
+    // since the previous writing lesson), then most of the unit's dictations.
+    {
+      id: "u7-pisanie",
+      title: "Píšeme",
+      titleEn: "Written practice",
+      kind: "writing",
+      exercises: [
+        { id: "memorize-1", type: "memorize" },
+        { id: "memorize-2", type: "memorize" },
+        { id: "listen-prednaska-je-o", type: "listen", sk: "Prednáška je o pol deviatej.", en: "The lecture is at half past eight." },
+        { id: "memorize-3", type: "memorize" },
+        { id: "memorize-4", type: "memorize" },
+        { id: "memorize-5", type: "memorize" },
+        { id: "listen-poobede-sa-ucim", type: "listen", sk: "Poobede sa učím v knižnici.", en: "In the afternoon I study in the library." },
+        { id: "listen-emma-sedi-v", type: "listen", sk: "Emma sedí v knižnici.", en: "Emma is sitting in the library." },
+        { id: "listen-lucia-a-emma", type: "listen", sk: "Lucia a Emma raňajkovali o ôsmej.", en: "Lucia and Emma had breakfast at eight." },
+        { id: "listen-prepacte-zaspala-som", type: "listen", sk: "Prepáčte, zaspala som.", en: "Sorry, I overslept." },
+        { id: "listen-prednaska-je-o-2", type: "listen", sk: "Prednáška je o pol desiatej.", en: "The lecture is at half past nine." },
+        { id: "listen-vcera-som-nebola", type: "listen", sk: "Včera som nebola na seminári.", en: "I wasn't at the seminar yesterday." },
+      ],
+    },
     {
       id: "u7-l7",
       title: "Opakovanie",
@@ -1047,7 +1064,6 @@ export const unit7: Unit = {
             { sk: "Je päť hodín.", en: "It's 5:00." },
           ],
         },
-        { id: "listen-prednaska-je-o", type: "listen", sk: "Prednáška je o pol desiatej.", en: "The lecture is at half past nine." },
         {
           id: "build-zaspala-som",
           type: "build",
@@ -1147,7 +1163,6 @@ export const unit7: Unit = {
           why: "Formal **vy** always takes **-li** in the past, even for one person like pán Kováč: **videli** ste. Vidieť also changes ie to e.",
           ref: "u7-l5#grammar-i-you-add",
         },
-        { id: "listen-vcera-som-nebola", type: "listen", sk: "Včera som nebola na seminári.", en: "I wasn't at the seminar yesterday." },
         {
           id: "build-isiel-si-na",
           type: "build",

@@ -54,6 +54,9 @@ function exerciseFields(ex: Exercise): Record<string, Field> {
         : { answers: ex.answers, distractors: ex.distractors };
     case "match":
       return { pairs: ex.pairs.map((p) => p.en) };
+    case "memorize":
+      // Its words are the intro cards', already translated there.
+      return {};
     case "grammar":
       return {
         title: ex.title,
@@ -137,6 +140,8 @@ function localizeExercise(ex: Exercise, tr: <T extends Field>(field: string, fal
         ...(ex.traps?.length ? { traps: ex.traps.map((trap, i) => ({ ...trap, why: traps[i] ?? trap.why })) } : {}),
       };
     }
+    case "memorize":
+      return ex;
     case "match": {
       const en = tr("pairs", ex.pairs.map((p) => p.en));
       return { ...ex, pairs: ex.pairs.map((p, i) => ({ ...p, en: en[i] ?? p.en })) };

@@ -309,10 +309,6 @@
     "en": "**oproti** = opposite, across the street.",
     "t": "**oproti** = напротив, через дорогу."
   },
-  "u4-l2.listen-kino-je-vlavo.en": {
-    "en": "The cinema is on the left, the theatre is on the right.",
-    "t": "Кинотеатр слева, театр справа."
-  },
   "u4-l2.build-prepacte-kde-je.prompt": {
     "en": "Excuse me, where's the museum?",
     "t": "Извините, где музей?"
@@ -523,10 +519,6 @@
     "en": "You know **starý** for things; it works for people too: mlad**á** študentka, star**ý** dôchodca.",
     "t": "Как и в русском, **starý** — и о вещах, и о людях: mlad**á** študentka, star**ý** dôchodca."
   },
-  "u4-l3.listen-marek-je-mlady.en": {
-    "en": "Marek is a young cook.",
-    "t": "Марек — молодой повар."
-  },
   "u4-l3.build-ona-je-novinarka.prompt": {
     "en": "She is a journalist.",
     "t": "Она журналистка."
@@ -572,10 +564,6 @@
       "повар",
       "официант"
     ]
-  },
-  "u4-l3.listen-lucia-nie-je.en": {
-    "en": "Lucia isn't a waitress, she's a student.",
-    "t": "Луция не официантка, она студентка."
   },
   "u4-l3.speak-co-robite.en": {
     "en": "What do you do? (formal)",
@@ -710,10 +698,6 @@
       "Во множественном числе прилагательные к местам и вещам оканчиваются на **-é**: pekn**é**. Pekný — для одного существительного мужского рода.",
       "Площадей несколько, а средний род на -ie во множественном числе получает **-ia**: námesti**a**, как «здание → здания». Námestie — одна площадь."
     ]
-  },
-  "u4-l4.listen-tie-rieky-su.en": {
-    "en": "Those rivers are long.",
-    "t": "Те реки длинные."
   },
   "u4-l4.build-kina-a-divadla.answers": {
     "en": [
@@ -872,10 +856,6 @@
       "Томаш и Марек — мужчины, поэтому мужское множественное число на **-i**: novinár**i**. Novinárky — для женщин.",
       "Томаш и Марек — двое, oni, поэтому byť — **sú**: nie sú. Je — для одного человека."
     ]
-  },
-  "u4-l4.listen-dochodcovia-nepracuju.en": {
-    "en": "Pensioners don't work.",
-    "t": "Пенсионеры не работают."
   },
   "u4-l4.fill-lucia-a-tomas.en": {
     "en": "Lucia and Tomáš are Slovaks.",
@@ -1113,10 +1093,6 @@
       "Rodičia — множественное число, oni, поэтому byť — **sú**. Je — для одного человека."
     ]
   },
-  "u4-rodina.listen-moja-sestra-je.en": {
-    "en": "My sister is cheerful and kind.",
-    "t": "Моя сестра весёлая и милая."
-  },
   "u4-rodina.fill-to-su-moje.en": {
     "en": "These are my sisters.",
     "t": "Это мои сёстры."
@@ -1271,10 +1247,6 @@
       "Четыре моста — это больше одного, поэтому **sú**, как в Tu sú dva hotely. Je — для одной вещи."
     ]
   },
-  "u4-l5.listen-mesto-ma-tri.en": {
-    "en": "The town has three churches.",
-    "t": "В городе три церкви."
-  },
   "u4-l5.grammar-counting-men-dvaja.title": {
     "en": "Counting men: dvaja, traja, štyria",
     "t": "Считаем мужчин: dvaja, traja, štyria"
@@ -1403,10 +1375,6 @@
       "четыре",
       "музеи"
     ]
-  },
-  "u4-l5.listen-dvaja-kuchari-a.en": {
-    "en": "Two cooks and four waiters.",
-    "t": "Двое поваров и четверо официантов."
   },
   "u4-l5.speak-bratislava-ma-dva.en": {
     "en": "Bratislava has two castles.",
@@ -1608,10 +1576,6 @@
       "Евро — вещи, поэтому «три» — **tri**: tri eurá. Traja (ср. «трое») — только для мужчин."
     ]
   },
-  "u4-l6.listen-tomas-stoji-vzadu.en": {
-    "en": "Tomáš is standing at the back.",
-    "t": "Томаш стоит сзади."
-  },
   "u4-l6.fill-my-stojime-tu.en": {
     "en": "We're standing here.",
     "t": "Мы стоим тут."
@@ -1772,13 +1736,61 @@
       "Всё, что относится к hodinky, стоит во множественном числе: **moje** (мои). Moja — для одной вещи женского рода."
     ]
   },
-  "u4-l6.listen-vianoce-su-tu.en": {
-    "en": "Christmas is here!",
-    "t": "Вот и Рождество!"
-  },
   "u4-l6.speak-kolko-to-stoji.en": {
     "en": "How much is it?",
     "t": "Сколько это стоит?"
+  },
+  "u4-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Письменная практика"
+  },
+  "u4-pisanie.listen-kino-je-vlavo.en": {
+    "en": "The cinema is on the left, the theatre is on the right.",
+    "t": "Кинотеатр слева, театр справа."
+  },
+  "u4-pisanie.listen-marek-je-mlady.en": {
+    "en": "Marek is a young cook.",
+    "t": "Марек — молодой повар."
+  },
+  "u4-pisanie.listen-lucia-nie-je.en": {
+    "en": "Lucia isn't a waitress, she's a student.",
+    "t": "Луция не официантка, она студентка."
+  },
+  "u4-pisanie.listen-tie-rieky-su.en": {
+    "en": "Those rivers are long.",
+    "t": "Те реки длинные."
+  },
+  "u4-pisanie.listen-dochodcovia-nepracuju.en": {
+    "en": "Pensioners don't work.",
+    "t": "Пенсионеры не работают."
+  },
+  "u4-pisanie.listen-moja-sestra-je.en": {
+    "en": "My sister is cheerful and kind.",
+    "t": "Моя сестра весёлая и милая."
+  },
+  "u4-pisanie.listen-mesto-ma-tri.en": {
+    "en": "The town has three churches.",
+    "t": "В городе три церкви."
+  },
+  "u4-pisanie.listen-dvaja-kuchari-a.en": {
+    "en": "Two cooks and four waiters.",
+    "t": "Двое поваров и четверо официантов."
+  },
+  "u4-pisanie.listen-tomas-stoji-vzadu.en": {
+    "en": "Tomáš is standing at the back.",
+    "t": "Томаш стоит сзади."
+  },
+  "u4-pisanie.listen-vianoce-su-tu.en": {
+    "en": "Christmas is here!",
+    "t": "Вот и Рождество!"
+  },
+  "u4-pisanie.listen-pani-horvathova-je.en": {
+    "en": "Mrs Horváthová is a teacher.",
+    "t": "Госпожа Горватова — учительница."
+  },
+  "u4-pisanie.listen-ti-kuchari-su.en": {
+    "en": "Those cooks are from Slovakia.",
+    "t": "Те повара из Словакии."
   },
   "u4-l7.titleEn": {
     "en": "Review",
@@ -1837,10 +1849,6 @@
       "Марек — мужчина, поэтому **kuchár** (повар), без окончания. Kuchárka с -ka — для женщины.",
       "Луция — женщина, поэтому **-ka**: študent**ka**, как «студентка». Študent — для мужчины."
     ]
-  },
-  "u4-l7.listen-pani-horvathova-je.en": {
-    "en": "Mrs Horváthová is a teacher.",
-    "t": "Госпожа Горватова — учительница."
   },
   "u4-l7.fill-tie-kaviarne-su.en": {
     "en": "Those cafés are expensive.",
@@ -1911,10 +1919,6 @@
       "пять",
       "стоит"
     ]
-  },
-  "u4-l7.listen-ti-kuchari-su.en": {
-    "en": "Those cooks are from Slovakia.",
-    "t": "Те повара из Словакии."
   },
   "u4-l7.choice-nohavice.question": {
     "en": "Which word is always plural?",

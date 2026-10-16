@@ -252,10 +252,6 @@
       "ცივა."
     ]
   },
-  "u10-l2.listen-dnes-je-oblacno.en": {
-    "en": "Today it's cloudy and raining.",
-    "t": "დღეს მოღრუბლულია და წვიმს."
-  },
   "u10-l2.build-v-kosiciach-je.answers": {
     "en": [
       "It's sunny in Košice.",
@@ -597,10 +593,6 @@
       "**O** („შესახებ“) lokál-ს მოითხოვს, ამიტომ Bratislava -a-ს **-e**-თი ცვლის: o **Bratislave**.",
       "ქართულ „ბრატისლავაზე“-ს აქ შეესაბამება **o**: článok **o** Bratislave. V Bratislave ნიშნავდა „ბრატისლავაში“."
     ]
-  },
-  "u10-l3.listen-emma-byva-s.en": {
-    "en": "Emma lives in the dorm with Lucia.",
-    "t": "ემა ლუციასთან ერთად საერთო საცხოვრებელში ცხოვრობს."
   },
   "u10-l3.build-tento-darcek-je.prompt": {
     "en": "This gift is for Marek.",
@@ -945,10 +937,6 @@
       "მას (ქალს) უნდოდა"
     ]
   },
-  "u10-l4.listen-uz-si-cital.en": {
-    "en": "Have you read the paper yet?",
-    "t": "უკვე წაიკითხე გაზეთი?"
-  },
   "u10-l4.fill-uz-si-jedol.en": {
     "en": "Have you eaten yet? — No, not yet.",
     "t": "უკვე ჭამე? — არა, ჯერ არა."
@@ -1227,10 +1215,6 @@
       "budeme-ს შემდეგ ინფინიტივი მოდის, -ť ფორმა: budeme **študovať**. Študujeme აწმყოა (ვსწავლობთ)."
     ]
   },
-  "u10-budem.listen-cez-vikend-bude.en": {
-    "en": "Marek will be cooking at the weekend.",
-    "t": "შაბათ-კვირას მარეკი საჭმელს მოამზადებს."
-  },
   "u10-budem.build-zajtra-nebudem-v.answers": {
     "en": [
       "Tomorrow I won't be at school, I'll be working.",
@@ -1300,10 +1284,6 @@
       "Kaviareň მდედრობითია, თუმცა თანხმოვანზე ბოლოვდება, ამიტომ ზედსართავი **-á**-ზე ბოლოვდება: **nová** kaviareň. Nový მამრობითი სიტყვებისთვისაა.",
       "ქართულ „ქუჩაზე“-ს აქ შეესაბამება **na** + lokál, c-ს შემდეგ კი დაბოლოებაა **-i**: na Hlavnej **ulici**. Ulica ძირითადი ფორმაა."
     ]
-  },
-  "u10-l5.listen-v-sobotu-bolo.en": {
-    "en": "The weather was nice on Saturday.",
-    "t": "შაბათს კარგი ამინდი იყო."
   },
   "u10-l5.match-pondelok.pairs": {
     "en": [
@@ -1387,10 +1367,6 @@
     "en": "Pani Horváthová is ona (she), so the verb has no ending: **číta**. Čítam goes with ja, čítajú with oni.",
     "t": "ქალბატონი ჰორვატოვა = ona (ის), ამიტომ ზმნას დაბოლოება არ აქვს: **číta**. Čítam ja-სთან დგას, čítajú — oni-სთან."
   },
-  "u10-l5.listen-dnes-je-slnecno.en": {
-    "en": "Today it's sunny and warm.",
-    "t": "დღეს მზიანი და თბილი ამინდია."
-  },
   "u10-l5.build-pan-kovac-nikdy.prompt": {
     "en": "Mr Kováč never reads magazines.",
     "t": "ბატონი კოვაჩი ჟურნალებს არასდროს კითხულობს."
@@ -1429,6 +1405,42 @@
   "u10-l5.speak-to-je-zaujimavy.en": {
     "en": "That's an interesting article.",
     "t": "ეს საინტერესო სტატიაა."
+  },
+  "u10-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "წერითი ვარჯიში"
+  },
+  "u10-pisanie.listen-dnes-je-oblacno.en": {
+    "en": "Today it's cloudy and raining.",
+    "t": "დღეს მოღრუბლულია და წვიმს."
+  },
+  "u10-pisanie.listen-emma-byva-s.en": {
+    "en": "Emma lives in the dorm with Lucia.",
+    "t": "ემა ლუციასთან ერთად საერთო საცხოვრებელში ცხოვრობს."
+  },
+  "u10-pisanie.listen-uz-si-cital.en": {
+    "en": "Have you read the paper yet?",
+    "t": "უკვე წაიკითხე გაზეთი?"
+  },
+  "u10-pisanie.listen-cez-vikend-bude.en": {
+    "en": "Marek will be cooking at the weekend.",
+    "t": "შაბათ-კვირას მარეკი საჭმელს მოამზადებს."
+  },
+  "u10-pisanie.listen-v-sobotu-bolo.en": {
+    "en": "The weather was nice on Saturday.",
+    "t": "შაბათს კარგი ამინდი იყო."
+  },
+  "u10-pisanie.listen-dnes-je-slnecno.en": {
+    "en": "Today it's sunny and warm.",
+    "t": "დღეს მზიანი და თბილი ამინდია."
+  },
+  "u10-pisanie.listen-dnes-musim-ist.en": {
+    "en": "Today I have to go to the university.",
+    "t": "დღეს უნივერსიტეტში უნდა წავიდე."
+  },
+  "u10-pisanie.listen-vcera-sme-nikde.en": {
+    "en": "We didn't go anywhere yesterday.",
+    "t": "გუშინ არსად წავსულვართ."
   },
   "u10-l6.titleEn": {
     "en": "The big review",
@@ -1479,10 +1491,6 @@
       "Kamarátka მდედრობითია, ამიტომ „ორი“ არის **dve**: dve kamarátky. Dva მამრობითი სიტყვებისთვისაა.",
       "ქართულისგან განსხვავებით („ორი მეგობარი“), dve-ს შემდეგ მრავლობითია, ქალების მრავლობითი ზედსართავი კი **-é**-ზე ბოლოვდება: **slovenské**. Slovenská ერთი ქალისთვისაა."
     ]
-  },
-  "u10-l6.listen-dnes-musim-ist.en": {
-    "en": "Today I have to go to the university.",
-    "t": "დღეს უნივერსიტეტში უნდა წავიდე."
   },
   "u10-l6.match-musim.pairs": {
     "en": [
@@ -1573,10 +1581,6 @@
   "u10-l6.fill-lucia-mozem-ist.why": {
     "en": "After **s** (with), ty becomes **tebou**: s **tebou**. Teba goes with pre (pre teba), tebe with o (o tebe).",
     "t": "**s**-ის („-თან ერთად“) შემდეგ ty ხდება **tebou**: s **tebou** (შენთან ერთად). Teba pre-სთან დგას (pre teba), tebe — o-სთან (o tebe)."
-  },
-  "u10-l6.listen-vcera-sme-nikde.en": {
-    "en": "We didn't go anywhere yesterday.",
-    "t": "გუშინ არსად წავსულვართ."
   },
   "u10-l6.speak-uz-hovorim-po.en": {
     "en": "I can speak Slovak now!",

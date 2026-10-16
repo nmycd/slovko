@@ -353,10 +353,6 @@
       "«Ми» — це **my**, тож dať бере закінчення **-me**: **dáme** si, як «дамо». Dám — форма для ja."
     ]
   },
-  "u6-l2.listen-caj-je-horuci.en": {
-    "en": "The tea is hot.",
-    "t": "Чай гарячий."
-  },
   "u6-l2.build-chuti-ti-polievka.answers": {
     "en": [
       "Do you like the soup?"
@@ -534,10 +530,6 @@
   "u6-l3.fill-lucia-hovori-s.why": {
     "en": "After **s**, masculine nouns add **-om**, names too: Tomáš**om**. Tomáša is the object form, as in Hľadám Tomáša.",
     "t": "Після **s** чоловічий рід, зокрема й імена, додає **-om**: Tomáš**om**, як «з Томашем». Tomáša — знахідний відмінок: Hľadám Tomáša."
-  },
-  "u6-l3.listen-tomas-je-s.en": {
-    "en": "Tomáš is with Marek.",
-    "t": "Томаш із Мареком."
   },
   "u6-l3.grammar-adjectives-after-s.title": {
     "en": "Adjectives after s",
@@ -898,10 +890,6 @@
       "«Ми» — це **my**, тож ísť у формі **ideme**. Ísť тут означає «їхати»: ideme taxíkom. Idem — для ja."
     ]
   },
-  "u6-l4.listen-idem-domov-peso.en": {
-    "en": "I'm walking home.",
-    "t": "Я йду додому пішки."
-  },
   "u6-l4.cestujem-s-kamaratmi.en": {
     "en": "I travel with friends.",
     "t": "Я подорожую з друзями."
@@ -1139,10 +1127,6 @@
       "Rodičov — знахідний (Pozývam rodičov, «запрошую батьків»). Після s (з) — орудний: rodič**mi**."
     ]
   },
-  "u6-mnozne.listen-tomas-hra-futbal.en": {
-    "en": "Tomáš plays football with his friends.",
-    "t": "Томаш грає у футбол із друзями."
-  },
   "u6-mnozne.build-lucia-rada-hovori.answers": {
     "en": [
       "Lucia likes talking to people.",
@@ -1318,10 +1302,6 @@
       "Томаш — один друг, тож на **ty**: ísť у формі **ideš**, як «ідеш». Idete — для vy."
     ]
   },
-  "u6-l5.listen-chces-ist-so.en": {
-    "en": "Do you want to go with me?",
-    "t": "Хочеш піти зі мною?"
-  },
   "u6-l5.grammar-where-pred-za.title": {
     "en": "Where? pred, za, nad, pod, medzi",
     "t": "Де? pred, za, nad, pod, medzi"
@@ -1477,10 +1457,6 @@
   "u6-l5.fill-emma-stoji-za.why": {
     "en": "**Za** (behind) takes the instrumental when it says where, and ty becomes **tebou**, as in s tebou. Teba is the form after pre: pre teba.",
     "t": "**Za** (за), коли означає «де», вимагає орудного, і ty стає **tebou**, як «за тобою» чи s tebou. Teba — форма після pre: pre teba."
-  },
-  "u6-l5.listen-marek-caka-za.en": {
-    "en": "Marek is waiting behind the restaurant.",
-    "t": "Марек чекає за рестораном."
   },
   "u6-l5.build-pan-kovac-stoji.answers": {
     "en": [
@@ -1801,10 +1777,6 @@
     "en": "Tomáš says “Pozvem ťa na večeru.” What's a natural reply?",
     "t": "Томаш каже: «Pozvem ťa na večeru.» Що доречно відповісти?"
   },
-  "u6-l6.listen-co-jes-tomas.en": {
-    "en": "What are you eating, Tomáš?",
-    "t": "Що ти їси, Томашу?"
-  },
   "u6-l6.fill-ja-jem-rybu.en": {
     "en": "I'm eating fish and Lucia is eating chicken.",
     "t": "Я їм рибу, а Луція їсть курятину."
@@ -1869,13 +1841,53 @@
     "en": "After **chcieť**, the next verb is an infinitive, the -ť form: chcem sa **stať**. Stanem already means “I'll become”.",
     "t": "Після **chcieť** друге дієслово стоїть в інфінітиві, на -ť: chcem sa **stať**, як «хочу стати». Stanem уже означає «я стану»."
   },
-  "u6-l6.listen-pozvem-ta-na.en": {
-    "en": "I'll buy you a coffee.",
-    "t": "Запрошу тебе на каву."
-  },
   "u6-l6.speak-pozvem-ta-na.en": {
     "en": "I'll invite you to dinner.",
     "t": "Я запрошу тебе на вечерю."
+  },
+  "u6-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Письмова практика"
+  },
+  "u6-pisanie.listen-caj-je-horuci.en": {
+    "en": "The tea is hot.",
+    "t": "Чай гарячий."
+  },
+  "u6-pisanie.listen-tomas-je-s.en": {
+    "en": "Tomáš is with Marek.",
+    "t": "Томаш із Мареком."
+  },
+  "u6-pisanie.listen-idem-domov-peso.en": {
+    "en": "I'm walking home.",
+    "t": "Я йду додому пішки."
+  },
+  "u6-pisanie.listen-tomas-hra-futbal.en": {
+    "en": "Tomáš plays football with his friends.",
+    "t": "Томаш грає у футбол із друзями."
+  },
+  "u6-pisanie.listen-chces-ist-so.en": {
+    "en": "Do you want to go with me?",
+    "t": "Хочеш піти зі мною?"
+  },
+  "u6-pisanie.listen-marek-caka-za.en": {
+    "en": "Marek is waiting behind the restaurant.",
+    "t": "Марек чекає за рестораном."
+  },
+  "u6-pisanie.listen-co-jes-tomas.en": {
+    "en": "What are you eating, Tomáš?",
+    "t": "Що ти їси, Томашу?"
+  },
+  "u6-pisanie.listen-pozvem-ta-na.en": {
+    "en": "I'll buy you a coffee.",
+    "t": "Запрошу тебе на каву."
+  },
+  "u6-pisanie.listen-chuti-ti-ryba.en": {
+    "en": "Do you like the fish?",
+    "t": "Тобі смакує риба?"
+  },
+  "u6-pisanie.listen-tomas-pije-pivo.en": {
+    "en": "Tomáš is drinking beer with Marek.",
+    "t": "Томаш п'є пиво з Мареком."
   },
   "u6-l7.titleEn": {
     "en": "Review",
@@ -1934,10 +1946,6 @@
       "із сиром",
       "з рисом"
     ]
-  },
-  "u6-l7.listen-chuti-ti-ryba.en": {
-    "en": "Do you like the fish?",
-    "t": "Тобі смакує риба?"
   },
   "u6-l7.fill-marek-stoji-za.en": {
     "en": "Marek is standing behind Tomáš.",
@@ -2019,10 +2027,6 @@
   "u6-l7.fill-lucia-ja-ta.why": {
     "en": "With **ja**, pozvať ends in **-em**: pozv**em** (I'll invite). Pozve goes with on or ona, pozveme with my (we).",
     "t": "З **ja** pozvať закінчується на **-em**: pozv**em**, «запрошу». Pozve — з on чи ona, pozveme — з my (ми)."
-  },
-  "u6-l7.listen-tomas-pije-pivo.en": {
-    "en": "Tomáš is drinking beer with Marek.",
-    "t": "Томаш п'є пиво з Мареком."
   },
   "u6-l7.build-lucia-sa-chce.prompt": {
     "en": "Lucia wants to become a teacher.",

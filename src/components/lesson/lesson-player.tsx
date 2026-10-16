@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { Fragment, useEffect, useRef, useState } from "react";
+import { Fragment, useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { useApp } from "@/components/app-provider";
 import { BoltIcon, CheckIcon, CloseIcon, CrownIcon, StarIcon } from "@/components/icons";
@@ -16,6 +16,7 @@ import {
   ListenView,
   MarkedSentence,
   MatchView,
+  MemorizeView,
   SpeakView,
   SpellView,
   type Answer,
@@ -23,7 +24,7 @@ import {
 } from "@/components/lesson/exercises";
 import { RichText } from "@/components/lesson/rich-text";
 import { VolumeSlider } from "@/components/lesson/volume-slider";
-import { checkBuiltAnswer, checkSpelled, checkTyped, shuffle, toTiles } from "@/lib/answers";
+import { checkBuiltAnswer, checkMemorized, checkSpelled, checkTyped, shuffle, toTiles } from "@/lib/answers";
 import { playSlovak, preloadLesson, stopSlovak, type Clip } from "@/lib/audio";
 import { fillSentence, speakableTexts, tileWords } from "@/lib/course/helpers";
 import type { Illustration } from "@/lib/course/illustrations";
@@ -33,7 +34,7 @@ import { setDictionaryQuery } from "@/lib/dictionary-store";
 import { taughtItemIds } from "@/lib/review/items";
 import { markSeen } from "@/lib/review/store";
 import { unlockAllLessons } from "@/lib/env";
-import type { Locale } from "@/lib/i18n";
+import type { Locale, MessageKey } from "@/lib/i18n";
 
 /** A queued exercise: its index in the lesson (so a language switch updates the text). */
 type Item = { index: number; key: string; retry: boolean };
@@ -55,7 +56,7 @@ function grade(ex: Exercise, answer: Answer, tiles: string[]): Resolution {
         rule: ex.rule,
       };
     case "build": {
-      const words = Array.isArray(answer) ? answer.map((i) => tiles[i]) : [];
+      const words = Array.isArray(answer) ? (answer as number[]).map((i) => tiles[i]) : [];
       const { whys, ...result } = checkBuiltAnswer(words, ex.answers, ex.traps);
       return { ...result, why: whys.length ? whys.join(" ") : undefined };
     }
@@ -66,6 +67,12 @@ function grade(ex: Exercise, answer: Answer, tiles: string[]): Resolution {
       };
     case "spell":
       return { ...checkSpelled(typeof answer === "string" ? answer : "", ex.sk), solution: ex.sk };
+    case "memorize": {
+      const words = (ex.words ?? []).map((w) => w.sk);
+      const marks = checkMemorized(words, Array.isArray(answer) ? (answer as string[]) : []);
+      const right = marks.filter((m) => m === "exact").length;
+      return { correct: right === words.length, score: Math.round((right / Math.max(words.length, 1)) * 100) };
+    }
     default:
       return { correct: true };
   }
@@ -81,6 +88,22 @@ function lessonClips(lesson: Lesson): Clip[] {
       ...tiles.map((text) => ({ text, in: key })),
     ];
   });
+}
+
+/**
+ * A writing lesson with its memorize rounds' words: four each, taken in turn from the
+ * pool in the order `deal` shuffled it to.
+ */
+function dealWords(lesson: Lesson, deal: number[]): Lesson {
+  const pool = lesson.wordPool;
+  if (!pool?.length) return lesson;
+  let next = 0;
+  return {
+    ...lesson,
+    exercises: lesson.exercises.map((ex) =>
+      ex.type === "memorize" ? { ...ex, words: deal.slice(next, (next += 4)).map((i) => pool[i]) } : ex,
+    ),
+  };
 }
 
 /** The Slovak text to read aloud after an answer is checked, if any. */
@@ -184,7 +207,10 @@ function Player({
 }: PlayerProps & { card: string | null; step: string | null }) {
   const router = useRouter();
   const { isPremium, dev, completeLesson, t, locale, progress } = useApp();
-  const lesson = lessons[locale];
+  // Writing practice: the memorize rounds' words are dealt afresh each time the lesson
+  // starts (the same pool in every language, so a language switch keeps the deal).
+  const [deal] = useState(() => shuffle((lessons.en.wordPool ?? []).map((_, i) => i)));
+  const lesson = useMemo(() => dealWords(lessons[locale], deal), [lessons, locale, deal]);
   const lessonId = lesson.id;
 
   const [queue, setQueue] = useState<Item[]>(() =>
@@ -444,6 +470,14 @@ export function Step({
   const isIntro = ex.type === "intro" || ex.type === "grammar";
   const selfGraded = ex.type === "match" || ex.type === "speak";
   const locked = result !== null || review;
+  // Memorize rounds start with studying the words; "I'm ready" hides them and shows the
+  // boxes, and Check needs every box filled.
+  const memorize = ex.type === "memorize";
+  const [studied, setStudied] = useState(Boolean(initial?.result));
+  const typed = Array.isArray(answer) ? (answer as string[]) : [];
+  const ready = memorize
+    ? studied && typed.length === (ex.words?.length ?? 0) && typed.every((w) => w.trim())
+    : hasAnswer(answer);
 
   const resolve = (r: Resolution) => {
     if (review) return;
@@ -451,7 +485,7 @@ export function Step({
     onGraded(r, answer, tiles);
   };
   const check = () => {
-    if (!result && hasAnswer(answer)) resolve(grade(ex, answer, tiles));
+    if (!result && ready) resolve(grade(ex, answer, tiles));
   };
   // Dev mode: answer again. The answer stays, to be changed; matching and speaking
   // keep their own state, so they start over.
@@ -466,6 +500,7 @@ export function Step({
     const onKey = (e: KeyboardEvent) => {
       if (e.key !== "Enter") return;
       if (result || isIntro || review) onNext();
+      else if (memorize && !studied) setStudied(true);
       else if (!selfGraded) check();
     };
     window.addEventListener("keydown", onKey);
@@ -525,6 +560,9 @@ export function Step({
           {ex.type === "spell" && (
             <SpellView exercise={ex} answer={answer} setAnswer={setAnswer} locked={locked} />
           )}
+          {ex.type === "memorize" && (
+            <MemorizeView exercise={ex} answer={answer} setAnswer={setAnswer} locked={locked} studied={studied} />
+          )}
           {ex.type === "match" && <MatchView key={attempt} exercise={ex} onResolve={resolve} locked={locked} />}
           {ex.type === "speak" && <SpeakView key={attempt} exercise={ex} onResolve={resolve} locked={locked} />}
         </div>
@@ -533,11 +571,12 @@ export function Step({
       <Footer
         frame={frame}
         result={result}
-        canCheck={hasAnswer(answer)}
+        canCheck={(memorize && !studied) || ready}
         mode={isIntro || review ? "continue" : selfGraded ? "self" : "check"}
+        checkLabel={memorize && !studied ? "ex.memorize.ready" : undefined}
         nextLabel={nextLabel}
         nav={nav}
-        onCheck={check}
+        onCheck={memorize && !studied ? () => setStudied(true) : check}
         onNext={onNext}
         onAnswerAgain={dev && !review ? answerAgain : undefined}
         onSkip={skip?.onSkip ?? (ex.type === "speak" && !review ? onNext : undefined)}
@@ -552,6 +591,7 @@ function Footer({
   result,
   canCheck,
   mode,
+  checkLabel,
   nextLabel,
   nav,
   onCheck,
@@ -564,6 +604,8 @@ function Footer({
   result: Resolution | null;
   canCheck: boolean;
   mode: "check" | "continue" | "self";
+  /** The Check button's text, when it does something else first ("I'm ready"). */
+  checkLabel?: MessageKey;
   nextLabel?: string;
   nav: React.ReactNode;
   onCheck: () => void;
@@ -597,7 +639,13 @@ function Footer({
                 {ok ? <CheckIcon size={30} /> : <CloseIcon size={30} />}
               </span>
               <div className={ok ? "text-ok-dark" : "text-bad-dark"}>
-                <p className="text-2xl font-semibold">{ok ? word : t("lesson.correctSolution")}</p>
+                <p className="text-2xl font-semibold">
+                  {ok
+                    ? word
+                    : result.score !== undefined
+                      ? t("ex.memorize.score", { score: result.score })
+                      : t("lesson.correctSolution")}
+                </p>
                 {result.words ? (
                   <MarkedSentence words={result.words} />
                 ) : (
@@ -663,7 +711,7 @@ function Footer({
             </button>
           ) : mode === "check" ? (
             <button type="button" onClick={onCheck} disabled={!canCheck} className="btn btn-ok ml-auto sm:min-w-40">
-              {t("lesson.check")}
+              {t(checkLabel ?? "lesson.check")}
             </button>
           ) : null}
         </div>

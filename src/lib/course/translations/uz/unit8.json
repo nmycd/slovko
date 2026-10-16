@@ -579,10 +579,6 @@
     "en": "How do you say “in summer”?",
     "t": "«Yozda» qanday aytiladi?"
   },
-  "u8-l2.listen-v-decembri-su.en": {
-    "en": "Christmas is in December.",
-    "t": "Rojdestvo dekabrda boʻladi."
-  },
   "u8-l2.build-v-zime-som.answers": {
     "en": [
       "In winter I'm at home in Ireland.",
@@ -935,10 +931,6 @@
     "en": "Emma is a woman, so the past tense ends in **-a**: narodil**a** som sa. The date needs its date forms too: **tretieho mája**, not tretí máj.",
     "t": "Emma — ayol, shuning uchun oʻtgan zamon **-a** bilan tugaydi: narodil**a** som sa. Sana ham oʻz shakllarida keladi: **tretieho mája**, tretí máj emas."
   },
-  "u8-l3.listen-narodila-som-sa.en": {
-    "en": "I was born on the second of June.",
-    "t": "Ikkinchi iyunda tugʻilganman."
-  },
   "u8-l3.match-prveho-januara.pairs": {
     "en": [
       "1 January",
@@ -1203,10 +1195,6 @@
       "Bahor **na** bilan keladi: na jar, na jeseň kabi. V esa yoz va qish uchun: v lete, v zime.",
       "Imtihonlar bittadan koʻp, shuning uchun koʻplik keladi: skúšk**y**. Skúšku — bitta imtihon."
     ]
-  },
-  "u8-rok.listen-lucia-ma-narodeniny.en": {
-    "en": "Lucia's birthday is in summer.",
-    "t": "Lusiyaning tugʻilgan kuni yozda."
   },
   "u8-rok.fill-vianoce-su-v.en": {
     "en": "Christmas is in winter.",
@@ -1493,10 +1481,6 @@
   "u8-l4.fill-marek-doma-nikdy.why": {
     "en": "Never is **nikdy**, and like nikto and nič it takes a negative verb: nikdy nevarí = never cooks. Vždy is always, často often.",
     "t": "«Hech qachon» — **nikdy**, va nikto, nič kabi u inkor feʼl bilan keladi: nikdy nevarí = hech qachon pishirmaydi. Vždy — «doim», často — «tez-tez»."
-  },
-  "u8-l4.listen-na-porade-nikto.en": {
-    "en": "Nobody said anything at the meeting.",
-    "t": "Yigʻilishda hech kim hech narsa demadi."
   },
   "u8-l4.build-nikdy-nemam-cas.prompt": {
     "en": "I never have time.",
@@ -1826,10 +1810,6 @@
   "u8-l5.fill-lucia-je-v.why": {
     "en": "After k, g, h, ch the locative ending is **-u**, not -e: park → park**u**, like vo vlaku. Parky means parks.",
     "t": "k, g, h, ch dan keyin lokál qoʻshimchasi -e emas, **-u**: park → park**u** (parkda), xuddi vo vlaku kabi. Parky esa «parklar» degani."
-  },
-  "u8-l5.listen-tomas-je-vo.en": {
-    "en": "Tomáš is on the train.",
-    "t": "Tomash poyezdda."
   },
   "u8-l5.grammar-adjectives-locative.title": {
     "en": "Adjectives in the locative",
@@ -2179,10 +2159,6 @@
       "**O** (haqida) lokál talab qiladi, shuning uchun firma **-e** bilan tugaydi: o firm**e**. Firmu — toʻldiruvchi shakli."
     ]
   },
-  "u8-l6.listen-povedzte-mi-nieco.en": {
-    "en": "Tell me something about yourself.",
-    "t": "Oʻzingiz haqingizda biror narsa aytib bering."
-  },
   "u8-l6.fill-pani-horvathova-hovorili.en": {
     "en": "Mrs Horváthová? We were talking about her.",
     "t": "Horvatova xonimmi? Biz u haqida gaplashayotgan edik."
@@ -2441,13 +2417,49 @@
       "arzon"
     ]
   },
-  "u8-mnozne.listen-tomas-rad-cita.en": {
-    "en": "Tomáš likes reading about computers.",
-    "t": "Tomash kompyuterlar haqida oʻqishni yoqtiradi."
-  },
   "u8-mnozne.speak-byvame-na-internatoch.en": {
     "en": "We live in dormitories.",
     "t": "Biz yotoqxonalarda yashaymiz."
+  },
+  "u8-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Yozma mashq"
+  },
+  "u8-pisanie.listen-v-decembri-su.en": {
+    "en": "Christmas is in December.",
+    "t": "Rojdestvo dekabrda boʻladi."
+  },
+  "u8-pisanie.listen-narodila-som-sa.en": {
+    "en": "I was born on the second of June.",
+    "t": "Ikkinchi iyunda tugʻilganman."
+  },
+  "u8-pisanie.listen-lucia-ma-narodeniny.en": {
+    "en": "Lucia's birthday is in summer.",
+    "t": "Lusiyaning tugʻilgan kuni yozda."
+  },
+  "u8-pisanie.listen-na-porade-nikto.en": {
+    "en": "Nobody said anything at the meeting.",
+    "t": "Yigʻilishda hech kim hech narsa demadi."
+  },
+  "u8-pisanie.listen-tomas-je-vo.en": {
+    "en": "Tomáš is on the train.",
+    "t": "Tomash poyezdda."
+  },
+  "u8-pisanie.listen-povedzte-mi-nieco.en": {
+    "en": "Tell me something about yourself.",
+    "t": "Oʻzingiz haqingizda biror narsa aytib bering."
+  },
+  "u8-pisanie.listen-tomas-rad-cita.en": {
+    "en": "Tomáš likes reading about computers.",
+    "t": "Tomash kompyuterlar haqida oʻqishni yoqtiradi."
+  },
+  "u8-pisanie.listen-studujem-na-univerzite.en": {
+    "en": "I study at the university in Bratislava.",
+    "t": "Bratislavadagi universitetda oʻqiyman."
+  },
+  "u8-pisanie.listen-po-porade-nikto.en": {
+    "en": "After the meeting, nobody was in the office.",
+    "t": "Yigʻilishdan keyin ofisda hech kim yoʻq edi."
   },
   "u8-l7.titleEn": {
     "en": "Review: in the company",
@@ -2490,10 +2502,6 @@
       "«Qayerda?» savolida v soʻzidan keyin lokál keladi, erkak jinsidagi joy nomlari odatda **-e** oladi: v Dublin**e** (Dublinda), xuddi v obchode kabi.",
       "Emma — ayol, shuning uchun oʻtgan zamon **-la** bilan tugaydi: narodil**a** sa. Narodil — erkak uchun."
     ]
-  },
-  "u8-l7.listen-studujem-na-univerzite.en": {
-    "en": "I study at the university in Bratislava.",
-    "t": "Bratislavadagi universitetda oʻqiyman."
   },
   "u8-l7.fill-narodila-som-sa.en": {
     "en": "I was born on the sixth of April.",
@@ -2579,10 +2587,6 @@
   "u8-l7.speak-narodila-som-sa.en": {
     "en": "I was born in Ireland.",
     "t": "Irlandiyada tugʻilganman."
-  },
-  "u8-l7.listen-po-porade-nikto.en": {
-    "en": "After the meeting, nobody was in the office.",
-    "t": "Yigʻilishdan keyin ofisda hech kim yoʻq edi."
   },
   "u8-l7.build-pohovor-je-na.answers": {
     "en": [

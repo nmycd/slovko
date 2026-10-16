@@ -179,10 +179,6 @@
       "«Xayrli kech» — Dobrý **večer**, uchrashganda aytiladigan salom. Dobrú noc faqat uxlashdan oldin aytiladi, u salom emas."
     ]
   },
-  "u1-l1.listen-dobru-noc-lucia.en": {
-    "en": "Good night, Lucia.",
-    "t": "Xayrli tun, Lusiya."
-  },
   "u1-l1.speak-dobry-den.en": {
     "en": "Hello.",
     "t": "Assalomu alaykum."
@@ -316,10 +312,6 @@
   "u1-l2.choice-na-zdravie.question": {
     "en": "Tomáš sneezes. What do you say?",
     "t": "Tomash aksirdi. Siz nima deysiz?"
-  },
-  "u1-l2.listen-nic-sa-nestalo.en": {
-    "en": "That's OK.",
-    "t": "Hech qisi yoʻq."
   },
   "u1-l2.build-nie-dakujem.answers": {
     "en": [
@@ -486,10 +478,6 @@
       "siz-chi",
       "Ismim"
     ]
-  },
-  "u1-l3.listen-ako-sa-volas.en": {
-    "en": "What's your name?",
-    "t": "Isming nima?"
   },
   "u1-l3.build-ahoj-ako-sa.prompt": {
     "en": "Hi! How are you?",
@@ -789,10 +777,6 @@
       "Hammaga salom!"
     ]
   },
-  "u1-l4.listen-dobry-den-ako.en": {
-    "en": "Hello, how are you?",
-    "t": "Assalomu alaykum, qalaysiz?"
-  },
   "u1-l4.speak-ako-sa-volate.en": {
     "en": "What's your name? (polite)",
     "t": "Ismingiz nima? (siz)"
@@ -1075,10 +1059,6 @@
     "en": "The hook (mäkčeň) on n makes it soft, like “ny” in “canyon”: de**ň**. Noc and ráno have a plain n.",
     "t": "n ustidagi qalpoqcha (mäkčeň) uni yumshoq qiladi, goʻyo ortidan qisqa «y» kelgandek: de**ň**. Noc va ráno soʻzlarida n oddiy."
   },
-  "u1-l5.listen-dakujem-dobru-noc.en": {
-    "en": "Thank you, good night.",
-    "t": "Rahmat, xayrli tun."
-  },
   "u1-l5.grammar-o-ia-ie.title": {
     "en": "ä, ô and ia, ie, iu",
     "t": "ä, ô va ia, ie, iu"
@@ -1151,10 +1131,6 @@
       "tong"
     ]
   },
-  "u1-l5.listen-na-zdravie.en": {
-    "en": "Cheers!",
-    "t": "Salomatlik uchun!"
-  },
   "u1-l5.build-mam-sa-dobre.prompt": {
     "en": "I'm fine, thank you.",
     "t": "Yaxshiman, rahmat."
@@ -1172,6 +1148,46 @@
   "u1-l5.speak-dobru-chut.en": {
     "en": "Enjoy your meal!",
     "t": "Yoqimli ishtaha!"
+  },
+  "u1-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Yozma mashq"
+  },
+  "u1-pisanie.listen-dobru-noc-lucia.en": {
+    "en": "Good night, Lucia.",
+    "t": "Xayrli tun, Lusiya."
+  },
+  "u1-pisanie.listen-nic-sa-nestalo.en": {
+    "en": "That's OK.",
+    "t": "Hech qisi yoʻq."
+  },
+  "u1-pisanie.listen-ako-sa-volas.en": {
+    "en": "What's your name?",
+    "t": "Isming nima?"
+  },
+  "u1-pisanie.listen-dobry-den-ako.en": {
+    "en": "Hello, how are you?",
+    "t": "Assalomu alaykum, qalaysiz?"
+  },
+  "u1-pisanie.listen-dakujem-dobru-noc.en": {
+    "en": "Thank you, good night.",
+    "t": "Rahmat, xayrli tun."
+  },
+  "u1-pisanie.listen-na-zdravie.en": {
+    "en": "Cheers!",
+    "t": "Salomatlik uchun!"
+  },
+  "u1-pisanie.listen-mam-sa-vyborne.en": {
+    "en": "I'm great, and you?",
+    "t": "Juda yaxshiman, siz-chi?"
+  },
+  "u1-pisanie.listen-dovidenia-pani-horvathova.en": {
+    "en": "Goodbye, Mrs Horváthová.",
+    "t": "Xayr, Horvatova xonim."
+  },
+  "u1-pisanie.listen-tesi-ma-aj.en": {
+    "en": "Nice to meet you. — Nice to meet you, too.",
+    "t": "Tanishganimdan xursandman. — Men ham."
   },
   "u1-l6.titleEn": {
     "en": "Review",
@@ -1198,10 +1214,6 @@
       "Ahoj va bitta doʻst, Lusiya — demak **ty** (sen), shuning uchun feʼl **-š** bilan tugaydi: má**š**. Máte esa vy (siz) uchun.",
       "«Qalaysan?» — Ako sa **máš**? Ako sa voláš? esa ismni soʻraydi."
     ]
-  },
-  "u1-l6.listen-mam-sa-vyborne.en": {
-    "en": "I'm great, and you?",
-    "t": "Juda yaxshiman, siz-chi?"
   },
   "u1-l6.fill-dobru-noc-emma.en": {
     "en": "Good night, Emma! — You too, Lucia.",
@@ -1291,10 +1303,6 @@
       "«Hech qisi yoʻq» — Nič sa **nestalo**, soʻzma-soʻz «hech narsa boʻlmadi». Páči esa Nech sa páči («marhamat») iborasidan."
     ]
   },
-  "u1-l6.listen-dovidenia-pani-horvathova.en": {
-    "en": "Goodbye, Mrs Horváthová.",
-    "t": "Xayr, Horvatova xonim."
-  },
   "u1-l6.choice-ahojte.question": {
     "en": "Which one means “Hi, everyone!”?",
     "t": "Qaysi biri «Hammaga salom!» degani?"
@@ -1320,10 +1328,6 @@
   "u1-l6.fill-hovorite-po-slovensky.en": {
     "en": "Do you speak Slovak? — Yes, a little.",
     "t": "Slovakcha gapirasizmi? — Ha, ozgina."
-  },
-  "u1-l6.listen-tesi-ma-aj.en": {
-    "en": "Nice to meet you. — Nice to meet you, too.",
-    "t": "Tanishganimdan xursandman. — Men ham."
   },
   "u1-l6.speak-mam-sa-dobre.en": {
     "en": "I'm fine, thank you.",

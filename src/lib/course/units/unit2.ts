@@ -278,7 +278,6 @@ export const unit2: Unit = {
           why: "Tomáš and Lucia are two people, **oni** (they), and with oni byť is **sú**. Je is for one person, sme for my (we).",
           ref: "u2-l2#grammar-byt-be",
         },
-        { id: "listen-kto-je-to", type: "listen", sk: "Kto je to? To je Marek.", en: "Who's that? That's Marek." },
         {
           id: "choice-ony",
           type: "choice",
@@ -397,7 +396,6 @@ export const unit2: Unit = {
           why: "Peter is a man, so he takes the masculine form: **Nemec**. Nemka is for a woman, and Nemecko is the country, Germany.",
           ref: "u2-l3#grammar-people-he-she",
         },
-        { id: "listen-pani-horvathova-je", type: "listen", sk: "Pani Horváthová je učiteľka.", en: "Mrs Horváthová is a teacher." },
         {
           id: "grammar-things-have-gender",
           type: "grammar",
@@ -635,7 +633,6 @@ export const unit2: Unit = {
             { wrong: "pracujem", right: "pracuješ", why: "You're asking Tomáš himself, **ty**, so the verb ends in **-š**: pracuje**š**. Pracujem, with -m, is ja (I)." },
           ],
         },
-        { id: "listen-studujem-a-pracujem", type: "listen", sk: "Študujem a pracujem.", en: "I study and work." },
         {
           id: "build-hovorite-po-anglicky",
           type: "build",
@@ -720,7 +717,6 @@ export const unit2: Unit = {
             { wrong: "nie", right: "Nehovoríme", why: "To say “not”, put **ne-** in front of the verb, written as one word: **ne**hovoríme. Only byť takes a separate nie: nie som." },
           ],
         },
-        { id: "listen-lucia-nepracuje-studuje", type: "listen", sk: "Lucia nepracuje, študuje.", en: "Lucia doesn't work, she studies." },
         {
           id: "choice-prepacte-nerozumiem",
           type: "choice",
@@ -865,7 +861,6 @@ export const unit2: Unit = {
           optionsLang: "en",
           answer: 1,
         },
-        { id: "listen-pat-sest-sedem", type: "listen", sk: "päť, šesť, sedem", en: "five, six, seven" },
         {
           id: "jedenast-dvanast-trinast",
           type: "intro",
@@ -937,7 +932,6 @@ export const unit2: Unit = {
           why: "Pán Kováč gets the polite **vy**, so the verb ends in **-te**: má**te**. Máš is for a friend (ty).",
           ref: "u1-l4#grammar-two-ways-say",
         },
-        { id: "listen-tomas-ma-tridsat", type: "listen", sk: "Tomáš má tridsať rokov.", en: "Tomáš is thirty." },
         {
           id: "prvy-druhy-treti",
           type: "intro",
@@ -1035,7 +1029,6 @@ export const unit2: Unit = {
           optionsLang: "en",
           answer: 0,
         },
-        { id: "listen-cislo-je-nula", type: "listen", sk: "Číslo je nula deväť nula päť.", en: "The number is 0905." },
         {
           id: "build-ake-mas-telefonne",
           type: "build",
@@ -1094,13 +1087,36 @@ export const unit2: Unit = {
         { id: "speak-halo-tu-je", type: "speak", sk: "Haló? Tu je Emma.", en: "Hello? It's Emma." },
       ],
     },
+    // Written practice: memorize rounds (four words at a time, dealt from the cards
+    // since the previous writing lesson), then most of the unit's dictations.
+    {
+      id: "u2-pisanie",
+      title: "Píšeme",
+      titleEn: "Written practice",
+      kind: "writing",
+      exercises: [
+        { id: "memorize-1", type: "memorize" },
+        { id: "memorize-2", type: "memorize" },
+        { id: "listen-kto-je-to", type: "listen", sk: "Kto je to? To je Marek.", en: "Who's that? That's Marek." },
+        { id: "memorize-3", type: "memorize" },
+        { id: "memorize-4", type: "memorize" },
+        { id: "memorize-5", type: "memorize" },
+        { id: "listen-pani-horvathova-je", type: "listen", sk: "Pani Horváthová je učiteľka.", en: "Mrs Horváthová is a teacher." },
+        { id: "listen-studujem-a-pracujem", type: "listen", sk: "Študujem a pracujem.", en: "I study and work." },
+        { id: "listen-lucia-nepracuje-studuje", type: "listen", sk: "Lucia nepracuje, študuje.", en: "Lucia doesn't work, she studies." },
+        { id: "listen-pat-sest-sedem", type: "listen", sk: "päť, šesť, sedem", en: "five, six, seven" },
+        { id: "listen-tomas-ma-tridsat", type: "listen", sk: "Tomáš má tridsať rokov.", en: "Tomáš is thirty." },
+        { id: "listen-cislo-je-nula", type: "listen", sk: "Číslo je nula deväť nula päť.", en: "The number is 0905." },
+        { id: "listen-odkial-ste-som", type: "listen", sk: "Odkiaľ ste? Som z Talianska.", en: "Where are you from? I'm from Italy." },
+        { id: "listen-lucia-ma-devatnast", type: "listen", sk: "Lucia má devätnásť rokov.", en: "Lucia is nineteen." },
+      ],
+    },
     {
       id: "u2-l7",
       title: "Opakovanie",
       titleEn: "Review",
       kind: "review",
       exercises: [
-        { id: "listen-odkial-ste-som", type: "listen", sk: "Odkiaľ ste? Som z Talianska.", en: "Where are you from? I'm from Italy." },
         {
           id: "fill-marek-je-zo",
           type: "fill",
@@ -1185,7 +1201,6 @@ export const unit2: Unit = {
           why: "With **vy**, the verb ends in **-te**, just like pracujete: študuje**te**. Študuješ is ty, študujú is oni.",
           ref: "u2-l4#grammar-studovat-rozumiet",
         },
-        { id: "listen-lucia-ma-devatnast", type: "listen", sk: "Lucia má devätnásť rokov.", en: "Lucia is nineteen." },
         {
           id: "choice-styridsat",
           type: "choice",

@@ -46,6 +46,8 @@ function idFor(ex: Exercise): string {
       return named(slug(ex.promptLang === "en" ? ex.answers[0] : ex.prompt, 3));
     case "match":
       return named(slug(ex.pairs[0].sk, 2));
+    case "memorize":
+      return ex.id;
     case "listen":
     case "speak":
     case "spell":

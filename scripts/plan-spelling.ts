@@ -4,7 +4,8 @@
 //
 //   npm run plan:spelling
 //
-// Every word a typed sentence needs gets one card:
+// Every word a typed sentence in a standard lesson needs gets one card (a writing
+// lesson's sentences lean on its memorize rounds instead):
 // - 2–5 cards after the word first appears in writing (a fixed pick per word),
 //   and at least 2 cards before the first sentence that needs it;
 // - a word never shown before its sentence gets a card a few cards before that
@@ -37,6 +38,8 @@ function shownText(ex: Exercise): string[] {
       return ex.promptLang === "sk" ? [ex.prompt] : [...toTiles(ex.answers[0]), ...ex.distractors];
     case "match":
       return ex.pairs.map((p) => p.sk);
+    case "memorize":
+      return [];
     case "fill":
       return [fillSentence(ex.before, ex.options[ex.answer], ex.after), ...ex.options];
     case "grammar":
@@ -57,7 +60,7 @@ function pick(word: string): number {
 // The course as one sequence of authored exercises.
 const slots = course.flatMap((unit) =>
   unit.lessons.flatMap((lesson) =>
-    lesson.exercises.map((ex) => ({ lesson: lesson.id, ex })),
+    lesson.exercises.map((ex) => ({ lesson: lesson.id, writing: lesson.kind === "writing", ex })),
   ),
 );
 const lessonStart = new Map<string, number>();
@@ -80,7 +83,7 @@ const planned = new Set<string>();
 const stats = { cards: 0, shown: 0, neverShown: 0, glossed: 0, gaps: [] as number[] };
 
 slots.forEach((slot, g) => {
-  if (slot.ex.type === "listen") {
+  if (slot.ex.type === "listen" && !slot.writing) {
     const start = lessonStart.get(slot.lesson)!;
     for (const word of sentenceWords(slot.ex.sk)) {
       if (!needsSpelling(word) || planned.has(word)) continue;

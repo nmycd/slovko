@@ -2,319 +2,51 @@
   "u1-l1": [
     {"after":"choice-dobry-den","sk":"pán"},
     {"after":"dobre-rano","sk":"ráno"},
-    {"after":"dobry-vecer","sk":"dobré"},
-    {"after":"fill-dobre-rano-emma","sk":"dobrú"},
-    {"after":"fill-dobru-chut-tomas","sk":"noc"}
-  ],
-  "u1-l2": [
-    {"after":"dakujem","sk":"dobrý"},
-    {"after":"prosim","sk":"deň"},
-    {"after":"choice-nech-sa-paci","sk":"ďakujem","gloss":"u1-l2#dakujem"},
-    {"after":"fill-prepacte-nic-sa","sk":"nestalo"},
-    {"after":"na-zdravie","sk":"nič"}
+    {"after":"dobry-vecer","sk":"dobré"}
   ],
   "u1-l3": [
-    {"after":"ako-sa-mas","sk":"zdravie"},
-    {"after":"mam-sa-dobre","sk":"dovidenia","gloss":"u1-l1#dovidenia"},
     {"after":"mam-sa-zle","sk":"mám"},
-    {"after":"match-mam-sa","sk":"výborne"},
-    {"after":"volam-sa-emma","sk":"voláš"}
-  ],
-  "u1-l4": [
-    {"after":"grammar-two-ways-say","sk":"pani"},
-    {"after":"choice-ako-sa-mate","sk":"máte"},
-    {"after":"fill-ahoj-tomas-ako","sk":"teší"},
-    {"after":"fill-dobry-den-ako","sk":"prosím","gloss":"u1-l2#prosim"},
-    {"after":"build-hovorite-po-slovensky","sk":"prepáčte","gloss":"u1-l2#prepacte"}
-  ],
-  "u1-l5": [
-    {"after":"grammar-letters-hook-makcen","sk":"dobre"},
-    {"after":"choice-nie","sk":"päť"}
-  ],
-  "u2-l3": [
-    {"after":"build-jana-je-ucitelka","sk":"učiteľka"},
-    {"after":"choice-kamaratka","sk":"študentka"},
-    {"after":"choice-dievca","sk":"mesto","gloss":"u4-l1#mesto"},
-    {"after":"fill-peter-on-je","sk":"izba","gloss":"u3-l1#izba"}
-  ],
-  "u2-l4": [
-    {"after":"match-studovat","sk":"študujem"},
-    {"after":"fill-lucia-studuje-a","sk":"študuje"},
-    {"after":"fill-lucia-a-tomas","sk":"pracujem"},
-    {"after":"build-tomas-pracujes-ako","sk":"kuchár"}
-  ],
-  "u2-l5": [
-    {"after":"fill-marek-nehovori-po","sk":"nepracuje"}
-  ],
-  "u2-l6": [
-    {"after":"sest-sedem-osem","sk":"sedem"},
-    {"after":"match-dva","sk":"šesť"},
-    {"after":"jedenast-dvanast-trinast","sk":"deväť"},
-    {"after":"choice-strnast","sk":"tridsať"},
-    {"after":"build-mam-dvadsat-rokov","sk":"rokov"}
-  ],
-  "u2-telefon": [
-    {"after":"halo","sk":"tri"},
-    {"after":"ake-mas-telefonne-cislo","sk":"číslo"},
-    {"after":"choice-nula-devat-styri","sk":"nula"}
-  ],
-  "u2-l7": [
-    {"after":"fill-marek-pracuje-ako","sk":"devätnásť"}
+    {"after":"match-mam-sa","sk":"výborne"}
   ],
   "u3-l1": [
     {"after":"choice-kupelna","sk":"kúpeľňa","gloss":"u3-l1#kupelna"},
-    {"after":"hore-dole","sk":"hore"},
-    {"after":"fill-vratnica-je-dole","sk":"dole"},
-    {"after":"byvam-na-internate","sk":"vrátnica","gloss":"u3-l1#vratnica"},
-    {"after":"speak-kde-je-kupelna","sk":"býva"}
-  ],
-  "u3-l2": [
-    {"after":"velky-maly","sk":"internáte"},
-    {"after":"fill-izba-je-velka","sk":"malá"},
-    {"after":"fill-balkon-je-maly","sk":"pekná"},
-    {"after":"build-aky-je-internat","sk":"stará"}
-  ],
-  "u3-aky-je": [
-    {"after":"match-vesely","sk":"veselá"},
-    {"after":"fill-pani-horvathova-je-mudra","sk":"rýchly"},
-    {"after":"fill-marek-je-mily","sk":"silný"},
-    {"after":"build-emma-je-vesela","sk":"milá"}
-  ],
-  "u3-l3": [
-    {"after":"stol","sk":"posteľ","gloss":"u3-l3#postel"},
-    {"after":"lampa","sk":"skriňa","gloss":"u3-l3#skrina"},
-    {"after":"vlavo-vpravo","sk":"lampa","gloss":"u3-l3#lampa"},
-    {"after":"vlavo-vpravo","sk":"vpravo"},
-    {"after":"choice-skrina-je-vzadu","sk":"vľavo"}
-  ],
-  "u3-l4": [
-    {"after":"grammar-my-your-our","sk":"vzadu"}
-  ],
-  "u3-l5": [
-    {"after":"match-byt","sk":"spálňa","gloss":"u3-l5#spalna"},
-    {"after":"v-strede-je","sk":"obývačka","gloss":"u3-l5#obyvacka"},
-    {"after":"fill-obyvacka-je-velka","sk":"lacný"}
+    {"after":"hore-dole","sk":"hore"}
   ],
   "u4-l1": [
-    {"after":"choice-most-je-novy","sk":"hrad"},
-    {"after":"vysoky","sk":"dlhé"},
-    {"after":"build-hrad-je-stary","sk":"pekné"}
-  ],
-  "u4-l2": [
-    {"after":"muzeum","sk":"divadlo","gloss":"u4-l2#divadlo"},
-    {"after":"match-posta","sk":"kino","gloss":"u4-l2#kino"}
-  ],
-  "u4-l3": [
-    {"after":"dochodca","sk":"čašníčka"},
-    {"after":"mlady-stary","sk":"mladý"}
-  ],
-  "u4-l4": [
-    {"after":"fill-dediny-su-male","sk":"rieky"},
-    {"after":"listen-tie-rieky-su","sk":"kostoly"},
-    {"after":"fill-marek-a-peter","sk":"kuchári"},
-    {"after":"fill-ti-casnici-su","sk":"dôchodcovia"},
-    {"after":"choice-emma-a-lucia","sk":"nepracujú"}
-  ],
-  "u4-rodina": [
-    {"after":"moja-rodina","sk":"čašníci"},
-    {"after":"grammar-my-parents-moji","sk":"sestra"}
-  ],
-  "u4-l5": [
-    {"after":"choice-dve-mesta","sk":"dve"},
-    {"after":"grammar-counting-men-dvaja","sk":"štyria"},
-    {"after":"build-dvaja-casnici-a","sk":"dvaja"},
-    {"after":"build-mesto-ma-dva","sk":"kamarátky"}
-  ],
-  "u4-l6": [
-    {"after":"fill-mobil-stoji-sto","sk":"stojí"},
-    {"after":"match-nohavice","sk":"Vianoce"},
-    {"after":"fill-tie-nohavice-su","sk":"narodeniny"},
-    {"after":"fill-okuliare-stoja-desat","sk":"noviny","gloss":"u10-l1#noviny"}
+    {"after":"choice-most-je-novy","sk":"hrad"}
   ],
   "u5-l1": [
-    {"after":"syr-a-sunka","sk":"chlieb"},
     {"after":"build-potrebujeme-chlieb-a","sk":"potrebujeme"},
     {"after":"vino-pivo-a","sk":"džús"},
-    {"after":"kava-a-mineralka","sk":"víno"},
-    {"after":"build-kupim-vino-a","sk":"čerstvý"}
+    {"after":"kava-a-mineralka","sk":"víno"}
   ],
   "u5-l2": [
-    {"after":"grammar-accusative-object-case","sk":"kúpim"},
-    {"after":"fill-potrebujem-kavu","sk":"kávu"},
-    {"after":"grammar-adjectives-change-too","sk":"oslavu"},
-    {"after":"fill-hladam-cerstvu-sunku","sk":"čerstvú"},
-    {"after":"build-kupim-kavu-a","sk":"šunku"}
-  ],
-  "u5-obchod": [
-    {"after":"obchod","sk":"syr"},
-    {"after":"ovocie-a-zelenina","sk":"máme"},
-    {"after":"jablko-a-banan","sk":"pivo"},
-    {"after":"choice-este-nieco","sk":"jablká"},
-    {"after":"build-mate-cerstvu-zeleninu","sk":"všetko"}
-  ],
-  "u5-l3": [
-    {"after":"cerveny-modry-zeleny","sk":"niečo"},
-    {"after":"tricko-a-sveter","sk":"čierny"},
-    {"after":"chcem-cierne-tricko","sk":"sveter"},
-    {"after":"fill-hladam-ciernu-suknu","sk":"hľadajú"},
-    {"after":"darcek","sk":"darček","gloss":"u5-l3#darcek"}
-  ],
-  "u5-l4": [
-    {"after":"grammar-me-you-him","sk":"rád"},
-    {"after":"choice-cakam-na-teba","sk":"pozývam"}
-  ],
-  "u5-mnozne": [
-    {"after":"fill-kupim-tri-banany","sk":"pozýva"},
-    {"after":"choice-pozyvam-studentov","sk":"kamarátov"}
-  ],
-  "u5-mam-rad": [
-    {"after":"tancovat-a-spievat","sk":"film"},
-    {"after":"grammar-mat-rad-like","sk":"futbal"},
-    {"after":"choice-rada-tancujem","sk":"hrá"},
-    {"after":"build-mas-rad-futbal","sk":"nepáči"}
-  ],
-  "u5-l5": [
-    {"after":"grammar-want-can-must","sk":"ísť"},
-    {"after":"fill-lucia-a-marek","sk":"idem"},
-    {"after":"fill-musim-ist-ahoj","sk":"chceš"},
-    {"after":"build-mozes-kupit-chlieb","sk":"môžem"},
-    {"after":"choice-viem-varit","sk":"variť"}
+    {"after":"grammar-adjectives-change-too","sk":"kávu"}
   ],
   "u5-l6": [
-    {"after":"lucia-ma-dnes","sk":"musím"},
-    {"after":"choice-vsetko-najlepsie","sk":"najlepšie"},
     {"after":"kytica","sk":"dnes"}
   ],
   "u6-l1": [
-    {"after":"ryza","sk":"ryba","gloss":"u6-l1#ryba"},
     {"after":"hranolky","sk":"varí"},
     {"after":"choice-hranolky","sk":"polievku"},
     {"after":"fill-hranolky-su-dobre","sk":"veľmi"}
   ],
-  "u6-l2": [
-    {"after":"horuci","sk":"chutí"},
-    {"after":"sladky","sk":"horúci","gloss":"u6-l2#horuci"},
-    {"after":"slany","sk":"čaj"}
-  ],
-  "u6-l4": [
-    {"after":"grammar-how-you-travel","sk":"domov"},
-    {"after":"peso","sk":"vlaku"},
-    {"after":"match-autobusom","sk":"pešo","gloss":"u6-l4#peso"},
-    {"after":"build-emma-cestuje-s","sk":"kamarátmi"}
-  ],
-  "u6-l5": [
-    {"after":"fill-kaviaren-je-medzi","sk":"reštauráciou"},
-    {"after":"build-macka-je-pod","sk":"univerzitu"},
-    {"after":"fill-lampa-je-nad","sk":"čaká"}
-  ],
-  "u6-l6": [
-    {"after":"fill-co-pijes-emma","sk":"pozvem"},
-    {"after":"fill-lucia-a-emma","sk":"pije"},
-    {"after":"build-pozvem-luciu-na","sk":"ješ"}
-  ],
   "u7-l1": [
     {"after":"choice-idem-na-seminar","sk":"seminár","gloss":"u7-l1#seminar"},
-    {"after":"kniznica","sk":"prednáška","gloss":"u7-l1#prednaska"},
     {"after":"skuska","sk":"prednášku"},
-    {"after":"referat","sk":"knižnici"},
     {"after":"choice-to-sa-stava","sk":"zajtra"}
   ],
   "u7-l2": [
-    {"after":"kolko-je-hodin","sk":"číta"},
-    {"after":"grammar-at-one-at","sk":"desiatej"},
-    {"after":"match-o-osmej","sk":"ôsmej"},
-    {"after":"build-seminar-je-o","sk":"deviatej"},
-    {"after":"choice-je-pol-desiatej","sk":"pol"}
-  ],
-  "u7-l3": [
-    {"after":"fill-najprv-sa-obliekam","sk":"poobede"},
-    {"after":"ucim-sa","sk":"učím"}
-  ],
-  "u7-l4": [
-    {"after":"fill-zajtra-stretnem-tomasa","sk":"sedí"}
-  ],
-  "u7-l5": [
-    {"after":"grammar-i-you-add","sk":"raňajkovali"},
-    {"after":"fill-vcera-lucia-pisala","sk":"čítal"},
-    {"after":"choice-vcera-som-sa","sk":"včera"},
-    {"after":"build-isla-som-na","sk":"stretli"}
-  ],
-  "u7-l6": [
-    {"after":"fill-emma-vcera-nebola","sk":"zaspala"},
-    {"after":"choice-nestihol-som-autobus","sk":"nebola"},
-    {"after":"build-dnes-som-neranajkoval","sk":"nebol"},
-    {"after":"listen-prepacte-zaspala-som","sk":"neboli"}
-  ],
-  "u7-l7": [
-    {"after":"listen-prednaska-je-o","sk":"seminári"}
+    {"after":"match-o-osmej","sk":"desiatej"}
   ],
   "u8-l1": [
-    {"after":"zivotopis","sk":"porade"},
     {"after":"choice-staz","sk":"pohovor","gloss":"u8-l1#pohovor"}
-  ],
-  "u8-l2": [
-    {"after":"cez-vikend","sk":"sobotu"},
-    {"after":"fill-vo-stvrtok-mam","sk":"víkend"},
-    {"after":"match-v-marci","sk":"decembri"},
-    {"after":"choice-v-lete","sk":"lete"}
-  ],
-  "u8-l3": [
-    {"after":"grammar-months-date","sk":"druhého"},
-    {"after":"choice-ktoreho-je-dnes","sk":"júna"},
-    {"after":"grammar-when-were-you","sk":"narodila"}
-  ],
-  "u8-l4": [
-    {"after":"fill-dnes-nic-nerobim","sk":"nikto"},
-    {"after":"choice-nikto-nic-nevie","sk":"nikde"},
-    {"after":"grammar-how-often","sk":"nehovoril"}
-  ],
-  "u8-l5": [
-    {"after":"fill-emma-je-v","sk":"kancelárii"}
-  ],
-  "u8-l6": [
-    {"after":"choice-co-vies-o","sk":"povedzte"}
-  ],
-  "u8-mnozne": [
-    {"after":"choice-na-uliciach","sk":"počítačoch"}
-  ],
-  "u8-l7": [
-    {"after":"fill-pohovor-je-v","sk":"univerzite"}
   ],
   "u9-l1": [
     {"after":"prestavka-na-kavu","sk":"prestávka"}
   ],
-  "u9-l2": [
-    {"after":"build-ucime-sa-slovencinu","sk":"zaregistrovať"}
-  ],
-  "u9-lekar": [
-    {"after":"som-chora","sk":"necítim"},
-    {"after":"mam-horucku","sk":"hlava"}
-  ],
-  "u9-l3": [
-    {"after":"fill-emma-ulozila-subor","sk":"súbor","gloss":"u9-l3#subor"},
-    {"after":"build-musim-vytlacit-prihlasku","sk":"poslal"},
-    {"after":"fill-lucia-poslala-prezentaciu","sk":"e-mailom"}
-  ],
-  "u9-l4": [
-    {"after":"fill-dam-si-kavu","sk":"vrátil"},
-    {"after":"choice-kde-ste-sa","sk":"prestávke"}
-  ],
-  "u9-l5": [
-    {"after":"trvale-bydlisko","sk":"trvalé"},
-    {"after":"trvale-bydlisko","sk":"bydlisko"}
-  ],
   "u10-l1": [
     {"after":"casopis","sk":"titulok","gloss":"u10-l1#titulok"},
     {"after":"choice-clanok-o-kulture","sk":"zaujímavý"}
-  ],
-  "u10-l2": [
-    {"after":"je-oblacno","sk":"počasie","gloss":"u10-l2#pocasie"},
-    {"after":"choice-je-oblacno","sk":"slnečno"},
-    {"after":"prsi","sk":"oblačno"},
-    {"after":"je-teplo-je","sk":"prší","gloss":"u10-l2#prsi"},
-    {"after":"fill-v-bratislave-je","sk":"teplo"}
-  ],
-  "u10-budem": [
-    {"after":"grammar-budem-infinitive","sk":"bude"}
   ]
 }

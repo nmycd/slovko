@@ -317,10 +317,6 @@
       "Прикметник узгоджується з kuchyňa, а вона жіночого роду, тож **-á**: veľk**á**, «велика». Veľké — для середнього роду, як auto."
     ]
   },
-  "u3-l2.listen-izba-je-mala.en": {
-    "en": "The room is small but nice.",
-    "t": "Кімната маленька, але гарна."
-  },
   "u3-l2.grammar-aky-what-it.title": {
     "en": "Aký? What is it like?",
     "t": "Aký? Який?"
@@ -537,10 +533,6 @@
       "Емма — жінка, тож **milá**, «мила». Milé — середній рід, для слів на кшталт auto."
     ]
   },
-  "u3-aky-je.listen-tomas-je-silny.en": {
-    "en": "Tomáš is strong and fast.",
-    "t": "Томаш сильний і швидкий."
-  },
   "u3-aky-je.choice-emma-nie-je-smutna.question": {
     "en": "Which sentence is correct?",
     "t": "Яке речення правильне?"
@@ -648,10 +640,6 @@
   "u3-l3.fill-stol-je-vlavo.en": {
     "en": "The desk is on the left.",
     "t": "Стіл ліворуч."
-  },
-  "u3-l3.listen-lampa-je-vpravo.en": {
-    "en": "The lamp is on the right.",
-    "t": "Лампа праворуч."
   },
   "u3-l3.vpredu-vzadu.en": {
     "en": "at the front – at the back",
@@ -873,10 +861,6 @@
       "Присвійний займенник узгоджується з предметом. Kuchyňa — жіночого роду, тож **naša**. Naše — для середнього роду, як okno."
     ]
   },
-  "u3-l4.listen-jeho-postel-je.en": {
-    "en": "His bed is on the left.",
-    "t": "Його ліжко ліворуч."
-  },
   "u3-l4.grammar-ci-whose.title": {
     "en": "Čí? Whose?",
     "t": "Čí? Чий?"
@@ -1038,10 +1022,6 @@
   "u3-l5.fill-chodba-je-v.en": {
     "en": "The hallway is in the middle.",
     "t": "Коридор посередині."
-  },
-  "u3-l5.listen-spalna-je-vlavo.en": {
-    "en": "The bedroom is on the left and the living room on the right.",
-    "t": "Спальня ліворуч, а вітальня праворуч."
   },
   "u3-l5.drahy-lacny.en": {
     "en": "expensive – cheap",
@@ -1258,10 +1238,6 @@
       "Okno — середнього роду, тож «наше» — **naše**, так само як ktoré. Naša — для жіночого роду."
     ]
   },
-  "u3-l6.listen-ktora-skrina-je.en": {
-    "en": "Which wardrobe is mine?",
-    "t": "Котра шафа моя?"
-  },
   "u3-l6.grammar-whose-tomas-s.title": {
     "en": "Whose? Tomáš's, Lucia's",
     "t": "Чий? Томашів, Луціїн"
@@ -1394,6 +1370,46 @@
     "en": "Which room is yours?",
     "t": "Котра кімната твоя?"
   },
+  "u3-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Письмова практика"
+  },
+  "u3-pisanie.listen-izba-je-mala.en": {
+    "en": "The room is small but nice.",
+    "t": "Кімната маленька, але гарна."
+  },
+  "u3-pisanie.listen-tomas-je-silny.en": {
+    "en": "Tomáš is strong and fast.",
+    "t": "Томаш сильний і швидкий."
+  },
+  "u3-pisanie.listen-lampa-je-vpravo.en": {
+    "en": "The lamp is on the right.",
+    "t": "Лампа праворуч."
+  },
+  "u3-pisanie.listen-jeho-postel-je.en": {
+    "en": "His bed is on the left.",
+    "t": "Його ліжко ліворуч."
+  },
+  "u3-pisanie.listen-spalna-je-vlavo.en": {
+    "en": "The bedroom is on the left and the living room on the right.",
+    "t": "Спальня ліворуч, а вітальня праворуч."
+  },
+  "u3-pisanie.listen-ktora-skrina-je.en": {
+    "en": "Which wardrobe is mine?",
+    "t": "Котра шафа моя?"
+  },
+  "u3-pisanie.listen-vratnica-je-dole.en": {
+    "en": "The front desk is downstairs, on the left.",
+    "t": "Вахта внизу, ліворуч."
+  },
+  "u3-pisanie.listen-ich-byt-je.en": {
+    "en": "Their flat is cheap.",
+    "t": "Їхня квартира дешева."
+  },
+  "u3-pisanie.listen-jeho-postel-je-2.en": {
+    "en": "His bed is old.",
+    "t": "Його ліжко старе."
+  },
   "u3-l7.titleEn": {
     "en": "Review",
     "t": "Повторення"
@@ -1421,10 +1437,6 @@
   "u3-l7.fill-nasa-kuchyna-je.why": {
     "en": "Kuchyňa is feminine, so the adjective takes **-á**: mal**á**, like naša before it.",
     "t": "Kuchyňa — жіночого роду, тож прикметник бере **-á**: mal**á**, як і naša перед іменником."
-  },
-  "u3-l7.listen-vratnica-je-dole.en": {
-    "en": "The front desk is downstairs, on the left.",
-    "t": "Вахта внизу, ліворуч."
   },
   "u3-l7.choice-cia-je-to.question": {
     "en": "What does this mean?",
@@ -1504,10 +1516,6 @@
     "en": "**Aká?** asks what the room is like, so the answer describes it. Tá vľavo answers ktorá (which one), and Moja answers čia (whose).",
     "t": "**Aká?** питає, яка кімната, тож відповідь її описує. Tá vľavo відповідає на ktorá (котра), а Moja — на čia (чия)."
   },
-  "u3-l7.listen-ich-byt-je.en": {
-    "en": "Their flat is cheap.",
-    "t": "Їхня квартира дешева."
-  },
   "u3-l7.build-ktore-okno-je.prompt": {
     "en": "Which window is yours?",
     "t": "Котре вікно твоє?"
@@ -1551,10 +1559,6 @@
       "«Праворуч» — **vpravo**, як наше «вправо». Vľavo — протилежне, «ліворуч».",
       "«Ззаду» — **vzadu**, як і в нас. Vpredu — протилежне, «спереду»."
     ]
-  },
-  "u3-l7.listen-jeho-postel-je.en": {
-    "en": "His bed is old.",
-    "t": "Його ліжко старе."
   },
   "u3-l7.speak-aka-je-tvoja.en": {
     "en": "What's your room like?",

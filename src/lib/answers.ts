@@ -45,6 +45,19 @@ export function checkTyped(
   return results.find((r) => r.correct) ?? results[0];
 }
 
+/**
+ * A memorize round (writing practice), word by word: "exact" letter for letter, accents
+ * included (case and punctuation don't count); "accents" only the accents wrong, which
+ * still misses; otherwise "wrong".
+ */
+export function checkMemorized(words: string[], typed: string[]): ("exact" | "accents" | "wrong")[] {
+  return words.map((word, i) => {
+    const [want, got] = [normalize(word), normalize(typed[i] ?? "")];
+    if (want === got) return "exact";
+    return stripDiacritics(want) === stripDiacritics(got) ? "accents" : "wrong";
+  });
+}
+
 /** "missing": not given (or out of order), for the caller to judge. */
 type Verdict = "exact" | "accents" | "slip" | "name" | "wrong" | "missing";
 

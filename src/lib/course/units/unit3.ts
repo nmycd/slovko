@@ -218,7 +218,6 @@ export const unit3: Unit = {
             { wrong: "veľké", right: "veľká", why: "The adjective matches kuchyňa, a feminine noun, so it ends in **-á**: veľk**á**. Veľké is for neuter nouns like auto." },
           ],
         },
-        { id: "listen-izba-je-mala", type: "listen", sk: "Izba je malá, ale pekná.", en: "The room is small but nice." },
         {
           id: "grammar-aky-what-it",
           type: "grammar",
@@ -397,7 +396,6 @@ export const unit3: Unit = {
             { wrong: "milé", right: "milá", why: "Emma is a woman, so it's **milá**. Milé is the neuter form, for words like auto." },
           ],
         },
-        { id: "listen-tomas-je-silny", type: "listen", sk: "Tomáš je silný a rýchly.", en: "Tomáš is strong and fast." },
         {
           id: "choice-emma-nie-je-smutna",
           type: "choice",
@@ -476,7 +474,6 @@ export const unit3: Unit = {
           answer: 0,
           en: "The desk is on the left.",
         },
-        { id: "listen-lampa-je-vpravo", type: "listen", sk: "Lampa je vpravo.", en: "The lamp is on the right." },
         { id: "vpredu-vzadu", type: "intro", sk: "vpredu – vzadu", en: "at the front – at the back" },
         {
           id: "choice-skrina-je-vzadu",
@@ -620,7 +617,6 @@ export const unit3: Unit = {
             { wrong: "naše", right: "naša", why: "Possessives match the thing owned. Kuchyňa is feminine, so **naša**. Naše goes with neuter nouns like okno." },
           ],
         },
-        { id: "listen-jeho-postel-je", type: "listen", sk: "Jeho posteľ je vľavo.", en: "His bed is on the left." },
         {
           id: "grammar-ci-whose",
           type: "grammar",
@@ -769,12 +765,6 @@ export const unit3: Unit = {
           options: ["v strede", "vpredu", "hore"],
           answer: 0,
           en: "The hallway is in the middle.",
-        },
-        {
-          id: "listen-spalna-je-vlavo",
-          type: "listen",
-          sk: "Spálňa je vľavo a obývačka vpravo.",
-          en: "The bedroom is on the left and the living room on the right.",
         },
         { id: "drahy-lacny", type: "intro", sk: "drahý – lacný", en: "expensive – cheap" },
         {
@@ -925,7 +915,6 @@ export const unit3: Unit = {
             { wrong: "naša", right: "naše", why: "Okno is neuter, so “our” is **naše**, just like ktoré. Naša goes with feminine nouns." },
           ],
         },
-        { id: "listen-ktora-skrina-je", type: "listen", sk: "Ktorá skriňa je moja?", en: "Which wardrobe is mine?" },
         {
           id: "grammar-whose-tomas-s",
           type: "grammar",
@@ -1006,6 +995,35 @@ export const unit3: Unit = {
         { id: "speak-ktora-izba-je", type: "speak", sk: "Ktorá izba je tvoja?", en: "Which room is yours?" },
       ],
     },
+    // Written practice: memorize rounds (four words at a time, dealt from the cards
+    // since the previous writing lesson), then most of the unit's dictations.
+    {
+      id: "u3-pisanie",
+      title: "Píšeme",
+      titleEn: "Written practice",
+      kind: "writing",
+      exercises: [
+        { id: "memorize-1", type: "memorize" },
+        { id: "memorize-2", type: "memorize" },
+        { id: "listen-izba-je-mala", type: "listen", sk: "Izba je malá, ale pekná.", en: "The room is small but nice." },
+        { id: "memorize-3", type: "memorize" },
+        { id: "memorize-4", type: "memorize" },
+        { id: "memorize-5", type: "memorize" },
+        { id: "listen-tomas-je-silny", type: "listen", sk: "Tomáš je silný a rýchly.", en: "Tomáš is strong and fast." },
+        { id: "listen-lampa-je-vpravo", type: "listen", sk: "Lampa je vpravo.", en: "The lamp is on the right." },
+        { id: "listen-jeho-postel-je", type: "listen", sk: "Jeho posteľ je vľavo.", en: "His bed is on the left." },
+        {
+          id: "listen-spalna-je-vlavo",
+          type: "listen",
+          sk: "Spálňa je vľavo a obývačka vpravo.",
+          en: "The bedroom is on the left and the living room on the right.",
+        },
+        { id: "listen-ktora-skrina-je", type: "listen", sk: "Ktorá skriňa je moja?", en: "Which wardrobe is mine?" },
+        { id: "listen-vratnica-je-dole", type: "listen", sk: "Vrátnica je dole, vľavo.", en: "The front desk is downstairs, on the left." },
+        { id: "listen-ich-byt-je", type: "listen", sk: "Ich byt je lacný.", en: "Their flat is cheap." },
+        { id: "listen-jeho-postel-je-2", type: "listen", sk: "Jeho posteľ je stará.", en: "His bed is old." },
+      ],
+    },
     {
       id: "u3-l7",
       title: "Opakovanie",
@@ -1034,7 +1052,6 @@ export const unit3: Unit = {
           why: "Kuchyňa is feminine, so the adjective takes **-á**: mal**á**, like naša before it.",
           ref: "u3-l2#grammar-one-adjective-three",
         },
-        { id: "listen-vratnica-je-dole", type: "listen", sk: "Vrátnica je dole, vľavo.", en: "The front desk is downstairs, on the left." },
         {
           id: "choice-cia-je-to",
           type: "choice",
@@ -1098,7 +1115,6 @@ export const unit3: Unit = {
           why: "**Aká?** asks what the room is like, so the answer describes it. Tá vľavo answers ktorá (which one), and Moja answers čia (whose).",
           ref: "u3-l2#grammar-aky-what-it",
         },
-        { id: "listen-ich-byt-je", type: "listen", sk: "Ich byt je lacný.", en: "Their flat is cheap." },
         {
           id: "build-ktore-okno-je",
           type: "build",
@@ -1150,7 +1166,6 @@ export const unit3: Unit = {
             { wrong: "vpredu", right: "vzadu", why: "At the back is **vzadu**. Vpredu is its opposite, at the front." },
           ],
         },
-        { id: "listen-jeho-postel-je", type: "listen", sk: "Jeho posteľ je stará.", en: "His bed is old." },
         { id: "speak-aka-je-tvoja", type: "speak", sk: "Aká je tvoja izba?", en: "What's your room like?" },
       ],
     },

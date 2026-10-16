@@ -406,10 +406,6 @@
     "en": "Tomáš and Lucia are two people, **oni** (they), and with oni byť is **sú**. Je is for one person, sme for my (we).",
     "t": "Tomash va Lusiya — ikki kishi, **oni** (ular), oni bilan esa byť — **sú**. Je — bitta kishi uchun, sme — my (biz) uchun."
   },
-  "u2-l2.listen-kto-je-to.en": {
-    "en": "Who's that? That's Marek.",
-    "t": "Bu kim? Bu Marek."
-  },
   "u2-l2.choice-ony.question": {
     "en": "Anna and Eva: which word means “they”?",
     "t": "Anna va Eva: qaysi soʻz «ular» degani?"
@@ -598,10 +594,6 @@
   "u2-l3.fill-peter-je-nemec.why": {
     "en": "Peter is a man, so he takes the masculine form: **Nemec**. Nemka is for a woman, and Nemecko is the country, Germany.",
     "t": "Peter — erkak, shuning uchun erkak shakli keladi: **Nemec**. Nemka — ayol uchun, Nemecko esa mamlakat, Germaniya."
-  },
-  "u2-l3.listen-pani-horvathova-je.en": {
-    "en": "Mrs Horváthová is a teacher.",
-    "t": "Horvatova xonim oʻqituvchi."
   },
   "u2-l3.grammar-things-have-gender.title": {
     "en": "Things have a gender too",
@@ -1043,10 +1035,6 @@
       "Siz Tomashning oʻzidan soʻrayapsiz, yaʼni **ty** (sen), shuning uchun feʼl **-š** bilan tugaydi: pracuje**š**. -m bilan pracujem — ja (men) shakli."
     ]
   },
-  "u2-l4.listen-studujem-a-pracujem.en": {
-    "en": "I study and work.",
-    "t": "Oʻqiyman va ishlayman."
-  },
   "u2-l4.build-hovorite-po-anglicky.answers": {
     "en": [
       "Do you speak English?"
@@ -1185,10 +1173,6 @@
       "«Biz» — **my**, shuning uchun feʼl **-me** bilan tugaydi: nehovorí**me**, oʻzbekchadagi -miz kabi. -te bilan nehovoríte — vy shakli.",
       "Inkor uchun feʼl oldiga **ne-** qoʻyiladi va qoʻshib yoziladi: **ne**hovoríme (gapirmaymiz). Alohida nie faqat byť bilan keladi: nie som."
     ]
-  },
-  "u2-l5.listen-lucia-nepracuje-studuje.en": {
-    "en": "Lucia doesn't work, she studies.",
-    "t": "Lusiya ishlamaydi, oʻqiydi."
   },
   "u2-l5.choice-prepacte-nerozumiem.question": {
     "en": "Pán Kováč speaks very fast and you don't understand. What do you say?",
@@ -1432,10 +1416,6 @@
       "6"
     ]
   },
-  "u2-l6.listen-pat-sest-sedem.en": {
-    "en": "five, six, seven",
-    "t": "besh, olti, yetti"
-  },
   "u2-l6.jedenast-dvanast-trinast.en": {
     "en": "eleven, twelve, thirteen",
     "t": "oʻn bir, oʻn ikki, oʻn uch"
@@ -1513,10 +1493,6 @@
   "u2-l6.fill-kolko-mate-rokov.why": {
     "en": "Pán Kováč gets the polite **vy**, so the verb ends in **-te**: má**te**. Máš is for a friend (ty).",
     "t": "Janob Kovachga hurmat bilan **vy** (siz) deyiladi, shuning uchun feʼl **-te** bilan tugaydi: má**te**. Máš — doʻstga (ty)."
-  },
-  "u2-l6.listen-tomas-ma-tridsat.en": {
-    "en": "Tomáš is thirty.",
-    "t": "Tomash oʻttiz yoshda."
   },
   "u2-l6.prvy-druhy-treti.en": {
     "en": "first, second, third",
@@ -1630,10 +1606,6 @@
       "904"
     ]
   },
-  "u2-telefon.listen-cislo-je-nula.en": {
-    "en": "The number is 0905.",
-    "t": "Raqam — 0905."
-  },
   "u2-telefon.build-ake-mas-telefonne.prompt": {
     "en": "What's your phone number? (to a friend)",
     "t": "Telefon raqaming qanday? (sen)"
@@ -1714,13 +1686,49 @@
     "en": "Hello? It's Emma.",
     "t": "Allo? Bu Emma."
   },
+  "u2-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Yozma mashq"
+  },
+  "u2-pisanie.listen-kto-je-to.en": {
+    "en": "Who's that? That's Marek.",
+    "t": "Bu kim? Bu Marek."
+  },
+  "u2-pisanie.listen-pani-horvathova-je.en": {
+    "en": "Mrs Horváthová is a teacher.",
+    "t": "Horvatova xonim oʻqituvchi."
+  },
+  "u2-pisanie.listen-studujem-a-pracujem.en": {
+    "en": "I study and work.",
+    "t": "Oʻqiyman va ishlayman."
+  },
+  "u2-pisanie.listen-lucia-nepracuje-studuje.en": {
+    "en": "Lucia doesn't work, she studies.",
+    "t": "Lusiya ishlamaydi, oʻqiydi."
+  },
+  "u2-pisanie.listen-pat-sest-sedem.en": {
+    "en": "five, six, seven",
+    "t": "besh, olti, yetti"
+  },
+  "u2-pisanie.listen-tomas-ma-tridsat.en": {
+    "en": "Tomáš is thirty.",
+    "t": "Tomash oʻttiz yoshda."
+  },
+  "u2-pisanie.listen-cislo-je-nula.en": {
+    "en": "The number is 0905.",
+    "t": "Raqam — 0905."
+  },
+  "u2-pisanie.listen-odkial-ste-som.en": {
+    "en": "Where are you from? I'm from Italy.",
+    "t": "Qayerdansiz? Italiyadanman."
+  },
+  "u2-pisanie.listen-lucia-ma-devatnast.en": {
+    "en": "Lucia is nineteen.",
+    "t": "Lusiya oʻn toʻqqiz yoshda."
+  },
   "u2-l7.titleEn": {
     "en": "Review",
     "t": "Takrorlash"
-  },
-  "u2-l7.listen-odkial-ste-som.en": {
-    "en": "Where are you from? I'm from Italy.",
-    "t": "Qayerdansiz? Italiyadanman."
   },
   "u2-l7.fill-marek-je-zo.en": {
     "en": "Marek is from Slovakia.",
@@ -1809,10 +1817,6 @@
   "u2-l7.fill-vy-studujete-alebo.why": {
     "en": "With **vy**, the verb ends in **-te**, just like pracujete: študuje**te**. Študuješ is ty, študujú is oni.",
     "t": "**vy** bilan feʼl **-te** bilan tugaydi, xuddi pracujete kabi: študuje**te**. Študuješ — ty, študujú — oni shakli."
-  },
-  "u2-l7.listen-lucia-ma-devatnast.en": {
-    "en": "Lucia is nineteen.",
-    "t": "Lusiya oʻn toʻqqiz yoshda."
   },
   "u2-l7.choice-styridsat.question": {
     "en": "How do you say 40?",

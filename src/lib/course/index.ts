@@ -10,7 +10,7 @@ import { lexicon } from "./lexicon";
 import { addSpelling } from "./spelling";
 import { namesIn, withTileCase } from "./tile-case";
 import { localizeUnit, type Catalog } from "./translatable";
-import type { BuildExercise, Exercise, ExerciseId, Lesson, Unit, UnitOutline } from "./types";
+import type { BuildExercise, Exercise, ExerciseId, Lesson, MemoWord, Unit, UnitOutline } from "./types";
 import { unit1 } from "./units/unit1";
 import { unit2 } from "./units/unit2";
 import { unit3 } from "./units/unit3";
@@ -120,9 +120,35 @@ export const localizedCourse: Record<Locale, Unit[]> = Object.fromEntries(
         exercises: withSpelling.exercises.map((ex) => withRule(withTileCase(ex, names))),
       };
     };
-    return [locale, units.map((unit) => ({ ...unit, lessons: unit.lessons.map(played) }))];
+    return [locale, withWordPools(units.map((unit) => ({ ...unit, lessons: unit.lessons.map(played) })))];
   }),
 ) as Record<Locale, Unit[]>;
+
+/**
+ * Gives each writing lesson its `wordPool`: the words taught on intro cards since the
+ * previous writing lesson (those word review takes too: up to three words, no lists),
+ * once each. It keeps as many memorize rounds as the pool fills, four words a round.
+ */
+function withWordPools(units: Unit[]): Unit[] {
+  let since = new Map<string, MemoWord>();
+  return units.map((unit) => ({
+    ...unit,
+    lessons: unit.lessons.map((lesson) => {
+      if (lesson.kind !== "writing") {
+        for (const ex of lesson.exercises) {
+          if (ex.type !== "intro" || !isReviewable(ex.sk)) continue;
+          const sk = stripMarkup(ex.sk);
+          if (!since.has(sk.toLowerCase())) since.set(sk.toLowerCase(), { sk, en: stripMarkup(ex.en) });
+        }
+        return lesson;
+      }
+      const wordPool = [...since.values()];
+      since = new Map();
+      let rounds = Math.floor(wordPool.length / 4);
+      return { ...lesson, wordPool, exercises: lesson.exercises.filter((ex) => ex.type !== "memorize" || rounds-- > 0) };
+    }),
+  }));
+}
 
 export function findLesson(lessonId: string, locale: Locale = "en"): { unit: Unit; lesson: Lesson } | null {
   for (const unit of localizedCourse[locale]) {

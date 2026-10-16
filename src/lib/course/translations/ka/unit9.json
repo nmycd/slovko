@@ -408,10 +408,6 @@
     "en": "**Tešiť sa** keeps its sa, and sa takes second place, right after the first phrase: Na konferenciu **sa** teším.",
     "t": "**Tešiť sa** sa-ს ინარჩუნებს, sa კი მეორე ადგილზე დგას, პირველი ფრაზის შემდეგ: Na konferenciu **sa** teším."
   },
-  "u9-l2.listen-kde-sa-mozem.en": {
-    "en": "Where can I register?",
-    "t": "სად შემიძლია დარეგისტრირება?"
-  },
   "u9-l2.grammar-or-without-sa.title": {
     "en": "With or without sa",
     "t": "Sa-თი თუ sa-ს გარეშე"
@@ -678,10 +674,6 @@
       "ერთი რამ გტკივათ, ყელი, ამიტომ **bolí**. Bolia ერთზე მეტისთვისაა: bolia ma zuby. ქართული „მტკივა“ კი ორივეგან ერთნაირია."
     ]
   },
-  "u9-lekar.listen-necitim-sa-dobre.en": {
-    "en": "I don't feel well, I've got a headache.",
-    "t": "თავს კარგად არ ვგრძნობ, თავი მტკივა."
-  },
   "u9-lekar.rychlo-sa-uzdrav.en": {
     "en": "Get well soon!",
     "t": "მალე გამოჯანმრთელდი!"
@@ -814,10 +806,6 @@
     "en": "You want to put copied text into your file. Which verb do you need?",
     "t": "გსურთ, დაკოპირებული ტექსტი ფაილში ჩასვათ. რომელი ზმნა გჭირდებათ?"
   },
-  "u9-l3.listen-kde-je-ten.en": {
-    "en": "Where's that file?",
-    "t": "სად არის ის ფაილი?"
-  },
   "u9-l3.vytlacit.en": {
     "en": "to print",
     "t": "დაბეჭდვა"
@@ -874,10 +862,6 @@
       "შენახვა",
       "შემიძლია"
     ]
-  },
-  "u9-l3.listen-tomas-poslal-subor.en": {
-    "en": "Tomáš sent the file by e-mail.",
-    "t": "ტომაშმა ფაილი ელფოსტით გაგზავნა."
   },
   "u9-l3.speak-musim-ulozit-subor.en": {
     "en": "I have to save the file.",
@@ -1108,10 +1092,6 @@
       "თავისთვის რისამე ყიდვა არის **kúpiť si**, როგორც dať si kávu: **si** kúpila tričko. Si ნიშნავს „თავისთვის“, და მის შემდეგ საგანი მოდის.",
       "ემა ქალია, ამიტომ წარსული **-la**-ზე ბოლოვდება: **kúpila**. Kúpil კაცისთვისაა."
     ]
-  },
-  "u9-l4.listen-kedy-si-sa.en": {
-    "en": "When did you come back?",
-    "t": "როდის დაბრუნდი?"
   },
   "u9-l4.grammar-small-words-stick.title": {
     "en": "Small words stick together",
@@ -1350,10 +1330,6 @@
       "ქუჩა"
     ]
   },
-  "u9-l5.listen-ake-je-vase.en": {
-    "en": "What is your permanent address?",
-    "t": "რა არის თქვენი მუდმივი მისამართი?"
-  },
   "u9-l5.narodnost.en": {
     "en": "nationality",
     "t": "ეროვნება"
@@ -1462,6 +1438,42 @@
     "en": "Please sign here.",
     "t": "აქ მოაწერეთ ხელი, გთხოვთ."
   },
+  "u9-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "წერითი ვარჯიში"
+  },
+  "u9-pisanie.listen-kde-sa-mozem.en": {
+    "en": "Where can I register?",
+    "t": "სად შემიძლია დარეგისტრირება?"
+  },
+  "u9-pisanie.listen-necitim-sa-dobre.en": {
+    "en": "I don't feel well, I've got a headache.",
+    "t": "თავს კარგად არ ვგრძნობ, თავი მტკივა."
+  },
+  "u9-pisanie.listen-kde-je-ten.en": {
+    "en": "Where's that file?",
+    "t": "სად არის ის ფაილი?"
+  },
+  "u9-pisanie.listen-tomas-poslal-subor.en": {
+    "en": "Tomáš sent the file by e-mail.",
+    "t": "ტომაშმა ფაილი ელფოსტით გაგზავნა."
+  },
+  "u9-pisanie.listen-kedy-si-sa.en": {
+    "en": "When did you come back?",
+    "t": "როდის დაბრუნდი?"
+  },
+  "u9-pisanie.listen-ake-je-vase.en": {
+    "en": "What is your permanent address?",
+    "t": "რა არის თქვენი მუდმივი მისამართი?"
+  },
+  "u9-pisanie.listen-stretli-sme-sa.en": {
+    "en": "We met during the break.",
+    "t": "შესვენებაზე შევხვდით ერთმანეთს."
+  },
+  "u9-pisanie.listen-subor-som-poslal.en": {
+    "en": "I sent the file by e-mail.",
+    "t": "ფაილი ელფოსტით გავგზავნე."
+  },
   "u9-l6.titleEn": {
     "en": "Review",
     "t": "გამეორება"
@@ -1503,10 +1515,6 @@
       "პრეზენტაცია ის არის, რასაც ინახავთ, ანუ ობიექტი, ამიტომ prezentácia -a-ს **-u**-თი ცვლის: uložiť **prezentáciu**.",
       "შენახვა არის **uložiť**, როგორც uložiť súbor. Otvoriť ნიშნავს „გახსნას“."
     ]
-  },
-  "u9-l6.listen-stretli-sme-sa.en": {
-    "en": "We met during the break.",
-    "t": "შესვენებაზე შევხვდით ერთმანეთს."
   },
   "u9-l6.choice-tomas-si-dal.question": {
     "en": "What does this mean?",
@@ -1596,10 +1604,6 @@
   "u9-l6.fill-emma-klikla-na.why": {
     "en": "You click **on** something: **kliknúť na** súbor.",
     "t": "რაიმეზე დაწკაპუნება სლოვაკურად არის **kliknúť na**: kliknúť na súbor."
-  },
-  "u9-l6.listen-subor-som-poslal.en": {
-    "en": "I sent the file by e-mail.",
-    "t": "ფაილი ელფოსტით გავგზავნე."
   },
   "u9-l6.build-emma-a-lucia.prompt": {
     "en": "Emma and Lucia are looking forward to the conference.",

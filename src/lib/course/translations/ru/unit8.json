@@ -581,10 +581,6 @@
     "en": "How do you say “in summer”?",
     "t": "Как сказать «летом»?"
   },
-  "u8-l2.listen-v-decembri-su.en": {
-    "en": "Christmas is in December.",
-    "t": "Рождество в декабре."
-  },
   "u8-l2.build-v-zime-som.answers": {
     "en": [
       "In winter I'm at home in Ireland.",
@@ -938,10 +934,6 @@
     "en": "Emma is a woman, so the past tense ends in **-a**: narodil**a** som sa. The date needs its date forms too: **tretieho mája**, not tretí máj.",
     "t": "Эмма — женщина, поэтому прошедшее время на **-a**: narodil**a** som sa (родилась). И дата — в форме даты: **tretieho mája** (третьего мая), а не tretí máj."
   },
-  "u8-l3.listen-narodila-som-sa.en": {
-    "en": "I was born on the second of June.",
-    "t": "Я родилась второго июня."
-  },
   "u8-l3.match-prveho-januara.pairs": {
     "en": [
       "1 January",
@@ -1207,10 +1199,6 @@
       "Весна — с **na**: na jar, как na jeseň. V — для лета и зимы: v lete, v zime.",
       "Экзаменов несколько, поэтому множественное число: skúšk**y**. Skúšku — один экзамен."
     ]
-  },
-  "u8-rok.listen-lucia-ma-narodeniny.en": {
-    "en": "Lucia's birthday is in summer.",
-    "t": "У Луции день рождения летом."
   },
   "u8-rok.fill-vianoce-su-v.en": {
     "en": "Christmas is in winter.",
@@ -1497,10 +1485,6 @@
   "u8-l4.fill-marek-doma-nikdy.why": {
     "en": "Never is **nikdy**, and like nikto and nič it takes a negative verb: nikdy nevarí = never cooks. Vždy is always, často often.",
     "t": "«Никогда» — **nikdy**, и, как nikto и nič, требует отрицания: nikdy nevarí — никогда не готовит. Vždy — «всегда», často — «часто»."
-  },
-  "u8-l4.listen-na-porade-nikto.en": {
-    "en": "Nobody said anything at the meeting.",
-    "t": "На совещании никто ничего не говорил."
   },
   "u8-l4.build-nikdy-nemam-cas.prompt": {
     "en": "I never have time.",
@@ -1830,10 +1814,6 @@
   "u8-l5.fill-lucia-je-v.why": {
     "en": "After k, g, h, ch the locative ending is **-u**, not -e: park → park**u**, like vo vlaku. Parky means parks.",
     "t": "После k, g, h, ch окончание предложного — **-u**, а не -e (хотя по-русски «в парке»): park → park**u**, как vo vlaku. Parky — «парки»."
-  },
-  "u8-l5.listen-tomas-je-vo.en": {
-    "en": "Tomáš is on the train.",
-    "t": "Томаш в поезде."
   },
   "u8-l5.grammar-adjectives-locative.title": {
     "en": "Adjectives in the locative",
@@ -2184,10 +2164,6 @@
       "**O** требует предложного падежа, как и у нас, поэтому firma получает **-e**: o firm**e** — «о фирме». Firmu — форма винительного."
     ]
   },
-  "u8-l6.listen-povedzte-mi-nieco.en": {
-    "en": "Tell me something about yourself.",
-    "t": "Расскажите мне что-нибудь о себе."
-  },
   "u8-l6.fill-pani-horvathova-hovorili.en": {
     "en": "Mrs Horváthová? We were talking about her.",
     "t": "Госпожа Горватова? Мы говорили о ней."
@@ -2449,13 +2425,49 @@
       "дешёвых"
     ]
   },
-  "u8-mnozne.listen-tomas-rad-cita.en": {
-    "en": "Tomáš likes reading about computers.",
-    "t": "Томаш любит читать о компьютерах."
-  },
   "u8-mnozne.speak-byvame-na-internatoch.en": {
     "en": "We live in dormitories.",
     "t": "Мы живём в общежитиях."
+  },
+  "u8-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Письменная практика"
+  },
+  "u8-pisanie.listen-v-decembri-su.en": {
+    "en": "Christmas is in December.",
+    "t": "Рождество в декабре."
+  },
+  "u8-pisanie.listen-narodila-som-sa.en": {
+    "en": "I was born on the second of June.",
+    "t": "Я родилась второго июня."
+  },
+  "u8-pisanie.listen-lucia-ma-narodeniny.en": {
+    "en": "Lucia's birthday is in summer.",
+    "t": "У Луции день рождения летом."
+  },
+  "u8-pisanie.listen-na-porade-nikto.en": {
+    "en": "Nobody said anything at the meeting.",
+    "t": "На совещании никто ничего не говорил."
+  },
+  "u8-pisanie.listen-tomas-je-vo.en": {
+    "en": "Tomáš is on the train.",
+    "t": "Томаш в поезде."
+  },
+  "u8-pisanie.listen-povedzte-mi-nieco.en": {
+    "en": "Tell me something about yourself.",
+    "t": "Расскажите мне что-нибудь о себе."
+  },
+  "u8-pisanie.listen-tomas-rad-cita.en": {
+    "en": "Tomáš likes reading about computers.",
+    "t": "Томаш любит читать о компьютерах."
+  },
+  "u8-pisanie.listen-studujem-na-univerzite.en": {
+    "en": "I study at the university in Bratislava.",
+    "t": "Я учусь в университете в Братиславе."
+  },
+  "u8-pisanie.listen-po-porade-nikto.en": {
+    "en": "After the meeting, nobody was in the office.",
+    "t": "После совещания в офисе никого не было."
   },
   "u8-l7.titleEn": {
     "en": "Review: in the company",
@@ -2498,10 +2510,6 @@
       "На вопрос «где?» после v — предложный падеж, а мужской род чаще всего получает **-e**: v Dublin**e**, как «в Дублине». Dublin — начальная форма.",
       "Эмма — женщина, поэтому прошедшее время на **-la**: narodil**a** sa — «родилась» (sa — наше -ся). Narodil — для мужчины."
     ]
-  },
-  "u8-l7.listen-studujem-na-univerzite.en": {
-    "en": "I study at the university in Bratislava.",
-    "t": "Я учусь в университете в Братиславе."
   },
   "u8-l7.fill-narodila-som-sa.en": {
     "en": "I was born on the sixth of April.",
@@ -2587,10 +2595,6 @@
   "u8-l7.speak-narodila-som-sa.en": {
     "en": "I was born in Ireland.",
     "t": "Я родилась в Ирландии."
-  },
-  "u8-l7.listen-po-porade-nikto.en": {
-    "en": "After the meeting, nobody was in the office.",
-    "t": "После совещания в офисе никого не было."
   },
   "u8-l7.build-pohovor-je-na.answers": {
     "en": [

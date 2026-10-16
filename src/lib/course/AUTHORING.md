@@ -41,6 +41,11 @@ nickname, but not the book's Zuzana Šoltýsová).
   that use the point (fill and build are the workhorses).
 - `kind: "review"`: **the last lesson of every unit.** Mixed practice of the
   whole unit: no intro or grammar cards, 12–16 exercises.
+- `kind: "writing"` (experimental): **just before the review lesson**, id
+  `uN-pisanie`, title "Píšeme". Most of the unit's writing happens here: up to five
+  `memorize` rounds, then the unit's dictations (`listen`), one of them early. The
+  standard lessons keep very few dictations (two in unit 1, one in every later
+  unit), so learners see from the start that the course asks them to write.
 - Every unit whose book lesson has grammar gets at least 2 grammar lessons.
 
 ## Lesson rules
@@ -70,7 +75,8 @@ nickname, but not the book's Zuzana Šoltýsová).
 | `choice` | Recognition | English `question`; 3 options (2–4 allowed); `optionsLang` says which language the options are in; optional `sk` shows and plays a Slovak phrase; optional `why` (see "Explanations after a wrong answer"). |
 | `fill` | Endings, forms, small words | `before` + gap + `after`; 2–4 options that are real forms (e.g. `študent` / `študentka` / `študenti`); `en` is the translation of the full sentence; optional `why` (see "Explanations after a wrong answer"). |
 | `build` | Producing sentences | `answers[0]` is split into word tiles (punctuation dropped), so it must be buildable from its own words. Add alternative correct answers (e.g. with/without the pronoun). `distractors`: 1–3 single words that are **not** in `answers[0]`, plausibly wrong (wrong ending, gender, case). For `promptLang: "sk"`, answers are English. With a Slovak answer, add `traps` for the distractors that compete with one tile (see "Explanations after a wrong answer"). |
-| `listen` | Hearing | A short sentence (≤8 words) typed back; checking forgives missing accents. |
+| `listen` | Hearing | A short sentence (≤8 words) typed back; checking forgives missing accents. Mostly in the unit's writing lesson. |
+| `memorize` | Spelling (writing lessons only) | A bare stub, `{ id: "memorize-1", type: "memorize" }`. When the lesson starts it's dealt four words from the intro cards since the previous writing lesson (those word review takes: up to three words); the learner studies them, then types each from its meaning once the Slovak is hidden and the rows are shuffled. Only letter-perfect words count, accents included: 0/25/50/75/100%. The course keeps as many rounds as the words fill. |
 | `speak` | Pronunciation | ≤6 words, a common phrase. |
 | `match` | Vocabulary sets | 4–5 pairs; both sides unique. |
 

@@ -406,10 +406,6 @@
     "en": "Tomáš and Lucia are two people, **oni** (they), and with oni byť is **sú**. Je is for one person, sme for my (we).",
     "t": "ტომაში და ლუცია ორნი არიან, **oni** (ისინი), oni-სთან კი byť არის **sú** („არიან“). Je ერთი ადამიანისთვისაა, sme — my-სთვის (ჩვენ)."
   },
-  "u2-l2.listen-kto-je-to.en": {
-    "en": "Who's that? That's Marek.",
-    "t": "ვინ არის ეს? ეს მარეკია."
-  },
   "u2-l2.choice-ony.question": {
     "en": "Anna and Eva: which word means “they”?",
     "t": "ანა და ევა: რომელი სიტყვაა „ისინი“?"
@@ -600,10 +596,6 @@
   "u2-l3.fill-peter-je-nemec.why": {
     "en": "Peter is a man, so he takes the masculine form: **Nemec**. Nemka is for a woman, and Nemecko is the country, Germany.",
     "t": "პეტერი კაცია, ამიტომ საჭიროა მამრობითი ფორმა: **Nemec**. Nemka ქალზე ითქმის, Nemecko კი ქვეყანაა, გერმანია."
-  },
-  "u2-l3.listen-pani-horvathova-je.en": {
-    "en": "Mrs Horváthová is a teacher.",
-    "t": "ქალბატონი ჰორვატოვა მასწავლებელია."
   },
   "u2-l3.grammar-things-have-gender.title": {
     "en": "Things have a gender too",
@@ -1045,10 +1037,6 @@
       "თავად ტომაშს ეკითხებით, ანუ **ty**-ს, ამიტომ ზმნა **-š**-ზე ბოლოვდება: pracuje**š**. Pracujem, -m-ით, ja-ს (მე) ფორმაა."
     ]
   },
-  "u2-l4.listen-studujem-a-pracujem.en": {
-    "en": "I study and work.",
-    "t": "ვსწავლობ და ვმუშაობ."
-  },
   "u2-l4.build-hovorite-po-anglicky.answers": {
     "en": [
       "Do you speak English?"
@@ -1188,10 +1176,6 @@
       "„ჩვენ“ არის **my**, ამიტომ ზმნა **-me**-ზე ბოლოვდება: nehovorí**me**. Nehovoríte, -te-თი, vy-ს ფორმაა.",
       "ქართული „არ“ ცალკე სიტყვაა, სლოვაკური **ne-** კი ზმნას ერთად ეწერება: **ne**hovoríme. ცალკე nie მხოლოდ byť-ს აქვს: nie som."
     ]
-  },
-  "u2-l5.listen-lucia-nepracuje-studuje.en": {
-    "en": "Lucia doesn't work, she studies.",
-    "t": "ლუცია არ მუშაობს, სწავლობს."
   },
   "u2-l5.choice-prepacte-nerozumiem.question": {
     "en": "Pán Kováč speaks very fast and you don't understand. What do you say?",
@@ -1436,10 +1420,6 @@
       "6"
     ]
   },
-  "u2-l6.listen-pat-sest-sedem.en": {
-    "en": "five, six, seven",
-    "t": "ხუთი, ექვსი, შვიდი"
-  },
   "u2-l6.jedenast-dvanast-trinast.en": {
     "en": "eleven, twelve, thirteen",
     "t": "თერთმეტი, თორმეტი, ცამეტი"
@@ -1517,10 +1497,6 @@
   "u2-l6.fill-kolko-mate-rokov.why": {
     "en": "Pán Kováč gets the polite **vy**, so the verb ends in **-te**: má**te**. Máš is for a friend (ty).",
     "t": "ბატონ კოვაჩს თავაზიანად **vy**-თი მიმართავენ, ამიტომ ზმნა **-te**-ზე ბოლოვდება: má**te**. Máš მეგობრისთვისაა (ty)."
-  },
-  "u2-l6.listen-tomas-ma-tridsat.en": {
-    "en": "Tomáš is thirty.",
-    "t": "ტომაში ოცდაათი წლისაა."
   },
   "u2-l6.prvy-druhy-treti.en": {
     "en": "first, second, third",
@@ -1634,10 +1610,6 @@
       "904"
     ]
   },
-  "u2-telefon.listen-cislo-je-nula.en": {
-    "en": "The number is 0905.",
-    "t": "ნომერი არის 0905."
-  },
   "u2-telefon.build-ake-mas-telefonne.prompt": {
     "en": "What's your phone number? (to a friend)",
     "t": "რა არის შენი ტელეფონის ნომერი? (მეგობარს)"
@@ -1719,13 +1691,49 @@
     "en": "Hello? It's Emma.",
     "t": "ალო? ემა ვარ."
   },
+  "u2-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "წერითი ვარჯიში"
+  },
+  "u2-pisanie.listen-kto-je-to.en": {
+    "en": "Who's that? That's Marek.",
+    "t": "ვინ არის ეს? ეს მარეკია."
+  },
+  "u2-pisanie.listen-pani-horvathova-je.en": {
+    "en": "Mrs Horváthová is a teacher.",
+    "t": "ქალბატონი ჰორვატოვა მასწავლებელია."
+  },
+  "u2-pisanie.listen-studujem-a-pracujem.en": {
+    "en": "I study and work.",
+    "t": "ვსწავლობ და ვმუშაობ."
+  },
+  "u2-pisanie.listen-lucia-nepracuje-studuje.en": {
+    "en": "Lucia doesn't work, she studies.",
+    "t": "ლუცია არ მუშაობს, სწავლობს."
+  },
+  "u2-pisanie.listen-pat-sest-sedem.en": {
+    "en": "five, six, seven",
+    "t": "ხუთი, ექვსი, შვიდი"
+  },
+  "u2-pisanie.listen-tomas-ma-tridsat.en": {
+    "en": "Tomáš is thirty.",
+    "t": "ტომაში ოცდაათი წლისაა."
+  },
+  "u2-pisanie.listen-cislo-je-nula.en": {
+    "en": "The number is 0905.",
+    "t": "ნომერი არის 0905."
+  },
+  "u2-pisanie.listen-odkial-ste-som.en": {
+    "en": "Where are you from? I'm from Italy.",
+    "t": "საიდან ხართ? იტალიიდან ვარ."
+  },
+  "u2-pisanie.listen-lucia-ma-devatnast.en": {
+    "en": "Lucia is nineteen.",
+    "t": "ლუცია ცხრამეტი წლისაა."
+  },
   "u2-l7.titleEn": {
     "en": "Review",
     "t": "გამეორება"
-  },
-  "u2-l7.listen-odkial-ste-som.en": {
-    "en": "Where are you from? I'm from Italy.",
-    "t": "საიდან ხართ? იტალიიდან ვარ."
   },
   "u2-l7.fill-marek-je-zo.en": {
     "en": "Marek is from Slovakia.",
@@ -1815,10 +1823,6 @@
   "u2-l7.fill-vy-studujete-alebo.why": {
     "en": "With **vy**, the verb ends in **-te**, just like pracujete: študuje**te**. Študuješ is ty, študujú is oni.",
     "t": "**vy**-სთან ზმნა **-te**-ზე ბოლოვდება, ისევე როგორც pracujete: študuje**te**. Študuješ ty-ს ფორმაა, študujú — oni-ს."
-  },
-  "u2-l7.listen-lucia-ma-devatnast.en": {
-    "en": "Lucia is nineteen.",
-    "t": "ლუცია ცხრამეტი წლისაა."
   },
   "u2-l7.choice-styridsat.question": {
     "en": "How do you say 40?",

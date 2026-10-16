@@ -353,10 +353,6 @@
       "«Biz» — **my**, shuning uchun dať **-me** bilan tugaydi: **dáme** si, oʻzbekchadagi -miz kabi (olamiz). Dám — ja shakli."
     ]
   },
-  "u6-l2.listen-caj-je-horuci.en": {
-    "en": "The tea is hot.",
-    "t": "Choy issiq."
-  },
   "u6-l2.build-chuti-ti-polievka.answers": {
     "en": [
       "Do you like the soup?"
@@ -534,10 +530,6 @@
   "u6-l3.fill-lucia-hovori-s.why": {
     "en": "After **s**, masculine nouns add **-om**, names too: Tomáš**om**. Tomáša is the object form, as in Hľadám Tomáša.",
     "t": "**s** soʻzidan keyin erkak jinsidagi otlar, ismlar ham, **-om** oladi: Tomáš**om** (Tomash bilan). Tomáša — toʻldiruvchi shakli, masalan Hľadám Tomáša."
-  },
-  "u6-l3.listen-tomas-je-s.en": {
-    "en": "Tomáš is with Marek.",
-    "t": "Tomash Marek bilan birga."
   },
   "u6-l3.grammar-adjectives-after-s.title": {
     "en": "Adjectives after s",
@@ -897,10 +889,6 @@
       "«Biz» — **my**, shuning uchun ísť my shaklida keladi: **ideme** (ketyapmiz). Idem ja uchun."
     ]
   },
-  "u6-l4.listen-idem-domov-peso.en": {
-    "en": "I'm walking home.",
-    "t": "Uyga piyoda ketyapman."
-  },
   "u6-l4.cestujem-s-kamaratmi.en": {
     "en": "I travel with friends.",
     "t": "Doʻstlar bilan sayohat qilaman."
@@ -1137,10 +1125,6 @@
       "Rodičov — toʻldiruvchi shakli (Pozývam rodičov. = Ota-onamni taklif qilaman.). S (bilan) soʻzidan keyin esa inštrumentál keladi: rodič**mi**."
     ]
   },
-  "u6-mnozne.listen-tomas-hra-futbal.en": {
-    "en": "Tomáš plays football with his friends.",
-    "t": "Tomash doʻstlari bilan futbol oʻynaydi."
-  },
   "u6-mnozne.build-lucia-rada-hovori.answers": {
     "en": [
       "Lucia likes talking to people.",
@@ -1318,10 +1302,6 @@
       "Tomash — bitta doʻst, shuning uchun **ty** (sen): ísť ty shaklida keladi, **ideš** (borasan). Idete vy uchun."
     ]
   },
-  "u6-l5.listen-chces-ist-so.en": {
-    "en": "Do you want to go with me?",
-    "t": "Men bilan borishni xohlaysanmi?"
-  },
   "u6-l5.grammar-where-pred-za.title": {
     "en": "Where? pred, za, nad, pod, medzi",
     "t": "Qayerda? pred, za, nad, pod, medzi"
@@ -1477,10 +1457,6 @@
   "u6-l5.fill-emma-stoji-za.why": {
     "en": "**Za** (behind) takes the instrumental when it says where, and ty becomes **tebou**, as in s tebou. Teba is the form after pre: pre teba.",
     "t": "**Za** (orqasida) joyni bildirganda inštrumentál talab qiladi, ty esa **tebou** boʻladi, xuddi s tebou kabi. Teba esa pre soʻzidan keyin keladi: pre teba."
-  },
-  "u6-l5.listen-marek-caka-za.en": {
-    "en": "Marek is waiting behind the restaurant.",
-    "t": "Marek restoran orqasida kutyapti."
   },
   "u6-l5.build-pan-kovac-stoji.answers": {
     "en": [
@@ -1800,10 +1776,6 @@
     "en": "Tomáš says “Pozvem ťa na večeru.” What's a natural reply?",
     "t": "Tomash «Pozvem ťa na večeru.» deydi. Qaysi javob mos keladi?"
   },
-  "u6-l6.listen-co-jes-tomas.en": {
-    "en": "What are you eating, Tomáš?",
-    "t": "Nima yeyapsan, Tomash?"
-  },
   "u6-l6.fill-ja-jem-rybu.en": {
     "en": "I'm eating fish and Lucia is eating chicken.",
     "t": "Men baliq yeyapman, Lusiya esa tovuq goʻshti yeyapti."
@@ -1868,13 +1840,53 @@
     "en": "After **chcieť**, the next verb is an infinitive, the -ť form: chcem sa **stať**. Stanem already means “I'll become”.",
     "t": "**chcieť** (xohlamoq) feʼlidan keyin keyingi feʼl infinitívda, yaʼni -ť shaklida keladi: chcem sa **stať**. Stanem esa «boʻlaman» degani."
   },
-  "u6-l6.listen-pozvem-ta-na.en": {
-    "en": "I'll buy you a coffee.",
-    "t": "Seni qahvaga taklif qilaman."
-  },
   "u6-l6.speak-pozvem-ta-na.en": {
     "en": "I'll invite you to dinner.",
     "t": "Seni kechki ovqatga taklif qilaman."
+  },
+  "u6-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Yozma mashq"
+  },
+  "u6-pisanie.listen-caj-je-horuci.en": {
+    "en": "The tea is hot.",
+    "t": "Choy issiq."
+  },
+  "u6-pisanie.listen-tomas-je-s.en": {
+    "en": "Tomáš is with Marek.",
+    "t": "Tomash Marek bilan birga."
+  },
+  "u6-pisanie.listen-idem-domov-peso.en": {
+    "en": "I'm walking home.",
+    "t": "Uyga piyoda ketyapman."
+  },
+  "u6-pisanie.listen-tomas-hra-futbal.en": {
+    "en": "Tomáš plays football with his friends.",
+    "t": "Tomash doʻstlari bilan futbol oʻynaydi."
+  },
+  "u6-pisanie.listen-chces-ist-so.en": {
+    "en": "Do you want to go with me?",
+    "t": "Men bilan borishni xohlaysanmi?"
+  },
+  "u6-pisanie.listen-marek-caka-za.en": {
+    "en": "Marek is waiting behind the restaurant.",
+    "t": "Marek restoran orqasida kutyapti."
+  },
+  "u6-pisanie.listen-co-jes-tomas.en": {
+    "en": "What are you eating, Tomáš?",
+    "t": "Nima yeyapsan, Tomash?"
+  },
+  "u6-pisanie.listen-pozvem-ta-na.en": {
+    "en": "I'll buy you a coffee.",
+    "t": "Seni qahvaga taklif qilaman."
+  },
+  "u6-pisanie.listen-chuti-ti-ryba.en": {
+    "en": "Do you like the fish?",
+    "t": "Baliq senga yoqyaptimi?"
+  },
+  "u6-pisanie.listen-tomas-pije-pivo.en": {
+    "en": "Tomáš is drinking beer with Marek.",
+    "t": "Tomash Marek bilan pivo ichyapti."
   },
   "u6-l7.titleEn": {
     "en": "Review",
@@ -1933,10 +1945,6 @@
       "pishloq bilan",
       "guruch bilan"
     ]
-  },
-  "u6-l7.listen-chuti-ti-ryba.en": {
-    "en": "Do you like the fish?",
-    "t": "Baliq senga yoqyaptimi?"
   },
   "u6-l7.fill-marek-stoji-za.en": {
     "en": "Marek is standing behind Tomáš.",
@@ -2018,10 +2026,6 @@
   "u6-l7.fill-lucia-ja-ta.why": {
     "en": "With **ja**, pozvať ends in **-em**: pozv**em** (I'll invite). Pozve goes with on or ona, pozveme with my (we).",
     "t": "**ja** bilan pozvať **-em** bilan tugaydi: pozv**em** (taklif qilaman). Pozve on yoki ona bilan, pozveme esa my (biz) bilan keladi."
-  },
-  "u6-l7.listen-tomas-pije-pivo.en": {
-    "en": "Tomáš is drinking beer with Marek.",
-    "t": "Tomash Marek bilan pivo ichyapti."
   },
   "u6-l7.build-lucia-sa-chce.prompt": {
     "en": "Lucia wants to become a teacher.",

@@ -233,12 +233,6 @@ export const unit4: Unit = {
           note: "**oproti** = opposite, across the street.",
         },
         {
-          id: "listen-kino-je-vlavo",
-          type: "listen",
-          sk: "Kino je vľavo, divadlo je vpravo.",
-          en: "The cinema is on the left, the theatre is on the right.",
-        },
-        {
           id: "build-prepacte-kde-je",
           type: "build",
           prompt: "Excuse me, where's the museum?",
@@ -374,12 +368,6 @@ export const unit4: Unit = {
           note: "You know **starý** for things; it works for people too: mlad**á** študentka, star**ý** dôchodca.",
         },
         {
-          id: "listen-marek-je-mlady",
-          type: "listen",
-          sk: "Marek je mladý kuchár.",
-          en: "Marek is a young cook.",
-        },
-        {
           id: "build-ona-je-novinarka",
           type: "build",
           prompt: "She is a journalist.",
@@ -417,12 +405,6 @@ export const unit4: Unit = {
           promptLang: "sk",
           answers: ["Tomáš is a programmer, not a driver."],
           distractors: ["cook", "waiter"],
-        },
-        {
-          id: "listen-lucia-nie-je",
-          type: "listen",
-          sk: "Lucia nie je čašníčka, je študentka.",
-          en: "Lucia isn't a waitress, she's a student.",
         },
         { id: "speak-co-robite", type: "speak", sk: "Čo robíte?", en: "What do you do? (formal)" },
       ],
@@ -492,7 +474,6 @@ export const unit4: Unit = {
             { wrong: "Námestie", right: "Námestia", why: "The squares are more than one, and neuter nouns in -ie end in **-ia** in the plural: námesti**a**. Námestie is just one square." },
           ],
         },
-        { id: "listen-tie-rieky-su", type: "listen", sk: "Tie rieky sú dlhé.", en: "Those rivers are long." },
         {
           id: "build-kina-a-divadla",
           type: "build",
@@ -576,7 +557,6 @@ export const unit4: Unit = {
             { wrong: "je", right: "sú", why: "Tomáš and Marek are two people, oni, so byť is **sú**: nie sú. Je is for one person." },
           ],
         },
-        { id: "listen-dochodcovia-nepracuju", type: "listen", sk: "Dôchodcovia nepracujú.", en: "Pensioners don't work." },
         {
           id: "fill-lucia-a-tomas",
           type: "fill",
@@ -760,7 +740,6 @@ export const unit4: Unit = {
             { wrong: "je", right: "sú", why: "Rodičia is plural, oni, so byť is **sú**. Je is for one person." },
           ],
         },
-        { id: "listen-moja-sestra-je", type: "listen", sk: "Moja sestra je veselá a milá.", en: "My sister is cheerful and kind." },
         {
           id: "fill-to-su-moje",
           type: "fill",
@@ -857,7 +836,6 @@ export const unit4: Unit = {
             { wrong: "je", right: "sú", why: "Four bridges are more than one, so “are” is **sú**, as in Tu sú dva hotely. Je is for one thing." },
           ],
         },
-        { id: "listen-mesto-ma-tri", type: "listen", sk: "Mesto má tri kostoly.", en: "The town has three churches." },
         {
           id: "grammar-counting-men-dvaja",
           type: "grammar",
@@ -930,12 +908,6 @@ export const unit4: Unit = {
           promptLang: "sk",
           answers: ["The town has two hotels and three cafés."],
           distractors: ["four", "museums"],
-        },
-        {
-          id: "listen-dvaja-kuchari-a",
-          type: "listen",
-          sk: "Dvaja kuchári a štyria čašníci.",
-          en: "Two cooks and four waiters.",
         },
         { id: "speak-bratislava-ma-dva", type: "speak", sk: "Bratislava má dva hrady.", en: "Bratislava has two castles." },
       ],
@@ -1036,7 +1008,6 @@ export const unit4: Unit = {
             { wrong: "traja", right: "tri", why: "Euros are things, so three is **tri**: tri eurá. Traja is only for counting men." },
           ],
         },
-        { id: "listen-tomas-stoji-vzadu", type: "listen", sk: "Tomáš stojí vzadu.", en: "Tomáš is standing at the back." },
         {
           id: "fill-my-stojime-tu",
           type: "fill",
@@ -1120,8 +1091,64 @@ export const unit4: Unit = {
             { wrong: "moja", right: "moje", why: "Words that go with hodinky are plural, since it's always plural: **moje**. Moja is for one feminine thing." },
           ],
         },
-        { id: "listen-vianoce-su-tu", type: "listen", sk: "Vianoce sú tu!", en: "Christmas is here!" },
         { id: "speak-kolko-to-stoji", type: "speak", sk: "Koľko to stojí?", en: "How much is it?" },
+      ],
+    },
+    // Written practice: memorize rounds (four words at a time, dealt from the cards
+    // since the previous writing lesson), then most of the unit's dictations.
+    {
+      id: "u4-pisanie",
+      title: "Píšeme",
+      titleEn: "Written practice",
+      kind: "writing",
+      exercises: [
+        { id: "memorize-1", type: "memorize" },
+        { id: "memorize-2", type: "memorize" },
+        {
+          id: "listen-kino-je-vlavo",
+          type: "listen",
+          sk: "Kino je vľavo, divadlo je vpravo.",
+          en: "The cinema is on the left, the theatre is on the right.",
+        },
+        { id: "memorize-3", type: "memorize" },
+        { id: "memorize-4", type: "memorize" },
+        { id: "memorize-5", type: "memorize" },
+        {
+          id: "listen-marek-je-mlady",
+          type: "listen",
+          sk: "Marek je mladý kuchár.",
+          en: "Marek is a young cook.",
+        },
+        {
+          id: "listen-lucia-nie-je",
+          type: "listen",
+          sk: "Lucia nie je čašníčka, je študentka.",
+          en: "Lucia isn't a waitress, she's a student.",
+        },
+        { id: "listen-tie-rieky-su", type: "listen", sk: "Tie rieky sú dlhé.", en: "Those rivers are long." },
+        { id: "listen-dochodcovia-nepracuju", type: "listen", sk: "Dôchodcovia nepracujú.", en: "Pensioners don't work." },
+        { id: "listen-moja-sestra-je", type: "listen", sk: "Moja sestra je veselá a milá.", en: "My sister is cheerful and kind." },
+        { id: "listen-mesto-ma-tri", type: "listen", sk: "Mesto má tri kostoly.", en: "The town has three churches." },
+        {
+          id: "listen-dvaja-kuchari-a",
+          type: "listen",
+          sk: "Dvaja kuchári a štyria čašníci.",
+          en: "Two cooks and four waiters.",
+        },
+        { id: "listen-tomas-stoji-vzadu", type: "listen", sk: "Tomáš stojí vzadu.", en: "Tomáš is standing at the back." },
+        { id: "listen-vianoce-su-tu", type: "listen", sk: "Vianoce sú tu!", en: "Christmas is here!" },
+        {
+          id: "listen-pani-horvathova-je",
+          type: "listen",
+          sk: "Pani Horváthová je učiteľka.",
+          en: "Mrs Horváthová is a teacher.",
+        },
+        {
+          id: "listen-ti-kuchari-su",
+          type: "listen",
+          sk: "Tí kuchári sú zo Slovenska.",
+          en: "Those cooks are from Slovakia.",
+        },
       ],
     },
     {
@@ -1172,12 +1199,6 @@ export const unit4: Unit = {
             { wrong: "kuchárka", right: "kuchár", why: "Marek is a man, so it's **kuchár**, with no ending. Kuchárka, with -ka, is for a woman." },
             { wrong: "študent", right: "študentka", why: "Lucia is a woman, so the job adds **-ka**: študent**ka**. Študent is for a man." },
           ],
-        },
-        {
-          id: "listen-pani-horvathova-je",
-          type: "listen",
-          sk: "Pani Horváthová je učiteľka.",
-          en: "Mrs Horváthová is a teacher.",
         },
         {
           id: "fill-tie-kaviarne-su",
@@ -1242,12 +1263,6 @@ export const unit4: Unit = {
           promptLang: "sk",
           answers: ["The watch costs four euros.", "The watches cost four euros.", "A watch costs four euros."],
           distractors: ["five", "is"],
-        },
-        {
-          id: "listen-ti-kuchari-su",
-          type: "listen",
-          sk: "Tí kuchári sú zo Slovenska.",
-          en: "Those cooks are from Slovakia.",
         },
         {
           id: "choice-nohavice",

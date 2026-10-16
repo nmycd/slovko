@@ -354,10 +354,6 @@
       "„ჩვენ“ არის **my**, ამიტომ dať my-ს დაბოლოებას, **-me**-ს იღებს: **dáme** si. Dám ja-ს ფორმაა."
     ]
   },
-  "u6-l2.listen-caj-je-horuci.en": {
-    "en": "The tea is hot.",
-    "t": "ჩაი ცხელია."
-  },
   "u6-l2.build-chuti-ti-polievka.answers": {
     "en": [
       "Do you like the soup?"
@@ -534,10 +530,6 @@
   "u6-l3.fill-lucia-hovori-s.why": {
     "en": "After **s**, masculine nouns add **-om**, names too: Tomáš**om**. Tomáša is the object form, as in Hľadám Tomáša.",
     "t": "აქ s ქართულ „-თან“-ს შეესაბამება. **s**-ის შემდეგ მამრობითი სახელები **-om**-ს იღებს, საკუთარი სახელებიც: Tomáš**om**. Tomáša ობიექტის ფორმაა, როგორც Hľadám Tomáša-ში."
-  },
-  "u6-l3.listen-tomas-je-s.en": {
-    "en": "Tomáš is with Marek.",
-    "t": "ტომაში მარეკთან ერთადაა."
   },
   "u6-l3.grammar-adjectives-after-s.title": {
     "en": "Adjectives after s",
@@ -898,10 +890,6 @@
       "„ჩვენ“ არის **my**, ამიტომ ísť my-ს ფორმას იღებს: **ideme**. Idem ja-სთვისაა."
     ]
   },
-  "u6-l4.listen-idem-domov-peso.en": {
-    "en": "I'm walking home.",
-    "t": "სახლში ფეხით მივდივარ."
-  },
   "u6-l4.cestujem-s-kamaratmi.en": {
     "en": "I travel with friends.",
     "t": "მეგობრებთან ერთად ვმგზავრობ."
@@ -1139,10 +1127,6 @@
       "Rodičov ობიექტის ფორმაა (Pozývam rodičov). s-ის („-თან ერთად“) შემდეგ inštrumentál-ია: rodič**mi**."
     ]
   },
-  "u6-mnozne.listen-tomas-hra-futbal.en": {
-    "en": "Tomáš plays football with his friends.",
-    "t": "ტომაში მეგობრებთან ერთად ფეხბურთს თამაშობს."
-  },
   "u6-mnozne.build-lucia-rada-hovori.answers": {
     "en": [
       "Lucia likes talking to people.",
@@ -1322,10 +1306,6 @@
       "ტომაში ერთი მეგობარია, ამიტომ **ty**: ísť ty-ს ფორმას იღებს, **ideš**. Idete vy-სთვისაა."
     ]
   },
-  "u6-l5.listen-chces-ist-so.en": {
-    "en": "Do you want to go with me?",
-    "t": "გინდა ჩემთან ერთად წამოხვიდე?"
-  },
   "u6-l5.grammar-where-pred-za.title": {
     "en": "Where? pred, za, nad, pod, medzi",
     "t": "სად? pred, za, nad, pod, medzi"
@@ -1481,10 +1461,6 @@
   "u6-l5.fill-emma-stoji-za.why": {
     "en": "**Za** (behind) takes the instrumental when it says where, and ty becomes **tebou**, as in s tebou. Teba is the form after pre: pre teba.",
     "t": "**Za** („უკან“) inštrumentál-ს მოითხოვს, როცა ამბობს, სად არის რამე, ty კი ხდება **tebou**, როგორც s tebou-ში. Teba pre-ს შემდეგ დგება: pre teba."
-  },
-  "u6-l5.listen-marek-caka-za.en": {
-    "en": "Marek is waiting behind the restaurant.",
-    "t": "მარეკი რესტორნის უკან ელოდება."
   },
   "u6-l5.build-pan-kovac-stoji.answers": {
     "en": [
@@ -1805,10 +1781,6 @@
     "en": "Tomáš says “Pozvem ťa na večeru.” What's a natural reply?",
     "t": "ტომაში ამბობს: „Pozvem ťa na večeru.“ რა იქნება ბუნებრივი პასუხი?"
   },
-  "u6-l6.listen-co-jes-tomas.en": {
-    "en": "What are you eating, Tomáš?",
-    "t": "რას ჭამ, ტომაშ?"
-  },
   "u6-l6.fill-ja-jem-rybu.en": {
     "en": "I'm eating fish and Lucia is eating chicken.",
     "t": "მე თევზს ვჭამ, ლუცია კი ქათმის ხორცს ჭამს."
@@ -1874,13 +1846,53 @@
     "en": "After **chcieť**, the next verb is an infinitive, the -ť form: chcem sa **stať**. Stanem already means “I'll become”.",
     "t": "**chcieť**-ის შემდეგ მეორე ზმნა ინფინიტივშია, -ť ფორმაში: chcem sa **stať**. Stanem უკვე ნიშნავს „გავხდები“."
   },
-  "u6-l6.listen-pozvem-ta-na.en": {
-    "en": "I'll buy you a coffee.",
-    "t": "ყავაზე დაგპატიჟებ."
-  },
   "u6-l6.speak-pozvem-ta-na.en": {
     "en": "I'll invite you to dinner.",
     "t": "ვახშამზე დაგპატიჟებ."
+  },
+  "u6-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "წერითი ვარჯიში"
+  },
+  "u6-pisanie.listen-caj-je-horuci.en": {
+    "en": "The tea is hot.",
+    "t": "ჩაი ცხელია."
+  },
+  "u6-pisanie.listen-tomas-je-s.en": {
+    "en": "Tomáš is with Marek.",
+    "t": "ტომაში მარეკთან ერთადაა."
+  },
+  "u6-pisanie.listen-idem-domov-peso.en": {
+    "en": "I'm walking home.",
+    "t": "სახლში ფეხით მივდივარ."
+  },
+  "u6-pisanie.listen-tomas-hra-futbal.en": {
+    "en": "Tomáš plays football with his friends.",
+    "t": "ტომაში მეგობრებთან ერთად ფეხბურთს თამაშობს."
+  },
+  "u6-pisanie.listen-chces-ist-so.en": {
+    "en": "Do you want to go with me?",
+    "t": "გინდა ჩემთან ერთად წამოხვიდე?"
+  },
+  "u6-pisanie.listen-marek-caka-za.en": {
+    "en": "Marek is waiting behind the restaurant.",
+    "t": "მარეკი რესტორნის უკან ელოდება."
+  },
+  "u6-pisanie.listen-co-jes-tomas.en": {
+    "en": "What are you eating, Tomáš?",
+    "t": "რას ჭამ, ტომაშ?"
+  },
+  "u6-pisanie.listen-pozvem-ta-na.en": {
+    "en": "I'll buy you a coffee.",
+    "t": "ყავაზე დაგპატიჟებ."
+  },
+  "u6-pisanie.listen-chuti-ti-ryba.en": {
+    "en": "Do you like the fish?",
+    "t": "თევზი მოგწონს?"
+  },
+  "u6-pisanie.listen-tomas-pije-pivo.en": {
+    "en": "Tomáš is drinking beer with Marek.",
+    "t": "ტომაში მარეკთან ერთად ლუდს სვამს."
   },
   "u6-l7.titleEn": {
     "en": "Review",
@@ -1939,10 +1951,6 @@
       "ყველით",
       "ბრინჯით"
     ]
-  },
-  "u6-l7.listen-chuti-ti-ryba.en": {
-    "en": "Do you like the fish?",
-    "t": "თევზი მოგწონს?"
   },
   "u6-l7.fill-marek-stoji-za.en": {
     "en": "Marek is standing behind Tomáš.",
@@ -2024,10 +2032,6 @@
   "u6-l7.fill-lucia-ja-ta.why": {
     "en": "With **ja**, pozvať ends in **-em**: pozv**em** (I'll invite). Pozve goes with on or ona, pozveme with my (we).",
     "t": "**ja**-სთან pozvať **-em**-ზე ბოლოვდება: pozv**em** (დავპატიჟებ). Pozve on-თან ან ona-სთან დგას, pozveme — my-სთან (ჩვენ)."
-  },
-  "u6-l7.listen-tomas-pije-pivo.en": {
-    "en": "Tomáš is drinking beer with Marek.",
-    "t": "ტომაში მარეკთან ერთად ლუდს სვამს."
   },
   "u6-l7.build-lucia-sa-chce.prompt": {
     "en": "Lucia wants to become a teacher.",

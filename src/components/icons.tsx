@@ -117,6 +117,17 @@ export function ChevronDownIcon(props: IconProps) {
   );
 }
 
+export function PencilIcon(props: IconProps) {
+  return (
+    <svg {...svg(props)}>
+      <path
+        fill="currentColor"
+        d="M15.6 3.6a2 2 0 0 1 2.8 0l2 2a2 2 0 0 1 0 2.8L9.2 19.6a2 2 0 0 1-.9.5l-4.1 1a.8.8 0 0 1-1-1l1-4.1c.1-.3.3-.6.5-.9L15.6 3.6Zm-1.4 3.6-8 8-.6 2.6 2.6-.6 8-8-2-2Z"
+      />
+    </svg>
+  );
+}
+
 export function BookIcon(props: IconProps) {
   return (
     <svg {...svg(props)}>

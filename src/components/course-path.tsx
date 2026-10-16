@@ -9,6 +9,7 @@ import {
   ChevronDownIcon,
   CrownIcon,
   LockIcon,
+  PencilIcon,
   RepeatIcon,
   RewindIcon,
   StarIcon,
@@ -250,11 +251,12 @@ function UnitSection({
   );
 }
 
-const kindIcon = { vocab: StarIcon, grammar: BookIcon, review: RepeatIcon };
+const kindIcon = { vocab: StarIcon, grammar: BookIcon, review: RepeatIcon, writing: PencilIcon };
 const kindLabel: Record<LessonKind, MessageKey | null> = {
   vocab: null,
   grammar: "path.kind.grammar",
   review: "path.kind.review",
+  writing: "path.kind.writing",
 };
 
 /**

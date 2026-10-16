@@ -268,7 +268,6 @@ export const unit9: Unit = {
           why: "**Tešiť sa** keeps its sa, and sa takes second place, right after the first phrase: Na konferenciu **sa** teším.",
           ref: "u9-l2#grammar-sa-likes-second",
         },
-        { id: "listen-kde-sa-mozem", type: "listen", sk: "Kde sa môžem zaregistrovať?", en: "Where can I register?" },
         {
           id: "grammar-or-without-sa",
           type: "grammar",
@@ -459,7 +458,6 @@ export const unit9: Unit = {
             { wrong: "Bolia", right: "Bolí", why: "One thing hurts, the throat, so it's **bolí**. Bolia is for more than one: bolia ma zuby." },
           ],
         },
-        { id: "listen-necitim-sa-dobre", type: "listen", sk: "Necítim sa dobre, bolí ma hlava.", en: "I don't feel well, I've got a headache." },
         {
           id: "rychlo-sa-uzdrav",
           type: "intro",
@@ -570,7 +568,6 @@ export const unit9: Unit = {
           optionsLang: "sk",
           answer: 0,
         },
-        { id: "listen-kde-je-ten", type: "listen", sk: "Kde je ten súbor?", en: "Where's that file?" },
         {
           id: "vytlacit",
           type: "intro",
@@ -616,7 +613,6 @@ export const unit9: Unit = {
           answers: ["Emma can't open the file."],
           distractors: ["save", "can"],
         },
-        { id: "listen-tomas-poslal-subor", type: "listen", sk: "Tomáš poslal súbor e-mailom.", en: "Tomáš sent the file by e-mail." },
         { id: "speak-musim-ulozit-subor", type: "speak", sk: "Musím uložiť súbor.", en: "I have to save the file." },
       ],
     },
@@ -718,7 +714,6 @@ export const unit9: Unit = {
             { wrong: "kúpil", right: "kúpila", why: "Emma is a woman, so the past tense ends in **-la**: **kúpila**. Kúpil is for a man." },
           ],
         },
-        { id: "listen-kedy-si-sa", type: "listen", sk: "Kedy si sa vrátil?", en: "When did you come back?" },
         {
           id: "grammar-small-words-stick",
           type: "grammar",
@@ -864,7 +859,6 @@ export const unit9: Unit = {
             { sk: "ulica", en: "street" },
           ],
         },
-        { id: "listen-ake-je-vase", type: "listen", sk: "Aké je vaše trvalé bydlisko?", en: "What is your permanent address?" },
         {
           id: "narodnost",
           type: "intro",
@@ -958,6 +952,29 @@ export const unit9: Unit = {
         { id: "speak-podpiste-sa-tu", type: "speak", sk: "Podpíšte sa tu, prosím.", en: "Please sign here." },
       ],
     },
+    // Written practice: memorize rounds (four words at a time, dealt from the cards
+    // since the previous writing lesson), then most of the unit's dictations.
+    {
+      id: "u9-pisanie",
+      title: "Píšeme",
+      titleEn: "Written practice",
+      kind: "writing",
+      exercises: [
+        { id: "memorize-1", type: "memorize" },
+        { id: "memorize-2", type: "memorize" },
+        { id: "listen-kde-sa-mozem", type: "listen", sk: "Kde sa môžem zaregistrovať?", en: "Where can I register?" },
+        { id: "memorize-3", type: "memorize" },
+        { id: "memorize-4", type: "memorize" },
+        { id: "memorize-5", type: "memorize" },
+        { id: "listen-necitim-sa-dobre", type: "listen", sk: "Necítim sa dobre, bolí ma hlava.", en: "I don't feel well, I've got a headache." },
+        { id: "listen-kde-je-ten", type: "listen", sk: "Kde je ten súbor?", en: "Where's that file?" },
+        { id: "listen-tomas-poslal-subor", type: "listen", sk: "Tomáš poslal súbor e-mailom.", en: "Tomáš sent the file by e-mail." },
+        { id: "listen-kedy-si-sa", type: "listen", sk: "Kedy si sa vrátil?", en: "When did you come back?" },
+        { id: "listen-ake-je-vase", type: "listen", sk: "Aké je vaše trvalé bydlisko?", en: "What is your permanent address?" },
+        { id: "listen-stretli-sme-sa", type: "listen", sk: "Stretli sme sa na prestávke.", en: "We met during the break." },
+        { id: "listen-subor-som-poslal", type: "listen", sk: "Súbor som poslal e-mailom.", en: "I sent the file by e-mail." },
+      ],
+    },
     {
       id: "u9-l6",
       title: "Opakovanie",
@@ -998,7 +1015,6 @@ export const unit9: Unit = {
             { wrong: "otvoriť", right: "uložiť", why: "To save is **uložiť**, as in uložiť súbor. Otvoriť means to open." },
           ],
         },
-        { id: "listen-stretli-sme-sa", type: "listen", sk: "Stretli sme sa na prestávke.", en: "We met during the break." },
         {
           id: "choice-tomas-si-dal",
           type: "choice",
@@ -1081,7 +1097,6 @@ export const unit9: Unit = {
           why: "You click **on** something: **kliknúť na** súbor.",
           ref: "u5-l4#grammar-na-accusative",
         },
-        { id: "listen-subor-som-poslal", type: "listen", sk: "Súbor som poslal e-mailom.", en: "I sent the file by e-mail." },
         {
           id: "build-emma-a-lucia",
           type: "build",

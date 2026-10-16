@@ -408,10 +408,6 @@
     "en": "**Tešiť sa** keeps its sa, and sa takes second place, right after the first phrase: Na konferenciu **sa** teším.",
     "t": "**Tešiť sa** не теряет своё sa, а sa стоит на втором месте, сразу после первого словосочетания: Na konferenciu **sa** teším."
   },
-  "u9-l2.listen-kde-sa-mozem.en": {
-    "en": "Where can I register?",
-    "t": "Где я могу зарегистрироваться?"
-  },
   "u9-l2.grammar-or-without-sa.title": {
     "en": "With or without sa",
     "t": "С sa или без"
@@ -677,10 +673,6 @@
       "Болит одно — горло, поэтому **bolí** (болит). Bolia — для нескольких: bolia ma zuby (болят зубы)."
     ]
   },
-  "u9-lekar.listen-necitim-sa-dobre.en": {
-    "en": "I don't feel well, I've got a headache.",
-    "t": "Я плохо себя чувствую, у меня болит голова."
-  },
   "u9-lekar.rychlo-sa-uzdrav.en": {
     "en": "Get well soon!",
     "t": "Выздоравливай скорее!"
@@ -811,10 +803,6 @@
     "en": "You want to put copied text into your file. Which verb do you need?",
     "t": "Вы хотите добавить скопированный текст в свой файл. Какой глагол нужен?"
   },
-  "u9-l3.listen-kde-je-ten.en": {
-    "en": "Where's that file?",
-    "t": "Где этот файл?"
-  },
   "u9-l3.vytlacit.en": {
     "en": "to print",
     "t": "распечатать, напечатать"
@@ -870,10 +858,6 @@
       "сохранить",
       "могу"
     ]
-  },
-  "u9-l3.listen-tomas-poslal-subor.en": {
-    "en": "Tomáš sent the file by e-mail.",
-    "t": "Томаш отправил файл по электронной почте."
   },
   "u9-l3.speak-musim-ulozit-subor.en": {
     "en": "I have to save the file.",
@@ -1104,10 +1088,6 @@
       "Купить что-то себе — **kúpiť si**, как dať si kávu: **si** kúpila tričko — «купила себе футболку». Si — это «себе», и после него идёт предмет.",
       "Эмма — женщина, поэтому прошедшее время на **-la**: **kúpila** (купила). Kúpil — для мужчины."
     ]
-  },
-  "u9-l4.listen-kedy-si-sa.en": {
-    "en": "When did you come back?",
-    "t": "Когда ты вернулся?"
   },
   "u9-l4.grammar-small-words-stick.title": {
     "en": "Small words stick together",
@@ -1346,10 +1326,6 @@
       "улица"
     ]
   },
-  "u9-l5.listen-ake-je-vase.en": {
-    "en": "What is your permanent address?",
-    "t": "Какое у вас постоянное место жительства?"
-  },
   "u9-l5.narodnost.en": {
     "en": "nationality",
     "t": "национальность"
@@ -1458,6 +1434,42 @@
     "en": "Please sign here.",
     "t": "Распишитесь здесь, пожалуйста."
   },
+  "u9-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Письменная практика"
+  },
+  "u9-pisanie.listen-kde-sa-mozem.en": {
+    "en": "Where can I register?",
+    "t": "Где я могу зарегистрироваться?"
+  },
+  "u9-pisanie.listen-necitim-sa-dobre.en": {
+    "en": "I don't feel well, I've got a headache.",
+    "t": "Я плохо себя чувствую, у меня болит голова."
+  },
+  "u9-pisanie.listen-kde-je-ten.en": {
+    "en": "Where's that file?",
+    "t": "Где этот файл?"
+  },
+  "u9-pisanie.listen-tomas-poslal-subor.en": {
+    "en": "Tomáš sent the file by e-mail.",
+    "t": "Томаш отправил файл по электронной почте."
+  },
+  "u9-pisanie.listen-kedy-si-sa.en": {
+    "en": "When did you come back?",
+    "t": "Когда ты вернулся?"
+  },
+  "u9-pisanie.listen-ake-je-vase.en": {
+    "en": "What is your permanent address?",
+    "t": "Какое у вас постоянное место жительства?"
+  },
+  "u9-pisanie.listen-stretli-sme-sa.en": {
+    "en": "We met during the break.",
+    "t": "Мы встретились на перерыве."
+  },
+  "u9-pisanie.listen-subor-som-poslal.en": {
+    "en": "I sent the file by e-mail.",
+    "t": "Я отправил файл по электронной почте."
+  },
   "u9-l6.titleEn": {
     "en": "Review",
     "t": "Повторение"
@@ -1499,10 +1511,6 @@
       "Презентацию сохраняют — это дополнение, поэтому prezentácia меняет -a на **-u**: uložiť **prezentáciu**, как «сохранить презентацию».",
       "«Сохранить» — **uložiť**, как в uložiť súbor. Otvoriť — «открыть» (ср. «отворить»)."
     ]
-  },
-  "u9-l6.listen-stretli-sme-sa.en": {
-    "en": "We met during the break.",
-    "t": "Мы встретились на перерыве."
   },
   "u9-l6.choice-tomas-si-dal.question": {
     "en": "What does this mean?",
@@ -1592,10 +1600,6 @@
   "u9-l6.fill-emma-klikla-na.why": {
     "en": "You click **on** something: **kliknúť na** súbor.",
     "t": "Кликают на что-то, как и у нас «нажать на файл»: **kliknúť na** súbor."
-  },
-  "u9-l6.listen-subor-som-poslal.en": {
-    "en": "I sent the file by e-mail.",
-    "t": "Я отправил файл по электронной почте."
   },
   "u9-l6.build-emma-a-lucia.prompt": {
     "en": "Emma and Lucia are looking forward to the conference.",

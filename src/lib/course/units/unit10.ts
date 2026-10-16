@@ -176,7 +176,6 @@ export const unit10: Unit = {
             { sk: "Je zima.", en: "It's cold." },
           ],
         },
-        { id: "listen-dnes-je-oblacno", type: "listen", sk: "Dnes je oblačno a prší.", en: "Today it's cloudy and raining." },
         {
           id: "build-v-kosiciach-je",
           type: "build",
@@ -373,7 +372,6 @@ export const unit10: Unit = {
             { wrong: "v", right: "o", why: "About is **o**: článok **o** Bratislave. V Bratislave would mean in Bratislava." },
           ],
         },
-        { id: "listen-emma-byva-s", type: "listen", sk: "Emma býva s Luciou na internáte.", en: "Emma lives in the dorm with Lucia." },
         {
           id: "build-tento-darcek-je",
           type: "build",
@@ -552,7 +550,6 @@ export const unit10: Unit = {
             { sk: "chcela", en: "she wanted" },
           ],
         },
-        { id: "listen-uz-si-cital", type: "listen", sk: "Už si čítal noviny?", en: "Have you read the paper yet?" },
         {
           id: "fill-uz-si-jedol",
           type: "fill",
@@ -697,7 +694,6 @@ export const unit10: Unit = {
             { wrong: "študujeme", right: "študovať", why: "After budeme comes the infinitive, the -ť form: budeme **študovať**. Študujeme is the present." },
           ],
         },
-        { id: "listen-cez-vikend-bude", type: "listen", sk: "Cez víkend bude Marek variť.", en: "Marek will be cooking at the weekend." },
         {
           id: "build-zajtra-nebudem-v",
           type: "build",
@@ -750,7 +746,6 @@ export const unit10: Unit = {
             { wrong: "ulica", right: "ulici", why: "Saying where takes **na** + the locative, and after c the ending is **-i**: na Hlavnej **ulici**. Ulica is the subject form." },
           ],
         },
-        { id: "listen-v-sobotu-bolo", type: "listen", sk: "V sobotu bolo pekné počasie.", en: "The weather was nice on Saturday." },
         {
           id: "match-pondelok",
           type: "match",
@@ -830,7 +825,6 @@ export const unit10: Unit = {
           why: "Pani Horváthová is ona (she), so the verb has no ending: **číta**. Čítam goes with ja, čítajú with oni.",
           ref: "u2-l4#grammar-verbs-ending-each",
         },
-        { id: "listen-dnes-je-slnecno", type: "listen", sk: "Dnes je slnečno a teplo.", en: "Today it's sunny and warm." },
         {
           id: "build-pan-kovac-nikdy",
           type: "build",
@@ -852,6 +846,29 @@ export const unit10: Unit = {
           distractors: ["see", "city"],
         },
         { id: "speak-to-je-zaujimavy", type: "speak", sk: "To je zaujímavý článok.", en: "That's an interesting article." },
+      ],
+    },
+    // Written practice: memorize rounds (four words at a time, dealt from the cards
+    // since the previous writing lesson), then most of the unit's dictations.
+    {
+      id: "u10-pisanie",
+      title: "Píšeme",
+      titleEn: "Written practice",
+      kind: "writing",
+      exercises: [
+        { id: "memorize-1", type: "memorize" },
+        { id: "memorize-2", type: "memorize" },
+        { id: "listen-dnes-je-oblacno", type: "listen", sk: "Dnes je oblačno a prší.", en: "Today it's cloudy and raining." },
+        { id: "memorize-3", type: "memorize" },
+        { id: "memorize-4", type: "memorize" },
+        { id: "memorize-5", type: "memorize" },
+        { id: "listen-emma-byva-s", type: "listen", sk: "Emma býva s Luciou na internáte.", en: "Emma lives in the dorm with Lucia." },
+        { id: "listen-uz-si-cital", type: "listen", sk: "Už si čítal noviny?", en: "Have you read the paper yet?" },
+        { id: "listen-cez-vikend-bude", type: "listen", sk: "Cez víkend bude Marek variť.", en: "Marek will be cooking at the weekend." },
+        { id: "listen-v-sobotu-bolo", type: "listen", sk: "V sobotu bolo pekné počasie.", en: "The weather was nice on Saturday." },
+        { id: "listen-dnes-je-slnecno", type: "listen", sk: "Dnes je slnečno a teplo.", en: "Today it's sunny and warm." },
+        { id: "listen-dnes-musim-ist", type: "listen", sk: "Dnes musím ísť na univerzitu.", en: "Today I have to go to the university." },
+        { id: "listen-vcera-sme-nikde", type: "listen", sk: "Včera sme nikde neboli.", en: "We didn't go anywhere yesterday." },
       ],
     },
     {
@@ -913,7 +930,6 @@ export const unit10: Unit = {
             { wrong: "slovenská", right: "slovenské", why: "In the plural, adjectives for women and things end in **-é**: **slovenské** kamarátky. Slovenská is for one feminine word." },
           ],
         },
-        { id: "listen-dnes-musim-ist", type: "listen", sk: "Dnes musím ísť na univerzitu.", en: "Today I have to go to the university." },
         {
           id: "match-musim",
           type: "match",
@@ -999,7 +1015,6 @@ export const unit10: Unit = {
           why: "After **s** (with), ty becomes **tebou**: s **tebou**. Teba goes with pre (pre teba), tebe with o (o tebe).",
           ref: "u6-l5#grammar-me-you",
         },
-        { id: "listen-vcera-sme-nikde", type: "listen", sk: "Včera sme nikde neboli.", en: "We didn't go anywhere yesterday." },
         { id: "speak-uz-hovorim-po", type: "speak", sk: "Už hovorím po slovensky!", en: "I can speak Slovak now!" },
       ],
     },

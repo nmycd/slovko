@@ -317,10 +317,6 @@
       "Sifat oʻz otiga — ayol jinsidagi kuchyňa soʻziga moslashadi, shuning uchun **-á** bilan tugaydi: veľk**á**. Veľké esa auto kabi oʻrta jinsdagi otlar uchun."
     ]
   },
-  "u3-l2.listen-izba-je-mala.en": {
-    "en": "The room is small but nice.",
-    "t": "Xona kichik, lekin chiroyli."
-  },
   "u3-l2.grammar-aky-what-it.title": {
     "en": "Aký? What is it like?",
     "t": "Aký? U qanday?"
@@ -536,10 +532,6 @@
       "Emma — ayol, shuning uchun **milá**. Milé — oʻrta jins shakli, auto kabi soʻzlar uchun."
     ]
   },
-  "u3-aky-je.listen-tomas-je-silny.en": {
-    "en": "Tomáš is strong and fast.",
-    "t": "Tomash kuchli va tez."
-  },
   "u3-aky-je.choice-emma-nie-je-smutna.question": {
     "en": "Which sentence is correct?",
     "t": "Qaysi gap toʻgʻri?"
@@ -649,10 +641,6 @@
   "u3-l3.fill-stol-je-vlavo.en": {
     "en": "The desk is on the left.",
     "t": "Stol chapda."
-  },
-  "u3-l3.listen-lampa-je-vpravo.en": {
-    "en": "The lamp is on the right.",
-    "t": "Chiroq oʻngda."
   },
   "u3-l3.vpredu-vzadu.en": {
     "en": "at the front – at the back",
@@ -873,10 +861,6 @@
       "Egalik olmoshi narsaga moslashadi, oʻzbekchadagi «bizning» esa oʻzgarmaydi. Kuchyňa ayol jinsida: **naša**. Naše esa okno kabi oʻrta jinsdagi otlar uchun."
     ]
   },
-  "u3-l4.listen-jeho-postel-je.en": {
-    "en": "His bed is on the left.",
-    "t": "Uning karavoti chapda."
-  },
   "u3-l4.grammar-ci-whose.title": {
     "en": "Čí? Whose?",
     "t": "Čí? Kimniki?"
@@ -1038,10 +1022,6 @@
   "u3-l5.fill-chodba-je-v.en": {
     "en": "The hallway is in the middle.",
     "t": "Yoʻlak oʻrtada."
-  },
-  "u3-l5.listen-spalna-je-vlavo.en": {
-    "en": "The bedroom is on the left and the living room on the right.",
-    "t": "Yotoq xonasi chapda, mehmonxona esa oʻngda."
   },
   "u3-l5.drahy-lacny.en": {
     "en": "expensive – cheap",
@@ -1257,10 +1237,6 @@
       "Okno oʻrta jinsda, shuning uchun «bizniki» — **naše**, xuddi ktoré kabi. Naša ayol jinsidagi otlar bilan keladi."
     ]
   },
-  "u3-l6.listen-ktora-skrina-je.en": {
-    "en": "Which wardrobe is mine?",
-    "t": "Qaysi kiyim javoni meniki?"
-  },
   "u3-l6.grammar-whose-tomas-s.title": {
     "en": "Whose? Tomáš's, Lucia's",
     "t": "Kimniki? Tomashniki, Lusiyaniki"
@@ -1393,6 +1369,46 @@
     "en": "Which room is yours?",
     "t": "Qaysi xona seniki?"
   },
+  "u3-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Yozma mashq"
+  },
+  "u3-pisanie.listen-izba-je-mala.en": {
+    "en": "The room is small but nice.",
+    "t": "Xona kichik, lekin chiroyli."
+  },
+  "u3-pisanie.listen-tomas-je-silny.en": {
+    "en": "Tomáš is strong and fast.",
+    "t": "Tomash kuchli va tez."
+  },
+  "u3-pisanie.listen-lampa-je-vpravo.en": {
+    "en": "The lamp is on the right.",
+    "t": "Chiroq oʻngda."
+  },
+  "u3-pisanie.listen-jeho-postel-je.en": {
+    "en": "His bed is on the left.",
+    "t": "Uning karavoti chapda."
+  },
+  "u3-pisanie.listen-spalna-je-vlavo.en": {
+    "en": "The bedroom is on the left and the living room on the right.",
+    "t": "Yotoq xonasi chapda, mehmonxona esa oʻngda."
+  },
+  "u3-pisanie.listen-ktora-skrina-je.en": {
+    "en": "Which wardrobe is mine?",
+    "t": "Qaysi kiyim javoni meniki?"
+  },
+  "u3-pisanie.listen-vratnica-je-dole.en": {
+    "en": "The front desk is downstairs, on the left.",
+    "t": "Qorovulxona pastda, chapda."
+  },
+  "u3-pisanie.listen-ich-byt-je.en": {
+    "en": "Their flat is cheap.",
+    "t": "Ularning kvartirasi arzon."
+  },
+  "u3-pisanie.listen-jeho-postel-je-2.en": {
+    "en": "His bed is old.",
+    "t": "Uning karavoti eski."
+  },
   "u3-l7.titleEn": {
     "en": "Review",
     "t": "Takrorlash"
@@ -1420,10 +1436,6 @@
   "u3-l7.fill-nasa-kuchyna-je.why": {
     "en": "Kuchyňa is feminine, so the adjective takes **-á**: mal**á**, like naša before it.",
     "t": "Kuchyňa ayol jinsida, shuning uchun sifat **-á** oladi: mal**á**, oldidagi naša kabi."
-  },
-  "u3-l7.listen-vratnica-je-dole.en": {
-    "en": "The front desk is downstairs, on the left.",
-    "t": "Qorovulxona pastda, chapda."
   },
   "u3-l7.choice-cia-je-to.question": {
     "en": "What does this mean?",
@@ -1502,10 +1514,6 @@
     "en": "**Aká?** asks what the room is like, so the answer describes it. Tá vľavo answers ktorá (which one), and Moja answers čia (whose).",
     "t": "**Aká?** xona qandayligini soʻraydi, shuning uchun javob uni tasvirlaydi. Tá vľavo — ktorá (qaysi biri?) savoliga, Moja esa čia (kimniki?) savoliga javob."
   },
-  "u3-l7.listen-ich-byt-je.en": {
-    "en": "Their flat is cheap.",
-    "t": "Ularning kvartirasi arzon."
-  },
   "u3-l7.build-ktore-okno-je.prompt": {
     "en": "Which window is yours?",
     "t": "Qaysi deraza seniki?"
@@ -1549,10 +1557,6 @@
       "«Oʻngda» — **vpravo**. Vľavo buning teskarisi: «chapda».",
       "«Orqada» — **vzadu**. Vpredu buning teskarisi: «oldinda»."
     ]
-  },
-  "u3-l7.listen-jeho-postel-je.en": {
-    "en": "His bed is old.",
-    "t": "Uning karavoti eski."
   },
   "u3-l7.speak-aka-je-tvoja.en": {
     "en": "What's your room like?",

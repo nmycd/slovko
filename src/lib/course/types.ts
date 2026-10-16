@@ -88,6 +88,21 @@ export type SpellExercise = {
   fromMeaning?: boolean;
 };
 
+/** A word to memorize in writing practice: Slovak, and its meaning in the learner's language. */
+export type MemoWord = { sk: string; en: string };
+
+/**
+ * Writing practice only: memorize how four words are spelled, then type each from its
+ * meaning once the Slovak is hidden and the rows are shuffled. Written as a bare stub;
+ * the words are dealt when the lesson starts, from the lesson's `wordPool`.
+ */
+export type MemorizeExercise = {
+  id: ExerciseId;
+  type: "memorize";
+  /** Dealt by the lesson player. */
+  words?: MemoWord[];
+};
+
 /** Tap matching pairs. */
 export type MatchExercise = {
   id: ExerciseId;
@@ -162,10 +177,11 @@ export type Exercise =
   | MatchExercise
   | SpeakExercise
   | FillExercise
-  | GrammarExercise;
+  | GrammarExercise
+  | MemorizeExercise;
 
 /** "grammar" lessons open with grammar cards; "review" lessons mix earlier material. */
-export type LessonKind = "vocab" | "grammar" | "review";
+export type LessonKind = "vocab" | "grammar" | "review" | "writing";
 
 export type Lesson = {
   id: string;
@@ -174,6 +190,11 @@ export type Lesson = {
   /** Defaults to "vocab". */
   kind?: LessonKind;
   exercises: Exercise[];
+  /**
+   * Writing lessons, filled as the course loads: the words taught on intro cards since
+   * the previous writing lesson, which its memorize rounds are dealt from.
+   */
+  wordPool?: MemoWord[];
 };
 
 export type Unit = {

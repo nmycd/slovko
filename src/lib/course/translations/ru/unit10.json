@@ -252,10 +252,6 @@
       "Холодно."
     ]
   },
-  "u10-l2.listen-dnes-je-oblacno.en": {
-    "en": "Today it's cloudy and raining.",
-    "t": "Сегодня облачно и идёт дождь."
-  },
   "u10-l2.build-v-kosiciach-je.answers": {
     "en": [
       "It's sunny in Košice.",
@@ -597,10 +593,6 @@
       "**O** (о) требует предложного падежа, поэтому Bratislava меняет -a на **-e**: o **Bratislave** — «о Братиславе».",
       "«О» — это **o**: článok **o** Bratislave, «статья о Братиславе». V Bratislave значило бы «в Братиславе»."
     ]
-  },
-  "u10-l3.listen-emma-byva-s.en": {
-    "en": "Emma lives in the dorm with Lucia.",
-    "t": "Эмма живёт с Луцией в общежитии."
   },
   "u10-l3.build-tento-darcek-je.prompt": {
     "en": "This gift is for Marek.",
@@ -944,10 +936,6 @@
       "она хотела"
     ]
   },
-  "u10-l4.listen-uz-si-cital.en": {
-    "en": "Have you read the paper yet?",
-    "t": "Ты уже читал газету?"
-  },
   "u10-l4.fill-uz-si-jedol.en": {
     "en": "Have you eaten yet? — No, not yet.",
     "t": "Ты уже ел? — Нет, ещё нет."
@@ -1226,10 +1214,6 @@
       "После budeme идёт инфинитив на -ť: budeme **študovať**, как «будем заниматься». Študujeme — настоящее время."
     ]
   },
-  "u10-budem.listen-cez-vikend-bude.en": {
-    "en": "Marek will be cooking at the weekend.",
-    "t": "На выходных Марек будет готовить."
-  },
   "u10-budem.build-zajtra-nebudem-v.answers": {
     "en": [
       "Tomorrow I won't be at school, I'll be working.",
@@ -1299,10 +1283,6 @@
       "Kaviareň — женского рода, хоть и на согласный (как «ночь»), поэтому прилагательное на **-á**: **nová** kaviareň. Nový — для мужского рода.",
       "Отвечаем на «где?»: **na** + предложный, а после c окончание **-i**: na Hlavnej **ulici**, «на Главной улице». Ulica — именительный."
     ]
-  },
-  "u10-l5.listen-v-sobotu-bolo.en": {
-    "en": "The weather was nice on Saturday.",
-    "t": "В субботу была хорошая погода."
   },
   "u10-l5.match-pondelok.pairs": {
     "en": [
@@ -1385,10 +1365,6 @@
     "en": "Pani Horváthová is ona (she), so the verb has no ending: **číta**. Čítam goes with ja, čítajú with oni.",
     "t": "Госпожа Горватова — ona (она), поэтому у глагола нет окончания: **číta** (читает). Čítam — с ja, čítajú — с oni."
   },
-  "u10-l5.listen-dnes-je-slnecno.en": {
-    "en": "Today it's sunny and warm.",
-    "t": "Сегодня солнечно и тепло."
-  },
   "u10-l5.build-pan-kovac-nikdy.prompt": {
     "en": "Mr Kováč never reads magazines.",
     "t": "Пан Ковач никогда не читает журналы."
@@ -1427,6 +1403,42 @@
   "u10-l5.speak-to-je-zaujimavy.en": {
     "en": "That's an interesting article.",
     "t": "Это интересная статья."
+  },
+  "u10-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Письменная практика"
+  },
+  "u10-pisanie.listen-dnes-je-oblacno.en": {
+    "en": "Today it's cloudy and raining.",
+    "t": "Сегодня облачно и идёт дождь."
+  },
+  "u10-pisanie.listen-emma-byva-s.en": {
+    "en": "Emma lives in the dorm with Lucia.",
+    "t": "Эмма живёт с Луцией в общежитии."
+  },
+  "u10-pisanie.listen-uz-si-cital.en": {
+    "en": "Have you read the paper yet?",
+    "t": "Ты уже читал газету?"
+  },
+  "u10-pisanie.listen-cez-vikend-bude.en": {
+    "en": "Marek will be cooking at the weekend.",
+    "t": "На выходных Марек будет готовить."
+  },
+  "u10-pisanie.listen-v-sobotu-bolo.en": {
+    "en": "The weather was nice on Saturday.",
+    "t": "В субботу была хорошая погода."
+  },
+  "u10-pisanie.listen-dnes-je-slnecno.en": {
+    "en": "Today it's sunny and warm.",
+    "t": "Сегодня солнечно и тепло."
+  },
+  "u10-pisanie.listen-dnes-musim-ist.en": {
+    "en": "Today I have to go to the university.",
+    "t": "Сегодня мне нужно идти в университет."
+  },
+  "u10-pisanie.listen-vcera-sme-nikde.en": {
+    "en": "We didn't go anywhere yesterday.",
+    "t": "Вчера мы нигде не были."
   },
   "u10-l6.titleEn": {
     "en": "The big review",
@@ -1477,10 +1489,6 @@
       "Kamarátka — женского рода, поэтому «два» — **dve**, как «две подруги». Dva — для мужского рода.",
       "Во множественном числе прилагательные к женщинам и вещам оканчиваются на **-é**: **slovenské** kamarátky. Slovenská — для одной."
     ]
-  },
-  "u10-l6.listen-dnes-musim-ist.en": {
-    "en": "Today I have to go to the university.",
-    "t": "Сегодня мне нужно идти в университет."
   },
   "u10-l6.match-musim.pairs": {
     "en": [
@@ -1570,10 +1578,6 @@
   "u10-l6.fill-lucia-mozem-ist.why": {
     "en": "After **s** (with), ty becomes **tebou**: s **tebou**. Teba goes with pre (pre teba), tebe with o (o tebe).",
     "t": "После **s** (с) ty превращается в **tebou**: s **tebou**, как «с тобой». Teba — после pre (pre teba), tebe — после o (o tebe)."
-  },
-  "u10-l6.listen-vcera-sme-nikde.en": {
-    "en": "We didn't go anywhere yesterday.",
-    "t": "Вчера мы нигде не были."
   },
   "u10-l6.speak-uz-hovorim-po.en": {
     "en": "I can speak Slovak now!",

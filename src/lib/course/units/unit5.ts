@@ -136,7 +136,6 @@ export const unit5: Unit = {
           why: "To say not, put **ne-** on the verb as one word: máme → **nemáme**. Nie sme is the not form of byť (we aren't), and nemajú is for oni.",
           ref: "u2-l5#grammar-not-ne-verb",
         },
-        { id: "listen-mate-cerstvy-chlieb", type: "listen", sk: "Máte čerstvý chlieb?", en: "Do you have fresh bread?" },
         { id: "speak-co-potrebujeme-na", type: "speak", sk: "Čo potrebujeme na oslavu?", en: "What do we need for the party?" },
       ],
     },
@@ -246,7 +245,6 @@ export const unit5: Unit = {
           why: "Víno is neuter, and neuter nouns don't change as objects, so the adjective stays **dobré**. Dobrú is for feminine nouns, dobrého for male people.",
           ref: "u5-l2#grammar-adjectives-change-too",
         },
-        { id: "listen-kupim-kavu-a", type: "listen", sk: "Kúpim kávu a čerstvý chlieb.", en: "I'll buy coffee and fresh bread." },
         {
           id: "grammar-people-koho",
           type: "grammar",
@@ -438,7 +436,6 @@ export const unit5: Unit = {
           optionsLang: "en",
           answer: 0,
         },
-        { id: "listen-prosim-si-chlieb", type: "listen", sk: "Prosím si chlieb a dve jablká.", en: "Bread and two apples, please." },
         {
           id: "build-mate-cerstvu-zeleninu",
           type: "build",
@@ -530,7 +527,6 @@ export const unit5: Unit = {
           en: "present, gift",
           note: "Emma and Tomáš are looking for a present for Lucia's party.",
         },
-        { id: "listen-emma-a-tomas", type: "listen", sk: "Emma a Tomáš hľadajú darček.", en: "Emma and Tomáš are looking for a present." },
         {
           id: "aku-farbu-mas",
           type: "intro",
@@ -570,7 +566,6 @@ export const unit5: Unit = {
             { wrong: "hľadám", right: "hľadá", why: "Emma is **ona**, so hľadať takes the ona form, with no ending: **hľadá**. Hľadám is the ja form." },
           ],
         },
-        { id: "listen-kolko-stoji-cierny", type: "listen", sk: "Koľko stojí čierny sveter?", en: "How much is the black sweater?" },
         {
           id: "build-lucia-ma-rada",
           type: "build",
@@ -753,7 +748,6 @@ export const unit5: Unit = {
             { wrong: "Pozývam", right: "Pozývame", why: "“We” is **my**, so pozývať takes the my ending **-me**: **pozývame**. Pozývam is the ja form, I'm inviting." },
           ],
         },
-        { id: "listen-pozyvam-ta-na", type: "listen", sk: "Pozývam ťa na oslavu.", en: "I'm inviting you to the party." },
         {
           id: "build-cakam-na-teba",
           type: "build",
@@ -882,7 +876,6 @@ export const unit5: Unit = {
             { wrong: "kamaráti", right: "kamarátov", why: "The friends are the object, and men as objects end in **-ov**: kamarát**ov**. Kamaráti is the subject form." },
           ],
         },
-        { id: "listen-lucia-pozyva-kamaratov", type: "listen", sk: "Lucia pozýva kamarátov a kamarátky.", en: "Lucia is inviting her friends." },
         {
           id: "build-kupim-zelene-jablka",
           type: "build",
@@ -1020,7 +1013,6 @@ export const unit5: Unit = {
           why: "The thing you like is the subject. Tričko is one thing, so it's **páči**; páčia is for more than one.",
           ref: "u5-mam-rad#grammar-paci-sa-mi",
         },
-        { id: "listen-nepaci-sa-mi", type: "listen", sk: "Nepáči sa mi ten film.", en: "I don't like that film." },
         {
           id: "build-emma-rada-plava",
           type: "build",
@@ -1156,7 +1148,6 @@ export const unit5: Unit = {
             { wrong: "Idete", right: "Ideme", why: "“We” is **my**, so ísť takes the my form **ideme**. Idete is for vy." },
           ],
         },
-        { id: "listen-idem-po-chlieb", type: "listen", sk: "Idem po chlieb a víno.", en: "I'm going to get bread and wine." },
         {
           id: "build-co-chces-pit",
           type: "build",
@@ -1310,7 +1301,6 @@ export const unit5: Unit = {
           en: "Lots of health, happiness and love!",
           note: "A classic birthday wish, often added after “Všetko najlepšie!”.",
         },
-        { id: "listen-vsetko-najlepsie-lucia", type: "listen", sk: "Všetko najlepšie, Lucia!", en: "Happy birthday, Lucia!" },
         {
           id: "build-darcek-je-pre",
           type: "build",
@@ -1391,6 +1381,33 @@ export const unit5: Unit = {
         { id: "speak-vsetko-najlepsie", type: "speak", sk: "Všetko najlepšie!", en: "Happy birthday!" },
       ],
     },
+    // Written practice: memorize rounds (four words at a time, dealt from the cards
+    // since the previous writing lesson), then most of the unit's dictations.
+    {
+      id: "u5-pisanie",
+      title: "Píšeme",
+      titleEn: "Written practice",
+      kind: "writing",
+      exercises: [
+        { id: "memorize-1", type: "memorize" },
+        { id: "memorize-2", type: "memorize" },
+        { id: "listen-mate-cerstvy-chlieb", type: "listen", sk: "Máte čerstvý chlieb?", en: "Do you have fresh bread?" },
+        { id: "memorize-3", type: "memorize" },
+        { id: "memorize-4", type: "memorize" },
+        { id: "memorize-5", type: "memorize" },
+        { id: "listen-kupim-kavu-a", type: "listen", sk: "Kúpim kávu a čerstvý chlieb.", en: "I'll buy coffee and fresh bread." },
+        { id: "listen-prosim-si-chlieb", type: "listen", sk: "Prosím si chlieb a dve jablká.", en: "Bread and two apples, please." },
+        { id: "listen-emma-a-tomas", type: "listen", sk: "Emma a Tomáš hľadajú darček.", en: "Emma and Tomáš are looking for a present." },
+        { id: "listen-kolko-stoji-cierny", type: "listen", sk: "Koľko stojí čierny sveter?", en: "How much is the black sweater?" },
+        { id: "listen-pozyvam-ta-na", type: "listen", sk: "Pozývam ťa na oslavu.", en: "I'm inviting you to the party." },
+        { id: "listen-lucia-pozyva-kamaratov", type: "listen", sk: "Lucia pozýva kamarátov a kamarátky.", en: "Lucia is inviting her friends." },
+        { id: "listen-nepaci-sa-mi", type: "listen", sk: "Nepáči sa mi ten film.", en: "I don't like that film." },
+        { id: "listen-idem-po-chlieb", type: "listen", sk: "Idem po chlieb a víno.", en: "I'm going to get bread and wine." },
+        { id: "listen-vsetko-najlepsie-lucia", type: "listen", sk: "Všetko najlepšie, Lucia!", en: "Happy birthday, Lucia!" },
+        { id: "listen-kupim-cerstvu-sunku", type: "listen", sk: "Kúpim čerstvú šunku a syr.", en: "I'll buy fresh ham and cheese." },
+        { id: "listen-dnes-mame-oslavu", type: "listen", sk: "Dnes máme oslavu!", en: "We're having a party today!" },
+      ],
+    },
     {
       id: "u5-l7",
       title: "Opakovanie",
@@ -1419,7 +1436,6 @@ export const unit5: Unit = {
           why: "Sukňu is a feminine object of potrebuje, so its adjective changes -á to **-ú**: nová → **novú**. Nový is the masculine form.",
           ref: "u5-l2#grammar-adjectives-change-too",
         },
-        { id: "listen-kupim-cerstvu-sunku", type: "listen", sk: "Kúpim čerstvú šunku a syr.", en: "I'll buy fresh ham and cheese." },
         {
           id: "fill-emma-hlada-bielu",
           type: "fill",
@@ -1529,7 +1545,6 @@ export const unit5: Unit = {
           answers: ["I like him.", "I like it."],
           distractors: ["her", "have"],
         },
-        { id: "listen-dnes-mame-oslavu", type: "listen", sk: "Dnes máme oslavu!", en: "We're having a party today!" },
         { id: "speak-pozyvam-ta-na", type: "speak", sk: "Pozývam ťa na oslavu.", en: "I'm inviting you to the party." },
       ],
     },

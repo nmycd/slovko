@@ -301,7 +301,6 @@ export const unit6: Unit = {
             { wrong: "dám", right: "Dáme", why: "“We” is **my**, so dať takes the my ending **-me**: **dáme** si. Dám is the ja form." },
           ],
         },
-        { id: "listen-caj-je-horuci", type: "listen", sk: "Čaj je horúci.", en: "The tea is hot." },
         {
           id: "build-chuti-ti-polievka",
           type: "build",
@@ -409,7 +408,6 @@ export const unit6: Unit = {
           why: "After **s**, masculine nouns add **-om**, names too: Tomáš**om**. Tomáša is the object form, as in Hľadám Tomáša.",
           ref: "u6-l3#grammar-s-instrumental",
         },
-        { id: "listen-tomas-je-s", type: "listen", sk: "Tomáš je s Marekom.", en: "Tomáš is with Marek." },
         {
           id: "grammar-adjectives-after-s",
           type: "grammar",
@@ -624,7 +622,6 @@ export const unit6: Unit = {
             { wrong: "idem", right: "Ideme", why: "“We” is **my**, so ísť takes the my form **ideme**. Idem is for ja." },
           ],
         },
-        { id: "listen-idem-domov-peso", type: "listen", sk: "Idem domov pešo.", en: "I'm walking home." },
         {
           id: "cestujem-s-kamaratmi",
           type: "intro",
@@ -765,7 +762,6 @@ export const unit6: Unit = {
             { wrong: "rodičov", right: "rodičmi", why: "Rodičov is the object form (Pozývam rodičov). After s (with), it's the instrumental: rodič**mi**." },
           ],
         },
-        { id: "listen-tomas-hra-futbal", type: "listen", sk: "Tomáš hrá futbal s kamarátmi.", en: "Tomáš plays football with his friends." },
         {
           id: "build-lucia-rada-hovori",
           type: "build",
@@ -856,7 +852,6 @@ export const unit6: Unit = {
             { wrong: "idete", right: "Ideš", why: "Tomáš is one friend, so use **ty**: ísť takes the ty form **ideš**. Idete is for vy." },
           ],
         },
-        { id: "listen-chces-ist-so", type: "listen", sk: "Chceš ísť so mnou?", en: "Do you want to go with me?" },
         {
           id: "grammar-where-pred-za",
           type: "grammar",
@@ -948,7 +943,6 @@ export const unit6: Unit = {
           why: "**Za** (behind) takes the instrumental when it says where, and ty becomes **tebou**, as in s tebou. Teba is the form after pre: pre teba.",
           ref: "u6-l5#grammar-where-pred-za",
         },
-        { id: "listen-marek-caka-za", type: "listen", sk: "Marek čaká za reštauráciou.", en: "Marek is waiting behind the restaurant." },
         {
           id: "build-pan-kovac-stoji",
           type: "build",
@@ -1087,7 +1081,6 @@ export const unit6: Unit = {
           optionsLang: "sk",
           answer: 0,
         },
-        { id: "listen-co-jes-tomas", type: "listen", sk: "Čo ješ, Tomáš?", en: "What are you eating, Tomáš?" },
         {
           id: "fill-ja-jem-rybu",
           type: "fill",
@@ -1152,8 +1145,32 @@ export const unit6: Unit = {
           why: "After **chcieť**, the next verb is an infinitive, the -ť form: chcem sa **stať**. Stanem already means “I'll become”.",
           ref: "u5-l5#grammar-want-can-must",
         },
-        { id: "listen-pozvem-ta-na", type: "listen", sk: "Pozvem ťa na kávu.", en: "I'll buy you a coffee." },
         { id: "speak-pozvem-ta-na", type: "speak", sk: "Pozvem ťa na večeru.", en: "I'll invite you to dinner." },
+      ],
+    },
+    // Written practice: memorize rounds (four words at a time, dealt from the cards
+    // since the previous writing lesson), then most of the unit's dictations.
+    {
+      id: "u6-pisanie",
+      title: "Píšeme",
+      titleEn: "Written practice",
+      kind: "writing",
+      exercises: [
+        { id: "memorize-1", type: "memorize" },
+        { id: "memorize-2", type: "memorize" },
+        { id: "listen-caj-je-horuci", type: "listen", sk: "Čaj je horúci.", en: "The tea is hot." },
+        { id: "memorize-3", type: "memorize" },
+        { id: "memorize-4", type: "memorize" },
+        { id: "memorize-5", type: "memorize" },
+        { id: "listen-tomas-je-s", type: "listen", sk: "Tomáš je s Marekom.", en: "Tomáš is with Marek." },
+        { id: "listen-idem-domov-peso", type: "listen", sk: "Idem domov pešo.", en: "I'm walking home." },
+        { id: "listen-tomas-hra-futbal", type: "listen", sk: "Tomáš hrá futbal s kamarátmi.", en: "Tomáš plays football with his friends." },
+        { id: "listen-chces-ist-so", type: "listen", sk: "Chceš ísť so mnou?", en: "Do you want to go with me?" },
+        { id: "listen-marek-caka-za", type: "listen", sk: "Marek čaká za reštauráciou.", en: "Marek is waiting behind the restaurant." },
+        { id: "listen-co-jes-tomas", type: "listen", sk: "Čo ješ, Tomáš?", en: "What are you eating, Tomáš?" },
+        { id: "listen-pozvem-ta-na", type: "listen", sk: "Pozvem ťa na kávu.", en: "I'll buy you a coffee." },
+        { id: "listen-chuti-ti-ryba", type: "listen", sk: "Chutí ti ryba?", en: "Do you like the fish?" },
+        { id: "listen-tomas-pije-pivo", type: "listen", sk: "Tomáš pije pivo s Marekom.", en: "Tomáš is drinking beer with Marek." },
       ],
     },
     {
@@ -1204,7 +1221,6 @@ export const unit6: Unit = {
             { sk: "s ryžou", en: "with rice" },
           ],
         },
-        { id: "listen-chuti-ti-ryba", type: "listen", sk: "Chutí ti ryba?", en: "Do you like the fish?" },
         {
           id: "fill-marek-stoji-za",
           type: "fill",
@@ -1287,7 +1303,6 @@ export const unit6: Unit = {
           why: "With **ja**, pozvať ends in **-em**: pozv**em** (I'll invite). Pozve goes with on or ona, pozveme with my (we).",
           ref: "u6-l6#grammar-pozvat-pit-niest",
         },
-        { id: "listen-tomas-pije-pivo", type: "listen", sk: "Tomáš pije pivo s Marekom.", en: "Tomáš is drinking beer with Marek." },
         {
           id: "build-lucia-sa-chce",
           type: "build",

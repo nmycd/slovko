@@ -581,10 +581,6 @@
     "en": "How do you say “in summer”?",
     "t": "Як сказати «влітку»?"
   },
-  "u8-l2.listen-v-decembri-su.en": {
-    "en": "Christmas is in December.",
-    "t": "Різдво в грудні."
-  },
   "u8-l2.build-v-zime-som.answers": {
     "en": [
       "In winter I'm at home in Ireland.",
@@ -939,10 +935,6 @@
     "en": "Emma is a woman, so the past tense ends in **-a**: narodil**a** som sa. The date needs its date forms too: **tretieho mája**, not tretí máj.",
     "t": "Емма — жінка, тож минулий час на **-a**: narodil**a** som sa, «я народилася». А дата — у формі «третього травня»: **tretieho mája**, не tretí máj."
   },
-  "u8-l3.listen-narodila-som-sa.en": {
-    "en": "I was born on the second of June.",
-    "t": "Я народилася другого червня."
-  },
   "u8-l3.match-prveho-januara.pairs": {
     "en": [
       "1 January",
@@ -1205,10 +1197,6 @@
       "Весна — із **na**: na jar, як na jeseň і як наше «навесні». V — для літа й зими: v lete, v zime.",
       "Іспитів кілька, тож множина: skúšk**y**. Skúšku — один іспит."
     ]
-  },
-  "u8-rok.listen-lucia-ma-narodeniny.en": {
-    "en": "Lucia's birthday is in summer.",
-    "t": "У Луції день народження влітку."
   },
   "u8-rok.fill-vianoce-su-v.en": {
     "en": "Christmas is in winter.",
@@ -1496,10 +1484,6 @@
   "u8-l4.fill-marek-doma-nikdy.why": {
     "en": "Never is **nikdy**, and like nikto and nič it takes a negative verb: nikdy nevarí = never cooks. Vždy is always, často often.",
     "t": "«Ніколи» — **nikdy**, і, як nikto й nič, вимагає заперечення: nikdy nevarí = ніколи не готує. Vždy — «завжди», často — «часто»."
-  },
-  "u8-l4.listen-na-porade-nikto.en": {
-    "en": "Nobody said anything at the meeting.",
-    "t": "На нараді ніхто нічого не говорив."
   },
   "u8-l4.build-nikdy-nemam-cas.prompt": {
     "en": "I never have time.",
@@ -1829,10 +1813,6 @@
   "u8-l5.fill-lucia-je-v.why": {
     "en": "After k, g, h, ch the locative ending is **-u**, not -e: park → park**u**, like vo vlaku. Parky means parks.",
     "t": "Після k, g, h, ch місцевий має **-u**, а не -e: park → park**u**, як «у парку». Parky — це «парки»."
-  },
-  "u8-l5.listen-tomas-je-vo.en": {
-    "en": "Tomáš is on the train.",
-    "t": "Томаш у поїзді."
   },
   "u8-l5.grammar-adjectives-locative.title": {
     "en": "Adjectives in the locative",
@@ -2182,10 +2162,6 @@
       "Наше «про» вимагає знахідного (про фірму), а словацьке **o** — місцевого: o firm**e**. Firmu — знахідний відмінок."
     ]
   },
-  "u8-l6.listen-povedzte-mi-nieco.en": {
-    "en": "Tell me something about yourself.",
-    "t": "Розкажіть мені щось про себе."
-  },
   "u8-l6.fill-pani-horvathova-hovorili.en": {
     "en": "Mrs Horváthová? We were talking about her.",
     "t": "Пані Горватова? Ми говорили про неї."
@@ -2446,13 +2422,49 @@
       "дешевих"
     ]
   },
-  "u8-mnozne.listen-tomas-rad-cita.en": {
-    "en": "Tomáš likes reading about computers.",
-    "t": "Томаш любить читати про комп'ютери."
-  },
   "u8-mnozne.speak-byvame-na-internatoch.en": {
     "en": "We live in dormitories.",
     "t": "Ми живемо в гуртожитках."
+  },
+  "u8-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Письмова практика"
+  },
+  "u8-pisanie.listen-v-decembri-su.en": {
+    "en": "Christmas is in December.",
+    "t": "Різдво в грудні."
+  },
+  "u8-pisanie.listen-narodila-som-sa.en": {
+    "en": "I was born on the second of June.",
+    "t": "Я народилася другого червня."
+  },
+  "u8-pisanie.listen-lucia-ma-narodeniny.en": {
+    "en": "Lucia's birthday is in summer.",
+    "t": "У Луції день народження влітку."
+  },
+  "u8-pisanie.listen-na-porade-nikto.en": {
+    "en": "Nobody said anything at the meeting.",
+    "t": "На нараді ніхто нічого не говорив."
+  },
+  "u8-pisanie.listen-tomas-je-vo.en": {
+    "en": "Tomáš is on the train.",
+    "t": "Томаш у поїзді."
+  },
+  "u8-pisanie.listen-povedzte-mi-nieco.en": {
+    "en": "Tell me something about yourself.",
+    "t": "Розкажіть мені щось про себе."
+  },
+  "u8-pisanie.listen-tomas-rad-cita.en": {
+    "en": "Tomáš likes reading about computers.",
+    "t": "Томаш любить читати про комп'ютери."
+  },
+  "u8-pisanie.listen-studujem-na-univerzite.en": {
+    "en": "I study at the university in Bratislava.",
+    "t": "Я навчаюся в університеті в Братиславі."
+  },
+  "u8-pisanie.listen-po-porade-nikto.en": {
+    "en": "After the meeting, nobody was in the office.",
+    "t": "Після наради в офісі нікого не було."
   },
   "u8-l7.titleEn": {
     "en": "Review: in the company",
@@ -2495,10 +2507,6 @@
       "На «де?» після v — місцевий відмінок, і назви місць чоловічого роду здебільшого додають **-e**: v Dublin**e**, як v obchode. Dublin — початкова форма.",
       "Емма — жінка, тож минулий час закінчується на **-la**: narodil**a** sa, «народилася». Narodil — про чоловіка."
     ]
-  },
-  "u8-l7.listen-studujem-na-univerzite.en": {
-    "en": "I study at the university in Bratislava.",
-    "t": "Я навчаюся в університеті в Братиславі."
   },
   "u8-l7.fill-narodila-som-sa.en": {
     "en": "I was born on the sixth of April.",
@@ -2585,10 +2593,6 @@
   "u8-l7.speak-narodila-som-sa.en": {
     "en": "I was born in Ireland.",
     "t": "Я народилася в Ірландії."
-  },
-  "u8-l7.listen-po-porade-nikto.en": {
-    "en": "After the meeting, nobody was in the office.",
-    "t": "Після наради в офісі нікого не було."
   },
   "u8-l7.build-pohovor-je-na.answers": {
     "en": [

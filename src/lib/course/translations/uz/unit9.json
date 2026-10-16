@@ -408,10 +408,6 @@
     "en": "**Tešiť sa** keeps its sa, and sa takes second place, right after the first phrase: Na konferenciu **sa** teším.",
     "t": "**Tešiť sa** feʼlida sa tushib qolmaydi va ikkinchi oʻrinda, birinchi soʻz birikmasidan keyin turadi: Na konferenciu **sa** teším."
   },
-  "u9-l2.listen-kde-sa-mozem.en": {
-    "en": "Where can I register?",
-    "t": "Qayerda roʻyxatdan oʻtishim mumkin?"
-  },
   "u9-l2.grammar-or-without-sa.title": {
     "en": "With or without sa",
     "t": "Sa bilan yoki usiz"
@@ -677,10 +673,6 @@
       "Bitta narsa — tomoq ogʻriyapti, shuning uchun **bolí**. Bolia bir nechta narsa uchun: bolia ma zuby (tishlarim ogʻriyapti)."
     ]
   },
-  "u9-lekar.listen-necitim-sa-dobre.en": {
-    "en": "I don't feel well, I've got a headache.",
-    "t": "Oʻzimni yaxshi his qilmayapman, boshim ogʻriyapti."
-  },
   "u9-lekar.rychlo-sa-uzdrav.en": {
     "en": "Get well soon!",
     "t": "Tezroq tuzalib ket!"
@@ -810,10 +802,6 @@
     "en": "You want to put copied text into your file. Which verb do you need?",
     "t": "Nusxa olingan matnni faylingizga qoʻymoqchisiz. Qaysi feʼl kerak?"
   },
-  "u9-l3.listen-kde-je-ten.en": {
-    "en": "Where's that file?",
-    "t": "Oʻsha fayl qayerda?"
-  },
   "u9-l3.vytlacit.en": {
     "en": "to print",
     "t": "chop etmoq"
@@ -870,10 +858,6 @@
       "saqlay",
       "oladi"
     ]
-  },
-  "u9-l3.listen-tomas-poslal-subor.en": {
-    "en": "Tomáš sent the file by e-mail.",
-    "t": "Tomash faylni elektron pochta orqali yubordi."
   },
   "u9-l3.speak-musim-ulozit-subor.en": {
     "en": "I have to save the file.",
@@ -1104,10 +1088,6 @@
       "Oʻzi uchun sotib olish — **kúpiť si**, xuddi dať si kávu kabi: Emma **si** kúpila tričko. Si — «oʻziga», undan keyin esa narsa keladi.",
       "Emma — ayol, shuning uchun oʻtgan zamon **-la** bilan tugaydi: **kúpila**. Kúpil — erkak uchun."
     ]
-  },
-  "u9-l4.listen-kedy-si-sa.en": {
-    "en": "When did you come back?",
-    "t": "Qachon qaytding?"
   },
   "u9-l4.grammar-small-words-stick.title": {
     "en": "Small words stick together",
@@ -1346,10 +1326,6 @@
       "koʻcha"
     ]
   },
-  "u9-l5.listen-ake-je-vase.en": {
-    "en": "What is your permanent address?",
-    "t": "Doimiy manzilingiz qanday?"
-  },
   "u9-l5.narodnost.en": {
     "en": "nationality",
     "t": "millat"
@@ -1459,6 +1435,42 @@
     "en": "Please sign here.",
     "t": "Iltimos, shu yerga imzo qoʻying."
   },
+  "u9-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Yozma mashq"
+  },
+  "u9-pisanie.listen-kde-sa-mozem.en": {
+    "en": "Where can I register?",
+    "t": "Qayerda roʻyxatdan oʻtishim mumkin?"
+  },
+  "u9-pisanie.listen-necitim-sa-dobre.en": {
+    "en": "I don't feel well, I've got a headache.",
+    "t": "Oʻzimni yaxshi his qilmayapman, boshim ogʻriyapti."
+  },
+  "u9-pisanie.listen-kde-je-ten.en": {
+    "en": "Where's that file?",
+    "t": "Oʻsha fayl qayerda?"
+  },
+  "u9-pisanie.listen-tomas-poslal-subor.en": {
+    "en": "Tomáš sent the file by e-mail.",
+    "t": "Tomash faylni elektron pochta orqali yubordi."
+  },
+  "u9-pisanie.listen-kedy-si-sa.en": {
+    "en": "When did you come back?",
+    "t": "Qachon qaytding?"
+  },
+  "u9-pisanie.listen-ake-je-vase.en": {
+    "en": "What is your permanent address?",
+    "t": "Doimiy manzilingiz qanday?"
+  },
+  "u9-pisanie.listen-stretli-sme-sa.en": {
+    "en": "We met during the break.",
+    "t": "Tanaffusda uchrashdik."
+  },
+  "u9-pisanie.listen-subor-som-poslal.en": {
+    "en": "I sent the file by e-mail.",
+    "t": "Faylni elektron pochta orqali yubordim."
+  },
   "u9-l6.titleEn": {
     "en": "Review",
     "t": "Takrorlash"
@@ -1500,10 +1512,6 @@
       "Taqdimot — siz saqlaydigan narsa, toʻldiruvchi (oʻzbekchada «taqdimotni»), shuning uchun prezentácia soʻzida -a oʻrniga **-u** keladi: uložiť **prezentáciu**.",
       "«Saqlamoq» — **uložiť**, masalan uložiť súbor. Otvoriť esa «ochmoq» degani."
     ]
-  },
-  "u9-l6.listen-stretli-sme-sa.en": {
-    "en": "We met during the break.",
-    "t": "Tanaffusda uchrashdik."
   },
   "u9-l6.choice-tomas-si-dal.question": {
     "en": "What does this mean?",
@@ -1595,10 +1603,6 @@
   "u9-l6.fill-emma-klikla-na.why": {
     "en": "You click **on** something: **kliknúť na** súbor.",
     "t": "Biror narsani bosish — **kliknúť na** súbor (oʻzbekchada «faylni bosmoq», slovakchada esa na bilan)."
-  },
-  "u9-l6.listen-subor-som-poslal.en": {
-    "en": "I sent the file by e-mail.",
-    "t": "Faylni elektron pochta orqali yubordim."
   },
   "u9-l6.build-emma-a-lucia.prompt": {
     "en": "Emma and Lucia are looking forward to the conference.",

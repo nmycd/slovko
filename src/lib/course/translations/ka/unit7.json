@@ -520,10 +520,6 @@
     "en": "Three quarters of the way to nine is **trištvrte** na deväť. Štvrť na deväť is 8:15, and pol deviatej is 8:30.",
     "t": "ცხრამდე სამი მეოთხედი არის **trištvrte** na deväť, ანუ 8:45 (ცხრას აკლია თხუთმეტი). Štvrť na deväť არის 8:15, pol deviatej კი — 8:30."
   },
-  "u7-l2.listen-prednaska-je-o.en": {
-    "en": "The lecture is at half past eight.",
-    "t": "ლექცია ცხრის ნახევარზეა."
-  },
   "u7-l2.build-kolko-je-hodin.prompt": {
     "en": "What time is it?",
     "t": "რომელი საათია?"
@@ -671,10 +667,6 @@
   "u7-l3.ucim-sa.note": {
     "en": "**učiť sa** = to study, to learn: učím sa, učíš sa, učí sa… Don't drop the **sa**: učiť alone means to teach (like učiteľ, teacher).",
     "t": "**učiť sa** = სწავლა: učím sa, učíš sa, učí sa… **sa** არ გამოტოვოთ: მის გარეშე učiť ნიშნავს სხვისთვის სწავლებას (ვასწავლი), აქედანაა učiteľ = მასწავლებელი."
-  },
-  "u7-l3.listen-poobede-sa-ucim.en": {
-    "en": "In the afternoon I study in the library.",
-    "t": "შუადღის შემდეგ ბიბლიოთეკაში ვსწავლობ."
   },
   "u7-l3.fill-emma-ranajkuje-o.en": {
     "en": "Emma has breakfast at half past seven.",
@@ -1031,10 +1023,6 @@
     "en": "With **my** (we), stihnúť ends in **-eme**: stihn**eme**. Stihnem goes with ja, stihnú with oni.",
     "t": "**my**-სთან (ჩვენ) stihnúť **-eme**-ზე ბოლოვდება: stihn**eme**. Stihnem ja-სთან დგას, stihnú — oni-სთან."
   },
-  "u7-l4.listen-emma-sedi-v.en": {
-    "en": "Emma is sitting in the library.",
-    "t": "ემა ბიბლიოთეკაში ზის."
-  },
   "u7-l4.build-sedim-v-kniznici.prompt": {
     "en": "I'm sitting in the library.",
     "t": "ბიბლიოთეკაში ვზივარ."
@@ -1322,10 +1310,6 @@
   "u7-l5.fill-emma-co-si.why": {
     "en": "Emma is a woman, so the past tense ends in **-la**: robil**a**. Robil is for a man, robili for more people or formal vy.",
     "t": "ემა ქალია, ამიტომ წარსული **-la**-ზე ბოლოვდება: robil**a**. Robil კაცისთვისაა, robili — რამდენიმე ადამიანისთვის ან თავაზიანი vy-სთვის."
-  },
-  "u7-l5.listen-lucia-a-emma.en": {
-    "en": "Lucia and Emma had breakfast at eight.",
-    "t": "ლუციამ და ემამ რვა საათზე ისაუზმეს."
   },
   "u7-l5.grammar-irregular-past-forms.title": {
     "en": "Irregular past forms",
@@ -1631,10 +1615,6 @@
       "ja-სთან (მე) წარსულს ემატება **som**, მეორე ადგილზე: dnes **som** neraňajkoval. Si ty-სთან (შენ) დგას."
     ]
   },
-  "u7-l6.listen-prepacte-zaspala-som.en": {
-    "en": "Sorry, I overslept.",
-    "t": "მაპატიეთ, გადამეძინა."
-  },
   "u7-l6.grammar-este-uz.title": {
     "en": "ešte and už",
     "t": "ešte და už"
@@ -1816,6 +1796,38 @@
     "en": "It's already eight!",
     "t": "უკვე რვა საათია!"
   },
+  "u7-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "წერითი ვარჯიში"
+  },
+  "u7-pisanie.listen-prednaska-je-o.en": {
+    "en": "The lecture is at half past eight.",
+    "t": "ლექცია ცხრის ნახევარზეა."
+  },
+  "u7-pisanie.listen-poobede-sa-ucim.en": {
+    "en": "In the afternoon I study in the library.",
+    "t": "შუადღის შემდეგ ბიბლიოთეკაში ვსწავლობ."
+  },
+  "u7-pisanie.listen-emma-sedi-v.en": {
+    "en": "Emma is sitting in the library.",
+    "t": "ემა ბიბლიოთეკაში ზის."
+  },
+  "u7-pisanie.listen-lucia-a-emma.en": {
+    "en": "Lucia and Emma had breakfast at eight.",
+    "t": "ლუციამ და ემამ რვა საათზე ისაუზმეს."
+  },
+  "u7-pisanie.listen-prepacte-zaspala-som.en": {
+    "en": "Sorry, I overslept.",
+    "t": "მაპატიეთ, გადამეძინა."
+  },
+  "u7-pisanie.listen-prednaska-je-o-2.en": {
+    "en": "The lecture is at half past nine.",
+    "t": "ლექცია ათის ნახევარზეა."
+  },
+  "u7-pisanie.listen-vcera-som-nebola.en": {
+    "en": "I wasn't at the seminar yesterday.",
+    "t": "გუშინ სემინარზე არ ვიყავი."
+  },
   "u7-l7.titleEn": {
     "en": "Review",
     "t": "გამეორება"
@@ -1835,10 +1847,6 @@
       "ახლა 2:00-ია.",
       "ახლა 5:00-ია."
     ]
-  },
-  "u7-l7.listen-prednaska-je-o.en": {
-    "en": "The lecture is at half past nine.",
-    "t": "ლექცია ათის ნახევარზეა."
   },
   "u7-l7.build-zaspala-som.prompt": {
     "en": "I overslept! (woman speaking)",
@@ -1943,10 +1951,6 @@
   "u7-l7.fill-pan-kovac-videli.why": {
     "en": "Formal **vy** always takes **-li** in the past, even for one person like pán Kováč: **videli** ste. Vidieť also changes ie to e.",
     "t": "თავაზიანი **vy** წარსულში ყოველთვის **-li**-ს იღებს, ერთ ადამიანთანაც კი, როგორიცაა ბატონი კოვაჩი: **videli** ste. Vidieť ასევე ie-ს e-თი ცვლის."
-  },
-  "u7-l7.listen-vcera-som-nebola.en": {
-    "en": "I wasn't at the seminar yesterday.",
-    "t": "გუშინ სემინარზე არ ვიყავი."
   },
   "u7-l7.build-isiel-si-na.prompt": {
     "en": "Did you go to the lecture? (to a man, informal)",
