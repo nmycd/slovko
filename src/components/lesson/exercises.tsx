@@ -432,6 +432,32 @@ function SlovakKeys({
   );
 }
 
+/** Memorize rounds: the Slovak blurs for this long before the rows start to move. */
+const BLUR_MS = 300;
+/** One swap of two rows. */
+const SWAP_MS = 200;
+
+/**
+ * The rows' shuffle as a shell game: n − 1 swaps of two rows (three for four rows),
+ * never one straight back, chosen so that every row ends somewhere new.
+ */
+function shellSwaps(n: number): [number, number][] {
+  if (n < 2) return [];
+  for (;;) {
+    const swaps: [number, number][] = [];
+    while (swaps.length < n - 1) {
+      const a = Math.floor(Math.random() * n);
+      const b = (a + 1 + Math.floor(Math.random() * (n - 1))) % n;
+      const last = swaps.at(-1);
+      if (last && new Set([...last, a, b]).size === 2) continue;
+      swaps.push([a, b]);
+    }
+    const order = Array.from({ length: n }, (_, i) => i);
+    for (const [a, b] of swaps) [order[a], order[b]] = [order[b], order[a]];
+    if (order.every((v, i) => v !== i)) return swaps;
+  }
+}
+
 /**
  * Writing practice: four words to memorize. While studying, each meaning stands beside its
  * Slovak. Once the learner is ready (`studied`), the Slovak blurs, the rows shuffle so a
@@ -456,43 +482,55 @@ export function MemorizeView({
   const focused = useRef(0);
   const caret = useRef<number | null>(null);
 
-  // Ready: blur the Slovak, then shuffle the rows (never back into the same order), then
-  // turn them into boxes. All at once with reduced motion. Once per round: a round brought
-  // back already studied starts with its boxes.
+  // Ready: blur the Slovak, then shuffle the rows like a shell game, then turn them into
+  // boxes. All at once with reduced motion. Once per round: a round brought back already
+  // studied starts with its boxes.
+  const [swaps] = useState(() => shellSwaps(words.length));
   const started = useRef(studied);
   useEffect(() => {
     if (!studied || started.current) return;
     started.current = true;
-    const reorder = () =>
+    const swap = ([a, b]: [number, number]) =>
       setOrder((current) => {
-        if (current.length < 2) return current;
-        let next = current;
-        while (next.every((v, i) => v === current[i])) next = shuffle([...current]);
+        const next = [...current];
+        [next[a], next[b]] = [next[b], next[a]];
         return next;
       });
+    // Rows' places in the layout (offsetTop ignores a swap still gliding).
+    const measure = () => (from.current = rows.current.map((row) => row?.offsetTop ?? 0));
     const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const steps: [number, () => void][] = still
-      ? [[0, () => (reorder(), setPhase("write"))]]
+      ? [[0, () => (swaps.forEach(swap), setPhase("write"))]]
       : [
           [0, () => setPhase("hiding")],
-          [450, () => ((from.current = rows.current.map((row) => row?.getBoundingClientRect().top ?? 0)), reorder())],
-          [950, () => setPhase("write")],
+          ...swaps.map((pair, k): [number, () => void] => [BLUR_MS + k * SWAP_MS, () => (measure(), swap(pair))]),
+          [BLUR_MS + swaps.length * SWAP_MS + 60, () => setPhase("write")],
         ];
     const timers = steps.map(([ms, run]) => setTimeout(run, ms));
     return () => {
       timers.forEach(clearTimeout);
       started.current = false;
     };
-  }, [studied]);
+  }, [studied, swaps]);
 
-  // The shuffle itself: each row glides from where it was to where it now is.
+  // A swap: the two rows trade places along arcs, the one going down bulging right and
+  // the one going up left, so they visibly pass each other.
   useLayoutEffect(() => {
     const before = from.current;
     if (!before) return;
     from.current = null;
     rows.current.forEach((row, i) => {
-      const shift = before[i] - (row?.getBoundingClientRect().top ?? 0);
-      if (row && shift) row.animate([{ transform: `translateY(${shift}px)` }, { transform: "none" }], { duration: 450, easing: "cubic-bezier(.3,.7,.2,1)" });
+      const shift = before[i] - (row?.offsetTop ?? 0);
+      if (!row || !shift) return;
+      const side = shift < 0 ? 28 : -28;
+      row.animate(
+        [
+          { transform: `translateY(${shift}px)` },
+          { transform: `translate(${side}px, ${shift / 2}px) scale(1.02)`, offset: 0.5 },
+          { transform: "none" },
+        ],
+        { duration: SWAP_MS, easing: "ease-in-out" },
+      );
     });
   }, [order]);
 
