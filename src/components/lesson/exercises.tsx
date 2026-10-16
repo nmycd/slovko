@@ -69,24 +69,11 @@ export function IntroView({ exercise }: { exercise: IntroExercise }) {
   return (
     <div className="animate-pop space-y-6">
       <p className="text-sm font-semibold text-brand">{t("ex.newPhrase")}</p>
-      <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+      <div className="flex items-center gap-4">
         <AudioButton text={exercise.sk} autoPlay />
         <span className="font-serif text-3xl font-medium sm:text-4xl">{exercise.sk}</span>
-        {exercise.gender && (
-          <span className="rounded-full border border-border-strong px-2.5 py-0.5 text-sm font-semibold text-muted">
-            {t(`ex.gender.${exercise.gender}`)}
-          </span>
-        )}
       </div>
       <p className="text-xl text-muted">{exercise.en}</p>
-      {exercise.otherGender && (
-        <p className="text-lg">
-          <span className="text-muted">{t(`ex.otherGender.${exercise.otherGender.gender}`)} </span>
-          <span lang="sk" className="font-serif text-xl font-medium">
-            {exercise.otherGender.sk}
-          </span>
-        </p>
-      )}
       {exercise.note && (
         <p className="rounded-2xl bg-surface p-4">
           <span className="mr-2 font-semibold text-brand">{t("ex.tip")}</span>
