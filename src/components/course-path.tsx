@@ -62,8 +62,11 @@ function useKeptScroll(ready: boolean) {
 
 /** `outlines` holds the path in each native language (titleEn = the translated title). */
 export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[]> }) {
-  const { ready, progress, isPremium, authEnabled, authKnown, user, locale, t } = useApp();
-  useKeptScroll(ready);
+  const { ready, progress, isPremium, premiumKnown, authEnabled, authKnown, user, locale, t } = useApp();
+  // Which units are open depends on Premium: show the path once that's settled, not a
+  // free version first.
+  const shown = ready && premiumKnown;
+  useKeptScroll(shown);
   const outline = outlines[locale];
   const signedOut = authEnabled && authKnown && !user;
   // Lessons need an account; signed-out visitors go through sign-in and come back.
@@ -120,7 +123,7 @@ export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[
   );
 
   return (
-    <div className={`mx-auto w-full max-w-xl ${ready ? "" : "invisible"}`}>
+    <div className={`mx-auto w-full max-w-xl ${shown ? "" : "invisible"}`}>
       {signedOut && (
         <div className="card mb-10 flex flex-col items-start gap-4 p-5 sm:flex-row sm:items-center">
           <div className="flex-1">

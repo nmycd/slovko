@@ -21,7 +21,7 @@ export function LearnFrame({
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
-  const { ready, progress, isPremium, todayXp, t } = useApp();
+  const { ready, progress, isPremium, premiumKnown, todayXp, t } = useApp();
   if (pathname === "/learn/resources") return children;
 
   const onA1 = pathname === "/learn";
@@ -65,7 +65,7 @@ export function LearnFrame({
         </div>
         {reviewCard}
         {dictionaryCard}
-        {onA1 && !isPremium && (
+        {onA1 && premiumKnown && !isPremium && (
           <div className="card p-5">
             <h2 className="flex items-center gap-2">
               <CrownIcon className="text-gold" /> {t("path.premium.title")}

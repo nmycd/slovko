@@ -9,11 +9,12 @@ import { LanguageSelect } from "@/components/language-picker";
 
 export function AccountPanel() {
   const router = useRouter();
-  const { ready, user, isPremium, progress, streak, signOut, authEnabled, t } = useApp();
+  const { ready, user, isPremium, premiumKnown, progress, streak, signOut, authEnabled, t } = useApp();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  if (!ready) return null;
+  // Free or Premium is the panel's subject: wait until it's known rather than flip.
+  if (!ready || !premiumKnown) return null;
   if (!authEnabled || !user) {
     return (
       <div className="card p-6 text-center">

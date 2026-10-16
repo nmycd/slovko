@@ -9,7 +9,7 @@ import { StatsBar } from "@/components/stats-bar";
 
 export function SiteHeader() {
   const pathname = usePathname();
-  const { user, authEnabled, isPremium, t } = useApp();
+  const { user, authEnabled, isPremium, premiumKnown, t } = useApp();
   const onLanding = pathname === "/";
 
   return (
@@ -22,7 +22,7 @@ export function SiteHeader() {
               <StatsBar />
             </div>
           )}
-          {!isPremium && (
+          {premiumKnown && !isPremium && (
             <Link
               href="/pricing"
               className="hidden items-center gap-1 text-sm font-semibold text-gold sm:flex"

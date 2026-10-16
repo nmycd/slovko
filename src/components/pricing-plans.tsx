@@ -8,7 +8,7 @@ import { FREE_UNIT_COUNT, plans, premiumPerks, type PlanId } from "@/lib/plans";
 
 export function PricingPlans() {
   const router = useRouter();
-  const { user, isPremium, authEnabled, t } = useApp();
+  const { user, isPremium, premiumKnown, authEnabled, t } = useApp();
   const [busy, setBusy] = useState<PlanId | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -51,7 +51,7 @@ export function PricingPlans() {
         ))}
       </ul>
 
-      {isPremium ? (
+      {!premiumKnown ? null : isPremium ? (
         <p className="mt-10 rounded-2xl bg-ok-soft p-5 text-center font-semibold text-ok-dark">
           {t("pricing.youArePremium")}
         </p>

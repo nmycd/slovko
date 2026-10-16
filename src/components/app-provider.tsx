@@ -30,6 +30,12 @@ type AppState = {
   profile: Profile | null;
   isPremium: boolean;
   /**
+   * Whether `isPremium` is settled. False while a signed-in account's profile is still
+   * loading, when `isPremium` is only a guess (false): anything that differs for
+   * Premium waits for this rather than showing the free version first.
+   */
+  premiumKnown: boolean;
+  /**
    * Dev mode for lessons: every exercise can be opened and answered again. Set per
    * account as app_metadata.dev in Supabase (only the service role can write it).
    */
@@ -110,6 +116,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     user,
     profile,
     isPremium,
+    premiumKnown: (!supabase || sessionChecked) && (!user || profile !== null),
     dev: user?.app_metadata?.dev === true,
     authEnabled: Boolean(supabase),
     authKnown: !supabase || sessionChecked,
