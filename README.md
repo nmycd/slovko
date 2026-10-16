@@ -75,6 +75,14 @@ Every Slovak string in the course is automatically allowed for TTS.
    (and your production URL) to the redirect URLs.
 5. Optional: enable the Google provider for "Continue with Google".
 
+Dev mode for lessons is a per-account flag. With it, every exercise bar opens, a checked
+exercise can be answered again ("Change answer"), and `?step=` links work. Set it in
+the SQL editor; it takes effect at the account's next sign-in, or within the hour:
+
+```sql
+update auth.users set raw_app_meta_data = raw_app_meta_data || '{"dev": true}' where email = '…';
+```
+
 ### Stripe (Premium subscription)
 
 1. Create a product "Slovko Premium" with a monthly and a yearly recurring price.

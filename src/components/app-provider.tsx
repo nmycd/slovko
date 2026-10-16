@@ -29,6 +29,11 @@ type AppState = {
   user: User | null;
   profile: Profile | null;
   isPremium: boolean;
+  /**
+   * Dev mode for lessons: every exercise can be opened and answered again. Set per
+   * account as app_metadata.dev in Supabase (only the service role can write it).
+   */
+  dev: boolean;
   authEnabled: boolean;
   /** True once we know whether someone is signed in (always true without auth). */
   authKnown: boolean;
@@ -105,6 +110,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     user,
     profile,
     isPremium,
+    dev: user?.app_metadata?.dev === true,
     authEnabled: Boolean(supabase),
     authKnown: !supabase || sessionChecked,
     progress,

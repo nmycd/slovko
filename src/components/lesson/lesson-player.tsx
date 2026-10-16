@@ -139,11 +139,12 @@ export function LessonPlayer(props: PlayerProps) {
 }
 
 /**
- * Testing only (unlock-all switch): `?step=N` opens the lesson at exercise N as played
- * (counting from 0, spelling cards included), `?step=<exercise id>` at that exercise.
+ * Testing only (unlock-all switch, or dev mode): `?step=N` opens the lesson at exercise
+ * N as played (counting from 0, spelling cards included), `?step=<exercise id>` at that
+ * exercise.
  */
-function startStep(exercises: Exercise[], param: string | null): number {
-  if (!unlockAllLessons || param === null) return 0;
+function startStep(exercises: Exercise[], param: string | null, dev: boolean): number {
+  if (!(unlockAllLessons || dev) || param === null) return 0;
   const step = /^\d+$/.test(param) ? Number(param) : exercises.findIndex((ex) => ex.id === param);
   return step > 0 && step < exercises.length ? step : 0;
 }
@@ -170,14 +171,14 @@ function Player({
   step,
 }: PlayerProps & { card: string | null; step: string | null }) {
   const router = useRouter();
-  const { isPremium, completeLesson, t, locale, progress } = useApp();
+  const { isPremium, dev, completeLesson, t, locale, progress } = useApp();
   const lesson = lessons[locale];
   const lessonId = lesson.id;
 
   const [queue, setQueue] = useState<Item[]>(() =>
     lesson.exercises.map((_, index) => ({ index, key: String(index), retry: false })),
   );
-  const [pos, setPos] = useState(() => startStep(lesson.exercises, step));
+  const [pos, setPos] = useState(() => startStep(lesson.exercises, step, dev));
   // Looking a word up: one card, open in any unit (its word and meaning already show in the search).
   const lookUp = lookUpCard(lesson.exercises, card);
   const [phase, setPhase] = useState<Phase>(() =>
@@ -212,14 +213,16 @@ function Player({
   const exercise = lesson.exercises[item.index];
 
   function onGraded(r: Resolution, answer: Answer, tiles: string[]) {
+    // Dev mode can answer an exercise again; only its first answer counts.
+    const first = !history[item.key]?.result;
     setHistory((h) => ({ ...h, [item.key]: { answer, tiles, result: r } }));
     if (r.skipped) return;
-    if (!item.retry) {
+    if (!item.retry && first) {
       stats.current.graded++;
       if (r.correct) stats.current.right++;
     }
     // Mistakes come back once at the end of the lesson.
-    if (!r.correct && !item.retry) {
+    if (!r.correct && !item.retry && !queue.some((q) => q.key === `${item.key}r`)) {
       setQueue((q) => [...q, { index: item.index, key: `${item.key}r`, retry: true }]);
     }
     const audio = solutionAudio(exercise);
@@ -291,7 +294,11 @@ function Player({
             <CloseIcon size={28} />
           </Link>
           <div className="min-w-0 flex-1">
-            <p className="text-xs font-semibold text-muted">{t("lesson.place", place)}</p>
+            <p className="text-xs font-semibold text-muted">
+              {t("lesson.place", place)}
+              {/* Dev tools aren't translated. */}
+              {dev && <span className="ml-2 rounded-sm bg-locked px-1.5 py-px text-text">Dev</span>}
+            </p>
             <p className="hidden truncate font-serif text-lg leading-tight sm:block">{lesson.title}</p>
           </div>
           <div className="shrink-0 text-right">
@@ -342,6 +349,7 @@ function Player({
           frame={frame}
           initial={history[shown.key]}
           review={reviewing}
+          dev={dev}
           nextLabel={reviewing ? t("lesson.backTo", { n: item.index + 1 }) : undefined}
           nav={
             <StepNav
@@ -349,7 +357,14 @@ function Player({
               pos={pos}
               viewing={viewing}
               history={history}
-              onPick={(i) => setViewing(i < pos ? i : null)}
+              dev={dev}
+              onPick={(i) => {
+                // Dev mode: any exercise, ahead or behind, becomes the one being played.
+                if (dev) {
+                  setPos(i);
+                  setViewing(null);
+                } else setViewing(i < pos ? i : null);
+              }}
             />
           }
           onGraded={onGraded}
@@ -368,6 +383,7 @@ export function Step({
   frame,
   initial,
   review = false,
+  dev = false,
   nextLabel,
   nav,
   skip,
@@ -384,6 +400,8 @@ export function Step({
   initial?: Visit;
   /** Looking back at a finished exercise: read-only, and Continue returns to the current one. */
   review?: boolean;
+  /** Dev mode: after Check, "Change answer" opens the exercise again. */
+  dev?: boolean;
   /** Label for the Continue button (e.g. "Back to exercise 5" when reviewing). */
   nextLabel?: string;
   /** The lesson's exercise navigation, shown in the footer (null when looking a word up). */
@@ -418,6 +436,13 @@ export function Step({
   };
   const check = () => {
     if (!result && hasAnswer(answer)) resolve(grade(ex, answer, tiles));
+  };
+  // Dev mode: answer again. The answer stays, to be changed; matching and speaking
+  // keep their own state, so they start over.
+  const [attempt, setAttempt] = useState(0);
+  const answerAgain = () => {
+    setResult(null);
+    if (selfGraded) setAttempt((n) => n + 1);
   };
 
   // Enter checks or continues. Re-subscribed every render so it sees fresh state.
@@ -477,8 +502,8 @@ export function Step({
           {ex.type === "spell" && (
             <SpellView exercise={ex} answer={answer} setAnswer={setAnswer} locked={locked} />
           )}
-          {ex.type === "match" && <MatchView exercise={ex} onResolve={resolve} locked={locked} />}
-          {ex.type === "speak" && <SpeakView exercise={ex} onResolve={resolve} locked={locked} />}
+          {ex.type === "match" && <MatchView key={attempt} exercise={ex} onResolve={resolve} locked={locked} />}
+          {ex.type === "speak" && <SpeakView key={attempt} exercise={ex} onResolve={resolve} locked={locked} />}
         </div>
       </div>
 
@@ -491,6 +516,7 @@ export function Step({
         nav={nav}
         onCheck={check}
         onNext={onNext}
+        onAnswerAgain={dev && !review ? answerAgain : undefined}
         onSkip={skip?.onSkip ?? (ex.type === "speak" && !review ? onNext : undefined)}
         skipLabel={skip?.label}
       />
@@ -507,6 +533,7 @@ function Footer({
   nav,
   onCheck,
   onNext,
+  onAnswerAgain,
   onSkip,
   skipLabel,
 }: {
@@ -518,6 +545,8 @@ function Footer({
   nav: React.ReactNode;
   onCheck: () => void;
   onNext: () => void;
+  /** Dev mode: open the checked exercise again. */
+  onAnswerAgain?: () => void;
   onSkip?: () => void;
   skipLabel?: string;
 }) {
@@ -577,7 +606,16 @@ function Footer({
                 {ruleOpen && result.rule && <RuleSheet rule={result.rule} onClose={() => setRuleOpen(false)} />}
               </div>
             </div>
-            <button type="button" onClick={onNext} className={`btn ${ok ? "btn-ok" : "btn-bad"} w-full sm:ml-auto sm:w-auto sm:min-w-40`}>
+            {onAnswerAgain && (
+              <button type="button" onClick={onAnswerAgain} className="btn btn-ghost w-full sm:ml-auto sm:w-auto">
+                Change answer
+              </button>
+            )}
+            <button
+              type="button"
+              onClick={onNext}
+              className={`btn ${ok ? "btn-ok" : "btn-bad"} w-full sm:w-auto sm:min-w-40 ${onAnswerAgain ? "" : "sm:ml-auto"}`}
+            >
               {nextLabel ?? t("lesson.continue")}
             </button>
           </div>
@@ -682,19 +720,21 @@ function RuleSheet({ rule, onClose }: { rule: RuleCard; onClose: () => void }) {
 /**
  * The lesson in the order it's played: one bar per exercise, then, after a gap, a
  * second try for each one missed (added as mistakes happen). Finished ones can be
- * opened again; the current one returns to playing.
+ * opened again; the current one returns to playing. In dev mode every bar opens.
  */
 function StepNav({
   queue,
   pos,
   viewing,
   history,
+  dev,
   onPick,
 }: {
   queue: Item[];
   pos: number;
   viewing: number | null;
   history: Record<string, Visit>;
+  dev: boolean;
   onPick: (index: number) => void;
 }) {
   const { t } = useApp();
@@ -741,7 +781,7 @@ function StepNav({
             <li key={item.key} className={`w-(--bar) shrink-0 ${i === firstRetry ? "ml-3 sm:ml-5" : ""}`}>
               <button
                 type="button"
-                disabled={i > pos}
+                disabled={i > pos && !dev}
                 onClick={() => onPick(i)}
                 aria-label={label}
                 title={label}
