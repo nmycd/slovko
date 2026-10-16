@@ -284,8 +284,8 @@ sentence. `generate:audio` does this after the phrases, in
    in as little as 0.08 s (115 clips under 0.15 s), a blip that's easy to miss
    on a tap. So a clip shorter than 0.16 s is slowed to 0.16 s, pitch kept
    (ffmpeg `atempo`), and every clip starts with 60 ms of silence, so the word
-   isn't lost while the audio output wakes up (`SHORTEST` and `LEAD_IN_MS` in
-   tile-audio.ts). See "Short words: the options" below.
+   isn't lost while the audio output wakes up (style C of `tileStyles` in
+   [helpers.ts](src/lib/course/helpers.ts)). See "Short words: the options" below.
 4. **Wrong tiles come from the same frame.** The sentence is voiced again with
    each wrong tile in place of the tile it competes with (its trap's `right`;
    one without a trap takes the tile most like it in form), taking that tile's
@@ -321,6 +321,8 @@ npm run generate:audio -- --tiles-only --only u3-,u1-l3#build-volam-sa-tomas --s
   to the cutting. Then bump `TILE_CLIPS_VERSION` in
   [helpers.ts](src/lib/course/helpers.ts), or browsers keep the old clips for up
   to a week.
+- `--styles` also cuts every clip in each of the styles below into
+  `tile-styles/a/` … `d/`, for dev mode (free).
 - `--prune` also deletes tile clips and takes that no exercise uses any more.
 
 Size, for the course as of October 2026: 151 exercises, 899 tile clips (595
@@ -336,15 +338,23 @@ the tiles were cut from.
 #### Short words: the options
 
 Chosen in October 2026 after listening to the four side by side; still being
-tried in lessons, so it may change. Each is a small change, then a re-cut:
+tried in lessons, so it may change. A to D are `tileStyles` in
+[helpers.ts](src/lib/course/helpers.ts), and lessons play `LIVE_TILE_STYLE`. In
+dev mode (an account with `app_metadata.dev`), every word-order exercise with a
+Slovak answer shows a row of its tiles in each style under the word bank, to
+compare in the lesson itself; they play from `tile-styles/`, cut with `--styles`.
 
-| | What | Cost to switch |
+| | What | To switch to it |
 | --- | --- | --- |
-| A | The cut as said, no lead-in (first version) | free: `SHORTEST = 0`, `LEAD_IN_MS = 0`, `--recut` |
-| B | 60 ms of silence first, no slowing | free: `SHORTEST = 0`, `--recut` |
+| A | The cut as said, no lead-in (first version) | free, as below |
+| B | 60 ms of silence first, no slowing | free, as below |
 | **C** | **B, and words under 0.16 s slowed to 0.16 s (live)** | |
-| D | B, and words under 0.20 s slowed to 0.20 s (175 clips) | free: `SHORTEST = 0.2`, `--recut` |
+| D | B, and words under 0.20 s slowed to 0.20 s (175 clips) | free, as below |
 | E | Voice each sentence word by word, a pause after each word, so short words are said at full length; cut at the pauses | **$** a new take of every sentence, about 8,000–10,000 characters; try a few first |
+
+To switch between A and D: set `LIVE_TILE_STYLE`, run
+`npm run generate:audio -- --tiles-only --recut`, bump `TILE_CLIPS_VERSION`, and
+deploy. A new style is a new entry in `tileStyles`, then `--styles`.
 
 Slowing past half speed sounds unnatural, so C and D are about as far as
 stretching goes; if short words still sound wrong, E is the real fix.

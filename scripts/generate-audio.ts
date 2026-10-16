@@ -12,6 +12,7 @@
 //   --only u3-,u1-l3#build-volam-sa-tomas # just these exercises (key prefixes)
 //   --recut                               # cut every tile clip again from its stored take (free)
 //   --save <dir>                          # also write takes and clips there, with a page to listen on
+//   --styles                              # also cut every clip in each style dev mode compares (free)
 //
 // Refuses to spend credits on the placeholder voice: set ELEVENLABS_VOICE_ID first.
 
@@ -59,6 +60,7 @@ async function main() {
     recut: args.has("--recut"),
     only: value("--only")?.split(",").filter(Boolean) ?? [],
     save: value("--save"),
+    styles: args.has("--styles"),
   };
   if (dryRun) {
     await generateTiles(allLessons, tileOptions);

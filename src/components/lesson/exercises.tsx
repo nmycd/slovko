@@ -5,9 +5,16 @@ import { BookIcon, MicIcon } from "@/components/icons";
 import { useApp } from "@/components/app-provider";
 import { AudioButton } from "@/components/lesson/audio-button";
 import { RichText } from "@/components/lesson/rich-text";
-import { checkMemorized, checkSpoken, shuffle, type CheckResult, type MarkedWord } from "@/lib/answers";
-import { playSlovak, playTile, stopSlovak, useSlovakPlaying } from "@/lib/audio";
-import { stripMarkup } from "@/lib/course/helpers";
+import { checkMemorized, checkSpoken, shuffle, toTiles, type CheckResult, type MarkedWord } from "@/lib/answers";
+import { playSlovak, playTile, preloadLesson, stopSlovak, useSlovakPlaying } from "@/lib/audio";
+import {
+  isSilentTile,
+  LIVE_TILE_STYLE,
+  stripMarkup,
+  tileStyles,
+  tileWords,
+  type TileStyle,
+} from "@/lib/course/helpers";
 import { properNames } from "@/lib/course/names";
 import type { MessageKey } from "@/lib/i18n";
 import type {
@@ -232,6 +239,7 @@ export function BuildView({
   exercise,
   tiles,
   clipsIn,
+  dev = false,
   answer,
   setAnswer,
   locked,
@@ -239,6 +247,8 @@ export function BuildView({
   tiles: string[];
   /** The exercise as "lesson#id", whose tiles have clips cut from its sentence. */
   clipsIn?: string;
+  /** Dev mode: also every tile in each style its clip can be made in, to compare. */
+  dev?: boolean;
 }) {
   const { t } = useApp();
   const picked = Array.isArray(answer) ? (answer as number[]) : [];
@@ -292,6 +302,63 @@ export function BuildView({
           );
         })}
       </div>
+
+      {dev && toSk && clipsIn && <TileStyleRows exercise={exercise} clipsIn={clipsIn} label={label} />}
+    </div>
+  );
+}
+
+const styleNames = Object.keys(tileStyles) as TileStyle[];
+
+/**
+ * Dev mode: a row per way of making a tile's clip (`tileStyles`), each with every tile
+ * in sentence order and then the wrong ones, to compare by ear. Long words sound the
+ * same in B, C and D: only short ones are slowed.
+ */
+function TileStyleRows({
+  exercise,
+  clipsIn,
+  label,
+}: {
+  exercise: BuildExercise;
+  clipsIn: string;
+  label: (tile: string) => string;
+}) {
+  const right = [...new Set(toTiles(exercise.answers[0]))];
+  const wrong = exercise.distractors.filter((d) => !right.includes(d));
+  useEffect(() => {
+    const words = tileWords(exercise);
+    preloadLesson(styleNames.flatMap((style) => words.map((text) => ({ text, in: clipsIn, style }))));
+  }, [exercise, clipsIn]);
+  const tile = (word: string, style: TileStyle) => (
+    <button
+      key={word}
+      type="button"
+      disabled={isSilentTile(word)}
+      onClick={() => playTile(word, clipsIn, style)}
+      className="tile h-8 px-2.5 text-sm"
+    >
+      {label(word)}
+    </button>
+  );
+  return (
+    <div className="space-y-2 rounded-xl border border-dashed border-border-strong p-3 text-sm">
+      <p className="text-muted">Dev: tile sounds in each style</p>
+      {styleNames.map((style) => (
+        <div key={style} className="flex flex-wrap items-center gap-1.5">
+          <span className="basis-full text-muted sm:basis-48">
+            {tileStyles[style].label}
+            {style === LIVE_TILE_STYLE && " (live)"}
+          </span>
+          {right.map((word) => tile(word, style))}
+          {wrong.length > 0 && (
+            <span className="inline-flex flex-wrap items-center gap-1.5">
+              <span className="px-1 text-muted">wrong:</span>
+              {wrong.map((word) => tile(word, style))}
+            </span>
+          )}
+        </div>
+      ))}
     </div>
   );
 }

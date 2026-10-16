@@ -576,6 +576,7 @@ export function Step({
               exercise={ex}
               tiles={tiles}
               clipsIn={lessonId && `${lessonId}#${ex.id}`}
+              dev={dev}
               answer={answer}
               setAnswer={setAnswer}
               locked={locked}

@@ -1,10 +1,11 @@
-import { speakableSet, tileExercises, tileWords } from "@/lib/course";
+import { isTileStyle, speakableSet, tileExercises, tileWords } from "@/lib/course";
 import { isElevenLabsConfigured } from "@/lib/elevenlabs";
 import { generateAndCache, liveGenerationEnabled, readCached, readCachedAudio, tileCachePath } from "@/lib/tts-cache";
 
 // GET /api/tts?text=Dobrý%20deň.
 // GET /api/tts?text=je&in=u3-l1%23build-kde-je-kupelna&v=2  (a word tile in its exercise;
 //   `v` only busts browser caches when the clips are cut again)
+// GET /api/tts?text=je&in=…&style=a  (dev mode: the tile in one of `tileStyles`, no fallback)
 // Only course phrases are accepted, and a tile only in its own exercise. Audio comes
 // from the Supabase Storage cache (filled ahead of time by `npm run generate:audio`); a
 // missing phrase is generated on the fly unless TTS_LIVE_GENERATION=false. A tile plays
@@ -15,11 +16,18 @@ export async function GET(request: Request) {
   const params = new URL(request.url).searchParams;
   const text = params.get("text") ?? "";
   const exercise = params.get("in");
+  const style = params.get("style");
 
   if (exercise !== null) {
     const ex = tileExercises.get(exercise);
-    if (!ex || !tileWords(ex).includes(text)) {
+    if (!ex || !tileWords(ex).includes(text) || (style !== null && !isTileStyle(style))) {
       return Response.json({ error: "Unknown tile" }, { status: 400 });
+    }
+    if (style !== null) {
+      const clip = await readCached(tileCachePath(exercise, ex.answers[0], text, style));
+      return clip
+        ? audio(clip, "public, max-age=604800")
+        : Response.json({ error: "Not cut in this style" }, { status: 404 });
     }
     const clip = await readCached(tileCachePath(exercise, ex.answers[0], text));
     // Kept a week, not forever: a sentence that changes keeps its URL.

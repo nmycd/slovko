@@ -13,7 +13,7 @@ import { mkdtemp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { normalize, slips, stripDiacritics, toTiles } from "../src/lib/answers";
-import { isSilentTile } from "../src/lib/course/helpers";
+import { isSilentTile, LIVE_TILE_STYLE, tileStyles, type TileStyle } from "../src/lib/course/helpers";
 import type { BuildExercise, Lesson, Trap } from "../src/lib/course/types";
 import { synthesizeWithTimings, withRetries, type Alignment } from "../src/lib/elevenlabs";
 import * as cache from "../src/lib/tts-cache";
@@ -147,33 +147,35 @@ async function decode(mp3: ArrayBuffer): Promise<Float32Array> {
   return new Float32Array(pcm.buffer, pcm.byteOffset, pcm.byteLength / 4);
 }
 
-/** A word said faster than this is slowed to it (pitch kept): je, a, sa can be 0.08 s. */
-const SHORTEST = 0.16;
-/** Silence before each clip, so the start isn't lost while the audio output wakes up. */
-const LEAD_IN_MS = 60;
-
 /**
- * A clip → MP3: slowed to `SHORTEST` if it's shorter, with `LEAD_IN_MS` of silence
- * first. Encoded through a file rather than a pipe so the encoder can write the
- * header that tells players to skip its padding (or every clip would start late).
+ * A clip → MP3 in a style (see `tileStyles`): slowed if it's shorter than the style's
+ * `shortest`, with its `leadInMs` of silence first. Encoded through a file rather than
+ * a pipe so the encoder can write the header that tells players to skip its padding
+ * (or every clip would start late).
  */
 let encoded = 0;
 
-async function encode(samples: Float32Array, dir: string): Promise<Buffer> {
+async function encode(samples: Float32Array, dir: string, style: TileStyle): Promise<Buffer> {
+  const { shortest, leadInMs } = tileStyles[style];
   // A name of its own: exercises are encoded side by side.
   const file = join(dir, `${++encoded}.mp3`);
   const pcm = Buffer.from(samples.buffer, samples.byteOffset, samples.byteLength);
   const seconds = samples.length / RATE;
   // atempo needs sound around a short clip, or it eats its start and end; it also
   // slows to half speed at most, so slower takes two.
-  const tempo = seconds / SHORTEST;
+  const tempo = seconds / shortest;
   const slow = tempo >= 1 ? [] : tempo >= 0.5 ? [tempo] : [Math.sqrt(tempo), Math.sqrt(tempo)];
+  const pad = Math.max(leadInMs, 60);
   const filters = [
-    `adelay=${LEAD_IN_MS}:all=1`,
-    ...(slow.length ? [`apad=pad_dur=${LEAD_IN_MS / 1000}`, ...slow.map((t) => `atempo=${t.toFixed(3)}`)] : []),
+    ...(leadInMs || slow.length ? [`adelay=${slow.length ? pad : leadInMs}:all=1`] : []),
+    ...(slow.length ? [`apad=pad_dur=${pad / 1000}`, ...slow.map((t) => `atempo=${t.toFixed(3)}`)] : []),
   ];
   await ffmpeg(
-    ["-y", "-f", "f32le", "-ar", String(RATE), "-ac", "1", "-i", "pipe:0", "-af", filters.join(","), "-c:a", "libmp3lame", "-b:a", "128k", file],
+    [
+      ...["-y", "-f", "f32le", "-ar", String(RATE), "-ac", "1", "-i", "pipe:0"],
+      ...(filters.length ? ["-af", filters.join(",")] : []),
+      ...["-c:a", "libmp3lame", "-b:a", "128k", file],
+    ],
     pcm,
   );
   const mp3 = await readFile(file);
@@ -312,29 +314,46 @@ export type TileOptions = {
   only: string[];
   /** Also write each take and its clips here, with a page to listen to them on. */
   save?: string;
+  /** Also cut every clip in each of `tileStyles`, for dev mode to compare (free). */
+  styles: boolean;
 };
+
+const styleNames = Object.keys(tileStyles) as TileStyle[];
 
 /** Generates the missing tile clips. Returns how many takes or clips failed. */
 export async function generateTiles(lessons: Lesson[], options: TileOptions): Promise<number> {
   const all = planTiles(lessons);
   const plans = all.filter((p) => !options.only.length || options.only.some((prefix) => p.key.startsWith(prefix)));
-  const [clips, takes] = await Promise.all([cache.listCachedPaths("tiles"), cache.listCachedPaths("takes")]);
-  const clipPath = (plan: TilePlan, tile: string) => cache.tileCachePath(plan.key, plan.sentence, tile);
+  const [clips, takes, ...styled] = await Promise.all([
+    cache.listCachedPaths("tiles"),
+    cache.listCachedPaths("takes"),
+    ...(options.styles || options.prune ? styleNames.map((s) => cache.listCachedPaths(`tile-styles/${s}`)) : []),
+  ]);
+  const styleClips = new Set(styled.flatMap((set) => [...set]));
+  const clipPath = (plan: TilePlan, tile: string, style?: TileStyle) =>
+    cache.tileCachePath(plan.key, plan.sentence, tile, style);
   const stored = (take: Take) => {
     const path = cache.takeCachePath(take.text);
     return takes.has(`${path}.mp3`) && takes.has(`${path}.json`);
   };
 
-  // What each take is needed for: the clips still missing, or all of them to cut again.
+  // What each cut is for: the lessons' clip (missing, or all to cut again), the dev
+  // styles still missing (or all, cutting again), and the local copy to listen to.
   const jobs = plans.map((plan) => ({
     plan,
     takes: plan.takes
       .map((take) => {
-        const missing = take.cuts.filter((c) => !clips.has(clipPath(plan, c.tile)));
-        const again = options.recut || options.save ? take.cuts : [];
-        // Cutting again only uses a take already paid for.
-        const cuts = missing.length || stored(take) ? [...new Set([...missing, ...again])] : [];
-        return { take, cuts, voice: cuts.length > 0 && !stored(take) };
+        const cuts = take.cuts.map((c) => ({
+          ...c,
+          missing: !clips.has(clipPath(plan, c.tile)),
+          styles: options.styles
+            ? styleNames.filter((s) => options.recut || !styleClips.has(clipPath(plan, c.tile, s)))
+            : [],
+        }));
+        const missing = cuts.some((c) => c.missing);
+        // Anything but a missing clip only uses a take already paid for.
+        const wanted = missing || stored(take) ? cuts.filter((c) => c.missing || options.recut || options.save || c.styles.length) : [];
+        return { take, cuts: wanted, voice: missing && !stored(take) };
       })
       .filter((t) => t.cuts.length),
   }));
@@ -346,17 +365,24 @@ export async function generateTiles(lessons: Lesson[], options: TileOptions): Pr
     (n, j) => n + j.plan.takes.reduce((m, t) => m + t.cuts.filter((c) => !clips.has(clipPath(j.plan, c.tile))).length, 0),
     0,
   );
+  const styleCount = work.reduce((n, j) => n + j.takes.reduce((m, t) => m + t.cuts.reduce((k, c) => k + c.styles.length, 0), 0), 0);
 
   const wanted = new Set(all.flatMap((p) => p.takes.flatMap((t) => t.cuts.map((c) => clipPath(p, c.tile)))));
   const wantedTakes = new Set(
     all.flatMap((p) => p.takes.flatMap((t) => [".mp3", ".json"].map((ext) => cache.takeCachePath(t.text) + ext))),
   );
-  const unused = [...clips].filter((path) => !wanted.has(path));
+  const wantedStyles = new Set(
+    all.flatMap((p) => p.takes.flatMap((t) => t.cuts.flatMap((c) => styleNames.map((s) => clipPath(p, c.tile, s))))),
+  );
+  const unused = [...clips, ...[...styleClips].filter((path) => !wantedStyles.has(path))].filter(
+    (path) => !wanted.has(path) && !wantedStyles.has(path),
+  );
   const unusedTakes = [...takes].filter((path) => !wantedTakes.has(path));
 
   console.log(`\nword tiles: ${all.length} exercises · ${tileCount} clips · ${all.reduce((n, p) => n + p.takes.length, 0)} takes`);
   if (options.only.length) console.log(`only ${options.only.join(", ")}: ${plans.length} exercises`);
   console.log(`clips missing: ${missingCount}${options.recut ? " · cutting the rest again" : ""}`);
+  if (options.styles) console.log(`dev styles to cut: ${styleCount} clips (${styleNames.join(", ")})`);
   console.log(`takes to voice: ${toVoice.length} · characters to generate: ${characters.toLocaleString("en")}`);
   console.log(
     `unused in cache: ${unused.length} clips, ${unusedTakes.length / 2} takes${options.prune ? " (will be deleted)" : ""}`,
@@ -404,16 +430,20 @@ export async function generateTiles(lessons: Lesson[], options: TileOptions): Pr
         continue;
       }
       const cut = cutWords(await decode(audio), words, cuts.map((c) => c.word));
-      for (const [i, { tile, word }] of cuts.entries()) {
+      for (const [i, { tile, word, missing, styles }] of cuts.entries()) {
         const clip = cut[i];
         if (clip.problem) {
           failed++;
           console.error(`✗ ${plan.key} "${tile}" in "${take.text}": ${clip.problem}`);
           continue;
         }
-        const mp3 = await encode(clip.samples, tmp);
-        await cache.storeCached(clipPath(plan, tile), mp3, "audio/mpeg");
-        await save(`${t}-${word}-${tile}.mp3`, mp3, `<b>${html(tile)}</b> ${clip.seconds.toFixed(2)} s`);
+        const live = await encode(clip.samples, tmp, LIVE_TILE_STYLE);
+        if (missing || options.recut) await cache.storeCached(clipPath(plan, tile), live, "audio/mpeg");
+        for (const style of styles) {
+          const mp3 = style === LIVE_TILE_STYLE ? live : await encode(clip.samples, tmp, style);
+          await cache.storeCached(clipPath(plan, tile, style), mp3, "audio/mpeg");
+        }
+        await save(`${t}-${word}-${tile}.mp3`, live, `<b>${html(tile)}</b> ${clip.seconds.toFixed(2)} s`);
       }
     }
     done++;

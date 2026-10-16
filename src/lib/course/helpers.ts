@@ -27,6 +27,28 @@ export function isSilentTile(word: string): boolean {
 export const TILE_CLIPS_VERSION = 2;
 
 /**
+ * Ways to make a tile's clip from its cut (CONTENT-PIPELINE.md, stage 9, "Short words:
+ * the options"): a word said faster than `shortest` seconds is slowed to it, pitch
+ * kept, and `leadInMs` of silence goes first, so the word isn't lost while the audio
+ * output wakes up. Lessons play `LIVE_TILE_STYLE`; dev mode plays all of them side by
+ * side under each word-order exercise.
+ */
+export const tileStyles = {
+  a: { label: "A: as said", shortest: 0, leadInMs: 0 },
+  b: { label: "B: 60 ms first", shortest: 0, leadInMs: 60 },
+  c: { label: "C: B, slowed to 0.16 s", shortest: 0.16, leadInMs: 60 },
+  d: { label: "D: B, slowed to 0.20 s", shortest: 0.2, leadInMs: 60 },
+} as const;
+
+export type TileStyle = keyof typeof tileStyles;
+
+export const LIVE_TILE_STYLE: TileStyle = "c";
+
+export function isTileStyle(value: string): value is TileStyle {
+  return Object.hasOwn(tileStyles, value);
+}
+
+/**
  * The tiles of a word-order exercise with a Slovak answer that play a sound, right
  * and wrong ones, each once. Each has its own clip cut from a take of the exercise's
  * sentence (scripts/tile-audio.ts), falling back to the word's own clip.

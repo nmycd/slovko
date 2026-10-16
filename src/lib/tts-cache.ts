@@ -1,7 +1,9 @@
 // Course audio cache in Supabase Storage. Shared by /api/tts and
 // scripts/generate-audio.ts, so both agree on where a phrase's clip lives: phrases at
-// the top level, word tiles in tiles/, and the takes tiles are cut from in takes/.
+// the top level, word tiles in tiles/ (and tile-styles/ for dev mode), and the takes
+// tiles are cut from in takes/.
 import { createHash } from "node:crypto";
+import type { TileStyle } from "@/lib/course/helpers";
 import { synthesize, ttsModel, voiceId } from "@/lib/elevenlabs";
 import { getSupabaseAdmin } from "@/lib/supabase/admin";
 
@@ -16,10 +18,12 @@ export function ttsCachePath(text: string): string {
 
 /**
  * Storage path of a word tile's clip, cut from its own exercise's sentence
- * (`exercise`: "u3-l1#build-kde-je"). Changes when the sentence does.
+ * (`exercise`: "u3-l1#build-kde-je"). Changes when the sentence does. Lessons play
+ * tiles/; dev mode compares the styles in tile-styles/a/ … d/ (see `tileStyles`).
  */
-export function tileCachePath(exercise: string, sentence: string, tile: string): string {
-  return `tiles/${hash(`${exercise}|${sentence}|${tile}`)}.mp3`;
+export function tileCachePath(exercise: string, sentence: string, tile: string, style?: TileStyle): string {
+  const name = `${hash(`${exercise}|${sentence}|${tile}`)}.mp3`;
+  return style ? `tile-styles/${style}/${name}` : `tiles/${name}`;
 }
 
 /**

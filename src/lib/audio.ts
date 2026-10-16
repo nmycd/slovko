@@ -4,19 +4,21 @@
 // browser's own speech synthesis when TTS isn't configured or fails.
 
 import { useSyncExternalStore } from "react";
-import { isSilentTile, TILE_CLIPS_VERSION } from "@/lib/course/helpers";
+import { isSilentTile, TILE_CLIPS_VERSION, type TileStyle } from "@/lib/course/helpers";
 import { createStore } from "@/lib/store";
 
 /**
  * A clip to play: a course phrase, or a word tile `in` its exercise
- * ("u3-l1#build-kde-je"), which plays the word as cut from that exercise's sentence.
+ * ("u3-l1#build-kde-je"), which plays the word as cut from that exercise's sentence;
+ * in dev mode, in one of the `style`s compared.
  */
-export type Clip = string | { text: string; in: string };
+export type Clip = string | { text: string; in: string; style?: TileStyle };
 
 const query = (clip: Clip) =>
   typeof clip === "string"
     ? `text=${encodeURIComponent(clip)}`
-    : `text=${encodeURIComponent(clip.text)}&in=${encodeURIComponent(clip.in)}&v=${TILE_CLIPS_VERSION}`;
+    : `text=${encodeURIComponent(clip.text)}&in=${encodeURIComponent(clip.in)}&v=${TILE_CLIPS_VERSION}` +
+      (clip.style ? `&style=${clip.style}` : "");
 
 /** Object URLs of loaded clips, by query. */
 const urls = new Map<string, Promise<string | null>>();
@@ -145,12 +147,13 @@ export function stopSlovak() {
 
 /**
  * Plays a word tile of a word-order exercise: the word as cut from the exercise's
- * sentence (`exercise`: "u3-l1#build-kde-je"), else its own clip. The one-letter
- * prepositions play nothing, being part of the next word when said.
+ * sentence (`exercise`: "u3-l1#build-kde-je"), else its own clip; in dev mode, in
+ * one of the `style`s compared. The one-letter prepositions play nothing, being part
+ * of the next word when said.
  */
-export function playTile(word: string, exercise?: string) {
+export function playTile(word: string, exercise?: string, style?: TileStyle) {
   if (isSilentTile(word)) return stopSlovak();
-  void playSlovak(exercise ? { text: word, in: exercise } : word);
+  void playSlovak(exercise ? { text: word, in: exercise, style } : word);
 }
 
 export async function playSlovak(clip: Clip, { slow = false } = {}) {
@@ -181,6 +184,8 @@ export async function playSlovak(clip: Clip, { slow = false } = {}) {
       }
     }
   }
+  // A style compared in dev mode has no stand-in: the browser's voice would pass for it.
+  if (typeof clip !== "string" && clip.style) return ended();
   if (playId === generation) speakWithBrowser(text, slow, ended);
 }
 
