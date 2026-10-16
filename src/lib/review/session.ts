@@ -156,33 +156,40 @@ const confusable = (a: ReviewItem, b: ReviewItem) =>
   (Object.keys(a.meaning) as Locale[]).some((l) => key(a.meaning[l]) === key(b.meaning[l]));
 
 /** What an item looks like as an option: a bare word, a question or another sentence, and how long. */
-type Shape = { form: "word" | "question" | "sentence"; exclaims: boolean; verb: boolean; words: number };
+type Shape = { form: "word" | "question" | "sentence"; exclaims: boolean; pos: string; topic?: string; words: number };
 
 function shapeOf(item: ReviewItem): Shape {
   const last = item.sk.trim().at(-1);
+  const form = last === "?" ? "question" : last === "." || last === "!" ? "sentence" : "word";
   return {
-    form: last === "?" ? "question" : last === "." || last === "!" ? "sentence" : "word",
+    form,
     exclaims: last === "!",
-    verb: /^to /i.test(item.meaning.en), // "otvoriť" = "to open"
+    // From the word's tags (lexicon.ts); without them, a "to …" gloss is a verb.
+    pos: item.tags?.pos ?? (/^to /i.test(item.meaning.en) ? "verb" : form === "word" ? "noun" : "expression"),
+    topic: item.tags?.topic,
     words: item.sk.split(/\s+/).filter((w) => /\p{L}/u.test(w)).length,
   };
 }
 
 /**
  * How unlike two shapes are. A question among statements, or a bare word among
- * sentences, gives itself away; "Dobrú chuť!" among "Dobrý deň." hardly does.
+ * sentences, gives itself away; "Dobrú chuť!" among "Dobrý deň." hardly does; an
+ * adjective among nouns does. Sharing a topic brings an option closer: rooms
+ * among rooms, food among food, which makes the choice a real one.
  */
 function shapeDistance(a: Shape, b: Shape): number {
   let distance = 0;
   if (a.form !== b.form) distance += a.form === "question" || b.form === "question" ? 4 : 3;
   else if (a.exclaims !== b.exclaims) distance += 1;
-  if (a.verb !== b.verb) distance += 2;
+  if (a.pos !== b.pos) distance += 2;
+  if (a.topic && a.topic === b.topic) distance -= 1;
   return distance + Math.min(2, Math.abs(a.words - b.words));
 }
 
 /**
  * Three wrong options shaped like the answer (a word among words, a question among
- * questions, about as long), preferring words the learner has met, which can't be
+ * questions, the same part of speech, about as long, from the same topic where it
+ * can), preferring words the learner has met, which can't be
  * mistaken for the answer or each other (so "Ahoj" and "Čau", both "Hi", never compete).
  * Being new counts like one step of shape; the random part varies the pick among equals.
  */

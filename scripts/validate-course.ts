@@ -10,6 +10,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { normalize, toTiles } from "../src/lib/answers";
 import { fillSentence, speakableTexts } from "../src/lib/course/helpers";
+import { lexicon } from "../src/lib/course/lexicon";
 import { capitalisedWords, properNames } from "../src/lib/course/names";
 import { addSpelling, needsSpelling, sentenceWords, spellingPlan } from "../src/lib/course/spelling";
 import {
@@ -20,6 +21,7 @@ import {
   type Field,
 } from "../src/lib/course/translatable";
 import type { Exercise, Lesson, Unit } from "../src/lib/course/types";
+import { isReviewable, reviewItemId } from "../src/lib/review/items";
 
 const args = process.argv.slice(2);
 const onlyUnit = args.find((a) => !a.startsWith("--"));
@@ -538,6 +540,35 @@ function checkSpelling(units: Unit[]) {
   hint("spelling.json", !unused.length, `cards no typed sentence needs: ${unused.map((c) => c.sk).join(", ")} (${rerun})`);
 }
 
+// ---- Word tags (lexicon.ts) ----------------------------------------------
+
+/**
+ * Every review word (an intro card of up to three words) needs tags: word review picks
+ * wrong options by them. The tags should agree with how the card is written: a
+ * sentence or question ends in punctuation, a bare word doesn't, a verb is glossed "to …".
+ */
+function checkLexicon(units: Unit[]) {
+  const items = new Set<string>();
+  for (const lesson of units.flatMap((u) => u.lessons)) {
+    lesson.exercises.forEach((ex, i) => {
+      if (ex.type !== "intro" || !isReviewable(ex.sk)) return;
+      const id = reviewItemId(ex.sk);
+      if (items.has(id)) return;
+      items.add(id);
+      const where = `${lesson.id}#${i}`;
+      const tags = lexicon[id];
+      check(where, tags, `"${ex.sk}" has no tags in src/lib/course/lexicon.ts (word review needs them)`);
+      if (!tags) return;
+      const punctuated = /[.!?]$/.test(ex.sk.trim());
+      hint(where, punctuated === (tags.pos === "expression"), `"${ex.sk}": tagged ${tags.pos}, but ${punctuated ? "ends like a sentence" : "has no end punctuation"}`);
+      hint(where, (tags.pos === "verb") === /^to /i.test(ex.en), `"${ex.sk}": a verb is glossed "to …" and only a verb is`);
+    });
+  }
+  if (!onlyUnit) {
+    for (const id of Object.keys(lexicon)) hint("lexicon.ts", items.has(id), `tags for "${id}", which no intro card teaches`);
+  }
+}
+
 async function main() {
   const seenIds = new Set<string>();
   const units = await loadUnits();
@@ -564,6 +595,7 @@ async function main() {
   }
 
   if (!onlyUnit) checkSpelling(units);
+  checkLexicon(units);
 
   if (warnings.length) {
     console.log(`\n${warnings.length} warning(s):`);

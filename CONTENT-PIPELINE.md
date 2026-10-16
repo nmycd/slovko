@@ -9,7 +9,7 @@ Everything here runs from the repo root. Paid steps are marked **$**.
 | # | Stage | Run | Writes | |
 | --- | --- | --- | --- | --- |
 | 1 | [Read the textbook](#1-read-the-textbook) | (the PDF scan) | notes | |
-| 2 | [Write the unit](#2-write-the-unit) | | `src/lib/course/units/unitN.ts` | |
+| 2 | [Write the unit](#2-write-the-unit) | | `src/lib/course/units/unitN.ts`, `lexicon.ts` | |
 | 3 | [Check it](#3-check-it) | `npm run -s validate:course -- uN` | | |
 | 4 | [Editorial pass](#4-editorial-pass) | a review session | a findings list, then fixes | |
 | 5 | [Translate](#5-translate) | `npm run i18n:sync` | `translations/{uk,ru}/unitN.json` | |
@@ -46,6 +46,17 @@ types and how grammar cards are written. The types are in
 
 Don't write spelling cards (stage 6 places them) or dictionary entries (built
 automatically).
+
+**Tag each new review word** in [lexicon.ts](src/lib/course/lexicon.ts): every
+intro card of up to three words (not a list) is a review word, keyed by its Slovak
+in lowercase without final punctuation. Give its part of speech (a noun phrase is a
+noun; a greeting, question or sentence is an `expression`), a noun's gender (and
+`plural` for words like "noviny"), a topic from the list there, and the register
+where Slovak marks it (ty forms and "Ahoj" informal, vy forms and "Dobrý deň"
+polite). Word review picks wrong options by these tags, and they're the course's
+record of what each word is, for anything built on it later. Stage 3 fails on a
+review word without tags and warns when tags disagree with the card ("to …" for a
+verb, end punctuation for an expression). A new topic goes into the `Topic` list.
 
 ## 3. Check it
 
@@ -223,13 +234,13 @@ These follow from the content; there's nothing to run.
   for the Slovak; when asking for the meaning, which the picture would give away,
   only after the answer (and not at all on phones).
 - **Wrong options in review** are other review items shaped like the answer, so
-  none gives itself away: a bare word among bare words, a question among
-  questions, a greeting among sentences, a verb among verbs, about as long
-  (`distractors` in [session.ts](src/lib/review/session.ts)). There are no tags:
-  the shape is read from the intro card, which asks three things of it. End a
-  question with "?" and a sentence or greeting with "." or "!", and leave a bare
-  word or phrase unpunctuated ("byt", "jedálny lístok"). Gloss a verb with "to"
-  ("otvoriť" = "to open").
+  none gives itself away, and from its topic where possible, so the choice is a
+  real one: rooms among rooms, a question among questions, an adjective among
+  adjectives, about as long (`distractors` in
+  [session.ts](src/lib/review/session.ts)). Part of speech and topic come from
+  the word's tags (stage 2); the form from the card itself, so end a question
+  with "?" and a sentence or greeting with "." or "!", and leave a bare word or
+  phrase unpunctuated ("byt", "jedálny lístok").
 - **Spelling cards in lessons** and **picture positions**: inserted and shifted
   as the course loads, from `spelling.json` and `illustrations.json`.
 - **Word-order tiles** show in lowercase, so the capital doesn't give the first
@@ -274,6 +285,6 @@ Gaps in the pipeline, most also tracked in [DEBT.md](DEBT.md):
 - **Spelling cards show a meaning** only for words taught on their own intro card;
   the rest are audio only.
 - **The dictionary knows no synonyms**: "праворуч" doesn't find "направо".
-- **Review options know no part of speech or topic** beyond the shape above: an
-  adjective can stand among nouns, and "kuchyňa" can get "pondelok" rather than
-  other rooms. Tagging intro cards (part of speech, topic) would fix both.
+- **Word tags cover review words only** (intro cards of up to three words), not
+  the longer sentences or the words inside them, and record no aspect, case or
+  declension pattern yet.

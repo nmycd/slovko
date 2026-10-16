@@ -60,7 +60,7 @@ nickname, but not the book's Zuzana Šoltýsová).
 
 | Type | Use it for | Rules |
 | --- | --- | --- |
-| `intro` | A new word or phrase | `sk`, `en`, optional short `note` (1–2 sentences; may use `**highlight**`). |
+| `intro` | A new word or phrase | `sk`, `en`, optional short `note` (1–2 sentences; may use `**highlight**`). One of up to three words is a review word: tag it in `lexicon.ts` (see CONTENT-PIPELINE.md, stage 2). |
 | `grammar` | Explaining a rule | `title`; `body` 1–3 short paragraphs of plain English; optional `table` (≤8 rows, 2–4 columns, `head` optional); 2–4 `examples` (each is voiced). Wrap endings in `**…**`: `študent**ka**`. Markup only here and in intro notes. |
 | `choice` | Recognition | English `question`; 3 options (2–4 allowed); `optionsLang` says which language the options are in; optional `sk` shows and plays a Slovak phrase. |
 | `fill` | Endings, forms, small words | `before` + gap + `after`; 2–4 options that are real forms (e.g. `študent` / `študentka` / `študenti`); `en` is the translation of the full sentence. |

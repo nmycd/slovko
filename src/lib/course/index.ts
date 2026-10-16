@@ -6,6 +6,7 @@ import { isReviewable, reviewItemId, type ReviewItem } from "../review/items";
 import { locales, type Locale } from "../i18n/locales";
 import { speakableTexts, stripMarkup } from "./helpers";
 import { lessonIllustrations } from "./illustrations";
+import { lexicon } from "./lexicon";
 import { addSpelling } from "./spelling";
 import { namesIn, withTileCase } from "./tile-case";
 import { localizeUnit, type Catalog } from "./translatable";
@@ -211,7 +212,15 @@ export const reviewDeck: ReviewItem[] = (() => {
             return [locale, same.type === "intro" ? same.en : ex.en];
           }),
         ) as Record<Locale, string>;
-        items.set(id, { id, sk: stripMarkup(ex.sk), meaning, lessons: [lesson.id], ...(picture && { picture }) });
+        const tags = lexicon[id];
+        items.set(id, {
+          id,
+          sk: stripMarkup(ex.sk),
+          meaning,
+          lessons: [lesson.id],
+          ...(picture && { picture }),
+          ...(tags && { tags }),
+        });
       });
     }),
   );
