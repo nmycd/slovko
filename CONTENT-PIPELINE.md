@@ -63,6 +63,15 @@ polite). Word review picks wrong options by these tags, and they're the course's
 record of what each word is, for anything built on it later. Stage 3 fails on a
 review word without tags and warns when tags disagree with the card ("to …" for a
 verb, end punctuation for an expression). A new topic goes into the `Topic` list.
+A single noun's card also shows its gender ("feminine", "plural only") from these
+tags, so a wrong gender tag is a mistake learners see.
+
+**Give person cards their other gender**: a card about a person whose Slovak form
+depends on gender gets `otherGender: { sk, gender }`, the form for the other gender.
+That covers jobs (`čašník` → `čašníčka`) and phrases said by or to a woman or a man
+(`Som chorá.` → `Som chorý.`). The card shows it as "For a woman: čašníčka". Skip
+cards that already give both forms ("Slovák, Slovenka"), and don't repeat it in the
+`note`. It's text only, with no audio. AUTHORING.md has the details (`intro`).
 
 **Explain the multiple-choice answers**: give each `choice` and `fill` whose
 answer can be reasoned out (not a pure vocabulary check) a `why`, and a `ref` to
@@ -404,6 +413,8 @@ These follow from the content; there's nothing to run.
   phrase unpunctuated ("byt", "jedálny lístok").
 - **Spelling cards in lessons** and **picture positions**: inserted and shifted
   as the course loads, from `spelling.json` and `illustrations.json`.
+- **Noun gender on cards**: a single noun's intro card shows its gender (or plural
+  only), added as the course loads from its tags in `lexicon.ts`.
 - **Memorize words** (writing lessons, tentative): each lesson's pool is the intro cards of up
   to three words since the previous writing lesson. The rounds are dealt from it
   afresh each time the lesson starts, about 36 letters each (2–5 words); rounds the
