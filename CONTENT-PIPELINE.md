@@ -218,6 +218,46 @@ generates audio (`TTS_LIVE_GENERATION=false`), so a text without a clip falls
 back to the browser's own voice. Run this after any change to Slovak text,
 including new spelling cards. `--prune` also deletes clips no longer used.
 
+### Word tiles: cut from the sentence (decided, not built yet)
+
+Today a word tile is voiced on its own and keyed by its text, so one clip of
+"je" serves all 48 tiles that say it. Short words (je, to, sa, a) come out wrong
+without a sentence around them. The fix: every tile is cut from a take of its
+own exercise's sentence.
+
+1. **Voice the answer with timings.** `answers[0]` goes to ElevenLabs'
+   `text-to-speech/{voice}/with-timestamps`, which returns the audio plus each
+   character's start and end time. Words are the runs between spaces, punctuation
+   dropped: the same split `toTiles` makes, so word *k* is tile *k*. The script
+   fails if the counts differ. The same take can be the sentence played after
+   Check.
+2. **Cut each word with ffmpeg.** Cut at the middle of the pause between words,
+   or at the alignment's boundary where there's no pause, with a few milliseconds
+   of fade so nothing clicks.
+3. **Wrong tiles come from the same frame.** Voice the sentence again with each
+   distractor in place of the tile it competes with (its trap's `right`; a
+   distractor without a trap takes the closest tile by form), and cut it out. One
+   take can carry several distractors when they replace different tiles. The
+   carrier sentence may be ungrammatical, since only the word is kept. A wrong
+   tile must sound like a right one, or the sound gives the answer away.
+4. **One-letter prepositions get no clip.** Slovak says v, z, s and k as part of
+   the next word, so on their own they'd be a click. Tapping them plays nothing.
+5. **Tile clips belong to their exercise,** keyed by exercise id, tile and the
+   sentence text, not to the word. Everything else keeps its text-keyed clip.
+6. **Checks:** word and tile counts match, every clip is long enough and not
+   silent, and a sample is listened to before shipping.
+
+Size, for the course as of October 2026: 136 exercises, 552 tiles and 280 wrong
+tiles. That's about 9,300 characters with one take per distractor, less when
+takes are shared.
+
+Considered and set aside:
+- **Each word alone, with the sentence as `previous_text`/`next_text`:** cheaper
+  and no cutting, but still a separate take per word, with no guarantee that a
+  short word comes out right.
+- **ElevenLabs' forced alignment of the existing sentence clips:** fine for the
+  right tiles without re-voicing, but the wrong tiles need new takes anyway.
+
 ## 10. Final checks and ship
 
 ```bash
@@ -296,6 +336,8 @@ Gaps in the pipeline, most also tracked in [DEBT.md](DEBT.md):
   Ukrainian and Russian readers are reviewing, and Uzbek and Georgian are
   planned. A Slovak teacher should still review the Slovak before launch.
 - **Automation.** No CI runs the stage 10 checks; they're run by hand.
+- **Word-tile audio** is still voiced word by word. Cutting tiles from the
+  sentence is decided but not built: see stage 9, "Word tiles".
 - **More than one course.** Lesson ids (`u1-l1`), progress and the dictionary
   assume A1 is the only course. A2, B1 and the driving exam need a multi-course
   data model first.

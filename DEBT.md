@@ -76,6 +76,11 @@ push to `main`). After changing a Vercel environment variable, redeploy.
   `.env.development.local`. It opens every lesson, skips Premium, and enables
   `?step=N` deep links. It must never be set on production (it isn't). Delete
   the file when you don't need it.
+- **Word-tile audio sounds off.** Each tile is voiced on its own, so short words
+  (je, to, sa) come out wrong without a sentence around them, and one clip serves
+  every exercise. Decided fix: cut every tile, wrong ones included, from a take of
+  its own sentence. See CONTENT-PIPELINE.md, stage 9, "Word tiles". It waits for
+  the course comparison, since the course may still be rewritten.
 - **No automated tests or CI.** Checks are `npm run validate:course`,
   `npm run i18n:sync -- --check`, `npx tsc --noEmit` and `npx eslint src`, all
   run by hand. Worth a small GitHub Actions workflow running those on push.
