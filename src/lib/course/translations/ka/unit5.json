@@ -8,12 +8,14 @@
       "Food and drink",
       "Shopping",
       "Colours and clothes",
+      "Likes and free time",
       "A birthday party"
     ],
     "t": [
       "საჭმელი და სასმელი",
       "საყიდლები",
       "ფერები და ტანსაცმელი",
+      "გატაცებები და თავისუფალი დრო",
       "დაბადების დღე"
     ]
   },
@@ -22,6 +24,8 @@
       "Accusative case",
       "Accusative pronouns",
       "Accusative prepositions",
+      "Accusative plural",
+      "mať rád, páči sa mi",
       "The verb ísť",
       "Modal verbs"
     ],
@@ -29,6 +33,8 @@
       "akuzatív (ბრალდებითი ბრუნვა)",
       "ნაცვალსახელები akuzatív-ში",
       "წინდებულები + akuzatív",
+      "akuzatív მრავლობითში",
+      "mať rád, páči sa mi",
       "ზმნა ísť",
       "მოდალური ზმნები"
     ]
@@ -533,6 +539,159 @@
   "u5-l2.speak-hladam-pana-kovaca.en": {
     "en": "I'm looking for Mr Kováč.",
     "t": "ბატონ კოვაჩს ვეძებ."
+  },
+  "u5-obchod.titleEn": {
+    "en": "In the shop",
+    "t": "მაღაზიაში"
+  },
+  "u5-obchod.obchod.en": {
+    "en": "shop",
+    "t": "მაღაზია"
+  },
+  "u5-obchod.obchod.note": {
+    "en": "Groceries are sold in **potraviny** (a plural-only word, like noviny), medicine in a **lekáreň** (pharmacy), soap and shampoo in a **drogéria**.",
+    "t": "საკვებს **potraviny**-ში ყიდიან (ეს სიტყვა მხოლოდ მრავლობითშია, როგორც noviny), წამლებს — **lekáreň**-ში (აფთიაქში), საპონსა და შამპუნს კი **drogéria**-ში (ჰიგიენის საშუალებების მაღაზიაში)."
+  },
+  "u5-obchod.ovocie-a-zelenina.en": {
+    "en": "fruit and vegetables",
+    "t": "ხილი და ბოსტნეული"
+  },
+  "u5-obchod.ovocie-a-zelenina.note": {
+    "en": "Each is one word for many things: **ovocie** (neuter) is all fruit, **zelenina** (feminine) all vegetables.",
+    "t": "როგორც ქართულში, ორივე ერთი სიტყვაა ბევრი რამისთვის: **ovocie** (საშუალო სქესი) ნებისმიერი ხილია, **zelenina** (მდედრობითი) — ნებისმიერი ბოსტნეული."
+  },
+  "u5-obchod.jablko-a-banan.en": {
+    "en": "an apple and a banana",
+    "t": "ვაშლი და ბანანი"
+  },
+  "u5-obchod.jablko-a-banan.note": {
+    "en": "Also **pomaranč** (orange) and **hruška** (pear). In the plural: jablk**á**, banán**y**, pomaranč**e**, hrušk**y**.",
+    "t": "ასევე **pomaranč** (ფორთოხალი) და **hruška** (მსხალი). მრავლობითში: jablk**á**, banán**y**, pomaranč**e**, hrušk**y**."
+  },
+  "u5-obchod.choice-lekaren.question": {
+    "en": "Which shop sells medicine?",
+    "t": "რომელ მაღაზიაში იყიდება წამალი?"
+  },
+  "u5-obchod.zemiaky-a-cibula.en": {
+    "en": "potatoes and an onion",
+    "t": "კარტოფილი და ხახვი"
+  },
+  "u5-obchod.zemiaky-a-cibula.note": {
+    "en": "One potato is **zemiak**. Also **paradajka** (tomato) and **paprika** (pepper).",
+    "t": "ერთი კარტოფილი არის **zemiak**. ასევე **paradajka** (პომიდორი) და **paprika** (წიწაკა)."
+  },
+  "u5-obchod.match-jablko.pairs": {
+    "en": [
+      "apple",
+      "banana",
+      "onion",
+      "fruit",
+      "vegetables"
+    ],
+    "t": [
+      "ვაშლი",
+      "ბანანი",
+      "ხახვი",
+      "ხილი",
+      "ბოსტნეული"
+    ]
+  },
+  "u5-obchod.build-potrebujem-zemiaky-a.prompt": {
+    "en": "I need potatoes and an onion.",
+    "t": "კარტოფილი და ხახვი მჭირდება."
+  },
+  "u5-obchod.build-potrebujem-zemiaky-a.traps": {
+    "en": [
+      "The onion is what you need, the object, so feminine -a changes to **-u**: cibuľ**u**.",
+      "You need more than one potato, so it's the plural: zemiak**y**. Zemiak is one potato."
+    ],
+    "t": [
+      "ხახვი ის არის, რაც გჭირდებათ, ანუ ობიექტი, ამიტომ მდედრობითი -a იცვლება **-u**-თი: cibuľ**u**.",
+      "ქართული „კარტოფილი“ მხოლობითშიც ბევრს ნიშნავს, სლოვაკურში კი ერთზე მეტი კარტოფილი მრავლობითია: zemiak**y**. Zemiak მხოლოდ ერთი კარტოფილია."
+    ]
+  },
+  "u5-obchod.prosim-si-dve-jablka.en": {
+    "en": "Two apples, please.",
+    "t": "ორი ვაშლი, თუ შეიძლება."
+  },
+  "u5-obchod.prosim-si-dve-jablka.note": {
+    "en": "**Prosím si** + the accusative is the polite way to ask for something in a shop or a café: Prosím si kávu.",
+    "t": "**Prosím si** + akuzatív (ბრალდებითი ბრუნვა) მაღაზიაში ან კაფეში რისამე თავაზიანად თხოვნაა: Prosím si kávu. (ყავა, თუ შეიძლება.)"
+  },
+  "u5-obchod.fill-prosim-si-cibulu.en": {
+    "en": "An onion, please.",
+    "t": "ხახვი, თუ შეიძლება."
+  },
+  "u5-obchod.fill-prosim-si-cibulu.why": {
+    "en": "Prosím si takes an object, so it's the accusative: feminine -a changes to **-u**, cibuľa → cibuľ**u**.",
+    "t": "Prosím si-ს შემდეგ ობიექტი akuzatív-ში (ბრალდებით ბრუნვაში) დგება: მდედრობითი -a იცვლება **-u**-თი, cibuľa → cibuľ**u**."
+  },
+  "u5-obchod.este-nieco.en": {
+    "en": "Anything else?",
+    "t": "კიდევ რამე?"
+  },
+  "u5-obchod.este-nieco.note": {
+    "en": "What the shop assistant asks. If that's all: **Nie, to je všetko.** = No, that's everything.",
+    "t": "ასე გეკითხებათ გამყიდველი. თუ მეტი არაფერი გჭირდებათ: **Nie, to je všetko.** = არა, ეს ყველაფერია."
+  },
+  "u5-obchod.choice-este-nieco.question": {
+    "en": "The shop assistant asks “Ešte niečo?” You have everything you need. What do you say?",
+    "t": "გამყიდველი გეკითხებათ: „Ešte niečo?“. ყველაფერი გაქვთ, რაც გჭირდებათ. რას ეტყვით?"
+  },
+  "u5-obchod.platim-kartou.en": {
+    "en": "I'm paying by card.",
+    "t": "ბარათით ვიხდი."
+  },
+  "u5-obchod.platim-kartou.note": {
+    "en": "**platiť** = to pay: platím, platíš, platí… In cash: **Platím v hotovosti.** You pay at the **pokladňa** (till).",
+    "t": "**platiť** = გადახდა: platím, platíš, platí… ნაღდი ფულით: **Platím v hotovosti.** იხდით **pokladňa**-ში (სალაროში)."
+  },
+  "u5-obchod.choice-platim-v-hotovosti.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს?"
+  },
+  "u5-obchod.choice-platim-v-hotovosti.options": {
+    "en": [
+      "I'm paying in cash.",
+      "I'm paying by card.",
+      "Where's the till?"
+    ],
+    "t": [
+      "ნაღდი ფულით ვიხდი.",
+      "ბარათით ვიხდი.",
+      "სად არის სალარო?"
+    ]
+  },
+  "u5-obchod.listen-prosim-si-chlieb.en": {
+    "en": "Bread and two apples, please.",
+    "t": "პური და ორი ვაშლი, თუ შეიძლება."
+  },
+  "u5-obchod.build-mate-cerstvu-zeleninu.answers": {
+    "en": [
+      "Do you have fresh vegetables?",
+      "Have you got fresh vegetables?"
+    ],
+    "t": [
+      "ახალი ბოსტნეული გაქვთ?",
+      "გაქვთ ახალი ბოსტნეული?",
+      "თქვენ ახალი ბოსტნეული გაქვთ?",
+      "ახალი ბოსტნეული ხომ არ გაქვთ?",
+      "ახალი ბოსტნეული თუ გაქვთ?"
+    ]
+  },
+  "u5-obchod.build-mate-cerstvu-zeleninu.distractors": {
+    "en": [
+      "fruit",
+      "need"
+    ],
+    "t": [
+      "ხილი",
+      "გჭირდებათ"
+    ]
+  },
+  "u5-obchod.speak-platim-kartou.en": {
+    "en": "I'm paying by card.",
+    "t": "ბარათით ვიხდი."
   },
   "u5-l3.titleEn": {
     "en": "Colours and clothes",
@@ -1046,6 +1205,485 @@
   "u5-l4.speak-to-je-pre.en": {
     "en": "This is for you.",
     "t": "ეს შენთვისაა."
+  },
+  "u5-mnozne.titleEn": {
+    "en": "Plural objects",
+    "t": "ობიექტი მრავლობითში"
+  },
+  "u5-mnozne.grammar-plural-objects-things.title": {
+    "en": "Plural objects: things and women",
+    "t": "ობიექტი მრავლობითში: ნივთები და ქალები"
+  },
+  "u5-mnozne.grammar-plural-objects-things.body": {
+    "en": [
+      "In the plural, things and women don't change as objects: the accusative is the plural you already know. Kúpim jablká. Mám dve sestry.",
+      "Their adjectives keep **-é** too: Kúpim zelené jablká."
+    ],
+    "t": [
+      "მრავლობითში ნივთები და ქალები ობიექტად არ იცვლება: akuzatív (ბრალდებითი ბრუნვა) იგივე მრავლობითია, რაც უკვე იცით. Kúpim jablká. Mám dve sestry.",
+      "მათი ზედსართავებიც **-é**-ს ინარჩუნებს: Kúpim zelené jablká."
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-things.table.head": {
+    "en": [
+      "the plural",
+      "as an object"
+    ],
+    "t": [
+      "მრავლობითი",
+      "ობიექტად"
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-things.table.rows": {
+    "en": [
+      [
+        "jablká",
+        "Kúpim jablká."
+      ],
+      [
+        "paradajky",
+        "Potrebujem paradajky."
+      ],
+      [
+        "nové kamarátky",
+        "Pozývam nové kamarátky."
+      ]
+    ],
+    "t": [
+      [
+        "jablká",
+        "Kúpim jablká."
+      ],
+      [
+        "paradajky",
+        "Potrebujem paradajky."
+      ],
+      [
+        "nové kamarátky",
+        "Pozývam nové kamarátky."
+      ]
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-things.examples": {
+    "en": [
+      "I'll buy green apples and bananas.",
+      "Lucia is inviting her friends."
+    ],
+    "t": [
+      "მწვანე ვაშლებს და ბანანებს ვიყიდი.",
+      "ლუცია მეგობარ გოგოებს პატიჟებს."
+    ]
+  },
+  "u5-mnozne.fill-kupim-tri-banany.en": {
+    "en": "I'll buy three bananas.",
+    "t": "სამ ბანანს ვიყიდი."
+  },
+  "u5-mnozne.fill-kupim-tri-banany.why": {
+    "en": "Bananas are things, and things don't change in the plural as objects: tri banán**y**, just as in Tu sú tri banány. Banánov isn't the object form.",
+    "t": "ბანანი ნივთია, ნივთები კი მრავლობითში ობიექტად არ იცვლება: tri banán**y**, ისევე როგორც Tu sú tri banány-ში (აქ სამი ბანანია). Banánov ობიექტის ფორმა არ არის: -ov კაცებს ემატება."
+  },
+  "u5-mnozne.grammar-plural-objects-men.title": {
+    "en": "Plural objects: men",
+    "t": "ობიექტი მრავლობითში: კაცები"
+  },
+  "u5-mnozne.grammar-plural-objects-men.body": {
+    "en": [
+      "Men are different: as objects they end in **-ov**, and their adjectives in **-ých**: Pozývam nov**ých** kamarát**ov**.",
+      "Tí becomes **tých**, and 2, 3, 4 become **dvoch**, **troch**, **štyroch**: Mám dv**och** brat**ov**."
+    ],
+    "t": [
+      "კაცებთან სხვაგვარადაა: ობიექტად ისინი **-ov**-ზე ბოლოვდება, მათი ზედსართავები კი **-ých**-ზე: Pozývam nov**ých** kamarát**ov**. (ახალ მეგობრებს ვპატიჟებ.)",
+      "Tí ხდება **tých**, 2, 3, 4 კი — **dvoch**, **troch**, **štyroch**: Mám dv**och** brat**ov**. (ორი ძმა მყავს.)"
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-men.table.head": {
+    "en": [
+      "they are…",
+      "I invite…"
+    ],
+    "t": [
+      "ისინი არიან…",
+      "ვპატიჟებ…"
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-men.table.rows": {
+    "en": [
+      [
+        "kamaráti",
+        "kamarát**ov**"
+      ],
+      [
+        "študenti",
+        "študent**ov**"
+      ],
+      [
+        "bratia",
+        "brat**ov**"
+      ],
+      [
+        "tí mladí kuchári",
+        "t**ých** mlad**ých** kuchár**ov**"
+      ],
+      [
+        "dvaja bratia",
+        "dv**och** brat**ov**"
+      ]
+    ],
+    "t": [
+      [
+        "kamaráti",
+        "kamarát**ov**"
+      ],
+      [
+        "študenti",
+        "študent**ov**"
+      ],
+      [
+        "bratia",
+        "brat**ov**"
+      ],
+      [
+        "tí mladí kuchári",
+        "t**ých** mlad**ých** kuchár**ov**"
+      ],
+      [
+        "dvaja bratia",
+        "dv**och** brat**ov**"
+      ]
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-men.examples": {
+    "en": [
+      "We're inviting our friends.",
+      "I have two brothers.",
+      "I'm looking for those new students."
+    ],
+    "t": [
+      "მეგობრებს ვპატიჟებთ, ბიჭებსაც და გოგოებსაც.",
+      "ორი ძმა მყავს.",
+      "იმ ახალ სტუდენტებს ვეძებ."
+    ]
+  },
+  "u5-mnozne.fill-na-oslavu-pozyvame.en": {
+    "en": "We're inviting friends to the party.",
+    "t": "წვეულებაზე მეგობრებს ვპატიჟებთ."
+  },
+  "u5-mnozne.fill-na-oslavu-pozyvame.why": {
+    "en": "The friends are men or a mixed group, and men as objects end in **-ov**: kamarát**ov**. Kamaráti is the subject form, kamaráta just one friend.",
+    "t": "მეგობრები კაცები ან შერეული ჯგუფია, კაცები კი ობიექტად **-ov**-ზე ბოლოვდება: kamarát**ov**. Kamaráti ძირითადი ფორმაა, kamaráta — მხოლოდ ერთი მეგობარი."
+  },
+  "u5-mnozne.fill-pan-kovac-ma-dvoch.en": {
+    "en": "Mr Kováč has two sons.",
+    "t": "ბატონ კოვაჩს ორი ვაჟი ჰყავს."
+  },
+  "u5-mnozne.fill-pan-kovac-ma-dvoch.why": {
+    "en": "Sons are men, and after **dvoch** men take **-ov**: syn**ov**. Synovia is the subject form, syna one son.",
+    "t": "ვაჟები კაცები არიან, **dvoch**-ის შემდეგ კი კაცები **-ov**-ს იღებს: syn**ov**. Synovia ძირითადი ფორმაა, syna კი ერთი ვაჟია ობიექტად."
+  },
+  "u5-mnozne.fill-marek-hlada-mladych.en": {
+    "en": "Marek is looking for young cooks.",
+    "t": "მარეკი ახალგაზრდა მზარეულებს ეძებს."
+  },
+  "u5-mnozne.fill-marek-hlada-mladych.why": {
+    "en": "The cooks are men and the object, so their adjective ends in **-ých**: mlad**ých**. Mladí is the subject form, mladé for women and things.",
+    "t": "მზარეულები კაცები არიან და ობიექტი, ამიტომ მათი ზედსართავი **-ých**-ზე ბოლოვდება: mlad**ých**. Mladí ძირითადი ფორმაა, mladé — ქალებისა და ნივთებისთვის."
+  },
+  "u5-mnozne.choice-pozyvam-studentov.question": {
+    "en": "Which sentence is correct?",
+    "t": "რომელი წინადადებაა სწორი?"
+  },
+  "u5-mnozne.choice-pozyvam-studentov.why": {
+    "en": "As objects, men take **-ov** (študent**ov**), but women keep their plural (študentk**y**). Študenti is the subject form.",
+    "t": "ობიექტად კაცები **-ov**-ს იღებს (študent**ov**), ქალები კი მრავლობითის ნაცნობ ფორმას ინარჩუნებს (študentk**y**). Študenti ძირითადი ფორმაა და ობიექტად არ გამოდგება."
+  },
+  "u5-mnozne.build-pozyvame-novych-kamaratov.prompt": {
+    "en": "We're inviting new friends.",
+    "t": "ახალ მეგობრებს ვპატიჟებთ."
+  },
+  "u5-mnozne.build-pozyvame-novych-kamaratov.traps": {
+    "en": [
+      "The friends are the object, and men's adjectives as objects end in **-ých**: nov**ých**. Noví is the subject form: noví kamaráti.",
+      "The friends are the object, and men as objects end in **-ov**: kamarát**ov**. Kamaráti is the subject form."
+    ],
+    "t": [
+      "მეგობრები ობიექტია, ობიექტად კი კაცების ზედსართავები **-ých**-ზე ბოლოვდება: nov**ých**. Noví ძირითადი ფორმაა: noví kamaráti.",
+      "ქართულში „მეგობრები“ ობიექტად ხდება „მეგობრებს“, სლოვაკურში კი კაცები ობიექტად **-ov**-ს იღებს: kamarát**ov**. Kamaráti ძირითადი ფორმაა."
+    ]
+  },
+  "u5-mnozne.listen-lucia-pozyva-kamaratov.en": {
+    "en": "Lucia is inviting her friends.",
+    "t": "ლუცია მეგობრებს პატიჟებს, ბიჭებსაც და გოგოებსაც."
+  },
+  "u5-mnozne.build-kupim-zelene-jablka.answers": {
+    "en": [
+      "I'll buy green apples and tomatoes.",
+      "I will buy green apples and tomatoes."
+    ],
+    "t": [
+      "მწვანე ვაშლებს და პომიდვრებს ვიყიდი.",
+      "ვიყიდი მწვანე ვაშლებს და პომიდვრებს.",
+      "პომიდვრებს და მწვანე ვაშლებს ვიყიდი.",
+      "ვიყიდი პომიდვრებს და მწვანე ვაშლებს.",
+      "მწვანე ვაშლებს ვიყიდი და პომიდვრებს.",
+      "მწვანე ვაშლებსა და პომიდვრებს ვიყიდი.",
+      "მწვანე ვაშლს და პომიდორს ვიყიდი."
+    ]
+  },
+  "u5-mnozne.build-kupim-zelene-jablka.distractors": {
+    "en": [
+      "red",
+      "potatoes"
+    ],
+    "t": [
+      "წითელ",
+      "კარტოფილს"
+    ]
+  },
+  "u5-mnozne.speak-mam-dvoch-bratov.en": {
+    "en": "I have two brothers.",
+    "t": "ორი ძმა მყავს."
+  },
+  "u5-mam-rad.titleEn": {
+    "en": "Likes and free time",
+    "t": "გატაცებები და თავისუფალი დრო"
+  },
+  "u5-mam-rad.hudba-a-film.en": {
+    "en": "music and film",
+    "t": "მუსიკა და ფილმი"
+  },
+  "u5-mam-rad.futbal-a-tenis.en": {
+    "en": "football and tennis",
+    "t": "ფეხბურთი და ჩოგბურთი"
+  },
+  "u5-mam-rad.futbal-a-tenis.note": {
+    "en": "**hrať** = to play: hrám, hráš, hrá… Hráme futbal. = We play football.",
+    "t": "**hrať** = თამაში: hrám, hráš, hrá… Hráme futbal. = ფეხბურთს ვთამაშობთ."
+  },
+  "u5-mam-rad.choice-hudba.question": {
+    "en": "What does “hudba” mean?",
+    "t": "რას ნიშნავს „hudba“?"
+  },
+  "u5-mam-rad.choice-hudba.options": {
+    "en": [
+      "music",
+      "film",
+      "football"
+    ],
+    "t": [
+      "მუსიკა",
+      "ფილმი",
+      "ფეხბურთი"
+    ]
+  },
+  "u5-mam-rad.pocuvat-hudbu.en": {
+    "en": "to listen to music",
+    "t": "მუსიკის მოსმენა"
+  },
+  "u5-mam-rad.pocuvat-hudbu.note": {
+    "en": "počúvam, počúvaš, počúva… The music is the object, so hudba becomes hudb**u**.",
+    "t": "počúvam, počúvaš, počúva… მუსიკა ობიექტია (მუსიკას ვუსმენ), ამიტომ hudba ხდება hudb**u**."
+  },
+  "u5-mam-rad.tancovat-a-spievat.en": {
+    "en": "to dance and to sing",
+    "t": "ცეკვა და სიმღერა"
+  },
+  "u5-mam-rad.tancovat-a-spievat.note": {
+    "en": "Tancovať goes like študovať: tancuj**em**. Spievať: spievam. And **plávať** = to swim: plávam.",
+    "t": "Tancovať ისე იცვლება, როგორც študovať: tancuj**em**. Spievať: spievam. და **plávať** = ცურვა: plávam."
+  },
+  "u5-mam-rad.grammar-mat-rad-like.title": {
+    "en": "mať rád: to like",
+    "t": "mať rád: მოწონება"
+  },
+  "u5-mam-rad.grammar-mat-rad-like.body": {
+    "en": [
+      "You know **mať rád** from Akú farbu máš rada?: rád for a man, rada for a woman, and **radi** for a group. What you like is the object: Mám rád hudb**u**.",
+      "To like doing something, put rád with the verb alone, without mať: **Rád** hrám futbal. = I like playing football."
+    ],
+    "t": [
+      "**mať rád** კითხვიდან Akú farbu máš rada? უკვე იცით. ქართული „მომწონს“ ყველასთვის ერთნაირია, rád კი იმას ეთანხმება, ვისაც მოსწონს: rád კაცზე, rada ქალზე, **radi** ჯგუფზე. ის, რაც მოგწონთ, ობიექტია: Mám rád hudb**u**.",
+      "რისამე კეთება რომ მოგწონთ, rád ზმნასთან დასვით, mať-ის გარეშე: **Rád** hrám futbal. = ფეხბურთის თამაში მომწონს."
+    ]
+  },
+  "u5-mam-rad.grammar-mat-rad-like.table.head": {
+    "en": [
+      "",
+      "something",
+      "doing something"
+    ],
+    "t": [
+      "",
+      "რაიმე",
+      "რისამე კეთება"
+    ]
+  },
+  "u5-mam-rad.grammar-mat-rad-like.table.rows": {
+    "en": [
+      [
+        "Tomáš",
+        "Má **rád** futbal.",
+        "**Rád** hrá futbal."
+      ],
+      [
+        "Lucia",
+        "Má **rada** hudbu.",
+        "**Rada** spieva."
+      ],
+      [
+        "my",
+        "Máme **radi** filmy.",
+        "**Radi** tancujeme."
+      ]
+    ],
+    "t": [
+      [
+        "Tomáš",
+        "Má **rád** futbal.",
+        "**Rád** hrá futbal."
+      ],
+      [
+        "Lucia",
+        "Má **rada** hudbu.",
+        "**Rada** spieva."
+      ],
+      [
+        "my",
+        "Máme **radi** filmy.",
+        "**Radi** tancujeme."
+      ]
+    ]
+  },
+  "u5-mam-rad.grammar-mat-rad-like.examples": {
+    "en": [
+      "I like music. (a man speaking)",
+      "Lucia likes dancing.",
+      "I love you. (a woman speaking)"
+    ],
+    "t": [
+      "მუსიკა მომწონს. (ამბობს კაცი)",
+      "ლუციას ცეკვა მოსწონს.",
+      "მიყვარხარ. (ამბობს ქალი)"
+    ]
+  },
+  "u5-mam-rad.fill-lucia-ma-rada.en": {
+    "en": "Lucia likes music.",
+    "t": "ლუციას მუსიკა მოსწონს."
+  },
+  "u5-mam-rad.fill-lucia-ma-rada.why": {
+    "en": "Rád changes with the person who likes: Lucia is a woman, so **rada**. Rád is for a man.",
+    "t": "ქართული „მოსწონს“ არ იცვლება, rád კი იმას ეთანხმება, ვისაც მოსწონს: ლუცია ქალია, ამიტომ **rada**. Rád კაცზე ითქმის."
+  },
+  "u5-mam-rad.fill-tomas-rad-hra.en": {
+    "en": "Tomáš likes playing tennis.",
+    "t": "ტომაშს ჩოგბურთის თამაში მოსწონს."
+  },
+  "u5-mam-rad.fill-tomas-rad-hra.why": {
+    "en": "Tomáš is **on**, so the verb has no ending: **hrá**. Hrám is ja, hrajú is oni.",
+    "t": "ტომაში = **on**, ამიტომ ზმნას დაბოლოება არ აქვს: **hrá**. Hrám ja-ს ფორმაა, hrajú — oni-ს."
+  },
+  "u5-mam-rad.choice-rada-tancujem.question": {
+    "en": "How does Emma say “I like dancing”?",
+    "t": "როგორ იტყვის ემა „ცეკვა მომწონს“?"
+  },
+  "u5-mam-rad.choice-rada-tancujem.why": {
+    "en": "To like doing something, rád goes with the verb alone, without mám. Emma is a woman, so it's **rada** tancujem.",
+    "t": "რისამე კეთება რომ მოგწონთ, rád ზმნასთან დგას, mám-ის გარეშე. ემა ქალია, ამიტომ **rada** tancujem."
+  },
+  "u5-mam-rad.build-mas-rad-futbal.prompt": {
+    "en": "Do you like football? (to a male friend)",
+    "t": "ფეხბურთი მოგწონს? (კაცს, შენ)"
+  },
+  "u5-mam-rad.build-mas-rad-futbal.traps": {
+    "en": [
+      "You're asking a man, so it's **rád**. You'd ask a woman: Máš rada futbal?",
+      "You're asking a friend, **ty**, so mať is **máš**. Mám is the ja form, I have."
+    ],
+    "t": [
+      "კაცს ეკითხებით, ამიტომ **rád**. ქალს ასე ჰკითხავდით: Máš rada futbal?",
+      "მეგობარს ეკითხებით, **ty**-ს (შენ), ამიტომ mať არის **máš**. Mám ja-ს ფორმაა, „მაქვს“."
+    ]
+  },
+  "u5-mam-rad.grammar-paci-sa-mi.title": {
+    "en": "Páči sa mi: I like it",
+    "t": "Páči sa mi: მომწონს"
+  },
+  "u5-mam-rad.grammar-paci-sa-mi.body": {
+    "en": [
+      "For what you see or hear, Slovak often says **Páči sa mi** (it pleases me). The thing you like is the subject: Páči sa mi tvoj sveter. For more than one thing: **Páčia** sa mi.",
+      "Say no with ne-: **Nepáči** sa mi. To ask a friend: Páči sa **ti**…?"
+    ],
+    "t": [
+      "იმაზე, რასაც ხედავთ ან გესმით, სლოვაკურად ხშირად ამბობენ **Páči sa mi**. ის ზუსტად ქართული „მომწონს“-ივით მუშაობს: რაც მოგწონთ, ქვემდებარეა, mi კი „მე“-ა. Páči sa mi tvoj sveter. (შენი სვიტერი მომწონს.) ოღონდ ერთზე მეტ ნივთთან ზმნაც იცვლება: **Páčia** sa mi.",
+      "უარყოფისთვის დაურთეთ ne-: **Nepáči** sa mi. (არ მომწონს.) მეგობარს რომ ჰკითხოთ: Páči sa **ti**…?"
+    ]
+  },
+  "u5-mam-rad.grammar-paci-sa-mi.examples": {
+    "en": [
+      "I like your skirt.",
+      "I like those colours.",
+      "Do you like Bratislava?"
+    ],
+    "t": [
+      "შენი ქვედაბოლო მომწონს.",
+      "ის ფერები მომწონს.",
+      "ბრატისლავა მოგწონს?"
+    ]
+  },
+  "u5-mam-rad.fill-paci-sa-mi-tvoje.en": {
+    "en": "I like your T-shirt.",
+    "t": "შენი მაისური მომწონს."
+  },
+  "u5-mam-rad.fill-paci-sa-mi-tvoje.why": {
+    "en": "The thing you like is the subject. Tričko is one thing, so it's **páči**; páčia is for more than one.",
+    "t": "რაც მოგწონთ, ქვემდებარეა, როგორც ქართულ „მომწონს“-ში. Tričko ერთი ნივთია, ამიტომ **páči**; páčia ერთზე მეტისთვისაა (ქართული ზმნა აქ არ იცვლება)."
+  },
+  "u5-mam-rad.listen-nepaci-sa-mi.en": {
+    "en": "I don't like that film.",
+    "t": "ის ფილმი არ მომწონს."
+  },
+  "u5-mam-rad.build-emma-rada-plava.answers": {
+    "en": [
+      "Emma likes swimming and listening to music.",
+      "Emma likes to swim and listen to music."
+    ],
+    "t": [
+      "ემას ცურვა და მუსიკის მოსმენა მოსწონს.",
+      "ემას მოსწონს ცურვა და მუსიკის მოსმენა.",
+      "ემას მუსიკის მოსმენა და ცურვა მოსწონს.",
+      "ემას მოსწონს მუსიკის მოსმენა და ცურვა.",
+      "ცურვა და მუსიკის მოსმენა ემას მოსწონს.",
+      "ემას უყვარს ცურვა და მუსიკის მოსმენა."
+    ]
+  },
+  "u5-mam-rad.build-emma-rada-plava.distractors": {
+    "en": [
+      "dancing",
+      "reads"
+    ],
+    "t": [
+      "ცეკვა",
+      "კითხულობს"
+    ]
+  },
+  "u5-mam-rad.match-hudba.pairs": {
+    "en": [
+      "music",
+      "to play",
+      "to swim",
+      "to sing",
+      "to dance"
+    ],
+    "t": [
+      "მუსიკა",
+      "თამაში",
+      "ცურვა",
+      "სიმღერა",
+      "ცეკვა"
+    ]
+  },
+  "u5-mam-rad.speak-rad-pocuvam-hudbu.en": {
+    "en": "I like listening to music.",
+    "t": "მუსიკის მოსმენა მომწონს."
   },
   "u5-l5.titleEn": {
     "en": "Go, want, must",

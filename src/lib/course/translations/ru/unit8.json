@@ -7,26 +7,32 @@
     "en": [
       "The company",
       "Days, months, dates",
+      "Seasons and years",
       "CV and job interview"
     ],
     "t": [
       "Фирма",
       "Дни, месяцы, даты",
+      "Времена года и годы",
       "Резюме и собеседование"
     ]
   },
   "u8.grammar": {
     "en": [
       "Dates (ordinal numbers)",
+      "Hundreds and thousands",
       "Double negation",
       "Locative case",
-      "Locative prepositions and pronouns"
+      "Locative prepositions and pronouns",
+      "Locative plural"
     ],
     "t": [
       "Даты (порядковые числительные)",
+      "Сотни и тысячи",
       "Двойное отрицание",
       "Предложный падеж",
-      "Предлоги и местоимения в предложном падеже"
+      "Предлоги и местоимения в предложном падеже",
+      "Предложный падеж множественного числа"
     ]
   },
   "u8-l1.titleEn": {
@@ -1007,6 +1013,216 @@
   "u8-l3.speak-ktoreho-je-dnes.en": {
     "en": "What's the date today?",
     "t": "Какое сегодня число?"
+  },
+  "u8-rok.titleEn": {
+    "en": "Seasons and years",
+    "t": "Времена года и годы"
+  },
+  "u8-rok.jar-a-jesen.en": {
+    "en": "spring and autumn",
+    "t": "весна и осень"
+  },
+  "u8-rok.jar-a-jesen.note": {
+    "en": "With these two, “in” is **na**: na jar, na jeseň. Summer and winter take v: v lete, v zime.",
+    "t": "«Весной» и «осенью» говорят с **na**: na jar, na jeseň. Летом и зимой — с v: v lete, v zime."
+  },
+  "u8-rok.fill-tomas-ma-narodeniny-na.en": {
+    "en": "Tomáš's birthday is in spring.",
+    "t": "У Томаша день рождения весной."
+  },
+  "u8-rok.fill-tomas-ma-narodeniny-na.why": {
+    "en": "Spring and autumn take **na**: na jar, na jeseň. V is for summer and winter: v lete, v zime.",
+    "t": "Весна и осень — с **na**: na jar, na jeseň. V — для лета и зимы: v lete, v zime."
+  },
+  "u8-rok.tyzden-a-mesiac.en": {
+    "en": "a week and a month",
+    "t": "неделя и месяц"
+  },
+  "u8-rok.tyzden-a-mesiac.note": {
+    "en": "Týždeň má sedem **dní** (days, from deň). Rok má dvanásť **mesiacov**. From 5 up, nouns take a counting form, like päť rokov.",
+    "t": "Týždeň má sedem **dní** (дней, от deň). Rok má dvanásť **mesiacov** (месяцев). Начиная с 5 существительные стоят в счётной форме, как и в русском: päť rokov — пять лет."
+  },
+  "u8-rok.minuta-a-sekunda.en": {
+    "en": "a minute and a second",
+    "t": "минута и секунда"
+  },
+  "u8-rok.minuta-a-sekunda.note": {
+    "en": "Hodina má šesťdesiat **minút**. = An hour has sixty minutes.",
+    "t": "Hodina má šesťdesiat **minút**. = В часе шестьдесят минут."
+  },
+  "u8-rok.match-jar.pairs": {
+    "en": [
+      "spring",
+      "autumn",
+      "week",
+      "month",
+      "minute"
+    ],
+    "t": [
+      "весна",
+      "осень",
+      "неделя",
+      "месяц",
+      "минута"
+    ]
+  },
+  "u8-rok.build-rok-ma-dvanast.answers": {
+    "en": [
+      "A year has twelve months.",
+      "There are twelve months in a year."
+    ],
+    "t": [
+      "В году двенадцать месяцев.",
+      "Двенадцать месяцев в году.",
+      "В году 12 месяцев.",
+      "Год состоит из двенадцати месяцев."
+    ]
+  },
+  "u8-rok.build-rok-ma-dvanast.distractors": {
+    "en": [
+      "weeks",
+      "days"
+    ],
+    "t": [
+      "недель",
+      "дней"
+    ]
+  },
+  "u8-rok.grammar-hundreds-thousands.title": {
+    "en": "Hundreds, thousands and years",
+    "t": "Сотни, тысячи и годы"
+  },
+  "u8-rok.grammar-hundreds-thousands.body": {
+    "en": [
+      "Hundreds are one word: dve**sto**, tri**sto**, päť**sto**. A thousand is **tisíc**, two thousand **dve**tisíc.",
+      "A year is one long number: 2026 = dvetisícdvadsaťšesť, 1996 = tisícdeväťstodeväťdesiatšesť. “In 2026” is **v roku** 2026."
+    ],
+    "t": [
+      "Сотни пишутся одним словом: dve**sto**, tri**sto**, päť**sto** (ср. «двести, триста»). Тысяча — **tisíc**, две тысячи — **dve**tisíc.",
+      "Год — одно длинное число, причём количественное, а не порядковое, как у нас («в двадцать шестом»): 2026 = dvetisícdvadsaťšesť, 1996 = tisícdeväťstodeväťdesiatšesť. «В 2026 году» — **v roku** 2026."
+    ]
+  },
+  "u8-rok.grammar-hundreds-thousands.table.rows": {
+    "en": [
+      [
+        "100",
+        "sto"
+      ],
+      [
+        "200",
+        "dve**sto**"
+      ],
+      [
+        "300",
+        "tri**sto**"
+      ],
+      [
+        "500",
+        "päť**sto**"
+      ],
+      [
+        "1000",
+        "**tisíc**"
+      ],
+      [
+        "2000",
+        "dve**tisíc**"
+      ]
+    ],
+    "t": [
+      [
+        "100",
+        "sto"
+      ],
+      [
+        "200",
+        "dve**sto**"
+      ],
+      [
+        "300",
+        "tri**sto**"
+      ],
+      [
+        "500",
+        "päť**sto**"
+      ],
+      [
+        "1000",
+        "**tisíc**"
+      ],
+      [
+        "2000",
+        "dve**tisíc**"
+      ]
+    ]
+  },
+  "u8-rok.grammar-hundreds-thousands.examples": {
+    "en": [
+      "Tomáš was born in 1996.",
+      "Lucia was born in 2007."
+    ],
+    "t": [
+      "Томаш родился в 1996 году.",
+      "Луция родилась в 2007 году."
+    ]
+  },
+  "u8-rok.choice-tristo.question": {
+    "en": "How do you say 300?",
+    "t": "Как сказать 300?"
+  },
+  "u8-rok.choice-tristo.why": {
+    "en": "Hundreds join the number and **sto** into one word: tri**sto**. Tridsať is 30, trinásť 13.",
+    "t": "Сотни соединяют число и **sto** в одно слово: tri**sto**, как «триста». Tridsať — 30, trinásť — 13."
+  },
+  "u8-rok.choice-dvetisicdvadsatsest.question": {
+    "en": "Which year is this?",
+    "t": "Какой это год?"
+  },
+  "u8-rok.choice-dvetisicdvadsatsest.options": {
+    "en": [
+      "2026",
+      "2006",
+      "1926"
+    ],
+    "t": [
+      "2026",
+      "2006",
+      "1926"
+    ]
+  },
+  "u8-rok.choice-dvetisicdvadsatsest.why": {
+    "en": "**Dvetisíc** is 2000 and dvadsaťšesť is 26, said together as one word: 2026.",
+    "t": "**Dvetisíc** — это 2000, а dvadsaťšesť — 26; вместе их говорят одним словом: 2026."
+  },
+  "u8-rok.build-na-jar-mame.prompt": {
+    "en": "We have exams in spring.",
+    "t": "Весной у нас экзамены."
+  },
+  "u8-rok.build-na-jar-mame.traps": {
+    "en": [
+      "Spring takes **na**: na jar, like na jeseň. V is for summer and winter: v lete, v zime.",
+      "Exams are more than one, so it's the plural: skúšk**y**. Skúšku is one exam."
+    ],
+    "t": [
+      "Весна — с **na**: na jar, как na jeseň. V — для лета и зимы: v lete, v zime.",
+      "Экзаменов несколько, поэтому множественное число: skúšk**y**. Skúšku — один экзамен."
+    ]
+  },
+  "u8-rok.listen-lucia-ma-narodeniny.en": {
+    "en": "Lucia's birthday is in summer.",
+    "t": "У Луции день рождения летом."
+  },
+  "u8-rok.fill-vianoce-su-v.en": {
+    "en": "Christmas is in winter.",
+    "t": "Рождество зимой."
+  },
+  "u8-rok.fill-vianoce-su-v.why": {
+    "en": "Summer and winter take **v**: v lete, v zime. Na is for spring and autumn: na jar, na jeseň.",
+    "t": "Лето и зима — с **v**: v lete, v zime. Na — для весны и осени: na jar, na jeseň."
+  },
+  "u8-rok.speak-mam-narodeniny-v.en": {
+    "en": "My birthday is in summer.",
+    "t": "У меня день рождения летом."
   },
   "u8-l4.titleEn": {
     "en": "Nobody, nothing, never",
@@ -2063,6 +2279,183 @@
   "u8-l6.speak-mozem-sediet-pri.en": {
     "en": "Can I sit by the window?",
     "t": "Можно мне сесть у окна?"
+  },
+  "u8-mnozne.titleEn": {
+    "en": "Where? The plural",
+    "t": "Где? Множественное число"
+  },
+  "u8-mnozne.grammar-locative-plural.title": {
+    "en": "The locative plural: -och, -ách",
+    "t": "Предложный падеж множественного числа: -och, -ách"
+  },
+  "u8-mnozne.grammar-locative-plural.body": {
+    "en": [
+      "In the plural, masculine words end in **-och**: v obchod**och**, o študent**och**. Feminine and neuter words end in **-ách**: v mest**ách**, v izb**ách**. Words in -ca, like ulica, take **-iach**: na ulic**iach**.",
+      "Adjectives end in **-ých**: v mal**ých** mest**ách**. Children and people: o deť**och**, o ľuď**och**."
+    ],
+    "t": [
+      "В русском здесь у всех -ах, а в словацком мужской род отличается — **-och**: v obchod**och**, o študent**och**. Женский и средний род — **-ách**: v mest**ách**, v izb**ách** (в городах, в комнатах). Слова на -ca, как ulica, получают **-iach**: na ulic**iach**.",
+      "Прилагательные оканчиваются на **-ých**: v mal**ých** mest**ách** (в маленьких городах). Дети и люди: o deť**och**, o ľuď**och**."
+    ]
+  },
+  "u8-mnozne.grammar-locative-plural.table.head": {
+    "en": [
+      "one",
+      "where? about?"
+    ],
+    "t": [
+      "один",
+      "где? о чём?"
+    ]
+  },
+  "u8-mnozne.grammar-locative-plural.table.rows": {
+    "en": [
+      [
+        "obchod",
+        "v obchod**och**"
+      ],
+      [
+        "študent",
+        "o študent**och**"
+      ],
+      [
+        "mesto",
+        "v mest**ách**"
+      ],
+      [
+        "izba",
+        "v izb**ách**"
+      ],
+      [
+        "ulica",
+        "na ulic**iach**"
+      ]
+    ],
+    "t": [
+      [
+        "obchod",
+        "v obchod**och**"
+      ],
+      [
+        "študent",
+        "o študent**och**"
+      ],
+      [
+        "mesto",
+        "v mest**ách**"
+      ],
+      [
+        "izba",
+        "v izb**ách**"
+      ],
+      [
+        "ulica",
+        "na ulic**iach**"
+      ]
+    ]
+  },
+  "u8-mnozne.grammar-locative-plural.examples": {
+    "en": [
+      "There are cheap apples in the shops.",
+      "We're talking about the children.",
+      "There are shops and cafés in the streets."
+    ],
+    "t": [
+      "В магазинах дешёвые яблоки.",
+      "Мы говорим о детях.",
+      "На улицах магазины и кафе."
+    ]
+  },
+  "u8-mnozne.fill-studenti-byvaju-na.en": {
+    "en": "Students live in dormitories.",
+    "t": "Студенты живут в общежитиях."
+  },
+  "u8-mnozne.fill-studenti-byvaju-na.why": {
+    "en": "Internát is masculine, and in the plural the locative of masculine words ends in **-och**: internát**och**. Internáte is one dorm, internáty the subject form.",
+    "t": "Internát — мужского рода, а во множественном числе предложный падеж мужского рода оканчивается на **-och**: internát**och**. Internáte — одно общежитие, internáty — именительный падеж."
+  },
+  "u8-mnozne.fill-na-internate-byvaju.en": {
+    "en": "In the dorm, students live in small rooms.",
+    "t": "В общежитии студенты живут в маленьких комнатах."
+  },
+  "u8-mnozne.fill-na-internate-byvaju.why": {
+    "en": "Izba is feminine, and in the plural the feminine locative ends in **-ách**: izb**ách**. Izbe is one room, izby the subject form.",
+    "t": "Izba — женского рода, а во множественном числе предложный женского рода оканчивается на **-ách**: izb**ách**, как «в комнатах». Izbe — одна комната, izby — именительный падеж."
+  },
+  "u8-mnozne.fill-rad-citam-o.en": {
+    "en": "I like reading about old towns.",
+    "t": "Я люблю читать о старых городах."
+  },
+  "u8-mnozne.fill-rad-citam-o.why": {
+    "en": "In the locative plural, adjectives end in **-ých**: star**ých**. Staré is the subject form, starom is for one masculine or neuter thing.",
+    "t": "В предложном падеже множественного числа прилагательные оканчиваются на **-ých**: star**ých**, как «о старых». Staré — именительный падеж, starom — для одного предмета мужского или среднего рода."
+  },
+  "u8-mnozne.choice-na-uliciach.question": {
+    "en": "How do you say “in the streets”?",
+    "t": "Как сказать «на улицах»?"
+  },
+  "u8-mnozne.choice-na-uliciach.why": {
+    "en": "Ulica ends in -ca, so its locative plural is **-iach**: na ulic**iach**. The -och ending is for masculine words.",
+    "t": "Ulica оканчивается на -ca, поэтому в предложном падеже множественного числа — **-iach**: na ulic**iach**. Окончание -och — для мужского рода."
+  },
+  "u8-mnozne.build-hovorime-o-ludoch.prompt": {
+    "en": "We're talking about people.",
+    "t": "Мы говорим о людях."
+  },
+  "u8-mnozne.build-hovorime-o-ludoch.traps": {
+    "en": [
+      "After o (about) comes the locative: ľudia → o **ľuďoch**. Ľudia is the subject form.",
+      "Ľuďmi is the with form: s ľuďmi. After o (about) it's the locative: o **ľuďoch**."
+    ],
+    "t": [
+      "После o (о) — предложный падеж: ľudia → o **ľuďoch**, «о людях». Ľudia — именительный падеж.",
+      "Ľuďmi — творительный, для s: s ľuďmi. После o (о) нужен предложный: o **ľuďoch**."
+    ]
+  },
+  "u8-mnozne.build-lucia-cita-o.prompt": {
+    "en": "Lucia is reading about towns and villages.",
+    "t": "Луция читает о городах и деревнях."
+  },
+  "u8-mnozne.build-lucia-cita-o.traps": {
+    "en": [
+      "Mesto is neuter, and neuter words take **-ách** in the locative plural: mest**ách**. -och is for masculine words.",
+      "After o (about) comes the locative, and feminine dedina takes **-ách**: dedin**ách**. Dediny is the subject form."
+    ],
+    "t": [
+      "Mesto — среднего рода, а средний род в предложном падеже множественного числа получает **-ách**: mest**ách**. -och — для мужского рода.",
+      "После o (о) — предложный падеж, а dedina женского рода получает **-ách**: dedin**ách**, как «о деревнях». Dediny — именительный падеж."
+    ]
+  },
+  "u8-mnozne.build-v-malych-mestach.answers": {
+    "en": [
+      "There are no big shops in small towns.",
+      "In small towns there are no big shops."
+    ],
+    "t": [
+      "В маленьких городах нет больших магазинов.",
+      "В маленьких городах больших магазинов нет.",
+      "Больших магазинов в маленьких городах нет.",
+      "Нет больших магазинов в маленьких городах.",
+      "В небольших городах нет больших магазинов."
+    ]
+  },
+  "u8-mnozne.build-v-malych-mestach.distractors": {
+    "en": [
+      "villages",
+      "cheap"
+    ],
+    "t": [
+      "деревнях",
+      "дешёвых"
+    ]
+  },
+  "u8-mnozne.listen-tomas-rad-cita.en": {
+    "en": "Tomáš likes reading about computers.",
+    "t": "Томаш любит читать о компьютерах."
+  },
+  "u8-mnozne.speak-byvame-na-internatoch.en": {
+    "en": "We live in dormitories.",
+    "t": "Мы живём в общежитиях."
   },
   "u8-l7.titleEn": {
     "en": "Review: in the company",

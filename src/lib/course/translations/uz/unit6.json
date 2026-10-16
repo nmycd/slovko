@@ -19,12 +19,14 @@
     "en": [
       "Instrumental case with s/so",
       "Travelling by bus, train, tram",
+      "Instrumental plural",
       "Instrumental pronouns and place prepositions",
       "Verbs pozvať, piť, niesť, jesť, stať sa"
     ],
     "t": [
       "Inštrumentál: s/so (bilan)",
       "Avtobusda, poyezdda, tramvayda",
+      "Koʻplikda inštrumentál",
       "Inštrumentáldagi olmoshlar va joy predloglari",
       "pozvať, piť, niesť, jesť, stať sa feʼllari"
     ]
@@ -937,6 +939,235 @@
     "en": "The bill, please.",
     "t": "Hisob, iltimos."
   },
+  "u6-mnozne.titleEn": {
+    "en": "With friends: the plural",
+    "t": "Doʻstlar bilan: koʻplik"
+  },
+  "u6-mnozne.grammar-with-plural-mi-ami.title": {
+    "en": "With + plural: -mi, -ami",
+    "t": "Bilan + koʻplik: -mi, -ami"
+  },
+  "u6-mnozne.grammar-with-plural-mi-ami.body": {
+    "en": [
+      "You've met s kamarát**mi** and s kamarátk**ami**: in the plural, the instrumental ends in **-mi** or **-ami**.",
+      "Most masculine words take **-mi**: so študent**mi**, s rodič**mi**. Feminine and neuter words take **-ami**: so sestr**ami**, s jablk**ami**. Adjectives end in **-ými** for all of them: s nov**ými** kamarát**mi**."
+    ],
+    "t": [
+      "Siz s kamarát**mi** va s kamarátk**ami** iboralarini koʻrgansiz: koʻplikda inštrumentál («bilan» kelishigi) **-mi** yoki **-ami** bilan tugaydi.",
+      "Erkak jinsidagi soʻzlarning koʻpi **-mi** oladi: so študent**mi**, s rodič**mi**. Ayol va oʻrta jinsdagi soʻzlar **-ami** oladi: so sestr**ami**, s jablk**ami**. Sifatlar hammasida **-ými** bilan tugaydi: s nov**ými** kamarát**mi**."
+    ]
+  },
+  "u6-mnozne.grammar-with-plural-mi-ami.table.head": {
+    "en": [
+      "one",
+      "with more than one"
+    ],
+    "t": [
+      "bitta",
+      "bir nechtasi bilan"
+    ]
+  },
+  "u6-mnozne.grammar-with-plural-mi-ami.table.rows": {
+    "en": [
+      [
+        "kamarát",
+        "s kamarát**mi**"
+      ],
+      [
+        "rodič",
+        "s rodič**mi**"
+      ],
+      [
+        "sestra",
+        "so sestr**ami**"
+      ],
+      [
+        "kamarátka",
+        "s kamarátk**ami**"
+      ],
+      [
+        "jablko",
+        "s jablk**ami**"
+      ]
+    ],
+    "t": [
+      [
+        "kamarát",
+        "s kamarát**mi**"
+      ],
+      [
+        "rodič",
+        "s rodič**mi**"
+      ],
+      [
+        "sestra",
+        "so sestr**ami**"
+      ],
+      [
+        "kamarátka",
+        "s kamarátk**ami**"
+      ],
+      [
+        "jablko",
+        "s jablk**ami**"
+      ]
+    ]
+  },
+  "u6-mnozne.grammar-with-plural-mi-ami.examples": {
+    "en": [
+      "Emma lives with other students.",
+      "Marek cooks with young cooks."
+    ],
+    "t": [
+      "Emma boshqa talaba qizlar bilan yashaydi.",
+      "Marek yosh oshpazlar bilan ovqat pishiradi."
+    ]
+  },
+  "u6-mnozne.fill-emma-hovori-so.en": {
+    "en": "Emma speaks Slovak with the students.",
+    "t": "Emma talabalar bilan slovakcha gaplashadi."
+  },
+  "u6-mnozne.fill-emma-hovori-so.why": {
+    "en": "After s(o), the plural takes the instrumental, and masculine študent takes **-mi**: študent**mi**. Študenti is the subject form, študentov the object form.",
+    "t": "S(o) soʻzidan keyin koʻplik inštrumentálda keladi, erkak jinsidagi študent esa **-mi** oladi: študent**mi**. Študenti — ega shakli, študentov — toʻldiruvchi shakli."
+  },
+  "u6-mnozne.fill-pani-horvathova-ide.en": {
+    "en": "Mrs Horváthová is going home with the other teachers.",
+    "t": "Horvatova xonim boshqa oʻqituvchilar bilan uyga ketyapti."
+  },
+  "u6-mnozne.fill-pani-horvathova-ide.why": {
+    "en": "Feminine words take **-ami** in the plural after s: učiteľk**ami**. Učiteľkou is with one teacher, učiteľky the subject form.",
+    "t": "Koʻplikda s soʻzidan keyin ayol jinsidagi soʻzlar **-ami** oladi: učiteľk**ami**. Učiteľkou — bitta oʻqituvchi bilan, učiteľky — ega shakli."
+  },
+  "u6-mnozne.fill-tomas-hovori-s.en": {
+    "en": "Tomáš is talking to the new students.",
+    "t": "Tomash yangi talabalar bilan gaplashyapti."
+  },
+  "u6-mnozne.fill-tomas-hovori-s.why": {
+    "en": "In the plural, adjectives after s end in **-ými**: nov**ými**. Novým is for one: s novým študentom.",
+    "t": "Koʻplikda s soʻzidan keyin sifatlar **-ými** bilan tugaydi: nov**ými**. Novým — bitta uchun: s novým študentom."
+  },
+  "u6-mnozne.grammar-deti-ludia.title": {
+    "en": "Children and people: s deťmi, s ľuďmi",
+    "t": "Bolalar va odamlar: s deťmi, s ľuďmi"
+  },
+  "u6-mnozne.grammar-deti-ludia.body": {
+    "en": [
+      "Two everyday words have their own forms. dieťa (a child) → deti → s **deťmi**.",
+      "**ľudia** (people) is the plural of človek (a person): s **ľuďmi**."
+    ],
+    "t": [
+      "Ikki kundalik soʻzning oʻz shakllari bor. dieťa (bola) → deti → s **deťmi**.",
+      "**ľudia** (odamlar) — človek (odam) soʻzining koʻpligi: s **ľuďmi**."
+    ]
+  },
+  "u6-mnozne.grammar-deti-ludia.table.head": {
+    "en": [
+      "one",
+      "more than one",
+      "with them"
+    ],
+    "t": [
+      "bitta",
+      "koʻp",
+      "ular bilan"
+    ]
+  },
+  "u6-mnozne.grammar-deti-ludia.table.rows": {
+    "en": [
+      [
+        "dieťa",
+        "deti",
+        "s **deťmi**"
+      ],
+      [
+        "človek",
+        "ľudia",
+        "s **ľuďmi**"
+      ]
+    ],
+    "t": [
+      [
+        "dieťa",
+        "deti",
+        "s **deťmi**"
+      ],
+      [
+        "človek",
+        "ľudia",
+        "s **ľuďmi**"
+      ]
+    ]
+  },
+  "u6-mnozne.grammar-deti-ludia.examples": {
+    "en": [
+      "I like talking to people."
+    ],
+    "t": [
+      "Odamlar bilan gaplashishni yoqtiraman."
+    ]
+  },
+  "u6-mnozne.fill-pani-horvathova-cestuje.en": {
+    "en": "Mrs Horváthová is travelling with her children.",
+    "t": "Horvatova xonim bolalari bilan sayohat qilyapti."
+  },
+  "u6-mnozne.fill-pani-horvathova-cestuje.why": {
+    "en": "Deti has its own form after s: s **deťmi**. Deti is the subject form.",
+    "t": "S (bilan) soʻzidan keyin deti oʻz shaklini oladi: s **deťmi** (bolalar bilan). Deti — ega shakli."
+  },
+  "u6-mnozne.choice-s-rodicmi.question": {
+    "en": "How do you say “with the parents”?",
+    "t": "«Ota-ona bilan» qanday aytiladi?"
+  },
+  "u6-mnozne.choice-s-rodicmi.why": {
+    "en": "After s, the plural takes the instrumental, and rodič is masculine, so it adds **-mi**: s rodič**mi**.",
+    "t": "S soʻzidan keyin koʻplik inštrumentálda keladi, rodič esa erkak jinsida, shuning uchun **-mi** qoʻshiladi: s rodič**mi**."
+  },
+  "u6-mnozne.build-emma-cestuje-s-rodicmi.prompt": {
+    "en": "Emma is travelling with her parents.",
+    "t": "Emma ota-onasi bilan sayohat qilyapti."
+  },
+  "u6-mnozne.build-emma-cestuje-s-rodicmi.traps": {
+    "en": [
+      "After s (with), the plural takes the instrumental: rodič**mi**. Rodičia is the subject form.",
+      "Rodičov is the object form (Pozývam rodičov). After s (with), it's the instrumental: rodič**mi**."
+    ],
+    "t": [
+      "S (bilan) soʻzidan keyin koʻplik inštrumentálda keladi: rodič**mi**. Rodičia — ega shakli.",
+      "Rodičov — toʻldiruvchi shakli (Pozývam rodičov. = Ota-onamni taklif qilaman.). S (bilan) soʻzidan keyin esa inštrumentál keladi: rodič**mi**."
+    ]
+  },
+  "u6-mnozne.listen-tomas-hra-futbal.en": {
+    "en": "Tomáš plays football with his friends.",
+    "t": "Tomash doʻstlari bilan futbol oʻynaydi."
+  },
+  "u6-mnozne.build-lucia-rada-hovori.answers": {
+    "en": [
+      "Lucia likes talking to people.",
+      "Lucia likes talking with people.",
+      "Lucia likes to talk to people."
+    ],
+    "t": [
+      "Lusiya odamlar bilan gaplashishni yoqtiradi.",
+      "Lusiya odamlar bilan suhbatlashishni yoqtiradi.",
+      "Lusiya odamlar bilan gaplashishni yaxshi koʻradi.",
+      "Lusiya odamlar bilan suhbatlashishni yaxshi koʻradi."
+    ]
+  },
+  "u6-mnozne.build-lucia-rada-hovori.distractors": {
+    "en": [
+      "children",
+      "dancing"
+    ],
+    "t": [
+      "bolalar",
+      "gaplashadi"
+    ]
+  },
+  "u6-mnozne.speak-idem-s-kamaratmi.en": {
+    "en": "I'm going with friends.",
+    "t": "Doʻstlar bilan ketyapman."
+  },
   "u6-l5.titleEn": {
     "en": "Are you coming with me?",
     "t": "Men bilan borasanmi?"
@@ -1745,6 +1976,28 @@
   "u6-l7.choice-ucet-prosim.question": {
     "en": "How do you ask for the bill?",
     "t": "Hisobni qanday soʻraysiz?"
+  },
+  "u6-l7.choice-mozem-platit-kartou.question": {
+    "en": "You want to pay by card. What do you ask the waiter?",
+    "t": "Siz karta bilan toʻlamoqchisiz. Ofitsiantdan nima deb soʻraysiz?"
+  },
+  "u6-l7.choice-mozem-platit-kartou.why": {
+    "en": "You pay by means of the card, so it takes the instrumental with no s, like autobusom: kart**ou**. Môžem asks if you may; musím means “I have to”.",
+    "t": "Karta — toʻlov vositasi, shuning uchun u s qoʻshmasdan inštrumentálda keladi, autobusom kabi: kart**ou** (karta bilan). Môžem ruxsat soʻraydi, musím esa «majburman» degani."
+  },
+  "u6-l7.build-zaplatim-mozem-platit.prompt": {
+    "en": "I'll pay. Can I pay by card?",
+    "t": "Men toʻlayman. Karta bilan toʻlasam boʻladimi?"
+  },
+  "u6-l7.build-zaplatim-mozem-platit.traps": {
+    "en": [
+      "Paying by card uses the instrumental with no s, as with transport: autobus**om**, kart**ou**. Kartu is the object form.",
+      "“Can I…?” asks permission, so it's **môžem**. Musím means “I have to”."
+    ],
+    "t": [
+      "Karta bilan toʻlaganda, transportdagi kabi, s qoʻshmasdan inštrumentál keladi: autobus**om**, kart**ou**. Kartu — toʻldiruvchi shakli.",
+      "«…sam boʻladimi?» ruxsat soʻraydi, shuning uchun **môžem**. Musím esa «majburman» degani."
+    ]
   },
   "u6-l7.build-ideme-domov-elektrickou.prompt": {
     "en": "We're going home by tram.",

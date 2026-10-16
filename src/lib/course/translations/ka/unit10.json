@@ -21,11 +21,13 @@
     "en": [
       "The cases at a glance",
       "Present vs past",
+      "Future: budem",
       "Review of A1"
     ],
     "t": [
       "ბრუნვები ერთი შეხედვით",
       "აწმყო და წარსული",
+      "მომავალი: budem",
       "A1 დონის გამეორება"
     ]
   },
@@ -976,6 +978,286 @@
   "u10-l4.speak-vcera-sme-boli.en": {
     "en": "Yesterday we were at the cinema.",
     "t": "გუშინ კინოში ვიყავით."
+  },
+  "u10-budem.titleEn": {
+    "en": "Tomorrow: the future",
+    "t": "ხვალ: მომავალი დრო"
+  },
+  "u10-budem.grammar-byt-future-budem.title": {
+    "en": "Byť in the future: budem",
+    "t": "Byť მომავალში: budem"
+  },
+  "u10-budem.grammar-byt-future-budem.body": {
+    "en": [
+      "Byť has its own future forms: **budem**, **budeš**, **bude**… Zajtra budem doma. = I'll be at home tomorrow.",
+      "Say no with **ne-**, as one word: **ne**budem. Only the present of byť takes a separate nie: nie som."
+    ],
+    "t": [
+      "Byť-ს (ყოფნა) მომავლის საკუთარი ფორმები აქვს, როგორც ქართულ „ვიქნები, იქნები, იქნება“-ს: **budem**, **budeš**, **bude**… Zajtra budem doma. = ხვალ სახლში ვიქნები.",
+      "უარყოფისთვის **ne-** ერთ სიტყვად დაურთეთ: **ne**budem (არ ვიქნები). ცალკე nie მხოლოდ byť-ის აწმყოს სჭირდება: nie som."
+    ]
+  },
+  "u10-budem.grammar-byt-future-budem.table.head": {
+    "en": [
+      "",
+      "now",
+      "later"
+    ],
+    "t": [
+      "",
+      "ახლა",
+      "მოგვიანებით"
+    ]
+  },
+  "u10-budem.grammar-byt-future-budem.table.rows": {
+    "en": [
+      [
+        "ja",
+        "som",
+        "**budem**"
+      ],
+      [
+        "ty",
+        "si",
+        "**budeš**"
+      ],
+      [
+        "on, ona, ono",
+        "je",
+        "**bude**"
+      ],
+      [
+        "my",
+        "sme",
+        "**budeme**"
+      ],
+      [
+        "vy",
+        "ste",
+        "**budete**"
+      ],
+      [
+        "oni, ony",
+        "sú",
+        "**budú**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "som",
+        "**budem**"
+      ],
+      [
+        "ty",
+        "si",
+        "**budeš**"
+      ],
+      [
+        "on, ona, ono",
+        "je",
+        "**bude**"
+      ],
+      [
+        "my",
+        "sme",
+        "**budeme**"
+      ],
+      [
+        "vy",
+        "ste",
+        "**budete**"
+      ],
+      [
+        "oni, ony",
+        "sú",
+        "**budú**"
+      ]
+    ]
+  },
+  "u10-budem.grammar-byt-future-budem.examples": {
+    "en": [
+      "I'll be at home tomorrow.",
+      "Where will you be in the summer?",
+      "The weather will be nice at the weekend."
+    ],
+    "t": [
+      "ხვალ სახლში ვიქნები.",
+      "ზაფხულში სად იქნები?",
+      "შაბათ-კვირას კარგი ამინდი იქნება."
+    ]
+  },
+  "u10-budem.fill-vcera-som-bola.en": {
+    "en": "Yesterday I was at home, today I'm at school, and tomorrow I'll be at the cinema.",
+    "t": "გუშინ სახლში ვიყავი, დღეს სკოლაში ვარ, ხვალ კი კინოში ვიქნები."
+  },
+  "u10-budem.fill-vcera-som-bola.why": {
+    "en": "Zajtra (tomorrow) is still to come, and the future of byť for ja is **budem**. Som is now, bola som was yesterday.",
+    "t": "Zajtra (ხვალ) ჯერ წინაა, ja-სთან კი byť-ის მომავალი არის **budem** (ვიქნები). Som აწმყოა (ვარ), bola som — წარსული (ვიყავი)."
+  },
+  "u10-budem.fill-tomas-bude-cez.en": {
+    "en": "Tomáš will be in Košice at the weekend.",
+    "t": "ტომაში შაბათ-კვირას კოშიცეში იქნება."
+  },
+  "u10-budem.fill-tomas-bude-cez.why": {
+    "en": "Tomáš is **on**, and the on form of the future is **bude**. Budú is oni, budem ja.",
+    "t": "ტომაში = **on**, on-ის მომავლის ფორმა კი არის **bude** (იქნება). Budú oni-სთვისაა, budem — ja-სთვის."
+  },
+  "u10-budem.build-cez-vikend-nebudeme.prompt": {
+    "en": "We won't be at home at the weekend.",
+    "t": "შაბათ-კვირას სახლში არ ვიქნებით."
+  },
+  "u10-budem.build-cez-vikend-nebudeme.traps": {
+    "en": [
+      "The weekend is still to come, so byť takes its future form, with ne- in front: **nebudeme**. Sme is now.",
+      "“We” is my, so the future is budeme, and not makes it **nebudeme**. Budú is oni."
+    ],
+    "t": [
+      "შაბათ-კვირა ჯერ წინაა, ამიტომ byť მომავლის ფორმას იღებს, ne- კი წინ ერთვის: **nebudeme** (არ ვიქნებით). Sme აწმყოა (ვართ).",
+      "„ჩვენ“ არის my, მისი მომავალი budeme-ა, „არ“ კი მას **nebudeme**-დ აქცევს. Budú oni-სთვისაა (ისინი)."
+    ]
+  },
+  "u10-budem.grammar-budem-infinitive.title": {
+    "en": "budem + infinitive: will be doing",
+    "t": "budem + ინფინიტივი: მომავალში კეთება"
+  },
+  "u10-budem.grammar-budem-infinitive.body": {
+    "en": [
+      "For most verbs, the future is **budem** + the infinitive (the -ť form): Budem pracovať. = I'll be working.",
+      "Verbs like kúpiť, prísť, zavolať or stretnúť sa already point to the future on their own (Kúpim chlieb. Zavolám ti.), so they never take budem.",
+      "**Ísť** has its own future: **pôjdem**, pôjdeš, pôjde… Pôjdem domov. = I'll go home. Never budem ísť."
+    ],
+    "t": [
+      "ზმნების უმეტესობის მომავალი არის **budem** + ინფინიტივი (-ť ფორმა): Budem pracovať. = ვიმუშავებ.",
+      "ისეთი ზმნები, როგორიცაა kúpiť, prísť, zavolať ან stretnúť sa, თავისთავად მიუთითებს მომავალზე, როგორც ქართული ზმნისწინიანი ფორმები: Kúpim chlieb. (პურს ვიყიდი.) Zavolám ti. (დაგირეკავ.) ამიტომ budem მათთან არასდროს დგას.",
+      "**Ísť**-ს (სიარული, წასვლა) საკუთარი მომავალი აქვს: **pôjdem**, pôjdeš, pôjde… Pôjdem domov. = სახლში წავალ. არასდროს: budem ísť."
+    ]
+  },
+  "u10-budem.grammar-budem-infinitive.table.rows": {
+    "en": [
+      [
+        "ja",
+        "**budem** pracovať"
+      ],
+      [
+        "ty",
+        "**budeš** čítať"
+      ],
+      [
+        "on, ona",
+        "**bude** variť"
+      ],
+      [
+        "my",
+        "**budeme** študovať"
+      ],
+      [
+        "vy",
+        "**budete** písať"
+      ],
+      [
+        "oni",
+        "**budú** spať"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "**budem** pracovať"
+      ],
+      [
+        "ty",
+        "**budeš** čítať"
+      ],
+      [
+        "on, ona",
+        "**bude** variť"
+      ],
+      [
+        "my",
+        "**budeme** študovať"
+      ],
+      [
+        "vy",
+        "**budete** písať"
+      ],
+      [
+        "oni",
+        "**budú** spať"
+      ]
+    ]
+  },
+  "u10-budem.grammar-budem-infinitive.examples": {
+    "en": [
+      "I'll be working tomorrow.",
+      "What will you do at the weekend?"
+    ],
+    "t": [
+      "ხვალ ვიმუშავებ.",
+      "რას გააკეთებ შაბათ-კვირას?"
+    ]
+  },
+  "u10-budem.fill-vecer-budem-citat.en": {
+    "en": "I'll be reading the paper this evening.",
+    "t": "საღამოს გაზეთს ვიკითხავ."
+  },
+  "u10-budem.fill-vecer-budem-citat.why": {
+    "en": "After **budem** comes the infinitive, the -ť form: budem **čítať**. Čítam is now, čítala the past.",
+    "t": "**budem**-ის შემდეგ ინფინიტივი მოდის, -ť ფორმა: budem **čítať**. Čítam აწმყოა (ვკითხულობ), čítala — წარსული."
+  },
+  "u10-budem.choice-zajtra-kupim-chlieb.question": {
+    "en": "Which sentence is correct?",
+    "t": "რომელი წინადადებაა სწორი?"
+  },
+  "u10-budem.choice-zajtra-kupim-chlieb.why": {
+    "en": "**Kúpiť** already points to the future on its own: kúpim = I'll buy. It never takes budem. Som kúpil is the past.",
+    "t": "**Kúpiť** თავისთავად მიუთითებს მომავალზე, როგორც ქართული „ვიყიდი“: kúpim = ვიყიდი. ამიტომ budem-ს არასდროს იღებს. Som kúpil წარსულია (ვიყიდე)."
+  },
+  "u10-budem.build-vecer-budeme-studovat.prompt": {
+    "en": "We'll be studying in the evening.",
+    "t": "საღამოს ვისწავლით."
+  },
+  "u10-budem.build-vecer-budeme-studovat.traps": {
+    "en": [
+      "“We” is **my**, and the my form is **budeme**. Budú is oni.",
+      "After budeme comes the infinitive, the -ť form: budeme **študovať**. Študujeme is the present."
+    ],
+    "t": [
+      "„ჩვენ“ არის **my**, my-ს ფორმა კი **budeme**-ა. Budú oni-სთვისაა (ისინი).",
+      "budeme-ს შემდეგ ინფინიტივი მოდის, -ť ფორმა: budeme **študovať**. Študujeme აწმყოა (ვსწავლობთ)."
+    ]
+  },
+  "u10-budem.listen-cez-vikend-bude.en": {
+    "en": "Marek will be cooking at the weekend.",
+    "t": "შაბათ-კვირას მარეკი საჭმელს მოამზადებს."
+  },
+  "u10-budem.build-zajtra-nebudem-v.answers": {
+    "en": [
+      "Tomorrow I won't be at school, I'll be working.",
+      "I won't be at school tomorrow, I'll be working."
+    ],
+    "t": [
+      "ხვალ სკოლაში არ ვიქნები, ვიმუშავებ.",
+      "სკოლაში ხვალ არ ვიქნები, ვიმუშავებ.",
+      "ხვალ არ ვიქნები სკოლაში, ვიმუშავებ.",
+      "ხვალ ვიმუშავებ, სკოლაში არ ვიქნები.",
+      "ხვალ მე სკოლაში არ ვიქნები, ვიმუშავებ.",
+      "ხვალ სკოლაში არ ვიქნები, ვმუშაობ."
+    ]
+  },
+  "u10-budem.build-zajtra-nebudem-v.distractors": {
+    "en": [
+      "was",
+      "study"
+    ],
+    "t": [
+      "ვიყავი",
+      "ვისწავლი"
+    ]
+  },
+  "u10-budem.speak-zajtra-budem-doma.en": {
+    "en": "I'll be at home tomorrow.",
+    "t": "ხვალ სახლში ვიქნები."
   },
   "u10-l5.titleEn": {
     "en": "Emma reads the paper",

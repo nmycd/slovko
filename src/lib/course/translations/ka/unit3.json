@@ -6,12 +6,14 @@
   "u3.topics": {
     "en": [
       "The dormitory",
+      "Describing people",
       "Rooms and furniture",
       "Where is it?",
       "Opposites"
     ],
     "t": [
       "საერთო საცხოვრებელი",
+      "ადამიანების აღწერა",
       "ოთახები და ავეჯი",
       "სად არის?",
       "საპირისპირო სიტყვები"
@@ -424,6 +426,158 @@
   "u3-l2.speak-izba-je-velka.en": {
     "en": "The room is big and nice.",
     "t": "ოთახი დიდია და ლამაზი."
+  },
+  "u3-aky-je.titleEn": {
+    "en": "What are people like?",
+    "t": "როგორი ადამიანია?"
+  },
+  "u3-aky-je.aky-je-tomas.en": {
+    "en": "What's Tomáš like?",
+    "t": "როგორია ტომაში?"
+  },
+  "u3-aky-je.aky-je-tomas.note": {
+    "en": "**Aký?** asks about people too: what they're like as a person. The adjective matches the person: Tomáš je mil**ý**, Lucia je mil**á**.",
+    "t": "**Aký?** ადამიანებზეც კითხულობს: როგორი ადამიანია. ზედსართავი ადამიანის სქესს ეთანხმება: Tomáš je mil**ý** (კაცი), Lucia je mil**á** (ქალი)."
+  },
+  "u3-aky-je.vesely-a-smutny.en": {
+    "en": "cheerful and sad",
+    "t": "მხიარული და სევდიანი"
+  },
+  "u3-aky-je.choice-smutny.question": {
+    "en": "What does “smutný” mean?",
+    "t": "რას ნიშნავს „smutný“?"
+  },
+  "u3-aky-je.choice-smutny.options": {
+    "en": [
+      "sad",
+      "cheerful",
+      "kind"
+    ],
+    "t": [
+      "სევდიანი",
+      "მხიარული",
+      "კეთილი"
+    ]
+  },
+  "u3-aky-je.mily-a-sympaticky.en": {
+    "en": "kind and likeable",
+    "t": "კეთილი და სასიამოვნო"
+  },
+  "u3-aky-je.mily-a-sympaticky.note": {
+    "en": "**milý** = kind, sweet; **sympatický** = likeable, someone you warm to.",
+    "t": "**milý** = კეთილი, საყვარელი; **sympatický** = სასიამოვნო, ის, ვინც გულზე გეხატებათ (ხასიათით, არა მხოლოდ გარეგნობით)."
+  },
+  "u3-aky-je.fill-lucia-je-vesela.en": {
+    "en": "Lucia is cheerful.",
+    "t": "ლუცია მხიარულია."
+  },
+  "u3-aky-je.fill-lucia-je-vesela.why": {
+    "en": "Lucia is a woman, so the adjective takes the feminine **-á**: vesel**á**. Veselý would be for Tomáš.",
+    "t": "ქართული „მხიარული“ არ იცვლება, სლოვაკური ზედსართავი კი სქესს ეთანხმება. ლუცია ქალია, ამიტომ მდედრობითი **-á**: vesel**á**. Veselý ტომაშზე ითქმოდა."
+  },
+  "u3-aky-je.mudry-a-hlupy.en": {
+    "en": "clever and stupid",
+    "t": "ჭკვიანი და სულელი"
+  },
+  "u3-aky-je.mudry-a-hlupy.note": {
+    "en": "After a long syllable (mú-, hlú-) the ending is short: múdr**y**, and for a woman múdr**a**, hlúp**a**.",
+    "t": "გრძელი მარცვლის (mú-, hlú-) შემდეგ დაბოლოება მოკლეა: múdr**y**, ქალზე კი múdr**a**, hlúp**a**."
+  },
+  "u3-aky-je.silny-a-slaby.en": {
+    "en": "strong and weak",
+    "t": "ძლიერი და სუსტი"
+  },
+  "u3-aky-je.silny-a-slaby.note": {
+    "en": "Two more opposites: **rýchly – pomalý** (fast – slow). Rýchly has a short ending too: rýchl**a**.",
+    "t": "კიდევ ორი საპირისპირო სიტყვა: **rýchly – pomalý** (სწრაფი – ნელი). Rýchly-საც მოკლე დაბოლოება აქვს: rýchl**a**."
+  },
+  "u3-aky-je.match-vesely.pairs": {
+    "en": [
+      "cheerful",
+      "sad",
+      "clever",
+      "strong",
+      "slow"
+    ],
+    "t": [
+      "მხიარული",
+      "სევდიანი",
+      "ჭკვიანი",
+      "ძლიერი",
+      "ნელი"
+    ]
+  },
+  "u3-aky-je.fill-pani-horvathova-je-mudra.en": {
+    "en": "Mrs Horváthová is clever.",
+    "t": "ქალბატონი ჰორვატოვა ჭკვიანია."
+  },
+  "u3-aky-je.fill-pani-horvathova-je-mudra.why": {
+    "en": "Pani Horváthová is a woman, so the adjective is feminine: **múdra**, with a short -a after the long ú.",
+    "t": "ქალბატონი ჰორვატოვა ქალია, ამიტომ ზედსართავი მდედრობითშია: **múdra**. გრძელი ú-ს შემდეგ დაბოლოება მოკლეა, -a და არა -á. Múdry კაცზე ითქმის."
+  },
+  "u3-aky-je.fill-marek-je-mily.en": {
+    "en": "Marek is kind and likeable.",
+    "t": "მარეკი კეთილი და სასიამოვნოა."
+  },
+  "u3-aky-je.fill-marek-je-mily.why": {
+    "en": "Marek is a man, so the adjective takes the masculine **-ý**, just like sympatick**ý** after it: mil**ý**.",
+    "t": "მარეკი კაცია, ამიტომ ზედსართავი მამრობით **-ý**-ს იღებს, ისევე როგორც მის შემდეგ მდგომი sympatick**ý**: mil**ý**. Milá ქალზე ითქმის, milé — საშუალო სქესის სიტყვებზე."
+  },
+  "u3-aky-je.build-emma-je-vesela.prompt": {
+    "en": "Emma is cheerful and kind.",
+    "t": "ემა მხიარული და კეთილია."
+  },
+  "u3-aky-je.build-emma-je-vesela.traps": {
+    "en": [
+      "Emma is a woman, so the adjective takes the feminine **-á**: vesel**á**. Veselý is for a man.",
+      "Emma is a woman, so it's **milá**. Milé is the neuter form, for words like auto."
+    ],
+    "t": [
+      "ემა ქალია, ამიტომ ზედსართავი მდედრობით **-á**-ს იღებს: vesel**á**. Veselý კაცზე ითქმის.",
+      "ემა ქალია, ამიტომ **milá**. Milé საშუალო სქესის ფორმაა, ისეთი სიტყვებისთვის, როგორიცაა auto."
+    ]
+  },
+  "u3-aky-je.listen-tomas-je-silny.en": {
+    "en": "Tomáš is strong and fast.",
+    "t": "ტომაში ძლიერი და სწრაფია."
+  },
+  "u3-aky-je.choice-emma-nie-je-smutna.question": {
+    "en": "Which sentence is correct?",
+    "t": "რომელი წინადადებაა სწორი?"
+  },
+  "u3-aky-je.choice-emma-nie-je-smutna.why": {
+    "en": "Emma is a woman, so the adjective is **smutná**, and for one person byť is **je**: nie je. Smutný is masculine; nie sú is for oni.",
+    "t": "ემა ქალია, ამიტომ ზედსართავი არის **smutná**, ერთ ადამიანთან კი byť არის **je**: nie je. Smutný მამრობითია, nie sú — oni-სთვის (ისინი)."
+  },
+  "u3-aky-je.build-aky-je-pan.answers": {
+    "en": [
+      "What's Mr Kováč like? He's kind and strong.",
+      "What is Mr Kováč like? He is kind and strong.",
+      "What's Mr Kováč like? He's nice and strong.",
+      "What is Mr Kováč like? He is nice and strong."
+    ],
+    "t": [
+      "როგორია ბატონი კოვაჩი? კეთილი და ძლიერია.",
+      "ბატონი კოვაჩი როგორია? კეთილი და ძლიერია.",
+      "როგორია ბატონი კოვაჩი? ის კეთილი და ძლიერია.",
+      "როგორი ადამიანია ბატონი კოვაჩი? კეთილი და ძლიერია.",
+      "როგორია ბატონი კოვაჩი? კეთილია და ძლიერი.",
+      "როგორია ბატონი კოვაჩი? ის კეთილია და ძლიერი."
+    ]
+  },
+  "u3-aky-je.build-aky-je-pan.distractors": {
+    "en": [
+      "weak",
+      "She's"
+    ],
+    "t": [
+      "სუსტი",
+      "ქალბატონი"
+    ]
+  },
+  "u3-aky-je.speak-aky-je-tomas.en": {
+    "en": "What's Tomáš like? He's kind.",
+    "t": "როგორია ტომაში? კეთილია."
   },
   "u3-l3.titleEn": {
     "en": "In the room",

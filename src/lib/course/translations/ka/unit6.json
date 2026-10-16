@@ -19,12 +19,14 @@
     "en": [
       "Instrumental case with s/so",
       "Travelling by bus, train, tram",
+      "Instrumental plural",
       "Instrumental pronouns and place prepositions",
       "Verbs pozvať, piť, niesť, jesť, stať sa"
     ],
     "t": [
       "inštrumentál (მოქმედებითი ბრუნვა) s/so-ს შემდეგ",
       "მგზავრობა ავტობუსით, მატარებლით, ტრამვაით",
+      "inštrumentál მრავლობითში",
       "ნაცვალსახელები inštrumentál-ში და ადგილის წინდებულები",
       "ზმნები pozvať, piť, niesť, jesť, stať sa"
     ]
@@ -939,6 +941,237 @@
     "en": "The bill, please.",
     "t": "ანგარიში, თუ შეიძლება."
   },
+  "u6-mnozne.titleEn": {
+    "en": "With friends: the plural",
+    "t": "მეგობრებთან ერთად: მრავლობითი"
+  },
+  "u6-mnozne.grammar-with-plural-mi-ami.title": {
+    "en": "With + plural: -mi, -ami",
+    "t": "s + მრავლობითი: -mi, -ami"
+  },
+  "u6-mnozne.grammar-with-plural-mi-ami.body": {
+    "en": [
+      "You've met s kamarát**mi** and s kamarátk**ami**: in the plural, the instrumental ends in **-mi** or **-ami**.",
+      "Most masculine words take **-mi**: so študent**mi**, s rodič**mi**. Feminine and neuter words take **-ami**: so sestr**ami**, s jablk**ami**. Adjectives end in **-ými** for all of them: s nov**ými** kamarát**mi**."
+    ],
+    "t": [
+      "s kamarát**mi** და s kamarátk**ami** უკვე შეგხვედრიათ: მრავლობითში inštrumentál (მოქმედებითი ბრუნვა) **-mi**-ზე ან **-ami**-ზე ბოლოვდება. ქართულში ამას შეესაბამება „მეგობრებთან ერთად“.",
+      "მამრობითი სიტყვების უმეტესობა **-mi**-ს იღებს: so študent**mi**, s rodič**mi**. მდედრობითი და საშუალო სქესის სიტყვები — **-ami**-ს: so sestr**ami**, s jablk**ami**. ზედსართავები ყველასთან **-ými**-ზე ბოლოვდება: s nov**ými** kamarát**mi**."
+    ]
+  },
+  "u6-mnozne.grammar-with-plural-mi-ami.table.head": {
+    "en": [
+      "one",
+      "with more than one"
+    ],
+    "t": [
+      "ერთი",
+      "ერთზე მეტთან ერთად"
+    ]
+  },
+  "u6-mnozne.grammar-with-plural-mi-ami.table.rows": {
+    "en": [
+      [
+        "kamarát",
+        "s kamarát**mi**"
+      ],
+      [
+        "rodič",
+        "s rodič**mi**"
+      ],
+      [
+        "sestra",
+        "so sestr**ami**"
+      ],
+      [
+        "kamarátka",
+        "s kamarátk**ami**"
+      ],
+      [
+        "jablko",
+        "s jablk**ami**"
+      ]
+    ],
+    "t": [
+      [
+        "kamarát",
+        "s kamarát**mi**"
+      ],
+      [
+        "rodič",
+        "s rodič**mi**"
+      ],
+      [
+        "sestra",
+        "so sestr**ami**"
+      ],
+      [
+        "kamarátka",
+        "s kamarátk**ami**"
+      ],
+      [
+        "jablko",
+        "s jablk**ami**"
+      ]
+    ]
+  },
+  "u6-mnozne.grammar-with-plural-mi-ami.examples": {
+    "en": [
+      "Emma lives with other students.",
+      "Marek cooks with young cooks."
+    ],
+    "t": [
+      "ემა სხვა სტუდენტ გოგოებთან ერთად ცხოვრობს.",
+      "მარეკი ახალგაზრდა მზარეულებთან ერთად ამზადებს საჭმელს."
+    ]
+  },
+  "u6-mnozne.fill-emma-hovori-so.en": {
+    "en": "Emma speaks Slovak with the students.",
+    "t": "ემა სტუდენტებთან სლოვაკურად ლაპარაკობს."
+  },
+  "u6-mnozne.fill-emma-hovori-so.why": {
+    "en": "After s(o), the plural takes the instrumental, and masculine študent takes **-mi**: študent**mi**. Študenti is the subject form, študentov the object form.",
+    "t": "s(o)-ს შემდეგ მრავლობითი inštrumentál-ში (მოქმედებით ბრუნვაში) დგება, მამრობითი študent კი **-mi**-ს იღებს: študent**mi**. Študenti ძირითადი ფორმაა, študentov — ობიექტის ფორმა."
+  },
+  "u6-mnozne.fill-pani-horvathova-ide.en": {
+    "en": "Mrs Horváthová is going home with the other teachers.",
+    "t": "ქალბატონი ჰორვატოვა სახლში სხვა მასწავლებლებთან ერთად მიდის."
+  },
+  "u6-mnozne.fill-pani-horvathova-ide.why": {
+    "en": "Feminine words take **-ami** in the plural after s: učiteľk**ami**. Učiteľkou is with one teacher, učiteľky the subject form.",
+    "t": "s-ის შემდეგ მრავლობითში მდედრობითი სიტყვები **-ami**-ს იღებს: učiteľk**ami**. Učiteľkou ერთი მასწავლებლისთვისაა (s učiteľkou), učiteľky კი ძირითადი ფორმაა."
+  },
+  "u6-mnozne.fill-tomas-hovori-s.en": {
+    "en": "Tomáš is talking to the new students.",
+    "t": "ტომაში ახალ სტუდენტებს ელაპარაკება."
+  },
+  "u6-mnozne.fill-tomas-hovori-s.why": {
+    "en": "In the plural, adjectives after s end in **-ými**: nov**ými**. Novým is for one: s novým študentom.",
+    "t": "მრავლობითში s-ის შემდეგ ზედსართავები **-ými**-ზე ბოლოვდება: nov**ými**. Novým ერთისთვისაა: s novým študentom. Nové ძირითადი ფორმაა."
+  },
+  "u6-mnozne.grammar-deti-ludia.title": {
+    "en": "Children and people: s deťmi, s ľuďmi",
+    "t": "ბავშვები და ადამიანები: s deťmi, s ľuďmi"
+  },
+  "u6-mnozne.grammar-deti-ludia.body": {
+    "en": [
+      "Two everyday words have their own forms. dieťa (a child) → deti → s **deťmi**.",
+      "**ľudia** (people) is the plural of človek (a person): s **ľuďmi**."
+    ],
+    "t": [
+      "ორ ყოველდღიურ სიტყვას საკუთარი ფორმები აქვს. dieťa (ბავშვი) → deti → s **deťmi** (ბავშვებთან ერთად).",
+      "**ľudia** (ადამიანები, ხალხი) človek-ის (ადამიანი) მრავლობითია: s **ľuďmi**."
+    ]
+  },
+  "u6-mnozne.grammar-deti-ludia.table.head": {
+    "en": [
+      "one",
+      "more than one",
+      "with them"
+    ],
+    "t": [
+      "ერთი",
+      "ერთზე მეტი",
+      "მათთან ერთად"
+    ]
+  },
+  "u6-mnozne.grammar-deti-ludia.table.rows": {
+    "en": [
+      [
+        "dieťa",
+        "deti",
+        "s **deťmi**"
+      ],
+      [
+        "človek",
+        "ľudia",
+        "s **ľuďmi**"
+      ]
+    ],
+    "t": [
+      [
+        "dieťa",
+        "deti",
+        "s **deťmi**"
+      ],
+      [
+        "človek",
+        "ľudia",
+        "s **ľuďmi**"
+      ]
+    ]
+  },
+  "u6-mnozne.grammar-deti-ludia.examples": {
+    "en": [
+      "I like talking to people."
+    ],
+    "t": [
+      "ადამიანებთან ლაპარაკი მომწონს."
+    ]
+  },
+  "u6-mnozne.fill-pani-horvathova-cestuje.en": {
+    "en": "Mrs Horváthová is travelling with her children.",
+    "t": "ქალბატონი ჰორვატოვა შვილებთან ერთად მგზავრობს."
+  },
+  "u6-mnozne.fill-pani-horvathova-cestuje.why": {
+    "en": "Deti has its own form after s: s **deťmi**. Deti is the subject form.",
+    "t": "Deti-ს s-ის შემდეგ საკუთარი ფორმა აქვს: s **deťmi**, როგორც ქართულში „შვილებთან ერთად“. Deti ძირითადი ფორმაა."
+  },
+  "u6-mnozne.choice-s-rodicmi.question": {
+    "en": "How do you say “with the parents”?",
+    "t": "როგორ ვთქვათ „მშობლებთან ერთად“?"
+  },
+  "u6-mnozne.choice-s-rodicmi.why": {
+    "en": "After s, the plural takes the instrumental, and rodič is masculine, so it adds **-mi**: s rodič**mi**.",
+    "t": "s-ის შემდეგ მრავლობითი inštrumentál-ში (მოქმედებით ბრუნვაში) დგება, rodič კი მამრობითია, ამიტომ **-mi**-ს იღებს: s rodič**mi**. Rodičia ძირითადი ფორმაა, rodičov — ობიექტის."
+  },
+  "u6-mnozne.build-emma-cestuje-s-rodicmi.prompt": {
+    "en": "Emma is travelling with her parents.",
+    "t": "ემა მშობლებთან ერთად მგზავრობს."
+  },
+  "u6-mnozne.build-emma-cestuje-s-rodicmi.traps": {
+    "en": [
+      "After s (with), the plural takes the instrumental: rodič**mi**. Rodičia is the subject form.",
+      "Rodičov is the object form (Pozývam rodičov). After s (with), it's the instrumental: rodič**mi**."
+    ],
+    "t": [
+      "s-ის („-თან ერთად“) შემდეგ მრავლობითი inštrumentál-ში (მოქმედებით ბრუნვაში) დგება: rodič**mi**, როგორც ქართული „მშობლებთან“. Rodičia ძირითადი ფორმაა.",
+      "Rodičov ობიექტის ფორმაა (Pozývam rodičov). s-ის („-თან ერთად“) შემდეგ inštrumentál-ია: rodič**mi**."
+    ]
+  },
+  "u6-mnozne.listen-tomas-hra-futbal.en": {
+    "en": "Tomáš plays football with his friends.",
+    "t": "ტომაში მეგობრებთან ერთად ფეხბურთს თამაშობს."
+  },
+  "u6-mnozne.build-lucia-rada-hovori.answers": {
+    "en": [
+      "Lucia likes talking to people.",
+      "Lucia likes talking with people.",
+      "Lucia likes to talk to people."
+    ],
+    "t": [
+      "ლუციას ადამიანებთან ლაპარაკი მოსწონს.",
+      "ლუციას მოსწონს ადამიანებთან ლაპარაკი.",
+      "ადამიანებთან ლაპარაკი ლუციას მოსწონს.",
+      "ლუციას ხალხთან ლაპარაკი მოსწონს.",
+      "ლუციას ადამიანებთან საუბარი მოსწონს.",
+      "ლუციას უყვარს ადამიანებთან ლაპარაკი."
+    ]
+  },
+  "u6-mnozne.build-lucia-rada-hovori.distractors": {
+    "en": [
+      "children",
+      "dancing"
+    ],
+    "t": [
+      "ბავშვებთან",
+      "ცეკვა"
+    ]
+  },
+  "u6-mnozne.speak-idem-s-kamaratmi.en": {
+    "en": "I'm going with friends.",
+    "t": "მეგობრებთან ერთად მივდივარ."
+  },
   "u6-l5.titleEn": {
     "en": "Are you coming with me?",
     "t": "ჩემთან ერთად წამოხვალ?"
@@ -1749,6 +1982,28 @@
   "u6-l7.choice-ucet-prosim.question": {
     "en": "How do you ask for the bill?",
     "t": "როგორ ითხოვენ ანგარიშს?"
+  },
+  "u6-l7.choice-mozem-platit-kartou.question": {
+    "en": "You want to pay by card. What do you ask the waiter?",
+    "t": "ბარათით გადახდა გინდათ. რას ჰკითხავთ ოფიციანტს?"
+  },
+  "u6-l7.choice-mozem-platit-kartou.why": {
+    "en": "You pay by means of the card, so it takes the instrumental with no s, like autobusom: kart**ou**. Môžem asks if you may; musím means “I have to”.",
+    "t": "ბარათი გადახდის საშუალებაა, ამიტომ inštrumentál-ში (მოქმედებით ბრუნვაში) დგება, s-ის გარეშე, როგორც autobusom: kart**ou** = ბარათით. Môžem ნებართვას კითხულობს, musím კი „უნდა“-ს ნიშნავს."
+  },
+  "u6-l7.build-zaplatim-mozem-platit.prompt": {
+    "en": "I'll pay. Can I pay by card?",
+    "t": "მე გადავიხდი. შემიძლია ბარათით გადავიხადო?"
+  },
+  "u6-l7.build-zaplatim-mozem-platit.traps": {
+    "en": [
+      "Paying by card uses the instrumental with no s, as with transport: autobus**om**, kart**ou**. Kartu is the object form.",
+      "“Can I…?” asks permission, so it's **môžem**. Musím means “I have to”."
+    ],
+    "t": [
+      "ბარათით გადახდა inštrumentál-ს იყენებს, s-ის გარეშე, როგორც ტრანსპორტი: autobus**om**, kart**ou** (ქართულშიც: ავტობუსით, ბარათით). Kartu ობიექტის ფორმაა.",
+      "„შემიძლია…?“ ნებართვას კითხულობს, ამიტომ **môžem**. Musím ნიშნავს „უნდა“, „მიწევს“."
+    ]
   },
   "u6-l7.build-ideme-domov-elektrickou.prompt": {
     "en": "We're going home by tram.",

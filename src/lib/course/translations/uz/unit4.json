@@ -8,12 +8,14 @@
       "The town",
       "Asking the way",
       "Jobs",
+      "Family",
       "Prices"
     ],
     "t": [
       "Shahar",
       "Yoʻl soʻrash",
       "Kasblar",
+      "Oila",
       "Narxlar"
     ]
   },
@@ -21,6 +23,7 @@
     "en": [
       "Nominative plural",
       "Adjectives after je / sú",
+      "Plural possessives: moji, moje",
       "Numbers 2, 3, 4 + nouns",
       "The verb stáť",
       "Plural-only nouns"
@@ -28,6 +31,7 @@
     "t": [
       "Koʻplik (nominatív)",
       "je / sú + sifat",
+      "Koʻplikdagi egalik olmoshlari: moji, moje",
       "2, 3, 4 sonlari + ot",
       "stáť feʼli",
       "Faqat koʻplikda keladigan otlar"
@@ -880,9 +884,271 @@
     "en": "A mixed group of men and women counts as men, so it takes the men's plural: Slovák → **Slováci**. Slovenky would mean women only.",
     "t": "Erkaklar va ayollardan iborat aralash guruh erkaklar kabi hisoblanadi, shuning uchun erkaklar koʻpligi keladi: Slovák → **Slováci**. Slovenky faqat ayollarni bildiradi."
   },
+  "u4-l4.fill-tomas-a-marek-su-veseli.en": {
+    "en": "Tomáš and Marek are cheerful.",
+    "t": "Tomash va Marek quvnoq."
+  },
+  "u4-l4.fill-tomas-a-marek-su-veseli.why": {
+    "en": "Tomáš and Marek are men, and in the plural adjectives for men end in **-í**: vesel**í**. Veselé is for women and things, veselý for one man.",
+    "t": "Tomash va Marek — erkaklar, koʻplikda esa erkaklar haqidagi sifatlar **-í** bilan tugaydi: vesel**í**. Veselé ayollar va narsalar uchun, veselý esa bitta erkak uchun."
+  },
+  "u4-l4.fill-emma-a-lucia-su-mile.en": {
+    "en": "Emma and Lucia are kind.",
+    "t": "Emma va Lusiya mehribon."
+  },
+  "u4-l4.fill-emma-a-lucia-su-mile.why": {
+    "en": "Women follow the pattern of things, so in the plural the adjective ends in **-é**: mil**é**. Milí is for men, milá for one woman.",
+    "t": "Koʻplikda ayollar narsalar kabi oʻzgaradi, shuning uchun sifat **-é** bilan tugaydi: mil**é**. Milí erkaklar uchun, milá esa bitta ayol uchun."
+  },
+  "u4-l4.choice-aki-su-marek.question": {
+    "en": "Which answer fits the question?",
+    "t": "Qaysi javob savolga mos keladi?"
+  },
+  "u4-l4.choice-aki-su-marek.why": {
+    "en": "Marek and Peter are men, so the adjectives take the men's plural **-í**, like the question's ak**í**: siln**í**, vesel**í**. Je silný is about one man.",
+    "t": "Marek va Peter — erkaklar, shuning uchun sifatlar erkaklar koʻpligi qoʻshimchasi **-í** ni oladi, savoldagi ak**í** kabi: siln**í**, vesel**í**. Je silný esa bitta erkak haqida."
+  },
+  "u4-l4.build-lucia-a-tomas-su.prompt": {
+    "en": "Lucia and Tomáš are cheerful and kind.",
+    "t": "Lusiya va Tomash quvnoq va mehribon."
+  },
+  "u4-l4.build-lucia-a-tomas-su.traps": {
+    "en": [
+      "A mixed group of men and women counts as men, so the adjective takes the men's plural **-í**: vesel**í**.",
+      "Lucia and Tomáš are two people, oni, so byť is **sú**. Je is for one person."
+    ],
+    "t": [
+      "Erkak va ayoldan iborat aralash guruh erkaklar kabi hisoblanadi, shuning uchun sifat erkaklar koʻpligi qoʻshimchasi **-í** ni oladi: vesel**í**.",
+      "Lusiya va Tomash — ikki kishi, oni (ular), shuning uchun byť — **sú**. Je bitta kishi uchun."
+    ]
+  },
   "u4-l4.speak-tie-mosty-su.en": {
     "en": "Those bridges are new.",
     "t": "Oʻsha koʻpriklar yangi."
+  },
+  "u4-rodina.titleEn": {
+    "en": "My family",
+    "t": "Mening oilam"
+  },
+  "u4-rodina.moja-rodina.en": {
+    "en": "my family",
+    "t": "mening oilam"
+  },
+  "u4-rodina.moja-rodina.note": {
+    "en": "Emma is showing Lucia photos of her family in Ireland. **rodina** = family.",
+    "t": "Emma Lusiyaga Irlandiyadagi oilasining suratlarini koʻrsatyapti. **rodina** = oila."
+  },
+  "u4-rodina.mama-a-otec.en": {
+    "en": "mum and dad",
+    "t": "ona va ota"
+  },
+  "u4-rodina.mama-a-otec.note": {
+    "en": "Together they're your **rodičia** (parents), a plural word: To sú moji rodičia.",
+    "t": "Ikkalasi birga — **rodičia** (ota-ona), koʻplikdagi soʻz: To sú moji rodičia. = Bular mening ota-onam."
+  },
+  "u4-rodina.brat-a-sestra.en": {
+    "en": "brother and sister",
+    "t": "aka yoki uka; opa yoki singil"
+  },
+  "u4-rodina.brat-a-sestra.note": {
+    "en": "Brothers and sisters together are **súrodenci** (siblings).",
+    "t": "Slovakchada yosh farqi aytilmaydi: brat — aka ham, uka ham; sestra — opa ham, singil ham. Ular birgalikda **súrodenci** (aka-uka va opa-singillar)."
+  },
+  "u4-rodina.match-mama.pairs": {
+    "en": [
+      "mum",
+      "dad",
+      "brother",
+      "sister",
+      "family"
+    ],
+    "t": [
+      "ona",
+      "ota",
+      "aka yoki uka",
+      "opa yoki singil",
+      "oila"
+    ]
+  },
+  "u4-rodina.fill-lucia-je-marekova.en": {
+    "en": "Lucia is Marek's sister.",
+    "t": "Lusiya — Marekning singlisi."
+  },
+  "u4-rodina.fill-lucia-je-marekova.why": {
+    "en": "Marek's takes the gender of what it describes. Sestra is feminine, so it ends in **-a**: Marekov**a**. Marekov goes with a masculine word: Marekov brat.",
+    "t": "Oʻzbekchadagi -ning oʻzgarmaydi, Marekov esa oʻzidan keyingi otning jinsini oladi. Sestra ayol jinsida, shuning uchun **-a** bilan tugaydi: Marekov**a**. Marekov — erkak jinsi uchun: Marekov brat."
+  },
+  "u4-rodina.syn-a-dcera.en": {
+    "en": "son and daughter",
+    "t": "oʻgʻil va qiz"
+  },
+  "u4-rodina.syn-a-dcera.note": {
+    "en": "A child is **dieťa**, children are **deti**.",
+    "t": "Bola — **dieťa**, bolalar — **deti**."
+  },
+  "u4-rodina.grammar-my-parents-moji.title": {
+    "en": "My parents: moji, moje",
+    "t": "Ota-onam: moji, moje"
+  },
+  "u4-rodina.grammar-my-parents-moji.body": {
+    "en": [
+      "In the plural, môj, tvoj and náš work like tí and tie: **moji** for men or a mixed group, **moje** for women and things.",
+      "Some family words have their own plurals: brat → **bratia**, syn → **synovia**, dieťa → **deti**."
+    ],
+    "t": [
+      "Koʻplikda môj (mening), tvoj (sening) va náš (bizning) xuddi tí va tie kabi oʻzgaradi: erkaklar yoki aralash guruh uchun **moji**, ayollar va narsalar uchun **moje**.",
+      "Oila haqidagi baʼzi soʻzlarning koʻpligi oʻziga xos: brat → **bratia**, syn → **synovia**, dieťa → **deti**."
+    ]
+  },
+  "u4-rodina.grammar-my-parents-moji.table.head": {
+    "en": [
+      "one",
+      "more than one"
+    ],
+    "t": [
+      "bitta",
+      "koʻp"
+    ]
+  },
+  "u4-rodina.grammar-my-parents-moji.table.rows": {
+    "en": [
+      [
+        "môj brat",
+        "**moji** brat**ia**"
+      ],
+      [
+        "môj syn",
+        "**moji** syn**ovia**"
+      ],
+      [
+        "moja sestra",
+        "**moje** sestr**y**"
+      ],
+      [
+        "moja dcéra",
+        "**moje** dcér**y**"
+      ],
+      [
+        "moje dieťa",
+        "**moje** deti"
+      ]
+    ],
+    "t": [
+      [
+        "môj brat",
+        "**moji** brat**ia**"
+      ],
+      [
+        "môj syn",
+        "**moji** syn**ovia**"
+      ],
+      [
+        "moja sestra",
+        "**moje** sestr**y**"
+      ],
+      [
+        "moja dcéra",
+        "**moje** dcér**y**"
+      ],
+      [
+        "moje dieťa",
+        "**moje** deti"
+      ]
+    ]
+  },
+  "u4-rodina.grammar-my-parents-moji.examples": {
+    "en": [
+      "These are my parents.",
+      "Your brothers and sisters are cheerful."
+    ],
+    "t": [
+      "Bular mening ota-onam.",
+      "Aka-uka va opa-singillaring quvnoq."
+    ]
+  },
+  "u4-rodina.fill-to-su-moji.en": {
+    "en": "These are my brothers.",
+    "t": "Bular mening aka-ukalarim."
+  },
+  "u4-rodina.fill-to-su-moji.why": {
+    "en": "Bratia are men, so “my” takes the men's plural **moji**, like tí. Moje is for women and things, môj for one.",
+    "t": "Bratia — erkaklar, shuning uchun «mening» erkaklar koʻpligi shaklida keladi: **moji**, xuddi tí kabi. Moje ayollar va narsalar uchun, môj esa bitta uchun."
+  },
+  "u4-rodina.manzel-a-manzelka.en": {
+    "en": "husband and wife",
+    "t": "er va xotin"
+  },
+  "u4-rodina.manzel-a-manzelka.note": {
+    "en": "Women's surnames add **-ová**: pán Horváth, pani Horváth**ová**. Pani Horváthová's husband is pán Horváth.",
+    "t": "Ayollar familiyasiga **-ová** qoʻshiladi, oʻzbekchadagi Karimov — Karimova kabi: pán Horváth, pani Horváth**ová**. Horvatova xonimning eri — janob Horvat."
+  },
+  "u4-rodina.zenaty-vydata.en": {
+    "en": "married (of a man / of a woman)",
+    "t": "uylangan (erkak) / turmushga chiqqan (ayol)"
+  },
+  "u4-rodina.zenaty-vydata.note": {
+    "en": "Slovak has a word for each: a man is **ženatý**, a woman **vydatá**. Single: **slobodný**, **slobodná**.",
+    "t": "Slovakchada ham, oʻzbekchadagi kabi, har biri uchun alohida soʻz bor: erkak — **ženatý**, ayol — **vydatá**. Turmush qurmagan: **slobodný**, **slobodná**."
+  },
+  "u4-rodina.choice-tomas-nie-je.question": {
+    "en": "Tomáš isn't married. What does he say?",
+    "t": "Tomash uylanmagan. U nima deydi?"
+  },
+  "u4-rodina.choice-tomas-nie-je.why": {
+    "en": "A married man is **ženatý**, so Tomáš says nie som ženatý. Vydatá is only for women, and nie som slobodný means “I'm not single”.",
+    "t": "Uylangan erkak — **ženatý**, shuning uchun Tomash nie som ženatý deydi. Vydatá faqat ayollar uchun, nie som slobodný esa «boʻydoq emasman» degani."
+  },
+  "u4-rodina.build-moji-rodicia-su.prompt": {
+    "en": "My parents are from Ireland.",
+    "t": "Ota-onam Irlandiyadan."
+  },
+  "u4-rodina.build-moji-rodicia-su.traps": {
+    "en": [
+      "Mum and dad together are a mixed group, which counts as men, so “my” is **moji**. Moje goes with women and things: moje sestry.",
+      "Rodičia is plural, oni, so byť is **sú**. Je is for one person."
+    ],
+    "t": [
+      "Ona va ota birgalikda aralash guruh, u erkaklar kabi hisoblanadi, shuning uchun «mening» — **moji**. Moje ayollar va narsalar bilan keladi: moje sestry.",
+      "Rodičia — koʻplik, oni (ular), shuning uchun byť — **sú**. Je bitta kishi uchun."
+    ]
+  },
+  "u4-rodina.listen-moja-sestra-je.en": {
+    "en": "My sister is cheerful and kind.",
+    "t": "Singlim quvnoq va mehribon."
+  },
+  "u4-rodina.fill-to-su-moje.en": {
+    "en": "These are my sisters.",
+    "t": "Bular mening opa-singillarim."
+  },
+  "u4-rodina.fill-to-su-moje.why": {
+    "en": "**Moje** is the plural for women and things, so it goes with sestr**y**. Brothers would take moji: moji bratia. Sestra is just one sister.",
+    "t": "**Moje** — ayollar va narsalar uchun koʻplik shakli, shuning uchun sestr**y** bilan keladi. Aka-ukalar uchun moji boʻlardi: moji bratia. Sestra esa bitta opa yoki singil."
+  },
+  "u4-rodina.build-pani-horvathova-je.answers": {
+    "en": [
+      "Mrs Horváthová is married and her son is a journalist.",
+      "Mrs Horváthová is married and her son is a reporter."
+    ],
+    "t": [
+      "Horvatova xonim turmushga chiqqan va uning oʻgʻli jurnalist.",
+      "Horvatova xonim turmushga chiqqan va oʻgʻli jurnalist.",
+      "Horvatova xonim turmushga chiqqan, uning oʻgʻli jurnalist.",
+      "Horvatova xonim turmushga chiqqan, oʻgʻli jurnalist."
+    ]
+  },
+  "u4-rodina.build-pani-horvathova-je.distractors": {
+    "en": [
+      "single",
+      "daughter"
+    ],
+    "t": [
+      "uylangan",
+      "qizi"
+    ]
+  },
+  "u4-rodina.speak-to-je-moja.en": {
+    "en": "This is my family.",
+    "t": "Bu mening oilam."
   },
   "u4-l5.titleEn": {
     "en": "Two, three, four",

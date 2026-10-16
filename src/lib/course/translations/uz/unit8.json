@@ -7,26 +7,32 @@
     "en": [
       "The company",
       "Days, months, dates",
+      "Seasons and years",
       "CV and job interview"
     ],
     "t": [
       "Firma",
       "Kunlar, oylar, sanalar",
+      "Fasllar va yillar",
       "Rezyume va ish suhbati"
     ]
   },
   "u8.grammar": {
     "en": [
       "Dates (ordinal numbers)",
+      "Hundreds and thousands",
       "Double negation",
       "Locative case",
-      "Locative prepositions and pronouns"
+      "Locative prepositions and pronouns",
+      "Locative plural"
     ],
     "t": [
       "Sanalar (tartib sonlar)",
+      "Yuzlar va minglar",
       "Qoʻsh inkor",
       "Lokál (oʻrin-payt kelishigi)",
-      "Lokál bilan predloglar va olmoshlar"
+      "Lokál bilan predloglar va olmoshlar",
+      "Koʻplikda lokál"
     ]
   },
   "u8-l1.titleEn": {
@@ -1003,6 +1009,216 @@
   "u8-l3.speak-ktoreho-je-dnes.en": {
     "en": "What's the date today?",
     "t": "Bugun nechanchi sana?"
+  },
+  "u8-rok.titleEn": {
+    "en": "Seasons and years",
+    "t": "Fasllar va yillar"
+  },
+  "u8-rok.jar-a-jesen.en": {
+    "en": "spring and autumn",
+    "t": "bahor va kuz"
+  },
+  "u8-rok.jar-a-jesen.note": {
+    "en": "With these two, “in” is **na**: na jar, na jeseň. Summer and winter take v: v lete, v zime.",
+    "t": "Bu ikkisi bilan «…da» — **na**: na jar (bahorda), na jeseň (kuzda). Yoz va qish v bilan keladi: v lete (yozda), v zime (qishda)."
+  },
+  "u8-rok.fill-tomas-ma-narodeniny-na.en": {
+    "en": "Tomáš's birthday is in spring.",
+    "t": "Tomashning tugʻilgan kuni bahorda."
+  },
+  "u8-rok.fill-tomas-ma-narodeniny-na.why": {
+    "en": "Spring and autumn take **na**: na jar, na jeseň. V is for summer and winter: v lete, v zime.",
+    "t": "Bahor va kuz **na** bilan keladi: na jar, na jeseň. V esa yoz va qish uchun: v lete, v zime."
+  },
+  "u8-rok.tyzden-a-mesiac.en": {
+    "en": "a week and a month",
+    "t": "hafta va oy"
+  },
+  "u8-rok.tyzden-a-mesiac.note": {
+    "en": "Týždeň má sedem **dní** (days, from deň). Rok má dvanásť **mesiacov**. From 5 up, nouns take a counting form, like päť rokov.",
+    "t": "Týždeň má sedem **dní**. = Haftada yetti kun bor (dní — deň «kun» soʻzidan). Rok má dvanásť **mesiacov**. = Yilda oʻn ikki oy bor. 5 dan boshlab otlar maxsus sanash shaklini oladi, päť rokov kabi."
+  },
+  "u8-rok.minuta-a-sekunda.en": {
+    "en": "a minute and a second",
+    "t": "daqiqa va soniya"
+  },
+  "u8-rok.minuta-a-sekunda.note": {
+    "en": "Hodina má šesťdesiat **minút**. = An hour has sixty minutes.",
+    "t": "Hodina má šesťdesiat **minút**. = Bir soatda oltmish daqiqa bor."
+  },
+  "u8-rok.match-jar.pairs": {
+    "en": [
+      "spring",
+      "autumn",
+      "week",
+      "month",
+      "minute"
+    ],
+    "t": [
+      "bahor",
+      "kuz",
+      "hafta",
+      "oy",
+      "daqiqa"
+    ]
+  },
+  "u8-rok.build-rok-ma-dvanast.answers": {
+    "en": [
+      "A year has twelve months.",
+      "There are twelve months in a year."
+    ],
+    "t": [
+      "Yilda oʻn ikki oy bor.",
+      "Bir yilda oʻn ikki oy bor.",
+      "Yil oʻn ikki oydan iborat.",
+      "Bir yil oʻn ikki oydan iborat."
+    ]
+  },
+  "u8-rok.build-rok-ma-dvanast.distractors": {
+    "en": [
+      "weeks",
+      "days"
+    ],
+    "t": [
+      "hafta",
+      "kun"
+    ]
+  },
+  "u8-rok.grammar-hundreds-thousands.title": {
+    "en": "Hundreds, thousands and years",
+    "t": "Yuzlar, minglar va yillar"
+  },
+  "u8-rok.grammar-hundreds-thousands.body": {
+    "en": [
+      "Hundreds are one word: dve**sto**, tri**sto**, päť**sto**. A thousand is **tisíc**, two thousand **dve**tisíc.",
+      "A year is one long number: 2026 = dvetisícdvadsaťšesť, 1996 = tisícdeväťstodeväťdesiatšesť. “In 2026” is **v roku** 2026."
+    ],
+    "t": [
+      "Yuzliklar bitta soʻz qilib yoziladi: dve**sto**, tri**sto**, päť**sto**. Ming — **tisíc**, ikki ming — **dve**tisíc.",
+      "Yil bitta uzun son qilib aytiladi: 2026 = dvetisícdvadsaťšesť, 1996 = tisícdeväťstodeväťdesiatšesť. «2026-yilda» — **v roku** 2026."
+    ]
+  },
+  "u8-rok.grammar-hundreds-thousands.table.rows": {
+    "en": [
+      [
+        "100",
+        "sto"
+      ],
+      [
+        "200",
+        "dve**sto**"
+      ],
+      [
+        "300",
+        "tri**sto**"
+      ],
+      [
+        "500",
+        "päť**sto**"
+      ],
+      [
+        "1000",
+        "**tisíc**"
+      ],
+      [
+        "2000",
+        "dve**tisíc**"
+      ]
+    ],
+    "t": [
+      [
+        "100",
+        "sto"
+      ],
+      [
+        "200",
+        "dve**sto**"
+      ],
+      [
+        "300",
+        "tri**sto**"
+      ],
+      [
+        "500",
+        "päť**sto**"
+      ],
+      [
+        "1000",
+        "**tisíc**"
+      ],
+      [
+        "2000",
+        "dve**tisíc**"
+      ]
+    ]
+  },
+  "u8-rok.grammar-hundreds-thousands.examples": {
+    "en": [
+      "Tomáš was born in 1996.",
+      "Lucia was born in 2007."
+    ],
+    "t": [
+      "Tomash 1996-yilda tugʻilgan.",
+      "Lusiya 2007-yilda tugʻilgan."
+    ]
+  },
+  "u8-rok.choice-tristo.question": {
+    "en": "How do you say 300?",
+    "t": "300 qanday aytiladi?"
+  },
+  "u8-rok.choice-tristo.why": {
+    "en": "Hundreds join the number and **sto** into one word: tri**sto**. Tridsať is 30, trinásť 13.",
+    "t": "Yuzliklarda son va **sto** bitta soʻzga qoʻshiladi: tri**sto**. Tridsať — 30, trinásť — 13."
+  },
+  "u8-rok.choice-dvetisicdvadsatsest.question": {
+    "en": "Which year is this?",
+    "t": "Bu qaysi yil?"
+  },
+  "u8-rok.choice-dvetisicdvadsatsest.options": {
+    "en": [
+      "2026",
+      "2006",
+      "1926"
+    ],
+    "t": [
+      "2026",
+      "2006",
+      "1926"
+    ]
+  },
+  "u8-rok.choice-dvetisicdvadsatsest.why": {
+    "en": "**Dvetisíc** is 2000 and dvadsaťšesť is 26, said together as one word: 2026.",
+    "t": "**Dvetisíc** — 2000, dvadsaťšesť — 26, ular bitta soʻz qilib aytiladi: 2026."
+  },
+  "u8-rok.build-na-jar-mame.prompt": {
+    "en": "We have exams in spring.",
+    "t": "Bahorda imtihonlarimiz bor."
+  },
+  "u8-rok.build-na-jar-mame.traps": {
+    "en": [
+      "Spring takes **na**: na jar, like na jeseň. V is for summer and winter: v lete, v zime.",
+      "Exams are more than one, so it's the plural: skúšk**y**. Skúšku is one exam."
+    ],
+    "t": [
+      "Bahor **na** bilan keladi: na jar, na jeseň kabi. V esa yoz va qish uchun: v lete, v zime.",
+      "Imtihonlar bittadan koʻp, shuning uchun koʻplik keladi: skúšk**y**. Skúšku — bitta imtihon."
+    ]
+  },
+  "u8-rok.listen-lucia-ma-narodeniny.en": {
+    "en": "Lucia's birthday is in summer.",
+    "t": "Lusiyaning tugʻilgan kuni yozda."
+  },
+  "u8-rok.fill-vianoce-su-v.en": {
+    "en": "Christmas is in winter.",
+    "t": "Rojdestvo qishda."
+  },
+  "u8-rok.fill-vianoce-su-v.why": {
+    "en": "Summer and winter take **v**: v lete, v zime. Na is for spring and autumn: na jar, na jeseň.",
+    "t": "Yoz va qish **v** bilan keladi: v lete, v zime. Na esa bahor va kuz uchun: na jar, na jeseň."
+  },
+  "u8-rok.speak-mam-narodeniny-v.en": {
+    "en": "My birthday is in summer.",
+    "t": "Mening tugʻilgan kunim yozda."
   },
   "u8-l4.titleEn": {
     "en": "Nobody, nothing, never",
@@ -2057,6 +2273,181 @@
   "u8-l6.speak-mozem-sediet-pri.en": {
     "en": "Can I sit by the window?",
     "t": "Deraza yonida oʻtirsam boʻladimi?"
+  },
+  "u8-mnozne.titleEn": {
+    "en": "Where? The plural",
+    "t": "Qayerda? Koʻplik"
+  },
+  "u8-mnozne.grammar-locative-plural.title": {
+    "en": "The locative plural: -och, -ách",
+    "t": "Koʻplikda lokál: -och, -ách"
+  },
+  "u8-mnozne.grammar-locative-plural.body": {
+    "en": [
+      "In the plural, masculine words end in **-och**: v obchod**och**, o študent**och**. Feminine and neuter words end in **-ách**: v mest**ách**, v izb**ách**. Words in -ca, like ulica, take **-iach**: na ulic**iach**.",
+      "Adjectives end in **-ých**: v mal**ých** mest**ách**. Children and people: o deť**och**, o ľuď**och**."
+    ],
+    "t": [
+      "Koʻplikda lokál (oʻrin-payt kelishigi, oʻzbekchadagi -larda kabi) qoʻshimchasi jinsga bogʻliq. Erkak jinsidagi soʻzlar **-och** bilan tugaydi: v obchod**och**, o študent**och**. Ayol va oʻrta jinsdagi soʻzlar **-ách** bilan tugaydi: v mest**ách**, v izb**ách**. Ulica kabi -ca bilan tugaydigan soʻzlar **-iach** oladi: na ulic**iach**.",
+      "Sifatlar **-ých** bilan tugaydi: v mal**ých** mest**ách**. Bolalar va odamlar: o deť**och**, o ľuď**och**."
+    ]
+  },
+  "u8-mnozne.grammar-locative-plural.table.head": {
+    "en": [
+      "one",
+      "where? about?"
+    ],
+    "t": [
+      "bitta",
+      "qayerda? nima haqida?"
+    ]
+  },
+  "u8-mnozne.grammar-locative-plural.table.rows": {
+    "en": [
+      [
+        "obchod",
+        "v obchod**och**"
+      ],
+      [
+        "študent",
+        "o študent**och**"
+      ],
+      [
+        "mesto",
+        "v mest**ách**"
+      ],
+      [
+        "izba",
+        "v izb**ách**"
+      ],
+      [
+        "ulica",
+        "na ulic**iach**"
+      ]
+    ],
+    "t": [
+      [
+        "obchod",
+        "v obchod**och**"
+      ],
+      [
+        "študent",
+        "o študent**och**"
+      ],
+      [
+        "mesto",
+        "v mest**ách**"
+      ],
+      [
+        "izba",
+        "v izb**ách**"
+      ],
+      [
+        "ulica",
+        "na ulic**iach**"
+      ]
+    ]
+  },
+  "u8-mnozne.grammar-locative-plural.examples": {
+    "en": [
+      "There are cheap apples in the shops.",
+      "We're talking about the children.",
+      "There are shops and cafés in the streets."
+    ],
+    "t": [
+      "Doʻkonlarda arzon olma bor.",
+      "Biz bolalar haqida gaplashyapmiz.",
+      "Koʻchalarda doʻkonlar va kafelar bor."
+    ]
+  },
+  "u8-mnozne.fill-studenti-byvaju-na.en": {
+    "en": "Students live in dormitories.",
+    "t": "Talabalar yotoqxonalarda yashaydi."
+  },
+  "u8-mnozne.fill-studenti-byvaju-na.why": {
+    "en": "Internát is masculine, and in the plural the locative of masculine words ends in **-och**: internát**och**. Internáte is one dorm, internáty the subject form.",
+    "t": "Internát erkak jinsida, koʻplikda esa erkak jinsidagi soʻzlarning lokáli **-och** bilan tugaydi: internát**och** (yotoqxonalarda). Internáte — bitta yotoqxona, internáty — ega shakli."
+  },
+  "u8-mnozne.fill-na-internate-byvaju.en": {
+    "en": "In the dorm, students live in small rooms.",
+    "t": "Yotoqxonada talabalar kichik xonalarda yashaydi."
+  },
+  "u8-mnozne.fill-na-internate-byvaju.why": {
+    "en": "Izba is feminine, and in the plural the feminine locative ends in **-ách**: izb**ách**. Izbe is one room, izby the subject form.",
+    "t": "Izba ayol jinsida, koʻplikda esa ayol jinsidagi soʻzlarning lokáli **-ách** bilan tugaydi: izb**ách** (xonalarda). Izbe — bitta xona, izby — ega shakli."
+  },
+  "u8-mnozne.fill-rad-citam-o.en": {
+    "en": "I like reading about old towns.",
+    "t": "Eski shaharlar haqida oʻqishni yoqtiraman."
+  },
+  "u8-mnozne.fill-rad-citam-o.why": {
+    "en": "In the locative plural, adjectives end in **-ých**: star**ých**. Staré is the subject form, starom is for one masculine or neuter thing.",
+    "t": "Koʻplikda lokálda sifatlar **-ých** bilan tugaydi: star**ých**. Staré — ega shakli, starom esa bitta erkak yoki oʻrta jinsdagi narsa uchun."
+  },
+  "u8-mnozne.choice-na-uliciach.question": {
+    "en": "How do you say “in the streets”?",
+    "t": "«Koʻchalarda» qanday aytiladi?"
+  },
+  "u8-mnozne.choice-na-uliciach.why": {
+    "en": "Ulica ends in -ca, so its locative plural is **-iach**: na ulic**iach**. The -och ending is for masculine words.",
+    "t": "Ulica -ca bilan tugaydi, shuning uchun koʻplikda lokál **-iach** boʻladi: na ulic**iach**. -och qoʻshimchasi erkak jinsidagi soʻzlar uchun."
+  },
+  "u8-mnozne.build-hovorime-o-ludoch.prompt": {
+    "en": "We're talking about people.",
+    "t": "Biz odamlar haqida gaplashyapmiz."
+  },
+  "u8-mnozne.build-hovorime-o-ludoch.traps": {
+    "en": [
+      "After o (about) comes the locative: ľudia → o **ľuďoch**. Ľudia is the subject form.",
+      "Ľuďmi is the with form: s ľuďmi. After o (about) it's the locative: o **ľuďoch**."
+    ],
+    "t": [
+      "O (haqida) soʻzidan keyin lokál keladi: ľudia → o **ľuďoch**. Ľudia — ega shakli.",
+      "Ľuďmi — «bilan» shakli: s ľuďmi (odamlar bilan). O (haqida) soʻzidan keyin esa lokál keladi: o **ľuďoch**."
+    ]
+  },
+  "u8-mnozne.build-lucia-cita-o.prompt": {
+    "en": "Lucia is reading about towns and villages.",
+    "t": "Lusiya shaharlar va qishloqlar haqida oʻqiyapti."
+  },
+  "u8-mnozne.build-lucia-cita-o.traps": {
+    "en": [
+      "Mesto is neuter, and neuter words take **-ách** in the locative plural: mest**ách**. -och is for masculine words.",
+      "After o (about) comes the locative, and feminine dedina takes **-ách**: dedin**ách**. Dediny is the subject form."
+    ],
+    "t": [
+      "Mesto oʻrta jinsda, oʻrta jinsdagi soʻzlar esa koʻplikda lokálda **-ách** oladi: mest**ách**. -och erkak jinsidagi soʻzlar uchun.",
+      "O (haqida) soʻzidan keyin lokál keladi, ayol jinsidagi dedina esa **-ách** oladi: dedin**ách**. Dediny — ega shakli."
+    ]
+  },
+  "u8-mnozne.build-v-malych-mestach.answers": {
+    "en": [
+      "There are no big shops in small towns.",
+      "In small towns there are no big shops."
+    ],
+    "t": [
+      "Kichik shaharlarda katta doʻkonlar yoʻq.",
+      "Kichik shaharlarda katta doʻkon yoʻq.",
+      "Kichik shaharlarda katta doʻkonlar boʻlmaydi."
+    ]
+  },
+  "u8-mnozne.build-v-malych-mestach.distractors": {
+    "en": [
+      "villages",
+      "cheap"
+    ],
+    "t": [
+      "qishloqlarda",
+      "arzon"
+    ]
+  },
+  "u8-mnozne.listen-tomas-rad-cita.en": {
+    "en": "Tomáš likes reading about computers.",
+    "t": "Tomash kompyuterlar haqida oʻqishni yoqtiradi."
+  },
+  "u8-mnozne.speak-byvame-na-internatoch.en": {
+    "en": "We live in dormitories.",
+    "t": "Biz yotoqxonalarda yashaymiz."
   },
   "u8-l7.titleEn": {
     "en": "Review: in the company",

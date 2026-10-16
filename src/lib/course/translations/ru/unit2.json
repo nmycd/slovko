@@ -9,14 +9,16 @@
       "Countries and nationalities",
       "Who is who?",
       "Jobs and studies",
-      "Numbers and age"
+      "Numbers and age",
+      "On the phone"
     ],
     "t": [
       "Откуда ты?",
       "Страны и национальности",
       "Кто есть кто?",
       "Работа и учёба",
-      "Числа и возраст"
+      "Числа и возраст",
+      "По телефону"
     ]
   },
   "u2.grammar": {
@@ -1556,6 +1558,168 @@
   "u2-l6.speak-kolko-mas-rokov.en": {
     "en": "How old are you?",
     "t": "Сколько тебе лет?"
+  },
+  "u2-telefon.titleEn": {
+    "en": "On the phone",
+    "t": "По телефону"
+  },
+  "u2-telefon.halo.en": {
+    "en": "Hello? (on the phone)",
+    "t": "Алло?"
+  },
+  "u2-telefon.halo.note": {
+    "en": "Slovaks answer the phone with **Haló?** or **Prosím?** On the phone, Prosím? means “Hello, yes?”, not “Pardon?”.",
+    "t": "Словаки берут трубку со словами **Haló?** (как наше «Алло?») или **Prosím?** По телефону Prosím? значит «Да, слушаю», а не «Простите?»."
+  },
+  "u2-telefon.tu-je-emma.en": {
+    "en": "It's Emma. (on the phone)",
+    "t": "Это Эмма. (по телефону)"
+  },
+  "u2-telefon.tu-je-emma.note": {
+    "en": "Literally “Here is Emma.” To ask who is calling: **Kto volá?** (volať = to call)",
+    "t": "Дословно «Здесь Эмма». Спросить, кто звонит: **Kto volá?** (volať = звонить)"
+  },
+  "u2-telefon.choice-halo.question": {
+    "en": "Your phone rings and you pick it up. What do you say?",
+    "t": "Звонит телефон, вы берёте трубку. Что вы скажете?"
+  },
+  "u2-telefon.telefonovat.en": {
+    "en": "to phone, to be on the phone",
+    "t": "звонить, разговаривать по телефону"
+  },
+  "u2-telefon.telefonovat.note": {
+    "en": "An -ovať verb like študovať: telefonuj**em**, telefonuj**eš**, telefonuj**e**… Prepáč, telefonujem. = Sorry, I'm on the phone.",
+    "t": "Глагол на -ovať, как študovať, и меняется так же, как наши глаголы на -овать (рисовать → рисую): telefonuj**em**, telefonuj**eš**, telefonuj**e**… Prepáč, telefonujem. = Извини, я говорю по телефону."
+  },
+  "u2-telefon.fill-tomas-a-marek-telefonuju.en": {
+    "en": "Tomáš and Marek are on the phone.",
+    "t": "Томаш и Марек разговаривают по телефону."
+  },
+  "u2-telefon.fill-tomas-a-marek-telefonuju.why": {
+    "en": "Telefonovať changes -ova- to -uj-, like študovať. Tomáš and Marek are **oni**, so it ends in **-ú**: telefonuj**ú**.",
+    "t": "-ova- меняется на -uj-, как в študovať (и как у нас: рисовать → рисуют). Томаш и Марек — **oni**, поэтому окончание **-ú**: telefonuj**ú**. Telefonuje — для on."
+  },
+  "u2-telefon.telefonne-cislo.en": {
+    "en": "phone number",
+    "t": "номер телефона"
+  },
+  "u2-telefon.telefonne-cislo.note": {
+    "en": "**číslo** = number. Slovaks read a phone number digit by digit or in small groups: 0905 = nula deväť nula päť.",
+    "t": "**číslo** = номер, число. Номер телефона словаки читают по одной цифре или небольшими группами: 0905 = nula deväť nula päť."
+  },
+  "u2-telefon.ake-mas-telefonne-cislo.en": {
+    "en": "What's your phone number? (informal)",
+    "t": "Какой у тебя номер телефона?"
+  },
+  "u2-telefon.ake-mas-telefonne-cislo.note": {
+    "en": "Polite form: Aké **máte** telefónne číslo? Learn **aké** (what, which) as part of the question for now.",
+    "t": "На «вы»: Aké **máte** telefónne číslo? Слово **aké** (какой) пока запомните просто как часть вопроса."
+  },
+  "u2-telefon.choice-nula-devat-styri.question": {
+    "en": "Which number is this?",
+    "t": "Какой это номер?"
+  },
+  "u2-telefon.choice-nula-devat-styri.options": {
+    "en": [
+      "094",
+      "049",
+      "904"
+    ],
+    "t": [
+      "094",
+      "049",
+      "904"
+    ]
+  },
+  "u2-telefon.listen-cislo-je-nula.en": {
+    "en": "The number is 0905.",
+    "t": "Номер — 0905."
+  },
+  "u2-telefon.build-ake-mas-telefonne.prompt": {
+    "en": "What's your phone number? (to a friend)",
+    "t": "Какой у тебя номер телефона?"
+  },
+  "u2-telefon.build-ake-mas-telefonne.traps": {
+    "en": [
+      "A friend gets **ty**, so mať is **máš**. Máte is the polite vy form, for someone like pani Horváthová."
+    ],
+    "t": [
+      "Вы спрашиваете друга, на «ты», поэтому mať — **máš**. Máte — форма на «вы», например для госпожи Горватовой."
+    ]
+  },
+  "u2-telefon.zavolam-ti.en": {
+    "en": "I'll call you.",
+    "t": "Я тебе позвоню."
+  },
+  "u2-telefon.zavolam-ti.note": {
+    "en": "**zavolať** = to call (once), so zavolám points to the future. **ti** = you, to you (informal). Polite: Zavolám **vám**.",
+    "t": "**zavolať** = позвонить (совершенный вид), поэтому zavolám — это будущее, как «позвоню». **ti** = тебе. На «вы»: Zavolám **vám**."
+  },
+  "u2-telefon.dopocutia.en": {
+    "en": "Goodbye! (on the phone)",
+    "t": "До свидания! (по телефону)"
+  },
+  "u2-telefon.dopocutia.note": {
+    "en": "Literally “till we hear each other”: the phone's version of Dovidenia, “till we see each other”.",
+    "t": "Дословно «до услышания» — телефонный вариант Dovidenia, «до свидания»."
+  },
+  "u2-telefon.match-halo.pairs": {
+    "en": [
+      "Hello? (on the phone)",
+      "I'll call you.",
+      "Goodbye! (on the phone)",
+      "phone number",
+      "to phone"
+    ],
+    "t": [
+      "Алло?",
+      "Я тебе позвоню.",
+      "До свидания! (по телефону)",
+      "номер телефона",
+      "звонить"
+    ]
+  },
+  "u2-telefon.fill-ahoj-lucia-tu.en": {
+    "en": "Hi, Lucia, it's Emma.",
+    "t": "Привет, Луция, это Эмма."
+  },
+  "u2-telefon.fill-ahoj-lucia-tu.why": {
+    "en": "On the phone you name yourself as if pointing someone out: tu **je** Emma, literally “here is Emma”. So byť takes its on, ona form, je.",
+    "t": "По телефону о себе говорят как о ком-то третьем: tu **je** Emma, дословно «здесь Эмма». Поэтому byť стоит в форме для on, ona — je, а не som."
+  },
+  "u2-telefon.build-zavolam-ti-dopocutia.answers": {
+    "en": [
+      "I'll call you. Bye!",
+      "I'll call you. Goodbye!",
+      "I will call you. Bye!",
+      "I will call you. Goodbye!"
+    ],
+    "t": [
+      "Я тебе позвоню. До свидания!",
+      "Я позвоню тебе. До свидания!",
+      "Позвоню тебе. До свидания!",
+      "Тебе позвоню. До свидания!",
+      "Я тебе позвоню. Пока!",
+      "Я позвоню тебе. Пока!",
+      "Позвоню тебе. Пока!",
+      "Я тебе позвоню. До связи!",
+      "Я позвоню тебе. До связи!",
+      "Позвоню тебе. До связи!"
+    ]
+  },
+  "u2-telefon.build-zavolam-ti-dopocutia.distractors": {
+    "en": [
+      "me",
+      "Hello"
+    ],
+    "t": [
+      "мне",
+      "Алло"
+    ]
+  },
+  "u2-telefon.speak-halo-tu-je.en": {
+    "en": "Hello? It's Emma.",
+    "t": "Алло? Это Эмма."
   },
   "u2-l7.titleEn": {
     "en": "Review",

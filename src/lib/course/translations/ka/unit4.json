@@ -8,12 +8,14 @@
       "The town",
       "Asking the way",
       "Jobs",
+      "Family",
       "Prices"
     ],
     "t": [
       "ქალაქი",
       "გზის კითხვა",
       "პროფესიები",
+      "ოჯახი",
       "ფასები"
     ]
   },
@@ -21,6 +23,7 @@
     "en": [
       "Nominative plural",
       "Adjectives after je / sú",
+      "Plural possessives: moji, moje",
       "Numbers 2, 3, 4 + nouns",
       "The verb stáť",
       "Plural-only nouns"
@@ -28,6 +31,7 @@
     "t": [
       "მრავლობითი რიცხვი: nominatív (სახელობითი ბრუნვა)",
       "ზედსართავი სახელი je / sú-ს შემდეგ",
+      "კუთვნილებითი ნაცვალსახელები მრავლობითში: moji, moje",
       "რიცხვები 2, 3, 4 + არსებითი სახელი",
       "ზმნა stáť",
       "მხოლოდ მრავლობითი რიცხვის მქონე სახელები"
@@ -879,9 +883,273 @@
     "en": "A mixed group of men and women counts as men, so it takes the men's plural: Slovák → **Slováci**. Slovenky would mean women only.",
     "t": "კაცებისა და ქალების შერეული ჯგუფი კაცებად ითვლება, ამიტომ საჭიროა კაცების მრავლობითი: Slovák → **Slováci**. Slovenky მხოლოდ ქალებს ნიშნავს."
   },
+  "u4-l4.fill-tomas-a-marek-su-veseli.en": {
+    "en": "Tomáš and Marek are cheerful.",
+    "t": "ტომაში და მარეკი მხიარულები არიან."
+  },
+  "u4-l4.fill-tomas-a-marek-su-veseli.why": {
+    "en": "Tomáš and Marek are men, and in the plural adjectives for men end in **-í**: vesel**í**. Veselé is for women and things, veselý for one man.",
+    "t": "ტომაში და მარეკი კაცები არიან, მრავლობითში კი კაცების ზედსართავები **-í**-ზე ბოლოვდება: vesel**í**. Veselé ქალებისა და ნივთებისთვისაა, veselý — ერთი კაცისთვის."
+  },
+  "u4-l4.fill-emma-a-lucia-su-mile.en": {
+    "en": "Emma and Lucia are kind.",
+    "t": "ემა და ლუცია კეთილები არიან."
+  },
+  "u4-l4.fill-emma-a-lucia-su-mile.why": {
+    "en": "Women follow the pattern of things, so in the plural the adjective ends in **-é**: mil**é**. Milí is for men, milá for one woman.",
+    "t": "ქალები ნივთების წესს მიჰყვება, ამიტომ მრავლობითში ზედსართავი **-é**-ზე ბოლოვდება: mil**é**. Milí კაცებისთვისაა, milá — ერთი ქალისთვის."
+  },
+  "u4-l4.choice-aki-su-marek.question": {
+    "en": "Which answer fits the question?",
+    "t": "რომელი პასუხი შეესაბამება კითხვას?"
+  },
+  "u4-l4.choice-aki-su-marek.why": {
+    "en": "Marek and Peter are men, so the adjectives take the men's plural **-í**, like the question's ak**í**: siln**í**, vesel**í**. Je silný is about one man.",
+    "t": "მარეკი და პეტერი კაცები არიან, ამიტომ ზედსართავები კაცების მრავლობითს, **-í**-ს იღებს, როგორც კითხვაში ak**í**: siln**í**, vesel**í**. Je silný ერთ კაცზეა."
+  },
+  "u4-l4.build-lucia-a-tomas-su.prompt": {
+    "en": "Lucia and Tomáš are cheerful and kind.",
+    "t": "ლუცია და ტომაში მხიარულები და კეთილები არიან."
+  },
+  "u4-l4.build-lucia-a-tomas-su.traps": {
+    "en": [
+      "A mixed group of men and women counts as men, so the adjective takes the men's plural **-í**: vesel**í**.",
+      "Lucia and Tomáš are two people, oni, so byť is **sú**. Je is for one person."
+    ],
+    "t": [
+      "კაცებისა და ქალების შერეული ჯგუფი კაცებად ითვლება, ამიტომ ზედსართავი კაცების მრავლობითს, **-í**-ს იღებს: vesel**í**. Veselé მხოლოდ ქალებისა და ნივთებისთვისაა.",
+      "ლუცია და ტომაში ორნი არიან, oni, ამიტომ byť არის **sú**. Je ერთი ადამიანისთვისაა."
+    ]
+  },
   "u4-l4.speak-tie-mosty-su.en": {
     "en": "Those bridges are new.",
     "t": "ის ხიდები ახალია."
+  },
+  "u4-rodina.titleEn": {
+    "en": "My family",
+    "t": "ჩემი ოჯახი"
+  },
+  "u4-rodina.moja-rodina.en": {
+    "en": "my family",
+    "t": "ჩემი ოჯახი"
+  },
+  "u4-rodina.moja-rodina.note": {
+    "en": "Emma is showing Lucia photos of her family in Ireland. **rodina** = family.",
+    "t": "ემა ლუციას ფოტოებს აჩვენებს: მისი ოჯახი ირლანდიაში ცხოვრობს. **rodina** = ოჯახი."
+  },
+  "u4-rodina.mama-a-otec.en": {
+    "en": "mum and dad",
+    "t": "დედა და მამა"
+  },
+  "u4-rodina.mama-a-otec.note": {
+    "en": "Together they're your **rodičia** (parents), a plural word: To sú moji rodičia.",
+    "t": "ერთად ისინი თქვენი **rodičia** (მშობლები) არიან. ეს მრავლობითი სიტყვაა: To sú moji rodičia. (ესენი ჩემი მშობლები არიან.)"
+  },
+  "u4-rodina.brat-a-sestra.en": {
+    "en": "brother and sister",
+    "t": "ძმა და და"
+  },
+  "u4-rodina.brat-a-sestra.note": {
+    "en": "Brothers and sisters together are **súrodenci** (siblings).",
+    "t": "ძმები და დები ერთად არიან **súrodenci** (და-ძმა)."
+  },
+  "u4-rodina.match-mama.pairs": {
+    "en": [
+      "mum",
+      "dad",
+      "brother",
+      "sister",
+      "family"
+    ],
+    "t": [
+      "დედა",
+      "მამა",
+      "ძმა",
+      "და",
+      "ოჯახი"
+    ]
+  },
+  "u4-rodina.fill-lucia-je-marekova.en": {
+    "en": "Lucia is Marek's sister.",
+    "t": "ლუცია მარეკის და არის."
+  },
+  "u4-rodina.fill-lucia-je-marekova.why": {
+    "en": "Marek's takes the gender of what it describes. Sestra is feminine, so it ends in **-a**: Marekov**a**. Marekov goes with a masculine word: Marekov brat.",
+    "t": "ქართული „მარეკის“ არ იცვლება, სლოვაკური Marekov კი იმ სიტყვის სქესს იღებს, რასაც აღწერს. Sestra მდედრობითია, ამიტომ **-a**: Marekov**a**. Marekov მამრობით სიტყვასთან დგას: Marekov brat."
+  },
+  "u4-rodina.syn-a-dcera.en": {
+    "en": "son and daughter",
+    "t": "ვაჟი და ქალიშვილი"
+  },
+  "u4-rodina.syn-a-dcera.note": {
+    "en": "A child is **dieťa**, children are **deti**.",
+    "t": "ბავშვი (შვილი) არის **dieťa**, ბავშვები — **deti**."
+  },
+  "u4-rodina.grammar-my-parents-moji.title": {
+    "en": "My parents: moji, moje",
+    "t": "ჩემი მშობლები: moji, moje"
+  },
+  "u4-rodina.grammar-my-parents-moji.body": {
+    "en": [
+      "In the plural, môj, tvoj and náš work like tí and tie: **moji** for men or a mixed group, **moje** for women and things.",
+      "Some family words have their own plurals: brat → **bratia**, syn → **synovia**, dieťa → **deti**."
+    ],
+    "t": [
+      "ქართული „ჩემი“ არ იცვლება, სლოვაკურში კი môj, tvoj და náš მრავლობითში ისე იქცევა, როგორც tí და tie: **moji** კაცებისთვის ან შერეული ჯგუფისთვის, **moje** ქალებისა და ნივთებისთვის.",
+      "ოჯახის ზოგ სიტყვას თავისი მრავლობითი აქვს: brat → **bratia**, syn → **synovia**, dieťa → **deti**."
+    ]
+  },
+  "u4-rodina.grammar-my-parents-moji.table.head": {
+    "en": [
+      "one",
+      "more than one"
+    ],
+    "t": [
+      "ერთი",
+      "ერთზე მეტი"
+    ]
+  },
+  "u4-rodina.grammar-my-parents-moji.table.rows": {
+    "en": [
+      [
+        "môj brat",
+        "**moji** brat**ia**"
+      ],
+      [
+        "môj syn",
+        "**moji** syn**ovia**"
+      ],
+      [
+        "moja sestra",
+        "**moje** sestr**y**"
+      ],
+      [
+        "moja dcéra",
+        "**moje** dcér**y**"
+      ],
+      [
+        "moje dieťa",
+        "**moje** deti"
+      ]
+    ],
+    "t": [
+      [
+        "môj brat",
+        "**moji** brat**ia**"
+      ],
+      [
+        "môj syn",
+        "**moji** syn**ovia**"
+      ],
+      [
+        "moja sestra",
+        "**moje** sestr**y**"
+      ],
+      [
+        "moja dcéra",
+        "**moje** dcér**y**"
+      ],
+      [
+        "moje dieťa",
+        "**moje** deti"
+      ]
+    ]
+  },
+  "u4-rodina.grammar-my-parents-moji.examples": {
+    "en": [
+      "These are my parents.",
+      "Your brothers and sisters are cheerful."
+    ],
+    "t": [
+      "ესენი ჩემი მშობლები არიან.",
+      "შენი და-ძმები მხიარულები არიან."
+    ]
+  },
+  "u4-rodina.fill-to-su-moji.en": {
+    "en": "These are my brothers.",
+    "t": "ესენი ჩემი ძმები არიან."
+  },
+  "u4-rodina.fill-to-su-moji.why": {
+    "en": "Bratia are men, so “my” takes the men's plural **moji**, like tí. Moje is for women and things, môj for one.",
+    "t": "Bratia კაცები არიან, ამიტომ „ჩემი“ კაცების მრავლობითს იღებს: **moji**, როგორც tí. Moje ქალებისა და ნივთებისთვისაა, môj — ერთისთვის."
+  },
+  "u4-rodina.manzel-a-manzelka.en": {
+    "en": "husband and wife",
+    "t": "ქმარი და ცოლი"
+  },
+  "u4-rodina.manzel-a-manzelka.note": {
+    "en": "Women's surnames add **-ová**: pán Horváth, pani Horváth**ová**. Pani Horváthová's husband is pán Horváth.",
+    "t": "ქალის გვარს ემატება **-ová**: pán Horváth, pani Horváth**ová**. ქალბატონ ჰორვატოვას ქმარი ბატონი ჰორვატია."
+  },
+  "u4-rodina.zenaty-vydata.en": {
+    "en": "married (of a man / of a woman)",
+    "t": "ცოლიანი (კაცი) / გათხოვილი (ქალი)"
+  },
+  "u4-rodina.zenaty-vydata.note": {
+    "en": "Slovak has a word for each: a man is **ženatý**, a woman **vydatá**. Single: **slobodný**, **slobodná**.",
+    "t": "ქართულის მსგავსად, სლოვაკურშიც ორი სიტყვაა: კაცზე **ženatý** (ცოლიანი), ქალზე **vydatá** (გათხოვილი). დაუოჯახებელი: **slobodný** (უცოლო), **slobodná** (გაუთხოვარი)."
+  },
+  "u4-rodina.choice-tomas-nie-je.question": {
+    "en": "Tomáš isn't married. What does he say?",
+    "t": "ტომაში დაოჯახებული არ არის. რას იტყვის?"
+  },
+  "u4-rodina.choice-tomas-nie-je.why": {
+    "en": "A married man is **ženatý**, so Tomáš says nie som ženatý. Vydatá is only for women, and nie som slobodný means “I'm not single”.",
+    "t": "ცოლიანი კაცი არის **ženatý**, ამიტომ ტომაში ამბობს: nie som ženatý (ცოლიანი არ ვარ). Vydatá მხოლოდ ქალზე ითქმის, nie som slobodný კი ნიშნავს „უცოლო არ ვარ“."
+  },
+  "u4-rodina.build-moji-rodicia-su.prompt": {
+    "en": "My parents are from Ireland.",
+    "t": "ჩემი მშობლები ირლანდიიდან არიან."
+  },
+  "u4-rodina.build-moji-rodicia-su.traps": {
+    "en": [
+      "Mum and dad together are a mixed group, which counts as men, so “my” is **moji**. Moje goes with women and things: moje sestry.",
+      "Rodičia is plural, oni, so byť is **sú**. Je is for one person."
+    ],
+    "t": [
+      "დედა და მამა ერთად შერეული ჯგუფია, ის კი კაცებად ითვლება, ამიტომ „ჩემი“ არის **moji**. Moje ქალებთან და ნივთებთან დგას: moje sestry.",
+      "Rodičia მრავლობითია, oni, ამიტომ byť არის **sú**. Je ერთი ადამიანისთვისაა."
+    ]
+  },
+  "u4-rodina.listen-moja-sestra-je.en": {
+    "en": "My sister is cheerful and kind.",
+    "t": "ჩემი და არის მხიარული და კეთილი."
+  },
+  "u4-rodina.fill-to-su-moje.en": {
+    "en": "These are my sisters.",
+    "t": "ესენი ჩემი დები არიან."
+  },
+  "u4-rodina.fill-to-su-moje.why": {
+    "en": "**Moje** is the plural for women and things, so it goes with sestr**y**. Brothers would take moji: moji bratia. Sestra is just one sister.",
+    "t": "**Moje** ქალებისა და ნივთების მრავლობითია, ამიტომ sestr**y**-სთან დგას. ძმებს moji დასჭირდებოდა: moji bratia. Sestra მხოლობითია, მხოლოდ ერთი და."
+  },
+  "u4-rodina.build-pani-horvathova-je.answers": {
+    "en": [
+      "Mrs Horváthová is married and her son is a journalist.",
+      "Mrs Horváthová is married and her son is a reporter."
+    ],
+    "t": [
+      "ქალბატონი ჰორვატოვა გათხოვილია და მისი ვაჟი ჟურნალისტია.",
+      "ქალბატონი ჰორვატოვა გათხოვილია, მისი ვაჟი კი ჟურნალისტია.",
+      "ქალბატონი ჰორვატოვა გათხოვილია და მისი შვილი ჟურნალისტია.",
+      "ქალბატონი ჰორვატოვა გათხოვილია და მისი ვაჟიშვილი ჟურნალისტია.",
+      "ქალბატონი ჰორვატოვა დაოჯახებულია და მისი ვაჟი ჟურნალისტია.",
+      "ქალბატონი ჰორვატოვა გათხოვილია და მისი ვაჟი რეპორტიორია."
+    ]
+  },
+  "u4-rodina.build-pani-horvathova-je.distractors": {
+    "en": [
+      "single",
+      "daughter"
+    ],
+    "t": [
+      "გაუთხოვარია",
+      "ქალიშვილი"
+    ]
+  },
+  "u4-rodina.speak-to-je-moja.en": {
+    "en": "This is my family.",
+    "t": "ეს ჩემი ოჯახია."
   },
   "u4-l5.titleEn": {
     "en": "Two, three, four",

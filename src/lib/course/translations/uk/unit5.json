@@ -8,12 +8,14 @@
       "Food and drink",
       "Shopping",
       "Colours and clothes",
+      "Likes and free time",
       "A birthday party"
     ],
     "t": [
       "Їжа та напої",
       "Покупки",
       "Кольори та одяг",
+      "Уподобання й вільний час",
       "День народження"
     ]
   },
@@ -22,6 +24,8 @@
       "Accusative case",
       "Accusative pronouns",
       "Accusative prepositions",
+      "Accusative plural",
+      "mať rád, páči sa mi",
       "The verb ísť",
       "Modal verbs"
     ],
@@ -29,6 +33,8 @@
       "Знахідний відмінок",
       "Займенники в знахідному відмінку",
       "Прийменники зі знахідним відмінком",
+      "Знахідний відмінок множини",
+      "mať rád, páči sa mi",
       "Дієслово ísť",
       "Модальні дієслова"
     ]
@@ -532,6 +538,157 @@
   "u5-l2.speak-hladam-pana-kovaca.en": {
     "en": "I'm looking for Mr Kováč.",
     "t": "Я шукаю пана Ковача."
+  },
+  "u5-obchod.titleEn": {
+    "en": "In the shop",
+    "t": "У магазині"
+  },
+  "u5-obchod.obchod.en": {
+    "en": "shop",
+    "t": "магазин"
+  },
+  "u5-obchod.obchod.note": {
+    "en": "Groceries are sold in **potraviny** (a plural-only word, like noviny), medicine in a **lekáreň** (pharmacy), soap and shampoo in a **drogéria**.",
+    "t": "**potraviny** — продуктовий магазин (слово лише в множині, як noviny), **lekáreň** — аптека (не «лікарня»!), **drogéria** — магазин, де продають мило, шампунь, побутову хімію."
+  },
+  "u5-obchod.ovocie-a-zelenina.en": {
+    "en": "fruit and vegetables",
+    "t": "фрукти й овочі"
+  },
+  "u5-obchod.ovocie-a-zelenina.note": {
+    "en": "Each is one word for many things: **ovocie** (neuter) is all fruit, **zelenina** (feminine) all vegetables.",
+    "t": "Кожне з них — одне слово на багато речей, як наші «садовина» й «городина»: **ovocie** (середній рід) — усі фрукти, **zelenina** (жіночий рід) — усі овочі."
+  },
+  "u5-obchod.jablko-a-banan.en": {
+    "en": "an apple and a banana",
+    "t": "яблуко й банан"
+  },
+  "u5-obchod.jablko-a-banan.note": {
+    "en": "Also **pomaranč** (orange) and **hruška** (pear). In the plural: jablk**á**, banán**y**, pomaranč**e**, hrušk**y**.",
+    "t": "А ще **pomaranč** (апельсин, пор. «помаранча») і **hruška** (груша). У множині: jablk**á**, banán**y**, pomaranč**e**, hrušk**y**."
+  },
+  "u5-obchod.choice-lekaren.question": {
+    "en": "Which shop sells medicine?",
+    "t": "У якому магазині продають ліки?"
+  },
+  "u5-obchod.zemiaky-a-cibula.en": {
+    "en": "potatoes and an onion",
+    "t": "картопля й цибуля"
+  },
+  "u5-obchod.zemiaky-a-cibula.note": {
+    "en": "One potato is **zemiak**. Also **paradajka** (tomato) and **paprika** (pepper).",
+    "t": "Картоплю словаки рахують поштучно: одна картоплина — **zemiak** (від zem, земля), а zemiaky — множина. А ще **paradajka** (помідор) і **paprika** (перець)."
+  },
+  "u5-obchod.match-jablko.pairs": {
+    "en": [
+      "apple",
+      "banana",
+      "onion",
+      "fruit",
+      "vegetables"
+    ],
+    "t": [
+      "яблуко",
+      "банан",
+      "цибуля",
+      "фрукти",
+      "овочі"
+    ]
+  },
+  "u5-obchod.build-potrebujem-zemiaky-a.prompt": {
+    "en": "I need potatoes and an onion.",
+    "t": "Мені потрібні картопля й цибулина."
+  },
+  "u5-obchod.build-potrebujem-zemiaky-a.traps": {
+    "en": [
+      "The onion is what you need, the object, so feminine -a changes to **-u**: cibuľ**u**.",
+      "You need more than one potato, so it's the plural: zemiak**y**. Zemiak is one potato."
+    ],
+    "t": [
+      "Потребую що? Цибулину: після potrebovať — знахідний відмінок, тож жіноче -a стає **-u**: cibuľ**u**, як «цибулину».",
+      "Картоплин кілька, тож множина: zemiak**y**. Zemiak — одна картоплина."
+    ]
+  },
+  "u5-obchod.prosim-si-dve-jablka.en": {
+    "en": "Two apples, please.",
+    "t": "Два яблука, будь ласка."
+  },
+  "u5-obchod.prosim-si-dve-jablka.note": {
+    "en": "**Prosím si** + the accusative is the polite way to ask for something in a shop or a café: Prosím si kávu.",
+    "t": "**Prosím si** (дослівно «прошу собі») + знахідний відмінок — ввічливо попросити щось у магазині чи кав'ярні: Prosím si kávu."
+  },
+  "u5-obchod.fill-prosim-si-cibulu.en": {
+    "en": "An onion, please.",
+    "t": "Цибулину, будь ласка."
+  },
+  "u5-obchod.fill-prosim-si-cibulu.why": {
+    "en": "Prosím si takes an object, so it's the accusative: feminine -a changes to **-u**, cibuľa → cibuľ**u**.",
+    "t": "Prosím si вимагає додатка, тож знахідний відмінок: жіноче -a стає **-u**, cibuľa → cibuľ**u**, як «цибулина → цибулину»."
+  },
+  "u5-obchod.este-nieco.en": {
+    "en": "Anything else?",
+    "t": "Щось іще?"
+  },
+  "u5-obchod.este-nieco.note": {
+    "en": "What the shop assistant asks. If that's all: **Nie, to je všetko.** = No, that's everything.",
+    "t": "Так питає продавець. Якщо це все: **Nie, to je všetko.** = Ні, це все."
+  },
+  "u5-obchod.choice-este-nieco.question": {
+    "en": "The shop assistant asks “Ešte niečo?” You have everything you need. What do you say?",
+    "t": "Продавець питає: «Ešte niečo?» У вас уже є все, що треба. Що ви скажете?"
+  },
+  "u5-obchod.platim-kartou.en": {
+    "en": "I'm paying by card.",
+    "t": "Я плачу карткою."
+  },
+  "u5-obchod.platim-kartou.note": {
+    "en": "**platiť** = to pay: platím, platíš, platí… In cash: **Platím v hotovosti.** You pay at the **pokladňa** (till).",
+    "t": "**platiť** = платити: platím, platíš, platí… Kartou — як наше «карткою». Готівкою: **Platím v hotovosti.** Платять на касі — **pokladňa**."
+  },
+  "u5-obchod.choice-platim-v-hotovosti.question": {
+    "en": "What does this mean?",
+    "t": "Що це означає?"
+  },
+  "u5-obchod.choice-platim-v-hotovosti.options": {
+    "en": [
+      "I'm paying in cash.",
+      "I'm paying by card.",
+      "Where's the till?"
+    ],
+    "t": [
+      "Я плачу готівкою.",
+      "Я плачу карткою.",
+      "Де каса?"
+    ]
+  },
+  "u5-obchod.listen-prosim-si-chlieb.en": {
+    "en": "Bread and two apples, please.",
+    "t": "Хліб і два яблука, будь ласка."
+  },
+  "u5-obchod.build-mate-cerstvu-zeleninu.answers": {
+    "en": [
+      "Do you have fresh vegetables?",
+      "Have you got fresh vegetables?"
+    ],
+    "t": [
+      "У вас є свіжі овочі?",
+      "Є у вас свіжі овочі?",
+      "Свіжі овочі у вас є?"
+    ]
+  },
+  "u5-obchod.build-mate-cerstvu-zeleninu.distractors": {
+    "en": [
+      "fruit",
+      "need"
+    ],
+    "t": [
+      "фрукти",
+      "свіжу"
+    ]
+  },
+  "u5-obchod.speak-platim-kartou.en": {
+    "en": "I'm paying by card.",
+    "t": "Я плачу карткою."
   },
   "u5-l3.titleEn": {
     "en": "Colours and clothes",
@@ -1048,6 +1205,478 @@
   "u5-l4.speak-to-je-pre.en": {
     "en": "This is for you.",
     "t": "Це для тебе."
+  },
+  "u5-mnozne.titleEn": {
+    "en": "Plural objects",
+    "t": "Знахідний відмінок множини"
+  },
+  "u5-mnozne.grammar-plural-objects-things.title": {
+    "en": "Plural objects: things and women",
+    "t": "Знахідний множини: речі й жінки"
+  },
+  "u5-mnozne.grammar-plural-objects-things.body": {
+    "en": [
+      "In the plural, things and women don't change as objects: the accusative is the plural you already know. Kúpim jablká. Mám dve sestry.",
+      "Their adjectives keep **-é** too: Kúpim zelené jablká."
+    ],
+    "t": [
+      "Назви речей і жінок у знахідному множини не змінюються: це та сама множина, яку ви вже знаєте. Kúpim jablká. Mám dve sestry. Увага: ми кажемо «запрошую подруг», а словацькою — pozývam kamarátky, без змін.",
+      "Їхні прикметники теж зберігають **-é**: Kúpim zelené jablká."
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-things.table.head": {
+    "en": [
+      "the plural",
+      "as an object"
+    ],
+    "t": [
+      "множина",
+      "у знахідному"
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-things.table.rows": {
+    "en": [
+      [
+        "jablká",
+        "Kúpim jablká."
+      ],
+      [
+        "paradajky",
+        "Potrebujem paradajky."
+      ],
+      [
+        "nové kamarátky",
+        "Pozývam nové kamarátky."
+      ]
+    ],
+    "t": [
+      [
+        "jablká",
+        "Kúpim jablká."
+      ],
+      [
+        "paradajky",
+        "Potrebujem paradajky."
+      ],
+      [
+        "nové kamarátky",
+        "Pozývam nové kamarátky."
+      ]
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-things.examples": {
+    "en": [
+      "I'll buy green apples and bananas.",
+      "Lucia is inviting her friends."
+    ],
+    "t": [
+      "Я куплю зелені яблука й банани.",
+      "Луція запрошує подруг."
+    ]
+  },
+  "u5-mnozne.fill-kupim-tri-banany.en": {
+    "en": "I'll buy three bananas.",
+    "t": "Я куплю три банани."
+  },
+  "u5-mnozne.fill-kupim-tri-banany.why": {
+    "en": "Bananas are things, and things don't change in the plural as objects: tri banán**y**, just as in Tu sú tri banány. Banánov isn't the object form.",
+    "t": "Банани — речі, а речі в знахідному множини не змінюються: tri banán**y**, так само як у Tu sú tri banány. Banánov — не знахідна форма: так кажуть після п'яти, як «п'ять бананів»."
+  },
+  "u5-mnozne.grammar-plural-objects-men.title": {
+    "en": "Plural objects: men",
+    "t": "Знахідний множини: чоловіки"
+  },
+  "u5-mnozne.grammar-plural-objects-men.body": {
+    "en": [
+      "Men are different: as objects they end in **-ov**, and their adjectives in **-ých**: Pozývam nov**ých** kamarát**ov**.",
+      "Tí becomes **tých**, and 2, 3, 4 become **dvoch**, **troch**, **štyroch**: Mám dv**och** brat**ov**."
+    ],
+    "t": [
+      "Із чоловіками інакше: у знахідному вони закінчуються на **-ov**, а їхні прикметники — на **-ých**, як у нас «запрошую нових друзів»: Pozývam nov**ých** kamarát**ov**.",
+      "Tí стає **tých**, а 2, 3, 4 — **dvoch**, **troch**, **štyroch** (пор. «двох, трьох, чотирьох»): Mám dv**och** brat**ov**."
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-men.table.head": {
+    "en": [
+      "they are…",
+      "I invite…"
+    ],
+    "t": [
+      "вони…",
+      "запрошую…"
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-men.table.rows": {
+    "en": [
+      [
+        "kamaráti",
+        "kamarát**ov**"
+      ],
+      [
+        "študenti",
+        "študent**ov**"
+      ],
+      [
+        "bratia",
+        "brat**ov**"
+      ],
+      [
+        "tí mladí kuchári",
+        "t**ých** mlad**ých** kuchár**ov**"
+      ],
+      [
+        "dvaja bratia",
+        "dv**och** brat**ov**"
+      ]
+    ],
+    "t": [
+      [
+        "kamaráti",
+        "kamarát**ov**"
+      ],
+      [
+        "študenti",
+        "študent**ov**"
+      ],
+      [
+        "bratia",
+        "brat**ov**"
+      ],
+      [
+        "tí mladí kuchári",
+        "t**ých** mlad**ých** kuchár**ov**"
+      ],
+      [
+        "dvaja bratia",
+        "dv**och** brat**ov**"
+      ]
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-men.examples": {
+    "en": [
+      "We're inviting our friends.",
+      "I have two brothers.",
+      "I'm looking for those new students."
+    ],
+    "t": [
+      "Ми запрошуємо друзів і подруг.",
+      "Я маю двох братів.",
+      "Я шукаю тих нових студентів."
+    ]
+  },
+  "u5-mnozne.fill-na-oslavu-pozyvame.en": {
+    "en": "We're inviting friends to the party.",
+    "t": "Ми запрошуємо друзів на вечірку."
+  },
+  "u5-mnozne.fill-na-oslavu-pozyvame.why": {
+    "en": "The friends are men or a mixed group, and men as objects end in **-ov**: kamarát**ov**. Kamaráti is the subject form, kamaráta just one friend.",
+    "t": "Друзі — чоловіки або змішана група, а чоловіки в знахідному множини мають **-ov**: kamarát**ov**, як «друзів». Kamaráti — називний відмінок, kamaráta — один друг."
+  },
+  "u5-mnozne.fill-pan-kovac-ma-dvoch.en": {
+    "en": "Mr Kováč has two sons.",
+    "t": "Пан Ковач має двох синів."
+  },
+  "u5-mnozne.fill-pan-kovac-ma-dvoch.why": {
+    "en": "Sons are men, and after **dvoch** men take **-ov**: syn**ov**. Synovia is the subject form, syna one son.",
+    "t": "Сини — чоловіки, і після **dvoch** чоловіки мають **-ov**: syn**ov**, як «двох синів». Synovia — називний відмінок, syna — один син."
+  },
+  "u5-mnozne.fill-marek-hlada-mladych.en": {
+    "en": "Marek is looking for young cooks.",
+    "t": "Марек шукає молодих кухарів."
+  },
+  "u5-mnozne.fill-marek-hlada-mladych.why": {
+    "en": "The cooks are men and the object, so their adjective ends in **-ých**: mlad**ých**. Mladí is the subject form, mladé for women and things.",
+    "t": "Кухарі — чоловіки, і вони тут у знахідному, тож прикметник має **-ých**: mlad**ých**, як «молодих». Mladí — називний відмінок, mladé — для жінок і речей."
+  },
+  "u5-mnozne.choice-pozyvam-studentov.question": {
+    "en": "Which sentence is correct?",
+    "t": "Яке речення правильне?"
+  },
+  "u5-mnozne.choice-pozyvam-studentov.why": {
+    "en": "As objects, men take **-ov** (študent**ov**), but women keep their plural (študentk**y**). Študenti is the subject form.",
+    "t": "У знахідному чоловіки мають **-ov** (študent**ov**, як «студентів»), а жінки зберігають свою множину (študentk**y**, хоч у нас «студенток»). Študenti — називний відмінок."
+  },
+  "u5-mnozne.build-pozyvame-novych-kamaratov.prompt": {
+    "en": "We're inviting new friends.",
+    "t": "Ми запрошуємо нових друзів."
+  },
+  "u5-mnozne.build-pozyvame-novych-kamaratov.traps": {
+    "en": [
+      "The friends are the object, and men's adjectives as objects end in **-ých**: nov**ých**. Noví is the subject form: noví kamaráti.",
+      "The friends are the object, and men as objects end in **-ov**: kamarát**ov**. Kamaráti is the subject form."
+    ],
+    "t": [
+      "Друзі тут — додаток (кого?), а прикметник при чоловіках у знахідному має **-ých**: nov**ých**, як «нових». Noví — називний: noví kamaráti.",
+      "Друзі тут — додаток (кого?), а чоловіки в знахідному мають **-ov**: kamarát**ov**, як «друзів». Kamaráti — називний відмінок."
+    ]
+  },
+  "u5-mnozne.listen-lucia-pozyva-kamaratov.en": {
+    "en": "Lucia is inviting her friends.",
+    "t": "Луція запрошує друзів і подруг."
+  },
+  "u5-mnozne.build-kupim-zelene-jablka.answers": {
+    "en": [
+      "I'll buy green apples and tomatoes.",
+      "I will buy green apples and tomatoes."
+    ],
+    "t": [
+      "Я куплю зелені яблука й помідори.",
+      "Куплю зелені яблука й помідори.",
+      "Я куплю помідори й зелені яблука.",
+      "Куплю помідори й зелені яблука."
+    ]
+  },
+  "u5-mnozne.build-kupim-zelene-jablka.distractors": {
+    "en": [
+      "red",
+      "potatoes"
+    ],
+    "t": [
+      "червоні",
+      "картоплю"
+    ]
+  },
+  "u5-mnozne.speak-mam-dvoch-bratov.en": {
+    "en": "I have two brothers.",
+    "t": "Я маю двох братів."
+  },
+  "u5-mam-rad.titleEn": {
+    "en": "Likes and free time",
+    "t": "Уподобання й вільний час"
+  },
+  "u5-mam-rad.hudba-a-film.en": {
+    "en": "music and film",
+    "t": "музика й фільм"
+  },
+  "u5-mam-rad.futbal-a-tenis.en": {
+    "en": "football and tennis",
+    "t": "футбол і теніс"
+  },
+  "u5-mam-rad.futbal-a-tenis.note": {
+    "en": "**hrať** = to play: hrám, hráš, hrá… Hráme futbal. = We play football.",
+    "t": "**hrať** = грати: hrám, hráš, hrá… Hráme futbal. = Ми граємо у футбол (без прийменника, на відміну від нашого «у»)."
+  },
+  "u5-mam-rad.choice-hudba.question": {
+    "en": "What does “hudba” mean?",
+    "t": "Що означає «hudba»?"
+  },
+  "u5-mam-rad.choice-hudba.options": {
+    "en": [
+      "music",
+      "film",
+      "football"
+    ],
+    "t": [
+      "музика",
+      "фільм",
+      "футбол"
+    ]
+  },
+  "u5-mam-rad.pocuvat-hudbu.en": {
+    "en": "to listen to music",
+    "t": "слухати музику"
+  },
+  "u5-mam-rad.pocuvat-hudbu.note": {
+    "en": "počúvam, počúvaš, počúva… The music is the object, so hudba becomes hudb**u**.",
+    "t": "počúvam, počúvaš, počúva… Музика тут — додаток, тож hudba стає hudb**u**, як «музику»."
+  },
+  "u5-mam-rad.tancovat-a-spievat.en": {
+    "en": "to dance and to sing",
+    "t": "танцювати й співати"
+  },
+  "u5-mam-rad.tancovat-a-spievat.note": {
+    "en": "Tancovať goes like študovať: tancuj**em**. Spievať: spievam. And **plávať** = to swim: plávam.",
+    "t": "Tancovať змінюється, як študovať: tancuj**em**, як «танцюю». Spievať: spievam. А **plávať** = плавати: plávam."
+  },
+  "u5-mam-rad.grammar-mat-rad-like.title": {
+    "en": "mať rád: to like",
+    "t": "mať rád: любити"
+  },
+  "u5-mam-rad.grammar-mat-rad-like.body": {
+    "en": [
+      "You know **mať rád** from Akú farbu máš rada?: rád for a man, rada for a woman, and **radi** for a group. What you like is the object: Mám rád hudb**u**.",
+      "To like doing something, put rád with the verb alone, without mať: **Rád** hrám futbal. = I like playing football."
+    ],
+    "t": [
+      "**Mať rád** ви знаєте з Akú farbu máš rada?: rád — про чоловіка, rada — про жінку, **radi** — про групу, як наше «радий, рада, раді». Те, що любите, стоїть у знахідному: Mám rád hudb**u**.",
+      "Щоб сказати, що любите щось робити, ставте rád із самим дієсловом, без mať (дослівно «радо граю»): **Rád** hrám futbal. = Я люблю грати у футбол."
+    ]
+  },
+  "u5-mam-rad.grammar-mat-rad-like.table.head": {
+    "en": [
+      "",
+      "something",
+      "doing something"
+    ],
+    "t": [
+      "",
+      "щось",
+      "робити щось"
+    ]
+  },
+  "u5-mam-rad.grammar-mat-rad-like.table.rows": {
+    "en": [
+      [
+        "Tomáš",
+        "Má **rád** futbal.",
+        "**Rád** hrá futbal."
+      ],
+      [
+        "Lucia",
+        "Má **rada** hudbu.",
+        "**Rada** spieva."
+      ],
+      [
+        "my",
+        "Máme **radi** filmy.",
+        "**Radi** tancujeme."
+      ]
+    ],
+    "t": [
+      [
+        "Tomáš",
+        "Má **rád** futbal.",
+        "**Rád** hrá futbal."
+      ],
+      [
+        "Lucia",
+        "Má **rada** hudbu.",
+        "**Rada** spieva."
+      ],
+      [
+        "my",
+        "Máme **radi** filmy.",
+        "**Radi** tancujeme."
+      ]
+    ]
+  },
+  "u5-mam-rad.grammar-mat-rad-like.examples": {
+    "en": [
+      "I like music. (a man speaking)",
+      "Lucia likes dancing.",
+      "I love you. (a woman speaking)"
+    ],
+    "t": [
+      "Я люблю музику. (говорить чоловік)",
+      "Луція любить танцювати.",
+      "Я тебе кохаю. (говорить жінка)"
+    ]
+  },
+  "u5-mam-rad.fill-lucia-ma-rada.en": {
+    "en": "Lucia likes music.",
+    "t": "Луція любить музику."
+  },
+  "u5-mam-rad.fill-lucia-ma-rada.why": {
+    "en": "Rád changes with the person who likes: Lucia is a woman, so **rada**. Rád is for a man.",
+    "t": "Rád змінюється за тим, хто любить, як «радий / рада»: Луція — жінка, тож **rada**. Rád — про чоловіка."
+  },
+  "u5-mam-rad.fill-tomas-rad-hra.en": {
+    "en": "Tomáš likes playing tennis.",
+    "t": "Томаш любить грати в теніс."
+  },
+  "u5-mam-rad.fill-tomas-rad-hra.why": {
+    "en": "Tomáš is **on**, so the verb has no ending: **hrá**. Hrám is ja, hrajú is oni.",
+    "t": "Томаш — **on**, тож дієслово без закінчення: **hrá**, як «грає». Hrám — ja, hrajú — oni."
+  },
+  "u5-mam-rad.choice-rada-tancujem.question": {
+    "en": "How does Emma say “I like dancing”?",
+    "t": "Як Емма скаже «Я люблю танцювати»?"
+  },
+  "u5-mam-rad.choice-rada-tancujem.why": {
+    "en": "To like doing something, rád goes with the verb alone, without mám. Emma is a woman, so it's **rada** tancujem.",
+    "t": "Щоб сказати, що любите щось робити, rád ставлять із самим дієсловом, без mám: дослівно «радо танцюю». Емма — жінка, тож **rada** tancujem."
+  },
+  "u5-mam-rad.build-mas-rad-futbal.prompt": {
+    "en": "Do you like football? (to a male friend)",
+    "t": "Ти любиш футбол? (до чоловіка)"
+  },
+  "u5-mam-rad.build-mas-rad-futbal.traps": {
+    "en": [
+      "You're asking a man, so it's **rád**. You'd ask a woman: Máš rada futbal?",
+      "You're asking a friend, **ty**, so mať is **máš**. Mám is the ja form, I have."
+    ],
+    "t": [
+      "Ви питаєте чоловіка, тож **rád**, як «радий». Жінку спитали б: Máš rada futbal?",
+      "Ви питаєте друга, **ty**, тож mať — **máš**, як «маєш». Mám — форма для ja, «маю»."
+    ]
+  },
+  "u5-mam-rad.grammar-paci-sa-mi.title": {
+    "en": "Páči sa mi: I like it",
+    "t": "Páči sa mi: мені подобається"
+  },
+  "u5-mam-rad.grammar-paci-sa-mi.body": {
+    "en": [
+      "For what you see or hear, Slovak often says **Páči sa mi** (it pleases me). The thing you like is the subject: Páči sa mi tvoj sveter. For more than one thing: **Páčia** sa mi.",
+      "Say no with ne-: **Nepáči** sa mi. To ask a friend: Páči sa **ti**…?"
+    ],
+    "t": [
+      "Про те, що бачите чи чуєте, словацькою часто кажуть **Páči sa mi** — точно як наше «мені подобається». Те, що подобається, — підмет: Páči sa mi tvoj sveter. Якщо речей кілька — **Páčia** sa mi (подобаються).",
+      "Заперечення — з ne-: **Nepáči** sa mi. Спитати друга: Páči sa **ti**…?"
+    ]
+  },
+  "u5-mam-rad.grammar-paci-sa-mi.examples": {
+    "en": [
+      "I like your skirt.",
+      "I like those colours.",
+      "Do you like Bratislava?"
+    ],
+    "t": [
+      "Мені подобається твоя спідниця.",
+      "Мені подобаються ті кольори.",
+      "Тобі подобається Братислава?"
+    ]
+  },
+  "u5-mam-rad.fill-paci-sa-mi-tvoje.en": {
+    "en": "I like your T-shirt.",
+    "t": "Мені подобається твоя футболка."
+  },
+  "u5-mam-rad.fill-paci-sa-mi-tvoje.why": {
+    "en": "The thing you like is the subject. Tričko is one thing, so it's **páči**; páčia is for more than one.",
+    "t": "Те, що подобається, — підмет, як і в нас. Tričko — одна річ, тож **páči**, «подобається»; páčia — коли їх кілька, «подобаються»."
+  },
+  "u5-mam-rad.listen-nepaci-sa-mi.en": {
+    "en": "I don't like that film.",
+    "t": "Мені не подобається той фільм."
+  },
+  "u5-mam-rad.build-emma-rada-plava.answers": {
+    "en": [
+      "Emma likes swimming and listening to music.",
+      "Emma likes to swim and listen to music."
+    ],
+    "t": [
+      "Емма любить плавати й слухати музику.",
+      "Емма любить слухати музику й плавати."
+    ]
+  },
+  "u5-mam-rad.build-emma-rada-plava.distractors": {
+    "en": [
+      "dancing",
+      "reads"
+    ],
+    "t": [
+      "танцювати",
+      "читає"
+    ]
+  },
+  "u5-mam-rad.match-hudba.pairs": {
+    "en": [
+      "music",
+      "to play",
+      "to swim",
+      "to sing",
+      "to dance"
+    ],
+    "t": [
+      "музика",
+      "грати",
+      "плавати",
+      "співати",
+      "танцювати"
+    ]
+  },
+  "u5-mam-rad.speak-rad-pocuvam-hudbu.en": {
+    "en": "I like listening to music.",
+    "t": "Я люблю слухати музику."
   },
   "u5-l5.titleEn": {
     "en": "Go, want, must",

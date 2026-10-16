@@ -9,14 +9,16 @@
       "Countries and nationalities",
       "Who is who?",
       "Jobs and studies",
-      "Numbers and age"
+      "Numbers and age",
+      "On the phone"
     ],
     "t": [
       "საიდან ხარ?",
       "ქვეყნები და ეროვნებები",
       "ვინ ვინ არის?",
       "სამსახური და სწავლა",
-      "რიცხვები და ასაკი"
+      "რიცხვები და ასაკი",
+      "ტელეფონზე"
     ]
   },
   "u2.grammar": {
@@ -1559,6 +1561,163 @@
   "u2-l6.speak-kolko-mas-rokov.en": {
     "en": "How old are you?",
     "t": "რამდენი წლის ხარ?"
+  },
+  "u2-telefon.titleEn": {
+    "en": "On the phone",
+    "t": "ტელეფონზე"
+  },
+  "u2-telefon.halo.en": {
+    "en": "Hello? (on the phone)",
+    "t": "ალო? (ტელეფონზე)"
+  },
+  "u2-telefon.halo.note": {
+    "en": "Slovaks answer the phone with **Haló?** or **Prosím?** On the phone, Prosím? means “Hello, yes?”, not “Pardon?”.",
+    "t": "სლოვაკები ტელეფონს ასე პასუხობენ: **Haló?** ან **Prosím?** ტელეფონზე Prosím? ნიშნავს „გისმენთ“ და არა „რა ბრძანეთ?“."
+  },
+  "u2-telefon.tu-je-emma.en": {
+    "en": "It's Emma. (on the phone)",
+    "t": "ემა ვარ. (ტელეფონზე)"
+  },
+  "u2-telefon.tu-je-emma.note": {
+    "en": "Literally “Here is Emma.” To ask who is calling: **Kto volá?** (volať = to call)",
+    "t": "სიტყვასიტყვით: „აქ ემაა“. რომ იკითხოთ, ვინ რეკავს: **Kto volá?** (volať = დარეკვა)"
+  },
+  "u2-telefon.choice-halo.question": {
+    "en": "Your phone rings and you pick it up. What do you say?",
+    "t": "ტელეფონი რეკავს და პასუხობთ. რას იტყვით?"
+  },
+  "u2-telefon.telefonovat.en": {
+    "en": "to phone, to be on the phone",
+    "t": "ტელეფონზე ლაპარაკი, დარეკვა"
+  },
+  "u2-telefon.telefonovat.note": {
+    "en": "An -ovať verb like študovať: telefonuj**em**, telefonuj**eš**, telefonuj**e**… Prepáč, telefonujem. = Sorry, I'm on the phone.",
+    "t": "-ovať-ზე დაბოლოებული ზმნაა, როგორც študovať: telefonuj**em**, telefonuj**eš**, telefonuj**e**… Prepáč, telefonujem. = მაპატიე, ტელეფონზე ვლაპარაკობ."
+  },
+  "u2-telefon.fill-tomas-a-marek-telefonuju.en": {
+    "en": "Tomáš and Marek are on the phone.",
+    "t": "ტომაში და მარეკი ტელეფონზე ლაპარაკობენ."
+  },
+  "u2-telefon.fill-tomas-a-marek-telefonuju.why": {
+    "en": "Telefonovať changes -ova- to -uj-, like študovať. Tomáš and Marek are **oni**, so it ends in **-ú**: telefonuj**ú**.",
+    "t": "Telefonovať ისე იცვლება, როგორც študovať: -ova- ხდება -uj-. ტომაში და მარეკი = **oni** (ისინი), ამიტომ ზმნა **-ú**-ზე ბოლოვდება: telefonuj**ú**. Telefonuje ერთ ადამიანზეა, telefonujem — ja-ზე."
+  },
+  "u2-telefon.telefonne-cislo.en": {
+    "en": "phone number",
+    "t": "ტელეფონის ნომერი"
+  },
+  "u2-telefon.telefonne-cislo.note": {
+    "en": "**číslo** = number. Slovaks read a phone number digit by digit or in small groups: 0905 = nula deväť nula päť.",
+    "t": "**číslo** = ნომერი, რიცხვი. სლოვაკები ტელეფონის ნომერს ციფრ-ციფრად ან პატარა ჯგუფებად კითხულობენ: 0905 = nula deväť nula päť."
+  },
+  "u2-telefon.ake-mas-telefonne-cislo.en": {
+    "en": "What's your phone number? (informal)",
+    "t": "რა არის შენი ტელეფონის ნომერი?"
+  },
+  "u2-telefon.ake-mas-telefonne-cislo.note": {
+    "en": "Polite form: Aké **máte** telefónne číslo? Learn **aké** (what, which) as part of the question for now.",
+    "t": "თავაზიანად: Aké **máte** telefónne číslo? **aké** (რა, როგორი) ჯერჯერობით კითხვის ნაწილად დაიმახსოვრეთ."
+  },
+  "u2-telefon.choice-nula-devat-styri.question": {
+    "en": "Which number is this?",
+    "t": "რომელი ნომერია ეს?"
+  },
+  "u2-telefon.choice-nula-devat-styri.options": {
+    "en": [
+      "094",
+      "049",
+      "904"
+    ],
+    "t": [
+      "094",
+      "049",
+      "904"
+    ]
+  },
+  "u2-telefon.listen-cislo-je-nula.en": {
+    "en": "The number is 0905.",
+    "t": "ნომერი არის 0905."
+  },
+  "u2-telefon.build-ake-mas-telefonne.prompt": {
+    "en": "What's your phone number? (to a friend)",
+    "t": "რა არის შენი ტელეფონის ნომერი? (მეგობარს)"
+  },
+  "u2-telefon.build-ake-mas-telefonne.traps": {
+    "en": [
+      "A friend gets **ty**, so mať is **máš**. Máte is the polite vy form, for someone like pani Horváthová."
+    ],
+    "t": [
+      "მეგობარს **ty**-თი (შენობით) მიმართავთ, ამიტომ mať არის **máš**. Máte თავაზიანი vy-ს (თქვენ) ფორმაა, მაგალითად, ქალბატონ ჰორვატოვასთან."
+    ]
+  },
+  "u2-telefon.zavolam-ti.en": {
+    "en": "I'll call you.",
+    "t": "დაგირეკავ."
+  },
+  "u2-telefon.zavolam-ti.note": {
+    "en": "**zavolať** = to call (once), so zavolám points to the future. **ti** = you, to you (informal). Polite: Zavolám **vám**.",
+    "t": "**zavolať** = დარეკვა (ერთხელ, ბოლომდე), ამიტომ zavolám მომავალზე მიუთითებს, როგორც ქართული „დაგირეკავ“. **ti** = შენ, შენთვის (შენობით). თავაზიანად: Zavolám **vám**. (დაგირეკავთ.)"
+  },
+  "u2-telefon.dopocutia.en": {
+    "en": "Goodbye! (on the phone)",
+    "t": "ნახვამდის! (ტელეფონზე)"
+  },
+  "u2-telefon.dopocutia.note": {
+    "en": "Literally “till we hear each other”: the phone's version of Dovidenia, “till we see each other”.",
+    "t": "სიტყვასიტყვით „გაგონებამდე“: ეს Dovidenia-ს სატელეფონო ვარიანტია. Dovidenia, ქართული „ნახვამდის“-ის მსგავსად, ნახვაზეა, Dopočutia კი — გაგონებაზე."
+  },
+  "u2-telefon.match-halo.pairs": {
+    "en": [
+      "Hello? (on the phone)",
+      "I'll call you.",
+      "Goodbye! (on the phone)",
+      "phone number",
+      "to phone"
+    ],
+    "t": [
+      "ალო?",
+      "დაგირეკავ.",
+      "ნახვამდის! (ტელეფონზე)",
+      "ტელეფონის ნომერი",
+      "დარეკვა"
+    ]
+  },
+  "u2-telefon.fill-ahoj-lucia-tu.en": {
+    "en": "Hi, Lucia, it's Emma.",
+    "t": "სალამი, ლუცია, ემა ვარ."
+  },
+  "u2-telefon.fill-ahoj-lucia-tu.why": {
+    "en": "On the phone you name yourself as if pointing someone out: tu **je** Emma, literally “here is Emma”. So byť takes its on, ona form, je.",
+    "t": "ქართულში ვამბობთ „ემა ვარ“, სლოვაკურად კი ტელეფონზე თავს ისე ასახელებთ, თითქოს სხვაზე მიუთითებდეთ: tu **je** Emma, „აქ ემაა“. ამიტომ byť ona-ს ფორმას იღებს: je, და არა som."
+  },
+  "u2-telefon.build-zavolam-ti-dopocutia.answers": {
+    "en": [
+      "I'll call you. Bye!",
+      "I'll call you. Goodbye!",
+      "I will call you. Bye!",
+      "I will call you. Goodbye!"
+    ],
+    "t": [
+      "დაგირეკავ. ნახვამდის!",
+      "დაგირეკავ. კარგად!",
+      "მე დაგირეკავ. ნახვამდის!",
+      "მე დაგირეკავ. კარგად!",
+      "შენ დაგირეკავ. ნახვამდის!"
+    ]
+  },
+  "u2-telefon.build-zavolam-ti-dopocutia.distractors": {
+    "en": [
+      "me",
+      "Hello"
+    ],
+    "t": [
+      "დამირეკავ",
+      "ალო"
+    ]
+  },
+  "u2-telefon.speak-halo-tu-je.en": {
+    "en": "Hello? It's Emma.",
+    "t": "ალო? ემა ვარ."
   },
   "u2-l7.titleEn": {
     "en": "Review",

@@ -6,12 +6,14 @@
   "u3.topics": {
     "en": [
       "The dormitory",
+      "Describing people",
       "Rooms and furniture",
       "Where is it?",
       "Opposites"
     ],
     "t": [
       "Yotoqxona",
+      "Odamlarni tasvirlash",
       "Xonalar va mebel",
       "U qayerda?",
       "Qarama-qarshi soʻzlar"
@@ -423,6 +425,158 @@
   "u3-l2.speak-izba-je-velka.en": {
     "en": "The room is big and nice.",
     "t": "Xona katta va chiroyli."
+  },
+  "u3-aky-je.titleEn": {
+    "en": "What are people like?",
+    "t": "Odamlar qanday?"
+  },
+  "u3-aky-je.aky-je-tomas.en": {
+    "en": "What's Tomáš like?",
+    "t": "Tomash qanday odam?"
+  },
+  "u3-aky-je.aky-je-tomas.note": {
+    "en": "**Aký?** asks about people too: what they're like as a person. The adjective matches the person: Tomáš je mil**ý**, Lucia je mil**á**.",
+    "t": "**Aký?** bilan odamlar haqida ham soʻraladi: u qanday odam. Sifat odamning jinsiga moslashadi: Tomáš je mil**ý** (erkak), Lucia je mil**á** (ayol)."
+  },
+  "u3-aky-je.vesely-a-smutny.en": {
+    "en": "cheerful and sad",
+    "t": "quvnoq va gʻamgin"
+  },
+  "u3-aky-je.choice-smutny.question": {
+    "en": "What does “smutný” mean?",
+    "t": "«smutný» nimani anglatadi?"
+  },
+  "u3-aky-je.choice-smutny.options": {
+    "en": [
+      "sad",
+      "cheerful",
+      "kind"
+    ],
+    "t": [
+      "gʻamgin",
+      "quvnoq",
+      "mehribon"
+    ]
+  },
+  "u3-aky-je.mily-a-sympaticky.en": {
+    "en": "kind and likeable",
+    "t": "mehribon va yoqimli"
+  },
+  "u3-aky-je.mily-a-sympaticky.note": {
+    "en": "**milý** = kind, sweet; **sympatický** = likeable, someone you warm to.",
+    "t": "**milý** = mehribon, shirin (odam haqida); **sympatický** = yoqimli, darrov yoqib qoladigan odam."
+  },
+  "u3-aky-je.fill-lucia-je-vesela.en": {
+    "en": "Lucia is cheerful.",
+    "t": "Lusiya quvnoq."
+  },
+  "u3-aky-je.fill-lucia-je-vesela.why": {
+    "en": "Lucia is a woman, so the adjective takes the feminine **-á**: vesel**á**. Veselý would be for Tomáš.",
+    "t": "Lusiya — ayol, shuning uchun sifat ayol jinsi qoʻshimchasi **-á** ni oladi: vesel**á**. Veselý esa Tomash uchun boʻlardi."
+  },
+  "u3-aky-je.mudry-a-hlupy.en": {
+    "en": "clever and stupid",
+    "t": "aqlli va ahmoq"
+  },
+  "u3-aky-je.mudry-a-hlupy.note": {
+    "en": "After a long syllable (mú-, hlú-) the ending is short: múdr**y**, and for a woman múdr**a**, hlúp**a**.",
+    "t": "Choʻziq boʻgʻindan (mú-, hlú-) keyin qoʻshimcha qisqa boʻladi: múdr**y**, ayol uchun esa múdr**a**, hlúp**a**."
+  },
+  "u3-aky-je.silny-a-slaby.en": {
+    "en": "strong and weak",
+    "t": "kuchli va zaif"
+  },
+  "u3-aky-je.silny-a-slaby.note": {
+    "en": "Two more opposites: **rýchly – pomalý** (fast – slow). Rýchly has a short ending too: rýchl**a**.",
+    "t": "Yana ikkita qarama-qarshi soʻz: **rýchly – pomalý** (tez – sekin). Rýchly ham qisqa qoʻshimcha oladi: rýchl**a**."
+  },
+  "u3-aky-je.match-vesely.pairs": {
+    "en": [
+      "cheerful",
+      "sad",
+      "clever",
+      "strong",
+      "slow"
+    ],
+    "t": [
+      "quvnoq",
+      "gʻamgin",
+      "aqlli",
+      "kuchli",
+      "sekin"
+    ]
+  },
+  "u3-aky-je.fill-pani-horvathova-je-mudra.en": {
+    "en": "Mrs Horváthová is clever.",
+    "t": "Horvatova xonim aqlli."
+  },
+  "u3-aky-je.fill-pani-horvathova-je-mudra.why": {
+    "en": "Pani Horváthová is a woman, so the adjective is feminine: **múdra**, with a short -a after the long ú.",
+    "t": "Horvatova xonim — ayol, shuning uchun sifat ayol jinsida keladi: **múdra**. Choʻziq ú harfidan keyin qoʻshimcha qisqa boʻladi: -a, -á emas."
+  },
+  "u3-aky-je.fill-marek-je-mily.en": {
+    "en": "Marek is kind and likeable.",
+    "t": "Marek mehribon va yoqimli."
+  },
+  "u3-aky-je.fill-marek-je-mily.why": {
+    "en": "Marek is a man, so the adjective takes the masculine **-ý**, just like sympatick**ý** after it: mil**ý**.",
+    "t": "Marek — erkak, shuning uchun sifat erkak jinsi qoʻshimchasi **-ý** ni oladi, undan keyingi sympatick**ý** kabi: mil**ý**."
+  },
+  "u3-aky-je.build-emma-je-vesela.prompt": {
+    "en": "Emma is cheerful and kind.",
+    "t": "Emma quvnoq va mehribon."
+  },
+  "u3-aky-je.build-emma-je-vesela.traps": {
+    "en": [
+      "Emma is a woman, so the adjective takes the feminine **-á**: vesel**á**. Veselý is for a man.",
+      "Emma is a woman, so it's **milá**. Milé is the neuter form, for words like auto."
+    ],
+    "t": [
+      "Emma — ayol, shuning uchun sifat ayol jinsi qoʻshimchasi **-á** ni oladi: vesel**á**. Veselý — erkak uchun.",
+      "Emma — ayol, shuning uchun **milá**. Milé — oʻrta jins shakli, auto kabi soʻzlar uchun."
+    ]
+  },
+  "u3-aky-je.listen-tomas-je-silny.en": {
+    "en": "Tomáš is strong and fast.",
+    "t": "Tomash kuchli va tez."
+  },
+  "u3-aky-je.choice-emma-nie-je-smutna.question": {
+    "en": "Which sentence is correct?",
+    "t": "Qaysi gap toʻgʻri?"
+  },
+  "u3-aky-je.choice-emma-nie-je-smutna.why": {
+    "en": "Emma is a woman, so the adjective is **smutná**, and for one person byť is **je**: nie je. Smutný is masculine; nie sú is for oni.",
+    "t": "Emma — ayol, shuning uchun sifat **smutná** boʻladi, bitta kishi uchun byť esa **je**: nie je. Smutný — erkak jinsi, nie sú esa oni (ular) uchun."
+  },
+  "u3-aky-je.build-aky-je-pan.answers": {
+    "en": [
+      "What's Mr Kováč like? He's kind and strong.",
+      "What is Mr Kováč like? He is kind and strong.",
+      "What's Mr Kováč like? He's nice and strong.",
+      "What is Mr Kováč like? He is nice and strong."
+    ],
+    "t": [
+      "Janob Kovach qanday odam? U mehribon va kuchli.",
+      "Janob Kovach qanday odam? Mehribon va kuchli.",
+      "Janob Kovach qanday? U mehribon va kuchli.",
+      "Janob Kovach qanday? Mehribon va kuchli.",
+      "Janob Kovach qanday odam? U yoqimli va kuchli.",
+      "Janob Kovach qanday odam? Yoqimli va kuchli."
+    ]
+  },
+  "u3-aky-je.build-aky-je-pan.distractors": {
+    "en": [
+      "weak",
+      "She's"
+    ],
+    "t": [
+      "zaif",
+      "qayerda"
+    ]
+  },
+  "u3-aky-je.speak-aky-je-tomas.en": {
+    "en": "What's Tomáš like? He's kind.",
+    "t": "Tomash qanday odam? U mehribon."
   },
   "u3-l3.titleEn": {
     "en": "In the room",

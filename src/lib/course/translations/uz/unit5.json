@@ -8,12 +8,14 @@
       "Food and drink",
       "Shopping",
       "Colours and clothes",
+      "Likes and free time",
       "A birthday party"
     ],
     "t": [
       "Ovqat va ichimliklar",
       "Xarid",
       "Ranglar va kiyimlar",
+      "Yoqtirgan narsalar va boʻsh vaqt",
       "Tugʻilgan kun bazmi"
     ]
   },
@@ -22,6 +24,8 @@
       "Accusative case",
       "Accusative pronouns",
       "Accusative prepositions",
+      "Accusative plural",
+      "mať rád, páči sa mi",
       "The verb ísť",
       "Modal verbs"
     ],
@@ -29,6 +33,8 @@
       "Akuzatív (tushum kelishigi)",
       "Olmoshlar akuzatívda",
       "Akuzatív bilan keladigan predloglar",
+      "Koʻplikda akuzatív",
+      "mať rád, páči sa mi",
       "ísť feʼli",
       "Modal feʼllar"
     ]
@@ -530,6 +536,158 @@
   "u5-l2.speak-hladam-pana-kovaca.en": {
     "en": "I'm looking for Mr Kováč.",
     "t": "Janob Kovachni qidiryapman."
+  },
+  "u5-obchod.titleEn": {
+    "en": "In the shop",
+    "t": "Doʻkonda"
+  },
+  "u5-obchod.obchod.en": {
+    "en": "shop",
+    "t": "doʻkon"
+  },
+  "u5-obchod.obchod.note": {
+    "en": "Groceries are sold in **potraviny** (a plural-only word, like noviny), medicine in a **lekáreň** (pharmacy), soap and shampoo in a **drogéria**.",
+    "t": "Oziq-ovqat doʻkoni — **potraviny** (noviny kabi faqat koʻplikda keladigan soʻz), dorixona — **lekáreň**, sovun va shampun sotiladigan doʻkon — **drogéria**."
+  },
+  "u5-obchod.ovocie-a-zelenina.en": {
+    "en": "fruit and vegetables",
+    "t": "meva va sabzavot"
+  },
+  "u5-obchod.ovocie-a-zelenina.note": {
+    "en": "Each is one word for many things: **ovocie** (neuter) is all fruit, **zelenina** (feminine) all vegetables.",
+    "t": "Har biri koʻp narsani bildiradigan bitta soʻz: **ovocie** (oʻrta jins) — barcha mevalar, **zelenina** (ayol jinsi) — barcha sabzavotlar."
+  },
+  "u5-obchod.jablko-a-banan.en": {
+    "en": "an apple and a banana",
+    "t": "olma va banan"
+  },
+  "u5-obchod.jablko-a-banan.note": {
+    "en": "Also **pomaranč** (orange) and **hruška** (pear). In the plural: jablk**á**, banán**y**, pomaranč**e**, hrušk**y**.",
+    "t": "Yana: **pomaranč** (apelsin) va **hruška** (nok). Koʻplikda: jablk**á**, banán**y**, pomaranč**e**, hrušk**y**."
+  },
+  "u5-obchod.choice-lekaren.question": {
+    "en": "Which shop sells medicine?",
+    "t": "Qaysi doʻkonda dori sotiladi?"
+  },
+  "u5-obchod.zemiaky-a-cibula.en": {
+    "en": "potatoes and an onion",
+    "t": "kartoshka va piyoz"
+  },
+  "u5-obchod.zemiaky-a-cibula.note": {
+    "en": "One potato is **zemiak**. Also **paradajka** (tomato) and **paprika** (pepper).",
+    "t": "Bitta kartoshka — **zemiak**, zemiaky esa koʻplik. Yana: **paradajka** (pomidor) va **paprika** (bulgʻor qalampiri)."
+  },
+  "u5-obchod.match-jablko.pairs": {
+    "en": [
+      "apple",
+      "banana",
+      "onion",
+      "fruit",
+      "vegetables"
+    ],
+    "t": [
+      "olma",
+      "banan",
+      "piyoz",
+      "meva",
+      "sabzavot"
+    ]
+  },
+  "u5-obchod.build-potrebujem-zemiaky-a.prompt": {
+    "en": "I need potatoes and an onion.",
+    "t": "Menga kartoshka va piyoz kerak."
+  },
+  "u5-obchod.build-potrebujem-zemiaky-a.traps": {
+    "en": [
+      "The onion is what you need, the object, so feminine -a changes to **-u**: cibuľ**u**.",
+      "You need more than one potato, so it's the plural: zemiak**y**. Zemiak is one potato."
+    ],
+    "t": [
+      "Piyoz — sizga kerak narsa, yaʼni toʻldiruvchi, shuning uchun ayol jinsidagi -a oʻrniga **-u** keladi: cibuľ**u**.",
+      "Oʻzbekchada «kartoshka» koʻplik qoʻshimchasiz ham koʻp narsani bildiradi, slovakchada esa koʻplik kerak: zemiak**y**. Zemiak — bitta kartoshka."
+    ]
+  },
+  "u5-obchod.prosim-si-dve-jablka.en": {
+    "en": "Two apples, please.",
+    "t": "Ikkita olma, iltimos."
+  },
+  "u5-obchod.prosim-si-dve-jablka.note": {
+    "en": "**Prosím si** + the accusative is the polite way to ask for something in a shop or a café: Prosím si kávu.",
+    "t": "**Prosím si** + akuzatív (tushum kelishigi) — doʻkon yoki kafeda biror narsa soʻrashning xushmuomala usuli: Prosím si kávu. = Qahva, iltimos."
+  },
+  "u5-obchod.fill-prosim-si-cibulu.en": {
+    "en": "An onion, please.",
+    "t": "Piyoz, iltimos."
+  },
+  "u5-obchod.fill-prosim-si-cibulu.why": {
+    "en": "Prosím si takes an object, so it's the accusative: feminine -a changes to **-u**, cibuľa → cibuľ**u**.",
+    "t": "Prosím si iborasidan keyin toʻldiruvchi, yaʼni akuzatív keladi: ayol jinsidagi -a oʻrniga **-u**, cibuľa → cibuľ**u**."
+  },
+  "u5-obchod.este-nieco.en": {
+    "en": "Anything else?",
+    "t": "Yana biror narsa kerakmi?"
+  },
+  "u5-obchod.este-nieco.note": {
+    "en": "What the shop assistant asks. If that's all: **Nie, to je všetko.** = No, that's everything.",
+    "t": "Sotuvchi shunday soʻraydi. Agar boshqa hech narsa kerak boʻlmasa: **Nie, to je všetko.** = Yoʻq, shu hammasi."
+  },
+  "u5-obchod.choice-este-nieco.question": {
+    "en": "The shop assistant asks “Ešte niečo?” You have everything you need. What do you say?",
+    "t": "Sotuvchi «Ešte niečo?» deb soʻraydi. Sizga kerak narsaning hammasi bor. Nima deysiz?"
+  },
+  "u5-obchod.platim-kartou.en": {
+    "en": "I'm paying by card.",
+    "t": "Karta bilan toʻlayman."
+  },
+  "u5-obchod.platim-kartou.note": {
+    "en": "**platiť** = to pay: platím, platíš, platí… In cash: **Platím v hotovosti.** You pay at the **pokladňa** (till).",
+    "t": "**platiť** = toʻlamoq: platím, platíš, platí… Naqd pulda: **Platím v hotovosti.** Kassa — **pokladňa**, pul oʻsha yerda toʻlanadi."
+  },
+  "u5-obchod.choice-platim-v-hotovosti.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "u5-obchod.choice-platim-v-hotovosti.options": {
+    "en": [
+      "I'm paying in cash.",
+      "I'm paying by card.",
+      "Where's the till?"
+    ],
+    "t": [
+      "Naqd pulda toʻlayman.",
+      "Karta bilan toʻlayman.",
+      "Kassa qayerda?"
+    ]
+  },
+  "u5-obchod.listen-prosim-si-chlieb.en": {
+    "en": "Bread and two apples, please.",
+    "t": "Non va ikkita olma, iltimos."
+  },
+  "u5-obchod.build-mate-cerstvu-zeleninu.answers": {
+    "en": [
+      "Do you have fresh vegetables?",
+      "Have you got fresh vegetables?"
+    ],
+    "t": [
+      "Sizda yangi sabzavot bormi?",
+      "Yangi sabzavot bormi?",
+      "Sizda yangi sabzavotlar bormi?",
+      "Yangi sabzavotlar bormi?"
+    ]
+  },
+  "u5-obchod.build-mate-cerstvu-zeleninu.distractors": {
+    "en": [
+      "fruit",
+      "need"
+    ],
+    "t": [
+      "meva",
+      "kerakmi"
+    ]
+  },
+  "u5-obchod.speak-platim-kartou.en": {
+    "en": "I'm paying by card.",
+    "t": "Karta bilan toʻlayman."
   },
   "u5-l3.titleEn": {
     "en": "Colours and clothes",
@@ -1042,6 +1200,479 @@
   "u5-l4.speak-to-je-pre.en": {
     "en": "This is for you.",
     "t": "Bu sen uchun."
+  },
+  "u5-mnozne.titleEn": {
+    "en": "Plural objects",
+    "t": "Koʻplikda toʻldiruvchi"
+  },
+  "u5-mnozne.grammar-plural-objects-things.title": {
+    "en": "Plural objects: things and women",
+    "t": "Koʻplikda toʻldiruvchi: narsalar va ayollar"
+  },
+  "u5-mnozne.grammar-plural-objects-things.body": {
+    "en": [
+      "In the plural, things and women don't change as objects: the accusative is the plural you already know. Kúpim jablká. Mám dve sestry.",
+      "Their adjectives keep **-é** too: Kúpim zelené jablká."
+    ],
+    "t": [
+      "Koʻplikda narsalar va ayollar toʻldiruvchi boʻlganda oʻzgarmaydi: akuzatív (tushum kelishigi) — siz bilgan koʻplik shaklining oʻzi. Kúpim jablká. Mám dve sestry.",
+      "Ularning sifatlari ham **-é** bilan qoladi: Kúpim zelené jablká."
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-things.table.head": {
+    "en": [
+      "the plural",
+      "as an object"
+    ],
+    "t": [
+      "koʻplik",
+      "toʻldiruvchi boʻlganda"
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-things.table.rows": {
+    "en": [
+      [
+        "jablká",
+        "Kúpim jablká."
+      ],
+      [
+        "paradajky",
+        "Potrebujem paradajky."
+      ],
+      [
+        "nové kamarátky",
+        "Pozývam nové kamarátky."
+      ]
+    ],
+    "t": [
+      [
+        "jablká",
+        "Kúpim jablká."
+      ],
+      [
+        "paradajky",
+        "Potrebujem paradajky."
+      ],
+      [
+        "nové kamarátky",
+        "Pozývam nové kamarátky."
+      ]
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-things.examples": {
+    "en": [
+      "I'll buy green apples and bananas.",
+      "Lucia is inviting her friends."
+    ],
+    "t": [
+      "Yashil olma va banan sotib olaman.",
+      "Lusiya dugonalarini taklif qilyapti."
+    ]
+  },
+  "u5-mnozne.fill-kupim-tri-banany.en": {
+    "en": "I'll buy three bananas.",
+    "t": "Uchta banan sotib olaman."
+  },
+  "u5-mnozne.fill-kupim-tri-banany.why": {
+    "en": "Bananas are things, and things don't change in the plural as objects: tri banán**y**, just as in Tu sú tri banány. Banánov isn't the object form.",
+    "t": "Bananlar — narsalar, narsalar esa koʻplikda toʻldiruvchi boʻlganda oʻzgarmaydi: tri banán**y**, xuddi Tu sú tri banány (Bu yerda uchta banan bor) gapidagi kabi. Banánov toʻldiruvchi shakli emas: -ov faqat erkaklar uchun."
+  },
+  "u5-mnozne.grammar-plural-objects-men.title": {
+    "en": "Plural objects: men",
+    "t": "Koʻplikda toʻldiruvchi: erkaklar"
+  },
+  "u5-mnozne.grammar-plural-objects-men.body": {
+    "en": [
+      "Men are different: as objects they end in **-ov**, and their adjectives in **-ých**: Pozývam nov**ých** kamarát**ov**.",
+      "Tí becomes **tých**, and 2, 3, 4 become **dvoch**, **troch**, **štyroch**: Mám dv**och** brat**ov**."
+    ],
+    "t": [
+      "Erkaklar (va aralash guruh) boshqacha: toʻldiruvchi boʻlganda ular **-ov** bilan, sifatlari esa **-ých** bilan tugaydi: Pozývam nov**ých** kamarát**ov**. = Yangi doʻstlarni taklif qilaman.",
+      "Tí oʻrniga **tých**, 2, 3, 4 oʻrniga esa **dvoch**, **troch**, **štyroch** keladi: Mám dv**och** brat**ov**."
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-men.table.head": {
+    "en": [
+      "they are…",
+      "I invite…"
+    ],
+    "t": [
+      "ular…",
+      "…ni taklif qilaman"
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-men.table.rows": {
+    "en": [
+      [
+        "kamaráti",
+        "kamarát**ov**"
+      ],
+      [
+        "študenti",
+        "študent**ov**"
+      ],
+      [
+        "bratia",
+        "brat**ov**"
+      ],
+      [
+        "tí mladí kuchári",
+        "t**ých** mlad**ých** kuchár**ov**"
+      ],
+      [
+        "dvaja bratia",
+        "dv**och** brat**ov**"
+      ]
+    ],
+    "t": [
+      [
+        "kamaráti",
+        "kamarát**ov**"
+      ],
+      [
+        "študenti",
+        "študent**ov**"
+      ],
+      [
+        "bratia",
+        "brat**ov**"
+      ],
+      [
+        "tí mladí kuchári",
+        "t**ých** mlad**ých** kuchár**ov**"
+      ],
+      [
+        "dvaja bratia",
+        "dv**och** brat**ov**"
+      ]
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-men.examples": {
+    "en": [
+      "We're inviting our friends.",
+      "I have two brothers.",
+      "I'm looking for those new students."
+    ],
+    "t": [
+      "Doʻstlarimizni taklif qilyapmiz.",
+      "Mening ikki aka-ukam bor.",
+      "Oʻsha yangi talabalarni qidiryapman."
+    ]
+  },
+  "u5-mnozne.fill-na-oslavu-pozyvame.en": {
+    "en": "We're inviting friends to the party.",
+    "t": "Bazmga doʻstlarni taklif qilyapmiz."
+  },
+  "u5-mnozne.fill-na-oslavu-pozyvame.why": {
+    "en": "The friends are men or a mixed group, and men as objects end in **-ov**: kamarát**ov**. Kamaráti is the subject form, kamaráta just one friend.",
+    "t": "Doʻstlar — erkaklar yoki aralash guruh, toʻldiruvchi boʻlganda esa erkaklar **-ov** bilan tugaydi: kamarát**ov** (doʻstlarni). Kamaráti — ega shakli, kamaráta — bitta doʻst."
+  },
+  "u5-mnozne.fill-pan-kovac-ma-dvoch.en": {
+    "en": "Mr Kováč has two sons.",
+    "t": "Janob Kovachning ikki oʻgʻli bor."
+  },
+  "u5-mnozne.fill-pan-kovac-ma-dvoch.why": {
+    "en": "Sons are men, and after **dvoch** men take **-ov**: syn**ov**. Synovia is the subject form, syna one son.",
+    "t": "Oʻgʻillar — erkaklar, **dvoch** soʻzidan keyin esa erkaklar **-ov** oladi: syn**ov**. Synovia — ega shakli, syna — bitta oʻgʻil."
+  },
+  "u5-mnozne.fill-marek-hlada-mladych.en": {
+    "en": "Marek is looking for young cooks.",
+    "t": "Marek yosh oshpazlarni qidiryapti."
+  },
+  "u5-mnozne.fill-marek-hlada-mladych.why": {
+    "en": "The cooks are men and the object, so their adjective ends in **-ých**: mlad**ých**. Mladí is the subject form, mladé for women and things.",
+    "t": "Oshpazlar — erkaklar va toʻldiruvchi (oshpazlarni), shuning uchun ularning sifati **-ých** bilan tugaydi: mlad**ých**. Mladí — ega shakli, mladé — ayollar va narsalar uchun."
+  },
+  "u5-mnozne.choice-pozyvam-studentov.question": {
+    "en": "Which sentence is correct?",
+    "t": "Qaysi gap toʻgʻri?"
+  },
+  "u5-mnozne.choice-pozyvam-studentov.why": {
+    "en": "As objects, men take **-ov** (študent**ov**), but women keep their plural (študentk**y**). Študenti is the subject form.",
+    "t": "Toʻldiruvchi boʻlganda erkaklar **-ov** oladi (študent**ov**), ayollar esa koʻplik shaklini saqlaydi (študentk**y**). Študenti — ega shakli."
+  },
+  "u5-mnozne.build-pozyvame-novych-kamaratov.prompt": {
+    "en": "We're inviting new friends.",
+    "t": "Yangi doʻstlarni taklif qilyapmiz."
+  },
+  "u5-mnozne.build-pozyvame-novych-kamaratov.traps": {
+    "en": [
+      "The friends are the object, and men's adjectives as objects end in **-ých**: nov**ých**. Noví is the subject form: noví kamaráti.",
+      "The friends are the object, and men as objects end in **-ov**: kamarát**ov**. Kamaráti is the subject form."
+    ],
+    "t": [
+      "Doʻstlar — toʻldiruvchi (doʻstlarni), toʻldiruvchi boʻlgan erkaklarning sifati esa **-ých** bilan tugaydi: nov**ých**. Noví — ega shakli: noví kamaráti.",
+      "Doʻstlar — toʻldiruvchi, oʻzbekchadagi «doʻstlarni» kabi, toʻldiruvchi boʻlgan erkaklar esa **-ov** bilan tugaydi: kamarát**ov**. Kamaráti — ega shakli."
+    ]
+  },
+  "u5-mnozne.listen-lucia-pozyva-kamaratov.en": {
+    "en": "Lucia is inviting her friends.",
+    "t": "Lusiya doʻst va dugonalarini taklif qilyapti."
+  },
+  "u5-mnozne.build-kupim-zelene-jablka.answers": {
+    "en": [
+      "I'll buy green apples and tomatoes.",
+      "I will buy green apples and tomatoes."
+    ],
+    "t": [
+      "Yashil olma va pomidor sotib olaman.",
+      "Yashil olmalar va pomidorlar sotib olaman.",
+      "Yashil olma va pomidorlar sotib olaman.",
+      "Men yashil olma va pomidor sotib olaman."
+    ]
+  },
+  "u5-mnozne.build-kupim-zelene-jablka.distractors": {
+    "en": [
+      "red",
+      "potatoes"
+    ],
+    "t": [
+      "qizil",
+      "kartoshka"
+    ]
+  },
+  "u5-mnozne.speak-mam-dvoch-bratov.en": {
+    "en": "I have two brothers.",
+    "t": "Mening ikki aka-ukam bor."
+  },
+  "u5-mam-rad.titleEn": {
+    "en": "Likes and free time",
+    "t": "Yoqtirgan narsalar va boʻsh vaqt"
+  },
+  "u5-mam-rad.hudba-a-film.en": {
+    "en": "music and film",
+    "t": "musiqa va film"
+  },
+  "u5-mam-rad.futbal-a-tenis.en": {
+    "en": "football and tennis",
+    "t": "futbol va tennis"
+  },
+  "u5-mam-rad.futbal-a-tenis.note": {
+    "en": "**hrať** = to play: hrám, hráš, hrá… Hráme futbal. = We play football.",
+    "t": "**hrať** = oʻynamoq: hrám, hráš, hrá… Hráme futbal. = Biz futbol oʻynaymiz."
+  },
+  "u5-mam-rad.choice-hudba.question": {
+    "en": "What does “hudba” mean?",
+    "t": "«hudba» nimani anglatadi?"
+  },
+  "u5-mam-rad.choice-hudba.options": {
+    "en": [
+      "music",
+      "film",
+      "football"
+    ],
+    "t": [
+      "musiqa",
+      "film",
+      "futbol"
+    ]
+  },
+  "u5-mam-rad.pocuvat-hudbu.en": {
+    "en": "to listen to music",
+    "t": "musiqa tinglamoq"
+  },
+  "u5-mam-rad.pocuvat-hudbu.note": {
+    "en": "počúvam, počúvaš, počúva… The music is the object, so hudba becomes hudb**u**.",
+    "t": "počúvam, počúvaš, počúva… Musiqa — toʻldiruvchi (nimani tinglaysiz?), shuning uchun hudba oʻrniga hudb**u** keladi."
+  },
+  "u5-mam-rad.tancovat-a-spievat.en": {
+    "en": "to dance and to sing",
+    "t": "raqsga tushmoq va qoʻshiq aytmoq"
+  },
+  "u5-mam-rad.tancovat-a-spievat.note": {
+    "en": "Tancovať goes like študovať: tancuj**em**. Spievať: spievam. And **plávať** = to swim: plávam.",
+    "t": "Tancovať študovať kabi tuslanadi: tancuj**em**. Spievať: spievam. Yana **plávať** = suzmoq: plávam."
+  },
+  "u5-mam-rad.grammar-mat-rad-like.title": {
+    "en": "mať rád: to like",
+    "t": "mať rád: yoqtirmoq"
+  },
+  "u5-mam-rad.grammar-mat-rad-like.body": {
+    "en": [
+      "You know **mať rád** from Akú farbu máš rada?: rád for a man, rada for a woman, and **radi** for a group. What you like is the object: Mám rád hudb**u**.",
+      "To like doing something, put rád with the verb alone, without mať: **Rád** hrám futbal. = I like playing football."
+    ],
+    "t": [
+      "**mať rád** sizga Akú farbu máš rada? savolidan tanish: erkak uchun rád, ayol uchun rada, guruh uchun **radi**. Yoqtirgan narsangiz — toʻldiruvchi: Mám rád hudb**u**.",
+      "Biror ishni qilishni yoqtirsangiz, mať tushib qoladi va rád toʻgʻridan-toʻgʻri feʼl bilan keladi: **Rád** hrám futbal. = Futbol oʻynashni yoqtiraman."
+    ]
+  },
+  "u5-mam-rad.grammar-mat-rad-like.table.head": {
+    "en": [
+      "",
+      "something",
+      "doing something"
+    ],
+    "t": [
+      "",
+      "biror narsani",
+      "biror ishni qilishni"
+    ]
+  },
+  "u5-mam-rad.grammar-mat-rad-like.table.rows": {
+    "en": [
+      [
+        "Tomáš",
+        "Má **rád** futbal.",
+        "**Rád** hrá futbal."
+      ],
+      [
+        "Lucia",
+        "Má **rada** hudbu.",
+        "**Rada** spieva."
+      ],
+      [
+        "my",
+        "Máme **radi** filmy.",
+        "**Radi** tancujeme."
+      ]
+    ],
+    "t": [
+      [
+        "Tomáš",
+        "Má **rád** futbal.",
+        "**Rád** hrá futbal."
+      ],
+      [
+        "Lucia",
+        "Má **rada** hudbu.",
+        "**Rada** spieva."
+      ],
+      [
+        "my",
+        "Máme **radi** filmy.",
+        "**Radi** tancujeme."
+      ]
+    ]
+  },
+  "u5-mam-rad.grammar-mat-rad-like.examples": {
+    "en": [
+      "I like music. (a man speaking)",
+      "Lucia likes dancing.",
+      "I love you. (a woman speaking)"
+    ],
+    "t": [
+      "Men musiqani yoqtiraman. (erkak gapiryapti)",
+      "Lusiya raqsga tushishni yoqtiradi.",
+      "Men seni sevaman. (ayol gapiryapti)"
+    ]
+  },
+  "u5-mam-rad.fill-lucia-ma-rada.en": {
+    "en": "Lucia likes music.",
+    "t": "Lusiya musiqani yoqtiradi."
+  },
+  "u5-mam-rad.fill-lucia-ma-rada.why": {
+    "en": "Rád changes with the person who likes: Lucia is a woman, so **rada**. Rád is for a man.",
+    "t": "Rád yoqtirayotgan odamga qarab oʻzgaradi: Lusiya — ayol, shuning uchun **rada**. Rád — erkak uchun."
+  },
+  "u5-mam-rad.fill-tomas-rad-hra.en": {
+    "en": "Tomáš likes playing tennis.",
+    "t": "Tomash tennis oʻynashni yoqtiradi."
+  },
+  "u5-mam-rad.fill-tomas-rad-hra.why": {
+    "en": "Tomáš is **on**, so the verb has no ending: **hrá**. Hrám is ja, hrajú is oni.",
+    "t": "Tomash — **on** (u), shuning uchun feʼl qoʻshimchasiz keladi: **hrá**. Hrám — ja, hrajú — oni shakli."
+  },
+  "u5-mam-rad.choice-rada-tancujem.question": {
+    "en": "How does Emma say “I like dancing”?",
+    "t": "Emma «Raqsga tushishni yoqtiraman» deb qanday aytadi?"
+  },
+  "u5-mam-rad.choice-rada-tancujem.why": {
+    "en": "To like doing something, rád goes with the verb alone, without mám. Emma is a woman, so it's **rada** tancujem.",
+    "t": "Biror ishni qilishni yoqtirganda mám tushib qoladi va rád toʻgʻridan-toʻgʻri feʼl bilan keladi. Emma — ayol, shuning uchun **rada** tancujem."
+  },
+  "u5-mam-rad.build-mas-rad-futbal.prompt": {
+    "en": "Do you like football? (to a male friend)",
+    "t": "Futbolni yoqtirasanmi? (erkakka, sen)"
+  },
+  "u5-mam-rad.build-mas-rad-futbal.traps": {
+    "en": [
+      "You're asking a man, so it's **rád**. You'd ask a woman: Máš rada futbal?",
+      "You're asking a friend, **ty**, so mať is **máš**. Mám is the ja form, I have."
+    ],
+    "t": [
+      "Siz erkakdan soʻrayapsiz, shuning uchun **rád**. Ayoldan esa shunday soʻraladi: Máš rada futbal?",
+      "Siz doʻstdan soʻrayapsiz, yaʼni **ty** (sen), shuning uchun mať — **máš**. Mám — ja shakli, «menda bor»."
+    ]
+  },
+  "u5-mam-rad.grammar-paci-sa-mi.title": {
+    "en": "Páči sa mi: I like it",
+    "t": "Páči sa mi: menga yoqadi"
+  },
+  "u5-mam-rad.grammar-paci-sa-mi.body": {
+    "en": [
+      "For what you see or hear, Slovak often says **Páči sa mi** (it pleases me). The thing you like is the subject: Páči sa mi tvoj sveter. For more than one thing: **Páčia** sa mi.",
+      "Say no with ne-: **Nepáči** sa mi. To ask a friend: Páči sa **ti**…?"
+    ],
+    "t": [
+      "Koʻrgan yoki eshitgan narsangiz haqida slovaklar koʻpincha **Páči sa mi** (menga yoqadi) deydi. Bu oʻzbekchadagi «menga yoqadi» kabi tuzilgan: yoqqan narsa — ega. Páči sa mi tvoj sveter. Bir nechta narsa uchun: **Páčia** sa mi.",
+      "Inkor ne- bilan yasaladi: **Nepáči** sa mi. Doʻstdan soʻrash uchun: Páči sa **ti**…?"
+    ]
+  },
+  "u5-mam-rad.grammar-paci-sa-mi.examples": {
+    "en": [
+      "I like your skirt.",
+      "I like those colours.",
+      "Do you like Bratislava?"
+    ],
+    "t": [
+      "Yubkang menga yoqadi.",
+      "Oʻsha ranglar menga yoqadi.",
+      "Bratislava senga yoqadimi?"
+    ]
+  },
+  "u5-mam-rad.fill-paci-sa-mi-tvoje.en": {
+    "en": "I like your T-shirt.",
+    "t": "Futbolkang menga yoqadi."
+  },
+  "u5-mam-rad.fill-paci-sa-mi-tvoje.why": {
+    "en": "The thing you like is the subject. Tričko is one thing, so it's **páči**; páčia is for more than one.",
+    "t": "Yoqqan narsa — ega, oʻzbekchadagi «futbolkang yoqadi» kabi. Tričko — bitta narsa, shuning uchun **páči**; páčia bir nechta narsa uchun."
+  },
+  "u5-mam-rad.listen-nepaci-sa-mi.en": {
+    "en": "I don't like that film.",
+    "t": "Oʻsha film menga yoqmaydi."
+  },
+  "u5-mam-rad.build-emma-rada-plava.answers": {
+    "en": [
+      "Emma likes swimming and listening to music.",
+      "Emma likes to swim and listen to music."
+    ],
+    "t": [
+      "Emma suzishni va musiqa tinglashni yoqtiradi.",
+      "Emma suzish va musiqa tinglashni yoqtiradi.",
+      "Emma suzishni va musiqa tinglashni yaxshi koʻradi."
+    ]
+  },
+  "u5-mam-rad.build-emma-rada-plava.distractors": {
+    "en": [
+      "dancing",
+      "reads"
+    ],
+    "t": [
+      "tinglaydi",
+      "suzadi"
+    ]
+  },
+  "u5-mam-rad.match-hudba.pairs": {
+    "en": [
+      "music",
+      "to play",
+      "to swim",
+      "to sing",
+      "to dance"
+    ],
+    "t": [
+      "musiqa",
+      "oʻynamoq",
+      "suzmoq",
+      "qoʻshiq aytmoq",
+      "raqsga tushmoq"
+    ]
+  },
+  "u5-mam-rad.speak-rad-pocuvam-hudbu.en": {
+    "en": "I like listening to music.",
+    "t": "Musiqa tinglashni yoqtiraman."
   },
   "u5-l5.titleEn": {
     "en": "Go, want, must",

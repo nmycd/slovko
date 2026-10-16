@@ -6,11 +6,13 @@
   "u9.topics": {
     "en": [
       "Conference",
+      "At the doctor's",
       "Working on a computer",
       "Forms and questionnaires"
     ],
     "t": [
       "Конференция",
+      "У врача",
       "Работа с компьютером",
       "Анкеты и бланки"
     ]
@@ -576,6 +578,146 @@
   "u9-l2.speak-velmi-sa-tesim.en": {
     "en": "I'm really looking forward to it!",
     "t": "Жду не дождусь!"
+  },
+  "u9-lekar.titleEn": {
+    "en": "At the doctor's",
+    "t": "У врача"
+  },
+  "u9-lekar.necitim-sa-dobre.en": {
+    "en": "I don't feel well.",
+    "t": "Я плохо себя чувствую."
+  },
+  "u9-lekar.necitim-sa-dobre.note": {
+    "en": "**cítiť sa** = to feel: cítim sa, cítiš sa… A verb with sa, like the ones in the last lesson. Emma is ill on the second day of the conference.",
+    "t": "**cítiť sa** = чувствовать себя: cítim sa, cítiš sa… Глагол с sa (у нас «себя» или -ся), как в прошлом уроке. Эмма заболела на второй день конференции."
+  },
+  "u9-lekar.boli-ma-hlava.en": {
+    "en": "I've got a headache.",
+    "t": "У меня болит голова."
+  },
+  "u9-lekar.boli-ma-hlava.note": {
+    "en": "Literally “the head hurts me”: what hurts is the subject, and **ma** (me) the object. Also: bolí ma **hrdlo** (throat), **brucho** (stomach), **zub** (tooth). More than one: **bolia** ma zuby.",
+    "t": "Дословно «болит меня голова»: то, что болит, — подлежащее, а **ma** (меня) — дополнение. Ещё: bolí ma **hrdlo** (горло), **brucho** (живот), **zub** (зуб). Если несколько: **bolia** ma zuby."
+  },
+  "u9-lekar.fill-emma-sa-neciti.en": {
+    "en": "Emma doesn't feel well.",
+    "t": "Эмма плохо себя чувствует."
+  },
+  "u9-lekar.fill-emma-sa-neciti.why": {
+    "en": "Emma is **ona**, so the verb has no ending: **necíti**. Necítim is ja, necítia is oni. Sa stays the same for everyone.",
+    "t": "Эмма — **ona**, поэтому у глагола нет окончания: **necíti**. Necítim — для ja, necítia — для oni. Sa для всех одно, как наше -ся."
+  },
+  "u9-lekar.som-chora.en": {
+    "en": "I'm ill. (a woman speaking)",
+    "t": "Я больна. (говорит женщина)"
+  },
+  "u9-lekar.som-chora.note": {
+    "en": "A man says **Som chorý.**",
+    "t": "Мужчина скажет: **Som chorý.** (ср. «хворый»)"
+  },
+  "u9-lekar.mam-horucku.en": {
+    "en": "I've got a temperature.",
+    "t": "У меня температура."
+  },
+  "u9-lekar.mam-horucku.note": {
+    "en": "**horúčka** = fever, from horúci (hot). It's the object of mám, so -a changes to -u.",
+    "t": "**horúčka** = жар, температура, от horúci (горячий). Это дополнение к mám, поэтому -a меняется на -u (хотя по-русски «у меня температура»)."
+  },
+  "u9-lekar.match-hlava.pairs": {
+    "en": [
+      "head",
+      "throat",
+      "stomach",
+      "tooth",
+      "fever"
+    ],
+    "t": [
+      "голова",
+      "горло",
+      "живот",
+      "зуб",
+      "температура"
+    ]
+  },
+  "u9-lekar.fill-tomas-je-chory.en": {
+    "en": "Tomáš is ill, he's got a temperature.",
+    "t": "Томаш болен, у него температура."
+  },
+  "u9-lekar.fill-tomas-je-chory.why": {
+    "en": "Tomáš is a man, so the adjective takes the masculine **-ý**: chor**ý**. Chorá is for a woman.",
+    "t": "Томаш — мужчина, поэтому прилагательное мужского рода на **-ý**: chor**ý**. Chorá — для женщины."
+  },
+  "u9-lekar.fill-emmu-boli.en": {
+    "en": "Emma has a headache.",
+    "t": "У Эммы болит голова."
+  },
+  "u9-lekar.fill-emmu-boli.why": {
+    "en": "What hurts is the subject, so **hlava** doesn't change. Emma is the object, Emm**u**, just as in Bolí **ma** hlava.",
+    "t": "То, что болит, — подлежащее, поэтому **hlava** не меняется, как и «голова» в русском. А Эмма — дополнение: Emm**u**, как ma в Bolí ma hlava."
+  },
+  "u9-lekar.liek.en": {
+    "en": "medicine",
+    "t": "лекарство"
+  },
+  "u9-lekar.liek.note": {
+    "en": "The doctor (lekár, lekárka) writes a **recept** (prescription), and you get the medicine in the **lekáreň** (pharmacy).",
+    "t": "Врач (lekár, lekárka) выписывает **recept** (рецепт), а лекарство покупают в аптеке — **lekáreň**."
+  },
+  "u9-lekar.build-boli-ma-hrdlo.prompt": {
+    "en": "I've got a sore throat and a temperature.",
+    "t": "У меня болит горло и температура."
+  },
+  "u9-lekar.build-boli-ma-hrdlo.traps": {
+    "en": [
+      "The fever is what you have, the object of mám, so -a changes to **-u**: horúčk**u**.",
+      "One thing hurts, the throat, so it's **bolí**. Bolia is for more than one: bolia ma zuby."
+    ],
+    "t": [
+      "Температура — то, что у вас есть, дополнение к mám, поэтому -a меняется на **-u**: horúčk**u**.",
+      "Болит одно — горло, поэтому **bolí** (болит). Bolia — для нескольких: bolia ma zuby (болят зубы)."
+    ]
+  },
+  "u9-lekar.listen-necitim-sa-dobre.en": {
+    "en": "I don't feel well, I've got a headache.",
+    "t": "Я плохо себя чувствую, у меня болит голова."
+  },
+  "u9-lekar.rychlo-sa-uzdrav.en": {
+    "en": "Get well soon!",
+    "t": "Выздоравливай скорее!"
+  },
+  "u9-lekar.rychlo-sa-uzdrav.note": {
+    "en": "To someone you call vy: Rýchlo sa **uzdravte**!",
+    "t": "Тому, к кому вы обращаетесь на «вы»: Rýchlo sa **uzdravte**! (Выздоравливайте скорее!)"
+  },
+  "u9-lekar.choice-rychlo-sa-uzdrav.question": {
+    "en": "Tomáš is ill. What do you say to him?",
+    "t": "Томаш болеет. Что вы ему скажете?"
+  },
+  "u9-lekar.build-lekarka-mi-dala.answers": {
+    "en": [
+      "The doctor gave me medicine and a prescription.",
+      "The doctor gave me some medicine and a prescription."
+    ],
+    "t": [
+      "Врач дала мне лекарство и рецепт.",
+      "Мне врач дала лекарство и рецепт.",
+      "Врач дала мне рецепт и лекарство.",
+      "Врач выписала мне лекарство и рецепт."
+    ]
+  },
+  "u9-lekar.build-lekarka-mi-dala.distractors": {
+    "en": [
+      "sold",
+      "pharmacy"
+    ],
+    "t": [
+      "продала",
+      "аптеку"
+    ]
+  },
+  "u9-lekar.speak-boli-ma-hlava.en": {
+    "en": "I've got a headache.",
+    "t": "У меня болит голова."
   },
   "u9-l3.titleEn": {
     "en": "Working on a computer",
@@ -1267,8 +1409,8 @@
     "t": "Как вам понравилась конференция?"
   },
   "u9-l5.ako-sa-vam.note": {
-    "en": "**páčiť sa** = to please: Páči sa **mi**. = I like it (it pleases me). The verb agrees with the thing you like: prednáška sa mi páčil**a**, program sa mi páčil.",
-    "t": "**páčiť sa** = нравиться, и конструкция та же, что в русском: Páči sa **mi**. = Мне нравится. Глагол согласуется с тем, что нравится: prednáška sa mi páčil**a**, program sa mi páčil."
+    "en": "You know Páči sa **mi** from unit 5. In the past, the verb agrees with the thing you like: prednáška sa mi páčil**a**, program sa mi páčil.",
+    "t": "Páči sa **mi** вы знаете из раздела 5. В прошедшем времени глагол согласуется с тем, что нравится, как и в русском: prednáška sa mi páčil**a**, program sa mi páčil (лекция понравилась, доклад понравился)."
   },
   "u9-l5.build-pacila-sa-mi.prompt": {
     "en": "I liked the lecture.",

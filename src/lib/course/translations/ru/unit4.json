@@ -8,12 +8,14 @@
       "The town",
       "Asking the way",
       "Jobs",
+      "Family",
       "Prices"
     ],
     "t": [
       "Город",
       "Как спросить дорогу",
       "Профессии",
+      "Семья",
       "Цены"
     ]
   },
@@ -21,6 +23,7 @@
     "en": [
       "Nominative plural",
       "Adjectives after je / sú",
+      "Plural possessives: moji, moje",
       "Numbers 2, 3, 4 + nouns",
       "The verb stáť",
       "Plural-only nouns"
@@ -28,6 +31,7 @@
     "t": [
       "Именительный падеж множественного числа",
       "Прилагательные после je / sú",
+      "Притяжательные во множественном числе: moji, moje",
       "Числительные 2, 3, 4 + существительные",
       "Глагол stáť",
       "Существительные только во множественном числе"
@@ -881,9 +885,271 @@
     "en": "A mixed group of men and women counts as men, so it takes the men's plural: Slovák → **Slováci**. Slovenky would mean women only.",
     "t": "Смешанная группа мужчин и женщин — как мужчины, поэтому мужское множественное число: Slovák → **Slováci**. Slovenky — только женщины."
   },
+  "u4-l4.fill-tomas-a-marek-su-veseli.en": {
+    "en": "Tomáš and Marek are cheerful.",
+    "t": "Томаш и Марек весёлые."
+  },
+  "u4-l4.fill-tomas-a-marek-su-veseli.why": {
+    "en": "Tomáš and Marek are men, and in the plural adjectives for men end in **-í**: vesel**í**. Veselé is for women and things, veselý for one man.",
+    "t": "Томаш и Марек — мужчины, а во множественном числе прилагательные к мужчинам оканчиваются на **-í**: vesel**í**. Veselé — для женщин и вещей, veselý — для одного мужчины."
+  },
+  "u4-l4.fill-emma-a-lucia-su-mile.en": {
+    "en": "Emma and Lucia are kind.",
+    "t": "Эмма и Луция милые."
+  },
+  "u4-l4.fill-emma-a-lucia-su-mile.why": {
+    "en": "Women follow the pattern of things, so in the plural the adjective ends in **-é**: mil**é**. Milí is for men, milá for one woman.",
+    "t": "Женщины во множественном числе изменяются как вещи, поэтому прилагательное на **-é**: mil**é**. Milí — для мужчин, milá — для одной женщины."
+  },
+  "u4-l4.choice-aki-su-marek.question": {
+    "en": "Which answer fits the question?",
+    "t": "Какой ответ подходит к вопросу?"
+  },
+  "u4-l4.choice-aki-su-marek.why": {
+    "en": "Marek and Peter are men, so the adjectives take the men's plural **-í**, like the question's ak**í**: siln**í**, vesel**í**. Je silný is about one man.",
+    "t": "Марек и Петер — мужчины, поэтому у прилагательных мужское множественное **-í**, как в вопросе ak**í**: siln**í**, vesel**í**. Je silný — об одном мужчине."
+  },
+  "u4-l4.build-lucia-a-tomas-su.prompt": {
+    "en": "Lucia and Tomáš are cheerful and kind.",
+    "t": "Луция и Томаш весёлые и милые."
+  },
+  "u4-l4.build-lucia-a-tomas-su.traps": {
+    "en": [
+      "A mixed group of men and women counts as men, so the adjective takes the men's plural **-í**: vesel**í**.",
+      "Lucia and Tomáš are two people, oni, so byť is **sú**. Je is for one person."
+    ],
+    "t": [
+      "Смешанная группа мужчин и женщин считается как мужчины, поэтому прилагательное на **-í**: vesel**í**. Veselé — только для женщин и вещей.",
+      "Луция и Томаш — двое, oni, поэтому byť — **sú**. Je — для одного человека."
+    ]
+  },
   "u4-l4.speak-tie-mosty-su.en": {
     "en": "Those bridges are new.",
     "t": "Те мосты новые."
+  },
+  "u4-rodina.titleEn": {
+    "en": "My family",
+    "t": "Моя семья"
+  },
+  "u4-rodina.moja-rodina.en": {
+    "en": "my family",
+    "t": "моя семья"
+  },
+  "u4-rodina.moja-rodina.note": {
+    "en": "Emma is showing Lucia photos of her family in Ireland. **rodina** = family.",
+    "t": "Эмма показывает Луции фотографии своей семьи в Ирландии. **rodina** = семья (ср. «родня»)."
+  },
+  "u4-rodina.mama-a-otec.en": {
+    "en": "mum and dad",
+    "t": "мама и папа"
+  },
+  "u4-rodina.mama-a-otec.note": {
+    "en": "Together they're your **rodičia** (parents), a plural word: To sú moji rodičia.",
+    "t": "Вместе это **rodičia** (родители), слово во множественном числе: To sú moji rodičia."
+  },
+  "u4-rodina.brat-a-sestra.en": {
+    "en": "brother and sister",
+    "t": "брат и сестра"
+  },
+  "u4-rodina.brat-a-sestra.note": {
+    "en": "Brothers and sisters together are **súrodenci** (siblings).",
+    "t": "Братья и сёстры вместе называются одним словом — **súrodenci**."
+  },
+  "u4-rodina.match-mama.pairs": {
+    "en": [
+      "mum",
+      "dad",
+      "brother",
+      "sister",
+      "family"
+    ],
+    "t": [
+      "мама",
+      "папа",
+      "брат",
+      "сестра",
+      "семья"
+    ]
+  },
+  "u4-rodina.fill-lucia-je-marekova.en": {
+    "en": "Lucia is Marek's sister.",
+    "t": "Луция — сестра Марека."
+  },
+  "u4-rodina.fill-lucia-je-marekova.why": {
+    "en": "Marek's takes the gender of what it describes. Sestra is feminine, so it ends in **-a**: Marekov**a**. Marekov goes with a masculine word: Marekov brat.",
+    "t": "Marekov (Марека) согласуется в роде с тем, к чему относится, как наше «мамин — мамина». Sestra — женского рода, поэтому **-a**: Marekov**a**. Marekov — с мужским родом: Marekov brat."
+  },
+  "u4-rodina.syn-a-dcera.en": {
+    "en": "son and daughter",
+    "t": "сын и дочь"
+  },
+  "u4-rodina.syn-a-dcera.note": {
+    "en": "A child is **dieťa**, children are **deti**.",
+    "t": "Ребёнок — **dieťa** (ср. «дитя»), дети — **deti**."
+  },
+  "u4-rodina.grammar-my-parents-moji.title": {
+    "en": "My parents: moji, moje",
+    "t": "Мои родители: moji, moje"
+  },
+  "u4-rodina.grammar-my-parents-moji.body": {
+    "en": [
+      "In the plural, môj, tvoj and náš work like tí and tie: **moji** for men or a mixed group, **moje** for women and things.",
+      "Some family words have their own plurals: brat → **bratia**, syn → **synovia**, dieťa → **deti**."
+    ],
+    "t": [
+      "Во множественном числе môj, tvoj и náš изменяются как tí и tie: **moji** — для мужчин или смешанной группы, **moje** — для женщин и вещей. В русском на всех одно «мои».",
+      "У некоторых слов о семье своё множественное число: brat → **bratia** (ср. «братья»), syn → **synovia**, dieťa → **deti**."
+    ]
+  },
+  "u4-rodina.grammar-my-parents-moji.table.head": {
+    "en": [
+      "one",
+      "more than one"
+    ],
+    "t": [
+      "один",
+      "несколько"
+    ]
+  },
+  "u4-rodina.grammar-my-parents-moji.table.rows": {
+    "en": [
+      [
+        "môj brat",
+        "**moji** brat**ia**"
+      ],
+      [
+        "môj syn",
+        "**moji** syn**ovia**"
+      ],
+      [
+        "moja sestra",
+        "**moje** sestr**y**"
+      ],
+      [
+        "moja dcéra",
+        "**moje** dcér**y**"
+      ],
+      [
+        "moje dieťa",
+        "**moje** deti"
+      ]
+    ],
+    "t": [
+      [
+        "môj brat",
+        "**moji** brat**ia**"
+      ],
+      [
+        "môj syn",
+        "**moji** syn**ovia**"
+      ],
+      [
+        "moja sestra",
+        "**moje** sestr**y**"
+      ],
+      [
+        "moja dcéra",
+        "**moje** dcér**y**"
+      ],
+      [
+        "moje dieťa",
+        "**moje** deti"
+      ]
+    ]
+  },
+  "u4-rodina.grammar-my-parents-moji.examples": {
+    "en": [
+      "These are my parents.",
+      "Your brothers and sisters are cheerful."
+    ],
+    "t": [
+      "Это мои родители.",
+      "Твои братья и сёстры весёлые."
+    ]
+  },
+  "u4-rodina.fill-to-su-moji.en": {
+    "en": "These are my brothers.",
+    "t": "Это мои братья."
+  },
+  "u4-rodina.fill-to-su-moji.why": {
+    "en": "Bratia are men, so “my” takes the men's plural **moji**, like tí. Moje is for women and things, môj for one.",
+    "t": "Bratia — мужчины, поэтому «мои» стоит в мужском множественном числе: **moji**, как tí. Moje — для женщин и вещей, môj — для одного."
+  },
+  "u4-rodina.manzel-a-manzelka.en": {
+    "en": "husband and wife",
+    "t": "муж и жена"
+  },
+  "u4-rodina.manzel-a-manzelka.note": {
+    "en": "Women's surnames add **-ová**: pán Horváth, pani Horváth**ová**. Pani Horváthová's husband is pán Horváth.",
+    "t": "К фамилии женщины добавляется **-ová**: pán Horváth, pani Horváth**ová** (как у нас: Горват — Горватова). Муж госпожи Горватовой — пан Горват."
+  },
+  "u4-rodina.zenaty-vydata.en": {
+    "en": "married (of a man / of a woman)",
+    "t": "женатый / замужняя"
+  },
+  "u4-rodina.zenaty-vydata.note": {
+    "en": "Slovak has a word for each: a man is **ženatý**, a woman **vydatá**. Single: **slobodný**, **slobodná**.",
+    "t": "Как и в русском, у каждого своё слово: мужчина **ženatý** (женат), женщина **vydatá** (замужем, ср. «выдать замуж»). Не в браке: **slobodný**, **slobodná**."
+  },
+  "u4-rodina.choice-tomas-nie-je.question": {
+    "en": "Tomáš isn't married. What does he say?",
+    "t": "Томаш не женат. Что он скажет?"
+  },
+  "u4-rodina.choice-tomas-nie-je.why": {
+    "en": "A married man is **ženatý**, so Tomáš says nie som ženatý. Vydatá is only for women, and nie som slobodný means “I'm not single”.",
+    "t": "Женатый мужчина — **ženatý**, поэтому Томаш говорит nie som ženatý. Vydatá — только о женщине (замужем), а nie som slobodný значит «я не холост»."
+  },
+  "u4-rodina.build-moji-rodicia-su.prompt": {
+    "en": "My parents are from Ireland.",
+    "t": "Мои родители из Ирландии."
+  },
+  "u4-rodina.build-moji-rodicia-su.traps": {
+    "en": [
+      "Mum and dad together are a mixed group, which counts as men, so “my” is **moji**. Moje goes with women and things: moje sestry.",
+      "Rodičia is plural, oni, so byť is **sú**. Je is for one person."
+    ],
+    "t": [
+      "Мама и папа — смешанная группа, а она считается как мужчины, поэтому «мои» — **moji**. Moje — для женщин и вещей: moje sestry.",
+      "Rodičia — множественное число, oni, поэтому byť — **sú**. Je — для одного человека."
+    ]
+  },
+  "u4-rodina.listen-moja-sestra-je.en": {
+    "en": "My sister is cheerful and kind.",
+    "t": "Моя сестра весёлая и милая."
+  },
+  "u4-rodina.fill-to-su-moje.en": {
+    "en": "These are my sisters.",
+    "t": "Это мои сёстры."
+  },
+  "u4-rodina.fill-to-su-moje.why": {
+    "en": "**Moje** is the plural for women and things, so it goes with sestr**y**. Brothers would take moji: moji bratia. Sestra is just one sister.",
+    "t": "**Moje** — множественное число для женщин и вещей, поэтому подходит sestr**y**. С братьями было бы moji: moji bratia. Sestra — одна сестра."
+  },
+  "u4-rodina.build-pani-horvathova-je.answers": {
+    "en": [
+      "Mrs Horváthová is married and her son is a journalist.",
+      "Mrs Horváthová is married and her son is a reporter."
+    ],
+    "t": [
+      "Госпожа Горватова замужем, и её сын журналист.",
+      "Госпожа Горватова замужем, а её сын журналист.",
+      "Госпожа Горватова замужем, её сын журналист.",
+      "Госпожа Горватова замужем, и сын у неё журналист."
+    ]
+  },
+  "u4-rodina.build-pani-horvathova-je.distractors": {
+    "en": [
+      "single",
+      "daughter"
+    ],
+    "t": [
+      "женат",
+      "дочь"
+    ]
+  },
+  "u4-rodina.speak-to-je-moja.en": {
+    "en": "This is my family.",
+    "t": "Это моя семья."
   },
   "u4-l5.titleEn": {
     "en": "Two, three, four",

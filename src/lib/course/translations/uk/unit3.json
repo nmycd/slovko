@@ -6,12 +6,14 @@
   "u3.topics": {
     "en": [
       "The dormitory",
+      "Describing people",
       "Rooms and furniture",
       "Where is it?",
       "Opposites"
     ],
     "t": [
       "Гуртожиток",
+      "Опис людей",
       "Кімнати й меблі",
       "Де це?",
       "Протилежності"
@@ -424,6 +426,156 @@
   "u3-l2.speak-izba-je-velka.en": {
     "en": "The room is big and nice.",
     "t": "Кімната велика й гарна."
+  },
+  "u3-aky-je.titleEn": {
+    "en": "What are people like?",
+    "t": "Яка це людина?"
+  },
+  "u3-aky-je.aky-je-tomas.en": {
+    "en": "What's Tomáš like?",
+    "t": "Який Томаш? (яка він людина)"
+  },
+  "u3-aky-je.aky-je-tomas.note": {
+    "en": "**Aký?** asks about people too: what they're like as a person. The adjective matches the person: Tomáš je mil**ý**, Lucia je mil**á**.",
+    "t": "**Aký?** питає і про людей: яка це людина, який у неї характер. Прикметник узгоджується з людиною, як «милий, мила»: Tomáš je mil**ý**, Lucia je mil**á**."
+  },
+  "u3-aky-je.vesely-a-smutny.en": {
+    "en": "cheerful and sad",
+    "t": "веселий і сумний"
+  },
+  "u3-aky-je.choice-smutny.question": {
+    "en": "What does “smutný” mean?",
+    "t": "Що означає «smutný»?"
+  },
+  "u3-aky-je.choice-smutny.options": {
+    "en": [
+      "sad",
+      "cheerful",
+      "kind"
+    ],
+    "t": [
+      "сумний",
+      "веселий",
+      "милий"
+    ]
+  },
+  "u3-aky-je.mily-a-sympaticky.en": {
+    "en": "kind and likeable",
+    "t": "милий і симпатичний"
+  },
+  "u3-aky-je.mily-a-sympaticky.note": {
+    "en": "**milý** = kind, sweet; **sympatický** = likeable, someone you warm to.",
+    "t": "**milý** = милий, добрий; **sympatický** = симпатичний, тобто приємний: людина, яка викликає симпатію."
+  },
+  "u3-aky-je.fill-lucia-je-vesela.en": {
+    "en": "Lucia is cheerful.",
+    "t": "Луція весела."
+  },
+  "u3-aky-je.fill-lucia-je-vesela.why": {
+    "en": "Lucia is a woman, so the adjective takes the feminine **-á**: vesel**á**. Veselý would be for Tomáš.",
+    "t": "Луція — жінка, тож прикметник має жіноче **-á**: vesel**á**, як «весела». Veselý — для Томаша."
+  },
+  "u3-aky-je.mudry-a-hlupy.en": {
+    "en": "clever and stupid",
+    "t": "розумний і дурний"
+  },
+  "u3-aky-je.mudry-a-hlupy.note": {
+    "en": "After a long syllable (mú-, hlú-) the ending is short: múdr**y**, and for a woman múdr**a**, hlúp**a**.",
+    "t": "Після довгого складу (mú-, hlú-) закінчення коротке: múdr**y**, а про жінку — múdr**a**, hlúp**a**. Múdry — пор. наше «мудрий»."
+  },
+  "u3-aky-je.silny-a-slaby.en": {
+    "en": "strong and weak",
+    "t": "сильний і слабкий"
+  },
+  "u3-aky-je.silny-a-slaby.note": {
+    "en": "Two more opposites: **rýchly – pomalý** (fast – slow). Rýchly has a short ending too: rýchl**a**.",
+    "t": "Ще одна пара протилежностей: **rýchly – pomalý** (швидкий – повільний). Rýchly теж має коротке закінчення: rýchl**a**."
+  },
+  "u3-aky-je.match-vesely.pairs": {
+    "en": [
+      "cheerful",
+      "sad",
+      "clever",
+      "strong",
+      "slow"
+    ],
+    "t": [
+      "веселий",
+      "сумний",
+      "розумний",
+      "сильний",
+      "повільний"
+    ]
+  },
+  "u3-aky-je.fill-pani-horvathova-je-mudra.en": {
+    "en": "Mrs Horváthová is clever.",
+    "t": "Пані Горватова розумна."
+  },
+  "u3-aky-je.fill-pani-horvathova-je-mudra.why": {
+    "en": "Pani Horváthová is a woman, so the adjective is feminine: **múdra**, with a short -a after the long ú.",
+    "t": "Пані Горватова — жінка, тож прикметник жіночого роду: **múdra**, з коротким -a після довгого ú."
+  },
+  "u3-aky-je.fill-marek-je-mily.en": {
+    "en": "Marek is kind and likeable.",
+    "t": "Марек милий і симпатичний."
+  },
+  "u3-aky-je.fill-marek-je-mily.why": {
+    "en": "Marek is a man, so the adjective takes the masculine **-ý**, just like sympatick**ý** after it: mil**ý**.",
+    "t": "Марек — чоловік, тож прикметник має чоловіче **-ý**, так само як sympatick**ý** після нього: mil**ý**, «милий»."
+  },
+  "u3-aky-je.build-emma-je-vesela.prompt": {
+    "en": "Emma is cheerful and kind.",
+    "t": "Емма весела й мила."
+  },
+  "u3-aky-je.build-emma-je-vesela.traps": {
+    "en": [
+      "Emma is a woman, so the adjective takes the feminine **-á**: vesel**á**. Veselý is for a man.",
+      "Emma is a woman, so it's **milá**. Milé is the neuter form, for words like auto."
+    ],
+    "t": [
+      "Емма — жінка, тож прикметник має жіноче **-á**: vesel**á**, як «весела». Veselý — про чоловіка.",
+      "Емма — жінка, тож **milá**, «мила». Milé — середній рід, для слів на кшталт auto."
+    ]
+  },
+  "u3-aky-je.listen-tomas-je-silny.en": {
+    "en": "Tomáš is strong and fast.",
+    "t": "Томаш сильний і швидкий."
+  },
+  "u3-aky-je.choice-emma-nie-je-smutna.question": {
+    "en": "Which sentence is correct?",
+    "t": "Яке речення правильне?"
+  },
+  "u3-aky-je.choice-emma-nie-je-smutna.why": {
+    "en": "Emma is a woman, so the adjective is **smutná**, and for one person byť is **je**: nie je. Smutný is masculine; nie sú is for oni.",
+    "t": "Емма — жінка, тож прикметник — **smutná**, а для однієї особи byť — **je**: nie je. Smutný — чоловічий рід, nie sú — для oni."
+  },
+  "u3-aky-je.build-aky-je-pan.answers": {
+    "en": [
+      "What's Mr Kováč like? He's kind and strong.",
+      "What is Mr Kováč like? He is kind and strong.",
+      "What's Mr Kováč like? He's nice and strong.",
+      "What is Mr Kováč like? He is nice and strong."
+    ],
+    "t": [
+      "Який пан Ковач? Він милий і сильний.",
+      "Який пан Ковач? Милий і сильний.",
+      "Який пан Ковач? Він сильний і милий.",
+      "Який пан Ковач? Сильний і милий."
+    ]
+  },
+  "u3-aky-je.build-aky-je-pan.distractors": {
+    "en": [
+      "weak",
+      "She's"
+    ],
+    "t": [
+      "слабкий",
+      "Вона"
+    ]
+  },
+  "u3-aky-je.speak-aky-je-tomas.en": {
+    "en": "What's Tomáš like? He's kind.",
+    "t": "Який Томаш? Він милий."
   },
   "u3-l3.titleEn": {
     "en": "In the room",

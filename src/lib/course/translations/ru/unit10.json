@@ -21,11 +21,13 @@
     "en": [
       "The cases at a glance",
       "Present vs past",
+      "Future: budem",
       "Review of A1"
     ],
     "t": [
       "Обзор падежей",
       "Настоящее и прошедшее время",
+      "Будущее время: budem",
       "Повторение уровня A1"
     ]
   },
@@ -975,6 +977,286 @@
   "u10-l4.speak-vcera-sme-boli.en": {
     "en": "Yesterday we were at the cinema.",
     "t": "Вчера мы были в кино."
+  },
+  "u10-budem.titleEn": {
+    "en": "Tomorrow: the future",
+    "t": "Завтра: будущее время"
+  },
+  "u10-budem.grammar-byt-future-budem.title": {
+    "en": "Byť in the future: budem",
+    "t": "Byť в будущем времени: budem"
+  },
+  "u10-budem.grammar-byt-future-budem.body": {
+    "en": [
+      "Byť has its own future forms: **budem**, **budeš**, **bude**… Zajtra budem doma. = I'll be at home tomorrow.",
+      "Say no with **ne-**, as one word: **ne**budem. Only the present of byť takes a separate nie: nie som."
+    ],
+    "t": [
+      "У byť свои формы будущего времени: **budem**, **budeš**, **bude**… — как «буду, будешь, будет». Zajtra budem doma. = Завтра я буду дома.",
+      "Отрицание — **ne-**, слитно, в отличие от нашего «не буду»: **ne**budem. Отдельное nie бывает только в настоящем времени byť: nie som."
+    ]
+  },
+  "u10-budem.grammar-byt-future-budem.table.head": {
+    "en": [
+      "",
+      "now",
+      "later"
+    ],
+    "t": [
+      "",
+      "сейчас",
+      "потом"
+    ]
+  },
+  "u10-budem.grammar-byt-future-budem.table.rows": {
+    "en": [
+      [
+        "ja",
+        "som",
+        "**budem**"
+      ],
+      [
+        "ty",
+        "si",
+        "**budeš**"
+      ],
+      [
+        "on, ona, ono",
+        "je",
+        "**bude**"
+      ],
+      [
+        "my",
+        "sme",
+        "**budeme**"
+      ],
+      [
+        "vy",
+        "ste",
+        "**budete**"
+      ],
+      [
+        "oni, ony",
+        "sú",
+        "**budú**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "som",
+        "**budem**"
+      ],
+      [
+        "ty",
+        "si",
+        "**budeš**"
+      ],
+      [
+        "on, ona, ono",
+        "je",
+        "**bude**"
+      ],
+      [
+        "my",
+        "sme",
+        "**budeme**"
+      ],
+      [
+        "vy",
+        "ste",
+        "**budete**"
+      ],
+      [
+        "oni, ony",
+        "sú",
+        "**budú**"
+      ]
+    ]
+  },
+  "u10-budem.grammar-byt-future-budem.examples": {
+    "en": [
+      "I'll be at home tomorrow.",
+      "Where will you be in the summer?",
+      "The weather will be nice at the weekend."
+    ],
+    "t": [
+      "Завтра я буду дома.",
+      "Где ты будешь летом?",
+      "На выходных будет хорошая погода."
+    ]
+  },
+  "u10-budem.fill-vcera-som-bola.en": {
+    "en": "Yesterday I was at home, today I'm at school, and tomorrow I'll be at the cinema.",
+    "t": "Вчера я была дома, сегодня я в школе, а завтра буду в кино."
+  },
+  "u10-budem.fill-vcera-som-bola.why": {
+    "en": "Zajtra (tomorrow) is still to come, and the future of byť for ja is **budem**. Som is now, bola som was yesterday.",
+    "t": "Zajtra (завтра) ещё впереди, а будущее время byť для ja — **budem**, «буду». Som — сейчас, bola som — вчера."
+  },
+  "u10-budem.fill-tomas-bude-cez.en": {
+    "en": "Tomáš will be in Košice at the weekend.",
+    "t": "На выходных Томаш будет в Кошице."
+  },
+  "u10-budem.fill-tomas-bude-cez.why": {
+    "en": "Tomáš is **on**, and the on form of the future is **bude**. Budú is oni, budem ja.",
+    "t": "Томаш — **on**, а будущее время для on — **bude** (будет). Budú — для oni, budem — для ja."
+  },
+  "u10-budem.build-cez-vikend-nebudeme.prompt": {
+    "en": "We won't be at home at the weekend.",
+    "t": "На выходных мы не будем дома."
+  },
+  "u10-budem.build-cez-vikend-nebudeme.traps": {
+    "en": [
+      "The weekend is still to come, so byť takes its future form, with ne- in front: **nebudeme**. Sme is now.",
+      "“We” is my, so the future is budeme, and not makes it **nebudeme**. Budú is oni."
+    ],
+    "t": [
+      "Выходные ещё впереди, поэтому byť стоит в будущем времени, с ne- впереди: **nebudeme** (не будем). Sme — сейчас.",
+      "«Мы» — это my, поэтому будущее — budeme, а с отрицанием, слитно, — **nebudeme**. Budú — для oni."
+    ]
+  },
+  "u10-budem.grammar-budem-infinitive.title": {
+    "en": "budem + infinitive: will be doing",
+    "t": "budem + инфинитив: буду делать"
+  },
+  "u10-budem.grammar-budem-infinitive.body": {
+    "en": [
+      "For most verbs, the future is **budem** + the infinitive (the -ť form): Budem pracovať. = I'll be working.",
+      "Verbs like kúpiť, prísť, zavolať or stretnúť sa already point to the future on their own (Kúpim chlieb. Zavolám ti.), so they never take budem.",
+      "**Ísť** has its own future: **pôjdem**, pôjdeš, pôjde… Pôjdem domov. = I'll go home. Never budem ísť."
+    ],
+    "t": [
+      "У большинства глаголов будущее время — это **budem** + инфинитив (форма на -ť), точно как у нас: Budem pracovať. = Я буду работать.",
+      "Глаголы совершенного вида, как kúpiť, prísť, zavolať или stretnúť sa, сами указывают на будущее (Kúpim chlieb. Zavolám ti.), поэтому с budem их не ставят: «куплю», а не «буду купить».",
+      "**Ísť** имеет своё будущее: **pôjdem**, pôjdeš, pôjde… (ср. «пойду»). Pôjdem domov. = Я пойду домой. Никогда не budem ísť."
+    ]
+  },
+  "u10-budem.grammar-budem-infinitive.table.rows": {
+    "en": [
+      [
+        "ja",
+        "**budem** pracovať"
+      ],
+      [
+        "ty",
+        "**budeš** čítať"
+      ],
+      [
+        "on, ona",
+        "**bude** variť"
+      ],
+      [
+        "my",
+        "**budeme** študovať"
+      ],
+      [
+        "vy",
+        "**budete** písať"
+      ],
+      [
+        "oni",
+        "**budú** spať"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "**budem** pracovať"
+      ],
+      [
+        "ty",
+        "**budeš** čítať"
+      ],
+      [
+        "on, ona",
+        "**bude** variť"
+      ],
+      [
+        "my",
+        "**budeme** študovať"
+      ],
+      [
+        "vy",
+        "**budete** písať"
+      ],
+      [
+        "oni",
+        "**budú** spať"
+      ]
+    ]
+  },
+  "u10-budem.grammar-budem-infinitive.examples": {
+    "en": [
+      "I'll be working tomorrow.",
+      "What will you do at the weekend?"
+    ],
+    "t": [
+      "Завтра я буду работать.",
+      "Что ты будешь делать на выходных?"
+    ]
+  },
+  "u10-budem.fill-vecer-budem-citat.en": {
+    "en": "I'll be reading the paper this evening.",
+    "t": "Вечером я буду читать газету."
+  },
+  "u10-budem.fill-vecer-budem-citat.why": {
+    "en": "After **budem** comes the infinitive, the -ť form: budem **čítať**. Čítam is now, čítala the past.",
+    "t": "После **budem** идёт инфинитив, форма на -ť: budem **čítať**, как «буду читать». Čítam — сейчас, čítala — прошедшее время."
+  },
+  "u10-budem.choice-zajtra-kupim-chlieb.question": {
+    "en": "Which sentence is correct?",
+    "t": "Какое предложение правильное?"
+  },
+  "u10-budem.choice-zajtra-kupim-chlieb.why": {
+    "en": "**Kúpiť** already points to the future on its own: kúpim = I'll buy. It never takes budem. Som kúpil is the past.",
+    "t": "**Kúpiť** — совершенный вид и сам указывает на будущее: kúpim = куплю. С budem его не ставят, как и у нас нельзя «буду купить». Som kúpil — прошедшее время."
+  },
+  "u10-budem.build-vecer-budeme-studovat.prompt": {
+    "en": "We'll be studying in the evening.",
+    "t": "Вечером мы будем заниматься."
+  },
+  "u10-budem.build-vecer-budeme-studovat.traps": {
+    "en": [
+      "“We” is **my**, and the my form is **budeme**. Budú is oni.",
+      "After budeme comes the infinitive, the -ť form: budeme **študovať**. Študujeme is the present."
+    ],
+    "t": [
+      "«Мы» — **my**, а форма для my — **budeme** (будем). Budú — для oni.",
+      "После budeme идёт инфинитив на -ť: budeme **študovať**, как «будем заниматься». Študujeme — настоящее время."
+    ]
+  },
+  "u10-budem.listen-cez-vikend-bude.en": {
+    "en": "Marek will be cooking at the weekend.",
+    "t": "На выходных Марек будет готовить."
+  },
+  "u10-budem.build-zajtra-nebudem-v.answers": {
+    "en": [
+      "Tomorrow I won't be at school, I'll be working.",
+      "I won't be at school tomorrow, I'll be working."
+    ],
+    "t": [
+      "Завтра я не буду в школе, я буду работать.",
+      "Завтра я не буду в школе, буду работать.",
+      "Я завтра не буду в школе, я буду работать.",
+      "Я не буду завтра в школе, я буду работать.",
+      "Завтра меня не будет в школе, я буду работать.",
+      "Завтра меня не будет в школе, буду работать."
+    ]
+  },
+  "u10-budem.build-zajtra-nebudem-v.distractors": {
+    "en": [
+      "was",
+      "study"
+    ],
+    "t": [
+      "была",
+      "учиться"
+    ]
+  },
+  "u10-budem.speak-zajtra-budem-doma.en": {
+    "en": "I'll be at home tomorrow.",
+    "t": "Завтра я буду дома."
   },
   "u10-l5.titleEn": {
     "en": "Emma reads the paper",

@@ -8,12 +8,14 @@
       "Food and drink",
       "Shopping",
       "Colours and clothes",
+      "Likes and free time",
       "A birthday party"
     ],
     "t": [
       "Еда и напитки",
       "Покупки",
       "Цвета и одежда",
+      "Увлечения и свободное время",
       "День рождения"
     ]
   },
@@ -22,6 +24,8 @@
       "Accusative case",
       "Accusative pronouns",
       "Accusative prepositions",
+      "Accusative plural",
+      "mať rád, páči sa mi",
       "The verb ísť",
       "Modal verbs"
     ],
@@ -29,6 +33,8 @@
       "Винительный падеж",
       "Местоимения в винительном падеже",
       "Предлоги с винительным падежом",
+      "Винительный падеж множественного числа",
+      "mať rád, páči sa mi",
       "Глагол ísť",
       "Модальные глаголы"
     ]
@@ -532,6 +538,159 @@
   "u5-l2.speak-hladam-pana-kovaca.en": {
     "en": "I'm looking for Mr Kováč.",
     "t": "Я ищу пана Ковача."
+  },
+  "u5-obchod.titleEn": {
+    "en": "In the shop",
+    "t": "В магазине"
+  },
+  "u5-obchod.obchod.en": {
+    "en": "shop",
+    "t": "магазин"
+  },
+  "u5-obchod.obchod.note": {
+    "en": "Groceries are sold in **potraviny** (a plural-only word, like noviny), medicine in a **lekáreň** (pharmacy), soap and shampoo in a **drogéria**.",
+    "t": "Продукты покупают в магазине **potraviny** (слово только во множественном числе, как noviny), лекарства — в аптеке, **lekáreň** (ср. «лекарь»), а мыло и шампунь — в **drogéria**."
+  },
+  "u5-obchod.ovocie-a-zelenina.en": {
+    "en": "fruit and vegetables",
+    "t": "фрукты и овощи"
+  },
+  "u5-obchod.ovocie-a-zelenina.note": {
+    "en": "Each is one word for many things: **ovocie** (neuter) is all fruit, **zelenina** (feminine) all vegetables.",
+    "t": "Каждое — одно слово в единственном числе для многих вещей: **ovocie** (средний род) — все фрукты, **zelenina** (женский род, ср. «зелень») — все овощи."
+  },
+  "u5-obchod.jablko-a-banan.en": {
+    "en": "an apple and a banana",
+    "t": "яблоко и банан"
+  },
+  "u5-obchod.jablko-a-banan.note": {
+    "en": "Also **pomaranč** (orange) and **hruška** (pear). In the plural: jablk**á**, banán**y**, pomaranč**e**, hrušk**y**.",
+    "t": "Ещё **pomaranč** (апельсин) и **hruška** (груша). Во множественном числе: jablk**á**, banán**y**, pomaranč**e**, hrušk**y**."
+  },
+  "u5-obchod.choice-lekaren.question": {
+    "en": "Which shop sells medicine?",
+    "t": "Где продают лекарства?"
+  },
+  "u5-obchod.zemiaky-a-cibula.en": {
+    "en": "potatoes and an onion",
+    "t": "картошка и лук"
+  },
+  "u5-obchod.zemiaky-a-cibula.note": {
+    "en": "One potato is **zemiak**. Also **paradajka** (tomato) and **paprika** (pepper).",
+    "t": "Одна картофелина — **zemiak**. Ещё **paradajka** (помидор) и **paprika** (перец)."
+  },
+  "u5-obchod.match-jablko.pairs": {
+    "en": [
+      "apple",
+      "banana",
+      "onion",
+      "fruit",
+      "vegetables"
+    ],
+    "t": [
+      "яблоко",
+      "банан",
+      "лук",
+      "фрукты",
+      "овощи"
+    ]
+  },
+  "u5-obchod.build-potrebujem-zemiaky-a.prompt": {
+    "en": "I need potatoes and an onion.",
+    "t": "Мне нужны картошка и лук."
+  },
+  "u5-obchod.build-potrebujem-zemiaky-a.traps": {
+    "en": [
+      "The onion is what you need, the object, so feminine -a changes to **-u**: cibuľ**u**.",
+      "You need more than one potato, so it's the plural: zemiak**y**. Zemiak is one potato."
+    ],
+    "t": [
+      "Лук — то, что нужно, дополнение к potrebujem, а cibuľa женского рода, как «луковица». Поэтому -a меняется на **-u**: cibuľ**u**, как «луковицу».",
+      "Картофелин несколько, поэтому множественное число: zemiak**y**. Zemiak — одна картофелина."
+    ]
+  },
+  "u5-obchod.prosim-si-dve-jablka.en": {
+    "en": "Two apples, please.",
+    "t": "Два яблока, пожалуйста."
+  },
+  "u5-obchod.prosim-si-dve-jablka.note": {
+    "en": "**Prosím si** + the accusative is the polite way to ask for something in a shop or a café: Prosím si kávu.",
+    "t": "**Prosím si** + винительный падеж — вежливая просьба в магазине или кафе, как наше «Попрошу…»: Prosím si kávu."
+  },
+  "u5-obchod.fill-prosim-si-cibulu.en": {
+    "en": "An onion, please.",
+    "t": "Луковицу, пожалуйста."
+  },
+  "u5-obchod.fill-prosim-si-cibulu.why": {
+    "en": "Prosím si takes an object, so it's the accusative: feminine -a changes to **-u**, cibuľa → cibuľ**u**.",
+    "t": "После prosím si — дополнение в винительном падеже, как «попрошу луковицу»: женское -a меняется на **-u**, cibuľa → cibuľ**u**."
+  },
+  "u5-obchod.este-nieco.en": {
+    "en": "Anything else?",
+    "t": "Что-нибудь ещё?"
+  },
+  "u5-obchod.este-nieco.note": {
+    "en": "What the shop assistant asks. If that's all: **Nie, to je všetko.** = No, that's everything.",
+    "t": "Так спрашивает продавец. Если это всё: **Nie, to je všetko.** = Нет, это всё."
+  },
+  "u5-obchod.choice-este-nieco.question": {
+    "en": "The shop assistant asks “Ešte niečo?” You have everything you need. What do you say?",
+    "t": "Продавец спрашивает: «Ešte niečo?» У вас уже есть всё, что нужно. Что вы ответите?"
+  },
+  "u5-obchod.platim-kartou.en": {
+    "en": "I'm paying by card.",
+    "t": "Я плачу картой."
+  },
+  "u5-obchod.platim-kartou.note": {
+    "en": "**platiť** = to pay: platím, platíš, platí… In cash: **Platím v hotovosti.** You pay at the **pokladňa** (till).",
+    "t": "**platiť** = платить: platím, platíš, platí… Kartou — творительный падеж, как «картой». Наличными: **Platím v hotovosti.** Платят на кассе — **pokladňa**."
+  },
+  "u5-obchod.choice-platim-v-hotovosti.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "u5-obchod.choice-platim-v-hotovosti.options": {
+    "en": [
+      "I'm paying in cash.",
+      "I'm paying by card.",
+      "Where's the till?"
+    ],
+    "t": [
+      "Я плачу наличными.",
+      "Я плачу картой.",
+      "Где касса?"
+    ]
+  },
+  "u5-obchod.listen-prosim-si-chlieb.en": {
+    "en": "Bread and two apples, please.",
+    "t": "Хлеб и два яблока, пожалуйста."
+  },
+  "u5-obchod.build-mate-cerstvu-zeleninu.answers": {
+    "en": [
+      "Do you have fresh vegetables?",
+      "Have you got fresh vegetables?"
+    ],
+    "t": [
+      "У вас есть свежие овощи?",
+      "Есть у вас свежие овощи?",
+      "Есть свежие овощи?",
+      "Свежие овощи у вас есть?",
+      "У вас свежие овощи есть?"
+    ]
+  },
+  "u5-obchod.build-mate-cerstvu-zeleninu.distractors": {
+    "en": [
+      "fruit",
+      "need"
+    ],
+    "t": [
+      "фрукты",
+      "нужны"
+    ]
+  },
+  "u5-obchod.speak-platim-kartou.en": {
+    "en": "I'm paying by card.",
+    "t": "Я плачу картой."
   },
   "u5-l3.titleEn": {
     "en": "Colours and clothes",
@@ -1046,6 +1205,481 @@
   "u5-l4.speak-to-je-pre.en": {
     "en": "This is for you.",
     "t": "Это для тебя."
+  },
+  "u5-mnozne.titleEn": {
+    "en": "Plural objects",
+    "t": "Винительный: множественное число"
+  },
+  "u5-mnozne.grammar-plural-objects-things.title": {
+    "en": "Plural objects: things and women",
+    "t": "Множественное число в винительном: вещи и женщины"
+  },
+  "u5-mnozne.grammar-plural-objects-things.body": {
+    "en": [
+      "In the plural, things and women don't change as objects: the accusative is the plural you already know. Kúpim jablká. Mám dve sestry.",
+      "Their adjectives keep **-é** too: Kúpim zelené jablká."
+    ],
+    "t": [
+      "Вещи и женщины во множественном числе в роли дополнения не меняются: винительный совпадает с уже знакомым множественным числом. Kúpim jablká. Mám dve sestry. (В русском так только у вещей: куплю яблоки, но вижу сестёр.)",
+      "Их прилагательные тоже остаются на **-é**: Kúpim zelené jablká."
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-things.table.head": {
+    "en": [
+      "the plural",
+      "as an object"
+    ],
+    "t": [
+      "множественное число",
+      "в роли дополнения"
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-things.table.rows": {
+    "en": [
+      [
+        "jablká",
+        "Kúpim jablká."
+      ],
+      [
+        "paradajky",
+        "Potrebujem paradajky."
+      ],
+      [
+        "nové kamarátky",
+        "Pozývam nové kamarátky."
+      ]
+    ],
+    "t": [
+      [
+        "jablká",
+        "Kúpim jablká."
+      ],
+      [
+        "paradajky",
+        "Potrebujem paradajky."
+      ],
+      [
+        "nové kamarátky",
+        "Pozývam nové kamarátky."
+      ]
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-things.examples": {
+    "en": [
+      "I'll buy green apples and bananas.",
+      "Lucia is inviting her friends."
+    ],
+    "t": [
+      "Я куплю зелёные яблоки и бананы.",
+      "Луция приглашает подруг."
+    ]
+  },
+  "u5-mnozne.fill-kupim-tri-banany.en": {
+    "en": "I'll buy three bananas.",
+    "t": "Я куплю три банана."
+  },
+  "u5-mnozne.fill-kupim-tri-banany.why": {
+    "en": "Bananas are things, and things don't change in the plural as objects: tri banán**y**, just as in Tu sú tri banány. Banánov isn't the object form.",
+    "t": "Бананы — вещи, а вещи во множественном числе в роли дополнения не меняются: tri banán**y**, как в Tu sú tri banány. Banánov — не форма дополнения, хоть и похоже на «бананов»."
+  },
+  "u5-mnozne.grammar-plural-objects-men.title": {
+    "en": "Plural objects: men",
+    "t": "Множественное число в винительном: мужчины"
+  },
+  "u5-mnozne.grammar-plural-objects-men.body": {
+    "en": [
+      "Men are different: as objects they end in **-ov**, and their adjectives in **-ých**: Pozývam nov**ých** kamarát**ov**.",
+      "Tí becomes **tých**, and 2, 3, 4 become **dvoch**, **troch**, **štyroch**: Mám dv**och** brat**ov**."
+    ],
+    "t": [
+      "С мужчинами иначе: в роли дополнения они получают **-ov**, а их прилагательные — **-ých**, почти как в русском: Pozývam nov**ých** kamarát**ov**. = Приглашаю новых друзей.",
+      "Tí превращается в **tých**, а 2, 3, 4 — в **dvoch**, **troch**, **štyroch** (ср. «двоих, троих»): Mám dv**och** brat**ov**."
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-men.table.head": {
+    "en": [
+      "they are…",
+      "I invite…"
+    ],
+    "t": [
+      "они…",
+      "я приглашаю…"
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-men.table.rows": {
+    "en": [
+      [
+        "kamaráti",
+        "kamarát**ov**"
+      ],
+      [
+        "študenti",
+        "študent**ov**"
+      ],
+      [
+        "bratia",
+        "brat**ov**"
+      ],
+      [
+        "tí mladí kuchári",
+        "t**ých** mlad**ých** kuchár**ov**"
+      ],
+      [
+        "dvaja bratia",
+        "dv**och** brat**ov**"
+      ]
+    ],
+    "t": [
+      [
+        "kamaráti",
+        "kamarát**ov**"
+      ],
+      [
+        "študenti",
+        "študent**ov**"
+      ],
+      [
+        "bratia",
+        "brat**ov**"
+      ],
+      [
+        "tí mladí kuchári",
+        "t**ých** mlad**ých** kuchár**ov**"
+      ],
+      [
+        "dvaja bratia",
+        "dv**och** brat**ov**"
+      ]
+    ]
+  },
+  "u5-mnozne.grammar-plural-objects-men.examples": {
+    "en": [
+      "We're inviting our friends.",
+      "I have two brothers.",
+      "I'm looking for those new students."
+    ],
+    "t": [
+      "Мы приглашаем друзей и подруг.",
+      "У меня два брата.",
+      "Я ищу тех новых студентов."
+    ]
+  },
+  "u5-mnozne.fill-na-oslavu-pozyvame.en": {
+    "en": "We're inviting friends to the party.",
+    "t": "Мы приглашаем друзей на вечеринку."
+  },
+  "u5-mnozne.fill-na-oslavu-pozyvame.why": {
+    "en": "The friends are men or a mixed group, and men as objects end in **-ov**: kamarát**ov**. Kamaráti is the subject form, kamaráta just one friend.",
+    "t": "Друзья — мужчины или смешанная группа, а такие слова в роли дополнения получают **-ov**: kamarát**ov**, как «приглашаем студентов». Kamaráti — именительный падеж, kamaráta — один друг."
+  },
+  "u5-mnozne.fill-pan-kovac-ma-dvoch.en": {
+    "en": "Mr Kováč has two sons.",
+    "t": "У пана Ковача два сына."
+  },
+  "u5-mnozne.fill-pan-kovac-ma-dvoch.why": {
+    "en": "Sons are men, and after **dvoch** men take **-ov**: syn**ov**. Synovia is the subject form, syna one son.",
+    "t": "Сыновья — мужчины, и после **dvoch** они получают **-ov**: syn**ov** (ср. «двоих сыновей»). Synovia — именительный падеж, syna — один сын."
+  },
+  "u5-mnozne.fill-marek-hlada-mladych.en": {
+    "en": "Marek is looking for young cooks.",
+    "t": "Марек ищет молодых поваров."
+  },
+  "u5-mnozne.fill-marek-hlada-mladych.why": {
+    "en": "The cooks are men and the object, so their adjective ends in **-ých**: mlad**ých**. Mladí is the subject form, mladé for women and things.",
+    "t": "Повара — мужчины и дополнение, поэтому их прилагательное на **-ých**: mlad**ých**, как «молодых». Mladí — именительный падеж, mladé — для женщин и вещей."
+  },
+  "u5-mnozne.choice-pozyvam-studentov.question": {
+    "en": "Which sentence is correct?",
+    "t": "Какое предложение правильное?"
+  },
+  "u5-mnozne.choice-pozyvam-studentov.why": {
+    "en": "As objects, men take **-ov** (študent**ov**), but women keep their plural (študentk**y**). Študenti is the subject form.",
+    "t": "В роли дополнения мужчины получают **-ov** (študent**ov**, как «студентов»), а женщины сохраняют обычное множественное число (študentk**y**). Študenti — именительный падеж."
+  },
+  "u5-mnozne.build-pozyvame-novych-kamaratov.prompt": {
+    "en": "We're inviting new friends.",
+    "t": "Мы приглашаем новых друзей."
+  },
+  "u5-mnozne.build-pozyvame-novych-kamaratov.traps": {
+    "en": [
+      "The friends are the object, and men's adjectives as objects end in **-ých**: nov**ých**. Noví is the subject form: noví kamaráti.",
+      "The friends are the object, and men as objects end in **-ov**: kamarát**ov**. Kamaráti is the subject form."
+    ],
+    "t": [
+      "Друзья — дополнение, а прилагательное к мужчинам в роли дополнения оканчивается на **-ých**: nov**ých**, как «новых». Noví — именительный падеж: noví kamaráti.",
+      "Друзья — дополнение, а мужчины в роли дополнения получают **-ov**: kamarát**ov**. Kamaráti — именительный падеж."
+    ]
+  },
+  "u5-mnozne.listen-lucia-pozyva-kamaratov.en": {
+    "en": "Lucia is inviting her friends.",
+    "t": "Луция приглашает друзей и подруг."
+  },
+  "u5-mnozne.build-kupim-zelene-jablka.answers": {
+    "en": [
+      "I'll buy green apples and tomatoes.",
+      "I will buy green apples and tomatoes."
+    ],
+    "t": [
+      "Я куплю зелёные яблоки и помидоры.",
+      "Куплю зелёные яблоки и помидоры.",
+      "Я куплю помидоры и зелёные яблоки.",
+      "Я куплю зелёные яблоки и томаты.",
+      "Куплю зелёные яблоки и томаты."
+    ]
+  },
+  "u5-mnozne.build-kupim-zelene-jablka.distractors": {
+    "en": [
+      "red",
+      "potatoes"
+    ],
+    "t": [
+      "красные",
+      "картошку"
+    ]
+  },
+  "u5-mnozne.speak-mam-dvoch-bratov.en": {
+    "en": "I have two brothers.",
+    "t": "У меня два брата."
+  },
+  "u5-mam-rad.titleEn": {
+    "en": "Likes and free time",
+    "t": "Увлечения и свободное время"
+  },
+  "u5-mam-rad.hudba-a-film.en": {
+    "en": "music and film",
+    "t": "музыка и фильм"
+  },
+  "u5-mam-rad.futbal-a-tenis.en": {
+    "en": "football and tennis",
+    "t": "футбол и теннис"
+  },
+  "u5-mam-rad.futbal-a-tenis.note": {
+    "en": "**hrať** = to play: hrám, hráš, hrá… Hráme futbal. = We play football.",
+    "t": "**hrať** = играть: hrám, hráš, hrá… Hráme futbal. = Мы играем в футбол. Обратите внимание: без «в»."
+  },
+  "u5-mam-rad.choice-hudba.question": {
+    "en": "What does “hudba” mean?",
+    "t": "Что значит «hudba»?"
+  },
+  "u5-mam-rad.choice-hudba.options": {
+    "en": [
+      "music",
+      "film",
+      "football"
+    ],
+    "t": [
+      "музыка",
+      "фильм",
+      "футбол"
+    ]
+  },
+  "u5-mam-rad.pocuvat-hudbu.en": {
+    "en": "to listen to music",
+    "t": "слушать музыку"
+  },
+  "u5-mam-rad.pocuvat-hudbu.note": {
+    "en": "počúvam, počúvaš, počúva… The music is the object, so hudba becomes hudb**u**.",
+    "t": "počúvam, počúvaš, počúva… Музыка — дополнение, поэтому hudba становится hudb**u**, как «музыку»."
+  },
+  "u5-mam-rad.tancovat-a-spievat.en": {
+    "en": "to dance and to sing",
+    "t": "танцевать и петь"
+  },
+  "u5-mam-rad.tancovat-a-spievat.note": {
+    "en": "Tancovať goes like študovať: tancuj**em**. Spievať: spievam. And **plávať** = to swim: plávam.",
+    "t": "Tancovať изменяется как študovať: tancuj**em** (ср. «танцую»). Spievať: spievam. А **plávať** = плавать: plávam."
+  },
+  "u5-mam-rad.grammar-mat-rad-like.title": {
+    "en": "mať rád: to like",
+    "t": "mať rád: любить"
+  },
+  "u5-mam-rad.grammar-mat-rad-like.body": {
+    "en": [
+      "You know **mať rád** from Akú farbu máš rada?: rád for a man, rada for a woman, and **radi** for a group. What you like is the object: Mám rád hudb**u**.",
+      "To like doing something, put rád with the verb alone, without mať: **Rád** hrám futbal. = I like playing football."
+    ],
+    "t": [
+      "Выражение **mať rád** вы уже знаете по вопросу Akú farbu máš rada?: rád — для мужчины, rada — для женщины, **radi** — для группы (как «рад, рада, рады»). То, что любят, стоит в винительном: Mám rád hudb**u**.",
+      "Чтобы сказать, что вы любите что-то делать, ставьте rád прямо с глаголом, без mať: **Rád** hrám futbal. = Я люблю играть в футбол."
+    ]
+  },
+  "u5-mam-rad.grammar-mat-rad-like.table.head": {
+    "en": [
+      "",
+      "something",
+      "doing something"
+    ],
+    "t": [
+      "",
+      "что-то",
+      "что-то делать"
+    ]
+  },
+  "u5-mam-rad.grammar-mat-rad-like.table.rows": {
+    "en": [
+      [
+        "Tomáš",
+        "Má **rád** futbal.",
+        "**Rád** hrá futbal."
+      ],
+      [
+        "Lucia",
+        "Má **rada** hudbu.",
+        "**Rada** spieva."
+      ],
+      [
+        "my",
+        "Máme **radi** filmy.",
+        "**Radi** tancujeme."
+      ]
+    ],
+    "t": [
+      [
+        "Tomáš",
+        "Má **rád** futbal.",
+        "**Rád** hrá futbal."
+      ],
+      [
+        "Lucia",
+        "Má **rada** hudbu.",
+        "**Rada** spieva."
+      ],
+      [
+        "my",
+        "Máme **radi** filmy.",
+        "**Radi** tancujeme."
+      ]
+    ]
+  },
+  "u5-mam-rad.grammar-mat-rad-like.examples": {
+    "en": [
+      "I like music. (a man speaking)",
+      "Lucia likes dancing.",
+      "I love you. (a woman speaking)"
+    ],
+    "t": [
+      "Я люблю музыку. (говорит мужчина)",
+      "Луция любит танцевать.",
+      "Я тебя люблю. (говорит женщина)"
+    ]
+  },
+  "u5-mam-rad.fill-lucia-ma-rada.en": {
+    "en": "Lucia likes music.",
+    "t": "Луция любит музыку."
+  },
+  "u5-mam-rad.fill-lucia-ma-rada.why": {
+    "en": "Rád changes with the person who likes: Lucia is a woman, so **rada**. Rád is for a man.",
+    "t": "Rád меняется по тому, кто любит, как «рад — рада»: Луция — женщина, поэтому **rada**. Rád — для мужчины."
+  },
+  "u5-mam-rad.fill-tomas-rad-hra.en": {
+    "en": "Tomáš likes playing tennis.",
+    "t": "Томаш любит играть в теннис."
+  },
+  "u5-mam-rad.fill-tomas-rad-hra.why": {
+    "en": "Tomáš is **on**, so the verb has no ending: **hrá**. Hrám is ja, hrajú is oni.",
+    "t": "Томаш — **on**, поэтому у глагола нет окончания: **hrá** (играет). Hrám — для ja, hrajú — для oni."
+  },
+  "u5-mam-rad.choice-rada-tancujem.question": {
+    "en": "How does Emma say “I like dancing”?",
+    "t": "Как Эмма скажет «Я люблю танцевать»?"
+  },
+  "u5-mam-rad.choice-rada-tancujem.why": {
+    "en": "To like doing something, rád goes with the verb alone, without mám. Emma is a woman, so it's **rada** tancujem.",
+    "t": "Когда любят что-то делать, rád ставят прямо с глаголом, без mám. Эмма — женщина, поэтому **rada** tancujem, дословно «рада, танцую»."
+  },
+  "u5-mam-rad.build-mas-rad-futbal.prompt": {
+    "en": "Do you like football? (to a male friend)",
+    "t": "Ты любишь футбол? (к мужчине)"
+  },
+  "u5-mam-rad.build-mas-rad-futbal.traps": {
+    "en": [
+      "You're asking a man, so it's **rád**. You'd ask a woman: Máš rada futbal?",
+      "You're asking a friend, **ty**, so mať is **máš**. Mám is the ja form, I have."
+    ],
+    "t": [
+      "Вы спрашиваете мужчину, поэтому **rád**. Женщину спросили бы: Máš rada futbal?",
+      "Вы спрашиваете друга, на «ты», поэтому mať — **máš**. Mám — форма для ja, «у меня есть»."
+    ]
+  },
+  "u5-mam-rad.grammar-paci-sa-mi.title": {
+    "en": "Páči sa mi: I like it",
+    "t": "Páči sa mi: мне нравится"
+  },
+  "u5-mam-rad.grammar-paci-sa-mi.body": {
+    "en": [
+      "For what you see or hear, Slovak often says **Páči sa mi** (it pleases me). The thing you like is the subject: Páči sa mi tvoj sveter. For more than one thing: **Páčia** sa mi.",
+      "Say no with ne-: **Nepáči** sa mi. To ask a friend: Páči sa **ti**…?"
+    ],
+    "t": [
+      "О том, что вы видите или слышите, по-словацки часто говорят **Páči sa mi** — точно как «мне нравится». То, что нравится, — подлежащее: Páči sa mi tvoj sveter. Если вещей несколько: **Páčia** sa mi.",
+      "Отрицание — с ne-: **Nepáči** sa mi. Спросить друга: Páči sa **ti**…?"
+    ]
+  },
+  "u5-mam-rad.grammar-paci-sa-mi.examples": {
+    "en": [
+      "I like your skirt.",
+      "I like those colours.",
+      "Do you like Bratislava?"
+    ],
+    "t": [
+      "Мне нравится твоя юбка.",
+      "Мне нравятся эти цвета.",
+      "Тебе нравится Братислава?"
+    ]
+  },
+  "u5-mam-rad.fill-paci-sa-mi-tvoje.en": {
+    "en": "I like your T-shirt.",
+    "t": "Мне нравится твоя футболка."
+  },
+  "u5-mam-rad.fill-paci-sa-mi-tvoje.why": {
+    "en": "The thing you like is the subject. Tričko is one thing, so it's **páči**; páčia is for more than one.",
+    "t": "То, что нравится, — подлежащее, как и в русском. Tričko — одна вещь, поэтому **páči** (нравится); páčia — для нескольких (нравятся)."
+  },
+  "u5-mam-rad.listen-nepaci-sa-mi.en": {
+    "en": "I don't like that film.",
+    "t": "Мне не нравится этот фильм."
+  },
+  "u5-mam-rad.build-emma-rada-plava.answers": {
+    "en": [
+      "Emma likes swimming and listening to music.",
+      "Emma likes to swim and listen to music."
+    ],
+    "t": [
+      "Эмма любит плавать и слушать музыку.",
+      "Эмме нравится плавать и слушать музыку.",
+      "Эмма любит слушать музыку и плавать.",
+      "Эмме нравится слушать музыку и плавать."
+    ]
+  },
+  "u5-mam-rad.build-emma-rada-plava.distractors": {
+    "en": [
+      "dancing",
+      "reads"
+    ],
+    "t": [
+      "танцевать",
+      "читать"
+    ]
+  },
+  "u5-mam-rad.match-hudba.pairs": {
+    "en": [
+      "music",
+      "to play",
+      "to swim",
+      "to sing",
+      "to dance"
+    ],
+    "t": [
+      "музыка",
+      "играть",
+      "плавать",
+      "петь",
+      "танцевать"
+    ]
+  },
+  "u5-mam-rad.speak-rad-pocuvam-hudbu.en": {
+    "en": "I like listening to music.",
+    "t": "Я люблю слушать музыку."
   },
   "u5-l5.titleEn": {
     "en": "Go, want, must",

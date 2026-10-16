@@ -25,7 +25,13 @@ export type Topic =
   | "computer"
   | "forms"
   | "media"
-  | "weather";
+  | "weather"
+  | "phone"
+  | "people"
+  | "family"
+  | "shopping"
+  | "hobbies"
+  | "health";
 
 export type WordTags = {
   /** A word's part of speech (a noun phrase is a noun); "expression" for a greeting, question or sentence. */
@@ -59,6 +65,12 @@ export const topics: readonly Topic[] = [
   "forms",
   "media",
   "weather",
+  "phone",
+  "people",
+  "family",
+  "shopping",
+  "hobbies",
+  "health",
 ];
 
 const noun = (gender: "m" | "f" | "n" | null, topic: Topic, plural?: true): WordTags => ({
@@ -102,6 +114,12 @@ export const lexicon: Record<string, WordTags> = {
   "som írka": say("about-me"),
   "koľko máš rokov": say("about-me", "informal"),
   "mám dvadsaťpäť rokov": say("about-me"),
+  haló: say("phone"),
+  "tu je emma": say("phone"),
+  telefonovať: { pos: "verb", topic: "phone" },
+  "telefónne číslo": noun("n", "phone"),
+  "zavolám ti": say("phone", "informal"),
+  dopočutia: say("phone"),
 
   // Unit 3
   izba: noun("f", "home"),
@@ -121,6 +139,11 @@ export const lexicon: Record<string, WordTags> = {
   chodba: noun("f", "home"),
   obývačka: noun("f", "home"),
   spálňa: noun("f", "home"),
+  "aký je tomáš": say("people"),
+  "veselý a smutný": { pos: "adjective", topic: "people" },
+  "milý a sympatický": { pos: "adjective", topic: "people" },
+  "múdry a hlúpy": { pos: "adjective", topic: "people" },
+  "silný a slabý": { pos: "adjective", topic: "people" },
 
   // Unit 4
   mesto: noun("n", "town"),
@@ -141,6 +164,12 @@ export const lexicon: Record<string, WordTags> = {
   novinár: noun("m", "jobs"),
   šofér: noun("m", "jobs"),
   dôchodca: noun("m", "jobs"),
+  "moja rodina": noun("f", "family"),
+  "mama a otec": noun(null, "family"),
+  "brat a sestra": noun(null, "family"),
+  "syn a dcéra": noun(null, "family"),
+  "manžel a manželka": noun(null, "family"),
+  "ženatý / vydatá": { pos: "adjective", topic: "family" },
 
   // Unit 5
   "chlieb a maslo": noun(null, "food"),
@@ -148,9 +177,19 @@ export const lexicon: Record<string, WordTags> = {
   "káva a minerálka": noun(null, "food"),
   "koľko stojí šunka": say("food"),
   "kúpim čerstvý chlieb": say("food"),
+  obchod: noun("m", "shopping"),
+  "ovocie a zelenina": noun(null, "food"),
+  "jablko a banán": noun(null, "food"),
+  "zemiaky a cibuľa": noun(null, "food"),
+  "ešte niečo": say("shopping"),
+  "platím kartou": say("shopping"),
   "tričko a sveter": noun(null, "clothes"),
   "sukňa a košeľa": noun(null, "clothes"),
   "chcem čierne tričko": say("clothes"),
+  "hudba a film": noun(null, "hobbies"),
+  "futbal a tenis": noun("m", "hobbies"),
+  "počúvať hudbu": { pos: "verb", topic: "hobbies" },
+  "tancovať a spievať": { pos: "verb", topic: "hobbies" },
   darček: noun("m", "celebrations"),
   "všetko najlepšie": say("celebrations"),
   "torta a sviečky": noun(null, "celebrations"),
@@ -208,12 +247,21 @@ export const lexicon: Record<string, WordTags> = {
   pozajtra: { pos: "adverb", topic: "time" },
   "v lete": { pos: "adverb", topic: "time" },
   "v zime": { pos: "adverb", topic: "time" },
+  "jar a jeseň": noun("f", "time"),
+  "týždeň a mesiac": noun("m", "time"),
+  "minúta a sekunda": noun("f", "time"),
 
   // Unit 9
   konferencia: noun("f", "work"),
   pozvánka: noun("f", "work"),
   prihláška: noun("f", "forms"),
   "prestávka na kávu": noun("f", "work"),
+  "necítim sa dobre": say("health"),
+  "bolí ma hlava": say("health"),
+  "som chorá": say("health"),
+  "mám horúčku": say("health"),
+  liek: noun("m", "health"),
+  "rýchlo sa uzdrav": say("health", "informal"),
   súbor: noun("m", "computer"),
   otvoriť: { pos: "verb", topic: "computer" },
   uložiť: { pos: "verb", topic: "computer" },

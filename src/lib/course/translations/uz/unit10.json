@@ -21,11 +21,13 @@
     "en": [
       "The cases at a glance",
       "Present vs past",
+      "Future: budem",
       "Review of A1"
     ],
     "t": [
       "Kelishiklar bir qarashda",
       "Hozirgi va oʻtgan zamon",
+      "Kelasi zamon: budem",
       "A1 boʻyicha takrorlash"
     ]
   },
@@ -976,6 +978,284 @@
   "u10-l4.speak-vcera-sme-boli.en": {
     "en": "Yesterday we were at the cinema.",
     "t": "Kecha kinoda boʻldik."
+  },
+  "u10-budem.titleEn": {
+    "en": "Tomorrow: the future",
+    "t": "Ertaga: kelasi zamon"
+  },
+  "u10-budem.grammar-byt-future-budem.title": {
+    "en": "Byť in the future: budem",
+    "t": "Byť kelasi zamonda: budem"
+  },
+  "u10-budem.grammar-byt-future-budem.body": {
+    "en": [
+      "Byť has its own future forms: **budem**, **budeš**, **bude**… Zajtra budem doma. = I'll be at home tomorrow.",
+      "Say no with **ne-**, as one word: **ne**budem. Only the present of byť takes a separate nie: nie som."
+    ],
+    "t": [
+      "Byť (boʻlmoq) feʼlining oʻz kelasi zamon shakllari bor: **budem**, **budeš**, **bude**… Zajtra budem doma. = Ertaga uyda boʻlaman.",
+      "Inkor **ne-** bilan yasaladi va qoʻshib yoziladi: **ne**budem (boʻlmayman). Alohida nie faqat hozirgi zamondagi byť bilan keladi: nie som."
+    ]
+  },
+  "u10-budem.grammar-byt-future-budem.table.head": {
+    "en": [
+      "",
+      "now",
+      "later"
+    ],
+    "t": [
+      "",
+      "hozir",
+      "keyin"
+    ]
+  },
+  "u10-budem.grammar-byt-future-budem.table.rows": {
+    "en": [
+      [
+        "ja",
+        "som",
+        "**budem**"
+      ],
+      [
+        "ty",
+        "si",
+        "**budeš**"
+      ],
+      [
+        "on, ona, ono",
+        "je",
+        "**bude**"
+      ],
+      [
+        "my",
+        "sme",
+        "**budeme**"
+      ],
+      [
+        "vy",
+        "ste",
+        "**budete**"
+      ],
+      [
+        "oni, ony",
+        "sú",
+        "**budú**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "som",
+        "**budem**"
+      ],
+      [
+        "ty",
+        "si",
+        "**budeš**"
+      ],
+      [
+        "on, ona, ono",
+        "je",
+        "**bude**"
+      ],
+      [
+        "my",
+        "sme",
+        "**budeme**"
+      ],
+      [
+        "vy",
+        "ste",
+        "**budete**"
+      ],
+      [
+        "oni, ony",
+        "sú",
+        "**budú**"
+      ]
+    ]
+  },
+  "u10-budem.grammar-byt-future-budem.examples": {
+    "en": [
+      "I'll be at home tomorrow.",
+      "Where will you be in the summer?",
+      "The weather will be nice at the weekend."
+    ],
+    "t": [
+      "Ertaga uyda boʻlaman.",
+      "Yozda qayerda boʻlasan?",
+      "Dam olish kunlari havo yaxshi boʻladi."
+    ]
+  },
+  "u10-budem.fill-vcera-som-bola.en": {
+    "en": "Yesterday I was at home, today I'm at school, and tomorrow I'll be at the cinema.",
+    "t": "Kecha uyda edim, bugun maktabdaman, ertaga esa kinoteatrda boʻlaman."
+  },
+  "u10-budem.fill-vcera-som-bola.why": {
+    "en": "Zajtra (tomorrow) is still to come, and the future of byť for ja is **budem**. Som is now, bola som was yesterday.",
+    "t": "Zajtra (ertaga) hali oldinda, byť feʼlining ja uchun kelasi zamon shakli esa **budem** (boʻlaman). Som — hozir, bola som — kecha."
+  },
+  "u10-budem.fill-tomas-bude-cez.en": {
+    "en": "Tomáš will be in Košice at the weekend.",
+    "t": "Dam olish kunlari Tomash Koshitseda boʻladi."
+  },
+  "u10-budem.fill-tomas-bude-cez.why": {
+    "en": "Tomáš is **on**, and the on form of the future is **bude**. Budú is oni, budem ja.",
+    "t": "Tomash — **on** (u), kelasi zamonning on shakli esa **bude**. Budú — oni, budem — ja shakli."
+  },
+  "u10-budem.build-cez-vikend-nebudeme.prompt": {
+    "en": "We won't be at home at the weekend.",
+    "t": "Dam olish kunlari uyda boʻlmaymiz."
+  },
+  "u10-budem.build-cez-vikend-nebudeme.traps": {
+    "en": [
+      "The weekend is still to come, so byť takes its future form, with ne- in front: **nebudeme**. Sme is now.",
+      "“We” is my, so the future is budeme, and not makes it **nebudeme**. Budú is oni."
+    ],
+    "t": [
+      "Dam olish kunlari hali oldinda, shuning uchun byť kelasi zamon shaklida, oldida ne- bilan keladi: **nebudeme** (boʻlmaymiz). Sme — hozir.",
+      "«Biz» — my, kelasi zamonda budeme, inkori esa **nebudeme**. Budú — oni (ular) uchun."
+    ]
+  },
+  "u10-budem.grammar-budem-infinitive.title": {
+    "en": "budem + infinitive: will be doing",
+    "t": "budem + infinitív: kelasi zamon"
+  },
+  "u10-budem.grammar-budem-infinitive.body": {
+    "en": [
+      "For most verbs, the future is **budem** + the infinitive (the -ť form): Budem pracovať. = I'll be working.",
+      "Verbs like kúpiť, prísť, zavolať or stretnúť sa already point to the future on their own (Kúpim chlieb. Zavolám ti.), so they never take budem.",
+      "**Ísť** has its own future: **pôjdem**, pôjdeš, pôjde… Pôjdem domov. = I'll go home. Never budem ísť."
+    ],
+    "t": [
+      "Koʻp feʼllarda kelasi zamon **budem** + infinitív (-ť bilan tugaydigan shakl, oʻzbekcha -moq kabi) bilan yasaladi: Budem pracovať. = Ishlayman (keyinroq).",
+      "Kúpiť, prísť, zavolať yoki stretnúť sa kabi feʼllar oʻzi kelasi zamonni bildiradi (Kúpim chlieb. = Non sotib olaman. Zavolám ti. = Senga qoʻngʻiroq qilaman.), shuning uchun ular hech qachon budem bilan kelmaydi.",
+      "**Ísť** (bormoq) feʼlining oʻz kelasi zamoni bor: **pôjdem**, pôjdeš, pôjde… Pôjdem domov. = Uyga boraman. Budem ísť hech qachon aytilmaydi."
+    ]
+  },
+  "u10-budem.grammar-budem-infinitive.table.rows": {
+    "en": [
+      [
+        "ja",
+        "**budem** pracovať"
+      ],
+      [
+        "ty",
+        "**budeš** čítať"
+      ],
+      [
+        "on, ona",
+        "**bude** variť"
+      ],
+      [
+        "my",
+        "**budeme** študovať"
+      ],
+      [
+        "vy",
+        "**budete** písať"
+      ],
+      [
+        "oni",
+        "**budú** spať"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "**budem** pracovať"
+      ],
+      [
+        "ty",
+        "**budeš** čítať"
+      ],
+      [
+        "on, ona",
+        "**bude** variť"
+      ],
+      [
+        "my",
+        "**budeme** študovať"
+      ],
+      [
+        "vy",
+        "**budete** písať"
+      ],
+      [
+        "oni",
+        "**budú** spať"
+      ]
+    ]
+  },
+  "u10-budem.grammar-budem-infinitive.examples": {
+    "en": [
+      "I'll be working tomorrow.",
+      "What will you do at the weekend?"
+    ],
+    "t": [
+      "Ertaga ishlayman.",
+      "Dam olish kunlari nima qilasan?"
+    ]
+  },
+  "u10-budem.fill-vecer-budem-citat.en": {
+    "en": "I'll be reading the paper this evening.",
+    "t": "Kechqurun gazeta oʻqiyman."
+  },
+  "u10-budem.fill-vecer-budem-citat.why": {
+    "en": "After **budem** comes the infinitive, the -ť form: budem **čítať**. Čítam is now, čítala the past.",
+    "t": "**Budem** soʻzidan keyin infinitív, yaʼni -ť shakli keladi: budem **čítať**. Čítam — hozirgi zamon, čítala — oʻtgan zamon."
+  },
+  "u10-budem.choice-zajtra-kupim-chlieb.question": {
+    "en": "Which sentence is correct?",
+    "t": "Qaysi gap toʻgʻri?"
+  },
+  "u10-budem.choice-zajtra-kupim-chlieb.why": {
+    "en": "**Kúpiť** already points to the future on its own: kúpim = I'll buy. It never takes budem. Som kúpil is the past.",
+    "t": "**Kúpiť** oʻzi kelasi zamonni bildiradi: kúpim = sotib olaman. U hech qachon budem bilan kelmaydi. Som kúpil — oʻtgan zamon (sotib oldim)."
+  },
+  "u10-budem.build-vecer-budeme-studovat.prompt": {
+    "en": "We'll be studying in the evening.",
+    "t": "Kechqurun oʻqiymiz."
+  },
+  "u10-budem.build-vecer-budeme-studovat.traps": {
+    "en": [
+      "“We” is **my**, and the my form is **budeme**. Budú is oni.",
+      "After budeme comes the infinitive, the -ť form: budeme **študovať**. Študujeme is the present."
+    ],
+    "t": [
+      "«Biz» — **my**, my shakli esa **budeme**. Budú — oni (ular) uchun.",
+      "Budeme soʻzidan keyin infinitív, yaʼni -ť shakli keladi: budeme **študovať**. Študujeme — hozirgi zamon (oʻqiyapmiz)."
+    ]
+  },
+  "u10-budem.listen-cez-vikend-bude.en": {
+    "en": "Marek will be cooking at the weekend.",
+    "t": "Dam olish kunlari Marek ovqat pishiradi."
+  },
+  "u10-budem.build-zajtra-nebudem-v.answers": {
+    "en": [
+      "Tomorrow I won't be at school, I'll be working.",
+      "I won't be at school tomorrow, I'll be working."
+    ],
+    "t": [
+      "Ertaga maktabda boʻlmayman, ishlayman.",
+      "Ertaga men maktabda boʻlmayman, ishlayman.",
+      "Ertaga maktabda boʻlmayman, ishlayotgan boʻlaman.",
+      "Ertaga maktabga bormayman, ishlayman."
+    ]
+  },
+  "u10-budem.build-zajtra-nebudem-v.distractors": {
+    "en": [
+      "was",
+      "study"
+    ],
+    "t": [
+      "edim",
+      "oʻqiyman"
+    ]
+  },
+  "u10-budem.speak-zajtra-budem-doma.en": {
+    "en": "I'll be at home tomorrow.",
+    "t": "Ertaga uyda boʻlaman."
   },
   "u10-l5.titleEn": {
     "en": "Emma reads the paper",

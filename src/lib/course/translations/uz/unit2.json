@@ -9,14 +9,16 @@
       "Countries and nationalities",
       "Who is who?",
       "Jobs and studies",
-      "Numbers and age"
+      "Numbers and age",
+      "On the phone"
     ],
     "t": [
       "Qayerdansiz?",
       "Davlatlar va millatlar",
       "Kim kim?",
       "Ish va oʻqish",
-      "Sonlar va yosh"
+      "Sonlar va yosh",
+      "Telefonda"
     ]
   },
   "u2.grammar": {
@@ -1555,6 +1557,162 @@
   "u2-l6.speak-kolko-mas-rokov.en": {
     "en": "How old are you?",
     "t": "Necha yoshdasan?"
+  },
+  "u2-telefon.titleEn": {
+    "en": "On the phone",
+    "t": "Telefonda"
+  },
+  "u2-telefon.halo.en": {
+    "en": "Hello? (on the phone)",
+    "t": "Allo? (telefonda)"
+  },
+  "u2-telefon.halo.note": {
+    "en": "Slovaks answer the phone with **Haló?** or **Prosím?** On the phone, Prosím? means “Hello, yes?”, not “Pardon?”.",
+    "t": "Slovaklar telefonga **Haló?** yoki **Prosím?** deb javob beradi. Telefonda Prosím? «Nima dedingiz?» emas, «Allo, eshitaman» degani."
+  },
+  "u2-telefon.tu-je-emma.en": {
+    "en": "It's Emma. (on the phone)",
+    "t": "Bu Emma. (telefonda)"
+  },
+  "u2-telefon.tu-je-emma.note": {
+    "en": "Literally “Here is Emma.” To ask who is calling: **Kto volá?** (volať = to call)",
+    "t": "Soʻzma-soʻz: «Bu yerda Emma.» Kim qoʻngʻiroq qilayotganini soʻrash uchun: **Kto volá?** (volať = qoʻngʻiroq qilmoq)"
+  },
+  "u2-telefon.choice-halo.question": {
+    "en": "Your phone rings and you pick it up. What do you say?",
+    "t": "Telefoningiz jiringladi va siz javob berasiz. Nima deysiz?"
+  },
+  "u2-telefon.telefonovat.en": {
+    "en": "to phone, to be on the phone",
+    "t": "telefonda gaplashmoq, qoʻngʻiroq qilmoq"
+  },
+  "u2-telefon.telefonovat.note": {
+    "en": "An -ovať verb like študovať: telefonuj**em**, telefonuj**eš**, telefonuj**e**… Prepáč, telefonujem. = Sorry, I'm on the phone.",
+    "t": "-ovať bilan tugaydigan feʼl, študovať kabi: telefonuj**em**, telefonuj**eš**, telefonuj**e**… Prepáč, telefonujem. = Kechir, telefonda gaplashyapman."
+  },
+  "u2-telefon.fill-tomas-a-marek-telefonuju.en": {
+    "en": "Tomáš and Marek are on the phone.",
+    "t": "Tomash va Marek telefonda gaplashyapti."
+  },
+  "u2-telefon.fill-tomas-a-marek-telefonuju.why": {
+    "en": "Telefonovať changes -ova- to -uj-, like študovať. Tomáš and Marek are **oni**, so it ends in **-ú**: telefonuj**ú**.",
+    "t": "Telefonovať, študovať kabi, -ova- oʻrniga -uj- oladi. Tomash va Marek — **oni** (ular), shuning uchun feʼl **-ú** bilan tugaydi: telefonuj**ú**."
+  },
+  "u2-telefon.telefonne-cislo.en": {
+    "en": "phone number",
+    "t": "telefon raqami"
+  },
+  "u2-telefon.telefonne-cislo.note": {
+    "en": "**číslo** = number. Slovaks read a phone number digit by digit or in small groups: 0905 = nula deväť nula päť.",
+    "t": "**číslo** = raqam. Slovaklar telefon raqamini raqamma-raqam yoki kichik guruhlarga boʻlib aytadi: 0905 = nula deväť nula päť."
+  },
+  "u2-telefon.ake-mas-telefonne-cislo.en": {
+    "en": "What's your phone number? (informal)",
+    "t": "Telefon raqaming qanday? (sen)"
+  },
+  "u2-telefon.ake-mas-telefonne-cislo.note": {
+    "en": "Polite form: Aké **máte** telefónne číslo? Learn **aké** (what, which) as part of the question for now.",
+    "t": "Hurmat shakli: Aké **máte** telefónne číslo? **Aké** (qanday, qaysi) soʻzini hozircha shu savol bilan birga yodlang."
+  },
+  "u2-telefon.choice-nula-devat-styri.question": {
+    "en": "Which number is this?",
+    "t": "Bu qaysi raqam?"
+  },
+  "u2-telefon.choice-nula-devat-styri.options": {
+    "en": [
+      "094",
+      "049",
+      "904"
+    ],
+    "t": [
+      "094",
+      "049",
+      "904"
+    ]
+  },
+  "u2-telefon.listen-cislo-je-nula.en": {
+    "en": "The number is 0905.",
+    "t": "Raqam — 0905."
+  },
+  "u2-telefon.build-ake-mas-telefonne.prompt": {
+    "en": "What's your phone number? (to a friend)",
+    "t": "Telefon raqaming qanday? (sen)"
+  },
+  "u2-telefon.build-ake-mas-telefonne.traps": {
+    "en": [
+      "A friend gets **ty**, so mať is **máš**. Máte is the polite vy form, for someone like pani Horváthová."
+    ],
+    "t": [
+      "Doʻstga **ty** (sen) deyiladi, shuning uchun mať — **máš**. Máte — hurmatli vy (siz) shakli, Horvatova xonim kabi kishilar uchun."
+    ]
+  },
+  "u2-telefon.zavolam-ti.en": {
+    "en": "I'll call you.",
+    "t": "Senga qoʻngʻiroq qilaman."
+  },
+  "u2-telefon.zavolam-ti.note": {
+    "en": "**zavolať** = to call (once), so zavolám points to the future. **ti** = you, to you (informal). Polite: Zavolám **vám**.",
+    "t": "**zavolať** = (bir marta) qoʻngʻiroq qilmoq, shuning uchun zavolám kelajakni bildiradi. **ti** = senga (sen). Hurmat shakli: Zavolám **vám**. (Sizga qoʻngʻiroq qilaman.)"
+  },
+  "u2-telefon.dopocutia.en": {
+    "en": "Goodbye! (on the phone)",
+    "t": "Xayr! (telefonda)"
+  },
+  "u2-telefon.dopocutia.note": {
+    "en": "Literally “till we hear each other”: the phone's version of Dovidenia, “till we see each other”.",
+    "t": "Soʻzma-soʻz «eshitishguncha»: Dovidenia («koʻrishguncha») soʻzining telefondagi shakli."
+  },
+  "u2-telefon.match-halo.pairs": {
+    "en": [
+      "Hello? (on the phone)",
+      "I'll call you.",
+      "Goodbye! (on the phone)",
+      "phone number",
+      "to phone"
+    ],
+    "t": [
+      "Allo? (telefonda)",
+      "Senga qoʻngʻiroq qilaman.",
+      "Xayr! (telefonda)",
+      "telefon raqami",
+      "telefonda gaplashmoq"
+    ]
+  },
+  "u2-telefon.fill-ahoj-lucia-tu.en": {
+    "en": "Hi, Lucia, it's Emma.",
+    "t": "Salom, Lusiya, bu Emma."
+  },
+  "u2-telefon.fill-ahoj-lucia-tu.why": {
+    "en": "On the phone you name yourself as if pointing someone out: tu **je** Emma, literally “here is Emma”. So byť takes its on, ona form, je.",
+    "t": "Telefonda oʻzingizni boshqa odamni koʻrsatgandek tanishtirasiz: tu **je** Emma, soʻzma-soʻz «bu yerda Emma». Shuning uchun byť on, ona shaklida keladi — je, «Emmaman» (som) emas."
+  },
+  "u2-telefon.build-zavolam-ti-dopocutia.answers": {
+    "en": [
+      "I'll call you. Bye!",
+      "I'll call you. Goodbye!",
+      "I will call you. Bye!",
+      "I will call you. Goodbye!"
+    ],
+    "t": [
+      "Senga qoʻngʻiroq qilaman. Xayr!",
+      "Qoʻngʻiroq qilaman. Xayr!",
+      "Senga telefon qilaman. Xayr!",
+      "Telefon qilaman. Xayr!"
+    ]
+  },
+  "u2-telefon.build-zavolam-ti-dopocutia.distractors": {
+    "en": [
+      "me",
+      "Hello"
+    ],
+    "t": [
+      "Menga",
+      "Allo"
+    ]
+  },
+  "u2-telefon.speak-halo-tu-je.en": {
+    "en": "Hello? It's Emma.",
+    "t": "Allo? Bu Emma."
   },
   "u2-l7.titleEn": {
     "en": "Review",
