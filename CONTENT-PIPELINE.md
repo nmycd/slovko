@@ -70,6 +70,39 @@ the grammar card it rests on; give each word-order exercise with a Slovak answer
 `traps` for its wrong tiles. All as in AUTHORING.md, "Explanations after a wrong
 answer".
 
+### Writing practice (tentative)
+
+> **Tentative.** This is an experiment from October 2026 and may be reverted (tag
+> `pre-writing-practice`; see [DEBT.md](DEBT.md)). Write new units this way while it
+> stands, but expect the rules below to change.
+
+Most of the writing (typing Slovak) happens in one lesson per unit, kept apart
+from the lessons that present and drill words and grammar:
+
+- **The writing lesson**: `kind: "writing"`, id `uN-pisanie`, title "Píšeme"
+  ("Written practice"), placed **just before the unit's review lesson**. It holds
+  only two kinds of exercise:
+  - **Memorize rounds**: up to five bare stubs, `{ id: "memorize-1", type: "memorize" }`.
+    Each is dealt four words when the lesson starts (see [Automatic](#automatic)).
+    The learner studies them, presses "I'm ready", sees the Slovak blur and the rows
+    shuffle, then types each word from its meaning. Only letter-perfect words count,
+    accents included: 0/25/50/75/100%. A missed round comes back once at the end.
+  - **The unit's dictations** (`listen`): one after the second round, the rest at
+    the back, using the words the rounds practised.
+- **Standard lessons keep very few dictations**: two in unit 1, so learners see
+  early that the course asks them to write, and one in every later unit. A new
+  dictation goes into the writing lesson, not a standard one. Only these few
+  sentences get spelling cards (stage 6), about two dozen across the course.
+- **Optional on the path**: a writing lesson opens once the learner reaches it, and
+  never locks what follows. Unit completion, the course percentage and word review's
+  unlock after unit 1 all leave it out.
+- **Nothing new to write or generate**: the words come from the unit's intro cards
+  and the dictations are ordinary `listen` exercises with their usual audio. Only
+  the lesson's title is new text for stage 5.
+
+Stage 3 enforces the shape: a writing lesson holds memorize rounds (at least one)
+and dictations only, and memorize rounds appear nowhere else.
+
 ## 3. Check it
 
 ```bash
@@ -117,7 +150,8 @@ English only as a pointer to the point being made.
 Before a word turns up in a typed sentence ("Type what you hear") in a standard
 lesson, the learner types it once on its own, on a spelling card. Sentences in a
 writing lesson don't get cards: its memorize rounds practise the unit's spelling
-instead, so only the few dictations left in standard lessons do. A script places
+instead, so only the few dictations left in standard lessons do (tentative: see
+stage 2, "Writing practice"). A script places
 the cards:
 
 ```bash
@@ -361,7 +395,7 @@ These follow from the content; there's nothing to run.
   phrase unpunctuated ("byt", "jedálny lístok").
 - **Spelling cards in lessons** and **picture positions**: inserted and shifted
   as the course loads, from `spelling.json` and `illustrations.json`.
-- **Memorize words** (writing lessons): each lesson's pool is the intro cards of up
+- **Memorize words** (writing lessons, tentative): each lesson's pool is the intro cards of up
   to three words since the previous writing lesson, and the rounds that pool fills
   stay (four words each). The words are dealt afresh each time the lesson starts.
 - **Word-order tiles** show in lowercase, so the capital doesn't give the first
