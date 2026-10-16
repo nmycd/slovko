@@ -28,18 +28,21 @@ export const unit2: Unit = {
       titleEn: "Where are you from?",
       exercises: [
         {
+          id: "odkial-si",
           type: "intro",
           sk: "Odkiaľ si?",
           en: "Where are you from? (informal)",
           note: "To a stranger, a teacher or a group: **Odkiaľ ste?**",
         },
         {
+          id: "som-z-irska",
           type: "intro",
           sk: "Som z Írska.",
           en: "I'm from Ireland.",
           note: "Írsko = Ireland. After **z** (from), the -o at the end changes to **-a**: z Írsk**a**.",
         },
         {
+          id: "choice-odkial-ste",
           type: "choice",
           question: "What does this mean?",
           sk: "Odkiaľ ste?",
@@ -48,18 +51,21 @@ export const unit2: Unit = {
           answer: 0,
         },
         {
+          id: "lucia-je-zo",
           type: "intro",
           sk: "Lucia je zo Slovenska.",
           en: "Lucia is from Slovakia.",
           note: "**je** = is. Before s, z, š or ž, “z” becomes **zo**: zo Slovenska.",
         },
         {
+          id: "nemecko-taliansko-polsko",
           type: "intro",
           sk: "Nemecko, Taliansko, Poľsko",
           en: "Germany, Italy, Poland",
           note: "Many country names end in -sko or -cko. From Germany: z Nemecka.",
         },
         {
+          id: "match-slovensko",
           type: "match",
           pairs: [
             { sk: "Slovensko", en: "Slovakia" },
@@ -70,6 +76,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "fill-tomas-je-zo",
           type: "fill",
           before: "Tomáš je",
           after: "Slovenska.",
@@ -79,6 +86,7 @@ export const unit2: Unit = {
           why: "“From” is **zo** before s, z, š or ž, and Slovensko starts with s. Elsewhere it's just z: z Írska, z Nemecka.",
         },
         {
+          id: "build-som-z-nemecka",
           type: "build",
           prompt: "I'm from Germany.",
           promptLang: "en",
@@ -90,12 +98,14 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "som-z-ukrajiny",
           type: "intro",
           sk: "Som z Ukrajiny.",
           en: "I'm from Ukraine.",
           note: "Most countries ending in -a change it to **-y**: Ukrajin**a** → z Ukrajin**y**, Amerik**a** → z Amerik**y**.",
         },
         {
+          id: "choice-peter-je-z",
           type: "choice",
           question: "Peter is from America. Which sentence is right?",
           options: ["Peter je z Ameriky.", "Peter je z Amerika.", "Peter je zo Ameriky."],
@@ -103,20 +113,23 @@ export const unit2: Unit = {
           answer: 0,
           why: "After z, Amerika changes -a to **-y**: z Amerik**y**. And it stays z: zo is only for words starting with s, z, š or ž.",
         },
-        { type: "listen", sk: "Odkiaľ si? Som z Poľska.", en: "Where are you from? I'm from Poland." },
+        { id: "listen-odkial-si-som", type: "listen", sk: "Odkiaľ si? Som z Poľska.", en: "Where are you from? I'm from Poland." },
         {
+          id: "som-irka",
           type: "intro",
           sk: "Som Írka.",
           en: "I'm Irish. (said by a woman)",
           note: "Nationalities have a form for men and one for women: Ír → Ír**ka**.",
         },
         {
+          id: "slovak-slovenka",
           type: "intro",
           sk: "Slovák, Slovenka",
           en: "a Slovak man, a Slovak woman",
           note: "Women's forms end in **-ka**: Sloven**ka**, Nem**ka** (German), Talian**ka** (Italian). Men's: Slovák, Nemec, Talian.",
         },
         {
+          id: "match-slovak",
           type: "match",
           pairs: [
             { sk: "Slovák", en: "Slovak (man)" },
@@ -126,6 +139,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "fill-emma-je-irka",
           type: "fill",
           before: "Emma je",
           after: ".",
@@ -135,6 +149,7 @@ export const unit2: Unit = {
           why: "Emma is a woman, so she takes the women's form with **-ka**: Ír**ka**. Ír is for a man.",
         },
         {
+          id: "choice-lucia",
           type: "choice",
           question: "Who would say “Som Slovenka”?",
           options: ["Lucia", "Tomáš", "Emma"],
@@ -143,13 +158,14 @@ export const unit2: Unit = {
           why: "**Slovenka** is the women's form, so it's a Slovak woman: Lucia. Tomáš would say Som Slovák, and Emma is Irish: Som Írka.",
         },
         {
+          id: "build-lucia-je-slovenka",
           type: "build",
           prompt: "Lucia je Slovenka. Je zo Slovenska.",
           promptLang: "sk",
           answers: ["Lucia is Slovak. She is from Slovakia."],
           distractors: ["Slovenia", "He"],
         },
-        { type: "speak", sk: "Som z Írska.", en: "I'm from Ireland." },
+        { id: "speak-som-z-irska", type: "speak", sk: "Som z Írska.", en: "I'm from Ireland." },
       ],
     },
     {
@@ -159,6 +175,7 @@ export const unit2: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-byt-be",
           type: "grammar",
           title: "Byť (to be)",
           body: [
@@ -181,6 +198,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "grammar-ty-or-vy",
           type: "grammar",
           title: "Ty or vy? Oni or ony?",
           body: [
@@ -194,6 +212,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "fill-ja-som-z",
           type: "fill",
           before: "Ja",
           after: "z Írska.",
@@ -201,9 +220,10 @@ export const unit2: Unit = {
           answer: 0,
           en: "I'm from Ireland.",
           why: "With **ja** (I), byť is **som**. Si goes with ty, je with on or ona.",
-          ref: "u2-l2#0",
+          ref: "u2-l2#grammar-byt-be",
         },
         {
+          id: "match-ty-si",
           type: "match",
           pairs: [
             { sk: "ty si", en: "you are (one friend)" },
@@ -214,6 +234,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "fill-lucia-ty-si",
           type: "fill",
           before: "Lucia, ty",
           after: "Slovenka?",
@@ -221,18 +242,20 @@ export const unit2: Unit = {
           answer: 1,
           en: "Lucia, are you Slovak?",
           why: "With **ty** (you, a friend), byť is **si**. Som goes with ja, ste with vy.",
-          ref: "u2-l2#0",
+          ref: "u2-l2#grammar-byt-be",
         },
         {
+          id: "choice-odkial-ste",
           type: "choice",
           question: "You ask your teacher, pani Horváthová, where she is from. What do you say?",
           options: ["Odkiaľ si?", "Odkiaľ ste?", "Odkiaľ sú?"],
           optionsLang: "sk",
           answer: 1,
           why: "A teacher gets the polite **vy**, and with vy byť is **ste**. Odkiaľ si? is for a friend (ty); sú is for oni (they).",
-          ref: "u2-l2#1",
+          ref: "u2-l2#grammar-ty-or-vy",
         },
         {
+          id: "build-sme-zo-slovenska",
           type: "build",
           prompt: "We're from Slovakia.",
           promptLang: "en",
@@ -244,6 +267,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "fill-tomas-a-lucia",
           type: "fill",
           before: "Tomáš a Lucia",
           after: "zo Slovenska.",
@@ -251,19 +275,21 @@ export const unit2: Unit = {
           answer: 2,
           en: "Tomáš and Lucia are from Slovakia.",
           why: "Tomáš and Lucia are two people, **oni** (they), and with oni byť is **sú**. Je is for one person, sme for my (we).",
-          ref: "u2-l2#0",
+          ref: "u2-l2#grammar-byt-be",
         },
-        { type: "listen", sk: "Kto je to? To je Marek.", en: "Who's that? That's Marek." },
+        { id: "listen-kto-je-to", type: "listen", sk: "Kto je to? To je Marek.", en: "Who's that? That's Marek." },
         {
+          id: "choice-ony",
           type: "choice",
           question: "Anna and Eva: which word means “they”?",
           options: ["oni", "ony", "ono"],
           optionsLang: "sk",
           answer: 1,
           why: "**Ony** is “they” for women only, like Anna and Eva. **Oni** needs at least one man in the group, and ono means “it”.",
-          ref: "u2-l2#1",
+          ref: "u2-l2#grammar-ty-or-vy",
         },
         {
+          id: "build-si-slovak",
           type: "build",
           prompt: "Are you Slovak? (to a male friend)",
           promptLang: "en",
@@ -275,6 +301,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "fill-prepacte-vy-ste",
           type: "fill",
           before: "Prepáčte, vy",
           after: "z Nemecka?",
@@ -282,16 +309,17 @@ export const unit2: Unit = {
           answer: 1,
           en: "Excuse me, are you from Germany?",
           why: "Prepáčte already shows the polite **vy**, and with vy byť is **ste**. Si goes with ty, sú with oni.",
-          ref: "u2-l2#0",
+          ref: "u2-l2#grammar-byt-be",
         },
         {
+          id: "build-ony-su-z",
           type: "build",
           prompt: "Ony sú z Talianska.",
           promptLang: "sk",
           answers: ["They're from Italy.", "They are from Italy."],
           distractors: ["We", "is"],
         },
-        { type: "speak", sk: "Ja som z Írska.", en: "I'm from Ireland." },
+        { id: "speak-ja-som-z", type: "speak", sk: "Ja som z Írska.", en: "I'm from Ireland." },
       ],
     },
     {
@@ -301,6 +329,7 @@ export const unit2: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-people-he-she",
           type: "grammar",
           title: "People: he and she",
           body: [
@@ -324,6 +353,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "fill-lucia-je-studentka",
           type: "fill",
           before: "Lucia je",
           after: ".",
@@ -331,9 +361,10 @@ export const unit2: Unit = {
           answer: 1,
           en: "Lucia is a student.",
           why: "Lucia is a woman, so she takes the feminine form with **-ka**: študent**ka**. Študent is for a man.",
-          ref: "u2-l3#0",
+          ref: "u2-l3#grammar-people-he-she",
         },
         {
+          id: "build-jana-je-ucitelka",
           type: "build",
           prompt: "Jana is a teacher.",
           promptLang: "en",
@@ -345,15 +376,17 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "choice-kamaratka",
           type: "choice",
           question: "Which word means a female friend?",
           options: ["kamarát", "kamarátka", "učiteľka"],
           optionsLang: "sk",
           answer: 1,
           why: "The feminine form adds **-ka**: kamarát → kamarát**ka**. Učiteľka is feminine too, but it means a female teacher.",
-          ref: "u2-l3#0",
+          ref: "u2-l3#grammar-people-he-she",
         },
         {
+          id: "fill-peter-je-nemec",
           type: "fill",
           before: "Peter je",
           after: "a Anna je Nemka.",
@@ -361,10 +394,11 @@ export const unit2: Unit = {
           answer: 0,
           en: "Peter is German, and Anna is German too.",
           why: "Peter is a man, so he takes the masculine form: **Nemec**. Nemka is for a woman, and Nemecko is the country, Germany.",
-          ref: "u2-l3#0",
+          ref: "u2-l3#grammar-people-he-she",
         },
-        { type: "listen", sk: "Pani Horváthová je učiteľka.", en: "Mrs Horváthová is a teacher." },
+        { id: "listen-pani-horvathova-je", type: "listen", sk: "Pani Horváthová je učiteľka.", en: "Mrs Horváthová is a teacher." },
         {
+          id: "grammar-things-have-gender",
           type: "grammar",
           title: "Things have a gender too",
           body: [
@@ -386,24 +420,27 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "choice-izba",
           type: "choice",
           question: "Which word is feminine?",
           options: ["internát", "izba", "auto"],
           optionsLang: "sk",
           answer: 1,
           why: "Nouns ending in **-a** are usually feminine: izb**a**. Internát ends in a consonant (masculine), and auto in -o (neuter).",
-          ref: "u2-l3#6",
+          ref: "u2-l3#grammar-things-have-gender",
         },
         {
+          id: "choice-dievca",
           type: "choice",
           question: "Which word is neuter?",
           options: ["dievča", "žena", "muž"],
           optionsLang: "sk",
           answer: 0,
           why: "**Dievča** (girl) is an exception: it ends in -a but is neuter. Žena is feminine, and muž, ending in a consonant, is masculine.",
-          ref: "u2-l3#6",
+          ref: "u2-l3#grammar-things-have-gender",
         },
         {
+          id: "fill-lucia-ano-ona",
           type: "fill",
           before: "Lucia? Áno,",
           after: "je študentka.",
@@ -411,9 +448,10 @@ export const unit2: Unit = {
           answer: 1,
           en: "Lucia? Yes, she's a student.",
           why: "Lucia is a woman, so “she” is **ona**. On is he, ono is it.",
-          ref: "u2-l3#0",
+          ref: "u2-l3#grammar-people-he-she",
         },
         {
+          id: "fill-peter-on-je",
           type: "fill",
           before: "Peter?",
           after: "je Nemec.",
@@ -421,9 +459,10 @@ export const unit2: Unit = {
           answer: 0,
           en: "Peter? He's German.",
           why: "Peter is a man, so “he” is **on**. Ona is she, ono is it.",
-          ref: "u2-l3#0",
+          ref: "u2-l3#grammar-people-he-she",
         },
         {
+          id: "match-ucitelka",
           type: "match",
           pairs: [
             { sk: "učiteľka", en: "teacher (woman)" },
@@ -434,6 +473,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "build-martin-je-ucitel",
           type: "build",
           prompt: "Martin is a teacher and Eva is a student.",
           promptLang: "en",
@@ -444,7 +484,7 @@ export const unit2: Unit = {
             { wrong: "študent", right: "študentka", why: "Eva is a woman, so she takes the feminine form with **-ka**: študent**ka**. Študent is for a man." },
           ],
         },
-        { type: "speak", sk: "To je univerzita.", en: "That's the university." },
+        { id: "speak-to-je-univerzita", type: "speak", sk: "To je univerzita.", en: "That's the university." },
       ],
     },
     {
@@ -454,6 +494,7 @@ export const unit2: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-verbs-ending-each",
           type: "grammar",
           title: "Verbs: an ending for each person",
           body: [
@@ -479,6 +520,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "fill-lucia-hovori-po",
           type: "fill",
           before: "Lucia",
           after: "po anglicky.",
@@ -486,9 +528,10 @@ export const unit2: Unit = {
           answer: 1,
           en: "Lucia speaks English.",
           why: "With on or ona, the verb has no ending: Lucia **hovorí**. Hovorím (-m) is ja, hovoria (-ia) is oni.",
-          ref: "u2-l4#0",
+          ref: "u2-l4#grammar-verbs-ending-each",
         },
         {
+          id: "fill-tomas-a-marek",
           type: "fill",
           before: "Tomáš a Marek",
           after: "po slovensky.",
@@ -496,9 +539,10 @@ export const unit2: Unit = {
           answer: 2,
           en: "Tomáš and Marek speak Slovak.",
           why: "Tomáš and Marek are **oni** (they), so hovoriť ends in **-ia**: hovor**ia**. Hovorí is one person, hovoríme is my (we).",
-          ref: "u2-l4#0",
+          ref: "u2-l4#grammar-verbs-ending-each",
         },
         {
+          id: "build-ako-sa-vola",
           type: "build",
           prompt: "What's her name?",
           promptLang: "en",
@@ -510,15 +554,17 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "choice-hovorime-po-slovensky",
           type: "choice",
           question: "How do you say “We speak Slovak”?",
           options: ["Hovoríme po slovensky.", "Hovoríte po slovensky.", "Hovoria po slovensky."],
           optionsLang: "sk",
           answer: 0,
           why: "With **my** (we), the verb ends in **-me**: hovorí**me**. -te is for vy, -ia for oni (they).",
-          ref: "u2-l4#0",
+          ref: "u2-l4#grammar-verbs-ending-each",
         },
         {
+          id: "grammar-studovat-rozumiet",
           type: "grammar",
           title: "Študovať and rozumieť",
           body: [
@@ -544,6 +590,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "match-studovat",
           type: "match",
           pairs: [
             { sk: "študovať", en: "to study" },
@@ -554,6 +601,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "fill-lucia-studuje-a",
           type: "fill",
           before: "Lucia študuje a Marek",
           after: ".",
@@ -561,9 +609,10 @@ export const unit2: Unit = {
           answer: 0,
           en: "Lucia studies and Marek works.",
           why: "Marek is **on**, so the verb has no ending, just like študuje: **pracuje**. Pracujem is ja, pracujú is oni.",
-          ref: "u2-l4#5",
+          ref: "u2-l4#grammar-studovat-rozumiet",
         },
         {
+          id: "fill-lucia-a-tomas",
           type: "fill",
           before: "Lucia a Tomáš",
           after: "po anglicky.",
@@ -571,9 +620,10 @@ export const unit2: Unit = {
           answer: 2,
           en: "Lucia and Tomáš understand English.",
           why: "Lucia and Tomáš are **oni**, and the “they” form of rozumieť is the different one: rozume**jú**. Rozumie is one person, rozumieme is my.",
-          ref: "u2-l4#5",
+          ref: "u2-l4#grammar-studovat-rozumiet",
         },
         {
+          id: "build-tomas-pracujes-ako",
           type: "build",
           prompt: "Tomáš, do you work as a programmer?",
           promptLang: "en",
@@ -584,8 +634,9 @@ export const unit2: Unit = {
             { wrong: "pracujem", right: "pracuješ", why: "You're asking Tomáš himself, **ty**, so the verb ends in **-š**: pracuje**š**. Pracujem, with -m, is ja (I)." },
           ],
         },
-        { type: "listen", sk: "Študujem a pracujem.", en: "I study and work." },
+        { id: "listen-studujem-a-pracujem", type: "listen", sk: "Študujem a pracujem.", en: "I study and work." },
         {
+          id: "build-hovorite-po-anglicky",
           type: "build",
           prompt: "Hovoríte po anglicky?",
           promptLang: "sk",
@@ -593,6 +644,7 @@ export const unit2: Unit = {
           distractors: ["speaks", "Slovak"],
         },
         {
+          id: "fill-co-robis-studujem",
           type: "fill",
           before: "Čo",
           after: "? — Študujem.",
@@ -600,9 +652,9 @@ export const unit2: Unit = {
           answer: 0,
           en: "What do you do? — I study.",
           why: "The answer študujem is ja, so the question asks **ty** (you), and the verb ends in **-š**: robí**š**. Robím is ja, robia is oni.",
-          ref: "u2-l4#0",
+          ref: "u2-l4#grammar-verbs-ending-each",
         },
-        { type: "speak", sk: "Študuješ alebo pracuješ?", en: "Do you study or work?" },
+        { id: "speak-studujes-alebo-pracujes", type: "speak", sk: "Študuješ alebo pracuješ?", en: "Do you study or work?" },
       ],
     },
     {
@@ -612,6 +664,7 @@ export const unit2: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-not-ne-verb",
           type: "grammar",
           title: "Not: ne- + verb",
           body: [
@@ -634,6 +687,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "fill-marek-nehovori-po",
           type: "fill",
           before: "Marek",
           after: "po anglicky.",
@@ -641,18 +695,20 @@ export const unit2: Unit = {
           answer: 0,
           en: "Marek doesn't speak English.",
           why: "**Ne-** goes in front, and the ending still shows the person: Marek is on, so **nehovorí**. Nehovorím is ja, nehovoria is oni.",
-          ref: "u2-l5#0",
+          ref: "u2-l5#grammar-not-ne-verb",
         },
         {
+          id: "choice-ja-nestudujem",
           type: "choice",
           question: "Which one is correct?",
           options: ["Ja nie študujem.", "Ja neštudujem.", "Ja ne študujem."],
           optionsLang: "sk",
           answer: 1,
           why: "**Ne-** goes in front of the verb, written as one word: **ne**študujem. Only byť takes a separate **nie**: nie som.",
-          ref: "u2-l5#0",
+          ref: "u2-l5#grammar-not-ne-verb",
         },
         {
+          id: "build-nehovorime-po-nemecky",
           type: "build",
           prompt: "We don't speak German.",
           promptLang: "en",
@@ -663,17 +719,19 @@ export const unit2: Unit = {
             { wrong: "nie", right: "Nehovoríme", why: "To say “not”, put **ne-** in front of the verb, written as one word: **ne**hovoríme. Only byť takes a separate nie: nie som." },
           ],
         },
-        { type: "listen", sk: "Lucia nepracuje, študuje.", en: "Lucia doesn't work, she studies." },
+        { id: "listen-lucia-nepracuje-studuje", type: "listen", sk: "Lucia nepracuje, študuje.", en: "Lucia doesn't work, she studies." },
         {
+          id: "choice-prepacte-nerozumiem",
           type: "choice",
           question: "Pán Kováč speaks very fast and you don't understand. What do you say?",
           options: ["Prepáčte, nerozumiem.", "Áno, rozumiem.", "Nech sa páči."],
           optionsLang: "sk",
           answer: 0,
           why: "**Nerozumiem** is ne- + rozumiem, I don't understand, and pán Kováč gets the polite Prepáčte. Áno, rozumiem says the opposite; Nech sa páči is for handing something over.",
-          ref: "u2-l5#0",
+          ref: "u2-l5#grammar-not-ne-verb",
         },
         {
+          id: "grammar-not-byt-nie",
           type: "grammar",
           title: "Not with byť: nie som",
           body: [
@@ -697,6 +755,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "fill-emma-nie-je",
           type: "fill",
           before: "Emma",
           after: "zo Slovenska.",
@@ -704,18 +763,20 @@ export const unit2: Unit = {
           answer: 0,
           en: "Emma isn't from Slovakia.",
           why: "Byť takes a separate **nie**, and Emma is ona, so **nie je**. Nie si is ty, nie sú is oni.",
-          ref: "u2-l5#6",
+          ref: "u2-l5#grammar-not-byt-nie",
         },
         {
+          id: "choice-nie-nie-som",
           type: "choice",
           question: "“Si zo Slovenska?” You are from Ireland. What do you answer?",
           options: ["Áno, som.", "Nie, nie som.", "Nie, nie si."],
           optionsLang: "sk",
           answer: 1,
           why: "You're not from Slovakia, and you answer as ja, so **nie som**. Nie si would mean “you aren't”.",
-          ref: "u2-l5#6",
+          ref: "u2-l5#grammar-not-byt-nie",
         },
         {
+          id: "build-tomas-nie-je",
           type: "build",
           prompt: "Tomáš isn't German, he's Slovak.",
           promptLang: "en",
@@ -727,6 +788,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "fill-lucia-a-tomas",
           type: "fill",
           before: "Lucia a Tomáš",
           after: "z Írska.",
@@ -734,9 +796,10 @@ export const unit2: Unit = {
           answer: 0,
           en: "Lucia and Tomáš aren't from Ireland.",
           why: "Lucia and Tomáš are **oni**, so byť is sú, with a separate nie: **nie sú**. Nie sme is my (we), nie ste is vy.",
-          ref: "u2-l5#6",
+          ref: "u2-l5#grammar-not-byt-nie",
         },
         {
+          id: "match-nie-som",
           type: "match",
           pairs: [
             { sk: "nie som", en: "I am not" },
@@ -747,6 +810,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "build-to-nie-je",
           type: "build",
           prompt: "To nie je Lucia, to je Jana.",
           promptLang: "sk",
@@ -754,6 +818,7 @@ export const unit2: Unit = {
           distractors: ["is", "Who"],
         },
         {
+          id: "fill-prepacte-ja-nerozumiem",
           type: "fill",
           before: "Prepáčte, ja",
           after: "po slovensky.",
@@ -761,9 +826,9 @@ export const unit2: Unit = {
           answer: 0,
           en: "Sorry, I don't understand Slovak.",
           why: "With **ja**, the verb ends in **-m**, and ne- goes in front: **nerozumiem**. Nerozumie is on or ona, nerozumejú is oni.",
-          ref: "u2-l5#0",
+          ref: "u2-l5#grammar-not-ne-verb",
         },
-        { type: "speak", sk: "Nie, nie som zo Slovenska.", en: "No, I'm not from Slovakia." },
+        { id: "speak-nie-nie-som", type: "speak", sk: "Nie, nie som zo Slovenska.", en: "No, I'm not from Slovakia." },
       ],
     },
     {
@@ -772,13 +837,15 @@ export const unit2: Unit = {
       titleEn: "Numbers",
       exercises: [
         {
+          id: "jeden-dva-tri",
           type: "intro",
           sk: "jeden, dva, tri, štyri, päť",
           en: "one, two, three, four, five",
           note: "Zero is **nula**. “One” matches the noun's gender: jeden mobil, jedn**a** izba, jedn**o** auto.",
         },
-        { type: "intro", sk: "šesť, sedem, osem, deväť, desať", en: "six, seven, eight, nine, ten" },
+        { id: "sest-sedem-osem", type: "intro", sk: "šesť, sedem, osem, deväť, desať", en: "six, seven, eight, nine, ten" },
         {
+          id: "match-dva",
           type: "match",
           pairs: [
             { sk: "dva", en: "2" },
@@ -789,6 +856,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "choice-osem",
           type: "choice",
           question: "What number is this?",
           sk: "osem",
@@ -796,20 +864,23 @@ export const unit2: Unit = {
           optionsLang: "en",
           answer: 1,
         },
-        { type: "listen", sk: "päť, šesť, sedem", en: "five, six, seven" },
+        { id: "listen-pat-sest-sedem", type: "listen", sk: "päť, šesť, sedem", en: "five, six, seven" },
         {
+          id: "jedenast-dvanast-trinast",
           type: "intro",
           sk: "jedenásť, dvanásť, trinásť",
           en: "eleven, twelve, thirteen",
           note: "11–19 end in **-násť**: **štr**násť (14, a short form of štyri), pätnásť, šestnásť, sedemnásť, osemnásť, devätnásť.",
         },
         {
+          id: "dvadsat-tridsat-styridsat",
           type: "intro",
           sk: "dvadsať, tridsať, štyridsať",
           en: "twenty, thirty, forty",
           note: "From 50 on, tens end in **-desiat**: päťdesiat, šesťdesiat, sedemdesiat… And 100 is **sto**.",
         },
         {
+          id: "match-jedenast",
           type: "match",
           pairs: [
             { sk: "jedenásť", en: "11" },
@@ -820,6 +891,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "choice-strnast",
           type: "choice",
           question: "How do you say 14?",
           options: ["štyri", "štrnásť", "štyridsať"],
@@ -828,18 +900,21 @@ export const unit2: Unit = {
           why: "11–19 end in **-násť**, and 14 uses the short form štr-: **štrnásť**. Štyri is 4, štyridsať is 40.",
         },
         {
+          id: "kolko-mas-rokov",
           type: "intro",
           sk: "Koľko máš rokov?",
           en: "How old are you? (informal)",
           note: "Literally “How many years do you have?” Polite form: Koľko **máte** rokov?",
         },
         {
+          id: "mam-dvadsatpat-rokov",
           type: "intro",
           sk: "Mám dvadsaťpäť rokov.",
           en: "I'm twenty-five.",
           note: "**Mám** = I have (má = he or she has). Tens and ones join into one word: dvadsať + päť = **dvadsaťpäť**.",
         },
         {
+          id: "build-mam-dvadsat-rokov",
           type: "build",
           prompt: "I'm twenty years old.",
           promptLang: "en",
@@ -851,6 +926,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "fill-kolko-mate-rokov",
           type: "fill",
           before: "Koľko",
           after: "rokov, pán Kováč?",
@@ -858,16 +934,18 @@ export const unit2: Unit = {
           answer: 1,
           en: "How old are you, Mr Kováč?",
           why: "Pán Kováč gets the polite **vy**, so the verb ends in **-te**: má**te**. Máš is for a friend (ty).",
-          ref: "u1-l4#0",
+          ref: "u1-l4#grammar-two-ways-say",
         },
-        { type: "listen", sk: "Tomáš má tridsať rokov.", en: "Tomáš is thirty." },
+        { id: "listen-tomas-ma-tridsat", type: "listen", sk: "Tomáš má tridsať rokov.", en: "Tomáš is thirty." },
         {
+          id: "prvy-druhy-treti",
           type: "intro",
           sk: "prvý, druhý, tretí",
           en: "first, second, third",
           note: "Words for order end in **-ý** or **-í**: prvý, druhý, tretí, štvrtý, piaty.",
         },
         {
+          id: "choice-second",
           type: "choice",
           question: "What does “druhý” mean?",
           options: ["two", "second", "twelve"],
@@ -876,6 +954,7 @@ export const unit2: Unit = {
           why: "Words for order end in **-ý** or **-í**, so **druhý** is second, like prvý (first). Two is dva.",
         },
         {
+          id: "fill-mam-jedno-auto",
           type: "fill",
           before: "Mám",
           after: "auto.",
@@ -884,7 +963,7 @@ export const unit2: Unit = {
           en: "I have one car.",
           why: "“One” matches the noun's gender. Auto ends in -o, so it's neuter: **jedno**. Jeden is masculine (jeden mobil), jedna feminine (jedna izba).",
         },
-        { type: "speak", sk: "Koľko máš rokov?", en: "How old are you?" },
+        { id: "speak-kolko-mas-rokov", type: "speak", sk: "Koľko máš rokov?", en: "How old are you?" },
       ],
     },
     {
@@ -893,8 +972,9 @@ export const unit2: Unit = {
       titleEn: "Review",
       kind: "review",
       exercises: [
-        { type: "listen", sk: "Odkiaľ ste? Som z Talianska.", en: "Where are you from? I'm from Italy." },
+        { id: "listen-odkial-ste-som", type: "listen", sk: "Odkiaľ ste? Som z Talianska.", en: "Where are you from? I'm from Italy." },
         {
+          id: "fill-marek-je-zo",
           type: "fill",
           before: "Marek je",
           after: "Slovenska.",
@@ -904,6 +984,7 @@ export const unit2: Unit = {
           why: "Slovensko starts with s, and before s, z, š or ž, “from” is **zo**. Other countries take z: z Írska.",
         },
         {
+          id: "build-oni-su-z",
           type: "build",
           prompt: "They're from Germany.",
           promptLang: "en",
@@ -915,6 +996,7 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "fill-ja-nie-som",
           type: "fill",
           before: "Ja",
           after: "študentka, som učiteľka.",
@@ -922,9 +1004,10 @@ export const unit2: Unit = {
           answer: 0,
           en: "I'm not a student, I'm a teacher.",
           why: "Byť takes a separate **nie**, and ja goes with som: **nie som**. Nie je is on or ona, and plain som would mean “I am”.",
-          ref: "u2-l5#6",
+          ref: "u2-l5#grammar-not-byt-nie",
         },
         {
+          id: "match-irka",
           type: "match",
           pairs: [
             { sk: "Írka", en: "Irish (woman)" },
@@ -935,15 +1018,17 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "choice-internat",
           type: "choice",
           question: "Which word is masculine?",
           options: ["internát", "univerzita", "mesto"],
           optionsLang: "sk",
           answer: 0,
           why: "A noun ending in a consonant is usually masculine: **internát**. Univerzita ends in -a (feminine), mesto in -o (neuter).",
-          ref: "u2-l3#6",
+          ref: "u2-l3#grammar-things-have-gender",
         },
         {
+          id: "fill-marek-pracuje-ako",
           type: "fill",
           before: "Marek",
           after: "ako kuchár.",
@@ -951,9 +1036,10 @@ export const unit2: Unit = {
           answer: 0,
           en: "Marek works as a cook.",
           why: "Marek is **on**, so the verb has no ending: **pracuje**. Pracujem is ja, pracujú is oni.",
-          ref: "u2-l4#5",
+          ref: "u2-l4#grammar-studovat-rozumiet",
         },
         {
+          id: "build-lucia-nehovori-po",
           type: "build",
           prompt: "Lucia nehovorí po nemecky.",
           promptLang: "sk",
@@ -961,6 +1047,7 @@ export const unit2: Unit = {
           distractors: ["speaks", "English"],
         },
         {
+          id: "fill-vy-studujete-alebo",
           type: "fill",
           before: "Vy",
           after: "alebo pracujete?",
@@ -968,10 +1055,11 @@ export const unit2: Unit = {
           answer: 1,
           en: "Do you study or work?",
           why: "With **vy**, the verb ends in **-te**, just like pracujete: študuje**te**. Študuješ is ty, študujú is oni.",
-          ref: "u2-l4#5",
+          ref: "u2-l4#grammar-studovat-rozumiet",
         },
-        { type: "listen", sk: "Lucia má devätnásť rokov.", en: "Lucia is nineteen." },
+        { id: "listen-lucia-ma-devatnast", type: "listen", sk: "Lucia má devätnásť rokov.", en: "Lucia is nineteen." },
         {
+          id: "choice-styridsat",
           type: "choice",
           question: "How do you say 40?",
           options: ["štrnásť", "štyridsať", "štyri"],
@@ -980,6 +1068,7 @@ export const unit2: Unit = {
           why: "Twenty, thirty and forty end in **-dsať**: dvadsať, tridsať, štyri**dsať**. **-násť** is for 11–19: štrnásť is 14.",
         },
         {
+          id: "build-nie-som-zo",
           type: "build",
           prompt: "I'm not from Slovakia. I'm from Ireland.",
           promptLang: "en",
@@ -991,15 +1080,17 @@ export const unit2: Unit = {
           ],
         },
         {
+          id: "choice-ako-sa-volate",
           type: "choice",
           question: "You meet a new teacher for the first time. How do you ask her name?",
           options: ["Ako sa voláš?", "Ako sa voláte?", "Ako sa volá?"],
           optionsLang: "sk",
           answer: 1,
           why: "A new teacher gets the polite **vy**, so the verb ends in **-te**: volá**te**. Voláš is for a friend (ty); volá is “he or she is called”.",
-          ref: "u1-l4#0",
+          ref: "u1-l4#grammar-two-ways-say",
         },
         {
+          id: "fill-ako-sa-volaju",
           type: "fill",
           before: "Ako sa",
           after: "? — Tomáš a Marek.",
@@ -1007,9 +1098,10 @@ export const unit2: Unit = {
           answer: 0,
           en: "What are their names? — Tomáš and Marek.",
           why: "The answer names two people, **oni**, so the verb ends in **-jú**: vola**jú**. Voláme is my (we), volá is one person.",
-          ref: "u2-l4#0",
+          ref: "u2-l4#grammar-verbs-ending-each",
         },
         {
+          id: "match-sest",
           type: "match",
           pairs: [
             { sk: "šesť", en: "6" },
@@ -1019,7 +1111,7 @@ export const unit2: Unit = {
             { sk: "sto", en: "100" },
           ],
         },
-        { type: "speak", sk: "Nehovorím po nemecky.", en: "I don't speak German." },
+        { id: "speak-nehovorim-po-nemecky", type: "speak", sk: "Nehovorím po nemecky.", en: "I don't speak German." },
       ],
     },
   ],

@@ -28,7 +28,7 @@ import { playSlovak, preloadLesson, stopSlovak } from "@/lib/audio";
 import { fillSentence, speakableTexts } from "@/lib/course/helpers";
 import type { Illustration } from "@/lib/course/illustrations";
 import { properNames } from "@/lib/course/names";
-import type { Exercise, Lesson, RuleCard } from "@/lib/course/types";
+import type { Exercise, ExerciseId, Lesson, RuleCard } from "@/lib/course/types";
 import { setDictionaryQuery } from "@/lib/dictionary-store";
 import { taughtItemIds } from "@/lib/review/items";
 import { markSeen } from "@/lib/review/store";
@@ -99,8 +99,8 @@ type PlayerProps = {
   premiumUnit: boolean;
   /** The following lesson, for the "Next lesson" button. */
   nextId: string | null;
-  /** The lesson's pictures by exercise index. */
-  pictures: Record<number, Illustration>;
+  /** The lesson's pictures by exercise id. */
+  pictures: Record<ExerciseId, Illustration>;
   /** Unit number and the lesson's number within it, for the header. */
   place: { unit: number; lesson: number };
   /** Every lesson in the course, for the course progress in the header. */
@@ -138,21 +138,25 @@ export function LessonPlayer(props: PlayerProps) {
   );
 }
 
-/** Testing only (unlock-all switch): `?step=N` opens the lesson at exercise N. */
-function startStep(count: number, param: string | null): number {
+/**
+ * Testing only (unlock-all switch): `?step=N` opens the lesson at exercise N as played
+ * (counting from 0, spelling cards included), `?step=<exercise id>` at that exercise.
+ */
+function startStep(exercises: Exercise[], param: string | null): number {
   if (!unlockAllLessons || param === null) return 0;
-  const step = Number(param);
-  return Number.isInteger(step) && step > 0 && step < count ? step : 0;
+  const step = /^\d+$/.test(param) ? Number(param) : exercises.findIndex((ex) => ex.id === param);
+  return step > 0 && step < exercises.length ? step : 0;
 }
 
 /**
- * `?card=N`, from the dictionary on /learn: just that teaching card, then back to
- * /learn. Null for a normal run (or if exercise N isn't a teaching card).
+ * `?card=<exercise id>`, from the dictionary on /learn: just that teaching card, then
+ * back to /learn. Its place in the lesson; null for a normal run (or if that exercise
+ * isn't a teaching card).
  */
 function lookUpCard(exercises: Exercise[], param: string | null): number | null {
-  const card = Number(param);
-  const ex = param === null ? undefined : exercises[card];
-  return Number.isInteger(card) && (ex?.type === "intro" || ex?.type === "grammar") ? card : null;
+  const card = exercises.findIndex((ex) => ex.id === param);
+  const ex = exercises[card];
+  return ex?.type === "intro" || ex?.type === "grammar" ? card : null;
 }
 
 function Player({
@@ -173,7 +177,7 @@ function Player({
   const [queue, setQueue] = useState<Item[]>(() =>
     lesson.exercises.map((_, index) => ({ index, key: String(index), retry: false })),
   );
-  const [pos, setPos] = useState(() => startStep(lesson.exercises.length, step));
+  const [pos, setPos] = useState(() => startStep(lesson.exercises, step));
   // Looking a word up: one card, open in any unit (its word and meaning already show in the search).
   const lookUp = lookUpCard(lesson.exercises, card);
   const [phase, setPhase] = useState<Phase>(() =>
@@ -318,7 +322,7 @@ function Player({
         <Step
           key={`card-${lookUp}-${locale}`}
           exercise={lesson.exercises[lookUp]}
-          illustration={pictures[lookUp]}
+          illustration={pictures[lesson.exercises[lookUp].id]}
           frame={frame}
           nextLabel={t("lesson.return")}
           nav={null}
@@ -334,7 +338,7 @@ function Player({
         <Step
           key={`${shown.key}-${locale}${reviewing ? "-review" : ""}`}
           exercise={lesson.exercises[shown.index]}
-          illustration={pictures[shown.index]}
+          illustration={pictures[lesson.exercises[shown.index].id]}
           frame={frame}
           initial={history[shown.key]}
           review={reviewing}

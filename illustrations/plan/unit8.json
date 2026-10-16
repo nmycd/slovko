@@ -4,7 +4,7 @@
   "items": [
     {
       "lesson": "u8-l1",
-      "exercise": 0,
+      "exercise": "firma",
       "type": "intro",
       "text": "firma = company, firm",
       "picture": "A busy morning at Tomáš's company: on every floor of the building people are at work, in offices, in a meeting, at a training session and in the canteen. At the entrance, Tomáš waves to the receptionist.",
@@ -17,7 +17,7 @@
     },
     {
       "lesson": "u8-l1",
-      "exercise": 1,
+      "exercise": "oddelenie",
       "type": "intro",
       "text": "oddelenie = department",
       "picture": "The technical department of Tomáš's company: Tomáš and two colleagues work at their screens while an IT technician carries a new computer through the room.",
@@ -30,7 +30,7 @@
     },
     {
       "lesson": "u8-l1",
-      "exercise": 2,
+      "exercise": "zamestnanec-zamestnankyna",
       "type": "intro",
       "text": "zamestnanec / zamestnankyňa = employee (man / woman)",
       "picture": "An after-work party at Tomáš's company: employees, men and women, chat in small groups round a table of snacks and drinks; Tomáš talks with a woman colleague in a blazer.",
@@ -43,7 +43,7 @@
     },
     {
       "lesson": "u8-l1",
-      "exercise": 4,
+      "exercise": "porada",
       "type": "intro",
       "text": "porada = meeting (with colleagues)",
       "picture": "A team meeting at Tomáš's company: Tomáš and four colleagues sit round a table with their manager, talking things over.",
@@ -56,7 +56,7 @@
     },
     {
       "lesson": "u8-l1",
-      "exercise": 5,
+      "exercise": "stretnutie",
       "type": "intro",
       "text": "stretnutie = meeting, appointment",
       "picture": "A business lunch: Tomáš and a client in a suit sit across a restaurant table from each other, talking over their plates.",
@@ -69,7 +69,7 @@
     },
     {
       "lesson": "u8-l1",
-      "exercise": 8,
+      "exercise": "staz",
       "type": "intro",
       "text": "stáž = internship",
       "picture": "At her dorm desk, Emma scrolls through job ads on her laptop and circles one in a printed list, a mug of tea beside her.",
@@ -82,7 +82,7 @@
     },
     {
       "lesson": "u8-l1",
-      "exercise": 9,
+      "exercise": "zivotopis",
       "type": "intro",
       "text": "životopis = CV, résumé",
       "picture": "Emma's CV lies finished on her desk, one page with a small photo of her in the corner; she signs it with a flourish.",
@@ -95,7 +95,7 @@
     },
     {
       "lesson": "u8-l1",
-      "exercise": 10,
+      "exercise": "pohovor",
       "type": "intro",
       "text": "pohovor = job interview",
       "picture": "A job interview in a small office at Tomáš's company: Emma, in a smart blazer, sits upright across the desk from the HR manager, who reads her CV through her glasses.",
@@ -108,10 +108,10 @@
     },
     {
       "lesson": "u8-l1",
-      "exercise": 11,
+      "exercise": "choice-staz",
       "type": "choice",
       "text": "Emma wants to work at a company for three months during her studies. What is she looking for?",
-      "reuse": "u8-l1#8",
+      "reuse": "u8-l1#staz",
       "book": {
         "pdfPage": 128,
         "printedPage": 133,
@@ -121,7 +121,7 @@
     },
     {
       "lesson": "u8-l2",
-      "exercise": 4,
+      "exercise": "cez-vikend",
       "type": "intro",
       "text": "cez víkend = at the weekend",
       "picture": "A sunny Saturday: Emma, Lucia and Tomáš hike up a forest path in the hills above Bratislava with backpacks, Lucia leading the way.",
@@ -129,7 +129,7 @@
     },
     {
       "lesson": "u8-l2",
-      "exercise": 12,
+      "exercise": "v-lete",
       "type": "intro",
       "text": "v lete = in summer",
       "picture": "Summer: Emma and Lucia cycle along a path through green rolling hills under a hot sun.",
@@ -142,7 +142,7 @@
     },
     {
       "lesson": "u8-l2",
-      "exercise": 13,
+      "exercise": "v-zime",
       "type": "intro",
       "text": "v zime = in winter",
       "picture": "Winter: the same rolling hills under deep snow; Emma and Lucia, in woolly hats and scarves, trudge along the path.",
@@ -155,10 +155,10 @@
     },
     {
       "lesson": "u8-l7",
-      "exercise": 0,
+      "exercise": "choice-kedy-mate-cas",
       "type": "choice",
       "text": "Kedy máte čas na pohovor? What is the HR manager asking?",
-      "reuse": "u8-l1#10",
+      "reuse": "u8-l1#pohovor",
       "book": {
         "pdfPage": 128,
         "printedPage": 133,
@@ -168,10 +168,10 @@
     },
     {
       "lesson": "u8-l7",
-      "exercise": 14,
+      "exercise": "choice-i-studied-dublin",
       "type": "choice",
       "text": "Emma's CV says: “Študovala som v Dubline.” What does it mean?",
-      "reuse": "u8-l1#9",
+      "reuse": "u8-l1#zivotopis",
       "book": {
         "pdfPage": 128,
         "printedPage": 133,

@@ -29,27 +29,27 @@
     "en": "The conference",
     "t": "Конференція"
   },
-  "u9-l1.0.en": {
+  "u9-l1.konferencia.en": {
     "en": "conference",
     "t": "конференція"
   },
-  "u9-l1.0.note": {
+  "u9-l1.konferencia.note": {
     "en": "Tomáš ide **na konferenciu**. = Tomáš is going to a conference. Je **na konferencii**. = He is at the conference.",
     "t": "Tomáš ide **na konferenciu**. = Томаш іде на конференцію. Je **na konferencii**. = Він на конференції. Як і в українській: куди? — на конференцію, де? — на конференції."
   },
-  "u9-l1.1.en": {
+  "u9-l1.prednaska.en": {
     "en": "lecture, talk",
     "t": "лекція, доповідь"
   },
-  "u9-l1.1.note": {
+  "u9-l1.prednaska.note": {
     "en": "You know **prednáška** from unit 7. At a conference, **mať prednášku** means to give a talk: Tomáš má prednášku. = Tomáš is giving a talk. A presentation with slides is a **prezentácia**.",
     "t": "Слово **prednáška** ви вже знаєте з розділу 7. На конференції **mať prednášku** — це виступати з доповіддю: Tomáš má prednášku. = У Томаша доповідь. Презентація зі слайдами — **prezentácia**."
   },
-  "u9-l1.2.question": {
+  "u9-l1.choice-tomas-ide-na.question": {
     "en": "What does this mean?",
     "t": "Що це означає?"
   },
-  "u9-l1.2.options": {
+  "u9-l1.choice-tomas-ide-na.options": {
     "en": [
       "Tomáš is going to a conference.",
       "Tomáš is at a lecture.",
@@ -61,35 +61,35 @@
       "Томаш виступає з презентацією."
     ]
   },
-  "u9-l1.2.why": {
+  "u9-l1.choice-tomas-ide-na.why": {
     "en": "**Ísť na** + the object form is going somewhere: ide **na konferenciu** = is going to the conference. Being there is je **na konferencii**.",
     "t": "**Ísť na** + знахідний — це рух кудись: ide **na konferenciu**, як «їде на конференцію». А бути там — je **na konferencii**, як «на конференції»."
   },
-  "u9-l1.3.en": {
+  "u9-l1.pozvanka.en": {
     "en": "invitation",
     "t": "запрошення"
   },
-  "u9-l1.3.note": {
+  "u9-l1.pozvanka.note": {
     "en": "Dostal som **pozvánku**. = I got an invitation.",
     "t": "Dostal som **pozvánku**. = Я отримав запрошення. Знахідний відмінок: -a → -u, як у нас: книга → книгу."
   },
-  "u9-l1.4.en": {
+  "u9-l1.fill-tomas-dostal-pozvanku.en": {
     "en": "Tomáš got an invitation to the conference.",
     "t": "Томаш отримав запрошення на конференцію."
   },
-  "u9-l1.4.why": {
+  "u9-l1.fill-tomas-dostal-pozvanku.why": {
     "en": "The invitation is what Tomáš got, the object, so pozvánka changes -a to **-u**: dostal **pozvánku**.",
     "t": "Що отримав Томаш? Знахідний відмінок: pozvánka міняє -a на **-u**: dostal **pozvánku**."
   },
-  "u9-l1.5.en": {
+  "u9-l1.prihlaska.en": {
     "en": "registration form",
     "t": "заявка, реєстраційна форма"
   },
-  "u9-l1.5.note": {
+  "u9-l1.prihlaska.note": {
     "en": "**vypísať** prihlášku = to fill in the form",
     "t": "**vypísať** prihlášku = заповнити заявку (не «виписати»!)"
   },
-  "u9-l1.6.pairs": {
+  "u9-l1.match-konferencia.pairs": {
     "en": [
       "conference",
       "talk",
@@ -103,31 +103,31 @@
       "заявка"
     ]
   },
-  "u9-l1.7.en": {
+  "u9-l1.fill-musite-vypisat-prihlasku.en": {
     "en": "You have to fill in the registration form.",
     "t": "Вам треба заповнити заявку."
   },
-  "u9-l1.7.why": {
+  "u9-l1.fill-musite-vypisat-prihlasku.why": {
     "en": "The form is what you fill in, the object, so prihláška changes -a to **-u**: vypísať **prihlášku**.",
     "t": "Що треба заповнити? Знахідний відмінок: prihláška міняє -a на **-u**: vypísať **prihlášku**, як «заявку»."
   },
-  "u9-l1.8.en": {
+  "u9-l1.prestavka-na-kavu.en": {
     "en": "coffee break",
     "t": "перерва на каву"
   },
-  "u9-l1.8.note": {
+  "u9-l1.prestavka-na-kavu.note": {
     "en": "**prestávka** = a break. Na prestávke = during the break.",
     "t": "**prestávka** = перерва. Na prestávke = на перерві."
   },
-  "u9-l1.9.en": {
+  "u9-l1.listen-prestavka-na-kavu.en": {
     "en": "The coffee break is at ten.",
     "t": "Перерва на каву о десятій."
   },
-  "u9-l1.10.prompt": {
+  "u9-l1.build-tomas-ma-prednasku.prompt": {
     "en": "Tomáš is giving a talk at the conference.",
     "t": "У Томаша доповідь на конференції."
   },
-  "u9-l1.10.traps": {
+  "u9-l1.build-tomas-ma-prednasku.traps": {
     "en": [
       "Being at the conference answers “where?”, so **na** takes the locative, and nouns in -ia get -ii: na **konferencii**. Na konferenciu is for going there.",
       "The talk is what Tomáš has, the object, so prednáška changes -a to **-u**: má **prednášku**."
@@ -137,27 +137,27 @@
       "Не «у Томаша доповідь», а «Томаш має що?»: знахідний відмінок, тож prednáška міняє -a на **-u**: má **prednášku**."
     ]
   },
-  "u9-l1.11.en": {
+  "u9-l1.tesim-sa-na.en": {
     "en": "I'm looking forward to the conference.",
     "t": "Я з нетерпінням чекаю на конференцію."
   },
-  "u9-l1.11.note": {
+  "u9-l1.tesim-sa-na.note": {
     "en": "**tešiť sa na** + the object form: Teším sa na prednášku. Tvoja prednáška → na **tvoju** prednášku.",
     "t": "**tešiť sa na** + знахідний відмінок, як «чекати на що?»: Teším sa na prednášku. Tvoja prednáška → na **tvoju** prednášku."
   },
-  "u9-l1.12.question": {
+  "u9-l1.choice-dostala-som-pozvanku.question": {
     "en": "Emma got an invitation. How does she say it?",
     "t": "Емма отримала запрошення. Як вона це скаже?"
   },
-  "u9-l1.12.why": {
+  "u9-l1.choice-dostala-som-pozvanku.why": {
     "en": "Emma is a woman, so the past tense ends in **-a**: dostal**a** som. And an invitation is a **pozvánka**; a prihláška is a registration form.",
     "t": "Емма — жінка, тож минулий час на **-a**: dostal**a** som, «отримала». А запрошення — це **pozvánka**; prihláška — заявка."
   },
-  "u9-l1.13.prompt": {
+  "u9-l1.build-tesim-sa-na.prompt": {
     "en": "I'm looking forward to your talk.",
     "t": "Я з нетерпінням чекаю на твою доповідь."
   },
-  "u9-l1.13.traps": {
+  "u9-l1.build-tesim-sa-na.traps": {
     "en": [
       "**Tešiť sa na** takes the object form, so tvoja changes to **tvoju**, just like prednáška → prednášku.",
       "**Tešiť sa na** takes the object form, so prednáška changes -a to **-u**: na **prednášku**. Na prednáške is the locative: at the talk."
@@ -167,7 +167,7 @@
       "**Tešiť sa na** вимагає знахідного, тож prednáška міняє -a на **-u**: na **prednášku**, «на доповідь». Na prednáške — місцевий: «на доповіді»."
     ]
   },
-  "u9-l1.14.answers": {
+  "u9-l1.build-kedy-je-prestavka.answers": {
     "en": [
       "When is the coffee break?"
     ],
@@ -176,7 +176,7 @@
       "Коли буде перерва на каву?"
     ]
   },
-  "u9-l1.14.distractors": {
+  "u9-l1.build-kedy-je-prestavka.distractors": {
     "en": [
       "lecture",
       "where"
@@ -186,7 +186,7 @@
       "де"
     ]
   },
-  "u9-l1.15.en": {
+  "u9-l1.speak-tesim-sa-na.en": {
     "en": "I'm looking forward to the conference.",
     "t": "Я з нетерпінням чекаю на конференцію."
   },
@@ -194,11 +194,11 @@
     "en": "Verbs with sa",
     "t": "Дієслова з sa"
   },
-  "u9-l2.0.title": {
+  "u9-l2.grammar-verbs-sa.title": {
     "en": "Verbs with sa",
     "t": "Дієслова з sa (= -ся)"
   },
-  "u9-l2.0.body": {
+  "u9-l2.grammar-verbs-sa.body": {
     "en": [
       "Some Slovak verbs come with the little word **sa**. You already know a few: **volať sa** (to be called), **mať sa** (to be doing, as in “How are you?”), **učiť sa** (to learn, to study).",
       "Only the verb changes. **Sa** stays the same for everyone."
@@ -208,11 +208,11 @@
       "Відмінність: в українській -ся приростає до дієслова, а **sa** — окреме слово, однакове для всіх осіб; змінюється лише дієслово. Збігається не завжди: učím sa slovenčinu = вчу словацьку."
     ]
   },
-  "u9-l2.0.table.caption": {
+  "u9-l2.grammar-verbs-sa.table.caption": {
     "en": "tešiť sa na… = to look forward to…",
     "t": "tešiť sa na… = з нетерпінням чекати на…"
   },
-  "u9-l2.0.table.rows": {
+  "u9-l2.grammar-verbs-sa.table.rows": {
     "en": [
       [
         "ja",
@@ -266,7 +266,7 @@
       ]
     ]
   },
-  "u9-l2.0.examples": {
+  "u9-l2.grammar-verbs-sa.examples": {
     "en": [
       "I'm looking forward to the conference.",
       "How are you?",
@@ -278,11 +278,11 @@
       "Я вчу словацьку."
     ]
   },
-  "u9-l2.1.title": {
+  "u9-l2.grammar-sa-likes-second.title": {
     "en": "Sa likes second place",
     "t": "Sa любить друге місце"
   },
-  "u9-l2.1.body": {
+  "u9-l2.grammar-sa-likes-second.body": {
     "en": [
       "Like som and si in the past tense (unit 7), **sa** is a small, unstressed word that goes in second place, right after the first word or phrase. It never starts a sentence.",
       "If something else comes first (a name, a question word, a phrase), sa still takes second place and the verb comes after it."
@@ -292,7 +292,7 @@
       "Якщо першим іде щось інше (ім'я, питальне слово, словосполучення), sa однаково стоїть другим, а дієслово — вже після нього. Так само, як ся у «Як ся маєш?»."
     ]
   },
-  "u9-l2.1.table.head": {
+  "u9-l2.grammar-sa-likes-second.table.head": {
     "en": [
       "first",
       "second",
@@ -304,7 +304,7 @@
       "решта"
     ]
   },
-  "u9-l2.1.table.rows": {
+  "u9-l2.grammar-sa-likes-second.table.rows": {
     "en": [
       [
         "Teším",
@@ -350,7 +350,7 @@
       ]
     ]
   },
-  "u9-l2.1.examples": {
+  "u9-l2.grammar-sa-likes-second.examples": {
     "en": [
       "Where can I register?",
       "My name is Emma."
@@ -360,35 +360,35 @@
       "Мене звати Емма."
     ]
   },
-  "u9-l2.2.en": {
+  "u9-l2.fill-volam-sa-emma.en": {
     "en": "My name is Emma.",
     "t": "Мене звати Емма."
   },
-  "u9-l2.2.why": {
+  "u9-l2.fill-volam-sa-emma.why": {
     "en": "**Volať sa** means to be called, so the name needs sa: Volám **sa** Emma. Without sa, volám means I'm calling someone.",
     "t": "**Volať sa** — «називатися», тож при імені потрібне sa, наше -ся: Volám **sa** Emma. Без sa volám означає «кличу, дзвоню»."
   },
-  "u9-l2.3.en": {
+  "u9-l2.fill-my-sa-tesime.en": {
     "en": "We're looking forward to the break.",
     "t": "Ми з нетерпінням чекаємо на перерву."
   },
-  "u9-l2.3.why": {
+  "u9-l2.fill-my-sa-tesime.why": {
     "en": "With **my** (we) the verb ends in **-me**: tešíme sa. Teším goes with ja, tešia with oni.",
     "t": "З **my** (ми) дієслово закінчується на **-me**: teší**me** sa. Teším — з ja, tešia — з oni."
   },
-  "u9-l2.4.question": {
+  "u9-l2.choice-volam-sa-tomas.question": {
     "en": "Which sentence is correct?",
     "t": "Яке речення правильне?"
   },
-  "u9-l2.4.why": {
+  "u9-l2.choice-volam-sa-tomas.why": {
     "en": "**Sa** never starts a sentence. It takes second place, right after the first word: Volám **sa** Tomáš.",
     "t": "**Sa** ніколи не починає речення, а стоїть на другому місці, одразу після першого слова: Volám **sa** Tomáš — як ся в «Як ся маєш?»."
   },
-  "u9-l2.5.prompt": {
+  "u9-l2.build-ucime-sa-slovencinu.prompt": {
     "en": "We're learning Slovak.",
     "t": "Ми вчимо словацьку."
   },
-  "u9-l2.5.traps": {
+  "u9-l2.build-ucime-sa-slovencinu.traps": {
     "en": [
       "**Učiť sa** (to learn) always comes with **sa**, and sa stays the same for everyone: Učíme **sa**.",
       "Slovak is what you learn, the object, so slovenčina changes -a to **-u**: učíme sa **slovenčinu**."
@@ -398,23 +398,23 @@
       "Словацьку вчать — це знахідний, тож slovenčina міняє -a на **-u**: učíme sa **slovenčinu**, як «словацьку»."
     ]
   },
-  "u9-l2.6.en": {
+  "u9-l2.fill-na-konferenciu-sa.en": {
     "en": "I'm really looking forward to the conference.",
     "t": "Я дуже чекаю на конференцію."
   },
-  "u9-l2.6.why": {
+  "u9-l2.fill-na-konferenciu-sa.why": {
     "en": "**Tešiť sa** keeps its sa, and sa takes second place, right after the first phrase: Na konferenciu **sa** teším.",
     "t": "**Tešiť sa** не губить sa, а sa стоїть другим, одразу після першого словосполучення: Na konferenciu **sa** teším."
   },
-  "u9-l2.7.en": {
+  "u9-l2.listen-kde-sa-mozem.en": {
     "en": "Where can I register?",
     "t": "Де я можу зареєструватися?"
   },
-  "u9-l2.8.title": {
+  "u9-l2.grammar-or-without-sa.title": {
     "en": "With or without sa",
     "t": "Із sa чи без"
   },
-  "u9-l2.8.body": {
+  "u9-l2.grammar-or-without-sa.body": {
     "en": [
       "Many verbs exist with and without sa. Without sa, you do something to someone or something. With sa, the action comes back to you, or people do it together.",
       "**Stretnúť sa** and **vrátiť sa** describe one finished action, so their present form often means the future: Stretneme sa. = We'll meet."
@@ -424,7 +424,7 @@
       "**Stretnúť sa** і **vrátiť sa** — доконаного виду, тож, як і в нас, їхні особові форми означають майбутнє: Stretneme sa. = Зустрінемося."
     ]
   },
-  "u9-l2.8.table.head": {
+  "u9-l2.grammar-or-without-sa.table.head": {
     "en": [
       "without sa",
       "with sa"
@@ -434,7 +434,7 @@
       "із sa"
     ]
   },
-  "u9-l2.8.table.rows": {
+  "u9-l2.grammar-or-without-sa.table.rows": {
     "en": [
       [
         "volať Luciu (call Lucia)",
@@ -472,7 +472,7 @@
       ]
     ]
   },
-  "u9-l2.8.examples": {
+  "u9-l2.grammar-or-without-sa.examples": {
     "en": [
       "Tomáš and Emma will meet at the conference.",
       "I'll be back in an hour."
@@ -482,11 +482,11 @@
       "Я повернуся за годину."
     ]
   },
-  "u9-l2.9.question": {
+  "u9-l2.choice-tomas-vola-luciu.question": {
     "en": "What does this mean?",
     "t": "Що це означає?"
   },
-  "u9-l2.9.options": {
+  "u9-l2.choice-tomas-vola-luciu.options": {
     "en": [
       "Tomáš is calling Lucia.",
       "Tomáš's name is Lucia.",
@@ -498,15 +498,15 @@
       "Томаш зустрічає Луцію."
     ]
   },
-  "u9-l2.9.why": {
+  "u9-l2.choice-tomas-vola-luciu.why": {
     "en": "Without sa, **volať** is to call someone: volá Luciu = is calling Lucia. With sa it gives a name: Tomáš **sa volá**… = Tomáš is called…",
     "t": "Без sa **volať** — «кликати, дзвонити»: volá Luciu = дзвонить Луції. Із sa — про ім'я: Tomáš **sa volá**… = Томаша звати…"
   },
-  "u9-l2.10.prompt": {
+  "u9-l2.build-emma-a-tomas.prompt": {
     "en": "Emma and Tomáš will meet at the conference.",
     "t": "Емма й Томаш зустрінуться на конференції."
   },
-  "u9-l2.10.traps": {
+  "u9-l2.build-emma-a-tomas.traps": {
     "en": [
       "Emma and Tomáš are two people (oni), so the verb ends in **-ú**: **stretnú** sa. Stretne is for one person (on, ona).",
       "Meeting at the conference answers “where?”, so **na** takes the locative: na **konferencii**. Na konferenciu is for going there."
@@ -516,19 +516,19 @@
       "Зустрінуться на конференції — це «де?», тож **na** + місцевий: na **konferencii**. Na konferenciu — коли туди йдуть."
     ]
   },
-  "u9-l2.11.en": {
+  "u9-l2.fill-kedy-sa-vratis.en": {
     "en": "When are you coming back from the conference?",
     "t": "Коли ти повернешся з конференції?"
   },
-  "u9-l2.11.why": {
+  "u9-l2.fill-kedy-sa-vratis.why": {
     "en": "The question is to **you** (ty), so the verb ends in **-š**: vrátiš sa. Vrátim goes with ja, vráti with on or ona.",
     "t": "Питання звернене до співрозмовника (ty), тож дієслово закінчується на **-š**: vráti**š** sa, як «повернешся». Vrátim — з ja, vráti — з on чи ona."
   },
-  "u9-l2.12.prompt": {
+  "u9-l2.build-vratim-sa-o.prompt": {
     "en": "I'll be back at five.",
     "t": "Я повернуся о п'ятій."
   },
-  "u9-l2.12.traps": {
+  "u9-l2.build-vratim-sa-o.traps": {
     "en": [
       "Coming back is **vrátiť sa**, with sa: Vrátim **sa**. Without sa, vrátiť means to return something, like a book.",
       "Here **ja** (I) is speaking, so the verb ends in **-m**: **Vrátim** sa. Vrátiš goes with ty."
@@ -538,7 +538,7 @@
       "Тут говорить **ja**, тож дієслово закінчується на **-m**: **Vrátim** sa, «повернуся». Vrátiš — для ty."
     ]
   },
-  "u9-l2.13.pairs": {
+  "u9-l2.match-tesit-sa.pairs": {
     "en": [
       "to look forward",
       "to come back",
@@ -554,7 +554,7 @@
       "вчитися"
     ]
   },
-  "u9-l2.14.answers": {
+  "u9-l2.build-tomas-sa-tesi.answers": {
     "en": [
       "Tomáš is looking forward to the break."
     ],
@@ -563,7 +563,7 @@
       "Томаш чекає на перерву з нетерпінням."
     ]
   },
-  "u9-l2.14.distractors": {
+  "u9-l2.build-tomas-sa-tesi.distractors": {
     "en": [
       "lecture",
       "back"
@@ -573,7 +573,7 @@
       "повернеться"
     ]
   },
-  "u9-l2.15.en": {
+  "u9-l2.speak-velmi-sa-tesim.en": {
     "en": "I'm really looking forward to it!",
     "t": "Чекаю не дочекаюся!"
   },
@@ -581,27 +581,27 @@
     "en": "Working on a computer",
     "t": "Робота з комп'ютером"
   },
-  "u9-l3.0.en": {
+  "u9-l3.subor.en": {
     "en": "file",
     "t": "файл"
   },
-  "u9-l3.0.note": {
+  "u9-l3.subor.note": {
     "en": "A computer file. Kde je ten súbor? = Where's that file?",
     "t": "Комп'ютерний файл. Kde je ten súbor? = Де той файл?"
   },
-  "u9-l3.1.en": {
+  "u9-l3.otvorit.en": {
     "en": "to open",
     "t": "відкрити"
   },
-  "u9-l3.1.note": {
+  "u9-l3.otvorit.note": {
     "en": "The opposite is **zatvoriť** (to close): otvoriť súbor, zatvoriť súbor.",
     "t": "Протилежне — **zatvoriť** (закрити): otvoriť súbor, zatvoriť súbor."
   },
-  "u9-l3.2.question": {
+  "u9-l3.choice-tomas-otvoril-subor.question": {
     "en": "What does this mean?",
     "t": "Що це означає?"
   },
-  "u9-l3.2.options": {
+  "u9-l3.choice-tomas-otvoril-subor.options": {
     "en": [
       "Tomáš opened the file.",
       "Tomáš closed the file.",
@@ -613,31 +613,31 @@
       "Томаш роздрукував файл."
     ]
   },
-  "u9-l3.3.en": {
+  "u9-l3.ulozit.en": {
     "en": "to save",
     "t": "зберегти"
   },
-  "u9-l3.3.note": {
+  "u9-l3.ulozit.note": {
     "en": "Musíš **uložiť** súbor. = You have to save the file.",
     "t": "Musíš **uložiť** súbor. = Ти мусиш зберегти файл."
   },
-  "u9-l3.4.en": {
+  "u9-l3.fill-emma-ulozila-subor.en": {
     "en": "Emma saved the file.",
     "t": "Емма зберегла файл."
   },
-  "u9-l3.4.why": {
+  "u9-l3.fill-emma-ulozila-subor.why": {
     "en": "Emma is a woman, so the past tense ends in **-la**: uložil**a**. Uložil is for a man, uložili for more people.",
     "t": "Емма — жінка, тож минулий час на **-la**: uložil**a**, «зберегла». Uložil — про чоловіка, uložili — про кількох."
   },
-  "u9-l3.5.en": {
+  "u9-l3.kliknut-na-ikonu.en": {
     "en": "to click on the icon",
     "t": "клацнути на іконку"
   },
-  "u9-l3.5.note": {
+  "u9-l3.kliknut-na-ikonu.note": {
     "en": "**kliknúť na** + the object form: kliknúť na súbor, kliknúť na ikonu.",
     "t": "**kliknúť na** + знахідний відмінок, як «клацнути на що?»: kliknúť na súbor, kliknúť na ikonu."
   },
-  "u9-l3.6.pairs": {
+  "u9-l3.match-subor.pairs": {
     "en": [
       "file",
       "to open",
@@ -653,39 +653,39 @@
       "клацнути"
     ]
   },
-  "u9-l3.7.en": {
+  "u9-l3.fill-musite-kliknut-na.en": {
     "en": "You have to click on the icon.",
     "t": "Вам треба клацнути на іконку."
   },
-  "u9-l3.7.why": {
+  "u9-l3.fill-musite-kliknut-na.why": {
     "en": "You click **on** something: **kliknúť na** + the object form, na ikonu, na súbor.",
     "t": "Як і в нас, клацають на щось: **kliknúť na** + знахідний, na ikonu, na súbor."
   },
-  "u9-l3.8.en": {
+  "u9-l3.kopirovat-a-vlozit.en": {
     "en": "to copy and paste",
     "t": "скопіювати й вставити"
   },
-  "u9-l3.9.question": {
+  "u9-l3.choice-vlozit.question": {
     "en": "You want to put copied text into your file. Which verb do you need?",
     "t": "Ви хочете додати скопійований текст у свій файл. Яке дієслово потрібне?"
   },
-  "u9-l3.10.en": {
+  "u9-l3.listen-kde-je-ten.en": {
     "en": "Where's that file?",
     "t": "Де той файл?"
   },
-  "u9-l3.11.en": {
+  "u9-l3.vytlacit.en": {
     "en": "to print",
     "t": "роздрукувати, надрукувати"
   },
-  "u9-l3.11.note": {
+  "u9-l3.vytlacit.note": {
     "en": "**tlačiareň** (printer) comes from the same word.",
     "t": "**tlačiareň** (принтер) — від того самого слова (tlačiť = друкувати)."
   },
-  "u9-l3.12.prompt": {
+  "u9-l3.build-musim-vytlacit-prihlasku.prompt": {
     "en": "I have to print the registration form.",
     "t": "Мені треба роздрукувати заявку."
   },
-  "u9-l3.12.traps": {
+  "u9-l3.build-musim-vytlacit-prihlasku.traps": {
     "en": [
       "The form is what you print, the object, so prihláška changes -a to **-u**: vytlačiť **prihlášku**.",
       "To print is **vytlačiť**, from the same word as tlačiareň (printer). Uložiť means to save a file."
@@ -695,23 +695,23 @@
       "«Роздрукувати» — **vytlačiť**, від того самого слова, що й tlačiareň (принтер). Uložiť означає «зберегти» файл."
     ]
   },
-  "u9-l3.13.en": {
+  "u9-l3.poslat-e-mailom.en": {
     "en": "to send by e-mail",
     "t": "надіслати електронною поштою"
   },
-  "u9-l3.13.note": {
+  "u9-l3.poslat-e-mailom.note": {
     "en": "**pošlem** = I'll send, **poslal som** = I sent.",
     "t": "**pošlem** = пошлю, надішлю; **poslal som** = я послав, надіслав. E-mailom — орудний відмінок, як «поштою»."
   },
-  "u9-l3.14.en": {
+  "u9-l3.fill-lucia-poslala-prezentaciu.en": {
     "en": "Lucia sent the presentation by e-mail.",
     "t": "Луція надіслала презентацію електронною поштою."
   },
-  "u9-l3.14.why": {
+  "u9-l3.fill-lucia-poslala-prezentaciu.why": {
     "en": "The presentation is what Lucia sent, the object, so prezentácia changes -a to **-u**: poslala **prezentáciu**.",
     "t": "Що надіслала Луція? Знахідний відмінок: prezentácia міняє -a на **-u**: poslala **prezentáciu**, як «презентацію»."
   },
-  "u9-l3.15.answers": {
+  "u9-l3.build-emma-nemoze-otvorit.answers": {
     "en": [
       "Emma can't open the file."
     ],
@@ -719,7 +719,7 @@
       "Емма не може відкрити файл."
     ]
   },
-  "u9-l3.15.distractors": {
+  "u9-l3.build-emma-nemoze-otvorit.distractors": {
     "en": [
       "save",
       "can"
@@ -729,11 +729,11 @@
       "можу"
     ]
   },
-  "u9-l3.16.en": {
+  "u9-l3.listen-tomas-poslal-subor.en": {
     "en": "Tomáš sent the file by e-mail.",
     "t": "Томаш надіслав файл електронною поштою."
   },
-  "u9-l3.17.en": {
+  "u9-l3.speak-musim-ulozit-subor.en": {
     "en": "I have to save the file.",
     "t": "Мені треба зберегти файл."
   },
@@ -741,11 +741,11 @@
     "en": "Sa or si?",
     "t": "Sa чи si?"
   },
-  "u9-l4.0.title": {
+  "u9-l4.grammar-si-yourself.title": {
     "en": "Si: for yourself",
     "t": "Si — це «собі»"
   },
-  "u9-l4.0.body": {
+  "u9-l4.grammar-si-yourself.body": {
     "en": [
       "Some verbs take **si** instead of sa. **Si** means “for yourself” or “to yourself”, and there is usually an object after it.",
       "Compare: Umývam **sa**. = I'm washing (myself). Umývam **si** ruky. = I'm washing my hands."
@@ -755,7 +755,7 @@
       "Порівняйте: Umývam **sa**. = Я миюся. Umývam **si** ruky. = Я мию (собі) руки. Тобто sa ≈ «себе» (-ся), а si ≈ «собі»."
     ]
   },
-  "u9-l4.0.table.head": {
+  "u9-l4.grammar-si-yourself.table.head": {
     "en": [
       "with si",
       "meaning"
@@ -765,7 +765,7 @@
       "значення"
     ]
   },
-  "u9-l4.0.table.rows": {
+  "u9-l4.grammar-si-yourself.table.rows": {
     "en": [
       [
         "dať **si** kávu",
@@ -811,7 +811,7 @@
       ]
     ]
   },
-  "u9-l4.0.examples": {
+  "u9-l4.grammar-si-yourself.examples": {
     "en": [
       "I'll have a coffee.",
       "I'm washing my hands.",
@@ -823,11 +823,11 @@
       "Думаю, що це добра ідея."
     ]
   },
-  "u9-l4.1.title": {
+  "u9-l4.grammar-sa-si-past.title": {
     "en": "Sa and si in the past tense",
     "t": "Sa і si в минулому часі"
   },
-  "u9-l4.1.body": {
+  "u9-l4.grammar-sa-si-past.body": {
     "en": [
       "In the past tense, **som, si, sme, ste** come second, and sa or si follows right after them.",
       "With on, ona and oni there is no som, si, sme or ste, so sa or si comes second on its own. And yes, ty can give **si si**: Dal si si kávu? = Did you have a coffee?"
@@ -837,7 +837,7 @@
       "З on, ona, oni цих слів немає, тож другим стоїть саме sa чи si. А з ty буває навіть **si si**: Dal si si kávu? = Ти випив кави? (перше si означає «ти», друге — «собі»)."
     ]
   },
-  "u9-l4.1.table.head": {
+  "u9-l4.grammar-sa-si-past.table.head": {
     "en": [
       "",
       "with sa",
@@ -849,7 +849,7 @@
       "із si"
     ]
   },
-  "u9-l4.1.table.rows": {
+  "u9-l4.grammar-sa-si-past.table.rows": {
     "en": [
       [
         "ja",
@@ -915,7 +915,7 @@
       ]
     ]
   },
-  "u9-l4.1.examples": {
+  "u9-l4.grammar-sa-si-past.examples": {
     "en": [
       "We met at the conference.",
       "Emma had a coffee."
@@ -925,35 +925,35 @@
       "Емма випила кави."
     ]
   },
-  "u9-l4.2.en": {
+  "u9-l4.fill-lucia-si-umyva.en": {
     "en": "Lucia is washing her hands.",
     "t": "Луція миє руки."
   },
-  "u9-l4.2.why": {
+  "u9-l4.fill-lucia-si-umyva.why": {
     "en": "Washing something of your own takes **si**, with the object after it: umýva **si** ruky. **Sa** is for washing yourself, with nothing after it.",
     "t": "Мити щось своє — із **si** («собі»), а після нього предмет: umýva **si** ruky, «миє (собі) руки». **Sa** — коли миються самі, без предмета."
   },
-  "u9-l4.3.en": {
+  "u9-l4.fill-dam-si-kavu.en": {
     "en": "I'll have a coffee, please.",
     "t": "Мені каву, будь ласка."
   },
-  "u9-l4.3.why": {
+  "u9-l4.fill-dam-si-kavu.why": {
     "en": "Having something to eat or drink is **dať si**: Dám **si** kávu = I'll have a coffee (for myself).",
     "t": "Узяти собі щось поїсти чи попити — **dať si**: Dám **si** kávu, дослівно «дам собі каву»."
   },
-  "u9-l4.4.question": {
+  "u9-l4.choice-tomas-sa-umyva.question": {
     "en": "Which one means “Tomáš is washing (himself)”?",
     "t": "Яке речення означає «Томаш миється»?"
   },
-  "u9-l4.4.why": {
+  "u9-l4.choice-tomas-sa-umyva.why": {
     "en": "Washing yourself, with no object, takes **sa**: Tomáš **sa** umýva. **Si** needs something after it: umýva si ruky.",
     "t": "Митися самому, без предмета, — це **sa**, наше -ся: Tomáš **sa** umýva, «Томаш миється». **Si** потребує предмета: umýva si ruky."
   },
-  "u9-l4.5.prompt": {
+  "u9-l4.build-emma-si-kupila.prompt": {
     "en": "Emma bought herself a T-shirt.",
     "t": "Емма купила собі футболку."
   },
-  "u9-l4.5.traps": {
+  "u9-l4.build-emma-si-kupila.traps": {
     "en": [
       "Buying something for yourself is **kúpiť si**, like dať si kávu: **si** kúpila tričko. Si means “for yourself”, with the thing after it.",
       "Emma is a woman, so the past tense ends in **-la**: **kúpila**. Kúpil is for a man."
@@ -963,15 +963,15 @@
       "Емма — жінка, тож минулий час закінчується на **-la**: **kúpila**, «купила». Kúpil — про чоловіка."
     ]
   },
-  "u9-l4.6.en": {
+  "u9-l4.listen-kedy-si-sa.en": {
     "en": "When did you come back?",
     "t": "Коли ти повернувся?"
   },
-  "u9-l4.7.title": {
+  "u9-l4.grammar-small-words-stick.title": {
     "en": "Small words stick together",
     "t": "Короткі слова тримаються разом"
   },
-  "u9-l4.7.body": {
+  "u9-l4.grammar-small-words-stick.body": {
     "en": [
       "Anything can come first: a name, a time word, a question word. Then come the small words, always in this order: **som, si, sme, ste** first, then **sa** or **si**. The rest follows."
     ],
@@ -979,7 +979,7 @@
       "Першим може бути що завгодно: ім'я, слово про час, питальне слово. Далі йдуть короткі слова, завжди в такому порядку: спершу **som, si, sme, ste**, потім **sa** чи **si**. А тоді — все інше."
     ]
   },
-  "u9-l4.7.table.head": {
+  "u9-l4.grammar-small-words-stick.table.head": {
     "en": [
       "first",
       "small words",
@@ -991,7 +991,7 @@
       "решта"
     ]
   },
-  "u9-l4.7.table.rows": {
+  "u9-l4.grammar-small-words-stick.table.rows": {
     "en": [
       [
         "Včera",
@@ -1037,7 +1037,7 @@
       ]
     ]
   },
-  "u9-l4.7.examples": {
+  "u9-l4.grammar-small-words-stick.examples": {
     "en": [
       "We met at the conference yesterday.",
       "I had a coffee during the break."
@@ -1047,19 +1047,19 @@
       "На перерві я випила кави."
     ]
   },
-  "u9-l4.8.en": {
+  "u9-l4.fill-v-piatok-sme.en": {
     "en": "We met Tomáš on Friday.",
     "t": "У п'ятницю ми зустрілися з Томашем."
   },
-  "u9-l4.8.why": {
+  "u9-l4.fill-v-piatok-sme.why": {
     "en": "**My** (we) in the past tense needs **sme**, and it comes before sa: V piatok **sme sa** stretli.",
     "t": "**My** (ми) у минулому часі потребує **sme**, і воно стоїть перед sa: V piatok **sme sa** stretli."
   },
-  "u9-l4.9.prompt": {
+  "u9-l4.build-stretli-sme-sa.prompt": {
     "en": "We met at the conference.",
     "t": "Ми зустрілися на конференції."
   },
-  "u9-l4.9.traps": {
+  "u9-l4.build-stretli-sme-sa.traps": {
     "en": [
       "Meeting up is **stretnúť sa**, a verb with sa, and sa comes right after sme: Stretli sme **sa**.",
       "With my (we), the past form ends in **-li** and takes sme: **Stretli** sme sa. Stretol is for one man."
@@ -1069,19 +1069,19 @@
       "З my (ми) форма минулого закінчується на **-li** і має sme: **Stretli** sme sa, «зустрілися». Stretol — про одного чоловіка."
     ]
   },
-  "u9-l4.10.question": {
+  "u9-l4.choice-kde-ste-sa.question": {
     "en": "Which word order is correct?",
     "t": "Який порядок слів правильний?"
   },
-  "u9-l4.10.why": {
+  "u9-l4.choice-kde-ste-sa.why": {
     "en": "The small words go second, in a fixed order: **ste** first, then **sa**, right after the question word: Kde **ste sa** stretli?",
     "t": "Короткі слова стоять другими й у сталому порядку: спершу **ste**, потім **sa**, одразу після питального слова: Kde **ste sa** stretli?"
   },
-  "u9-l4.11.prompt": {
+  "u9-l4.build-tomas-sa-vratil.prompt": {
     "en": "Tomáš came back at six.",
     "t": "Томаш повернувся о шостій."
   },
-  "u9-l4.11.traps": {
+  "u9-l4.build-tomas-sa-vratil.traps": {
     "en": [
       "Coming back is **vrátiť sa**, a verb with sa: Tomáš **sa** vrátil. Si (for yourself) needs an object after it, like dať si kávu.",
       "Tomáš is a man, so the past form ends in **-l**: **vrátil**. Vrátila is for a woman."
@@ -1091,15 +1091,15 @@
       "Томаш — чоловік, тож минулий час закінчується на **-l**, як наше -в: **vrátil**, «повернувся». Vrátila — про жінку."
     ]
   },
-  "u9-l4.12.en": {
+  "u9-l4.fill-lucia-si-zavolala.en": {
     "en": "Lucia called a taxi.",
     "t": "Луція викликала таксі."
   },
-  "u9-l4.12.why": {
+  "u9-l4.fill-lucia-si-zavolala.why": {
     "en": "Calling a taxi for yourself is **zavolať si** taxík. With Lucia (ona) the past tense has no som or sme, so **si** comes second on its own.",
     "t": "Викликати таксі для себе — **zavolať si** taxík, «викликати собі». З Луцією (ona) у минулому немає som чи sme, тож **si** стоїть другим саме."
   },
-  "u9-l4.13.answers": {
+  "u9-l4.build-vcera-som-sa.answers": {
     "en": [
       "I met Lucia yesterday.",
       "Yesterday I met Lucia."
@@ -1110,7 +1110,7 @@
       "Я зустрілася з Луцією вчора."
     ]
   },
-  "u9-l4.13.distractors": {
+  "u9-l4.build-vcera-som-sa.distractors": {
     "en": [
       "called",
       "today"
@@ -1120,11 +1120,11 @@
       "сьогодні"
     ]
   },
-  "u9-l4.14.question": {
+  "u9-l4.choice-dal-si-si.question": {
     "en": "What does this mean?",
     "t": "Що це означає?"
   },
-  "u9-l4.14.options": {
+  "u9-l4.choice-dal-si-si.options": {
     "en": [
       "Did you have a coffee?",
       "Did he have a coffee?",
@@ -1136,11 +1136,11 @@
       "Ти зараз п'єш каву?"
     ]
   },
-  "u9-l4.14.why": {
+  "u9-l4.choice-dal-si-si.why": {
     "en": "The first **si** is ty in the past tense (dal si = you had), the second belongs to **dať si** kávu (to have a coffee). So: Did you have a coffee?",
     "t": "Перше **si** — це ty в минулому часі (dal si = ти взяв), друге — з **dať si** kávu, «узяти собі кави». Тож: Ти випив кави?"
   },
-  "u9-l4.15.en": {
+  "u9-l4.speak-dam-si-kavu.en": {
     "en": "I'll have a coffee.",
     "t": "Я вип'ю кави."
   },
@@ -1148,27 +1148,27 @@
     "en": "The questionnaire",
     "t": "Анкета"
   },
-  "u9-l5.0.en": {
+  "u9-l5.dotaznik.en": {
     "en": "questionnaire, form",
     "t": "анкета, опитувальник"
   },
-  "u9-l5.0.note": {
+  "u9-l5.dotaznik.note": {
     "en": "A form asks for your **meno a priezvisko** (first name and surname) and **dátum narodenia** (date of birth).",
     "t": "В анкеті питають **meno a priezvisko** (ім'я та прізвище) і **dátum narodenia** (дату народження)."
   },
-  "u9-l5.1.en": {
+  "u9-l5.vypiste-prosim-dotaznik.en": {
     "en": "Please fill in the questionnaire.",
     "t": "Заповніть, будь ласка, анкету."
   },
-  "u9-l5.1.note": {
+  "u9-l5.vypiste-prosim-dotaznik.note": {
     "en": "**vypísať** = to fill in. To a friend: Vypíš dotazník.",
     "t": "**vypísať** = заповнити. Другові (до «ти»): Vypíš dotazník."
   },
-  "u9-l5.2.question": {
+  "u9-l5.choice-vypiste-prosim-prihlasku.question": {
     "en": "What are you asked to do?",
     "t": "Що вас просять зробити?"
   },
-  "u9-l5.2.options": {
+  "u9-l5.choice-vypiste-prosim-prihlasku.options": {
     "en": [
       "Fill in the registration form.",
       "Print the invitation.",
@@ -1180,15 +1180,15 @@
       "Підписати анкету."
     ]
   },
-  "u9-l5.3.en": {
+  "u9-l5.trvale-bydlisko.en": {
     "en": "permanent address",
     "t": "постійне місце проживання"
   },
-  "u9-l5.3.note": {
+  "u9-l5.trvale-bydlisko.note": {
     "en": "Below it: **ulica** (street), **číslo** (number), **PSČ** (postcode), **mesto** (town).",
     "t": "Нижче: **ulica** (вулиця), **číslo** (номер), **PSČ** (поштовий індекс), **mesto** (місто)."
   },
-  "u9-l5.4.pairs": {
+  "u9-l5.match-meno.pairs": {
     "en": [
       "first name",
       "surname",
@@ -1204,39 +1204,39 @@
       "вулиця"
     ]
   },
-  "u9-l5.5.en": {
+  "u9-l5.listen-ake-je-vase.en": {
     "en": "What is your permanent address?",
     "t": "Яке ваше постійне місце проживання?"
   },
-  "u9-l5.6.en": {
+  "u9-l5.narodnost.en": {
     "en": "nationality",
     "t": "національність"
   },
-  "u9-l5.6.note": {
+  "u9-l5.narodnost.note": {
     "en": "Next to it you often see **štátna príslušnosť** (citizenship).",
     "t": "Поруч часто є графа **štátna príslušnosť** (громадянство). Як і в нас, це не те саме, що національність."
   },
-  "u9-l5.7.en": {
+  "u9-l5.zamestnavatel.en": {
     "en": "employer",
     "t": "роботодавець"
   },
-  "u9-l5.7.note": {
+  "u9-l5.zamestnavatel.note": {
     "en": "Don't mix it up with **zamestnanie** (occupation). Jana's employer is a firma (company) **v Košiciach** (in Košice).",
     "t": "Не плутайте із **zamestnanie** (рід занять, професія). Роботодавець Яни — firma (фірма) **v Košiciach** (у Кошицях)."
   },
-  "u9-l5.8.en": {
+  "u9-l5.fill-aka-je-vasa.en": {
     "en": "What is your nationality?",
     "t": "Яка ваша національність?"
   },
-  "u9-l5.8.why": {
+  "u9-l5.fill-aka-je-vasa.why": {
     "en": "Nationality is **národnosť**. It's also the only feminine word here, which fits **aká** and **vaša**.",
     "t": "«Національність» — **národnosť**. До того ж це єдине слово жіночого роду, як і наше «національність», тож воно пасує до **aká** і **vaša**."
   },
-  "u9-l5.9.prompt": {
+  "u9-l5.build-moj-zamestnavatel-je.prompt": {
     "en": "My employer is a company in Košice.",
     "t": "Мій роботодавець — фірма в Кошицях."
   },
-  "u9-l5.9.traps": {
+  "u9-l5.build-moj-zamestnavatel-je.traps": {
     "en": [
       "Zamestnávateľ is masculine (it ends in a consonant), so “my” is **Môj**. Moja is for feminine words like firma.",
       "After **v** (in) comes the locative. Košice is plural, so it takes a plural ending: v **Košiciach**."
@@ -1246,35 +1246,35 @@
       "Після **v** (в) — місцевий відмінок. Košice — множина, як і наші «Кошиці», тож закінчення множини, пор. -ях: v **Košiciach**."
     ]
   },
-  "u9-l5.10.en": {
+  "u9-l5.podpiste-sa-tu.en": {
     "en": "Please sign here.",
     "t": "Підпишіться тут, будь ласка."
   },
-  "u9-l5.10.note": {
+  "u9-l5.podpiste-sa-tu.note": {
     "en": "**podpísať sa** = to sign (your name). One more verb with sa!",
     "t": "**podpísať sa** = підписатися. Ще одне дієслово з sa — і в українській теж із -ся!"
   },
-  "u9-l5.11.en": {
+  "u9-l5.fill-emma-vypisala-dotaznik.en": {
     "en": "Emma filled in the questionnaire and signed it.",
     "t": "Емма заповнила анкету й підписалася."
   },
-  "u9-l5.11.why": {
+  "u9-l5.fill-emma-vypisala-dotaznik.why": {
     "en": "Signing your name is **podpísať sa**, a verb with sa: podpísala **sa**. Si would need an object after it.",
     "t": "«Підписатися» — **podpísať sa**, із sa, як і наше -ся: podpísala **sa**, «підписалася». Si потребувало б предмета після себе."
   },
-  "u9-l5.12.en": {
+  "u9-l5.ako-sa-vam.en": {
     "en": "How did you like the conference?",
     "t": "Як вам сподобалася конференція?"
   },
-  "u9-l5.12.note": {
+  "u9-l5.ako-sa-vam.note": {
     "en": "**páčiť sa** = to please: Páči sa **mi**. = I like it (it pleases me). The verb agrees with the thing you like: prednáška sa mi páčil**a**, program sa mi páčil.",
     "t": "**páčiť sa** = подобатися, і будова така сама, як в українській: Páči sa **mi**. = Мені подобається. Дієслово узгоджується з тим, що подобається: prednáška sa mi páčil**a**, program sa mi páčil."
   },
-  "u9-l5.13.prompt": {
+  "u9-l5.build-pacila-sa-mi.prompt": {
     "en": "I liked the lecture.",
     "t": "Мені сподобалася лекція."
   },
-  "u9-l5.13.traps": {
+  "u9-l5.build-pacila-sa-mi.traps": {
     "en": [
       "With páčiť sa, the verb agrees with what you like: prednáška is feminine, so **Páčila**. Páčil goes with a masculine word, like program.",
       "**Páčiť sa** (to please) is a verb with sa, and it's always **sa**: Páčila **sa** mi."
@@ -1284,15 +1284,15 @@
       "**Páčiť sa** — дієслово із sa, як наше «подобатися» з -ся, і завжди саме **sa**: Páčila **sa** mi."
     ]
   },
-  "u9-l5.14.question": {
+  "u9-l5.choice-konferencia-sa-mi.question": {
     "en": "Which one is correct?",
     "t": "Який варіант правильний?"
   },
-  "u9-l5.14.why": {
+  "u9-l5.choice-konferencia-sa-mi.why": {
     "en": "With páčiť sa, the verb agrees with what you like: konferencia is feminine, so páčil**a**. And it's always **sa**: páčiť sa.",
     "t": "Як і в нас («конференція мені сподобалася»), páčiť sa узгоджується з тим, що подобається: konferencia — жіночого роду, тож páčil**a**. І завжди з **sa**."
   },
-  "u9-l5.15.answers": {
+  "u9-l5.build-aky-je-vas.answers": {
     "en": [
       "What is your date of birth?",
       "What's your date of birth?"
@@ -1302,7 +1302,7 @@
       "Яка у вас дата народження?"
     ]
   },
-  "u9-l5.15.distractors": {
+  "u9-l5.build-aky-je-vas.distractors": {
     "en": [
       "address",
       "where"
@@ -1312,7 +1312,7 @@
       "де"
     ]
   },
-  "u9-l5.16.en": {
+  "u9-l5.speak-podpiste-sa-tu.en": {
     "en": "Please sign here.",
     "t": "Підпишіться тут, будь ласка."
   },
@@ -1320,7 +1320,7 @@
     "en": "Review",
     "t": "Повторення"
   },
-  "u9-l6.0.pairs": {
+  "u9-l6.match-subor.pairs": {
     "en": [
       "file",
       "invitation",
@@ -1336,19 +1336,19 @@
       "роботодавець"
     ]
   },
-  "u9-l6.1.en": {
+  "u9-l6.fill-tesim-sa-na.en": {
     "en": "I'm looking forward to your talk.",
     "t": "Я з нетерпінням чекаю на твою доповідь."
   },
-  "u9-l6.1.why": {
+  "u9-l6.fill-tesim-sa-na.why": {
     "en": "**Tešiť sa na** keeps its sa: Teším **sa** na prednášku.",
     "t": "**Tešiť sa na** завжди вживається із sa, нашим -ся: Teším **sa** na prednášku."
   },
-  "u9-l6.2.prompt": {
+  "u9-l6.build-musim-ulozit-prezentaciu.prompt": {
     "en": "I have to save the presentation.",
     "t": "Мені треба зберегти презентацію."
   },
-  "u9-l6.2.traps": {
+  "u9-l6.build-musim-ulozit-prezentaciu.traps": {
     "en": [
       "The presentation is what you save, the object, so prezentácia changes -a to **-u**: uložiť **prezentáciu**.",
       "To save is **uložiť**, as in uložiť súbor. Otvoriť means to open."
@@ -1358,15 +1358,15 @@
       "«Зберегти» — **uložiť**, як у uložiť súbor. Otvoriť означає «відкрити»."
     ]
   },
-  "u9-l6.3.en": {
+  "u9-l6.listen-stretli-sme-sa.en": {
     "en": "We met during the break.",
     "t": "Ми зустрілися на перерві."
   },
-  "u9-l6.4.question": {
+  "u9-l6.choice-tomas-si-dal.question": {
     "en": "What does this mean?",
     "t": "Що це означає?"
   },
-  "u9-l6.4.options": {
+  "u9-l6.choice-tomas-si-dal.options": {
     "en": [
       "Tomáš had a coffee and went back to the talk.",
       "Tomáš bought a coffee and gave a talk.",
@@ -1378,23 +1378,23 @@
       "Томаш зварив каву й пропустив доповідь."
     ]
   },
-  "u9-l6.4.why": {
+  "u9-l6.choice-tomas-si-dal.why": {
     "en": "**Dať si** kávu is to have a coffee, and **vrátiť sa** is to come or go back: he had a coffee and went back to the talk.",
     "t": "**Dať si** kávu — «узяти собі кави», а **vrátiť sa** — «повернутися»: Томаш випив кави й повернувся на доповідь."
   },
-  "u9-l6.5.en": {
+  "u9-l6.fill-vcera-som-si.en": {
     "en": "Yesterday I bought myself a new computer.",
     "t": "Вчора я купила собі новий комп'ютер."
   },
-  "u9-l6.5.why": {
+  "u9-l6.fill-vcera-som-si.why": {
     "en": "**Ja** in the past tense needs **som**, and it comes before si: Včera **som si** kúpila… (kúpila: a woman is speaking).",
     "t": "**Ja** в минулому часі потребує **som**, і воно стоїть перед si: Včera **som si** kúpila…, «купила собі» (говорить жінка)."
   },
-  "u9-l6.6.prompt": {
+  "u9-l6.build-kde-sa-mozem.prompt": {
     "en": "Where can I register?",
     "t": "Де я можу зареєструватися?"
   },
-  "u9-l6.6.traps": {
+  "u9-l6.build-kde-sa-mozem.traps": {
     "en": [
       "To register is **zaregistrovať sa**, a verb with sa, and sa takes second place, right after kde: Kde **sa** môžem…",
       "The question is about **ja** (I), so môcť is **môžem**. Môžeš goes with ty."
@@ -1404,19 +1404,19 @@
       "Ви питаєте про себе (**ja**), тож môcť має форму **môžem**, «можу». Môžeš — для ty."
     ]
   },
-  "u9-l6.7.en": {
+  "u9-l6.fill-ake-je-vase.en": {
     "en": "What is your occupation?",
     "t": "Яка ваша професія?"
   },
-  "u9-l6.7.why": {
+  "u9-l6.fill-ake-je-vase.why": {
     "en": "Occupation is **zamestnanie**. It's neuter, which fits **aké** and **vaše**; a zamestnávateľ is the employer.",
     "t": "«Професія, рід занять» — **zamestnanie**. Воно середнього роду, тож пасує до **aké** і **vaše**; zamestnávateľ — це роботодавець."
   },
-  "u9-l6.8.en": {
+  "u9-l6.speak-kedy-sa-vratis.en": {
     "en": "When will you be back?",
     "t": "Коли ти повернешся?"
   },
-  "u9-l6.9.answers": {
+  "u9-l6.build-pacila-sa-mi.answers": {
     "en": [
       "I liked your presentation."
     ],
@@ -1425,7 +1425,7 @@
       "Твоя презентація мені сподобалася."
     ]
   },
-  "u9-l6.9.distractors": {
+  "u9-l6.build-pacila-sa-mi.distractors": {
     "en": [
       "his",
       "lecture"
@@ -1435,31 +1435,31 @@
       "лекція"
     ]
   },
-  "u9-l6.10.question": {
+  "u9-l6.choice-na-konferencii-sme.question": {
     "en": "Which word order is correct?",
     "t": "Який порядок слів правильний?"
   },
-  "u9-l6.10.why": {
+  "u9-l6.choice-na-konferencii-sme.why": {
     "en": "The small words take second place, **sme** before **sa**, right after the first phrase: Na konferencii **sme sa** stretli. They never start a sentence.",
     "t": "Короткі слова стоять другими, **sme** перед **sa**, одразу після першого словосполучення: Na konferencii **sme sa** stretli. Речення вони ніколи не починають."
   },
-  "u9-l6.11.en": {
+  "u9-l6.fill-emma-klikla-na.en": {
     "en": "Emma clicked on the file.",
     "t": "Емма клацнула на файл."
   },
-  "u9-l6.11.why": {
+  "u9-l6.fill-emma-klikla-na.why": {
     "en": "You click **on** something: **kliknúť na** súbor.",
     "t": "Як і в нас, клацають на щось: **kliknúť na** súbor."
   },
-  "u9-l6.12.en": {
+  "u9-l6.listen-subor-som-poslal.en": {
     "en": "I sent the file by e-mail.",
     "t": "Я надіслав файл електронною поштою."
   },
-  "u9-l6.13.prompt": {
+  "u9-l6.build-emma-a-lucia.prompt": {
     "en": "Emma and Lucia are looking forward to the conference.",
     "t": "Емма й Луція з нетерпінням чекають на конференцію."
   },
-  "u9-l6.13.traps": {
+  "u9-l6.build-emma-a-lucia.traps": {
     "en": [
       "Emma and Lucia are two people (ony), so the verb is **tešia**. Teší is for one person (on, ona).",
       "**Tešiť sa na** takes the object form, so konferencia changes -a to **-u**: na **konferenciu**. Na konferencii means at the conference."
@@ -1469,15 +1469,15 @@
       "**Tešiť sa na** вимагає знахідного, як «чекати на конференцію», тож konferencia міняє -a на **-u**: na **konferenciu**. Na konferencii — «на конференції», де."
     ]
   },
-  "u9-l6.14.en": {
+  "u9-l6.fill-na-prestavke-si.en": {
     "en": "Tomáš had a coffee during the break.",
     "t": "На перерві Томаш випив кави."
   },
-  "u9-l6.14.why": {
+  "u9-l6.fill-na-prestavke-si.why": {
     "en": "Having a coffee is **dať si** kávu. With Tomáš (on) there's no som or sme, so **si** comes second on its own.",
     "t": "«Випити кави» — **dať si** kávu, дослівно «дати собі». З Томашем (on) немає som чи sme, тож **si** стоїть другим саме."
   },
-  "u9-l6.15.en": {
+  "u9-l6.speak-stretneme-sa-na.en": {
     "en": "We'll meet during the break.",
     "t": "Зустрінемося на перерві."
   }

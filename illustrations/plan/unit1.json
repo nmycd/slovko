@@ -4,7 +4,7 @@
   "items": [
     {
       "lesson": "u1-l1",
-      "exercise": 0,
+      "exercise": "ahoj",
       "type": "intro",
       "text": "Ahoj! = Hi! / Bye!",
       "picture": "On a sunny university courtyard, Emma meets Lucia and Tomáš, who are walking up together. All three greet each other casually, hands raised.",
@@ -17,7 +17,7 @@
     },
     {
       "lesson": "u1-l1",
-      "exercise": 1,
+      "exercise": "dobry-den",
       "type": "intro",
       "text": "Dobrý deň. = Hello. (polite)",
       "picture": "Emma walks into a small bakery. The baker, crouching to stock a low shelf of loaves, looks up and greets her.",
@@ -30,10 +30,10 @@
     },
     {
       "lesson": "u1-l1",
-      "exercise": 2,
+      "exercise": "choice-dobry-den",
       "type": "choice",
       "text": "Emma walks into a bakery. What does she say?",
-      "reuse": "u1-l1#1",
+      "reuse": "u1-l1#dobry-den",
       "book": {
         "pdfPage": 6,
         "printedPage": 9,
@@ -43,7 +43,7 @@
     },
     {
       "lesson": "u1-l1",
-      "exercise": 3,
+      "exercise": "dobre-rano",
       "type": "intro",
       "text": "Dobré ráno. = Good morning.",
       "picture": "Early morning on a Bratislava street, low sun. Emma, holding a takeaway coffee, meets pani Horváthová walking to the university with a briefcase. They greet each other.",
@@ -56,7 +56,7 @@
     },
     {
       "lesson": "u1-l1",
-      "exercise": 4,
+      "exercise": "dobry-vecer",
       "type": "intro",
       "text": "Dobrý večer. = Good evening.",
       "picture": "Evening on the street outside the dormitory, streetlamps lit. Emma, coming home, greets an older neighbour and her small grandson walking past.",
@@ -69,7 +69,7 @@
     },
     {
       "lesson": "u1-l1",
-      "exercise": 7,
+      "exercise": "dovidenia",
       "type": "intro",
       "text": "Dovidenia. = Goodbye. (polite)",
       "picture": "Emma leaves the bakery with a paper bag of rolls, turning in the doorway to say goodbye to the baker.",
@@ -82,7 +82,7 @@
     },
     {
       "lesson": "u1-l1",
-      "exercise": 9,
+      "exercise": "dobru-noc",
       "type": "intro",
       "text": "Dobrú noc. = Good night.",
       "picture": "Late at night outside a cinema, under a streetlamp, Emma and Lucia part ways, waving good night to each other.",
@@ -95,7 +95,7 @@
     },
     {
       "lesson": "u1-l1",
-      "exercise": 10,
+      "exercise": "dobru-chut",
       "type": "intro",
       "text": "Dobrú chuť! = Enjoy your meal!",
       "picture": "In the university canteen, Emma, carrying her lunch tray, passes pani Horváthová eating at a table and wishes her a good meal.",
@@ -108,7 +108,7 @@
     },
     {
       "lesson": "u1-l1",
-      "exercise": 11,
+      "exercise": "choice-dobru-noc",
       "type": "choice",
       "text": "It's late and Lucia is going to bed. What do you say?",
       "picture": "Late at night in Emma and Lucia's dorm room, moon in the window. Lucia, in pyjamas and yawning, is getting into bed.",
@@ -116,7 +116,7 @@
     },
     {
       "lesson": "u1-l2",
-      "exercise": 0,
+      "exercise": "dakujem",
       "type": "intro",
       "text": "Ďakujem. = Thank you.",
       "picture": "In the bakery, the baker hands Emma a paper bag of rolls across the counter. Emma takes it with a grateful smile.",
@@ -129,7 +129,7 @@
     },
     {
       "lesson": "u1-l2",
-      "exercise": 1,
+      "exercise": "prosim",
       "type": "intro",
       "text": "Prosím. = Please. / You're welcome.",
       "picture": "Emma holds the dormitory door open for pani Horváthová, who carries a stack of books. Both smile: she has just said thank you and Emma is answering.",
@@ -137,7 +137,7 @@
     },
     {
       "lesson": "u1-l2",
-      "exercise": 3,
+      "exercise": "nech-sa-paci",
       "type": "intro",
       "text": "Nech sa páči. = Here you go.",
       "picture": "On a busy tram, Emma stands up and offers her seat to an elderly lady with a walking stick and a heavy bag.",
@@ -150,7 +150,7 @@
     },
     {
       "lesson": "u1-l2",
-      "exercise": 4,
+      "exercise": "choice-nech-sa-paci",
       "type": "choice",
       "text": "Marek puts a plate of food in front of you. What does he say?",
       "picture": "Marek, in his chef's jacket, sets a steaming plate of halušky on a restaurant table in front of the viewer, smiling.",
@@ -158,7 +158,7 @@
     },
     {
       "lesson": "u1-l2",
-      "exercise": 5,
+      "exercise": "ano-prosim",
       "type": "intro",
       "text": "Áno, prosím. = Yes, please.",
       "picture": "In the dorm kitchen, Tomáš holds up a coffee pot with raised eyebrows; Emma nods eagerly and holds out her mug.",
@@ -166,15 +166,15 @@
     },
     {
       "lesson": "u1-l2",
-      "exercise": 6,
+      "exercise": "choice-nie-dakujem",
       "type": "choice",
       "text": "Tomáš offers you a coffee, but you don't want one. What do you say?",
-      "reuse": "u1-l2#5",
+      "reuse": "u1-l2#ano-prosim",
       "book": null
     },
     {
       "lesson": "u1-l2",
-      "exercise": 9,
+      "exercise": "prepacte",
       "type": "intro",
       "text": "Prepáčte! = Sorry! / Excuse me!",
       "picture": "In the university canteen, Emma turns with her tray and bumps into Tomáš, who is carrying his. His glass of juice tips over and spills. Emma looks apologetic.",
@@ -187,7 +187,7 @@
     },
     {
       "lesson": "u1-l2",
-      "exercise": 10,
+      "exercise": "nic-sa-nestalo",
       "type": "intro",
       "text": "Nič sa nestalo. = That's OK. / No problem.",
       "picture": "In the canteen, Tomáš mops up the spilled juice with a napkin and waves it off with a smile; Emma still looks sheepish.",
@@ -200,7 +200,7 @@
     },
     {
       "lesson": "u1-l2",
-      "exercise": 11,
+      "exercise": "choice-prepacte",
       "type": "choice",
       "text": "Emma bumps into pán Kováč in the corridor. What does she say?",
       "picture": "In the dormitory corridor, Emma hurries round a corner and almost collides with pán Kováč; both step back in surprise.",
@@ -208,7 +208,7 @@
     },
     {
       "lesson": "u1-l2",
-      "exercise": 13,
+      "exercise": "na-zdravie",
       "type": "intro",
       "text": "Na zdravie! = Cheers! / Bless you!",
       "picture": "Two halves for the two meanings. Left: Emma, Lucia and Tomáš clink glasses of kofola at a pub table. Right: Tomáš sneezes into a tissue while Lucia turns to him.",
@@ -229,7 +229,7 @@
     },
     {
       "lesson": "u1-l2",
-      "exercise": 14,
+      "exercise": "choice-na-zdravie",
       "type": "choice",
       "text": "Tomáš sneezes. What do you say?",
       "picture": "On a train, Tomáš sneezes into a tissue; Emma, in the seat next to him, turns towards him.",
@@ -242,7 +242,7 @@
     },
     {
       "lesson": "u1-l3",
-      "exercise": 0,
+      "exercise": "ako-sa-mas",
       "type": "intro",
       "text": "Ako sa máš? = How are you?",
       "picture": "Emma at a tram stop, smiling into her phone as she asks a friend how they are.",
@@ -255,7 +255,7 @@
     },
     {
       "lesson": "u1-l3",
-      "exercise": 1,
+      "exercise": "mam-sa-dobre",
       "type": "intro",
       "text": "Mám sa dobre, a ty? = I'm fine, and you?",
       "picture": "One of three linked pictures of Tomáš on the same park bench, with the weather matching his mood. This one: partly cloudy, he sits relaxed with a content smile.",
@@ -268,7 +268,7 @@
     },
     {
       "lesson": "u1-l3",
-      "exercise": 3,
+      "exercise": "mam-sa-vyborne",
       "type": "intro",
       "text": "Mám sa výborne. = I'm great.",
       "picture": "Tomáš on the same park bench in bright sunshine, beaming, an ice cream in hand.",
@@ -281,7 +281,7 @@
     },
     {
       "lesson": "u1-l3",
-      "exercise": 4,
+      "exercise": "mam-sa-zle",
       "type": "intro",
       "text": "Mám sa zle. = I'm not doing well.",
       "picture": "Tomáš on the same park bench in pouring rain, no umbrella, soaked and gloomy.",
@@ -294,7 +294,7 @@
     },
     {
       "lesson": "u1-l3",
-      "exercise": 8,
+      "exercise": "ako-sa-volas",
       "type": "intro",
       "text": "Ako sa voláš? = What's your name?",
       "picture": "At a student welcome party, Lucia turns to Emma, a new face, with a friendly, curious look, a drink in her hand.",
@@ -307,7 +307,7 @@
     },
     {
       "lesson": "u1-l3",
-      "exercise": 9,
+      "exercise": "volam-sa-emma",
       "type": "intro",
       "text": "Volám sa Emma. = My name is Emma.",
       "picture": "At the welcome party, Emma introduces herself, a hand on her chest, a blank name sticker on her cardigan.",
@@ -320,7 +320,7 @@
     },
     {
       "lesson": "u1-l3",
-      "exercise": 11,
+      "exercise": "tesi-ma",
       "type": "intro",
       "text": "Teší ma. = Nice to meet you.",
       "picture": "Emma and Tomáš shake hands warmly; Lucia, beside them, has just introduced them.",
@@ -333,10 +333,10 @@
     },
     {
       "lesson": "u1-l3",
-      "exercise": 12,
+      "exercise": "choice-aj-mna",
       "type": "choice",
       "text": "Tomáš says “Teší ma.” What do you answer?",
-      "reuse": "u1-l3#11",
+      "reuse": "u1-l3#tesi-ma",
       "book": {
         "pdfPage": 7,
         "printedPage": 10,
@@ -346,7 +346,7 @@
     },
     {
       "lesson": "u1-l4",
-      "exercise": 0,
+      "exercise": "grammar-two-ways-say",
       "type": "grammar",
       "text": "Two ways to say “you”",
       "picture": "Split picture. Left: Emma chats with Lucia on the dorm sofa, relaxed, feet tucked up. Right: Emma talks with pani Horváthová in her office, standing upright and polite.",
@@ -367,10 +367,10 @@
     },
     {
       "lesson": "u1-l4",
-      "exercise": 1,
+      "exercise": "choice-ako-sa-mate",
       "type": "choice",
       "text": "Emma meets pani Horváthová, her teacher. Which question fits?",
-      "reuse": "u1-l1#3",
+      "reuse": "u1-l1#dobre-rano",
       "book": {
         "pdfPage": 6,
         "printedPage": 9,
@@ -380,10 +380,10 @@
     },
     {
       "lesson": "u1-l4",
-      "exercise": 5,
+      "exercise": "choice-ako-sa-mate-2",
       "type": "choice",
       "text": "Emma meets Lucia and Tomáš together. How does she ask how they are?",
-      "reuse": "u1-l1#0",
+      "reuse": "u1-l1#ahoj",
       "book": {
         "pdfPage": 7,
         "printedPage": 10,
@@ -393,10 +393,10 @@
     },
     {
       "lesson": "u1-l4",
-      "exercise": 7,
+      "exercise": "choice-aj-tebe",
       "type": "choice",
       "text": "Lucia says “Dobrú noc!” What does Emma answer?",
-      "reuse": "u1-l1#9",
+      "reuse": "u1-l1#dobru-noc",
       "book": {
         "pdfPage": 6,
         "printedPage": 9,
@@ -406,10 +406,10 @@
     },
     {
       "lesson": "u1-l6",
-      "exercise": 0,
+      "exercise": "choice-dobre-rano",
       "type": "choice",
       "text": "You meet pani Horváthová early in the morning. What do you say?",
-      "reuse": "u1-l1#3",
+      "reuse": "u1-l1#dobre-rano",
       "book": {
         "pdfPage": 6,
         "printedPage": 9,
@@ -419,10 +419,10 @@
     },
     {
       "lesson": "u1-l6",
-      "exercise": 11,
+      "exercise": "choice-ahojte",
       "type": "choice",
       "text": "Which one means “Hi, everyone!”?",
-      "reuse": "u1-l1#0",
+      "reuse": "u1-l1#ahoj",
       "book": {
         "pdfPage": 7,
         "printedPage": 10,

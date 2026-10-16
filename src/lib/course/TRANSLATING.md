@@ -19,7 +19,10 @@ check a unit with `npm run -s validate:course -- u3`.
 
 ## What the keys mean
 
-Keys look like `u3-l2.5.question` (lesson `u3-l2`, exercise index 5).
+Keys look like `u3-l2.choice-aky-je-balkon.question`: lesson `u3-l2`, the
+exercise's id (search for it in `units/unit3.ts` to see the exercise), field
+`question`. An exercise keeps its id when exercises around it are added or
+moved, so its translations stay with it.
 
 | Suffix | What it is | Rules |
 | --- | --- | --- |

@@ -41,27 +41,27 @@
     "en": "Where are you from?",
     "t": "Qayerdansiz?"
   },
-  "u2-l1.0.en": {
+  "u2-l1.odkial-si.en": {
     "en": "Where are you from? (informal)",
     "t": "Qayerdansan? (sen)"
   },
-  "u2-l1.0.note": {
+  "u2-l1.odkial-si.note": {
     "en": "To a stranger, a teacher or a group: **Odkiaľ ste?**",
     "t": "Notanish odamga, oʻqituvchiga yoki guruhga: **Odkiaľ ste?**"
   },
-  "u2-l1.1.en": {
+  "u2-l1.som-z-irska.en": {
     "en": "I'm from Ireland.",
     "t": "Irlandiyadanman."
   },
-  "u2-l1.1.note": {
+  "u2-l1.som-z-irska.note": {
     "en": "Írsko = Ireland. After **z** (from), the -o at the end changes to **-a**: z Írsk**a**.",
     "t": "Írsko = Irlandiya. **z** = «-dan». Oʻzbekchada qoʻshimcha soʻz oxiriga qoʻshiladi, slovakchada esa **z** soʻz oldiga qoʻyiladi (bu predlog). Bunda oxirdagi -o **-a** boʻladi: z Írsk**a** = Irlandiyadan."
   },
-  "u2-l1.2.question": {
+  "u2-l1.choice-odkial-ste.question": {
     "en": "What does this mean?",
     "t": "Bu nimani anglatadi?"
   },
-  "u2-l1.2.options": {
+  "u2-l1.choice-odkial-ste.options": {
     "en": [
       "Where are you from?",
       "What's your name?",
@@ -73,23 +73,23 @@
       "Qalaysiz?"
     ]
   },
-  "u2-l1.3.en": {
+  "u2-l1.lucia-je-zo.en": {
     "en": "Lucia is from Slovakia.",
     "t": "Lusiya Slovakiyadan."
   },
-  "u2-l1.3.note": {
+  "u2-l1.lucia-je-zo.note": {
     "en": "**je** = is. Before s, z, š or ž, “z” becomes **zo**: zo Slovenska.",
     "t": "**je** = «-dir» (u … boʻladi). Oʻzbekchada u koʻpincha tushib qoladi, slovakchada esa kerak. s, z, š yoki ž oldidan «z» **zo** boʻladi: zo Slovenska."
   },
-  "u2-l1.4.en": {
+  "u2-l1.nemecko-taliansko-polsko.en": {
     "en": "Germany, Italy, Poland",
     "t": "Germaniya, Italiya, Polsha"
   },
-  "u2-l1.4.note": {
+  "u2-l1.nemecko-taliansko-polsko.note": {
     "en": "Many country names end in -sko or -cko. From Germany: z Nemecka.",
     "t": "Koʻp davlat nomlari -sko yoki -cko bilan tugaydi. Germaniyadan: z Nemecka."
   },
-  "u2-l1.5.pairs": {
+  "u2-l1.match-slovensko.pairs": {
     "en": [
       "Slovakia",
       "Ireland",
@@ -105,19 +105,19 @@
       "Polsha"
     ]
   },
-  "u2-l1.6.en": {
+  "u2-l1.fill-tomas-je-zo.en": {
     "en": "Tomáš is from Slovakia.",
     "t": "Tomash Slovakiyadan."
   },
-  "u2-l1.6.why": {
+  "u2-l1.fill-tomas-je-zo.why": {
     "en": "“From” is **zo** before s, z, š or ž, and Slovensko starts with s. Elsewhere it's just z: z Írska, z Nemecka.",
     "t": "«…dan» maʼnosidagi z soʻzi s, z, š yoki ž oldidan **zo** boʻladi, Slovensko esa s bilan boshlanadi. Boshqa hollarda shunchaki z: z Írska, z Nemecka."
   },
-  "u2-l1.7.prompt": {
+  "u2-l1.build-som-z-nemecka.prompt": {
     "en": "I'm from Germany.",
     "t": "Men Germaniyadanman."
   },
-  "u2-l1.7.traps": {
+  "u2-l1.build-som-z-nemecka.traps": {
     "en": [
       "After z (from), the -o at the end changes to **-a**: Nemecko → z Nemeck**a**.",
       "Nemecko starts with n, so “from” is plain **z**. Zo is only for words starting with s, z, š or ž: zo Slovenska."
@@ -127,43 +127,43 @@
       "Nemecko n bilan boshlanadi, shuning uchun «-dan» — oddiy **z**. Zo faqat s, z, š yoki ž bilan boshlanadigan soʻzlar oldidan keladi: zo Slovenska."
     ]
   },
-  "u2-l1.8.en": {
+  "u2-l1.som-z-ukrajiny.en": {
     "en": "I'm from Ukraine.",
     "t": "Ukrainadanman."
   },
-  "u2-l1.8.note": {
+  "u2-l1.som-z-ukrajiny.note": {
     "en": "Most countries ending in -a change it to **-y**: Ukrajin**a** → z Ukrajin**y**, Amerik**a** → z Amerik**y**.",
     "t": "-a bilan tugaydigan koʻp davlat nomlarida u **-y** boʻladi: Ukrajin**a** → z Ukrajin**y**, Amerik**a** → z Amerik**y**."
   },
-  "u2-l1.9.question": {
+  "u2-l1.choice-peter-je-z.question": {
     "en": "Peter is from America. Which sentence is right?",
     "t": "Peter Amerikadan. Qaysi gap toʻgʻri?"
   },
-  "u2-l1.9.why": {
+  "u2-l1.choice-peter-je-z.why": {
     "en": "After z, Amerika changes -a to **-y**: z Amerik**y**. And it stays z: zo is only for words starting with s, z, š or ž.",
     "t": "z (…dan) soʻzidan keyin Amerika oxiridagi -a **-y** ga aylanadi: z Amerik**y**. zo esa faqat s, z, š yoki ž bilan boshlanadigan soʻzlardan oldin keladi."
   },
-  "u2-l1.10.en": {
+  "u2-l1.listen-odkial-si-som.en": {
     "en": "Where are you from? I'm from Poland.",
     "t": "Qayerdansan? Polshadanman."
   },
-  "u2-l1.11.en": {
+  "u2-l1.som-irka.en": {
     "en": "I'm Irish. (said by a woman)",
     "t": "Men irlandiyalikman. (ayol gapiryapti)"
   },
-  "u2-l1.11.note": {
+  "u2-l1.som-irka.note": {
     "en": "Nationalities have a form for men and one for women: Ír → Ír**ka**.",
     "t": "Millatlarning erkaklar va ayollar uchun alohida shakli bor: Ír → Ír**ka**. Oʻzbek tilida bunday farq yoʻq."
   },
-  "u2-l1.12.en": {
+  "u2-l1.slovak-slovenka.en": {
     "en": "a Slovak man, a Slovak woman",
     "t": "slovak erkak, slovak ayol"
   },
-  "u2-l1.12.note": {
+  "u2-l1.slovak-slovenka.note": {
     "en": "Women's forms end in **-ka**: Sloven**ka**, Nem**ka** (German), Talian**ka** (Italian). Men's: Slovák, Nemec, Talian.",
     "t": "Ayollar shakli **-ka** bilan tugaydi: Sloven**ka**, Nem**ka** (nemis), Talian**ka** (italyan). Erkaklar shakli: Slovák, Nemec, Talian."
   },
-  "u2-l1.13.pairs": {
+  "u2-l1.match-slovak.pairs": {
     "en": [
       "Slovak (man)",
       "Slovak (woman)",
@@ -177,19 +177,19 @@
       "irlandiyalik (ayol)"
     ]
   },
-  "u2-l1.14.en": {
+  "u2-l1.fill-emma-je-irka.en": {
     "en": "Emma is Irish.",
     "t": "Emma irlandiyalik."
   },
-  "u2-l1.14.why": {
+  "u2-l1.fill-emma-je-irka.why": {
     "en": "Emma is a woman, so she takes the women's form with **-ka**: Ír**ka**. Ír is for a man.",
     "t": "Emma — ayol, shuning uchun **-ka** bilan ayol shakli keladi: Ír**ka**. Ír esa erkak uchun (oʻzbekchada ikkalasi ham «irlandiyalik»)."
   },
-  "u2-l1.15.question": {
+  "u2-l1.choice-lucia.question": {
     "en": "Who would say “Som Slovenka”?",
     "t": "«Som Slovenka» deb kim aytadi?"
   },
-  "u2-l1.15.options": {
+  "u2-l1.choice-lucia.options": {
     "en": [
       "Lucia",
       "Tomáš",
@@ -201,11 +201,11 @@
       "Emma"
     ]
   },
-  "u2-l1.15.why": {
+  "u2-l1.choice-lucia.why": {
     "en": "**Slovenka** is the women's form, so it's a Slovak woman: Lucia. Tomáš would say Som Slovák, and Emma is Irish: Som Írka.",
     "t": "**Slovenka** — ayol shakli, demak bu slovak ayol, yaʼni Lusiya. Tomash Som Slovák derdi, Emma esa irlandiyalik: Som Írka."
   },
-  "u2-l1.16.answers": {
+  "u2-l1.build-lucia-je-slovenka.answers": {
     "en": [
       "Lucia is Slovak. She is from Slovakia."
     ],
@@ -214,7 +214,7 @@
       "Lusiya slovak. Slovakiyadan."
     ]
   },
-  "u2-l1.16.distractors": {
+  "u2-l1.build-lucia-je-slovenka.distractors": {
     "en": [
       "Slovenia",
       "He"
@@ -224,7 +224,7 @@
       "Sloveniyadan"
     ]
   },
-  "u2-l1.17.en": {
+  "u2-l1.speak-som-z-irska.en": {
     "en": "I'm from Ireland.",
     "t": "Irlandiyadanman."
   },
@@ -232,11 +232,11 @@
     "en": "I am, you are",
     "t": "Men, sen, u: byť feʼli"
   },
-  "u2-l2.0.title": {
+  "u2-l2.grammar-byt-be.title": {
     "en": "Byť (to be)",
     "t": "Byť (boʻlmoq)"
   },
-  "u2-l2.0.body": {
+  "u2-l2.grammar-byt-be.body": {
     "en": [
       "**Byť** (to be) is irregular, like English am, are, is. Learn each form together with its pronoun.",
       "The verb form already shows who it is, so the pronoun is often dropped: **Som** Emma. = I'm Emma."
@@ -246,7 +246,7 @@
       "Feʼl shaklining oʻzi kim haqida gap ketayotganini koʻrsatadi, shuning uchun olmosh koʻpincha tushib qoladi: **Som** Emma. = Emmaman."
     ]
   },
-  "u2-l2.0.table.head": {
+  "u2-l2.grammar-byt-be.table.head": {
     "en": [
       "singular",
       "",
@@ -260,7 +260,7 @@
       "Oʻzbekcha"
     ]
   },
-  "u2-l2.0.table.rows": {
+  "u2-l2.grammar-byt-be.table.rows": {
     "en": [
       [
         "ja **som**",
@@ -302,7 +302,7 @@
       ]
     ]
   },
-  "u2-l2.0.examples": {
+  "u2-l2.grammar-byt-be.examples": {
     "en": [
       "I'm Emma.",
       "Are you Lucia?",
@@ -316,11 +316,11 @@
       "Biz Irlandiyadanmiz."
     ]
   },
-  "u2-l2.1.title": {
+  "u2-l2.grammar-ty-or-vy.title": {
     "en": "Ty or vy? Oni or ony?",
     "t": "Ty yoki vy? Oni yoki ony?"
   },
-  "u2-l2.1.body": {
+  "u2-l2.grammar-ty-or-vy.body": {
     "en": [
       "**Ty**: one friend, a child, family. **Vy**: a stranger or a teacher (polite), or any group of people.",
       "**Oni** = they, when there is at least one man in the group. **Ony** = they, for women only (or things)."
@@ -330,7 +330,7 @@
       "**Oni** = ular, agar guruhda kamida bitta erkak boʻlsa. **Ony** = ular, faqat ayollar (yoki narsalar) haqida. Oʻzbek tilida bu farq yoʻq: ikkalasi ham «ular»."
     ]
   },
-  "u2-l2.1.examples": {
+  "u2-l2.grammar-ty-or-vy.examples": {
     "en": [
       "Mr Kováč, are you Slovak?",
       "Tomáš and Marek? They're from Slovakia.",
@@ -342,15 +342,15 @@
       "Anna va Eva? Ular Polshadan."
     ]
   },
-  "u2-l2.2.en": {
+  "u2-l2.fill-ja-som-z.en": {
     "en": "I'm from Ireland.",
     "t": "Men Irlandiyadanman."
   },
-  "u2-l2.2.why": {
+  "u2-l2.fill-ja-som-z.why": {
     "en": "With **ja** (I), byť is **som**. Si goes with ty, je with on or ona.",
     "t": "**ja** (men) bilan byť — **som**, oʻzbekchadagi -man kabi. Si ty bilan, je esa on yoki ona bilan keladi."
   },
-  "u2-l2.3.pairs": {
+  "u2-l2.match-ty-si.pairs": {
     "en": [
       "you are (one friend)",
       "he is",
@@ -366,27 +366,27 @@
       "ular …(dir)lar"
     ]
   },
-  "u2-l2.4.en": {
+  "u2-l2.fill-lucia-ty-si.en": {
     "en": "Lucia, are you Slovak?",
     "t": "Lusiya, sen slovakmisan?"
   },
-  "u2-l2.4.why": {
+  "u2-l2.fill-lucia-ty-si.why": {
     "en": "With **ty** (you, a friend), byť is **si**. Som goes with ja, ste with vy.",
     "t": "**ty** (sen, doʻstga) bilan byť — **si**, oʻzbekchadagi -san kabi: slovakmisan? Som ja bilan, ste esa vy bilan keladi."
   },
-  "u2-l2.5.question": {
+  "u2-l2.choice-odkial-ste.question": {
     "en": "You ask your teacher, pani Horváthová, where she is from. What do you say?",
     "t": "Oʻqituvchingiz Horvatova xonimdan qayerdan ekanini soʻramoqchisiz. Nima deysiz?"
   },
-  "u2-l2.5.why": {
+  "u2-l2.choice-odkial-ste.why": {
     "en": "A teacher gets the polite **vy**, and with vy byť is **ste**. Odkiaľ si? is for a friend (ty); sú is for oni (they).",
     "t": "Oʻqituvchiga hurmat bilan **vy** (siz) deyiladi, vy bilan esa byť — **ste**. Odkiaľ si? — doʻstga (ty), sú esa oni (ular) uchun."
   },
-  "u2-l2.6.prompt": {
+  "u2-l2.build-sme-zo-slovenska.prompt": {
     "en": "We're from Slovakia.",
     "t": "Biz Slovakiyadanmiz."
   },
-  "u2-l2.6.traps": {
+  "u2-l2.build-sme-zo-slovenska.traps": {
     "en": [
       "We is **my**, and with my byť is **sme**. Ste goes with vy (you).",
       "Slovensko starts with s, and before s, z, š or ž, “from” is **zo**. Plain z is for the rest: z Írska."
@@ -396,31 +396,31 @@
       "Slovensko s bilan boshlanadi, s, z, š yoki ž oldidan esa «-dan» — **zo**. Boshqa hollarda oddiy z keladi: z Írska."
     ]
   },
-  "u2-l2.7.en": {
+  "u2-l2.fill-tomas-a-lucia.en": {
     "en": "Tomáš and Lucia are from Slovakia.",
     "t": "Tomash va Lusiya Slovakiyadan."
   },
-  "u2-l2.7.why": {
+  "u2-l2.fill-tomas-a-lucia.why": {
     "en": "Tomáš and Lucia are two people, **oni** (they), and with oni byť is **sú**. Je is for one person, sme for my (we).",
     "t": "Tomash va Lusiya — ikki kishi, **oni** (ular), oni bilan esa byť — **sú**. Je — bitta kishi uchun, sme — my (biz) uchun."
   },
-  "u2-l2.8.en": {
+  "u2-l2.listen-kto-je-to.en": {
     "en": "Who's that? That's Marek.",
     "t": "Bu kim? Bu Marek."
   },
-  "u2-l2.9.question": {
+  "u2-l2.choice-ony.question": {
     "en": "Anna and Eva: which word means “they”?",
     "t": "Anna va Eva: qaysi soʻz «ular» degani?"
   },
-  "u2-l2.9.why": {
+  "u2-l2.choice-ony.why": {
     "en": "**Ony** is “they” for women only, like Anna and Eva. **Oni** needs at least one man in the group, and ono means “it”.",
     "t": "**Ony** — faqat ayollar haqida «ular», Anna va Eva kabi. **Oni** uchun guruhda kamida bitta erkak boʻlishi kerak, ono esa bitta narsa haqida «u»."
   },
-  "u2-l2.10.prompt": {
+  "u2-l2.build-si-slovak.prompt": {
     "en": "Are you Slovak? (to a male friend)",
     "t": "Sen slovakmisan? (erkak doʻstingizga)"
   },
-  "u2-l2.10.traps": {
+  "u2-l2.build-si-slovak.traps": {
     "en": [
       "A friend gets **ty**, and with ty byť is **si**. Ste is for vy: a stranger, a teacher or a group.",
       "Your friend is a man, so it's **Slovák**. Slovenka, with -ka, is a Slovak woman."
@@ -430,15 +430,15 @@
       "Doʻstingiz — erkak, shuning uchun **Slovák**. -ka bilan Slovenka esa slovak ayol."
     ]
   },
-  "u2-l2.11.en": {
+  "u2-l2.fill-prepacte-vy-ste.en": {
     "en": "Excuse me, are you from Germany?",
     "t": "Kechirasiz, siz Germaniyadanmisiz?"
   },
-  "u2-l2.11.why": {
+  "u2-l2.fill-prepacte-vy-ste.why": {
     "en": "Prepáčte already shows the polite **vy**, and with vy byť is **ste**. Si goes with ty, sú with oni.",
     "t": "Prepáčte (kechirasiz) hurmatli **vy** ekanini koʻrsatadi, vy bilan esa byť — **ste**, oʻzbekchadagi -siz kabi. Si ty bilan, sú esa oni bilan keladi."
   },
-  "u2-l2.12.answers": {
+  "u2-l2.build-ony-su-z.answers": {
     "en": [
       "They're from Italy.",
       "They are from Italy."
@@ -447,7 +447,7 @@
       "Ular Italiyadan."
     ]
   },
-  "u2-l2.12.distractors": {
+  "u2-l2.build-ony-su-z.distractors": {
     "en": [
       "We",
       "is"
@@ -457,7 +457,7 @@
       "Italiyada"
     ]
   },
-  "u2-l2.13.en": {
+  "u2-l2.speak-ja-som-z.en": {
     "en": "I'm from Ireland.",
     "t": "Men Irlandiyadanman."
   },
@@ -465,11 +465,11 @@
     "en": "He, she, it: gender",
     "t": "On, ona, ono: grammatik jins"
   },
-  "u2-l3.0.title": {
+  "u2-l3.grammar-people-he-she.title": {
     "en": "People: he and she",
     "t": "Odamlar: erkak va ayol"
   },
-  "u2-l3.0.body": {
+  "u2-l3.grammar-people-he-she.body": {
     "en": [
       "Most words for people have a masculine and a feminine form. The feminine one often adds **-ka**.",
       "Slovak has no word for “a” or “the”: Lucia je študentka. = Lucia is a student."
@@ -479,7 +479,7 @@
       "**je** soʻzini tushirib qoldirmang: Lucia je študentka. = Lusiya talaba."
     ]
   },
-  "u2-l3.0.table.head": {
+  "u2-l3.grammar-people-he-she.table.head": {
     "en": [
       "man",
       "woman",
@@ -491,7 +491,7 @@
       "Oʻzbekcha"
     ]
   },
-  "u2-l3.0.table.rows": {
+  "u2-l3.grammar-people-he-she.table.rows": {
     "en": [
       [
         "študent",
@@ -547,7 +547,7 @@
       ]
     ]
   },
-  "u2-l3.0.examples": {
+  "u2-l3.grammar-people-he-she.examples": {
     "en": [
       "Lucia is a student.",
       "Mrs Horváthová is a teacher.",
@@ -559,19 +559,19 @@
       "Juliya italyan."
     ]
   },
-  "u2-l3.1.en": {
+  "u2-l3.fill-lucia-je-studentka.en": {
     "en": "Lucia is a student.",
     "t": "Lusiya talaba."
   },
-  "u2-l3.1.why": {
+  "u2-l3.fill-lucia-je-studentka.why": {
     "en": "Lucia is a woman, so she takes the feminine form with **-ka**: študent**ka**. Študent is for a man.",
     "t": "Lusiya — ayol, shuning uchun **-ka** bilan ayol shakli keladi: študent**ka**. Študent esa erkak uchun (oʻzbekchada ikkalasi ham «talaba»)."
   },
-  "u2-l3.2.prompt": {
+  "u2-l3.build-jana-je-ucitelka.prompt": {
     "en": "Jana is a teacher.",
     "t": "Yana — oʻqituvchi."
   },
-  "u2-l3.2.traps": {
+  "u2-l3.build-jana-je-ucitelka.traps": {
     "en": [
       "Jana is a woman, so she takes the feminine form with **-ka**: učiteľ**ka**. Učiteľ is for a man.",
       "Jana is **ona** (she), and with ona byť is **je**. Som goes with ja (I)."
@@ -581,31 +581,31 @@
       "Yana haqida «u» — **ona**, ona bilan esa byť — **je**. Som ja (men) bilan keladi."
     ]
   },
-  "u2-l3.3.question": {
+  "u2-l3.choice-kamaratka.question": {
     "en": "Which word means a female friend?",
     "t": "Qaysi soʻz doʻst (ayol) degani?"
   },
-  "u2-l3.3.why": {
+  "u2-l3.choice-kamaratka.why": {
     "en": "The feminine form adds **-ka**: kamarát → kamarát**ka**. Učiteľka is feminine too, but it means a female teacher.",
     "t": "Ayol shakli **-ka** qoʻshib yasaladi: kamarát → kamarát**ka**. Učiteľka ham ayol shakli, lekin u «oʻqituvchi (ayol)» degani."
   },
-  "u2-l3.4.en": {
+  "u2-l3.fill-peter-je-nemec.en": {
     "en": "Peter is German, and Anna is German too.",
     "t": "Peter nemis, Anna ham nemis."
   },
-  "u2-l3.4.why": {
+  "u2-l3.fill-peter-je-nemec.why": {
     "en": "Peter is a man, so he takes the masculine form: **Nemec**. Nemka is for a woman, and Nemecko is the country, Germany.",
     "t": "Peter — erkak, shuning uchun erkak shakli keladi: **Nemec**. Nemka — ayol uchun, Nemecko esa mamlakat, Germaniya."
   },
-  "u2-l3.5.en": {
+  "u2-l3.listen-pani-horvathova-je.en": {
     "en": "Mrs Horváthová is a teacher.",
     "t": "Horvatova xonim oʻqituvchi."
   },
-  "u2-l3.6.title": {
+  "u2-l3.grammar-things-have-gender.title": {
     "en": "Things have a gender too",
     "t": "Narsalarning ham jinsi bor"
   },
-  "u2-l3.6.body": {
+  "u2-l3.grammar-things-have-gender.body": {
     "en": [
       "Every noun is masculine, feminine or neuter. The last letter usually tells you which: a consonant means masculine, **-a** feminine, **-o** or **-e** neuter.",
       "Watch out for exceptions: dievč**a** (girl) is neuter, and noc (night) is feminine."
@@ -615,7 +615,7 @@
       "Istisnolar ham bor: dievč**a** (qiz bola) — oʻrta jins, noc (tun) esa ayol jinsi."
     ]
   },
-  "u2-l3.6.table.head": {
+  "u2-l3.grammar-things-have-gender.table.head": {
     "en": [
       "masculine",
       "feminine",
@@ -627,7 +627,7 @@
       "oʻrta jins"
     ]
   },
-  "u2-l3.6.table.rows": {
+  "u2-l3.grammar-things-have-gender.table.rows": {
     "en": [
       [
         "muž (man)",
@@ -663,7 +663,7 @@
       ]
     ]
   },
-  "u2-l3.6.examples": {
+  "u2-l3.grammar-things-have-gender.examples": {
     "en": [
       "That's the dorm.",
       "That's a room.",
@@ -675,39 +675,39 @@
       "Bu mashina."
     ]
   },
-  "u2-l3.7.question": {
+  "u2-l3.choice-izba.question": {
     "en": "Which word is feminine?",
     "t": "Qaysi soʻz ayol jinsida?"
   },
-  "u2-l3.7.why": {
+  "u2-l3.choice-izba.why": {
     "en": "Nouns ending in **-a** are usually feminine: izb**a**. Internát ends in a consonant (masculine), and auto in -o (neuter).",
     "t": "**-a** bilan tugaydigan otlar odatda ayol jinsida boʻladi: izb**a**. Internát undosh bilan tugaydi (erkak jinsi), auto esa -o bilan (oʻrta jins)."
   },
-  "u2-l3.8.question": {
+  "u2-l3.choice-dievca.question": {
     "en": "Which word is neuter?",
     "t": "Qaysi soʻz oʻrta jinsda?"
   },
-  "u2-l3.8.why": {
+  "u2-l3.choice-dievca.why": {
     "en": "**Dievča** (girl) is an exception: it ends in -a but is neuter. Žena is feminine, and muž, ending in a consonant, is masculine.",
     "t": "**Dievča** (qiz bola) — istisno: -a bilan tugasa ham, oʻrta jinsda. Žena — ayol jinsi, undosh bilan tugaydigan muž esa erkak jinsi."
   },
-  "u2-l3.9.en": {
+  "u2-l3.fill-lucia-ano-ona.en": {
     "en": "Lucia? Yes, she's a student.",
     "t": "Lusiyami? Ha, u talaba."
   },
-  "u2-l3.9.why": {
+  "u2-l3.fill-lucia-ano-ona.why": {
     "en": "Lucia is a woman, so “she” is **ona**. On is he, ono is it.",
     "t": "Lusiya — ayol, shuning uchun «u» — **ona**. On erkak haqida, ono esa oʻrta jinsdagi soʻz haqida aytiladi. Oʻzbekchada uchalasi ham «u»."
   },
-  "u2-l3.10.en": {
+  "u2-l3.fill-peter-on-je.en": {
     "en": "Peter? He's German.",
     "t": "Petermi? U nemis."
   },
-  "u2-l3.10.why": {
+  "u2-l3.fill-peter-on-je.why": {
     "en": "Peter is a man, so “he” is **on**. Ona is she, ono is it.",
     "t": "Peter — erkak, shuning uchun «u» — **on**. Ona ayol haqida, ono esa oʻrta jinsdagi soʻz haqida aytiladi."
   },
-  "u2-l3.11.pairs": {
+  "u2-l3.match-ucitelka.pairs": {
     "en": [
       "teacher (woman)",
       "friend (man)",
@@ -723,11 +723,11 @@
       "shahar"
     ]
   },
-  "u2-l3.12.prompt": {
+  "u2-l3.build-martin-je-ucitel.prompt": {
     "en": "Martin is a teacher and Eva is a student.",
     "t": "Martin oʻqituvchi, Eva esa talaba."
   },
-  "u2-l3.12.traps": {
+  "u2-l3.build-martin-je-ucitel.traps": {
     "en": [
       "Martin is a man, so he takes the masculine form: **učiteľ**. Učiteľka, with -ka, is for a woman.",
       "Eva is a woman, so she takes the feminine form with **-ka**: študent**ka**. Študent is for a man."
@@ -737,7 +737,7 @@
       "Eva — ayol, shuning uchun **-ka** bilan ayol shakli keladi: študent**ka**. Študent esa erkak uchun (oʻzbekchada ikkalasi ham «talaba»)."
     ]
   },
-  "u2-l3.13.en": {
+  "u2-l3.speak-to-je-univerzita.en": {
     "en": "That's the university.",
     "t": "Bu universitet."
   },
@@ -745,11 +745,11 @@
     "en": "I study and I work",
     "t": "Oʻqiyman va ishlayman"
   },
-  "u2-l4.0.title": {
+  "u2-l4.grammar-verbs-ending-each.title": {
     "en": "Verbs: an ending for each person",
     "t": "Feʼllar: har bir shaxsga oʻz qoʻshimchasi"
   },
-  "u2-l4.0.body": {
+  "u2-l4.grammar-verbs-ending-each.body": {
     "en": [
       "Slovak verbs change their ending to show who is doing something: **-m** (I), **-š** (you), no ending (he, she), **-me** (we), **-te** (you), and **-jú**, **-ú** or **-ia** (they).",
       "Like hovoriť: **robiť** (to do) → robím, robíš, robí… Čo robíš? = What do you do?",
@@ -761,7 +761,7 @@
       "Tillar **po** bilan aytiladi: hovoriť po slovensky (slovakcha gapirmoq), po anglicky (inglizcha), po nemecky (nemischa)."
     ]
   },
-  "u2-l4.0.table.head": {
+  "u2-l4.grammar-verbs-ending-each.table.head": {
     "en": [
       "",
       "volať sa (be called)",
@@ -773,7 +773,7 @@
       "hovoriť (gapirmoq)"
     ]
   },
-  "u2-l4.0.table.rows": {
+  "u2-l4.grammar-verbs-ending-each.table.rows": {
     "en": [
       [
         "ja",
@@ -839,7 +839,7 @@
       ]
     ]
   },
-  "u2-l4.0.examples": {
+  "u2-l4.grammar-verbs-ending-each.examples": {
     "en": [
       "My name is Emma.",
       "Lucia speaks English.",
@@ -851,27 +851,27 @@
       "Nima ish qilasan?"
     ]
   },
-  "u2-l4.1.en": {
+  "u2-l4.fill-lucia-hovori-po.en": {
     "en": "Lucia speaks English.",
     "t": "Lusiya inglizcha gapiradi."
   },
-  "u2-l4.1.why": {
+  "u2-l4.fill-lucia-hovori-po.why": {
     "en": "With on or ona, the verb has no ending: Lucia **hovorí**. Hovorím (-m) is ja, hovoria (-ia) is oni.",
     "t": "on yoki ona bilan feʼl qoʻshimchasiz keladi: Lucia **hovorí**. Hovorím (-m) — ja, hovoria (-ia) — oni shakli."
   },
-  "u2-l4.2.en": {
+  "u2-l4.fill-tomas-a-marek.en": {
     "en": "Tomáš and Marek speak Slovak.",
     "t": "Tomash va Marek slovakcha gapirishadi."
   },
-  "u2-l4.2.why": {
+  "u2-l4.fill-tomas-a-marek.why": {
     "en": "Tomáš and Marek are **oni** (they), so hovoriť ends in **-ia**: hovor**ia**. Hovorí is one person, hovoríme is my (we).",
     "t": "Tomash va Marek — **oni** (ular), shuning uchun hovoriť **-ia** bilan tugaydi: hovor**ia**. Hovorí — bitta kishi, hovoríme — my (biz) shakli."
   },
-  "u2-l4.3.prompt": {
+  "u2-l4.build-ako-sa-vola.prompt": {
     "en": "What's her name?",
     "t": "Uning ismi nima?"
   },
-  "u2-l4.3.traps": {
+  "u2-l4.build-ako-sa-vola.traps": {
     "en": [
       "“Her” name means **ona**, and with on or ona the verb has no ending: Ako sa **volá**? Voláš is ty (you).",
       "“Her” name means **ona**, and with on or ona the verb has no ending: Ako sa **volá**? Volám is ja (I)."
@@ -881,19 +881,19 @@
       "«Uning ismi» haqida soʻralyapti, yaʼni on yoki ona haqida, ular bilan esa feʼl qoʻshimchasiz keladi: Ako sa **volá**? Volám — ja (men) shakli."
     ]
   },
-  "u2-l4.4.question": {
+  "u2-l4.choice-hovorime-po-slovensky.question": {
     "en": "How do you say “We speak Slovak”?",
     "t": "«Biz slovakcha gapiramiz» qanday aytiladi?"
   },
-  "u2-l4.4.why": {
+  "u2-l4.choice-hovorime-po-slovensky.why": {
     "en": "With **my** (we), the verb ends in **-me**: hovorí**me**. -te is for vy, -ia for oni (they).",
     "t": "**my** (biz) bilan feʼl **-me** bilan tugaydi: hovorí**me**, oʻzbekchadagi -miz kabi (gapiramiz). -te — vy uchun, -ia — oni (ular) uchun."
   },
-  "u2-l4.5.title": {
+  "u2-l4.grammar-studovat-rozumiet.title": {
     "en": "Študovať and rozumieť",
     "t": "Študovať va rozumieť"
   },
-  "u2-l4.5.body": {
+  "u2-l4.grammar-studovat-rozumiet.body": {
     "en": [
       "Verbs in **-ovať** change -ova- to **-uje-**: študovať → študujem. **Pracovať** (to work) does the same: pracujem.",
       "Verbs in **-ieť** keep -ie-: rozumieť → rozumiem. Only “they” is different: rozume**jú**."
@@ -903,7 +903,7 @@
       "**-ieť** bilan tugaydigan feʼllarda -ie- saqlanadi: rozumieť → rozumiem. Faqat «ular» shakli boshqacha: rozume**jú**."
     ]
   },
-  "u2-l4.5.table.head": {
+  "u2-l4.grammar-studovat-rozumiet.table.head": {
     "en": [
       "",
       "študovať (study)",
@@ -915,7 +915,7 @@
       "rozumieť (tushunmoq)"
     ]
   },
-  "u2-l4.5.table.rows": {
+  "u2-l4.grammar-studovat-rozumiet.table.rows": {
     "en": [
       [
         "ja",
@@ -981,7 +981,7 @@
       ]
     ]
   },
-  "u2-l4.5.examples": {
+  "u2-l4.grammar-studovat-rozumiet.examples": {
     "en": [
       "Do you study or work?",
       "Tomáš works as a programmer.",
@@ -995,7 +995,7 @@
       "Tushunasizmi? — Ha, tushunaman."
     ]
   },
-  "u2-l4.6.pairs": {
+  "u2-l4.match-studovat.pairs": {
     "en": [
       "to study",
       "to work",
@@ -1011,27 +1011,27 @@
       "qilmoq"
     ]
   },
-  "u2-l4.7.en": {
+  "u2-l4.fill-lucia-studuje-a.en": {
     "en": "Lucia studies and Marek works.",
     "t": "Lusiya oʻqiydi, Marek esa ishlaydi."
   },
-  "u2-l4.7.why": {
+  "u2-l4.fill-lucia-studuje-a.why": {
     "en": "Marek is **on**, so the verb has no ending, just like študuje: **pracuje**. Pracujem is ja, pracujú is oni.",
     "t": "Marek — **on**, shuning uchun feʼl qoʻshimchasiz keladi, xuddi študuje kabi: **pracuje**. Pracujem — ja, pracujú — oni shakli."
   },
-  "u2-l4.8.en": {
+  "u2-l4.fill-lucia-a-tomas.en": {
     "en": "Lucia and Tomáš understand English.",
     "t": "Lusiya va Tomash inglizcha tushunishadi."
   },
-  "u2-l4.8.why": {
+  "u2-l4.fill-lucia-a-tomas.why": {
     "en": "Lucia and Tomáš are **oni**, and the “they” form of rozumieť is the different one: rozume**jú**. Rozumie is one person, rozumieme is my.",
     "t": "Lusiya va Tomash — **oni**, rozumieť feʼlining «ular» shakli esa boshqacha: rozume**jú**. Rozumie — bitta kishi, rozumieme — my shakli."
   },
-  "u2-l4.9.prompt": {
+  "u2-l4.build-tomas-pracujes-ako.prompt": {
     "en": "Tomáš, do you work as a programmer?",
     "t": "Tomash, sen dasturchi boʻlib ishlaysanmi?"
   },
-  "u2-l4.9.traps": {
+  "u2-l4.build-tomas-pracujes-ako.traps": {
     "en": [
       "You're asking Tomáš himself, **ty**, so the verb ends in **-š**: pracuje**š**. Pracuje is for on or ona.",
       "You're asking Tomáš himself, **ty**, so the verb ends in **-š**: pracuje**š**. Pracujem, with -m, is ja (I)."
@@ -1041,11 +1041,11 @@
       "Siz Tomashning oʻzidan soʻrayapsiz, yaʼni **ty** (sen), shuning uchun feʼl **-š** bilan tugaydi: pracuje**š**. -m bilan pracujem — ja (men) shakli."
     ]
   },
-  "u2-l4.10.en": {
+  "u2-l4.listen-studujem-a-pracujem.en": {
     "en": "I study and work.",
     "t": "Oʻqiyman va ishlayman."
   },
-  "u2-l4.11.answers": {
+  "u2-l4.build-hovorite-po-anglicky.answers": {
     "en": [
       "Do you speak English?"
     ],
@@ -1054,7 +1054,7 @@
       "Inglizcha gapirasizmi?"
     ]
   },
-  "u2-l4.11.distractors": {
+  "u2-l4.build-hovorite-po-anglicky.distractors": {
     "en": [
       "speaks",
       "Slovak"
@@ -1064,15 +1064,15 @@
       "slovakcha"
     ]
   },
-  "u2-l4.12.en": {
+  "u2-l4.fill-co-robis-studujem.en": {
     "en": "What do you do? — I study.",
     "t": "Nima ish qilasan? — Oʻqiyman."
   },
-  "u2-l4.12.why": {
+  "u2-l4.fill-co-robis-studujem.why": {
     "en": "The answer študujem is ja, so the question asks **ty** (you), and the verb ends in **-š**: robí**š**. Robím is ja, robia is oni.",
     "t": "Javobdagi študujem — ja shakli, demak savolda **ty** (sen) shakli keladi va feʼl **-š** bilan tugaydi: robí**š**. Robím — ja, robia — oni."
   },
-  "u2-l4.13.en": {
+  "u2-l4.speak-studujes-alebo-pracujes.en": {
     "en": "Do you study or work?",
     "t": "Oʻqiysanmi yoki ishlaysanmi?"
   },
@@ -1080,11 +1080,11 @@
     "en": "Saying “not”",
     "t": "Inkor: «-ma» va «emas»"
   },
-  "u2-l5.0.title": {
+  "u2-l5.grammar-not-ne-verb.title": {
     "en": "Not: ne- + verb",
     "t": "Inkor: ne- + feʼl"
   },
-  "u2-l5.0.body": {
+  "u2-l5.grammar-not-ne-verb.body": {
     "en": [
       "To say “not”, put **ne-** in front of the verb. It is written as one word.",
       "A phrase to know by heart: **Ne**rozumiem. = I don't understand."
@@ -1094,7 +1094,7 @@
       "Yod olish kerak boʻlgan ibora: **Ne**rozumiem. = Tushunmayapman."
     ]
   },
-  "u2-l5.0.table.head": {
+  "u2-l5.grammar-not-ne-verb.table.head": {
     "en": [
       "yes",
       "not"
@@ -1104,7 +1104,7 @@
       "inkor"
     ]
   },
-  "u2-l5.0.table.rows": {
+  "u2-l5.grammar-not-ne-verb.table.rows": {
     "en": [
       [
         "hovorím",
@@ -1142,7 +1142,7 @@
       ]
     ]
   },
-  "u2-l5.0.examples": {
+  "u2-l5.grammar-not-ne-verb.examples": {
     "en": [
       "I don't speak German.",
       "Marek doesn't study, he works.",
@@ -1154,27 +1154,27 @@
       "Kechirasiz, tushunmayapman."
     ]
   },
-  "u2-l5.1.en": {
+  "u2-l5.fill-marek-nehovori-po.en": {
     "en": "Marek doesn't speak English.",
     "t": "Marek inglizcha gapirmaydi."
   },
-  "u2-l5.1.why": {
+  "u2-l5.fill-marek-nehovori-po.why": {
     "en": "**Ne-** goes in front, and the ending still shows the person: Marek is on, so **nehovorí**. Nehovorím is ja, nehovoria is oni.",
     "t": "**Ne-** feʼl oldiga qoʻshiladi, qoʻshimcha esa baribir shaxsni koʻrsatadi: Marek — on, demak **nehovorí**. Nehovorím — ja, nehovoria — oni."
   },
-  "u2-l5.2.question": {
+  "u2-l5.choice-ja-nestudujem.question": {
     "en": "Which one is correct?",
     "t": "Qaysi biri toʻgʻri?"
   },
-  "u2-l5.2.why": {
+  "u2-l5.choice-ja-nestudujem.why": {
     "en": "**Ne-** goes in front of the verb, written as one word: **ne**študujem. Only byť takes a separate **nie**: nie som.",
     "t": "**Ne-** feʼl oldiga qoʻshib yoziladi: **ne**študujem, xuddi oʻzbekchadagi -ma- kabi (oʻqimayman). Alohida **nie** faqat byť bilan keladi: nie som."
   },
-  "u2-l5.3.prompt": {
+  "u2-l5.build-nehovorime-po-nemecky.prompt": {
     "en": "We don't speak German.",
     "t": "Biz nemischa gapirmaymiz."
   },
-  "u2-l5.3.traps": {
+  "u2-l5.build-nehovorime-po-nemecky.traps": {
     "en": [
       "We is **my**, so the verb ends in **-me**: nehovorí**me**. Nehovoríte, with -te, is vy.",
       "To say “not”, put **ne-** in front of the verb, written as one word: **ne**hovoríme. Only byť takes a separate nie: nie som."
@@ -1184,23 +1184,23 @@
       "Inkor uchun feʼl oldiga **ne-** qoʻyiladi va qoʻshib yoziladi: **ne**hovoríme (gapirmaymiz). Alohida nie faqat byť bilan keladi: nie som."
     ]
   },
-  "u2-l5.4.en": {
+  "u2-l5.listen-lucia-nepracuje-studuje.en": {
     "en": "Lucia doesn't work, she studies.",
     "t": "Lusiya ishlamaydi, oʻqiydi."
   },
-  "u2-l5.5.question": {
+  "u2-l5.choice-prepacte-nerozumiem.question": {
     "en": "Pán Kováč speaks very fast and you don't understand. What do you say?",
     "t": "Janob Kovach juda tez gapiryapti, siz esa tushunmayapsiz. Nima deysiz?"
   },
-  "u2-l5.5.why": {
+  "u2-l5.choice-prepacte-nerozumiem.why": {
     "en": "**Nerozumiem** is ne- + rozumiem, I don't understand, and pán Kováč gets the polite Prepáčte. Áno, rozumiem says the opposite; Nech sa páči is for handing something over.",
     "t": "**Nerozumiem** — ne- + rozumiem, «tushunmayapman», janob Kovachga esa hurmatli Prepáčte aytiladi. Áno, rozumiem buning teskarisi, Nech sa páči esa biror narsa uzatganda aytiladi."
   },
-  "u2-l5.6.title": {
+  "u2-l5.grammar-not-byt-nie.title": {
     "en": "Not with byť: nie som",
     "t": "Byť bilan inkor: nie som"
   },
-  "u2-l5.6.body": {
+  "u2-l5.grammar-not-byt-nie.body": {
     "en": [
       "**Byť** is the exception. It takes a separate word, **nie**, in front of the verb.",
       "When you answer “no”, you often hear nie twice: Si Slovák? — **Nie, nie** som."
@@ -1210,7 +1210,7 @@
       "«Yoʻq» deb javob berganda nie koʻpincha ikki marta eshitiladi: Si Slovák? — **Nie, nie** som. (Yoʻq, emasman.)"
     ]
   },
-  "u2-l5.6.table.head": {
+  "u2-l5.grammar-not-byt-nie.table.head": {
     "en": [
       "",
       "byť",
@@ -1222,7 +1222,7 @@
       "inkor"
     ]
   },
-  "u2-l5.6.table.rows": {
+  "u2-l5.grammar-not-byt-nie.table.rows": {
     "en": [
       [
         "ja",
@@ -1288,7 +1288,7 @@
       ]
     ]
   },
-  "u2-l5.6.examples": {
+  "u2-l5.grammar-not-byt-nie.examples": {
     "en": [
       "I'm not Slovak, I'm Irish.",
       "That's not Tomáš, that's Marek."
@@ -1298,27 +1298,27 @@
       "Bu Tomash emas, bu Marek."
     ]
   },
-  "u2-l5.7.en": {
+  "u2-l5.fill-emma-nie-je.en": {
     "en": "Emma isn't from Slovakia.",
     "t": "Emma Slovakiyadan emas."
   },
-  "u2-l5.7.why": {
+  "u2-l5.fill-emma-nie-je.why": {
     "en": "Byť takes a separate **nie**, and Emma is ona, so **nie je**. Nie si is ty, nie sú is oni.",
     "t": "Byť bilan alohida **nie** keladi, Emma esa ona, demak **nie je** (emas). Nie si — ty, nie sú — oni shakli."
   },
-  "u2-l5.8.question": {
+  "u2-l5.choice-nie-nie-som.question": {
     "en": "“Si zo Slovenska?” You are from Ireland. What do you answer?",
     "t": "«Si zo Slovenska?» Siz Irlandiyadansiz. Nima deb javob berasiz?"
   },
-  "u2-l5.8.why": {
+  "u2-l5.choice-nie-nie-som.why": {
     "en": "You're not from Slovakia, and you answer as ja, so **nie som**. Nie si would mean “you aren't”.",
     "t": "Siz Slovakiyadan emassiz va oʻzingiz (ja) haqingizda javob berasiz, shuning uchun **nie som** (emasman). Nie si «sen emassan» degani boʻlardi."
   },
-  "u2-l5.9.prompt": {
+  "u2-l5.build-tomas-nie-je.prompt": {
     "en": "Tomáš isn't German, he's Slovak.",
     "t": "Tomash nemis emas, u slovak."
   },
-  "u2-l5.9.traps": {
+  "u2-l5.build-tomas-nie-je.traps": {
     "en": [
       "Tomáš is a man, so he takes the masculine form: **Nemec**. Nemka is a German woman.",
       "Tomáš is **on** (he), and with on byť is **je**: nie je, je Slovák. Som goes with ja (I)."
@@ -1328,15 +1328,15 @@
       "Tomash — **on** (u), on bilan esa byť — **je**: nie je, je Slovák. Som ja (men) bilan keladi."
     ]
   },
-  "u2-l5.10.en": {
+  "u2-l5.fill-lucia-a-tomas.en": {
     "en": "Lucia and Tomáš aren't from Ireland.",
     "t": "Lusiya va Tomash Irlandiyadan emas."
   },
-  "u2-l5.10.why": {
+  "u2-l5.fill-lucia-a-tomas.why": {
     "en": "Lucia and Tomáš are **oni**, so byť is sú, with a separate nie: **nie sú**. Nie sme is my (we), nie ste is vy.",
     "t": "Lusiya va Tomash — **oni**, demak byť — sú, oldida alohida nie bilan: **nie sú**. Nie sme — my (biz), nie ste — vy shakli."
   },
-  "u2-l5.11.pairs": {
+  "u2-l5.match-nie-som.pairs": {
     "en": [
       "I am not",
       "you are not (polite)",
@@ -1352,7 +1352,7 @@
       "tushunmaysan"
     ]
   },
-  "u2-l5.12.answers": {
+  "u2-l5.build-to-nie-je.answers": {
     "en": [
       "That's not Lucia, that's Jana."
     ],
@@ -1360,7 +1360,7 @@
       "Bu Lusiya emas, bu Yana."
     ]
   },
-  "u2-l5.12.distractors": {
+  "u2-l5.build-to-nie-je.distractors": {
     "en": [
       "is",
       "Who"
@@ -1370,15 +1370,15 @@
       "emasman"
     ]
   },
-  "u2-l5.13.en": {
+  "u2-l5.fill-prepacte-ja-nerozumiem.en": {
     "en": "Sorry, I don't understand Slovak.",
     "t": "Kechirasiz, men slovakcha tushunmayman."
   },
-  "u2-l5.13.why": {
+  "u2-l5.fill-prepacte-ja-nerozumiem.why": {
     "en": "With **ja**, the verb ends in **-m**, and ne- goes in front: **nerozumiem**. Nerozumie is on or ona, nerozumejú is oni.",
     "t": "**ja** bilan feʼl **-m** bilan tugaydi, ne- esa oldiga qoʻshiladi: **nerozumiem**. Nerozumie — on yoki ona, nerozumejú — oni shakli."
   },
-  "u2-l5.14.en": {
+  "u2-l5.speak-nie-nie-som.en": {
     "en": "No, I'm not from Slovakia.",
     "t": "Yoʻq, men Slovakiyadan emasman."
   },
@@ -1386,19 +1386,19 @@
     "en": "Numbers",
     "t": "Sonlar"
   },
-  "u2-l6.0.en": {
+  "u2-l6.jeden-dva-tri.en": {
     "en": "one, two, three, four, five",
     "t": "bir, ikki, uch, toʻrt, besh"
   },
-  "u2-l6.0.note": {
+  "u2-l6.jeden-dva-tri.note": {
     "en": "Zero is **nula**. “One” matches the noun's gender: jeden mobil, jedn**a** izba, jedn**o** auto.",
     "t": "Nol — **nula**. «Bir» soʻzi otning jinsiga moslashadi: jeden mobil (erkak jinsi), jedn**a** izba (ayol jinsi), jedn**o** auto (oʻrta jins)."
   },
-  "u2-l6.1.en": {
+  "u2-l6.sest-sedem-osem.en": {
     "en": "six, seven, eight, nine, ten",
     "t": "olti, yetti, sakkiz, toʻqqiz, oʻn"
   },
-  "u2-l6.2.pairs": {
+  "u2-l6.match-dva.pairs": {
     "en": [
       "2",
       "4",
@@ -1414,11 +1414,11 @@
       "9"
     ]
   },
-  "u2-l6.3.question": {
+  "u2-l6.choice-osem.question": {
     "en": "What number is this?",
     "t": "Bu qaysi son?"
   },
-  "u2-l6.3.options": {
+  "u2-l6.choice-osem.options": {
     "en": [
       "3",
       "8",
@@ -1430,27 +1430,27 @@
       "6"
     ]
   },
-  "u2-l6.4.en": {
+  "u2-l6.listen-pat-sest-sedem.en": {
     "en": "five, six, seven",
     "t": "besh, olti, yetti"
   },
-  "u2-l6.5.en": {
+  "u2-l6.jedenast-dvanast-trinast.en": {
     "en": "eleven, twelve, thirteen",
     "t": "oʻn bir, oʻn ikki, oʻn uch"
   },
-  "u2-l6.5.note": {
+  "u2-l6.jedenast-dvanast-trinast.note": {
     "en": "11–19 end in **-násť**: **štr**násť (14, a short form of štyri), pätnásť, šestnásť, sedemnásť, osemnásť, devätnásť.",
     "t": "11–19 **-násť** bilan tugaydi: **štr**násť (14, štyri soʻzining qisqa shakli), pätnásť, šestnásť, sedemnásť, osemnásť, devätnásť."
   },
-  "u2-l6.6.en": {
+  "u2-l6.dvadsat-tridsat-styridsat.en": {
     "en": "twenty, thirty, forty",
     "t": "yigirma, oʻttiz, qirq"
   },
-  "u2-l6.6.note": {
+  "u2-l6.dvadsat-tridsat-styridsat.note": {
     "en": "From 50 on, tens end in **-desiat**: päťdesiat, šesťdesiat, sedemdesiat… And 100 is **sto**.",
     "t": "Ellikdan boshlab oʻnliklar **-desiat** bilan tugaydi: päťdesiat, šesťdesiat, sedemdesiat… 100 esa **sto**."
   },
-  "u2-l6.7.pairs": {
+  "u2-l6.match-jedenast.pairs": {
     "en": [
       "11",
       "15",
@@ -1466,35 +1466,35 @@
       "100"
     ]
   },
-  "u2-l6.8.question": {
+  "u2-l6.choice-strnast.question": {
     "en": "How do you say 14?",
     "t": "14 qanday aytiladi?"
   },
-  "u2-l6.8.why": {
+  "u2-l6.choice-strnast.why": {
     "en": "11–19 end in **-násť**, and 14 uses the short form štr-: **štrnásť**. Štyri is 4, štyridsať is 40.",
     "t": "11–19 **-násť** bilan tugaydi, 14 esa qisqa štr- shakli bilan yasaladi (štyri soʻzidan): **štrnásť**. Štyri — 4, štyridsať — 40."
   },
-  "u2-l6.9.en": {
+  "u2-l6.kolko-mas-rokov.en": {
     "en": "How old are you? (informal)",
     "t": "Necha yoshdasan? (sen)"
   },
-  "u2-l6.9.note": {
+  "u2-l6.kolko-mas-rokov.note": {
     "en": "Literally “How many years do you have?” Polite form: Koľko **máte** rokov?",
     "t": "Soʻzma-soʻz: «Nechta yiling bor?» Hurmat shakli: Koľko **máte** rokov?"
   },
-  "u2-l6.10.en": {
+  "u2-l6.mam-dvadsatpat-rokov.en": {
     "en": "I'm twenty-five.",
     "t": "Yigirma besh yoshdaman."
   },
-  "u2-l6.10.note": {
+  "u2-l6.mam-dvadsatpat-rokov.note": {
     "en": "**Mám** = I have (má = he or she has). Tens and ones join into one word: dvadsať + päť = **dvadsaťpäť**.",
     "t": "**Mám** = menda bor (má = unda bor). Oʻnliklar va birliklar bitta soʻz qilib yoziladi: dvadsať + päť = **dvadsaťpäť**."
   },
-  "u2-l6.11.prompt": {
+  "u2-l6.build-mam-dvadsat-rokov.prompt": {
     "en": "I'm twenty years old.",
     "t": "Yigirma yoshdaman."
   },
-  "u2-l6.11.traps": {
+  "u2-l6.build-mam-dvadsat-rokov.traps": {
     "en": [
       "Slovak gives your age with **mám** (I have), literally “I have twenty years”. Som means “I am”.",
       "With dvadsať, “years” is **rokov**, just as in Mám dvadsaťpäť rokov and Koľko máš rokov?"
@@ -1504,31 +1504,31 @@
       "dvadsať bilan «yil» — **rokov**, xuddi Mám dvadsaťpäť rokov va Koľko máš rokov? iboralaridagi kabi."
     ]
   },
-  "u2-l6.12.en": {
+  "u2-l6.fill-kolko-mate-rokov.en": {
     "en": "How old are you, Mr Kováč?",
     "t": "Necha yoshdasiz, janob Kovach?"
   },
-  "u2-l6.12.why": {
+  "u2-l6.fill-kolko-mate-rokov.why": {
     "en": "Pán Kováč gets the polite **vy**, so the verb ends in **-te**: má**te**. Máš is for a friend (ty).",
     "t": "Janob Kovachga hurmat bilan **vy** (siz) deyiladi, shuning uchun feʼl **-te** bilan tugaydi: má**te**. Máš — doʻstga (ty)."
   },
-  "u2-l6.13.en": {
+  "u2-l6.listen-tomas-ma-tridsat.en": {
     "en": "Tomáš is thirty.",
     "t": "Tomash oʻttiz yoshda."
   },
-  "u2-l6.14.en": {
+  "u2-l6.prvy-druhy-treti.en": {
     "en": "first, second, third",
     "t": "birinchi, ikkinchi, uchinchi"
   },
-  "u2-l6.14.note": {
+  "u2-l6.prvy-druhy-treti.note": {
     "en": "Words for order end in **-ý** or **-í**: prvý, druhý, tretí, štvrtý, piaty.",
     "t": "Tartib sonlar (oʻzbekchadagi -inchi kabi) **-ý** yoki **-í** bilan tugaydi: prvý, druhý, tretí, štvrtý, piaty."
   },
-  "u2-l6.15.question": {
+  "u2-l6.choice-second.question": {
     "en": "What does “druhý” mean?",
     "t": "«druhý» nimani anglatadi?"
   },
-  "u2-l6.15.options": {
+  "u2-l6.choice-second.options": {
     "en": [
       "two",
       "second",
@@ -1540,19 +1540,19 @@
       "oʻn ikki"
     ]
   },
-  "u2-l6.15.why": {
+  "u2-l6.choice-second.why": {
     "en": "Words for order end in **-ý** or **-í**, so **druhý** is second, like prvý (first). Two is dva.",
     "t": "Tartibni bildiruvchi soʻzlar **-ý** yoki **-í** bilan tugaydi, shuning uchun **druhý** — «ikkinchi», xuddi prvý (birinchi) kabi. «Ikki» esa dva."
   },
-  "u2-l6.16.en": {
+  "u2-l6.fill-mam-jedno-auto.en": {
     "en": "I have one car.",
     "t": "Mening bitta mashinam bor."
   },
-  "u2-l6.16.why": {
+  "u2-l6.fill-mam-jedno-auto.why": {
     "en": "“One” matches the noun's gender. Auto ends in -o, so it's neuter: **jedno**. Jeden is masculine (jeden mobil), jedna feminine (jedna izba).",
     "t": "«Bir» soʻzi otning jinsiga moslashadi. Auto -o bilan tugaydi, demak oʻrta jinsda: **jedno**. Jeden — erkak jinsi (jeden mobil), jedna — ayol jinsi (jedna izba)."
   },
-  "u2-l6.17.en": {
+  "u2-l6.speak-kolko-mas-rokov.en": {
     "en": "How old are you?",
     "t": "Necha yoshdasan?"
   },
@@ -1560,23 +1560,23 @@
     "en": "Review",
     "t": "Takrorlash"
   },
-  "u2-l7.0.en": {
+  "u2-l7.listen-odkial-ste-som.en": {
     "en": "Where are you from? I'm from Italy.",
     "t": "Qayerdansiz? Italiyadanman."
   },
-  "u2-l7.1.en": {
+  "u2-l7.fill-marek-je-zo.en": {
     "en": "Marek is from Slovakia.",
     "t": "Marek Slovakiyadan."
   },
-  "u2-l7.1.why": {
+  "u2-l7.fill-marek-je-zo.why": {
     "en": "Slovensko starts with s, and before s, z, š or ž, “from” is **zo**. Other countries take z: z Írska.",
     "t": "Slovensko s bilan boshlanadi, s, z, š yoki ž oldidan esa «…dan» — **zo**. Boshqa mamlakatlar bilan z keladi: z Írska."
   },
-  "u2-l7.2.prompt": {
+  "u2-l7.build-oni-su-z.prompt": {
     "en": "They're from Germany.",
     "t": "Ular Germaniyadan."
   },
-  "u2-l7.2.traps": {
+  "u2-l7.build-oni-su-z.traps": {
     "en": [
       "After z (from), the -o at the end changes to **-a**: Nemecko → z Nemeck**a**.",
       "With **oni** (they), byť is **sú**. Sme goes with my (we)."
@@ -1586,15 +1586,15 @@
       "«Ular» — **oni**, oni bilan esa byť — **sú**. Sme my (biz) bilan keladi."
     ]
   },
-  "u2-l7.3.en": {
+  "u2-l7.fill-ja-nie-som.en": {
     "en": "I'm not a student, I'm a teacher.",
     "t": "Men talaba emasman, oʻqituvchiman."
   },
-  "u2-l7.3.why": {
+  "u2-l7.fill-ja-nie-som.why": {
     "en": "Byť takes a separate **nie**, and ja goes with som: **nie som**. Nie je is on or ona, and plain som would mean “I am”.",
     "t": "Byť bilan alohida **nie** keladi, ja esa som bilan: **nie som** (emasman). Nie je — on yoki ona shakli. nie boʻlmasa, som študentka «talabaman» degani boʻlardi."
   },
-  "u2-l7.4.pairs": {
+  "u2-l7.match-irka.pairs": {
     "en": [
       "Irish (woman)",
       "Italian (man)",
@@ -1610,23 +1610,23 @@
       "doʻst (ayol)"
     ]
   },
-  "u2-l7.5.question": {
+  "u2-l7.choice-internat.question": {
     "en": "Which word is masculine?",
     "t": "Qaysi soʻz erkak jinsida?"
   },
-  "u2-l7.5.why": {
+  "u2-l7.choice-internat.why": {
     "en": "A noun ending in a consonant is usually masculine: **internát**. Univerzita ends in -a (feminine), mesto in -o (neuter).",
     "t": "Undosh bilan tugaydigan ot odatda erkak jinsida boʻladi: **internát**. Univerzita -a bilan tugaydi (ayol jinsi), mesto esa -o bilan (oʻrta jins)."
   },
-  "u2-l7.6.en": {
+  "u2-l7.fill-marek-pracuje-ako.en": {
     "en": "Marek works as a cook.",
     "t": "Marek oshpaz boʻlib ishlaydi."
   },
-  "u2-l7.6.why": {
+  "u2-l7.fill-marek-pracuje-ako.why": {
     "en": "Marek is **on**, so the verb has no ending: **pracuje**. Pracujem is ja, pracujú is oni.",
     "t": "Marek — **on**, shuning uchun feʼl qoʻshimchasiz keladi: **pracuje**. Pracujem — ja, pracujú — oni shakli."
   },
-  "u2-l7.7.answers": {
+  "u2-l7.build-lucia-nehovori-po.answers": {
     "en": [
       "Lucia doesn't speak German."
     ],
@@ -1634,7 +1634,7 @@
       "Lusiya nemischa gapirmaydi."
     ]
   },
-  "u2-l7.7.distractors": {
+  "u2-l7.build-lucia-nehovori-po.distractors": {
     "en": [
       "speaks",
       "English"
@@ -1644,31 +1644,31 @@
       "inglizcha"
     ]
   },
-  "u2-l7.8.en": {
+  "u2-l7.fill-vy-studujete-alebo.en": {
     "en": "Do you study or work?",
     "t": "Oʻqiysizmi yoki ishlaysizmi?"
   },
-  "u2-l7.8.why": {
+  "u2-l7.fill-vy-studujete-alebo.why": {
     "en": "With **vy**, the verb ends in **-te**, just like pracujete: študuje**te**. Študuješ is ty, študujú is oni.",
     "t": "**vy** bilan feʼl **-te** bilan tugaydi, xuddi pracujete kabi: študuje**te**. Študuješ — ty, študujú — oni shakli."
   },
-  "u2-l7.9.en": {
+  "u2-l7.listen-lucia-ma-devatnast.en": {
     "en": "Lucia is nineteen.",
     "t": "Lusiya oʻn toʻqqiz yoshda."
   },
-  "u2-l7.10.question": {
+  "u2-l7.choice-styridsat.question": {
     "en": "How do you say 40?",
     "t": "40 qanday aytiladi?"
   },
-  "u2-l7.10.why": {
+  "u2-l7.choice-styridsat.why": {
     "en": "Twenty, thirty and forty end in **-dsať**: dvadsať, tridsať, štyri**dsať**. **-násť** is for 11–19: štrnásť is 14.",
     "t": "Yigirma, oʻttiz va qirq **-dsať** bilan tugaydi: dvadsať, tridsať, štyri**dsať**. **-násť** esa 11–19 uchun: štrnásť — 14."
   },
-  "u2-l7.11.prompt": {
+  "u2-l7.build-nie-som-zo.prompt": {
     "en": "I'm not from Slovakia. I'm from Ireland.",
     "t": "Men Slovakiyadan emasman. Irlandiyadanman."
   },
-  "u2-l7.11.traps": {
+  "u2-l7.build-nie-som-zo.traps": {
     "en": [
       "After z (from), the -o at the end changes to **-a**: Írsko → z Írsk**a**.",
       "You're talking about yourself, **ja**, so byť is **som**: nie som, som z Írska. Je is for on or ona."
@@ -1678,23 +1678,23 @@
       "Siz oʻzingiz haqingizda gapiryapsiz (ja), shuning uchun byť — **som**, oʻzbekchadagi -man kabi: nie som, som z Írska. Je — on yoki ona uchun."
     ]
   },
-  "u2-l7.12.question": {
+  "u2-l7.choice-ako-sa-volate.question": {
     "en": "You meet a new teacher for the first time. How do you ask her name?",
     "t": "Yangi oʻqituvchingiz (ayol) bilan ilk bor uchrashdingiz. Uning ismini qanday soʻraysiz?"
   },
-  "u2-l7.12.why": {
+  "u2-l7.choice-ako-sa-volate.why": {
     "en": "A new teacher gets the polite **vy**, so the verb ends in **-te**: volá**te**. Voláš is for a friend (ty); volá is “he or she is called”.",
     "t": "Yangi oʻqituvchiga hurmat bilan **vy** (siz) deyiladi, shuning uchun feʼl **-te** bilan tugaydi: volá**te**. Voláš — doʻstga (ty), volá esa «uning ismi …» degani."
   },
-  "u2-l7.13.en": {
+  "u2-l7.fill-ako-sa-volaju.en": {
     "en": "What are their names? — Tomáš and Marek.",
     "t": "Ularning ismi nima? — Tomash va Marek."
   },
-  "u2-l7.13.why": {
+  "u2-l7.fill-ako-sa-volaju.why": {
     "en": "The answer names two people, **oni**, so the verb ends in **-jú**: vola**jú**. Voláme is my (we), volá is one person.",
     "t": "Javobda ikki kishi aytilgan, yaʼni **oni**, shuning uchun feʼl **-jú** bilan tugaydi: vola**jú**. Voláme — my (biz), volá — bitta kishi uchun."
   },
-  "u2-l7.14.pairs": {
+  "u2-l7.match-sest.pairs": {
     "en": [
       "6",
       "12",
@@ -1710,7 +1710,7 @@
       "100"
     ]
   },
-  "u2-l7.15.en": {
+  "u2-l7.speak-nehovorim-po-nemecky.en": {
     "en": "I don't speak German.",
     "t": "Nemischa gapirmayman."
   }

@@ -4,7 +4,7 @@
   "items": [
     {
       "lesson": "u5-l1",
-      "exercise": 0,
+      "exercise": "co-potrebujeme-na",
       "type": "intro",
       "text": "Čo potrebujeme na oslavu? = What do we need for the party?",
       "picture": "In the dorm kitchen, Emma, Lucia and Tomáš plan Lucia's birthday party: Emma sits at the table writing a shopping list, Tomáš leans over her shoulder, and Lucia checks what's in the open fridge.",
@@ -17,7 +17,7 @@
     },
     {
       "lesson": "u5-l1",
-      "exercise": 1,
+      "exercise": "chlieb-a-maslo",
       "type": "intro",
       "text": "chlieb a maslo = bread and butter",
       "picture": "A fresh round loaf on a wooden board next to a dish of butter; a knife spreads butter on a thick slice.",
@@ -30,7 +30,7 @@
     },
     {
       "lesson": "u5-l1",
-      "exercise": 3,
+      "exercise": "syr-a-sunka",
       "type": "intro",
       "text": "syr a šunka = cheese and ham",
       "picture": "Emma makes little open sandwiches for the party, laying slices of ham and cheese on bread; Lucia steals one.",
@@ -43,7 +43,7 @@
     },
     {
       "lesson": "u5-l1",
-      "exercise": 5,
+      "exercise": "vino-pivo-a",
       "type": "intro",
       "text": "víno, pivo a džús = wine, beer and juice",
       "picture": "The drinks for the party lined up on the dorm kitchen counter: a bottle of red wine, a few bottles of beer and a big jug of orange juice, with glasses.",
@@ -56,7 +56,7 @@
     },
     {
       "lesson": "u5-l1",
-      "exercise": 6,
+      "exercise": "kava-a-mineralka",
       "type": "intro",
       "text": "káva a minerálka = coffee and mineral water",
       "picture": "At a table in the café near the university, Tomáš has a cup of coffee and a glass of sparkling mineral water next to his laptop.",
@@ -69,7 +69,7 @@
     },
     {
       "lesson": "u5-l1",
-      "exercise": 9,
+      "exercise": "kolko-stoji-sunka",
       "type": "intro",
       "text": "Koľko stojí šunka? = How much is the ham?",
       "picture": "In the corner shop, Emma points at a ham in the deli counter and asks the price; the shop assistant lifts it onto the scales.",
@@ -77,7 +77,7 @@
     },
     {
       "lesson": "u5-l1",
-      "exercise": 13,
+      "exercise": "kupim-cerstvy-chlieb",
       "type": "intro",
       "text": "Kúpim čerstvý chlieb. = I'll buy fresh bread.",
       "picture": "In the neighbourhood bakery, the baker hands Emma a warm loaf straight from the oven; she closes her eyes to smell it.",
@@ -90,7 +90,7 @@
     },
     {
       "lesson": "u5-l3",
-      "exercise": 0,
+      "exercise": "cerveny-modry-zeleny",
       "type": "intro",
       "text": "červený, modrý, zelený = red, blue, green",
       "picture": "A washing line on the dormitory balcony with three T-shirts drying in the sun: a red one, a blue one and a green one.",
@@ -103,7 +103,7 @@
     },
     {
       "lesson": "u5-l3",
-      "exercise": 1,
+      "exercise": "biely-cierny-zlty",
       "type": "intro",
       "text": "biely, čierny, žltý = white, black, yellow",
       "picture": "The same washing line, now with a white T-shirt, a black one and a yellow one; Lucia pegs up the last.",
@@ -116,7 +116,7 @@
     },
     {
       "lesson": "u5-l3",
-      "exercise": 3,
+      "exercise": "tricko-a-sveter",
       "type": "intro",
       "text": "tričko a sveter = T-shirt and sweater",
       "picture": "In a clothes shop, Emma holds up a T-shirt in one hand and a chunky knitted sweater in the other, trying to decide.",
@@ -129,7 +129,7 @@
     },
     {
       "lesson": "u5-l3",
-      "exercise": 4,
+      "exercise": "sukna-a-kosela",
       "type": "intro",
       "text": "sukňa a košeľa = skirt and shirt",
       "picture": "At the clothes shop mirror, Emma holds a skirt against herself; behind her, Tomáš buttons up a checked shirt and pulls a face.",
@@ -142,7 +142,7 @@
     },
     {
       "lesson": "u5-l3",
-      "exercise": 6,
+      "exercise": "chcem-cierne-tricko",
       "type": "intro",
       "text": "Chcem čierne tričko. = I want a black T-shirt.",
       "picture": "At the clothes shop counter, Tomáš points at a black T-shirt on a high shelf; a young salesman reaches up for it.",
@@ -150,7 +150,7 @@
     },
     {
       "lesson": "u5-l3",
-      "exercise": 9,
+      "exercise": "darcek",
       "type": "intro",
       "text": "darček = present, gift",
       "picture": "Emma and Tomáš come out of a shop carrying a present for Lucia, wrapped in bright paper with a big bow, looking pleased with themselves.",
@@ -163,7 +163,7 @@
     },
     {
       "lesson": "u5-l3",
-      "exercise": 11,
+      "exercise": "aku-farbu-mas",
       "type": "intro",
       "text": "Akú farbu máš rada? = What colour do you like? (to a woman)",
       "picture": "In the clothes shop, Tomáš holds up two scarves, a green one and a blue one, and asks Emma which colour she likes; she points at the green one.",
@@ -176,7 +176,7 @@
     },
     {
       "lesson": "u5-l6",
-      "exercise": 0,
+      "exercise": "lucia-ma-dnes",
       "type": "intro",
       "text": "Lucia má dnes narodeniny. = It's Lucia's birthday today.",
       "picture": "Morning in the dorm room: Lucia wakes up to balloons tied to her bed; Emma stands beside it holding a small birthday cake with lit candles.",
@@ -189,7 +189,7 @@
     },
     {
       "lesson": "u5-l6",
-      "exercise": 1,
+      "exercise": "vsetko-najlepsie",
       "type": "intro",
       "text": "Všetko najlepšie! = Happy birthday! / All the best!",
       "picture": "Lucia's birthday party in the dorm kitchen, balloons everywhere: Emma hugs Lucia and holds out the present; Tomáš and Marek clap behind them.",
@@ -202,10 +202,10 @@
     },
     {
       "lesson": "u5-l6",
-      "exercise": 2,
+      "exercise": "choice-vsetko-najlepsie",
       "type": "choice",
       "text": "It's your friend's birthday. What do you say?",
-      "reuse": "u5-l6#1",
+      "reuse": "u5-l6#vsetko-najlepsie",
       "book": {
         "pdfPage": 69,
         "printedPage": 72,
@@ -215,7 +215,7 @@
     },
     {
       "lesson": "u5-l6",
-      "exercise": 3,
+      "exercise": "torta-a-sviecky",
       "type": "intro",
       "text": "torta a sviečky = cake and candles",
       "picture": "The lights are off at Lucia's party: Marek carries in a big chocolate cake he baked himself, its candles lighting up everyone's faces.",
@@ -236,7 +236,7 @@
     },
     {
       "lesson": "u5-l6",
-      "exercise": 4,
+      "exercise": "kytica",
       "type": "intro",
       "text": "kytica = bouquet (of flowers)",
       "picture": "At the door of the dorm kitchen, Tomáš, a little shy, holds out a big bouquet of flowers to Lucia.",
@@ -249,7 +249,7 @@
     },
     {
       "lesson": "u5-l6",
-      "exercise": 7,
+      "exercise": "vela-zdravia-stastia",
       "type": "intro",
       "text": "Veľa zdravia, šťastia a lásky! = Lots of health, happiness and love!",
       "picture": "Pán Kováč drops in on the party with a little potted plant and shakes Lucia's hand warmly, wishing her well.",
@@ -262,7 +262,7 @@
     },
     {
       "lesson": "u5-l6",
-      "exercise": 10,
+      "exercise": "dakujem-za-darcek",
       "type": "intro",
       "text": "Ďakujem za darček. = Thanks for the present.",
       "picture": "Lucia tears the bright paper off Emma and Tomáš's present, a cosy knitted sweater, and hugs it, delighted.",
@@ -275,7 +275,7 @@
     },
     {
       "lesson": "u5-l6",
-      "exercise": 12,
+      "exercise": "kedy-prides-o",
       "type": "intro",
       "text": "Kedy prídeš? — O hodinu. = When are you coming? — In an hour.",
       "picture": "Split picture of a phone call. Left: Emma, shopping in a drugstore with a trolley, holds her phone to her ear. Right: Lucia, in the dorm kitchen among half-laid party things, asks her when she'll be back.",
@@ -288,7 +288,7 @@
     },
     {
       "lesson": "u5-l6",
-      "exercise": 15,
+      "exercise": "choice-na-zdravie",
       "type": "choice",
       "text": "Na zdravie! Marek raises his glass. What does he mean?",
       "picture": "At Lucia's party, Marek raises his glass in a toast; Emma, Lucia and Tomáš lift theirs to clink.",

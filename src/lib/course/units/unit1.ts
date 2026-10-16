@@ -15,18 +15,21 @@ export const unit1: Unit = {
       titleEn: "Hello and goodbye",
       exercises: [
         {
+          id: "ahoj",
           type: "intro",
           sk: "Ahoj!",
           en: "Hi! / Bye!",
           note: "For friends, family and children. It works for hello and goodbye, and so does **Čau!**",
         },
         {
+          id: "dobry-den",
           type: "intro",
           sk: "Dobrý deň.",
           en: "Hello. (polite)",
           note: "Literally “good day”: the polite hello for shops, strangers and teachers. With a name: **Dobrý deň, pán Kováč** (Mr Kováč).",
         },
         {
+          id: "choice-dobry-den",
           type: "choice",
           question: "Emma walks into a bakery. What does she say?",
           options: ["Ahoj!", "Dobrý deň."],
@@ -35,13 +38,15 @@ export const unit1: Unit = {
           why: "In a shop, greet politely with **Dobrý deň**. Ahoj! is only for friends, family and children.",
         },
         {
+          id: "dobre-rano",
           type: "intro",
           sk: "Dobré ráno.",
           en: "Good morning.",
           note: "For the early morning. Later in the day, switch to “Dobrý deň”.",
         },
-        { type: "intro", sk: "Dobrý večer.", en: "Good evening." },
+        { id: "dobry-vecer", type: "intro", sk: "Dobrý večer.", en: "Good evening." },
         {
+          id: "match-ahoj",
           type: "match",
           pairs: [
             { sk: "Ahoj!", en: "Hi!" },
@@ -50,14 +55,16 @@ export const unit1: Unit = {
             { sk: "Dobrý večer.", en: "Good evening." },
           ],
         },
-        { type: "listen", sk: "Dobré ráno, pán Kováč.", en: "Good morning, Mr Kováč." },
+        { id: "listen-dobre-rano-pan", type: "listen", sk: "Dobré ráno, pán Kováč.", en: "Good morning, Mr Kováč." },
         {
+          id: "dovidenia",
           type: "intro",
           sk: "Dovidenia.",
           en: "Goodbye. (polite)",
           note: "The polite goodbye: **Dovidenia, pani Horváthová** (Mrs Horváthová). With friends, “Ahoj!” works both ways.",
         },
         {
+          id: "choice-dovidenia",
           type: "choice",
           question: "What does this mean?",
           sk: "Dovidenia.",
@@ -66,18 +73,21 @@ export const unit1: Unit = {
           answer: 0,
         },
         {
+          id: "dobru-noc",
           type: "intro",
           sk: "Dobrú noc.",
           en: "Good night.",
           note: "Only when someone goes to bed or you leave late at night. It is never a greeting.",
         },
         {
+          id: "dobru-chut",
           type: "intro",
           sk: "Dobrú chuť!",
           en: "Enjoy your meal!",
           note: "Said to people who are about to eat. Notice the endings: dobr**ý** deň, dobr**é** ráno, dobr**ú** noc.",
         },
         {
+          id: "choice-dobru-noc",
           type: "choice",
           question: "It's late and Lucia is going to bed. What do you say?",
           options: ["Dobrý večer.", "Dobrú noc.", "Dobré ráno."],
@@ -86,6 +96,7 @@ export const unit1: Unit = {
           why: "**Dobrú noc** is for when someone goes to bed. Dobrý večer and Dobré ráno are greetings, said when you meet.",
         },
         {
+          id: "fill-dobre-rano-emma",
           type: "fill",
           before: "",
           after: "ráno, Emma!",
@@ -95,6 +106,7 @@ export const unit1: Unit = {
           why: "Each greeting has its own ending: dobrý deň, **dobré** ráno, dobrú noc.",
         },
         {
+          id: "fill-dobru-chut-tomas",
           type: "fill",
           before: "Dobrú",
           after: ", Tomáš!",
@@ -104,6 +116,7 @@ export const unit1: Unit = {
           why: "The ending -ú fits **chuť**, as in dobrú noc. Deň and večer take dobrý: dobrý deň, dobrý večer.",
         },
         {
+          id: "build-dovidenia-pani-horvathova",
           type: "build",
           prompt: "Goodbye, Mrs Horváthová.",
           promptLang: "en",
@@ -115,6 +128,7 @@ export const unit1: Unit = {
           ],
         },
         {
+          id: "build-dobry-vecer-pan",
           type: "build",
           prompt: "Good evening, Mr Kováč.",
           promptLang: "en",
@@ -126,8 +140,8 @@ export const unit1: Unit = {
             { wrong: "noc", right: "večer", why: "Good evening is Dobrý **večer**, a greeting when you meet. Dobrú noc is only for bedtime, never a greeting." },
           ],
         },
-        { type: "listen", sk: "Dobrú noc, Lucia.", en: "Good night, Lucia." },
-        { type: "speak", sk: "Dobrý deň.", en: "Hello." },
+        { id: "listen-dobru-noc-lucia", type: "listen", sk: "Dobrú noc, Lucia.", en: "Good night, Lucia." },
+        { id: "speak-dobry-den", type: "speak", sk: "Dobrý deň.", en: "Hello." },
       ],
     },
     {
@@ -136,18 +150,21 @@ export const unit1: Unit = {
       titleEn: "Please and thank you",
       exercises: [
         {
+          id: "dakujem",
           type: "intro",
           sk: "Ďakujem.",
           en: "Thank you.",
           note: "Warmer: **Ďakujem pekne.** = Thank you very much.",
         },
         {
+          id: "prosim",
           type: "intro",
           sk: "Prosím.",
           en: "Please. / You're welcome.",
           note: "One word, many jobs. As a question, **Prosím?** means “Pardon?”",
         },
         {
+          id: "choice-prosim",
           type: "choice",
           question: "Lucia says “Ďakujem.” What's the natural reply?",
           options: ["Prosím.", "Dobrú noc.", "Dovidenia."],
@@ -156,12 +173,14 @@ export const unit1: Unit = {
           why: "The usual reply to ďakujem is **Prosím**: here it means you're welcome.",
         },
         {
+          id: "nech-sa-paci",
           type: "intro",
           sk: "Nech sa páči.",
           en: "Here you go.",
           note: "Say it when you hand something over, offer a seat or let someone go first.",
         },
         {
+          id: "choice-nech-sa-paci",
           type: "choice",
           question: "Marek puts a plate of food in front of you. What does he say?",
           options: ["Nech sa páči.", "Prosím?", "Ďakujem."],
@@ -169,12 +188,14 @@ export const unit1: Unit = {
           answer: 0,
         },
         {
+          id: "ano-prosim",
           type: "intro",
           sk: "Áno, prosím.",
           en: "Yes, please.",
           note: "**Áno** = yes. The opposite: **Nie, ďakujem.** = No, thank you.",
         },
         {
+          id: "choice-nie-dakujem",
           type: "choice",
           question: "Tomáš offers you a coffee, but you don't want one. What do you say?",
           options: ["Nie, ďakujem.", "Áno, prosím.", "Nech sa páči."],
@@ -183,6 +204,7 @@ export const unit1: Unit = {
           why: "Saying no to an offer is **Nie, ďakujem** (no, thank you). Áno, prosím (yes, please) would accept the coffee.",
         },
         {
+          id: "match-dakujem",
           type: "match",
           pairs: [
             { sk: "Ďakujem.", en: "Thank you." },
@@ -193,6 +215,7 @@ export const unit1: Unit = {
           ],
         },
         {
+          id: "build-dakujem-pekne",
           type: "build",
           prompt: "Thank you very much.",
           promptLang: "en",
@@ -204,18 +227,21 @@ export const unit1: Unit = {
           ],
         },
         {
+          id: "prepacte",
           type: "intro",
           sk: "Prepáčte!",
           en: "Sorry! / Excuse me!",
           note: "The polite form. To a friend, say **Prepáč!**",
         },
         {
+          id: "nic-sa-nestalo",
           type: "intro",
           sk: "Nič sa nestalo.",
           en: "That's OK. / No problem.",
           note: "The usual answer to “Prepáčte!” or “Prepáč!”.",
         },
         {
+          id: "choice-prepacte",
           type: "choice",
           question: "Emma bumps into pán Kováč in the corridor. What does she say?",
           options: ["Prepáčte!", "Nech sa páči.", "Dobrú chuť!"],
@@ -224,6 +250,7 @@ export const unit1: Unit = {
           why: "Bumping into someone calls for sorry, and pán Kováč gets the polite form: **Prepáčte!** To a friend, you'd say Prepáč!",
         },
         {
+          id: "fill-prepacte-nic-sa",
           type: "fill",
           before: "Prepáčte! —",
           after: "sa nestalo.",
@@ -233,27 +260,30 @@ export const unit1: Unit = {
           why: "The set reply is **Nič** sa nestalo, literally “nothing happened”. Nie just means no.",
         },
         {
+          id: "na-zdravie",
           type: "intro",
           sk: "Na zdravie!",
           en: "Cheers! / Bless you!",
           note: "Say it when you raise a glass, and when someone sneezes.",
         },
         {
+          id: "choice-na-zdravie",
           type: "choice",
           question: "Tomáš sneezes. What do you say?",
           options: ["Na zdravie!", "Dobrú chuť!", "Prepáčte!"],
           optionsLang: "sk",
           answer: 0,
         },
-        { type: "listen", sk: "Nič sa nestalo.", en: "That's OK." },
+        { id: "listen-nic-sa-nestalo", type: "listen", sk: "Nič sa nestalo.", en: "That's OK." },
         {
+          id: "build-nie-dakujem",
           type: "build",
           prompt: "Nie, ďakujem.",
           promptLang: "sk",
           answers: ["No, thank you."],
           distractors: ["please", "Yes"],
         },
-        { type: "speak", sk: "Ďakujem pekne.", en: "Thank you very much." },
+        { id: "speak-dakujem-pekne", type: "speak", sk: "Ďakujem pekne.", en: "Thank you very much." },
       ],
     },
     {
@@ -262,18 +292,21 @@ export const unit1: Unit = {
       titleEn: "How are you? What's your name?",
       exercises: [
         {
+          id: "ako-sa-mas",
           type: "intro",
           sk: "Ako sa máš?",
           en: "How are you?",
           note: "The friendly form, for friends and family. Literally “How do you have yourself?”",
         },
         {
+          id: "mam-sa-dobre",
           type: "intro",
           sk: "Mám sa dobre, a ty?",
           en: "I'm fine, and you?",
           note: "**Mám sa dobre.** = I'm fine. **A ty?** = And you?",
         },
         {
+          id: "choice-ako-sa-mas",
           type: "choice",
           question: "What does this mean?",
           sk: "Ako sa máš?",
@@ -281,9 +314,10 @@ export const unit1: Unit = {
           optionsLang: "en",
           answer: 0,
         },
-        { type: "intro", sk: "Mám sa výborne.", en: "I'm great." },
-        { type: "intro", sk: "Mám sa zle.", en: "I'm not doing well." },
+        { id: "mam-sa-vyborne", type: "intro", sk: "Mám sa výborne.", en: "I'm great." },
+        { id: "mam-sa-zle", type: "intro", sk: "Mám sa zle.", en: "I'm not doing well." },
         {
+          id: "match-mam-sa",
           type: "match",
           pairs: [
             { sk: "Mám sa výborne.", en: "I'm great." },
@@ -293,6 +327,7 @@ export const unit1: Unit = {
           ],
         },
         {
+          id: "fill-ahoj-ako-sa",
           type: "fill",
           before: "Ahoj! Ako sa",
           after: ", Tomáš?",
@@ -301,20 +336,23 @@ export const unit1: Unit = {
           en: "Hi! How are you, Tomáš?",
           why: "You're asking Tomáš about himself, so it's **máš** (you). Mám is for “I”: Mám sa dobre = I'm fine.",
         },
-        { type: "listen", sk: "Mám sa výborne, a ty?", en: "I'm great, and you?" },
+        { id: "listen-mam-sa-vyborne", type: "listen", sk: "Mám sa výborne, a ty?", en: "I'm great, and you?" },
         {
+          id: "ako-sa-volas",
           type: "intro",
           sk: "Ako sa voláš?",
           en: "What's your name?",
           note: "Literally “How do you call yourself?”",
         },
         {
+          id: "volam-sa-emma",
           type: "intro",
           sk: "Volám sa Emma.",
           en: "My name is Emma.",
           note: "Put in your own name: Volám sa…",
         },
         {
+          id: "build-volam-sa-tomas",
           type: "build",
           prompt: "My name is Tomáš.",
           promptLang: "en",
@@ -326,12 +364,14 @@ export const unit1: Unit = {
           ],
         },
         {
+          id: "tesi-ma",
           type: "intro",
           sk: "Teší ma.",
           en: "Nice to meet you.",
           note: "The answer is **Aj mňa.** = Nice to meet you, too.",
         },
         {
+          id: "choice-aj-mna",
           type: "choice",
           question: "Tomáš says “Teší ma.” What do you answer?",
           options: ["Aj mňa.", "Mám sa zle.", "Dobrú noc."],
@@ -340,6 +380,7 @@ export const unit1: Unit = {
           why: "Teší ma is literally “it pleases me”, so the reply is **Aj mňa**, “me too”.",
         },
         {
+          id: "fill-ahoj-ako-sa-2",
           type: "fill",
           before: "Ahoj! Ako sa",
           after: "? — Volám sa Lucia.",
@@ -349,14 +390,16 @@ export const unit1: Unit = {
           why: "The reply gives a name, so the question needs **voláš** (What's your name?). Ako sa máš? asks how someone is.",
         },
         {
+          id: "build-mam-sa-dobre",
           type: "build",
           prompt: "Mám sa dobre, a ty?",
           promptLang: "sk",
           answers: ["I'm fine, and you?"],
           distractors: ["great", "your", "name"],
         },
-        { type: "listen", sk: "Ako sa voláš?", en: "What's your name?" },
+        { id: "listen-ako-sa-volas", type: "listen", sk: "Ako sa voláš?", en: "What's your name?" },
         {
+          id: "build-ahoj-ako-sa",
           type: "build",
           prompt: "Hi! How are you?",
           promptLang: "en",
@@ -367,7 +410,7 @@ export const unit1: Unit = {
             { wrong: "voláš", right: "máš", why: "How are you? is Ako sa **máš**? Ako sa voláš? asks for someone's name." },
           ],
         },
-        { type: "speak", sk: "Teší ma.", en: "Nice to meet you." },
+        { id: "speak-tesi-ma", type: "speak", sk: "Teší ma.", en: "Nice to meet you." },
       ],
     },
     {
@@ -377,6 +420,7 @@ export const unit1: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-two-ways-say",
           type: "grammar",
           title: "Two ways to say “you”",
           body: [
@@ -399,15 +443,17 @@ export const unit1: Unit = {
           ],
         },
         {
+          id: "choice-ako-sa-mate",
           type: "choice",
           question: "Emma meets pani Horváthová, her teacher. Which question fits?",
           options: ["Ako sa máte?", "Ako sa máš?", "Ako sa voláš?"],
           optionsLang: "sk",
           answer: 0,
           why: "A teacher gets **vy**, so the verb ends in **-te**: má**te**. Máš is the ty form, for friends and family.",
-          ref: "u1-l4#0",
+          ref: "u1-l4#grammar-two-ways-say",
         },
         {
+          id: "fill-ahoj-tomas-ako",
           type: "fill",
           before: "Ahoj, Tomáš! Ako sa",
           after: "?",
@@ -415,9 +461,10 @@ export const unit1: Unit = {
           answer: 0,
           en: "Hi, Tomáš! How are you?",
           why: "Ahoj and a friend's name mean **ty**, so the verb ends in **-š**: má**š**. Máte is for vy.",
-          ref: "u1-l4#0",
+          ref: "u1-l4#grammar-two-ways-say",
         },
         {
+          id: "fill-dobry-den-ako",
           type: "fill",
           before: "Dobrý deň. Ako sa",
           after: "?",
@@ -425,9 +472,10 @@ export const unit1: Unit = {
           answer: 0,
           en: "Hello. What's your name?",
           why: "**Dobrý deň** is the polite hello, so ask with vy: the verb ends in **-te**, volá**te**.",
-          ref: "u1-l4#0",
+          ref: "u1-l4#grammar-two-ways-say",
         },
         {
+          id: "build-hovorite-po-slovensky",
           type: "build",
           prompt: "Do you speak Slovak? (polite)",
           promptLang: "en",
@@ -438,15 +486,17 @@ export const unit1: Unit = {
           ],
         },
         {
+          id: "choice-ako-sa-mate-2",
           type: "choice",
           question: "Emma meets Lucia and Tomáš together. How does she ask how they are?",
           options: ["Ako sa máte?", "Ako sa máš?"],
           optionsLang: "sk",
           answer: 0,
           why: "**Vy** is also for a group, even of friends, so the verb ends in **-te**: má**te**. Máš is for one friend.",
-          ref: "u1-l4#0",
+          ref: "u1-l4#grammar-two-ways-say",
         },
         {
+          id: "grammar-same-phrase-ty",
           type: "grammar",
           title: "Same phrase, ty or vy",
           body: [
@@ -470,15 +520,17 @@ export const unit1: Unit = {
           ],
         },
         {
+          id: "choice-aj-tebe",
           type: "choice",
           question: "Lucia says “Dobrú noc!” What does Emma answer?",
           options: ["Aj tebe.", "Aj vám.", "Prepáčte!"],
           optionsLang: "sk",
           answer: 0,
           why: "Lucia is Emma's friend, so Emma uses ty: Aj **tebe**. Aj vám is for vy.",
-          ref: "u1-l4#0",
+          ref: "u1-l4#grammar-two-ways-say",
         },
         {
+          id: "fill-dobru-chut-emma",
           type: "fill",
           before: "Dobrú chuť, Emma! — Ďakujem, aj",
           after: ", pani Horváthová.",
@@ -486,9 +538,10 @@ export const unit1: Unit = {
           answer: 0,
           en: "Enjoy your meal, Emma! — Thank you, you too, Mrs Horváthová.",
           why: "Pani Horváthová is Emma's teacher, so Emma uses vy: aj **vám**. Aj tebe is for friends.",
-          ref: "u1-l4#0",
+          ref: "u1-l4#grammar-two-ways-say",
         },
         {
+          id: "build-maj-sa-lucia",
           type: "build",
           prompt: "Take care, Lucia!",
           promptLang: "en",
@@ -500,6 +553,7 @@ export const unit1: Unit = {
           ],
         },
         {
+          id: "fill-ahoj-emma-vitaj",
           type: "fill",
           before: "Ahoj, Emma!",
           after: "na Slovensku!",
@@ -507,9 +561,10 @@ export const unit1: Unit = {
           answer: 0,
           en: "Hi, Emma! Welcome to Slovakia!",
           why: "Ahoj and one friend, Emma, mean ty: **Vitaj**. Vitajte, with -te, is for vy or a group.",
-          ref: "u1-l4#6",
+          ref: "u1-l4#grammar-same-phrase-ty",
         },
         {
+          id: "match-ako-sa",
           type: "match",
           pairs: [
             { sk: "Ako sa máte?", en: "How are you? (polite)" },
@@ -519,8 +574,8 @@ export const unit1: Unit = {
             { sk: "Ahojte!", en: "Hi, everyone!" },
           ],
         },
-        { type: "listen", sk: "Dobrý deň, ako sa máte?", en: "Hello, how are you?" },
-        { type: "speak", sk: "Ako sa voláte?", en: "What's your name? (polite)" },
+        { id: "listen-dobry-den-ako", type: "listen", sk: "Dobrý deň, ako sa máte?", en: "Hello, how are you?" },
+        { id: "speak-ako-sa-volate", type: "speak", sk: "Ako sa voláte?", en: "What's your name? (polite)" },
       ],
     },
     {
@@ -530,6 +585,7 @@ export const unit1: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-letters-hook-makcen",
           type: "grammar",
           title: "Letters with a hook: mäkčeň",
           body: [
@@ -558,6 +614,7 @@ export const unit1: Unit = {
           ],
         },
         {
+          id: "grammar-long-vowels-stress",
           type: "grammar",
           title: "Long vowels and stress",
           body: [
@@ -581,15 +638,17 @@ export const unit1: Unit = {
           ],
         },
         {
+          id: "choice-tesi-ma",
           type: "choice",
           question: "Which phrase has the “sh” sound?",
           options: ["Teší ma.", "Čau!", "Dobrý deň."],
           optionsLang: "sk",
           answer: 0,
           why: "**š** is the “sh” in “ship”: Te**š**í ma. The č in Čau! is the “ch” in “chip”.",
-          ref: "u1-l5#0",
+          ref: "u1-l5#grammar-letters-hook-makcen",
         },
         {
+          id: "choice-dovidenia",
           type: "choice",
           question: "Which syllable is stressed?",
           sk: "Dovidenia.",
@@ -597,9 +656,10 @@ export const unit1: Unit = {
           optionsLang: "en",
           answer: 0,
           why: "Stress is always on the first syllable, even in a long word: **Do**videnia.",
-          ref: "u1-l5#1",
+          ref: "u1-l5#grammar-long-vowels-stress",
         },
         {
+          id: "fill-mam-sa-dobre",
           type: "fill",
           before: "Mám sa",
           after: ".",
@@ -607,9 +667,10 @@ export const unit1: Unit = {
           answer: 0,
           en: "I'm fine.",
           why: "With a short e, **dobre** means fine or well: Mám sa dobre. Dobré, with a long é, goes with ráno.",
-          ref: "u1-l5#1",
+          ref: "u1-l5#grammar-long-vowels-stress",
         },
         {
+          id: "fill-dobre-rano",
           type: "fill",
           before: "",
           after: "ráno!",
@@ -617,19 +678,21 @@ export const unit1: Unit = {
           answer: 0,
           en: "Good morning!",
           why: "Good morning has a long é: **Dobré** ráno. Dobre, with a short e, means fine: Mám sa dobre.",
-          ref: "u1-l5#1",
+          ref: "u1-l5#grammar-long-vowels-stress",
         },
         {
+          id: "choice-den",
           type: "choice",
           question: "Which word has a soft ň?",
           options: ["deň", "noc", "ráno"],
           optionsLang: "sk",
           answer: 0,
           why: "The hook (mäkčeň) on n makes it soft, like “ny” in “canyon”: de**ň**. Noc and ráno have a plain n.",
-          ref: "u1-l5#0",
+          ref: "u1-l5#grammar-letters-hook-makcen",
         },
-        { type: "listen", sk: "Ďakujem, dobrú noc.", en: "Thank you, good night." },
+        { id: "listen-dakujem-dobru-noc", type: "listen", sk: "Ďakujem, dobrú noc.", en: "Thank you, good night." },
         {
+          id: "grammar-o-ia-ie",
           type: "grammar",
           title: "ä, ô and ia, ie, iu",
           body: [
@@ -644,6 +707,7 @@ export const unit1: Unit = {
           ],
         },
         {
+          id: "choice-nie",
           type: "choice",
           question: "How many syllables does “Nie” have?",
           sk: "Nie.",
@@ -651,18 +715,20 @@ export const unit1: Unit = {
           optionsLang: "en",
           answer: 0,
           why: "**ie** glides together into one syllable, so N**ie** has just one, like Na zdrav**ie**.",
-          ref: "u1-l5#8",
+          ref: "u1-l5#grammar-o-ia-ie",
         },
         {
+          id: "choice-stol",
           type: "choice",
           question: "Which word has ô, the “wo” sound?",
           options: ["stôl", "noc", "päť"],
           optionsLang: "sk",
           answer: 0,
           why: "**ô** sounds like “wo”: st**ô**l sounds like “stwol”. Päť has ä, like the e in “bed”.",
-          ref: "u1-l5#8",
+          ref: "u1-l5#grammar-o-ia-ie",
         },
         {
+          id: "match-pat",
           type: "match",
           pairs: [
             { sk: "päť", en: "five" },
@@ -672,8 +738,9 @@ export const unit1: Unit = {
             { sk: "ráno", en: "morning" },
           ],
         },
-        { type: "listen", sk: "Na zdravie!", en: "Cheers!" },
+        { id: "listen-na-zdravie", type: "listen", sk: "Na zdravie!", en: "Cheers!" },
         {
+          id: "build-mam-sa-dobre",
           type: "build",
           prompt: "I'm fine, thank you.",
           promptLang: "en",
@@ -684,7 +751,7 @@ export const unit1: Unit = {
             { wrong: "máš", right: "Mám", why: "You're saying how you are yourself, so it's **Mám** (I). Máš is for “you”: Ako sa máš?" },
           ],
         },
-        { type: "speak", sk: "Dobrú chuť!", en: "Enjoy your meal!" },
+        { id: "speak-dobru-chut", type: "speak", sk: "Dobrú chuť!", en: "Enjoy your meal!" },
       ],
     },
     {
@@ -694,6 +761,7 @@ export const unit1: Unit = {
       kind: "review",
       exercises: [
         {
+          id: "choice-dobre-rano",
           type: "choice",
           question: "You meet pani Horváthová early in the morning. What do you say?",
           options: ["Dobré ráno.", "Ahoj!", "Dobrú noc."],
@@ -702,6 +770,7 @@ export const unit1: Unit = {
           why: "Early in the morning, say **Dobré ráno**, polite enough for a teacher. Ahoj! is only for friends, and Dobrú noc is for bedtime.",
         },
         {
+          id: "build-ahoj-lucia-ako",
           type: "build",
           prompt: "Hi, Lucia! How are you?",
           promptLang: "en",
@@ -712,8 +781,9 @@ export const unit1: Unit = {
             { wrong: "voláš", right: "máš", why: "How are you? is Ako sa **máš**? Ako sa voláš? asks for someone's name." },
           ],
         },
-        { type: "listen", sk: "Mám sa výborne, a vy?", en: "I'm great, and you?" },
+        { id: "listen-mam-sa-vyborne", type: "listen", sk: "Mám sa výborne, a vy?", en: "I'm great, and you?" },
         {
+          id: "fill-dobru-noc-emma",
           type: "fill",
           before: "Dobrú noc, Emma! — Aj",
           after: ", Lucia.",
@@ -721,9 +791,10 @@ export const unit1: Unit = {
           answer: 0,
           en: "Good night, Emma! — You too, Lucia.",
           why: "Lucia is a friend, so use ty: Aj **tebe**. Aj vám is for vy: teachers, strangers or a group.",
-          ref: "u1-l4#0",
+          ref: "u1-l4#grammar-two-ways-say",
         },
         {
+          id: "match-nech-sa",
           type: "match",
           pairs: [
             { sk: "Nech sa páči.", en: "Here you go." },
@@ -734,6 +805,7 @@ export const unit1: Unit = {
           ],
         },
         {
+          id: "build-dobry-den-ako",
           type: "build",
           prompt: "Dobrý deň, ako sa voláte?",
           promptLang: "sk",
@@ -741,6 +813,7 @@ export const unit1: Unit = {
           distractors: ["night", "how"],
         },
         {
+          id: "choice-prosim",
           type: "choice",
           question: "When do you say this?",
           sk: "Prosím?",
@@ -754,6 +827,7 @@ export const unit1: Unit = {
           why: "Said as a question, **Prosím?** means Pardon? On its own, prosím is please or you're welcome.",
         },
         {
+          id: "fill-dobry-den-pan",
           type: "fill",
           before: "Dobrý deň, pán Kováč. Ako sa",
           after: "?",
@@ -761,10 +835,11 @@ export const unit1: Unit = {
           answer: 0,
           en: "Hello, Mr Kováč. How are you?",
           why: "Pán Kováč gets vy (note the polite Dobrý deň), so the verb ends in **-te**: má**te**.",
-          ref: "u1-l4#0",
+          ref: "u1-l4#grammar-two-ways-say",
         },
-        { type: "speak", sk: "Ako sa máte?", en: "How are you? (polite)" },
+        { id: "speak-ako-sa-mate", type: "speak", sk: "Ako sa máte?", en: "How are you? (polite)" },
         {
+          id: "build-prepacte-nic-sa",
           type: "build",
           prompt: "Sorry! — That's OK.",
           promptLang: "en",
@@ -775,17 +850,19 @@ export const unit1: Unit = {
             { wrong: "páči", right: "nestalo", why: "That's OK is Nič sa **nestalo**, literally “nothing happened”. Páči belongs in Nech sa páči, here you go." },
           ],
         },
-        { type: "listen", sk: "Dovidenia, pani Horváthová.", en: "Goodbye, Mrs Horváthová." },
+        { id: "listen-dovidenia-pani-horvathova", type: "listen", sk: "Dovidenia, pani Horváthová.", en: "Goodbye, Mrs Horváthová." },
         {
+          id: "choice-ahojte",
           type: "choice",
           question: "Which one means “Hi, everyone!”?",
           options: ["Ahojte!", "Ahoj!", "Maj sa!"],
           optionsLang: "sk",
           answer: 0,
           why: "For a group of friends, add **-te**: Ahoj**te**! Ahoj! is for one friend, and Maj sa! means take care.",
-          ref: "u1-l4#6",
+          ref: "u1-l4#grammar-same-phrase-ty",
         },
         {
+          id: "build-volam-sa-emma",
           type: "build",
           prompt: "My name is Emma. Nice to meet you.",
           promptLang: "en",
@@ -797,6 +874,7 @@ export const unit1: Unit = {
           ],
         },
         {
+          id: "fill-hovorite-po-slovensky",
           type: "fill",
           before: "Hovoríte po slovensky? — Áno,",
           after: ".",
@@ -804,8 +882,8 @@ export const unit1: Unit = {
           answer: 0,
           en: "Do you speak Slovak? — Yes, a little.",
         },
-        { type: "listen", sk: "Teší ma. — Aj mňa.", en: "Nice to meet you. — Nice to meet you, too." },
-        { type: "speak", sk: "Mám sa dobre, ďakujem.", en: "I'm fine, thank you." },
+        { id: "listen-tesi-ma-aj", type: "listen", sk: "Teší ma. — Aj mňa.", en: "Nice to meet you. — Nice to meet you, too." },
+        { id: "speak-mam-sa-dobre", type: "speak", sk: "Mám sa dobre, ďakujem.", en: "I'm fine, thank you." },
       ],
     },
   ],

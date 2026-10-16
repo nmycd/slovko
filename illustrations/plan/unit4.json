@@ -4,7 +4,7 @@
   "items": [
     {
       "lesson": "u4-l1",
-      "exercise": 0,
+      "exercise": "mesto",
       "type": "intro",
       "text": "mesto = town, city",
       "picture": "Emma and Lucia at a viewpoint above Bratislava: the Old Town's red roofs and church spires, the castle on its hill, the Danube curving past.",
@@ -17,7 +17,7 @@
     },
     {
       "lesson": "u4-l1",
-      "exercise": 1,
+      "exercise": "dedina",
       "type": "intro",
       "text": "dedina = village",
       "picture": "A small village in a green valley: a handful of houses with red roofs, a little church, hens in a yard. Emma and Lucia walk up the road with backpacks.",
@@ -30,7 +30,7 @@
     },
     {
       "lesson": "u4-l1",
-      "exercise": 3,
+      "exercise": "namestie",
       "type": "intro",
       "text": "námestie = square",
       "picture": "A sunny square in the Old Town: a fountain in the middle, café tables, old pastel-coloured houses. Emma crosses it with a takeaway coffee.",
@@ -43,7 +43,7 @@
     },
     {
       "lesson": "u4-l1",
-      "exercise": 4,
+      "exercise": "kostol",
       "type": "intro",
       "text": "kostol = church",
       "picture": "On a narrow Old Town street, Emma stops and tips her head back to look up at an old church with a very tall spire.",
@@ -56,7 +56,7 @@
     },
     {
       "lesson": "u4-l1",
-      "exercise": 6,
+      "exercise": "hrad-je-stary",
       "type": "intro",
       "text": "Hrad je starý. = The castle is old.",
       "picture": "Bratislava Castle, a big white castle with four corner towers, on its hill above the Old Town. Emma and Tomáš climb the cobbled path up to it.",
@@ -69,7 +69,7 @@
     },
     {
       "lesson": "u4-l1",
-      "exercise": 8,
+      "exercise": "most",
       "type": "intro",
       "text": "most = bridge",
       "picture": "The long modern bridge over the Danube with one tall pylon and a round saucer on top. Tomáš cycles across it.",
@@ -82,7 +82,7 @@
     },
     {
       "lesson": "u4-l1",
-      "exercise": 10,
+      "exercise": "rieka",
       "type": "intro",
       "text": "rieka = river",
       "picture": "Emma and Lucia sit at a café table on the Danube embankment, chatting over coffee; behind them the wide river flows under a long bridge.",
@@ -95,7 +95,7 @@
     },
     {
       "lesson": "u4-l1",
-      "exercise": 14,
+      "exercise": "vysoky",
       "type": "intro",
       "text": "vysoký = tall, high",
       "picture": "A slender tower block soars high above the low houses around it. Emma and Lucia, tiny at its foot, crane their necks to see the top.",
@@ -108,10 +108,10 @@
     },
     {
       "lesson": "u4-l1",
-      "exercise": 15,
+      "exercise": "choice-kostol-je-vysoky",
       "type": "choice",
       "text": "Kostol je vysoký. Lucia says this. What is tall?",
-      "reuse": "u4-l1#4",
+      "reuse": "u4-l1#kostol",
       "book": {
         "pdfPage": 49,
         "printedPage": 52,
@@ -121,7 +121,7 @@
     },
     {
       "lesson": "u4-l2",
-      "exercise": 0,
+      "exercise": "prepacte-kde-je",
       "type": "intro",
       "text": "Prepáčte, kde je pošta? = Excuse me, where's the post office?",
       "picture": "On a busy street, Emma, a postcard in her hand, politely stops the woman with the shopping bag to ask the way.",
@@ -129,7 +129,7 @@
     },
     {
       "lesson": "u4-l2",
-      "exercise": 1,
+      "exercise": "kaviaren",
       "type": "intro",
       "text": "kaviareň = café",
       "picture": "The café near the university: small round tables, a big street window, a counter with a coffee machine. Emma and Lucia sit by the window with coffee and cake.",
@@ -142,10 +142,10 @@
     },
     {
       "lesson": "u4-l2",
-      "exercise": 2,
+      "exercise": "choice-kaviaren",
       "type": "choice",
       "text": "Emma wants a coffee. Where does she go?",
-      "reuse": "u4-l2#1",
+      "reuse": "u4-l2#kaviaren",
       "book": {
         "pdfPage": 49,
         "printedPage": 52,
@@ -155,7 +155,7 @@
     },
     {
       "lesson": "u4-l2",
-      "exercise": 3,
+      "exercise": "kino",
       "type": "intro",
       "text": "kino = cinema",
       "picture": "In a dark cinema, Emma, Lucia and Tomáš sit in a row sharing popcorn, their faces lit by the screen; Lucia gasps.",
@@ -168,7 +168,7 @@
     },
     {
       "lesson": "u4-l2",
-      "exercise": 4,
+      "exercise": "divadlo",
       "type": "intro",
       "text": "divadlo = theatre",
       "picture": "Evening outside a grand old theatre with columns, its windows glowing. Emma and Lucia, dressed up, climb the front steps.",
@@ -181,7 +181,7 @@
     },
     {
       "lesson": "u4-l2",
-      "exercise": 5,
+      "exercise": "muzeum",
       "type": "intro",
       "text": "múzeum = museum",
       "picture": "In a quiet museum hall full of old folk costumes and painted pottery in glass cases, Emma leans in to look while Tomáš stifles a yawn.",
@@ -189,7 +189,7 @@
     },
     {
       "lesson": "u4-l2",
-      "exercise": 8,
+      "exercise": "dolava-doprava",
       "type": "intro",
       "text": "doľava – doprava = (to the) left – (to the) right",
       "picture": "At the dormitory door, pán Kováč explains the way, pointing left with one hand and right with the other; Emma, a city map in her hands, tries to follow.",
@@ -202,7 +202,7 @@
     },
     {
       "lesson": "u4-l2",
-      "exercise": 9,
+      "exercise": "chodte-rovno-potom",
       "type": "intro",
       "text": "Choďte rovno, potom doprava. = Go straight on, then right.",
       "picture": "The woman with the shopping bag points straight down the street, then sweeps her hand to the right; Emma nods along.",
@@ -215,10 +215,10 @@
     },
     {
       "lesson": "u4-l2",
-      "exercise": 10,
+      "exercise": "choice-chodte-dolava",
       "type": "choice",
       "text": "Choďte doľava. What does pán Kováč tell Emma?",
-      "reuse": "u4-l2#8",
+      "reuse": "u4-l2#dolava-doprava",
       "book": {
         "pdfPage": 51,
         "printedPage": 54,
@@ -228,7 +228,7 @@
     },
     {
       "lesson": "u4-l2",
-      "exercise": 11,
+      "exercise": "posta-je-oproti",
       "type": "intro",
       "text": "Pošta je oproti. = The post office is opposite.",
       "picture": "Emma stands on the pavement with her postcard; right across the street is the post office, a yellow postbox by its door. She smiles: found it.",
@@ -241,7 +241,7 @@
     },
     {
       "lesson": "u4-l3",
-      "exercise": 0,
+      "exercise": "co-robis-som",
       "type": "intro",
       "text": "Čo robíš? — Som kuchár. = What do you do? — I'm a cook.",
       "picture": "In the kitchen of Marek's restaurant, Marek in his chef's jacket stirs a big steaming pot and grins at Emma, who peeks in through the kitchen door.",
@@ -254,7 +254,7 @@
     },
     {
       "lesson": "u4-l3",
-      "exercise": 1,
+      "exercise": "casnik",
       "type": "intro",
       "text": "čašník = waiter",
       "picture": "In Marek's restaurant, Dušan the waiter carries three plates at once between the tables.",
@@ -267,7 +267,7 @@
     },
     {
       "lesson": "u4-l3",
-      "exercise": 3,
+      "exercise": "predavac",
       "type": "intro",
       "text": "predavač = shop assistant",
       "picture": "In the clothes shop, a young salesman holds up two boxes to show Emma, smiling and ready to help.",
@@ -280,7 +280,7 @@
     },
     {
       "lesson": "u4-l3",
-      "exercise": 4,
+      "exercise": "novinar",
       "type": "intro",
       "text": "novinár = journalist",
       "picture": "Outside the university, a young journalist, a man with a notebook and a microphone, interviews pani Horváthová, who looks pleased and a little flustered.",
@@ -293,7 +293,7 @@
     },
     {
       "lesson": "u4-l3",
-      "exercise": 7,
+      "exercise": "sofer",
       "type": "intro",
       "text": "šofér = driver",
       "picture": "A bus driver in a uniform cap sits at the wheel of a city bus and waves Emma aboard through the open door.",
@@ -306,7 +306,7 @@
     },
     {
       "lesson": "u4-l3",
-      "exercise": 8,
+      "exercise": "dochodca",
       "type": "intro",
       "text": "dôchodca = pensioner (a retired man)",
       "picture": "The pensioner feeds pigeons from a park bench, his walking stick resting beside him.",
@@ -319,7 +319,7 @@
     },
     {
       "lesson": "u4-l3",
-      "exercise": 10,
+      "exercise": "mlady-stary",
       "type": "intro",
       "text": "mladý – starý = young – old",
       "picture": "Two halves. Left: a young man with a backpack skateboards past. Right: the pensioner walks slowly with his stick.",
@@ -332,7 +332,7 @@
     },
     {
       "lesson": "u4-l6",
-      "exercise": 0,
+      "exercise": "grammar-stat-cost-stand",
       "type": "grammar",
       "text": "stáť: to cost, to stand",
       "picture": "Two halves for the two meanings. Left: at the supermarket checkout, Emma looks at her full trolley and asks how much it all costs. Right: Lucia just stands at a tram stop, waiting.",

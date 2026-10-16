@@ -19,7 +19,7 @@ Then make three passes, each in course order from unit 1 to unit 10:
 1. **English:** `units/unit1.ts` … `unit10.ts`.
 2. **Ukrainian:** `translations/uk/unit1.json` … `unit10.json`. Each key holds
    the English source (`en`) and the translation (`t`). The key says where the
-   text is: `u3-l1.4.en` is unit 3, lesson 1, exercise 4 (counting from 0),
+   text is: `u3-l1.izba.en` is unit 3, lesson 1, the exercise with id `izba`,
    field `en`.
 3. **Russian:** `translations/ru/`, the same way.
 
@@ -92,14 +92,15 @@ with the findings in course order. Write each one like this (the example only
 shows the format; it isn't a confirmed finding):
 
 ```md
-### E4 · u2-l2 #1 · Taught again as new
+### E4 · u2-l2#grammar-ty-or-vy · Taught again as new
 **Problem:** The card explains ty/vy from scratch; u1-l4 already taught it, so a learner reads the same lesson twice.
 **Fix:** Replace the first body paragraph with: "…" (keep the table).
 **Touches:** English, so uk and ru get translated again.
 ```
 
 Number the findings E1, E2… for English, U1… for Ukrainian and R1… for
-Russian. Quote the current text and give the exact new text, so the fix
+Russian. Name the exercise by its id (`u2-l2#grammar-ty-or-vy`), which stays
+put when exercises around it change. Quote the current text and give the exact new text, so the fix
 step doesn't have to guess.
 
 ## Rules

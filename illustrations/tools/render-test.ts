@@ -1,5 +1,5 @@
 // Test renders of planned pictures with Gemini image models ("Nano Banana").
-// Usage: npx tsx illustrations/tools/render-test.ts [--with-crop] [--dry-run] [--model ID] [--size 1K] u1-l1#3 u1-l2#9 …
+// Usage: npx tsx illustrations/tools/render-test.ts [--with-crop] [--dry-run] [--model ID] [--size 1K] u1-l1#dobre-rano u1-l2#prepacte …
 // --dry-run prints the prompt (text parts and image files) without calling the API.
 //
 // Sends the style references (illustrations/style-refs/, git-ignored), the cast
@@ -14,7 +14,7 @@ import { buildParts, describeParts, dir, renderImage } from "./gemini";
 loadEnvConfig(process.cwd());
 
 type Book = { crop: string };
-type Entry = { lesson: string; exercise: number; picture?: string; reuse?: string; book: Book | Book[] | null };
+type Entry = { lesson: string; exercise: string; picture?: string; reuse?: string; book: Book | Book[] | null };
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -30,10 +30,10 @@ function parseArgs() {
 }
 
 function findEntry(id: string): Entry {
-  const [lesson, index] = id.split("#");
+  const [lesson, exercise] = id.split("#");
   const unit = lesson.split("-")[0].slice(1);
   const plan = JSON.parse(readFileSync(join(dir, `plan/unit${unit}.json`), "utf8"));
-  const entry = plan.items.find((e: Entry) => e.lesson === lesson && e.exercise === Number(index));
+  const entry = plan.items.find((e: Entry) => e.lesson === lesson && e.exercise === exercise);
   if (!entry) throw new Error(`No plan entry ${id}`);
   return entry.reuse ? { ...findEntry(entry.reuse), book: entry.book } : entry;
 }

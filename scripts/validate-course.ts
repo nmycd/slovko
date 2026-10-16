@@ -10,6 +10,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { normalize, toTiles } from "../src/lib/answers";
 import { fillSentence, speakableTexts } from "../src/lib/course/helpers";
+import pictures from "../src/lib/course/illustrations.json";
 import { lexicon } from "../src/lib/course/lexicon";
 import { capitalisedWords, properNames } from "../src/lib/course/names";
 import { addSpelling, needsSpelling, sentenceWords, spellingPlan } from "../src/lib/course/spelling";
@@ -43,6 +44,15 @@ function hint(where: string, ok: unknown, message: string) {
 const unique = (items: string[]) =>
   new Set(items.map(normalize)).size === items.length;
 const balanced = (text: string) => (text.match(/\*\*/g) ?? []).length % 2 === 0;
+/** Where an exercise is, for messages: "u1-l1#dobry-den (intro)". */
+const at = (lesson: Lesson, ex: Exercise, i: number) => `${lesson.id}#${ex.id || i + 1} (${ex.type})`;
+/** The exercise a "lessonId#exerciseId" pointer names, with its place in the lesson. */
+function pointee(lessons: Map<string, Lesson>, pointer: string): { ex?: Exercise; index: number } {
+  const [lessonId, id] = pointer.split("#");
+  const exercises = lessons.get(lessonId)?.exercises ?? [];
+  const index = exercises.findIndex((ex) => ex.id === id);
+  return { ex: exercises[index], index };
+}
 
 function slovak(where: string, text: string, allowMarkup = false) {
   check(where, text.trim().length > 0, "empty Slovak text");
@@ -286,9 +296,18 @@ function checkLesson(unit: Unit, lesson: Lesson, index: number) {
     `only ${practiceTypes.size} exercise types; mix more`,
   );
 
-  lesson.exercises.forEach((ex, i) =>
-    checkExercise(`${where} #${i + 1} (${ex.type})`, ex),
-  );
+  // Ids: what translations, refs, pictures and spelling cards point at.
+  const ids = new Set<string>();
+  lesson.exercises.forEach((ex, i) => {
+    const place = at(lesson, ex, i);
+    if (!ex.id) return check(place, false, "no id: run npm run course:ids");
+    check(place, /^[a-z0-9]+(-[a-z0-9]+)*$/.test(ex.id), `id "${ex.id}" must be lowercase letters, digits and hyphens`);
+    check(place, !ex.id.startsWith("spell-"), `id "${ex.id}": spell- is for spelling cards`);
+    check(place, !ids.has(ex.id), `id "${ex.id}" is used twice in the lesson`);
+    ids.add(ex.id);
+  });
+
+  lesson.exercises.forEach((ex, i) => checkExercise(at(lesson, ex, i), ex));
 }
 
 // ---- Translations (uk, ru) ----------------------------------------------
@@ -480,10 +499,7 @@ function checkTranslations(unit: Unit) {
       );
     for (const lesson of localizeUnit(unit, catalog).lessons)
       lesson.exercises.forEach((ex, i) =>
-        checkLocalizedExercise(
-          `${locale} ${lesson.id} #${i + 1} (${ex.type})`,
-          ex,
-        ),
+        checkLocalizedExercise(`${locale} ${at(lesson, ex, i)}`, ex),
       );
   }
 }
@@ -522,8 +538,9 @@ function summarize(unit: Unit) {
 function checkSpelling(units: Unit[]) {
   const rerun = "run npm run plan:spelling";
   const lessons = units.flatMap((u) => u.lessons);
+  const byId = new Map(lessons.map((l) => [l.id, l]));
   for (const id of Object.keys(spellingPlan)) {
-    check("spelling.json", lessons.some((l) => l.id === id), `unknown lesson ${id}: ${rerun}`);
+    check("spelling.json", byId.has(id), `unknown lesson ${id}: ${rerun}`);
   }
   const spelled = new Set<string>();
   const needed = new Set<string>();
@@ -531,11 +548,19 @@ function checkSpelling(units: Unit[]) {
     for (const card of spellingPlan[lesson.id] ?? []) {
       check(
         `${lesson.id} spelling`,
-        card.after >= -1 && card.after < lesson.exercises.length,
-        `"${card.sk}" is placed after exercise ${card.after}, past the lesson's end: ${rerun}`,
+        card.after === undefined || lesson.exercises.some((ex) => ex.id === card.after),
+        `"${card.sk}" is placed after ${card.after}, which isn't in the lesson: ${rerun}`,
       );
+      if (card.gloss)
+        check(
+          `${lesson.id} spelling`,
+          pointee(byId, card.gloss).ex?.type === "intro",
+          `"${card.sk}": gloss ${card.gloss} is not an intro card: ${rerun}`,
+        );
     }
-    addSpelling(lesson, () => undefined).exercises.forEach((ex) => {
+    const played = addSpelling(lesson, () => undefined).exercises;
+    check(`${lesson.id} spelling`, new Set(played.map((ex) => ex.id)).size === played.length, "two spelling cards share an id");
+    played.forEach((ex) => {
       if (ex.type === "spell") spelled.add(ex.sk.toLowerCase());
       if (ex.type !== "listen") return;
       for (const word of sentenceWords(ex.sk).filter(needsSpelling)) {
@@ -560,12 +585,12 @@ function checkSpelling(units: Unit[]) {
 function checkLexicon(units: Unit[]) {
   const items = new Set<string>();
   for (const lesson of units.flatMap((u) => u.lessons)) {
-    lesson.exercises.forEach((ex, i) => {
+    lesson.exercises.forEach((ex) => {
       if (ex.type !== "intro" || !isReviewable(ex.sk)) return;
       const id = reviewItemId(ex.sk);
       if (items.has(id)) return;
       items.add(id);
-      const where = `${lesson.id}#${i}`;
+      const where = `${lesson.id}#${ex.id}`;
       const tags = lexicon[id];
       check(where, tags, `"${ex.sk}" has no tags in src/lib/course/lexicon.ts (word review needs them)`);
       if (!tags) return;
@@ -588,15 +613,30 @@ function checkRefs(units: Unit[]) {
   for (const lesson of units.flatMap((u) => u.lessons)) {
     lesson.exercises.forEach((ex, i) => {
       if ((ex.type !== "choice" && ex.type !== "fill") || !ex.ref) return;
-      const where = `${lesson.id}#${i}`;
+      const where = `${lesson.id}#${ex.id}`;
       check(where, ex.why, "has a ref but no why to show it with");
-      const [lessonId, index] = ex.ref.split("#");
-      const card = lessons.get(lessonId)?.exercises[Number(index)];
-      check(where, card?.type === "grammar", `ref ${ex.ref} is not a grammar card`);
+      const [lessonId] = ex.ref.split("#");
+      const card = pointee(lessons, ex.ref);
+      check(where, card.ex?.type === "grammar", `ref ${ex.ref} is not a grammar card`);
       const earlier =
-        order.indexOf(lessonId) < order.indexOf(lesson.id) || (lessonId === lesson.id && Number(index) < i);
+        order.indexOf(lessonId) < order.indexOf(lesson.id) || (lessonId === lesson.id && card.index < i);
       check(where, earlier, `ref ${ex.ref} comes after the exercise`);
     });
+  }
+}
+
+// ---- Pictures (illustrations.json) ----------------------------------------
+
+/** Every picture belongs to an exercise ("lessonId#exerciseId"), so none is lost when exercises change. */
+function checkPictures(units: Unit[]) {
+  const lessons = new Map(units.flatMap((u) => u.lessons).map((l) => [l.id, l]));
+  for (const key of Object.keys(pictures)) {
+    if (!units.some((u) => key.startsWith(`${u.id}-`))) continue; // a unit not being checked
+    check(
+      `illustrations.json ${key}`,
+      pointee(lessons, key).ex,
+      "no such exercise: rename the key (and its plan entry) to the exercise's id, or drop it",
+    );
   }
 }
 
@@ -628,6 +668,7 @@ async function main() {
   if (!onlyUnit) checkSpelling(units);
   checkLexicon(units);
   if (!onlyUnit) checkRefs(units);
+  checkPictures(units);
 
   if (warnings.length) {
     console.log(`\n${warnings.length} warning(s):`);

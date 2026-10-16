@@ -17,18 +17,21 @@ export const unit7: Unit = {
       titleEn: "At the university",
       exercises: [
         {
+          id: "prednaska",
           type: "intro",
           sk: "prednáška",
           en: "lecture",
           note: "Idem na prednášku. = I'm going to a lecture. At a lecture: **na prednáške**.",
         },
         {
+          id: "seminar",
           type: "intro",
           sk: "seminár",
           en: "seminar, small class",
           note: "A class where students discuss and present. At a seminar: **na seminári**.",
         },
         {
+          id: "choice-idem-na-seminar",
           type: "choice",
           question: "What does this mean?",
           sk: "Idem na seminár.",
@@ -37,12 +40,14 @@ export const unit7: Unit = {
           answer: 0,
         },
         {
+          id: "kniznica",
           type: "intro",
           sk: "knižnica",
           en: "library",
           note: "In the library: **v knižnici**. **čítať** = to read (čítam, čítaš, číta…), **kniha** = book: čítam knihu.",
         },
         {
+          id: "fill-emma-je-v",
           type: "fill",
           before: "Emma je v",
           after: ", číta knihu.",
@@ -52,12 +57,14 @@ export const unit7: Unit = {
           why: "For being in a place, the word changes after v or na: in the library is **v knižnici**, like na prednáške. Knižnica is the plain form.",
         },
         {
+          id: "rozvrh-hodin",
           type: "intro",
           sk: "rozvrh hodín",
           en: "timetable",
           note: "**hodina** is an hour, and also one class period.",
         },
         {
+          id: "match-prednaska",
           type: "match",
           pairs: [
             { sk: "prednáška", en: "lecture" },
@@ -67,18 +74,21 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "skuska",
           type: "intro",
           sk: "skúška",
           en: "exam",
           note: "Mám skúšku. = I have an exam. **zajtra** = tomorrow.",
         },
         {
+          id: "referat",
           type: "intro",
           sk: "referát",
           en: "paper, presentation",
           note: "A short talk or paper for a seminar. **písať** = to write (píšem, píšeš, píše…): Píšem referát. = I'm writing a paper.",
         },
         {
+          id: "fill-zajtra-mam-skusku",
           type: "fill",
           before: "Zajtra mám",
           after: ".",
@@ -86,9 +96,10 @@ export const unit7: Unit = {
           answer: 0,
           en: "I have an exam tomorrow.",
           why: "The exam is what you have, the object, so skúška changes -a to **-u**: mám **skúšku**.",
-          ref: "u5-l2#0",
+          ref: "u5-l2#grammar-accusative-object-case",
         },
         {
+          id: "build-lucia-pise-referat",
           type: "build",
           prompt: "Lucia is writing a paper.",
           promptLang: "en",
@@ -99,14 +110,16 @@ export const unit7: Unit = {
             { wrong: "referáty", right: "referát", why: "Lucia writes one paper, so it's **referát**: as the object, a masculine thing stays the same. Referáty is the plural, papers." },
           ],
         },
-        { type: "listen", sk: "Dnes mám prednášku a seminár.", en: "Today I have a lecture and a seminar." },
+        { id: "listen-dnes-mam-prednasku", type: "listen", sk: "Dnes mám prednášku a seminár.", en: "Today I have a lecture and a seminar." },
         {
+          id: "prepacte-ze-meskam",
           type: "intro",
           sk: "Prepáčte, že meškám.",
           en: "Sorry I'm late. (formal)",
           note: "**meškať** = to be late. A kind reply: **To sa stáva.** (It happens.)",
         },
         {
+          id: "choice-to-sa-stava",
           type: "choice",
           question: "Emma comes in late. What does pani Horváthová say?",
           options: ["To sa stáva.", "Dobrú chuť!", "Teší ma."],
@@ -114,6 +127,7 @@ export const unit7: Unit = {
           answer: 0,
         },
         {
+          id: "fill-pani-horvathova-prepacte",
           type: "fill",
           before: "Pani Horváthová, prepáčte, že",
           after: ".",
@@ -121,9 +135,10 @@ export const unit7: Unit = {
           answer: 0,
           en: "Mrs Horváthová, sorry I'm late.",
           why: "Prepáčte is formal vy, to the teacher, but the one who's late is ja (I), so the verb ends in **-m**: mešk**ám**.",
-          ref: "u2-l4#0",
+          ref: "u2-l4#grammar-verbs-ending-each",
         },
         {
+          id: "build-lucia-je-na",
           type: "build",
           prompt: "Lucia je na prednáške.",
           promptLang: "sk",
@@ -136,6 +151,7 @@ export const unit7: Unit = {
           distractors: ["seminar", "library"],
         },
         {
+          id: "build-prepacte-ze-meskam",
           type: "build",
           prompt: "Sorry I'm late. (formal)",
           promptLang: "en",
@@ -146,7 +162,7 @@ export const unit7: Unit = {
             { wrong: "Prosím", right: "Prepáčte", why: "Sorry is **Prepáčte**, the vy form of prepáč, for a teacher or a stranger. Prosím means please." },
           ],
         },
-        { type: "speak", sk: "Prepáčte, že meškám.", en: "Sorry I'm late." },
+        { id: "speak-prepacte-ze-meskam", type: "speak", sk: "Prepáčte, že meškám.", en: "Sorry I'm late." },
       ],
     },
     {
@@ -155,12 +171,14 @@ export const unit7: Unit = {
       titleEn: "What time is it?",
       exercises: [
         {
+          id: "kolko-je-hodin",
           type: "intro",
           sk: "Koľko je hodín?",
           en: "What time is it?",
           note: "Literally “How many hours is it?”",
         },
         {
+          id: "grammar-telling-time",
           type: "grammar",
           title: "Telling the time",
           body: [
@@ -185,15 +203,17 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "choice-su-tri-hodiny",
           type: "choice",
           question: "It's 3:00. What do you say?",
           options: ["Sú tri hodiny.", "Je jedna hodina.", "Je päť hodín."],
           optionsLang: "sk",
           answer: 0,
           why: "With 2, 3 and 4 it's **sú** and hodin**y**. Je jedna hodina is 1:00, and je päť hodín is 5:00.",
-          ref: "u7-l2#1",
+          ref: "u7-l2#grammar-telling-time",
         },
         {
+          id: "fill-je-pat-hodin",
           type: "fill",
           before: "Je päť",
           after: ".",
@@ -201,15 +221,17 @@ export const unit7: Unit = {
           answer: 0,
           en: "It's five o'clock.",
           why: "From 5 up, hodina becomes **hodín**, with je. Hodiny goes with 2–4, hodina with 1.",
-          ref: "u7-l2#1",
+          ref: "u7-l2#grammar-telling-time",
         },
         {
+          id: "o-kolkej",
           type: "intro",
           sk: "O koľkej?",
           en: "At what time?",
           note: "The answer uses **o** and a special form of the number: o jednej, o druhej…",
         },
         {
+          id: "grammar-at-one-at",
           type: "grammar",
           title: "At one, at two…",
           body: [
@@ -235,6 +257,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "match-o-osmej",
           type: "match",
           pairs: [
             { sk: "o ôsmej", en: "at 8:00" },
@@ -244,6 +267,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "build-seminar-je-o",
           type: "build",
           prompt: "The seminar is at nine.",
           promptLang: "en",
@@ -255,12 +279,14 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "je-pol-osmej",
           type: "intro",
           sk: "Je pol ôsmej.",
           en: "It's half past seven. (7:30)",
           note: "Slovak looks ahead: **pol ôsmej** is “half of the eighth hour”. At 7:30 = **o pol ôsmej**.",
         },
         {
+          id: "choice-je-pol-desiatej",
           type: "choice",
           question: "What time is it?",
           sk: "Je pol desiatej.",
@@ -270,12 +296,14 @@ export const unit7: Unit = {
           why: "Slovak looks ahead: **pol desiatej** is half of the tenth hour, so 9:30. 10:30 would be pol jedenástej.",
         },
         {
+          id: "je-stvrt-na",
           type: "intro",
           sk: "Je štvrť na deväť.",
           en: "It's a quarter past eight. (8:15)",
           note: "Literally “a quarter towards nine”. 8:45 is **trištvrte na deväť**.",
         },
         {
+          id: "fill-je-stvrt-na",
           type: "fill",
           before: "Je",
           after: "na deväť.",
@@ -285,6 +313,7 @@ export const unit7: Unit = {
           why: "**Štvrť** na deväť is a quarter of the way towards nine, so 8:15. Trištvrte (three quarters) na deväť is 8:45.",
         },
         {
+          id: "choice-tristvrte-na-devat",
           type: "choice",
           question: "How do you say 8:45?",
           options: ["trištvrte na deväť", "štvrť na deväť", "pol deviatej"],
@@ -292,8 +321,9 @@ export const unit7: Unit = {
           answer: 0,
           why: "Three quarters of the way to nine is **trištvrte** na deväť. Štvrť na deväť is 8:15, and pol deviatej is 8:30.",
         },
-        { type: "listen", sk: "Prednáška je o pol deviatej.", en: "The lecture is at half past eight." },
+        { id: "listen-prednaska-je-o", type: "listen", sk: "Prednáška je o pol deviatej.", en: "The lecture is at half past eight." },
         {
+          id: "build-kolko-je-hodin",
           type: "build",
           prompt: "What time is it?",
           promptLang: "en",
@@ -305,6 +335,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "fill-seminar-je-o",
           type: "fill",
           before: "Seminár je o",
           after: ".",
@@ -312,9 +343,9 @@ export const unit7: Unit = {
           answer: 0,
           en: "The seminar is at seven.",
           why: "At a time is **o** + the **-ej** form: o siedm**ej**. Sedem is the plain number, for counting.",
-          ref: "u7-l2#5",
+          ref: "u7-l2#grammar-at-one-at",
         },
-        { type: "speak", sk: "Koľko je hodín?", en: "What time is it?" },
+        { id: "speak-kolko-je-hodin", type: "speak", sk: "Koľko je hodín?", en: "What time is it?" },
       ],
     },
     {
@@ -323,18 +354,21 @@ export const unit7: Unit = {
       titleEn: "My day",
       exercises: [
         {
+          id: "rano-vstavam-o",
           type: "intro",
           sk: "Ráno vstávam o siedmej.",
           en: "In the morning I get up at seven.",
           note: "**vstávať** = to get up: vstávam, vstávaš, vstáva…",
         },
         {
+          id: "sprchujem-sa",
           type: "intro",
           sk: "Sprchujem sa.",
           en: "I take a shower.",
           note: "And then: **obliekam sa** = I get dressed. Both use **sa**.",
         },
         {
+          id: "choice-obliekam-sa",
           type: "choice",
           question: "Emma says this. What is she doing?",
           sk: "Obliekam sa.",
@@ -343,12 +377,14 @@ export const unit7: Unit = {
           answer: 0,
         },
         {
+          id: "ranajkujem",
           type: "intro",
           sk: "Raňajkujem.",
           en: "I'm having breakfast.",
           note: "Lunch: **obedujem**. Dinner: **večeriam**.",
         },
         {
+          id: "match-vstavam",
           type: "match",
           pairs: [
             { sk: "vstávam", en: "I get up" },
@@ -359,12 +395,14 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "najprv-sa-sprchujem",
           type: "intro",
           sk: "Najprv sa sprchujem, potom raňajkujem.",
           en: "First I shower, then I have breakfast.",
           note: "**najprv** = first, **potom** = then, after that.",
         },
         {
+          id: "fill-najprv-sa-obliekam",
           type: "fill",
           before: "Najprv sa obliekam,",
           after: "raňajkujem.",
@@ -374,6 +412,7 @@ export const unit7: Unit = {
           why: "**Najprv** is first and **potom** is then. Najprv is already used for getting dressed, so breakfast comes **potom**.",
         },
         {
+          id: "build-vstavam-o-siedmej",
           type: "build",
           prompt: "I get up at seven.",
           promptLang: "en",
@@ -385,12 +424,14 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "doobeda-mam-prednasky",
           type: "intro",
           sk: "Doobeda mám prednášky.",
           en: "In the morning I have lectures.",
           note: "**doobeda** = before noon, **naobed** = at lunchtime, **poobede** = in the afternoon, **v noci** = at night.",
         },
         {
+          id: "choice-afternoon",
           type: "choice",
           question: "When is “poobede”?",
           options: ["in the afternoon", "before noon", "at night"],
@@ -398,13 +439,15 @@ export const unit7: Unit = {
           answer: 0,
         },
         {
+          id: "ucim-sa",
           type: "intro",
           sk: "Učím sa.",
           en: "I'm studying.",
           note: "**učiť sa** = to study, to learn: učím sa, učíš sa, učí sa… Don't drop the **sa**: učiť alone means to teach (like učiteľ, teacher).",
         },
-        { type: "listen", sk: "Poobede sa učím v knižnici.", en: "In the afternoon I study in the library." },
+        { id: "listen-poobede-sa-ucim", type: "listen", sk: "Poobede sa učím v knižnici.", en: "In the afternoon I study in the library." },
         {
+          id: "fill-emma-ranajkuje-o",
           type: "fill",
           before: "Emma",
           after: "o pol ôsmej.",
@@ -412,15 +455,17 @@ export const unit7: Unit = {
           answer: 0,
           en: "Emma has breakfast at half past seven.",
           why: "With **on** or **ona**, the verb has no ending: Emma **raňajkuje**. Raňajkujem goes with ja, raňajkujú with oni.",
-          ref: "u2-l4#5",
+          ref: "u2-l4#grammar-studovat-rozumiet",
         },
         {
+          id: "vecer-som-unavena",
           type: "intro",
           sk: "Večer som unavená.",
           en: "In the evening I'm tired. (woman speaking)",
           note: "A man says: Večer som **unavený**. Then it's time for **idem spať** = I'm going to bed.",
         },
         {
+          id: "fill-tomas-je-vecer",
           type: "fill",
           before: "Tomáš je večer",
           after: ".",
@@ -428,9 +473,10 @@ export const unit7: Unit = {
           answer: 0,
           en: "Tomáš is tired in the evening.",
           why: "Adjectives agree with the person: Tomáš is a man, so **unavený**. Unavená is for a woman: Večer som unavená, says Emma.",
-          ref: "u3-l2#2",
+          ref: "u3-l2#grammar-one-adjective-three",
         },
         {
+          id: "build-najprv-sa-ucim",
           type: "build",
           prompt: "First I study, then I go to bed.",
           promptLang: "en",
@@ -442,6 +488,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "build-vecer-lucia-cita",
           type: "build",
           prompt: "Večer Lucia číta knihu.",
           promptLang: "sk",
@@ -453,7 +500,7 @@ export const unit7: Unit = {
           ],
           distractors: ["morning", "writes"],
         },
-        { type: "speak", sk: "Ráno vstávam o siedmej.", en: "I get up at seven in the morning." },
+        { id: "speak-rano-vstavam-o", type: "speak", sk: "Ráno vstávam o siedmej.", en: "I get up at seven in the morning." },
       ],
     },
     {
@@ -463,6 +510,7 @@ export const unit7: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-three-new-verb",
           type: "grammar",
           title: "Three new verb types",
           body: [
@@ -487,6 +535,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "fill-je-rano-a",
           type: "fill",
           before: "Je ráno a Lucia",
           after: ".",
@@ -494,9 +543,10 @@ export const unit7: Unit = {
           answer: 0,
           en: "It's morning and Lucia is asleep.",
           why: "Lucia is ona, and the ona form of spať is **spí**. Spia goes with oni, spím with ja.",
-          ref: "u7-l4#0",
+          ref: "u7-l4#grammar-three-new-verb",
         },
         {
+          id: "fill-v-noci-spime",
           type: "fill",
           before: "V noci",
           after: ".",
@@ -504,9 +554,10 @@ export const unit7: Unit = {
           answer: 0,
           en: "We sleep at night.",
           why: "With **my** (we) the verb ends in **-me**: sp**íme**. Spia goes with oni, spí with on or ona.",
-          ref: "u7-l4#0",
+          ref: "u7-l4#grammar-three-new-verb",
         },
         {
+          id: "choice-vidis-tomasa",
           type: "choice",
           question: "What does this mean?",
           sk: "Vidíš Tomáša?",
@@ -515,6 +566,7 @@ export const unit7: Unit = {
           answer: 0,
         },
         {
+          id: "fill-zajtra-stretnem-tomasa",
           type: "fill",
           before: "Zajtra",
           after: "Tomáša.",
@@ -522,9 +574,10 @@ export const unit7: Unit = {
           answer: 0,
           en: "Tomorrow I'll meet Tomáš.",
           why: "With **ja**, stretnúť ends in **-em**, and as one complete action it talks about the future: stretn**em** = I'll meet. Stretne is on or ona, stretnú oni.",
-          ref: "u7-l4#0",
+          ref: "u7-l4#grammar-three-new-verb",
         },
         {
+          id: "build-kde-sa-stretneme",
           type: "build",
           prompt: "Where shall we meet?",
           promptLang: "en",
@@ -536,6 +589,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "grammar-more-verbs-like",
           type: "grammar",
           title: "More verbs like these",
           body: [
@@ -560,6 +614,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "fill-je-pol-osmej",
           type: "fill",
           before: "Je pol ôsmej.",
           after: "autobus?",
@@ -567,10 +622,11 @@ export const unit7: Unit = {
           answer: 0,
           en: "It's half past seven. Will we make the bus?",
           why: "With **my** (we), stihnúť ends in **-eme**: stihn**eme**. Stihnem goes with ja, stihnú with oni.",
-          ref: "u7-l4#6",
+          ref: "u7-l4#grammar-more-verbs-like",
         },
-        { type: "listen", sk: "Emma sedí v knižnici.", en: "Emma is sitting in the library." },
+        { id: "listen-emma-sedi-v", type: "listen", sk: "Emma sedí v knižnici.", en: "Emma is sitting in the library." },
         {
+          id: "build-sedim-v-kniznici",
           type: "build",
           prompt: "I'm sitting in the library.",
           promptLang: "en",
@@ -582,6 +638,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "fill-na-co-myslis",
           type: "fill",
           before: "Na čo",
           after: ", Lucia?",
@@ -589,9 +646,10 @@ export const unit7: Unit = {
           answer: 0,
           en: "What are you thinking about, Lucia?",
           why: "The question is to Lucia, so it's **ty**, and the verb ends in **-š**: mysl**íš**. Myslí would be talking about her (ona).",
-          ref: "u7-l4#6",
+          ref: "u7-l4#grammar-more-verbs-like",
         },
         {
+          id: "match-spim",
           type: "match",
           pairs: [
             { sk: "spím", en: "I sleep" },
@@ -602,13 +660,14 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "build-lucia-sedi-a",
           type: "build",
           prompt: "Lucia sedí a číta.",
           promptLang: "sk",
           answers: ["Lucia is sitting and reading.", "Lucia sits and reads."],
           distractors: ["sleeping", "sees"],
         },
-        { type: "speak", sk: "Kde sa stretneme?", en: "Where shall we meet?" },
+        { id: "speak-kde-sa-stretneme", type: "speak", sk: "Kde sa stretneme?", en: "Where shall we meet?" },
       ],
     },
     {
@@ -618,6 +677,7 @@ export const unit7: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-past-tense-l",
           type: "grammar",
           title: "The past tense: -l, -la, -li",
           body: [
@@ -640,6 +700,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "grammar-i-you-add",
           type: "grammar",
           title: "I and you: add som, si, sme, ste",
           body: [
@@ -664,6 +725,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "fill-vcera-lucia-pisala",
           type: "fill",
           before: "Včera Lucia",
           after: "referát.",
@@ -671,18 +733,20 @@ export const unit7: Unit = {
           answer: 0,
           en: "Yesterday Lucia wrote a paper.",
           why: "Lucia is a woman, so the past tense ends in **-la**: písal**a**. Písal is for a man, písali for more people.",
-          ref: "u7-l5#0",
+          ref: "u7-l5#grammar-past-tense-l",
         },
         {
+          id: "choice-vcera-som-sa",
           type: "choice",
           question: "Emma wants to say “I studied yesterday.” Which is right?",
           options: ["Včera som sa učila.", "Včera som sa učil.", "Včera sa učila."],
           optionsLang: "sk",
           answer: 0,
           why: "Emma is a woman, so the past tense ends in **-la**: učil**a**. And ja needs **som**: without it, učila is about someone else (ona).",
-          ref: "u7-l5#1",
+          ref: "u7-l5#grammar-i-you-add",
         },
         {
+          id: "build-vcera-som-pracovala",
           type: "build",
           prompt: "I worked yesterday. (woman speaking)",
           promptLang: "en",
@@ -694,6 +758,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "fill-emma-co-si",
           type: "fill",
           before: "Emma, čo si včera",
           after: "?",
@@ -701,10 +766,11 @@ export const unit7: Unit = {
           answer: 0,
           en: "Emma, what did you do yesterday?",
           why: "Emma is a woman, so the past tense ends in **-la**: robil**a**. Robil is for a man, robili for more people or formal vy.",
-          ref: "u7-l5#0",
+          ref: "u7-l5#grammar-past-tense-l",
         },
-        { type: "listen", sk: "Lucia a Emma raňajkovali o ôsmej.", en: "Lucia and Emma had breakfast at eight." },
+        { id: "listen-lucia-a-emma", type: "listen", sk: "Lucia a Emma raňajkovali o ôsmej.", en: "Lucia and Emma had breakfast at eight." },
         {
+          id: "grammar-irregular-past-forms",
           type: "grammar",
           title: "Irregular past forms",
           body: [
@@ -730,6 +796,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "fill-emma-bola-na",
           type: "fill",
           before: "Emma",
           after: "na prednáške.",
@@ -737,9 +804,10 @@ export const unit7: Unit = {
           answer: 0,
           en: "Emma was at the lecture.",
           why: "Emma is a woman, so the past of byť ends in **-la**: **bola**. Bol is for a man, boli for more people.",
-          ref: "u7-l5#7",
+          ref: "u7-l5#grammar-irregular-past-forms",
         },
         {
+          id: "fill-vcera-tomas-stretol",
           type: "fill",
           before: "Včera Tomáš",
           after: "Emmu.",
@@ -747,9 +815,10 @@ export const unit7: Unit = {
           answer: 0,
           en: "Tomáš met Emma yesterday.",
           why: "Tomáš did the meeting, so the verb is for a man: stretnúť → **stretol**. Emmu is just the object; stretla is a woman meeting someone.",
-          ref: "u7-l5#7",
+          ref: "u7-l5#grammar-irregular-past-forms",
         },
         {
+          id: "build-co-si-vcera",
           type: "build",
           prompt: "What did you do yesterday? (to a man)",
           promptLang: "en",
@@ -761,6 +830,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "choice-vcera-som-jedla",
           type: "choice",
           question: "Lucia says this. What did she do?",
           sk: "Včera som jedla polievku.",
@@ -768,9 +838,10 @@ export const unit7: Unit = {
           optionsLang: "en",
           answer: 0,
           why: "**Jedla** is the past tense of jesť (ate), and **včera** is yesterday. Eating it now would be jem polievku.",
-          ref: "u7-l5#7",
+          ref: "u7-l5#grammar-irregular-past-forms",
         },
         {
+          id: "build-isla-som-na",
           type: "build",
           prompt: "Išla som na seminár.",
           promptLang: "sk",
@@ -778,6 +849,7 @@ export const unit7: Unit = {
           distractors: ["go", "lecture"],
         },
         {
+          id: "fill-pan-kovac-kde",
           type: "fill",
           before: "Pán Kováč, kde ste",
           after: "?",
@@ -785,9 +857,9 @@ export const unit7: Unit = {
           answer: 0,
           en: "Mr Kováč, where were you?",
           why: "Formal **vy** always takes **-li** in the past, even for one person like pán Kováč: **boli** ste, never bol ste.",
-          ref: "u7-l5#1",
+          ref: "u7-l5#grammar-i-you-add",
         },
-        { type: "speak", sk: "Včera sme boli doma.", en: "We were at home yesterday." },
+        { id: "speak-vcera-sme-boli", type: "speak", sk: "Včera sme boli doma.", en: "We were at home yesterday." },
       ],
     },
     {
@@ -797,6 +869,7 @@ export const unit7: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-didn-t-ne",
           type: "grammar",
           title: "Didn't: ne- + past form",
           body: [
@@ -818,6 +891,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "fill-emma-vcera-nebola",
           type: "fill",
           before: "Emma včera",
           after: "na prednáške.",
@@ -825,18 +899,20 @@ export const unit7: Unit = {
           answer: 0,
           en: "Emma wasn't at the lecture yesterday.",
           why: "Emma is a woman, so the past ends in **-la**, with **ne-** in front for not: **ne**bol**a**. Nebol is for a man, neboli for more people.",
-          ref: "u7-l6#0",
+          ref: "u7-l6#grammar-didn-t-ne",
         },
         {
+          id: "choice-nestihol-som-autobus",
           type: "choice",
           question: "Tomáš missed the bus. What does he say?",
           options: ["Nestihol som autobus.", "Stihol som autobus.", "Nestihla som autobus."],
           optionsLang: "sk",
           answer: 0,
           why: "Missing the bus is not making it, so add **ne-**: **ne**stihol. Tomáš is a man, so **-ol**; nestihla is for a woman.",
-          ref: "u7-l6#0",
+          ref: "u7-l6#grammar-didn-t-ne",
         },
         {
+          id: "build-dnes-som-neranajkoval",
           type: "build",
           prompt: "I didn't have breakfast today. (man speaking)",
           promptLang: "en",
@@ -847,8 +923,9 @@ export const unit7: Unit = {
             { wrong: "si", right: "som", why: "With ja (I), the past tense adds **som**, in second place: dnes **som** neraňajkoval. Si goes with ty (you)." },
           ],
         },
-        { type: "listen", sk: "Prepáčte, zaspala som.", en: "Sorry, I overslept." },
+        { id: "listen-prepacte-zaspala-som", type: "listen", sk: "Prepáčte, zaspala som.", en: "Sorry, I overslept." },
         {
+          id: "grammar-este-uz",
           type: "grammar",
           title: "ešte and už",
           body: [
@@ -869,6 +946,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "fill-je-osem-hodin",
           type: "fill",
           before: "Je osem hodín a Lucia",
           after: "spí.",
@@ -876,9 +954,10 @@ export const unit7: Unit = {
           answer: 0,
           en: "It's eight o'clock and Lucia is still asleep.",
           why: "**Ešte** means still: Lucia is still asleep. Už spí would mean she's already asleep.",
-          ref: "u7-l6#5",
+          ref: "u7-l6#grammar-este-uz",
         },
         {
+          id: "choice-este-nie",
           type: "choice",
           question: "What does this mean?",
           sk: "Ešte nie.",
@@ -886,9 +965,10 @@ export const unit7: Unit = {
           optionsLang: "en",
           answer: 0,
           why: "With a not, ešte and už flip: **ešte nie** is not yet, and už nie is not any more. Už on its own means already.",
-          ref: "u7-l6#5",
+          ref: "u7-l6#grammar-este-uz",
         },
         {
+          id: "fill-obedovala-si-nie",
           type: "fill",
           before: "Obedovala si? — Nie,",
           after: "som neobedovala.",
@@ -896,9 +976,10 @@ export const unit7: Unit = {
           answer: 0,
           en: "Have you had lunch? — No, I haven't had lunch yet.",
           why: "Not yet is **ešte** with a not: ešte som **ne**obedovala. Už with a not means not any more.",
-          ref: "u7-l6#5",
+          ref: "u7-l6#grammar-este-uz",
         },
         {
+          id: "build-uz-som-jedla",
           type: "build",
           prompt: "I've already eaten. (woman speaking)",
           promptLang: "en",
@@ -910,6 +991,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "build-tomas-uz-nespi",
           type: "build",
           prompt: "Tomáš už nespí.",
           promptLang: "sk",
@@ -923,6 +1005,7 @@ export const unit7: Unit = {
           distractors: ["still", "yet"],
         },
         {
+          id: "build-bola-si-na",
           type: "build",
           prompt: "Were you at the seminar? (to a woman, informal)",
           promptLang: "en",
@@ -934,6 +1017,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "fill-lucia-uz-si",
           type: "fill",
           before: "Lucia, už si bola v knižnici? —",
           after: ".",
@@ -941,9 +1025,9 @@ export const unit7: Unit = {
           answer: 0,
           en: "Lucia, have you been to the library yet? — Not yet.",
           why: "Not yet is **ešte nie**. Už nie means not any more, as if she used to go and stopped.",
-          ref: "u7-l6#5",
+          ref: "u7-l6#grammar-este-uz",
         },
-        { type: "speak", sk: "Už je osem hodín!", en: "It's already eight!" },
+        { id: "speak-uz-je-osem", type: "speak", sk: "Už je osem hodín!", en: "It's already eight!" },
       ],
     },
     {
@@ -953,6 +1037,7 @@ export const unit7: Unit = {
       kind: "review",
       exercises: [
         {
+          id: "match-je-pol",
           type: "match",
           pairs: [
             { sk: "Je pol ôsmej.", en: "It's 7:30." },
@@ -962,8 +1047,9 @@ export const unit7: Unit = {
             { sk: "Je päť hodín.", en: "It's 5:00." },
           ],
         },
-        { type: "listen", sk: "Prednáška je o pol desiatej.", en: "The lecture is at half past nine." },
+        { id: "listen-prednaska-je-o", type: "listen", sk: "Prednáška je o pol desiatej.", en: "The lecture is at half past nine." },
         {
+          id: "build-zaspala-som",
           type: "build",
           prompt: "I overslept! (woman speaking)",
           promptLang: "en",
@@ -975,15 +1061,17 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "choice-este-som-neranajkovala",
           type: "choice",
           question: "Lucia hasn't had breakfast yet. What does she say?",
           options: ["Ešte som neraňajkovala.", "Už som raňajkovala.", "Ešte raňajkujem."],
           optionsLang: "sk",
           answer: 0,
           why: "Not yet is **ešte** with a **ne-** past form: **ne**raňajkovala. Už som raňajkovala means she's already eaten; ešte raňajkujem, she's still eating.",
-          ref: "u7-l6#5",
+          ref: "u7-l6#grammar-este-uz",
         },
         {
+          id: "build-zajtra-mam-skusku",
           type: "build",
           prompt: "I have an exam tomorrow.",
           promptLang: "en",
@@ -995,6 +1083,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "fill-emma-a-lucia",
           type: "fill",
           before: "Emma a Lucia ešte",
           after: ".",
@@ -1002,9 +1091,10 @@ export const unit7: Unit = {
           answer: 0,
           en: "Emma and Lucia are still asleep.",
           why: "Emma and Lucia are oni (they), so spať ends in **-ia**: sp**ia**. Spí is for one person, spíme for my.",
-          ref: "u7-l4#0",
+          ref: "u7-l4#grammar-three-new-verb",
         },
         {
+          id: "build-stretneme-sa-o",
           type: "build",
           prompt: "We'll meet at seven.",
           promptLang: "en",
@@ -1016,6 +1106,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "fill-vcera-emma-a",
           type: "fill",
           before: "Včera Emma a Lucia",
           after: "v knižnici.",
@@ -1023,9 +1114,10 @@ export const unit7: Unit = {
           answer: 0,
           en: "Yesterday Emma and Lucia sat in the library.",
           why: "Emma and Lucia are more than one person, so the past ends in **-li**: sedel**i**. Sedela is for one woman, sedel for one man.",
-          ref: "u7-l5#0",
+          ref: "u7-l5#grammar-past-tense-l",
         },
         {
+          id: "choice-je-pol-jednej",
           type: "choice",
           question: "It's 12:30. What do you say?",
           options: ["Je pol jednej.", "Je pol dvanástej.", "Je štvrť na jednu."],
@@ -1034,6 +1126,7 @@ export const unit7: Unit = {
           why: "Slovak looks ahead: 12:30 is half of the coming hour, one, so **pol jednej**. Pol dvanástej is 11:30, and štvrť na jednu 12:15.",
         },
         {
+          id: "build-najprv-som-sa",
           type: "build",
           prompt: "Najprv som sa sprchovala, potom som raňajkovala.",
           promptLang: "sk",
@@ -1044,6 +1137,7 @@ export const unit7: Unit = {
           distractors: ["dinner", "lunch"],
         },
         {
+          id: "fill-pan-kovac-videli",
           type: "fill",
           before: "Pán Kováč,",
           after: "ste Emmu?",
@@ -1051,10 +1145,11 @@ export const unit7: Unit = {
           answer: 0,
           en: "Mr Kováč, have you seen Emma?",
           why: "Formal **vy** always takes **-li** in the past, even for one person like pán Kováč: **videli** ste. Vidieť also changes ie to e.",
-          ref: "u7-l5#1",
+          ref: "u7-l5#grammar-i-you-add",
         },
-        { type: "listen", sk: "Včera som nebola na seminári.", en: "I wasn't at the seminar yesterday." },
+        { id: "listen-vcera-som-nebola", type: "listen", sk: "Včera som nebola na seminári.", en: "I wasn't at the seminar yesterday." },
         {
+          id: "build-isiel-si-na",
           type: "build",
           prompt: "Did you go to the lecture? (to a man, informal)",
           promptLang: "en",
@@ -1066,6 +1161,7 @@ export const unit7: Unit = {
           ],
         },
         {
+          id: "fill-tomas-uz-nespi",
           type: "fill",
           before: "Tomáš",
           after: "nespí, už raňajkuje.",
@@ -1073,9 +1169,10 @@ export const unit7: Unit = {
           answer: 0,
           en: "Tomáš isn't asleep any more, he's already having breakfast.",
           why: "With a not, **už** means not any more: už nespí, he's no longer asleep. Ešte nespí would mean he isn't asleep yet.",
-          ref: "u7-l6#5",
+          ref: "u7-l6#grammar-este-uz",
         },
         {
+          id: "choice-zabudla-som-knihu",
           type: "choice",
           question: "Emma says this. What happened?",
           sk: "Zabudla som knihu.",
@@ -1083,7 +1180,7 @@ export const unit7: Unit = {
           optionsLang: "en",
           answer: 0,
         },
-        { type: "speak", sk: "Včera sme boli v knižnici.", en: "Yesterday we were in the library." },
+        { id: "speak-vcera-sme-boli", type: "speak", sk: "Včera sme boli v knižnici.", en: "Yesterday we were in the library." },
       ],
     },
   ],

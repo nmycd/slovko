@@ -57,7 +57,7 @@ function pick(word: string): number {
 // The course as one sequence of authored exercises.
 const slots = course.flatMap((unit) =>
   unit.lessons.flatMap((lesson) =>
-    lesson.exercises.map((ex, index) => ({ lesson: lesson.id, index, ex })),
+    lesson.exercises.map((ex) => ({ lesson: lesson.id, ex })),
   ),
 );
 const lessonStart = new Map<string, number>();
@@ -68,7 +68,7 @@ const glossOf = new Map<string, { g: number; ref: string }>();
 slots.forEach((s, g) => {
   if (s.ex.type !== "intro") return;
   const words = sentenceWords(s.ex.sk);
-  if (words.length === 1 && !glossOf.has(words[0])) glossOf.set(words[0], { g, ref: `${s.lesson}#${s.index}` });
+  if (words.length === 1 && !glossOf.has(words[0])) glossOf.set(words[0], { g, ref: `${s.lesson}#${s.ex.id}` });
 });
 
 const PER_LESSON = 5;
@@ -97,9 +97,9 @@ slots.forEach((slot, g) => {
       const spots = [0, 1, -1, 2, -2, 3, -3].map((d) => p + d).filter((q) => q >= lo && q <= hi);
       const where = (q: number) =>
         first === undefined && q < start
-          ? { lesson: slot.lesson, after: -1 }
-          : { lesson: slots[q].lesson, after: slots[q].index };
-      const key = (q: number) => `${where(q).lesson}#${where(q).after}`;
+          ? { lesson: slot.lesson, after: undefined }
+          : { lesson: slots[q].lesson, after: slots[q].ex.id };
+      const key = (q: number) => `${where(q).lesson}#${where(q).after ?? ""}`;
       p = spots.find((q) => !crowd.get(key(q))) ?? spots.reduce((a, b) => ((crowd.get(key(b)) ?? 0) < (crowd.get(key(a)) ?? 0) ? b : a));
       const full = (q: number) => (plan.get(where(q).lesson)?.length ?? 0) >= PER_LESSON;
       if (full(p)) {
@@ -113,8 +113,9 @@ slots.forEach((slot, g) => {
       crowd.set(key(p), (crowd.get(key(p)) ?? 0) + 1);
 
       const gloss = glossOf.get(word);
+      const after = where(p).after;
       const card: SpellCard = {
-        after: where(p).after,
+        ...(after !== undefined ? { after } : {}),
         sk: spellingForm(word),
         ...(gloss && gloss.g < g ? { gloss: gloss.ref } : {}),
       };
@@ -139,7 +140,8 @@ const lines = course
   .flatMap((u) => u.lessons)
   .filter((l) => plan.has(l.id))
   .map((l) => {
-    const cards = plan.get(l.id)!.sort((a, b) => a.after - b.after);
+    const at = (c: SpellCard) => l.exercises.findIndex((ex) => ex.id === c.after);
+    const cards = plan.get(l.id)!.sort((a, b) => at(a) - at(b));
     return `  ${JSON.stringify(l.id)}: [\n${cards.map((c) => `    ${JSON.stringify(c)}`).join(",\n")}\n  ]`;
   });
 const file = join(process.cwd(), "src/lib/course/spelling.json");

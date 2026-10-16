@@ -4,13 +4,13 @@
 //
 // 1. Renders each entry with a `picture` that has no file in illustrations/renders/
 //    yet (so a failed or interrupted run resumes where it stopped).
-// 2. Converts each render for the web: public/illustrations/<lesson>-<exercise>-<hash>.webp,
+// 2. Converts each render for the web: public/illustrations/<lesson>-<exercise id>-<hash>.webp,
 //    960 px wide, near-white paper pushed to white so it blends into the page. The hash
 //    comes from the render, so a redrawn picture gets a new URL, and the files can be
 //    cached forever (next.config.ts marks /illustrations/* immutable).
-// 3. Writes src/lib/course/illustrations.json: exercise → picture, with reuses resolved.
-//    Entries whose exercise text no longer matches the course are left out (the
-//    exercise moved or changed since the plan was made).
+// 3. Writes src/lib/course/illustrations.json: "lessonId#exerciseId" → picture, with
+//    reuses resolved. Entries whose exercise text no longer matches the course are
+//    left out (the exercise changed or was removed since the plan was made).
 import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readdirSync, readFileSync, renameSync, rmSync, writeFileSync } from "node:fs";
@@ -25,8 +25,8 @@ const rendersDir = join(dir, "renders");
 const publicDir = join(root, "public/illustrations");
 const ATTEMPTS = 4;
 
-type Entry = { lesson: string; exercise: number; type: string; text: string; picture?: string; reuse?: string };
-const keyOf = (e: { lesson: string; exercise: number }) => `${e.lesson}#${e.exercise}`;
+type Entry = { lesson: string; exercise: string; type: string; text: string; picture?: string; reuse?: string };
+const keyOf = (e: { lesson: string; exercise: string }) => `${e.lesson}#${e.exercise}`;
 const fileOf = (key: string) => key.replace("#", "-");
 
 function parseArgs() {
@@ -65,7 +65,7 @@ async function courseTexts(): Promise<Map<string, string>> {
   for (let n = 1; n <= 10; n++) {
     const unit = (await import(join(root, `src/lib/course/units/unit${n}.ts`)))[`unit${n}`];
     for (const lesson of unit.lessons) {
-      lesson.exercises.forEach((ex: any, i: number) => texts.set(`${lesson.id}#${i}`, textOf(ex)));
+      for (const ex of lesson.exercises) texts.set(`${lesson.id}#${ex.id}`, textOf(ex));
     }
   }
   return texts;

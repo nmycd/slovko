@@ -33,7 +33,7 @@ export function Dictionary({ className = "" }: { className?: string }) {
   // need an account, so signed-out visitors sign in first and come back.
   const signedOut = authEnabled && authKnown && !user;
   const hrefFor = (entry: DictionaryEntry) => {
-    const card = `/lesson/${entry.lessonId}?card=${entry.index}`;
+    const card = `/lesson/${entry.lessonId}?card=${entry.card}`;
     return signedOut ? `/login?next=${encodeURIComponent(card)}` : card;
   };
 
@@ -66,7 +66,7 @@ export function Dictionary({ className = "" }: { className?: string }) {
             {results.map((entry) => (
               // Not the card alone: a grammar card has many entries (its examples, its pairs),
               // and keys that repeat leave stale rows behind as the results change.
-              <li key={[entry.lessonId, entry.index, entry.kind, entry.sk, entry.meaning.en].join("|")}>
+              <li key={[entry.lessonId, entry.card, entry.kind, entry.sk, entry.meaning.en].join("|")}>
                 <Link href={hrefFor(entry)} className="block rounded-xl px-3 py-2 transition-colors hover:bg-surface-2">
                   {/* A grammar card shows its title; a word, its Slovak and meaning. */}
                   <span className="block font-serif text-lg leading-snug">

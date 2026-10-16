@@ -1,27 +1,27 @@
 {
-  "u7-l1#0": {"picture": "A big lecture hall with tiered rows of seats: a professor speaks at the front by a projector screen, and Emma takes notes among a crowd of students.", "panel": "p102-1"},
-  "u7-l1#1": {"picture": "A seminar in the Slovak classroom, the desks pushed together into one big table: six students and pani Horváthová sit round it in discussion; Oksana talks with her hands while Emma listens.", "panel": null},
-  "u7-l1#3": {"picture": "The university library: tall shelves and long reading tables with green lamps. Emma carries a stack of books to the librarian's desk.", "panel": "p100-1"},
-  "u7-l1#5": {"picture": "Emma pins her weekly timetable, a grid of coloured blocks, to the wall above her desk in the dorm room.", "panel": null},
-  "u7-l1#7": {"picture": "An exam in the Slovak classroom: students bent over their papers in silence; Emma chews her pen as pani Horváthová walks slowly between the desks.", "panel": null},
-  "u7-l1#8": {"picture": "Late evening at her dorm desk, Emma types a paper on her laptop, books and notes spread around her and a cold cup of tea at her elbow.", "panel": null},
-  "u7-l1#12": {"picture": "Emma bursts into the classroom out of breath, scarf flying, mid-apology; pani Horváthová, by the board, turns with a calm, kind look.", "panel": "p98-1"},
-  "u7-l1#13": {"reuse": "u7-l1#12", "panel": "p98-1"},
+  "u7-l1#prednaska": {"picture": "A big lecture hall with tiered rows of seats: a professor speaks at the front by a projector screen, and Emma takes notes among a crowd of students.", "panel": "p102-1"},
+  "u7-l1#seminar": {"picture": "A seminar in the Slovak classroom, the desks pushed together into one big table: six students and pani Horváthová sit round it in discussion; Oksana talks with her hands while Emma listens.", "panel": null},
+  "u7-l1#kniznica": {"picture": "The university library: tall shelves and long reading tables with green lamps. Emma carries a stack of books to the librarian's desk.", "panel": "p100-1"},
+  "u7-l1#rozvrh-hodin": {"picture": "Emma pins her weekly timetable, a grid of coloured blocks, to the wall above her desk in the dorm room.", "panel": null},
+  "u7-l1#skuska": {"picture": "An exam in the Slovak classroom: students bent over their papers in silence; Emma chews her pen as pani Horváthová walks slowly between the desks.", "panel": null},
+  "u7-l1#referat": {"picture": "Late evening at her dorm desk, Emma types a paper on her laptop, books and notes spread around her and a cold cup of tea at her elbow.", "panel": null},
+  "u7-l1#prepacte-ze-meskam": {"picture": "Emma bursts into the classroom out of breath, scarf flying, mid-apology; pani Horváthová, by the board, turns with a calm, kind look.", "panel": "p98-1"},
+  "u7-l1#choice-to-sa-stava": {"reuse": "u7-l1#prepacte-ze-meskam", "panel": "p98-1"},
 
-  "u7-l2#0": {"picture": "In the porter's lodge, Emma asks pán Kováč the time; he turns round to look at the big clock on the wall behind him.", "panel": "p103-A"},
-  "u7-l2#8": {"picture": "The alarm clock on Emma's bedside table shows half past seven; Lucia, already dressed, shakes a sleeping Emma by the shoulder.", "panel": "p97-1", "panel2": "p97-A"},
-  "u7-l2#10": {"picture": "Outside the university's main building, the big clock over the entrance shows a quarter past eight; Emma and other students hurry up the steps.", "panel": "p96-1"},
+  "u7-l2#kolko-je-hodin": {"picture": "In the porter's lodge, Emma asks pán Kováč the time; he turns round to look at the big clock on the wall behind him.", "panel": "p103-A"},
+  "u7-l2#je-pol-osmej": {"picture": "The alarm clock on Emma's bedside table shows half past seven; Lucia, already dressed, shakes a sleeping Emma by the shoulder.", "panel": "p97-1", "panel2": "p97-A"},
+  "u7-l2#je-stvrt-na": {"picture": "Outside the university's main building, the big clock over the entrance shows a quarter past eight; Emma and other students hurry up the steps.", "panel": "p96-1"},
 
-  "u7-l3#0": {"picture": "Seven in the morning in the dorm room, the window pale with sunrise: Emma sits up in bed and stretches, her alarm clock beside her.", "panel": "p105-B"},
-  "u7-l3#1": {"picture": "Emma in the dorm shower behind a half-drawn curtain, shampoo foam in her hair, singing to herself.", "panel": "p105-C"},
-  "u7-l3#3": {"picture": "Emma, still sleepy, has breakfast at the dorm kitchen table: a buttered roll, a boiled egg and a mug of tea.", "panel": "p105-D"},
-  "u7-l3#5": {"picture": "A two-step picture with an arrow between. Left: the shower curtain is drawn and only Emma's head shows above it, her hair full of shampoo, steam rising. Right: Emma at breakfast with her hair wrapped in a towel.", "panel": null},
-  "u7-l3#8": {"reuse": "u7-l1#0", "panel": null},
-  "u7-l3#10": {"reuse": "u3-l3#1", "panel": "p105-E"},
-  "u7-l3#13": {"picture": "Late evening in the dorm room, the window dark: Emma, worn out, has flopped onto her bed still in her clothes and fallen fast asleep.", "panel": "p105-F"},
+  "u7-l3#rano-vstavam-o": {"picture": "Seven in the morning in the dorm room, the window pale with sunrise: Emma sits up in bed and stretches, her alarm clock beside her.", "panel": "p105-B"},
+  "u7-l3#sprchujem-sa": {"picture": "Emma in the dorm shower behind a half-drawn curtain, shampoo foam in her hair, singing to herself.", "panel": "p105-C"},
+  "u7-l3#ranajkujem": {"picture": "Emma, still sleepy, has breakfast at the dorm kitchen table: a buttered roll, a boiled egg and a mug of tea.", "panel": "p105-D"},
+  "u7-l3#najprv-sa-sprchujem": {"picture": "A two-step picture with an arrow between. Left: the shower curtain is drawn and only Emma's head shows above it, her hair full of shampoo, steam rising. Right: Emma at breakfast with her hair wrapped in a towel.", "panel": null},
+  "u7-l3#doobeda-mam-prednasky": {"reuse": "u7-l1#prednaska", "panel": null},
+  "u7-l3#ucim-sa": {"reuse": "u3-l3#stol", "panel": "p105-E"},
+  "u7-l3#vecer-som-unavena": {"picture": "Late evening in the dorm room, the window dark: Emma, worn out, has flopped onto her bed still in her clothes and fallen fast asleep.", "panel": "p105-F"},
 
-  "u7-l6#2": {"picture": "Tomáš, his laptop bag bouncing, runs after a city bus that is just pulling away from the stop.", "panel": "p97-B"},
-  "u7-l6#5": {"picture": "Two halves, both at eight in the morning in the dorm room. Left: Lucia still asleep while her alarm clock rings. Right: Lucia already up, pulling on her sweater.", "panel": "p112-A"},
+  "u7-l6#choice-nestihol-som-autobus": {"picture": "Tomáš, his laptop bag bouncing, runs after a city bus that is just pulling away from the stop.", "panel": "p97-B"},
+  "u7-l6#grammar-este-uz": {"picture": "Two halves, both at eight in the morning in the dorm room. Left: Lucia still asleep while her alarm clock rings. Right: Lucia already up, pulling on her sweater.", "panel": "p112-A"},
 
-  "u7-l7#3": {"picture": "In the dorm kitchen, Emma holds out a plate of toast; Lucia, coat already on and hand on her stomach, reaches for a slice gratefully.", "panel": null}
+  "u7-l7#choice-este-som-neranajkovala": {"picture": "In the dorm kitchen, Emma holds out a plate of toast; Lucia, coat already on and hand on her stomach, reaches for a slice gratefully.", "panel": null}
 }

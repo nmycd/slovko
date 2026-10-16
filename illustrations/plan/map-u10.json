@@ -1,22 +1,22 @@
 {
-  "u10-l1#0": {"picture": "At a newspaper kiosk on a street corner, magazines hanging all round its window, Emma buys a newspaper from the vendor and tucks it under her arm.", "panel": "p140-1"},
-  "u10-l1#1": {"picture": "In the café near the university, Emma spreads the newspaper on the table and reads an article, a finger following the lines, her coffee going cold beside her.", "panel": "p141-A"},
-  "u10-l1#4": {"picture": "Evening in the porter's lodge: pán Kováč watches the news on a small TV, a newsreader at a desk on the screen, a mug of tea in his hand.", "panel": null},
-  "u10-l1#5": {"picture": "At the newspaper kiosk, Lucia takes a glossy magazine off the rack and flips through its colourful pages.", "panel": "p140-1"},
-  "u10-l1#7": {"reuse": "u10-l1#1", "panel": "p141-A"},
-  "u10-l1#9": {"picture": "Two halves, as if two newspaper pages came to life. Left: an ice hockey player shoots the puck into the net. Right: a violinist plays on a concert stage under a spotlight.", "panel": null},
+  "u10-l1#noviny": {"picture": "At a newspaper kiosk on a street corner, magazines hanging all round its window, Emma buys a newspaper from the vendor and tucks it under her arm.", "panel": "p140-1"},
+  "u10-l1#clanok": {"picture": "In the café near the university, Emma spreads the newspaper on the table and reads an article, a finger following the lines, her coffee going cold beside her.", "panel": "p141-A"},
+  "u10-l1#spravy": {"picture": "Evening in the porter's lodge: pán Kováč watches the news on a small TV, a newsreader at a desk on the screen, a mug of tea in his hand.", "panel": null},
+  "u10-l1#casopis": {"picture": "At the newspaper kiosk, Lucia takes a glossy magazine off the rack and flips through its colourful pages.", "panel": "p140-1"},
+  "u10-l1#emma-cita-slovenske": {"reuse": "u10-l1#clanok", "panel": "p141-A"},
+  "u10-l1#sport-a-kultura": {"picture": "Two halves, as if two newspaper pages came to life. Left: an ice hockey player shoots the puck into the net. Right: a violinist plays on a concert stage under a spotlight.", "panel": null},
 
-  "u10-l2#0": {"picture": "The weather page of the newspaper, open on the dorm kitchen table: a map of Slovakia covered in little sun, cloud, rain and snow symbols. Emma studies it over breakfast.", "panel": "p142-W"},
-  "u10-l2#1": {"reuse": "u1-l3#3", "panel": "p142-S"},
-  "u10-l2#2": {"picture": "Tomáš on the same park bench as in the other weather pictures, under a thick grey sky with no sun at all, zipping up his hoodie.", "panel": "p142-O"},
-  "u10-l2#4": {"reuse": "u1-l3#4", "panel": "p142-D"},
-  "u10-l2#5": {"picture": "Two halves. Left: Emma in a T-shirt and sunglasses fans herself on the sunny Danube embankment. Right: Emma, bundled up in a woolly hat and scarf, shivers on a snowy mountain path in the Tatras.", "panel": null},
-  "u10-l2#10": {"picture": "At the dorm kitchen table, Lucia reads the small-ads page of the newspaper, a grid of little boxed ads, and circles one in red pen.", "panel": "p142-I"},
-  "u10-l2#11": {"picture": "Emma, reading the small ads, points out one with a little drawing of a person at a computer; Tomáš leans over her shoulder, interested.", "panel": "p142-I"},
-  "u10-l2#14": {"reuse": "u10-l2#0", "panel": "p142-W"},
+  "u10-l2#pocasie": {"picture": "The weather page of the newspaper, open on the dorm kitchen table: a map of Slovakia covered in little sun, cloud, rain and snow symbols. Emma studies it over breakfast.", "panel": "p142-W"},
+  "u10-l2#je-slnecno": {"reuse": "u1-l3#mam-sa-vyborne", "panel": "p142-S"},
+  "u10-l2#je-oblacno": {"picture": "Tomáš on the same park bench as in the other weather pictures, under a thick grey sky with no sun at all, zipping up his hoodie.", "panel": "p142-O"},
+  "u10-l2#prsi": {"reuse": "u1-l3#mam-sa-zle", "panel": "p142-D"},
+  "u10-l2#je-teplo-je": {"picture": "Two halves. Left: Emma in a T-shirt and sunglasses fans herself on the sunny Danube embankment. Right: Emma, bundled up in a woolly hat and scarf, shivers on a snowy mountain path in the Tatras.", "panel": null},
+  "u10-l2#inzerat": {"picture": "At the dorm kitchen table, Lucia reads the small-ads page of the newspaper, a grid of little boxed ads, and circles one in red pen.", "panel": "p142-I"},
+  "u10-l2#firma-hlada-programatora": {"picture": "Emma, reading the small ads, points out one with a little drawing of a person at a computer; Tomáš leans over her shoulder, interested.", "panel": "p142-I"},
+  "u10-l2#choice-ake-je-pocasie": {"reuse": "u10-l2#pocasie", "panel": "p142-W"},
 
-  "u10-l5#7": {"picture": "Emma bursts into the dorm kitchen waving the newspaper, open at a page with a photo of Lucia; Lucia, mid-bite of toast, stares at it in surprise.", "panel": "p142-1"},
+  "u10-l5#choice-si-v-novinach": {"picture": "Emma bursts into the dorm kitchen waving the newspaper, open at a page with a photo of Lucia; Lucia, mid-bite of toast, stares at it in surprise.", "panel": "p142-1"},
 
-  "u10-l6#0": {"reuse": "u1-l1#3", "panel": null},
-  "u10-l6#1": {"reuse": "u2-l1#1", "panel": null}
+  "u10-l6#choice-dobry-den-ako": {"reuse": "u1-l1#dobre-rano", "panel": null},
+  "u10-l6#choice-som-z-irska": {"reuse": "u2-l1#som-z-irska", "panel": null}
 }

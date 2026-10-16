@@ -2,9 +2,9 @@
 // Builds illustrations/plan/unitN.json from illustrations/plan/map-uN.json.
 // Usage: npx tsx illustrations/tools/build-plan.ts . <unit number> <printed page minus PDF page>
 //
-// map-uN.json: { "u1-l1#3": { "picture": "…" | "reuse": "u1-l1#1", "panel": "p6-6" | null,
-//                             "panel2"?: "p7-16", "printedPage"?: 9 } }
-// A reuse may name an entry of an earlier unit ("u1-l1#4").
+// map-uN.json: { "u1-l1#dobre-rano": { "picture": "…" | "reuse": "u1-l1#dobry-den", "panel": "p6-6" | null,
+//                                     "panel2"?: "p7-16", "printedPage"?: 9 } }
+// Keys are "lessonId#exerciseId". A reuse may name an entry of an earlier unit ("u1-l1#dobry-vecer").
 // A panel name is p<PDF page>-<label>, matching book-panels-uN.txt and the crop file.
 // printedPage overrides the offset where the scan skips a page inside a lesson.
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
@@ -42,22 +42,22 @@ async function main() {
   const readMap = (unitN: string): Mapping =>
     JSON.parse(readFileSync(join(root, `illustrations/plan/map-u${unitN}.json`), "utf8"));
   const mapping = readMap(n);
-  // A reuse may point into an earlier unit ("u1-l1#4"); look it up in that unit's map.
+  // A reuse may point into an earlier unit ("u1-l1#dobry-vecer"); look it up in that unit's map.
   const mapOf = (key: string) => {
     const unitN = key.match(/^u(\d+)-/)?.[1];
     return !unitN || unitN === n ? mapping : readMap(unitN);
   };
   const items = [];
   for (const [key, m] of Object.entries(mapping)) {
-    const [lessonId, index] = key.split("#");
+    const [lessonId, id] = key.split("#");
     const lesson = unit.lessons.find((l: any) => l.id === lessonId);
-    const ex = lesson?.exercises[Number(index)];
+    const ex = lesson?.exercises.find((e: any) => e.id === id);
     if (!ex) throw new Error(`No exercise ${key}`);
     if (m.reuse && !mapOf(m.reuse)[m.reuse]?.picture) throw new Error(`${key} reuses ${m.reuse}, which has no picture`);
     const book = [m.panel, m.panel2].filter((p): p is string => Boolean(p)).map((p) => bookRef(root, p, offset, m.printedPage));
     items.push({
       lesson: lessonId,
-      exercise: Number(index),
+      exercise: id,
       type: ex.type,
       text: textOf(ex),
       ...(m.reuse ? { reuse: m.reuse } : { picture: m.picture }),

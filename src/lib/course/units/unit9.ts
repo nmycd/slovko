@@ -17,18 +17,21 @@ export const unit9: Unit = {
       titleEn: "The conference",
       exercises: [
         {
+          id: "konferencia",
           type: "intro",
           sk: "konferencia",
           en: "conference",
           note: "Tomáš ide **na konferenciu**. = Tomáš is going to a conference. Je **na konferencii**. = He is at the conference.",
         },
         {
+          id: "prednaska",
           type: "intro",
           sk: "prednáška",
           en: "lecture, talk",
           note: "You know **prednáška** from unit 7. At a conference, **mať prednášku** means to give a talk: Tomáš má prednášku. = Tomáš is giving a talk. A presentation with slides is a **prezentácia**.",
         },
         {
+          id: "choice-tomas-ide-na",
           type: "choice",
           question: "What does this mean?",
           sk: "Tomáš ide na konferenciu.",
@@ -40,15 +43,17 @@ export const unit9: Unit = {
           optionsLang: "en",
           answer: 0,
           why: "**Ísť na** + the object form is going somewhere: ide **na konferenciu** = is going to the conference. Being there is je **na konferencii**.",
-          ref: "u5-l5#0",
+          ref: "u5-l5#grammar-ist-go",
         },
         {
+          id: "pozvanka",
           type: "intro",
           sk: "pozvánka",
           en: "invitation",
           note: "Dostal som **pozvánku**. = I got an invitation.",
         },
         {
+          id: "fill-tomas-dostal-pozvanku",
           type: "fill",
           before: "Tomáš dostal",
           after: "na konferenciu.",
@@ -56,15 +61,17 @@ export const unit9: Unit = {
           answer: 0,
           en: "Tomáš got an invitation to the conference.",
           why: "The invitation is what Tomáš got, the object, so pozvánka changes -a to **-u**: dostal **pozvánku**.",
-          ref: "u5-l2#0",
+          ref: "u5-l2#grammar-accusative-object-case",
         },
         {
+          id: "prihlaska",
           type: "intro",
           sk: "prihláška",
           en: "registration form",
           note: "**vypísať** prihlášku = to fill in the form",
         },
         {
+          id: "match-konferencia",
           type: "match",
           pairs: [
             { sk: "konferencia", en: "conference" },
@@ -74,6 +81,7 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "fill-musite-vypisat-prihlasku",
           type: "fill",
           before: "Musíte vypísať",
           after: ".",
@@ -81,20 +89,23 @@ export const unit9: Unit = {
           answer: 0,
           en: "You have to fill in the registration form.",
           why: "The form is what you fill in, the object, so prihláška changes -a to **-u**: vypísať **prihlášku**.",
-          ref: "u5-l2#0",
+          ref: "u5-l2#grammar-accusative-object-case",
         },
         {
+          id: "prestavka-na-kavu",
           type: "intro",
           sk: "prestávka na kávu",
           en: "coffee break",
           note: "**prestávka** = a break. Na prestávke = during the break.",
         },
         {
+          id: "listen-prestavka-na-kavu",
           type: "listen",
           sk: "Prestávka na kávu je o desiatej.",
           en: "The coffee break is at ten.",
         },
         {
+          id: "build-tomas-ma-prednasku",
           type: "build",
           prompt: "Tomáš is giving a talk at the conference.",
           promptLang: "en",
@@ -110,21 +121,24 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "tesim-sa-na",
           type: "intro",
           sk: "Teším sa na konferenciu.",
           en: "I'm looking forward to the conference.",
           note: "**tešiť sa na** + the object form: Teším sa na prednášku. Tvoja prednáška → na **tvoju** prednášku.",
         },
         {
+          id: "choice-dostala-som-pozvanku",
           type: "choice",
           question: "Emma got an invitation. How does she say it?",
           options: ["Dostala som pozvánku.", "Dostal som pozvánku.", "Dostala som prihlášku."],
           optionsLang: "sk",
           answer: 0,
           why: "Emma is a woman, so the past tense ends in **-a**: dostal**a** som. And an invitation is a **pozvánka**; a prihláška is a registration form.",
-          ref: "u7-l5#0",
+          ref: "u7-l5#grammar-past-tense-l",
         },
         {
+          id: "build-tesim-sa-na",
           type: "build",
           prompt: "I'm looking forward to your talk.",
           promptLang: "en",
@@ -136,13 +150,14 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "build-kedy-je-prestavka",
           type: "build",
           prompt: "Kedy je prestávka na kávu?",
           promptLang: "sk",
           answers: ["When is the coffee break?"],
           distractors: ["lecture", "where"],
         },
-        { type: "speak", sk: "Teším sa na konferenciu.", en: "I'm looking forward to the conference." },
+        { id: "speak-tesim-sa-na", type: "speak", sk: "Teším sa na konferenciu.", en: "I'm looking forward to the conference." },
       ],
     },
     {
@@ -152,6 +167,7 @@ export const unit9: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-verbs-sa",
           type: "grammar",
           title: "Verbs with sa",
           body: [
@@ -176,6 +192,7 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "grammar-sa-likes-second",
           type: "grammar",
           title: "Sa likes second place",
           body: [
@@ -197,6 +214,7 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "fill-volam-sa-emma",
           type: "fill",
           before: "Volám",
           after: "Emma.",
@@ -204,9 +222,10 @@ export const unit9: Unit = {
           answer: 0,
           en: "My name is Emma.",
           why: "**Volať sa** means to be called, so the name needs sa: Volám **sa** Emma. Without sa, volám means I'm calling someone.",
-          ref: "u9-l2#0",
+          ref: "u9-l2#grammar-verbs-sa",
         },
         {
+          id: "fill-my-sa-tesime",
           type: "fill",
           before: "My sa",
           after: "na prestávku.",
@@ -214,18 +233,20 @@ export const unit9: Unit = {
           answer: 0,
           en: "We're looking forward to the break.",
           why: "With **my** (we) the verb ends in **-me**: tešíme sa. Teším goes with ja, tešia with oni.",
-          ref: "u9-l2#0",
+          ref: "u9-l2#grammar-verbs-sa",
         },
         {
+          id: "choice-volam-sa-tomas",
           type: "choice",
           question: "Which sentence is correct?",
           options: ["Sa volám Tomáš.", "Volám sa Tomáš.", "Volám Tomáš sa."],
           optionsLang: "sk",
           answer: 1,
           why: "**Sa** never starts a sentence. It takes second place, right after the first word: Volám **sa** Tomáš.",
-          ref: "u9-l2#1",
+          ref: "u9-l2#grammar-sa-likes-second",
         },
         {
+          id: "build-ucime-sa-slovencinu",
           type: "build",
           prompt: "We're learning Slovak.",
           promptLang: "en",
@@ -237,6 +258,7 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "fill-na-konferenciu-sa",
           type: "fill",
           before: "Na konferenciu",
           after: "veľmi teším.",
@@ -244,10 +266,11 @@ export const unit9: Unit = {
           answer: 0,
           en: "I'm really looking forward to the conference.",
           why: "**Tešiť sa** keeps its sa, and sa takes second place, right after the first phrase: Na konferenciu **sa** teším.",
-          ref: "u9-l2#1",
+          ref: "u9-l2#grammar-sa-likes-second",
         },
-        { type: "listen", sk: "Kde sa môžem zaregistrovať?", en: "Where can I register?" },
+        { id: "listen-kde-sa-mozem", type: "listen", sk: "Kde sa môžem zaregistrovať?", en: "Where can I register?" },
         {
+          id: "grammar-or-without-sa",
           type: "grammar",
           title: "With or without sa",
           body: [
@@ -269,6 +292,7 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "choice-tomas-vola-luciu",
           type: "choice",
           question: "What does this mean?",
           sk: "Tomáš volá Luciu.",
@@ -276,9 +300,10 @@ export const unit9: Unit = {
           optionsLang: "en",
           answer: 0,
           why: "Without sa, **volať** is to call someone: volá Luciu = is calling Lucia. With sa it gives a name: Tomáš **sa volá**… = Tomáš is called…",
-          ref: "u9-l2#8",
+          ref: "u9-l2#grammar-or-without-sa",
         },
         {
+          id: "build-emma-a-tomas",
           type: "build",
           prompt: "Emma and Tomáš will meet at the conference.",
           promptLang: "en",
@@ -295,6 +320,7 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "fill-kedy-sa-vratis",
           type: "fill",
           before: "Kedy sa",
           after: "z konferencie?",
@@ -302,9 +328,10 @@ export const unit9: Unit = {
           answer: 0,
           en: "When are you coming back from the conference?",
           why: "The question is to **you** (ty), so the verb ends in **-š**: vrátiš sa. Vrátim goes with ja, vráti with on or ona.",
-          ref: "u2-l4#0",
+          ref: "u2-l4#grammar-verbs-ending-each",
         },
         {
+          id: "build-vratim-sa-o",
           type: "build",
           prompt: "I'll be back at five.",
           promptLang: "en",
@@ -316,6 +343,7 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "match-tesit-sa",
           type: "match",
           pairs: [
             { sk: "tešiť sa", en: "to look forward" },
@@ -326,13 +354,14 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "build-tomas-sa-tesi",
           type: "build",
           prompt: "Tomáš sa teší na prestávku.",
           promptLang: "sk",
           answers: ["Tomáš is looking forward to the break."],
           distractors: ["lecture", "back"],
         },
-        { type: "speak", sk: "Veľmi sa teším!", en: "I'm really looking forward to it!" },
+        { id: "speak-velmi-sa-tesim", type: "speak", sk: "Veľmi sa teším!", en: "I'm really looking forward to it!" },
       ],
     },
     {
@@ -341,18 +370,21 @@ export const unit9: Unit = {
       titleEn: "Working on a computer",
       exercises: [
         {
+          id: "subor",
           type: "intro",
           sk: "súbor",
           en: "file",
           note: "A computer file. Kde je ten súbor? = Where's that file?",
         },
         {
+          id: "otvorit",
           type: "intro",
           sk: "otvoriť",
           en: "to open",
           note: "The opposite is **zatvoriť** (to close): otvoriť súbor, zatvoriť súbor.",
         },
         {
+          id: "choice-tomas-otvoril-subor",
           type: "choice",
           question: "What does this mean?",
           sk: "Tomáš otvoril súbor.",
@@ -361,12 +393,14 @@ export const unit9: Unit = {
           answer: 0,
         },
         {
+          id: "ulozit",
           type: "intro",
           sk: "uložiť",
           en: "to save",
           note: "Musíš **uložiť** súbor. = You have to save the file.",
         },
         {
+          id: "fill-emma-ulozila-subor",
           type: "fill",
           before: "Emma",
           after: "súbor.",
@@ -374,15 +408,17 @@ export const unit9: Unit = {
           answer: 0,
           en: "Emma saved the file.",
           why: "Emma is a woman, so the past tense ends in **-la**: uložil**a**. Uložil is for a man, uložili for more people.",
-          ref: "u7-l5#0",
+          ref: "u7-l5#grammar-past-tense-l",
         },
         {
+          id: "kliknut-na-ikonu",
           type: "intro",
           sk: "kliknúť na ikonu",
           en: "to click on the icon",
           note: "**kliknúť na** + the object form: kliknúť na súbor, kliknúť na ikonu.",
         },
         {
+          id: "match-subor",
           type: "match",
           pairs: [
             { sk: "súbor", en: "file" },
@@ -393,6 +429,7 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "fill-musite-kliknut-na",
           type: "fill",
           before: "Musíte kliknúť",
           after: "ikonu.",
@@ -400,24 +437,27 @@ export const unit9: Unit = {
           answer: 0,
           en: "You have to click on the icon.",
           why: "You click **on** something: **kliknúť na** + the object form, na ikonu, na súbor.",
-          ref: "u5-l4#8",
+          ref: "u5-l4#grammar-na-accusative",
         },
-        { type: "intro", sk: "kopírovať a vložiť", en: "to copy and paste" },
+        { id: "kopirovat-a-vlozit", type: "intro", sk: "kopírovať a vložiť", en: "to copy and paste" },
         {
+          id: "choice-vlozit",
           type: "choice",
           question: "You want to put copied text into your file. Which verb do you need?",
           options: ["vložiť", "kopírovať", "otvoriť"],
           optionsLang: "sk",
           answer: 0,
         },
-        { type: "listen", sk: "Kde je ten súbor?", en: "Where's that file?" },
+        { id: "listen-kde-je-ten", type: "listen", sk: "Kde je ten súbor?", en: "Where's that file?" },
         {
+          id: "vytlacit",
           type: "intro",
           sk: "vytlačiť",
           en: "to print",
           note: "**tlačiareň** (printer) comes from the same word.",
         },
         {
+          id: "build-musim-vytlacit-prihlasku",
           type: "build",
           prompt: "I have to print the registration form.",
           promptLang: "en",
@@ -429,12 +469,14 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "poslat-e-mailom",
           type: "intro",
           sk: "poslať e-mailom",
           en: "to send by e-mail",
           note: "**pošlem** = I'll send, **poslal som** = I sent.",
         },
         {
+          id: "fill-lucia-poslala-prezentaciu",
           type: "fill",
           before: "Lucia poslala",
           after: "e-mailom.",
@@ -442,17 +484,18 @@ export const unit9: Unit = {
           answer: 0,
           en: "Lucia sent the presentation by e-mail.",
           why: "The presentation is what Lucia sent, the object, so prezentácia changes -a to **-u**: poslala **prezentáciu**.",
-          ref: "u5-l2#0",
+          ref: "u5-l2#grammar-accusative-object-case",
         },
         {
+          id: "build-emma-nemoze-otvorit",
           type: "build",
           prompt: "Emma nemôže otvoriť súbor.",
           promptLang: "sk",
           answers: ["Emma can't open the file."],
           distractors: ["save", "can"],
         },
-        { type: "listen", sk: "Tomáš poslal súbor e-mailom.", en: "Tomáš sent the file by e-mail." },
-        { type: "speak", sk: "Musím uložiť súbor.", en: "I have to save the file." },
+        { id: "listen-tomas-poslal-subor", type: "listen", sk: "Tomáš poslal súbor e-mailom.", en: "Tomáš sent the file by e-mail." },
+        { id: "speak-musim-ulozit-subor", type: "speak", sk: "Musím uložiť súbor.", en: "I have to save the file." },
       ],
     },
     {
@@ -462,6 +505,7 @@ export const unit9: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-si-yourself",
           type: "grammar",
           title: "Si: for yourself",
           body: [
@@ -485,6 +529,7 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "grammar-sa-si-past",
           type: "grammar",
           title: "Sa and si in the past tense",
           body: [
@@ -508,6 +553,7 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "fill-lucia-si-umyva",
           type: "fill",
           before: "Lucia",
           after: "umýva ruky.",
@@ -515,9 +561,10 @@ export const unit9: Unit = {
           answer: 0,
           en: "Lucia is washing her hands.",
           why: "Washing something of your own takes **si**, with the object after it: umýva **si** ruky. **Sa** is for washing yourself, with nothing after it.",
-          ref: "u9-l4#0",
+          ref: "u9-l4#grammar-si-yourself",
         },
         {
+          id: "fill-dam-si-kavu",
           type: "fill",
           before: "Dám",
           after: "kávu, prosím.",
@@ -525,18 +572,20 @@ export const unit9: Unit = {
           answer: 0,
           en: "I'll have a coffee, please.",
           why: "Having something to eat or drink is **dať si**: Dám **si** kávu = I'll have a coffee (for myself).",
-          ref: "u9-l4#0",
+          ref: "u9-l4#grammar-si-yourself",
         },
         {
+          id: "choice-tomas-sa-umyva",
           type: "choice",
           question: "Which one means “Tomáš is washing (himself)”?",
           options: ["Tomáš sa umýva.", "Tomáš si umýva.", "Tomáš umýva."],
           optionsLang: "sk",
           answer: 0,
           why: "Washing yourself, with no object, takes **sa**: Tomáš **sa** umýva. **Si** needs something after it: umýva si ruky.",
-          ref: "u9-l4#0",
+          ref: "u9-l4#grammar-si-yourself",
         },
         {
+          id: "build-emma-si-kupila",
           type: "build",
           prompt: "Emma bought herself a T-shirt.",
           promptLang: "en",
@@ -547,8 +596,9 @@ export const unit9: Unit = {
             { wrong: "kúpil", right: "kúpila", why: "Emma is a woman, so the past tense ends in **-la**: **kúpila**. Kúpil is for a man." },
           ],
         },
-        { type: "listen", sk: "Kedy si sa vrátil?", en: "When did you come back?" },
+        { id: "listen-kedy-si-sa", type: "listen", sk: "Kedy si sa vrátil?", en: "When did you come back?" },
         {
+          id: "grammar-small-words-stick",
           type: "grammar",
           title: "Small words stick together",
           body: [
@@ -569,6 +619,7 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "fill-v-piatok-sme",
           type: "fill",
           before: "V piatok",
           after: "sa stretli s Tomášom.",
@@ -576,9 +627,10 @@ export const unit9: Unit = {
           answer: 0,
           en: "We met Tomáš on Friday.",
           why: "**My** (we) in the past tense needs **sme**, and it comes before sa: V piatok **sme sa** stretli.",
-          ref: "u9-l4#7",
+          ref: "u9-l4#grammar-small-words-stick",
         },
         {
+          id: "build-stretli-sme-sa",
           type: "build",
           prompt: "We met at the conference.",
           promptLang: "en",
@@ -590,15 +642,17 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "choice-kde-ste-sa",
           type: "choice",
           question: "Which word order is correct?",
           options: ["Kde ste sa stretli?", "Kde sa ste stretli?", "Kde ste stretli sa?"],
           optionsLang: "sk",
           answer: 0,
           why: "The small words go second, in a fixed order: **ste** first, then **sa**, right after the question word: Kde **ste sa** stretli?",
-          ref: "u9-l4#7",
+          ref: "u9-l4#grammar-small-words-stick",
         },
         {
+          id: "build-tomas-sa-vratil",
           type: "build",
           prompt: "Tomáš came back at six.",
           promptLang: "en",
@@ -610,6 +664,7 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "fill-lucia-si-zavolala",
           type: "fill",
           before: "Lucia",
           after: "zavolala taxík.",
@@ -617,9 +672,10 @@ export const unit9: Unit = {
           answer: 0,
           en: "Lucia called a taxi.",
           why: "Calling a taxi for yourself is **zavolať si** taxík. With Lucia (ona) the past tense has no som or sme, so **si** comes second on its own.",
-          ref: "u9-l4#1",
+          ref: "u9-l4#grammar-sa-si-past",
         },
         {
+          id: "build-vcera-som-sa",
           type: "build",
           prompt: "Včera som sa stretla s Luciou.",
           promptLang: "sk",
@@ -627,6 +683,7 @@ export const unit9: Unit = {
           distractors: ["called", "today"],
         },
         {
+          id: "choice-dal-si-si",
           type: "choice",
           question: "What does this mean?",
           sk: "Dal si si kávu?",
@@ -634,9 +691,9 @@ export const unit9: Unit = {
           optionsLang: "en",
           answer: 0,
           why: "The first **si** is ty in the past tense (dal si = you had), the second belongs to **dať si** kávu (to have a coffee). So: Did you have a coffee?",
-          ref: "u9-l4#1",
+          ref: "u9-l4#grammar-sa-si-past",
         },
-        { type: "speak", sk: "Dám si kávu.", en: "I'll have a coffee." },
+        { id: "speak-dam-si-kavu", type: "speak", sk: "Dám si kávu.", en: "I'll have a coffee." },
       ],
     },
     {
@@ -645,18 +702,21 @@ export const unit9: Unit = {
       titleEn: "The questionnaire",
       exercises: [
         {
+          id: "dotaznik",
           type: "intro",
           sk: "dotazník",
           en: "questionnaire, form",
           note: "A form asks for your **meno a priezvisko** (first name and surname) and **dátum narodenia** (date of birth).",
         },
         {
+          id: "vypiste-prosim-dotaznik",
           type: "intro",
           sk: "Vypíšte, prosím, dotazník.",
           en: "Please fill in the questionnaire.",
           note: "**vypísať** = to fill in. To a friend: Vypíš dotazník.",
         },
         {
+          id: "choice-vypiste-prosim-prihlasku",
           type: "choice",
           question: "What are you asked to do?",
           sk: "Vypíšte, prosím, prihlášku.",
@@ -665,12 +725,14 @@ export const unit9: Unit = {
           answer: 0,
         },
         {
+          id: "trvale-bydlisko",
           type: "intro",
           sk: "trvalé bydlisko",
           en: "permanent address",
           note: "Below it: **ulica** (street), **číslo** (number), **PSČ** (postcode), **mesto** (town).",
         },
         {
+          id: "match-meno",
           type: "match",
           pairs: [
             { sk: "meno", en: "first name" },
@@ -680,20 +742,23 @@ export const unit9: Unit = {
             { sk: "ulica", en: "street" },
           ],
         },
-        { type: "listen", sk: "Aké je vaše trvalé bydlisko?", en: "What is your permanent address?" },
+        { id: "listen-ake-je-vase", type: "listen", sk: "Aké je vaše trvalé bydlisko?", en: "What is your permanent address?" },
         {
+          id: "narodnost",
           type: "intro",
           sk: "národnosť",
           en: "nationality",
           note: "Next to it you often see **štátna príslušnosť** (citizenship).",
         },
         {
+          id: "zamestnavatel",
           type: "intro",
           sk: "zamestnávateľ",
           en: "employer",
           note: "Don't mix it up with **zamestnanie** (occupation). Jana's employer is a firma (company) **v Košiciach** (in Košice).",
         },
         {
+          id: "fill-aka-je-vasa",
           type: "fill",
           before: "Aká je vaša",
           after: "?",
@@ -703,6 +768,7 @@ export const unit9: Unit = {
           why: "Nationality is **národnosť**. It's also the only feminine word here, which fits **aká** and **vaša**.",
         },
         {
+          id: "build-moj-zamestnavatel-je",
           type: "build",
           prompt: "My employer is a company in Košice.",
           promptLang: "en",
@@ -714,12 +780,14 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "podpiste-sa-tu",
           type: "intro",
           sk: "Podpíšte sa tu, prosím.",
           en: "Please sign here.",
           note: "**podpísať sa** = to sign (your name). One more verb with sa!",
         },
         {
+          id: "fill-emma-vypisala-dotaznik",
           type: "fill",
           before: "Emma vypísala dotazník a podpísala",
           after: ".",
@@ -727,15 +795,17 @@ export const unit9: Unit = {
           answer: 0,
           en: "Emma filled in the questionnaire and signed it.",
           why: "Signing your name is **podpísať sa**, a verb with sa: podpísala **sa**. Si would need an object after it.",
-          ref: "u9-l4#0",
+          ref: "u9-l4#grammar-si-yourself",
         },
         {
+          id: "ako-sa-vam",
           type: "intro",
           sk: "Ako sa vám páčila konferencia?",
           en: "How did you like the conference?",
           note: "**páčiť sa** = to please: Páči sa **mi**. = I like it (it pleases me). The verb agrees with the thing you like: prednáška sa mi páčil**a**, program sa mi páčil.",
         },
         {
+          id: "build-pacila-sa-mi",
           type: "build",
           prompt: "I liked the lecture.",
           promptLang: "en",
@@ -747,6 +817,7 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "choice-konferencia-sa-mi",
           type: "choice",
           question: "Which one is correct?",
           options: ["Konferencia sa mi páčila.", "Konferencia sa mi páčil.", "Konferencia si mi páčila."],
@@ -755,13 +826,14 @@ export const unit9: Unit = {
           why: "With páčiť sa, the verb agrees with what you like: konferencia is feminine, so páčil**a**. And it's always **sa**: páčiť sa.",
         },
         {
+          id: "build-aky-je-vas",
           type: "build",
           prompt: "Aký je váš dátum narodenia?",
           promptLang: "sk",
           answers: ["What is your date of birth?", "What's your date of birth?"],
           distractors: ["address", "where"],
         },
-        { type: "speak", sk: "Podpíšte sa tu, prosím.", en: "Please sign here." },
+        { id: "speak-podpiste-sa-tu", type: "speak", sk: "Podpíšte sa tu, prosím.", en: "Please sign here." },
       ],
     },
     {
@@ -771,6 +843,7 @@ export const unit9: Unit = {
       kind: "review",
       exercises: [
         {
+          id: "match-subor",
           type: "match",
           pairs: [
             { sk: "súbor", en: "file" },
@@ -781,6 +854,7 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "fill-tesim-sa-na",
           type: "fill",
           before: "Teším",
           after: "na tvoju prednášku.",
@@ -788,9 +862,10 @@ export const unit9: Unit = {
           answer: 0,
           en: "I'm looking forward to your talk.",
           why: "**Tešiť sa na** keeps its sa: Teším **sa** na prednášku.",
-          ref: "u9-l2#0",
+          ref: "u9-l2#grammar-verbs-sa",
         },
         {
+          id: "build-musim-ulozit-prezentaciu",
           type: "build",
           prompt: "I have to save the presentation.",
           promptLang: "en",
@@ -801,8 +876,9 @@ export const unit9: Unit = {
             { wrong: "otvoriť", right: "uložiť", why: "To save is **uložiť**, as in uložiť súbor. Otvoriť means to open." },
           ],
         },
-        { type: "listen", sk: "Stretli sme sa na prestávke.", en: "We met during the break." },
+        { id: "listen-stretli-sme-sa", type: "listen", sk: "Stretli sme sa na prestávke.", en: "We met during the break." },
         {
+          id: "choice-tomas-si-dal",
           type: "choice",
           question: "What does this mean?",
           sk: "Tomáš si dal kávu a vrátil sa na prednášku.",
@@ -814,9 +890,10 @@ export const unit9: Unit = {
           optionsLang: "en",
           answer: 0,
           why: "**Dať si** kávu is to have a coffee, and **vrátiť sa** is to come or go back: he had a coffee and went back to the talk.",
-          ref: "u9-l4#0",
+          ref: "u9-l4#grammar-si-yourself",
         },
         {
+          id: "fill-vcera-som-si",
           type: "fill",
           before: "Včera",
           after: "si kúpila nový počítač.",
@@ -824,9 +901,10 @@ export const unit9: Unit = {
           answer: 0,
           en: "Yesterday I bought myself a new computer.",
           why: "**Ja** in the past tense needs **som**, and it comes before si: Včera **som si** kúpila… (kúpila: a woman is speaking).",
-          ref: "u9-l4#7",
+          ref: "u9-l4#grammar-small-words-stick",
         },
         {
+          id: "build-kde-sa-mozem",
           type: "build",
           prompt: "Where can I register?",
           promptLang: "en",
@@ -838,6 +916,7 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "fill-ake-je-vase",
           type: "fill",
           before: "Aké je vaše",
           after: "?",
@@ -846,8 +925,9 @@ export const unit9: Unit = {
           en: "What is your occupation?",
           why: "Occupation is **zamestnanie**. It's neuter, which fits **aké** and **vaše**; a zamestnávateľ is the employer.",
         },
-        { type: "speak", sk: "Kedy sa vrátiš?", en: "When will you be back?" },
+        { id: "speak-kedy-sa-vratis", type: "speak", sk: "Kedy sa vrátiš?", en: "When will you be back?" },
         {
+          id: "build-pacila-sa-mi",
           type: "build",
           prompt: "Páčila sa mi tvoja prezentácia.",
           promptLang: "sk",
@@ -855,6 +935,7 @@ export const unit9: Unit = {
           distractors: ["his", "lecture"],
         },
         {
+          id: "choice-na-konferencii-sme",
           type: "choice",
           question: "Which word order is correct?",
           options: [
@@ -865,9 +946,10 @@ export const unit9: Unit = {
           optionsLang: "sk",
           answer: 0,
           why: "The small words take second place, **sme** before **sa**, right after the first phrase: Na konferencii **sme sa** stretli. They never start a sentence.",
-          ref: "u9-l4#7",
+          ref: "u9-l4#grammar-small-words-stick",
         },
         {
+          id: "fill-emma-klikla-na",
           type: "fill",
           before: "Emma klikla",
           after: "súbor.",
@@ -875,10 +957,11 @@ export const unit9: Unit = {
           answer: 0,
           en: "Emma clicked on the file.",
           why: "You click **on** something: **kliknúť na** súbor.",
-          ref: "u5-l4#8",
+          ref: "u5-l4#grammar-na-accusative",
         },
-        { type: "listen", sk: "Súbor som poslal e-mailom.", en: "I sent the file by e-mail." },
+        { id: "listen-subor-som-poslal", type: "listen", sk: "Súbor som poslal e-mailom.", en: "I sent the file by e-mail." },
         {
+          id: "build-emma-a-lucia",
           type: "build",
           prompt: "Emma and Lucia are looking forward to the conference.",
           promptLang: "en",
@@ -893,6 +976,7 @@ export const unit9: Unit = {
           ],
         },
         {
+          id: "fill-na-prestavke-si",
           type: "fill",
           before: "Na prestávke",
           after: "Tomáš dal kávu.",
@@ -900,9 +984,9 @@ export const unit9: Unit = {
           answer: 0,
           en: "Tomáš had a coffee during the break.",
           why: "Having a coffee is **dať si** kávu. With Tomáš (on) there's no som or sme, so **si** comes second on its own.",
-          ref: "u9-l4#1",
+          ref: "u9-l4#grammar-sa-si-past",
         },
-        { type: "speak", sk: "Stretneme sa na prestávke.", en: "We'll meet during the break." },
+        { id: "speak-stretneme-sa-na", type: "speak", sk: "Stretneme sa na prestávke.", en: "We'll meet during the break." },
       ],
     },
   ],

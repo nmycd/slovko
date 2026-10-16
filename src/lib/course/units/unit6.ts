@@ -23,18 +23,21 @@ export const unit6: Unit = {
       titleEn: "The menu",
       exercises: [
         {
+          id: "jedalny-listok",
           type: "intro",
           sk: "jedálny lístok",
           en: "menu",
           note: "Ask for it politely: Jedálny lístok, prosím.",
         },
         {
+          id: "polievka",
           type: "intro",
           sk: "polievka",
           en: "soup",
           note: "A Slovak lunch nearly always starts with a hot soup.",
         },
         {
+          id: "choice-polievka",
           type: "choice",
           question: "What does this mean?",
           sk: "polievka",
@@ -43,24 +46,28 @@ export const unit6: Unit = {
           answer: 0,
         },
         {
+          id: "hlavne-jedlo",
           type: "intro",
           sk: "hlavné jedlo",
           en: "main course",
           note: "**jedlo** = food, a dish; **hlavné** = main.",
         },
         {
+          id: "kuracie-maso",
           type: "intro",
           sk: "kuracie mäso",
           en: "chicken (meat)",
           note: "Menus name meat after the animal: kuracie mäso = chicken, bravčové mäso = pork.",
         },
         {
+          id: "ryba",
           type: "intro",
           sk: "ryba",
           en: "fish",
           note: "**veľmi** = very: Ryba je veľmi dobrá. = The fish is very good.",
         },
         {
+          id: "match-jedalny-listok",
           type: "match",
           pairs: [
             { sk: "jedálny lístok", en: "menu" },
@@ -71,18 +78,21 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "ryza",
           type: "intro",
           sk: "ryža",
           en: "rice",
           note: "A typical side dish (príloha) with chicken or fish.",
         },
         {
+          id: "hranolky",
           type: "intro",
           sk: "hranolky",
           en: "chips / French fries",
           note: "Always plural, like English “chips”: Hranolky **sú** dobré.",
         },
         {
+          id: "choice-hranolky",
           type: "choice",
           question: "Which one is a side dish?",
           options: ["hranolky", "polievka", "jedálny lístok"],
@@ -90,6 +100,7 @@ export const unit6: Unit = {
           answer: 0,
         },
         {
+          id: "fill-jedalny-listok-prosim",
           type: "fill",
           before: "Jedálny",
           after: ", prosím.",
@@ -98,8 +109,9 @@ export const unit6: Unit = {
           en: "The menu, please.",
           why: "The menu is **jedálny lístok**. Jedálny has the masculine ending (short, like čierny), so it needs a masculine noun; jedlo and mäso are neuter.",
         },
-        { type: "listen", sk: "Marek varí polievku.", en: "Marek is cooking soup." },
+        { id: "listen-marek-vari-polievku", type: "listen", sk: "Marek varí polievku.", en: "Marek is cooking soup." },
         {
+          id: "build-ryba-je-velmi",
           type: "build",
           prompt: "The fish is very good.",
           promptLang: "en",
@@ -111,6 +123,7 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "fill-hranolky-su-dobre",
           type: "fill",
           before: "Hranolky",
           after: "dobré.",
@@ -118,9 +131,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "The chips are good.",
           why: "**Hranolky** is always plural, like English “chips”, so the verb is **sú** (they are). Je is for one thing.",
-          ref: "u4-l6#8",
+          ref: "u4-l6#grammar-always-plural",
         },
         {
+          id: "build-kuracie-maso-a",
           type: "build",
           prompt: "Kuracie mäso a ryža.",
           promptLang: "sk",
@@ -128,6 +142,7 @@ export const unit6: Unit = {
           distractors: ["fish", "soup"],
         },
         {
+          id: "build-je-polievka-dobra",
           type: "build",
           prompt: "Is the soup good?",
           promptLang: "en",
@@ -139,13 +154,14 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "choice-hlavne-jedlo",
           type: "choice",
           question: "How do you say “main course”?",
           options: ["hlavné jedlo", "jedálny lístok", "kuracie mäso"],
           optionsLang: "sk",
           answer: 0,
         },
-        { type: "speak", sk: "Jedálny lístok, prosím.", en: "The menu, please." },
+        { id: "speak-jedalny-listok-prosim", type: "speak", sk: "Jedálny lístok, prosím.", en: "The menu, please." },
       ],
     },
     {
@@ -154,18 +170,21 @@ export const unit6: Unit = {
       titleEn: "Ordering food",
       exercises: [
         {
+          id: "co-si-date",
           type: "intro",
           sk: "Čo si dáte?",
           en: "What will you have?",
           note: "The waiter's question (formal). You may also hear: Čo si prajete?",
         },
         {
+          id: "dam-si-polievku",
           type: "intro",
           sk: "Dám si polievku.",
           en: "I'll have the soup.",
           note: "After **dám si** use the accusative: polievka → polievk**u**, ryba → ryb**u**.",
         },
         {
+          id: "choice-co-si-date",
           type: "choice",
           question: "A waiter says this. What does he want to know?",
           sk: "Čo si dáte?",
@@ -175,6 +194,7 @@ export const unit6: Unit = {
           why: "**Čo** is what, and **dať si** is to have (food or a drink): Čo si dáte? is the waiter's polite “What will you have?”",
         },
         {
+          id: "fill-dam-si-rybu",
           type: "fill",
           before: "Dám si",
           after: "a hranolky.",
@@ -182,15 +202,17 @@ export const unit6: Unit = {
           answer: 0,
           en: "I'll have the fish and chips.",
           why: "The fish is what you'll have, the object, so ryba changes -a to **-u**: dám si **rybu**. Ryby is the plural.",
-          ref: "u5-l2#0",
+          ref: "u5-l2#grammar-accusative-object-case",
         },
         {
+          id: "a-na-pitie",
           type: "intro",
           sk: "A na pitie?",
           en: "And to drink?",
           note: "Answer the same way: Dám si minerálku. Or: Prosím si minerálku.",
         },
         {
+          id: "build-dam-si-kavu",
           type: "build",
           prompt: "I'll have a coffee.",
           promptLang: "en",
@@ -202,34 +224,39 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "chuti-ti",
           type: "intro",
           sk: "Chutí ti?",
           en: "Do you like it? (food)",
           note: "Answer: Chutí mi. (I like it.) or Nechutí mi. (I don't like it.) Formal: Chutí vám?",
         },
         {
+          id: "choice-chuti-mi",
           type: "choice",
           question: "Your soup is delicious. Lucia asks “Chutí ti?”. What do you say?",
           options: ["Chutí mi.", "Nechutí mi.", "A na pitie?"],
           optionsLang: "sk",
           answer: 0,
           why: "The soup is delicious, so answer yes. **Ne-** makes a verb negative: nechutí mi means “I don't like it”.",
-          ref: "u2-l5#0",
+          ref: "u2-l5#grammar-not-ne-verb",
         },
         {
+          id: "horuci",
           type: "intro",
           sk: "horúci",
           en: "hot",
           note: "It agrees like other adjectives, but with short endings: horúc**i** čaj, horúc**a** polievka, horúc**e** jedlo.",
         },
         {
+          id: "sladky",
           type: "intro",
           sk: "sladký",
           en: "sweet",
           note: "Torta je sladk**á**.",
         },
-        { type: "intro", sk: "slaný", en: "salty" },
+        { id: "slany", type: "intro", sk: "slaný", en: "salty" },
         {
+          id: "match-co-si",
           type: "match",
           pairs: [
             { sk: "Čo si dáte?", en: "What will you have?" },
@@ -240,6 +267,7 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "fill-polievka-je-horuca",
           type: "fill",
           before: "Polievka je",
           after: ".",
@@ -247,9 +275,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "The soup is hot.",
           why: "Polievka is feminine, so horúci takes its short feminine ending **-a**: horúc**a**. Horúci is for masculine words (čaj), horúce for neuter (jedlo).",
-          ref: "u3-l2#2",
+          ref: "u3-l2#grammar-one-adjective-three",
         },
         {
+          id: "fill-torta-je-velmi",
           type: "fill",
           before: "Torta je veľmi",
           after: ".",
@@ -257,9 +286,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "The cake is very sweet.",
           why: "Torta is feminine, so the adjective ends in **-á**: sladk**á**. Sladký is masculine, sladké neuter.",
-          ref: "u3-l2#2",
+          ref: "u3-l2#grammar-one-adjective-three",
         },
         {
+          id: "build-dame-si-polievku",
           type: "build",
           prompt: "We'll have soup and fish.",
           promptLang: "en",
@@ -270,15 +300,16 @@ export const unit6: Unit = {
             { wrong: "dám", right: "Dáme", why: "“We” is **my**, so dať takes the my ending **-me**: **dáme** si. Dám is the ja form." },
           ],
         },
-        { type: "listen", sk: "Čaj je horúci.", en: "The tea is hot." },
+        { id: "listen-caj-je-horuci", type: "listen", sk: "Čaj je horúci.", en: "The tea is hot." },
         {
+          id: "build-chuti-ti-polievka",
           type: "build",
           prompt: "Chutí ti polievka?",
           promptLang: "sk",
           answers: ["Do you like the soup?"],
           distractors: ["fish", "where"],
         },
-        { type: "speak", sk: "A na pitie?", en: "And to drink?" },
+        { id: "speak-a-na-pitie", type: "speak", sk: "A na pitie?", en: "And to drink?" },
       ],
     },
     {
@@ -288,6 +319,7 @@ export const unit6: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-s-instrumental",
           type: "grammar",
           title: "S (with) + the instrumental",
           body: [
@@ -312,15 +344,17 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "choice-caj-s-citronom",
           type: "choice",
           question: "How do you say “tea with lemon”?",
           options: ["čaj s citrónom", "čaj s citrón", "čaj s citrónu"],
           optionsLang: "sk",
           answer: 0,
           why: "After **s** (with), masculine nouns take the instrumental ending **-om**: citrón → citrón**om**.",
-          ref: "u6-l3#0",
+          ref: "u6-l3#grammar-s-instrumental",
         },
         {
+          id: "fill-kava-s-mliekom",
           type: "fill",
           before: "Káva s",
           after: ", prosím.",
@@ -328,9 +362,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "Coffee with milk, please.",
           why: "After **s** (with), neuter nouns change -o to **-om**: mlieko → mliek**om**.",
-          ref: "u6-l3#0",
+          ref: "u6-l3#grammar-s-instrumental",
         },
         {
+          id: "fill-dam-si-rybu",
           type: "fill",
           before: "Dám si rybu s",
           after: ".",
@@ -338,9 +373,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "I'll have fish with rice.",
           why: "After **s**, feminine nouns change -a to **-ou**: ryž**ou**. Ryžu is the object form: it goes after dám si, like rybu, not after s.",
-          ref: "u6-l3#0",
+          ref: "u6-l3#grammar-s-instrumental",
         },
         {
+          id: "build-chlieb-so-syrom",
           type: "build",
           prompt: "Bread with cheese.",
           promptLang: "en",
@@ -352,15 +388,17 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "choice-syrom",
           type: "choice",
           question: "Which word needs “so” instead of “s”?",
           options: ["syrom", "mliekom", "ryžou"],
           optionsLang: "sk",
           answer: 0,
           why: "**S** becomes **so** before a word starting with s, z, š or ž, as syrom does. Mliekom and ryžou take plain s.",
-          ref: "u6-l3#0",
+          ref: "u6-l3#grammar-s-instrumental",
         },
         {
+          id: "fill-lucia-hovori-s",
           type: "fill",
           before: "Lucia hovorí s",
           after: ".",
@@ -368,10 +406,11 @@ export const unit6: Unit = {
           answer: 0,
           en: "Lucia is talking to Tomáš.",
           why: "After **s**, masculine nouns add **-om**, names too: Tomáš**om**. Tomáša is the object form, as in Hľadám Tomáša.",
-          ref: "u6-l3#0",
+          ref: "u6-l3#grammar-s-instrumental",
         },
-        { type: "listen", sk: "Tomáš je s Marekom.", en: "Tomáš is with Marek." },
+        { id: "listen-tomas-je-s", type: "listen", sk: "Tomáš je s Marekom.", en: "Tomáš is with Marek." },
         {
+          id: "grammar-adjectives-after-s",
           type: "grammar",
           title: "Adjectives after s",
           body: [
@@ -391,6 +430,7 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "fill-lucia-je-s",
           type: "fill",
           before: "Lucia je s",
           after: "kamarátkou.",
@@ -398,9 +438,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "Lucia is with a good friend.",
           why: "After s, a feminine adjective takes **-ou**, the same ending as kamarátk**ou**: dobr**ou**. Dobrým is for masculine and neuter nouns.",
-          ref: "u6-l3#8",
+          ref: "u6-l3#grammar-adjectives-after-s",
         },
         {
+          id: "fill-tomas-hovori-s",
           type: "fill",
           before: "Tomáš hovorí s",
           after: "kamarátom.",
@@ -408,9 +449,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "Tomáš is talking to a new friend.",
           why: "Kamarát is masculine, so after s its adjective ends in **-ým**: nov**ým**. Novou is the feminine form, for kamarátkou.",
-          ref: "u6-l3#8",
+          ref: "u6-l3#grammar-adjectives-after-s",
         },
         {
+          id: "build-dam-si-caj",
           type: "build",
           prompt: "I'll have tea with cold milk.",
           promptLang: "en",
@@ -423,22 +465,24 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "choice-s-marekom",
           type: "choice",
           question: "How do you say “with Marek”?",
           options: ["s Marekom", "s Marek", "s Mareka"],
           optionsLang: "sk",
           answer: 0,
           why: "After **s**, masculine names add **-om**: Marek → Marek**om**. Mareka is the object form, as in Hľadám Mareka.",
-          ref: "u6-l3#0",
+          ref: "u6-l3#grammar-s-instrumental",
         },
         {
+          id: "build-emma-byva-s",
           type: "build",
           prompt: "Emma býva s Luciou.",
           promptLang: "sk",
           answers: ["Emma lives with Lucia."],
           distractors: ["works", "Marek"],
         },
-        { type: "speak", sk: "Káva s mliekom, prosím.", en: "Coffee with milk, please." },
+        { id: "speak-kava-s-mliekom", type: "speak", sk: "Káva s mliekom, prosím.", en: "Coffee with milk, please." },
       ],
     },
     {
@@ -447,18 +491,21 @@ export const unit6: Unit = {
       titleEn: "Paying and going home",
       exercises: [
         {
+          id: "ucet-prosim",
           type: "intro",
           sk: "Účet, prosím.",
           en: "The bill, please.",
           note: "To say you're paying: Zaplatím. (I'll pay.)",
         },
         {
+          id: "spolu-alebo-osobitne",
           type: "intro",
           sk: "Spolu alebo osobitne?",
           en: "Together or separately?",
           note: "The waiter wants to know how you'll split the bill. Answer: Spolu. or Osobitne.",
         },
         {
+          id: "choice-spolu",
           type: "choice",
           question: "The waiter asks “Spolu alebo osobitne?”. You're paying for everyone. What do you say?",
           options: ["Spolu.", "Osobitne.", "Dobrú chuť!"],
@@ -466,18 +513,21 @@ export const unit6: Unit = {
           answer: 0,
         },
         {
+          id: "ako-ides-domov",
           type: "intro",
           sk: "Ako ideš domov?",
           en: "How are you getting home?",
           note: "**Domov** = home (where you're heading). Formal: Ako idete domov?",
         },
         {
+          id: "idem-autobusom",
           type: "intro",
           sk: "Idem autobusom.",
           en: "I'm going by bus.",
           note: "There's no word for “by”: the vehicle takes the instrumental. autobus → autobus**om**.",
         },
         {
+          id: "choice-idem-autobusom",
           type: "choice",
           question: "How is this person travelling?",
           sk: "Idem autobusom.",
@@ -487,6 +537,7 @@ export const unit6: Unit = {
           why: "**Autobus** is a bus (a car is auto), and the instrumental ending **-om** does the job of English “by”.",
         },
         {
+          id: "grammar-how-you-travel",
           type: "grammar",
           title: "How you travel",
           body: [
@@ -511,6 +562,7 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "fill-tomas-cestuje-domov",
           type: "fill",
           before: "Tomáš cestuje domov",
           after: ".",
@@ -518,18 +570,20 @@ export const unit6: Unit = {
           answer: 0,
           en: "Tomáš is travelling home by train.",
           why: "How you travel takes the instrumental, with no s: masculine vlak adds **-om**, vlak**om**.",
-          ref: "u6-l4#6",
+          ref: "u6-l4#grammar-how-you-travel",
         },
         {
+          id: "choice-lietadlom",
           type: "choice",
           question: "How do you say “by plane”?",
           options: ["lietadlom", "s lietadlom", "lietadlo"],
           optionsLang: "sk",
           answer: 0,
           why: "For how you travel, the vehicle takes the instrumental without s: lietadl**om**. S lietadlom would mean “with a plane”.",
-          ref: "u6-l4#6",
+          ref: "u6-l4#grammar-how-you-travel",
         },
         {
+          id: "fill-lucia-ide-domov",
           type: "fill",
           before: "Lucia ide domov",
           after: ".",
@@ -537,15 +591,17 @@ export const unit6: Unit = {
           answer: 0,
           en: "Lucia is going home by tram.",
           why: "Električka is feminine, so for how you travel it changes -a to **-ou**: električk**ou**. Električku is the object form.",
-          ref: "u6-l4#6",
+          ref: "u6-l4#grammar-how-you-travel",
         },
         {
+          id: "peso",
           type: "intro",
           sk: "pešo",
           en: "on foot",
           note: "Idem pešo. = I'm walking. By bike is different too: **na bicykli**.",
         },
         {
+          id: "match-autobusom",
           type: "match",
           pairs: [
             { sk: "autobusom", en: "by bus" },
@@ -556,6 +612,7 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "build-ideme-domov-taxikom",
           type: "build",
           prompt: "We're going home by taxi.",
           promptLang: "en",
@@ -566,14 +623,16 @@ export const unit6: Unit = {
             { wrong: "idem", right: "Ideme", why: "“We” is **my**, so ísť takes the my form **ideme**. Idem is for ja." },
           ],
         },
-        { type: "listen", sk: "Idem domov pešo.", en: "I'm walking home." },
+        { id: "listen-idem-domov-peso", type: "listen", sk: "Idem domov pešo.", en: "I'm walking home." },
         {
+          id: "cestujem-s-kamaratmi",
           type: "intro",
           sk: "Cestujem s kamarátmi.",
           en: "I travel with friends.",
           note: "In the plural, the noun after s ends in **-mi** or **-ami**: s kamarát**mi**, s kamarátk**ami**.",
         },
         {
+          id: "build-emma-cestuje-s",
           type: "build",
           prompt: "Emma cestuje s kamarátkami.",
           promptLang: "sk",
@@ -581,6 +640,7 @@ export const unit6: Unit = {
           distractors: ["by", "train"],
         },
         {
+          id: "fill-lucia-ide-domov-2",
           type: "fill",
           before: "Lucia ide domov s",
           after: ".",
@@ -589,7 +649,7 @@ export const unit6: Unit = {
           en: "Lucia is going home with her friends.",
           why: "Her friends are more than one, and after **s** plural nouns end in **-mi** or **-ami**: kamarátky → kamarátk**ami**.",
         },
-        { type: "speak", sk: "Účet, prosím.", en: "The bill, please." },
+        { id: "speak-ucet-prosim", type: "speak", sk: "Účet, prosím.", en: "The bill, please." },
       ],
     },
     {
@@ -599,6 +659,7 @@ export const unit6: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-me-you",
           type: "grammar",
           title: "With me, with you",
           body: [
@@ -626,6 +687,7 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "choice-ides-so-mnou",
           type: "choice",
           question: "What does this mean?",
           sk: "Ideš so mnou?",
@@ -633,9 +695,10 @@ export const unit6: Unit = {
           optionsLang: "en",
           answer: 0,
           why: "**So mnou** is with me (with us would be s nami), and ideš is the ty form: are you coming?",
-          ref: "u6-l5#0",
+          ref: "u6-l5#grammar-me-you",
         },
         {
+          id: "fill-tomas-je-tu",
           type: "fill",
           before: "Tomáš je tu. Lucia hovorí s",
           after: ".",
@@ -643,9 +706,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "Tomáš is here. Lucia is talking to him.",
           why: "Tomáš is on (he), and after s, on becomes **ním**. Ňou is for ona; ho is the object form, as in Mám ho rád.",
-          ref: "u6-l5#0",
+          ref: "u6-l5#grammar-me-you",
         },
         {
+          id: "fill-lucia-je-moja",
           type: "fill",
           before: "Lucia je moja kamarátka. Bývam s",
           after: ".",
@@ -653,9 +717,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "Lucia is my friend. I live with her.",
           why: "Lucia is ona (she), and after s, ona becomes **ňou**. Ním is for on; ju is the object form, as in Mám ju rada.",
-          ref: "u6-l5#0",
+          ref: "u6-l5#grammar-me-you",
         },
         {
+          id: "build-ides-s-nami",
           type: "build",
           prompt: "Are you coming with us, Tomáš?",
           promptLang: "en",
@@ -666,8 +731,9 @@ export const unit6: Unit = {
             { wrong: "idete", right: "Ideš", why: "Tomáš is one friend, so use **ty**: ísť takes the ty form **ideš**. Idete is for vy." },
           ],
         },
-        { type: "listen", sk: "Chceš ísť so mnou?", en: "Do you want to go with me?" },
+        { id: "listen-chces-ist-so", type: "listen", sk: "Chceš ísť so mnou?", en: "Do you want to go with me?" },
         {
+          id: "grammar-where-pred-za",
           type: "grammar",
           title: "Where? pred, za, nad, pod, medzi",
           body: [
@@ -691,6 +757,7 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "match-pred",
           type: "match",
           pairs: [
             { sk: "pred", en: "in front of" },
@@ -701,6 +768,7 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "fill-tomas-caka-pred",
           type: "fill",
           before: "Tomáš čaká pred",
           after: ".",
@@ -708,9 +776,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "Tomáš is waiting in front of the university.",
           why: "**Pred** (in front of) takes the instrumental, so feminine univerzita changes -a to **-ou**. Univerzitu is the object form.",
-          ref: "u6-l5#6",
+          ref: "u6-l5#grammar-where-pred-za",
         },
         {
+          id: "fill-kaviaren-je-medzi",
           type: "fill",
           before: "Kaviareň je medzi bankou a",
           after: ".",
@@ -718,9 +787,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "The café is between the bank and the post office.",
           why: "**Medzi** (between) takes the instrumental for both places: bank**ou** a pošt**ou**.",
-          ref: "u6-l5#6",
+          ref: "u6-l5#grammar-where-pred-za",
         },
         {
+          id: "build-macka-je-pod",
           type: "build",
           prompt: "The cat is under the bed.",
           promptLang: "en",
@@ -732,6 +802,7 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "fill-lampa-je-nad",
           type: "fill",
           before: "Lampa je nad",
           after: ".",
@@ -739,9 +810,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "The lamp is above the table.",
           why: "**Nad** (above) takes the instrumental: stôl adds **-om**, and its ô turns into o: **stolom**.",
-          ref: "u6-l5#6",
+          ref: "u6-l5#grammar-where-pred-za",
         },
         {
+          id: "fill-emma-stoji-za",
           type: "fill",
           before: "Emma stojí za",
           after: ".",
@@ -749,17 +821,18 @@ export const unit6: Unit = {
           answer: 0,
           en: "Emma is standing behind you.",
           why: "**Za** (behind) takes the instrumental when it says where, and ty becomes **tebou**, as in s tebou. Teba is the form after pre: pre teba.",
-          ref: "u6-l5#6",
+          ref: "u6-l5#grammar-where-pred-za",
         },
-        { type: "listen", sk: "Marek čaká za reštauráciou.", en: "Marek is waiting behind the restaurant." },
+        { id: "listen-marek-caka-za", type: "listen", sk: "Marek čaká za reštauráciou.", en: "Marek is waiting behind the restaurant." },
         {
+          id: "build-pan-kovac-stoji",
           type: "build",
           prompt: "Pán Kováč stojí pred internátom.",
           promptLang: "sk",
           answers: ["Mr Kováč is standing in front of the dorm."],
           distractors: ["behind", "under"],
         },
-        { type: "speak", sk: "Ideš so mnou?", en: "Are you coming with me?" },
+        { id: "speak-ides-so-mnou", type: "speak", sk: "Ideš so mnou?", en: "Are you coming with me?" },
       ],
     },
     {
@@ -769,6 +842,7 @@ export const unit6: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-pozvat-pit-niest",
           type: "grammar",
           title: "Pozvať, piť, niesť",
           body: [
@@ -795,6 +869,7 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "choice-pijem-kavu",
           type: "choice",
           question: "What does this mean?",
           sk: "Pijem kávu.",
@@ -803,6 +878,7 @@ export const unit6: Unit = {
           answer: 0,
         },
         {
+          id: "grammar-jest-stat-sa",
           type: "grammar",
           title: "Jesť and stať sa",
           body: [
@@ -826,6 +902,7 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "fill-co-pijes-emma",
           type: "fill",
           before: "Čo",
           after: ", Emma? — Pijem čaj.",
@@ -833,9 +910,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "What are you drinking, Emma? — I'm drinking tea.",
           why: "The question is to Emma (ty), so the verb ends in **-š**: pij**eš**. Pije goes with on or ona, pijú with oni.",
-          ref: "u6-l6#0",
+          ref: "u6-l6#grammar-pozvat-pit-niest",
         },
         {
+          id: "fill-lucia-a-emma",
           type: "fill",
           before: "Lucia a Emma",
           after: "kávu s mliekom.",
@@ -843,9 +921,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "Lucia and Emma drink coffee with milk.",
           why: "Lucia and Emma are two people (they), so piť takes the oni form, **pijú**. Pije is for one person, pijeme for my (we).",
-          ref: "u6-l6#0",
+          ref: "u6-l6#grammar-pozvat-pit-niest",
         },
         {
+          id: "fill-marek-nesie-polievku",
           type: "fill",
           before: "Marek",
           after: "polievku na stôl.",
@@ -853,9 +932,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "Marek is carrying the soup to the table.",
           why: "Marek is on (he), so niesť takes **nesie**. Nesú goes with oni, nesiem with ja.",
-          ref: "u6-l6#0",
+          ref: "u6-l6#grammar-pozvat-pit-niest",
         },
         {
+          id: "build-pozvem-luciu-na",
           type: "build",
           prompt: "I'll invite Lucia to dinner.",
           promptLang: "en",
@@ -868,20 +948,23 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "dakujem-za-pozvanie",
           type: "intro",
           sk: "Ďakujem za pozvanie.",
           en: "Thanks for the invitation.",
           note: "If they ask “Prídeš?” (Will you come?): Určite. (Definitely.) or Možno. (Maybe.)",
         },
         {
+          id: "choice-dakujem-za-pozvanie",
           type: "choice",
           question: "Tomáš says “Pozvem ťa na večeru.” What's a natural reply?",
           options: ["Ďakujem za pozvanie.", "Účet, prosím.", "Chutí mi."],
           optionsLang: "sk",
           answer: 0,
         },
-        { type: "listen", sk: "Čo ješ, Tomáš?", en: "What are you eating, Tomáš?" },
+        { id: "listen-co-jes-tomas", type: "listen", sk: "Čo ješ, Tomáš?", en: "What are you eating, Tomáš?" },
         {
+          id: "fill-ja-jem-rybu",
           type: "fill",
           before: "Ja",
           after: "rybu a Lucia je kuracie mäso.",
@@ -889,9 +972,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "I'm eating fish and Lucia is eating chicken.",
           why: "**Jesť** is irregular: with ja it's **jem**. Je goes with on or ona (Lucia je kuracie mäso), and also means “is”.",
-          ref: "u6-l6#2",
+          ref: "u6-l6#grammar-jest-stat-sa",
         },
         {
+          id: "fill-emma-a-lucia",
           type: "fill",
           before: "Emma a Lucia",
           after: "rybu s ryžou.",
@@ -899,9 +983,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "Emma and Lucia are eating fish with rice.",
           why: "Emma and Lucia are two people (they), so jesť takes its irregular oni form, **jedia**. Jeme is for my (we), je for one person.",
-          ref: "u6-l6#2",
+          ref: "u6-l6#grammar-jest-stat-sa",
         },
         {
+          id: "fill-lucia-sa-chce",
           type: "fill",
           before: "Lucia sa chce stať",
           after: ".",
@@ -909,9 +994,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "Lucia wants to become a teacher.",
           why: "**Stať sa** (to become) takes the instrumental, so feminine učiteľka changes -a to **-ou**. Učiteľku is the object form.",
-          ref: "u6-l6#2",
+          ref: "u6-l6#grammar-jest-stat-sa",
         },
         {
+          id: "build-zijeme-v-bratislave",
           type: "build",
           prompt: "We live in Bratislava.",
           promptLang: "en",
@@ -923,6 +1009,7 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "build-tomas-a-marek",
           type: "build",
           prompt: "Tomáš a Marek pijú pivo.",
           promptLang: "sk",
@@ -930,6 +1017,7 @@ export const unit6: Unit = {
           distractors: ["wine", "eating"],
         },
         {
+          id: "fill-chcem-sa-stat",
           type: "fill",
           before: "Chcem sa",
           after: "kuchárom.",
@@ -937,10 +1025,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "I want to become a cook.",
           why: "After **chcieť**, the next verb is an infinitive, the -ť form: chcem sa **stať**. Stanem already means “I'll become”.",
-          ref: "u5-l5#2",
+          ref: "u5-l5#grammar-want-can-must",
         },
-        { type: "listen", sk: "Pozvem ťa na kávu.", en: "I'll buy you a coffee." },
-        { type: "speak", sk: "Pozvem ťa na večeru.", en: "I'll invite you to dinner." },
+        { id: "listen-pozvem-ta-na", type: "listen", sk: "Pozvem ťa na kávu.", en: "I'll buy you a coffee." },
+        { id: "speak-pozvem-ta-na", type: "speak", sk: "Pozvem ťa na večeru.", en: "I'll invite you to dinner." },
       ],
     },
     {
@@ -950,6 +1038,7 @@ export const unit6: Unit = {
       kind: "review",
       exercises: [
         {
+          id: "choice-polievka-je-velmi",
           type: "choice",
           question: "What's wrong with the soup?",
           sk: "Polievka je veľmi slaná.",
@@ -958,6 +1047,7 @@ export const unit6: Unit = {
           answer: 0,
         },
         {
+          id: "build-dam-si-polievku",
           type: "build",
           prompt: "I'll have the soup and fish with rice.",
           promptLang: "en",
@@ -970,6 +1060,7 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "fill-a-na-pitie",
           type: "fill",
           before: "A na",
           after: "? — Minerálku, prosím.",
@@ -979,6 +1070,7 @@ export const unit6: Unit = {
           why: "The answer is a drink, so the question asks about drinking: **pitie** comes from piť (to drink). Jedlo is food, účet the bill.",
         },
         {
+          id: "match-s-mliekom",
           type: "match",
           pairs: [
             { sk: "s mliekom", en: "with milk" },
@@ -987,8 +1079,9 @@ export const unit6: Unit = {
             { sk: "s ryžou", en: "with rice" },
           ],
         },
-        { type: "listen", sk: "Chutí ti ryba?", en: "Do you like the fish?" },
+        { id: "listen-chuti-ti-ryba", type: "listen", sk: "Chutí ti ryba?", en: "Do you like the fish?" },
         {
+          id: "fill-marek-stoji-za",
           type: "fill",
           before: "Marek stojí za",
           after: ".",
@@ -996,9 +1089,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "Marek is standing behind Tomáš.",
           why: "**Za** (behind) takes the instrumental when it says where, so Tomáš adds **-om**. Tomáša is the object form.",
-          ref: "u6-l5#6",
+          ref: "u6-l5#grammar-where-pred-za",
         },
         {
+          id: "build-ides-so-mnou",
           type: "build",
           prompt: "Ideš so mnou domov?",
           promptLang: "sk",
@@ -1006,6 +1100,7 @@ export const unit6: Unit = {
           distractors: ["us", "by"],
         },
         {
+          id: "fill-tomas-ide-domov",
           type: "fill",
           before: "Tomáš ide domov",
           after: ".",
@@ -1013,9 +1108,10 @@ export const unit6: Unit = {
           answer: 0,
           en: "Tomáš is going home by taxi.",
           why: "For how you travel, the vehicle takes the instrumental without s: taxík**om**. S taxíkom would mean “with a taxi”.",
-          ref: "u6-l4#6",
+          ref: "u6-l4#grammar-how-you-travel",
         },
         {
+          id: "choice-ucet-prosim",
           type: "choice",
           question: "How do you ask for the bill?",
           options: ["Účet, prosím.", "Dobrú chuť!", "A na pitie?"],
@@ -1023,6 +1119,7 @@ export const unit6: Unit = {
           answer: 0,
         },
         {
+          id: "build-ideme-domov-elektrickou",
           type: "build",
           prompt: "We're going home by tram.",
           promptLang: "en",
@@ -1033,6 +1130,7 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "fill-lucia-ja-ta",
           type: "fill",
           before: "Lucia, ja ťa",
           after: "na večeru.",
@@ -1040,10 +1138,11 @@ export const unit6: Unit = {
           answer: 0,
           en: "Lucia, I'll take you out to dinner.",
           why: "With **ja**, pozvať ends in **-em**: pozv**em** (I'll invite). Pozve goes with on or ona, pozveme with my (we).",
-          ref: "u6-l6#0",
+          ref: "u6-l6#grammar-pozvat-pit-niest",
         },
-        { type: "listen", sk: "Tomáš pije pivo s Marekom.", en: "Tomáš is drinking beer with Marek." },
+        { id: "listen-tomas-pije-pivo", type: "listen", sk: "Tomáš pije pivo s Marekom.", en: "Tomáš is drinking beer with Marek." },
         {
+          id: "build-lucia-sa-chce",
           type: "build",
           prompt: "Lucia wants to become a teacher.",
           promptLang: "en",
@@ -1055,15 +1154,17 @@ export const unit6: Unit = {
           ],
         },
         {
+          id: "choice-macka-je-pod",
           type: "choice",
           question: "How do you say “The cat is under the table”?",
           options: ["Mačka je pod stolom.", "Mačka je nad stolom.", "Mačka je pod stôl."],
           optionsLang: "sk",
           answer: 0,
           why: "**Pod** means under (nad is above). Saying where something is, it takes the instrumental: stôl → **stolom**.",
-          ref: "u6-l5#6",
+          ref: "u6-l5#grammar-where-pred-za",
         },
         {
+          id: "fill-ako-idete-domov",
           type: "fill",
           before: "Ako",
           after: "domov, pani Horváthová?",
@@ -1071,9 +1172,9 @@ export const unit6: Unit = {
           answer: 0,
           en: "How are you getting home, Mrs Horváthová?",
           why: "Pani Horváthová is a teacher, so use polite **vy**: id**ete**. Ideš is for a friend (ty), idú for oni.",
-          ref: "u1-l4#0",
+          ref: "u1-l4#grammar-two-ways-say",
         },
-        { type: "speak", sk: "Dám si kávu s mliekom.", en: "I'll have coffee with milk." },
+        { id: "speak-dam-si-kavu", type: "speak", sk: "Dám si kávu s mliekom.", en: "I'll have coffee with milk." },
       ],
     },
   ],

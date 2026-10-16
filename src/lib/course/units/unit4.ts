@@ -23,13 +23,15 @@ export const unit4: Unit = {
       titleEn: "The town",
       exercises: [
         {
+          id: "mesto",
           type: "intro",
           sk: "mesto",
           en: "town, city",
           note: "Neuter: to mesto. The capital is **hlavné mesto**; Bratislava's historic centre is **Staré Mesto** (the Old Town).",
         },
-        { type: "intro", sk: "dedina", en: "village" },
+        { id: "dedina", type: "intro", sk: "dedina", en: "village" },
         {
+          id: "choice-dedina",
           type: "choice",
           question: "What does this mean?",
           sk: "dedina",
@@ -38,13 +40,15 @@ export const unit4: Unit = {
           answer: 0,
         },
         {
+          id: "namestie",
           type: "intro",
           sk: "námestie",
           en: "square",
           note: "Neuter, like mesto: to námestie.",
         },
-        { type: "intro", sk: "kostol", en: "church" },
+        { id: "kostol", type: "intro", sk: "kostol", en: "church" },
         {
+          id: "match-mesto",
           type: "match",
           pairs: [
             { sk: "mesto", en: "town" },
@@ -54,12 +58,14 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "hrad-je-stary",
           type: "intro",
           sk: "Hrad je starý.",
           en: "The castle is old.",
           note: "After **je**, the adjective still matches the noun: hrad je star**ý**, dedina je star**á**, mesto je star**é**.",
         },
         {
+          id: "fill-bratislava-je-hlavne",
           type: "fill",
           before: "Bratislava je hlavné",
           after: "Slovenska.",
@@ -68,23 +74,26 @@ export const unit4: Unit = {
           en: "Bratislava is the capital of Slovakia.",
           why: "The capital is the set phrase **hlavné mesto**. Hlavné has the neuter ending -é, which already rules out dedina, a feminine word.",
         },
-        { type: "intro", sk: "most", en: "bridge" },
+        { id: "most", type: "intro", sk: "most", en: "bridge" },
         {
+          id: "choice-most-je-novy",
           type: "choice",
           question: "How do you say “The bridge is new”?",
           options: ["Most je nový.", "Most je nová.", "Most je nové."],
           optionsLang: "sk",
           answer: 0,
           why: "Most ends in a consonant, so it's masculine and the adjective takes **-ý**, after je too. Nová is for feminine words, nové for neuter ones.",
-          ref: "u3-l2#2",
+          ref: "u3-l2#grammar-one-adjective-three",
         },
         {
+          id: "rieka",
           type: "intro",
           sk: "rieka",
           en: "river",
           note: "Bratislava's river is the **Dunaj** (the Danube). **dlhý** = long: dlh**á** rieka.",
         },
         {
+          id: "fill-dunaj-je-dlhy",
           type: "fill",
           before: "Dunaj je",
           after: ".",
@@ -92,10 +101,11 @@ export const unit4: Unit = {
           answer: 1,
           en: "The Danube is long.",
           why: "Dunaj ends in a consonant, so it's masculine and takes **-ý**: dlh**ý**. Dlhá goes with rieka, which is feminine, but here the subject is Dunaj.",
-          ref: "u3-l2#2",
+          ref: "u3-l2#grammar-one-adjective-three",
         },
-        { type: "listen", sk: "Lucia, kde je hrad?", en: "Lucia, where's the castle?" },
+        { id: "listen-lucia-kde-je", type: "listen", sk: "Lucia, kde je hrad?", en: "Lucia, where's the castle?" },
         {
+          id: "build-mesto-je-male",
           type: "build",
           prompt: "The town is small and pretty.",
           promptLang: "en",
@@ -107,12 +117,14 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "vysoky",
           type: "intro",
           sk: "vysoký",
           en: "tall, high",
           note: "Like nový: vysok**ý** hrad, vysok**á** lampa, vysok**é** okno.",
         },
         {
+          id: "choice-kostol-je-vysoky",
           type: "choice",
           question: "Lucia says this. What is tall?",
           sk: "Kostol je vysoký.",
@@ -121,13 +133,14 @@ export const unit4: Unit = {
           answer: 0,
         },
         {
+          id: "build-hrad-je-stary",
           type: "build",
           prompt: "Hrad je starý a kostol je nový.",
           promptLang: "sk",
           answers: ["The castle is old and the church is new.", "The castle is old and the church new."],
           distractors: ["bridge", "young"],
         },
-        { type: "speak", sk: "To je Staré Mesto.", en: "That's the Old Town." },
+        { id: "speak-to-je-stare", type: "speak", sk: "To je Staré Mesto.", en: "That's the Old Town." },
       ],
     },
     {
@@ -136,33 +149,38 @@ export const unit4: Unit = {
       titleEn: "Where's the post office?",
       exercises: [
         {
+          id: "prepacte-kde-je",
           type: "intro",
           sk: "Prepáčte, kde je pošta?",
           en: "Excuse me, where's the post office?",
           note: "**Kde je…?** works for any place: Kde je **banka** (the bank)? Kde je **hotel**?",
         },
         {
+          id: "kaviaren",
           type: "intro",
           sk: "kaviareň",
           en: "café",
           note: "Feminine, even though it ends in a consonant: tá kaviareň. **káva** = coffee.",
         },
         {
+          id: "choice-kaviaren",
           type: "choice",
           question: "Emma wants a coffee. Where does she go?",
           options: ["kaviareň", "pošta", "banka"],
           optionsLang: "sk",
           answer: 0,
         },
-        { type: "intro", sk: "kino", en: "cinema" },
-        { type: "intro", sk: "divadlo", en: "theatre" },
+        { id: "kino", type: "intro", sk: "kino", en: "cinema" },
+        { id: "divadlo", type: "intro", sk: "divadlo", en: "theatre" },
         {
+          id: "muzeum",
           type: "intro",
           sk: "múzeum",
           en: "museum",
           note: "Kino, divadlo and múzeum are all neuter: to kino, to divadlo, to múzeum.",
         },
         {
+          id: "match-posta",
           type: "match",
           pairs: [
             { sk: "pošta", en: "post office" },
@@ -173,6 +191,7 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "fill-prepacte-kde-je",
           type: "fill",
           before: "Prepáčte, kde",
           after: "banka?",
@@ -180,21 +199,24 @@ export const unit4: Unit = {
           answer: 0,
           en: "Excuse me, where's the bank?",
           why: "Banka is one thing (ona), so the verb is **je**: Kde je…? works for any one place. Sú goes with oni, ony, and som with ja.",
-          ref: "u2-l2#0",
+          ref: "u2-l2#grammar-byt-be",
         },
         {
+          id: "dolava-doprava",
           type: "intro",
           sk: "doľava – doprava",
           en: "(to the) left – (to the) right",
           note: "Use these for directions, where to go. For where something is, you know **vľavo – vpravo**: Pošta je vľavo.",
         },
         {
+          id: "chodte-rovno-potom",
           type: "intro",
           sk: "Choďte rovno, potom doprava.",
           en: "Go straight on, then right.",
           note: "**potom** = then. **Choďte** is for vy (strangers); to a friend: **Choď** rovno!",
         },
         {
+          id: "choice-chodte-dolava",
           type: "choice",
           question: "What does pán Kováč tell Emma?",
           sk: "Choďte doľava.",
@@ -203,17 +225,20 @@ export const unit4: Unit = {
           answer: 0,
         },
         {
+          id: "posta-je-oproti",
           type: "intro",
           sk: "Pošta je oproti.",
           en: "The post office is opposite.",
           note: "**oproti** = opposite, across the street.",
         },
         {
+          id: "listen-kino-je-vlavo",
           type: "listen",
           sk: "Kino je vľavo, divadlo je vpravo.",
           en: "The cinema is on the left, the theatre is on the right.",
         },
         {
+          id: "build-prepacte-kde-je",
           type: "build",
           prompt: "Excuse me, where's the museum?",
           promptLang: "en",
@@ -225,6 +250,7 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "fill-ahoj-tomas-chod",
           type: "fill",
           before: "Ahoj, Tomáš!",
           after: "rovno, potom doľava.",
@@ -232,9 +258,10 @@ export const unit4: Unit = {
           answer: 0,
           en: "Hi Tomáš! Go straight on, then left.",
           why: "Ahoj and a first name mean a friend, so use the ty form **Choď**. Choďte is for vy: a stranger or a group.",
-          ref: "u1-l4#6",
+          ref: "u1-l4#grammar-same-phrase-ty",
         },
         {
+          id: "fill-muzeum-je-nove",
           type: "fill",
           before: "Múzeum je",
           after: ".",
@@ -242,16 +269,17 @@ export const unit4: Unit = {
           answer: 0,
           en: "The museum is new.",
           why: "Múzeum is neuter, like kino and divadlo, even though it ends in -um. So the adjective takes **-é**, after je too.",
-          ref: "u3-l2#2",
+          ref: "u3-l2#grammar-one-adjective-three",
         },
         {
+          id: "build-posta-je-oproti",
           type: "build",
           prompt: "Pošta je oproti, banka je vľavo.",
           promptLang: "sk",
           answers: ["The post office is opposite, the bank is on the left."],
           distractors: ["right"],
         },
-        { type: "speak", sk: "Prepáčte, kde je pošta?", en: "Excuse me, where's the post office?" },
+        { id: "speak-prepacte-kde-je", type: "speak", sk: "Prepáčte, kde je pošta?", en: "Excuse me, where's the post office?" },
       ],
     },
     {
@@ -260,22 +288,25 @@ export const unit4: Unit = {
       titleEn: "Jobs",
       exercises: [
         {
+          id: "co-robis-som",
           type: "intro",
           sk: "Čo robíš? — Som kuchár.",
           en: "What do you do? — I'm a cook.",
           note: "Marek, Lucia's brother, is a cook. To someone you call vy: Čo robíte?",
         },
-        { type: "intro", sk: "čašník", en: "waiter" },
+        { id: "casnik", type: "intro", sk: "čašník", en: "waiter" },
         {
+          id: "choice-kuchar",
           type: "choice",
           question: "Who cooks in a restaurant?",
           options: ["kuchár", "čašník", "študent"],
           optionsLang: "sk",
           answer: 0,
         },
-        { type: "intro", sk: "predavač", en: "shop assistant" },
-        { type: "intro", sk: "novinár", en: "journalist" },
+        { id: "predavac", type: "intro", sk: "predavač", en: "shop assistant" },
+        { id: "novinar", type: "intro", sk: "novinár", en: "journalist" },
         {
+          id: "grammar-jobs-he-she",
           type: "grammar",
           title: "Jobs: he and she",
           body: [
@@ -299,6 +330,7 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "fill-ivan-je-casnik",
           type: "fill",
           before: "Ivan je čašník a Mária je",
           after: ".",
@@ -306,21 +338,24 @@ export const unit4: Unit = {
           answer: 0,
           en: "Ivan is a waiter and Mária is a shop assistant.",
           why: "Mária is a woman, so the job takes the feminine **-ka**: predavač → predavač**ka**, like študent → študentka.",
-          ref: "u4-l3#5",
+          ref: "u4-l3#grammar-jobs-he-she",
         },
         {
+          id: "sofer",
           type: "intro",
           sk: "šofér",
           en: "driver",
           note: "A woman driver: šofér**ka**.",
         },
         {
+          id: "dochodca",
           type: "intro",
           sk: "dôchodca",
           en: "pensioner (a retired man)",
           note: "A retired woman is dôchod**kyňa**: many words ending in -ca switch to **-kyňa**.",
         },
         {
+          id: "match-kuchar",
           type: "match",
           pairs: [
             { sk: "kuchár", en: "cook" },
@@ -331,17 +366,20 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "mlady-stary",
           type: "intro",
           sk: "mladý – starý",
           en: "young – old",
           note: "You know **starý** for things; it works for people too: mlad**á** študentka, star**ý** dôchodca.",
         },
         {
+          id: "listen-marek-je-mlady",
           type: "listen",
           sk: "Marek je mladý kuchár.",
           en: "Marek is a young cook.",
         },
         {
+          id: "build-ona-je-novinarka",
           type: "build",
           prompt: "She is a journalist.",
           promptLang: "en",
@@ -353,6 +391,7 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "fill-pan-novak-nepracuje",
           type: "fill",
           before: "Pán Novák nepracuje, je",
           after: ".",
@@ -361,15 +400,17 @@ export const unit4: Unit = {
           en: "Mr Novák doesn't work, he's a pensioner.",
         },
         {
+          id: "choice-co-robite",
           type: "choice",
           question: "How do you ask a stranger what they do?",
           options: ["Čo robíte?", "Čo robíš?", "Kto je to?"],
           optionsLang: "sk",
           answer: 0,
           why: "A stranger gets **vy**, so the verb ends in **-te**: robí**te**. Čo robíš? is for a friend (ty).",
-          ref: "u1-l4#0",
+          ref: "u1-l4#grammar-two-ways-say",
         },
         {
+          id: "build-tomas-je-programator",
           type: "build",
           prompt: "Tomáš je programátor, nie šofér.",
           promptLang: "sk",
@@ -377,11 +418,12 @@ export const unit4: Unit = {
           distractors: ["cook", "waiter"],
         },
         {
+          id: "listen-lucia-nie-je",
           type: "listen",
           sk: "Lucia nie je čašníčka, je študentka.",
           en: "Lucia isn't a waitress, she's a student.",
         },
-        { type: "speak", sk: "Čo robíte?", en: "What do you do? (formal)" },
+        { id: "speak-co-robite", type: "speak", sk: "Čo robíte?", en: "What do you do? (formal)" },
       ],
     },
     {
@@ -391,6 +433,7 @@ export const unit4: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-plural-places-things",
           type: "grammar",
           title: "Plural: places and things",
           body: [
@@ -414,6 +457,7 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "fill-tie-kostoly-su",
           type: "fill",
           before: "Tie",
           after: "sú staré.",
@@ -421,9 +465,10 @@ export const unit4: Unit = {
           answer: 0,
           en: "Those churches are old.",
           why: "Tie and sú show it's more than one, and masculine kostol adds **-y** in the plural: kostol**y**.",
-          ref: "u4-l4#0",
+          ref: "u4-l4#grammar-plural-places-things",
         },
         {
+          id: "fill-dediny-su-male",
           type: "fill",
           before: "Dediny sú",
           after: ".",
@@ -431,9 +476,10 @@ export const unit4: Unit = {
           answer: 0,
           en: "The villages are small.",
           why: "Dediny is plural, and in the plural adjectives for places and things end in **-é**. Malá is the singular: dedina je malá.",
-          ref: "u4-l4#0",
+          ref: "u4-l4#grammar-plural-places-things",
         },
         {
+          id: "build-namestia-su-pekne",
           type: "build",
           prompt: "The squares are pretty.",
           promptLang: "en",
@@ -445,8 +491,9 @@ export const unit4: Unit = {
             { wrong: "Námestie", right: "Námestia", why: "The squares are more than one, and neuter nouns in -ie end in **-ia** in the plural: námesti**a**. Námestie is just one square." },
           ],
         },
-        { type: "listen", sk: "Tie rieky sú dlhé.", en: "Those rivers are long." },
+        { id: "listen-tie-rieky-su", type: "listen", sk: "Tie rieky sú dlhé.", en: "Those rivers are long." },
         {
+          id: "build-kina-a-divadla",
           type: "build",
           prompt: "Kiná a divadlá sú nové.",
           promptLang: "sk",
@@ -454,6 +501,7 @@ export const unit4: Unit = {
           distractors: ["old", "is"],
         },
         {
+          id: "grammar-plural-people",
           type: "grammar",
           title: "Plural: people",
           body: [
@@ -480,6 +528,7 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "fill-marek-a-peter",
           type: "fill",
           before: "Marek a Peter sú",
           after: ".",
@@ -487,9 +536,10 @@ export const unit4: Unit = {
           answer: 0,
           en: "Marek and Peter are cooks.",
           why: "Marek and Peter are two men, so it's the men's plural in **-i**: kuchár**i**. Kuchárky is for women, kuchár for one man.",
-          ref: "u4-l4#6",
+          ref: "u4-l4#grammar-plural-people",
         },
         {
+          id: "fill-ti-casnici-su",
           type: "fill",
           before: "Tí čašníci sú",
           after: ".",
@@ -497,9 +547,10 @@ export const unit4: Unit = {
           answer: 0,
           en: "Those waiters are young.",
           why: "Čašníci are men, and in the plural adjectives for men end in **-í**, just like tí. Mladé is for women and things.",
-          ref: "u4-l4#6",
+          ref: "u4-l4#grammar-plural-people",
         },
         {
+          id: "choice-emma-a-lucia",
           type: "choice",
           question: "How do you say “Emma and Lucia are students”?",
           options: [
@@ -510,9 +561,10 @@ export const unit4: Unit = {
           optionsLang: "sk",
           answer: 0,
           why: "Two women take the women's plural **-y**: študentk**y**, with sú. Študenti would mean men or a mixed group; je študentka is just one.",
-          ref: "u4-l4#6",
+          ref: "u4-l4#grammar-plural-people",
         },
         {
+          id: "build-tomas-a-marek",
           type: "build",
           prompt: "Tomáš and Marek are not journalists.",
           promptLang: "en",
@@ -523,8 +575,9 @@ export const unit4: Unit = {
             { wrong: "je", right: "sú", why: "Tomáš and Marek are two people, oni, so byť is **sú**: nie sú. Je is for one person." },
           ],
         },
-        { type: "listen", sk: "Dôchodcovia nepracujú.", en: "Pensioners don't work." },
+        { id: "listen-dochodcovia-nepracuju", type: "listen", sk: "Dôchodcovia nepracujú.", en: "Pensioners don't work." },
         {
+          id: "fill-lucia-a-tomas",
           type: "fill",
           before: "Lucia a Tomáš sú",
           after: ".",
@@ -532,9 +585,9 @@ export const unit4: Unit = {
           answer: 0,
           en: "Lucia and Tomáš are Slovaks.",
           why: "A mixed group of men and women counts as men, so it takes the men's plural: Slovák → **Slováci**. Slovenky would mean women only.",
-          ref: "u4-l4#6",
+          ref: "u4-l4#grammar-plural-people",
         },
-        { type: "speak", sk: "Tie mosty sú nové.", en: "Those bridges are new." },
+        { id: "speak-tie-mosty-su", type: "speak", sk: "Tie mosty sú nové.", en: "Those bridges are new." },
       ],
     },
     {
@@ -544,6 +597,7 @@ export const unit4: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-two-three-four",
           type: "grammar",
           title: "Two, three, four + plural",
           body: [
@@ -566,6 +620,7 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "fill-mesto-ma-dva",
           type: "fill",
           before: "Mesto má",
           after: "mosty.",
@@ -573,9 +628,10 @@ export const unit4: Unit = {
           answer: 0,
           en: "The town has two bridges.",
           why: "You're counting bridges, and most is masculine, so two is **dva**. Dve is for feminine and neuter words like mesto, but mesto isn't what's counted.",
-          ref: "u4-l5#0",
+          ref: "u4-l5#grammar-two-three-four",
         },
         {
+          id: "fill-tu-su-dve",
           type: "fill",
           before: "Tu sú",
           after: "kaviarne.",
@@ -583,18 +639,20 @@ export const unit4: Unit = {
           answer: 0,
           en: "There are two cafés here.",
           why: "Kaviareň is feminine, even though it ends in a consonant, so two is **dve**. Dva is only for masculine words.",
-          ref: "u4-l5#0",
+          ref: "u4-l5#grammar-two-three-four",
         },
         {
+          id: "choice-dve-mesta",
           type: "choice",
           question: "How do you say “two towns”?",
           options: ["dve mestá", "dva mestá", "dve mesto"],
           optionsLang: "sk",
           answer: 0,
           why: "Mesto is neuter, so two is **dve**, and after 2, 3 and 4 the noun is plural: mest**á**.",
-          ref: "u4-l5#0",
+          ref: "u4-l5#grammar-two-three-four",
         },
         {
+          id: "build-tu-su-styri",
           type: "build",
           prompt: "There are four bridges here.",
           promptLang: "en",
@@ -606,8 +664,9 @@ export const unit4: Unit = {
             { wrong: "je", right: "sú", why: "Four bridges are more than one, so “are” is **sú**, as in Tu sú dva hotely. Je is for one thing." },
           ],
         },
-        { type: "listen", sk: "Mesto má tri kostoly.", en: "The town has three churches." },
+        { id: "listen-mesto-ma-tri", type: "listen", sk: "Mesto má tri kostoly.", en: "The town has three churches." },
         {
+          id: "grammar-counting-men-dvaja",
           type: "grammar",
           title: "Counting men: dvaja, traja, štyria",
           body: [
@@ -628,6 +687,7 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "fill-tam-su-dvaja",
           type: "fill",
           before: "Tam sú",
           after: "čašníci.",
@@ -635,9 +695,10 @@ export const unit4: Unit = {
           answer: 0,
           en: "There are two waiters over there.",
           why: "When you count men, two is **dvaja**, and the noun takes the men's plural: čašníci. Dva is for masculine things, like dva mosty.",
-          ref: "u4-l5#6",
+          ref: "u4-l5#grammar-counting-men-dvaja",
         },
         {
+          id: "fill-lucia-ma-tri",
           type: "fill",
           before: "Lucia má",
           after: "kamarátky.",
@@ -645,18 +706,20 @@ export const unit4: Unit = {
           answer: 0,
           en: "Lucia has three friends.",
           why: "Kamarátky are women, and women keep **tri**. Traja is only for men or a mixed group.",
-          ref: "u4-l5#6",
+          ref: "u4-l5#grammar-counting-men-dvaja",
         },
         {
+          id: "choice-traja-kuchari",
           type: "choice",
           question: "Which one is correct?",
           options: ["traja kuchári", "tri kuchári", "traja kuchárky"],
           optionsLang: "sk",
           answer: 0,
           why: "Counting men takes **traja**, with the men's plural kuchári. Women keep tri: tri kuchárky. So tri kuchári and traja kuchárky both mix the two.",
-          ref: "u4-l5#6",
+          ref: "u4-l5#grammar-counting-men-dvaja",
         },
         {
+          id: "build-dvaja-casnici-a",
           type: "build",
           prompt: "Two waiters and two waitresses.",
           promptLang: "en",
@@ -668,6 +731,7 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "build-mesto-ma-dva",
           type: "build",
           prompt: "Mesto má dva hotely a tri kaviarne.",
           promptLang: "sk",
@@ -675,11 +739,12 @@ export const unit4: Unit = {
           distractors: ["four", "museums"],
         },
         {
+          id: "listen-dvaja-kuchari-a",
           type: "listen",
           sk: "Dvaja kuchári a štyria čašníci.",
           en: "Two cooks and four waiters.",
         },
-        { type: "speak", sk: "Bratislava má dva hrady.", en: "Bratislava has two castles." },
+        { id: "speak-bratislava-ma-dva", type: "speak", sk: "Bratislava má dva hrady.", en: "Bratislava has two castles." },
       ],
     },
     {
@@ -689,6 +754,7 @@ export const unit4: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-stat-cost-stand",
           type: "grammar",
           title: "stáť: to cost, to stand",
           body: [
@@ -712,6 +778,7 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "grammar-prices-euros",
           type: "grammar",
           title: "Prices in euros",
           body: [
@@ -732,6 +799,7 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "fill-kolko-to-stoji",
           type: "fill",
           before: "Koľko to",
           after: "?",
@@ -739,9 +807,10 @@ export const unit4: Unit = {
           answer: 0,
           en: "How much is it?",
           why: "To (it) is one thing, so the verb is **stojí**. Stoja is for two or more things, stojím for ja.",
-          ref: "u4-l6#0",
+          ref: "u4-l6#grammar-stat-cost-stand",
         },
         {
+          id: "fill-mobil-stoji-sto",
           type: "fill",
           before: "Mobil",
           after: "sto eur.",
@@ -749,18 +818,20 @@ export const unit4: Unit = {
           answer: 0,
           en: "The phone costs a hundred euros.",
           why: "The verb agrees with mobil, one thing, not with the euros: mobil **stojí**. Stoja is for two or more things.",
-          ref: "u4-l6#0",
+          ref: "u4-l6#grammar-stat-cost-stand",
         },
         {
+          id: "choice-pat-eur",
           type: "choice",
           question: "How do you say “five euros”?",
           options: ["päť eur", "päť eurá", "päť euro"],
           optionsLang: "sk",
           answer: 0,
           why: "From five up, euro takes the special short form **eur**. Eurá is only for 2, 3 and 4.",
-          ref: "u4-l6#1",
+          ref: "u4-l6#grammar-prices-euros",
         },
         {
+          id: "build-kava-stoji-tri",
           type: "build",
           prompt: "The coffee costs three euros.",
           promptLang: "en",
@@ -772,8 +843,9 @@ export const unit4: Unit = {
             { wrong: "traja", right: "tri", why: "Euros are things, so three is **tri**: tri eurá. Traja is only for counting men." },
           ],
         },
-        { type: "listen", sk: "Tomáš stojí vzadu.", en: "Tomáš is standing at the back." },
+        { id: "listen-tomas-stoji-vzadu", type: "listen", sk: "Tomáš stojí vzadu.", en: "Tomáš is standing at the back." },
         {
+          id: "fill-my-stojime-tu",
           type: "fill",
           before: "My",
           after: "tu.",
@@ -781,9 +853,10 @@ export const unit4: Unit = {
           answer: 0,
           en: "We're standing here.",
           why: "With **my** (we) the verb ends in **-me**: stojí**me**. Stojíte goes with vy, stoja with oni.",
-          ref: "u4-l6#0",
+          ref: "u4-l6#grammar-stat-cost-stand",
         },
         {
+          id: "grammar-always-plural",
           type: "grammar",
           title: "Always plural",
           body: [
@@ -809,6 +882,7 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "match-nohavice",
           type: "match",
           pairs: [
             { sk: "nohavice", en: "trousers" },
@@ -819,6 +893,7 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "fill-tie-nohavice-su",
           type: "fill",
           before: "Tie nohavice",
           after: "drahé.",
@@ -826,9 +901,10 @@ export const unit4: Unit = {
           answer: 0,
           en: "Those trousers are expensive.",
           why: "Nohavice is always plural, even for one pair of trousers, so it takes **sú**. Tie and drahé are plural too.",
-          ref: "u4-l6#8",
+          ref: "u4-l6#grammar-always-plural",
         },
         {
+          id: "fill-okuliare-stoja-desat",
           type: "fill",
           before: "Okuliare",
           after: "desať eur.",
@@ -836,9 +912,10 @@ export const unit4: Unit = {
           answer: 0,
           en: "The glasses cost ten euros.",
           why: "Okuliare is always plural, even for one pair of glasses, so the verb is plural too: **stoja**.",
-          ref: "u4-l6#8",
+          ref: "u4-l6#grammar-always-plural",
         },
         {
+          id: "build-kde-su-moje",
           type: "build",
           prompt: "Where is my watch?",
           promptLang: "en",
@@ -850,8 +927,8 @@ export const unit4: Unit = {
             { wrong: "moja", right: "moje", why: "Words that go with hodinky are plural, since it's always plural: **moje**. Moja is for one feminine thing." },
           ],
         },
-        { type: "listen", sk: "Vianoce sú tu!", en: "Christmas is here!" },
-        { type: "speak", sk: "Koľko to stojí?", en: "How much is it?" },
+        { id: "listen-vianoce-su-tu", type: "listen", sk: "Vianoce sú tu!", en: "Christmas is here!" },
+        { id: "speak-kolko-to-stoji", type: "speak", sk: "Koľko to stojí?", en: "How much is it?" },
       ],
     },
     {
@@ -861,6 +938,7 @@ export const unit4: Unit = {
       kind: "review",
       exercises: [
         {
+          id: "match-namestie",
           type: "match",
           pairs: [
             { sk: "námestie", en: "square" },
@@ -871,6 +949,7 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "choice-chodte-rovno-potom",
           type: "choice",
           question: "What are you told to do?",
           sk: "Choďte rovno, potom doľava.",
@@ -879,6 +958,7 @@ export const unit4: Unit = {
           answer: 0,
         },
         {
+          id: "fill-prepacte-kde-je",
           type: "fill",
           before: "Prepáčte, kde je",
           after: "? — Je oproti.",
@@ -886,9 +966,10 @@ export const unit4: Unit = {
           answer: 0,
           en: "Excuse me, where's the post office? — It's opposite.",
           why: "With **je** you ask about one place, so use the basic form **pošta**. Pošty is the plural and would need sú.",
-          ref: "u4-l4#0",
+          ref: "u4-l4#grammar-plural-places-things",
         },
         {
+          id: "build-marek-je-kuchar",
           type: "build",
           prompt: "Marek is a cook and Lucia is a student.",
           promptLang: "en",
@@ -900,11 +981,13 @@ export const unit4: Unit = {
           ],
         },
         {
+          id: "listen-pani-horvathova-je",
           type: "listen",
           sk: "Pani Horváthová je učiteľka.",
           en: "Mrs Horváthová is a teacher.",
         },
         {
+          id: "fill-tie-kaviarne-su",
           type: "fill",
           before: "Tie kaviarne sú",
           after: ".",
@@ -912,9 +995,10 @@ export const unit4: Unit = {
           answer: 0,
           en: "Those cafés are expensive.",
           why: "Kaviarne is a plural of things, so the adjective ends in **-é**. Drahí is only for men, drahá for one feminine thing.",
-          ref: "u4-l4#0",
+          ref: "u4-l4#grammar-plural-places-things",
         },
         {
+          id: "fill-ti-novinari-su",
           type: "fill",
           before: "Tí novinári sú",
           after: ".",
@@ -922,18 +1006,20 @@ export const unit4: Unit = {
           answer: 0,
           en: "Those journalists are young.",
           why: "Novinári are men, so in the plural the adjective ends in **-í**, matching tí. Mladé is for women and things.",
-          ref: "u4-l4#6",
+          ref: "u4-l4#grammar-plural-people",
         },
         {
+          id: "choice-traja-casnici",
           type: "choice",
           question: "How do you say “three waiters”?",
           options: ["traja čašníci", "tri čašníci", "traja čašník"],
           optionsLang: "sk",
           answer: 0,
           why: "Counting men takes **traja**, and the noun takes the men's plural: čašník → čašní**ci**.",
-          ref: "u4-l5#6",
+          ref: "u4-l5#grammar-counting-men-dvaja",
         },
         {
+          id: "build-mesto-ma-tri",
           type: "build",
           prompt: "The town has three churches and two theatres.",
           promptLang: "en",
@@ -944,8 +1030,9 @@ export const unit4: Unit = {
             { wrong: "kostol", right: "kostoly", why: "After 2, 3 and 4 the noun is plural, so kostol adds **-y**: tri kostol**y**." },
           ],
         },
-        { type: "speak", sk: "Prepáčte, kde je banka?", en: "Excuse me, where's the bank?" },
+        { id: "speak-prepacte-kde-je", type: "speak", sk: "Prepáčte, kde je banka?", en: "Excuse me, where's the bank?" },
         {
+          id: "fill-kolko-stoja-tie",
           type: "fill",
           before: "Koľko",
           after: "tie okuliare?",
@@ -953,9 +1040,10 @@ export const unit4: Unit = {
           answer: 0,
           en: "How much are those glasses?",
           why: "Okuliare only exists in the plural, so even one pair takes the plural verb **stoja**. Stojí is for one thing.",
-          ref: "u4-l6#8",
+          ref: "u4-l6#grammar-always-plural",
         },
         {
+          id: "build-hodinky-stoja-styri",
           type: "build",
           prompt: "Hodinky stoja štyri eurá.",
           promptLang: "sk",
@@ -963,20 +1051,23 @@ export const unit4: Unit = {
           distractors: ["five", "is"],
         },
         {
+          id: "listen-ti-kuchari-su",
           type: "listen",
           sk: "Tí kuchári sú zo Slovenska.",
           en: "Those cooks are from Slovakia.",
         },
         {
+          id: "choice-nohavice",
           type: "choice",
           question: "Which word is always plural?",
           options: ["nohavice", "kaviareň", "rieka"],
           optionsLang: "sk",
           answer: 0,
           why: "**Nohavice** is plural only: one pair of trousers still takes sú and stoja. Kaviareň and rieka are ordinary feminine words, with plurals kaviarne and rieky.",
-          ref: "u4-l6#8",
+          ref: "u4-l6#grammar-always-plural",
         },
         {
+          id: "build-most-je-novy",
           type: "build",
           prompt: "The bridge is new and the castle is old.",
           promptLang: "en",

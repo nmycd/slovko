@@ -33,27 +33,27 @@
     "en": "The menu",
     "t": "მენიუ"
   },
-  "u6-l1.0.en": {
+  "u6-l1.jedalny-listok.en": {
     "en": "menu",
     "t": "მენიუ"
   },
-  "u6-l1.0.note": {
+  "u6-l1.jedalny-listok.note": {
     "en": "Ask for it politely: Jedálny lístok, prosím.",
     "t": "თავაზიანად ასე სთხოვეთ: Jedálny lístok, prosím."
   },
-  "u6-l1.1.en": {
+  "u6-l1.polievka.en": {
     "en": "soup",
     "t": "წვნიანი, სუპი"
   },
-  "u6-l1.1.note": {
+  "u6-l1.polievka.note": {
     "en": "A Slovak lunch nearly always starts with a hot soup.",
     "t": "სლოვაკური სადილი თითქმის ყოველთვის ცხელი წვნიანით იწყება."
   },
-  "u6-l1.2.question": {
+  "u6-l1.choice-polievka.question": {
     "en": "What does this mean?",
     "t": "რას ნიშნავს?"
   },
-  "u6-l1.2.options": {
+  "u6-l1.choice-polievka.options": {
     "en": [
       "soup",
       "menu",
@@ -65,31 +65,31 @@
       "ხორცი"
     ]
   },
-  "u6-l1.3.en": {
+  "u6-l1.hlavne-jedlo.en": {
     "en": "main course",
     "t": "ძირითადი კერძი"
   },
-  "u6-l1.3.note": {
+  "u6-l1.hlavne-jedlo.note": {
     "en": "**jedlo** = food, a dish; **hlavné** = main.",
     "t": "**jedlo** = საჭმელი, კერძი; **hlavné** = მთავარი."
   },
-  "u6-l1.4.en": {
+  "u6-l1.kuracie-maso.en": {
     "en": "chicken (meat)",
     "t": "ქათმის ხორცი"
   },
-  "u6-l1.4.note": {
+  "u6-l1.kuracie-maso.note": {
     "en": "Menus name meat after the animal: kuracie mäso = chicken, bravčové mäso = pork.",
     "t": "მენიუში ხორცს ცხოველის მიხედვით ასახელებენ: kuracie mäso = ქათმის ხორცი, bravčové mäso = ღორის ხორცი."
   },
-  "u6-l1.5.en": {
+  "u6-l1.ryba.en": {
     "en": "fish",
     "t": "თევზი"
   },
-  "u6-l1.5.note": {
+  "u6-l1.ryba.note": {
     "en": "**veľmi** = very: Ryba je veľmi dobrá. = The fish is very good.",
     "t": "**veľmi** = ძალიან: Ryba je veľmi dobrá. = თევზი ძალიან კარგია."
   },
-  "u6-l1.6.pairs": {
+  "u6-l1.match-jedalny-listok.pairs": {
     "en": [
       "menu",
       "soup",
@@ -105,43 +105,43 @@
       "თევზი"
     ]
   },
-  "u6-l1.7.en": {
+  "u6-l1.ryza.en": {
     "en": "rice",
     "t": "ბრინჯი"
   },
-  "u6-l1.7.note": {
+  "u6-l1.ryza.note": {
     "en": "A typical side dish (príloha) with chicken or fish.",
     "t": "ჩვეულებრივი გარნირი (príloha) ქათამთან ან თევზთან."
   },
-  "u6-l1.8.en": {
+  "u6-l1.hranolky.en": {
     "en": "chips / French fries",
     "t": "კარტოფილი ფრი"
   },
-  "u6-l1.8.note": {
+  "u6-l1.hranolky.note": {
     "en": "Always plural, like English “chips”: Hranolky **sú** dobré.",
     "t": "ყოველთვის მრავლობითშია: Hranolky **sú** dobré. = კარტოფილი ფრი კარგია."
   },
-  "u6-l1.9.question": {
+  "u6-l1.choice-hranolky.question": {
     "en": "Which one is a side dish?",
     "t": "რომელია გარნირი?"
   },
-  "u6-l1.10.en": {
+  "u6-l1.fill-jedalny-listok-prosim.en": {
     "en": "The menu, please.",
     "t": "მენიუ, თუ შეიძლება."
   },
-  "u6-l1.10.why": {
+  "u6-l1.fill-jedalny-listok-prosim.why": {
     "en": "The menu is **jedálny lístok**. Jedálny has the masculine ending (short, like čierny), so it needs a masculine noun; jedlo and mäso are neuter.",
     "t": "მენიუ არის **jedálny lístok**. Jedálny-ს მამრობითი დაბოლოება აქვს (მოკლე, როგორც čierny), ამიტომ მამრობითი არსებითი სახელი სჭირდება; jedlo და mäso საშუალო სქესისაა."
   },
-  "u6-l1.11.en": {
+  "u6-l1.listen-marek-vari-polievku.en": {
     "en": "Marek is cooking soup.",
     "t": "მარეკი წვნიანს ამზადებს."
   },
-  "u6-l1.12.prompt": {
+  "u6-l1.build-ryba-je-velmi.prompt": {
     "en": "The fish is very good.",
     "t": "თევზი ძალიან კარგია."
   },
-  "u6-l1.12.traps": {
+  "u6-l1.build-ryba-je-velmi.traps": {
     "en": [
       "An adjective takes the gender of its noun, after je too. Ryba is feminine, so it's **dobrá**. Dobrý is the masculine form.",
       "Ryba is one thing, so byť takes **je** (is). Sú is for two or more, they are."
@@ -151,15 +151,15 @@
       "Ryba ერთი რამაა, ამიტომ byť არის **je** („არის“). Sú ორი ან მეტისთვისაა, „არიან“."
     ]
   },
-  "u6-l1.13.en": {
+  "u6-l1.fill-hranolky-su-dobre.en": {
     "en": "The chips are good.",
     "t": "კარტოფილი ფრი კარგია."
   },
-  "u6-l1.13.why": {
+  "u6-l1.fill-hranolky-su-dobre.why": {
     "en": "**Hranolky** is always plural, like English “chips”, so the verb is **sú** (they are). Je is for one thing.",
     "t": "ქართული „ფრი“-სგან განსხვავებით, **hranolky** ყოველთვის მრავლობითშია, ამიტომ ზმნაა **sú** („არიან“). Je ერთი ნივთისთვისაა."
   },
-  "u6-l1.14.answers": {
+  "u6-l1.build-kuracie-maso-a.answers": {
     "en": [
       "Chicken and rice."
     ],
@@ -168,7 +168,7 @@
       "ბრინჯი და ქათმის ხორცი."
     ]
   },
-  "u6-l1.14.distractors": {
+  "u6-l1.build-kuracie-maso-a.distractors": {
     "en": [
       "fish",
       "soup"
@@ -178,11 +178,11 @@
       "წვნიანი"
     ]
   },
-  "u6-l1.15.prompt": {
+  "u6-l1.build-je-polievka-dobra.prompt": {
     "en": "Is the soup good?",
     "t": "წვნიანი კარგია?"
   },
-  "u6-l1.15.traps": {
+  "u6-l1.build-je-polievka-dobra.traps": {
     "en": [
       "An adjective takes the gender of its noun, after je too. Polievka is feminine, so it's **dobrá**. Dobrý is the masculine form.",
       "Soup is **polievka**; jedlo means food or a dish. Jedlo is also neuter, so it wouldn't fit dobrá."
@@ -192,11 +192,11 @@
       "წვნიანი არის **polievka**, jedlo კი ნიშნავს „საჭმელს“ ან „კერძს“. Jedlo საშუალო სქესისაცაა, ამიტომ dobrá-ს არ შეეფერება."
     ]
   },
-  "u6-l1.16.question": {
+  "u6-l1.choice-hlavne-jedlo.question": {
     "en": "How do you say “main course”?",
     "t": "როგორ ვთქვათ „ძირითადი კერძი“?"
   },
-  "u6-l1.17.en": {
+  "u6-l1.speak-jedalny-listok-prosim.en": {
     "en": "The menu, please.",
     "t": "მენიუ, თუ შეიძლება."
   },
@@ -204,27 +204,27 @@
     "en": "Ordering food",
     "t": "საჭმლის შეკვეთა"
   },
-  "u6-l2.0.en": {
+  "u6-l2.co-si-date.en": {
     "en": "What will you have?",
     "t": "რას მიირთმევთ?"
   },
-  "u6-l2.0.note": {
+  "u6-l2.co-si-date.note": {
     "en": "The waiter's question (formal). You may also hear: Čo si prajete?",
     "t": "ოფიციანტის კითხვა (თქვენობით). შეიძლება ესეც გაიგოთ: Čo si prajete? (რას ინებებთ?)"
   },
-  "u6-l2.1.en": {
+  "u6-l2.dam-si-polievku.en": {
     "en": "I'll have the soup.",
     "t": "წვნიანს ავიღებ."
   },
-  "u6-l2.1.note": {
+  "u6-l2.dam-si-polievku.note": {
     "en": "After **dám si** use the accusative: polievka → polievk**u**, ryba → ryb**u**.",
     "t": "**dám si**-ს შემდეგ akuzatív (ბრალდებითი ბრუნვა) გამოიყენეთ: polievka → polievk**u**, ryba → ryb**u**."
   },
-  "u6-l2.2.question": {
+  "u6-l2.choice-co-si-date.question": {
     "en": "A waiter says this. What does he want to know?",
     "t": "ამას ოფიციანტი ამბობს. რისი გაგება უნდა?"
   },
-  "u6-l2.2.options": {
+  "u6-l2.choice-co-si-date.options": {
     "en": [
       "What you'd like to order",
       "Where you're from",
@@ -236,31 +236,31 @@
       "როგორ ხართ"
     ]
   },
-  "u6-l2.2.why": {
+  "u6-l2.choice-co-si-date.why": {
     "en": "**Čo** is what, and **dať si** is to have (food or a drink): Čo si dáte? is the waiter's polite “What will you have?”",
     "t": "**Čo** = რა, **dať si** კი საჭმლის ან სასმლის აღებას ნიშნავს: Čo si dáte? ოფიციანტის თავაზიანი კითხვაა, „რას მიირთმევთ?“."
   },
-  "u6-l2.3.en": {
+  "u6-l2.fill-dam-si-rybu.en": {
     "en": "I'll have the fish and chips.",
     "t": "თევზი და კარტოფილი ფრი, თუ შეიძლება."
   },
-  "u6-l2.3.why": {
+  "u6-l2.fill-dam-si-rybu.why": {
     "en": "The fish is what you'll have, the object, so ryba changes -a to **-u**: dám si **rybu**. Ryby is the plural.",
     "t": "თევზი ის არის, რასაც იღებთ, ანუ ობიექტი, ამიტომ ryba -a-ს **-u**-თი ცვლის: dám si **rybu**. Ryby მრავლობითია."
   },
-  "u6-l2.4.en": {
+  "u6-l2.a-na-pitie.en": {
     "en": "And to drink?",
     "t": "და დასალევად?"
   },
-  "u6-l2.4.note": {
+  "u6-l2.a-na-pitie.note": {
     "en": "Answer the same way: Dám si minerálku. Or: Prosím si minerálku.",
     "t": "ასევე უპასუხეთ: Dám si minerálku. ან: Prosím si minerálku."
   },
-  "u6-l2.5.prompt": {
+  "u6-l2.build-dam-si-kavu.prompt": {
     "en": "I'll have a coffee.",
     "t": "ყავას ავიღებ."
   },
-  "u6-l2.5.traps": {
+  "u6-l2.build-dam-si-kavu.traps": {
     "en": [
       "After **dám si**, use the accusative: feminine káva changes -a to **-u**, **kávu**.",
       "The speaker is **ja**, so dať ends in **-m**: **dám** si. Dáte is the vy form, as in the waiter's Čo si dáte?"
@@ -270,43 +270,43 @@
       "ლაპარაკობს **ja**, ამიტომ dať **-m**-ზე ბოლოვდება: **dám** si. Dáte vy-ს ფორმაა, როგორც ოფიციანტის კითხვაში: Čo si dáte?"
     ]
   },
-  "u6-l2.6.en": {
+  "u6-l2.chuti-ti.en": {
     "en": "Do you like it? (food)",
     "t": "მოგწონს? (საჭმელზე)"
   },
-  "u6-l2.6.note": {
+  "u6-l2.chuti-ti.note": {
     "en": "Answer: Chutí mi. (I like it.) or Nechutí mi. (I don't like it.) Formal: Chutí vám?",
     "t": "პასუხი: Chutí mi. (მომწონს.) ან Nechutí mi. (არ მომწონს.) თქვენობით: Chutí vám?"
   },
-  "u6-l2.7.question": {
+  "u6-l2.choice-chuti-mi.question": {
     "en": "Your soup is delicious. Lucia asks “Chutí ti?”. What do you say?",
     "t": "წვნიანი ძალიან გემრიელია. ლუცია გეკითხებათ: „Chutí ti?“. რას უპასუხებთ?"
   },
-  "u6-l2.7.why": {
+  "u6-l2.choice-chuti-mi.why": {
     "en": "The soup is delicious, so answer yes. **Ne-** makes a verb negative: nechutí mi means “I don't like it”.",
     "t": "წვნიანი გემრიელია, ამიტომ დადებითად უპასუხეთ. **Ne-** ზმნას უარყოფითს ხდის: nechutí mi ნიშნავს „არ მომწონს“."
   },
-  "u6-l2.8.en": {
+  "u6-l2.horuci.en": {
     "en": "hot",
     "t": "ცხელი"
   },
-  "u6-l2.8.note": {
+  "u6-l2.horuci.note": {
     "en": "It agrees like other adjectives, but with short endings: horúc**i** čaj, horúc**a** polievka, horúc**e** jedlo.",
     "t": "სხვა ზედსართავების მსგავსად ეთანხმება არსებით სახელს, ოღონდ მოკლე დაბოლოებებით: horúc**i** čaj, horúc**a** polievka, horúc**e** jedlo."
   },
-  "u6-l2.9.en": {
+  "u6-l2.sladky.en": {
     "en": "sweet",
     "t": "ტკბილი"
   },
-  "u6-l2.9.note": {
+  "u6-l2.sladky.note": {
     "en": "Torta je sladk**á**.",
     "t": "Torta je sladk**á**. = ტორტი ტკბილია."
   },
-  "u6-l2.10.en": {
+  "u6-l2.slany.en": {
     "en": "salty",
     "t": "მლაშე"
   },
-  "u6-l2.11.pairs": {
+  "u6-l2.match-co-si.pairs": {
     "en": [
       "What will you have?",
       "And to drink?",
@@ -322,27 +322,27 @@
       "მლაშე"
     ]
   },
-  "u6-l2.12.en": {
+  "u6-l2.fill-polievka-je-horuca.en": {
     "en": "The soup is hot.",
     "t": "წვნიანი ცხელია."
   },
-  "u6-l2.12.why": {
+  "u6-l2.fill-polievka-je-horuca.why": {
     "en": "Polievka is feminine, so horúci takes its short feminine ending **-a**: horúc**a**. Horúci is for masculine words (čaj), horúce for neuter (jedlo).",
     "t": "Polievka მდედრობითია, ამიტომ horúci იღებს მოკლე მდედრობით დაბოლოებას **-a**: horúc**a**. Horúci მამრობითი სიტყვებისთვისაა (čaj), horúce — საშუალოსთვის (jedlo)."
   },
-  "u6-l2.13.en": {
+  "u6-l2.fill-torta-je-velmi.en": {
     "en": "The cake is very sweet.",
     "t": "ტორტი ძალიან ტკბილია."
   },
-  "u6-l2.13.why": {
+  "u6-l2.fill-torta-je-velmi.why": {
     "en": "Torta is feminine, so the adjective ends in **-á**: sladk**á**. Sladký is masculine, sladké neuter.",
     "t": "Torta მდედრობითია, ამიტომ ზედსართავი **-á**-ზე ბოლოვდება: sladk**á**. Sladký მამრობითია, sladké — საშუალო."
   },
-  "u6-l2.14.prompt": {
+  "u6-l2.build-dame-si-polievku.prompt": {
     "en": "We'll have soup and fish.",
     "t": "წვნიანს და თევზს ავიღებთ."
   },
-  "u6-l2.14.traps": {
+  "u6-l2.build-dame-si-polievku.traps": {
     "en": [
       "After **dáme si**, use the accusative: feminine ryba changes -a to **-u**, **rybu**, just like polievku.",
       "“We” is **my**, so dať takes the my ending **-me**: **dáme** si. Dám is the ja form."
@@ -352,11 +352,11 @@
       "„ჩვენ“ არის **my**, ამიტომ dať my-ს დაბოლოებას, **-me**-ს იღებს: **dáme** si. Dám ja-ს ფორმაა."
     ]
   },
-  "u6-l2.15.en": {
+  "u6-l2.listen-caj-je-horuci.en": {
     "en": "The tea is hot.",
     "t": "ჩაი ცხელია."
   },
-  "u6-l2.16.answers": {
+  "u6-l2.build-chuti-ti-polievka.answers": {
     "en": [
       "Do you like the soup?"
     ],
@@ -365,7 +365,7 @@
       "მოგწონს წვნიანი?"
     ]
   },
-  "u6-l2.16.distractors": {
+  "u6-l2.build-chuti-ti-polievka.distractors": {
     "en": [
       "fish",
       "where"
@@ -375,7 +375,7 @@
       "სად"
     ]
   },
-  "u6-l2.17.en": {
+  "u6-l2.speak-a-na-pitie.en": {
     "en": "And to drink?",
     "t": "და დასალევად?"
   },
@@ -383,11 +383,11 @@
     "en": "Coffee with milk",
     "t": "ყავა რძით"
   },
-  "u6-l3.0.title": {
+  "u6-l3.grammar-s-instrumental.title": {
     "en": "S (with) + the instrumental",
     "t": "s („-ით“, „-თან ერთად“) + inštrumentál"
   },
-  "u6-l3.0.body": {
+  "u6-l3.grammar-s-instrumental.body": {
     "en": [
       "**S** means “with”. The noun after it takes the instrumental case (the “with” case).",
       "Masculine nouns add **-om**, neuter nouns change -o to **-om**. Feminine nouns change **-a** to **-ou**.",
@@ -399,7 +399,7 @@
       "s, z, š ან ž-ით დაწყებული სიტყვის წინ **s** ხდება **so**: so syr**om**."
     ]
   },
-  "u6-l3.0.table.head": {
+  "u6-l3.grammar-s-instrumental.table.head": {
     "en": [
       "",
       "word",
@@ -411,7 +411,7 @@
       "„-ით“"
     ]
   },
-  "u6-l3.0.table.rows": {
+  "u6-l3.grammar-s-instrumental.table.rows": {
     "en": [
       [
         "he",
@@ -467,7 +467,7 @@
       ]
     ]
   },
-  "u6-l3.0.examples": {
+  "u6-l3.grammar-s-instrumental.examples": {
     "en": [
       "Coffee with milk, please.",
       "I'll have chicken with rice.",
@@ -479,35 +479,35 @@
       "ემა ლუციასთან ერთად ცხოვრობს."
     ]
   },
-  "u6-l3.1.question": {
+  "u6-l3.choice-caj-s-citronom.question": {
     "en": "How do you say “tea with lemon”?",
     "t": "როგორ ვთქვათ „ჩაი ლიმონით“?"
   },
-  "u6-l3.1.why": {
+  "u6-l3.choice-caj-s-citronom.why": {
     "en": "After **s** (with), masculine nouns take the instrumental ending **-om**: citrón → citrón**om**.",
     "t": "**s**-ის შემდეგ მამრობითი სახელი inštrumentál-ში (მოქმედებით ბრუნვაში) დგება და **-om**-ს იღებს: citrón → citrón**om**. ქართულშიც „-ით“-ია: ჩაი ლიმონით."
   },
-  "u6-l3.2.en": {
+  "u6-l3.fill-kava-s-mliekom.en": {
     "en": "Coffee with milk, please.",
     "t": "ყავა რძით, თუ შეიძლება."
   },
-  "u6-l3.2.why": {
+  "u6-l3.fill-kava-s-mliekom.why": {
     "en": "After **s** (with), neuter nouns change -o to **-om**: mlieko → mliek**om**.",
     "t": "**s**-ის შემდეგ საშუალო სქესის სახელები -o-ს **-om**-ით ცვლის: mlieko → mliek**om**, როგორც ქართულში „რძით“."
   },
-  "u6-l3.3.en": {
+  "u6-l3.fill-dam-si-rybu.en": {
     "en": "I'll have fish with rice.",
     "t": "თევზს ბრინჯით ავიღებ."
   },
-  "u6-l3.3.why": {
+  "u6-l3.fill-dam-si-rybu.why": {
     "en": "After **s**, feminine nouns change -a to **-ou**: ryž**ou**. Ryžu is the object form: it goes after dám si, like rybu, not after s.",
     "t": "**s**-ის შემდეგ მდედრობითი სახელები -a-ს **-ou**-თი ცვლის: ryž**ou**. Ryžu ობიექტის ფორმაა: ის dám si-ის შემდეგ დგება, როგორც rybu, და არა s-ის შემდეგ."
   },
-  "u6-l3.4.prompt": {
+  "u6-l3.build-chlieb-so-syrom.prompt": {
     "en": "Bread with cheese.",
     "t": "პური ყველით."
   },
-  "u6-l3.4.traps": {
+  "u6-l3.build-chlieb-so-syrom.traps": {
     "en": [
       "**S** becomes **so** before a word starting with s, z, š or ž, as syrom does: **so** syrom.",
       "After **s** (with), masculine nouns take the instrumental ending **-om**: syr → **syrom**."
@@ -517,31 +517,31 @@
       "**s**-ის შემდეგ მამრობითი სახელი inštrumentál-ში (მოქმედებით ბრუნვაში) დგება და **-om**-ს იღებს: syr → **syrom**, როგორც ქართულში „ყველით“."
     ]
   },
-  "u6-l3.5.question": {
+  "u6-l3.choice-syrom.question": {
     "en": "Which word needs “so” instead of “s”?",
     "t": "რომელ სიტყვას სჭირდება „so“ და არა „s“?"
   },
-  "u6-l3.5.why": {
+  "u6-l3.choice-syrom.why": {
     "en": "**S** becomes **so** before a word starting with s, z, š or ž, as syrom does. Mliekom and ryžou take plain s.",
     "t": "s, z, š ან ž-ით დაწყებული სიტყვის წინ **s** ხდება **so**, syrom კი s-ით იწყება. Mliekom და ryžou უბრალო s-ს იღებს."
   },
-  "u6-l3.6.en": {
+  "u6-l3.fill-lucia-hovori-s.en": {
     "en": "Lucia is talking to Tomáš.",
     "t": "ლუცია ტომაშს ელაპარაკება."
   },
-  "u6-l3.6.why": {
+  "u6-l3.fill-lucia-hovori-s.why": {
     "en": "After **s**, masculine nouns add **-om**, names too: Tomáš**om**. Tomáša is the object form, as in Hľadám Tomáša.",
     "t": "აქ s ქართულ „-თან“-ს შეესაბამება. **s**-ის შემდეგ მამრობითი სახელები **-om**-ს იღებს, საკუთარი სახელებიც: Tomáš**om**. Tomáša ობიექტის ფორმაა, როგორც Hľadám Tomáša-ში."
   },
-  "u6-l3.7.en": {
+  "u6-l3.listen-tomas-je-s.en": {
     "en": "Tomáš is with Marek.",
     "t": "ტომაში მარეკთან ერთადაა."
   },
-  "u6-l3.8.title": {
+  "u6-l3.grammar-adjectives-after-s.title": {
     "en": "Adjectives after s",
     "t": "ზედსართავი s-ის შემდეგ"
   },
-  "u6-l3.8.body": {
+  "u6-l3.grammar-adjectives-after-s.body": {
     "en": [
       "Adjectives change too. Masculine and neuter: **-ý** → **-ým**, **-é** → **-ým**. Feminine: **-á** → **-ou**, the same ending as the noun."
     ],
@@ -549,7 +549,7 @@
       "ზედსართავიც იცვლება. მამრობითი და საშუალო სქესი: **-ý** → **-ým**, **-é** → **-ým**. მდედრობითი: **-á** → **-ou**, ისეთივე დაბოლოება, როგორიც არსებით სახელს აქვს."
     ]
   },
-  "u6-l3.8.table.head": {
+  "u6-l3.grammar-adjectives-after-s.table.head": {
     "en": [
       "",
       "word",
@@ -561,7 +561,7 @@
       "„-ით“"
     ]
   },
-  "u6-l3.8.table.rows": {
+  "u6-l3.grammar-adjectives-after-s.table.rows": {
     "en": [
       [
         "he",
@@ -597,7 +597,7 @@
       ]
     ]
   },
-  "u6-l3.8.examples": {
+  "u6-l3.grammar-adjectives-after-s.examples": {
     "en": [
       "Emma is talking to a new friend.",
       "I'll have coffee with cold milk."
@@ -607,27 +607,27 @@
       "ყავას ცივი რძით ავიღებ."
     ]
   },
-  "u6-l3.9.en": {
+  "u6-l3.fill-lucia-je-s.en": {
     "en": "Lucia is with a good friend.",
     "t": "ლუცია კარგ მეგობართან ერთადაა."
   },
-  "u6-l3.9.why": {
+  "u6-l3.fill-lucia-je-s.why": {
     "en": "After s, a feminine adjective takes **-ou**, the same ending as kamarátk**ou**: dobr**ou**. Dobrým is for masculine and neuter nouns.",
     "t": "s-ის შემდეგ მდედრობითი ზედსართავი **-ou**-ს იღებს, ისეთივე დაბოლოებას, როგორიც kamarátk**ou**-ს აქვს: dobr**ou**. Dobrým მამრობითი და საშუალო სქესის სახელებისთვისაა."
   },
-  "u6-l3.10.en": {
+  "u6-l3.fill-tomas-hovori-s.en": {
     "en": "Tomáš is talking to a new friend.",
     "t": "ტომაში ახალ მეგობარს ელაპარაკება."
   },
-  "u6-l3.10.why": {
+  "u6-l3.fill-tomas-hovori-s.why": {
     "en": "Kamarát is masculine, so after s its adjective ends in **-ým**: nov**ým**. Novou is the feminine form, for kamarátkou.",
     "t": "Kamarát მამრობითია, ამიტომ s-ის შემდეგ მისი ზედსართავი **-ým**-ზე ბოლოვდება: nov**ým**. Novou მდედრობითი ფორმაა, kamarátkou-სთვის."
   },
-  "u6-l3.11.prompt": {
+  "u6-l3.build-dam-si-caj.prompt": {
     "en": "I'll have tea with cold milk.",
     "t": "ჩაის ცივი რძით ავიღებ."
   },
-  "u6-l3.11.traps": {
+  "u6-l3.build-dam-si-caj.traps": {
     "en": [
       "Mlieko is neuter, so after s its adjective ends in **-ým**: **studeným**. Studenou is the feminine form.",
       "**S** becomes **so** before a word starting with s, z, š or ž. The next word, studeným, starts with s: **so** studeným.",
@@ -639,15 +639,15 @@
       "**s**-ის შემდეგ საშუალო სქესის სახელები -o-ს **-om**-ით ცვლის: mlieko → **mliekom**, როგორც ქართულში „რძით“."
     ]
   },
-  "u6-l3.12.question": {
+  "u6-l3.choice-s-marekom.question": {
     "en": "How do you say “with Marek”?",
     "t": "როგორ ვთქვათ „მარეკთან ერთად“?"
   },
-  "u6-l3.12.why": {
+  "u6-l3.choice-s-marekom.why": {
     "en": "After **s**, masculine names add **-om**: Marek → Marek**om**. Mareka is the object form, as in Hľadám Mareka.",
     "t": "**s**-ის შემდეგ კაცის სახელები **-om**-ს იღებს: Marek → Marek**om**. Mareka ობიექტის ფორმაა, როგორც Hľadám Mareka-ში."
   },
-  "u6-l3.13.answers": {
+  "u6-l3.build-emma-byva-s.answers": {
     "en": [
       "Emma lives with Lucia."
     ],
@@ -656,7 +656,7 @@
       "ემა ცხოვრობს ლუციასთან ერთად."
     ]
   },
-  "u6-l3.13.distractors": {
+  "u6-l3.build-emma-byva-s.distractors": {
     "en": [
       "works",
       "Marek"
@@ -666,7 +666,7 @@
       "მარეკთან"
     ]
   },
-  "u6-l3.14.en": {
+  "u6-l3.speak-kava-s-mliekom.en": {
     "en": "Coffee with milk, please.",
     "t": "ყავა რძით, თუ შეიძლება."
   },
@@ -674,47 +674,47 @@
     "en": "Paying and going home",
     "t": "ვიხდით და სახლში მივდივართ"
   },
-  "u6-l4.0.en": {
+  "u6-l4.ucet-prosim.en": {
     "en": "The bill, please.",
     "t": "ანგარიში, თუ შეიძლება."
   },
-  "u6-l4.0.note": {
+  "u6-l4.ucet-prosim.note": {
     "en": "To say you're paying: Zaplatím. (I'll pay.)",
     "t": "თუ თქვენ იხდით: Zaplatím. (მე გადავიხდი.)"
   },
-  "u6-l4.1.en": {
+  "u6-l4.spolu-alebo-osobitne.en": {
     "en": "Together or separately?",
     "t": "ერთად თუ ცალ-ცალკე?"
   },
-  "u6-l4.1.note": {
+  "u6-l4.spolu-alebo-osobitne.note": {
     "en": "The waiter wants to know how you'll split the bill. Answer: Spolu. or Osobitne.",
     "t": "ოფიციანტს უნდა გაიგოს, როგორ გადაიხდით. პასუხი: Spolu. (ერთად.) ან Osobitne. (ცალ-ცალკე.)"
   },
-  "u6-l4.2.question": {
+  "u6-l4.choice-spolu.question": {
     "en": "The waiter asks “Spolu alebo osobitne?”. You're paying for everyone. What do you say?",
     "t": "ოფიციანტი გეკითხებათ: „Spolu alebo osobitne?“. ყველას ნაცვლად თქვენ იხდით. რას ეტყვით?"
   },
-  "u6-l4.3.en": {
+  "u6-l4.ako-ides-domov.en": {
     "en": "How are you getting home?",
     "t": "როგორ მიდიხარ სახლში?"
   },
-  "u6-l4.3.note": {
+  "u6-l4.ako-ides-domov.note": {
     "en": "**Domov** = home (where you're heading). Formal: Ako idete domov?",
     "t": "**Domov** = სახლში (საით მიდიხართ). თქვენობით: Ako idete domov?"
   },
-  "u6-l4.4.en": {
+  "u6-l4.idem-autobusom.en": {
     "en": "I'm going by bus.",
     "t": "ავტობუსით მივდივარ."
   },
-  "u6-l4.4.note": {
+  "u6-l4.idem-autobusom.note": {
     "en": "There's no word for “by”: the vehicle takes the instrumental. autobus → autobus**om**.",
     "t": "ცალკე სიტყვა არ გჭირდებათ: ტრანსპორტი inštrumentál-ში (მოქმედებით ბრუნვაში) დგება, ზუსტად ისე, როგორც ქართულში „ავტობუსით“: autobus → autobus**om**."
   },
-  "u6-l4.5.question": {
+  "u6-l4.choice-idem-autobusom.question": {
     "en": "How is this person travelling?",
     "t": "როგორ მგზავრობს ეს ადამიანი?"
   },
-  "u6-l4.5.options": {
+  "u6-l4.choice-idem-autobusom.options": {
     "en": [
       "by bus",
       "by car",
@@ -726,15 +726,15 @@
       "ფეხით"
     ]
   },
-  "u6-l4.5.why": {
+  "u6-l4.choice-idem-autobusom.why": {
     "en": "**Autobus** is a bus (a car is auto), and the instrumental ending **-om** does the job of English “by”.",
     "t": "**Autobus** ავტობუსია (მანქანა არის auto), inštrumentál-ის დაბოლოება **-om** კი აქ ქართული „-ით“-ის როლს ასრულებს: ავტობუსით."
   },
-  "u6-l4.6.title": {
+  "u6-l4.grammar-how-you-travel.title": {
     "en": "How you travel",
     "t": "როგორ მგზავრობთ"
   },
-  "u6-l4.6.body": {
+  "u6-l4.grammar-how-you-travel.body": {
     "en": [
       "Put the vehicle in the instrumental, with no **s**: Idem vlak**om**. = I'm going by train.",
       "The endings are the ones you know: **-om** for masculine and neuter, **-ou** for feminine.",
@@ -746,7 +746,7 @@
       "**Cestovať** (მგზავრობა) ისე იცვლება, როგორც študovať: cestuj**em**, cestuj**eš**, cestuj**e**…"
     ]
   },
-  "u6-l4.6.table.head": {
+  "u6-l4.grammar-how-you-travel.table.head": {
     "en": [
       "vehicle",
       "by …",
@@ -758,7 +758,7 @@
       ""
     ]
   },
-  "u6-l4.6.table.rows": {
+  "u6-l4.grammar-how-you-travel.table.rows": {
     "en": [
       [
         "autobus",
@@ -824,7 +824,7 @@
       ]
     ]
   },
-  "u6-l4.6.examples": {
+  "u6-l4.grammar-how-you-travel.examples": {
     "en": [
       "Mrs Horváthová travels by car.",
       "We're travelling by plane."
@@ -834,39 +834,39 @@
       "თვითმფრინავით ვმგზავრობთ."
     ]
   },
-  "u6-l4.7.en": {
+  "u6-l4.fill-tomas-cestuje-domov.en": {
     "en": "Tomáš is travelling home by train.",
     "t": "ტომაში სახლში მატარებლით მიემგზავრება."
   },
-  "u6-l4.7.why": {
+  "u6-l4.fill-tomas-cestuje-domov.why": {
     "en": "How you travel takes the instrumental, with no s: masculine vlak adds **-om**, vlak**om**.",
     "t": "მგზავრობის საშუალება inštrumentál-ში დგება, s-ის გარეშე: მამრობითი vlak იღებს **-om**-ს, vlak**om**, როგორც ქართულში „მატარებლით“."
   },
-  "u6-l4.8.question": {
+  "u6-l4.choice-lietadlom.question": {
     "en": "How do you say “by plane”?",
     "t": "როგორ ვთქვათ „თვითმფრინავით“?"
   },
-  "u6-l4.8.why": {
+  "u6-l4.choice-lietadlom.why": {
     "en": "For how you travel, the vehicle takes the instrumental without s: lietadl**om**. S lietadlom would mean “with a plane”.",
     "t": "მგზავრობის საშუალება inštrumentál-ში დგება, **s**-ის გარეშე: lietadl**om** (თვითმფრინავით). S lietadlom ნიშნავდა „თვითმფრინავთან ერთად“."
   },
-  "u6-l4.9.en": {
+  "u6-l4.fill-lucia-ide-domov.en": {
     "en": "Lucia is going home by tram.",
     "t": "ლუცია სახლში ტრამვაით მიდის."
   },
-  "u6-l4.9.why": {
+  "u6-l4.fill-lucia-ide-domov.why": {
     "en": "Električka is feminine, so for how you travel it changes -a to **-ou**: električk**ou**. Električku is the object form.",
     "t": "Električka მდედრობითია, ამიტომ მგზავრობის საშუალებად -a-ს **-ou**-თი ცვლის: električk**ou**. Električku ობიექტის ფორმაა."
   },
-  "u6-l4.10.en": {
+  "u6-l4.peso.en": {
     "en": "on foot",
     "t": "ფეხით"
   },
-  "u6-l4.10.note": {
+  "u6-l4.peso.note": {
     "en": "Idem pešo. = I'm walking. By bike is different too: **na bicykli**.",
     "t": "Idem pešo. = ფეხით მივდივარ. ველოსიპედით სხვაგვარად ითქმის: **na bicykli**."
   },
-  "u6-l4.11.pairs": {
+  "u6-l4.match-autobusom.pairs": {
     "en": [
       "by bus",
       "by train",
@@ -882,11 +882,11 @@
       "ველოსიპედით"
     ]
   },
-  "u6-l4.12.prompt": {
+  "u6-l4.build-ideme-domov-taxikom.prompt": {
     "en": "We're going home by taxi.",
     "t": "სახლში ტაქსით მივდივართ."
   },
-  "u6-l4.12.traps": {
+  "u6-l4.build-ideme-domov-taxikom.traps": {
     "en": [
       "How you travel takes the instrumental, with no s: masculine taxík adds **-om**, **taxíkom**.",
       "“We” is **my**, so ísť takes the my form **ideme**. Idem is for ja."
@@ -896,19 +896,19 @@
       "„ჩვენ“ არის **my**, ამიტომ ísť my-ს ფორმას იღებს: **ideme**. Idem ja-სთვისაა."
     ]
   },
-  "u6-l4.13.en": {
+  "u6-l4.listen-idem-domov-peso.en": {
     "en": "I'm walking home.",
     "t": "სახლში ფეხით მივდივარ."
   },
-  "u6-l4.14.en": {
+  "u6-l4.cestujem-s-kamaratmi.en": {
     "en": "I travel with friends.",
     "t": "მეგობრებთან ერთად ვმგზავრობ."
   },
-  "u6-l4.14.note": {
+  "u6-l4.cestujem-s-kamaratmi.note": {
     "en": "In the plural, the noun after s ends in **-mi** or **-ami**: s kamarát**mi**, s kamarátk**ami**.",
     "t": "მრავლობითში s-ის შემდეგ არსებითი სახელი **-mi**-ზე ან **-ami**-ზე მთავრდება: s kamarát**mi**, s kamarátk**ami**."
   },
-  "u6-l4.15.answers": {
+  "u6-l4.build-emma-cestuje-s.answers": {
     "en": [
       "Emma travels with friends."
     ],
@@ -917,7 +917,7 @@
       "ემა მგზავრობს მეგობრებთან ერთად."
     ]
   },
-  "u6-l4.15.distractors": {
+  "u6-l4.build-emma-cestuje-s.distractors": {
     "en": [
       "by",
       "train"
@@ -927,15 +927,15 @@
       "მეგობართან"
     ]
   },
-  "u6-l4.16.en": {
+  "u6-l4.fill-lucia-ide-domov-2.en": {
     "en": "Lucia is going home with her friends.",
     "t": "ლუცია სახლში მეგობრებთან ერთად მიდის."
   },
-  "u6-l4.16.why": {
+  "u6-l4.fill-lucia-ide-domov-2.why": {
     "en": "Her friends are more than one, and after **s** plural nouns end in **-mi** or **-ami**: kamarátky → kamarátk**ami**.",
     "t": "მეგობრები ერთზე მეტია, **s**-ის შემდეგ კი მრავლობითი სახელები **-mi**-ზე ან **-ami**-ზე ბოლოვდება: kamarátky → kamarátk**ami**."
   },
-  "u6-l4.17.en": {
+  "u6-l4.speak-ucet-prosim.en": {
     "en": "The bill, please.",
     "t": "ანგარიში, თუ შეიძლება."
   },
@@ -943,11 +943,11 @@
     "en": "Are you coming with me?",
     "t": "ჩემთან ერთად წამოხვალ?"
   },
-  "u6-l5.0.title": {
+  "u6-l5.grammar-me-you.title": {
     "en": "With me, with you",
     "t": "ჩემთან ერთად, შენთან ერთად"
   },
-  "u6-l5.0.body": {
+  "u6-l5.grammar-me-you.body": {
     "en": [
       "Pronouns have their own instrumental forms. After **s** they mean “with me, with you…”.",
       "Before mnou, **s** becomes **so**: so mnou."
@@ -957,7 +957,7 @@
       "mnou-ს წინ **s** ხდება **so**: so mnou."
     ]
   },
-  "u6-l5.0.table.head": {
+  "u6-l5.grammar-me-you.table.head": {
     "en": [
       "",
       "with …"
@@ -967,7 +967,7 @@
       "-თან ერთად"
     ]
   },
-  "u6-l5.0.table.rows": {
+  "u6-l5.grammar-me-you.table.rows": {
     "en": [
       [
         "ja",
@@ -1029,7 +1029,7 @@
       ]
     ]
   },
-  "u6-l5.0.examples": {
+  "u6-l5.grammar-me-you.examples": {
     "en": [
       "Are you coming with me?",
       "Mrs Horváthová is here. We're talking to her."
@@ -1039,11 +1039,11 @@
       "ქალბატონი ჰორვატოვა აქ არის. მას ველაპარაკებით."
     ]
   },
-  "u6-l5.1.question": {
+  "u6-l5.choice-ides-so-mnou.question": {
     "en": "What does this mean?",
     "t": "რას ნიშნავს?"
   },
-  "u6-l5.1.options": {
+  "u6-l5.choice-ides-so-mnou.options": {
     "en": [
       "Are you coming with me?",
       "Are you coming with us?",
@@ -1055,31 +1055,31 @@
       "ის შენთან ერთად მოდის?"
     ]
   },
-  "u6-l5.1.why": {
+  "u6-l5.choice-ides-so-mnou.why": {
     "en": "**So mnou** is with me (with us would be s nami), and ideš is the ty form: are you coming?",
     "t": "**So mnou** ნიშნავს „ჩემთან ერთად“ („ჩვენთან ერთად“ იქნებოდა s nami), ideš კი ty-ს ფორმაა: წამოხვალ?"
   },
-  "u6-l5.2.en": {
+  "u6-l5.fill-tomas-je-tu.en": {
     "en": "Tomáš is here. Lucia is talking to him.",
     "t": "ტომაში აქ არის. ლუცია მას ელაპარაკება."
   },
-  "u6-l5.2.why": {
+  "u6-l5.fill-tomas-je-tu.why": {
     "en": "Tomáš is on (he), and after s, on becomes **ním**. Ňou is for ona; ho is the object form, as in Mám ho rád.",
     "t": "ტომაში = on (ის), s-ის შემდეგ კი on ხდება **ním**. Ňou ona-სთვისაა; ho ობიექტის ფორმაა, როგორც Mám ho rád-ში."
   },
-  "u6-l5.3.en": {
+  "u6-l5.fill-lucia-je-moja.en": {
     "en": "Lucia is my friend. I live with her.",
     "t": "ლუცია ჩემი მეგობარია. მასთან ერთად ვცხოვრობ."
   },
-  "u6-l5.3.why": {
+  "u6-l5.fill-lucia-je-moja.why": {
     "en": "Lucia is ona (she), and after s, ona becomes **ňou**. Ním is for on; ju is the object form, as in Mám ju rada.",
     "t": "ლუცია = ona (ის), s-ის შემდეგ კი ona ხდება **ňou**. Ním on-ისთვისაა; ju ობიექტის ფორმაა, როგორც Mám ju rada-ში."
   },
-  "u6-l5.4.prompt": {
+  "u6-l5.build-ides-s-nami.prompt": {
     "en": "Are you coming with us, Tomáš?",
     "t": "ჩვენთან ერთად წამოხვალ, ტომაშ?"
   },
-  "u6-l5.4.traps": {
+  "u6-l5.build-ides-s-nami.traps": {
     "en": [
       "After **s**, pronouns take their instrumental forms: my becomes **nami**, so s nami = with us.",
       "Tomáš is one friend, so use **ty**: ísť takes the ty form **ideš**. Idete is for vy."
@@ -1089,15 +1089,15 @@
       "ტომაში ერთი მეგობარია, ამიტომ **ty**: ísť ty-ს ფორმას იღებს, **ideš**. Idete vy-სთვისაა."
     ]
   },
-  "u6-l5.5.en": {
+  "u6-l5.listen-chces-ist-so.en": {
     "en": "Do you want to go with me?",
     "t": "გინდა ჩემთან ერთად წამოხვიდე?"
   },
-  "u6-l5.6.title": {
+  "u6-l5.grammar-where-pred-za.title": {
     "en": "Where? pred, za, nad, pod, medzi",
     "t": "სად? pred, za, nad, pod, medzi"
   },
-  "u6-l5.6.body": {
+  "u6-l5.grammar-where-pred-za.body": {
     "en": [
       "These five words also take the instrumental when they say where something is.",
       "They work with pronouns too: pred **nami**, za **tebou**.",
@@ -1109,7 +1109,7 @@
       "მდედრობითი სიტყვები, რომლებიც -a-ზე არ მთავრდება, ასევე **-ou**-ს იღებს: posteľ → pod posteľ**ou**."
     ]
   },
-  "u6-l5.6.table.head": {
+  "u6-l5.grammar-where-pred-za.table.head": {
     "en": [
       "word",
       "meaning",
@@ -1121,7 +1121,7 @@
       "მაგალითი"
     ]
   },
-  "u6-l5.6.table.rows": {
+  "u6-l5.grammar-where-pred-za.table.rows": {
     "en": [
       [
         "pred",
@@ -1177,7 +1177,7 @@
       ]
     ]
   },
-  "u6-l5.6.examples": {
+  "u6-l5.grammar-where-pred-za.examples": {
     "en": [
       "I'm waiting in front of the restaurant.",
       "The cat is under the table."
@@ -1187,7 +1187,7 @@
       "კატა მაგიდის ქვეშაა."
     ]
   },
-  "u6-l5.7.pairs": {
+  "u6-l5.match-pred.pairs": {
     "en": [
       "in front of",
       "behind",
@@ -1203,27 +1203,27 @@
       "შორის"
     ]
   },
-  "u6-l5.8.en": {
+  "u6-l5.fill-tomas-caka-pred.en": {
     "en": "Tomáš is waiting in front of the university.",
     "t": "ტომაში უნივერსიტეტის წინ ელოდება."
   },
-  "u6-l5.8.why": {
+  "u6-l5.fill-tomas-caka-pred.why": {
     "en": "**Pred** (in front of) takes the instrumental, so feminine univerzita changes -a to **-ou**. Univerzitu is the object form.",
     "t": "**Pred** („წინ“) inštrumentál-ს მოითხოვს, ამიტომ მდედრობითი univerzita -a-ს **-ou**-თი ცვლის. Univerzitu ობიექტის ფორმაა."
   },
-  "u6-l5.9.en": {
+  "u6-l5.fill-kaviaren-je-medzi.en": {
     "en": "The café is between the bank and the post office.",
     "t": "კაფე ბანკსა და ფოსტას შორისაა."
   },
-  "u6-l5.9.why": {
+  "u6-l5.fill-kaviaren-je-medzi.why": {
     "en": "**Medzi** (between) takes the instrumental for both places: bank**ou** a pošt**ou**.",
     "t": "**Medzi** („შორის“) ორივე ადგილისთვის inštrumentál-ს მოითხოვს: bank**ou** a pošt**ou**."
   },
-  "u6-l5.10.prompt": {
+  "u6-l5.build-macka-je-pod.prompt": {
     "en": "The cat is under the bed.",
     "t": "კატა საწოლის ქვეშაა."
   },
-  "u6-l5.10.traps": {
+  "u6-l5.build-macka-je-pod.traps": {
     "en": [
       "**Pod** (under) takes the instrumental when it says where. Feminine words without -a take **-ou** too: posteľ → **posteľou**.",
       "Under is **pod**; nad means above. Both take the instrumental when they say where something is."
@@ -1233,27 +1233,27 @@
       "„ქვეშ“ არის **pod**, nad კი ნიშნავს „ზემოთ“. ორივე inštrumentál-ს მოითხოვს, როცა ამბობს, სად არის რამე."
     ]
   },
-  "u6-l5.11.en": {
+  "u6-l5.fill-lampa-je-nad.en": {
     "en": "The lamp is above the table.",
     "t": "ლამპა მაგიდის ზემოთაა."
   },
-  "u6-l5.11.why": {
+  "u6-l5.fill-lampa-je-nad.why": {
     "en": "**Nad** (above) takes the instrumental: stôl adds **-om**, and its ô turns into o: **stolom**.",
     "t": "**Nad** („ზემოთ“) inštrumentál-ს მოითხოვს: stôl იღებს **-om**-ს, ô კი o-დ იქცევა: **stolom**. ქართულისგან განსხვავებით („მაგიდის ზემოთ“), nad სახელის წინ დგას."
   },
-  "u6-l5.12.en": {
+  "u6-l5.fill-emma-stoji-za.en": {
     "en": "Emma is standing behind you.",
     "t": "ემა შენ უკან დგას."
   },
-  "u6-l5.12.why": {
+  "u6-l5.fill-emma-stoji-za.why": {
     "en": "**Za** (behind) takes the instrumental when it says where, and ty becomes **tebou**, as in s tebou. Teba is the form after pre: pre teba.",
     "t": "**Za** („უკან“) inštrumentál-ს მოითხოვს, როცა ამბობს, სად არის რამე, ty კი ხდება **tebou**, როგორც s tebou-ში. Teba pre-ს შემდეგ დგება: pre teba."
   },
-  "u6-l5.13.en": {
+  "u6-l5.listen-marek-caka-za.en": {
     "en": "Marek is waiting behind the restaurant.",
     "t": "მარეკი რესტორნის უკან ელოდება."
   },
-  "u6-l5.14.answers": {
+  "u6-l5.build-pan-kovac-stoji.answers": {
     "en": [
       "Mr Kováč is standing in front of the dorm."
     ],
@@ -1262,7 +1262,7 @@
       "ბატონი კოვაჩი დგას საერთო საცხოვრებლის წინ."
     ]
   },
-  "u6-l5.14.distractors": {
+  "u6-l5.build-pan-kovac-stoji.distractors": {
     "en": [
       "behind",
       "under"
@@ -1272,7 +1272,7 @@
       "ქვეშ"
     ]
   },
-  "u6-l5.15.en": {
+  "u6-l5.speak-ides-so-mnou.en": {
     "en": "Are you coming with me?",
     "t": "ჩემთან ერთად წამოხვალ?"
   },
@@ -1280,11 +1280,11 @@
     "en": "Let me take you to dinner",
     "t": "ვახშამზე დაგპატიჟებ"
   },
-  "u6-l6.0.title": {
+  "u6-l6.grammar-pozvat-pit-niest.title": {
     "en": "Pozvať, piť, niesť",
     "t": "Pozvať, piť, niesť"
   },
-  "u6-l6.0.body": {
+  "u6-l6.grammar-pozvat-pit-niest.body": {
     "en": [
       "Three new patterns: **pozvať** (to invite), **piť** (to drink) and **niesť** (to carry). Learn the ja and oni forms; the rest follow.",
       "**Žiť** (to live) goes like piť: žij**em**, žij**eš**, žij**e**…",
@@ -1296,7 +1296,7 @@
       "Pozvať მომავალზე მიუთითებს: Pozvem ťa. = დაგპატიჟებ."
     ]
   },
-  "u6-l6.0.table.head": {
+  "u6-l6.grammar-pozvat-pit-niest.table.head": {
     "en": [
       "",
       "pozvať",
@@ -1310,7 +1310,7 @@
       "niesť"
     ]
   },
-  "u6-l6.0.table.rows": {
+  "u6-l6.grammar-pozvat-pit-niest.table.rows": {
     "en": [
       [
         "ja",
@@ -1388,7 +1388,7 @@
       ]
     ]
   },
-  "u6-l6.0.examples": {
+  "u6-l6.grammar-pozvat-pit-niest.examples": {
     "en": [
       "I'll invite you to dinner.",
       "What are you drinking? — I'm drinking tea.",
@@ -1402,11 +1402,11 @@
       "ბრატისლავაში ვცხოვრობ."
     ]
   },
-  "u6-l6.1.question": {
+  "u6-l6.choice-pijem-kavu.question": {
     "en": "What does this mean?",
     "t": "რას ნიშნავს?"
   },
-  "u6-l6.1.options": {
+  "u6-l6.choice-pijem-kavu.options": {
     "en": [
       "I'm drinking coffee.",
       "I'm eating coffee.",
@@ -1418,11 +1418,11 @@
       "ყავა მომაქვს."
     ]
   },
-  "u6-l6.2.title": {
+  "u6-l6.grammar-jest-stat-sa.title": {
     "en": "Jesť and stať sa",
     "t": "Jesť და stať sa"
   },
-  "u6-l6.2.body": {
+  "u6-l6.grammar-jest-stat-sa.body": {
     "en": [
       "**Jesť** (to eat) is irregular. Careful: **je** means both “is” and “eats”.",
       "**Stať sa** (to become) takes the instrumental: stať sa lekár**om**, stať sa učiteľk**ou**. Like pozvať, it points to the future: Stanem sa lekárom. = I'll become a doctor."
@@ -1432,7 +1432,7 @@
       "**Stať sa** (გახდომა) inštrumentál-ს (მოქმედებით ბრუნვას) მოითხოვს: stať sa lekár**om** (ექიმი გახდე), stať sa učiteľk**ou** (მასწავლებელი გახდე). pozvať-ის მსგავსად მომავალზე მიუთითებს: Stanem sa lekárom. = ექიმი გავხდები."
     ]
   },
-  "u6-l6.2.table.head": {
+  "u6-l6.grammar-jest-stat-sa.table.head": {
     "en": [
       "",
       "jesť",
@@ -1444,7 +1444,7 @@
       "stať sa"
     ]
   },
-  "u6-l6.2.table.rows": {
+  "u6-l6.grammar-jest-stat-sa.table.rows": {
     "en": [
       [
         "ja",
@@ -1510,7 +1510,7 @@
       ]
     ]
   },
-  "u6-l6.2.examples": {
+  "u6-l6.grammar-jest-stat-sa.examples": {
     "en": [
       "Marek is a cook. Now he's eating soup.",
       "Emma wants to become a doctor."
@@ -1520,35 +1520,35 @@
       "ემას უნდა ექიმი გახდეს."
     ]
   },
-  "u6-l6.3.en": {
+  "u6-l6.fill-co-pijes-emma.en": {
     "en": "What are you drinking, Emma? — I'm drinking tea.",
     "t": "რას სვამ, ემა? — ჩაის ვსვამ."
   },
-  "u6-l6.3.why": {
+  "u6-l6.fill-co-pijes-emma.why": {
     "en": "The question is to Emma (ty), so the verb ends in **-š**: pij**eš**. Pije goes with on or ona, pijú with oni.",
     "t": "კითხვა ემას ეხება (ty), ამიტომ ზმნა **-š**-ზე ბოლოვდება: pij**eš**. Pije on-თან ან ona-სთან დგას, pijú — oni-სთან."
   },
-  "u6-l6.4.en": {
+  "u6-l6.fill-lucia-a-emma.en": {
     "en": "Lucia and Emma drink coffee with milk.",
     "t": "ლუცია და ემა ყავას რძით სვამენ."
   },
-  "u6-l6.4.why": {
+  "u6-l6.fill-lucia-a-emma.why": {
     "en": "Lucia and Emma are two people (they), so piť takes the oni form, **pijú**. Pije is for one person, pijeme for my (we).",
     "t": "ლუცია და ემა ორნი არიან (ისინი), ამიტომ piť oni-ს ფორმას იღებს: **pijú**. Pije ერთი ადამიანისთვისაა, pijeme — my-სთვის (ჩვენ)."
   },
-  "u6-l6.5.en": {
+  "u6-l6.fill-marek-nesie-polievku.en": {
     "en": "Marek is carrying the soup to the table.",
     "t": "მარეკს წვნიანი მაგიდაზე მიაქვს."
   },
-  "u6-l6.5.why": {
+  "u6-l6.fill-marek-nesie-polievku.why": {
     "en": "Marek is on (he), so niesť takes **nesie**. Nesú goes with oni, nesiem with ja.",
     "t": "მარეკი = on (ის), ამიტომ niesť-ის ფორმაა **nesie**. Nesú oni-სთან დგას, nesiem — ja-სთან."
   },
-  "u6-l6.6.prompt": {
+  "u6-l6.build-pozvem-luciu-na.prompt": {
     "en": "I'll invite Lucia to dinner.",
     "t": "ლუციას ვახშამზე დავპატიჟებ."
   },
-  "u6-l6.6.traps": {
+  "u6-l6.build-pozvem-luciu-na.traps": {
     "en": [
       "The speaker is **ja**, so pozvať ends in **-em**: **pozvem** (I'll invite). Pozve goes with on or ona.",
       "Lucia is the object of pozvem, so her name follows the feminine rule: -a changes to **-u**, **Luciu**.",
@@ -1560,51 +1560,51 @@
       "**Pozvať na** akuzatív-ს მოითხოვს, როგორც pozývať na, ამიტომ მდედრობითი večera -a-ს **-u**-თი ცვლის: na **večeru** (ვახშამზე)."
     ]
   },
-  "u6-l6.7.en": {
+  "u6-l6.dakujem-za-pozvanie.en": {
     "en": "Thanks for the invitation.",
     "t": "მადლობა დაპატიჟებისთვის."
   },
-  "u6-l6.7.note": {
+  "u6-l6.dakujem-za-pozvanie.note": {
     "en": "If they ask “Prídeš?” (Will you come?): Určite. (Definitely.) or Možno. (Maybe.)",
     "t": "თუ გკითხავენ „Prídeš?“ (მოხვალ?): Určite. (აუცილებლად.) ან Možno. (შეიძლება.)"
   },
-  "u6-l6.8.question": {
+  "u6-l6.choice-dakujem-za-pozvanie.question": {
     "en": "Tomáš says “Pozvem ťa na večeru.” What's a natural reply?",
     "t": "ტომაში ამბობს: „Pozvem ťa na večeru.“ რა იქნება ბუნებრივი პასუხი?"
   },
-  "u6-l6.9.en": {
+  "u6-l6.listen-co-jes-tomas.en": {
     "en": "What are you eating, Tomáš?",
     "t": "რას ჭამ, ტომაშ?"
   },
-  "u6-l6.10.en": {
+  "u6-l6.fill-ja-jem-rybu.en": {
     "en": "I'm eating fish and Lucia is eating chicken.",
     "t": "მე თევზს ვჭამ, ლუცია კი ქათმის ხორცს ჭამს."
   },
-  "u6-l6.10.why": {
+  "u6-l6.fill-ja-jem-rybu.why": {
     "en": "**Jesť** is irregular: with ja it's **jem**. Je goes with on or ona (Lucia je kuracie mäso), and also means “is”.",
     "t": "**Jesť** არაწესიერი ზმნაა: ja-სთან ის არის **jem**. Je on-თან ან ona-სთან დგას (Lucia je kuracie mäso) და „არის“-საც ნიშნავს."
   },
-  "u6-l6.11.en": {
+  "u6-l6.fill-emma-a-lucia.en": {
     "en": "Emma and Lucia are eating fish with rice.",
     "t": "ემა და ლუცია თევზს ბრინჯით ჭამენ."
   },
-  "u6-l6.11.why": {
+  "u6-l6.fill-emma-a-lucia.why": {
     "en": "Emma and Lucia are two people (they), so jesť takes its irregular oni form, **jedia**. Jeme is for my (we), je for one person.",
     "t": "ემა და ლუცია ორნი არიან (ისინი), ამიტომ jesť თავის არაწესიერ oni-ს ფორმას იღებს: **jedia**. Jeme my-სთვისაა (ჩვენ), je — ერთი ადამიანისთვის."
   },
-  "u6-l6.12.en": {
+  "u6-l6.fill-lucia-sa-chce.en": {
     "en": "Lucia wants to become a teacher.",
     "t": "ლუციას უნდა მასწავლებელი გახდეს."
   },
-  "u6-l6.12.why": {
+  "u6-l6.fill-lucia-sa-chce.why": {
     "en": "**Stať sa** (to become) takes the instrumental, so feminine učiteľka changes -a to **-ou**. Učiteľku is the object form.",
     "t": "**Stať sa** (გახდომა) inštrumentál-ს მოითხოვს, ამიტომ მდედრობითი učiteľka -a-ს **-ou**-თი ცვლის. Učiteľku ობიექტის ფორმაა."
   },
-  "u6-l6.13.prompt": {
+  "u6-l6.build-zijeme-v-bratislave.prompt": {
     "en": "We live in Bratislava.",
     "t": "ბრატისლავაში ვცხოვრობთ."
   },
-  "u6-l6.13.traps": {
+  "u6-l6.build-zijeme-v-bratislave.traps": {
     "en": [
       "“We” is **my**, and žiť goes like piť, so the my form is **žijeme**. Žijú is the oni form.",
       "After **v** (in), the city changes its ending: v **Bratislave**, as in Žijem v Bratislave. This “where” case comes later; Bratislava is the plain form."
@@ -1614,7 +1614,7 @@
       "ქართულის მსგავსად („ბრატისლავაში“), v-ს შემდეგ ქალაქის დაბოლოება იცვლება: v **Bratislave**. ეს „სად?“-ის ბრუნვა მოგვიანებით ისწავლება; Bratislava ძირითადი ფორმაა."
     ]
   },
-  "u6-l6.14.answers": {
+  "u6-l6.build-tomas-a-marek.answers": {
     "en": [
       "Tomáš and Marek are drinking beer."
     ],
@@ -1623,7 +1623,7 @@
       "ტომაში და მარეკი სვამენ ლუდს."
     ]
   },
-  "u6-l6.14.distractors": {
+  "u6-l6.build-tomas-a-marek.distractors": {
     "en": [
       "wine",
       "eating"
@@ -1633,19 +1633,19 @@
       "ჭამენ"
     ]
   },
-  "u6-l6.15.en": {
+  "u6-l6.fill-chcem-sa-stat.en": {
     "en": "I want to become a cook.",
     "t": "მზარეული მინდა გავხდე."
   },
-  "u6-l6.15.why": {
+  "u6-l6.fill-chcem-sa-stat.why": {
     "en": "After **chcieť**, the next verb is an infinitive, the -ť form: chcem sa **stať**. Stanem already means “I'll become”.",
     "t": "**chcieť**-ის შემდეგ მეორე ზმნა ინფინიტივშია, -ť ფორმაში: chcem sa **stať**. Stanem უკვე ნიშნავს „გავხდები“."
   },
-  "u6-l6.16.en": {
+  "u6-l6.listen-pozvem-ta-na.en": {
     "en": "I'll buy you a coffee.",
     "t": "ყავაზე დაგპატიჟებ."
   },
-  "u6-l6.17.en": {
+  "u6-l6.speak-pozvem-ta-na.en": {
     "en": "I'll invite you to dinner.",
     "t": "ვახშამზე დაგპატიჟებ."
   },
@@ -1653,11 +1653,11 @@
     "en": "Review",
     "t": "გამეორება"
   },
-  "u6-l7.0.question": {
+  "u6-l7.choice-polievka-je-velmi.question": {
     "en": "What's wrong with the soup?",
     "t": "რა სჭირს წვნიანს?"
   },
-  "u6-l7.0.options": {
+  "u6-l7.choice-polievka-je-velmi.options": {
     "en": [
       "It's very salty.",
       "It's very sweet.",
@@ -1669,11 +1669,11 @@
       "ძალიან ცხელია."
     ]
   },
-  "u6-l7.1.prompt": {
+  "u6-l7.build-dam-si-polievku.prompt": {
     "en": "I'll have the soup and fish with rice.",
     "t": "წვნიანს და თევზს ბრინჯით ავიღებ."
   },
-  "u6-l7.1.traps": {
+  "u6-l7.build-dam-si-polievku.traps": {
     "en": [
       "After **s** (with), feminine nouns change -a to **-ou**: ryža → **ryžou**.",
       "The fish is what you'll have, the object of dám si, so feminine ryba changes -a to **-u**: **rybu**.",
@@ -1685,15 +1685,15 @@
       "**So** მხოლოდ s, z, š ან ž-ით დაწყებული სიტყვების წინ დგას. Ryžou r-ით იწყება, ამიტომ სწორია უბრალო **s**: s ryžou."
     ]
   },
-  "u6-l7.2.en": {
+  "u6-l7.fill-a-na-pitie.en": {
     "en": "And to drink? — Mineral water, please.",
     "t": "და დასალევად? — მინერალური წყალი, თუ შეიძლება."
   },
-  "u6-l7.2.why": {
+  "u6-l7.fill-a-na-pitie.why": {
     "en": "The answer is a drink, so the question asks about drinking: **pitie** comes from piť (to drink). Jedlo is food, účet the bill.",
     "t": "პასუხი სასმელია, ამიტომ კითხვა დალევაზეა: **pitie** მოდის piť-დან (დალევა). Jedlo საჭმელია, účet — ანგარიში."
   },
-  "u6-l7.3.pairs": {
+  "u6-l7.match-s-mliekom.pairs": {
     "en": [
       "with milk",
       "with lemon",
@@ -1707,19 +1707,19 @@
       "ბრინჯით"
     ]
   },
-  "u6-l7.4.en": {
+  "u6-l7.listen-chuti-ti-ryba.en": {
     "en": "Do you like the fish?",
     "t": "თევზი მოგწონს?"
   },
-  "u6-l7.5.en": {
+  "u6-l7.fill-marek-stoji-za.en": {
     "en": "Marek is standing behind Tomáš.",
     "t": "მარეკი ტომაშის უკან დგას."
   },
-  "u6-l7.5.why": {
+  "u6-l7.fill-marek-stoji-za.why": {
     "en": "**Za** (behind) takes the instrumental when it says where, so Tomáš adds **-om**. Tomáša is the object form.",
     "t": "**Za** („უკან“) inštrumentál-ს მოითხოვს, როცა ამბობს, სად არის რამე, ამიტომ Tomáš იღებს **-om**-ს. Tomáša ობიექტის ფორმაა."
   },
-  "u6-l7.6.answers": {
+  "u6-l7.build-ides-so-mnou.answers": {
     "en": [
       "Are you coming home with me?"
     ],
@@ -1728,7 +1728,7 @@
       "სახლში ჩემთან ერთად წამოხვალ?"
     ]
   },
-  "u6-l7.6.distractors": {
+  "u6-l7.build-ides-so-mnou.distractors": {
     "en": [
       "us",
       "by"
@@ -1738,23 +1738,23 @@
       "ავტობუსით"
     ]
   },
-  "u6-l7.7.en": {
+  "u6-l7.fill-tomas-ide-domov.en": {
     "en": "Tomáš is going home by taxi.",
     "t": "ტომაში სახლში ტაქსით მიდის."
   },
-  "u6-l7.7.why": {
+  "u6-l7.fill-tomas-ide-domov.why": {
     "en": "For how you travel, the vehicle takes the instrumental without s: taxík**om**. S taxíkom would mean “with a taxi”.",
     "t": "მგზავრობის საშუალება inštrumentál-ში დგება, **s**-ის გარეშე: taxík**om** (ტაქსით). S taxíkom ნიშნავდა „ტაქსთან ერთად“."
   },
-  "u6-l7.8.question": {
+  "u6-l7.choice-ucet-prosim.question": {
     "en": "How do you ask for the bill?",
     "t": "როგორ ითხოვენ ანგარიშს?"
   },
-  "u6-l7.9.prompt": {
+  "u6-l7.build-ideme-domov-elektrickou.prompt": {
     "en": "We're going home by tram.",
     "t": "სახლში ტრამვაით მივდივართ."
   },
-  "u6-l7.9.traps": {
+  "u6-l7.build-ideme-domov-elektrickou.traps": {
     "en": [
       "How you travel takes the instrumental, with no s: feminine električka changes -a to **-ou**, **električkou**."
     ],
@@ -1762,23 +1762,23 @@
       "მგზავრობის საშუალება inštrumentál-ში დგება, s-ის გარეშე, როგორც ქართულში „ტრამვაით“: მდედრობითი električka -a-ს **-ou**-თი ცვლის, **električkou**."
     ]
   },
-  "u6-l7.10.en": {
+  "u6-l7.fill-lucia-ja-ta.en": {
     "en": "Lucia, I'll take you out to dinner.",
     "t": "ლუცია, ვახშამზე დაგპატიჟებ."
   },
-  "u6-l7.10.why": {
+  "u6-l7.fill-lucia-ja-ta.why": {
     "en": "With **ja**, pozvať ends in **-em**: pozv**em** (I'll invite). Pozve goes with on or ona, pozveme with my (we).",
     "t": "**ja**-სთან pozvať **-em**-ზე ბოლოვდება: pozv**em** (დავპატიჟებ). Pozve on-თან ან ona-სთან დგას, pozveme — my-სთან (ჩვენ)."
   },
-  "u6-l7.11.en": {
+  "u6-l7.listen-tomas-pije-pivo.en": {
     "en": "Tomáš is drinking beer with Marek.",
     "t": "ტომაში მარეკთან ერთად ლუდს სვამს."
   },
-  "u6-l7.12.prompt": {
+  "u6-l7.build-lucia-sa-chce.prompt": {
     "en": "Lucia wants to become a teacher.",
     "t": "ლუციას უნდა მასწავლებელი გახდეს."
   },
-  "u6-l7.12.traps": {
+  "u6-l7.build-lucia-sa-chce.traps": {
     "en": [
       "**Stať sa** (to become) takes the instrumental, so feminine učiteľka changes -a to **-ou**: **učiteľkou**.",
       "After **chce**, the next verb is an infinitive, the -ť form: **stať** sa. Stane already means “she'll become”."
@@ -1788,23 +1788,23 @@
       "**chce**-ს შემდეგ მეორე ზმნა ინფინიტივშია, -ť ფორმაში: **stať** sa. Stane უკვე ნიშნავს „გახდება“."
     ]
   },
-  "u6-l7.13.question": {
+  "u6-l7.choice-macka-je-pod.question": {
     "en": "How do you say “The cat is under the table”?",
     "t": "როგორ ვთქვათ „კატა მაგიდის ქვეშაა“?"
   },
-  "u6-l7.13.why": {
+  "u6-l7.choice-macka-je-pod.why": {
     "en": "**Pod** means under (nad is above). Saying where something is, it takes the instrumental: stôl → **stolom**.",
     "t": "**Pod** ნიშნავს „ქვეშ“ (nad — „ზემოთ“). როცა ამბობს, სად არის რამე, ის inštrumentál-ს მოითხოვს: stôl → **stolom**."
   },
-  "u6-l7.14.en": {
+  "u6-l7.fill-ako-idete-domov.en": {
     "en": "How are you getting home, Mrs Horváthová?",
     "t": "როგორ მიდიხართ სახლში, ქალბატონო ჰორვატოვა?"
   },
-  "u6-l7.14.why": {
+  "u6-l7.fill-ako-idete-domov.why": {
     "en": "Pani Horváthová is a teacher, so use polite **vy**: id**ete**. Ideš is for a friend (ty), idú for oni.",
     "t": "ქალბატონი ჰორვატოვა მასწავლებელია, ამიტომ თავაზიანი **vy**: id**ete**. Ideš მეგობრისთვისაა (ty), idú — oni-სთვის."
   },
-  "u6-l7.15.en": {
+  "u6-l7.speak-dam-si-kavu.en": {
     "en": "I'll have coffee with milk.",
     "t": "ყავას რძით ავიღებ."
   }

@@ -4,7 +4,7 @@
   "items": [
     {
       "lesson": "u2-l1",
-      "exercise": 0,
+      "exercise": "odkial-si",
       "type": "intro",
       "text": "Odkiaľ si? = Where are you from? (informal)",
       "picture": "Emma arrives at the dormitory with a backpack and a suitcase with a shamrock sticker. Lucia, her new roommate, opens the door of their room to her with a welcoming gesture, and asks where she's from.",
@@ -17,7 +17,7 @@
     },
     {
       "lesson": "u2-l1",
-      "exercise": 1,
+      "exercise": "som-z-irska",
       "type": "intro",
       "text": "Som z Írska. = I'm from Ireland.",
       "picture": "A green map of Ireland with Emma standing in the middle of it, smiling: this is where she's from.",
@@ -30,7 +30,7 @@
     },
     {
       "lesson": "u2-l1",
-      "exercise": 3,
+      "exercise": "lucia-je-zo",
       "type": "intro",
       "text": "Lucia je zo Slovenska. = Lucia is from Slovakia.",
       "picture": "A green map of Slovakia with Lucia standing on it near Bratislava, smiling: this is where she's from.",
@@ -43,7 +43,7 @@
     },
     {
       "lesson": "u2-l1",
-      "exercise": 4,
+      "exercise": "nemecko-taliansko-polsko",
       "type": "intro",
       "text": "Nemecko, Taliansko, Poľsko = Germany, Italy, Poland",
       "picture": "Close-up of the map of Europe on the dorm wall, with coloured pins stuck in Germany, Italy and Poland; Emma's hand is pushing in the last one.",
@@ -56,7 +56,7 @@
     },
     {
       "lesson": "u2-l1",
-      "exercise": 8,
+      "exercise": "som-z-ukrajiny",
       "type": "intro",
       "text": "Som z Ukrajiny. = I'm from Ukraine.",
       "picture": "At the university's international students' evening, Oksana stands at a table decorated with a blue-and-yellow Ukrainian flag and introduces herself, a hand on her chest.",
@@ -64,7 +64,7 @@
     },
     {
       "lesson": "u2-l1",
-      "exercise": 11,
+      "exercise": "som-irka",
       "type": "intro",
       "text": "Som Írka. = I'm Irish. (said by a woman)",
       "picture": "At the same international evening, Emma stands proudly at the table with the Irish tricolour, a plate of soda bread in front of her.",
@@ -72,7 +72,7 @@
     },
     {
       "lesson": "u2-l1",
-      "exercise": 12,
+      "exercise": "slovak-slovenka",
       "type": "intro",
       "text": "Slovák, Slovenka = a Slovak man, a Slovak woman",
       "picture": "At the international evening, Tomáš and Lucia stand side by side at the table with the Slovak flag, a Slovak man and a Slovak woman, offering little plates of homemade food.",
@@ -85,7 +85,7 @@
     },
     {
       "lesson": "u2-l2",
-      "exercise": 1,
+      "exercise": "grammar-ty-or-vy",
       "type": "grammar",
       "text": "Ty or vy? Oni or ony?",
       "picture": "Split picture of two pairs crossing the campus. Left: Lucia and Tomáš walk together, a man and a woman. Right: Lucia and Emma walk together, two women.",
@@ -98,7 +98,7 @@
     },
     {
       "lesson": "u2-l2",
-      "exercise": 5,
+      "exercise": "choice-odkial-ste",
       "type": "choice",
       "text": "You ask your teacher, pani Horváthová, where she is from. What do you say?",
       "picture": "After class, Emma stands at pani Horváthová's desk and asks her something politely; the teacher, packing up her books, turns to answer with a smile.",
@@ -106,7 +106,7 @@
     },
     {
       "lesson": "u2-l5",
-      "exercise": 5,
+      "exercise": "choice-prepacte-nerozumiem",
       "type": "choice",
       "text": "Pán Kováč speaks very fast and you don't understand. What do you say?",
       "picture": "At the dormitory's front desk, Emma checks in with her passport in hand. Pán Kováč, typing at the computer, asks her something very fast; Emma looks lost and apologetic.",
@@ -119,7 +119,7 @@
     },
     {
       "lesson": "u2-l6",
-      "exercise": 9,
+      "exercise": "kolko-mas-rokov",
       "type": "intro",
       "text": "Koľko máš rokov? = How old are you? (informal)",
       "picture": "In the dorm common room, Marek lounges in an armchair with his hands behind his head; Emma, sitting forward on a chair, asks him with a teasing smile how old he is.",
@@ -132,10 +132,10 @@
     },
     {
       "lesson": "u2-l6",
-      "exercise": 10,
+      "exercise": "mam-dvadsatpat-rokov",
       "type": "intro",
       "text": "Mám dvadsaťpäť rokov. = I'm twenty-five.",
-      "reuse": "u2-l6#9",
+      "reuse": "u2-l6#kolko-mas-rokov",
       "book": {
         "pdfPage": 21,
         "printedPage": 24,
@@ -145,7 +145,7 @@
     },
     {
       "lesson": "u2-l6",
-      "exercise": 14,
+      "exercise": "prvy-druhy-treti",
       "type": "intro",
       "text": "prvý, druhý, tretí = first, second, third",
       "picture": "After a university fun run, Tomáš, Lucia and Emma stand on a winners' podium: Tomáš on the top step, Lucia second, Emma third, all laughing and out of breath.",
@@ -158,10 +158,10 @@
     },
     {
       "lesson": "u2-l7",
-      "exercise": 12,
+      "exercise": "choice-ako-sa-volate",
       "type": "choice",
       "text": "You meet a new teacher for the first time. How do you ask her name?",
-      "reuse": "u2-l2#5",
+      "reuse": "u2-l2#choice-odkial-ste",
       "book": null
     }
   ]

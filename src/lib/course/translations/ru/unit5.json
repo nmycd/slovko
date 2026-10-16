@@ -37,31 +37,31 @@
     "en": "Food and drink",
     "t": "Еда и напитки"
   },
-  "u5-l1.0.en": {
+  "u5-l1.co-potrebujeme-na.en": {
     "en": "What do we need for the party?",
     "t": "Что нам нужно на вечеринку?"
   },
-  "u5-l1.0.note": {
+  "u5-l1.co-potrebujeme-na.note": {
     "en": "Emma and Lucia are planning a party (oslava). potrebovať = to need: potrebuj**em**, potrebuj**eš**, potrebuj**e**…",
     "t": "Эмма и Луция планируют вечеринку (oslava). potrebovať = нуждаться, «нужно» (а не «потребовать»): potrebuj**em** = мне нужно, potrebuj**eš**, potrebuj**e**…"
   },
-  "u5-l1.1.en": {
+  "u5-l1.chlieb-a-maslo.en": {
     "en": "bread and butter",
     "t": "хлеб и масло"
   },
-  "u5-l1.2.question": {
+  "u5-l1.choice-maslo.question": {
     "en": "How do you say “butter”?",
     "t": "Как сказать «масло»?"
   },
-  "u5-l1.3.en": {
+  "u5-l1.syr-a-sunka.en": {
     "en": "cheese and ham",
     "t": "сыр и ветчина"
   },
-  "u5-l1.4.prompt": {
+  "u5-l1.build-potrebujeme-chlieb-a.prompt": {
     "en": "We need bread and cheese.",
     "t": "Нам нужны хлеб и сыр."
   },
-  "u5-l1.4.traps": {
+  "u5-l1.build-potrebujeme-chlieb-a.traps": {
     "en": [
       "“We” is **my**, so potrebovať takes the my ending **-me**: **potrebujeme**. Potrebujem is the ja form, I need."
     ],
@@ -69,19 +69,19 @@
       "«Мы» — **my**, поэтому potrebovať оканчивается на **-me**: **potrebujeme**, хотя по-русски «нам нужно». Potrebujem — для ja (мне нужно)."
     ]
   },
-  "u5-l1.5.en": {
+  "u5-l1.vino-pivo-a.en": {
     "en": "wine, beer and juice",
     "t": "вино, пиво и сок"
   },
-  "u5-l1.6.en": {
+  "u5-l1.kava-a-mineralka.en": {
     "en": "coffee and mineral water",
     "t": "кофе и минеральная вода"
   },
-  "u5-l1.6.note": {
+  "u5-l1.kava-a-mineralka.note": {
     "en": "minerálka is short for minerálna voda.",
     "t": "minerálka = minerálna voda, как наша «минералка»."
   },
-  "u5-l1.7.pairs": {
+  "u5-l1.match-maslo.pairs": {
     "en": [
       "butter",
       "cheese",
@@ -97,31 +97,31 @@
       "минеральная вода"
     ]
   },
-  "u5-l1.8.en": {
+  "u5-l1.listen-potrebujeme-vino-a.en": {
     "en": "We need wine and juice.",
     "t": "Нам нужны вино и сок."
   },
-  "u5-l1.9.en": {
+  "u5-l1.kolko-stoji-sunka.en": {
     "en": "How much is the ham?",
     "t": "Сколько стоит ветчина?"
   },
-  "u5-l1.9.note": {
+  "u5-l1.kolko-stoji-sunka.note": {
     "en": "You know **stáť** from unit 4: Šunka stojí tri eurá. = The ham costs three euros.",
     "t": "**stáť** вы уже знаете из раздела 4: Šunka stojí tri eurá. = Ветчина стоит три евро."
   },
-  "u5-l1.10.en": {
+  "u5-l1.fill-kolko-stoji-kava.en": {
     "en": "How much is the coffee?",
     "t": "Сколько стоит кофе?"
   },
-  "u5-l1.10.why": {
+  "u5-l1.fill-kolko-stoji-kava.why": {
     "en": "Káva is one thing, so stáť takes the one-thing form: **stojí**. Stoja is for two or more things, stojím for ja.",
     "t": "Káva — одна вещь, поэтому у stáť форма для одной вещи: **stojí**. Stoja — для двух и больше вещей, stojím — для ja."
   },
-  "u5-l1.11.question": {
+  "u5-l1.choice-syr-stoji-styri.question": {
     "en": "What does this mean?",
     "t": "Что это значит?"
   },
-  "u5-l1.11.options": {
+  "u5-l1.choice-syr-stoji-styri.options": {
     "en": [
       "The cheese costs four euros.",
       "The ham costs four euros.",
@@ -133,11 +133,11 @@
       "Сыр стоит десять евро."
     ]
   },
-  "u5-l1.12.prompt": {
+  "u5-l1.build-kava-stoji-tri.prompt": {
     "en": "The coffee costs three euros.",
     "t": "Кофе стоит три евро."
   },
-  "u5-l1.12.traps": {
+  "u5-l1.build-kava-stoji-tri.traps": {
     "en": [
       "Káva is one thing, so stáť takes the one-thing form **stojí**, even though tri eurá is plural. Stoja is for two or more things.",
       "After 2, 3 and 4, use the plural: neuter euro becomes **eurá**, so tri **eurá**. Euro is for just one: jedno euro."
@@ -147,15 +147,15 @@
       "После 2, 3 и 4 — множественное число: euro среднего рода становится **eurá**, tri **eurá**. Euro — только для одного: jedno euro."
     ]
   },
-  "u5-l1.13.en": {
+  "u5-l1.kupim-cerstvy-chlieb.en": {
     "en": "I'll buy fresh bread.",
     "t": "Я куплю свежий хлеб."
   },
-  "u5-l1.13.note": {
+  "u5-l1.kupim-cerstvy-chlieb.note": {
     "en": "kúpiť = to buy: kúpim, kúpiš, kúpi… It usually points to the future: “I'll buy”. čerstvý = fresh.",
     "t": "kúpiť = купить: kúpim, kúpiš, kúpi… Как и «куплю», kúpim означает будущее. čerstvý = свежий (а не «чёрствый»!)."
   },
-  "u5-l1.14.answers": {
+  "u5-l1.build-kupim-vino-a.answers": {
     "en": [
       "I'll buy wine and beer.",
       "I will buy wine and beer.",
@@ -168,7 +168,7 @@
       "Куплю пиво и вино."
     ]
   },
-  "u5-l1.14.distractors": {
+  "u5-l1.build-kupim-vino-a.distractors": {
     "en": [
       "need",
       "juice"
@@ -178,19 +178,19 @@
       "сок"
     ]
   },
-  "u5-l1.15.en": {
+  "u5-l1.fill-mame-syr-ale.en": {
     "en": "We have cheese, but we don't have butter.",
     "t": "У нас есть сыр, но нет масла."
   },
-  "u5-l1.15.why": {
+  "u5-l1.fill-mame-syr-ale.why": {
     "en": "To say not, put **ne-** on the verb as one word: máme → **nemáme**. Nie sme is the not form of byť (we aren't), and nemajú is for oni.",
     "t": "«Не» — это **ne-** слитно с глаголом: máme → **nemáme**. По-русски «у нас нет масла», а здесь просто mať с отрицанием. Nie sme — «мы не», nemajú — для oni."
   },
-  "u5-l1.16.en": {
+  "u5-l1.listen-mate-cerstvy-chlieb.en": {
     "en": "Do you have fresh bread?",
     "t": "У вас есть свежий хлеб?"
   },
-  "u5-l1.17.en": {
+  "u5-l1.speak-co-potrebujeme-na.en": {
     "en": "What do we need for the party?",
     "t": "Что нам нужно на вечеринку?"
   },
@@ -198,11 +198,11 @@
     "en": "The accusative case",
     "t": "Винительный падеж"
   },
-  "u5-l2.0.title": {
+  "u5-l2.grammar-accusative-object-case.title": {
     "en": "The accusative: the object case",
     "t": "Винительный падеж: кого? что?"
   },
-  "u5-l2.0.body": {
+  "u5-l2.grammar-accusative-object-case.body": {
     "en": [
       "After verbs like mať, potrebovať, kúpiť and hľadať (to look for), the object goes into the accusative case (akuzatív).",
       "Feminine nouns change -a to **-u**. Masculine things and neuter nouns stay the same."
@@ -212,7 +212,7 @@
       "Существительные женского рода меняют -a на **-u** (вода → воду). Неодушевлённые существительные мужского рода и средний род не меняются (сыр, вино)."
     ]
   },
-  "u5-l2.0.table.head": {
+  "u5-l2.grammar-accusative-object-case.table.head": {
     "en": [
       "nominative",
       "accusative"
@@ -222,7 +222,7 @@
       "винительный"
     ]
   },
-  "u5-l2.0.table.rows": {
+  "u5-l2.grammar-accusative-object-case.table.rows": {
     "en": [
       [
         "káva",
@@ -268,7 +268,7 @@
       ]
     ]
   },
-  "u5-l2.0.examples": {
+  "u5-l2.grammar-accusative-object-case.examples": {
     "en": [
       "I'll buy coffee and cheese.",
       "We need ham and butter."
@@ -278,19 +278,19 @@
       "Нам нужны ветчина и масло."
     ]
   },
-  "u5-l2.1.en": {
+  "u5-l2.fill-potrebujem-kavu.en": {
     "en": "I need coffee.",
     "t": "Мне нужен кофе."
   },
-  "u5-l2.1.why": {
+  "u5-l2.fill-potrebujem-kavu.why": {
     "en": "Coffee is what you need, the object, so it takes the accusative: feminine nouns change -a to **-u**, káva → **kávu**.",
     "t": "После potrebovať — винительный падеж, хотя по-русски «мне нужна вода». Женский род меняет -a на **-u**: káva → **kávu**."
   },
-  "u5-l2.2.title": {
+  "u5-l2.grammar-adjectives-change-too.title": {
     "en": "Adjectives change too",
     "t": "Прилагательные тоже меняются"
   },
-  "u5-l2.2.body": {
+  "u5-l2.grammar-adjectives-change-too.body": {
     "en": [
       "An adjective agrees with its noun. In the accusative, feminine -á becomes **-ú**.",
       "With masculine things and neuter nouns, nothing changes."
@@ -300,7 +300,7 @@
       "С неодушевлёнными существительными мужского рода и со средним родом ничего не меняется."
     ]
   },
-  "u5-l2.2.table.head": {
+  "u5-l2.grammar-adjectives-change-too.table.head": {
     "en": [
       "nominative",
       "accusative"
@@ -310,7 +310,7 @@
       "винительный"
     ]
   },
-  "u5-l2.2.table.rows": {
+  "u5-l2.grammar-adjectives-change-too.table.rows": {
     "en": [
       [
         "dobrá káva",
@@ -348,7 +348,7 @@
       ]
     ]
   },
-  "u5-l2.2.examples": {
+  "u5-l2.grammar-adjectives-change-too.examples": {
     "en": [
       "I'm looking for good coffee.",
       "Do you have fresh ham?"
@@ -358,19 +358,19 @@
       "У вас есть свежая ветчина?"
     ]
   },
-  "u5-l2.3.en": {
+  "u5-l2.fill-hladam-cerstvu-sunku.en": {
     "en": "I'm looking for fresh ham.",
     "t": "Я ищу свежую ветчину."
   },
-  "u5-l2.3.why": {
+  "u5-l2.fill-hladam-cerstvu-sunku.why": {
     "en": "An adjective agrees with its noun. Šunku is a feminine object, so čerstvá changes -á to **-ú**: **čerstvú**. Čerstvý is the masculine form.",
     "t": "Šunku — дополнение женского рода, поэтому прилагательное меняет -á на **-ú**: **čerstvú**, как «свежую». Čerstvý — мужской род. И помните: čerstvý — «свежий», а не «чёрствый»."
   },
-  "u5-l2.4.prompt": {
+  "u5-l2.build-kupim-kavu-a.prompt": {
     "en": "I'll buy coffee and butter.",
     "t": "Я куплю кофе и масло."
   },
-  "u5-l2.4.traps": {
+  "u5-l2.build-kupim-kavu-a.traps": {
     "en": [
       "Coffee is what you'll buy, the object, so it takes the accusative: feminine nouns change -a to **-u**, káva → **kávu**.",
       "The speaker is **ja** (I'll buy), so kúpiť takes the ja ending **-m**: **kúpim**. Kúpiš is the ty form."
@@ -380,31 +380,31 @@
       "Говорит **ja**, поэтому у kúpiť окончание **-m**: **kúpim** — как «куплю», это будущее. Kúpiš — форма для ty."
     ]
   },
-  "u5-l2.5.question": {
+  "u5-l2.choice-potrebujeme-mineralku.question": {
     "en": "Which sentence is correct?",
     "t": "Какое предложение правильное?"
   },
-  "u5-l2.5.why": {
+  "u5-l2.choice-potrebujeme-mineralku.why": {
     "en": "After potrebovať, the object goes into the accusative: feminine nouns change -a to **-u**, so minerálka → **minerálku**.",
     "t": "После potrebovať дополнение стоит в винительном падеже: женский род меняет -a на **-u**, minerálka → **minerálku**."
   },
-  "u5-l2.6.en": {
+  "u5-l2.fill-mame-dobre-vino.en": {
     "en": "We have good wine.",
     "t": "У нас есть хорошее вино."
   },
-  "u5-l2.6.why": {
+  "u5-l2.fill-mame-dobre-vino.why": {
     "en": "Víno is neuter, and neuter nouns don't change as objects, so the adjective stays **dobré**. Dobrú is for feminine nouns, dobrého for male people.",
     "t": "Víno — среднего рода, а средний род в роли дополнения не меняется, поэтому прилагательное остаётся **dobré**, как «хорошее вино». Dobrú — для женского рода, dobrého — для лиц мужского пола."
   },
-  "u5-l2.7.en": {
+  "u5-l2.listen-kupim-kavu-a.en": {
     "en": "I'll buy coffee and fresh bread.",
     "t": "Я куплю кофе и свежий хлеб."
   },
-  "u5-l2.8.title": {
+  "u5-l2.grammar-people-koho.title": {
     "en": "People: Koho?",
     "t": "Люди: Koho? (кого?)"
   },
-  "u5-l2.8.body": {
+  "u5-l2.grammar-people-koho.body": {
     "en": [
       "Ask **Koho?** (whom?) about people and **Čo?** (what?) about things.",
       "Masculine nouns for people (and animals) add **-a**, and their adjectives end in **-ého**. Women follow the -u rule: Luci**a** → Luci**u**."
@@ -414,7 +414,7 @@
       "Одушевлённые существительные мужского рода (люди и животные) получают **-a**, а их прилагательные — **-ého**, как в русском: брат → брата, нового друга. Женщины — по правилу -u: Luci**a** → Luci**u**."
     ]
   },
-  "u5-l2.8.table.head": {
+  "u5-l2.grammar-people-koho.table.head": {
     "en": [
       "nominative",
       "accusative"
@@ -424,7 +424,7 @@
       "винительный"
     ]
   },
-  "u5-l2.8.table.rows": {
+  "u5-l2.grammar-people-koho.table.rows": {
     "en": [
       [
         "brat (brother)",
@@ -462,7 +462,7 @@
       ]
     ]
   },
-  "u5-l2.8.examples": {
+  "u5-l2.grammar-people-koho.examples": {
     "en": [
       "Lucia has a brother, Marek.",
       "I'm looking for Mr Kováč."
@@ -472,27 +472,27 @@
       "Я ищу пана Ковача."
     ]
   },
-  "u5-l2.9.en": {
+  "u5-l2.fill-lucia-ma-brata.en": {
     "en": "Lucia has a brother.",
     "t": "У Луции есть брат."
   },
-  "u5-l2.9.why": {
+  "u5-l2.fill-lucia-ma-brata.why": {
     "en": "A brother is a person and the object of má, so the masculine noun adds **-a**: brat → **brata**. Only masculine things stay the same.",
     "t": "Brat — одушевлённое существительное и дополнение к má, поэтому получает **-a**: **brata**, как в «вижу брата». Не меняются только неодушевлённые."
   },
-  "u5-l2.10.question": {
+  "u5-l2.choice-koho-hladas.question": {
     "en": "Which answer fits the question?",
     "t": "Какой ответ подходит к вопросу?"
   },
-  "u5-l2.10.why": {
+  "u5-l2.choice-koho-hladas.why": {
     "en": "**Koho?** (whom?) asks about a person, so the answer names one: Marek → **Mareka**. Syr and kávu are things, which answer **Čo?**",
     "t": "**Koho?** (кого?) спрашивает о человеке, поэтому в ответе — человек: Marek → **Mareka**. Syr и kávu — вещи, они отвечают на **Čo?**"
   },
-  "u5-l2.11.prompt": {
+  "u5-l2.build-hladame-tomasa-a.prompt": {
     "en": "We're looking for Tomáš and Lucia.",
     "t": "Мы ищем Томаша и Луцию."
   },
-  "u5-l2.11.traps": {
+  "u5-l2.build-hladame-tomasa-a.traps": {
     "en": [
       "Tomáš is a person and the object of hľadáme, so the masculine name adds **-a**: **Tomáša**. Only masculine things stay the same.",
       "Lucia is the object of hľadáme, and women follow the feminine rule: -a changes to **-u**, Lucia → **Luciu**."
@@ -502,15 +502,15 @@
       "Луция — дополнение к hľadáme, а женщины меняют -a на **-u**: Lucia → **Luciu**, как «ищем Луцию»."
     ]
   },
-  "u5-l2.12.en": {
+  "u5-l2.fill-mam-noveho-kamarata.en": {
     "en": "I have a new friend.",
     "t": "У меня есть новый друг."
   },
-  "u5-l2.12.why": {
+  "u5-l2.fill-mam-noveho-kamarata.why": {
     "en": "Kamarát is a male person, and as an object his adjective ends in **-ého**: **nového**. Nový is for masculine things, novú for feminine nouns.",
     "t": "Kamarát — одушевлённое, и в роли дополнения его прилагательное оканчивается на **-ého**: **nového**, как «нового друга». Nový — для неодушевлённых, novú — для женского рода."
   },
-  "u5-l2.13.answers": {
+  "u5-l2.build-potrebujeme-cerstvu-sunku.answers": {
     "en": [
       "We need fresh ham.",
       "We need some fresh ham."
@@ -519,7 +519,7 @@
       "Нам нужна свежая ветчина."
     ]
   },
-  "u5-l2.13.distractors": {
+  "u5-l2.build-potrebujeme-cerstvu-sunku.distractors": {
     "en": [
       "cheese",
       "buy"
@@ -529,7 +529,7 @@
       "сыр"
     ]
   },
-  "u5-l2.14.en": {
+  "u5-l2.speak-hladam-pana-kovaca.en": {
     "en": "I'm looking for Mr Kováč.",
     "t": "Я ищу пана Ковача."
   },
@@ -537,23 +537,23 @@
     "en": "Colours and clothes",
     "t": "Цвета и одежда"
   },
-  "u5-l3.0.en": {
+  "u5-l3.cerveny-modry-zeleny.en": {
     "en": "red, blue, green",
     "t": "красный, синий, зелёный"
   },
-  "u5-l3.0.note": {
+  "u5-l3.cerveny-modry-zeleny.note": {
     "en": "Colours are adjectives, like nový: červen**é** víno = red wine.",
     "t": "Цвета — это прилагательные, как nový: červen**é** víno = красное вино."
   },
-  "u5-l3.1.en": {
+  "u5-l3.biely-cierny-zlty.en": {
     "en": "white, black, yellow",
     "t": "белый, чёрный, жёлтый"
   },
-  "u5-l3.1.note": {
+  "u5-l3.biely-cierny-zlty.note": {
     "en": "biely and čierny have short endings: biel**a**, čiern**a**, and biel**u**, čiern**u** as objects (not -á, -ú). biele víno = white wine.",
     "t": "У biely и čierny короткие окончания: biel**a**, čiern**a**, а в винительном — biel**u**, čiern**u** (не -á, -ú). biele víno = белое вино."
   },
-  "u5-l3.2.pairs": {
+  "u5-l3.match-cerveny.pairs": {
     "en": [
       "red",
       "blue",
@@ -569,43 +569,43 @@
       "чёрный"
     ]
   },
-  "u5-l3.3.en": {
+  "u5-l3.tricko-a-sveter.en": {
     "en": "T-shirt and sweater",
     "t": "футболка и свитер"
   },
-  "u5-l3.4.en": {
+  "u5-l3.sukna-a-kosela.en": {
     "en": "skirt and shirt",
     "t": "юбка и рубашка"
   },
-  "u5-l3.5.en": {
+  "u5-l3.fill-sukna-je-cervena.en": {
     "en": "The skirt is red.",
     "t": "Юбка красная."
   },
-  "u5-l3.5.why": {
+  "u5-l3.fill-sukna-je-cervena.why": {
     "en": "An adjective takes the gender of its noun, after je too. Sukňa is feminine, so the colour ends in **-á**: červen**á**. Červený is masculine, červené neuter.",
     "t": "Прилагательное принимает род существительного, и после je тоже. Sukňa — женского рода, поэтому цвет на **-á**: červen**á**. Červený — мужской род, červené — средний."
   },
-  "u5-l3.6.en": {
+  "u5-l3.chcem-cierne-tricko.en": {
     "en": "I want a black T-shirt.",
     "t": "Я хочу чёрную футболку."
   },
-  "u5-l3.6.note": {
+  "u5-l3.chcem-cierne-tricko.note": {
     "en": "chcieť = to want: chcem, chceš, chce… The colour takes the accusative too: čiern**u** sukň**u**.",
     "t": "chcieť = хотеть: chcem, chceš, chce… Цвет тоже стоит в винительном: čiern**u** sukň**u** = чёрную юбку. А tričko — среднего рода, поэтому čierne tričko не меняется."
   },
-  "u5-l3.7.en": {
+  "u5-l3.fill-hladam-ciernu-suknu.en": {
     "en": "I'm looking for a black skirt.",
     "t": "Я ищу чёрную юбку."
   },
-  "u5-l3.7.why": {
+  "u5-l3.fill-hladam-ciernu-suknu.why": {
     "en": "Sukňu is a feminine object, so the colour changes too. Čierny has short endings: čierna → **čiernu**, with -u, not -ú.",
     "t": "Sukňu — дополнение женского рода, поэтому меняется и цвет. У čierny краткие окончания: čierna → **čiernu**, с -u, а не -ú."
   },
-  "u5-l3.8.prompt": {
+  "u5-l3.build-chcem-bielu-koselu.prompt": {
     "en": "I want a white shirt.",
     "t": "Я хочу белую рубашку."
   },
-  "u5-l3.8.traps": {
+  "u5-l3.build-chcem-bielu-koselu.traps": {
     "en": [
       "Košeľu is a feminine object, so the colour changes too. Biely has short endings: biela → **bielu**, with -u, not -ú.",
       "The shirt is what you want, the object of chcem, so feminine košeľa changes -a to **-u**: **košeľu**."
@@ -615,31 +615,31 @@
       "Рубашка — то, что вы хотите, дополнение к chcem, поэтому košeľa меняет -a на **-u**: **košeľu**, как «рубашку»."
     ]
   },
-  "u5-l3.9.en": {
+  "u5-l3.darcek.en": {
     "en": "present, gift",
     "t": "подарок"
   },
-  "u5-l3.9.note": {
+  "u5-l3.darcek.note": {
     "en": "Emma and Tomáš are looking for a present for Lucia's party.",
     "t": "Эмма и Томаш ищут подарок Луции на день рождения."
   },
-  "u5-l3.10.en": {
+  "u5-l3.listen-emma-a-tomas.en": {
     "en": "Emma and Tomáš are looking for a present.",
     "t": "Эмма и Томаш ищут подарок."
   },
-  "u5-l3.11.en": {
+  "u5-l3.aku-farbu-mas.en": {
     "en": "What colour do you like? (to a woman)",
     "t": "Какой цвет ты любишь? (к женщине)"
   },
-  "u5-l3.11.note": {
+  "u5-l3.aku-farbu-mas.note": {
     "en": "mať rád (said of a man) / mať rada (of a woman) = to like. Mám rada zelen**ú** farb**u**. = I like green.",
     "t": "mať rád = любить (rád — как «рад»: мужчина говорит rád, женщина — rada). Mám rada zelen**ú** farb**u**. = Я люблю зелёный цвет."
   },
-  "u5-l3.12.question": {
+  "u5-l3.choice-tomas-ma-rad.question": {
     "en": "What does Tomáš like?",
     "t": "Какой цвет любит Томаш?"
   },
-  "u5-l3.12.options": {
+  "u5-l3.choice-tomas-ma-rad.options": {
     "en": [
       "Blue.",
       "Green.",
@@ -651,19 +651,19 @@
       "Чёрный."
     ]
   },
-  "u5-l3.13.en": {
+  "u5-l3.fill-chcem-modry-sveter.en": {
     "en": "I want a blue sweater.",
     "t": "Я хочу синий свитер."
   },
-  "u5-l3.13.why": {
+  "u5-l3.fill-chcem-modry-sveter.why": {
     "en": "Sveter is a masculine thing, and masculine things don't change as objects, so the colour stays **modrý**. Modrú is for feminine nouns, modrého for male people.",
     "t": "Sveter — неодушевлённое мужского рода, а такие слова в роли дополнения не меняются, поэтому цвет остаётся **modrý**. Modrú — для женского рода, modrého — для лиц мужского пола."
   },
-  "u5-l3.14.prompt": {
+  "u5-l3.build-emma-hlada-zelene.prompt": {
     "en": "Emma is looking for a green T-shirt.",
     "t": "Эмма ищет зелёную футболку."
   },
-  "u5-l3.14.traps": {
+  "u5-l3.build-emma-hlada-zelene.traps": {
     "en": [
       "Tričko is neuter, and neuter nouns don't change as objects, so the colour stays **zelené**. Zelenú is for feminine nouns.",
       "Emma is **ona**, so hľadať takes the ona form, with no ending: **hľadá**. Hľadám is the ja form."
@@ -673,11 +673,11 @@
       "Эмма — **ona**, поэтому у hľadať форма без окончания: **hľadá** (ищет). Hľadám — форма для ja."
     ]
   },
-  "u5-l3.15.en": {
+  "u5-l3.listen-kolko-stoji-cierny.en": {
     "en": "How much is the black sweater?",
     "t": "Сколько стоит чёрный свитер?"
   },
-  "u5-l3.16.answers": {
+  "u5-l3.build-lucia-ma-rada.answers": {
     "en": [
       "Lucia likes yellow.",
       "Lucia likes the colour yellow.",
@@ -688,7 +688,7 @@
       "Луция любит жёлтый."
     ]
   },
-  "u5-l3.16.distractors": {
+  "u5-l3.build-lucia-ma-rada.distractors": {
     "en": [
       "green",
       "has"
@@ -698,7 +698,7 @@
       "жёлтую"
     ]
   },
-  "u5-l3.17.en": {
+  "u5-l3.speak-chcem-cierne-tricko.en": {
     "en": "I want a black T-shirt.",
     "t": "Я хочу чёрную футболку."
   },
@@ -706,11 +706,11 @@
     "en": "Pronouns and prepositions",
     "t": "Местоимения и предлоги"
   },
-  "u5-l4.0.title": {
+  "u5-l4.grammar-me-you-him.title": {
     "en": "Me, you, him, her",
     "t": "Меня, тебя, его, её"
   },
-  "u5-l4.0.body": {
+  "u5-l4.grammar-me-you-him.body": {
     "en": [
       "Pronouns have object forms too. The short forms go in second place in the sentence, like sa: Mám **ho** rád.",
       "**ho** means both him and it: Sveter? Kúpim **ho**. = The sweater? I'll buy it."
@@ -720,7 +720,7 @@
       "Как и русское «его», **ho** — это и человек, и предмет: Sveter? Kúpim **ho**. = Свитер? Я его куплю."
     ]
   },
-  "u5-l4.0.table.head": {
+  "u5-l4.grammar-me-you-him.table.head": {
     "en": [
       "",
       "object"
@@ -730,7 +730,7 @@
       "винительный"
     ]
   },
-  "u5-l4.0.table.rows": {
+  "u5-l4.grammar-me-you-him.table.rows": {
     "en": [
       [
         "ja",
@@ -792,7 +792,7 @@
       ]
     ]
   },
-  "u5-l4.0.examples": {
+  "u5-l4.grammar-me-you-him.examples": {
     "en": [
       "Where are you? I'm looking for you.",
       "Lucia? I like her.",
@@ -804,19 +804,19 @@
       "Свитер? Я его куплю."
     ]
   },
-  "u5-l4.1.en": {
+  "u5-l4.fill-kde-si-emma.en": {
     "en": "Where are you, Emma? I'm looking for you.",
     "t": "Где ты, Эмма? Я тебя ищу."
   },
-  "u5-l4.1.why": {
+  "u5-l4.fill-kde-si-emma.why": {
     "en": "Emma is ty here, and as an object ty becomes **ťa**: hľadám ťa = I'm looking for you. Ju means her.",
     "t": "Здесь Эмма — ty, а в роли дополнения ty превращается в **ťa**: hľadám ťa = я ищу тебя. Ju значит «её»."
   },
-  "u5-l4.2.title": {
+  "u5-l4.grammar-pre-accusative.title": {
     "en": "pre + accusative: for",
     "t": "pre + винительный: для"
   },
-  "u5-l4.2.body": {
+  "u5-l4.grammar-pre-accusative.body": {
     "en": [
       "**pre** (for) takes the accusative: darček pre Luci**u**, pre Tomáš**a**.",
       "After a preposition, pronouns use their long forms."
@@ -826,7 +826,7 @@
       "После предлога местоимения стоят в полной форме; в 3-м лице появляется н-, как в русском: для него, для неё, для них."
     ]
   },
-  "u5-l4.2.table.head": {
+  "u5-l4.grammar-pre-accusative.table.head": {
     "en": [
       "",
       "for …"
@@ -836,7 +836,7 @@
       "для …"
     ]
   },
-  "u5-l4.2.table.rows": {
+  "u5-l4.grammar-pre-accusative.table.rows": {
     "en": [
       [
         "ja",
@@ -898,7 +898,7 @@
       ]
     ]
   },
-  "u5-l4.2.examples": {
+  "u5-l4.grammar-pre-accusative.examples": {
     "en": [
       "This is for you.",
       "The present is for Lucia."
@@ -908,35 +908,35 @@
       "Подарок для Луции."
     ]
   },
-  "u5-l4.3.en": {
+  "u5-l4.fill-tomas-mam-ho.en": {
     "en": "Tomáš? I like him.",
     "t": "Томаш? Я его люблю."
   },
-  "u5-l4.3.why": {
+  "u5-l4.fill-tomas-mam-ho.why": {
     "en": "Tomáš is on, and the object form of on is **ho**, in second place: Mám **ho** rada. Ju is her, ich is them.",
     "t": "Томаш — on, а форма дополнения от on — **ho** (его), на втором месте: Mám **ho** rada. Ju — «её», ich — «их»."
   },
-  "u5-l4.4.en": {
+  "u5-l4.fill-to-je-pre.en": {
     "en": "This is for you.",
     "t": "Это для тебя."
   },
-  "u5-l4.4.why": {
+  "u5-l4.fill-to-je-pre.why": {
     "en": "After a preposition like **pre**, pronouns use their long forms: pre **teba**. Ťa is the short form, used without a preposition: hľadám ťa.",
     "t": "После предлога, например **pre**, местоимения стоят в полной форме: pre **teba** (для тебя). Ťa — краткая форма, без предлога: hľadám ťa."
   },
-  "u5-l4.5.en": {
+  "u5-l4.fill-darcek-je-pre.en": {
     "en": "The present is for Lucia.",
     "t": "Подарок для Луции."
   },
-  "u5-l4.5.why": {
+  "u5-l4.fill-darcek-je-pre.why": {
     "en": "**Pre** (for) takes the accusative, and Lucia follows the feminine -u rule: Lucia → **Luciu**.",
     "t": "**Pre** (для) требует винительного падежа, а не родительного, как русское «для». Lucia меняет -a на -u: **Luciu**."
   },
-  "u5-l4.6.prompt": {
+  "u5-l4.build-sveter-je-pre.prompt": {
     "en": "The sweater is for him.",
     "t": "Свитер для него."
   },
-  "u5-l4.6.traps": {
+  "u5-l4.build-sveter-je-pre.traps": {
     "en": [
       "After a preposition like **pre**, pronouns use their long forms: on → pre **neho**. Ho is the short form, used without a preposition.",
       "Him is on, and after **pre** it takes its long form: pre **neho**. Ju means her, and it's a short form, not used after a preposition."
@@ -946,7 +946,7 @@
       "«Для него» — pre **neho**: после предлога on стоит в полной форме. Ju — это «её», краткая форма, после предлога её не ставят."
     ]
   },
-  "u5-l4.7.pairs": {
+  "u5-l4.match-ma.pairs": {
     "en": [
       "me",
       "you",
@@ -962,11 +962,11 @@
       "их"
     ]
   },
-  "u5-l4.8.title": {
+  "u5-l4.grammar-na-accusative.title": {
     "en": "na + accusative",
     "t": "na + винительный"
   },
-  "u5-l4.8.body": {
+  "u5-l4.grammar-na-accusative.body": {
     "en": [
       "Some verbs come with **na** + accusative: čakať na (to wait for), pozývať na (to invite to).",
       "Pronouns use the long forms here too: na **teba**, na **neho**, na **ňu**."
@@ -976,7 +976,7 @@
       "Местоимения и здесь в полной форме: na **teba**, na **neho**, na **ňu**."
     ]
   },
-  "u5-l4.8.examples": {
+  "u5-l4.grammar-na-accusative.examples": {
     "en": [
       "I'm waiting for you.",
       "We're waiting for Tomáš.",
@@ -988,27 +988,27 @@
       "Приглашаю тебя на вечеринку."
     ]
   },
-  "u5-l4.9.en": {
+  "u5-l4.fill-cakame-na-tomasa.en": {
     "en": "We're waiting for Tomáš.",
     "t": "Мы ждём Томаша."
   },
-  "u5-l4.9.why": {
+  "u5-l4.fill-cakame-na-tomasa.why": {
     "en": "**Čakať na** takes the accusative, and masculine nouns for people add **-a**: Tomáš → **Tomáša**.",
     "t": "**Čakať na** требует винительного (а по-русски «ждать» — без предлога), а мужские имена получают **-a**: Tomáš → **Tomáša**."
   },
-  "u5-l4.10.question": {
+  "u5-l4.choice-cakam-na-teba.question": {
     "en": "Which sentence is correct?",
     "t": "Какое предложение правильное?"
   },
-  "u5-l4.10.why": {
+  "u5-l4.choice-cakam-na-teba.why": {
     "en": "After a preposition like **na**, pronouns use their long forms: na **teba**. Ťa is the short form, used without a preposition, and ty isn't an object form.",
     "t": "После предлога, например **na**, местоимения стоят в полной форме: na **teba**. Ťa — краткая форма, без предлога, а ty — вообще не форма дополнения."
   },
-  "u5-l4.11.prompt": {
+  "u5-l4.build-pozyvame-ta-na.prompt": {
     "en": "We're inviting you to the party.",
     "t": "Мы приглашаем тебя на вечеринку."
   },
-  "u5-l4.11.traps": {
+  "u5-l4.build-pozyvame-ta-na.traps": {
     "en": [
       "**Pozývať na** takes the accusative, so feminine oslava changes -a to **-u**: na **oslavu**.",
       "“We” is **my**, so pozývať takes the my ending **-me**: **pozývame**. Pozývam is the ja form, I'm inviting."
@@ -1018,11 +1018,11 @@
       "«Мы» — **my**, поэтому у pozývať окончание **-me**: **pozývame** (приглашаем). Pozývam — для ja."
     ]
   },
-  "u5-l4.12.en": {
+  "u5-l4.listen-pozyvam-ta-na.en": {
     "en": "I'm inviting you to the party.",
     "t": "Приглашаю тебя на вечеринку."
   },
-  "u5-l4.13.answers": {
+  "u5-l4.build-cakam-na-teba.answers": {
     "en": [
       "I'm waiting for you.",
       "I am waiting for you."
@@ -1033,7 +1033,7 @@
       "Я тебя жду."
     ]
   },
-  "u5-l4.13.distractors": {
+  "u5-l4.build-cakam-na-teba.distractors": {
     "en": [
       "looking",
       "me"
@@ -1043,7 +1043,7 @@
       "ищу"
     ]
   },
-  "u5-l4.14.en": {
+  "u5-l4.speak-to-je-pre.en": {
     "en": "This is for you.",
     "t": "Это для тебя."
   },
@@ -1051,11 +1051,11 @@
     "en": "Go, want, must",
     "t": "Иду, хочу, должен"
   },
-  "u5-l5.0.title": {
+  "u5-l5.grammar-ist-go.title": {
     "en": "ísť: to go",
     "t": "ísť: идти"
   },
-  "u5-l5.0.body": {
+  "u5-l5.grammar-ist-go.body": {
     "en": [
       "ísť (to go) is irregular, so learn it by heart.",
       "Three prepositions often follow it, and they take the accusative. **na** = to (an event): Idem na oslav**u**. **po** = to go and get: Idem po chlieb. **cez** = through: Idem cez park (through the park)."
@@ -1065,7 +1065,7 @@
       "После него часто стоят три предлога с винительным падежом. **na** = на (мероприятие): Idem na oslav**u**. **po** = за (чем-то): Idem po chlieb. = Иду за хлебом. **cez** = через: Idem cez park."
     ]
   },
-  "u5-l5.0.table.head": {
+  "u5-l5.grammar-ist-go.table.head": {
     "en": [
       "",
       "ísť"
@@ -1075,7 +1075,7 @@
       "ísť"
     ]
   },
-  "u5-l5.0.table.rows": {
+  "u5-l5.grammar-ist-go.table.rows": {
     "en": [
       [
         "ja",
@@ -1129,7 +1129,7 @@
       ]
     ]
   },
-  "u5-l5.0.examples": {
+  "u5-l5.grammar-ist-go.examples": {
     "en": [
       "Where are you going?",
       "I'm going to the party.",
@@ -1141,19 +1141,19 @@
       "Томаш идёт за вином."
     ]
   },
-  "u5-l5.1.en": {
+  "u5-l5.fill-kam-ides-emma.en": {
     "en": "Where are you going, Emma?",
     "t": "Куда ты идёшь, Эмма?"
   },
-  "u5-l5.1.why": {
+  "u5-l5.fill-kam-ides-emma.why": {
     "en": "The question is to Emma, **ty**, so ísť ends in **-eš**: ideš. Idem goes with ja, ide with on or ona.",
     "t": "Вопрос задан Эмме, то есть **ty**, поэтому ísť оканчивается на **-eš**: ideš (идёшь). Idem — с ja, ide — с on или ona."
   },
-  "u5-l5.2.title": {
+  "u5-l5.grammar-want-can-must.title": {
     "en": "Want, can, must + infinitive",
     "t": "Хочу, могу, должен + инфинитив"
   },
-  "u5-l5.2.body": {
+  "u5-l5.grammar-want-can-must.body": {
     "en": [
       "chcieť (to want), môcť (can) and musieť (must, have to) are followed by an infinitive, the -ť form: ísť, kúpiť, piť (to drink).",
       "Say no with ne-: nechcem, nemôžem, nemusím (I don't have to)."
@@ -1163,7 +1163,7 @@
       "Отрицание ne- пишется слитно с глаголом: nechcem, nemôžem, nemusím (мне не надо)."
     ]
   },
-  "u5-l5.2.table.head": {
+  "u5-l5.grammar-want-can-must.table.head": {
     "en": [
       "",
       "chcieť",
@@ -1177,7 +1177,7 @@
       "musieť"
     ]
   },
-  "u5-l5.2.table.rows": {
+  "u5-l5.grammar-want-can-must.table.rows": {
     "en": [
       [
         "ja",
@@ -1255,7 +1255,7 @@
       ]
     ]
   },
-  "u5-l5.2.examples": {
+  "u5-l5.grammar-want-can-must.examples": {
     "en": [
       "I have to go.",
       "Can you buy bread?",
@@ -1267,27 +1267,27 @@
       "Что ты хочешь пить?"
     ]
   },
-  "u5-l5.3.en": {
+  "u5-l5.fill-lucia-a-marek.en": {
     "en": "Lucia and Marek are going to the party.",
     "t": "Луция и Марек идут на вечеринку."
   },
-  "u5-l5.3.why": {
+  "u5-l5.fill-lucia-a-marek.why": {
     "en": "Lucia and Marek are two people, **oni**, so ísť takes the oni form: **idú**. Ide is for one person, idete for vy.",
     "t": "Луция и Марек — двое, **oni**, поэтому у ísť форма для oni: **idú** (идут). Ide — для одного человека, idete — для vy."
   },
-  "u5-l5.4.en": {
+  "u5-l5.fill-musim-ist-ahoj.en": {
     "en": "I have to go, bye!",
     "t": "Мне надо идти, пока!"
   },
-  "u5-l5.4.why": {
+  "u5-l5.fill-musim-ist-ahoj.why": {
     "en": "The speaker is **ja**, so musieť takes the ja form **musím**, followed by the infinitive ísť. Musia is for oni; môže means he or she can.",
     "t": "Говорит **ja**, поэтому у musieť форма для ja — **musím**, а за ней инфинитив ísť. Musia — для oni, а môže значит «он (она) может»."
   },
-  "u5-l5.5.prompt": {
+  "u5-l5.build-mozes-kupit-chlieb.prompt": {
     "en": "Can you buy bread?",
     "t": "Можешь купить хлеб?"
   },
-  "u5-l5.5.traps": {
+  "u5-l5.build-mozes-kupit-chlieb.traps": {
     "en": [
       "Môcť (can) is followed by an infinitive, the -ť form: môžeš **kúpiť**. Kúpim is the ja form, I'll buy.",
       "The question is to **ty** (you), so môcť takes the ty form **môžeš**. Môžem is for ja, I can."
@@ -1297,11 +1297,11 @@
       "Вопрос к **ty**, поэтому у môcť форма для ty: **môžeš** (можешь). Môžem — для ja (могу)."
     ]
   },
-  "u5-l5.6.prompt": {
+  "u5-l5.build-ideme-na-oslavu.prompt": {
     "en": "We're going to the party.",
     "t": "Мы идём на вечеринку."
   },
-  "u5-l5.6.traps": {
+  "u5-l5.build-ideme-na-oslavu.traps": {
     "en": [
       "**Na** (to an event) takes the accusative, so feminine oslava changes -a to **-u**: na **oslavu**.",
       "“We” is **my**, so ísť takes the my form **ideme**. Idete is for vy."
@@ -1311,15 +1311,15 @@
       "«Мы» — **my**, поэтому у ísť форма **ideme** (идём). Idete — для vy (идёте)."
     ]
   },
-  "u5-l5.7.en": {
+  "u5-l5.listen-idem-po-chlieb.en": {
     "en": "I'm going to get bread and wine.",
     "t": "Я иду за хлебом и вином."
   },
-  "u5-l5.8.prompt": {
+  "u5-l5.build-co-chces-pit.prompt": {
     "en": "What do you want to drink?",
     "t": "Что ты хочешь пить?"
   },
-  "u5-l5.8.traps": {
+  "u5-l5.build-co-chces-pit.traps": {
     "en": [
       "The question is to **ty** (you), so chcieť takes the ty form **chceš**. Chcem is the ja form, I want.",
       "To drink is **piť**; kúpiť means to buy. Both are infinitives, the -ť form that follows chcieť."
@@ -1329,11 +1329,11 @@
       "«Пить» — **piť**, а kúpiť — «купить». Оба — инфинитивы на -ť, которые стоят после chcieť."
     ]
   },
-  "u5-l5.9.title": {
+  "u5-l5.grammar-smiet-vediet.title": {
     "en": "smieť and vedieť",
     "t": "smieť и vedieť"
   },
-  "u5-l5.9.body": {
+  "u5-l5.grammar-smiet-vediet.body": {
     "en": [
       "**smieť** = to be allowed to. Careful: nesmieš = you mustn't, but nemusíš = you don't have to.",
       "**vedieť** + infinitive = to know how to: Viem variť. = I can cook."
@@ -1343,7 +1343,7 @@
       "**vedieť** = знать (ср. «ведать»), а с инфинитивом — уметь: Viem variť. = Я умею готовить."
     ]
   },
-  "u5-l5.9.table.head": {
+  "u5-l5.grammar-smiet-vediet.table.head": {
     "en": [
       "",
       "smieť",
@@ -1355,7 +1355,7 @@
       "vedieť"
     ]
   },
-  "u5-l5.9.table.rows": {
+  "u5-l5.grammar-smiet-vediet.table.rows": {
     "en": [
       [
         "ja",
@@ -1421,7 +1421,7 @@
       ]
     ]
   },
-  "u5-l5.9.examples": {
+  "u5-l5.grammar-smiet-vediet.examples": {
     "en": [
       "May I come in?",
       "You can't smoke here.",
@@ -1433,11 +1433,11 @@
       "Марек умеет хорошо готовить."
     ]
   },
-  "u5-l5.10.question": {
+  "u5-l5.choice-viem-varit.question": {
     "en": "What does this mean?",
     "t": "Что это значит?"
   },
-  "u5-l5.10.options": {
+  "u5-l5.choice-viem-varit.options": {
     "en": [
       "I can cook.",
       "I want to cook.",
@@ -1449,15 +1449,15 @@
       "Мне надо готовить."
     ]
   },
-  "u5-l5.10.why": {
+  "u5-l5.choice-viem-varit.why": {
     "en": "**Vedieť** + infinitive means to know how to do something: viem variť = I can cook. I want to would be chcem, I have to musím.",
     "t": "**Vedieť** (ср. «ведать») + инфинитив значит «уметь»: viem variť = я умею готовить. «Хочу» было бы chcem, «надо» — musím."
   },
-  "u5-l5.11.prompt": {
+  "u5-l5.build-nesmies-pit-vino.prompt": {
     "en": "You mustn't drink wine.",
     "t": "Тебе нельзя пить вино."
   },
-  "u5-l5.11.traps": {
+  "u5-l5.build-nesmies-pit-vino.traps": {
     "en": [
       "Not allowed is **nesmieť**: **nesmieš** = you mustn't. Careful: nemusíš means you don't have to.",
       "You mustn't is **nesmieš**, smieť (to be allowed to) with ne-. Chceš means you want."
@@ -1467,7 +1467,7 @@
       "«Тебе нельзя» — **nesmieš**: smieť (можно, разрешено) с ne-, ср. «не смей». Chceš — «ты хочешь»."
     ]
   },
-  "u5-l5.12.answers": {
+  "u5-l5.build-nemusis-ist.answers": {
     "en": [
       "You don't have to go.",
       "You do not have to go."
@@ -1476,7 +1476,7 @@
       "Тебе не надо идти."
     ]
   },
-  "u5-l5.12.distractors": {
+  "u5-l5.build-nemusis-ist.distractors": {
     "en": [
       "must",
       "want"
@@ -1486,15 +1486,15 @@
       "хочешь"
     ]
   },
-  "u5-l5.13.en": {
+  "u5-l5.fill-ideme-cez-park.en": {
     "en": "We're going through the park.",
     "t": "Мы идём через парк."
   },
-  "u5-l5.13.why": {
+  "u5-l5.fill-ideme-cez-park.why": {
     "en": "Going through a place is **cez** + accusative: ideme cez park. **Na** is for going to an event, like na oslavu.",
     "t": "Идти через какое-то место — **cez** + винительный, как «через парк»: ideme cez park. **Na** — когда идут на мероприятие, как na oslavu."
   },
-  "u5-l5.14.en": {
+  "u5-l5.speak-musim-ist.en": {
     "en": "I have to go.",
     "t": "Мне надо идти."
   },
@@ -1502,43 +1502,43 @@
     "en": "Happy birthday!",
     "t": "С днём рождения!"
   },
-  "u5-l6.0.en": {
+  "u5-l6.lucia-ma-dnes.en": {
     "en": "It's Lucia's birthday today.",
     "t": "Сегодня у Луции день рождения."
   },
-  "u5-l6.0.note": {
+  "u5-l6.lucia-ma-dnes.note": {
     "en": "narodeniny (birthday) is always plural.",
     "t": "narodeniny (день рождения) употребляется только во множественном числе, как «именины»."
   },
-  "u5-l6.1.en": {
+  "u5-l6.vsetko-najlepsie.en": {
     "en": "Happy birthday! / All the best!",
     "t": "С днём рождения! / Всего наилучшего!"
   },
-  "u5-l6.1.note": {
+  "u5-l6.vsetko-najlepsie.note": {
     "en": "The standard wish for birthdays and name days.",
     "t": "Обычное поздравление с днём рождения и с именинами (meniny)."
   },
-  "u5-l6.2.question": {
+  "u5-l6.choice-vsetko-najlepsie.question": {
     "en": "It's your friend's birthday. What do you say?",
     "t": "У вашего друга день рождения. Что вы скажете?"
   },
-  "u5-l6.3.en": {
+  "u5-l6.torta-a-sviecky.en": {
     "en": "cake and candles",
     "t": "торт и свечи"
   },
-  "u5-l6.3.note": {
+  "u5-l6.torta-a-sviecky.note": {
     "en": "One candle is sviečka. Plural things don't change as objects: Kúpime sviečky.",
     "t": "Одна свеча — sviečka. Неодушевлённые во множественном числе в винительном не меняются, как и в русском: Kúpime sviečky. Внимание: torta — женского рода."
   },
-  "u5-l6.4.en": {
+  "u5-l6.kytica.en": {
     "en": "bouquet (of flowers)",
     "t": "букет (цветов)"
   },
-  "u5-l6.4.note": {
+  "u5-l6.kytica.note": {
     "en": "Kúpime kytic**u**. = We'll buy a bouquet.",
     "t": "Kúpime kytic**u**. = Мы купим букет."
   },
-  "u5-l6.5.pairs": {
+  "u5-l6.match-torta.pairs": {
     "en": [
       "cake",
       "candles",
@@ -1554,31 +1554,31 @@
       "вечеринка"
     ]
   },
-  "u5-l6.6.en": {
+  "u5-l6.fill-kupime-tortu-a.en": {
     "en": "We'll buy a cake and candles.",
     "t": "Мы купим торт и свечи."
   },
-  "u5-l6.6.why": {
+  "u5-l6.fill-kupime-tortu-a.why": {
     "en": "The cake is what we'll buy, the object, so torta changes -a to **-u**: **tortu**. Sviečky is plural, and plural things don't change as objects.",
     "t": "Torta — дополнение женского рода (не как «торт»), поэтому -a меняется на **-u**: **tortu**. Sviečky — множественное число вещей, а оно в роли дополнения не меняется."
   },
-  "u5-l6.7.en": {
+  "u5-l6.vela-zdravia-stastia.en": {
     "en": "Lots of health, happiness and love!",
     "t": "Много здоровья, счастья и любви!"
   },
-  "u5-l6.7.note": {
+  "u5-l6.vela-zdravia-stastia.note": {
     "en": "A classic birthday wish, often added after “Všetko najlepšie!”.",
     "t": "Классическое пожелание на день рождения, часто после «Všetko najlepšie!». veľa = много."
   },
-  "u5-l6.8.en": {
+  "u5-l6.listen-vsetko-najlepsie-lucia.en": {
     "en": "Happy birthday, Lucia!",
     "t": "С днём рождения, Луция!"
   },
-  "u5-l6.9.prompt": {
+  "u5-l6.build-darcek-je-pre.prompt": {
     "en": "The present is for you.",
     "t": "Подарок для тебя."
   },
-  "u5-l6.9.traps": {
+  "u5-l6.build-darcek-je-pre.traps": {
     "en": [
       "After a preposition like **pre**, pronouns use their long forms: pre **teba**. Ťa is the short form, used without a preposition: hľadám ťa.",
       "The present is one thing, so use the singular **darček**, which also fits je. Darčeky is the plural, presents."
@@ -1588,39 +1588,39 @@
       "Подарок один, поэтому единственное число **darček** — оно и подходит к je. Darčeky — «подарки»."
     ]
   },
-  "u5-l6.10.en": {
+  "u5-l6.dakujem-za-darcek.en": {
     "en": "Thanks for the present.",
     "t": "Спасибо за подарок."
   },
-  "u5-l6.10.note": {
+  "u5-l6.dakujem-za-darcek.note": {
     "en": "ďakovať za + accusative: Ďakujem za kytic**u**.",
     "t": "ďakovať za + винительный, как «благодарить за»: Ďakujem za kytic**u**. = Спасибо за букет."
   },
-  "u5-l6.11.en": {
+  "u5-l6.fill-dakujem-za-kyticu.en": {
     "en": "Thanks for the bouquet.",
     "t": "Спасибо за букет."
   },
-  "u5-l6.11.why": {
+  "u5-l6.fill-dakujem-za-kyticu.why": {
     "en": "**Ďakovať za** takes the accusative, so kytica changes -a to **-u**: za **kyticu**.",
     "t": "**Ďakovať za** требует винительного, как «спасибо за книгу», поэтому kytica меняет -a на **-u**: za **kyticu**."
   },
-  "u5-l6.12.en": {
+  "u5-l6.kedy-prides-o.en": {
     "en": "When are you coming? — In an hour.",
     "t": "Когда ты придёшь? — Через час."
   },
-  "u5-l6.12.note": {
+  "u5-l6.kedy-prides-o.note": {
     "en": "prísť (to come) works like ísť: prídem, prídeš, príde… o + accusative: o hodin**u** = in an hour.",
     "t": "prísť (прийти) спрягается как ísť: prídem, prídeš, príde… = приду, придёшь, придёт. o + винительный: o hodin**u** = через час (hodina = час)."
   },
-  "u5-l6.13.en": {
+  "u5-l6.fill-tomas-pride-o.en": {
     "en": "Tomáš is coming in an hour.",
     "t": "Томаш придёт через час."
   },
-  "u5-l6.13.why": {
+  "u5-l6.fill-tomas-pride-o.why": {
     "en": "Tomáš is **on**, so prísť takes the on form, **príde**, just like ide. Prídem goes with ja, prídu with oni.",
     "t": "Томаш — **on**, поэтому у prísť форма для on: **príde** (придёт), как и ide. Prídem — с ja, prídu — с oni."
   },
-  "u5-l6.14.answers": {
+  "u5-l6.build-nemozem-prist-musim.answers": {
     "en": [
       "I can't come, I have to work.",
       "I cannot come, I have to work.",
@@ -1632,7 +1632,7 @@
       "Я не могу прийти, надо работать."
     ]
   },
-  "u5-l6.14.distractors": {
+  "u5-l6.build-nemozem-prist-musim.distractors": {
     "en": [
       "want",
       "go"
@@ -1642,11 +1642,11 @@
       "идти"
     ]
   },
-  "u5-l6.15.question": {
+  "u5-l6.choice-na-zdravie.question": {
     "en": "Marek raises his glass. What does he mean?",
     "t": "Марек поднимает бокал. Что он имеет в виду?"
   },
-  "u5-l6.15.options": {
+  "u5-l6.choice-na-zdravie.options": {
     "en": [
       "Cheers!",
       "Happy birthday!",
@@ -1658,11 +1658,11 @@
       "Приятного аппетита!"
     ]
   },
-  "u5-l6.16.prompt": {
+  "u5-l6.build-kupim-kyticu-pre.prompt": {
     "en": "I'll buy a bouquet for Lucia.",
     "t": "Я куплю букет для Луции."
   },
-  "u5-l6.16.traps": {
+  "u5-l6.build-kupim-kyticu-pre.traps": {
     "en": [
       "The bouquet is what you'll buy, the object of kúpim, so feminine kytica changes -a to **-u**: **kyticu**.",
       "**Pre** (for) takes the accusative, and Lucia follows the feminine -u rule: Lucia → **Luciu**."
@@ -1672,7 +1672,7 @@
       "**Pre** (для) требует винительного, а не родительного, как русское «для»: Lucia → **Luciu**."
     ]
   },
-  "u5-l6.17.en": {
+  "u5-l6.speak-vsetko-najlepsie.en": {
     "en": "Happy birthday!",
     "t": "С днём рождения!"
   },
@@ -1680,7 +1680,7 @@
     "en": "Review",
     "t": "Повторение"
   },
-  "u5-l7.0.pairs": {
+  "u5-l7.match-sunka.pairs": {
     "en": [
       "ham",
       "mineral water",
@@ -1696,31 +1696,31 @@
       "букет"
     ]
   },
-  "u5-l7.1.en": {
+  "u5-l7.fill-lucia-potrebuje-novu.en": {
     "en": "Lucia needs a new skirt.",
     "t": "Луции нужна новая юбка."
   },
-  "u5-l7.1.why": {
+  "u5-l7.fill-lucia-potrebuje-novu.why": {
     "en": "Sukňu is a feminine object of potrebuje, so its adjective changes -á to **-ú**: nová → **novú**. Nový is the masculine form.",
     "t": "Sukňu — дополнение женского рода к potrebuje, поэтому прилагательное меняет -á на **-ú**: nová → **novú** (новую). Nový — мужской род."
   },
-  "u5-l7.2.en": {
+  "u5-l7.listen-kupim-cerstvu-sunku.en": {
     "en": "I'll buy fresh ham and cheese.",
     "t": "Я куплю свежую ветчину и сыр."
   },
-  "u5-l7.3.en": {
+  "u5-l7.fill-emma-hlada-bielu.en": {
     "en": "Emma is looking for a white shirt.",
     "t": "Эмма ищет белую рубашку."
   },
-  "u5-l7.3.why": {
+  "u5-l7.fill-emma-hlada-bielu.why": {
     "en": "Košeľu is a feminine object, so the colour changes too. Biely has short endings: biela → **bielu**, with -u, not -ú.",
     "t": "Košeľu — дополнение женского рода, поэтому меняется и цвет. У biely краткие окончания: biela → **bielu**, с -u, а не -ú."
   },
-  "u5-l7.4.prompt": {
+  "u5-l7.build-hladam-mareka.prompt": {
     "en": "I'm looking for Marek.",
     "t": "Я ищу Марека."
   },
-  "u5-l7.4.traps": {
+  "u5-l7.build-hladam-mareka.traps": {
     "en": [
       "Marek is a person and the object of hľadám, so the masculine name adds **-a**: **Mareka**. Only masculine things stay the same.",
       "The speaker is **ja** (I'm looking), so hľadať ends in **-m**: **hľadám**. Hľadáš is the ty form."
@@ -1730,27 +1730,27 @@
       "Говорит **ja** (я ищу), поэтому у hľadať окончание **-m**: **hľadám**. Hľadáš — форма для ty."
     ]
   },
-  "u5-l7.5.question": {
+  "u5-l7.choice-mam-noveho-kamarata.question": {
     "en": "Which sentence is correct?",
     "t": "Какое предложение правильное?"
   },
-  "u5-l7.5.why": {
+  "u5-l7.choice-mam-noveho-kamarata.why": {
     "en": "Kamarát is a male person, so as an object both words change: the noun adds **-a** and its adjective ends in **-ého**: nov**ého** kamarát**a**.",
     "t": "Kamarát — одушевлённое, поэтому в роли дополнения меняются оба слова: существительное получает **-a**, прилагательное — **-ého**: nov**ého** kamarát**a**, как «нового друга»."
   },
-  "u5-l7.6.en": {
+  "u5-l7.fill-tomas-cakam-na.en": {
     "en": "Tomáš? I'm waiting for him.",
     "t": "Томаш? Я его жду."
   },
-  "u5-l7.6.why": {
+  "u5-l7.fill-tomas-cakam-na.why": {
     "en": "After a preposition like **na**, on uses its long form: na **neho**. Ho is the short form, used without a preposition; ňu means her.",
     "t": "После предлога, например **na**, у on полная форма: na **neho**, как «на него». Ho — краткая форма, без предлога; ňu значит «её»."
   },
-  "u5-l7.7.prompt": {
+  "u5-l7.build-kytica-je-pre.prompt": {
     "en": "The bouquet is for her.",
     "t": "Букет для неё."
   },
-  "u5-l7.7.traps": {
+  "u5-l7.build-kytica-je-pre.traps": {
     "en": [
       "After a preposition like **pre**, ona uses its long form: pre **ňu**. Ju is the short form, used without a preposition.",
       "Here the bouquet isn't an object: the sentence is about it (kytica je…), so it keeps its plain form **kytica**. Kyticu is the object form."
@@ -1760,19 +1760,19 @@
       "Здесь букет — подлежащее (kytica je…), поэтому именительный падеж: **kytica**. Kyticu — винительный, для дополнения."
     ]
   },
-  "u5-l7.8.en": {
+  "u5-l7.fill-oni-idu-na.en": {
     "en": "They're going to the party.",
     "t": "Они идут на вечеринку."
   },
-  "u5-l7.8.why": {
+  "u5-l7.fill-oni-idu-na.why": {
     "en": "With **oni** (they), ísť ends in **-ú**: idú. Ide goes with on or ona, idem with ja.",
     "t": "С **oni** (они) ísť оканчивается на **-ú**: idú (идут). Ide — с on или ona, idem — с ja."
   },
-  "u5-l7.9.question": {
+  "u5-l7.choice-ides-na-oslavu.question": {
     "en": "What does this mean?",
     "t": "Что это значит?"
   },
-  "u5-l7.9.options": {
+  "u5-l7.choice-ides-na-oslavu.options": {
     "en": [
       "Are you going to the party?",
       "Do you want a party?",
@@ -1784,15 +1784,15 @@
       "Ты на вечеринке?"
     ]
   },
-  "u5-l7.9.why": {
+  "u5-l7.choice-ides-na-oslavu.why": {
     "en": "**Ideš** is the ty form of ísť (to go), and **na** + accusative means going to an event: na oslavu = to the party.",
     "t": "**Ideš** — форма глагола ísť (идти) для ty, а **na** + винительный — это «на» какое-то мероприятие: na oslavu = на вечеринку."
   },
-  "u5-l7.10.prompt": {
+  "u5-l7.build-mozes-kupit-tortu.prompt": {
     "en": "Can you buy a cake?",
     "t": "Можешь купить торт?"
   },
-  "u5-l7.10.traps": {
+  "u5-l7.build-mozes-kupit-tortu.traps": {
     "en": [
       "The cake is what you'd buy, the object of kúpiť, so feminine torta changes -a to **-u**: **tortu**.",
       "Can you is **môžeš**, the ty form of môcť (can). Musíš means you must, from musieť."
@@ -1802,15 +1802,15 @@
       "«Можешь» — **môžeš**, форма môcť (мочь) для ty. Musíš — «ты должен», от musieť."
     ]
   },
-  "u5-l7.11.en": {
+  "u5-l7.fill-tu-nesmiete-fajcit.en": {
     "en": "You're not allowed to smoke here.",
     "t": "Здесь нельзя курить."
   },
-  "u5-l7.11.why": {
+  "u5-l7.fill-tu-nesmiete-fajcit.why": {
     "en": "Not allowed is **nesmieť**: nesmiete = you mustn't. Careful: nemusíte means you don't have to, and neviete you don't know how.",
     "t": "«Нельзя» — это **nesmieť**: nesmiete = вам нельзя (ср. «не смейте»). Осторожно: nemusíte — «вам не обязательно», а neviete — «вы не умеете»."
   },
-  "u5-l7.12.answers": {
+  "u5-l7.build-mam-ho-rad.answers": {
     "en": [
       "I like him.",
       "I like it."
@@ -1820,7 +1820,7 @@
       "Я люблю его."
     ]
   },
-  "u5-l7.12.distractors": {
+  "u5-l7.build-mam-ho-rad.distractors": {
     "en": [
       "her",
       "have"
@@ -1830,11 +1830,11 @@
       "имею"
     ]
   },
-  "u5-l7.13.en": {
+  "u5-l7.listen-dnes-mame-oslavu.en": {
     "en": "We're having a party today!",
     "t": "Сегодня у нас вечеринка!"
   },
-  "u5-l7.14.en": {
+  "u5-l7.speak-pozyvam-ta-na.en": {
     "en": "I'm inviting you to the party.",
     "t": "Приглашаю тебя на вечеринку."
   }

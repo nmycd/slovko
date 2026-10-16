@@ -4,7 +4,7 @@
   "items": [
     {
       "lesson": "u3-l1",
-      "exercise": 0,
+      "exercise": "izba",
       "type": "intro",
       "text": "izba = room",
       "picture": "Emma and Lucia's dorm room, empty and tidy: the two beds, the desks with a laptop and a lamp, a shelf of books on the wall, the tall wardrobe, curtains at the window.",
@@ -17,7 +17,7 @@
     },
     {
       "lesson": "u3-l1",
-      "exercise": 1,
+      "exercise": "kuchyna",
       "type": "intro",
       "text": "kuchyňa = kitchen",
       "picture": "The shared dorm kitchen with nobody in it: a stove with a kettle on it, a fridge, a sink, a microwave and a washing machine under the counter, curtains at the window.",
@@ -30,7 +30,7 @@
     },
     {
       "lesson": "u3-l1",
-      "exercise": 2,
+      "exercise": "kupelna",
       "type": "intro",
       "text": "kúpeľňa = bathroom",
       "picture": "The small dorm bathroom: a shower, a sink with two toothbrushes in a mug, towels on hooks. Emma, in a bathrobe, brushes her teeth.",
@@ -43,7 +43,7 @@
     },
     {
       "lesson": "u3-l1",
-      "exercise": 4,
+      "exercise": "balkon",
       "type": "intro",
       "text": "balkón = balcony",
       "picture": "Emma and Lucia on the dormitory's narrow balcony, leaning on the railing with mugs, the city spread out below.",
@@ -56,7 +56,7 @@
     },
     {
       "lesson": "u3-l1",
-      "exercise": 6,
+      "exercise": "kde-je-kuchyna",
       "type": "intro",
       "text": "Kde je kuchyňa? = Where is the kitchen?",
       "picture": "Emma, new in the dormitory and holding an empty mug, looks around a long corridor full of identical doors, puzzled.",
@@ -64,7 +64,7 @@
     },
     {
       "lesson": "u3-l1",
-      "exercise": 7,
+      "exercise": "hore-dole",
       "type": "intro",
       "text": "hore – dole = upstairs – downstairs",
       "picture": "The dormitory staircase: Lucia leans over the railing upstairs and waves; Emma looks up at her from the bottom of the stairs.",
@@ -72,7 +72,7 @@
     },
     {
       "lesson": "u3-l1",
-      "exercise": 10,
+      "exercise": "vratnica",
       "type": "intro",
       "text": "vrátnica = front desk, porter's lodge",
       "picture": "Emma comes in through the dormitory entrance with her backpack and stops at the porter's window, where pán Kováč sits behind the glass. A blank notice is pinned to the door.",
@@ -85,7 +85,7 @@
     },
     {
       "lesson": "u3-l1",
-      "exercise": 12,
+      "exercise": "byvam-na-internate",
       "type": "intro",
       "text": "Bývam na internáte. = I live in the dorm.",
       "picture": "Outside the dormitory, a tall concrete student block with rows of windows. Emma walks towards the entrance with her tote bag; Lucia waves from a window.",
@@ -98,10 +98,10 @@
     },
     {
       "lesson": "u3-l1",
-      "exercise": 16,
+      "exercise": "choice-kuchyna",
       "type": "choice",
       "text": "Lucia wants to cook. Where does she go?",
-      "reuse": "u3-l1#1",
+      "reuse": "u3-l1#kuchyna",
       "book": {
         "pdfPage": 33,
         "printedPage": 36,
@@ -111,7 +111,7 @@
     },
     {
       "lesson": "u3-l2",
-      "exercise": 0,
+      "exercise": "velky-maly",
       "type": "intro",
       "text": "veľký – malý = big – small",
       "picture": "Two halves. Left: a huge elephant. Right: a tiny garden gnome.",
@@ -124,7 +124,7 @@
     },
     {
       "lesson": "u3-l2",
-      "exercise": 1,
+      "exercise": "novy-stary",
       "type": "intro",
       "text": "nový – starý = new – old",
       "picture": "Two halves. Left: a dusty old bottle lying on its side, its label peeling. Right: a shiny new bottle, gleaming.",
@@ -137,15 +137,15 @@
     },
     {
       "lesson": "u3-l2",
-      "exercise": 6,
+      "exercise": "maly-ale-pekny",
       "type": "intro",
       "text": "malý, ale pekný = small but nice",
-      "reuse": "u3-l1#0",
+      "reuse": "u3-l1#izba",
       "book": null
     },
     {
       "lesson": "u3-l3",
-      "exercise": 0,
+      "exercise": "postel",
       "type": "intro",
       "text": "posteľ = bed",
       "picture": "Emma flops onto her bed in the dorm room with a happy sigh, her tote bag dropped on the floor.",
@@ -158,7 +158,7 @@
     },
     {
       "lesson": "u3-l3",
-      "exercise": 1,
+      "exercise": "stol",
       "type": "intro",
       "text": "stôl = table, desk",
       "picture": "Emma's desk under the dorm window: a laptop, a pile of books, a mug of tea. Emma sits there writing in a notebook.",
@@ -171,7 +171,7 @@
     },
     {
       "lesson": "u3-l3",
-      "exercise": 2,
+      "exercise": "skrina",
       "type": "intro",
       "text": "skriňa = wardrobe",
       "picture": "Moving-in day in the dorm room: Emma opens the tall wardrobe to check whether it's hers, while Lucia unpacks a pillow onto her bed.",
@@ -184,7 +184,7 @@
     },
     {
       "lesson": "u3-l3",
-      "exercise": 4,
+      "exercise": "lampa",
       "type": "intro",
       "text": "lampa = lamp",
       "picture": "Evening in the dorm room: Lucia switches on the lamp on her desk, a warm circle of light on her books.",
@@ -197,7 +197,7 @@
     },
     {
       "lesson": "u3-l3",
-      "exercise": 5,
+      "exercise": "okno",
       "type": "intro",
       "text": "okno = window",
       "picture": "Emma throws the dorm room window wide open and leans out into a sunny morning.",
@@ -210,7 +210,7 @@
     },
     {
       "lesson": "u3-l3",
-      "exercise": 7,
+      "exercise": "vlavo-vpravo",
       "type": "intro",
       "text": "vľavo – vpravo = on the left – on the right",
       "picture": "Emma and Lucia's dorm room seen from the door, with nobody in it: the desks on the left, the beds on the right, the tall wardrobe at the back.",
@@ -223,7 +223,7 @@
     },
     {
       "lesson": "u3-l3",
-      "exercise": 10,
+      "exercise": "vpredu-vzadu",
       "type": "intro",
       "text": "vpredu – vzadu = at the front – at the back",
       "picture": "In the dorm room, Lucia sits at her desk at the front, by the door; Emma sits at hers at the back, under the window. Each is busy with her own work.",
@@ -236,7 +236,7 @@
     },
     {
       "lesson": "u3-l5",
-      "exercise": 0,
+      "exercise": "byt",
       "type": "intro",
       "text": "byt = flat, apartment",
       "picture": "Marek proudly shows Emma, Lucia and Tomáš into his new flat, gesturing around the hallway; they look about, impressed.",
@@ -249,7 +249,7 @@
     },
     {
       "lesson": "u3-l5",
-      "exercise": 1,
+      "exercise": "podte-dalej",
       "type": "intro",
       "text": "Poďte ďalej! = Come in!",
       "picture": "Marek, in his red flannel shirt, opens the door of his new flat to Emma and Lucia and steps aside with a welcoming sweep of his arm.",
@@ -262,10 +262,10 @@
     },
     {
       "lesson": "u3-l5",
-      "exercise": 2,
+      "exercise": "choice-podte-dalej",
       "type": "choice",
       "text": "Marek opens the door for Emma and Lucia. What does he say?",
-      "reuse": "u3-l5#1",
+      "reuse": "u3-l5#podte-dalej",
       "book": {
         "pdfPage": 35,
         "printedPage": 38,
@@ -275,7 +275,7 @@
     },
     {
       "lesson": "u3-l5",
-      "exercise": 3,
+      "exercise": "chodba",
       "type": "intro",
       "text": "chodba = hallway",
       "picture": "The narrow hallway of Marek's flat: coat hooks and a shoe rack. Emma and Lucia hang up their jackets.",
@@ -288,7 +288,7 @@
     },
     {
       "lesson": "u3-l5",
-      "exercise": 4,
+      "exercise": "obyvacka",
       "type": "intro",
       "text": "obývačka = living room",
       "picture": "Marek's living room: a sofa, a rug, a TV and a big window. Lucia drops onto the sofa while Marek carries in a box.",
@@ -301,7 +301,7 @@
     },
     {
       "lesson": "u3-l5",
-      "exercise": 5,
+      "exercise": "spalna",
       "type": "intro",
       "text": "spálňa = bedroom",
       "picture": "Marek's small bedroom: a double bed, a wardrobe, his chef's jacket hanging on the door.",
@@ -314,7 +314,7 @@
     },
     {
       "lesson": "u3-l5",
-      "exercise": 7,
+      "exercise": "v-strede-je",
       "type": "intro",
       "text": "V strede je chodba. = The hallway is in the middle.",
       "picture": "Marek's flat seen from above with the roof lifted off: the hallway in the middle, with the kitchen, bathroom, living room and bedroom around it. Marek, Emma and Lucia stand in the hallway.",
@@ -327,7 +327,7 @@
     },
     {
       "lesson": "u3-l5",
-      "exercise": 10,
+      "exercise": "drahy-lacny",
       "type": "intro",
       "text": "drahý – lacný = expensive – cheap",
       "picture": "Two halves. Left: in a jeweller's, Marek stares wide-eyed at a gold ring with a big sparkling stone, a thick stack of banknotes beside it. Right: at a market stall, Lucia happily tries on a cheap little ring that costs a single coin.",
@@ -340,7 +340,7 @@
     },
     {
       "lesson": "u3-l5",
-      "exercise": 12,
+      "exercise": "svetly-tmavy",
       "type": "intro",
       "text": "svetlý – tmavý = bright – dark",
       "picture": "Two halves. Left: Marek's living room, bright with sunlight from a big window. Right: his bedroom, dim, its small window facing a narrow courtyard.",
@@ -348,7 +348,7 @@
     },
     {
       "lesson": "u3-l6",
-      "exercise": 3,
+      "exercise": "choice-ta-vlavo",
       "type": "choice",
       "text": "Lucia asks: “Ktorá lampa je tvoja?” Emma's lamp is on the left. What does Emma say?",
       "picture": "Moving-in day in the dorm room: Lucia, a box in her arms, asks which lamp is Emma's; Emma points to the one on the left.",

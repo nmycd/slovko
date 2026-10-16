@@ -1,5 +1,5 @@
 // Course translations: every base-language (English) field of the course has
-// a stable key, e.g. "u1-l3.5.question". Translations live in
+// a stable key, e.g. "u1-l3.choice-dovidenia.question" (lesson, exercise id, field). Translations live in
 // translations/<locale>/unitN.json as { key: { en: source, t: translation } };
 // keeping the English source next to each translation lets the validator spot
 // translations that went stale after the English changed.
@@ -21,11 +21,11 @@ export function translatableFields(unit: Unit): Record<string, Field> {
   };
   for (const lesson of unit.lessons) {
     fields[`${lesson.id}.titleEn`] = lesson.titleEn;
-    lesson.exercises.forEach((ex, i) => {
+    for (const ex of lesson.exercises) {
       for (const [field, value] of Object.entries(exerciseFields(ex))) {
-        fields[`${lesson.id}.${i}.${field}`] = value;
+        fields[`${lesson.id}.${ex.id}.${field}`] = value;
       }
-    });
+    }
   }
   return fields;
 }
@@ -100,8 +100,8 @@ export function localizeUnit(unit: Unit, catalog: Catalog): Unit {
       (lesson): Lesson => ({
         ...lesson,
         titleEn: tr(`${lesson.id}.titleEn`, lesson.titleEn),
-        exercises: lesson.exercises.map((ex, i) => localizeExercise(ex, (field, fallback) =>
-          tr(`${lesson.id}.${i}.${field}`, fallback),
+        exercises: lesson.exercises.map((ex) => localizeExercise(ex, (field, fallback) =>
+          tr(`${lesson.id}.${ex.id}.${field}`, fallback),
         )),
       }),
     ),

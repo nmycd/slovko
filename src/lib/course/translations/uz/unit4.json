@@ -37,23 +37,23 @@
     "en": "The town",
     "t": "Shahar"
   },
-  "u4-l1.0.en": {
+  "u4-l1.mesto.en": {
     "en": "town, city",
     "t": "shahar"
   },
-  "u4-l1.0.note": {
+  "u4-l1.mesto.note": {
     "en": "Neuter: to mesto. The capital is **hlavné mesto**; Bratislava's historic centre is **Staré Mesto** (the Old Town).",
     "t": "Oʻrta jins: to mesto. Poytaxt — **hlavné mesto**; Bratislavaning tarixiy markazi — **Staré Mesto** (Eski shahar)."
   },
-  "u4-l1.1.en": {
+  "u4-l1.dedina.en": {
     "en": "village",
     "t": "qishloq"
   },
-  "u4-l1.2.question": {
+  "u4-l1.choice-dedina.question": {
     "en": "What does this mean?",
     "t": "Bu nimani anglatadi?"
   },
-  "u4-l1.2.options": {
+  "u4-l1.choice-dedina.options": {
     "en": [
       "village",
       "town",
@@ -65,19 +65,19 @@
       "maydon"
     ]
   },
-  "u4-l1.3.en": {
+  "u4-l1.namestie.en": {
     "en": "square",
     "t": "maydon"
   },
-  "u4-l1.3.note": {
+  "u4-l1.namestie.note": {
     "en": "Neuter, like mesto: to námestie.",
     "t": "Oʻrta jins, xuddi mesto kabi: to námestie."
   },
-  "u4-l1.4.en": {
+  "u4-l1.kostol.en": {
     "en": "church",
     "t": "cherkov"
   },
-  "u4-l1.5.pairs": {
+  "u4-l1.match-mesto.pairs": {
     "en": [
       "town",
       "village",
@@ -91,59 +91,59 @@
       "cherkov"
     ]
   },
-  "u4-l1.6.en": {
+  "u4-l1.hrad-je-stary.en": {
     "en": "The castle is old.",
     "t": "Qalʼa eski."
   },
-  "u4-l1.6.note": {
+  "u4-l1.hrad-je-stary.note": {
     "en": "After **je**, the adjective still matches the noun: hrad je star**ý**, dedina je star**á**, mesto je star**é**.",
     "t": "Sifat **je** soʻzidan keyin ham otning jinsiga moslashadi: hrad je star**ý**, dedina je star**á**, mesto je star**é**."
   },
-  "u4-l1.7.en": {
+  "u4-l1.fill-bratislava-je-hlavne.en": {
     "en": "Bratislava is the capital of Slovakia.",
     "t": "Bratislava — Slovakiyaning poytaxti."
   },
-  "u4-l1.7.why": {
+  "u4-l1.fill-bratislava-je-hlavne.why": {
     "en": "The capital is the set phrase **hlavné mesto**. Hlavné has the neuter ending -é, which already rules out dedina, a feminine word.",
     "t": "Poytaxt — tayyor ibora: **hlavné mesto**. Hlavné oʻrta jins qoʻshimchasi -é bilan tugaydi, shuning uchun ayol jinsidagi dedina mos kelmaydi."
   },
-  "u4-l1.8.en": {
+  "u4-l1.most.en": {
     "en": "bridge",
     "t": "koʻprik"
   },
-  "u4-l1.9.question": {
+  "u4-l1.choice-most-je-novy.question": {
     "en": "How do you say “The bridge is new”?",
     "t": "«Koʻprik yangi» qanday aytiladi?"
   },
-  "u4-l1.9.why": {
+  "u4-l1.choice-most-je-novy.why": {
     "en": "Most ends in a consonant, so it's masculine and the adjective takes **-ý**, after je too. Nová is for feminine words, nové for neuter ones.",
     "t": "Most undosh bilan tugaydi, demak erkak jinsida, sifat esa je soʻzidan keyin ham **-ý** oladi. Nová ayol jinsidagi, nové oʻrta jinsdagi soʻzlar uchun."
   },
-  "u4-l1.10.en": {
+  "u4-l1.rieka.en": {
     "en": "river",
     "t": "daryo"
   },
-  "u4-l1.10.note": {
+  "u4-l1.rieka.note": {
     "en": "Bratislava's river is the **Dunaj** (the Danube). **dlhý** = long: dlh**á** rieka.",
     "t": "Bratislava daryosi — **Dunaj** (Dunay). **dlhý** = uzun: dlh**á** rieka."
   },
-  "u4-l1.11.en": {
+  "u4-l1.fill-dunaj-je-dlhy.en": {
     "en": "The Danube is long.",
     "t": "Dunay uzun."
   },
-  "u4-l1.11.why": {
+  "u4-l1.fill-dunaj-je-dlhy.why": {
     "en": "Dunaj ends in a consonant, so it's masculine and takes **-ý**: dlh**ý**. Dlhá goes with rieka, which is feminine, but here the subject is Dunaj.",
     "t": "Dunaj undosh bilan tugaydi, demak erkak jinsida va **-ý** oladi: dlh**ý**. Dlhá ayol jinsidagi rieka bilan keladi, lekin bu yerda gap Dunaj haqida."
   },
-  "u4-l1.12.en": {
+  "u4-l1.listen-lucia-kde-je.en": {
     "en": "Lucia, where's the castle?",
     "t": "Lusiya, qalʼa qayerda?"
   },
-  "u4-l1.13.prompt": {
+  "u4-l1.build-mesto-je-male.prompt": {
     "en": "The town is small and pretty.",
     "t": "Shahar kichik va chiroyli."
   },
-  "u4-l1.13.traps": {
+  "u4-l1.build-mesto-je-male.traps": {
     "en": [
       "Mesto ends in -o, so it's neuter and the adjective takes **-é**, after je too: mal**é**. Malá is for feminine nouns.",
       "Both adjectives match mesto, which is neuter: pekn**é**, like malé. Pekný is for masculine nouns."
@@ -153,19 +153,19 @@
       "Ikkala sifat ham oʻrta jinsdagi mesto soʻziga moslashadi: pekn**é**, xuddi malé kabi. Pekný erkak jinsidagi otlar uchun."
     ]
   },
-  "u4-l1.14.en": {
+  "u4-l1.vysoky.en": {
     "en": "tall, high",
     "t": "baland"
   },
-  "u4-l1.14.note": {
+  "u4-l1.vysoky.note": {
     "en": "Like nový: vysok**ý** hrad, vysok**á** lampa, vysok**é** okno.",
     "t": "Xuddi nový kabi: vysok**ý** hrad, vysok**á** lampa, vysok**é** okno."
   },
-  "u4-l1.15.question": {
+  "u4-l1.choice-kostol-je-vysoky.question": {
     "en": "Lucia says this. What is tall?",
     "t": "Lusiya shunday deydi. Nima baland?"
   },
-  "u4-l1.15.options": {
+  "u4-l1.choice-kostol-je-vysoky.options": {
     "en": [
       "the church",
       "the castle",
@@ -177,7 +177,7 @@
       "koʻprik"
     ]
   },
-  "u4-l1.16.answers": {
+  "u4-l1.build-hrad-je-stary.answers": {
     "en": [
       "The castle is old and the church is new.",
       "The castle is old and the church new."
@@ -187,7 +187,7 @@
       "Cherkov yangi, qalʼa esa eski."
     ]
   },
-  "u4-l1.16.distractors": {
+  "u4-l1.build-hrad-je-stary.distractors": {
     "en": [
       "bridge",
       "young"
@@ -197,7 +197,7 @@
       "yosh"
     ]
   },
-  "u4-l1.17.en": {
+  "u4-l1.speak-to-je-stare.en": {
     "en": "That's the Old Town.",
     "t": "Bu — Eski shahar."
   },
@@ -205,43 +205,43 @@
     "en": "Where's the post office?",
     "t": "Pochta qayerda?"
   },
-  "u4-l2.0.en": {
+  "u4-l2.prepacte-kde-je.en": {
     "en": "Excuse me, where's the post office?",
     "t": "Kechirasiz, pochta qayerda?"
   },
-  "u4-l2.0.note": {
+  "u4-l2.prepacte-kde-je.note": {
     "en": "**Kde je…?** works for any place: Kde je **banka** (the bank)? Kde je **hotel**?",
     "t": "**Kde je…?** (… qayerda?) har qanday joy uchun ishlaydi: Kde je **banka** (bank)? Kde je **hotel** (mehmonxona)?"
   },
-  "u4-l2.1.en": {
+  "u4-l2.kaviaren.en": {
     "en": "café",
     "t": "kafe"
   },
-  "u4-l2.1.note": {
+  "u4-l2.kaviaren.note": {
     "en": "Feminine, even though it ends in a consonant: tá kaviareň. **káva** = coffee.",
     "t": "Undosh bilan tugasa ham, ayol jinsida: tá kaviareň. **káva** = qahva."
   },
-  "u4-l2.2.question": {
+  "u4-l2.choice-kaviaren.question": {
     "en": "Emma wants a coffee. Where does she go?",
     "t": "Emma qahva ichmoqchi. U qayerga boradi?"
   },
-  "u4-l2.3.en": {
+  "u4-l2.kino.en": {
     "en": "cinema",
     "t": "kinoteatr"
   },
-  "u4-l2.4.en": {
+  "u4-l2.divadlo.en": {
     "en": "theatre",
     "t": "teatr"
   },
-  "u4-l2.5.en": {
+  "u4-l2.muzeum.en": {
     "en": "museum",
     "t": "muzey"
   },
-  "u4-l2.5.note": {
+  "u4-l2.muzeum.note": {
     "en": "Kino, divadlo and múzeum are all neuter: to kino, to divadlo, to múzeum.",
     "t": "Kino, divadlo va múzeum — hammasi oʻrta jinsda: to kino, to divadlo, to múzeum."
   },
-  "u4-l2.6.pairs": {
+  "u4-l2.match-posta.pairs": {
     "en": [
       "post office",
       "café",
@@ -257,35 +257,35 @@
       "muzey"
     ]
   },
-  "u4-l2.7.en": {
+  "u4-l2.fill-prepacte-kde-je.en": {
     "en": "Excuse me, where's the bank?",
     "t": "Kechirasiz, bank qayerda?"
   },
-  "u4-l2.7.why": {
+  "u4-l2.fill-prepacte-kde-je.why": {
     "en": "Banka is one thing (ona), so the verb is **je**: Kde je…? works for any one place. Sú goes with oni, ony, and som with ja.",
     "t": "Banka — bitta narsa (ona), shuning uchun feʼl **je**: Kde je…? har qanday bitta joy uchun ishlaydi. Sú oni, ony bilan, som esa ja bilan keladi."
   },
-  "u4-l2.8.en": {
+  "u4-l2.dolava-doprava.en": {
     "en": "(to the) left – (to the) right",
     "t": "chapga – oʻngga"
   },
-  "u4-l2.8.note": {
+  "u4-l2.dolava-doprava.note": {
     "en": "Use these for directions, where to go. For where something is, you know **vľavo – vpravo**: Pošta je vľavo.",
     "t": "Bular yoʻnalish uchun: qayerga borish kerak. Narsa qayerda ekanini aytish uchun tanish **vľavo – vpravo** (chapda – oʻngda) ishlatiladi: Pošta je vľavo."
   },
-  "u4-l2.9.en": {
+  "u4-l2.chodte-rovno-potom.en": {
     "en": "Go straight on, then right.",
     "t": "Toʻgʻriga yuring, keyin oʻngga."
   },
-  "u4-l2.9.note": {
+  "u4-l2.chodte-rovno-potom.note": {
     "en": "**potom** = then. **Choďte** is for vy (strangers); to a friend: **Choď** rovno!",
     "t": "**potom** = keyin. **Choďte** — «siz» deb murojaat qilinadigan odamga (masalan, notanishga); doʻstingizga: **Choď** rovno!"
   },
-  "u4-l2.10.question": {
+  "u4-l2.choice-chodte-dolava.question": {
     "en": "What does pán Kováč tell Emma?",
     "t": "Janob Kovach Emmaga nima deydi?"
   },
-  "u4-l2.10.options": {
+  "u4-l2.choice-chodte-dolava.options": {
     "en": [
       "Go left.",
       "Go right.",
@@ -297,23 +297,23 @@
       "Toʻgʻriga yuring."
     ]
   },
-  "u4-l2.11.en": {
+  "u4-l2.posta-je-oproti.en": {
     "en": "The post office is opposite.",
     "t": "Pochta roʻparada."
   },
-  "u4-l2.11.note": {
+  "u4-l2.posta-je-oproti.note": {
     "en": "**oproti** = opposite, across the street.",
     "t": "**oproti** = roʻparada, koʻchaning narigi tomonida."
   },
-  "u4-l2.12.en": {
+  "u4-l2.listen-kino-je-vlavo.en": {
     "en": "The cinema is on the left, the theatre is on the right.",
     "t": "Kinoteatr chapda, teatr oʻngda."
   },
-  "u4-l2.13.prompt": {
+  "u4-l2.build-prepacte-kde-je.prompt": {
     "en": "Excuse me, where's the museum?",
     "t": "Kechirasiz, muzey qayerda?"
   },
-  "u4-l2.13.traps": {
+  "u4-l2.build-prepacte-kde-je.traps": {
     "en": [
       "Múzeum is one thing (ono), so the verb is **je**: Kde je…? works for any one place. Sú goes with oni, ony.",
       "The museum is **múzeum**. Kino means cinema."
@@ -323,23 +323,23 @@
       "«Muzey» — **múzeum**. Kino esa «kinoteatr» degani."
     ]
   },
-  "u4-l2.14.en": {
+  "u4-l2.fill-ahoj-tomas-chod.en": {
     "en": "Hi Tomáš! Go straight on, then left.",
     "t": "Salom, Tomash! Toʻgʻriga yur, keyin chapga."
   },
-  "u4-l2.14.why": {
+  "u4-l2.fill-ahoj-tomas-chod.why": {
     "en": "Ahoj and a first name mean a friend, so use the ty form **Choď**. Choďte is for vy: a stranger or a group.",
     "t": "Ahoj va ism — demak doʻst, shuning uchun ty shakli: **Choď** (yur). Choďte (yuring) esa vy uchun: notanish odam yoki guruhga."
   },
-  "u4-l2.15.en": {
+  "u4-l2.fill-muzeum-je-nove.en": {
     "en": "The museum is new.",
     "t": "Muzey yangi."
   },
-  "u4-l2.15.why": {
+  "u4-l2.fill-muzeum-je-nove.why": {
     "en": "Múzeum is neuter, like kino and divadlo, even though it ends in -um. So the adjective takes **-é**, after je too.",
     "t": "Múzeum -um bilan tugasa ham, kino va divadlo kabi oʻrta jinsda. Shuning uchun sifat je soʻzidan keyin ham **-é** oladi."
   },
-  "u4-l2.16.answers": {
+  "u4-l2.build-posta-je-oproti.answers": {
     "en": [
       "The post office is opposite, the bank is on the left."
     ],
@@ -348,7 +348,7 @@
       "Bank chapda, pochta roʻparada."
     ]
   },
-  "u4-l2.16.distractors": {
+  "u4-l2.build-posta-je-oproti.distractors": {
     "en": [
       "right"
     ],
@@ -357,7 +357,7 @@
       "chapga"
     ]
   },
-  "u4-l2.17.en": {
+  "u4-l2.speak-prepacte-kde-je.en": {
     "en": "Excuse me, where's the post office?",
     "t": "Kechirasiz, pochta qayerda?"
   },
@@ -365,35 +365,35 @@
     "en": "Jobs",
     "t": "Kasblar"
   },
-  "u4-l3.0.en": {
+  "u4-l3.co-robis-som.en": {
     "en": "What do you do? — I'm a cook.",
     "t": "Nima ish qilasan? — Oshpazman."
   },
-  "u4-l3.0.note": {
+  "u4-l3.co-robis-som.note": {
     "en": "Marek, Lucia's brother, is a cook. To someone you call vy: Čo robíte?",
     "t": "Lusiyaning akasi Marek oshpaz boʻlib ishlaydi. «Siz» deb murojaat qilinadigan odamga: Čo robíte?"
   },
-  "u4-l3.1.en": {
+  "u4-l3.casnik.en": {
     "en": "waiter",
     "t": "ofitsiant"
   },
-  "u4-l3.2.question": {
+  "u4-l3.choice-kuchar.question": {
     "en": "Who cooks in a restaurant?",
     "t": "Restoranda kim ovqat pishiradi?"
   },
-  "u4-l3.3.en": {
+  "u4-l3.predavac.en": {
     "en": "shop assistant",
     "t": "sotuvchi"
   },
-  "u4-l3.4.en": {
+  "u4-l3.novinar.en": {
     "en": "journalist",
     "t": "jurnalist"
   },
-  "u4-l3.5.title": {
+  "u4-l3.grammar-jobs-he-she.title": {
     "en": "Jobs: he and she",
     "t": "Kasblar: erkak va ayol"
   },
-  "u4-l3.5.body": {
+  "u4-l3.grammar-jobs-he-she.body": {
     "en": [
       "Jobs work like študent → študent**ka**: most add **-ka** for a woman, kuchár → kuchár**ka**.",
       "Jobs ending in **-ník** change to **-níčka**: čašník → čašní**čka**."
@@ -403,7 +403,7 @@
       "**-ník** bilan tugaydigan kasblarda ayol shakli **-níčka** boʻladi: čašník → čašní**čka**."
     ]
   },
-  "u4-l3.5.table.head": {
+  "u4-l3.grammar-jobs-he-she.table.head": {
     "en": [
       "he",
       "she"
@@ -413,7 +413,7 @@
       "ayol"
     ]
   },
-  "u4-l3.5.table.rows": {
+  "u4-l3.grammar-jobs-he-she.table.rows": {
     "en": [
       [
         "kuchár",
@@ -459,7 +459,7 @@
       ]
     ]
   },
-  "u4-l3.5.examples": {
+  "u4-l3.grammar-jobs-he-she.examples": {
     "en": [
       "Marek is a cook.",
       "Martina is a journalist.",
@@ -471,31 +471,31 @@
       "Peter — ofitsiant, Yana ham ofitsiant."
     ]
   },
-  "u4-l3.6.en": {
+  "u4-l3.fill-ivan-je-casnik.en": {
     "en": "Ivan is a waiter and Mária is a shop assistant.",
     "t": "Ivan — ofitsiant, Mariya esa sotuvchi."
   },
-  "u4-l3.6.why": {
+  "u4-l3.fill-ivan-je-casnik.why": {
     "en": "Mária is a woman, so the job takes the feminine **-ka**: predavač → predavač**ka**, like študent → študentka.",
     "t": "Mariya — ayol, shuning uchun kasb nomi **-ka** bilan ayol shaklida keladi: predavač → predavač**ka**, xuddi študent → študentka kabi."
   },
-  "u4-l3.7.en": {
+  "u4-l3.sofer.en": {
     "en": "driver",
     "t": "haydovchi"
   },
-  "u4-l3.7.note": {
+  "u4-l3.sofer.note": {
     "en": "A woman driver: šofér**ka**.",
     "t": "Ayol haydovchi: šofér**ka**."
   },
-  "u4-l3.8.en": {
+  "u4-l3.dochodca.en": {
     "en": "pensioner (a retired man)",
     "t": "nafaqaxoʻr (erkak)"
   },
-  "u4-l3.8.note": {
+  "u4-l3.dochodca.note": {
     "en": "A retired woman is dôchod**kyňa**: many words ending in -ca switch to **-kyňa**.",
     "t": "Nafaqadagi ayol — dôchod**kyňa**: -ca bilan tugaydigan koʻp soʻzlarda ayol shakli **-kyňa** boʻladi."
   },
-  "u4-l3.9.pairs": {
+  "u4-l3.match-kuchar.pairs": {
     "en": [
       "cook",
       "waiter",
@@ -511,23 +511,23 @@
       "haydovchi"
     ]
   },
-  "u4-l3.10.en": {
+  "u4-l3.mlady-stary.en": {
     "en": "young – old",
     "t": "yosh – keksa"
   },
-  "u4-l3.10.note": {
+  "u4-l3.mlady-stary.note": {
     "en": "You know **starý** for things; it works for people too: mlad**á** študentka, star**ý** dôchodca.",
     "t": "**starý** sizga narsalar haqida tanish (eski). U odamlar haqida ham ishlatiladi (keksa): mlad**á** študentka, star**ý** dôchodca."
   },
-  "u4-l3.11.en": {
+  "u4-l3.listen-marek-je-mlady.en": {
     "en": "Marek is a young cook.",
     "t": "Marek — yosh oshpaz."
   },
-  "u4-l3.12.prompt": {
+  "u4-l3.build-ona-je-novinarka.prompt": {
     "en": "She is a journalist.",
     "t": "U (ayol) jurnalist."
   },
-  "u4-l3.12.traps": {
+  "u4-l3.build-ona-je-novinarka.traps": {
     "en": [
       "Ona is a woman, so the job takes the feminine **-ka**: novinár**ka**. Novinár is for a man.",
       "With **ona** (she), byť is **je**. Som goes with ja (I)."
@@ -537,19 +537,19 @@
       "«U» — **ona**, ona bilan esa byť — **je**. Som ja (men) bilan keladi."
     ]
   },
-  "u4-l3.13.en": {
+  "u4-l3.fill-pan-novak-nepracuje.en": {
     "en": "Mr Novák doesn't work, he's a pensioner.",
     "t": "Janob Novak ishlamaydi, u nafaqaxoʻr."
   },
-  "u4-l3.14.question": {
+  "u4-l3.choice-co-robite.question": {
     "en": "How do you ask a stranger what they do?",
     "t": "Notanish odamdan kasbini qanday soʻraysiz?"
   },
-  "u4-l3.14.why": {
+  "u4-l3.choice-co-robite.why": {
     "en": "A stranger gets **vy**, so the verb ends in **-te**: robí**te**. Čo robíš? is for a friend (ty).",
     "t": "Notanish odamga **vy** (siz) deyiladi, shuning uchun feʼl **-te** bilan tugaydi: robí**te**. Čo robíš? — doʻstga (ty)."
   },
-  "u4-l3.15.answers": {
+  "u4-l3.build-tomas-je-programator.answers": {
     "en": [
       "Tomáš is a programmer, not a driver."
     ],
@@ -558,7 +558,7 @@
       "Tomash haydovchi emas, dasturchi."
     ]
   },
-  "u4-l3.15.distractors": {
+  "u4-l3.build-tomas-je-programator.distractors": {
     "en": [
       "cook",
       "waiter"
@@ -568,11 +568,11 @@
       "ofitsiant"
     ]
   },
-  "u4-l3.16.en": {
+  "u4-l3.listen-lucia-nie-je.en": {
     "en": "Lucia isn't a waitress, she's a student.",
     "t": "Lusiya ofitsiant emas, u talaba."
   },
-  "u4-l3.17.en": {
+  "u4-l3.speak-co-robite.en": {
     "en": "What do you do? (formal)",
     "t": "Nima ish qilasiz? (siz)"
   },
@@ -580,11 +580,11 @@
     "en": "The plural",
     "t": "Koʻplik"
   },
-  "u4-l4.0.title": {
+  "u4-l4.grammar-plural-places-things.title": {
     "en": "Plural: places and things",
     "t": "Koʻplik: joylar va narsalar"
   },
-  "u4-l4.0.body": {
+  "u4-l4.grammar-plural-places-things.body": {
     "en": [
       "In the plural, most masculine and feminine nouns end in **-y** (or **-e** after a soft sound like ň). Neuter nouns in -o end in **-á**, and those in -ie end in **-ia**.",
       "“That” becomes **tie** for all of them, “is” becomes **sú**, and adjectives end in **-é**: tie mosty sú nov**é**."
@@ -594,7 +594,7 @@
       "«Oʻsha» soʻzi ularning hammasi uchun **tie** boʻladi, je oʻrniga **sú** keladi, sifatlar esa **-é** bilan tugaydi: tie mosty sú nov**é** (oʻsha koʻpriklar yangi)."
     ]
   },
-  "u4-l4.0.table.head": {
+  "u4-l4.grammar-plural-places-things.table.head": {
     "en": [
       "",
       "one",
@@ -606,7 +606,7 @@
       "koʻp"
     ]
   },
-  "u4-l4.0.table.rows": {
+  "u4-l4.grammar-plural-places-things.table.rows": {
     "en": [
       [
         "masculine",
@@ -662,7 +662,7 @@
       ]
     ]
   },
-  "u4-l4.0.examples": {
+  "u4-l4.grammar-plural-places-things.examples": {
     "en": [
       "Those castles are old.",
       "Cafés are expensive.",
@@ -674,27 +674,27 @@
       "Shaharlar chiroyli."
     ]
   },
-  "u4-l4.1.en": {
+  "u4-l4.fill-tie-kostoly-su.en": {
     "en": "Those churches are old.",
     "t": "Oʻsha cherkovlar eski."
   },
-  "u4-l4.1.why": {
+  "u4-l4.fill-tie-kostoly-su.why": {
     "en": "Tie and sú show it's more than one, and masculine kostol adds **-y** in the plural: kostol**y**.",
     "t": "Tie va sú bir nechta narsa ekanini koʻrsatadi, erkak jinsidagi kostol esa koʻplikda **-y** oladi: kostol**y** (oʻzbekchadagi -lar oʻrnida)."
   },
-  "u4-l4.2.en": {
+  "u4-l4.fill-dediny-su-male.en": {
     "en": "The villages are small.",
     "t": "Qishloqlar kichik."
   },
-  "u4-l4.2.why": {
+  "u4-l4.fill-dediny-su-male.why": {
     "en": "Dediny is plural, and in the plural adjectives for places and things end in **-é**. Malá is the singular: dedina je malá.",
     "t": "Dediny — koʻplik, koʻplikda esa joy va narsalar haqidagi sifatlar **-é** bilan tugaydi. Malá — birlik: dedina je malá."
   },
-  "u4-l4.3.prompt": {
+  "u4-l4.build-namestia-su-pekne.prompt": {
     "en": "The squares are pretty.",
     "t": "Maydonlar chiroyli."
   },
-  "u4-l4.3.traps": {
+  "u4-l4.build-namestia-su-pekne.traps": {
     "en": [
       "Námestia is plural, so “are” is **sú**. Je is for one thing: námestie je pekné.",
       "In the plural, adjectives for places and things end in **-é**: pekn**é**. Pekný goes with one masculine noun.",
@@ -706,11 +706,11 @@
       "Maydonlar bittadan koʻp, -ie bilan tugaydigan oʻrta jins otlari esa koʻplikda **-ia** oladi: námesti**a** (oʻzbekchadagi -lar oʻrnida). Námestie — bitta maydon."
     ]
   },
-  "u4-l4.4.en": {
+  "u4-l4.listen-tie-rieky-su.en": {
     "en": "Those rivers are long.",
     "t": "Oʻsha daryolar uzun."
   },
-  "u4-l4.5.answers": {
+  "u4-l4.build-kina-a-divadla.answers": {
     "en": [
       "The cinemas and theatres are new.",
       "Cinemas and theatres are new."
@@ -720,7 +720,7 @@
       "Teatrlar va kinoteatrlar yangi."
     ]
   },
-  "u4-l4.5.distractors": {
+  "u4-l4.build-kina-a-divadla.distractors": {
     "en": [
       "old",
       "is"
@@ -730,11 +730,11 @@
       "teatr"
     ]
   },
-  "u4-l4.6.title": {
+  "u4-l4.grammar-plural-people.title": {
     "en": "Plural: people",
     "t": "Koʻplik: odamlar"
   },
-  "u4-l4.6.body": {
+  "u4-l4.grammar-plural-people.body": {
     "en": [
       "Groups of men take **-i**: študent → študent**i**. A final k turns into c: čašník → čašní**ci**. Some words take **-ia** or **-ovia**.",
       "For men, “that” is **tí** and adjectives end in **-í**: tí mladí kuchári. Women follow the pattern of things: tie mlad**é** kuchárky.",
@@ -746,7 +746,7 @@
       "Erkaklar va ayollardan iborat aralash guruh erkaklar kabi hisoblanadi."
     ]
   },
-  "u4-l4.6.table.head": {
+  "u4-l4.grammar-plural-people.table.head": {
     "en": [
       "one",
       "many"
@@ -756,7 +756,7 @@
       "koʻp"
     ]
   },
-  "u4-l4.6.table.rows": {
+  "u4-l4.grammar-plural-people.table.rows": {
     "en": [
       [
         "študent",
@@ -818,7 +818,7 @@
       ]
     ]
   },
-  "u4-l4.6.examples": {
+  "u4-l4.grammar-plural-people.examples": {
     "en": [
       "Those (male) students are young.",
       "Those (female) students are young.",
@@ -830,35 +830,35 @@
       "Peter va Yana — slovaklar."
     ]
   },
-  "u4-l4.7.en": {
+  "u4-l4.fill-marek-a-peter.en": {
     "en": "Marek and Peter are cooks.",
     "t": "Marek va Peter — oshpazlar."
   },
-  "u4-l4.7.why": {
+  "u4-l4.fill-marek-a-peter.why": {
     "en": "Marek and Peter are two men, so it's the men's plural in **-i**: kuchár**i**. Kuchárky is for women, kuchár for one man.",
     "t": "Marek va Peter — ikki erkak, shuning uchun **-i** bilan erkaklar koʻpligi keladi: kuchár**i**. Kuchárky — ayollar uchun, kuchár — bitta erkak."
   },
-  "u4-l4.8.en": {
+  "u4-l4.fill-ti-casnici-su.en": {
     "en": "Those waiters are young.",
     "t": "Oʻsha ofitsiantlar yosh."
   },
-  "u4-l4.8.why": {
+  "u4-l4.fill-ti-casnici-su.why": {
     "en": "Čašníci are men, and in the plural adjectives for men end in **-í**, just like tí. Mladé is for women and things.",
     "t": "Čašníci — erkaklar, koʻplikda esa erkaklar haqidagi sifatlar **-í** bilan tugaydi, xuddi tí kabi. Mladé — ayollar va narsalar uchun."
   },
-  "u4-l4.9.question": {
+  "u4-l4.choice-emma-a-lucia.question": {
     "en": "How do you say “Emma and Lucia are students”?",
     "t": "«Emma va Lusiya — talabalar» qanday aytiladi?"
   },
-  "u4-l4.9.why": {
+  "u4-l4.choice-emma-a-lucia.why": {
     "en": "Two women take the women's plural **-y**: študentk**y**, with sú. Študenti would mean men or a mixed group; je študentka is just one.",
     "t": "Ikki ayol uchun **-y** bilan ayollar koʻpligi keladi: študentk**y**, sú bilan birga. Študenti erkaklar yoki aralash guruhni bildiradi, je študentka esa bitta kishini."
   },
-  "u4-l4.10.prompt": {
+  "u4-l4.build-tomas-a-marek.prompt": {
     "en": "Tomáš and Marek are not journalists.",
     "t": "Tomash va Marek jurnalist emas."
   },
-  "u4-l4.10.traps": {
+  "u4-l4.build-tomas-a-marek.traps": {
     "en": [
       "Tomáš and Marek are men, so the job takes the men's plural **-i**: novinár**i**. Novinárky is for women.",
       "Tomáš and Marek are two people, oni, so byť is **sú**: nie sú. Je is for one person."
@@ -868,19 +868,19 @@
       "Tomash va Marek — ikki kishi, oni, shuning uchun byť — **sú**: nie sú. Je bitta kishi uchun."
     ]
   },
-  "u4-l4.11.en": {
+  "u4-l4.listen-dochodcovia-nepracuju.en": {
     "en": "Pensioners don't work.",
     "t": "Nafaqaxoʻrlar ishlamaydi."
   },
-  "u4-l4.12.en": {
+  "u4-l4.fill-lucia-a-tomas.en": {
     "en": "Lucia and Tomáš are Slovaks.",
     "t": "Lusiya va Tomash — slovaklar."
   },
-  "u4-l4.12.why": {
+  "u4-l4.fill-lucia-a-tomas.why": {
     "en": "A mixed group of men and women counts as men, so it takes the men's plural: Slovák → **Slováci**. Slovenky would mean women only.",
     "t": "Erkaklar va ayollardan iborat aralash guruh erkaklar kabi hisoblanadi, shuning uchun erkaklar koʻpligi keladi: Slovák → **Slováci**. Slovenky faqat ayollarni bildiradi."
   },
-  "u4-l4.13.en": {
+  "u4-l4.speak-tie-mosty-su.en": {
     "en": "Those bridges are new.",
     "t": "Oʻsha koʻpriklar yangi."
   },
@@ -888,11 +888,11 @@
     "en": "Two, three, four",
     "t": "Ikki, uch, toʻrt"
   },
-  "u4-l5.0.title": {
+  "u4-l5.grammar-two-three-four.title": {
     "en": "Two, three, four + plural",
     "t": "Ikki, uch, toʻrt + koʻplik"
   },
-  "u4-l5.0.body": {
+  "u4-l5.grammar-two-three-four.body": {
     "en": [
       "After 2, 3 and 4, use the plural you just learned: dva most**y**, tri mest**á**.",
       "Two has two forms: **dva** for masculine words, **dve** for feminine and neuter ones. For things, **tri** and **štyri** stay the same.",
@@ -904,7 +904,7 @@
       "**tu** = bu yerda, **tam** = u yerda. Tu sú dva hotely. = Bu yerda ikkita mehmonxona bor."
     ]
   },
-  "u4-l5.0.table.head": {
+  "u4-l5.grammar-two-three-four.table.head": {
     "en": [
       "",
       "2",
@@ -916,7 +916,7 @@
       "3, 4"
     ]
   },
-  "u4-l5.0.table.rows": {
+  "u4-l5.grammar-two-three-four.table.rows": {
     "en": [
       [
         "masculine",
@@ -952,7 +952,7 @@
       ]
     ]
   },
-  "u4-l5.0.examples": {
+  "u4-l5.grammar-two-three-four.examples": {
     "en": [
       "There are two hotels here.",
       "The town has two squares.",
@@ -964,35 +964,35 @@
       "Bu yerda toʻrtta kinoteatr bor."
     ]
   },
-  "u4-l5.1.en": {
+  "u4-l5.fill-mesto-ma-dva.en": {
     "en": "The town has two bridges.",
     "t": "Shaharda ikkita koʻprik bor."
   },
-  "u4-l5.1.why": {
+  "u4-l5.fill-mesto-ma-dva.why": {
     "en": "You're counting bridges, and most is masculine, so two is **dva**. Dve is for feminine and neuter words like mesto, but mesto isn't what's counted.",
     "t": "Koʻpriklar sanalyapti, most esa erkak jinsida, shuning uchun «ikki» — **dva**. Dve ayol va oʻrta jins uchun; mesto oʻrta jinsda, lekin sanalayotgan narsa u emas."
   },
-  "u4-l5.2.en": {
+  "u4-l5.fill-tu-su-dve.en": {
     "en": "There are two cafés here.",
     "t": "Bu yerda ikkita kafe bor."
   },
-  "u4-l5.2.why": {
+  "u4-l5.fill-tu-su-dve.why": {
     "en": "Kaviareň is feminine, even though it ends in a consonant, so two is **dve**. Dva is only for masculine words.",
     "t": "Kaviareň undosh bilan tugasa ham, ayol jinsida, shuning uchun «ikki» — **dve**. Dva faqat erkak jinsidagi soʻzlar uchun."
   },
-  "u4-l5.3.question": {
+  "u4-l5.choice-dve-mesta.question": {
     "en": "How do you say “two towns”?",
     "t": "«Ikkita shahar» qanday aytiladi?"
   },
-  "u4-l5.3.why": {
+  "u4-l5.choice-dve-mesta.why": {
     "en": "Mesto is neuter, so two is **dve**, and after 2, 3 and 4 the noun is plural: mest**á**.",
     "t": "Mesto oʻrta jinsda, shuning uchun «ikki» — **dve**. 2, 3 va 4 dan keyin ot oʻzbekchadagidek birlikda emas, koʻplikda keladi: mest**á**."
   },
-  "u4-l5.4.prompt": {
+  "u4-l5.build-tu-su-styri.prompt": {
     "en": "There are four bridges here.",
     "t": "Bu yerda toʻrtta koʻprik bor."
   },
-  "u4-l5.4.traps": {
+  "u4-l5.build-tu-su-styri.traps": {
     "en": [
       "Mosty are things, and for things four stays **štyri**. Štyria is only for counting men.",
       "After 2, 3 and 4 the noun is plural, so most adds **-y**: štyri most**y**.",
@@ -1004,15 +1004,15 @@
       "Toʻrtta koʻprik bittadan koʻp, shuning uchun «bor» oʻrnida **sú** keladi, xuddi Tu sú dva hotely kabi. Je bitta narsa uchun."
     ]
   },
-  "u4-l5.5.en": {
+  "u4-l5.listen-mesto-ma-tri.en": {
     "en": "The town has three churches.",
     "t": "Shaharda uchta cherkov bor."
   },
-  "u4-l5.6.title": {
+  "u4-l5.grammar-counting-men-dvaja.title": {
     "en": "Counting men: dvaja, traja, štyria",
     "t": "Erkaklarni sanash: dvaja, traja, štyria"
   },
-  "u4-l5.6.body": {
+  "u4-l5.grammar-counting-men-dvaja.body": {
     "en": [
       "When you count men (or a mixed group), 2, 3 and 4 change to **dvaja**, **traja**, **štyria**, and the noun takes the men's plural: dvaja kuchár**i**.",
       "Women and things keep **dve** (or **dva**), **tri**, **štyri**."
@@ -1022,7 +1022,7 @@
       "Ayollar va narsalar uchun esa **dve** (yoki **dva**), **tri**, **štyri** qoladi."
     ]
   },
-  "u4-l5.6.table.head": {
+  "u4-l5.grammar-counting-men-dvaja.table.head": {
     "en": [
       "men",
       "women",
@@ -1034,7 +1034,7 @@
       "narsalar"
     ]
   },
-  "u4-l5.6.table.rows": {
+  "u4-l5.grammar-counting-men-dvaja.table.rows": {
     "en": [
       [
         "**dvaja** kuchári",
@@ -1070,7 +1070,7 @@
       ]
     ]
   },
-  "u4-l5.6.examples": {
+  "u4-l5.grammar-counting-men-dvaja.examples": {
     "en": [
       "Three students are working.",
       "There are two journalists here."
@@ -1080,35 +1080,35 @@
       "Bu yerda ikkita jurnalist bor."
     ]
   },
-  "u4-l5.7.en": {
+  "u4-l5.fill-tam-su-dvaja.en": {
     "en": "There are two waiters over there.",
     "t": "U yerda ikkita ofitsiant bor."
   },
-  "u4-l5.7.why": {
+  "u4-l5.fill-tam-su-dvaja.why": {
     "en": "When you count men, two is **dvaja**, and the noun takes the men's plural: čašníci. Dva is for masculine things, like dva mosty.",
     "t": "Erkaklarni sanaganda «ikki» — **dvaja**, ot esa erkaklar koʻpligida keladi: čašníci. Dva — erkak jinsidagi narsalar uchun, masalan dva mosty."
   },
-  "u4-l5.8.en": {
+  "u4-l5.fill-lucia-ma-tri.en": {
     "en": "Lucia has three friends.",
     "t": "Lusiyaning uchta dugonasi bor."
   },
-  "u4-l5.8.why": {
+  "u4-l5.fill-lucia-ma-tri.why": {
     "en": "Kamarátky are women, and women keep **tri**. Traja is only for men or a mixed group.",
     "t": "Kamarátky — ayollar, ayollar bilan esa **tri** oʻzgarmaydi. Traja faqat erkaklar yoki aralash guruh uchun."
   },
-  "u4-l5.9.question": {
+  "u4-l5.choice-traja-kuchari.question": {
     "en": "Which one is correct?",
     "t": "Qaysi biri toʻgʻri?"
   },
-  "u4-l5.9.why": {
+  "u4-l5.choice-traja-kuchari.why": {
     "en": "Counting men takes **traja**, with the men's plural kuchári. Women keep tri: tri kuchárky. So tri kuchári and traja kuchárky both mix the two.",
     "t": "Erkaklarni sanaganda **traja** va erkaklar koʻpligi kuchári keladi. Ayollar bilan tri qoladi: tri kuchárky. Tri kuchári va traja kuchárky ikkalasini aralashtirib yuboradi."
   },
-  "u4-l5.10.prompt": {
+  "u4-l5.build-dvaja-casnici-a.prompt": {
     "en": "Two waiters and two waitresses.",
     "t": "Ikkita ofitsiant yigit va ikkita ofitsiant qiz."
   },
-  "u4-l5.10.traps": {
+  "u4-l5.build-dvaja-casnici-a.traps": {
     "en": [
       "For women, two is **dve**: dve čašníčky. Dva is for masculine things, like dva mosty, and men take dvaja: dvaja čašníci.",
       "The sentence counts two, so men take **dvaja** and women **dve**. Traja means three, and only for men."
@@ -1118,7 +1118,7 @@
       "Gapda ikki kishi sanalyapti: erkaklar uchun **dvaja**, ayollar uchun dve. Traja «uch» degani va faqat erkaklar uchun."
     ]
   },
-  "u4-l5.11.answers": {
+  "u4-l5.build-mesto-ma-dva.answers": {
     "en": [
       "The town has two hotels and three cafés."
     ],
@@ -1127,7 +1127,7 @@
       "Shaharda uchta kafe va ikkita mehmonxona bor."
     ]
   },
-  "u4-l5.11.distractors": {
+  "u4-l5.build-mesto-ma-dva.distractors": {
     "en": [
       "four",
       "museums"
@@ -1137,11 +1137,11 @@
       "muzey"
     ]
   },
-  "u4-l5.12.en": {
+  "u4-l5.listen-dvaja-kuchari-a.en": {
     "en": "Two cooks and four waiters.",
     "t": "Ikki oshpaz va toʻrt ofitsiant."
   },
-  "u4-l5.13.en": {
+  "u4-l5.speak-bratislava-ma-dva.en": {
     "en": "Bratislava has two castles.",
     "t": "Bratislavada ikkita qalʼa bor."
   },
@@ -1149,11 +1149,11 @@
     "en": "How much is it?",
     "t": "Bu qancha turadi?"
   },
-  "u4-l6.0.title": {
+  "u4-l6.grammar-stat-cost-stand.title": {
     "en": "stáť: to cost, to stand",
     "t": "stáť: narxi boʻlmoq, tik turmoq"
   },
-  "u4-l6.0.body": {
+  "u4-l6.grammar-stat-cost-stand.body": {
     "en": [
       "**Koľko to stojí?** means “How much is it?” The verb **stáť** means “to cost”, and also “to stand”.",
       "One thing **stojí**, two or more things **stoja**."
@@ -1163,7 +1163,7 @@
       "Bitta narsa **stojí**, ikki va undan ortiq narsa **stoja**."
     ]
   },
-  "u4-l6.0.table.head": {
+  "u4-l6.grammar-stat-cost-stand.table.head": {
     "en": [
       "",
       "stáť"
@@ -1173,7 +1173,7 @@
       "stáť"
     ]
   },
-  "u4-l6.0.table.rows": {
+  "u4-l6.grammar-stat-cost-stand.table.rows": {
     "en": [
       [
         "ja",
@@ -1227,7 +1227,7 @@
       ]
     ]
   },
-  "u4-l6.0.examples": {
+  "u4-l6.grammar-stat-cost-stand.examples": {
     "en": [
       "How much is it?",
       "Emma and Lucia are standing at the front."
@@ -1237,11 +1237,11 @@
       "Emma va Lusiya oldinda turibdi."
     ]
   },
-  "u4-l6.1.title": {
+  "u4-l6.grammar-prices-euros.title": {
     "en": "Prices in euros",
     "t": "Yevrodagi narxlar"
   },
-  "u4-l6.1.body": {
+  "u4-l6.grammar-prices-euros.body": {
     "en": [
       "**Euro** is neuter, so two is **dve**: dve eur**á**.",
       "From five up, Slovak uses a special short form: päť **eur**, desať **eur**."
@@ -1251,7 +1251,7 @@
       "Beshdan boshlab slovak tilida maxsus qisqa shakl ishlatiladi: päť **eur**, desať **eur**."
     ]
   },
-  "u4-l6.1.table.head": {
+  "u4-l6.grammar-prices-euros.table.head": {
     "en": [
       "number",
       "euros"
@@ -1261,7 +1261,7 @@
       "yevro"
     ]
   },
-  "u4-l6.1.table.rows": {
+  "u4-l6.grammar-prices-euros.table.rows": {
     "en": [
       [
         "1",
@@ -1291,7 +1291,7 @@
       ]
     ]
   },
-  "u4-l6.1.examples": {
+  "u4-l6.grammar-prices-euros.examples": {
     "en": [
       "The coffee costs two euros.",
       "The lamp costs twenty euros."
@@ -1301,35 +1301,35 @@
       "Chiroq yigirma yevro turadi."
     ]
   },
-  "u4-l6.2.en": {
+  "u4-l6.fill-kolko-to-stoji.en": {
     "en": "How much is it?",
     "t": "Bu qancha turadi?"
   },
-  "u4-l6.2.why": {
+  "u4-l6.fill-kolko-to-stoji.why": {
     "en": "To (it) is one thing, so the verb is **stojí**. Stoja is for two or more things, stojím for ja.",
     "t": "To (bu) — bitta narsa, shuning uchun feʼl **stojí**. Stoja ikki va undan ortiq narsa uchun, stojím esa ja uchun."
   },
-  "u4-l6.3.en": {
+  "u4-l6.fill-mobil-stoji-sto.en": {
     "en": "The phone costs a hundred euros.",
     "t": "Telefon yuz yevro turadi."
   },
-  "u4-l6.3.why": {
+  "u4-l6.fill-mobil-stoji-sto.why": {
     "en": "The verb agrees with mobil, one thing, not with the euros: mobil **stojí**. Stoja is for two or more things.",
     "t": "Feʼl yevrolarga emas, bitta narsaga — mobil soʻziga moslashadi: mobil **stojí**. Stoja ikki va undan ortiq narsa uchun."
   },
-  "u4-l6.4.question": {
+  "u4-l6.choice-pat-eur.question": {
     "en": "How do you say “five euros”?",
     "t": "«Besh yevro» qanday aytiladi?"
   },
-  "u4-l6.4.why": {
+  "u4-l6.choice-pat-eur.why": {
     "en": "From five up, euro takes the special short form **eur**. Eurá is only for 2, 3 and 4.",
     "t": "Beshdan boshlab euro maxsus qisqa shaklda keladi: **eur**. Eurá faqat 2, 3 va 4 bilan ishlatiladi."
   },
-  "u4-l6.5.prompt": {
+  "u4-l6.build-kava-stoji-tri.prompt": {
     "en": "The coffee costs three euros.",
     "t": "Qahva uch yevro turadi."
   },
-  "u4-l6.5.traps": {
+  "u4-l6.build-kava-stoji-tri.traps": {
     "en": [
       "The verb agrees with káva, one thing, not with the euros: káva **stojí**. Stoja is for two or more things.",
       "After 2, 3 and 4, euro takes **eurá**. The short form eur is for five and up: päť eur.",
@@ -1341,23 +1341,23 @@
       "Yevro — narsa, shuning uchun «uch» — **tri**: tri eurá. Traja faqat erkaklarni sanash uchun."
     ]
   },
-  "u4-l6.6.en": {
+  "u4-l6.listen-tomas-stoji-vzadu.en": {
     "en": "Tomáš is standing at the back.",
     "t": "Tomash orqada turibdi."
   },
-  "u4-l6.7.en": {
+  "u4-l6.fill-my-stojime-tu.en": {
     "en": "We're standing here.",
     "t": "Biz bu yerda turibmiz."
   },
-  "u4-l6.7.why": {
+  "u4-l6.fill-my-stojime-tu.why": {
     "en": "With **my** (we) the verb ends in **-me**: stojí**me**. Stojíte goes with vy, stoja with oni.",
     "t": "**my** (biz) bilan feʼl **-me** bilan tugaydi: stojí**me** (turibmiz). Stojíte vy bilan, stoja esa oni bilan keladi."
   },
-  "u4-l6.8.title": {
+  "u4-l6.grammar-always-plural.title": {
     "en": "Always plural",
     "t": "Doim koʻplikda"
   },
-  "u4-l6.8.body": {
+  "u4-l6.grammar-always-plural.body": {
     "en": [
       "Some nouns exist only in the plural, even for one thing: **nohavice** (trousers), **okuliare** (glasses), **noviny** (a newspaper).",
       "They always take plural forms, even where English uses the singular: Noviny **sú** nové. = The newspaper is new. Hodinky **stoja** päť eur. = The watch costs five euros. Words that go with them are plural too: **moje** hodinky = my watch."
@@ -1367,7 +1367,7 @@
       "Ular bilan doim koʻplik shakllari ishlatiladi, oʻzbek tilida birlik boʻlsa ham: Noviny **sú** nové. = Gazeta yangi. Hodinky **stoja** päť eur. = Soat besh yevro turadi. Ular bilan keladigan soʻzlar ham koʻplikda boʻladi: **moje** hodinky = mening soatim."
     ]
   },
-  "u4-l6.8.table.head": {
+  "u4-l6.grammar-always-plural.table.head": {
     "en": [
       "Slovak",
       "English"
@@ -1377,7 +1377,7 @@
       "Oʻzbekcha"
     ]
   },
-  "u4-l6.8.table.rows": {
+  "u4-l6.grammar-always-plural.table.rows": {
     "en": [
       [
         "nohavice",
@@ -1447,7 +1447,7 @@
       ]
     ]
   },
-  "u4-l6.8.examples": {
+  "u4-l6.grammar-always-plural.examples": {
     "en": [
       "That door is new.",
       "Košice is pretty."
@@ -1457,7 +1457,7 @@
       "Koshitse chiroyli."
     ]
   },
-  "u4-l6.9.pairs": {
+  "u4-l6.match-nohavice.pairs": {
     "en": [
       "trousers",
       "glasses",
@@ -1473,27 +1473,27 @@
       "eshik"
     ]
   },
-  "u4-l6.10.en": {
+  "u4-l6.fill-tie-nohavice-su.en": {
     "en": "Those trousers are expensive.",
     "t": "Oʻsha shim qimmat."
   },
-  "u4-l6.10.why": {
+  "u4-l6.fill-tie-nohavice-su.why": {
     "en": "Nohavice is always plural, even for one pair of trousers, so it takes **sú**. Tie and drahé are plural too.",
     "t": "Nohavice bitta shim boʻlsa ham doim koʻplikda, shuning uchun **sú** bilan keladi. Tie va drahé ham koʻplikda."
   },
-  "u4-l6.11.en": {
+  "u4-l6.fill-okuliare-stoja-desat.en": {
     "en": "The glasses cost ten euros.",
     "t": "Koʻzoynak oʻn yevro turadi."
   },
-  "u4-l6.11.why": {
+  "u4-l6.fill-okuliare-stoja-desat.why": {
     "en": "Okuliare is always plural, even for one pair of glasses, so the verb is plural too: **stoja**.",
     "t": "Okuliare bitta koʻzoynak boʻlsa ham doim koʻplikda, shuning uchun feʼl ham koʻplikda keladi: **stoja**."
   },
-  "u4-l6.12.prompt": {
+  "u4-l6.build-kde-su-moje.prompt": {
     "en": "Where is my watch?",
     "t": "Mening soatim qayerda?"
   },
-  "u4-l6.12.traps": {
+  "u4-l6.build-kde-su-moje.traps": {
     "en": [
       "Hodinky (watch) is always plural, even for one watch, so the verb is **sú**. Je is for ordinary singular words.",
       "Hodinky is always plural, so “my” is plural too: **moje** hodinky. Môj goes with one masculine thing.",
@@ -1505,11 +1505,11 @@
       "Hodinky doim koʻplikda, shuning uchun u bilan keladigan soʻzlar ham koʻplikda boʻladi: **moje**. Moja ayol jinsidagi bitta narsa uchun."
     ]
   },
-  "u4-l6.13.en": {
+  "u4-l6.listen-vianoce-su-tu.en": {
     "en": "Christmas is here!",
     "t": "Rojdestvo keldi!"
   },
-  "u4-l6.14.en": {
+  "u4-l6.speak-kolko-to-stoji.en": {
     "en": "How much is it?",
     "t": "Bu qancha turadi?"
   },
@@ -1517,7 +1517,7 @@
     "en": "Review",
     "t": "Takrorlash"
   },
-  "u4-l7.0.pairs": {
+  "u4-l7.match-namestie.pairs": {
     "en": [
       "square",
       "bridge",
@@ -1533,11 +1533,11 @@
       "cherkov"
     ]
   },
-  "u4-l7.1.question": {
+  "u4-l7.choice-chodte-rovno-potom.question": {
     "en": "What are you told to do?",
     "t": "Sizga nima qilishni aytishyapti?"
   },
-  "u4-l7.1.options": {
+  "u4-l7.choice-chodte-rovno-potom.options": {
     "en": [
       "Go straight on, then left.",
       "Go left, then straight on.",
@@ -1549,19 +1549,19 @@
       "Oʻngga yuring, keyin toʻgʻriga."
     ]
   },
-  "u4-l7.2.en": {
+  "u4-l7.fill-prepacte-kde-je.en": {
     "en": "Excuse me, where's the post office? — It's opposite.",
     "t": "Kechirasiz, pochta qayerda? — Roʻparada."
   },
-  "u4-l7.2.why": {
+  "u4-l7.fill-prepacte-kde-je.why": {
     "en": "With **je** you ask about one place, so use the basic form **pošta**. Pošty is the plural and would need sú.",
     "t": "**je** bilan bitta joy haqida soʻraladi, shuning uchun asosiy shakl keladi: **pošta**. Pošty — koʻplik, u bilan sú kerak boʻlardi."
   },
-  "u4-l7.3.prompt": {
+  "u4-l7.build-marek-je-kuchar.prompt": {
     "en": "Marek is a cook and Lucia is a student.",
     "t": "Marek oshpaz, Lusiya esa talaba."
   },
-  "u4-l7.3.traps": {
+  "u4-l7.build-marek-je-kuchar.traps": {
     "en": [
       "Marek is a man, so it's **kuchár**, with no ending. Kuchárka, with -ka, is for a woman.",
       "Lucia is a woman, so the job adds **-ka**: študent**ka**. Študent is for a man."
@@ -1571,39 +1571,39 @@
       "Lusiya — ayol, shuning uchun kasb nomiga **-ka** qoʻshiladi: študent**ka**. Študent erkak uchun."
     ]
   },
-  "u4-l7.4.en": {
+  "u4-l7.listen-pani-horvathova-je.en": {
     "en": "Mrs Horváthová is a teacher.",
     "t": "Horvatova xonim — oʻqituvchi."
   },
-  "u4-l7.5.en": {
+  "u4-l7.fill-tie-kaviarne-su.en": {
     "en": "Those cafés are expensive.",
     "t": "Oʻsha kafelar qimmat."
   },
-  "u4-l7.5.why": {
+  "u4-l7.fill-tie-kaviarne-su.why": {
     "en": "Kaviarne is a plural of things, so the adjective ends in **-é**. Drahí is only for men, drahá for one feminine thing.",
     "t": "Kaviarne — narsalar koʻpligi, shuning uchun sifat **-é** bilan tugaydi. Drahí faqat erkaklar uchun, drahá esa ayol jinsidagi bitta narsa uchun."
   },
-  "u4-l7.6.en": {
+  "u4-l7.fill-ti-novinari-su.en": {
     "en": "Those journalists are young.",
     "t": "Oʻsha jurnalistlar yosh."
   },
-  "u4-l7.6.why": {
+  "u4-l7.fill-ti-novinari-su.why": {
     "en": "Novinári are men, so in the plural the adjective ends in **-í**, matching tí. Mladé is for women and things.",
     "t": "Novinári — erkaklar, shuning uchun koʻplikda sifat **-í** bilan tugaydi, xuddi tí kabi. Mladé — ayollar va narsalar uchun."
   },
-  "u4-l7.7.question": {
+  "u4-l7.choice-traja-casnici.question": {
     "en": "How do you say “three waiters”?",
     "t": "«Uchta ofitsiant» qanday aytiladi?"
   },
-  "u4-l7.7.why": {
+  "u4-l7.choice-traja-casnici.why": {
     "en": "Counting men takes **traja**, and the noun takes the men's plural: čašník → čašní**ci**.",
     "t": "Erkaklarni sanaganda **traja** keladi, ot esa erkaklar koʻpligida boʻladi: čašník → čašní**ci**."
   },
-  "u4-l7.8.prompt": {
+  "u4-l7.build-mesto-ma-tri.prompt": {
     "en": "The town has three churches and two theatres.",
     "t": "Shaharda uchta cherkov va ikkita teatr bor."
   },
-  "u4-l7.8.traps": {
+  "u4-l7.build-mesto-ma-tri.traps": {
     "en": [
       "Divadlo is neuter, so two is **dve**: dve divadlá. Dva is only for masculine words, like dva kostoly.",
       "After 2, 3 and 4 the noun is plural, so kostol adds **-y**: tri kostol**y**."
@@ -1613,19 +1613,19 @@
       "2, 3 va 4 dan keyin ot koʻplikda keladi, shuning uchun kostol **-y** oladi: tri kostol**y**."
     ]
   },
-  "u4-l7.9.en": {
+  "u4-l7.speak-prepacte-kde-je.en": {
     "en": "Excuse me, where's the bank?",
     "t": "Kechirasiz, bank qayerda?"
   },
-  "u4-l7.10.en": {
+  "u4-l7.fill-kolko-stoja-tie.en": {
     "en": "How much are those glasses?",
     "t": "Oʻsha koʻzoynak qancha turadi?"
   },
-  "u4-l7.10.why": {
+  "u4-l7.fill-kolko-stoja-tie.why": {
     "en": "Okuliare only exists in the plural, so even one pair takes the plural verb **stoja**. Stojí is for one thing.",
     "t": "Okuliare faqat koʻplikda boʻladi, shuning uchun bitta koʻzoynak ham koʻplikdagi **stoja** bilan keladi. Stojí — bitta narsa uchun."
   },
-  "u4-l7.11.answers": {
+  "u4-l7.build-hodinky-stoja-styri.answers": {
     "en": [
       "The watch costs four euros.",
       "The watches cost four euros.",
@@ -1635,7 +1635,7 @@
       "Soat toʻrt yevro turadi."
     ]
   },
-  "u4-l7.11.distractors": {
+  "u4-l7.build-hodinky-stoja-styri.distractors": {
     "en": [
       "five",
       "is"
@@ -1645,23 +1645,23 @@
       "turibdi"
     ]
   },
-  "u4-l7.12.en": {
+  "u4-l7.listen-ti-kuchari-su.en": {
     "en": "Those cooks are from Slovakia.",
     "t": "Oʻsha oshpazlar Slovakiyadan."
   },
-  "u4-l7.13.question": {
+  "u4-l7.choice-nohavice.question": {
     "en": "Which word is always plural?",
     "t": "Qaysi soʻz doim koʻplikda boʻladi?"
   },
-  "u4-l7.13.why": {
+  "u4-l7.choice-nohavice.why": {
     "en": "**Nohavice** is plural only: one pair of trousers still takes sú and stoja. Kaviareň and rieka are ordinary feminine words, with plurals kaviarne and rieky.",
     "t": "**Nohavice** faqat koʻplikda: bitta shim ham sú va stoja bilan keladi. Kaviareň va rieka — oddiy ayol jinsidagi soʻzlar, koʻpligi kaviarne va rieky."
   },
-  "u4-l7.14.prompt": {
+  "u4-l7.build-most-je-novy.prompt": {
     "en": "The bridge is new and the castle is old.",
     "t": "Koʻprik yangi, qalʼa esa eski."
   },
-  "u4-l7.14.traps": {
+  "u4-l7.build-most-je-novy.traps": {
     "en": [
       "Most ends in a consonant, so it's masculine and the adjective takes **-ý**: nov**ý**. Nové is for neuter nouns.",
       "Hrad is masculine (it ends in a consonant), so the adjective takes **-ý**: star**ý**. Stará is for feminine nouns."

@@ -10,7 +10,7 @@ import { lexicon } from "./lexicon";
 import { addSpelling } from "./spelling";
 import { namesIn, withTileCase } from "./tile-case";
 import { localizeUnit, type Catalog } from "./translatable";
-import type { Exercise, Lesson, Unit, UnitOutline } from "./types";
+import type { Exercise, ExerciseId, Lesson, Unit, UnitOutline } from "./types";
 import { unit1 } from "./units/unit1";
 import { unit2 } from "./units/unit2";
 import { unit3 } from "./units/unit3";
@@ -88,15 +88,15 @@ const catalogs: Record<Exclude<Locale, "en">, Catalog[]> = {
 export const localizedCourse: Record<Locale, Unit[]> = Object.fromEntries(
   locales.map((locale) => {
     const units = locale === "en" ? course : course.map((unit, i) => localizeUnit(unit, catalogs[locale][i]));
-    // A spelling card's gloss names the intro card ("lessonId#index") whose meaning it shows.
+    // Spelling cards' glosses and explanations' grammar cards point at exercises by "lessonId#exerciseId".
     const lessons = new Map(units.flatMap((u) => u.lessons).map((l) => [l.id, l]));
     const meaning = (gloss: string) => {
-      const [lessonId, index] = gloss.split("#");
-      const ex = lessons.get(lessonId)?.exercises[Number(index)];
+      const [lessonId, id] = gloss.split("#");
+      const ex = lessons.get(lessonId)?.exercises.find((x) => x.id === id);
       return ex?.type === "intro" ? ex.en : undefined;
     };
     const names = namesIn([...lessons.values()]);
-    // An explanation's grammar card ("lessonId#index"), with the unit and lesson it's in.
+    // An explanation's grammar card, with the unit and lesson it's in.
     const places = new Map(
       units.flatMap((u) =>
         u.lessons.map((l, i) => [l.id, { unit: u.number, lesson: i + 1, title: l.title }] as const),
@@ -104,12 +104,13 @@ export const localizedCourse: Record<Locale, Unit[]> = Object.fromEntries(
     );
     const withRule = (ex: Exercise): Exercise => {
       if ((ex.type !== "choice" && ex.type !== "fill") || !ex.ref) return ex;
-      const [lessonId, index] = ex.ref.split("#");
+      const [lessonId, id] = ex.ref.split("#");
       const exercises = lessons.get(lessonId)?.exercises ?? [];
-      const card = exercises[Number(index)];
+      const index = exercises.findIndex((x) => x.id === id);
+      const card = exercises[index];
       const place = places.get(lessonId);
       return card?.type === "grammar" && place
-        ? { ...ex, rule: { card, ...place, index: Number(index), count: exercises.length } }
+        ? { ...ex, rule: { card, ...place, index, count: exercises.length } }
         : ex;
     };
     const played = (lesson: Lesson) => {
@@ -164,21 +165,21 @@ export const dictionary: DictionaryEntry[] = (() => {
             pick(localizedCourse[locale][u].lessons[l].exercises[i]) ?? pick(lesson.exercises[i]) ?? "",
           ]),
         ) as Record<Locale, string>;
-      const word = (from: "word" | "phrase", sk: string, meaning: Record<Locale, string>, index: number) => {
+      const word = (from: "word" | "phrase", sk: string, meaning: Record<Locale, string>, card: ExerciseId) => {
         const text = stripMarkup(sk);
         const key = text.toLowerCase().replace(/[.!?…]+$/, "");
         if (seen.has(key)) return;
         seen.add(key);
-        entries.push({ kind: from, sk: text, meaning, ...place, index });
+        entries.push({ kind: from, sk: text, meaning, ...place, card });
       };
 
-      let teaching = -1; // the last intro or grammar card so far
+      let teaching: ExerciseId | undefined; // the last intro or grammar card so far
       lesson.exercises.forEach((ex, i) => {
         if (ex.type === "intro") {
-          teaching = i;
-          word("word", ex.sk, inEach(i, (x) => (x.type === "intro" ? x.en : undefined)), i);
+          teaching = ex.id;
+          word("word", ex.sk, inEach(i, (x) => (x.type === "intro" ? x.en : undefined)), ex.id);
         } else if (ex.type === "grammar") {
-          teaching = i;
+          teaching = ex.id;
           // Found by its title, or by a little word in its table (the tables mix Slovak
           // with translations, too noisy to search in full); its examples lead here too.
           const table = [...(ex.table?.head ?? []), ...(ex.table?.rows.flat() ?? [])];
@@ -188,14 +189,15 @@ export const dictionary: DictionaryEntry[] = (() => {
             table: stripMarkup(table.join(" ")),
             meaning: inEach(i, (x) => (x.type === "grammar" ? x.title : undefined)),
             ...place,
-            index: i,
+            card: ex.id,
           });
           ex.examples?.forEach((e, k) =>
-            word("phrase", e.sk, inEach(i, (x) => (x.type === "grammar" ? x.examples?.[k]?.en : undefined)), i),
+            word("phrase", e.sk, inEach(i, (x) => (x.type === "grammar" ? x.examples?.[k]?.en : undefined)), ex.id),
           );
-        } else if (ex.type === "match" && teaching >= 0) {
+        } else if (ex.type === "match" && teaching) {
+          const card = teaching;
           ex.pairs.forEach((p, k) =>
-            word("phrase", p.sk, inEach(i, (x) => (x.type === "match" ? x.pairs[k]?.en : undefined)), teaching),
+            word("phrase", p.sk, inEach(i, (x) => (x.type === "match" ? x.pairs[k]?.en : undefined)), card),
           );
         }
       });
@@ -213,12 +215,11 @@ export const reviewDeck: ReviewItem[] = (() => {
   const items = new Map<string, ReviewItem>();
   localizedCourse.en.forEach((unit, u) =>
     unit.lessons.forEach((lesson, l) => {
-      // By exercise index as played, like the exercises here (spelling cards included).
       const pictures = lessonIllustrations(lesson.id);
       lesson.exercises.forEach((ex, i) => {
         if (ex.type !== "intro" || !isReviewable(ex.sk)) return;
         const id = reviewItemId(ex.sk);
-        const picture = pictures[i];
+        const picture = pictures[ex.id];
         const item = items.get(id);
         if (item) {
           if (!item.lessons.includes(lesson.id)) item.lessons.push(lesson.id);

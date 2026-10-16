@@ -22,21 +22,24 @@ export const unit5: Unit = {
       titleEn: "Food and drink",
       exercises: [
         {
+          id: "co-potrebujeme-na",
           type: "intro",
           sk: "Čo potrebujeme na oslavu?",
           en: "What do we need for the party?",
           note: "Emma and Lucia are planning a party (oslava). potrebovať = to need: potrebuj**em**, potrebuj**eš**, potrebuj**e**…",
         },
-        { type: "intro", sk: "chlieb a maslo", en: "bread and butter" },
+        { id: "chlieb-a-maslo", type: "intro", sk: "chlieb a maslo", en: "bread and butter" },
         {
+          id: "choice-maslo",
           type: "choice",
           question: "How do you say “butter”?",
           options: ["mäso", "maslo", "chlieb"],
           optionsLang: "sk",
           answer: 1,
         },
-        { type: "intro", sk: "syr a šunka", en: "cheese and ham" },
+        { id: "syr-a-sunka", type: "intro", sk: "syr a šunka", en: "cheese and ham" },
         {
+          id: "build-potrebujeme-chlieb-a",
           type: "build",
           prompt: "We need bread and cheese.",
           promptLang: "en",
@@ -46,14 +49,16 @@ export const unit5: Unit = {
             { wrong: "Potrebujem", right: "Potrebujeme", why: "“We” is **my**, so potrebovať takes the my ending **-me**: **potrebujeme**. Potrebujem is the ja form, I need." },
           ],
         },
-        { type: "intro", sk: "víno, pivo a džús", en: "wine, beer and juice" },
+        { id: "vino-pivo-a", type: "intro", sk: "víno, pivo a džús", en: "wine, beer and juice" },
         {
+          id: "kava-a-mineralka",
           type: "intro",
           sk: "káva a minerálka",
           en: "coffee and mineral water",
           note: "minerálka is short for minerálna voda.",
         },
         {
+          id: "match-maslo",
           type: "match",
           pairs: [
             { sk: "maslo", en: "butter" },
@@ -63,14 +68,16 @@ export const unit5: Unit = {
             { sk: "minerálka", en: "mineral water" },
           ],
         },
-        { type: "listen", sk: "Potrebujeme víno a džús.", en: "We need wine and juice." },
+        { id: "listen-potrebujeme-vino-a", type: "listen", sk: "Potrebujeme víno a džús.", en: "We need wine and juice." },
         {
+          id: "kolko-stoji-sunka",
           type: "intro",
           sk: "Koľko stojí šunka?",
           en: "How much is the ham?",
           note: "You know **stáť** from unit 4: Šunka stojí tri eurá. = The ham costs three euros.",
         },
         {
+          id: "fill-kolko-stoji-kava",
           type: "fill",
           before: "Koľko",
           after: "káva?",
@@ -78,9 +85,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "How much is the coffee?",
           why: "Káva is one thing, so stáť takes the one-thing form: **stojí**. Stoja is for two or more things, stojím for ja.",
-          ref: "u4-l6#0",
+          ref: "u4-l6#grammar-stat-cost-stand",
         },
         {
+          id: "choice-syr-stoji-styri",
           type: "choice",
           question: "What does this mean?",
           sk: "Syr stojí štyri eurá.",
@@ -89,6 +97,7 @@ export const unit5: Unit = {
           answer: 0,
         },
         {
+          id: "build-kava-stoji-tri",
           type: "build",
           prompt: "The coffee costs three euros.",
           promptLang: "en",
@@ -100,12 +109,14 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "kupim-cerstvy-chlieb",
           type: "intro",
           sk: "Kúpim čerstvý chlieb.",
           en: "I'll buy fresh bread.",
           note: "kúpiť = to buy: kúpim, kúpiš, kúpi… It usually points to the future: “I'll buy”. čerstvý = fresh.",
         },
         {
+          id: "build-kupim-vino-a",
           type: "build",
           prompt: "Kúpim víno a pivo.",
           promptLang: "sk",
@@ -113,6 +124,7 @@ export const unit5: Unit = {
           distractors: ["need", "juice"],
         },
         {
+          id: "fill-mame-syr-ale",
           type: "fill",
           before: "Máme syr, ale",
           after: "maslo.",
@@ -120,10 +132,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "We have cheese, but we don't have butter.",
           why: "To say not, put **ne-** on the verb as one word: máme → **nemáme**. Nie sme is the not form of byť (we aren't), and nemajú is for oni.",
-          ref: "u2-l5#0",
+          ref: "u2-l5#grammar-not-ne-verb",
         },
-        { type: "listen", sk: "Máte čerstvý chlieb?", en: "Do you have fresh bread?" },
-        { type: "speak", sk: "Čo potrebujeme na oslavu?", en: "What do we need for the party?" },
+        { id: "listen-mate-cerstvy-chlieb", type: "listen", sk: "Máte čerstvý chlieb?", en: "Do you have fresh bread?" },
+        { id: "speak-co-potrebujeme-na", type: "speak", sk: "Čo potrebujeme na oslavu?", en: "What do we need for the party?" },
       ],
     },
     {
@@ -133,6 +145,7 @@ export const unit5: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-accusative-object-case",
           type: "grammar",
           title: "The accusative: the object case",
           body: [
@@ -155,6 +168,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "fill-potrebujem-kavu",
           type: "fill",
           before: "Potrebujem",
           after: ".",
@@ -162,9 +176,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "I need coffee.",
           why: "Coffee is what you need, the object, so it takes the accusative: feminine nouns change -a to **-u**, káva → **kávu**.",
-          ref: "u5-l2#0",
+          ref: "u5-l2#grammar-accusative-object-case",
         },
         {
+          id: "grammar-adjectives-change-too",
           type: "grammar",
           title: "Adjectives change too",
           body: [
@@ -186,6 +201,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "fill-hladam-cerstvu-sunku",
           type: "fill",
           before: "Hľadám",
           after: "šunku.",
@@ -193,9 +209,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "I'm looking for fresh ham.",
           why: "An adjective agrees with its noun. Šunku is a feminine object, so čerstvá changes -á to **-ú**: **čerstvú**. Čerstvý is the masculine form.",
-          ref: "u5-l2#2",
+          ref: "u5-l2#grammar-adjectives-change-too",
         },
         {
+          id: "build-kupim-kavu-a",
           type: "build",
           prompt: "I'll buy coffee and butter.",
           promptLang: "en",
@@ -207,15 +224,17 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "choice-potrebujeme-mineralku",
           type: "choice",
           question: "Which sentence is correct?",
           options: ["Potrebujeme minerálku.", "Potrebujeme minerálka.", "Potrebujeme minerálke."],
           optionsLang: "sk",
           answer: 0,
           why: "After potrebovať, the object goes into the accusative: feminine nouns change -a to **-u**, so minerálka → **minerálku**.",
-          ref: "u5-l2#0",
+          ref: "u5-l2#grammar-accusative-object-case",
         },
         {
+          id: "fill-mame-dobre-vino",
           type: "fill",
           before: "Máme",
           after: "víno.",
@@ -223,10 +242,11 @@ export const unit5: Unit = {
           answer: 0,
           en: "We have good wine.",
           why: "Víno is neuter, and neuter nouns don't change as objects, so the adjective stays **dobré**. Dobrú is for feminine nouns, dobrého for male people.",
-          ref: "u5-l2#2",
+          ref: "u5-l2#grammar-adjectives-change-too",
         },
-        { type: "listen", sk: "Kúpim kávu a čerstvý chlieb.", en: "I'll buy coffee and fresh bread." },
+        { id: "listen-kupim-kavu-a", type: "listen", sk: "Kúpim kávu a čerstvý chlieb.", en: "I'll buy coffee and fresh bread." },
         {
+          id: "grammar-people-koho",
           type: "grammar",
           title: "People: Koho?",
           body: [
@@ -248,6 +268,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "fill-lucia-ma-brata",
           type: "fill",
           before: "Lucia má",
           after: ".",
@@ -255,9 +276,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "Lucia has a brother.",
           why: "A brother is a person and the object of má, so the masculine noun adds **-a**: brat → **brata**. Only masculine things stay the same.",
-          ref: "u5-l2#8",
+          ref: "u5-l2#grammar-people-koho",
         },
         {
+          id: "choice-koho-hladas",
           type: "choice",
           question: "Which answer fits the question?",
           sk: "Koho hľadáš?",
@@ -265,9 +287,10 @@ export const unit5: Unit = {
           optionsLang: "sk",
           answer: 0,
           why: "**Koho?** (whom?) asks about a person, so the answer names one: Marek → **Mareka**. Syr and kávu are things, which answer **Čo?**",
-          ref: "u5-l2#8",
+          ref: "u5-l2#grammar-people-koho",
         },
         {
+          id: "build-hladame-tomasa-a",
           type: "build",
           prompt: "We're looking for Tomáš and Lucia.",
           promptLang: "en",
@@ -279,6 +302,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "fill-mam-noveho-kamarata",
           type: "fill",
           before: "Mám",
           after: "kamaráta.",
@@ -286,16 +310,17 @@ export const unit5: Unit = {
           answer: 0,
           en: "I have a new friend.",
           why: "Kamarát is a male person, and as an object his adjective ends in **-ého**: **nového**. Nový is for masculine things, novú for feminine nouns.",
-          ref: "u5-l2#8",
+          ref: "u5-l2#grammar-people-koho",
         },
         {
+          id: "build-potrebujeme-cerstvu-sunku",
           type: "build",
           prompt: "Potrebujeme čerstvú šunku.",
           promptLang: "sk",
           answers: ["We need fresh ham.", "We need some fresh ham."],
           distractors: ["cheese", "buy"],
         },
-        { type: "speak", sk: "Hľadám pána Kováča.", en: "I'm looking for Mr Kováč." },
+        { id: "speak-hladam-pana-kovaca", type: "speak", sk: "Hľadám pána Kováča.", en: "I'm looking for Mr Kováč." },
       ],
     },
     {
@@ -304,18 +329,21 @@ export const unit5: Unit = {
       titleEn: "Colours and clothes",
       exercises: [
         {
+          id: "cerveny-modry-zeleny",
           type: "intro",
           sk: "červený, modrý, zelený",
           en: "red, blue, green",
           note: "Colours are adjectives, like nový: červen**é** víno = red wine.",
         },
         {
+          id: "biely-cierny-zlty",
           type: "intro",
           sk: "biely, čierny, žltý",
           en: "white, black, yellow",
           note: "biely and čierny have short endings: biel**a**, čiern**a**, and biel**u**, čiern**u** as objects (not -á, -ú). biele víno = white wine.",
         },
         {
+          id: "match-cerveny",
           type: "match",
           pairs: [
             { sk: "červený", en: "red" },
@@ -325,9 +353,10 @@ export const unit5: Unit = {
             { sk: "čierny", en: "black" },
           ],
         },
-        { type: "intro", sk: "tričko a sveter", en: "T-shirt and sweater" },
-        { type: "intro", sk: "sukňa a košeľa", en: "skirt and shirt" },
+        { id: "tricko-a-sveter", type: "intro", sk: "tričko a sveter", en: "T-shirt and sweater" },
+        { id: "sukna-a-kosela", type: "intro", sk: "sukňa a košeľa", en: "skirt and shirt" },
         {
+          id: "fill-sukna-je-cervena",
           type: "fill",
           before: "Sukňa je",
           after: ".",
@@ -335,15 +364,17 @@ export const unit5: Unit = {
           answer: 0,
           en: "The skirt is red.",
           why: "An adjective takes the gender of its noun, after je too. Sukňa is feminine, so the colour ends in **-á**: červen**á**. Červený is masculine, červené neuter.",
-          ref: "u3-l2#2",
+          ref: "u3-l2#grammar-one-adjective-three",
         },
         {
+          id: "chcem-cierne-tricko",
           type: "intro",
           sk: "Chcem čierne tričko.",
           en: "I want a black T-shirt.",
           note: "chcieť = to want: chcem, chceš, chce… The colour takes the accusative too: čiern**u** sukň**u**.",
         },
         {
+          id: "fill-hladam-ciernu-suknu",
           type: "fill",
           before: "Hľadám",
           after: "sukňu.",
@@ -351,9 +382,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "I'm looking for a black skirt.",
           why: "Sukňu is a feminine object, so the colour changes too. Čierny has short endings: čierna → **čiernu**, with -u, not -ú.",
-          ref: "u5-l2#2",
+          ref: "u5-l2#grammar-adjectives-change-too",
         },
         {
+          id: "build-chcem-bielu-koselu",
           type: "build",
           prompt: "I want a white shirt.",
           promptLang: "en",
@@ -365,19 +397,22 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "darcek",
           type: "intro",
           sk: "darček",
           en: "present, gift",
           note: "Emma and Tomáš are looking for a present for Lucia's party.",
         },
-        { type: "listen", sk: "Emma a Tomáš hľadajú darček.", en: "Emma and Tomáš are looking for a present." },
+        { id: "listen-emma-a-tomas", type: "listen", sk: "Emma a Tomáš hľadajú darček.", en: "Emma and Tomáš are looking for a present." },
         {
+          id: "aku-farbu-mas",
           type: "intro",
           sk: "Akú farbu máš rada?",
           en: "What colour do you like? (to a woman)",
           note: "mať rád (said of a man) / mať rada (of a woman) = to like. Mám rada zelen**ú** farb**u**. = I like green.",
         },
         {
+          id: "choice-tomas-ma-rad",
           type: "choice",
           question: "What does Tomáš like?",
           sk: "Tomáš má rád modrú farbu.",
@@ -386,6 +421,7 @@ export const unit5: Unit = {
           answer: 0,
         },
         {
+          id: "fill-chcem-modry-sveter",
           type: "fill",
           before: "Chcem",
           after: "sveter.",
@@ -393,9 +429,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "I want a blue sweater.",
           why: "Sveter is a masculine thing, and masculine things don't change as objects, so the colour stays **modrý**. Modrú is for feminine nouns, modrého for male people.",
-          ref: "u5-l2#2",
+          ref: "u5-l2#grammar-adjectives-change-too",
         },
         {
+          id: "build-emma-hlada-zelene",
           type: "build",
           prompt: "Emma is looking for a green T-shirt.",
           promptLang: "en",
@@ -406,15 +443,16 @@ export const unit5: Unit = {
             { wrong: "hľadám", right: "hľadá", why: "Emma is **ona**, so hľadať takes the ona form, with no ending: **hľadá**. Hľadám is the ja form." },
           ],
         },
-        { type: "listen", sk: "Koľko stojí čierny sveter?", en: "How much is the black sweater?" },
+        { id: "listen-kolko-stoji-cierny", type: "listen", sk: "Koľko stojí čierny sveter?", en: "How much is the black sweater?" },
         {
+          id: "build-lucia-ma-rada",
           type: "build",
           prompt: "Lucia má rada žltú farbu.",
           promptLang: "sk",
           answers: ["Lucia likes yellow.", "Lucia likes the colour yellow.", "Lucia likes the color yellow."],
           distractors: ["green", "has"],
         },
-        { type: "speak", sk: "Chcem čierne tričko.", en: "I want a black T-shirt." },
+        { id: "speak-chcem-cierne-tricko", type: "speak", sk: "Chcem čierne tričko.", en: "I want a black T-shirt." },
       ],
     },
     {
@@ -424,6 +462,7 @@ export const unit5: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-me-you-him",
           type: "grammar",
           title: "Me, you, him, her",
           body: [
@@ -449,6 +488,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "fill-kde-si-emma",
           type: "fill",
           before: "Kde si, Emma? Hľadám",
           after: ".",
@@ -456,9 +496,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "Where are you, Emma? I'm looking for you.",
           why: "Emma is ty here, and as an object ty becomes **ťa**: hľadám ťa = I'm looking for you. Ju means her.",
-          ref: "u5-l4#0",
+          ref: "u5-l4#grammar-me-you-him",
         },
         {
+          id: "grammar-pre-accusative",
           type: "grammar",
           title: "pre + accusative: for",
           body: [
@@ -483,6 +524,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "fill-tomas-mam-ho",
           type: "fill",
           before: "Tomáš? Mám",
           after: "rada.",
@@ -490,9 +532,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "Tomáš? I like him.",
           why: "Tomáš is on, and the object form of on is **ho**, in second place: Mám **ho** rada. Ju is her, ich is them.",
-          ref: "u5-l4#0",
+          ref: "u5-l4#grammar-me-you-him",
         },
         {
+          id: "fill-to-je-pre",
           type: "fill",
           before: "To je pre",
           after: ".",
@@ -500,9 +543,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "This is for you.",
           why: "After a preposition like **pre**, pronouns use their long forms: pre **teba**. Ťa is the short form, used without a preposition: hľadám ťa.",
-          ref: "u5-l4#2",
+          ref: "u5-l4#grammar-pre-accusative",
         },
         {
+          id: "fill-darcek-je-pre",
           type: "fill",
           before: "Darček je pre",
           after: ".",
@@ -510,9 +554,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "The present is for Lucia.",
           why: "**Pre** (for) takes the accusative, and Lucia follows the feminine -u rule: Lucia → **Luciu**.",
-          ref: "u5-l4#2",
+          ref: "u5-l4#grammar-pre-accusative",
         },
         {
+          id: "build-sveter-je-pre",
           type: "build",
           prompt: "The sweater is for him.",
           promptLang: "en",
@@ -524,6 +569,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "match-ma",
           type: "match",
           pairs: [
             { sk: "ma", en: "me" },
@@ -534,6 +580,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "grammar-na-accusative",
           type: "grammar",
           title: "na + accusative",
           body: [
@@ -547,6 +594,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "fill-cakame-na-tomasa",
           type: "fill",
           before: "Čakáme na",
           after: ".",
@@ -554,18 +602,20 @@ export const unit5: Unit = {
           answer: 0,
           en: "We're waiting for Tomáš.",
           why: "**Čakať na** takes the accusative, and masculine nouns for people add **-a**: Tomáš → **Tomáša**.",
-          ref: "u5-l4#8",
+          ref: "u5-l4#grammar-na-accusative",
         },
         {
+          id: "choice-cakam-na-teba",
           type: "choice",
           question: "Which sentence is correct?",
           options: ["Čakám na teba.", "Čakám na ťa.", "Čakám na ty."],
           optionsLang: "sk",
           answer: 0,
           why: "After a preposition like **na**, pronouns use their long forms: na **teba**. Ťa is the short form, used without a preposition, and ty isn't an object form.",
-          ref: "u5-l4#8",
+          ref: "u5-l4#grammar-na-accusative",
         },
         {
+          id: "build-pozyvame-ta-na",
           type: "build",
           prompt: "We're inviting you to the party.",
           promptLang: "en",
@@ -576,15 +626,16 @@ export const unit5: Unit = {
             { wrong: "Pozývam", right: "Pozývame", why: "“We” is **my**, so pozývať takes the my ending **-me**: **pozývame**. Pozývam is the ja form, I'm inviting." },
           ],
         },
-        { type: "listen", sk: "Pozývam ťa na oslavu.", en: "I'm inviting you to the party." },
+        { id: "listen-pozyvam-ta-na", type: "listen", sk: "Pozývam ťa na oslavu.", en: "I'm inviting you to the party." },
         {
+          id: "build-cakam-na-teba",
           type: "build",
           prompt: "Čakám na teba.",
           promptLang: "sk",
           answers: ["I'm waiting for you.", "I am waiting for you."],
           distractors: ["looking", "me"],
         },
-        { type: "speak", sk: "To je pre teba.", en: "This is for you." },
+        { id: "speak-to-je-pre", type: "speak", sk: "To je pre teba.", en: "This is for you." },
       ],
     },
     {
@@ -594,6 +645,7 @@ export const unit5: Unit = {
       kind: "grammar",
       exercises: [
         {
+          id: "grammar-ist-go",
           type: "grammar",
           title: "ísť: to go",
           body: [
@@ -618,6 +670,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "fill-kam-ides-emma",
           type: "fill",
           before: "Kam",
           after: ", Emma?",
@@ -625,9 +678,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "Where are you going, Emma?",
           why: "The question is to Emma, **ty**, so ísť ends in **-eš**: ideš. Idem goes with ja, ide with on or ona.",
-          ref: "u5-l5#0",
+          ref: "u5-l5#grammar-ist-go",
         },
         {
+          id: "grammar-want-can-must",
           type: "grammar",
           title: "Want, can, must + infinitive",
           body: [
@@ -652,6 +706,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "fill-lucia-a-marek",
           type: "fill",
           before: "Lucia a Marek",
           after: "na oslavu.",
@@ -659,9 +714,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "Lucia and Marek are going to the party.",
           why: "Lucia and Marek are two people, **oni**, so ísť takes the oni form: **idú**. Ide is for one person, idete for vy.",
-          ref: "u5-l5#0",
+          ref: "u5-l5#grammar-ist-go",
         },
         {
+          id: "fill-musim-ist-ahoj",
           type: "fill",
           before: "",
           after: "ísť, ahoj!",
@@ -669,9 +725,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "I have to go, bye!",
           why: "The speaker is **ja**, so musieť takes the ja form **musím**, followed by the infinitive ísť. Musia is for oni; môže means he or she can.",
-          ref: "u5-l5#2",
+          ref: "u5-l5#grammar-want-can-must",
         },
         {
+          id: "build-mozes-kupit-chlieb",
           type: "build",
           prompt: "Can you buy bread?",
           promptLang: "en",
@@ -683,6 +740,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "build-ideme-na-oslavu",
           type: "build",
           prompt: "We're going to the party.",
           promptLang: "en",
@@ -693,8 +751,9 @@ export const unit5: Unit = {
             { wrong: "Idete", right: "Ideme", why: "“We” is **my**, so ísť takes the my form **ideme**. Idete is for vy." },
           ],
         },
-        { type: "listen", sk: "Idem po chlieb a víno.", en: "I'm going to get bread and wine." },
+        { id: "listen-idem-po-chlieb", type: "listen", sk: "Idem po chlieb a víno.", en: "I'm going to get bread and wine." },
         {
+          id: "build-co-chces-pit",
           type: "build",
           prompt: "What do you want to drink?",
           promptLang: "en",
@@ -706,6 +765,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "grammar-smiet-vediet",
           type: "grammar",
           title: "smieť and vedieť",
           body: [
@@ -730,6 +790,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "choice-viem-varit",
           type: "choice",
           question: "What does this mean?",
           sk: "Viem variť.",
@@ -737,9 +798,10 @@ export const unit5: Unit = {
           optionsLang: "en",
           answer: 0,
           why: "**Vedieť** + infinitive means to know how to do something: viem variť = I can cook. I want to would be chcem, I have to musím.",
-          ref: "u5-l5#9",
+          ref: "u5-l5#grammar-smiet-vediet",
         },
         {
+          id: "build-nesmies-pit-vino",
           type: "build",
           prompt: "You mustn't drink wine.",
           promptLang: "en",
@@ -751,6 +813,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "build-nemusis-ist",
           type: "build",
           prompt: "Nemusíš ísť.",
           promptLang: "sk",
@@ -758,6 +821,7 @@ export const unit5: Unit = {
           distractors: ["must", "want"],
         },
         {
+          id: "fill-ideme-cez-park",
           type: "fill",
           before: "Ideme",
           after: "park.",
@@ -766,9 +830,9 @@ export const unit5: Unit = {
           answer: 0,
           en: "We're going through the park.",
           why: "Going through a place is **cez** + accusative: ideme cez park. **Na** is for going to an event, like na oslavu.",
-          ref: "u5-l5#0",
+          ref: "u5-l5#grammar-ist-go",
         },
-        { type: "speak", sk: "Musím ísť.", en: "I have to go." },
+        { id: "speak-musim-ist", type: "speak", sk: "Musím ísť.", en: "I have to go." },
       ],
     },
     {
@@ -777,18 +841,21 @@ export const unit5: Unit = {
       titleEn: "Happy birthday!",
       exercises: [
         {
+          id: "lucia-ma-dnes",
           type: "intro",
           sk: "Lucia má dnes narodeniny.",
           en: "It's Lucia's birthday today.",
           note: "narodeniny (birthday) is always plural.",
         },
         {
+          id: "vsetko-najlepsie",
           type: "intro",
           sk: "Všetko najlepšie!",
           en: "Happy birthday! / All the best!",
           note: "The standard wish for birthdays and name days.",
         },
         {
+          id: "choice-vsetko-najlepsie",
           type: "choice",
           question: "It's your friend's birthday. What do you say?",
           options: ["Všetko najlepšie!", "Dobrú chuť!", "Prepáč!"],
@@ -796,18 +863,21 @@ export const unit5: Unit = {
           answer: 0,
         },
         {
+          id: "torta-a-sviecky",
           type: "intro",
           sk: "torta a sviečky",
           en: "cake and candles",
           note: "One candle is sviečka. Plural things don't change as objects: Kúpime sviečky.",
         },
         {
+          id: "kytica",
           type: "intro",
           sk: "kytica",
           en: "bouquet (of flowers)",
           note: "Kúpime kytic**u**. = We'll buy a bouquet.",
         },
         {
+          id: "match-torta",
           type: "match",
           pairs: [
             { sk: "torta", en: "cake" },
@@ -818,6 +888,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "fill-kupime-tortu-a",
           type: "fill",
           before: "Kúpime",
           after: "a sviečky.",
@@ -825,16 +896,18 @@ export const unit5: Unit = {
           answer: 0,
           en: "We'll buy a cake and candles.",
           why: "The cake is what we'll buy, the object, so torta changes -a to **-u**: **tortu**. Sviečky is plural, and plural things don't change as objects.",
-          ref: "u5-l2#0",
+          ref: "u5-l2#grammar-accusative-object-case",
         },
         {
+          id: "vela-zdravia-stastia",
           type: "intro",
           sk: "Veľa zdravia, šťastia a lásky!",
           en: "Lots of health, happiness and love!",
           note: "A classic birthday wish, often added after “Všetko najlepšie!”.",
         },
-        { type: "listen", sk: "Všetko najlepšie, Lucia!", en: "Happy birthday, Lucia!" },
+        { id: "listen-vsetko-najlepsie-lucia", type: "listen", sk: "Všetko najlepšie, Lucia!", en: "Happy birthday, Lucia!" },
         {
+          id: "build-darcek-je-pre",
           type: "build",
           prompt: "The present is for you.",
           promptLang: "en",
@@ -846,12 +919,14 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "dakujem-za-darcek",
           type: "intro",
           sk: "Ďakujem za darček.",
           en: "Thanks for the present.",
           note: "ďakovať za + accusative: Ďakujem za kytic**u**.",
         },
         {
+          id: "fill-dakujem-za-kyticu",
           type: "fill",
           before: "Ďakujem za",
           after: ".",
@@ -859,15 +934,17 @@ export const unit5: Unit = {
           answer: 0,
           en: "Thanks for the bouquet.",
           why: "**Ďakovať za** takes the accusative, so kytica changes -a to **-u**: za **kyticu**.",
-          ref: "u5-l2#0",
+          ref: "u5-l2#grammar-accusative-object-case",
         },
         {
+          id: "kedy-prides-o",
           type: "intro",
           sk: "Kedy prídeš? — O hodinu.",
           en: "When are you coming? — In an hour.",
           note: "prísť (to come) works like ísť: prídem, prídeš, príde… o + accusative: o hodin**u** = in an hour.",
         },
         {
+          id: "fill-tomas-pride-o",
           type: "fill",
           before: "Tomáš",
           after: "o hodinu.",
@@ -875,9 +952,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "Tomáš is coming in an hour.",
           why: "Tomáš is **on**, so prísť takes the on form, **príde**, just like ide. Prídem goes with ja, prídu with oni.",
-          ref: "u5-l5#0",
+          ref: "u5-l5#grammar-ist-go",
         },
         {
+          id: "build-nemozem-prist-musim",
           type: "build",
           prompt: "Nemôžem prísť, musím pracovať.",
           promptLang: "sk",
@@ -885,6 +963,7 @@ export const unit5: Unit = {
           distractors: ["want", "go"],
         },
         {
+          id: "choice-na-zdravie",
           type: "choice",
           question: "Marek raises his glass. What does he mean?",
           sk: "Na zdravie!",
@@ -893,6 +972,7 @@ export const unit5: Unit = {
           answer: 0,
         },
         {
+          id: "build-kupim-kyticu-pre",
           type: "build",
           prompt: "I'll buy a bouquet for Lucia.",
           promptLang: "en",
@@ -903,7 +983,7 @@ export const unit5: Unit = {
             { wrong: "Lucia", right: "Luciu", why: "**Pre** (for) takes the accusative, and Lucia follows the feminine -u rule: Lucia → **Luciu**." },
           ],
         },
-        { type: "speak", sk: "Všetko najlepšie!", en: "Happy birthday!" },
+        { id: "speak-vsetko-najlepsie", type: "speak", sk: "Všetko najlepšie!", en: "Happy birthday!" },
       ],
     },
     {
@@ -913,6 +993,7 @@ export const unit5: Unit = {
       kind: "review",
       exercises: [
         {
+          id: "match-sunka",
           type: "match",
           pairs: [
             { sk: "šunka", en: "ham" },
@@ -923,6 +1004,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "fill-lucia-potrebuje-novu",
           type: "fill",
           before: "Lucia potrebuje",
           after: "sukňu.",
@@ -930,10 +1012,11 @@ export const unit5: Unit = {
           answer: 0,
           en: "Lucia needs a new skirt.",
           why: "Sukňu is a feminine object of potrebuje, so its adjective changes -á to **-ú**: nová → **novú**. Nový is the masculine form.",
-          ref: "u5-l2#2",
+          ref: "u5-l2#grammar-adjectives-change-too",
         },
-        { type: "listen", sk: "Kúpim čerstvú šunku a syr.", en: "I'll buy fresh ham and cheese." },
+        { id: "listen-kupim-cerstvu-sunku", type: "listen", sk: "Kúpim čerstvú šunku a syr.", en: "I'll buy fresh ham and cheese." },
         {
+          id: "fill-emma-hlada-bielu",
           type: "fill",
           before: "Emma hľadá",
           after: "košeľu.",
@@ -941,9 +1024,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "Emma is looking for a white shirt.",
           why: "Košeľu is a feminine object, so the colour changes too. Biely has short endings: biela → **bielu**, with -u, not -ú.",
-          ref: "u5-l2#2",
+          ref: "u5-l2#grammar-adjectives-change-too",
         },
         {
+          id: "build-hladam-mareka",
           type: "build",
           prompt: "I'm looking for Marek.",
           promptLang: "en",
@@ -955,15 +1039,17 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "choice-mam-noveho-kamarata",
           type: "choice",
           question: "Which sentence is correct?",
           options: ["Mám nového kamaráta.", "Mám nový kamaráta.", "Mám nového kamarát."],
           optionsLang: "sk",
           answer: 0,
           why: "Kamarát is a male person, so as an object both words change: the noun adds **-a** and its adjective ends in **-ého**: nov**ého** kamarát**a**.",
-          ref: "u5-l2#8",
+          ref: "u5-l2#grammar-people-koho",
         },
         {
+          id: "fill-tomas-cakam-na",
           type: "fill",
           before: "Tomáš? Čakám na",
           after: ".",
@@ -971,9 +1057,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "Tomáš? I'm waiting for him.",
           why: "After a preposition like **na**, on uses its long form: na **neho**. Ho is the short form, used without a preposition; ňu means her.",
-          ref: "u5-l4#8",
+          ref: "u5-l4#grammar-na-accusative",
         },
         {
+          id: "build-kytica-je-pre",
           type: "build",
           prompt: "The bouquet is for her.",
           promptLang: "en",
@@ -985,6 +1072,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "fill-oni-idu-na",
           type: "fill",
           before: "Oni",
           after: "na oslavu.",
@@ -992,9 +1080,10 @@ export const unit5: Unit = {
           answer: 0,
           en: "They're going to the party.",
           why: "With **oni** (they), ísť ends in **-ú**: idú. Ide goes with on or ona, idem with ja.",
-          ref: "u5-l5#0",
+          ref: "u5-l5#grammar-ist-go",
         },
         {
+          id: "choice-ides-na-oslavu",
           type: "choice",
           question: "What does this mean?",
           sk: "Ideš na oslavu?",
@@ -1002,9 +1091,10 @@ export const unit5: Unit = {
           optionsLang: "en",
           answer: 0,
           why: "**Ideš** is the ty form of ísť (to go), and **na** + accusative means going to an event: na oslavu = to the party.",
-          ref: "u5-l5#0",
+          ref: "u5-l5#grammar-ist-go",
         },
         {
+          id: "build-mozes-kupit-tortu",
           type: "build",
           prompt: "Can you buy a cake?",
           promptLang: "en",
@@ -1016,6 +1106,7 @@ export const unit5: Unit = {
           ],
         },
         {
+          id: "fill-tu-nesmiete-fajcit",
           type: "fill",
           before: "Tu",
           after: "fajčiť.",
@@ -1023,17 +1114,18 @@ export const unit5: Unit = {
           answer: 0,
           en: "You're not allowed to smoke here.",
           why: "Not allowed is **nesmieť**: nesmiete = you mustn't. Careful: nemusíte means you don't have to, and neviete you don't know how.",
-          ref: "u5-l5#9",
+          ref: "u5-l5#grammar-smiet-vediet",
         },
         {
+          id: "build-mam-ho-rad",
           type: "build",
           prompt: "Mám ho rád.",
           promptLang: "sk",
           answers: ["I like him.", "I like it."],
           distractors: ["her", "have"],
         },
-        { type: "listen", sk: "Dnes máme oslavu!", en: "We're having a party today!" },
-        { type: "speak", sk: "Pozývam ťa na oslavu.", en: "I'm inviting you to the party." },
+        { id: "listen-dnes-mame-oslavu", type: "listen", sk: "Dnes máme oslavu!", en: "We're having a party today!" },
+        { id: "speak-pozyvam-ta-na", type: "speak", sk: "Pozývam ťa na oslavu.", en: "I'm inviting you to the party." },
       ],
     },
   ],

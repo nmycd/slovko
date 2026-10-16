@@ -148,10 +148,12 @@ function exerciseFor(
   const word = items.get(card.itemId)!;
   const meaning = word.meaning[locale];
   const meanings = card.options.map((id) => items.get(id)!.meaning[locale]);
+  const id = card.cardId;
   switch (drill) {
     case "read":
     case "listen":
       return {
+        id,
         type: "choice",
         question: t("review.whatMeans"),
         sk: word.sk,
@@ -162,6 +164,7 @@ function exerciseFor(
       };
     case "pick":
       return {
+        id,
         type: "choice",
         question: t("review.howSay", { meaning }),
         options: card.options.map((id) => items.get(id)!.sk),
@@ -169,9 +172,9 @@ function exerciseFor(
         answer: card.answer,
       };
     case "dictation":
-      return { type: "spell", sk: word.sk };
+      return { id, type: "spell", sk: word.sk };
     case "type":
-      return { type: "spell", sk: word.sk, en: meaning, fromMeaning: true };
+      return { id, type: "spell", sk: word.sk, en: meaning, fromMeaning: true };
   }
 }
 

@@ -47,6 +47,12 @@ types and how grammar cards are written. The types are in
 Don't write spelling cards (stage 6 places them) or dictionary entries (built
 automatically).
 
+**Name each new exercise**: every exercise has an `id`, unique in its lesson
+(`dobry-den`, `choice-dovidenia`), which translation keys, `ref`s, pictures and
+spelling cards point at, so exercises can be added, removed and reordered without
+shifting anything. Write exercises without one and run `npm run course:ids`, which
+fills in ids and never changes existing ones (AUTHORING.md, "Exercise ids").
+
 **Tag each new review word** in [lexicon.ts](src/lib/course/lexicon.ts): every
 intro card of up to three words (not a list) is a review word, keyed by its Slovak
 in lowercase without final punctuation. Give its part of speech (a noun phrase is a
@@ -74,7 +80,8 @@ npm run -s validate:course -- u3
 npx tsc --noEmit
 ```
 
-`validate:course` catches structure the type checker can't: lesson ids, answer
+`validate:course` catches structure the type checker can't: lesson and exercise
+ids, every pointer to an exercise (`ref`s, spelling cards, pictures), answer
 indices, tiles, Slovak-only fields, sentence lengths. It must print "✓ no
 errors". A capitalised word in the middle of a `listen` sentence must be listed
 in [names.ts](src/lib/course/names.ts): names are graded leniently (a misspelt name
@@ -120,9 +127,11 @@ npm run plan:spelling
 - Each card goes 2–5 cards after the word first appears in writing, at least 2
   before the first sentence that needs it, at most 5 cards per lesson. The
   2–5 is a fixed pick per word, so the same course always gets the same plan.
-- The plan is [spelling.json](src/lib/course/spelling.json), committed. Lessons
-  get the cards when the course loads (after translation), so translation keys
-  and picture positions keep counting only the exercises you wrote.
+- The plan is [spelling.json](src/lib/course/spelling.json), committed: per lesson,
+  each card's word, the exercise it goes `after` (an id; none for the start of the
+  lesson) and, for the meaning, the intro card it `gloss`es (`u1-l2#dakujem`).
+  Lessons get the cards when the course loads, after translation; a card's id is
+  `spell-` and its word.
 
 `validate:course` fails if a typed sentence needs a word that hasn't been spelled
 yet: rerun the planner whenever lessons change. New spelling words need audio
@@ -138,7 +147,7 @@ An intro card's picture also illustrates its word in word review (see
 [Automatic](#automatic)), so give short words and phrases a picture where one
 fits, and make it show the meaning plainly.
 
-1. List the unit's exercises with their indices:
+1. List the unit's exercises with their ids:
    ```bash
    npx tsx illustrations/tools/list-exercises.ts . 3
    ```
@@ -148,8 +157,8 @@ fits, and make it show the meaning plainly.
    ```bash
    sh illustrations/tools/cut-panels.sh 3
    ```
-3. Write `illustrations/plan/map-u3.json`: for each exercise that gets a picture,
-   a `picture` description (who, where, doing what; never style) or a `reuse` of
+3. Write `illustrations/plan/map-u3.json`: for each exercise that gets a picture
+   (keyed `"u3-l1#izba"`, lesson and exercise id), a `picture` description (who, where, doing what; never style) or a `reuse` of
    an earlier picture, and the matching crop if there is one. A crop and its
    picture must show the same situation; describe the scene, never the book's
    drawing.
@@ -179,10 +188,10 @@ npx tsx illustrations/tools/render-plan.ts --unit 3
   coverage in stage 7.
 - Renders land in `illustrations/renders/` (git-ignored); the script resumes
   where it stopped. It converts each one to
-  `public/illustrations/<lesson>-<exercise>-<hash>.webp` (the hash changes when
+  `public/illustrations/<lesson>-<exercise id>-<hash>.webp` (the hash changes when
   the picture does, so caches never show an old one) and writes
-  [illustrations.json](src/lib/course/illustrations.json), which the lesson page
-  reads.
+  [illustrations.json](src/lib/course/illustrations.json) (`"u3-l1#izba"` → picture),
+  which the lesson page reads.
 - To redo a picture, delete its file in `renders/` and run again. To try prompt
   changes on a few pictures first, use `render-test.ts`; to find pictures whose
   paint runs into the border, `check-edges.ts`.
@@ -265,7 +274,8 @@ These follow from the content; there's nothing to run.
 | English text | `npm run i18n:sync`, retranslate the stale entries |
 | Slovak text | `npm run generate:audio`; `npm run plan:spelling` if it's in or before a typed sentence; the picture plan if the exercise has a picture (its text snapshot no longer matches) |
 | A typed sentence | `npm run plan:spelling`; add any new name to `names.ts` |
-| The order of exercises | Picture plan entries are keyed by exercise index: update `map-uN.json` and rerun `build-plan.ts`; rerun `plan:spelling` |
+| The exercises in a lesson (add, remove, reorder) | `npm run course:ids` for new ones; `npm run plan:spelling`. Nothing else shifts: translations, `ref`s and pictures follow exercise ids. A removed exercise's picture fails `validate:course` until its entry leaves `map-uN.json` and `illustrations.json` |
+| An exercise's lesson (moving it) | Its pointers change lesson (`u1-l1#…` → `u1-l2#…`): update `ref`s and picture entries as `validate:course` says, and move its translation entries before `npm run i18n:sync` |
 | A lesson's pictures | Edit `map-uN.json`, `build-plan.ts`, then `render-plan.ts` |
 
 ## Never in git, never to the model

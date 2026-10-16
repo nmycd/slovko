@@ -54,6 +54,7 @@ structure, exercise rules, grammar cards, the cast, what may and may not be
 taken from the textbook). Then check your unit:
 
 ```bash
+npm run course:ids              # give new exercises their ids
 npm run validate:course -- u3   # one unit; omit the argument for the whole course
 npm run i18n:sync               # after changing English text: update the uk/ru catalogs
 ```

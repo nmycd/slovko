@@ -3,11 +3,12 @@
 // entries come from the server (see `dictionary` in ./course).
 import { slips } from "@/lib/answers";
 import { littleWords } from "@/lib/course/little-words";
+import type { ExerciseId } from "@/lib/course/types";
 import type { Locale } from "@/lib/i18n";
 
 /**
  * A word or phrase the course teaches, or a grammar card, and where it's taught
- * (the card to open: exercise index as played; unit and lesson numbers for display).
+ * (the card to open, by exercise id; unit and lesson numbers for display).
  */
 export type DictionaryEntry = {
   /** A word (taught on its own card), a phrase (a grammar example or matching pair), or a grammar card. */
@@ -19,7 +20,7 @@ export type DictionaryEntry = {
   /** The meaning in each native language; for a grammar card, its title. */
   meaning: Record<Locale, string>;
   lessonId: string;
-  index: number;
+  card: ExerciseId;
   unit: number;
   lesson: number;
 };

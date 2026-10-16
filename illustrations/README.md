@@ -7,7 +7,9 @@ Rendering). Where this fits in the whole course workflow:
 [CONTENT-PIPELINE.md](../CONTENT-PIPELINE.md). How the pictures came about, with
 the brief their descriptions were written to: [HISTORY.md](HISTORY.md).
 
-- `plan/unitN.json`: one entry per exercise that gets a picture.
+- `plan/unitN.json`: one entry per exercise that gets a picture. Entries name
+  exercises by lesson and exercise id (`u1-l1#dobre-rano`), so adding or moving
+  other exercises leaves them alone.
 - `book-refs/`: crops of the textbook's pictures, matched to entries. **Not in
   git** (the repo is public and the book is copyrighted). Rebuild them from the
   PDF in the project root; see "Book crops" below.
@@ -47,11 +49,11 @@ the brief their descriptions were written to: [HISTORY.md](HISTORY.md).
 ```jsonc
 {
   "lesson": "u1-l1",
-  "exercise": 3,              // index in lesson.exercises
+  "exercise": "dobre-rano",   // the exercise's id
   "type": "intro",
-  "text": "Dobré ráno. = Good morning.",   // snapshot, to spot edits that shift indices
+  "text": "Dobré ráno. = Good morning.",   // snapshot, to spot edits to the exercise
   "picture": "…",             // what to draw; omitted when reusing
-  "reuse": "u1-l1#1",         // instead of picture: show that entry's picture
+  "reuse": "u1-l1#dobry-den", // instead of picture: show that entry's picture
   "book": {                   // null when the book has no matching picture
     "pdfPage": 6, "printedPage": 9, "panel": "6",
     "crop": "book-refs/panels/p6-6.jpg"
@@ -89,23 +91,23 @@ Places that come back in several units. Keep their layout the same each time.
 
 | Place | What it looks like | First in |
 | --- | --- | --- |
-| Emma and Lucia's dorm room | Small and cosy. Seen from the door: two desks along the left wall, Lucia's at the front by the door and Emma's at the back under the window, with a map of Europe above it; the two beds along the right wall; a tall wooden wardrobe at the back; plants on the windowsill. | u1-l1#11, u3-l1#0, u3-l3#7 |
-| Dorm kitchen | Shared. Small stove, fridge, sink, microwave, kettle, a washing machine under the counter, a table by the window. Lucia's birthday party is here. | u1-l2#5, u3-l1#1 |
-| Dorm bathroom | Shower with a curtain, sink with two toothbrushes in a mug, towels on hooks. | u3-l1#2 |
-| Dormitory building | Tall concrete student block with rows of windows; long corridors of identical doors, a staircase, a narrow balcony. | u3-l1#12 |
-| Porter's lodge | Just inside the dormitory entrance: pán Kováč sits behind a window onto the entrance hall, with a computer, a small TV and a big clock on the wall. Notices get pinned to the entrance door. | u3-l1#10, u7-l2#0 |
-| Slovak classroom | Desks in rows facing pani Horváthová's desk and a whiteboard. Pushed into one big table for seminars. | u2-l2#5, u7-l1#1 |
-| University | Main building with a clock over the entrance; a sunny courtyard; tiered lecture hall; library with tall shelves, long tables and green lamps; canteen; international office counter. | u1-l1#0, u7-l1#0 |
-| Café near the university | Small round tables, a big street window, a counter with a coffee machine. | u1-l4#5, u4-l2#1 |
-| Marek's restaurant | Dining room with checked tablecloths and leather-bound menus; a busy kitchen with big pots. | u1-l2#4, u4-l3#0, u6-l1#0 |
-| Marek's flat | Hallway in the middle; bright living room with a big window, sofa, rug and TV; small dim bedroom facing a courtyard. | u3-l5#0 |
-| Corner shop | Near the dorm. Shelves of groceries, a deli counter with scales. | u5-l1#9 |
-| Clothes shop | Racks and shelves of clothes, a mirror, a counter with high shelves behind it. | u4-l3#3, u5-l3#3 |
-| Neighbourhood bakery | Small; shelves of rolls and loaves behind the counter. | u1-l1#1 |
-| Tomáš's company | An office building with several floors: a reception desk at the entrance, a canteen, a meeting room, a training room, a room for staff parties, the technical department. Tomáš's own office is untidy: a desk with a lamp above it, a printer, shelves. | u8-l1#0, u6-l5#6 |
-| Bratislava Old Town | Square with a fountain and pastel houses, narrow streets, a church with a tall spire; the white castle with four corner towers on its hill; the bridge with one pylon and a round saucer on top; café tables on the Danube embankment. | u4-l1#0 |
-| Park bench | Tomáš's bench from the weather pictures (sunny, partly cloudy, cloudy, rain); the pensioner feeds pigeons in the same park. | u1-l3#1, u10-l2#2 |
-| Conference centre | Foyer with a registration desk and posters; a hall with a lectern and a big screen. | u9-l1#0 |
+| Emma and Lucia's dorm room | Small and cosy. Seen from the door: two desks along the left wall, Lucia's at the front by the door and Emma's at the back under the window, with a map of Europe above it; the two beds along the right wall; a tall wooden wardrobe at the back; plants on the windowsill. | u1-l1#choice-dobru-noc, u3-l1#izba, u3-l3#vlavo-vpravo |
+| Dorm kitchen | Shared. Small stove, fridge, sink, microwave, kettle, a washing machine under the counter, a table by the window. Lucia's birthday party is here. | u1-l2#ano-prosim, u3-l1#kuchyna |
+| Dorm bathroom | Shower with a curtain, sink with two toothbrushes in a mug, towels on hooks. | u3-l1#kupelna |
+| Dormitory building | Tall concrete student block with rows of windows; long corridors of identical doors, a staircase, a narrow balcony. | u3-l1#byvam-na-internate |
+| Porter's lodge | Just inside the dormitory entrance: pán Kováč sits behind a window onto the entrance hall, with a computer, a small TV and a big clock on the wall. Notices get pinned to the entrance door. | u3-l1#vratnica, u7-l2#kolko-je-hodin |
+| Slovak classroom | Desks in rows facing pani Horváthová's desk and a whiteboard. Pushed into one big table for seminars. | u2-l2#choice-odkial-ste, u7-l1#seminar |
+| University | Main building with a clock over the entrance; a sunny courtyard; tiered lecture hall; library with tall shelves, long tables and green lamps; canteen; international office counter. | u1-l1#ahoj, u7-l1#prednaska |
+| Café near the university | Small round tables, a big street window, a counter with a coffee machine. | u1-l4#choice-ako-sa-mate-2, u4-l2#kaviaren |
+| Marek's restaurant | Dining room with checked tablecloths and leather-bound menus; a busy kitchen with big pots. | u1-l2#choice-nech-sa-paci, u4-l3#co-robis-som, u6-l1#jedalny-listok |
+| Marek's flat | Hallway in the middle; bright living room with a big window, sofa, rug and TV; small dim bedroom facing a courtyard. | u3-l5#byt |
+| Corner shop | Near the dorm. Shelves of groceries, a deli counter with scales. | u5-l1#kolko-stoji-sunka |
+| Clothes shop | Racks and shelves of clothes, a mirror, a counter with high shelves behind it. | u4-l3#predavac, u5-l3#tricko-a-sveter |
+| Neighbourhood bakery | Small; shelves of rolls and loaves behind the counter. | u1-l1#dobry-den |
+| Tomáš's company | An office building with several floors: a reception desk at the entrance, a canteen, a meeting room, a training room, a room for staff parties, the technical department. Tomáš's own office is untidy: a desk with a lamp above it, a printer, shelves. | u8-l1#firma, u6-l5#grammar-where-pred-za |
+| Bratislava Old Town | Square with a fountain and pastel houses, narrow streets, a church with a tall spire; the white castle with four corner towers on its hill; the bridge with one pylon and a round saucer on top; café tables on the Danube embankment. | u4-l1#mesto |
+| Park bench | Tomáš's bench from the weather pictures (sunny, partly cloudy, cloudy, rain); the pensioner feeds pigeons in the same park. | u1-l3#mam-sa-dobre, u10-l2#je-oblacno |
+| Conference centre | Foyer with a registration desk and posters; a hall with a lectern and a big screen. | u9-l1#konferencia |
 
 ## Book crops
 
@@ -124,16 +126,16 @@ Lekcia 6 and 9 have no title page in the scan. The answer key starts at PDF 152.
 ## Workflow per unit
 
 1. `npx tsx illustrations/tools/list-exercises.ts . N` lists the unit's
-   exercises with their indices.
+   exercises with their ids.
 2. Read the book lesson's pages and pick the pictures that match.
 3. Write the panel boxes to `plan/book-panels-uN.txt` (committed), then
    `sh illustrations/tools/cut-panels.sh N` cuts the crops. Check them on a
    contact sheet (`magick montage …`) and fix boxes that cut off a picture.
-4. Write `plan/map-uN.json` (see `map-u1.json`), then
+4. Write `plan/map-uN.json` (see `map-u1.json`), keyed `"uN-lM#exercise-id"`, then
    `npx tsx illustrations/tools/build-plan.ts . N <printed minus PDF page>`
    writes `plan/unitN.json`. It checks that every crop exists and that every
    reuse points at an entry with a picture. A reuse may point into an earlier
-   unit (`"reuse": "u1-l3#3"`); prefer that to describing the same scene again.
+   unit (`"reuse": "u1-l3#mam-sa-vyborne"`); prefer that to describing the same scene again.
    Unused crops in `book-panels-uN.txt` are fine: they show what the book
    pictured that we chose not to.
 
@@ -141,12 +143,14 @@ Lekcia 6 and 9 have no title page in the scan. The answer key starts at PDF 152.
 
 - `npx tsx illustrations/tools/render-plan.ts [--unit N] [--concurrency 8]`
   renders every entry with a `picture` that has no file in `renders/` yet
-  (git-ignored), converts it to `public/illustrations/<lesson>-<exercise>-<hash>.webp`
-  and writes `src/lib/course/illustrations.json`, which the lesson page reads.
+  (git-ignored, `renders/<lesson>-<exercise id>.jpg`), converts it to
+  `public/illustrations/<lesson>-<exercise id>-<hash>.webp` and writes
+  `src/lib/course/illustrations.json` (`"u1-l1#dobre-rano"` → picture), which the
+  lesson page reads.
   The hash comes from the render, so a redrawn picture gets a new URL and no
   cache shows the old one. To redo a picture, delete its file in `renders/` and
   run it again. Entries whose exercise text changed since the plan are left out.
-- `npx tsx illustrations/tools/render-test.ts [--dry-run] u1-l1#3 …` renders
+- `npx tsx illustrations/tools/render-test.ts [--dry-run] u1-l1#dobre-rano …` renders
   single entries into `test-renders/` (git-ignored) to try prompt changes.
 - `npx tsx illustrations/tools/check-edges.ts` flags renders whose painting
   runs into the image border instead of fading out on paper.

@@ -69,6 +69,31 @@ nickname, but not the book's Zuzana Šoltýsová).
 | `speak` | Pronunciation | ≤6 words, a common phrase. |
 | `match` | Vocabulary sets | 4–5 pairs; both sides unique. |
 
+## Exercise ids
+
+Every exercise starts with an `id`, its name in the lesson:
+`{ id: "dobry-den", type: "intro", … }`. Translations (`u1-l1.dobry-den.note`),
+explanations' `ref`s, pictures and spelling cards point at exercises by it
+(`u1-l1#dobry-den`), so exercises can be added, removed and reordered like lines
+in a document: nothing else shifts.
+
+- Write a new exercise without one and run `npm run course:ids`. It names every
+  exercise that has no id and never changes an existing one: an intro card by its
+  Slovak (`dobry-den`), a grammar card by its title
+  (`grammar-adjective-three-endings`), anything else by its type and a few words
+  of its Slovak (`choice-dovidenia`, `fill-dobre-rano-emma`). Or write one
+  yourself: lowercase letters, digits and hyphens, unique in the lesson (`spell-`
+  is for spelling cards).
+- Keep the id when you change the exercise, even its type: it's a name, not a
+  description. Changed text shows where it matters: its translations go stale, and
+  `render-plan.ts` drops a picture whose exercise text changed.
+- Don't give a removed exercise's id to a different exercise: its translations
+  and picture would attach to it.
+- Moving an exercise to another lesson changes its pointers (`u1-l1#…` becomes
+  `u1-l2#…`). The course check names the `ref`s and pictures to update; move its
+  entries in `translations/*/unitN.json` to the new key before
+  `npm run i18n:sync`, which drops keys that are gone.
+
 ## Grammar cards: style
 
 - One idea per card. A1 learners: plain words, short sentences.
@@ -83,6 +108,7 @@ Example:
 
 ```ts
 {
+  id: "grammar-jobs-masculine-feminine",
   type: "grammar",
   title: "Jobs: masculine and feminine",
   body: [
@@ -127,8 +153,9 @@ correct answer when the learner picks a wrong one.
   why, under the accepted order closest to theirs with the misplaced and missing
   words marked. Several whys follow the answer's word order, so each must make sense
   on its own. A distractor that competes with no particular tile gets no trap.
-- Point it to the grammar card it rests on with `ref: "lessonId#index"` (the index
-  as written), a card in the same lesson before the exercise or in an earlier one.
+- Point it to the grammar card it rests on with `ref: "lessonId#exerciseId"`
+  (`ref: "u3-l2#grammar-one-adjective-three"`), a card in the same lesson before
+  the exercise or in an earlier one.
   The learner gets "See the rule", which opens that card over the lesson. Leave
   `ref` out when no card states the rule; the course check rejects a later card.
 - Each native language gets its own explanation, written for its speakers, not a
@@ -175,6 +202,7 @@ A new name in a `listen` sentence goes in `names.ts`.
 ## Checking your work
 
 ```bash
+npm run -s course:ids                # names new exercises
 npm run -s validate:course -- u3     # must print "✓ no errors"; fix warnings where sensible
 npx tsc --noEmit 2>&1 | grep unit3   # must print nothing
 ```

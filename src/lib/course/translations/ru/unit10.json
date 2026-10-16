@@ -33,27 +33,27 @@
     "en": "The newspaper",
     "t": "Газета"
   },
-  "u10-l1.0.en": {
+  "u10-l1.noviny.en": {
     "en": "newspaper",
     "t": "газета"
   },
-  "u10-l1.0.note": {
+  "u10-l1.noviny.note": {
     "en": "Always plural in Slovak: Noviny **sú** tu. In the newspaper = **v novinách**.",
     "t": "Всегда во множественном числе, как «ножницы»: Noviny **sú** tu. В газете = **v novinách**."
   },
-  "u10-l1.1.en": {
+  "u10-l1.clanok.en": {
     "en": "article",
     "t": "статья"
   },
-  "u10-l1.1.note": {
+  "u10-l1.clanok.note": {
     "en": "Plural: články.",
     "t": "Множественное число: články."
   },
-  "u10-l1.2.question": {
+  "u10-l1.choice-clanok.question": {
     "en": "What does this mean?",
     "t": "Что это значит?"
   },
-  "u10-l1.2.options": {
+  "u10-l1.choice-clanok.options": {
     "en": [
       "newspaper",
       "article",
@@ -65,27 +65,27 @@
       "письмо"
     ]
   },
-  "u10-l1.3.en": {
+  "u10-l1.titulok.en": {
     "en": "headline",
     "t": "заголовок"
   },
-  "u10-l1.3.note": {
+  "u10-l1.titulok.note": {
     "en": "The big title over an article. **zaujímavý** = interesting: zaujímavý titulok.",
     "t": "Крупное название над статьёй. **zaujímavý** = интересный: zaujímavý titulok — интересный заголовок."
   },
-  "u10-l1.4.en": {
+  "u10-l1.spravy.en": {
     "en": "the news",
     "t": "новости"
   },
-  "u10-l1.4.note": {
+  "u10-l1.spravy.note": {
     "en": "One news item is **správa**. Správy are also the news on TV and radio.",
     "t": "Одна новость — **správa**. Správy — это ещё и выпуск новостей по телевизору и радио."
   },
-  "u10-l1.5.en": {
+  "u10-l1.casopis.en": {
     "en": "magazine",
     "t": "журнал"
   },
-  "u10-l1.6.pairs": {
+  "u10-l1.match-noviny.pairs": {
     "en": [
       "newspaper",
       "article",
@@ -101,51 +101,51 @@
       "журнал"
     ]
   },
-  "u10-l1.7.en": {
+  "u10-l1.emma-cita-slovenske.en": {
     "en": "Emma is reading a Slovak newspaper.",
     "t": "Эмма читает словацкую газету."
   },
-  "u10-l1.7.note": {
+  "u10-l1.emma-cita-slovenske.note": {
     "en": "Noviny is plural, so the adjective is plural too: slovensk**é** noviny.",
     "t": "Noviny — множественное число, поэтому и прилагательное во множественном: slovensk**é** noviny."
   },
-  "u10-l1.8.en": {
+  "u10-l1.fill-emma-cita-slovenske.en": {
     "en": "Emma is reading a Slovak newspaper.",
     "t": "Эмма читает словацкую газету."
   },
-  "u10-l1.8.why": {
+  "u10-l1.fill-emma-cita-slovenske.why": {
     "en": "Noviny is always plural, so the adjective is plural too: slovensk**é** noviny. Slovenský is for a masculine word, slovenská for a feminine one.",
     "t": "Noviny — всегда множественное число (хотя «газета» — единственное), поэтому и прилагательное во множественном: slovensk**é** noviny. Slovenský — для мужского рода, slovenská — для женского."
   },
-  "u10-l1.9.en": {
+  "u10-l1.sport-a-kultura.en": {
     "en": "sport and culture",
     "t": "спорт и культура"
   },
-  "u10-l1.9.note": {
+  "u10-l1.sport-a-kultura.note": {
     "en": "Two sections of every newspaper. An article about sport: článok o **športe**; about culture: o **kultúre**.",
     "t": "Две рубрики каждой газеты. Статья о спорте: článok o **športe**; о культуре: o **kultúre**. Как и в русском, после o — предложный падеж."
   },
-  "u10-l1.10.question": {
+  "u10-l1.choice-clanok-o-kulture.question": {
     "en": "How do you say “an article about culture”?",
     "t": "Как сказать «статья о культуре»?"
   },
-  "u10-l1.10.why": {
+  "u10-l1.choice-clanok-o-kulture.why": {
     "en": "**O** (about) takes the locative, so kultúra changes -a to **-e**: o **kultúre**. Kultúru is the object form.",
     "t": "**O** (о) требует предложного падежа, поэтому kultúra меняет -a на **-e**: o **kultúre**, как «о культуре». Kultúru — форма винительного."
   },
-  "u10-l1.11.en": {
+  "u10-l1.fill-lucia-je-v.en": {
     "en": "Lucia is in the paper!",
     "t": "Луция в газете!"
   },
-  "u10-l1.11.why": {
+  "u10-l1.fill-lucia-je-v.why": {
     "en": "After **v** (in) comes the locative. Noviny is plural, so it takes a plural ending: v **novinách**.",
     "t": "После **v** (в) — предложный падеж. Noviny — множественное число, поэтому и окончание множественное: v **novinách** (ср. «в газетах»)."
   },
-  "u10-l1.12.prompt": {
+  "u10-l1.build-emma-cita-clanok.prompt": {
     "en": "Emma is reading an article about Lucia.",
     "t": "Эмма читает статью о Луции."
   },
-  "u10-l1.12.traps": {
+  "u10-l1.build-emma-cita-clanok.traps": {
     "en": [
       "**O** (about) takes the locative, and names in -ia get **-ii**: o **Lucii**. Lucia is the subject form.",
       "**O** (about) takes the locative, and names in -ia get **-ii**: o **Lucii**. Luciu is the object form, as in pre Luciu."
@@ -155,11 +155,11 @@
       "После **o** — предложный, а не винительный: o **Lucii**, «о Луции». Luciu — форма дополнения, как в pre Luciu."
     ]
   },
-  "u10-l1.13.en": {
+  "u10-l1.listen-titulok-je-velmi.en": {
     "en": "The headline is very interesting.",
     "t": "Заголовок очень интересный."
   },
-  "u10-l1.14.answers": {
+  "u10-l1.build-tomas-necita-noviny.answers": {
     "en": [
       "Tomáš doesn't read newspapers."
     ],
@@ -168,7 +168,7 @@
       "Томаш газет не читает."
     ]
   },
-  "u10-l1.14.distractors": {
+  "u10-l1.build-tomas-necita-noviny.distractors": {
     "en": [
       "magazines",
       "reads"
@@ -178,7 +178,7 @@
       "читаю"
     ]
   },
-  "u10-l1.15.en": {
+  "u10-l1.speak-citam-noviny.en": {
     "en": "I'm reading the newspaper.",
     "t": "Я читаю газету."
   },
@@ -186,27 +186,27 @@
     "en": "Weather and small ads",
     "t": "Погода и объявления"
   },
-  "u10-l2.0.en": {
+  "u10-l2.pocasie.en": {
     "en": "weather",
     "t": "погода"
   },
-  "u10-l2.0.note": {
+  "u10-l2.pocasie.note": {
     "en": "Aké je počasie? = What's the weather like? It's neuter, so in the past: Aké **bolo** počasie?",
     "t": "Aké je počasie? = Какая погода? Это средний род (а наша «погода» — женского рода), поэтому в прошедшем: Aké **bolo** počasie? — Какая была погода?"
   },
-  "u10-l2.1.en": {
+  "u10-l2.je-slnecno.en": {
     "en": "It's sunny.",
     "t": "Солнечно."
   },
-  "u10-l2.2.en": {
+  "u10-l2.je-oblacno.en": {
     "en": "It's cloudy.",
     "t": "Облачно."
   },
-  "u10-l2.3.question": {
+  "u10-l2.choice-je-oblacno.question": {
     "en": "What does this mean?",
     "t": "Что это значит?"
   },
-  "u10-l2.3.options": {
+  "u10-l2.choice-je-oblacno.options": {
     "en": [
       "It's sunny.",
       "It's cold.",
@@ -218,23 +218,23 @@
       "Облачно."
     ]
   },
-  "u10-l2.4.en": {
+  "u10-l2.prsi.en": {
     "en": "It's raining.",
     "t": "Идёт дождь."
   },
-  "u10-l2.4.note": {
+  "u10-l2.prsi.note": {
     "en": "Rain is **dážď**, snow is **sneh**. When it snows: **Sneží.**",
     "t": "Дождь — **dážď**, снег — **sneh**. Когда идёт снег: **Sneží.**"
   },
-  "u10-l2.5.en": {
+  "u10-l2.je-teplo-je.en": {
     "en": "It's warm. It's cold.",
     "t": "Тепло. Холодно."
   },
-  "u10-l2.5.note": {
+  "u10-l2.je-teplo-je.note": {
     "en": "Zima also means winter. In the mountains, **v Tatrách** (in the Tatras), it's often cold.",
     "t": "Zima — это и «холод», и «зима». В горах, **v Tatrách** (в Татрах), часто холодно."
   },
-  "u10-l2.6.pairs": {
+  "u10-l2.match-je-slnecno.pairs": {
     "en": [
       "It's sunny.",
       "It's cloudy.",
@@ -250,11 +250,11 @@
       "Холодно."
     ]
   },
-  "u10-l2.7.en": {
+  "u10-l2.listen-dnes-je-oblacno.en": {
     "en": "Today it's cloudy and raining.",
     "t": "Сегодня облачно и идёт дождь."
   },
-  "u10-l2.8.answers": {
+  "u10-l2.build-v-kosiciach-je.answers": {
     "en": [
       "It's sunny in Košice.",
       "In Košice it's sunny."
@@ -264,7 +264,7 @@
       "Солнечно в Кошице."
     ]
   },
-  "u10-l2.8.distractors": {
+  "u10-l2.build-v-kosiciach-je.distractors": {
     "en": [
       "cloudy",
       "raining"
@@ -274,39 +274,39 @@
       "холодно"
     ]
   },
-  "u10-l2.9.en": {
+  "u10-l2.fill-v-bratislave-je.en": {
     "en": "It's warm in Bratislava, but it's cold in the Tatras.",
     "t": "В Братиславе тепло, а в Татрах холодно."
   },
-  "u10-l2.10.en": {
+  "u10-l2.inzerat.en": {
     "en": "small ad",
     "t": "объявление"
   },
-  "u10-l2.10.note": {
+  "u10-l2.inzerat.note": {
     "en": "A short ad in the paper: someone sells, buys or looks for something.",
     "t": "Короткое объявление в газете: кто-то что-то продаёт, покупает или ищет."
   },
-  "u10-l2.11.en": {
+  "u10-l2.firma-hlada-programatora.en": {
     "en": "A company is looking for a programmer.",
     "t": "Фирма ищет программиста."
   },
-  "u10-l2.11.note": {
+  "u10-l2.firma-hlada-programatora.note": {
     "en": "hľadať + accusative. A person gets **-a**: programátor**a**, kuchár**a**.",
     "t": "hľadať + винительный падеж. Одушевлённые существительные мужского рода получают **-a**, как и в русском: programátor**a**, kuchár**a** — программиста, повара."
   },
-  "u10-l2.12.en": {
+  "u10-l2.fill-restauracia-hlada-kuchara.en": {
     "en": "A restaurant is looking for a cook.",
     "t": "Ресторан ищет повара."
   },
-  "u10-l2.12.why": {
+  "u10-l2.fill-restauracia-hlada-kuchara.why": {
     "en": "Hľadať takes the object form, and masculine words for people add **-a**: hľadá **kuchára**. Kuchárom goes with s (with).",
     "t": "Hľadať требует винительного, а слова мужского рода, обозначающие людей, получают **-a**: hľadá **kuchára**, как «ищет повара». Kuchárom — после s (с)."
   },
-  "u10-l2.13.prompt": {
+  "u10-l2.build-tomas-hlada-novy.prompt": {
     "en": "Tomáš is looking for a new flat.",
     "t": "Томаш ищет новую квартиру."
   },
-  "u10-l2.13.traps": {
+  "u10-l2.build-tomas-hlada-novy.traps": {
     "en": [
       "In the object form, masculine things like byt don't change, and nor do their adjectives: **nový** byt. Nového is for people: nového kamaráta.",
       "Byt is masculine (it ends in a consonant), so the adjective ends in **-ý**: **nový** byt. Nová is for feminine words."
@@ -316,11 +316,11 @@
       "Byt на согласный — мужского рода (хотя «квартира» женского), поэтому прилагательное на **-ý**: **nový** byt. Nová — для женского рода."
     ]
   },
-  "u10-l2.14.question": {
+  "u10-l2.choice-ake-je-pocasie.question": {
     "en": "You want to know the weather. What do you ask?",
     "t": "Вы хотите узнать погоду. Что вы спросите?"
   },
-  "u10-l2.15.en": {
+  "u10-l2.speak-ake-je-dnes.en": {
     "en": "What's the weather like today?",
     "t": "Какая сегодня погода?"
   },
@@ -328,11 +328,11 @@
     "en": "The cases at a glance",
     "t": "Обзор падежей"
   },
-  "u10-l3.0.title": {
+  "u10-l3.grammar-four-cases-one.title": {
     "en": "Four cases, one table",
     "t": "Четыре падежа в одной таблице"
   },
-  "u10-l3.0.body": {
+  "u10-l3.grammar-four-cases-one.body": {
     "en": [
       "You have now met four cases. The ending tells you what job a noun does in the sentence.",
       "Nominative is the subject. Accusative is the object (what you read, buy, see). Instrumental goes with **s** (with). Locative always comes after a preposition like **o**, **v** or **na**."
@@ -342,7 +342,7 @@
       "Именительный — подлежащее. Винительный — дополнение (что читаете, покупаете, видите). Творительный — после **s** (с). Предложный всегда стоит после предлога (**o**, **v**, **na**…) — совсем как у нас: o knih**e** = о книге."
     ]
   },
-  "u10-l3.0.table.head": {
+  "u10-l3.grammar-four-cases-one.table.head": {
     "en": [
       "case",
       "question",
@@ -356,7 +356,7 @@
       "мужской"
     ]
   },
-  "u10-l3.0.table.rows": {
+  "u10-l3.grammar-four-cases-one.table.rows": {
     "en": [
       [
         "nominative",
@@ -410,7 +410,7 @@
       ]
     ]
   },
-  "u10-l3.0.examples": {
+  "u10-l3.grammar-four-cases-one.examples": {
     "en": [
       "Emma is reading a book.",
       "Lucia is talking to a friend.",
@@ -422,23 +422,23 @@
       "Я пишу статью о книге."
     ]
   },
-  "u10-l3.1.en": {
+  "u10-l3.fill-emma-hlada-knihu.en": {
     "en": "Emma is looking for a book about Slovakia.",
     "t": "Эмма ищет книгу о Словакии."
   },
-  "u10-l3.1.why": {
+  "u10-l3.fill-emma-hlada-knihu.why": {
     "en": "Hľadať takes the accusative, the object, so kniha changes -a to **-u**: hľadá **knihu**. Knihou goes with s.",
     "t": "Hľadať требует винительного падежа, поэтому kniha меняет -a на **-u**: hľadá **knihu**, как «ищет книгу». Knihou — после s."
   },
-  "u10-l3.2.en": {
+  "u10-l3.fill-lucia-ide-do.en": {
     "en": "Lucia is going to the cinema with Tomáš.",
     "t": "Луция идёт в кино с Томашем."
   },
-  "u10-l3.2.why": {
+  "u10-l3.fill-lucia-ide-do.why": {
     "en": "**S** (with) takes the instrumental, so Tomáš adds **-om**: s **Tomášom**. Tomáša is the accusative, the object form.",
     "t": "**S** (с) требует творительного, поэтому Tomáš получает **-om**: s **Tomášom**, как «с Томашем». Tomáša — винительный, форма дополнения."
   },
-  "u10-l3.3.pairs": {
+  "u10-l3.match-lucia-je.pairs": {
     "en": [
       "Lucia is here.",
       "for Lucia",
@@ -452,19 +452,19 @@
       "о Луции"
     ]
   },
-  "u10-l3.4.question": {
+  "u10-l3.choice-o-kom-o.question": {
     "en": "Which question does the locative answer?",
     "t": "На какой вопрос отвечает предложный падеж?"
   },
-  "u10-l3.4.why": {
+  "u10-l3.choice-o-kom-o.why": {
     "en": "The locative always follows a preposition, and its question has one too: **o kom? o čom?** Koho? čo? asks for the accusative, s kým? s čím? for the instrumental.",
     "t": "Предложный всегда идёт с предлогом, и вопрос к нему тоже, как у нас: **o kom? o čom?** (о ком? о чём?). Koho? čo? — винительный, s kým? s čím? — творительный."
   },
-  "u10-l3.5.title": {
+  "u10-l3.grammar-prepositions-choose-case.title": {
     "en": "Prepositions choose the case",
     "t": "Предлог определяет падеж"
   },
-  "u10-l3.5.body": {
+  "u10-l3.grammar-prepositions-choose-case.body": {
     "en": [
       "After a preposition the case is fixed, so learn each preposition together with its case.",
       "Watch **na**: na pošt**e** answers “where?” (locative), na pošt**u** answers “where to?” (accusative).",
@@ -476,7 +476,7 @@
       "**do** (в, до) и **z** (из) требуют ещё одного падежа — родительного, как и в русском. Пока учите их во фразах: do kina, do práce, z Írska."
     ]
   },
-  "u10-l3.5.table.head": {
+  "u10-l3.grammar-prepositions-choose-case.table.head": {
     "en": [
       "preposition",
       "case",
@@ -488,7 +488,7 @@
       "пример"
     ]
   },
-  "u10-l3.5.table.rows": {
+  "u10-l3.grammar-prepositions-choose-case.table.rows": {
     "en": [
       [
         "v, na (where?)",
@@ -554,7 +554,7 @@
       ]
     ]
   },
-  "u10-l3.5.examples": {
+  "u10-l3.grammar-prepositions-choose-case.examples": {
     "en": [
       "Lucia is at the post office.",
       "Emma is going to the post office.",
@@ -566,27 +566,27 @@
       "Я пью кофе с молоком."
     ]
   },
-  "u10-l3.6.en": {
+  "u10-l3.fill-marek-pracuje-v.en": {
     "en": "Marek works in a restaurant.",
     "t": "Марек работает в ресторане."
   },
-  "u10-l3.6.why": {
+  "u10-l3.fill-marek-pracuje-v.why": {
     "en": "**V** (in, where?) takes the locative, and nouns in -ia get **-ii**: v **reštaurácii**. Reštauráciu is the object form.",
     "t": "**V** (в, где?) требует предложного падежа, а слова на -ia получают **-ii**: v **reštaurácii**. Reštauráciu — форма винительного."
   },
-  "u10-l3.7.en": {
+  "u10-l3.fill-teraz-idem-na.en": {
     "en": "I'm going to the university now.",
     "t": "Сейчас я иду в университет."
   },
-  "u10-l3.7.why": {
+  "u10-l3.fill-teraz-idem-na.why": {
     "en": "Going somewhere answers “where to?”, so **na** takes the accusative: idem na **univerzitu**. Being there is na univerzite, the locative.",
     "t": "Идти куда-то — вопрос «куда?», поэтому **na** с винительным: idem na **univerzitu** (по-русски «в университет»). Быть там — na univerzite, предложный падеж."
   },
-  "u10-l3.8.prompt": {
+  "u10-l3.build-pisem-clanok-o.prompt": {
     "en": "I'm writing an article about Bratislava.",
     "t": "Я пишу статью о Братиславе."
   },
-  "u10-l3.8.traps": {
+  "u10-l3.build-pisem-clanok-o.traps": {
     "en": [
       "**O** (about) takes the locative, so Bratislava changes -a to **-e**: o **Bratislave**.",
       "About is **o**: článok **o** Bratislave. V Bratislave would mean in Bratislava."
@@ -596,15 +596,15 @@
       "«О» — это **o**: článok **o** Bratislave, «статья о Братиславе». V Bratislave значило бы «в Братиславе»."
     ]
   },
-  "u10-l3.9.en": {
+  "u10-l3.listen-emma-byva-s.en": {
     "en": "Emma lives in the dorm with Lucia.",
     "t": "Эмма живёт с Луцией в общежитии."
   },
-  "u10-l3.10.prompt": {
+  "u10-l3.build-tento-darcek-je.prompt": {
     "en": "This gift is for Marek.",
     "t": "Этот подарок для Марека."
   },
-  "u10-l3.10.traps": {
+  "u10-l3.build-tento-darcek-je.traps": {
     "en": [
       "**Pre** (for) takes the accusative, and men's names add **-a**: pre **Mareka**. Marekom goes with s (with).",
       "**Pre** (for) takes the accusative, and men's names add **-a**: pre **Mareka**. Marekovi goes with o (about): o Marekovi."
@@ -614,15 +614,15 @@
       "После **pre** — винительный: pre **Mareka**. Marekovi — после o: o Marekovi, хотя по-русски «о Мареке»."
     ]
   },
-  "u10-l3.11.en": {
+  "u10-l3.fill-co-vies-o.en": {
     "en": "What do you know about Tomáš?",
     "t": "Что ты знаешь о Томаше?"
   },
-  "u10-l3.11.why": {
+  "u10-l3.fill-co-vies-o.why": {
     "en": "**O** (about) takes the locative, and men's names add **-ovi**: o **Tomášovi**. Tomášom goes with s, Tomáša is the object form.",
     "t": "**O** (о) требует предложного падежа, а мужские имена получают **-ovi**: o **Tomášovi** (о Томаше). Tomášom — после s, Tomáša — форма винительного."
   },
-  "u10-l3.12.answers": {
+  "u10-l3.build-pan-kovac-sedi.answers": {
     "en": [
       "Mr Kováč is sitting in front of the dorm."
     ],
@@ -630,7 +630,7 @@
       "Пан Ковач сидит перед общежитием."
     ]
   },
-  "u10-l3.12.distractors": {
+  "u10-l3.build-pan-kovac-sedi.distractors": {
     "en": [
       "behind",
       "inside"
@@ -640,7 +640,7 @@
       "возле"
     ]
   },
-  "u10-l3.13.en": {
+  "u10-l3.speak-byvam-s-kamaratkou.en": {
     "en": "I live with a friend.",
     "t": "Я живу с подругой."
   },
@@ -648,11 +648,11 @@
     "en": "Today and yesterday",
     "t": "Сегодня и вчера"
   },
-  "u10-l4.0.title": {
+  "u10-l4.grammar-present-past-side.title": {
     "en": "Present and past side by side",
     "t": "Настоящее и прошедшее время рядом"
   },
-  "u10-l4.0.body": {
+  "u10-l4.grammar-present-past-side.body": {
     "en": [
       "Past tense = the l-form of the verb + som, si, sme or ste. With on, ona and oni there is no extra word.",
       "The l-form shows gender and number: Tomáš čítal, Emma čítal**a**, oni čítal**i**."
@@ -662,7 +662,7 @@
       "Как и в русском, эта форма показывает род и число: Tomáš čítal, Emma čítal**a**, oni čítal**i**."
     ]
   },
-  "u10-l4.0.table.head": {
+  "u10-l4.grammar-present-past-side.table.head": {
     "en": [
       "",
       "present",
@@ -674,7 +674,7 @@
       "прошедшее"
     ]
   },
-  "u10-l4.0.table.rows": {
+  "u10-l4.grammar-present-past-side.table.rows": {
     "en": [
       [
         "ja",
@@ -740,7 +740,7 @@
       ]
     ]
   },
-  "u10-l4.0.examples": {
+  "u10-l4.grammar-present-past-side.examples": {
     "en": [
       "Today I'm reading the paper.",
       "Yesterday I read a magazine.",
@@ -752,35 +752,35 @@
       "Томаш вчера не читал новости."
     ]
   },
-  "u10-l4.1.en": {
+  "u10-l4.fill-vcera-som-citala.en": {
     "en": "Yesterday I read an article about the Tatras.",
     "t": "Вчера я читала статью о Татрах."
   },
-  "u10-l4.1.why": {
+  "u10-l4.fill-vcera-som-citala.why": {
     "en": "**Ja** (I) in the past tense needs **som**: Včera **som** čítala. Sme goes with my and an -li form, and the past tense has no je.",
     "t": "**Ja** (я) в прошедшем времени требует **som**: Včera **som** čítala. Sme — с my и формой на -li, а je в прошедшем времени не бывает."
   },
-  "u10-l4.2.en": {
+  "u10-l4.fill-lucia-a-tomas.en": {
     "en": "Lucia and Tomáš sat in a café.",
     "t": "Луция и Томаш сидели в кафе."
   },
-  "u10-l4.2.why": {
+  "u10-l4.fill-lucia-a-tomas.why": {
     "en": "Lucia and Tomáš are two people (oni), so the l-form ends in **-li**: sedel**i**. Sedel is for a man, sedela for a woman.",
     "t": "Луция и Томаш — двое (oni), поэтому форма на **-li**: sedel**i** (сидели). Sedel — для мужчины, sedela — для женщины."
   },
-  "u10-l4.3.question": {
+  "u10-l4.choice-emma-pisala-e.question": {
     "en": "Which sentence is in the past tense?",
     "t": "Какое предложение в прошедшем времени?"
   },
-  "u10-l4.3.why": {
+  "u10-l4.choice-emma-pisala-e.why": {
     "en": "The past tense uses the l-form of the verb, here **písala** (Emma: -la). Píše is the present, and chce písať means wants to write.",
     "t": "Прошедшее время — это форма глагола на -l, здесь **písala** (Эмма: -la), как «писала». Píše — настоящее время, а chce písať — «хочет написать»."
   },
-  "u10-l4.4.prompt": {
+  "u10-l4.build-vcera-marek-varil.prompt": {
     "en": "Yesterday Marek cooked soup.",
     "t": "Вчера Марек варил суп."
   },
-  "u10-l4.4.traps": {
+  "u10-l4.build-vcera-marek-varil.traps": {
     "en": [
       "**Včera** (yesterday) needs the past tense, the l-form: Marek **varil**. Varí is the present.",
       "The soup is what Marek cooked, the object, so polievka changes -a to **-u**: varil **polievku**."
@@ -790,11 +790,11 @@
       "Суп — то, что Марек сварил, дополнение, поэтому polievka меняет -a на **-u**: varil **polievku**."
     ]
   },
-  "u10-l4.5.title": {
+  "u10-l4.grammar-special-past-forms.title": {
     "en": "Special past forms and word order",
     "t": "Особые формы прошедшего времени и порядок слов"
   },
-  "u10-l4.5.body": {
+  "u10-l4.grammar-special-past-forms.body": {
     "en": [
       "A few common verbs have their own past forms. Learn them as words.",
       "Som, si, sme and ste come second in the sentence, before sa: Včera **som sa** učila."
@@ -804,7 +804,7 @@
       "Som, si, sme и ste стоят в предложении на втором месте, перед sa (наше -ся): Včera **som sa** učila. = Вчера я занималась."
     ]
   },
-  "u10-l4.5.table.head": {
+  "u10-l4.grammar-special-past-forms.table.head": {
     "en": [
       "",
       "on",
@@ -818,7 +818,7 @@
       "oni"
     ]
   },
-  "u10-l4.5.table.rows": {
+  "u10-l4.grammar-special-past-forms.table.rows": {
     "en": [
       [
         "byť",
@@ -884,7 +884,7 @@
       ]
     ]
   },
-  "u10-l4.5.examples": {
+  "u10-l4.grammar-special-past-forms.examples": {
     "en": [
       "Yesterday I studied.",
       "Marek went to work.",
@@ -896,27 +896,27 @@
       "Вы были в Кошице?"
     ]
   },
-  "u10-l4.6.en": {
+  "u10-l4.fill-emma-isla-domov.en": {
     "en": "Emma went home by bus.",
     "t": "Эмма поехала домой на автобусе."
   },
-  "u10-l4.6.why": {
+  "u10-l4.fill-emma-isla-domov.why": {
     "en": "Ísť has its own past form: **išla** for a woman like Emma. Išiel is for a man, išli for more people.",
     "t": "У ísť своя форма прошедшего времени: **išla** — для женщины, как Эмма (ср. «шла»). Išiel — для мужчины, išli — для нескольких человек."
   },
-  "u10-l4.7.en": {
+  "u10-l4.fill-vcera-som-sa.en": {
     "en": "Yesterday I studied in the library.",
     "t": "Вчера я занималась в библиотеке."
   },
-  "u10-l4.7.why": {
+  "u10-l4.fill-vcera-som-sa.why": {
     "en": "**Ja** in the past tense needs **som**, and it comes second, before sa: Včera **som sa** učila. Sme and ste would need učili.",
     "t": "**Ja** в прошедшем времени требует **som**, и оно стоит вторым, перед sa: Včera **som sa** učila. Со sme и ste было бы učili."
   },
-  "u10-l4.8.prompt": {
+  "u10-l4.build-nemala-som-cas.prompt": {
     "en": "Emma: “I didn't have time.”",
     "t": "Эмма: «У меня не было времени»."
   },
-  "u10-l4.8.traps": {
+  "u10-l4.build-nemala-som-cas.traps": {
     "en": [
       "“Didn't have” is the past tense: **ne-** + the l-form, with -la for a woman: **Nemala** som. Nemám is the present, I don't have.",
       "**Ja** (I) in the past tense needs **som**: Nemala **som** čas. Sme goes with my and an -li form."
@@ -926,7 +926,7 @@
       "**Ja** в прошедшем времени требует **som**: Nemala **som** čas. Sme — с my и формой на -li."
     ]
   },
-  "u10-l4.9.pairs": {
+  "u10-l4.match-bol.pairs": {
     "en": [
       "he was",
       "she went",
@@ -942,19 +942,19 @@
       "она хотела"
     ]
   },
-  "u10-l4.10.en": {
+  "u10-l4.listen-uz-si-cital.en": {
     "en": "Have you read the paper yet?",
     "t": "Ты уже читал газету?"
   },
-  "u10-l4.11.en": {
+  "u10-l4.fill-uz-si-jedol.en": {
     "en": "Have you eaten yet? — No, not yet.",
     "t": "Ты уже ел? — Нет, ещё нет."
   },
-  "u10-l4.11.why": {
+  "u10-l4.fill-uz-si-jedol.why": {
     "en": "With a “not”, ešte means yet: **ešte nie** = not yet. Už nie would mean not any more.",
     "t": "С отрицанием ešte значит «ещё не»: **ešte nie** — «ещё нет». Už nie значило бы «уже нет»."
   },
-  "u10-l4.12.answers": {
+  "u10-l4.build-tomas-nemohol-prist.answers": {
     "en": [
       "Tomáš couldn't come."
     ],
@@ -962,7 +962,7 @@
       "Томаш не мог прийти."
     ]
   },
-  "u10-l4.12.distractors": {
+  "u10-l4.build-tomas-nemohol-prist.distractors": {
     "en": [
       "can't",
       "go"
@@ -972,7 +972,7 @@
       "пойти"
     ]
   },
-  "u10-l4.13.en": {
+  "u10-l4.speak-vcera-sme-boli.en": {
     "en": "Yesterday we were at the cinema.",
     "t": "Вчера мы были в кино."
   },
@@ -980,11 +980,11 @@
     "en": "Emma reads the paper",
     "t": "Эмма читает газету"
   },
-  "u10-l5.0.question": {
+  "u10-l5.choice-nova-kaviaren-na.question": {
     "en": "What does this headline mean?",
     "t": "Что значит этот заголовок?"
   },
-  "u10-l5.0.options": {
+  "u10-l5.choice-nova-kaviaren-na.options": {
     "en": [
       "A new restaurant on Main Street",
       "A new café on Main Street",
@@ -996,19 +996,19 @@
       "Старое кафе на главной площади"
     ]
   },
-  "u10-l5.1.en": {
+  "u10-l5.fill-emma-kupila-noviny.en": {
     "en": "Emma bought a newspaper in a shop.",
     "t": "Эмма купила газету в магазине."
   },
-  "u10-l5.1.why": {
+  "u10-l5.fill-emma-kupila-noviny.why": {
     "en": "The newspaper is what Emma bought, the object, and noviny stays the same: kúpila **noviny**, like čítam noviny. Novinách comes after v: v novinách.",
     "t": "Газета — то, что Эмма купила, дополнение, а noviny не меняется: kúpila **noviny**, как čítam noviny. Novinách — после v: v novinách."
   },
-  "u10-l5.2.prompt": {
+  "u10-l5.build-na-hlavnej-ulici.prompt": {
     "en": "There's a new café on Main Street.",
     "t": "На Главной улице есть новое кафе."
   },
-  "u10-l5.2.traps": {
+  "u10-l5.build-na-hlavnej-ulici.traps": {
     "en": [
       "Kaviareň is feminine, even though it ends in a consonant, so the adjective ends in **-á**: **nová** kaviareň. Nový is for masculine words.",
       "Saying where takes **na** + the locative, and after c the ending is **-i**: na Hlavnej **ulici**. Ulica is the subject form."
@@ -1018,11 +1018,11 @@
       "Отвечаем на «где?»: **na** + предложный, а после c окончание **-i**: na Hlavnej **ulici**, «на Главной улице». Ulica — именительный."
     ]
   },
-  "u10-l5.3.en": {
+  "u10-l5.listen-v-sobotu-bolo.en": {
     "en": "The weather was nice on Saturday.",
     "t": "В субботу была хорошая погода."
   },
-  "u10-l5.4.pairs": {
+  "u10-l5.match-pondelok.pairs": {
     "en": [
       "Monday",
       "green",
@@ -1038,15 +1038,15 @@
       "магазин"
     ]
   },
-  "u10-l5.5.en": {
+  "u10-l5.fill-tomas-je-programator.en": {
     "en": "Tomáš is a programmer and lives in Košice.",
     "t": "Томаш — программист и живёт в Кошице."
   },
-  "u10-l5.5.why": {
+  "u10-l5.fill-tomas-je-programator.why": {
     "en": "Tomáš is on (he), so the verb has no ending: **býva**. Bývam goes with ja, bývajú with oni.",
     "t": "Томаш — on (он), поэтому у глагола нет окончания: **býva** (живёт). Bývam — с ja, bývajú — с oni."
   },
-  "u10-l5.6.answers": {
+  "u10-l5.build-marek-pracuje-ako.answers": {
     "en": [
       "Marek works as a cook in a restaurant."
     ],
@@ -1055,7 +1055,7 @@
       "Марек работает в ресторане поваром."
     ]
   },
-  "u10-l5.6.distractors": {
+  "u10-l5.build-marek-pracuje-ako.distractors": {
     "en": [
       "waiter",
       "teacher"
@@ -1065,27 +1065,27 @@
       "учителем"
     ]
   },
-  "u10-l5.7.question": {
+  "u10-l5.choice-si-v-novinach.question": {
     "en": "Emma tells her friend Lucia “You're in the paper!” Which is right?",
     "t": "Эмма говорит подруге Луции: «Ты в газете!» Как правильно?"
   },
-  "u10-l5.7.why": {
+  "u10-l5.choice-si-v-novinach.why": {
     "en": "Lucia is a friend, so Emma says **ty**, and ty with byť is **si**. Ste is for vy. And in the paper is always **v** novinách, not na.",
     "t": "Луция — подруга, поэтому Эмма говорит ей **ty**, а ty с byť — **si**. Ste — для vy. И «в газете» — всегда **v** novinách, не na."
   },
-  "u10-l5.8.en": {
+  "u10-l5.fill-clanok-je-o.en": {
     "en": "The article is about Lucia. They're writing about her in the paper.",
     "t": "Статья о Луции. О ней пишут в газете."
   },
-  "u10-l5.8.why": {
+  "u10-l5.fill-clanok-je-o.why": {
     "en": "After **o** (about), ona becomes **nej**: píšu o **nej**. Ju is the object form, and ňou goes with s.",
     "t": "После **o** (о) ona превращается в **nej**: píšu o **nej** — пишут о ней. Ju — форма винительного, ňou — после s."
   },
-  "u10-l5.9.prompt": {
+  "u10-l5.build-vcera-sme-citali.prompt": {
     "en": "Yesterday we read the article with Lucia.",
     "t": "Вчера мы вместе с Луцией читали статью."
   },
-  "u10-l5.9.traps": {
+  "u10-l5.build-vcera-sme-citali.traps": {
     "en": [
       "**S** (with) takes the instrumental, so Lucia changes -a to **-ou**: s **Luciou**.",
       "**Včera** (yesterday) needs the past tense, and with my (we) the l-form ends in **-li**: sme **čítali**. Čítame is the present."
@@ -1095,23 +1095,23 @@
       "**Včera** требует прошедшего времени, а с my форма на **-li**: sme **čítali** — «читали». Čítame — настоящее время."
     ]
   },
-  "u10-l5.10.en": {
+  "u10-l5.fill-pani-horvathova-cita.en": {
     "en": "Ms Horváthová always reads the paper in the morning.",
     "t": "Госпожа Горватова всегда читает газету по утрам."
   },
-  "u10-l5.10.why": {
+  "u10-l5.fill-pani-horvathova-cita.why": {
     "en": "Pani Horváthová is ona (she), so the verb has no ending: **číta**. Čítam goes with ja, čítajú with oni.",
     "t": "Госпожа Горватова — ona (она), поэтому у глагола нет окончания: **číta** (читает). Čítam — с ja, čítajú — с oni."
   },
-  "u10-l5.11.en": {
+  "u10-l5.listen-dnes-je-slnecno.en": {
     "en": "Today it's sunny and warm.",
     "t": "Сегодня солнечно и тепло."
   },
-  "u10-l5.12.prompt": {
+  "u10-l5.build-pan-kovac-nikdy.prompt": {
     "en": "Mr Kováč never reads magazines.",
     "t": "Пан Ковач никогда не читает журналы."
   },
-  "u10-l5.12.traps": {
+  "u10-l5.build-pan-kovac-nikdy.traps": {
     "en": [
       "**Nikdy** (never) always goes with a negative verb: nikdy **nečíta**. This double negative is normal Slovak.",
       "Magazines are more than one, and masculine things take **-y** in the plural: **časopisy**. Časopis is just one magazine."
@@ -1121,7 +1121,7 @@
       "Журналов много, а неодушевлённое мужского рода во множественном числе получает **-y**: **časopisy**. Časopis — один журнал."
     ]
   },
-  "u10-l5.13.answers": {
+  "u10-l5.build-vcera-som-videla.answers": {
     "en": [
       "Yesterday I saw Marek in town.",
       "I saw Marek in town yesterday."
@@ -1132,7 +1132,7 @@
       "Я видела Марека в городе вчера."
     ]
   },
-  "u10-l5.13.distractors": {
+  "u10-l5.build-vcera-som-videla.distractors": {
     "en": [
       "see",
       "city"
@@ -1142,7 +1142,7 @@
       "город"
     ]
   },
-  "u10-l5.14.en": {
+  "u10-l5.speak-to-je-zaujimavy.en": {
     "en": "That's an interesting article.",
     "t": "Это интересная статья."
   },
@@ -1150,43 +1150,43 @@
     "en": "The big review",
     "t": "Большое повторение"
   },
-  "u10-l6.0.question": {
+  "u10-l6.choice-dobry-den-ako.question": {
     "en": "You meet your teacher, pani Horváthová. What do you say?",
     "t": "Вы встречаете свою учительницу, госпожу Горватову. Что вы скажете?"
   },
-  "u10-l6.0.why": {
+  "u10-l6.choice-dobry-den-ako.why": {
     "en": "A teacher gets the polite **vy**: ako sa **máte**, with Dobrý deň. Ahoj, čau and ako sa máš are for friends (ty).",
     "t": "К учительнице — на вежливое **vy**: ako sa **máte**, вместе с Dobrý deň. Ahoj, čau и ako sa máš — для друзей (ty)."
   },
-  "u10-l6.1.question": {
+  "u10-l6.choice-som-z-irska.question": {
     "en": "Emma is from Ireland. How does she say it?",
     "t": "Эмма из Ирландии. Как она это скажет?"
   },
-  "u10-l6.1.why": {
+  "u10-l6.choice-som-z-irska.why": {
     "en": "From is **z**: **z** Írska. It becomes zo only before s, z, š or ž, as in zo Slovenska. Som Írsko would mean I am Ireland.",
     "t": "«Из» — это **z**: **z** Írska (из Ирландии). Zo — только перед s, z, š или ž, как в zo Slovenska. Som Írsko значило бы «Я — Ирландия»."
   },
-  "u10-l6.2.en": {
+  "u10-l6.fill-na-stole-su.en": {
     "en": "There are two magazines on the table.",
     "t": "На столе лежат два журнала."
   },
-  "u10-l6.2.why": {
+  "u10-l6.fill-na-stole-su.why": {
     "en": "Časopis is masculine and a thing, so two is **dva**. Dve is for feminine and neuter words, dvaja for men.",
     "t": "Časopis — мужского рода, и это вещь, поэтому «два» — **dva** (два журнала). Dve — для женского и среднего рода, dvaja — для мужчин."
   },
-  "u10-l6.3.en": {
+  "u10-l6.fill-v-kaviarni-sedia.en": {
     "en": "Three students are sitting in the café.",
     "t": "В кафе сидят трое студентов."
   },
-  "u10-l6.3.why": {
+  "u10-l6.fill-v-kaviarni-sedia.why": {
     "en": "When you count men (or a mixed group), three is **traja**: traja študenti. Tri is for women and things.",
     "t": "Когда считают мужчин (или смешанную группу), «три» — **traja** (ср. «трое»): traja študenti. Tri — для женщин и вещей."
   },
-  "u10-l6.4.prompt": {
+  "u10-l6.build-emma-ma-dve.prompt": {
     "en": "Emma has two Slovak friends. (female)",
     "t": "У Эммы две подруги-словачки."
   },
-  "u10-l6.4.traps": {
+  "u10-l6.build-emma-ma-dve.traps": {
     "en": [
       "Kamarátka is feminine, so two is **dve**: dve kamarátky. Dva is for masculine words.",
       "In the plural, adjectives for women and things end in **-é**: **slovenské** kamarátky. Slovenská is for one feminine word."
@@ -1196,11 +1196,11 @@
       "Во множественном числе прилагательные к женщинам и вещам оканчиваются на **-é**: **slovenské** kamarátky. Slovenská — для одной."
     ]
   },
-  "u10-l6.5.en": {
+  "u10-l6.listen-dnes-musim-ist.en": {
     "en": "Today I have to go to the university.",
     "t": "Сегодня мне нужно идти в университет."
   },
-  "u10-l6.6.pairs": {
+  "u10-l6.match-musim.pairs": {
     "en": [
       "I have to",
       "I can",
@@ -1216,27 +1216,27 @@
       "мне можно"
     ]
   },
-  "u10-l6.7.en": {
+  "u10-l6.fill-marek-vie-varit.en": {
     "en": "Marek can cook, but today he has no time.",
     "t": "Марек умеет готовить, но сегодня у него нет времени."
   },
-  "u10-l6.7.why": {
+  "u10-l6.fill-marek-vie-varit.why": {
     "en": "With on (he), vedieť is **vie**: Marek **vie** variť = Marek can cook. Viem goes with ja, vedia with oni.",
     "t": "С on (он) у vedieť форма **vie**: Marek **vie** variť = Марек умеет готовить. Viem — с ja, vedia — с oni."
   },
-  "u10-l6.8.en": {
+  "u10-l6.fill-to-je-luciin.en": {
     "en": "That's Lucia's brother Marek.",
     "t": "Это брат Луции, Марек."
   },
-  "u10-l6.8.why": {
+  "u10-l6.fill-to-je-luciin.why": {
     "en": "Lucia's adds **-in** to the name: Luci**in**. Brat is masculine, so nothing more is added; Luciina is for feminine words, Luciino for neuter.",
     "t": "Чтобы сказать «чей — Луции», к имени добавляют **-in**: Luci**in**, как «мамин». Brat — мужского рода, поэтому больше ничего не нужно; Luciina — для женского рода, Luciino — для среднего."
   },
-  "u10-l6.9.prompt": {
+  "u10-l6.build-je-osem-hodin.prompt": {
     "en": "It's eight o'clock.",
     "t": "Восемь часов."
   },
-  "u10-l6.9.traps": {
+  "u10-l6.build-je-osem-hodin.traps": {
     "en": [
       "From five up, hodina becomes **hodín**: osem **hodín**. Hodiny is for 2–4: sú tri hodiny.",
       "From five up, the time takes **je**: **Je** osem hodín. Sú is for 2–4: sú tri hodiny."
@@ -1246,15 +1246,15 @@
       "С пяти и больше время называют с **je**: **Je** osem hodín. Sú — с 2–4: sú tri hodiny."
     ]
   },
-  "u10-l6.10.en": {
+  "u10-l6.fill-vcera-sme-sa.en": {
     "en": "We met in a café yesterday.",
     "t": "Вчера мы встретились в кафе."
   },
-  "u10-l6.10.why": {
+  "u10-l6.fill-vcera-sme-sa.why": {
     "en": "**My** (we) in the past tense needs **sme**, and it comes before sa: Včera **sme sa** stretli. Som is for ja, si for ty.",
     "t": "**My** (мы) в прошедшем времени требует **sme**, и оно стоит перед sa: Včera **sme sa** stretli. Som — для ja, si — для ty."
   },
-  "u10-l6.11.answers": {
+  "u10-l6.build-emma-a-lucia.answers": {
     "en": [
       "Emma and Lucia live together in the dorm."
     ],
@@ -1263,7 +1263,7 @@
       "Эмма и Луция живут вместе в общежитии."
     ]
   },
-  "u10-l6.11.distractors": {
+  "u10-l6.build-emma-a-lucia.distractors": {
     "en": [
       "lives",
       "house"
@@ -1273,27 +1273,27 @@
       "доме"
     ]
   },
-  "u10-l6.12.question": {
+  "u10-l6.choice-dnes-je-druheho.question": {
     "en": "How do you say “Today is the 2nd of May”?",
     "t": "Как сказать «Сегодня второе мая»?"
   },
-  "u10-l6.12.why": {
+  "u10-l6.choice-dnes-je-druheho.why": {
     "en": "A date uses the ordinal with **-ého**, and the month adds **-a**: druh**ého** máj**a**. Dva is just the number two.",
     "t": "Дата — это порядковое числительное на **-ého** и месяц на **-a**: druh**ého** máj**a**, «второго мая», хотя по-русски говорят «сегодня второе мая». Dva — просто «два»."
   },
-  "u10-l6.13.en": {
+  "u10-l6.fill-lucia-mozem-ist.en": {
     "en": "Lucia, can I go to the cinema with you?",
     "t": "Луция, можно я пойду с тобой в кино?"
   },
-  "u10-l6.13.why": {
+  "u10-l6.fill-lucia-mozem-ist.why": {
     "en": "After **s** (with), ty becomes **tebou**: s **tebou**. Teba goes with pre (pre teba), tebe with o (o tebe).",
     "t": "После **s** (с) ty превращается в **tebou**: s **tebou**, как «с тобой». Teba — после pre (pre teba), tebe — после o (o tebe)."
   },
-  "u10-l6.14.en": {
+  "u10-l6.listen-vcera-sme-nikde.en": {
     "en": "We didn't go anywhere yesterday.",
     "t": "Вчера мы нигде не были."
   },
-  "u10-l6.15.en": {
+  "u10-l6.speak-uz-hovorim-po.en": {
     "en": "I can speak Slovak now!",
     "t": "Я уже говорю по-словацки!"
   }
