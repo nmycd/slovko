@@ -293,14 +293,18 @@ problem) until fixed. Listen to a new lesson's tiles and words; in dev mode (an
 account with `app_metadata.dev`) each word-order exercise also shows its tiles in
 every style compared below.
 
-**When a word sounds wrong:** if the run says a tile ran into its neighbour, run
-with `--revoice` (a new take, paid). If a word passed the checks but sounds wrong,
-delete its clip in storage (paths from `tileCachePath` and `wordCachePath` in
-[tts-cache.ts](src/lib/tts-cache.ts)) and run again:
-- a single word (`words/`) is voiced in a new take with other words;
-- a tile (`tile-styles/e2/`) would be cut from the same take again, so also delete
-  that take in `takes/` and run with `--only <exercise> --seed 2`, or the same
-  words and seed may come out the same.
+**When a word sounds wrong** (as "kytica" once came out "kutikva"):
+- a single word: `npm run generate:audio -- --words-only --redo kytica` voices it
+  in a new take among long words (said, not kept) and replaces its clip if the new
+  one passes the checks; then bump `WORD_CLIPS_VERSION`;
+- a tile that ran into its neighbour: run with `--revoice` (a new take, paid);
+- a tile that passed the checks but sounds wrong: delete its clip in
+  `tile-styles/e2/` and its take in `takes/` (paths from `tileCachePath` and
+  `takeCachePath` in [tts-cache.ts](src/lib/tts-cache.ts)), run with
+  `--only <exercise> --seed 2` (the same words and seed may come out the same),
+  and bump `TILE_CLIPS_VERSION`.
+
+A new take can come out wrong too: listen to it before shipping.
 
 ### How the takes are cut
 
@@ -348,7 +352,9 @@ npm run generate:audio -- --tiles-only --only u3-,u1-l3#build-volam-sa-tomas --d
 - `--budget <characters>` voices nothing more once that many are spent, second
   takes included.
 - `--revoice` gives stored tile takes whose words ran together one more take (paid).
-- `--seed <n>` voices new tile takes with another seed (default 1), to redo one.
+- `--seed <n>` voices new takes with another seed (default 1), to redo one.
+- `--redo <words>` voices these single words again in new takes (with
+  `--words-only`).
 - `--recut` cuts every clip again from its stored take, for free, after a change
   to the cutting; then bump the version.
 - `--styles` also makes the comparison styles below for dev mode (A to D, free);
@@ -364,6 +370,7 @@ Size, for the course as of October 2026:
   "Dám… si…" (u6-l7) is said as the phrase "Dám si" both times, so those two tiles
   play the words' phrase clips, and every run reports them as failed: expected.
 - **Single words:** 246, 31 takes, 1,982 characters; 4 words needed a second take.
+  Redone by ear: kytica.
 
 ### How we got here: the styles compared
 

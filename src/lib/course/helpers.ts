@@ -40,7 +40,7 @@ export function isBareWord(text: string): boolean {
 export const WORD_CLIPS = true;
 
 /** The version of the single-word clips, in their URLs: bump it after making them again. */
-export const WORD_CLIPS_VERSION = 1;
+export const WORD_CLIPS_VERSION = 2;
 
 type TileStyleSpec = {
   label: string;

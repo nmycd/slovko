@@ -20,9 +20,14 @@ const BATCH = 8;
 /** How word clips are finished: 60 ms of silence first, no slowing (as tiles' E2). */
 const STYLE = "e2";
 
-/** Takes of the given words: long and short dealt out together, each said with "…". */
-export function wordTakes(words: string[]): string[] {
-  const byLength = [...words].sort((a, b) => b.length - a.length || a.localeCompare(b));
+/**
+ * Takes of the given words: long and short dealt out together, each said with "…".
+ * Too few to fill a take, they're joined by `carriers` (other words, said but not
+ * kept), so no word is ever voiced nearly alone.
+ */
+export function wordTakes(words: string[], carriers: string[] = []): string[] {
+  const filler = carriers.filter((w) => !words.includes(w)).slice(0, Math.max(0, BATCH - words.length));
+  const byLength = [...words, ...filler].sort((a, b) => b.length - a.length || a.localeCompare(b));
   const count = Math.ceil(byLength.length / BATCH);
   const batches: string[][] = Array.from({ length: count }, () => []);
   byLength.forEach((word, i) => batches[i % count].push(word));
@@ -36,6 +41,10 @@ export function wordTakes(words: string[]): string[] {
 
 export type WordOptions = {
   dryRun: boolean;
+  /** Voice these words again in new takes, though they have clips (one that sounds wrong). */
+  redo: string[];
+  /** The seed of new takes; a second take uses the next. */
+  seed: number;
   /** Cut every clip again from the stored takes (free). */
   recut: boolean;
   /** Voice nothing more once this many characters are spent. */
@@ -47,18 +56,27 @@ export type WordOptions = {
 /** Makes the missing single-word clips. Returns how many words failed. */
 export async function generateWords(words: string[], options: WordOptions): Promise<number> {
   const [clips, takes] = await Promise.all([cache.listCachedPaths("words"), cache.listCachedPaths("word-takes")]);
-  const missing = words.filter((w) => !clips.has(cache.wordCachePath(w)));
-  const planned = wordTakes(missing);
+  const unknown = options.redo.filter((w) => !words.includes(w));
+  if (unknown.length) throw new Error(`Not a single word of the course: ${unknown.join(", ")}`);
+  const missing = words.filter((w) => !clips.has(cache.wordCachePath(w)) || options.redo.includes(w));
+  // Long words first: they keep the voice in Slovak around a short one.
+  const carriers = words
+    .filter((w) => !missing.includes(w))
+    .sort((a, b) => b.length - a.length || a.localeCompare(b));
+  const planned = wordTakes(missing, carriers);
   const characters = planned.reduce((n, t) => n + t.length, 0);
   const storedTakes = [...takes].filter((p) => p.endsWith(".json")).map((p) => p.slice(0, -".json".length));
 
-  console.log(`\nsingle words: ${words.length} · clips missing: ${missing.length}${options.recut ? " · cutting the rest again" : ""}`);
+  console.log(
+    `\nsingle words: ${words.length} · clips to make: ${missing.length}${options.redo.length ? ` (redoing ${options.redo.join(", ")})` : ""}${options.recut ? " · cutting the rest again" : ""}`,
+  );
   console.log(`takes to voice: ${planned.length} · characters to generate: ${characters.toLocaleString("en")}`);
   if (Number.isFinite(options.budget)) console.log(`budget: ${options.budget.toLocaleString("en")} characters, second takes included`);
   if (options.dryRun) return 0;
 
   const tmp = await mkdtemp(join(tmpdir(), "slovko-words-"));
-  const wanted = new Set(words);
+  // Only the words being made are kept from a new take; carriers are said, not cut.
+  const wanted = new Set(missing);
   let spent = 0;
   let failed = 0;
   let made = 0;
@@ -120,6 +138,7 @@ export async function generateWords(words: string[], options: WordOptions): Prom
   }
 
   // Cutting again: every stored take gives its words back from its timings.
+  const all = new Set(words);
   if (options.recut) {
     for (const path of storedTakes) {
       const audio = await cache.readCached(`${path}.mp3`);
@@ -130,7 +149,7 @@ export async function generateWords(words: string[], options: WordOptions): Prom
       const fresh = new Set(missing);
       try {
         // A word that ran together here may have a clip from another take: leave it be.
-        const ranTogether = await cut(text, audio, alignment, (w) => wanted.has(w) && !fresh.has(w));
+        const ranTogether = await cut(text, audio, alignment, (w) => all.has(w) && !fresh.has(w));
         ranTogether.forEach((w) => console.error(`  "${w}" ran together in "${text}", kept as it was`));
       } catch (err) {
         console.error(`✗ take "${text}": ${(err as Error).message}`);
@@ -138,10 +157,10 @@ export async function generateWords(words: string[], options: WordOptions): Prom
     }
   }
 
-  const ranTogether = await voice(planned, 1);
+  const ranTogether = await voice(planned, options.seed);
   if (ranTogether.length) {
     console.log(`${ranTogether.length} words ran together: voicing them again, in new takes`);
-    const still = await voice(wordTakes(ranTogether), 2);
+    const still = await voice(wordTakes(ranTogether, carriers), options.seed + 1);
     still.forEach((w) => console.error(`✗ "${w}" ran together twice: it keeps its own clip`));
     failed += still.length;
   }

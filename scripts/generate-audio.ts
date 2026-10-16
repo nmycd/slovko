@@ -20,6 +20,7 @@
 //   --revoice                             # voice again stored word-by-word takes that ran words together ($)
 //   --budget 7000                         # voice nothing more after this many characters
 //   --seed 2                              # new tile takes with another seed, to redo one that sounds wrong
+//   --words-only --redo kytica,ho         # voice these single words again, in new takes
 //   --save <dir>                          # also write takes and clips there, with a page to listen on
 //
 // Refuses to spend credits on the placeholder voice: set ELEVENLABS_VOICE_ID first.
@@ -91,7 +92,14 @@ async function main() {
   };
   if (!Number.isInteger(tileOptions.seed)) throw new Error("--seed takes a whole number.");
   if (Number.isNaN(tileOptions.budget)) throw new Error("--budget takes a number of characters.");
-  const wordOptions = { dryRun, recut: tileOptions.recut, budget: tileOptions.budget, save: tileOptions.save };
+  const wordOptions = {
+    dryRun,
+    recut: tileOptions.recut,
+    budget: tileOptions.budget,
+    save: tileOptions.save,
+    seed: tileOptions.seed,
+    redo: value("--redo")?.split(",").filter(Boolean) ?? [],
+  };
   if (dryRun) {
     if (only !== "words") await generateTiles(allLessons, tileOptions);
     if (only !== "tiles") await generateWords([...singleWords], wordOptions);
