@@ -94,6 +94,8 @@ export const ru: Messages = {
 
   "lesson.quit": "Выйти из урока",
   "lesson.volume": "Громкость",
+  "lesson.seeRule": "Посмотреть правило",
+  "lesson.closeRule": "Закрыть",
   "lesson.quitConfirm": "Выйти? Прогресс этого урока будет потерян.",
   "lesson.place": "Раздел {unit} · Урок {lesson}",
   "lesson.course": "Словацкий A1",

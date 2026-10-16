@@ -75,6 +75,10 @@
     "en": "Emma is in the library, reading a book.",
     "t": "Emma kutubxonada, kitob oʻqiyapti."
   },
+  "u7-l1.4.why": {
+    "en": "For being in a place, the word changes after v or na: in the library is **v knižnici**, like na prednáške. Knižnica is the plain form.",
+    "t": "Biror joyda ekanini aytganda soʻz v yoki na soʻzidan keyin oʻzgaradi, oʻzbekchadagi -da kabi: kutubxonada — **v knižnici**, xuddi na prednáške kabi. Knižnica — oddiy shakl."
+  },
   "u7-l1.5.en": {
     "en": "timetable",
     "t": "dars jadvali"
@@ -117,6 +121,10 @@
     "en": "I have an exam tomorrow.",
     "t": "Ertaga imtihonim bor."
   },
+  "u7-l1.9.why": {
+    "en": "The exam is what you have, the object, so skúška changes -a to **-u**: mám **skúšku**.",
+    "t": "Imtihon — sizda bor narsa, toʻldiruvchi, shuning uchun skúška soʻzida -a oʻrniga **-u** keladi: mám **skúšku**."
+  },
   "u7-l1.10.prompt": {
     "en": "Lucia is writing a paper.",
     "t": "Lusiya referat yozyapti."
@@ -140,6 +148,10 @@
   "u7-l1.14.en": {
     "en": "Mrs Horváthová, sorry I'm late.",
     "t": "Horvatova xonim, kechirasiz, kechikdim."
+  },
+  "u7-l1.14.why": {
+    "en": "Prepáčte is formal vy, to the teacher, but the one who's late is ja (I), so the verb ends in **-m**: mešk**ám**.",
+    "t": "Prepáčte — oʻqituvchiga hurmatli vy, lekin kechikayotgan — ja (men), shuning uchun feʼl **-m** bilan tugaydi: mešk**ám**."
   },
   "u7-l1.15.answers": {
     "en": [
@@ -282,9 +294,17 @@
     "en": "It's 3:00. What do you say?",
     "t": "Soat 3:00. Nima deysiz?"
   },
+  "u7-l2.2.why": {
+    "en": "With 2, 3 and 4 it's **sú** and hodin**y**. Je jedna hodina is 1:00, and je päť hodín is 5:00.",
+    "t": "2, 3 va 4 bilan **sú** va hodin**y** keladi. Je jedna hodina — 1:00, je päť hodín esa 5:00."
+  },
   "u7-l2.3.en": {
     "en": "It's five o'clock.",
     "t": "Soat besh."
+  },
+  "u7-l2.3.why": {
+    "en": "From 5 up, hodina becomes **hodín**, with je. Hodiny goes with 2–4, hodina with 1.",
+    "t": "5 dan boshlab hodina **hodín** boʻladi, je bilan. Hodiny 2–4 bilan, hodina esa 1 bilan keladi."
   },
   "u7-l2.4.en": {
     "en": "At what time?",
@@ -440,6 +460,10 @@
       "10:00"
     ]
   },
+  "u7-l2.9.why": {
+    "en": "Slovak looks ahead: **pol desiatej** is half of the tenth hour, so 9:30. 10:30 would be pol jedenástej.",
+    "t": "Slovaklar oldinga qarab hisoblaydi: **pol desiatej** — «oʻninchi soatning yarmi», yaʼni 9:30. 10:30 esa pol jedenástej boʻlardi."
+  },
   "u7-l2.10.en": {
     "en": "It's a quarter past eight. (8:15)",
     "t": "Soat sakkizdan chorak oʻtdi. (8:15)"
@@ -452,9 +476,17 @@
     "en": "It's a quarter past eight.",
     "t": "Soat sakkizdan chorak oʻtdi."
   },
+  "u7-l2.11.why": {
+    "en": "**Štvrť** na deväť is a quarter of the way towards nine, so 8:15. Trištvrte (three quarters) na deväť is 8:45.",
+    "t": "Slovaklar keyingi soatga qarab hisoblaydi: **štvrť** na deväť — toʻqqizinchi soatning choragi oʻtdi, yaʼni 8:15. Trištvrte (uch chorak) na deväť esa 8:45."
+  },
   "u7-l2.12.question": {
     "en": "How do you say 8:45?",
     "t": "8:45 qanday aytiladi?"
+  },
+  "u7-l2.12.why": {
+    "en": "Three quarters of the way to nine is **trištvrte** na deväť. Štvrť na deväť is 8:15, and pol deviatej is 8:30.",
+    "t": "Toʻqqizinchi soatning uch choragi oʻtdi — **trištvrte** na deväť, yaʼni 8:45. Štvrť na deväť — 8:15, pol deviatej esa 8:30."
   },
   "u7-l2.13.en": {
     "en": "The lecture is at half past eight.",
@@ -467,6 +499,10 @@
   "u7-l2.15.en": {
     "en": "The seminar is at seven.",
     "t": "Seminar soat yettida."
+  },
+  "u7-l2.15.why": {
+    "en": "At a time is **o** + the **-ej** form: o siedm**ej**. Sedem is the plain number, for counting.",
+    "t": "Soat nechada ekanini aytish uchun **o** + **-ej** shakli keladi: o siedm**ej** (soat yettida). Sedem — oddiy son, sanash uchun."
   },
   "u7-l2.16.en": {
     "en": "What time is it?",
@@ -544,6 +580,10 @@
     "en": "First I get dressed, then I have breakfast.",
     "t": "Avval kiyinaman, keyin nonushta qilaman."
   },
+  "u7-l3.6.why": {
+    "en": "**Najprv** is first and **potom** is then. Najprv is already used for getting dressed, so breakfast comes **potom**.",
+    "t": "**Najprv** — «avval», **potom** — «keyin». Najprv kiyinish uchun ishlatilgan, shuning uchun nonushta **potom** keladi."
+  },
   "u7-l3.7.prompt": {
     "en": "I get up at seven.",
     "t": "Soat yettida turaman."
@@ -588,6 +628,10 @@
     "en": "Emma has breakfast at half past seven.",
     "t": "Emma soat yetti yarimda nonushta qiladi."
   },
+  "u7-l3.12.why": {
+    "en": "With **on** or **ona**, the verb has no ending: Emma **raňajkuje**. Raňajkujem goes with ja, raňajkujú with oni.",
+    "t": "**on** yoki **ona** bilan feʼl qoʻshimchasiz keladi: Emma **raňajkuje**. Raňajkujem ja bilan, raňajkujú esa oni bilan keladi."
+  },
   "u7-l3.13.en": {
     "en": "In the evening I'm tired. (woman speaking)",
     "t": "Kechqurun charchagan boʻlaman. (ayol gapiryapti)"
@@ -599,6 +643,10 @@
   "u7-l3.14.en": {
     "en": "Tomáš is tired in the evening.",
     "t": "Tomash kechqurun charchagan boʻladi."
+  },
+  "u7-l3.14.why": {
+    "en": "Adjectives agree with the person: Tomáš is a man, so **unavený**. Unavená is for a woman: Večer som unavená, says Emma.",
+    "t": "Sifat odamga moslashadi: Tomash — erkak, shuning uchun **unavený**. Unavená — ayol uchun: Emma «Večer som unavená» deydi."
   },
   "u7-l3.15.prompt": {
     "en": "First I study, then I go to bed.",
@@ -756,9 +804,17 @@
     "en": "It's morning and Lucia is asleep.",
     "t": "Hozir ertalab, Lusiya esa uxlayapti."
   },
+  "u7-l4.1.why": {
+    "en": "Lucia is ona, and the ona form of spať is **spí**. Spia goes with oni, spím with ja.",
+    "t": "Lusiya — ona, spať feʼlining ona shakli esa **spí**. Spia oni bilan, spím esa ja bilan keladi."
+  },
   "u7-l4.2.en": {
     "en": "We sleep at night.",
     "t": "Kechasi uxlaymiz."
+  },
+  "u7-l4.2.why": {
+    "en": "With **my** (we) the verb ends in **-me**: sp**íme**. Spia goes with oni, spí with on or ona.",
+    "t": "**my** (biz) bilan feʼl **-me** bilan tugaydi: sp**íme** (uxlaymiz). Spia oni bilan, spí esa on yoki ona bilan keladi."
   },
   "u7-l4.3.question": {
     "en": "What does this mean?",
@@ -779,6 +835,10 @@
   "u7-l4.4.en": {
     "en": "Tomorrow I'll meet Tomáš.",
     "t": "Ertaga Tomash bilan uchrashaman."
+  },
+  "u7-l4.4.why": {
+    "en": "With **ja**, stretnúť ends in **-em**, and as one complete action it talks about the future: stretn**em** = I'll meet. Stretne is on or ona, stretnú oni.",
+    "t": "**ja** bilan stretnúť **-em** bilan tugaydi va bir martalik, tugallangan harakat sifatida kelasi zamonni bildiradi: stretn**em** = uchrataman. Stretne — on yoki ona, stretnú — oni."
   },
   "u7-l4.5.prompt": {
     "en": "Where shall we meet?",
@@ -892,6 +952,10 @@
     "en": "It's half past seven. Will we make the bus?",
     "t": "Soat yetti yarim. Avtobusga ulguramizmi?"
   },
+  "u7-l4.7.why": {
+    "en": "With **my** (we), stihnúť ends in **-eme**: stihn**eme**. Stihnem goes with ja, stihnú with oni.",
+    "t": "**my** (biz) bilan stihnúť **-eme** bilan tugaydi: stihn**eme** (ulguramiz). Stihnem ja bilan, stihnú esa oni bilan keladi."
+  },
   "u7-l4.8.en": {
     "en": "Emma is sitting in the library.",
     "t": "Emma kutubxonada oʻtiribdi."
@@ -903,6 +967,10 @@
   "u7-l4.10.en": {
     "en": "What are you thinking about, Lucia?",
     "t": "Nima haqida oʻylayapsan, Lusiya?"
+  },
+  "u7-l4.10.why": {
+    "en": "The question is to Lucia, so it's **ty**, and the verb ends in **-š**: mysl**íš**. Myslí would be talking about her (ona).",
+    "t": "Savol Lusiyaga berilyapti, demak **ty**, feʼl esa **-š** bilan tugaydi: mysl**íš**. Myslí u haqida (ona) gapirganda ishlatiladi."
   },
   "u7-l4.11.pairs": {
     "en": [
@@ -1136,9 +1204,17 @@
     "en": "Yesterday Lucia wrote a paper.",
     "t": "Kecha Lusiya referat yozdi."
   },
+  "u7-l5.2.why": {
+    "en": "Lucia is a woman, so the past tense ends in **-la**: písal**a**. Písal is for a man, písali for more people.",
+    "t": "Lusiya — ayol, shuning uchun oʻtgan zamon **-la** bilan tugaydi: písal**a**. Písal erkak, písali esa bir necha kishi uchun. Oʻzbekchada «yozdi» hammaga bir xil."
+  },
   "u7-l5.3.question": {
     "en": "Emma wants to say “I studied yesterday.” Which is right?",
     "t": "Emma «Kecha dars qildim» demoqchi. Qaysi biri toʻgʻri?"
+  },
+  "u7-l5.3.why": {
+    "en": "Emma is a woman, so the past tense ends in **-la**: učil**a**. And ja needs **som**: without it, učila is about someone else (ona).",
+    "t": "Emma — ayol, shuning uchun oʻtgan zamon **-la** bilan tugaydi: učil**a**. ja uchun esa **som** kerak (oʻzbekchadagi -m kabi): usiz učila boshqa ayol (ona) haqida boʻladi."
   },
   "u7-l5.4.prompt": {
     "en": "I worked yesterday. (woman speaking)",
@@ -1147,6 +1223,10 @@
   "u7-l5.5.en": {
     "en": "Emma, what did you do yesterday?",
     "t": "Emma, kecha nima qilding?"
+  },
+  "u7-l5.5.why": {
+    "en": "Emma is a woman, so the past tense ends in **-la**: robil**a**. Robil is for a man, robili for more people or formal vy.",
+    "t": "Emma — ayol, shuning uchun oʻtgan zamon **-la** bilan tugaydi: robil**a**. Robil erkak, robili esa bir necha kishi yoki hurmatli vy uchun."
   },
   "u7-l5.6.en": {
     "en": "Lucia and Emma had breakfast at eight.",
@@ -1270,9 +1350,17 @@
     "en": "Emma was at the lecture.",
     "t": "Emma maʼruzada edi."
   },
+  "u7-l5.8.why": {
+    "en": "Emma is a woman, so the past of byť ends in **-la**: **bola**. Bol is for a man, boli for more people.",
+    "t": "Emma — ayol, shuning uchun byť feʼlining oʻtgan zamoni **-la** bilan tugaydi: **bola** (edi). Bol erkak, boli esa bir necha kishi uchun."
+  },
   "u7-l5.9.en": {
     "en": "Tomáš met Emma yesterday.",
     "t": "Kecha Tomash Emmani uchratdi."
+  },
+  "u7-l5.9.why": {
+    "en": "Tomáš did the meeting, so the verb is for a man: stretnúť → **stretol**. Emmu is just the object; stretla is a woman meeting someone.",
+    "t": "Uchratgan — Tomash, shuning uchun feʼl erkak shaklida: stretnúť → **stretol**. Emmu — faqat toʻldiruvchi; stretla esa ayol kimnidir uchratganda aytiladi."
   },
   "u7-l5.10.prompt": {
     "en": "What did you do yesterday? (to a man)",
@@ -1293,6 +1381,10 @@
       "Hozir shoʻrva yeyapti.",
       "Ertaga shoʻrva yeydi."
     ]
+  },
+  "u7-l5.11.why": {
+    "en": "**Jedla** is the past tense of jesť (ate), and **včera** is yesterday. Eating it now would be jem polievku.",
+    "t": "**Jedla** — jesť (yemoq) feʼlining oʻtgan zamoni («yedi»), **včera** esa «kecha». Hozir yeyayotgan boʻlsa, jem polievku derdi."
   },
   "u7-l5.12.answers": {
     "en": [
@@ -1317,6 +1409,10 @@
   "u7-l5.13.en": {
     "en": "Mr Kováč, where were you?",
     "t": "Janob Kovach, qayerda edingiz?"
+  },
+  "u7-l5.13.why": {
+    "en": "Formal **vy** always takes **-li** in the past, even for one person like pán Kováč: **boli** ste, never bol ste.",
+    "t": "Hurmatli **vy** oʻtgan zamonda doim **-li** oladi, janob Kovach kabi bitta kishiga ham: **boli** ste, hech qachon bol ste emas."
   },
   "u7-l5.14.en": {
     "en": "We were at home yesterday.",
@@ -1402,9 +1498,17 @@
     "en": "Emma wasn't at the lecture yesterday.",
     "t": "Kecha Emma maʼruzada yoʻq edi."
   },
+  "u7-l6.1.why": {
+    "en": "Emma is a woman, so the past ends in **-la**, with **ne-** in front for not: **ne**bol**a**. Nebol is for a man, neboli for more people.",
+    "t": "Emma — ayol, shuning uchun oʻtgan zamon **-la** bilan tugaydi, inkor uchun esa oldiga **ne-** qoʻshiladi: **ne**bol**a**. Nebol erkak, neboli esa bir necha kishi uchun."
+  },
   "u7-l6.2.question": {
     "en": "Tomáš missed the bus. What does he say?",
     "t": "Tomash avtobusga ulgurmadi. U nima deydi?"
+  },
+  "u7-l6.2.why": {
+    "en": "Missing the bus is not making it, so add **ne-**: **ne**stihol. Tomáš is a man, so **-ol**; nestihla is for a woman.",
+    "t": "Avtobusga ulgurmaslik — inkor, shuning uchun **ne-** qoʻshiladi: **ne**stihol. Tomash — erkak, shuning uchun **-ol**; nestihla esa ayol uchun."
   },
   "u7-l6.3.prompt": {
     "en": "I didn't have breakfast today. (man speaking)",
@@ -1498,6 +1602,10 @@
     "en": "It's eight o'clock and Lucia is still asleep.",
     "t": "Soat sakkiz, Lusiya esa hali uxlayapti."
   },
+  "u7-l6.6.why": {
+    "en": "**Ešte** means still: Lucia is still asleep. Už spí would mean she's already asleep.",
+    "t": "**Ešte** — «hali»: Lusiya hali uxlayapti. Už spí esa «allaqachon uxlab qoldi» degani boʻlardi."
+  },
   "u7-l6.7.question": {
     "en": "What does this mean?",
     "t": "Bu nimani anglatadi?"
@@ -1514,9 +1622,17 @@
       "Allaqachon."
     ]
   },
+  "u7-l6.7.why": {
+    "en": "With a not, ešte and už flip: **ešte nie** is not yet, and už nie is not any more. Už on its own means already.",
+    "t": "Inkor bilan ešte va už maʼnosi oʻzgaradi: **ešte nie** — «hali yoʻq», už nie — «endi yoʻq». Už oʻzi yolgʻiz «allaqachon» degani."
+  },
   "u7-l6.8.en": {
     "en": "Have you had lunch? — No, I haven't had lunch yet.",
     "t": "Tushlik qildingmi? — Yoʻq, hali tushlik qilmadim."
+  },
+  "u7-l6.8.why": {
+    "en": "Not yet is **ešte** with a not: ešte som **ne**obedovala. Už with a not means not any more.",
+    "t": "«Hali» — **ešte**, inkor bilan birga: ešte som **ne**obedovala (hali tushlik qilmadim). Inkor bilan už esa «endi yoʻq» degani."
   },
   "u7-l6.9.prompt": {
     "en": "I've already eaten. (woman speaking)",
@@ -1552,6 +1668,10 @@
   "u7-l6.12.en": {
     "en": "Lucia, have you been to the library yet? — Not yet.",
     "t": "Lusiya, kutubxonada boʻldingmi? — Hali yoʻq."
+  },
+  "u7-l6.12.why": {
+    "en": "Not yet is **ešte nie**. Už nie means not any more, as if she used to go and stopped.",
+    "t": "«Hali yoʻq» — **ešte nie**. Už nie esa «endi yoʻq» degani, goʻyo u ilgari borib yurgan-u, keyin toʻxtagandek."
   },
   "u7-l6.13.en": {
     "en": "It's already eight!",
@@ -1589,6 +1709,10 @@
     "en": "Lucia hasn't had breakfast yet. What does she say?",
     "t": "Lusiya hali nonushta qilmagan. U nima deydi?"
   },
+  "u7-l7.3.why": {
+    "en": "Not yet is **ešte** with a **ne-** past form: **ne**raňajkovala. Už som raňajkovala means she's already eaten; ešte raňajkujem, she's still eating.",
+    "t": "«Hali qilmadim» — **ešte** va **ne-** qoʻshilgan oʻtgan zamon: **ne**raňajkovala. Už som raňajkovala «allaqachon nonushta qildim», ešte raňajkujem esa «hali nonushta qilyapman» degani."
+  },
   "u7-l7.4.prompt": {
     "en": "I have an exam tomorrow.",
     "t": "Ertaga imtihonim bor."
@@ -1596,6 +1720,10 @@
   "u7-l7.5.en": {
     "en": "Emma and Lucia are still asleep.",
     "t": "Emma va Lusiya hali uxlashyapti."
+  },
+  "u7-l7.5.why": {
+    "en": "Emma and Lucia are oni (they), so spať ends in **-ia**: sp**ia**. Spí is for one person, spíme for my.",
+    "t": "Emma va Lusiya — oni (ular), shuning uchun spať **-ia** bilan tugaydi: sp**ia**. Spí bitta kishi, spíme esa my uchun."
   },
   "u7-l7.6.prompt": {
     "en": "We'll meet at seven.",
@@ -1605,9 +1733,17 @@
     "en": "Yesterday Emma and Lucia sat in the library.",
     "t": "Kecha Emma va Lusiya kutubxonada oʻtirishdi."
   },
+  "u7-l7.7.why": {
+    "en": "Emma and Lucia are more than one person, so the past ends in **-li**: sedel**i**. Sedela is for one woman, sedel for one man.",
+    "t": "Emma va Lusiya — bir necha kishi, shuning uchun oʻtgan zamon **-li** bilan tugaydi: sedel**i**. Sedela bitta ayol, sedel esa bitta erkak uchun."
+  },
   "u7-l7.8.question": {
     "en": "It's 12:30. What do you say?",
     "t": "Soat 12:30. Nima deysiz?"
+  },
+  "u7-l7.8.why": {
+    "en": "Slovak looks ahead: 12:30 is half of the coming hour, one, so **pol jednej**. Pol dvanástej is 11:30, and štvrť na jednu 12:15.",
+    "t": "Slovaklar oldinga qarab hisoblaydi: 12:30 — keyingi, birinchi soatning yarmi, shuning uchun **pol jednej**. Pol dvanástej — 11:30, štvrť na jednu — 12:15."
   },
   "u7-l7.9.answers": {
     "en": [
@@ -1633,6 +1769,10 @@
     "en": "Mr Kováč, have you seen Emma?",
     "t": "Janob Kovach, Emmani koʻrdingizmi?"
   },
+  "u7-l7.10.why": {
+    "en": "Formal **vy** always takes **-li** in the past, even for one person like pán Kováč: **videli** ste. Vidieť also changes ie to e.",
+    "t": "Hurmatli **vy** oʻtgan zamonda doim **-li** oladi, janob Kovach kabi bitta kishiga ham: **videli** ste. Vidieť soʻzida ie ham e ga aylanadi."
+  },
   "u7-l7.11.en": {
     "en": "I wasn't at the seminar yesterday.",
     "t": "Kecha seminarda boʻlmadim."
@@ -1644,6 +1784,10 @@
   "u7-l7.13.en": {
     "en": "Tomáš isn't asleep any more, he's already having breakfast.",
     "t": "Tomash endi uxlamayapti, allaqachon nonushta qilyapti."
+  },
+  "u7-l7.13.why": {
+    "en": "With a not, **už** means not any more: už nespí, he's no longer asleep. Ešte nespí would mean he isn't asleep yet.",
+    "t": "Inkor bilan **už** «endi … emas» degani: už nespí — endi uxlamayapti. Ešte nespí esa «hali uxlagani yoʻq» degani boʻlardi."
   },
   "u7-l7.14.question": {
     "en": "Emma says this. What happened?",

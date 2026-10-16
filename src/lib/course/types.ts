@@ -20,6 +20,12 @@ export type ChoiceExercise = {
   options: string[];
   optionsLang: "sk" | "en";
   answer: number;
+  /** Shown after a wrong answer: why the answer is right, in a sentence or two (see AUTHORING.md). */
+  why?: string;
+  /** The grammar card `why` rests on, "lessonId#index" (index as written), here or earlier. */
+  ref?: string;
+  /** `ref` looked up, as the course loads. */
+  rule?: RuleCard;
 };
 
 /** Build a sentence from word tiles. */
@@ -78,6 +84,16 @@ export type SpeakExercise = {
  * wrap the part to highlight (usually an ending) in **double asterisks**:
  * "študent**ka**".
  */
+/** A grammar card that an explanation points back to, and where it's taught (lesson numbers and title, its place in the lesson). */
+export type RuleCard = {
+  card: GrammarExercise;
+  unit: number;
+  lesson: number;
+  title: string;
+  index: number;
+  count: number;
+};
+
 export type GrammarExercise = {
   type: "grammar";
   title: string;
@@ -102,6 +118,12 @@ export type FillExercise = {
   options: string[];
   answer: number;
   en: string;
+  /** Shown after a wrong answer: why the answer is right, in a sentence or two (see AUTHORING.md). */
+  why?: string;
+  /** The grammar card `why` rests on, "lessonId#index" (index as written), here or earlier. */
+  ref?: string;
+  /** `ref` looked up, as the course loads. */
+  rule?: RuleCard;
 };
 
 export type Exercise =

@@ -253,13 +253,25 @@
     "en": "The room is big.",
     "t": "Комната большая."
   },
+  "u3-l2.3.why": {
+    "en": "Izba ends in -a, so it's feminine and the adjective takes **-á**: veľk**á**. The ending is the same after je as before the noun.",
+    "t": "Izba на -a — женского рода, поэтому прилагательное на **-á**: veľk**á**. После je окончание то же, что и перед существительным."
+  },
   "u3-l2.4.en": {
     "en": "The balcony is small.",
     "t": "Балкон маленький."
   },
+  "u3-l2.4.why": {
+    "en": "Balkón ends in a consonant, so it's masculine and takes **-ý**: mal**ý**. Malá goes with feminine nouns like izba, malé with neuter ones like auto.",
+    "t": "Balkón на согласный — мужского рода, как и «балкон», поэтому **-ý**: mal**ý**. Malá — для женского рода (izba), malé — для среднего (auto)."
+  },
   "u3-l2.5.question": {
     "en": "Which one is correct?",
     "t": "Как правильно?"
+  },
+  "u3-l2.5.why": {
+    "en": "Kuchyňa ends in -a, so it's feminine and the adjective takes **-á**: nov**á**. Nový goes with masculine nouns, nové with neuter ones.",
+    "t": "Kuchyňa на -a — женского рода, как и «кухня», поэтому прилагательное на **-á**: nov**á**. Nový — для мужского рода, nové — для среднего."
   },
   "u3-l2.6.en": {
     "en": "small but nice",
@@ -305,6 +317,10 @@
     "en": "What's the bathroom like?",
     "t": "Какая ванная?"
   },
+  "u3-l2.10.why": {
+    "en": "**Aký?** changes like an adjective. Kúpeľňa ends in -a, so it's feminine: **aká**.",
+    "t": "**Aký?** изменяется как прилагательное: какой, какая, какое. Kúpeľňa на -a — женского рода, поэтому **aká**."
+  },
   "u3-l2.11.question": {
     "en": "What does this mean?",
     "t": "Что это значит?"
@@ -321,9 +337,17 @@
       "Балкон большой?"
     ]
   },
+  "u3-l2.11.why": {
+    "en": "**Aký?** asks what something is like. Where? is **kde**: Kde je balkón?",
+    "t": "**Aký?** = «какой?»: спрашивает, каков предмет. «Где?» — это **kde**: Kde je balkón?"
+  },
   "u3-l2.12.en": {
     "en": "What's the car like? – It's old.",
     "t": "Какое авто? – Старое."
+  },
+  "u3-l2.12.why": {
+    "en": "Auto ends in -o, so it's neuter and takes **-é**: star**é**. The question already shows it: **aké** je auto.",
+    "t": "Auto на -o — среднего рода, поэтому **-é**: star**é**. Вопрос уже подсказывает: **aké** je auto (какое?)."
   },
   "u3-l2.13.prompt": {
     "en": "What is the dorm like?",
@@ -351,6 +375,10 @@
   "u3-l2.15.en": {
     "en": "The dorm is big, but the kitchen is small.",
     "t": "Общежитие большое, но кухня маленькая."
+  },
+  "u3-l2.15.why": {
+    "en": "Each adjective matches its own noun. Kuchyňa is feminine, so **malá**, even though veľký before it goes with internát, which is masculine.",
+    "t": "Каждое прилагательное согласуется со своим существительным. Kuchyňa — женского рода, поэтому **malá**, хотя veľký перед ним относится к internát, мужскому роду."
   },
   "u3-l2.16.en": {
     "en": "The room is big and nice.",
@@ -448,9 +476,17 @@
     "en": "The window is big.",
     "t": "Окно большое."
   },
+  "u3-l3.13.why": {
+    "en": "Okno ends in -o, so it's neuter, like auto, and takes **-é**: veľk**é**.",
+    "t": "Okno на -o — среднего рода, как auto (и как «окно»), поэтому **-é**: veľk**é**."
+  },
   "u3-l3.14.en": {
     "en": "The bed is new.",
     "t": "Кровать новая."
+  },
+  "u3-l3.14.why": {
+    "en": "Posteľ ends in a consonant but is feminine, so the adjective takes **-á**: nov**á**.",
+    "t": "Posteľ оканчивается на согласный, но она женского рода, как и «постель», поэтому прилагательное на **-á**: nov**á**."
   },
   "u3-l3.15.answers": {
     "en": [
@@ -601,9 +637,17 @@
     "en": "That's my room.",
     "t": "Это моя комната."
   },
+  "u3-l4.2.why": {
+    "en": "Possessives match the gender of the thing owned. Izba is feminine, so **moja**. Watch the vowel: môj for masculine, but moja.",
+    "t": "Притяжательное местоимение согласуется с родом предмета. Izba — женского рода, поэтому **moja**. Обратите внимание на гласную: môj в мужском роде, но moja."
+  },
   "u3-l4.3.en": {
     "en": "Where is your desk?",
     "t": "Где твой стол?"
+  },
+  "u3-l4.3.why": {
+    "en": "Stôl is masculine, so it's **tvoj**. Tvoja goes with feminine nouns, tvoje with neuter ones.",
+    "t": "Stôl — мужского рода, как и «стол», поэтому **tvoj**. Tvoja — для женского рода, tvoje — для среднего."
   },
   "u3-l4.4.pairs": {
     "en": [
@@ -659,9 +703,17 @@
     "en": "Whose bed is it?",
     "t": "Чья это кровать?"
   },
+  "u3-l4.8.why": {
+    "en": "**Čí?** matches the thing it asks about. Posteľ is feminine, even without -a, so **čia**.",
+    "t": "**Čí?** согласуется с предметом, о котором спрашивают. Posteľ — женского рода, хоть и без -a (как «постель»), поэтому **čia** — «чья»."
+  },
   "u3-l4.9.question": {
     "en": "“Čia je to skriňa?” Which answer fits?",
     "t": "«Čia je to skriňa?» Какой ответ подходит?"
+  },
+  "u3-l4.9.why": {
+    "en": "The short answer keeps the gender of the thing: skriňa is feminine, so **moja**, just like čia. Môj is masculine, moje neuter.",
+    "t": "В коротком ответе тот же род, что у предмета: skriňa — женского рода, поэтому **moja**, как и čia. Môj — мужской род, moje — средний."
   },
   "u3-l4.10.prompt": {
     "en": "Whose window is it?",
@@ -671,9 +723,17 @@
     "en": "Lucia, where is your wardrobe?",
     "t": "Луция, где твой шкаф?"
   },
+  "u3-l4.11.why": {
+    "en": "Possessives match the thing owned. Skriňa is feminine, so **tvoja**. Tvoj goes with masculine nouns, tvoje with neuter ones.",
+    "t": "Притяжательное местоимение согласуется с предметом. Skriňa — женского рода, поэтому **tvoja**. Tvoj — для мужского рода, tvoje — для среднего."
+  },
   "u3-l4.12.en": {
     "en": "Mrs Horváthová, is this your lamp?",
     "t": "Госпожа Горватова, это ваша лампа?"
+  },
+  "u3-l4.12.why": {
+    "en": "You say vy to a teacher, so “your” is **vaša** (feminine, for lampa). Tvoja goes with ty, for friends.",
+    "t": "К учителю обращаются на vy, поэтому «ваша» — **vaša** (женский род, как lampa). Tvoja — на ty, для друзей."
   },
   "u3-l4.13.prompt": {
     "en": "Their room is upstairs.",
@@ -706,6 +766,10 @@
   "u3-l5.2.question": {
     "en": "Marek opens the door for Emma and Lucia. What does he say?",
     "t": "Марек открывает дверь Эмме и Луции. Что он говорит?"
+  },
+  "u3-l5.2.why": {
+    "en": "Marek is talking to two people, so he uses the vy form, with **-te**: Poď**te** ďalej! = Come in! To one friend it's Poď ďalej!",
+    "t": "Марек обращается к двоим, поэтому говорит на vy, с **-te**: Poď**te** ďalej! = Проходите! Одному другу — Poď ďalej!"
   },
   "u3-l5.3.en": {
     "en": "hallway",
@@ -787,6 +851,10 @@
     "en": "The living room is big and bright.",
     "t": "Гостиная большая и светлая."
   },
+  "u3-l5.13.why": {
+    "en": "Obývačka is feminine (it ends in -a), so both adjectives take **-á**: veľká a svetl**á**.",
+    "t": "Obývačka — женского рода (на -a), поэтому оба прилагательных на **-á**: veľká a svetl**á**."
+  },
   "u3-l5.14.answers": {
     "en": [
       "The flat is nice but expensive.",
@@ -814,6 +882,10 @@
   "u3-l5.16.en": {
     "en": "The flat isn't expensive, it's cheap.",
     "t": "Квартира не дорогая, а дешёвая."
+  },
+  "u3-l5.16.why": {
+    "en": "Byt is masculine (it ends in a consonant), so the adjective takes **-ý**: lacn**ý**, just like drahý.",
+    "t": "Byt — мужского рода (на согласный), поэтому прилагательное на **-ý**: lacn**ý**, как и drahý."
   },
   "u3-l5.17.en": {
     "en": "Come in!",
@@ -909,17 +981,33 @@
     "en": "Which room is yours?",
     "t": "Которая комната твоя?"
   },
+  "u3-l6.1.why": {
+    "en": "**Ktorý?** changes like an adjective. Izba is feminine, so **ktorá**.",
+    "t": "**Ktorý?** изменяется как прилагательное: который, которая, которое. Izba — женского рода, поэтому **ktorá**."
+  },
   "u3-l6.2.en": {
     "en": "Which desk is mine? – The one at the front.",
     "t": "Который стол мой? – Тот, что впереди."
+  },
+  "u3-l6.2.why": {
+    "en": "Point with the word that matches the noun: stôl is masculine, so **ten**. Tá is for feminine nouns, to for neuter ones.",
+    "t": "Указывайте словом того же рода: stôl — мужского рода, поэтому **ten** (тот). Tá — для женского рода, to — для среднего."
   },
   "u3-l6.3.question": {
     "en": "Lucia asks: “Ktorá lampa je tvoja?” Emma's lamp is on the left. What does Emma say?",
     "t": "Луция спрашивает: «Ktorá lampa je tvoja?» Эммина лампа слева. Что говорит Эмма?"
   },
+  "u3-l6.3.why": {
+    "en": "Lampa is feminine, so Emma points with **tá**, matching ktorá. Ten is masculine, to is neuter.",
+    "t": "Lampa — женского рода, поэтому Эмма указывает словом **tá**, как и ktorá в вопросе. Ten — мужской род, to — средний."
+  },
   "u3-l6.4.en": {
     "en": "Which window? – This one.",
     "t": "Которое окно? – Вот это."
+  },
+  "u3-l6.4.why": {
+    "en": "Okno is neuter, so the pointing word is to; for “this one here”, add -to: **toto**. Tento is masculine, táto feminine.",
+    "t": "Okno — среднего рода, поэтому указываем словом to, а «вот это» — с -to: **toto**. Tento — мужской род, táto — женский."
   },
   "u3-l6.5.prompt": {
     "en": "Which window is ours?",
@@ -1015,13 +1103,25 @@
     "en": "That's Tomáš's flat.",
     "t": "Это квартира Томаша."
   },
+  "u3-l6.8.why": {
+    "en": "Byt is masculine, so Tomášov takes no ending: **Tomášov**. Tomášova goes with feminine nouns, Tomášovo with neuter ones.",
+    "t": "Byt — мужского рода, поэтому у Tomášov нет окончания: **Tomášov** byt, как «папин дом». Tomášova — для женского рода, Tomášovo — для среднего."
+  },
   "u3-l6.9.en": {
     "en": "Lucia's bed is on the left.",
     "t": "Кровать Луции слева."
   },
+  "u3-l6.9.why": {
+    "en": "Posteľ is feminine, even without -a, so Luciin adds **-a**: Luciin**a**.",
+    "t": "Posteľ — женского рода, хоть и без -a, поэтому к Luciin добавляется **-a**: Luciin**a**, как «мамина»."
+  },
   "u3-l6.10.question": {
     "en": "How do you say “Emma's room”?",
     "t": "Как сказать «Эммина комната»?"
+  },
+  "u3-l6.10.why": {
+    "en": "Women's names drop -a and add **-in**: Emma → Emmin. Izba is feminine, so add -a: Emmin**a**. -ov is for men's names.",
+    "t": "Женские имена теряют -a и получают **-in**: Emma → Emmin. Izba — женского рода, поэтому ещё -a: Emmin**a**, как «мамина». -ov — для мужских имён."
   },
   "u3-l6.11.prompt": {
     "en": "Which bed is Emma's?",
@@ -1030,6 +1130,10 @@
   "u3-l6.12.en": {
     "en": "What's the flat like? – Big and bright.",
     "t": "Какая квартира? – Большая и светлая."
+  },
+  "u3-l6.12.why": {
+    "en": "The answer says what the flat is like, so the question is **Aký?** Ktorý asks which one, čí asks whose.",
+    "t": "Ответ описывает квартиру, значит, вопрос — **Aký?** (какой?). Ktorý спрашивает «который», а čí — «чей»."
   },
   "u3-l6.13.en": {
     "en": "Which room is yours?",
@@ -1059,6 +1163,10 @@
     "en": "Our kitchen is small.",
     "t": "Наша кухня маленькая."
   },
+  "u3-l7.1.why": {
+    "en": "Kuchyňa is feminine, so the adjective takes **-á**: mal**á**, like naša before it.",
+    "t": "Kuchyňa — женского рода, поэтому прилагательное на **-á**: mal**á**, как и naša перед ним."
+  },
   "u3-l7.2.en": {
     "en": "The front desk is downstairs, on the left.",
     "t": "Вахта внизу, слева."
@@ -1079,6 +1187,10 @@
       "Какая кровать?"
     ]
   },
+  "u3-l7.3.why": {
+    "en": "**Čia** is a form of čí?, whose. Which? would be ktorá, and what is it like? would be aká.",
+    "t": "**Čia** — форма čí?, то есть «чья». «Которая?» было бы ktorá, а «какая?» — aká."
+  },
   "u3-l7.4.prompt": {
     "en": "My room is upstairs.",
     "t": "Моя комната наверху."
@@ -1086,6 +1198,10 @@
   "u3-l7.5.en": {
     "en": "Which desk is yours?",
     "t": "Который стол твой?"
+  },
+  "u3-l7.5.why": {
+    "en": "Stôl is masculine, so **tvoj**, just like ktorý. Tvoja goes with feminine nouns, tvoje with neuter ones.",
+    "t": "Stôl — мужского рода, поэтому **tvoj**, как и ktorý. Tvoja — для женского рода, tvoje — для среднего."
   },
   "u3-l7.6.answers": {
     "en": [
@@ -1110,9 +1226,17 @@
     "en": "Where is Emma's lamp?",
     "t": "Где Эммина лампа?"
   },
+  "u3-l7.7.why": {
+    "en": "Lampa is feminine, so Emmin adds **-a**: Emmin**a**.",
+    "t": "Lampa — женского рода, поэтому к Emmin добавляется **-a**: Emmin**a**."
+  },
   "u3-l7.8.question": {
     "en": "Which answer fits “Aká je izba?”",
     "t": "«Aká je izba?» Какой ответ подходит?"
+  },
+  "u3-l7.8.why": {
+    "en": "**Aká?** asks what the room is like, so the answer describes it. Tá vľavo answers ktorá (which one), and Moja answers čia (whose).",
+    "t": "**Aká?** спрашивает, какая комната, поэтому ответ её описывает. Tá vľavo отвечает на ktorá (которая), а Moja — на čia (чья)."
   },
   "u3-l7.9.en": {
     "en": "Their flat is cheap.",
@@ -1126,9 +1250,17 @@
     "en": "Which bed is Lucia's? – The one on the right.",
     "t": "Которая кровать Луции? – Та, что справа."
   },
+  "u3-l7.11.why": {
+    "en": "The answer points to one bed, tá vpravo, so the question is which one. Posteľ is feminine: **ktorá**.",
+    "t": "Ответ указывает на одну кровать — tá vpravo, значит, вопрос «которая?». Posteľ — женского рода: **ktorá**."
+  },
   "u3-l7.12.en": {
     "en": "Mrs Horváthová, is this your desk?",
     "t": "Госпожа Горватова, это ваш стол?"
+  },
+  "u3-l7.12.why": {
+    "en": "Stôl is masculine, so **váš**. Vaša and vaše go with feminine and neuter nouns. It's váš, not tvoj, because you say vy to a teacher.",
+    "t": "Stôl — мужского рода, поэтому **váš** (ваш). Vaša и vaše — для женского и среднего рода. Именно váš, а не tvoj: к учителю — на vy."
   },
   "u3-l7.13.prompt": {
     "en": "The bathroom is on the right and the kitchen is at the back.",

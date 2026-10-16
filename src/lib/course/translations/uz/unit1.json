@@ -51,6 +51,10 @@
     "en": "Emma walks into a bakery. What does she say?",
     "t": "Emma novvoyxonaga kirdi. U nima deydi?"
   },
+  "u1-l1.2.why": {
+    "en": "In a shop, greet politely with **Dobrý deň**. Ahoj! is only for friends, family and children.",
+    "t": "Doʻkonda hurmat bilan **Dobrý deň** deb salomlashing. Ahoj! faqat doʻstlar, oila aʼzolari va bolalar uchun."
+  },
   "u1-l1.3.en": {
     "en": "Good morning.",
     "t": "Xayrli tong."
@@ -125,13 +129,25 @@
     "en": "It's late and Lucia is going to bed. What do you say?",
     "t": "Kech boʻldi, Lusiya uxlashga ketyapti. Siz nima deysiz?"
   },
+  "u1-l1.11.why": {
+    "en": "**Dobrú noc** is for when someone goes to bed. Dobrý večer and Dobré ráno are greetings, said when you meet.",
+    "t": "**Dobrú noc** kimdir uxlashga ketayotganda aytiladi. Dobrý večer va Dobré ráno esa uchrashganda aytiladigan salomlar."
+  },
   "u1-l1.12.en": {
     "en": "Good morning, Emma!",
     "t": "Xayrli tong, Emma!"
   },
+  "u1-l1.12.why": {
+    "en": "Each greeting has its own ending: dobrý deň, **dobré** ráno, dobrú noc.",
+    "t": "Har bir salomning oʻz qoʻshimchasi bor: dobrý deň, **dobré** ráno, dobrú noc. Ularni shu holicha yodlang."
+  },
   "u1-l1.13.en": {
     "en": "Enjoy your meal, Tomáš!",
     "t": "Yoqimli ishtaha, Tomash!"
+  },
+  "u1-l1.13.why": {
+    "en": "The ending -ú fits **chuť**, as in dobrú noc. Deň and večer take dobrý: dobrý deň, dobrý večer.",
+    "t": "-ú qoʻshimchasi **chuť** soʻziga mos keladi, xuddi dobrú noc kabi. Deň va večer bilan esa dobrý keladi: dobrý deň, dobrý večer."
   },
   "u1-l1.14.prompt": {
     "en": "Goodbye, Mrs Horváthová.",
@@ -173,6 +189,10 @@
     "en": "Lucia says “Ďakujem.” What's the natural reply?",
     "t": "Lusiya «Ďakujem» dedi. Eng tabiiy javob qaysi?"
   },
+  "u1-l2.2.why": {
+    "en": "The usual reply to ďakujem is **Prosím**: here it means you're welcome.",
+    "t": "Ďakujem (rahmat) deyishsa, odatda **Prosím** deb javob beriladi: bu yerda u «arzimaydi» degani."
+  },
   "u1-l2.3.en": {
     "en": "Here you go.",
     "t": "Marhamat."
@@ -196,6 +216,10 @@
   "u1-l2.6.question": {
     "en": "Tomáš offers you a coffee, but you don't want one. What do you say?",
     "t": "Tomash sizga qahva taklif qildi, lekin siz xohlamaysiz. Nima deysiz?"
+  },
+  "u1-l2.6.why": {
+    "en": "Saying no to an offer is **Nie, ďakujem** (no, thank you). Áno, prosím (yes, please) would accept the coffee.",
+    "t": "Taklifni rad etish — **Nie, ďakujem** (yoʻq, rahmat). Áno, prosím (ha, iltimos) desangiz, qahvaga rozi boʻlgan boʻlasiz."
   },
   "u1-l2.7.pairs": {
     "en": [
@@ -237,9 +261,17 @@
     "en": "Emma bumps into pán Kováč in the corridor. What does she say?",
     "t": "Emma yoʻlakda janob Kovachga urilib ketdi. U nima deydi?"
   },
+  "u1-l2.11.why": {
+    "en": "Bumping into someone calls for sorry, and pán Kováč gets the polite form: **Prepáčte!** To a friend, you'd say Prepáč!",
+    "t": "Birovga urilib ketsangiz, kechirim soʻraysiz, janob Kovachga esa hurmat shakli kerak: **Prepáčte!** (kechirasiz). Doʻstga Prepáč! (kechir) deysiz."
+  },
   "u1-l2.12.en": {
     "en": "Sorry! — That's OK.",
     "t": "Kechirasiz! — Hech qisi yoʻq."
+  },
+  "u1-l2.12.why": {
+    "en": "The set reply is **Nič** sa nestalo, literally “nothing happened”. Nie just means no.",
+    "t": "Tayyor javob — **Nič** sa nestalo, soʻzma-soʻz «hech narsa boʻlmadi». Nie esa shunchaki «yoʻq» degani."
   },
   "u1-l2.13.en": {
     "en": "Cheers! / Bless you!",
@@ -341,6 +373,10 @@
     "en": "Hi! How are you, Tomáš?",
     "t": "Salom! Qalaysan, Tomash?"
   },
+  "u1-l3.6.why": {
+    "en": "You're asking Tomáš about himself, so it's **máš** (you). Mám is for “I”: Mám sa dobre = I'm fine.",
+    "t": "Siz Tomashning oʻzi haqida soʻrayapsiz, shuning uchun «sen» shakli kerak: **máš** (qalaysan). Mám esa «men» uchun: Mám sa dobre = Yaxshiman."
+  },
   "u1-l3.7.en": {
     "en": "I'm great, and you?",
     "t": "Juda yaxshiman, sen-chi?"
@@ -377,9 +413,17 @@
     "en": "Tomáš says “Teší ma.” What do you answer?",
     "t": "Tomash «Teší ma» dedi. Siz nima deb javob berasiz?"
   },
+  "u1-l3.12.why": {
+    "en": "Teší ma is literally “it pleases me”, so the reply is **Aj mňa**, “me too”.",
+    "t": "Teší ma soʻzma-soʻz «meni xursand qiladi», shuning uchun javob **Aj mňa** — «meni ham»."
+  },
   "u1-l3.13.en": {
     "en": "Hi! What's your name? — My name is Lucia.",
     "t": "Salom! Isming nima? — Ismim Lusiya."
+  },
+  "u1-l3.13.why": {
+    "en": "The reply gives a name, so the question needs **voláš** (What's your name?). Ako sa máš? asks how someone is.",
+    "t": "Javobda ism aytilgan, demak savolda **voláš** boʻladi: «isming nima?». Ako sa máš? esa «qalaysan?» degani."
   },
   "u1-l3.14.answers": {
     "en": [
@@ -505,13 +549,25 @@
     "en": "Emma meets pani Horváthová, her teacher. Which question fits?",
     "t": "Emma oʻqituvchisi Horvatova xonimni uchratdi. Qaysi savol mos keladi?"
   },
+  "u1-l4.1.why": {
+    "en": "A teacher gets **vy**, so the verb ends in **-te**: má**te**. Máš is the ty form, for friends and family.",
+    "t": "Oʻqituvchiga **vy** (siz) deyiladi, shuning uchun feʼl **-te** bilan tugaydi: má**te**. Máš — ty (sen) shakli, doʻstlar va oila uchun."
+  },
   "u1-l4.2.en": {
     "en": "Hi, Tomáš! How are you?",
     "t": "Salom, Tomash! Qalaysan?"
   },
+  "u1-l4.2.why": {
+    "en": "Ahoj and a friend's name mean **ty**, so the verb ends in **-š**: má**š**. Máte is for vy.",
+    "t": "Ahoj va doʻstning ismi — demak **ty** (sen), shuning uchun feʼl **-š** bilan tugaydi: má**š**. Máte esa vy (siz) uchun."
+  },
   "u1-l4.3.en": {
     "en": "Hello. What's your name?",
     "t": "Assalomu alaykum. Ismingiz nima?"
+  },
+  "u1-l4.3.why": {
+    "en": "**Dobrý deň** is the polite hello, so ask with vy: the verb ends in **-te**, volá**te**.",
+    "t": "**Dobrý deň** — hurmatli salom, shuning uchun vy (siz) bilan soʻrang: feʼl **-te** bilan tugaydi, volá**te**."
   },
   "u1-l4.4.prompt": {
     "en": "Do you speak Slovak? (polite)",
@@ -520,6 +576,10 @@
   "u1-l4.5.question": {
     "en": "Emma meets Lucia and Tomáš together. How does she ask how they are?",
     "t": "Emma Lusiya va Tomashni birga uchratdi. Ularning ahvolini qanday soʻraydi?"
+  },
+  "u1-l4.5.why": {
+    "en": "**Vy** is also for a group, even of friends, so the verb ends in **-te**: má**te**. Máš is for one friend.",
+    "t": "**Vy** guruhga ham aytiladi, hatto ular doʻstlar boʻlsa ham, shuning uchun feʼl **-te** bilan tugaydi: má**te**. Máš — bitta doʻst uchun."
   },
   "u1-l4.6.title": {
     "en": "Same phrase, ty or vy",
@@ -619,9 +679,17 @@
     "en": "Lucia says “Dobrú noc!” What does Emma answer?",
     "t": "Lusiya «Dobrú noc!» dedi. Emma nima deb javob beradi?"
   },
+  "u1-l4.7.why": {
+    "en": "Lucia is Emma's friend, so Emma uses ty: Aj **tebe**. Aj vám is for vy.",
+    "t": "Lusiya — Emmaning doʻsti, shuning uchun Emma ty (sen) ishlatadi: Aj **tebe** (senga ham). Aj vám (sizga ham) — vy uchun."
+  },
   "u1-l4.8.en": {
     "en": "Enjoy your meal, Emma! — Thank you, you too, Mrs Horváthová.",
     "t": "Yoqimli ishtaha, Emma! — Rahmat, sizga ham, Horvatova xonim."
+  },
+  "u1-l4.8.why": {
+    "en": "Pani Horváthová is Emma's teacher, so Emma uses vy: aj **vám**. Aj tebe is for friends.",
+    "t": "Horvatova xonim — Emmaning oʻqituvchisi, shuning uchun Emma vy (siz) ishlatadi: aj **vám** (sizga ham). Aj tebe — doʻstlar uchun."
   },
   "u1-l4.9.prompt": {
     "en": "Take care, Lucia!",
@@ -630,6 +698,10 @@
   "u1-l4.10.en": {
     "en": "Hi, Emma! Welcome to Slovakia!",
     "t": "Salom, Emma! Slovakiyaga xush kelibsan!"
+  },
+  "u1-l4.10.why": {
+    "en": "Ahoj and one friend, Emma, mean ty: **Vitaj**. Vitajte, with -te, is for vy or a group.",
+    "t": "Ahoj va bitta doʻst, Emma — demak ty (sen): **Vitaj** (xush kelibsan). -te bilan Vitajte esa vy (siz) yoki guruh uchun."
   },
   "u1-l4.11.pairs": {
     "en": [
@@ -885,6 +957,10 @@
     "en": "Which phrase has the “sh” sound?",
     "t": "Qaysi iborada «sh» tovushi bor?"
   },
+  "u1-l5.2.why": {
+    "en": "**š** is the “sh” in “ship”: Te**š**í ma. The č in Čau! is the “ch” in “chip”.",
+    "t": "**š** oʻzbekcha «sh» kabi oʻqiladi: Te**š**í ma. Čau! soʻzidagi č esa oʻzbekcha «ch»."
+  },
   "u1-l5.3.question": {
     "en": "Which syllable is stressed?",
     "t": "Qaysi boʻgʻinga urgʻu tushadi?"
@@ -901,17 +977,33 @@
       "-de-"
     ]
   },
+  "u1-l5.3.why": {
+    "en": "Stress is always on the first syllable, even in a long word: **Do**videnia.",
+    "t": "Urgʻu doim **birinchi** boʻgʻinga tushadi, uzun soʻzda ham: **Do**videnia. Oʻzbekchadagidek oxirgi boʻgʻinga emas."
+  },
   "u1-l5.4.en": {
     "en": "I'm fine.",
     "t": "Yaxshiman."
+  },
+  "u1-l5.4.why": {
+    "en": "With a short e, **dobre** means fine or well: Mám sa dobre. Dobré, with a long é, goes with ráno.",
+    "t": "Qisqa e bilan **dobre** «yaxshi» degani: Mám sa dobre. Choʻziq é bilan dobré esa ráno bilan keladi."
   },
   "u1-l5.5.en": {
     "en": "Good morning!",
     "t": "Xayrli tong!"
   },
+  "u1-l5.5.why": {
+    "en": "Good morning has a long é: **Dobré** ráno. Dobre, with a short e, means fine: Mám sa dobre.",
+    "t": "«Xayrli tong»da choʻziq é bor: **Dobré** ráno. Qisqa e bilan dobre esa «yaxshi» degani: Mám sa dobre."
+  },
   "u1-l5.6.question": {
     "en": "Which word has a soft ň?",
     "t": "Qaysi soʻzda yumshoq ň bor?"
+  },
+  "u1-l5.6.why": {
+    "en": "The hook (mäkčeň) on n makes it soft, like “ny” in “canyon”: de**ň**. Noc and ráno have a plain n.",
+    "t": "n ustidagi qalpoqcha (mäkčeň) uni yumshoq qiladi, goʻyo ortidan qisqa «y» kelgandek: de**ň**. Noc va ráno soʻzlarida n oddiy."
   },
   "u1-l5.7.en": {
     "en": "Thank you, good night.",
@@ -961,9 +1053,17 @@
       "Uchta"
     ]
   },
+  "u1-l5.9.why": {
+    "en": "**ie** glides together into one syllable, so N**ie** has just one, like Na zdrav**ie**.",
+    "t": "**ie** bitta boʻgʻinga qoʻshilib ketadi (taxminan «ye»), shuning uchun N**ie** — bitta boʻgʻin, xuddi Na zdrav**ie** iborasidagi kabi."
+  },
   "u1-l5.10.question": {
     "en": "Which word has ô, the “wo” sound?",
     "t": "Qaysi soʻzda ô, yaʼni «uo» tovushi bor?"
+  },
+  "u1-l5.10.why": {
+    "en": "**ô** sounds like “wo”: st**ô**l sounds like “stwol”. Päť has ä, like the e in “bed”.",
+    "t": "**ô** «uo» kabi oʻqiladi: st**ô**l taxminan «stuol» boʻlib eshitiladi. Päť soʻzida esa ä bor, u oʻzbekcha «e» kabi."
   },
   "u1-l5.11.pairs": {
     "en": [
@@ -1001,6 +1101,10 @@
     "en": "You meet pani Horváthová early in the morning. What do you say?",
     "t": "Erta tongda Horvatova xonimni uchratdingiz. Nima deysiz?"
   },
+  "u1-l6.0.why": {
+    "en": "Early in the morning, say **Dobré ráno**, polite enough for a teacher. Ahoj! is only for friends, and Dobrú noc is for bedtime.",
+    "t": "Erta tongda **Dobré ráno** deng: bu oʻqituvchiga ham yetarlicha hurmatli. Ahoj! faqat doʻstlar uchun, Dobrú noc esa uxlashdan oldin aytiladi."
+  },
   "u1-l6.1.prompt": {
     "en": "Hi, Lucia! How are you?",
     "t": "Salom, Lusiya! Qalaysan?"
@@ -1012,6 +1116,10 @@
   "u1-l6.3.en": {
     "en": "Good night, Emma! — You too, Lucia.",
     "t": "Xayrli tun, Emma! — Senga ham, Lusiya."
+  },
+  "u1-l6.3.why": {
+    "en": "Lucia is a friend, so use ty: Aj **tebe**. Aj vám is for vy: teachers, strangers or a group.",
+    "t": "Lusiya — doʻst, shuning uchun ty (sen): Aj **tebe**. Aj vám esa vy (siz) uchun: oʻqituvchilar, notanishlar yoki guruh."
   },
   "u1-l6.4.pairs": {
     "en": [
@@ -1063,9 +1171,17 @@
       "Kimdir aksirganda"
     ]
   },
+  "u1-l6.6.why": {
+    "en": "Said as a question, **Prosím?** means Pardon? On its own, prosím is please or you're welcome.",
+    "t": "Savol ohangida **Prosím?** «Nima dedingiz?» degani. Oddiy holda prosím — «iltimos» yoki «arzimaydi»."
+  },
   "u1-l6.7.en": {
     "en": "Hello, Mr Kováč. How are you?",
     "t": "Assalomu alaykum, janob Kovach. Qalaysiz?"
+  },
+  "u1-l6.7.why": {
+    "en": "Pán Kováč gets vy (note the polite Dobrý deň), so the verb ends in **-te**: má**te**.",
+    "t": "Janob Kovachga vy (siz) deyiladi (hurmatli salom Dobrý deň ham shuni koʻrsatadi), shuning uchun feʼl **-te** bilan tugaydi: má**te**."
   },
   "u1-l6.8.en": {
     "en": "How are you? (polite)",
@@ -1082,6 +1198,10 @@
   "u1-l6.11.question": {
     "en": "Which one means “Hi, everyone!”?",
     "t": "Qaysi biri «Hammaga salom!» degani?"
+  },
+  "u1-l6.11.why": {
+    "en": "For a group of friends, add **-te**: Ahoj**te**! Ahoj! is for one friend, and Maj sa! means take care.",
+    "t": "Bir guruh doʻstlarga **-te** qoʻshing: Ahoj**te**! Ahoj! — bitta doʻstga, Maj sa! esa «yaxshi qol» degani."
   },
   "u1-l6.12.prompt": {
     "en": "My name is Emma. Nice to meet you.",

@@ -94,6 +94,8 @@ export const uk: Messages = {
 
   "lesson.quit": "Вийти з уроку",
   "lesson.volume": "Гучність",
+  "lesson.seeRule": "Подивитися правило",
+  "lesson.closeRule": "Закрити",
   "lesson.quitConfirm": "Вийти? Прогрес цього уроку буде втрачено.",
   "lesson.place": "Розділ {unit} · Урок {lesson}",
   "lesson.course": "Словацька A1",

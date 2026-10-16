@@ -96,6 +96,7 @@ export const unit6: Unit = {
           options: ["lístok", "jedlo", "mäso"],
           answer: 0,
           en: "The menu, please.",
+          why: "The menu is **jedálny lístok**. Jedálny has the masculine ending (short, like čierny), so it needs a masculine noun; jedlo and mäso are neuter.",
         },
         { type: "listen", sk: "Marek varí polievku.", en: "Marek is cooking soup." },
         {
@@ -112,6 +113,8 @@ export const unit6: Unit = {
           options: ["sú", "je"],
           answer: 0,
           en: "The chips are good.",
+          why: "**Hranolky** is always plural, like English “chips”, so the verb is **sú** (they are). Je is for one thing.",
+          ref: "u4-l6#8",
         },
         {
           type: "build",
@@ -161,6 +164,7 @@ export const unit6: Unit = {
           options: ["What you'd like to order", "Where you're from", "How you are"],
           optionsLang: "en",
           answer: 0,
+          why: "**Čo** is what, and **dať si** is to have (food or a drink): Čo si dáte? is the waiter's polite “What will you have?”",
         },
         {
           type: "fill",
@@ -169,6 +173,8 @@ export const unit6: Unit = {
           options: ["rybu", "ryba", "ryby"],
           answer: 0,
           en: "I'll have the fish and chips.",
+          why: "The fish is what you'll have, the object, so ryba changes -a to **-u**: dám si **rybu**. Ryby is the plural.",
+          ref: "u5-l2#0",
         },
         {
           type: "intro",
@@ -195,6 +201,8 @@ export const unit6: Unit = {
           options: ["Chutí mi.", "Nechutí mi.", "A na pitie?"],
           optionsLang: "sk",
           answer: 0,
+          why: "The soup is delicious, so answer yes. **Ne-** makes a verb negative: nechutí mi means “I don't like it”.",
+          ref: "u2-l5#0",
         },
         {
           type: "intro",
@@ -226,6 +234,8 @@ export const unit6: Unit = {
           options: ["horúca", "horúci", "horúce"],
           answer: 0,
           en: "The soup is hot.",
+          why: "Polievka is feminine, so horúci takes its short feminine ending **-a**: horúc**a**. Horúci is for masculine words (čaj), horúce for neuter (jedlo).",
+          ref: "u3-l2#2",
         },
         {
           type: "fill",
@@ -234,6 +244,8 @@ export const unit6: Unit = {
           options: ["sladká", "sladký", "sladké"],
           answer: 0,
           en: "The cake is very sweet.",
+          why: "Torta is feminine, so the adjective ends in **-á**: sladk**á**. Sladký is masculine, sladké neuter.",
+          ref: "u3-l2#2",
         },
         {
           type: "build",
@@ -289,6 +301,8 @@ export const unit6: Unit = {
           options: ["čaj s citrónom", "čaj s citrón", "čaj s citrónu"],
           optionsLang: "sk",
           answer: 0,
+          why: "After **s** (with), masculine nouns take the instrumental ending **-om**: citrón → citrón**om**.",
+          ref: "u6-l3#0",
         },
         {
           type: "fill",
@@ -297,6 +311,8 @@ export const unit6: Unit = {
           options: ["mliekom", "mlieko", "mlieka"],
           answer: 0,
           en: "Coffee with milk, please.",
+          why: "After **s** (with), neuter nouns change -o to **-om**: mlieko → mliek**om**.",
+          ref: "u6-l3#0",
         },
         {
           type: "fill",
@@ -305,6 +321,8 @@ export const unit6: Unit = {
           options: ["ryžou", "ryža", "ryžu"],
           answer: 0,
           en: "I'll have fish with rice.",
+          why: "After **s**, feminine nouns change -a to **-ou**: ryž**ou**. Ryžu is the object form: it goes after dám si, like rybu, not after s.",
+          ref: "u6-l3#0",
         },
         {
           type: "build",
@@ -319,6 +337,8 @@ export const unit6: Unit = {
           options: ["syrom", "mliekom", "ryžou"],
           optionsLang: "sk",
           answer: 0,
+          why: "**S** becomes **so** before a word starting with s, z, š or ž, as syrom does. Mliekom and ryžou take plain s.",
+          ref: "u6-l3#0",
         },
         {
           type: "fill",
@@ -327,6 +347,8 @@ export const unit6: Unit = {
           options: ["Tomášom", "Tomáš", "Tomáša"],
           answer: 0,
           en: "Lucia is talking to Tomáš.",
+          why: "After **s**, masculine nouns add **-om**, names too: Tomáš**om**. Tomáša is the object form, as in Hľadám Tomáša.",
+          ref: "u6-l3#0",
         },
         { type: "listen", sk: "Tomáš je s Marekom.", en: "Tomáš is with Marek." },
         {
@@ -355,6 +377,8 @@ export const unit6: Unit = {
           options: ["dobrou", "dobrá", "dobrým"],
           answer: 0,
           en: "Lucia is with a good friend.",
+          why: "After s, a feminine adjective takes **-ou**, the same ending as kamarátk**ou**: dobr**ou**. Dobrým is for masculine and neuter nouns.",
+          ref: "u6-l3#8",
         },
         {
           type: "fill",
@@ -363,6 +387,8 @@ export const unit6: Unit = {
           options: ["novým", "novou", "nový"],
           answer: 0,
           en: "Tomáš is talking to a new friend.",
+          why: "Kamarát is masculine, so after s its adjective ends in **-ým**: nov**ým**. Novou is the feminine form, for kamarátkou.",
+          ref: "u6-l3#8",
         },
         {
           type: "build",
@@ -377,6 +403,8 @@ export const unit6: Unit = {
           options: ["s Marekom", "s Marek", "s Mareka"],
           optionsLang: "sk",
           answer: 0,
+          why: "After **s**, masculine names add **-om**: Marek → Marek**om**. Mareka is the object form, as in Hľadám Mareka.",
+          ref: "u6-l3#0",
         },
         {
           type: "build",
@@ -431,6 +459,7 @@ export const unit6: Unit = {
           options: ["by bus", "by car", "on foot"],
           optionsLang: "en",
           answer: 0,
+          why: "**Autobus** is a bus (a car is auto), and the instrumental ending **-om** does the job of English “by”.",
         },
         {
           type: "grammar",
@@ -463,6 +492,8 @@ export const unit6: Unit = {
           options: ["vlakom", "vlak", "vlaku"],
           answer: 0,
           en: "Tomáš is travelling home by train.",
+          why: "How you travel takes the instrumental, with no s: masculine vlak adds **-om**, vlak**om**.",
+          ref: "u6-l4#6",
         },
         {
           type: "choice",
@@ -470,6 +501,8 @@ export const unit6: Unit = {
           options: ["lietadlom", "s lietadlom", "lietadlo"],
           optionsLang: "sk",
           answer: 0,
+          why: "For how you travel, the vehicle takes the instrumental without s: lietadl**om**. S lietadlom would mean “with a plane”.",
+          ref: "u6-l4#6",
         },
         {
           type: "fill",
@@ -478,6 +511,8 @@ export const unit6: Unit = {
           options: ["električkou", "električka", "električku"],
           answer: 0,
           en: "Lucia is going home by tram.",
+          why: "Električka is feminine, so for how you travel it changes -a to **-ou**: električk**ou**. Električku is the object form.",
+          ref: "u6-l4#6",
         },
         {
           type: "intro",
@@ -523,6 +558,7 @@ export const unit6: Unit = {
           options: ["kamarátkami", "kamarátky", "kamarátok"],
           answer: 0,
           en: "Lucia is going home with her friends.",
+          why: "Her friends are more than one, and after **s** plural nouns end in **-mi** or **-ami**: kamarátky → kamarátk**ami**.",
         },
         { type: "speak", sk: "Účet, prosím.", en: "The bill, please." },
       ],
@@ -567,6 +603,8 @@ export const unit6: Unit = {
           options: ["Are you coming with me?", "Are you coming with us?", "Is he coming with you?"],
           optionsLang: "en",
           answer: 0,
+          why: "**So mnou** is with me (with us would be s nami), and ideš is the ty form: are you coming?",
+          ref: "u6-l5#0",
         },
         {
           type: "fill",
@@ -575,6 +613,8 @@ export const unit6: Unit = {
           options: ["ním", "ňou", "ho"],
           answer: 0,
           en: "Tomáš is here. Lucia is talking to him.",
+          why: "Tomáš is on (he), and after s, on becomes **ním**. Ňou is for ona; ho is the object form, as in Mám ho rád.",
+          ref: "u6-l5#0",
         },
         {
           type: "fill",
@@ -583,6 +623,8 @@ export const unit6: Unit = {
           options: ["ňou", "ním", "ju"],
           answer: 0,
           en: "Lucia is my friend. I live with her.",
+          why: "Lucia is ona (she), and after s, ona becomes **ňou**. Ním is for on; ju is the object form, as in Mám ju rada.",
+          ref: "u6-l5#0",
         },
         {
           type: "build",
@@ -632,6 +674,8 @@ export const unit6: Unit = {
           options: ["univerzitou", "univerzita", "univerzitu"],
           answer: 0,
           en: "Tomáš is waiting in front of the university.",
+          why: "**Pred** (in front of) takes the instrumental, so feminine univerzita changes -a to **-ou**. Univerzitu is the object form.",
+          ref: "u6-l5#6",
         },
         {
           type: "fill",
@@ -640,6 +684,8 @@ export const unit6: Unit = {
           options: ["poštou", "pošta", "poštu"],
           answer: 0,
           en: "The café is between the bank and the post office.",
+          why: "**Medzi** (between) takes the instrumental for both places: bank**ou** a pošt**ou**.",
+          ref: "u6-l5#6",
         },
         {
           type: "build",
@@ -655,6 +701,8 @@ export const unit6: Unit = {
           options: ["stolom", "stôl", "stola"],
           answer: 0,
           en: "The lamp is above the table.",
+          why: "**Nad** (above) takes the instrumental: stôl adds **-om**, and its ô turns into o: **stolom**.",
+          ref: "u6-l5#6",
         },
         {
           type: "fill",
@@ -663,6 +711,8 @@ export const unit6: Unit = {
           options: ["tebou", "teba", "ty"],
           answer: 0,
           en: "Emma is standing behind you.",
+          why: "**Za** (behind) takes the instrumental when it says where, and ty becomes **tebou**, as in s tebou. Teba is the form after pre: pre teba.",
+          ref: "u6-l5#6",
         },
         { type: "listen", sk: "Marek čaká za reštauráciou.", en: "Marek is waiting behind the restaurant." },
         {
@@ -745,6 +795,8 @@ export const unit6: Unit = {
           options: ["piješ", "pije", "pijú"],
           answer: 0,
           en: "What are you drinking, Emma? — I'm drinking tea.",
+          why: "The question is to Emma (ty), so the verb ends in **-š**: pij**eš**. Pije goes with on or ona, pijú with oni.",
+          ref: "u6-l6#0",
         },
         {
           type: "fill",
@@ -753,6 +805,8 @@ export const unit6: Unit = {
           options: ["pijú", "pije", "pijeme"],
           answer: 0,
           en: "Lucia and Emma drink coffee with milk.",
+          why: "Lucia and Emma are two people (they), so piť takes the oni form, **pijú**. Pije is for one person, pijeme for my (we).",
+          ref: "u6-l6#0",
         },
         {
           type: "fill",
@@ -761,6 +815,8 @@ export const unit6: Unit = {
           options: ["nesie", "nesú", "nesiem"],
           answer: 0,
           en: "Marek is carrying the soup to the table.",
+          why: "Marek is on (he), so niesť takes **nesie**. Nesú goes with oni, nesiem with ja.",
+          ref: "u6-l6#0",
         },
         {
           type: "build",
@@ -790,6 +846,8 @@ export const unit6: Unit = {
           options: ["jem", "je", "ješ"],
           answer: 0,
           en: "I'm eating fish and Lucia is eating chicken.",
+          why: "**Jesť** is irregular: with ja it's **jem**. Je goes with on or ona (Lucia je kuracie mäso), and also means “is”.",
+          ref: "u6-l6#2",
         },
         {
           type: "fill",
@@ -798,6 +856,8 @@ export const unit6: Unit = {
           options: ["jedia", "jeme", "je"],
           answer: 0,
           en: "Emma and Lucia are eating fish with rice.",
+          why: "Emma and Lucia are two people (they), so jesť takes its irregular oni form, **jedia**. Jeme is for my (we), je for one person.",
+          ref: "u6-l6#2",
         },
         {
           type: "fill",
@@ -806,6 +866,8 @@ export const unit6: Unit = {
           options: ["učiteľkou", "učiteľka", "učiteľku"],
           answer: 0,
           en: "Lucia wants to become a teacher.",
+          why: "**Stať sa** (to become) takes the instrumental, so feminine učiteľka changes -a to **-ou**. Učiteľku is the object form.",
+          ref: "u6-l6#2",
         },
         {
           type: "build",
@@ -828,6 +890,8 @@ export const unit6: Unit = {
           options: ["stať", "stanem", "stane"],
           answer: 0,
           en: "I want to become a cook.",
+          why: "After **chcieť**, the next verb is an infinitive, the -ť form: chcem sa **stať**. Stanem already means “I'll become”.",
+          ref: "u5-l5#2",
         },
         { type: "listen", sk: "Pozvem ťa na kávu.", en: "I'll buy you a coffee." },
         { type: "speak", sk: "Pozvem ťa na večeru.", en: "I'll invite you to dinner." },
@@ -861,6 +925,7 @@ export const unit6: Unit = {
           options: ["pitie", "jedlo", "účet"],
           answer: 0,
           en: "And to drink? — Mineral water, please.",
+          why: "The answer is a drink, so the question asks about drinking: **pitie** comes from piť (to drink). Jedlo is food, účet the bill.",
         },
         {
           type: "match",
@@ -879,6 +944,8 @@ export const unit6: Unit = {
           options: ["Tomášom", "Tomáš", "Tomáša"],
           answer: 0,
           en: "Marek is standing behind Tomáš.",
+          why: "**Za** (behind) takes the instrumental when it says where, so Tomáš adds **-om**. Tomáša is the object form.",
+          ref: "u6-l5#6",
         },
         {
           type: "build",
@@ -894,6 +961,8 @@ export const unit6: Unit = {
           options: ["taxíkom", "taxík", "s taxíkom"],
           answer: 0,
           en: "Tomáš is going home by taxi.",
+          why: "For how you travel, the vehicle takes the instrumental without s: taxík**om**. S taxíkom would mean “with a taxi”.",
+          ref: "u6-l4#6",
         },
         {
           type: "choice",
@@ -916,6 +985,8 @@ export const unit6: Unit = {
           options: ["pozvem", "pozve", "pozveme"],
           answer: 0,
           en: "Lucia, I'll take you out to dinner.",
+          why: "With **ja**, pozvať ends in **-em**: pozv**em** (I'll invite). Pozve goes with on or ona, pozveme with my (we).",
+          ref: "u6-l6#0",
         },
         { type: "listen", sk: "Tomáš pije pivo s Marekom.", en: "Tomáš is drinking beer with Marek." },
         {
@@ -931,6 +1002,8 @@ export const unit6: Unit = {
           options: ["Mačka je pod stolom.", "Mačka je nad stolom.", "Mačka je pod stôl."],
           optionsLang: "sk",
           answer: 0,
+          why: "**Pod** means under (nad is above). Saying where something is, it takes the instrumental: stôl → **stolom**.",
+          ref: "u6-l5#6",
         },
         {
           type: "fill",
@@ -939,6 +1012,8 @@ export const unit6: Unit = {
           options: ["idete", "ideš", "idú"],
           answer: 0,
           en: "How are you getting home, Mrs Horváthová?",
+          why: "Pani Horváthová is a teacher, so use polite **vy**: id**ete**. Ideš is for a friend (ty), idú for oni.",
+          ref: "u1-l4#0",
         },
         { type: "speak", sk: "Dám si kávu s mliekom.", en: "I'll have coffee with milk." },
       ],

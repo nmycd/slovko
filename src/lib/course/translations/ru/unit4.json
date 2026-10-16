@@ -103,6 +103,10 @@
     "en": "Bratislava is the capital of Slovakia.",
     "t": "Братислава — столица Словакии."
   },
+  "u4-l1.7.why": {
+    "en": "The capital is the set phrase **hlavné mesto**. Hlavné has the neuter ending -é, which already rules out dedina, a feminine word.",
+    "t": "«Столица» — устойчивое выражение **hlavné mesto**, дословно «главный город». У hlavné окончание среднего рода -é, так что dedina, слово женского рода, сюда не подходит."
+  },
   "u4-l1.8.en": {
     "en": "bridge",
     "t": "мост"
@@ -110,6 +114,10 @@
   "u4-l1.9.question": {
     "en": "How do you say “The bridge is new”?",
     "t": "Как сказать «Мост новый»?"
+  },
+  "u4-l1.9.why": {
+    "en": "Most ends in a consonant, so it's masculine and the adjective takes **-ý**, after je too. Nová is for feminine words, nové for neuter ones.",
+    "t": "Most на согласный — мужского рода, как и «мост», поэтому прилагательное на **-ý**, и после je тоже. Nová — для женского рода, nové — для среднего."
   },
   "u4-l1.10.en": {
     "en": "river",
@@ -122,6 +130,10 @@
   "u4-l1.11.en": {
     "en": "The Danube is long.",
     "t": "Дунай длинный."
+  },
+  "u4-l1.11.why": {
+    "en": "Dunaj ends in a consonant, so it's masculine and takes **-ý**: dlh**ý**. Dlhá goes with rieka, which is feminine, but here the subject is Dunaj.",
+    "t": "Dunaj на согласный — мужского рода, как и «Дунай», поэтому **-ý**: dlh**ý**. Dlhá подошло бы к rieka (женский род), но здесь речь о Dunaj."
   },
   "u4-l1.12.en": {
     "en": "Lucia, where's the castle?",
@@ -239,6 +251,10 @@
     "en": "Excuse me, where's the bank?",
     "t": "Извините, где банк?"
   },
+  "u4-l2.7.why": {
+    "en": "Banka is one thing (ona), so the verb is **je**: Kde je…? works for any one place. Sú goes with oni, ony, and som with ja.",
+    "t": "Banka — одна вещь (ona), поэтому глагол **je**: Kde je…? подходит к любому одному месту. Sú — для oni, ony, а som — для ja."
+  },
   "u4-l2.8.en": {
     "en": "(to the) left – (to the) right",
     "t": "налево – направо"
@@ -291,9 +307,17 @@
     "en": "Hi Tomáš! Go straight on, then left.",
     "t": "Привет, Томаш! Иди прямо, потом налево."
   },
+  "u4-l2.14.why": {
+    "en": "Ahoj and a first name mean a friend, so use the ty form **Choď**. Choďte is for vy: a stranger or a group.",
+    "t": "Ahoj и имя — значит, это друг, поэтому форма на ty: **Choď**. Choďte — для vy: незнакомому человеку или компании."
+  },
   "u4-l2.15.en": {
     "en": "The museum is new.",
     "t": "Музей новый."
+  },
+  "u4-l2.15.why": {
+    "en": "Múzeum is neuter, like kino and divadlo, even though it ends in -um. So the adjective takes **-é**, after je too.",
+    "t": "Múzeum — среднего рода, как kino и divadlo, хотя оканчивается на -um (а «музей» — мужского). Поэтому прилагательное на **-é**, и после je тоже."
   },
   "u4-l2.16.answers": {
     "en": [
@@ -431,6 +455,10 @@
     "en": "Ivan is a waiter and Mária is a shop assistant.",
     "t": "Иван — официант, а Мария — продавщица."
   },
+  "u4-l3.6.why": {
+    "en": "Mária is a woman, so the job takes the feminine **-ka**: predavač → predavač**ka**, like študent → študentka.",
+    "t": "Мария — женщина, поэтому профессия в женском роде, с **-ka**: predavač → predavač**ka**, как študent → študentka."
+  },
   "u4-l3.7.en": {
     "en": "driver",
     "t": "водитель, шофёр"
@@ -486,6 +514,10 @@
   "u4-l3.14.question": {
     "en": "How do you ask a stranger what they do?",
     "t": "Как спросить незнакомого человека, кем он работает?"
+  },
+  "u4-l3.14.why": {
+    "en": "A stranger gets **vy**, so the verb ends in **-te**: robí**te**. Čo robíš? is for a friend (ty).",
+    "t": "К незнакомому человеку — на **vy**, поэтому глагол на **-te**: robí**te**. Čo robíš? — для друга (ty)."
   },
   "u4-l3.15.answers": {
     "en": [
@@ -617,9 +649,17 @@
     "en": "Those churches are old.",
     "t": "Те церкви старые."
   },
+  "u4-l4.1.why": {
+    "en": "Tie and sú show it's more than one, and masculine kostol adds **-y** in the plural: kostol**y**.",
+    "t": "Tie и sú показывают, что их несколько, а kostol (мужской род) во множественном числе получает **-y**: kostol**y**."
+  },
   "u4-l4.2.en": {
     "en": "The villages are small.",
     "t": "Деревни маленькие."
+  },
+  "u4-l4.2.why": {
+    "en": "Dediny is plural, and in the plural adjectives for places and things end in **-é**. Malá is the singular: dedina je malá.",
+    "t": "Dediny — множественное число, а прилагательные к местам и вещам во множественном числе оканчиваются на **-é**. Malá — единственное число: dedina je malá."
   },
   "u4-l4.3.prompt": {
     "en": "The squares are pretty.",
@@ -753,13 +793,25 @@
     "en": "Marek and Peter are cooks.",
     "t": "Марек и Петер — повара."
   },
+  "u4-l4.7.why": {
+    "en": "Marek and Peter are two men, so it's the men's plural in **-i**: kuchár**i**. Kuchárky is for women, kuchár for one man.",
+    "t": "Марек и Петер — двое мужчин, поэтому мужское множественное число на **-i**: kuchár**i**. Kuchárky — для женщин, kuchár — для одного мужчины."
+  },
   "u4-l4.8.en": {
     "en": "Those waiters are young.",
     "t": "Те официанты молодые."
   },
+  "u4-l4.8.why": {
+    "en": "Čašníci are men, and in the plural adjectives for men end in **-í**, just like tí. Mladé is for women and things.",
+    "t": "Čašníci — мужчины, а во множественном числе прилагательные к мужчинам оканчиваются на **-í**, как и tí. Mladé — для женщин и вещей."
+  },
   "u4-l4.9.question": {
     "en": "How do you say “Emma and Lucia are students”?",
     "t": "Как сказать «Эмма и Луция — студентки»?"
+  },
+  "u4-l4.9.why": {
+    "en": "Two women take the women's plural **-y**: študentk**y**, with sú. Študenti would mean men or a mixed group; je študentka is just one.",
+    "t": "Две женщины — женское множественное число на **-y**: študentk**y**, с sú. Študenti — это мужчины или смешанная группа, а je študentka — одна студентка."
   },
   "u4-l4.10.prompt": {
     "en": "Tomáš and Marek are not journalists.",
@@ -772,6 +824,10 @@
   "u4-l4.12.en": {
     "en": "Lucia and Tomáš are Slovaks.",
     "t": "Луция и Томаш — словаки."
+  },
+  "u4-l4.12.why": {
+    "en": "A mixed group of men and women counts as men, so it takes the men's plural: Slovák → **Slováci**. Slovenky would mean women only.",
+    "t": "Смешанная группа мужчин и женщин — как мужчины, поэтому мужское множественное число: Slovák → **Slováci**. Slovenky — только женщины."
   },
   "u4-l4.13.en": {
     "en": "Those bridges are new.",
@@ -861,13 +917,25 @@
     "en": "The town has two bridges.",
     "t": "В городе два моста."
   },
+  "u4-l5.1.why": {
+    "en": "You're counting bridges, and most is masculine, so two is **dva**. Dve is for feminine and neuter words like mesto, but mesto isn't what's counted.",
+    "t": "Считаем мосты, а most — мужского рода, поэтому **dva**, как «два моста». Dve — для женского и среднего рода, как mesto, но считаем ведь не mesto."
+  },
   "u4-l5.2.en": {
     "en": "There are two cafés here.",
     "t": "Здесь две кофейни."
   },
+  "u4-l5.2.why": {
+    "en": "Kaviareň is feminine, even though it ends in a consonant, so two is **dve**. Dva is only for masculine words.",
+    "t": "Kaviareň — женского рода, хотя оканчивается на согласный, поэтому **dve** (две). Dva — только для мужского рода."
+  },
   "u4-l5.3.question": {
     "en": "How do you say “two towns”?",
     "t": "Как сказать «два города»?"
+  },
+  "u4-l5.3.why": {
+    "en": "Mesto is neuter, so two is **dve**, and after 2, 3 and 4 the noun is plural: mest**á**.",
+    "t": "Mesto — среднего рода, а со средним родом «два» — **dve** (хотя по-русски «два окна»). После 2, 3 и 4 — множественное число: mest**á**."
   },
   "u4-l5.4.prompt": {
     "en": "There are four bridges here.",
@@ -953,13 +1021,25 @@
     "en": "There are two waiters over there.",
     "t": "Там двое официантов."
   },
+  "u4-l5.7.why": {
+    "en": "When you count men, two is **dvaja**, and the noun takes the men's plural: čašníci. Dva is for masculine things, like dva mosty.",
+    "t": "Когда считают мужчин, «два» — **dvaja** (ср. «двое»), а существительное в мужском множественном числе: čašníci. Dva — для вещей мужского рода, как dva mosty."
+  },
   "u4-l5.8.en": {
     "en": "Lucia has three friends.",
     "t": "У Луции три подруги."
   },
+  "u4-l5.8.why": {
+    "en": "Kamarátky are women, and women keep **tri**. Traja is only for men or a mixed group.",
+    "t": "Kamarátky — женщины, а для женщин остаётся **tri**. Traja — только для мужчин или смешанной группы."
+  },
   "u4-l5.9.question": {
     "en": "Which one is correct?",
     "t": "Какой вариант правильный?"
+  },
+  "u4-l5.9.why": {
+    "en": "Counting men takes **traja**, with the men's plural kuchári. Women keep tri: tri kuchárky. So tri kuchári and traja kuchárky both mix the two.",
+    "t": "Мужчин считают с **traja** (ср. «трое»), и существительное в мужском множественном: kuchári. Для женщин — tri kuchárky. Tri kuchári и traja kuchárky смешивают одно с другим."
   },
   "u4-l5.10.prompt": {
     "en": "Two waiters and two waitresses.",
@@ -1152,13 +1232,25 @@
     "en": "How much is it?",
     "t": "Сколько это стоит?"
   },
+  "u4-l6.2.why": {
+    "en": "To (it) is one thing, so the verb is **stojí**. Stoja is for two or more things, stojím for ja.",
+    "t": "To (это) — одна вещь, поэтому глагол **stojí** (стоит). Stoja — для двух и больше вещей, stojím — для ja."
+  },
   "u4-l6.3.en": {
     "en": "The phone costs a hundred euros.",
     "t": "Телефон стоит сто евро."
   },
+  "u4-l6.3.why": {
+    "en": "The verb agrees with mobil, one thing, not with the euros: mobil **stojí**. Stoja is for two or more things.",
+    "t": "Глагол согласуется с mobil, одной вещью, а не с евро: mobil **stojí**, как «телефон стоит». Stoja — для двух и больше вещей."
+  },
   "u4-l6.4.question": {
     "en": "How do you say “five euros”?",
     "t": "Как сказать «пять евро»?"
+  },
+  "u4-l6.4.why": {
+    "en": "From five up, euro takes the special short form **eur**. Eurá is only for 2, 3 and 4.",
+    "t": "Начиная с пяти, у euro особая краткая форма **eur** (родительный падеж, как в «пять городов»). Eurá — только после 2, 3 и 4."
   },
   "u4-l6.5.prompt": {
     "en": "The coffee costs three euros.",
@@ -1171,6 +1263,10 @@
   "u4-l6.7.en": {
     "en": "We're standing here.",
     "t": "Мы стоим тут."
+  },
+  "u4-l6.7.why": {
+    "en": "With **my** (we) the verb ends in **-me**: stojí**me**. Stojíte goes with vy, stoja with oni.",
+    "t": "С **my** (мы) глагол оканчивается на **-me**: stojí**me** (стоим). Stojíte — с vy, stoja — с oni."
   },
   "u4-l6.8.title": {
     "en": "Always plural",
@@ -1296,9 +1392,17 @@
     "en": "Those trousers are expensive.",
     "t": "Те брюки дорогие."
   },
+  "u4-l6.10.why": {
+    "en": "Nohavice is always plural, even for one pair of trousers, so it takes **sú**. Tie and drahé are plural too.",
+    "t": "Nohavice — только множественное число, даже про одни брюки, как и «брюки». Поэтому **sú**. Tie и drahé тоже во множественном числе."
+  },
   "u4-l6.11.en": {
     "en": "The glasses cost ten euros.",
     "t": "Очки стоят десять евро."
+  },
+  "u4-l6.11.why": {
+    "en": "Okuliare is always plural, even for one pair of glasses, so the verb is plural too: **stoja**.",
+    "t": "Okuliare — только множественное число, даже про одни очки, как и «очки». Поэтому и глагол во множественном: **stoja**."
   },
   "u4-l6.12.prompt": {
     "en": "Where is my watch?",
@@ -1352,6 +1456,10 @@
     "en": "Excuse me, where's the post office? — It's opposite.",
     "t": "Извините, где почта? — Напротив."
   },
+  "u4-l7.2.why": {
+    "en": "With **je** you ask about one place, so use the basic form **pošta**. Pošty is the plural and would need sú.",
+    "t": "С **je** спрашивают об одном месте, поэтому нужна начальная форма **pošta**. Pošty — множественное число, с ним было бы sú."
+  },
   "u4-l7.3.prompt": {
     "en": "Marek is a cook and Lucia is a student.",
     "t": "Марек — повар, а Луция — студентка."
@@ -1364,13 +1472,25 @@
     "en": "Those cafés are expensive.",
     "t": "Те кафе дорогие."
   },
+  "u4-l7.5.why": {
+    "en": "Kaviarne is a plural of things, so the adjective ends in **-é**. Drahí is only for men, drahá for one feminine thing.",
+    "t": "Kaviarne — множественное число, это вещи, поэтому прилагательное на **-é**. Drahí — только для мужчин, drahá — для одной вещи женского рода."
+  },
   "u4-l7.6.en": {
     "en": "Those journalists are young.",
     "t": "Те журналисты молодые."
   },
+  "u4-l7.6.why": {
+    "en": "Novinári are men, so in the plural the adjective ends in **-í**, matching tí. Mladé is for women and things.",
+    "t": "Novinári — мужчины, поэтому во множественном числе прилагательное на **-í**, как и tí. Mladé — для женщин и вещей."
+  },
   "u4-l7.7.question": {
     "en": "How do you say “three waiters”?",
     "t": "Как сказать «трое официантов»?"
+  },
+  "u4-l7.7.why": {
+    "en": "Counting men takes **traja**, and the noun takes the men's plural: čašník → čašní**ci**.",
+    "t": "Мужчин считают с **traja** (ср. «трое»), а существительное стоит в мужском множественном: čašník → čašní**ci**."
   },
   "u4-l7.8.prompt": {
     "en": "The town has three churches and two theatres.",
@@ -1383,6 +1503,10 @@
   "u4-l7.10.en": {
     "en": "How much are those glasses?",
     "t": "Сколько стоят эти очки?"
+  },
+  "u4-l7.10.why": {
+    "en": "Okuliare only exists in the plural, so even one pair takes the plural verb **stoja**. Stojí is for one thing.",
+    "t": "Okuliare бывает только во множественном числе, как и «очки», поэтому даже с одними очками глагол во множественном: **stoja**. Stojí — для одной вещи."
   },
   "u4-l7.11.answers": {
     "en": [
@@ -1411,6 +1535,10 @@
   "u4-l7.13.question": {
     "en": "Which word is always plural?",
     "t": "Какое слово бывает только во множественном числе?"
+  },
+  "u4-l7.13.why": {
+    "en": "**Nohavice** is plural only: one pair of trousers still takes sú and stoja. Kaviareň and rieka are ordinary feminine words, with plurals kaviarne and rieky.",
+    "t": "**Nohavice**, как и «брюки», — только множественное число: даже одни брюки — с sú и stoja. Kaviareň и rieka — обычные слова женского рода, во множественном kaviarne и rieky."
   },
   "u4-l7.14.prompt": {
     "en": "The bridge is new and the castle is old.",

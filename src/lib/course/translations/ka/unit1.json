@@ -51,6 +51,10 @@
     "en": "Emma walks into a bakery. What does she say?",
     "t": "ემა საცხობში შედის. რას ამბობს?"
   },
+  "u1-l1.2.why": {
+    "en": "In a shop, greet politely with **Dobrý deň**. Ahoj! is only for friends, family and children.",
+    "t": "მაღაზიაში თავაზიანად მიესალმეთ: **Dobrý deň**. Ahoj! მხოლოდ მეგობრებთან, ოჯახში და ბავშვებთან ითქმის."
+  },
   "u1-l1.3.en": {
     "en": "Good morning.",
     "t": "დილა მშვიდობისა."
@@ -125,13 +129,25 @@
     "en": "It's late and Lucia is going to bed. What do you say?",
     "t": "გვიანია და ლუცია დასაძინებლად მიდის. რას ეტყვით?"
   },
+  "u1-l1.11.why": {
+    "en": "**Dobrú noc** is for when someone goes to bed. Dobrý večer and Dobré ráno are greetings, said when you meet.",
+    "t": "**Dobrú noc** ამბობენ, როცა ვინმე დასაძინებლად მიდის. Dobrý večer და Dobré ráno მისალმებებია, შეხვედრისას ითქმის."
+  },
   "u1-l1.12.en": {
     "en": "Good morning, Emma!",
     "t": "დილა მშვიდობისა, ემა!"
   },
+  "u1-l1.12.why": {
+    "en": "Each greeting has its own ending: dobrý deň, **dobré** ráno, dobrú noc.",
+    "t": "ქართული „კარგი“ არ იცვლება, სლოვაკურ dobr-ს კი ყოველ მისალმებაში თავისი დაბოლოება აქვს: dobrý deň, **dobré** ráno, dobrú noc."
+  },
   "u1-l1.13.en": {
     "en": "Enjoy your meal, Tomáš!",
     "t": "გემრიელად მიირთვი, ტომაშ!"
+  },
+  "u1-l1.13.why": {
+    "en": "The ending -ú fits **chuť**, as in dobrú noc. Deň and večer take dobrý: dobrý deň, dobrý večer.",
+    "t": "დაბოლოება -ú სიტყვა **chuť**-ს შეეფერება, როგორც dobrú noc-ში. Deň და večer კი dobrý-ს იღებს: dobrý deň, dobrý večer."
   },
   "u1-l1.14.prompt": {
     "en": "Goodbye, Mrs Horváthová.",
@@ -173,6 +189,10 @@
     "en": "Lucia says “Ďakujem.” What's the natural reply?",
     "t": "ლუცია გეუბნებათ: „Ďakujem.“ რას უპასუხებთ?"
   },
+  "u1-l2.2.why": {
+    "en": "The usual reply to ďakujem is **Prosím**: here it means you're welcome.",
+    "t": "Ďakujem-ზე ჩვეულებრივ პასუხობენ **Prosím**: აქ ის ნიშნავს „არაფრის“."
+  },
   "u1-l2.3.en": {
     "en": "Here you go.",
     "t": "ინებეთ."
@@ -196,6 +216,10 @@
   "u1-l2.6.question": {
     "en": "Tomáš offers you a coffee, but you don't want one. What do you say?",
     "t": "ტომაში ყავას გთავაზობთ, მაგრამ არ გინდათ. რას ეტყვით?"
+  },
+  "u1-l2.6.why": {
+    "en": "Saying no to an offer is **Nie, ďakujem** (no, thank you). Áno, prosím (yes, please) would accept the coffee.",
+    "t": "შეთავაზებაზე უარი ასე ითქმის: **Nie, ďakujem** (არა, გმადლობთ). Áno, prosím (დიახ, გთხოვთ) ნიშნავს, რომ ყავაზე თანახმა ხართ."
   },
   "u1-l2.7.pairs": {
     "en": [
@@ -237,9 +261,17 @@
     "en": "Emma bumps into pán Kováč in the corridor. What does she say?",
     "t": "ემა დერეფანში შემთხვევით ბატონ კოვაჩს დაეჯახა. რას ეტყვის?"
   },
+  "u1-l2.11.why": {
+    "en": "Bumping into someone calls for sorry, and pán Kováč gets the polite form: **Prepáčte!** To a friend, you'd say Prepáč!",
+    "t": "ვინმეს რომ დაეჯახებით, ბოდიშს იხდით, ბატონ კოვაჩს კი თავაზიანი ფორმით მიმართავთ: **Prepáčte!** მეგობარს ეტყოდით Prepáč!"
+  },
   "u1-l2.12.en": {
     "en": "Sorry! — That's OK.",
     "t": "უკაცრავად! — არაუშავს."
+  },
+  "u1-l2.12.why": {
+    "en": "The set reply is **Nič** sa nestalo, literally “nothing happened”. Nie just means no.",
+    "t": "მზა პასუხია **Nič** sa nestalo, სიტყვასიტყვით „არაფერი მომხდარა“. Nie უბრალოდ „არა“-ს ნიშნავს."
   },
   "u1-l2.13.en": {
     "en": "Cheers! / Bless you!",
@@ -342,6 +374,10 @@
     "en": "Hi! How are you, Tomáš?",
     "t": "სალამი! როგორ ხარ, ტომაშ?"
   },
+  "u1-l3.6.why": {
+    "en": "You're asking Tomáš about himself, so it's **máš** (you). Mám is for “I”: Mám sa dobre = I'm fine.",
+    "t": "ტომაშს მის შესახებ ეკითხებით, ამიტომ საჭიროა **máš** (შენ). Mám „მე“-ს ფორმაა: Mám sa dobre = კარგად ვარ."
+  },
   "u1-l3.7.en": {
     "en": "I'm great, and you?",
     "t": "მშვენივრად ვარ, და შენ?"
@@ -378,9 +414,17 @@
     "en": "Tomáš says “Teší ma.” What do you answer?",
     "t": "ტომაში ამბობს: „Teší ma.“ რას უპასუხებთ?"
   },
+  "u1-l3.12.why": {
+    "en": "Teší ma is literally “it pleases me”, so the reply is **Aj mňa**, “me too”.",
+    "t": "Teší ma სიტყვასიტყვით ნიშნავს „მსიამოვნებს“, ამიტომ პასუხია **Aj mňa**, ანუ „მეც“."
+  },
   "u1-l3.13.en": {
     "en": "Hi! What's your name? — My name is Lucia.",
     "t": "სალამი! რა გქვია? — ლუცია მქვია."
+  },
+  "u1-l3.13.why": {
+    "en": "The reply gives a name, so the question needs **voláš** (What's your name?). Ako sa máš? asks how someone is.",
+    "t": "პასუხში სახელია, ამიტომ კითხვას სჭირდება **voláš** (რა გქვია?). Ako sa máš? კი კითხულობს, როგორ ხარ."
   },
   "u1-l3.14.answers": {
     "en": [
@@ -507,13 +551,25 @@
     "en": "Emma meets pani Horváthová, her teacher. Which question fits?",
     "t": "ემა ხვდება თავის მასწავლებელს, ქალბატონ ჰორვატოვას. რომელი კითხვაა შესაფერისი?"
   },
+  "u1-l4.1.why": {
+    "en": "A teacher gets **vy**, so the verb ends in **-te**: má**te**. Máš is the ty form, for friends and family.",
+    "t": "მასწავლებელს **vy**-თი (თქვენ) მიმართავენ, ამიტომ ზმნა **-te**-ზე ბოლოვდება: má**te**. Máš ty-ს (შენ) ფორმაა, მეგობრებისა და ოჯახისთვის."
+  },
   "u1-l4.2.en": {
     "en": "Hi, Tomáš! How are you?",
     "t": "სალამი, ტომაშ! როგორ ხარ?"
   },
+  "u1-l4.2.why": {
+    "en": "Ahoj and a friend's name mean **ty**, so the verb ends in **-š**: má**š**. Máte is for vy.",
+    "t": "Ahoj და მეგობრის სახელი ნიშნავს, რომ **ty**-ით (შენ) ლაპარაკობთ, ამიტომ ზმნა **-š**-ზე ბოლოვდება: má**š**. Máte vy-სთვისაა."
+  },
   "u1-l4.3.en": {
     "en": "Hello. What's your name?",
     "t": "გამარჯობათ. რა გქვიათ?"
+  },
+  "u1-l4.3.why": {
+    "en": "**Dobrý deň** is the polite hello, so ask with vy: the verb ends in **-te**, volá**te**.",
+    "t": "**Dobrý deň** თავაზიანი მისალმებაა, ამიტომ vy-თი (თქვენ) იკითხეთ: ზმნა **-te**-ზე ბოლოვდება, volá**te**."
   },
   "u1-l4.4.prompt": {
     "en": "Do you speak Slovak? (polite)",
@@ -522,6 +578,10 @@
   "u1-l4.5.question": {
     "en": "Emma meets Lucia and Tomáš together. How does she ask how they are?",
     "t": "ემა ერთად ხვდება ლუციას და ტომაშს. როგორ ჰკითხავს, როგორ არიან?"
+  },
+  "u1-l4.5.why": {
+    "en": "**Vy** is also for a group, even of friends, so the verb ends in **-te**: má**te**. Máš is for one friend.",
+    "t": "ქართული „თქვენ“-ის მსგავსად, **vy** ჯგუფსაც ეხება, თუნდაც მეგობრებს, ამიტომ ზმნა **-te**-ზე ბოლოვდება: má**te**. Máš ერთი მეგობრისთვისაა."
   },
   "u1-l4.6.title": {
     "en": "Same phrase, ty or vy",
@@ -621,9 +681,17 @@
     "en": "Lucia says “Dobrú noc!” What does Emma answer?",
     "t": "ლუცია ამბობს: „Dobrú noc!“ რას უპასუხებს ემა?"
   },
+  "u1-l4.7.why": {
+    "en": "Lucia is Emma's friend, so Emma uses ty: Aj **tebe**. Aj vám is for vy.",
+    "t": "ლუცია ემას მეგობარია, ამიტომ ემა ty-ს (შენ) იყენებს: Aj **tebe**. Aj vám vy-სთვისაა (თქვენ)."
+  },
   "u1-l4.8.en": {
     "en": "Enjoy your meal, Emma! — Thank you, you too, Mrs Horváthová.",
     "t": "გემრიელად მიირთვი, ემა! — გმადლობთ, თქვენც, ქალბატონო ჰორვატოვა."
+  },
+  "u1-l4.8.why": {
+    "en": "Pani Horváthová is Emma's teacher, so Emma uses vy: aj **vám**. Aj tebe is for friends.",
+    "t": "ქალბატონი ჰორვატოვა ემას მასწავლებელია, ამიტომ ემა vy-ს (თქვენ) იყენებს: aj **vám**. Aj tebe მეგობრებისთვისაა."
   },
   "u1-l4.9.prompt": {
     "en": "Take care, Lucia!",
@@ -632,6 +700,10 @@
   "u1-l4.10.en": {
     "en": "Hi, Emma! Welcome to Slovakia!",
     "t": "სალამი, ემა! კეთილი იყოს შენი მობრძანება სლოვაკეთში!"
+  },
+  "u1-l4.10.why": {
+    "en": "Ahoj and one friend, Emma, mean ty: **Vitaj**. Vitajte, with -te, is for vy or a group.",
+    "t": "Ahoj და ერთი მეგობარი, ემა, ნიშნავს ty-ს (შენ): **Vitaj**. Vitajte, -te-თი, vy-სთვის ან ჯგუფისთვისაა."
   },
   "u1-l4.11.pairs": {
     "en": [
@@ -887,6 +959,10 @@
     "en": "Which phrase has the “sh” sound?",
     "t": "რომელ ფრაზაში ისმის „შ“?"
   },
+  "u1-l5.2.why": {
+    "en": "**š** is the “sh” in “ship”: Te**š**í ma. The č in Čau! is the “ch” in “chip”.",
+    "t": "**š** ქართული „შ“-ა: Te**š**í ma. Čau!-ში č კი „ჩ“-ა."
+  },
   "u1-l5.3.question": {
     "en": "Which syllable is stressed?",
     "t": "რომელ მარცვალზე მოდის მახვილი?"
@@ -903,17 +979,33 @@
       "-de-"
     ]
   },
+  "u1-l5.3.why": {
+    "en": "Stress is always on the first syllable, even in a long word: **Do**videnia.",
+    "t": "მახვილი ყოველთვის პირველ მარცვალზეა, გრძელ სიტყვაშიც: **Do**videnia."
+  },
   "u1-l5.4.en": {
     "en": "I'm fine.",
     "t": "კარგად ვარ."
+  },
+  "u1-l5.4.why": {
+    "en": "With a short e, **dobre** means fine or well: Mám sa dobre. Dobré, with a long é, goes with ráno.",
+    "t": "მოკლე e-თი **dobre** ნიშნავს „კარგად“: Mám sa dobre. Dobré, გრძელი é-თი, ráno-სთან დგას."
   },
   "u1-l5.5.en": {
     "en": "Good morning!",
     "t": "დილა მშვიდობისა!"
   },
+  "u1-l5.5.why": {
+    "en": "Good morning has a long é: **Dobré** ráno. Dobre, with a short e, means fine: Mám sa dobre.",
+    "t": "„დილა მშვიდობისა“ გრძელი é-თი იწერება: **Dobré** ráno. Dobre, მოკლე e-თი, ნიშნავს „კარგად“: Mám sa dobre."
+  },
   "u1-l5.6.question": {
     "en": "Which word has a soft ň?",
     "t": "რომელ სიტყვაშია რბილი ň?"
+  },
+  "u1-l5.6.why": {
+    "en": "The hook (mäkčeň) on n makes it soft, like “ny” in “canyon”: de**ň**. Noc and ráno have a plain n.",
+    "t": "ნიშანი mäkčeň n-ს არბილებს, თითქოს მას მოკლე „ი“ მოსდევდეს: de**ň**. Noc-სა და ráno-ში ჩვეულებრივი n-ია."
   },
   "u1-l5.7.en": {
     "en": "Thank you, good night.",
@@ -963,9 +1055,17 @@
       "სამი"
     ]
   },
+  "u1-l5.9.why": {
+    "en": "**ie** glides together into one syllable, so N**ie** has just one, like Na zdrav**ie**.",
+    "t": "**ie** ერთ მარცვლად წარმოითქმის, ამიტომ N**ie**-ში მხოლოდ ერთი მარცვალია, როგორც Na zdrav**ie**-ში."
+  },
   "u1-l5.10.question": {
     "en": "Which word has ô, the “wo” sound?",
     "t": "რომელ სიტყვაშია ô, ანუ ბგერა „უო“?"
+  },
+  "u1-l5.10.why": {
+    "en": "**ô** sounds like “wo”: st**ô**l sounds like “stwol”. Päť has ä, like the e in “bed”.",
+    "t": "**ô** ჟღერს როგორც „უო“: st**ô**l ≈ „სტუოლ“. Päť-ში კი ä-ა, რომელიც „ე“-სავით ჟღერს."
   },
   "u1-l5.11.pairs": {
     "en": [
@@ -1003,6 +1103,10 @@
     "en": "You meet pani Horváthová early in the morning. What do you say?",
     "t": "დილით ადრე ქალბატონ ჰორვატოვას ხვდებით. რას ეტყვით?"
   },
+  "u1-l6.0.why": {
+    "en": "Early in the morning, say **Dobré ráno**, polite enough for a teacher. Ahoj! is only for friends, and Dobrú noc is for bedtime.",
+    "t": "დილით ადრე თქვით **Dobré ráno**: მასწავლებელთანაც საკმარისად თავაზიანია. Ahoj! მხოლოდ მეგობრებისთვისაა, Dobrú noc კი ძილის წინ ითქმის."
+  },
   "u1-l6.1.prompt": {
     "en": "Hi, Lucia! How are you?",
     "t": "სალამი, ლუცია! როგორ ხარ?"
@@ -1014,6 +1118,10 @@
   "u1-l6.3.en": {
     "en": "Good night, Emma! — You too, Lucia.",
     "t": "ღამე მშვიდობისა, ემა! — შენც, ლუცია."
+  },
+  "u1-l6.3.why": {
+    "en": "Lucia is a friend, so use ty: Aj **tebe**. Aj vám is for vy: teachers, strangers or a group.",
+    "t": "ლუცია მეგობარია, ამიტომ ty (შენ): Aj **tebe**. Aj vám vy-სთვისაა (თქვენ): მასწავლებლის, უცნობის ან ჯგუფისთვის."
   },
   "u1-l6.4.pairs": {
     "en": [
@@ -1066,9 +1174,17 @@
       "როცა ვინმე აცემინებს"
     ]
   },
+  "u1-l6.6.why": {
+    "en": "Said as a question, **Prosím?** means Pardon? On its own, prosím is please or you're welcome.",
+    "t": "კითხვის ინტონაციით **Prosím?** ნიშნავს „რა ბრძანეთ?“. უბრალოდ prosím კი ნიშნავს „გთხოვთ“ ან „არაფრის“."
+  },
   "u1-l6.7.en": {
     "en": "Hello, Mr Kováč. How are you?",
     "t": "გამარჯობათ, ბატონო კოვაჩ. როგორ ხართ?"
+  },
+  "u1-l6.7.why": {
+    "en": "Pán Kováč gets vy (note the polite Dobrý deň), so the verb ends in **-te**: má**te**.",
+    "t": "ბატონ კოვაჩს vy-თი (თქვენ) მიმართავენ (შეხედეთ თავაზიან Dobrý deň-ს), ამიტომ ზმნა **-te**-ზე ბოლოვდება: má**te**."
   },
   "u1-l6.8.en": {
     "en": "How are you? (polite)",
@@ -1085,6 +1201,10 @@
   "u1-l6.11.question": {
     "en": "Which one means “Hi, everyone!”?",
     "t": "რომელი ნიშნავს „სალამი ყველას!“?"
+  },
+  "u1-l6.11.why": {
+    "en": "For a group of friends, add **-te**: Ahoj**te**! Ahoj! is for one friend, and Maj sa! means take care.",
+    "t": "მეგობრების ჯგუფისთვის დაუმატეთ **-te**: Ahoj**te**! Ahoj! ერთი მეგობრისთვისაა, Maj sa! კი ნიშნავს „კარგად იყავი“."
   },
   "u1-l6.12.prompt": {
     "en": "My name is Emma. Nice to meet you.",

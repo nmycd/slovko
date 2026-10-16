@@ -62,8 +62,8 @@ nickname, but not the book's Zuzana Šoltýsová).
 | --- | --- | --- |
 | `intro` | A new word or phrase | `sk`, `en`, optional short `note` (1–2 sentences; may use `**highlight**`). One of up to three words is a review word: tag it in `lexicon.ts` (see CONTENT-PIPELINE.md, stage 2). |
 | `grammar` | Explaining a rule | `title`; `body` 1–3 short paragraphs of plain English; optional `table` (≤8 rows, 2–4 columns, `head` optional); 2–4 `examples` (each is voiced). Wrap endings in `**…**`: `študent**ka**`. Markup only here and in intro notes. |
-| `choice` | Recognition | English `question`; 3 options (2–4 allowed); `optionsLang` says which language the options are in; optional `sk` shows and plays a Slovak phrase. |
-| `fill` | Endings, forms, small words | `before` + gap + `after`; 2–4 options that are real forms (e.g. `študent` / `študentka` / `študenti`); `en` is the translation of the full sentence. |
+| `choice` | Recognition | English `question`; 3 options (2–4 allowed); `optionsLang` says which language the options are in; optional `sk` shows and plays a Slovak phrase; optional `why` (see "Explanations after a wrong answer"). |
+| `fill` | Endings, forms, small words | `before` + gap + `after`; 2–4 options that are real forms (e.g. `študent` / `študentka` / `študenti`); `en` is the translation of the full sentence; optional `why` (see "Explanations after a wrong answer"). |
 | `build` | Producing sentences | `answers[0]` is split into word tiles (punctuation dropped), so it must be buildable from its own words. Add alternative correct answers (e.g. with/without the pronoun). `distractors`: 1–3 single words that are **not** in `answers[0]`, plausibly wrong (wrong ending, gender, case). For `promptLang: "sk"`, answers are English. |
 | `listen` | Hearing | A short sentence (≤8 words) typed back; checking forgives missing accents. |
 | `speak` | Pronunciation | ≤6 words, a common phrase. |
@@ -103,6 +103,41 @@ Example:
   ],
 }
 ```
+
+## Explanations after a wrong answer (`why`)
+
+A `choice` or `fill` exercise can carry a `why`: a sentence or two shown under the
+correct answer when the learner picks a wrong one.
+
+- **Write one when the answer follows from something the learner can reason
+  about**: a grammar rule (an ending, case, gender, person, tense, sa or si, word
+  order, agreement), how a set phrase is built (dať **si** kávu, kliknúť **na**), or
+  a contrast that's easy to mix up (zamestnanie, the job, and zamestnávateľ, the
+  employer).
+- **Leave it out when the exercise only checks a word's meaning** ("What does this
+  mean? Tomáš otvoril súbor."). The correct answer already says everything.
+- Name the rule, then show it in the exercise's own sentence. If a wrong option is
+  tempting, say in a few words why it doesn't fit.
+- Plain English, about 30 words at most, with the terms the grammar cards use (the
+  object form, the past tense, ja, ty, on…). Bold the key form with `**…**`.
+- Don't repeat the whole correct answer just to show it: the footer shows it.
+- Point it to the grammar card it rests on with `ref: "lessonId#index"` (the index
+  as written), a card in the same lesson before the exercise or in an earlier one.
+  The learner gets "See the rule", which opens that card over the lesson. Leave
+  `ref` out when no card states the rule; the course check rejects a later card.
+- Each native language gets its own explanation, written for its speakers, not a
+  translation: a Ukrainian or Russian reader learns sa from -ся, an Uzbek reader
+  the object form from -ni (see TRANSLATING.md). `npm run i18n:sync` adds the
+  empty entries.
+
+From unit 9:
+
+| Exercise | `why` |
+|---|---|
+| Which one means "Tomáš is washing (himself)"? | Washing yourself, with no object, takes **sa**: Tomáš **sa** umýva. **Si** needs something after it: umýva si ruky. |
+| Tomáš dostal ___ na konferenciu. (pozvánku) | The invitation is what Tomáš got, the object, so pozvánka changes -a to **-u**: dostal **pozvánku**. |
+| Aká je vaša ___? (národnosť) | Nationality is **národnosť**. It's also the only feminine word here, which fits **aká** and **vaša**. |
+| What does this mean? Tomáš otvoril súbor. | (none: it only checks the word) |
 
 ## Language quality
 

@@ -105,6 +105,10 @@
     "en": "How much is the coffee?",
     "t": "რა ღირს ყავა?"
   },
+  "u5-l1.10.why": {
+    "en": "Káva is one thing, so stáť takes the one-thing form: **stojí**. Stoja is for two or more things, stojím for ja.",
+    "t": "Káva ერთი რამაა, ამიტომ stáť ერთი ნივთის ფორმას იღებს: **stojí**. Stoja ორი ან მეტი ნივთისთვისაა, stojím — ja-სთვის."
+  },
   "u5-l1.11.question": {
     "en": "What does this mean?",
     "t": "რას ნიშნავს?"
@@ -159,6 +163,10 @@
   "u5-l1.15.en": {
     "en": "We have cheese, but we don't have butter.",
     "t": "ყველი გვაქვს, მაგრამ კარაქი არ გვაქვს."
+  },
+  "u5-l1.15.why": {
+    "en": "To say not, put **ne-** on the verb as one word: máme → **nemáme**. Nie sme is the not form of byť (we aren't), and nemajú is for oni.",
+    "t": "„არ“-ის სათქმელად ზმნას ერთ სიტყვად დაურთეთ **ne-**: máme → **nemáme**. Nie sme byť-ის უარყოფაა („არ ვართ“), nemajú კი oni-სთვისაა."
   },
   "u5-l1.16.en": {
     "en": "Do you have fresh bread?",
@@ -256,6 +264,10 @@
     "en": "I need coffee.",
     "t": "ყავა მჭირდება."
   },
+  "u5-l2.1.why": {
+    "en": "Coffee is what you need, the object, so it takes the accusative: feminine nouns change -a to **-u**, káva → **kávu**.",
+    "t": "ყავა ობიექტია (რა გჭირდებათ?), ამიტომ akuzatív-ში (ბრალდებით ბრუნვაში) დგება. ქართულშიც ობიექტი იცვლება (ყავა → ყავას), აქ კი -a ხდება **-u**: **kávu**."
+  },
   "u5-l2.2.title": {
     "en": "Adjectives change too",
     "t": "ზედსართავიც იცვლება"
@@ -332,6 +344,10 @@
     "en": "I'm looking for fresh ham.",
     "t": "ახალ ლორს ვეძებ."
   },
+  "u5-l2.3.why": {
+    "en": "An adjective agrees with its noun. Šunku is a feminine object, so čerstvá changes -á to **-ú**: **čerstvú**. Čerstvý is the masculine form.",
+    "t": "ზედსართავი თავის არსებით სახელს ეთანხმება. Šunku მდედრობითი ობიექტია, ამიტომ čerstvá -á-ს **-ú**-თი ცვლის: **čerstvú**. Čerstvý მამრობითი ფორმაა."
+  },
   "u5-l2.4.prompt": {
     "en": "I'll buy coffee and butter.",
     "t": "ყავას და კარაქს ვიყიდი."
@@ -340,9 +356,17 @@
     "en": "Which sentence is correct?",
     "t": "რომელი წინადადებაა სწორი?"
   },
+  "u5-l2.5.why": {
+    "en": "After potrebovať, the object goes into the accusative: feminine nouns change -a to **-u**, so minerálka → **minerálku**.",
+    "t": "potrebovať-ის შემდეგ ობიექტი akuzatív-ში დგება: მდედრობითი სახელები -a-ს **-u**-თი ცვლის, ამიტომ minerálka → **minerálku**."
+  },
   "u5-l2.6.en": {
     "en": "We have good wine.",
     "t": "კარგი ღვინო გვაქვს."
+  },
+  "u5-l2.6.why": {
+    "en": "Víno is neuter, and neuter nouns don't change as objects, so the adjective stays **dobré**. Dobrú is for feminine nouns, dobrého for male people.",
+    "t": "Víno საშუალო სქესისაა, საშუალო სქესის სახელები კი ობიექტად არ იცვლება, ამიტომ ზედსართავიც რჩება **dobré**. Dobrú მდედრობითი სახელებისთვისაა, dobrého — კაცებისთვის."
   },
   "u5-l2.7.en": {
     "en": "I'll buy coffee and fresh bread.",
@@ -424,9 +448,17 @@
     "en": "Lucia has a brother.",
     "t": "ლუციას ძმა ჰყავს."
   },
+  "u5-l2.9.why": {
+    "en": "A brother is a person and the object of má, so the masculine noun adds **-a**: brat → **brata**. Only masculine things stay the same.",
+    "t": "ძმა ადამიანია და má-ს ობიექტი, ამიტომ მამრობითი სახელი **-a**-ს იღებს: brat → **brata**. უცვლელი მხოლოდ მამრობითი სქესის ნივთები რჩება."
+  },
   "u5-l2.10.question": {
     "en": "Which answer fits the question?",
     "t": "რომელი პასუხი შეესაბამება კითხვას?"
+  },
+  "u5-l2.10.why": {
+    "en": "**Koho?** (whom?) asks about a person, so the answer names one: Marek → **Mareka**. Syr and kávu are things, which answer **Čo?**",
+    "t": "**Koho?** (ვის?) ადამიანზე კითხულობს, ამიტომ პასუხშიც ადამიანია: Marek → **Mareka**. Syr და kávu ნივთებია, ისინი **Čo?**-ს (რას?) პასუხობს."
   },
   "u5-l2.11.prompt": {
     "en": "We're looking for Tomáš and Lucia.",
@@ -435,6 +467,10 @@
   "u5-l2.12.en": {
     "en": "I have a new friend.",
     "t": "ახალი მეგობარი მყავს."
+  },
+  "u5-l2.12.why": {
+    "en": "Kamarát is a male person, and as an object his adjective ends in **-ého**: **nového**. Nový is for masculine things, novú for feminine nouns.",
+    "t": "Kamarát კაცია, ობიექტად კი მისი ზედსართავი **-ého**-ზე ბოლოვდება: **nového**. Nový მამრობითი სქესის ნივთებისთვისაა, novú — მდედრობითი სახელებისთვის."
   },
   "u5-l2.13.answers": {
     "en": [
@@ -508,6 +544,10 @@
     "en": "The skirt is red.",
     "t": "ქვედაბოლო წითელია."
   },
+  "u5-l3.5.why": {
+    "en": "An adjective takes the gender of its noun, after je too. Sukňa is feminine, so the colour ends in **-á**: červen**á**. Červený is masculine, červené neuter.",
+    "t": "ზედსართავი თავისი არსებითი სახელის სქესს იღებს, je-ს შემდეგაც. Sukňa მდედრობითია, ამიტომ ფერი **-á**-ზე ბოლოვდება: červen**á**. Červený მამრობითია, červené — საშუალო."
+  },
   "u5-l3.6.en": {
     "en": "I want a black T-shirt.",
     "t": "შავი მაისური მინდა."
@@ -519,6 +559,10 @@
   "u5-l3.7.en": {
     "en": "I'm looking for a black skirt.",
     "t": "შავ ქვედაბოლოს ვეძებ."
+  },
+  "u5-l3.7.why": {
+    "en": "Sukňu is a feminine object, so the colour changes too. Čierny has short endings: čierna → **čiernu**, with -u, not -ú.",
+    "t": "Sukňu მდედრობითი ობიექტია, ამიტომ ფერიც იცვლება. Čierny-ს მოკლე დაბოლოებები აქვს: čierna → **čiernu**, -u-თი და არა -ú-თი."
   },
   "u5-l3.8.prompt": {
     "en": "I want a white shirt.",
@@ -563,6 +607,10 @@
   "u5-l3.13.en": {
     "en": "I want a blue sweater.",
     "t": "ლურჯი სვიტერი მინდა."
+  },
+  "u5-l3.13.why": {
+    "en": "Sveter is a masculine thing, and masculine things don't change as objects, so the colour stays **modrý**. Modrú is for feminine nouns, modrého for male people.",
+    "t": "Sveter მამრობითი სქესის ნივთია, ასეთი ნივთები კი ობიექტად არ იცვლება, ამიტომ ფერიც რჩება **modrý**. Modrú მდედრობითი სახელებისთვისაა, modrého — კაცებისთვის."
   },
   "u5-l3.14.prompt": {
     "en": "Emma is looking for a green T-shirt.",
@@ -703,6 +751,10 @@
     "en": "Where are you, Emma? I'm looking for you.",
     "t": "სად ხარ, ემა? გეძებ."
   },
+  "u5-l4.1.why": {
+    "en": "Emma is ty here, and as an object ty becomes **ťa**: hľadám ťa = I'm looking for you. Ju means her.",
+    "t": "აქ ემა ty-ა, ობიექტად კი ty ხდება **ťa**: hľadám ťa = გეძებ. Ju ნიშნავს „მას“, ქალზე."
+  },
   "u5-l4.2.title": {
     "en": "pre + accusative: for",
     "t": "pre + akuzatív: „-თვის“"
@@ -803,13 +855,25 @@
     "en": "Tomáš? I like him.",
     "t": "ტომაში? ის მომწონს."
   },
+  "u5-l4.3.why": {
+    "en": "Tomáš is on, and the object form of on is **ho**, in second place: Mám **ho** rada. Ju is her, ich is them.",
+    "t": "ტომაში = on, on-ის ობიექტის ფორმა კი არის **ho**, მეორე ადგილზე: Mám **ho** rada. Ju ქალზე ითქმის, ich ნიშნავს „მათ“."
+  },
   "u5-l4.4.en": {
     "en": "This is for you.",
     "t": "ეს შენთვისაა."
   },
+  "u5-l4.4.why": {
+    "en": "After a preposition like **pre**, pronouns use their long forms: pre **teba**. Ťa is the short form, used without a preposition: hľadám ťa.",
+    "t": "**pre**-ს მსგავსი წინდებულის შემდეგ ნაცვალსახელები გრძელ ფორმას იღებს: pre **teba** (შენთვის). Ťa მოკლე ფორმაა, წინდებულის გარეშე: hľadám ťa."
+  },
   "u5-l4.5.en": {
     "en": "The present is for Lucia.",
     "t": "საჩუქარი ლუციასთვისაა."
+  },
+  "u5-l4.5.why": {
+    "en": "**Pre** (for) takes the accusative, and Lucia follows the feminine -u rule: Lucia → **Luciu**.",
+    "t": "**Pre** (-თვის) akuzatív-ს მოითხოვს, Lucia კი მდედრობითის -u წესს მიჰყვება: Lucia → **Luciu**. ქართულისგან განსხვავებით, „-თვის“ აქ სიტყვის წინ დგას."
   },
   "u5-l4.6.prompt": {
     "en": "The sweater is for him.",
@@ -861,9 +925,17 @@
     "en": "We're waiting for Tomáš.",
     "t": "ტომაშს ველოდებით."
   },
+  "u5-l4.9.why": {
+    "en": "**Čakať na** takes the accusative, and masculine nouns for people add **-a**: Tomáš → **Tomáša**.",
+    "t": "**Čakať na** akuzatív-ს მოითხოვს, ადამიანის აღმნიშვნელი მამრობითი სახელები კი **-a**-ს იღებს: Tomáš → **Tomáša**."
+  },
   "u5-l4.10.question": {
     "en": "Which sentence is correct?",
     "t": "რომელი წინადადებაა სწორი?"
+  },
+  "u5-l4.10.why": {
+    "en": "After a preposition like **na**, pronouns use their long forms: na **teba**. Ťa is the short form, used without a preposition, and ty isn't an object form.",
+    "t": "**na**-ს მსგავსი წინდებულის შემდეგ ნაცვალსახელები გრძელ ფორმას იღებს: na **teba**. Ťa მოკლე ფორმაა, წინდებულის გარეშე, ty კი საერთოდ არ არის ობიექტის ფორმა."
   },
   "u5-l4.11.prompt": {
     "en": "We're inviting you to the party.",
@@ -995,6 +1067,10 @@
     "en": "Where are you going, Emma?",
     "t": "სად მიდიხარ, ემა?"
   },
+  "u5-l5.1.why": {
+    "en": "The question is to Emma, **ty**, so ísť ends in **-eš**: ideš. Idem goes with ja, ide with on or ona.",
+    "t": "კითხვა ემას ეხება, ანუ **ty**-ს, ამიტომ ísť ბოლოვდება **-eš**-ზე: ideš. Idem ja-სთან დგას, ide — on-თან ან ona-სთან."
+  },
   "u5-l5.2.title": {
     "en": "Want, can, must + infinitive",
     "t": "მინდა, შემიძლია, უნდა + ინფინიტივი"
@@ -1117,9 +1193,17 @@
     "en": "Lucia and Marek are going to the party.",
     "t": "ლუცია და მარეკი წვეულებაზე მიდიან."
   },
+  "u5-l5.3.why": {
+    "en": "Lucia and Marek are two people, **oni**, so ísť takes the oni form: **idú**. Ide is for one person, idete for vy.",
+    "t": "ლუცია და მარეკი ორნი არიან, **oni**, ამიტომ ísť oni-ს ფორმას იღებს: **idú**. Ide ერთი ადამიანისთვისაა, idete — vy-სთვის."
+  },
   "u5-l5.4.en": {
     "en": "I have to go, bye!",
     "t": "უნდა წავიდე, კარგად!"
+  },
+  "u5-l5.4.why": {
+    "en": "The speaker is **ja**, so musieť takes the ja form **musím**, followed by the infinitive ísť. Musia is for oni; môže means he or she can.",
+    "t": "ლაპარაკობს „მე“ (**ja**), ამიტომ musieť ja-ს ფორმას იღებს, **musím**, შემდეგ კი ინფინიტივი ísť მოდის. Musia oni-სთვისაა, môže კი ნიშნავს „შეუძლია“."
   },
   "u5-l5.5.prompt": {
     "en": "Can you buy bread?",
@@ -1257,6 +1341,10 @@
       "საჭმლის მომზადება მიწევს."
     ]
   },
+  "u5-l5.10.why": {
+    "en": "**Vedieť** + infinitive means to know how to do something: viem variť = I can cook. I want to would be chcem, I have to musím.",
+    "t": "**Vedieť** + ინფინიტივი რისამე კეთების ცოდნას ნიშნავს, როგორც ქართულში: viem variť = საჭმლის მომზადება ვიცი. „მინდა“ იქნებოდა chcem, „უნდა“ — musím."
+  },
   "u5-l5.11.prompt": {
     "en": "You mustn't drink wine.",
     "t": "ღვინის დალევის უფლება არ გაქვს."
@@ -1284,6 +1372,10 @@
   "u5-l5.13.en": {
     "en": "We're going through the park.",
     "t": "პარკის გავლით მივდივართ."
+  },
+  "u5-l5.13.why": {
+    "en": "Going through a place is **cez** + accusative: ideme cez park. **Na** is for going to an event, like na oslavu.",
+    "t": "რაიმე ადგილის გავლით სიარული არის **cez** + akuzatív: ideme cez park. **Na** ღონისძიებაზე წასვლისთვისაა, როგორც na oslavu."
   },
   "u5-l5.14.en": {
     "en": "I have to go.",
@@ -1349,6 +1441,10 @@
     "en": "We'll buy a cake and candles.",
     "t": "ტორტს და სანთლებს ვიყიდით."
   },
+  "u5-l6.6.why": {
+    "en": "The cake is what we'll buy, the object, so torta changes -a to **-u**: **tortu**. Sviečky is plural, and plural things don't change as objects.",
+    "t": "ტორტი ის არის, რასაც ვიყიდით, ანუ ობიექტი, ამიტომ torta -a-ს **-u**-თი ცვლის: **tortu**. Sviečky მრავლობითია, მრავლობითში კი ნივთები ობიექტად არ იცვლება."
+  },
   "u5-l6.7.en": {
     "en": "Lots of health, happiness and love!",
     "t": "გისურვებ ჯანმრთელობას, ბედნიერებას და სიყვარულს!"
@@ -1377,6 +1473,10 @@
     "en": "Thanks for the bouquet.",
     "t": "მადლობა თაიგულისთვის."
   },
+  "u5-l6.11.why": {
+    "en": "**Ďakovať za** takes the accusative, so kytica changes -a to **-u**: za **kyticu**.",
+    "t": "**Ďakovať za** (მადლობა „-თვის“) akuzatív-ს მოითხოვს, ამიტომ kytica -a-ს **-u**-თი ცვლის: za **kyticu**."
+  },
   "u5-l6.12.en": {
     "en": "When are you coming? — In an hour.",
     "t": "როდის მოხვალ? — ერთ საათში."
@@ -1388,6 +1488,10 @@
   "u5-l6.13.en": {
     "en": "Tomáš is coming in an hour.",
     "t": "ტომაში ერთ საათში მოვა."
+  },
+  "u5-l6.13.why": {
+    "en": "Tomáš is **on**, so prísť takes the on form, **príde**, just like ide. Prídem goes with ja, prídu with oni.",
+    "t": "ტომაში = **on**, ამიტომ prísť on-ის ფორმას იღებს, **príde**, ისევე როგორც ide. Prídem ja-სთან დგას, prídu — oni-სთან."
   },
   "u5-l6.14.answers": {
     "en": [
@@ -1458,6 +1562,10 @@
     "en": "Lucia needs a new skirt.",
     "t": "ლუციას ახალი ქვედაბოლო სჭირდება."
   },
+  "u5-l7.1.why": {
+    "en": "Sukňu is a feminine object of potrebuje, so its adjective changes -á to **-ú**: nová → **novú**. Nový is the masculine form.",
+    "t": "Sukňu potrebuje-ს მდედრობითი ობიექტია, ამიტომ მისი ზედსართავი -á-ს **-ú**-თი ცვლის: nová → **novú**. Nový მამრობითი ფორმაა."
+  },
   "u5-l7.2.en": {
     "en": "I'll buy fresh ham and cheese.",
     "t": "ახალ ლორს და ყველს ვიყიდი."
@@ -1465,6 +1573,10 @@
   "u5-l7.3.en": {
     "en": "Emma is looking for a white shirt.",
     "t": "ემა თეთრ პერანგს ეძებს."
+  },
+  "u5-l7.3.why": {
+    "en": "Košeľu is a feminine object, so the colour changes too. Biely has short endings: biela → **bielu**, with -u, not -ú.",
+    "t": "Košeľu მდედრობითი ობიექტია, ამიტომ ფერიც იცვლება. Biely-ს მოკლე დაბოლოებები აქვს: biela → **bielu**, -u-თი და არა -ú-თი."
   },
   "u5-l7.4.prompt": {
     "en": "I'm looking for Marek.",
@@ -1474,9 +1586,17 @@
     "en": "Which sentence is correct?",
     "t": "რომელი წინადადებაა სწორი?"
   },
+  "u5-l7.5.why": {
+    "en": "Kamarát is a male person, so as an object both words change: the noun adds **-a** and its adjective ends in **-ého**: nov**ého** kamarát**a**.",
+    "t": "Kamarát კაცია, ამიტომ ობიექტად ორივე სიტყვა იცვლება: არსებითი სახელი **-a**-ს იღებს, ზედსართავი კი **-ého**-ზე ბოლოვდება: nov**ého** kamarát**a**."
+  },
   "u5-l7.6.en": {
     "en": "Tomáš? I'm waiting for him.",
     "t": "ტომაში? მას ველოდები."
+  },
+  "u5-l7.6.why": {
+    "en": "After a preposition like **na**, on uses its long form: na **neho**. Ho is the short form, used without a preposition; ňu means her.",
+    "t": "**na**-ს მსგავსი წინდებულის შემდეგ on გრძელ ფორმას იღებს: na **neho**. Ho მოკლე ფორმაა, წინდებულის გარეშე; ňu ქალზე ითქმის."
   },
   "u5-l7.7.prompt": {
     "en": "The bouquet is for her.",
@@ -1485,6 +1605,10 @@
   "u5-l7.8.en": {
     "en": "They're going to the party.",
     "t": "ისინი წვეულებაზე მიდიან."
+  },
+  "u5-l7.8.why": {
+    "en": "With **oni** (they), ísť ends in **-ú**: idú. Ide goes with on or ona, idem with ja.",
+    "t": "**oni**-სთან (ისინი) ísť ბოლოვდება **-ú**-ზე: idú. Ide on-თან ან ona-სთან დგას, idem — ja-სთან."
   },
   "u5-l7.9.question": {
     "en": "What does this mean?",
@@ -1502,6 +1626,10 @@
       "წვეულებაზე ხარ?"
     ]
   },
+  "u5-l7.9.why": {
+    "en": "**Ideš** is the ty form of ísť (to go), and **na** + accusative means going to an event: na oslavu = to the party.",
+    "t": "**Ideš** ísť-ის (სიარული, წასვლა) ty-ს ფორმაა, **na** + akuzatív კი ღონისძიებაზე წასვლას ნიშნავს: na oslavu = წვეულებაზე."
+  },
   "u5-l7.10.prompt": {
     "en": "Can you buy a cake?",
     "t": "შეგიძლია ტორტი იყიდო?"
@@ -1509,6 +1637,10 @@
   "u5-l7.11.en": {
     "en": "You're not allowed to smoke here.",
     "t": "აქ მოწევა არ შეიძლება."
+  },
+  "u5-l7.11.why": {
+    "en": "Not allowed is **nesmieť**: nesmiete = you mustn't. Careful: nemusíte means you don't have to, and neviete you don't know how.",
+    "t": "„არ შეიძლება“ არის **nesmieť**: nesmiete = უფლება არ გაქვთ. ფრთხილად: nemusíte ნიშნავს „საჭირო არ არის“, neviete კი — „არ იცით“."
   },
   "u5-l7.12.answers": {
     "en": [

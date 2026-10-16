@@ -58,6 +58,11 @@ record of what each word is, for anything built on it later. Stage 3 fails on a
 review word without tags and warns when tags disagree with the card ("to …" for a
 verb, end punctuation for an expression). A new topic goes into the `Topic` list.
 
+**Explain the multiple-choice answers**: give each `choice` and `fill` whose
+answer can be reasoned out (not a pure vocabulary check) a `why`, and a `ref` to
+the grammar card it rests on, as in AUTHORING.md, "Explanations after a wrong
+answer".
+
 ## 3. Check it
 
 ```bash
@@ -85,8 +90,8 @@ any large batch of new or rewritten lessons.
 
 ## 5. Translate
 
-Learners pick English, Ukrainian or Russian. English lives in the unit files;
-Ukrainian and Russian live in catalogs, one per unit and language.
+Learners pick English, Ukrainian, Russian, Uzbek or Georgian. English lives in the
+unit files; the others live in catalogs, one per unit and language.
 
 ```bash
 npm run i18n:sync
@@ -95,7 +100,9 @@ npm run i18n:sync
 This adds keys for new English text and marks changed English as stale. Fill in
 `t` for every new or stale entry, following
 [TRANSLATING.md](src/lib/course/TRANSLATING.md) (adapt rather than calque; fixed
-spellings for names). Slovak text is never translated.
+spellings for names). Slovak text is never translated. Explanations (`why`) aren't
+translated either but written afresh for each language's speakers, with the
+English only as a pointer to the point being made.
 
 ## 6. Spelling cards
 

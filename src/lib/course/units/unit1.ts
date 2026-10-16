@@ -32,6 +32,7 @@ export const unit1: Unit = {
           options: ["Ahoj!", "Dobrý deň."],
           optionsLang: "sk",
           answer: 1,
+          why: "In a shop, greet politely with **Dobrý deň**. Ahoj! is only for friends, family and children.",
         },
         {
           type: "intro",
@@ -82,6 +83,7 @@ export const unit1: Unit = {
           options: ["Dobrý večer.", "Dobrú noc.", "Dobré ráno."],
           optionsLang: "sk",
           answer: 1,
+          why: "**Dobrú noc** is for when someone goes to bed. Dobrý večer and Dobré ráno are greetings, said when you meet.",
         },
         {
           type: "fill",
@@ -90,6 +92,7 @@ export const unit1: Unit = {
           options: ["Dobré", "Dobrý", "Dobrú"],
           answer: 0,
           en: "Good morning, Emma!",
+          why: "Each greeting has its own ending: dobrý deň, **dobré** ráno, dobrú noc.",
         },
         {
           type: "fill",
@@ -98,6 +101,7 @@ export const unit1: Unit = {
           options: ["chuť", "deň", "večer"],
           answer: 0,
           en: "Enjoy your meal, Tomáš!",
+          why: "The ending -ú fits **chuť**, as in dobrú noc. Deň and večer take dobrý: dobrý deň, dobrý večer.",
         },
         {
           type: "build",
@@ -140,6 +144,7 @@ export const unit1: Unit = {
           options: ["Prosím.", "Dobrú noc.", "Dovidenia."],
           optionsLang: "sk",
           answer: 0,
+          why: "The usual reply to ďakujem is **Prosím**: here it means you're welcome.",
         },
         {
           type: "intro",
@@ -166,6 +171,7 @@ export const unit1: Unit = {
           options: ["Nie, ďakujem.", "Áno, prosím.", "Nech sa páči."],
           optionsLang: "sk",
           answer: 0,
+          why: "Saying no to an offer is **Nie, ďakujem** (no, thank you). Áno, prosím (yes, please) would accept the coffee.",
         },
         {
           type: "match",
@@ -202,6 +208,7 @@ export const unit1: Unit = {
           options: ["Prepáčte!", "Nech sa páči.", "Dobrú chuť!"],
           optionsLang: "sk",
           answer: 0,
+          why: "Bumping into someone calls for sorry, and pán Kováč gets the polite form: **Prepáčte!** To a friend, you'd say Prepáč!",
         },
         {
           type: "fill",
@@ -210,6 +217,7 @@ export const unit1: Unit = {
           options: ["Nič", "Nie"],
           answer: 0,
           en: "Sorry! — That's OK.",
+          why: "The set reply is **Nič** sa nestalo, literally “nothing happened”. Nie just means no.",
         },
         {
           type: "intro",
@@ -278,6 +286,7 @@ export const unit1: Unit = {
           options: ["máš", "mám"],
           answer: 0,
           en: "Hi! How are you, Tomáš?",
+          why: "You're asking Tomáš about himself, so it's **máš** (you). Mám is for “I”: Mám sa dobre = I'm fine.",
         },
         { type: "listen", sk: "Mám sa výborne, a ty?", en: "I'm great, and you?" },
         {
@@ -311,6 +320,7 @@ export const unit1: Unit = {
           options: ["Aj mňa.", "Mám sa zle.", "Dobrú noc."],
           optionsLang: "sk",
           answer: 0,
+          why: "Teší ma is literally “it pleases me”, so the reply is **Aj mňa**, “me too”.",
         },
         {
           type: "fill",
@@ -319,6 +329,7 @@ export const unit1: Unit = {
           options: ["voláš", "máš"],
           answer: 0,
           en: "Hi! What's your name? — My name is Lucia.",
+          why: "The reply gives a name, so the question needs **voláš** (What's your name?). Ako sa máš? asks how someone is.",
         },
         {
           type: "build",
@@ -372,6 +383,8 @@ export const unit1: Unit = {
           options: ["Ako sa máte?", "Ako sa máš?", "Ako sa voláš?"],
           optionsLang: "sk",
           answer: 0,
+          why: "A teacher gets **vy**, so the verb ends in **-te**: má**te**. Máš is the ty form, for friends and family.",
+          ref: "u1-l4#0",
         },
         {
           type: "fill",
@@ -380,6 +393,8 @@ export const unit1: Unit = {
           options: ["máš", "máte"],
           answer: 0,
           en: "Hi, Tomáš! How are you?",
+          why: "Ahoj and a friend's name mean **ty**, so the verb ends in **-š**: má**š**. Máte is for vy.",
+          ref: "u1-l4#0",
         },
         {
           type: "fill",
@@ -388,6 +403,8 @@ export const unit1: Unit = {
           options: ["voláte", "voláš"],
           answer: 0,
           en: "Hello. What's your name?",
+          why: "**Dobrý deň** is the polite hello, so ask with vy: the verb ends in **-te**, volá**te**.",
+          ref: "u1-l4#0",
         },
         {
           type: "build",
@@ -402,6 +419,8 @@ export const unit1: Unit = {
           options: ["Ako sa máte?", "Ako sa máš?"],
           optionsLang: "sk",
           answer: 0,
+          why: "**Vy** is also for a group, even of friends, so the verb ends in **-te**: má**te**. Máš is for one friend.",
+          ref: "u1-l4#0",
         },
         {
           type: "grammar",
@@ -432,6 +451,8 @@ export const unit1: Unit = {
           options: ["Aj tebe.", "Aj vám.", "Prepáčte!"],
           optionsLang: "sk",
           answer: 0,
+          why: "Lucia is Emma's friend, so Emma uses ty: Aj **tebe**. Aj vám is for vy.",
+          ref: "u1-l4#0",
         },
         {
           type: "fill",
@@ -440,6 +461,8 @@ export const unit1: Unit = {
           options: ["vám", "tebe"],
           answer: 0,
           en: "Enjoy your meal, Emma! — Thank you, you too, Mrs Horváthová.",
+          why: "Pani Horváthová is Emma's teacher, so Emma uses vy: aj **vám**. Aj tebe is for friends.",
+          ref: "u1-l4#0",
         },
         {
           type: "build",
@@ -455,6 +478,8 @@ export const unit1: Unit = {
           options: ["Vitaj", "Vitajte"],
           answer: 0,
           en: "Hi, Emma! Welcome to Slovakia!",
+          why: "Ahoj and one friend, Emma, mean ty: **Vitaj**. Vitajte, with -te, is for vy or a group.",
+          ref: "u1-l4#6",
         },
         {
           type: "match",
@@ -533,6 +558,8 @@ export const unit1: Unit = {
           options: ["Teší ma.", "Čau!", "Dobrý deň."],
           optionsLang: "sk",
           answer: 0,
+          why: "**š** is the “sh” in “ship”: Te**š**í ma. The č in Čau! is the “ch” in “chip”.",
+          ref: "u1-l5#0",
         },
         {
           type: "choice",
@@ -541,6 +568,8 @@ export const unit1: Unit = {
           options: ["do-", "-vi-", "-de-"],
           optionsLang: "en",
           answer: 0,
+          why: "Stress is always on the first syllable, even in a long word: **Do**videnia.",
+          ref: "u1-l5#1",
         },
         {
           type: "fill",
@@ -549,6 +578,8 @@ export const unit1: Unit = {
           options: ["dobre", "dobré"],
           answer: 0,
           en: "I'm fine.",
+          why: "With a short e, **dobre** means fine or well: Mám sa dobre. Dobré, with a long é, goes with ráno.",
+          ref: "u1-l5#1",
         },
         {
           type: "fill",
@@ -557,6 +588,8 @@ export const unit1: Unit = {
           options: ["Dobré", "Dobre"],
           answer: 0,
           en: "Good morning!",
+          why: "Good morning has a long é: **Dobré** ráno. Dobre, with a short e, means fine: Mám sa dobre.",
+          ref: "u1-l5#1",
         },
         {
           type: "choice",
@@ -564,6 +597,8 @@ export const unit1: Unit = {
           options: ["deň", "noc", "ráno"],
           optionsLang: "sk",
           answer: 0,
+          why: "The hook (mäkčeň) on n makes it soft, like “ny” in “canyon”: de**ň**. Noc and ráno have a plain n.",
+          ref: "u1-l5#0",
         },
         { type: "listen", sk: "Ďakujem, dobrú noc.", en: "Thank you, good night." },
         {
@@ -587,6 +622,8 @@ export const unit1: Unit = {
           options: ["One", "Two", "Three"],
           optionsLang: "en",
           answer: 0,
+          why: "**ie** glides together into one syllable, so N**ie** has just one, like Na zdrav**ie**.",
+          ref: "u1-l5#8",
         },
         {
           type: "choice",
@@ -594,6 +631,8 @@ export const unit1: Unit = {
           options: ["stôl", "noc", "päť"],
           optionsLang: "sk",
           answer: 0,
+          why: "**ô** sounds like “wo”: st**ô**l sounds like “stwol”. Päť has ä, like the e in “bed”.",
+          ref: "u1-l5#8",
         },
         {
           type: "match",
@@ -628,6 +667,7 @@ export const unit1: Unit = {
           options: ["Dobré ráno.", "Ahoj!", "Dobrú noc."],
           optionsLang: "sk",
           answer: 0,
+          why: "Early in the morning, say **Dobré ráno**, polite enough for a teacher. Ahoj! is only for friends, and Dobrú noc is for bedtime.",
         },
         {
           type: "build",
@@ -644,6 +684,8 @@ export const unit1: Unit = {
           options: ["tebe", "vám"],
           answer: 0,
           en: "Good night, Emma! — You too, Lucia.",
+          why: "Lucia is a friend, so use ty: Aj **tebe**. Aj vám is for vy: teachers, strangers or a group.",
+          ref: "u1-l4#0",
         },
         {
           type: "match",
@@ -673,6 +715,7 @@ export const unit1: Unit = {
           ],
           optionsLang: "en",
           answer: 0,
+          why: "Said as a question, **Prosím?** means Pardon? On its own, prosím is please or you're welcome.",
         },
         {
           type: "fill",
@@ -681,6 +724,8 @@ export const unit1: Unit = {
           options: ["máte", "máš"],
           answer: 0,
           en: "Hello, Mr Kováč. How are you?",
+          why: "Pán Kováč gets vy (note the polite Dobrý deň), so the verb ends in **-te**: má**te**.",
+          ref: "u1-l4#0",
         },
         { type: "speak", sk: "Ako sa máte?", en: "How are you? (polite)" },
         {
@@ -697,6 +742,8 @@ export const unit1: Unit = {
           options: ["Ahojte!", "Ahoj!", "Maj sa!"],
           optionsLang: "sk",
           answer: 0,
+          why: "For a group of friends, add **-te**: Ahoj**te**! Ahoj! is for one friend, and Maj sa! means take care.",
+          ref: "u1-l4#6",
         },
         {
           type: "build",

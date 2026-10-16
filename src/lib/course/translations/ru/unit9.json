@@ -61,6 +61,10 @@
       "Томаш выступает с презентацией."
     ]
   },
+  "u9-l1.2.why": {
+    "en": "**Ísť na** + the object form is going somewhere: ide **na konferenciu** = is going to the conference. Being there is je **na konferencii**.",
+    "t": "**Ísť na** + винительный — это направляться куда-то: ide **na konferenciu**, как «едет на конференцию». А быть там — je **na konferencii** («на конференции»)."
+  },
   "u9-l1.3.en": {
     "en": "invitation",
     "t": "приглашение"
@@ -72,6 +76,10 @@
   "u9-l1.4.en": {
     "en": "Tomáš got an invitation to the conference.",
     "t": "Томаш получил приглашение на конференцию."
+  },
+  "u9-l1.4.why": {
+    "en": "The invitation is what Tomáš got, the object, so pozvánka changes -a to **-u**: dostal **pozvánku**.",
+    "t": "Приглашение — то, что Томаш получил, дополнение, поэтому pozvánka меняет -a на **-u**: dostal **pozvánku**."
   },
   "u9-l1.5.en": {
     "en": "registration form",
@@ -98,6 +106,10 @@
   "u9-l1.7.en": {
     "en": "You have to fill in the registration form.",
     "t": "Вам нужно заполнить заявку."
+  },
+  "u9-l1.7.why": {
+    "en": "The form is what you fill in, the object, so prihláška changes -a to **-u**: vypísať **prihlášku**.",
+    "t": "Заявка — то, что заполняют, дополнение, поэтому prihláška меняет -a на **-u**: vypísať **prihlášku**, как «заполнить заявку»."
   },
   "u9-l1.8.en": {
     "en": "coffee break",
@@ -126,6 +138,10 @@
   "u9-l1.12.question": {
     "en": "Emma got an invitation. How does she say it?",
     "t": "Эмма получила приглашение. Как она это скажет?"
+  },
+  "u9-l1.12.why": {
+    "en": "Emma is a woman, so the past tense ends in **-a**: dostal**a** som. And an invitation is a **pozvánka**; a prihláška is a registration form.",
+    "t": "Эмма — женщина, поэтому прошедшее время на **-a**: dostal**a** som (получила). А приглашение — это **pozvánka**; prihláška — заявка, регистрационная форма."
   },
   "u9-l1.13.prompt": {
     "en": "I'm looking forward to your talk.",
@@ -328,13 +344,25 @@
     "en": "My name is Emma.",
     "t": "Меня зовут Эмма."
   },
+  "u9-l2.2.why": {
+    "en": "**Volať sa** means to be called, so the name needs sa: Volám **sa** Emma. Without sa, volám means I'm calling someone.",
+    "t": "**Volať sa** значит «называться», поэтому с именем нужно sa: Volám **sa** Emma. Без sa volám значит «я зову, звоню»."
+  },
   "u9-l2.3.en": {
     "en": "We're looking forward to the break.",
     "t": "Мы с нетерпением ждём перерыва."
   },
+  "u9-l2.3.why": {
+    "en": "With **my** (we) the verb ends in **-me**: tešíme sa. Teším goes with ja, tešia with oni.",
+    "t": "С **my** (мы) глагол оканчивается на **-me**: tešíme sa. Teším — с ja, tešia — с oni."
+  },
   "u9-l2.4.question": {
     "en": "Which sentence is correct?",
     "t": "Какое предложение правильное?"
+  },
+  "u9-l2.4.why": {
+    "en": "**Sa** never starts a sentence. It takes second place, right after the first word: Volám **sa** Tomáš.",
+    "t": "В отличие от -ся, **sa** — отдельное слово, и предложение с него никогда не начинается. Оно стоит вторым, сразу после первого слова: Volám **sa** Tomáš."
   },
   "u9-l2.5.prompt": {
     "en": "We're learning Slovak.",
@@ -343,6 +371,10 @@
   "u9-l2.6.en": {
     "en": "I'm really looking forward to the conference.",
     "t": "Я очень жду конференции."
+  },
+  "u9-l2.6.why": {
+    "en": "**Tešiť sa** keeps its sa, and sa takes second place, right after the first phrase: Na konferenciu **sa** teším.",
+    "t": "**Tešiť sa** не теряет своё sa, а sa стоит на втором месте, сразу после первого словосочетания: Na konferenciu **sa** teším."
   },
   "u9-l2.7.en": {
     "en": "Where can I register?",
@@ -436,6 +468,10 @@
       "Томаш встречает Луцию."
     ]
   },
+  "u9-l2.9.why": {
+    "en": "Without sa, **volať** is to call someone: volá Luciu = is calling Lucia. With sa it gives a name: Tomáš **sa volá**… = Tomáš is called…",
+    "t": "Без sa **volať** — звать, звонить: volá Luciu = звонит Луции (у нас дательный, а здесь винительный). С sa — имя: Tomáš **sa volá**… = Томаша зовут…"
+  },
   "u9-l2.10.prompt": {
     "en": "Emma and Tomáš will meet at the conference.",
     "t": "Эмма и Томаш встретятся на конференции."
@@ -443,6 +479,10 @@
   "u9-l2.11.en": {
     "en": "When are you coming back from the conference?",
     "t": "Когда ты вернёшься с конференции?"
+  },
+  "u9-l2.11.why": {
+    "en": "The question is to **you** (ty), so the verb ends in **-š**: vrátiš sa. Vrátim goes with ja, vráti with on or ona.",
+    "t": "Вопрос задан собеседнику на **ty**, поэтому глагол оканчивается на **-š**: vrátiš sa (вернёшься). Vrátim — с ja, vráti — с on или ona."
   },
   "u9-l2.12.prompt": {
     "en": "I'll be back at five.",
@@ -535,6 +575,10 @@
     "en": "Emma saved the file.",
     "t": "Эмма сохранила файл."
   },
+  "u9-l3.4.why": {
+    "en": "Emma is a woman, so the past tense ends in **-la**: uložil**a**. Uložil is for a man, uložili for more people.",
+    "t": "Эмма — женщина, поэтому прошедшее время на **-la**: uložil**a** (сохранила). Uložil — для мужчины, uložili — для нескольких человек."
+  },
   "u9-l3.5.en": {
     "en": "to click on the icon",
     "t": "кликнуть на иконку"
@@ -562,6 +606,10 @@
   "u9-l3.7.en": {
     "en": "You have to click on the icon.",
     "t": "Вам нужно кликнуть на иконку."
+  },
+  "u9-l3.7.why": {
+    "en": "You click **on** something: **kliknúť na** + the object form, na ikonu, na súbor.",
+    "t": "Кликают на что-то, как и у нас «нажать на иконку»: **kliknúť na** + винительный, na ikonu, na súbor."
   },
   "u9-l3.8.en": {
     "en": "to copy and paste",
@@ -598,6 +646,10 @@
   "u9-l3.14.en": {
     "en": "Lucia sent the presentation by e-mail.",
     "t": "Луция отправила презентацию по электронной почте."
+  },
+  "u9-l3.14.why": {
+    "en": "The presentation is what Lucia sent, the object, so prezentácia changes -a to **-u**: poslala **prezentáciu**.",
+    "t": "Презентация — то, что Луция отправила, дополнение, поэтому prezentácia меняет -a на **-u**: poslala **prezentáciu**, как «отправила презентацию»."
   },
   "u9-l3.15.answers": {
     "en": [
@@ -817,13 +869,25 @@
     "en": "Lucia is washing her hands.",
     "t": "Луция моет руки."
   },
+  "u9-l4.2.why": {
+    "en": "Washing something of your own takes **si**, with the object after it: umýva **si** ruky. **Sa** is for washing yourself, with nothing after it.",
+    "t": "Мыть что-то своё — с **si** (себе), а предмет — после него: umýva **si** ruky, моет (себе) руки. **Sa** — мыться самому, без предмета."
+  },
   "u9-l4.3.en": {
     "en": "I'll have a coffee, please.",
     "t": "Мне кофе, пожалуйста."
   },
+  "u9-l4.3.why": {
+    "en": "Having something to eat or drink is **dať si**: Dám **si** kávu = I'll have a coffee (for myself).",
+    "t": "Взять себе что-то поесть или выпить — **dať si**: Dám **si** kávu = Я возьму (себе) кофе."
+  },
   "u9-l4.4.question": {
     "en": "Which one means “Tomáš is washing (himself)”?",
     "t": "Какое предложение означает «Томаш моется»?"
+  },
+  "u9-l4.4.why": {
+    "en": "Washing yourself, with no object, takes **sa**: Tomáš **sa** umýva. **Si** needs something after it: umýva si ruky.",
+    "t": "Мыться самому, без предмета, — с **sa**, как с -ся: Tomáš **sa** umýva = Томаш моется. **Si** требует предмета после себя: umýva si ruky."
   },
   "u9-l4.5.prompt": {
     "en": "Emma bought herself a T-shirt.",
@@ -917,6 +981,10 @@
     "en": "We met Tomáš on Friday.",
     "t": "В пятницу мы встретились с Томашем."
   },
+  "u9-l4.8.why": {
+    "en": "**My** (we) in the past tense needs **sme**, and it comes before sa: V piatok **sme sa** stretli.",
+    "t": "**My** (мы) в прошедшем времени требует **sme**, и оно стоит перед sa: V piatok **sme sa** stretli (встретились)."
+  },
   "u9-l4.9.prompt": {
     "en": "We met at the conference.",
     "t": "Мы встретились на конференции."
@@ -925,6 +993,10 @@
     "en": "Which word order is correct?",
     "t": "Какой порядок слов правильный?"
   },
+  "u9-l4.10.why": {
+    "en": "The small words go second, in a fixed order: **ste** first, then **sa**, right after the question word: Kde **ste sa** stretli?",
+    "t": "Короткие слова стоят вторыми, в твёрдом порядке: сначала **ste**, потом **sa**, сразу после вопросительного слова: Kde **ste sa** stretli?"
+  },
   "u9-l4.11.prompt": {
     "en": "Tomáš came back at six.",
     "t": "Томаш вернулся в шесть."
@@ -932,6 +1004,10 @@
   "u9-l4.12.en": {
     "en": "Lucia called a taxi.",
     "t": "Луция вызвала такси."
+  },
+  "u9-l4.12.why": {
+    "en": "Calling a taxi for yourself is **zavolať si** taxík. With Lucia (ona) the past tense has no som or sme, so **si** comes second on its own.",
+    "t": "Вызвать себе такси — **zavolať si** taxík. С Луцией (ona) в прошедшем времени нет som или sme, поэтому вторым стоит само **si**."
   },
   "u9-l4.13.answers": {
     "en": [
@@ -969,6 +1045,10 @@
       "Он выпил кофе?",
       "Ты сейчас пьёшь кофе?"
     ]
+  },
+  "u9-l4.14.why": {
+    "en": "The first **si** is ty in the past tense (dal si = you had), the second belongs to **dať si** kávu (to have a coffee). So: Did you have a coffee?",
+    "t": "Первое **si** — это ty в прошедшем времени (dal si = ты взял), второе — из **dať si** kávu (взять себе кофе). Значит: «Ты выпил кофе?»"
   },
   "u9-l4.15.en": {
     "en": "I'll have a coffee.",
@@ -1058,6 +1138,10 @@
     "en": "What is your nationality?",
     "t": "Какая у вас национальность?"
   },
+  "u9-l5.8.why": {
+    "en": "Nationality is **národnosť**. It's also the only feminine word here, which fits **aká** and **vaša**.",
+    "t": "«Национальность» — **národnosť**. Это ещё и единственное здесь слово женского рода (как и «национальность»), поэтому оно подходит к **aká** и **vaša**."
+  },
   "u9-l5.9.prompt": {
     "en": "My employer is a company in Košice.",
     "t": "Мой работодатель — фирма в Кошице."
@@ -1074,6 +1158,10 @@
     "en": "Emma filled in the questionnaire and signed it.",
     "t": "Эмма заполнила анкету и расписалась."
   },
+  "u9-l5.11.why": {
+    "en": "Signing your name is **podpísať sa**, a verb with sa: podpísala **sa**. Si would need an object after it.",
+    "t": "Поставить подпись — **podpísať sa**, глагол с sa, как «подписаться»: podpísala **sa**. Si требовало бы предмета после себя."
+  },
   "u9-l5.12.en": {
     "en": "How did you like the conference?",
     "t": "Как вам понравилась конференция?"
@@ -1089,6 +1177,10 @@
   "u9-l5.14.question": {
     "en": "Which one is correct?",
     "t": "Какой вариант правильный?"
+  },
+  "u9-l5.14.why": {
+    "en": "With páčiť sa, the verb agrees with what you like: konferencia is feminine, so páčil**a**. And it's always **sa**: páčiť sa.",
+    "t": "С páčiť sa, как и с «нравиться», глагол согласуется с тем, что нравится: konferencia — женского рода, поэтому páčil**a** (понравилась). И всегда **sa**: páčiť sa."
   },
   "u9-l5.15.answers": {
     "en": [
@@ -1138,6 +1230,10 @@
     "en": "I'm looking forward to your talk.",
     "t": "Я с нетерпением жду твоего доклада."
   },
+  "u9-l6.1.why": {
+    "en": "**Tešiť sa na** keeps its sa: Teším **sa** na prednášku.",
+    "t": "**Tešiť sa na** не теряет своё sa: Teším **sa** na prednášku."
+  },
   "u9-l6.2.prompt": {
     "en": "I have to save the presentation.",
     "t": "Мне нужно сохранить презентацию."
@@ -1162,9 +1258,17 @@
       "Томаш сварил кофе и пропустил доклад."
     ]
   },
+  "u9-l6.4.why": {
+    "en": "**Dať si** kávu is to have a coffee, and **vrátiť sa** is to come or go back: he had a coffee and went back to the talk.",
+    "t": "**Dať si** kávu — взять себе (выпить) кофе, а **vrátiť sa** — вернуться: Томаш выпил кофе и вернулся на доклад."
+  },
   "u9-l6.5.en": {
     "en": "Yesterday I bought myself a new computer.",
     "t": "Вчера я купила себе новый компьютер."
+  },
+  "u9-l6.5.why": {
+    "en": "**Ja** in the past tense needs **som**, and it comes before si: Včera **som si** kúpila… (kúpila: a woman is speaking).",
+    "t": "**Ja** в прошедшем времени требует **som**, и оно стоит перед si: Včera **som si** kúpila… (kúpila — говорит женщина)."
   },
   "u9-l6.6.prompt": {
     "en": "Where can I register?",
@@ -1173,6 +1277,10 @@
   "u9-l6.7.en": {
     "en": "What is your occupation?",
     "t": "Какая у вас профессия?"
+  },
+  "u9-l6.7.why": {
+    "en": "Occupation is **zamestnanie**. It's neuter, which fits **aké** and **vaše**; a zamestnávateľ is the employer.",
+    "t": "Род занятий, профессия — **zamestnanie**. Это средний род, и он подходит к **aké** и **vaše**; а zamestnávateľ — работодатель."
   },
   "u9-l6.8.en": {
     "en": "When will you be back?",
@@ -1201,9 +1309,17 @@
     "en": "Which word order is correct?",
     "t": "Какой порядок слов правильный?"
   },
+  "u9-l6.10.why": {
+    "en": "The small words take second place, **sme** before **sa**, right after the first phrase: Na konferencii **sme sa** stretli. They never start a sentence.",
+    "t": "Короткие слова стоят вторыми, **sme** перед **sa**, сразу после первого словосочетания: Na konferencii **sme sa** stretli. Начинать с них предложение нельзя."
+  },
   "u9-l6.11.en": {
     "en": "Emma clicked on the file.",
     "t": "Эмма кликнула на файл."
+  },
+  "u9-l6.11.why": {
+    "en": "You click **on** something: **kliknúť na** súbor.",
+    "t": "Кликают на что-то, как и у нас «нажать на файл»: **kliknúť na** súbor."
   },
   "u9-l6.12.en": {
     "en": "I sent the file by e-mail.",
@@ -1216,6 +1332,10 @@
   "u9-l6.14.en": {
     "en": "Tomáš had a coffee during the break.",
     "t": "На перерыве Томаш выпил кофе."
+  },
+  "u9-l6.14.why": {
+    "en": "Having a coffee is **dať si** kávu. With Tomáš (on) there's no som or sme, so **si** comes second on its own.",
+    "t": "Взять себе кофе — **dať si** kávu. С Томашем (on) нет som или sme, поэтому вторым стоит само **si**."
   },
   "u9-l6.15.en": {
     "en": "We'll meet during the break.",

@@ -75,6 +75,10 @@
     "en": "Emma is in the library, reading a book.",
     "t": "ემა ბიბლიოთეკაშია, წიგნს კითხულობს."
   },
+  "u7-l1.4.why": {
+    "en": "For being in a place, the word changes after v or na: in the library is **v knižnici**, like na prednáške. Knižnica is the plain form.",
+    "t": "„სად?“-ზე პასუხისას სიტყვა v-ს ან na-ს შემდეგ იცვლება: ბიბლიოთეკაში = **v knižnici**, როგორც na prednáške. Knižnica ძირითადი ფორმაა."
+  },
   "u7-l1.5.en": {
     "en": "timetable",
     "t": "გაკვეთილების ცხრილი"
@@ -117,6 +121,10 @@
     "en": "I have an exam tomorrow.",
     "t": "ხვალ გამოცდა მაქვს."
   },
+  "u7-l1.9.why": {
+    "en": "The exam is what you have, the object, so skúška changes -a to **-u**: mám **skúšku**.",
+    "t": "გამოცდა ის არის, რაც გაქვთ, ანუ ობიექტი, ამიტომ skúška -a-ს **-u**-თი ცვლის: mám **skúšku**."
+  },
   "u7-l1.10.prompt": {
     "en": "Lucia is writing a paper.",
     "t": "ლუცია რეფერატს წერს."
@@ -140,6 +148,10 @@
   "u7-l1.14.en": {
     "en": "Mrs Horváthová, sorry I'm late.",
     "t": "ქალბატონო ჰორვატოვა, მაპატიეთ, რომ ვაგვიანებ."
+  },
+  "u7-l1.14.why": {
+    "en": "Prepáčte is formal vy, to the teacher, but the one who's late is ja (I), so the verb ends in **-m**: mešk**ám**.",
+    "t": "Prepáčte მასწავლებლისადმი თავაზიანი vy-ა, მაგრამ აგვიანებს ja (მე), ამიტომ ზმნა **-m**-ზე ბოლოვდება: mešk**ám**. ქართულშიც ასეა: მაპატიეთ, რომ ვაგვიანებ."
   },
   "u7-l1.15.answers": {
     "en": [
@@ -284,9 +296,17 @@
     "en": "It's 3:00. What do you say?",
     "t": "ახლა 3:00-ია. როგორ იტყვით?"
   },
+  "u7-l2.2.why": {
+    "en": "With 2, 3 and 4 it's **sú** and hodin**y**. Je jedna hodina is 1:00, and je päť hodín is 5:00.",
+    "t": "2, 3 და 4-თან არის **sú** და hodin**y**. Je jedna hodina არის 1:00, je päť hodín კი — 5:00."
+  },
   "u7-l2.3.en": {
     "en": "It's five o'clock.",
     "t": "ხუთი საათია."
+  },
+  "u7-l2.3.why": {
+    "en": "From 5 up, hodina becomes **hodín**, with je. Hodiny goes with 2–4, hodina with 1.",
+    "t": "5-დან მოყოლებული hodina ხდება **hodín**, je-სთან ერთად. Hodiny 2–4-თან დგას, hodina — 1-თან."
   },
   "u7-l2.4.en": {
     "en": "At what time?",
@@ -442,6 +462,10 @@
       "10:00"
     ]
   },
+  "u7-l2.9.why": {
+    "en": "Slovak looks ahead: **pol desiatej** is half of the tenth hour, so 9:30. 10:30 would be pol jedenástej.",
+    "t": "ზუსტად როგორც ქართულში, **pol desiatej** არის „ათის ნახევარი“, ანუ 9:30. 10:30 იქნებოდა pol jedenástej."
+  },
   "u7-l2.10.en": {
     "en": "It's a quarter past eight. (8:15)",
     "t": "ცხრის თხუთმეტი წუთია. (8:15)"
@@ -454,9 +478,17 @@
     "en": "It's a quarter past eight.",
     "t": "ცხრის თხუთმეტი წუთია."
   },
+  "u7-l2.11.why": {
+    "en": "**Štvrť** na deväť is a quarter of the way towards nine, so 8:15. Trištvrte (three quarters) na deväť is 8:45.",
+    "t": "**Štvrť** na deväť არის „ცხრის თხუთმეტი წუთი“, ანუ 8:15, როგორც ქართულში. Trištvrte (სამი მეოთხედი) na deväť არის 8:45."
+  },
   "u7-l2.12.question": {
     "en": "How do you say 8:45?",
     "t": "როგორ იტყვით 8:45-ს?"
+  },
+  "u7-l2.12.why": {
+    "en": "Three quarters of the way to nine is **trištvrte** na deväť. Štvrť na deväť is 8:15, and pol deviatej is 8:30.",
+    "t": "ცხრამდე სამი მეოთხედი არის **trištvrte** na deväť, ანუ 8:45 (ცხრას აკლია თხუთმეტი). Štvrť na deväť არის 8:15, pol deviatej კი — 8:30."
   },
   "u7-l2.13.en": {
     "en": "The lecture is at half past eight.",
@@ -469,6 +501,10 @@
   "u7-l2.15.en": {
     "en": "The seminar is at seven.",
     "t": "სემინარი შვიდ საათზეა."
+  },
+  "u7-l2.15.why": {
+    "en": "At a time is **o** + the **-ej** form: o siedm**ej**. Sedem is the plain number, for counting.",
+    "t": "„რომელ საათზე“ არის **o** + **-ej** ფორმა: o siedm**ej**. Sedem უბრალო რიცხვია, სათვლელად."
   },
   "u7-l2.16.en": {
     "en": "What time is it?",
@@ -546,6 +582,10 @@
     "en": "First I get dressed, then I have breakfast.",
     "t": "ჯერ ვიცვამ, მერე ვსაუზმობ."
   },
+  "u7-l3.6.why": {
+    "en": "**Najprv** is first and **potom** is then. Najprv is already used for getting dressed, so breakfast comes **potom**.",
+    "t": "**Najprv** = ჯერ, **potom** = მერე. Najprv უკვე ჩაცმას ეკუთვნის, ამიტომ საუზმე მოდის **potom**."
+  },
   "u7-l3.7.prompt": {
     "en": "I get up at seven.",
     "t": "შვიდ საათზე ვდგები."
@@ -590,6 +630,10 @@
     "en": "Emma has breakfast at half past seven.",
     "t": "ემა რვის ნახევარზე საუზმობს."
   },
+  "u7-l3.12.why": {
+    "en": "With **on** or **ona**, the verb has no ending: Emma **raňajkuje**. Raňajkujem goes with ja, raňajkujú with oni.",
+    "t": "**on**-თან ან **ona**-სთან ზმნას დაბოლოება არ აქვს: Emma **raňajkuje**. Raňajkujem ja-სთან დგას, raňajkujú — oni-სთან."
+  },
   "u7-l3.13.en": {
     "en": "In the evening I'm tired. (woman speaking)",
     "t": "საღამოს დაღლილი ვარ. (ამბობს ქალი)"
@@ -601,6 +645,10 @@
   "u7-l3.14.en": {
     "en": "Tomáš is tired in the evening.",
     "t": "ტომაში საღამოს დაღლილია."
+  },
+  "u7-l3.14.why": {
+    "en": "Adjectives agree with the person: Tomáš is a man, so **unavený**. Unavená is for a woman: Večer som unavená, says Emma.",
+    "t": "ქართული „დაღლილი“ არ იცვლება, სლოვაკური ზედსართავი კი სქესს ეთანხმება: ტომაში კაცია, ამიტომ **unavený**. Unavená ქალზე ითქმის, როგორც ემა ამბობს: Večer som unavená."
   },
   "u7-l3.15.prompt": {
     "en": "First I study, then I go to bed.",
@@ -761,9 +809,17 @@
     "en": "It's morning and Lucia is asleep.",
     "t": "დილაა და ლუციას სძინავს."
   },
+  "u7-l4.1.why": {
+    "en": "Lucia is ona, and the ona form of spať is **spí**. Spia goes with oni, spím with ja.",
+    "t": "ლუცია = ona, spať-ის ona-ს ფორმა კი არის **spí**. Spia oni-სთან დგას, spím — ja-სთან."
+  },
   "u7-l4.2.en": {
     "en": "We sleep at night.",
     "t": "ღამით გვძინავს."
+  },
+  "u7-l4.2.why": {
+    "en": "With **my** (we) the verb ends in **-me**: sp**íme**. Spia goes with oni, spí with on or ona.",
+    "t": "**my**-სთან (ჩვენ) ზმნა **-me**-ზე ბოლოვდება: sp**íme**. Spia oni-სთან დგას, spí — on-თან ან ona-სთან."
   },
   "u7-l4.3.question": {
     "en": "What does this mean?",
@@ -784,6 +840,10 @@
   "u7-l4.4.en": {
     "en": "Tomorrow I'll meet Tomáš.",
     "t": "ხვალ ტომაშს შევხვდები."
+  },
+  "u7-l4.4.why": {
+    "en": "With **ja**, stretnúť ends in **-em**, and as one complete action it talks about the future: stretn**em** = I'll meet. Stretne is on or ona, stretnú oni.",
+    "t": "**ja**-სთან stretnúť **-em**-ზე ბოლოვდება და, როგორც ერთი დასრულებული მოქმედება, მომავალზე მიუთითებს: stretn**em** = შევხვდები. Stretne on-ის ან ona-ს ფორმაა, stretnú — oni-ს."
   },
   "u7-l4.5.prompt": {
     "en": "Where shall we meet?",
@@ -897,6 +957,10 @@
     "en": "It's half past seven. Will we make the bus?",
     "t": "რვის ნახევარია. ავტობუსს მივუსწრებთ?"
   },
+  "u7-l4.7.why": {
+    "en": "With **my** (we), stihnúť ends in **-eme**: stihn**eme**. Stihnem goes with ja, stihnú with oni.",
+    "t": "**my**-სთან (ჩვენ) stihnúť **-eme**-ზე ბოლოვდება: stihn**eme**. Stihnem ja-სთან დგას, stihnú — oni-სთან."
+  },
   "u7-l4.8.en": {
     "en": "Emma is sitting in the library.",
     "t": "ემა ბიბლიოთეკაში ზის."
@@ -908,6 +972,10 @@
   "u7-l4.10.en": {
     "en": "What are you thinking about, Lucia?",
     "t": "რაზე ფიქრობ, ლუცია?"
+  },
+  "u7-l4.10.why": {
+    "en": "The question is to Lucia, so it's **ty**, and the verb ends in **-š**: mysl**íš**. Myslí would be talking about her (ona).",
+    "t": "კითხვა ლუციას ეხება, ანუ **ty**-ს, ამიტომ ზმნა **-š**-ზე ბოლოვდება: mysl**íš**. Myslí იქნებოდა მასზე ლაპარაკი (ona)."
   },
   "u7-l4.11.pairs": {
     "en": [
@@ -1141,9 +1209,17 @@
     "en": "Yesterday Lucia wrote a paper.",
     "t": "გუშინ ლუცია რეფერატს წერდა."
   },
+  "u7-l5.2.why": {
+    "en": "Lucia is a woman, so the past tense ends in **-la**: písal**a**. Písal is for a man, písali for more people.",
+    "t": "ქართული „დაწერა“-სგან განსხვავებით, სლოვაკური წარსული სქესს აჩვენებს: ლუცია ქალია, ამიტომ **-la**, písal**a**. Písal კაცზეა, písali — რამდენიმე ადამიანზე."
+  },
   "u7-l5.3.question": {
     "en": "Emma wants to say “I studied yesterday.” Which is right?",
     "t": "ემას სურს თქვას: „გუშინ ვსწავლობდი“. რომელია სწორი?"
+  },
+  "u7-l5.3.why": {
+    "en": "Emma is a woman, so the past tense ends in **-la**: učil**a**. And ja needs **som**: without it, učila is about someone else (ona).",
+    "t": "ემა ქალია, ამიტომ წარსული **-la**-ზე ბოლოვდება: učil**a**. ja-ს კი **som** სჭირდება: მის გარეშე učila სხვაზეა (ona)."
   },
   "u7-l5.4.prompt": {
     "en": "I worked yesterday. (woman speaking)",
@@ -1152,6 +1228,10 @@
   "u7-l5.5.en": {
     "en": "Emma, what did you do yesterday?",
     "t": "ემა, რას აკეთებდი გუშინ?"
+  },
+  "u7-l5.5.why": {
+    "en": "Emma is a woman, so the past tense ends in **-la**: robil**a**. Robil is for a man, robili for more people or formal vy.",
+    "t": "ემა ქალია, ამიტომ წარსული **-la**-ზე ბოლოვდება: robil**a**. Robil კაცისთვისაა, robili — რამდენიმე ადამიანისთვის ან თავაზიანი vy-სთვის."
   },
   "u7-l5.6.en": {
     "en": "Lucia and Emma had breakfast at eight.",
@@ -1275,9 +1355,17 @@
     "en": "Emma was at the lecture.",
     "t": "ემა ლექციაზე იყო."
   },
+  "u7-l5.8.why": {
+    "en": "Emma is a woman, so the past of byť ends in **-la**: **bola**. Bol is for a man, boli for more people.",
+    "t": "ემა ქალია, ამიტომ byť-ის წარსული **-la**-ზე ბოლოვდება: **bola**. Bol კაცისთვისაა, boli — რამდენიმე ადამიანისთვის."
+  },
   "u7-l5.9.en": {
     "en": "Tomáš met Emma yesterday.",
     "t": "გუშინ ტომაში ემას შეხვდა."
+  },
+  "u7-l5.9.why": {
+    "en": "Tomáš did the meeting, so the verb is for a man: stretnúť → **stretol**. Emmu is just the object; stretla is a woman meeting someone.",
+    "t": "შეხვდა ტომაში, ამიტომ ზმნა კაცის ფორმაშია: stretnúť → **stretol**. Emmu მხოლოდ ობიექტია; stretla ნიშნავს, რომ ქალი შეხვდა ვინმეს."
   },
   "u7-l5.10.prompt": {
     "en": "What did you do yesterday? (to a man)",
@@ -1298,6 +1386,10 @@
       "ახლა წვნიანს ჭამს.",
       "ხვალ წვნიანს შეჭამს."
     ]
+  },
+  "u7-l5.11.why": {
+    "en": "**Jedla** is the past tense of jesť (ate), and **včera** is yesterday. Eating it now would be jem polievku.",
+    "t": "**Jedla** jesť-ის წარსულია (ჭამა, ქალზე), **včera** კი ნიშნავს „გუშინ“. ახლა რომ ჭამდეს, იქნებოდა jem polievku."
   },
   "u7-l5.12.answers": {
     "en": [
@@ -1324,6 +1416,10 @@
   "u7-l5.13.en": {
     "en": "Mr Kováč, where were you?",
     "t": "ბატონო კოვაჩ, სად იყავით?"
+  },
+  "u7-l5.13.why": {
+    "en": "Formal **vy** always takes **-li** in the past, even for one person like pán Kováč: **boli** ste, never bol ste.",
+    "t": "თავაზიანი **vy** წარსულში ყოველთვის **-li**-ს იღებს, ერთ ადამიანთანაც კი, როგორიცაა ბატონი კოვაჩი: **boli** ste, არასდროს bol ste."
   },
   "u7-l5.14.en": {
     "en": "We were at home yesterday.",
@@ -1409,9 +1505,17 @@
     "en": "Emma wasn't at the lecture yesterday.",
     "t": "ემა გუშინ ლექციაზე არ იყო."
   },
+  "u7-l6.1.why": {
+    "en": "Emma is a woman, so the past ends in **-la**, with **ne-** in front for not: **ne**bol**a**. Nebol is for a man, neboli for more people.",
+    "t": "ემა ქალია, ამიტომ წარსული **-la**-ზე ბოლოვდება, „არ“-ისთვის კი წინ **ne-** დგას: **ne**bol**a**. Nebol კაცისთვისაა, neboli — რამდენიმე ადამიანისთვის."
+  },
   "u7-l6.2.question": {
     "en": "Tomáš missed the bus. What does he say?",
     "t": "ტომაშმა ავტობუსს ვერ მიუსწრო. რას ამბობს?"
+  },
+  "u7-l6.2.why": {
+    "en": "Missing the bus is not making it, so add **ne-**: **ne**stihol. Tomáš is a man, so **-ol**; nestihla is for a woman.",
+    "t": "ავტობუსზე დაგვიანება ნიშნავს, რომ ვერ მოასწრო, ამიტომ დაუმატეთ **ne-**: **ne**stihol. ტომაში კაცია, ამიტომ **-ol**; nestihla ქალისთვისაა."
   },
   "u7-l6.3.prompt": {
     "en": "I didn't have breakfast today. (man speaking)",
@@ -1505,6 +1609,10 @@
     "en": "It's eight o'clock and Lucia is still asleep.",
     "t": "რვა საათია, ლუციას კი ჯერ კიდევ სძინავს."
   },
+  "u7-l6.6.why": {
+    "en": "**Ešte** means still: Lucia is still asleep. Už spí would mean she's already asleep.",
+    "t": "**Ešte** ნიშნავს „ჯერ კიდევ“: ლუციას ჯერ კიდევ სძინავს. Už spí ნიშნავდა, რომ უკვე სძინავს."
+  },
   "u7-l6.7.question": {
     "en": "What does this mean?",
     "t": "რას ნიშნავს ეს?"
@@ -1521,9 +1629,17 @@
       "უკვე."
     ]
   },
+  "u7-l6.7.why": {
+    "en": "With a not, ešte and už flip: **ešte nie** is not yet, and už nie is not any more. Už on its own means already.",
+    "t": "უარყოფასთან ešte და už მნიშვნელობას იცვლის: **ešte nie** = ჯერ არა, už nie = აღარ. Už ცალკე ნიშნავს „უკვე“."
+  },
   "u7-l6.8.en": {
     "en": "Have you had lunch? — No, I haven't had lunch yet.",
     "t": "ისადილე? — არა, ჯერ არ მისადილია."
+  },
+  "u7-l6.8.why": {
+    "en": "Not yet is **ešte** with a not: ešte som **ne**obedovala. Už with a not means not any more.",
+    "t": "„ჯერ არ“ არის **ešte** უარყოფით ზმნასთან: ešte som **ne**obedovala. Už უარყოფასთან ნიშნავს „აღარ“."
   },
   "u7-l6.9.prompt": {
     "en": "I've already eaten. (woman speaking)",
@@ -1562,6 +1678,10 @@
     "en": "Lucia, have you been to the library yet? — Not yet.",
     "t": "ლუცია, უკვე იყავი ბიბლიოთეკაში? — ჯერ არა."
   },
+  "u7-l6.12.why": {
+    "en": "Not yet is **ešte nie**. Už nie means not any more, as if she used to go and stopped.",
+    "t": "„ჯერ არა“ არის **ešte nie**. Už nie ნიშნავს „აღარ“, თითქოს ადრე დადიოდა და შეწყვიტა."
+  },
   "u7-l6.13.en": {
     "en": "It's already eight!",
     "t": "უკვე რვა საათია!"
@@ -1598,6 +1718,10 @@
     "en": "Lucia hasn't had breakfast yet. What does she say?",
     "t": "ლუციას ჯერ არ უსაუზმია. რას ამბობს?"
   },
+  "u7-l7.3.why": {
+    "en": "Not yet is **ešte** with a **ne-** past form: **ne**raňajkovala. Už som raňajkovala means she's already eaten; ešte raňajkujem, she's still eating.",
+    "t": "„ჯერ არ“ = **ešte** + წარსულის ფორმა, რომელსაც წინ **ne-** აქვს: **ne**raňajkovala. Už som raňajkovala ნიშნავს, რომ უკვე ისაუზმა; ešte raňajkujem — რომ ჯერ კიდევ საუზმობს."
+  },
   "u7-l7.4.prompt": {
     "en": "I have an exam tomorrow.",
     "t": "ხვალ გამოცდა მაქვს."
@@ -1605,6 +1729,10 @@
   "u7-l7.5.en": {
     "en": "Emma and Lucia are still asleep.",
     "t": "ემას და ლუციას ჯერ კიდევ სძინავთ."
+  },
+  "u7-l7.5.why": {
+    "en": "Emma and Lucia are oni (they), so spať ends in **-ia**: sp**ia**. Spí is for one person, spíme for my.",
+    "t": "ემა და ლუცია = oni (ისინი), ამიტომ spať **-ia**-ზე ბოლოვდება: sp**ia**. Spí ერთი ადამიანისთვისაა, spíme — my-სთვის."
   },
   "u7-l7.6.prompt": {
     "en": "We'll meet at seven.",
@@ -1614,9 +1742,17 @@
     "en": "Yesterday Emma and Lucia sat in the library.",
     "t": "გუშინ ემა და ლუცია ბიბლიოთეკაში ისხდნენ."
   },
+  "u7-l7.7.why": {
+    "en": "Emma and Lucia are more than one person, so the past ends in **-li**: sedel**i**. Sedela is for one woman, sedel for one man.",
+    "t": "ემა და ლუცია ერთზე მეტია, ამიტომ წარსული **-li**-ზე ბოლოვდება: sedel**i**. Sedela ერთი ქალისთვისაა, sedel — ერთი კაცისთვის."
+  },
   "u7-l7.8.question": {
     "en": "It's 12:30. What do you say?",
     "t": "ახლა 12:30-ია. როგორ იტყვით?"
+  },
+  "u7-l7.8.why": {
+    "en": "Slovak looks ahead: 12:30 is half of the coming hour, one, so **pol jednej**. Pol dvanástej is 11:30, and štvrť na jednu 12:15.",
+    "t": "როგორც ქართულში, 12:30 მომდევნო საათის ნახევარია, „პირველის ნახევარი“: **pol jednej**. Pol dvanástej არის 11:30, štvrť na jednu კი — 12:15."
   },
   "u7-l7.9.answers": {
     "en": [
@@ -1644,6 +1780,10 @@
     "en": "Mr Kováč, have you seen Emma?",
     "t": "ბატონო კოვაჩ, ემა ხომ არ გინახავთ?"
   },
+  "u7-l7.10.why": {
+    "en": "Formal **vy** always takes **-li** in the past, even for one person like pán Kováč: **videli** ste. Vidieť also changes ie to e.",
+    "t": "თავაზიანი **vy** წარსულში ყოველთვის **-li**-ს იღებს, ერთ ადამიანთანაც კი, როგორიცაა ბატონი კოვაჩი: **videli** ste. Vidieť ასევე ie-ს e-თი ცვლის."
+  },
   "u7-l7.11.en": {
     "en": "I wasn't at the seminar yesterday.",
     "t": "გუშინ სემინარზე არ ვიყავი."
@@ -1655,6 +1795,10 @@
   "u7-l7.13.en": {
     "en": "Tomáš isn't asleep any more, he's already having breakfast.",
     "t": "ტომაშს აღარ სძინავს, უკვე საუზმობს."
+  },
+  "u7-l7.13.why": {
+    "en": "With a not, **už** means not any more: už nespí, he's no longer asleep. Ešte nespí would mean he isn't asleep yet.",
+    "t": "უარყოფასთან **už** ნიშნავს „აღარ“: už nespí, ანუ აღარ სძინავს. Ešte nespí ნიშნავდა, რომ ჯერ არ სძინავს."
   },
   "u7-l7.14.question": {
     "en": "Emma says this. What happened?",

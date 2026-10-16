@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Fragment, useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { useApp } from "@/components/app-provider";
 import { BoltIcon, CheckIcon, CloseIcon, CrownIcon, StarIcon } from "@/components/icons";
 import {
@@ -20,13 +21,14 @@ import {
   type Answer,
   type Resolution,
 } from "@/components/lesson/exercises";
+import { RichText } from "@/components/lesson/rich-text";
 import { VolumeSlider } from "@/components/lesson/volume-slider";
 import { checkBuilt, checkSpelled, checkTyped, shuffle, toTiles } from "@/lib/answers";
 import { playSlovak, preloadLesson, stopSlovak } from "@/lib/audio";
 import { fillSentence, speakableTexts } from "@/lib/course/helpers";
 import type { Illustration } from "@/lib/course/illustrations";
 import { properNames } from "@/lib/course/names";
-import type { Exercise, Lesson } from "@/lib/course/types";
+import type { Exercise, Lesson, RuleCard } from "@/lib/course/types";
 import { setDictionaryQuery } from "@/lib/dictionary-store";
 import { taughtItemIds } from "@/lib/review/items";
 import { markSeen } from "@/lib/review/store";
@@ -44,11 +46,13 @@ const praise = ["Výborne!", "Super!", "Skvelé!", "Presne tak!", "Správne!"];
 function grade(ex: Exercise, answer: Answer, tiles: string[]): Resolution {
   switch (ex.type) {
     case "choice":
-      return { correct: answer === ex.answer, solution: ex.options[ex.answer] };
+      return { correct: answer === ex.answer, solution: ex.options[ex.answer], why: ex.why, rule: ex.rule };
     case "fill":
       return {
         correct: answer === ex.answer,
         solution: fillSentence(ex.before, ex.options[ex.answer], ex.after),
+        why: ex.why,
+        rule: ex.rule,
       };
     case "build": {
       const words = Array.isArray(answer) ? answer.map((i) => tiles[i]) : [];
@@ -514,6 +518,7 @@ function Footer({
 }) {
   const { t } = useApp();
   const [word] = useState(() => praise[Math.floor(Math.random() * praise.length)]);
+  const [ruleOpen, setRuleOpen] = useState(false);
   // Phones: its own row on top. Wider screens: centred in the space the other parts
   // leave, or on a row of its own when a long answer leaves too little.
   const navSlot = nav && (
@@ -544,6 +549,24 @@ function Footer({
                 </p>
               )}
               {result.note && <p className="text-sm font-semibold">{t(result.note)}</p>}
+              {!ok && result.why && (
+                <p className="mt-1 max-w-xl text-sm text-text">
+                  <RichText text={result.why} />
+                  {result.rule && (
+                    <>
+                      {" "}
+                      <button
+                        type="button"
+                        onClick={() => setRuleOpen(true)}
+                        className="font-semibold whitespace-nowrap text-brand underline underline-offset-2"
+                      >
+                        {t("lesson.seeRule")}
+                      </button>
+                    </>
+                  )}
+                </p>
+              )}
+              {ruleOpen && result.rule && <RuleSheet rule={result.rule} onClose={() => setRuleOpen(false)} />}
             </div>
           </div>
           {navSlot}
@@ -575,6 +598,73 @@ function Footer({
         ) : null}
       </div>
     </footer>
+  );
+}
+
+/**
+ * A grammar card opened from a wrong answer's explanation ("See the rule"): the
+ * dictionary's look-up view (grey bar, the card, Return), drawn over the lesson so the
+ * lesson underneath keeps its place, and Return just closes it. In the page body: the
+ * footer it opens from moves in with a transform, which would hold it.
+ */
+function RuleSheet({ rule, onClose }: { rule: RuleCard; onClose: () => void }) {
+  const { t } = useApp();
+  const frame = "max-w-3xl px-4";
+
+  // Enter and Escape are for this card only, not the lesson behind it (where Enter continues).
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== "Escape" && e.key !== "Enter") return;
+      e.stopImmediatePropagation();
+      onClose();
+    };
+    window.addEventListener("keydown", onKey, { capture: true });
+    return () => window.removeEventListener("keydown", onKey, { capture: true });
+  }, [onClose]);
+
+  return createPortal(
+    <div
+      role="dialog"
+      aria-modal="true"
+      aria-label={rule.card.title}
+      className="fixed inset-0 z-50 overflow-y-auto bg-bg"
+    >
+      <div className="flex min-h-dvh flex-col">
+        <header className={`mx-auto w-full pt-3 sm:pt-5 ${frame}`}>
+          <div className="flex items-center gap-3">
+            <button
+              type="button"
+              onClick={onClose}
+              aria-label={t("lesson.closeRule")}
+              className="shrink-0 text-muted hover:text-text"
+            >
+              <CloseIcon size={28} />
+            </button>
+            <div className="min-w-0 flex-1">
+              <p className="text-xs font-semibold text-muted">
+                {t("lesson.place", { unit: rule.unit, lesson: rule.lesson })}
+              </p>
+              <p className="truncate font-serif text-lg leading-tight">{rule.title}</p>
+            </div>
+          </div>
+          <div className="mt-2 h-2.5 overflow-hidden rounded-full bg-locked sm:mt-3">
+            <div
+              className="h-full rounded-full bg-border-strong"
+              style={{ width: `${((rule.index + 1) / rule.count) * 100}%` }}
+            />
+          </div>
+        </header>
+        <Step
+          exercise={rule.card}
+          frame={frame}
+          nextLabel={t("lesson.return")}
+          nav={null}
+          onGraded={() => {}}
+          onNext={onClose}
+        />
+      </div>
+    </div>,
+    document.body,
   );
 }
 

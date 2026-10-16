@@ -11,6 +11,7 @@ import { stripMarkup } from "@/lib/course/helpers";
 import { properNames } from "@/lib/course/names";
 import type { MessageKey } from "@/lib/i18n";
 import type {
+  RuleCard,
   BuildExercise,
   ChoiceExercise,
   FillExercise,
@@ -30,7 +31,14 @@ import { useRecorder } from "@/lib/useRecorder";
 export type Answer = number | number[] | string | null;
 
 /** Result reported by exercises that grade themselves (match, speak). */
-export type Resolution = CheckResult & { solution?: string; heard?: string; skipped?: boolean };
+/** `why` and `rule`: shown after a wrong answer, why the answer is right and the card that teaches it. */
+export type Resolution = CheckResult & {
+  solution?: string;
+  heard?: string;
+  skipped?: boolean;
+  why?: string;
+  rule?: RuleCard;
+};
 
 type Props<E> = {
   exercise: E;

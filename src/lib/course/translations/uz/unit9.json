@@ -61,6 +61,10 @@
       "Tomash taqdimot qilyapti."
     ]
   },
+  "u9-l1.2.why": {
+    "en": "**Ísť na** + the object form is going somewhere: ide **na konferenciu** = is going to the conference. Being there is je **na konferencii**.",
+    "t": "**Ísť na** + toʻldiruvchi shakli — biror joyga borish: ide **na konferenciu** = konferensiyaga ketyapti (-ga). U yerda boʻlish (-da) esa je **na konferencii**."
+  },
   "u9-l1.3.en": {
     "en": "invitation",
     "t": "taklifnoma"
@@ -72,6 +76,10 @@
   "u9-l1.4.en": {
     "en": "Tomáš got an invitation to the conference.",
     "t": "Tomash konferensiyaga taklifnoma oldi."
+  },
+  "u9-l1.4.why": {
+    "en": "The invitation is what Tomáš got, the object, so pozvánka changes -a to **-u**: dostal **pozvánku**.",
+    "t": "Taklifnoma — Tomash olgan narsa, toʻldiruvchi, shuning uchun pozvánka soʻzida -a oʻrniga **-u** keladi: dostal **pozvánku**."
   },
   "u9-l1.5.en": {
     "en": "registration form",
@@ -98,6 +106,10 @@
   "u9-l1.7.en": {
     "en": "You have to fill in the registration form.",
     "t": "Roʻyxatdan oʻtish arizasini toʻldirishingiz kerak."
+  },
+  "u9-l1.7.why": {
+    "en": "The form is what you fill in, the object, so prihláška changes -a to **-u**: vypísať **prihlášku**.",
+    "t": "Ariza — siz toʻldiradigan narsa, toʻldiruvchi, shuning uchun prihláška soʻzida -a oʻrniga **-u** keladi: vypísať **prihlášku**."
   },
   "u9-l1.8.en": {
     "en": "coffee break",
@@ -126,6 +138,10 @@
   "u9-l1.12.question": {
     "en": "Emma got an invitation. How does she say it?",
     "t": "Emma taklifnoma oldi. U buni qanday aytadi?"
+  },
+  "u9-l1.12.why": {
+    "en": "Emma is a woman, so the past tense ends in **-a**: dostal**a** som. And an invitation is a **pozvánka**; a prihláška is a registration form.",
+    "t": "Emma — ayol, shuning uchun oʻtgan zamon **-a** bilan tugaydi: dostal**a** som. Taklifnoma esa **pozvánka**; prihláška — roʻyxatdan oʻtish arizasi."
   },
   "u9-l1.13.prompt": {
     "en": "I'm looking forward to your talk.",
@@ -328,13 +344,25 @@
     "en": "My name is Emma.",
     "t": "Mening ismim Emma."
   },
+  "u9-l2.2.why": {
+    "en": "**Volať sa** means to be called, so the name needs sa: Volám **sa** Emma. Without sa, volám means I'm calling someone.",
+    "t": "**Volať sa** — «atalmoq, ismi … boʻlmoq», shuning uchun ism bilan sa kerak: Volám **sa** Emma. sa boʻlmasa, volám «qoʻngʻiroq qilyapman» degani."
+  },
   "u9-l2.3.en": {
     "en": "We're looking forward to the break.",
     "t": "Biz tanaffusni intiqlik bilan kutyapmiz."
   },
+  "u9-l2.3.why": {
+    "en": "With **my** (we) the verb ends in **-me**: tešíme sa. Teším goes with ja, tešia with oni.",
+    "t": "**my** (biz) bilan feʼl **-me** bilan tugaydi: tešíme sa. Teším ja bilan, tešia esa oni bilan keladi."
+  },
   "u9-l2.4.question": {
     "en": "Which sentence is correct?",
     "t": "Qaysi gap toʻgʻri?"
+  },
+  "u9-l2.4.why": {
+    "en": "**Sa** never starts a sentence. It takes second place, right after the first word: Volám **sa** Tomáš.",
+    "t": "**Sa** hech qachon gapni boshlamaydi. U ikkinchi oʻrinda, birinchi soʻzdan keyin darhol turadi: Volám **sa** Tomáš."
   },
   "u9-l2.5.prompt": {
     "en": "We're learning Slovak.",
@@ -343,6 +371,10 @@
   "u9-l2.6.en": {
     "en": "I'm really looking forward to the conference.",
     "t": "Konferensiyani katta intiqlik bilan kutyapman."
+  },
+  "u9-l2.6.why": {
+    "en": "**Tešiť sa** keeps its sa, and sa takes second place, right after the first phrase: Na konferenciu **sa** teším.",
+    "t": "**Tešiť sa** feʼlida sa tushib qolmaydi va ikkinchi oʻrinda, birinchi soʻz birikmasidan keyin turadi: Na konferenciu **sa** teším."
   },
   "u9-l2.7.en": {
     "en": "Where can I register?",
@@ -436,6 +468,10 @@
       "Tomash Lusiya bilan uchrashyapti."
     ]
   },
+  "u9-l2.9.why": {
+    "en": "Without sa, **volať** is to call someone: volá Luciu = is calling Lucia. With sa it gives a name: Tomáš **sa volá**… = Tomáš is called…",
+    "t": "sa boʻlmasa, **volať** — kimgadir qoʻngʻiroq qilmoq: volá Luciu = Lusiyaga qoʻngʻiroq qilyapti. sa bilan esa ismni bildiradi: Tomáš **sa volá**… = Tomashning ismi…"
+  },
   "u9-l2.10.prompt": {
     "en": "Emma and Tomáš will meet at the conference.",
     "t": "Emma va Tomash konferensiyada uchrashishadi."
@@ -443,6 +479,10 @@
   "u9-l2.11.en": {
     "en": "When are you coming back from the conference?",
     "t": "Konferensiyadan qachon qaytasan?"
+  },
+  "u9-l2.11.why": {
+    "en": "The question is to **you** (ty), so the verb ends in **-š**: vrátiš sa. Vrátim goes with ja, vráti with on or ona.",
+    "t": "Savolda **ty** (sen) haqida soʻralyapti, shuning uchun feʼl **-š** bilan tugaydi: vrátiš sa (qaytasan). Vrátim ja bilan, vráti esa on yoki ona bilan keladi."
   },
   "u9-l2.12.prompt": {
     "en": "I'll be back at five.",
@@ -535,6 +575,10 @@
     "en": "Emma saved the file.",
     "t": "Emma faylni saqladi."
   },
+  "u9-l3.4.why": {
+    "en": "Emma is a woman, so the past tense ends in **-la**: uložil**a**. Uložil is for a man, uložili for more people.",
+    "t": "Emma — ayol, shuning uchun oʻtgan zamon **-la** bilan tugaydi: uložil**a**. Uložil erkak, uložili esa bir necha kishi uchun."
+  },
   "u9-l3.5.en": {
     "en": "to click on the icon",
     "t": "belgini bosmoq"
@@ -562,6 +606,10 @@
   "u9-l3.7.en": {
     "en": "You have to click on the icon.",
     "t": "Belgini bosishingiz kerak."
+  },
+  "u9-l3.7.why": {
+    "en": "You click **on** something: **kliknúť na** + the object form, na ikonu, na súbor.",
+    "t": "Biror narsani bosish — **kliknúť na** + toʻldiruvchi shakli: na ikonu, na súbor. Oʻzbekchada «belgini bosmoq», slovakchada esa na kerak."
   },
   "u9-l3.8.en": {
     "en": "to copy and paste",
@@ -598,6 +646,10 @@
   "u9-l3.14.en": {
     "en": "Lucia sent the presentation by e-mail.",
     "t": "Lusiya taqdimotni elektron pochta orqali yubordi."
+  },
+  "u9-l3.14.why": {
+    "en": "The presentation is what Lucia sent, the object, so prezentácia changes -a to **-u**: poslala **prezentáciu**.",
+    "t": "Taqdimot — Lusiya yuborgan narsa, toʻldiruvchi, shuning uchun prezentácia soʻzida -a oʻrniga **-u** keladi: poslala **prezentáciu**."
   },
   "u9-l3.15.answers": {
     "en": [
@@ -818,13 +870,25 @@
     "en": "Lucia is washing her hands.",
     "t": "Lusiya qoʻllarini yuvyapti."
   },
+  "u9-l4.2.why": {
+    "en": "Washing something of your own takes **si**, with the object after it: umýva **si** ruky. **Sa** is for washing yourself, with nothing after it.",
+    "t": "Oʻzingizning biror narsangizni yuvish — **si**, undan keyin toʻldiruvchi keladi: umýva **si** ruky. **Sa** esa yuvinish uchun, undan keyin hech narsa kelmaydi."
+  },
   "u9-l4.3.en": {
     "en": "I'll have a coffee, please.",
     "t": "Menga bitta qahva, iltimos."
   },
+  "u9-l4.3.why": {
+    "en": "Having something to eat or drink is **dať si**: Dám **si** kávu = I'll have a coffee (for myself).",
+    "t": "Ovqat yoki ichimlik olish — **dať si**: Dám **si** kávu = qahva olaman (oʻzim uchun)."
+  },
   "u9-l4.4.question": {
     "en": "Which one means “Tomáš is washing (himself)”?",
     "t": "Qaysi biri «Tomash yuvinyapti» degani?"
+  },
+  "u9-l4.4.why": {
+    "en": "Washing yourself, with no object, takes **sa**: Tomáš **sa** umýva. **Si** needs something after it: umýva si ruky.",
+    "t": "Toʻldiruvchisiz oʻzini yuvish — **sa**, oʻzbekchadagi «yuvinmoq» kabi: Tomáš **sa** umýva. **Si** soʻzidan keyin esa biror narsa kelishi kerak: umýva si ruky."
   },
   "u9-l4.5.prompt": {
     "en": "Emma bought herself a T-shirt.",
@@ -918,6 +982,10 @@
     "en": "We met Tomáš on Friday.",
     "t": "Juma kuni Tomash bilan uchrashdik."
   },
+  "u9-l4.8.why": {
+    "en": "**My** (we) in the past tense needs **sme**, and it comes before sa: V piatok **sme sa** stretli.",
+    "t": "Oʻtgan zamonda **my** (biz) uchun **sme** kerak (oʻzbekchadagi -k kabi: uchrashdik), u sa soʻzidan oldin turadi: V piatok **sme sa** stretli."
+  },
   "u9-l4.9.prompt": {
     "en": "We met at the conference.",
     "t": "Konferensiyada uchrashdik."
@@ -926,6 +994,10 @@
     "en": "Which word order is correct?",
     "t": "Qaysi soʻz tartibi toʻgʻri?"
   },
+  "u9-l4.10.why": {
+    "en": "The small words go second, in a fixed order: **ste** first, then **sa**, right after the question word: Kde **ste sa** stretli?",
+    "t": "Kichik soʻzlar qatʼiy tartibda ikkinchi oʻrinda turadi: avval **ste**, keyin **sa**, soʻroq soʻzidan keyin darhol: Kde **ste sa** stretli?"
+  },
   "u9-l4.11.prompt": {
     "en": "Tomáš came back at six.",
     "t": "Tomash soat oltida qaytdi."
@@ -933,6 +1005,10 @@
   "u9-l4.12.en": {
     "en": "Lucia called a taxi.",
     "t": "Lusiya taksi chaqirdi."
+  },
+  "u9-l4.12.why": {
+    "en": "Calling a taxi for yourself is **zavolať si** taxík. With Lucia (ona) the past tense has no som or sme, so **si** comes second on its own.",
+    "t": "Oʻzingiz uchun taksi chaqirish — **zavolať si** taxík. Lusiya (ona) bilan oʻtgan zamonda som yoki sme boʻlmaydi, shuning uchun **si** oʻzi ikkinchi oʻrinda turadi."
   },
   "u9-l4.13.answers": {
     "en": [
@@ -970,6 +1046,10 @@
       "U qahva ichdimi?",
       "Qahva ichyapsanmi?"
     ]
+  },
+  "u9-l4.14.why": {
+    "en": "The first **si** is ty in the past tense (dal si = you had), the second belongs to **dať si** kávu (to have a coffee). So: Did you have a coffee?",
+    "t": "Birinchi **si** — oʻtgan zamondagi ty (dal si = olding), ikkinchisi esa **dať si** kávu (qahva olmoq) iborasidan. Demak: «Qahva ichdingmi?»"
   },
   "u9-l4.15.en": {
     "en": "I'll have a coffee.",
@@ -1059,6 +1139,10 @@
     "en": "What is your nationality?",
     "t": "Millatingiz nima?"
   },
+  "u9-l5.8.why": {
+    "en": "Nationality is **národnosť**. It's also the only feminine word here, which fits **aká** and **vaša**.",
+    "t": "Millat — **národnosť**. Bu yerda faqat u ayol jinsida, bu esa **aká** va **vaša** soʻzlariga mos keladi."
+  },
   "u9-l5.9.prompt": {
     "en": "My employer is a company in Košice.",
     "t": "Mening ish beruvchim — Koshitsedagi firma."
@@ -1075,6 +1159,10 @@
     "en": "Emma filled in the questionnaire and signed it.",
     "t": "Emma anketani toʻldirdi va imzo qoʻydi."
   },
+  "u9-l5.11.why": {
+    "en": "Signing your name is **podpísať sa**, a verb with sa: podpísala **sa**. Si would need an object after it.",
+    "t": "Imzo qoʻyish — **podpísať sa**, sa bilan keladigan feʼl: podpísala **sa**. Si boʻlsa, undan keyin toʻldiruvchi kelishi kerak edi."
+  },
   "u9-l5.12.en": {
     "en": "How did you like the conference?",
     "t": "Konferensiya sizga yoqdimi?"
@@ -1090,6 +1178,10 @@
   "u9-l5.14.question": {
     "en": "Which one is correct?",
     "t": "Qaysi biri toʻgʻri?"
+  },
+  "u9-l5.14.why": {
+    "en": "With páčiť sa, the verb agrees with what you like: konferencia is feminine, so páčil**a**. And it's always **sa**: páčiť sa.",
+    "t": "páčiť sa, oʻzbekchadagi «yoqmoq» kabi, yoqqan narsaga moslashadi: konferencia ayol jinsida, shuning uchun páčil**a**. Va doim **sa** bilan: páčiť sa."
   },
   "u9-l5.15.answers": {
     "en": [
@@ -1140,6 +1232,10 @@
     "en": "I'm looking forward to your talk.",
     "t": "Maʼruzangni intiqlik bilan kutyapman."
   },
+  "u9-l6.1.why": {
+    "en": "**Tešiť sa na** keeps its sa: Teším **sa** na prednášku.",
+    "t": "**Tešiť sa na** feʼlida sa tushib qolmaydi: Teším **sa** na prednášku."
+  },
   "u9-l6.2.prompt": {
     "en": "I have to save the presentation.",
     "t": "Taqdimotni saqlashim kerak."
@@ -1164,9 +1260,17 @@
       "Tomash qahva tayyorladi va maʼruzani oʻtkazib yubordi."
     ]
   },
+  "u9-l6.4.why": {
+    "en": "**Dať si** kávu is to have a coffee, and **vrátiť sa** is to come or go back: he had a coffee and went back to the talk.",
+    "t": "**Dať si** kávu — qahva ichmoq (olmoq), **vrátiť sa** esa qaytmoq: u qahva ichdi va maʼruzaga qaytdi."
+  },
   "u9-l6.5.en": {
     "en": "Yesterday I bought myself a new computer.",
     "t": "Kecha oʻzimga yangi kompyuter sotib oldim."
+  },
+  "u9-l6.5.why": {
+    "en": "**Ja** in the past tense needs **som**, and it comes before si: Včera **som si** kúpila… (kúpila: a woman is speaking).",
+    "t": "Oʻtgan zamonda **ja** uchun **som** kerak, u si soʻzidan oldin turadi: Včera **som si** kúpila… (kúpila: ayol gapiryapti)."
   },
   "u9-l6.6.prompt": {
     "en": "Where can I register?",
@@ -1175,6 +1279,10 @@
   "u9-l6.7.en": {
     "en": "What is your occupation?",
     "t": "Kasbingiz nima?"
+  },
+  "u9-l6.7.why": {
+    "en": "Occupation is **zamestnanie**. It's neuter, which fits **aké** and **vaše**; a zamestnávateľ is the employer.",
+    "t": "Kasb — **zamestnanie**. U oʻrta jinsda, bu esa **aké** va **vaše** soʻzlariga mos keladi; zamestnávateľ esa ish beruvchi."
   },
   "u9-l6.8.en": {
     "en": "When will you be back?",
@@ -1205,9 +1313,17 @@
     "en": "Which word order is correct?",
     "t": "Qaysi soʻz tartibi toʻgʻri?"
   },
+  "u9-l6.10.why": {
+    "en": "The small words take second place, **sme** before **sa**, right after the first phrase: Na konferencii **sme sa** stretli. They never start a sentence.",
+    "t": "Kichik soʻzlar ikkinchi oʻrinda, birinchi soʻz birikmasidan keyin turadi: avval **sme**, keyin **sa**: Na konferencii **sme sa** stretli. Ular hech qachon gapni boshlamaydi."
+  },
   "u9-l6.11.en": {
     "en": "Emma clicked on the file.",
     "t": "Emma faylni bosdi."
+  },
+  "u9-l6.11.why": {
+    "en": "You click **on** something: **kliknúť na** súbor.",
+    "t": "Biror narsani bosish — **kliknúť na** súbor (oʻzbekchada «faylni bosmoq», slovakchada esa na bilan)."
   },
   "u9-l6.12.en": {
     "en": "I sent the file by e-mail.",
@@ -1220,6 +1336,10 @@
   "u9-l6.14.en": {
     "en": "Tomáš had a coffee during the break.",
     "t": "Tanaffusda Tomash qahva ichdi."
+  },
+  "u9-l6.14.why": {
+    "en": "Having a coffee is **dať si** kávu. With Tomáš (on) there's no som or sme, so **si** comes second on its own.",
+    "t": "Qahva ichish — **dať si** kávu. Tomash (on) bilan som yoki sme boʻlmaydi, shuning uchun **si** oʻzi ikkinchi oʻrinda turadi."
   },
   "u9-l6.15.en": {
     "en": "We'll meet during the break.",

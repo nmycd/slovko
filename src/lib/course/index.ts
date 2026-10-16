@@ -96,9 +96,28 @@ export const localizedCourse: Record<Locale, Unit[]> = Object.fromEntries(
       return ex?.type === "intro" ? ex.en : undefined;
     };
     const names = namesIn([...lessons.values()]);
+    // An explanation's grammar card ("lessonId#index"), with the unit and lesson it's in.
+    const places = new Map(
+      units.flatMap((u) =>
+        u.lessons.map((l, i) => [l.id, { unit: u.number, lesson: i + 1, title: l.title }] as const),
+      ),
+    );
+    const withRule = (ex: Exercise): Exercise => {
+      if ((ex.type !== "choice" && ex.type !== "fill") || !ex.ref) return ex;
+      const [lessonId, index] = ex.ref.split("#");
+      const exercises = lessons.get(lessonId)?.exercises ?? [];
+      const card = exercises[Number(index)];
+      const place = places.get(lessonId);
+      return card?.type === "grammar" && place
+        ? { ...ex, rule: { card, ...place, index: Number(index), count: exercises.length } }
+        : ex;
+    };
     const played = (lesson: Lesson) => {
       const withSpelling = addSpelling(lesson, meaning);
-      return { ...withSpelling, exercises: withSpelling.exercises.map((ex) => withTileCase(ex, names)) };
+      return {
+        ...withSpelling,
+        exercises: withSpelling.exercises.map((ex) => withRule(withTileCase(ex, names))),
+      };
     };
     return [locale, units.map((unit) => ({ ...unit, lessons: unit.lessons.map(played) }))];
   }),

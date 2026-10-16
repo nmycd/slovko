@@ -61,6 +61,10 @@
       "ტომაში პრეზენტაციით გამოდის."
     ]
   },
+  "u9-l1.2.why": {
+    "en": "**Ísť na** + the object form is going somewhere: ide **na konferenciu** = is going to the conference. Being there is je **na konferencii**.",
+    "t": "ქართულში ორივეგან „კონფერენციაზე“ ვამბობთ, სლოვაკურში კი წასვლა არის **na** + ობიექტის ფორმა: ide **na konferenciu**. იქ ყოფნა კი — je na konferencii."
+  },
   "u9-l1.3.en": {
     "en": "invitation",
     "t": "მოსაწვევი"
@@ -72,6 +76,10 @@
   "u9-l1.4.en": {
     "en": "Tomáš got an invitation to the conference.",
     "t": "ტომაშმა კონფერენციის მოსაწვევი მიიღო."
+  },
+  "u9-l1.4.why": {
+    "en": "The invitation is what Tomáš got, the object, so pozvánka changes -a to **-u**: dostal **pozvánku**.",
+    "t": "მოსაწვევი ის არის, რაც ტომაშმა მიიღო, ანუ ობიექტი, ამიტომ pozvánka -a-ს **-u**-თი ცვლის: dostal **pozvánku**."
   },
   "u9-l1.5.en": {
     "en": "registration form",
@@ -98,6 +106,10 @@
   "u9-l1.7.en": {
     "en": "You have to fill in the registration form.",
     "t": "სარეგისტრაციო ფორმა უნდა შეავსოთ."
+  },
+  "u9-l1.7.why": {
+    "en": "The form is what you fill in, the object, so prihláška changes -a to **-u**: vypísať **prihlášku**.",
+    "t": "ფორმა ის არის, რასაც ავსებთ, ანუ ობიექტი, ამიტომ prihláška -a-ს **-u**-თი ცვლის: vypísať **prihlášku**."
   },
   "u9-l1.8.en": {
     "en": "coffee break",
@@ -126,6 +138,10 @@
   "u9-l1.12.question": {
     "en": "Emma got an invitation. How does she say it?",
     "t": "ემამ მოსაწვევი მიიღო. როგორ იტყვის ამას?"
+  },
+  "u9-l1.12.why": {
+    "en": "Emma is a woman, so the past tense ends in **-a**: dostal**a** som. And an invitation is a **pozvánka**; a prihláška is a registration form.",
+    "t": "ემა ქალია, ამიტომ წარსული **-a**-ზე ბოლოვდება: dostal**a** som. მოსაწვევი კი არის **pozvánka**; prihláška რეგისტრაციის ფორმაა."
   },
   "u9-l1.13.prompt": {
     "en": "I'm looking forward to your talk.",
@@ -328,13 +344,25 @@
     "en": "My name is Emma.",
     "t": "ემა მქვია."
   },
+  "u9-l2.2.why": {
+    "en": "**Volať sa** means to be called, so the name needs sa: Volám **sa** Emma. Without sa, volám means I'm calling someone.",
+    "t": "**Volať sa** ნიშნავს „რქმევას“, ამიტომ სახელს sa სჭირდება: Volám **sa** Emma. sa-ს გარეშე volám ნიშნავს „ვიღაცას ვურეკავ“."
+  },
   "u9-l2.3.en": {
     "en": "We're looking forward to the break.",
     "t": "მოუთმენლად ველოდებით შესვენებას."
   },
+  "u9-l2.3.why": {
+    "en": "With **my** (we) the verb ends in **-me**: tešíme sa. Teším goes with ja, tešia with oni.",
+    "t": "**my**-სთან (ჩვენ) ზმნა **-me**-ზე ბოლოვდება: tešíme sa. Teším ja-სთან დგას, tešia — oni-სთან."
+  },
   "u9-l2.4.question": {
     "en": "Which sentence is correct?",
     "t": "რომელი წინადადებაა სწორი?"
+  },
+  "u9-l2.4.why": {
+    "en": "**Sa** never starts a sentence. It takes second place, right after the first word: Volám **sa** Tomáš.",
+    "t": "**Sa** წინადადებას არასდროს იწყებს. ის მეორე ადგილზე დგას, პირველი სიტყვის შემდეგ: Volám **sa** Tomáš."
   },
   "u9-l2.5.prompt": {
     "en": "We're learning Slovak.",
@@ -343,6 +371,10 @@
   "u9-l2.6.en": {
     "en": "I'm really looking forward to the conference.",
     "t": "კონფერენციას ძალიან ველოდები."
+  },
+  "u9-l2.6.why": {
+    "en": "**Tešiť sa** keeps its sa, and sa takes second place, right after the first phrase: Na konferenciu **sa** teším.",
+    "t": "**Tešiť sa** sa-ს ინარჩუნებს, sa კი მეორე ადგილზე დგას, პირველი ფრაზის შემდეგ: Na konferenciu **sa** teším."
   },
   "u9-l2.7.en": {
     "en": "Where can I register?",
@@ -436,6 +468,10 @@
       "ტომაში ლუციას ხვდება."
     ]
   },
+  "u9-l2.9.why": {
+    "en": "Without sa, **volať** is to call someone: volá Luciu = is calling Lucia. With sa it gives a name: Tomáš **sa volá**… = Tomáš is called…",
+    "t": "sa-ს გარეშე **volať** ნიშნავს ვინმესთვის დარეკვას: volá Luciu = ლუციას ურეკავს. sa-თი კი სახელს ამბობს: Tomáš **sa volá**… = ტომაშს ჰქვია…"
+  },
   "u9-l2.10.prompt": {
     "en": "Emma and Tomáš will meet at the conference.",
     "t": "ემა და ტომაში ერთმანეთს კონფერენციაზე შეხვდებიან."
@@ -443,6 +479,10 @@
   "u9-l2.11.en": {
     "en": "When are you coming back from the conference?",
     "t": "როდის დაბრუნდები კონფერენციიდან?"
+  },
+  "u9-l2.11.why": {
+    "en": "The question is to **you** (ty), so the verb ends in **-š**: vrátiš sa. Vrátim goes with ja, vráti with on or ona.",
+    "t": "კითხვა **ty**-ს (შენ) ეხება, ამიტომ ზმნა **-š**-ზე ბოლოვდება: vrátiš sa. Vrátim ja-სთან დგას, vráti — on-თან ან ona-სთან."
   },
   "u9-l2.12.prompt": {
     "en": "I'll be back at five.",
@@ -536,6 +576,10 @@
     "en": "Emma saved the file.",
     "t": "ემამ ფაილი შეინახა."
   },
+  "u9-l3.4.why": {
+    "en": "Emma is a woman, so the past tense ends in **-la**: uložil**a**. Uložil is for a man, uložili for more people.",
+    "t": "ემა ქალია, ამიტომ წარსული **-la**-ზე ბოლოვდება: uložil**a**. Uložil კაცისთვისაა, uložili — რამდენიმე ადამიანისთვის."
+  },
   "u9-l3.5.en": {
     "en": "to click on the icon",
     "t": "ხატულაზე დაწკაპუნება"
@@ -563,6 +607,10 @@
   "u9-l3.7.en": {
     "en": "You have to click on the icon.",
     "t": "ხატულაზე უნდა დააწკაპუნოთ."
+  },
+  "u9-l3.7.why": {
+    "en": "You click **on** something: **kliknúť na** + the object form, na ikonu, na súbor.",
+    "t": "რაიმეზე დაწკაპუნება სლოვაკურად არის **kliknúť na** + ობიექტის ფორმა: na ikonu, na súbor. აქ na ქართულ „-ზე“-ს შეესაბამება."
   },
   "u9-l3.8.en": {
     "en": "to copy and paste",
@@ -599,6 +647,10 @@
   "u9-l3.14.en": {
     "en": "Lucia sent the presentation by e-mail.",
     "t": "ლუციამ პრეზენტაცია ელფოსტით გაგზავნა."
+  },
+  "u9-l3.14.why": {
+    "en": "The presentation is what Lucia sent, the object, so prezentácia changes -a to **-u**: poslala **prezentáciu**.",
+    "t": "პრეზენტაცია ის არის, რაც ლუციამ გაგზავნა, ანუ ობიექტი, ამიტომ prezentácia -a-ს **-u**-თი ცვლის: poslala **prezentáciu**."
   },
   "u9-l3.15.answers": {
     "en": [
@@ -819,13 +871,25 @@
     "en": "Lucia is washing her hands.",
     "t": "ლუცია ხელებს იბანს."
   },
+  "u9-l4.2.why": {
+    "en": "Washing something of your own takes **si**, with the object after it: umýva **si** ruky. **Sa** is for washing yourself, with nothing after it.",
+    "t": "საკუთარი რამის დაბანა **si**-ს იღებს, მის შემდეგ კი ობიექტი მოდის: umýva **si** ruky = ხელებს იბანს. **Sa** საკუთარი თავის დაბანაა, ობიექტის გარეშე."
+  },
   "u9-l4.3.en": {
     "en": "I'll have a coffee, please.",
     "t": "ყავას ავიღებ, თუ შეიძლება."
   },
+  "u9-l4.3.why": {
+    "en": "Having something to eat or drink is **dať si**: Dám **si** kávu = I'll have a coffee (for myself).",
+    "t": "საჭმლის ან სასმლის აღება არის **dať si**: Dám **si** kávu = ყავას ავიღებ (ჩემთვის)."
+  },
   "u9-l4.4.question": {
     "en": "Which one means “Tomáš is washing (himself)”?",
     "t": "რომელი ნიშნავს „ტომაში ბანაობს“?"
+  },
+  "u9-l4.4.why": {
+    "en": "Washing yourself, with no object, takes **sa**: Tomáš **sa** umýva. **Si** needs something after it: umýva si ruky.",
+    "t": "საკუთარი თავის დაბანა, ობიექტის გარეშე, **sa**-ს იღებს: Tomáš **sa** umýva. **Si**-ს შემდეგ რამე უნდა მოდიოდეს: umýva si ruky."
   },
   "u9-l4.5.prompt": {
     "en": "Emma bought herself a T-shirt.",
@@ -919,6 +983,10 @@
     "en": "We met Tomáš on Friday.",
     "t": "პარასკევს ტომაშს შევხვდით."
   },
+  "u9-l4.8.why": {
+    "en": "**My** (we) in the past tense needs **sme**, and it comes before sa: V piatok **sme sa** stretli.",
+    "t": "წარსულ დროში **my**-ს (ჩვენ) სჭირდება **sme**, რომელიც sa-ს წინ დგას: V piatok **sme sa** stretli."
+  },
   "u9-l4.9.prompt": {
     "en": "We met at the conference.",
     "t": "კონფერენციაზე შევხვდით ერთმანეთს."
@@ -927,6 +995,10 @@
     "en": "Which word order is correct?",
     "t": "სიტყვების რომელი რიგია სწორი?"
   },
+  "u9-l4.10.why": {
+    "en": "The small words go second, in a fixed order: **ste** first, then **sa**, right after the question word: Kde **ste sa** stretli?",
+    "t": "პატარა სიტყვები მეორე ადგილზე დგას, მყარი რიგით: ჯერ **ste**, მერე **sa**, პირდაპირ კითხვითი სიტყვის შემდეგ: Kde **ste sa** stretli?"
+  },
   "u9-l4.11.prompt": {
     "en": "Tomáš came back at six.",
     "t": "ტომაში ექვს საათზე დაბრუნდა."
@@ -934,6 +1006,10 @@
   "u9-l4.12.en": {
     "en": "Lucia called a taxi.",
     "t": "ლუციამ ტაქსი გამოიძახა."
+  },
+  "u9-l4.12.why": {
+    "en": "Calling a taxi for yourself is **zavolať si** taxík. With Lucia (ona) the past tense has no som or sme, so **si** comes second on its own.",
+    "t": "თავისთვის ტაქსის გამოძახება არის **zavolať si** taxík. ლუციასთან (ona) წარსულში som ან sme არ არის, ამიტომ მეორე ადგილზე თავად **si** დგას."
   },
   "u9-l4.13.answers": {
     "en": [
@@ -971,6 +1047,10 @@
       "მან ყავა დალია?",
       "ახლა ყავას სვამ?"
     ]
+  },
+  "u9-l4.14.why": {
+    "en": "The first **si** is ty in the past tense (dal si = you had), the second belongs to **dať si** kávu (to have a coffee). So: Did you have a coffee?",
+    "t": "პირველი **si** წარსულის ty-ა (dal si = შენ აიღე), მეორე კი **dať si** kávu-ს ეკუთვნის (ყავის აღება). ანუ: ყავა დალიე?"
   },
   "u9-l4.15.en": {
     "en": "I'll have a coffee.",
@@ -1060,6 +1140,10 @@
     "en": "What is your nationality?",
     "t": "რა არის თქვენი ეროვნება?"
   },
+  "u9-l5.8.why": {
+    "en": "Nationality is **národnosť**. It's also the only feminine word here, which fits **aká** and **vaša**.",
+    "t": "ეროვნება არის **národnosť**. ის აქ ერთადერთი მდედრობითი სიტყვაცაა, რაც **aká**-სა და **vaša**-ს შეეფერება."
+  },
   "u9-l5.9.prompt": {
     "en": "My employer is a company in Košice.",
     "t": "ჩემი დამსაქმებელი არის ფირმა კოშიცეში."
@@ -1076,6 +1160,10 @@
     "en": "Emma filled in the questionnaire and signed it.",
     "t": "ემამ კითხვარი შეავსო და ხელი მოაწერა."
   },
+  "u9-l5.11.why": {
+    "en": "Signing your name is **podpísať sa**, a verb with sa: podpísala **sa**. Si would need an object after it.",
+    "t": "ხელის მოწერა არის **podpísať sa**, sa-იანი ზმნა: podpísala **sa**. Si-ს შემდეგ ობიექტი უნდა მოდიოდეს."
+  },
   "u9-l5.12.en": {
     "en": "How did you like the conference?",
     "t": "როგორ მოგეწონათ კონფერენცია?"
@@ -1091,6 +1179,10 @@
   "u9-l5.14.question": {
     "en": "Which one is correct?",
     "t": "რომელია სწორი?"
+  },
+  "u9-l5.14.why": {
+    "en": "With páčiť sa, the verb agrees with what you like: konferencia is feminine, so páčil**a**. And it's always **sa**: páčiť sa.",
+    "t": "páčiť sa-ში ზმნა მოწონებულ საგანს ეთანხმება: konferencia მდედრობითია, ამიტომ páčil**a**. Sa კი ყოველთვის რჩება: páčiť **sa**."
   },
   "u9-l5.15.answers": {
     "en": [
@@ -1140,6 +1232,10 @@
     "en": "I'm looking forward to your talk.",
     "t": "მოუთმენლად ველოდები შენს მოხსენებას."
   },
+  "u9-l6.1.why": {
+    "en": "**Tešiť sa na** keeps its sa: Teším **sa** na prednášku.",
+    "t": "**Tešiť sa na** (მოუთმენლად ლოდინი) sa-ს ინარჩუნებს: Teším **sa** na prednášku."
+  },
   "u9-l6.2.prompt": {
     "en": "I have to save the presentation.",
     "t": "პრეზენტაცია უნდა შევინახო."
@@ -1164,9 +1260,17 @@
       "ტომაშმა ყავა მოადუღა და მოხსენება გამოტოვა."
     ]
   },
+  "u9-l6.4.why": {
+    "en": "**Dať si** kávu is to have a coffee, and **vrátiť sa** is to come or go back: he had a coffee and went back to the talk.",
+    "t": "**Dať si** kávu = ყავის აღება, **vrátiť sa** კი = დაბრუნება: ყავა დალია და მოხსენებაზე დაბრუნდა."
+  },
   "u9-l6.5.en": {
     "en": "Yesterday I bought myself a new computer.",
     "t": "გუშინ ახალი კომპიუტერი ვიყიდე."
+  },
+  "u9-l6.5.why": {
+    "en": "**Ja** in the past tense needs **som**, and it comes before si: Včera **som si** kúpila… (kúpila: a woman is speaking).",
+    "t": "წარსულ დროში **ja**-ს სჭირდება **som**, რომელიც si-ს წინ დგას: Včera **som si** kúpila… (kúpila: ლაპარაკობს ქალი)."
   },
   "u9-l6.6.prompt": {
     "en": "Where can I register?",
@@ -1175,6 +1279,10 @@
   "u9-l6.7.en": {
     "en": "What is your occupation?",
     "t": "რა არის თქვენი საქმიანობა?"
+  },
+  "u9-l6.7.why": {
+    "en": "Occupation is **zamestnanie**. It's neuter, which fits **aké** and **vaše**; a zamestnávateľ is the employer.",
+    "t": "საქმიანობა არის **zamestnanie**. ის საშუალო სქესისაა, რაც **aké**-სა და **vaše**-ს შეეფერება; zamestnávateľ დამსაქმებელია."
   },
   "u9-l6.8.en": {
     "en": "When will you be back?",
@@ -1203,9 +1311,17 @@
     "en": "Which word order is correct?",
     "t": "სიტყვების რომელი რიგია სწორი?"
   },
+  "u9-l6.10.why": {
+    "en": "The small words take second place, **sme** before **sa**, right after the first phrase: Na konferencii **sme sa** stretli. They never start a sentence.",
+    "t": "პატარა სიტყვები მეორე ადგილზე დგას, **sme** — **sa**-ს წინ, პირდაპირ პირველი ფრაზის შემდეგ: Na konferencii **sme sa** stretli. წინადადებას ისინი არასდროს იწყებს."
+  },
   "u9-l6.11.en": {
     "en": "Emma clicked on the file.",
     "t": "ემამ ფაილზე დააწკაპუნა."
+  },
+  "u9-l6.11.why": {
+    "en": "You click **on** something: **kliknúť na** súbor.",
+    "t": "რაიმეზე დაწკაპუნება სლოვაკურად არის **kliknúť na**: kliknúť na súbor."
   },
   "u9-l6.12.en": {
     "en": "I sent the file by e-mail.",
@@ -1218,6 +1334,10 @@
   "u9-l6.14.en": {
     "en": "Tomáš had a coffee during the break.",
     "t": "შესვენებაზე ტომაშმა ყავა დალია."
+  },
+  "u9-l6.14.why": {
+    "en": "Having a coffee is **dať si** kávu. With Tomáš (on) there's no som or sme, so **si** comes second on its own.",
+    "t": "ყავის აღება არის **dať si** kávu. ტომაშთან (on) som ან sme არ არის, ამიტომ მეორე ადგილზე თავად **si** დგას."
   },
   "u9-l6.15.en": {
     "en": "We'll meet during the break.",

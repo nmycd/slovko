@@ -39,6 +39,8 @@ export const unit9: Unit = {
           ],
           optionsLang: "en",
           answer: 0,
+          why: "**Ísť na** + the object form is going somewhere: ide **na konferenciu** = is going to the conference. Being there is je **na konferencii**.",
+          ref: "u5-l5#0",
         },
         {
           type: "intro",
@@ -53,6 +55,8 @@ export const unit9: Unit = {
           options: ["pozvánku", "pozvánka", "pozvánke"],
           answer: 0,
           en: "Tomáš got an invitation to the conference.",
+          why: "The invitation is what Tomáš got, the object, so pozvánka changes -a to **-u**: dostal **pozvánku**.",
+          ref: "u5-l2#0",
         },
         {
           type: "intro",
@@ -76,6 +80,8 @@ export const unit9: Unit = {
           options: ["prihlášku", "prihláška", "prihláške"],
           answer: 0,
           en: "You have to fill in the registration form.",
+          why: "The form is what you fill in, the object, so prihláška changes -a to **-u**: vypísať **prihlášku**.",
+          ref: "u5-l2#0",
         },
         {
           type: "intro",
@@ -111,6 +117,8 @@ export const unit9: Unit = {
           options: ["Dostala som pozvánku.", "Dostal som pozvánku.", "Dostala som prihlášku."],
           optionsLang: "sk",
           answer: 0,
+          why: "Emma is a woman, so the past tense ends in **-a**: dostal**a** som. And an invitation is a **pozvánka**; a prihláška is a registration form.",
+          ref: "u7-l5#0",
         },
         {
           type: "build",
@@ -187,6 +195,8 @@ export const unit9: Unit = {
           options: ["sa", "som", "je"],
           answer: 0,
           en: "My name is Emma.",
+          why: "**Volať sa** means to be called, so the name needs sa: Volám **sa** Emma. Without sa, volám means I'm calling someone.",
+          ref: "u9-l2#0",
         },
         {
           type: "fill",
@@ -195,6 +205,8 @@ export const unit9: Unit = {
           options: ["tešíme", "teším", "tešia"],
           answer: 0,
           en: "We're looking forward to the break.",
+          why: "With **my** (we) the verb ends in **-me**: tešíme sa. Teším goes with ja, tešia with oni.",
+          ref: "u9-l2#0",
         },
         {
           type: "choice",
@@ -202,6 +214,8 @@ export const unit9: Unit = {
           options: ["Sa volám Tomáš.", "Volám sa Tomáš.", "Volám Tomáš sa."],
           optionsLang: "sk",
           answer: 1,
+          why: "**Sa** never starts a sentence. It takes second place, right after the first word: Volám **sa** Tomáš.",
+          ref: "u9-l2#1",
         },
         {
           type: "build",
@@ -217,6 +231,8 @@ export const unit9: Unit = {
           options: ["sa", "som", "si"],
           answer: 0,
           en: "I'm really looking forward to the conference.",
+          why: "**Tešiť sa** keeps its sa, and sa takes second place, right after the first phrase: Na konferenciu **sa** teším.",
+          ref: "u9-l2#1",
         },
         { type: "listen", sk: "Kde sa môžem zaregistrovať?", en: "Where can I register?" },
         {
@@ -247,6 +263,8 @@ export const unit9: Unit = {
           options: ["Tomáš is calling Lucia.", "Tomáš's name is Lucia.", "Tomáš is meeting Lucia."],
           optionsLang: "en",
           answer: 0,
+          why: "Without sa, **volať** is to call someone: volá Luciu = is calling Lucia. With sa it gives a name: Tomáš **sa volá**… = Tomáš is called…",
+          ref: "u9-l2#8",
         },
         {
           type: "build",
@@ -267,6 +285,8 @@ export const unit9: Unit = {
           options: ["vrátiš", "vrátim", "vráti"],
           answer: 0,
           en: "When are you coming back from the conference?",
+          why: "The question is to **you** (ty), so the verb ends in **-š**: vrátiš sa. Vrátim goes with ja, vráti with on or ona.",
+          ref: "u2-l4#0",
         },
         {
           type: "build",
@@ -333,6 +353,8 @@ export const unit9: Unit = {
           options: ["uložila", "uložil", "uložili"],
           answer: 0,
           en: "Emma saved the file.",
+          why: "Emma is a woman, so the past tense ends in **-la**: uložil**a**. Uložil is for a man, uložili for more people.",
+          ref: "u7-l5#0",
         },
         {
           type: "intro",
@@ -357,6 +379,8 @@ export const unit9: Unit = {
           options: ["na", "v", "do"],
           answer: 0,
           en: "You have to click on the icon.",
+          why: "You click **on** something: **kliknúť na** + the object form, na ikonu, na súbor.",
+          ref: "u5-l4#8",
         },
         { type: "intro", sk: "kopírovať a vložiť", en: "to copy and paste" },
         {
@@ -393,6 +417,8 @@ export const unit9: Unit = {
           options: ["prezentáciu", "prezentácia", "prezentácii"],
           answer: 0,
           en: "Lucia sent the presentation by e-mail.",
+          why: "The presentation is what Lucia sent, the object, so prezentácia changes -a to **-u**: poslala **prezentáciu**.",
+          ref: "u5-l2#0",
         },
         {
           type: "build",
@@ -464,6 +490,8 @@ export const unit9: Unit = {
           options: ["si", "sa", "je"],
           answer: 0,
           en: "Lucia is washing her hands.",
+          why: "Washing something of your own takes **si**, with the object after it: umýva **si** ruky. **Sa** is for washing yourself, with nothing after it.",
+          ref: "u9-l4#0",
         },
         {
           type: "fill",
@@ -472,6 +500,8 @@ export const unit9: Unit = {
           options: ["si", "sa", "som"],
           answer: 0,
           en: "I'll have a coffee, please.",
+          why: "Having something to eat or drink is **dať si**: Dám **si** kávu = I'll have a coffee (for myself).",
+          ref: "u9-l4#0",
         },
         {
           type: "choice",
@@ -479,6 +509,8 @@ export const unit9: Unit = {
           options: ["Tomáš sa umýva.", "Tomáš si umýva.", "Tomáš umýva."],
           optionsLang: "sk",
           answer: 0,
+          why: "Washing yourself, with no object, takes **sa**: Tomáš **sa** umýva. **Si** needs something after it: umýva si ruky.",
+          ref: "u9-l4#0",
         },
         {
           type: "build",
@@ -515,6 +547,8 @@ export const unit9: Unit = {
           options: ["sme", "som", "sú"],
           answer: 0,
           en: "We met Tomáš on Friday.",
+          why: "**My** (we) in the past tense needs **sme**, and it comes before sa: V piatok **sme sa** stretli.",
+          ref: "u9-l4#7",
         },
         {
           type: "build",
@@ -529,6 +563,8 @@ export const unit9: Unit = {
           options: ["Kde ste sa stretli?", "Kde sa ste stretli?", "Kde ste stretli sa?"],
           optionsLang: "sk",
           answer: 0,
+          why: "The small words go second, in a fixed order: **ste** first, then **sa**, right after the question word: Kde **ste sa** stretli?",
+          ref: "u9-l4#7",
         },
         {
           type: "build",
@@ -544,6 +580,8 @@ export const unit9: Unit = {
           options: ["si", "sa", "je"],
           answer: 0,
           en: "Lucia called a taxi.",
+          why: "Calling a taxi for yourself is **zavolať si** taxík. With Lucia (ona) the past tense has no som or sme, so **si** comes second on its own.",
+          ref: "u9-l4#1",
         },
         {
           type: "build",
@@ -559,6 +597,8 @@ export const unit9: Unit = {
           options: ["Did you have a coffee?", "Did he have a coffee?", "Are you having a coffee?"],
           optionsLang: "en",
           answer: 0,
+          why: "The first **si** is ty in the past tense (dal si = you had), the second belongs to **dať si** kávu (to have a coffee). So: Did you have a coffee?",
+          ref: "u9-l4#1",
         },
         { type: "speak", sk: "Dám si kávu.", en: "I'll have a coffee." },
       ],
@@ -624,6 +664,7 @@ export const unit9: Unit = {
           options: ["národnosť", "zamestnávateľ", "bydlisko"],
           answer: 0,
           en: "What is your nationality?",
+          why: "Nationality is **národnosť**. It's also the only feminine word here, which fits **aká** and **vaša**.",
         },
         {
           type: "build",
@@ -645,6 +686,8 @@ export const unit9: Unit = {
           options: ["sa", "si", "som"],
           answer: 0,
           en: "Emma filled in the questionnaire and signed it.",
+          why: "Signing your name is **podpísať sa**, a verb with sa: podpísala **sa**. Si would need an object after it.",
+          ref: "u9-l4#0",
         },
         {
           type: "intro",
@@ -665,6 +708,7 @@ export const unit9: Unit = {
           options: ["Konferencia sa mi páčila.", "Konferencia sa mi páčil.", "Konferencia si mi páčila."],
           optionsLang: "sk",
           answer: 0,
+          why: "With páčiť sa, the verb agrees with what you like: konferencia is feminine, so páčil**a**. And it's always **sa**: páčiť sa.",
         },
         {
           type: "build",
@@ -699,6 +743,8 @@ export const unit9: Unit = {
           options: ["sa", "si", "som"],
           answer: 0,
           en: "I'm looking forward to your talk.",
+          why: "**Tešiť sa na** keeps its sa: Teším **sa** na prednášku.",
+          ref: "u9-l2#0",
         },
         {
           type: "build",
@@ -719,6 +765,8 @@ export const unit9: Unit = {
           ],
           optionsLang: "en",
           answer: 0,
+          why: "**Dať si** kávu is to have a coffee, and **vrátiť sa** is to come or go back: he had a coffee and went back to the talk.",
+          ref: "u9-l4#0",
         },
         {
           type: "fill",
@@ -727,6 +775,8 @@ export const unit9: Unit = {
           options: ["som", "sme", "sa"],
           answer: 0,
           en: "Yesterday I bought myself a new computer.",
+          why: "**Ja** in the past tense needs **som**, and it comes before si: Včera **som si** kúpila… (kúpila: a woman is speaking).",
+          ref: "u9-l4#7",
         },
         {
           type: "build",
@@ -742,6 +792,7 @@ export const unit9: Unit = {
           options: ["zamestnanie", "národnosť", "zamestnávateľ"],
           answer: 0,
           en: "What is your occupation?",
+          why: "Occupation is **zamestnanie**. It's neuter, which fits **aké** and **vaše**; a zamestnávateľ is the employer.",
         },
         { type: "speak", sk: "Kedy sa vrátiš?", en: "When will you be back?" },
         {
@@ -761,6 +812,8 @@ export const unit9: Unit = {
           ],
           optionsLang: "sk",
           answer: 0,
+          why: "The small words take second place, **sme** before **sa**, right after the first phrase: Na konferencii **sme sa** stretli. They never start a sentence.",
+          ref: "u9-l4#7",
         },
         {
           type: "fill",
@@ -769,6 +822,8 @@ export const unit9: Unit = {
           options: ["na", "v", "o"],
           answer: 0,
           en: "Emma clicked on the file.",
+          why: "You click **on** something: **kliknúť na** súbor.",
+          ref: "u5-l4#8",
         },
         { type: "listen", sk: "Súbor som poslal e-mailom.", en: "I sent the file by e-mail." },
         {
@@ -788,6 +843,8 @@ export const unit9: Unit = {
           options: ["si", "sa", "som"],
           answer: 0,
           en: "Tomáš had a coffee during the break.",
+          why: "Having a coffee is **dať si** kávu. With Tomáš (on) there's no som or sme, so **si** comes second on its own.",
+          ref: "u9-l4#1",
         },
         { type: "speak", sk: "Stretneme sa na prestávke.", en: "We'll meet during the break." },
       ],

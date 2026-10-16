@@ -152,6 +152,8 @@ export const unit3: Unit = {
           options: ["veľký", "veľká", "veľké"],
           answer: 1,
           en: "The room is big.",
+          why: "Izba ends in -a, so it's feminine and the adjective takes **-á**: veľk**á**. The ending is the same after je as before the noun.",
+          ref: "u3-l2#2",
         },
         {
           type: "fill",
@@ -160,6 +162,8 @@ export const unit3: Unit = {
           options: ["malý", "malá", "malé"],
           answer: 0,
           en: "The balcony is small.",
+          why: "Balkón ends in a consonant, so it's masculine and takes **-ý**: mal**ý**. Malá goes with feminine nouns like izba, malé with neuter ones like auto.",
+          ref: "u3-l2#2",
         },
         {
           type: "choice",
@@ -167,6 +171,8 @@ export const unit3: Unit = {
           options: ["nová kuchyňa", "nový kuchyňa", "nové kuchyňa"],
           optionsLang: "sk",
           answer: 0,
+          why: "Kuchyňa ends in -a, so it's feminine and the adjective takes **-á**: nov**á**. Nový goes with masculine nouns, nové with neuter ones.",
+          ref: "u3-l2#2",
         },
         {
           type: "intro",
@@ -201,6 +207,8 @@ export const unit3: Unit = {
           options: ["Aký", "Aká", "Aké"],
           answer: 1,
           en: "What's the bathroom like?",
+          why: "**Aký?** changes like an adjective. Kúpeľňa ends in -a, so it's feminine: **aká**.",
+          ref: "u3-l2#9",
         },
         {
           type: "choice",
@@ -209,6 +217,8 @@ export const unit3: Unit = {
           options: ["What is the balcony like?", "Where is the balcony?", "Is the balcony big?"],
           optionsLang: "en",
           answer: 0,
+          why: "**Aký?** asks what something is like. Where? is **kde**: Kde je balkón?",
+          ref: "u3-l2#9",
         },
         {
           type: "fill",
@@ -217,6 +227,8 @@ export const unit3: Unit = {
           options: ["starý", "stará", "staré"],
           answer: 2,
           en: "What's the car like? – It's old.",
+          why: "Auto ends in -o, so it's neuter and takes **-é**: star**é**. The question already shows it: **aké** je auto.",
+          ref: "u3-l2#2",
         },
         {
           type: "build",
@@ -239,6 +251,8 @@ export const unit3: Unit = {
           options: ["malý", "malá", "malé"],
           answer: 1,
           en: "The dorm is big, but the kitchen is small.",
+          why: "Each adjective matches its own noun. Kuchyňa is feminine, so **malá**, even though veľký before it goes with internát, which is masculine.",
+          ref: "u3-l2#2",
         },
         { type: "speak", sk: "Izba je veľká a pekná.", en: "The room is big and nice." },
       ],
@@ -318,6 +332,8 @@ export const unit3: Unit = {
           options: ["veľký", "veľká", "veľké"],
           answer: 2,
           en: "The window is big.",
+          why: "Okno ends in -o, so it's neuter, like auto, and takes **-é**: veľk**é**.",
+          ref: "u3-l2#2",
         },
         {
           type: "fill",
@@ -326,6 +342,8 @@ export const unit3: Unit = {
           options: ["nový", "nová", "nové"],
           answer: 1,
           en: "The bed is new.",
+          why: "Posteľ ends in a consonant but is feminine, so the adjective takes **-á**: nov**á**.",
+          ref: "u3-l2#2",
         },
         {
           type: "build",
@@ -385,6 +403,8 @@ export const unit3: Unit = {
           options: ["môj", "moja", "moje"],
           answer: 1,
           en: "That's my room.",
+          why: "Possessives match the gender of the thing owned. Izba is feminine, so **moja**. Watch the vowel: môj for masculine, but moja.",
+          ref: "u3-l4#0",
         },
         {
           type: "fill",
@@ -393,6 +413,8 @@ export const unit3: Unit = {
           options: ["tvoj", "tvoja", "tvoje"],
           answer: 0,
           en: "Where is your desk?",
+          why: "Stôl is masculine, so it's **tvoj**. Tvoja goes with feminine nouns, tvoje with neuter ones.",
+          ref: "u3-l4#0",
         },
         {
           type: "match",
@@ -432,6 +454,8 @@ export const unit3: Unit = {
           options: ["Čí", "Čia", "Čie"],
           answer: 1,
           en: "Whose bed is it?",
+          why: "**Čí?** matches the thing it asks about. Posteľ is feminine, even without -a, so **čia**.",
+          ref: "u3-l4#7",
         },
         {
           type: "choice",
@@ -439,6 +463,8 @@ export const unit3: Unit = {
           options: ["Moja.", "Môj.", "Moje."],
           optionsLang: "sk",
           answer: 0,
+          why: "The short answer keeps the gender of the thing: skriňa is feminine, so **moja**, just like čia. Môj is masculine, moje neuter.",
+          ref: "u3-l4#7",
         },
         {
           type: "build",
@@ -454,6 +480,8 @@ export const unit3: Unit = {
           options: ["tvoj", "tvoja", "tvoje"],
           answer: 1,
           en: "Lucia, where is your wardrobe?",
+          why: "Possessives match the thing owned. Skriňa is feminine, so **tvoja**. Tvoj goes with masculine nouns, tvoje with neuter ones.",
+          ref: "u3-l4#0",
         },
         {
           type: "fill",
@@ -462,6 +490,8 @@ export const unit3: Unit = {
           options: ["tvoja", "vaša"],
           answer: 1,
           en: "Mrs Horváthová, is this your lamp?",
+          why: "You say vy to a teacher, so “your” is **vaša** (feminine, for lampa). Tvoja goes with ty, for friends.",
+          ref: "u3-l4#0",
         },
         {
           type: "build",
@@ -496,6 +526,8 @@ export const unit3: Unit = {
           options: ["Poďte ďalej!", "Dobrú noc!", "Kde je byt?"],
           optionsLang: "sk",
           answer: 0,
+          why: "Marek is talking to two people, so he uses the vy form, with **-te**: Poď**te** ďalej! = Come in! To one friend it's Poď ďalej!",
+          ref: "u1-l4#6",
         },
         { type: "intro", sk: "chodba", en: "hallway" },
         {
@@ -556,6 +588,8 @@ export const unit3: Unit = {
           options: ["svetlý", "svetlá", "svetlé"],
           answer: 1,
           en: "The living room is big and bright.",
+          why: "Obývačka is feminine (it ends in -a), so both adjectives take **-á**: veľká a svetl**á**.",
+          ref: "u3-l2#2",
         },
         {
           type: "build",
@@ -582,6 +616,8 @@ export const unit3: Unit = {
           options: ["lacný", "lacná", "lacné"],
           answer: 0,
           en: "The flat isn't expensive, it's cheap.",
+          why: "Byt is masculine (it ends in a consonant), so the adjective takes **-ý**: lacn**ý**, just like drahý.",
+          ref: "u3-l2#2",
         },
         { type: "speak", sk: "Poďte ďalej!", en: "Come in!" },
       ],
@@ -620,6 +656,8 @@ export const unit3: Unit = {
           options: ["Ktorý", "Ktorá", "Ktoré"],
           answer: 1,
           en: "Which room is yours?",
+          why: "**Ktorý?** changes like an adjective. Izba is feminine, so **ktorá**.",
+          ref: "u3-l6#0",
         },
         {
           type: "fill",
@@ -628,6 +666,8 @@ export const unit3: Unit = {
           options: ["Ten", "Tá", "To"],
           answer: 0,
           en: "Which desk is mine? – The one at the front.",
+          why: "Point with the word that matches the noun: stôl is masculine, so **ten**. Tá is for feminine nouns, to for neuter ones.",
+          ref: "u3-l6#0",
         },
         {
           type: "choice",
@@ -635,6 +675,8 @@ export const unit3: Unit = {
           options: ["Tá vľavo.", "Ten vľavo.", "To vľavo."],
           optionsLang: "sk",
           answer: 0,
+          why: "Lampa is feminine, so Emma points with **tá**, matching ktorá. Ten is masculine, to is neuter.",
+          ref: "u3-l6#0",
         },
         {
           type: "fill",
@@ -643,6 +685,8 @@ export const unit3: Unit = {
           options: ["Tento", "Táto", "Toto"],
           answer: 2,
           en: "Which window? – This one.",
+          why: "Okno is neuter, so the pointing word is to; for “this one here”, add -to: **toto**. Tento is masculine, táto feminine.",
+          ref: "u3-l6#0",
         },
         {
           type: "build",
@@ -680,6 +724,8 @@ export const unit3: Unit = {
           options: ["Tomášov", "Tomášova", "Tomášovo"],
           answer: 0,
           en: "That's Tomáš's flat.",
+          why: "Byt is masculine, so Tomášov takes no ending: **Tomášov**. Tomášova goes with feminine nouns, Tomášovo with neuter ones.",
+          ref: "u3-l6#7",
         },
         {
           type: "fill",
@@ -688,6 +734,8 @@ export const unit3: Unit = {
           options: ["Luciin", "Luciina", "Luciino"],
           answer: 1,
           en: "Lucia's bed is on the left.",
+          why: "Posteľ is feminine, even without -a, so Luciin adds **-a**: Luciin**a**.",
+          ref: "u3-l6#7",
         },
         {
           type: "choice",
@@ -695,6 +743,8 @@ export const unit3: Unit = {
           options: ["Emmina izba", "Emmin izba", "Emmova izba"],
           optionsLang: "sk",
           answer: 0,
+          why: "Women's names drop -a and add **-in**: Emma → Emmin. Izba is feminine, so add -a: Emmin**a**. -ov is for men's names.",
+          ref: "u3-l6#7",
         },
         {
           type: "build",
@@ -710,6 +760,8 @@ export const unit3: Unit = {
           options: ["Aký", "Ktorý", "Čí"],
           answer: 0,
           en: "What's the flat like? – Big and bright.",
+          why: "The answer says what the flat is like, so the question is **Aký?** Ktorý asks which one, čí asks whose.",
+          ref: "u3-l2#9",
         },
         { type: "speak", sk: "Ktorá izba je tvoja?", en: "Which room is yours?" },
       ],
@@ -737,6 +789,8 @@ export const unit3: Unit = {
           options: ["malý", "malá", "malé"],
           answer: 1,
           en: "Our kitchen is small.",
+          why: "Kuchyňa is feminine, so the adjective takes **-á**: mal**á**, like naša before it.",
+          ref: "u3-l2#2",
         },
         { type: "listen", sk: "Vrátnica je dole, vľavo.", en: "The front desk is downstairs, on the left." },
         {
@@ -746,6 +800,8 @@ export const unit3: Unit = {
           options: ["Whose bed is it?", "Which bed is it?", "What is the bed like?"],
           optionsLang: "en",
           answer: 0,
+          why: "**Čia** is a form of čí?, whose. Which? would be ktorá, and what is it like? would be aká.",
+          ref: "u3-l4#7",
         },
         {
           type: "build",
@@ -761,6 +817,8 @@ export const unit3: Unit = {
           options: ["tvoj", "tvoja", "tvoje"],
           answer: 0,
           en: "Which desk is yours?",
+          why: "Stôl is masculine, so **tvoj**, just like ktorý. Tvoja goes with feminine nouns, tvoje with neuter ones.",
+          ref: "u3-l4#0",
         },
         {
           type: "build",
@@ -776,6 +834,8 @@ export const unit3: Unit = {
           options: ["Emmin", "Emmina", "Emmino"],
           answer: 1,
           en: "Where is Emma's lamp?",
+          why: "Lampa is feminine, so Emmin adds **-a**: Emmin**a**.",
+          ref: "u3-l6#7",
         },
         {
           type: "choice",
@@ -783,6 +843,8 @@ export const unit3: Unit = {
           options: ["Malá a tmavá.", "Tá vľavo.", "Moja."],
           optionsLang: "sk",
           answer: 0,
+          why: "**Aká?** asks what the room is like, so the answer describes it. Tá vľavo answers ktorá (which one), and Moja answers čia (whose).",
+          ref: "u3-l2#9",
         },
         { type: "listen", sk: "Ich byt je lacný.", en: "Their flat is cheap." },
         {
@@ -799,6 +861,8 @@ export const unit3: Unit = {
           options: ["Ktorý", "Ktorá", "Ktoré"],
           answer: 1,
           en: "Which bed is Lucia's? – The one on the right.",
+          why: "The answer points to one bed, tá vpravo, so the question is which one. Posteľ is feminine: **ktorá**.",
+          ref: "u3-l6#0",
         },
         {
           type: "fill",
@@ -807,6 +871,8 @@ export const unit3: Unit = {
           options: ["váš", "vaša", "vaše"],
           answer: 0,
           en: "Mrs Horváthová, is this your desk?",
+          why: "Stôl is masculine, so **váš**. Vaša and vaše go with feminine and neuter nouns. It's váš, not tvoj, because you say vy to a teacher.",
+          ref: "u3-l4#0",
         },
         {
           type: "build",

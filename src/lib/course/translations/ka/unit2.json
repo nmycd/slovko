@@ -109,6 +109,10 @@
     "en": "Tomáš is from Slovakia.",
     "t": "ტომაში სლოვაკეთიდანაა."
   },
+  "u2-l1.6.why": {
+    "en": "“From” is **zo** before s, z, š or ž, and Slovensko starts with s. Elsewhere it's just z: z Írska, z Nemecka.",
+    "t": "„-დან“ s, z, š ან ž-ის წინ არის **zo**, Slovensko კი s-ით იწყება. სხვაგან უბრალოდ z-ა: z Írska, z Nemecka."
+  },
   "u2-l1.7.prompt": {
     "en": "I'm from Germany.",
     "t": "გერმანიიდან ვარ."
@@ -124,6 +128,10 @@
   "u2-l1.9.question": {
     "en": "Peter is from America. Which sentence is right?",
     "t": "პეტერი ამერიკიდანაა. რომელი წინადადებაა სწორი?"
+  },
+  "u2-l1.9.why": {
+    "en": "After z, Amerika changes -a to **-y**: z Amerik**y**. And it stays z: zo is only for words starting with s, z, š or ž.",
+    "t": "z-ის შემდეგ Amerika -a-ს **-y**-ით ცვლის: z Amerik**y**. თვითონ z კი არ იცვლება: zo მხოლოდ s, z, š ან ž-ით დაწყებული სიტყვების წინ დგას."
   },
   "u2-l1.10.en": {
     "en": "Where are you from? I'm from Poland.",
@@ -163,6 +171,10 @@
     "en": "Emma is Irish.",
     "t": "ემა ირლანდიელია."
   },
+  "u2-l1.14.why": {
+    "en": "Emma is a woman, so she takes the women's form with **-ka**: Ír**ka**. Ír is for a man.",
+    "t": "ემა ქალია, ამიტომ საჭიროა ქალის ფორმა **-ka**-თი: Ír**ka**. Ír კაცზე ითქმის."
+  },
   "u2-l1.15.question": {
     "en": "Who would say “Som Slovenka”?",
     "t": "ვინ იტყოდა „Som Slovenka“?"
@@ -178,6 +190,10 @@
       "ტომაში",
       "ემა"
     ]
+  },
+  "u2-l1.15.why": {
+    "en": "**Slovenka** is the women's form, so it's a Slovak woman: Lucia. Tomáš would say Som Slovák, and Emma is Irish: Som Írka.",
+    "t": "**Slovenka** ქალის ფორმაა, ანუ სლოვაკი ქალი: ლუცია. ტომაში იტყოდა Som Slovák, ემა კი ირლანდიელია: Som Írka."
   },
   "u2-l1.16.answers": {
     "en": [
@@ -320,6 +336,10 @@
     "en": "I'm from Ireland.",
     "t": "მე ირლანდიიდან ვარ."
   },
+  "u2-l2.2.why": {
+    "en": "With **ja** (I), byť is **som**. Si goes with ty, je with on or ona.",
+    "t": "**ja**-სთან (მე) byť არის **som**, ანუ „ვარ“. Si ty-სთან დგას, je — on-თან ან ona-სთან."
+  },
   "u2-l2.3.pairs": {
     "en": [
       "you are (one friend)",
@@ -340,9 +360,17 @@
     "en": "Lucia, are you Slovak?",
     "t": "ლუცია, შენ სლოვაკი ხარ?"
   },
+  "u2-l2.4.why": {
+    "en": "With **ty** (you, a friend), byť is **si**. Som goes with ja, ste with vy.",
+    "t": "**ty**-სთან (შენ, მეგობარს) byť არის **si**, ანუ „ხარ“. Som ja-სთან დგას, ste — vy-სთან."
+  },
   "u2-l2.5.question": {
     "en": "You ask your teacher, pani Horváthová, where she is from. What do you say?",
     "t": "მასწავლებელს, ქალბატონ ჰორვატოვას, ეკითხებით, საიდან არის. რას ეტყვით?"
+  },
+  "u2-l2.5.why": {
+    "en": "A teacher gets the polite **vy**, and with vy byť is **ste**. Odkiaľ si? is for a friend (ty); sú is for oni (they).",
+    "t": "მასწავლებელს თავაზიანად **vy**-თი მიმართავენ, vy-სთან კი byť არის **ste** („ხართ“). Odkiaľ si? მეგობრისთვისაა (ty), sú კი oni-სთვის (ისინი)."
   },
   "u2-l2.6.prompt": {
     "en": "We're from Slovakia.",
@@ -352,6 +380,10 @@
     "en": "Tomáš and Lucia are from Slovakia.",
     "t": "ტომაში და ლუცია სლოვაკეთიდან არიან."
   },
+  "u2-l2.7.why": {
+    "en": "Tomáš and Lucia are two people, **oni** (they), and with oni byť is **sú**. Je is for one person, sme for my (we).",
+    "t": "ტომაში და ლუცია ორნი არიან, **oni** (ისინი), oni-სთან კი byť არის **sú** („არიან“). Je ერთი ადამიანისთვისაა, sme — my-სთვის (ჩვენ)."
+  },
   "u2-l2.8.en": {
     "en": "Who's that? That's Marek.",
     "t": "ვინ არის ეს? ეს მარეკია."
@@ -360,6 +392,10 @@
     "en": "Anna and Eva: which word means “they”?",
     "t": "ანა და ევა: რომელი სიტყვაა „ისინი“?"
   },
+  "u2-l2.9.why": {
+    "en": "**Ony** is “they” for women only, like Anna and Eva. **Oni** needs at least one man in the group, and ono means “it”.",
+    "t": "ქართულ „ისინი“-ს ორი სიტყვა შეესაბამება: **ony** მხოლოდ ქალებზეა, როგორიც ანა და ევაა. **Oni**-სთვის ჯგუფში ერთი კაცი მაინც უნდა იყოს, ono კი „ის“-ია და არა „ისინი“."
+  },
   "u2-l2.10.prompt": {
     "en": "Are you Slovak? (to a male friend)",
     "t": "სლოვაკი ხარ? (კაცს, შენ)"
@@ -367,6 +403,10 @@
   "u2-l2.11.en": {
     "en": "Excuse me, are you from Germany?",
     "t": "უკაცრავად, თქვენ გერმანიიდან ხართ?"
+  },
+  "u2-l2.11.why": {
+    "en": "Prepáčte already shows the polite **vy**, and with vy byť is **ste**. Si goes with ty, sú with oni.",
+    "t": "Prepáčte უკვე აჩვენებს თავაზიან **vy**-ს, vy-სთან კი byť არის **ste** („ხართ“). Si ty-სთან დგას, sú — oni-სთან."
   },
   "u2-l2.12.answers": {
     "en": [
@@ -495,6 +535,10 @@
     "en": "Lucia is a student.",
     "t": "ლუცია სტუდენტია."
   },
+  "u2-l3.1.why": {
+    "en": "Lucia is a woman, so she takes the feminine form with **-ka**: študent**ka**. Študent is for a man.",
+    "t": "ლუცია ქალია, ამიტომ საჭიროა მდედრობითი ფორმა **-ka**-თი: študent**ka**. ქართული „სტუდენტი“-სგან განსხვავებით, študent მხოლოდ კაცზე ითქმის."
+  },
   "u2-l3.2.prompt": {
     "en": "Jana is a teacher.",
     "t": "იანა მასწავლებელია."
@@ -503,9 +547,17 @@
     "en": "Which word means a female friend?",
     "t": "რომელი სიტყვაა „მეგობარი“ ქალზე?"
   },
+  "u2-l3.3.why": {
+    "en": "The feminine form adds **-ka**: kamarát → kamarát**ka**. Učiteľka is feminine too, but it means a female teacher.",
+    "t": "მდედრობით ფორმას ემატება **-ka**: kamarát → kamarát**ka**. Učiteľka-ც მდედრობითია, მაგრამ ის მასწავლებელ ქალს ნიშნავს."
+  },
   "u2-l3.4.en": {
     "en": "Peter is German, and Anna is German too.",
     "t": "პეტერი გერმანელია და ანაც გერმანელია."
+  },
+  "u2-l3.4.why": {
+    "en": "Peter is a man, so he takes the masculine form: **Nemec**. Nemka is for a woman, and Nemecko is the country, Germany.",
+    "t": "პეტერი კაცია, ამიტომ საჭიროა მამრობითი ფორმა: **Nemec**. Nemka ქალზე ითქმის, Nemecko კი ქვეყანაა, გერმანია."
   },
   "u2-l3.5.en": {
     "en": "Mrs Horváthová is a teacher.",
@@ -589,17 +641,33 @@
     "en": "Which word is feminine?",
     "t": "რომელი სიტყვაა მდედრობითი სქესის?"
   },
+  "u2-l3.7.why": {
+    "en": "Nouns ending in **-a** are usually feminine: izb**a**. Internát ends in a consonant (masculine), and auto in -o (neuter).",
+    "t": "**-a**-ზე დაბოლოებული არსებითი სახელები ჩვეულებრივ მდედრობითი სქესისაა: izb**a**. Internát თანხმოვანზე ბოლოვდება (მამრობითი), auto კი -o-ზე (საშუალო)."
+  },
   "u2-l3.8.question": {
     "en": "Which word is neuter?",
     "t": "რომელი სიტყვაა საშუალო სქესის?"
+  },
+  "u2-l3.8.why": {
+    "en": "**Dievča** (girl) is an exception: it ends in -a but is neuter. Žena is feminine, and muž, ending in a consonant, is masculine.",
+    "t": "**Dievča** (გოგო) გამონაკლისია: -a-ზე ბოლოვდება, მაგრამ საშუალო სქესისაა. Žena მდედრობითია, muž კი, თანხმოვანზე დაბოლოებული, მამრობითი."
   },
   "u2-l3.9.en": {
     "en": "Lucia? Yes, she's a student.",
     "t": "ლუცია? დიახ, ის სტუდენტია."
   },
+  "u2-l3.9.why": {
+    "en": "Lucia is a woman, so “she” is **ona**. On is he, ono is it.",
+    "t": "ქართულ „ის“-ს სლოვაკურში სამი სიტყვა შეესაბამება. ლუცია ქალია, ამიტომ **ona**. On კაცზეა, ono — საშუალო სქესზე."
+  },
   "u2-l3.10.en": {
     "en": "Peter? He's German.",
     "t": "პეტერი? ის გერმანელია."
+  },
+  "u2-l3.10.why": {
+    "en": "Peter is a man, so “he” is **on**. Ona is she, ono is it.",
+    "t": "პეტერი კაცია, ამიტომ „ის“ არის **on**. Ona ქალზეა, ono — საშუალო სქესზე."
   },
   "u2-l3.11.pairs": {
     "en": [
@@ -739,9 +807,17 @@
     "en": "Lucia speaks English.",
     "t": "ლუცია ინგლისურად ლაპარაკობს."
   },
+  "u2-l4.1.why": {
+    "en": "With on or ona, the verb has no ending: Lucia **hovorí**. Hovorím (-m) is ja, hovoria (-ia) is oni.",
+    "t": "on-თან ან ona-სთან ზმნას დაბოლოება არ აქვს: Lucia **hovorí**. Hovorím (-m) ja-ს ფორმაა, hovoria (-ia) — oni-ს."
+  },
   "u2-l4.2.en": {
     "en": "Tomáš and Marek speak Slovak.",
     "t": "ტომაში და მარეკი სლოვაკურად ლაპარაკობენ."
+  },
+  "u2-l4.2.why": {
+    "en": "Tomáš and Marek are **oni** (they), so hovoriť ends in **-ia**: hovor**ia**. Hovorí is one person, hovoríme is my (we).",
+    "t": "ტომაში და მარეკი = **oni** (ისინი), ამიტომ hovoriť ბოლოვდება **-ia**-ზე: hovor**ia**. Hovorí ერთ ადამიანზეა, hovoríme — my-ზე (ჩვენ)."
   },
   "u2-l4.3.prompt": {
     "en": "What's her name?",
@@ -750,6 +826,10 @@
   "u2-l4.4.question": {
     "en": "How do you say “We speak Slovak”?",
     "t": "როგორ ვთქვათ „სლოვაკურად ვლაპარაკობთ“?"
+  },
+  "u2-l4.4.why": {
+    "en": "With **my** (we), the verb ends in **-me**: hovorí**me**. -te is for vy, -ia for oni (they).",
+    "t": "**my**-სთან (ჩვენ) ზმნა **-me**-ზე ბოლოვდება: hovorí**me**. -te vy-სთვისაა, -ia — oni-სთვის (ისინი)."
   },
   "u2-l4.5.title": {
     "en": "Študovať and rozumieť",
@@ -877,9 +957,17 @@
     "en": "Lucia studies and Marek works.",
     "t": "ლუცია სწავლობს, მარეკი კი მუშაობს."
   },
+  "u2-l4.7.why": {
+    "en": "Marek is **on**, so the verb has no ending, just like študuje: **pracuje**. Pracujem is ja, pracujú is oni.",
+    "t": "მარეკი = **on**, ამიტომ ზმნას დაბოლოება არ აქვს, ისევე როგორც študuje-ს: **pracuje**. Pracujem ja-ს ფორმაა, pracujú — oni-ს."
+  },
   "u2-l4.8.en": {
     "en": "Lucia and Tomáš understand English.",
     "t": "ლუციას და ტომაშს ინგლისური ესმით."
+  },
+  "u2-l4.8.why": {
+    "en": "Lucia and Tomáš are **oni**, and the “they” form of rozumieť is the different one: rozume**jú**. Rozumie is one person, rozumieme is my.",
+    "t": "ლუცია და ტომაში = **oni**, rozumieť-ის „ისინი“-ს ფორმა კი განსხვავებულია: rozume**jú**. Rozumie ერთ ადამიანზეა, rozumieme — my-ზე."
   },
   "u2-l4.9.prompt": {
     "en": "Tomáš, do you work as a programmer?",
@@ -912,6 +1000,10 @@
   "u2-l4.12.en": {
     "en": "What do you do? — I study.",
     "t": "რას საქმიანობ? — ვსწავლობ."
+  },
+  "u2-l4.12.why": {
+    "en": "The answer študujem is ja, so the question asks **ty** (you), and the verb ends in **-š**: robí**š**. Robím is ja, robia is oni.",
+    "t": "პასუხი študujem ja-ს ფორმაა, ამიტომ კითხვა **ty**-ს (შენ) ეკითხება და ზმნა **-š**-ზე ბოლოვდება: robí**š**. Robím ja-ს ფორმაა, robia — oni-ს."
   },
   "u2-l4.13.en": {
     "en": "Do you study or work?",
@@ -999,9 +1091,17 @@
     "en": "Marek doesn't speak English.",
     "t": "მარეკი ინგლისურად არ ლაპარაკობს."
   },
+  "u2-l5.1.why": {
+    "en": "**Ne-** goes in front, and the ending still shows the person: Marek is on, so **nehovorí**. Nehovorím is ja, nehovoria is oni.",
+    "t": "**Ne-** წინ დგას, დაბოლოება კი კვლავ პირს აჩვენებს: მარეკი = on, ამიტომ **nehovorí**. Nehovorím ja-ს ფორმაა, nehovoria — oni-ს."
+  },
   "u2-l5.2.question": {
     "en": "Which one is correct?",
     "t": "რომელია სწორი?"
+  },
+  "u2-l5.2.why": {
+    "en": "**Ne-** goes in front of the verb, written as one word: **ne**študujem. Only byť takes a separate **nie**: nie som.",
+    "t": "ქართული „არ“-ისგან განსხვავებით, **ne-** ზმნასთან ერთად, ერთ სიტყვად იწერება: **ne**študujem. ცალკე **nie** მხოლოდ byť-ს აქვს: nie som."
   },
   "u2-l5.3.prompt": {
     "en": "We don't speak German.",
@@ -1014,6 +1114,10 @@
   "u2-l5.5.question": {
     "en": "Pán Kováč speaks very fast and you don't understand. What do you say?",
     "t": "ბატონი კოვაჩი ძალიან სწრაფად ლაპარაკობს და ვერ იგებთ. რას ეტყვით?"
+  },
+  "u2-l5.5.why": {
+    "en": "**Nerozumiem** is ne- + rozumiem, I don't understand, and pán Kováč gets the polite Prepáčte. Áno, rozumiem says the opposite; Nech sa páči is for handing something over.",
+    "t": "**Nerozumiem** = ne- + rozumiem, „არ მესმის“, ბატონ კოვაჩს კი თავაზიანი Prepáčte შეეფერება. Áno, rozumiem საპირისპიროს ნიშნავს, Nech sa páči კი რამის მიწოდებისას ითქმის."
   },
   "u2-l5.6.title": {
     "en": "Not with byť: nie som",
@@ -1121,9 +1225,17 @@
     "en": "Emma isn't from Slovakia.",
     "t": "ემა სლოვაკეთიდან არ არის."
   },
+  "u2-l5.7.why": {
+    "en": "Byť takes a separate **nie**, and Emma is ona, so **nie je**. Nie si is ty, nie sú is oni.",
+    "t": "byť-ს ცალკე **nie** აქვს, ემა კი ona-ა, ამიტომ **nie je**. Nie si ty-ს ფორმაა, nie sú — oni-ს."
+  },
   "u2-l5.8.question": {
     "en": "“Si zo Slovenska?” You are from Ireland. What do you answer?",
     "t": "„Si zo Slovenska?“ თქვენ ირლანდიიდან ხართ. რას უპასუხებთ?"
+  },
+  "u2-l5.8.why": {
+    "en": "You're not from Slovakia, and you answer as ja, so **nie som**. Nie si would mean “you aren't”.",
+    "t": "სლოვაკეთიდან არ ხართ და საკუთარ თავზე (ja) პასუხობთ, ამიტომ **nie som**, ანუ „არ ვარ“. Nie si ნიშნავს „არ ხარ“."
   },
   "u2-l5.9.prompt": {
     "en": "Tomáš isn't German, he's Slovak.",
@@ -1132,6 +1244,10 @@
   "u2-l5.10.en": {
     "en": "Lucia and Tomáš aren't from Ireland.",
     "t": "ლუცია და ტომაში ირლანდიიდან არ არიან."
+  },
+  "u2-l5.10.why": {
+    "en": "Lucia and Tomáš are **oni**, so byť is sú, with a separate nie: **nie sú**. Nie sme is my (we), nie ste is vy.",
+    "t": "ლუცია და ტომაში = **oni**, ამიტომ byť არის sú, ცალკე nie-თი: **nie sú**. Nie sme my-ს ფორმაა (ჩვენ), nie ste — vy-ს."
   },
   "u2-l5.11.pairs": {
     "en": [
@@ -1171,6 +1287,10 @@
   "u2-l5.13.en": {
     "en": "Sorry, I don't understand Slovak.",
     "t": "უკაცრავად, სლოვაკური არ მესმის."
+  },
+  "u2-l5.13.why": {
+    "en": "With **ja**, the verb ends in **-m**, and ne- goes in front: **nerozumiem**. Nerozumie is on or ona, nerozumejú is oni.",
+    "t": "**ja**-სთან ზმნა **-m**-ზე ბოლოვდება, ne- კი წინ დგას: **nerozumiem**. Nerozumie on-ის ან ona-ს ფორმაა, nerozumejú — oni-ს."
   },
   "u2-l5.14.en": {
     "en": "No, I'm not from Slovakia.",
@@ -1264,6 +1384,10 @@
     "en": "How do you say 14?",
     "t": "როგორ ვთქვათ 14?"
   },
+  "u2-l6.8.why": {
+    "en": "11–19 end in **-násť**, and 14 uses the short form štr-: **štrnásť**. Štyri is 4, štyridsať is 40.",
+    "t": "11–19 ბოლოვდება **-násť**-ზე, 14 კი მოკლე ფორმას, štr-ს იყენებს: **štrnásť**. Štyri არის 4, štyridsať — 40."
+  },
   "u2-l6.9.en": {
     "en": "How old are you? (informal)",
     "t": "რამდენი წლის ხარ?"
@@ -1287,6 +1411,10 @@
   "u2-l6.12.en": {
     "en": "How old are you, Mr Kováč?",
     "t": "რამდენი წლის ხართ, ბატონო კოვაჩ?"
+  },
+  "u2-l6.12.why": {
+    "en": "Pán Kováč gets the polite **vy**, so the verb ends in **-te**: má**te**. Máš is for a friend (ty).",
+    "t": "ბატონ კოვაჩს თავაზიანად **vy**-თი მიმართავენ, ამიტომ ზმნა **-te**-ზე ბოლოვდება: má**te**. Máš მეგობრისთვისაა (ty)."
   },
   "u2-l6.13.en": {
     "en": "Tomáš is thirty.",
@@ -1316,9 +1444,17 @@
       "თორმეტი"
     ]
   },
+  "u2-l6.15.why": {
+    "en": "Words for order end in **-ý** or **-í**, so **druhý** is second, like prvý (first). Two is dva.",
+    "t": "რიგობითი რიცხვები **-ý**-ზე ან **-í**-ზე ბოლოვდება, ამიტომ **druhý** არის „მეორე“, როგორც prvý („პირველი“). „ორი“ არის dva."
+  },
   "u2-l6.16.en": {
     "en": "I have one car.",
     "t": "ერთი მანქანა მაქვს."
+  },
+  "u2-l6.16.why": {
+    "en": "“One” matches the noun's gender. Auto ends in -o, so it's neuter: **jedno**. Jeden is masculine (jeden mobil), jedna feminine (jedna izba).",
+    "t": "„ერთი“ სიტყვის სქესს ეთანხმება: auto -o-ზე ბოლოვდება, ანუ საშუალო სქესისაა, ამიტომ **jedno**. Jeden მამრობითია (jeden mobil), jedna — მდედრობითი (jedna izba)."
   },
   "u2-l6.17.en": {
     "en": "How old are you?",
@@ -1336,6 +1472,10 @@
     "en": "Marek is from Slovakia.",
     "t": "მარეკი სლოვაკეთიდანაა."
   },
+  "u2-l7.1.why": {
+    "en": "Slovensko starts with s, and before s, z, š or ž, “from” is **zo**. Other countries take z: z Írska.",
+    "t": "Slovensko s-ით იწყება, s, z, š ან ž-ის წინ კი „-დან“ არის **zo**. სხვა ქვეყნები z-ს იღებს: z Írska."
+  },
   "u2-l7.2.prompt": {
     "en": "They're from Germany.",
     "t": "ისინი გერმანიიდან არიან."
@@ -1343,6 +1483,10 @@
   "u2-l7.3.en": {
     "en": "I'm not a student, I'm a teacher.",
     "t": "სტუდენტი არ ვარ, მასწავლებელი ვარ."
+  },
+  "u2-l7.3.why": {
+    "en": "Byť takes a separate **nie**, and ja goes with som: **nie som**. Nie je is on or ona, and plain som would mean “I am”.",
+    "t": "byť-ს ცალკე **nie** აქვს, ja კი som-თან დგას: **nie som**. Nie je on-ის ან ona-ს ფორმაა, უბრალოდ som კი ნიშნავს „ვარ“."
   },
   "u2-l7.4.pairs": {
     "en": [
@@ -1364,9 +1508,17 @@
     "en": "Which word is masculine?",
     "t": "რომელი სიტყვაა მამრობითი სქესის?"
   },
+  "u2-l7.5.why": {
+    "en": "A noun ending in a consonant is usually masculine: **internát**. Univerzita ends in -a (feminine), mesto in -o (neuter).",
+    "t": "თანხმოვანზე დაბოლოებული არსებითი სახელი ჩვეულებრივ მამრობითი სქესისაა: **internát**. Univerzita -a-ზე ბოლოვდება (მდედრობითი), mesto -o-ზე (საშუალო)."
+  },
   "u2-l7.6.en": {
     "en": "Marek works as a cook.",
     "t": "მარეკი მზარეულად მუშაობს."
+  },
+  "u2-l7.6.why": {
+    "en": "Marek is **on**, so the verb has no ending: **pracuje**. Pracujem is ja, pracujú is oni.",
+    "t": "მარეკი = **on**, ამიტომ ზმნას დაბოლოება არ აქვს: **pracuje**. Pracujem ja-ს ფორმაა, pracujú — oni-ს."
   },
   "u2-l7.7.answers": {
     "en": [
@@ -1391,6 +1543,10 @@
     "en": "Do you study or work?",
     "t": "სწავლობთ თუ მუშაობთ?"
   },
+  "u2-l7.8.why": {
+    "en": "With **vy**, the verb ends in **-te**, just like pracujete: študuje**te**. Študuješ is ty, študujú is oni.",
+    "t": "**vy**-სთან ზმნა **-te**-ზე ბოლოვდება, ისევე როგორც pracujete: študuje**te**. Študuješ ty-ს ფორმაა, študujú — oni-ს."
+  },
   "u2-l7.9.en": {
     "en": "Lucia is nineteen.",
     "t": "ლუცია ცხრამეტი წლისაა."
@@ -1398,6 +1554,10 @@
   "u2-l7.10.question": {
     "en": "How do you say 40?",
     "t": "როგორ ვთქვათ 40?"
+  },
+  "u2-l7.10.why": {
+    "en": "Twenty, thirty and forty end in **-dsať**: dvadsať, tridsať, štyri**dsať**. **-násť** is for 11–19: štrnásť is 14.",
+    "t": "ოცი, ოცდაათი და ორმოცი **-dsať**-ზე ბოლოვდება: dvadsať, tridsať, štyri**dsať**. **-násť** 11–19-ისთვისაა: štrnásť არის 14."
   },
   "u2-l7.11.prompt": {
     "en": "I'm not from Slovakia. I'm from Ireland.",
@@ -1407,9 +1567,17 @@
     "en": "You meet a new teacher for the first time. How do you ask her name?",
     "t": "ახალ მასწავლებელს პირველად ხვდებით. როგორ ჰკითხავთ სახელს?"
   },
+  "u2-l7.12.why": {
+    "en": "A new teacher gets the polite **vy**, so the verb ends in **-te**: volá**te**. Voláš is for a friend (ty); volá is “he or she is called”.",
+    "t": "ახალ მასწავლებელს თავაზიანად **vy**-თი მიმართავენ, ამიტომ ზმნა **-te**-ზე ბოლოვდება: volá**te**. Voláš მეგობრისთვისაა (ty), volá კი ნიშნავს „ჰქვია“."
+  },
   "u2-l7.13.en": {
     "en": "What are their names? — Tomáš and Marek.",
     "t": "რა ჰქვიათ? — ტომაში და მარეკი."
+  },
+  "u2-l7.13.why": {
+    "en": "The answer names two people, **oni**, so the verb ends in **-jú**: vola**jú**. Voláme is my (we), volá is one person.",
+    "t": "პასუხში ორი ადამიანია, **oni**, ამიტომ ზმნა **-jú**-ზე ბოლოვდება: vola**jú** („ჰქვიათ“). Voláme my-ს ფორმაა (ჩვენ), volá — ერთი ადამიანის."
   },
   "u2-l7.14.pairs": {
     "en": [

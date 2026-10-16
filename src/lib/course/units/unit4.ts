@@ -66,6 +66,7 @@ export const unit4: Unit = {
           options: ["mesto", "dedina", "námestie"],
           answer: 0,
           en: "Bratislava is the capital of Slovakia.",
+          why: "The capital is the set phrase **hlavné mesto**. Hlavné has the neuter ending -é, which already rules out dedina, a feminine word.",
         },
         { type: "intro", sk: "most", en: "bridge" },
         {
@@ -74,6 +75,8 @@ export const unit4: Unit = {
           options: ["Most je nový.", "Most je nová.", "Most je nové."],
           optionsLang: "sk",
           answer: 0,
+          why: "Most ends in a consonant, so it's masculine and the adjective takes **-ý**, after je too. Nová is for feminine words, nové for neuter ones.",
+          ref: "u3-l2#2",
         },
         {
           type: "intro",
@@ -88,6 +91,8 @@ export const unit4: Unit = {
           options: ["dlhá", "dlhý", "dlhé"],
           answer: 1,
           en: "The Danube is long.",
+          why: "Dunaj ends in a consonant, so it's masculine and takes **-ý**: dlh**ý**. Dlhá goes with rieka, which is feminine, but here the subject is Dunaj.",
+          ref: "u3-l2#2",
         },
         { type: "listen", sk: "Lucia, kde je hrad?", en: "Lucia, where's the castle?" },
         {
@@ -170,6 +175,8 @@ export const unit4: Unit = {
           options: ["je", "sú", "som"],
           answer: 0,
           en: "Excuse me, where's the bank?",
+          why: "Banka is one thing (ona), so the verb is **je**: Kde je…? works for any one place. Sú goes with oni, ony, and som with ja.",
+          ref: "u2-l2#0",
         },
         {
           type: "intro",
@@ -216,6 +223,8 @@ export const unit4: Unit = {
           options: ["Choď", "Choďte"],
           answer: 0,
           en: "Hi Tomáš! Go straight on, then left.",
+          why: "Ahoj and a first name mean a friend, so use the ty form **Choď**. Choďte is for vy: a stranger or a group.",
+          ref: "u1-l4#6",
         },
         {
           type: "fill",
@@ -224,6 +233,8 @@ export const unit4: Unit = {
           options: ["nové", "nový", "nová"],
           answer: 0,
           en: "The museum is new.",
+          why: "Múzeum is neuter, like kino and divadlo, even though it ends in -um. So the adjective takes **-é**, after je too.",
+          ref: "u3-l2#2",
         },
         {
           type: "build",
@@ -286,6 +297,8 @@ export const unit4: Unit = {
           options: ["predavačka", "predavač"],
           answer: 0,
           en: "Ivan is a waiter and Mária is a shop assistant.",
+          why: "Mária is a woman, so the job takes the feminine **-ka**: predavač → predavač**ka**, like študent → študentka.",
+          ref: "u4-l3#5",
         },
         {
           type: "intro",
@@ -341,6 +354,8 @@ export const unit4: Unit = {
           options: ["Čo robíte?", "Čo robíš?", "Kto je to?"],
           optionsLang: "sk",
           answer: 0,
+          why: "A stranger gets **vy**, so the verb ends in **-te**: robí**te**. Čo robíš? is for a friend (ty).",
+          ref: "u1-l4#0",
         },
         {
           type: "build",
@@ -393,6 +408,8 @@ export const unit4: Unit = {
           options: ["kostoly", "kostol"],
           answer: 0,
           en: "Those churches are old.",
+          why: "Tie and sú show it's more than one, and masculine kostol adds **-y** in the plural: kostol**y**.",
+          ref: "u4-l4#0",
         },
         {
           type: "fill",
@@ -401,6 +418,8 @@ export const unit4: Unit = {
           options: ["malé", "malá", "malý"],
           answer: 0,
           en: "The villages are small.",
+          why: "Dediny is plural, and in the plural adjectives for places and things end in **-é**. Malá is the singular: dedina je malá.",
+          ref: "u4-l4#0",
         },
         {
           type: "build",
@@ -450,6 +469,8 @@ export const unit4: Unit = {
           options: ["kuchári", "kuchárky", "kuchár"],
           answer: 0,
           en: "Marek and Peter are cooks.",
+          why: "Marek and Peter are two men, so it's the men's plural in **-i**: kuchár**i**. Kuchárky is for women, kuchár for one man.",
+          ref: "u4-l4#6",
         },
         {
           type: "fill",
@@ -458,6 +479,8 @@ export const unit4: Unit = {
           options: ["mladí", "mladé"],
           answer: 0,
           en: "Those waiters are young.",
+          why: "Čašníci are men, and in the plural adjectives for men end in **-í**, just like tí. Mladé is for women and things.",
+          ref: "u4-l4#6",
         },
         {
           type: "choice",
@@ -469,6 +492,8 @@ export const unit4: Unit = {
           ],
           optionsLang: "sk",
           answer: 0,
+          why: "Two women take the women's plural **-y**: študentk**y**, with sú. Študenti would mean men or a mixed group; je študentka is just one.",
+          ref: "u4-l4#6",
         },
         {
           type: "build",
@@ -485,6 +510,8 @@ export const unit4: Unit = {
           options: ["Slováci", "Slovenky"],
           answer: 0,
           en: "Lucia and Tomáš are Slovaks.",
+          why: "A mixed group of men and women counts as men, so it takes the men's plural: Slovák → **Slováci**. Slovenky would mean women only.",
+          ref: "u4-l4#6",
         },
         { type: "speak", sk: "Tie mosty sú nové.", en: "Those bridges are new." },
       ],
@@ -524,6 +551,8 @@ export const unit4: Unit = {
           options: ["dva", "dve"],
           answer: 0,
           en: "The town has two bridges.",
+          why: "You're counting bridges, and most is masculine, so two is **dva**. Dve is for feminine and neuter words like mesto, but mesto isn't what's counted.",
+          ref: "u4-l5#0",
         },
         {
           type: "fill",
@@ -532,6 +561,8 @@ export const unit4: Unit = {
           options: ["dve", "dva"],
           answer: 0,
           en: "There are two cafés here.",
+          why: "Kaviareň is feminine, even though it ends in a consonant, so two is **dve**. Dva is only for masculine words.",
+          ref: "u4-l5#0",
         },
         {
           type: "choice",
@@ -539,6 +570,8 @@ export const unit4: Unit = {
           options: ["dve mestá", "dva mestá", "dve mesto"],
           optionsLang: "sk",
           answer: 0,
+          why: "Mesto is neuter, so two is **dve**, and after 2, 3 and 4 the noun is plural: mest**á**.",
+          ref: "u4-l5#0",
         },
         {
           type: "build",
@@ -575,6 +608,8 @@ export const unit4: Unit = {
           options: ["dvaja", "dva", "dve"],
           answer: 0,
           en: "There are two waiters over there.",
+          why: "When you count men, two is **dvaja**, and the noun takes the men's plural: čašníci. Dva is for masculine things, like dva mosty.",
+          ref: "u4-l5#6",
         },
         {
           type: "fill",
@@ -583,6 +618,8 @@ export const unit4: Unit = {
           options: ["tri", "traja"],
           answer: 0,
           en: "Lucia has three friends.",
+          why: "Kamarátky are women, and women keep **tri**. Traja is only for men or a mixed group.",
+          ref: "u4-l5#6",
         },
         {
           type: "choice",
@@ -590,6 +627,8 @@ export const unit4: Unit = {
           options: ["traja kuchári", "tri kuchári", "traja kuchárky"],
           optionsLang: "sk",
           answer: 0,
+          why: "Counting men takes **traja**, with the men's plural kuchári. Women keep tri: tri kuchárky. So tri kuchári and traja kuchárky both mix the two.",
+          ref: "u4-l5#6",
         },
         {
           type: "build",
@@ -669,6 +708,8 @@ export const unit4: Unit = {
           options: ["stojí", "stoja", "stojím"],
           answer: 0,
           en: "How much is it?",
+          why: "To (it) is one thing, so the verb is **stojí**. Stoja is for two or more things, stojím for ja.",
+          ref: "u4-l6#0",
         },
         {
           type: "fill",
@@ -677,6 +718,8 @@ export const unit4: Unit = {
           options: ["stojí", "stoja"],
           answer: 0,
           en: "The phone costs a hundred euros.",
+          why: "The verb agrees with mobil, one thing, not with the euros: mobil **stojí**. Stoja is for two or more things.",
+          ref: "u4-l6#0",
         },
         {
           type: "choice",
@@ -684,6 +727,8 @@ export const unit4: Unit = {
           options: ["päť eur", "päť eurá", "päť euro"],
           optionsLang: "sk",
           answer: 0,
+          why: "From five up, euro takes the special short form **eur**. Eurá is only for 2, 3 and 4.",
+          ref: "u4-l6#1",
         },
         {
           type: "build",
@@ -700,6 +745,8 @@ export const unit4: Unit = {
           options: ["stojíme", "stojíte", "stoja"],
           answer: 0,
           en: "We're standing here.",
+          why: "With **my** (we) the verb ends in **-me**: stojí**me**. Stojíte goes with vy, stoja with oni.",
+          ref: "u4-l6#0",
         },
         {
           type: "grammar",
@@ -743,6 +790,8 @@ export const unit4: Unit = {
           options: ["sú", "je"],
           answer: 0,
           en: "Those trousers are expensive.",
+          why: "Nohavice is always plural, even for one pair of trousers, so it takes **sú**. Tie and drahé are plural too.",
+          ref: "u4-l6#8",
         },
         {
           type: "fill",
@@ -751,6 +800,8 @@ export const unit4: Unit = {
           options: ["stoja", "stojí"],
           answer: 0,
           en: "The glasses cost ten euros.",
+          why: "Okuliare is always plural, even for one pair of glasses, so the verb is plural too: **stoja**.",
+          ref: "u4-l6#8",
         },
         {
           type: "build",
@@ -794,6 +845,8 @@ export const unit4: Unit = {
           options: ["pošta", "pošty", "pošte"],
           answer: 0,
           en: "Excuse me, where's the post office? — It's opposite.",
+          why: "With **je** you ask about one place, so use the basic form **pošta**. Pošty is the plural and would need sú.",
+          ref: "u4-l4#0",
         },
         {
           type: "build",
@@ -814,6 +867,8 @@ export const unit4: Unit = {
           options: ["drahé", "drahí", "drahá"],
           answer: 0,
           en: "Those cafés are expensive.",
+          why: "Kaviarne is a plural of things, so the adjective ends in **-é**. Drahí is only for men, drahá for one feminine thing.",
+          ref: "u4-l4#0",
         },
         {
           type: "fill",
@@ -822,6 +877,8 @@ export const unit4: Unit = {
           options: ["mladí", "mladé"],
           answer: 0,
           en: "Those journalists are young.",
+          why: "Novinári are men, so in the plural the adjective ends in **-í**, matching tí. Mladé is for women and things.",
+          ref: "u4-l4#6",
         },
         {
           type: "choice",
@@ -829,6 +886,8 @@ export const unit4: Unit = {
           options: ["traja čašníci", "tri čašníci", "traja čašník"],
           optionsLang: "sk",
           answer: 0,
+          why: "Counting men takes **traja**, and the noun takes the men's plural: čašník → čašní**ci**.",
+          ref: "u4-l5#6",
         },
         {
           type: "build",
@@ -845,6 +904,8 @@ export const unit4: Unit = {
           options: ["stoja", "stojí"],
           answer: 0,
           en: "How much are those glasses?",
+          why: "Okuliare only exists in the plural, so even one pair takes the plural verb **stoja**. Stojí is for one thing.",
+          ref: "u4-l6#8",
         },
         {
           type: "build",
@@ -864,6 +925,8 @@ export const unit4: Unit = {
           options: ["nohavice", "kaviareň", "rieka"],
           optionsLang: "sk",
           answer: 0,
+          why: "**Nohavice** is plural only: one pair of trousers still takes sú and stoja. Kaviareň and rieka are ordinary feminine words, with plurals kaviarne and rieky.",
+          ref: "u4-l6#8",
         },
         {
           type: "build",

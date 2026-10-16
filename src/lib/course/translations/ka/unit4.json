@@ -103,6 +103,10 @@
     "en": "Bratislava is the capital of Slovakia.",
     "t": "ბრატისლავა სლოვაკეთის დედაქალაქია."
   },
+  "u4-l1.7.why": {
+    "en": "The capital is the set phrase **hlavné mesto**. Hlavné has the neuter ending -é, which already rules out dedina, a feminine word.",
+    "t": "დედაქალაქი მზა გამოთქმაა: **hlavné mesto**. Hlavné-ს საშუალო სქესის დაბოლოება -é აქვს, ამიტომ dedina, მდედრობითი სიტყვა, აქ არ ჯდება."
+  },
   "u4-l1.8.en": {
     "en": "bridge",
     "t": "ხიდი"
@@ -110,6 +114,10 @@
   "u4-l1.9.question": {
     "en": "How do you say “The bridge is new”?",
     "t": "როგორ ვთქვათ „ხიდი ახალია“?"
+  },
+  "u4-l1.9.why": {
+    "en": "Most ends in a consonant, so it's masculine and the adjective takes **-ý**, after je too. Nová is for feminine words, nové for neuter ones.",
+    "t": "Most თანხმოვანზე ბოლოვდება, ანუ მამრობითია, ამიტომ ზედსართავი **-ý**-ს იღებს, je-ს შემდეგაც. Nová მდედრობითი სიტყვებისთვისაა, nové — საშუალოსთვის."
   },
   "u4-l1.10.en": {
     "en": "river",
@@ -122,6 +130,10 @@
   "u4-l1.11.en": {
     "en": "The Danube is long.",
     "t": "დუნაი გრძელია."
+  },
+  "u4-l1.11.why": {
+    "en": "Dunaj ends in a consonant, so it's masculine and takes **-ý**: dlh**ý**. Dlhá goes with rieka, which is feminine, but here the subject is Dunaj.",
+    "t": "Dunaj თანხმოვანზე ბოლოვდება, ანუ მამრობითია და **-ý**-ს იღებს: dlh**ý**. Dlhá მდედრობით rieka-ს შეეფერება, აქ კი ლაპარაკია Dunaj-ზე."
   },
   "u4-l1.12.en": {
     "en": "Lucia, where's the castle?",
@@ -239,6 +251,10 @@
     "en": "Excuse me, where's the bank?",
     "t": "უკაცრავად, სად არის ბანკი?"
   },
+  "u4-l2.7.why": {
+    "en": "Banka is one thing (ona), so the verb is **je**: Kde je…? works for any one place. Sú goes with oni, ony, and som with ja.",
+    "t": "Banka ერთი ადგილია (ona), ამიტომ ზმნაა **je**: Kde je…? ნებისმიერ ერთ ადგილზე გამოდგება. Sú oni-სთან ან ony-სთან დგას, som — ja-სთან."
+  },
   "u4-l2.8.en": {
     "en": "(to the) left – (to the) right",
     "t": "მარცხნივ – მარჯვნივ (საით?)"
@@ -291,9 +307,17 @@
     "en": "Hi Tomáš! Go straight on, then left.",
     "t": "სალამი, ტომაშ! იარე პირდაპირ, მერე მარცხნივ."
   },
+  "u4-l2.14.why": {
+    "en": "Ahoj and a first name mean a friend, so use the ty form **Choď**. Choďte is for vy: a stranger or a group.",
+    "t": "Ahoj და სახელი მეგობარზე მიუთითებს, ამიტომ საჭიროა ty-ს ფორმა **Choď**. Choďte vy-სთვისაა: უცნობის ან ჯგუფისთვის."
+  },
   "u4-l2.15.en": {
     "en": "The museum is new.",
     "t": "მუზეუმი ახალია."
+  },
+  "u4-l2.15.why": {
+    "en": "Múzeum is neuter, like kino and divadlo, even though it ends in -um. So the adjective takes **-é**, after je too.",
+    "t": "Múzeum საშუალო სქესისაა, როგორც kino და divadlo, თუმცა -um-ზე ბოლოვდება. ამიტომ ზედსართავი **-é**-ს იღებს, je-ს შემდეგაც."
   },
   "u4-l2.16.answers": {
     "en": [
@@ -430,6 +454,10 @@
     "en": "Ivan is a waiter and Mária is a shop assistant.",
     "t": "ივანი ოფიციანტია, მარია კი გამყიდველი."
   },
+  "u4-l3.6.why": {
+    "en": "Mária is a woman, so the job takes the feminine **-ka**: predavač → predavač**ka**, like študent → študentka.",
+    "t": "მარია ქალია, ამიტომ პროფესიაც მდედრობით ფორმას, **-ka**-ს იღებს: predavač → predavač**ka**, როგორც študent → študentka."
+  },
   "u4-l3.7.en": {
     "en": "driver",
     "t": "მძღოლი"
@@ -485,6 +513,10 @@
   "u4-l3.14.question": {
     "en": "How do you ask a stranger what they do?",
     "t": "როგორ ჰკითხოთ უცნობს, რას საქმიანობს?"
+  },
+  "u4-l3.14.why": {
+    "en": "A stranger gets **vy**, so the verb ends in **-te**: robí**te**. Čo robíš? is for a friend (ty).",
+    "t": "უცნობს **vy**-თი მიმართავენ, ამიტომ ზმნა **-te**-ზე ბოლოვდება: robí**te**. Čo robíš? მეგობრისთვისაა (ty)."
   },
   "u4-l3.15.answers": {
     "en": [
@@ -615,9 +647,17 @@
     "en": "Those churches are old.",
     "t": "ის ეკლესიები ძველია."
   },
+  "u4-l4.1.why": {
+    "en": "Tie and sú show it's more than one, and masculine kostol adds **-y** in the plural: kostol**y**.",
+    "t": "Tie და sú აჩვენებს, რომ ერთზე მეტია, მამრობითი kostol კი მრავლობითში **-y**-ს იღებს: kostol**y**."
+  },
   "u4-l4.2.en": {
     "en": "The villages are small.",
     "t": "სოფლები პატარაა."
+  },
+  "u4-l4.2.why": {
+    "en": "Dediny is plural, and in the plural adjectives for places and things end in **-é**. Malá is the singular: dedina je malá.",
+    "t": "Dediny მრავლობითია, მრავლობითში კი ადგილებისა და ნივთების ზედსართავები **-é**-ზე ბოლოვდება. Malá მხოლობითია: dedina je malá."
   },
   "u4-l4.3.prompt": {
     "en": "The squares are pretty.",
@@ -751,13 +791,25 @@
     "en": "Marek and Peter are cooks.",
     "t": "მარეკი და პეტერი მზარეულები არიან."
   },
+  "u4-l4.7.why": {
+    "en": "Marek and Peter are two men, so it's the men's plural in **-i**: kuchár**i**. Kuchárky is for women, kuchár for one man.",
+    "t": "მარეკი და პეტერი ორი კაცია, ამიტომ საჭიროა კაცების მრავლობითი **-i**-ზე: kuchár**i**. Kuchárky ქალებზეა, kuchár — ერთ კაცზე."
+  },
   "u4-l4.8.en": {
     "en": "Those waiters are young.",
     "t": "ის ოფიციანტები ახალგაზრდები არიან."
   },
+  "u4-l4.8.why": {
+    "en": "Čašníci are men, and in the plural adjectives for men end in **-í**, just like tí. Mladé is for women and things.",
+    "t": "Čašníci კაცები არიან, მრავლობითში კი კაცების ზედსართავები **-í**-ზე ბოლოვდება, ისევე როგორც tí. Mladé ქალებისა და ნივთებისთვისაა."
+  },
   "u4-l4.9.question": {
     "en": "How do you say “Emma and Lucia are students”?",
     "t": "როგორ ვთქვათ „ემა და ლუცია სტუდენტები არიან“?"
+  },
+  "u4-l4.9.why": {
+    "en": "Two women take the women's plural **-y**: študentk**y**, with sú. Študenti would mean men or a mixed group; je študentka is just one.",
+    "t": "ორი ქალი ქალების მრავლობითს იღებს, **-y**-ს: študentk**y**, sú-სთან ერთად. Študenti ნიშნავს კაცებს ან შერეულ ჯგუფს, je študentka კი მხოლოდ ერთია."
   },
   "u4-l4.10.prompt": {
     "en": "Tomáš and Marek are not journalists.",
@@ -770,6 +822,10 @@
   "u4-l4.12.en": {
     "en": "Lucia and Tomáš are Slovaks.",
     "t": "ლუცია და ტომაში სლოვაკები არიან."
+  },
+  "u4-l4.12.why": {
+    "en": "A mixed group of men and women counts as men, so it takes the men's plural: Slovák → **Slováci**. Slovenky would mean women only.",
+    "t": "კაცებისა და ქალების შერეული ჯგუფი კაცებად ითვლება, ამიტომ საჭიროა კაცების მრავლობითი: Slovák → **Slováci**. Slovenky მხოლოდ ქალებს ნიშნავს."
   },
   "u4-l4.13.en": {
     "en": "Those bridges are new.",
@@ -859,13 +915,25 @@
     "en": "The town has two bridges.",
     "t": "ქალაქს ორი ხიდი აქვს."
   },
+  "u4-l5.1.why": {
+    "en": "You're counting bridges, and most is masculine, so two is **dva**. Dve is for feminine and neuter words like mesto, but mesto isn't what's counted.",
+    "t": "ხიდებს ითვლით, most კი მამრობითია, ამიტომ „ორი“ არის **dva**. Dve მდედრობითი და საშუალო სიტყვებისთვისაა, როგორიცაა mesto, მაგრამ აქ mesto-ს არ ითვლიან."
+  },
   "u4-l5.2.en": {
     "en": "There are two cafés here.",
     "t": "აქ ორი კაფეა."
   },
+  "u4-l5.2.why": {
+    "en": "Kaviareň is feminine, even though it ends in a consonant, so two is **dve**. Dva is only for masculine words.",
+    "t": "Kaviareň მდედრობითია, თუმცა თანხმოვანზე ბოლოვდება, ამიტომ „ორი“ არის **dve**. Dva მხოლოდ მამრობითი სიტყვებისთვისაა."
+  },
   "u4-l5.3.question": {
     "en": "How do you say “two towns”?",
     "t": "როგორ ვთქვათ „ორი ქალაქი“?"
+  },
+  "u4-l5.3.why": {
+    "en": "Mesto is neuter, so two is **dve**, and after 2, 3 and 4 the noun is plural: mest**á**.",
+    "t": "Mesto საშუალო სქესისაა, ამიტომ „ორი“ არის **dve**. ქართულისგან განსხვავებით, 2, 3 და 4-ის შემდეგ არსებითი სახელი მრავლობითშია: mest**á**."
   },
   "u4-l5.4.prompt": {
     "en": "There are four bridges here.",
@@ -951,13 +1019,25 @@
     "en": "There are two waiters over there.",
     "t": "იქ ორი ოფიციანტია."
   },
+  "u4-l5.7.why": {
+    "en": "When you count men, two is **dvaja**, and the noun takes the men's plural: čašníci. Dva is for masculine things, like dva mosty.",
+    "t": "კაცების თვლისას „ორი“ არის **dvaja**, არსებითი სახელი კი კაცების მრავლობითს იღებს: čašníci. Dva მამრობითი ნივთებისთვისაა, როგორც dva mosty."
+  },
   "u4-l5.8.en": {
     "en": "Lucia has three friends.",
     "t": "ლუციას სამი მეგობარი ჰყავს."
   },
+  "u4-l5.8.why": {
+    "en": "Kamarátky are women, and women keep **tri**. Traja is only for men or a mixed group.",
+    "t": "Kamarátky ქალები არიან, ქალებთან კი რჩება **tri**. Traja მხოლოდ კაცებისთვის ან შერეული ჯგუფისთვისაა."
+  },
   "u4-l5.9.question": {
     "en": "Which one is correct?",
     "t": "რომელია სწორი?"
+  },
+  "u4-l5.9.why": {
+    "en": "Counting men takes **traja**, with the men's plural kuchári. Women keep tri: tri kuchárky. So tri kuchári and traja kuchárky both mix the two.",
+    "t": "კაცების თვლა **traja**-ს მოითხოვს, კაცების მრავლობითით: kuchári. ქალებთან რჩება tri: tri kuchárky. tri kuchári და traja kuchárky კი ამ ორ წესს ურევს."
   },
   "u4-l5.10.prompt": {
     "en": "Two waiters and two waitresses.",
@@ -1150,13 +1230,25 @@
     "en": "How much is it?",
     "t": "რა ღირს?"
   },
+  "u4-l6.2.why": {
+    "en": "To (it) is one thing, so the verb is **stojí**. Stoja is for two or more things, stojím for ja.",
+    "t": "To (ეს) ერთი რამაა, ამიტომ ზმნაა **stojí**. Stoja ორი ან მეტი ნივთისთვისაა, stojím — ja-სთვის."
+  },
   "u4-l6.3.en": {
     "en": "The phone costs a hundred euros.",
     "t": "ტელეფონი ასი ევრო ღირს."
   },
+  "u4-l6.3.why": {
+    "en": "The verb agrees with mobil, one thing, not with the euros: mobil **stojí**. Stoja is for two or more things.",
+    "t": "ზმნა mobil-ს ეთანხმება, ერთ ნივთს, და არა ევროებს: mobil **stojí**. Stoja ორი ან მეტი ნივთისთვისაა."
+  },
   "u4-l6.4.question": {
     "en": "How do you say “five euros”?",
     "t": "როგორ ვთქვათ „ხუთი ევრო“?"
+  },
+  "u4-l6.4.why": {
+    "en": "From five up, euro takes the special short form **eur**. Eurá is only for 2, 3 and 4.",
+    "t": "ხუთიდან მოყოლებული euro იღებს განსაკუთრებულ მოკლე ფორმას, **eur**. Eurá მხოლოდ 2, 3 და 4-ისთვისაა."
   },
   "u4-l6.5.prompt": {
     "en": "The coffee costs three euros.",
@@ -1169,6 +1261,10 @@
   "u4-l6.7.en": {
     "en": "We're standing here.",
     "t": "ჩვენ აქ ვდგავართ."
+  },
+  "u4-l6.7.why": {
+    "en": "With **my** (we) the verb ends in **-me**: stojí**me**. Stojíte goes with vy, stoja with oni.",
+    "t": "**my**-სთან (ჩვენ) ზმნა **-me**-ზე ბოლოვდება: stojí**me**. Stojíte vy-სთან დგას, stoja — oni-სთან."
   },
   "u4-l6.8.title": {
     "en": "Always plural",
@@ -1294,9 +1390,17 @@
     "en": "Those trousers are expensive.",
     "t": "ის შარვალი ძვირია."
   },
+  "u4-l6.10.why": {
+    "en": "Nohavice is always plural, even for one pair of trousers, so it takes **sú**. Tie and drahé are plural too.",
+    "t": "ქართულ „შარვალი“-სგან განსხვავებით, nohavice ყოველთვის მრავლობითშია, ერთ შარვალზეც კი, ამიტომ **sú**-ს იღებს. Tie და drahé-ც მრავლობითია."
+  },
   "u4-l6.11.en": {
     "en": "The glasses cost ten euros.",
     "t": "სათვალე ათი ევრო ღირს."
+  },
+  "u4-l6.11.why": {
+    "en": "Okuliare is always plural, even for one pair of glasses, so the verb is plural too: **stoja**.",
+    "t": "Okuliare ყოველთვის მრავლობითშია, ერთ სათვალეზეც კი, ამიტომ ზმნაც მრავლობითშია: **stoja**."
   },
   "u4-l6.12.prompt": {
     "en": "Where is my watch?",
@@ -1350,6 +1454,10 @@
     "en": "Excuse me, where's the post office? — It's opposite.",
     "t": "უკაცრავად, სად არის ფოსტა? — მოპირდაპირე მხარესაა."
   },
+  "u4-l7.2.why": {
+    "en": "With **je** you ask about one place, so use the basic form **pošta**. Pošty is the plural and would need sú.",
+    "t": "**je**-თი ერთ ადგილზე კითხულობთ, ამიტომ საჭიროა ძირითადი ფორმა **pošta**. Pošty მრავლობითია და sú-ს მოითხოვდა."
+  },
   "u4-l7.3.prompt": {
     "en": "Marek is a cook and Lucia is a student.",
     "t": "მარეკი მზარეულია და ლუცია სტუდენტია."
@@ -1362,13 +1470,25 @@
     "en": "Those cafés are expensive.",
     "t": "ის კაფეები ძვირია."
   },
+  "u4-l7.5.why": {
+    "en": "Kaviarne is a plural of things, so the adjective ends in **-é**. Drahí is only for men, drahá for one feminine thing.",
+    "t": "Kaviarne ნივთების მრავლობითია, ამიტომ ზედსართავი **-é**-ზე ბოლოვდება. Drahí მხოლოდ კაცებისთვისაა, drahá — ერთი მდედრობითი ნივთისთვის."
+  },
   "u4-l7.6.en": {
     "en": "Those journalists are young.",
     "t": "ის ჟურნალისტები ახალგაზრდები არიან."
   },
+  "u4-l7.6.why": {
+    "en": "Novinári are men, so in the plural the adjective ends in **-í**, matching tí. Mladé is for women and things.",
+    "t": "Novinári კაცები არიან, ამიტომ მრავლობითში ზედსართავი **-í**-ზე ბოლოვდება, tí-ს მსგავსად. Mladé ქალებისა და ნივთებისთვისაა."
+  },
   "u4-l7.7.question": {
     "en": "How do you say “three waiters”?",
     "t": "როგორ ვთქვათ „სამი ოფიციანტი“?"
+  },
+  "u4-l7.7.why": {
+    "en": "Counting men takes **traja**, and the noun takes the men's plural: čašník → čašní**ci**.",
+    "t": "კაცების თვლა **traja**-ს მოითხოვს, არსებითი სახელი კი კაცების მრავლობითს იღებს: čašník → čašní**ci**."
   },
   "u4-l7.8.prompt": {
     "en": "The town has three churches and two theatres.",
@@ -1381,6 +1501,10 @@
   "u4-l7.10.en": {
     "en": "How much are those glasses?",
     "t": "რა ღირს ის სათვალე?"
+  },
+  "u4-l7.10.why": {
+    "en": "Okuliare only exists in the plural, so even one pair takes the plural verb **stoja**. Stojí is for one thing.",
+    "t": "Okuliare მხოლოდ მრავლობითში არსებობს, ამიტომ ერთ სათვალესაც მრავლობითი ზმნა სჭირდება: **stoja**. Stojí ერთი ნივთისთვისაა."
   },
   "u4-l7.11.answers": {
     "en": [
@@ -1410,6 +1534,10 @@
   "u4-l7.13.question": {
     "en": "Which word is always plural?",
     "t": "რომელი სიტყვაა ყოველთვის მრავლობითში?"
+  },
+  "u4-l7.13.why": {
+    "en": "**Nohavice** is plural only: one pair of trousers still takes sú and stoja. Kaviareň and rieka are ordinary feminine words, with plurals kaviarne and rieky.",
+    "t": "**Nohavice** მხოლოდ მრავლობითშია: ერთი შარვალიც sú-ს და stoja-ს იღებს. Kaviareň და rieka ჩვეულებრივი მდედრობითი სიტყვებია, მრავლობითით kaviarne და rieky."
   },
   "u4-l7.14.prompt": {
     "en": "The bridge is new and the castle is old.",

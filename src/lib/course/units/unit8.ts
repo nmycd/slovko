@@ -61,6 +61,8 @@ export const unit8: Unit = {
           options: ["poradu", "porada", "porade"],
           answer: 0,
           en: "We have a meeting at ten today.",
+          why: "The meeting is what we have, the object, so porada changes -a to **-u**: máme **poradu**.",
+          ref: "u5-l2#0",
         },
         {
           type: "match",
@@ -107,6 +109,8 @@ export const unit8: Unit = {
           options: ["zamestnankyňa", "zamestnanec"],
           answer: 0,
           en: "Jana is a new employee.",
+          why: "Jana is a woman, so she's a **zamestnankyňa**, the feminine form; nová, with -á, is feminine too. A zamestnanec is a man.",
+          ref: "u4-l3#5",
         },
         {
           type: "build",
@@ -179,6 +183,8 @@ export const unit8: Unit = {
           options: ["stredu", "streda", "strede"],
           answer: 0,
           en: "The meeting is on Wednesday.",
+          why: "“On” a day is v + the day, and days ending in -a change it to **-u**, like the accusative: streda → v **stredu**.",
+          ref: "u8-l2#0",
         },
         {
           type: "intro",
@@ -206,6 +212,8 @@ export const unit8: Unit = {
           options: ["Vo", "V", "Na"],
           answer: 0,
           en: "I have an appointment on Thursday.",
+          why: "“On” a day is v + the day, not na. Štvrtok is the special one: v becomes **vo** before it.",
+          ref: "u8-l2#0",
         },
         {
           type: "build",
@@ -254,6 +262,8 @@ export const unit8: Unit = {
           options: ["júli", "júl", "júla"],
           answer: 0,
           en: "Lucia's birthday is in July.",
+          why: "“In” a month is v + the month, and most months take **-i**: júl → v **júli**, like v máji.",
+          ref: "u8-l2#9",
         },
         {
           type: "intro",
@@ -351,6 +361,8 @@ export const unit8: Unit = {
           options: ["What's the date today?", "What day is it today?", "What time is it?"],
           optionsLang: "en",
           answer: 0,
+          why: "**Ktorého** asks for an ordinal in its date form, like prvého or piateho mája, so it asks for the date, not the day or the time.",
+          ref: "u8-l3#0",
         },
         {
           type: "fill",
@@ -359,6 +371,8 @@ export const unit8: Unit = {
           options: ["piateho", "piaty", "päť"],
           answer: 0,
           en: "Today is the fifth of May.",
+          why: "A date uses the ordinal ending in -ého, shortened to **-eho** after a long syllable like ia: piat**eho**. Piaty is the plain ordinal, päť just “five”.",
+          ref: "u8-l3#0",
         },
         {
           type: "fill",
@@ -367,6 +381,8 @@ export const unit8: Unit = {
           options: ["júna", "jún", "júni"],
           answer: 0,
           en: "The meeting is on the twelfth of June.",
+          why: "In a date the month changes too (“of June”): most months add **-a**, jún → jún**a**. Júni is for “in June”: v júni.",
+          ref: "u8-l3#1",
         },
         {
           type: "build",
@@ -394,6 +410,8 @@ export const unit8: Unit = {
           options: ["Narodila som sa tretieho mája.", "Narodil som sa tretieho mája.", "Narodila som sa tretí máj."],
           optionsLang: "sk",
           answer: 0,
+          why: "Emma is a woman, so the past tense ends in **-a**: narodil**a** som sa. The date needs its date forms too: **tretieho mája**, not tretí máj.",
+          ref: "u8-l3#6",
         },
         { type: "listen", sk: "Narodila som sa druhého júna.", en: "I was born on the second of June." },
         {
@@ -413,6 +431,8 @@ export const unit8: Unit = {
           options: ["tretieho", "tretí", "tri"],
           answer: 0,
           en: "My birthday is on the third of April.",
+          why: "In a date, tretí becomes **tretieho**, “on the third”. Tri is just “three”.",
+          ref: "u8-l3#0",
         },
         {
           type: "build",
@@ -439,6 +459,8 @@ export const unit8: Unit = {
           options: ["druhého", "druhý", "dva"],
           answer: 0,
           en: "The interview is on the twenty-second of September.",
+          why: "In 21st, 22nd… both parts take the date form: dvadsiateho **druhého**. Druhý is the plain ordinal, and dva is just “two”.",
+          ref: "u8-l3#6",
         },
         { type: "speak", sk: "Ktorého je dnes?", en: "What's the date today?" },
       ],
@@ -479,6 +501,8 @@ export const unit8: Unit = {
           options: ["nič", "niečo", "všetko"],
           answer: 0,
           en: "I'm not doing anything today.",
+          why: "Slovak uses a double negative: with a negative verb like nerobím, “anything” is **nič**. Niečo means something, všetko everything.",
+          ref: "u8-l4#0",
         },
         {
           type: "fill",
@@ -487,6 +511,8 @@ export const unit8: Unit = {
           options: ["nikto", "niekto", "nič"],
           answer: 0,
           en: "Nobody is in the library.",
+          why: "Nobody is **nikto**, and like every ni- word it goes with a negative verb: nie je. Niekto is somebody, and nič is nothing, not a person.",
+          ref: "u8-l4#0",
         },
         {
           type: "choice",
@@ -495,6 +521,8 @@ export const unit8: Unit = {
           options: ["Nobody knows anything.", "Somebody knows something.", "Nobody knows everything."],
           optionsLang: "en",
           answer: 0,
+          why: "Double negatives are normal Slovak and don't cancel out: **nikto** = nobody, and **nič** with the negative verb nevie is English “anything”.",
+          ref: "u8-l4#0",
         },
         {
           type: "build",
@@ -516,6 +544,8 @@ export const unit8: Unit = {
           options: ["Nič nevidím.", "Nič vidím.", "Nikto nevidím."],
           optionsLang: "sk",
           answer: 0,
+          why: "Niečo turns into **nič**, and nič always needs a negative verb: **ne**vidím. Nikto is nobody, a person, not a thing.",
+          ref: "u8-l4#0",
         },
         {
           type: "grammar",
@@ -555,6 +585,8 @@ export const unit8: Unit = {
           options: ["nikdy", "vždy", "často"],
           answer: 0,
           en: "Marek never cooks at home.",
+          why: "Never is **nikdy**, and like nikto and nič it takes a negative verb: nikdy nevarí = never cooks. Vždy is always, často often.",
+          ref: "u8-l4#7",
         },
         { type: "listen", sk: "Na porade nikto nič nehovoril.", en: "Nobody said anything at the meeting." },
         {
@@ -571,6 +603,8 @@ export const unit8: Unit = {
           options: ["nikde", "niekde", "nikto"],
           answer: 0,
           en: "I'm looking for Tomáš, but I can't see him anywhere.",
+          why: "“Not … anywhere” is **nikde** (nowhere) with the negative verb nevidím. Niekde means somewhere, and nikto is nobody, a person.",
+          ref: "u8-l4#0",
         },
         {
           type: "build",
@@ -644,6 +678,8 @@ export const unit8: Unit = {
           options: ["firme", "firma", "firmu"],
           answer: 0,
           en: "Tomáš works for a company in Bratislava.",
+          why: "Where? takes the locative after v or vo, and most feminine nouns end in **-e**: firma → firm**e**. Firmu is the object form.",
+          ref: "u8-l5#0",
         },
         {
           type: "fill",
@@ -652,6 +688,8 @@ export const unit8: Unit = {
           options: ["kancelárii", "kancelária", "kanceláriu"],
           answer: 0,
           en: "Emma is in the office.",
+          why: "Where? takes the locative, and nouns in -ia get **-ii**: kancelária → kancelári**i**. Kanceláriu is the object form.",
+          ref: "u8-l5#0",
         },
         {
           type: "choice",
@@ -659,6 +697,8 @@ export const unit8: Unit = {
           options: ["na pošte", "v pošte", "na pošta"],
           optionsLang: "sk",
           answer: 0,
+          why: "Pošta takes **na**, not v (a set phrase, like na univerzite), and the locative ending **-e**: pošt**e**. Na pošta is missing the ending.",
+          ref: "u8-l5#1",
         },
         {
           type: "build",
@@ -674,6 +714,8 @@ export const unit8: Unit = {
           options: ["parku", "park", "parky"],
           answer: 0,
           en: "Lucia is in the park.",
+          why: "After k, g, h, ch the locative ending is **-u**, not -e: park → park**u**, like vo vlaku. Parky means parks.",
+          ref: "u8-l5#1",
         },
         { type: "listen", sk: "Tomáš je vo vlaku.", en: "Tomáš is on the train." },
         {
@@ -705,6 +747,8 @@ export const unit8: Unit = {
           options: ["malej", "malom", "malá"],
           answer: 0,
           en: "Emma lives in a small room.",
+          why: "Izba is feminine, so in the locative its adjective ends in **-ej**: mal**ej**. Malom is for masculine and neuter nouns; malá is the basic form.",
+          ref: "u8-l5#8",
         },
         {
           type: "fill",
@@ -713,6 +757,8 @@ export const unit8: Unit = {
           options: ["veľkej", "veľkom", "veľká"],
           answer: 0,
           en: "Lucia wants to work for a big company.",
+          why: "Firma is feminine, so in the locative its adjective ends in **-ej**: veľk**ej**. Veľkom is for masculine and neuter nouns, as in vo veľkom byte.",
+          ref: "u8-l5#8",
         },
         {
           type: "build",
@@ -734,6 +780,8 @@ export const unit8: Unit = {
           options: ["na Slovensku", "v Slovensku", "na Slovenske"],
           optionsLang: "sk",
           answer: 0,
+          why: "Slovensko takes **na** (learn it as a set phrase), and in the locative -ko becomes **-ku**: Slovensk**u**, not Slovenske.",
+          ref: "u8-l5#0",
         },
         { type: "speak", sk: "Som v práci.", en: "I'm at work." },
       ],
@@ -793,6 +841,8 @@ export const unit8: Unit = {
           options: ["tebe", "teba", "ty"],
           answer: 0,
           en: "Lucia, we're talking about you!",
+          why: "After **o** (about), pronouns take their locative form: ty → **tebe**. Teba is the object form, as in pre teba.",
+          ref: "u8-l6#1",
         },
         {
           type: "fill",
@@ -801,6 +851,8 @@ export const unit8: Unit = {
           options: ["porade", "porada", "poradu"],
           answer: 0,
           en: "After the meeting I'm going home.",
+          why: "**Po** (after) takes the locative, so porada ends in **-e**: porad**e**. With the object form, po means “to get”: Idem po chlieb.",
+          ref: "u8-l6#0",
         },
         {
           type: "choice",
@@ -808,6 +860,8 @@ export const unit8: Unit = {
           options: ["Čo vieš o Tomášovi?", "Čo vieš o Tomáš?", "Čo vieš o Tomáša?"],
           optionsLang: "sk",
           answer: 0,
+          why: "After **o** (about), men's names add **-ovi**: o Tomáš**ovi**. Tomáša is the object form, as in pre Tomáša.",
+          ref: "u8-l6#0",
         },
         {
           type: "build",
@@ -824,6 +878,8 @@ export const unit8: Unit = {
           options: ["nej", "ňom", "nich"],
           answer: 0,
           en: "Mrs Horváthová? We were talking about her.",
+          why: "Pani Horváthová is a woman, **ona**, and after o, ona becomes **nej**. Ňom is for on (him), nich for oni (them).",
+          ref: "u8-l6#1",
         },
         {
           type: "build",
@@ -849,6 +905,8 @@ export const unit8: Unit = {
           options: ["sebe", "seba", "sa"],
           answer: 0,
           en: "At the interview, Emma talked about herself.",
+          why: "About myself, yourself, herself… is always **o sebe**, for any person. Sa goes with verbs like volať sa, never after o.",
+          ref: "u8-l6#1",
         },
         {
           type: "build",
@@ -864,6 +922,8 @@ export const unit8: Unit = {
           options: ["the company", "the office", "me"],
           optionsLang: "en",
           answer: 0,
+          why: "**Nej** is ona after a preposition: v nej = in it, in the firma just mentioned. The office is what you have there, and “in me” would be vo mne.",
+          ref: "u8-l6#1",
         },
         { type: "speak", sk: "Môžem sedieť pri okne?", en: "Can I sit by the window?" },
       ],
@@ -893,6 +953,8 @@ export const unit8: Unit = {
           options: ["stredu", "streda", "strede"],
           answer: 0,
           en: "The interview is on Wednesday.",
+          why: "“On” a day is v + the day, and days ending in -a change it to **-u**, like the accusative: stred**u**. It's not the locative -e.",
+          ref: "u8-l2#0",
         },
         {
           type: "build",
@@ -909,6 +971,8 @@ export const unit8: Unit = {
           options: ["šiesteho", "šiesty", "šesť"],
           answer: 0,
           en: "I was born on the sixth of April.",
+          why: "A date uses the ordinal ending in -ého, shortened to **-eho** after a long syllable like ie: šiest**eho**. Šiesty is the plain ordinal, šesť just “six”.",
+          ref: "u8-l3#0",
         },
         {
           type: "match",
@@ -934,6 +998,8 @@ export const unit8: Unit = {
           options: ["firme", "firma", "firmu"],
           answer: 0,
           en: "Emma is looking for an internship at a big company.",
+          why: "Stáž is already the object of hľadá. Vo veľkej … says where, so firma takes the locative **-e**: firm**e**. Firmu would be another object.",
+          ref: "u8-l5#0",
         },
         {
           type: "choice",
@@ -941,6 +1007,8 @@ export const unit8: Unit = {
           options: ["v auguste", "v augusta", "vo auguste"],
           optionsLang: "sk",
           answer: 0,
+          why: "August is the one month that takes **-e** after v: august**e**. Augusta is the date form (of August), and vo goes before f, as in vo februári.",
+          ref: "u8-l2#9",
         },
         {
           type: "build",
@@ -956,6 +1024,8 @@ export const unit8: Unit = {
           options: ["nikdy", "vždy", "niekedy"],
           answer: 0,
           en: "I never have time on Fridays.",
+          why: "Never is **nikdy**, the ni- word that goes with the negative verb nemám. Niekedy, with nie-, means sometimes.",
+          ref: "u8-l4#0",
         },
         { type: "speak", sk: "Narodila som sa v Írsku.", en: "I was born in Ireland." },
         { type: "listen", sk: "Po porade nikto nebol v kancelárii.", en: "After the meeting, nobody was in the office." },

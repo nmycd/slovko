@@ -93,6 +93,10 @@
     "en": "We have a meeting at ten today.",
     "t": "Сегодня в десять у нас совещание."
   },
+  "u8-l1.6.why": {
+    "en": "The meeting is what we have, the object, so porada changes -a to **-u**: máme **poradu**.",
+    "t": "Совещание — то, что у нас есть, дополнение, поэтому porada меняет -a на **-u**: máme **poradu**."
+  },
   "u8-l1.7.pairs": {
     "en": [
       "department",
@@ -144,6 +148,10 @@
   "u8-l1.14.en": {
     "en": "Jana is a new employee.",
     "t": "Яна — новая сотрудница."
+  },
+  "u8-l1.14.why": {
+    "en": "Jana is a woman, so she's a **zamestnankyňa**, the feminine form; nová, with -á, is feminine too. A zamestnanec is a man.",
+    "t": "Яна — женщина, поэтому **zamestnankyňa**, женская форма; nová с -á тоже женского рода. Zamestnanec — мужчина."
   },
   "u8-l1.15.prompt": {
     "en": "Emma is writing a CV.",
@@ -326,6 +334,10 @@
     "en": "The meeting is on Wednesday.",
     "t": "Совещание в среду."
   },
+  "u8-l2.3.why": {
+    "en": "“On” a day is v + the day, and days ending in -a change it to **-u**, like the accusative: streda → v **stredu**.",
+    "t": "«В» какой-то день — v + день, а дни на -a меняют его на **-u**, как в винительном: streda → v **stredu**, совсем как «в среду»."
+  },
   "u8-l2.4.en": {
     "en": "at the weekend",
     "t": "на выходных"
@@ -364,6 +376,10 @@
   "u8-l2.7.en": {
     "en": "I have an appointment on Thursday.",
     "t": "В четверг у меня встреча."
+  },
+  "u8-l2.7.why": {
+    "en": "“On” a day is v + the day, not na. Štvrtok is the special one: v becomes **vo** before it.",
+    "t": "«В» какой-то день — это v, а не na. Štvrtok — особый случай: перед ним v превращается в **vo** (а по-русски «в четверг»)."
   },
   "u8-l2.8.prompt": {
     "en": "I have a job interview on Friday.",
@@ -504,6 +520,10 @@
   "u8-l2.11.en": {
     "en": "Lucia's birthday is in July.",
     "t": "У Луции день рождения в июле."
+  },
+  "u8-l2.11.why": {
+    "en": "“In” a month is v + the month, and most months take **-i**: júl → v **júli**, like v máji.",
+    "t": "«В» каком-то месяце — v + месяц, и большинство месяцев получают **-i**: júl → v **júli** («в июле»), как v máji."
   },
   "u8-l2.12.en": {
     "en": "in summer",
@@ -814,13 +834,25 @@
       "Который час?"
     ]
   },
+  "u8-l3.2.why": {
+    "en": "**Ktorého** asks for an ordinal in its date form, like prvého or piateho mája, so it asks for the date, not the day or the time.",
+    "t": "**Ktorého** спрашивает порядковое числительное в форме даты, как prvého или piateho mája. Это «какое число?», а не день недели и не время."
+  },
   "u8-l3.3.en": {
     "en": "Today is the fifth of May.",
     "t": "Сегодня пятое мая."
   },
+  "u8-l3.3.why": {
+    "en": "A date uses the ordinal ending in -ého, shortened to **-eho** after a long syllable like ia: piat**eho**. Piaty is the plain ordinal, päť just “five”.",
+    "t": "В дате — порядковое числительное на -ého, а после долгого слога (ia) окончание краткое, **-eho**: piat**eho** (пятого). Piaty — простое порядковое, päť — просто «пять»."
+  },
   "u8-l3.4.en": {
     "en": "The meeting is on the twelfth of June.",
     "t": "Совещание двенадцатого июня."
+  },
+  "u8-l3.4.why": {
+    "en": "In a date the month changes too (“of June”): most months add **-a**, jún → jún**a**. Júni is for “in June”: v júni.",
+    "t": "В дате меняется и месяц, как у нас «июня»: большинство месяцев получают **-a**, jún → jún**a**. Júni — для «в июне»: v júni."
   },
   "u8-l3.5.prompt": {
     "en": "Today is the first of October.",
@@ -856,6 +888,10 @@
     "en": "Emma was born on 3 May. What does she say?",
     "t": "Эмма родилась 3 мая. Что она скажет?"
   },
+  "u8-l3.7.why": {
+    "en": "Emma is a woman, so the past tense ends in **-a**: narodil**a** som sa. The date needs its date forms too: **tretieho mája**, not tretí máj.",
+    "t": "Эмма — женщина, поэтому прошедшее время на **-a**: narodil**a** som sa (родилась). И дата — в форме даты: **tretieho mája** (третьего мая), а не tretí máj."
+  },
   "u8-l3.8.en": {
     "en": "I was born on the second of June.",
     "t": "Я родилась второго июня."
@@ -879,6 +915,10 @@
   "u8-l3.10.en": {
     "en": "My birthday is on the third of April.",
     "t": "У меня день рождения третьего апреля."
+  },
+  "u8-l3.10.why": {
+    "en": "In a date, tretí becomes **tretieho**, “on the third”. Tri is just “three”.",
+    "t": "В дате tretí превращается в **tretieho** — «третьего». Tri — просто «три»."
   },
   "u8-l3.11.answers": {
     "en": [
@@ -909,6 +949,10 @@
   "u8-l3.13.en": {
     "en": "The interview is on the twenty-second of September.",
     "t": "Собеседование двадцать второго сентября."
+  },
+  "u8-l3.13.why": {
+    "en": "In 21st, 22nd… both parts take the date form: dvadsiateho **druhého**. Druhý is the plain ordinal, and dva is just “two”.",
+    "t": "В 21-м, 22-м… форму даты принимают обе части: dvadsiateho **druhého** (а по-русски только последняя: «двадцать второго»). Druhý — простое порядковое, dva — «два»."
   },
   "u8-l3.14.en": {
     "en": "What's the date today?",
@@ -1016,9 +1060,17 @@
     "en": "I'm not doing anything today.",
     "t": "Сегодня я ничего не делаю."
   },
+  "u8-l4.1.why": {
+    "en": "Slovak uses a double negative: with a negative verb like nerobím, “anything” is **nič**. Niečo means something, všetko everything.",
+    "t": "Как и в русском, отрицание двойное: при глаголе с отрицанием (nerobím) «ничего» — это **nič**. Niečo — «что-то», všetko — «всё»."
+  },
   "u8-l4.2.en": {
     "en": "Nobody is in the library.",
     "t": "В библиотеке никого нет."
+  },
+  "u8-l4.2.why": {
+    "en": "Nobody is **nikto**, and like every ni- word it goes with a negative verb: nie je. Niekto is somebody, and nič is nothing, not a person.",
+    "t": "«Никто» — **nikto**, и, как все слова на ni-, требует отрицания: nie je (по-русски «никого нет»). Niekto — «кто-то», а nič — «ничего», не о человеке."
   },
   "u8-l4.3.question": {
     "en": "What does this mean?",
@@ -1035,6 +1087,10 @@
       "Кто-то что-то знает.",
       "Никто не знает всего."
     ]
+  },
+  "u8-l4.3.why": {
+    "en": "Double negatives are normal Slovak and don't cancel out: **nikto** = nobody, and **nič** with the negative verb nevie is English “anything”.",
+    "t": "Двойное отрицание, как и в русском, не отменяет само себя: **nikto** — никто, а **nič** при nevie — «ничего». Никто ничего не знает."
   },
   "u8-l4.4.prompt": {
     "en": "Nobody is at home.",
@@ -1061,6 +1117,10 @@
   "u8-l4.6.question": {
     "en": "Make it negative: “Niečo vidím.” (I can see something.)",
     "t": "Сделайте предложение отрицательным: «Niečo vidím.» (Я что-то вижу.)"
+  },
+  "u8-l4.6.why": {
+    "en": "Niečo turns into **nič**, and nič always needs a negative verb: **ne**vidím. Nikto is nobody, a person, not a thing.",
+    "t": "Niečo превращается в **nič**, а nič всегда требует отрицания при глаголе: **ne**vidím — ничего не вижу. Nikto — «никто», это о человеке."
   },
   "u8-l4.7.title": {
     "en": "How often?",
@@ -1158,6 +1218,10 @@
     "en": "Marek never cooks at home.",
     "t": "Марек никогда не готовит дома."
   },
+  "u8-l4.9.why": {
+    "en": "Never is **nikdy**, and like nikto and nič it takes a negative verb: nikdy nevarí = never cooks. Vždy is always, často often.",
+    "t": "«Никогда» — **nikdy**, и, как nikto и nič, требует отрицания: nikdy nevarí — никогда не готовит. Vždy — «всегда», často — «часто»."
+  },
   "u8-l4.10.en": {
     "en": "Nobody said anything at the meeting.",
     "t": "На совещании никто ничего не говорил."
@@ -1169,6 +1233,10 @@
   "u8-l4.12.en": {
     "en": "I'm looking for Tomáš, but I can't see him anywhere.",
     "t": "Я ищу Томаша, но нигде его не вижу."
+  },
+  "u8-l4.12.why": {
+    "en": "“Not … anywhere” is **nikde** (nowhere) with the negative verb nevidím. Niekde means somewhere, and nikto is nobody, a person.",
+    "t": "«Нигде» — **nikde**, с отрицанием nevidím: нигде его не вижу. Niekde значит «где-то», а nikto — «никто», о человеке."
   },
   "u8-l4.13.answers": {
     "en": [
@@ -1435,13 +1503,25 @@
     "en": "Tomáš works for a company in Bratislava.",
     "t": "Томаш работает в фирме в Братиславе."
   },
+  "u8-l5.2.why": {
+    "en": "Where? takes the locative after v or vo, and most feminine nouns end in **-e**: firma → firm**e**. Firmu is the object form.",
+    "t": "На вопрос «где?» после v или vo — предложный падеж, и большинство слов женского рода получают **-e**: firma → firm**e**, как «в фирме». Firmu — форма винительного."
+  },
   "u8-l5.3.en": {
     "en": "Emma is in the office.",
     "t": "Эмма в офисе."
   },
+  "u8-l5.3.why": {
+    "en": "Where? takes the locative, and nouns in -ia get **-ii**: kancelária → kancelári**i**. Kanceláriu is the object form.",
+    "t": "На вопрос «где?» — предложный падеж, а слова на -ia получают **-ii**: kancelária → kancelári**i**. Kanceláriu — форма винительного."
+  },
   "u8-l5.4.question": {
     "en": "How do you say “at the post office”?",
     "t": "Как сказать «на почте»?"
+  },
+  "u8-l5.4.why": {
+    "en": "Pošta takes **na**, not v (a set phrase, like na univerzite), and the locative ending **-e**: pošt**e**. Na pošta is missing the ending.",
+    "t": "С pošta — **na**, а не v, как и у нас «на почте», и окончание предложного **-e**: pošt**e**. В na pošta нет окончания."
   },
   "u8-l5.5.prompt": {
     "en": "We live in Bratislava.",
@@ -1450,6 +1530,10 @@
   "u8-l5.6.en": {
     "en": "Lucia is in the park.",
     "t": "Луция в парке."
+  },
+  "u8-l5.6.why": {
+    "en": "After k, g, h, ch the locative ending is **-u**, not -e: park → park**u**, like vo vlaku. Parky means parks.",
+    "t": "После k, g, h, ch окончание предложного — **-u**, а не -e (хотя по-русски «в парке»): park → park**u**, как vo vlaku. Parky — «парки»."
   },
   "u8-l5.7.en": {
     "en": "Tomáš is on the train.",
@@ -1539,9 +1623,17 @@
     "en": "Emma lives in a small room.",
     "t": "Эмма живёт в маленькой комнате."
   },
+  "u8-l5.9.why": {
+    "en": "Izba is feminine, so in the locative its adjective ends in **-ej**: mal**ej**. Malom is for masculine and neuter nouns; malá is the basic form.",
+    "t": "Izba — женского рода, поэтому в предложном падеже её прилагательное на **-ej** (ср. «в маленькой»): mal**ej**. Malom — для мужского и среднего рода, malá — начальная форма."
+  },
   "u8-l5.10.en": {
     "en": "Lucia wants to work for a big company.",
     "t": "Луция хочет работать в большой фирме."
+  },
+  "u8-l5.10.why": {
+    "en": "Firma is feminine, so in the locative its adjective ends in **-ej**: veľk**ej**. Veľkom is for masculine and neuter nouns, as in vo veľkom byte.",
+    "t": "Firma — женского рода, поэтому в предложном падеже её прилагательное на **-ej** (ср. «в большой»): veľk**ej**. Veľkom — для мужского и среднего рода, как vo veľkom byte."
   },
   "u8-l5.11.prompt": {
     "en": "Marek works in a small restaurant.",
@@ -1569,6 +1661,10 @@
   "u8-l5.13.question": {
     "en": "How do you say “in Slovakia”?",
     "t": "Как сказать «в Словакии»?"
+  },
+  "u8-l5.13.why": {
+    "en": "Slovensko takes **na** (learn it as a set phrase), and in the locative -ko becomes **-ku**: Slovensk**u**, not Slovenske.",
+    "t": "Slovensko — с **na** (а по-русски «в Словакии»), запомните как готовое выражение. В предложном -ko превращается в **-ku**: Slovensk**u**, а не Slovenske."
   },
   "u8-l5.14.en": {
     "en": "I'm at work.",
@@ -1748,13 +1844,25 @@
     "en": "Lucia, we're talking about you!",
     "t": "Луция, мы говорим о тебе!"
   },
+  "u8-l6.2.why": {
+    "en": "After **o** (about), pronouns take their locative form: ty → **tebe**. Teba is the object form, as in pre teba.",
+    "t": "После **o** местоимения стоят в предложном падеже: ty → **tebe**, как «о тебе». Teba — форма винительного, как в pre teba."
+  },
   "u8-l6.3.en": {
     "en": "After the meeting I'm going home.",
     "t": "После совещания я иду домой."
   },
+  "u8-l6.3.why": {
+    "en": "**Po** (after) takes the locative, so porada ends in **-e**: porad**e**. With the object form, po means “to get”: Idem po chlieb.",
+    "t": "**Po** (после) требует предложного падежа, поэтому porada получает **-e**: porad**e**. С винительным po значит «за чем-то»: Idem po chlieb."
+  },
   "u8-l6.4.question": {
     "en": "How do you ask “What do you know about Tomáš?”",
     "t": "Как спросить «Что ты знаешь о Томаше?»"
+  },
+  "u8-l6.4.why": {
+    "en": "After **o** (about), men's names add **-ovi**: o Tomáš**ovi**. Tomáša is the object form, as in pre Tomáša.",
+    "t": "После **o** мужские имена получают **-ovi**: o Tomáš**ovi** (а по-русски просто «о Томаше»). Tomáša — форма винительного, как в pre Tomáša."
   },
   "u8-l6.5.prompt": {
     "en": "What do you know about our company? (formal)",
@@ -1767,6 +1875,10 @@
   "u8-l6.7.en": {
     "en": "Mrs Horváthová? We were talking about her.",
     "t": "Госпожа Горватова? Мы говорили о ней."
+  },
+  "u8-l6.7.why": {
+    "en": "Pani Horváthová is a woman, **ona**, and after o, ona becomes **nej**. Ňom is for on (him), nich for oni (them).",
+    "t": "Госпожа Горватова — женщина, **ona**, а после o ona превращается в **nej**, как «о ней». Ňom — для on, nich — для oni."
   },
   "u8-l6.8.answers": {
     "en": [
@@ -1810,6 +1922,10 @@
     "en": "At the interview, Emma talked about herself.",
     "t": "На собеседовании Эмма рассказывала о себе."
   },
+  "u8-l6.10.why": {
+    "en": "About myself, yourself, herself… is always **o sebe**, for any person. Sa goes with verbs like volať sa, never after o.",
+    "t": "«О себе» — всегда **o sebe**, для любого лица, как и в русском. Sa стоит при глаголах вроде volať sa и никогда — после o."
+  },
   "u8-l6.11.prompt": {
     "en": "After lunch I have a job interview.",
     "t": "После обеда у меня собеседование."
@@ -1829,6 +1945,10 @@
       "офис",
       "я"
     ]
+  },
+  "u8-l6.12.why": {
+    "en": "**Nej** is ona after a preposition: v nej = in it, in the firma just mentioned. The office is what you have there, and “in me” would be vo mne.",
+    "t": "**Nej** — это ona после предлога: v nej = «в ней», то есть в упомянутой firma. Офис — то, что там есть, а «во мне» было бы vo mne."
   },
   "u8-l6.13.en": {
     "en": "Can I sit by the window?",
@@ -1858,6 +1978,10 @@
     "en": "The interview is on Wednesday.",
     "t": "Собеседование в среду."
   },
+  "u8-l7.1.why": {
+    "en": "“On” a day is v + the day, and days ending in -a change it to **-u**, like the accusative: stred**u**. It's not the locative -e.",
+    "t": "«В» какой-то день — v + день, а дни на -a меняют его на **-u**, как в винительном: stred**u** (в среду). Это не предложное -e."
+  },
   "u8-l7.2.prompt": {
     "en": "Emma was born in Dublin.",
     "t": "Эмма родилась в Дублине."
@@ -1869,6 +1993,10 @@
   "u8-l7.4.en": {
     "en": "I was born on the sixth of April.",
     "t": "Я родилась шестого апреля."
+  },
+  "u8-l7.4.why": {
+    "en": "A date uses the ordinal ending in -ého, shortened to **-eho** after a long syllable like ie: šiest**eho**. Šiesty is the plain ordinal, šesť just “six”.",
+    "t": "В дате — порядковое числительное на -ého, а после долгого слога (ie) окончание краткое, **-eho**: šiest**eho** (шестого). Šiesty — простое порядковое, šesť — «шесть»."
   },
   "u8-l7.5.pairs": {
     "en": [
@@ -1909,9 +2037,17 @@
     "en": "Emma is looking for an internship at a big company.",
     "t": "Эмма ищет стажировку в большой фирме."
   },
+  "u8-l7.7.why": {
+    "en": "Stáž is already the object of hľadá. Vo veľkej … says where, so firma takes the locative **-e**: firm**e**. Firmu would be another object.",
+    "t": "Stáž уже дополнение к hľadá. Vo veľkej … отвечает на вопрос «где?», поэтому firma в предложном падеже, на **-e**: firm**e**. Firmu было бы ещё одним дополнением."
+  },
   "u8-l7.8.question": {
     "en": "How do you say “in August”?",
     "t": "Как сказать «в августе»?"
+  },
+  "u8-l7.8.why": {
+    "en": "August is the one month that takes **-e** after v: august**e**. Augusta is the date form (of August), and vo goes before f, as in vo februári.",
+    "t": "August — единственный месяц, который после v получает **-e**: august**e**, как «в августе». Augusta — форма для даты («августа»), а vo ставят перед f: vo februári."
   },
   "u8-l7.9.prompt": {
     "en": "We're talking about him.",
@@ -1920,6 +2056,10 @@
   "u8-l7.10.en": {
     "en": "I never have time on Fridays.",
     "t": "По пятницам у меня никогда нет времени."
+  },
+  "u8-l7.10.why": {
+    "en": "Never is **nikdy**, the ni- word that goes with the negative verb nemám. Niekedy, with nie-, means sometimes.",
+    "t": "«Никогда» — **nikdy**, слово на ni-, которое требует отрицания при глаголе: nemám. Niekedy, с nie-, значит «иногда» (не путайте с русским «некогда»)."
   },
   "u8-l7.11.en": {
     "en": "I was born in Ireland.",

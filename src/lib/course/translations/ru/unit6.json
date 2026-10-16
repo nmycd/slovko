@@ -129,6 +129,10 @@
     "en": "The menu, please.",
     "t": "Меню, пожалуйста."
   },
+  "u6-l1.10.why": {
+    "en": "The menu is **jedálny lístok**. Jedálny has the masculine ending (short, like čierny), so it needs a masculine noun; jedlo and mäso are neuter.",
+    "t": "Меню — это **jedálny lístok**, дословно «обеденный листок». У jedálny краткое окончание мужского рода (как у čierny), значит, нужно существительное мужского рода; jedlo и mäso — среднего."
+  },
   "u6-l1.11.en": {
     "en": "Marek is cooking soup.",
     "t": "Марек варит суп."
@@ -140,6 +144,10 @@
   "u6-l1.13.en": {
     "en": "The chips are good.",
     "t": "Картошка фри вкусная."
+  },
+  "u6-l1.13.why": {
+    "en": "**Hranolky** is always plural, like English “chips”, so the verb is **sú** (they are). Je is for one thing.",
+    "t": "**Hranolky** — всегда множественное число (в отличие от «картошки фри»), поэтому глагол **sú**. Je — для одной вещи."
   },
   "u6-l1.14.answers": {
     "en": [
@@ -207,9 +215,17 @@
       "Как у вас дела"
     ]
   },
+  "u6-l2.2.why": {
+    "en": "**Čo** is what, and **dať si** is to have (food or a drink): Čo si dáte? is the waiter's polite “What will you have?”",
+    "t": "**Čo** — «что», а **dať si** — взять себе еду или напиток: Čo si dáte? — вежливое «Что будете заказывать?» официанта."
+  },
   "u6-l2.3.en": {
     "en": "I'll have the fish and chips.",
     "t": "Я возьму рыбу и картошку фри."
+  },
+  "u6-l2.3.why": {
+    "en": "The fish is what you'll have, the object, so ryba changes -a to **-u**: dám si **rybu**. Ryby is the plural.",
+    "t": "Рыба — то, что вы берёте, дополнение, поэтому ryba меняет -a на **-u**: dám si **rybu**, как «возьму рыбу». Ryby — множественное число."
   },
   "u6-l2.4.en": {
     "en": "And to drink?",
@@ -234,6 +250,10 @@
   "u6-l2.7.question": {
     "en": "Your soup is delicious. Lucia asks “Chutí ti?”. What do you say?",
     "t": "Ваш суп очень вкусный. Луция спрашивает: «Chutí ti?» Что вы ответите?"
+  },
+  "u6-l2.7.why": {
+    "en": "The soup is delicious, so answer yes. **Ne-** makes a verb negative: nechutí mi means “I don't like it”.",
+    "t": "Суп вкусный, значит, ответ — «да». **Ne-** делает глагол отрицательным: nechutí mi — «мне невкусно»."
   },
   "u6-l2.8.en": {
     "en": "hot",
@@ -275,9 +295,17 @@
     "en": "The soup is hot.",
     "t": "Суп горячий."
   },
+  "u6-l2.12.why": {
+    "en": "Polievka is feminine, so horúci takes its short feminine ending **-a**: horúc**a**. Horúci is for masculine words (čaj), horúce for neuter (jedlo).",
+    "t": "Polievka — женского рода, поэтому у horúci краткое женское окончание **-a**: horúc**a**. Horúci — для мужского рода (čaj), horúce — для среднего (jedlo)."
+  },
   "u6-l2.13.en": {
     "en": "The cake is very sweet.",
     "t": "Торт очень сладкий."
+  },
+  "u6-l2.13.why": {
+    "en": "Torta is feminine, so the adjective ends in **-á**: sladk**á**. Sladký is masculine, sladké neuter.",
+    "t": "Torta — женского рода (в отличие от «торт»), поэтому прилагательное на **-á**: sladk**á**. Sladký — мужской род, sladké — средний."
   },
   "u6-l2.14.prompt": {
     "en": "We'll have soup and fish.",
@@ -415,13 +443,25 @@
     "en": "How do you say “tea with lemon”?",
     "t": "Как сказать «чай с лимоном»?"
   },
+  "u6-l3.1.why": {
+    "en": "After **s** (with), masculine nouns take the instrumental ending **-om**: citrón → citrón**om**.",
+    "t": "После **s** (с) существительные мужского рода получают окончание творительного падежа **-om**: citrón → citrón**om**, как «с лимоном»."
+  },
   "u6-l3.2.en": {
     "en": "Coffee with milk, please.",
     "t": "Кофе с молоком, пожалуйста."
   },
+  "u6-l3.2.why": {
+    "en": "After **s** (with), neuter nouns change -o to **-om**: mlieko → mliek**om**.",
+    "t": "После **s** (с) средний род меняет -o на **-om**: mlieko → mliek**om**, как «с молоком»."
+  },
   "u6-l3.3.en": {
     "en": "I'll have fish with rice.",
     "t": "Я возьму рыбу с рисом."
+  },
+  "u6-l3.3.why": {
+    "en": "After **s**, feminine nouns change -a to **-ou**: ryž**ou**. Ryžu is the object form: it goes after dám si, like rybu, not after s.",
+    "t": "После **s** женский род меняет -a на **-ou** (у нас -ой): ryž**ou**. Ryžu — форма винительного: она стоит после dám si, как rybu, а не после s."
   },
   "u6-l3.4.prompt": {
     "en": "Bread with cheese.",
@@ -431,9 +471,17 @@
     "en": "Which word needs “so” instead of “s”?",
     "t": "Перед каким словом нужно «so», а не «s»?"
   },
+  "u6-l3.5.why": {
+    "en": "**S** becomes **so** before a word starting with s, z, š or ž, as syrom does. Mliekom and ryžou take plain s.",
+    "t": "**S** превращается в **so** перед словом на s, z, š или ž, как syrom (хотя по-русски «с сыром»). Mliekom и ryžou — с обычным s."
+  },
   "u6-l3.6.en": {
     "en": "Lucia is talking to Tomáš.",
     "t": "Луция разговаривает с Томашем."
+  },
+  "u6-l3.6.why": {
+    "en": "After **s**, masculine nouns add **-om**, names too: Tomáš**om**. Tomáša is the object form, as in Hľadám Tomáša.",
+    "t": "После **s** мужской род, в том числе имена, получает **-om**: Tomáš**om**, как «с Томашем». Tomáša — форма винительного, как в Hľadám Tomáša."
   },
   "u6-l3.7.en": {
     "en": "Tomáš is with Marek.",
@@ -513,9 +561,17 @@
     "en": "Lucia is with a good friend.",
     "t": "Луция с хорошей подругой."
   },
+  "u6-l3.9.why": {
+    "en": "After s, a feminine adjective takes **-ou**, the same ending as kamarátk**ou**: dobr**ou**. Dobrým is for masculine and neuter nouns.",
+    "t": "После s прилагательное женского рода получает **-ou**, то же окончание, что и kamarátk**ou**: dobr**ou** (ср. «с доброй»). Dobrým — для мужского и среднего рода."
+  },
   "u6-l3.10.en": {
     "en": "Tomáš is talking to a new friend.",
     "t": "Томаш разговаривает с новым другом."
+  },
+  "u6-l3.10.why": {
+    "en": "Kamarát is masculine, so after s its adjective ends in **-ým**: nov**ým**. Novou is the feminine form, for kamarátkou.",
+    "t": "Kamarát — мужского рода, поэтому после s прилагательное на **-ým**: nov**ým**, как «с новым». Novou — женская форма, для kamarátkou."
   },
   "u6-l3.11.prompt": {
     "en": "I'll have tea with cold milk.",
@@ -524,6 +580,10 @@
   "u6-l3.12.question": {
     "en": "How do you say “with Marek”?",
     "t": "Как сказать «с Мареком»?"
+  },
+  "u6-l3.12.why": {
+    "en": "After **s**, masculine names add **-om**: Marek → Marek**om**. Mareka is the object form, as in Hľadám Mareka.",
+    "t": "После **s** мужские имена получают **-om**: Marek → Marek**om**, как «с Мареком». Mareka — форма винительного, как в Hľadám Mareka."
   },
   "u6-l3.13.answers": {
     "en": [
@@ -603,6 +663,10 @@
       "на машине",
       "пешком"
     ]
+  },
+  "u6-l4.5.why": {
+    "en": "**Autobus** is a bus (a car is auto), and the instrumental ending **-om** does the job of English “by”.",
+    "t": "**Autobus** — автобус (а auto — машина). Окончание творительного **-om** само говорит, на чём едут, как и у нас: «еду автобусом»."
   },
   "u6-l4.6.title": {
     "en": "How you travel",
@@ -712,13 +776,25 @@
     "en": "Tomáš is travelling home by train.",
     "t": "Томаш едет домой поездом."
   },
+  "u6-l4.7.why": {
+    "en": "How you travel takes the instrumental, with no s: masculine vlak adds **-om**, vlak**om**.",
+    "t": "На чём едут — творительный падеж без s: vlak (мужской род) получает **-om**, vlak**om**, как «поездом»."
+  },
   "u6-l4.8.question": {
     "en": "How do you say “by plane”?",
     "t": "Как сказать «самолётом»?"
   },
+  "u6-l4.8.why": {
+    "en": "For how you travel, the vehicle takes the instrumental without s: lietadl**om**. S lietadlom would mean “with a plane”.",
+    "t": "Транспорт стоит в творительном без s: lietadl**om**, как «самолётом». S lietadlom значило бы «вместе с самолётом»."
+  },
   "u6-l4.9.en": {
     "en": "Lucia is going home by tram.",
     "t": "Луция едет домой трамваем."
+  },
+  "u6-l4.9.why": {
+    "en": "Električka is feminine, so for how you travel it changes -a to **-ou**: električk**ou**. Električku is the object form.",
+    "t": "Električka — женского рода, поэтому -a меняется на **-ou**: električk**ou** (трамваем; električka — это трамвай, а не электричка). Električku — форма винительного."
   },
   "u6-l4.10.en": {
     "en": "on foot",
@@ -782,6 +858,10 @@
   "u6-l4.16.en": {
     "en": "Lucia is going home with her friends.",
     "t": "Луция идёт домой с подругами."
+  },
+  "u6-l4.16.why": {
+    "en": "Her friends are more than one, and after **s** plural nouns end in **-mi** or **-ami**: kamarátky → kamarátk**ami**.",
+    "t": "Подруг несколько, а после **s** существительные во множественном числе оканчиваются на **-mi** или **-ami**: kamarátky → kamarátk**ami**, как «с подругами»."
   },
   "u6-l4.17.en": {
     "en": "The bill, please.",
@@ -903,13 +983,25 @@
       "Он идёт с тобой?"
     ]
   },
+  "u6-l5.1.why": {
+    "en": "**So mnou** is with me (with us would be s nami), and ideš is the ty form: are you coming?",
+    "t": "**So mnou** — «со мной» (с нами было бы s nami), а ideš — форма для ty: ты идёшь?"
+  },
   "u6-l5.2.en": {
     "en": "Tomáš is here. Lucia is talking to him.",
     "t": "Томаш здесь. Луция разговаривает с ним."
   },
+  "u6-l5.2.why": {
+    "en": "Tomáš is on (he), and after s, on becomes **ním**. Ňou is for ona; ho is the object form, as in Mám ho rád.",
+    "t": "Томаш — on (он), а после s on превращается в **ním**, как «с ним». Ňou — для ona; ho — форма винительного, как в Mám ho rád."
+  },
   "u6-l5.3.en": {
     "en": "Lucia is my friend. I live with her.",
     "t": "Луция — моя подруга. Я живу с ней."
+  },
+  "u6-l5.3.why": {
+    "en": "Lucia is ona (she), and after s, ona becomes **ňou**. Ním is for on; ju is the object form, as in Mám ju rada.",
+    "t": "Луция — ona (она), а после s ona превращается в **ňou**, как «с ней». Ním — для on; ju — форма винительного, как в Mám ju rada."
   },
   "u6-l5.4.prompt": {
     "en": "Are you coming with us, Tomáš?",
@@ -1033,9 +1125,17 @@
     "en": "Tomáš is waiting in front of the university.",
     "t": "Томаш ждёт перед университетом."
   },
+  "u6-l5.8.why": {
+    "en": "**Pred** (in front of) takes the instrumental, so feminine univerzita changes -a to **-ou**. Univerzitu is the object form.",
+    "t": "**Pred** (перед) требует творительного, как «перед университетом», поэтому univerzita меняет -a на **-ou**. Univerzitu — форма винительного."
+  },
   "u6-l5.9.en": {
     "en": "The café is between the bank and the post office.",
     "t": "Кафе между банком и почтой."
+  },
+  "u6-l5.9.why": {
+    "en": "**Medzi** (between) takes the instrumental for both places: bank**ou** a pošt**ou**.",
+    "t": "**Medzi** (между) требует творительного для обоих мест, как «между банком и почтой»: bank**ou** a pošt**ou**."
   },
   "u6-l5.10.prompt": {
     "en": "The cat is under the bed.",
@@ -1045,9 +1145,17 @@
     "en": "The lamp is above the table.",
     "t": "Лампа над столом."
   },
+  "u6-l5.11.why": {
+    "en": "**Nad** (above) takes the instrumental: stôl adds **-om**, and its ô turns into o: **stolom**.",
+    "t": "**Nad** (над) требует творительного, как «над столом»: stôl получает **-om**, а ô переходит в o: **stolom**."
+  },
   "u6-l5.12.en": {
     "en": "Emma is standing behind you.",
     "t": "Эмма стоит за тобой."
+  },
+  "u6-l5.12.why": {
+    "en": "**Za** (behind) takes the instrumental when it says where, and ty becomes **tebou**, as in s tebou. Teba is the form after pre: pre teba.",
+    "t": "**Za** (за) в значении «где» требует творительного, и ty превращается в **tebou**, как «за тобой». Teba — форма после pre: pre teba."
   },
   "u6-l5.13.en": {
     "en": "Marek is waiting behind the restaurant.",
@@ -1324,13 +1432,25 @@
     "en": "What are you drinking, Emma? — I'm drinking tea.",
     "t": "Что ты пьёшь, Эмма? — Я пью чай."
   },
+  "u6-l6.3.why": {
+    "en": "The question is to Emma (ty), so the verb ends in **-š**: pij**eš**. Pije goes with on or ona, pijú with oni.",
+    "t": "Вопрос задан Эмме (ty), поэтому глагол оканчивается на **-š**: pij**eš** (пьёшь). Pije — с on или ona, pijú — с oni."
+  },
   "u6-l6.4.en": {
     "en": "Lucia and Emma drink coffee with milk.",
     "t": "Луция и Эмма пьют кофе с молоком."
   },
+  "u6-l6.4.why": {
+    "en": "Lucia and Emma are two people (they), so piť takes the oni form, **pijú**. Pije is for one person, pijeme for my (we).",
+    "t": "Луция и Эмма — двое (они), поэтому у piť форма для oni: **pijú** (пьют). Pije — для одного человека, pijeme — для my (мы)."
+  },
   "u6-l6.5.en": {
     "en": "Marek is carrying the soup to the table.",
     "t": "Марек несёт суп на стол."
+  },
+  "u6-l6.5.why": {
+    "en": "Marek is on (he), so niesť takes **nesie**. Nesú goes with oni, nesiem with ja.",
+    "t": "Марек — on (он), поэтому у niesť форма **nesie** (несёт). Nesú — с oni, nesiem — с ja."
   },
   "u6-l6.6.prompt": {
     "en": "I'll invite Lucia to dinner.",
@@ -1356,13 +1476,25 @@
     "en": "I'm eating fish and Lucia is eating chicken.",
     "t": "Я ем рыбу, а Луция ест курицу."
   },
+  "u6-l6.10.why": {
+    "en": "**Jesť** is irregular: with ja it's **jem**. Je goes with on or ona (Lucia je kuracie mäso), and also means “is”.",
+    "t": "**Jesť** — неправильный глагол: с ja — **jem** (ем). Je — с on или ona (Lucia je = Луция ест); кроме того, je — форма byť («является»)."
+  },
   "u6-l6.11.en": {
     "en": "Emma and Lucia are eating fish with rice.",
     "t": "Эмма и Луция едят рыбу с рисом."
   },
+  "u6-l6.11.why": {
+    "en": "Emma and Lucia are two people (they), so jesť takes its irregular oni form, **jedia**. Jeme is for my (we), je for one person.",
+    "t": "Эмма и Луция — двое (они), поэтому у jesť особая форма для oni: **jedia** (едят). Jeme — для my (мы), je — для одного человека."
+  },
   "u6-l6.12.en": {
     "en": "Lucia wants to become a teacher.",
     "t": "Луция хочет стать учительницей."
+  },
+  "u6-l6.12.why": {
+    "en": "**Stať sa** (to become) takes the instrumental, so feminine učiteľka changes -a to **-ou**. Učiteľku is the object form.",
+    "t": "**Stať sa** (стать) требует творительного, как и «стать учительницей», поэтому učiteľka меняет -a на **-ou**. Učiteľku — форма винительного."
   },
   "u6-l6.13.prompt": {
     "en": "We live in Bratislava.",
@@ -1389,6 +1521,10 @@
   "u6-l6.15.en": {
     "en": "I want to become a cook.",
     "t": "Я хочу стать поваром."
+  },
+  "u6-l6.15.why": {
+    "en": "After **chcieť**, the next verb is an infinitive, the -ť form: chcem sa **stať**. Stanem already means “I'll become”.",
+    "t": "После **chcieť** следующий глагол стоит в инфинитиве, на -ť: chcem sa **stať** (хочу стать). Stanem уже значит «стану»."
   },
   "u6-l6.16.en": {
     "en": "I'll buy you a coffee.",
@@ -1426,6 +1562,10 @@
     "en": "And to drink? — Mineral water, please.",
     "t": "А из напитков? — Минералку, пожалуйста."
   },
+  "u6-l7.2.why": {
+    "en": "The answer is a drink, so the question asks about drinking: **pitie** comes from piť (to drink). Jedlo is food, účet the bill.",
+    "t": "В ответе напиток, значит, вопрос о питье: **pitie** (питьё) — от piť (пить). Jedlo — еда, účet — счёт."
+  },
   "u6-l7.3.pairs": {
     "en": [
       "with milk",
@@ -1447,6 +1587,10 @@
   "u6-l7.5.en": {
     "en": "Marek is standing behind Tomáš.",
     "t": "Марек стоит за Томашем."
+  },
+  "u6-l7.5.why": {
+    "en": "**Za** (behind) takes the instrumental when it says where, so Tomáš adds **-om**. Tomáša is the object form.",
+    "t": "**Za** (за) в значении «где» требует творительного, поэтому Tomáš получает **-om**: za Tomášom, как «за Томашем». Tomáša — форма винительного."
   },
   "u6-l7.6.answers": {
     "en": [
@@ -1471,6 +1615,10 @@
     "en": "Tomáš is going home by taxi.",
     "t": "Томаш едет домой на такси."
   },
+  "u6-l7.7.why": {
+    "en": "For how you travel, the vehicle takes the instrumental without s: taxík**om**. S taxíkom would mean “with a taxi”.",
+    "t": "Транспорт стоит в творительном без s: taxík**om**, хотя по-русски «на такси». S taxíkom значило бы «вместе с такси»."
+  },
   "u6-l7.8.question": {
     "en": "How do you ask for the bill?",
     "t": "Как попросить счёт?"
@@ -1482,6 +1630,10 @@
   "u6-l7.10.en": {
     "en": "Lucia, I'll take you out to dinner.",
     "t": "Луция, я приглашу тебя на ужин."
+  },
+  "u6-l7.10.why": {
+    "en": "With **ja**, pozvať ends in **-em**: pozv**em** (I'll invite). Pozve goes with on or ona, pozveme with my (we).",
+    "t": "С **ja** у pozvať окончание **-em**: pozv**em** (приглашу). Pozve — с on или ona, pozveme — с my (мы)."
   },
   "u6-l7.11.en": {
     "en": "Tomáš is drinking beer with Marek.",
@@ -1495,9 +1647,17 @@
     "en": "How do you say “The cat is under the table”?",
     "t": "Как сказать «Кошка под столом»?"
   },
+  "u6-l7.13.why": {
+    "en": "**Pod** means under (nad is above). Saying where something is, it takes the instrumental: stôl → **stolom**.",
+    "t": "**Pod** — «под» (nad — «над»). Когда говорят, где что-то находится, он требует творительного, как «под столом»: stôl → **stolom**."
+  },
   "u6-l7.14.en": {
     "en": "How are you getting home, Mrs Horváthová?",
     "t": "Как вы добираетесь домой, госпожа Горватова?"
+  },
+  "u6-l7.14.why": {
+    "en": "Pani Horváthová is a teacher, so use polite **vy**: id**ete**. Ideš is for a friend (ty), idú for oni.",
+    "t": "Госпожа Горватова — учительница, поэтому вежливое **vy**: id**ete**. Ideš — для друга (ty), idú — для oni."
   },
   "u6-l7.15.en": {
     "en": "I'll have coffee with milk.",

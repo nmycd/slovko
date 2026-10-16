@@ -101,6 +101,8 @@ export const en = {
   // Lesson player
   "lesson.quit": "Quit lesson",
   "lesson.volume": "Volume",
+  "lesson.seeRule": "See the rule",
+  "lesson.closeRule": "Close",
   "lesson.quitConfirm": "Quit? Your progress in this lesson will be lost.",
   "lesson.place": "Unit {unit} · Lesson {lesson}",
   "lesson.course": "Slovak A1",

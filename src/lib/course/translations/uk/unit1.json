@@ -51,6 +51,10 @@
     "en": "Emma walks into a bakery. What does she say?",
     "t": "Емма заходить у пекарню. Що вона каже?"
   },
+  "u1-l1.2.why": {
+    "en": "In a shop, greet politely with **Dobrý deň**. Ahoj! is only for friends, family and children.",
+    "t": "У магазині вітаються ввічливо: **Dobrý deň**, як наше «добрий день». Ahoj! — лише для друзів, рідних і дітей."
+  },
   "u1-l1.3.en": {
     "en": "Good morning.",
     "t": "Доброго ранку."
@@ -125,13 +129,25 @@
     "en": "It's late and Lucia is going to bed. What do you say?",
     "t": "Уже пізно, і Луція йде спати. Що ви скажете?"
   },
+  "u1-l1.11.why": {
+    "en": "**Dobrú noc** is for when someone goes to bed. Dobrý večer and Dobré ráno are greetings, said when you meet.",
+    "t": "**Dobrú noc** кажуть, коли хтось іде спати, як «на добраніч». Dobrý večer і Dobré ráno — це привітання при зустрічі."
+  },
   "u1-l1.12.en": {
     "en": "Good morning, Emma!",
     "t": "Доброго ранку, Еммо!"
   },
+  "u1-l1.12.why": {
+    "en": "Each greeting has its own ending: dobrý deň, **dobré** ráno, dobrú noc.",
+    "t": "Кожне привітання має своє закінчення: dobrý deň, **dobré** ráno, dobrú noc. Ráno — середнього роду, тому dobr**é**."
+  },
   "u1-l1.13.en": {
     "en": "Enjoy your meal, Tomáš!",
     "t": "Смачного, Томашу!"
+  },
+  "u1-l1.13.why": {
+    "en": "The ending -ú fits **chuť**, as in dobrú noc. Deň and večer take dobrý: dobrý deň, dobrý večer.",
+    "t": "**Chuť**, як і noc, жіночого роду, тому dobrú: dobrú chuť, dobrú noc. Deň і večer беруть dobrý: dobrý deň, dobrý večer."
   },
   "u1-l1.14.prompt": {
     "en": "Goodbye, Mrs Horváthová.",
@@ -173,6 +189,10 @@
     "en": "Lucia says “Ďakujem.” What's the natural reply?",
     "t": "Луція каже: «Ďakujem». Що їй відповісти?"
   },
+  "u1-l2.2.why": {
+    "en": "The usual reply to ďakujem is **Prosím**: here it means you're welcome.",
+    "t": "На ďakujem зазвичай відповідають **Prosím**: тут це «будь ласка» у значенні «нема за що», як і в нас."
+  },
   "u1-l2.3.en": {
     "en": "Here you go.",
     "t": "Прошу. / Тримайте."
@@ -196,6 +216,10 @@
   "u1-l2.6.question": {
     "en": "Tomáš offers you a coffee, but you don't want one. What do you say?",
     "t": "Томаш пропонує вам каву, але ви не хочете. Що ви скажете?"
+  },
+  "u1-l2.6.why": {
+    "en": "Saying no to an offer is **Nie, ďakujem** (no, thank you). Áno, prosím (yes, please) would accept the coffee.",
+    "t": "Щоб відмовитися, кажуть **Nie, ďakujem**: «ні, дякую». Áno, prosím («так, будь ласка») означало б, що ви берете каву."
   },
   "u1-l2.7.pairs": {
     "en": [
@@ -237,9 +261,17 @@
     "en": "Emma bumps into pán Kováč in the corridor. What does she say?",
     "t": "Емма в коридорі наштовхується на пана Ковача. Що вона каже?"
   },
+  "u1-l2.11.why": {
+    "en": "Bumping into someone calls for sorry, and pán Kováč gets the polite form: **Prepáčte!** To a friend, you'd say Prepáč!",
+    "t": "Емма наштовхнулася на пана Ковача, тож просить вибачення, і на «ви»: **Prepáčte!**, як «вибачте». Другові сказала б Prepáč!"
+  },
   "u1-l2.12.en": {
     "en": "Sorry! — That's OK.",
     "t": "Вибачте! — Нічого страшного."
+  },
+  "u1-l2.12.why": {
+    "en": "The set reply is **Nič** sa nestalo, literally “nothing happened”. Nie just means no.",
+    "t": "Сталий вираз — **Nič** sa nestalo, дослівно «нічого не сталося». Nie означає просто «ні»."
   },
   "u1-l2.13.en": {
     "en": "Cheers! / Bless you!",
@@ -341,6 +373,10 @@
     "en": "Hi! How are you, Tomáš?",
     "t": "Привіт! Як справи, Томашу?"
   },
+  "u1-l3.6.why": {
+    "en": "You're asking Tomáš about himself, so it's **máš** (you). Mám is for “I”: Mám sa dobre = I'm fine.",
+    "t": "Ви питаєте Томаша про нього самого, тому **máš**, як «маєш». Mám — це «маю», про себе: Mám sa dobre."
+  },
   "u1-l3.7.en": {
     "en": "I'm great, and you?",
     "t": "У мене все чудово, а в тебе?"
@@ -377,9 +413,17 @@
     "en": "Tomáš says “Teší ma.” What do you answer?",
     "t": "Томаш каже: «Teší ma». Що ви відповісте?"
   },
+  "u1-l3.12.why": {
+    "en": "Teší ma is literally “it pleases me”, so the reply is **Aj mňa**, “me too”.",
+    "t": "Teší ma — дослівно «тішить мене», тому відповідь **Aj mňa**: «і мене (теж)»."
+  },
   "u1-l3.13.en": {
     "en": "Hi! What's your name? — My name is Lucia.",
     "t": "Привіт! Як тебе звати? — Мене звати Луція."
+  },
+  "u1-l3.13.why": {
+    "en": "The reply gives a name, so the question needs **voláš** (What's your name?). Ako sa máš? asks how someone is.",
+    "t": "У відповіді звучить ім'я, тож питали **voláš**: «як ти звешся?». Ako sa máš? — це «як ся маєш?»."
   },
   "u1-l3.14.answers": {
     "en": [
@@ -507,13 +551,25 @@
     "en": "Emma meets pani Horváthová, her teacher. Which question fits?",
     "t": "Емма зустрічає свою вчительку, пані Горватову. Яке питання доречне?"
   },
+  "u1-l4.1.why": {
+    "en": "A teacher gets **vy**, so the verb ends in **-te**: má**te**. Máš is the ty form, for friends and family.",
+    "t": "До вчительки звертаються на **vy**, тому дієслово закінчується на **-te**: má**te**, як «маєте». Máš — форма на ty, для друзів і рідних."
+  },
   "u1-l4.2.en": {
     "en": "Hi, Tomáš! How are you?",
     "t": "Привіт, Томашу! Як справи?"
   },
+  "u1-l4.2.why": {
+    "en": "Ahoj and a friend's name mean **ty**, so the verb ends in **-š**: má**š**. Máte is for vy.",
+    "t": "Ahoj та ім'я друга — отже, на **ty**, і дієслово закінчується на **-š**: má**š**, як «маєш». Máte — для vy."
+  },
   "u1-l4.3.en": {
     "en": "Hello. What's your name?",
     "t": "Добрий день. Як вас звати?"
+  },
+  "u1-l4.3.why": {
+    "en": "**Dobrý deň** is the polite hello, so ask with vy: the verb ends in **-te**, volá**te**.",
+    "t": "**Dobrý deň** — ввічливе привітання, тож питаємо на vy: дієслово закінчується на **-te**, volá**te**."
   },
   "u1-l4.4.prompt": {
     "en": "Do you speak Slovak? (polite)",
@@ -522,6 +578,10 @@
   "u1-l4.5.question": {
     "en": "Emma meets Lucia and Tomáš together. How does she ask how they are?",
     "t": "Емма зустрічає Луцію й Томаша разом. Як вона спитає, як у них справи?"
+  },
+  "u1-l4.5.why": {
+    "en": "**Vy** is also for a group, even of friends, so the verb ends in **-te**: má**te**. Máš is for one friend.",
+    "t": "Як і в нас, **vy** кажуть і кільком людям, навіть друзям, тому **-te**: má**te**. Máš — для одного друга."
   },
   "u1-l4.6.title": {
     "en": "Same phrase, ty or vy",
@@ -621,9 +681,17 @@
     "en": "Lucia says “Dobrú noc!” What does Emma answer?",
     "t": "Луція каже: «Dobrú noc!» Що відповість Емма?"
   },
+  "u1-l4.7.why": {
+    "en": "Lucia is Emma's friend, so Emma uses ty: Aj **tebe**. Aj vám is for vy.",
+    "t": "Луція — подруга Емми, тож Емма на ty: Aj **tebe**, «і тобі». Aj vám — для vy."
+  },
   "u1-l4.8.en": {
     "en": "Enjoy your meal, Emma! — Thank you, you too, Mrs Horváthová.",
     "t": "Смачного, Еммо! — Дякую, і вам, пані Горватова."
+  },
+  "u1-l4.8.why": {
+    "en": "Pani Horváthová is Emma's teacher, so Emma uses vy: aj **vám**. Aj tebe is for friends.",
+    "t": "Пані Горватова — вчителька Емми, тож Емма на vy: aj **vám**, «і вам». Aj tebe — для друзів."
   },
   "u1-l4.9.prompt": {
     "en": "Take care, Lucia!",
@@ -632,6 +700,10 @@
   "u1-l4.10.en": {
     "en": "Hi, Emma! Welcome to Slovakia!",
     "t": "Привіт, Еммо! Ласкаво просимо до Словаччини!"
+  },
+  "u1-l4.10.why": {
+    "en": "Ahoj and one friend, Emma, mean ty: **Vitaj**. Vitajte, with -te, is for vy or a group.",
+    "t": "Ahoj і одна подруга, Емма, — отже, на ty: **Vitaj**. Vitajte з -te — для vy або для кількох людей."
   },
   "u1-l4.11.pairs": {
     "en": [
@@ -887,6 +959,10 @@
     "en": "Which phrase has the “sh” sound?",
     "t": "У якій фразі є звук «ш»?"
   },
+  "u1-l5.2.why": {
+    "en": "**š** is the “sh” in “ship”: Te**š**í ma. The č in Čau! is the “ch” in “chip”.",
+    "t": "**š** = ш: Te**š**í ma. А č у Čau! — це ч."
+  },
   "u1-l5.3.question": {
     "en": "Which syllable is stressed?",
     "t": "Який склад наголошений?"
@@ -903,17 +979,33 @@
       "-de-"
     ]
   },
+  "u1-l5.3.why": {
+    "en": "Stress is always on the first syllable, even in a long word: **Do**videnia.",
+    "t": "У словацькій наголос завжди на першому складі, навіть у довгому слові: **Do**videnia."
+  },
   "u1-l5.4.en": {
     "en": "I'm fine.",
     "t": "У мене все добре."
+  },
+  "u1-l5.4.why": {
+    "en": "With a short e, **dobre** means fine or well: Mám sa dobre. Dobré, with a long é, goes with ráno.",
+    "t": "**dobre** з коротким e означає «добре»: Mám sa dobre. Dobré з довгим é пасує до ráno: Dobré ráno."
   },
   "u1-l5.5.en": {
     "en": "Good morning!",
     "t": "Доброго ранку!"
   },
+  "u1-l5.5.why": {
+    "en": "Good morning has a long é: **Dobré** ráno. Dobre, with a short e, means fine: Mám sa dobre.",
+    "t": "«Доброго ранку» — з довгим é: **Dobré** ráno. Dobre з коротким e означає «добре»: Mám sa dobre."
+  },
   "u1-l5.6.question": {
     "en": "Which word has a soft ň?",
     "t": "У якому слові є м'яке ň (нь)?"
+  },
+  "u1-l5.6.why": {
+    "en": "The hook (mäkčeň) on n makes it soft, like “ny” in “canyon”: de**ň**. Noc and ráno have a plain n.",
+    "t": "Гачок (mäkčeň) над n пом'якшує його: de**ň** закінчується на нь, як наше «день». У noc і ráno звичайне n."
   },
   "u1-l5.7.en": {
     "en": "Thank you, good night.",
@@ -963,9 +1055,17 @@
       "Три"
     ]
   },
+  "u1-l5.9.why": {
+    "en": "**ie** glides together into one syllable, so N**ie** has just one, like Na zdrav**ie**.",
+    "t": "**ie** вимовляється в один склад: N**ie** ≈ «нє», так само як Na zdrav**ie**."
+  },
   "u1-l5.10.question": {
     "en": "Which word has ô, the “wo” sound?",
     "t": "У якому слові є ô — звук «уо»?"
+  },
+  "u1-l5.10.why": {
+    "en": "**ô** sounds like “wo”: st**ô**l sounds like “stwol”. Päť has ä, like the e in “bed”.",
+    "t": "**ô** звучить як «уо»: st**ô**l ≈ «стуол». У päť — ä, яке звучить як е."
   },
   "u1-l5.11.pairs": {
     "en": [
@@ -1003,6 +1103,10 @@
     "en": "You meet pani Horváthová early in the morning. What do you say?",
     "t": "Рано-вранці ви зустрічаєте пані Горватову. Що ви скажете?"
   },
+  "u1-l6.0.why": {
+    "en": "Early in the morning, say **Dobré ráno**, polite enough for a teacher. Ahoj! is only for friends, and Dobrú noc is for bedtime.",
+    "t": "Рано-вранці кажуть **Dobré ráno**, і це досить ввічливо для вчительки. Ahoj! — лише для друзів, а Dobrú noc — перед сном."
+  },
   "u1-l6.1.prompt": {
     "en": "Hi, Lucia! How are you?",
     "t": "Привіт, Луціє! Як справи?"
@@ -1014,6 +1118,10 @@
   "u1-l6.3.en": {
     "en": "Good night, Emma! — You too, Lucia.",
     "t": "На добраніч, Еммо! — І тобі, Луціє."
+  },
+  "u1-l6.3.why": {
+    "en": "Lucia is a friend, so use ty: Aj **tebe**. Aj vám is for vy: teachers, strangers or a group.",
+    "t": "Луція — подруга, тож на ty: Aj **tebe**, «і тобі». Aj vám — для vy: учителів, незнайомих або кількох людей."
   },
   "u1-l6.4.pairs": {
     "en": [
@@ -1065,9 +1173,17 @@
       "Коли хтось чхнув"
     ]
   },
+  "u1-l6.6.why": {
+    "en": "Said as a question, **Prosím?** means Pardon? On its own, prosím is please or you're welcome.",
+    "t": "Як питання **Prosím?** означає «Перепрошую?». Без питальної інтонації prosím — це «будь ласка»."
+  },
   "u1-l6.7.en": {
     "en": "Hello, Mr Kováč. How are you?",
     "t": "Добрий день, пане Ковачу. Як у вас справи?"
+  },
+  "u1-l6.7.why": {
+    "en": "Pán Kováč gets vy (note the polite Dobrý deň), so the verb ends in **-te**: má**te**.",
+    "t": "До пана Ковача — на vy (зверніть увагу на ввічливе Dobrý deň), тому дієслово закінчується на **-te**: má**te**."
   },
   "u1-l6.8.en": {
     "en": "How are you? (polite)",
@@ -1084,6 +1200,10 @@
   "u1-l6.11.question": {
     "en": "Which one means “Hi, everyone!”?",
     "t": "Що з цього означає «Привіт усім!»?"
+  },
+  "u1-l6.11.why": {
+    "en": "For a group of friends, add **-te**: Ahoj**te**! Ahoj! is for one friend, and Maj sa! means take care.",
+    "t": "До компанії друзів додайте **-te**: Ahoj**te**! Ahoj! — одному другові, а Maj sa! означає «бувай»."
   },
   "u1-l6.12.prompt": {
     "en": "My name is Emma. Nice to meet you.",

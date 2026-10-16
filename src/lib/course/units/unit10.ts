@@ -67,6 +67,8 @@ export const unit10: Unit = {
           options: ["slovenský", "slovenská", "slovenské"],
           answer: 2,
           en: "Emma is reading a Slovak newspaper.",
+          why: "Noviny is always plural, so the adjective is plural too: slovensk**é** noviny. Slovenský is for a masculine word, slovenská for a feminine one.",
+          ref: "u4-l6#8",
         },
         {
           type: "intro",
@@ -80,6 +82,8 @@ export const unit10: Unit = {
           options: ["článok o kultúra", "článok o kultúre", "článok o kultúru"],
           optionsLang: "sk",
           answer: 1,
+          why: "**O** (about) takes the locative, so kultúra changes -a to **-e**: o **kultúre**. Kultúru is the object form.",
+          ref: "u8-l6#0",
         },
         {
           type: "fill",
@@ -88,6 +92,7 @@ export const unit10: Unit = {
           options: ["novinách", "noviny", "novinami"],
           answer: 0,
           en: "Lucia is in the paper!",
+          why: "After **v** (in) comes the locative. Noviny is plural, so it takes a plural ending: v **novinách**.",
         },
         {
           type: "build",
@@ -185,6 +190,8 @@ export const unit10: Unit = {
           options: ["kuchár", "kuchára", "kuchárom"],
           answer: 1,
           en: "A restaurant is looking for a cook.",
+          why: "Hľadať takes the object form, and masculine words for people add **-a**: hľadá **kuchára**. Kuchárom goes with s (with).",
+          ref: "u5-l2#8",
         },
         {
           type: "build",
@@ -238,6 +245,8 @@ export const unit10: Unit = {
           options: ["kniha", "knihu", "knihou"],
           answer: 1,
           en: "Emma is looking for a book about Slovakia.",
+          why: "Hľadať takes the accusative, the object, so kniha changes -a to **-u**: hľadá **knihu**. Knihou goes with s.",
+          ref: "u10-l3#0",
         },
         {
           type: "fill",
@@ -246,6 +255,8 @@ export const unit10: Unit = {
           options: ["Tomášom", "Tomáš", "Tomáša"],
           answer: 0,
           en: "Lucia is going to the cinema with Tomáš.",
+          why: "**S** (with) takes the instrumental, so Tomáš adds **-om**: s **Tomášom**. Tomáša is the accusative, the object form.",
+          ref: "u10-l3#0",
         },
         {
           type: "match",
@@ -262,6 +273,8 @@ export const unit10: Unit = {
           options: ["koho? čo?", "s kým? s čím?", "o kom? o čom?"],
           optionsLang: "sk",
           answer: 2,
+          why: "The locative always follows a preposition, and its question has one too: **o kom? o čom?** Koho? čo? asks for the accusative, s kým? s čím? for the instrumental.",
+          ref: "u10-l3#0",
         },
         {
           type: "grammar",
@@ -295,6 +308,8 @@ export const unit10: Unit = {
           options: ["reštaurácia", "reštauráciu", "reštaurácii"],
           answer: 2,
           en: "Marek works in a restaurant.",
+          why: "**V** (in, where?) takes the locative, and nouns in -ia get **-ii**: v **reštaurácii**. Reštauráciu is the object form.",
+          ref: "u10-l3#5",
         },
         {
           type: "fill",
@@ -303,6 +318,8 @@ export const unit10: Unit = {
           options: ["univerzitu", "univerzite", "univerzitou"],
           answer: 0,
           en: "I'm going to the university now.",
+          why: "Going somewhere answers “where to?”, so **na** takes the accusative: idem na **univerzitu**. Being there is na univerzite, the locative.",
+          ref: "u10-l3#5",
         },
         {
           type: "build",
@@ -326,6 +343,8 @@ export const unit10: Unit = {
           options: ["Tomášom", "Tomášovi", "Tomáša"],
           answer: 1,
           en: "What do you know about Tomáš?",
+          why: "**O** (about) takes the locative, and men's names add **-ovi**: o **Tomášovi**. Tomášom goes with s, Tomáša is the object form.",
+          ref: "u10-l3#5",
         },
         {
           type: "build",
@@ -374,6 +393,8 @@ export const unit10: Unit = {
           options: ["je", "som", "sme"],
           answer: 1,
           en: "Yesterday I read an article about the Tatras.",
+          why: "**Ja** (I) in the past tense needs **som**: Včera **som** čítala. Sme goes with my and an -li form, and the past tense has no je.",
+          ref: "u10-l4#0",
         },
         {
           type: "fill",
@@ -382,6 +403,8 @@ export const unit10: Unit = {
           options: ["sedel", "sedela", "sedeli"],
           answer: 2,
           en: "Lucia and Tomáš sat in a café.",
+          why: "Lucia and Tomáš are two people (oni), so the l-form ends in **-li**: sedel**i**. Sedel is for a man, sedela for a woman.",
+          ref: "u10-l4#0",
         },
         {
           type: "choice",
@@ -389,6 +412,8 @@ export const unit10: Unit = {
           options: ["Emma píše e-mail.", "Emma chce písať e-mail.", "Emma písala e-mail."],
           optionsLang: "sk",
           answer: 2,
+          why: "The past tense uses the l-form of the verb, here **písala** (Emma: -la). Píše is the present, and chce písať means wants to write.",
+          ref: "u10-l4#0",
         },
         {
           type: "build",
@@ -427,6 +452,8 @@ export const unit10: Unit = {
           options: ["išla", "išiel", "išli"],
           answer: 0,
           en: "Emma went home by bus.",
+          why: "Ísť has its own past form: **išla** for a woman like Emma. Išiel is for a man, išli for more people.",
+          ref: "u10-l4#5",
         },
         {
           type: "fill",
@@ -435,6 +462,8 @@ export const unit10: Unit = {
           options: ["sme", "som", "ste"],
           answer: 1,
           en: "Yesterday I studied in the library.",
+          why: "**Ja** in the past tense needs **som**, and it comes second, before sa: Včera **som sa** učila. Sme and ste would need učili.",
+          ref: "u10-l4#5",
         },
         {
           type: "build",
@@ -461,6 +490,8 @@ export const unit10: Unit = {
           options: ["už", "ešte", "včera"],
           answer: 1,
           en: "Have you eaten yet? — No, not yet.",
+          why: "With a “not”, ešte means yet: **ešte nie** = not yet. Už nie would mean not any more.",
+          ref: "u7-l6#5",
         },
         {
           type: "build",
@@ -497,6 +528,7 @@ export const unit10: Unit = {
           options: ["noviny", "novinách", "novinami"],
           answer: 0,
           en: "Emma bought a newspaper in a shop.",
+          why: "The newspaper is what Emma bought, the object, and noviny stays the same: kúpila **noviny**, like čítam noviny. Novinách comes after v: v novinách.",
         },
         {
           type: "build",
@@ -523,6 +555,8 @@ export const unit10: Unit = {
           options: ["bývajú", "býva", "bývam"],
           answer: 1,
           en: "Tomáš is a programmer and lives in Košice.",
+          why: "Tomáš is on (he), so the verb has no ending: **býva**. Bývam goes with ja, bývajú with oni.",
+          ref: "u2-l4#0",
         },
         {
           type: "build",
@@ -537,6 +571,8 @@ export const unit10: Unit = {
           options: ["Ste v novinách!", "Si v novinách!", "Si na novinách!"],
           optionsLang: "sk",
           answer: 1,
+          why: "Lucia is a friend, so Emma says **ty**, and ty with byť is **si**. Ste is for vy. And in the paper is always **v** novinách, not na.",
+          ref: "u2-l2#1",
         },
         {
           type: "fill",
@@ -545,6 +581,8 @@ export const unit10: Unit = {
           options: ["ňou", "ju", "nej"],
           answer: 2,
           en: "The article is about Lucia. They're writing about her in the paper.",
+          why: "After **o** (about), ona becomes **nej**: píšu o **nej**. Ju is the object form, and ňou goes with s.",
+          ref: "u8-l6#1",
         },
         {
           type: "build",
@@ -565,6 +603,8 @@ export const unit10: Unit = {
           options: ["číta", "čítajú", "čítam"],
           answer: 0,
           en: "Ms Horváthová always reads the paper in the morning.",
+          why: "Pani Horváthová is ona (she), so the verb has no ending: **číta**. Čítam goes with ja, čítajú with oni.",
+          ref: "u2-l4#0",
         },
         { type: "listen", sk: "Dnes je slnečno a teplo.", en: "Today it's sunny and warm." },
         {
@@ -596,6 +636,8 @@ export const unit10: Unit = {
           options: ["Ahoj, ako sa máš?", "Dobrý deň, ako sa máte?", "Čau, ako sa máš?"],
           optionsLang: "sk",
           answer: 1,
+          why: "A teacher gets the polite **vy**: ako sa **máte**, with Dobrý deň. Ahoj, čau and ako sa máš are for friends (ty).",
+          ref: "u1-l4#0",
         },
         {
           type: "choice",
@@ -603,6 +645,7 @@ export const unit10: Unit = {
           options: ["Som zo Írska.", "Som Írsko.", "Som z Írska."],
           optionsLang: "sk",
           answer: 2,
+          why: "From is **z**: **z** Írska. It becomes zo only before s, z, š or ž, as in zo Slovenska. Som Írsko would mean I am Ireland.",
         },
         {
           type: "fill",
@@ -611,6 +654,8 @@ export const unit10: Unit = {
           options: ["dva", "dve", "dvaja"],
           answer: 0,
           en: "There are two magazines on the table.",
+          why: "Časopis is masculine and a thing, so two is **dva**. Dve is for feminine and neuter words, dvaja for men.",
+          ref: "u4-l5#0",
         },
         {
           type: "fill",
@@ -619,6 +664,8 @@ export const unit10: Unit = {
           options: ["tri", "traja"],
           answer: 1,
           en: "Three students are sitting in the café.",
+          why: "When you count men (or a mixed group), three is **traja**: traja študenti. Tri is for women and things.",
+          ref: "u4-l5#6",
         },
         {
           type: "build",
@@ -645,6 +692,8 @@ export const unit10: Unit = {
           options: ["viem", "vie", "vedia"],
           answer: 1,
           en: "Marek can cook, but today he has no time.",
+          why: "With on (he), vedieť is **vie**: Marek **vie** variť = Marek can cook. Viem goes with ja, vedia with oni.",
+          ref: "u5-l5#9",
         },
         {
           type: "fill",
@@ -653,6 +702,8 @@ export const unit10: Unit = {
           options: ["Luciin", "Luciina", "Luciino"],
           answer: 0,
           en: "That's Lucia's brother Marek.",
+          why: "Lucia's adds **-in** to the name: Luci**in**. Brat is masculine, so nothing more is added; Luciina is for feminine words, Luciino for neuter.",
+          ref: "u3-l6#7",
         },
         {
           type: "build",
@@ -668,6 +719,8 @@ export const unit10: Unit = {
           options: ["som", "sme", "si"],
           answer: 1,
           en: "We met in a café yesterday.",
+          why: "**My** (we) in the past tense needs **sme**, and it comes before sa: Včera **sme sa** stretli. Som is for ja, si for ty.",
+          ref: "u10-l4#5",
         },
         {
           type: "build",
@@ -682,6 +735,8 @@ export const unit10: Unit = {
           options: ["Dnes je dva máj.", "Dnes je druhého mája.", "Dnes je druhý mája."],
           optionsLang: "sk",
           answer: 1,
+          why: "A date uses the ordinal with **-ého**, and the month adds **-a**: druh**ého** máj**a**. Dva is just the number two.",
+          ref: "u8-l3#0",
         },
         {
           type: "fill",
@@ -690,6 +745,8 @@ export const unit10: Unit = {
           options: ["tebou", "teba", "tebe"],
           answer: 0,
           en: "Lucia, can I go to the cinema with you?",
+          why: "After **s** (with), ty becomes **tebou**: s **tebou**. Teba goes with pre (pre teba), tebe with o (o tebe).",
+          ref: "u6-l5#0",
         },
         { type: "listen", sk: "Včera sme nikde neboli.", en: "We didn't go anywhere yesterday." },
         { type: "speak", sk: "Už hovorím po slovensky!", en: "I can speak Slovak now!" },

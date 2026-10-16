@@ -36,13 +36,18 @@ function exerciseFields(ex: Exercise): Record<string, Field> {
       return { en: ex.en, ...(ex.note ? { note: ex.note } : {}) };
     case "listen":
     case "speak":
-    case "fill":
       return { en: ex.en };
+    case "fill":
+      return { en: ex.en, ...(ex.why ? { why: ex.why } : {}) };
     case "spell":
       // Added after translation, with the meaning already in the learner's language.
       return {};
     case "choice":
-      return { question: ex.question, ...(ex.optionsLang === "en" ? { options: ex.options } : {}) };
+      return {
+        question: ex.question,
+        ...(ex.optionsLang === "en" ? { options: ex.options } : {}),
+        ...(ex.why ? { why: ex.why } : {}),
+      };
     case "build":
       return ex.promptLang === "en"
         ? { prompt: ex.prompt }
@@ -109,8 +114,9 @@ function localizeExercise(ex: Exercise, tr: <T extends Field>(field: string, fal
       return { ...ex, en: tr("en", ex.en), ...(ex.note ? { note: tr("note", ex.note) } : {}) };
     case "listen":
     case "speak":
-    case "fill":
       return { ...ex, en: tr("en", ex.en) };
+    case "fill":
+      return { ...ex, en: tr("en", ex.en), ...(ex.why ? { why: tr("why", ex.why) } : {}) };
     case "spell":
       return ex;
     case "choice":
@@ -118,6 +124,7 @@ function localizeExercise(ex: Exercise, tr: <T extends Field>(field: string, fal
         ...ex,
         question: tr("question", ex.question),
         options: ex.optionsLang === "en" ? tr("options", ex.options) : ex.options,
+        ...(ex.why ? { why: tr("why", ex.why) } : {}),
       };
     case "build":
       return ex.promptLang === "en"

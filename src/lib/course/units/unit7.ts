@@ -49,6 +49,7 @@ export const unit7: Unit = {
           options: ["knižnici", "knižnica"],
           answer: 0,
           en: "Emma is in the library, reading a book.",
+          why: "For being in a place, the word changes after v or na: in the library is **v knižnici**, like na prednáške. Knižnica is the plain form.",
         },
         {
           type: "intro",
@@ -84,6 +85,8 @@ export const unit7: Unit = {
           options: ["skúšku", "skúška", "skúšky"],
           answer: 0,
           en: "I have an exam tomorrow.",
+          why: "The exam is what you have, the object, so skúška changes -a to **-u**: mám **skúšku**.",
+          ref: "u5-l2#0",
         },
         {
           type: "build",
@@ -113,6 +116,8 @@ export const unit7: Unit = {
           options: ["meškám", "mešká", "meškáte"],
           answer: 0,
           en: "Mrs Horváthová, sorry I'm late.",
+          why: "Prepáčte is formal vy, to the teacher, but the one who's late is ja (I), so the verb ends in **-m**: mešk**ám**.",
+          ref: "u2-l4#0",
         },
         {
           type: "build",
@@ -177,6 +182,8 @@ export const unit7: Unit = {
           options: ["Sú tri hodiny.", "Je jedna hodina.", "Je päť hodín."],
           optionsLang: "sk",
           answer: 0,
+          why: "With 2, 3 and 4 it's **sú** and hodin**y**. Je jedna hodina is 1:00, and je päť hodín is 5:00.",
+          ref: "u7-l2#1",
         },
         {
           type: "fill",
@@ -185,6 +192,8 @@ export const unit7: Unit = {
           options: ["hodín", "hodiny", "hodina"],
           answer: 0,
           en: "It's five o'clock.",
+          why: "From 5 up, hodina becomes **hodín**, with je. Hodiny goes with 2–4, hodina with 1.",
+          ref: "u7-l2#1",
         },
         {
           type: "intro",
@@ -246,6 +255,7 @@ export const unit7: Unit = {
           options: ["9:30", "10:30", "10:00"],
           optionsLang: "en",
           answer: 0,
+          why: "Slovak looks ahead: **pol desiatej** is half of the tenth hour, so 9:30. 10:30 would be pol jedenástej.",
         },
         {
           type: "intro",
@@ -260,6 +270,7 @@ export const unit7: Unit = {
           options: ["štvrť", "trištvrte"],
           answer: 0,
           en: "It's a quarter past eight.",
+          why: "**Štvrť** na deväť is a quarter of the way towards nine, so 8:15. Trištvrte (three quarters) na deväť is 8:45.",
         },
         {
           type: "choice",
@@ -267,6 +278,7 @@ export const unit7: Unit = {
           options: ["trištvrte na deväť", "štvrť na deväť", "pol deviatej"],
           optionsLang: "sk",
           answer: 0,
+          why: "Three quarters of the way to nine is **trištvrte** na deväť. Štvrť na deväť is 8:15, and pol deviatej is 8:30.",
         },
         { type: "listen", sk: "Prednáška je o pol deviatej.", en: "The lecture is at half past eight." },
         {
@@ -283,6 +295,8 @@ export const unit7: Unit = {
           options: ["siedmej", "sedem"],
           answer: 0,
           en: "The seminar is at seven.",
+          why: "At a time is **o** + the **-ej** form: o siedm**ej**. Sedem is the plain number, for counting.",
+          ref: "u7-l2#5",
         },
         { type: "speak", sk: "Koľko je hodín?", en: "What time is it?" },
       ],
@@ -341,6 +355,7 @@ export const unit7: Unit = {
           options: ["potom", "najprv"],
           answer: 0,
           en: "First I get dressed, then I have breakfast.",
+          why: "**Najprv** is first and **potom** is then. Najprv is already used for getting dressed, so breakfast comes **potom**.",
         },
         {
           type: "build",
@@ -376,6 +391,8 @@ export const unit7: Unit = {
           options: ["raňajkuje", "raňajkujem", "raňajkujú"],
           answer: 0,
           en: "Emma has breakfast at half past seven.",
+          why: "With **on** or **ona**, the verb has no ending: Emma **raňajkuje**. Raňajkujem goes with ja, raňajkujú with oni.",
+          ref: "u2-l4#5",
         },
         {
           type: "intro",
@@ -390,6 +407,8 @@ export const unit7: Unit = {
           options: ["unavený", "unavená"],
           answer: 0,
           en: "Tomáš is tired in the evening.",
+          why: "Adjectives agree with the person: Tomáš is a man, so **unavený**. Unavená is for a woman: Večer som unavená, says Emma.",
+          ref: "u3-l2#2",
         },
         {
           type: "build",
@@ -450,6 +469,8 @@ export const unit7: Unit = {
           options: ["spí", "spia", "spím"],
           answer: 0,
           en: "It's morning and Lucia is asleep.",
+          why: "Lucia is ona, and the ona form of spať is **spí**. Spia goes with oni, spím with ja.",
+          ref: "u7-l4#0",
         },
         {
           type: "fill",
@@ -458,6 +479,8 @@ export const unit7: Unit = {
           options: ["spíme", "spia", "spí"],
           answer: 0,
           en: "We sleep at night.",
+          why: "With **my** (we) the verb ends in **-me**: sp**íme**. Spia goes with oni, spí with on or ona.",
+          ref: "u7-l4#0",
         },
         {
           type: "choice",
@@ -474,6 +497,8 @@ export const unit7: Unit = {
           options: ["stretnem", "stretne", "stretnú"],
           answer: 0,
           en: "Tomorrow I'll meet Tomáš.",
+          why: "With **ja**, stretnúť ends in **-em**, and as one complete action it talks about the future: stretn**em** = I'll meet. Stretne is on or ona, stretnú oni.",
+          ref: "u7-l4#0",
         },
         {
           type: "build",
@@ -513,6 +538,8 @@ export const unit7: Unit = {
           options: ["Stihneme", "Stihnem", "Stihnú"],
           answer: 0,
           en: "It's half past seven. Will we make the bus?",
+          why: "With **my** (we), stihnúť ends in **-eme**: stihn**eme**. Stihnem goes with ja, stihnú with oni.",
+          ref: "u7-l4#6",
         },
         { type: "listen", sk: "Emma sedí v knižnici.", en: "Emma is sitting in the library." },
         {
@@ -529,6 +556,8 @@ export const unit7: Unit = {
           options: ["myslíš", "myslí", "myslia"],
           answer: 0,
           en: "What are you thinking about, Lucia?",
+          why: "The question is to Lucia, so it's **ty**, and the verb ends in **-š**: mysl**íš**. Myslí would be talking about her (ona).",
+          ref: "u7-l4#6",
         },
         {
           type: "match",
@@ -609,6 +638,8 @@ export const unit7: Unit = {
           options: ["písala", "písal", "písali"],
           answer: 0,
           en: "Yesterday Lucia wrote a paper.",
+          why: "Lucia is a woman, so the past tense ends in **-la**: písal**a**. Písal is for a man, písali for more people.",
+          ref: "u7-l5#0",
         },
         {
           type: "choice",
@@ -616,6 +647,8 @@ export const unit7: Unit = {
           options: ["Včera som sa učila.", "Včera som sa učil.", "Včera sa učila."],
           optionsLang: "sk",
           answer: 0,
+          why: "Emma is a woman, so the past tense ends in **-la**: učil**a**. And ja needs **som**: without it, učila is about someone else (ona).",
+          ref: "u7-l5#1",
         },
         {
           type: "build",
@@ -631,6 +664,8 @@ export const unit7: Unit = {
           options: ["robila", "robil", "robili"],
           answer: 0,
           en: "Emma, what did you do yesterday?",
+          why: "Emma is a woman, so the past tense ends in **-la**: robil**a**. Robil is for a man, robili for more people or formal vy.",
+          ref: "u7-l5#0",
         },
         { type: "listen", sk: "Lucia a Emma raňajkovali o ôsmej.", en: "Lucia and Emma had breakfast at eight." },
         {
@@ -665,6 +700,8 @@ export const unit7: Unit = {
           options: ["bola", "bol", "boli"],
           answer: 0,
           en: "Emma was at the lecture.",
+          why: "Emma is a woman, so the past of byť ends in **-la**: **bola**. Bol is for a man, boli for more people.",
+          ref: "u7-l5#7",
         },
         {
           type: "fill",
@@ -673,6 +710,8 @@ export const unit7: Unit = {
           options: ["stretol", "stretla", "stretli"],
           answer: 0,
           en: "Tomáš met Emma yesterday.",
+          why: "Tomáš did the meeting, so the verb is for a man: stretnúť → **stretol**. Emmu is just the object; stretla is a woman meeting someone.",
+          ref: "u7-l5#7",
         },
         {
           type: "build",
@@ -688,6 +727,8 @@ export const unit7: Unit = {
           options: ["She had soup yesterday.", "She's eating soup now.", "She'll have soup tomorrow."],
           optionsLang: "en",
           answer: 0,
+          why: "**Jedla** is the past tense of jesť (ate), and **včera** is yesterday. Eating it now would be jem polievku.",
+          ref: "u7-l5#7",
         },
         {
           type: "build",
@@ -703,6 +744,8 @@ export const unit7: Unit = {
           options: ["boli", "bol", "bola"],
           answer: 0,
           en: "Mr Kováč, where were you?",
+          why: "Formal **vy** always takes **-li** in the past, even for one person like pán Kováč: **boli** ste, never bol ste.",
+          ref: "u7-l5#1",
         },
         { type: "speak", sk: "Včera sme boli doma.", en: "We were at home yesterday." },
       ],
@@ -741,6 +784,8 @@ export const unit7: Unit = {
           options: ["nebola", "nebol", "neboli"],
           answer: 0,
           en: "Emma wasn't at the lecture yesterday.",
+          why: "Emma is a woman, so the past ends in **-la**, with **ne-** in front for not: **ne**bol**a**. Nebol is for a man, neboli for more people.",
+          ref: "u7-l6#0",
         },
         {
           type: "choice",
@@ -748,6 +793,8 @@ export const unit7: Unit = {
           options: ["Nestihol som autobus.", "Stihol som autobus.", "Nestihla som autobus."],
           optionsLang: "sk",
           answer: 0,
+          why: "Missing the bus is not making it, so add **ne-**: **ne**stihol. Tomáš is a man, so **-ol**; nestihla is for a woman.",
+          ref: "u7-l6#0",
         },
         {
           type: "build",
@@ -784,6 +831,8 @@ export const unit7: Unit = {
           options: ["ešte", "už"],
           answer: 0,
           en: "It's eight o'clock and Lucia is still asleep.",
+          why: "**Ešte** means still: Lucia is still asleep. Už spí would mean she's already asleep.",
+          ref: "u7-l6#5",
         },
         {
           type: "choice",
@@ -792,6 +841,8 @@ export const unit7: Unit = {
           options: ["Not yet.", "Not any more.", "Already."],
           optionsLang: "en",
           answer: 0,
+          why: "With a not, ešte and už flip: **ešte nie** is not yet, and už nie is not any more. Už on its own means already.",
+          ref: "u7-l6#5",
         },
         {
           type: "fill",
@@ -800,6 +851,8 @@ export const unit7: Unit = {
           options: ["ešte", "už"],
           answer: 0,
           en: "Have you had lunch? — No, I haven't had lunch yet.",
+          why: "Not yet is **ešte** with a not: ešte som **ne**obedovala. Už with a not means not any more.",
+          ref: "u7-l6#5",
         },
         {
           type: "build",
@@ -835,6 +888,8 @@ export const unit7: Unit = {
           options: ["Ešte nie", "Už nie"],
           answer: 0,
           en: "Lucia, have you been to the library yet? — Not yet.",
+          why: "Not yet is **ešte nie**. Už nie means not any more, as if she used to go and stopped.",
+          ref: "u7-l6#5",
         },
         { type: "speak", sk: "Už je osem hodín!", en: "It's already eight!" },
       ],
@@ -869,6 +924,8 @@ export const unit7: Unit = {
           options: ["Ešte som neraňajkovala.", "Už som raňajkovala.", "Ešte raňajkujem."],
           optionsLang: "sk",
           answer: 0,
+          why: "Not yet is **ešte** with a **ne-** past form: **ne**raňajkovala. Už som raňajkovala means she's already eaten; ešte raňajkujem, she's still eating.",
+          ref: "u7-l6#5",
         },
         {
           type: "build",
@@ -884,6 +941,8 @@ export const unit7: Unit = {
           options: ["spia", "spí", "spíme"],
           answer: 0,
           en: "Emma and Lucia are still asleep.",
+          why: "Emma and Lucia are oni (they), so spať ends in **-ia**: sp**ia**. Spí is for one person, spíme for my.",
+          ref: "u7-l4#0",
         },
         {
           type: "build",
@@ -899,6 +958,8 @@ export const unit7: Unit = {
           options: ["sedeli", "sedela", "sedel"],
           answer: 0,
           en: "Yesterday Emma and Lucia sat in the library.",
+          why: "Emma and Lucia are more than one person, so the past ends in **-li**: sedel**i**. Sedela is for one woman, sedel for one man.",
+          ref: "u7-l5#0",
         },
         {
           type: "choice",
@@ -906,6 +967,7 @@ export const unit7: Unit = {
           options: ["Je pol jednej.", "Je pol dvanástej.", "Je štvrť na jednu."],
           optionsLang: "sk",
           answer: 0,
+          why: "Slovak looks ahead: 12:30 is half of the coming hour, one, so **pol jednej**. Pol dvanástej is 11:30, and štvrť na jednu 12:15.",
         },
         {
           type: "build",
@@ -924,6 +986,8 @@ export const unit7: Unit = {
           options: ["videli", "videl", "videla"],
           answer: 0,
           en: "Mr Kováč, have you seen Emma?",
+          why: "Formal **vy** always takes **-li** in the past, even for one person like pán Kováč: **videli** ste. Vidieť also changes ie to e.",
+          ref: "u7-l5#1",
         },
         { type: "listen", sk: "Včera som nebola na seminári.", en: "I wasn't at the seminar yesterday." },
         {
@@ -940,6 +1004,8 @@ export const unit7: Unit = {
           options: ["už", "ešte"],
           answer: 0,
           en: "Tomáš isn't asleep any more, he's already having breakfast.",
+          why: "With a not, **už** means not any more: už nespí, he's no longer asleep. Ešte nespí would mean he isn't asleep yet.",
+          ref: "u7-l6#5",
         },
         {
           type: "choice",

@@ -93,6 +93,10 @@
     "en": "We have a meeting at ten today.",
     "t": "დღეს ათ საათზე თათბირი გვაქვს."
   },
+  "u8-l1.6.why": {
+    "en": "The meeting is what we have, the object, so porada changes -a to **-u**: máme **poradu**.",
+    "t": "თათბირი ის არის, რაც გვაქვს, ანუ ობიექტი, ამიტომ porada -a-ს **-u**-თი ცვლის: máme **poradu**."
+  },
   "u8-l1.7.pairs": {
     "en": [
       "department",
@@ -144,6 +148,10 @@
   "u8-l1.14.en": {
     "en": "Jana is a new employee.",
     "t": "იანა ახალი თანამშრომელია."
+  },
+  "u8-l1.14.why": {
+    "en": "Jana is a woman, so she's a **zamestnankyňa**, the feminine form; nová, with -á, is feminine too. A zamestnanec is a man.",
+    "t": "იანა ქალია, ამიტომ ის **zamestnankyňa**-ა, მდედრობითი ფორმა; nová-ც, -á-თი, მდედრობითია. Zamestnanec კაცზე ითქმის."
   },
   "u8-l1.15.prompt": {
     "en": "Emma is writing a CV.",
@@ -327,6 +335,10 @@
     "en": "The meeting is on Wednesday.",
     "t": "თათბირი ოთხშაბათს არის."
   },
+  "u8-l2.3.why": {
+    "en": "“On” a day is v + the day, and days ending in -a change it to **-u**, like the accusative: streda → v **stredu**.",
+    "t": "ქართული „ოთხშაბათს“ სლოვაკურად არის v + დღე, -a-ზე დაბოლოებული დღეები კი -a-ს **-u**-თი ცვლის, როგორც akuzatív-ში: streda → v **stredu**."
+  },
   "u8-l2.4.en": {
     "en": "at the weekend",
     "t": "შაბათ-კვირას"
@@ -366,6 +378,10 @@
   "u8-l2.7.en": {
     "en": "I have an appointment on Thursday.",
     "t": "ხუთშაბათს შეხვედრა მაქვს."
+  },
+  "u8-l2.7.why": {
+    "en": "“On” a day is v + the day, not na. Štvrtok is the special one: v becomes **vo** before it.",
+    "t": "დღეზე („ხუთშაბათს“) იხმარება v + დღე და არა na. Štvrtok გამონაკლისია: მის წინ v ხდება **vo**."
   },
   "u8-l2.8.prompt": {
     "en": "I have a job interview on Friday.",
@@ -506,6 +522,10 @@
   "u8-l2.11.en": {
     "en": "Lucia's birthday is in July.",
     "t": "ლუციას დაბადების დღე ივლისშია."
+  },
+  "u8-l2.11.why": {
+    "en": "“In” a month is v + the month, and most months take **-i**: júl → v **júli**, like v máji.",
+    "t": "თვეში („ივლისში“) არის v + თვე, თვეების უმეტესობა კი **-i**-ს იღებს: júl → v **júli**, როგორც v máji."
   },
   "u8-l2.12.en": {
     "en": "in summer",
@@ -816,13 +836,25 @@
       "რომელი საათია?"
     ]
   },
+  "u8-l3.2.why": {
+    "en": "**Ktorého** asks for an ordinal in its date form, like prvého or piateho mája, so it asks for the date, not the day or the time.",
+    "t": "**Ktorého** რიგობით რიცხვს ითხოვს თარიღის ფორმით, როგორიცაა prvého ან piateho mája, ამიტომ თარიღს კითხულობს და არა კვირის დღეს ან საათს."
+  },
   "u8-l3.3.en": {
     "en": "Today is the fifth of May.",
     "t": "დღეს ხუთი მაისია."
   },
+  "u8-l3.3.why": {
+    "en": "A date uses the ordinal ending in -ého, shortened to **-eho** after a long syllable like ia: piat**eho**. Piaty is the plain ordinal, päť just “five”.",
+    "t": "ქართულისგან განსხვავებით (ხუთი მაისი), თარიღში რიგობითი რიცხვია -ého-ზე, გრძელი მარცვლის (ia) შემდეგ კი შემოკლებული **-eho**: piat**eho**. Piaty უბრალო რიგობითია, päť — „ხუთი“."
+  },
   "u8-l3.4.en": {
     "en": "The meeting is on the twelfth of June.",
     "t": "თათბირი თორმეტ ივნისს არის."
+  },
+  "u8-l3.4.why": {
+    "en": "In a date the month changes too (“of June”): most months add **-a**, jún → jún**a**. Júni is for “in June”: v júni.",
+    "t": "თარიღში თვეც იცვლება („ივნისის“): თვეების უმეტესობა **-a**-ს იღებს, jún → jún**a**. Júni „ივნისში“-სთვისაა: v júni."
   },
   "u8-l3.5.prompt": {
     "en": "Today is the first of October.",
@@ -858,6 +890,10 @@
     "en": "Emma was born on 3 May. What does she say?",
     "t": "ემა 3 მაისს დაიბადა. რას იტყვის?"
   },
+  "u8-l3.7.why": {
+    "en": "Emma is a woman, so the past tense ends in **-a**: narodil**a** som sa. The date needs its date forms too: **tretieho mája**, not tretí máj.",
+    "t": "ემა ქალია, ამიტომ წარსული **-a**-ზე ბოლოვდება: narodil**a** som sa. თარიღსაც თავისი ფორმები სჭირდება: **tretieho mája** და არა tretí máj."
+  },
   "u8-l3.8.en": {
     "en": "I was born on the second of June.",
     "t": "ორ ივნისს დავიბადე."
@@ -881,6 +917,10 @@
   "u8-l3.10.en": {
     "en": "My birthday is on the third of April.",
     "t": "დაბადების დღე სამ აპრილს მაქვს."
+  },
+  "u8-l3.10.why": {
+    "en": "In a date, tretí becomes **tretieho**, “on the third”. Tri is just “three”.",
+    "t": "თარიღში tretí ხდება **tretieho** („მესამე რიცხვს“). Tri უბრალოდ „სამი“-ა."
   },
   "u8-l3.11.answers": {
     "en": [
@@ -912,6 +952,10 @@
   "u8-l3.13.en": {
     "en": "The interview is on the twenty-second of September.",
     "t": "გასაუბრება ოცდაორ სექტემბერს არის."
+  },
+  "u8-l3.13.why": {
+    "en": "In 21st, 22nd… both parts take the date form: dvadsiateho **druhého**. Druhý is the plain ordinal, and dva is just “two”.",
+    "t": "21-ში, 22-ში… ორივე ნაწილი თარიღის ფორმას იღებს: dvadsiateho **druhého**. Druhý უბრალო რიგობითია, dva კი უბრალოდ „ორი“."
   },
   "u8-l3.14.en": {
     "en": "What's the date today?",
@@ -1019,9 +1063,17 @@
     "en": "I'm not doing anything today.",
     "t": "დღეს არაფერს ვაკეთებ."
   },
+  "u8-l4.1.why": {
+    "en": "Slovak uses a double negative: with a negative verb like nerobím, “anything” is **nič**. Niečo means something, všetko everything.",
+    "t": "სლოვაკურში ორმაგი უარყოფაა, როგორც ქართულ სასაუბროში („არაფერს არ ვაკეთებ“): უარყოფით nerobím-თან საჭიროა **nič**. Niečo ნიშნავს „რაღაცას“, všetko — „ყველაფერს“."
+  },
   "u8-l4.2.en": {
     "en": "Nobody is in the library.",
     "t": "ბიბლიოთეკაში არავინაა."
+  },
+  "u8-l4.2.why": {
+    "en": "Nobody is **nikto**, and like every ni- word it goes with a negative verb: nie je. Niekto is somebody, and nič is nothing, not a person.",
+    "t": "„არავინ“ არის **nikto** და, ყველა ni- სიტყვის მსგავსად, უარყოფით ზმნასთან დგას: nie je. Niekto = ვიღაც, nič კი = არაფერი, და არა ადამიანი."
   },
   "u8-l4.3.question": {
     "en": "What does this mean?",
@@ -1038,6 +1090,10 @@
       "ვიღაცამ რაღაც იცის.",
       "ყველაფერი არავინ იცის."
     ]
+  },
+  "u8-l4.3.why": {
+    "en": "Double negatives are normal Slovak and don't cancel out: **nikto** = nobody, and **nič** with the negative verb nevie is English “anything”.",
+    "t": "ორმაგი უარყოფა სლოვაკურში ნორმაა და ერთმანეთს არ აბათილებს: **nikto** = არავინ, **nič** = არაფერი, nevie = არ იცის. ქართულშიც ვამბობთ: არავინ არაფერი იცის."
   },
   "u8-l4.4.prompt": {
     "en": "Nobody is at home.",
@@ -1068,6 +1124,10 @@
   "u8-l4.6.question": {
     "en": "Make it negative: “Niečo vidím.” (I can see something.)",
     "t": "თქვით უარყოფითად: „Niečo vidím.“ (რაღაცას ვხედავ.)"
+  },
+  "u8-l4.6.why": {
+    "en": "Niečo turns into **nič**, and nič always needs a negative verb: **ne**vidím. Nikto is nobody, a person, not a thing.",
+    "t": "Niečo იქცევა **nič**-ად, nič-ს კი ყოველთვის უარყოფითი ზმნა სჭირდება: **ne**vidím. Nikto „არავინ“-ია, ადამიანზე და არა საგანზე."
   },
   "u8-l4.7.title": {
     "en": "How often?",
@@ -1165,6 +1225,10 @@
     "en": "Marek never cooks at home.",
     "t": "მარეკი სახლში არასდროს ამზადებს საჭმელს."
   },
+  "u8-l4.9.why": {
+    "en": "Never is **nikdy**, and like nikto and nič it takes a negative verb: nikdy nevarí = never cooks. Vždy is always, často often.",
+    "t": "„არასდროს“ არის **nikdy** და, როგორც nikto და nič, უარყოფით ზმნას იღებს: nikdy nevarí = საჭმელს არასდროს ამზადებს. Vždy = ყოველთვის, často = ხშირად."
+  },
   "u8-l4.10.en": {
     "en": "Nobody said anything at the meeting.",
     "t": "თათბირზე არავინ არაფერს ამბობდა."
@@ -1176,6 +1240,10 @@
   "u8-l4.12.en": {
     "en": "I'm looking for Tomáš, but I can't see him anywhere.",
     "t": "ტომაშს ვეძებ, მაგრამ ვერსად ვხედავ."
+  },
+  "u8-l4.12.why": {
+    "en": "“Not … anywhere” is **nikde** (nowhere) with the negative verb nevidím. Niekde means somewhere, and nikto is nobody, a person.",
+    "t": "„არსად“ არის **nikde**, უარყოფით ზმნა nevidím-თან ერთად. Niekde ნიშნავს „სადღაც“, nikto კი „არავინ“, ადამიანზე."
   },
   "u8-l4.13.answers": {
     "en": [
@@ -1443,13 +1511,25 @@
     "en": "Tomáš works for a company in Bratislava.",
     "t": "ტომაში ბრატისლავაში, ერთ ფირმაში მუშაობს."
   },
+  "u8-l5.2.why": {
+    "en": "Where? takes the locative after v or vo, and most feminine nouns end in **-e**: firma → firm**e**. Firmu is the object form.",
+    "t": "„სად?“ v-ს ან vo-ს შემდეგ lokál-ს (ადგილობით ბრუნვას) მოითხოვს, მდედრობითი სახელების უმეტესობა კი **-e**-ზე ბოლოვდება: firma → firm**e**. Firmu ობიექტის ფორმაა."
+  },
   "u8-l5.3.en": {
     "en": "Emma is in the office.",
     "t": "ემა ოფისშია."
   },
+  "u8-l5.3.why": {
+    "en": "Where? takes the locative, and nouns in -ia get **-ii**: kancelária → kancelári**i**. Kanceláriu is the object form.",
+    "t": "„სად?“ lokál-ს მოითხოვს, -ia-ზე დაბოლოებული სახელები კი **-ii**-ს იღებს: kancelária → kancelári**i**. Kanceláriu ობიექტის ფორმაა."
+  },
   "u8-l5.4.question": {
     "en": "How do you say “at the post office”?",
     "t": "როგორ იტყვით „ფოსტაში“?"
+  },
+  "u8-l5.4.why": {
+    "en": "Pošta takes **na**, not v (a set phrase, like na univerzite), and the locative ending **-e**: pošt**e**. Na pošta is missing the ending.",
+    "t": "ქართულში „ფოსტაში“ ვამბობთ, მაგრამ pošta **na**-ს იღებს (მზა გამოთქმაა, როგორც na univerzite) და lokál-ის **-e**-ს: pošt**e**. Na pošta-ს დაბოლოება აკლია."
   },
   "u8-l5.5.prompt": {
     "en": "We live in Bratislava.",
@@ -1458,6 +1538,10 @@
   "u8-l5.6.en": {
     "en": "Lucia is in the park.",
     "t": "ლუცია პარკშია."
+  },
+  "u8-l5.6.why": {
+    "en": "After k, g, h, ch the locative ending is **-u**, not -e: park → park**u**, like vo vlaku. Parky means parks.",
+    "t": "k, g, h, ch-ის შემდეგ lokál-ის დაბოლოებაა **-u** და არა -e: park → park**u**, როგორც vo vlaku. Parky ნიშნავს „პარკებს“."
   },
   "u8-l5.7.en": {
     "en": "Tomáš is on the train.",
@@ -1547,9 +1631,17 @@
     "en": "Emma lives in a small room.",
     "t": "ემა პატარა ოთახში ცხოვრობს."
   },
+  "u8-l5.9.why": {
+    "en": "Izba is feminine, so in the locative its adjective ends in **-ej**: mal**ej**. Malom is for masculine and neuter nouns; malá is the basic form.",
+    "t": "Izba მდედრობითია, ამიტომ lokál-ში მისი ზედსართავი **-ej**-ზე ბოლოვდება: mal**ej**. Malom მამრობითი და საშუალო სქესის სახელებისთვისაა, malá კი ძირითადი ფორმაა."
+  },
   "u8-l5.10.en": {
     "en": "Lucia wants to work for a big company.",
     "t": "ლუციას დიდ ფირმაში მუშაობა უნდა."
+  },
+  "u8-l5.10.why": {
+    "en": "Firma is feminine, so in the locative its adjective ends in **-ej**: veľk**ej**. Veľkom is for masculine and neuter nouns, as in vo veľkom byte.",
+    "t": "Firma მდედრობითია, ამიტომ lokál-ში მისი ზედსართავი **-ej**-ზე ბოლოვდება: veľk**ej**. Veľkom მამრობითი და საშუალო სქესისთვისაა, როგორც vo veľkom byte."
   },
   "u8-l5.11.prompt": {
     "en": "Marek works in a small restaurant.",
@@ -1578,6 +1670,10 @@
   "u8-l5.13.question": {
     "en": "How do you say “in Slovakia”?",
     "t": "როგორ იტყვით „სლოვაკეთში“?"
+  },
+  "u8-l5.13.why": {
+    "en": "Slovensko takes **na** (learn it as a set phrase), and in the locative -ko becomes **-ku**: Slovensk**u**, not Slovenske.",
+    "t": "ქართულში „სლოვაკეთში“ ვამბობთ, სლოვაკურში კი Slovensko **na**-ს იღებს (მზა გამოთქმად ისწავლეთ), lokál-ში კი -ko ხდება **-ku**: Slovensk**u**, არა Slovenske."
   },
   "u8-l5.14.en": {
     "en": "I'm at work.",
@@ -1757,13 +1853,25 @@
     "en": "Lucia, we're talking about you!",
     "t": "ლუცია, შენზე ვლაპარაკობთ!"
   },
+  "u8-l6.2.why": {
+    "en": "After **o** (about), pronouns take their locative form: ty → **tebe**. Teba is the object form, as in pre teba.",
+    "t": "**o**-ს („შესახებ“) შემდეგ ნაცვალსახელები lokál-ის ფორმას იღებს: ty → **tebe**. Teba ობიექტის ფორმაა, როგორც pre teba-ში."
+  },
   "u8-l6.3.en": {
     "en": "After the meeting I'm going home.",
     "t": "თათბირის შემდეგ სახლში მივდივარ."
   },
+  "u8-l6.3.why": {
+    "en": "**Po** (after) takes the locative, so porada ends in **-e**: porad**e**. With the object form, po means “to get”: Idem po chlieb.",
+    "t": "**Po** („შემდეგ“) lokál-ს მოითხოვს, ამიტომ porada **-e**-ზე ბოლოვდება: porad**e**. ობიექტის ფორმასთან po ნიშნავს „რისამე მოსატანად“: Idem po chlieb."
+  },
   "u8-l6.4.question": {
     "en": "How do you ask “What do you know about Tomáš?”",
     "t": "როგორ ჰკითხავთ: „რა იცი ტომაშის შესახებ?“"
+  },
+  "u8-l6.4.why": {
+    "en": "After **o** (about), men's names add **-ovi**: o Tomáš**ovi**. Tomáša is the object form, as in pre Tomáša.",
+    "t": "**o**-ს („შესახებ“) შემდეგ კაცის სახელები **-ovi**-ს იღებს: o Tomáš**ovi** (ტომაშის შესახებ). Tomáša ობიექტის ფორმაა, როგორც pre Tomáša-ში."
   },
   "u8-l6.5.prompt": {
     "en": "What do you know about our company? (formal)",
@@ -1776,6 +1884,10 @@
   "u8-l6.7.en": {
     "en": "Mrs Horváthová? We were talking about her.",
     "t": "ქალბატონი ჰორვატოვა? მასზე ვლაპარაკობდით."
+  },
+  "u8-l6.7.why": {
+    "en": "Pani Horváthová is a woman, **ona**, and after o, ona becomes **nej**. Ňom is for on (him), nich for oni (them).",
+    "t": "ქალბატონი ჰორვატოვა ქალია, **ona**, o-ს შემდეგ კი ona ხდება **nej**. Ňom on-ისთვისაა (კაცზე), nich — oni-სთვის (მათზე)."
   },
   "u8-l6.8.answers": {
     "en": [
@@ -1820,6 +1932,10 @@
     "en": "At the interview, Emma talked about herself.",
     "t": "გასაუბრებაზე ემა საკუთარ თავზე ლაპარაკობდა."
   },
+  "u8-l6.10.why": {
+    "en": "About myself, yourself, herself… is always **o sebe**, for any person. Sa goes with verbs like volať sa, never after o.",
+    "t": "„საკუთარი თავის შესახებ“ ყოველთვის **o sebe**-ა, ნებისმიერ პირზე, ისევე როგორც ქართული „საკუთარი თავი“. Sa ზმნებთან დგას (volať sa) და o-ს შემდეგ არასდროს."
+  },
   "u8-l6.11.prompt": {
     "en": "After lunch I have a job interview.",
     "t": "სადილის შემდეგ გასაუბრება მაქვს."
@@ -1839,6 +1955,10 @@
       "ოფისი",
       "მე"
     ]
+  },
+  "u8-l6.12.why": {
+    "en": "**Nej** is ona after a preposition: v nej = in it, in the firma just mentioned. The office is what you have there, and “in me” would be vo mne.",
+    "t": "**Nej** არის ona წინდებულის შემდეგ, firma კი მდედრობითია: v nej = მასში, ანუ ფირმაში. ოფისი ის არის, რაც იქ გაქვთ, „ჩემში“ კი იქნებოდა vo mne."
   },
   "u8-l6.13.en": {
     "en": "Can I sit by the window?",
@@ -1868,6 +1988,10 @@
     "en": "The interview is on Wednesday.",
     "t": "გასაუბრება ოთხშაბათს არის."
   },
+  "u8-l7.1.why": {
+    "en": "“On” a day is v + the day, and days ending in -a change it to **-u**, like the accusative: stred**u**. It's not the locative -e.",
+    "t": "დღეზე („ოთხშაბათს“) არის v + დღე, -a-ზე დაბოლოებული დღეები კი -a-ს **-u**-თი ცვლის, როგორც akuzatív-ში: stred**u**. ეს lokál-ის -e არ არის."
+  },
   "u8-l7.2.prompt": {
     "en": "Emma was born in Dublin.",
     "t": "ემა დუბლინში დაიბადა."
@@ -1879,6 +2003,10 @@
   "u8-l7.4.en": {
     "en": "I was born on the sixth of April.",
     "t": "ექვს აპრილს დავიბადე."
+  },
+  "u8-l7.4.why": {
+    "en": "A date uses the ordinal ending in -ého, shortened to **-eho** after a long syllable like ie: šiest**eho**. Šiesty is the plain ordinal, šesť just “six”.",
+    "t": "თარიღში რიგობითი რიცხვი -ého-ზე ბოლოვდება, გრძელი მარცვლის (ie) შემდეგ კი შემოკლებულ **-eho**-ზე: šiest**eho**. Šiesty უბრალო რიგობითია, šesť — „ექვსი“."
   },
   "u8-l7.5.pairs": {
     "en": [
@@ -1921,9 +2049,17 @@
     "en": "Emma is looking for an internship at a big company.",
     "t": "ემა დიდ ფირმაში სტაჟირებას ეძებს."
   },
+  "u8-l7.7.why": {
+    "en": "Stáž is already the object of hľadá. Vo veľkej … says where, so firma takes the locative **-e**: firm**e**. Firmu would be another object.",
+    "t": "Stáž უკვე hľadá-ს ობიექტია. Vo veľkej … ამბობს, სად, ამიტომ firma lokál-ის **-e**-ს იღებს: firm**e**. Firmu კიდევ ერთი ობიექტი იქნებოდა."
+  },
   "u8-l7.8.question": {
     "en": "How do you say “in August”?",
     "t": "როგორ იტყვით „აგვისტოში“?"
+  },
+  "u8-l7.8.why": {
+    "en": "August is the one month that takes **-e** after v: august**e**. Augusta is the date form (of August), and vo goes before f, as in vo februári.",
+    "t": "August ერთადერთი თვეა, რომელიც v-ს შემდეგ **-e**-ს იღებს: august**e**. Augusta თარიღში იხმარება (piateho augusta), vo კი f-ის წინ დგას, როგორც vo februári."
   },
   "u8-l7.9.prompt": {
     "en": "We're talking about him.",
@@ -1932,6 +2068,10 @@
   "u8-l7.10.en": {
     "en": "I never have time on Fridays.",
     "t": "პარასკევობით დრო არასდროს მაქვს."
+  },
+  "u8-l7.10.why": {
+    "en": "Never is **nikdy**, the ni- word that goes with the negative verb nemám. Niekedy, with nie-, means sometimes.",
+    "t": "„არასდროს“ არის **nikdy**, ni- სიტყვა, რომელიც უარყოფით nemám-თან დგას. Niekedy (nie- სიტყვა) ნიშნავს „ხანდახან“."
   },
   "u8-l7.11.en": {
     "en": "I was born in Ireland.",

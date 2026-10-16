@@ -101,6 +101,8 @@ export const ka: Messages = {
   // Lesson player
   "lesson.quit": "გაკვეთილიდან გასვლა",
   "lesson.volume": "ხმის დონე",
+  "lesson.seeRule": "წესის ნახვა",
+  "lesson.closeRule": "დახურვა",
   "lesson.quitConfirm": "გსურთ გასვლა? ამ გაკვეთილის პროგრესი დაიკარგება.",
   "lesson.place": "თავი {unit} · გაკვეთილი {lesson}",
   "lesson.course": "სლოვაკური A1",

@@ -569,6 +569,27 @@ function checkLexicon(units: Unit[]) {
   }
 }
 
+// ---- Explanations' grammar cards (ref) ------------------------------------
+
+/** A `ref` points to a grammar card taught at or before its exercise. */
+function checkRefs(units: Unit[]) {
+  const order = units.flatMap((u) => u.lessons.map((l) => l.id));
+  const lessons = new Map(units.flatMap((u) => u.lessons).map((l) => [l.id, l]));
+  for (const lesson of units.flatMap((u) => u.lessons)) {
+    lesson.exercises.forEach((ex, i) => {
+      if ((ex.type !== "choice" && ex.type !== "fill") || !ex.ref) return;
+      const where = `${lesson.id}#${i}`;
+      check(where, ex.why, "has a ref but no why to show it with");
+      const [lessonId, index] = ex.ref.split("#");
+      const card = lessons.get(lessonId)?.exercises[Number(index)];
+      check(where, card?.type === "grammar", `ref ${ex.ref} is not a grammar card`);
+      const earlier =
+        order.indexOf(lessonId) < order.indexOf(lesson.id) || (lessonId === lesson.id && Number(index) < i);
+      check(where, earlier, `ref ${ex.ref} comes after the exercise`);
+    });
+  }
+}
+
 async function main() {
   const seenIds = new Set<string>();
   const units = await loadUnits();
@@ -596,6 +617,7 @@ async function main() {
 
   if (!onlyUnit) checkSpelling(units);
   checkLexicon(units);
+  if (!onlyUnit) checkRefs(units);
 
   if (warnings.length) {
     console.log(`\n${warnings.length} warning(s):`);
