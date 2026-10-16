@@ -26,7 +26,7 @@ import { RichText } from "@/components/lesson/rich-text";
 import { VolumeSlider } from "@/components/lesson/volume-slider";
 import { checkBuiltAnswer, checkMemorized, checkSpelled, checkTyped, shuffle, toTiles } from "@/lib/answers";
 import { playSlovak, preloadLesson, stopSlovak, type Clip } from "@/lib/audio";
-import { fillSentence, speakableTexts, tileWords } from "@/lib/course/helpers";
+import { fillSentence, speakableTexts, TILES_PLAY_CUTS, tileWords } from "@/lib/course/helpers";
 import type { Illustration } from "@/lib/course/illustrations";
 import { properNames } from "@/lib/course/names";
 import type { Exercise, ExerciseId, Lesson, MemoWord, RuleCard } from "@/lib/course/types";
@@ -78,10 +78,10 @@ function grade(ex: Exercise, answer: Answer, tiles: string[]): Resolution {
   }
 }
 
-/** Every clip a lesson may play, in order: word tiles as cut from their own sentence. */
+/** Every clip a lesson may play, in order: word tiles as cut from their own sentence, when they play those. */
 function lessonClips(lesson: Lesson): Clip[] {
   return lesson.exercises.flatMap((ex) => {
-    const tiles = tileWords(ex);
+    const tiles = TILES_PLAY_CUTS ? tileWords(ex) : [];
     const key = `${lesson.id}#${ex.id}`;
     return [
       ...speakableTexts(ex).filter((text) => !tiles.includes(text)),

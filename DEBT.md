@@ -76,16 +76,13 @@ push to `main`). After changing a Vercel environment variable, redeploy.
   `.env.development.local`. It opens every lesson, skips Premium, and enables
   `?step=N` deep links. It must never be set on production (it isn't). Delete
   the file when you don't need it.
-- **Word-tile clips are checked by machine, not by ear.** Each tile plays its
-  word as cut from a take of its own sentence (CONTENT-PIPELINE.md, stage 9,
-  "Word tiles"). The script checks that each take's words match its tiles and
-  that every clip is long enough and not silent, but nobody has listened to all
-  of them. A bad cut can be redone for free with `--recut`; a bad take needs
-  voicing again, by deleting it from `takes/` and running the script. Short
-  words (je, a, sa, si, o) are said in 0.08–0.15 s; they're slowed to 0.16 s
-  (option C), on trial in lessons; dev mode plays all four styles under each
-  word-order exercise. The options, including voicing every sentence word by
-  word ($), are in stage 9, "Short words: the options".
+- **Word-tile audio isn't solved.** Lessons play each word's own clip, the
+  original problem: short words (je, to, sa) voiced alone sound off. Clips cut
+  from the sentence lose the first or last sound of short words, slowed or not, so
+  they're switched off (`TILES_PLAY_CUTS`). Voicing each exercise's words one at a
+  time (E1/E2) is on trial in dev mode for 6 exercises; the course would be about
+  6,000 characters. All in CONTENT-PIPELINE.md, stage 9, "Short words: the
+  options".
 - **No automated tests or CI.** Checks are `npm run validate:course`,
   `npm run i18n:sync -- --check`, `npx tsc --noEmit` and `npx eslint src`, all
   run by hand. Worth a small GitHub Actions workflow running those on push.

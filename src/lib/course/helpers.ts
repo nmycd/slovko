@@ -26,23 +26,50 @@ export function isSilentTile(word: string): boolean {
  */
 export const TILE_CLIPS_VERSION = 2;
 
+type TileStyleSpec = {
+  label: string;
+  /** A word said faster than this (seconds) is slowed to it, pitch kept. */
+  shortest: number;
+  /** Silence first, so the word isn't lost while the audio output wakes up. */
+  leadInMs: number;
+  /**
+   * Option E: not cut from the sentence, but from a take of its own of the exercise's
+   * words said one at a time, joined with this (". " or "… "), so every cut falls in a
+   * pause. Paid: only voiced when named (`--styles e1`).
+   */
+  words?: string;
+};
+
 /**
- * Ways to make a tile's clip from its cut (CONTENT-PIPELINE.md, stage 9, "Short words:
- * the options"): a word said faster than `shortest` seconds is slowed to it, pitch
- * kept, and `leadInMs` of silence goes first, so the word isn't lost while the audio
- * output wakes up. Lessons play `LIVE_TILE_STYLE`; dev mode plays all of them side by
- * side under each word-order exercise.
+ * Ways to make a tile's clip (CONTENT-PIPELINE.md, stage 9, "Short words: the
+ * options"). Dev mode plays them side by side under each word-order exercise. A to D
+ * are cut from the sentence; E1 and E2 from the words said one at a time.
  */
 export const tileStyles = {
   a: { label: "A: as said", shortest: 0, leadInMs: 0 },
   b: { label: "B: 60 ms first", shortest: 0, leadInMs: 60 },
   c: { label: "C: B, slowed to 0.16 s", shortest: 0.16, leadInMs: 60 },
   d: { label: "D: B, slowed to 0.20 s", shortest: 0.2, leadInMs: 60 },
-} as const;
+  e1: { label: "E1: word by word, “To. Je.”", shortest: 0, leadInMs: 60, words: ". " },
+  e2: { label: "E2: word by word, “To… je…”", shortest: 0, leadInMs: 60, words: "… " },
+} satisfies Record<string, TileStyleSpec>;
 
 export type TileStyle = keyof typeof tileStyles;
 
+/** A style's settings, typed so the optional ones can be read. */
+export function tileStyle(style: TileStyle): TileStyleSpec {
+  return tileStyles[style];
+}
+
+/** The style of the cut clips in tiles/, which lessons play when `TILES_PLAY_CUTS`. */
 export const LIVE_TILE_STYLE: TileStyle = "c";
+
+/**
+ * Whether lessons play a tile's cut clip (tiles/) or the word's own clip. Off since
+ * October 2026: cut from a fluent sentence, short words (je, to, sú, kde) lose their
+ * first or last sound. Word-by-word takes (E) are on trial in dev mode.
+ */
+export const TILES_PLAY_CUTS = false;
 
 export function isTileStyle(value: string): value is TileStyle {
   return Object.hasOwn(tileStyles, value);

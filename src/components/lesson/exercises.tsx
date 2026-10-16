@@ -12,6 +12,7 @@ import {
   LIVE_TILE_STYLE,
   stripMarkup,
   tileStyles,
+  TILES_PLAY_CUTS,
   tileWords,
   type TileStyle,
 } from "@/lib/course/helpers";
@@ -291,7 +292,7 @@ export function BuildView({
               type="button"
               disabled={locked || used}
               onClick={() => {
-                if (toSk) playTile(word, clipsIn);
+                if (toSk) playTile(word, TILES_PLAY_CUTS ? clipsIn : undefined);
                 setAnswer([...picked, i]);
               }}
               data-state={used ? "done" : undefined}
@@ -313,7 +314,8 @@ const styleNames = Object.keys(tileStyles) as TileStyle[];
 /**
  * Dev mode: a row per way of making a tile's clip (`tileStyles`), each with every tile
  * in sentence order and then the wrong ones, to compare by ear. Long words sound the
- * same in B, C and D: only short ones are slowed.
+ * same in B, C and D: only short ones are slowed. E1 and E2 exist only for the
+ * exercises voiced word by word so far.
  */
 function TileStyleRows({
   exercise,
@@ -343,12 +345,15 @@ function TileStyleRows({
   );
   return (
     <div className="space-y-2 rounded-xl border border-dashed border-border-strong p-3 text-sm">
-      <p className="text-muted">Dev: tile sounds in each style</p>
+      <p className="text-muted">
+        Dev: tile sounds in each style. Lessons play {TILES_PLAY_CUTS ? "the (live) style" : "each word's own clip"};
+        a tile with no clip in a style plays nothing.
+      </p>
       {styleNames.map((style) => (
         <div key={style} className="flex flex-wrap items-center gap-1.5">
           <span className="basis-full text-muted sm:basis-48">
             {tileStyles[style].label}
-            {style === LIVE_TILE_STYLE && " (live)"}
+            {TILES_PLAY_CUTS && style === LIVE_TILE_STYLE && " (live)"}
           </span>
           {right.map((word) => tile(word, style))}
           {wrong.length > 0 && (

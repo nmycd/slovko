@@ -12,11 +12,14 @@
 //   --only u3-,u1-l3#build-volam-sa-tomas # just these exercises (key prefixes)
 //   --recut                               # cut every tile clip again from its stored take (free)
 //   --save <dir>                          # also write takes and clips there, with a page to listen on
-//   --styles                              # also cut every clip in each style dev mode compares (free)
+//   --styles                              # also cut every clip in styles A–D for dev mode (free)
+//   --styles e1,e2                        # …or in these styles; E1 and E2 voice the words one by one ($)
 //
 // Refuses to spend credits on the placeholder voice: set ELEVENLABS_VOICE_ID first.
 
 import { loadEnvConfig } from "@next/env";
+// Reads no environment, so it may load first.
+import { isTileStyle, tileStyle, tileStyles, type TileStyle } from "../src/lib/course/helpers";
 
 // Must run before importing modules that read the environment when loaded.
 loadEnvConfig(process.cwd());
@@ -31,6 +34,17 @@ const dryRun = args.has("--dry-run");
 const prune = args.has("--prune");
 const tilesOnly = args.has("--tiles-only");
 const CONCURRENCY = 3;
+
+/** The styles `--styles` asks for: those named, or the free ones (cut from the sentence). */
+function styles() {
+  if (!args.has("--styles")) return [];
+  const named = value("--styles");
+  if (!named || named.startsWith("--")) return (Object.keys(tileStyles) as TileStyle[]).filter((s) => !tileStyle(s).words);
+  const list = named.split(",");
+  const unknown = list.filter((s) => !isTileStyle(s));
+  if (unknown.length) throw new Error(`Unknown style: ${unknown.join(", ")}`);
+  return list as TileStyle[];
+}
 
 async function main() {
   const { allLessons, speakableSet } = await import("../src/lib/course");
@@ -60,7 +74,7 @@ async function main() {
     recut: args.has("--recut"),
     only: value("--only")?.split(",").filter(Boolean) ?? [],
     save: value("--save"),
-    styles: args.has("--styles"),
+    styles: styles(),
   };
   if (dryRun) {
     await generateTiles(allLessons, tileOptions);

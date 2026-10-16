@@ -285,7 +285,8 @@ sentence. `generate:audio` does this after the phrases, in
    on a tap. So a clip shorter than 0.16 s is slowed to 0.16 s, pitch kept
    (ffmpeg `atempo`), and every clip starts with 60 ms of silence, so the word
    isn't lost while the audio output wakes up (style C of `tileStyles` in
-   [helpers.ts](src/lib/course/helpers.ts)). See "Short words: the options" below.
+   [helpers.ts](src/lib/course/helpers.ts)). That wasn't enough: lessons don't
+   play these cuts for now. See "Short words: the options" below.
 4. **Wrong tiles come from the same frame.** The sentence is voiced again with
    each wrong tile in place of the tile it competes with (its trap's `right`;
    one without a trap takes the tile most like it in form), taking that tile's
@@ -321,8 +322,10 @@ npm run generate:audio -- --tiles-only --only u3-,u1-l3#build-volam-sa-tomas --s
   to the cutting. Then bump `TILE_CLIPS_VERSION` in
   [helpers.ts](src/lib/course/helpers.ts), or browsers keep the old clips for up
   to a week.
-- `--styles` also cuts every clip in each of the styles below into
-  `tile-styles/a/` … `d/`, for dev mode (free).
+- `--styles` also cuts every clip in styles A to D (below) into
+  `tile-styles/a/` … `d/`, for dev mode (free). `--styles e1,e2` makes the named
+  styles instead; E1 and E2 voice new takes (paid), so use `--only` and
+  `--dry-run` first.
 - `--prune` also deletes tile clips and takes that no exercise uses any more.
 
 Size, for the course as of October 2026: 151 exercises, 899 tile clips (595
@@ -338,27 +341,43 @@ the tiles were cut from.
 
 #### Short words: the options
 
-Chosen in October 2026 after listening to the four side by side; still being
-tried in lessons, so it may change. A to D are `tileStyles` in
-[helpers.ts](src/lib/course/helpers.ts), and lessons play `LIVE_TILE_STYLE`. In
-dev mode (an account with `app_metadata.dev`), every word-order exercise with a
-Slovak answer shows a row of its tiles in each style under the word bank, to
-compare in the lesson itself; they play from `tile-styles/`, cut with `--styles`.
+**Status, October 2026: lessons play each word's own clip again**
+(`TILES_PLAY_CUTS = false` in [helpers.ts](src/lib/course/helpers.ts)). A tester
+found that every cut style loses the first or last sound of short words (je, to,
+sú, kde): in fluent speech the edge of a short word blends into its neighbour,
+and no cut point keeps both. Slowing (C, D) only stretches what's left. The cut
+clips stay stored, so turning the switch back on is instant.
 
-| | What | To switch to it |
+Word by word (E) is the candidate fix, on trial in dev mode. Every style is in
+`tileStyles`; in dev mode (an account with `app_metadata.dev`), each word-order
+exercise with a Slovak answer shows a row of its tiles in each style under the word
+bank, playing from `tile-styles/`.
+
+| | What | Made with |
 | --- | --- | --- |
-| A | The cut as said, no lead-in (first version) | free, as below |
-| B | 60 ms of silence first, no slowing | free, as below |
-| **C** | **B, and words under 0.16 s slowed to 0.16 s (live)** | |
-| D | B, and words under 0.20 s slowed to 0.20 s (175 clips) | free, as below |
-| E | Voice each sentence word by word, a pause after each word, so short words are said at full length; cut at the pauses | **$** a new take of every sentence, about 8,000–10,000 characters; try a few first |
+| A | The cut as said, no lead-in (first version) | `--styles` (free) |
+| B | 60 ms of silence first, no slowing | `--styles` (free) |
+| C | B, and words under 0.16 s slowed to 0.16 s (`LIVE_TILE_STYLE`, in tiles/) | `--styles` (free) |
+| D | B, and words under 0.20 s slowed to 0.20 s (175 clips) | `--styles` (free) |
+| E1 | The exercise's words said one at a time, "To. Je. Naša.", cut at the pauses | `--styles e1` **$** |
+| E2 | The same, "To… je… naša…" | `--styles e2` **$** |
 
-To switch between A and D: set `LIVE_TILE_STYLE`, run
-`npm run generate:audio -- --tiles-only --recut`, bump `TILE_CLIPS_VERSION`, and
-deploy. A new style is a new entry in `tileStyles`, then `--styles`.
+A to D are made from the sentence takes already stored. E1 and E2 take a take of
+their own per exercise: its tiles, right then wrong, in one Slovak take, so short
+words are said at full length (je 0.22–0.37 s against 0.08 s in a sentence) and
+the voice knows the language, which a word sent alone doesn't guarantee. Their
+cuts go only in real pauses (50 ms or more); a word with no pause on one side ran
+into its neighbour, fails, and isn't stored.
 
-Slowing past half speed sounds unnatural, so C and D are about as far as
-stretching goes; if short words still sound wrong, E is the real fix.
+Tried on 6 exercises (416 characters): with periods (E1) the voice paused at 24
+of 28 word boundaries and ran "Kuchyňa. Náš. Naše." together; with "…" (E2), 27
+of 28. The whole course in E2 would be 5,934 characters, plus a re-voice (another
+seed) for the takes that run words together.
+
+To put a style in lessons: for A to D, set `LIVE_TILE_STYLE`, run
+`npm run generate:audio -- --tiles-only --recut`, set `TILES_PLAY_CUTS = true`,
+bump `TILE_CLIPS_VERSION` and deploy. For E, lessons would first need to play from
+that style's clips (not built).
 
 Considered and set aside:
 - **Each word alone, with the sentence as `previous_text`/`next_text`:** cheaper
