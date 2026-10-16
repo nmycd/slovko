@@ -127,11 +127,11 @@ export function buildSession(
   take(due, SESSION_SIZE);
   take(fresh, NEW_PER_SESSION);
 
-  const known = deck.filter((item) => cards[cardId(item.id, "recognize")]);
+  const known = new Set(deck.filter((item) => cards[cardId(item.id, "recognize")]).map((item) => item.id));
   return shuffle(picked, random).map(({ id, itemId, direction, card }) => {
     const drill = drillFor(direction, card);
     const item = items.get(itemId)!.item;
-    const options = shuffle([item, ...distractors(item, known.length >= 8 ? known : deck, random)], random);
+    const options = shuffle([item, ...distractors(item, deck, known, random)], random);
     return {
       cardId: id,
       itemId,
@@ -155,13 +155,48 @@ const confusable = (a: ReviewItem, b: ReviewItem) =>
   key(a.sk) === key(b.sk) ||
   (Object.keys(a.meaning) as Locale[]).some((l) => key(a.meaning[l]) === key(b.meaning[l]));
 
+/** What an item looks like as an option: a bare word, a question or another sentence, and how long. */
+type Shape = { form: "word" | "question" | "sentence"; exclaims: boolean; verb: boolean; words: number };
+
+function shapeOf(item: ReviewItem): Shape {
+  const last = item.sk.trim().at(-1);
+  return {
+    form: last === "?" ? "question" : last === "." || last === "!" ? "sentence" : "word",
+    exclaims: last === "!",
+    verb: /^to /i.test(item.meaning.en), // "otvoriť" = "to open"
+    words: item.sk.split(/\s+/).filter((w) => /\p{L}/u.test(w)).length,
+  };
+}
+
 /**
- * Three wrong options that can't be mistaken for the answer or each other (so
- * "Ahoj" and "Čau", both "Hi", never compete).
+ * How unlike two shapes are. A question among statements, or a bare word among
+ * sentences, gives itself away; "Dobrú chuť!" among "Dobrý deň." hardly does.
  */
-function distractors(item: ReviewItem, pool: ReviewItem[], random: () => number): ReviewItem[] {
+function shapeDistance(a: Shape, b: Shape): number {
+  let distance = 0;
+  if (a.form !== b.form) distance += a.form === "question" || b.form === "question" ? 4 : 3;
+  else if (a.exclaims !== b.exclaims) distance += 1;
+  if (a.verb !== b.verb) distance += 2;
+  return distance + Math.min(2, Math.abs(a.words - b.words));
+}
+
+/**
+ * Three wrong options shaped like the answer (a word among words, a question among
+ * questions, about as long), preferring words the learner has met, which can't be
+ * mistaken for the answer or each other (so "Ahoj" and "Čau", both "Hi", never compete).
+ * Being new counts like one step of shape; the random part varies the pick among equals.
+ */
+function distractors(item: ReviewItem, deck: ReviewItem[], known: Set<string>, random: () => number): ReviewItem[] {
+  const shape = shapeOf(item);
+  const ranked = deck
+    .filter((other) => other !== item)
+    .map((other) => ({
+      other,
+      score: shapeDistance(shape, shapeOf(other)) + (known.has(other.id) ? 0 : 1) + random(),
+    }))
+    .sort((a, b) => a.score - b.score);
   const chosen: ReviewItem[] = [];
-  for (const other of shuffle(pool, random)) {
+  for (const { other } of ranked) {
     if (chosen.length === 3) break;
     if ([item, ...chosen].some((x) => confusable(x, other))) continue;
     chosen.push(other);
