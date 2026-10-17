@@ -507,7 +507,8 @@ const TONE: Record<Tone, string> = { right: "bg-ok/25", near: "bg-gold/30", wron
 
 /**
  * A typed word against the answer's, once it has as many letters (case and punctuation
- * aside): right, one letter off (a missing accent counts), or wrong. Null until then.
+ * aside): right, one letter off (a missing accent counts), or wrong. A one-letter word
+ * is right or wrong: its one letter off is the whole word. Null until then.
  */
 function toneOf(typed: string, word: string): Tone | null {
   const letters = (w: string) => [...w.normalize("NFC").toLocaleLowerCase("sk")].filter((ch) => /[\p{L}\p{N}]/u.test(ch));
@@ -515,7 +516,7 @@ function toneOf(typed: string, word: string): Tone | null {
   const b = letters(word);
   if (a.length !== b.length) return null;
   const off = a.filter((ch, i) => ch !== b[i]).length;
-  return off === 0 ? "right" : off === 1 ? "near" : "wrong";
+  return off === 0 ? "right" : off === 1 && b.length > 1 ? "near" : "wrong";
 }
 
 /**
@@ -547,7 +548,7 @@ function Shape({ word, tone = null, className = "" }: { word: string; tone?: Ton
  * the word being typed keeping room for the whole word, and the words still to come
  * after it. So a word typed shorter or longer (a missing accent, a typo) moves nothing.
  * A typed word with the right number of letters shades its block: green when right,
- * yellow when one letter is off, red otherwise.
+ * yellow when one letter is off (in a longer word), red otherwise.
  */
 function Ghost({ target, typed, className }: { target: string; typed: string; className: string }) {
   const words = target.split(/\s+/).filter(Boolean);
