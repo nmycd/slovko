@@ -44,7 +44,7 @@ export const ka: Messages = {
   "path.dailyGoal": "დღის მიზანი",
   "path.xp": "{done}/{goal} XP",
   "path.premium.title": "Slovko Premium",
-  "path.premium.body": "გახსენით A1 კურსის თავები 3–10.",
+  "path.premium.body": "გახსენით {level} კურსის თავები {from}–10.",
   "path.premium.button": "სცადეთ Premium",
   "path.unit": "თავი {n}",
   "path.comingSoon": "მალე",

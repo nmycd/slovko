@@ -73,7 +73,9 @@ export function LearnFrame({
               <CrownIcon className="text-gold" /> {t("path.premium.title")}
             </h2>
             <p className="mt-2 text-muted">
-              {course.freeUnits ? t("path.premium.body") : t("lesson.paywall.body", { level: course.level })}
+              {course.freeUnits
+                ? t("path.premium.body", { from: course.freeUnits + 1, level: course.level })
+                : t("lesson.paywall.body", { level: course.level })}
             </p>
             <Link href="/pricing" className="btn btn-gold mt-4 w-full">
               {t("path.premium.button")}

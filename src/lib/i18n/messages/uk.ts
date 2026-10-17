@@ -40,7 +40,7 @@ export const uk: Messages = {
   "path.dailyGoal": "Ціль на день",
   "path.xp": "{done}/{goal} XP",
   "path.premium.title": "Slovko Premium",
-  "path.premium.body": "Відкрийте розділи 3–10 курсу A1.",
+  "path.premium.body": "Відкрийте розділи {from}–10 курсу {level}.",
   "path.premium.button": "Спробувати Premium",
   "path.unit": "Розділ {n}",
   "path.comingSoon": "Незабаром",

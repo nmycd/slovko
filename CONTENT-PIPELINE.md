@@ -40,7 +40,7 @@ with `--course a2` on each script (A1 without it) and A2's own files:
 | Spelling cards (6) | `spelling.json` | `a2/spelling.json` |
 | Picture plan (7) | `illustrations/plan/`, crops in `illustrations/book-refs/` | `illustrations/plan/a2/`, crops in `illustrations/book-refs/a2/` |
 | Pictures (8) | `illustrations.json` | `a2/illustrations.json` |
-| Premium | units 1–2 free | every unit |
+| Premium | units 1–2 free | unit 1 free |
 
 Ids are unique across courses, so progress, translations, pictures, spelling
 cards and audio clips are keyed by them, and picture and audio files share one

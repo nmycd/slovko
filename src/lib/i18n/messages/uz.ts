@@ -44,7 +44,7 @@ export const uz: Messages = {
   "path.dailyGoal": "Kunlik maqsad",
   "path.xp": "{done}/{goal} XP",
   "path.premium.title": "Slovko Premium",
-  "path.premium.body": "A1 kursining 3–10-boʻlimlarini oching.",
+  "path.premium.body": "{level} kursining {from}–10-boʻlimlarini oching.",
   "path.premium.button": "Premiumni sinash",
   "path.unit": "{n}-boʻlim",
   "path.comingSoon": "Tez orada",

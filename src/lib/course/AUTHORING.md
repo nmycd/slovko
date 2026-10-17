@@ -26,7 +26,7 @@ never change.
 | Spelling plan | `spelling.json` | `a2/spelling.json` |
 | Pictures | `illustrations.json` | `a2/illustrations.json` |
 | Picture plan, book crops | `illustrations/plan/`, `illustrations/book-refs/` | `illustrations/plan/a2/`, `illustrations/book-refs/a2/` |
-| Premium | units 1–2 free (`premium: false`), 3–10 `premium: true` | every unit `premium: true` |
+| Premium | units 1–2 free (`premium: false`), 3–10 `premium: true` | unit 1 free (`premium: false`), 2–10 `premium: true` |
 
 - **A1 comes before all of A2.** An A2 explanation may `ref` an A1 grammar card
   (`ref: "u3-l2#grammar-one-adjective-three"`); "See the rule" opens it, marked
@@ -46,7 +46,7 @@ never change.
   validate:course -- --course a2 a2-u3`.
 - **A2 is hidden until launch.** Its tab says "coming soon" and its lessons don't
   open, except for dev-mode accounts (`app_metadata.dev`), who see the path and
-  play it like any course (its units still need Premium). Launching is one line: `launched: true` on A2's entry in
+  play it like any course (units 2–10 still need Premium). Launching is one line: `launched: true` on A2's entry in
   `courses.ts` (the pricing page then lists "The whole A2 course").
 
 ## Using the textbook (and what not to copy)

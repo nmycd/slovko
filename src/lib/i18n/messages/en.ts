@@ -44,7 +44,7 @@ export const en = {
   "path.dailyGoal": "Daily goal",
   "path.xp": "{done}/{goal} XP",
   "path.premium.title": "Slovko Premium",
-  "path.premium.body": "Unlock units 3–10 of the A1 course.",
+  "path.premium.body": "Unlock units {from}–10 of the {level} course.",
   "path.premium.button": "Try Premium",
   "path.unit": "Unit {n}",
   "path.comingSoon": "Coming soon",

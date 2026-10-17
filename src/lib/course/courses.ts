@@ -41,7 +41,7 @@ export const courses: Course[] = [
     level: "A2",
     path: "/learn/a2",
     prefix: "a2-",
-    freeUnits: 0,
+    freeUnits: 1,
     reviewFromUnit: 1,
     launched: false,
     soon: { title: "courses.a2.title", body: "courses.a2.body" },
