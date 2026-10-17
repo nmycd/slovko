@@ -166,6 +166,7 @@ export const uz: Messages = {
   "ex.memorize.prompt": "Bu soʻzlar qanday yozilishiga qarang. Tayyor boʻlganingizda ular yashiriladi va siz ularni maʼnosiga qarab yozasiz.",
   "ex.memorize.ready": "Tayyorman",
   "ex.memorize.write": "Har bir soʻzni yozing",
+  "ex.memorize.accents": "Diakritik belgilarni unutmang.",
   "ex.memorize.placeholder": "Slovakcha",
   "ex.memorize.score": "{score}% toʻgʻri",
   "ex.match": "Mos juftliklarni tanlang",

@@ -166,6 +166,7 @@ export const ka: Messages = {
   "ex.memorize.prompt": "ნახეთ, როგორ იწერება ეს სიტყვები. როცა მზად იქნებით, ისინი დაიმალება და მათ მნიშვნელობის მიხედვით დაწერთ.",
   "ex.memorize.ready": "მზად ვარ",
   "ex.memorize.write": "დაწერეთ თითოეული სიტყვა",
+  "ex.memorize.accents": "არ დაგავიწყდეთ დიაკრიტიკა.",
   "ex.memorize.placeholder": "სლოვაკურად",
   "ex.memorize.score": "{score}% სწორია",
   "ex.match": "იპოვეთ შესაბამისი წყვილები",

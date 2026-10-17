@@ -166,6 +166,7 @@ export const en = {
   "ex.memorize.prompt": "Look at how these words are written. When you're ready, they'll hide and you'll type them from their meanings.",
   "ex.memorize.ready": "I'm ready",
   "ex.memorize.write": "Type each word",
+  "ex.memorize.accents": "Make sure to use the accents.",
   "ex.memorize.placeholder": "In Slovak",
   "ex.memorize.score": "{score}% right",
   "ex.match": "Tap the matching pairs",

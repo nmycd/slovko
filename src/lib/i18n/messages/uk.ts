@@ -158,6 +158,7 @@ export const uk: Messages = {
   "ex.memorize.prompt": "Подивіться, як пишуться ці слова. Коли будете готові, вони сховаються, і ви напишете їх за значенням.",
   "ex.memorize.ready": "Готово",
   "ex.memorize.write": "Напишіть кожне слово",
+  "ex.memorize.accents": "Не забувайте про діакритику.",
   "ex.memorize.placeholder": "Словацькою",
   "ex.memorize.score": "{score}% правильно",
   "ex.match": "Знайдіть пари",

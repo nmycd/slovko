@@ -158,6 +158,7 @@ export const ru: Messages = {
   "ex.memorize.prompt": "Посмотрите, как пишутся эти слова. Когда будете готовы, они скроются, и вы напишете их по значению.",
   "ex.memorize.ready": "Готово",
   "ex.memorize.write": "Напишите каждое слово",
+  "ex.memorize.accents": "Не забывайте про диакритику.",
   "ex.memorize.placeholder": "По-словацки",
   "ex.memorize.score": "{score}% правильно",
   "ex.match": "Найдите пары",

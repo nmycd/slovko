@@ -748,6 +748,7 @@ export function MemorizeView({
         </div>
         <div className={`[grid-area:1/1] ${phase === "write" ? "" : "invisible"}`}>
           <Title>{t("ex.memorize.write")}</Title>
+          <p className="mt-2 text-muted">{t("ex.memorize.accents")}</p>
         </div>
       </div>
       <ol className="space-y-3">
