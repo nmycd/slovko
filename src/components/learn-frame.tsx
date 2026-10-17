@@ -10,7 +10,7 @@ import { courseOpen, courses } from "@/lib/course/courses";
 
 /**
  * The course tabs' frame on /learn: the tab beside a column with the daily goal, word
- * review and the dictionary (and Premium on a course path with Premium units, which
+ * review, extra practice and the dictionary (and Premium on a course path with Premium units, which
  * it unlocks). Resources has the page to itself.
  */
 export function LearnFrame({
@@ -31,12 +31,24 @@ export function LearnFrame({
   // The review page is the card at length, so it goes without the card.
   const reviewCard = ready && pathname !== "/learn/review" && <ReviewCard opensAfter={reviewOpensAfter} />;
   const dictionaryCard = ready && <Dictionary />;
-  // Narrow screens have no side column: review and the dictionary lead a course path
+  // What each kind of practice holds is still to be decided; for now it only names them.
+  const practiceCard = ready && (
+    <div className="card p-5">
+      <h2 className="text-lg">{t("practice.title")}</h2>
+      <ul className="mt-2 list-disc space-y-1 pl-5 text-muted">
+        <li>{t("practice.grammar")}</li>
+        <li>{t("practice.writing")}</li>
+        <li>{t("practice.speaking")}</li>
+      </ul>
+    </div>
+  );
+  // Narrow screens have no side column: review, practice and the dictionary lead a course path
   // (long) and follow the other tabs' short text.
   const inline = (className: string) =>
     ready && (
       <div className={`mx-auto max-w-xl space-y-4 lg:hidden ${className}`}>
         {reviewCard}
+        {practiceCard}
         {dictionaryCard}
       </div>
     );
@@ -66,6 +78,7 @@ export function LearnFrame({
           </div>
         </div>
         {reviewCard}
+        {practiceCard}
         {dictionaryCard}
         {course && premiumKnown && !isPremium && (
           <div className="card p-5">
