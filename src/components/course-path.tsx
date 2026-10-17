@@ -62,6 +62,33 @@ function useKeptScroll(ready: boolean, course: Course) {
   }, [ready, course]);
 }
 
+/**
+ * Scrolls the page to `top`, eased in and out, as Chrome's smooth scroll does (√distance
+ * frames at 60 fps, at most 0.7 s) but 20 % quicker, and the same in every browser.
+ * The learner's own wheel or touch stops it.
+ */
+function glideTo(top: number) {
+  const from = window.scrollY;
+  const distance = top - from;
+  const ms = (Math.min(Math.sqrt(Math.abs(distance)), 42) / 60) * 1000 * 0.8;
+  const ease = (x: number) => (x < 0.5 ? 4 * x ** 3 : 1 - (-2 * x + 2) ** 3 / 2);
+  let stopped = false;
+  const stop = () => {
+    stopped = true;
+  };
+  window.addEventListener("wheel", stop, { once: true, passive: true });
+  window.addEventListener("touchstart", stop, { once: true, passive: true });
+  const start = performance.now();
+  const frame = (now: number) => {
+    const x = ms > 0 ? Math.min(1, (now - start) / ms) : 1;
+    if (!stopped) window.scrollTo({ top: from + distance * ease(x), behavior: "instant" });
+    if (x < 1 && !stopped) return requestAnimationFrame(frame);
+    window.removeEventListener("wheel", stop);
+    window.removeEventListener("touchstart", stop);
+  };
+  requestAnimationFrame(frame);
+}
+
 /** A course's path. `outlines` holds it in each native language (titleEn = the translated title). */
 export function CoursePath({ course: courseId, outlines }: { course: CourseId; outlines: Record<Locale, UnitOutline[]> }) {
   const { ready, progress, isPremium, premiumKnown, authEnabled, authKnown, user, locale, t } = useApp();
@@ -196,8 +223,11 @@ function UnitSection({
   const section = useRef<HTMLElement>(null);
   // A unit opened in full can run long: the rail along its left edge goes back to its banner.
   const toTop = () => {
-    const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    section.current?.scrollIntoView({ block: "start", behavior: still ? "auto" : "smooth" });
+    const el = section.current;
+    if (!el) return;
+    const top = el.getBoundingClientRect().top + window.scrollY - parseFloat(getComputedStyle(el).scrollMarginTop);
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) window.scrollTo({ top, behavior: "instant" });
+    else glideTo(Math.max(0, top));
   };
 
   return (
