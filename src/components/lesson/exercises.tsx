@@ -1,7 +1,7 @@
 "use client";
 
 import { Fragment, useEffect, useLayoutEffect, useRef, useState } from "react";
-import { BookIcon, MicIcon } from "@/components/icons";
+import { BookIcon, EyeIcon, EyeOffIcon, MicIcon } from "@/components/icons";
 import { useApp } from "@/components/app-provider";
 import { AudioButton } from "@/components/lesson/audio-button";
 import { RichText } from "@/components/lesson/rich-text";
@@ -468,7 +468,9 @@ function TypedAnswer({
 
   return (
     <>
-      <div className="relative rounded-xl border-[1.5px] border-border-strong bg-bg focus-within:border-accent">
+      <div className="flex items-center gap-2 sm:gap-3">
+      <HintButton on={hint} onToggle={() => setHint(!hint)} hidden={locked} />
+      <div className="relative min-w-0 flex-1 rounded-xl border-[1.5px] border-border-strong bg-bg focus-within:border-accent">
       {hint && <Ghost target={target} typed={text} className="inset-0 p-4 font-mono text-xl break-words whitespace-pre-wrap" />}
       <textarea
         ref={input}
@@ -492,12 +494,8 @@ function TypedAnswer({
         className="relative block w-full resize-none rounded-xl bg-transparent p-4 font-mono text-xl outline-none"
       />
       </div>
-      <SlovakKeys
-        label={t("ex.accentKeys")}
-        disabled={locked}
-        onKey={insert}
-        extra={!locked && <HintButton on={hint} onToggle={() => setHint(!hint)} />}
-      />
+      </div>
+      <SlovakKeys label={t("ex.accentKeys")} disabled={locked} onKey={insert} />
     </>
   );
 }
@@ -593,17 +591,26 @@ function Ghost({ target, typed, className }: { target: string; typed: string; cl
   );
 }
 
-/** Shows or hides a typed answer's outline. Keeps the focus in the text box. */
-function HintButton({ on, onToggle }: { on: boolean; onToggle: () => void }) {
+/**
+ * Shows or hides a typed answer's outline: an eye to show it, a struck-out eye to hide it,
+ * over its label. Keeps the focus in the text box. `hidden` keeps its place, so the
+ * boxes beside it don't move.
+ */
+function HintButton({ on, onToggle, hidden = false }: { on: boolean; onToggle: () => void; hidden?: boolean }) {
   const { t } = useApp();
+  const Icon = on ? EyeOffIcon : EyeIcon;
   return (
     <button
       type="button"
       aria-pressed={on}
+      disabled={hidden}
       onMouseDown={(e) => e.preventDefault()}
       onClick={onToggle}
-      className="shrink-0 rounded-lg px-2 py-1 text-sm font-bold text-accent hover:bg-surface-2"
+      className={`flex w-16 shrink-0 flex-col items-center gap-1 rounded-lg px-1 py-2 text-center text-xs leading-tight font-bold text-accent hover:bg-surface-2 sm:w-20 ${
+        hidden ? "invisible" : ""
+      }`}
     >
+      <Icon size={22} />
       {t(on ? "ex.hintHide" : "ex.hint")}
     </button>
   );
@@ -614,20 +621,14 @@ function SlovakKeys({
   label,
   onKey,
   disabled,
-  extra,
 }: {
   label: string;
   onKey: (ch: string) => void;
   disabled: boolean;
-  /** Beside the label, at the right (the hint button). */
-  extra?: React.ReactNode;
 }) {
   return (
     <div className="space-y-2">
-      <div className="flex items-center justify-between gap-3">
-        <p className="text-sm font-bold text-muted">{label}</p>
-        {extra}
-      </div>
+      <p className="text-sm font-bold text-muted">{label}</p>
       <div className="flex flex-wrap gap-1.5">
         {["á", "ä", "č", "ď", "é", "í", "ľ", "ĺ", "ň", "ó", "ô", "ŕ", "š", "ť", "ú", "ý", "ž"].map((ch) => (
           <button
@@ -751,7 +752,9 @@ export function MemorizeView({
           <p className="mt-2 text-muted">{t("ex.memorize.accents")}</p>
         </div>
       </div>
-      <ol className="space-y-3">
+      <div className="flex items-center gap-2 sm:gap-3">
+      <HintButton on={hint} onToggle={() => setHint(!hint)} hidden={locked || phase !== "write"} />
+      <ol className="min-w-0 flex-1 space-y-3">
         {order.map((i, place) => {
           const word = words[i];
           const mark = marks?.[i];
@@ -820,13 +823,9 @@ export function MemorizeView({
           );
         })}
       </ol>
+      </div>
       <div className={phase === "write" ? "transition-opacity duration-300" : "invisible opacity-0"}>
-        <SlovakKeys
-          label={t("ex.accentKeys")}
-          disabled={locked || phase !== "write"}
-          onKey={insert}
-          extra={!locked && <HintButton on={hint} onToggle={() => setHint(!hint)} />}
-        />
+        <SlovakKeys label={t("ex.accentKeys")} disabled={locked || phase !== "write"} onKey={insert} />
       </div>
     </div>
   );
