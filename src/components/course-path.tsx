@@ -30,8 +30,11 @@ const unitColors = ["#3e5a3e", "#4b6858", "#5b6b33", "#3d5852", "#56693f"];
 // Horizontal offsets (px) for the zig-zag path.
 const zigzag = [0, 44, 66, 44, 0, -44, -66, -44];
 
-/** "open": playable but not next in line (only with the unlock-all testing switch). */
-type NodeState = "done" | "current" | "open" | "locked";
+/**
+ * "open": playable but not next in line (only with the unlock-all testing switch).
+ * "ahead": a lesson further on that a Premium learner may still play: grey, but not locked.
+ */
+type NodeState = "done" | "current" | "open" | "ahead" | "locked";
 
 /** Where a course's path keeps its scroll position (A1's key is from before there were more). */
 const scrollKey = (course: Course) => (course.id === "a1" ? "slovko:learn-scroll" : `slovko:learn-scroll:${course.id}`);
@@ -117,17 +120,18 @@ export function CoursePath({ course: courseId, outlines }: { course: CourseId; o
     },
   };
 
-  // The first lesson not yet completed is "current"; everything after it is locked.
-  // Writing lessons are optional, like review stops: never current, they open once
-  // reached and hold up nothing after them.
+  // The first lesson not yet completed is "current"; everything after it is locked, or for
+  // Premium learners greyed but open. Writing lessons are optional, like review stops:
+  // never current, they open once reached and hold up nothing after them.
   const allLessons = outline.flatMap((u) => u.lessons);
   const firstOpen = allLessons.findIndex((l) => l.kind !== "writing" && !progress.completed[l.id]);
+  const later: NodeState = unlockAllLessons ? "open" : isPremium ? "ahead" : "locked";
   const stateOf = (lessonId: string): NodeState => {
     const i = allLessons.findIndex((l) => l.id === lessonId);
     if (progress.completed[lessonId]) return "done";
-    if (allLessons[i]?.kind === "writing") return firstOpen < 0 || i < firstOpen || unlockAllLessons ? "open" : "locked";
+    if (allLessons[i]?.kind === "writing") return firstOpen < 0 || i < firstOpen || unlockAllLessons ? "open" : later;
     if (i === firstOpen) return "current";
-    return unlockAllLessons ? "open" : "locked";
+    return later;
   };
 
   // Each unit's share of lessons done (the optional writing lessons left out).
@@ -430,6 +434,7 @@ function LessonNode({
       boxShadow: "0 0 0 6px var(--bg), 0 0 0 7.5px var(--lichen)",
     },
     open: { background: color, color: "var(--bg)" },
+    ahead: { background: "var(--locked)", color: "var(--locked-dark)" },
     locked: { background: "var(--locked)", color: "var(--locked-dark)" },
   }[state];
   const KindIcon = kindIcon[kind];
