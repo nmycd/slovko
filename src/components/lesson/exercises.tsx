@@ -172,8 +172,11 @@ function optionState(i: number, selected: Answer, answer: number, locked: boolea
   return undefined;
 }
 
-export function ChoiceView({ exercise, answer, setAnswer, locked }: Props<ChoiceExercise>) {
-  useNumberKeys(exercise.options.length, setAnswer, locked);
+/** `order`: the options' indexes in the order they're shown; answers stay indexes into `options`. */
+type Shuffled = { order: number[] };
+
+export function ChoiceView({ exercise, order, answer, setAnswer, locked }: Props<ChoiceExercise> & Shuffled) {
+  useNumberKeys(order, setAnswer, locked);
   return (
     <div className="space-y-5 sm:space-y-8">
       <Title>{exercise.question}</Title>
@@ -191,9 +194,9 @@ export function ChoiceView({ exercise, answer, setAnswer, locked }: Props<Choice
           </div>
         ))}
       <div className="grid gap-3">
-        {exercise.options.map((opt, i) => (
+        {order.map((i, place) => (
           <button
-            key={opt}
+            key={exercise.options[i]}
             type="button"
             disabled={locked}
             onClick={() => setAnswer(i)}
@@ -201,9 +204,9 @@ export function ChoiceView({ exercise, answer, setAnswer, locked }: Props<Choice
             className="tile flex items-center gap-4 p-4 text-left text-lg"
           >
             <span className="grid size-8 shrink-0 place-items-center rounded-lg border-2 border-current text-sm opacity-60">
-              {i + 1}
+              {place + 1}
             </span>
-            {opt}
+            {exercise.options[i]}
           </button>
         ))}
       </div>
@@ -211,9 +214,9 @@ export function ChoiceView({ exercise, answer, setAnswer, locked }: Props<Choice
   );
 }
 
-export function FillView({ exercise, answer, setAnswer, locked }: Props<FillExercise>) {
+export function FillView({ exercise, order, answer, setAnswer, locked }: Props<FillExercise> & Shuffled) {
   const { t } = useApp();
-  useNumberKeys(exercise.options.length, setAnswer, locked);
+  useNumberKeys(order, setAnswer, locked);
   const chosen = typeof answer === "number" ? exercise.options[answer] : null;
   return (
     <div className="space-y-8">
@@ -231,16 +234,16 @@ export function FillView({ exercise, answer, setAnswer, locked }: Props<FillExer
         <span>{exercise.after}</span>
       </p>
       <div className="flex flex-wrap gap-3">
-        {exercise.options.map((opt, i) => (
+        {order.map((i) => (
           <button
-            key={opt}
+            key={exercise.options[i]}
             type="button"
             disabled={locked}
             onClick={() => setAnswer(i)}
             data-state={optionState(i, answer, exercise.answer, locked)}
             className="tile px-5 py-3 text-lg"
           >
-            {opt}
+            {exercise.options[i]}
           </button>
         ))}
       </div>
@@ -910,15 +913,15 @@ export function SpeakView({
   );
 }
 
-/** Keys 1–n pick an option. */
-function useNumberKeys(count: number, setAnswer: (a: Answer) => void, locked: boolean) {
+/** Keys 1–n pick an option, counting in the order they're shown. */
+function useNumberKeys(order: number[], setAnswer: (a: Answer) => void, locked: boolean) {
   useEffect(() => {
     if (locked) return;
     const onKey = (e: KeyboardEvent) => {
       const n = Number(e.key);
-      if (n >= 1 && n <= count) setAnswer(n - 1);
+      if (n >= 1 && n <= order.length) setAnswer(order[n - 1]);
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [count, setAnswer, locked]);
+  }, [order, setAnswer, locked]);
 }

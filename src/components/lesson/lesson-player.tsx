@@ -172,8 +172,8 @@ type PlayerProps = {
   courseLessonIds: string[];
 };
 
-/** An exercise already played: what was answered, so it can be shown again. */
-type Visit = { answer: Answer; tiles: string[]; result: Resolution | null };
+/** An exercise already played: what was answered, so it can be shown again (`order`: its options as shown). */
+type Visit = { answer: Answer; tiles: string[]; order: number[]; result: Resolution | null };
 
 export function LessonPlayer(props: PlayerProps) {
   const lessonId = props.lessons.en.id;
@@ -291,10 +291,10 @@ function Player({
   const item = queue[pos];
   const exercise = lesson.exercises[item.index];
 
-  function onGraded(r: Resolution, answer: Answer, tiles: string[]) {
+  function onGraded(r: Resolution, answer: Answer, tiles: string[], order: number[]) {
     // Dev mode can answer an exercise again; only its first answer counts.
     const first = !history[item.key]?.result;
-    setHistory((h) => ({ ...h, [item.key]: { answer, tiles, result: r } }));
+    setHistory((h) => ({ ...h, [item.key]: { answer, tiles, order, result: r } }));
     if (r.skipped) return;
     if (!item.retry && first) {
       stats.current.graded++;
@@ -311,7 +311,7 @@ function Player({
   function next() {
     // Teaching cards have no answer; remember them as seen, and put what they
     // teach into the learner's review deck.
-    setHistory((h) => (h[item.key] ? h : { ...h, [item.key]: { answer: null, tiles: [], result: null } }));
+    setHistory((h) => (h[item.key] ? h : { ...h, [item.key]: { answer: null, tiles: [], order: [], result: null } }));
     markSeen(taughtItemIds(exercise));
     if (pos + 1 < queue.length) {
       setPos(pos + 1);
@@ -492,7 +492,7 @@ export function Step({
   nav: React.ReactNode;
   /** A way out of this exercise other than answering (default: "Can't speak now" on speaking). */
   skip?: { label: string; onSkip: () => void };
-  onGraded: (r: Resolution, answer: Answer, tiles: string[]) => void;
+  onGraded: (r: Resolution, answer: Answer, tiles: string[], order: number[]) => void;
   onNext: () => void;
 }) {
   const [answer, setAnswer] = useState<Answer>(initial?.answer ?? null);
@@ -502,6 +502,16 @@ export function Step({
       ? initial.tiles
       : ex.type === "build"
         ? shuffle([...toTiles(ex.answers[0]), ...ex.distractors])
+        : [],
+  );
+  // Choice and fill options in a new order (most are written with the answer first): one
+  // permutation of the indexes, so it fits the options in any language. Answers stay
+  // indexes into `ex.options`.
+  const [order] = useState(() =>
+    initial?.order.length
+      ? initial.order
+      : ex.type === "choice" || ex.type === "fill"
+        ? shuffle(ex.options.map((_, i) => i))
         : [],
   );
 
@@ -524,7 +534,7 @@ export function Step({
   const resolve = (r: Resolution) => {
     if (review) return;
     setResult(r);
-    onGraded(r, answer, tiles);
+    onGraded(r, answer, tiles, order);
   };
   const check = () => {
     if (!result && ready) resolve(grade(ex, answer, tiles));
@@ -581,10 +591,10 @@ export function Step({
           {ex.type === "intro" && <IntroView exercise={ex} />}
           {ex.type === "grammar" && <GrammarView exercise={ex} />}
           {ex.type === "choice" && (
-            <ChoiceView exercise={ex} answer={answer} setAnswer={setAnswer} locked={locked} />
+            <ChoiceView exercise={ex} order={order} answer={answer} setAnswer={setAnswer} locked={locked} />
           )}
           {ex.type === "fill" && (
-            <FillView exercise={ex} answer={answer} setAnswer={setAnswer} locked={locked} />
+            <FillView exercise={ex} order={order} answer={answer} setAnswer={setAnswer} locked={locked} />
           )}
           {ex.type === "build" && (
             <BuildView
