@@ -44,6 +44,7 @@ export const uk: Messages = {
   "practice.done.title": "Практику завершено",
   "practice.done.body": "Правильно: {right} з {total}.",
   "practice.again": "Ще раз",
+  "practice.cantSpeak": "Не можу говорити (вийти з практики вимови)",
   "practice.empty": "Поки що нічого практикувати: спершу пройдіть урок-другий.",
   "grammar.close": "Назад до курсу",
   "grammar.all": "Усі уроки граматики",

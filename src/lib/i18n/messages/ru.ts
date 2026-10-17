@@ -44,6 +44,7 @@ export const ru: Messages = {
   "practice.done.title": "Практика завершена",
   "practice.done.body": "Правильно: {right} из {total}.",
   "practice.again": "Ещё раз",
+  "practice.cantSpeak": "Не могу говорить (выйти из практики произношения)",
   "practice.empty": "Пока нечего практиковать: сначала пройдите урок-другой.",
   "grammar.close": "Назад к курсу",
   "grammar.all": "Все уроки грамматики",

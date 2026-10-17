@@ -48,6 +48,7 @@ export const en = {
   "practice.done.title": "Practice done",
   "practice.done.body": "{right} of {total} right.",
   "practice.again": "Practice again",
+  "practice.cantSpeak": "Can't speak now (exit pronunciation practice)",
   "practice.empty": "Nothing to practise yet: finish a lesson or two first.",
   "grammar.close": "Back to the course",
   "grammar.all": "All grammar lessons",

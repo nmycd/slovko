@@ -48,6 +48,7 @@ export const ka: Messages = {
   "practice.done.title": "ვარჯიში დასრულდა",
   "practice.done.body": "სწორი: {right} / {total}.",
   "practice.again": "კიდევ ერთხელ",
+  "practice.cantSpeak": "ახლა ვერ ვლაპარაკობ (გამოთქმის პრაქტიკიდან გასვლა)",
   "practice.empty": "ჯერ სავარჯიშო არაფერია: ჯერ ერთი-ორი გაკვეთილი გაიარეთ.",
   "grammar.close": "კურსზე დაბრუნება",
   "grammar.all": "გრამატიკის ყველა გაკვეთილი",

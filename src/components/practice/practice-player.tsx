@@ -61,6 +61,7 @@ function Session({
   items: PracticeItem[];
   onAgain: () => void;
 }) {
+  const router = useRouter();
   const { progress, dev, locale, t } = useApp();
   // The courses this learner can see (a course not launched yet is for dev mode only).
   const [cards] = useState(() =>
@@ -115,6 +116,12 @@ function Session({
         lessonId={card.lessonId}
         frame={frame}
         nav={null}
+        // Pronunciation practice is all speaking: not able to speak now ends it, back to the path.
+        skip={
+          kind === "pronunciation"
+            ? { label: t("practice.cantSpeak"), onSkip: () => router.push("/learn", { scroll: false }) }
+            : undefined
+        }
         onGraded={(r) => {
           if (r.skipped) return;
           setGraded((n) => n + 1);

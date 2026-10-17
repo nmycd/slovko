@@ -48,6 +48,7 @@ export const uz: Messages = {
   "practice.done.title": "Mashq tugadi",
   "practice.done.body": "Toʻgʻri: {right} / {total}.",
   "practice.again": "Yana mashq qilish",
+  "practice.cantSpeak": "Hozir gapira olmayman (talaffuz mashqidan chiqish)",
   "practice.empty": "Hozircha mashq qilish uchun hech narsa yoʻq: avval bir-ikki dars oʻting.",
   "grammar.close": "Kursga qaytish",
   "grammar.all": "Barcha grammatika darslari",
