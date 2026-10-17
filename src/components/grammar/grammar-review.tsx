@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useRouter, useSelectedLayoutSegment } from "next/navigation";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
@@ -9,8 +8,7 @@ import { ChevronDownIcon, CloseIcon, LockIcon } from "@/components/icons";
 import { GrammarView } from "@/components/lesson/exercises";
 import { VolumeSlider } from "@/components/lesson/volume-slider";
 import { courseById, courseOpen, type CourseId } from "@/lib/course/courses";
-import type { Illustration } from "@/lib/course/illustrations";
-import type { ExerciseId, GrammarExercise, LessonOutline } from "@/lib/course/types";
+import type { GrammarExercise, LessonOutline } from "@/lib/course/types";
 import { unlockAllLessons } from "@/lib/env";
 import type { Locale } from "@/lib/i18n";
 
@@ -128,18 +126,19 @@ export function GrammarFrame({
   );
 }
 
-/** A grammar lesson's teaching cards, one after another; a Premium unit's need Premium. */
+/**
+ * A grammar lesson's teaching cards, one after another, without their pictures (the
+ * text is what's being reviewed); a Premium unit's need Premium.
+ */
 export function GrammarCards({
   level,
   premiumUnit,
   cards,
-  pictures,
 }: {
   level: string;
   premiumUnit: boolean;
   /** The lesson's grammar cards in each native language. */
   cards: Record<Locale, GrammarExercise[]>;
-  pictures: Record<ExerciseId, Illustration>;
 }) {
   const { isPremium, locale, t } = useApp();
   if (premiumUnit && !isPremium && !unlockAllLessons) {
@@ -158,26 +157,8 @@ export function GrammarCards({
   return (
     <div className="space-y-16">
       {cards[locale].map((card) => (
-        <GrammarCard key={`${card.id}-${locale}`} card={card} picture={pictures[card.id]} />
+        <GrammarView key={`${card.id}-${locale}`} exercise={card} />
       ))}
-    </div>
-  );
-}
-
-/** A grammar card as the lesson shows it, its picture beside it on wide screens. */
-function GrammarCard({ card, picture }: { card: GrammarExercise; picture?: Illustration }) {
-  if (!picture) return <GrammarView exercise={card} />;
-  return (
-    <div className="grid items-center gap-6 xl:grid-cols-[minmax(0,34rem)_minmax(0,1fr)] xl:gap-x-12">
-      <Image
-        src={picture.src}
-        width={picture.width}
-        height={picture.height}
-        alt=""
-        unoptimized
-        className="illustration mx-auto h-auto max-h-[24dvh] w-auto max-w-full xl:order-last xl:max-h-[60dvh]"
-      />
-      <GrammarView exercise={card} />
     </div>
   );
 }

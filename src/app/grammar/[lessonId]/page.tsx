@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { GrammarCards } from "@/components/grammar/grammar-review";
 import { allLessons, findLesson, lessonVariants } from "@/lib/course";
-import { lessonIllustrations } from "@/lib/course/illustrations";
 import type { GrammarExercise } from "@/lib/course/types";
 import { locales, type Locale } from "@/lib/i18n/locales";
 
@@ -38,13 +37,7 @@ async function Grammar({ params }: { params: Promise<{ lessonId: string }> }) {
       variants[locale].exercises.filter((ex): ex is GrammarExercise => ex.type === "grammar"),
     ]),
   ) as Record<Locale, GrammarExercise[]>;
-  const pictures = lessonIllustrations(lessonId);
   return (
-    <GrammarCards
-      level={found.course.level}
-      premiumUnit={found.unit.premium}
-      cards={cards}
-      pictures={Object.fromEntries(cards.en.filter((c) => pictures[c.id]).map((c) => [c.id, pictures[c.id]]))}
-    />
+    <GrammarCards level={found.course.level} premiumUnit={found.unit.premium} cards={cards} />
   );
 }
