@@ -83,7 +83,11 @@ export function LearnFrame({
         {!course && inline("mt-10")}
       </div>
 
-      <aside className="sticky top-24 hidden h-fit w-80 shrink-0 space-y-4 lg:block">
+      {/* Stays in view; when it's taller than the screen (a long dictionary search), it
+          scrolls on its own under the cursor, then hands the scroll on to the page. Its
+          cap fits the screen from where it starts, below the course tabs, before it sticks.
+          The padding keeps the cards' focus rings clear of its edge. */}
+      <aside className="sticky top-24 -m-1 hidden h-fit max-h-[calc(100dvh-9.5rem)] w-82 shrink-0 space-y-4 overflow-y-auto p-1 [scrollbar-width:thin] lg:block">
         {reviewCard}
         {practiceCard}
         {dictionaryCard}
