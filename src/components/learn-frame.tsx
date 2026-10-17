@@ -34,7 +34,6 @@ export function LearnFrame({
   // The review page is the card at length, so it goes without the card.
   const reviewCard = ready && pathname !== "/learn/review" && <ReviewCard opensAfter={reviewOpensAfter} />;
   const dictionaryCard = ready && <Dictionary />;
-  // Writing and speaking practice are still to be decided; for now they're only named.
   // Every way back to /learn from a practice page (close, finish, back) navigates with
   // `scroll: false`, as the lesson player's exits do, so the path reopens where the
   // learner left it (useKeptScroll in course-path) instead of at the top.
@@ -45,20 +44,22 @@ export function LearnFrame({
     <div className="card overflow-hidden p-5">
       <h2 className="text-lg">{t("practice.title")}</h2>
       {/* Rows run the card's full width, so a link's whole row lights up like the review card. */}
-      <ul className="-mx-5 mt-2 text-muted">
-        <li>
-          <Link
-            href={`/grammar/${grammarAt}`}
-            className="flex items-center gap-3 px-5 py-1.5 font-semibold text-text transition-colors hover:bg-surface"
-          >
-            <span className="size-1.5 shrink-0 rounded-full bg-current" />
-            {t("practice.grammar")}
-          </Link>
-        </li>
-        {(["practice.writing", "practice.speaking"] as const).map((key) => (
-          <li key={key} className="flex items-center gap-3 px-5 py-1.5">
-            <span className="size-1.5 shrink-0 rounded-full bg-current" />
-            {t(key)}
+      <ul className="-mx-5 mt-2">
+        {(
+          [
+            ["practice.grammar", `/grammar/${grammarAt}`],
+            ["practice.writing", "/practice/writing"],
+            ["practice.speaking", "/practice/pronunciation"],
+          ] as const
+        ).map(([key, href]) => (
+          <li key={key}>
+            <Link
+              href={href}
+              className="flex items-center gap-3 px-5 py-1.5 font-semibold text-text transition-colors hover:bg-surface"
+            >
+              <span className="size-1.5 shrink-0 rounded-full bg-current" />
+              {t(key)}
+            </Link>
           </li>
         ))}
       </ul>
