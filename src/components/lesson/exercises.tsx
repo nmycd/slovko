@@ -502,13 +502,32 @@ function TypedAnswer({
   );
 }
 
-/** A word of the answer as a hint shows it: its letters invisible, on one off-white block. */
-function Shape({ word, className = "" }: { word: string; className?: string }) {
+type Tone = "right" | "near" | "wrong";
+const TONE: Record<Tone, string> = { right: "bg-ok/25", near: "bg-gold/30", wrong: "bg-bad/20" };
+
+/**
+ * A typed word against the answer's, once it has as many letters (case and punctuation
+ * aside): right, one letter off (a missing accent counts), or wrong. Null until then.
+ */
+function toneOf(typed: string, word: string): Tone | null {
+  const letters = (w: string) => [...w.normalize("NFC").toLocaleLowerCase("sk")].filter((ch) => /[\p{L}\p{N}]/u.test(ch));
+  const a = letters(typed);
+  const b = letters(word);
+  if (a.length !== b.length) return null;
+  const off = a.filter((ch, i) => ch !== b[i]).length;
+  return off === 0 ? "right" : off === 1 ? "near" : "wrong";
+}
+
+/**
+ * A word of the answer as a hint shows it: its letters invisible, on one block, off-white
+ * or, once the typed word has as many letters, shaded by `tone`.
+ */
+function Shape({ word, tone = null, className = "" }: { word: string; tone?: Tone | null; className?: string }) {
   return (
     <span className={`whitespace-pre ${className}`}>
       {(word.match(/[\p{L}\p{N}]+|[^\p{L}\p{N}]+/gu) ?? []).map((run, i) =>
         /[\p{L}\p{N}]/u.test(run) ? (
-          <span key={i} className="rounded-sm bg-surface-2">
+          <span key={i} className={`rounded-sm ${tone ? TONE[tone] : "bg-surface-2"}`}>
             {run}
           </span>
         ) : (
@@ -527,6 +546,8 @@ function Shape({ word, className = "" }: { word: string; className?: string }) {
  * here as the box lays it out, each typed word's block starting where that word does,
  * the word being typed keeping room for the whole word, and the words still to come
  * after it. So a word typed shorter or longer (a missing accent, a typo) moves nothing.
+ * A typed word with the right number of letters shades its block: green when right,
+ * yellow when one letter is off, red otherwise.
  */
 function Ghost({ target, typed, className }: { target: string; typed: string; className: string }) {
   const words = target.split(/\s+/).filter(Boolean);
@@ -543,7 +564,7 @@ function Ghost({ target, typed, className }: { target: string; typed: string; cl
       return (
         <span key={i} className="inline-grid">
           <span className="[grid-area:1/1]">{part}</span>
-          <Shape word={word} className="[grid-area:1/1]" />
+          <Shape word={word} tone={toneOf(part, word)} className="[grid-area:1/1]" />
         </span>
       );
     }
@@ -554,7 +575,7 @@ function Ghost({ target, typed, className }: { target: string; typed: string; cl
       <span key={i} className="inline-grid">
         <span className="[grid-area:1/1]">{part}</span>
         <span className="w-0 [grid-area:1/1]">
-          <Shape word={word} />
+          <Shape word={word} tone={toneOf(part, word)} />
         </span>
       </span>
     );
