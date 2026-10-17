@@ -438,6 +438,7 @@ function checkItem(item: ChecklistItem): { mark: string; note: string; flagged: 
     } else if (!lessonIds.has(place)) problems.push(`no lesson ${place}`);
     else scope.push(...markRows.filter((r) => !r.prior && r.where === place));
   }
+  if (!problems.length && !scope.length) problems.push(`nothing written in ${places.join(", ")} yet`);
   if (item.probe && scope.length)
     for (const group of item.probe.split(" ; "))
       if (!firstHit(regex(group.trim()), scope)) problems.push(`/${group.trim()}/ not found in ${places.join(", ")}`);
