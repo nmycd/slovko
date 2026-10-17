@@ -187,7 +187,9 @@ async function mergeAccountProgress(
       .select("display_name, xp, streak_count, streak_last_day, daily_goal, is_premium, native_language")
       .eq("id", userId)
       .single(),
-    supabase.from("lesson_progress").select("lesson_id, best_score, times_completed"),
+    supabase
+      .from("lesson_progress")
+      .select("lesson_id, best_score, times_completed, first_completed_at, last_completed_at"),
   ]);
   if (!remote) return null;
 
@@ -195,9 +197,11 @@ async function mergeAccountProgress(
     const completed = { ...local.completed };
     for (const r of rows ?? []) {
       const mine = completed[r.lesson_id];
+      const at = Math.max(mine?.at ?? 0, finishedAt(r));
       completed[r.lesson_id] = {
         best: Math.max(mine?.best ?? 0, r.best_score),
         count: Math.max(mine?.count ?? 0, r.times_completed),
+        ...(at > 0 && { at }),
       };
     }
     const remoteNewer = (remote.streak_last_day ?? "") >= (local.streakLastDay ?? "");
@@ -219,23 +223,42 @@ async function mergeAccountProgress(
   };
 }
 
+/**
+ * Until 2026-10-17 every sign-in sync stamped all of a learner's lessons with that
+ * moment, so `last_completed_at` from before then says nothing; `first_completed_at` is
+ * never rewritten. When a lesson was last finished, as far as the server knows (0: unknown).
+ */
+const SYNC_STAMP_FIXED = Date.parse("2026-10-17T20:15:58Z");
+function finishedAt(r: { first_completed_at: string | null; last_completed_at: string | null }): number {
+  const first = r.first_completed_at ? Date.parse(r.first_completed_at) : 0;
+  const last = r.last_completed_at ? Date.parse(r.last_completed_at) : 0;
+  return Math.max(first, last > SYNC_STAMP_FIXED ? last : 0);
+}
+
 async function pushProgress(supabase: SupabaseClient, userId: string, p: Progress, lessonIds: string[]) {
   const now = new Date().toISOString();
+  const row = (id: string) => ({
+    user_id: userId,
+    lesson_id: id,
+    best_score: p.completed[id].best,
+    times_completed: p.completed[id].count,
+  });
+  // A lesson's own finishing time, never the sync's. Lessons without one are sent apart,
+  // with no time at all: a new row takes now, an existing one keeps its own.
+  const timed = lessonIds.filter((id) => p.completed[id].at);
+  const untimed = lessonIds.filter((id) => !p.completed[id].at);
   const results = await Promise.all([
     supabase
       .from("profiles")
       .update({ xp: p.xp, streak_count: p.streak, streak_last_day: p.streakLastDay, updated_at: now })
       .eq("id", userId),
-    lessonIds.length
-      ? supabase.from("lesson_progress").upsert(
-          lessonIds.map((id) => ({
-            user_id: userId,
-            lesson_id: id,
-            best_score: p.completed[id].best,
-            times_completed: p.completed[id].count,
-            last_completed_at: now,
-          })),
-        )
+    timed.length
+      ? supabase
+          .from("lesson_progress")
+          .upsert(timed.map((id) => ({ ...row(id), last_completed_at: new Date(p.completed[id].at!).toISOString() })))
+      : Promise.resolve({ error: null }),
+    untimed.length
+      ? supabase.from("lesson_progress").upsert(untimed.map(row))
       : Promise.resolve({ error: null }),
   ]);
   for (const r of results) if (r.error) console.error("Progress sync failed:", r.error.message);

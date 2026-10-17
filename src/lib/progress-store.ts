@@ -14,7 +14,8 @@ export type Progress = {
   streakLastDay: string | null;
   dailyXp: { day: string; xp: number };
   dailyGoal: number;
-  completed: Record<string, { best: number; count: number }>;
+  /** Finished lessons: best score, times finished, and when last finished (`at`, epoch ms; missing on older records). */
+  completed: Record<string, { best: number; count: number; at?: number }>;
 };
 
 export const EMPTY_PROGRESS: Progress = {
@@ -97,7 +98,7 @@ export function withCompletedLesson(
     ...withXp(p, xp, now),
     completed: {
       ...p.completed,
-      [lessonId]: { best: Math.max(prev?.best ?? 0, score), count: (prev?.count ?? 0) + 1 },
+      [lessonId]: { best: Math.max(prev?.best ?? 0, score), count: (prev?.count ?? 0) + 1, at: now },
     },
   };
 }
