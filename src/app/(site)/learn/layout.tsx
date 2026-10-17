@@ -1,6 +1,6 @@
 import { CourseTabs } from "@/components/course-tabs";
 import { LearnFrame } from "@/components/learn-frame";
-import { courseUnits, courses } from "@/lib/course";
+import { courseUnits, courses, type CourseId } from "@/lib/course";
 
 // Word review opens once one of these sets of lessons is done (the side card is closed
 // until then): in some course, the lessons of its units before its first review stop,
@@ -17,11 +17,19 @@ const reviewOpensAfter = courses
   })
   .filter((lessons) => lessons.length > 0);
 
+// Each course's grammar lessons in order, for grammar review's link in the side column.
+const grammarLessons = Object.fromEntries(
+  courses.map((course) => [
+    course.id,
+    courseUnits[course.id].flatMap((u) => u.lessons.filter((l) => l.kind === "grammar").map((l) => l.id)),
+  ]),
+) as Record<CourseId, string[]>;
+
 export default function LearnLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <CourseTabs />
-      <LearnFrame reviewOpensAfter={reviewOpensAfter}>{children}</LearnFrame>
+      <LearnFrame reviewOpensAfter={reviewOpensAfter} grammarLessons={grammarLessons}>{children}</LearnFrame>
     </>
   );
 }

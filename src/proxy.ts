@@ -36,7 +36,7 @@ export async function proxy(request: NextRequest) {
   // Signed-in users skip the landing page.
   if (signedIn && pathname === "/") return redirectTo(new URL("/learn", request.url));
 
-  if (!signedIn && (pathname.startsWith("/lesson/") || pathname === "/review")) {
+  if (!signedIn && (pathname.startsWith("/lesson/") || pathname.startsWith("/grammar/") || pathname === "/review")) {
     const login = new URL("/login", request.url);
     login.searchParams.set("next", pathname + search);
     return redirectTo(login);

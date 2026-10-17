@@ -6,7 +6,7 @@ import { useApp } from "@/components/app-provider";
 import { Dictionary } from "@/components/dictionary";
 import { BoltIcon, CrownIcon } from "@/components/icons";
 import { ReviewCard } from "@/components/review/review-card";
-import { courseOpen, courses } from "@/lib/course/courses";
+import { courseOpen, courses, type CourseId } from "@/lib/course/courses";
 
 /**
  * The course tabs' frame on /learn: the tab beside a column with the daily goal, word
@@ -15,10 +15,13 @@ import { courseOpen, courses } from "@/lib/course/courses";
  */
 export function LearnFrame({
   reviewOpensAfter,
+  grammarLessons,
   children,
 }: {
   /** Word review opens once one of these sets of lessons is done. */
   reviewOpensAfter: string[][];
+  /** Each course's grammar lessons, in order. */
+  grammarLessons: Record<CourseId, string[]>;
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
@@ -31,15 +34,22 @@ export function LearnFrame({
   // The review page is the card at length, so it goes without the card.
   const reviewCard = ready && pathname !== "/learn/review" && <ReviewCard opensAfter={reviewOpensAfter} />;
   const dictionaryCard = ready && <Dictionary />;
-  // What each kind of practice holds is still to be decided; for now it only names them.
-  // When they get pages, every way back to /learn (close, finish, back) navigates with
+  // Writing and speaking practice are still to be decided; for now they're only named.
+  // Every way back to /learn from a practice page (close, finish, back) navigates with
   // `scroll: false`, as the lesson player's exits do, so the path reopens where the
   // learner left it (useKeptScroll in course-path) instead of at the top.
+  // Grammar review opens at the course's latest finished grammar lesson (on another tab, A1's).
+  const grammar = grammarLessons[(course ?? courses[0]).id];
+  const grammarAt = grammar.findLast((id) => progress.completed[id]) ?? grammar[0];
   const practiceCard = ready && (
     <div className="card p-5">
       <h2 className="text-lg">{t("practice.title")}</h2>
       <ul className="mt-2 list-disc space-y-1 pl-5 text-muted">
-        <li>{t("practice.grammar")}</li>
+        <li>
+          <Link href={`/grammar/${grammarAt}`} className="font-semibold text-text underline-offset-2 hover:underline">
+            {t("practice.grammar")}
+          </Link>
+        </li>
         <li>{t("practice.writing")}</li>
         <li>{t("practice.speaking")}</li>
       </ul>
