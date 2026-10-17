@@ -4,14 +4,14 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useApp } from "@/components/app-provider";
 import { Dictionary } from "@/components/dictionary";
-import { BoltIcon, CrownIcon } from "@/components/icons";
+import { CrownIcon } from "@/components/icons";
 import { ReviewCard } from "@/components/review/review-card";
 import { courseOpen, courses, type CourseId } from "@/lib/course/courses";
 
 /**
- * The course tabs' frame on /learn: the tab beside a column with the daily goal, word
- * review, extra practice and the dictionary (and Premium on a course path with Premium units, which
- * it unlocks). Resources has the page to itself.
+ * The course tabs' frame on /learn: the tab beside a column with word review, extra
+ * practice and the dictionary (and Premium on a course path with Premium units, which
+ * it unlocks). The daily goal is in the header. Resources has the page to itself.
  */
 export function LearnFrame({
   reviewOpensAfter,
@@ -25,7 +25,7 @@ export function LearnFrame({
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
-  const { ready, progress, isPremium, premiumKnown, todayXp, dev, t } = useApp();
+  const { ready, progress, isPremium, premiumKnown, dev, t } = useApp();
   if (pathname === "/learn/resources") return children;
 
   // A course's path, as this viewer sees it (not a course's "coming soon" page).
@@ -75,21 +75,6 @@ export function LearnFrame({
       </div>
 
       <aside className="sticky top-24 hidden h-fit w-80 shrink-0 space-y-4 lg:block">
-        <div className="card p-5">
-          <h2 className="text-lg">{t("path.dailyGoal")}</h2>
-          <div className="mt-3 flex items-center gap-3">
-            <BoltIcon className="text-gold" />
-            <div className="h-4 flex-1 overflow-hidden rounded-full bg-surface-2">
-              <div
-                className="h-full rounded-full bg-lichen transition-all"
-                style={{ width: `${Math.min(100, (todayXp / progress.dailyGoal) * 100)}%` }}
-              />
-            </div>
-            <span className="text-sm font-bold text-muted">
-              {t("path.xp", { done: todayXp, goal: progress.dailyGoal })}
-            </span>
-          </div>
-        </div>
         {reviewCard}
         {practiceCard}
         {dictionaryCard}
