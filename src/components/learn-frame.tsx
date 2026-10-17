@@ -32,6 +32,9 @@ export function LearnFrame({
   const reviewCard = ready && pathname !== "/learn/review" && <ReviewCard opensAfter={reviewOpensAfter} />;
   const dictionaryCard = ready && <Dictionary />;
   // What each kind of practice holds is still to be decided; for now it only names them.
+  // When they get pages, every way back to /learn (close, finish, back) navigates with
+  // `scroll: false`, as the lesson player's exits do, so the path reopens where the
+  // learner left it (useKeptScroll in course-path) instead of at the top.
   const practiceCard = ready && (
     <div className="card p-5">
       <h2 className="text-lg">{t("practice.title")}</h2>
