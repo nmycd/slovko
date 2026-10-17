@@ -43,7 +43,7 @@ export const courses: Course[] = [
     prefix: "a2-",
     freeUnits: 1,
     reviewFromUnit: 1,
-    launched: false,
+    launched: true,
     soon: { title: "courses.a2.title", body: "courses.a2.body" },
   },
 ];

@@ -140,7 +140,34 @@ push to `main`). After changing a Vercel environment variable, redeploy.
   around you, shop words that sit only in an English note, clothes, the
   neighbouring countries). The owner should first confirm or reject the 49
   skips the review proposed, in `research/comparison/kk1/decisions.tsv` (local).
-- **A2, B1 and the driving-exam course** are "coming soon" pages.
+- **B1 and the driving-exam course** are "coming soon" pages.
+- **A2 launched as-is (October 2026).** Ten units, 181 lessons, written and
+  reviewed by AI through the one-pass pipeline (CONTENT-PIPELINE.md): coverage
+  gate and review per unit, an editorial pass, and per-language terms and
+  editorial passes. No native speaker has checked its Slovak or its four
+  translations yet. What's open:
+  - **24 low coverage findings,** a drill or two each; the gate flags them as
+    `open low`. List and fixes: `research/a2-plan/review-uN.md`, decisions in
+    `research/inventory/a2/decisions.tsv` (local).
+  - **Questions for native speakers,** per language, in
+    `research/a2-plan/translation-notes-<lang>.md` and
+    `translation-terms-<lang>.md` (local). Two to settle course-wide: Georgian
+    A2 renders *mať rád* as მიყვარს and *páčiť sa* as მომწონს (A2 contrasts
+    them), while A1's settled table has მომწონს for both; Uzbek counts floors
+    the Slovak way, Uzbek speakers from the ground floor.
+  - **The A2 story is invented:** Lucia's family in Žilina, Marek and Veronika,
+    Emma's economics studies and internship (`research/a2-plan/story.md`,
+    local). The owner may want to read it.
+  - **8 word tiles play their phrase's clip** in 4 exercises (Chýba mi rodina,
+    Čaj bez cukru, Dám ti kontakt, od piatku do pondelka): the voice says each
+    pair as one word, and a second take didn't separate them.
+  - **No book crops for A2:** `illustrations/tools/cut-panels.sh` reads only
+    the A1 scan, so the A2 picture plan wasn't checked against the book's
+    pictures (`"book": null`).
+  - **The landlady** in three unit 10 pictures has no cast row in
+    `illustrations/README.md`, so her look may vary.
+  - **The pricing page** says "the first 2 units are free", A1's count; A2's
+    free unit 1 isn't mentioned.
 - **Illustrations:**
   - **Style references** are pages from Beatrice Alemagna's *On a Magical
     Do-Nothing Day*, a living illustrator. They're fine for exploring a look,
