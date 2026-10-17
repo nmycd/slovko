@@ -62,6 +62,11 @@ export const ru: Messages = {
   "path.kind.writing": "Письмо",
   "path.start": "Начать",
   "path.locked": "{title} (закрыто)",
+  "path.ahead.title": "Урок вперёд?",
+  "path.ahead.body": "Советуем проходить уроки по порядку: более поздние могут опираться на слова и грамматику, которых вы ещё не знаете. Если пройдёте этот урок сейчас, его слова также добавятся в повторение слов.",
+  "path.ahead.skip": "Больше не показывать",
+  "path.ahead.start": "Начать урок",
+  "path.ahead.cancel": "Отмена",
 
   "courses.label": "Курсы",
   "courses.a1": "Начальный",

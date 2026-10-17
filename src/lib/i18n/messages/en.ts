@@ -66,6 +66,11 @@ export const en = {
   "path.kind.writing": "Writing",
   "path.start": "Start",
   "path.locked": "{title} (locked)",
+  "path.ahead.title": "Skipping ahead?",
+  "path.ahead.body": "We suggest taking lessons in order: later ones can build on words and grammar you haven't met yet. Finishing this one now also adds its words to your word review.",
+  "path.ahead.skip": "Don't show this again",
+  "path.ahead.start": "Start lesson",
+  "path.ahead.cancel": "Cancel",
 
   // Courses (tabs on /learn)
   "courses.label": "Courses",

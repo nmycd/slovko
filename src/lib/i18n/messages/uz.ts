@@ -66,6 +66,11 @@ export const uz: Messages = {
   "path.kind.writing": "Yozish",
   "path.start": "Boshlash",
   "path.locked": "{title} (yopiq)",
+  "path.ahead.title": "Oldinga oʻtasizmi?",
+  "path.ahead.body": "Darslarni tartib bilan oʻtishni maslahat beramiz: keyingi darslar siz hali oʻrganmagan soʻz va grammatikaga tayanishi mumkin. Bu darsni hozir tugatsangiz, uning soʻzlari soʻzlarni takrorlashga ham qoʻshiladi.",
+  "path.ahead.skip": "Boshqa koʻrsatilmasin",
+  "path.ahead.start": "Darsni boshlash",
+  "path.ahead.cancel": "Bekor qilish",
 
   // Courses (tabs on /learn)
   "courses.label": "Kurslar",

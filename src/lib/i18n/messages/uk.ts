@@ -62,6 +62,11 @@ export const uk: Messages = {
   "path.kind.writing": "Письмо",
   "path.start": "Почати",
   "path.locked": "{title} (закрито)",
+  "path.ahead.title": "Урок наперед?",
+  "path.ahead.body": "Радимо проходити уроки по черзі: пізніші можуть спиратися на слова й граматику, яких ви ще не вчили. Якщо пройдете цей урок зараз, його слова також додадуться до повторення слів.",
+  "path.ahead.skip": "Більше не показувати",
+  "path.ahead.start": "Почати урок",
+  "path.ahead.cancel": "Скасувати",
 
   "courses.label": "Курси",
   "courses.a1": "Початковий",

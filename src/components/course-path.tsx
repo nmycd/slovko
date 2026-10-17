@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useLayoutEffect, useRef, useSyncExternalStore } from "react";
+import { useRouter } from "next/navigation";
+import { useEffect, useLayoutEffect, useRef, useState, useSyncExternalStore } from "react";
 import { useApp } from "@/components/app-provider";
 import {
   BookIcon,
@@ -100,6 +101,8 @@ export function CoursePath({ course: courseId, outlines }: { course: CourseId; o
   // free version first.
   const shown = ready && premiumKnown;
   useKeptScroll(shown, course);
+  // A lesson further on, picked by a Premium learner: the notice about order asks first.
+  const [ahead, setAhead] = useState<string | null>(null);
   const outline = outlines[locale];
   const signedOut = authEnabled && authKnown && !user;
   // Lessons need an account; signed-out visitors go through sign-in and come back.
@@ -181,12 +184,84 @@ export function CoursePath({ course: courseId, outlines }: { course: CourseId; o
           onToggle={(open) => setUnitFold(unit.id, open)}
           stateOf={stateOf}
           hrefFor={hrefFor}
+          onAhead={setAhead}
           review={review}
           reviewStops={course}
           t={t}
         />
       ))}
+      {ahead && <AheadNotice href={ahead} onClose={() => setAhead(null)} t={t} />}
     </div>
+  );
+}
+
+const SKIP_AHEAD_NOTICE = "slovko:skip-ahead-notice";
+
+/** The learner said not to show the notice about lesson order again (on this device). */
+function skipsAheadNotice(): boolean {
+  try {
+    return localStorage.getItem(SKIP_AHEAD_NOTICE) === "1";
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Before a lesson further on than the current one (Premium learners may play ahead):
+ * lessons build on each other, and finishing this one adds its words to word review.
+ * "Don't show this again" starts ticked.
+ */
+function AheadNotice({ href, onClose, t }: { href: string; onClose: () => void; t: Translate }) {
+  const router = useRouter();
+  const dialog = useRef<HTMLDialogElement>(null);
+  const [skip, setSkip] = useState(true);
+  useEffect(() => {
+    const el = dialog.current;
+    el?.showModal();
+    return () => el?.close();
+  }, []);
+  const start = () => {
+    if (skip) {
+      try {
+        localStorage.setItem(SKIP_AHEAD_NOTICE, "1");
+      } catch {}
+    }
+    onClose();
+    router.push(href);
+  };
+  return (
+    <dialog
+      ref={dialog}
+      onClose={onClose}
+      // A click on the backdrop (the dialog itself, outside its card) closes it.
+      onClick={(e) => e.target === dialog.current && onClose()}
+      aria-labelledby="ahead-title"
+      className="m-auto w-[min(28rem,calc(100vw-2rem))] rounded-2xl bg-transparent p-0 backdrop:bg-text/30"
+    >
+      <div className="card space-y-4 p-6">
+        <h2 id="ahead-title" className="text-xl">
+          {t("path.ahead.title")}
+        </h2>
+        <p className="text-muted">{t("path.ahead.body")}</p>
+        <label className="flex cursor-pointer items-center gap-2 text-sm">
+          <input
+            type="checkbox"
+            checked={skip}
+            onChange={(e) => setSkip(e.target.checked)}
+            className="size-4 accent-[var(--brand)]"
+          />
+          {t("path.ahead.skip")}
+        </label>
+        <div className="flex flex-col-reverse gap-2 pt-2 sm:flex-row sm:justify-end">
+          <button type="button" onClick={onClose} className="btn btn-ghost">
+            {t("path.ahead.cancel")}
+          </button>
+          <button type="button" onClick={start} className="btn" autoFocus>
+            {t("path.ahead.start")}
+          </button>
+        </div>
+      </div>
+    </dialog>
   );
 }
 
@@ -200,6 +275,7 @@ function UnitSection({
   onToggle,
   stateOf,
   hrefFor,
+  onAhead,
   review,
   reviewStops,
   t,
@@ -216,6 +292,8 @@ function UnitSection({
   onToggle: (open: boolean) => void;
   stateOf: (lessonId: string) => NodeState;
   hrefFor: (lessonId: string) => string;
+  /** A lesson further on was picked: ask about the order first. */
+  onAhead: (href: string) => void;
   /** Cards waiting for word review, and where the stop after a lesson leads. */
   review: { waiting: number; hrefAfter: (lessonId: string) => string };
   /** The unit's course, which says where its review stops start. */
@@ -333,6 +411,7 @@ function UnitSection({
                   kind={lesson.kind ?? "vocab"}
                   state={stateOf(lesson.id)}
                   color={color}
+                  onAhead={onAhead}
                   t={t}
                 />
               </li>,
@@ -413,6 +492,7 @@ function LessonNode({
   kind,
   state,
   color,
+  onAhead,
   t,
 }: {
   /** The node's zigzag offset (px): where the "Start" bubble has room. */
@@ -423,6 +503,7 @@ function LessonNode({
   kind: LessonKind;
   state: NodeState;
   color: string;
+  onAhead: (href: string) => void;
   t: Translate;
 }) {
   const label = kindLabel[kind];
@@ -469,7 +550,15 @@ function LessonNode({
       {state === "locked" ? (
         <span aria-label={t("path.locked", { title })}>{node}</span>
       ) : (
-        <Link href={href} aria-label={`${title}: ${subtitle}`}>
+        <Link
+          href={href}
+          aria-label={`${title}: ${subtitle}`}
+          onClick={(e) => {
+            if (state !== "ahead" || skipsAheadNotice()) return;
+            e.preventDefault();
+            onAhead(href);
+          }}
+        >
           {node}
         </Link>
       )}
