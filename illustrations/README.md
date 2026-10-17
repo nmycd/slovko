@@ -13,6 +13,10 @@ the brief their descriptions were written to: [HISTORY.md](HISTORY.md).
 - `book-refs/`: crops of the textbook's pictures, matched to entries. **Not in
   git** (the repo is public and the book is copyrighted). Rebuild them from the
   PDF in the project root; see "Book crops" below.
+- A2's plan is in `plan/a2/` and its crops in `book-refs/a2/` (the two books'
+  page numbers would clash). Every tool takes `--course a2` for it; its pictures
+  map is `src/lib/course/a2/illustrations.json`, and an A2 entry may reuse an A1
+  picture. Renders and web pictures share their folders, named by the ids.
 
 ## Rules
 

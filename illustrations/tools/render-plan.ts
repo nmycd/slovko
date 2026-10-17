@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any -- loose JSON from course modules */
 // Renders every planned picture and hooks them up to the app.
 // Usage: npx tsx illustrations/tools/render-plan.ts [--dry-run] [--unit N] [--concurrency 4] [--model ID] [--size 1K]
+//        [--course a2]   (A2's plan, illustrations/plan/a2/; A1's without it)
 //
 // 1. Renders each entry with a `picture` that has no file in illustrations/renders/
 //    yet (so a failed or interrupted run resumes where it stopped).
@@ -8,14 +9,17 @@
 //    960 px wide, near-white paper pushed to white so it blends into the page. The hash
 //    comes from the render, so a redrawn picture gets a new URL, and the files can be
 //    cached forever (next.config.ts marks /illustrations/* immutable).
-// 3. Writes src/lib/course/illustrations.json: "lessonId#exerciseId" → picture, with
-//    reuses resolved. Entries whose exercise text no longer matches the course are
-//    left out (the exercise changed or was removed since the plan was made).
+// 3. Writes the course's map, src/lib/course/illustrations.json (A2's:
+//    src/lib/course/a2/illustrations.json): "lessonId#exerciseId" → picture, with
+//    reuses resolved (an A2 entry may reuse an A1 picture). Entries whose exercise
+//    text no longer matches the course are left out (the exercise changed or was
+//    removed since the plan was made).
 import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readdirSync, readFileSync, renameSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { loadEnvConfig } from "@next/env";
+import { courseArg, courseFiles, earlierCourses, loadUnitFile, unitNumbers, type CourseFiles } from "../../scripts/course-files";
 import { buildParts, dir, RenderError, renderImage } from "./gemini";
 
 loadEnvConfig(process.cwd());
@@ -29,8 +33,9 @@ type Entry = { lesson: string; exercise: string; type: string; text: string; pic
 const keyOf = (e: { lesson: string; exercise: string }) => `${e.lesson}#${e.exercise}`;
 const fileOf = (key: string) => key.replace("#", "-");
 
+const { files, rest: args } = courseArg();
+
 function parseArgs() {
-  const args = process.argv.slice(2);
   const opt = { dryRun: false, unit: 0, concurrency: 4, model: "gemini-nano-banana-2.1", size: "1K" };
   for (let i = 0; i < args.length; i++) {
     if (args[i] === "--dry-run") opt.dryRun = true;
@@ -42,10 +47,10 @@ function parseArgs() {
   return opt;
 }
 
-function loadPlan(): Entry[] {
+function loadPlan(of: CourseFiles): Entry[] {
   const entries: Entry[] = [];
   for (let n = 1; n <= 10; n++) {
-    const path = join(dir, `plan/unit${n}.json`);
+    const path = join(of.plan, `unit${n}.json`);
     if (existsSync(path)) entries.push(...JSON.parse(readFileSync(path, "utf8")).items);
   }
   return entries;
@@ -62,8 +67,8 @@ function textOf(ex: any): string {
 
 async function courseTexts(): Promise<Map<string, string>> {
   const texts = new Map<string, string>();
-  for (let n = 1; n <= 10; n++) {
-    const unit = (await import(join(root, `src/lib/course/units/unit${n}.ts`)))[`unit${n}`];
+  for (const n of unitNumbers(files)) {
+    const unit: any = await loadUnitFile(files, n);
     for (const lesson of unit.lessons) {
       for (const ex of lesson.exercises) texts.set(`${lesson.id}#${ex.id}`, textOf(ex));
     }
@@ -115,9 +120,11 @@ function toWeb(key: string): { src: string; width: number; height: number } | un
 
 async function main() {
   const opt = parseArgs();
-  const plan = loadPlan();
-  const byKey = new Map(plan.map((e) => [keyOf(e), e]));
-  const wanted = plan.filter((e) => e.picture && (!opt.unit || e.lesson.startsWith(`u${opt.unit}-`)));
+  const plan = loadPlan(files);
+  // Reuses may point into an earlier course's plan.
+  const earlier = earlierCourses(files.course.id).flatMap((c) => loadPlan(courseFiles(c.id)));
+  const byKey = new Map([...earlier, ...plan].map((e) => [keyOf(e), e]));
+  const wanted = plan.filter((e) => e.picture && (!opt.unit || e.lesson.startsWith(`${files.unitId(opt.unit)}-`)));
   const todo = wanted.filter((e) => !renderedFile(keyOf(e)));
   console.log(`${wanted.length} pictures planned, ${todo.length} to render (${opt.model}, ${opt.size})`);
   if (opt.dryRun) return;
@@ -152,7 +159,7 @@ async function main() {
     const web = toWeb(keyOf(source));
     if (web) map[key] = web;
   }
-  writeFileSync(join(root, "src/lib/course/illustrations.json"), JSON.stringify(map, null, 2) + "\n");
+  writeFileSync(files.illustrations, JSON.stringify(map, null, 2) + "\n");
   console.log(`hooked up ${Object.keys(map).length} of ${plan.length} plan entries`);
   if (stale.length) console.log(`left out, exercise text changed: ${stale.join(", ")}`);
 }

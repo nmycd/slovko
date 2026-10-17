@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useMemo } from "react";
 import { useApp } from "@/components/app-provider";
 import { SearchIcon } from "@/components/icons";
+import { courseById, courseOpen, courses } from "@/lib/course/courses";
 import { dictionarySearch, type DictionaryEntry } from "@/lib/dictionary";
 import {
   loadDictionary,
@@ -19,10 +20,14 @@ import {
  * (see dictionary-store); the entries load when the box is first used.
  */
 export function Dictionary({ className = "" }: { className?: string }) {
-  const { locale, authEnabled, authKnown, user, t } = useApp();
+  const { locale, authEnabled, authKnown, user, dev, t } = useApp();
   const router = useRouter();
   const query = useDictionaryQuery();
-  const entries = useDictionaryEntries();
+  const all = useDictionaryEntries();
+  // Every course's entries; the box searches those the learner can see, and names the
+  // course of each result once there's more than one.
+  const entries = useMemo(() => all?.filter((entry) => courseOpen(courseById(entry.course), dev)) ?? null, [all, dev]);
+  const manyCourses = courses.filter((c) => courseOpen(c, dev)).length > 1;
   const search = useMemo(() => entries && dictionarySearch(entries, locale), [entries, locale]);
   const results = useMemo(() => search?.(query) ?? [], [search, query]);
   // A search remembered from earlier needs the entries straight away.
@@ -76,6 +81,7 @@ export function Dictionary({ className = "" }: { className?: string }) {
                     {entry.kind === "grammar" ? t("dictionary.grammar") : entry.meaning[locale]}
                   </span>
                   <span className="block text-xs text-muted">
+                    {manyCourses && `${courseById(entry.course).level} · `}
                     {t("lesson.place", { unit: entry.unit, lesson: entry.lesson })}
                   </span>
                 </Link>

@@ -4,14 +4,15 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef } from "react";
 import { useApp } from "@/components/app-provider";
+import { courses } from "@/lib/course/courses";
 import type { MessageKey } from "@/lib/i18n";
 
 /** `level`: a CEFR code shown before the label (the label is then its standard name). */
 type Tab = { href: string; label: MessageKey; level?: string; soon?: boolean };
 
 const tabs: Tab[] = [
-  { href: "/learn", level: "A1", label: "courses.a1" },
-  { href: "/learn/a2", level: "A2", label: "courses.a2", soon: true },
+  // The courses (./courses): "soon" until launched, though dev mode already plays them.
+  ...courses.map((c) => ({ href: c.path, level: c.level, label: `courses.${c.id}` as const, soon: !c.launched })),
   { href: "/learn/b1", level: "B1", label: "courses.b1", soon: true },
   { href: "/learn/driving", label: "courses.driving", soon: true },
   { href: "/learn/resources", label: "courses.resources" },

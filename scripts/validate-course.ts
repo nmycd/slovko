@@ -1,8 +1,9 @@
 // Checks course content for structural mistakes the type checker can't see.
 //
-//   npm run validate:course            # whole course
+//   npm run validate:course            # the whole A1 course
 //   npm run validate:course -- u3      # one unit (loads only that unit's file)
-//   npm run validate:course -- --no-i18n   # skip the uk/ru translation checks
+//   npm run validate:course -- --no-i18n   # skip the translation checks
+//   npm run validate:course -- --course a2       # the A2 course (a2-u3 or u3 for one unit)
 //
 // Exits with code 1 when there are errors. Warnings are style hints.
 
@@ -10,7 +11,6 @@ import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { normalize, toTiles } from "../src/lib/answers";
 import { fillSentence, speakableTexts } from "../src/lib/course/helpers";
-import pictures from "../src/lib/course/illustrations.json";
 import { lexicon } from "../src/lib/course/lexicon";
 import { capitalisedWords, properNames } from "../src/lib/course/names";
 import { addSpelling, needsSpelling, sentenceWords, spellingPlan } from "../src/lib/course/spelling";
@@ -23,8 +23,11 @@ import {
 } from "../src/lib/course/translatable";
 import type { Exercise, Lesson, Unit } from "../src/lib/course/types";
 import { isReviewable, reviewItemId } from "../src/lib/review/items";
+import { courses } from "../src/lib/course/courses";
+import { courseArg, earlierCourses, loadUnitFile, unitNumber, type CourseFiles } from "./course-files";
 
-const args = process.argv.slice(2);
+const { files, rest: args } = courseArg();
+const { course } = files;
 const onlyUnit = args.find((a) => !a.startsWith("--"));
 const checkI18n = !args.includes("--no-i18n");
 const TRANSLATED_LOCALES = ["uk", "ru", "uz", "ka"] as const;
@@ -478,12 +481,7 @@ function checkLocalizedExercise(where: string, ex: Exercise) {
 
 function checkTranslations(unit: Unit) {
   for (const locale of TRANSLATED_LOCALES) {
-    const file = join(
-      __dirname,
-      "../src/lib/course/translations",
-      locale,
-      `unit${unit.number}.json`,
-    );
+    const file = join(files.translations, locale, `unit${unit.number}.json`);
     const label = `${locale}/${unit.id}`;
     if (!existsSync(file)) {
       errors.push(`${label}: catalog missing (run npm run i18n:sync)`);
@@ -527,15 +525,24 @@ function checkTranslations(unit: Unit) {
   }
 }
 
-async function loadUnits(): Promise<Unit[]> {
-  if (!onlyUnit) return (await import("../src/lib/course")).course;
+/** The course's units, and every course's (only when checking the whole course). */
+async function loadUnits(): Promise<{ units: Unit[]; all?: (id: CourseFiles["course"]["id"]) => Unit[] }> {
+  if (!onlyUnit) {
+    const { courseUnits } = await import("../src/lib/course");
+    return { units: courseUnits[course.id], all: (id) => courseUnits[id] };
+  }
   // One unit only: import just its file, so other half-written units can't break the run.
-  const n = onlyUnit.replace(/^u/, "");
-  const mod = (await import(`../src/lib/course/units/unit${n}`)) as Record<
-    string,
-    Unit
-  >;
-  return [mod[`unit${n}`]];
+  const n = unitNumber(files, onlyUnit);
+  if (Number.isNaN(n)) {
+    console.error(`No unit "${onlyUnit}": name one like ${files.unitId(3)}.`);
+    process.exit(2);
+  }
+  return { units: [await loadUnitFile(files, n)] };
+}
+
+/** A JSON map of the course's (spelling plan, pictures), or an empty one if it has none yet. */
+function readMap<T>(file: string): Record<string, T> {
+  return existsSync(file) ? JSON.parse(readFileSync(file, "utf8")) : {};
 }
 
 function summarize(unit: Unit) {
@@ -555,17 +562,21 @@ function summarize(unit: Unit) {
 }
 
 /**
- * The spelling plan (src/lib/course/spelling.json) is current: every word a typed
- * sentence needs was spelled on its own before, and every card sits in its lesson.
+ * The course's spelling plan (spelling.json) is current: every word a typed sentence
+ * needs was spelled on its own before (here or in an earlier course), and every card
+ * sits in its lesson. A card's gloss may be an earlier course's intro card.
  */
-function checkSpelling(units: Unit[]) {
-  const rerun = "run npm run plan:spelling";
+function checkSpelling(units: Unit[], earlier: Unit[]) {
+  const rerun = `run npm run plan:spelling${course.id === "a1" ? "" : ` -- --course ${course.id}`}`;
+  const plan = readMap<unknown>(files.spelling);
   const lessons = units.flatMap((u) => u.lessons);
-  const byId = new Map(lessons.map((l) => [l.id, l]));
-  for (const id of Object.keys(spellingPlan)) {
-    check("spelling.json", byId.has(id), `unknown lesson ${id}: ${rerun}`);
+  const byId = new Map([...earlier, ...units].flatMap((u) => u.lessons).map((l) => [l.id, l]));
+  for (const id of Object.keys(plan)) {
+    check("spelling.json", lessons.some((l) => l.id === id), `unknown lesson ${id}: ${rerun}`);
   }
-  const spelled = new Set<string>();
+  const spelled = new Set<string>(
+    earlier.flatMap((u) => u.lessons).flatMap((l) => spellingPlan[l.id] ?? []).map((c) => c.sk.toLowerCase()),
+  );
   const needed = new Set<string>();
   for (const lesson of lessons) {
     for (const card of spellingPlan[lesson.id] ?? []) {
@@ -593,8 +604,8 @@ function checkSpelling(units: Unit[]) {
       }
     });
   }
-  const unused = Object.values(spellingPlan)
-    .flat()
+  const unused = lessons
+    .flatMap((l) => spellingPlan[l.id] ?? [])
     .filter((c) => !needed.has(c.sk.toLowerCase()));
   hint("spelling.json", !unused.length, `cards no typed sentence needs: ${unused.map((c) => c.sk).join(", ")} (${rerun})`);
 }
@@ -606,7 +617,7 @@ function checkSpelling(units: Unit[]) {
  * wrong options by them. The tags should agree with how the card is written: a
  * sentence or question ends in punctuation, a bare word doesn't, a verb is glossed "to …".
  */
-function checkLexicon(units: Unit[]) {
+function checkLexicon(units: Unit[], everyCourse?: Unit[]) {
   const items = new Set<string>();
   for (const lesson of units.flatMap((u) => u.lessons)) {
     lesson.exercises.forEach((ex) => {
@@ -623,17 +634,24 @@ function checkLexicon(units: Unit[]) {
       hint(where, (tags.pos === "verb") === /^to /i.test(ex.en), `"${ex.sk}": a verb is glossed "to …" and only a verb is`);
     });
   }
-  if (!onlyUnit) {
-    for (const id of Object.keys(lexicon)) hint("lexicon.ts", items.has(id), `tags for "${id}", which no intro card teaches`);
+  // The tags are every course's: one entry per word, wherever it's taught.
+  if (everyCourse) {
+    const taught = new Set(
+      everyCourse
+        .flatMap((u) => u.lessons)
+        .flatMap((l) => l.exercises)
+        .flatMap((ex) => (ex.type === "intro" && isReviewable(ex.sk) ? [reviewItemId(ex.sk)] : [])),
+    );
+    for (const id of Object.keys(lexicon)) hint("lexicon.ts", taught.has(id), `tags for "${id}", which no intro card teaches`);
   }
 }
 
 // ---- Explanations' grammar cards (ref) ------------------------------------
 
-/** A `ref` points to a grammar card taught at or before its exercise. */
-function checkRefs(units: Unit[]) {
-  const order = units.flatMap((u) => u.lessons.map((l) => l.id));
-  const lessons = new Map(units.flatMap((u) => u.lessons).map((l) => [l.id, l]));
+/** A `ref` points to a grammar card taught at or before its exercise; an earlier course's are all before. */
+function checkRefs(units: Unit[], earlier: Unit[]) {
+  const order = [...earlier, ...units].flatMap((u) => u.lessons.map((l) => l.id));
+  const lessons = new Map([...earlier, ...units].flatMap((u) => u.lessons).map((l) => [l.id, l]));
   for (const lesson of units.flatMap((u) => u.lessons)) {
     lesson.exercises.forEach((ex, i) => {
       if ((ex.type !== "choice" && ex.type !== "fill") || !ex.ref) return;
@@ -654,7 +672,7 @@ function checkRefs(units: Unit[]) {
 /** Every picture belongs to an exercise ("lessonId#exerciseId"), so none is lost when exercises change. */
 function checkPictures(units: Unit[]) {
   const lessons = new Map(units.flatMap((u) => u.lessons).map((l) => [l.id, l]));
-  for (const key of Object.keys(pictures)) {
+  for (const key of Object.keys(readMap(files.illustrations))) {
     if (!units.some((u) => key.startsWith(`${u.id}-`))) continue; // a unit not being checked
     check(
       `illustrations.json ${key}`,
@@ -666,13 +684,18 @@ function checkPictures(units: Unit[]) {
 
 async function main() {
   const seenIds = new Set<string>();
-  const units = await loadUnits();
+  const { units, all } = await loadUnits();
+  // Earlier courses come before all of this one (refs and spelling may lean on them).
+  const earlier = all ? earlierCourses(course.id).flatMap((c) => all(c.id)) : [];
+  if (course.id !== "a1") console.log(`${course.level}: ${units.length} unit(s)`);
   for (const unit of units) {
-    check(unit.id, unit.id === `u${unit.number}`, "unit id must be u<number>");
+    check(unit.id, unit.id === files.unitId(unit.number), `unit id must be ${files.unitId(unit.number)}`);
     check(
       unit.id,
-      unit.premium === unit.number > 2,
-      "units 1–2 are free, 3–10 premium",
+      unit.premium === unit.number > course.freeUnits,
+      course.freeUnits
+        ? `units 1–${course.freeUnits} are free, the rest premium`
+        : `every ${course.level} unit is premium`,
     );
     slovak(unit.id, unit.title);
     unit.lessons.forEach((lesson, i) => {
@@ -684,9 +707,9 @@ async function main() {
     summarize(unit);
   }
 
-  if (!onlyUnit) checkSpelling(units);
-  checkLexicon(units);
-  if (!onlyUnit) checkRefs(units);
+  if (!onlyUnit) checkSpelling(units, earlier);
+  checkLexicon(units, all && courses.flatMap((c) => all(c.id)));
+  if (!onlyUnit) checkRefs(units, earlier);
   checkPictures(units);
 
   if (warnings.length) {

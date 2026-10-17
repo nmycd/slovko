@@ -6,6 +6,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { Fragment, useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { useApp } from "@/components/app-provider";
+import { CourseComingSoon } from "@/components/course-coming-soon";
 import { BoltIcon, CheckIcon, CloseIcon, CrownIcon, StarIcon } from "@/components/icons";
 import {
   BuildView,
@@ -26,6 +27,7 @@ import { RichText } from "@/components/lesson/rich-text";
 import { VolumeSlider } from "@/components/lesson/volume-slider";
 import { checkBuiltAnswer, checkMemorized, checkSpelled, checkTyped, shuffle, toTiles } from "@/lib/answers";
 import { playSlovak, preloadLesson, stopSlovak, type Clip } from "@/lib/audio";
+import { courseById, courseOpen, type CourseId } from "@/lib/course/courses";
 import { fillSentence, LESSON_TILE_STYLE, speakableTexts, tileWords } from "@/lib/course/helpers";
 import type { Illustration } from "@/lib/course/illustrations";
 import { properNames } from "@/lib/course/names";
@@ -154,6 +156,8 @@ function hasAnswer(answer: Answer): boolean {
 }
 
 type PlayerProps = {
+  /** The lesson's course: its path is where the lesson returns to. */
+  course: CourseId;
   /** The lesson in each native language (same exercises, translated). */
   lessons: Record<Locale, Lesson>;
   /** The lesson's unit needs Premium. */
@@ -175,7 +179,7 @@ export function LessonPlayer(props: PlayerProps) {
   const lessonId = props.lessons.en.id;
   const router = useRouter();
   const search = useSearchParams();
-  const { ready, authEnabled, authKnown, user, profile } = useApp();
+  const { ready, authEnabled, authKnown, user, profile, dev } = useApp();
   const signedOut = authEnabled && authKnown && !user;
 
   // The proxy already redirects signed-out visitors; this covers client-side navigation.
@@ -190,6 +194,15 @@ export function LessonPlayer(props: PlayerProps) {
   // mount) and for the profile, which decides whether premium units are open.
   const profileLoading = user !== null && profile === null;
   if (!ready || !authKnown || signedOut || profileLoading) return <div className="min-h-dvh" />;
+  // A course not launched yet is for dev mode only (see `Course.launched`).
+  const course = courseById(props.course);
+  if (!courseOpen(course, dev)) {
+    return (
+      <div className="min-h-dvh px-4 py-16">
+        {course.soon && <CourseComingSoon title={course.soon.title} body={course.soon.body} />}
+      </div>
+    );
+  }
   // Next keeps recently visited pages alive and shows them as they were left. A lesson
   // should instead start afresh on every visit (a link, not Back): keyed by the visit
   // (bfcacheId) and by the card a dictionary result asks for.
@@ -222,6 +235,7 @@ function lookUpCard(exercises: Exercise[], param: string | null): number | null 
 }
 
 function Player({
+  course: courseId,
   lessons,
   premiumUnit,
   nextId,
@@ -233,6 +247,7 @@ function Player({
 }: PlayerProps & { card: string | null; step: string | null }) {
   const router = useRouter();
   const { isPremium, dev, completeLesson, t, locale, progress } = useApp();
+  const course = courseById(courseId);
   // Writing practice: the memorize rounds' words are dealt afresh each time the lesson
   // starts (the same pool in every language, so a language switch keeps the deal).
   const [deal] = useState(() => shuffle((lessons.en.wordPool ?? []).map((_, i) => i)));
@@ -311,13 +326,13 @@ function Player({
     setPhase("done");
   }
 
-  if (phase === "paywall") return <PaywallScreen />;
+  if (phase === "paywall") return <PaywallScreen path={course.path} level={course.level} />;
   if (phase === "done" && summary) {
     return (
       <DoneScreen
         {...summary}
         nextId={nextId}
-        onContinue={() => router.push("/learn", { scroll: false })}
+        onContinue={() => router.push(course.path, { scroll: false })}
       />
     );
   }
@@ -348,7 +363,7 @@ function Player({
       <header className={`mx-auto w-full pt-3 sm:pt-5 ${frame}`}>
         <div className="flex items-center gap-3">
           <Link
-            href="/learn"
+            href={course.path}
             scroll={false}
             aria-label={t("lesson.quit")}
             className="shrink-0 text-muted hover:text-text"
@@ -367,7 +382,7 @@ function Player({
             <p className="hidden truncate font-serif text-lg leading-tight sm:block">{lesson.title}</p>
           </div>
           <div className="shrink-0 text-right">
-            <p className="text-xs font-semibold text-muted">{t("lesson.course")}</p>
+            <p className="text-xs font-semibold text-muted">{t("lesson.course", { level: course.level })}</p>
             <p className="text-sm leading-tight font-semibold text-brand sm:text-lg">
               {t("lesson.coursePct", { pct: coursePct })}
             </p>
@@ -402,7 +417,7 @@ function Player({
           onNext={() => {
             // Back to the dictionary with an empty search box.
             setDictionaryQuery("");
-            router.push("/learn", { scroll: false });
+            router.push(course.path, { scroll: false });
           }}
         />
       ) : (
@@ -790,6 +805,8 @@ function RuleSheet({ rule, onClose }: { rule: RuleCard; onClose: () => void }) {
             </button>
             <div className="min-w-0 flex-1">
               <p className="text-xs font-semibold text-muted">
+                {/* A card from an earlier course (A1, for an A2 lesson) says so. */}
+                {rule.level && `${rule.level} · `}
                 {t("lesson.place", { unit: rule.unit, lesson: rule.lesson })}
               </p>
               <p className="truncate font-serif text-lg leading-tight">{rule.title}</p>
@@ -974,20 +991,21 @@ export function Stat({
   );
 }
 
-function PaywallScreen() {
+/** `path`: the course's path, to go back to; `level`: the course, which Premium unlocks. */
+function PaywallScreen({ path, level }: { path: string; level: string }) {
   const { t } = useApp();
   return (
     <Screen>
       <CrownIcon size={96} className="text-gold" />
       <div>
         <h1 className="text-3xl">{t("lesson.paywall.title")}</h1>
-        <p className="mt-2 text-muted">{t("lesson.paywall.body")}</p>
+        <p className="mt-2 text-muted">{t("lesson.paywall.body", { level })}</p>
       </div>
       <div className="flex w-full flex-col gap-3">
         <Link href="/pricing" className="btn btn-gold w-full">
           {t("lesson.paywall.button")}
         </Link>
-        <Link href="/learn" scroll={false} className="btn btn-ghost w-full">
+        <Link href={path} scroll={false} className="btn btn-ghost w-full">
           {t("lesson.backToPath")}
         </Link>
       </div>

@@ -3,17 +3,18 @@
 // at exercises by id (see src/lib/course/AUTHORING.md, "Exercise ids").
 //
 //   npm run course:ids
+//   npm run course:ids -- --course a2   # A2's unit files (A1's without it)
 //
 // An id is made from the exercise: an intro card's Slovak ("dobry-den"), otherwise
 // its type and a few words of its Slovak, or a grammar card's title
 // ("choice-dovidenia", "grammar-adjective-three-endings"); "-2" if that's taken.
 
 import { readFileSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
 import { fillSentence, stripMarkup } from "../src/lib/course/helpers";
-import type { Exercise, Unit } from "../src/lib/course/types";
+import type { Exercise } from "../src/lib/course/types";
+import { courseArg, loadUnitFile, unitNumbers } from "./course-files";
 
-const UNITS = join(__dirname, "../src/lib/course/units");
+const { files } = courseArg();
 const TYPES = "intro|choice|build|listen|spell|match|speak|fill|grammar";
 // The start of an exercise in a unit file: the only objects there with a `type`.
 const START = new RegExp(`\\{(\\s*)(?:id: "([^"]*)",\\s*)?type: "(${TYPES})"`, "g");
@@ -57,10 +58,10 @@ function idFor(ex: Exercise): string {
 
 async function main() {
   let added = 0;
-  for (let n = 1; n <= 10; n++) {
-    const file = join(UNITS, `unit${n}.ts`);
+  for (const n of unitNumbers(files)) {
+    const file = files.unitFile(n);
     const source = readFileSync(file, "utf8");
-    const unit = ((await import(file)) as Record<string, Unit>)[`unit${n}`];
+    const unit = await loadUnitFile(files, n);
     const exercises = unit.lessons.flatMap((lesson) => lesson.exercises.map((ex) => ({ lesson, ex })));
     const starts = [...source.matchAll(START)];
     // The file's exercise starts must line up with the unit's exercises, or an id would land on the wrong one.

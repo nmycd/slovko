@@ -14,10 +14,11 @@ import {
   RewindIcon,
   StarIcon,
 } from "@/components/icons";
+import { courseById, type Course, type CourseId } from "@/lib/course/courses";
 import type { LessonKind, UnitOutline } from "@/lib/course/types";
 import { unlockAllLessons } from "@/lib/env";
 import { clockStore } from "@/lib/progress-store";
-import { reviewCounts, reviewFromUnit } from "@/lib/review/session";
+import { reviewCounts } from "@/lib/review/session";
 import { useReviewCards } from "@/lib/review/store";
 import { setUnitFold, useUnitFolds } from "@/lib/unit-folds";
 import type { Locale, MessageKey, Translate } from "@/lib/i18n";
@@ -32,7 +33,8 @@ const zigzag = [0, 44, 66, 44, 0, -44, -66, -44];
 /** "open": playable but not next in line (only with the unlock-all testing switch). */
 type NodeState = "done" | "current" | "open" | "locked";
 
-const SCROLL_KEY = "slovko:learn-scroll";
+/** Where a course's path keeps its scroll position (A1's key is from before there were more). */
+const scrollKey = (course: Course) => (course.id === "a1" ? "slovko:learn-scroll" : `slovko:learn-scroll:${course.id}`);
 
 /**
  * The path keeps its place in the tab: back from a lesson, a review or a word looked
@@ -40,33 +42,34 @@ const SCROLL_KEY = "slovko:learn-scroll";
  * with `scroll: false`). The position is saved as they scroll and put back before the
  * page paints, once the cards above the path are in.
  */
-function useKeptScroll(ready: boolean) {
+function useKeptScroll(ready: boolean, course: Course) {
   useLayoutEffect(() => {
     if (!ready) return;
     try {
-      const saved = Number(sessionStorage.getItem(SCROLL_KEY));
+      const saved = Number(sessionStorage.getItem(scrollKey(course)));
       if (saved > 0) window.scrollTo({ top: saved, behavior: "instant" });
     } catch {}
     // At most once a frame (scroll events come no faster), and cheap: a short string in
     // the tab's own storage. Not the next page's scroll once the address has moved on.
     const save = () => {
-      if (window.location.pathname !== "/learn") return;
+      if (window.location.pathname !== course.path) return;
       try {
-        sessionStorage.setItem(SCROLL_KEY, String(Math.round(window.scrollY)));
+        sessionStorage.setItem(scrollKey(course), String(Math.round(window.scrollY)));
       } catch {}
     };
     window.addEventListener("scroll", save, { passive: true });
     return () => window.removeEventListener("scroll", save);
-  }, [ready]);
+  }, [ready, course]);
 }
 
-/** `outlines` holds the path in each native language (titleEn = the translated title). */
-export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[]> }) {
+/** A course's path. `outlines` holds it in each native language (titleEn = the translated title). */
+export function CoursePath({ course: courseId, outlines }: { course: CourseId; outlines: Record<Locale, UnitOutline[]> }) {
   const { ready, progress, isPremium, premiumKnown, authEnabled, authKnown, user, locale, t } = useApp();
+  const course = courseById(courseId);
   // Which units are open depends on Premium: show the path once that's settled, not a
   // free version first.
   const shown = ready && premiumKnown;
-  useKeptScroll(shown);
+  useKeptScroll(shown, course);
   const outline = outlines[locale];
   const signedOut = authEnabled && authKnown && !user;
   // Lessons need an account; signed-out visitors go through sign-in and come back.
@@ -78,7 +81,7 @@ export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[
   const counts = reviewCounts(reviewCards, now);
   // A stop starts a session, except the course's first, which opens the review page so
   // a newcomer learns what word review is before starting one.
-  const firstStop = outline.flatMap((u) => u.lessons.filter((_, i) => hasReviewStop(u, i)))[0]?.id;
+  const firstStop = outline.flatMap((u) => u.lessons.filter((_, i) => hasReviewStop(course, u, i)))[0]?.id;
   const review = {
     waiting: counts.due + counts.fresh,
     hrefAfter: (lessonId: string) => {
@@ -148,6 +151,7 @@ export function CoursePath({ outlines }: { outlines: Record<Locale, UnitOutline[
           stateOf={stateOf}
           hrefFor={hrefFor}
           review={review}
+          reviewStops={course}
           t={t}
         />
       ))}
@@ -166,6 +170,7 @@ function UnitSection({
   stateOf,
   hrefFor,
   review,
+  reviewStops,
   t,
 }: {
   unit: UnitOutline;
@@ -182,6 +187,8 @@ function UnitSection({
   hrefFor: (lessonId: string) => string;
   /** Cards waiting for word review, and where the stop after a lesson leads. */
   review: { waiting: number; hrefAfter: (lessonId: string) => string };
+  /** The unit's course, which says where its review stops start. */
+  reviewStops: Course;
   t: Translate;
 }) {
   const folded = !open;
@@ -295,7 +302,7 @@ function UnitSection({
                   t={t}
                 />
               </li>,
-              hasReviewStop(unit, i) && (
+              hasReviewStop(reviewStops, unit, i) && (
                 <li
                   key={`${lesson.id}-review`}
                   style={{
@@ -329,11 +336,11 @@ const kindLabel: Record<LessonKind, MessageKey | null> = {
 /**
  * Whether a word review stop follows a unit's lesson `i`: after every third lesson,
  * unless the unit's own review lesson is next anyway. Optional: a stop never locks what
- * follows. None before `reviewFromUnit`: unit 1's words are all minutes old, with
- * nothing to forget yet.
+ * follows. None before the course's `reviewFromUnit`: A1's unit 1 words are all minutes
+ * old, with nothing to forget yet.
  */
-function hasReviewStop(unit: UnitOutline, i: number): boolean {
-  return unit.number >= reviewFromUnit && i % 3 === 2 && i < unit.lessons.length - 2;
+function hasReviewStop(course: Course, unit: UnitOutline, i: number): boolean {
+  return unit.number >= course.reviewFromUnit && i % 3 === 2 && i < unit.lessons.length - 2;
 }
 
 /** A word review stop on the path: the cards waiting, or a tick when there are none. */

@@ -13,6 +13,7 @@ import { Screen, Stat, Step } from "@/components/lesson/lesson-player";
 import { VolumeSlider } from "@/components/lesson/volume-slider";
 import { formatWhen } from "@/components/review/when";
 import { playSlovak, preloadLesson } from "@/lib/audio";
+import { courseOf, courseOpen } from "@/lib/course/courses";
 import type { Exercise } from "@/lib/course/types";
 import type { Locale, Translate } from "@/lib/i18n";
 import type { ReviewItem } from "@/lib/review/items";
@@ -24,8 +25,14 @@ const XP = 10;
 
 export function ReviewPlayer() {
   const router = useRouter();
-  const { ready, authEnabled, authKnown, user } = useApp();
-  const deck = useReviewDeck();
+  const { ready, authEnabled, authKnown, user, dev } = useApp();
+  const all = useReviewDeck();
+  // The deck is every course's; a session draws on the courses the learner can see (its
+  // wrong options too).
+  const deck = useMemo(
+    () => all?.filter((item) => item.lessons.some((id) => courseOpen(courseOf(id), dev))) ?? null,
+    [all, dev],
+  );
   const signedOut = authEnabled && authKnown && !user;
 
   useEffect(() => loadReviewDeck(), []);

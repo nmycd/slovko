@@ -1,11 +1,13 @@
 // Spelling cards. Before a word turns up in a typed sentence ("Type what you hear"),
 // the learner has typed it once on its own, on a "spell" card a few cards after the
-// word first appears. scripts/plan-spelling.ts places the cards in spelling.json;
-// lessons get them as the course loads, after translation.
+// word first appears. scripts/plan-spelling.ts places the cards, in one file per course
+// (A1's spelling.json, A2's a2/spelling.json); lessons get them as the course loads,
+// after translation.
 import { stripDiacritics } from "../answers";
 import { littleWords } from "./little-words";
 import { capitalisedWords, properNames } from "./names";
-import plan from "./spelling.json";
+import a2Plan from "./a2/spelling.json";
+import a1Plan from "./spelling.json";
 import type { ExerciseId, Lesson, SpellExercise } from "./types";
 
 /**
@@ -15,7 +17,8 @@ import type { ExerciseId, Lesson, SpellExercise } from "./types";
  */
 export type SpellCard = { after?: ExerciseId; sk: string; gloss?: string };
 
-export const spellingPlan: Record<string, SpellCard[]> = plan;
+/** Every course's cards by lesson id (ids are unique across courses). */
+export const spellingPlan: Record<string, SpellCard[]> = { ...a1Plan, ...(a2Plan as Record<string, SpellCard[]>) };
 
 /** A sentence's words as the spelling rule sees them: lowercase, outer punctuation off, hyphenated words whole. */
 export function sentenceWords(text: string): string[] {

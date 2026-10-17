@@ -2,6 +2,7 @@
 // card, searchable in Slovak and in the learner's language. Client-safe; the
 // entries come from the server (see `dictionary` in ./course).
 import { slips } from "@/lib/answers";
+import type { CourseId } from "@/lib/course/courses";
 import { littleWords } from "@/lib/course/little-words";
 import type { ExerciseId } from "@/lib/course/types";
 import type { Locale } from "@/lib/i18n";
@@ -19,6 +20,8 @@ export type DictionaryEntry = {
   table?: string;
   /** The meaning in each native language; for a grammar card, its title. */
   meaning: Record<Locale, string>;
+  /** The course that teaches it (see `courseOpen` for who sees it). */
+  course: CourseId;
   lessonId: string;
   card: ExerciseId;
   unit: number;

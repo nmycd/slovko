@@ -1,10 +1,11 @@
 /* eslint-disable @typescript-eslint/no-explicit-any -- loose JSON from course modules and the Gemini API */
 // Prints a unit's exercises with their ids (what map-uN.json keys point at).
-// Usage: npx tsx illustrations/tools/list-exercises.ts . <unit number>
-import { resolve } from "node:path";
+// Usage: npx tsx illustrations/tools/list-exercises.ts . <unit number> [--course a2]
+import { courseArg, loadUnitFile } from "../../scripts/course-files";
 async function main() {
-  const [root, n] = process.argv.slice(2);
-  const unit = (await import(resolve(root, `src/lib/course/units/unit${n}.ts`)))[`unit${n}`];
+  const { files, rest } = courseArg();
+  const [, n] = rest;
+  const unit: any = await loadUnitFile(files, Number(n));
   for (const lesson of unit.lessons) {
     console.log(`\n${lesson.id} ${lesson.kind ?? "vocab"} — ${lesson.title} (${lesson.titleEn})`);
     lesson.exercises.forEach((ex: any) => {

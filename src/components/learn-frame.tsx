@@ -6,30 +6,32 @@ import { useApp } from "@/components/app-provider";
 import { Dictionary } from "@/components/dictionary";
 import { BoltIcon, CrownIcon } from "@/components/icons";
 import { ReviewCard } from "@/components/review/review-card";
+import { courseOpen, courses } from "@/lib/course/courses";
 
 /**
  * The course tabs' frame on /learn: the tab beside a column with the daily goal, word
- * review and the dictionary (and Premium on A1, whose units it unlocks). Resources
- * has the page to itself.
+ * review and the dictionary (and Premium on a course path with Premium units, which
+ * it unlocks). Resources has the page to itself.
  */
 export function LearnFrame({
   reviewOpensAfter,
   children,
 }: {
-  /** The lessons to finish before word review opens. */
-  reviewOpensAfter: string[];
+  /** Word review opens once one of these sets of lessons is done. */
+  reviewOpensAfter: string[][];
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
-  const { ready, progress, isPremium, premiumKnown, todayXp, t } = useApp();
+  const { ready, progress, isPremium, premiumKnown, todayXp, dev, t } = useApp();
   if (pathname === "/learn/resources") return children;
 
-  const onA1 = pathname === "/learn";
+  // A course's path, as this viewer sees it (not a course's "coming soon" page).
+  const course = courses.find((c) => c.path === pathname && courseOpen(c, dev));
   // They read the device's storage (review cards, the search text), so they wait for the app.
   // The review page is the card at length, so it goes without the card.
   const reviewCard = ready && pathname !== "/learn/review" && <ReviewCard opensAfter={reviewOpensAfter} />;
   const dictionaryCard = ready && <Dictionary />;
-  // Narrow screens have no side column: review and the dictionary lead the A1 path
+  // Narrow screens have no side column: review and the dictionary lead a course path
   // (long) and follow the other tabs' short text.
   const inline = (className: string) =>
     ready && (
@@ -42,9 +44,9 @@ export function LearnFrame({
   return (
     <div className="mx-auto flex max-w-5xl gap-10 px-4 py-8">
       <div className="min-w-0 flex-1">
-        {onA1 && inline("mb-10")}
+        {course && inline("mb-10")}
         {children}
-        {!onA1 && inline("mt-10")}
+        {!course && inline("mt-10")}
       </div>
 
       <aside className="sticky top-24 hidden h-fit w-80 shrink-0 space-y-4 lg:block">
@@ -65,12 +67,14 @@ export function LearnFrame({
         </div>
         {reviewCard}
         {dictionaryCard}
-        {onA1 && premiumKnown && !isPremium && (
+        {course && premiumKnown && !isPremium && (
           <div className="card p-5">
             <h2 className="flex items-center gap-2">
               <CrownIcon className="text-gold" /> {t("path.premium.title")}
             </h2>
-            <p className="mt-2 text-muted">{t("path.premium.body")}</p>
+            <p className="mt-2 text-muted">
+              {course.freeUnits ? t("path.premium.body") : t("lesson.paywall.body", { level: course.level })}
+            </p>
             <Link href="/pricing" className="btn btn-gold mt-4 w-full">
               {t("path.premium.button")}
             </Link>

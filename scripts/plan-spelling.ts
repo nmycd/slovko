@@ -3,6 +3,11 @@
 // course always gets the same plan.
 //
 //   npm run plan:spelling
+//   npm run plan:spelling -- --course a2   # A2's, into src/lib/course/a2/spelling.json
+//
+// A later course plans only its own cards: a word an earlier course had spelled needs
+// none, and a card may show the meaning of an earlier course's intro card (A1 comes
+// before all of A2).
 //
 // Every word a typed sentence in a standard lesson needs gets one card (a writing
 // lesson's sentences lean on its memorize rounds instead):
@@ -14,17 +19,23 @@
 // - a lesson gets at most 5; more move on to the next free spot before the sentence.
 
 import { writeFileSync } from "node:fs";
-import { join } from "node:path";
+import { relative } from "node:path";
 import { toTiles } from "../src/lib/answers";
-import { course } from "../src/lib/course";
+import { courseUnits } from "../src/lib/course";
 import { fillSentence, stripMarkup } from "../src/lib/course/helpers";
 import {
   needsSpelling,
   sentenceWords,
   spellingForm,
+  spellingPlan,
   type SpellCard,
 } from "../src/lib/course/spelling";
 import type { Exercise } from "../src/lib/course/types";
+import { courseArg, earlierCourses } from "./course-files";
+
+const { files } = courseArg();
+const course = courseUnits[files.course.id];
+const earlier = earlierCourses(files.course.id).flatMap((c) => courseUnits[c.id]);
 
 /** Slovak a learner reads on an exercise before answering it. */
 function shownText(ex: Exercise): string[] {
@@ -57,11 +68,13 @@ function pick(word: string): number {
   return (h >>> 0) % 4;
 }
 
-// The course as one sequence of authored exercises.
-const slots = course.flatMap((unit) =>
-  unit.lessons.flatMap((lesson) =>
-    lesson.exercises.map((ex) => ({ lesson: lesson.id, writing: lesson.kind === "writing", ex })),
-  ),
+// The courses so far as one sequence of authored exercises: earlier courses' first, then
+// this one's (`own`), where the cards go.
+const slots = [...earlier.map((unit) => ({ unit, own: false })), ...course.map((unit) => ({ unit, own: true }))].flatMap(
+  ({ unit, own }) =>
+    unit.lessons.flatMap((lesson) =>
+      lesson.exercises.map((ex) => ({ lesson: lesson.id, writing: lesson.kind === "writing", own, ex })),
+    ),
 );
 const lessonStart = new Map<string, number>();
 slots.forEach((s, g) => lessonStart.has(s.lesson) || lessonStart.set(s.lesson, g));
@@ -78,11 +91,17 @@ const PER_LESSON = 5;
 
 const plan = new Map<string, SpellCard[]>();
 const crowd = new Map<string, number>();
+// Where a word is first shown in this course: a word an earlier course showed but never
+// had typed gets its card as if new, inside this course.
 const firstShown = new Map<string, number>();
-const planned = new Set<string>();
+// Words spelled already: an earlier course's cards.
+const planned = new Set<string>(
+  earlier.flatMap((u) => u.lessons).flatMap((l) => spellingPlan[l.id] ?? []).map((c) => c.sk.toLowerCase()),
+);
 const stats = { cards: 0, shown: 0, neverShown: 0, glossed: 0, gaps: [] as number[] };
 
 slots.forEach((slot, g) => {
+  if (!slot.own) return;
   if (slot.ex.type === "listen" && !slot.writing) {
     const start = lessonStart.get(slot.lesson)!;
     for (const word of sentenceWords(slot.ex.sk)) {
@@ -147,11 +166,11 @@ const lines = course
     const cards = plan.get(l.id)!.sort((a, b) => at(a) - at(b));
     return `  ${JSON.stringify(l.id)}: [\n${cards.map((c) => `    ${JSON.stringify(c)}`).join(",\n")}\n  ]`;
   });
-const file = join(process.cwd(), "src/lib/course/spelling.json");
-writeFileSync(file, `{\n${lines.join(",\n")}\n}\n`);
+const file = files.spelling;
+writeFileSync(file, lines.length ? `{\n${lines.join(",\n")}\n}\n` : "{}\n");
 
 const gaps = stats.gaps.sort((a, b) => a - b);
-console.log(`${stats.cards} spelling cards in ${plan.size} lessons → src/lib/course/spelling.json`);
+console.log(`${stats.cards} spelling cards in ${plan.size} lessons → ${relative(process.cwd(), file)}`);
 console.log(`  ${stats.shown} after the word first appears, ${stats.neverShown} for words never shown before their sentence`);
 console.log(`  ${stats.glossed} show a meaning from an intro card`);
 console.log(`  cards between a card and its sentence: min ${gaps[0]}, median ${gaps[gaps.length >> 1]}, max ${gaps.at(-1)}`);

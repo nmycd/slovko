@@ -6,7 +6,48 @@ A1* (Lekcia 1–10): same topics, same grammar order, vocabulary drawn from
 each lesson. **The lessons themselves are original.**
 
 Each unit lives in `src/lib/course/units/unitN.ts` and exports `unitN: Unit`.
-Types are in `types.ts`; read them first.
+Types are in `types.ts`; read them first. The A2 course follows *Krížom-krážom
+Slovenčina A2* the same way, in its own folder: see "More than one course".
+
+## More than one course
+
+The courses are listed in `courses.ts`, in order: A1, then A2. Each unit and
+lesson id says its course, so ids are unique across courses: learners' progress,
+translations, pictures, spelling cards and audio are all keyed by them. A1's ids
+never change.
+
+| | A1 | A2 |
+| --- | --- | --- |
+| Unit file | `units/unitN.ts`, exports `unitN` | `a2/units/unitN.ts`, exports `unitN` too; add it to `a2/index.ts` with its four catalogs |
+| Unit id and number | `u3`, `number: 3` | `a2-u3`, `number: 3` (units 1–10 within A2) |
+| Lesson ids | `u3-l1`, `u3-rodina`, `u3-pisanie` | `a2-u3-l1`, `a2-u3-vianoce`, `a2-u3-pisanie` |
+| Exercise pointers | `u3-l1#dobry-den` | `a2-u3-l1#dobry-den` |
+| Translations | `translations/<locale>/unitN.json` | `a2/translations/<locale>/unitN.json` |
+| Spelling plan | `spelling.json` | `a2/spelling.json` |
+| Pictures | `illustrations.json` | `a2/illustrations.json` |
+| Picture plan, book crops | `illustrations/plan/`, `illustrations/book-refs/` | `illustrations/plan/a2/`, `illustrations/book-refs/a2/` |
+| Premium | units 1–2 free (`premium: false`), 3–10 `premium: true` | every unit `premium: true` |
+
+- **A1 comes before all of A2.** An A2 explanation may `ref` an A1 grammar card
+  (`ref: "u3-l2#grammar-one-adjective-three"`); "See the rule" opens it, marked
+  "A1 · Unit 3 · Lesson 2". "Introduce before you test" counts A1's words as
+  taught. A spelling card isn't needed for a word A1 had the learner spell, and
+  may show an A1 intro card's meaning.
+- **Shared by both courses:** word tags (`lexicon.ts`: one entry per word,
+  wherever it's taught; tag A2's new review words there), names (`names.ts`),
+  little words, and word review: one deck, so a word taught in A1 and again in A2
+  is one card. Picture and audio files share their folders, named by the ids.
+- **Each course's own:** its writing lessons' word pools (A2's memorize rounds
+  deal A2's words only), its path at `/learn/a2`, and the course percentage in the
+  lesson header.
+- **Scripts take `--course a2`** and work on A1 without it: `validate:course`,
+  `i18n:sync`, `plan:spelling`, `course:ids`, `course:coverage` (or `-- a2`),
+  `generate:audio`, and the illustration tools. One unit: `npm run -s
+  validate:course -- --course a2 a2-u3`.
+- **A2 is hidden until launch.** Its tab says "coming soon" and its lessons don't
+  open, except for dev-mode accounts (`app_metadata.dev`), who see the path and
+  play it like any course (its units still need Premium). Launching is one line: `launched: true` on A2's entry in
+  `courses.ts` (the pricing page then lists "The whole A2 course").
 
 ## Using the textbook (and what not to copy)
 
@@ -49,7 +90,7 @@ nickname, but not the book's Zuzana Šoltýsová).
 - `kind: "review"`: **the last lesson of every unit.** Mixed practice of the
   whole unit: no intro or grammar cards, 12–16 exercises.
 - `kind: "writing"` (experimental): **just before the review lesson**, id
-  `uN-pisanie`, title "Píšeme". Most of the unit's writing happens here: up to five
+  `uN-pisanie` (`a2-uN-pisanie`), title "Píšeme". Most of the unit's writing happens here: up to five
   `memorize` rounds, then the unit's dictations (`listen`), one of them early. The
   standard lessons keep very few dictations (two in unit 1, one in every later
   unit), so learners see from the start that the course asks them to write.
@@ -59,8 +100,8 @@ nickname, but not the book's Zuzana Šoltýsová).
 
 - 10–18 exercises. Teaching cards (intro + grammar) at most ~40%.
 - Introduce before you test: every Slovak word a learner must produce or
-  recognise was taught in this lesson or earlier in the course. Distractors
-  may use known words.
+  recognise was taught in this lesson or earlier in the course (for A2, A1
+  counts as earlier). Distractors may use known words.
 - Start with 2–3 intro cards, then interleave practice; don't stack 8 intros.
 - Use at least 4 exercise types per lesson. Aim for ≥1 `listen` and ≥1
   `speak` per lesson, and at most 2 `match`.
@@ -173,7 +214,7 @@ correct answer when the learner picks a wrong one.
   on its own. A distractor that competes with no particular tile gets no trap.
 - Point it to the grammar card it rests on with `ref: "lessonId#exerciseId"`
   (`ref: "u3-l2#grammar-one-adjective-three"`), a card in the same lesson before
-  the exercise or in an earlier one.
+  the exercise or in an earlier one (an A2 exercise may point to an A1 card).
   The learner gets "See the rule", which opens that card over the lesson. Leave
   `ref` out when no card states the rule; the course check rejects a later card.
 - Each native language gets its own explanation, written for its speakers, not a
@@ -225,5 +266,9 @@ npm run -s validate:course -- u3     # must print "✓ no errors"; fix warnings 
 npx tsc --noEmit 2>&1 | grep unit3   # must print nothing
 npm run -s course:coverage -- u3     # what the unit still leaves out (CONTENT-PIPELINE.md, stage 3)
 ```
+
+For an A2 unit, name the course: `npm run -s course:ids -- --course a2`,
+`npm run -s validate:course -- --course a2 a2-u3`, `npm run -s course:coverage -- a2 a2-u3`
+(`npx tsc` as above, grepping for `a2/units/unit3`).
 
 Then reread every Slovak sentence once more, slowly.

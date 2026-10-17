@@ -4,6 +4,7 @@
 //   npm run -s course:coverage                 # A1, every unit
 //   npm run -s course:coverage -- u5           # one unit's sections, plus the level-wide ones
 //   npm run -s course:coverage -- a1 --detail  # also list every missing glossary word and point
+//   npm run -s course:coverage -- a2           # A2 (or --course a2; a2-u5 or u5 for one unit)
 //   npm run -s course:coverage -- --find 'kartou|v hotovosti'   # where the course says it
 //   npm run -s course:coverage -- --inventory research/inventory/a1-draft   # another inventory folder
 //   npm run -s course:coverage -- --planned    # checklist items checked per unit, as planned in stage 1
@@ -22,16 +23,18 @@
 
 import { existsSync, readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
+import { courseById, isCourseId } from "../src/lib/course/courses";
 import { levels } from "../src/lib/course/levels";
 import type { ChecklistItem, WordField } from "../src/lib/course/levels/types";
 import type { Exercise, Unit } from "../src/lib/course/types";
+import { courseArg } from "./course-files";
 
 /** A field or a lesson's points below this share is flagged (justified in CONTENT-PIPELINE.md, stage 3). */
 const FIELD_MIN = 0.7;
 /** Per-unit glossary fields with fewer entries than this aren't flagged: one word would swing them 25 %+. */
 const FIELD_MIN_ENTRIES = 4;
 
-const args = process.argv.slice(2);
+const { files, rest: args } = courseArg();
 const flagValue = (name: string) => {
   const i = args.indexOf(name);
   return i >= 0 ? args[i + 1] : undefined;
@@ -42,8 +45,13 @@ const detail = args.includes("--detail");
 /** Check each checklist item against its whole unit (u4-rodina → u4), as planned in stage 1: for a backtest. */
 const planned = args.includes("--planned");
 const plain = args.filter((a, i) => !a.startsWith("--") && args[i - 1] !== "--find" && args[i - 1] !== "--inventory");
-const levelKey = (plain.find((a) => /^[abc][12]$/i.test(a)) ?? "a1").toLowerCase();
-const onlyUnits = plain.filter((a) => /^u\d+$/i.test(a)).map((a) => Number(a.slice(1)));
+const levelKey = (plain.find((a) => /^[abc][12]$/i.test(a)) ?? files.course.id).toLowerCase();
+/** What the level's unit and lesson ids start with: "" for A1, "a2-" for A2. */
+const prefix = isCourseId(levelKey) ? courseById(levelKey).prefix : "";
+/** A unit's number from its id ("a2-u5", or "u5" on the command line), or NaN. */
+const unitOf = (name: string, exact = true) =>
+  Number(new RegExp(`^(?:${prefix})?u(\\d+)${exact ? "$" : "(?:-|$)"}`, "i").exec(name)?.[1] ?? NaN);
+const onlyUnits = plain.map((a) => unitOf(a)).filter((n) => !Number.isNaN(n));
 
 const level = levels[levelKey];
 if (!level) {
@@ -287,7 +295,7 @@ if (haveInventory) {
       }
     }
     console.log(
-      `\nu${unit} ← L${lesson}: ${results.length} entries, ${used} taught (${pct(used, results.length)}); ` +
+      `\n${prefix}u${unit} ← L${lesson}: ${results.length} entries, ${used} taught (${pct(used, results.length)}); ` +
         `phrases ${phrases.filter((r) => r.used).length}/${phrases.length}`,
     );
     const cells: string[] = [];
@@ -374,7 +382,7 @@ if (haveInventory) {
       const ok = d ? d.verdict === "taught" || d.verdict === "skip" : isFound;
       if (isFound) found++;
       if (ok && !isFound) decided++;
-      if (!ok) flags.push(`points ${p.id} (u${unit}): ${p.point}`);
+      if (!ok) flags.push(`points ${p.id} (${prefix}u${unit}): ${p.point}`);
       const where = isFound ? [...new Set(hits.map((h) => h!.where))].join(", ") : "";
       if (!ok || detail || d)
         lines.push(
@@ -389,7 +397,7 @@ if (haveInventory) {
     totals.flagged += lines.filter((l) => l.startsWith("!")).length;
     if (!shown(unit)) continue;
     const flagged = lines.filter((l) => l.startsWith("!")).length;
-    console.log(`\nu${unit} ← L${lesson}: ${points.length} points, ${found} found (${pct(found, points.length)}), ${decided} decided otherwise, ${flagged} flagged`);
+    console.log(`\n${prefix}u${unit} ← L${lesson}: ${points.length} points, ${found} found (${pct(found, points.length)}), ${decided} decided otherwise, ${flagged} flagged`);
     for (const l of lines) console.log(`  ${l}`);
   }
   if (!onlyUnits.length)
@@ -419,12 +427,14 @@ function checkItem(item: ChecklistItem): { mark: string; note: string; flagged: 
   if (!item.in.length) return { mark: "!", note: "not placed in any unit", flagged: true };
   const problems: string[] = [];
   const scope: Row[] = [];
-  const places = planned ? [...new Set(item.in.map((p) => p.replace(/^(u\d+)-.*/, "$1")))] : item.in;
+  const places = planned
+    ? [...new Set(item.in.map((p) => p.replace(new RegExp(`^((?:${prefix})?u\\d+)-.*`), "$1")))]
+    : item.in;
   for (const place of places) {
-    const unit = /^u(\d+)$/.exec(place);
-    if (unit) {
-      if (!unitNumbers.has(Number(unit[1]))) problems.push(`${place} doesn't exist yet`);
-      else scope.push(...markRows.filter((r) => !r.prior && r.unit === Number(unit[1])));
+    const unit = unitOf(place); // "a2-u5", or "u5" in the level's own file
+    if (!Number.isNaN(unit)) {
+      if (!unitNumbers.has(unit)) problems.push(`${place} doesn't exist yet`);
+      else scope.push(...markRows.filter((r) => !r.prior && r.unit === unit));
     } else if (!lessonIds.has(place)) problems.push(`no lesson ${place}`);
     else scope.push(...markRows.filter((r) => !r.prior && r.where === place));
   }
@@ -440,7 +450,7 @@ for (const kind of ["grammar", "situation", "topic", "can-do"] as const) {
   const items = level.checklist.filter((i) => i.kind === kind);
   if (!items.length) continue;
   const relevant = items.filter(
-    (i) => !onlyUnits.length || i.in.some((p) => onlyUnits.includes(Number(/^u(\d+)/.exec(p)?.[1]))),
+    (i) => !onlyUnits.length || i.in.some((p) => onlyUnits.includes(unitOf(p, false))),
   );
   if (!relevant.length) continue;
   console.log(`\n${kind}`);

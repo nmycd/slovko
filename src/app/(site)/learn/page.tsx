@@ -13,7 +13,7 @@ export default function LearnPage() {
       <Suspense>
         <CheckoutBanner />
       </Suspense>
-      <CoursePath outlines={courseOutlines} />
+      <CoursePath course="a1" outlines={courseOutlines.a1} />
     </>
   );
 }

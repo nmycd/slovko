@@ -26,6 +26,36 @@ Everything here runs from the repo root. Paid steps are marked **$**.
 
 The dictionary on /learn needs no step: it's [built from the content](#automatic).
 
+### More than one course
+
+A1 is live; A2 is being written beside it. Every stage runs the same way for A2,
+with `--course a2` on each script (A1 without it) and A2's own files:
+
+| | A1 | A2 |
+| --- | --- | --- |
+| Units (stage 2) | `src/lib/course/units/unitN.ts` | `src/lib/course/a2/units/unitN.ts`, listed in `a2/index.ts` |
+| Ids | `u3`, `u3-l1`, `u3-rodina` | `a2-u3`, `a2-u3-l1`, `a2-u3-vianoce` |
+| Checks (3) | `validate:course -- u3`, `course:coverage -- u3` | `validate:course -- --course a2 a2-u3`, `course:coverage -- a2 a2-u3` |
+| Translations (5) | `translations/<locale>/unitN.json` | `a2/translations/<locale>/unitN.json` |
+| Spelling cards (6) | `spelling.json` | `a2/spelling.json` |
+| Picture plan (7) | `illustrations/plan/`, crops in `illustrations/book-refs/` | `illustrations/plan/a2/`, crops in `illustrations/book-refs/a2/` |
+| Pictures (8) | `illustrations.json` | `a2/illustrations.json` |
+| Premium | units 1–2 free | every unit |
+
+Ids are unique across courses, so progress, translations, pictures, spelling
+cards and audio clips are keyed by them, and picture and audio files share one
+folder or cache. A1 comes before all of A2: an A2 explanation may `ref` an A1
+grammar card, and A1's words count as taught. Word review is one deck for both
+courses; word tags (`lexicon.ts`) and names (`names.ts`) are shared too. A
+writing lesson's word pool is its own course's. The details for writers:
+[AUTHORING.md](src/lib/course/AUTHORING.md), "More than one course".
+
+**A course is hidden until it's launched.** Its tab says "coming soon" and its
+lessons don't open, except for dev-mode accounts (`app_metadata.dev`), who see
+its path and play it. The switch is one line: `launched: true` on the course's
+entry in [courses.ts](src/lib/course/courses.ts). The pricing page then lists it
+among Premium's perks.
+
 ## 1. Inventory the textbook
 
 The course follows *Krížom-krážom Slovenčina A1* (Kamenárová, 2007): one unit
@@ -539,6 +569,8 @@ npm run i18n:sync -- --check
 npx tsc --noEmit && npx eslint src
 ```
 
+For A2, the first two with `--course a2` as well.
+
 Then commit and push to `main`: Vercel deploys it. Commits are authored as
 `nmycd` (see the repo history).
 
@@ -549,14 +581,18 @@ These follow from the content; there's nothing to run.
 - **Dictionary.** Every intro card, grammar-card example, matching pair and
   grammar card is indexed at build time and served as `/api/dictionary`, which
   the search on /learn fetches when first used. New content is searchable after
-  the next deploy.
+  the next deploy. It holds every course; the search shows the courses a learner
+  can see (A2 for dev mode only, until launch), and names each result's course
+  once there's more than one.
 - **Word review deck.** Every intro card of up to three words (not a list)
   becomes a review item, reviewed both ways (recognition and recall) with FSRS
   once a learner meets it; served as `/api/review-deck`. A longer intro card
   (a sentence) simply stays out of review. An item takes its intro card's picture
   (the first lesson's with one): review shows it with the question when asking
   for the Slovak; when asking for the meaning, which the picture would give away,
-  only after the answer (and not at all on phones).
+  only after the answer (and not at all on phones). One deck for every course: a
+  word taught in A1 and in A2 is one item; a session draws on the courses the
+  learner can see.
 - **Wrong options in review** are other review items shaped like the answer, so
   none gives itself away, and from its topic where possible, so the choice is a
   real one: rooms among rooms, a question among questions, an adjective among
@@ -566,12 +602,12 @@ These follow from the content; there's nothing to run.
   with "?" and a sentence or greeting with "." or "!", and leave a bare word or
   phrase unpunctuated ("byt", "jedálny lístok").
 - **Spelling cards in lessons** and **picture positions**: inserted and shifted
-  as the course loads, from `spelling.json` and `illustrations.json`.
+  as the course loads, from each course's `spelling.json` and `illustrations.json`.
 - **Noun gender on cards**: a single noun's intro card shows its gender (or plural
   only), added as the course loads from its tags in `lexicon.ts`.
 - **Memorize words** (writing lessons, tentative): each lesson's pool is the intro cards of up
-  to three words since the previous writing lesson. The rounds are dealt from it
-  afresh each time the lesson starts, about 36 letters each (2–5 words); rounds the
+  to three words since the previous writing lesson, in its own course. The rounds
+  are dealt from it afresh each time the lesson starts, about 36 letters each (2–5 words); rounds the
   pool can't fill are left out.
 - **Word-order tiles** show in lowercase, so the capital doesn't give the first
   word away; names keep theirs ([tile-case.ts](src/lib/course/tile-case.ts)). A
@@ -612,11 +648,6 @@ Gaps in the pipeline, most also tracked in [DEBT.md](DEBT.md):
   Ukrainian and Russian readers are reviewing, and Uzbek and Georgian are
   planned. A Slovak teacher should still review the Slovak before launch.
 - **Automation.** No CI runs the stage 10 checks; they're run by hand.
-- **More than one course.** Lesson ids (`u1-l1`), progress and the dictionary
-  assume A1 is the only course. A2, B1 and the driving exam need a multi-course
-  data model first. The coverage gate is ready for A2 except for its level file,
-  [levels/a2.ts](src/lib/course/levels/a2.ts), an empty slot that says what to
-  fill (stage 1).
 - **Free production.** No exercise asks the learner to type a Slovak sentence
   from scratch, so the gate's "taught" means seen and assembled from tiles, not
   produced.

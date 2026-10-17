@@ -135,6 +135,8 @@ export type SpeakExercise = {
 /** A grammar card that an explanation points back to, and where it's taught (lesson numbers and title, its place in the lesson). */
 export type RuleCard = {
   card: GrammarExercise;
+  /** The card's course ("A1"), when it's another course than the explanation's. */
+  level?: string;
   unit: number;
   lesson: number;
   title: string;

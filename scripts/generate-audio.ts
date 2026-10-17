@@ -7,6 +7,9 @@
 //   npm run generate:audio                # generate missing clips (safe to re-run; resumes)
 //   npm run generate:audio -- --prune     # also delete clips no longer used
 //                                         # (old voice/model, removed phrases)
+//   npm run generate:audio -- --course a2 # the A2 course's audio (A1's without it)
+//
+// The cache is every course's: --prune keeps what any course uses, whichever is named.
 //
 // One step only:
 //   --tiles-only                          # just the word tiles
@@ -26,13 +29,14 @@
 // Refuses to spend credits on the placeholder voice: set ELEVENLABS_VOICE_ID first.
 
 import { loadEnvConfig } from "@next/env";
-// Reads no environment, so it may load first.
+// Read no environment, so they may load first.
 import { isTileStyle, tileStyle, tileStyles, type TileStyle } from "../src/lib/course/helpers";
+import { courseArg } from "./course-files";
 
 // Must run before importing modules that read the environment when loaded.
 loadEnvConfig(process.cwd());
 
-const argv = process.argv.slice(2);
+const { files, rest: argv } = courseArg();
 const args = new Set(argv);
 const value = (flag: string) => {
   const i = argv.indexOf(flag);
@@ -57,7 +61,8 @@ function styles() {
 }
 
 async function main() {
-  const { allLessons, singleWords, speakableSet } = await import("../src/lib/course");
+  const { allLessons, courseLessons, courseSingleWords, courseSpeakable, speakableSet } = await import("../src/lib/course");
+  const course = files.course.id;
   const { isElevenLabsConfigured, ttsModel, voiceId, withRetries } = await import("../src/lib/elevenlabs");
   const cache = await import("../src/lib/tts-cache");
   const { generateTiles } = await import("./tile-audio");
@@ -66,14 +71,15 @@ async function main() {
   if (!cache.isTtsCacheConfigured()) throw new Error("Supabase (URL + secret key) is not configured.");
   if (!isElevenLabsConfigured()) throw new Error("ELEVENLABS_API_KEY is not set.");
 
-  const phrases = [...speakableSet];
+  const phrases = [...courseSpeakable[course]];
   const cached = await cache.listCachedPaths();
   const missing = phrasesStep ? phrases.filter((text) => !cached.has(cache.ttsCachePath(text))) : [];
-  const wanted = new Set(phrases.map(cache.ttsCachePath));
+  // Every course's, so pruning never takes another course's clips.
+  const wanted = new Set([...speakableSet].map(cache.ttsCachePath));
   const unused = [...cached].filter((path) => !wanted.has(path));
   const characters = missing.reduce((n, text) => n + text.length, 0);
 
-  console.log(`voice ${voiceId} · model ${ttsModel}`);
+  console.log(`${files.course.level} · voice ${voiceId} · model ${ttsModel}`);
   if (phrasesStep) {
     console.log(`${phrases.length} phrases · ${phrases.length - missing.length} cached · ${missing.length} missing`);
     console.log(`characters to generate: ${characters.toLocaleString("en")}`);
@@ -84,6 +90,7 @@ async function main() {
     prune,
     recut: args.has("--recut"),
     only: value("--only")?.split(",").filter(Boolean) ?? [],
+    lessons: new Set(courseLessons(course).map((l) => l.id)),
     save: value("--save"),
     styles: styles(),
     revoice: args.has("--revoice"),
@@ -102,7 +109,7 @@ async function main() {
   };
   if (dryRun) {
     if (only !== "words") await generateTiles(allLessons, tileOptions);
-    if (only !== "tiles") await generateWords([...singleWords], wordOptions);
+    if (only !== "tiles") await generateWords([...courseSingleWords[course]], wordOptions);
     return;
   }
 
@@ -135,7 +142,7 @@ async function main() {
   if (phrasesStep) console.log(`\ngenerated ${done}, failed ${failed}`);
 
   if (only !== "words") failed += await generateTiles(allLessons, tileOptions);
-  if (only !== "tiles") failed += await generateWords([...singleWords], wordOptions);
+  if (only !== "tiles") failed += await generateWords([...courseSingleWords[course]], wordOptions);
   if (failed) process.exit(1);
 }
 

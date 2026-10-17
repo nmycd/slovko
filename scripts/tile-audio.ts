@@ -356,6 +356,8 @@ export type TileOptions = {
   seed: number;
   /** Only exercises whose key starts with one of these ("u3-", "u1-l3#build-volam-sa-tomas"). */
   only: string[];
+  /** Only exercises of these lessons: the course being voiced. Pruning still keeps every course's. */
+  lessons: ReadonlySet<string>;
   /** Also write each take and its clips here, with a page to listen to them on. */
   save?: string;
   /**
@@ -371,7 +373,7 @@ const styleNames = Object.keys(tileStyles) as TileStyle[];
 const REVOICES = 1;
 const ranTogether = (clips: Clip[]) => clips.filter((c) => c.problem?.startsWith("no pause")).length;
 
-/** Generates the missing tile clips. Returns how many takes or clips failed. */
+/** Generates the missing tile clips (`lessons`: every course's). Returns how many takes or clips failed. */
 export async function generateTiles(lessons: Lesson[], options: TileOptions): Promise<number> {
   const all = planTiles(lessons);
   const wanted = [...new Set([...(LESSON_TILE_STYLE ? [LESSON_TILE_STYLE] : []), ...options.styles])];
@@ -379,6 +381,7 @@ export async function generateTiles(lessons: Lesson[], options: TileOptions): Pr
   // Sentence takes are only paid for when lessons play a style cut from them.
   const voiceSentences = LESSON_TILE_STYLE !== null && cutStyles.includes(LESSON_TILE_STYLE);
   const plans = all
+    .filter((p) => options.lessons.has(p.key.split("#")[0]))
     .filter((p) => !options.only.length || options.only.some((prefix) => p.key.startsWith(prefix)))
     .map((p) => ({
       ...p,

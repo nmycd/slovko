@@ -1,3 +1,4 @@
+import { courseById, courses } from "@/lib/course/courses";
 import type { MessageKey } from "@/lib/i18n";
 
 // Displayed prices. Keep these in sync with the Prices in your Stripe
@@ -10,6 +11,15 @@ export const plans = {
 
 export type PlanId = keyof typeof plans;
 
-export const premiumPerks: MessageKey[] = ["pricing.perk1", "pricing.perk2", "pricing.perk3"];
+/** What Premium gives: A1's later units, every later course once it's launched, and the rest. */
+export const premiumPerks: { key: MessageKey; vars?: Record<string, string> }[] = [
+  { key: "pricing.perk1" },
+  ...courses
+    .filter((c) => c.id !== "a1" && c.launched)
+    .map((c) => ({ key: "pricing.perkCourse" as const, vars: { level: c.level } })),
+  { key: "pricing.perk2" },
+  { key: "pricing.perk3" },
+];
 
-export const FREE_UNIT_COUNT = 2;
+/** A1's free units. */
+export const FREE_UNIT_COUNT = courseById("a1").freeUnits;

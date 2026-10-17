@@ -45,8 +45,8 @@ export function PricingPlans() {
 
       <ul className="mx-auto mt-8 max-w-sm space-y-2">
         {premiumPerks.map((perk) => (
-          <li key={perk} className="flex items-center gap-3 font-bold">
-            <CheckIcon size={22} className="shrink-0 text-ok" /> {t(perk)}
+          <li key={perk.key + (perk.vars?.level ?? "")} className="flex items-center gap-3 font-bold">
+            <CheckIcon size={22} className="shrink-0 text-ok" /> {t(perk.key, perk.vars)}
           </li>
         ))}
       </ul>

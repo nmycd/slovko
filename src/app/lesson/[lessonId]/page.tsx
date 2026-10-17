@@ -4,12 +4,15 @@ import { Suspense } from "react";
 import { LessonPlayer } from "@/components/lesson/lesson-player";
 import {
   allLessons,
+  courseLessons,
   findLesson,
   lessonVariants,
   nextLessonId,
 } from "@/lib/course";
 import { lessonIllustrations } from "@/lib/course/illustrations";
 
+// Every course's lessons, those of a course not launched yet too: the player keeps
+// those to dev-mode accounts.
 export function generateStaticParams() {
   return allLessons.map((l) => ({ lessonId: l.id }));
 }
@@ -42,6 +45,7 @@ async function Lesson({ params }: { params: Promise<{ lessonId: string }> }) {
   // Only this lesson is sent to the browser, in each native language.
   return (
     <LessonPlayer
+      course={found.course.id}
       lessons={variants}
       premiumUnit={found.unit.premium}
       nextId={nextLessonId(lessonId)}
@@ -51,7 +55,7 @@ async function Lesson({ params }: { params: Promise<{ lessonId: string }> }) {
         lesson: found.unit.lessons.findIndex((l) => l.id === lessonId) + 1,
       }}
       // The course's progress leaves out the optional writing lessons.
-      courseLessonIds={allLessons.filter((l) => l.kind !== "writing").map((l) => l.id)}
+      courseLessonIds={courseLessons(found.course.id).filter((l) => l.kind !== "writing").map((l) => l.id)}
     />
   );
 }
