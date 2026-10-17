@@ -189,7 +189,8 @@ function variants(w: string) {
 
 /** Where the course first uses a word (any form), or undefined. */
 function findWord(index: Map<string, Row>, word: string) {
-  const w = norm(word);
+  // Tokens are runs of letters, so a hyphenated word ("e-mail") is matched by its last part.
+  const w = norm(word).replace(/^.*-(?=\p{L}{3,}$)/u, "");
   const vs = variants(w);
   for (const [t, row] of index)
     for (const st of vs) if (IRREGULAR[w]?.includes(st) ? t === st : t.startsWith(st)) return row;
