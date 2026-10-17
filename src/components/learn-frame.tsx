@@ -42,16 +42,25 @@ export function LearnFrame({
   const grammar = grammarLessons[(course ?? courses[0]).id];
   const grammarAt = grammar.findLast((id) => progress.completed[id]) ?? grammar[0];
   const practiceCard = ready && (
-    <div className="card p-5">
+    <div className="card overflow-hidden p-5">
       <h2 className="text-lg">{t("practice.title")}</h2>
-      <ul className="mt-2 list-disc space-y-1 pl-5 text-muted">
+      {/* Rows run the card's full width, so a link's whole row lights up like the review card. */}
+      <ul className="-mx-5 mt-2 text-muted">
         <li>
-          <Link href={`/grammar/${grammarAt}`} className="font-semibold text-text underline-offset-2 hover:underline">
+          <Link
+            href={`/grammar/${grammarAt}`}
+            className="flex items-center gap-3 px-5 py-1.5 font-semibold text-text transition-colors hover:bg-surface"
+          >
+            <span className="size-1.5 shrink-0 rounded-full bg-current" />
             {t("practice.grammar")}
           </Link>
         </li>
-        <li>{t("practice.writing")}</li>
-        <li>{t("practice.speaking")}</li>
+        {(["practice.writing", "practice.speaking"] as const).map((key) => (
+          <li key={key} className="flex items-center gap-3 px-5 py-1.5">
+            <span className="size-1.5 shrink-0 rounded-full bg-current" />
+            {t(key)}
+          </li>
+        ))}
       </ul>
     </div>
   );
