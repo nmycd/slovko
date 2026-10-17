@@ -397,6 +397,7 @@ export function ListenView({ exercise, answer, setAnswer, locked }: Props<Listen
         locked={locked}
         rows={2}
         placeholder={t("ex.listenPlaceholder")}
+        target={exercise.sk}
       />
     </div>
   );
@@ -423,20 +424,26 @@ export function SpellView({ exercise, answer, setAnswer, locked }: Props<SpellEx
         locked={locked}
         rows={1}
         placeholder={t("ex.spellPlaceholder")}
+        target={exercise.sk}
       />
     </div>
   );
 }
 
-/** A text box for Slovak, with keys for the letters most keyboards lack. */
+/**
+ * A text box for Slovak, with keys for the letters most keyboards lack, and a hint that
+ * shows the answer's outline in the box (`target`: the answer).
+ */
 function TypedAnswer({
   answer,
   setAnswer,
   locked,
   rows,
   placeholder,
-}: Omit<Props<unknown>, "exercise"> & { rows: number; placeholder: string }) {
+  target,
+}: Omit<Props<unknown>, "exercise"> & { rows: number; placeholder: string; target: string }) {
   const { t } = useApp();
+  const [hint, setHint] = useState(false);
   const input = useRef<HTMLTextAreaElement>(null);
   const caret = useRef<number | null>(null);
   const text = typeof answer === "string" ? answer : "";
@@ -461,6 +468,8 @@ function TypedAnswer({
 
   return (
     <>
+      <div className="relative rounded-xl border-[1.5px] border-border-strong bg-bg focus-within:border-accent">
+      {hint && <Ghost target={target} className="inset-0 p-4 font-serif text-xl break-words whitespace-pre-wrap" />}
       <textarea
         ref={input}
         autoFocus
@@ -479,11 +488,58 @@ function TypedAnswer({
         autoCapitalize="off"
         autoComplete="off"
         autoCorrect="off"
-        placeholder={placeholder}
-        className="w-full resize-none rounded-xl border-[1.5px] border-border-strong bg-bg p-4 font-serif text-xl outline-none focus:border-accent"
+        placeholder={hint ? undefined : placeholder}
+        className="relative block w-full resize-none rounded-xl bg-transparent p-4 font-serif text-xl outline-none"
       />
-      <SlovakKeys label={t("ex.accentKeys")} disabled={locked} onKey={insert} />
+      </div>
+      <SlovakKeys
+        label={t("ex.accentKeys")}
+        disabled={locked}
+        onKey={insert}
+        extra={!locked && <HintButton on={hint} onToggle={() => setHint(!hint)} />}
+      />
     </>
+  );
+}
+
+/**
+ * The hint for a typed answer: the answer itself, its letters invisible and each word on
+ * an off-white block, laid out as the text box lays out its text and placed behind it.
+ * It tells how many words there are and how long each is, and what the learner types
+ * lands on it. `className`: the box's padding and type, so the two line up.
+ */
+function Ghost({ target, className }: { target: string; className: string }) {
+  return (
+    <div aria-hidden className={`pointer-events-none absolute text-transparent select-none ${className}`}>
+      {/* One inline run, so the spaces between words survive a flex box. */}
+      <span>
+        {(target.match(/[\p{L}\p{N}]+|[^\p{L}\p{N}]+/gu) ?? []).map((run, i) =>
+          /[\p{L}\p{N}]/u.test(run) ? (
+            <span key={i} className="rounded-sm bg-surface-2">
+              {run}
+            </span>
+          ) : (
+            run
+          ),
+        )}
+      </span>
+    </div>
+  );
+}
+
+/** Shows or hides a typed answer's outline. Keeps the focus in the text box. */
+function HintButton({ on, onToggle }: { on: boolean; onToggle: () => void }) {
+  const { t } = useApp();
+  return (
+    <button
+      type="button"
+      aria-pressed={on}
+      onMouseDown={(e) => e.preventDefault()}
+      onClick={onToggle}
+      className="shrink-0 rounded-lg px-2 py-1 text-sm font-bold text-accent hover:bg-surface-2"
+    >
+      {t(on ? "ex.hintHide" : "ex.hint")}
+    </button>
   );
 }
 
@@ -492,14 +548,20 @@ function SlovakKeys({
   label,
   onKey,
   disabled,
+  extra,
 }: {
   label: string;
   onKey: (ch: string) => void;
   disabled: boolean;
+  /** Beside the label, at the right (the hint button). */
+  extra?: React.ReactNode;
 }) {
   return (
     <div className="space-y-2">
-      <p className="text-sm font-bold text-muted">{label}</p>
+      <div className="flex items-center justify-between gap-3">
+        <p className="text-sm font-bold text-muted">{label}</p>
+        {extra}
+      </div>
       <div className="flex flex-wrap gap-1.5">
         {["á", "ä", "č", "ď", "é", "í", "ľ", "ĺ", "ň", "ó", "ô", "ŕ", "š", "ť", "ú", "ý", "ž"].map((ch) => (
           <button
@@ -551,6 +613,7 @@ export function MemorizeView({
   const typed = Array.isArray(answer) ? (answer as string[]) : words.map(() => "");
   const [phase, setPhase] = useState<"study" | "hiding" | "write">(studied ? "write" : "study");
   const [order, setOrder] = useState(() => words.map((_, i) => i));
+  const [hint, setHint] = useState(false);
   const inputs = useRef<(HTMLInputElement | null)[]>([]);
   const focused = useRef(0);
   const caret = useRef<number | null>(null);
@@ -636,6 +699,13 @@ export function MemorizeView({
               <div className={`min-w-0 ${haze}`}>
                 {phase === "write" ? (
                   <>
+                    <div className="relative">
+                    {hint && (
+                      <Ghost
+                        target={word.sk}
+                        className="inset-[1.5px] flex items-center overflow-hidden px-3 font-serif text-lg whitespace-pre"
+                      />
+                    )}
                     <input
                       key={i}
                       ref={(el) => {
@@ -661,11 +731,12 @@ export function MemorizeView({
                       autoCapitalize="off"
                       autoComplete="off"
                       autoCorrect="off"
-                      placeholder={t("ex.memorize.placeholder")}
+                      placeholder={hint ? undefined : t("ex.memorize.placeholder")}
                       aria-label={word.en}
                       data-mark={mark}
-                      className="h-12 w-full rounded-lg border-[1.5px] border-border-strong bg-bg px-3 font-serif text-lg outline-none focus:border-accent data-[mark=accents]:border-gold data-[mark=exact]:border-ok data-[mark=wrong]:border-bad"
+                      className={`relative h-12 w-full rounded-lg border-[1.5px] border-border-strong px-3 font-serif text-lg outline-none focus:border-accent data-[mark=accents]:border-gold data-[mark=exact]:border-ok data-[mark=wrong]:border-bad ${hint ? "bg-transparent" : "bg-bg"}`}
                     />
+                    </div>
                     {mark && mark !== "exact" && <p className="mt-1 font-serif text-base font-semibold">{word.sk}</p>}
                   </>
                 ) : (
@@ -682,7 +753,12 @@ export function MemorizeView({
         })}
       </ol>
       <div className={phase === "write" ? "transition-opacity duration-300" : "invisible opacity-0"}>
-        <SlovakKeys label={t("ex.accentKeys")} disabled={locked || phase !== "write"} onKey={insert} />
+        <SlovakKeys
+          label={t("ex.accentKeys")}
+          disabled={locked || phase !== "write"}
+          onKey={insert}
+          extra={!locked && <HintButton on={hint} onToggle={() => setHint(!hint)} />}
+        />
       </div>
     </div>
   );

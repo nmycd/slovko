@@ -160,6 +160,8 @@ export const en = {
   "ex.spellPlaceholder": "Type the word",
   "ex.listenPlaceholder": "Type in Slovak (accents are optional)",
   "ex.accentKeys": "Letters your keyboard may not have:",
+  "ex.hint": "Hint",
+  "ex.hintHide": "Hide hint",
   "ex.memorize.title": "Memorize the spelling",
   "ex.memorize.prompt": "Look at how these words are written. When you're ready, they'll hide and you'll type them from their meanings.",
   "ex.memorize.ready": "I'm ready",

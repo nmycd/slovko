@@ -160,6 +160,8 @@ export const uz: Messages = {
   "ex.spellPlaceholder": "Soʻzni yozing",
   "ex.listenPlaceholder": "Slovak tilida yozing (diakritik belgilar shart emas)",
   "ex.accentKeys": "Klaviaturangizda boʻlmasligi mumkin boʻlgan harflar:",
+  "ex.hint": "Ishora",
+  "ex.hintHide": "Ishorani yashirish",
   "ex.memorize.title": "Yozilishini eslab qoling",
   "ex.memorize.prompt": "Bu soʻzlar qanday yozilishiga qarang. Tayyor boʻlganingizda ular yashiriladi va siz ularni maʼnosiga qarab yozasiz.",
   "ex.memorize.ready": "Tayyorman",
