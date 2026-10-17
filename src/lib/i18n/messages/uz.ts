@@ -44,7 +44,7 @@ export const uz: Messages = {
   "practice.title": "Qoʻshimcha mashqlar",
   "practice.grammar": "Grammatikani takrorlash",
   "practice.writing": "Yozish mashqi",
-  "practice.speaking": "Gapirish mashqi",
+  "practice.speaking": "Talaffuz mashqi",
   "grammar.close": "Kursga qaytish",
   "grammar.all": "Barcha grammatika darslari",
   "path.dailyGoal": "Kunlik maqsad",

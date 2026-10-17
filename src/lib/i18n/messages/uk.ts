@@ -40,7 +40,7 @@ export const uk: Messages = {
   "practice.title": "Додаткова практика",
   "practice.grammar": "Повторення граматики",
   "practice.writing": "Практика письма",
-  "practice.speaking": "Розмовна практика",
+  "practice.speaking": "Практика вимови",
   "grammar.close": "Назад до курсу",
   "grammar.all": "Усі уроки граматики",
   "path.dailyGoal": "Ціль на день",

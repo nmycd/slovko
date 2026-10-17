@@ -44,7 +44,7 @@ export const ka: Messages = {
   "practice.title": "დამატებითი პრაქტიკა",
   "practice.grammar": "გრამატიკის გამეორება",
   "practice.writing": "წერის პრაქტიკა",
-  "practice.speaking": "საუბრის პრაქტიკა",
+  "practice.speaking": "გამოთქმის პრაქტიკა",
   "grammar.close": "კურსზე დაბრუნება",
   "grammar.all": "გრამატიკის ყველა გაკვეთილი",
   "path.dailyGoal": "დღის მიზანი",

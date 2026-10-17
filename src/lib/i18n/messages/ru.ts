@@ -40,7 +40,7 @@ export const ru: Messages = {
   "practice.title": "Дополнительная практика",
   "practice.grammar": "Повторение грамматики",
   "practice.writing": "Практика письма",
-  "practice.speaking": "Разговорная практика",
+  "practice.speaking": "Практика произношения",
   "grammar.close": "Назад к курсу",
   "grammar.all": "Все уроки грамматики",
   "path.dailyGoal": "Цель на день",

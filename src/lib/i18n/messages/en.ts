@@ -44,7 +44,7 @@ export const en = {
   "practice.title": "Extra practice",
   "practice.grammar": "Grammar review",
   "practice.writing": "Writing practice",
-  "practice.speaking": "Speaking practice",
+  "practice.speaking": "Pronunciation practice",
   "grammar.close": "Back to the course",
   "grammar.all": "All grammar lessons",
   "path.dailyGoal": "Daily goal",
