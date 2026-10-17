@@ -59,6 +59,7 @@
   --color-locked: var(--locked);
   --font-sans: var(--font-onest), var(--font-sans-georgian), system-ui, sans-serif;
   --font-serif: var(--font-literata), var(--font-serif-georgian), Georgia, serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
 }
 
 body {
@@ -82,6 +83,16 @@ body {
 }
 
 @layer components {
+  /* A hint's letter cells: an off-white cell per letter of a monospace word (each 1ch wide). */
+  .letter-cells {
+    background: repeating-linear-gradient(
+      90deg,
+      transparent 0 1px,
+      var(--surface-2) 1px calc(1ch - 1px),
+      transparent calc(1ch - 1px) 1ch
+    );
+  }
+
   /* Flat buttons: a quiet fill, no 3D edge. */
   .btn {
     --btn-bg: var(--brand);

@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Literata, Noto_Sans_Georgian, Noto_Serif_Georgian, Onest } from "next/font/google";
+import { IBM_Plex_Mono, Literata, Noto_Sans_Georgian, Noto_Serif_Georgian, Onest } from "next/font/google";
 import { AppProvider } from "@/components/app-provider";
 import "./globals.css";
 
@@ -13,6 +13,14 @@ const literata = Literata({
 const onest = Onest({
   variable: "--font-onest",
   subsets: ["latin", "latin-ext", "cyrillic", "cyrillic-ext"],
+});
+// Typed Slovak answers: every letter the same width, so a hint's letter cells line up
+// with whatever is typed. Only lessons use it, so it isn't preloaded on every page.
+const plexMono = IBM_Plex_Mono({
+  variable: "--font-plex-mono",
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "600"],
+  preload: false,
 });
 // Neither has Georgian letters: Noto fills in for them (their font files cover
 // only the Georgian range, so other pages never download them).
@@ -40,7 +48,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${literata.variable} ${onest.variable} ${notoSansGeorgian.variable} ${notoSerifGeorgian.variable} h-full antialiased`}
+      className={`${literata.variable} ${onest.variable} ${notoSansGeorgian.variable} ${notoSerifGeorgian.variable} ${plexMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-sans">
         <AppProvider>{children}</AppProvider>

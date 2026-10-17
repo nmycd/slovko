@@ -469,7 +469,7 @@ function TypedAnswer({
   return (
     <>
       <div className="relative rounded-xl border-[1.5px] border-border-strong bg-bg focus-within:border-accent">
-      {hint && <Ghost target={target} className="inset-0 p-4 font-serif text-xl break-words whitespace-pre-wrap" />}
+      {hint && <Ghost target={target} typed={text} className="inset-0 p-4 font-mono text-xl break-words whitespace-pre-wrap" />}
       <textarea
         ref={input}
         autoFocus
@@ -489,7 +489,7 @@ function TypedAnswer({
         autoComplete="off"
         autoCorrect="off"
         placeholder={hint ? undefined : placeholder}
-        className="relative block w-full resize-none rounded-xl bg-transparent p-4 font-serif text-xl outline-none"
+        className="relative block w-full resize-none rounded-xl bg-transparent p-4 font-mono text-xl outline-none"
       />
       </div>
       <SlovakKeys
@@ -502,26 +502,65 @@ function TypedAnswer({
   );
 }
 
+/** A word of the answer as a hint shows it: its letters invisible, each on an off-white cell. */
+function Shape({ word, className = "" }: { word: string; className?: string }) {
+  return (
+    <span className={`whitespace-pre ${className}`}>
+      {(word.match(/[\p{L}\p{N}]+|[^\p{L}\p{N}]+/gu) ?? []).map((run, i) =>
+        /[\p{L}\p{N}]/u.test(run) ? (
+          <span key={i} className="letter-cells">
+            {run}
+          </span>
+        ) : (
+          run
+        ),
+      )}
+    </span>
+  );
+}
+
 /**
- * The hint for a typed answer: the answer itself, its letters invisible and each word on
- * an off-white block, laid out as the text box lays out its text and placed behind it.
- * It tells how many words there are and how long each is, and what the learner types
- * lands on it. `className`: the box's padding and type, so the two line up.
+ * The hint for a typed answer: each letter of the answer as an off-white cell, in the
+ * box's own monospace type, behind the text box (`className`: the box's padding and
+ * type, so the two line up). It tells how many words there are and how many letters
+ * each has. The blocks follow the typing, not the answer: the typed text is laid out
+ * here as the box lays it out, each typed word's block starting where that word does,
+ * the word being typed keeping room for the whole word, and the words still to come
+ * after it. So a word typed shorter or longer (a missing accent, a typo) moves nothing.
  */
-function Ghost({ target, className }: { target: string; className: string }) {
+function Ghost({ target, typed, className }: { target: string; typed: string; className: string }) {
+  const words = target.split(/\s+/).filter(Boolean);
+  // Typed words and the spaces between them, as typed.
+  const parts = typed.split(/(\s+)/).filter(Boolean);
+  const open = typed !== "" && !/\s$/.test(typed);
+  let k = 0;
+  const laid = parts.map((part, i) => {
+    if (/^\s/.test(part)) return part;
+    const word = words[k++];
+    if (!word) return <span key={i}>{part}</span>;
+    // The word being typed: as wide as the typing or the whole word, whichever is wider.
+    if (open && i === parts.length - 1) {
+      return (
+        <span key={i} className="inline-grid">
+          <span className="[grid-area:1/1]">{part}</span>
+          <Shape word={word} className="[grid-area:1/1]" />
+        </span>
+      );
+    }
+    return (
+      <span key={i} className="relative">
+        {part}
+        <Shape word={word} className="absolute top-0 left-0" />
+      </span>
+    );
+  });
+  const rest = words.slice(k).flatMap((word, j) => [j > 0 || open ? " " : "", <Shape key={`rest-${j}`} word={word} />]);
   return (
     <div aria-hidden className={`pointer-events-none absolute text-transparent select-none ${className}`}>
       {/* One inline run, so the spaces between words survive a flex box. */}
       <span>
-        {(target.match(/[\p{L}\p{N}]+|[^\p{L}\p{N}]+/gu) ?? []).map((run, i) =>
-          /[\p{L}\p{N}]/u.test(run) ? (
-            <span key={i} className="rounded-sm bg-surface-2">
-              {run}
-            </span>
-          ) : (
-            run
-          ),
-        )}
+        {laid}
+        {rest}
       </span>
     </div>
   );
@@ -703,7 +742,8 @@ export function MemorizeView({
                     {hint && (
                       <Ghost
                         target={word.sk}
-                        className="inset-[1.5px] flex items-center overflow-hidden px-3 font-serif text-lg whitespace-pre"
+                        typed={typed[i] ?? ""}
+                        className="inset-[1.5px] flex items-center overflow-hidden px-3 font-mono text-lg whitespace-pre"
                       />
                     )}
                     <input
@@ -734,15 +774,15 @@ export function MemorizeView({
                       placeholder={hint ? undefined : t("ex.memorize.placeholder")}
                       aria-label={word.en}
                       data-mark={mark}
-                      className={`relative h-12 w-full rounded-lg border-[1.5px] border-border-strong px-3 font-serif text-lg outline-none focus:border-accent data-[mark=accents]:border-gold data-[mark=exact]:border-ok data-[mark=wrong]:border-bad ${hint ? "bg-transparent" : "bg-bg"}`}
+                      className={`relative h-12 w-full rounded-lg border-[1.5px] border-border-strong px-3 font-mono text-lg outline-none focus:border-accent data-[mark=accents]:border-gold data-[mark=exact]:border-ok data-[mark=wrong]:border-bad ${hint ? "bg-transparent" : "bg-bg"}`}
                     />
                     </div>
-                    {mark && mark !== "exact" && <p className="mt-1 font-serif text-base font-semibold">{word.sk}</p>}
+                    {mark && mark !== "exact" && <p className="mt-1 font-mono text-base font-semibold">{word.sk}</p>}
                   </>
                 ) : (
                   <div
                     lang="sk"
-                    className="flex h-12 items-center rounded-lg border-[1.5px] border-transparent px-3 font-serif text-lg font-semibold"
+                    className="flex h-12 items-center rounded-lg border-[1.5px] border-transparent px-3 font-mono text-lg font-semibold"
                   >
                     {word.sk}
                   </div>
