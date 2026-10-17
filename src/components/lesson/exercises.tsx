@@ -547,10 +547,15 @@ function Ghost({ target, typed, className }: { target: string; typed: string; cl
         </span>
       );
     }
+    // A finished word: as wide as typed, so what follows sits where the box puts it, its
+    // whole word's block running on past it from a zero-width cell. Stacked in one grid
+    // cell rather than positioned, so the block keeps to the text's baseline.
     return (
-      <span key={i} className="relative">
-        {part}
-        <Shape word={word} className="absolute top-0 left-0" />
+      <span key={i} className="inline-grid">
+        <span className="[grid-area:1/1]">{part}</span>
+        <span className="w-0 [grid-area:1/1]">
+          <Shape word={word} />
+        </span>
       </span>
     );
   });
