@@ -502,13 +502,13 @@ function TypedAnswer({
   );
 }
 
-/** A word of the answer as a hint shows it: its letters invisible, each on an off-white cell. */
+/** A word of the answer as a hint shows it: its letters invisible, on one off-white block. */
 function Shape({ word, className = "" }: { word: string; className?: string }) {
   return (
     <span className={`whitespace-pre ${className}`}>
       {(word.match(/[\p{L}\p{N}]+|[^\p{L}\p{N}]+/gu) ?? []).map((run, i) =>
         /[\p{L}\p{N}]/u.test(run) ? (
-          <span key={i} className="letter-cells">
+          <span key={i} className="rounded-sm bg-surface-2">
             {run}
           </span>
         ) : (
@@ -520,10 +520,10 @@ function Shape({ word, className = "" }: { word: string; className?: string }) {
 }
 
 /**
- * The hint for a typed answer: each letter of the answer as an off-white cell, in the
- * box's own monospace type, behind the text box (`className`: the box's padding and
- * type, so the two line up). It tells how many words there are and how many letters
- * each has. The blocks follow the typing, not the answer: the typed text is laid out
+ * The hint for a typed answer: each word of the answer as an off-white block, in the
+ * box's own monospace type (every letter as wide), behind the text box (`className`: the
+ * box's padding and type, so the two line up). It tells how many words there are and how
+ * many letters each has. The blocks follow the typing, not the answer: the typed text is laid out
  * here as the box lays it out, each typed word's block starting where that word does,
  * the word being typed keeping room for the whole word, and the words still to come
  * after it. So a word typed shorter or longer (a missing accent, a typo) moves nothing.
