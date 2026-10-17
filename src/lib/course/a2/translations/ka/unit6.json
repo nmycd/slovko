@@ -151,7 +151,7 @@
   },
   "a2-u6-l1.vyhovuje-ti-to.note": {
     "en": "**vyhovovať** = to suit. Like páči sa mi, the thing that suits is the subject: Sobota mi vyhovuje. = Saturday suits me. Polite: Vyhovuje **vám** to?",
-    "t": "**vyhovovať** = მოწყობა, მისადაგება. páči sa mi-ს მსგავსად, ის, რაც გაწყობს, ქვემდებარეა, ზუსტად როგორც ქართულში: Sobota mi vyhovuje. = შაბათი მაწყობს. თავაზიანად: Vyhovuje **vám** to?"
+    "t": "**vyhovovať** = აწყობა („მაწყობს“). páči sa mi-ს მსგავსად, ის, რაც გაწყობთ, ქვემდებარეა, ზუსტად როგორც ქართულში: Sobota mi vyhovuje. = შაბათი მაწყობს. თავაზიანად: Vyhovuje **vám** to?"
   },
   "a2-u6-l1.fill-sobota-mi-vyhovuje.en": {
     "en": "A trip on Saturday? Yes, Saturday suits me.",
@@ -307,7 +307,7 @@
   },
   "a2-u6-l2.fill-asi-ste-sa-pomylili.why": {
     "en": "Polite **vy** always takes **-li** in the past, even for one person: ste sa **pomýlili**.",
-    "t": "თავაზიანი **vy** წარსულში ყოველთვის **-li**-ს იღებს, ერთ ადამიანთანაც კი: ste sa **pomýlili**. ქართულშიც „თქვენ“ ერთ ადამიანსაც მრავლობითით მიმართავს: შეგეშალათ."
+    "t": "თავაზიანი **vy** წარსულში ყოველთვის **-li**-ს იღებს, ერთ ადამიანთანაც კი: ste sa **pomýlili**. ქართულშიც თავაზიანი „თქვენ“ ერთ ადამიანთანაც მრავლობითის ფორმას მოითხოვს: შეგეშალათ."
   },
   "a2-u6-l2.build-mate-nespravne-cislo.prompt": {
     "en": "You've got the wrong number. (to a stranger)",
@@ -497,7 +497,7 @@
   },
   "a2-u6-l3.choice-pani-kollarova-moment.question": {
     "en": "A caller asks for pani inžinierka Kollárová. She's at her desk. What does Emma say?",
-    "t": "დამრეკი ქალბატონ ინჟინერ კოლაროვას ითხოვს. ის თავის მაგიდასთანაა. რას ეტყვის ემა?"
+    "t": "დამრეკი ქალბატონ ინჟინერ კოლაროვას ითხოვს. ის ადგილზეა. რას ეტყვის ემა?"
   },
   "a2-u6-l3.build-moment-hned-ho.answers": {
     "en": [
@@ -532,7 +532,7 @@
       "A caller is a stranger, so use vy: **chcete**."
     ],
     "t": [
-      "**s**-თან („-თან ერთად“) kto თავის inštrumentál-ის ფორმას იღებს: s **kým**.",
+      "**s**-ის („-თან ერთად“) შემდეგ kto თავის inštrumentál-ის ფორმას იღებს: s **kým**.",
       "დამრეკი უცნობია, ამიტომ vy: **chcete**."
     ]
   },
@@ -1029,7 +1029,7 @@
     ],
     "t": [
       "ამბობენ…",
-      "თქვენ გადასცემთ"
+      "თქვენ გადმოსცემთ"
     ]
   },
   "a2-u6-l6.grammar-reported-ze.table.rows": {
@@ -1114,7 +1114,7 @@
   },
   "a2-u6-l6.choice-lucia-napisala-ze.why": {
     "en": "**Že** passes on a statement, and **je** chorá is she is ill. Slovak keeps the tense where English says “was”.",
-    "t": "**Že** განცხადებას გადასცემს, **je** chorá კი ნიშნავს „ავადაა“. სლოვაკური, ქართულის მსგავსად, ნათქვამის დროს არ ცვლის."
+    "t": "**Že** განცხადებას გადმოსცემს, **je** chorá კი ნიშნავს „ავადაა“. სლოვაკური, ქართულის მსგავსად, ნათქვამის დროს არ ცვლის."
   },
   "a2-u6-l6.build-povedal-ze-ma.prompt": {
     "en": "He said he had a meeting.",
@@ -1151,7 +1151,7 @@
     ],
     "t": [
       "კითხულობენ…",
-      "თქვენ გადასცემთ"
+      "თქვენ გადმოსცემთ"
     ]
   },
   "a2-u6-l6.grammar-reported-ci.table.rows": {
@@ -1208,7 +1208,7 @@
   },
   "a2-u6-l6.fill-pytala-sa-ci-mas.why": {
     "en": "Lucia asked a yes-or-no question, and that's passed on with **či** (whether). Že is for statements.",
-    "t": "ლუციამ ისეთი კითხვა დასვა, რომელსაც „კი“ ან „არა“ პასუხობს, და ის **či**-თი (თუ არა) გადაიცემა. Že განცხადებებისთვისაა."
+    "t": "ლუციამ ისეთი კითხვა დასვა, რომელსაც „კი“ ან „არა“ პასუხობს, და ის **či**-თი (თუ არა) გადმოიცემა. Že განცხადებებისთვისაა."
   },
   "a2-u6-l6.fill-pytal-sa-kedy-prides.en": {
     "en": "“When are you coming to the office?” He asked when you were coming to the office.",
@@ -1236,7 +1236,7 @@
       "Slovak keeps the tense of the question, “Si doma?”: či **si** doma. Only English says were."
     ],
     "t": [
-      "„კი/არა“ კითხვა **či**-თი გადაიცემა; že განცხადებებისთვისაა.",
+      "„კი/არა“ კითხვა **či**-თი გადმოიცემა; že განცხადებებისთვისაა.",
       "სლოვაკური კითხვის დროს ინარჩუნებს, „Si doma?“: či **si** doma. ქართულშიც ასეა: „სახლში ხარ?“ → სახლში ხარ თუ არა."
     ]
   },
@@ -1246,7 +1246,7 @@
   },
   "a2-u6-l6.choice-mam-nejaky-odkaz.why": {
     "en": "A statement is passed on with **povedala, že**. Či goes with a question: pýtala sa, či…",
-    "t": "განცხადება **povedala, že**-თი გადაიცემა. Či კითხვას ახლავს: pýtala sa, či…"
+    "t": "განცხადება **povedala, že**-თი გადმოიცემა. Či კითხვას ახლავს: pýtala sa, či…"
   },
   "a2-u6-l6.build-tomas-napisal-ze.answers": {
     "en": [
@@ -1297,7 +1297,7 @@
       "Aby takes som, si, sme and ste, just like the past tense: aby **som**, aby **si**. For on, ona and oni, aby stands alone: Povedzte mu, prosím, **aby** mi **zavolal**. (Povedzte = tell, to vy.)"
     ],
     "t": [
-      "თხოვნა ან დავალება **aby**-თი (რომ, რათა) გადაიცემა. aby-ს შემდეგ მოდის **წარსულის ფორმა** (-l, -la, -li), მაშინაც კი, როცა თხოვნა მომავალს ეხება: „Zavolaj mi!“ → Povedala, **aby** si jej **zavolal**. (თქვა, რომ დაურეკო.) ქართულშიც ასეთ წინადადებაში ზმნა სხვა ფორმას იღებს („დაურეკო“), სლოვაკურში კი ეს წარსულის ფორმაა.",
+      "თხოვნა ან დავალება **aby**-თი (რომ, რათა) გადმოიცემა. aby-ს შემდეგ მოდის **წარსულის ფორმა** (-l, -la, -li), მაშინაც კი, როცა თხოვნა მომავალს ეხება: „Zavolaj mi!“ → Povedala, **aby** si jej **zavolal**. (თქვა, რომ დაურეკო.) ქართულშიც ასეთ წინადადებაში ზმნა სხვა ფორმას იღებს („დაურეკო“), სლოვაკურში კი ეს წარსულის ფორმაა.",
       "Aby იღებს som, si, sme და ste-ს, ზუსტად როგორც წარსული დრო: aby **som**, aby **si**. on, ona და oni-სთან aby მარტო დგას: Povedzte mu, prosím, **aby** mi **zavolal**. (Povedzte = უთხარით, vy-სთვის.)"
     ]
   },
@@ -1426,7 +1426,7 @@
     ],
     "t": [
       "**aby**-ს შემდეგ წარსულის ფორმა: aby sme **počkali**. Počkáme ნიშნავს „მოვიცდით“.",
-      "როცა გინდათ, რომ სხვამ რამე გააკეთოს, საჭიროა **aby**; že ფაქტს გადასცემს."
+      "როცა გინდათ, რომ სხვამ რამე გააკეთოს, საჭიროა **aby**; že ფაქტს გადმოსცემს."
     ]
   },
   "a2-u6-l7.grammar-ze-or-aby.title": {
@@ -1439,8 +1439,8 @@
       "**Aby** passes on a request, always with the past form: Tomáš povedal, **aby** sme počkali. = Tomáš told us to wait."
     ],
     "t": [
-      "**Že** ფაქტს გადასცემს, თავის დროში: Tomáš povedal, **že** počká. = ტომაშმა თქვა, რომ მოიცდის.",
-      "**Aby** თხოვნას გადასცემს, ყოველთვის წარსულის ფორმით: Tomáš povedal, **aby** sme počkali. = ტომაშმა თქვა, რომ მოვიცადოთ. ქართულში ორივეგან „რომ“-ია, განსხვავებას ზმნის ფორმა აჩვენებს: მოიცდის / მოვიცადოთ."
+      "**Že** ფაქტს გადმოსცემს, თავის დროში: Tomáš povedal, **že** počká. = ტომაშმა თქვა, რომ მოიცდის.",
+      "**Aby** თხოვნას გადმოსცემს, ყოველთვის წარსულის ფორმით: Tomáš povedal, **aby** sme počkali. = ტომაშმა თქვა, რომ მოვიცადოთ. ქართულში ორივეგან „რომ“-ია, განსხვავებას ზმნის ფორმა აჩვენებს: მოიცდის / მოვიცადოთ."
     ]
   },
   "a2-u6-l7.grammar-ze-or-aby.examples": {
@@ -1480,7 +1480,7 @@
     ],
     "t": [
       "**aby**-ს შემდეგ წარსულის ფორმა, ემა კი ქალია: aby som **kúpila**.",
-      "ეს თხოვნაა, ამიტომ **aby**; že ფაქტს გადასცემს."
+      "ეს თხოვნაა, ამიტომ **aby**; že ფაქტს გადმოსცემს."
     ]
   },
   "a2-u6-l7.build-pani-kollarova-povedala.answers": {
@@ -1540,7 +1540,7 @@
   },
   "a2-u6-l8.navrh.en": {
     "en": "suggestion, proposal",
-    "t": "შეთავაზება, წინადადება"
+    "t": "შეთავაზება"
   },
   "a2-u6-l8.navrh.note": {
     "en": "Mám pre vás **návrh**: výlet v máji! = I've got a suggestion for you: a trip in May! **navrhnúť** = to suggest; **trasa** = the route of a trip.",
@@ -1642,7 +1642,7 @@
   },
   "a2-u6-l8.maj-sa-dobre.note": {
     "en": "More friendly endings: **Pekný deň!** (Have a nice day!) Then sign: **Tvoja Emma** (a woman), **Tvoj Tomáš** (a man).",
-    "t": "კიდევ მეგობრული დასასრულები: **Pekný deň!** (კარგი დღე გქონდეს!) მერე ხელმოწერა: **Tvoja Emma** (შენი ემა, ქალი), **Tvoj Tomáš** (შენი ტომაში, კაცი)."
+    "t": "სხვა მეგობრული დასასრულები: **Pekný deň!** (კარგი დღე გქონდეს!) მერე ხელმოწერა: **Tvoja Emma** (შენი ემა, ქალი), **Tvoj Tomáš** (შენი ტომაში, კაცი)."
   },
   "a2-u6-l8.choice-tvoj-tomas.question": {
     "en": "How does Tomáš sign his e-mail to Emma?",
@@ -1650,7 +1650,7 @@
   },
   "a2-u6-l8.choice-tvoj-tomas.why": {
     "en": "**Tvoj** matches the writer: Tomáš is a man, so tvoj. Emma signs **Tvoja** Emma.",
-    "t": "**Tvoj** (შენი) დამწერს ეთანხმება: ტომაში კაცია, ამიტომ tvoj. ემა აწერს: **Tvoja** Emma."
+    "t": "**Tvoj** (შენი) დამწერს ეთანხმება: ტომაში კაცია, ამიტომ tvoj. ემა ხელს აწერს: **Tvoja** Emma."
   },
   "a2-u6-l8.build-pozdravuj-tomasa.prompt": {
     "en": "Say hi to Tomáš! Take care!",
@@ -1842,7 +1842,7 @@
   },
   "a2-u6-l9.fill-dakujem-vam-za-odpoved.why": {
     "en": "In Slovak you give thanks **to** someone: the to-whom form, **Vám**, with a capital in a letter. Vás is the object form.",
-    "t": "სლოვაკურში მადლობას ვინმეს უხდით, ამიტომ datív-ის ფორმაა (მიცემითი ბრუნვა): **Vám**, წერილში დიდი ასოთი. Vás ობიექტის ფორმაა."
+    "t": "მადლობას ვინმეს უხდით, როგორც ქართულში („გიხდით მადლობას“), ამიტომ datív-ის ფორმაა (მიცემითი ბრუნვა): **Vám**, წერილში დიდი ასოთი. Vás ობიექტის ფორმაა."
   },
   "a2-u6-l9.build-pani-sokolova-mi-odpovedala.answers": {
     "en": [
@@ -2008,11 +2008,11 @@
   },
   "a2-u6-l10.vazeny-pan-inzinier.en": {
     "en": "Dear Sir, (to a man with an engineer's title)",
-    "t": "პატივცემულო ბატონო, (კაცს, რომელსაც ინჟინრის წოდება აქვს)"
+    "t": "პატივცემულო ბატონო, (კაცს, რომელსაც ინჟინრის ტიტული აქვს)"
   },
   "a2-u6-l10.vazeny-pan-inzinier.note": {
     "en": "Formal letters often use a title instead of the name: **Vážená pani inžinierka**, **Vážený pán riaditeľ**, **Vážená pani doktorka**.",
-    "t": "ოფიციალურ წერილებში სახელის ნაცვლად ხშირად წოდებას წერენ: **Vážená pani inžinierka**, **Vážený pán riaditeľ** (დირექტორი), **Vážená pani doktorka** (ექიმი)."
+    "t": "ოფიციალურ წერილებში სახელის ნაცვლად ხშირად ტიტულს წერენ: **Vážená pani inžinierka**, **Vážený pán riaditeľ** (დირექტორი), **Vážená pani doktorka** (ექიმი)."
   },
   "a2-u6-l10.priloha.en": {
     "en": "attachment",
@@ -2181,7 +2181,7 @@
     "t": [
       "მოგზაურობის გაუქმება.",
       "თავის თათბირზე შეხვედრა.",
-      "დღის ნაცვლად ხვალ შეხვედრა."
+      "დღეს კი არა, ხვალ შეხვედრა."
     ]
   },
   "a2-u6-l11.fill-prepac-nehnevaj-sa.en": {
@@ -2416,7 +2416,7 @@
   },
   "a2-u6-l12.grammar-two-consonants-i.table.caption": {
     "en": "poslať = to send, sadnúť si = to sit down, ozvať sa = to get in touch, vziať si = to take, vysvetliť = to explain, navrhnúť = to suggest",
-    "t": "poslať = გაგზავნა, sadnúť si = დაჯდომა, ozvať sa = დაკავშირება, ხმის მიცემა, vziať si = აღება, vysvetliť = ახსნა, navrhnúť = შეთავაზება"
+    "t": "poslať = გაგზავნა, sadnúť si = დაჯდომა, ozvať sa = დაკავშირება, გამოხმაურება, vziať si = აღება, vysvetliť = ახსნა, navrhnúť = შეთავაზება"
   },
   "a2-u6-l12.grammar-two-consonants-i.table.head": {
     "en": [
@@ -2536,7 +2536,7 @@
   },
   "a2-u6-l12.fill-plati-to-ozvi-sa.en": {
     "en": "Is it on? Get back to me this evening.",
-    "t": "ძალაშია? დღეს საღამოს დამიკავშირდი."
+    "t": "ისევ ძალაშია? დღეს საღამოს დამიკავშირდი."
   },
   "a2-u6-l12.fill-plati-to-ozvi-sa.why": {
     "en": "Ozvať sa → ozvú sa: the stem ozv- ends in two consonants, so add **-i**: **Ozvi** sa.",
@@ -2755,7 +2755,7 @@
   },
   "a2-u6-l13.choice-pi-vela-caju.why": {
     "en": "Piť has a short command: **pi**, with no j. Piješ just says you drink.",
-    "t": "Piť-ს მოკლე ბრძანებითი აქვს: **pi**, j-ს გარეშე. Piješ უბრალოდ ამბობს, რომ სვამ."
+    "t": "Piť-ს მოკლე ბრძანებითი აქვს: **pi**, j-ს გარეშე. Piješ უბრალოდ ნიშნავს „სვამ“."
   },
   "a2-u6-l13.fill-zajtra-mas-pohovor-bud.en": {
     "en": "You've got an interview tomorrow. Be there at nine!",
@@ -3146,7 +3146,7 @@
     ],
     "t": [
       "ცხრაზე აქ იყავით.",
-      "წარმატებებს გისურვებთ სტაჟირებაზე!"
+      "წარმატებულ სტაჟირებას გისურვებთ!"
     ]
   },
   "a2-u6-l14.fill-porada-zacina-nemeskajte.en": {
@@ -3203,7 +3203,7 @@
   },
   "a2-u6-l14.fill-vela-uspechov-na-stazi.en": {
     "en": "Good luck with your internship, Emma!",
-    "t": "წარმატებებს გისურვებ სტაჟირებაზე, ემა!"
+    "t": "წარმატებულ სტაჟირებას გისურვებ, ემა!"
   },
   "a2-u6-l14.fill-vela-uspechov-na-stazi.why": {
     "en": "**Veľa** takes the genitive. Things you can count go plural, veľa **úspechov**; things you can't stay singular, as in veľa zdravia.",
@@ -3692,7 +3692,7 @@
       "With two nouns, Slovak puts the new information at the end of the sentence. Komu si poslala balík? (To whom?) – Poslala som balík **mame**. Čo si poslala mame? (What?) – Poslala som mame **balík**."
     ],
     "t": [
-      "ორი არსებითი სახელისას სლოვაკური ახალ ინფორმაციას წინადადების ბოლოს სვამს. Komu si poslala balík? (ვის?) – Poslala som balík **mame**. Čo si poslala mame? (რა?) – Poslala som mame **balík**. ქართულში ასეთი სიტყვა ზმნის წინ დგას („ამანათი დედას გავუგზავნე“), სლოვაკურში კი ბოლოს."
+      "როცა წინადადებაში ორი არსებითი სახელია, სლოვაკური ახალ ინფორმაციას ბოლოს სვამს. Komu si poslala balík? (ვის?) – Poslala som balík **mame**. Čo si poslala mame? (რა?) – Poslala som mame **balík**. ქართულში ასეთი სიტყვა ხშირად ზმნის წინ დგას („ამანათი დედას გავუგზავნე“), სლოვაკურში კი წინადადების ბოლოს მიდის."
     ]
   },
   "a2-u6-l16.grammar-new-information-last.examples": {
@@ -3859,7 +3859,7 @@
   },
   "a2-u6-l17.fill-lucia-sa-pytala-ci.why": {
     "en": "A yes-or-no question is passed on with **či** (whether).",
-    "t": "„კი/არა“ კითხვა **či**-თი (თუ არა) გადაიცემა."
+    "t": "„კი/არა“ კითხვა **či**-თი (თუ არა) გადმოიცემა."
   },
   "a2-u6-l17.build-povedzte-jej-prosim.prompt": {
     "en": "Please tell her to call me. (to a stranger)",
