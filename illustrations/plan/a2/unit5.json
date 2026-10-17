@@ -1,0 +1,598 @@
+{
+  "unit": "a2-u5",
+  "pictures": 34,
+  "items": [
+    {
+      "lesson": "a2-u5-l1",
+      "exercise": "nemas-chut-ist-zajtra",
+      "type": "intro",
+      "text": "Nemáš chuť ísť zajtra korčuľovať? = Do you fancy going skating tomorrow?",
+      "picture": "Split picture of a phone call. Left: Tomáš, a pair of ice skates slung over his shoulder, phones cheerfully from a snowy street. Right: in the dorm room, Emma, in bed with a blanket round her and a box of tissues beside her, answers, looking miserable.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l1",
+      "exercise": "choice-prosim-ahoj-emma",
+      "type": "choice",
+      "text": "Prosím? — Ahoj, Emma, tu je Tomáš. Nemáš chuť ísť zajtra korčuľovať? Emma's phone rings. What does Tomáš want?",
+      "reuse": "a2-u5-l1#nemas-chut-ist-zajtra",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l1",
+      "exercise": "choice-ako-zdvihnut-telefon",
+      "type": "choice",
+      "text": "Your phone rings. How can you answer it?",
+      "reuse": "u2-telefon#halo",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l1",
+      "exercise": "ako-sa-citis",
+      "type": "intro",
+      "text": "Ako sa cítiš? = How are you feeling?",
+      "reuse": "u9-lekar#necitim-sa-dobre",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l1",
+      "exercise": "prechladla-som",
+      "type": "intro",
+      "text": "Prechladla som. = I've caught a cold. (a woman speaking)",
+      "reuse": "u9-lekar#som-chora",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l1",
+      "exercise": "mam-nadchu",
+      "type": "intro",
+      "text": "Mám nádchu. = I've got a runny nose.",
+      "picture": "Emma, wrapped in a blanket at her desk in the dorm room, blows her red nose into a tissue; crumpled tissues pile up beside her.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l1",
+      "exercise": "kaslem",
+      "type": "intro",
+      "text": "Kašlem. = I've got a cough.",
+      "picture": "Emma, sitting up in bed in the dorm room, coughs hard into her elbow, her eyes screwed shut.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l2",
+      "exercise": "vyzeras-zle",
+      "type": "intro",
+      "text": "Vyzeráš zle. = You look ill.",
+      "picture": "Lucia, just home, her bag still on her shoulder, stops in the doorway of the dorm room and looks at Emma with concern: Emma, huddled on her bed in a blanket, is pale as a sheet, with dark rings under her eyes.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l2",
+      "exercise": "si-bleda",
+      "type": "intro",
+      "text": "Si bledá. = You're pale. (to a woman)",
+      "reuse": "a2-u5-l2#vyzeras-zle",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l2",
+      "exercise": "teplota",
+      "type": "intro",
+      "text": "teplota = temperature",
+      "picture": "In the dorm room, Emma, sitting up in bed, squints at the thermometer she has just taken from under her arm; Lucia leans over to look too.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l2",
+      "exercise": "choice-mam-teplotu",
+      "type": "choice",
+      "text": "Mám teplotu tridsaťosem stupňov. Emma looks at the thermometer. What does she say?",
+      "reuse": "a2-u5-l2#teplota",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l2",
+      "exercise": "med",
+      "type": "intro",
+      "text": "med = honey",
+      "reuse": "a2-u3-stedry-vecer#oplatky-s-medom",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l3",
+      "exercise": "sestricka",
+      "type": "intro",
+      "text": "sestrička = nurse",
+      "picture": "At the doctor's surgery, the nurse opens the door of the consulting room and calls in the next patient; in the waiting room, Emma, wrapped in her scarf, gets up from her chair.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l3",
+      "exercise": "preukaz-poistenca",
+      "type": "intro",
+      "text": "preukaz poistenca = health insurance card",
+      "picture": "At the nurse's desk in the doctor's surgery, Emma hands over her blue European health insurance card; the nurse holds out her hand for it, smiling.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l3",
+      "exercise": "choice-mate-preukaz-poistenca",
+      "type": "choice",
+      "text": "Dobrý deň. Máte preukaz poistenca? What does the nurse want to see?",
+      "reuse": "a2-u5-l3#preukaz-poistenca",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l3",
+      "exercise": "cakaren",
+      "type": "intro",
+      "text": "čakáreň = waiting room",
+      "picture": "The waiting room of the doctor's surgery: chairs along the walls, a coat stand, a window. The pensioner waits with his stick, a young mother holds a coughing toddler on her knee, and Emma, in her scarf, sniffles into a tissue.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l3",
+      "exercise": "dalsi-prosim",
+      "type": "intro",
+      "text": "Ďalší, prosím! = Next, please!",
+      "reuse": "a2-u5-l3#sestricka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l3",
+      "exercise": "choice-sestricka-otvori-dvere",
+      "type": "choice",
+      "text": "The nurse opens the door to call in the next patient. What does she say?",
+      "reuse": "a2-u5-l3#sestricka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l3",
+      "exercise": "lekar-a-pacient",
+      "type": "intro",
+      "text": "lekár a pacient = doctor and patient",
+      "reuse": "a2-u5-l4#dychajte-zhlboka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l3",
+      "exercise": "co-vam-je",
+      "type": "intro",
+      "text": "Čo vám je? = What's the matter?",
+      "reuse": "a2-u4-l17#co-ti-je",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l4",
+      "exercise": "dychajte-zhlboka",
+      "type": "intro",
+      "text": "Dýchajte zhlboka. = Breathe deeply.",
+      "picture": "In the doctor's surgery, Emma sits on the edge of the examination couch in her white T-shirt and takes a deep breath, eyes closed; the doctor listens to her back through her stethoscope.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l4",
+      "exercise": "ukazte-mi-hrdlo",
+      "type": "intro",
+      "text": "Ukážte mi hrdlo. = Show me your throat.",
+      "picture": "In the doctor's surgery, Emma opens her mouth wide to say ah; the doctor, holding a wooden spatula, shines a small torch into her throat.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l4",
+      "exercise": "angina",
+      "type": "intro",
+      "text": "angína = tonsillitis, strep throat",
+      "reuse": "a2-u5-l4#ukazte-mi-hrdlo",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l4",
+      "exercise": "choice-nie-je-to-zapal",
+      "type": "choice",
+      "text": "Nie je to zápal pľúc, je to angína. What does the doctor say?",
+      "reuse": "a2-u5-l4#ukazte-mi-hrdlo",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l4",
+      "exercise": "mam-chripku",
+      "type": "intro",
+      "text": "Mám chrípku. = I've got flu.",
+      "reuse": "u9-lekar#choice-rychlo-sa-uzdrav",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l4",
+      "exercise": "antibiotika",
+      "type": "intro",
+      "text": "antibiotiká = antibiotics",
+      "reuse": "u9-lekar#liek",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l4",
+      "exercise": "pite-vela-tekutin",
+      "type": "intro",
+      "text": "Pite veľa tekutín. = Drink plenty of fluids.",
+      "picture": "Emma, in bed in the dorm room, drinks a big glass of water; on her bedside table stand a full jug of water, a teapot and a bottle of juice.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l5",
+      "exercise": "lekarnicka",
+      "type": "intro",
+      "text": "lekárnička = pharmacist (a woman)",
+      "picture": "A pharmacy: shelves of medicine boxes and a glass cabinet behind the counter. The pharmacist takes Emma's prescription across the counter and reads it over her half-moon glasses.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l5",
+      "exercise": "na-recept-bez-receptu",
+      "type": "intro",
+      "text": "na recept, bez receptu = on prescription, over the counter",
+      "reuse": "a2-u5-l5#lekarnicka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l5",
+      "exercise": "choice-antibiotika-su-na",
+      "type": "choice",
+      "text": "Antibiotiká sú na recept. What does the pharmacist say?",
+      "reuse": "a2-u5-l5#lekarnicka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l5",
+      "exercise": "tabletka",
+      "type": "intro",
+      "text": "tabletka = tablet, pill",
+      "picture": "Close up at Emma's desk: Emma presses a small white tablet out of a blister strip into her palm; the opened pack and a glass of water stand beside it.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l5",
+      "exercise": "trikrat-denne",
+      "type": "intro",
+      "text": "trikrát denne = three times a day",
+      "picture": "Three small scenes of one day, side by side, in the dorm room: in the morning, the sun rising in the window; at midday, the sun high; at night, the moon in the window. Each time Emma takes a tablet with a glass of water.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l5",
+      "exercise": "choice-uzivajte-dve-tabletky",
+      "type": "choice",
+      "text": "The pharmacist says: Užívajte dve tabletky dvakrát denne. How many tablets a day is that?",
+      "reuse": "a2-u5-l5#lekarnicka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l5",
+      "exercise": "balenie",
+      "type": "intro",
+      "text": "balenie = pack, packet",
+      "reuse": "a2-u5-l5#tabletka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l5",
+      "exercise": "choice-v-jednom-baleni",
+      "type": "choice",
+      "text": "V jednom balení je dvadsať tabletiek. What does this tell you?",
+      "reuse": "a2-u5-l5#tabletka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l6",
+      "exercise": "sirup-proti-kaslu",
+      "type": "intro",
+      "text": "sirup proti kašľu = cough syrup",
+      "reuse": "a2-u5-l6#co-mi-odporucate",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l6",
+      "exercise": "kvapky-do-nosa",
+      "type": "intro",
+      "text": "kvapky do nosa = nose drops",
+      "picture": "At the mirror in the dorm bathroom, Emma tips her head back and squeezes drops from a small bottle into her nose.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l6",
+      "exercise": "choice-mate-nieco-proti",
+      "type": "choice",
+      "text": "Máte niečo proti nádche? What is Emma asking for?",
+      "reuse": "a2-u5-l5#lekarnicka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l6",
+      "exercise": "co-mi-odporucate",
+      "type": "intro",
+      "text": "Čo mi odporúčate? = What do you recommend?",
+      "picture": "At the pharmacy counter, Emma, sniffling, asks the pharmacist's advice; the pharmacist holds up a bottle of cough syrup, recommending it.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l6",
+      "exercise": "vitaminy",
+      "type": "intro",
+      "text": "vitamíny = vitamins",
+      "reuse": "a2-u5-l6#nechaj-tak-ja-to",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l6",
+      "exercise": "to-si-nemozem-dovolit",
+      "type": "intro",
+      "text": "To si nemôžem dovoliť. = I can't afford that.",
+      "reuse": "a2-u5-l6#nechaj-tak-ja-to",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l6",
+      "exercise": "nechaj-tak-ja-to",
+      "type": "intro",
+      "text": "Nechaj tak, ja to zaplatím. = Leave it, I'll pay.",
+      "picture": "At the pharmacy counter, Emma, a big jar of vitamins in her hand, winces as she looks into her nearly empty purse; Lucia, beside her, waves Emma's purse away and holds her own card to the card reader, while the pharmacist smiles.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l6",
+      "exercise": "choice-lucia-chce-zaplatit",
+      "type": "choice",
+      "text": "Lucia wants to pay for Emma's vitamins. What does she say?",
+      "reuse": "a2-u5-l6#nechaj-tak-ja-to",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l7",
+      "exercise": "lyzovat",
+      "type": "intro",
+      "text": "lyžovačka = skiing trip",
+      "reuse": "a2-u2-l5#lyzovat-sa",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l7",
+      "exercise": "spadol-som",
+      "type": "intro",
+      "text": "Spadol som. = I fell. (a man speaking)",
+      "reuse": "a2-u2-l6#spadnut",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l7",
+      "exercise": "zlomil-som-si-ruku",
+      "type": "intro",
+      "text": "Zlomil som si ruku. = I've broken my arm. (a man speaking)",
+      "picture": "On a snowy ski slope in the mountains, Marek sits in the snow after a fall, his skis tangled, clutching his arm and wincing with pain; Tomáš skids to a stop beside him.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l7",
+      "exercise": "zavolaj-sanitku",
+      "type": "intro",
+      "text": "Zavolaj sanitku! = Call an ambulance!",
+      "picture": "On the ski slope, Tomáš kneels in the snow beside Marek, who lies holding his arm, and phones urgently for an ambulance; other skiers stop to look.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l7",
+      "exercise": "choice-marek-nemoze-vstat",
+      "type": "choice",
+      "text": "Marek can't get up. Which number does Tomáš call?",
+      "reuse": "a2-u5-l7#zavolaj-sanitku",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l7",
+      "exercise": "nemocnica",
+      "type": "intro",
+      "text": "nemocnica = hospital",
+      "picture": "An ambulance with its blue lights flashing pulls up at the A&E entrance of a big hospital; paramedics help Marek out, his arm strapped to his chest, and Tomáš follows. Through the glass doors: a waiting area with rows of plastic chairs.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l7",
+      "exercise": "pohotovost",
+      "type": "intro",
+      "text": "pohotovosť = A&E, emergency service",
+      "reuse": "a2-u5-l7#nemocnica",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l8",
+      "exercise": "kde-vas-boli",
+      "type": "intro",
+      "text": "Kde vás bolí? = Where does it hurt?",
+      "picture": "In the hospital's bright treatment room, Veronika asks Marek gently where it hurts; Marek, sitting on the couch, points to his forearm, wincing.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l8",
+      "exercise": "choice-dobry-den-volam",
+      "type": "choice",
+      "text": "Dobrý deň, volám sa Veronika, som lekárka. Kde vás bolí? Who is talking to Marek at A&E?",
+      "reuse": "a2-u5-l8#kde-vas-boli",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l8",
+      "exercise": "zlomenina",
+      "type": "intro",
+      "text": "zlomenina = fracture, break",
+      "picture": "In the hospital's treatment room, Veronika points to the X-ray of Marek's forearm on the screen, where the bone is clearly broken; Marek stares at it in dismay.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l8",
+      "exercise": "sadra",
+      "type": "intro",
+      "text": "sadra = plaster cast",
+      "picture": "In the hospital's treatment room, Veronika smooths the last of a white plaster cast round Marek's arm, from his hand to his elbow, and wags a finger at him with a smile as he protests that he has to get back to work.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l8",
+      "exercise": "byt-na-pn-ke",
+      "type": "intro",
+      "text": "byť na PN-ke = to be on sick leave",
+      "picture": "A weekday morning in Marek's living room: Marek, his arm in plaster, slumps on the sofa in his red flannel shirt, scowling and bored, a cookery show on the TV.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l8",
+      "exercise": "choice-sest-tyzdnov-budete",
+      "type": "choice",
+      "text": "Šesť týždňov budete na PN-ke. What does Veronika tell Marek?",
+      "reuse": "a2-u5-l8#sadra",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l8",
+      "exercise": "praca-vam-neutecie",
+      "type": "intro",
+      "text": "Práca vám neutečie. = Work can wait.",
+      "reuse": "a2-u5-l8#sadra",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l8",
+      "exercise": "som-nahnevany",
+      "type": "choice",
+      "text": "Som nahnevaný. Marek can't cook for six weeks. What does he mean?",
+      "reuse": "a2-u5-l8#byt-na-pn-ke",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l8",
+      "exercise": "choice-musite-si-oddychnut",
+      "type": "choice",
+      "text": "Musíte si oddýchnuť. Práca vám neutečie. What does Veronika tell Marek before he goes home?",
+      "reuse": "a2-u5-l8#sadra",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l9",
+      "exercise": "hlava-a-krk",
+      "type": "intro",
+      "text": "hlava a krk = head and neck",
+      "picture": "At his laptop in his untidy office, Tomáš tilts his head to one side and rubs the back of his stiff neck.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l9",
+      "exercise": "rameno-a-ruka",
+      "type": "intro",
+      "text": "rameno a ruka = shoulder and arm",
+      "picture": "In Marek's living room, Marek shows Lucia where it hurts: he touches his shoulder with his good hand; his other arm, in a white plaster cast, rests in a sling.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l9",
+      "exercise": "chrbat-a-brucho",
+      "type": "intro",
+      "text": "chrbát a brucho = back and stomach",
+      "picture": "Two halves. Left: Tomáš, stiff after the skiing trip, bends forward with a hand pressed to his aching back. Right: Lucia curls up on the sofa clutching her stomach, a half-eaten box of chocolates beside her.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l9",
+      "exercise": "noha-a-koleno",
+      "type": "intro",
+      "text": "noha a koleno = leg and knee",
+      "reuse": "a2-u2-l6#modrina",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l9",
+      "exercise": "srdce",
+      "type": "intro",
+      "text": "srdce = heart",
+      "picture": "In a hospital corridor, Marek, his arm in plaster, presses his good hand to his heart and gazes dreamily after Veronika as she walks away.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l10",
+      "exercise": "tvar",
+      "type": "intro",
+      "text": "tvár = face",
+      "picture": "A close-up of Veronika's face at the hospital, smiling warmly.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l10",
+      "exercise": "oci-a-usi",
+      "type": "intro",
+      "text": "oči a uši = eyes and ears",
+      "picture": "In the Šimkos' living room, Samko pulls a funny face at Lucia: he pulls his ears out to the sides with his fingers and opens his eyes as wide as they will go; Lucia laughs.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l10",
+      "exercise": "nos-a-usta",
+      "type": "intro",
+      "text": "nos a ústa = nose and mouth",
+      "picture": "In the snowy front garden of the Šimkos' house, Samko finishes a snowman's face: he pushes in a carrot for its nose and a curved row of small pebbles for its smiling mouth.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l10",
+      "exercise": "choice-marek-ma-kratke",
+      "type": "choice",
+      "text": "Marek má krátke kučeravé vlasy. What does Marek look like?",
+      "reuse": "a2-u3-vyzor#kuceravy",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l11",
+      "exercise": "zubar",
+      "type": "intro",
+      "text": "zubár = dentist",
+      "picture": "At the dentist's: Emma lies back in the big dentist's chair with her mouth wide open and her eyes wide; the dentist, a man in a white tunic with a mask under his chin, leans over her with a small mirror.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l11",
+      "exercise": "vseobecny-lekar",
+      "type": "intro",
+      "text": "všeobecný lekár = GP, family doctor",
+      "reuse": "u9-lekar#mam-horucku",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l11",
+      "exercise": "nevidim-dobre",
+      "type": "intro",
+      "text": "Nevidím dobre. = I can't see well.",
+      "picture": "In the Šimkos' kitchen, babka Helena tries to thread a needle, holding it at arm's length and squinting; she can't see the eye of it. Her glasses lie on the table beside her.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l11",
+      "exercise": "bolest",
+      "type": "intro",
+      "text": "bolesť = pain, ache",
+      "reuse": "u9-lekar#boli-ma-hlava",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l11",
+      "exercise": "choice-pan-kovac-nepocuje",
+      "type": "choice",
+      "text": "Pán Kováč says: Nepočujem dobre. Which doctor should he see?",
+      "picture": "At the porter's lodge, Emma says something through the window; pán Kováč leans towards her, cupping a hand behind his ear and frowning: he can't hear well.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u5-l19",
+      "exercise": "choice-uzivajte-jednu-tabletku",
+      "type": "choice",
+      "text": "Užívajte jednu tabletku trikrát denne. Listen. How often should you take the tablet?",
+      "reuse": "a2-u5-l5#lekarnicka",
+      "book": null
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "a2-u10-l1#studentsky-casopis": {
+    "picture": "In the dorm room, Lucia proudly holds up a copy of the university's student magazine, its glossy cover showing the university's main building with the clock over the entrance; behind her, her laptop is open on her desk with an article half-written. Emma, curious, reaches out for the magazine.",
+    "book": null
+  },
+  "a2-u10-l1#redakcia": {
+    "picture": "The student magazine's editorial office at the university, a small, cluttered room: a big shared table with laptops, page layouts pinned up on the wall, piles of old issues on the shelves. Three student editors look up and welcome Lucia, their newest editor, as she sits down at her own laptop for the first time.",
+    "book": null
+  },
+  "a2-u10-l1#stala-som-sa-redaktorkou": {
+    "reuse": "a2-u10-l1#redakcia",
+    "book": null
+  },
+  "a2-u10-l1#horoskop": {
+    "reuse": "a2-u10-l8#veris-horoskopom",
+    "book": null
+  },
+  "a2-u10-l1#anketa": {
+    "picture": "In a university corridor, Lucia, notebook and pen ready, asks pani Horváthová her poll question; pani Horváthová stops to think, a finger on her chin, while two students wait their turn to give their answers.",
+    "book": null
+  },
+  "a2-u10-l1#vychadzat": {
+    "reuse": "a2-u10-l1#nove-cislo",
+    "book": null
+  },
+  "a2-u10-l1#nove-cislo": {
+    "picture": "In the university's entrance hall, students grab copies of the new issue of the student magazine from a fresh stack on a table. Lucia, beaming, opens one at her first article, a page with a photo of pán Kováč, and shows it to Emma.",
+    "book": null
+  },
+  "a2-u10-l1#choice-ako-casto-vychadza": {
+    "reuse": "a2-u10-l1#studentsky-casopis",
+    "book": null
+  },
+  "a2-u10-l1#choice-o-com-pises": {
+    "reuse": "a2-u10-l1#studentsky-casopis",
+    "book": null
+  },
+  "a2-u10-l2#zmenit-sa": {
+    "picture": "Two halves, the same stretch of the Danube embankment in Bratislava, with the bridge with one pylon and a round saucer on top in both. Left, decades ago: old warehouses and cranes by the river, a couple of old cars, people in old-fashioned clothes. Right, today: new glass buildings with offices, flats and shops, and a busy riverside promenade with café tables.",
+    "book": null
+  },
+  "a2-u10-l2#kedysi-tu-bolo": {
+    "picture": "On the pavement outside the dormitory, pán Kováč holds up an old black-and-white photo of the same street, almost empty, with just one old car and a tram. Behind him the real street is packed with cars. Lucia, notebook in hand, interviews him for her article and takes notes.",
+    "book": null
+  },
+  "a2-u10-l2#choice-bratislava-sa-velmi": {
+    "reuse": "a2-u10-l2#kedysi-tu-bolo",
+    "book": null
+  },
+  "a2-u10-l2#budova": {
+    "reuse": "u4-l1#vysoky",
+    "book": null
+  },
+  "a2-u10-l2#vacsi-mensi": {
+    "reuse": "u3-l2#velky-maly",
+    "book": null
+  },
+  "a2-u10-l2#najvacsia-zmena": {
+    "reuse": "a2-u10-l2#zmenit-sa",
+    "book": null
+  },
+  "a2-u10-l2#doprava": {
+    "picture": "Rush hour in the centre of Bratislava: a long queue of cars at a red light, a tram squeezed in among them, a cyclist weaving between the bumpers. Tomáš, at the wheel of his old dark-blue estate car, drums his fingers on the steering wheel and sighs.",
+    "book": null
+  },
+  "a2-u10-l3#mate-chvilku": {
+    "picture": "On the square in the Old Town, by the fountain, Lucia, notebook and pen in hand, politely stops a tourist couple to interview them for her article: a man with a camera round his neck and a woman holding an open city map. They stop, friendly and curious.",
+    "book": null
+  },
+  "a2-u10-l3#turista": {
+    "picture": "On the square in the Old Town with its fountain and pastel houses, a tour group follows its guide, who holds a closed umbrella high in the air; the tourists, in sunhats and with backpacks, cameras and city maps, photograph everything around them.",
+    "book": null
+  },
+  "a2-u10-l3#choice-prepacte-mate-chvilku": {
+    "reuse": "a2-u10-l3#mate-chvilku",
+    "book": null
+  },
+  "a2-u10-l3#ste-tu-prvykrat": {
+    "reuse": "a2-u10-l3#mate-chvilku",
+    "book": null
+  },
+  "a2-u10-l3#preco-ste-prisli": {
+    "reuse": "a2-u10-l3#mate-chvilku",
+    "book": null
+  },
+  "a2-u10-l3#co-sa-vam-najviac": {
+    "reuse": "a2-u10-l3#mate-chvilku",
+    "book": null
+  },
+  "a2-u10-l3#pamiatka": {
+    "reuse": "u4-l1#hrad-je-stary",
+    "book": null
+  },
+  "a2-u10-l3#vacsina": {
+    "picture": "In the tiered lecture hall, Lucia stands at the front with a clipboard and asks the students a question for her poll: most of them raise their hands, only a few keep theirs down. Lucia counts the hands.",
+    "book": null
+  },
+  "a2-u10-l3#choice-odkial-su-turisti": {
+    "reuse": "a2-u10-l3#turista",
+    "book": null
+  },
+  "a2-u10-l3#rovnaky-ako-iny": {
+    "picture": "At a table in the café near the university, Emma and Lucia lay their phones side by side and burst out laughing: the very same phone in the very same yellow case. Tomáš puts his down next to them: a different one, bigger, in a black case.",
+    "book": null
+  },
+  "a2-u10-l4#podnajom": {
+    "reuse": "a2-u10-l4#byt-na-prenajom",
+    "book": null
+  },
+  "a2-u10-l4#byt-na-prenajom": {
+    "picture": "At the dorm kitchen table, Emma and Lucia scroll through ads for flats to rent on Lucia's laptop, the screen full of little photos of rooms and blocks of flats. Lucia points at one, excited.",
+    "book": null
+  },
+  "a2-u10-l4#neviem-ci-tu": {
+    "picture": "Dusk on the dormitory's narrow balcony: Lucia, hopeful, has just asked Emma to share a flat with her. Emma leans on the railing and looks out over the city lights, torn and unsure.",
+    "book": null
+  },
+  "a2-u10-l4#najomne": {
+    "reuse": "a2-u10-l5#zmluva-a-kaucia",
+    "book": null
+  },
+  "a2-u10-l4#zariadeny": {
+    "picture": "Two halves, the same small room in a flat to rent. Left: empty, with bare walls, a bare floor and a curtainless window. Right: furnished, with a bed, a table and two chairs, a wardrobe, a rug and curtains.",
+    "book": null
+  },
+  "a2-u10-l4#spolubyvajuca": {
+    "reuse": "u2-l1#odkial-si",
+    "book": null
+  },
+  "a2-u10-l4#byvanie": {
+    "reuse": "u3-l1#byvam-na-internate",
+    "book": null
+  },
+  "a2-u10-l5#je-byt-este": {
+    "picture": "Split picture of a phone call. Left: at her desk in the dorm room, the flat ad open on her laptop, Emma calls the number while Lucia listens in beside her. Right: the landlady, a brisk woman of about 60 with short dark-grey curls, pearl earrings and a camel-coloured cardigan, answers in her own living room.",
+    "book": null
+  },
+  "a2-u10-l5#majitelka": {
+    "picture": "The landlady, a brisk woman of about 60 with short dark-grey curls, pearl earrings and a camel-coloured cardigan, opens the door of the flat to Emma and Lucia, a big bunch of keys in one hand, and waves them in towards a bright living room.",
+    "book": null
+  },
+  "a2-u10-l5#choice-dobry-den-je": {
+    "reuse": "a2-u10-l5#je-byt-este",
+    "book": null
+  },
+  "a2-u10-l5#mozeme-si-byt": {
+    "reuse": "a2-u10-l5#je-byt-este",
+    "book": null
+  },
+  "a2-u10-l5#choice-podte-dalej-toto": {
+    "reuse": "a2-u10-l5#majitelka",
+    "book": null
+  },
+  "a2-u10-l5#zmluva-a-kaucia": {
+    "picture": "At the kitchen table of the flat to rent, Emma signs the contract while Lucia counts banknotes for the deposit into the hand of the landlady, a brisk woman of about 60 with short dark-grey curls, pearl earrings and a camel-coloured cardigan. A set of keys lies on the table between them.",
+    "book": null
+  },
+  "a2-u10-l6#mam-plne-ruky": {
+    "picture": "Emma's busiest day at her internship at Tomáš's company: at her desk, papers piled high on every side, she holds the phone between her ear and shoulder, types with one hand and holds out a document with the other. On the wall calendar behind her, Friday is circled in red.",
+    "book": null
+  },
+  "a2-u10-l6#termin": {
+    "reuse": "a2-u10-l6#mam-plne-ruky",
+    "book": null
+  },
+  "a2-u10-l6#kolega": {
+    "reuse": "u8-l1#oddelenie",
+    "book": null
+  },
+  "a2-u10-l6#lezie-mi-na": {
+    "picture": "In the office at Tomáš's company, a colleague at the next desk, a man of about 35 with gelled hair and a loud striped shirt, leans back with his feet on the desk and laughs into his phone. Emma, trying to work, glares at him with her fingers in her ears.",
+    "book": null
+  },
+  "a2-u10-l6#na-stole-lezi": {
+    "reuse": "a2-u10-l6#mam-plne-ruky",
+    "book": null
+  },
+  "a2-u10-l6#zapnut-vypnut": {
+    "picture": "Two halves at Emma's desk at her internship. Left: early morning, the office bright and still empty, Emma presses the power button and her computer screen lights up. Right: late in the evening, the office dark beyond her desk lamp, she switches the computer off, worn out.",
+    "book": null
+  },
+  "a2-u10-l6#cakajte-na-linke": {
+    "picture": "At the reception desk of Tomáš's company, Emma, the phone at her ear, politely asks a caller to hold, one finger raised; through the glass of a nearby office, Tomáš is deep in another call at his desk.",
+    "book": null
+  },
+  "a2-u10-l6#choice-klient-vola-tomasa": {
+    "reuse": "a2-u10-l6#cakajte-na-linke",
+    "book": null
+  },
+  "a2-u10-l7#mam-toho-po": {
+    "picture": "Late evening in the dorm room: Emma, home at last after a long day at work, drops her bag on the floor, kicks off her shoes and throws up her arms, fed up. Lucia looks up from her bed.",
+    "book": null
+  },
+  "a2-u10-l7#zobrat-si-volno": {
+    "reuse": "a2-u2-l1#oddychovat-a-pozerat",
+    "book": null
+  },
+  "a2-u10-l7#chod-na-prechadzku": {
+    "picture": "In the dorm room, Lucia holds out Emma's jacket and points firmly at the door; Emma, slumped over her laptop at her desk, looks up reluctantly. Through the window, a sunny afternoon.",
+    "book": null
+  },
+  "a2-u10-l7#nepi-tolko-kavy": {
+    "picture": "Late at night in the dorm kitchen, Lucia takes a mug of coffee out of Emma's hand. Three empty mugs already stand next to Emma's laptop, and Emma's eyes are wide and twitchy.",
+    "book": null
+  },
+  "a2-u10-l8#znamenie": {
+    "picture": "The twelve star signs drawn round a big circle like a clock face: a ram, a bull, twins, a crab, a lion, a young woman holding a sheaf of wheat, a pair of scales, a scorpion, an archer, a goat with a fish's tail, a man pouring water from a jug, and two fish.",
+    "book": null
+  },
+  "a2-u10-l8#grammar-twelve-signs": {
+    "reuse": "a2-u10-l8#znamenie",
+    "book": null
+  },
+  "a2-u10-l8#som-byk": {
+    "reuse": "a2-u10-l8#znamenie",
+    "book": null
+  },
+  "a2-u10-l8#choice-som-baran": {
+    "reuse": "a2-u10-l8#znamenie",
+    "book": null
+  },
+  "a2-u10-l8#mam-stastie": {
+    "picture": "In the park, Emma crouches in the grass and holds up a four-leaf clover she has just found, beaming; Tomáš, on his park bench, laughs.",
+    "book": null
+  },
+  "a2-u10-l8#veris-horoskopom": {
+    "picture": "At breakfast in the dorm kitchen, Emma reads her horoscope in the student magazine, wide-eyed, believing every word; Lucia, who wrote it, raises an eyebrow at her over her mug.",
+    "book": null
+  },
+  "a2-u10-l8#piatok-trinasteho": {
+    "picture": "Emma, still in her pyjamas and wrapped in a blanket, peers warily out of the dorm room door: a black cat sits in the corridor right outside, staring at her. She's about to shut the door and stay in.",
+    "book": null
+  },
+  "a2-u10-l9#stretnut-sa-stretavat": {
+    "reuse": "a2-u2-l1#stretavat-sa-s",
+    "book": null
+  },
+  "a2-u10-l9#davajte-si-pozor": {
+    "reuse": "a2-u7-l2#davaj-si-pozor",
+    "book": null
+  },
+  "a2-u10-l9#neponahlajte-sa": {
+    "reuse": "u7-l6#choice-nestihol-som-autobus",
+    "book": null
+  },
+  "a2-u10-l9#zit-na-vysokej": {
+    "picture": "Tomáš living it up: in sunglasses and a white linen suit, he lounges on the deck of a yacht in the sun, a glass of champagne in one hand and a plate of lobster beside him, shopping bags from expensive shops piled around his deckchair.",
+    "book": null
+  },
+  "a2-u10-l9#choice-nezite-na-vysokej": {
+    "reuse": "a2-u10-l8#veris-horoskopom",
+    "book": null
+  },
+  "a2-u10-l10#choice-radsej-chod-spat": {
+    "reuse": "u7-l1#referat",
+    "book": null
+  },
+  "a2-u10-l11#kariera": {
+    "reuse": "u8-l1#pohovor",
+    "book": null
+  },
+  "a2-u10-l11#vydat-sa-ozenit": {
+    "reuse": "u4-rodina#zenaty-vydata",
+    "book": null
+  },
+  "a2-u10-l11#materska-dovolenka": {
+    "picture": "A weekday morning in a park: a young mother on maternity leave pushes a pram along the path, her baby asleep inside, and stops to smile at it, while people with briefcases hurry past to work.",
+    "book": null
+  },
+  "a2-u10-l11#choice-po-materskej-dovolenke": {
+    "reuse": "a2-u10-l11#materska-dovolenka",
+    "book": null
+  },
+  "a2-u10-l11#dieta-tinedzer-dospely": {
+    "reuse": "u4-rodina#syn-a-dcera",
+    "book": null
+  },
+  "a2-u10-l11#travit-cas": {
+    "reuse": "a2-u2-l1#volny-cas",
+    "book": null
+  },
+  "a2-u10-l11#choice-aky-je-vas": {
+    "reuse": "a2-u10-l1#anketa",
+    "book": null
+  },
+  "a2-u10-l12#hlasovalo-dvesto-studentov": {
+    "reuse": "a2-u10-l3#vacsina",
+    "book": null
+  },
+  "a2-u10-l13#som-same-ucho": {
+    "picture": "In the dorm room, Lucia sits cross-legged on her bed, chin propped on her hands, all ears, her phone recording on the blanket in front of her; Emma, on her own bed, starts telling her story.",
+    "book": null
+  },
+  "a2-u10-l13#vzdelanie": {
+    "reuse": "u8-l1#zivotopis",
+    "book": null
+  },
+  "a2-u10-l13#ekonomia": {
+    "reuse": "u7-l1#prednaska",
+    "book": null
+  },
+  "a2-u10-l13#chyba-mi-rodina": {
+    "picture": "Evening in the dorm room: Emma sits on her bed holding a framed photo of Emma's mum, Emma's dad and Emma's brother and sister in their back garden in Ireland. She looks at it, homesick, with a sad little smile.",
+    "book": null
+  },
+  "a2-u10-l13#rozhodla-som-sa": {
+    "picture": "In the dorm room, Emma has just told Lucia her decision: she's staying another year. Lucia throws her arms round her with a shriek of joy, and Emma laughs.",
+    "book": null
+  },
+  "a2-u10-l13#choice-preco-si-sa": {
+    "reuse": "a2-u10-l13#som-same-ucho",
+    "book": null
+  },
+  "a2-u10-spomienky#pamatas-si": {
+    "picture": "The evening before Emma signs the contract: Emma and Lucia sit close together on Emma's bed in the dorm room, a laptop on their knees, scrolling through photos of the last two years and laughing at one of them.",
+    "book": null
+  },
+  "a2-u10-spomienky#na-zaciatku": {
+    "reuse": "u3-l1#kde-je-kuchyna",
+    "book": null
+  },
+  "a2-u10-l14#choice-emma-chce-lucii": {
+    "reuse": "a2-u10-l13#som-same-ucho",
+    "book": null
+  }
+}

@@ -1,0 +1,4220 @@
+{
+  "a2-u4.titleEn": {
+    "en": "Travelling",
+    "t": "В пути"
+  },
+  "a2-u4.topics": {
+    "en": [
+      "Saying goodbye after a visit",
+      "Tickets and the train",
+      "A taxi",
+      "Booking a flight",
+      "At the airport",
+      "Commuting",
+      "Travel mishaps"
+    ],
+    "t": [
+      "Прощание после поездки в гости",
+      "Билеты и поезд",
+      "Такси",
+      "Покупка авиабилета",
+      "В аэропорту",
+      "Дорога на работу",
+      "Неприятности в дороге"
+    ]
+  },
+  "a2-u4.grammar": {
+    "en": [
+      "The instrumental of means",
+      "Adverbs and their comparison",
+      "Adverbs of degree and certainty",
+      "Relative ktorý",
+      "Lebo and preto",
+      "The conditional",
+      "Keby"
+    ],
+    "t": [
+      "Творительный падеж средства",
+      "Наречия и их степени сравнения",
+      "Наречия степени и уверенности",
+      "Относительное слово ktorý",
+      "Lebo и preto",
+      "Условное наклонение",
+      "Keby"
+    ]
+  },
+  "a2-u4-l1.titleEn": {
+    "en": "Back to Bratislava",
+    "t": "Обратно в Братиславу"
+  },
+  "a2-u4-l1.rozlucit-sa.en": {
+    "en": "to say goodbye",
+    "t": "попрощаться"
+  },
+  "a2-u4-l1.rozlucit-sa.note": {
+    "en": "After New Year in Žilina, Emma and Lucia say goodbye to Lucia's family: **rozlúčiť sa s** + the “with” form, s rodinou. A goodbye is a **rozlúčka**.",
+    "t": "После Нового года в Жилине Эмма и Луция прощаются с семьёй Луции: **rozlúčiť sa s** + творительный падеж, как «попрощаться с кем?»: s rodinou. Прощание — **rozlúčka**."
+  },
+  "a2-u4-l1.dakujem-za-odvoz.en": {
+    "en": "Thanks for the lift.",
+    "t": "Спасибо, что подвезли."
+  },
+  "a2-u4-l1.dakujem-za-odvoz.note": {
+    "en": "Lucia's dad drives them to the station. **odvoz** = a lift.",
+    "t": "Папа Луции везёт их на вокзал. **odvoz** — это когда вас подвозят на машине."
+  },
+  "a2-u4-l1.fill-musime-sa-rozlucit.en": {
+    "en": "We have to say goodbye to Lucia's family.",
+    "t": "Нам надо попрощаться с семьёй Луции."
+  },
+  "a2-u4-l1.fill-musime-sa-rozlucit.why": {
+    "en": "**Rozlúčiť sa s** takes the “with” form, the instrumental, so feminine -a becomes **-ou**: s Luciin**ou** rodin**ou**.",
+    "t": "**Rozlúčiť sa s** требует творительного падежа, как и «попрощаться с семьёй», поэтому женское -a меняется на **-ou**: s Luciin**ou** rodin**ou**."
+  },
+  "a2-u4-l1.choice-dakujem-vam-za.question": {
+    "en": "Emma thanks Lucia's mum, pani Šimková, for everything. What does she say?",
+    "t": "Эмма благодарит маму Луции, госпожу Шимкову, за всё. Что она скажет?"
+  },
+  "a2-u4-l1.choice-dakujem-vam-za.why": {
+    "en": "Emma says vy to Lucia's mum, so thanking her takes **vám**, as in Aj vám. Ti is for a friend, and vás is the object form.",
+    "t": "С мамой Луции Эмма на «вы», а благодарят по-словацки «кому?», поэтому **vám**, как в Aj vám. По-русски «благодарю вас», но vás — это винительный, здесь он не подходит. Ti — для друга."
+  },
+  "a2-u4-l1.velmi-sa-nam-tu-pacilo.en": {
+    "en": "We really enjoyed it here.",
+    "t": "Нам здесь очень понравилось."
+  },
+  "a2-u4-l1.velmi-sa-nam-tu-pacilo.note": {
+    "en": "The past of **páči sa**: it pleased us. One person says: Veľmi sa **mi** tu páčilo.",
+    "t": "Прошедшее время от **páči sa**, как «нравится → понравилось»: нам понравилось. Один человек скажет: Veľmi sa **mi** tu páčilo."
+  },
+  "a2-u4-l1.fill-velmi-sa-mi.en": {
+    "en": "Thank you, we really enjoyed it here.",
+    "t": "Спасибо, нам здесь очень понравилось."
+  },
+  "a2-u4-l1.fill-velmi-sa-mi.why": {
+    "en": "There's no he or she that pleased us, just “it”, so the past form takes the neuter **-lo**: páči**lo**.",
+    "t": "Понравился не «он» и не «она», а просто «оно», поэтому форма прошедшего времени среднего рода на **-lo**: páči**lo**, как «понравилось»."
+  },
+  "a2-u4-l1.stastnu-cestu.en": {
+    "en": "Have a good trip!",
+    "t": "Счастливого пути!"
+  },
+  "a2-u4-l1.stastnu-cestu.note": {
+    "en": "**cesta** = a journey, a trip. Lucia's mum says it at the station; the answer is Ďakujeme!",
+    "t": "**cesta** = путь, поездка. Мама Луции говорит это на вокзале; в ответ — Ďakujeme!"
+  },
+  "a2-u4-l1.match-rozlucka.pairs": {
+    "en": [
+      "to say goodbye",
+      "Thank you for everything.",
+      "Thanks for the lift.",
+      "Have a good trip!"
+    ],
+    "t": [
+      "попрощаться",
+      "Спасибо за всё.",
+      "Спасибо, что подвезли.",
+      "Счастливого пути!"
+    ]
+  },
+  "a2-u4-l1.cestovny-poriadok.en": {
+    "en": "timetable (trains, buses)",
+    "t": "расписание (поездов, автобусов)"
+  },
+  "a2-u4-l1.cestovny-poriadok.note": {
+    "en": "Lucia looks at it in an app (v aplikácii): she wants to **zistiť** (find out) when the train leaves. For classes, the timetable is a rozvrh hodín.",
+    "t": "Луция смотрит его в приложении (v aplikácii): она хочет **zistiť** (узнать), когда отходит поезд. Расписание занятий — это rozvrh hodín."
+  },
+  "a2-u4-l1.choice-lucia-chce-zistit.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u4-l1.choice-lucia-chce-zistit.options": {
+    "en": [
+      "Lucia wants to buy a ticket for the train to Bratislava.",
+      "Lucia wants to know when the train from Bratislava arrives.",
+      "Lucia wants to find out when the train to Bratislava leaves."
+    ],
+    "t": [
+      "Луция хочет купить билет на поезд в Братиславу.",
+      "Луция хочет знать, когда приходит поезд из Братиславы.",
+      "Луция хочет узнать, когда отходит поезд в Братиславу."
+    ]
+  },
+  "a2-u4-l1.fill-kedy-ide-vlak.en": {
+    "en": "When is there a train to Bratislava?",
+    "t": "Когда идёт поезд в Братиславу?"
+  },
+  "a2-u4-l1.fill-kedy-ide-vlak.why": {
+    "en": "The train is one thing, on, so ísť is **ide**. Idú is for oni, ideš for ty.",
+    "t": "Поезд один, on, поэтому ísť → **ide**, как «идёт». Idú — для oni, ideš — для ty."
+  },
+  "a2-u4-l1.rychlik.en": {
+    "en": "fast train",
+    "t": "скорый поезд"
+  },
+  "a2-u4-l1.rychlik.note": {
+    "en": "Slower is an **osobný vlak**, which stops everywhere. Faster is the **IC-čko** (an InterCity), which needs a reservation: to Bratislava it **trvá** (takes) two hours.",
+    "t": "Медленнее — **osobný vlak**, как наш пассажирский: останавливается везде. Быстрее — **IC-čko** (InterCity), в нём нужна бронь места: до Братиславы дорога **trvá** (длится) два часа."
+  },
+  "a2-u4-l1.odchod-a-prichod.en": {
+    "en": "departure and arrival",
+    "t": "отправление и прибытие"
+  },
+  "a2-u4-l1.odchod-a-prichod.note": {
+    "en": "In the app: **odchod** 15.10 (leaving), **príchod** 18.05 (arriving). Rýchlik má príchod o šiestej. = The fast train gets in at six.",
+    "t": "В приложении: **odchod** 15.10 (отправление), **príchod** 18.05 (прибытие) — корни те же, что в «отход» и «приход». Rýchlik má príchod o šiestej. = Скорый прибывает в шесть."
+  },
+  "a2-u4-l1.choice-v-aplikacii-rychlik.question": {
+    "en": "This is the line in Lucia's app. When does the train get to Bratislava?",
+    "t": "Это строка в приложении Луции. Когда поезд прибывает в Братиславу?"
+  },
+  "a2-u4-l1.choice-v-aplikacii-rychlik.options": {
+    "en": [
+      "at 15:10",
+      "at 18:05",
+      "at 17:05"
+    ],
+    "t": [
+      "в 15:10",
+      "в 18:05",
+      "в 17:05"
+    ]
+  },
+  "a2-u4-l1.choice-v-aplikacii-rychlik.why": {
+    "en": "Getting in is the arrival, **príchod**: 18:05. Odchod, 15:10, is when it leaves Žilina.",
+    "t": "Прибытие — **príchod**: 18:05. Odchod, 15:10, — это когда поезд отправляется из Жилины."
+  },
+  "a2-u4-l1.build-rychlik-je-pomalsi.prompt": {
+    "en": "The fast train is slower than the IC, but it's cheaper.",
+    "t": "Скорый поезд медленнее, чем IC, но он дешевле."
+  },
+  "a2-u4-l1.build-rychlik-je-pomalsi.traps": {
+    "en": [
+      "Rýchlik is masculine, so the comparative ends in **-ší**: pomal**ší**. Pomalšie would fit a neuter word like IC-čko.",
+      "It's still the rýchlik that's cheaper, a masculine word: lacnej**ší**."
+    ],
+    "t": [
+      "В русском «медленнее» одно на все случаи, а словацкое прилагательное согласуется с родом. Rýchlik — мужского рода, поэтому **-ší**: pomal**ší**. Pomalšie подошло бы к слову среднего рода, например IC-čko.",
+      "Дешевле всё тот же rýchlik, слово мужского рода: lacnej**ší**."
+    ]
+  },
+  "a2-u4-l1.fill-rychlik-ma-odchod.en": {
+    "en": "The fast train leaves Žilina at three and gets to Bratislava at six.",
+    "t": "Скорый отправляется из Жилины в три и прибывает в Братиславу в шесть."
+  },
+  "a2-u4-l1.fill-rychlik-ma-odchod.why": {
+    "en": "Getting to Bratislava is the arrival, **príchod**. Odchod is leaving, here from Žilina.",
+    "t": "Приезд в Братиславу — это прибытие, **príchod**. Odchod — отправление, здесь из Жилины."
+  },
+  "a2-u4-l1.build-cesta-ic-ckom-trva.answers": {
+    "en": [
+      "The journey by IC takes two hours."
+    ],
+    "t": [
+      "Поездка на IC занимает два часа.",
+      "На IC поездка занимает два часа.",
+      "Поездка на IC длится два часа."
+    ]
+  },
+  "a2-u4-l1.build-cesta-ic-ckom-trva.distractors": {
+    "en": [
+      "minutes",
+      "bus"
+    ],
+    "t": [
+      "минут",
+      "автобусе"
+    ]
+  },
+  "a2-u4-l1.speak-dakujeme-za-vsetko.en": {
+    "en": "Thank you for everything!",
+    "t": "Спасибо за всё!"
+  },
+  "a2-u4-l2.titleEn": {
+    "en": "At the ticket office",
+    "t": "В кассе"
+  },
+  "a2-u4-l2.stanica.en": {
+    "en": "station",
+    "t": "вокзал, станция"
+  },
+  "a2-u4-l2.stanica.note": {
+    "en": "A railway station is a **železničná stanica**; the main one is the **hlavná stanica**. Na stanici = at the station, na stanicu = to the station.",
+    "t": "Железнодорожный вокзал — **železničná stanica**; главный вокзал — **hlavná stanica**. Na stanici = на вокзале, na stanicu = на вокзал."
+  },
+  "a2-u4-l2.pokladna.en": {
+    "en": "ticket office",
+    "t": "касса"
+  },
+  "a2-u4-l2.pokladna.note": {
+    "en": "Lístky sú **v pokladni**. = Tickets are at the ticket office. In a shop, the pokladňa is the till.",
+    "t": "Lístky sú **v pokladni**. = Билеты продаются в кассе. В магазине pokladňa — тоже касса."
+  },
+  "a2-u4-l2.fill-listky-kupite-v.en": {
+    "en": "You can buy tickets at the station, at the ticket office.",
+    "t": "Билеты можно купить на вокзале, в кассе."
+  },
+  "a2-u4-l2.fill-listky-kupite-v.why": {
+    "en": "Where? takes the locative after **v**, and after a soft ň the ending is **-i**: v poklad**ni**, like v kaviarni.",
+    "t": "На вопрос «где?» после **v** — предложный падеж, а после мягкого ň окончание **-i**: v poklad**ni**, как v kaviarni."
+  },
+  "a2-u4-l2.jednosmerny-alebo-spiatocny.en": {
+    "en": "One-way or return?",
+    "t": "В одну сторону или туда и обратно?"
+  },
+  "a2-u4-l2.jednosmerny-alebo-spiatocny.note": {
+    "en": "A **jednosmerný** lístok goes one way; a **spiatočný** goes there and back (tam aj **naspäť**). Naspäť = späť = back.",
+    "t": "**jednosmerný** lístok — билет в одну сторону; **spiatočný** — туда и обратно (tam aj **naspäť**). Naspäť = späť = обратно."
+  },
+  "a2-u4-l2.choice-spiatocny.question": {
+    "en": "Lucia's dad is going to Bratislava and coming back in the evening. Which ticket does he need?",
+    "t": "Папа Луции едет в Братиславу, а вечером возвращается. Какой билет ему нужен?"
+  },
+  "a2-u4-l2.choice-spiatocny.why": {
+    "en": "There and back is **spiatočný**. Jednosmerný goes one way only, and a jedálny lístok is a menu.",
+    "t": "Туда и обратно — **spiatočný**. Jednosmerný — только в одну сторону, а jedálny lístok — это меню."
+  },
+  "a2-u4-l2.studentsky-listok.en": {
+    "en": "student ticket",
+    "t": "билет со студенческой скидкой"
+  },
+  "a2-u4-l2.studentsky-listok.note": {
+    "en": "The clerk asks: **Máte študentský preukaz?** (a student card). A full fare is a **celý** lístok, a half fare for children a **polovičný** lístok.",
+    "t": "Кассир спрашивает: **Máte študentský preukaz?** — это наш студенческий билет. Полный билет — **celý** lístok, детский за полцены — **polovičný** lístok."
+  },
+  "a2-u4-l2.fill-jeden-cely-a.en": {
+    "en": "One full-fare and one student ticket, please.",
+    "t": "Один полный и один студенческий, пожалуйста."
+  },
+  "a2-u4-l2.fill-jeden-cely-a.why": {
+    "en": "Lístok is masculine, so the adjective ends in **-ý**: študentsk**ý** lístok.",
+    "t": "Lístok — мужского рода, поэтому прилагательное на **-ý**: študentsk**ý** lístok."
+  },
+  "a2-u4-l2.build-dva-studentske-listky.prompt": {
+    "en": "Two student tickets, please.",
+    "t": "Два студенческих билета, пожалуйста."
+  },
+  "a2-u4-l2.build-dva-studentske-listky.traps": {
+    "en": [
+      "Lístok is masculine, so two is **dva**: dva lístky. Dve is for feminine and neuter words.",
+      "In the plural, adjectives with things end in **-é**: študentsk**é** lístky."
+    ],
+    "t": [
+      "Lístok — мужского рода, поэтому «два» — **dva**: dva lístky. Dve — для женского и среднего рода, как наше «две».",
+      "Во множественном числе прилагательное при названиях предметов оканчивается на **-é**: študentsk**é** lístky."
+    ]
+  },
+  "a2-u4-l2.miestenka.en": {
+    "en": "seat reservation",
+    "t": "бронь места (в поезде)"
+  },
+  "a2-u4-l2.miestenka.note": {
+    "en": "On the IC-čko you need a ticket **and** a miestenka. **miesto pri okne** = a window seat.",
+    "t": "В IC-čko нужен билет **и** miestenka. **miesto pri okne** = место у окна."
+  },
+  "a2-u4-l2.fill-na-ic-cko-potrebujete.en": {
+    "en": "For the IC you also need a seat reservation.",
+    "t": "Для IC вам нужна ещё и бронь места."
+  },
+  "a2-u4-l2.fill-na-ic-cko-potrebujete.why": {
+    "en": "The reservation is what you need, the object, so miestenka changes -a to **-u**: potrebujete miestenk**u**.",
+    "t": "По-русски «нужна бронь», а у potrebovať дополнение в винительном падеже, поэтому miestenka меняет -a на **-u**: potrebujete miestenk**u**."
+  },
+  "a2-u4-l2.build-kolko-stoji-spiatocny.prompt": {
+    "en": "How much is a return ticket to Bratislava?",
+    "t": "Сколько стоит билет туда и обратно до Братиславы?"
+  },
+  "a2-u4-l2.build-kolko-stoji-spiatocny.traps": {
+    "en": [
+      "One ticket costs: **stojí**. Stoja is for two or more things.",
+      "Lístok is masculine, so the adjective ends in **-ý**: spiatočn**ý**."
+    ],
+    "t": [
+      "Билет один: **stojí**. Stoja — для двух и более предметов.",
+      "Lístok — мужского рода, поэтому прилагательное на **-ý**: spiatočn**ý**."
+    ]
+  },
+  "a2-u4-l2.nastupiste.en": {
+    "en": "platform",
+    "t": "платформа"
+  },
+  "a2-u4-l2.nastupiste.note": {
+    "en": "**Na ktoré nástupište** príde vlak? – Na druhé. Standing there: **na nástupišti**.",
+    "t": "**Na ktoré nástupište** príde vlak? – Na druhé. (На какую платформу придёт поезд? — На вторую.) Стоять на платформе: **na nástupišti**."
+  },
+  "a2-u4-l2.fill-vlak-pride-na.en": {
+    "en": "The train to Bratislava will arrive at platform two.",
+    "t": "Поезд в Братиславу прибудет на вторую платформу."
+  },
+  "a2-u4-l2.fill-vlak-pride-na.why": {
+    "en": "Nástupište is neuter (it ends in -e), so the ordinal ends in **-é**: na druh**é** nástupište.",
+    "t": "Nástupište — среднего рода (на -e), хотя «платформа» у нас женского, поэтому порядковое числительное на **-é**: na druh**é** nástupište."
+  },
+  "a2-u4-l2.vlak-meska-desat-minut.en": {
+    "en": "The train is ten minutes late.",
+    "t": "Поезд опаздывает на десять минут."
+  },
+  "a2-u4-l2.vlak-meska-desat-minut.note": {
+    "en": "**meškať** = to be late: meškám, meškáš, mešká… A delay is a **meškanie**; you wait in the **čakáreň** (waiting room).",
+    "t": "**meškať** = опаздывать: meškám, meškáš, mešká… Обратите внимание: без предлога, mešká desať minút. Опоздание — **meškanie**; ждут в зале ожидания, **čakáreň**."
+  },
+  "a2-u4-l2.choice-rychlik-meska.question": {
+    "en": "You hear this at the station. What is it about?",
+    "t": "Вы слышите это на вокзале. О чём речь?"
+  },
+  "a2-u4-l2.choice-rychlik-meska.options": {
+    "en": [
+      "The fast train to Bratislava leaves in twenty minutes.",
+      "The fast train from Bratislava is on time.",
+      "The fast train to Bratislava is twenty minutes late."
+    ],
+    "t": [
+      "Скорый в Братиславу отправляется через двадцать минут.",
+      "Скорый из Братиславы прибывает вовремя.",
+      "Скорый в Братиславу опаздывает на двадцать минут."
+    ]
+  },
+  "a2-u4-l2.listen-vlak-do-bratislavy.en": {
+    "en": "The train to Bratislava will arrive at platform three.",
+    "t": "Поезд в Братиславу прибудет на третью платформу."
+  },
+  "a2-u4-l2.build-mate-este-miestenku.prompt": {
+    "en": "Have you still got a seat reservation by the window?",
+    "t": "У вас ещё есть бронь места у окна?"
+  },
+  "a2-u4-l2.build-mate-este-miestenku.traps": {
+    "en": [
+      "The reservation is what you want to have, the object, so miestenka changes -a to **-u**: miestenk**u**.",
+      "**Pri** (by, next to) takes the locative: pri okn**e**."
+    ],
+    "t": [
+      "По-русски «у вас есть бронь», а по-словацки «имеете что?» — дополнение в винительном, поэтому miestenka меняет -a на **-u**: miestenk**u**.",
+      "**Pri** (у, возле) требует предложного падежа, хотя по-русски «у окна»: pri okn**e**."
+    ]
+  },
+  "a2-u4-l2.speak-jeden-studentsky-listok.en": {
+    "en": "One student ticket, please.",
+    "t": "Один студенческий, пожалуйста."
+  },
+  "a2-u4-l3.titleEn": {
+    "en": "On the train",
+    "t": "В поезде"
+  },
+  "a2-u4-l3.vozen.en": {
+    "en": "carriage (of a train)",
+    "t": "вагон"
+  },
+  "a2-u4-l3.vozen.note": {
+    "en": "Their seats are **vo vozni** číslo päť, in a **kupé** (a compartment; the word never changes).",
+    "t": "Их места — **vo vozni** číslo päť (в вагоне номер пять), в **kupé** (купе; это слово, как и у нас, не склоняется)."
+  },
+  "a2-u4-l3.fill-nase-miesta-su-vo.en": {
+    "en": "Our seats are in carriage number five.",
+    "t": "Наши места в вагоне номер пять."
+  },
+  "a2-u4-l3.fill-nase-miesta-su-vo.why": {
+    "en": "Where? takes the locative: after a soft letter like ň the ending is **-i**, and the e drops out: vozeň → vo voz**ni**.",
+    "t": "На вопрос «где?» — предложный падеж: после мягкой согласной, как ň, окончание **-i**, а e выпадает, как в «день — о дне»: vozeň → vo voz**ni**."
+  },
+  "a2-u4-l3.build-nase-miesta-su-pri.prompt": {
+    "en": "Our seats are by the window.",
+    "t": "Наши места у окна."
+  },
+  "a2-u4-l3.build-nase-miesta-su-pri.traps": {
+    "en": [
+      "**Pri** (by, next to) takes the locative: pri **okne**.",
+      "Two seats, so the plural: miest**a**, like mestá."
+    ],
+    "t": [
+      "**Pri** (у, возле) требует предложного падежа, хотя по-русски «у окна»: pri **okne**.",
+      "Мест два, поэтому множественное число: miest**a**, как mestá."
+    ]
+  },
+  "a2-u4-l3.je-tu-volne.en": {
+    "en": "Is this seat free?",
+    "t": "Здесь свободно?"
+  },
+  "a2-u4-l3.je-tu-volne.note": {
+    "en": "Or **Máte tu voľné?** The answer: Áno, nech sa páči. / Nie, je **obsadené** (taken).",
+    "t": "Или **Máte tu voľné?** Ответ: Áno, nech sa páči. / Nie, je **obsadené** (занято)."
+  },
+  "a2-u4-l3.choice-prepacte-je-tu.question": {
+    "en": "A man points at the seat next to Emma. What is he asking?",
+    "t": "Мужчина показывает на место рядом с Эммой. Что он спрашивает?"
+  },
+  "a2-u4-l3.choice-prepacte-je-tu.options": {
+    "en": [
+      "Excuse me, is this seat free?",
+      "Excuse me, is this your bag?",
+      "Excuse me, is this carriage five?"
+    ],
+    "t": [
+      "Извините, здесь свободно?",
+      "Извините, это ваша сумка?",
+      "Извините, это пятый вагон?"
+    ]
+  },
+  "a2-u4-l3.batozina.en": {
+    "en": "luggage",
+    "t": "багаж"
+  },
+  "a2-u4-l3.batozina.note": {
+    "en": "All the bags you travel with. Big ones go **hore**, up on the rack.",
+    "t": "Все сумки, с которыми вы едете. Большие ставят **hore**, наверх, на полку."
+  },
+  "a2-u4-l3.kufor.en": {
+    "en": "suitcase",
+    "t": "чемодан"
+  },
+  "a2-u4-l3.kufor.note": {
+    "en": "With s, its o drops out: s **kufrom**, and the plural is kufre. A smaller bag is a **taška**.",
+    "t": "После s буква o выпадает: s **kufrom** (с чемоданом), а во множественном — kufre. Сумка поменьше — **taška**."
+  },
+  "a2-u4-l3.pomohli-by-ste-mi.en": {
+    "en": "Could you help me?",
+    "t": "Не могли бы вы мне помочь?"
+  },
+  "a2-u4-l3.pomohli-by-ste-mi.note": {
+    "en": "Even politer than Môžete mi pomôcť? It's the conditional, coming later in the unit. With the luggage: Pomohli by ste mi **s kufrom**?",
+    "t": "Ещё вежливее, чем Môžete mi pomôcť? Это условное наклонение с by, как наше «бы»; подробнее — позже в этом разделе. С багажом: Pomohli by ste mi **s kufrom**?"
+  },
+  "a2-u4-l3.build-pomohli-by-ste.prompt": {
+    "en": "Could you help me with my suitcase?",
+    "t": "Не могли бы вы помочь мне с чемоданом?"
+  },
+  "a2-u4-l3.build-pomohli-by-ste.traps": {
+    "en": [
+      "**S** (with) takes the instrumental, -om, and the o of kufor drops out: s **kufrom**.",
+      "Emma is asking a stranger, vy, so it's by **ste**. By si is for a friend."
+    ],
+    "t": [
+      "**S** (с) требует творительного падежа на -om, а o в слове kufor выпадает: s **kufrom**.",
+      "Эмма обращается к незнакомому человеку на «вы», поэтому by **ste**. By si — для друга."
+    ]
+  },
+  "a2-u4-l3.fill-mozem-otvorit-okno.en": {
+    "en": "It's warm in here. Can I open the window?",
+    "t": "Здесь жарко. Можно открыть окно?"
+  },
+  "a2-u4-l3.fill-mozem-otvorit-okno.why": {
+    "en": "The window is what you open, the object, and neuter nouns don't change: otvoriť **okno**. Okne is “where”, oknom “with”.",
+    "t": "Окно — то, что открывают, дополнение, а существительные среднего рода в винительном не меняются: otvoriť **okno**. Okne — «где», oknom — «чем, с чем»."
+  },
+  "a2-u4-l3.sprievodkyna.en": {
+    "en": "conductor (a woman)",
+    "t": "проводница"
+  },
+  "a2-u4-l3.sprievodkyna.note": {
+    "en": "She checks the tickets: **Cestovné lístky, prosím.** = Tickets, please.",
+    "t": "Она проверяет билеты: **Cestovné lístky, prosím.** = Ваши билеты, пожалуйста."
+  },
+  "a2-u4-l3.pokuta.en": {
+    "en": "fine (to pay)",
+    "t": "штраф"
+  },
+  "a2-u4-l3.pokuta.note": {
+    "en": "Lucia has a student ticket, but she has left her student card in Žilina. **Musíte zaplatiť pokutu.** = You have to pay a fine.",
+    "t": "У Луции билет со студенческой скидкой, но студенческий она оставила в Жилине. **Musíte zaplatiť pokutu.** = Вы должны заплатить штраф."
+  },
+  "a2-u4-l3.fill-lucia-musi-zaplatit.en": {
+    "en": "Lucia doesn't have her student card. She has to pay a fine.",
+    "t": "У Луции нет студенческого. Ей придётся заплатить штраф."
+  },
+  "a2-u4-l3.fill-lucia-musi-zaplatit.why": {
+    "en": "The fine is what she pays, the object, so pokuta changes -a to **-u**: zaplatiť pokut**u**.",
+    "t": "Штраф — то, что она платит, дополнение, поэтому pokuta меняет -a на **-u**: zaplatiť pokut**u**."
+  },
+  "a2-u4-l3.no-co-uz.en": {
+    "en": "Oh well. Never mind.",
+    "t": "Ну что ж. Ничего не поделаешь."
+  },
+  "a2-u4-l3.no-co-uz.note": {
+    "en": "When nothing can be done. You can also say **Nič sa nedá robiť.**",
+    "t": "Так говорят, когда изменить уже ничего нельзя. Ещё можно сказать **Nič sa nedá robiť.**"
+  },
+  "a2-u4-l3.choice-lucia-plati-pokutu.question": {
+    "en": "Lucia pays the fine and shrugs. What does she say?",
+    "t": "Луция платит штраф и пожимает плечами. Что она говорит?"
+  },
+  "a2-u4-l3.match-vo-vlaku.pairs": {
+    "en": [
+      "carriage",
+      "compartment",
+      "luggage",
+      "conductor",
+      "fine"
+    ],
+    "t": [
+      "вагон",
+      "купе",
+      "багаж",
+      "проводница",
+      "штраф"
+    ]
+  },
+  "a2-u4-l3.build-lucia-zabudla-preukaz.answers": {
+    "en": [
+      "Lucia forgot her student card in Žilina."
+    ],
+    "t": [
+      "Луция забыла студенческий билет в Жилине.",
+      "Луция забыла в Жилине студенческий билет.",
+      "Луция забыла студенческий в Жилине."
+    ]
+  },
+  "a2-u4-l3.build-lucia-zabudla-preukaz.distractors": {
+    "en": [
+      "ticket",
+      "Bratislava"
+    ],
+    "t": [
+      "паспорт",
+      "Братиславе"
+    ]
+  },
+  "a2-u4-l3.speak-prepacte-mate-tu.en": {
+    "en": "Excuse me, is this seat free?",
+    "t": "Извините, здесь свободно?"
+  },
+  "a2-u4-l4.titleEn": {
+    "en": "By train, by card, with a pen",
+    "t": "Поездом, картой, ручкой"
+  },
+  "a2-u4-l4.grammar-instrumental-means.title": {
+    "en": "How, with what: the instrumental without s",
+    "t": "Как, чем: творительный падеж без s"
+  },
+  "a2-u4-l4.grammar-instrumental-means.body": {
+    "en": [
+      "You know **Idem vlakom.** The vehicle takes the instrumental, with no s. The same form says what you do something with, the means or the tool: **Platím kartou.** **Píšem perom.** **Pošlem to e-mailom.**",
+      "Use **s** only for what comes along with you: a person, or something you carry. Cestujem **s** Luciou. Idem **s** kufrom. The means itself never takes s."
+    ],
+    "t": [
+      "Вы уже знаете **Idem vlakom.** Транспорт стоит в творительном падеже без s, как наше «еду поездом» (но не «на поезде»). Та же форма называет средство или инструмент, то, чем вы что-то делаете: **Platím kartou.** **Píšem perom.** **Pošlem to e-mailom.** Совсем как «плачу картой», «пишу ручкой».",
+      "**S** ставьте только для того, кто или что едет вместе с вами: человек или вещь, которую вы везёте. Cestujem **s** Luciou. Idem **s** kufrom. Само средство никогда не берёт s, как и в русском: «пишу ручкой», а не «с ручкой»."
+    ]
+  },
+  "a2-u4-l4.grammar-instrumental-means.table.head": {
+    "en": [
+      "the means (no s)",
+      "together with (s)"
+    ],
+    "t": [
+      "средство (без s)",
+      "вместе с кем, с чем (s)"
+    ]
+  },
+  "a2-u4-l4.grammar-instrumental-means.table.rows": {
+    "en": [
+      [
+        "Idem vlak**om**.",
+        "Idem s Luci**ou**."
+      ],
+      [
+        "Platím kart**ou**.",
+        "Pijem kávu s mliek**om**."
+      ],
+      [
+        "Píšem per**om**.",
+        "Cestujem s kufr**om**."
+      ],
+      [
+        "Pošlem to e-mail**om**.",
+        "Bývam s kamarátk**ou**."
+      ]
+    ],
+    "t": [
+      [
+        "Idem vlak**om**.",
+        "Idem s Luci**ou**."
+      ],
+      [
+        "Platím kart**ou**.",
+        "Pijem kávu s mliek**om**."
+      ],
+      [
+        "Píšem per**om**.",
+        "Cestujem s kufr**om**."
+      ],
+      [
+        "Pošlem to e-mail**om**.",
+        "Bývam s kamarátk**ou**."
+      ]
+    ]
+  },
+  "a2-u4-l4.grammar-instrumental-means.examples": {
+    "en": [
+      "Emma pays by card.",
+      "Tomáš travels by IC.",
+      "Lucia is travelling with Emma by train."
+    ],
+    "t": [
+      "Эмма платит картой.",
+      "Томаш ездит на IC.",
+      "Луция едет с Эммой поездом."
+    ]
+  },
+  "a2-u4-l4.fill-tomas-cestuje-do.en": {
+    "en": "Tomáš travels to Bratislava by train.",
+    "t": "Томаш едет в Братиславу поездом."
+  },
+  "a2-u4-l4.fill-tomas-cestuje-do.why": {
+    "en": "How he travels: the vehicle takes the instrumental, **-om**, with no s: vlak**om**.",
+    "t": "Как он едет: транспорт в творительном падеже на **-om**, без s: vlak**om**, как «поездом»."
+  },
+  "a2-u4-l4.pero.en": {
+    "en": "pen",
+    "t": "ручка"
+  },
+  "a2-u4-l4.pero.note": {
+    "en": "**písať perom** = to write with a pen. A pencil is a **ceruzka**: píšem ceruzkou.",
+    "t": "**pero** — это ручка, а не перо: **písať perom** = писать ручкой. Карандаш — **ceruzka**: píšem ceruzkou (пишу карандашом)."
+  },
+  "a2-u4-l4.fill-dotaznik-musite-vypisat.en": {
+    "en": "Please fill in the questionnaire with a pen.",
+    "t": "Заполните, пожалуйста, анкету ручкой."
+  },
+  "a2-u4-l4.fill-dotaznik-musite-vypisat.why": {
+    "en": "The pen is the tool you write with, so it takes the instrumental with no s: per**om**, like vlakom.",
+    "t": "Ручка — инструмент, которым пишут, поэтому творительный без s: per**om**, как vlakom."
+  },
+  "a2-u4-l4.choice-platim-kartou.question": {
+    "en": "Which sentence is right?",
+    "t": "Какое предложение правильное?"
+  },
+  "a2-u4-l4.choice-platim-kartou.why": {
+    "en": "The card is how you pay, the means, so it takes the instrumental with no s: platím **kartou**. S is for company: s Luciou.",
+    "t": "Карта — то, чем платят, средство, поэтому творительный без s: platím **kartou** (плачу картой). S — для того, кто с вами: s Luciou."
+  },
+  "a2-u4-l4.build-idem-na-stanicu.prompt": {
+    "en": "I'm going to the station by taxi.",
+    "t": "Я еду на вокзал на такси."
+  },
+  "a2-u4-l4.build-idem-na-stanicu.traps": {
+    "en": [
+      "How you go: the vehicle takes the instrumental, **-om**: taxík**om**.",
+      "Going somewhere takes **na** + the object form: na stanic**u**. Na stanici is being there."
+    ],
+    "t": [
+      "Как вы едете: транспорт в творительном падеже, **-om**: taxík**om**. По-русски «на такси», а по-словацки без предлога.",
+      "Куда? — **na** + винительный: na stanic**u**, как «на вокзал». Na stanici — когда вы уже там."
+    ]
+  },
+  "a2-u4-l4.build-lucia-cestuje-s.prompt": {
+    "en": "Lucia is travelling with Emma.",
+    "t": "Луция едет с Эммой."
+  },
+  "a2-u4-l4.build-lucia-cestuje-s.traps": {
+    "en": [
+      "A person who comes along takes **s** + the instrumental: Emma → s Emm**ou**.",
+      "**So** is only for words that start with s, z, š or ž (so syrom). Before Emmou it's just **s**."
+    ],
+    "t": [
+      "Человек, который едет с вами: **s** + творительный: Emma → s Emm**ou**, как «с Эммой».",
+      "**So** — только перед словами на s, z, š или ž (so syrom), как наше «со». Перед Emmou — просто **s**."
+    ]
+  },
+  "a2-u4-l4.v-hotovosti.en": {
+    "en": "in cash",
+    "t": "наличными"
+  },
+  "a2-u4-l4.v-hotovosti.note": {
+    "en": "**Kartou alebo v hotovosti?** = By card or in cash? Cash comes out of a **bankomat** (a cash machine).",
+    "t": "**Kartou alebo v hotovosti?** = Картой или наличными? Наличные выдаёт **bankomat** (банкомат)."
+  },
+  "a2-u4-l4.fill-platite-kartou-alebo.en": {
+    "en": "Are you paying by card or in cash?",
+    "t": "Вы платите картой или наличными?"
+  },
+  "a2-u4-l4.fill-platite-kartou-alebo.why": {
+    "en": "How you pay is the means, so karta takes the instrumental: -a becomes **-ou**: kart**ou**.",
+    "t": "То, чем платят, — средство, поэтому karta в творительном: -a меняется на **-ou**: kart**ou**, как «картой»."
+  },
+  "a2-u4-l4.build-emma-plati-mobilom.prompt": {
+    "en": "Emma pays by phone.",
+    "t": "Эмма платит телефоном."
+  },
+  "a2-u4-l4.build-emma-plati-mobilom.traps": {
+    "en": [
+      "How she pays is the means, so the phone takes the instrumental: mobil**om**."
+    ],
+    "t": [
+      "То, чем она платит, — средство, поэтому телефон в творительном: mobil**om**."
+    ]
+  },
+  "a2-u4-l4.choice-poslem-ti-listky.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u4-l4.choice-poslem-ti-listky.options": {
+    "en": [
+      "I'll send the tickets to you and Emma.",
+      "I'll send you the tickets by e-mail.",
+      "I'll buy you the tickets on the internet."
+    ],
+    "t": [
+      "Я отправлю билеты тебе и Эмме.",
+      "Я пришлю тебе билеты по электронной почте.",
+      "Я куплю тебе билеты в интернете."
+    ]
+  },
+  "a2-u4-l4.choice-poslem-ti-listky.why": {
+    "en": "**E-mailom** is the means, in the instrumental with no s: by e-mail. Sending them with Emma would be s Emmou.",
+    "t": "**E-mailom** — средство, творительный без s: по электронной почте. Отправить вместе с Эммой было бы s Emmou."
+  },
+  "a2-u4-l4.fill-do-dublinu-cestujem.en": {
+    "en": "I travel to Dublin by plane.",
+    "t": "В Дублин я летаю самолётом."
+  },
+  "a2-u4-l4.fill-do-dublinu-cestujem.why": {
+    "en": "The plane is the means, so it takes the instrumental: neuter -o becomes **-om**: lietadl**om**. Lietadle is “where”: v lietadle.",
+    "t": "Самолёт — средство, поэтому творительный: средний род -o → **-om**: lietadl**om**, как «самолётом». Lietadle — «где»: v lietadle."
+  },
+  "a2-u4-l4.match-vlakom-kartou.pairs": {
+    "en": [
+      "by train",
+      "by card",
+      "with a pen",
+      "by e-mail",
+      "in cash"
+    ],
+    "t": [
+      "поездом",
+      "картой",
+      "ручкой",
+      "по электронной почте",
+      "наличными"
+    ]
+  },
+  "a2-u4-l4.build-tomas-pise-ceruzkou.answers": {
+    "en": [
+      "Tomáš is writing with a pencil, not a pen."
+    ],
+    "t": [
+      "Томаш пишет карандашом, а не ручкой.",
+      "Томаш пишет карандашом, не ручкой."
+    ]
+  },
+  "a2-u4-l4.build-tomas-pise-ceruzkou.distractors": {
+    "en": [
+      "by",
+      "pens"
+    ],
+    "t": [
+      "ручку",
+      "карандаш"
+    ]
+  },
+  "a2-u4-l4.speak-mozem-platit-kartou.en": {
+    "en": "Can I pay by card?",
+    "t": "Можно заплатить картой?"
+  },
+  "a2-u4-l5.titleEn": {
+    "en": "A taxi",
+    "t": "Такси"
+  },
+  "a2-u4-l5.objednat-si-taxik.en": {
+    "en": "to order a taxi",
+    "t": "заказать такси"
+  },
+  "a2-u4-l5.objednat-si-taxik.note": {
+    "en": "Half past six in the evening at the main station in Bratislava, with heavy bags. Lucia phones: **Prosím si taxík na hlavnú stanicu.**",
+    "t": "Половина седьмого вечера, главный вокзал Братиславы, тяжёлые сумки. Луция звонит: **Prosím si taxík na hlavnú stanicu.** (Такси к главному вокзалу, пожалуйста.)"
+  },
+  "a2-u4-l5.fill-prosim-si-taxik.en": {
+    "en": "Good evening, a taxi to the main station, please.",
+    "t": "Добрый вечер, такси к главному вокзалу, пожалуйста."
+  },
+  "a2-u4-l5.fill-prosim-si-taxik.why": {
+    "en": "The taxi is what you ask for, the object, and masculine things don't change: prosím si **taxík**. Taxíkom is how you travel.",
+    "t": "Такси — то, что вы просите, дополнение, а неодушевлённые существительные мужского рода в винительном не меняются: prosím si **taxík**. Taxíkom — это как вы едете."
+  },
+  "a2-u4-l5.choice-taxik-pride-o.question": {
+    "en": "The taxi company tells Lucia this. What does it mean?",
+    "t": "Вот что Луции говорят в службе такси. Что это значит?"
+  },
+  "a2-u4-l5.choice-taxik-pride-o.options": {
+    "en": [
+      "The taxi will be there in five minutes.",
+      "The taxi costs five euros.",
+      "The taxi came five minutes ago."
+    ],
+    "t": [
+      "Такси будет через пять минут.",
+      "Такси стоит пять евро.",
+      "Такси приехало пять минут назад."
+    ]
+  },
+  "a2-u4-l5.choice-taxik-pride-o.why": {
+    "en": "**Príde** points to the future, and **o** + a length of time means in: o päť minút = in five minutes, like Kedy prídeš? – O hodinu.",
+    "t": "**Príde** указывает на будущее, а **o** + отрезок времени значит «через»: o päť minút = через пять минут, как Kedy prídeš? – O hodinu. (Когда придёшь? — Через час.)"
+  },
+  "a2-u4-l5.taxikar.en": {
+    "en": "taxi driver",
+    "t": "таксист"
+  },
+  "a2-u4-l5.taxikar.note": {
+    "en": "He puts their bags in the car. You say vy to a taxikár, and he says vy to you.",
+    "t": "Он кладёт их сумки в машину. С таксистом говорят на «вы», и он с вами тоже на «вы»."
+  },
+  "a2-u4-l5.kam-to-bude.en": {
+    "en": "Where to?",
+    "t": "Куда едем?"
+  },
+  "a2-u4-l5.kam-to-bude.note": {
+    "en": "The taxi driver's question. Answer with where to: **Na internát, prosím.**",
+    "t": "Вопрос таксиста. Отвечают, куда ехать: **Na internát, prosím.** (В общежитие, пожалуйста.)"
+  },
+  "a2-u4-l5.build-na-internat-prosim.prompt": {
+    "en": "To the dorm, please.",
+    "t": "В общежитие, пожалуйста."
+  },
+  "a2-u4-l5.build-na-internat-prosim.traps": {
+    "en": [
+      "Where to? takes **na** + the object form, and masculine things don't change: na **internát**. Na internáte is being there.",
+      "Where to? takes **na** + the object form: na **internát**. Internátom is the instrumental, for the means or with s."
+    ],
+    "t": [
+      "По-русски «в общежитие», а по-словацки «куда?» — **na** + винительный, и неодушевлённые мужского рода не меняются: na **internát**. Na internáte — когда вы уже там.",
+      "Куда? — **na** + винительный: na **internát**. Internátom — творительный, для средства или после s."
+    ]
+  },
+  "a2-u4-l5.kolko-platim.en": {
+    "en": "How much do I owe?",
+    "t": "Сколько с меня?"
+  },
+  "a2-u4-l5.kolko-platim.note": {
+    "en": "The driver: **Dvanásť eur.** Then he asks: Kartou alebo v hotovosti?",
+    "t": "Таксист: **Dvanásť eur.** (Двенадцать евро.) Потом спрашивает: Kartou alebo v hotovosti?"
+  },
+  "a2-u4-l5.choice-kartou-alebo-v.question": {
+    "en": "The driver asks: Kartou alebo v hotovosti? Emma has no cash. What does she answer?",
+    "t": "Таксист спрашивает: Kartou alebo v hotovosti? Наличных у Эммы нет. Что она ответит?"
+  },
+  "a2-u4-l5.choice-kartou-alebo-v.why": {
+    "en": "He's asking how she'll pay, and with no cash she answers with the means: **kartou** (by card).",
+    "t": "Он спрашивает, как она будет платить, и раз наличных нет, она называет средство: **kartou** (картой)."
+  },
+  "a2-u4-l5.ja-to-zaplatim.en": {
+    "en": "I'll pay for this.",
+    "t": "Я за это заплачу."
+  },
+  "a2-u4-l5.ja-to-zaplatim.note": {
+    "en": "Offering to pay. Money, **peniaze**, is always plural: Peniaze **sú** v taške.",
+    "t": "Так предлагают заплатить. Деньги, **peniaze**, всегда во множественном числе, как и у нас: Peniaze **sú** v taške."
+  },
+  "a2-u4-l5.build-zaplatim-kartou.prompt": {
+    "en": "I'll pay by card.",
+    "t": "Я заплачу картой."
+  },
+  "a2-u4-l5.build-zaplatim-kartou.traps": {
+    "en": [
+      "How you pay is the instrumental: karta → kart**ou**. Kartu is the object form."
+    ],
+    "t": [
+      "Чем платят — творительный падеж: karta → kart**ou**, как «картой». Kartu — винительный."
+    ]
+  },
+  "a2-u4-l5.potvrdenka.en": {
+    "en": "receipt",
+    "t": "чек, квитанция"
+  },
+  "a2-u4-l5.potvrdenka.note": {
+    "en": "**Potrebujete potvrdenku?** = Do you need a receipt? – Nie, ďakujem.",
+    "t": "**Potrebujete potvrdenku?** = Вам нужен чек? – Nie, ďakujem."
+  },
+  "a2-u4-l5.fill-potrebujete-potvrdenku.en": {
+    "en": "Do you need a receipt? – No, thank you.",
+    "t": "Вам нужен чек? — Нет, спасибо."
+  },
+  "a2-u4-l5.fill-potrebujete-potvrdenku.why": {
+    "en": "The receipt is what you need, the object, so potvrdenka changes -a to **-u**: potvrdenk**u**.",
+    "t": "По-русски «нужен чек», а у potrebovať дополнение в винительном, поэтому potvrdenka меняет -a на **-u**: potvrdenk**u**."
+  },
+  "a2-u4-l5.pekny-vecer.en": {
+    "en": "Have a nice evening!",
+    "t": "Хорошего вечера!"
+  },
+  "a2-u4-l5.pekny-vecer.note": {
+    "en": "The answer is **Aj vám.** to a stranger, or Aj tebe. to a friend.",
+    "t": "Незнакомому отвечают **Aj vám.** (И вам.), другу — Aj tebe. (И тебе.)"
+  },
+  "a2-u4-l5.choice-pekny-vecer-aj.question": {
+    "en": "The taxi driver says: Pekný večer! What does Emma answer?",
+    "t": "Таксист говорит: Pekný večer! Что ответит Эмма?"
+  },
+  "a2-u4-l5.choice-pekny-vecer-aj.why": {
+    "en": "The driver is a stranger, so Emma says vy: **Aj vám.** Aj tebe is for a friend.",
+    "t": "Таксист — незнакомый человек, Эмма с ним на «вы»: **Aj vám.** Aj tebe — для друга."
+  },
+  "a2-u4-l5.match-taxik.pairs": {
+    "en": [
+      "taxi driver",
+      "receipt",
+      "Where to?",
+      "How much do I owe?"
+    ],
+    "t": [
+      "таксист",
+      "чек",
+      "Куда едем?",
+      "Сколько с меня?"
+    ]
+  },
+  "a2-u4-l5.choice-je-tu-bankomat.question": {
+    "en": "What does Emma need?",
+    "t": "Что нужно Эмме?"
+  },
+  "a2-u4-l5.choice-je-tu-bankomat.options": {
+    "en": [
+      "A taxi",
+      "A cash machine",
+      "A receipt"
+    ],
+    "t": [
+      "Такси",
+      "Банкомат",
+      "Чек"
+    ]
+  },
+  "a2-u4-l5.speak-na-hlavnu-stanicu.en": {
+    "en": "To the main station, please.",
+    "t": "На главный вокзал, пожалуйста."
+  },
+  "a2-u4-l6.titleEn": {
+    "en": "A plane ticket",
+    "t": "Авиабилет"
+  },
+  "a2-u4-l6.letenka.en": {
+    "en": "plane ticket",
+    "t": "авиабилет"
+  },
+  "a2-u4-l6.letenka.note": {
+    "en": "For a train or a bus it's a lístok; for a plane, a **letenka**. Emma wants to fly home to Dublin for a few days: a **spiatočná letenka**.",
+    "t": "На поезд или автобус — lístok, на самолёт — **letenka**. Эмма хочет на несколько дней слетать домой в Дублин: ей нужна **spiatočná letenka** (туда и обратно)."
+  },
+  "a2-u4-l6.choice-emma-cita-inzerat.question": {
+    "en": "What is Emma reading?",
+    "t": "Что читает Эмма?"
+  },
+  "a2-u4-l6.choice-emma-cita-inzerat.options": {
+    "en": [
+      "A timetable of flights to Dublin",
+      "An e-mail from her family in Dublin",
+      "An ad for cheap plane tickets to Dublin"
+    ],
+    "t": [
+      "Расписание рейсов в Дублин",
+      "Письмо от семьи из Дублина",
+      "Объявление о дешёвых авиабилетах в Дублин"
+    ]
+  },
+  "a2-u4-l6.fill-kupim-si-spiatocnu.en": {
+    "en": "I'll buy a return plane ticket to Dublin.",
+    "t": "Я куплю авиабилет в Дублин туда и обратно."
+  },
+  "a2-u4-l6.fill-kupim-si-spiatocnu.why": {
+    "en": "For a plane it's **letenka**, and as the object it ends in -u: letenk**u**. Spiatočnú also needs a feminine word, so lístok doesn't fit.",
+    "t": "На самолёт — **letenka**, а как дополнение она оканчивается на -u: letenk**u**. К тому же spiatočnú требует слова женского рода, так что lístok не подходит."
+  },
+  "a2-u4-l6.priamy-let.en": {
+    "en": "direct flight",
+    "t": "прямой рейс"
+  },
+  "a2-u4-l6.priamy-let.note": {
+    "en": "**let** = a flight, from letieť (to fly). Priamy let do Dublinu trvá tri hodiny.",
+    "t": "**let** = полёт, рейс, от letieť (лететь). Priamy let do Dublinu trvá tri hodiny. = Прямой рейс до Дублина длится три часа."
+  },
+  "a2-u4-l6.let-s-prestupom.en": {
+    "en": "flight with a change",
+    "t": "рейс с пересадкой"
+  },
+  "a2-u4-l6.let-s-prestupom.note": {
+    "en": "A **prestup** is a change. To change is **prestupovať**, like študovať: V Londýne prestupujem.",
+    "t": "**prestup** — пересадка. Пересаживаться — **prestupovať**, спрягается как študovať: V Londýne prestupujem. (В Лондоне у меня пересадка.)"
+  },
+  "a2-u4-l6.choice-priamy-let-trva.question": {
+    "en": "Which flight is faster?",
+    "t": "Какой рейс быстрее?"
+  },
+  "a2-u4-l6.choice-priamy-let-trva.options": {
+    "en": [
+      "The flight with a change",
+      "The direct flight",
+      "They take the same time"
+    ],
+    "t": [
+      "Рейс с пересадкой",
+      "Прямой рейс",
+      "Одинаково"
+    ]
+  },
+  "a2-u4-l6.fill-v-londyne-prestupujem.en": {
+    "en": "I haven't got a direct flight; I change in London.",
+    "t": "Прямого рейса у меня нет, я пересаживаюсь в Лондоне."
+  },
+  "a2-u4-l6.fill-v-londyne-prestupujem.why": {
+    "en": "This needs a verb: **prestupovať** (to change) goes like študovať, so -ova- becomes -uje-: prestup**ujem**.",
+    "t": "Здесь нужен глагол: **prestupovať** (пересаживаться) спрягается как študovať, -ova- меняется на -uje-, как у нас «рисовать → рисую»: prestup**ujem**."
+  },
+  "a2-u4-l6.rezervovat.en": {
+    "en": "to book, to reserve",
+    "t": "бронировать"
+  },
+  "a2-u4-l6.rezervovat.note": {
+    "en": "Done and finished: **zarezervovať si**: Zarezervovala som si letenku. A booking is a **rezervácia**.",
+    "t": "Совершенный вид, «забронировать», — **zarezervovať si**: Zarezervovala som si letenku. (Я забронировала билет.) Бронь — **rezervácia**."
+  },
+  "a2-u4-l6.build-emma-si-zarezervovala.prompt": {
+    "en": "Emma booked a flight to Dublin.",
+    "t": "Эмма забронировала перелёт в Дублин."
+  },
+  "a2-u4-l6.build-emma-si-zarezervovala.traps": {
+    "en": [
+      "Emma is a woman, so the past form ends in **-la**: zarezervova**la**.",
+      "Booking something for yourself is **zarezervovať si**, with si: Emma **si** zarezervovala let."
+    ],
+    "t": [
+      "Эмма — женщина, поэтому форма прошедшего времени на **-la**: zarezervova**la**, как «забронировала».",
+      "Бронируют для себя — **zarezervovať si**, с si (себе): Emma **si** zarezervovala let. Sa здесь не нужно."
+    ]
+  },
+  "a2-u4-l6.na-ake-meno-bude.en": {
+    "en": "What name should the ticket be in?",
+    "t": "На какое имя оформить билет?"
+  },
+  "a2-u4-l6.na-ake-meno-bude.note": {
+    "en": "Asked for any booking. Short: **Na aké meno?**",
+    "t": "Так спрашивают при любом бронировании. Коротко: **Na aké meno?** (На какое имя?)"
+  },
+  "a2-u4-l6.odlet-a-prilet.en": {
+    "en": "departure and arrival (of a plane)",
+    "t": "вылет и прилёт"
+  },
+  "a2-u4-l6.odlet-a-prilet.note": {
+    "en": "For trains it's odchod and príchod. For planes: **odlet** and **prílet**, from letieť.",
+    "t": "У поездов — odchod и príchod. У самолётов — **odlet** и **prílet**, от letieť, как наши «отлёт» и «прилёт»."
+  },
+  "a2-u4-l6.fill-odlet-je-o.en": {
+    "en": "Departure is at seven in the morning and arrival in Dublin at nine.",
+    "t": "Вылет в семь утра, а прилёт в Дублин в девять."
+  },
+  "a2-u4-l6.fill-odlet-je-o.why": {
+    "en": "Getting there by plane is **prílet**: príchod is for trains, and odlet is the departure.",
+    "t": "Прибытие самолёта — **prílet** (прилёт): príchod — для поездов, а odlet — вылет."
+  },
+  "a2-u4-l6.bohuzial.question": {
+    "en": "Emma wants to fly on Friday. What does the airline tell her?",
+    "t": "Эмма хочет лететь в пятницу. Что ей отвечают в авиакомпании?"
+  },
+  "a2-u4-l6.bohuzial.options": {
+    "en": [
+      "Luckily, we still have tickets for Friday.",
+      "Unfortunately, the Friday flight is late.",
+      "Unfortunately, we've no tickets left for Friday."
+    ],
+    "t": [
+      "К счастью, на пятницу ещё есть билеты.",
+      "К сожалению, рейс в пятницу задерживается.",
+      "К сожалению, на пятницу билетов уже нет."
+    ]
+  },
+  "a2-u4-l6.choice-rezervaciu-mate-v.question": {
+    "en": "Emma has paid. What does the airline tell her?",
+    "t": "Эмма заплатила. Что ей сообщает авиакомпания?"
+  },
+  "a2-u4-l6.choice-rezervaciu-mate-v.options": {
+    "en": [
+      "Thank you. Please send us an e-mail.",
+      "Thank you. Your ticket is at the airport.",
+      "Thank you. Your booking is in your e-mail."
+    ],
+    "t": [
+      "Спасибо. Пришлите нам, пожалуйста, письмо.",
+      "Спасибо. Ваш билет ждёт вас в аэропорту.",
+      "Спасибо. Бронь у вас в электронной почте."
+    ]
+  },
+  "a2-u4-l6.match-letenka.pairs": {
+    "en": [
+      "plane ticket",
+      "direct flight",
+      "change (of plane)",
+      "departure (by plane)",
+      "unfortunately"
+    ],
+    "t": [
+      "авиабилет",
+      "прямой рейс",
+      "пересадка",
+      "вылет",
+      "к сожалению"
+    ]
+  },
+  "a2-u4-l6.build-potrebujem-spiatocnu.prompt": {
+    "en": "I need a return ticket to Dublin.",
+    "t": "Мне нужен авиабилет в Дублин туда и обратно."
+  },
+  "a2-u4-l6.build-potrebujem-spiatocnu.traps": {
+    "en": [
+      "The ticket is the object of potrebujem, so the adjective ends in **-ú**: spiatočn**ú** letenku.",
+      "A ticket for a plane is a **letenka**, here as the object: letenk**u**. Lístok is for trains and buses."
+    ],
+    "t": [
+      "По-русски «мне нужен билет», а здесь билет — дополнение к potrebujem, в винительном, поэтому прилагательное на **-ú**: spiatočn**ú** letenku.",
+      "Билет на самолёт — **letenka**, здесь в винительном: letenk**u**. Lístok — для поездов и автобусов."
+    ]
+  },
+  "a2-u4-l6.speak-na-ake-meno.en": {
+    "en": "What name should the ticket be in?",
+    "t": "На какое имя оформить билет?"
+  },
+  "a2-u4-l7.titleEn": {
+    "en": "At the airport",
+    "t": "В аэропорту"
+  },
+  "a2-u4-l7.letisko.en": {
+    "en": "airport",
+    "t": "аэропорт"
+  },
+  "a2-u4-l7.letisko.note": {
+    "en": "On Thursday at five in the morning, Emma goes **na letisko** by taxi. At the airport: **na letisku**.",
+    "t": "В четверг в пять утра Эмма едет **na letisko** на такси. В аэропорту: **na letisku**. Обратите внимание: по-словацки na, а не v."
+  },
+  "a2-u4-l7.fill-emma-ide-na.en": {
+    "en": "Emma is going to the airport by taxi.",
+    "t": "Эмма едет в аэропорт на такси."
+  },
+  "a2-u4-l7.fill-emma-ide-na.why": {
+    "en": "How she goes: the vehicle takes the instrumental, **-om**, with no s: taxík**om**.",
+    "t": "Как она едет: транспорт в творительном, на **-om**, без s и без «на»: taxík**om**."
+  },
+  "a2-u4-l7.grammar-one-root-let.title": {
+    "en": "One root: let- (flying)",
+    "t": "Один корень: let- (полёт)"
+  },
+  "a2-u4-l7.grammar-one-root-let.body": {
+    "en": [
+      "Many words at the airport come from **letieť** (to fly). If you know the root, you can guess the word: **let**, **liet**adlo, **let**isko, **let**enka.",
+      "**Od-** means away and **prí-** means arriving: **od**let and **prí**let, like **od**chod and **prí**chod. The halls are named after them: **odletová hala** (departures) and **príletová hala** (arrivals)."
+    ],
+    "t": [
+      "Многие слова в аэропорту происходят от **letieť** (лететь), корень тот же, что в русском. Зная корень, слово легко угадать: **let**, **liet**adlo, **let**isko, **let**enka.",
+      "**Od-** значит «прочь», а **prí-** — «прибытие», как наши от- и при-: **od**let и **prí**let, как **od**chod и **prí**chod. По ним названы залы: **odletová hala** (зал вылета) и **príletová hala** (зал прилёта)."
+    ]
+  },
+  "a2-u4-l7.grammar-one-root-let.table.head": {
+    "en": [
+      "word",
+      "English"
+    ],
+    "t": [
+      "слово",
+      "по-русски"
+    ]
+  },
+  "a2-u4-l7.grammar-one-root-let.table.rows": {
+    "en": [
+      [
+        "**let**ieť",
+        "to fly"
+      ],
+      [
+        "**let**",
+        "flight"
+      ],
+      [
+        "**liet**adlo",
+        "plane"
+      ],
+      [
+        "**let**isko",
+        "airport"
+      ],
+      [
+        "**let**enka",
+        "plane ticket"
+      ],
+      [
+        "**let**uška",
+        "flight attendant"
+      ],
+      [
+        "**let**ecká spoločnosť",
+        "airline"
+      ],
+      [
+        "od**let**ová / prí**let**ová hala",
+        "departures / arrivals hall"
+      ]
+    ],
+    "t": [
+      [
+        "**let**ieť",
+        "лететь"
+      ],
+      [
+        "**let**",
+        "полёт, рейс"
+      ],
+      [
+        "**liet**adlo",
+        "самолёт"
+      ],
+      [
+        "**let**isko",
+        "аэропорт"
+      ],
+      [
+        "**let**enka",
+        "авиабилет"
+      ],
+      [
+        "**let**uška",
+        "стюардесса"
+      ],
+      [
+        "**let**ecká spoločnosť",
+        "авиакомпания"
+      ],
+      [
+        "od**let**ová / prí**let**ová hala",
+        "зал вылета / зал прилёта"
+      ]
+    ]
+  },
+  "a2-u4-l7.grammar-one-root-let.examples": {
+    "en": [
+      "I'm flying to Dublin.",
+      "The plane is at the airport.",
+      "The family is waiting in arrivals."
+    ],
+    "t": [
+      "Я лечу в Дублин.",
+      "Самолёт в аэропорту.",
+      "Семья ждёт в зале прилёта."
+    ]
+  },
+  "a2-u4-l7.choice-ktore-slovo-je.question": {
+    "en": "Which word is the plane?",
+    "t": "Какое слово значит «самолёт»?"
+  },
+  "a2-u4-l7.choice-ktore-slovo-je.why": {
+    "en": "All three come from letieť (to fly). **Lietadlo** is the plane; letisko is the airport and letenka the ticket.",
+    "t": "Все три слова — от letieť (лететь). **Lietadlo** — самолёт, letisko — аэропорт, а letenka — билет."
+  },
+  "a2-u4-l7.pas.en": {
+    "en": "passport",
+    "t": "паспорт"
+  },
+  "a2-u4-l7.pas.note": {
+    "en": "Emma is Irish, so she flies with her **pas**. Slovaks often fly with an ID card, an **občiansky preukaz**.",
+    "t": "Эмма из Ирландии, поэтому летает по паспорту, **pas**. Словаки часто летают по удостоверению личности — **občiansky preukaz**."
+  },
+  "a2-u4-l7.check-in.en": {
+    "en": "check-in (desk)",
+    "t": "регистрация (стойка регистрации)"
+  },
+  "a2-u4-l7.check-in.note": {
+    "en": "Also called **registrácia**. At the desk: **Váš pas, prosím.**",
+    "t": "Ещё говорят **registrácia**. На стойке: **Váš pas, prosím.** (Ваш паспорт, пожалуйста.)"
+  },
+  "a2-u4-l7.fill-na-check-in-potrebujem.en": {
+    "en": "For check-in I need my passport and ticket.",
+    "t": "На регистрацию мне нужны паспорт и билет."
+  },
+  "a2-u4-l7.fill-na-check-in-potrebujem.why": {
+    "en": "The passport is what you need, the object, and masculine things don't change: potrebujem **pas**.",
+    "t": "Паспорт — то, что нужно, дополнение, а неодушевлённые существительные мужского рода в винительном не меняются: potrebujem **pas**."
+  },
+  "a2-u4-l7.prirucna-batozina.en": {
+    "en": "hand luggage",
+    "t": "ручная кладь"
+  },
+  "a2-u4-l7.prirucna-batozina.note": {
+    "en": "A bigger suitcase goes in the hold, and a heavy one costs a **poplatok** (a fee): poplatok za kufor.",
+    "t": "Чемодан побольше сдают в багаж, а за тяжёлый берут **poplatok** (сбор, доплату): poplatok za kufor."
+  },
+  "a2-u4-l7.build-musim-zaplatit-poplatok.prompt": {
+    "en": "I have to pay a fee for the suitcase.",
+    "t": "Мне нужно заплатить сбор за чемодан."
+  },
+  "a2-u4-l7.build-musim-zaplatit-poplatok.traps": {
+    "en": [
+      "**Za** (for) takes the object form, and a masculine thing doesn't change: za **kufor**. Kufrom is “with”.",
+      "The fee is what you pay, the object, so it stays **poplatok**."
+    ],
+    "t": [
+      "**Za** (за) требует винительного, а неодушевлённое мужского рода не меняется: za **kufor**, как «за чемодан». Kufrom — «с чемоданом».",
+      "Сбор — то, что платят, дополнение, поэтому он остаётся **poplatok**."
+    ]
+  },
+  "a2-u4-l7.letuska.en": {
+    "en": "flight attendant (a woman)",
+    "t": "стюардесса"
+  },
+  "a2-u4-l7.letuska.note": {
+    "en": "The **pilot** flies the plane; the letuška looks after the passengers.",
+    "t": "Самолёт ведёт **pilot** (пилот), а letuška заботится о пассажирах."
+  },
+  "a2-u4-l7.fill-letuska-a-pilot.en": {
+    "en": "The flight attendant and the pilot work on the plane.",
+    "t": "Стюардесса и пилот работают в самолёте."
+  },
+  "a2-u4-l7.fill-letuska-a-pilot.why": {
+    "en": "Where? takes the locative after **v**: neuter nouns change -o to **-e**: v lietadl**e**.",
+    "t": "«Где?» после **v** — предложный падеж: у среднего рода -o → **-e**: v lietadl**e**, как «в самолёте»."
+  },
+  "a2-u4-l7.prijemny-let.en": {
+    "en": "Have a pleasant flight!",
+    "t": "Приятного полёта!"
+  },
+  "a2-u4-l7.prijemny-let.note": {
+    "en": "What the check-in staff or a friend wish you. On a train or a bus: Šťastnú cestu!",
+    "t": "Так желают на регистрации или друзья. В поезде или автобусе: Šťastnú cestu!"
+  },
+  "a2-u4-l7.choice-letuska-hovori.question": {
+    "en": "What does the flight attendant wish Emma as she gets on the plane?",
+    "t": "Что желает Эмме стюардесса, когда та садится в самолёт?"
+  },
+  "a2-u4-l7.fill-emmina-rodina-caka.en": {
+    "en": "Emma's family is waiting in the arrivals hall in Dublin.",
+    "t": "Семья Эммы ждёт в зале прилёта в Дублине."
+  },
+  "a2-u4-l7.fill-emmina-rodina-caka.why": {
+    "en": "They're waiting for Emma to arrive, so it's the arrivals hall: **príletová**, from prílet.",
+    "t": "Они ждут, когда Эмма прилетит, значит, это зал прилёта: **príletová**, от prílet."
+  },
+  "a2-u4-l7.match-letisko.pairs": {
+    "en": [
+      "airport",
+      "plane",
+      "passport",
+      "hand luggage",
+      "departures hall"
+    ],
+    "t": [
+      "аэропорт",
+      "самолёт",
+      "паспорт",
+      "ручная кладь",
+      "зал вылета"
+    ]
+  },
+  "a2-u4-l7.build-emma-caka-v.answers": {
+    "en": [
+      "Emma is waiting in the departures hall."
+    ],
+    "t": [
+      "Эмма ждёт в зале вылета.",
+      "Эмма ожидает в зале вылета."
+    ]
+  },
+  "a2-u4-l7.build-emma-caka-v.distractors": {
+    "en": [
+      "arrivals",
+      "plane"
+    ],
+    "t": [
+      "прилёта",
+      "самолёте"
+    ]
+  },
+  "a2-u4-l7.speak-prijemny-let.en": {
+    "en": "Have a pleasant flight!",
+    "t": "Приятного полёта!"
+  },
+  "a2-u4-l8.titleEn": {
+    "en": "Fast and comfortably",
+    "t": "Быстро и удобно"
+  },
+  "a2-u4-l8.grammar-adverbs-o-e.title": {
+    "en": "Adverbs: how you do something",
+    "t": "Наречия: как вы что-то делаете"
+  },
+  "a2-u4-l8.grammar-adverbs-o-e.body": {
+    "en": [
+      "An adjective goes with a noun: **pohodlný** vlak (a comfortable train). An adverb goes with a verb and says how: cestujeme **pohodlne** (we travel comfortably).",
+      "Most adverbs swap the adjective's -ý for **-o** or **-e**. No rule says which, so learn each one as a word. You already know two with -e: dobrý → **dobre**, zlý → **zle**."
+    ],
+    "t": [
+      "Как и в русском, прилагательное стоит при существительном: **pohodlný** vlak (удобный поезд), а наречие — при глаголе и отвечает на вопрос «как?»: cestujeme **pohodlne** (едем удобно).",
+      "Большинство наречий меняют -ý прилагательного на **-o** или **-e**. Правила, какое окончание выбрать, нет, поэтому учите каждое наречие как слово. Два на -e вы уже знаете: dobrý → **dobre**, zlý → **zle** (у нас «хорошо», «плохо»)."
+    ]
+  },
+  "a2-u4-l8.grammar-adverbs-o-e.table.head": {
+    "en": [
+      "adjective",
+      "adverb",
+      "English"
+    ],
+    "t": [
+      "прилагательное",
+      "наречие",
+      "по-русски"
+    ]
+  },
+  "a2-u4-l8.grammar-adverbs-o-e.table.rows": {
+    "en": [
+      [
+        "rýchl**y**",
+        "rýchl**o**",
+        "fast"
+      ],
+      [
+        "drah**ý**",
+        "drah**o**",
+        "expensive, expensively"
+      ],
+      [
+        "lacn**ý**",
+        "lacn**o**",
+        "cheap, cheaply"
+      ],
+      [
+        "dlh**ý**",
+        "dlh**o**",
+        "long, for a long time"
+      ],
+      [
+        "ďalek**ý**",
+        "ďalek**o**",
+        "far"
+      ],
+      [
+        "ťažk**ý**",
+        "ťažk**o**",
+        "heavy, hard; with difficulty"
+      ],
+      [
+        "pohodln**ý**",
+        "pohodln**e**",
+        "comfortable, comfortably"
+      ],
+      [
+        "bezpečn**ý**",
+        "bezpečn**e**",
+        "safe, safely"
+      ]
+    ],
+    "t": [
+      [
+        "rýchl**y**",
+        "rýchl**o**",
+        "быстрый, быстро"
+      ],
+      [
+        "drah**ý**",
+        "drah**o**",
+        "дорогой, дорого"
+      ],
+      [
+        "lacn**ý**",
+        "lacn**o**",
+        "дешёвый, дёшево"
+      ],
+      [
+        "dlh**ý**",
+        "dlh**o**",
+        "длинный, долгий; долго"
+      ],
+      [
+        "ďalek**ý**",
+        "ďalek**o**",
+        "далёкий, далеко"
+      ],
+      [
+        "ťažk**ý**",
+        "ťažk**o**",
+        "тяжёлый, трудный; тяжело, с трудом"
+      ],
+      [
+        "pohodln**ý**",
+        "pohodln**e**",
+        "удобный, удобно"
+      ],
+      [
+        "bezpečn**ý**",
+        "bezpečn**e**",
+        "безопасный, безопасно"
+      ]
+    ]
+  },
+  "a2-u4-l8.grammar-adverbs-o-e.examples": {
+    "en": [
+      "The IC is fast. It goes fast.",
+      "The journey is long. It takes a long time.",
+      "The train is comfortable. We travel comfortably."
+    ],
+    "t": [
+      "IC быстрый. Он идёт быстро.",
+      "Дорога долгая. Она длится долго.",
+      "Поезд удобный. Мы едем удобно."
+    ]
+  },
+  "a2-u4-l8.fill-toto-kupe-je.en": {
+    "en": "This compartment is very comfortable.",
+    "t": "Это купе очень удобное."
+  },
+  "a2-u4-l8.fill-toto-kupe-je.why": {
+    "en": "After **je** you're describing the compartment, a noun, so use the adjective; kupé is neuter: pohodln**é**. Pohodlne would go with a verb.",
+    "t": "После **je** вы описываете купе, существительное, поэтому нужно прилагательное; kupé — среднего рода: pohodln**é**, как «удобное». Pohodlne шло бы с глаголом."
+  },
+  "a2-u4-l8.choice-cestujeme-pohodlne.question": {
+    "en": "Which sentence is right?",
+    "t": "Какое предложение правильное?"
+  },
+  "a2-u4-l8.choice-cestujeme-pohodlne.why": {
+    "en": "It says how we travel, so it goes with the verb: the adverb **pohodlne**. Pohodlný and pohodlná go with nouns.",
+    "t": "Это о том, как мы едем, значит, при глаголе нужно наречие **pohodlne**. Pohodlný и pohodlná — при существительных."
+  },
+  "a2-u4-l8.fill-taxikom-cestujeme-rychlo.en": {
+    "en": "By taxi we travel fast, but it costs a lot.",
+    "t": "На такси мы едем быстро, но дорого."
+  },
+  "a2-u4-l8.fill-taxikom-cestujeme-rychlo.why": {
+    "en": "Like rýchlo, it says how we travel, so it's the adverb: drah**o**.",
+    "t": "Как и rýchlo, это о том, как мы едем, поэтому наречие: drah**o**, «дорого»."
+  },
+  "a2-u4-l8.build-letisko-je-daleko.prompt": {
+    "en": "The airport is far away.",
+    "t": "Аэропорт далеко."
+  },
+  "a2-u4-l8.build-letisko-je-daleko.traps": {
+    "en": [
+      "Far away says where the airport is, not what it's like, so Slovak uses the adverb: je **ďaleko**.",
+      "The airport is the subject, so it's the basic form: **letisko**. Letisku is “where”: na letisku."
+    ],
+    "t": [
+      "«Далеко» говорит, где аэропорт, а не какой он, поэтому, как и в русском, наречие: je **ďaleko**.",
+      "Аэропорт — подлежащее, поэтому начальная форма: **letisko**. Letisku — «где»: na letisku."
+    ]
+  },
+  "a2-u4-l8.fill-lucia-hovori-dobre.en": {
+    "en": "Lucia speaks English well.",
+    "t": "Луция хорошо говорит по-английски."
+  },
+  "a2-u4-l8.fill-lucia-hovori-dobre.why": {
+    "en": "It says how she speaks, so it's the adverb of dobrý: **dobre**.",
+    "t": "Это о том, как она говорит, поэтому наречие от dobrý: **dobre** (хорошо)."
+  },
+  "a2-u4-l8.fill-moj-kufor-je.en": {
+    "en": "My suitcase is heavy; I can hardly carry it.",
+    "t": "Мой чемодан тяжёлый, я еле его несу."
+  },
+  "a2-u4-l8.fill-moj-kufor-je.why": {
+    "en": "After **je**, describing the suitcase (a noun), use the adjective: ťažk**ý**. Ťažko goes with the verb: nesiem ho ťažko.",
+    "t": "После **je**, когда описываете чемодан (существительное), нужно прилагательное: ťažk**ý**. Ťažko — при глаголе: nesiem ho ťažko (несу его с трудом)."
+  },
+  "a2-u4-l8.grammar-adverbs-y-soft-n.title": {
+    "en": "Adverbs in -y, and a soft ň",
+    "t": "Наречия на -y и мягкое ň"
+  },
+  "a2-u4-l8.grammar-adverbs-y-soft-n.body": {
+    "en": [
+      "Adjectives in **-ský** and **-cký** make adverbs in **-y**, like po slovensky. **Pomalý** does the same: **pomaly** (slowly).",
+      "The **-ne** adverbs are said with a soft ň, as if written ňe: pohodlne [pohodlňe], pekne [pekňe], pokojne [pokojňe] (calmly). In the adjective the n stays hard: pohodlný."
+    ],
+    "t": [
+      "Прилагательные на **-ský** и **-cký** образуют наречия на **-y**, как po slovensky (по-словацки). **Pomalý** образует его так же: **pomaly** (медленно). Не забывайте: y читается как и, никогда не как ы.",
+      "Наречия на **-ne** произносятся с мягким ň, как будто написано ňe, как наше «не»: pohodlne [pohodlňe], pekne [pekňe], pokojne [pokojňe] (спокойно). В прилагательном n остаётся твёрдым: pohodlný."
+    ]
+  },
+  "a2-u4-l8.grammar-adverbs-y-soft-n.table.head": {
+    "en": [
+      "adjective",
+      "adverb",
+      "English"
+    ],
+    "t": [
+      "прилагательное",
+      "наречие",
+      "по-русски"
+    ]
+  },
+  "a2-u4-l8.grammar-adverbs-y-soft-n.table.rows": {
+    "en": [
+      [
+        "pomal**ý**",
+        "pomal**y**",
+        "slow, slowly"
+      ],
+      [
+        "slovensk**ý**",
+        "po slovensk**y**",
+        "Slovak, in Slovak"
+      ],
+      [
+        "praktick**ý**",
+        "praktick**y**",
+        "practical, practically"
+      ],
+      [
+        "optimistick**ý**",
+        "optimistick**y**",
+        "optimistic, optimistically"
+      ]
+    ],
+    "t": [
+      [
+        "pomal**ý**",
+        "pomal**y**",
+        "медленный, медленно"
+      ],
+      [
+        "slovensk**ý**",
+        "po slovensk**y**",
+        "словацкий, по-словацки"
+      ],
+      [
+        "praktick**ý**",
+        "praktick**y**",
+        "практичный, практично"
+      ],
+      [
+        "optimistick**ý**",
+        "optimistick**y**",
+        "оптимистичный, оптимистично"
+      ]
+    ]
+  },
+  "a2-u4-l8.grammar-adverbs-y-soft-n.examples": {
+    "en": [
+      "The train is going slowly.",
+      "Tomáš sees it optimistically."
+    ],
+    "t": [
+      "Поезд идёт медленно.",
+      "Томаш смотрит на это оптимистично."
+    ]
+  },
+  "a2-u4-l8.build-autobus-ide-pomaly.prompt": {
+    "en": "The bus goes slowly, but it's cheap.",
+    "t": "Автобус идёт медленно, но он дешёвый."
+  },
+  "a2-u4-l8.build-autobus-ide-pomaly.traps": {
+    "en": [
+      "How the bus goes goes with the verb, so use the adverb: pomal**y**.",
+      "After **je**, describing the bus itself, use the adjective: lacn**ý**."
+    ],
+    "t": [
+      "Как идёт автобус — это при глаголе, поэтому наречие: pomal**y**.",
+      "После **je**, когда описываете сам автобус, нужно прилагательное: lacn**ý**."
+    ]
+  },
+  "a2-u4-l8.choice-ako-sa-povie.question": {
+    "en": "How do you say pohodlne?",
+    "t": "Как произносится pohodlne?"
+  },
+  "a2-u4-l8.choice-ako-sa-povie.options": {
+    "en": [
+      "With a soft ň: [pohodlňe]",
+      "With a hard n, as in English"
+    ],
+    "t": [
+      "С мягким ň: [pohodlňe]",
+      "С твёрдым n, как «нэ»"
+    ]
+  },
+  "a2-u4-l8.choice-ako-sa-povie.why": {
+    "en": "Adverbs in **-ne** are said with a soft ň: pohodl**ne** sounds like [pohodlňe]. Only the adjective pohodlný keeps a hard n.",
+    "t": "Наречия на **-ne** произносятся с мягким ň: pohodl**ne** звучит как [pohodlňe], как наше «не». Только в прилагательном pohodlný n твёрдое."
+  },
+  "a2-u4-l8.fill-tomas-je-optimista.en": {
+    "en": "Tomáš is an optimist; he sees everything optimistically.",
+    "t": "Томаш оптимист, он на всё смотрит оптимистично."
+  },
+  "a2-u4-l8.fill-tomas-je-optimista.why": {
+    "en": "It says how he sees things, so it's the adverb, and -cký adjectives make it with **-y**: optimistick**y**.",
+    "t": "Это о том, как он смотрит, поэтому наречие, а прилагательные на -cký образуют его на **-y**: optimistick**y**."
+  },
+  "a2-u4-l8.build-emma-hovori-po.answers": {
+    "en": [
+      "Emma speaks Slovak slowly but well."
+    ],
+    "t": [
+      "Эмма говорит по-словацки медленно, но хорошо.",
+      "Эмма медленно, но хорошо говорит по-словацки."
+    ]
+  },
+  "a2-u4-l8.build-emma-hovori-po.distractors": {
+    "en": [
+      "fast",
+      "good"
+    ],
+    "t": [
+      "быстро",
+      "хороший"
+    ]
+  },
+  "a2-u4-l8.fill-osobny-vlak-ide.en": {
+    "en": "The slow train goes very slowly.",
+    "t": "Пассажирский поезд идёт очень медленно."
+  },
+  "a2-u4-l8.fill-osobny-vlak-ide.why": {
+    "en": "It says how the train goes, so it's the adverb, with **-y**: pomal**y**. Pomalý goes with a noun: pomalý vlak.",
+    "t": "Это о том, как идёт поезд, поэтому наречие на **-y**: pomal**y**. Pomalý — при существительном: pomalý vlak."
+  },
+  "a2-u4-l8.speak-cestujeme-pohodlne-a.en": {
+    "en": "We travel comfortably and cheaply.",
+    "t": "Мы едем удобно и дёшево."
+  },
+  "a2-u4-l9.titleEn": {
+    "en": "Faster and fastest",
+    "t": "Быстрее и быстрее всего"
+  },
+  "a2-u4-l9.grammar-comparing-adverbs.title": {
+    "en": "Faster, fastest: comparing adverbs",
+    "t": "Быстрее, быстрее всего: сравнение наречий"
+  },
+  "a2-u4-l9.grammar-comparing-adverbs.body": {
+    "en": [
+      "Adverbs compare like adjectives (rýchlejší, lacnejší), but end in **-ie**: rýchlo → **rýchlejšie** (faster), draho → **drahšie** (more expensively). **Naj-** in front makes the most: **najrýchlejšie** (fastest). Dlho is an exception: **dlhšie**, not dlhejšie, as dlhý → dlhší.",
+      "Compare with **ako** (than): IC-čkom cestujem rýchlejšie **ako** rýchlikom. For “as … as”, use **tak** … **ako**: Autobus ide **tak** rýchlo **ako** vlak."
+    ],
+    "t": [
+      "Наречия сравниваются как прилагательные (rýchlejší, lacnejší), но оканчиваются на **-ie**: rýchlo → **rýchlejšie** (быстрее), draho → **drahšie** (дороже). В русском «быстрее» одно для обоих, а в словацком у прилагательного -ší, у наречия -šie. **Naj-** впереди даёт превосходную степень, как наше «наи-»: **najrýchlejšie** (быстрее всего). Dlho — исключение: **dlhšie**, а не dlhejšie, как dlhý → dlhší.",
+      "Сравнивают с помощью **ako** (чем): IC-čkom cestujem rýchlejšie **ako** rýchlikom. «Так же…, как» — **tak** … **ako**: Autobus ide **tak** rýchlo **ako** vlak."
+    ]
+  },
+  "a2-u4-l9.grammar-comparing-adverbs.table.head": {
+    "en": [
+      "",
+      "more",
+      "most"
+    ],
+    "t": [
+      "",
+      "сравнительная степень",
+      "превосходная степень"
+    ]
+  },
+  "a2-u4-l9.grammar-comparing-adverbs.table.rows": {
+    "en": [
+      [
+        "rýchlo",
+        "rýchl**ejšie**",
+        "**naj**rýchlejšie"
+      ],
+      [
+        "lacno",
+        "lacn**ejšie**",
+        "**naj**lacnejšie"
+      ],
+      [
+        "pohodlne",
+        "pohodln**ejšie**",
+        "**naj**pohodlnejšie"
+      ],
+      [
+        "draho",
+        "drah**šie**",
+        "**naj**drahšie"
+      ],
+      [
+        "pomaly",
+        "pomal**šie**",
+        "**naj**pomalšie"
+      ],
+      [
+        "dlho",
+        "dlh**šie**",
+        "**naj**dlhšie"
+      ],
+      [
+        "ťažko",
+        "ťaž**šie**",
+        "**naj**ťažšie"
+      ]
+    ],
+    "t": [
+      [
+        "rýchlo",
+        "rýchl**ejšie**",
+        "**naj**rýchlejšie"
+      ],
+      [
+        "lacno",
+        "lacn**ejšie**",
+        "**naj**lacnejšie"
+      ],
+      [
+        "pohodlne",
+        "pohodln**ejšie**",
+        "**naj**pohodlnejšie"
+      ],
+      [
+        "draho",
+        "drah**šie**",
+        "**naj**drahšie"
+      ],
+      [
+        "pomaly",
+        "pomal**šie**",
+        "**naj**pomalšie"
+      ],
+      [
+        "dlho",
+        "dlh**šie**",
+        "**naj**dlhšie"
+      ],
+      [
+        "ťažko",
+        "ťaž**šie**",
+        "**naj**ťažšie"
+      ]
+    ]
+  },
+  "a2-u4-l9.grammar-comparing-adverbs.examples": {
+    "en": [
+      "I travel faster by IC than by fast train.",
+      "By plane is fastest.",
+      "The bus goes as fast as the train."
+    ],
+    "t": [
+      "На IC я езжу быстрее, чем на скором.",
+      "Самолётом быстрее всего.",
+      "Автобус идёт так же быстро, как поезд."
+    ]
+  },
+  "a2-u4-l9.fill-ic-ckom-cestujeme.en": {
+    "en": "We travel faster by IC than by slow train.",
+    "t": "На IC мы едем быстрее, чем на пассажирском."
+  },
+  "a2-u4-l9.fill-ic-ckom-cestujeme.why": {
+    "en": "Comparing two trains with **ako** (than) needs the comparative: rýchl**ejšie**. Naj- is for the fastest of all.",
+    "t": "Сравниваем два поезда с **ako** (чем), значит, нужна сравнительная степень: rýchl**ejšie**. Naj- — для самого быстрого из всех."
+  },
+  "a2-u4-l9.fill-autobus-ide-rychlo.en": {
+    "en": "The bus goes fast, the train even faster, and the plane flies fastest of all.",
+    "t": "Автобус едет быстро, поезд ещё быстрее, а самолёт летит быстрее всех."
+  },
+  "a2-u4-l9.fill-autobus-ide-rychlo.why": {
+    "en": "Of the three, the plane is the fastest of all, so put **naj-** in front: **naj**rýchlejšie.",
+    "t": "Из трёх самолёт быстрее всех, поэтому добавьте впереди **naj-**: **naj**rýchlejšie."
+  },
+  "a2-u4-l9.fill-autobus-ide-tak.en": {
+    "en": "The bus goes as fast as the train.",
+    "t": "Автобус идёт так же быстро, как поезд."
+  },
+  "a2-u4-l9.fill-autobus-ide-tak.why": {
+    "en": "With **tak … ako** (as … as), the adverb stays in its basic form: tak **rýchlo** ako.",
+    "t": "С **tak … ako** (так же…, как) наречие остаётся в начальной форме: tak **rýchlo** ako."
+  },
+  "a2-u4-l9.fill-rychlik-je-pomalsi.en": {
+    "en": "The fast train is slower, but we travel more cheaply.",
+    "t": "Скорый медленнее, зато мы едем дешевле."
+  },
+  "a2-u4-l9.fill-rychlik-je-pomalsi.why": {
+    "en": "It says how we travel, so it's the adverb, which ends in **-ie**: lacnejš**ie**. Lacnejší is the adjective.",
+    "t": "Это о том, как мы едем, поэтому наречие, а оно оканчивается на **-ie**: lacnejš**ie**. Lacnejší — прилагательное."
+  },
+  "a2-u4-l9.grammar-irregular-adverbs.title": {
+    "en": "Better, worse, more, less",
+    "t": "Лучше, хуже, больше, меньше"
+  },
+  "a2-u4-l9.grammar-irregular-adverbs.body": {
+    "en": [
+      "A few adverbs change completely, just like their adjectives: dobre → **lepšie** → **najlepšie**, zle → **horšie** → **najhoršie**.",
+      "Also veľa → **viac** (a lot → more) and málo → **menej** (little → less). And you know rád → **radšej** → **najradšej** from unit 2: Najradšej cestujem vlakom."
+    ],
+    "t": [
+      "Несколько наречий меняются полностью, как и их прилагательные, совсем как в русском: dobre → **lepšie** → **najlepšie** (хорошо → лучше → лучше всего), zle → **horšie** → **najhoršie** (плохо → хуже → хуже всего).",
+      "А также veľa → **viac** (много → больше) и málo → **menej** (мало → меньше). А rád → **radšej** → **najradšej** вы знаете из раздела 2: Najradšej cestujem vlakom."
+    ]
+  },
+  "a2-u4-l9.grammar-irregular-adverbs.table.head": {
+    "en": [
+      "",
+      "more",
+      "most"
+    ],
+    "t": [
+      "",
+      "сравнительная степень",
+      "превосходная степень"
+    ]
+  },
+  "a2-u4-l9.grammar-irregular-adverbs.table.rows": {
+    "en": [
+      [
+        "dobre",
+        "**lepšie**",
+        "**najlepšie**"
+      ],
+      [
+        "zle",
+        "**horšie**",
+        "**najhoršie**"
+      ],
+      [
+        "veľa",
+        "**viac**",
+        "**najviac**"
+      ],
+      [
+        "málo",
+        "**menej**",
+        "**najmenej**"
+      ],
+      [
+        "pekne",
+        "**krajšie**",
+        "**najkrajšie**"
+      ],
+      [
+        "ďaleko",
+        "**ďalej**",
+        "**najďalej**"
+      ],
+      [
+        "rád",
+        "**radšej**",
+        "**najradšej**"
+      ]
+    ],
+    "t": [
+      [
+        "dobre",
+        "**lepšie**",
+        "**najlepšie**"
+      ],
+      [
+        "zle",
+        "**horšie**",
+        "**najhoršie**"
+      ],
+      [
+        "veľa",
+        "**viac**",
+        "**najviac**"
+      ],
+      [
+        "málo",
+        "**menej**",
+        "**najmenej**"
+      ],
+      [
+        "pekne",
+        "**krajšie**",
+        "**najkrajšie**"
+      ],
+      [
+        "ďaleko",
+        "**ďalej**",
+        "**najďalej**"
+      ],
+      [
+        "rád",
+        "**radšej**",
+        "**najradšej**"
+      ]
+    ]
+  },
+  "a2-u4-l9.grammar-irregular-adverbs.examples": {
+    "en": [
+      "I feel better today.",
+      "I like travelling by train best."
+    ],
+    "t": [
+      "Сегодня я чувствую себя лучше.",
+      "Больше всего я люблю ездить на поезде."
+    ]
+  },
+  "a2-u4-l9.fill-vcera-mi-bolo.en": {
+    "en": "Yesterday I felt ill, but today I feel better.",
+    "t": "Вчера мне было плохо, а сегодня я чувствую себя лучше."
+  },
+  "a2-u4-l9.fill-vcera-mi-bolo.why": {
+    "en": "Dobre is irregular: dobre → **lepšie**. There's no dobrejšie, and lepší is the adjective.",
+    "t": "Dobre — неправильное наречие: dobre → **lepšie**, как «хорошо → лучше». Формы dobrejšie нет, а lepší — прилагательное."
+  },
+  "a2-u4-l9.build-najradsej-cestujem-vlakom.prompt": {
+    "en": "I like travelling by train best.",
+    "t": "Больше всего я люблю ездить на поезде."
+  },
+  "a2-u4-l9.build-najradsej-cestujem-vlakom.traps": {
+    "en": [
+      "Best of all is the superlative, with naj-: **naj**radšej. Radšej means rather.",
+      "How you travel takes the instrumental: vlak**om**."
+    ],
+    "t": [
+      "«Больше всего» — превосходная степень с naj-: **naj**radšej. Radšej значит «охотнее, лучше».",
+      "Как вы едете — творительный падеж: vlak**om**."
+    ]
+  },
+  "a2-u4-l9.build-lucia-hovori-lepsie.prompt": {
+    "en": "Lucia speaks English better than Marek.",
+    "t": "Луция говорит по-английски лучше, чем Марек."
+  },
+  "a2-u4-l9.build-lucia-hovori-lepsie.traps": {
+    "en": [
+      "It says how she speaks, so it's the adverb: dobre → **lepšie**. Lepší is the adjective.",
+      "Comparing with **ako** (than) needs the comparative: dobre → **lepšie**."
+    ],
+    "t": [
+      "Это о том, как она говорит, поэтому наречие: dobre → **lepšie**. Lepší — прилагательное, хотя по-русски оба будут «лучше».",
+      "Сравнение с **ako** (чем) требует сравнительной степени: dobre → **lepšie**."
+    ]
+  },
+  "a2-u4-l9.choice-tomas-pracuje-viac.question": {
+    "en": "Which sentence is right?",
+    "t": "Какое предложение правильное?"
+  },
+  "a2-u4-l9.choice-tomas-pracuje-viac.why": {
+    "en": "Veľa is irregular: “more” is **viac**. There's no veľejšie, and veľa can't compare with ako.",
+    "t": "Veľa — неправильное наречие: «больше» — **viac**. Формы veľejšie нет, а с veľa нельзя сравнивать через ako."
+  },
+  "a2-u4-l9.fill-v-bratislave-prsi.en": {
+    "en": "It rains less in Bratislava than in Dublin.",
+    "t": "В Братиславе дождей меньше, чем в Дублине."
+  },
+  "a2-u4-l9.fill-v-bratislave-prsi.why": {
+    "en": "Comparing with **ako** needs the comparative, and málo is irregular: málo → **menej** (less).",
+    "t": "Сравнение с **ako** требует сравнительной степени, а málo — неправильное наречие: málo → **menej** (меньше)."
+  },
+  "a2-u4-l9.fill-cesta-autobusom-trva.en": {
+    "en": "The journey by bus takes longer than by train.",
+    "t": "Поездка на автобусе длится дольше, чем на поезде."
+  },
+  "a2-u4-l9.fill-cesta-autobusom-trva.why": {
+    "en": "It says how long it takes, so it's the adverb, and with **ako** the comparative: dlh**šie**. Dlhší is the adjective.",
+    "t": "Это о том, сколько длится поездка, поэтому наречие, а с **ako** — сравнительная степень: dlh**šie** (дольше). Dlhší — прилагательное."
+  },
+  "a2-u4-l9.build-najhorsie-je-cakat.answers": {
+    "en": [
+      "The worst thing is waiting at the airport."
+    ],
+    "t": [
+      "Хуже всего ждать в аэропорту.",
+      "Самое плохое — ждать в аэропорту.",
+      "Хуже всего — это ждать в аэропорту."
+    ]
+  },
+  "a2-u4-l9.build-najhorsie-je-cakat.distractors": {
+    "en": [
+      "best",
+      "station"
+    ],
+    "t": [
+      "лучше",
+      "вокзале"
+    ]
+  },
+  "a2-u4-l9.speak-vlakom-je-to.en": {
+    "en": "By train is the most comfortable.",
+    "t": "На поезде удобнее всего."
+  },
+  "a2-u4-l10.titleEn": {
+    "en": "Probably, maybe, definitely",
+    "t": "Наверное, может быть, точно"
+  },
+  "a2-u4-l10.asi.en": {
+    "en": "probably; about",
+    "t": "наверное; примерно"
+  },
+  "a2-u4-l10.asi.note": {
+    "en": "Emma is packing for Dublin. Máš všetko? – **Asi áno.** = Probably. You've met both meanings: to je asi omyl (probably a mistake) and mal asi tridsať rokov (about thirty).",
+    "t": "Эмма собирается в Дублин. Máš všetko? – **Asi áno.** = Наверное, да. Оба значения вы уже встречали: to je asi omyl (это, наверное, ошибка) и mal asi tridsať rokov (ему было около тридцати)."
+  },
+  "a2-u4-l10.fill-lietadlo-leti-rano.en": {
+    "en": "The plane leaves in the morning, at about seven.",
+    "t": "Самолёт летит утром, примерно в семь."
+  },
+  "a2-u4-l10.fill-lietadlo-leti-rano.why": {
+    "en": "With a time, **asi** means about: asi o siedmej = at about seven.",
+    "t": "Со временем **asi** значит «примерно»: asi o siedmej = примерно в семь."
+  },
+  "a2-u4-l10.mozno.en": {
+    "en": "maybe, perhaps",
+    "t": "может быть, возможно"
+  },
+  "a2-u4-l10.mozno.note": {
+    "en": "**Možno** bude v Dubline pršať. = Maybe it'll rain in Dublin.",
+    "t": "**Možno** bude v Dubline pršať. = Может быть, в Дублине будет дождь."
+  },
+  "a2-u4-l10.urcite.en": {
+    "en": "definitely, for sure",
+    "t": "точно, обязательно"
+  },
+  "a2-u4-l10.urcite.note": {
+    "en": "**Určite** ti zavolám. = I'll definitely call you. On its own, a strong yes: Určite!",
+    "t": "**Určite** ti zavolám. = Я тебе обязательно позвоню. Само по себе — уверенное «да»: Určite! (Конечно!)"
+  },
+  "a2-u4-l10.choice-zavolas-mi-z.question": {
+    "en": "Lucia asks: Zavoláš mi z Dublinu? Emma is sure she will. What does she say?",
+    "t": "Луция спрашивает: Zavoláš mi z Dublinu? Эмма уверена, что позвонит. Что она скажет?"
+  },
+  "a2-u4-l10.choice-zavolas-mi-z.why": {
+    "en": "Being sure is **určite** (definitely). Možno is only maybe, and asi nie means probably not.",
+    "t": "Уверенность — это **určite** (обязательно). Možno — только «может быть», а asi nie — «наверное, нет»."
+  },
+  "a2-u4-l10.build-v-dubline-mozno.prompt": {
+    "en": "Maybe it'll rain in Dublin.",
+    "t": "Может быть, в Дублине будет дождь."
+  },
+  "a2-u4-l10.build-v-dubline-mozno.traps": {
+    "en": [
+      "After **bude**, use the infinitive, the -ť form: bude **pršať**. Prší is now.",
+      "Where? takes the locative after **v**: v Dublin**e**."
+    ],
+    "t": [
+      "После **bude** — инфинитив, форма на -ť: bude **pršať**, как «будет идти дождь». Prší — это сейчас.",
+      "«Где?» после **v** — предложный падеж: v Dublin**e**, как «в Дублине»."
+    ]
+  },
+  "a2-u4-l10.dost.en": {
+    "en": "quite; enough",
+    "t": "довольно; достаточно"
+  },
+  "a2-u4-l10.dost.note": {
+    "en": "Before an adjective or an adverb it means quite: **dosť ďaleko** = quite far. On its own, enough: To je dosť.",
+    "t": "Перед прилагательным или наречием — «довольно»: **dosť ďaleko** = довольно далеко. Само по себе — «достаточно, хватит»: To je dosť."
+  },
+  "a2-u4-l10.malo.en": {
+    "en": "little, not much",
+    "t": "мало"
+  },
+  "a2-u4-l10.malo.note": {
+    "en": "The opposite of veľa: **málo spím** = I don't sleep much.",
+    "t": "Противоположность veľa: **málo spím** = я мало сплю."
+  },
+  "a2-u4-l10.fill-letisko-je-dost.en": {
+    "en": "The airport is quite far, so I'll go by taxi.",
+    "t": "Аэропорт довольно далеко, поеду на такси."
+  },
+  "a2-u4-l10.fill-letisko-je-dost.why": {
+    "en": "Before an adverb, **dosť** means quite: dosť ďaleko = quite far. Málo and veľa say how much.",
+    "t": "Перед наречием **dosť** значит «довольно»: dosť ďaleko = довольно далеко. Málo и veľa говорят о количестве."
+  },
+  "a2-u4-l10.fill-emma-je-unavena.en": {
+    "en": "Emma is tired because she didn't sleep much last night.",
+    "t": "Эмма устала, потому что ночью мало спала."
+  },
+  "a2-u4-l10.fill-emma-je-unavena.why": {
+    "en": "She's tired, so she didn't sleep much: **málo** (little). Veľa and dosť would mean she slept well.",
+    "t": "Она устала, значит, спала мало: **málo**. С veľa и dosť выходило бы, что она выспалась."
+  },
+  "a2-u4-l10.skoro-a-neskoro.en": {
+    "en": "early and late",
+    "t": "рано и поздно"
+  },
+  "a2-u4-l10.skoro-a-neskoro.note": {
+    "en": "**Zajtra musím vstávať skoro.** = I have to get up early tomorrow. **Je neskoro.** = It's late.",
+    "t": "**Zajtra musím vstávať skoro.** = Завтра мне надо рано вставать. **Je neskoro.** = Уже поздно. Осторожно: skoro — это «рано», а не «скоро»!"
+  },
+  "a2-u4-l10.nacas.en": {
+    "en": "on time",
+    "t": "вовремя"
+  },
+  "a2-u4-l10.nacas.note": {
+    "en": "Lietadlo letí **načas**. = The plane is on time. The opposite: mešká.",
+    "t": "Lietadlo letí **načas**. = Самолёт вылетает вовремя. Противоположное — mešká (опаздывает)."
+  },
+  "a2-u4-l10.choice-je-neskoro-autobus.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u4-l10.choice-je-neskoro-autobus.options": {
+    "en": [
+      "It's early; the bus probably isn't here yet.",
+      "It's late, but the bus is definitely coming.",
+      "It's late; the bus probably isn't running any more."
+    ],
+    "t": [
+      "Ещё рано, автобуса, наверное, пока нет.",
+      "Поздно, но автобус точно придёт.",
+      "Поздно, автобус, наверное, уже не ходит."
+    ]
+  },
+  "a2-u4-l10.build-vlak-pride-nacas.prompt": {
+    "en": "The train will arrive on time.",
+    "t": "Поезд придёт вовремя."
+  },
+  "a2-u4-l10.build-vlak-pride-nacas.traps": {
+    "en": [
+      "On time is **načas**; neskoro means late.",
+      "It hasn't arrived yet: **príde** points to the future. Prišiel is the past."
+    ],
+    "t": [
+      "Вовремя — **načas**; neskoro значит «поздно».",
+      "Поезд ещё не пришёл: **príde** указывает на будущее, как «придёт». Prišiel — прошедшее время."
+    ]
+  },
+  "a2-u4-l10.build-emma-leti-naspat.prompt": {
+    "en": "Emma is flying back on Monday.",
+    "t": "Эмма летит обратно в понедельник."
+  },
+  "a2-u4-l10.build-emma-leti-naspat.traps": {
+    "en": [
+      "Emma is ona, so the verb has no ending: **letí**. Letím is ja.",
+      "Monday is **pondelok**; utorok is Tuesday."
+    ],
+    "t": [
+      "Эмма — ona, поэтому **letí** (летит), без личного окончания. Letím — для ja (лечу).",
+      "Понедельник — **pondelok**; utorok — вторник."
+    ]
+  },
+  "a2-u4-l10.match-asi-mozno.pairs": {
+    "en": [
+      "probably",
+      "maybe",
+      "definitely",
+      "quite, enough",
+      "not much"
+    ],
+    "t": [
+      "наверное",
+      "может быть",
+      "точно",
+      "довольно, достаточно",
+      "мало"
+    ]
+  },
+  "a2-u4-l10.build-zajtra-musim-vstavat.answers": {
+    "en": [
+      "Tomorrow I have to get up early.",
+      "I have to get up early tomorrow."
+    ],
+    "t": [
+      "Завтра мне надо рано вставать.",
+      "Завтра мне нужно рано вставать.",
+      "Мне завтра надо рано вставать.",
+      "Завтра я должен рано вставать.",
+      "Завтра я должна рано вставать."
+    ]
+  },
+  "a2-u4-l10.build-zajtra-musim-vstavat.distractors": {
+    "en": [
+      "late",
+      "today"
+    ],
+    "t": [
+      "поздно",
+      "скоро",
+      "сегодня"
+    ]
+  },
+  "a2-u4-l10.speak-urcite-pridem-nacas.en": {
+    "en": "I'll definitely be on time!",
+    "t": "Я обязательно приду вовремя!"
+  },
+  "a2-u4-l11.titleEn": {
+    "en": "Someone who travels",
+    "t": "Человек, который путешествует"
+  },
+  "a2-u4-l11.grammar-ktory-who-which.title": {
+    "en": "Ktorý: who, which, that",
+    "t": "Ktorý: который"
+  },
+  "a2-u4-l11.grammar-ktory-who-which.body": {
+    "en": [
+      "You know ktorý? as a question: which one? It also joins two sentences into one: Sprievodca je muž. Kontroluje lístky. → Sprievodca je muž, **ktorý** kontroluje (checks) lístky. A comma always comes before it.",
+      "Ktorý takes the gender and number of the noun it's about: **ktorý**, **ktorá**, **ktoré**. In the plural it's **ktorí** for men or a mixed group, and **ktoré** for everything else."
+    ],
+    "t": [
+      "Ktorý? вы знаете как вопрос: который? какой? Как и русское «который», он соединяет два предложения в одно: Sprievodca je muž. Kontroluje lístky. → Sprievodca je muž, **ktorý** kontroluje (проверяет) lístky. Перед ним всегда запятая.",
+      "Ktorý принимает род и число своего существительного: **ktorý**, **ktorá**, **ktoré** (который, которая, которое). Но во множественном числе форм две: **ktorí** — для мужчин или смешанной группы, **ktoré** — для всех остальных. В русском в обоих случаях «которые»."
+    ]
+  },
+  "a2-u4-l11.grammar-ktory-who-which.table.head": {
+    "en": [
+      "",
+      "one",
+      "more than one"
+    ],
+    "t": [
+      "",
+      "один",
+      "несколько"
+    ]
+  },
+  "a2-u4-l11.grammar-ktory-who-which.table.rows": {
+    "en": [
+      [
+        "men",
+        "muž, **ktorý**…",
+        "muži, **ktorí**…"
+      ],
+      [
+        "things (he)",
+        "vlak, **ktorý**…",
+        "vlaky, **ktoré**…"
+      ],
+      [
+        "women, things (she)",
+        "žena, **ktorá**…",
+        "ženy, **ktoré**…"
+      ],
+      [
+        "it",
+        "miesto, **ktoré**…",
+        "miesta, **ktoré**…"
+      ]
+    ],
+    "t": [
+      [
+        "мужчины",
+        "muž, **ktorý**…",
+        "muži, **ktorí**…"
+      ],
+      [
+        "предметы мужского рода",
+        "vlak, **ktorý**…",
+        "vlaky, **ktoré**…"
+      ],
+      [
+        "женщины, предметы женского рода",
+        "žena, **ktorá**…",
+        "ženy, **ktoré**…"
+      ],
+      [
+        "средний род",
+        "miesto, **ktoré**…",
+        "miesta, **ktoré**…"
+      ]
+    ]
+  },
+  "a2-u4-l11.grammar-ktory-who-which.examples": {
+    "en": [
+      "A steward is a man who works on a plane.",
+      "That's the train that goes to Košice.",
+      "A conductor is a man who checks tickets."
+    ],
+    "t": [
+      "Стюард — это мужчина, который работает в самолёте.",
+      "Это поезд, который идёт в Кошице.",
+      "Проводник — это мужчина, который проверяет билеты."
+    ]
+  },
+  "a2-u4-l11.fill-letuska-je-zena.en": {
+    "en": "A flight attendant is a woman who works on a plane.",
+    "t": "Стюардесса — это женщина, которая работает в самолёте."
+  },
+  "a2-u4-l11.fill-letuska-je-zena.why": {
+    "en": "Ktorý takes the gender of its noun: žena is feminine, so **ktorá**.",
+    "t": "Ktorý согласуется в роде со своим существительным: žena — женского рода, поэтому **ktorá**, как «которая»."
+  },
+  "a2-u4-l11.fill-kde-je-vlak.en": {
+    "en": "Where's the train that goes to Bratislava?",
+    "t": "Где поезд, который идёт в Братиславу?"
+  },
+  "a2-u4-l11.fill-kde-je-vlak.why": {
+    "en": "Vlak is a masculine thing, so **ktorý**. Ktorí is only for a group of people with a man in it.",
+    "t": "Vlak — предмет мужского рода, поэтому **ktorý**. Ktorí — только для группы людей, в которой есть мужчина."
+  },
+  "a2-u4-l11.cestujuci.en": {
+    "en": "passenger (a man)",
+    "t": "пассажир"
+  },
+  "a2-u4-l11.cestujuci.note": {
+    "en": "It works like an adjective, and the plural looks the same: cestujúci, **ktorí** čakajú = passengers who are waiting.",
+    "t": "Склоняется как прилагательное (как наше «отдыхающий»), и во множественном выглядит так же: cestujúci, **ktorí** čakajú = пассажиры, которые ждут."
+  },
+  "a2-u4-l11.fill-cestujuci-ktori-nemaju.en": {
+    "en": "Passengers who don't have tickets must pay a fine.",
+    "t": "Пассажиры, у которых нет билетов, должны заплатить штраф."
+  },
+  "a2-u4-l11.fill-cestujuci-ktori-nemaju.why": {
+    "en": "These cestujúci are many people, men or mixed (the verb is nemajú), so the plural is **ktorí**.",
+    "t": "Эти cestujúci — много людей, мужчины или смешанная группа (глагол nemajú), поэтому во множественном **ktorí**."
+  },
+  "a2-u4-l11.choice-je-to-zena.question": {
+    "en": "Who is this?",
+    "t": "Кто это?"
+  },
+  "a2-u4-l11.build-emma-ma-kamarata.prompt": {
+    "en": "Emma has a friend who lives in Košice.",
+    "t": "У Эммы есть друг, который живёт в Кошице."
+  },
+  "a2-u4-l11.build-emma-ma-kamarata.traps": {
+    "en": [
+      "The friend is a man, kamarát, so it's **ktorý**.",
+      "Košice is plural, and living there is the locative: v Košic**iach**."
+    ],
+    "t": [
+      "Друг — мужчина, kamarát, поэтому **ktorý**.",
+      "Košice — множественное число, а «где живёт» — предложный падеж: v Košic**iach**. По-русски «в Кошице» не склоняется, а по-словацки склоняется."
+    ]
+  },
+  "a2-u4-l11.choice-letusky-nemaju-rady.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u4-l11.choice-letusky-nemaju-rady.options": {
+    "en": [
+      "Flight attendants don't listen to the passengers.",
+      "Flight attendants don't like passengers who don't listen.",
+      "Passengers don't like flight attendants who don't listen."
+    ],
+    "t": [
+      "Стюардессы не слушают пассажиров.",
+      "Стюардессы не любят пассажиров, которые не слушают.",
+      "Пассажиры не любят стюардесс, которые не слушают."
+    ]
+  },
+  "a2-u4-l11.choice-letusky-nemaju-rady.why": {
+    "en": "**Ktorí** goes back to cestujúcich, the people just before it: the passengers are the ones who don't listen.",
+    "t": "**Ktorí** относится к cestujúcich, к людям прямо перед ним: не слушают именно пассажиры. К тому же ktorí — форма для мужчин или смешанной группы, а не для стюардесс."
+  },
+  "a2-u4-l11.build-letusky-ktore-pracuju.prompt": {
+    "en": "The flight attendants who work on this plane are from Slovakia.",
+    "t": "Стюардессы, которые работают в этом самолёте, из Словакии."
+  },
+  "a2-u4-l11.build-letusky-ktore-pracuju.traps": {
+    "en": [
+      "Letušky are women, so the plural is **ktoré**. Ktorí is only for men or a mixed group.",
+      "The flight attendants are oni, so the verb ends in **-ú**: pracuj**ú**."
+    ],
+    "t": [
+      "Letušky — женщины, поэтому во множественном **ktoré**. Ktorí — только для мужчин или смешанной группы.",
+      "Стюардессы — это oni, поэтому глагол на **-ú**: pracuj**ú**."
+    ]
+  },
+  "a2-u4-l11.grammar-ktory-other-cases.title": {
+    "en": "Ktorý as an object, or after v, na, s",
+    "t": "Ktorý как дополнение и после v, na, s"
+  },
+  "a2-u4-l11.grammar-ktory-other-cases.body": {
+    "en": [
+      "Inside its own part of the sentence, ktorý can be the object or follow a preposition. Then it changes like an adjective: letenka, **ktorú** som kúpila (the ticket I bought); mesto, **v ktorom** bývam (the town I live in); vlak, **ktorým** cestujem (the train I travel by).",
+      "As an object, a masculine thing keeps **ktorý**: kufor, ktorý hľadám. For a man it's **ktorého**: kamarát, **ktorého** hľadám."
+    ],
+    "t": [
+      "Внутри своей части предложения ktorý может быть дополнением или стоять после предлога. Тогда он склоняется как прилагательное, совсем как русское «который»: letenka, **ktorú** som kúpila (билет, который я купила); mesto, **v ktorom** bývam (город, в котором я живу); vlak, **ktorým** cestujem (поезд, на котором я езжу).",
+      "В винительном падеже предмет мужского рода оставляет **ktorý**: kufor, ktorý hľadám. Для мужчины — **ktorého**: kamarát, **ktorého** hľadám. Как у нас: «чемодан, который», но «друг, которого»."
+    ]
+  },
+  "a2-u4-l11.grammar-ktory-other-cases.table.head": {
+    "en": [
+      "",
+      "masculine",
+      "feminine",
+      "neuter"
+    ],
+    "t": [
+      "",
+      "мужской род",
+      "женский род",
+      "средний род"
+    ]
+  },
+  "a2-u4-l11.grammar-ktory-other-cases.table.rows": {
+    "en": [
+      [
+        "object (koho? čo?)",
+        "ktorý · ktorého (men)",
+        "ktorú",
+        "ktoré"
+      ],
+      [
+        "where? (v, na)",
+        "v ktorom",
+        "v ktorej",
+        "v ktorom"
+      ],
+      [
+        "by, with (s)",
+        "ktorým",
+        "ktorou",
+        "ktorým"
+      ]
+    ],
+    "t": [
+      [
+        "дополнение (koho? čo?)",
+        "ktorý · ktorého (о мужчине)",
+        "ktorú",
+        "ktoré"
+      ],
+      [
+        "где? (v, na)",
+        "v ktorom",
+        "v ktorej",
+        "v ktorom"
+      ],
+      [
+        "чем, с кем (s)",
+        "ktorým",
+        "ktorou",
+        "ktorým"
+      ]
+    ]
+  },
+  "a2-u4-l11.grammar-ktory-other-cases.examples": {
+    "en": [
+      "That's the ticket I bought.",
+      "Žilina is the town where Lucia's family lives.",
+      "The IC is the train Tomáš travels on."
+    ],
+    "t": [
+      "Это билет, который я купила.",
+      "Жилина — это город, в котором живёт семья Луции.",
+      "IC — это поезд, на котором ездит Томаш."
+    ]
+  },
+  "a2-u4-l11.fill-kde-je-ta.en": {
+    "en": "Where's the ticket I bought yesterday?",
+    "t": "Где тот билет, который я вчера купила?"
+  },
+  "a2-u4-l11.fill-kde-je-ta.why": {
+    "en": "In its own part, the ticket is what I bought, the object, so ktorá changes to **ktorú**, just like letenka → letenku.",
+    "t": "В своей части предложения билет — то, что я купила, дополнение, поэтому ktorá меняется на **ktorú**, так же, как letenka → letenku."
+  },
+  "a2-u4-l11.fill-listky-ktore-som.en": {
+    "en": "The tickets I bought are in my e-mail.",
+    "t": "Билеты, которые я купила, у меня в электронной почте."
+  },
+  "a2-u4-l11.fill-listky-ktore-som.why": {
+    "en": "Lístky are things in the plural, so it's **ktoré**. Ktorí is only for men or a mixed group, and ktorá is one woman or feminine thing.",
+    "t": "Lístky — предметы во множественном числе, поэтому **ktoré**. Ktorí — только для мужчин или смешанной группы, а ktorá — для одной женщины или предмета женского рода."
+  },
+  "a2-u4-l11.fill-cakaren-je-miesto.en": {
+    "en": "The waiting room is the place where passengers wait.",
+    "t": "Зал ожидания — это место, в котором ждут пассажиры."
+  },
+  "a2-u4-l11.fill-cakaren-je-miesto.why": {
+    "en": "After **v** (where?), ktorý takes the locative, and miesto is neuter: v **ktorom**, like v novom meste.",
+    "t": "После **v** («где?») ktorý стоит в предложном падеже, а miesto — среднего рода: v **ktorom**, как v novom meste и как «в котором»."
+  },
+  "a2-u4-l11.build-tomas-cestuje-vlakom.prompt": {
+    "en": "Tomáš travels on the train that leaves at five.",
+    "t": "Томаш едет поездом, который отходит в пять."
+  },
+  "a2-u4-l11.build-tomas-cestuje-vlakom.traps": {
+    "en": [
+      "In its own part, the train is the subject (it leaves), so **ktorý** stays as it is.",
+      "How he travels takes the instrumental: vlak**om**."
+    ],
+    "t": [
+      "В своей части предложения поезд — подлежащее (он отходит), поэтому **ktorý** не меняется, как и «который».",
+      "Как он едет — творительный: vlak**om**."
+    ]
+  },
+  "a2-u4-l11.fill-to-je-tomas.en": {
+    "en": "That's Tomáš, who we're waiting for.",
+    "t": "Это Томаш, которого мы ждём."
+  },
+  "a2-u4-l11.fill-to-je-tomas.why": {
+    "en": "Čakať na takes the object form, and for a man ktorý becomes **ktorého**: na **ktorého** čakáme.",
+    "t": "Čakať na требует винительного, а для мужчины ktorý становится **ktorého**: na **ktorého** čakáme. По-русски просто «которого ждём», а по-словацки с na."
+  },
+  "a2-u4-l11.build-kufor-ktory-som.answers": {
+    "en": [
+      "The suitcase I was looking for is in the compartment."
+    ],
+    "t": [
+      "Чемодан, который я искала, в купе.",
+      "Чемодан, который я искала, лежит в купе.",
+      "Чемодан, который я искала, находится в купе."
+    ]
+  },
+  "a2-u4-l11.build-kufor-ktory-som.distractors": {
+    "en": [
+      "station",
+      "found"
+    ],
+    "t": [
+      "вокзале",
+      "нашла"
+    ]
+  },
+  "a2-u4-l11.speak-to-je-vlak.en": {
+    "en": "That's the train that's late.",
+    "t": "Это поезд, который опаздывает."
+  },
+  "a2-u4-l12.titleEn": {
+    "en": "The way to work",
+    "t": "Дорога на работу"
+  },
+  "a2-u4-l12.pracovat-z-domu.en": {
+    "en": "to work from home",
+    "t": "работать из дома"
+  },
+  "a2-u4-l12.pracovat-z-domu.note": {
+    "en": "Tomáš lives in Košice, but his company is in Bratislava. Most days he **pracuje z domu**.",
+    "t": "Томаш живёт в Кошице, а его фирма — в Братиславе. Чаще всего он **pracuje z domu**."
+  },
+  "a2-u4-l12.vacsinou.en": {
+    "en": "mostly, most of the time",
+    "t": "в основном, чаще всего"
+  },
+  "a2-u4-l12.vacsinou.note": {
+    "en": "**Väčšinou** pracujem z domu. = Most days I work from home.",
+    "t": "**Väčšinou** pracujem z domu. = Чаще всего я работаю из дома."
+  },
+  "a2-u4-l12.choice-tomas-vacsinou-pracuje.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u4-l12.choice-tomas-vacsinou-pracuje.options": {
+    "en": [
+      "Tomáš works from home most of the time.",
+      "Tomáš never works from home.",
+      "Tomáš works from home at the weekend."
+    ],
+    "t": [
+      "Томаш в основном работает из дома.",
+      "Томаш никогда не работает из дома.",
+      "Томаш работает из дома по выходным."
+    ]
+  },
+  "a2-u4-l12.dvakrat-tyzdenne.en": {
+    "en": "twice a week",
+    "t": "два раза в неделю"
+  },
+  "a2-u4-l12.dvakrat-tyzdenne.note": {
+    "en": "**raz** týždenne = once a week, **trikrát** = three times. Tomáš goes to the office dvakrát týždenne: on Tuesday and Thursday.",
+    "t": "**raz** týždenne = раз в неделю, **trikrát** = три раза (týždenne — как «еженедельно»). Томаш ездит в офис dvakrát týždenne: во вторник и в четверг."
+  },
+  "a2-u4-l12.fill-do-bratislavy-cestuje.en": {
+    "en": "Tomáš travels to Bratislava twice a week.",
+    "t": "Томаш ездит в Братиславу два раза в неделю."
+  },
+  "a2-u4-l12.fill-do-bratislavy-cestuje.why": {
+    "en": "How many times is **-krát**: raz, dva**krát**, tri**krát**. Dva and dve count things: dva vlaky.",
+    "t": "Сколько раз — **-krát**: raz, dva**krát**, tri**krát**. Dva и dve считают предметы: dva vlaky."
+  },
+  "a2-u4-l12.dochadzat-do-prace.en": {
+    "en": "to commute (to work)",
+    "t": "ездить на работу (из другого места)"
+  },
+  "a2-u4-l12.dochadzat-do-prace.note": {
+    "en": "Tomáš **dochádza** do práce IC-čkom: about five hours each way.",
+    "t": "Томаш **dochádza** do práce IC-čkom: около пяти часов в одну сторону."
+  },
+  "a2-u4-l12.build-tomas-dochadza-do.prompt": {
+    "en": "Tomáš commutes to work by train.",
+    "t": "Томаш ездит на работу поездом."
+  },
+  "a2-u4-l12.build-tomas-dochadza-do.traps": {
+    "en": [
+      "How he travels takes the instrumental: vlak**om**.",
+      "Tomáš is on, so the verb has no ending: **dochádza**. Dochádzam is ja."
+    ],
+    "t": [
+      "Как он едет — творительный: vlak**om**.",
+      "Томаш — on, поэтому у глагола нет личного окончания: **dochádza**. Dochádzam — это ja."
+    ]
+  },
+  "a2-u4-l12.notebook.en": {
+    "en": "laptop",
+    "t": "ноутбук"
+  },
+  "a2-u4-l12.notebook.note": {
+    "en": "Vo vlaku pracuje **na notebooku**. = On the train he works on his laptop.",
+    "t": "Vo vlaku pracuje **na notebooku**. = В поезде он работает на ноутбуке."
+  },
+  "a2-u4-l12.fill-vo-vlaku-tomas.en": {
+    "en": "On the train Tomáš works on his laptop.",
+    "t": "В поезде Томаш работает на ноутбуке."
+  },
+  "a2-u4-l12.fill-vo-vlaku-tomas.why": {
+    "en": "**Na** + where? takes the locative, and after k the ending is **-u**: na notebook**u**.",
+    "t": "**Na** + «где?» — предложный падеж, а после k окончание **-u**: na notebook**u**."
+  },
+  "a2-u4-l12.choice-cesta-ic-ckom.question": {
+    "en": "How long does Tomáš's journey take?",
+    "t": "Сколько длится дорога Томаша?"
+  },
+  "a2-u4-l12.choice-cesta-ic-ckom.options": {
+    "en": [
+      "Exactly five hours",
+      "About five hours",
+      "About two hours"
+    ],
+    "t": [
+      "Ровно пять часов",
+      "Около пяти часов",
+      "Около двух часов"
+    ]
+  },
+  "a2-u4-l12.choice-cesta-ic-ckom.why": {
+    "en": "**Asi** with a number means about: asi päť hodín = about five hours.",
+    "t": "**Asi** с числом значит «около, примерно»: asi päť hodín = около пяти часов."
+  },
+  "a2-u4-l12.sluzobna-cesta.en": {
+    "en": "business trip",
+    "t": "командировка"
+  },
+  "a2-u4-l12.sluzobna-cesta.note": {
+    "en": "This Friday, Tomáš ide **na služobnú cestu** do Viedne (to Vienna).",
+    "t": "В эту пятницу Томаш ide **na služobnú cestu** do Viedne (в Вену)."
+  },
+  "a2-u4-l12.fill-v-piatok-ide.en": {
+    "en": "On Friday Tomáš is going on a business trip to Vienna.",
+    "t": "В пятницу Томаш едет в командировку в Вену."
+  },
+  "a2-u4-l12.fill-v-piatok-ide.why": {
+    "en": "**Ísť na** + the object form: cesta → na služobnú cest**u**.",
+    "t": "**Ísť na** + винительный: cesta → na služobnú cest**u**. По-русски «в командировку», а по-словацки na."
+  },
+  "a2-u4-l12.fill-rano-pije-tomas.en": {
+    "en": "In the morning Tomáš has a coffee in the station hall.",
+    "t": "Утром Томаш пьёт кофе в зале вокзала."
+  },
+  "a2-u4-l12.fill-rano-pije-tomas.why": {
+    "en": "Where? takes the locative after **v**: feminine -a becomes **-e**: v staničnej hal**e**, like v Bratislave.",
+    "t": "«Где?» после **v** — предложный падеж: женское -a → **-e**: v staničnej hal**e**, как v Bratislave."
+  },
+  "a2-u4-l12.zastavka.en": {
+    "en": "stop (bus, tram)",
+    "t": "остановка (автобуса, трамвая)"
+  },
+  "a2-u4-l12.zastavka.note": {
+    "en": "From the station Tomáš goes to the office by tram. He buys a **lístok na električku** from the machine (**automat**) or in the app, and waits **na zastávke**.",
+    "t": "С вокзала Томаш едет в офис на трамвае. Он покупает **lístok na električku** (билет на трамвай) в автомате (**automat**) или в приложении и ждёт **na zastávke** (на остановке)."
+  },
+  "a2-u4-l12.build-kde-kupim-listok.prompt": {
+    "en": "Where can I buy a tram ticket?",
+    "t": "Где мне купить билет на трамвай?"
+  },
+  "a2-u4-l12.build-kde-kupim-listok.traps": {
+    "en": [
+      "A ticket for the tram is **lístok na** + the object form: na električk**u**.",
+      "You're asking about yourself, ja, so the verb ends in **-m**: kúpi**m**."
+    ],
+    "t": [
+      "Билет на трамвай — **lístok na** + винительный, как и у нас: na električk**u**.",
+      "Вы спрашиваете о себе, ja, поэтому глагол на **-m**: kúpi**m**."
+    ]
+  },
+  "a2-u4-l12.fill-tomas-caka-na.en": {
+    "en": "Tomáš is waiting for the tram at the stop outside the station.",
+    "t": "Томаш ждёт трамвай на остановке перед вокзалом."
+  },
+  "a2-u4-l12.fill-tomas-caka-na.why": {
+    "en": "Where? takes the locative after **na**: feminine -a becomes **-e**: na zastávk**e**.",
+    "t": "«Где?» после **na** — предложный падеж: женское -a → **-e**: na zastávk**e**, как «на остановке»."
+  },
+  "a2-u4-l12.match-cesta-do-prace.pairs": {
+    "en": [
+      "mostly",
+      "twice a week",
+      "business trip",
+      "laptop",
+      "to work from home"
+    ],
+    "t": [
+      "в основном",
+      "два раза в неделю",
+      "командировка",
+      "ноутбук",
+      "работать из дома"
+    ]
+  },
+  "a2-u4-l12.speak-vacsinou-pracujem-z.en": {
+    "en": "Most days I work from home.",
+    "t": "Чаще всего я работаю из дома."
+  },
+  "a2-u4-l13.titleEn": {
+    "en": "Because, or so?",
+    "t": "Потому что или поэтому?"
+  },
+  "a2-u4-l13.grammar-lebo-preto.title": {
+    "en": "Because and so: lebo, preto",
+    "t": "Потому что и поэтому: lebo, preto"
+  },
+  "a2-u4-l13.grammar-lebo-preto.body": {
+    "en": [
+      "You know **pretože** (because). **Lebo** means the same and is more everyday. Both bring the cause, and answer **Prečo?**: Prečo pracuje Tomáš z domu? – **Lebo** býva v Košiciach.",
+      "**Preto** (so, that's why) goes the other way: first the cause, then preto and what follows from it: Býva v Košiciach, **preto** pracuje z domu. Swap the halves, and lebo becomes preto."
+    ],
+    "t": [
+      "Вы знаете **pretože** (потому что). **Lebo** значит то же самое, но звучит разговорнее. Оба вводят причину и отвечают на **Prečo?** (почему?): Prečo pracuje Tomáš z domu? – **Lebo** býva v Košiciach.",
+      "**Preto** (поэтому) работает наоборот: сначала причина, потом preto и следствие: Býva v Košiciach, **preto** pracuje z domu. Поменяйте части местами — и lebo станет preto. Не путайте preto и pretože, как «поэтому» и «потому что»."
+    ]
+  },
+  "a2-u4-l13.grammar-lebo-preto.table.head": {
+    "en": [
+      "cause, preto, result",
+      "result, lebo, cause"
+    ],
+    "t": [
+      "причина, preto, следствие",
+      "следствие, lebo, причина"
+    ]
+  },
+  "a2-u4-l13.grammar-lebo-preto.table.rows": {
+    "en": [
+      [
+        "Býva v Košiciach, **preto** pracuje z domu.",
+        "Pracuje z domu, **lebo** býva v Košiciach."
+      ],
+      [
+        "IC-čko bolo drahé, **preto** išli rýchlikom.",
+        "Išli rýchlikom, **lebo** IC-čko bolo drahé."
+      ],
+      [
+        "Vlak meškal, **preto** prišli neskoro.",
+        "Prišli neskoro, **lebo** vlak meškal."
+      ]
+    ],
+    "t": [
+      [
+        "Býva v Košiciach, **preto** pracuje z domu.",
+        "Pracuje z domu, **lebo** býva v Košiciach."
+      ],
+      [
+        "IC-čko bolo drahé, **preto** išli rýchlikom.",
+        "Išli rýchlikom, **lebo** IC-čko bolo drahé."
+      ],
+      [
+        "Vlak meškal, **preto** prišli neskoro.",
+        "Prišli neskoro, **lebo** vlak meškal."
+      ]
+    ]
+  },
+  "a2-u4-l13.grammar-lebo-preto.examples": {
+    "en": [
+      "Why is Tomáš going to Bratislava? – Because he has a meeting.",
+      "Lucia didn't have her card, so she had to pay a fine."
+    ],
+    "t": [
+      "Почему Томаш едет в Братиславу? — Потому что у него совещание.",
+      "У Луции не было студенческого, поэтому ей пришлось заплатить штраф."
+    ]
+  },
+  "a2-u4-l13.fill-tomas-nikdy-nemeska.en": {
+    "en": "Tomáš is never late, but today he is, because the train is late.",
+    "t": "Томаш никогда не опаздывает, но сегодня опаздывает, потому что опаздывает поезд."
+  },
+  "a2-u4-l13.fill-tomas-nikdy-nemeska.why": {
+    "en": "What follows is the cause (the train is late), so it's **lebo**, because. Preto would bring a result.",
+    "t": "Дальше идёт причина (опаздывает поезд), поэтому **lebo**, «потому что». Preto ввело бы следствие."
+  },
+  "a2-u4-l13.fill-letenky-boli-lacne.en": {
+    "en": "The tickets were cheap, so Emma is flying to Dublin.",
+    "t": "Билеты были дешёвые, поэтому Эмма летит в Дублин."
+  },
+  "a2-u4-l13.fill-letenky-boli-lacne.why": {
+    "en": "What follows is the result of the cheap tickets, so it's **preto**, so. Lebo and pretože bring a cause.",
+    "t": "Дальше идёт следствие дешёвых билетов, поэтому **preto**, «поэтому». Lebo и pretože вводят причину."
+  },
+  "a2-u4-l13.choice-preco-isli-emma.question": {
+    "en": "Which answer fits?",
+    "t": "Какой ответ подходит?"
+  },
+  "a2-u4-l13.choice-preco-isli-emma.why": {
+    "en": "Prečo? asks for the cause, and the cause comes after **lebo** (or pretože). And the rýchlik is the cheaper train.",
+    "t": "Prečo? спрашивает о причине, а причина идёт после **lebo** (или pretože). К тому же rýchlik — более дешёвый поезд."
+  },
+  "a2-u4-l13.build-vlak-meskal-preto.prompt": {
+    "en": "The train was late, so we took a taxi.",
+    "t": "Поезд опоздал, поэтому мы поехали на такси."
+  },
+  "a2-u4-l13.build-vlak-meskal-preto.traps": {
+    "en": [
+      "The taxi is the result of the delay, so it's **preto** (so). Lebo would bring the cause.",
+      "How you go takes the instrumental: taxík**om**."
+    ],
+    "t": [
+      "Такси — следствие опоздания, поэтому **preto** (поэтому). Lebo ввело бы причину.",
+      "Как вы едете — творительный: taxík**om**."
+    ]
+  },
+  "a2-u4-l13.build-emma-je-unavena.prompt": {
+    "en": "Emma is tired because she slept badly.",
+    "t": "Эмма устала, потому что плохо спала."
+  },
+  "a2-u4-l13.build-emma-je-unavena.traps": {
+    "en": [
+      "Sleeping badly is the cause, so it's **lebo** (because).",
+      "Emma is a woman, so the adjective ends in **-á**: unaven**á**."
+    ],
+    "t": [
+      "Плохой сон — причина, поэтому **lebo** (потому что).",
+      "Эмма — женщина, поэтому прилагательное на **-á**: unaven**á**, как «уставшая»."
+    ]
+  },
+  "a2-u4-l13.choice-lucia-musela-zaplatit.question": {
+    "en": "Which sentence means the same?",
+    "t": "Какое предложение значит то же самое?"
+  },
+  "a2-u4-l13.choice-lucia-musela-zaplatit.why": {
+    "en": "Swap the halves and swap the word: the cause (zabudla preukaz) comes first, then **preto** and the result.",
+    "t": "Поменяйте части местами и поменяйте слово: сначала причина (zabudla preukaz), потом **preto** и следствие."
+  },
+  "a2-u4-l13.fill-preco-meskas.en": {
+    "en": "Why are you late? – Because I missed the bus.",
+    "t": "Почему ты опаздываешь? — Потому что я не успела на автобус."
+  },
+  "a2-u4-l13.fill-preco-meskas.why": {
+    "en": "An answer to Prečo? gives the cause, so it starts with **lebo** (or pretože).",
+    "t": "Ответ на Prečo? называет причину, поэтому начинается с **lebo** (или pretože)."
+  },
+  "a2-u4-l13.build-tomas-ma-v.answers": {
+    "en": [
+      "Tomáš has a meeting on Tuesday, so he's going to Bratislava."
+    ],
+    "t": [
+      "У Томаша во вторник совещание, поэтому он едет в Братиславу.",
+      "Во вторник у Томаша совещание, поэтому он едет в Братиславу.",
+      "У Томаша во вторник совещание, поэтому он поедет в Братиславу."
+    ]
+  },
+  "a2-u4-l13.build-tomas-ma-v.distractors": {
+    "en": [
+      "because"
+    ],
+    "t": [
+      "потому"
+    ]
+  },
+  "a2-u4-l13.fill-emma-sa-uci.en": {
+    "en": "Emma is learning Slovak because she studies in Bratislava.",
+    "t": "Эмма учит словацкий, потому что учится в Братиславе."
+  },
+  "a2-u4-l13.fill-emma-sa-uci.why": {
+    "en": "Studying in Bratislava is the cause of learning Slovak, so it's **lebo** (because).",
+    "t": "Учёба в Братиславе — причина того, что она учит словацкий, поэтому **lebo** (потому что)."
+  },
+  "a2-u4-l13.fill-tomas-byva-daleko.en": {
+    "en": "Tomáš lives far away, so he gets up very early.",
+    "t": "Томаш живёт далеко, поэтому встаёт очень рано."
+  },
+  "a2-u4-l13.fill-tomas-byva-daleko.why": {
+    "en": "Getting up early is the result of living far away, so it's **preto** (so).",
+    "t": "Ранний подъём — следствие того, что он живёт далеко, поэтому **preto** (поэтому)."
+  },
+  "a2-u4-l13.speak-prepac-vlak-meska.en": {
+    "en": "Sorry, the train's late, so I'm late.",
+    "t": "Извини, поезд опаздывает, поэтому я опаздываю."
+  },
+  "a2-u4-l14.titleEn": {
+    "en": "I'd like…",
+    "t": "Я бы хотел…"
+  },
+  "a2-u4-l14.grammar-conditional-would.title": {
+    "en": "Would: the conditional",
+    "t": "Бы: условное наклонение"
+  },
+  "a2-u4-l14.grammar-conditional-would.body": {
+    "en": [
+      "To say what you would do, take the past form and add **by**: chcel → **chcel by som** (I'd like). As in the past, it shows who is speaking: chcel by som (a man), **chcela** by som (a woman).",
+      "Som, si, sme or ste comes right after by. With on, ona and oni there's only by: Lucia **by** chcela… Formal vy takes the -li form, as in the past: Chceli by ste…?"
+    ],
+    "t": [
+      "Совсем как в русском: возьмите форму прошедшего времени и добавьте **by** (бы): chcel → **chcel by som** (я хотел бы). Как и в прошедшем времени, видно, кто говорит: chcel by som (мужчина), **chcela** by som (женщина).",
+      "Но, в отличие от русского, сразу после by идут som, si, sme или ste. С on, ona и oni — только by: Lucia **by** chcela… Вежливое vy берёт форму на -li, как и в прошедшем: Chceli by ste…?"
+    ]
+  },
+  "a2-u4-l14.grammar-conditional-would.table.rows": {
+    "en": [
+      [
+        "ja",
+        "chcel / chcela **by som**"
+      ],
+      [
+        "ty",
+        "chcel / chcela **by si**"
+      ],
+      [
+        "on, ona",
+        "chcel / chcela **by**"
+      ],
+      [
+        "my",
+        "chceli **by sme**"
+      ],
+      [
+        "vy",
+        "chceli **by ste**"
+      ],
+      [
+        "oni, ony",
+        "chceli **by**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "chcel / chcela **by som**"
+      ],
+      [
+        "ty",
+        "chcel / chcela **by si**"
+      ],
+      [
+        "on, ona",
+        "chcel / chcela **by**"
+      ],
+      [
+        "my",
+        "chceli **by sme**"
+      ],
+      [
+        "vy",
+        "chceli **by ste**"
+      ],
+      [
+        "oni, ony",
+        "chceli **by**"
+      ]
+    ]
+  },
+  "a2-u4-l14.grammar-conditional-would.examples": {
+    "en": [
+      "I'd like a coffee, please.",
+      "When would you like to fly?",
+      "Tomáš would rather go by car."
+    ],
+    "t": [
+      "Я бы хотела кофе, пожалуйста.",
+      "Когда вы хотели бы лететь?",
+      "Томаш предпочёл бы поехать на машине."
+    ]
+  },
+  "a2-u4-l14.chcela-by-som-letenku.en": {
+    "en": "I'd like a plane ticket. (a woman speaking)",
+    "t": "Я бы хотела билет на самолёт. (говорит женщина)"
+  },
+  "a2-u4-l14.chcela-by-som-letenku.note": {
+    "en": "The polite way to ask for something: in a shop, at a ticket office, on the phone. Much softer than Chcem…",
+    "t": "Так вежливо просят что-то в магазине, в кассе, по телефону. Гораздо мягче, чем Chcem… (я хочу…), как и у нас «я бы хотела» мягче, чем «я хочу»."
+  },
+  "a2-u4-l14.fill-dobry-den-chcela.en": {
+    "en": "Hello, I'd like a ticket to Dublin.",
+    "t": "Здравствуйте, я бы хотела билет в Дублин."
+  },
+  "a2-u4-l14.fill-dobry-den-chcela.why": {
+    "en": "I would: the past form + **by som**: chcela **by som**. Chcela som is just the past, and by alone is for ona.",
+    "t": "«Я бы хотела»: форма прошедшего времени + **by som**: chcela **by som**. Chcela som — просто прошедшее время (хотела), а одно by — для ona."
+  },
+  "a2-u4-l14.fill-dal-by-som.en": {
+    "en": "I'd have a coffee, says Tomáš.",
+    "t": "«Я бы выпил кофе», — говорит Томаш."
+  },
+  "a2-u4-l14.fill-dal-by-som.why": {
+    "en": "Tomáš is a man, so the past form has no ending: **dal** by som. Dala is for a woman, dali for more people.",
+    "t": "Томаш — мужчина, поэтому у формы прошедшего времени нет окончания: **dal** by som. Dala — для женщины, dali — для нескольких человек."
+  },
+  "a2-u4-l14.fill-kedy-by-ste.en": {
+    "en": "When would you like to fly back?",
+    "t": "Когда вы хотели бы лететь обратно?"
+  },
+  "a2-u4-l14.fill-kedy-by-ste.why": {
+    "en": "Formal vy takes the -li form, even for one person: by ste **chceli**. Chcete is the present.",
+    "t": "Вежливое vy берёт форму на -li, даже если человек один, как наше «вы хотели бы»: by ste **chceli**. Chcete — настоящее время."
+  },
+  "a2-u4-l14.build-chceli-by-sme.prompt": {
+    "en": "We'd like two coffees, please.",
+    "t": "Мы бы хотели два кофе, пожалуйста."
+  },
+  "a2-u4-l14.build-chceli-by-sme.traps": {
+    "en": [
+      "We is my, so after by comes **sme**: by **sme**.",
+      "With my the past form ends in **-li**: chce**li** by sme."
+    ],
+    "t": [
+      "«Мы» — это my, поэтому после by идёт **sme**: by **sme**.",
+      "С my форма прошедшего времени на **-li**: chce**li** by sme, как «хотели бы»."
+    ]
+  },
+  "a2-u4-l14.grammar-polite-requests-wishes.title": {
+    "en": "Polite requests and wishes",
+    "t": "Вежливые просьбы и пожелания"
+  },
+  "a2-u4-l14.grammar-polite-requests-wishes.body": {
+    "en": [
+      "The conditional makes a request softer: **Mohli by ste mi pomôcť?** (Could you help me?) is politer than Môžete mi pomôcť? You've met Pomohli by ste mi? too.",
+      "It also says what you'd like: **Dal(a) by som si** čaj (I'd have tea), **Rád / Rada by som**… (I'd love to…), **Páčilo by sa mi**… (I'd like it)."
+    ],
+    "t": [
+      "Условное наклонение смягчает просьбу, как и в русском: **Mohli by ste mi pomôcť?** (Не могли бы вы мне помочь?) вежливее, чем Môžete mi pomôcť? Pomohli by ste mi? вы тоже уже встречали.",
+      "Им же говорят, чего хочется: **Dal(a) by som si** čaj (я бы выпил(а) чаю), **Rád / Rada by som**… (я бы с удовольствием…), **Páčilo by sa mi**… (мне бы понравилось…)."
+    ]
+  },
+  "a2-u4-l14.grammar-polite-requests-wishes.table.head": {
+    "en": [
+      "plain",
+      "more polite"
+    ],
+    "t": [
+      "просто",
+      "вежливее"
+    ]
+  },
+  "a2-u4-l14.grammar-polite-requests-wishes.table.rows": {
+    "en": [
+      [
+        "Môžete mi pomôcť?",
+        "**Mohli by ste** mi pomôcť?"
+      ],
+      [
+        "Dám si čaj.",
+        "**Dala by som si** čaj."
+      ],
+      [
+        "Chcem letenku.",
+        "**Chcela by som** letenku."
+      ],
+      [
+        "Pomôžeš mi?",
+        "**Pomohol by si** mi?"
+      ]
+    ],
+    "t": [
+      [
+        "Môžete mi pomôcť?",
+        "**Mohli by ste** mi pomôcť?"
+      ],
+      [
+        "Dám si čaj.",
+        "**Dala by som si** čaj."
+      ],
+      [
+        "Chcem letenku.",
+        "**Chcela by som** letenku."
+      ],
+      [
+        "Pomôžeš mi?",
+        "**Pomohol by si** mi?"
+      ]
+    ]
+  },
+  "a2-u4-l14.grammar-polite-requests-wishes.examples": {
+    "en": [
+      "Could you bring us the bill?",
+      "I'd love to live by the sea."
+    ],
+    "t": [
+      "Не могли бы вы принести нам счёт?",
+      "Мне бы хотелось жить у моря."
+    ]
+  },
+  "a2-u4-l14.choice-mohli-by-ste.question": {
+    "en": "Emma asks a stranger for help, as politely as she can. What does she say?",
+    "t": "Эмма просит незнакомого человека о помощи как можно вежливее. Что она скажет?"
+  },
+  "a2-u4-l14.choice-mohli-by-ste.why": {
+    "en": "To a stranger, use vy, and the conditional makes it softer: **Mohli by ste**…? Môžeš and pomôžeš are ty forms, for friends.",
+    "t": "С незнакомым — на «вы», а условное наклонение делает просьбу мягче: **Mohli by ste**…? Môžeš и pomôžeš — формы на «ты», для друзей."
+  },
+  "a2-u4-l14.fill-priniesli-by-ste.en": {
+    "en": "Could you bring us the bill, please?",
+    "t": "Не могли бы вы принести нам счёт?"
+  },
+  "a2-u4-l14.fill-priniesli-by-ste.why": {
+    "en": "You're asking the waiter, so it's vy: after by comes **ste**.",
+    "t": "Вы обращаетесь к официанту на «вы», поэтому после by идёт **ste**."
+  },
+  "a2-u4-l14.build-lucia-pomohla-by.prompt": {
+    "en": "Lucia, could you help me with the suitcase?",
+    "t": "Луция, не могла бы ты помочь мне с чемоданом?"
+  },
+  "a2-u4-l14.build-lucia-pomohla-by.traps": {
+    "en": [
+      "Lucia is a friend, ty, so after by comes **si**.",
+      "Lucia is a woman, so the past form ends in **-la**: pomoh**la**."
+    ],
+    "t": [
+      "Луция — подруга, ty, поэтому после by идёт **si**.",
+      "Луция — женщина, поэтому форма прошедшего времени на **-la**: pomoh**la**, как «помогла»."
+    ]
+  },
+  "a2-u4-l14.choice-pacilo-by-sa.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u4-l14.choice-pacilo-by-sa.options": {
+    "en": [
+      "I liked living in Žilina.",
+      "I live in Žilina and I like it.",
+      "I'd like to live in Žilina."
+    ],
+    "t": [
+      "Мне нравилось жить в Жилине.",
+      "Я живу в Жилине, и мне здесь нравится.",
+      "Мне бы хотелось жить в Жилине."
+    ]
+  },
+  "a2-u4-l14.choice-pacilo-by-sa.why": {
+    "en": "**By** makes it the conditional: páčilo **by** sa mi = I would like it. Without by, páčilo sa mi is the past: I liked it.",
+    "t": "**By** делает фразу условной: páčilo **by** sa mi = мне бы понравилось, как с нашим «бы». Без by páčilo sa mi — прошедшее время: мне понравилось."
+  },
+  "a2-u4-l14.fill-lucia-by-chcela.en": {
+    "en": "Lucia would like to go to Ireland.",
+    "t": "Луция хотела бы поехать в Ирландию."
+  },
+  "a2-u4-l14.fill-lucia-by-chcela.why": {
+    "en": "With ona there's no som or si, just **by**: Lucia **by** chcela.",
+    "t": "С ona нет ни som, ни si, только **by**: Lucia **by** chcela, совсем как «Луция бы хотела»."
+  },
+  "a2-u4-l14.fill-radsej-by-sme.en": {
+    "en": "We'd rather go by train.",
+    "t": "Мы бы лучше поехали поездом."
+  },
+  "a2-u4-l14.fill-radsej-by-sme.why": {
+    "en": "Som, si, sme or ste always comes right after by, never before it: Radšej **by sme** išli. Without by, sme gives the past.",
+    "t": "Som, si, sme или ste всегда стоят сразу после by, никогда перед ним: Radšej **by sme** išli. Без by sme даёт прошедшее время."
+  },
+  "a2-u4-l14.build-dala-by-som.answers": {
+    "en": [
+      "I'd have tea with lemon."
+    ],
+    "t": [
+      "Я бы выпила чаю с лимоном.",
+      "Я бы выпила чай с лимоном.",
+      "Я выпила бы чаю с лимоном."
+    ]
+  },
+  "a2-u4-l14.build-dala-by-som.distractors": {
+    "en": [
+      "coffee",
+      "had"
+    ],
+    "t": [
+      "кофе",
+      "выпил"
+    ]
+  },
+  "a2-u4-l14.speak-chcela-by-som.en": {
+    "en": "I'd like a coffee, please.",
+    "t": "Я бы хотела кофе, пожалуйста."
+  },
+  "a2-u4-l15.titleEn": {
+    "en": "You should…",
+    "t": "Тебе стоило бы…"
+  },
+  "a2-u4-l15.grammar-suggestions-advice.title": {
+    "en": "Suggestions, advice, plans",
+    "t": "Предложения, советы, планы"
+  },
+  "a2-u4-l15.grammar-suggestions-advice.body": {
+    "en": [
+      "**Mohli by sme**… makes a suggestion: Mohli by sme ísť spolu. So does **Čo keby sme**…? (How about…?), with the past form: Čo keby sme išli taxíkom? Keby already has by inside it, so there's no second by.",
+      "**Mal by si** (you should) gives advice, and so does **na tvojom mieste by som**… (if I were you, I'd…). Not goes on the past form: **nemal by si** = you shouldn't.",
+      "**Rád / Rada by som**…, **ale**… says what you'd love to do but can't: Rada by som išla, ale nemám čas."
+    ],
+    "t": [
+      "**Mohli by sme**… — это предложение: Mohli by sme ísť spolu. (Мы могли бы пойти вместе.) Так же и **Čo keby sme**…? (А что, если бы мы…?), с формой прошедшего времени: Čo keby sme išli taxíkom? В keby уже есть by, поэтому второе by не нужно.",
+      "**Mal by si** (тебе следовало бы) — это совет, как и **na tvojom mieste by som**… (на твоём месте я бы…). Отрицание пишется слитно с формой прошедшего времени: **nemal by si** = тебе не стоило бы.",
+      "**Rád / Rada by som**…, **ale**… — то, что вы бы с удовольствием сделали, но не можете: Rada by som išla, ale nemám čas."
+    ]
+  },
+  "a2-u4-l15.grammar-suggestions-advice.table.head": {
+    "en": [
+      "",
+      "Slovak",
+      "English"
+    ],
+    "t": [
+      "",
+      "по-словацки",
+      "по-русски"
+    ]
+  },
+  "a2-u4-l15.grammar-suggestions-advice.table.rows": {
+    "en": [
+      [
+        "suggestion",
+        "**Mohli by sme** ísť spolu.",
+        "We could go together."
+      ],
+      [
+        "suggestion",
+        "**Čo keby sme** išli taxíkom?",
+        "How about taking a taxi?"
+      ],
+      [
+        "advice",
+        "**Mal by si** ísť spať.",
+        "You should go to bed."
+      ],
+      [
+        "advice",
+        "**Nemali by ste** meškať.",
+        "You shouldn't be late."
+      ],
+      [
+        "a plan you can't keep",
+        "**Rada by som** išla, ale…",
+        "I'd love to go, but…"
+      ]
+    ],
+    "t": [
+      [
+        "предложение",
+        "**Mohli by sme** ísť spolu.",
+        "Мы могли бы пойти вместе."
+      ],
+      [
+        "предложение",
+        "**Čo keby sme** išli taxíkom?",
+        "А что, если бы мы поехали на такси?"
+      ],
+      [
+        "совет",
+        "**Mal by si** ísť spať.",
+        "Тебе стоило бы лечь спать."
+      ],
+      [
+        "совет",
+        "**Nemali by ste** meškať.",
+        "Вам не стоило бы опаздывать."
+      ],
+      [
+        "план, который не выйдет",
+        "**Rada by som** išla, ale…",
+        "Я бы с удовольствием пошла, но…"
+      ]
+    ]
+  },
+  "a2-u4-l15.grammar-suggestions-advice.examples": {
+    "en": [
+      "We could go to the airport together.",
+      "If I were you, I'd go by train."
+    ],
+    "t": [
+      "Мы могли бы вместе поехать в аэропорт.",
+      "На твоём месте я бы поехала поездом."
+    ]
+  },
+  "a2-u4-l15.fill-mohli-by-sme.en": {
+    "en": "We could go to the station together.",
+    "t": "Мы могли бы вместе пойти на вокзал."
+  },
+  "a2-u4-l15.fill-mohli-by-sme.why": {
+    "en": "A suggestion for us: the past form with -li + **by sme**: **Mohli** by sme. Môžeme is plain can, and mohla is one woman.",
+    "t": "Предложение для нас: форма прошедшего времени на -li + **by sme**: **Mohli** by sme, как «могли бы». Môžeme — просто «можем», а mohla — одна женщина."
+  },
+  "a2-u4-l15.choice-mala-by-si.question": {
+    "en": "Lucia is very tired. What advice does Emma give her?",
+    "t": "Луция очень устала. Что ей советует Эмма?"
+  },
+  "a2-u4-l15.choice-mala-by-si.why": {
+    "en": "Advice to a friend is **by si**, and Lucia is a woman, so **mala**. Mala by som is about yourself.",
+    "t": "Совет подруге — **by si**, а Луция — женщина, поэтому **mala**. Mala by som — о себе."
+  },
+  "a2-u4-l15.build-co-keby-sme.prompt": {
+    "en": "How about taking a taxi?",
+    "t": "А что, если бы мы поехали на такси?"
+  },
+  "a2-u4-l15.build-co-keby-sme.traps": {
+    "en": [
+      "Čo keby sme… takes the past form: keby sme **išli**.",
+      "How you go takes the instrumental: taxík**om**."
+    ],
+    "t": [
+      "После Čo keby sme… — форма прошедшего времени, как в «если бы мы поехали»: keby sme **išli**.",
+      "Как вы едете — творительный: taxík**om**."
+    ]
+  },
+  "a2-u4-l15.fill-nemali-by-ste.en": {
+    "en": "You shouldn't work so much, Mr Kováč.",
+    "t": "Вам не стоило бы так много работать, пан Ковач."
+  },
+  "a2-u4-l15.fill-nemali-by-ste.why": {
+    "en": "You say vy to pán Kováč, so after by comes **ste**.",
+    "t": "С паном Ковачем говорят на «вы», поэтому после by идёт **ste**."
+  },
+  "a2-u4-l15.choice-nemal-by-si.question": {
+    "en": "Which means “You shouldn't be late”?",
+    "t": "Какая фраза значит «Тебе не стоило бы опаздывать»?"
+  },
+  "a2-u4-l15.choice-nemal-by-si.why": {
+    "en": "Not goes on the past form of mať, as one word: **nemal** by si. Without by, nemal si is the past.",
+    "t": "Отрицание пишется слитно с формой прошедшего времени глагола mať: **nemal** by si. Без by nemal si — прошедшее время."
+  },
+  "a2-u4-l15.grammar-conditional-word-order.title": {
+    "en": "Word order: by comes second",
+    "t": "Порядок слов: by на втором месте"
+  },
+  "a2-u4-l15.grammar-conditional-word-order.body": {
+    "en": [
+      "**By** is a small word like som and sa, so it goes second, right after the first word or phrase. Then come som, si, sme or ste, then sa or si, then short pronouns like mi.",
+      "When something else comes first, the past form moves after this group: Zajtra **by sme sa** mohli stretnúť. Kedy **by ste sa** chceli vrátiť?"
+    ],
+    "t": [
+      "**By** — короткое слово, как som и sa, поэтому оно стоит на втором месте, сразу после первого слова или словосочетания. Русское «бы» свободнее, а у словацкого by место строгое. После by идут som, si, sme или ste, потом sa или si, потом короткие местоимения вроде mi.",
+      "Если первым стоит что-то другое, форма прошедшего времени уходит за эту группу: Zajtra **by sme sa** mohli stretnúť. Kedy **by ste sa** chceli vrátiť?"
+    ]
+  },
+  "a2-u4-l15.grammar-conditional-word-order.table.head": {
+    "en": [
+      "first",
+      "by",
+      "som, sa, mi…",
+      "the rest"
+    ],
+    "t": [
+      "первое",
+      "by",
+      "som, sa, mi…",
+      "остальное"
+    ]
+  },
+  "a2-u4-l15.grammar-conditional-word-order.table.rows": {
+    "en": [
+      [
+        "Chcela",
+        "**by**",
+        "**som**",
+        "letenku."
+      ],
+      [
+        "Zajtra",
+        "**by**",
+        "**sme sa**",
+        "mohli stretnúť."
+      ],
+      [
+        "Tomáš",
+        "**by**",
+        "",
+        "išiel vlakom."
+      ],
+      [
+        "Pomohli",
+        "**by**",
+        "**ste mi**",
+        "s kufrom?"
+      ]
+    ],
+    "t": [
+      [
+        "Chcela",
+        "**by**",
+        "**som**",
+        "letenku."
+      ],
+      [
+        "Zajtra",
+        "**by**",
+        "**sme sa**",
+        "mohli stretnúť."
+      ],
+      [
+        "Tomáš",
+        "**by**",
+        "",
+        "išiel vlakom."
+      ],
+      [
+        "Pomohli",
+        "**by**",
+        "**ste mi**",
+        "s kufrom?"
+      ]
+    ]
+  },
+  "a2-u4-l15.grammar-conditional-word-order.examples": {
+    "en": [
+      "When would you like to come back?",
+      "We could meet tomorrow."
+    ],
+    "t": [
+      "Когда вы хотели бы вернуться?",
+      "Завтра мы могли бы встретиться."
+    ]
+  },
+  "a2-u4-l15.choice-zajtra-by-som.question": {
+    "en": "Which is right?",
+    "t": "Какой вариант правильный?"
+  },
+  "a2-u4-l15.choice-zajtra-by-som.why": {
+    "en": "**By** comes second, right after zajtra; then som, then sa: Zajtra **by som sa**…",
+    "t": "**By** стоит вторым, сразу после zajtra; потом som, потом sa: Zajtra **by som sa**…"
+  },
+  "a2-u4-l15.fill-pomohli-by-ste.en": {
+    "en": "Could you help me with my luggage?",
+    "t": "Не могли бы вы помочь мне с багажом?"
+  },
+  "a2-u4-l15.fill-pomohli-by-ste.why": {
+    "en": "**By** comes right after the first word, and ste follows it: Pomohli **by ste** mi…",
+    "t": "**By** стоит сразу после первого слова, а за ним — ste: Pomohli **by ste** mi…"
+  },
+  "a2-u4-l15.build-zajtra-by-sme.prompt": {
+    "en": "Tomorrow we could meet at the station.",
+    "t": "Завтра мы могли бы встретиться на вокзале."
+  },
+  "a2-u4-l15.build-zajtra-by-sme.traps": {
+    "en": [
+      "Meeting at the station answers where?, so it's the locative: na stanic**i**.",
+      "Could, as a suggestion, is the conditional: **mohli** by sme."
+    ],
+    "t": [
+      "Встретиться на вокзале — ответ на «где?», поэтому предложный падеж: na stanic**i**, как «на вокзале».",
+      "«Могли бы» как предложение — это условное наклонение: **mohli** by sme."
+    ]
+  },
+  "a2-u4-l15.fill-rada-by-som.en": {
+    "en": "I'd love to come with you, but I have to work.",
+    "t": "Я бы с удовольствием пошла с вами, но мне надо работать."
+  },
+  "a2-u4-l15.fill-rada-by-som.why": {
+    "en": "Something you'd love to do but can't: Rada by som…, **ale** (but)… The second half says why not.",
+    "t": "То, что вы бы с удовольствием сделали, но не можете: Rada by som…, **ale** (но)… Вторая часть объясняет, почему нет."
+  },
+  "a2-u4-l15.fill-co-keby-sme.en": {
+    "en": "How about going to the cinema on Saturday?",
+    "t": "А что, если бы мы пошли в субботу в кино?"
+  },
+  "a2-u4-l15.fill-co-keby-sme.why": {
+    "en": "**Keby** already has by inside it, so only **sme** follows: Čo keby **sme**…",
+    "t": "**Keby** уже содержит by, поэтому дальше только **sme**: Čo keby **sme**…, как «если бы мы»."
+  },
+  "a2-u4-l15.build-na-tvojom-mieste.answers": {
+    "en": [
+      "If I were you, I'd go by train."
+    ],
+    "t": [
+      "На твоём месте я бы поехала поездом.",
+      "На твоём месте я поехала бы поездом.",
+      "Я бы на твоём месте поехала поездом.",
+      "На твоём месте я бы поехала на поезде."
+    ]
+  },
+  "a2-u4-l15.build-na-tvojom-mieste.distractors": {
+    "en": [
+      "plane",
+      "went"
+    ],
+    "t": [
+      "самолётом",
+      "поехал"
+    ]
+  },
+  "a2-u4-l15.speak-mohli-by-sme.en": {
+    "en": "We could go together.",
+    "t": "Мы могли бы пойти вместе."
+  },
+  "a2-u4-l16.titleEn": {
+    "en": "If…",
+    "t": "Если бы…"
+  },
+  "a2-u4-l16.grammar-keby-if.title": {
+    "en": "Keby: if it were so",
+    "t": "Keby: если бы"
+  },
+  "a2-u4-l16.grammar-keby-if.body": {
+    "en": [
+      "For something that isn't true, or isn't likely, Slovak uses **keby** (if) with the past form, and the conditional in the other half: **Keby** som mala peniaze, letela by som domov. = If I had the money, I'd fly home.",
+      "Keby already has by inside it, so som, si, sme or ste comes right after it: keby **som**, keby **si**, keby **sme**, keby **ste**. With on, ona and oni it's just keby: keby vlak nemeškal."
+    ],
+    "t": [
+      "О том, чего нет или что маловероятно, по-словацки говорят с **keby** (если бы) и формой прошедшего времени, а во второй части — условное наклонение, совсем как в русском: **Keby** som mala peniaze, letela by som domov. = Если бы у меня были деньги, я бы полетела домой.",
+      "В keby уже есть by, поэтому som, si, sme или ste идут сразу за ним: keby **som**, keby **si**, keby **sme**, keby **ste**. С on, ona и oni — просто keby: keby vlak nemeškal."
+    ]
+  },
+  "a2-u4-l16.grammar-keby-if.table.head": {
+    "en": [
+      "if…",
+      "…then"
+    ],
+    "t": [
+      "если бы…",
+      "…то"
+    ]
+  },
+  "a2-u4-l16.grammar-keby-if.table.rows": {
+    "en": [
+      [
+        "Keby **som** mal(a) čas,",
+        "išiel / išla **by som** s vami."
+      ],
+      [
+        "Keby **si** mal(a) auto,",
+        "nemusel(a) **by si** čakať."
+      ],
+      [
+        "Keby vlak nemeškal,",
+        "boli **by sme** doma."
+      ],
+      [
+        "Keby **ste** stratili pas,",
+        "čo **by ste** robili?"
+      ]
+    ],
+    "t": [
+      [
+        "Keby **som** mal(a) čas,",
+        "išiel / išla **by som** s vami."
+      ],
+      [
+        "Keby **si** mal(a) auto,",
+        "nemusel(a) **by si** čakať."
+      ],
+      [
+        "Keby vlak nemeškal,",
+        "boli **by sme** doma."
+      ],
+      [
+        "Keby **ste** stratili pas,",
+        "čo **by ste** robili?"
+      ]
+    ]
+  },
+  "a2-u4-l16.grammar-keby-if.examples": {
+    "en": [
+      "If I had time, I'd go with you.",
+      "If the train weren't late, we'd be home by now."
+    ],
+    "t": [
+      "Если бы у меня было время, я бы пошла с тобой.",
+      "Если бы поезд не опоздал, мы бы уже были дома."
+    ]
+  },
+  "a2-u4-l16.stratit.en": {
+    "en": "to lose",
+    "t": "потерять"
+  },
+  "a2-u4-l16.stratit.note": {
+    "en": "**Stratila som pas!** = I've lost my passport! The opposite is **nájsť** (to find): našla som ho.",
+    "t": "**Stratila som pas!** = Я потеряла паспорт! Противоположное — **nájsť** (найти): našla som ho (я его нашла)."
+  },
+  "a2-u4-l16.fill-keby-som-mala.en": {
+    "en": "If I had a car, I'd drive to the airport.",
+    "t": "Если бы у меня была машина, я бы поехала в аэропорт на машине."
+  },
+  "a2-u4-l16.fill-keby-som-mala.why": {
+    "en": "Keby already has by inside it, so only **som** follows: keby **som** mala.",
+    "t": "В keby уже есть by, поэтому дальше только **som**: keby **som** mala."
+  },
+  "a2-u4-l16.fill-keby-som-mala-peniaze.en": {
+    "en": "If I had the money, I'd fly to Dublin more often.",
+    "t": "Если бы у меня были деньги, я бы чаще летала в Дублин."
+  },
+  "a2-u4-l16.fill-keby-som-mala-peniaze.why": {
+    "en": "The other half is the conditional: the past form + by som: **letela** by som.",
+    "t": "Вторая часть — условное наклонение: форма прошедшего времени + by som: **letela** by som, как «летала бы»."
+  },
+  "a2-u4-l16.build-keby-som-mal.prompt": {
+    "en": "Tomáš: If I had time, I'd go with you.",
+    "t": "Томаш: «Если бы у меня было время, я бы пошёл с тобой»."
+  },
+  "a2-u4-l16.build-keby-som-mal.traps": {
+    "en": [
+      "Tomáš is a man, so the past form has no ending: **mal**.",
+      "The result is the conditional: the past form + by som: **išiel** by som."
+    ],
+    "t": [
+      "Томаш — мужчина, поэтому у формы прошедшего времени нет окончания: **mal**.",
+      "Результат — условное наклонение: форма прошедшего времени + by som: **išiel** by som, как «пошёл бы»."
+    ]
+  },
+  "a2-u4-l16.choice-keby-lietadlo-nemeskalo.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u4-l16.choice-keby-lietadlo-nemeskalo.options": {
+    "en": [
+      "The plane was late, but I'm already in Dublin.",
+      "When the plane is late, I get to Dublin late.",
+      "If the plane weren't late, I'd be in Dublin by now."
+    ],
+    "t": [
+      "Самолёт опоздал, но я уже в Дублине.",
+      "Когда самолёт опаздывает, я поздно прилетаю в Дублин.",
+      "Если бы самолёт не опаздывал, я бы уже была в Дублине."
+    ]
+  },
+  "a2-u4-l16.choice-keby-lietadlo-nemeskalo.why": {
+    "en": "Keby + the past form talks about something that isn't so: the plane **is** late, so she isn't in Dublin yet.",
+    "t": "Keby + форма прошедшего времени говорит о том, чего нет: самолёт **опаздывает**, поэтому она ещё не в Дублине."
+  },
+  "a2-u4-l16.fill-keby-som-nezabudla.en": {
+    "en": "If I hadn't forgotten my passport, I wouldn't have to go home.",
+    "t": "Если бы я не забыла паспорт, мне не пришлось бы ехать домой."
+  },
+  "a2-u4-l16.fill-keby-som-nezabudla.why": {
+    "en": "She did forget it, so the keby half says the opposite, with not on the past form as one word: keby som **nezabudla**.",
+    "t": "Паспорт она забыла, поэтому в части с keby — наоборот, с отрицанием, слитно с формой прошедшего времени: keby som **nezabudla**."
+  },
+  "a2-u4-l16.choice-keby-som-mala.question": {
+    "en": "Which is right?",
+    "t": "Какой вариант правильный?"
+  },
+  "a2-u4-l16.choice-keby-som-mala.why": {
+    "en": "Keby already contains by, so don't add another: keby **som**. The other half needs by: prišla **by som**.",
+    "t": "В keby уже есть by, второе не добавляйте: keby **som**. А во второй части by нужно: prišla **by som**."
+  },
+  "a2-u4-l16.build-co-by-ste.prompt": {
+    "en": "What would you do if you lost your passport?",
+    "t": "Что бы вы делали, если бы потеряли паспорт?"
+  },
+  "a2-u4-l16.build-co-by-ste.traps": {
+    "en": [
+      "Would do is the conditional: the past form + by ste: by ste **robili**.",
+      "After keby comes the past form: keby ste **stratili**."
+    ],
+    "t": [
+      "«Делали бы» — условное наклонение: форма прошедшего времени + by ste: by ste **robili**.",
+      "После keby — форма прошедшего времени: keby ste **stratili**, как «если бы потеряли»."
+    ]
+  },
+  "a2-u4-l16.fill-co-by-si.en": {
+    "en": "What would you do if you missed the train to Žilina?",
+    "t": "Что бы ты делала, если бы опоздала на поезд в Жилину?"
+  },
+  "a2-u4-l16.fill-co-by-si.why": {
+    "en": "After keby si, use the past form: keby si **nestihla**.",
+    "t": "После keby si — форма прошедшего времени: keby si **nestihla** (не успела)."
+  },
+  "a2-u4-l16.build-keby-som-bola.answers": {
+    "en": [
+      "If I were in Dublin, I'd be with my family."
+    ],
+    "t": [
+      "Если бы я была в Дублине, я была бы с семьёй.",
+      "Если бы я была в Дублине, я бы была с семьёй.",
+      "Будь я в Дублине, я была бы с семьёй."
+    ]
+  },
+  "a2-u4-l16.build-keby-som-bola.distractors": {
+    "en": [
+      "was",
+      "friends"
+    ],
+    "t": [
+      "буду",
+      "друзьями"
+    ]
+  },
+  "a2-u4-l16.fill-keby-sme-mali.en": {
+    "en": "If we had a car, we'd drive to the station.",
+    "t": "Если бы у нас была машина, мы бы поехали на вокзал на машине."
+  },
+  "a2-u4-l16.fill-keby-sme-mali.why": {
+    "en": "With my, the past form ends in **-li**: **išli** by sme.",
+    "t": "С my форма прошедшего времени на **-li**: **išli** by sme."
+  },
+  "a2-u4-l16.speak-keby-som-mala.en": {
+    "en": "If I had time, I'd come.",
+    "t": "Если бы у меня было время, я бы пришла."
+  },
+  "a2-u4-l17.titleEn": {
+    "en": "Bad luck on the way",
+    "t": "Невезение в дороге"
+  },
+  "a2-u4-l17.zruseny-let.en": {
+    "en": "cancelled flight",
+    "t": "отменённый рейс"
+  },
+  "a2-u4-l17.zruseny-let.note": {
+    "en": "Monday evening in Dublin: the flight to London is **zrušený** (zrušiť = to cancel). Emma's flight only **mešká**, so she waits in the **čakacia hala** (waiting hall).",
+    "t": "Вечер понедельника в Дублине: рейс в Лондон **zrušený** (отменён; zrušiť = отменить). Рейс Эммы только **mešká** (задерживается), поэтому она ждёт в зале ожидания, **čakacia hala**."
+  },
+  "a2-u4-l17.choice-let-do-londyna.question": {
+    "en": "What does the board say?",
+    "t": "Что написано на табло?"
+  },
+  "a2-u4-l17.choice-let-do-londyna.options": {
+    "en": [
+      "The flight to London is cancelled.",
+      "The flight to London is delayed.",
+      "The flight to London is full."
+    ],
+    "t": [
+      "Рейс в Лондон отменён.",
+      "Рейс в Лондон задерживается.",
+      "На рейс в Лондон нет мест."
+    ]
+  },
+  "a2-u4-l17.fill-emmino-lietadlo.en": {
+    "en": "Emma's plane was two hours late.",
+    "t": "Самолёт Эммы опоздал на два часа."
+  },
+  "a2-u4-l17.fill-emmino-lietadlo.why": {
+    "en": "Lietadlo is neuter, so the past form ends in **-lo**: meška**lo**.",
+    "t": "Lietadlo — среднего рода (хотя «самолёт» у нас мужского), поэтому форма прошедшего времени на **-lo**: meška**lo**."
+  },
+  "a2-u4-l17.pricestovat.en": {
+    "en": "to arrive (from a journey)",
+    "t": "приехать (из поездки)"
+  },
+  "a2-u4-l17.pricestovat.note": {
+    "en": "**od**cestovať = to leave on a journey. Emma odcestovala vo štvrtok a **pri**cestovala v pondelok **o polnoci** (at midnight).",
+    "t": "**od**cestovať = уехать. Emma odcestovala vo štvrtok a **pri**cestovala v pondelok **o polnoci** (в полночь). Приставки od- и pri- — как наши от- и при-."
+  },
+  "a2-u4-l17.fill-emma-do-bratislavy.en": {
+    "en": "Emma arrived in Bratislava at midnight.",
+    "t": "Эмма приехала в Братиславу в полночь."
+  },
+  "a2-u4-l17.fill-emma-do-bratislavy.why": {
+    "en": "Getting to Bratislava is arriving: **pri**cestovala. Pri- (prí- in príchod and prílet) means arriving. Odcestovala means she left.",
+    "t": "Попасть в Братиславу — значит приехать: **pri**cestovala. Pri- (prí- в príchod и prílet) значит прибытие, как наше при-. Odcestovala — она уехала."
+  },
+  "a2-u4-l17.posledny-autobus.en": {
+    "en": "the last bus",
+    "t": "последний автобус"
+  },
+  "a2-u4-l17.posledny-autobus.note": {
+    "en": "**Nestihla som posledný autobus.** = I missed the last bus. **zmeškať** also means to miss: zmeškať vlak.",
+    "t": "**Nestihla som posledný autobus.** = Я не успела на последний автобус. **zmeškať** тоже значит «опоздать на»: zmeškať vlak."
+  },
+  "a2-u4-l17.build-emma-nestihla-posledny.prompt": {
+    "en": "Emma missed the last bus.",
+    "t": "Эмма не успела на последний автобус."
+  },
+  "a2-u4-l17.build-emma-nestihla-posledny.traps": {
+    "en": [
+      "Emma is a woman, so the past form ends in **-la**: nestih**la**.",
+      "The bus is the object, and masculine things don't change: **posledný** autobus."
+    ],
+    "t": [
+      "Эмма — женщина, поэтому форма прошедшего времени на **-la**: nestih**la**, как «не успела».",
+      "Автобус — дополнение, а неодушевлённое мужского рода не меняется: **posledný** autobus. По-русски «на последний автобус», а по-словацки без предлога."
+    ]
+  },
+  "a2-u4-l17.fill-jej-kufor.en": {
+    "en": "Her suitcase didn't arrive in Bratislava.",
+    "t": "Её чемодан не прибыл в Братиславу."
+  },
+  "a2-u4-l17.fill-jej-kufor.why": {
+    "en": "Kufor is masculine, so the past of prísť is **prišiel**, with ne- in front: **ne**prišiel.",
+    "t": "Kufor — мужского рода, поэтому прошедшее время от prísť — **prišiel** (пришёл), с ne- впереди, слитно: **ne**prišiel."
+  },
+  "a2-u4-l17.choice-emma-caka-na.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u4-l17.choice-emma-caka-na.options": {
+    "en": [
+      "Emma is waiting at the station for the next train.",
+      "Emma is on the bus, but it's late.",
+      "Emma is waiting at the stop, but the bus won't come any more."
+    ],
+    "t": [
+      "Эмма ждёт на вокзале следующий поезд.",
+      "Эмма едет в автобусе, но он опаздывает.",
+      "Эмма ждёт на остановке, но автобус уже не придёт."
+    ]
+  },
+  "a2-u4-l17.mala-som-smolu.en": {
+    "en": "I was unlucky. (a woman speaking)",
+    "t": "Мне не повезло. (говорит женщина)"
+  },
+  "a2-u4-l17.mala-som-smolu.note": {
+    "en": "**smola** = bad luck. The opposite: Mala som šťastie. = I was lucky.",
+    "t": "**smola** = невезение. Противоположное: Mala som šťastie. = Мне повезло."
+  },
+  "a2-u4-l17.co-ti-je.en": {
+    "en": "What's wrong?",
+    "t": "Что с тобой?"
+  },
+  "a2-u4-l17.co-ti-je.note": {
+    "en": "Asked when someone looks upset or ill. To someone you call vy: **Čo vám je?**",
+    "t": "Так спрашивают, когда человек расстроен или плохо себя чувствует. Тому, с кем вы на «вы»: **Čo vám je?** (Что с вами?)"
+  },
+  "a2-u4-l17.choice-rano-lucia-vidi.question": {
+    "en": "In the morning Lucia sees that Emma is upset. What does she ask?",
+    "t": "Утром Луция видит, что Эмма расстроена. Что она спросит?"
+  },
+  "a2-u4-l17.choice-rano-lucia-vidi.why": {
+    "en": "Emma is her friend, so Lucia says ty: Čo **ti** je? Čo vám je is for someone you call vy.",
+    "t": "Эмма — её подруга, поэтому Луция на «ты»: Čo **ti** je? Čo vám je — для того, с кем вы на «вы»."
+  },
+  "a2-u4-l17.build-taxik-bol-drahy.prompt": {
+    "en": "The taxi was very expensive.",
+    "t": "Такси было очень дорогое."
+  },
+  "a2-u4-l17.build-taxik-bol-drahy.traps": {
+    "en": [
+      "After **bol**, describing the taxi itself (a noun), use the adjective: drah**ý**. Draho goes with a verb.",
+      "Taxík is masculine, so the adjective ends in **-ý**: drah**ý**."
+    ],
+    "t": [
+      "После **bol**, когда описываете само такси (существительное), нужно прилагательное: drah**ý**. Draho — при глаголе.",
+      "Taxík — мужского рода (хотя «такси» у нас среднего), поэтому прилагательное на **-ý**: drah**ý**."
+    ]
+  },
+  "a2-u4-l17.pokazit-sa.en": {
+    "en": "to break down",
+    "t": "сломаться"
+  },
+  "a2-u4-l17.pokazit-sa.note": {
+    "en": "Električka sa pokazila. = The tram broke down. Tomáš is never late, but that morning…",
+    "t": "Električka sa pokazila. = Трамвай сломался. Томаш никогда не опаздывает, но в то утро…"
+  },
+  "a2-u4-l17.choice-elektricka-sa-pokazila.question": {
+    "en": "Why was Tomáš late?",
+    "t": "Почему Томаш опоздал?"
+  },
+  "a2-u4-l17.choice-elektricka-sa-pokazila.options": {
+    "en": [
+      "He missed the tram.",
+      "The tram was full.",
+      "The tram broke down."
+    ],
+    "t": [
+      "Он не успел на трамвай.",
+      "Трамвай был переполнен.",
+      "Трамвай сломался."
+    ]
+  },
+  "a2-u4-l17.match-smola.pairs": {
+    "en": [
+      "cancelled flight",
+      "the last bus",
+      "bad luck",
+      "to break down",
+      "to lose"
+    ],
+    "t": [
+      "отменённый рейс",
+      "последний автобус",
+      "невезение",
+      "сломаться",
+      "потерять"
+    ]
+  },
+  "a2-u4-l17.build-emma-odcestovala-vo.answers": {
+    "en": [
+      "Emma left on Thursday and arrived on Monday."
+    ],
+    "t": [
+      "Эмма уехала в четверг и приехала в понедельник.",
+      "Эмма уехала в четверг, а приехала в понедельник."
+    ]
+  },
+  "a2-u4-l17.build-emma-odcestovala-vo.distractors": {
+    "en": [
+      "Tuesday",
+      "flew"
+    ],
+    "t": [
+      "вторник",
+      "улетела"
+    ]
+  },
+  "a2-u4-l17.speak-no-co-uz.en": {
+    "en": "Oh well, I was unlucky.",
+    "t": "Ну что ж, мне не повезло."
+  },
+  "a2-u4-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Письменная практика"
+  },
+  "a2-u4-pisanie.listen-jeden-spiatocny-listok.en": {
+    "en": "One return ticket to Žilina, please.",
+    "t": "Один билет до Жилины туда и обратно, пожалуйста."
+  },
+  "a2-u4-pisanie.listen-prepacte-je-tu.en": {
+    "en": "Excuse me, is this seat free?",
+    "t": "Извините, здесь свободно?"
+  },
+  "a2-u4-pisanie.listen-kam-to-bude.en": {
+    "en": "Where to? To the airport, please.",
+    "t": "Куда едем? — В аэропорт, пожалуйста."
+  },
+  "a2-u4-pisanie.listen-chcela-by-som.en": {
+    "en": "I'd like a window seat reservation.",
+    "t": "Я бы хотела бронь места у окна."
+  },
+  "a2-u4-pisanie.listen-tomas-vacsinou-pracuje.en": {
+    "en": "Tomáš mostly works from home.",
+    "t": "Томаш в основном работает из дома."
+  },
+  "a2-u4-pisanie.listen-lucia-zaplatila-pokutu.en": {
+    "en": "Lucia paid a fine because she forgot her card.",
+    "t": "Луция заплатила штраф, потому что забыла студенческий."
+  },
+  "a2-u4-pisanie.listen-keby-som-mala.en": {
+    "en": "If I had time, I'd go with you.",
+    "t": "Если бы у меня было время, я бы пошла с вами."
+  },
+  "a2-u4-pisanie.listen-lietadlo-meskalo.en": {
+    "en": "The plane was two hours late.",
+    "t": "Самолёт опоздал на два часа."
+  },
+  "a2-u4-l18.titleEn": {
+    "en": "Review",
+    "t": "Повторение"
+  },
+  "a2-u4-l18.match-cestovanie.pairs": {
+    "en": [
+      "platform",
+      "seat reservation",
+      "plane ticket",
+      "receipt",
+      "luggage"
+    ],
+    "t": [
+      "платформа",
+      "бронь места",
+      "авиабилет",
+      "чек",
+      "багаж"
+    ]
+  },
+  "a2-u4-l18.fill-jeden-spiatocny.en": {
+    "en": "One return ticket to Košice, please.",
+    "t": "Один билет до Кошице туда и обратно, пожалуйста."
+  },
+  "a2-u4-l18.fill-jeden-spiatocny.why": {
+    "en": "Lístok is masculine, so the adjective ends in **-ý**: spiatočn**ý**.",
+    "t": "Lístok — мужского рода, поэтому прилагательное на **-ý**: spiatočn**ý**."
+  },
+  "a2-u4-l18.choice-vlak-do-kosic.question": {
+    "en": "Listen to the announcement. What does it say?",
+    "t": "Послушайте объявление. О чём в нём говорится?"
+  },
+  "a2-u4-l18.choice-vlak-do-kosic.options": {
+    "en": [
+      "The train to Košice is half an hour late.",
+      "The train to Košice leaves in half an hour.",
+      "The train from Košice arrives in an hour."
+    ],
+    "t": [
+      "Поезд в Кошице опаздывает на полчаса.",
+      "Поезд в Кошице отправляется через полчаса.",
+      "Поезд из Кошице прибывает через час."
+    ]
+  },
+  "a2-u4-l18.build-chceli-by-sme-dva.prompt": {
+    "en": "We'd like two tickets to Žilina.",
+    "t": "Мы бы хотели два билета до Жилины."
+  },
+  "a2-u4-l18.build-chceli-by-sme-dva.traps": {
+    "en": [
+      "Lístok is masculine, so two is **dva**: dva lístky.",
+      "We is my, so after by comes **sme**."
+    ],
+    "t": [
+      "Lístok — мужского рода, поэтому «два» — **dva**: dva lístky.",
+      "«Мы» — это my, поэтому после by идёт **sme**."
+    ]
+  },
+  "a2-u4-l18.fill-ic-cko-ide.en": {
+    "en": "The IC goes faster than the fast train.",
+    "t": "IC идёт быстрее, чем скорый."
+  },
+  "a2-u4-l18.fill-ic-cko-ide.why": {
+    "en": "It says how the train goes, so it's the adverb, and with **ako** (than) the comparative: rýchl**ejšie**.",
+    "t": "Это о том, как идёт поезд, поэтому наречие, а с **ako** (чем) — сравнительная степень: rýchl**ejšie**."
+  },
+  "a2-u4-l18.fill-kufor-ktory-som.en": {
+    "en": "The suitcase I lost is at the airport.",
+    "t": "Чемодан, который я потеряла, в аэропорту."
+  },
+  "a2-u4-l18.fill-kufor-ktory-som.why": {
+    "en": "Kufor is a masculine thing, and as the object it keeps **ktorý**. Ktorého is only for men.",
+    "t": "Kufor — предмет мужского рода, и в винительном он остаётся **ktorý**, как «чемодан, который». Ktorého — только для мужчин."
+  },
+  "a2-u4-l18.build-lietadlo-meskalo-preto.prompt": {
+    "en": "The plane was late, so Emma took a taxi.",
+    "t": "Самолёт опоздал, поэтому Эмма поехала на такси."
+  },
+  "a2-u4-l18.build-lietadlo-meskalo-preto.traps": {
+    "en": [
+      "The taxi is the result of the delay, so it's **preto** (so). Lebo brings a cause.",
+      "Lietadlo is neuter, so the past form ends in **-lo**: meška**lo**."
+    ],
+    "t": [
+      "Такси — следствие опоздания, поэтому **preto** (поэтому). Lebo вводит причину.",
+      "Lietadlo — среднего рода, поэтому форма прошедшего времени на **-lo**: meška**lo**."
+    ]
+  },
+  "a2-u4-l18.choice-kedy-by-si.question": {
+    "en": "Which is right?",
+    "t": "Какой вариант правильный?"
+  },
+  "a2-u4-l18.choice-kedy-by-si.why": {
+    "en": "**By** comes second, right after kedy; then si, then sa: Kedy **by si sa**…",
+    "t": "**By** стоит вторым, сразу после kedy; потом si, потом sa: Kedy **by si sa**…"
+  },
+  "a2-u4-l18.fill-keby-som-mal.en": {
+    "en": "If I had the money, I'd fly to Dublin.",
+    "t": "Если бы у меня были деньги, я бы полетел в Дублин."
+  },
+  "a2-u4-l18.fill-keby-som-mal.why": {
+    "en": "The other half of a keby sentence is the conditional: the past form + by som: **letel** by som.",
+    "t": "Вторая часть предложения с keby — условное наклонение: форма прошедшего времени + by som: **letel** by som."
+  },
+  "a2-u4-l18.build-deti-cestuju-s.answers": {
+    "en": [
+      "Children travel with a half-fare ticket."
+    ],
+    "t": [
+      "Дети ездят по билету за полцены.",
+      "Дети ездят по половинному билету.",
+      "Дети ездят по детскому билету."
+    ]
+  },
+  "a2-u4-l18.build-deti-cestuju-s.distractors": {
+    "en": [
+      "full",
+      "adults"
+    ],
+    "t": [
+      "полному",
+      "взрослые"
+    ]
+  },
+  "a2-u4-l18.fill-tomas-nemal-by.en": {
+    "en": "Tomáš, you shouldn't work so much.",
+    "t": "Томаш, тебе не стоило бы так много работать."
+  },
+  "a2-u4-l18.fill-tomas-nemal-by.why": {
+    "en": "Tomáš is a friend, ty, so after by comes **si**.",
+    "t": "Томаш — друг, ty, поэтому после by идёт **si**."
+  },
+  "a2-u4-l18.fill-neviem-mozno.en": {
+    "en": "I don't know, maybe I'll come, maybe not.",
+    "t": "Не знаю, может быть, приду, а может, и нет."
+  },
+  "a2-u4-l18.fill-neviem-mozno.why": {
+    "en": "The speaker isn't sure, so it's **možno** (maybe), like the možno nie after it. Určite means definitely.",
+    "t": "Говорящий не уверен, поэтому **možno** (может быть), как и možno nie после него. Určite значит «точно»."
+  },
+  "a2-u4-l18.build-lietadlom-je-to.prompt": {
+    "en": "By plane it's the fastest.",
+    "t": "Самолётом быстрее всего."
+  },
+  "a2-u4-l18.build-lietadlom-je-to.traps": {
+    "en": [
+      "The fastest of all is the superlative, with **naj-**: **naj**rýchlejšie.",
+      "By plane is the means: the instrumental, lietadl**om**."
+    ],
+    "t": [
+      "Быстрее всех — превосходная степень с **naj-**: **naj**rýchlejšie.",
+      "«Самолётом» — средство: творительный падеж, lietadl**om**, как и у нас."
+    ]
+  },
+  "a2-u4-l18.build-rozlucka-na-stanici.answers": {
+    "en": [
+      "The goodbye at the station was sad."
+    ],
+    "t": [
+      "Прощание на вокзале было грустным.",
+      "Прощание на вокзале было грустное."
+    ]
+  },
+  "a2-u4-l18.build-rozlucka-na-stanici.distractors": {
+    "en": [
+      "airport",
+      "happy"
+    ],
+    "t": [
+      "аэропорту",
+      "весёлым"
+    ]
+  },
+  "a2-u4-l18.build-emma-cakala-dve.answers": {
+    "en": [
+      "Emma waited two hours in the waiting hall."
+    ],
+    "t": [
+      "Эмма ждала два часа в зале ожидания.",
+      "Эмма два часа ждала в зале ожидания.",
+      "Эмма ждала в зале ожидания два часа."
+    ]
+  },
+  "a2-u4-l18.build-emma-cakala-dve.distractors": {
+    "en": [
+      "minutes",
+      "station"
+    ],
+    "t": [
+      "минуты",
+      "вокзале"
+    ]
+  },
+  "a2-u4-l18.speak-pomohli-by-ste.en": {
+    "en": "Could you help me with my suitcase?",
+    "t": "Не могли бы вы помочь мне с чемоданом?"
+  }
+}

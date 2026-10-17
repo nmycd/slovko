@@ -1,0 +1,270 @@
+{
+  "a2-u3-pozvanka#na-vianoce": {
+    "reuse": "a2-u3-stedry-vecer#vianocny-stromcek",
+    "book": null
+  },
+  "a2-u3-pozvanka#chces-prist-k-nam": {
+    "picture": "Advent in Emma and Lucia's dorm room, snow falling outside the window and an Advent wreath with candles on the windowsill. Lucia, sitting on her bed, asks Emma to come home with her to Žilina for Christmas; Emma, at her desk, turns round and lights up with delight, hands clasped.",
+    "book": null
+  },
+  "a2-u3-pozvanka#choice-chces-prist-k-nam": {
+    "reuse": "a2-u3-pozvanka#chces-prist-k-nam",
+    "book": null
+  },
+  "a2-u3-pozvanka#rada-pridem": {
+    "reuse": "a2-u3-pozvanka#chces-prist-k-nam",
+    "book": null
+  },
+  "a2-u3-pozvanka#silvester-a-novy-rok": {
+    "reuse": "a2-u3-silvester#o-polnoci",
+    "book": null
+  },
+  "a2-u3-pozvanka#choice-tomas-nemoze-prist": {
+    "picture": "In the café near the university on a snowy December day, Tomáš sits at a table with Emma and Lucia and spreads his hands apologetically: he can't come for New Year's Eve. Lucia's face falls; Emma looks sorry too.",
+    "book": null
+  },
+  "a2-u3-rodina#babka-a-dedko": {
+    "picture": "In the dorm room, Lucia shows Emma a family photo album, open at a big photo of her grandma and grandpa: babka Helena arm in arm with a tall white-haired grandpa in a hat, in front of a village house.",
+    "book": null
+  },
+  "a2-u3-rodina#ujo-a-teta": {
+    "picture": "Lucia's uncle and aunt, ujo Pavol and teta Mirka, stand side by side in their living room as if for a photo: tall, bearded ujo Pavol has an arm round little teta Mirka's shoulders, and both are laughing.",
+    "book": null
+  },
+  "a2-u3-rodina#bratranec-a-sesternica": {
+    "picture": "In the Šimkos' living room, Lucia gives her little cousin Samko a piggyback ride; he whoops with his arms in the air.",
+    "book": null
+  },
+  "a2-u3-rodina#vnuk-a-vnucka": {
+    "picture": "In the Šimkos' kitchen, babka Helena hugs her two grandchildren, Lucia and Marek in his red flannel shirt, one on each side, beaming up at them.",
+    "book": null
+  },
+  "a2-u3-rodina#pribuzny": {
+    "reuse": "a2-u3-sviatky#navsteva",
+    "book": null
+  },
+  "a2-u3-rodina#matka-mama-mamka": {
+    "reuse": "a2-u3-navsteva#vitajte-u-nas",
+    "book": null
+  },
+  "a2-u3-vyzor#ako-vyzera": {
+    "reuse": "a2-u3-rodina#babka-a-dedko",
+    "book": null
+  },
+  "a2-u3-vyzor#fuzy": {
+    "picture": "In the porter's lodge, pán Kováč smooths his big grey moustache with one finger as he peers out of his window onto the entrance hall.",
+    "book": null
+  },
+  "a2-u3-vyzor#nizky": {
+    "picture": "In the Šimkos' hallway, small, slim babka Helena stands on tiptoe to hug her grandson Marek, who is much taller and bends right down to her.",
+    "book": null
+  },
+  "a2-u3-vyzor#stihly": {
+    "reuse": "a2-u3-vyzor#nizky",
+    "book": null
+  },
+  "a2-u3-vyzor#choice-ujo-pavol-je-vysoky": {
+    "reuse": "a2-u3-rodina#ujo-a-teta",
+    "book": null
+  },
+  "a2-u3-vyzor#kuceravy": {
+    "picture": "In the Šimkos' living room, Lucia's dad and Marek stand side by side, both stocky, with the same short curly hair, the dad's going grey; Lucia's mum, laughing, ruffles Marek's curls.",
+    "book": null
+  },
+  "a2-u3-vyzor#choice-liam-je-vysoky": {
+    "reuse": "u4-rodina#syn-a-dcera",
+    "book": null
+  },
+  "a2-u3-povaha#vazny-a-vtipny": {
+    "picture": "Round the big dining table in the Šimkos' living room, ujo Pavol tells a joke with twinkling eyes and everyone bursts out laughing: Lucia, Emma and teta Mirka. Only Samko sits with his arms crossed and a very serious face.",
+    "book": null
+  },
+  "a2-u3-povaha#smiat-sa": {
+    "reuse": "a2-u3-povaha#vazny-a-vtipny",
+    "book": null
+  },
+  "a2-u3-povaha#hlucny": {
+    "picture": "In the Šimkos' living room, Samko marches round banging a toy drum and shouting at the top of his voice; babka Helena, on the sofa, covers her ears.",
+    "book": null
+  },
+  "a2-u3-povaha#choice-marek-je-pracovity": {
+    "reuse": "u4-l3#co-robis-som",
+    "book": null
+  },
+  "a2-u3-povaha#pokojny": {
+    "picture": "At the Šimkos' kitchen table, teta Mirka tells a story at top speed, waving her hands about, full of energy, while ujo Pavol sits beside her, calm and relaxed, quietly sipping his tea.",
+    "book": null
+  },
+  "a2-u3-povaha#choice-teta-mirka-je": {
+    "reuse": "a2-u3-povaha#pokojny",
+    "book": null
+  },
+  "a2-u3-starsi#choice-marek-o-devat-rokov": {
+    "reuse": "u4-rodina#brat-a-sestra",
+    "book": null
+  },
+  "a2-u3-darceky#roman-a-detektivka": {
+    "picture": "In a bookshop in Bratislava's Old Town, Emma and Lucia choose Christmas presents: Lucia holds up a thick novel for babka Helena, and Emma a detective story with a dark cover for Lucia's mum.",
+    "book": null
+  },
+  "a2-u3-darceky#sal-a-rukavice": {
+    "picture": "In the clothes shop, Lucia tries on a long warm scarf and a pair of woolly gloves in front of the mirror, while Emma holds up another scarf to compare.",
+    "book": null
+  },
+  "a2-u3-darceky#vymenit": {
+    "picture": "At the counter of the clothes shop, Lucia hands back a sweater that is clearly far too small; the salesman takes it and holds out the same sweater in a bigger size.",
+    "book": null
+  },
+  "a2-u3-komu#choice-kupim-marekovi-knihu": {
+    "reuse": "a2-u3-darceky#roman-a-detektivka",
+    "book": null
+  },
+  "a2-u3-navsteva#vitajte-u-nas": {
+    "picture": "A snowy evening at the front door of the Šimkos' house in Žilina. Lucia's mum opens it wide and welcomes Lucia and Emma, just off the train with their bags, hugging Lucia; Lucia's dad smiles in the hallway behind her.",
+    "book": null
+  },
+  "a2-u3-navsteva#choice-mama-otvara-dvere": {
+    "reuse": "a2-u3-navsteva#vitajte-u-nas",
+    "book": null
+  },
+  "a2-u3-navsteva#mate-krasny-dom": {
+    "picture": "A snowy evening on a quiet street in Žilina: the Šimkos' two-storey house with its small front garden, warm light in the windows and a wreath on the door. Emma, arriving with Lucia, stops at the gate with her bag to admire it.",
+    "book": null
+  },
+  "a2-u3-navsteva#sme-radi-ze-si-tu": {
+    "reuse": "a2-u3-navsteva#vitajte-u-nas",
+    "book": null
+  },
+  "a2-u3-navsteva#je-ti-zima": {
+    "picture": "In the Šimkos' warm kitchen, Emma, just in from the snow and still in her coat, shivers with red cheeks and cold hands; Lucia's mum wraps a woolly blanket round her shoulders.",
+    "book": null
+  },
+  "a2-u3-navsteva#si-hladna": {
+    "picture": "In the Šimkos' kitchen, babka Helena sets a steaming bowl of soup and a plate of homemade cakes in front of Emma, kindly asking if she's hungry; Emma's eyes light up.",
+    "book": null
+  },
+  "a2-u3-navsteva#choice-emma-is-cold": {
+    "reuse": "a2-u3-navsteva#je-ti-zima",
+    "book": null
+  },
+  "a2-u3-navsteva#chce-sa-mi-spat": {
+    "picture": "Late in the evening on the sofa in the Šimkos' living room, Emma, tired after the long journey, gives a huge yawn, her eyes closing, a cushion clutched to her.",
+    "book": null
+  },
+  "a2-u3-mi-mne#choice-je-mi-to-luto": {
+    "reuse": "a2-u3-pozvanka#choice-tomas-nemoze-prist",
+    "book": null
+  },
+  "a2-u3-mojej-mame#choice-emma-kupi-jej-mame": {
+    "reuse": "a2-u3-darceky#roman-a-detektivka",
+    "book": null
+  },
+  "a2-u3-stedry-vecer#stedry-vecer": {
+    "picture": "Christmas Eve at the Šimkos', dark and snowy outside: the whole family round the big dining table laid with a white cloth, candles, fried carp and potato salad, the lit Christmas tree in the corner. Lucia's dad, Lucia's mum, babka Helena, Lucia, Marek and Emma raise their glasses and wish each other a merry Christmas.",
+    "book": null
+  },
+  "a2-u3-stedry-vecer#vianocny-stromcek": {
+    "picture": "Just before Christmas in the Šimkos' living room, the family decorates the Christmas tree in the corner: Lucia's dad, standing on a chair, puts the star on top, while Lucia and Emma hang shiny baubles and sweets in shiny paper. Under the tree stands a small wooden nativity scene.",
+    "book": null
+  },
+  "a2-u3-stedry-vecer#oplatky-s-medom": {
+    "picture": "At the start of Christmas Eve dinner, babka Helena spreads honey on a thin round Christmas wafer and hands it to Emma; a plate of wafers and a jar of honey stand on the white tablecloth between the candles.",
+    "book": null
+  },
+  "a2-u3-stedry-vecer#kapustnica": {
+    "picture": "In the Šimkos' kitchen, babka Helena ladles steaming sauerkraut soup with mushrooms and slices of sausage from a big pot into a bowl; Marek, spoon ready, sniffs it happily.",
+    "book": null
+  },
+  "a2-u3-stedry-vecer#kapor": {
+    "picture": "In the Šimkos' bathroom, a big live carp swims in the bathtub full of water. Emma, toothbrush in hand, has just spotted it and jumps back, startled and scared, while Lucia laughs in the doorway.",
+    "book": null
+  },
+  "a2-u3-stedry-vecer#koleda": {
+    "picture": "After dinner on Christmas Eve, the Šimkos and Emma stand round the lit Christmas tree singing carols; babka Helena sings loudest, and Lucia's dad strums a guitar.",
+    "book": null
+  },
+  "a2-u3-stedry-vecer#vesele-vianoce": {
+    "reuse": "a2-u3-stedry-vecer#stedry-vecer",
+    "book": null
+  },
+  "a2-u3-stedry-vecer#choice-po-veceri-spievame": {
+    "reuse": "a2-u3-stedry-vecer#koleda",
+    "book": null
+  },
+  "a2-u3-pocity#stastny-a-nestastny": {
+    "picture": "Two halves. Left: by the Šimkos' lit Christmas tree, Emma beams as she holds up a present that was there for her too. Right: alone by a window on a grey day, Emma looks at a photo of her family on her phone, unhappy and homesick.",
+    "book": null
+  },
+  "a2-u3-pocity#prekvapeny": {
+    "picture": "By the Christmas tree in the Šimkos' living room, babka Helena unwraps Emma's present, a pair of warm slippers, and claps a hand to her cheek, very surprised; Emma smiles shyly.",
+    "book": null
+  },
+  "a2-u3-pocity#choice-babka-bola-prekvapena": {
+    "reuse": "a2-u3-pocity#prekvapeny",
+    "book": null
+  },
+  "a2-u3-pocity#zalubeny": {
+    "picture": "In the Šimkos' hallway, under a sprig of mistletoe, ujo Pavol and teta Mirka hold hands and gaze at each other, still very much in love; Samko, beside them, rolls his eyes.",
+    "book": null
+  },
+  "a2-u3-pocity#bojim-sa": {
+    "reuse": "a2-u3-stedry-vecer#kapor",
+    "book": null
+  },
+  "a2-u3-pocity#choice-emma-je-trochu-smutna": {
+    "reuse": "a2-u3-pocity#stastny-a-nestastny",
+    "book": null
+  },
+  "a2-u3-sviatky#navsteva": {
+    "picture": "26 December: the Šimkos go visiting. At ujo Pavol and teta Mirka's front door, teta Mirka welcomes Lucia's mum, Lucia's dad, Lucia and Emma, who bring a tin of babka's cakes; Samko peeks out from behind her.",
+    "book": null
+  },
+  "a2-u3-sviatky#meniny": {
+    "reuse": "a2-u3-sviatky#vsetko-najlepsie-k-meninam",
+    "book": null
+  },
+  "a2-u3-sviatky#vsetko-najlepsie-k-meninam": {
+    "picture": "26 December at the Šimkos' front door: their neighbour Štefan, an older man in a woolly hat, has dropped in. Lucia's dad shakes his hand warmly, wishing him a happy name day, and gives him a bottle of wine with a bow; Emma watches from the hallway.",
+    "book": null
+  },
+  "a2-u3-sviatky#zelat": {
+    "reuse": "a2-u3-stedry-vecer#stedry-vecer",
+    "book": null
+  },
+  "a2-u3-sviatky#gratulovat": {
+    "reuse": "a2-u3-sviatky#vsetko-najlepsie-k-meninam",
+    "book": null
+  },
+  "a2-u3-sviatky#choice-sused-stefan": {
+    "reuse": "a2-u3-sviatky#vsetko-najlepsie-k-meninam",
+    "book": null
+  },
+  "a2-u3-silvester#o-polnoci": {
+    "picture": "Midnight on New Year's Eve in the snowy street outside the Šimkos' house, a church clock in the distance at twelve: fireworks burst in the sky over Žilina. The Šimkos, ujo Pavol, teta Mirka, Emma and Lucia clink glasses of champagne, ujo Pavol holding the bottle, Samko waving a sparkler.",
+    "book": null
+  },
+  "a2-u3-silvester#ohnostroj": {
+    "reuse": "a2-u3-silvester#o-polnoci",
+    "book": null
+  },
+  "a2-u3-silvester#sampanske": {
+    "reuse": "a2-u3-silvester#o-polnoci",
+    "book": null
+  },
+  "a2-u3-silvester#stastny-novy-rok": {
+    "reuse": "a2-u3-silvester#o-polnoci",
+    "book": null
+  },
+  "a2-u3-silvester#choice-o-polnoci-co-povedia": {
+    "reuse": "a2-u3-silvester#o-polnoci",
+    "book": null
+  },
+  "a2-u3-silvester#mozem-s-nou-hovorit": {
+    "picture": "Split picture of a phone call on New Year's Eve. Left: Tomáš at his parents' flat in Košice, a party behind him, on his mobile. Right: in the Šimkos' hallway, Lucia's dad holds the receiver of the home phone and calls over his shoulder to Lucia, who hurries in.",
+    "book": null
+  },
+  "a2-u3-silvester#dakujem-za-vsetko": {
+    "picture": "Emma's last evening in Žilina: in the Šimkos' hallway, her packed bag at her feet, Emma hugs Lucia's mum and thanks her; Lucia's dad, babka Helena and Lucia stand round them, smiling.",
+    "book": null
+  }
+}

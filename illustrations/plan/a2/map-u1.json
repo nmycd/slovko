@@ -1,0 +1,258 @@
+{
+  "a2-u1-l1#vitaj-spat": {
+    "picture": "September in Emma and Lucia's dorm room: Emma, back from Ireland for her second year, comes in through the door pulling her suitcase, and Lucia jumps up from her desk with her arms wide to hug her.",
+    "book": null
+  },
+  "a2-u1-l1#choice-vitajte-spat-emma": {
+    "reuse": "u3-l1#vratnica",
+    "book": null
+  },
+  "a2-u1-l1#semester": {
+    "picture": "The first day of the winter semester, a sunny September morning: the university courtyard is full of students again, friends hugging after the summer, others hurrying in under the clock over the main building's entrance. Emma and Lucia walk in together among them with their bags.",
+    "book": null
+  },
+  "a2-u1-l1#zacinat-sa": {
+    "reuse": "a2-u1-l1#semester",
+    "book": null
+  },
+  "a2-u1-l1#predmet": {
+    "reuse": "u7-l1#rozvrh-hodin",
+    "book": null
+  },
+  "a2-u1-l1#stipendium": {
+    "picture": "At the counter of the university's international office, the clerk at the international office hands Emma an official letter with a university seal. Emma reads it and beams: she has got the scholarship. A thought bubble above her shows a little pile of banknotes beside a stack of textbooks.",
+    "book": null
+  },
+  "a2-u1-l1#studovat-v-zahranici": {
+    "reuse": "u2-l1#odkial-si",
+    "book": null
+  },
+  "a2-u1-l1#spoluziak": {
+    "picture": "A seminar in a small university room, the students round one big table: Emma sits next to Kristína, a new classmate, and the two of them share a textbook and smile at each other.",
+    "book": null
+  },
+  "a2-u1-skusky#urobit-skusku": {
+    "picture": "In a university corridor outside an exam room: Emma bursts out of the door, beaming, and punches the air because she has passed. Kristína, waiting on a bench with her notes on her knees, looks up and asks her how it went.",
+    "book": null
+  },
+  "a2-u1-skusky#ako-bolo-na": {
+    "reuse": "a2-u1-skusky#urobit-skusku",
+    "book": null
+  },
+  "a2-u1-skusky#choice-ako-bolo-na": {
+    "reuse": "a2-u1-skusky#urobit-skusku",
+    "book": null
+  },
+  "a2-u1-l2#kviz": {
+    "picture": "A quiz evening in a university hall: teams of students sit at round tables with answer sheets and pens. At the front, pani Horváthová, the host, stands at a microphone with a stack of question cards and welcomes everyone with an open arm.",
+    "book": null
+  },
+  "a2-u1-l2#moderatorka": {
+    "reuse": "a2-u1-l2#kviz",
+    "book": null
+  },
+  "a2-u1-l2#choice-kviz-moderuje-pani": {
+    "reuse": "a2-u1-l2#kviz",
+    "book": null
+  },
+  "a2-u1-l2#damy-a-pani": {
+    "reuse": "a2-u1-l2#kviz",
+    "book": null
+  },
+  "a2-u1-l2#predstavit": {
+    "picture": "At the quiz evening, Emma introduces Lucia to Daniel: she presents Lucia with an open hand, and Daniel, grinning, shakes Lucia's hand.",
+    "book": null
+  },
+  "a2-u1-l2#predstavit-sa": {
+    "picture": "At the quiz evening, Daniel stands up at his team's table and introduces himself to the hall, a hand on his chest and a wide grin; students at the other tables turn to listen.",
+    "book": null
+  },
+  "a2-u1-l2#choice-prosim-predstavte-sa": {
+    "reuse": "a2-u1-l2#kviz",
+    "book": null
+  },
+  "a2-u1-l2#choice-volam-sa-daniel": {
+    "reuse": "a2-u1-l2#predstavit-sa",
+    "book": null
+  },
+  "a2-u1-l2#tim": {
+    "picture": "A team at the quiz evening: Emma, Lucia, Daniel and Kristína put their heads together over one answer sheet at their table, whispering. A small cardboard star, their team's mascot, stands on the table.",
+    "book": null
+  },
+  "a2-u1-l2#sutaz": {
+    "reuse": "a2-u1-l2#kviz",
+    "book": null
+  },
+  "a2-u1-l3#cudzi-jazyk": {
+    "picture": "At her desk in the dorm room, Emma studies among a pile of textbooks and dictionaries for different languages, each with a small flag on its spine: Slovak, French, Spanish, German. She practises aloud from one of them.",
+    "book": null
+  },
+  "a2-u1-l3#poznat": {
+    "reuse": "u2-l3#kto-je-to",
+    "book": null
+  },
+  "a2-u1-l3#ako-sa-vola": {
+    "picture": "At the quiz evening, Emma leans towards Lucia and nods discreetly towards Kristína, a quiet girl sitting alone at the end of their table, asking about her in a low voice.",
+    "book": null
+  },
+  "a2-u1-l3#choice-odkial-je-kristina": {
+    "reuse": "a2-u1-l3#ako-sa-vola",
+    "book": null
+  },
+  "a2-u1-l3#choice-daniel-to-je": {
+    "reuse": "a2-u1-l2#predstavit",
+    "book": null
+  },
+  "a2-u1-l4#otazka-a-odpoved": {
+    "picture": "At the quiz evening, pani Horváthová reads a question from a card into the microphone. At her team's table, Kristína's hand shoots up with the answer, and Emma, Lucia and Daniel turn to her.",
+    "book": null
+  },
+  "a2-u1-l4#choice-ktora-rieka-tecie": {
+    "reuse": "a2-u1-l4#otazka-a-odpoved",
+    "book": null
+  },
+  "a2-u1-l4#spravny": {
+    "picture": "At the quiz evening, pani Horváthová, beaming, points to Emma's team and gives a thumbs up for the right answer. Kristína smiles shyly while Daniel and Emma cheer.",
+    "book": null
+  },
+  "a2-u1-l4#pozor": {
+    "picture": "Two halves for the two meanings. Left: at the quiz evening, pani Horváthová raises a finger at the microphone for attention, and the teams sit up straight. Right: on a street outside the university, Lucia grabs Emma's arm and pulls her back from the kerb as a cyclist whizzes past; Emma, looking at her phone, hadn't seen him.",
+    "book": null
+  },
+  "a2-u1-l4#choice-ma-slovensko-more": {
+    "reuse": "a2-u1-l4#otazka-a-odpoved",
+    "book": null
+  },
+  "a2-u1-l4#je-mi-to-luto": {
+    "picture": "At the quiz evening, pani Horváthová turns with a kind, sympathetic face to another team, three students whose faces fall: their answer was wrong.",
+    "book": null
+  },
+  "a2-u1-l4#choice-je-mi-to": {
+    "reuse": "a2-u1-l4#je-mi-to-luto",
+    "book": null
+  },
+  "a2-u1-l4#choice-v-ktorom-roku": {
+    "reuse": "a2-u1-l4#otazka-a-odpoved",
+    "book": null
+  },
+  "a2-u1-l5#rozhovor": {
+    "picture": "In the break at the quiz evening, Martina from the student radio holds her microphone out to Kristína and interviews her; Kristína answers, a little nervous but smiling.",
+    "book": null
+  },
+  "a2-u1-l5#vyrastat": {
+    "picture": "In a family kitchen, a mother marks the height of her little fair-haired son, about six, on the door frame as he stands very straight against it with his chin up. Above and below his head, a ladder of pencil marks shows how he has grown year by year.",
+    "book": null
+  },
+  "a2-u1-l5#vystudovat": {
+    "picture": "A graduation ceremony in a grand old university hall: a young woman in a black gown receives her rolled diploma, tied with a ribbon, from the rector in his robe and chain and shakes his hand; her proud family claps in the front row.",
+    "book": null
+  },
+  "a2-u1-l5#brigada": {
+    "picture": "Summer in the café near the university: Emma, working behind the counter in an apron, makes a coffee at the coffee machine and hands a cup to a customer with a smile.",
+    "book": null
+  },
+  "a2-u1-l5#prestahovat-sa": {
+    "picture": "Moving day: Kristína, arms full with a big cardboard box, backs through the door of her new room in a Bratislava dormitory; more boxes, a suitcase and a pot plant wait in the corridor behind her.",
+    "book": null
+  },
+  "a2-u1-l5#dakujem-za-rozhovor": {
+    "reuse": "a2-u1-l5#rozhovor",
+    "book": null
+  },
+  "a2-u1-l5#choice-dakujem-za-rozhovor": {
+    "reuse": "a2-u1-l5#rozhovor",
+    "book": null
+  },
+  "a2-u1-l6#vtipny-a-priatelsky": {
+    "picture": "At the team's table at the quiz evening, Daniel, a paper crown on his head, has just told everyone he is a prince from Munich; now he grins and raises his hands to show it was only a joke, and Emma, Lucia and Kristína burst out laughing.",
+    "book": null
+  },
+  "a2-u1-l6#hanblivy-a-tichy": {
+    "picture": "In a busy university corridor, students chat loudly in groups; Kristína stands a little apart by the wall, clutching her bag, looking down and blushing as someone says hello to her.",
+    "book": null
+  },
+  "a2-u1-l6#pracovity-a-lenivy": {
+    "picture": "Two halves. Left: Lucia at her desk in the dorm room, surrounded by piles of books, writing fast and busy. Right: Daniel sprawled on a sofa with his feet up, yawning, a bag of crisps on his chest.",
+    "book": null
+  },
+  "a2-u1-l6#vlasy-a-oci": {
+    "picture": "A close portrait of Kristína, head and shoulders, smiling: her short curly black hair and her bright green eyes.",
+    "book": null
+  },
+  "a2-u1-l6#nosit-okuliare": {
+    "picture": "Daniel, reading a book in the university library, pushes his black-framed glasses back up his nose with one finger.",
+    "book": null
+  },
+  "a2-u1-l6#to-bol-len": {
+    "reuse": "a2-u1-l6#vtipny-a-priatelsky",
+    "book": null
+  },
+  "a2-u1-l12#relacia": {
+    "picture": "Evening in the dorm room: Emma, curled up on her bed, watches a TV quiz show on her laptop. On the screen, a presenter in a bright studio and contestants standing at podiums.",
+    "book": null
+  },
+  "a2-u1-l12#choice-emma-pozera-kvizove": {
+    "reuse": "a2-u1-l12#relacia",
+    "book": null
+  },
+  "a2-u1-l12#podla-mna": {
+    "picture": "Outside the university, Martina from the student radio holds out her microphone to Daniel and Emma for a quick poll about a TV show: Daniel, bored, gives it a thumbs down; Emma, delighted, gives it a thumbs up.",
+    "book": null
+  },
+  "a2-u1-l12#celebrita": {
+    "picture": "A famous TV presenter, a glamorous man in a sparkly jacket and sunglasses, steps out of a car onto a red carpet; a crowd of fans behind a rope reaches out with phones and autograph books, and camera flashes go off.",
+    "book": null
+  },
+  "a2-u1-l12#slavny": {
+    "reuse": "a2-u1-l12#celebrita",
+    "book": null
+  },
+  "a2-u1-l12#choice-daniel-doesnt-like": {
+    "reuse": "a2-u1-l12#podla-mna",
+    "book": null
+  },
+  "a2-u1-l14#hranica": {
+    "picture": "The open border between Slovakia and Austria on a quiet country road among fields: an empty old border post with no barrier, a Slovak flag on a pole on one side of the road and an Austrian flag on the other. A cyclist rides across.",
+    "book": null
+  },
+  "a2-u1-l14#choice-s-ktorou-krajinou": {
+    "reuse": "a2-u1-l4#otazka-a-odpoved",
+    "book": null
+  },
+  "a2-u1-l14#hory": {
+    "picture": "The High Tatras: jagged grey peaks streaked with snow rise above dark pine forest, with a clear mountain lake below them. Two tiny hikers with backpacks walk the path along the shore.",
+    "book": null
+  },
+  "a2-u1-l14#choice-kde-su-vysoke": {
+    "reuse": "a2-u1-l4#otazka-a-odpoved",
+    "book": null
+  },
+  "a2-u1-l14#spissky-hrad": {
+    "picture": "Spiš Castle: a vast white ruin of walls, towers and courtyards spread along the top of a long, bare hill, above green fields and a small village with a church.",
+    "book": null
+  },
+  "a2-u1-l14#choice-v-ktorom-regione": {
+    "reuse": "a2-u1-l4#otazka-a-odpoved",
+    "book": null
+  },
+  "a2-u1-l14#vyhrat": {
+    "picture": "The end of the quiz evening: Emma, Lucia, Daniel and Kristína leap up from their table with their arms in the air, cheering, because their team has won; confetti falls around them.",
+    "book": null
+  },
+  "a2-u1-l14#gratulujem": {
+    "picture": "At the front of the hall, pani Horváthová congratulates the winning team: she shakes Kristína's hand and gives her the prize, a big illustrated book about Slovakia tied with a ribbon, while Emma, Lucia and Daniel clap.",
+    "book": null
+  },
+  "a2-u1-l14#cena": {
+    "reuse": "a2-u1-l14#gratulujem",
+    "book": null
+  },
+  "a2-u1-l14#fanusik": {
+    "picture": "In the audience at the quiz evening, Tomáš and Marek cheer for their friends' team, waving cardboard stars over their heads and whistling.",
+    "book": null
+  },
+  "a2-u1-l14#choice-gratulujem-si-nasa": {
+    "reuse": "a2-u1-l14#vyhrat",
+    "book": null
+  }
+}

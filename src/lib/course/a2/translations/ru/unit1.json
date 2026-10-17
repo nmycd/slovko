@@ -1,0 +1,3963 @@
+{
+  "a2-u1.titleEn": {
+    "en": "The quiz begins",
+    "t": "Викторина начинается"
+  },
+  "a2-u1.topics": {
+    "en": [
+      "A new academic year",
+      "A quiz evening about Slovakia",
+      "Introducing yourself and others",
+      "Life stories, studies and work",
+      "Character and looks",
+      "Opinions about TV"
+    ],
+    "t": [
+      "Новый учебный год",
+      "Вечер-викторина о Словакии",
+      "Как представиться и представить других",
+      "Биография, учёба и работа",
+      "Характер и внешность",
+      "Мнения о телепередачах"
+    ]
+  },
+  "a2-u1.grammar": {
+    "en": [
+      "Voicing: in a word and across words",
+      "Consonant groups",
+      "The rhythmic law",
+      "Possessives in every case (review)",
+      "Hard and soft adjectives (review)"
+    ],
+    "t": [
+      "Оглушение и озвончение: в слове и между словами",
+      "Группы согласных",
+      "Ритмический закон",
+      "Притяжательные местоимения во всех падежах (повторение)",
+      "Твёрдые и мягкие прилагательные (повторение)"
+    ]
+  },
+  "a2-u1-l1.titleEn": {
+    "en": "A new semester",
+    "t": "Новый семестр"
+  },
+  "a2-u1-l1.vitaj-spat.en": {
+    "en": "Welcome back! (to a friend)",
+    "t": "С возвращением! (на «ты»)"
+  },
+  "a2-u1-l1.vitaj-spat.note": {
+    "en": "It's September, and Emma is back in Bratislava for her second year. To someone you call vy: **Vitajte späť!**",
+    "t": "Сентябрь, Эмма вернулась в Братиславу — она уже на втором курсе. Тому, к кому вы обращаетесь на «вы»: **Vitajte späť!**"
+  },
+  "a2-u1-l1.choice-vitajte-spat-emma.question": {
+    "en": "Pán Kováč, the porter, sees Emma at the door. What does he say?",
+    "t": "Пан Ковач, вахтёр, видит Эмму у входа. Что он скажет?"
+  },
+  "a2-u1-l1.choice-vitajte-spat-emma.why": {
+    "en": "Pán Kováč and Emma say vy to each other, so he uses the vy form: **Vitajte** späť. Vitaj is for a friend.",
+    "t": "Пан Ковач и Эмма на «вы», поэтому он обращается к ней на vy: **Vitajte** späť. Vitaj — для друга."
+  },
+  "a2-u1-l1.semester.en": {
+    "en": "semester, term",
+    "t": "семестр"
+  },
+  "a2-u1-l1.semester.note": {
+    "en": "The **zimný semester** (winter semester) starts in September, the **letný semester** (summer semester) in February.",
+    "t": "**zimný semester** (зимний семестр) начинается в сентябре, а **letný semester** — в феврале (дословно «летний», у нас его называют весенним)."
+  },
+  "a2-u1-l1.zacinat-sa.en": {
+    "en": "to begin, to start",
+    "t": "начинаться"
+  },
+  "a2-u1-l1.zacinat-sa.note": {
+    "en": "Semester **sa začína** v pondelok. = The semester starts on Monday. Events often start without sa too: Prednáška začína o deviatej.",
+    "t": "Semester **sa začína** v pondelok. = Семестр начинается в понедельник. Sa здесь — наше -ся. О событиях часто говорят и без sa: Prednáška začína o deviatej. (Лекция начинается в девять.)"
+  },
+  "a2-u1-l1.choice-semester-sa-zacina.question": {
+    "en": "Which sentence is correct?",
+    "t": "Какое предложение правильное?"
+  },
+  "a2-u1-l1.choice-semester-sa-zacina.why": {
+    "en": "**Sa** never starts a sentence: it takes second place, right after the first word or phrase. Semester **sa** začína…",
+    "t": "В отличие от -ся, **sa** — отдельное слово, и предложение с него никогда не начинается: оно стоит вторым, сразу после первого слова или словосочетания. Semester **sa** začína…"
+  },
+  "a2-u1-l1.fill-zimny-semester-sa.en": {
+    "en": "The winter semester starts in September.",
+    "t": "Зимний семестр начинается в сентябре."
+  },
+  "a2-u1-l1.fill-zimny-semester-sa.why": {
+    "en": "The semester is one thing, like on, so the verb has no ending: **začína**. Začínajú is for oni, začínam for ja.",
+    "t": "Семестр один, как on, поэтому у глагола нет окончания: **začína**. Začínajú — для oni, začínam — для ja."
+  },
+  "a2-u1-l1.predmet.en": {
+    "en": "subject (at school or university)",
+    "t": "предмет (в школе или университете)"
+  },
+  "a2-u1-l1.predmet.note": {
+    "en": "Emma študuje **ekonómiu** (economics). Other subjects: **história** (history), **právo** (law). Každý predmet má **kredity** (credits).",
+    "t": "Emma študuje **ekonómiu** (экономику). Другие предметы: **história** (история), **právo** (право). Každý predmet má **kredity** (кредиты, зачётные единицы)."
+  },
+  "a2-u1-l1.fill-emma-studuje-ekonomiu.en": {
+    "en": "Emma studies economics.",
+    "t": "Эмма изучает экономику."
+  },
+  "a2-u1-l1.fill-emma-studuje-ekonomiu.why": {
+    "en": "Economics is what Emma studies, the object, so ekonómia changes -a to **-u**: študuje **ekonómiu**.",
+    "t": "Экономика — то, что Эмма изучает, дополнение, поэтому ekonómia меняет -a на **-u**: študuje **ekonómiu**, как «изучает экономику»."
+  },
+  "a2-u1-l1.build-tento-semester-mam.answers": {
+    "en": [
+      "This semester I have five subjects.",
+      "I have five subjects this semester.",
+      "This term I have five subjects.",
+      "I have five subjects this term."
+    ],
+    "t": [
+      "В этом семестре у меня пять предметов.",
+      "У меня в этом семестре пять предметов.",
+      "В этом семестре у меня пять дисциплин."
+    ]
+  },
+  "a2-u1-l1.build-tento-semester-mam.distractors": {
+    "en": [
+      "lectures",
+      "year"
+    ],
+    "t": [
+      "лекций",
+      "году"
+    ]
+  },
+  "a2-u1-l1.stipendium.en": {
+    "en": "scholarship, grant",
+    "t": "стипендия"
+  },
+  "a2-u1-l1.stipendium.note": {
+    "en": "Emma má **štipendium**: dostáva peniaze na štúdium. (**peniaze** = money, **štúdium** = studies)",
+    "t": "Emma má **štipendium**: dostáva peniaze na štúdium. (**peniaze** = деньги, **štúdium** = учёба) Обратите внимание: štipendium — среднего рода, как и štúdium."
+  },
+  "a2-u1-l1.studovat-v-zahranici.en": {
+    "en": "to study abroad",
+    "t": "учиться за границей"
+  },
+  "a2-u1-l1.studovat-v-zahranici.note": {
+    "en": "Emma študuje v zahraničí: je **zahraničná študentka** (a foreign student).",
+    "t": "Emma študuje v zahraničí: je **zahraničná študentka** (иностранная студентка)."
+  },
+  "a2-u1-l1.build-emma-studuje-v.prompt": {
+    "en": "Emma is studying abroad and has a scholarship.",
+    "t": "Эмма учится за границей и получает стипендию."
+  },
+  "a2-u1-l1.build-emma-studuje-v.traps": {
+    "en": [
+      "Abroad answers “where?” here, so after v it takes the locative, and -ie becomes **-í**: v **zahraničí**, like na oddelení.",
+      "Emma is ona, so the verb has no ending: **študuje**. Študujem is for ja."
+    ],
+    "t": [
+      "«За границей» здесь отвечает на вопрос «где?», поэтому после v — предложный падеж, и -ie меняется на **-í**: v **zahraničí**, как na oddelení.",
+      "Эмма — ona, поэтому у глагола нет окончания: **študuje**. Študujem — для ja."
+    ]
+  },
+  "a2-u1-l1.spoluziak.en": {
+    "en": "classmate",
+    "t": "одноклассник, однокурсник"
+  },
+  "a2-u1-l1.spoluziak.note": {
+    "en": "Emma has a new classmate this year: Kristína, a first-year economics student in one of her seminars.",
+    "t": "Spolužiak — тот, с кем вы вместе учитесь. В этом году у Эммы новая spolužiačka — Кристина: она на первом курсе, учится на экономиста и ходит с Эммой на один семинар."
+  },
+  "a2-u1-l1.fill-kristina-je-moja.en": {
+    "en": "Kristína is my new classmate.",
+    "t": "Кристина — моя новая однокурсница."
+  },
+  "a2-u1-l1.fill-kristina-je-moja.why": {
+    "en": "Kristína is a woman, so the feminine word: **spolužiačka**. After je it keeps its basic form, like moja nová.",
+    "t": "Кристина — женщина, поэтому нужно слово женского рода: **spolužiačka**. После je оно стоит в начальной форме, как и moja nová."
+  },
+  "a2-u1-l1.match-semester.pairs": {
+    "en": [
+      "semester",
+      "subject",
+      "scholarship",
+      "classmate",
+      "exam"
+    ],
+    "t": [
+      "семестр",
+      "предмет",
+      "стипендия",
+      "однокурсник",
+      "экзамен"
+    ]
+  },
+  "a2-u1-l1.build-toto-je-moj.prompt": {
+    "en": "This is my second year in Bratislava.",
+    "t": "Это мой второй год в Братиславе."
+  },
+  "a2-u1-l1.build-toto-je-moj.traps": {
+    "en": [
+      "Rok (year) is masculine, so “second” ends in **-ý**: môj **druhý** rok. Druhá goes with a feminine word.",
+      "In Bratislava answers “where?”, so after v it takes the locative: v **Bratislave**."
+    ],
+    "t": [
+      "Rok (год) — мужского рода, поэтому «второй» оканчивается на **-ý**: môj **druhý** rok. Druhá — для женского рода.",
+      "«В Братиславе» отвечает на вопрос «где?», поэтому после v — предложный падеж: v **Bratislave**, как и по-русски."
+    ]
+  },
+  "a2-u1-l1.speak-v-januari-mam.en": {
+    "en": "I have exams in January.",
+    "t": "В январе у меня экзамены."
+  },
+  "a2-u1-skusky.titleEn": {
+    "en": "Exams and credits",
+    "t": "Экзамены и кредиты"
+  },
+  "a2-u1-skusky.kredit.en": {
+    "en": "credit (at university)",
+    "t": "кредит (в университете)"
+  },
+  "a2-u1-skusky.kredit.note": {
+    "en": "Za každý predmet dostaneš **kredity**. Za semester potrebuješ tridsať **kreditov** (from five up: -ov, like rokov).",
+    "t": "Za každý predmet dostaneš **kredity**. Za semester potrebuješ tridsať **kreditov** (от пяти — окончание -ov, как rokov; у нас тоже «тридцать кредитов»)."
+  },
+  "a2-u1-skusky.fill-tento-semester-potrebujem.en": {
+    "en": "This semester I need thirty credits.",
+    "t": "В этом семестре мне нужно тридцать кредитов."
+  },
+  "a2-u1-skusky.fill-tento-semester-potrebujem.why": {
+    "en": "From five up, the noun takes **-ov**, as in tridsať rokov: tridsať **kreditov**. Kredity goes with dva, tri, štyri.",
+    "t": "От пяти и больше существительное получает **-ov**, как в tridsať rokov: tridsať **kreditov** — как «тридцать кредитов». Kredity — с dva, tri, štyri."
+  },
+  "a2-u1-skusky.urobit-skusku.en": {
+    "en": "to pass an exam",
+    "t": "сдать экзамен"
+  },
+  "a2-u1-skusky.urobit-skusku.note": {
+    "en": "**Urobila som skúšku!** = I passed! Not passing is **neurobiť** skúšku. All the exams: **všetky** skúšky.",
+    "t": "**Urobila som skúšku!** = Я сдала! (дословно «сделала экзамен») Не сдать — **neurobiť** skúšku. Все экзамены: **všetky** skúšky."
+  },
+  "a2-u1-skusky.choice-neurobil-som-skusku.question": {
+    "en": "A classmate talks about his exam. What happened?",
+    "t": "Однокурсник рассказывает о своём экзамене. Что случилось?"
+  },
+  "a2-u1-skusky.choice-neurobil-som-skusku.options": {
+    "en": [
+      "He failed the exam.",
+      "He passed the exam.",
+      "He didn't have an exam."
+    ],
+    "t": [
+      "Он не сдал экзамен.",
+      "Он сдал экзамен.",
+      "У него не было экзамена."
+    ]
+  },
+  "a2-u1-skusky.choice-neurobil-som-skusku.why": {
+    "en": "**Urobiť** skúšku is to pass it, so with ne- in front, **neurobil** som skúšku, he didn't pass.",
+    "t": "**Urobiť** skúšku — сдать экзамен, значит, с ne- впереди **neurobil** som skúšku — не сдал."
+  },
+  "a2-u1-skusky.ako-bolo-na.en": {
+    "en": "How did the exam go?",
+    "t": "Как прошёл экзамен?"
+  },
+  "a2-u1-skusky.ako-bolo-na.note": {
+    "en": "Answers: Dobre, urobila som ju! Zle, neurobila som ju. (a woman speaking)",
+    "t": "Ответы: Dobre, urobila som ju! (Хорошо, сдала!) Zle, neurobila som ju. (Плохо, не сдала.) Так говорит женщина."
+  },
+  "a2-u1-skusky.choice-ako-bolo-na.question": {
+    "en": "Kristína wants to know how Emma's exam went. What does she ask?",
+    "t": "Кристина хочет узнать, как Эмма сдала экзамен. Что она спросит?"
+  },
+  "a2-u1-skusky.build-v-januari-som.prompt": {
+    "en": "Emma: In January I passed all my exams.",
+    "t": "Эмма: В январе я сдала все экзамены."
+  },
+  "a2-u1-skusky.build-v-januari-som.traps": {
+    "en": [
+      "Emma is a woman, so the past form ends in **-la**: **urobila** som.",
+      "All the exams are more than one, so the plural: všetky **skúšky**."
+    ],
+    "t": [
+      "Эмма — женщина, поэтому прошедшее время на **-la**: **urobila** som.",
+      "Экзаменов несколько, поэтому множественное число: všetky **skúšky**."
+    ]
+  },
+  "a2-u1-skusky.rocnik.en": {
+    "en": "year (of a course)",
+    "t": "курс (год обучения)"
+  },
+  "a2-u1-skusky.rocnik.note": {
+    "en": "Emma: Som v **druhom ročníku**. = I'm in my second year. Kristína je v prvom ročníku: je **prváčka** (a first-year student).",
+    "t": "Emma: Som v **druhom ročníku**. = Я на втором курсе. Kristína je v prvom ročníku: je **prváčka** (первокурсница). Обратите внимание: по-словацки не «на», а v."
+  },
+  "a2-u1-skusky.fill-kristina-je-v.en": {
+    "en": "Kristína is in her first year.",
+    "t": "Кристина на первом курсе."
+  },
+  "a2-u1-skusky.fill-kristina-je-v.why": {
+    "en": "Being in a year answers “where?”, so after v comes the locative. After k, masculine words take **-u**: v prvom **ročníku**.",
+    "t": "Быть на курсе — это вопрос «где?», поэтому после v — предложный падеж. После k существительные мужского рода получают **-u**: v prvom **ročníku**."
+  },
+  "a2-u1-skusky.fakulta.en": {
+    "en": "faculty (part of a university)",
+    "t": "факультет"
+  },
+  "a2-u1-skusky.fakulta.note": {
+    "en": "Na ktorej **fakulte** študuješ? História je na **filozofickej fakulte** (the faculty of arts).",
+    "t": "Na ktorej **fakulte** študuješ? = На каком факультете ты учишься? História je na **filozofickej fakulte** (на гуманитарном факультете, дословно «философском»)."
+  },
+  "a2-u1-skusky.build-na-ktorej-fakulte.prompt": {
+    "en": "Which faculty do you study at? (to a friend)",
+    "t": "На каком факультете ты учишься?"
+  },
+  "a2-u1-skusky.build-na-ktorej-fakulte.traps": {
+    "en": [
+      "Studying at a faculty answers “where?”, so after na comes the locative: na **fakulte**.",
+      "You're asking a friend, ty, so the verb ends in **-š**: **študuješ**."
+    ],
+    "t": [
+      "Учиться на факультете — это вопрос «где?», поэтому после na — предложный падеж: na **fakulte**, как «на факультете».",
+      "Вы спрашиваете друга, на ty, поэтому глагол оканчивается на **-š**: **študuješ**."
+    ]
+  },
+  "a2-u1-skusky.build-v-pondelok-mam.prompt": {
+    "en": "On Monday I have a lecture and on Wednesday a seminar.",
+    "t": "В понедельник у меня лекция, а в среду семинар."
+  },
+  "a2-u1-skusky.build-v-pondelok-mam.traps": {
+    "en": [
+      "The lecture is what you have, the object, so prednáška changes -a to **-u**: mám **prednášku**.",
+      "The seminar is the object of mám too. A masculine thing doesn't change: mám **seminár**. Seminári is “at the seminar”."
+    ],
+    "t": [
+      "Лекция — то, что у вас есть, дополнение к mám, поэтому prednáška меняет -a на **-u**: mám **prednášku** (хотя по-русски «у меня лекция»).",
+      "Семинар — тоже дополнение к mám. Неодушевлённое мужского рода не меняется: mám **seminár**. Seminári — это «на семинаре»."
+    ]
+  },
+  "a2-u1-skusky.match-kredit.pairs": {
+    "en": [
+      "credit",
+      "year of study",
+      "faculty",
+      "lecture",
+      "seminar"
+    ],
+    "t": [
+      "кредит",
+      "курс",
+      "факультет",
+      "лекция",
+      "семинар"
+    ]
+  },
+  "a2-u1-skusky.speak-urobila-som-skusku.en": {
+    "en": "I passed the exam! (a woman speaking)",
+    "t": "Я сдала экзамен! (говорит женщина)"
+  },
+  "a2-u1-l2.titleEn": {
+    "en": "Please introduce yourselves",
+    "t": "Пожалуйста, представьтесь"
+  },
+  "a2-u1-l2.kviz.en": {
+    "en": "quiz",
+    "t": "викторина"
+  },
+  "a2-u1-l2.kviz.note": {
+    "en": "Vo štvrtok je na univerzite **kvíz o Slovensku**, a quiz evening for students. Kvíz **moderuje** pani Horváthová (moderovať = to host).",
+    "t": "Vo štvrtok je na univerzite **kvíz o Slovensku** — вечер-викторина для студентов. Kvíz **moderuje** pani Horváthová (moderovať = вести)."
+  },
+  "a2-u1-l2.moderatorka.en": {
+    "en": "host, presenter (a woman)",
+    "t": "ведущая"
+  },
+  "a2-u1-l2.choice-kviz-moderuje-pani.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u1-l2.choice-kviz-moderuje-pani.options": {
+    "en": [
+      "Mrs Horváthová is hosting the quiz.",
+      "Mrs Horváthová is playing in the quiz.",
+      "Mrs Horváthová doesn't like quizzes."
+    ],
+    "t": [
+      "Викторину ведёт госпожа Горватова.",
+      "Госпожа Горватова играет в викторине.",
+      "Госпожа Горватова не любит викторины."
+    ]
+  },
+  "a2-u1-l2.choice-kviz-moderuje-pani.why": {
+    "en": "Slovak can put the object first. Kvíz is what is hosted; pani Horváthová is the one who **moderuje** (hosts).",
+    "t": "Как и в русском, дополнение может стоять первым. Kvíz — то, что ведут, а pani Horváthová — та, кто **moderuje** (ведёт): «Викторину ведёт госпожа Горватова»."
+  },
+  "a2-u1-l2.damy-a-pani.en": {
+    "en": "Ladies and gentlemen!",
+    "t": "Дамы и господа!"
+  },
+  "a2-u1-l2.damy-a-pani.note": {
+    "en": "**dáma** = lady; **páni** is the plural of pán. Then: Vitajte! = Welcome! (to everyone)",
+    "t": "**dáma** = дама; **páni** — множественное число от pán. А затем: Vitajte! = Добро пожаловать! (всем)"
+  },
+  "a2-u1-l2.build-kto-je-ta.answers": {
+    "en": [
+      "Who is that lady? That's our teacher.",
+      "Who's that lady? That's our teacher.",
+      "Who is that lady? She's our teacher."
+    ],
+    "t": [
+      "Кто эта дама? Это наша учительница.",
+      "Кто эта женщина? Это наша учительница.",
+      "Кто эта дама? Она наша учительница."
+    ]
+  },
+  "a2-u1-l2.build-kto-je-ta.distractors": {
+    "en": [
+      "host",
+      "man"
+    ],
+    "t": [
+      "ведущая",
+      "мужчина"
+    ]
+  },
+  "a2-u1-l2.predstavit.en": {
+    "en": "to introduce (someone)",
+    "t": "представить (кого-то)"
+  },
+  "a2-u1-l2.predstavit.note": {
+    "en": "**Chcem vám predstaviť** Daniela. = I'd like to introduce Daniel to you.",
+    "t": "**Chcem vám predstaviť** Daniela. = Хочу представить вам Даниэля."
+  },
+  "a2-u1-l2.fill-chcem-vam-predstavit.en": {
+    "en": "I'd like to introduce Daniel to you.",
+    "t": "Хочу представить вам Даниэля."
+  },
+  "a2-u1-l2.fill-chcem-vam-predstavit.why": {
+    "en": "Daniel is the person you introduce, the object, so a man's name adds **-a**: predstaviť **Daniela**, like Tomáš → Tomáša.",
+    "t": "Даниэль — тот, кого представляют, дополнение, поэтому мужское имя получает **-a**: predstaviť **Daniela**, как Tomáš → Tomáša. У нас так же: «представить Даниэля»."
+  },
+  "a2-u1-l2.predstavit-sa.en": {
+    "en": "to introduce yourself",
+    "t": "представиться"
+  },
+  "a2-u1-l2.predstavit-sa.note": {
+    "en": "**Prosím, predstavte sa.** = Please introduce yourself (vy), or yourselves. To a friend: Môžeš sa predstaviť? Daniel: Som **z Mníchova** (from Munich).",
+    "t": "**Prosím, predstavte sa.** = Пожалуйста, представьтесь (одному человеку на «вы» или нескольким). Другу: Môžeš sa predstaviť? Daniel: Som **z Mníchova** (из Мюнхена)."
+  },
+  "a2-u1-l2.choice-prosim-predstavte-sa.question": {
+    "en": "Mrs Horváthová asks the students to introduce themselves. What does she say?",
+    "t": "Госпожа Горватова просит студентов представиться. Что она говорит?"
+  },
+  "a2-u1-l2.choice-prosim-predstavte-sa.why": {
+    "en": "She's speaking to several students, so it's the vy form, predstav**te**, as in Vitajte. Introducing yourself also needs **sa**.",
+    "t": "Она обращается к нескольким студентам, поэтому форма на vy: predstav**te**, как в Vitajte. А «представиться» — с **sa**, как с -ся."
+  },
+  "a2-u1-l2.choice-volam-sa-daniel.question": {
+    "en": "Daniel introduces himself. Where is he from?",
+    "t": "Даниэль представляется. Откуда он?"
+  },
+  "a2-u1-l2.choice-volam-sa-daniel.options": {
+    "en": [
+      "Vienna",
+      "Munich",
+      "Nitra"
+    ],
+    "t": [
+      "из Вены",
+      "из Мюнхена",
+      "из Нитры"
+    ]
+  },
+  "a2-u1-l2.choice-tesi-ma-daniel.question": {
+    "en": "Emma meets Daniel. What does she say?",
+    "t": "Эмма знакомится с Даниэлем. Что она скажет?"
+  },
+  "a2-u1-l2.choice-tesi-ma-daniel.why": {
+    "en": "Nice to meet you is **Teší ma**, literally “it pleases me”: ma is me. Teší sa means he's looking forward to something.",
+    "t": "«Приятно познакомиться» — **Teší ma**, дословно «меня радует»: ma — это «меня». Teší sa значит, что он чего-то ждёт с нетерпением."
+  },
+  "a2-u1-l2.tim.en": {
+    "en": "team",
+    "t": "команда"
+  },
+  "a2-u1-l2.tim.note": {
+    "en": "Náš tím sa volá **Hviezdy** (hviezda = star). Emma, Lucia, Daniel a Kristína sú v jednom tíme.",
+    "t": "Náš tím sa volá **Hviezdy** (hviezda = звезда). Emma, Lucia, Daniel a Kristína sú v jednom tíme. Tím — мужского рода, хотя «команда» у нас женского."
+  },
+  "a2-u1-l2.build-daniel-a-kristina.prompt": {
+    "en": "Daniel and Kristína are in our team.",
+    "t": "Даниэль и Кристина в нашей команде."
+  },
+  "a2-u1-l2.build-daniel-a-kristina.traps": {
+    "en": [
+      "In our team answers “where?”, so after v náš takes the locative: v **našom** tíme, like v mojom byte.",
+      "In the team answers “where?”: after v, a masculine noun adds **-e**: v **tíme**."
+    ],
+    "t": [
+      "«В нашей команде» отвечает на вопрос «где?», поэтому после v náš стоит в предложном падеже: v **našom** tíme, как v mojom byte.",
+      "«В команде» отвечает на вопрос «где?»: после v существительное мужского рода получает **-e**: v **tíme**."
+    ]
+  },
+  "a2-u1-l2.build-som-kristina-som.answers": {
+    "en": [
+      "I'm Kristína, I'm from Trenčín and I study economics.",
+      "I'm Kristína, I'm from Trenčín and I'm studying economics.",
+      "I am Kristína, I am from Trenčín and I study economics."
+    ],
+    "t": [
+      "Я Кристина, я из Тренчина и изучаю экономику.",
+      "Я Кристина, я из Тренчина, и я изучаю экономику.",
+      "Я Кристина, из Тренчина, изучаю экономику.",
+      "Я Кристина, я из Тренчина и учусь на экономиста."
+    ]
+  },
+  "a2-u1-l2.build-som-kristina-som.distractors": {
+    "en": [
+      "history",
+      "teach"
+    ],
+    "t": [
+      "историю",
+      "преподаю"
+    ]
+  },
+  "a2-u1-l2.sutaz.en": {
+    "en": "competition, contest",
+    "t": "соревнование, конкурс"
+  },
+  "a2-u1-l2.sutaz.note": {
+    "en": "Kvíz je súťaž: tímy **súťažia** (compete). The players are the **súťažiaci**.",
+    "t": "Kvíz je súťaž: tímy **súťažia** (соревнуются). Участники — **súťažiaci**."
+  },
+  "a2-u1-l2.fill-damy-a-pani.en": {
+    "en": "Ladies and gentlemen, welcome to our competition!",
+    "t": "Дамы и господа, добро пожаловать на наш конкурс!"
+  },
+  "a2-u1-l2.fill-damy-a-pani.why": {
+    "en": "Being at the competition answers “where?”, so na takes the locative. Súťaž ends in a soft ž, so it takes **-i**: na **súťaži**.",
+    "t": "Быть на конкурсе — это вопрос «где?», поэтому na требует предложного падежа. Súťaž оканчивается на ž, а в словацком он мягкий, поэтому получает **-i**: na **súťaži**."
+  },
+  "a2-u1-l2.match-kviz.pairs": {
+    "en": [
+      "quiz",
+      "team",
+      "competition",
+      "host",
+      "star"
+    ],
+    "t": [
+      "викторина",
+      "команда",
+      "конкурс",
+      "ведущая",
+      "звезда"
+    ]
+  },
+  "a2-u1-l2.speak-prosim-predstavte-sa.en": {
+    "en": "Please introduce yourselves.",
+    "t": "Пожалуйста, представьтесь."
+  },
+  "a2-u1-l3.titleEn": {
+    "en": "Who's who?",
+    "t": "Кто есть кто?"
+  },
+  "a2-u1-l3.cudzi-jazyk.en": {
+    "en": "foreign language",
+    "t": "иностранный язык"
+  },
+  "a2-u1-l3.cudzi-jazyk.note": {
+    "en": "Aké **cudzie jazyky** ovládaš? = What foreign languages do you speak? (**ovládať** = to know well) New ones: po **francúzsky** (French), po **španielsky** (Spanish).",
+    "t": "Aké **cudzie jazyky** ovládaš? = Какими иностранными языками ты владеешь? (**ovládať** = владеть, хорошо знать) Новые: po **francúzsky** (по-французски), po **španielsky** (по-испански). Cudzí — родственник нашего «чужой»."
+  },
+  "a2-u1-l3.choice-hovorim-po-nemecky.question": {
+    "en": "Daniel answers. Which languages does he speak?",
+    "t": "Даниэль отвечает. На каких языках он говорит?"
+  },
+  "a2-u1-l3.choice-hovorim-po-nemecky.options": {
+    "en": [
+      "German and English, but not Slovak",
+      "Slovak, French and English",
+      "German, Slovak and English"
+    ],
+    "t": [
+      "на немецком и английском, но не на словацком",
+      "на словацком, французском и английском",
+      "на немецком, словацком и английском"
+    ]
+  },
+  "a2-u1-l3.dvojjazycny.en": {
+    "en": "bilingual",
+    "t": "двуязычный"
+  },
+  "a2-u1-l3.dvojjazycny.note": {
+    "en": "Daniel je dvojjazyčný: jeho mama je Slovenka a otec je Nemec. Po slovensky hovorí aj s **babkou a dedkom** (grandma and grandpa).",
+    "t": "Daniel je dvojjazyčný: jeho mama je Slovenka a otec je Nemec (мама у него словачка, а отец немец). Po slovensky hovorí aj s **babkou a dedkom** (с бабушкой и дедушкой)."
+  },
+  "a2-u1-l3.fill-daniel-hovori-po.en": {
+    "en": "Daniel speaks Slovak with his grandma and grandpa.",
+    "t": "Даниэль говорит по-словацки с бабушкой и дедушкой."
+  },
+  "a2-u1-l3.fill-daniel-hovori-po.why": {
+    "en": "After **s** (with) comes the instrumental, and feminine -a becomes **-ou**: s **babkou**, like s Luciou.",
+    "t": "После **s** (с) — творительный падеж, и женское -a меняется на **-ou**: s **babkou**, как s Luciou. Ср. «с бабушкой»."
+  },
+  "a2-u1-l3.build-jeho-babka-a.prompt": {
+    "en": "His grandma and grandpa live in Nitra.",
+    "t": "Его бабушка и дедушка живут в Нитре."
+  },
+  "a2-u1-l3.build-jeho-babka-a.traps": {
+    "en": [
+      "They're Daniel's grandparents, a man's, so **jeho** (his). Jej means her.",
+      "Babka a dedko are two people (oni), so the verb is **bývajú**. Býva is for one person."
+    ],
+    "t": [
+      "Это бабушка и дедушка Даниэля, мужчины, поэтому **jeho** (его). Jej значит «её».",
+      "Babka a dedko — двое (oni), поэтому глагол **bývajú**. Býva — для одного человека."
+    ]
+  },
+  "a2-u1-l3.poznat.en": {
+    "en": "to know (a person or a place)",
+    "t": "знать (человека или место)"
+  },
+  "a2-u1-l3.poznat.note": {
+    "en": "Poznáš Daniela? = Do you know Daniel? Áno, poznám ho. For facts, use vedieť: Viem, odkiaľ je.",
+    "t": "Poznáš Daniela? = Ты знаешь Даниэля? Áno, poznám ho. (Да, знаю.) О фактах говорят с vedieť: Viem, odkiaľ je. (Я знаю, откуда он.) У нас и то и другое — «знать»."
+  },
+  "a2-u1-l3.build-poznas-daniela.prompt": {
+    "en": "Do you know Daniel? (to a friend)",
+    "t": "Ты знаешь Даниэля?"
+  },
+  "a2-u1-l3.build-poznas-daniela.traps": {
+    "en": [
+      "Daniel is the object, the person you know, so a man's name adds **-a**: poznáš **Daniela**.",
+      "You know a person with **poznať**: Poznáš Daniela? Vedieť is for facts: Vieš, odkiaľ je?"
+    ],
+    "t": [
+      "Даниэль — дополнение, тот, кого знают, поэтому мужское имя получает **-a**: poznáš **Daniela**, как «знаешь Даниэля».",
+      "Человека знают с **poznať**: Poznáš Daniela? Vedieť — о фактах: Vieš, odkiaľ je?"
+    ]
+  },
+  "a2-u1-l3.ako-sa-vola.en": {
+    "en": "What's his (her) name? Where's he (she) from? What does he (she) do?",
+    "t": "Как его (её) зовут? Откуда он (она)? Чем он (она) занимается?"
+  },
+  "a2-u1-l3.ako-sa-vola.note": {
+    "en": "Questions about someone else. And **Aký je? Aká je?** = What's he (she) like?",
+    "t": "Это вопросы о ком-то другом. И ещё **Aký je? Aká je?** = Какой он? Какая она?"
+  },
+  "a2-u1-l3.choice-odkial-je-kristina.question": {
+    "en": "Emma asks Lucia where Kristína is from. What does she say?",
+    "t": "Эмма спрашивает Луцию, откуда Кристина. Что она скажет?"
+  },
+  "a2-u1-l3.choice-odkial-je-kristina.why": {
+    "en": "**Odkiaľ** asks where from, and **je** is for someone else. Kde je asks where she is now; Odkiaľ si asks Kristína herself.",
+    "t": "**Odkiaľ** — «откуда», а **je** — о ком-то другом. Kde je спрашивает, где она сейчас; Odkiaľ si — вопрос самой Кристине."
+  },
+  "a2-u1-l3.fill-kristina-nehovori-po.en": {
+    "en": "Kristína doesn't speak German, but she speaks a little Spanish.",
+    "t": "Кристина не говорит по-немецки, но немного говорит по-испански."
+  },
+  "a2-u1-l3.fill-kristina-nehovori-po.why": {
+    "en": "Kristína is ona, so the verb has no ending: **hovorí**. Hovoria is for oni, hovorím for ja.",
+    "t": "Кристина — ona, поэтому у глагола нет окончания: **hovorí**. Hovoria — для oni, hovorím — для ja."
+  },
+  "a2-u1-l3.slobodny.en": {
+    "en": "single, unmarried (a man)",
+    "t": "холостой, неженатый"
+  },
+  "a2-u1-l3.slobodny.note": {
+    "en": "On forms and in life stories: **ženatý / vydatá** (married) or **slobodný / slobodná** (single).",
+    "t": "В анкетах и биографиях: **ženatý / vydatá** (женат / замужем) или **slobodný / slobodná** (холост / не замужем)."
+  },
+  "a2-u1-l3.fill-daniel-nie-je.en": {
+    "en": "Daniel isn't married, he's single.",
+    "t": "Даниэль не женат, он холост."
+  },
+  "a2-u1-l3.fill-daniel-nie-je.why": {
+    "en": "Daniel is a man, so the adjective ends in **-ý**: slobodn**ý**. Slobodná is for a woman.",
+    "t": "Даниэль — мужчина, поэтому прилагательное на **-ý**: slobodn**ý**. Slobodná — для женщины."
+  },
+  "a2-u1-l3.build-nie-daniel-nestuduje.prompt": {
+    "en": "No, Daniel doesn't study economics, he studies history.",
+    "t": "Нет, Даниэль не изучает экономику, он изучает историю."
+  },
+  "a2-u1-l3.build-nie-daniel-nestuduje.traps": {
+    "en": [
+      "“Doesn't” is ne- in front of the verb, written as one word: **neštuduje**.",
+      "History is what he studies, the object, so história changes -a to **-u**: **históriu**."
+    ],
+    "t": [
+      "«Не» — это ne-, и, в отличие от русского, оно пишется слитно с глаголом: **neštuduje**.",
+      "История — то, что он изучает, дополнение, поэтому história меняет -a на **-u**: **históriu**, как «историю»."
+    ]
+  },
+  "a2-u1-l3.match-po-nemecky.pairs": {
+    "en": [
+      "German",
+      "French",
+      "Spanish",
+      "English",
+      "Slovak"
+    ],
+    "t": [
+      "по-немецки",
+      "по-французски",
+      "по-испански",
+      "по-английски",
+      "по-словацки"
+    ]
+  },
+  "a2-u1-l3.build-emma-hovori-po.prompt": {
+    "en": "Emma speaks English, Slovak and a little French.",
+    "t": "Эмма говорит по-английски, по-словацки и немного по-французски."
+  },
+  "a2-u1-l3.build-emma-hovori-po.traps": {
+    "en": [
+      "Emma is ona, so the verb is **hovorí**. Hovoria is for oni.",
+      "A little is **trochu**; veľa means a lot."
+    ],
+    "t": [
+      "Эмма — ona, поэтому глагол **hovorí**. Hovoria — для oni.",
+      "«Немного» — **trochu**; veľa значит «много»."
+    ]
+  },
+  "a2-u1-l3.choice-daniel-to-je.question": {
+    "en": "Emma introduces Lucia to Daniel. What does she say?",
+    "t": "Эмма знакомит Даниэля с Луцией. Что она говорит?"
+  },
+  "a2-u1-l3.choice-daniel-to-je.why": {
+    "en": "Emma is talking about Lucia, a woman: **moja kamarátka**, and **je** zo Žiliny. Som is only for yourself.",
+    "t": "Эмма говорит о Луции, о женщине: **moja kamarátka**, и **je** zo Žiliny (она из Жилины). Som — только о себе."
+  },
+  "a2-u1-l3.speak-ake-cudzie-jazyky.en": {
+    "en": "What foreign languages do you speak?",
+    "t": "Какими иностранными языками ты владеешь?"
+  },
+  "a2-u1-l4.titleEn": {
+    "en": "The first round",
+    "t": "Первый раунд"
+  },
+  "a2-u1-l4.otazka-a-odpoved.en": {
+    "en": "question and answer",
+    "t": "вопрос и ответ"
+  },
+  "a2-u1-l4.otazka-a-odpoved.note": {
+    "en": "Prvá **otázka**: Ktorá rieka tečie cez Bratislavu? (**tiecť** = to flow; Slovak rivers: Dunaj, the Danube, Váh, Hron…) Aká je **odpoveď**?",
+    "t": "Prvá **otázka**: Ktorá rieka tečie cez Bratislavu? (Какая река течёт через Братиславу? **tiecť** = течь; словацкие реки: Dunaj — Дунай, Váh — Ваг, Hron — Грон…) Aká je **odpoveď**?"
+  },
+  "a2-u1-l4.choice-ktora-rieka-tecie.question": {
+    "en": "Mrs Horváthová reads the first question. What's the answer?",
+    "t": "Госпожа Горватова читает первый вопрос. Какой ответ?"
+  },
+  "a2-u1-l4.spravny.en": {
+    "en": "right, correct",
+    "t": "правильный"
+  },
+  "a2-u1-l4.spravny.note": {
+    "en": "**Správna odpoveď!** = The right answer! **Správne!** = Correct!",
+    "t": "**Správna odpoveď!** = Правильный ответ! **Správne!** = Правильно!"
+  },
+  "a2-u1-l4.fill-myslim-si-ze.en": {
+    "en": "I think the right answer is the Danube.",
+    "t": "Я думаю, что правильный ответ — Дунай."
+  },
+  "a2-u1-l4.fill-myslim-si-ze.why": {
+    "en": "The answer is **odpoveď**; otázka is the question. Bod is a point, and it's masculine, so it wouldn't fit správna.",
+    "t": "Ответ — это **odpoveď**; otázka — вопрос. Bod (очко) — мужского рода, так что к správna не подходит."
+  },
+  "a2-u1-l4.fill-vyborne-to-je.en": {
+    "en": "Well done! That's the right answer!",
+    "t": "Отлично! Это правильный ответ!"
+  },
+  "a2-u1-l4.fill-vyborne-to-je.why": {
+    "en": "Odpoveď is feminine, so its adjective ends in **-a**: správn**a**. Správny is masculine, správne neuter.",
+    "t": "Odpoveď — женского рода (хотя «ответ» у нас мужского), поэтому прилагательное на **-a**: správn**a**. Správny — мужской род, správne — средний."
+  },
+  "a2-u1-l4.bod.en": {
+    "en": "point",
+    "t": "очко, балл"
+  },
+  "a2-u1-l4.bod.note": {
+    "en": "jeden bod, dva body, päť **bodov** (from five up: -ov, like päť rokov). **kolo** = round: prvé kolo, v druhom kole.",
+    "t": "jeden bod, dva body, päť **bodov** (от пяти — -ov, как päť rokov; ср. «пять очков»). **kolo** = раунд: prvé kolo, v druhom kole."
+  },
+  "a2-u1-l4.choice-mame-pat-bodov.question": {
+    "en": "Your team has five points. How do you say it?",
+    "t": "У вашей команды пять очков. Как это сказать?"
+  },
+  "a2-u1-l4.choice-mame-pat-bodov.why": {
+    "en": "From five up, the noun takes **-ov**, as in päť rokov: päť **bodov**. Body goes with dva, tri, štyri.",
+    "t": "От пяти и больше существительное получает **-ov**, как в päť rokov: päť **bodov** — как «пять очков». Body — с dva, tri, štyri."
+  },
+  "a2-u1-l4.pozor.en": {
+    "en": "Attention! Careful!",
+    "t": "Внимание! Осторожно!"
+  },
+  "a2-u1-l4.pozor.note": {
+    "en": "Pozor, otázka číslo dva! **Musíme sa koncentrovať.** = We have to concentrate. (koncentrovať sa = to concentrate)",
+    "t": "Pozor, otázka číslo dva! (Внимание, вопрос номер два!) **Musíme sa koncentrovať.** = Нам нужно сосредоточиться. (koncentrovať sa = сосредоточиться, концентрироваться)"
+  },
+  "a2-u1-l4.choice-ma-slovensko-more.question": {
+    "en": "Second question. What's the right answer?",
+    "t": "Второй вопрос. Какой ответ правильный?"
+  },
+  "a2-u1-l4.build-musime-sa-koncentrovat.prompt": {
+    "en": "We have to concentrate.",
+    "t": "Нам нужно сосредоточиться."
+  },
+  "a2-u1-l4.build-musime-sa-koncentrovat.traps": {
+    "en": [
+      "“We” is my, so musieť is **musíme**. Musím is for ja.",
+      "Koncentrovať sa comes with **sa**, and sa takes second place: Musíme **sa** koncentrovať."
+    ],
+    "t": [
+      "«Мы» — это my, поэтому musieť — **musíme**. Musím — для ja.",
+      "Koncentrovať sa — с **sa** (как «концентрироваться» с -ся), а sa стоит вторым: Musíme **sa** koncentrovať."
+    ]
+  },
+  "a2-u1-l4.je-mi-to-luto.en": {
+    "en": "I'm sorry. (about bad news)",
+    "t": "Мне очень жаль."
+  },
+  "a2-u1-l4.je-mi-to-luto.note": {
+    "en": "For bad news or a wrong answer: Je mi to ľúto, to nie je správna odpoveď. Bumping into someone? Say Prepáčte!",
+    "t": "Так говорят о плохой новости или неверном ответе: Je mi to ľúto, to nie je správna odpoveď. Толкнули кого-то? Тогда Prepáčte!"
+  },
+  "a2-u1-l4.choice-je-mi-to.question": {
+    "en": "A team gives the wrong answer. What does Mrs Horváthová say?",
+    "t": "Команда даёт неверный ответ. Что скажет госпожа Горватова?"
+  },
+  "a2-u1-l4.choice-je-mi-to.why": {
+    "en": "The answer is wrong, so it's bad news: **Je mi to ľúto**, to **nie je** správne. The others say it's right.",
+    "t": "Ответ неверный, значит, новость плохая: **Je mi to ľúto**, to **nie je** správne. В других вариантах говорится, что ответ верный."
+  },
+  "a2-u1-l4.choice-v-ktorom-roku.question": {
+    "en": "Third question: when did Slovakia become an independent country?",
+    "t": "Третий вопрос: когда Словакия стала независимым государством?"
+  },
+  "a2-u1-l4.fill-po-prvom-kole.en": {
+    "en": "After the first round we have ten points.",
+    "t": "После первого раунда у нас десять очков."
+  },
+  "a2-u1-l4.fill-po-prvom-kole.why": {
+    "en": "From five up, the noun takes **-ov**: desať **bodov**, like desať rokov.",
+    "t": "От пяти и больше существительное получает **-ov**: desať **bodov**, как desať rokov."
+  },
+  "a2-u1-l4.build-pozor-druhe-kolo.answers": {
+    "en": [
+      "Attention, the second round is starting!",
+      "Careful, the second round is starting!",
+      "Attention, the second round starts!",
+      "Attention, the second round is beginning!"
+    ],
+    "t": [
+      "Внимание, начинается второй раунд!",
+      "Внимание, второй раунд начинается!",
+      "Внимание, начинается второй тур!",
+      "Внимание, второй тур начинается!"
+    ]
+  },
+  "a2-u1-l4.build-pozor-druhe-kolo.distractors": {
+    "en": [
+      "first",
+      "ends"
+    ],
+    "t": [
+      "первый",
+      "заканчивается"
+    ]
+  },
+  "a2-u1-l4.match-otazka.pairs": {
+    "en": [
+      "question",
+      "answer",
+      "point",
+      "round",
+      "right, correct"
+    ],
+    "t": [
+      "вопрос",
+      "ответ",
+      "очко",
+      "раунд",
+      "правильный"
+    ]
+  },
+  "a2-u1-l4.speak-myslim-si-ze.en": {
+    "en": "I think it's the Danube.",
+    "t": "Я думаю, это Дунай."
+  },
+  "a2-u1-l5.titleEn": {
+    "en": "My story",
+    "t": "Моя история"
+  },
+  "a2-u1-l5.rozhovor.en": {
+    "en": "interview, conversation",
+    "t": "интервью, разговор"
+  },
+  "a2-u1-l5.rozhovor.note": {
+    "en": "In the break, Martina from the student radio (**študentské rádio**) does short **rozhovory** with the players.",
+    "t": "В перерыве Мартина со студенческого радио (**študentské rádio**) берёт у игроков короткие **rozhovory** (интервью)."
+  },
+  "a2-u1-l5.vyrastat.en": {
+    "en": "to grow up",
+    "t": "расти, вырасти"
+  },
+  "a2-u1-l5.vyrastat.note": {
+    "en": "Daniel: Narodil som sa v Mníchove a tam som aj **vyrastal**. = I was born in Munich and grew up there too.",
+    "t": "Daniel: Narodil som sa v Mníchove a tam som aj **vyrastal**. = Я родился в Мюнхене и там же вырос."
+  },
+  "a2-u1-l5.fill-kristina-sa-narodila.en": {
+    "en": "Kristína was born and grew up in Trenčín.",
+    "t": "Кристина родилась и выросла в Тренчине."
+  },
+  "a2-u1-l5.fill-kristina-sa-narodila.why": {
+    "en": "Kristína is a woman, so the past tense ends in **-la**: vyrasta**la**, like narodila.",
+    "t": "Кристина — женщина, поэтому прошедшее время на **-la**: vyrasta**la**, как narodila (у нас тоже: родилась, выросла)."
+  },
+  "a2-u1-l5.build-kedy-si-sa.prompt": {
+    "en": "When were you born? (Martina asks Daniel)",
+    "t": "Когда ты родился? (Мартина спрашивает Даниэля)"
+  },
+  "a2-u1-l5.build-kedy-si-sa.traps": {
+    "en": [
+      "Daniel is a man, so the past form has no -a: **narodil**. Narodila is for a woman.",
+      "Martina is asking Daniel, ty, so the little word is **si**: Kedy **si** sa narodil? Som is for ja."
+    ],
+    "t": [
+      "Даниэль — мужчина, поэтому в прошедшем времени нет -a: **narodil**. Narodila — для женщины.",
+      "Мартина спрашивает Даниэля на ty, поэтому короткое слово — **si**: Kedy **si** sa narodil? Som — для ja."
+    ]
+  },
+  "a2-u1-l5.choice-narodil-som-sa.question": {
+    "en": "Daniel answers. When was he born?",
+    "t": "Даниэль отвечает. Когда он родился?"
+  },
+  "a2-u1-l5.choice-narodil-som-sa.options": {
+    "en": [
+      "on 2 June 2007",
+      "on 12 July 2007",
+      "on 12 June 2007"
+    ],
+    "t": [
+      "2 июня 2007 года",
+      "12 июля 2007 года",
+      "12 июня 2007 года"
+    ]
+  },
+  "a2-u1-l5.vystudovat.en": {
+    "en": "to graduate, to finish a degree",
+    "t": "окончить учёбу, получить диплом"
+  },
+  "a2-u1-l5.vystudovat.note": {
+    "en": "Pani Horváthová **vyštudovala** slovenčinu a angličtinu (English). Študovať = to study; vyštudovať = to finish your studies.",
+    "t": "Pani Horváthová **vyštudovala** slovenčinu a angličtinu (английский). Študovať = учиться; vyštudovať = закончить учёбу, как «выучиться»."
+  },
+  "a2-u1-l5.build-pani-horvathova-vystudovala.answers": {
+    "en": [
+      "Mrs Horváthová graduated in Slovak in Bratislava.",
+      "Mrs Horváthová studied Slovak in Bratislava.",
+      "Mrs Horváthová took her degree in Slovak in Bratislava."
+    ],
+    "t": [
+      "Госпожа Горватова получила диплом по словацкому языку в Братиславе.",
+      "Госпожа Горватова окончила словацкую филологию в Братиславе.",
+      "Госпожа Горватова изучала словацкий язык в Братиславе.",
+      "Госпожа Горватова изучала словацкий в Братиславе."
+    ]
+  },
+  "a2-u1-l5.build-pani-horvathova-vystudovala.distractors": {
+    "en": [
+      "teaches",
+      "Košice"
+    ],
+    "t": [
+      "преподаёт",
+      "Кошице"
+    ]
+  },
+  "a2-u1-l5.brigada.en": {
+    "en": "student job, summer job",
+    "t": "подработка (студенческая, летняя)"
+  },
+  "a2-u1-l5.brigada.note": {
+    "en": "Slovak students often have a **brigáda**. Emma: Cez leto som mala brigádu v kaviarni.",
+    "t": "Словацкие студенты часто подрабатывают: у них **brigáda** (не «бригада»!). Emma: Cez leto som mala brigádu v kaviarni. (Летом я подрабатывала в кафе.)"
+  },
+  "a2-u1-l5.choice-po-strednej-skole.question": {
+    "en": "Kristína talks about the year after secondary school (stredná škola). What did she do?",
+    "t": "Кристина рассказывает о годе после средней школы (stredná škola). Чем она занималась?"
+  },
+  "a2-u1-l5.choice-po-strednej-skole.options": {
+    "en": [
+      "She worked as a waitress for a year.",
+      "She studied for a year.",
+      "She lived abroad for a year."
+    ],
+    "t": [
+      "Год работала официанткой.",
+      "Год училась.",
+      "Год жила за границей."
+    ]
+  },
+  "a2-u1-l5.build-studovala-som-ekonomiu.prompt": {
+    "en": "Emma: I studied economics in Dublin.",
+    "t": "Эмма: Я изучала экономику в Дублине."
+  },
+  "a2-u1-l5.build-studovala-som-ekonomiu.traps": {
+    "en": [
+      "Emma is a woman, so the past tense ends in **-la**: **študovala** som.",
+      "In Dublin answers “where?”, so after v it takes the locative: v **Dubline**."
+    ],
+    "t": [
+      "Эмма — женщина, поэтому прошедшее время на **-la**: **študovala** som.",
+      "«В Дублине» отвечает на вопрос «где?», поэтому после v — предложный падеж: v **Dubline**, как «в Дублине»."
+    ]
+  },
+  "a2-u1-l5.fill-tomas-teraz-pracuje.en": {
+    "en": "Tomáš now works as a programmer for a company in Bratislava.",
+    "t": "Сейчас Томаш работает программистом в фирме в Братиславе."
+  },
+  "a2-u1-l5.fill-tomas-teraz-pracuje.why": {
+    "en": "Teraz (now) needs the present, and Tomáš is on: **pracuje**. Pracoval is the past, pracujú is for oni.",
+    "t": "Teraz (сейчас) требует настоящего времени, а Томаш — on: **pracuje**. Pracoval — прошедшее время, pracujú — для oni."
+  },
+  "a2-u1-l5.prestahovat-sa.en": {
+    "en": "to move (house)",
+    "t": "переехать"
+  },
+  "a2-u1-l5.prestahovat-sa.note": {
+    "en": "Kristína: V septembri som sa **presťahovala** do Bratislavy. = In September I moved to Bratislava.",
+    "t": "Kristína: V septembri som sa **presťahovala** do Bratislavy. = В сентябре я переехала в Братиславу."
+  },
+  "a2-u1-l5.fill-v-septembri-som.en": {
+    "en": "In September I moved to Bratislava. (Kristína)",
+    "t": "В сентябре я переехала в Братиславу. (Кристина)"
+  },
+  "a2-u1-l5.fill-v-septembri-som.why": {
+    "en": "It's the past with som, and Kristína is a woman: som sa **presťahovala**. Presťahovať is the infinitive.",
+    "t": "Это прошедшее время с som, а Кристина — женщина: som sa **presťahovala**. Presťahovať — инфинитив."
+  },
+  "a2-u1-l5.dakujem-za-rozhovor.en": {
+    "en": "Thanks for the interview.",
+    "t": "Спасибо за интервью."
+  },
+  "a2-u1-l5.dakujem-za-rozhovor.note": {
+    "en": "Also after a nice chat. You know Ďakujem za darček and Ďakujem za pozvanie.",
+    "t": "Так говорят и после приятного разговора. Вы уже знаете Ďakujem za darček и Ďakujem za pozvanie."
+  },
+  "a2-u1-l5.build-studujem-ekonomiu-a.prompt": {
+    "en": "I study economics and I have a part-time job in a café.",
+    "t": "Я изучаю экономику и подрабатываю в кафе."
+  },
+  "a2-u1-l5.build-studujem-ekonomiu-a.traps": {
+    "en": [
+      "“I” is ja, so the verb ends in **-m**: **študujem**.",
+      "In a café answers “where?”: kaviareň ends in a soft ň, so after v it takes **-i**: v **kaviarni**."
+    ],
+    "t": [
+      "«Я» — это ja, поэтому глагол оканчивается на **-m**: **študujem**.",
+      "«В кафе» отвечает на вопрос «где?»: kaviareň оканчивается на мягкий ň, поэтому после v получает **-i**: v **kaviarni**."
+    ]
+  },
+  "a2-u1-l5.choice-dakujem-za-rozhovor.question": {
+    "en": "Martina has finished her interview with Kristína. What does she say?",
+    "t": "Мартина закончила интервью с Кристиной. Что она скажет?"
+  },
+  "a2-u1-l5.match-rozhovor.pairs": {
+    "en": [
+      "interview",
+      "student job",
+      "to grow up",
+      "to graduate",
+      "to move house"
+    ],
+    "t": [
+      "интервью",
+      "подработка",
+      "вырасти",
+      "окончить учёбу",
+      "переехать"
+    ]
+  },
+  "a2-u1-l5.speak-cez-leto-som.en": {
+    "en": "I had a summer job. (a woman speaking)",
+    "t": "Летом я подрабатывала. (говорит женщина)"
+  },
+  "a2-u1-l6.titleEn": {
+    "en": "What are they like?",
+    "t": "Какой он? Какая она?"
+  },
+  "a2-u1-l6.vtipny-a-priatelsky.en": {
+    "en": "funny and friendly",
+    "t": "остроумный и дружелюбный"
+  },
+  "a2-u1-l6.vtipny-a-priatelsky.note": {
+    "en": "Daniel je vtipný: rád rozpráva **vtipy** (jokes; one is a **vtip**; rozprávať = to tell, to talk).",
+    "t": "Daniel je vtipný: rád rozpráva **vtipy** (анекдоты; один анекдот — **vtip**; rozprávať = рассказывать, разговаривать)."
+  },
+  "a2-u1-l6.hanblivy-a-tichy.en": {
+    "en": "shy and quiet",
+    "t": "стеснительный и тихий"
+  },
+  "a2-u1-l6.fill-kristina-je-trochu.en": {
+    "en": "Kristína is a bit shy and quiet, but very clever.",
+    "t": "Кристина немного стеснительная и тихая, но очень умная."
+  },
+  "a2-u1-l6.fill-kristina-je-trochu.why": {
+    "en": "Kristína is a woman, so the adjective ends in **-á**: hanblivá, like tichá.",
+    "t": "Кристина — женщина, поэтому прилагательное на **-á**: hanblivá, как tichá."
+  },
+  "a2-u1-l6.choice-daniel-rad-rozprava.question": {
+    "en": "What is Daniel like?",
+    "t": "Какой Даниэль?"
+  },
+  "a2-u1-l6.choice-daniel-rad-rozprava.options": {
+    "en": [
+      "He's shy.",
+      "He's funny.",
+      "He's lazy."
+    ],
+    "t": [
+      "Он стеснительный.",
+      "Он остроумный.",
+      "Он ленивый."
+    ]
+  },
+  "a2-u1-l6.choice-daniel-rad-rozprava.why": {
+    "en": "Someone who likes telling jokes (**vtipy**) is **vtipný**: funny.",
+    "t": "Тот, кто любит рассказывать анекдоты (**vtipy**), — **vtipný**: остроумный, смешной."
+  },
+  "a2-u1-l6.pracovity-a-lenivy.en": {
+    "en": "hard-working and lazy",
+    "t": "трудолюбивый и ленивый"
+  },
+  "a2-u1-l6.build-lucia-je-pracovita.prompt": {
+    "en": "Lucia is hard-working, but Daniel is a bit lazy.",
+    "t": "Луция трудолюбивая, а Даниэль немного ленивый."
+  },
+  "a2-u1-l6.build-lucia-je-pracovita.traps": {
+    "en": [
+      "Lucia is a woman, so the adjective ends in **-á**: pracovit**á**.",
+      "Daniel is a man, so the adjective ends in **-ý**: leniv**ý**."
+    ],
+    "t": [
+      "Луция — женщина, поэтому прилагательное на **-á**: pracovit**á**.",
+      "Даниэль — мужчина, поэтому прилагательное на **-ý**: leniv**ý**."
+    ]
+  },
+  "a2-u1-l6.vlasy-a-oci.en": {
+    "en": "hair and eyes",
+    "t": "волосы и глаза"
+  },
+  "a2-u1-l6.vlasy-a-oci.note": {
+    "en": "Both are plural: Kristína má **krátke** (short) **kučeravé** (curly) vlasy a zelené oči. Also: **dlhé** (long), **svetlé** (fair), **tmavé** (dark) vlasy.",
+    "t": "Оба слова — во множественном числе: Kristína má **krátke** (короткие) **kučeravé** (кудрявые) vlasy a zelené oči. Ещё: **dlhé** (длинные), **svetlé** (светлые), **tmavé** (тёмные) vlasy."
+  },
+  "a2-u1-l6.fill-kristina-ma-kratke.en": {
+    "en": "Kristína has short curly hair and green eyes.",
+    "t": "У Кристины короткие кудрявые волосы и зелёные глаза."
+  },
+  "a2-u1-l6.fill-kristina-ma-kratke.why": {
+    "en": "Hair is plural in Slovak, **vlasy**, so its adjectives take the plural -é: kučerav**é**, and krátk**e**, short after the long á. Vlas is one single hair.",
+    "t": "Волосы, как и у нас, — множественное число, **vlasy**, поэтому прилагательные во множественном на -é: kučerav**é**, и krátk**e** — краткое после долгого á. Vlas — это один волос."
+  },
+  "a2-u1-l6.build-daniel-je-vysoky.prompt": {
+    "en": "Daniel is tall and has short fair hair.",
+    "t": "Даниэль высокий, у него короткие светлые волосы."
+  },
+  "a2-u1-l6.build-daniel-je-vysoky.traps": {
+    "en": [
+      "Vlasy is plural, so the adjective ends in **-e**: **krátke** svetlé vlasy.",
+      "Hair is plural in Slovak: **vlasy**. Vlas is one single hair."
+    ],
+    "t": [
+      "Vlasy — множественное число, поэтому прилагательное на **-e**: **krátke** svetlé vlasy.",
+      "Волосы по-словацки — множественное число: **vlasy**. Vlas — это один волос."
+    ]
+  },
+  "a2-u1-l6.nosit-okuliare.en": {
+    "en": "to wear glasses",
+    "t": "носить очки"
+  },
+  "a2-u1-l6.nosit-okuliare.note": {
+    "en": "**nosiť** = to wear (also: to carry): nosím, nosíš, nosí… Daniel nosí okuliare.",
+    "t": "**nosiť** = носить (одежду, очки, а также что-то в руках): nosím, nosíš, nosí… Daniel nosí okuliare."
+  },
+  "a2-u1-l6.to-bol-len.en": {
+    "en": "It was only a joke.",
+    "t": "Это была просто шутка."
+  },
+  "a2-u1-l6.to-bol-len.note": {
+    "en": "**len** = only. Daniel tells everyone he's a prince from Munich, then: Prepáčte, to bol len vtip!",
+    "t": "**len** = только, всего лишь. Даниэль всем рассказывает, что он принц из Мюнхена, а потом: Prepáčte, to bol len vtip! To bol — потому что vtip мужского рода."
+  },
+  "a2-u1-l6.fill-prepac-to-bol.en": {
+    "en": "Sorry, it was only a joke!",
+    "t": "Извини, это была просто шутка!"
+  },
+  "a2-u1-l6.fill-prepac-to-bol.why": {
+    "en": "You need the noun, one joke, to go with bol: **vtip**. Vtipný is the adjective, funny; vtipy is the plural.",
+    "t": "К bol нужно существительное, одна шутка: **vtip**. Vtipný — прилагательное, «остроумный», а vtipy — множественное число."
+  },
+  "a2-u1-l6.build-daniel-rad-hra.prompt": {
+    "en": "Emma: Daniel likes playing football, but I like reading.",
+    "t": "Эмма: Даниэль любит играть в футбол, а я люблю читать."
+  },
+  "a2-u1-l6.build-daniel-rad-hra.traps": {
+    "en": [
+      "“I” is ja, so the verb ends in **-m**: ja rada **čítam**.",
+      "Daniel is on, so the verb has no ending: rád **hrá**."
+    ],
+    "t": [
+      "«Я» — это ja, поэтому глагол оканчивается на **-m**: ja rada **čítam**.",
+      "Даниэль — on, поэтому у глагола нет окончания: rád **hrá**."
+    ]
+  },
+  "a2-u1-l6.choice-aky-si-ty.question": {
+    "en": "Lucia asks Daniel what he's like. What does she say?",
+    "t": "Луция спрашивает Даниэля, какой он. Что она говорит?"
+  },
+  "a2-u1-l6.choice-aky-si-ty.why": {
+    "en": "Asking about a man: **aký** (aká is for a woman). With ty the verb is **si**: Aký **si** ty?",
+    "t": "О мужчине — **aký** (aká — о женщине). С ty глагол — **si**: Aký **si** ty? — «Какой ты?»"
+  },
+  "a2-u1-l6.build-daniel-nosi-okuliare.answers": {
+    "en": [
+      "Daniel wears glasses and likes telling jokes.",
+      "Daniel wears glasses and he likes telling jokes.",
+      "Daniel wears glasses and likes to tell jokes."
+    ],
+    "t": [
+      "Даниэль носит очки и любит рассказывать анекдоты.",
+      "Даниэль носит очки и любит рассказывать шутки.",
+      "Даниэль носит очки, и он любит рассказывать анекдоты.",
+      "Даниэль носит очки и любит шутить."
+    ]
+  },
+  "a2-u1-l6.build-daniel-nosi-okuliare.distractors": {
+    "en": [
+      "shy",
+      "reading"
+    ],
+    "t": [
+      "стеснительный",
+      "читать"
+    ]
+  },
+  "a2-u1-l6.speak-daniel-nema-rad.en": {
+    "en": "Daniel doesn't like exams.",
+    "t": "Даниэль не любит экзамены."
+  },
+  "a2-u1-l6.speak-kristina-je-hanbliva.en": {
+    "en": "Kristína is shy, but clever.",
+    "t": "Кристина стеснительная, но умная."
+  },
+  "a2-u1-l7.titleEn": {
+    "en": "Voiced and voiceless",
+    "t": "Звонкие и глухие"
+  },
+  "a2-u1-l7.grammar-voiced-voiceless.title": {
+    "en": "Voiced and voiceless consonants",
+    "t": "Звонкие и глухие согласные"
+  },
+  "a2-u1-l7.grammar-voiced-voiceless.body": {
+    "en": [
+      "Put a hand on your throat and say zzz, then sss. With z your throat buzzes: z is **voiced** (znelá). With s it doesn't: s is **voiceless** (neznelá).",
+      "Most Slovak consonants come in such pairs; so do dz and c, dž and č. **m, n, ň, l, ľ, r, j** have no pair: they are always voiced. v is special: it turns into f only at the start of a word (next cards)."
+    ],
+    "t": [
+      "Как и в русском, согласные бывают звонкие и глухие. Положите руку на горло и скажите «ззз», потом «ссс». На z горло вибрирует: z — **звонкий** (znelá). На s — нет: s — **глухой** (neznelá).",
+      "Большинство словацких согласных образуют такие пары, как и у нас; пары есть и у dz — c, dž — č. Обратите внимание: пара к h — ch (х), а к g — k. **m, n, ň, l, ľ, r, j** пары не имеют и всегда звонкие. v — особый случай: в f он превращается только в начале слова (см. следующие карточки)."
+    ]
+  },
+  "a2-u1-l7.grammar-voiced-voiceless.table.head": {
+    "en": [
+      "voiced",
+      "voiceless"
+    ],
+    "t": [
+      "звонкие",
+      "глухие"
+    ]
+  },
+  "a2-u1-l7.grammar-voiced-voiceless.table.rows": {
+    "en": [
+      [
+        "**b**",
+        "**p**"
+      ],
+      [
+        "**d**",
+        "**t**"
+      ],
+      [
+        "**ď**",
+        "**ť**"
+      ],
+      [
+        "**g**",
+        "**k**"
+      ],
+      [
+        "**z**",
+        "**s**"
+      ],
+      [
+        "**ž**",
+        "**š**"
+      ],
+      [
+        "**h**",
+        "**ch**"
+      ],
+      [
+        "**v**",
+        "**f**"
+      ]
+    ],
+    "t": [
+      [
+        "**b**",
+        "**p**"
+      ],
+      [
+        "**d**",
+        "**t**"
+      ],
+      [
+        "**ď**",
+        "**ť**"
+      ],
+      [
+        "**g**",
+        "**k**"
+      ],
+      [
+        "**z**",
+        "**s**"
+      ],
+      [
+        "**ž**",
+        "**š**"
+      ],
+      [
+        "**h**",
+        "**ch**"
+      ],
+      [
+        "**v**",
+        "**f**"
+      ]
+    ]
+  },
+  "a2-u1-l7.grammar-voiced-voiceless.examples": {
+    "en": [
+      "a point, under",
+      "a goat, a scythe"
+    ],
+    "t": [
+      "очко, под",
+      "коза, коса"
+    ]
+  },
+  "a2-u1-l7.grammar-end-of-word.title": {
+    "en": "At the end of a word",
+    "t": "В конце слова"
+  },
+  "a2-u1-l7.grammar-end-of-word.body": {
+    "en": [
+      "At the end of a word, before a pause, a voiced consonant becomes voiceless: hrad (castle) sounds [hrat], obraz (picture) [obras], klub (club) [klup].",
+      "The spelling stays the same: you still write hrad. Add an ending and the voice comes back: hrady, obrazy, kluby.",
+      "One exception: after a vowel, v at the end of a word or before a consonant sounds like the u in “how”, never like f: domov [domou̯], päť bodov [bodou̯], slávny [sláu̯ni]."
+    ],
+    "t": [
+      "Как и в русском, в конце слова, перед паузой, звонкий согласный оглушается: hrad (замок) звучит [hrat], obraz (картина) — [obras], klub (клуб) — [klup].",
+      "Пишется по-прежнему hrad. Добавьте окончание — и звонкость возвращается: hrady, obrazy, kluby. Совсем как «клуб» [клуп] — «клубы».",
+      "Одно отличие от русского: v после гласного в конце слова или перед согласным звучит как краткое u, никогда не как f: domov [domou̯] ≈ «домоу», päť bodov [bodou̯], slávny [sláu̯ni]. У нас «готов» звучит с ф, а в словацком так не бывает."
+    ]
+  },
+  "a2-u1-l7.grammar-end-of-word.table.head": {
+    "en": [
+      "you write",
+      "you say"
+    ],
+    "t": [
+      "пишется",
+      "произносится"
+    ]
+  },
+  "a2-u1-l7.grammar-end-of-word.table.rows": {
+    "en": [
+      [
+        "hra**d**",
+        "[hra**t**]"
+      ],
+      [
+        "obra**z**",
+        "[obra**s**]"
+      ],
+      [
+        "klu**b**",
+        "[klu**p**]"
+      ],
+      [
+        "chlie**b**",
+        "[chlie**p**]"
+      ],
+      [
+        "mu**ž**",
+        "[mu**š**]"
+      ],
+      [
+        "zu**b**",
+        "[zu**p**]"
+      ]
+    ],
+    "t": [
+      [
+        "hra**d**",
+        "[hra**t**]"
+      ],
+      [
+        "obra**z**",
+        "[obra**s**]"
+      ],
+      [
+        "klu**b**",
+        "[klu**p**]"
+      ],
+      [
+        "chlie**b**",
+        "[chlie**p**]"
+      ],
+      [
+        "mu**ž**",
+        "[mu**š**]"
+      ],
+      [
+        "zu**b**",
+        "[zu**p**]"
+      ]
+    ]
+  },
+  "a2-u1-l7.grammar-end-of-word.examples": {
+    "en": [
+      "That's our castle.",
+      "I'll buy some bread."
+    ],
+    "t": [
+      "Это наш замок.",
+      "Я куплю хлеб."
+    ]
+  },
+  "a2-u1-l7.choice-hrad.question": {
+    "en": "Listen. How does the d at the end of hrad sound?",
+    "t": "Послушайте. Как звучит d в конце слова hrad?"
+  },
+  "a2-u1-l7.choice-hrad.options": {
+    "en": [
+      "like d",
+      "you don't hear it",
+      "like t"
+    ],
+    "t": [
+      "как d",
+      "его не слышно",
+      "как t"
+    ]
+  },
+  "a2-u1-l7.choice-hrad.why": {
+    "en": "At the end of a word, a voiced consonant becomes voiceless: d sounds like **t**, [hrat]. You still write hrad.",
+    "t": "В конце слова звонкий согласный оглушается, как и у нас: d звучит как **t**, [hrat]. Пишется по-прежнему hrad."
+  },
+  "a2-u1-l7.choice-hrad-hrady-dom.question": {
+    "en": "In which word does the d sound like t?",
+    "t": "В каком слове d звучит как t?"
+  },
+  "a2-u1-l7.choice-hrad-hrady-dom.why": {
+    "en": "Only at the end of a word: hra**d** sounds [hrat]. In hrady a vowel follows, and in dom the d starts the word, so it stays d.",
+    "t": "Только в конце слова: hra**d** звучит [hrat]. В hrady после d идёт гласный, а в dom d стоит в начале слова, поэтому остаётся d."
+  },
+  "a2-u1-l7.choice-obraz-obrazy-zima.question": {
+    "en": "In which word do you hear an s?",
+    "t": "В каком слове слышится s?"
+  },
+  "a2-u1-l7.choice-obraz-obrazy-zima.why": {
+    "en": "At the end of obra**z** the z becomes voiceless: [obras]. In obrazy and zima a vowel follows, so it stays z.",
+    "t": "В конце слова obra**z** z оглушается: [obras]. В obrazy и zima после z идёт гласный, поэтому оно остаётся z."
+  },
+  "a2-u1-l7.choice-pat-bodov.question": {
+    "en": "How does the v at the end of päť bodov sound?",
+    "t": "Как звучит v в конце päť bodov?"
+  },
+  "a2-u1-l7.choice-pat-bodov.options": {
+    "en": [
+      "like the u in “how”",
+      "like f",
+      "like v"
+    ],
+    "t": [
+      "как краткое u",
+      "как f",
+      "как v"
+    ]
+  },
+  "a2-u1-l7.choice-pat-bodov.why": {
+    "en": "After a vowel, v at the end of a word sounds like a short u: [bodou̯]. It never sounds like f there, and the same goes for domov.",
+    "t": "После гласного v в конце слова звучит как краткое u: [bodou̯]. Как f — никогда (в отличие от русского «готов»), и в domov тоже."
+  },
+  "a2-u1-l7.obraz.en": {
+    "en": "picture, painting",
+    "t": "картина, изображение"
+  },
+  "a2-u1-l7.obraz.note": {
+    "en": "Plural: obrazy. Na obraze je hrad. = There's a castle in the picture. Also: **klub** (club), as in futbalový klub.",
+    "t": "Не «образ», а картина! Множественное число: obrazy. Na obraze je hrad. = На картине замок. Ещё: **klub** (клуб), как в futbalový klub."
+  },
+  "a2-u1-l7.vtip.en": {
+    "en": "joke",
+    "t": "шутка, анекдот"
+  },
+  "a2-u1-l7.vtip.note": {
+    "en": "You know it from Daniel's jokes: rozprávať vtipy. Say it [ftip]: the v starts the word, before a voiceless t.",
+    "t": "Вы знаете это слово по анекдотам Даниэля: rozprávať vtipy. Произносится [ftip]: v стоит в начале слова перед глухим t, как в нашем «вторник» [фторник]."
+  },
+  "a2-u1-l7.podpis.en": {
+    "en": "signature",
+    "t": "подпись"
+  },
+  "a2-u1-l7.podpis.note": {
+    "en": "Kde je tvoj **podpis**? = Where's your signature? You know podpísať sa (to sign) from A1.",
+    "t": "Kde je tvoj **podpis**? = Где твоя подпись? Podpis — мужского рода (tvoj podpis). Глагол podpísať sa (расписаться) вы знаете из A1."
+  },
+  "a2-u1-l7.match-hrad.pairs": {
+    "en": [
+      "castle",
+      "picture",
+      "club",
+      "joke",
+      "signature"
+    ],
+    "t": [
+      "замок",
+      "картина",
+      "клуб",
+      "шутка",
+      "подпись"
+    ]
+  },
+  "a2-u1-l7.grammar-inside-word.title": {
+    "en": "Inside a word, the second one decides",
+    "t": "Внутри слова решает второй"
+  },
+  "a2-u1-l7.grammar-inside-word.body": {
+    "en": [
+      "When two consonants meet, the second one decides: before a voiceless consonant a voiced one becomes voiceless, and before a voiced one a voiceless one becomes voiced. So podpis sounds [potpis], otázka [otáska], futbal [fudbal], kde [gďe].",
+      "At the start of a word, v before a voiceless consonant sounds like f: vtip [ftip], všetko [fšetko], včera [fčera]. After a vowel it stays a short u, as in the last card. Inside a word, m, n, l, r, j and v never change the consonant before them: tvoj, smutný."
+    ],
+    "t": [
+      "Когда встречаются два согласных, решает второй — совсем как в русском: перед глухим звонкий оглушается, перед звонким глухой озвончается. Поэтому podpis звучит [potpis], как «подпись», otázka — [otáska], futbal — [fudbal], как «футбол», а kde — [gďe], почти как «где».",
+      "В начале слова v перед глухим согласным звучит как f: vtip [ftip], všetko [fšetko], včera [fčera] — как наши «всё» и «вчера». После гласного v остаётся кратким u, как в прошлой карточке. А m, n, l, r, j и v внутри слова не меняют согласный перед собой: tvoj, smutný."
+    ]
+  },
+  "a2-u1-l7.grammar-inside-word.table.head": {
+    "en": [
+      "you write",
+      "you say"
+    ],
+    "t": [
+      "пишется",
+      "произносится"
+    ]
+  },
+  "a2-u1-l7.grammar-inside-word.table.rows": {
+    "en": [
+      [
+        "po**d**pis",
+        "[po**t**pis]"
+      ],
+      [
+        "otá**z**ka",
+        "[otá**s**ka]"
+      ],
+      [
+        "fu**t**bal",
+        "[fu**d**bal]"
+      ],
+      [
+        "**k**de",
+        "[**g**ďe]"
+      ],
+      [
+        "ni**k**dy",
+        "[ňi**g**di]"
+      ],
+      [
+        "**v**tip",
+        "[**f**tip]"
+      ],
+      [
+        "**v**šetko",
+        "[**f**šetko]"
+      ]
+    ],
+    "t": [
+      [
+        "po**d**pis",
+        "[po**t**pis]"
+      ],
+      [
+        "otá**z**ka",
+        "[otá**s**ka]"
+      ],
+      [
+        "fu**t**bal",
+        "[fu**d**bal]"
+      ],
+      [
+        "**k**de",
+        "[**g**ďe]"
+      ],
+      [
+        "ni**k**dy",
+        "[ňi**g**di]"
+      ],
+      [
+        "**v**tip",
+        "[**f**tip]"
+      ],
+      [
+        "**v**šetko",
+        "[**f**šetko]"
+      ]
+    ]
+  },
+  "a2-u1-l7.grammar-inside-word.examples": {
+    "en": [
+      "That joke is good.",
+      "Daniel plays football.",
+      "I was at home yesterday."
+    ],
+    "t": [
+      "Этот анекдот хороший.",
+      "Даниэль играет в футбол.",
+      "Вчера я была дома."
+    ]
+  },
+  "a2-u1-l7.choice-podpis.question": {
+    "en": "In podpis, how does the d sound?",
+    "t": "Как звучит d в слове podpis?"
+  },
+  "a2-u1-l7.choice-podpis.options": {
+    "en": [
+      "like d",
+      "like t"
+    ],
+    "t": [
+      "как d",
+      "как t"
+    ]
+  },
+  "a2-u1-l7.choice-podpis.why": {
+    "en": "The next consonant, p, is voiceless, so d becomes voiceless too: [potpis]. The second consonant decides.",
+    "t": "Следующий согласный, p, глухой, поэтому d тоже оглушается: [potpis], как в «подпись». Решает второй согласный."
+  },
+  "a2-u1-l7.choice-vtip-vela-tvoj.question": {
+    "en": "In which word do you hear an f?",
+    "t": "В каком слове слышится f?"
+  },
+  "a2-u1-l7.choice-vtip-vela-tvoj.why": {
+    "en": "Before a voiceless t, v sounds like f: **v**tip [ftip]. In veľa a vowel follows the v, and in tvoj the v comes after the t.",
+    "t": "Перед глухим t v звучит как f: **v**tip [ftip]. В veľa после v идёт гласный, а в tvoj v стоит после t."
+  },
+  "a2-u1-l7.choice-kde-kto-kino.question": {
+    "en": "In which word does the k sound like g?",
+    "t": "В каком слове k звучит как g?"
+  },
+  "a2-u1-l7.choice-kde-kto-kino.why": {
+    "en": "In **k**de the next consonant, d, is voiced, so k becomes g: [gďe]. In kto the t is voiceless, and in kino a vowel follows.",
+    "t": "В **k**de следующий согласный, d, звонкий, поэтому k озвончается: [gďe], почти как наше «где». В kto t глухой, а в kino дальше идёт гласный."
+  },
+  "a2-u1-l7.listen-kde-je-tvoj.en": {
+    "en": "Where's your signature?",
+    "t": "Где твоя подпись?"
+  },
+  "a2-u1-l7.build-ten-vtip-je.prompt": {
+    "en": "That joke is really good.",
+    "t": "Этот анекдот очень хороший."
+  },
+  "a2-u1-l7.build-ten-vtip-je.traps": {
+    "en": [
+      "Vtip ends in a consonant, so it's masculine and “that” is **ten**. Tá goes with feminine words.",
+      "Vtip is masculine, so the adjective ends in **-ý**: dobr**ý**."
+    ],
+    "t": [
+      "Vtip оканчивается на согласный, значит, он мужского рода, и «этот» — **ten**. Tá — для женского рода.",
+      "Vtip — мужского рода, поэтому прилагательное на **-ý**: dobr**ý**."
+    ]
+  },
+  "a2-u1-l7.build-daniel-hra-vo.prompt": {
+    "en": "Daniel plays in a football club.",
+    "t": "Даниэль играет в футбольном клубе."
+  },
+  "a2-u1-l7.build-daniel-hra-vo.traps": {
+    "en": [
+      "In a club answers “where?”, so after vo it takes the locative: vo **klube**.",
+      "The adjective takes the locative too, masculine **-om**: vo **futbalovom** klube."
+    ],
+    "t": [
+      "«В клубе» отвечает на вопрос «где?», поэтому после vo — предложный падеж: vo **klube**, как «в клубе».",
+      "Прилагательное тоже в предложном падеже, мужской род — **-om**: vo **futbalovom** klube, как «в футбольном»."
+    ]
+  },
+  "a2-u1-l7.speak-na-obraze-je.en": {
+    "en": "There's a castle in the picture.",
+    "t": "На картине замок."
+  },
+  "a2-u1-l8.titleEn": {
+    "en": "Between words",
+    "t": "Между словами"
+  },
+  "a2-u1-l8.grammar-across-words.title": {
+    "en": "Across words and with prepositions",
+    "t": "Между словами и с предлогами"
+  },
+  "a2-u1-l8.grammar-across-words.body": {
+    "en": [
+      "In a phrase you say in one breath, voicing changes across words too: the first sound of the next word decides. Náš dom sounds [náž dom], už teraz [uš teras].",
+      "Short prepositions (v, z, s, pred, pod) are said together with the next word, so their sound changes the most: v piatok [f piatok], s bratom [z bratom], z Trenčína [s trenčína]. Before s, z, š, ž you say so, zo: so sestrou [zo sestrou]."
+    ],
+    "t": [
+      "Во фразе, сказанной на одном дыхании, звонкость меняется и на стыке слов: решает первый звук следующего слова, как и в русском. Náš dom звучит [náž dom], už teraz — [uš teras].",
+      "Короткие предлоги (v, z, s, pred, pod) произносятся вместе со следующим словом, поэтому меняются сильнее всего: v piatok [f piatok], s bratom [z bratom], z Trenčína [s trenčína] — как наши «в пятницу» [ф пятницу] и «с братом» [з братом]. Перед s, z, š, ž говорят so, zo: so sestrou [zo sestrou]."
+    ]
+  },
+  "a2-u1-l8.grammar-across-words.table.head": {
+    "en": [
+      "you write",
+      "you say"
+    ],
+    "t": [
+      "пишется",
+      "произносится"
+    ]
+  },
+  "a2-u1-l8.grammar-across-words.table.rows": {
+    "en": [
+      [
+        "ná**š** dom",
+        "[ná**ž** dom]"
+      ],
+      [
+        "u**ž** teraz",
+        "[u**š** teras]"
+      ],
+      [
+        "**v** piatok",
+        "[**f** piatok]"
+      ],
+      [
+        "**s** bratom",
+        "[**z** bratom]"
+      ],
+      [
+        "**z** Trenčína",
+        "[**s** trenčína]"
+      ],
+      [
+        "pre**d** školou",
+        "[pre**t** školou]"
+      ],
+      [
+        "**s**o sestrou",
+        "[**z**o sestrou]"
+      ]
+    ],
+    "t": [
+      [
+        "ná**š** dom",
+        "[ná**ž** dom]"
+      ],
+      [
+        "u**ž** teraz",
+        "[u**š** teras]"
+      ],
+      [
+        "**v** piatok",
+        "[**f** piatok]"
+      ],
+      [
+        "**s** bratom",
+        "[**z** bratom]"
+      ],
+      [
+        "**z** Trenčína",
+        "[**s** trenčína]"
+      ],
+      [
+        "pre**d** školou",
+        "[pre**t** školou]"
+      ],
+      [
+        "**s**o sestrou",
+        "[**z**o sestrou]"
+      ]
+    ]
+  },
+  "a2-u1-l8.grammar-across-words.examples": {
+    "en": [
+      "I'm at home on Friday.",
+      "Kristína is from Trenčín.",
+      "Our house is here."
+    ],
+    "t": [
+      "В пятницу я дома.",
+      "Кристина из Тренчина.",
+      "Наш дом здесь."
+    ]
+  },
+  "a2-u1-l8.choice-v-piatok.question": {
+    "en": "How does the v in v piatok sound?",
+    "t": "Как звучит v в v piatok?"
+  },
+  "a2-u1-l8.choice-v-piatok.options": {
+    "en": [
+      "like v",
+      "like f",
+      "like u"
+    ],
+    "t": [
+      "как v",
+      "как f",
+      "как u"
+    ]
+  },
+  "a2-u1-l8.choice-v-piatok.why": {
+    "en": "The preposition is said together with piatok, and p is voiceless, so v becomes voiceless too: [f piatok].",
+    "t": "Предлог произносится вместе с piatok, а p — глухой, поэтому v тоже оглушается: [f piatok], как наше «в пятницу» [ф пятницу]."
+  },
+  "a2-u1-l8.choice-s-bratom.question": {
+    "en": "How does the s in s bratom sound?",
+    "t": "Как звучит s в s bratom?"
+  },
+  "a2-u1-l8.choice-s-bratom.options": {
+    "en": [
+      "like z",
+      "like s"
+    ],
+    "t": [
+      "как z",
+      "как s"
+    ]
+  },
+  "a2-u1-l8.choice-s-bratom.why": {
+    "en": "b is voiced, so the s before it becomes voiced too: [z bratom]. You still write s.",
+    "t": "b — звонкий, поэтому s перед ним тоже озвончается: [z bratom], как «с братом» [з братом]. Пишется по-прежнему s."
+  },
+  "a2-u1-l8.choice-z-trencina-z.question": {
+    "en": "In which one does the z sound like s?",
+    "t": "Где z звучит как s?"
+  },
+  "a2-u1-l8.choice-z-trencina-z.why": {
+    "en": "t is voiceless, so z becomes s: [s trenčína]. Before the voiced b and before a vowel, z stays z.",
+    "t": "t — глухой, поэтому z оглушается: [s trenčína]. Перед звонким b и перед гласным z остаётся z."
+  },
+  "a2-u1-l8.fill-idem-so-sestrou.en": {
+    "en": "I'm going to the cinema with my sister.",
+    "t": "Я иду в кино с сестрой."
+  },
+  "a2-u1-l8.fill-idem-so-sestrou.why": {
+    "en": "Before a word starting with s, z, š or ž, **s** becomes **so**: **so** sestrou. You say it [zo sestrou].",
+    "t": "Перед словом на s, z, š или ž предлог **s** превращается в **so**, как наше «со»: **so** sestrou. Произносится [zo sestrou]."
+  },
+  "a2-u1-l8.build-v-piatok-mame.prompt": {
+    "en": "On Friday we've got an exam.",
+    "t": "В пятницу у нас экзамен."
+  },
+  "a2-u1-l8.build-v-piatok-mame.traps": {
+    "en": [
+      "“We” is my, so mať is **máme**. Mám is for ja.",
+      "The exam is what we have, the object, so skúška changes -a to **-u**: **skúšku**."
+    ],
+    "t": [
+      "«Мы» — это my, поэтому mať — **máme**. Mám — для ja.",
+      "Экзамен — то, что у нас есть, дополнение к máme, поэтому skúška меняет -a на **-u**: **skúšku**."
+    ]
+  },
+  "a2-u1-l8.build-daniel-je-z.prompt": {
+    "en": "Daniel is from Munich and Kristína from Trenčín.",
+    "t": "Даниэль из Мюнхена, а Кристина из Тренчина."
+  },
+  "a2-u1-l8.build-daniel-je-z.traps": {
+    "en": [
+      "Daniel is one person, on, so byť is **je**. Sú is for oni.",
+      "Zo comes only before s, z, š, ž, as in zo Slovenska. Before m and t it's **z**: z Mníchova, z Trenčína."
+    ],
+    "t": [
+      "Даниэль — один человек, on, поэтому byť — **je**. Sú — для oni.",
+      "Zo бывает только перед s, z, š, ž, как в zo Slovenska. Перед m и t — **z**: z Mníchova, z Trenčína."
+    ]
+  },
+  "a2-u1-l8.grammar-before-vowel.title": {
+    "en": "Before a vowel or m, n, l, r, j",
+    "t": "Перед гласным или m, n, l, r, j"
+  },
+  "a2-u1-l8.grammar-before-vowel.body": {
+    "en": [
+      "Here Slovak is special. At the end of a word, a voiceless consonant becomes voiced before a vowel or before m, n, ň, l, ľ, r, j in the next word: vlak ide [vlag ide], brat a sestra [brad a sestra], s Emmou [z emou]. It happens across words. One short word does it on its own: **sme** sounds [zme], though inside other words s stays s (smutný).",
+      "One exception: s and so before a pronoun keep their voiceless sound: s nami, so mnou."
+    ],
+    "t": [
+      "А вот здесь словацкий не похож на русский. На конце слова глухой согласный озвончается, если следующее слово начинается с гласного или с m, n, ň, l, ľ, r, j: vlak ide [vlag ide], brat a sestra [brad a sestra], s Emmou [z emou]. Это происходит на стыке слов. Одно короткое слово делает это само по себе: **sme** звучит [zme], хотя внутри других слов s остаётся s (smutný).",
+      "Одно исключение: s и so перед местоимением сохраняют глухой звук: s nami, so mnou."
+    ]
+  },
+  "a2-u1-l8.grammar-before-vowel.table.head": {
+    "en": [
+      "you write",
+      "you say"
+    ],
+    "t": [
+      "пишется",
+      "произносится"
+    ]
+  },
+  "a2-u1-l8.grammar-before-vowel.table.rows": {
+    "en": [
+      [
+        "vla**k** ide",
+        "[vla**g** ide]"
+      ],
+      [
+        "bra**t** a sestra",
+        "[bra**d** a sestra]"
+      ],
+      [
+        "**s** Emmou",
+        "[**z** emou]"
+      ],
+      [
+        "**s**me",
+        "[**z**me]"
+      ],
+      [
+        "**s** nami",
+        "[**s** nami]"
+      ],
+      [
+        "**s**o mnou",
+        "[**s**o mnou]"
+      ]
+    ],
+    "t": [
+      [
+        "vla**k** ide",
+        "[vla**g** ide]"
+      ],
+      [
+        "bra**t** a sestra",
+        "[bra**d** a sestra]"
+      ],
+      [
+        "**s** Emmou",
+        "[**z** emou]"
+      ],
+      [
+        "**s**me",
+        "[**z**me]"
+      ],
+      [
+        "**s** nami",
+        "[**s** nami]"
+      ],
+      [
+        "**s**o mnou",
+        "[**s**o mnou]"
+      ]
+    ]
+  },
+  "a2-u1-l8.grammar-before-vowel.examples": {
+    "en": [
+      "The brother and sister are at home.",
+      "We're at the quiz.",
+      "Are you coming with me?"
+    ],
+    "t": [
+      "Брат и сестра дома.",
+      "Мы на викторине.",
+      "Пойдёшь со мной?"
+    ]
+  },
+  "a2-u1-l8.choice-vlak-ide.question": {
+    "en": "How does the k in vlak ide sound?",
+    "t": "Как звучит k в vlak ide?"
+  },
+  "a2-u1-l8.choice-vlak-ide.options": {
+    "en": [
+      "like g",
+      "like k"
+    ],
+    "t": [
+      "как g",
+      "как k"
+    ]
+  },
+  "a2-u1-l8.choice-vlak-ide.why": {
+    "en": "The next word starts with a vowel, so the k at the end of vlak becomes voiced: [vlag ide]. This happens across words.",
+    "t": "Следующее слово начинается с гласного, поэтому k на конце vlak озвончается: [vlag ide]. Это происходит на стыке слов — в русском такого нет."
+  },
+  "a2-u1-l8.choice-sme-doma.question": {
+    "en": "How does sme start?",
+    "t": "С какого звука начинается sme?"
+  },
+  "a2-u1-l8.choice-sme-doma.options": {
+    "en": [
+      "with a z sound",
+      "with an s sound"
+    ],
+    "t": [
+      "со звука z",
+      "со звука s"
+    ]
+  },
+  "a2-u1-l8.choice-sme-doma.why": {
+    "en": "**Sme** is the one word where s turns into z before m: [zme]. Inside other words it stays s: smutný. You still write sme.",
+    "t": "**Sme** — единственное слово, где s перед m превращается в z: [zme]. Внутри других слов s остаётся s: smutný. Пишется по-прежнему sme."
+  },
+  "a2-u1-l8.choice-s-nami-s.question": {
+    "en": "In which one does the s keep its s sound?",
+    "t": "Где s сохраняет звук s?"
+  },
+  "a2-u1-l8.choice-s-nami-s.why": {
+    "en": "**s nami** is the exception: before a pronoun, s keeps its sound. Before a vowel (s Emmou) or a voiced b (s bratom), it sounds like z.",
+    "t": "**s nami** — исключение: перед местоимением s сохраняет свой звук. Перед гласным (s Emmou) или звонким b (s bratom) оно звучит как z."
+  },
+  "a2-u1-l8.match-v-piatok.pairs": {
+    "en": [
+      "on Friday",
+      "with a brother",
+      "under the table",
+      "with me",
+      "from Trenčín"
+    ],
+    "t": [
+      "в пятницу",
+      "с братом",
+      "под столом",
+      "со мной",
+      "из Тренчина"
+    ]
+  },
+  "a2-u1-l8.speak-ides-so-mnou.en": {
+    "en": "Are you coming to the quiz with me?",
+    "t": "Пойдёшь со мной на викторину?"
+  },
+  "a2-u1-l8.speak-tomas-a-emma.en": {
+    "en": "Tomáš and Emma are in the café.",
+    "t": "Томаш и Эмма в кафе."
+  },
+  "a2-u1-l9.titleEn": {
+    "en": "Consonant groups",
+    "t": "Группы согласных"
+  },
+  "a2-u1-l9.grammar-double-consonants.title": {
+    "en": "Double letters, one long sound",
+    "t": "Две буквы — один долгий звук"
+  },
+  "a2-u1-l9.grammar-double-consonants.body": {
+    "en": [
+      "Two identical consonants are said as one long consonant: hold it a little longer, but don't say it twice. You know dvojjazyčný; others are rodinný (family), mäkký (soft) and oddelenie."
+    ],
+    "t": [
+      "Два одинаковых согласных произносятся как один долгий: задержите его чуть дольше, но не произносите дважды — как в нашем «ванна». Вы уже знаете dvojjazyčný; ещё rodinný (семейный), mäkký (мягкий) и oddelenie (отделение)."
+    ]
+  },
+  "a2-u1-l9.grammar-double-consonants.table.head": {
+    "en": [
+      "you write",
+      "you say"
+    ],
+    "t": [
+      "пишется",
+      "произносится"
+    ]
+  },
+  "a2-u1-l9.grammar-double-consonants.table.rows": {
+    "en": [
+      [
+        "rodi**nn**ý",
+        "one long n"
+      ],
+      [
+        "mä**kk**ý",
+        "one long k"
+      ],
+      [
+        "dvo**jj**azyčný",
+        "one long j"
+      ],
+      [
+        "o**dd**elenie",
+        "one long ď"
+      ]
+    ],
+    "t": [
+      [
+        "rodi**nn**ý",
+        "один долгий звук n"
+      ],
+      [
+        "mä**kk**ý",
+        "один долгий звук k"
+      ],
+      [
+        "dvo**jj**azyčný",
+        "один долгий звук j"
+      ],
+      [
+        "o**dd**elenie",
+        "один долгий звук ď"
+      ]
+    ]
+  },
+  "a2-u1-l9.grammar-double-consonants.examples": {
+    "en": [
+      "Daniel is bilingual.",
+      "It's a family house."
+    ],
+    "t": [
+      "Даниэль двуязычный.",
+      "Это частный дом."
+    ]
+  },
+  "a2-u1-l9.grammar-consonant-groups.title": {
+    "en": "Groups that get simpler",
+    "t": "Группы, которые упрощаются"
+  },
+  "a2-u1-l9.grammar-consonant-groups.body": {
+    "en": [
+      "In a few groups of consonants, sounds merge or drop. dst sounds [ct]: predstaviť [prectaviť]. ds sounds [c]: dvadsať [dvacať], tridsať [tricať]. stsk and zsk sound [sk]: mestský (town, city) [meskí], francúzsky [francúski].",
+      "Most groups keep every consonant, and every consonant is pronounced: šťastný (happy), perfektný, spišský."
+    ],
+    "t": [
+      "В некоторых группах согласных звуки сливаются или выпадают, как и в русском. dst звучит [ct], то есть «цт»: predstaviť [prectaviť]. ds звучит [c], то есть «ц»: dvadsať [dvacať], tridsať [tricať] — совсем как «двадцать» и «тридцать». stsk и zsk звучат [sk]: mestský (городской) [meskí], francúzsky [francúski], как «французский».",
+      "Но большинство групп сохраняют все согласные, и каждый произносится: šťastný (счастливый), perfektný, spišský. В отличие от нашего «честный», в šťastný t слышно."
+    ]
+  },
+  "a2-u1-l9.grammar-consonant-groups.table.head": {
+    "en": [
+      "you write",
+      "you say"
+    ],
+    "t": [
+      "пишется",
+      "произносится"
+    ]
+  },
+  "a2-u1-l9.grammar-consonant-groups.table.rows": {
+    "en": [
+      [
+        "pre**dst**aviť",
+        "[pre**ct**aviť]"
+      ],
+      [
+        "dva**ds**ať",
+        "[dva**c**ať]"
+      ],
+      [
+        "me**stsk**ý",
+        "[me**sk**í]"
+      ],
+      [
+        "francú**zsk**y",
+        "[francú**sk**i]"
+      ],
+      [
+        "šťa**stn**ý",
+        "[šťa**stn**í]"
+      ]
+    ],
+    "t": [
+      [
+        "pre**dst**aviť",
+        "[pre**ct**aviť]"
+      ],
+      [
+        "dva**ds**ať",
+        "[dva**c**ať]"
+      ],
+      [
+        "me**stsk**ý",
+        "[me**sk**í]"
+      ],
+      [
+        "francú**zsk**y",
+        "[francú**sk**i]"
+      ],
+      [
+        "šťa**stn**ý",
+        "[šťa**stn**í]"
+      ]
+    ]
+  },
+  "a2-u1-l9.grammar-consonant-groups.examples": {
+    "en": [
+      "I'd like to introduce Daniel to you.",
+      "I'm twenty.",
+      "Daniel is a city person."
+    ],
+    "t": [
+      "Хочу представить вам Даниэля.",
+      "Мне двадцать лет.",
+      "Даниэль — типичный горожанин."
+    ]
+  },
+  "a2-u1-l9.choice-rodinny.question": {
+    "en": "How many n sounds do you hear in rodinný?",
+    "t": "Сколько звуков n вы слышите в rodinný?"
+  },
+  "a2-u1-l9.choice-rodinny.options": {
+    "en": [
+      "one long n",
+      "two separate n sounds",
+      "one short n"
+    ],
+    "t": [
+      "один долгий звук n",
+      "два отдельных звука n",
+      "один краткий звук n"
+    ]
+  },
+  "a2-u1-l9.choice-rodinny.why": {
+    "en": "Double letters are one long sound: rodi**nn**ý has one n, held a little longer.",
+    "t": "Двойная буква — это один долгий звук: в rodi**nn**ý один n, только чуть длиннее."
+  },
+  "a2-u1-l9.fill-daniel-hovori-po-nemecky.en": {
+    "en": "Daniel speaks German and Slovak: he's bilingual.",
+    "t": "Даниэль говорит по-немецки и по-словацки: он двуязычный."
+  },
+  "a2-u1-l9.fill-daniel-hovori-po-nemecky.why": {
+    "en": "Daniel is a man, so the adjective ends in **-ý**: dvojjazyčn**ý**. Say the jj as one long j.",
+    "t": "Даниэль — мужчина, поэтому прилагательное на **-ý**: dvojjazyčn**ý**. jj произносите как один долгий j."
+  },
+  "a2-u1-l9.choice-predstavit.question": {
+    "en": "How does dst sound in predstaviť?",
+    "t": "Как звучит dst в predstaviť?"
+  },
+  "a2-u1-l9.choice-predstavit.options": {
+    "en": [
+      "like dst",
+      "like st",
+      "like ct"
+    ],
+    "t": [
+      "как dst",
+      "как st",
+      "как ct"
+    ]
+  },
+  "a2-u1-l9.choice-predstavit.why": {
+    "en": "In predstaviť the group dst merges into **ct**: [prectaviť]. You still write dst.",
+    "t": "В predstaviť группа dst сливается в **ct** («цт»): [prectaviť]. Пишется по-прежнему dst."
+  },
+  "a2-u1-l9.choice-dvadsat.question": {
+    "en": "What do you hear in the middle of dvadsať?",
+    "t": "Что вы слышите в середине dvadsať?"
+  },
+  "a2-u1-l9.choice-dvadsat.options": {
+    "en": [
+      "a d and then an s",
+      "only an s",
+      "a c sound, like ts"
+    ],
+    "t": [
+      "d, а потом s",
+      "только s",
+      "звук c, то есть «ц»"
+    ]
+  },
+  "a2-u1-l9.choice-dvadsat.why": {
+    "en": "ds merges into one sound, **c**: dvadsať sounds [dvacať], and tridsať [tricať].",
+    "t": "ds сливается в один звук **c** («ц»): dvadsať звучит [dvacať], а tridsať — [tricať]. Совсем как «двадцать» и «тридцать»."
+  },
+  "a2-u1-l9.choice-stastny-mestsky.question": {
+    "en": "In which word do you hear every consonant?",
+    "t": "В каком слове слышны все согласные?"
+  },
+  "a2-u1-l9.choice-stastny-mestsky.why": {
+    "en": "The group stn keeps every consonant: šťa**stn**ý. In mestský the t drops, [meskí], and predstaviť sounds [prectaviť].",
+    "t": "Группа stn сохраняет все согласные: šťa**stn**ý (не как наше «честный»). В mestský t выпадает — [meskí], а predstaviť звучит [prectaviť]."
+  },
+  "a2-u1-l9.build-kristina-je-velmi.prompt": {
+    "en": "Kristína is very happy.",
+    "t": "Кристина очень счастлива."
+  },
+  "a2-u1-l9.build-kristina-je-velmi.traps": {
+    "en": [
+      "Kristína is a woman, so the adjective ends in **-á**: šťastn**á**.",
+      "Kristína is a woman, so the adjective ends in **-á**: šťastn**á**. -é is for neuter words."
+    ],
+    "t": [
+      "Кристина — женщина, поэтому прилагательное на **-á**: šťastn**á**.",
+      "Кристина — женщина, поэтому прилагательное на **-á**: šťastn**á**. -é — для среднего рода."
+    ]
+  },
+  "a2-u1-l9.build-chcem-vam-predstavit.prompt": {
+    "en": "I'd like to introduce the new students to you.",
+    "t": "Хочу представить вам новых студентов."
+  },
+  "a2-u1-l9.build-chcem-vam-predstavit.traps": {
+    "en": [
+      "The students are the object, and with men as the object adjectives end in **-ých**: **nových** študentov.",
+      "Men as the object end in **-ov**: predstaviť **študentov**."
+    ],
+    "t": [
+      "Студенты — дополнение, а когда дополнение — мужчины, прилагательное оканчивается на **-ých**: **nových** študentov, как «новых студентов».",
+      "Мужчины в роли дополнения получают **-ov**: predstaviť **študentov**, как «студентов»."
+    ]
+  },
+  "a2-u1-l9.grammar-r-l-syllable.title": {
+    "en": "Words with no vowel",
+    "t": "Слова без гласных"
+  },
+  "a2-u1-l9.grammar-r-l-syllable.body": {
+    "en": [
+      "r and l (and long ŕ, ĺ) can carry a syllable on their own: štvrtok (Thursday), prst (finger), krk (neck), vlk (wolf), trh (market). Say the r clearly and it does the work of a vowel.",
+      "That's why Slovak tongue twisters (jazykolamy) can be so full of consonants. Sound words work the same way: Brrr! Pst!"
+    ],
+    "t": [
+      "r и l (и долгие ŕ, ĺ) могут сами образовать слог: štvrtok (четверг), prst (палец, ср. «перст»), krk (шея), vlk (волк), trh (рынок, ср. «торг»). Произнесите r чётко — и он сработает как гласный.",
+      "Поэтому словацкие скороговорки (jazykolamy) бывают такими «согласными». Звукоподражания устроены так же: Brrr! Pst!"
+    ]
+  },
+  "a2-u1-l9.grammar-r-l-syllable.table.head": {
+    "en": [
+      "sound word",
+      "what it means"
+    ],
+    "t": [
+      "звукоподражание",
+      "что значит"
+    ]
+  },
+  "a2-u1-l9.grammar-r-l-syllable.table.rows": {
+    "en": [
+      [
+        "**Pst!**",
+        "Shh!"
+      ],
+      [
+        "**Brrr!**",
+        "It's cold!"
+      ],
+      [
+        "**Ha-ha!**",
+        "laughing"
+      ],
+      [
+        "**Klop-klop!**",
+        "knocking at the door"
+      ],
+      [
+        "**Crrrn!**",
+        "a phone or a bell ringing"
+      ]
+    ],
+    "t": [
+      [
+        "**Pst!**",
+        "Тсс!"
+      ],
+      [
+        "**Brrr!**",
+        "Холодно!"
+      ],
+      [
+        "**Ha-ha!**",
+        "смех"
+      ],
+      [
+        "**Klop-klop!**",
+        "стук в дверь"
+      ],
+      [
+        "**Crrrn!**",
+        "звонит телефон или звонок"
+      ]
+    ]
+  },
+  "a2-u1-l9.grammar-r-l-syllable.examples": {
+    "en": [
+      "On Thursday four students study.",
+      "Shh! Kristína is reading the question."
+    ],
+    "t": [
+      "В четверг четыре студента занимаются.",
+      "Тсс! Кристина читает вопрос."
+    ]
+  },
+  "a2-u1-l9.choice-krk-kino-kde.question": {
+    "en": "Which word has no vowel?",
+    "t": "В каком слове нет гласных?"
+  },
+  "a2-u1-l9.choice-krk-kino-kde.why": {
+    "en": "In **krk** the r carries the syllable, so the word needs no vowel. Kino has i and o, kde has e.",
+    "t": "В **krk** слог образует r, поэтому гласный не нужен. В kino есть i и o, в kde — e."
+  },
+  "a2-u1-l9.match-pst.pairs": {
+    "en": [
+      "Shh!",
+      "It's so cold!",
+      "(laughing)",
+      "Knock, knock!",
+      "Ring, ring!"
+    ],
+    "t": [
+      "Тсс!",
+      "Брр, холодно!",
+      "(смех)",
+      "Тук-тук!",
+      "Дзынь-дзынь!"
+    ]
+  },
+  "a2-u1-l9.choice-v-kniznici-pst.question": {
+    "en": "In the library, Daniel's phone rings. What does Lucia whisper?",
+    "t": "В библиотеке у Даниэля звонит телефон. Что шепчет Луция?"
+  },
+  "a2-u1-l9.speak-vo-stvrtok-styria.en": {
+    "en": "On Thursday four students study.",
+    "t": "В четверг четыре студента занимаются."
+  },
+  "a2-u1-l9.speak-daniel-je-mestsky.en": {
+    "en": "Daniel is a city person.",
+    "t": "Даниэль — типичный горожанин."
+  },
+  "a2-u1-l10.titleEn": {
+    "en": "Short after long",
+    "t": "После долгого — краткий"
+  },
+  "a2-u1-l10.grammar-two-long-syllables.title": {
+    "en": "Never two long syllables in a row",
+    "t": "Никогда два долгих слога подряд"
+  },
+  "a2-u1-l10.grammar-two-long-syllables.body": {
+    "en": [
+      "You met this rule in dates: piateho, not piatého. It works all over Slovak: two long syllables don't follow each other in a word. A syllable is long when it has á, é, í, ó, ú, ý, or ia, ie, iu, ô.",
+      "So after a long syllable, an ending that's normally long becomes short: dobrý but krásny, mestá (towns) but miesta (places), slová (words) but čísla (numbers). This is the **rhythmic law** (rytmický zákon)."
+    ],
+    "t": [
+      "Вы встречали это правило в датах: piateho, а не piatého. Оно действует во всём словацком языке: два долгих слога в слове не идут друг за другом. Слог долгий, если в нём есть á, é, í, ó, ú, ý или ia, ie, iu, ô.",
+      "Поэтому после долгого слога окончание, которое обычно долгое, становится кратким: dobrý, но krásny; mestá (города), но miesta (места); slová (слова), но čísla (числа). Это **ритмический закон** (rytmický zákon)."
+    ]
+  },
+  "a2-u1-l10.grammar-two-long-syllables.table.head": {
+    "en": [
+      "short syllable before",
+      "long syllable before"
+    ],
+    "t": [
+      "перед ним краткий слог",
+      "перед ним долгий слог"
+    ]
+  },
+  "a2-u1-l10.grammar-two-long-syllables.table.rows": {
+    "en": [
+      [
+        "dobr**ý**",
+        "krásn**y**"
+      ],
+      [
+        "mlad**á**",
+        "slávn**a**"
+      ],
+      [
+        "nov**é**",
+        "biel**e**"
+      ],
+      [
+        "mest**á**",
+        "miest**a**"
+      ],
+      [
+        "slov**á**",
+        "čísl**a**"
+      ]
+    ],
+    "t": [
+      [
+        "dobr**ý**",
+        "krásn**y**"
+      ],
+      [
+        "mlad**á**",
+        "slávn**a**"
+      ],
+      [
+        "nov**é**",
+        "biel**e**"
+      ],
+      [
+        "mest**á**",
+        "miest**a**"
+      ],
+      [
+        "slov**á**",
+        "čísl**a**"
+      ]
+    ]
+  },
+  "a2-u1-l10.grammar-two-long-syllables.examples": {
+    "en": [
+      "It's a beautiful day.",
+      "That's the right answer."
+    ],
+    "t": [
+      "Прекрасный день.",
+      "Это правильный ответ."
+    ]
+  },
+  "a2-u1-l10.choice-why-krasny.question": {
+    "en": "Why does krásny end in a short y, when dobrý has a long ý?",
+    "t": "Почему krásny оканчивается на краткое y, а dobrý — на долгое ý?"
+  },
+  "a2-u1-l10.choice-why-krasny.options": {
+    "en": [
+      "Krásny is feminine",
+      "Krásny is plural",
+      "The syllable before it is long: krá-"
+    ],
+    "t": [
+      "Krásny — женского рода",
+      "Krásny — множественное число",
+      "Предыдущий слог долгий: krá-"
+    ]
+  },
+  "a2-u1-l10.choice-why-krasny.why": {
+    "en": "Two long syllables can't follow each other: krá- is long, so the ending is short, krásn**y**. In dobrý, do- is short.",
+    "t": "Два долгих слога не могут идти подряд: krá- — долгий, поэтому окончание краткое: krásn**y**. В dobrý слог do- краткий."
+  },
+  "a2-u1-l10.fill-kristina-nie-je.en": {
+    "en": "Kristína isn't stupid, she's very clever.",
+    "t": "Кристина не глупая, она очень умная."
+  },
+  "a2-u1-l10.fill-kristina-nie-je.why": {
+    "en": "Kristína is a woman: -a. And it's short because mú- is already long: múdr**a**, unlike dobrá.",
+    "t": "Кристина — женщина: -a. А краткое оно потому, что mú- уже долгий: múdr**a**, в отличие от dobrá."
+  },
+  "a2-u1-l10.fill-bratislava-a-kosice.en": {
+    "en": "Bratislava and Košice are big cities.",
+    "t": "Братислава и Кошице — большие города."
+  },
+  "a2-u1-l10.fill-bratislava-a-kosice.why": {
+    "en": "Two cities need the plural, where -o becomes **-á**: mest**á**. It's long because me- is short; miesto gives miesta.",
+    "t": "Два города — множественное число, где -o меняется на **-á**: mest**á**. Оно долгое, потому что me- краткий; а miesto даёт miesta."
+  },
+  "a2-u1-l10.fill-tu-su-nase.en": {
+    "en": "Here are our seats.",
+    "t": "Вот наши места."
+  },
+  "a2-u1-l10.fill-tu-su-nase.why": {
+    "en": "Sú needs the plural. Miesto has a long ie, so its plural ending is short: miest**a**, not like mestá.",
+    "t": "Sú требует множественного числа. В miesto долгое ie, поэтому окончание множественного краткое: miest**a**, не как mestá."
+  },
+  "a2-u1-l10.match-mesta.pairs": {
+    "en": [
+      "towns",
+      "places",
+      "words",
+      "numbers",
+      "beautiful"
+    ],
+    "t": [
+      "города",
+      "места",
+      "слова",
+      "числа",
+      "красивые"
+    ]
+  },
+  "a2-u1-l10.grammar-rhythm-verbs.title": {
+    "en": "Verbs follow it too",
+    "t": "Глаголы тоже подчиняются"
+  },
+  "a2-u1-l10.grammar-rhythm-verbs.body": {
+    "en": [
+      "Verb endings follow the rule too: after a long syllable, the ending is short. volám but čítam, znamená but začína, robím but kúpim.",
+      "One exception: the oni ending -ia stays long, even after a long syllable: robia, kúpia. The new verb **skúsiť** (to try) goes like kúpiť: skúsim, skúsi, skúsia."
+    ],
+    "t": [
+      "Окончания глаголов тоже следуют правилу: после долгого слога окончание краткое. volám, но čítam; znamená, но začína; robím, но kúpim.",
+      "Одно исключение: окончание -ia (для oni) остаётся долгим даже после долгого слога: robia, kúpia. Новый глагол **skúsiť** (попробовать) спрягается как kúpiť: skúsim, skúsi, skúsia."
+    ]
+  },
+  "a2-u1-l10.grammar-rhythm-verbs.table.head": {
+    "en": [
+      "short syllable before",
+      "long syllable before"
+    ],
+    "t": [
+      "перед ним краткий слог",
+      "перед ним долгий слог"
+    ]
+  },
+  "a2-u1-l10.grammar-rhythm-verbs.table.rows": {
+    "en": [
+      [
+        "vol**ám**",
+        "čít**am**"
+      ],
+      [
+        "znamen**á**",
+        "začín**a**"
+      ],
+      [
+        "rob**ím**",
+        "kúp**im**"
+      ],
+      [
+        "rob**í**",
+        "kúp**i**"
+      ],
+      [
+        "rob**ia**",
+        "kúp**ia**"
+      ]
+    ],
+    "t": [
+      [
+        "vol**ám**",
+        "čít**am**"
+      ],
+      [
+        "znamen**á**",
+        "začín**a**"
+      ],
+      [
+        "rob**ím**",
+        "kúp**im**"
+      ],
+      [
+        "rob**í**",
+        "kúp**i**"
+      ],
+      [
+        "rob**ia**",
+        "kúp**ia**"
+      ]
+    ]
+  },
+  "a2-u1-l10.grammar-rhythm-verbs.examples": {
+    "en": [
+      "I'm reading a book.",
+      "I'll try.",
+      "Lucia and Daniel will give it a try."
+    ],
+    "t": [
+      "Я читаю книгу.",
+      "Попробую.",
+      "Луция и Даниэль попробуют."
+    ]
+  },
+  "a2-u1-l10.skusit.en": {
+    "en": "to try",
+    "t": "попробовать"
+  },
+  "a2-u1-l10.skusit.note": {
+    "en": "One try, so like kúpiť it points to the future: **Skúsim to!** = I'll try!",
+    "t": "Попытка одна, поэтому это совершенный вид, как kúpiť, и форма настоящего времени означает будущее, как наше «попробую»: **Skúsim to!** = Попробую!"
+  },
+  "a2-u1-l10.fill-lucia-a-daniel.en": {
+    "en": "Lucia and Daniel will try it.",
+    "t": "Луция и Даниэль попробуют."
+  },
+  "a2-u1-l10.fill-lucia-a-daniel.why": {
+    "en": "Two people are oni, and their ending **-ia** stays long even after a long syllable: skús**ia**. Skúsi is for one person.",
+    "t": "Двое — это oni, а их окончание **-ia** остаётся долгим даже после долгого слога: skús**ia**. Skúsi — для одного человека."
+  },
+  "a2-u1-l10.fill-emma-cita-knihu.en": {
+    "en": "Emma is reading a book about Slovakia.",
+    "t": "Эмма читает книгу о Словакии."
+  },
+  "a2-u1-l10.fill-emma-cita-knihu.why": {
+    "en": "Emma is ona: no ending, **číta**. The a is short because čí- is long, unlike volá.",
+    "t": "Эмма — ona: окончания нет, **číta**. a краткое, потому что čí- долгий, в отличие от volá."
+  },
+  "a2-u1-l10.choice-kupi-robi-vola.question": {
+    "en": "Which verb has a short ending because of the rule?",
+    "t": "У какого глагола окончание краткое из-за этого правила?"
+  },
+  "a2-u1-l10.choice-kupi-robi-vola.why": {
+    "en": "kú- is long, so the ending is short: kúp**i**. In robí and volá the syllable before is short, so the ending stays long.",
+    "t": "kú- — долгий, поэтому окончание краткое: kúp**i**. В robí и volá предыдущий слог краткий, поэтому окончание остаётся долгим."
+  },
+  "a2-u1-l10.build-to-su-krasne.prompt": {
+    "en": "Those are beautiful places.",
+    "t": "Это красивые места."
+  },
+  "a2-u1-l10.build-to-su-krasne.traps": {
+    "en": [
+      "Sú needs the plural: **miesta**, with a short a after the long ie.",
+      "Miesta are neuter and plural, so the adjective ends in **-e**: krásn**e**."
+    ],
+    "t": [
+      "Sú требует множественного числа: **miesta**, с кратким a после долгого ie.",
+      "Miesta — среднего рода и во множественном числе, поэтому прилагательное на **-e**: krásn**e**."
+    ]
+  },
+  "a2-u1-l10.build-neviem-ale-skusim.answers": {
+    "en": [
+      "I don't know, but I'll try.",
+      "I don't know, but I'll give it a try.",
+      "I don't know, but I'll try it."
+    ],
+    "t": [
+      "Не знаю, но попробую.",
+      "Я не знаю, но попробую.",
+      "Не знаю, но я попробую.",
+      "Я не знаю, но я попробую."
+    ]
+  },
+  "a2-u1-l10.build-neviem-ale-skusim.distractors": {
+    "en": [
+      "buy",
+      "can"
+    ],
+    "t": [
+      "куплю",
+      "могу"
+    ]
+  },
+  "a2-u1-l10.speak-je-to-krasny.en": {
+    "en": "It's a beautiful day.",
+    "t": "Прекрасный день."
+  },
+  "a2-u1-l11.titleEn": {
+    "en": "My, your, our",
+    "t": "Мой, твой, наш"
+  },
+  "a2-u1-l11.grammar-possessives-singular.title": {
+    "en": "Môj and náš in every case",
+    "t": "Môj и náš во всех падежах"
+  },
+  "a2-u1-l11.grammar-possessives-singular.body": {
+    "en": [
+      "You know môj, moja, moje from A1. They change like adjectives, with the same endings: môjho like nového, mojom like novom, mojou like novou. Môj keeps its ô in môj, môjho and môjmu, and náš its á in náš, nášho and nášmu. Elsewhere the vowel is short: mojom, našom, s naším bratom.",
+      "For men and animals the object is môjho: Poznáš môjho brata? For things it stays môj: Vidíš môj dom? Tvoj goes like môj, váš like náš. Jeho, jej and ich never change."
+    ],
+    "t": [
+      "Môj, moja, moje вы знаете из A1. Они склоняются как прилагательные, с теми же окончаниями: môjho как nového, mojom как novom, mojou как novou — совсем как наши «моего», «моём», «моей». Môj сохраняет ô в môj, môjho и môjmu, а náš — á в náš, nášho и nášmu. В остальных формах гласный краткий: mojom, našom, s naším bratom.",
+      "Для мужчин и животных (одушевлённых) форма дополнения — môjho, как наше «моего»: Poznáš môjho brata? Для неодушевлённых остаётся môj: Vidíš môj dom? Tvoj склоняется как môj, váš — как náš. Jeho, jej и ich никогда не меняются — как наши «его», «её», «их»."
+    ]
+  },
+  "a2-u1-l11.grammar-possessives-singular.table.head": {
+    "en": [
+      "",
+      "masculine",
+      "feminine",
+      "neuter"
+    ],
+    "t": [
+      "",
+      "мужской род",
+      "женский род",
+      "средний род"
+    ]
+  },
+  "a2-u1-l11.grammar-possessives-singular.table.rows": {
+    "en": [
+      [
+        "kto? čo?",
+        "môj / náš",
+        "moja / naša",
+        "moje / naše"
+      ],
+      [
+        "koho? čo?",
+        "môj**ho** / náš**ho**",
+        "moj**u** / naš**u**",
+        "moj**e** / naš**e**"
+      ],
+      [
+        "o kom? o čom?",
+        "moj**om** / naš**om**",
+        "moj**ej** / naš**ej**",
+        "moj**om** / naš**om**"
+      ],
+      [
+        "s kým? s čím?",
+        "moj**ím** / naš**ím**",
+        "moj**ou** / naš**ou**",
+        "moj**ím** / naš**ím**"
+      ]
+    ],
+    "t": [
+      [
+        "kto? čo?",
+        "môj / náš",
+        "moja / naša",
+        "moje / naše"
+      ],
+      [
+        "koho? čo?",
+        "môj**ho** / náš**ho**",
+        "moj**u** / naš**u**",
+        "moj**e** / naš**e**"
+      ],
+      [
+        "o kom? o čom?",
+        "moj**om** / naš**om**",
+        "moj**ej** / naš**ej**",
+        "moj**om** / naš**om**"
+      ],
+      [
+        "s kým? s čím?",
+        "moj**ím** / naš**ím**",
+        "moj**ou** / naš**ou**",
+        "moj**ím** / naš**ím**"
+      ]
+    ]
+  },
+  "a2-u1-l11.grammar-possessives-singular.examples": {
+    "en": [
+      "Do you know my brother?",
+      "We're talking about your town.",
+      "Lucia is talking to my mum.",
+      "Do you know that book? Its author is Slovak."
+    ],
+    "t": [
+      "Ты знаешь моего брата?",
+      "Мы говорим о вашем городе.",
+      "Луция разговаривает с моей мамой.",
+      "Ты знаешь эту книгу? Её автор — словак."
+    ]
+  },
+  "a2-u1-l11.fill-poznas-mojho.en": {
+    "en": "Do you know my brother?",
+    "t": "Ты знаешь моего брата?"
+  },
+  "a2-u1-l11.fill-poznas-mojho.why": {
+    "en": "Brat is a man and the object, so môj takes **-ho**, like nového: **môjho** brata.",
+    "t": "Brat — мужчина и дополнение, поэтому môj получает **-ho**, как nového: **môjho** brata — «моего брата»."
+  },
+  "a2-u1-l11.fill-lucia-hovori-s.en": {
+    "en": "Lucia is talking to my mum.",
+    "t": "Луция разговаривает с моей мамой."
+  },
+  "a2-u1-l11.fill-lucia-hovori-s.why": {
+    "en": "After **s** (with), feminine words take **-ou**, and môj does too: s **mojou** mamou.",
+    "t": "После **s** (с) женский род получает **-ou**, и môj тоже: s **mojou** mamou — «с моей мамой»."
+  },
+  "a2-u1-l11.fill-v-nasej-izbe.en": {
+    "en": "It's warm in our room.",
+    "t": "В нашей комнате тепло."
+  },
+  "a2-u1-l11.fill-v-nasej-izbe.why": {
+    "en": "In our room answers “where?”. Feminine words take **-ej** in the locative, so naša becomes **našej**.",
+    "t": "«В нашей комнате» отвечает на вопрос «где?». Женский род в предложном падеже получает **-ej**, поэтому naša → **našej**, как «нашей»."
+  },
+  "a2-u1-l11.build-poznas-moju-kamaratku.prompt": {
+    "en": "Do you know my friend Kristína? (to a friend)",
+    "t": "Ты знаешь мою подругу Кристину?"
+  },
+  "a2-u1-l11.build-poznas-moju-kamaratku.traps": {
+    "en": [
+      "Kristína is the object, so feminine words take **-u**, and môj does too: **moju** kamarátku.",
+      "As the object, a woman's name changes -a to **-u**: **Kristínu**."
+    ],
+    "t": [
+      "Кристина — дополнение, поэтому женский род получает **-u**, и môj тоже: **moju** kamarátku — «мою подругу».",
+      "В роли дополнения женское имя меняет -a на **-u**: **Kristínu**, как «Кристину»."
+    ]
+  },
+  "a2-u1-l11.fill-daniel-poznam-jeho.en": {
+    "en": "Daniel? I know his grandma.",
+    "t": "Даниэль? Я знаю его бабушку."
+  },
+  "a2-u1-l11.fill-daniel-poznam-jeho.why": {
+    "en": "Daniel is a man, so **jeho** (his). It never changes: jeho babka, jeho babku, s jeho babkou.",
+    "t": "Даниэль — мужчина, поэтому **jeho** (его). Оно никогда не меняется, как и наше «его»: jeho babka, jeho babku, s jeho babkou."
+  },
+  "a2-u1-l11.fill-daniel-cita-knihu.en": {
+    "en": "Daniel is reading a book. Its author is Slovak.",
+    "t": "Даниэль читает книгу. Её автор — словак."
+  },
+  "a2-u1-l11.fill-daniel-cita-knihu.why": {
+    "en": "It's the book's author, and kniha is feminine, so **jej**, like for a woman. Jeho autor would be Daniel's.",
+    "t": "Речь об авторе книги, а kniha — женского рода, поэтому **jej** (её), как о женщине. Jeho autor значило бы автора Даниэля."
+  },
+  "a2-u1-l11.grammar-possessives-plural.title": {
+    "en": "Moji, mojich, mojimi: the plural",
+    "t": "Moji, mojich, mojimi: множественное число"
+  },
+  "a2-u1-l11.grammar-possessives-plural.body": {
+    "en": [
+      "In the plural, men (or a mixed group) take moji, women and things moje (A1, unit 4). The other forms are the same for all genders: mojich and mojimi, like nových and novými.",
+      "One difference: men as the object take mojich (Poznáš mojich kamarátov?), while women and things stay moje (Poznáš moje kamarátky?)."
+    ],
+    "t": [
+      "Во множественном числе для мужчин (или смешанной группы) — moji, для женщин и предметов — moje (A1, раздел 4). Остальные формы одинаковы для всех родов: mojich и mojimi, как nových и novými — и как наши «моих», «моими».",
+      "Одно различие: мужчины в роли дополнения — mojich (Poznáš mojich kamarátov? — «моих друзей»), а женщины и предметы остаются moje (Poznáš moje kamarátky?), хотя у нас «моих подруг»."
+    ]
+  },
+  "a2-u1-l11.grammar-possessives-plural.table.head": {
+    "en": [
+      "",
+      "men",
+      "women and things"
+    ],
+    "t": [
+      "",
+      "мужчины",
+      "женщины и предметы"
+    ]
+  },
+  "a2-u1-l11.grammar-possessives-plural.table.rows": {
+    "en": [
+      [
+        "kto? čo?",
+        "moj**i** kamaráti",
+        "moj**e** kamarátky"
+      ],
+      [
+        "koho? čo?",
+        "moj**ich** kamarátov",
+        "moj**e** kamarátky"
+      ],
+      [
+        "o kom? o čom?",
+        "o moj**ich** kamarátoch",
+        "o moj**ich** sestrách"
+      ],
+      [
+        "s kým? s čím?",
+        "s moj**imi** kamarátmi",
+        "s moj**imi** sestrami"
+      ]
+    ],
+    "t": [
+      [
+        "kto? čo?",
+        "moj**i** kamaráti",
+        "moj**e** kamarátky"
+      ],
+      [
+        "koho? čo?",
+        "moj**ich** kamarátov",
+        "moj**e** kamarátky"
+      ],
+      [
+        "o kom? o čom?",
+        "o moj**ich** kamarátoch",
+        "o moj**ich** sestrách"
+      ],
+      [
+        "s kým? s čím?",
+        "s moj**imi** kamarátmi",
+        "s moj**imi** sestrami"
+      ]
+    ]
+  },
+  "a2-u1-l11.grammar-possessives-plural.examples": {
+    "en": [
+      "These are my new friends.",
+      "Do you know our new students?",
+      "We're talking about your friends."
+    ],
+    "t": [
+      "Это мои новые друзья.",
+      "Вы знаете наших новых студентов?",
+      "Мы говорим о ваших друзьях."
+    ]
+  },
+  "a2-u1-l11.fill-to-su-moji.en": {
+    "en": "These are my new friends, Daniel and Kristína.",
+    "t": "Это мои новые друзья, Даниэль и Кристина."
+  },
+  "a2-u1-l11.fill-to-su-moji.why": {
+    "en": "A mixed group counts as men, so **moji**, like noví. Moje is for women and things.",
+    "t": "Смешанная группа считается мужской, поэтому **moji**, как noví. Moje — для женщин и предметов."
+  },
+  "a2-u1-l11.fill-pan-kovac-este.en": {
+    "en": "Pán Kováč doesn't know our new friends yet.",
+    "t": "Пан Ковач ещё не знает наших новых друзей."
+  },
+  "a2-u1-l11.fill-pan-kovac-este.why": {
+    "en": "The friends are men and the object, so náš takes **-ich**, like nových: **našich** kamarátov.",
+    "t": "Друзья — мужчины и дополнение, поэтому náš получает **-ich**, как nových: **našich** kamarátov — «наших друзей»."
+  },
+  "a2-u1-l11.fill-emma-ide-do.en": {
+    "en": "Emma is going to the cinema with our friends.",
+    "t": "Эмма идёт в кино с нашими друзьями."
+  },
+  "a2-u1-l11.fill-emma-ide-do.why": {
+    "en": "After **s** (with), the plural ends in **-imi**, like novými: s **našimi** kamarátmi.",
+    "t": "После **s** (с) множественное число оканчивается на **-imi**, как novými: s **našimi** kamarátmi — «с нашими»."
+  },
+  "a2-u1-l11.choice-kristinina-mama-je.question": {
+    "en": "Kristínina mama je Slovenka. How else can you say it?",
+    "t": "Kristínina mama je Slovenka. Как ещё можно это сказать?"
+  },
+  "a2-u1-l11.choice-kristinina-mama-je.why": {
+    "en": "Kristínina means Kristína's, a woman's, so **jej** (her). Jeho is his, ich their.",
+    "t": "Kristínina — «Кристинина», то есть мама женщины, поэтому **jej** (её). Jeho — «его», ich — «их»."
+  },
+  "a2-u1-l11.fill-lucia-ide-do.en": {
+    "en": "Lucia is going to the cinema with my brother.",
+    "t": "Луция идёт в кино с моим братом."
+  },
+  "a2-u1-l11.fill-lucia-ide-do.why": {
+    "en": "After **s** (with), masculine words take **-ím** in môj, like novým: s **mojím** bratom. Mojom is for “where?” or “about”.",
+    "t": "После **s** (с) мужской род в môj получает **-ím**, как novým: s **mojím** bratom — «с моим братом». Mojom — для «где?» или «о ком?»."
+  },
+  "a2-u1-l11.fill-je-v-tvojom.en": {
+    "en": "Is there a balcony in your flat?",
+    "t": "В твоей квартире есть балкон?"
+  },
+  "a2-u1-l11.fill-je-v-tvojom.why": {
+    "en": "In your flat answers “where?”, so after v comes the locative. Tvoj goes like môj: **tvojom**, like v mojom byte.",
+    "t": "«В твоей квартире» отвечает на вопрос «где?», поэтому после v — предложный падеж. Tvoj склоняется как môj: **tvojom**, как v mojom byte (byt — мужского рода)."
+  },
+  "a2-u1-l11.build-poznam-tvojho-brata.prompt": {
+    "en": "I know your brother. (to a friend)",
+    "t": "Я знаю твоего брата."
+  },
+  "a2-u1-l11.build-poznam-tvojho-brata.traps": {
+    "en": [
+      "Your brother is a man and the object, so tvoj takes **-ho**, like môjho: **tvojho** brata.",
+      "A man as the object adds **-a**: poznám **brata**."
+    ],
+    "t": [
+      "Твой брат — мужчина и дополнение, поэтому tvoj получает **-ho**, как môjho: **tvojho** brata — «твоего брата».",
+      "Мужчина в роли дополнения получает **-a**: poznám **brata**, как «брата»."
+    ]
+  },
+  "a2-u1-l11.build-hovorili-sme-o.prompt": {
+    "en": "We were talking about your teacher. (to a group)",
+    "t": "Мы говорили о вашей учительнице."
+  },
+  "a2-u1-l11.build-hovorili-sme-o.traps": {
+    "en": [
+      "After **o** (about) comes the locative, feminine **-ej**: vaša becomes **vašej**.",
+      "After o, a feminine noun in -a takes **-e**: o **učiteľke**."
+    ],
+    "t": [
+      "После **o** (о) — предложный падеж, женский род **-ej**: vaša → **vašej**, как «вашей».",
+      "После o существительное женского рода на -a получает **-e**: o **učiteľke**, как «об учительнице»."
+    ]
+  },
+  "a2-u1-l11.speak-to-su-moji.en": {
+    "en": "These are my new friends.",
+    "t": "Это мои новые друзья."
+  },
+  "a2-u1-l12.titleEn": {
+    "en": "What do you think?",
+    "t": "Что ты об этом думаешь?"
+  },
+  "a2-u1-l12.relacia.en": {
+    "en": "(TV or radio) programme, show",
+    "t": "передача (на телевидении или радио), шоу"
+  },
+  "a2-u1-l12.relacia.note": {
+    "en": "Pozeráš túto reláciu? = Do you watch this show? (**pozerať** = to watch) Martina from the student radio is doing a poll (**anketa**) about TV quiz shows.",
+    "t": "Pozeráš túto reláciu? = Ты смотришь эту передачу? (**pozerať** = смотреть) Мартина со студенческого радио проводит опрос (**anketa**) о телевикторинах."
+  },
+  "a2-u1-l12.choice-emma-pozera-kvizove.question": {
+    "en": "Why does Emma watch quiz shows?",
+    "t": "Почему Эмма смотрит телевикторины?"
+  },
+  "a2-u1-l12.choice-emma-pozera-kvizove.options": {
+    "en": [
+      "To learn Slovak.",
+      "Because she's bored.",
+      "To win a prize."
+    ],
+    "t": [
+      "Чтобы учить словацкий.",
+      "Потому что ей скучно.",
+      "Чтобы выиграть приз."
+    ]
+  },
+  "a2-u1-l12.podla-mna.en": {
+    "en": "in my opinion",
+    "t": "по-моему, на мой взгляд"
+  },
+  "a2-u1-l12.podla-mna.note": {
+    "en": "Daniel: Podľa mňa je tá relácia **nudná** (boring). Emma: Podľa mňa je **zábavná** (fun)!",
+    "t": "Daniel: Podľa mňa je tá relácia **nudná** (скучная). Emma: Podľa mňa je **zábavná** (увлекательная, весёлая)!"
+  },
+  "a2-u1-l12.fill-podla-mna-je.en": {
+    "en": "In my opinion that show is boring.",
+    "t": "По-моему, эта передача скучная."
+  },
+  "a2-u1-l12.fill-podla-mna-je.why": {
+    "en": "Relácia is feminine, so the adjective ends in **-á**: nudn**á**, like tá.",
+    "t": "Relácia — женского рода, поэтому прилагательное на **-á**: nudn**á**, как и tá."
+  },
+  "a2-u1-l12.celebrita.en": {
+    "en": "celebrity",
+    "t": "знаменитость"
+  },
+  "a2-u1-l12.celebrita.note": {
+    "en": "Je to celebrita: všetci ju poznajú. (**všetci** = everyone) A big star is a **hviezda**.",
+    "t": "Je to celebrita: všetci ju poznajú. = Это знаменитость: её все знают. (**všetci** = все) Большая звезда — **hviezda**."
+  },
+  "a2-u1-l12.slavny.en": {
+    "en": "famous",
+    "t": "знаменитый, известный"
+  },
+  "a2-u1-l12.slavny.note": {
+    "en": "Ten moderátor je veľmi slávny. Here v sounds like u, as in English “how”: [sláu̯ni]. The same in správny [spráu̯ni].",
+    "t": "Ten moderátor je veľmi slávny. (Этот ведущий очень знаменит; ср. «слава».) Здесь v звучит как краткое u: [sláu̯ni] ≈ «слауни». Так же в správny [spráu̯ni]."
+  },
+  "a2-u1-l12.build-ten-moderator-je.prompt": {
+    "en": "That presenter is very famous.",
+    "t": "Этот ведущий очень знаменит."
+  },
+  "a2-u1-l12.build-ten-moderator-je.traps": {
+    "en": [
+      "Moderátor is a man, so “that” is **ten**. Tá is for a woman: tá moderátorka.",
+      "Moderátor is masculine, so the ending is **-y**, short after the long á: slávn**y**."
+    ],
+    "t": [
+      "Moderátor — мужчина, поэтому «этот» — **ten**. Tá — для женщины: tá moderátorka.",
+      "Moderátor — мужского рода, поэтому окончание **-y**, краткое после долгого á: slávn**y**."
+    ]
+  },
+  "a2-u1-l12.choice-daniel-doesnt-like.question": {
+    "en": "Daniel doesn't like the show. What does he say?",
+    "t": "Даниэлю передача не нравится. Что он скажет?"
+  },
+  "a2-u1-l12.build-co-si-myslite.answers": {
+    "en": [
+      "What do you think of that show?",
+      "What do you think about that show?",
+      "What do you think of that programme?",
+      "What do you think about that programme?"
+    ],
+    "t": [
+      "Что вы думаете об этой передаче?",
+      "Что вы думаете о той передаче?",
+      "Что вы думаете об этом шоу?",
+      "Как вам эта передача?"
+    ]
+  },
+  "a2-u1-l12.build-co-si-myslite.distractors": {
+    "en": [
+      "presenter",
+      "where"
+    ],
+    "t": [
+      "ведущем",
+      "где"
+    ]
+  },
+  "a2-u1-l12.co-to-znamena.en": {
+    "en": "What does that mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u1-l12.co-to-znamena.note": {
+    "en": "**znamenať** = to mean. The answer often starts **To znamená, že…** = It means that…",
+    "t": "**znamenať** = значить. Ответ часто начинается так: **To znamená, že…** = Это значит, что…"
+  },
+  "a2-u1-l12.zavinac.en": {
+    "en": "at sign (@)",
+    "t": "собака (знак @)"
+  },
+  "a2-u1-l12.zavinac.note": {
+    "en": "Slovaks read the @ in an e-mail address as **zavináč**: emma zavináč…",
+    "t": "Знак @ в адресе электронной почты словаки читают как **zavináč** (у нас — «собака»): emma zavináč…"
+  },
+  "a2-u1-l12.choice-co-znamena-zavinac.question": {
+    "en": "Emma asks Daniel about a word. What's the answer?",
+    "t": "Эмма спрашивает Даниэля о слове. Какой ответ?"
+  },
+  "a2-u1-l12.choice-co-znamena-zavinac.options": {
+    "en": [
+      "a famous presenter",
+      "a quiz question",
+      "the @ sign in an e-mail address"
+    ],
+    "t": [
+      "знаменитый ведущий",
+      "вопрос викторины",
+      "знак @ в адресе электронной почты"
+    ]
+  },
+  "a2-u1-l12.choice-co-znamena-zavinac.why": {
+    "en": "**Zavináč** is the @ sign. Slovaks read an e-mail address like this: emma zavináč…",
+    "t": "**Zavináč** — это знак @, наша «собака». Так словаки читают адрес почты: emma zavináč…"
+  },
+  "a2-u1-l12.fill-daniel-nosi-okuliare.en": {
+    "en": "Daniel wears glasses? That means he can't see well.",
+    "t": "Даниэль носит очки? Значит, он плохо видит."
+  },
+  "a2-u1-l12.fill-daniel-nosi-okuliare.why": {
+    "en": "To (that) works like on or ona: no ending, **znamená**. The á is long because me- is short.",
+    "t": "To (это) ведёт себя как on или ona: окончания нет, **znamená**. á долгое, потому что me- краткий."
+  },
+  "a2-u1-l12.match-relacia.pairs": {
+    "en": [
+      "show",
+      "celebrity",
+      "famous",
+      "boring",
+      "fun"
+    ],
+    "t": [
+      "передача",
+      "знаменитость",
+      "знаменитый",
+      "скучный",
+      "увлекательный"
+    ]
+  },
+  "a2-u1-l12.build-podla-mna-bol.prompt": {
+    "en": "In my opinion, the quiz was fun.",
+    "t": "По-моему, викторина была увлекательной."
+  },
+  "a2-u1-l12.build-podla-mna-bol.traps": {
+    "en": [
+      "Kvíz is masculine, so the adjective ends in **-ý**: zábavn**ý**.",
+      "The quiz is over, so byť is in the past: kvíz **bol**. Je is now."
+    ],
+    "t": [
+      "Kvíz — мужского рода (хотя «викторина» у нас женского), поэтому прилагательное на **-ý**: zábavn**ý**.",
+      "Викторина уже закончилась, поэтому byť в прошедшем времени: kvíz **bol**. Je — это сейчас."
+    ]
+  },
+  "a2-u1-l12.speak-prepacte-co-to.en": {
+    "en": "Sorry, what does that mean?",
+    "t": "Извините, что это значит?"
+  },
+  "a2-u1-l13.titleEn": {
+    "en": "Hard and soft adjectives",
+    "t": "Твёрдые и мягкие прилагательные"
+  },
+  "a2-u1-l13.grammar-pekny-cudzi.title": {
+    "en": "Pekný and cudzí",
+    "t": "Pekný и cudzí"
+  },
+  "a2-u1-l13.grammar-pekny-cudzi.body": {
+    "en": [
+      "The consonant before the ending decides. After a hard consonant (d, t, n, l, k, h, ch, g, b, m, p, r, s, v, z, f) adjectives go like pekný, as in A1. After a soft consonant (c, č, dz, dž, ž, š, j, ď, ť, ň, ľ) they go like **cudzí** (foreign, strange): long ý, á, é, ú become í, ia, ie, iu, and y becomes i.",
+      "You know two already: horúci (hot), and tretí (third), whose t is a soft ť: before í the hook isn't written, as in Teší ma. New: **domáci** (home, homemade) and **budúci** (next). After a long syllable their endings are short, by the rhythmic law: domáca úloha (homework), budúci týždeň (next week)."
+    ],
+    "t": [
+      "Всё решает согласный перед окончанием — примерно как у нас «новый» и «синий». После твёрдого согласного (d, t, n, l, k, h, ch, g, b, m, p, r, s, v, z, f) прилагательные склоняются как pekný, как в A1. После мягкого (c, č, dz, dž, ž, š, j, ď, ť, ň, ľ; c, ž, š в словацком мягкие, хотя наши ц, ж, ш твёрдые) — как **cudzí** (чужой, иностранный): долгие ý, á, é, ú превращаются в í, ia, ie, iu, а y — в i.",
+      "Два таких вы уже знаете: horúci (горячий) и tretí (третий), где t — мягкое ť: перед í галочку не пишут, как в Teší ma. Новые: **domáci** (домашний) и **budúci** (будущий, следующий). После долгого слога их окончания краткие, по ритмическому закону: domáca úloha (домашнее задание), budúci týždeň (следующая неделя)."
+    ]
+  },
+  "a2-u1-l13.grammar-pekny-cudzi.table.head": {
+    "en": [
+      "",
+      "hard: pekný",
+      "soft: cudzí"
+    ],
+    "t": [
+      "",
+      "твёрдые: pekný",
+      "мягкие: cudzí"
+    ]
+  },
+  "a2-u1-l13.grammar-pekny-cudzi.table.rows": {
+    "en": [
+      [
+        "he",
+        "pekn**ý**",
+        "cudz**í**"
+      ],
+      [
+        "she",
+        "pekn**á**",
+        "cudz**ia**"
+      ],
+      [
+        "it",
+        "pekn**é**",
+        "cudz**ie**"
+      ],
+      [
+        "object: she",
+        "pekn**ú**",
+        "cudz**iu**"
+      ],
+      [
+        "object: he (a person)",
+        "pekn**ého**",
+        "cudz**ieho**"
+      ],
+      [
+        "o kom? (he, it / she)",
+        "pekn**om** / pekn**ej**",
+        "cudz**om** / cudz**ej**"
+      ],
+      [
+        "s kým? (he, it / she)",
+        "pekn**ým** / pekn**ou**",
+        "cudz**ím** / cudz**ou**"
+      ],
+      [
+        "plural: o kom? / s kým?",
+        "pekn**ých** / pekn**ými**",
+        "cudz**ích** / cudz**ími**"
+      ]
+    ],
+    "t": [
+      [
+        "он",
+        "pekn**ý**",
+        "cudz**í**"
+      ],
+      [
+        "она",
+        "pekn**á**",
+        "cudz**ia**"
+      ],
+      [
+        "оно",
+        "pekn**é**",
+        "cudz**ie**"
+      ],
+      [
+        "дополнение: она",
+        "pekn**ú**",
+        "cudz**iu**"
+      ],
+      [
+        "дополнение: он (человек)",
+        "pekn**ého**",
+        "cudz**ieho**"
+      ],
+      [
+        "o kom? (он, оно / она)",
+        "pekn**om** / pekn**ej**",
+        "cudz**om** / cudz**ej**"
+      ],
+      [
+        "s kým? (он, оно / она)",
+        "pekn**ým** / pekn**ou**",
+        "cudz**ím** / cudz**ou**"
+      ],
+      [
+        "мн. ч.: o kom? / s kým?",
+        "pekn**ých** / pekn**ými**",
+        "cudz**ích** / cudz**ími**"
+      ]
+    ]
+  },
+  "a2-u1-l13.grammar-pekny-cudzi.examples": {
+    "en": [
+      "I'm learning a foreign language.",
+      "Bratislava isn't a strange city any more.",
+      "I'm doing my homework."
+    ],
+    "t": [
+      "Я учу иностранный язык.",
+      "Братислава — уже не чужой город.",
+      "Я делаю домашнее задание."
+    ]
+  },
+  "a2-u1-l13.grammar-men-plural-i.title": {
+    "en": "Groups of men: -í",
+    "t": "Группа мужчин: -í"
+  },
+  "a2-u1-l13.grammar-men-plural-i.body": {
+    "en": [
+      "You know tí mladí kuchári from A1: with men, or a mixed group, adjectives end in **-í**. Everything else in the plural ends in -é, or -ie in the soft type.",
+      "Adjectives in -ský and -cký keep their k: slovenskí, anglickí. Soft adjectives have one form for one man and for men: cudzí človek (a stranger), cudzí ľudia (strangers)."
+    ],
+    "t": [
+      "Вы знаете tí mladí kuchári из A1: о мужчинах или смешанной группе прилагательные оканчиваются на **-í**. Всё остальное во множественном числе оканчивается на -é, а у мягкого типа — на -ie. У нас во множественном числе род не различается, а в словацком — различается.",
+      "Прилагательные на -ský и -cký сохраняют k: slovenskí, anglickí. У мягких прилагательных одна форма и для одного мужчины, и для мужчин: cudzí človek (незнакомый человек), cudzí ľudia (незнакомые люди)."
+    ]
+  },
+  "a2-u1-l13.grammar-men-plural-i.table.head": {
+    "en": [
+      "one man",
+      "men",
+      "women, things"
+    ],
+    "t": [
+      "один мужчина",
+      "мужчины",
+      "женщины, предметы"
+    ]
+  },
+  "a2-u1-l13.grammar-men-plural-i.table.rows": {
+    "en": [
+      [
+        "nov**ý** študent",
+        "nov**í** študenti",
+        "nov**é** študentky"
+      ],
+      [
+        "slovensk**ý** študent",
+        "slovensk**í** študenti",
+        "slovensk**é** študentky"
+      ],
+      [
+        "zahraničn**ý** študent",
+        "zahraničn**í** študenti",
+        "zahraničn**é** študentky"
+      ],
+      [
+        "cudz**í** človek",
+        "cudz**í** ľudia",
+        "cudz**ie** mestá"
+      ]
+    ],
+    "t": [
+      [
+        "nov**ý** študent",
+        "nov**í** študenti",
+        "nov**é** študentky"
+      ],
+      [
+        "slovensk**ý** študent",
+        "slovensk**í** študenti",
+        "slovensk**é** študentky"
+      ],
+      [
+        "zahraničn**ý** študent",
+        "zahraničn**í** študenti",
+        "zahraničn**é** študentky"
+      ],
+      [
+        "cudz**í** človek",
+        "cudz**í** ľudia",
+        "cudz**ie** mestá"
+      ]
+    ]
+  },
+  "a2-u1-l13.grammar-men-plural-i.examples": {
+    "en": [
+      "The new students are in the library.",
+      "Slovak students speak English."
+    ],
+    "t": [
+      "Новые студенты в библиотеке.",
+      "Словацкие студенты говорят по-английски."
+    ]
+  },
+  "a2-u1-l13.fill-ucim-sa-cudzi.en": {
+    "en": "I'm learning a foreign language.",
+    "t": "Я учу иностранный язык."
+  },
+  "a2-u1-l13.fill-ucim-sa-cudzi.why": {
+    "en": "Jazyk is a masculine thing, so as the object it stays as it is: **cudzí** jazyk. Cudzieho is for a person or an animal.",
+    "t": "Jazyk — неодушевлённое мужского рода, поэтому в роли дополнения не меняется: **cudzí** jazyk. Cudzieho — для человека или животного."
+  },
+  "a2-u1-l13.fill-kristina-ovlada-dva.en": {
+    "en": "Kristína speaks two foreign languages.",
+    "t": "Кристина владеет двумя иностранными языками."
+  },
+  "a2-u1-l13.fill-kristina-ovlada-dva.why": {
+    "en": "Jazyky are things in the plural, so the soft ending is **-ie**: cudz**ie** jazyky, like pekné.",
+    "t": "Jazyky — предметы во множественном числе, поэтому мягкое окончание **-ie**: cudz**ie** jazyky, как pekné."
+  },
+  "a2-u1-l13.fill-vecer-robim-domacu.en": {
+    "en": "In the evening I do my homework.",
+    "t": "Вечером я делаю домашнее задание."
+  },
+  "a2-u1-l13.fill-vecer-robim-domacu.why": {
+    "en": "Úloha is feminine and the object, so **-u**: domác**u**. It's short because má- is long.",
+    "t": "Úloha — женского рода и дополнение, поэтому **-u**: domác**u**. Краткое, потому что má- долгий."
+  },
+  "a2-u1-l13.fill-buduci-tyzden-mam.en": {
+    "en": "Next week I have an exam.",
+    "t": "На следующей неделе у меня экзамен."
+  },
+  "a2-u1-l13.fill-buduci-tyzden-mam.why": {
+    "en": "Týždeň is masculine: **budúci**, the soft type, with a short i after the long ú.",
+    "t": "Týždeň — мужского рода (хотя «неделя» у нас женского): **budúci**, мягкий тип, с кратким i после долгого ú."
+  },
+  "a2-u1-l13.fill-na-seminari-hovorime.en": {
+    "en": "At the seminar we talk about a foreign culture.",
+    "t": "На семинаре мы говорим о чужой культуре."
+  },
+  "a2-u1-l13.fill-na-seminari-hovorime.why": {
+    "en": "After o comes the locative. Kultúra is feminine, so **-ej**: cudz**ej**, just like peknej.",
+    "t": "После o — предложный падеж. Kultúra — женского рода, поэтому **-ej**: cudz**ej**, точно как peknej."
+  },
+  "a2-u1-l13.choice-which-like-cudzi.question": {
+    "en": "Which adjective goes like cudzí?",
+    "t": "Какое прилагательное склоняется как cudzí?"
+  },
+  "a2-u1-l13.choice-which-like-cudzi.why": {
+    "en": "In domáci a soft **c** comes before the ending, so it's the soft type. Slávny and slovenský have a hard n and k.",
+    "t": "В domáci перед окончанием мягкий **c**, значит, это мягкий тип. В slávny и slovenský — твёрдые n и k."
+  },
+  "a2-u1-l13.grammar-i-or-y.title": {
+    "en": "One sound, two letters: i and y",
+    "t": "Один звук, две буквы: i и y"
+  },
+  "a2-u1-l13.grammar-i-or-y.body": {
+    "en": [
+      "i and y sound the same, and so do í and ý: Slovak has one sound but two letters. In adjective endings you can tell which one to write.",
+      "After a hard consonant write y, ý: pekný, krásny. After a soft one write i, í: cudzí, domáci. And for groups of men always i, í: pekní, noví. So nový študent and noví študenti sound exactly the same: only the spelling shows one man or more."
+    ],
+    "t": [
+      "i и y звучат одинаково — как наше и, никогда не как ы; так же í и ý. Звук один, а букв две. В окончаниях прилагательных легко понять, какую писать.",
+      "После твёрдого согласного пишите y, ý: pekný, krásny. После мягкого — i, í: cudzí, domáci. А для группы мужчин всегда i, í: pekní, noví. Поэтому nový študent и noví študenti звучат совершенно одинаково: только написание показывает, один мужчина или несколько."
+    ]
+  },
+  "a2-u1-l13.grammar-i-or-y.examples": {
+    "en": [
+      "The new student is from Munich.",
+      "The new students are from Munich."
+    ],
+    "t": [
+      "Новый студент из Мюнхена.",
+      "Новые студенты из Мюнхена."
+    ]
+  },
+  "a2-u1-l13.fill-na-univerzite-su.en": {
+    "en": "There are new students at the university.",
+    "t": "В университете есть новые студенты."
+  },
+  "a2-u1-l13.fill-na-univerzite-su.why": {
+    "en": "Študenti are men (or a mixed group), so the ending is **-í**: nov**í**. Nový is for one man, nové for women and things.",
+    "t": "Študenti — мужчины (или смешанная группа), поэтому окончание **-í**: nov**í**. Nový — для одного мужчины, nové — для женщин и предметов."
+  },
+  "a2-u1-l13.choice-novi-studenti-su.question": {
+    "en": "The first two sound the same. Which one is spelled correctly?",
+    "t": "Первые два звучат одинаково. Какой вариант написан правильно?"
+  },
+  "a2-u1-l13.choice-novi-studenti-su.why": {
+    "en": "Groups of men take **-í**, written with i: nov**í** študenti. Nový sounds the same, but it's for one man.",
+    "t": "У группы мужчин — **-í**, с буквой i: nov**í** študenti. Nový звучит так же, но это для одного мужчины."
+  },
+  "a2-u1-l13.build-slovenski-studenti-hovoria.prompt": {
+    "en": "Slovak students speak English well.",
+    "t": "Словацкие студенты хорошо говорят по-английски."
+  },
+  "a2-u1-l13.build-slovenski-studenti-hovoria.traps": {
+    "en": [
+      "Študenti are men (or a mixed group), so the adjective ends in **-í**: **slovenskí** študenti. Slovenské is for women and things.",
+      "Študenti are oni, so the verb is **hovoria**. Hovorí is for one person."
+    ],
+    "t": [
+      "Študenti — мужчины (или смешанная группа), поэтому прилагательное на **-í**: **slovenskí** študenti. Slovenské — для женщин и предметов.",
+      "Študenti — это oni, поэтому глагол **hovoria**. Hovorí — для одного человека."
+    ]
+  },
+  "a2-u1-l13.build-zahranicni-studenti-su.prompt": {
+    "en": "The foreign students are in the library.",
+    "t": "Иностранные студенты в библиотеке."
+  },
+  "a2-u1-l13.build-zahranicni-studenti-su.traps": {
+    "en": [
+      "Študenti are men (or a mixed group), so **-í**: **zahraniční**. Zahraničné is for women and things.",
+      "In the library answers “where?”: after v, -ca becomes **-ci**: v **knižnici**."
+    ],
+    "t": [
+      "Študenti — мужчины (или смешанная группа), поэтому **-í**: **zahraniční**. Zahraničné — для женщин и предметов.",
+      "«В библиотеке» отвечает на вопрос «где?»: после v -ca меняется на **-ci**: v **knižnici**."
+    ]
+  },
+  "a2-u1-l13.build-daniel-rad-hovori.answers": {
+    "en": [
+      "Daniel likes talking to strangers too.",
+      "Daniel likes talking with strangers too.",
+      "Daniel even likes talking to strangers.",
+      "Daniel likes to talk to strangers too."
+    ],
+    "t": [
+      "Даниэль любит разговаривать и с незнакомыми людьми.",
+      "Даниэль любит говорить и с незнакомыми людьми.",
+      "Даниэль любит разговаривать даже с незнакомыми людьми.",
+      "Даниэль любит разговаривать и с незнакомцами."
+    ]
+  },
+  "a2-u1-l13.build-daniel-rad-hovori.distractors": {
+    "en": [
+      "friends",
+      "hates"
+    ],
+    "t": [
+      "друзьями",
+      "ненавидит"
+    ]
+  },
+  "a2-u1-l13.speak-bratislava-uz-nie.en": {
+    "en": "Bratislava isn't a strange city any more.",
+    "t": "Братислава — уже не чужой город."
+  },
+  "a2-u1-l14.titleEn": {
+    "en": "The last round",
+    "t": "Последний раунд"
+  },
+  "a2-u1-l14.hranica.en": {
+    "en": "border",
+    "t": "граница"
+  },
+  "a2-u1-l14.hranica.note": {
+    "en": "Bratislava je pri **hranici** s Rakúskom a s Maďarskom. (**Rakúsko** = Austria, **Maďarsko** = Hungary, **krajina** = country)",
+    "t": "Bratislava je pri **hranici** s Rakúskom a s Maďarskom. (Братислава — у границы с Австрией и Венгрией. **Rakúsko** = Австрия, **Maďarsko** = Венгрия, **krajina** = страна)"
+  },
+  "a2-u1-l14.choice-s-ktorou-krajinou.question": {
+    "en": "The last round, first question. What's the right answer?",
+    "t": "Последний раунд, первый вопрос. Какой ответ правильный?"
+  },
+  "a2-u1-l14.hory.en": {
+    "en": "mountains",
+    "t": "горы"
+  },
+  "a2-u1-l14.hory.note": {
+    "en": "One is a **hora**. Vysoké Tatry sú hory na **severe** Slovenska (in the north). Also: na **juhu** (in the south), na **východe** (in the east), na **západe** (in the west).",
+    "t": "Одна гора — **hora**. Vysoké Tatry sú hory na **severe** Slovenska (на севере). Ещё: na **juhu** (на юге), na **východe** (на востоке), na **západe** (на западе)."
+  },
+  "a2-u1-l14.choice-kde-su-vysoke.question": {
+    "en": "Second question. What's the answer?",
+    "t": "Второй вопрос. Какой ответ?"
+  },
+  "a2-u1-l14.spissky-hrad.en": {
+    "en": "Spiš Castle",
+    "t": "Спишский Град (замок)"
+  },
+  "a2-u1-l14.spissky-hrad.note": {
+    "en": "One of the biggest castles in Central Europe. It's **na Spiši**, a **región** (region) in the east of Slovakia: na východe Slovenska.",
+    "t": "Один из самых больших замков Центральной Европы. Он находится **na Spiši** — это **región** (регион) на востоке Словакии: na východe Slovenska."
+  },
+  "a2-u1-l14.choice-v-ktorom-regione.question": {
+    "en": "Third question. Mrs Horváthová says it's an easy one.",
+    "t": "Третий вопрос. Госпожа Горватова говорит, что он лёгкий."
+  },
+  "a2-u1-l14.choice-v-ktorom-regione.why": {
+    "en": "The name says it: **spišský** means “of Spiš”, so Spišský hrad is na Spiši, in the east.",
+    "t": "Ответ в самом названии: **spišský** значит «спишский», так что Spišský hrad — na Spiši, на востоке."
+  },
+  "a2-u1-l14.vyhrat.en": {
+    "en": "to win",
+    "t": "выиграть, победить"
+  },
+  "a2-u1-l14.vyhrat.note": {
+    "en": "**Vyhrali sme!** = We've won! The winner is the **víťaz**; the winners are the víťazi.",
+    "t": "**Vyhrali sme!** = Мы выиграли! Победитель — **víťaz**, победители — víťazi."
+  },
+  "a2-u1-l14.build-nas-tim-vyhral.prompt": {
+    "en": "Our team has won!",
+    "t": "Наша команда выиграла!"
+  },
+  "a2-u1-l14.build-nas-tim-vyhral.traps": {
+    "en": [
+      "Tím (team) is one masculine thing, like on, so the past form is **vyhral**. Vyhrali is for more people: vyhrali sme.",
+      "The team is the subject here, so the basic form: **náš** tím. Našom answers “where?”: v našom tíme."
+    ],
+    "t": [
+      "Tím (команда) — один, мужского рода, как on, поэтому в прошедшем времени — **vyhral** (у нас «выиграла», потому что «команда» женского рода). Vyhrali — для нескольких: vyhrali sme.",
+      "Команда здесь — подлежащее, поэтому начальная форма: **náš** tím. Našom отвечает на вопрос «где?»: v našom tíme."
+    ]
+  },
+  "a2-u1-l14.gratulujem.en": {
+    "en": "Congratulations!",
+    "t": "Поздравляю!"
+  },
+  "a2-u1-l14.gratulujem.note": {
+    "en": "**Gratulujem, vyhrali ste!** = Congratulations, you've won!",
+    "t": "**Gratulujem, vyhrali ste!** = Поздравляю, вы выиграли!"
+  },
+  "a2-u1-l14.fill-gratulujem-vyhrali-ste.en": {
+    "en": "Congratulations, you've won!",
+    "t": "Поздравляю, вы выиграли!"
+  },
+  "a2-u1-l14.fill-gratulujem-vyhrali-ste.why": {
+    "en": "With **vy**, the past always ends in **-li**, even for one person: vyhrali ste.",
+    "t": "С **vy** прошедшее время всегда на **-li**, даже об одном человеке: vyhrali ste — как «вы выиграли»."
+  },
+  "a2-u1-l14.cena.en": {
+    "en": "prize",
+    "t": "приз"
+  },
+  "a2-u1-l14.cena.note": {
+    "en": "Cena pre víťazov je kniha o Slovensku. Cena also means price: Aká je cena?",
+    "t": "Cena pre víťazov je kniha o Slovensku. (Приз для победителей — книга о Словакии.) Cena — это ещё и «цена»: Aká je cena?"
+  },
+  "a2-u1-l14.fanusik.en": {
+    "en": "fan, supporter",
+    "t": "болельщик, фанат"
+  },
+  "a2-u1-l14.fanusik.note": {
+    "en": "Plural: **fanúšikovia**. Naši fanúšikovia sú tu!",
+    "t": "Множественное число: **fanúšikovia**. Naši fanúšikovia sú tu! = Наши болельщики здесь!"
+  },
+  "a2-u1-l14.choice-gratulujem-si-nasa.question": {
+    "en": "Kristína knew almost every answer. What does Daniel tell her?",
+    "t": "Кристина знала почти все ответы. Что ей говорит Даниэль?"
+  },
+  "a2-u1-l14.build-kristina-vedela-spravne.prompt": {
+    "en": "Kristína knew the right answers.",
+    "t": "Кристина знала правильные ответы."
+  },
+  "a2-u1-l14.build-kristina-vedela-spravne.traps": {
+    "en": [
+      "Kristína is a woman, so the past form ends in **-la**: **vedela**.",
+      "Odpovede is plural, so the adjective ends in **-e**: **správne** odpovede."
+    ],
+    "t": [
+      "Кристина — женщина, поэтому прошедшее время на **-la**: **vedela**.",
+      "Odpovede — множественное число, поэтому прилагательное на **-e**: **správne** odpovede."
+    ]
+  },
+  "a2-u1-l14.build-bratislava-je-pri.answers": {
+    "en": [
+      "Bratislava is near the border with Austria.",
+      "Bratislava is on the border with Austria.",
+      "Bratislava is by the border with Austria."
+    ],
+    "t": [
+      "Братислава находится у границы с Австрией.",
+      "Братислава находится на границе с Австрией.",
+      "Братислава у границы с Австрией.",
+      "Братислава расположена у границы с Австрией."
+    ]
+  },
+  "a2-u1-l14.build-bratislava-je-pri.distractors": {
+    "en": [
+      "Hungary",
+      "far"
+    ],
+    "t": [
+      "Венгрией",
+      "далеко"
+    ]
+  },
+  "a2-u1-l14.match-hranica.pairs": {
+    "en": [
+      "border",
+      "mountains",
+      "winner",
+      "prize",
+      "fan"
+    ],
+    "t": [
+      "граница",
+      "горы",
+      "победитель",
+      "приз",
+      "болельщик"
+    ]
+  },
+  "a2-u1-l14.speak-gratulujem-vyhrali-ste.en": {
+    "en": "Congratulations, you've won!",
+    "t": "Поздравляю, вы выиграли!"
+  },
+  "a2-u1-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Письменная практика"
+  },
+  "a2-u1-pisanie.listen-prosim-predstavte-sa.en": {
+    "en": "Please introduce yourselves.",
+    "t": "Пожалуйста, представьтесь."
+  },
+  "a2-u1-pisanie.listen-kristina-je-moja.en": {
+    "en": "Kristína is my new classmate.",
+    "t": "Кристина — моя новая однокурсница."
+  },
+  "a2-u1-pisanie.listen-daniel-hovori-po.en": {
+    "en": "Daniel speaks German and Slovak.",
+    "t": "Даниэль говорит по-немецки и по-словацки."
+  },
+  "a2-u1-pisanie.listen-aka-je-spravna.en": {
+    "en": "What's the right answer?",
+    "t": "Какой ответ правильный?"
+  },
+  "a2-u1-pisanie.listen-kviz-sa-zacina.en": {
+    "en": "The quiz starts at seven.",
+    "t": "Викторина начинается в семь."
+  },
+  "a2-u1-pisanie.listen-to-bol-len.en": {
+    "en": "It was only a joke.",
+    "t": "Это была просто шутка."
+  },
+  "a2-u1-pisanie.listen-gratulujem-vyhrali-ste.en": {
+    "en": "Congratulations, you've won!",
+    "t": "Поздравляю, вы выиграли!"
+  },
+  "a2-u1-l15.titleEn": {
+    "en": "Review",
+    "t": "Повторение"
+  },
+  "a2-u1-l15.match-predmet.pairs": {
+    "en": [
+      "subject",
+      "scholarship",
+      "classmate",
+      "competition",
+      "winner"
+    ],
+    "t": [
+      "предмет",
+      "стипендия",
+      "однокурсник",
+      "конкурс",
+      "победитель"
+    ]
+  },
+  "a2-u1-l15.fill-poznas-moju-kamaratku.en": {
+    "en": "Do you know my friend Kristína?",
+    "t": "Ты знаешь мою подругу Кристину?"
+  },
+  "a2-u1-l15.fill-poznas-moju-kamaratku.why": {
+    "en": "Kristína is the object, so môj takes the feminine **-u**: **moju** kamarátku.",
+    "t": "Кристина — дополнение, поэтому môj получает женское **-u**: **moju** kamarátku — «мою подругу»."
+  },
+  "a2-u1-l15.choice-obraz.question": {
+    "en": "How does the z at the end of obraz sound?",
+    "t": "Как звучит z в конце слова obraz?"
+  },
+  "a2-u1-l15.choice-obraz.options": {
+    "en": [
+      "like z",
+      "like s"
+    ],
+    "t": [
+      "как z",
+      "как s"
+    ]
+  },
+  "a2-u1-l15.choice-obraz.why": {
+    "en": "At the end of a word, a voiced consonant becomes voiceless: z sounds like **s**, [obras].",
+    "t": "В конце слова звонкий согласный оглушается: z звучит как **s**, [obras] — как и у нас «образ» [обрас]."
+  },
+  "a2-u1-l15.build-prosim-predstavte-sa.prompt": {
+    "en": "Please introduce yourselves.",
+    "t": "Пожалуйста, представьтесь. (группе)"
+  },
+  "a2-u1-l15.build-prosim-predstavte-sa.traps": {
+    "en": [
+      "You're speaking to several people, so it's the vy form: **predstavte**. Predstav is for one friend.",
+      "Introducing yourself is **predstaviť sa**, with sa."
+    ],
+    "t": [
+      "Вы обращаетесь к нескольким людям, поэтому форма на vy: **predstavte**. Predstav — для одного друга.",
+      "«Представиться» — **predstaviť sa**, с sa (как с -ся)."
+    ]
+  },
+  "a2-u1-l15.fill-na-kvize-boli.en": {
+    "en": "There were Slovak students at the quiz too.",
+    "t": "На викторине были и словацкие студенты."
+  },
+  "a2-u1-l15.fill-na-kvize-boli.why": {
+    "en": "Študenti are men (or a mixed group), so the adjective ends in **-í**: slovensk**í**.",
+    "t": "Študenti — мужчины (или смешанная группа), поэтому прилагательное на **-í**: slovensk**í**."
+  },
+  "a2-u1-l15.fill-je-mi-to.en": {
+    "en": "I'm sorry, that's not the right answer.",
+    "t": "Мне жаль, это неправильный ответ."
+  },
+  "a2-u1-l15.fill-je-mi-to.why": {
+    "en": "Odpoveď is feminine, so **-a**, and it's short after the long á: správn**a**.",
+    "t": "Odpoveď — женского рода, поэтому **-a**, и оно краткое после долгого á: správn**a**."
+  },
+  "a2-u1-l15.choice-which-soft.question": {
+    "en": "Which adjective is the soft type, like cudzí?",
+    "t": "Какое прилагательное мягкого типа, как cudzí?"
+  },
+  "a2-u1-l15.choice-which-soft.why": {
+    "en": "In budúci a soft **c** comes before the ending, so it goes like cudzí: budúci, budúca, budúce.",
+    "t": "В budúci перед окончанием мягкий **c**, поэтому оно склоняется как cudzí: budúci, budúca, budúce."
+  },
+  "a2-u1-l15.build-kristina-sa-narodila.prompt": {
+    "en": "Kristína was born and grew up in Trenčín.",
+    "t": "Кристина родилась и выросла в Тренчине."
+  },
+  "a2-u1-l15.build-kristina-sa-narodila.traps": {
+    "en": [
+      "Kristína is a woman, so the past form ends in **-la**: **narodila** sa.",
+      "In Trenčín answers “where?”, so after v it takes the locative: v **Trenčíne**."
+    ],
+    "t": [
+      "Кристина — женщина, поэтому прошедшее время на **-la**: **narodila** sa.",
+      "«В Тренчине» отвечает на вопрос «где?», поэтому после v — предложный падеж: v **Trenčíne**."
+    ]
+  },
+  "a2-u1-l15.speak-dakujem-za-rozhovor.en": {
+    "en": "Thanks for the interview.",
+    "t": "Спасибо за интервью."
+  },
+  "a2-u1-l15.fill-daniel-ano-jeho.en": {
+    "en": "Daniel? Yes, his grandma is from Slovakia.",
+    "t": "Даниэль? Да, его бабушка из Словакии."
+  },
+  "a2-u1-l15.fill-daniel-ano-jeho.why": {
+    "en": "Daniel is a man, so **jeho** (his). It's the same in every form: jeho babka, jeho babku.",
+    "t": "Даниэль — мужчина, поэтому **jeho** (его). Во всех формах одно и то же: jeho babka, jeho babku."
+  },
+  "a2-u1-l15.fill-lucia-a-kristina.en": {
+    "en": "Lucia and Kristína will give it a try.",
+    "t": "Луция и Кристина попробуют."
+  },
+  "a2-u1-l15.fill-lucia-a-kristina.why": {
+    "en": "Two people are ony, and their ending **-ia** stays long even after the long ú: skús**ia**.",
+    "t": "Две женщины — это ony, и их окончание **-ia** остаётся долгим даже после долгого ú: skús**ia**."
+  },
+  "a2-u1-l15.choice-v-piatok-mam.question": {
+    "en": "How does the v in v piatok sound?",
+    "t": "Как звучит v в v piatok?"
+  },
+  "a2-u1-l15.choice-v-piatok-mam.options": {
+    "en": [
+      "like f",
+      "like v"
+    ],
+    "t": [
+      "как f",
+      "как v"
+    ]
+  },
+  "a2-u1-l15.choice-v-piatok-mam.why": {
+    "en": "The preposition is said with the next word, and p is voiceless, so v becomes voiceless too: [f piatok].",
+    "t": "Предлог произносится вместе со следующим словом, а p — глухой, поэтому v тоже оглушается: [f piatok]."
+  },
+  "a2-u1-l15.build-podla-mna-je.answers": {
+    "en": [
+      "In my opinion, Daniel is funny and friendly.",
+      "I think Daniel is funny and friendly."
+    ],
+    "t": [
+      "По-моему, Даниэль остроумный и дружелюбный.",
+      "Я думаю, Даниэль остроумный и дружелюбный.",
+      "По-моему, Даниэль весёлый и дружелюбный.",
+      "На мой взгляд, Даниэль остроумный и дружелюбный.",
+      "На мой взгляд, Даниэль весёлый и дружелюбный."
+    ]
+  },
+  "a2-u1-l15.build-podla-mna-je.distractors": {
+    "en": [
+      "shy",
+      "lazy"
+    ],
+    "t": [
+      "стеснительный",
+      "ленивый"
+    ]
+  },
+  "a2-u1-l15.fill-hovorime-o-vasich.en": {
+    "en": "We're talking about your friends.",
+    "t": "Мы говорим о ваших друзьях."
+  },
+  "a2-u1-l15.fill-hovorime-o-vasich.why": {
+    "en": "After **o** (about) comes the locative, and in the plural it's **vašich** for all genders, like nových.",
+    "t": "После **o** (о) — предложный падеж, а во множественном числе это **vašich** для всех родов, как nových — и как наше «ваших»."
+  },
+  "a2-u1-l15.build-ovladas-cudzie-jazyky.prompt": {
+    "en": "Do you speak any foreign languages? (to a friend)",
+    "t": "Ты владеешь иностранными языками?"
+  },
+  "a2-u1-l15.build-ovladas-cudzie-jazyky.traps": {
+    "en": [
+      "Jazyky are things in the plural, so the soft ending is **-ie**: **cudzie** jazyky.",
+      "Languages, more than one: **jazyky**."
+    ],
+    "t": [
+      "Jazyky — предметы во множественном числе, поэтому мягкое окончание **-ie**: **cudzie** jazyky.",
+      "Языки — больше одного: **jazyky**."
+    ]
+  },
+  "a2-u1-l15.speak-gratulujem-si-nasa.en": {
+    "en": "Congratulations, you're our star!",
+    "t": "Поздравляю, ты наша звезда!"
+  }
+}

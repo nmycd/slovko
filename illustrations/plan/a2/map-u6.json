@@ -1,0 +1,334 @@
+{
+  "a2-u6-l1#nerusim": {
+    "picture": "Split picture of a phone call. Left: Tomáš, at his desk at home in Košice beside his laptop, holds his phone to his ear, a little hesitant. Right: Emma, curled up on her bed in the dorm room with a book, answers with a smile, glad to talk.",
+    "book": null
+  },
+  "a2-u6-l1#choice-nerusis-pokojne-hovor": {
+    "reuse": "a2-u6-l1#nerusim",
+    "book": null
+  },
+  "a2-u6-l1#nechces-ist-s-nami": {
+    "picture": "Split picture of a phone call. Left: Emma, at her desk in the dorm room with a big map of Slovakia spread out in front of her, invites someone on a trip, excited. Right: Marek, on the sofa in his flat, his arm still in a plaster cast and a sling, brightens up at the idea.",
+    "book": null
+  },
+  "a2-u6-l1#overim-si-to": {
+    "picture": "In his flat, Marek, his phone wedged between ear and shoulder, flips through the wall calendar with his good hand to check a date; his other arm is in a plaster cast and a sling.",
+    "book": null
+  },
+  "a2-u6-l1#premysli-si-to": {
+    "picture": "Split picture of a phone call. Left: Emma, phone at her ear, smiles patiently. Right: Marek on his sofa, his arm in a plaster cast, scratches his head with his good hand, undecided.",
+    "book": null
+  },
+  "a2-u6-l1#daj-mi-vediet": {
+    "reuse": "a2-u6-l1#premysli-si-to",
+    "book": null
+  },
+  "a2-u6-l1#vyhovuje-ti-to": {
+    "reuse": "a2-u6-l1#overim-si-to",
+    "book": null
+  },
+  "a2-u6-l1#choice-vyhovuje-ti-piatok": {
+    "reuse": "a2-u6-l1#overim-si-to",
+    "book": null
+  },
+  "a2-u6-l1#zatial": {
+    "reuse": "u2-telefon#dopocutia",
+    "book": null
+  },
+  "a2-u6-l1#choice-maj-sa-aj-ty": {
+    "reuse": "u2-telefon#dopocutia",
+    "book": null
+  },
+  "a2-u6-l2#pocujeme-sa": {
+    "picture": "Split picture of a phone call. Left: Tomáš, in a compartment of the InterCity train with hills rushing past the window, presses his phone to his ear and frowns. Right: Emma, in the dorm kitchen, holds a finger in her other ear, straining to hear him.",
+    "book": null
+  },
+  "a2-u6-l2#nepocujem-ta-dobre": {
+    "reuse": "a2-u6-l2#pocujeme-sa",
+    "book": null
+  },
+  "a2-u6-l2#choice-nepocujem-ta-dobre": {
+    "reuse": "a2-u6-l2#pocujeme-sa",
+    "book": null
+  },
+  "a2-u6-l2#prerusilo-nas": {
+    "picture": "Split picture. Left: the train has gone into a dark tunnel, and Tomáš stares at his phone: the call is gone. Right: Emma, in the dorm kitchen, takes her phone from her ear and looks at it, puzzled.",
+    "book": null
+  },
+  "a2-u6-l2#volal-som-pred-chvilou": {
+    "reuse": "a2-u6-l2#prerusilo-nas",
+    "book": null
+  },
+  "a2-u6-l2#to-bude-asi-omyl": {
+    "picture": "Split picture of a phone call. Left: a hungry man in a tracksuit, on his sofa in front of the TV, phones in his order with a hand on his stomach. Right: Emma, at her dorm desk, listens with raised eyebrows and kindly shakes her head: he's got the wrong number.",
+    "book": null
+  },
+  "a2-u6-l2#choice-halo-je-to-pizzeria": {
+    "reuse": "a2-u6-l2#to-bude-asi-omyl",
+    "book": null
+  },
+  "a2-u6-l2#choice-prepacte-pomylil-som-sa": {
+    "reuse": "a2-u6-l2#to-bude-asi-omyl",
+    "book": null
+  },
+  "a2-u6-l2#volane-cislo-je-nedostupne": {
+    "picture": "Emma, in the dorm kitchen, frowns at her phone as a recorded voice answers instead of Lucia; a bubble shows Lucia's phone lying in her bag, its battery flat and its screen black.",
+    "book": null
+  },
+  "a2-u6-l2#choice-volane-cislo-je": {
+    "reuse": "a2-u6-l2#volane-cislo-je-nedostupne",
+    "book": null
+  },
+  "a2-u6-l2#nechaj-mi-odkaz": {
+    "picture": "Split picture. Left: in the university library, Lucia studies with big headphones on while her phone buzzes, unnoticed, on the table beside her books. Right: Emma, at a tram stop, phone to her ear, gets ready to leave a message after the beep.",
+    "book": null
+  },
+  "a2-u6-l3#stazistka": {
+    "picture": "Emma's first morning as an intern at Tomáš's company: in a smart blazer, with a blank badge on a lanyard round her neck, she arrives at the reception, a little nervous; Petra greets her warmly from behind the desk.",
+    "book": null
+  },
+  "a2-u6-l3#recepcia": {
+    "picture": "The reception at the entrance of Tomáš's company: Petra, at her desk with a phone and a computer, greets a visitor with a smile, while Emma, on a second chair beside her, watches and learns.",
+    "book": null
+  },
+  "a2-u6-l3#pri-telefone-emma": {
+    "picture": "At the reception desk the phone rings: Emma, sitting up straight, picks it up and answers for the first time, while Petra, beside her, gives her an encouraging thumbs-up.",
+    "book": null
+  },
+  "a2-u6-l3#choice-recepcia-dobry-den": {
+    "reuse": "a2-u6-l3#pri-telefone-emma",
+    "book": null
+  },
+  "a2-u6-l3#mozem-hovorit-s-panom": {
+    "picture": "Split picture of a phone call. Left: a businessman in a suit, at his own office desk, asks for someone. Right: Emma, at the reception phone, glances over her shoulder at pán Hudák, who sits at his desk in his glass-walled corner office.",
+    "book": null
+  },
+  "a2-u6-l3#s-kym-chcete-hovorit": {
+    "reuse": "a2-u6-l3#mozem-hovorit-s-panom",
+    "book": null
+  },
+  "a2-u6-l3#moment-prepojim-vas": {
+    "picture": "Emma, the reception phone at her ear, presses a button to put a caller through; through an open office door nearby, the phone on pani Kollárová's desk rings and she reaches for it.",
+    "book": null
+  },
+  "a2-u6-l3#choice-pani-kollarova-moment": {
+    "reuse": "a2-u6-l3#moment-prepojim-vas",
+    "book": null
+  },
+  "a2-u6-l3#pan-inzinier-pani-inzinierka": {
+    "picture": "In a corridor at Tomáš's company, Petra introduces Emma to pán Hudák and pani Kollárová: pán Hudák shakes Emma's hand formally, and pani Kollárová smiles beside him.",
+    "book": null
+  },
+  "a2-u6-l4#lutujem-prave-ma-poradu": {
+    "picture": "Split picture of a phone call. Left: a caller, a woman at her own office desk. Right: Emma, at the reception phone, answers apologetically; behind her, through the open door of the meeting room, pán Hudák sits at a table with his colleagues in a meeting.",
+    "book": null
+  },
+  "a2-u6-l4#momentalne-nie-je-v": {
+    "picture": "Emma, on the reception phone, looks over at pán Hudák's glass-walled corner office: his desk is empty, his chair pushed back, and his coat is gone from the stand.",
+    "book": null
+  },
+  "a2-u6-l4#choice-pan-hudak-je-tento": {
+    "reuse": "a2-u6-l4#momentalne-nie-je-v",
+    "book": null
+  },
+  "a2-u6-l4#chcete-nechat-odkaz": {
+    "picture": "At the reception desk, Emma holds the phone to her ear with one hand and has a pen ready over a message pad with the other, listening carefully to the caller.",
+    "book": null
+  },
+  "a2-u6-l4#nie-dakujem-zavolam-neskor": {
+    "reuse": "a2-u6-l4#lutujem-prave-ma-poradu",
+    "book": null
+  },
+  "a2-u6-l4#zavolajte-neskor-prosim": {
+    "reuse": "a2-u6-l4#lutujem-prave-ma-poradu",
+    "book": null
+  },
+  "a2-u6-l4#choice-zavolajte-o-desat": {
+    "reuse": "a2-u6-l4#lutujem-prave-ma-poradu",
+    "book": null
+  },
+  "a2-u6-l4#poviem-mu-to": {
+    "picture": "Pán Hudák, back with his briefcase, stops at the reception desk, and Emma hands him a small handwritten message note; he reads it, nodding.",
+    "book": null
+  },
+  "a2-u6-l4#mozem-poprosit-este-raz": {
+    "reuse": "a2-u6-l4#chcete-nechat-odkaz",
+    "book": null
+  },
+  "a2-u6-l4#choice-mozem-poprosit-vase-meno": {
+    "reuse": "a2-u6-l4#chcete-nechat-odkaz",
+    "book": null
+  },
+  "a2-u6-l6#grammar-reported-ze": {
+    "reuse": "a2-u6-l4#poviem-mu-to",
+    "book": null
+  },
+  "a2-u6-l6#choice-mam-nejaky-odkaz": {
+    "reuse": "a2-u6-l4#chcete-nechat-odkaz",
+    "book": null
+  },
+  "a2-u6-l8#mila-lucia": {
+    "picture": "Emma, at her dorm desk with a map of Slovakia beside her, types a cheerful e-mail on her laptop; a bubble shows Lucia in the university library reading it on her phone, smiling.",
+    "book": null
+  },
+  "a2-u6-l8#navrh": {
+    "picture": "In the dorm kitchen, Emma spreads a big map of Slovakia across the table and traces a route with her finger; Lucia, Tomáš and Marek, his arm in a sling, lean in, excited.",
+    "book": null
+  },
+  "a2-u6-l8#dakujem-ti-za-mail": {
+    "reuse": "a2-u6-l8#mila-lucia",
+    "book": null
+  },
+  "a2-u6-l8#pozdravuj-mareka": {
+    "picture": "Lucia, coat on and a bag of oranges in her hand, heads out of the dorm room to visit her brother; Emma, at her desk, waves after her. A bubble shows Marek on his sofa, his arm in a sling.",
+    "book": null
+  },
+  "a2-u6-l8#maj-sa-dobre": {
+    "reuse": "u2-telefon#dopocutia",
+    "book": null
+  },
+  "a2-u6-l9#vazena-pani-sokolova": {
+    "picture": "Emma, sitting up straight at her dorm desk, writes a careful, formal e-mail on her laptop; a bubble shows pani Sokolová at the small reception desk of her guesthouse in the Tatras, reading it.",
+    "book": null
+  },
+  "a2-u6-l9#ubytovanie": {
+    "picture": "Emma and Lucia, side by side at Emma's dorm desk, look at photos of a chalet-style guesthouse with wooden balconies and mountains behind it on the laptop screen.",
+    "book": null
+  },
+  "a2-u6-l9#volna-izba": {
+    "picture": "At the small reception desk of her guesthouse, pani Sokolová takes one of the last keys off the key rack behind her and holds it up with a smile: there's still a room free.",
+    "book": null
+  },
+  "a2-u6-l9#dakujem-za-odpoved": {
+    "reuse": "a2-u6-l9#vazena-pani-sokolova",
+    "book": null
+  },
+  "a2-u6-l9#s-pozdravom": {
+    "reuse": "a2-u6-l9#vazena-pani-sokolova",
+    "book": null
+  },
+  "a2-u6-l9#choice-s-pozdravom": {
+    "reuse": "a2-u6-l9#vazena-pani-sokolova",
+    "book": null
+  },
+  "a2-u6-l9#izba-je-sice-mala": {
+    "picture": "A small bedroom under the sloping roof of the guesthouse: barely room for two pine beds and a little table, but cosy, with a checked quilt, flowers on the windowsill and the mountain peaks outside the window.",
+    "book": null
+  },
+  "a2-u6-l9#choice-izbu-vam-rezervujem": {
+    "reuse": "a2-u6-l9#volna-izba",
+    "book": null
+  },
+  "a2-u6-l9#choice-emma-pise-kamaratom": {
+    "reuse": "a2-u6-l8#mila-lucia",
+    "book": null
+  },
+  "a2-u6-l10#osobne-udaje": {
+    "reuse": "u9-l5#vypiste-prosim-dotaznik",
+    "book": null
+  },
+  "a2-u6-l10#formular": {
+    "reuse": "u9-l5#dotaznik",
+    "book": null
+  },
+  "a2-u6-l10#adresa": {
+    "reuse": "u3-l1#byvam-na-internate",
+    "book": null
+  },
+  "a2-u6-l10#choice-emmin-formular": {
+    "reuse": "u9-l5#dotaznik",
+    "book": null
+  },
+  "a2-u6-l10#prihlasit-sa": {
+    "reuse": "u9-l1#prihlaska",
+    "book": null
+  },
+  "a2-u6-l10#vazeny-pan-inzinier": {
+    "reuse": "a2-u6-l3#pan-inzinier-pani-inzinierka",
+    "book": null
+  },
+  "a2-u6-l10#priloha": {
+    "reuse": "u9-l3#poslat-e-mailom",
+    "book": null
+  },
+  "a2-u6-l11#esemeska": {
+    "picture": "Emma, on a bench in the sunny university courtyard, types a text message with both thumbs, grinning.",
+    "book": null
+  },
+  "a2-u6-l11#budem-meskat": {
+    "picture": "Emma stands in a crowded tram stuck in traffic, glancing anxiously at her watch while she types a text with one hand.",
+    "book": null
+  },
+  "a2-u6-l11#choice-prepac-budem-meskat": {
+    "reuse": "a2-u6-l11#budem-meskat",
+    "book": null
+  },
+  "a2-u6-l11#nestiham": {
+    "reuse": "u7-l6#choice-nestihol-som-autobus",
+    "book": null
+  },
+  "a2-u6-l11#musim-zrusit-stretnutie": {
+    "picture": "Split picture. Left: Tomáš, a laptop under his arm, about to walk into a meeting at his company, quickly types a text. Right: Emma, waiting at a table in the café near the university, reads it on her phone, and her face falls.",
+    "book": null
+  },
+  "a2-u6-l11#choice-ahoj-dnes-nestiham": {
+    "reuse": "a2-u6-l11#musim-zrusit-stretnutie",
+    "book": null
+  },
+  "a2-u6-l11#choice-stihas-to-o-piatej": {
+    "reuse": "a2-u6-l11#budem-meskat",
+    "book": null
+  },
+  "a2-u6-l11#choice-jasne-plati": {
+    "reuse": "a2-u6-l11#esemeska",
+    "book": null
+  },
+  "a2-u6-l13#choice-pi-vela-caju": {
+    "picture": "In the dorm room, Lucia sits in bed with a cold, a red nose and a box of tissues on her knees; Emma hands her a big steaming mug of tea.",
+    "book": null
+  },
+  "a2-u6-l13#choice-chod-prec": {
+    "picture": "In the small office kitchen at Tomáš's company, a cat that has wandered in sits on the table, eyeing Emma's open lunch box; Emma, coming back from the coffee machine with a cup, stops in her tracks.",
+    "book": null
+  },
+  "a2-u6-l15#list": {
+    "picture": "At her dorm desk, Emma folds a handwritten letter to her mum and addresses an envelope, a photo of her family propped against the lamp.",
+    "book": null
+  },
+  "a2-u6-l15#balik": {
+    "picture": "In the post office, a long counter with scales and racks of envelopes, Emma heaves a big parcel onto the scales while the clerk, a cheerful grey-haired man, checks the weight. A bubble shows Emma's mum at home in Ireland opening the same parcel, delighted.",
+    "book": null
+  },
+  "a2-u6-l15#znamka": {
+    "picture": "At the post office counter, the cheerful grey-haired clerk tears a stamp off a sheet for Emma, who holds out her letter in its envelope.",
+    "book": null
+  },
+  "a2-u6-l15#obalka": {
+    "reuse": "a2-u6-l15#list",
+    "book": null
+  },
+  "a2-u6-l15#adresat-a-odosielatel": {
+    "reuse": "a2-u6-l15#balik",
+    "book": null
+  },
+  "a2-u6-l15#choice-poslat-balik-do-irska": {
+    "reuse": "a2-u6-l15#balik",
+    "book": null
+  },
+  "a2-u6-l15#choice-adresa-na-obalke": {
+    "reuse": "a2-u6-l15#list",
+    "book": null
+  },
+  "a2-u6-l15#choice-odosielatel": {
+    "reuse": "a2-u6-l15#balik",
+    "book": null
+  },
+  "a2-u6-l17#choice-vazena-pani-sokolova": {
+    "reuse": "a2-u6-l9#vazena-pani-sokolova",
+    "book": null
+  },
+  "a2-u6-l17#choice-nevolaj-mu-teraz": {
+    "reuse": "u8-l1#porada",
+    "book": null
+  }
+}

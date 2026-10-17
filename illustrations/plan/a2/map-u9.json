@@ -1,0 +1,310 @@
+{
+  "a2-u9-l1#milovat": {
+    "picture": "In the dormitory corridor, Sarah kneels to hug Filip's dog, who wags his tail and licks her cheek; Filip watches, smiling shyly, and Emma laughs.",
+    "panel": null
+  },
+  "a2-u9-l1#na-vlastne-oci": {
+    "reuse": "a2-u9-l2#lev",
+    "panel": null
+  },
+  "a2-u9-l2#lev": {
+    "picture": "At Bratislava's zoo on a wooded hillside, a big maned lion lies on a rock in its enclosure among the trees. Sarah, at the railing, stares at it wide-eyed; Liam and Emma stand beside her.",
+    "panel": null
+  },
+  "a2-u9-l2#tiger": {
+    "picture": "At the zoo, a tiger pads along the rocks of its enclosure between the trees; Liam points it out to Sarah.",
+    "panel": null
+  },
+  "a2-u9-l2#choice-chcem-vidiet-leva": {
+    "reuse": "a2-u9-l2#lev",
+    "panel": null
+  },
+  "a2-u9-l2#slon": {
+    "picture": "At the zoo, an elephant in its big paddock sprays water over its back with its trunk; Sarah, holding an ice cream, laughs at it from the fence.",
+    "panel": null
+  },
+  "a2-u9-l2#opica": {
+    "picture": "At the zoo, behind the glass of the monkey house, a monkey hangs from a branch by one arm and pulls a face at Sarah, who pulls one back, her nose almost touching the glass.",
+    "panel": null
+  },
+  "a2-u9-l2#zirafa": {
+    "picture": "At the zoo, a giraffe in its big paddock stretches its long neck up to eat leaves from the top of a tall tree; Liam, at the fence, looks up at it.",
+    "panel": null
+  },
+  "a2-u9-l2#medved": {
+    "picture": "At the zoo, a big brown bear stands up on its hind legs among the rocks and trees of its enclosure; Emma, Liam and Sarah watch from the path, impressed.",
+    "panel": null
+  },
+  "a2-u9-l4#cirkus": {
+    "picture": "Evening on a meadow at the edge of town: a circus big top, striped red and white, with flags on top and lights strung round the entrance. People queue to go in; Emma, Liam and Sarah walk towards it.",
+    "panel": null
+  },
+  "a2-u9-l4#predstavenie": {
+    "reuse": "a2-u9-l5#vzrusujuci",
+    "panel": null
+  },
+  "a2-u9-l4#choice-pozyvam-vas-do": {
+    "picture": "On a street in Bratislava, Sarah tugs Emma's sleeve and points at a big circus poster on a wall, showing a striped big top, an acrobat on a rope and a clown. Liam stands back with his arms folded, frowning; Emma smiles at them both.",
+    "panel": null
+  },
+  "a2-u9-l4#choice-cirkus-so-zvieratami": {
+    "reuse": "a2-u9-l4#choice-pozyvam-vas-do",
+    "panel": null
+  },
+  "a2-u9-l4#hodi-sa-vam": {
+    "reuse": "a2-u9-l4#listky-su-vypredane",
+    "panel": null
+  },
+  "a2-u9-l4#listky-su-vypredane": {
+    "picture": "At the circus box office by the big top, the woman behind the window spreads her hands apologetically: no tickets left. Emma, Liam and Sarah, at the front of the queue, look disappointed.",
+    "panel": null
+  },
+  "a2-u9-l4#choice-listky-na-sobotu": {
+    "reuse": "a2-u9-l4#listky-su-vypredane",
+    "panel": null
+  },
+  "a2-u9-l5#artistka": {
+    "picture": "Inside the circus big top, under the spotlights, a woman performer in a sparkly costume dances on a rope stretched high above the round ring, arms out for balance; the tiered seats all around are full of people looking up.",
+    "panel": null
+  },
+  "a2-u9-l5#lano": {
+    "reuse": "a2-u9-l5#artistka",
+    "panel": null
+  },
+  "a2-u9-l5#klaun": {
+    "picture": "In the circus ring, a clown with a red nose, a curly orange wig, baggy trousers and huge shoes juggles coloured balls; Sarah laughs in the front row.",
+    "panel": null
+  },
+  "a2-u9-l5#zonglovat": {
+    "reuse": "a2-u9-l5#klaun",
+    "panel": null
+  },
+  "a2-u9-l5#akrobat": {
+    "picture": "Three acrobats in matching costumes perform in the circus ring under the spotlights: two stand side by side and the third does a handstand on their shoulders.",
+    "panel": null
+  },
+  "a2-u9-l5#vystupovat": {
+    "reuse": "a2-u9-l5#akrobat",
+    "panel": null
+  },
+  "a2-u9-l5#choice-traja-akrobati-vystupuju": {
+    "reuse": "a2-u9-l5#akrobat",
+    "panel": null
+  },
+  "a2-u9-l5#vzrusujuci": {
+    "picture": "In the tiered seats of the circus, Emma, Liam and Sarah lean forward on the edge of their seats, gasping, as a performer leaps between ropes high above the ring; Sarah grips Liam's arm.",
+    "panel": null
+  },
+  "a2-u9-l6#grammar-active-participles": {
+    "picture": "At the zoo, the lion lies fast asleep on its rock in the sun, eyes shut and chin on its paws; Sarah, at the railing, puts a finger to her lips to hush Liam.",
+    "panel": null
+  },
+  "a2-u9-l7#babka-a-vnuk": {
+    "picture": "Split picture of a phone call. Left: Marek in the narrow kitchen of his flat, phone at his ear, a pen and notepad in his hand. Right: babka Helena at the home phone in the hallway of the Šimkos' house in Žilina, beaming in surprise at hearing from her grandson.",
+    "panel": null
+  },
+  "a2-u9-l7#kolac": {
+    "picture": "Babka Helena's strawberry cake on a baking tray on the kitchen table of the Šimkos' house in Žilina: a sponge base topped with strawberries and whipped cream, cut into squares. Babka Helena lifts out the first square with a cake slice.",
+    "panel": null
+  },
+  "a2-u9-l7#recept": {
+    "reuse": "a2-u9-l7#babka-a-vnuk",
+    "panel": null
+  },
+  "a2-u9-l7#choice-marek-telefonuje-s": {
+    "reuse": "a2-u9-l7#babka-a-vnuk",
+    "panel": null
+  },
+  "a2-u9-l7#dlho-si-sa": {
+    "reuse": "a2-u9-l7#babka-a-vnuk",
+    "panel": null
+  },
+  "a2-u9-l7#stalo-sa-nieco": {
+    "reuse": "a2-u9-l7#babka-a-vnuk",
+    "panel": null
+  },
+  "a2-u9-l7#choice-nie-neboj-sa": {
+    "reuse": "a2-u9-l7#babka-a-vnuk",
+    "panel": null
+  },
+  "a2-u9-l8#vajce": {
+    "picture": "In the narrow kitchen of his flat, Marek cracks an egg into a mixing bowl; a box of more eggs waits beside it on the counter.",
+    "panel": null
+  },
+  "a2-u9-l8#muka": {
+    "picture": "In the narrow kitchen of his flat, Marek tips a big paper bag of flour into a bowl, and a white cloud of flour puffs up into his face.",
+    "panel": null
+  },
+  "a2-u9-l8#choice-potrebujes-vajcia-a": {
+    "reuse": "a2-u9-l7#babka-a-vnuk",
+    "panel": null
+  },
+  "a2-u9-l8#jahoda": {
+    "picture": "At a fruit stall at the market, the stallholder weighs a heap of ripe red strawberries on the scales for Marek, who sneaks one to taste.",
+    "panel": null
+  },
+  "a2-u9-l8#choice-mlieko-a-maslo": {
+    "reuse": "a2-u9-l7#babka-a-vnuk",
+    "panel": null
+  },
+  "a2-u9-l8#si-poklad": {
+    "reuse": "a2-u9-l7#babka-a-vnuk",
+    "panel": null
+  },
+  "a2-u9-l8#choice-babi-si-poklad": {
+    "reuse": "a2-u9-l7#babka-a-vnuk",
+    "panel": null
+  },
+  "a2-u9-l9#kilo": {
+    "reuse": "a2-u9-l8#jahoda",
+    "panel": null
+  },
+  "a2-u9-l10#piect-upiect": {
+    "picture": "In the narrow kitchen of his flat, Marek, in oven gloves, slides a baking tray of cake mixture into the hot oven.",
+    "panel": null
+  },
+  "a2-u9-l10#cesto": {
+    "reuse": "a2-u9-l10#miesat-vymiesat",
+    "panel": null
+  },
+  "a2-u9-l10#miesat-vymiesat": {
+    "picture": "In the narrow kitchen of his flat, Marek stirs a big bowl of thick, pale-yellow cake mixture with a wooden spoon.",
+    "panel": null
+  },
+  "a2-u9-l10#slahat-vyslahat": {
+    "picture": "In the narrow kitchen of his flat, Marek whisks eggs and sugar into a pale, fluffy foam in a big bowl, the whisk going fast and a few splashes on his red flannel shirt.",
+    "panel": null
+  },
+  "a2-u9-l10#rura": {
+    "reuse": "a2-u9-l10#piect-upiect",
+    "panel": null
+  },
+  "a2-u9-l10#choice-teraz-peciem-kolac": {
+    "reuse": "a2-u9-l10#piect-upiect",
+    "panel": null
+  },
+  "a2-u9-l11#krajat-pokrajat": {
+    "picture": "In the narrow kitchen of his flat, Marek slices strawberries in half with a small knife on a chopping board.",
+    "panel": null
+  },
+  "a2-u9-l11#zdobit-ozdobit": {
+    "picture": "In the narrow kitchen of his flat, Marek, tongue between his teeth in concentration, pipes swirls of whipped cream onto the strawberry cake on its baking tray.",
+    "panel": null
+  },
+  "a2-u9-l12#rande": {
+    "reuse": "a2-u9-l16#co-oslavujeme",
+    "panel": null
+  },
+  "a2-u9-l12#prekvapenie": {
+    "reuse": "a2-u9-l16#co-oslavujeme",
+    "panel": null
+  },
+  "a2-u9-l12#vynimocny": {
+    "reuse": "a2-u9-l16#co-oslavujeme",
+    "panel": null
+  },
+  "a2-u9-l13#choice-stol-je-prestrety": {
+    "picture": "In Marek's flat, Lucia has laid the small table by the living-room window for two: a white cloth, two plates, wine glasses, candles and a vase of flowers. She steps back to admire it.",
+    "panel": null
+  },
+  "a2-u9-l14#grammar-byt-participle": {
+    "reuse": "a2-u9-l13#choice-stol-je-prestrety",
+    "panel": null
+  },
+  "a2-u9-l15#nervozny": {
+    "picture": "In his flat, Marek, in a clean white shirt, paces by the laid table by the window, checking his watch and running a hand through his hair; Lucia, on the sofa, smiles and rolls her eyes.",
+    "panel": null
+  },
+  "a2-u9-l15#vyzeras-krasne": {
+    "picture": "Marek opens the front door of his flat to Veronika in her new dark-red dress, hair loose. He stares, open-mouthed and delighted; she smiles shyly.",
+    "panel": null
+  },
+  "a2-u9-l15#choice-vyzeras-krasne-mas": {
+    "reuse": "a2-u9-l15#vyzeras-krasne",
+    "panel": null
+  },
+  "a2-u9-l15#nebudem-vas-rusit": {
+    "picture": "In the hallway of Marek's flat, Lucia, coat on and bag over her shoulder, slips out of the front door, winking and waving at Marek and Veronika behind her.",
+    "panel": null
+  },
+  "a2-u9-l15#uzite-si-vecer": {
+    "reuse": "a2-u9-l15#nebudem-vas-rusit",
+    "panel": null
+  },
+  "a2-u9-l15#choice-nebudem-vas-rusit": {
+    "reuse": "a2-u9-l15#nebudem-vas-rusit",
+    "panel": null
+  },
+  "a2-u9-l16#grilovany": {
+    "reuse": "u6-l1#ryba",
+    "panel": null
+  },
+  "a2-u9-l16#plnene-papriky": {
+    "picture": "In the narrow kitchen of Marek's flat, Marek lifts the lid off a pot of stuffed peppers: green peppers filled with meat and rice, simmering in red tomato sauce, steam rising.",
+    "panel": null
+  },
+  "a2-u9-l16#co-oslavujeme": {
+    "picture": "Evening at the candlelit table by the window in Marek's flat: Marek pours champagne into Veronika's glass. Veronika, in her dark-red dress, looks round at the candles and flowers, surprised and curious.",
+    "panel": null
+  },
+  "a2-u9-l16#choice-aky-je-dovod": {
+    "reuse": "a2-u9-l16#co-oslavujeme",
+    "panel": null
+  },
+  "a2-u9-l16#zakusok": {
+    "reuse": "a2-u9-l7#kolac",
+    "panel": null
+  },
+  "a2-u9-l17#zalubit-sa": {
+    "reuse": "a2-u9-l17#na-prvy-pohlad",
+    "panel": null
+  },
+  "a2-u9-l17#na-prvy-pohlad": {
+    "picture": "A winter memory in the hospital treatment room: Veronika, in her white coat over blue scrubs, wraps Marek's broken arm in plaster. Marek, in his red flannel shirt, can't take his eyes off her, smitten.",
+    "panel": null
+  },
+  "a2-u9-l17#zlomena-ruka": {
+    "reuse": "a2-u9-l17#na-prvy-pohlad",
+    "panel": null
+  },
+  "a2-u9-l17#lubim-ta": {
+    "picture": "Later that evening at the candlelit table in Marek's flat, Marek and Veronika hold hands across the table and look into each other's eyes, both beaming.",
+    "panel": null
+  },
+  "a2-u9-l17#choice-aj-ja-ta": {
+    "reuse": "a2-u9-l17#lubim-ta",
+    "panel": null
+  },
+  "a2-u9-l17#chces-so-mnou": {
+    "reuse": "a2-u9-l17#lubim-ta",
+    "panel": null
+  },
+  "a2-u9-l18#priatelka": {
+    "picture": "In the dorm kitchen, Marek comes in arm in arm with Veronika, both beaming; Lucia throws up her hands in delighted disbelief, and Emma laughs and claps.",
+    "panel": null
+  },
+  "a2-u9-l18#myslela-som-ze": {
+    "reuse": "a2-u9-l18#priatelka",
+    "panel": null
+  },
+  "a2-u9-l18#stastny": {
+    "reuse": "a2-u9-l17#lubim-ta",
+    "panel": null
+  },
+  "a2-u9-l18#zoznamit-sa": {
+    "reuse": "a2-u9-l17#na-prvy-pohlad",
+    "panel": null
+  },
+  "a2-u9-l18#vziat-sa": {
+    "reuse": "u4-rodina#zenaty-vydata",
+    "panel": null
+  },
+  "a2-u9-l19#choice-predstavenie-v-sobotu": {
+    "reuse": "a2-u9-l4#listky-su-vypredane",
+    "panel": null
+  },
+  "a2-u9-l19#choice-ktory-je-spiaci": {
+    "reuse": "a2-u9-l6#grammar-active-participles",
+    "panel": null
+  }
+}

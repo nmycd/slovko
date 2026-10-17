@@ -1,0 +1,606 @@
+{
+  "unit": "a2-u2",
+  "pictures": 34,
+  "items": [
+    {
+      "lesson": "a2-u2-l1",
+      "exercise": "volny-cas",
+      "type": "intro",
+      "text": "voľný čas = free time",
+      "picture": "A sunny Saturday afternoon on the grass by the Danube: Emma lies on her front reading a book with her shoes off, Lucia dozes in the sun beside her, and Tomáš throws a frisbee to Marek.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l1",
+      "exercise": "co-rada-robis",
+      "type": "intro",
+      "text": "Čo rada robíš vo voľnom čase? = What do you like doing in your free time? (to a woman)",
+      "reuse": "a2-u2-l1#volny-cas",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l1",
+      "exercise": "konicek",
+      "type": "intro",
+      "text": "koníček = hobby",
+      "reuse": "a2-u2-l1#kreslit-a-fotografovat",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l1",
+      "exercise": "kreslit-a-fotografovat",
+      "type": "intro",
+      "text": "kresliť a fotografovať = to draw and to take photos",
+      "picture": "Two halves on the square in the Old Town, by the fountain. Left: Emma sits on the fountain's edge, drawing the pastel houses in a sketchbook. Right: Lucia crouches to take a photo of the same houses with a camera.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l1",
+      "exercise": "oddychovat-a-pozerat",
+      "type": "intro",
+      "text": "oddychovať a pozerať televíziu = to relax and to watch TV",
+      "picture": "Evening at home: Tomáš lies stretched out on a sofa in his socks, a cushion behind his head and a bowl of crisps on his chest, watching TV.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l1",
+      "exercise": "hrat-na-gitare",
+      "type": "intro",
+      "text": "hrať na gitare = to play the guitar",
+      "reuse": "u5-mam-rad#hudba-a-film",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l1",
+      "exercise": "nakupne-centrum",
+      "type": "intro",
+      "text": "nákupné centrum = shopping centre",
+      "picture": "Inside a big, bright shopping centre with shops on two floors, escalators and a glass roof: Emma and Lucia sit at a small café table on the upper floor, shopping bags at their feet.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l1",
+      "exercise": "stretavat-sa-s",
+      "type": "intro",
+      "text": "stretávať sa s priateľmi = to meet up with friends",
+      "picture": "Saturday afternoon at the fountain on the square in the Old Town: Lucia, Tomáš and Marek are already waiting; Emma arrives and waves, and Lucia goes to hug her.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l1",
+      "exercise": "choice-cez-vikend-sa",
+      "type": "choice",
+      "text": "How do you say “At the weekend I meet up with friends”?",
+      "reuse": "a2-u2-l1#stretavat-sa-s",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l2",
+      "exercise": "rad-ta-pocujem",
+      "type": "intro",
+      "text": "Rád ťa počujem. = Good to hear from you. (a man speaking)",
+      "picture": "Split picture of a phone call. Left: Tomáš walks along the Danube embankment with his phone to his ear, beaming. Right: Lucia, at her desk in the dorm room, answers, delighted to hear from him.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l2",
+      "exercise": "choice-ahoj-tomas-rada",
+      "type": "choice",
+      "text": "Tomáš calls Lucia. How does she greet him?",
+      "reuse": "a2-u2-l2#rad-ta-pocujem",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l2",
+      "exercise": "mas-chut-ist",
+      "type": "intro",
+      "text": "Máš chuť ísť do kina? = Do you fancy going to the cinema?",
+      "reuse": "u4-l2#kino",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l2",
+      "exercise": "plavaren-a-sauna",
+      "type": "intro",
+      "text": "plaváreň a sauna = swimming pool and sauna",
+      "picture": "An indoor swimming pool with lanes under a high glass wall. Emma swims front crawl fast down one lane, with Tomáš far behind her in the next, impressed. Through a glass door at the side, Lucia sits in a wooden sauna, wrapped in a towel and red-cheeked.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l2",
+      "exercise": "plavky",
+      "type": "intro",
+      "text": "plavky = swimsuit, swimming trunks",
+      "picture": "In the dorm room, Emma packs her sports bag for the pool: she holds up her swimsuit, with a rolled towel and goggles beside the bag on her bed.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l2",
+      "exercise": "to-znie-dobre",
+      "type": "intro",
+      "text": "To znie dobre! = That sounds good!",
+      "reuse": "a2-u2-l2#plati",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l2",
+      "exercise": "plati",
+      "type": "intro",
+      "text": "Platí! = Deal!",
+      "picture": "In the café near the university, Tomáš holds out his hand across the table and Emma shakes it with a grin, while Lucia, beside her, gives a thumbs up: the plan is agreed.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l2",
+      "exercise": "choice-no-jasne",
+      "type": "choice",
+      "text": "Tomáš asks: “Ideš v sobotu s nami na plaváreň?” Which answer means yes?",
+      "reuse": "a2-u2-l2#plati",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l2",
+      "exercise": "mozes-s-nami",
+      "type": "intro",
+      "text": "Môžeš s nami počítať. = You can count on us.",
+      "reuse": "a2-u2-l2#plati",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l2",
+      "exercise": "choice-dakujem-za-pozvanie",
+      "type": "choice",
+      "text": "Emma thanks Tomáš for the invitation. What does she say?",
+      "reuse": "u6-l6#dakujem-za-pozvanie",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l3",
+      "exercise": "mas-v-piatok-cas",
+      "type": "intro",
+      "text": "Máš v piatok čas? = Are you free on Friday?",
+      "reuse": "a2-u2-l3#bohuzial-nemozem",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l3",
+      "exercise": "bohuzial-nemozem",
+      "type": "intro",
+      "text": "Bohužiaľ nemôžem. = Unfortunately I can't.",
+      "picture": "Split picture of a phone call. Left: Lucia, at her desk in the dorm room, phone to her ear, asks hopefully. Right: Marek, in his white chef's jacket in the busy kitchen of his restaurant, holds the phone between ear and shoulder while stirring a big pot, and pulls an apologetic face.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l3",
+      "exercise": "choice-dakujem-za-pozvanie",
+      "type": "choice",
+      "text": "Lucia invites Marek to a games evening on Friday, but he has to work. What does he say?",
+      "reuse": "a2-u2-l3#bohuzial-nemozem",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l3",
+      "exercise": "to-je-skoda",
+      "type": "intro",
+      "text": "To je škoda. = That's a pity.",
+      "picture": "In the dorm room, Lucia holds up a board game she has ready for Friday and sighs with disappointment, as Emma, pulling on her coat, shakes her head apologetically.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l3",
+      "exercise": "choice-to-je-skoda",
+      "type": "choice",
+      "text": "Emma can't come on Friday. What does Lucia say to that?",
+      "reuse": "a2-u2-l3#to-je-skoda",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l3",
+      "exercise": "upiect-tortu",
+      "type": "intro",
+      "text": "upiecť tortu = to bake a cake",
+      "picture": "In the narrow kitchen of his flat, Marek, in his red flannel shirt and an apron, flour on his hands, lifts a round cake out of the oven and smiles at the smell.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l3",
+      "exercise": "ja-to-nemusim",
+      "type": "intro",
+      "text": "Ja to nemusím. = It's not my thing.",
+      "picture": "In Marek's living room, Tomáš and Marek leap up from the sofa, cheering at a football match on the TV, while Lucia, curled up at the end of the sofa with a book, rolls her eyes.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l3",
+      "exercise": "choice-futbal-ja-to",
+      "type": "choice",
+      "text": "Futbal? Ja to nemusím. What does Lucia mean?",
+      "reuse": "a2-u2-l3#ja-to-nemusim",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l3",
+      "exercise": "mam-alergiu-na",
+      "type": "intro",
+      "text": "Mám alergiu na mačky. = I'm allergic to cats.",
+      "picture": "In the hallway of a friend's flat, a fluffy grey cat rubs against Lucia's legs and she sneezes hard into a tissue, her eyes red and watery, while Emma scoops the cat away.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l3",
+      "exercise": "choice-prepac-lucia-v",
+      "type": "choice",
+      "text": "You can't come to Lucia's games evening. What do you say to her?",
+      "reuse": "a2-u2-l3#to-je-skoda",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l4",
+      "exercise": "choice-lucia-nema-rada",
+      "type": "choice",
+      "text": "Lucia doesn't like football. Which sentence says so?",
+      "reuse": "a2-u2-l3#ja-to-nemusim",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l5",
+      "exercise": "sportovat",
+      "type": "intro",
+      "text": "športovať = to do sport",
+      "reuse": "u5-mam-rad#futbal-a-tenis",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l5",
+      "exercise": "bicyklovat-sa",
+      "type": "intro",
+      "text": "bicyklovať sa = to cycle",
+      "reuse": "u8-l2#v-lete",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l5",
+      "exercise": "hrat-volejbal",
+      "type": "intro",
+      "text": "hrať volejbal = to play volleyball",
+      "picture": "On a sand volleyball court by the Danube, Tomáš leaps at the net to smash the ball, Marek beside him; on the other side, Emma and Lucia dive for it.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l5",
+      "exercise": "plavec-plavkyna",
+      "type": "intro",
+      "text": "plavec, plavkyňa = swimmer (a man, a woman)",
+      "reuse": "a2-u2-l2#plavaren-a-sauna",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l5",
+      "exercise": "choice-si-vyborna-plavkyna",
+      "type": "choice",
+      "text": "Emma swims really well. What does Tomáš tell her?",
+      "reuse": "a2-u2-l2#plavaren-a-sauna",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l5",
+      "exercise": "cerstvy-vzduch",
+      "type": "intro",
+      "text": "čerstvý vzduch = fresh air",
+      "reuse": "a2-u2-l8#vylet",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l5",
+      "exercise": "cvicit-jogu",
+      "type": "intro",
+      "text": "cvičiť jogu = to do yoga",
+      "picture": "In the dorm room, on mats between the beds, Lucia holds a calm yoga pose, balancing on one leg, while Emma tries to copy her and wobbles.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l5",
+      "exercise": "lyzovat-sa",
+      "type": "intro",
+      "text": "lyžovať sa = to ski",
+      "picture": "On a sunny, snowy slope in the mountains, Tomáš skis down with ease, spraying snow; further up the slope, Emma stands on skis for the first time, arms out, wobbling.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l5",
+      "exercise": "choice-neviem-sa-lyzovat",
+      "type": "choice",
+      "text": "Emma has never learned to ski. How does she say “I can't ski”?",
+      "reuse": "a2-u2-l5#lyzovat-sa",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l6",
+      "exercise": "korculovat-sa",
+      "type": "intro",
+      "text": "korčuľovať sa = to skate",
+      "reuse": "a2-u2-l6#zimny-stadion",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l6",
+      "exercise": "zimny-stadion",
+      "type": "intro",
+      "text": "zimný štadión = ice rink",
+      "picture": "The ice rink: a big indoor hall with a curved roof, white ice inside low boards and rows of seats around it. Skaters circle the ice; Lucia skates backwards, holding both of Emma's hands as Emma takes her first wobbly glides. By the boards, a counter hires out skates.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l6",
+      "exercise": "spadnut",
+      "type": "intro",
+      "text": "spadnúť = to fall (down)",
+      "picture": "On the ice rink, Emma's legs fly out from under her and she lands on the ice with a thump; Lucia skates up to her, trying not to laugh.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l6",
+      "exercise": "modrina",
+      "type": "intro",
+      "text": "modrina = bruise",
+      "picture": "Back in the dorm room, Emma sits on her bed and rolls up her jeans to show Lucia a big blue-purple bruise on her knee; Lucia winces.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l6",
+      "exercise": "som-uplne-hotova",
+      "type": "intro",
+      "text": "Som úplne hotová. = I'm completely worn out. (a woman speaking)",
+      "reuse": "u7-l3#vecer-som-unavena",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l6",
+      "exercise": "choice-som-uplne-hotova",
+      "type": "choice",
+      "text": "Som úplne hotová. What does Emma mean?",
+      "reuse": "u7-l3#vecer-som-unavena",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l8",
+      "exercise": "vylet",
+      "type": "intro",
+      "text": "výlet = trip, outing",
+      "picture": "A day trip: Emma, Lucia, Tomáš and Marek, with backpacks, walk a path over a wooded hilltop, a castle ruin on the next hill ahead; Emma, in front, spreads her arms and breathes in the fresh air.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l8",
+      "exercise": "plagat",
+      "type": "intro",
+      "text": "plagát = poster",
+      "picture": "Emma and Lucia stop at a noticeboard at the university to look at a big colourful poster with a picture of a gorilla on it; smaller posters around it show a concert and a painting. The posters have pictures only, no writing.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l8",
+      "exercise": "zoo",
+      "type": "intro",
+      "text": "zoo = zoo",
+      "picture": "Bratislava's zoo on a wooded hillside: Emma and Lucia stand among visitors at the big glass wall of the gorilla enclosure, where a big gorilla sits looking back at them; in the next enclosure monkeys swing on ropes, and a giraffe peers over the trees beyond.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l8",
+      "exercise": "choice-zoo-otvorene-denne",
+      "type": "choice",
+      "text": "Zoo: otvorené denne od 9:00 do 17:00 When can you visit?",
+      "reuse": "a2-u2-l8#zoo",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l8",
+      "exercise": "zviera",
+      "type": "intro",
+      "text": "zviera = animal",
+      "reuse": "a2-u2-l8#zoo",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l8",
+      "exercise": "choice-gorily-a-opice",
+      "type": "choice",
+      "text": "Gorily a opice sú v zoo veľká atrakcia. What does this mean?",
+      "reuse": "a2-u2-l8#zoo",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l8",
+      "exercise": "vystava",
+      "type": "intro",
+      "text": "výstava = exhibition",
+      "reuse": "u4-l2#muzeum",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l8",
+      "exercise": "choice-studenti-maju-zlavu",
+      "type": "choice",
+      "text": "Študenti majú zľavu. What does the poster say?",
+      "reuse": "a2-u2-l8#plagat",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l10",
+      "exercise": "zbierat",
+      "type": "intro",
+      "text": "zbierať = to collect",
+      "picture": "In the porter's lodge, pán Kováč proudly opens a thick album full of rows of colourful postage stamps for Emma; more albums are stacked high on the shelf behind him, and Emma stares, amazed.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l10",
+      "exercise": "postova-znamka",
+      "type": "intro",
+      "text": "poštová známka = postage stamp",
+      "reuse": "a2-u2-l10#zbierat",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l10",
+      "exercise": "choice-pan-kovac-zbiera",
+      "type": "choice",
+      "text": "Pán Kováč zbiera známky už štyridsať rokov. What does this mean?",
+      "reuse": "a2-u2-l10#zbierat",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l10",
+      "exercise": "to-je-neuveritelne",
+      "type": "intro",
+      "text": "To je neuveriteľné! = That's unbelievable!",
+      "reuse": "a2-u2-l10#zbierat",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l10",
+      "exercise": "choice-naozaj-to-je",
+      "type": "choice",
+      "text": "Mr Kováč has five thousand stamps. What does Emma say?",
+      "reuse": "a2-u2-l10#zbierat",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l10",
+      "exercise": "sach-a-karty",
+      "type": "intro",
+      "text": "šach a karty = chess and cards",
+      "picture": "Lucia's games evening in the dorm kitchen: at one end of the table, Tomáš plays chess with Emma, frowning in concentration; at the other end, Lucia deals out cards.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l10",
+      "exercise": "spolocenska-hra",
+      "type": "intro",
+      "text": "spoločenská hra = board game",
+      "picture": "Later at the games evening in the dorm kitchen, Emma, Lucia and Tomáš sit round a board game with a big board, lots of little pieces and cards; Tomáš frowns over a long rule booklet while Emma scratches her head.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l10",
+      "exercise": "zlozity",
+      "type": "intro",
+      "text": "zložitý = complicated",
+      "reuse": "a2-u2-l10#spolocenska-hra",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l12",
+      "exercise": "nechat",
+      "type": "intro",
+      "text": "nechať = to leave (something somewhere)",
+      "picture": "Friday afternoon at the porter's lodge, the big clock on the wall at five: Marek, in his white chef's jacket under an open coat, sets a cake box down on the ledge of the lodge window and hurries off to work, waving; pán Kováč nods to him.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l12",
+      "exercise": "choice-mimochodom-kde-je",
+      "type": "choice",
+      "text": "Mimochodom, kde je torta? What is Lucia asking?",
+      "reuse": "a2-u2-l10#spolocenska-hra",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l12",
+      "exercise": "prazdna-krabica",
+      "type": "intro",
+      "text": "prázdna krabica = an empty box",
+      "picture": "In the porter's lodge, the big clock on the wall at seven: pán Kováč, back at his desk, lifts the lid of the cake box and stares into it. It is empty but for a few crumbs.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l12",
+      "exercise": "zmiznut",
+      "type": "intro",
+      "text": "zmiznúť = to disappear",
+      "reuse": "a2-u2-l12#prazdna-krabica",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l12",
+      "exercise": "svedok",
+      "type": "intro",
+      "text": "svedok = witness",
+      "picture": "In the dormitory corridor, pán Kováč, playing detective with a magnifying glass and a notebook, questions Emma; she points down the corridor, remembering what she saw.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l12",
+      "exercise": "choice-pan-kovac-hlada",
+      "type": "choice",
+      "text": "Pán Kováč hľadá zlodeja. What does this mean?",
+      "reuse": "a2-u2-l12#svedok",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l14",
+      "exercise": "vlasy",
+      "type": "intro",
+      "text": "hnedý = brown",
+      "picture": "Friday evening in the dormitory corridor: Emma, her skates over her shoulder, glimpses Filip hurrying round a corner, a young man with long straight brown hair falling over his face.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l14",
+      "exercise": "brada",
+      "type": "intro",
+      "text": "brada = beard; chin",
+      "picture": "Tomáš stands at a bathroom mirror and proudly trims his neat short black beard with small scissors.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l14",
+      "exercise": "tichy-a-hanblivy",
+      "type": "choice",
+      "text": "Filip, a new student on the second floor, is tichý a hanblivý. What is he like?",
+      "picture": "In the dorm kitchen, Lucia chats away cheerfully to Filip, the new student; Filip looks at his feet, his hair over his face and his hands in his hoodie pocket, and says nothing.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l14",
+      "exercise": "pes",
+      "type": "intro",
+      "text": "pes = dog",
+      "picture": "In Filip's dorm room, Filip's dog sits in a basket beside the bed, wagging its tail, a food bowl next to it; Filip kneels to stroke it.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l14",
+      "exercise": "chovat-psa",
+      "type": "intro",
+      "text": "chovať psa = to keep a dog",
+      "reuse": "a2-u2-l14#pes",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l14",
+      "exercise": "choice-prepacte-pan-kovac",
+      "type": "choice",
+      "text": "Prepáčte, pán Kováč! Môj pes zjedol tortu. Filip says this. Who ate the cake?",
+      "picture": "At the porter's lodge, Filip, red-faced, holds up his dog, its nose white with cream, and apologises to pán Kováč, who stands with his arms folded and a stern frown.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l14",
+      "exercise": "si-nahnevany",
+      "type": "intro",
+      "text": "Si nahnevaný? = Are you angry? (to a man)",
+      "reuse": "a2-u2-l14#choice-prepacte-pan-kovac",
+      "book": null
+    },
+    {
+      "lesson": "a2-u2-l15",
+      "exercise": "choice-tichy",
+      "type": "choice",
+      "text": "Filip hardly says a word. Which word describes him?",
+      "reuse": "a2-u2-l14#tichy-a-hanblivy",
+      "book": null
+    }
+  ]
+}

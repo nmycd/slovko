@@ -75,6 +75,7 @@ the brief their descriptions were written to: [HISTORY.md](HISTORY.md).
 | **Marek** | 28, Lucia's brother, a cook. Stocky, fair skin, short curly dark-brown hair. White chef's jacket at work, red flannel shirt otherwise. |
 | **pani Horváthová** | About 55, Slovak teacher at the university. Fair skin, short silver bob, glasses on a chain, teal blazer, patterned scarf. |
 | **pán Kováč** | About 65, porter at the dormitory. Fair, ruddy skin, grey moustache, flat cap, brown cardigan, a big ring of keys. |
+| **Veronika** | (A2) About 28, a young doctor at the hospital who treats Marek's broken arm, later his girlfriend. Tall and slim, fair skin, long straight black hair, big dark eyes. At work: a white coat over blue scrubs, hair tied back, a stethoscope. For the dinner: a new dark-red dress, hair loose. |
 
 Minor characters who appear in more than one picture. The course doesn't name
 Oksana or Dušan; the names are only handles for the image prompt.
@@ -91,9 +92,26 @@ Oksana or Dušan; the names are only handles for the image prompt.
 | **the shop assistant** | About 60, at the corner shop near the dorm. Fair skin, short grey hair, a green checked shirt under a dark-green apron. |
 | **Emma's mum** | About 50, at home in Ireland. Fair skin, rosy cheeks, shoulder-length wavy light-brown hair, a cream jumper with a patterned yoke. |
 | **Emma's dad** | About 55, at home in Ireland. Tall, fair skin and freckles, thinning auburn hair going grey, a short ginger-grey beard, a navy knitted jumper. |
-| **Emma's brother and sister** | Younger than Emma, both fair and freckled with auburn hair. Her brother, about 15: lanky, messy hair, a green football shirt. Her sister, about 11: two plaits, a red jumper. |
+| **Emma's brother and sister** | Liam and Sarah, younger than Emma, both fair and freckled with auburn hair. Her brother Liam, 15: tall and lanky, messy hair, a green football shirt. Her sister Sarah, 11: two plaits, a red jumper (a red T-shirt in summer). |
 | **pán Horváth** | About 60, pani Horváthová's husband. Tall and broad, fair skin, white hair combed back, a short white beard, a brown corduroy jacket over a checked shirt. |
 | **the doctor** | About 45, a woman GP. Fair skin, short dark-brown hair tucked behind her ears, a white coat over a sage-green blouse, a stethoscope round her neck. |
+| **Lucia's mum** | (A2) Katarína Šimková, about 52, a nurse at the hospital in Žilina. Slim, fair skin, chin-length dark-brown hair with a few grey strands, round glasses like Lucia's, a warm, slightly worried smile. A burgundy cardigan over a cream blouse. |
+| **Lucia's dad** | (A2) Jozef Šimko, about 55, a bus driver in Žilina. Stocky like Marek, fair skin, short curly dark hair going grey, clean-shaven, a round, cheerful face. A dark-green fleece over a light-blue shirt. |
+| **babka Helena** | (A2) About 80, Lucia's dad's mother; lives with the family in Žilina. Short and slim, fair wrinkled skin, rosy cheeks, white hair in a small bun. A dark-blue dress with small white flowers, a plain white apron, a grey knitted cardigan. |
+| **ujo Pavol** | (A2) About 45, Lucia's mum's brother. Tall and broad, fair skin, short brown hair, a full bushy brown beard, laughing eyes. A moss-green jumper. |
+| **teta Mirka** | (A2) About 42, ujo Pavol's wife. Small and lively, fair skin, short bright copper-red hair, big hoop earrings. A purple jumper. |
+| **Samko** | (A2) 8, ujo Pavol and teta Mirka's son, Lucia's cousin. Small and lively, fair skin, sandy hair sticking up, a gap in his front teeth. A bright-blue jumper with a rocket on it. |
+| **Daniel** | (A2) 19, history student from Munich, half Slovak; on Emma's quiz team. Tall, fair skin, short fair hair, rectangular black-framed glasses, a wide grin. A navy track jacket over a white T-shirt, trainers. |
+| **Kristína** | (A2) 20, first-year economics student from Trenčín, Emma's classmate; shy and quiet. Fair skin, short curly black hair, green eyes. A lilac jumper, jeans, a small crossbody bag. |
+| **Martina** | (A2) About 22, reporter for the student radio. Fair skin, a short dark-brown pixie cut, big headphones round her neck, a handheld microphone. A denim jacket over a black T-shirt. |
+| **Filip** | (A2) About 20, a quiet, shy student from the dorm's second floor. Thin, fair skin, straight brown hair to his shoulders, falling over his face. An oversized dark-blue hoodie. |
+| **Filip's dog** | (A2) Small, white and scruffy, a very friendly mongrel with a red collar. |
+| **the nurse** | (A2) About 40, at Emma's doctor's surgery. Fair skin, short light-brown hair, a white tunic and trousers, a small watch pinned to her chest. |
+| **the pharmacist** | (A2) About 45, a woman at the pharmacy. Fair skin, dark hair with grey streaks in a low bun, half-moon glasses, a white coat. |
+| **Petra** | (A2) Petra Bartošová, about 30, the receptionist at Tomáš's company. Fair skin, a sleek blonde bob, a phone headset. A coral blouse. |
+| **pán Hudák** | (A2) Pán inžinier Hudák, about 55, Tomáš's boss and Emma's at her internship. Heavy-set, fair skin, short receding grey hair, rimless glasses. A dark-grey suit, white shirt, burgundy tie. |
+| **pani Kollárová** | (A2) Pani inžinierka Kollárová, about 40, Tomáš's colleague. Slim, fair skin, chin-length black hair with a straight fringe, red-framed glasses. A charcoal trouser suit. |
+| **pani Sokolová** | (A2) Viera Sokolová, about 60, owner of the guesthouse in the Tatras and its receptionist. Sturdy, rosy cheeks, grey-blonde hair pinned up, reading glasses pushed up on her head. A red-and-white patterned knitted cardigan over a white blouse. |
 
 ## Recurring places
 
@@ -110,16 +128,27 @@ Places that come back in several units. Keep their layout the same each time.
 | University | Main building with a clock over the entrance; a sunny courtyard; tiered lecture hall; library with tall shelves, long tables and green lamps; canteen; international office counter. | u1-l1#ahoj, u7-l1#prednaska |
 | Café near the university | Small round tables, a big street window, a counter with a coffee machine. | u1-l4#choice-ako-sa-mate-2, u4-l2#kaviaren |
 | Marek's restaurant | Dining room with checked tablecloths and leather-bound menus; a busy kitchen with big pots. | u1-l2#choice-nech-sa-paci, u4-l3#co-robis-som, u6-l1#jedalny-listok |
-| Marek's flat | Hallway in the middle; bright living room with a big window, sofa, rug and TV; small dim bedroom facing a courtyard. | u3-l5#byt |
+| Marek's flat | Hallway in the middle; bright living room with a big window, sofa, rug and TV; small dim bedroom facing a courtyard. (A2) A narrow kitchen off the hallway; for the dinner with Veronika, a small table by the living-room window, laid for two with a white cloth, candles and flowers. | u3-l5#byt, a2-u9-l13#choice-stol-je-prestrety |
 | Corner shop | Near the dorm. Shelves of groceries, crates of fruit and vegetables, a deli counter with scales, a small till with a card reader. | u5-l1#kolko-stoji-sunka, u5-obchod#ovocie-a-zelenina |
 | Clothes shop | Racks and shelves of clothes, a mirror, a counter with high shelves behind it. | u4-l3#predavac, u5-l3#tricko-a-sveter |
 | Neighbourhood bakery | Small; shelves of rolls and loaves behind the counter. | u1-l1#dobry-den |
-| Tomáš's company | An office building with several floors: a reception desk at the entrance, a canteen, a meeting room, a training room, a room for staff parties, the technical department. Tomáš's own office is untidy: a desk with a lamp above it, a printer, shelves. | u8-l1#firma, u6-l5#grammar-where-pred-za |
+| Tomáš's company | An office building with several floors: a reception desk at the entrance, a canteen, a meeting room, a training room, a room for staff parties, the technical department. Tomáš's own office is untidy: a desk with a lamp above it, a printer, shelves. (A2) Emma interns here: Petra's reception desk has a phone and a computer; a small office kitchen with a coffee machine and a fridge; pán Hudák's glass-walled corner office. | u8-l1#firma, u6-l5#grammar-where-pred-za, a2-u6-l3#recepcia |
 | Bratislava Old Town | Square with a fountain and pastel houses, narrow streets, a church with a tall spire; the white castle with four corner towers on its hill; the bridge with one pylon and a round saucer on top; café tables on the Danube embankment. | u4-l1#mesto |
 | Park bench | Tomáš's bench from the weather pictures (sunny, partly cloudy, cloudy, rain); the pensioner feeds pigeons in the same park. | u1-l3#mam-sa-dobre, u10-l2#je-oblacno |
 | Conference centre | Foyer with a registration desk and posters; a hall with a lectern and a big screen. | u9-l1#konferencia |
 | Emma's family home in Ireland | A small terraced house with a red front door; a cosy living room with a sofa, an armchair, plants and patterned wallpaper; a small back garden. | u4-rodina#mama-a-otec, u9-l1#pozvanka, u9-l5#trvale-bydlisko |
 | Doctor's surgery | Small and bright: the doctor's desk with a computer, an examination couch with a paper sheet, a glass cabinet of medicines, a window with blinds. | u9-lekar#mam-horucku |
+| Ice rink (A2) | Indoor, the zimný štadión: a big hall with a curved roof, white ice inside low boards, rows of seats, a counter that hires out skates. | a2-u2-l6#zimny-stadion |
+| Zoo (A2) | Bratislava's zoo on a wooded hillside: paths between enclosures of rocks and trees for the lions, tigers and bears; giraffes and an elephant in big paddocks; monkeys and gorillas behind glass; benches and an ice-cream kiosk. | a2-u2-l8#zoo, a2-u9-l2#lev |
+| The Šimkos' house in Žilina (A2) | Lucia's family home: a two-storey house with a small front garden on a quiet street, snowy at Christmas. A hallway with the home phone; a living room with the Christmas tree in the corner, a big dining table and a sofa; a warm kitchen where Lucia's mum and babka Helena cook. | a2-u3-navsteva#mate-krasny-dom, a2-u3-stedry-vecer#vianocny-stromcek |
+| Railway station (A2) | Žilina station: a hall with ticket-office windows, benches and a big clock; platforms reached by an underpass. Bratislava's main station looks much the same, with taxis waiting outside. | a2-u4-l2#stanica, a2-u4-l5#objednat-si-taxik |
+| The train (A2) | An InterCity carriage with compartments: two facing rows of three seats, a window with a small fold-out table, luggage racks overhead, a sliding glass door onto the corridor. Tomáš commutes from Košice on the same kind of train. | a2-u4-l3#vozen |
+| Hospital (A2) | Where Veronika works and Marek's arm goes into plaster: an A&E waiting area with rows of plastic chairs; a bright treatment room with a couch, an X-ray on a screen, a sink and a trolley of bandages. | a2-u5-l7#nemocnica, a2-u5-l8#sadra |
+| Tomáš's car (A2) | An old dark-blue estate car with a roof box, bags piled in the boot. It takes the four friends round Slovakia in May and Tomáš to the festival. | a2-u7-l2#som-na-ceste |
+| Orava Castle (A2) | Pale walls and dark roofs built in tiers up a steep rock high above a river, wooded hills around; a ticket office at the gate at the bottom. | a2-u7-l4#vstupenka |
+| Guesthouse in the Tatras (A2) | Pani Sokolová's: a chalet-style house with a steep roof and wooden balconies, the mountains behind. A small reception desk with a rack of keys; a breakfast room with wooden tables and a view of the peaks; bedrooms upstairs with pine furniture. | a2-u7-l6#penzion |
+| Festival by the lake (A2) | A meadow by a lake with woods around: the main stage at the water's edge, a big white main tent for the workshops, a smaller theatre tent, food stalls, and a campsite of small tents, the friends' big orange tent among them. | a2-u8-l1#festival, a2-u8-l4#podium |
+| Circus (A2) | A circus without animals: a red-and-white striped big top; inside, a round ring with tiered seats all around, a rope stretched high above it for the performers, spotlights. | a2-u9-l4#cirkus, a2-u9-l5#artistka |
 
 ## Book crops
 

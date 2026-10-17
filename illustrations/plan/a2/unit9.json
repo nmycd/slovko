@@ -1,0 +1,622 @@
+{
+  "unit": "a2-u9",
+  "pictures": 34,
+  "items": [
+    {
+      "lesson": "a2-u9-l1",
+      "exercise": "milovat",
+      "type": "intro",
+      "text": "milovať = to love",
+      "picture": "In the dormitory corridor, Sarah kneels to hug Filip's dog, who wags his tail and licks her cheek; Filip watches, smiling shyly, and Emma laughs.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l1",
+      "exercise": "na-vlastne-oci",
+      "type": "intro",
+      "text": "na vlastné oči = with my (your, her…) own eyes",
+      "reuse": "a2-u9-l2#lev",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l2",
+      "exercise": "lev",
+      "type": "intro",
+      "text": "lev = lion",
+      "picture": "At Bratislava's zoo on a wooded hillside, a big maned lion lies on a rock in its enclosure among the trees. Sarah, at the railing, stares at it wide-eyed; Liam and Emma stand beside her.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l2",
+      "exercise": "tiger",
+      "type": "intro",
+      "text": "tiger = tiger",
+      "picture": "At the zoo, a tiger pads along the rocks of its enclosure between the trees; Liam points it out to Sarah.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l2",
+      "exercise": "choice-chcem-vidiet-leva",
+      "type": "choice",
+      "text": "Sarah wants to see a lion. What does she say?",
+      "reuse": "a2-u9-l2#lev",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l2",
+      "exercise": "slon",
+      "type": "intro",
+      "text": "slon = elephant",
+      "picture": "At the zoo, an elephant in its big paddock sprays water over its back with its trunk; Sarah, holding an ice cream, laughs at it from the fence.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l2",
+      "exercise": "opica",
+      "type": "intro",
+      "text": "opica = monkey",
+      "picture": "At the zoo, behind the glass of the monkey house, a monkey hangs from a branch by one arm and pulls a face at Sarah, who pulls one back, her nose almost touching the glass.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l2",
+      "exercise": "zirafa",
+      "type": "intro",
+      "text": "žirafa = giraffe",
+      "picture": "At the zoo, a giraffe in its big paddock stretches its long neck up to eat leaves from the top of a tall tree; Liam, at the fence, looks up at it.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l2",
+      "exercise": "medved",
+      "type": "intro",
+      "text": "medveď = bear",
+      "picture": "At the zoo, a big brown bear stands up on its hind legs among the rocks and trees of its enclosure; Emma, Liam and Sarah watch from the path, impressed.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l4",
+      "exercise": "cirkus",
+      "type": "intro",
+      "text": "cirkus = circus",
+      "picture": "Evening on a meadow at the edge of town: a circus big top, striped red and white, with flags on top and lights strung round the entrance. People queue to go in; Emma, Liam and Sarah walk towards it.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l4",
+      "exercise": "predstavenie",
+      "type": "intro",
+      "text": "predstavenie = show, performance",
+      "reuse": "a2-u9-l5#vzrusujuci",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l4",
+      "exercise": "choice-pozyvam-vas-do",
+      "type": "choice",
+      "text": "Sarah has seen a circus poster in town. Emma invites her and Liam. What does she say?",
+      "picture": "On a street in Bratislava, Sarah tugs Emma's sleeve and points at a big circus poster on a wall, showing a striped big top, an acrobat on a rope and a clown. Liam stands back with his arms folded, frowning; Emma smiles at them both.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l4",
+      "exercise": "choice-cirkus-so-zvieratami",
+      "type": "choice",
+      "text": "Liam doesn't like circuses with animals. What does he say?",
+      "reuse": "a2-u9-l4#choice-pozyvam-vas-do",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l4",
+      "exercise": "hodi-sa-vam",
+      "type": "intro",
+      "text": "Hodí sa vám to? = Does that suit you?",
+      "reuse": "a2-u9-l4#listky-su-vypredane",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l4",
+      "exercise": "listky-su-vypredane",
+      "type": "intro",
+      "text": "Lístky sú vypredané. = The tickets are sold out.",
+      "picture": "At the circus box office by the big top, the woman behind the window spreads her hands apologetically: no tickets left. Emma, Liam and Sarah, at the front of the queue, look disappointed.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l4",
+      "exercise": "choice-listky-na-sobotu",
+      "type": "choice",
+      "text": "Lístky na sobotu sú vypredané. Hodí sa vám nedeľa? The woman at the box office says this. What does she offer?",
+      "reuse": "a2-u9-l4#listky-su-vypredane",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l5",
+      "exercise": "artistka",
+      "type": "intro",
+      "text": "artistka = circus performer (a woman)",
+      "picture": "Inside the circus big top, under the spotlights, a woman performer in a sparkly costume dances on a rope stretched high above the round ring, arms out for balance; the tiered seats all around are full of people looking up.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l5",
+      "exercise": "lano",
+      "type": "intro",
+      "text": "lano = rope",
+      "reuse": "a2-u9-l5#artistka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l5",
+      "exercise": "klaun",
+      "type": "intro",
+      "text": "klaun = clown",
+      "picture": "In the circus ring, a clown with a red nose, a curly orange wig, baggy trousers and huge shoes juggles coloured balls; Sarah laughs in the front row.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l5",
+      "exercise": "zonglovat",
+      "type": "intro",
+      "text": "žonglovať = to juggle",
+      "reuse": "a2-u9-l5#klaun",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l5",
+      "exercise": "akrobat",
+      "type": "intro",
+      "text": "akrobat = acrobat",
+      "picture": "Three acrobats in matching costumes perform in the circus ring under the spotlights: two stand side by side and the third does a handstand on their shoulders.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l5",
+      "exercise": "vystupovat",
+      "type": "intro",
+      "text": "vystupovať = to perform",
+      "reuse": "a2-u9-l5#akrobat",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l5",
+      "exercise": "choice-traja-akrobati-vystupuju",
+      "type": "choice",
+      "text": "Three acrobats are performing. Which is right?",
+      "reuse": "a2-u9-l5#akrobat",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l5",
+      "exercise": "vzrusujuci",
+      "type": "intro",
+      "text": "vzrušujúci = exciting",
+      "picture": "In the tiered seats of the circus, Emma, Liam and Sarah lean forward on the edge of their seats, gasping, as a performer leaps between ropes high above the ring; Sarah grips Liam's arm.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l6",
+      "exercise": "grammar-active-participles",
+      "type": "grammar",
+      "text": "-úci, -iaci: who is doing it",
+      "picture": "At the zoo, the lion lies fast asleep on its rock in the sun, eyes shut and chin on its paws; Sarah, at the railing, puts a finger to her lips to hush Liam.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l7",
+      "exercise": "babka-a-vnuk",
+      "type": "intro",
+      "text": "Ahoj, babi! = Hi, Grandma!",
+      "picture": "Split picture of a phone call. Left: Marek in the narrow kitchen of his flat, phone at his ear, a pen and notepad in his hand. Right: babka Helena at the home phone in the hallway of the Šimkos' house in Žilina, beaming in surprise at hearing from her grandson.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l7",
+      "exercise": "kolac",
+      "type": "intro",
+      "text": "koláč = cake",
+      "picture": "Babka Helena's strawberry cake on a baking tray on the kitchen table of the Šimkos' house in Žilina: a sponge base topped with strawberries and whipped cream, cut into squares. Babka Helena lifts out the first square with a cake slice.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l7",
+      "exercise": "recept",
+      "type": "intro",
+      "text": "recept = recipe",
+      "reuse": "a2-u9-l7#babka-a-vnuk",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l7",
+      "exercise": "choice-marek-telefonuje-s",
+      "type": "choice",
+      "text": "Marek telefonuje s babkou. Chce jej recept na koláč. Marek wants to cook dinner for Veronika, the doctor he met in winter. Why is he phoning his grandmother?",
+      "reuse": "a2-u9-l7#babka-a-vnuk",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l7",
+      "exercise": "dlho-si-sa",
+      "type": "intro",
+      "text": "Dlho si sa nám neozval! = We haven't heard from you for ages!",
+      "reuse": "a2-u9-l7#babka-a-vnuk",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l7",
+      "exercise": "stalo-sa-nieco",
+      "type": "intro",
+      "text": "Stalo sa niečo? — Nie, neboj sa. = Has something happened? — No, don't worry.",
+      "reuse": "a2-u9-l7#babka-a-vnuk",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l7",
+      "exercise": "choice-nie-neboj-sa",
+      "type": "choice",
+      "text": "Babka asks: Stalo sa niečo? Marek wants to calm her down. What does he say?",
+      "reuse": "a2-u9-l7#babka-a-vnuk",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l8",
+      "exercise": "vajce",
+      "type": "intro",
+      "text": "vajce = egg",
+      "picture": "In the narrow kitchen of his flat, Marek cracks an egg into a mixing bowl; a box of more eggs waits beside it on the counter.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l8",
+      "exercise": "muka",
+      "type": "intro",
+      "text": "múka = flour",
+      "picture": "In the narrow kitchen of his flat, Marek tips a big paper bag of flour into a bowl, and a white cloud of flour puffs up into his face.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l8",
+      "exercise": "choice-potrebujes-vajcia-a",
+      "type": "choice",
+      "text": "Potrebuješ vajcia a hrubú múku. Babka starts the list. What does Marek need?",
+      "reuse": "a2-u9-l7#babka-a-vnuk",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l8",
+      "exercise": "jahoda",
+      "type": "intro",
+      "text": "jahoda = strawberry",
+      "picture": "At a fruit stall at the market, the stallholder weighs a heap of ripe red strawberries on the scales for Marek, who sneaks one to taste.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l8",
+      "exercise": "choice-mlieko-a-maslo",
+      "type": "choice",
+      "text": "Mlieko a maslo máš doma? What is babka asking?",
+      "reuse": "a2-u9-l7#babka-a-vnuk",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l8",
+      "exercise": "si-poklad",
+      "type": "intro",
+      "text": "Si poklad! = You're a treasure!",
+      "reuse": "a2-u9-l7#babka-a-vnuk",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l8",
+      "exercise": "choice-babi-si-poklad",
+      "type": "choice",
+      "text": "Babka has given Marek the whole recipe. What does he say?",
+      "reuse": "a2-u9-l7#babka-a-vnuk",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l9",
+      "exercise": "kilo",
+      "type": "intro",
+      "text": "kilo = kilo",
+      "reuse": "a2-u9-l8#jahoda",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l10",
+      "exercise": "piect-upiect",
+      "type": "intro",
+      "text": "piecť / upiecť = to bake",
+      "picture": "In the narrow kitchen of his flat, Marek, in oven gloves, slides a baking tray of cake mixture into the hot oven.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l10",
+      "exercise": "cesto",
+      "type": "intro",
+      "text": "cesto = dough, cake mixture",
+      "reuse": "a2-u9-l10#miesat-vymiesat",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l10",
+      "exercise": "miesat-vymiesat",
+      "type": "intro",
+      "text": "miešať / vymiešať = to mix, to stir",
+      "picture": "In the narrow kitchen of his flat, Marek stirs a big bowl of thick, pale-yellow cake mixture with a wooden spoon.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l10",
+      "exercise": "slahat-vyslahat",
+      "type": "intro",
+      "text": "šľahať / vyšľahať = to whisk, to whip",
+      "picture": "In the narrow kitchen of his flat, Marek whisks eggs and sugar into a pale, fluffy foam in a big bowl, the whisk going fast and a few splashes on his red flannel shirt.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l10",
+      "exercise": "rura",
+      "type": "intro",
+      "text": "rúra = oven",
+      "reuse": "a2-u9-l10#piect-upiect",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l10",
+      "exercise": "choice-teraz-peciem-kolac",
+      "type": "choice",
+      "text": "Lucia phones. Marek's cake is in the oven right now. What does he say?",
+      "reuse": "a2-u9-l10#piect-upiect",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l11",
+      "exercise": "krajat-pokrajat",
+      "type": "intro",
+      "text": "krájať / pokrájať = to cut, to slice",
+      "picture": "In the narrow kitchen of his flat, Marek slices strawberries in half with a small knife on a chopping board.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l11",
+      "exercise": "zdobit-ozdobit",
+      "type": "intro",
+      "text": "zdobiť / ozdobiť = to decorate",
+      "picture": "In the narrow kitchen of his flat, Marek, tongue between his teeth in concentration, pipes swirls of whipped cream onto the strawberry cake on its baking tray.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l12",
+      "exercise": "rande",
+      "type": "intro",
+      "text": "rande = date (a romantic meeting)",
+      "reuse": "a2-u9-l16#co-oslavujeme",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l12",
+      "exercise": "prekvapenie",
+      "type": "intro",
+      "text": "prekvapenie = surprise",
+      "reuse": "a2-u9-l16#co-oslavujeme",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l12",
+      "exercise": "vynimocny",
+      "type": "intro",
+      "text": "výnimočný = special, exceptional",
+      "reuse": "a2-u9-l16#co-oslavujeme",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l13",
+      "exercise": "choice-stol-je-prestrety",
+      "type": "choice",
+      "text": "Lucia has laid the table. Which word fits? Stôl je ___.",
+      "picture": "In Marek's flat, Lucia has laid the small table by the living-room window for two: a white cloth, two plates, wine glasses, candles and a vase of flowers. She steps back to admire it.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l14",
+      "exercise": "grammar-byt-participle",
+      "type": "grammar",
+      "text": "Is it done? byť + the participle",
+      "reuse": "a2-u9-l13#choice-stol-je-prestrety",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l15",
+      "exercise": "nervozny",
+      "type": "intro",
+      "text": "nervózny = nervous",
+      "picture": "In his flat, Marek, in a clean white shirt, paces by the laid table by the window, checking his watch and running a hand through his hair; Lucia, on the sofa, smiles and rolls her eyes.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l15",
+      "exercise": "vyzeras-krasne",
+      "type": "intro",
+      "text": "Vyzeráš krásne! = You look beautiful!",
+      "picture": "Marek opens the front door of his flat to Veronika in her new dark-red dress, hair loose. He stares, open-mouthed and delighted; she smiles shyly.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l15",
+      "exercise": "choice-vyzeras-krasne-mas",
+      "type": "choice",
+      "text": "Veronika arrives in a new dress. What does Marek say?",
+      "reuse": "a2-u9-l15#vyzeras-krasne",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l15",
+      "exercise": "nebudem-vas-rusit",
+      "type": "intro",
+      "text": "Nebudem vás rušiť. = I won't disturb you.",
+      "picture": "In the hallway of Marek's flat, Lucia, coat on and bag over her shoulder, slips out of the front door, winking and waving at Marek and Veronika behind her.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l15",
+      "exercise": "uzite-si-vecer",
+      "type": "intro",
+      "text": "Užite si večer! = Enjoy your evening!",
+      "reuse": "a2-u9-l15#nebudem-vas-rusit",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l15",
+      "exercise": "choice-nebudem-vas-rusit",
+      "type": "choice",
+      "text": "Lucia is still there when Veronika arrives. Now she's leaving. What does she say?",
+      "reuse": "a2-u9-l15#nebudem-vas-rusit",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l16",
+      "exercise": "grilovany",
+      "type": "intro",
+      "text": "grilovaný = grilled",
+      "reuse": "u6-l1#ryba",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l16",
+      "exercise": "plnene-papriky",
+      "type": "intro",
+      "text": "plnené papriky = stuffed peppers",
+      "picture": "In the narrow kitchen of Marek's flat, Marek lifts the lid off a pot of stuffed peppers: green peppers filled with meat and rice, simmering in red tomato sauce, steam rising.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l16",
+      "exercise": "co-oslavujeme",
+      "type": "intro",
+      "text": "Čo oslavujeme? = What are we celebrating?",
+      "picture": "Evening at the candlelit table by the window in Marek's flat: Marek pours champagne into Veronika's glass. Veronika, in her dark-red dress, looks round at the candles and flowers, surprised and curious.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l16",
+      "exercise": "choice-aky-je-dovod",
+      "type": "choice",
+      "text": "Veronika sees the candles and the champagne. What does she ask?",
+      "reuse": "a2-u9-l16#co-oslavujeme",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l16",
+      "exercise": "zakusok",
+      "type": "intro",
+      "text": "zákusok = dessert, a piece of cake",
+      "reuse": "a2-u9-l7#kolac",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l17",
+      "exercise": "zalubit-sa",
+      "type": "intro",
+      "text": "zaľúbiť sa = to fall in love",
+      "reuse": "a2-u9-l17#na-prvy-pohlad",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l17",
+      "exercise": "na-prvy-pohlad",
+      "type": "intro",
+      "text": "na prvý pohľad = at first sight",
+      "picture": "A winter memory in the hospital treatment room: Veronika, in her white coat over blue scrubs, wraps Marek's broken arm in plaster. Marek, in his red flannel shirt, can't take his eyes off her, smitten.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l17",
+      "exercise": "zlomena-ruka",
+      "type": "intro",
+      "text": "zlomená ruka = a broken arm",
+      "reuse": "a2-u9-l17#na-prvy-pohlad",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l17",
+      "exercise": "lubim-ta",
+      "type": "intro",
+      "text": "Ľúbim ťa. = I love you.",
+      "picture": "Later that evening at the candlelit table in Marek's flat, Marek and Veronika hold hands across the table and look into each other's eyes, both beaming.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l17",
+      "exercise": "choice-aj-ja-ta",
+      "type": "choice",
+      "text": "Marek says Ľúbim ťa. What does Veronika answer?",
+      "reuse": "a2-u9-l17#lubim-ta",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l17",
+      "exercise": "chces-so-mnou",
+      "type": "intro",
+      "text": "Chceš so mnou chodiť? = Will you go out with me?",
+      "reuse": "a2-u9-l17#lubim-ta",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l18",
+      "exercise": "priatelka",
+      "type": "intro",
+      "text": "priateľka = girlfriend; (female) friend",
+      "picture": "In the dorm kitchen, Marek comes in arm in arm with Veronika, both beaming; Lucia throws up her hands in delighted disbelief, and Emma laughs and claps.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l18",
+      "exercise": "myslela-som-ze",
+      "type": "intro",
+      "text": "Myslela som, že sa toho nedožijem! = I thought I'd never live to see it!",
+      "reuse": "a2-u9-l18#priatelka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l18",
+      "exercise": "stastny",
+      "type": "intro",
+      "text": "šťastný = happy",
+      "reuse": "a2-u9-l17#lubim-ta",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l18",
+      "exercise": "zoznamit-sa",
+      "type": "intro",
+      "text": "zoznámiť sa = to meet (for the first time)",
+      "reuse": "a2-u9-l17#na-prvy-pohlad",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l18",
+      "exercise": "vziat-sa",
+      "type": "intro",
+      "text": "vziať sa = to get married (of a couple)",
+      "reuse": "u4-rodina#zenaty-vydata",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l19",
+      "exercise": "choice-predstavenie-v-sobotu",
+      "type": "choice",
+      "text": "Predstavenie v sobotu je vypredané. You hear this at the circus box office. What's the news?",
+      "reuse": "a2-u9-l4#listky-su-vypredane",
+      "book": null
+    },
+    {
+      "lesson": "a2-u9-l19",
+      "exercise": "choice-ktory-je-spiaci",
+      "type": "choice",
+      "text": "Which one is a lion that is asleep?",
+      "reuse": "a2-u9-l6#grammar-active-participles",
+      "book": null
+    }
+  ]
+}

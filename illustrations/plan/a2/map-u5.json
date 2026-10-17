@@ -1,0 +1,298 @@
+{
+  "a2-u5-l1#nemas-chut-ist-zajtra": {
+    "picture": "Split picture of a phone call. Left: Tomáš, a pair of ice skates slung over his shoulder, phones cheerfully from a snowy street. Right: in the dorm room, Emma, in bed with a blanket round her and a box of tissues beside her, answers, looking miserable.",
+    "book": null
+  },
+  "a2-u5-l1#choice-prosim-ahoj-emma": {
+    "reuse": "a2-u5-l1#nemas-chut-ist-zajtra",
+    "book": null
+  },
+  "a2-u5-l1#choice-ako-zdvihnut-telefon": {
+    "reuse": "u2-telefon#halo",
+    "book": null
+  },
+  "a2-u5-l1#ako-sa-citis": {
+    "reuse": "u9-lekar#necitim-sa-dobre",
+    "book": null
+  },
+  "a2-u5-l1#prechladla-som": {
+    "reuse": "u9-lekar#som-chora",
+    "book": null
+  },
+  "a2-u5-l1#mam-nadchu": {
+    "picture": "Emma, wrapped in a blanket at her desk in the dorm room, blows her red nose into a tissue; crumpled tissues pile up beside her.",
+    "book": null
+  },
+  "a2-u5-l1#kaslem": {
+    "picture": "Emma, sitting up in bed in the dorm room, coughs hard into her elbow, her eyes screwed shut.",
+    "book": null
+  },
+  "a2-u5-l2#vyzeras-zle": {
+    "picture": "Lucia, just home, her bag still on her shoulder, stops in the doorway of the dorm room and looks at Emma with concern: Emma, huddled on her bed in a blanket, is pale as a sheet, with dark rings under her eyes.",
+    "book": null
+  },
+  "a2-u5-l2#si-bleda": {
+    "reuse": "a2-u5-l2#vyzeras-zle",
+    "book": null
+  },
+  "a2-u5-l2#teplota": {
+    "picture": "In the dorm room, Emma, sitting up in bed, squints at the thermometer she has just taken from under her arm; Lucia leans over to look too.",
+    "book": null
+  },
+  "a2-u5-l2#choice-mam-teplotu": {
+    "reuse": "a2-u5-l2#teplota",
+    "book": null
+  },
+  "a2-u5-l2#med": {
+    "reuse": "a2-u3-stedry-vecer#oplatky-s-medom",
+    "book": null
+  },
+  "a2-u5-l3#sestricka": {
+    "picture": "At the doctor's surgery, the nurse opens the door of the consulting room and calls in the next patient; in the waiting room, Emma, wrapped in her scarf, gets up from her chair.",
+    "book": null
+  },
+  "a2-u5-l3#preukaz-poistenca": {
+    "picture": "At the nurse's desk in the doctor's surgery, Emma hands over her blue European health insurance card; the nurse holds out her hand for it, smiling.",
+    "book": null
+  },
+  "a2-u5-l3#choice-mate-preukaz-poistenca": {
+    "reuse": "a2-u5-l3#preukaz-poistenca",
+    "book": null
+  },
+  "a2-u5-l3#cakaren": {
+    "picture": "The waiting room of the doctor's surgery: chairs along the walls, a coat stand, a window. The pensioner waits with his stick, a young mother holds a coughing toddler on her knee, and Emma, in her scarf, sniffles into a tissue.",
+    "book": null
+  },
+  "a2-u5-l3#dalsi-prosim": {
+    "reuse": "a2-u5-l3#sestricka",
+    "book": null
+  },
+  "a2-u5-l3#choice-sestricka-otvori-dvere": {
+    "reuse": "a2-u5-l3#sestricka",
+    "book": null
+  },
+  "a2-u5-l3#lekar-a-pacient": {
+    "reuse": "a2-u5-l4#dychajte-zhlboka",
+    "book": null
+  },
+  "a2-u5-l3#co-vam-je": {
+    "reuse": "a2-u4-l17#co-ti-je",
+    "book": null
+  },
+  "a2-u5-l4#dychajte-zhlboka": {
+    "picture": "In the doctor's surgery, Emma sits on the edge of the examination couch in her white T-shirt and takes a deep breath, eyes closed; the doctor listens to her back through her stethoscope.",
+    "book": null
+  },
+  "a2-u5-l4#ukazte-mi-hrdlo": {
+    "picture": "In the doctor's surgery, Emma opens her mouth wide to say ah; the doctor, holding a wooden spatula, shines a small torch into her throat.",
+    "book": null
+  },
+  "a2-u5-l4#angina": {
+    "reuse": "a2-u5-l4#ukazte-mi-hrdlo",
+    "book": null
+  },
+  "a2-u5-l4#choice-nie-je-to-zapal": {
+    "reuse": "a2-u5-l4#ukazte-mi-hrdlo",
+    "book": null
+  },
+  "a2-u5-l4#mam-chripku": {
+    "reuse": "u9-lekar#choice-rychlo-sa-uzdrav",
+    "book": null
+  },
+  "a2-u5-l4#antibiotika": {
+    "reuse": "u9-lekar#liek",
+    "book": null
+  },
+  "a2-u5-l4#pite-vela-tekutin": {
+    "picture": "Emma, in bed in the dorm room, drinks a big glass of water; on her bedside table stand a full jug of water, a teapot and a bottle of juice.",
+    "book": null
+  },
+  "a2-u5-l5#lekarnicka": {
+    "picture": "A pharmacy: shelves of medicine boxes and a glass cabinet behind the counter. The pharmacist takes Emma's prescription across the counter and reads it over her half-moon glasses.",
+    "book": null
+  },
+  "a2-u5-l5#na-recept-bez-receptu": {
+    "reuse": "a2-u5-l5#lekarnicka",
+    "book": null
+  },
+  "a2-u5-l5#choice-antibiotika-su-na": {
+    "reuse": "a2-u5-l5#lekarnicka",
+    "book": null
+  },
+  "a2-u5-l5#tabletka": {
+    "picture": "Close up at Emma's desk: Emma presses a small white tablet out of a blister strip into her palm; the opened pack and a glass of water stand beside it.",
+    "book": null
+  },
+  "a2-u5-l5#trikrat-denne": {
+    "picture": "Three small scenes of one day, side by side, in the dorm room: in the morning, the sun rising in the window; at midday, the sun high; at night, the moon in the window. Each time Emma takes a tablet with a glass of water.",
+    "book": null
+  },
+  "a2-u5-l5#choice-uzivajte-dve-tabletky": {
+    "reuse": "a2-u5-l5#lekarnicka",
+    "book": null
+  },
+  "a2-u5-l5#balenie": {
+    "reuse": "a2-u5-l5#tabletka",
+    "book": null
+  },
+  "a2-u5-l5#choice-v-jednom-baleni": {
+    "reuse": "a2-u5-l5#tabletka",
+    "book": null
+  },
+  "a2-u5-l6#sirup-proti-kaslu": {
+    "reuse": "a2-u5-l6#co-mi-odporucate",
+    "book": null
+  },
+  "a2-u5-l6#kvapky-do-nosa": {
+    "picture": "At the mirror in the dorm bathroom, Emma tips her head back and squeezes drops from a small bottle into her nose.",
+    "book": null
+  },
+  "a2-u5-l6#choice-mate-nieco-proti": {
+    "reuse": "a2-u5-l5#lekarnicka",
+    "book": null
+  },
+  "a2-u5-l6#co-mi-odporucate": {
+    "picture": "At the pharmacy counter, Emma, sniffling, asks the pharmacist's advice; the pharmacist holds up a bottle of cough syrup, recommending it.",
+    "book": null
+  },
+  "a2-u5-l6#vitaminy": {
+    "reuse": "a2-u5-l6#nechaj-tak-ja-to",
+    "book": null
+  },
+  "a2-u5-l6#to-si-nemozem-dovolit": {
+    "reuse": "a2-u5-l6#nechaj-tak-ja-to",
+    "book": null
+  },
+  "a2-u5-l6#nechaj-tak-ja-to": {
+    "picture": "At the pharmacy counter, Emma, a big jar of vitamins in her hand, winces as she looks into her nearly empty purse; Lucia, beside her, waves Emma's purse away and holds her own card to the card reader, while the pharmacist smiles.",
+    "book": null
+  },
+  "a2-u5-l6#choice-lucia-chce-zaplatit": {
+    "reuse": "a2-u5-l6#nechaj-tak-ja-to",
+    "book": null
+  },
+  "a2-u5-l7#lyzovat": {
+    "reuse": "a2-u2-l5#lyzovat-sa",
+    "book": null
+  },
+  "a2-u5-l7#spadol-som": {
+    "reuse": "a2-u2-l6#spadnut",
+    "book": null
+  },
+  "a2-u5-l7#zlomil-som-si-ruku": {
+    "picture": "On a snowy ski slope in the mountains, Marek sits in the snow after a fall, his skis tangled, clutching his arm and wincing with pain; Tomáš skids to a stop beside him.",
+    "book": null
+  },
+  "a2-u5-l7#zavolaj-sanitku": {
+    "picture": "On the ski slope, Tomáš kneels in the snow beside Marek, who lies holding his arm, and phones urgently for an ambulance; other skiers stop to look.",
+    "book": null
+  },
+  "a2-u5-l7#choice-marek-nemoze-vstat": {
+    "reuse": "a2-u5-l7#zavolaj-sanitku",
+    "book": null
+  },
+  "a2-u5-l7#nemocnica": {
+    "picture": "An ambulance with its blue lights flashing pulls up at the A&E entrance of a big hospital; paramedics help Marek out, his arm strapped to his chest, and Tomáš follows. Through the glass doors: a waiting area with rows of plastic chairs.",
+    "book": null
+  },
+  "a2-u5-l7#pohotovost": {
+    "reuse": "a2-u5-l7#nemocnica",
+    "book": null
+  },
+  "a2-u5-l8#kde-vas-boli": {
+    "picture": "In the hospital's bright treatment room, Veronika asks Marek gently where it hurts; Marek, sitting on the couch, points to his forearm, wincing.",
+    "book": null
+  },
+  "a2-u5-l8#choice-dobry-den-volam": {
+    "reuse": "a2-u5-l8#kde-vas-boli",
+    "book": null
+  },
+  "a2-u5-l8#zlomenina": {
+    "picture": "In the hospital's treatment room, Veronika points to the X-ray of Marek's forearm on the screen, where the bone is clearly broken; Marek stares at it in dismay.",
+    "book": null
+  },
+  "a2-u5-l8#sadra": {
+    "picture": "In the hospital's treatment room, Veronika smooths the last of a white plaster cast round Marek's arm, from his hand to his elbow, and wags a finger at him with a smile as he protests that he has to get back to work.",
+    "book": null
+  },
+  "a2-u5-l8#byt-na-pn-ke": {
+    "picture": "A weekday morning in Marek's living room: Marek, his arm in plaster, slumps on the sofa in his red flannel shirt, scowling and bored, a cookery show on the TV.",
+    "book": null
+  },
+  "a2-u5-l8#choice-sest-tyzdnov-budete": {
+    "reuse": "a2-u5-l8#sadra",
+    "book": null
+  },
+  "a2-u5-l8#praca-vam-neutecie": {
+    "reuse": "a2-u5-l8#sadra",
+    "book": null
+  },
+  "a2-u5-l8#som-nahnevany": {
+    "reuse": "a2-u5-l8#byt-na-pn-ke",
+    "book": null
+  },
+  "a2-u5-l8#choice-musite-si-oddychnut": {
+    "reuse": "a2-u5-l8#sadra",
+    "book": null
+  },
+  "a2-u5-l9#hlava-a-krk": {
+    "picture": "At his laptop in his untidy office, Tomáš tilts his head to one side and rubs the back of his stiff neck.",
+    "book": null
+  },
+  "a2-u5-l9#rameno-a-ruka": {
+    "picture": "In Marek's living room, Marek shows Lucia where it hurts: he touches his shoulder with his good hand; his other arm, in a white plaster cast, rests in a sling.",
+    "book": null
+  },
+  "a2-u5-l9#chrbat-a-brucho": {
+    "picture": "Two halves. Left: Tomáš, stiff after the skiing trip, bends forward with a hand pressed to his aching back. Right: Lucia curls up on the sofa clutching her stomach, a half-eaten box of chocolates beside her.",
+    "book": null
+  },
+  "a2-u5-l9#noha-a-koleno": {
+    "reuse": "a2-u2-l6#modrina",
+    "book": null
+  },
+  "a2-u5-l9#srdce": {
+    "picture": "In a hospital corridor, Marek, his arm in plaster, presses his good hand to his heart and gazes dreamily after Veronika as she walks away.",
+    "book": null
+  },
+  "a2-u5-l10#tvar": {
+    "picture": "A close-up of Veronika's face at the hospital, smiling warmly.",
+    "book": null
+  },
+  "a2-u5-l10#oci-a-usi": {
+    "picture": "In the Šimkos' living room, Samko pulls a funny face at Lucia: he pulls his ears out to the sides with his fingers and opens his eyes as wide as they will go; Lucia laughs.",
+    "book": null
+  },
+  "a2-u5-l10#nos-a-usta": {
+    "picture": "In the snowy front garden of the Šimkos' house, Samko finishes a snowman's face: he pushes in a carrot for its nose and a curved row of small pebbles for its smiling mouth.",
+    "book": null
+  },
+  "a2-u5-l10#choice-marek-ma-kratke": {
+    "reuse": "a2-u3-vyzor#kuceravy",
+    "book": null
+  },
+  "a2-u5-l11#zubar": {
+    "picture": "At the dentist's: Emma lies back in the big dentist's chair with her mouth wide open and her eyes wide; the dentist, a man in a white tunic with a mask under his chin, leans over her with a small mirror.",
+    "book": null
+  },
+  "a2-u5-l11#vseobecny-lekar": {
+    "reuse": "u9-lekar#mam-horucku",
+    "book": null
+  },
+  "a2-u5-l11#nevidim-dobre": {
+    "picture": "In the Šimkos' kitchen, babka Helena tries to thread a needle, holding it at arm's length and squinting; she can't see the eye of it. Her glasses lie on the table beside her.",
+    "book": null
+  },
+  "a2-u5-l11#bolest": {
+    "reuse": "u9-lekar#boli-ma-hlava",
+    "book": null
+  },
+  "a2-u5-l11#choice-pan-kovac-nepocuje": {
+    "picture": "At the porter's lodge, Emma says something through the window; pán Kováč leans towards her, cupping a hand behind his ear and frowning: he can't hear well.",
+    "book": null
+  },
+  "a2-u5-l19#choice-uzivajte-jednu-tabletku": {
+    "reuse": "a2-u5-l5#lekarnicka",
+    "book": null
+  }
+}

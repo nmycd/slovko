@@ -1,0 +1,3985 @@
+{
+  "a2-u6.titleEn": {
+    "en": "Calls, e-mails and texts",
+    "t": "Звонки, письма и сообщения"
+  },
+  "a2-u6.topics": {
+    "en": [
+      "On the phone",
+      "Taking a message",
+      "E-mails and letters",
+      "Forms",
+      "Text messages",
+      "At the post office"
+    ],
+    "t": [
+      "По телефону",
+      "Что передать?",
+      "Электронные письма",
+      "Анкеты",
+      "Эсэмэски",
+      "На почте"
+    ]
+  },
+  "a2-u6.grammar": {
+    "en": [
+      "The imperative",
+      "Reported speech",
+      "Dative and accusative pronouns together"
+    ],
+    "t": [
+      "Повелительное наклонение",
+      "Косвенная речь",
+      "Два местоимения: дательный и винительный"
+    ]
+  },
+  "a2-u6-l1.titleEn": {
+    "en": "Calling a friend",
+    "t": "Звонок другу"
+  },
+  "a2-u6-l1.nerusim.en": {
+    "en": "Am I disturbing you? (on the phone)",
+    "t": "Не отвлекаю? (по телефону)"
+  },
+  "a2-u6-l1.nerusim.note": {
+    "en": "**rušiť** = to disturb. When it's a good time, the answer is **Nie, nerušíš, pokojne hovor.** = No, go ahead (**pokojne** = calmly, freely).",
+    "t": "**rušiť** = мешать, отвлекать (не «рушить»!). Если время есть, отвечают: **Nie, nerušíš, pokojne hovor.** = Нет, не отвлекаешь, говори (**pokojne** = спокойно, смело)."
+  },
+  "a2-u6-l1.choice-nerusis-pokojne-hovor.question": {
+    "en": "Tomáš calls: “Ahoj, Emma, tu je Tomáš. Neruším?” Emma has time. What does she say?",
+    "t": "Томаш звонит: «Ahoj, Emma, tu je Tomáš. Neruším?» У Эммы есть время. Что она ответит?"
+  },
+  "a2-u6-l1.choice-nerusis-pokojne-hovor.why": {
+    "en": "Tomáš is a friend, so Emma uses ty: **nerušíš**, **hovor**. Nerušíte and hovorte are for someone you call vy.",
+    "t": "Томаш — друг, поэтому Эмма говорит на «ты»: **nerušíš**, **hovor**. Nerušíte и hovorte — для того, к кому обращаются на «вы»."
+  },
+  "a2-u6-l1.nechces-ist-s-nami.en": {
+    "en": "Would you like to come on a trip with us?",
+    "t": "Не хочешь с нами в поездку?"
+  },
+  "a2-u6-l1.nechces-ist-s-nami.note": {
+    "en": "A friendly invitation often starts with **ne-**: Nechceš…? To someone you call vy: **Nechcete** ísť s nami?",
+    "t": "Дружеское приглашение часто начинается с **ne-**, как и у нас: Nechceš…? — Не хочешь…? Тому, с кем вы на «вы»: **Nechcete** ísť s nami?"
+  },
+  "a2-u6-l1.fill-ahoj-marek-nechces-ist.en": {
+    "en": "Hi, Marek! Would you like to come on a trip with us in May?",
+    "t": "Привет, Марек! Не хочешь в мае с нами в поездку?"
+  },
+  "a2-u6-l1.fill-ahoj-marek-nechces-ist.why": {
+    "en": "After **s** (with), my takes its with-form: s **nami**, like so mnou and s tebou.",
+    "t": "После **s** (с) my стоит в творительном падеже: s **nami** — «с нами», как so mnou (со мной) и s tebou (с тобой)."
+  },
+  "a2-u6-l1.build-lucia-nechces-ist.prompt": {
+    "en": "Lucia, would you like to come to the cinema with us?",
+    "t": "Луция, не хочешь пойти с нами в кино?"
+  },
+  "a2-u6-l1.build-lucia-nechces-ist.traps": {
+    "en": [
+      "You're asking Lucia, a friend (ty), so the verb ends in **-š**: **nechceš**. Nechcem means I don't want.",
+      "Going to the cinema is a set phrase you know: do **kina**."
+    ],
+    "t": [
+      "Вы спрашиваете Луцию, подругу (ty), поэтому глагол на **-š**: **nechceš** — «не хочешь». Nechcem значит «не хочу».",
+      "«В кино» — выражение, которое вы уже знаете: do **kina** (после do — родительный падеж)."
+    ]
+  },
+  "a2-u6-l1.overim-si-to.en": {
+    "en": "I'll check.",
+    "t": "Я уточню."
+  },
+  "a2-u6-l1.overim-si-to.note": {
+    "en": "**overiť si** = to check, to make sure. Like zavolám, it points to the future: Overím si to v práci. = I'll check at work.",
+    "t": "**overiť si** = проверить, уточнить. Как и zavolám, указывает на будущее, как наше «проверю»: Overím si to v práci. = Уточню на работе."
+  },
+  "a2-u6-l1.premysli-si-to.en": {
+    "en": "Think it over.",
+    "t": "Подумай об этом."
+  },
+  "a2-u6-l1.premysli-si-to.note": {
+    "en": "**premyslieť si** = to think something over. The answer: **Premyslím si to.** = I'll think it over.",
+    "t": "**premyslieť si** = обдумать. Ответ: **Premyslím si to.** = Я подумаю."
+  },
+  "a2-u6-l1.fill-este-si-to-premyslim.en": {
+    "en": "I don't know. I'll think it over a bit more.",
+    "t": "Не знаю. Я ещё подумаю."
+  },
+  "a2-u6-l1.fill-este-si-to-premyslim.why": {
+    "en": "Here **ja** will do the thinking, so the verb ends in **-m**: premyslím si to. Premysli tells someone else to think it over.",
+    "t": "Думать будет **ja** (я), поэтому глагол на **-m**: premyslím si to — «я подумаю». Premysli — просьба к другому: «подумай»."
+  },
+  "a2-u6-l1.daj-mi-vediet.en": {
+    "en": "Let me know.",
+    "t": "Дай мне знать."
+  },
+  "a2-u6-l1.daj-mi-vediet.note": {
+    "en": "**dať vedieť** = to let someone know. The answer: **Dám ti vedieť.** = I'll let you know. To someone you call vy: **Dajte** mi vedieť.",
+    "t": "**dať vedieť** = дать знать, точно как по-русски. Ответ: **Dám ti vedieť.** = Дам тебе знать. На «вы»: **Dajte** mi vedieť."
+  },
+  "a2-u6-l1.match-nerusim.pairs": {
+    "en": [
+      "Am I disturbing you?",
+      "Go ahead.",
+      "I'll check.",
+      "Think it over.",
+      "Let me know."
+    ],
+    "t": [
+      "Не отвлекаю?",
+      "Конечно, говори.",
+      "Я уточню.",
+      "Подумай об этом.",
+      "Дай мне знать."
+    ]
+  },
+  "a2-u6-l1.build-overim-si-to-a.prompt": {
+    "en": "I'll check and let you know.",
+    "t": "Я уточню и дам тебе знать."
+  },
+  "a2-u6-l1.build-overim-si-to-a.traps": {
+    "en": [
+      "You're the one who'll let them know, so it's the ja form: **dám** ti vedieť. Daj asks someone else to.",
+      "**Ja** will check, so the verb ends in **-m**: **Overím** si to. Overíš is ty."
+    ],
+    "t": [
+      "Дать знать собираетесь вы, поэтому нужна форма для ja: **dám** ti vedieť — «дам тебе знать». Daj — просьба к другому: «дай».",
+      "Уточнять будет **ja**, поэтому глагол на **-m**: **Overím** si to. Overíš — для ty."
+    ]
+  },
+  "a2-u6-l1.vyhovuje-ti-to.en": {
+    "en": "Does that suit you?",
+    "t": "Тебе это подходит?"
+  },
+  "a2-u6-l1.vyhovuje-ti-to.note": {
+    "en": "**vyhovovať** = to suit. Like páči sa mi, the thing that suits is the subject: Sobota mi vyhovuje. = Saturday suits me. Polite: Vyhovuje **vám** to?",
+    "t": "**vyhovovať** = подходить, устраивать. Как и в русском «суббота мне подходит», подлежащее — то, что подходит, а человек — в дательном: Sobota mi vyhovuje. На «вы»: Vyhovuje **vám** to?"
+  },
+  "a2-u6-l1.fill-sobota-mi-vyhovuje.en": {
+    "en": "A trip on Saturday? Yes, Saturday suits me.",
+    "t": "Поездка в субботу? Да, суббота мне подходит."
+  },
+  "a2-u6-l1.fill-sobota-mi-vyhovuje.why": {
+    "en": "The thing that suits is the subject, sobota (ona), so the verb has no ending: **vyhovuje**. Mi says who it suits, as in páči sa mi.",
+    "t": "Подходит sobota (ona) — это подлежащее, поэтому у глагола нет личного окончания: **vyhovuje** — «подходит». Mi — кому подходит, как «мне»."
+  },
+  "a2-u6-l1.choice-vyhovuje-ti-piatok.question": {
+    "en": "Emma wants to know if Friday suits Marek. What does she ask?",
+    "t": "Эмма хочет узнать, подходит ли Мареку пятница. Как она спросит?"
+  },
+  "a2-u6-l1.choice-vyhovuje-ti-piatok.why": {
+    "en": "Piatok is the subject, the thing that suits, so the verb is **vyhovuje**; ti (to you) says who it suits.",
+    "t": "Piatok — подлежащее, то, что подходит, поэтому глагол **vyhovuje**; ti (тебе) — кому подходит. Как по-русски: «Тебе подходит пятница?»"
+  },
+  "a2-u6-l1.zatial.en": {
+    "en": "Bye for now! See you!",
+    "t": "Пока! До связи!"
+  },
+  "a2-u6-l1.zatial.note": {
+    "en": "A goodbye to a friend you'll see or speak to again soon. You know **Maj sa!** too: the answer is **Aj ty!** (You too!)",
+    "t": "Zatiaľ и значит «пока» — и прощаются им так же, как у нас, с тем, кого скоро увидят или услышат. Вы знаете и **Maj sa!** (Счастливо!) — на это отвечают **Aj ty!** (И тебе!)"
+  },
+  "a2-u6-l1.choice-maj-sa-aj-ty.question": {
+    "en": "At the end of the call Marek says “Maj sa!”. What do you answer?",
+    "t": "В конце разговора Марек говорит: «Maj sa!» Что вы ответите?"
+  },
+  "a2-u6-l1.choice-maj-sa-aj-ty.why": {
+    "en": "**Maj sa** is said to a friend (ty), so the answer is **Aj ty**, with a friendly Zatiaľ. Aj vám and Dovidenia are polite, for vy.",
+    "t": "**Maj sa** говорят другу (на «ты»), поэтому ответ — **Aj ty** (И тебе), с дружеским Zatiaľ. Aj vám и Dovidenia — вежливые, на «вы»."
+  },
+  "a2-u6-l1.build-premysli-si-to-a.answers": {
+    "en": [
+      "Think it over and let me know. See you!",
+      "Think about it and let me know. See you!",
+      "Think it over and let me know. Bye for now!",
+      "Think about it and let me know. Bye for now!"
+    ],
+    "t": [
+      "Подумай и дай мне знать. Пока!",
+      "Подумай об этом и дай мне знать. Пока!",
+      "Обдумай это и дай мне знать. Пока!",
+      "Подумай и дай мне знать. До связи!"
+    ]
+  },
+  "a2-u6-l1.build-premysli-si-to-a.distractors": {
+    "en": [
+      "call",
+      "tomorrow"
+    ],
+    "t": [
+      "позвони",
+      "подумаю"
+    ]
+  },
+  "a2-u6-l1.speak-ahoj-marek-nerusim.en": {
+    "en": "Hi, Marek, am I disturbing you?",
+    "t": "Привет, Марек, не отвлекаю?"
+  },
+  "a2-u6-l2.titleEn": {
+    "en": "A bad line and a wrong number",
+    "t": "Плохая связь и чужой номер"
+  },
+  "a2-u6-l2.pocujeme-sa.en": {
+    "en": "Can you hear me?",
+    "t": "Меня слышно?"
+  },
+  "a2-u6-l2.pocujeme-sa.note": {
+    "en": "Literally “Can we hear each other?” Tomáš is calling from the train: **Je tu slabý signál.** = The signal's weak here.",
+    "t": "Дословно «Мы слышим друг друга?» Томаш звонит из поезда: **Je tu slabý signál.** = Здесь слабый сигнал."
+  },
+  "a2-u6-l2.nepocujem-ta-dobre.en": {
+    "en": "I can't hear you well.",
+    "t": "Я тебя плохо слышу."
+  },
+  "a2-u6-l2.nepocujem-ta-dobre.note": {
+    "en": "You know **Nepočujem dobre** from unit 5; ťa says who. To someone you call vy: Nepočujem **vás** dobre.",
+    "t": "**Nepočujem dobre** вы знаете из раздела 5; ťa (тебя) говорит, кого. На «вы»: Nepočujem **vás** dobre."
+  },
+  "a2-u6-l2.choice-nepocujem-ta-dobre.question": {
+    "en": "Tomáš: “Haló, Emma? Počujeme sa?” The line is bad. What does Emma say?",
+    "t": "Томаш: «Haló, Emma? Počujeme sa?» Связь плохая. Что скажет Эмма?"
+  },
+  "a2-u6-l2.choice-nepocujem-ta-dobre.why": {
+    "en": "Tomáš is a friend and the object of počuť, so it's the short object form of ty: **ťa**. Vás is for vy; ti means to you.",
+    "t": "Томаш — друг, и он дополнение к počuť (слышать кого?), поэтому краткая форма винительного от ty: **ťa** — «тебя». Vás — на «вы», ti — «тебе»."
+  },
+  "a2-u6-l2.build-som-vo-vlaku.prompt": {
+    "en": "I'm on the train, the signal's weak here.",
+    "t": "Я в поезде, здесь слабый сигнал."
+  },
+  "a2-u6-l2.build-som-vo-vlaku.traps": {
+    "en": [
+      "Being on the train answers “where?”: **vo** + the locative, -u after k: vo **vlaku**.",
+      "Signál is masculine, so the adjective ends in **-ý**: **slabý** signál."
+    ],
+    "t": [
+      "«В поезде» отвечает на вопрос «где?»: **vo** + предложный падеж, после k — -u: vo **vlaku**.",
+      "Signál — мужского рода, поэтому прилагательное на **-ý**: **slabý** signál — «слабый сигнал»."
+    ]
+  },
+  "a2-u6-l2.prerusilo-nas.en": {
+    "en": "We got cut off.",
+    "t": "Нас разъединило."
+  },
+  "a2-u6-l2.prerusilo-nas.note": {
+    "en": "Literally “it cut us off”: nobody did it, so the verb ends in **-o**, like Nič sa nestalo.",
+    "t": "Безличный оборот, как и русское «нас разъединило»: никто этого не делал, поэтому глагол на **-o**, как Nič sa nestalo."
+  },
+  "a2-u6-l2.volal-som-pred-chvilou.en": {
+    "en": "I called a moment ago.",
+    "t": "Я звонил минуту назад."
+  },
+  "a2-u6-l2.volal-som-pred-chvilou.note": {
+    "en": "**chvíľa** = a moment: **pred chvíľou** = a moment ago, **o chvíľu** = in a moment.",
+    "t": "**chvíľa** = минутка, мгновение: **pred chvíľou** = минуту назад, только что; **o chvíľu** = через минуту."
+  },
+  "a2-u6-l2.build-volala-som-pred.prompt": {
+    "en": "Emma: “I called a moment ago, but we got cut off.”",
+    "t": "Эмма: «Я звонила минуту назад, но нас разъединило»."
+  },
+  "a2-u6-l2.build-volala-som-pred.traps": {
+    "en": [
+      "Emma is a woman, so the past form ends in **-la**: **Volala** som.",
+      "**Pred** (ago) takes the instrumental: pred **chvíľou**."
+    ],
+    "t": [
+      "Эмма — женщина, поэтому прошедшее время на **-la**: **Volala** som — «звонила».",
+      "**Pred** в значении «назад» требует творительного падежа, как «перед обедом»: pred **chvíľou**."
+    ]
+  },
+  "a2-u6-l2.to-bude-asi-omyl.en": {
+    "en": "It must be a mistake. (a wrong number)",
+    "t": "Это, наверное, ошибка. (не тот номер)"
+  },
+  "a2-u6-l2.to-bude-asi-omyl.note": {
+    "en": "You know **omyl** and **asi** from Prepáčte, to je asi omyl (unit 3); on the phone it means a wrong number. Also: **Máte nesprávne číslo.** = You've got the wrong number. **Pomýlili ste sa.** = You've dialled wrong.",
+    "t": "**omyl** и **asi** вы знаете по фразе Prepáčte, to je asi omyl (раздел 3); по телефону это значит «вы не туда попали». Ещё: **Máte nesprávne číslo.** = Вы ошиблись номером. **Pomýlili ste sa.** = Вы не туда попали."
+  },
+  "a2-u6-l2.choice-halo-je-to-pizzeria.question": {
+    "en": "A man calls Emma's mobile: “Haló, je to pizzeria?” What does she say?",
+    "t": "На мобильный Эммы звонит мужчина: «Haló, je to pizzeria?» Что она ответит?"
+  },
+  "a2-u6-l2.choice-prepacte-pomylil-som-sa.question": {
+    "en": "The man says: “Prepáčte, pomýlil som sa.” What does Emma answer?",
+    "t": "Мужчина говорит: «Prepáčte, pomýlil som sa.» Что ответит Эмма?"
+  },
+  "a2-u6-l2.fill-asi-ste-sa-pomylili.en": {
+    "en": "No, this isn't a pizzeria. You must have dialled wrong.",
+    "t": "Нет, это не пиццерия. Вы, наверное, ошиблись номером."
+  },
+  "a2-u6-l2.fill-asi-ste-sa-pomylili.why": {
+    "en": "Polite **vy** always takes **-li** in the past, even for one person: ste sa **pomýlili**.",
+    "t": "Вежливое **vy** в прошедшем времени всегда с **-li**, даже для одного человека, — как «вы ошиблись»: ste sa **pomýlili**."
+  },
+  "a2-u6-l2.build-mate-nespravne-cislo.prompt": {
+    "en": "You've got the wrong number. (to a stranger)",
+    "t": "Вы ошиблись номером."
+  },
+  "a2-u6-l2.build-mate-nespravne-cislo.traps": {
+    "en": [
+      "The caller is a stranger, so use vy: **Máte**. Máš is for a friend.",
+      "**Nesprávne** číslo is the wrong number. Správne means right."
+    ],
+    "t": [
+      "Звонит незнакомый человек, поэтому на «вы»: **Máte**. Máš — для друга.",
+      "**Nesprávne** číslo — неправильный номер. Správne значит «правильный»."
+    ]
+  },
+  "a2-u6-l2.listen-volala-som-pred.en": {
+    "en": "I called a moment ago.",
+    "t": "Я звонила минуту назад."
+  },
+  "a2-u6-l2.volane-cislo-je-nedostupne.en": {
+    "en": "The number you are calling is not available at the moment.",
+    "t": "Абонент временно недоступен."
+  },
+  "a2-u6-l2.volane-cislo-je-nedostupne.note": {
+    "en": "A recorded message. **momentálne** = at the moment. Another one: **Linka je obsadená.** = The line is busy.",
+    "t": "Записанное сообщение, дословно «Вызываемый номер в данный момент недоступен». **momentálne** = в данный момент. Ещё одно: **Linka je obsadená.** = Линия занята."
+  },
+  "a2-u6-l2.nechaj-mi-odkaz.en": {
+    "en": "Leave me a message.",
+    "t": "Оставь мне сообщение."
+  },
+  "a2-u6-l2.nechaj-mi-odkaz.note": {
+    "en": "Lucia's voicemail (**odkazová schránka**): Ahoj, tu je Lucia, teraz nemôžem hovoriť. Nechaj mi odkaz! **odkaz** = a message.",
+    "t": "Голосовая почта Луции (**odkazová schránka**): Ahoj, tu je Lucia, teraz nemôžem hovoriť. Nechaj mi odkaz! **odkaz** = сообщение (не «отказ»!)."
+  },
+  "a2-u6-l2.match-pocujeme-sa.pairs": {
+    "en": [
+      "Can you hear me?",
+      "We got cut off.",
+      "The line is busy.",
+      "Leave me a message.",
+      "It must be a mistake."
+    ],
+    "t": [
+      "Меня слышно?",
+      "Нас разъединило.",
+      "Линия занята.",
+      "Оставь мне сообщение.",
+      "Это, наверное, ошибка."
+    ]
+  },
+  "a2-u6-l2.choice-volane-cislo-je.question": {
+    "en": "Emma calls Lucia and hears: “Volané číslo je momentálne nedostupné.” What does it mean?",
+    "t": "Эмма звонит Луции и слышит: «Volané číslo je momentálne nedostupné.» Что это значит?"
+  },
+  "a2-u6-l2.choice-volane-cislo-je.options": {
+    "en": [
+      "Lucia's line is busy.",
+      "Lucia's phone can't be reached right now.",
+      "Emma has dialled the wrong number."
+    ],
+    "t": [
+      "У Луции занято.",
+      "Телефон Луции сейчас недоступен.",
+      "Эмма ошиблась номером."
+    ]
+  },
+  "a2-u6-l2.speak-pocujeme-sa-nepocujem.en": {
+    "en": "Can you hear me? I can't hear you well.",
+    "t": "Меня слышно? Я тебя плохо слышу."
+  },
+  "a2-u6-l3.titleEn": {
+    "en": "At the reception",
+    "t": "На ресепшене"
+  },
+  "a2-u6-l3.stazistka.en": {
+    "en": "intern (a woman)",
+    "t": "стажёрка"
+  },
+  "a2-u6-l3.stazistka.note": {
+    "en": "You know **stáž** (an internship) from A1. Emma je od pondelka stážistka v Tomášovej firme. = From Monday Emma is an intern at Tomáš's company.",
+    "t": "Слово **stáž** (стажировка) вы знаете с уровня A1. Emma je od pondelka stážistka v Tomášovej firme. = С понедельника Эмма — стажёрка в фирме Томаша."
+  },
+  "a2-u6-l3.recepcia.en": {
+    "en": "reception",
+    "t": "ресепшен"
+  },
+  "a2-u6-l3.recepcia.note": {
+    "en": "On her first morning Emma helps Petra Bartošová **na recepcii** and answers every **telefonát** (phone call): **Recepcia, dobrý deň.**",
+    "t": "В первое утро Эмма помогает Петре Бартошовой **na recepcii** (на ресепшене) и отвечает на каждый **telefonát** (телефонный звонок): **Recepcia, dobrý deň.**"
+  },
+  "a2-u6-l3.pri-telefone-emma.en": {
+    "en": "Emma speaking.",
+    "t": "Эмма слушает."
+  },
+  "a2-u6-l3.pri-telefone-emma.note": {
+    "en": "How you give your name when you answer at work. You know **Tu je Emma.** for when you're the one calling.",
+    "t": "Так называют себя, отвечая на звонок на работе, — дословно «у телефона Эмма». Когда звоните вы сами, говорите **Tu je Emma.**"
+  },
+  "a2-u6-l3.choice-recepcia-dobry-den.question": {
+    "en": "The phone rings at reception. What does Emma say?",
+    "t": "На ресепшене звонит телефон. Что говорит Эмма?"
+  },
+  "a2-u6-l3.choice-recepcia-dobry-den.why": {
+    "en": "At work you answer formally: the place, **Dobrý deň** and your name. Neruším? is what a caller asks, and Ahoj is for friends.",
+    "t": "На работе отвечают официально: место, **Dobrý deň** и своё имя. Neruším? спрашивает тот, кто звонит, а Ahoj — для друзей."
+  },
+  "a2-u6-l3.mozem-hovorit-s-panom.en": {
+    "en": "May I speak to Mr Hudák?",
+    "t": "Можно поговорить с паном Гудаком?"
+  },
+  "a2-u6-l3.mozem-hovorit-s-panom.note": {
+    "en": "After **s**, both words take the instrumental: s pán**om** Hudák**om**. **Pani** never changes: s pani Bartošov**ou**.",
+    "t": "После **s** оба слова стоят в творительном падеже, как и у нас: s pán**om** Hudák**om** — с паном Гудаком. А **pani**, в отличие от «госпожи», не изменяется никогда: s pani Bartošov**ou**."
+  },
+  "a2-u6-l3.fill-s-pani-bartosovou.en": {
+    "en": "Hello, may I speak to Mrs Bartošová?",
+    "t": "Добрый день, можно поговорить с госпожой Бартошовой?"
+  },
+  "a2-u6-l3.fill-s-pani-bartosovou.why": {
+    "en": "Bartošová is a woman, and **pani** never changes, whatever the case: s **pani** Bartošovou. Pán and pánom are for a man.",
+    "t": "Бартошова — женщина, а **pani** не изменяется ни в каком падеже: s **pani** Bartošovou. Pán и pánom — для мужчины."
+  },
+  "a2-u6-l3.fill-mozem-hovorit-s-tomasom.en": {
+    "en": "Excuse me, may I speak to Tomáš?",
+    "t": "Извините, можно поговорить с Томашем?"
+  },
+  "a2-u6-l3.fill-mozem-hovorit-s-tomasom.why": {
+    "en": "After **s** (with), a man's name takes the instrumental, **-om**: s **Tomášom**.",
+    "t": "После **s** (с) мужское имя стоит в творительном падеже, на **-om**: s **Tomášom** — «с Томашем»."
+  },
+  "a2-u6-l3.s-kym-chcete-hovorit.en": {
+    "en": "Who would you like to speak to?",
+    "t": "С кем вы хотите поговорить?"
+  },
+  "a2-u6-l3.s-kym-chcete-hovorit.note": {
+    "en": "**s kým** = with whom, the instrumental of kto. When a caller doesn't say who they are: **Prepáčte, s kým hovorím?** = Sorry, who am I speaking to?",
+    "t": "**s kým** = с кем, творительный падеж от kto. Если звонящий не представился: **Prepáčte, s kým hovorím?** = Извините, с кем я говорю?"
+  },
+  "a2-u6-l3.fill-prepacte-s-kym-hovorim.en": {
+    "en": "Sorry, who am I speaking to?",
+    "t": "Извините, с кем я говорю?"
+  },
+  "a2-u6-l3.fill-prepacte-s-kym-hovorim.why": {
+    "en": "After **s** (with), kto takes its instrumental form: s **kým**.",
+    "t": "После **s** (с) kto стоит в творительном падеже: s **kým** — «с кем»."
+  },
+  "a2-u6-l3.moment-prepojim-vas.en": {
+    "en": "One moment, I'll put you through.",
+    "t": "Минутку, я вас соединю."
+  },
+  "a2-u6-l3.moment-prepojim-vas.note": {
+    "en": "**prepojiť** = to put through. When the person is close by: **Moment, hneď ho zavolám.** = One moment, I'll get him right away (**hneď** = right away).",
+    "t": "**prepojiť** = соединить (по телефону). Если человек рядом: **Moment, hneď ho zavolám.** = Минутку, сейчас его позову (**hneď** = сразу, сейчас же)."
+  },
+  "a2-u6-l3.pan-inzinier-pani-inzinierka.en": {
+    "en": "Mr …, Mrs … (with an engineer's title)",
+    "t": "пан инженер, госпожа инженер (обращение по титулу)"
+  },
+  "a2-u6-l3.pan-inzinier-pani-inzinierka.note": {
+    "en": "Slovaks often use titles at work: **pani doktorka**, **pán riaditeľ** (the director). Tomáš's boss (**šéf**) is pán inžinier Hudák: s pánom inžinierom Hudákom.",
+    "t": "На работе словаки часто обращаются по титулу: **pani doktorka**, **pán riaditeľ** (пан директор). Начальник (**šéf**) Томаша — пан инженер Гудак: s pánom inžinierom Hudákom."
+  },
+  "a2-u6-l3.fill-s-panom-riaditelom.en": {
+    "en": "I'd like to speak to the director.",
+    "t": "Я хотела бы поговорить с директором."
+  },
+  "a2-u6-l3.fill-s-panom-riaditelom.why": {
+    "en": "After **s**, the title takes the instrumental too: s pán**om** riaditeľ**om**. Pani is the only word that never changes.",
+    "t": "После **s** титул тоже стоит в творительном падеже: s pán**om** riaditeľ**om** — «с паном директором». Не изменяется только pani."
+  },
+  "a2-u6-l3.match-recepcia.pairs": {
+    "en": [
+      "reception",
+      "intern",
+      "phone call",
+      "to put through",
+      "right away"
+    ],
+    "t": [
+      "ресепшен",
+      "стажёрка",
+      "телефонный звонок",
+      "соединить",
+      "сразу"
+    ]
+  },
+  "a2-u6-l3.choice-pani-kollarova-moment.question": {
+    "en": "A caller asks for pani inžinierka Kollárová. She's at her desk. What does Emma say?",
+    "t": "Звонящий просит к телефону госпожу Колларову (pani inžinierka Kollárová). Она на месте. Что скажет Эмма?"
+  },
+  "a2-u6-l3.build-moment-hned-ho.answers": {
+    "en": [
+      "One moment, I'll get him right away.",
+      "Just a moment, I'll get him right away.",
+      "One moment, I'll call him right away."
+    ],
+    "t": [
+      "Минутку, сейчас я его позову.",
+      "Минутку, я его сейчас позову.",
+      "Одну минуту, сейчас я его позову.",
+      "Минутку, сейчас его позову."
+    ]
+  },
+  "a2-u6-l3.build-moment-hned-ho.distractors": {
+    "en": [
+      "her",
+      "later"
+    ],
+    "t": [
+      "её",
+      "позже"
+    ]
+  },
+  "a2-u6-l3.build-s-kym-chcete.prompt": {
+    "en": "Who would you like to speak to? (to a caller)",
+    "t": "С кем вы хотите поговорить? (звонящему)"
+  },
+  "a2-u6-l3.build-s-kym-chcete.traps": {
+    "en": [
+      "With **s** (with), kto takes its instrumental form: s **kým**.",
+      "A caller is a stranger, so use vy: **chcete**."
+    ],
+    "t": [
+      "С **s** (с) kto стоит в творительном падеже: s **kým** — «с кем».",
+      "Звонящий — незнакомый человек, поэтому на «вы»: **chcete**."
+    ]
+  },
+  "a2-u6-l3.build-mozem-hovorit-s-pani.prompt": {
+    "en": "May I speak to Mrs Kollárová?",
+    "t": "Можно поговорить с госпожой Колларовой?"
+  },
+  "a2-u6-l3.build-mozem-hovorit-s-pani.traps": {
+    "en": [
+      "After **s**, a woman's surname takes **-ou**: s pani **Kollárovou**.",
+      "Kollárová is a woman, so it's **pani**, which never changes. Pánom is for a man."
+    ],
+    "t": [
+      "После **s** женская фамилия получает **-ou**, как «с Колларовой»: s pani **Kollárovou**.",
+      "Колларова — женщина, поэтому **pani**, а оно не изменяется. Pánom — для мужчины."
+    ]
+  },
+  "a2-u6-l3.speak-moment-prepojim-vas.en": {
+    "en": "One moment, I'll put you through.",
+    "t": "Минутку, я вас соединю."
+  },
+  "a2-u6-l4.titleEn": {
+    "en": "Taking a message",
+    "t": "Что-нибудь передать?"
+  },
+  "a2-u6-l4.lutujem-prave-ma-poradu.en": {
+    "en": "I'm sorry, he's in a meeting right now.",
+    "t": "К сожалению, у него сейчас совещание."
+  },
+  "a2-u6-l4.lutujem-prave-ma-poradu.note": {
+    "en": "**Ľutujem** = I'm sorry, a polite way to say no. **práve** = right now. You know **porada** (a meeting) from A1.",
+    "t": "**Ľutujem** = сожалею, вежливый отказ. **práve** = как раз сейчас. Слово **porada** (совещание) вы знаете с уровня A1."
+  },
+  "a2-u6-l4.momentalne-nie-je-v.en": {
+    "en": "He isn't in the office at the moment.",
+    "t": "Его сейчас нет в офисе."
+  },
+  "a2-u6-l4.momentalne-nie-je-v.note": {
+    "en": "Or: je **na obede** (at lunch), **na služobnej ceste** (on a business trip), **na dovolenke** (on holiday).",
+    "t": "Или: je **na obede** (на обеде), **na služobnej ceste** (в командировке), **na dovolenke** (в отпуске)."
+  },
+  "a2-u6-l4.choice-pan-hudak-je-tento.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u6-l4.choice-pan-hudak-je-tento.options": {
+    "en": [
+      "Mr Hudák is on a business trip this week.",
+      "Mr Hudák is on holiday this week.",
+      "Mr Hudák has a meeting this week."
+    ],
+    "t": [
+      "Пан Гудак на этой неделе в командировке.",
+      "Пан Гудак на этой неделе в отпуске.",
+      "У пана Гудака на этой неделе совещание."
+    ]
+  },
+  "a2-u6-l4.fill-pani-kollarova-je-dnes.en": {
+    "en": "Mrs Kollárová is at a conference today.",
+    "t": "Госпожа Колларова сегодня на конференции."
+  },
+  "a2-u6-l4.fill-pani-kollarova-je-dnes.why": {
+    "en": "Being somewhere answers “where?”, so **na** takes the locative, and nouns in -ia get **-ii**: na **konferencii**.",
+    "t": "Быть где-то — вопрос «где?», поэтому **na** + предложный падеж, а слова на -ia получают **-ii**: na **konferencii**."
+  },
+  "a2-u6-l4.chcete-nechat-odkaz.en": {
+    "en": "Would you like to leave a message?",
+    "t": "Хотите оставить сообщение?"
+  },
+  "a2-u6-l4.chcete-nechat-odkaz.note": {
+    "en": "You know **nechať** (to leave) from unit 2 and **odkaz** from Lucia's voicemail: Nechaj mi odkaz.",
+    "t": "**nechať** (оставить) вы знаете из раздела 2, а **odkaz** — по голосовой почте Луции: Nechaj mi odkaz."
+  },
+  "a2-u6-l4.nie-dakujem-zavolam-neskor.en": {
+    "en": "No, thank you, I'll call back later.",
+    "t": "Нет, спасибо, я перезвоню позже."
+  },
+  "a2-u6-l4.nie-dakujem-zavolam-neskor.note": {
+    "en": "**neskôr** = later. Or: zavolám **o hodinu** (in an hour), **o desať minút**, **zajtra**.",
+    "t": "**neskôr** = позже. Или: zavolám **o hodinu** (через час), **o desať minút** (через десять минут), **zajtra** (завтра)."
+  },
+  "a2-u6-l4.build-zavolam-o-hodinu.prompt": {
+    "en": "I'll call back in an hour.",
+    "t": "Я перезвоню через час."
+  },
+  "a2-u6-l4.build-zavolam-o-hodinu.traps": {
+    "en": [
+      "You're the one calling, so it's the ja form, which points to the future: **Zavolám**. Zavolaj tells someone else to call.",
+      "“In an hour” is **o** + the object form: o **hodinu**."
+    ],
+    "t": [
+      "Звонить будете вы, поэтому форма для ja, которая сама указывает на будущее, как «позвоню»: **Zavolám**. Zavolaj — просьба к другому: «позвони».",
+      "«Через час» — **o** + винительный падеж: o **hodinu**."
+    ]
+  },
+  "a2-u6-l4.zavolajte-neskor-prosim.en": {
+    "en": "Please call back later.",
+    "t": "Перезвоните позже, пожалуйста."
+  },
+  "a2-u6-l4.zavolajte-neskor-prosim.note": {
+    "en": "**Zavolajte** asks someone you call vy to call. The next lesson shows how these forms are made.",
+    "t": "**Zavolajte** — так просят позвонить того, с кем вы на «вы». Как образуются такие формы, покажет следующий урок."
+  },
+  "a2-u6-l4.choice-zavolajte-o-desat.question": {
+    "en": "Mr Hudák's meeting ends soon. What does Emma tell the caller?",
+    "t": "Совещание пана Гудака скоро закончится. Что Эмма скажет звонящему?"
+  },
+  "a2-u6-l4.choice-zavolajte-o-desat.why": {
+    "en": "Emma is asking the caller (vy) to call: **Zavolajte**. Zavolám would mean Emma will call, and nechaj is for a friend.",
+    "t": "Эмма просит звонящего (vy) позвонить: **Zavolajte** — «позвоните». Zavolám значило бы, что позвонит сама Эмма, а nechaj — для друга."
+  },
+  "a2-u6-l4.poviem-mu-to.en": {
+    "en": "I'll tell him.",
+    "t": "Я ему передам."
+  },
+  "a2-u6-l4.poviem-mu-to.note": {
+    "en": "**povedať** = to tell, to say: poviem, povieš, povie… (it points to the future). **mu** = (to) him, **jej** = (to) her: Poviem jej to.",
+    "t": "**povedať** = сказать: poviem, povieš, povie… (указывает на будущее, как «скажу»). **mu** = ему, **jej** = ей: Poviem jej to."
+  },
+  "a2-u6-l4.fill-poviem-jej-to.en": {
+    "en": "Mrs Kollárová is at lunch. I'll tell her.",
+    "t": "Госпожа Колларова на обеде. Я ей передам."
+  },
+  "a2-u6-l4.fill-poviem-jej-to.why": {
+    "en": "You tell something **to** someone, the to-whom form. Pani Kollárová is a woman, so **jej**. Ju is the object form (her), and mu is for a man.",
+    "t": "Сказать — кому? Нужен дательный падеж. Госпожа Колларова — женщина, поэтому **jej** — «ей». Ju — винительный («её»), а mu — для мужчины."
+  },
+  "a2-u6-l4.mozem-poprosit-este-raz.en": {
+    "en": "Could I have your name again, please?",
+    "t": "Можно ещё раз ваше имя?"
+  },
+  "a2-u6-l4.mozem-poprosit-este-raz.note": {
+    "en": "**poprosiť** = to ask for, politely; **ešte raz** = once more. Then: **Ako sa to píše?** (How do you spell that?) and **Na aké číslo vám môže zavolať?** (What number can he call you on?)",
+    "t": "**poprosiť** = (вежливо) попросить; **ešte raz** = ещё раз. Дальше: **Ako sa to píše?** (Как это пишется?) и **Na aké číslo vám môže zavolať?** (По какому номеру он может вам перезвонить?)"
+  },
+  "a2-u6-l4.choice-mozem-poprosit-vase-meno.question": {
+    "en": "Emma didn't catch the caller's name. What does she ask?",
+    "t": "Эмма не расслышала имя звонящего. Что она спросит?"
+  },
+  "a2-u6-l4.choice-mozem-poprosit-vase-meno.why": {
+    "en": "A caller is a stranger, so it's vy and **vaše** meno. Tvoje and ako sa voláš are for a friend.",
+    "t": "Звонящий — незнакомый человек, поэтому на «вы»: **vaše** meno. Tvoje и ako sa voláš — для друга."
+  },
+  "a2-u6-l4.build-na-ake-cislo-vam-moze.prompt": {
+    "en": "What number can he call you on? (to a caller)",
+    "t": "По какому номеру он может вам позвонить? (звонящему)"
+  },
+  "a2-u6-l4.build-na-ake-cislo-vam-moze.traps": {
+    "en": [
+      "Číslo is neuter, so the question word matches it: **aké** číslo.",
+      "A caller is a stranger, so use vy: **vám** (to you)."
+    ],
+    "t": [
+      "Číslo — среднего рода (хотя «номер» у нас мужского), поэтому и вопросительное слово среднего: **aké** číslo.",
+      "Звонящий — незнакомый, поэтому на «вы»: **vám** (вам)."
+    ]
+  },
+  "a2-u6-l4.build-chcete-nechat-odkaz.prompt": {
+    "en": "Would you like to leave a message? (to a caller)",
+    "t": "Хотите оставить сообщение? (звонящему)"
+  },
+  "a2-u6-l4.build-chcete-nechat-odkaz.traps": {
+    "en": [
+      "A caller is a stranger, so use vy: **Chcete**.",
+      "After chcete comes the infinitive, the -ť form: chcete **nechať**."
+    ],
+    "t": [
+      "Звонящий — незнакомый, поэтому на «вы»: **Chcete**.",
+      "После chcete — инфинитив, форма на -ť: chcete **nechať** — «хотите оставить»."
+    ]
+  },
+  "a2-u6-l4.build-pan-hudak-momentalne.prompt": {
+    "en": "Mr Hudák isn't in the office at the moment.",
+    "t": "Пана Гудака сейчас нет в офисе."
+  },
+  "a2-u6-l4.build-pan-hudak-momentalne.traps": {
+    "en": [
+      "In the office answers “where?”: v + the locative, and nouns in -ia get **-ii**: v **kancelárii**.",
+      "Being somewhere is byť, and “not” with byť is a separate word: **nie** je. Nemá means doesn't have."
+    ],
+    "t": [
+      "«В офисе» — вопрос «где?»: v + предложный падеж, а слова на -ia получают **-ii**: v **kancelárii**.",
+      "По-русски «его нет», а по-словацки — «не есть»: быть где-то — это byť, и «не» с ним пишется отдельно: **nie** je. Nemá значит «не имеет»."
+    ]
+  },
+  "a2-u6-l4.build-odkaz-pre-pana-hudaka.prompt": {
+    "en": "Emma writes the note: “Message for Mr Hudák: Mrs Kollárová called, she'll call back at three.”",
+    "t": "Эмма пишет записку: «Сообщение для пана Гудака: звонила госпожа Колларова, перезвонит в три»."
+  },
+  "a2-u6-l4.build-odkaz-pre-pana-hudaka.traps": {
+    "en": [
+      "**Pre** (for) takes the object form, and pán Hudák is a man, so both add **-a**: pre pána **Hudáka**.",
+      "Pani Kollárová is a woman, so the past form ends in **-la**: **volala**."
+    ],
+    "t": [
+      "**Pre** (для) требует винительного падежа, а пан Гудак — мужчина, поэтому оба слова получают **-a**: pre pána **Hudáka** — «для пана Гудака».",
+      "Госпожа Колларова — женщина, поэтому прошедшее время на **-la**: **volala** — «звонила»."
+    ]
+  },
+  "a2-u6-l4.speak-zavolam-neskor-dopocutia.en": {
+    "en": "I'll call back later. Goodbye!",
+    "t": "Я перезвоню позже. До свидания!"
+  },
+  "a2-u6-l5.titleEn": {
+    "en": "Telling people what to do",
+    "t": "Просьбы и команды"
+  },
+  "a2-u6-l5.grammar-imperative.title": {
+    "en": "The imperative: zavolaj, zavolajte",
+    "t": "Повелительное наклонение: zavolaj, zavolajte"
+  },
+  "a2-u6-l5.grammar-imperative.body": {
+    "en": [
+      "You know a few commands already: Poďte ďalej, Prepáčte, Maj sa, Zavolajte neskôr. This form is the **imperative**. To make it, take the **oni** form and drop its ending: čítaj**ú** → čítaj. What's left is the ty form: Čítaj!",
+      "For vy (a stranger or a group), add **-te**: čítaj**te**. For my, “let's”, add **-me**: čítaj**me**. Only these three persons have an imperative."
+    ],
+    "t": [
+      "Несколько команд вы уже знаете: Poďte ďalej, Prepáčte, Maj sa, Zavolajte neskôr. Это **повелительное наклонение**, и образуется оно почти как в русском: возьмите форму **oni** и отбросьте окончание: čítaj**ú** → čítaj (ср. читают → читай). Что осталось — форма для ty: Čítaj!",
+      "Для vy (незнакомому человеку или нескольким людям) добавьте **-te**, как наше -те: čítaj**te**. Для my, «давайте…», добавьте **-me**: čítaj**me** — «давайте читать», «почитаем!». Повелительная форма есть только у этих трёх лиц."
+    ]
+  },
+  "a2-u6-l5.grammar-imperative.table.head": {
+    "en": [
+      "oni",
+      "ty",
+      "vy",
+      "my (let's)"
+    ],
+    "t": [
+      "oni",
+      "ty",
+      "vy",
+      "my (давайте)"
+    ]
+  },
+  "a2-u6-l5.grammar-imperative.table.rows": {
+    "en": [
+      [
+        "čítaj**ú**",
+        "čítaj",
+        "čítaj**te**",
+        "čítaj**me**"
+      ],
+      [
+        "zavolaj**ú**",
+        "zavolaj",
+        "zavolaj**te**",
+        "zavolaj**me**"
+      ],
+      [
+        "počkaj**ú**",
+        "počkaj",
+        "počkaj**te**",
+        "počkaj**me**"
+      ],
+      [
+        "pracuj**ú**",
+        "pracuj",
+        "pracuj**te**",
+        "pracuj**me**"
+      ],
+      [
+        "píš**u**",
+        "píš",
+        "píš**te**",
+        "píš**me**"
+      ],
+      [
+        "hovor**ia**",
+        "hovor",
+        "hovor**te**",
+        "hovor**me**"
+      ]
+    ],
+    "t": [
+      [
+        "čítaj**ú**",
+        "čítaj",
+        "čítaj**te**",
+        "čítaj**me**"
+      ],
+      [
+        "zavolaj**ú**",
+        "zavolaj",
+        "zavolaj**te**",
+        "zavolaj**me**"
+      ],
+      [
+        "počkaj**ú**",
+        "počkaj",
+        "počkaj**te**",
+        "počkaj**me**"
+      ],
+      [
+        "pracuj**ú**",
+        "pracuj",
+        "pracuj**te**",
+        "pracuj**me**"
+      ],
+      [
+        "píš**u**",
+        "píš",
+        "píš**te**",
+        "píš**me**"
+      ],
+      [
+        "hovor**ia**",
+        "hovor",
+        "hovor**te**",
+        "hovor**me**"
+      ]
+    ]
+  },
+  "a2-u6-l5.grammar-imperative.examples": {
+    "en": [
+      "Call me this evening!",
+      "Please wait a moment.",
+      "Please speak slowly.",
+      "Let's call Tomáš!"
+    ],
+    "t": [
+      "Позвони мне вечером!",
+      "Подождите минутку, пожалуйста.",
+      "Говорите, пожалуйста, медленно.",
+      "Давайте позвоним Томашу!"
+    ]
+  },
+  "a2-u6-l5.fill-tomas-zavolaj-mi.en": {
+    "en": "Tomáš, call me this evening!",
+    "t": "Томаш, позвони мне вечером!"
+  },
+  "a2-u6-l5.fill-tomas-zavolaj-mi.why": {
+    "en": "Tomáš is a friend (ty), so it's the bare stem, with no ending: **zavolaj**. Zavolajte is for vy, and zavolám means I'll call.",
+    "t": "Томаш — друг (ty), поэтому чистая основа, без окончания: **zavolaj** — «позвони». Zavolajte — для vy, а zavolám значит «я позвоню»."
+  },
+  "a2-u6-l5.fill-pan-hudak-pockajte.en": {
+    "en": "Mr Hudák, please wait a moment.",
+    "t": "Пан Гудак, подождите минутку, пожалуйста."
+  },
+  "a2-u6-l5.fill-pan-hudak-pockajte.why": {
+    "en": "To someone you call vy, add **-te** to the stem: počkaj → **počkajte**. Počkáte, with a long á, means you will wait.",
+    "t": "Тому, с кем вы на «вы», добавьте к основе **-te**: počkaj → **počkajte**, как «подожди → подождите». Počkáte, с долгим á, значит «вы подождёте»."
+  },
+  "a2-u6-l5.choice-pis.question": {
+    "en": "Písať (to write) has the oni form píšu. What's the ty imperative?",
+    "t": "У písať (писать) форма для oni — píšu. Какая повелительная форма для ty?"
+  },
+  "a2-u6-l5.choice-pis.why": {
+    "en": "Drop the ending of píš**u** and you have the ty form: **Píš!** Píšte is for vy; píše means he or she writes.",
+    "t": "Отбросьте окончание píš**u** — и получится форма для ty: **Píš!** — «пиши!». Píšte — для vy, а píše — «он или она пишет»."
+  },
+  "a2-u6-l5.build-hovorte-pomaly-prosim.prompt": {
+    "en": "Please speak slowly. (to a stranger)",
+    "t": "Говорите, пожалуйста, медленно."
+  },
+  "a2-u6-l5.build-hovorte-pomaly-prosim.traps": {
+    "en": [
+      "To a stranger, the vy form: hovor + **-te** = **Hovorte**. Hovor is for a friend.",
+      "“Slowly” is the adverb **pomaly**; pomalý is the adjective, as in a slow train."
+    ],
+    "t": [
+      "Незнакомому — форма для vy: hovor + **-te** = **Hovorte** — «говорите». Hovor — для друга.",
+      "«Медленно» — наречие **pomaly**; pomalý — прилагательное, как в pomalý vlak (медленный поезд)."
+    ]
+  },
+  "a2-u6-l5.fill-emma-a-lucia-napiste.en": {
+    "en": "Emma and Lucia, write to me tomorrow!",
+    "t": "Эмма и Луция, напишите мне завтра!"
+  },
+  "a2-u6-l5.fill-emma-a-lucia-napiste.why": {
+    "en": "Two people are vy, so add **-te**: napíš → **napíšte**. Napíš is for one friend, and napíšeme means we'll write.",
+    "t": "Двое — это vy, поэтому добавьте **-te**: napíš → **napíšte** — «напишите». Napíš — одной подруге, а napíšeme значит «мы напишем»."
+  },
+  "a2-u6-l5.fill-mame-cas-dajme.en": {
+    "en": "We've got time. Let's have a coffee!",
+    "t": "У нас есть время. Давайте выпьем кофе!"
+  },
+  "a2-u6-l5.fill-mame-cas-dajme.why": {
+    "en": "“Let's” is the my form, the stem + **-me**: daj → **Dajme** si kávu. Dajte and daj tell other people to have one.",
+    "t": "«Давайте» — это форма для my, основа + **-me**: daj → **Dajme** si kávu. Dajte и daj предлагают выпить кофе другим."
+  },
+  "a2-u6-l5.grammar-small-words-after.title": {
+    "en": "Small words after the command",
+    "t": "Короткие слова — сразу после глагола"
+  },
+  "a2-u6-l5.grammar-small-words-after.body": {
+    "en": [
+      "In a command the verb comes first, and small words like **mi**, **mu**, **sa** and **si** follow it straight away: **Daj mi** vedieť. **Zavolaj mu.** **Dajte si** kávu.",
+      "With prosím, both orders are polite: Počkajte, prosím. Prosím, počkajte."
+    ],
+    "t": [
+      "В просьбе или команде глагол стоит первым, а короткие слова **mi**, **mu**, **sa** и **si** идут сразу за ним: **Daj mi** vedieť. **Zavolaj mu.** **Dajte si** kávu. По-русски можно сказать и «мне позвони», а по-словацки этот порядок обязателен.",
+      "С prosím вежливы оба порядка, как «подождите, пожалуйста» и «пожалуйста, подождите»: Počkajte, prosím. Prosím, počkajte."
+    ]
+  },
+  "a2-u6-l5.grammar-small-words-after.examples": {
+    "en": [
+      "Let me know.",
+      "Have a coffee, Mr Hudák.",
+      "Leave me a message."
+    ],
+    "t": [
+      "Дай мне знать.",
+      "Выпейте кофе, пан Гудак.",
+      "Оставь мне сообщение."
+    ]
+  },
+  "a2-u6-l5.choice-daj-mi-vediet.question": {
+    "en": "Which one is right?",
+    "t": "Какой вариант правильный?"
+  },
+  "a2-u6-l5.choice-daj-mi-vediet.why": {
+    "en": "The command comes first, and the small word **mi** goes right after it: Daj **mi** vedieť.",
+    "t": "Глагол-команда стоит первым, а короткое слово **mi** — сразу за ним: Daj **mi** vedieť."
+  },
+  "a2-u6-l5.build-pockaj-ma-pred.prompt": {
+    "en": "Wait for me in front of the office! (to a friend)",
+    "t": "Подожди меня перед офисом!"
+  },
+  "a2-u6-l5.build-pockaj-ma-pred.traps": {
+    "en": [
+      "You're telling a friend to wait: the ty form **Počkaj**. Počkám means I'll wait.",
+      "**Pred** (in front of) takes the instrumental: pred **kanceláriou**."
+    ],
+    "t": [
+      "Вы просите друга подождать — форма для ty: **Počkaj** — «подожди». Počkám значит «я подожду».",
+      "**Pred** (перед) требует творительного падежа, как и у нас: pred **kanceláriou** — «перед офисом»."
+    ]
+  },
+  "a2-u6-l5.fill-pani-bartosova-zatelefonujte.en": {
+    "en": "Mrs Bartošová, please phone me tomorrow morning.",
+    "t": "Госпожа Бартошова, позвоните мне, пожалуйста, завтра утром."
+  },
+  "a2-u6-l5.fill-pani-bartosova-zatelefonujte.why": {
+    "en": "Zatelefonovať (= zavolať) goes like pracovať: zatelefonujú → zatelefonuj, and for vy add **-te**: **zatelefonujte**. Zatelefonujete means you will phone.",
+    "t": "Zatelefonovať (= zavolať) спрягается как pracovať: zatelefonujú → zatelefonuj (как «работают → работай»), а для vy добавьте **-te**: **zatelefonujte**. Zatelefonujete значит «вы позвоните»."
+  },
+  "a2-u6-l5.fill-pani-kollarova-dajte-si.en": {
+    "en": "Mrs Kollárová, please have a coffee.",
+    "t": "Госпожа Колларова, выпейте кофе, пожалуйста."
+  },
+  "a2-u6-l5.fill-pani-kollarova-dajte-si.why": {
+    "en": "To someone you call vy: daj + **-te** = **dajte**, and si comes right after it. Dáte means you will have.",
+    "t": "Тому, с кем вы на «вы»: daj + **-te** = **dajte**, и si идёт сразу за ним. Dáte значит «вы выпьете»."
+  },
+  "a2-u6-l5.build-napiste-mi-mail.answers": {
+    "en": [
+      "Write me an e-mail and call me tomorrow.",
+      "Send me an e-mail and call me tomorrow."
+    ],
+    "t": [
+      "Напишите мне письмо и позвоните мне завтра.",
+      "Напишите мне письмо и завтра позвоните мне.",
+      "Напишите мне e-mail и позвоните мне завтра.",
+      "Напишите мне на почту и позвоните мне завтра."
+    ]
+  },
+  "a2-u6-l5.build-napiste-mi-mail.distractors": {
+    "en": [
+      "today",
+      "text"
+    ],
+    "t": [
+      "сегодня",
+      "сообщение"
+    ]
+  },
+  "a2-u6-l5.speak-zavolajte-neskor-prosim.en": {
+    "en": "Please call back later.",
+    "t": "Перезвоните позже, пожалуйста."
+  },
+  "a2-u6-l6.titleEn": {
+    "en": "Passing on a message",
+    "t": "Передаём чужие слова"
+  },
+  "a2-u6-l6.grammar-reported-ze.title": {
+    "en": "Reported speech: povedal, že…",
+    "t": "Косвенная речь: povedal, že…"
+  },
+  "a2-u6-l6.grammar-reported-ze.body": {
+    "en": [
+      "To pass on what someone said, use **povedať** (to say, to tell) or **napísať**, then a comma and **že** (that): Pán Hudák povedal, **že** zavolá neskôr.",
+      "Change the person, as in English: “Zavolám.” → povedal, že zavol**á**. But keep the tense: Slovak passes it on as it was said. “Mám poradu.” → Povedala, že **má** poradu. = She said she had a meeting."
+    ],
+    "t": [
+      "Чтобы передать чужие слова, используйте **povedať** (сказать) или **napísať** (написать), затем запятую и **že** (что): Pán Hudák povedal, **že** zavolá neskôr. = Пан Гудак сказал, что перезвонит позже.",
+      "Лицо меняется, как и в русском: «Zavolám.» → povedal, že zavol**á** (позвоню → сказал, что позвонит). А время остаётся тем, каким было у говорившего, — тоже как у нас: «Mám poradu.» → Povedala, že **má** poradu. = Она сказала, что у неё совещание."
+    ]
+  },
+  "a2-u6-l6.grammar-reported-ze.table.head": {
+    "en": [
+      "they say…",
+      "you pass it on"
+    ],
+    "t": [
+      "говорят…",
+      "вы передаёте"
+    ]
+  },
+  "a2-u6-l6.grammar-reported-ze.table.rows": {
+    "en": [
+      [
+        "„Zavolám neskôr.“",
+        "Povedal, že zavol**á** neskôr."
+      ],
+      [
+        "„Mám poradu.“",
+        "Povedala, že **má** poradu."
+      ],
+      [
+        "„Som chorý.“",
+        "Napísal, že **je** chorý."
+      ],
+      [
+        "„Prídem o desiatej.“",
+        "Povedala, že **príde** o desiatej."
+      ]
+    ],
+    "t": [
+      [
+        "„Zavolám neskôr.“",
+        "Povedal, že zavol**á** neskôr."
+      ],
+      [
+        "„Mám poradu.“",
+        "Povedala, že **má** poradu."
+      ],
+      [
+        "„Som chorý.“",
+        "Napísal, že **je** chorý."
+      ],
+      [
+        "„Prídem o desiatej.“",
+        "Povedala, že **príde** o desiatej."
+      ]
+    ]
+  },
+  "a2-u6-l6.grammar-reported-ze.examples": {
+    "en": [
+      "Petra said Mr Hudák was at lunch.",
+      "Tomáš wrote that he'd come tomorrow."
+    ],
+    "t": [
+      "Петра сказала, что пан Гудак на обеде.",
+      "Томаш написал, что придёт завтра."
+    ]
+  },
+  "a2-u6-l6.fill-petra-povedala-ze.en": {
+    "en": "Petra said Mr Hudák had a meeting.",
+    "t": "Петра сказала, что у пана Гудака совещание."
+  },
+  "a2-u6-l6.fill-petra-povedala-ze.why": {
+    "en": "Passing on a statement takes **že** (that), after a comma. Kde and kedy would pass on a question.",
+    "t": "Утверждение передают через **že** (что), после запятой. Kde (где) и kedy (когда) передавали бы вопрос."
+  },
+  "a2-u6-l6.fill-tomas-povedal-ze-zavola.en": {
+    "en": "Tomáš: “I'll call in an hour.” Tomáš said he'd call in an hour.",
+    "t": "Томаш: «Я позвоню через час». Томаш сказал, что позвонит через час."
+  },
+  "a2-u6-l6.fill-tomas-povedal-ze-zavola.why": {
+    "en": "Now Tomáš is on, so the person changes: zavolám → **zavolá**. The tense stays as he said it, so not zavolal.",
+    "t": "Теперь речь о Томаше (on), поэтому лицо меняется: zavolám → **zavolá**, «позвоню → позвонит». Время остаётся, как он сказал, поэтому не zavolal."
+  },
+  "a2-u6-l6.choice-lucia-napisala-ze.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u6-l6.choice-lucia-napisala-ze.options": {
+    "en": [
+      "Lucia asked if you were ill.",
+      "Lucia wrote that she was ill.",
+      "Lucia wrote that you were ill."
+    ],
+    "t": [
+      "Луция спросила, не болен ли ты.",
+      "Луция написала, что она больна.",
+      "Луция написала, что ты болен."
+    ]
+  },
+  "a2-u6-l6.choice-lucia-napisala-ze.why": {
+    "en": "**Že** passes on a statement, and **je** chorá is she is ill. Slovak keeps the tense where English says “was”.",
+    "t": "**Že** передаёт утверждение, а **je** chorá — «она больна». Время не меняется — так же, как в русском."
+  },
+  "a2-u6-l6.build-povedal-ze-ma.prompt": {
+    "en": "He said he had a meeting.",
+    "t": "Он сказал, что у него совещание."
+  },
+  "a2-u6-l6.build-povedal-ze-ma.traps": {
+    "en": [
+      "Slovak keeps the tense of what was said: “Mám poradu.” → že **má** poradu. Only English says had.",
+      "He is on now, so the person changes: mám → **má**."
+    ],
+    "t": [
+      "Словацкий, как и русский, сохраняет время сказанного: «Mám poradu.» → že **má** poradu — «что у него совещание».",
+      "Теперь речь о нём (on), поэтому лицо меняется: mám → **má**."
+    ]
+  },
+  "a2-u6-l6.grammar-reported-ci.title": {
+    "en": "Passing on a question: či, kde, kedy",
+    "t": "Передаём вопрос: či, kde, kedy"
+  },
+  "a2-u6-l6.grammar-reported-ci.body": {
+    "en": [
+      "A question with a question word keeps it: “Kedy prídeš?” → Pýtala sa, **kedy** prídeš.",
+      "A yes-or-no question takes **či** (whether, if): “Máš čas?” → Pýtal sa, **či** máš čas. **pýtať sa**, **opýtať sa** = to ask, with the person in the genitive: opýtať sa **Petry**."
+    ],
+    "t": [
+      "Вопрос с вопросительным словом его сохраняет: «Kedy prídeš?» → Pýtala sa, **kedy** prídeš. = Она спрашивала, когда ты придёшь.",
+      "Вопрос «да или нет» передают через **či** — это наше «ли», только стоит оно в начале: «Máš čas?» → Pýtal sa, **či** máš čas. = Он спрашивал, есть ли у тебя время. **pýtať sa**, **opýtať sa** = спрашивать, спросить; человек — в родительном падеже, как «спросить у Петры», только без предлога: opýtať sa **Petry**."
+    ]
+  },
+  "a2-u6-l6.grammar-reported-ci.table.head": {
+    "en": [
+      "they ask…",
+      "you pass it on"
+    ],
+    "t": [
+      "спрашивают…",
+      "вы передаёте"
+    ]
+  },
+  "a2-u6-l6.grammar-reported-ci.table.rows": {
+    "en": [
+      [
+        "„Kde si?“",
+        "Pýtal sa, **kde** si."
+      ],
+      [
+        "„Kedy prídeš?“",
+        "Pýtala sa, **kedy** prídeš."
+      ],
+      [
+        "„Máš čas?“",
+        "Pýtal sa, **či** máš čas."
+      ],
+      [
+        "„Je Tomáš v práci?“",
+        "Opýtala sa, **či** je Tomáš v práci."
+      ]
+    ],
+    "t": [
+      [
+        "„Kde si?“",
+        "Pýtal sa, **kde** si."
+      ],
+      [
+        "„Kedy prídeš?“",
+        "Pýtala sa, **kedy** prídeš."
+      ],
+      [
+        "„Máš čas?“",
+        "Pýtal sa, **či** máš čas."
+      ],
+      [
+        "„Je Tomáš v práci?“",
+        "Opýtala sa, **či** je Tomáš v práci."
+      ]
+    ]
+  },
+  "a2-u6-l6.grammar-reported-ci.examples": {
+    "en": [
+      "Mrs Kollárová asked if you were free tomorrow.",
+      "He asked me where the reception was."
+    ],
+    "t": [
+      "Госпожа Колларова спрашивала, свободен ли ты завтра.",
+      "Он спросил меня, где ресепшен."
+    ]
+  },
+  "a2-u6-l6.fill-pytala-sa-ci-mas.en": {
+    "en": "“Are you free on Friday?” Lucia asked if you were free on Friday.",
+    "t": "«У тебя есть время в пятницу?» Луция спрашивала, есть ли у тебя время в пятницу."
+  },
+  "a2-u6-l6.fill-pytala-sa-ci-mas.why": {
+    "en": "Lucia asked a yes-or-no question, and that's passed on with **či** (whether). Že is for statements.",
+    "t": "Луция задала вопрос «да или нет», а его передают через **či** — наше «ли»: «есть ли». Že — для утверждений."
+  },
+  "a2-u6-l6.fill-pytal-sa-kedy-prides.en": {
+    "en": "“When are you coming to the office?” He asked when you were coming to the office.",
+    "t": "«Когда ты придёшь в офис?» Он спрашивал, когда ты придёшь в офис."
+  },
+  "a2-u6-l6.fill-pytal-sa-kedy-prides.why": {
+    "en": "The question word stays: **kedy**. Či is only for yes-or-no questions.",
+    "t": "Вопросительное слово сохраняется: **kedy** — «когда». Či — только для вопросов «да или нет»."
+  },
+  "a2-u6-l6.choice-pan-hudak-sa-pytal.question": {
+    "en": "Mr Hudák asked Emma: “Kde je Tomáš?” How does Emma pass it on to Tomáš?",
+    "t": "Пан Гудак спросил Эмму: «Kde je Tomáš?» Как Эмма передаст это Томашу?"
+  },
+  "a2-u6-l6.choice-pan-hudak-sa-pytal.why": {
+    "en": "Emma is talking to Tomáš, so he becomes ty: kde je → kde **si**. The question word kde stays.",
+    "t": "Эмма говорит с самим Томашем, поэтому он становится ty: kde je → kde **si** — «где ты». Вопросительное слово kde сохраняется."
+  },
+  "a2-u6-l6.build-pytala-sa-ci-si.prompt": {
+    "en": "She asked if you were at home. (to a friend)",
+    "t": "Она спрашивала, дома ли ты."
+  },
+  "a2-u6-l6.build-pytala-sa-ci-si.traps": {
+    "en": [
+      "A yes-or-no question is passed on with **či**; že is for statements.",
+      "Slovak keeps the tense of the question, “Si doma?”: či **si** doma. Only English says were."
+    ],
+    "t": [
+      "Вопрос «да или нет» передают через **či** (ли); že — для утверждений.",
+      "Словацкий, как и русский, сохраняет время вопроса «Si doma?»: či **si** doma — «дома ли ты». Bola — прошедшее время."
+    ]
+  },
+  "a2-u6-l6.choice-mam-nejaky-odkaz.question": {
+    "en": "Tomáš calls from home: “Mám nejaký odkaz?” (Are there any messages for me?) Which answer is right?",
+    "t": "Томаш звонит из дома: «Mám nejaký odkaz?» (Мне что-нибудь передавали?) Какой ответ правильный?"
+  },
+  "a2-u6-l6.choice-mam-nejaky-odkaz.why": {
+    "en": "A statement is passed on with **povedala, že**. Či goes with a question: pýtala sa, či…",
+    "t": "Утверждение передают через **povedala, že** — «сказала, что». Či бывает с вопросом: pýtala sa, či… (спрашивала, …ли)."
+  },
+  "a2-u6-l6.build-tomas-napisal-ze.answers": {
+    "en": [
+      "Tomáš wrote that he'd come tomorrow.",
+      "Tomáš wrote that he would come tomorrow.",
+      "Tomáš wrote that he'll come tomorrow.",
+      "Tomáš wrote that he will come tomorrow."
+    ],
+    "t": [
+      "Томаш написал, что придёт завтра.",
+      "Томаш написал, что он придёт завтра.",
+      "Томаш написал, что завтра придёт."
+    ]
+  },
+  "a2-u6-l6.build-tomas-napisal-ze.distractors": {
+    "en": [
+      "asked",
+      "today"
+    ],
+    "t": [
+      "спросил",
+      "сегодня"
+    ]
+  },
+  "a2-u6-l6.fill-opytala-sa-ma.en": {
+    "en": "She asked Petra where the reception was.",
+    "t": "Она спросила у Петры, где ресепшен."
+  },
+  "a2-u6-l6.fill-opytala-sa-ma.why": {
+    "en": "**Opýtať sa** takes the genitive, so Petra changes -a to **-y**: opýtala sa **Petry**. Petru is the object form.",
+    "t": "**Opýtať sa** требует родительного падежа, как «спросить у Петры», только без у, поэтому Petra меняет -a на **-y**: opýtala sa **Petry**. Petru — винительный."
+  },
+  "a2-u6-l6.speak-povedal-ze-zavola.en": {
+    "en": "He said he'd call back later.",
+    "t": "Он сказал, что перезвонит позже."
+  },
+  "a2-u6-l7.titleEn": {
+    "en": "Passing on a request",
+    "t": "Передаём просьбу"
+  },
+  "a2-u6-l7.grammar-reported-aby.title": {
+    "en": "Passing on a request: aby + the past form",
+    "t": "Передаём просьбу: aby + прошедшее время"
+  },
+  "a2-u6-l7.grammar-reported-aby.body": {
+    "en": [
+      "A request or an order is passed on with **aby** (to, so that). After aby comes the **past form** (-l, -la, -li), even when the request is about later: “Zavolaj mi!” → Povedala, **aby** si jej **zavolal**.",
+      "Aby takes som, si, sme and ste, just like the past tense: aby **som**, aby **si**. For on, ona and oni, aby stands alone: Povedzte mu, prosím, **aby** mi **zavolal**. (Povedzte = tell, to vy.)"
+    ],
+    "t": [
+      "Просьбу или указание передают через **aby** — это наше «чтобы», и после него, как и в русском, идёт **форма прошедшего времени** (-l, -la, -li), даже если речь о будущем: «Zavolaj mi!» → Povedala, **aby** si jej **zavolal**. = Она сказала, чтобы ты ей позвонил.",
+      "Aby присоединяет som, si, sme и ste, как в прошедшем времени: aby **som**, aby **si** (≈ чтобы я, чтобы ты). С on, ona и oni aby стоит одно: Povedzte mu, prosím, **aby** mi **zavolal**. = Скажите ему, пожалуйста, чтобы он мне позвонил. (Povedzte = скажите, на «вы».)"
+    ]
+  },
+  "a2-u6-l7.grammar-reported-aby.table.head": {
+    "en": [
+      "",
+      "aby + the past form"
+    ],
+    "t": [
+      "",
+      "aby + прошедшее время"
+    ]
+  },
+  "a2-u6-l7.grammar-reported-aby.table.rows": {
+    "en": [
+      [
+        "ja",
+        "aby **som** zavolal / zavolala"
+      ],
+      [
+        "ty",
+        "aby **si** zavolal / zavolala"
+      ],
+      [
+        "on, ona",
+        "aby zavolal / zavolala"
+      ],
+      [
+        "my",
+        "aby **sme** zavolali"
+      ],
+      [
+        "vy",
+        "aby **ste** zavolali"
+      ],
+      [
+        "oni",
+        "aby zavolali"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "aby **som** zavolal / zavolala"
+      ],
+      [
+        "ty",
+        "aby **si** zavolal / zavolala"
+      ],
+      [
+        "on, ona",
+        "aby zavolal / zavolala"
+      ],
+      [
+        "my",
+        "aby **sme** zavolali"
+      ],
+      [
+        "vy",
+        "aby **ste** zavolali"
+      ],
+      [
+        "oni",
+        "aby zavolali"
+      ]
+    ]
+  },
+  "a2-u6-l7.grammar-reported-aby.examples": {
+    "en": [
+      "Please tell him to call me.",
+      "Mr Hudák wants us to come at nine.",
+      "Petra asked me to call Mrs Kollárová."
+    ],
+    "t": [
+      "Скажите ему, пожалуйста, чтобы он мне позвонил.",
+      "Пан Гудак хочет, чтобы мы пришли в девять.",
+      "Петра попросила меня, чтобы я позвонила госпоже Колларовой."
+    ]
+  },
+  "a2-u6-l7.fill-povedzte-jej-aby.en": {
+    "en": "Please tell her to call me tomorrow.",
+    "t": "Скажите ей, пожалуйста, чтобы она позвонила мне завтра."
+  },
+  "a2-u6-l7.fill-povedzte-jej-aby.why": {
+    "en": "After **aby** comes the past form, and she is a woman: aby mi **zavolala**. Zavolá would follow že.",
+    "t": "После **aby**, как после «чтобы», — прошедшее время, а речь о женщине: aby mi **zavolala** — «чтобы позвонила». Zavolá ставится после že."
+  },
+  "a2-u6-l7.fill-petra-mi-povedala-aby.en": {
+    "en": "Emma: “Petra told me to wait here.”",
+    "t": "Эмма: «Петра сказала мне, чтобы я подождала здесь»."
+  },
+  "a2-u6-l7.fill-petra-mi-povedala-aby.why": {
+    "en": "After **aby**, the past form, and Emma is a woman: aby som **počkala**.",
+    "t": "После **aby** — прошедшее время, а Эмма — женщина: aby som **počkala** — «чтобы я подождала»."
+  },
+  "a2-u6-l7.fill-pan-hudak-povedal-aby-ste.en": {
+    "en": "Mr Hudák told you (all) to write him an e-mail.",
+    "t": "Пан Гудак сказал, чтобы вы написали ему письмо."
+  },
+  "a2-u6-l7.fill-pan-hudak-povedal-aby-ste.why": {
+    "en": "For **vy**, aby takes **ste**: aby **ste** mu napísali. Si and som don't go with -li.",
+    "t": "С **vy** aby получает **ste**: aby **ste** mu napísali — «чтобы вы ему написали». Si и som с формой на -li не сочетаются."
+  },
+  "a2-u6-l7.build-povedzte-mu-prosim.prompt": {
+    "en": "Please tell him to call me. (to a stranger)",
+    "t": "Скажите ему, пожалуйста, чтобы он мне позвонил."
+  },
+  "a2-u6-l7.build-povedzte-mu-prosim.traps": {
+    "en": [
+      "After **aby**, the past form: aby mi **zavolal**. Zavolá goes after že.",
+      "Him, the one you tell, is **mu**; jej is for a woman."
+    ],
+    "t": [
+      "После **aby** — прошедшее время, как после «чтобы»: aby mi **zavolal** — «чтобы позвонил». Zavolá идёт после že.",
+      "«Ему» — **mu**; jej — для женщины, «ей»."
+    ]
+  },
+  "a2-u6-l7.build-chce-aby-sme.prompt": {
+    "en": "He wants us to wait.",
+    "t": "Он хочет, чтобы мы подождали."
+  },
+  "a2-u6-l7.build-chce-aby-sme.traps": {
+    "en": [
+      "After **aby**, the past form: aby sme **počkali**. Počkáme means we'll wait.",
+      "Wanting someone to do something takes **aby**; že passes on a fact."
+    ],
+    "t": [
+      "После **aby** — прошедшее время: aby sme **počkali** — «чтобы мы подождали». Počkáme значит «мы подождём».",
+      "Хотеть, чтобы кто-то что-то сделал, — это **aby** (чтобы); že (что) передаёт факт."
+    ]
+  },
+  "a2-u6-l7.grammar-ze-or-aby.title": {
+    "en": "Že or aby?",
+    "t": "Že или aby?"
+  },
+  "a2-u6-l7.grammar-ze-or-aby.body": {
+    "en": [
+      "**Že** passes on a fact, in its own tense: Tomáš povedal, **že** počká. = Tomáš said he would wait.",
+      "**Aby** passes on a request, always with the past form: Tomáš povedal, **aby** sme počkali. = Tomáš told us to wait."
+    ],
+    "t": [
+      "**Že** (что) передаёт факт, в его собственном времени: Tomáš povedal, **že** počká. = Томаш сказал, что подождёт.",
+      "**Aby** (чтобы) передаёт просьбу, всегда с формой прошедшего времени: Tomáš povedal, **aby** sme počkali. = Томаш сказал, чтобы мы подождали. Совсем как «что» и «чтобы» в русском."
+    ]
+  },
+  "a2-u6-l7.grammar-ze-or-aby.examples": {
+    "en": [
+      "Lucia wrote that she'd come later.",
+      "Lucia wrote asking us to wait for her."
+    ],
+    "t": [
+      "Луция написала, что придёт позже.",
+      "Луция написала, чтобы мы её подождали."
+    ]
+  },
+  "a2-u6-l7.choice-tomas-povedal-ze-pocka.question": {
+    "en": "Tomáš said he would wait. Which sentence says that?",
+    "t": "Томаш сказал, что подождёт. Какое предложение это передаёт?"
+  },
+  "a2-u6-l7.choice-tomas-povedal-ze-pocka.why": {
+    "en": "It's a fact about Tomáš, so **že** + počká. Aby počkal would mean he told someone else to wait.",
+    "t": "Это факт о самом Томаше, поэтому **že** + počká — «что подождёт». Aby počkal значило бы, что он велел подождать кому-то другому."
+  },
+  "a2-u6-l7.choice-lucia-mi-povedala-aby.question": {
+    "en": "Lucia asked Emma to write to her. How does Emma say it?",
+    "t": "Луция попросила Эмму ей написать. Как Эмма это передаст?"
+  },
+  "a2-u6-l7.choice-lucia-mi-povedala-aby.why": {
+    "en": "A request: **aby** + the past form, and Emma is a woman: aby som jej **napísala**. Že jej napíšem would mean Emma promised to write.",
+    "t": "Это просьба: **aby** + прошедшее время, а Эмма — женщина: aby som jej **napísala** — «чтобы я ей написала». Že jej napíšem значило бы, что Эмма обещала написать."
+  },
+  "a2-u6-l7.build-lucia-ma-poprosila.prompt": {
+    "en": "Emma: “Lucia asked me to buy bread.”",
+    "t": "Эмма: «Луция попросила меня, чтобы я купила хлеб»."
+  },
+  "a2-u6-l7.build-lucia-ma-poprosila.traps": {
+    "en": [
+      "After **aby**, the past form, and Emma is a woman: aby som **kúpila**.",
+      "It's a request, so **aby**; že passes on a fact."
+    ],
+    "t": [
+      "После **aby** — прошедшее время, а Эмма — женщина: aby som **kúpila** — «чтобы я купила».",
+      "Это просьба, поэтому **aby** (чтобы); že (что) передаёт факт."
+    ]
+  },
+  "a2-u6-l7.build-pani-kollarova-povedala.answers": {
+    "en": [
+      "Mrs Kollárová told you to call her.",
+      "Mrs Kollárová said you should call her.",
+      "Mrs Kollárová asked you to call her."
+    ],
+    "t": [
+      "Госпожа Колларова сказала, чтобы ты ей позвонил.",
+      "Госпожа Колларова сказала, чтобы ты позвонил ей.",
+      "Госпожа Колларова просила, чтобы ты ей позвонил.",
+      "Госпожа Колларова просила тебя ей позвонить."
+    ]
+  },
+  "a2-u6-l7.build-pani-kollarova-povedala.distractors": {
+    "en": [
+      "him",
+      "would"
+    ],
+    "t": [
+      "ему",
+      "позвонишь"
+    ]
+  },
+  "a2-u6-l7.fill-mama-chce-aby.en": {
+    "en": "Mum wants me to call her on Sunday.",
+    "t": "Мама хочет, чтобы я позвонила ей в воскресенье."
+  },
+  "a2-u6-l7.fill-mama-chce-aby.why": {
+    "en": "Wanting someone else to do something takes **aby** + the past form: chce, **aby** som zavolala.",
+    "t": "Хотеть, чтобы что-то сделал другой, — **aby** + прошедшее время, как «чтобы я позвонила»: chce, **aby** som zavolala."
+  },
+  "a2-u6-l7.speak-povedzte-mu-aby.en": {
+    "en": "Tell him to call me.",
+    "t": "Скажите ему, чтобы он мне позвонил."
+  },
+  "a2-u6-l8.titleEn": {
+    "en": "An e-mail to friends",
+    "t": "Письмо друзьям"
+  },
+  "a2-u6-l8.mila-lucia.en": {
+    "en": "Dear Lucia,",
+    "t": "Дорогая Луция,"
+  },
+  "a2-u6-l8.mila-lucia.note": {
+    "en": "You saw **Milá Emma** in Lucia's e-mail in unit 3. To a man: **Milý Tomáš,** to a group of friends: **Milí kamaráti,** or simply **Ahoj, Lucia!**",
+    "t": "**Milá Emma** вы видели в письме Луции в разделе 3. Мужчине: **Milý Tomáš,** компании друзей: **Milí kamaráti,** или просто **Ahoj, Lucia!**"
+  },
+  "a2-u6-l8.choice-mily-tomas.question": {
+    "en": "Emma is writing to Tomáš. How does she start?",
+    "t": "Эмма пишет Томашу. Как она начнёт письмо?"
+  },
+  "a2-u6-l8.choice-mily-tomas.why": {
+    "en": "**Milý** is an adjective, so it matches the person: milý for a man, milá for a woman: Milý Tomáš, Milá Lucia.",
+    "t": "**Milý** — прилагательное, поэтому согласуется с человеком, как «милый — милая»: milý — мужчине, milá — женщине: Milý Tomáš, Milá Lucia."
+  },
+  "a2-u6-l8.navrh.en": {
+    "en": "suggestion, proposal",
+    "t": "предложение"
+  },
+  "a2-u6-l8.navrh.note": {
+    "en": "Mám pre vás **návrh**: výlet v máji! = I've got a suggestion for you: a trip in May! **navrhnúť** = to suggest; **trasa** = the route of a trip.",
+    "t": "Mám pre vás **návrh**: výlet v máji! = У меня для вас предложение: поездка в мае! **navrhnúť** = предложить; **trasa** = маршрут поездки."
+  },
+  "a2-u6-l8.fill-ahoj-marek-mam-pre.en": {
+    "en": "Hi, Marek! I've got a suggestion for you.",
+    "t": "Привет, Марек! У меня для тебя предложение."
+  },
+  "a2-u6-l8.fill-ahoj-marek-mam-pre.why": {
+    "en": "After **pre** (for), pronouns take their long forms: pre **teba**.",
+    "t": "После **pre** (для) местоимения стоят в полной форме: pre **teba** — «для тебя»."
+  },
+  "a2-u6-l8.fill-mili-kamarati.en": {
+    "en": "Dear friends, I've got a suggestion for you.",
+    "t": "Дорогие друзья, у меня для вас предложение."
+  },
+  "a2-u6-l8.fill-mili-kamarati.why": {
+    "en": "Kamaráti is a group with men in it, so the adjective takes the men's plural, **-í**: **Milí** kamaráti.",
+    "t": "Kamaráti — компания, в которой есть мужчины, поэтому прилагательное в мужском множественном, на **-í**: **Milí** kamaráti."
+  },
+  "a2-u6-l8.dakujem-ti-za-mail.en": {
+    "en": "Thanks for your e-mail.",
+    "t": "Спасибо за письмо."
+  },
+  "a2-u6-l8.dakujem-ti-za-mail.note": {
+    "en": "In letters and e-mails, many Slovaks write **Ty**, **Ti**, **Teba**, **Vy**, **Vám** and **Vás** with a capital letter, to be polite.",
+    "t": "В письмах многие словаки пишут **Ty**, **Ti**, **Teba**, **Vy**, **Vám** и **Vás** с большой буквы, из вежливости — как наше «Вы» в письме."
+  },
+  "a2-u6-l8.cim-skor.en": {
+    "en": "as soon as possible",
+    "t": "как можно скорее"
+  },
+  "a2-u6-l8.cim-skor.note": {
+    "en": "**Napíš mi čím skôr.** = Write back as soon as possible. Or: **Ozvi sa!** = Get in touch!",
+    "t": "**Napíš mi čím skôr.** = Напиши мне как можно скорее. Или: **Ozvi sa!** = Дай о себе знать!"
+  },
+  "a2-u6-l8.build-napis-mi-cim-skor.prompt": {
+    "en": "Write back as soon as possible! (to a friend)",
+    "t": "Напиши мне как можно скорее!"
+  },
+  "a2-u6-l8.build-napis-mi-cim-skor.traps": {
+    "en": [
+      "You're asking a friend to write: the command **Napíš**. Napíšem means I'll write.",
+      "**Čím skôr** = as soon as possible. Neskôr means later."
+    ],
+    "t": [
+      "Вы просите друга написать — повелительная форма **Napíš** — «напиши». Napíšem значит «я напишу».",
+      "**Čím skôr** = как можно скорее. Neskôr значит «позже»."
+    ]
+  },
+  "a2-u6-l8.kontakt.en": {
+    "en": "contact details",
+    "t": "контакты"
+  },
+  "a2-u6-l8.kontakt.note": {
+    "en": "**Dám ti kontakt na penzión.** = I'll give you the guesthouse's contact details. **penzión** = a guesthouse.",
+    "t": "**Dám ti kontakt na penzión.** = Я дам тебе контакты пансиона. **penzión** = пансион, гостевой дом."
+  },
+  "a2-u6-l8.build-dakujem-ti-za-pozvanie.prompt": {
+    "en": "Thank you for the invitation to the party. (in an e-mail to a friend)",
+    "t": "Спасибо за приглашение на праздник. (в письме другу)"
+  },
+  "a2-u6-l8.build-dakujem-ti-za-pozvanie.traps": {
+    "en": [
+      "An invitation **to** the party: na + the object form, **oslavu**. Na oslave means at the party.",
+      "You thank **za** + the object form, and pozvanie is neuter, so it doesn't change: za **pozvanie**."
+    ],
+    "t": [
+      "Приглашение **на** праздник (куда?): na + винительный, **oslavu**. Na oslave значит «на празднике» (где?).",
+      "Благодарят **za** + винительный, как «за что?», а pozvanie — среднего рода и не меняется: za **pozvanie** — «за приглашение»."
+    ]
+  },
+  "a2-u6-l8.build-dam-ti-kontakt.prompt": {
+    "en": "I'll give you the guesthouse's contact details.",
+    "t": "Я дам тебе контакты пансиона."
+  },
+  "a2-u6-l8.build-dam-ti-kontakt.traps": {
+    "en": [
+      "You'll be the one giving it: the ja form **Dám**. Daj asks someone else to give.",
+      "Kontakt **na** someone or something takes the object form: na **penzión**. Penzióne is the locative (in the guesthouse)."
+    ],
+    "t": [
+      "Давать будете вы — форма для ja: **Dám** — «дам». Daj — просьба к другому: «дай».",
+      "Kontakt **na** кого-то или что-то — с винительным падежом: na **penzión**. Penzióne — предложный (в пансионе)."
+    ]
+  },
+  "a2-u6-l8.pozdravuj-mareka.en": {
+    "en": "Say hi to Marek!",
+    "t": "Передавай привет Мареку!"
+  },
+  "a2-u6-l8.pozdravuj-mareka.note": {
+    "en": "Like **Pozdrav Luciu!** (unit 5), from **pozdravovať**; both are common. Many e-mails to friends end with **Pozdravujem** (Best wishes) and your name.",
+    "t": "Как **Pozdrav Luciu!** (раздел 5), от **pozdravovať**; говорят и так, и так. Обратите внимание: приветствуют кого? — винительный: Mareka, хотя по-русски «привет Мареку». Многие письма друзьям заканчиваются словом **Pozdravujem** (С приветом) и именем."
+  },
+  "a2-u6-l8.maj-sa-dobre.en": {
+    "en": "Take care!",
+    "t": "Всего хорошего!"
+  },
+  "a2-u6-l8.maj-sa-dobre.note": {
+    "en": "More friendly endings: **Pekný deň!** (Have a nice day!) Then sign: **Tvoja Emma** (a woman), **Tvoj Tomáš** (a man).",
+    "t": "Ещё дружеские концовки: **Pekný deň!** (Хорошего дня!) Потом подпись: **Tvoja Emma** (женщина), **Tvoj Tomáš** (мужчина) — «Твоя Эмма», «Твой Томаш»."
+  },
+  "a2-u6-l8.choice-tvoj-tomas.question": {
+    "en": "How does Tomáš sign his e-mail to Emma?",
+    "t": "Как Томаш подпишет письмо Эмме?"
+  },
+  "a2-u6-l8.choice-tvoj-tomas.why": {
+    "en": "**Tvoj** matches the writer: Tomáš is a man, so tvoj. Emma signs **Tvoja** Emma.",
+    "t": "**Tvoj** согласуется с тем, кто пишет: Томаш — мужчина, поэтому tvoj — «твой». Эмма подписывается **Tvoja** Emma."
+  },
+  "a2-u6-l8.build-pozdravuj-tomasa.prompt": {
+    "en": "Say hi to Tomáš! Take care!",
+    "t": "Передавай привет Томашу! Всего хорошего!"
+  },
+  "a2-u6-l8.build-pozdravuj-tomasa.traps": {
+    "en": [
+      "Tomáš is the one you greet, the object, so he adds **-a**: Pozdravuj **Tomáša**.",
+      "To one friend: **Maj** sa dobre. Majte sa is for vy."
+    ],
+    "t": [
+      "Томаш — тот, кого приветствуют, дополнение в винительном падеже, поэтому **-a**: Pozdravuj **Tomáša**, хотя по-русски «привет Томашу».",
+      "Одному другу: **Maj** sa dobre. Majte sa — для vy."
+    ]
+  },
+  "a2-u6-l8.choice-luciina-odpoved.question": {
+    "en": "Lucia's answer. Why didn't she write sooner?",
+    "t": "Ответ Луции. Почему она не написала раньше?"
+  },
+  "a2-u6-l8.choice-luciina-odpoved.options": {
+    "en": [
+      "She had an exam.",
+      "She was ill.",
+      "She was away on a trip."
+    ],
+    "t": [
+      "У неё был экзамен.",
+      "Она болела.",
+      "Она была в поездке."
+    ]
+  },
+  "a2-u6-l8.build-prepac-ze-som-ti.prompt": {
+    "en": "Emma ends her e-mail: “Sorry I didn't write sooner. Best wishes, Emma”",
+    "t": "Эмма заканчивает письмо: «Извини, что не написала раньше. С приветом, Эмма»"
+  },
+  "a2-u6-l8.build-prepac-ze-som-ti.traps": {
+    "en": [
+      "Emma is a woman, so the past form ends in **-la**: som Ti **nenapísala**.",
+      "Sooner is **skôr**, as in čím skôr. Neskôr means later."
+    ],
+    "t": [
+      "Эмма — женщина, поэтому прошедшее время на **-la**: som Ti **nenapísala** — «не написала».",
+      "«Раньше» — **skôr**, как в čím skôr. Neskôr значит «позже»."
+    ]
+  },
+  "a2-u6-l8.speak-mam-pre-teba-navrh.en": {
+    "en": "I've got a suggestion for you.",
+    "t": "У меня для тебя предложение."
+  },
+  "a2-u6-l9.titleEn": {
+    "en": "A formal e-mail",
+    "t": "Официальное письмо"
+  },
+  "a2-u6-l9.vazena-pani-sokolova.en": {
+    "en": "Dear Mrs Sokolová,",
+    "t": "Уважаемая госпожа Соколова,"
+  },
+  "a2-u6-l9.vazena-pani-sokolova.note": {
+    "en": "How a formal letter or e-mail starts. To a man: **Vážený pán** Hudák, To someone whose name you don't know: **Dobrý deň,**",
+    "t": "Так начинается официальное письмо. Мужчине: **Vážený pán** Hudák, а если имени вы не знаете: **Dobrý deň,**"
+  },
+  "a2-u6-l9.choice-vazeny-pan-hudak.question": {
+    "en": "Emma writes a formal e-mail to pán Hudák. How does she start?",
+    "t": "Эмма пишет официальное письмо пану Гудаку. Как она начнёт?"
+  },
+  "a2-u6-l9.choice-vazeny-pan-hudak.why": {
+    "en": "**Vážený** is an adjective, so it matches a man: vážený pán. Milý is for friends, with their first name.",
+    "t": "**Vážený** — прилагательное, поэтому согласуется с мужчиной: vážený pán — «уважаемый пан». Milý — для друзей, с их именем."
+  },
+  "a2-u6-l9.ubytovanie.en": {
+    "en": "accommodation",
+    "t": "жильё, проживание"
+  },
+  "a2-u6-l9.ubytovanie.note": {
+    "en": "Emma books the trip's **ubytovanie v penzióne** (rooms in a guesthouse) **na meno** Šimková, in Lucia's name. **s raňajkami** = with breakfast; **cena** = the price.",
+    "t": "Эмма бронирует для поездки **ubytovanie v penzióne** (номера в пансионе) **na meno** Šimková — на фамилию Луции. **s raňajkami** = с завтраком; **cena** = цена."
+  },
+  "a2-u6-l9.volna-izba.en": {
+    "en": "a free room, a vacancy",
+    "t": "свободный номер"
+  },
+  "a2-u6-l9.volna-izba.note": {
+    "en": "**Máte voľné izby?** = Have you got any rooms free? A **dvojposteľová** izba is a double room, a **jednoposteľová** a single; **rezervovať** = to book.",
+    "t": "**Máte voľné izby?** = У вас есть свободные номера? Двухместный номер — **dvojposteľová** izba, одноместный — **jednoposteľová**; **rezervovať** = бронировать."
+  },
+  "a2-u6-l9.fill-chcela-by-som-sa-opytat.en": {
+    "en": "I'd like to ask whether you have any rooms free.",
+    "t": "Я хотела бы спросить, есть ли у вас свободные номера."
+  },
+  "a2-u6-l9.fill-chcela-by-som-sa-opytat.why": {
+    "en": "Izby is plural here, and plural things take **-é**: **voľné** izby.",
+    "t": "Izby здесь во множественном числе, а неодушевлённые во множественном получают **-é**: **voľné** izby."
+  },
+  "a2-u6-l9.od-piatku-do-pondelka.en": {
+    "en": "from Friday to Monday",
+    "t": "с пятницы до понедельника"
+  },
+  "a2-u6-l9.od-piatku-do-pondelka.note": {
+    "en": "**Od … do** + the genitive, as in unit 5: od soboty do nedele, od 15. do 17. mája.",
+    "t": "**Od … do** + родительный падеж, как в разделе 5 и как у нас: od soboty do nedele (с субботы до воскресенья), od 15. do 17. mája."
+  },
+  "a2-u6-l9.build-mate-volnu-izbu.prompt": {
+    "en": "Have you got a room free from Friday to Monday?",
+    "t": "У вас есть свободный номер с пятницы до понедельника?"
+  },
+  "a2-u6-l9.build-mate-volnu-izbu.traps": {
+    "en": [
+      "The room is what you're asking for, the object, so -á becomes **-ú**: **voľnú** izbu.",
+      "**Do** (until) takes the genitive: do **pondelka**, like od piatku."
+    ],
+    "t": [
+      "Номер — то, о чём вы спрашиваете, дополнение, поэтому -á меняется на **-ú**: **voľnú** izbu.",
+      "**Do** (до) требует родительного падежа: do **pondelka** — «до понедельника», как od piatku."
+    ]
+  },
+  "a2-u6-l9.dakujem-za-odpoved.en": {
+    "en": "Thank you for your reply.",
+    "t": "Спасибо за ответ."
+  },
+  "a2-u6-l9.dakujem-za-odpoved.note": {
+    "en": "You know **odpoveď** from otázka a odpoveď (unit 1); it's feminine. **odpovedať** = to reply: Pani Sokolová mi odpovedala.",
+    "t": "**odpoveď** вы знаете по otázka a odpoveď (раздел 1); это женский род, хотя «ответ» у нас мужского. **odpovedať** = отвечать: Pani Sokolová mi odpovedala."
+  },
+  "a2-u6-l9.s-pozdravom.en": {
+    "en": "Kind regards",
+    "t": "С уважением"
+  },
+  "a2-u6-l9.s-pozdravom.note": {
+    "en": "The end of a formal letter or e-mail, with your name on the next line. Friends write **Pozdravujem** or **Maj sa!**",
+    "t": "Так заканчивают официальное письмо, а имя пишут на следующей строке. Друзьям пишут **Pozdravujem** или **Maj sa!**"
+  },
+  "a2-u6-l9.choice-s-pozdravom.question": {
+    "en": "How does Emma end her e-mail to pani Sokolová?",
+    "t": "Как Эмма закончит письмо госпоже Соколовой?"
+  },
+  "a2-u6-l9.choice-s-pozdravom.why": {
+    "en": "A formal e-mail ends with **S pozdravom** and your name. Maj sa and Zatiaľ are for friends.",
+    "t": "Официальное письмо заканчивается словами **S pozdravom** и именем. Maj sa и Zatiaľ — для друзей."
+  },
+  "a2-u6-l9.izba-je-sice-mala.en": {
+    "en": "The room may be small, but it's nice.",
+    "t": "Номер хоть и маленький, но красивый."
+  },
+  "a2-u6-l9.izba-je-sice-mala.note": {
+    "en": "**síce … ale** = it's true that…, but… Síce goes after the verb in the first part, and ale starts the second. **len** = only.",
+    "t": "**síce … ale** = хоть и…, но… Síce стоит после глагола в первой части, а ale начинает вторую. **len** = только."
+  },
+  "a2-u6-l9.fill-penzion-je-sice.en": {
+    "en": "The guesthouse may be expensive, but it's very nice.",
+    "t": "Пансион хоть и дорогой, но очень красивый."
+  },
+  "a2-u6-l9.fill-penzion-je-sice.why": {
+    "en": "**Síce** in the first part gets ready for the **ale** in the second: síce drahý, ale pekný.",
+    "t": "**Síce** в первой части готовит **ale** во второй, как «хоть и… но»: síce drahý, ale pekný."
+  },
+  "a2-u6-l9.build-mame-sice-len.prompt": {
+    "en": "We've only got two rooms free, but they're big.",
+    "t": "У нас, правда, только два свободных номера, но они большие."
+  },
+  "a2-u6-l9.build-mame-sice-len.traps": {
+    "en": [
+      "After dve, the plural, and plural things take **-é**: dve **voľné** izby.",
+      "The rooms (izby, plural) are big, so **-é**: sú **veľké**."
+    ],
+    "t": [
+      "После dve — множественное число, а неодушевлённые во множественном получают **-é**: dve **voľné** izby.",
+      "Номера (izby, мн. ч.) большие, поэтому **-é**: sú **veľké**."
+    ]
+  },
+  "a2-u6-l9.choice-izbu-vam-rezervujem.question": {
+    "en": "Pani Sokolová's reply. How much is a room?",
+    "t": "Ответ госпожи Соколовой. Сколько стоит номер?"
+  },
+  "a2-u6-l9.choice-izbu-vam-rezervujem.options": {
+    "en": [
+      "Thirty euros a night, with breakfast.",
+      "Thirty euros a night, without breakfast.",
+      "Thirteen euros a night, with breakfast."
+    ],
+    "t": [
+      "Тридцать евро за ночь, с завтраком.",
+      "Тридцать евро за ночь, без завтрака.",
+      "Тринадцать евро за ночь, с завтраком."
+    ]
+  },
+  "a2-u6-l9.fill-dakujem-vam-za-odpoved.en": {
+    "en": "Dear Mrs Sokolová, thank you for your reply.",
+    "t": "Уважаемая госпожа Соколова, спасибо Вам за ответ."
+  },
+  "a2-u6-l9.fill-dakujem-vam-za-odpoved.why": {
+    "en": "In Slovak you give thanks **to** someone: the to-whom form, **Vám**, with a capital in a letter. Vás is the object form.",
+    "t": "В отличие от русского «благодарю вас», ďakovať требует дательного, как «спасибо вам»: ďakujem **Vám**, в письме — с большой буквы. Vás — винительный."
+  },
+  "a2-u6-l9.build-pani-sokolova-mi-odpovedala.answers": {
+    "en": [
+      "Mrs Sokolová replied that she had a room free.",
+      "Mrs Sokolová replied that she had a free room.",
+      "Mrs Sokolová replied that she has a room free.",
+      "Mrs Sokolová answered that she had a room free."
+    ],
+    "t": [
+      "Госпожа Соколова ответила мне, что у неё есть свободный номер.",
+      "Госпожа Соколова мне ответила, что у неё есть свободный номер.",
+      "Госпожа Соколова ответила мне, что у неё есть свободная комната."
+    ]
+  },
+  "a2-u6-l9.build-pani-sokolova-mi-odpovedala.distractors": {
+    "en": [
+      "asked",
+      "two"
+    ],
+    "t": [
+      "спросила",
+      "два"
+    ]
+  },
+  "a2-u6-l9.choice-emma-pise-kamaratom.question": {
+    "en": "Emma's e-mail to her friends. What's true?",
+    "t": "Письмо Эммы друзьям. Что верно?"
+  },
+  "a2-u6-l9.choice-emma-pise-kamaratom.options": {
+    "en": [
+      "They're going by train and staying three nights.",
+      "They're going by car and staying three nights.",
+      "They're going by car and staying two nights."
+    ],
+    "t": [
+      "Они едут поездом и остаются на три ночи.",
+      "Они едут на машине и остаются на три ночи.",
+      "Они едут на машине и остаются на две ночи."
+    ]
+  },
+  "a2-u6-l9.speak-dakujem-za-odpoved.en": {
+    "en": "Thank you for your reply.",
+    "t": "Спасибо за ответ."
+  },
+  "a2-u6-l10.titleEn": {
+    "en": "Personal details",
+    "t": "Личные данные"
+  },
+  "a2-u6-l10.osobne-udaje.en": {
+    "en": "personal details",
+    "t": "личные данные"
+  },
+  "a2-u6-l10.osobne-udaje.note": {
+    "en": "**údaj** = a piece of information. On a form: meno, priezvisko, **dátum a miesto narodenia** (date and place of birth), **povolanie** (occupation), adresa.",
+    "t": "**údaj** = сведение, данные. В анкете: meno (имя), priezvisko (фамилия), **dátum a miesto narodenia** (дата и место рождения), **povolanie** (профессия), adresa (адрес)."
+  },
+  "a2-u6-l10.formular.en": {
+    "en": "form",
+    "t": "бланк, форма"
+  },
+  "a2-u6-l10.formular.note": {
+    "en": "**vyplniť formulár** = to fill in a form. You know **dotazník** (a questionnaire) from A1.",
+    "t": "**vyplniť formulár** = заполнить бланк. Слово **dotazník** (анкета) вы знаете с уровня A1."
+  },
+  "a2-u6-l10.fill-vyplnte-prosim-tento.en": {
+    "en": "Please fill in this form.",
+    "t": "Заполните, пожалуйста, этот бланк."
+  },
+  "a2-u6-l10.fill-vyplnte-prosim-tento.why": {
+    "en": "The form is the object, and formulár is a masculine thing, so it doesn't change: tento **formulár**.",
+    "t": "Бланк — дополнение, а formulár — неодушевлённое мужского рода, поэтому не меняется, как и «этот бланк»: tento **formulár**."
+  },
+  "a2-u6-l10.adresa.en": {
+    "en": "address",
+    "t": "адрес"
+  },
+  "a2-u6-l10.adresa.note": {
+    "en": "Emma's address: **Javorová 12, 841 04 Bratislava**: the street (ulica), the number, the postcode and the town.",
+    "t": "Адрес Эммы: **Javorová 12, 841 04 Bratislava**: улица (ulica), номер дома, почтовый индекс и город. Adresa — женского рода, хотя «адрес» у нас мужского."
+  },
+  "a2-u6-l10.fill-byvam-na-javorovej.en": {
+    "en": "I live at number 12, Javorová Street.",
+    "t": "Я живу на Яворовой улице, дом 12."
+  },
+  "a2-u6-l10.fill-byvam-na-javorovej.why": {
+    "en": "**Na** + “where?” takes the locative, and ulica (after c) takes **-i**: na Javorovej **ulici**.",
+    "t": "**Na** с вопросом «где?» требует предложного падежа, а ulica (после c) получает **-i**: na Javorovej **ulici**."
+  },
+  "a2-u6-l10.choice-emmin-formular.question": {
+    "en": "Emma's form. Where was she born?",
+    "t": "Анкета Эммы. Где она родилась?"
+  },
+  "a2-u6-l10.choice-emmin-formular.options": {
+    "en": [
+      "In Bratislava.",
+      "In Dublin.",
+      "On Javorová Street."
+    ],
+    "t": [
+      "В Братиславе.",
+      "В Дублине.",
+      "На Яворовой улице."
+    ]
+  },
+  "a2-u6-l10.mailova-adresa.en": {
+    "en": "e-mail address",
+    "t": "адрес электронной почты"
+  },
+  "a2-u6-l10.mailova-adresa.note": {
+    "en": "You know **zavináč** (@) from unit 1; the dot is **bodka**: emma zavináč mail bodka sk.",
+    "t": "**zavináč** (@, наша «собака») вы знаете из раздела 1; точка — **bodka**: emma zavináč mail bodka sk."
+  },
+  "a2-u6-l10.build-aka-je-vasa-mailova.prompt": {
+    "en": "What's your e-mail address? (polite)",
+    "t": "Какой у вас адрес электронной почты?"
+  },
+  "a2-u6-l10.build-aka-je-vasa-mailova.traps": {
+    "en": [
+      "Adresa is feminine, so the question word matches it: **Aká**.",
+      "The adjective matches adresa, feminine: **mailová** adresa."
+    ],
+    "t": [
+      "Adresa — женского рода (хотя у нас «какой адрес»), поэтому и вопросительное слово женского рода: **Aká**.",
+      "Прилагательное согласуется с adresa, женский род: **mailová** adresa."
+    ]
+  },
+  "a2-u6-l10.choice-zavinac.question": {
+    "en": "Emma reads out her e-mail address. What is @ in Slovak?",
+    "t": "Эмма диктует свой адрес электронной почты. Как по-словацки @?"
+  },
+  "a2-u6-l10.prihlasit-sa.en": {
+    "en": "to sign up, to register",
+    "t": "записаться, зарегистрироваться"
+  },
+  "a2-u6-l10.prihlasit-sa.note": {
+    "en": "**prihlásiť sa na** + the object form: Prihlásila som sa na seminár. You know **prihláška** (a registration form) from A1.",
+    "t": "**prihlásiť sa na** + винительный падеж, как «записаться на что?»: Prihlásila som sa na seminár. = Я записалась на семинар. Слово **prihláška** (заявка) вы знаете с уровня A1."
+  },
+  "a2-u6-l10.fill-chcela-by-som-sa-prihlasit.en": {
+    "en": "I'd like to sign up for the seminar on Friday.",
+    "t": "Я хотела бы записаться на семинар в пятницу."
+  },
+  "a2-u6-l10.fill-chcela-by-som-sa-prihlasit.why": {
+    "en": "**Prihlásiť sa na** takes the object form; seminár is a masculine thing, so it stays the same: na **seminár**. Na seminári means at the seminar.",
+    "t": "**Prihlásiť sa na** требует винительного (на что?); seminár — неодушевлённое мужского рода, поэтому не меняется: na **seminár** — «на семинар». Na seminári значит «на семинаре»."
+  },
+  "a2-u6-l10.choice-emma-sa-prihlasuje.question": {
+    "en": "Emma's e-mail. Why is she writing?",
+    "t": "Письмо Эммы. Зачем она пишет?"
+  },
+  "a2-u6-l10.choice-emma-sa-prihlasuje.options": {
+    "en": [
+      "To book a room.",
+      "To cancel a meeting.",
+      "To sign up for the seminar."
+    ],
+    "t": [
+      "Чтобы забронировать номер.",
+      "Чтобы отменить встречу.",
+      "Чтобы записаться на семинар."
+    ]
+  },
+  "a2-u6-l10.vazeny-pan-inzinier.en": {
+    "en": "Dear Sir, (to a man with an engineer's title)",
+    "t": "Уважаемый пан инженер, (мужчине с титулом инженера)"
+  },
+  "a2-u6-l10.vazeny-pan-inzinier.note": {
+    "en": "Formal letters often use a title instead of the name: **Vážená pani inžinierka**, **Vážený pán riaditeľ**, **Vážená pani doktorka**.",
+    "t": "В официальных письмах часто пишут титул вместо фамилии: **Vážená pani inžinierka**, **Vážený pán riaditeľ** (директор), **Vážená pani doktorka**."
+  },
+  "a2-u6-l10.priloha.en": {
+    "en": "attachment",
+    "t": "вложение"
+  },
+  "a2-u6-l10.priloha.note": {
+    "en": "**V prílohe posielam** formulár. = Please find the form attached (**posielať** = to send). At a meal, a príloha is a side dish!",
+    "t": "**V prílohe posielam** formulár. = Высылаю бланк во вложении (**posielať** = посылать, отправлять). А за обедом príloha — это гарнир!"
+  },
+  "a2-u6-l10.build-v-prilohe-posielam.prompt": {
+    "en": "I'm sending the form as an attachment.",
+    "t": "Высылаю бланк во вложении."
+  },
+  "a2-u6-l10.build-v-prilohe-posielam.traps": {
+    "en": [
+      "In the attachment: **v** + the locative, -a becomes **-e**: v **prílohe**.",
+      "You're the one sending it: the ja form **posielam**. Posiela is he or she sends."
+    ],
+    "t": [
+      "«Во вложении» — **v** + предложный падеж, -a меняется на **-e**: v **prílohe**.",
+      "Отправляете вы — форма для ja: **posielam** — «посылаю». Posiela — «он или она посылает»."
+    ]
+  },
+  "a2-u6-l10.build-som-z-irska-a-pracujem.prompt": {
+    "en": "Emma introduces herself in the e-mail: “I'm from Ireland and I work as an intern.”",
+    "t": "Эмма представляется в письме: «Я из Ирландии и работаю стажёркой»."
+  },
+  "a2-u6-l10.build-som-z-irska-a-pracujem.traps": {
+    "en": [
+      "Emma is a woman, so it's **stážistka**. Stážista is a man.",
+      "**Z** (from) takes the genitive: z **Írska**, as in Som z Írska."
+    ],
+    "t": [
+      "Эмма — женщина, поэтому **stážistka**; stážista — мужчина. После ako — именительный падеж, хотя у нас «работаю стажёркой».",
+      "**Z** (из) требует родительного падежа: z **Írska** — «из Ирландии»."
+    ]
+  },
+  "a2-u6-l10.match-formular.pairs": {
+    "en": [
+      "form",
+      "address",
+      "surname",
+      "place of birth",
+      "@ (at)"
+    ],
+    "t": [
+      "бланк",
+      "адрес",
+      "фамилия",
+      "место рождения",
+      "@ (собака)"
+    ]
+  },
+  "a2-u6-l10.speak-aka-je-vasa-adresa.en": {
+    "en": "What's your address?",
+    "t": "Какой у вас адрес?"
+  },
+  "a2-u6-l11.titleEn": {
+    "en": "Text messages",
+    "t": "Эсэмэски"
+  },
+  "a2-u6-l11.esemeska.en": {
+    "en": "text message",
+    "t": "эсэмэска, СМС"
+  },
+  "a2-u6-l11.esemeska.note": {
+    "en": "**Napíš mi esemesku!** = Text me! **esemeskovať** = to text (informal).",
+    "t": "**Napíš mi esemesku!** = Напиши мне эсэмэску! **esemeskovať** = переписываться эсэмэсками (разговорное)."
+  },
+  "a2-u6-l11.fill-napis-mi-esemesku.en": {
+    "en": "I can't talk now. Text me!",
+    "t": "Я сейчас не могу говорить. Напиши мне эсэмэску!"
+  },
+  "a2-u6-l11.fill-napis-mi-esemesku.why": {
+    "en": "The text is what you write, the object, so -a becomes **-u**: napíš mi **esemesku**.",
+    "t": "Эсэмэску пишут — это дополнение, поэтому -a меняется на **-u**, как и у нас: napíš mi **esemesku**."
+  },
+  "a2-u6-l11.budem-meskat.en": {
+    "en": "I'll be late.",
+    "t": "Я опоздаю."
+  },
+  "a2-u6-l11.budem-meskat.note": {
+    "en": "**meškať** = to be late. **Prepáč, nehnevaj sa, budem meškať desať minút.** = Sorry, don't be cross, I'll be ten minutes late.",
+    "t": "**meškať** = опаздывать. **Prepáč, nehnevaj sa, budem meškať desať minút.** = Извини, не сердись, я опоздаю на десять минут."
+  },
+  "a2-u6-l11.choice-prepac-budem-meskat.question": {
+    "en": "Emma is still on the tram, and she's meeting Lucia at five. What does she text?",
+    "t": "Эмма ещё в трамвае, а с Луцией они встречаются в пять. Что она напишет?"
+  },
+  "a2-u6-l11.choice-prepac-budem-meskat.why": {
+    "en": "Lucia is a friend, so it's **Prepáč** (ty); Prepáčte is for vy. And from five up it's **minút**: desať minút.",
+    "t": "Луция — подруга, поэтому **Prepáč** (на «ты»); Prepáčte — на «вы». А начиная с пяти — **minút**, как «десять минут»: desať minút."
+  },
+  "a2-u6-l11.nestiham.en": {
+    "en": "I can't make it. / I'm running late.",
+    "t": "Не успеваю."
+  },
+  "a2-u6-l11.nestiham.note": {
+    "en": "**stíhať** = to keep up, to make it in time (you know **stihnúť** from A1). To move a meeting: **O tretej nestíham. Môžeme sa stretnúť o štvrtej?**",
+    "t": "**stíhať** = успевать (**stihnúť** вы знаете с уровня A1). Чтобы перенести встречу: **O tretej nestíham. Môžeme sa stretnúť o štvrtej?** = В три не успеваю. Можем встретиться в четыре?"
+  },
+  "a2-u6-l11.build-o-tretej-nestiham.prompt": {
+    "en": "I can't make it at three. Can we meet at four?",
+    "t": "В три я не успеваю. Можем встретиться в четыре?"
+  },
+  "a2-u6-l11.build-o-tretej-nestiham.traps": {
+    "en": [
+      "At three: **o** + the -ej form, o **tretej**.",
+      "After môžeme comes the infinitive: môžeme sa **stretnúť**."
+    ],
+    "t": [
+      "«В три» — **o** + форма на -ej: o **tretej**.",
+      "После môžeme — инфинитив: môžeme sa **stretnúť** — «можем встретиться»."
+    ]
+  },
+  "a2-u6-l11.musim-zrusit-stretnutie.en": {
+    "en": "I have to cancel our meeting.",
+    "t": "Мне нужно отменить встречу."
+  },
+  "a2-u6-l11.musim-zrusit-stretnutie.note": {
+    "en": "**zrušiť** = to cancel. Give a reason with pretože: Musím zrušiť **dnešné** (today's) stretnutie, pretože mám poradu.",
+    "t": "**zrušiť** = отменить. Причину называют с pretože (потому что): Musím zrušiť **dnešné** (сегодняшнюю) stretnutie, pretože mám poradu."
+  },
+  "a2-u6-l11.fill-pretoze-som-chora.en": {
+    "en": "Emma: “I have to cancel today's meeting because I'm ill.”",
+    "t": "Эмма: «Мне нужно отменить сегодняшнюю встречу, потому что я больна»."
+  },
+  "a2-u6-l11.fill-pretoze-som-chora.why": {
+    "en": "Emma is a woman, so the adjective ends in **-á**: som **chorá**.",
+    "t": "Эмма — женщина, поэтому прилагательное на **-á**: som **chorá** — «я больна»."
+  },
+  "a2-u6-l11.dik-za-ponuku.en": {
+    "en": "Thanks for the offer!",
+    "t": "Спасибо за предложение!"
+  },
+  "a2-u6-l11.dik-za-ponuku.note": {
+    "en": "**dík** = thanks (informal, mostly in texts); **ponuka** = an offer. **Super nápad!** = Great idea!",
+    "t": "**dík** = спасибо (разговорное, чаще в сообщениях); **ponuka** = предложение (то, что вам предлагают). **Super nápad!** = Отличная идея!"
+  },
+  "a2-u6-l11.match-plati.pairs": {
+    "en": [
+      "Deal!",
+      "Sure!",
+      "I can't make it.",
+      "I'll be late.",
+      "to text"
+    ],
+    "t": [
+      "Договорились!",
+      "Конечно!",
+      "Не успеваю.",
+      "Я опоздаю.",
+      "переписываться эсэмэсками"
+    ]
+  },
+  "a2-u6-l11.choice-ahoj-dnes-nestiham.question": {
+    "en": "A text from Tomáš. What does he want?",
+    "t": "Сообщение от Томаша. Чего он хочет?"
+  },
+  "a2-u6-l11.choice-ahoj-dnes-nestiham.options": {
+    "en": [
+      "To cancel the trip.",
+      "To meet at his meeting.",
+      "To meet tomorrow instead."
+    ],
+    "t": [
+      "Отменить поездку.",
+      "Встретиться у него на совещании.",
+      "Встретиться завтра, а не сегодня."
+    ]
+  },
+  "a2-u6-l11.fill-prepac-nehnevaj-sa.en": {
+    "en": "Sorry, don't be cross! I'll be late.",
+    "t": "Извини, не сердись! Я опоздаю."
+  },
+  "a2-u6-l11.fill-prepac-nehnevaj-sa.why": {
+    "en": "To a friend, the ty form: **nehnevaj** sa. Nehnevajte sa is for vy, and hnevaj sa would mean “be cross!”.",
+    "t": "Другу — форма для ty: **nehnevaj** sa — «не сердись». Nehnevajte sa — на «вы», а hnevaj sa значило бы «сердись!»."
+  },
+  "a2-u6-l11.build-dik-za-ponuku.prompt": {
+    "en": "Thanks for the offer, great idea!",
+    "t": "Спасибо за предложение, отличная идея!"
+  },
+  "a2-u6-l11.build-dik-za-ponuku.traps": {
+    "en": [
+      "**Za** in a thank-you takes the object form: za **ponuku**, like Ďakujem za darček.",
+      "One idea: **nápad**. Nápady is the plural."
+    ],
+    "t": [
+      "**Za** в благодарности требует винительного, как и у нас: za **ponuku** — «за предложение», как Ďakujem za darček.",
+      "Одна идея — **nápad**. Nápady — множественное число."
+    ]
+  },
+  "a2-u6-l11.choice-stihas-to-o-piatej.question": {
+    "en": "A text from Lucia. What is she asking?",
+    "t": "Сообщение от Луции. О чём она спрашивает?"
+  },
+  "a2-u6-l11.choice-stihas-to-o-piatej.options": {
+    "en": [
+      "Can you make it at five?",
+      "Are you going to be late?",
+      "Did you cancel at five?"
+    ],
+    "t": [
+      "Ты успеешь к пяти?",
+      "Ты опоздаешь?",
+      "Ты отменила встречу в пять?"
+    ]
+  },
+  "a2-u6-l11.build-musim-zrusit-stretnutie.answers": {
+    "en": [
+      "I have to cancel the meeting because I'm ill.",
+      "I have to cancel our meeting because I'm ill.",
+      "I must cancel the meeting because I'm ill.",
+      "I need to cancel the meeting because I'm ill."
+    ],
+    "t": [
+      "Мне нужно отменить встречу, потому что я больна.",
+      "Мне нужно отменить встречу, потому что я заболела.",
+      "Я должна отменить встречу, потому что я больна.",
+      "Мне придётся отменить встречу, потому что я больна."
+    ]
+  },
+  "a2-u6-l11.build-musim-zrusit-stretnutie.distractors": {
+    "en": [
+      "tired",
+      "move"
+    ],
+    "t": [
+      "устала",
+      "перенести"
+    ]
+  },
+  "a2-u6-l11.choice-jasne-plati.question": {
+    "en": "Marek texts: “Kino o ôsmej?” Which answer says yes?",
+    "t": "Марек пишет: «Kino o ôsmej?» Какой ответ значит «да»?"
+  },
+  "a2-u6-l11.speak-prepac-budem-meskat.en": {
+    "en": "Sorry, I'll be late.",
+    "t": "Извини, я опоздаю."
+  },
+  "a2-u6-l12.titleEn": {
+    "en": "Imperatives that change",
+    "t": "Повелительные формы с изменениями"
+  },
+  "a2-u6-l12.grammar-soft-endings.title": {
+    "en": "d, t, n go soft: príď, vráť, zostaň",
+    "t": "d, t, n смягчаются: príď, vráť, zostaň"
+  },
+  "a2-u6-l12.grammar-soft-endings.body": {
+    "en": [
+      "When the stem ends in **d**, **t** or **n**, the ty form softens it to **ď**, **ť**, **ň**: prídu → **príď**, vrátia sa → **vráť sa**, zostanú → **zostaň** (zostať = to stay).",
+      "The vy and my forms keep the soft letter: príď**te**, príď**me**."
+    ],
+    "t": [
+      "Если основа кончается на **d**, **t** или **n**, в форме для ty они смягчаются в **ď**, **ť**, **ň** (как дь, ть, нь): prídu → **príď**, vrátia sa → **vráť sa**, zostanú → **zostaň** (zostať = остаться). Сравните русские «сядь», «встань».",
+      "В формах для vy и my мягкость сохраняется: príď**te**, príď**me**."
+    ]
+  },
+  "a2-u6-l12.grammar-soft-endings.table.head": {
+    "en": [
+      "oni",
+      "ty",
+      "vy",
+      "my"
+    ],
+    "t": [
+      "oni",
+      "ty",
+      "vy",
+      "my"
+    ]
+  },
+  "a2-u6-l12.grammar-soft-endings.table.rows": {
+    "en": [
+      [
+        "prídu",
+        "prí**ď**",
+        "prí**ď**te",
+        "prí**ď**me"
+      ],
+      [
+        "vrátia sa",
+        "vrá**ť** sa",
+        "vrá**ť**te sa",
+        "vrá**ť**me sa"
+      ],
+      [
+        "zaplatia",
+        "zapla**ť**",
+        "zapla**ť**te",
+        "zapla**ť**me"
+      ],
+      [
+        "zostanú",
+        "zosta**ň**",
+        "zosta**ň**te",
+        "zosta**ň**me"
+      ],
+      [
+        "sedia",
+        "se**ď**",
+        "se**ď**te",
+        "se**ď**me"
+      ]
+    ],
+    "t": [
+      [
+        "prídu",
+        "prí**ď**",
+        "prí**ď**te",
+        "prí**ď**me"
+      ],
+      [
+        "vrátia sa",
+        "vrá**ť** sa",
+        "vrá**ť**te sa",
+        "vrá**ť**me sa"
+      ],
+      [
+        "zaplatia",
+        "zapla**ť**",
+        "zapla**ť**te",
+        "zapla**ť**me"
+      ],
+      [
+        "zostanú",
+        "zosta**ň**",
+        "zosta**ň**te",
+        "zosta**ň**me"
+      ],
+      [
+        "sedia",
+        "se**ď**",
+        "se**ď**te",
+        "se**ď**me"
+      ]
+    ]
+  },
+  "a2-u6-l12.grammar-soft-endings.examples": {
+    "en": [
+      "Come at seven tomorrow!",
+      "Please stay a moment."
+    ],
+    "t": [
+      "Приходи завтра в семь!",
+      "Останьтесь ненадолго, пожалуйста."
+    ]
+  },
+  "a2-u6-l12.fill-emma-prid-zajtra.en": {
+    "en": "Emma, come to reception at nine tomorrow!",
+    "t": "Эмма, приходи завтра в девять на ресепшен!"
+  },
+  "a2-u6-l12.fill-emma-prid-zajtra.why": {
+    "en": "Prísť → prídu: the stem ends in d, which softens: **príď**. Prídeš means you'll come.",
+    "t": "Prísť → prídu: основа кончается на d, и оно смягчается: **príď** — «приходи». Prídeš значит «ты придёшь»."
+  },
+  "a2-u6-l12.fill-lucia-zaplat-za-kavu.en": {
+    "en": "Lucia, please pay for the coffee, I'll pay for lunch.",
+    "t": "Луция, заплати, пожалуйста, за кофе, а я заплачу за обед."
+  },
+  "a2-u6-l12.fill-lucia-zaplat-za-kavu.why": {
+    "en": "Zaplatiť → zaplatia: the t softens to ť: **zaplať**. Zaplatí means he or she pays.",
+    "t": "Zaplatiť → zaplatia: t смягчается в ť: **zaplať** — «заплати». Zaplatí значит «он или она заплатит»."
+  },
+  "a2-u6-l12.fill-zostante-tu-prosim.en": {
+    "en": "Mr Hudák will be here in a moment. Please stay here.",
+    "t": "Пан Гудак сейчас придёт. Останьтесь здесь, пожалуйста."
+  },
+  "a2-u6-l12.fill-zostante-tu-prosim.why": {
+    "en": "Zostať → zostanú: n softens to ň, and for vy add -te: **Zostaňte**. Zostanete means you will stay; zostaň is for a friend.",
+    "t": "Zostať → zostanú: n смягчается в ň, а для vy добавляется -te: **Zostaňte** — «останьтесь». Zostanete значит «вы останетесь», а zostaň — для друга."
+  },
+  "a2-u6-l12.build-vrat-sa-o-siestej.prompt": {
+    "en": "Come back at six! (to a friend)",
+    "t": "Вернись в шесть!"
+  },
+  "a2-u6-l12.build-vrat-sa-o-siestej.traps": {
+    "en": [
+      "Vrátia → **Vráť**: the t softens, with no ending for ty. Vráti means he or she comes back.",
+      "At six: o + the -ej form: o **šiestej**."
+    ],
+    "t": [
+      "Vrátia → **Vráť**: t смягчается, а для ty окончания нет — «вернись». Vráti значит «он или она вернётся».",
+      "«В шесть» — o + форма на -ej: o **šiestej**."
+    ]
+  },
+  "a2-u6-l12.grammar-two-consonants-i.title": {
+    "en": "Two consonants: add -i",
+    "t": "Две согласные в конце: добавьте -i"
+  },
+  "a2-u6-l12.grammar-two-consonants-i.body": {
+    "en": [
+      "If the stem ends in two consonants, the ty form adds **-i**: pošl**ú** → pošl**i**, sadn**ú** si → sadn**i** si. Then -te and -me go after the -i: pošli**te**, pošli**me**.",
+      "Sa and si stay right after the verb: **Sadni si!** **Ozvi sa!**"
+    ],
+    "t": [
+      "Если основа кончается на две согласные, в форме для ty добавляется **-i** — точно как в русском «пошлют → пошли»: pošl**ú** → pošl**i**, sadn**ú** si → sadn**i** si. Потом -te и -me ставятся после -i: pošli**te**, pošli**me**.",
+      "Sa и si стоят сразу после глагола: **Sadni si!** (Сядь!) **Ozvi sa!** (Дай о себе знать!)"
+    ]
+  },
+  "a2-u6-l12.grammar-two-consonants-i.table.caption": {
+    "en": "poslať = to send, sadnúť si = to sit down, ozvať sa = to get in touch, vziať si = to take, vysvetliť = to explain, navrhnúť = to suggest",
+    "t": "poslať = послать, sadnúť si = сесть, ozvať sa = дать о себе знать, vziať si = взять, vysvetliť = объяснить, navrhnúť = предложить"
+  },
+  "a2-u6-l12.grammar-two-consonants-i.table.head": {
+    "en": [
+      "oni",
+      "ty",
+      "vy",
+      "my"
+    ],
+    "t": [
+      "oni",
+      "ty",
+      "vy",
+      "my"
+    ]
+  },
+  "a2-u6-l12.grammar-two-consonants-i.table.rows": {
+    "en": [
+      [
+        "pošlú",
+        "pošl**i**",
+        "pošl**i**te",
+        "pošl**i**me"
+      ],
+      [
+        "sadnú si",
+        "sadn**i** si",
+        "sadn**i**te si",
+        "sadn**i**me si"
+      ],
+      [
+        "ozvú sa",
+        "ozv**i** sa",
+        "ozv**i**te sa",
+        "ozv**i**me sa"
+      ],
+      [
+        "vezmú si",
+        "vezm**i** si",
+        "vezm**i**te si",
+        "vezm**i**me si"
+      ],
+      [
+        "vysvetlia",
+        "vysvetl**i**",
+        "vysvetl**i**te",
+        "vysvetl**i**me"
+      ],
+      [
+        "navrhnú",
+        "navrhn**i**",
+        "navrhn**i**te",
+        "navrhn**i**me"
+      ],
+      [
+        "premyslia si",
+        "premysl**i** si",
+        "premysl**i**te si",
+        "premysl**i**me si"
+      ]
+    ],
+    "t": [
+      [
+        "pošlú",
+        "pošl**i**",
+        "pošl**i**te",
+        "pošl**i**me"
+      ],
+      [
+        "sadnú si",
+        "sadn**i** si",
+        "sadn**i**te si",
+        "sadn**i**me si"
+      ],
+      [
+        "ozvú sa",
+        "ozv**i** sa",
+        "ozv**i**te sa",
+        "ozv**i**me sa"
+      ],
+      [
+        "vezmú si",
+        "vezm**i** si",
+        "vezm**i**te si",
+        "vezm**i**me si"
+      ],
+      [
+        "vysvetlia",
+        "vysvetl**i**",
+        "vysvetl**i**te",
+        "vysvetl**i**me"
+      ],
+      [
+        "navrhnú",
+        "navrhn**i**",
+        "navrhn**i**te",
+        "navrhn**i**me"
+      ],
+      [
+        "premyslia si",
+        "premysl**i** si",
+        "premysl**i**te si",
+        "premysl**i**me si"
+      ]
+    ]
+  },
+  "a2-u6-l12.grammar-two-consonants-i.examples": {
+    "en": [
+      "Send me the address.",
+      "Please sit down.",
+      "Get back to me tomorrow."
+    ],
+    "t": [
+      "Пришли мне адрес.",
+      "Садитесь, пожалуйста.",
+      "Дай мне знать завтра."
+    ]
+  },
+  "a2-u6-l12.fill-plati-to-ozvi-sa.en": {
+    "en": "Is it on? Get back to me this evening.",
+    "t": "Всё в силе? Дай мне знать сегодня вечером."
+  },
+  "a2-u6-l12.fill-plati-to-ozvi-sa.why": {
+    "en": "Ozvať sa → ozvú sa: the stem ozv- ends in two consonants, so add **-i**: **Ozvi** sa.",
+    "t": "Ozvať sa → ozvú sa: основа ozv- кончается на две согласные, поэтому добавляется **-i**: **Ozvi** sa — как «отзовись»."
+  },
+  "a2-u6-l12.fill-pani-kollarova-sadnite-si.en": {
+    "en": "Mrs Kollárová, please sit down.",
+    "t": "Госпожа Колларова, садитесь, пожалуйста."
+  },
+  "a2-u6-l12.fill-pani-kollarova-sadnite-si.why": {
+    "en": "For vy, -te goes after the -i: **sadnite** si. Sadni si is for a friend.",
+    "t": "Для vy -te ставится после -i: **sadnite** si — «садитесь». Sadni si — для друга."
+  },
+  "a2-u6-l12.choice-posli-mi-adresu.question": {
+    "en": "Lucia wants Tomáš to send her the guesthouse's address. What does she say?",
+    "t": "Луция хочет, чтобы Томаш прислал ей адрес пансиона. Что она скажет?"
+  },
+  "a2-u6-l12.choice-posli-mi-adresu.why": {
+    "en": "Poslať → pošlú: the stem pošl- ends in two consonants, so add **-i**: **Pošli**. Pošle means he or she sends.",
+    "t": "Poslať → pošlú: основа pošl- кончается на две согласные, поэтому добавляется **-i**: **Pošli** — точно как «пошли!». Pošle — «он или она пошлёт»."
+  },
+  "a2-u6-l12.build-vysvetlite-mi-to.prompt": {
+    "en": "Please explain it to me. (polite)",
+    "t": "Объясните мне это, пожалуйста."
+  },
+  "a2-u6-l12.build-vysvetlite-mi-to.traps": {
+    "en": [
+      "Vysvetlíte, with a long í, means you will explain. The request is **Vysvetlite**: vysvetli + -te.",
+      "Vysvetli is for a friend; to someone you call vy, add -te: **Vysvetlite**."
+    ],
+    "t": [
+      "Vysvetlíte, с долгим í, значит «вы объясните». Просьба — **Vysvetlite**: vysvetli + -te, как «объясни → объясните».",
+      "Vysvetli — для друга; на «вы» добавьте -te: **Vysvetlite**."
+    ]
+  },
+  "a2-u6-l12.choice-premysli-si-to.question": {
+    "en": "Which one means “Think it over”?",
+    "t": "Какой вариант значит «Подумай об этом»?"
+  },
+  "a2-u6-l12.choice-premysli-si-to.why": {
+    "en": "**Premysli** is the command: the stem premysl- ends in two consonants, so it adds -i. Premyslím means I'll think it over.",
+    "t": "**Premysli** — повелительная форма: основа premysl- кончается на две согласные, поэтому добавляется -i. Premyslím значит «я подумаю»."
+  },
+  "a2-u6-l12.match-prid.pairs": {
+    "en": [
+      "come!",
+      "send!",
+      "sit down!",
+      "get in touch!",
+      "stay!"
+    ],
+    "t": [
+      "приходи!",
+      "пошли!",
+      "сядь!",
+      "дай о себе знать!",
+      "останься!"
+    ]
+  },
+  "a2-u6-l12.build-sadnite-si-a-vezmite.answers": {
+    "en": [
+      "Sit down and have a coffee.",
+      "Sit down and take a coffee.",
+      "Have a seat and have a coffee.",
+      "Take a seat and have a coffee.",
+      "Sit down and help yourself to a coffee."
+    ],
+    "t": [
+      "Садитесь и возьмите кофе.",
+      "Садитесь и возьмите себе кофе.",
+      "Присаживайтесь и возьмите кофе.",
+      "Садитесь и угощайтесь кофе."
+    ]
+  },
+  "a2-u6-l12.build-sadnite-si-a-vezmite.distractors": {
+    "en": [
+      "stand",
+      "tea"
+    ],
+    "t": [
+      "встаньте",
+      "чай"
+    ]
+  },
+  "a2-u6-l12.speak-prid-o-siedmej.en": {
+    "en": "Come at seven!",
+    "t": "Приходи в семь!"
+  },
+  "a2-u6-l13.titleEn": {
+    "en": "Irregular imperatives",
+    "t": "Особые повелительные формы"
+  },
+  "a2-u6-l13.grammar-irregular-imperatives.title": {
+    "en": "Learn these by heart: povedz, jedz, pi, buď",
+    "t": "Выучите наизусть: povedz, jedz, pi, buď"
+  },
+  "a2-u6-l13.grammar-irregular-imperatives.body": {
+    "en": [
+      "A few common verbs have their own imperative: learn them as words. The vy and my forms add -te and -me as usual."
+    ],
+    "t": [
+      "У нескольких частых глаголов своя повелительная форма — учите их как отдельные слова, как и русские «скажи», «ешь», «пей», «будь». Формы для vy и my, как обычно, добавляют -te и -me."
+    ]
+  },
+  "a2-u6-l13.grammar-irregular-imperatives.table.head": {
+    "en": [
+      "",
+      "ty",
+      "vy",
+      "my"
+    ],
+    "t": [
+      "",
+      "ty",
+      "vy",
+      "my"
+    ]
+  },
+  "a2-u6-l13.grammar-irregular-imperatives.table.rows": {
+    "en": [
+      [
+        "povedať",
+        "povedz",
+        "povedz**te**",
+        "povedz**me**"
+      ],
+      [
+        "jesť",
+        "jedz",
+        "jedz**te**",
+        "jedz**me**"
+      ],
+      [
+        "piť",
+        "pi",
+        "pi**te**",
+        "pi**me**"
+      ],
+      [
+        "byť",
+        "buď",
+        "buď**te**",
+        "buď**me**"
+      ],
+      [
+        "umyť si",
+        "umy si",
+        "umy**te** si",
+        "umy**me** si"
+      ]
+    ],
+    "t": [
+      [
+        "povedať",
+        "povedz",
+        "povedz**te**",
+        "povedz**me**"
+      ],
+      [
+        "jesť",
+        "jedz",
+        "jedz**te**",
+        "jedz**me**"
+      ],
+      [
+        "piť",
+        "pi",
+        "pi**te**",
+        "pi**me**"
+      ],
+      [
+        "byť",
+        "buď",
+        "buď**te**",
+        "buď**me**"
+      ],
+      [
+        "umyť si",
+        "umy si",
+        "umy**te** si",
+        "umy**me** si"
+      ]
+    ]
+  },
+  "a2-u6-l13.grammar-irregular-imperatives.examples": {
+    "en": [
+      "Tell me when you're coming.",
+      "Please be here at nine.",
+      "Wash your hands!"
+    ],
+    "t": [
+      "Скажи мне, когда ты придёшь.",
+      "Будьте здесь в девять, пожалуйста.",
+      "Вымой руки!"
+    ]
+  },
+  "a2-u6-l13.fill-povedz-mi-kde.en": {
+    "en": "Tell me where the reception is.",
+    "t": "Скажи мне, где ресепшен."
+  },
+  "a2-u6-l13.fill-povedz-mi-kde.why": {
+    "en": "Povedať has its own short command: **Povedz**. Povieš means you'll tell.",
+    "t": "У povedať своя короткая повелительная форма: **Povedz** — «скажи». Povieš значит «ты скажешь»."
+  },
+  "a2-u6-l13.fill-deti-umyte-si-ruky.en": {
+    "en": "Children, wash your hands!",
+    "t": "Дети, вымойте руки!"
+  },
+  "a2-u6-l13.fill-deti-umyte-si-ruky.why": {
+    "en": "To several people: umy + **-te** = **umyte** si ruky. Umy si is for one child.",
+    "t": "Нескольким людям: umy + **-te** = **umyte** si ruky — «вымойте руки». Umy si — одному ребёнку."
+  },
+  "a2-u6-l13.choice-pi-vela-caju.question": {
+    "en": "Lucia has a cold. What does Emma tell her?",
+    "t": "Луция простудилась. Что ей скажет Эмма?"
+  },
+  "a2-u6-l13.choice-pi-vela-caju.why": {
+    "en": "Piť has a short command: **pi**, with no j. Piješ just says you drink.",
+    "t": "У piť короткая повелительная форма: **pi**, без j (хотя у нас «пей»). Piješ просто значит «ты пьёшь»."
+  },
+  "a2-u6-l13.fill-zajtra-mas-pohovor-bud.en": {
+    "en": "You've got an interview tomorrow. Be there at nine!",
+    "t": "Завтра у тебя собеседование. Будь там в девять!"
+  },
+  "a2-u6-l13.fill-zajtra-mas-pohovor-bud.why": {
+    "en": "Byť has its own command: **Buď**. Bude is the future, and si is now.",
+    "t": "У byť своя повелительная форма: **Buď** — как «будь». Bude — будущее время, а si — настоящее."
+  },
+  "a2-u6-l13.grammar-chod-or-pod.title": {
+    "en": "Choď or poď?",
+    "t": "Choď или poď?"
+  },
+  "a2-u6-l13.grammar-chod-or-pod.body": {
+    "en": [
+      "Ísť has two imperatives. **Choď** sends someone away from you: Choď domov! **Poď** asks them to come with you or to you: **Poď sem!** (Come here!)",
+      "For “let's go”, only poď has a my form: **Poďme!** You know Poďte ďalej! and Choďte rovno from A1."
+    ],
+    "t": [
+      "У ísť две повелительные формы, а в русском на обе одно «иди». **Choď** отправляет человека от вас: Choď domov! (Иди домой!) **Poď** зовёт к себе или с собой: **Poď sem!** (Иди сюда!)",
+      "Для «пойдём» форма my есть только у poď: **Poďme!** Poďte ďalej! (Проходите!) и Choďte rovno (Идите прямо) вы знаете с уровня A1."
+    ]
+  },
+  "a2-u6-l13.grammar-chod-or-pod.table.head": {
+    "en": [
+      "",
+      "ty",
+      "vy",
+      "my"
+    ],
+    "t": [
+      "",
+      "ty",
+      "vy",
+      "my"
+    ]
+  },
+  "a2-u6-l13.grammar-chod-or-pod.table.rows": {
+    "en": [
+      [
+        "go (away from me)",
+        "choď",
+        "choďte",
+        "–"
+      ],
+      [
+        "come (with me, to me)",
+        "poď",
+        "poďte",
+        "poďme"
+      ]
+    ],
+    "t": [
+      [
+        "иди (от меня)",
+        "choď",
+        "choďte",
+        "–"
+      ],
+      [
+        "иди (ко мне, со мной)",
+        "poď",
+        "poďte",
+        "poďme"
+      ]
+    ]
+  },
+  "a2-u6-l13.grammar-chod-or-pod.examples": {
+    "en": [
+      "Come here!",
+      "Go away!",
+      "Let's go to the cinema!"
+    ],
+    "t": [
+      "Иди сюда!",
+      "Уходи!",
+      "Пойдём в кино!"
+    ]
+  },
+  "a2-u6-l13.fill-lucia-pod-sem.en": {
+    "en": "Lucia, come here! This is Tomáš's office.",
+    "t": "Луция, иди сюда! Это кабинет Томаша."
+  },
+  "a2-u6-l13.fill-lucia-pod-sem.why": {
+    "en": "Coming towards the speaker is **poď**: Poď sem! Choď sends someone away.",
+    "t": "Движение к говорящему — **poď**: Poď sem! (Иди сюда!) Choď отправляет от себя."
+  },
+  "a2-u6-l13.fill-je-dvanast-hodin-podme.en": {
+    "en": "It's twelve o'clock. Let's go for lunch!",
+    "t": "Двенадцать часов. Пойдёмте обедать!"
+  },
+  "a2-u6-l13.fill-je-dvanast-hodin-podme.why": {
+    "en": "**Poďme** is “let's go”, the my form of poď.",
+    "t": "**Poďme** — «пойдём, пойдёмте», форма для my от poď."
+  },
+  "a2-u6-l13.choice-chod-prec.question": {
+    "en": "A cat walks into the office kitchen and wants your lunch. What do you tell it?",
+    "t": "На офисную кухню заходит кошка и хочет ваш обед. Что вы ей скажете?"
+  },
+  "a2-u6-l13.choice-chod-prec.why": {
+    "en": "Away from you is **choď**: Choď preč! Poď means come, with you or to you.",
+    "t": "Прочь от себя — **choď**: Choď preč! (Уходи!) Poď значит «иди сюда, иди со мной»."
+  },
+  "a2-u6-l13.build-pod-dalej-a-sadni.prompt": {
+    "en": "Come in and sit down. (to a friend)",
+    "t": "Проходи и садись."
+  },
+  "a2-u6-l13.build-pod-dalej-a-sadni.traps": {
+    "en": [
+      "Coming in, towards you, is **Poď** ďalej, like Poďte ďalej from A1.",
+      "To one friend: **sadni** si. Sadnite is for vy."
+    ],
+    "t": [
+      "Войти, то есть подойти к вам, — **Poď** ďalej, как Poďte ďalej с уровня A1.",
+      "Одному другу: **sadni** si. Sadnite — для vy."
+    ]
+  },
+  "a2-u6-l13.build-povedz-mu-aby.prompt": {
+    "en": "Tell him to call me. (to a friend)",
+    "t": "Скажи ему, чтобы он мне позвонил."
+  },
+  "a2-u6-l13.build-povedz-mu-aby.traps": {
+    "en": [
+      "To a friend (ty): **Povedz**. Povedzte is for vy.",
+      "After **aby**, the past form: aby mi **zavolal**."
+    ],
+    "t": [
+      "Другу (ty): **Povedz** — «скажи». Povedzte — для vy.",
+      "После **aby** — прошедшее время, как после «чтобы»: aby mi **zavolal** — «чтобы он мне позвонил»."
+    ]
+  },
+  "a2-u6-l13.fill-polievka-je-horuca-jedzte.en": {
+    "en": "The soup's hot. Please eat slowly! (to the guests)",
+    "t": "Суп горячий. Ешьте медленно, пожалуйста! (гостям)"
+  },
+  "a2-u6-l13.fill-polievka-je-horuca-jedzte.why": {
+    "en": "Jesť has its own command, jedz, and for vy add -te: **Jedzte**. Jete just says you eat.",
+    "t": "У jesť своя повелительная форма, jedz (как наше «ешь»), а для vy добавьте -te: **Jedzte** — «ешьте». Jete просто значит «вы едите»."
+  },
+  "a2-u6-l13.match-povedz.pairs": {
+    "en": [
+      "tell!",
+      "eat!",
+      "drink!",
+      "be!",
+      "come!"
+    ],
+    "t": [
+      "скажи!",
+      "ешь!",
+      "пей!",
+      "будь!",
+      "иди сюда!"
+    ]
+  },
+  "a2-u6-l13.speak-podme-na-obed.en": {
+    "en": "Let's go for lunch!",
+    "t": "Пойдём на обед!"
+  },
+  "a2-u6-l14.titleEn": {
+    "en": "Don't!",
+    "t": "Не надо!"
+  },
+  "a2-u6-l14.grammar-negative-imperative.title": {
+    "en": "Don't: ne- + the imperative",
+    "t": "Не делай: ne- + повелительная форма"
+  },
+  "a2-u6-l14.grammar-negative-imperative.body": {
+    "en": [
+      "To say “don't”, put **ne-** in front, written as one word: **Ne**čakaj! **Ne**meškajte! **Ne**hnevaj sa!",
+      "Verbs for one finished action, like zavolať, napísať and kúpiť, usually say “don't” with their everyday partner verb instead: zavolaj → **nevolaj**, napíš → **nepíš**, kúp → **nekupuj** (kupovať = to buy). But **Nezabudni!** (Don't forget!) is a warning and keeps its verb."
+    ],
+    "t": [
+      "Чтобы сказать «не…», поставьте впереди **ne-**, слитно: **Ne**čakaj! **Ne**meškajte! **Ne**hnevaj sa! (Не жди! Не опаздывайте! Не сердись!)",
+      "Как и в русском, глагол совершенного вида в запрете обычно меняется на парный несовершенный: zavolaj → **nevolaj** (позвони → не звони), napíš → **nepíš**, kúp → **nekupuj** (kupovať = покупать). Но предостережение **Nezabudni!** (Не забудь!) сохраняет свой глагол — тоже как у нас."
+    ]
+  },
+  "a2-u6-l14.grammar-negative-imperative.table.head": {
+    "en": [
+      "do it",
+      "don't"
+    ],
+    "t": [
+      "делай",
+      "не делай"
+    ]
+  },
+  "a2-u6-l14.grammar-negative-imperative.table.rows": {
+    "en": [
+      [
+        "čakaj",
+        "**ne**čakaj"
+      ],
+      [
+        "meškajte",
+        "**ne**meškajte"
+      ],
+      [
+        "zavolaj",
+        "**ne**volaj"
+      ],
+      [
+        "napíš",
+        "**ne**píš"
+      ],
+      [
+        "kúp",
+        "**ne**kupuj"
+      ],
+      [
+        "povedz",
+        "**ne**hovor"
+      ],
+      [
+        "pošli",
+        "**ne**posielaj"
+      ]
+    ],
+    "t": [
+      [
+        "čakaj",
+        "**ne**čakaj"
+      ],
+      [
+        "meškajte",
+        "**ne**meškajte"
+      ],
+      [
+        "zavolaj",
+        "**ne**volaj"
+      ],
+      [
+        "napíš",
+        "**ne**píš"
+      ],
+      [
+        "kúp",
+        "**ne**kupuj"
+      ],
+      [
+        "povedz",
+        "**ne**hovor"
+      ],
+      [
+        "pošli",
+        "**ne**posielaj"
+      ]
+    ]
+  },
+  "a2-u6-l14.grammar-negative-imperative.examples": {
+    "en": [
+      "Don't wait for me, I'll be late.",
+      "Don't forget Lucia's birthday!",
+      "Don't tell Lucia."
+    ],
+    "t": [
+      "Не жди меня, я приду позже.",
+      "Не забудь про день рождения Луции!",
+      "Не говори этого Луции."
+    ]
+  },
+  "a2-u6-l14.fill-tomas-ma-poradu-nevolaj.en": {
+    "en": "Tomáš is in a meeting. Don't call him now!",
+    "t": "У Томаша совещание. Не звони ему сейчас!"
+  },
+  "a2-u6-l14.fill-tomas-ma-poradu-nevolaj.why": {
+    "en": "“Don't” takes the everyday partner verb: zavolaj → **Nevolaj**.",
+    "t": "В запрете — парный несовершенный глагол, как и у нас: zavolaj → **Nevolaj**, «позвони → не звони»."
+  },
+  "a2-u6-l14.fill-nezabudni-na-stretnutie.en": {
+    "en": "Don't forget the meeting at three!",
+    "t": "Не забудь про встречу в три!"
+  },
+  "a2-u6-l14.fill-nezabudni-na-stretnutie.why": {
+    "en": "A warning: **Nezabudni** keeps its verb, with ne- in front. Zabudni would mean forget it!",
+    "t": "Это предостережение: **Nezabudni** сохраняет свой глагол, с ne- впереди, — как «не забудь». Zabudni значило бы «забудь!»."
+  },
+  "a2-u6-l14.choice-nekupuj-chlieb.question": {
+    "en": "Lucia wants to buy bread, but there's some at home. What do you say?",
+    "t": "Луция хочет купить хлеб, но он есть дома. Что вы скажете?"
+  },
+  "a2-u6-l14.choice-nekupuj-chlieb.why": {
+    "en": "“Don't buy” uses the partner verb kupovať: **nekupuj**. Nekupujem just says I'm not buying.",
+    "t": "«Не покупай» — с парным глаголом kupovať: **nekupuj**, как и у нас «купи → не покупай». Nekupujem просто значит «я не покупаю»."
+  },
+  "a2-u6-l14.fill-prepacte-nehnevajte-sa.en": {
+    "en": "I'm sorry, please don't be cross, but I have to go.",
+    "t": "Извините, не сердитесь, но мне надо идти."
+  },
+  "a2-u6-l14.fill-prepacte-nehnevajte-sa.why": {
+    "en": "To someone you call vy: ne- + hnevaj + -te = **nehnevajte** sa.",
+    "t": "Тому, с кем вы на «вы»: ne- + hnevaj + -te = **nehnevajte** sa — «не сердитесь»."
+  },
+  "a2-u6-l14.build-nepis-mu-zavolaj-mu.prompt": {
+    "en": "Don't write to him, call him. (to a friend)",
+    "t": "Не пиши ему, позвони ему."
+  },
+  "a2-u6-l14.build-nepis-mu-zavolaj-mu.traps": {
+    "en": [
+      "An everyday “don't write” uses the partner verb písať: **Nepíš**.",
+      "You're telling a friend to call: **zavolaj**. Zavolám means I'll call."
+    ],
+    "t": [
+      "Обычное «не пиши» — с парным глаголом písať: **Nepíš**, как и у нас «напиши → не пиши».",
+      "Вы просите друга позвонить: **zavolaj** — «позвони». Zavolám значит «я позвоню»."
+    ]
+  },
+  "a2-u6-l14.grammar-advice-vy.title": {
+    "en": "Advice and rules: the vy form",
+    "t": "Советы и правила: форма для vy"
+  },
+  "a2-u6-l14.grammar-advice-vy.body": {
+    "en": [
+      "Advice for a group, or for someone you call vy, uses the vy form, positive and negative. On Emma's first day, pán Hudák gives the interns some tips."
+    ],
+    "t": [
+      "Советы группе или человеку, с которым вы на «вы», дают в форме для vy — и утвердительные, и отрицательные. В первый день Эммы пан Гудак даёт стажёрам несколько советов."
+    ]
+  },
+  "a2-u6-l14.grammar-advice-vy.table.head": {
+    "en": [
+      "Slovak",
+      "English"
+    ],
+    "t": [
+      "По-словацки",
+      "По-русски"
+    ]
+  },
+  "a2-u6-l14.grammar-advice-vy.table.rows": {
+    "en": [
+      [
+        "Pýtajte sa.",
+        "Ask questions."
+      ],
+      [
+        "Nebojte sa.",
+        "Don't be afraid."
+      ],
+      [
+        "Čítajte maily každé ráno.",
+        "Read your e-mails every morning."
+      ],
+      [
+        "Nemeškajte na porady.",
+        "Don't be late for meetings."
+      ],
+      [
+        "Nepracujte každý deň do noci.",
+        "Don't work late every day."
+      ],
+      [
+        "V kancelárii nefajčite.",
+        "Don't smoke in the office."
+      ]
+    ],
+    "t": [
+      [
+        "Pýtajte sa.",
+        "Задавайте вопросы."
+      ],
+      [
+        "Nebojte sa.",
+        "Не бойтесь."
+      ],
+      [
+        "Čítajte maily každé ráno.",
+        "Читайте почту каждое утро."
+      ],
+      [
+        "Nemeškajte na porady.",
+        "Не опаздывайте на совещания."
+      ],
+      [
+        "Nepracujte každý deň do noci.",
+        "Не работайте каждый день допоздна."
+      ],
+      [
+        "V kancelárii nefajčite.",
+        "В офисе не курите."
+      ]
+    ]
+  },
+  "a2-u6-l14.grammar-advice-vy.examples": {
+    "en": [
+      "Be here at nine.",
+      "Good luck with your internship!"
+    ],
+    "t": [
+      "Будьте здесь в девять.",
+      "Удачи на стажировке!"
+    ]
+  },
+  "a2-u6-l14.fill-porada-zacina-nemeskajte.en": {
+    "en": "The meeting starts at nine. Don't be late! (to the interns)",
+    "t": "Совещание начинается в девять. Не опаздывайте! (стажёрам)"
+  },
+  "a2-u6-l14.fill-porada-zacina-nemeskajte.why": {
+    "en": "Advice to a group uses vy: ne- + meškaj + -te = **Nemeškajte**. Nemeškáte just says you aren't late.",
+    "t": "Совет группе — форма для vy: ne- + meškaj + -te = **Nemeškajte** — «не опаздывайте». Nemeškáte просто значит «вы не опаздываете»."
+  },
+  "a2-u6-l14.build-nebojte-sa-pytat.prompt": {
+    "en": "Don't be afraid to ask. (to the interns)",
+    "t": "Не бойтесь спрашивать. (стажёрам)"
+  },
+  "a2-u6-l14.build-nebojte-sa-pytat.traps": {
+    "en": [
+      "“Don't” is **ne-** in front, written as one word: **Nebojte** sa.",
+      "After nebojte sa comes the infinitive, the -ť form: **pýtať**."
+    ],
+    "t": [
+      "«Не» — это **ne-** впереди, слитно: **Nebojte** sa — «не бойтесь».",
+      "После nebojte sa — инфинитив, форма на -ť: **pýtať** — «спрашивать»."
+    ]
+  },
+  "a2-u6-l14.choice-nefajcite-prosim.question": {
+    "en": "Smoking isn't allowed in the office. What does the sign in the kitchen say?",
+    "t": "В офисе нельзя курить. Что написано на табличке на кухне?"
+  },
+  "a2-u6-l14.choice-nefajcite-prosim.why": {
+    "en": "A rule against something: ne- + the vy command, **Nefajčite**. Nefajčíte, with a long í, just says you don't smoke.",
+    "t": "Запрет — ne- + повелительная форма для vy: **Nefajčite** — «не курите». Nefajčíte, с долгим í, просто значит «вы не курите»."
+  },
+  "a2-u6-l14.build-nepiste-mi-esemesky.answers": {
+    "en": [
+      "Don't text me, call me.",
+      "Don't send me texts, call me.",
+      "Don't text me, phone me."
+    ],
+    "t": [
+      "Не пишите мне эсэмэски, позвоните мне.",
+      "Не пишите мне сообщения, позвоните мне.",
+      "Не пишите мне сообщения, позвоните.",
+      "Не пишите мне эсэмэски, позвоните.",
+      "Не пишите мне СМС, позвоните мне."
+    ]
+  },
+  "a2-u6-l14.build-nepiste-mi-esemesky.distractors": {
+    "en": [
+      "e-mail",
+      "tomorrow"
+    ],
+    "t": [
+      "письма",
+      "завтра"
+    ]
+  },
+  "a2-u6-l14.fill-vela-uspechov-na-stazi.en": {
+    "en": "Good luck with your internship, Emma!",
+    "t": "Удачи на стажировке, Эмма!"
+  },
+  "a2-u6-l14.fill-vela-uspechov-na-stazi.why": {
+    "en": "**Veľa** takes the genitive. Things you can count go plural, veľa **úspechov**; things you can't stay singular, as in veľa zdravia.",
+    "t": "После **veľa**, как после «много», — родительный падеж. Исчисляемое — во множественном числе: veľa **úspechov** (много успехов), неисчисляемое — в единственном: veľa zdravia (много здоровья)."
+  },
+  "a2-u6-l14.match-nevolaj.pairs": {
+    "en": [
+      "don't call",
+      "don't write",
+      "don't buy",
+      "don't say",
+      "don't wait"
+    ],
+    "t": [
+      "не звони",
+      "не пиши",
+      "не покупай",
+      "не говори",
+      "не жди"
+    ]
+  },
+  "a2-u6-l14.speak-nezabudni-na-stretnutie.en": {
+    "en": "Don't forget the meeting!",
+    "t": "Не забудь про встречу!"
+  },
+  "a2-u6-l15.titleEn": {
+    "en": "At the post office",
+    "t": "На почте"
+  },
+  "a2-u6-l15.list.en": {
+    "en": "letter",
+    "t": "письмо"
+  },
+  "a2-u6-l15.list.note": {
+    "en": "**poslať** list = to send a letter: pošlem, pošleš, pošle… Emma píše list mame do Dublinu. = Emma is writing a letter to her mum in Dublin.",
+    "t": "Не путайте с русским «лист»! **poslať** list = отправить письмо: pošlem, pošleš, pošle… Emma píše list mame do Dublinu. = Эмма пишет письмо маме в Дублин."
+  },
+  "a2-u6-l15.balik.en": {
+    "en": "parcel",
+    "t": "посылка"
+  },
+  "a2-u6-l15.balik.note": {
+    "en": "**Chcela by som poslať balík do Írska.** = I'd like to send a parcel to Ireland.",
+    "t": "**Chcela by som poslať balík do Írska.** = Я хотела бы отправить посылку в Ирландию."
+  },
+  "a2-u6-l15.znamka.en": {
+    "en": "How much is a stamp to Ireland?",
+    "t": "Сколько стоит марка в Ирландию?"
+  },
+  "a2-u6-l15.znamka.note": {
+    "en": "You know **známka** and **pohľadnica** from pán Kováč's collection (unit 2). A stamp for a postcard: známka na pohľadnicu.",
+    "t": "**známka** и **pohľadnica** вы знаете по коллекции пана Ковача (раздел 2). Марка для открытки: známka na pohľadnicu."
+  },
+  "a2-u6-l15.fill-potrebujem-dve-znamky.en": {
+    "en": "I need two stamps to Ireland.",
+    "t": "Мне нужны две марки в Ирландию."
+  },
+  "a2-u6-l15.fill-potrebujem-dve-znamky.why": {
+    "en": "After 2, 3 and 4, use the plural: dve **známky**.",
+    "t": "После 2, 3 и 4 — множественное число: dve **známky**, совсем как «две марки»."
+  },
+  "a2-u6-l15.obalka.en": {
+    "en": "envelope",
+    "t": "конверт"
+  },
+  "a2-u6-l15.obalka.note": {
+    "en": "**Na obálku napíšte adresu.** = Write the address on the envelope.",
+    "t": "**Na obálku napíšte adresu.** = Напишите адрес на конверте."
+  },
+  "a2-u6-l15.adresat-a-odosielatel.en": {
+    "en": "addressee and sender",
+    "t": "получатель и отправитель"
+  },
+  "a2-u6-l15.adresat-a-odosielatel.note": {
+    "en": "On an envelope or a parcel: the **adresát** gets it, the **odosielateľ** sends it.",
+    "t": "На конверте или посылке: **adresát** (адресат) получает, **odosielateľ** отправляет."
+  },
+  "a2-u6-l15.postove-smerovacie-cislo.en": {
+    "en": "postcode",
+    "t": "почтовый индекс"
+  },
+  "a2-u6-l15.postove-smerovacie-cislo.note": {
+    "en": "Written **PSČ**: 841 04 Bratislava. It goes before the town.",
+    "t": "Пишется **PSČ**: 841 04 Bratislava. Стоит перед названием города."
+  },
+  "a2-u6-l15.match-list.pairs": {
+    "en": [
+      "letter",
+      "parcel",
+      "stamp",
+      "envelope",
+      "postcard"
+    ],
+    "t": [
+      "письмо",
+      "посылка",
+      "марка",
+      "конверт",
+      "открытка"
+    ]
+  },
+  "a2-u6-l15.choice-poslat-balik-do-irska.question": {
+    "en": "At the post office: Emma wants to send a parcel to Ireland. What does she say?",
+    "t": "На почте: Эмма хочет отправить посылку в Ирландию. Что она скажет?"
+  },
+  "a2-u6-l15.choice-poslat-balik-do-irska.why": {
+    "en": "Where to: **do** Írska. Z Írska means from Ireland, and v Írsku in Ireland.",
+    "t": "Куда — **do** Írska, «в Ирландию». Z Írska значит «из Ирландии», а v Írsku — «в Ирландии» (где)."
+  },
+  "a2-u6-l15.fill-na-obalku-napiste-adresu.en": {
+    "en": "Write the address and the postcode on the envelope.",
+    "t": "Напишите на конверте адрес и индекс."
+  },
+  "a2-u6-l15.fill-na-obalku-napiste-adresu.why": {
+    "en": "The address is what you write, the object, so -a becomes **-u**: napíšte **adresu**.",
+    "t": "Адрес — то, что пишут, дополнение, поэтому -a меняется на **-u**: napíšte **adresu**."
+  },
+  "a2-u6-l15.build-byvam-na-hlavnej-ulici.prompt": {
+    "en": "I live at 5 Hlavná Street.",
+    "t": "Я живу на Главной улице, дом 5."
+  },
+  "a2-u6-l15.build-byvam-na-hlavnej-ulici.traps": {
+    "en": [
+      "Where you live: **na** + the locative, and ulica (after c) takes **-i**: na **ulici**.",
+      "The street's name is an adjective, so it takes the locative too: na **Hlavnej** ulici."
+    ],
+    "t": [
+      "Где вы живёте: **na** + предложный падеж, а ulica (после c) получает **-i**: na **ulici** — «на улице».",
+      "Название улицы — прилагательное, поэтому тоже в предложном падеже: na **Hlavnej** ulici — «на Главной улице»."
+    ]
+  },
+  "a2-u6-l15.choice-adresa-na-obalke.question": {
+    "en": "How do you write Emma's address on an envelope?",
+    "t": "Как написать адрес Эммы на конверте?"
+  },
+  "a2-u6-l15.choice-adresa-na-obalke.why": {
+    "en": "On an envelope: the street and its number first (Javorová 12), then the postcode before the town (841 04 Bratislava). Na Javorovej ulici is how you say it.",
+    "t": "На конверте сначала улица и номер дома (Javorová 12), потом индекс перед городом (841 04 Bratislava). Na Javorovej ulici — так говорят, а не пишут."
+  },
+  "a2-u6-l15.build-kolko-stoji-znamka.prompt": {
+    "en": "How much is a stamp to Ireland?",
+    "t": "Сколько стоит марка в Ирландию?"
+  },
+  "a2-u6-l15.build-kolko-stoji-znamka.traps": {
+    "en": [
+      "One stamp, so **stojí**. Stoja is for two or more.",
+      "**Do** (to) takes the genitive: do **Írska**, just like z Írska."
+    ],
+    "t": [
+      "Марка одна, поэтому **stojí** — «стоит». Stoja — для двух и больше.",
+      "**Do** (в, до) требует родительного падежа: do **Írska**, так же как z Írska."
+    ]
+  },
+  "a2-u6-l15.choice-odosielatel.question": {
+    "en": "On a parcel, who is the odosielateľ?",
+    "t": "Кто на посылке odosielateľ?"
+  },
+  "a2-u6-l15.choice-odosielatel.options": {
+    "en": [
+      "the person it's for",
+      "the person who sends it",
+      "the post office"
+    ],
+    "t": [
+      "тот, кому она адресована",
+      "тот, кто её отправляет",
+      "почта"
+    ]
+  },
+  "a2-u6-l15.build-posielam-mame-balik.answers": {
+    "en": [
+      "I'm sending Mum a parcel and a letter.",
+      "I'm sending my mum a parcel and a letter.",
+      "I'm sending a parcel and a letter to Mum.",
+      "I'm sending a parcel and a letter to my mum."
+    ],
+    "t": [
+      "Я посылаю маме посылку и письмо.",
+      "Я отправляю маме посылку и письмо.",
+      "Посылаю маме посылку и письмо.",
+      "Я посылаю посылку и письмо маме."
+    ]
+  },
+  "a2-u6-l15.build-posielam-mame-balik.distractors": {
+    "en": [
+      "postcard",
+      "dad"
+    ],
+    "t": [
+      "открытку",
+      "папе"
+    ]
+  },
+  "a2-u6-l15.fill-dnes-nemam-cas-poslem.en": {
+    "en": "I haven't got time today, I'll send the parcel tomorrow.",
+    "t": "Сегодня у меня нет времени, посылку я отправлю завтра."
+  },
+  "a2-u6-l15.fill-dnes-nemam-cas-poslem.why": {
+    "en": "**Ja** will send it, so it's the ja form **pošlem**, which already points to the future, like zavolám.",
+    "t": "Отправит **ja**, поэтому форма для ja — **pošlem**; она уже указывает на будущее, как zavolám или «пошлю»."
+  },
+  "a2-u6-l15.build-chcela-by-som-poslat-list.prompt": {
+    "en": "Emma: “I'd like to send this letter to Dublin.”",
+    "t": "Эмма: «Я хотела бы отправить это письмо в Дублин»."
+  },
+  "a2-u6-l15.build-chcela-by-som-poslat-list.traps": {
+    "en": [
+      "**Do** takes the genitive: do **Dublinu**.",
+      "The letter is the object, and list is a masculine thing, so it doesn't change: tento **list**."
+    ],
+    "t": [
+      "**Do** требует родительного падежа: do **Dublinu** — «в Дублин».",
+      "Письмо — дополнение, а list — неодушевлённое мужского рода, поэтому не меняется: tento **list** — «это письмо»."
+    ]
+  },
+  "a2-u6-l15.speak-kolko-stoji-znamka.en": {
+    "en": "How much is a stamp to Ireland?",
+    "t": "Сколько стоит марка в Ирландию?"
+  },
+  "a2-u6-l16.titleEn": {
+    "en": "Two pronouns together",
+    "t": "Два местоимения рядом"
+  },
+  "a2-u6-l16.grammar-short-pronouns.title": {
+    "en": "To whom and what: the dative and the accusative",
+    "t": "Кому и что: дательный и винительный"
+  },
+  "a2-u6-l16.grammar-short-pronouns.body": {
+    "en": [
+      "You know from unit 3 that verbs like dať, ukázať and kúpiť take two objects, the person in the dative and the thing in the accusative: dať mame darček. **Požičať** (to lend) and **vrátiť** (to give back) work the same way: vrátiť **niekomu niečo**.",
+      "Here are the short pronouns of both cases side by side."
+    ],
+    "t": [
+      "Из раздела 3 вы знаете, что у глаголов вроде dať, ukázať и kúpiť два дополнения, как и в русском: человек — в дательном падеже, вещь — в винительном: dať mame darček (дать маме подарок). Так же работают **požičať** (одолжить) и **vrátiť** (вернуть): vrátiť **niekomu niečo** (вернуть кому-то что-то).",
+      "Вот краткие местоимения обоих падежей рядом. Они очень похожи на русские: mi — мне, ma — меня, ti — тебе, ťa — тебя."
+    ]
+  },
+  "a2-u6-l16.grammar-short-pronouns.table.head": {
+    "en": [
+      "",
+      "to whom (dative)",
+      "what, whom (accusative)"
+    ],
+    "t": [
+      "",
+      "кому (дательный)",
+      "что, кого (винительный)"
+    ]
+  },
+  "a2-u6-l16.grammar-short-pronouns.table.rows": {
+    "en": [
+      [
+        "ja",
+        "mi",
+        "ma"
+      ],
+      [
+        "ty",
+        "ti",
+        "ťa"
+      ],
+      [
+        "on, ono",
+        "mu",
+        "ho"
+      ],
+      [
+        "ona",
+        "jej",
+        "ju"
+      ],
+      [
+        "my",
+        "nám",
+        "nás"
+      ],
+      [
+        "vy",
+        "vám",
+        "vás"
+      ],
+      [
+        "oni, ony",
+        "im",
+        "ich"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "mi",
+        "ma"
+      ],
+      [
+        "ty",
+        "ti",
+        "ťa"
+      ],
+      [
+        "on, ono",
+        "mu",
+        "ho"
+      ],
+      [
+        "ona",
+        "jej",
+        "ju"
+      ],
+      [
+        "my",
+        "nám",
+        "nás"
+      ],
+      [
+        "vy",
+        "vám",
+        "vás"
+      ],
+      [
+        "oni, ony",
+        "im",
+        "ich"
+      ]
+    ]
+  },
+  "a2-u6-l16.grammar-short-pronouns.examples": {
+    "en": [
+      "I'll send him the address.",
+      "I'll lend you my phone."
+    ],
+    "t": [
+      "Я пошлю ему адрес.",
+      "Я одолжу тебе телефон."
+    ]
+  },
+  "a2-u6-l16.grammar-dative-first.title": {
+    "en": "Two pronouns: the dative first",
+    "t": "Два местоимения: сначала дательный"
+  },
+  "a2-u6-l16.grammar-dative-first.body": {
+    "en": [
+      "When both objects are short pronouns, the to-whom one comes first: Pošlem **ti ho**. Dám **vám ju**.",
+      "Like sa and si, the pair goes in second place, after som, si, sme, ste: Včera som **ti ho** poslala."
+    ],
+    "t": [
+      "Когда оба дополнения — краткие местоимения, первым идёт «кому»: Pošlem **ti ho**. Dám **vám ju**. Род берите от словацкого слова: adresa — женского рода, поэтому ju, хотя «адрес» у нас мужского.",
+      "Как sa и si, эта пара стоит на втором месте, после som, si, sme, ste: Včera som **ti ho** poslala. (Вчера я тебе его отправила.)"
+    ]
+  },
+  "a2-u6-l16.grammar-dative-first.table.rows": {
+    "en": [
+      [
+        "Balík? Pošlem **ti ho**.",
+        "The parcel? I'll send it to you."
+      ],
+      [
+        "Adresu? Dám **vám ju**.",
+        "The address? I'll give it to you."
+      ],
+      [
+        "Kľúče? Vrátim **mu ich**.",
+        "The keys? I'll give them back to him."
+      ],
+      [
+        "Mail? Už som **jej ho** poslala.",
+        "The e-mail? I've already sent it to her."
+      ]
+    ],
+    "t": [
+      [
+        "Balík? Pošlem **ti ho**.",
+        "Посылка? Я тебе её пришлю."
+      ],
+      [
+        "Adresu? Dám **vám ju**.",
+        "Адрес? Я вам его дам."
+      ],
+      [
+        "Kľúče? Vrátim **mu ich**.",
+        "Ключи? Я ему их верну."
+      ],
+      [
+        "Mail? Už som **jej ho** poslala.",
+        "Письмо? Я ей его уже отправила."
+      ]
+    ]
+  },
+  "a2-u6-l16.grammar-dative-first.examples": {
+    "en": [
+      "I'll send it to you tomorrow.",
+      "I sent it to you yesterday."
+    ],
+    "t": [
+      "Я пришлю тебе его завтра.",
+      "Я отправила тебе его вчера."
+    ]
+  },
+  "a2-u6-l16.fill-mail-poslem-ti-ho.en": {
+    "en": "The e-mail? I'll send it to you this evening.",
+    "t": "Письмо? Я пришлю тебе его вечером."
+  },
+  "a2-u6-l16.fill-mail-poslem-ti-ho.why": {
+    "en": "“To you” is the dative, short: **ti**, and it comes before ho. Ťa is the accusative (you, as the object).",
+    "t": "«Тебе» — дательный, краткая форма: **ti**, и она стоит перед ho. Ťa — винительный («тебя»)."
+  },
+  "a2-u6-l16.fill-adresa-dam-vam-ju.en": {
+    "en": "The guesthouse's address? I'll give it to you tomorrow.",
+    "t": "Адрес пансиона? Я дам вам его завтра."
+  },
+  "a2-u6-l16.fill-adresa-dam-vam-ju.why": {
+    "en": "Adresa is feminine, so “it” is the accusative **ju**, after vám. Jej means to her.",
+    "t": "Adresa — женского рода (хотя «адрес» у нас мужского), поэтому «его» здесь — винительный **ju**, после vám. Jej значит «ей»."
+  },
+  "a2-u6-l16.choice-dam-ti-ho.question": {
+    "en": "Which word order is right?",
+    "t": "Какой порядок слов правильный?"
+  },
+  "a2-u6-l16.choice-dam-ti-ho.why": {
+    "en": "The to-whom pronoun comes first, and the pair takes second place: Dám **ti ho**. Small words like ti never start a sentence.",
+    "t": "Сначала «кому», и пара стоит на втором месте: Dám **ti ho**. Короткие слова вроде ti никогда не начинают предложение."
+  },
+  "a2-u6-l16.fill-tomas-chce-tvoju-knihu.en": {
+    "en": "Tomáš wants your book? Lend it to him!",
+    "t": "Томаш хочет твою книгу? Одолжи её ему!"
+  },
+  "a2-u6-l16.fill-tomas-chce-tvoju-knihu.why": {
+    "en": "To him, Tomáš, is **mu**, before ju. Jej is to her, and im to them.",
+    "t": "«Ему», Томашу, — **mu**, перед ju. Jej значит «ей», а im — «им»."
+  },
+  "a2-u6-l16.build-knihu-vratim-ti-ju.prompt": {
+    "en": "The book? I'll give it back to you tomorrow.",
+    "t": "Книгу? Я верну тебе её завтра."
+  },
+  "a2-u6-l16.build-knihu-vratim-ti-ju.traps": {
+    "en": [
+      "Kniha is feminine, so “it” is **ju**.",
+      "Next to another pronoun, use the short form: **ti**. Tebe is the stressed form."
+    ],
+    "t": [
+      "Kniha — женского рода, поэтому «её» — **ju**.",
+      "Рядом с другим местоимением — краткая форма: **ti**. Tebe — ударная форма."
+    ]
+  },
+  "a2-u6-l16.fill-mail-pre-pana-hudaka.en": {
+    "en": "The e-mail for Mr Hudák? I've already sent it to him.",
+    "t": "Письмо для пана Гудака? Я ему его уже отправила."
+  },
+  "a2-u6-l16.fill-mail-pre-pana-hudaka.why": {
+    "en": "The short form **mu** goes right after som and before ho: Už som **mu ho** poslala.",
+    "t": "Краткая форма **mu** стоит сразу после som и перед ho: Už som **mu ho** poslala."
+  },
+  "a2-u6-l16.build-mozes-mi-pozicat.prompt": {
+    "en": "Can you lend me ten euros? (to a friend)",
+    "t": "Можешь одолжить мне десять евро?"
+  },
+  "a2-u6-l16.build-mozes-mi-pozicat.traps": {
+    "en": [
+      "Lend **to** me: the dative, **mi**. Ma is the accusative (me, as the object).",
+      "From five up, Slovak uses the short form: desať **eur**."
+    ],
+    "t": [
+      "Одолжить кому? Мне — дательный, **mi**. Ma — винительный («меня»).",
+      "Начиная с пяти, в словацком короткая форма: desať **eur** — «десять евро»."
+    ]
+  },
+  "a2-u6-l16.build-dik-vratim-ti-ich.prompt": {
+    "en": "Thanks! I'll give them back to you tomorrow.",
+    "t": "Спасибо! Я верну их тебе завтра."
+  },
+  "a2-u6-l16.build-dik-vratim-ti-ich.traps": {
+    "en": [
+      "The euros are what you give back, the accusative: **ich** (them). Im means to them.",
+      "To you: the dative, **ti**. Ťa is the accusative."
+    ],
+    "t": [
+      "Евро — то, что возвращают, винительный: **ich** — «их». Im значит «им».",
+      "«Тебе» — дательный, **ti**. Ťa — винительный."
+    ]
+  },
+  "a2-u6-l16.grammar-new-information-last.title": {
+    "en": "Nouns: the new information goes last",
+    "t": "Существительные: новое — в конце"
+  },
+  "a2-u6-l16.grammar-new-information-last.body": {
+    "en": [
+      "With two nouns, Slovak puts the new information at the end of the sentence. Komu si poslala balík? (To whom?) – Poslala som balík **mame**. Čo si poslala mame? (What?) – Poslala som mame **balík**."
+    ],
+    "t": [
+      "Когда в предложении два существительных, новую информацию словацкий, как и русский, ставит в конец. Komu si poslala balík? (Кому ты отправила посылку?) – Poslala som balík **mame**. Čo si poslala mame? (Что ты отправила маме?) – Poslala som mame **balík**."
+    ]
+  },
+  "a2-u6-l16.grammar-new-information-last.examples": {
+    "en": [
+      "I sent the parcel to Mum.",
+      "I sent Mum a parcel."
+    ],
+    "t": [
+      "Я отправила посылку маме.",
+      "Я отправила маме посылку."
+    ]
+  },
+  "a2-u6-l16.choice-komu-si-poslala-list.question": {
+    "en": "Komu si poslala list? (Who did you send the letter to?)",
+    "t": "Komu si poslala list? (Кому ты отправила письмо?)"
+  },
+  "a2-u6-l16.choice-komu-si-poslala-list.why": {
+    "en": "The question is “to whom?”, so the new information, **mame**, goes last.",
+    "t": "Вопрос «кому?», поэтому новая информация, **mame**, идёт в конец — как и по-русски: «Я отправила письмо маме»."
+  },
+  "a2-u6-l16.choice-co-si-kupil-tomasovi.question": {
+    "en": "Čo si kúpil Tomášovi? (What did you buy Tomáš?)",
+    "t": "Čo si kúpil Tomášovi? (Что ты купил Томашу?)"
+  },
+  "a2-u6-l16.choice-co-si-kupil-tomasovi.why": {
+    "en": "The question is “what?”, so the new information, **knihu**, goes last.",
+    "t": "Вопрос «что?», поэтому новая информация, **knihu**, идёт в конец: «Я купил Томашу книгу»."
+  },
+  "a2-u6-l16.build-kluc-dam-ti-ho.answers": {
+    "en": [
+      "The parcel? I'll give it to you this evening.",
+      "The parcel? I'll give it to you in the evening.",
+      "The parcel? I'll give you it this evening."
+    ],
+    "t": [
+      "Посылка? Я отдам её тебе вечером.",
+      "Посылка? Я отдам тебе её вечером.",
+      "Посылка? Вечером я тебе её отдам.",
+      "Посылку? Я отдам её тебе вечером."
+    ]
+  },
+  "a2-u6-l16.build-kluc-dam-ti-ho.distractors": {
+    "en": [
+      "her",
+      "morning"
+    ],
+    "t": [
+      "его",
+      "утром"
+    ]
+  },
+  "a2-u6-l16.speak-poslem-ti-ho-zajtra.en": {
+    "en": "I'll send it to you tomorrow.",
+    "t": "Я пришлю тебе его завтра."
+  },
+  "a2-u6-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Письменная практика"
+  },
+  "a2-u6-pisanie.listen-nerusim-mam-pre-teba.en": {
+    "en": "Am I disturbing you? I've got a suggestion for you.",
+    "t": "Не отвлекаю? У меня для тебя предложение."
+  },
+  "a2-u6-pisanie.listen-mozem-hovorit-s-panom.en": {
+    "en": "May I speak to Mr Hudák?",
+    "t": "Можно поговорить с паном Гудаком?"
+  },
+  "a2-u6-pisanie.listen-chcete-nechat-odkaz.en": {
+    "en": "Would you like to leave a message?",
+    "t": "Хотите оставить сообщение?"
+  },
+  "a2-u6-pisanie.listen-zavolajte-neskor-prosim.en": {
+    "en": "Please call back later.",
+    "t": "Перезвоните позже, пожалуйста."
+  },
+  "a2-u6-pisanie.listen-povedal-ze-ma-poradu.en": {
+    "en": "He said he had a meeting.",
+    "t": "Он сказал, что у него совещание."
+  },
+  "a2-u6-pisanie.listen-napis-mi-cim-skor.en": {
+    "en": "Write back as soon as possible.",
+    "t": "Напиши мне как можно скорее."
+  },
+  "a2-u6-pisanie.listen-prepac-budem-meskat.en": {
+    "en": "Sorry, I'll be late.",
+    "t": "Извини, я опоздаю."
+  },
+  "a2-u6-pisanie.listen-kolko-stoji-znamka.en": {
+    "en": "How much is a stamp to Ireland?",
+    "t": "Сколько стоит марка в Ирландию?"
+  },
+  "a2-u6-pisanie.listen-poslem-ti-ho-zajtra.en": {
+    "en": "I'll send it to you tomorrow.",
+    "t": "Я пришлю тебе его завтра."
+  },
+  "a2-u6-l17.titleEn": {
+    "en": "Review",
+    "t": "Повторение"
+  },
+  "a2-u6-l17.match-odkaz.pairs": {
+    "en": [
+      "message",
+      "text message",
+      "attachment",
+      "stamp",
+      "accommodation"
+    ],
+    "t": [
+      "сообщение",
+      "эсэмэска",
+      "вложение",
+      "марка",
+      "жильё"
+    ]
+  },
+  "a2-u6-l17.fill-mozem-hovorit-s-pani-kollarovou.en": {
+    "en": "Hello, may I speak to Mrs Kollárová?",
+    "t": "Добрый день, можно поговорить с госпожой Колларовой?"
+  },
+  "a2-u6-l17.fill-mozem-hovorit-s-pani-kollarovou.why": {
+    "en": "After **s**, a woman's surname takes **-ou**: s pani **Kollárovou**. Pani itself never changes.",
+    "t": "После **s** женская фамилия получает **-ou**: s pani **Kollárovou** — «с госпожой Колларовой». Само pani не меняется."
+  },
+  "a2-u6-l17.choice-odkaz-od-lucie.question": {
+    "en": "Lucia leaves a message on Emma's phone. What does she want?",
+    "t": "Луция оставляет Эмме голосовое сообщение. Чего она хочет?"
+  },
+  "a2-u6-l17.choice-odkaz-od-lucie.options": {
+    "en": [
+      "To cancel the meeting.",
+      "To meet at five.",
+      "To meet at six, not five."
+    ],
+    "t": [
+      "Отменить встречу.",
+      "Встретиться в пять.",
+      "Встретиться в шесть, а не в пять."
+    ]
+  },
+  "a2-u6-l17.build-zavolajte-o-hodinu.prompt": {
+    "en": "Please call back in an hour. (to a caller)",
+    "t": "Перезвоните, пожалуйста, через час. (звонящему)"
+  },
+  "a2-u6-l17.build-zavolajte-o-hodinu.traps": {
+    "en": [
+      "You're asking the caller, a stranger, to call: the vy command, **Zavolajte**. Zavolám means I'll call.",
+      "“In an hour” is **o** + the object form: o **hodinu**."
+    ],
+    "t": [
+      "Вы просите позвонить звонящего, незнакомого человека, — повелительная форма для vy: **Zavolajte**. Zavolám значит «я позвоню».",
+      "«Через час» — **o** + винительный падеж: o **hodinu**."
+    ]
+  },
+  "a2-u6-l17.fill-tomas-posli-mi-adresu.en": {
+    "en": "Tomáš, send me the guesthouse's address!",
+    "t": "Томаш, пришли мне адрес пансиона!"
+  },
+  "a2-u6-l17.fill-tomas-posli-mi-adresu.why": {
+    "en": "Poslať → pošlú: two consonants at the end of the stem, so add **-i**: **pošli**. Pošlite is for vy.",
+    "t": "Poslať → pošlú: основа кончается на две согласные, поэтому добавляется **-i**: **pošli** — «пошли». Pošlite — для vy."
+  },
+  "a2-u6-l17.fill-lucia-sa-pytala-ci.en": {
+    "en": "Lucia asked if you were going on the trip on Friday.",
+    "t": "Луция спрашивала, поедешь ли ты в пятницу в поездку."
+  },
+  "a2-u6-l17.fill-lucia-sa-pytala-ci.why": {
+    "en": "A yes-or-no question is passed on with **či** (whether).",
+    "t": "Вопрос «да или нет» передают через **či** — наше «ли»."
+  },
+  "a2-u6-l17.build-povedzte-jej-prosim.prompt": {
+    "en": "Please tell her to call me. (to a stranger)",
+    "t": "Скажите ей, пожалуйста, чтобы она мне позвонила."
+  },
+  "a2-u6-l17.build-povedzte-jej-prosim.traps": {
+    "en": [
+      "After **aby**, the past form, and she is a woman: aby mi **zavolala**.",
+      "Her, the one you tell, is **jej**; mu is for a man."
+    ],
+    "t": [
+      "После **aby** — прошедшее время, а речь о женщине: aby mi **zavolala** — «чтобы она позвонила».",
+      "«Ей» — **jej**; mu — для мужчины."
+    ]
+  },
+  "a2-u6-l17.choice-vazena-pani-sokolova.question": {
+    "en": "Which opening fits an e-mail to Mrs Sokolová?",
+    "t": "Какое обращение подходит для письма госпоже Соколовой?"
+  },
+  "a2-u6-l17.choice-vazena-pani-sokolova.why": {
+    "en": "**Vážená** matches pani, a woman: vážená pani. Ahoj is for friends.",
+    "t": "**Vážená** согласуется с pani, женщиной: vážená pani — «уважаемая госпожа». Ahoj — для друзей."
+  },
+  "a2-u6-l17.choice-mila-emma-dakujem.question": {
+    "en": "An e-mail from Marek. What does he write?",
+    "t": "Письмо от Марека. Что он пишет?"
+  },
+  "a2-u6-l17.choice-mila-emma-dakujem.options": {
+    "en": [
+      "He can't come on the trip.",
+      "He's glad to come on the trip.",
+      "He wants Lucia's address."
+    ],
+    "t": [
+      "Он не сможет поехать.",
+      "Он с радостью поедет.",
+      "Ему нужен адрес Луции."
+    ]
+  },
+  "a2-u6-l17.fill-kluc-dam-ti-ho.en": {
+    "en": "The parcel? I'll give it to you this evening, Lucia.",
+    "t": "Посылка? Я отдам тебе её вечером, Луция."
+  },
+  "a2-u6-l17.fill-kluc-dam-ti-ho.why": {
+    "en": "To you is the short dative **ti**, and it comes first: Dám **ti ho**.",
+    "t": "«Тебе» — краткий дательный **ti**, и он стоит первым: Dám **ti ho**."
+  },
+  "a2-u6-l17.choice-odkaz-od-pani-kollarovej.question": {
+    "en": "Mrs Kollárová leaves a message on Tomáš's phone. What has changed?",
+    "t": "Госпожа Колларова оставляет Томашу голосовое сообщение. Что изменилось?"
+  },
+  "a2-u6-l17.choice-odkaz-od-pani-kollarovej.options": {
+    "en": [
+      "The meeting is cancelled.",
+      "The meeting is at four, not three.",
+      "The meeting is at three, not four."
+    ],
+    "t": [
+      "Совещание отменили.",
+      "Совещание в четыре, а не в три.",
+      "Совещание в три, а не в четыре."
+    ]
+  },
+  "a2-u6-l17.build-prepac-nestiham-mozeme.answers": {
+    "en": [
+      "Sorry, I can't make it. Can we meet at four?",
+      "Sorry, I'm running late. Can we meet at four?",
+      "Sorry, I can't make it. Could we meet at four?"
+    ],
+    "t": [
+      "Извини, не успеваю. Можем встретиться в четыре?",
+      "Извини, я не успеваю. Можем встретиться в четыре?",
+      "Прости, не успеваю. Можем встретиться в четыре?",
+      "Извини, не успеваю. Мы можем встретиться в четыре?"
+    ]
+  },
+  "a2-u6-l17.build-prepac-nestiham-mozeme.distractors": {
+    "en": [
+      "three",
+      "cancel"
+    ],
+    "t": [
+      "три",
+      "отменить"
+    ]
+  },
+  "a2-u6-l17.choice-nevolaj-mu-teraz.question": {
+    "en": "Lucia wants to call Tomáš, but he's in a meeting. What do you tell her?",
+    "t": "Луция хочет позвонить Томашу, но у него совещание. Что вы ей скажете?"
+  },
+  "a2-u6-l17.choice-nevolaj-mu-teraz.why": {
+    "en": "“Don't call” is ne- + the everyday partner verb, volať: **Nevolaj**. Nevolám just says I'm not calling.",
+    "t": "«Не звони» — ne- + парный несовершенный глагол volať: **Nevolaj**, как и у нас. Nevolám просто значит «я не звоню»."
+  },
+  "a2-u6-l17.build-budte-tu-o-deviatej.prompt": {
+    "en": "Please be here at nine. (to the interns)",
+    "t": "Будьте здесь в девять, пожалуйста. (стажёрам)"
+  },
+  "a2-u6-l17.build-budte-tu-o-deviatej.traps": {
+    "en": [
+      "To a group, the vy form: buď + **-te** = **Buďte**.",
+      "At nine: o + the -ej form, o **deviatej**."
+    ],
+    "t": [
+      "Группе — форма для vy: buď + **-te** = **Buďte** — «будьте».",
+      "«В девять» — o + форма на -ej: o **deviatej**."
+    ]
+  },
+  "a2-u6-l17.fill-potrebujem-tri-znamky.en": {
+    "en": "I need three stamps for postcards.",
+    "t": "Мне нужны три марки для открыток."
+  },
+  "a2-u6-l17.fill-potrebujem-tri-znamky.why": {
+    "en": "After 2, 3 and 4, use the plural: tri **známky**.",
+    "t": "После 2, 3 и 4 — множественное число: tri **známky**, как «три марки»."
+  },
+  "a2-u6-l17.speak-prepac-budem-meskat-desat.en": {
+    "en": "Sorry, I'll be ten minutes late.",
+    "t": "Извини, я опоздаю на десять минут."
+  }
+}

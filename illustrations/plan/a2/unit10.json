@@ -1,0 +1,654 @@
+{
+  "unit": "a2-u10",
+  "pictures": 34,
+  "items": [
+    {
+      "lesson": "a2-u10-l1",
+      "exercise": "studentsky-casopis",
+      "type": "intro",
+      "text": "študentský časopis = student magazine",
+      "picture": "In the dorm room, Lucia proudly holds up a copy of the university's student magazine, its glossy cover showing the university's main building with the clock over the entrance; behind her, her laptop is open on her desk with an article half-written. Emma, curious, reaches out for the magazine.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l1",
+      "exercise": "redakcia",
+      "type": "intro",
+      "text": "redakcia = editorial office; the editors",
+      "picture": "The student magazine's editorial office at the university, a small, cluttered room: a big shared table with laptops, page layouts pinned up on the wall, piles of old issues on the shelves. Three student editors look up and welcome Lucia, their newest editor, as she sits down at her own laptop for the first time.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l1",
+      "exercise": "stala-som-sa-redaktorkou",
+      "type": "intro",
+      "text": "Stala som sa redaktorkou. = I've become an editor. (a woman speaking)",
+      "reuse": "a2-u10-l1#redakcia",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l1",
+      "exercise": "horoskop",
+      "type": "intro",
+      "text": "horoskop = horoscope",
+      "reuse": "a2-u10-l8#veris-horoskopom",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l1",
+      "exercise": "anketa",
+      "type": "intro",
+      "text": "anketa = poll, survey",
+      "picture": "In a university corridor, Lucia, notebook and pen ready, asks pani Horváthová her poll question; pani Horváthová stops to think, a finger on her chin, while two students wait their turn to give their answers.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l1",
+      "exercise": "vychadzat",
+      "type": "intro",
+      "text": "vychádzať = to come out (of a magazine)",
+      "reuse": "a2-u10-l1#nove-cislo",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l1",
+      "exercise": "nove-cislo",
+      "type": "intro",
+      "text": "nové číslo = the new issue",
+      "picture": "In the university's entrance hall, students grab copies of the new issue of the student magazine from a fresh stack on a table. Lucia, beaming, opens one at her first article, a page with a photo of pán Kováč, and shows it to Emma.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l1",
+      "exercise": "choice-ako-casto-vychadza",
+      "type": "choice",
+      "text": "Emma wants to know how often Lucia's magazine comes out. What does she ask?",
+      "reuse": "a2-u10-l1#studentsky-casopis",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l1",
+      "exercise": "choice-o-com-pises",
+      "type": "choice",
+      "text": "Emma asks Lucia what she's writing about. What does she say?",
+      "reuse": "a2-u10-l1#studentsky-casopis",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l2",
+      "exercise": "zmenit-sa",
+      "type": "intro",
+      "text": "zmeniť sa = to change",
+      "picture": "Two halves, the same stretch of the Danube embankment in Bratislava, with the bridge with one pylon and a round saucer on top in both. Left, decades ago: old warehouses and cranes by the river, a couple of old cars, people in old-fashioned clothes. Right, today: new glass buildings with offices, flats and shops, and a busy riverside promenade with café tables.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l2",
+      "exercise": "kedysi-tu-bolo",
+      "type": "intro",
+      "text": "Kedysi tu bolo menej áut. = There used to be fewer cars here.",
+      "picture": "On the pavement outside the dormitory, pán Kováč holds up an old black-and-white photo of the same street, almost empty, with just one old car and a tram. Behind him the real street is packed with cars. Lucia, notebook in hand, interviews him for her article and takes notes.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l2",
+      "exercise": "choice-bratislava-sa-velmi",
+      "type": "choice",
+      "text": "Bratislava sa veľmi zmenila. For her first article, Lucia asks pán Kováč about the city. What does he mean?",
+      "reuse": "a2-u10-l2#kedysi-tu-bolo",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l2",
+      "exercise": "budova",
+      "type": "intro",
+      "text": "budova = building",
+      "reuse": "u4-l1#vysoky",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l2",
+      "exercise": "vacsi-mensi",
+      "type": "intro",
+      "text": "väčší – menší = bigger – smaller",
+      "reuse": "u3-l2#velky-maly",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l2",
+      "exercise": "najvacsia-zmena",
+      "type": "intro",
+      "text": "najväčšia zmena = the biggest change",
+      "reuse": "a2-u10-l2#zmenit-sa",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l2",
+      "exercise": "doprava",
+      "type": "intro",
+      "text": "doprava = traffic, transport",
+      "picture": "Rush hour in the centre of Bratislava: a long queue of cars at a red light, a tram squeezed in among them, a cyclist weaving between the bumpers. Tomáš, at the wheel of his old dark-blue estate car, drums his fingers on the steering wheel and sighs.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l3",
+      "exercise": "mate-chvilku",
+      "type": "intro",
+      "text": "Máte chvíľku? = Have you got a moment?",
+      "picture": "On the square in the Old Town, by the fountain, Lucia, notebook and pen in hand, politely stops a tourist couple to interview them for her article: a man with a camera round his neck and a woman holding an open city map. They stop, friendly and curious.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l3",
+      "exercise": "turista",
+      "type": "intro",
+      "text": "turista = tourist",
+      "picture": "On the square in the Old Town with its fountain and pastel houses, a tour group follows its guide, who holds a closed umbrella high in the air; the tourists, in sunhats and with backpacks, cameras and city maps, photograph everything around them.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l3",
+      "exercise": "choice-prepacte-mate-chvilku",
+      "type": "choice",
+      "text": "Lucia wants to stop a tourist in the street for her article. What does she say?",
+      "reuse": "a2-u10-l3#mate-chvilku",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l3",
+      "exercise": "ste-tu-prvykrat",
+      "type": "intro",
+      "text": "Ste tu prvýkrát? = Is this your first time here?",
+      "reuse": "a2-u10-l3#mate-chvilku",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l3",
+      "exercise": "preco-ste-prisli",
+      "type": "intro",
+      "text": "Prečo ste prišli práve sem? = Why did you come here, of all places?",
+      "reuse": "a2-u10-l3#mate-chvilku",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l3",
+      "exercise": "co-sa-vam-najviac",
+      "type": "intro",
+      "text": "Čo sa vám najviac páči? = What do you like best?",
+      "reuse": "a2-u10-l3#mate-chvilku",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l3",
+      "exercise": "pamiatka",
+      "type": "intro",
+      "text": "pamiatka = sight, historic monument",
+      "reuse": "u4-l1#hrad-je-stary",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l3",
+      "exercise": "vacsina",
+      "type": "intro",
+      "text": "väčšina = most (of them), the majority",
+      "picture": "In the tiered lecture hall, Lucia stands at the front with a clipboard and asks the students a question for her poll: most of them raise their hands, only a few keep theirs down. Lucia counts the hands.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l3",
+      "exercise": "choice-odkial-su-turisti",
+      "type": "choice",
+      "text": "Lucia asks a guide: Odkiaľ sú turisti v Bratislave? Which answer fits?",
+      "reuse": "a2-u10-l3#turista",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l3",
+      "exercise": "rovnaky-ako-iny",
+      "type": "intro",
+      "text": "rovnaký ako – iný ako = the same as – different from",
+      "picture": "At a table in the café near the university, Emma and Lucia lay their phones side by side and burst out laughing: the very same phone in the very same yellow case. Tomáš puts his down next to them: a different one, bigger, in a black case.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l4",
+      "exercise": "podnajom",
+      "type": "intro",
+      "text": "podnájom = renting (a flat or a room)",
+      "reuse": "a2-u10-l4#byt-na-prenajom",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l4",
+      "exercise": "byt-na-prenajom",
+      "type": "intro",
+      "text": "byt na prenájom = flat to rent",
+      "picture": "At the dorm kitchen table, Emma and Lucia scroll through ads for flats to rent on Lucia's laptop, the screen full of little photos of rooms and blocks of flats. Lucia points at one, excited.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l4",
+      "exercise": "neviem-ci-tu",
+      "type": "intro",
+      "text": "Neviem, či tu zostanem. = I don't know if I'll stay here.",
+      "picture": "Dusk on the dormitory's narrow balcony: Lucia, hopeful, has just asked Emma to share a flat with her. Emma leans on the railing and looks out over the city lights, torn and unsure.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l4",
+      "exercise": "najomne",
+      "type": "intro",
+      "text": "nájomné = rent",
+      "reuse": "a2-u10-l5#zmluva-a-kaucia",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l4",
+      "exercise": "zariadeny",
+      "type": "intro",
+      "text": "zariadený = furnished",
+      "picture": "Two halves, the same small room in a flat to rent. Left: empty, with bare walls, a bare floor and a curtainless window. Right: furnished, with a bed, a table and two chairs, a wardrobe, a rug and curtains.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l4",
+      "exercise": "spolubyvajuca",
+      "type": "intro",
+      "text": "spolubývajúca = flatmate, roommate (a woman)",
+      "reuse": "u2-l1#odkial-si",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l4",
+      "exercise": "byvanie",
+      "type": "intro",
+      "text": "bývanie = housing",
+      "reuse": "u3-l1#byvam-na-internate",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l5",
+      "exercise": "je-byt-este",
+      "type": "intro",
+      "text": "Je byt ešte voľný? = Is the flat still available?",
+      "picture": "Split picture of a phone call. Left: at her desk in the dorm room, the flat ad open on her laptop, Emma calls the number while Lucia listens in beside her. Right: the landlady, a brisk woman of about 60 with short dark-grey curls, pearl earrings and a camel-coloured cardigan, answers in her own living room.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l5",
+      "exercise": "majitelka",
+      "type": "intro",
+      "text": "majiteľka = owner, landlady",
+      "picture": "The landlady, a brisk woman of about 60 with short dark-grey curls, pearl earrings and a camel-coloured cardigan, opens the door of the flat to Emma and Lucia, a big bunch of keys in one hand, and waves them in towards a bright living room.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l5",
+      "exercise": "choice-dobry-den-je",
+      "type": "choice",
+      "text": "Emma calls the landlady about the ad. What does she say?",
+      "reuse": "a2-u10-l5#je-byt-este",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l5",
+      "exercise": "mozeme-si-byt",
+      "type": "intro",
+      "text": "Môžeme si byt pozrieť? = Can we have a look at the flat?",
+      "reuse": "a2-u10-l5#je-byt-este",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l5",
+      "exercise": "choice-podte-dalej-toto",
+      "type": "choice",
+      "text": "The landlady opens the door to Emma and Lucia. What does she say?",
+      "reuse": "a2-u10-l5#majitelka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l5",
+      "exercise": "zmluva-a-kaucia",
+      "type": "intro",
+      "text": "zmluva a kaucia = contract and deposit",
+      "picture": "At the kitchen table of the flat to rent, Emma signs the contract while Lucia counts banknotes for the deposit into the hand of the landlady, a brisk woman of about 60 with short dark-grey curls, pearl earrings and a camel-coloured cardigan. A set of keys lies on the table between them.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l6",
+      "exercise": "mam-plne-ruky",
+      "type": "intro",
+      "text": "Mám plné ruky práce. = I've got my hands full.",
+      "picture": "Emma's busiest day at her internship at Tomáš's company: at her desk, papers piled high on every side, she holds the phone between her ear and shoulder, types with one hand and holds out a document with the other. On the wall calendar behind her, Friday is circled in red.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l6",
+      "exercise": "termin",
+      "type": "intro",
+      "text": "termín = deadline",
+      "reuse": "a2-u10-l6#mam-plne-ruky",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l6",
+      "exercise": "kolega",
+      "type": "intro",
+      "text": "kolega = colleague",
+      "reuse": "u8-l1#oddelenie",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l6",
+      "exercise": "lezie-mi-na",
+      "type": "intro",
+      "text": "Lezie mi na nervy. = He gets on my nerves.",
+      "picture": "In the office at Tomáš's company, a colleague at the next desk, a man of about 35 with gelled hair and a loud striped shirt, leans back with his feet on the desk and laughs into his phone. Emma, trying to work, glares at him with her fingers in her ears.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l6",
+      "exercise": "na-stole-lezi",
+      "type": "intro",
+      "text": "Na stole leží veľa papierov. = There are a lot of papers lying on the desk.",
+      "reuse": "a2-u10-l6#mam-plne-ruky",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l6",
+      "exercise": "zapnut-vypnut",
+      "type": "intro",
+      "text": "zapnúť – vypnúť = to switch on – to switch off",
+      "picture": "Two halves at Emma's desk at her internship. Left: early morning, the office bright and still empty, Emma presses the power button and her computer screen lights up. Right: late in the evening, the office dark beyond her desk lamp, she switches the computer off, worn out.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l6",
+      "exercise": "cakajte-na-linke",
+      "type": "intro",
+      "text": "Čakajte na linke, prosím. = Please hold the line.",
+      "picture": "At the reception desk of Tomáš's company, Emma, the phone at her ear, politely asks a caller to hold, one finger raised; through the glass of a nearby office, Tomáš is deep in another call at his desk.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l6",
+      "exercise": "choice-klient-vola-tomasa",
+      "type": "choice",
+      "text": "A client calls for Tomáš, and he's on another call. What does Emma say?",
+      "reuse": "a2-u10-l6#cakajte-na-linke",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l7",
+      "exercise": "mam-toho-po",
+      "type": "intro",
+      "text": "Mám toho po krk! = I'm sick of it!",
+      "picture": "Late evening in the dorm room: Emma, home at last after a long day at work, drops her bag on the floor, kicks off her shoes and throws up her arms, fed up. Lucia looks up from her bed.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l7",
+      "exercise": "zobrat-si-volno",
+      "type": "intro",
+      "text": "zobrať si voľno = to take time off",
+      "reuse": "a2-u2-l1#oddychovat-a-pozerat",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l7",
+      "exercise": "chod-na-prechadzku",
+      "type": "intro",
+      "text": "Choď na prechádzku! = Go for a walk!",
+      "picture": "In the dorm room, Lucia holds out Emma's jacket and points firmly at the door; Emma, slumped over her laptop at her desk, looks up reluctantly. Through the window, a sunny afternoon.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l7",
+      "exercise": "nepi-tolko-kavy",
+      "type": "intro",
+      "text": "Nepi toľko kávy! = Don't drink so much coffee!",
+      "picture": "Late at night in the dorm kitchen, Lucia takes a mug of coffee out of Emma's hand. Three empty mugs already stand next to Emma's laptop, and Emma's eyes are wide and twitchy.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l8",
+      "exercise": "znamenie",
+      "type": "intro",
+      "text": "znamenie = star sign",
+      "picture": "The twelve star signs drawn round a big circle like a clock face: a ram, a bull, twins, a crab, a lion, a young woman holding a sheaf of wheat, a pair of scales, a scorpion, an archer, a goat with a fish's tail, a man pouring water from a jug, and two fish.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l8",
+      "exercise": "grammar-twelve-signs",
+      "type": "grammar",
+      "text": "The twelve signs",
+      "reuse": "a2-u10-l8#znamenie",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l8",
+      "exercise": "som-byk",
+      "type": "intro",
+      "text": "Som Býk. = I'm a Taurus.",
+      "reuse": "a2-u10-l8#znamenie",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l8",
+      "exercise": "choice-som-baran",
+      "type": "choice",
+      "text": "Tomáš was born on 21 March. What does he say?",
+      "reuse": "a2-u10-l8#znamenie",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l8",
+      "exercise": "mam-stastie",
+      "type": "intro",
+      "text": "Mám šťastie. = I'm lucky.",
+      "picture": "In the park, Emma crouches in the grass and holds up a four-leaf clover she has just found, beaming; Tomáš, on his park bench, laughs.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l8",
+      "exercise": "veris-horoskopom",
+      "type": "intro",
+      "text": "Veríš horoskopom? = Do you believe in horoscopes?",
+      "picture": "At breakfast in the dorm kitchen, Emma reads her horoscope in the student magazine, wide-eyed, believing every word; Lucia, who wrote it, raises an eyebrow at her over her mug.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l8",
+      "exercise": "piatok-trinasteho",
+      "type": "intro",
+      "text": "piatok trinásteho = Friday the thirteenth",
+      "picture": "Emma, still in her pyjamas and wrapped in a blanket, peers warily out of the dorm room door: a black cat sits in the corridor right outside, staring at her. She's about to shut the door and stay in.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l9",
+      "exercise": "stretnut-sa-stretavat",
+      "type": "intro",
+      "text": "stretnúť sa – stretávať sa = to meet once – to meet often",
+      "reuse": "a2-u2-l1#stretavat-sa-s",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l9",
+      "exercise": "davajte-si-pozor",
+      "type": "intro",
+      "text": "Dávajte si pozor na peniaze. = Be careful with money.",
+      "reuse": "a2-u7-l2#davaj-si-pozor",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l9",
+      "exercise": "neponahlajte-sa",
+      "type": "intro",
+      "text": "Neponáhľajte sa. = Don't rush.",
+      "reuse": "u7-l6#choice-nestihol-som-autobus",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l9",
+      "exercise": "zit-na-vysokej",
+      "type": "intro",
+      "text": "žiť na vysokej nohe = to live it up, to live in luxury",
+      "picture": "Tomáš living it up: in sunglasses and a white linen suit, he lounges on the deck of a yacht in the sun, a glass of champagne in one hand and a plate of lobster beside him, shopping bags from expensive shops piled around his deckchair.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l9",
+      "exercise": "choice-nezite-na-vysokej",
+      "type": "choice",
+      "text": "For Taureans, Lucia writes: Nežite tento týždeň na vysokej nohe. What does she mean?",
+      "reuse": "a2-u10-l8#veris-horoskopom",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l10",
+      "exercise": "choice-radsej-chod-spat",
+      "type": "choice",
+      "text": "Emma is very tired. What does Lucia tell her?",
+      "reuse": "u7-l1#referat",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l11",
+      "exercise": "kariera",
+      "type": "intro",
+      "text": "kariéra = career",
+      "reuse": "u8-l1#pohovor",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l11",
+      "exercise": "vydat-sa-ozenit",
+      "type": "intro",
+      "text": "vydať sa – oženiť sa = to get married (a woman – a man)",
+      "reuse": "u4-rodina#zenaty-vydata",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l11",
+      "exercise": "materska-dovolenka",
+      "type": "intro",
+      "text": "materská dovolenka = maternity leave",
+      "picture": "A weekday morning in a park: a young mother on maternity leave pushes a pram along the path, her baby asleep inside, and stops to smile at it, while people with briefcases hurry past to work.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l11",
+      "exercise": "choice-po-materskej-dovolenke",
+      "type": "choice",
+      "text": "Lucia's mum went back to work after her maternity leave. Which sentence says that?",
+      "reuse": "a2-u10-l11#materska-dovolenka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l11",
+      "exercise": "dieta-tinedzer-dospely",
+      "type": "intro",
+      "text": "dieťa – tínedžer – dospelý = child – teenager – adult",
+      "reuse": "u4-rodina#syn-a-dcera",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l11",
+      "exercise": "travit-cas",
+      "type": "intro",
+      "text": "tráviť čas = to spend time",
+      "reuse": "a2-u2-l1#volny-cas",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l11",
+      "exercise": "choice-aky-je-vas",
+      "type": "choice",
+      "text": "Lucia asks pani Horváthová for the poll. What does she say?",
+      "reuse": "a2-u10-l1#anketa",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l12",
+      "exercise": "hlasovalo-dvesto-studentov",
+      "type": "intro",
+      "text": "Hlasovalo dvesto študentov. = Two hundred students voted.",
+      "reuse": "a2-u10-l3#vacsina",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l13",
+      "exercise": "som-same-ucho",
+      "type": "intro",
+      "text": "Som samé ucho. = I'm all ears.",
+      "picture": "In the dorm room, Lucia sits cross-legged on her bed, chin propped on her hands, all ears, her phone recording on the blanket in front of her; Emma, on her own bed, starts telling her story.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l13",
+      "exercise": "vzdelanie",
+      "type": "intro",
+      "text": "vzdelanie = education",
+      "reuse": "u8-l1#zivotopis",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l13",
+      "exercise": "ekonomia",
+      "type": "intro",
+      "text": "ekonómia = economics",
+      "reuse": "u7-l1#prednaska",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l13",
+      "exercise": "chyba-mi-rodina",
+      "type": "intro",
+      "text": "Chýba mi rodina. = I miss my family.",
+      "picture": "Evening in the dorm room: Emma sits on her bed holding a framed photo of Emma's mum, Emma's dad and Emma's brother and sister in their back garden in Ireland. She looks at it, homesick, with a sad little smile.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l13",
+      "exercise": "rozhodla-som-sa",
+      "type": "intro",
+      "text": "Rozhodla som sa zostať. = I've decided to stay. (a woman speaking)",
+      "picture": "In the dorm room, Emma has just told Lucia her decision: she's staying another year. Lucia throws her arms round her with a shriek of joy, and Emma laughs.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l13",
+      "exercise": "choice-preco-si-sa",
+      "type": "choice",
+      "text": "Lucia asks: Prečo si sa rozhodla zostať? Which answer gives a reason?",
+      "reuse": "a2-u10-l13#som-same-ucho",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-spomienky",
+      "exercise": "pamatas-si",
+      "type": "intro",
+      "text": "Pamätáš si? = Do you remember?",
+      "picture": "The evening before Emma signs the contract: Emma and Lucia sit close together on Emma's bed in the dorm room, a laptop on their knees, scrolling through photos of the last two years and laughing at one of them.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-spomienky",
+      "exercise": "na-zaciatku",
+      "type": "intro",
+      "text": "na začiatku = at the beginning, at first",
+      "reuse": "u3-l1#kde-je-kuchyna",
+      "book": null
+    },
+    {
+      "lesson": "a2-u10-l14",
+      "exercise": "choice-emma-chce-lucii",
+      "type": "choice",
+      "text": "Emma wants to tell Lucia about her day. What does Lucia say?",
+      "reuse": "a2-u10-l13#som-same-ucho",
+      "book": null
+    }
+  ]
+}

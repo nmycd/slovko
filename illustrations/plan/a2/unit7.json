@@ -1,0 +1,710 @@
+{
+  "unit": "a2-u7",
+  "pictures": 34,
+  "items": [
+    {
+      "lesson": "a2-u7-l1",
+      "exercise": "vylet",
+      "type": "intro",
+      "text": "výlet po Slovensku = a trip around Slovakia",
+      "reuse": "a2-u7-l2#som-na-ceste",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l1",
+      "exercise": "hory",
+      "type": "intro",
+      "text": "do hôr = to the mountains",
+      "reuse": "a2-u7-l9#tura",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l1",
+      "exercise": "choice-v-maji-ideme",
+      "type": "choice",
+      "text": "V máji ideme na výlet do hôr. What does this mean?",
+      "reuse": "a2-u7-l9#tura",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l1",
+      "exercise": "mat-v-plane",
+      "type": "intro",
+      "text": "mať v pláne = to plan, to have in mind",
+      "picture": "Evening in the dorm kitchen: Emma, Lucia, Tomáš and Marek lean over a big map of Slovakia spread out on the table. Emma draws a route with a pen in a loop from Bratislava up to the mountains and back; Marek points to a castle on the map and Tomáš nods. No names or letters on the map.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l1",
+      "exercise": "navrh",
+      "type": "choice",
+      "text": "Emma has an idea for the trip. What does she say?",
+      "reuse": "a2-u7-l1#mat-v-plane",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l1",
+      "exercise": "choice-to-znie-dobre",
+      "type": "choice",
+      "text": "Lucia suggests a weekend in the Tatras. Tomáš likes the idea. What does he say?",
+      "reuse": "a2-u7-l1#mat-v-plane",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l1",
+      "exercise": "uz-sa-neviem-dockat",
+      "type": "intro",
+      "text": "Už sa neviem dočkať! = I can't wait!",
+      "picture": "The night before the trip, in Emma and Lucia's dorm room: Emma, already in her hiking boots, sits on her packed backpack and grins at the clock, far too excited to sleep. Lucia, in pyjamas, laughs at her from her bed.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l2",
+      "exercise": "som-na-ceste",
+      "type": "intro",
+      "text": "Som na ceste. = I'm on my way.",
+      "picture": "Friday morning, Tomáš's car on the road out of Bratislava, the city behind and green hills ahead, bags piled in the boot. Tomáš is at the wheel, Marek beside him holding a road map, Lucia in the back on her phone, and Emma asleep against the back window.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l2",
+      "exercise": "davaj-si-pozor",
+      "type": "intro",
+      "text": "Dávaj si pozor! = Be careful!",
+      "picture": "Split picture of a phone call. Left: Lucia's mum, in a white nurse's tunic in a hospital corridor in Žilina, holds her phone to her ear and raises a warning finger, worried. Right: Lucia, in the back seat of Tomáš's car with the countryside going past, phone to her ear, smiles and rolls her eyes fondly.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l2",
+      "exercise": "choice-sme-na-ceste",
+      "type": "choice",
+      "text": "Lucia's mum calls. Lucia is in the car with her friends. What does she say?",
+      "reuse": "a2-u7-l2#davaj-si-pozor",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l2",
+      "exercise": "nerob-si-starosti",
+      "type": "intro",
+      "text": "Nerob si starosti. = Don't worry.",
+      "reuse": "a2-u7-l2#davaj-si-pozor",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l2",
+      "exercise": "choice-nerob-si-starosti",
+      "type": "choice",
+      "text": "Lucia's mum is worried about the trip. What does Lucia tell her?",
+      "reuse": "a2-u7-l2#davaj-si-pozor",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l2",
+      "exercise": "zdravotnik",
+      "type": "intro",
+      "text": "zdravotník = health worker",
+      "reuse": "a2-u7-l2#davaj-si-pozor",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l2",
+      "exercise": "o-co-som-prisla",
+      "type": "intro",
+      "text": "O čo som prišla? = What have I missed? (a woman speaking)",
+      "picture": "Later in Tomáš's car: Emma wakes up in the back seat, rubbing her eyes and blinking at the wooded hills outside; Lucia, beside her, laughs, and Marek turns round from the front seat grinning.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l2",
+      "exercise": "dufam-ze-to",
+      "type": "intro",
+      "text": "Dúfam, že to stihneme. = I hope we make it.",
+      "reuse": "a2-u7-l2#som-na-ceste",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l4",
+      "exercise": "vstupenka",
+      "type": "intro",
+      "text": "vstupenka = (entrance) ticket",
+      "picture": "At the ticket office by the gate at the foot of Orava Castle, the castle rising in tiers up its rock behind: the cashier slides four tickets through the window to Tomáš, while Emma and Lucia hold up their student cards beside him.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l4",
+      "exercise": "prehliadka",
+      "type": "intro",
+      "text": "prehliadka = (guided) tour",
+      "picture": "Inside Orava Castle, a young woman guide leads a small group of visitors through an old hall with suits of armour and dark portraits on the walls; Emma, Lucia, Tomáš and Marek listen among them, Emma gazing round in wonder.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l4",
+      "exercise": "prehliadka-je-vypredana",
+      "type": "intro",
+      "text": "Prehliadka je vypredaná. = The tour is sold out.",
+      "picture": "At the ticket office at the foot of Orava Castle, the cashier spreads her hands apologetically behind her window; Emma, at the front of the queue, sighs in disappointment while Lucia, Tomáš and Marek look at their watches.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l4",
+      "exercise": "studentsky-preukaz",
+      "type": "intro",
+      "text": "študentský preukaz = student card",
+      "reuse": "a2-u7-l4#vstupenka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l4",
+      "exercise": "sprievodca",
+      "type": "intro",
+      "text": "sprievodca = guide",
+      "reuse": "a2-u7-l4#prehliadka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l4",
+      "exercise": "chceli-sme-vas",
+      "type": "intro",
+      "text": "Chceli sme vás prekvapiť. = We wanted to surprise you.",
+      "picture": "After the tour, at the gate of Orava Castle: Lucia's mum and Lucia's dad stand waiting with big smiles. Lucia, astonished, runs to hug them, while Emma, Tomáš and Marek look on, laughing.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l6",
+      "exercise": "penzion",
+      "type": "intro",
+      "text": "penzión = guesthouse, B&B",
+      "picture": "Evening in the Tatras: Tomáš's car pulls up in front of pani Sokolová's guesthouse, a chalet-style house with a steep roof and wooden balconies, the mountains behind it. Emma, Lucia, Tomáš and Marek get out and unload their bags.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l6",
+      "exercise": "mam-rezervaciu",
+      "type": "intro",
+      "text": "Mám rezerváciu. = I have a reservation.",
+      "picture": "At the small reception desk of the guesthouse, a rack of keys on the wall behind it and a card reader on the counter: Emma, her passport in her hand, leans on the counter and talks to pani Sokolová, who runs a finger down the page of her big bookings book. Lucia, Tomáš and Marek wait behind with their bags.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l6",
+      "exercise": "ubytovat-sa",
+      "type": "intro",
+      "text": "ubytovať sa = to check in, to get a room",
+      "reuse": "a2-u7-l6#mam-rezervaciu",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l6",
+      "exercise": "choice-vas-pas-prosim",
+      "type": "choice",
+      "text": "The receptionist needs to see Emma's passport. What does she say?",
+      "reuse": "a2-u7-l6#mam-rezervaciu",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l6",
+      "exercise": "dvojpostelova-izba",
+      "type": "intro",
+      "text": "dvojposteľová izba = double room, twin room",
+      "picture": "Upstairs in the guesthouse: a twin room with pine furniture, two beds side by side and a balcony door looking out at the peaks. Emma and Lucia drop their bags and Lucia flops happily onto one of the beds.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l6",
+      "exercise": "kluc",
+      "type": "intro",
+      "text": "kľúč = key",
+      "picture": "Pani Sokolová takes two room keys with big wooden fobs from the rack behind the reception desk and hands them to Emma with a warm smile.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l6",
+      "exercise": "ranajky",
+      "type": "intro",
+      "text": "raňajky = breakfast",
+      "picture": "Morning in the guesthouse breakfast room, wooden tables and a big window onto the peaks: Emma, Lucia, Tomáš and Marek have breakfast of rolls, eggs, cheese, ham and jam, while pani Sokolová brings a pot of coffee to the table.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l6",
+      "exercise": "choice-ranajky-podavame-od",
+      "type": "choice",
+      "text": "Raňajky podávame od pol ôsmej do desiatej. When can you have breakfast?",
+      "reuse": "a2-u7-l6#ranajky",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l6",
+      "exercise": "prajem-vam-prijemny",
+      "type": "intro",
+      "text": "Prajem vám príjemný pobyt. = Enjoy your stay.",
+      "reuse": "a2-u7-l6#kluc",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l8",
+      "exercise": "informacne-centrum",
+      "type": "intro",
+      "text": "informačné centrum = tourist information (office)",
+      "picture": "A small tourist information office in a Tatra village: racks of colourful brochures, a big map of the mountains on the wall, a desk. A friendly woman behind the desk hands Emma a brochure and a folded map, while Lucia leafs through a brochure full of photos of waterfalls, castles and lakes. No words on the brochures or the map.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l8",
+      "exercise": "brozurka",
+      "type": "intro",
+      "text": "brožúrka = brochure, leaflet",
+      "reuse": "a2-u7-l8#informacne-centrum",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l8",
+      "exercise": "choice-mate-mapu-tatier",
+      "type": "choice",
+      "text": "Emma wants a map of the Tatras. What does she ask?",
+      "reuse": "a2-u7-l8#informacne-centrum",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l8",
+      "exercise": "co-nam-odporucate",
+      "type": "intro",
+      "text": "Čo nám odporúčate? = What do you recommend? (polite)",
+      "reuse": "a2-u7-l8#informacne-centrum",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l8",
+      "exercise": "choice-na-slovensku-si",
+      "type": "choice",
+      "text": "Na Slovensku si každý príde na svoje. The brochure says this about Slovakia. What does it mean?",
+      "reuse": "a2-u7-l8#informacne-centrum",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l8",
+      "exercise": "otvorene-a-zatvorene",
+      "type": "intro",
+      "text": "otvorené a zatvorené = open and closed",
+      "picture": "Two halves showing the same small museum door in a Tatra village. Left: the door stands wide open, lights on inside, and a family walks in. Right: the door is shut with a grille pulled across it, the windows dark, and Marek stands outside looking disappointed.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l8",
+      "exercise": "choice-muzeum-otvorene-od",
+      "type": "choice",
+      "text": "Múzeum: otvorené od 9.00 do 17.00, v pondelok zatvorené. A sign on the door. Can you visit the museum on Monday?",
+      "reuse": "a2-u7-l8#otvorene-a-zatvorene",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l8",
+      "exercise": "dakujem-vam-za",
+      "type": "intro",
+      "text": "Ďakujem vám za ochotu. = Thank you for your help.",
+      "reuse": "a2-u7-l8#informacne-centrum",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l8",
+      "exercise": "choice-dakujem-vam-za",
+      "type": "choice",
+      "text": "The woman at the desk has helped them a lot. What does Emma say as she leaves?",
+      "reuse": "a2-u7-l8#informacne-centrum",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l9",
+      "exercise": "tura",
+      "type": "intro",
+      "text": "túra = hike",
+      "picture": "A sunny morning in the High Tatras: Emma, Lucia, Tomáš and Marek set off on a hike with backpacks and walking poles, jagged grey peaks rising above the green valley ahead of them.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l9",
+      "exercise": "turisticky-chodnik",
+      "type": "intro",
+      "text": "turistický chodník = hiking trail",
+      "picture": "A stony hiking trail winds up through dwarf pines in the Tatras; red-and-white painted stripes mark the rocks and a tree trunk beside it, and a wooden signpost with blank arms stands at a fork. Lucia, leading, points the way along the marks and the others follow.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l9",
+      "exercise": "vodopad",
+      "type": "intro",
+      "text": "vodopád = waterfall",
+      "picture": "In a wooded mountain valley, a tall waterfall tumbles over rocks into a foaming pool; the four friends stand on a small wooden footbridge in front of it, Emma gazing up in delight and Marek taking a photo.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l9",
+      "exercise": "chata",
+      "type": "intro",
+      "text": "chata = mountain hut, chalet",
+      "picture": "A stone-and-timber mountain hut high in the Tatras, smoke rising from its chimney, hikers resting on benches outside; Emma, Lucia, Tomáš and Marek sit at a wooden table in front of it with steaming mugs of tea.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l9",
+      "exercise": "les",
+      "type": "intro",
+      "text": "les = forest, wood",
+      "picture": "Deep in a green spruce forest, sunlight slanting between the tall trunks: Emma, Lucia, Tomáš and Marek walk along a path of roots and needles, small among the huge trees.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l9",
+      "exercise": "pleso",
+      "type": "intro",
+      "text": "pleso = mountain lake",
+      "picture": "A small, clear mountain lake high in the Tatras, mirroring the rocky peaks around it; the four friends sit on boulders at its edge eating sandwiches.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l9",
+      "exercise": "kondicia",
+      "type": "intro",
+      "text": "kondícia = fitness, shape",
+      "picture": "On a steep mountain trail, Lucia, Emma and Tomáš wait far up near the top; Marek, a long way behind, red-faced and puffing, leans on his walking poles and calls up to them.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l9",
+      "exercise": "choice-pockajte-na-mna",
+      "type": "choice",
+      "text": "Marek is tired and far behind the others. What does he call out?",
+      "reuse": "a2-u7-l9#kondicia",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l11",
+      "exercise": "mam-jednu-prosbu",
+      "type": "intro",
+      "text": "Mám jednu prosbu. = I have a favour to ask.",
+      "reuse": "a2-u7-l6#mam-rezervaciu",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l11",
+      "exercise": "predlzit-pobyt",
+      "type": "intro",
+      "text": "predĺžiť pobyt = to extend your stay",
+      "reuse": "a2-u7-l6#mam-rezervaciu",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l11",
+      "exercise": "choice-ubytovanie-mame-len",
+      "type": "choice",
+      "text": "Ubytovanie máme len do pondelka. Emma explains the problem. What is it?",
+      "reuse": "a2-u7-l6#mam-rezervaciu",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l11",
+      "exercise": "choice-bohuzial-na-pondelok",
+      "type": "choice",
+      "text": "Bohužiaľ, na pondelok máme všetko obsadené. What does pani Sokolová tell them?",
+      "reuse": "a2-u7-l6#mam-rezervaciu",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l11",
+      "exercise": "zariadim-to",
+      "type": "intro",
+      "text": "Zariadim to. = I'll arrange it.",
+      "reuse": "a2-u7-l6#mam-rezervaciu",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l11",
+      "exercise": "choice-dokedy-chcete-zostat",
+      "type": "choice",
+      "text": "Dokedy chcete zostať? – Do utorka. How long do they want to stay?",
+      "reuse": "a2-u7-l6#mam-rezervaciu",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l11",
+      "exercise": "jaskyna",
+      "type": "intro",
+      "text": "jaskyňa = cave",
+      "picture": "Inside a big cave in the Low Tatras: lit-up stalactites and stalagmites, a narrow path with a railing. Emma, Lucia, Tomáš and Marek, zipped up in jackets, their breath steaming in the cold, gaze up in wonder; Emma hugs herself to keep warm.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l11",
+      "exercise": "kupalisko",
+      "type": "intro",
+      "text": "kúpalisko = swimming pool (outdoor or thermal)",
+      "picture": "Evening at an outdoor thermal pool, steam rising off the warm water, the mountains behind; Emma, Lucia, Tomáš and Marek relax in the pool, Marek floating on his back.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l12",
+      "exercise": "peniaze",
+      "type": "intro",
+      "text": "peniaze = money",
+      "reuse": "a2-u7-l12#bankomat",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l12",
+      "exercise": "zmenaren",
+      "type": "intro",
+      "text": "zmenáreň = exchange office, bureau de change",
+      "picture": "At the window of a small exchange office in a Tatra town, Marek slides a few euro notes under the glass; the clerk behind it counts out Polish banknotes for him. Above the window, a board of little national flags with blank panels beside them.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l12",
+      "exercise": "vymenit",
+      "type": "intro",
+      "text": "vymeniť peniaze = to change money",
+      "reuse": "a2-u7-l12#zmenaren",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l12",
+      "exercise": "kurz",
+      "type": "intro",
+      "text": "kurz = exchange rate",
+      "reuse": "a2-u7-l12#zmenaren",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l12",
+      "exercise": "choice-aky-je-dnes",
+      "type": "choice",
+      "text": "Aký je dnes kurz? What is Marek asking at the exchange office?",
+      "reuse": "a2-u7-l12#zmenaren",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l12",
+      "exercise": "bankomat",
+      "type": "intro",
+      "text": "bankomat = cash machine, ATM",
+      "picture": "On a street in a Tatra town, Tomáš takes a handful of banknotes out of a cash machine in a wall; Lucia, behind him, taps his shoulder and points at the machine with a warning look.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l12",
+      "exercise": "poplatok",
+      "type": "intro",
+      "text": "poplatok = fee, charge",
+      "reuse": "a2-u7-l12#bankomat",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l12",
+      "exercise": "choice-platite-kartou-alebo",
+      "type": "choice",
+      "text": "Platíte kartou alebo v hotovosti? Monday morning, checking out of the guesthouse. What does the receptionist want to know?",
+      "reuse": "a2-u7-l6#mam-rezervaciu",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l13",
+      "exercise": "sever-a-juh",
+      "type": "intro",
+      "text": "sever a juh = north and south",
+      "picture": "On the wall of the guesthouse breakfast room hangs a big map of Slovakia: its eight regions in different soft colours, the neighbouring countries round it in grey, mountains along the top and the Danube along the bottom, and a compass rose with four plain arrows in the corner. Emma traces the mountains in the north with her finger while Lucia points down to the Danube in the south. No names or letters on the map.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l13",
+      "exercise": "vychod-a-zapad",
+      "type": "intro",
+      "text": "východ a západ = east and west",
+      "reuse": "a2-u7-l13#sever-a-juh",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l13",
+      "exercise": "choice-vysoke-tatry-su",
+      "type": "choice",
+      "text": "Vysoké Tatry sú na severe Slovenska, pri hranici s Poľskom. Emma reads a brochure at the guesthouse. Where are the High Tatras?",
+      "reuse": "a2-u7-l13#sever-a-juh",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l13",
+      "exercise": "slovensko-susedi-s",
+      "type": "intro",
+      "text": "Slovensko susedí s Poľskom. = Slovakia borders Poland.",
+      "reuse": "a2-u7-l13#sever-a-juh",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l13",
+      "exercise": "kraj",
+      "type": "intro",
+      "text": "kraj = region",
+      "reuse": "a2-u7-l13#sever-a-juh",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l13",
+      "exercise": "choice-kde-sa-nachadza",
+      "type": "choice",
+      "text": "Kde sa nachádza Gerlachovský štít? Kde sa nachádza…? = Where is … (located)? Where is Gerlachovský štít, the highest peak in Slovakia (2,655 m)?",
+      "reuse": "a2-u7-l9#tura",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l13",
+      "exercise": "choice-slovensky-raj-je",
+      "type": "choice",
+      "text": "Slovenský raj je národný park s vodopádmi. In the brochure: “raj” means paradise. What is Slovenský raj?",
+      "reuse": "a2-u7-l9#vodopad",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l13",
+      "exercise": "ostrov",
+      "type": "intro",
+      "text": "ostrov = island",
+      "reuse": "u2-l1#som-z-irska",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l14",
+      "exercise": "banske-mesto",
+      "type": "intro",
+      "text": "banské mesto = mining town",
+      "picture": "Banská Štiavnica, an old mining town: steep cobbled streets and pastel houses climbing the hillsides, an old castle above the rooftops and a white castle on the hill opposite. Emma, Lucia, Tomáš and Marek walk up a steep street, Marek taking a photo.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l14",
+      "exercise": "skanzen",
+      "type": "intro",
+      "text": "skanzen = open-air museum",
+      "picture": "At an open-air mining museum, old mine carts stand on rails outside a tunnel propped with timber; Emma, Lucia, Tomáš and Marek, in hard hats with lamps, follow a guide into the dark tunnel.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l14",
+      "exercise": "choice-rano-sme-boli",
+      "type": "choice",
+      "text": "Ráno sme boli v jaskyni. Bolo tam len šesť stupňov. Monday morning they were in the cave. What was it like?",
+      "reuse": "a2-u7-l11#jaskyna",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l14",
+      "exercise": "ako-sa-dostaneme",
+      "type": "intro",
+      "text": "Ako sa dostaneme do skanzenu? = How do we get to the open-air museum?",
+      "reuse": "u4-l2#chodte-rovno-potom",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l14",
+      "exercise": "odbocit",
+      "type": "intro",
+      "text": "odbočiť = to turn (off)",
+      "reuse": "u4-l2#chodte-rovno-potom",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l14",
+      "exercise": "zabludit",
+      "type": "intro",
+      "text": "zablúdiť = to get lost",
+      "picture": "Emma alone in a maze of steep, narrow old streets in Banská Štiavnica, her phone to her ear, turning round on the spot, lost and anxious.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l14",
+      "exercise": "choice-zabludila-som",
+      "type": "choice",
+      "text": "Emma can't find the others. What does she say on the phone?",
+      "reuse": "a2-u7-l14#zabludit",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l15",
+      "exercise": "pohladnica",
+      "type": "intro",
+      "text": "pohľadnica = postcard",
+      "picture": "Evening in the guesthouse breakfast room: Emma sits at a wooden table writing a postcard to her family, a little pile of picture postcards of the mountains beside her; Lucia, next to her, reads a brochure.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l15",
+      "exercise": "znamka",
+      "type": "choice",
+      "text": "Emma needs a stamp for her postcard to Dublin. What does she say at the post office?",
+      "reuse": "u4-l2#posta-je-oproti",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l15",
+      "exercise": "pozdrav-z-tatier",
+      "type": "intro",
+      "text": "Pozdrav z Tatier! = Greetings from the Tatras!",
+      "picture": "At the red front door of Emma's family home in Ireland, Emma's mum reads Emma's postcard, its picture of rocky peaks above a mountain lake facing us; Emma's dad and Emma's brother and sister crowd round her to see.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l15",
+      "exercise": "nezabudnutelny",
+      "type": "intro",
+      "text": "nezabudnuteľný = unforgettable",
+      "picture": "At sunset on a mountain ridge in the Tatras, Emma, Lucia, Tomáš and Marek stand arm in arm, looking out over the peaks glowing pink and gold: a moment none of them will ever forget.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l15",
+      "exercise": "choice-ahojte-pozdravujem-vas",
+      "type": "choice",
+      "text": "Ahojte! Pozdravujem vás z Tatier. Je tu prekrásne a výlet je nezabudnuteľný. Emma's postcard. How is the trip going?",
+      "reuse": "a2-u7-l15#pozdrav-z-tatier",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l15",
+      "exercise": "majte-sa-pekne",
+      "type": "intro",
+      "text": "Majte sa pekne! = Take care! / All the best!",
+      "reuse": "a2-u7-l15#pohladnica",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l15",
+      "exercise": "choice-ako-konci-emma",
+      "type": "choice",
+      "text": "How does Emma end her postcard to the whole family?",
+      "reuse": "a2-u7-l15#pohladnica",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l16",
+      "exercise": "grammar-ked-kym-aspect",
+      "type": "grammar",
+      "text": "Keď and kým: how two actions fit",
+      "reuse": "a2-u7-l2#som-na-ceste",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l17",
+      "exercise": "choice-prehliadka-je-vypredana",
+      "type": "choice",
+      "text": "Prehliadka je vypredaná. Listen. What does the cashier say?",
+      "reuse": "a2-u7-l4#prehliadka-je-vypredana",
+      "book": null
+    },
+    {
+      "lesson": "a2-u7-l17",
+      "exercise": "choice-ako-bolo-na",
+      "type": "choice",
+      "text": "Back at the dorm, pán Kováč asks: Ako bolo na výlete? Emma loved it. What does she say?",
+      "reuse": "a2-u7-l15#nezabudnutelny",
+      "book": null
+    }
+  ]
+}

@@ -1,1 +1,70 @@
-{}
+{
+  "a2-u1-skusky": [
+    {"after":"urobit-skusku","sk":"potrebujem"}
+  ],
+  "a2-u1-l7": [
+    {"after":"grammar-end-of-word","sk":"rada"},
+    {"after":"match-hrad","sk":"podpis","gloss":"a2-u1-l7#podpis"}
+  ],
+  "a2-u1-l8": [
+    {"after":"grammar-before-vowel","sk":"idem"},
+    {"after":"match-v-piatok","sk":"vlak"}
+  ],
+  "a2-u2-l1": [
+    {"after":"kreslit-a-fotografovat","sk":"robíš"},
+    {"after":"build-lucia-rada-fotografuje","sk":"voľnom"},
+    {"after":"oddychovat-a-pozerat","sk":"čase"}
+  ],
+  "a2-u2-l4": [
+    {"after":"choice-emma-a-lucia-maju","sk":"domov"}
+  ],
+  "a2-u2-l8": [
+    {"after":"vystava","sk":"ideme"}
+  ],
+  "a2-u2-l11": [
+    {"after":"fill-emma-pride-so","sk":"príde"}
+  ],
+  "a2-u2-l13": [
+    {"after":"fill-prepac-vcera-som","sk":"tretie"}
+  ],
+  "a2-u3-pozvanka": [
+    {"after":"chces-prist-k-nam","sk":"Vianoce"}
+  ],
+  "a2-u4-l2": [
+    {"after":"vlak-meska-desat-minut","sk":"nástupište","gloss":"a2-u4-l2#nastupiste"}
+  ],
+  "a2-u4-l12": [
+    {"after":"zastavka","sk":"ceste"}
+  ],
+  "a2-u5-l1": [
+    {"after":"fill-emma-kasle-a-ma","sk":"hrdlo"},
+    {"after":"build-dakujem-za-pozvanie","sk":"kašlem","gloss":"a2-u5-l1#kaslem"}
+  ],
+  "a2-u5-l8": [
+    {"after":"build-ale-musim-ist","sk":"šesť"}
+  ],
+  "a2-u5-l16": [
+    {"after":"fill-dam-si-salku","sk":"kilo","gloss":"a2-u9-l9#kilo"}
+  ],
+  "a2-u6-l2": [
+    {"after":"choice-prepacte-pomylil-som-sa","sk":"volala"},
+    {"after":"fill-asi-ste-sa-pomylili","sk":"chvíľou"}
+  ],
+  "a2-u6-l4": [
+    {"after":"poviem-mu-to","sk":"hodinu"}
+  ],
+  "a2-u7-l1": [
+    {"after":"build-mam-navrh-pojdeme","sk":"budeme"}
+  ],
+  "a2-u8-l1": [
+    {"after":"choice-mas-chvilu","sk":"festival","gloss":"a2-u8-l1#festival"},
+    {"after":"choice-mohli-by-sme","sk":"júli"}
+  ],
+  "a2-u9-l4": [
+    {"after":"listky-su-vypredane","sk":"zmenila"}
+  ],
+  "a2-u9-l9": [
+    {"after":"fill-prosim-si-pol","sk":"jahôd"},
+    {"after":"salka","sk":"vajec"}
+  ]
+}

@@ -1,0 +1,670 @@
+{
+  "unit": "a2-u6",
+  "pictures": 34,
+  "items": [
+    {
+      "lesson": "a2-u6-l1",
+      "exercise": "nerusim",
+      "type": "intro",
+      "text": "Neruším? = Am I disturbing you? (on the phone)",
+      "picture": "Split picture of a phone call. Left: Tomáš, at his desk at home in Košice beside his laptop, holds his phone to his ear, a little hesitant. Right: Emma, curled up on her bed in the dorm room with a book, answers with a smile, glad to talk.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l1",
+      "exercise": "choice-nerusis-pokojne-hovor",
+      "type": "choice",
+      "text": "Tomáš calls: “Ahoj, Emma, tu je Tomáš. Neruším?” Emma has time. What does she say?",
+      "reuse": "a2-u6-l1#nerusim",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l1",
+      "exercise": "nechces-ist-s-nami",
+      "type": "intro",
+      "text": "Nechceš ísť s nami na výlet? = Would you like to come on a trip with us?",
+      "picture": "Split picture of a phone call. Left: Emma, at her desk in the dorm room with a big map of Slovakia spread out in front of her, invites someone on a trip, excited. Right: Marek, on the sofa in his flat, his arm still in a plaster cast and a sling, brightens up at the idea.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l1",
+      "exercise": "overim-si-to",
+      "type": "intro",
+      "text": "Overím si to. = I'll check.",
+      "picture": "In his flat, Marek, his phone wedged between ear and shoulder, flips through the wall calendar with his good hand to check a date; his other arm is in a plaster cast and a sling.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l1",
+      "exercise": "premysli-si-to",
+      "type": "intro",
+      "text": "Premysli si to. = Think it over.",
+      "picture": "Split picture of a phone call. Left: Emma, phone at her ear, smiles patiently. Right: Marek on his sofa, his arm in a plaster cast, scratches his head with his good hand, undecided.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l1",
+      "exercise": "daj-mi-vediet",
+      "type": "intro",
+      "text": "Daj mi vedieť. = Let me know.",
+      "reuse": "a2-u6-l1#premysli-si-to",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l1",
+      "exercise": "vyhovuje-ti-to",
+      "type": "intro",
+      "text": "Vyhovuje ti to? = Does that suit you?",
+      "reuse": "a2-u6-l1#overim-si-to",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l1",
+      "exercise": "choice-vyhovuje-ti-piatok",
+      "type": "choice",
+      "text": "Emma wants to know if Friday suits Marek. What does she ask?",
+      "reuse": "a2-u6-l1#overim-si-to",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l1",
+      "exercise": "zatial",
+      "type": "intro",
+      "text": "Zatiaľ! = Bye for now! See you!",
+      "reuse": "u2-telefon#dopocutia",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l1",
+      "exercise": "choice-maj-sa-aj-ty",
+      "type": "choice",
+      "text": "At the end of the call Marek says “Maj sa!”. What do you answer?",
+      "reuse": "u2-telefon#dopocutia",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l2",
+      "exercise": "pocujeme-sa",
+      "type": "intro",
+      "text": "Počujeme sa? = Can you hear me?",
+      "picture": "Split picture of a phone call. Left: Tomáš, in a compartment of the InterCity train with hills rushing past the window, presses his phone to his ear and frowns. Right: Emma, in the dorm kitchen, holds a finger in her other ear, straining to hear him.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l2",
+      "exercise": "nepocujem-ta-dobre",
+      "type": "intro",
+      "text": "Nepočujem ťa dobre. = I can't hear you well.",
+      "reuse": "a2-u6-l2#pocujeme-sa",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l2",
+      "exercise": "choice-nepocujem-ta-dobre",
+      "type": "choice",
+      "text": "Tomáš: “Haló, Emma? Počujeme sa?” The line is bad. What does Emma say?",
+      "reuse": "a2-u6-l2#pocujeme-sa",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l2",
+      "exercise": "prerusilo-nas",
+      "type": "intro",
+      "text": "Prerušilo nás. = We got cut off.",
+      "picture": "Split picture. Left: the train has gone into a dark tunnel, and Tomáš stares at his phone: the call is gone. Right: Emma, in the dorm kitchen, takes her phone from her ear and looks at it, puzzled.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l2",
+      "exercise": "volal-som-pred-chvilou",
+      "type": "intro",
+      "text": "Volal som pred chvíľou. = I called a moment ago.",
+      "reuse": "a2-u6-l2#prerusilo-nas",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l2",
+      "exercise": "to-bude-asi-omyl",
+      "type": "intro",
+      "text": "To bude asi omyl. = It must be a mistake. (a wrong number)",
+      "picture": "Split picture of a phone call. Left: a hungry man in a tracksuit, on his sofa in front of the TV, phones in his order with a hand on his stomach. Right: Emma, at her dorm desk, listens with raised eyebrows and kindly shakes her head: he's got the wrong number.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l2",
+      "exercise": "choice-halo-je-to-pizzeria",
+      "type": "choice",
+      "text": "A man calls Emma's mobile: “Haló, je to pizzeria?” What does she say?",
+      "reuse": "a2-u6-l2#to-bude-asi-omyl",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l2",
+      "exercise": "choice-prepacte-pomylil-som-sa",
+      "type": "choice",
+      "text": "The man says: “Prepáčte, pomýlil som sa.” What does Emma answer?",
+      "reuse": "a2-u6-l2#to-bude-asi-omyl",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l2",
+      "exercise": "volane-cislo-je-nedostupne",
+      "type": "intro",
+      "text": "Volané číslo je momentálne nedostupné. = The number you are calling is not available at the moment.",
+      "picture": "Emma, in the dorm kitchen, frowns at her phone as a recorded voice answers instead of Lucia; a bubble shows Lucia's phone lying in her bag, its battery flat and its screen black.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l2",
+      "exercise": "choice-volane-cislo-je",
+      "type": "choice",
+      "text": "Emma calls Lucia and hears: “Volané číslo je momentálne nedostupné.” What does it mean?",
+      "reuse": "a2-u6-l2#volane-cislo-je-nedostupne",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l2",
+      "exercise": "nechaj-mi-odkaz",
+      "type": "intro",
+      "text": "Nechaj mi odkaz. = Leave me a message.",
+      "picture": "Split picture. Left: in the university library, Lucia studies with big headphones on while her phone buzzes, unnoticed, on the table beside her books. Right: Emma, at a tram stop, phone to her ear, gets ready to leave a message after the beep.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l3",
+      "exercise": "stazistka",
+      "type": "intro",
+      "text": "stážistka = intern (a woman)",
+      "picture": "Emma's first morning as an intern at Tomáš's company: in a smart blazer, with a blank badge on a lanyard round her neck, she arrives at the reception, a little nervous; Petra greets her warmly from behind the desk.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l3",
+      "exercise": "recepcia",
+      "type": "intro",
+      "text": "recepcia = reception",
+      "picture": "The reception at the entrance of Tomáš's company: Petra, at her desk with a phone and a computer, greets a visitor with a smile, while Emma, on a second chair beside her, watches and learns.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l3",
+      "exercise": "pri-telefone-emma",
+      "type": "intro",
+      "text": "Pri telefóne Emma. = Emma speaking.",
+      "picture": "At the reception desk the phone rings: Emma, sitting up straight, picks it up and answers for the first time, while Petra, beside her, gives her an encouraging thumbs-up.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l3",
+      "exercise": "choice-recepcia-dobry-den",
+      "type": "choice",
+      "text": "The phone rings at reception. What does Emma say?",
+      "reuse": "a2-u6-l3#pri-telefone-emma",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l3",
+      "exercise": "mozem-hovorit-s-panom",
+      "type": "intro",
+      "text": "Môžem hovoriť s pánom Hudákom? = May I speak to Mr Hudák?",
+      "picture": "Split picture of a phone call. Left: a businessman in a suit, at his own office desk, asks for someone. Right: Emma, at the reception phone, glances over her shoulder at pán Hudák, who sits at his desk in his glass-walled corner office.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l3",
+      "exercise": "s-kym-chcete-hovorit",
+      "type": "intro",
+      "text": "S kým chcete hovoriť? = Who would you like to speak to?",
+      "reuse": "a2-u6-l3#mozem-hovorit-s-panom",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l3",
+      "exercise": "moment-prepojim-vas",
+      "type": "intro",
+      "text": "Moment, prepojím vás. = One moment, I'll put you through.",
+      "picture": "Emma, the reception phone at her ear, presses a button to put a caller through; through an open office door nearby, the phone on pani Kollárová's desk rings and she reaches for it.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l3",
+      "exercise": "choice-pani-kollarova-moment",
+      "type": "choice",
+      "text": "A caller asks for pani inžinierka Kollárová. She's at her desk. What does Emma say?",
+      "reuse": "a2-u6-l3#moment-prepojim-vas",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l3",
+      "exercise": "pan-inzinier-pani-inzinierka",
+      "type": "intro",
+      "text": "pán inžinier, pani inžinierka = Mr …, Mrs … (with an engineer's title)",
+      "picture": "In a corridor at Tomáš's company, Petra introduces Emma to pán Hudák and pani Kollárová: pán Hudák shakes Emma's hand formally, and pani Kollárová smiles beside him.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l4",
+      "exercise": "lutujem-prave-ma-poradu",
+      "type": "intro",
+      "text": "Ľutujem, práve má poradu. = I'm sorry, he's in a meeting right now.",
+      "picture": "Split picture of a phone call. Left: a caller, a woman at her own office desk. Right: Emma, at the reception phone, answers apologetically; behind her, through the open door of the meeting room, pán Hudák sits at a table with his colleagues in a meeting.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l4",
+      "exercise": "momentalne-nie-je-v",
+      "type": "intro",
+      "text": "Momentálne nie je v kancelárii. = He isn't in the office at the moment.",
+      "picture": "Emma, on the reception phone, looks over at pán Hudák's glass-walled corner office: his desk is empty, his chair pushed back, and his coat is gone from the stand.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l4",
+      "exercise": "choice-pan-hudak-je-tento",
+      "type": "choice",
+      "text": "Pán Hudák je tento týždeň na služobnej ceste. What does this mean?",
+      "reuse": "a2-u6-l4#momentalne-nie-je-v",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l4",
+      "exercise": "chcete-nechat-odkaz",
+      "type": "intro",
+      "text": "Chcete nechať odkaz? = Would you like to leave a message?",
+      "picture": "At the reception desk, Emma holds the phone to her ear with one hand and has a pen ready over a message pad with the other, listening carefully to the caller.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l4",
+      "exercise": "nie-dakujem-zavolam-neskor",
+      "type": "intro",
+      "text": "Nie, ďakujem, zavolám neskôr. = No, thank you, I'll call back later.",
+      "reuse": "a2-u6-l4#lutujem-prave-ma-poradu",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l4",
+      "exercise": "zavolajte-neskor-prosim",
+      "type": "intro",
+      "text": "Zavolajte neskôr, prosím. = Please call back later.",
+      "reuse": "a2-u6-l4#lutujem-prave-ma-poradu",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l4",
+      "exercise": "choice-zavolajte-o-desat",
+      "type": "choice",
+      "text": "Mr Hudák's meeting ends soon. What does Emma tell the caller?",
+      "reuse": "a2-u6-l4#lutujem-prave-ma-poradu",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l4",
+      "exercise": "poviem-mu-to",
+      "type": "intro",
+      "text": "Poviem mu to. = I'll tell him.",
+      "picture": "Pán Hudák, back with his briefcase, stops at the reception desk, and Emma hands him a small handwritten message note; he reads it, nodding.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l4",
+      "exercise": "mozem-poprosit-este-raz",
+      "type": "intro",
+      "text": "Môžem poprosiť ešte raz vaše meno? = Could I have your name again, please?",
+      "reuse": "a2-u6-l4#chcete-nechat-odkaz",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l4",
+      "exercise": "choice-mozem-poprosit-vase-meno",
+      "type": "choice",
+      "text": "Emma didn't catch the caller's name. What does she ask?",
+      "reuse": "a2-u6-l4#chcete-nechat-odkaz",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l6",
+      "exercise": "grammar-reported-ze",
+      "type": "grammar",
+      "text": "Reported speech: povedal, že…",
+      "reuse": "a2-u6-l4#poviem-mu-to",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l6",
+      "exercise": "choice-mam-nejaky-odkaz",
+      "type": "choice",
+      "text": "Tomáš calls from home: “Mám nejaký odkaz?” (Are there any messages for me?) Which answer is right?",
+      "reuse": "a2-u6-l4#chcete-nechat-odkaz",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l8",
+      "exercise": "mila-lucia",
+      "type": "intro",
+      "text": "Milá Lucia, = Dear Lucia,",
+      "picture": "Emma, at her dorm desk with a map of Slovakia beside her, types a cheerful e-mail on her laptop; a bubble shows Lucia in the university library reading it on her phone, smiling.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l8",
+      "exercise": "navrh",
+      "type": "intro",
+      "text": "návrh = suggestion, proposal",
+      "picture": "In the dorm kitchen, Emma spreads a big map of Slovakia across the table and traces a route with her finger; Lucia, Tomáš and Marek, his arm in a sling, lean in, excited.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l8",
+      "exercise": "dakujem-ti-za-mail",
+      "type": "intro",
+      "text": "Ďakujem Ti za mail. = Thanks for your e-mail.",
+      "reuse": "a2-u6-l8#mila-lucia",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l8",
+      "exercise": "pozdravuj-mareka",
+      "type": "intro",
+      "text": "Pozdravuj Mareka! = Say hi to Marek!",
+      "picture": "Lucia, coat on and a bag of oranges in her hand, heads out of the dorm room to visit her brother; Emma, at her desk, waves after her. A bubble shows Marek on his sofa, his arm in a sling.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l8",
+      "exercise": "maj-sa-dobre",
+      "type": "intro",
+      "text": "Maj sa dobre! = Take care!",
+      "reuse": "u2-telefon#dopocutia",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l9",
+      "exercise": "vazena-pani-sokolova",
+      "type": "intro",
+      "text": "Vážená pani Sokolová, = Dear Mrs Sokolová,",
+      "picture": "Emma, sitting up straight at her dorm desk, writes a careful, formal e-mail on her laptop; a bubble shows pani Sokolová at the small reception desk of her guesthouse in the Tatras, reading it.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l9",
+      "exercise": "ubytovanie",
+      "type": "intro",
+      "text": "ubytovanie = accommodation",
+      "picture": "Emma and Lucia, side by side at Emma's dorm desk, look at photos of a chalet-style guesthouse with wooden balconies and mountains behind it on the laptop screen.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l9",
+      "exercise": "volna-izba",
+      "type": "intro",
+      "text": "voľná izba = a free room, a vacancy",
+      "picture": "At the small reception desk of her guesthouse, pani Sokolová takes one of the last keys off the key rack behind her and holds it up with a smile: there's still a room free.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l9",
+      "exercise": "dakujem-za-odpoved",
+      "type": "intro",
+      "text": "Ďakujem za odpoveď. = Thank you for your reply.",
+      "reuse": "a2-u6-l9#vazena-pani-sokolova",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l9",
+      "exercise": "s-pozdravom",
+      "type": "intro",
+      "text": "S pozdravom = Kind regards",
+      "reuse": "a2-u6-l9#vazena-pani-sokolova",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l9",
+      "exercise": "choice-s-pozdravom",
+      "type": "choice",
+      "text": "How does Emma end her e-mail to pani Sokolová?",
+      "reuse": "a2-u6-l9#vazena-pani-sokolova",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l9",
+      "exercise": "izba-je-sice-mala",
+      "type": "intro",
+      "text": "Izba je síce malá, ale pekná. = The room may be small, but it's nice.",
+      "picture": "A small bedroom under the sloping roof of the guesthouse: barely room for two pine beds and a little table, but cosy, with a checked quilt, flowers on the windowsill and the mountain peaks outside the window.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l9",
+      "exercise": "choice-izbu-vam-rezervujem",
+      "type": "choice",
+      "text": "Dobrý deň, dve dvojposteľové izby Vám rezervujem na meno Šimková. Izba stojí tridsať eur na noc, aj s raňajkami. V. Sokolová Pani Sokolová's reply. How much is a room?",
+      "reuse": "a2-u6-l9#volna-izba",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l9",
+      "exercise": "choice-emma-pise-kamaratom",
+      "type": "choice",
+      "text": "Milí kamaráti, výlet je od piatku do pondelka. Ideme autom. Ubytovanie: penzión, tri noci s raňajkami. Trasa je v prílohe. Emma Emma's e-mail to her friends. What's true?",
+      "reuse": "a2-u6-l8#mila-lucia",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l10",
+      "exercise": "osobne-udaje",
+      "type": "intro",
+      "text": "osobné údaje = personal details",
+      "reuse": "u9-l5#vypiste-prosim-dotaznik",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l10",
+      "exercise": "formular",
+      "type": "intro",
+      "text": "formulár = form",
+      "reuse": "u9-l5#dotaznik",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l10",
+      "exercise": "adresa",
+      "type": "intro",
+      "text": "adresa = address",
+      "reuse": "u3-l1#byvam-na-internate",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l10",
+      "exercise": "choice-emmin-formular",
+      "type": "choice",
+      "text": "Meno: Emma. Miesto narodenia: Dublin. Povolanie: študentka. Adresa: Javorová 12, Bratislava. Emma's form. Where was she born?",
+      "reuse": "u9-l5#dotaznik",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l10",
+      "exercise": "prihlasit-sa",
+      "type": "intro",
+      "text": "prihlásiť sa = to sign up, to register",
+      "reuse": "u9-l1#prihlaska",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l10",
+      "exercise": "vazeny-pan-inzinier",
+      "type": "intro",
+      "text": "Vážený pán inžinier, = Dear Sir, (to a man with an engineer's title)",
+      "reuse": "a2-u6-l3#pan-inzinier-pani-inzinierka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l10",
+      "exercise": "priloha",
+      "type": "intro",
+      "text": "príloha = attachment",
+      "reuse": "u9-l3#poslat-e-mailom",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l11",
+      "exercise": "esemeska",
+      "type": "intro",
+      "text": "esemeska = text message",
+      "picture": "Emma, on a bench in the sunny university courtyard, types a text message with both thumbs, grinning.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l11",
+      "exercise": "budem-meskat",
+      "type": "intro",
+      "text": "Budem meškať. = I'll be late.",
+      "picture": "Emma stands in a crowded tram stuck in traffic, glancing anxiously at her watch while she types a text with one hand.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l11",
+      "exercise": "choice-prepac-budem-meskat",
+      "type": "choice",
+      "text": "Emma is still on the tram, and she's meeting Lucia at five. What does she text?",
+      "reuse": "a2-u6-l11#budem-meskat",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l11",
+      "exercise": "nestiham",
+      "type": "intro",
+      "text": "Nestíham. = I can't make it. / I'm running late.",
+      "reuse": "u7-l6#choice-nestihol-som-autobus",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l11",
+      "exercise": "musim-zrusit-stretnutie",
+      "type": "intro",
+      "text": "Musím zrušiť stretnutie. = I have to cancel our meeting.",
+      "picture": "Split picture. Left: Tomáš, a laptop under his arm, about to walk into a meeting at his company, quickly types a text. Right: Emma, waiting at a table in the café near the university, reads it on her phone, and her face falls.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l11",
+      "exercise": "choice-ahoj-dnes-nestiham",
+      "type": "choice",
+      "text": "Ahoj, dnes nestíham, mám poradu. Hneváš sa? Môžeme sa stretnúť zajtra. Pekný deň! T. A text from Tomáš. What does he want?",
+      "reuse": "a2-u6-l11#musim-zrusit-stretnutie",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l11",
+      "exercise": "choice-stihas-to-o-piatej",
+      "type": "choice",
+      "text": "Stíhaš to o piatej? A text from Lucia. What is she asking?",
+      "reuse": "a2-u6-l11#budem-meskat",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l11",
+      "exercise": "choice-jasne-plati",
+      "type": "choice",
+      "text": "Marek texts: “Kino o ôsmej?” Which answer says yes?",
+      "reuse": "a2-u6-l11#esemeska",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l13",
+      "exercise": "choice-pi-vela-caju",
+      "type": "choice",
+      "text": "Lucia has a cold. What does Emma tell her?",
+      "picture": "In the dorm room, Lucia sits in bed with a cold, a red nose and a box of tissues on her knees; Emma hands her a big steaming mug of tea.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l13",
+      "exercise": "choice-chod-prec",
+      "type": "choice",
+      "text": "A cat walks into the office kitchen and wants your lunch. What do you tell it?",
+      "picture": "In the small office kitchen at Tomáš's company, a cat that has wandered in sits on the table, eyeing Emma's open lunch box; Emma, coming back from the coffee machine with a cup, stops in her tracks.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l15",
+      "exercise": "list",
+      "type": "intro",
+      "text": "list = letter",
+      "picture": "At her dorm desk, Emma folds a handwritten letter to her mum and addresses an envelope, a photo of her family propped against the lamp.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l15",
+      "exercise": "balik",
+      "type": "intro",
+      "text": "balík = parcel",
+      "picture": "In the post office, a long counter with scales and racks of envelopes, Emma heaves a big parcel onto the scales while the clerk, a cheerful grey-haired man, checks the weight. A bubble shows Emma's mum at home in Ireland opening the same parcel, delighted.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l15",
+      "exercise": "znamka",
+      "type": "intro",
+      "text": "Koľko stojí známka do Írska? = How much is a stamp to Ireland?",
+      "picture": "At the post office counter, the cheerful grey-haired clerk tears a stamp off a sheet for Emma, who holds out her letter in its envelope.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l15",
+      "exercise": "obalka",
+      "type": "intro",
+      "text": "obálka = envelope",
+      "reuse": "a2-u6-l15#list",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l15",
+      "exercise": "adresat-a-odosielatel",
+      "type": "intro",
+      "text": "adresát a odosielateľ = addressee and sender",
+      "reuse": "a2-u6-l15#balik",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l15",
+      "exercise": "choice-poslat-balik-do-irska",
+      "type": "choice",
+      "text": "At the post office: Emma wants to send a parcel to Ireland. What does she say?",
+      "reuse": "a2-u6-l15#balik",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l15",
+      "exercise": "choice-adresa-na-obalke",
+      "type": "choice",
+      "text": "How do you write Emma's address on an envelope?",
+      "reuse": "a2-u6-l15#list",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l15",
+      "exercise": "choice-odosielatel",
+      "type": "choice",
+      "text": "On a parcel, who is the odosielateľ?",
+      "reuse": "a2-u6-l15#balik",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l17",
+      "exercise": "choice-vazena-pani-sokolova",
+      "type": "choice",
+      "text": "Which opening fits an e-mail to Mrs Sokolová?",
+      "reuse": "a2-u6-l9#vazena-pani-sokolova",
+      "book": null
+    },
+    {
+      "lesson": "a2-u6-l17",
+      "exercise": "choice-nevolaj-mu-teraz",
+      "type": "choice",
+      "text": "Lucia wants to call Tomáš, but he's in a meeting. What do you tell her?",
+      "reuse": "u8-l1#porada",
+      "book": null
+    }
+  ]
+}

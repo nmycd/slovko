@@ -1,0 +1,4375 @@
+{
+  "a2-u3.titleEn": {
+    "en": "Christmas in Žilina",
+    "t": "შობა ჟილინაში"
+  },
+  "a2-u3.topics": {
+    "en": [
+      "Inviting and visiting",
+      "The family and relatives",
+      "Looks and character",
+      "Presents and shopping",
+      "Slovak Christmas and New Year",
+      "Wishes and congratulations"
+    ],
+    "t": [
+      "მიპატიჟება და სტუმრობა",
+      "ოჯახი და ნათესავები",
+      "გარეგნობა და ხასიათი",
+      "საჩუქრები და საყიდლები",
+      "სლოვაკური შობა და ახალი წელი",
+      "სურვილები და მილოცვები"
+    ]
+  },
+  "a2-u3.grammar": {
+    "en": [
+      "Comparatives and superlatives",
+      "The dative: nouns and adjectives",
+      "Dative pronouns and possessives",
+      "Verbs with the dative",
+      "Mám rád, páči sa mi, chutí mi",
+      "Prepositions with the dative"
+    ],
+    "t": [
+      "შედარებითი და აღმატებითი ხარისხი",
+      "Datív: არსებითი და ზედსართავი სახელები",
+      "Datív: პირის და კუთვნილებითი ნაცვალსახელები",
+      "ზმნები datív-ით",
+      "Mám rád, páči sa mi, chutí mi",
+      "წინდებულები datív-ით"
+    ]
+  },
+  "a2-u3-pozvanka.titleEn": {
+    "en": "An invitation for Christmas",
+    "t": "მიპატიჟება შობაზე"
+  },
+  "a2-u3-pozvanka.na-vianoce.en": {
+    "en": "for Christmas, at Christmas",
+    "t": "შობაზე, შობისთვის"
+  },
+  "a2-u3-pozvanka.na-vianoce.note": {
+    "en": "It's **advent**, the weeks before Christmas, and Emma isn't going home to Ireland this year. **Vianoce** is always plural: Vianoce sú v decembri.",
+    "t": "**advent**-ია, შობის წინა კვირები, და ემა წელს სახლში, ირლანდიაში, არ მიდის. **Vianoce** ყოველთვის მრავლობითშია: Vianoce sú v decembri. (სლოვაკეთში შობას დეკემბერში აღნიშნავენ, არა 7 იანვარს.)"
+  },
+  "a2-u3-pozvanka.chces-prist-k-nam.en": {
+    "en": "Do you want to come to us for Christmas?",
+    "t": "გინდა, შობაზე ჩვენთან მოხვიდე?"
+  },
+  "a2-u3-pozvanka.chces-prist-k-nam.note": {
+    "en": "**k nám** = to our place. Lucia is inviting Emma home to her family in Žilina.",
+    "t": "**k nám** = ჩვენთან, ჩვენს სახლში. ლუცია ემას შობაზე თავის ოჯახში, ჟილინაში, პატიჟებს."
+  },
+  "a2-u3-pozvanka.choice-chces-prist-k-nam.question": {
+    "en": "What does Lucia mean?",
+    "t": "რას გულისხმობს ლუცია?"
+  },
+  "a2-u3-pozvanka.choice-chces-prist-k-nam.options": {
+    "en": [
+      "Do you want to go home for Christmas?",
+      "Do you want to come to us for Christmas?",
+      "Do you want to come to the Christmas party?"
+    ],
+    "t": [
+      "გინდა, შობაზე სახლში წახვიდე?",
+      "გინდა, შობაზე ჩვენთან მოხვიდე?",
+      "გინდა, საშობაო წვეულებაზე მოხვიდე?"
+    ]
+  },
+  "a2-u3-pozvanka.choice-chces-prist-k-nam.why": {
+    "en": "**k nám** means to our place: prísť k nám = to come to us. Going home would be ísť **domov**.",
+    "t": "**k nám** ნიშნავს „ჩვენთან“: prísť k nám = ჩვენთან მოსვლა. სახლში წასვლა იქნებოდა ísť **domov**."
+  },
+  "a2-u3-pozvanka.rada-pridem.en": {
+    "en": "I'd love to come! (a woman speaking)",
+    "t": "სიამოვნებით მოვალ! (ამბობს ქალი)"
+  },
+  "a2-u3-pozvanka.rada-pridem.note": {
+    "en": "**rád, rada** + a verb = glad to, happy to. Prídem points to the future, like kúpim: I'll come.",
+    "t": "**rád, rada** + ზმნა = სიამოვნებით (კაცი ამბობს rád, ქალი — rada). Prídem მომავალზე მიუთითებს, როგორც kúpim: მოვალ."
+  },
+  "a2-u3-pozvanka.fill-dakujem-za-pozvanie-rada.en": {
+    "en": "Thanks for the invitation. I'd love to come!",
+    "t": "მადლობა მოწვევისთვის. სიამოვნებით მოვალ!"
+  },
+  "a2-u3-pozvanka.fill-dakujem-za-pozvanie-rada.why": {
+    "en": "Emma is talking about herself (ja), so the verb ends in **-m**: rada **prídem**. Prídeš goes with ty, príde with on or ona.",
+    "t": "ემა საკუთარ თავზე ლაპარაკობს (ja), ამიტომ ზმნა **-m**-ზე ბოლოვდება: rada **prídem**. Prídeš ty-სთან დგას, príde — on-თან ან ona-სთან."
+  },
+  "a2-u3-pozvanka.choice-mila-emma.question": {
+    "en": "Lucia writes Emma an e-mail. It starts “Dear Emma”. Which is right?",
+    "t": "ლუცია ემას მეილს სწერს. მეილი იწყება სიტყვებით „ძვირფასო ემა“. რომელია სწორი?"
+  },
+  "a2-u3-pozvanka.choice-mila-emma.why": {
+    "en": "In letters and e-mails, **milý** (kind) means dear, and it agrees like any adjective: Emma is a woman, so **Milá** Emma. To Tomáš: Milý Tomáš.",
+    "t": "წერილებსა და მეილებში **milý** (საყვარელი, კეთილი) ნიშნავს „ძვირფასოს“ და ნებისმიერი ზედსართავივით ეთანხმება სახელს: ემა ქალია, ამიტომ **Milá** Emma. ტომაშს: Milý Tomáš. ქართული „ძვირფასო“ კი ყველასთვის ერთია."
+  },
+  "a2-u3-pozvanka.build-lucia-ide-na-vianoce.prompt": {
+    "en": "Lucia is going home for Christmas.",
+    "t": "ლუცია შობაზე სახლში მიდის."
+  },
+  "a2-u3-pozvanka.build-lucia-ide-na-vianoce.traps": {
+    "en": [
+      "Going home answers “where to?”, so it's **domov**. Doma is being at home: Som doma.",
+      "Lucia is one person (ona), so ísť is **ide**. Idú is for oni."
+    ],
+    "t": [
+      "სახლში წასვლა „საით?“ კითხვას პასუხობს, ამიტომ **domov**. Doma სახლში ყოფნაა: Som doma. ქართულში ორივე „სახლში“-ა.",
+      "ლუცია ერთი ადამიანია (ona), ამიტომ ísť-ის ფორმაა **ide**. Idú oni-სთვისაა."
+    ]
+  },
+  "a2-u3-pozvanka.silvester-a-novy-rok.en": {
+    "en": "New Year's Eve and New Year's Day",
+    "t": "ახალი წლის ღამე და ახალი წელი"
+  },
+  "a2-u3-pozvanka.silvester-a-novy-rok.note": {
+    "en": "**Silvester** is 31 December, named after the saint of that day; **Nový rok** is 1 January. Lucia invites Tomáš for Silvester too.",
+    "t": "**Silvester** 31 დეკემბერია, იმ დღის წმინდანის, სილვესტრის, სახელით; **Nový rok** 1 იანვარია. ლუცია ტომაშსაც Silvester-ზე პატიჟებს."
+  },
+  "a2-u3-pozvanka.build-dakujem-za-pozvanie-ale.prompt": {
+    "en": "Thanks for the invitation, but I can't come.",
+    "t": "მადლობა მოწვევისთვის, მაგრამ ვერ მოვალ."
+  },
+  "a2-u3-pozvanka.build-dakujem-za-pozvanie-ale.traps": {
+    "en": [
+      "Tomáš is talking about himself (ja), so môcť is **nemôžem**. Nemôžeš goes with ty.",
+      "After nemôžem comes the infinitive, the -ť form: nemôžem **prísť**."
+    ],
+    "t": [
+      "ტომაში საკუთარ თავზე ლაპარაკობს (ja), ამიტომ môcť-ის ფორმაა **nemôžem**. Nemôžeš ty-სთან დგას.",
+      "nemôžem-ის შემდეგ ინფინიტივი მოდის, -ť ფორმა: nemôžem **prísť** (სიტყვასიტყვით „არ შემიძლია მოსვლა“)."
+    ]
+  },
+  "a2-u3-pozvanka.choice-tomas-nemoze-prist.question": {
+    "en": "Tomáš can't come for New Year's Eve: he'll be with his parents in Košice. What does Lucia say?",
+    "t": "ტომაში ახალი წლის ღამეს ვერ მოვა: მშობლებთან იქნება, კოშიცეში. რას ეტყვის ლუცია?"
+  },
+  "a2-u3-pozvanka.choice-tomas-nemoze-prist.why": {
+    "en": "**To je škoda!** (what a pity) is for news you're sorry to hear. Teší ma is for meeting someone.",
+    "t": "**To je škoda!** (რა სამწუხაროა!) ითქმის ამბავზე, რომლის გაგონებაც გწყინთ. Teší ma გაცნობისას ითქმის."
+  },
+  "a2-u3-pozvanka.fill-na-silvester-budem.en": {
+    "en": "I'll be in Košice on New Year's Eve.",
+    "t": "ახალი წლის ღამეს კოშიცეში ვიქნები."
+  },
+  "a2-u3-pozvanka.fill-na-silvester-budem.why": {
+    "en": "New Year's Eve is still to come, so byť takes its future form: **budem**. Som is now, bol the past.",
+    "t": "ახალი წლის ღამე ჯერ წინაა, ამიტომ byť მომავლის ფორმას იღებს: **budem**. Som აწმყოა, bol — წარსული."
+  },
+  "a2-u3-pozvanka.build-tesim-sa-na-teba.prompt": {
+    "en": "I'm looking forward to seeing you!",
+    "t": "მოუთმენლად გელოდები!"
+  },
+  "a2-u3-pozvanka.build-tesim-sa-na-teba.traps": {
+    "en": [
+      "After a preposition like na, a pronoun takes its long form: na **teba**. Ťa is the short form.",
+      "**Tešiť sa na** takes the object form, and its long form is **teba**."
+    ],
+    "t": [
+      "na-ს მსგავსი წინდებულის შემდეგ ნაცვალსახელი გრძელ ფორმას იღებს: na **teba**. Ťa მოკლე ფორმაა.",
+      "**Tešiť sa na** ობიექტის ფორმას (akuzatív) მოითხოვს, მისი გრძელი ფორმა კი **teba**-ა."
+    ]
+  },
+  "a2-u3-pozvanka.listen-na-vianoce-idem.en": {
+    "en": "I'm going home for Christmas.",
+    "t": "შობაზე სახლში მივდივარ."
+  },
+  "a2-u3-pozvanka.speak-chces-prist-k-nam.en": {
+    "en": "Do you want to come to us for Christmas?",
+    "t": "გინდა, შობაზე ჩვენთან მოხვიდე?"
+  },
+  "a2-u3-rodina.titleEn": {
+    "en": "Lucia's family",
+    "t": "ლუციას ოჯახი"
+  },
+  "a2-u3-rodina.babka-a-dedko.en": {
+    "en": "grandma and grandpa",
+    "t": "ბებია და ბაბუა"
+  },
+  "a2-u3-rodina.babka-a-dedko.note": {
+    "en": "Lucia is showing Emma photos of her family. Formally they're **stará mama** and **starý otec**, together the **starí rodičia** (grandparents). Babka Helena, Lucia's dad's mum, lives with the family.",
+    "t": "ლუცია ემას ოჯახის ფოტოებს აჩვენებს. ოფიციალურად ისინი არიან **stará mama** და **starý otec**, ერთად კი **starí rodičia** (ბებია-ბაბუა). ბებია ჰელენა, ლუციას მამის დედა, ოჯახთან ერთად ცხოვრობს."
+  },
+  "a2-u3-rodina.ujo-a-teta.en": {
+    "en": "uncle and aunt",
+    "t": "ბიძა და დეიდა, მამიდა"
+  },
+  "a2-u3-rodina.ujo-a-teta.note": {
+    "en": "Ujo Pavol is Lucia's mum's brother, and teta Mirka is his wife. A dad's brother is properly **strýko**, but many Slovaks say ujo for both.",
+    "t": "ბიძა პავოლი ლუციას დედის ძმაა, ბიცოლა მირკა კი მისი ცოლი: teta დეიდაც არის, მამიდაც და ბიცოლაც. მამის ძმას სწორად **strýko** ჰქვია, მაგრამ ბევრი სლოვაკი ორივეს ujo-ს ეძახის, როგორც ქართველი — ბიძას."
+  },
+  "a2-u3-rodina.match-babka.pairs": {
+    "en": [
+      "grandma",
+      "grandpa",
+      "uncle",
+      "aunt",
+      "grandparents"
+    ],
+    "t": [
+      "ბებია",
+      "ბაბუა",
+      "ბიძა",
+      "დეიდა, მამიდა",
+      "ბებია-ბაბუა"
+    ]
+  },
+  "a2-u3-rodina.fill-ujo-pavol-je-mamin.en": {
+    "en": "Uncle Pavol is Mum's brother.",
+    "t": "ბიძა პავოლი დედის ძმაა."
+  },
+  "a2-u3-rodina.fill-ujo-pavol-je-mamin.why": {
+    "en": "**Mamin** (Mum's) is made like Luciin: mama drops -a and adds -in. Brat is masculine, so no ending: **mamin** brat. Mamina goes with a feminine word.",
+    "t": "**Mamin** (დედის) ისევე იწარმოება, როგორც Luciin: mama კარგავს -a-ს და იღებს -in-ს. ქართული „დედის“ არ იცვლება, mamin კი სიტყვას ეთანხმება: brat მამრობითი სქესისაა, ამიტომ დაბოლოება არ აქვს: **mamin** brat. Mamina მდედრობით სიტყვასთან დგას."
+  },
+  "a2-u3-rodina.bratranec-a-sesternica.en": {
+    "en": "cousin (a boy, a girl)",
+    "t": "ბიძაშვილი, დეიდაშვილი (ბიჭი, გოგო)"
+  },
+  "a2-u3-rodina.bratranec-a-sesternica.note": {
+    "en": "Samko, the son of ujo Pavol and teta Mirka, is Lucia's **bratranec**. He's eight.",
+    "t": "სამკო, ბიძა პავოლისა და ბიცოლა მირკას ვაჟი, ლუციას **bratranec**-ია. რვა წლისაა. ქართული ამბობს, ვისი შვილია (ბიძაშვილი, დეიდაშვილი, მამიდაშვილი), სლოვაკური კი — ბიჭია თუ გოგო: bratranec, sesternica."
+  },
+  "a2-u3-rodina.fill-samko-je-luciin.en": {
+    "en": "Samko is Lucia's cousin.",
+    "t": "სამკო ლუციას ბიძაშვილია."
+  },
+  "a2-u3-rodina.fill-samko-je-luciin.why": {
+    "en": "Samko is the son of Lucia's uncle, so he's her cousin, and a boy: **bratranec**. A girl cousin is a sesternica.",
+    "t": "სამკო ლუციას ბიძის ვაჟია, ანუ მისი ბიძაშვილი, თანაც ბიჭი: **bratranec**. გოგო ბიძაშვილი იქნებოდა sesternica."
+  },
+  "a2-u3-rodina.vnuk-a-vnucka.en": {
+    "en": "grandson and granddaughter",
+    "t": "შვილიშვილი (ბიჭი და გოგო)"
+  },
+  "a2-u3-rodina.vnuk-a-vnucka.note": {
+    "en": "Lucia is babka Helena's **vnučka**, and Marek is her **vnuk**. Grandchildren together: **vnúčatá**.",
+    "t": "ლუცია ბებია ჰელენას **vnučka**-ა, მარეკი კი მისი **vnuk**: სლოვაკურში ბიჭი და გოგო შვილიშვილი სხვადასხვა სიტყვაა. ყველა შვილიშვილი ერთად: **vnúčatá**."
+  },
+  "a2-u3-rodina.synovec-a-neter.en": {
+    "en": "nephew and niece",
+    "t": "ძმისშვილი, დისშვილი (ბიჭი და გოგო)"
+  },
+  "a2-u3-rodina.synovec-a-neter.note": {
+    "en": "To ujo Pavol, Lucia is a **neter**. To Lucia's mum, Samko is a **synovec**.",
+    "t": "ბიძა პავოლისთვის ლუცია **neter**-ია (დისშვილი, გოგო). ლუციას დედისთვის სამკო **synovec**-ია (ძმისშვილი, ბიჭი)."
+  },
+  "a2-u3-rodina.choice-kto-je-samko-mame.question": {
+    "en": "Samko is the son of Lucia's mum's brother. What is he to Lucia's mum?",
+    "t": "სამკო ლუციას დედის ძმის ვაჟია. ვინ არის ის ლუციას დედისთვის?"
+  },
+  "a2-u3-rodina.choice-kto-je-samko-mame.why": {
+    "en": "The son of your brother or sister is your **synovec** (nephew). To Lucia he's a bratranec, a cousin; a vnuk is a grandson.",
+    "t": "ძმის ან დის ვაჟი თქვენი **synovec**-ია (ძმისშვილი, დისშვილი). ლუციასთვის ის bratranec-ია, ბიძაშვილი; vnuk კი შვილიშვილია."
+  },
+  "a2-u3-rodina.build-babka-helena-je-otcova.prompt": {
+    "en": "Grandma Helena is Dad's mum.",
+    "t": "ბებია ჰელენა მამის დედაა."
+  },
+  "a2-u3-rodina.build-babka-helena-je-otcova.traps": {
+    "en": [
+      "**Otcov** (Dad's) agrees with mama, a feminine word, so it adds **-a**: otcov**a** mama.",
+      "Mamina means Mum's. Babka Helena is Dad's mum: otec drops its e and adds -ov, **otcova**."
+    ],
+    "t": [
+      "**Otcov** (მამის) ეთანხმება mama-ს, მდედრობით სიტყვას, ამიტომ **-a**-ს იღებს: otcov**a** mama. ქართული „მამის“ კი არასდროს იცვლება.",
+      "Mamina ნიშნავს „დედის“. ბებია ჰელენა მამის დედაა: otec კარგავს e-ს და იღებს -ov-ს, **otcova**."
+    ]
+  },
+  "a2-u3-rodina.pribuzny.en": {
+    "en": "relative",
+    "t": "ნათესავი"
+  },
+  "a2-u3-rodina.pribuzny.note": {
+    "en": "Plural: **príbuzní**. Na Vianoce prídu príbuzní. = Relatives are coming for Christmas.",
+    "t": "მრავლობითი: **príbuzní**. Na Vianoce prídu príbuzní. = შობაზე ნათესავები მოვლენ."
+  },
+  "a2-u3-rodina.build-lucia-je-babkina.answers": {
+    "en": [
+      "Lucia is Grandma's granddaughter and Marek is her grandson."
+    ],
+    "t": [
+      "ლუცია ბებიის შვილიშვილია და მარეკი მისი შვილიშვილია.",
+      "ლუცია ბებიის შვილიშვილია და მარეკიც მისი შვილიშვილია.",
+      "ლუცია ბებიის შვილიშვილია, მარეკი კი მისი შვილიშვილია.",
+      "ლუცია ბებიის შვილიშვილია, მარეკიც მისი შვილიშვილია."
+    ]
+  },
+  "a2-u3-rodina.build-lucia-je-babkina.distractors": {
+    "en": [
+      "niece",
+      "his"
+    ],
+    "t": [
+      "დისშვილია",
+      "ბაბუის"
+    ]
+  },
+  "a2-u3-rodina.matka-mama-mamka.en": {
+    "en": "mother, mum, mummy",
+    "t": "დედა (ოფიციალურად), დედა, დედიკო"
+  },
+  "a2-u3-rodina.matka-mama-mamka.note": {
+    "en": "**Matka** is formal, for forms and the news; at home it's **mama** or **mamka**. Dad is **otec**, and daddy **ocko**.",
+    "t": "**Matka** ოფიციალური სიტყვაა, ფორმებისა და ახალი ამბებისთვის; სახლში ამბობენ **mama** ან **mamka** (დედიკო). მამა არის **otec**, მამიკო კი **ocko**."
+  },
+  "a2-u3-rodina.choice-formal-matka.question": {
+    "en": "Lucia is filling in a form. Which word for “mother” does the form use?",
+    "t": "ლუცია ფორმას ავსებს. რომელი სიტყვით წერია ფორმაში „დედა“?"
+  },
+  "a2-u3-rodina.choice-formal-matka.why": {
+    "en": "**Matka** is the formal word, the one on forms. Mamka is what you call your mum at home, and ocko means daddy.",
+    "t": "**Matka** ოფიციალური სიტყვაა, ის წერია ფორმებში. Mamka სახლში დედისადმი მიმართვაა (დედიკო), ocko კი მამიკოს ნიშნავს."
+  },
+  "a2-u3-rodina.build-ocko-kde-je-mamka.answers": {
+    "en": [
+      "Daddy, where's Mummy?",
+      "Daddy, where is Mummy?"
+    ],
+    "t": [
+      "მამიკო, სად არის დედიკო?",
+      "მამიკო, დედიკო სად არის?",
+      "მამიკო, სადაა დედიკო?",
+      "მამიკო, დედიკო სადაა?"
+    ]
+  },
+  "a2-u3-rodina.build-ocko-kde-je-mamka.distractors": {
+    "en": [
+      "Grandma",
+      "who"
+    ],
+    "t": [
+      "ბებია",
+      "ვინ"
+    ]
+  },
+  "a2-u3-rodina.fill-moji-rodicia-byvaju.en": {
+    "en": "My parents live in Žilina.",
+    "t": "ჩემი მშობლები ჟილინაში ცხოვრობენ."
+  },
+  "a2-u3-rodina.fill-moji-rodicia-byvaju.why": {
+    "en": "Rodičia is plural (oni), so the verb ends in **-ajú**: bývajú. Býva is for one person, bývam for ja.",
+    "t": "Rodičia მრავლობითია (oni), ამიტომ ზმნა **-ajú**-ზე ბოლოვდება: bývajú. Býva ერთი ადამიანისთვისაა, bývam — ja-სთვის."
+  },
+  "a2-u3-rodina.build-mam-velku-rodinu.prompt": {
+    "en": "I have a big family.",
+    "t": "დიდი ოჯახი მაქვს."
+  },
+  "a2-u3-rodina.build-mam-velku-rodinu.traps": {
+    "en": [
+      "The family is what you have, the object, so the adjective changes -á to **-ú**: veľk**ú**.",
+      "As the object, rodina changes -a to **-u**: mám **rodinu**."
+    ],
+    "t": [
+      "ოჯახი ის არის, რაც გაქვთ, ანუ ობიექტი, ამიტომ ზედსართავი -á-ს **-ú**-თი ცვლის: veľk**ú**. ქართული „დიდი“ კი არ იცვლება.",
+      "ობიექტად rodina -a-ს **-u**-თი ცვლის: mám **rodinu**."
+    ]
+  },
+  "a2-u3-rodina.speak-otec-pracuje.en": {
+    "en": "Dad works as a driver.",
+    "t": "მამა მძღოლად მუშაობს."
+  },
+  "a2-u3-vyzor.titleEn": {
+    "en": "What does he look like?",
+    "t": "როგორ გამოიყურება?"
+  },
+  "a2-u3-vyzor.ako-vyzera.en": {
+    "en": "What does he (she) look like?",
+    "t": "როგორ გამოიყურება?"
+  },
+  "a2-u3-vyzor.ako-vyzera.note": {
+    "en": "**vyzerať** = to look (like): vyzerám, vyzeráš, vyzerá… Your face is your **tvár**.",
+    "t": "**vyzerať** (გამოყურება): vyzerám, vyzeráš, vyzerá… სახე არის **tvár**."
+  },
+  "a2-u3-vyzor.fuzy.en": {
+    "en": "moustache",
+    "t": "ულვაში"
+  },
+  "a2-u3-vyzor.fuzy.note": {
+    "en": "Always plural, like vlasy: Pán Kováč má sivé **fúzy**. (**sivý** = grey)",
+    "t": "ყოველთვის მრავლობითშია, როგორც vlasy: Pán Kováč má sivé **fúzy**. (ბატონ კოვაჩს ჭაღარა ულვაში აქვს; **sivý** = ნაცრისფერი, ჭაღარა.)"
+  },
+  "a2-u3-vyzor.fill-lucia-ma-dlhe.en": {
+    "en": "Lucia has long dark hair and wears glasses.",
+    "t": "ლუციას გრძელი მუქი თმა აქვს და სათვალეს ატარებს."
+  },
+  "a2-u3-vyzor.fill-tomas-ma-ciernu.en": {
+    "en": "Tomáš has a short black beard.",
+    "t": "ტომაშს მოკლე შავი წვერი აქვს."
+  },
+  "a2-u3-vyzor.fill-tomas-ma-ciernu.why": {
+    "en": "The beard is what Tomáš has, the object, so brada changes -a to **-u**, and its adjectives -á to -ú: krátk**u** čiern**u** brad**u**.",
+    "t": "წვერი ის არის, რაც ტომაშს აქვს, ანუ ობიექტი, ამიტომ brada -a-ს **-u**-თი ცვლის, მისი ზედსართავები კი -á-ს -ú-თი: krátk**u** čiern**u** brad**u**."
+  },
+  "a2-u3-vyzor.nizky.en": {
+    "en": "short (not tall), low",
+    "t": "დაბალი"
+  },
+  "a2-u3-vyzor.nizky.note": {
+    "en": "The opposite of **vysoký** (tall): Babka je **nízka**, ale Marek je vysoký.",
+    "t": "**vysoký**-ს (მაღალი) საპირისპიროა: Babka je **nízka**, ale Marek je vysoký. (ბებია დაბალია, მარეკი კი მაღალი.)"
+  },
+  "a2-u3-vyzor.stihly.en": {
+    "en": "slim",
+    "t": "გამხდარი"
+  },
+  "a2-u3-vyzor.stihly.note": {
+    "en": "The opposite, **tučný** (fat), isn't polite about people: Ten kapor je veľký a tučný! Your build is your **postava**: Má štíhlu postavu.",
+    "t": "საპირისპირო, **tučný** (მსუქანი), ადამიანზე უზრდელად ჟღერს: Ten kapor je veľký a tučný! (ეს კობრი დიდი და მსუქანია!) აღნაგობა არის **postava**: Má štíhlu postavu. (გამხდარი აღნაგობა აქვს.)"
+  },
+  "a2-u3-vyzor.choice-ujo-pavol-je-vysoky.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "a2-u3-vyzor.choice-ujo-pavol-je-vysoky.options": {
+    "en": [
+      "Uncle Pavol is tall and has a beard.",
+      "Uncle Pavol is short and has a beard.",
+      "Uncle Pavol is tall and wears glasses."
+    ],
+    "t": [
+      "ბიძა პავოლი მაღალია და წვერი აქვს.",
+      "ბიძა პავოლი დაბალია და წვერი აქვს.",
+      "ბიძა პავოლი მაღალია და სათვალეს ატარებს."
+    ]
+  },
+  "a2-u3-vyzor.fill-babka-je-nizka.en": {
+    "en": "Grandma is short and slim.",
+    "t": "ბებია დაბალი და გამხდარია."
+  },
+  "a2-u3-vyzor.fill-babka-je-nizka.why": {
+    "en": "Babka is feminine: **nízka**. The ending is a short -a, not -á, because the syllable before it is long (í), and Slovak avoids two long syllables in a row.",
+    "t": "Babka მდედრობითია: **nízka**. დაბოლოება მოკლე -a-ა და არა -á, რადგან წინა მარცვალი გრძელია (í), სლოვაკური კი ორ გრძელ მარცვალს ზედიზედ ერიდება."
+  },
+  "a2-u3-vyzor.kuceravy.en": {
+    "en": "curly",
+    "t": "ხვეული"
+  },
+  "a2-u3-vyzor.kuceravy.note": {
+    "en": "Marek má krátke **kučeravé** vlasy. Red hair is **ryšavé** vlasy; fair hair is **blond**, which never changes its ending.",
+    "t": "Marek má krátke **kučeravé** vlasy. (მარეკს მოკლე ხვეული თმა აქვს.) წითური თმა არის **ryšavé** vlasy, ქერა — **blond**, რომლის დაბოლოებაც არასდროს იცვლება."
+  },
+  "a2-u3-vyzor.build-kto-je-ten-pan.prompt": {
+    "en": "Who's that man with the beard?",
+    "t": "ვინ არის ის წვერიანი კაცი?"
+  },
+  "a2-u3-vyzor.build-kto-je-ten-pan.traps": {
+    "en": [
+      "After **s** (with) comes the instrumental: brada → s brad**ou**.",
+      "Pán is masculine, so “that” is **ten**. Tá goes with feminine words: tá pani."
+    ],
+    "t": [
+      "**s**-ის („-თან ერთად“) შემდეგ inštrumentál მოდის: brada → s brad**ou**.",
+      "Pán მამრობითია, ამიტომ „ის“ არის **ten**. Tá მდედრობით სიტყვებთან დგას: tá pani."
+    ]
+  },
+  "a2-u3-vyzor.fill-ta-pani-s-rysavymi.en": {
+    "en": "Who's that lady with the red hair?",
+    "t": "ვინ არის ის წითურთმიანი ქალბატონი?"
+  },
+  "a2-u3-vyzor.fill-ta-pani-s-rysavymi.why": {
+    "en": "After **s** (with), plural words take the instrumental, and adjectives end in **-ými**: s ryšav**ými** vlasmi.",
+    "t": "**s**-ის („-თან ერთად“) შემდეგ მრავლობითი სიტყვები inštrumentál-ში დგება, ზედსართავები კი **-ými**-ზე ბოლოვდება: s ryšav**ými** vlasmi."
+  },
+  "a2-u3-vyzor.match-vlasy.pairs": {
+    "en": [
+      "hair",
+      "eyes",
+      "beard",
+      "face",
+      "figure, build"
+    ],
+    "t": [
+      "თმა",
+      "თვალები",
+      "წვერი",
+      "სახე",
+      "აღნაგობა, ტანი"
+    ]
+  },
+  "a2-u3-vyzor.build-marek-ma-kratke.answers": {
+    "en": [
+      "Marek has short curly hair."
+    ],
+    "t": [
+      "მარეკს მოკლე ხვეული თმა აქვს.",
+      "მარეკს ხვეული მოკლე თმა აქვს.",
+      "მარეკს აქვს მოკლე ხვეული თმა."
+    ]
+  },
+  "a2-u3-vyzor.build-marek-ma-kratke.distractors": {
+    "en": [
+      "long",
+      "red"
+    ],
+    "t": [
+      "გრძელი",
+      "წითური"
+    ]
+  },
+  "a2-u3-vyzor.choice-liam-je-vysoky.question": {
+    "en": "Emma's brother Liam is fifteen, tall and slim. Which sentence says so?",
+    "t": "ემას ძმა, ლიამი, თხუთმეტი წლისაა, მაღალი და გამხდარი. რომელი წინადადება ამბობს ამას?"
+  },
+  "a2-u3-vyzor.speak-ako-vyzera-tvoj.en": {
+    "en": "What does your cousin look like?",
+    "t": "როგორ გამოიყურება შენი ბიძაშვილი?"
+  },
+  "a2-u3-povaha.titleEn": {
+    "en": "What's Uncle Pavol like?",
+    "t": "როგორია ბიძა პავოლი?"
+  },
+  "a2-u3-povaha.vazny-a-vtipny.en": {
+    "en": "serious and funny",
+    "t": "სერიოზული და ხუმარა"
+  },
+  "a2-u3-povaha.vazny-a-vtipny.note": {
+    "en": "Ujo Pavol is never **vážny**: he's vtipný and tells jokes all evening. **Taký, taká, také** = so, such: Prečo si dnes taký vážny?",
+    "t": "ბიძა პავოლი არასდროს არის **vážny**: ის vtipný-ია და მთელი საღამო ხუმრობს. **Taký, taká, také** = ასეთი: Prečo si dnes taký vážny? (დღეს რატომ ხარ ასეთი სერიოზული?)"
+  },
+  "a2-u3-povaha.smiat-sa.en": {
+    "en": "to laugh",
+    "t": "სიცილი"
+  },
+  "a2-u3-povaha.smiat-sa.note": {
+    "en": "smejem sa, smeješ sa, smeje sa… Ujo Pavol sa veľa **smeje**. Laughter is **smiech**.",
+    "t": "smejem sa, smeješ sa, smeje sa… Ujo Pavol sa veľa **smeje**. (ბიძა პავოლი ბევრს იცინის.) სიცილი, როგორც არსებითი სახელი, არის **smiech**."
+  },
+  "a2-u3-povaha.fill-babka-je-ticha.en": {
+    "en": "Grandma is quiet and kind.",
+    "t": "ბებია წყნარი და კეთილია."
+  },
+  "a2-u3-povaha.fill-babka-je-ticha.why": {
+    "en": "Babka is feminine, so the adjective ends in **-á**: tich**á**, like mil**á**.",
+    "t": "Babka მდედრობითია, ამიტომ ზედსართავი **-á**-ზე ბოლოვდება: tich**á**, როგორც mil**á**."
+  },
+  "a2-u3-povaha.hlucny.en": {
+    "en": "loud, noisy",
+    "t": "ხმაურიანი"
+  },
+  "a2-u3-povaha.hlucny.note": {
+    "en": "The opposite of **tichý** (quiet). Pán Kováč nemá rád **hlučnú** hudbu. = Mr Kováč doesn't like loud music.",
+    "t": "**tichý**-ს (წყნარი) საპირისპიროა. Pán Kováč nemá rád **hlučnú** hudbu. = ბატონ კოვაჩს ხმაურიანი მუსიკა არ უყვარს."
+  },
+  "a2-u3-povaha.build-samko-nie-je-hanblivy.prompt": {
+    "en": "Samko isn't shy, he's very loud.",
+    "t": "სამკო მორცხვი არ არის, ძალიან ხმაურიანია."
+  },
+  "a2-u3-povaha.build-samko-nie-je-hanblivy.traps": {
+    "en": [
+      "Samko is a boy, so the adjective ends in **-ý**: hanblivý. Hanblivá is for a woman or a girl.",
+      "Loud is **hlučný**. Tichý means quiet, the opposite."
+    ],
+    "t": [
+      "სამკო ბიჭია, ამიტომ ზედსართავი **-ý**-ზე ბოლოვდება: hanblivý. Hanblivá ქალზე ან გოგოზე ითქმის.",
+      "ხმაურიანი არის **hlučný**. Tichý ნიშნავს „წყნარს“, საპირისპიროს."
+    ]
+  },
+  "a2-u3-povaha.choice-marek-je-pracovity.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "a2-u3-povaha.choice-marek-je-pracovity.options": {
+    "en": [
+      "Marek works hard, he isn't lazy.",
+      "Marek is lazy, he doesn't work.",
+      "Marek is tired after work."
+    ],
+    "t": [
+      "მარეკი შრომისმოყვარეა, ზარმაცი არ არის.",
+      "მარეკი ზარმაცია, არ მუშაობს.",
+      "მარეკი სამსახურის შემდეგ დაღლილია."
+    ]
+  },
+  "a2-u3-povaha.pokojny.en": {
+    "en": "calm",
+    "t": "მშვიდი"
+  },
+  "a2-u3-povaha.pokojny.note": {
+    "en": "Someone lively and hot-tempered is **temperamentný**: Teta Mirka je temperamentná, ujo Pavol je pokojný.",
+    "t": "ცოცხალ, ფიცხ ადამიანს **temperamentný** ჰქვია: Teta Mirka je temperamentná, ujo Pavol je pokojný. (ბიცოლა მირკა ტემპერამენტიანია, ბიძა პავოლი — მშვიდი.)"
+  },
+  "a2-u3-povaha.fill-teta-a-ujo-su.en": {
+    "en": "Aunt Mirka and Uncle Pavol are very friendly.",
+    "t": "ბიცოლა მირკა და ბიძა პავოლი ძალიან მეგობრულები არიან."
+  },
+  "a2-u3-povaha.fill-teta-a-ujo-su.why": {
+    "en": "A woman and a man together count as men, so the adjective takes the men's plural **-í**: priateľsk**í**.",
+    "t": "ქალი და კაცი ერთად კაცებად ითვლება, ამიტომ ზედსართავი კაცების მრავლობითის **-í**-ს იღებს: priateľsk**í**."
+  },
+  "a2-u3-povaha.match-vazny.pairs": {
+    "en": [
+      "serious",
+      "quiet",
+      "shy",
+      "lazy",
+      "calm"
+    ],
+    "t": [
+      "სერიოზული",
+      "წყნარი",
+      "მორცხვი",
+      "ზარმაცი",
+      "მშვიდი"
+    ]
+  },
+  "a2-u3-povaha.fill-preco-si-taky.en": {
+    "en": "Why are you so serious, Samko?",
+    "t": "რატომ ხარ ასეთი სერიოზული, სამკო?"
+  },
+  "a2-u3-povaha.fill-preco-si-taky.why": {
+    "en": "**Taký** (so) changes like an adjective. Samko is a boy, so it's tak**ý**, like vážn**y**.",
+    "t": "**Taký** (ასეთი) ზედსართავივით იცვლება. სამკო ბიჭია, ამიტომ tak**ý**, როგორც vážn**y**."
+  },
+  "a2-u3-povaha.fill-teta-mirka-sa-smeje.en": {
+    "en": "Aunt Mirka is cheerful and laughs a lot.",
+    "t": "ბიცოლა მირკა მხიარულია და ბევრს იცინის."
+  },
+  "a2-u3-povaha.fill-teta-mirka-sa-smeje.why": {
+    "en": "Teta Mirka is ona, so the verb has no ending: **smeje** sa. Smejem goes with ja, smejú with oni.",
+    "t": "ბიცოლა მირკა = ona, ამიტომ ზმნას დაბოლოება არ აქვს: **smeje** sa. Smejem ja-სთან დგას, smejú — oni-სთან."
+  },
+  "a2-u3-povaha.choice-teta-mirka-je.question": {
+    "en": "Teta Mirka laughs a lot, talks fast and is full of energy. Which word fits her?",
+    "t": "ბიცოლა მირკა ბევრს იცინის, სწრაფად ლაპარაკობს და ენერგიით სავსეა. რომელი სიტყვა უხდება მას?"
+  },
+  "a2-u3-povaha.build-preco-si-taka-smutna.prompt": {
+    "en": "Why are you so sad, Lucia?",
+    "t": "რატომ ხარ ასეთი მოწყენილი, ლუცია?"
+  },
+  "a2-u3-povaha.build-preco-si-taka-smutna.traps": {
+    "en": [
+      "Lucia is a woman, so taký takes the feminine ending: **taká**, like smutná.",
+      "Lucia is a woman, so the adjective ends in **-á**: smutn**á**."
+    ],
+    "t": [
+      "ლუცია ქალია, ამიტომ taký მდედრობით დაბოლოებას იღებს: **taká**, როგორც smutná.",
+      "ლუცია ქალია, ამიტომ ზედსართავი **-á**-ზე ბოლოვდება: smutn**á**."
+    ]
+  },
+  "a2-u3-povaha.build-ujo-pavol-je-vtipny.answers": {
+    "en": [
+      "Uncle Pavol is very funny and good fun.",
+      "Uncle Pavol is very funny and fun."
+    ],
+    "t": [
+      "ბიძა პავოლი ძალიან ხუმარა და სახალისოა.",
+      "ბიძა პავოლი ძალიან ხუმარა და მხიარულია.",
+      "ბიძა პავოლი ძალიან ხუმარა და სახალისო ადამიანია."
+    ]
+  },
+  "a2-u3-povaha.build-ujo-pavol-je-vtipny.distractors": {
+    "en": [
+      "serious",
+      "quiet"
+    ],
+    "t": [
+      "სერიოზულია",
+      "წყნარი"
+    ]
+  },
+  "a2-u3-povaha.speak-ujo-pavol-je-vtipny.en": {
+    "en": "Uncle Pavol is very funny.",
+    "t": "ბიძა პავოლი ძალიან ხუმარაა."
+  },
+  "a2-u3-starsi.titleEn": {
+    "en": "Older than me",
+    "t": "ჩემზე უფროსი"
+  },
+  "a2-u3-starsi.grammar-comparative.title": {
+    "en": "Older, quieter: the comparative",
+    "t": "უფროსი, უფრო წყნარი: შედარებითი ხარისხი"
+  },
+  "a2-u3-starsi.grammar-comparative.body": {
+    "en": [
+      "To compare, add **-ší** when one consonant comes before the ending: mlad-ý → mlad**ší**, tich-ý → tich**ší** (ch is one letter). After two or more, add **-ejší**: siln-ý → siln**ejší**, vážn-y → vážn**ejší**.",
+      "Adjectives in -ký and -oký drop the k (or ok), and s, z become š, ž: vysoký → vy**šší**, nízky → ni**žší**.",
+      "The endings: **-í** for him, **-ia** for her, **-ie** for it: starš**í** brat, starš**ia** sestra, starš**ie** dieťa."
+    ],
+    "t": [
+      "ქართული შესადარებლად „უფრო“-ს ამატებს, სლოვაკური კი ზედსართავს დაბოლოებას უცვლის. დაბოლოების წინ ერთი თანხმოვანი თუ დგას, დაუმატეთ **-ší**: mlad-ý → mlad**ší**, tich-ý → tich**ší** (ch ერთი ასოა). ორი ან მეტი თანხმოვნის შემდეგ დაუმატეთ **-ejší**: siln-ý → siln**ejší**, vážn-y → vážn**ejší**.",
+      "-ký-სა და -oký-ზე დაბოლოებული ზედსართავები k-ს (ან ok-ს) კარგავს, s და z კი š და ž ხდება: vysoký → vy**šší**, nízky → ni**žší**.",
+      "დაბოლოებები: **-í** მამრობით სქესში, **-ia** მდედრობითში, **-ie** საშუალოში: starš**í** brat, starš**ia** sestra, starš**ie** dieťa."
+    ]
+  },
+  "a2-u3-starsi.grammar-comparative.table.head": {
+    "en": [
+      "adjective",
+      "comparative"
+    ],
+    "t": [
+      "ზედსართავი",
+      "შედარებითი ხარისხი"
+    ]
+  },
+  "a2-u3-starsi.grammar-comparative.table.rows": {
+    "en": [
+      [
+        "mladý",
+        "mlad**ší**"
+      ],
+      [
+        "starý",
+        "star**ší**"
+      ],
+      [
+        "tichý",
+        "tich**ší**"
+      ],
+      [
+        "silný",
+        "siln**ejší**"
+      ],
+      [
+        "vážny",
+        "vážn**ejší**"
+      ],
+      [
+        "vysoký",
+        "vy**šší**"
+      ],
+      [
+        "nízky",
+        "ni**žší**"
+      ]
+    ],
+    "t": [
+      [
+        "mladý",
+        "mlad**ší**"
+      ],
+      [
+        "starý",
+        "star**ší**"
+      ],
+      [
+        "tichý",
+        "tich**ší**"
+      ],
+      [
+        "silný",
+        "siln**ejší**"
+      ],
+      [
+        "vážny",
+        "vážn**ejší**"
+      ],
+      [
+        "vysoký",
+        "vy**šší**"
+      ],
+      [
+        "nízky",
+        "ni**žší**"
+      ]
+    ]
+  },
+  "a2-u3-starsi.grammar-comparative.examples": {
+    "en": [
+      "Marek is older.",
+      "Lucia is younger.",
+      "Grandma is quieter."
+    ],
+    "t": [
+      "მარეკი უფროსია.",
+      "ლუცია უმცროსია.",
+      "ბებია უფრო წყნარია."
+    ]
+  },
+  "a2-u3-starsi.grammar-ako-nez.title": {
+    "en": "Than: ako or než",
+    "t": "„ვიდრე“: ako ან než"
+  },
+  "a2-u3-starsi.grammar-ako-nez.body": {
+    "en": [
+      "“Than” is **ako** or **než**. Both are right; ako is more common: Marek je starší **ako** Lucia.",
+      "To say by how much, use **o** and the object form: Marek je **o** deväť rokov starší. Emma je staršia **o** dva roky."
+    ],
+    "t": [
+      "„ვიდრე“ არის **ako** ან **než**. ორივე სწორია, ako უფრო ხშირია: Marek je starší **ako** Lucia. ქართულში ასეთ დროს ხშირად „-ზე“-ს ვამბობთ: მარეკი ლუციაზე უფროსია.",
+      "რამდენით — ამისთვის გამოიყენეთ **o** და ობიექტის ფორმა: Marek je **o** deväť rokov starší. Emma je staršia **o** dva roky. აქ o ქართულ „-ით“-ს შეესაბამება: ცხრა წლით, ორი წლით."
+    ]
+  },
+  "a2-u3-starsi.grammar-ako-nez.examples": {
+    "en": [
+      "Emma is older than Lucia.",
+      "Tomáš is taller than Marek.",
+      "Marek is nine years older than Lucia."
+    ],
+    "t": [
+      "ემა ლუციაზე უფროსია.",
+      "ტომაში მარეკზე მაღალია.",
+      "მარეკი ლუციაზე ცხრა წლით უფროსია."
+    ]
+  },
+  "a2-u3-starsi.fill-marek-je-starsi.en": {
+    "en": "Marek is older than Lucia.",
+    "t": "მარეკი ლუციაზე უფროსია."
+  },
+  "a2-u3-starsi.fill-marek-je-starsi.why": {
+    "en": "Marek is a man, so the comparative ends in **-í**: starš**í**. Staršia is for a woman, staršie for a thing.",
+    "t": "მარეკი კაცია, ამიტომ შედარებითი ხარისხი **-í**-ზე ბოლოვდება: starš**í**. Staršia ქალისთვისაა, staršie — საგნისთვის."
+  },
+  "a2-u3-starsi.fill-lucia-je-mladsia.en": {
+    "en": "Lucia is younger than Marek.",
+    "t": "ლუცია მარეკზე უმცროსია."
+  },
+  "a2-u3-starsi.fill-lucia-je-mladsia.why": {
+    "en": "Lucia is a woman, so the comparative ends in **-ia**: mladš**ia**.",
+    "t": "ლუცია ქალია, ამიტომ შედარებითი ხარისხი **-ia**-ზე ბოლოვდება: mladš**ia**."
+  },
+  "a2-u3-starsi.build-emma-je-starsia.prompt": {
+    "en": "Emma is older than Lucia.",
+    "t": "ემა ლუციაზე უფროსია."
+  },
+  "a2-u3-starsi.build-emma-je-starsia.traps": {
+    "en": [
+      "Emma is a woman, so the comparative ends in **-ia**: starš**ia**.",
+      "Older is **staršia**, from starý. Mladšia means younger."
+    ],
+    "t": [
+      "ემა ქალია, ამიტომ შედარებითი ხარისხი **-ia**-ზე ბოლოვდება: starš**ia**.",
+      "უფროსი არის **staršia**, starý-დან. Mladšia უმცროსს ნიშნავს."
+    ]
+  },
+  "a2-u3-starsi.fill-babka-je-tichsia.en": {
+    "en": "Grandma is quieter than Samko.",
+    "t": "ბებია სამკოზე უფრო წყნარია."
+  },
+  "a2-u3-starsi.fill-babka-je-tichsia.why": {
+    "en": "Tichý has one consonant (ch) before the ending, so it takes **-ší**, and babka is a woman: tich**šia**.",
+    "t": "Tichý-ს დაბოლოების წინ ერთი თანხმოვანი აქვს (ch), ამიტომ იღებს **-ší**-ს, ბებია კი ქალია: tich**šia**."
+  },
+  "a2-u3-starsi.fill-samko-je-hlucnejsi.en": {
+    "en": "Samko is louder than Lucia.",
+    "t": "სამკო ლუციაზე უფრო ხმაურიანია."
+  },
+  "a2-u3-starsi.fill-samko-je-hlucnejsi.why": {
+    "en": "Hlučný has two consonants (čn) before the ending, so it takes **-ejší**, and Samko is a boy: hlučn**ejší**.",
+    "t": "Hlučný-ს დაბოლოების წინ ორი თანხმოვანი აქვს (čn), ამიტომ იღებს **-ejší**-ს, სამკო კი ბიჭია: hlučn**ejší**."
+  },
+  "a2-u3-starsi.choice-marek-o-devat-rokov.question": {
+    "en": "Marek is 28 and Lucia is 19. Which is true?",
+    "t": "მარეკი 28 წლისაა, ლუცია — 19-ის. რომელია სწორი?"
+  },
+  "a2-u3-starsi.choice-marek-o-devat-rokov.why": {
+    "en": "Marek is the elder, so he's **starší**, and **o** deväť rokov says by how much.",
+    "t": "მარეკი უფროსია, ამიტომ **starší**, **o** deväť rokov კი ამბობს, რამდენით (ცხრა წლით)."
+  },
+  "a2-u3-starsi.fill-emma-je-o-dva-roky.en": {
+    "en": "Emma is two years older than Lucia.",
+    "t": "ემა ლუციაზე ორი წლით უფროსია."
+  },
+  "a2-u3-starsi.fill-emma-je-o-dva-roky.why": {
+    "en": "By how much is **o** + the object form: **o** dva roky.",
+    "t": "რამდენით — ეს არის **o** + ობიექტის ფორმა: **o** dva roky (ორი წლით)."
+  },
+  "a2-u3-starsi.build-tomas-je-o-dva-roky.prompt": {
+    "en": "Tomáš is two years older than Marek.",
+    "t": "ტომაში მარეკზე ორი წლით უფროსია."
+  },
+  "a2-u3-starsi.build-tomas-je-o-dva-roky.traps": {
+    "en": [
+      "Tomáš is a man, so the comparative ends in **-í**: starš**í**.",
+      "By how much is **o**: o dva roky."
+    ],
+    "t": [
+      "ტომაში კაცია, ამიტომ შედარებითი ხარისხი **-í**-ზე ბოლოვდება: starš**í**.",
+      "რამდენით — ეს არის **o**: o dva roky (ორი წლით)."
+    ]
+  },
+  "a2-u3-starsi.fill-tomas-je-vyssi.en": {
+    "en": "Tomáš is taller than Marek.",
+    "t": "ტომაში მარეკზე მაღალია."
+  },
+  "a2-u3-starsi.fill-tomas-je-vyssi.why": {
+    "en": "Vysoký drops -ok- and s becomes š: vy**šší**. Tomáš is a man, so it ends in -í.",
+    "t": "Vysoký-ში -ok- იკარგება, s კი š ხდება: vy**šší**. ტომაში კაცია, ამიტომ -í-ზე ბოლოვდება."
+  },
+  "a2-u3-starsi.build-vlak-je-rychlejsi.answers": {
+    "en": [
+      "The train is faster than the bus.",
+      "A train is faster than a bus."
+    ],
+    "t": [
+      "მატარებელი ავტობუსზე სწრაფია.",
+      "მატარებელი ავტობუსზე უფრო სწრაფია.",
+      "მატარებელი უფრო სწრაფია, ვიდრე ავტობუსი."
+    ]
+  },
+  "a2-u3-starsi.build-vlak-je-rychlejsi.distractors": {
+    "en": [
+      "slower",
+      "cheaper"
+    ],
+    "t": [
+      "ნელია",
+      "ავტობუსი"
+    ]
+  },
+  "a2-u3-starsi.match-starsi.pairs": {
+    "en": [
+      "older",
+      "younger",
+      "taller",
+      "quieter",
+      "more serious"
+    ],
+    "t": [
+      "უფროსი",
+      "უმცროსი",
+      "უფრო მაღალი",
+      "უფრო წყნარი",
+      "უფრო სერიოზული"
+    ]
+  },
+  "a2-u3-starsi.speak-marek-je-starsi.en": {
+    "en": "Marek is older than me.",
+    "t": "მარეკი ჩემზე უფროსია."
+  },
+  "a2-u3-darceky.titleEn": {
+    "en": "Christmas presents",
+    "t": "საშობაო საჩუქრები"
+  },
+  "a2-u3-darceky.roman-a-detektivka.en": {
+    "en": "a novel and a detective story",
+    "t": "რომანი და დეტექტივი"
+  },
+  "a2-u3-darceky.roman-a-detektivka.note": {
+    "en": "Emma and Lucia are buying presents. Lucia's mum loves **detektívky**, babka likes **romány**, and Dad likes **ľudová hudba**, folk music.",
+    "t": "ემა და ლუცია საჩუქრებს ყიდულობენ. ლუციას დედას **detektívky** (დეტექტივები) უყვარს, ბებიას — **romány** (რომანები), მამას კი **ľudová hudba**, ხალხური მუსიკა."
+  },
+  "a2-u3-darceky.fill-ten-roman-je-pre.en": {
+    "en": "That novel is for Grandma.",
+    "t": "ეს რომანი ბებიისთვისაა."
+  },
+  "a2-u3-darceky.fill-ten-roman-je-pre.why": {
+    "en": "**Pre** (for) takes the object form: babka → pre babk**u**.",
+    "t": "**Pre** („-თვის“) ობიექტის ფორმას მოითხოვს: babka → pre babk**u**."
+  },
+  "a2-u3-darceky.sal-a-rukavice.en": {
+    "en": "a scarf and gloves",
+    "t": "შარფი და ხელთათმანები"
+  },
+  "a2-u3-darceky.sal-a-rukavice.note": {
+    "en": "Shopping is a **nákup**. Gloves come in pairs, so you mostly say **rukavice** (one glove is a rukavica). Warm slippers are **teplé papuče**.",
+    "t": "საყიდლები არის **nákup**. ხელთათმანი წყვილად მოდის, ამიტომ ძირითადად ამბობენ **rukavice** (ერთი ხელთათმანი — rukavica). თბილი ჩუსტები — **teplé papuče**."
+  },
+  "a2-u3-darceky.fill-emma-a-lucia-idu-na.en": {
+    "en": "Emma and Lucia are going shopping.",
+    "t": "ემა და ლუცია საყიდლებზე მიდიან."
+  },
+  "a2-u3-darceky.fill-emma-a-lucia-idu-na.why": {
+    "en": "Going somewhere is **na** + the object form, and nákup (shopping) is a masculine thing, so it doesn't change: na **nákup**.",
+    "t": "სადმე წასვლა არის **na** + ობიექტის ფორმა, nákup (საყიდლები) კი მამრობითი სქესის საგანია, ამიტომ არ იცვლება: na **nákup**."
+  },
+  "a2-u3-darceky.fill-tento-sal-je-lacnejsi.en": {
+    "en": "This scarf is cheaper than that one.",
+    "t": "ეს შარფი იმაზე იაფია."
+  },
+  "a2-u3-darceky.fill-tento-sal-je-lacnejsi.why": {
+    "en": "Šál is masculine, so the comparative ends in **-í**: lacnejš**í**.",
+    "t": "Šál მამრობითია, ამიტომ შედარებითი ხარისხი **-í**-ზე ბოლოვდება: lacnejš**í**."
+  },
+  "a2-u3-darceky.build-mate-lacnejsie-rukavice.prompt": {
+    "en": "Do you have cheaper gloves?",
+    "t": "უფრო იაფი ხელთათმანები გაქვთ?"
+  },
+  "a2-u3-darceky.build-mate-lacnejsie-rukavice.traps": {
+    "en": [
+      "Rukavice is plural and a thing, so the comparative ends in **-ie**: lacnejš**ie** rukavice.",
+      "Gloves come in pairs: **rukavice**. Rukavica is one glove."
+    ],
+    "t": [
+      "Rukavice მრავლობითია და საგანი, ამიტომ შედარებითი ხარისხი **-ie**-ზე ბოლოვდება: lacnejš**ie** rukavice.",
+      "ხელთათმანი წყვილად მოდის: **rukavice**. Rukavica ერთი ხელთათმანია."
+    ]
+  },
+  "a2-u3-darceky.choice-je-mi-luto-ten-sal.question": {
+    "en": "What does the shop assistant mean?",
+    "t": "რას გულისხმობს გამყიდველი?"
+  },
+  "a2-u3-darceky.choice-je-mi-luto-ten-sal.options": {
+    "en": [
+      "Sorry, that scarf isn't for sale.",
+      "I'm sorry, that scarf is too expensive.",
+      "I'm sorry, we don't have that scarf any more."
+    ],
+    "t": [
+      "უკაცრავად, ეს შარფი არ იყიდება.",
+      "ვწუხვარ, ეს შარფი ძალიან ძვირია.",
+      "ვწუხვარ, ეს შარფი აღარ გვაქვს."
+    ]
+  },
+  "a2-u3-darceky.vymenit.en": {
+    "en": "to exchange, to swap",
+    "t": "გაცვლა, შეცვლა"
+  },
+  "a2-u3-darceky.vymenit.note": {
+    "en": "Lucia bought Dad a sweater last week, but it's too small. Môžem ten sveter **vymeniť**? = Can I exchange this sweater?",
+    "t": "ლუციამ გასულ კვირას მამას სვიტერი უყიდა, მაგრამ ძალიან პატარაა. Môžem ten sveter **vymeniť**? = შემიძლია ეს სვიტერი გავცვალო?"
+  },
+  "a2-u3-darceky.fill-mozem-ten-sveter.en": {
+    "en": "Can I exchange this sweater?",
+    "t": "შემიძლია ეს სვიტერი გავცვალო?"
+  },
+  "a2-u3-darceky.fill-mozem-ten-sveter.why": {
+    "en": "After **môžem** comes the infinitive, the -ť form: môžem **vymeniť**.",
+    "t": "**môžem**-ის შემდეგ ინფინიტივი მოდის, -ť ფორმა: môžem **vymeniť**."
+  },
+  "a2-u3-darceky.omyl.en": {
+    "en": "mistake",
+    "t": "შეცდომა"
+  },
+  "a2-u3-darceky.omyl.note": {
+    "en": "Prepáčte, to je asi **omyl**. = Sorry, that must be a mistake. (**asi** = probably)",
+    "t": "Prepáčte, to je asi **omyl**. = უკაცრავად, ეს ალბათ შეცდომაა. (**asi** = ალბათ)"
+  },
+  "a2-u3-darceky.build-prepacte-to-je-asi.prompt": {
+    "en": "Excuse me, that's probably a mistake.",
+    "t": "უკაცრავად, ეს ალბათ შეცდომაა."
+  },
+  "a2-u3-darceky.build-prepacte-to-je-asi.traps": {
+    "en": [
+      "You say vy to a shop assistant, so it's **Prepáčte**. Prepáč is for a friend.",
+      "“That is” is to **je**. Som goes with ja."
+    ],
+    "t": [
+      "გამყიდველს vy-თი (თქვენობით) მიმართავთ, ამიტომ **Prepáčte**. Prepáč მეგობრისთვისაა.",
+      "„ეს არის“ = to **je**. Som ja-სთან დგას."
+    ]
+  },
+  "a2-u3-darceky.match-roman.pairs": {
+    "en": [
+      "novel",
+      "detective story",
+      "scarf",
+      "gloves",
+      "slippers"
+    ],
+    "t": [
+      "რომანი",
+      "დეტექტივი",
+      "შარფი",
+      "ხელთათმანები",
+      "ჩუსტები"
+    ]
+  },
+  "a2-u3-darceky.fill-otec-ma-rad-ludovu.en": {
+    "en": "Dad likes folk music.",
+    "t": "მამას ხალხური მუსიკა უყვარს."
+  },
+  "a2-u3-darceky.fill-otec-ma-rad-ludovu.why": {
+    "en": "Music is what Dad likes, the object, so ľudová changes -á to **-ú**, just as hudba → hudbu.",
+    "t": "მუსიკა ის არის, რაც მამას უყვარს, ანუ ობიექტი, ამიტომ ľudová -á-ს **-ú**-თი ცვლის, ისევე როგორც hudba → hudbu."
+  },
+  "a2-u3-darceky.build-mama-rada-cita.answers": {
+    "en": [
+      "Mum likes reading detective stories.",
+      "Mum likes to read detective stories."
+    ],
+    "t": [
+      "დედას დეტექტივების კითხვა უყვარს.",
+      "დედას უყვარს დეტექტივების კითხვა.",
+      "დედა სიამოვნებით კითხულობს დეტექტივებს.",
+      "დედას დეტექტივების კითხვა მოსწონს."
+    ]
+  },
+  "a2-u3-darceky.build-mama-rada-cita.distractors": {
+    "en": [
+      "novels",
+      "writes"
+    ],
+    "t": [
+      "რომანების",
+      "წერა"
+    ]
+  },
+  "a2-u3-darceky.speak-mozem-to-vymenit.en": {
+    "en": "Can I exchange it?",
+    "t": "შემიძლია ეს გავცვალო?"
+  },
+  "a2-u3-najlepsi.titleEn": {
+    "en": "The best present",
+    "t": "საუკეთესო საჩუქარი"
+  },
+  "a2-u3-najlepsi.grammar-irregular-comparative.title": {
+    "en": "Better, bigger: irregular comparatives",
+    "t": "უკეთესი, უფრო დიდი: არაწესიერი შედარებითი ხარისხი"
+  },
+  "a2-u3-najlepsi.grammar-irregular-comparative.body": {
+    "en": [
+      "Five everyday adjectives change completely. Learn them as words. **zlý** = bad.",
+      "They end like any comparative: lepš**í** darček, lepš**ia** kniha, lepš**ie** auto."
+    ],
+    "t": [
+      "ხუთი ყოველდღიური ზედსართავი მთლიანად იცვლება, როგორც ქართულში კარგი → უკეთესი. ისწავლეთ ისინი ცალკე სიტყვებად. **zlý** = ცუდი.",
+      "დაბოლოებები ჩვეულებრივია: lepš**í** darček, lepš**ia** kniha, lepš**ie** auto."
+    ]
+  },
+  "a2-u3-najlepsi.grammar-irregular-comparative.table.head": {
+    "en": [
+      "adjective",
+      "comparative"
+    ],
+    "t": [
+      "ზედსართავი",
+      "შედარებითი ხარისხი"
+    ]
+  },
+  "a2-u3-najlepsi.grammar-irregular-comparative.table.rows": {
+    "en": [
+      [
+        "dobrý",
+        "**lepší**"
+      ],
+      [
+        "zlý",
+        "**horší**"
+      ],
+      [
+        "veľký",
+        "**väčší**"
+      ],
+      [
+        "malý",
+        "**menší**"
+      ],
+      [
+        "pekný",
+        "**krajší**"
+      ]
+    ],
+    "t": [
+      [
+        "dobrý",
+        "**lepší**"
+      ],
+      [
+        "zlý",
+        "**horší**"
+      ],
+      [
+        "veľký",
+        "**väčší**"
+      ],
+      [
+        "malý",
+        "**menší**"
+      ],
+      [
+        "pekný",
+        "**krajší**"
+      ]
+    ]
+  },
+  "a2-u3-najlepsi.grammar-irregular-comparative.examples": {
+    "en": [
+      "This scarf is nicer.",
+      "I need smaller gloves.",
+      "Košice is bigger than Žilina."
+    ],
+    "t": [
+      "ეს შარფი უფრო ლამაზია.",
+      "უფრო პატარა ხელთათმანები მჭირდება.",
+      "კოშიცე ჟილინაზე დიდია."
+    ]
+  },
+  "a2-u3-najlepsi.grammar-superlative-naj.title": {
+    "en": "The best: naj-",
+    "t": "საუკეთესო: naj-"
+  },
+  "a2-u3-najlepsi.grammar-superlative-naj.body": {
+    "en": [
+      "For “the most”, add **naj-** to the comparative: starší → **naj**starší, lepší → **naj**lepší. You know one already: Všetko **naj**lepšie! = All the best!",
+      "To say “in”, use v or na with the locative: najstarší **v rodine** (the oldest in the family), najväčšie mesto **na Slovensku**."
+    ],
+    "t": [
+      "„ყველაზე“-სთვის შედარებით ხარისხს დაუმატეთ **naj-**: starší → **naj**starší, lepší → **naj**lepší. ერთი უკვე იცით: Všetko **naj**lepšie! (სიტყვასიტყვით „ყველაფერი საუკეთესო!“)",
+      "„-ში“-სთვის გამოიყენეთ v ან na lokál-ით: najstarší **v rodine** (ყველაზე უფროსი ოჯახში), najväčšie mesto **na Slovensku** (ყველაზე დიდი ქალაქი სლოვაკეთში)."
+    ]
+  },
+  "a2-u3-najlepsi.grammar-superlative-naj.table.head": {
+    "en": [
+      "comparative",
+      "the most"
+    ],
+    "t": [
+      "შედარებითი ხარისხი",
+      "ყველაზე…"
+    ]
+  },
+  "a2-u3-najlepsi.grammar-superlative-naj.table.rows": {
+    "en": [
+      [
+        "starší",
+        "**naj**starší"
+      ],
+      [
+        "mladší",
+        "**naj**mladší"
+      ],
+      [
+        "lepší",
+        "**naj**lepší"
+      ],
+      [
+        "väčší",
+        "**naj**väčší"
+      ],
+      [
+        "krajší",
+        "**naj**krajší"
+      ]
+    ],
+    "t": [
+      [
+        "starší",
+        "**naj**starší"
+      ],
+      [
+        "mladší",
+        "**naj**mladší"
+      ],
+      [
+        "lepší",
+        "**naj**lepší"
+      ],
+      [
+        "väčší",
+        "**naj**väčší"
+      ],
+      [
+        "krajší",
+        "**naj**krajší"
+      ]
+    ]
+  },
+  "a2-u3-najlepsi.grammar-superlative-naj.examples": {
+    "en": [
+      "Grandma is the oldest in the family.",
+      "Samko is the youngest.",
+      "That's the best present!"
+    ],
+    "t": [
+      "ბებია ოჯახში ყველაზე უფროსია.",
+      "სამკო ყველაზე უმცროსია.",
+      "ეს საუკეთესო საჩუქარია!"
+    ]
+  },
+  "a2-u3-najlepsi.fill-tento-sal-je-krajsi.en": {
+    "en": "This scarf is nicer than the green one.",
+    "t": "ეს შარფი იმ მწვანეზე უფრო ლამაზია."
+  },
+  "a2-u3-najlepsi.fill-tento-sal-je-krajsi.why": {
+    "en": "Pekný has an irregular comparative, **krajší**. Šál is masculine, so it ends in -í.",
+    "t": "Pekný-ს არაწესიერი შედარებითი ხარისხი აქვს, **krajší**. Šál მამრობითია, ამიტომ -í-ზე ბოლოვდება."
+  },
+  "a2-u3-najlepsi.fill-potrebujem-mensie.en": {
+    "en": "Those gloves are too big. I need smaller ones.",
+    "t": "ის ხელთათმანები დიდია. უფრო პატარა მჭირდება."
+  },
+  "a2-u3-najlepsi.fill-potrebujem-mensie.why": {
+    "en": "Too big, so you need smaller: malý → **menší**, and rukavice is a plural thing, so **menšie**.",
+    "t": "ძალიან დიდია, ამიტომ უფრო პატარა გჭირდებათ: malý → **menší**, rukavice კი მრავლობითი საგანია, ამიტომ **menšie**."
+  },
+  "a2-u3-najlepsi.choice-opposite-lepsi.question": {
+    "en": "Which word is the opposite of lepší (better)?",
+    "t": "რომელი სიტყვაა lepší-ს (უკეთესი) საპირისპირო?"
+  },
+  "a2-u3-najlepsi.choice-opposite-lepsi.why": {
+    "en": "Lepší comes from dobrý; its opposite, worse, comes from zlý: **horší**. Both are irregular.",
+    "t": "Lepší dobrý-დან მოდის; მისი საპირისპირო, „უარესი“, zlý-დან: **horší**. ორივე არაწესიერია."
+  },
+  "a2-u3-najlepsi.build-to-je-najlepsi-darcek.prompt": {
+    "en": "That's the best present!",
+    "t": "ეს საუკეთესო საჩუქარია!"
+  },
+  "a2-u3-najlepsi.build-to-je-najlepsi-darcek.traps": {
+    "en": [
+      "Darček is masculine, so it's najlepš**í**.",
+      "The best of all takes **naj-**: **naj**lepší. Lepší is just better."
+    ],
+    "t": [
+      "Darček მამრობითია, ამიტომ najlepš**í**.",
+      "„ყველაზე“ **naj-**-ით ითქმის: **naj**lepší. Lepší მხოლოდ „უკეთესია“."
+    ]
+  },
+  "a2-u3-najlepsi.fill-samko-je-najmladsi.en": {
+    "en": "Samko is the youngest in the family.",
+    "t": "სამკო ოჯახში ყველაზე უმცროსია."
+  },
+  "a2-u3-najlepsi.fill-samko-je-najmladsi.why": {
+    "en": "The youngest of all takes **naj-**, and Samko is a boy: **naj**mladší.",
+    "t": "„ყველაზე“ **naj-**-ით ითქმის, სამკო კი ბიჭია: **naj**mladší."
+  },
+  "a2-u3-najlepsi.choice-ktore-mesto-je-najvacsie.question": {
+    "en": "Samko is quizzing Emma. What's the answer?",
+    "t": "სამკო ემას კითხვებს უსვამს. რა არის პასუხი?"
+  },
+  "a2-u3-najlepsi.fill-co-je-vacsie.en": {
+    "en": "Which is bigger: Žilina or Košice?",
+    "t": "რომელია უფრო დიდი: ჟილინა თუ კოშიცე?"
+  },
+  "a2-u3-najlepsi.fill-co-je-vacsie.why": {
+    "en": "After **čo** (what), the adjective is neuter: čo je väčš**ie**? Veľký → väčší is irregular.",
+    "t": "**čo**-ს (რა) შემდეგ ზედსართავი საშუალო სქესშია: čo je väčš**ie**? Veľký → väčší არაწესიერია."
+  },
+  "a2-u3-najlepsi.build-kosice-su-vacsie.prompt": {
+    "en": "Košice is bigger than Žilina.",
+    "t": "კოშიცე ჟილინაზე დიდია."
+  },
+  "a2-u3-najlepsi.build-kosice-su-vacsie.traps": {
+    "en": [
+      "Košice is a plural word in Slovak, so byť is **sú**.",
+      "Košice is plural and not a group of men, so the comparative ends in **-ie**: väčš**ie**."
+    ],
+    "t": [
+      "Košice სლოვაკურში მრავლობითი სიტყვაა, ამიტომ byť არის **sú**.",
+      "Košice მრავლობითია და კაცების ჯგუფი არ არის, ამიტომ შედარებითი ხარისხი **-ie**-ზე ბოლოვდება: väčš**ie**."
+    ]
+  },
+  "a2-u3-najlepsi.fill-februar-je-najkratsi.en": {
+    "en": "February is the shortest month.",
+    "t": "თებერვალი ყველაზე მოკლე თვეა."
+  },
+  "a2-u3-najlepsi.fill-februar-je-najkratsi.why": {
+    "en": "Krátky drops its k (and á gets short): krat**ší**; the shortest takes naj-: **naj**kratší. Mesiac is masculine, so -í.",
+    "t": "Krátky კარგავს k-ს (á კი მოკლდება): krat**ší**; „ყველაზე“ naj--ს იღებს: **naj**kratší. Mesiac მამრობითია, ამიტომ -í."
+  },
+  "a2-u3-najlepsi.build-marek-je-najlepsi-kuchar.answers": {
+    "en": [
+      "Marek is the best cook in the family."
+    ],
+    "t": [
+      "მარეკი ოჯახში საუკეთესო მზარეულია.",
+      "მარეკი საუკეთესო მზარეულია ოჯახში.",
+      "მარეკი ოჯახში ყველაზე კარგი მზარეულია.",
+      "ოჯახში საუკეთესო მზარეული მარეკია."
+    ]
+  },
+  "a2-u3-najlepsi.build-marek-je-najlepsi-kuchar.distractors": {
+    "en": [
+      "worst",
+      "oldest"
+    ],
+    "t": [
+      "უარესი",
+      "უფროსი"
+    ]
+  },
+  "a2-u3-najlepsi.match-lepsi.pairs": {
+    "en": [
+      "better",
+      "worse",
+      "bigger",
+      "smaller",
+      "nicer, prettier"
+    ],
+    "t": [
+      "უკეთესი",
+      "უარესი",
+      "უფრო დიდი",
+      "უფრო პატარა",
+      "უფრო ლამაზი"
+    ]
+  },
+  "a2-u3-najlepsi.speak-to-je-najlepsi.en": {
+    "en": "That's the best present!",
+    "t": "ეს საუკეთესო საჩუქარია!"
+  },
+  "a2-u3-komu.titleEn": {
+    "en": "To whom? The dative",
+    "t": "ვის? Datív (მიცემითი ბრუნვა)"
+  },
+  "a2-u3-komu.grammar-dative-komu.title": {
+    "en": "To whom? The dative",
+    "t": "ვის? Datív (მიცემითი ბრუნვა)"
+  },
+  "a2-u3-komu.grammar-dative-komu.body": {
+    "en": [
+      "You know **Páči sa mi** and **Zavolám ti**: mi and ti mean “to me, to you”. That's the dative, the to-whom case. Nouns have it too: Kúpim darček **mame**. = I'll buy Mum a present.",
+      "Ask **Komu?** (to whom?). Men take **-ovi**: otec → otc**ovi**, ujo → uj**ovi**, Marek → Marek**ovi**. Women change -a to **-e**: mama → mam**e**, babka → babk**e**."
+    ],
+    "t": [
+      "**Páči sa mi** და **Zavolám ti** უკვე იცით: mi და ti ნიშნავს „მე“, „შენ“ — ვისაც რამე ეძლევა ან ეხება. ეს datív-ია (მიცემითი ბრუნვა), „ვის?“ ბრუნვა. არსებით სახელებსაც აქვთ: Kúpim darček **mame**. = დედას საჩუქარს ვუყიდი. ქართულში „დედას“ და „საჩუქარს“ ერთნაირად -ს-ზე ბოლოვდება, სლოვაკურში კი მიმღები (mame) და საგანი (darček) სხვადასხვა ფორმაშია.",
+      "იკითხეთ **Komu?** (ვის?). კაცები **-ovi**-ს იღებენ: otec → otc**ovi**, ujo → uj**ovi**, Marek → Marek**ovi**. ქალები -a-ს **-e**-თი ცვლიან: mama → mam**e**, babka → babk**e**."
+    ]
+  },
+  "a2-u3-komu.grammar-dative-komu.table.head": {
+    "en": [
+      "",
+      "kto?",
+      "komu?"
+    ],
+    "t": [
+      "",
+      "kto? (ვინ?)",
+      "komu? (ვის?)"
+    ]
+  },
+  "a2-u3-komu.grammar-dative-komu.table.rows": {
+    "en": [
+      [
+        "he",
+        "otec",
+        "otc**ovi**"
+      ],
+      [
+        "he",
+        "ujo",
+        "uj**ovi**"
+      ],
+      [
+        "he",
+        "Samko",
+        "Samk**ovi**"
+      ],
+      [
+        "she",
+        "mama",
+        "mam**e**"
+      ],
+      [
+        "she",
+        "babka",
+        "babk**e**"
+      ],
+      [
+        "she",
+        "teta",
+        "tet**e**"
+      ]
+    ],
+    "t": [
+      [
+        "მამრობითი",
+        "otec",
+        "otc**ovi**"
+      ],
+      [
+        "მამრობითი",
+        "ujo",
+        "uj**ovi**"
+      ],
+      [
+        "მამრობითი",
+        "Samko",
+        "Samk**ovi**"
+      ],
+      [
+        "მდედრობითი",
+        "mama",
+        "mam**e**"
+      ],
+      [
+        "მდედრობითი",
+        "babka",
+        "babk**e**"
+      ],
+      [
+        "მდედრობითი",
+        "teta",
+        "tet**e**"
+      ]
+    ]
+  },
+  "a2-u3-komu.grammar-dative-komu.examples": {
+    "en": [
+      "Who are you buying that scarf for? – Grandma.",
+      "I'll buy Dad a book.",
+      "What shall we buy Samko?"
+    ],
+    "t": [
+      "ვის უყიდი იმ შარფს? – ბებიას.",
+      "მამას წიგნს ვუყიდი.",
+      "რა ვუყიდოთ სამკოს?"
+    ]
+  },
+  "a2-u3-komu.fill-kupim-ten-sal-babke.en": {
+    "en": "I'll buy that scarf for Grandma.",
+    "t": "იმ შარფს ბებიას ვუყიდი."
+  },
+  "a2-u3-komu.fill-kupim-ten-sal-babke.why": {
+    "en": "Grandma is the one who gets it, so she's in the dative: babk**e**. Babku would need pre: pre babku.",
+    "t": "შარფს ბებია იღებს, ამიტომ ის datív-შია: babk**e**. Babku-ს pre დასჭირდებოდა: pre babku (ბებიისთვის)."
+  },
+  "a2-u3-komu.fill-dam-tu-knihu-marekovi.en": {
+    "en": "I'll give that book to Marek.",
+    "t": "იმ წიგნს მარეკს მივცემ."
+  },
+  "a2-u3-komu.fill-dam-tu-knihu-marekovi.why": {
+    "en": "Marek gets the book, so he's in the dative, and men add **-ovi**: Marek**ovi**. Mareka is the object form.",
+    "t": "წიგნს მარეკი იღებს, ამიტომ ის datív-შია, კაცები კი **-ovi**-ს იღებენ: Marek**ovi**. Mareka ობიექტის ფორმაა."
+  },
+  "a2-u3-komu.choice-komu-koho-kto.question": {
+    "en": "Which question asks who gets something?",
+    "t": "რომელი კითხვა კითხულობს, ვინ იღებს რამეს?"
+  },
+  "a2-u3-komu.choice-komu-koho-kto.why": {
+    "en": "**Komu?** (to whom?) asks for the dative. Koho? asks for the object, kto? for the subject.",
+    "t": "**Komu?** (ვის?) datív-ს კითხულობს. Koho? ობიექტს კითხულობს, kto? — ქვემდებარეს. ქართული „ვის?“ ორივეს ფარავს (ვის აძლევ? ვის ხედავ?), სლოვაკური კი მათ არჩევს."
+  },
+  "a2-u3-komu.build-kupim-otcovi-knihu.prompt": {
+    "en": "I'll buy Dad a book.",
+    "t": "მამას წიგნს ვუყიდი."
+  },
+  "a2-u3-komu.build-kupim-otcovi-knihu.traps": {
+    "en": [
+      "Dad is the one who gets the book, so he's in the dative: otec → otc**ovi**. Otca is the object form.",
+      "The book is what you buy, the object, so kniha changes -a to **-u**."
+    ],
+    "t": [
+      "წიგნს მამა იღებს, ამიტომ ის datív-შია: otec → otc**ovi**. Otca ობიექტის ფორმაა.",
+      "წიგნი ის არის, რასაც ყიდულობთ, ანუ ობიექტი, ამიტომ kniha -a-ს **-u**-თი ცვლის."
+    ]
+  },
+  "a2-u3-komu.fill-co-kupis-ujovi.en": {
+    "en": "What will you buy Uncle Pavol?",
+    "t": "რას უყიდი ბიძა პავოლს?"
+  },
+  "a2-u3-komu.fill-co-kupis-ujovi.why": {
+    "en": "Both words are in the dative, each with **-ovi**: **ujovi** Pavlovi.",
+    "t": "ორივე სიტყვა datív-შია, ორივე **-ovi**-თი: **ujovi** Pavlovi. ქართულში „ბიძა პავოლს“ მხოლოდ ბოლო სიტყვა იცვლება."
+  },
+  "a2-u3-komu.grammar-dative-ii-u.title": {
+    "en": "Lucii, sesternici, dieťaťu",
+    "t": "Lucii, sesternici, dieťaťu"
+  },
+  "a2-u3-komu.grammar-dative-ii-u.body": {
+    "en": [
+      "Women's words in **-ia** take **-ii**: Lucia → Luci**i**. After a soft letter, and in words without -a, it's **-i**: sesternica → sesternic**i**, neter → neter**i**. Neuter words take **-u**: dieťa → dieťať**u** (a child).",
+      "Adjectives take **-ému** for him or it (a comparative takes **-iemu**) and **-ej** for her. Ten becomes **tomu** and **tej**: tomu mal**ému** dieťaťu, mladš**iemu** bratovi, tej mil**ej** pani."
+    ],
+    "t": [
+      "**-ia**-ზე დაბოლოებული ქალის სიტყვები **-ii**-ს იღებს: Lucia → Luci**i**. რბილი ასოს შემდეგ და -a-ს გარეშე სიტყვებში — **-i**-ს: sesternica → sesternic**i**, neter → neter**i**. საშუალო სქესის სიტყვები **-u**-ს იღებს: dieťa → dieťať**u** (ბავშვი).",
+      "ზედსართავები მამრობით და საშუალო სქესში **-ému**-ს იღებს (შედარებითი ხარისხი — **-iemu**-ს), მდედრობითში კი **-ej**-ს. Ten ხდება **tomu** და **tej**: tomu mal**ému** dieťaťu, mladš**iemu** bratovi, tej mil**ej** pani. ქართულში ზედსართავი თითქმის არ იცვლება (პატარა ბავშვს), სლოვაკურში კი არსებითს მიჰყვება."
+    ]
+  },
+  "a2-u3-komu.grammar-dative-ii-u.table.head": {
+    "en": [
+      "",
+      "kto?",
+      "komu?"
+    ],
+    "t": [
+      "",
+      "kto? (ვინ?)",
+      "komu? (ვის?)"
+    ]
+  },
+  "a2-u3-komu.grammar-dative-ii-u.table.rows": {
+    "en": [
+      [
+        "she",
+        "Lucia",
+        "Luci**i**"
+      ],
+      [
+        "she",
+        "sesternica",
+        "sesternic**i**"
+      ],
+      [
+        "she",
+        "neter",
+        "neter**i**"
+      ],
+      [
+        "it",
+        "dieťa",
+        "dieťať**u**"
+      ],
+      [
+        "he",
+        "malý brat",
+        "mal**ému** brat**ovi**"
+      ],
+      [
+        "she",
+        "milá teta",
+        "mil**ej** tet**e**"
+      ]
+    ],
+    "t": [
+      [
+        "მდედრობითი",
+        "Lucia",
+        "Luci**i**"
+      ],
+      [
+        "მდედრობითი",
+        "sesternica",
+        "sesternic**i**"
+      ],
+      [
+        "მდედრობითი",
+        "neter",
+        "neter**i**"
+      ],
+      [
+        "საშუალო",
+        "dieťa",
+        "dieťať**u**"
+      ],
+      [
+        "მამრობითი",
+        "malý brat",
+        "mal**ému** brat**ovi**"
+      ],
+      [
+        "მდედრობითი",
+        "milá teta",
+        "mil**ej** tet**e**"
+      ]
+    ]
+  },
+  "a2-u3-komu.grammar-dative-ii-u.examples": {
+    "en": [
+      "Emma will send her cousin a postcard.",
+      "I'll buy it for my younger brother."
+    ],
+    "t": [
+      "ემა ბიძაშვილს ღია ბარათს გაუგზავნის.",
+      "ამას უმცროს ძმას ვუყიდი."
+    ]
+  },
+  "a2-u3-komu.fill-kupim-to-malemu-samkovi.en": {
+    "en": "I'll buy it for little Samko.",
+    "t": "ამას პატარა სამკოს ვუყიდი."
+  },
+  "a2-u3-komu.fill-kupim-to-malemu-samkovi.why": {
+    "en": "Samkovi is in the dative, so its adjective is too: for him, **-ému**, mal**ému** Samkovi. Malého is the object form.",
+    "t": "Samkovi datív-შია, ამიტომ მისი ზედსართავიც: მამრობითში **-ému**, mal**ému** Samkovi. Malého ობიექტის ფორმაა."
+  },
+  "a2-u3-komu.fill-kupim-to-starej-mame.en": {
+    "en": "I'll buy it for Grandma.",
+    "t": "ამას ბებიას ვუყიდი."
+  },
+  "a2-u3-komu.fill-kupim-to-starej-mame.why": {
+    "en": "Stará mama is grandma. Mame is feminine and in the dative, so the adjective takes **-ej**: star**ej** mame. Starú is the object form.",
+    "t": "Stará mama ბებიაა. Mame მდედრობითია და datív-შია, ამიტომ ზედსართავი **-ej**-ს იღებს: star**ej** mame. Starú ობიექტის ფორმაა."
+  },
+  "a2-u3-komu.fill-emma-zavola-sesternici.en": {
+    "en": "Emma will phone her cousin.",
+    "t": "ემა ბიძაშვილს დაურეკავს."
+  },
+  "a2-u3-komu.fill-emma-zavola-sesternici.why": {
+    "en": "Phoning someone is zavolať + the dative. The object form, as in A1's volať Luciu, is also standard. Sesternica has a soft c before the -a, so it takes **-i**: sesternic**i**.",
+    "t": "ვინმესთვის დარეკვა არის zavolať + datív, როგორც ქართულში: ვის დაურეკავს? — ბიძაშვილს. ობიექტის ფორმაც, როგორც A1-ის volať Luciu-ში, ნორმაა. Sesternica-ს -a-ს წინ რბილი c აქვს, ამიტომ **-i**-ს იღებს: sesternic**i**."
+  },
+  "a2-u3-komu.fill-emma-kupi-sal-lucii.en": {
+    "en": "Emma will buy Lucia a scarf.",
+    "t": "ემა ლუციას შარფს უყიდის."
+  },
+  "a2-u3-komu.fill-emma-kupi-sal-lucii.why": {
+    "en": "Lucia ends in -ia, so the dative is **-ii**: Luci**i**. Luciu is the object form.",
+    "t": "Lucia -ia-ზე ბოლოვდება, ამიტომ datív არის **-ii**: Luci**i**. Luciu ობიექტის ფორმაა."
+  },
+  "a2-u3-komu.fill-emma-kupi-mladsiemu.en": {
+    "en": "Emma will buy her younger brother a book.",
+    "t": "ემა უმცროს ძმას წიგნს უყიდის."
+  },
+  "a2-u3-komu.fill-emma-kupi-mladsiemu.why": {
+    "en": "Bratovi is in the dative, so its adjective is too, and a comparative takes **-iemu**: mladš**iemu** bratovi.",
+    "t": "Bratovi datív-შია, ამიტომ მისი ზედსართავიც, შედარებითი ხარისხი კი **-iemu**-ს იღებს: mladš**iemu** bratovi."
+  },
+  "a2-u3-komu.build-co-kupis-samkovi.prompt": {
+    "en": "What will you buy Samko?",
+    "t": "რას უყიდი სამკოს?"
+  },
+  "a2-u3-komu.build-co-kupis-samkovi.traps": {
+    "en": [
+      "Samko gets the present, so he's in the dative: Samk**ovi**. Samka is the object form.",
+      "The question is to ty, so the verb ends in **-š**: kúpiš."
+    ],
+    "t": [
+      "საჩუქარს სამკო იღებს, ამიტომ ის datív-შია: Samk**ovi**. Samka ობიექტის ფორმაა.",
+      "კითხვა ty-ს ეხება, ამიტომ ზმნა **-š**-ზე ბოლოვდება: kúpiš."
+    ]
+  },
+  "a2-u3-komu.fill-ten-darcek-je-pre-mamu.en": {
+    "en": "That present is for Mum.",
+    "t": "ეს საჩუქარი დედისთვისაა."
+  },
+  "a2-u3-komu.fill-ten-darcek-je-pre-mamu.why": {
+    "en": "After **pre** (for) comes the object form: pre mam**u**. Without pre, use the dative: Dám ho mam**e**.",
+    "t": "**pre**-ს („-თვის“) შემდეგ ობიექტის ფორმა მოდის: pre mam**u**. pre-ს გარეშე datív გამოიყენეთ: Dám ho mam**e**. (დედას მივცემ.)"
+  },
+  "a2-u3-komu.choice-kupim-marekovi-knihu.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "a2-u3-komu.choice-kupim-marekovi-knihu.options": {
+    "en": [
+      "I'll buy Marek a book.",
+      "Marek will buy me a book.",
+      "I'll buy a book with Marek."
+    ],
+    "t": [
+      "მარეკს წიგნს ვუყიდი.",
+      "მარეკი წიგნს მიყიდის.",
+      "მარეკთან ერთად წიგნს ვიყიდი."
+    ]
+  },
+  "a2-u3-komu.choice-kupim-marekovi-knihu.why": {
+    "en": "**Marekovi** is the dative: Marek is the one who gets the book. With Marek would be s Marekom.",
+    "t": "**Marekovi** datív-ია: წიგნს მარეკი იღებს. „მარეკთან ერთად“ იქნებოდა s Marekom."
+  },
+  "a2-u3-komu.fill-komu-das-tu-kavu.en": {
+    "en": "Who will you give that coffee to? – That man by the window.",
+    "t": "ვის მისცემ იმ ყავას? – იმ ბატონს, ფანჯარასთან რომ ზის."
+  },
+  "a2-u3-komu.fill-komu-das-tu-kavu.why": {
+    "en": "Pánovi is in the dative, so “that” is too: **tomu** pánovi. Toho is the object form.",
+    "t": "Pánovi datív-შია, ამიტომ „ისიც“: **tomu** pánovi. Toho ობიექტის ფორმაა."
+  },
+  "a2-u3-komu.speak-co-kupime-babke.en": {
+    "en": "What shall we buy Grandma?",
+    "t": "რა ვუყიდოთ ბებიას?"
+  },
+  "a2-u3-rodicom.titleEn": {
+    "en": "To parents and children",
+    "t": "მშობლებს და ბავშვებს"
+  },
+  "a2-u3-rodicom.grammar-dative-plural.title": {
+    "en": "To them: -om, -ám",
+    "t": "მათ: -om, -ám"
+  },
+  "a2-u3-rodicom.grammar-dative-plural.body": {
+    "en": [
+      "In the plural, masculine words take **-om**: rodičia → rodič**om**, kamaráti → kamarát**om**. Feminine and neuter words take **-ám**: sestry → sestr**ám**, mestá → mest**ám**.",
+      "After a long syllable it's a short **-am**: kamarátky → kamarátk**am**. Two words have their own forms: deti → **deťom**, ľudia → **ľuďom**.",
+      "Adjectives and ten end in **-ým**: **tým** mil**ým** ľuďom, star**ým** rodičom."
+    ],
+    "t": [
+      "მრავლობითში მამრობითი სიტყვები **-om**-ს იღებს: rodičia → rodič**om**, kamaráti → kamarát**om**. მდედრობითი და საშუალო სიტყვები — **-ám**-ს: sestry → sestr**ám**, mestá → mest**ám**.",
+      "გრძელი მარცვლის შემდეგ მოკლე **-am**-ია: kamarátky → kamarátk**am**. ორ სიტყვას საკუთარი ფორმა აქვს: deti → **deťom**, ľudia → **ľuďom**.",
+      "ზედსართავები და ten **-ým**-ზე ბოლოვდება: **tým** mil**ým** ľuďom, star**ým** rodičom."
+    ]
+  },
+  "a2-u3-rodicom.grammar-dative-plural.table.head": {
+    "en": [
+      "more than one",
+      "komu?"
+    ],
+    "t": [
+      "მრავლობითი",
+      "komu? (ვის?)"
+    ]
+  },
+  "a2-u3-rodicom.grammar-dative-plural.table.rows": {
+    "en": [
+      [
+        "rodičia",
+        "rodič**om**"
+      ],
+      [
+        "súrodenci",
+        "súrodenc**om**"
+      ],
+      [
+        "vnuci",
+        "vnuk**om**"
+      ],
+      [
+        "sestry",
+        "sestr**ám**"
+      ],
+      [
+        "kamarátky",
+        "kamarátk**am**"
+      ],
+      [
+        "deti",
+        "deť**om**"
+      ],
+      [
+        "ľudia",
+        "ľuď**om**"
+      ]
+    ],
+    "t": [
+      [
+        "rodičia",
+        "rodič**om**"
+      ],
+      [
+        "súrodenci",
+        "súrodenc**om**"
+      ],
+      [
+        "vnuci",
+        "vnuk**om**"
+      ],
+      [
+        "sestry",
+        "sestr**ám**"
+      ],
+      [
+        "kamarátky",
+        "kamarátk**am**"
+      ],
+      [
+        "deti",
+        "deť**om**"
+      ],
+      [
+        "ľudia",
+        "ľuď**om**"
+      ]
+    ]
+  },
+  "a2-u3-rodicom.grammar-dative-plural.examples": {
+    "en": [
+      "I'll phone my parents at Christmas.",
+      "I'll send my friends some photos.",
+      "Grandma is telling the children about Christmas."
+    ],
+    "t": [
+      "შობაზე მშობლებს დავურეკავ.",
+      "მეგობრებს ფოტოებს გავუგზავნი.",
+      "ბებია ბავშვებს შობაზე უყვება."
+    ]
+  },
+  "a2-u3-rodicom.fill-na-vianoce-zavolam.en": {
+    "en": "I'll phone my parents at Christmas.",
+    "t": "შობაზე მშობლებს დავურეკავ."
+  },
+  "a2-u3-rodicom.fill-na-vianoce-zavolam.why": {
+    "en": "Phoning someone is zavolať + the dative, and masculine plurals end in **-om**: rodič**om**. Rodičoch is the locative.",
+    "t": "ვინმესთვის დარეკვა არის zavolať + datív, მამრობითი მრავლობითი კი **-om**-ზე ბოლოვდება: rodič**om**. Rodičoch lokál-ია."
+  },
+  "a2-u3-rodicom.fill-kupime-darceky-detom.en": {
+    "en": "We'll buy the children presents.",
+    "t": "ბავშვებს საჩუქრებს ვუყიდით."
+  },
+  "a2-u3-rodicom.fill-kupime-darceky-detom.why": {
+    "en": "The children get the presents, so they're in the dative: deti → **deťom**. Deťoch is the locative: o deťoch.",
+    "t": "საჩუქრებს ბავშვები იღებენ, ამიტომ ისინი datív-შია: deti → **deťom**. Deťoch lokál-ია: o deťoch (ბავშვებზე)."
+  },
+  "a2-u3-rodicom.build-lucia-pise-kamaratkam.prompt": {
+    "en": "Lucia is writing to her friends.",
+    "t": "ლუცია მეგობრებს წერს."
+  },
+  "a2-u3-rodicom.build-lucia-pise-kamaratkam.traps": {
+    "en": [
+      "Lucia writes **to** her friends, so they're in the dative: kamarátk**am**, with a short -am after the long á.",
+      "Lucia is one person (ona), so písať is **píše**."
+    ],
+    "t": [
+      "წერილს მეგობრები იღებენ, ამიტომ ისინი datív-შია: kamarátk**am**, გრძელი á-ს შემდეგ მოკლე -am-ით.",
+      "ლუცია ერთი ადამიანია (ona), ამიტომ písať არის **píše**."
+    ]
+  },
+  "a2-u3-rodicom.choice-zavolam-rodicom.question": {
+    "en": "“I'll phone my parents.” Which is right?",
+    "t": "„მშობლებს დავურეკავ.“ რომელია სწორი?"
+  },
+  "a2-u3-rodicom.choice-zavolam-rodicom.why": {
+    "en": "Zavolať takes the dative, and rodičia becomes **rodičom**. Rodičoch is the locative.",
+    "t": "Zavolať datív-ს მოითხოვს, rodičia კი ხდება **rodičom**. Rodičoch lokál-ია."
+  },
+  "a2-u3-rodicom.fill-babka-dava-jablka-tym.en": {
+    "en": "Grandma gave apples to those little children.",
+    "t": "ბებიამ ვაშლები იმ პატარა ბავშვებს მისცა."
+  },
+  "a2-u3-rodicom.fill-babka-dava-jablka-tym.why": {
+    "en": "Deťom is in the dative plural, so “those” and the adjective are too: **tým** mal**ým** deťom.",
+    "t": "Deťom datív-ის მრავლობითშია, ამიტომ „ის“ და ზედსართავიც: **tým** mal**ým** deťom."
+  },
+  "a2-u3-rodicom.fill-babka-rozprava-vnucatam.en": {
+    "en": "Grandma tells her grandchildren about Christmas.",
+    "t": "ბებია შვილიშვილებს შობაზე უყვება."
+  },
+  "a2-u3-rodicom.fill-babka-rozprava-vnucatam.why": {
+    "en": "Babka tells it to them, so they're in the dative: neuter -á becomes **-ám**, vnúčat**ám**.",
+    "t": "ბებია მათ უყვება, ამიტომ ისინი datív-შია: საშუალო სქესის -á ხდება **-ám**, vnúčat**ám**."
+  },
+  "a2-u3-rodicom.build-tomas-pise-kamaratom.prompt": {
+    "en": "Tomáš is writing his friends an e-mail.",
+    "t": "ტომაში მეგობრებს მეილს სწერს."
+  },
+  "a2-u3-rodicom.build-tomas-pise-kamaratom.traps": {
+    "en": [
+      "His friends get the e-mail, so they're in the dative: kamarát**om**. Kamarátov is the object form.",
+      "Tomáš is one person (on), so písať is **píše**."
+    ],
+    "t": [
+      "მეილს მეგობრები იღებენ, ამიტომ ისინი datív-შია: kamarát**om**. Kamarátov ობიექტის ფორმაა.",
+      "ტომაში ერთი ადამიანია (on), ამიტომ písať არის **píše**."
+    ]
+  },
+  "a2-u3-rodicom.fill-volame-starym-rodicom.en": {
+    "en": "Over Christmas we phone our grandparents.",
+    "t": "შობის დღეებში ბებია-ბაბუას ვურეკავთ."
+  },
+  "a2-u3-rodicom.fill-volame-starym-rodicom.why": {
+    "en": "Rodičom is in the dative plural, so the adjective ends in **-ým**: star**ým** rodičom.",
+    "t": "Rodičom datív-ის მრავლობითშია, ამიტომ ზედსართავი **-ým**-ზე ბოლოვდება: star**ým** rodičom."
+  },
+  "a2-u3-rodicom.choice-babka-dala-detom.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "a2-u3-rodicom.choice-babka-dala-detom.options": {
+    "en": [
+      "The children gave Grandma apples.",
+      "Grandma ate apples with the children.",
+      "Grandma gave the children apples."
+    ],
+    "t": [
+      "ბავშვებმა ბებიას ვაშლები მისცეს.",
+      "ბებიამ ბავშვებთან ერთად ვაშლები ჭამა.",
+      "ბებიამ ბავშვებს ვაშლები მისცა."
+    ]
+  },
+  "a2-u3-rodicom.choice-babka-dala-detom.why": {
+    "en": "**Deťom** is the dative plural: the children get the apples. Babka is the subject, the one who gives.",
+    "t": "**Deťom** datív-ის მრავლობითია: ვაშლებს ბავშვები იღებენ. Babka ქვემდებარეა, ის, ვინც აძლევს."
+  },
+  "a2-u3-rodicom.build-poslem-rodicom-fotky.answers": {
+    "en": [
+      "I'll send my parents photos.",
+      "I'll send photos to my parents.",
+      "I'll send my parents some photos."
+    ],
+    "t": [
+      "მშობლებს ფოტოებს გავუგზავნი.",
+      "ფოტოებს მშობლებს გავუგზავნი.",
+      "მშობლებს გავუგზავნი ფოტოებს.",
+      "გავუგზავნი მშობლებს ფოტოებს."
+    ]
+  },
+  "a2-u3-rodicom.build-poslem-rodicom-fotky.distractors": {
+    "en": [
+      "children",
+      "sent"
+    ],
+    "t": [
+      "ბავშვებს",
+      "გავუგზავნე"
+    ]
+  },
+  "a2-u3-rodicom.speak-zavolam-rodicom.en": {
+    "en": "I'll phone my parents.",
+    "t": "მშობლებს დავურეკავ."
+  },
+  "a2-u3-navsteva.titleEn": {
+    "en": "Welcome to our home!",
+    "t": "კეთილი იყოს თქვენი მობრძანება!"
+  },
+  "a2-u3-navsteva.vitajte-u-nas.en": {
+    "en": "Welcome (to our home)!",
+    "t": "კეთილი იყოს თქვენი მობრძანება (ჩვენთან)!"
+  },
+  "a2-u3-navsteva.vitajte-u-nas.note": {
+    "en": "Emma and Lucia arrive in Žilina by train. **u nás** = at our place. Lucia's mum says vitajte to both girls; to one friend: Vitaj u nás!",
+    "t": "ემა და ლუცია ჟილინაში მატარებლით ჩადიან. **u nás** = ჩვენთან, ჩვენს სახლში. ლუციას დედა ორივე გოგოს ეუბნება vitajte; ერთ მეგობარს კი: Vitaj u nás! (შენობით)"
+  },
+  "a2-u3-navsteva.choice-mama-otvara-dvere.question": {
+    "en": "Lucia's mum opens the door to Lucia and Emma. What does she say?",
+    "t": "ლუციას დედა ლუციასა და ემას კარს უღებს. რას ეუბნება?"
+  },
+  "a2-u3-navsteva.choice-mama-otvara-dvere.why": {
+    "en": "She's welcoming two people, so she uses the vy form: **Vitajte**. Vitaj is for one friend.",
+    "t": "ის ორ ადამიანს ეგებება, ამიტომ vy-ს ფორმას იყენებს: **Vitajte**. Vitaj ერთი მეგობრისთვისაა."
+  },
+  "a2-u3-navsteva.mate-krasny-dom.en": {
+    "en": "You have a lovely house.",
+    "t": "მშვენიერი სახლი გაქვთ."
+  },
+  "a2-u3-navsteva.mate-krasny-dom.note": {
+    "en": "**dom** = a house; **krásny** = beautiful, lovely. Emma says vy to Lucia's parents and grandma; they say ty to her.",
+    "t": "**dom** = სახლი; **krásny** = ლამაზი, მშვენიერი. ემა ლუციას მშობლებსა და ბებიას vy-თი (თქვენობით) მიმართავს, ისინი კი მას — ty-თი (შენობით)."
+  },
+  "a2-u3-navsteva.build-dakujem-za-pozvanie-mate.prompt": {
+    "en": "Thank you for the invitation. You have a lovely house.",
+    "t": "მადლობა მოწვევისთვის. მშვენიერი სახლი გაქვთ."
+  },
+  "a2-u3-navsteva.build-dakujem-za-pozvanie-mate.traps": {
+    "en": [
+      "Emma says vy to Lucia's parents, so it's **máte**. Máš is for ty.",
+      "A house is **dom**. Domov is home as in where to: ísť domov."
+    ],
+    "t": [
+      "ემა ლუციას მშობლებს vy-თი მიმართავს, ამიტომ **máte**. Máš ty-სთვისაა.",
+      "სახლი, შენობა, არის **dom**. Domov ნიშნავს „სახლში“, „საით?“ კითხვაზე: ísť domov."
+    ]
+  },
+  "a2-u3-navsteva.sme-radi-ze-si-tu.en": {
+    "en": "We're glad you're here.",
+    "t": "გვიხარია, რომ აქ ხარ."
+  },
+  "a2-u3-navsteva.sme-radi-ze-si-tu.note": {
+    "en": "**rád, rada, radi** + **že** = glad that. Lucia's mum on her own: Som rada, že si tu, Emma.",
+    "t": "**rád, rada, radi** + **že** = მიხარია, რომ… ლუციას დედა მხოლოდ თავის სახელით: Som rada, že si tu, Emma. (მიხარია, რომ აქ ხარ, ემა.)"
+  },
+  "a2-u3-navsteva.je-ti-zima.en": {
+    "en": "Are you cold?",
+    "t": "გცივა?"
+  },
+  "a2-u3-navsteva.je-ti-zima.note": {
+    "en": "Je zima. = It's cold (out). **Je mi zima.** = I'm cold: mi and ti, to me and to you, say who feels it.",
+    "t": "Je zima. = ცივა (გარეთ). **Je mi zima.** = მცივა: mi და ti (მე, შენ) ამბობს, ვინ გრძნობს სიცივეს, ზუსტად როგორც ქართულ „მცივა“, „გცივა“-ში."
+  },
+  "a2-u3-navsteva.fill-emma-je-ti-zima.en": {
+    "en": "Emma, are you cold?",
+    "t": "ემა, გცივა?"
+  },
+  "a2-u3-navsteva.fill-emma-je-ti-zima.why": {
+    "en": "Who feels the cold is in the dative: **ti** (to you), the short form, in second place. Ťa is the object form.",
+    "t": "ის, ვინც სიცივეს გრძნობს, datív-შია: **ti** (შენ), მოკლე ფორმა, მეორე ადგილზე. Ťa ობიექტის ფორმაა."
+  },
+  "a2-u3-navsteva.si-hladna.en": {
+    "en": "Are you hungry? (to a woman)",
+    "t": "გშია? (ქალს, შენ)"
+  },
+  "a2-u3-navsteva.si-hladna.note": {
+    "en": "Thirsty is **smädný**. Babka has baked: Chceš **ochutnať** koláč? = Do you want to try a cake? (**koláč** = a cake, a pastry)",
+    "t": "მწყურვალი არის **smädný**. ბებიას ნამცხვარი გამოუცხვია: Chceš **ochutnať** koláč? = გინდა ნამცხვარი გასინჯო? (**koláč** = ნამცხვარი, ღვეზელი)"
+  },
+  "a2-u3-navsteva.fill-si-hladna-emma.en": {
+    "en": "Are you hungry, Emma? Will you have some soup?",
+    "t": "გშია, ემა? წვნიანს შეჭამ?"
+  },
+  "a2-u3-navsteva.fill-si-hladna-emma.why": {
+    "en": "Emma is a woman, so the adjective ends in **-á**: hladn**á**.",
+    "t": "ემა ქალია, ამიტომ ზედსართავი **-á**-ზე ბოლოვდება: hladn**á**. ქართულ „გშია“-ს სქესი არ აქვს, სლოვაკურ ზედსართავს კი აქვს."
+  },
+  "a2-u3-navsteva.choice-emma-is-cold.question": {
+    "en": "Emma is cold. What does she say?",
+    "t": "ემას სცივა. რას იტყვის?"
+  },
+  "a2-u3-navsteva.choice-emma-is-cold.why": {
+    "en": "**Je mi zima** says that you feel cold: mi = to me. Je zima only says it's cold out, and mám zima isn't Slovak.",
+    "t": "**Je mi zima** ამბობს, რომ სიცივეს გრძნობთ: mi = მე, როგორც „მცივა“-ში. Je zima მხოლოდ ამბობს, რომ გარეთ ცივა, mám zima კი სლოვაკური არ არის."
+  },
+  "a2-u3-navsteva.chce-sa-mi-spat.en": {
+    "en": "I'm sleepy.",
+    "t": "მეძინება."
+  },
+  "a2-u3-navsteva.chce-sa-mi-spat.note": {
+    "en": "Literally “it wants itself to me to sleep”. The same pattern: Chce sa mi jesť. = I feel like eating.",
+    "t": "ზუსტად როგორც ქართულ „მეძინება“-ში, ის, ვისაც ეძინება, datív-შია: mi. იგივე მოდელი: Chce sa mi jesť. = ჭამა მომინდა."
+  },
+  "a2-u3-navsteva.build-sme-radi-ze-si-tu.answers": {
+    "en": [
+      "We're glad you're here, Emma.",
+      "We are glad you are here, Emma."
+    ],
+    "t": [
+      "გვიხარია, რომ აქ ხარ, ემა.",
+      "ემა, გვიხარია, რომ აქ ხარ.",
+      "გვიხარია, ემა, რომ აქ ხარ."
+    ]
+  },
+  "a2-u3-navsteva.build-sme-radi-ze-si-tu.distractors": {
+    "en": [
+      "sorry",
+      "they"
+    ],
+    "t": [
+      "ვწუხვართ",
+      "მიხარია"
+    ]
+  },
+  "a2-u3-navsteva.fill-chce-sa-mi-spat.en": {
+    "en": "I'm tired. I'm sleepy.",
+    "t": "დაღლილი ვარ. მეძინება."
+  },
+  "a2-u3-navsteva.fill-chce-sa-mi-spat.why": {
+    "en": "Who feels like it is in the dative, so it's chce sa **mi**. Ma is the object form, ja the subject.",
+    "t": "ის, ვისაც რამე სურს, datív-შია, ამიტომ chce sa **mi**. Ma ობიექტის ფორმაა, ja — ქვემდებარე."
+  },
+  "a2-u3-navsteva.build-chces-ochutnat-kolac.prompt": {
+    "en": "Do you want to try a cake?",
+    "t": "გინდა ნამცხვარი გასინჯო?"
+  },
+  "a2-u3-navsteva.build-chces-ochutnat-kolac.traps": {
+    "en": [
+      "After chceš comes the infinitive, the -ť form: chceš **ochutnať**.",
+      "Koláč is a thing, so as the object it doesn't change: ochutnať **koláč**."
+    ],
+    "t": [
+      "chceš-ის შემდეგ ინფინიტივი მოდის, -ť ფორმა: chceš **ochutnať**.",
+      "Koláč საგანია, ამიტომ ობიექტად არ იცვლება: ochutnať **koláč**."
+    ]
+  },
+  "a2-u3-navsteva.match-hladny.pairs": {
+    "en": [
+      "hungry",
+      "thirsty",
+      "tired",
+      "lovely",
+      "house"
+    ],
+    "t": [
+      "მშიერი",
+      "მწყურვალი",
+      "დაღლილი",
+      "მშვენიერი",
+      "სახლი"
+    ]
+  },
+  "a2-u3-navsteva.speak-vitajte-u-nas.en": {
+    "en": "Welcome to our home!",
+    "t": "კეთილი იყოს თქვენი მობრძანება!"
+  },
+  "a2-u3-mi-mne.titleEn": {
+    "en": "Mi or mne? Pronouns",
+    "t": "Mi თუ mne? ნაცვალსახელები"
+  },
+  "a2-u3-mi-mne.grammar-dative-pronouns.title": {
+    "en": "To me, to him: mi, mu, jej",
+    "t": "მე, მას: mi, mu, jej"
+  },
+  "a2-u3-mi-mne.grammar-dative-pronouns.body": {
+    "en": [
+      "Pronouns have a dative too. You know **mi**, **ti** and **vám**: Páči sa mi. Zavolám ti. Ako sa vám páčila konferencia?",
+      "The short forms are small words that go in second place, like sa: Kúpim **mu** knihu. Dám **jej** šál."
+    ],
+    "t": [
+      "ნაცვალსახელებსაც აქვთ datív. **mi**, **ti** და **vám** უკვე იცით: Páči sa mi. Zavolám ti. Ako sa vám páčila konferencia? ქართულში ეს პირი ზმნაშივეა (მომწონს, დაგირეკავ), სლოვაკურში კი ცალკე პატარა სიტყვაა.",
+      "მოკლე ფორმები პატარა სიტყვებია, რომლებიც მეორე ადგილზე დგას, როგორც sa: Kúpim **mu** knihu. Dám **jej** šál."
+    ]
+  },
+  "a2-u3-mi-mne.grammar-dative-pronouns.table.head": {
+    "en": [
+      "",
+      "short",
+      "stressed"
+    ],
+    "t": [
+      "",
+      "მოკლე",
+      "მახვილიანი"
+    ]
+  },
+  "a2-u3-mi-mne.grammar-dative-pronouns.table.rows": {
+    "en": [
+      [
+        "ja",
+        "mi",
+        "**mne**"
+      ],
+      [
+        "ty",
+        "ti",
+        "**tebe**"
+      ],
+      [
+        "on, ono",
+        "mu",
+        "**jemu**"
+      ],
+      [
+        "ona",
+        "jej",
+        "jej"
+      ],
+      [
+        "my",
+        "nám",
+        "nám"
+      ],
+      [
+        "vy",
+        "vám",
+        "vám"
+      ],
+      [
+        "oni, ony",
+        "im",
+        "im"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "mi",
+        "**mne**"
+      ],
+      [
+        "ty",
+        "ti",
+        "**tebe**"
+      ],
+      [
+        "on, ono",
+        "mu",
+        "**jemu**"
+      ],
+      [
+        "ona",
+        "jej",
+        "jej"
+      ],
+      [
+        "my",
+        "nám",
+        "nám"
+      ],
+      [
+        "vy",
+        "vám",
+        "vám"
+      ],
+      [
+        "oni, ony",
+        "im",
+        "im"
+      ]
+    ]
+  },
+  "a2-u3-mi-mne.grammar-dative-pronouns.examples": {
+    "en": [
+      "I'll buy him a book.",
+      "I'll give her a scarf.",
+      "I'll phone them tomorrow."
+    ],
+    "t": [
+      "მას (კაცს) წიგნს ვუყიდი.",
+      "მას (ქალს) შარფს მივცემ.",
+      "მათ ხვალ დავურეკავ."
+    ]
+  },
+  "a2-u3-mi-mne.grammar-mne-tebe-jemu.title": {
+    "en": "Mne, tebe, jemu: stressed",
+    "t": "Mne, tebe, jemu: მახვილიანი ფორმები"
+  },
+  "a2-u3-mi-mne.grammar-mne-tebe-jemu.body": {
+    "en": [
+      "Use the long forms **mne, tebe, jemu** at the start of a sentence, alone as an answer, or to stress who: **Mne** sa páči, ale **jemu** nie. Komu? – **Tebe**.",
+      "A short form never starts a sentence: Páči sa **mi**, but **Mne** sa páči."
+    ],
+    "t": [
+      "გრძელი ფორმები **mne, tebe, jemu** გამოიყენეთ წინადადების დასაწყისში, ცალკე, როგორც პასუხი, ან როცა ხაზს უსვამთ, ვის: **Mne** sa páči, ale **jemu** nie. Komu? – **Tebe**.",
+      "მოკლე ფორმა წინადადებას არასდროს იწყებს: Páči sa **mi**, მაგრამ **Mne** sa páči."
+    ]
+  },
+  "a2-u3-mi-mne.grammar-mne-tebe-jemu.examples": {
+    "en": [
+      "I like your scarf, but he doesn't.",
+      "Who are you giving that present to? – You."
+    ],
+    "t": [
+      "მე შენი შარფი მომწონს, მას კი — არა.",
+      "ვის აჩუქებ იმ საჩუქარს? – შენ."
+    ]
+  },
+  "a2-u3-mi-mne.fill-kupim-mu-roman.en": {
+    "en": "Uncle Pavol likes reading. I'll buy him a novel.",
+    "t": "ბიძა პავოლს კითხვა უყვარს. რომანს ვუყიდი."
+  },
+  "a2-u3-mi-mne.fill-kupim-mu-roman.why": {
+    "en": "Ujo Pavol is on, so to him is **mu**. Jej is to her, im to them.",
+    "t": "ბიძა პავოლი = on, ამიტომ „მას“ არის **mu**. Jej ქალისთვისაა, im — მათთვის."
+  },
+  "a2-u3-mi-mne.fill-komu-das-tebe.en": {
+    "en": "Who will you give that present to? – You.",
+    "t": "ვის მისცემ იმ საჩუქარს? – შენ."
+  },
+  "a2-u3-mi-mne.fill-komu-das-tebe.why": {
+    "en": "Alone, as an answer, the pronoun takes its long form: **Tebe**. Ti is the short form, teba the object form.",
+    "t": "ცალკე, პასუხად, ნაცვალსახელი გრძელ ფორმას იღებს: **Tebe**. Ti მოკლე ფორმაა, teba — ობიექტის ფორმა."
+  },
+  "a2-u3-mi-mne.build-dam-jej-sal.prompt": {
+    "en": "I'll give her the scarf.",
+    "t": "მას (ქალს) შარფს მივცემ."
+  },
+  "a2-u3-mi-mne.build-dam-jej-sal.traps": {
+    "en": [
+      "She's the one who gets the scarf, so it's the dative: **jej**. Ju is the object form.",
+      "Mu is to him; to her is **jej**."
+    ],
+    "t": [
+      "შარფს ის (ქალი) იღებს, ამიტომ datív-ია: **jej**. Ju ობიექტის ფორმაა.",
+      "Mu კაცისთვისაა; ქალისთვის — **jej**."
+    ]
+  },
+  "a2-u3-mi-mne.choice-mne-sa-paci.question": {
+    "en": "Which sentence is right?",
+    "t": "რომელი წინადადებაა სწორი?"
+  },
+  "a2-u3-mi-mne.choice-mne-sa-paci.why": {
+    "en": "A short form never starts a sentence, and neither does sa. At the start, use the long form: **Mne** sa páči… (or: Páči sa mi…).",
+    "t": "მოკლე ფორმა წინადადებას არასდროს იწყებს, არც sa. დასაწყისში გრძელი ფორმა გამოიყენეთ: **Mne** sa páči… (ან: Páči sa mi…)."
+  },
+  "a2-u3-mi-mne.fill-dame-im-polievku.en": {
+    "en": "Lucia and Marek are hungry. We'll give them some soup.",
+    "t": "ლუციას და მარეკს შიათ. მათ წვნიანს მივცემთ."
+  },
+  "a2-u3-mi-mne.fill-dame-im-polievku.why": {
+    "en": "They get the soup, so it's the dative of oni: **im**. Ich is the object form or “their”.",
+    "t": "წვნიანს ისინი იღებენ, ამიტომ oni-ს datív-ია: **im**. Ich ობიექტის ფორმაა ან „მათი“."
+  },
+  "a2-u3-mi-mne.grammar-je-mi-zima.title": {
+    "en": "Je mi zima: how you feel",
+    "t": "Je mi zima: თავის გრძნობა"
+  },
+  "a2-u3-mi-mne.grammar-je-mi-zima.body": {
+    "en": [
+      "Slovak often says how you feel with the dative: **Je mi zima.** = I'm cold. **Je mi ľúto.** = I'm sorry. **Chce sa mi spať.** = I'm sleepy. Swap the pronoun for someone else: Je **mu** zle. = He feels sick.",
+      "**Ako sa ti darí?** = How are you getting on? Darí sa **mi** dobre. = I'm doing well."
+    ],
+    "t": [
+      "სლოვაკური თავის გრძნობას ხშირად datív-ით ამბობს, ზუსტად როგორც ქართული: **Je mi zima.** = მცივა. **Je mi ľúto.** = ვწუხვარ. **Chce sa mi spať.** = მეძინება. სხვაზე სალაპარაკოდ ნაცვალსახელი შეცვალეთ: Je **mu** zle. = ცუდად არის (კაცი).",
+      "**Ako sa ti darí?** = როგორ მიდის შენი საქმეები? Darí sa **mi** dobre. = კარგად მიდის."
+    ]
+  },
+  "a2-u3-mi-mne.grammar-je-mi-zima.examples": {
+    "en": [
+      "I'm cold.",
+      "He feels sick.",
+      "She's sleepy.",
+      "How are you getting on?"
+    ],
+    "t": [
+      "მცივა.",
+      "ცუდად არის (კაცი).",
+      "ეძინება (ქალს).",
+      "როგორ მიდის თქვენი საქმეები?"
+    ]
+  },
+  "a2-u3-mi-mne.fill-babka-chce-sa-jej.en": {
+    "en": "Grandma is tired. She's sleepy.",
+    "t": "ბებია დაღლილია. ეძინება."
+  },
+  "a2-u3-mi-mne.fill-babka-chce-sa-jej.why": {
+    "en": "Who feels like sleeping is in the dative. Babka is ona, so **jej**. Ju is the object form.",
+    "t": "ის, ვისაც ეძინება, datív-შია. Babka = ona, ამიტომ **jej**. Ju ობიექტის ფორმაა."
+  },
+  "a2-u3-mi-mne.build-ako-sa-vam-dari.prompt": {
+    "en": "How are you getting on? (Emma to babka)",
+    "t": "როგორ მიდის თქვენი საქმეები? (ემა ბებიას)"
+  },
+  "a2-u3-mi-mne.build-ako-sa-vam-dari.traps": {
+    "en": [
+      "Dariť sa takes the dative: **vám**. Vás is the object form.",
+      "Emma says vy to babka, so it's **vám**. Ti is for a friend."
+    ],
+    "t": [
+      "Dariť sa datív-ს მოითხოვს: **vám**. Vás ობიექტის ფორმაა.",
+      "ემა ბებიას vy-თი მიმართავს, ამიტომ **vám**. Ti მეგობრისთვისაა."
+    ]
+  },
+  "a2-u3-mi-mne.fill-samko-je-ti-zle.en": {
+    "en": "Samko, do you feel sick?",
+    "t": "სამკო, ცუდად ხარ?"
+  },
+  "a2-u3-mi-mne.fill-samko-je-ti-zle.why": {
+    "en": "How you feel takes the dative, with the short form in second place: je **ti** zle.",
+    "t": "თავის გრძნობა datív-ით ითქმის, მოკლე ფორმით მეორე ადგილზე: je **ti** zle."
+  },
+  "a2-u3-mi-mne.build-jemu-sa-to-nepaci.answers": {
+    "en": [
+      "He doesn't like it, but I do."
+    ],
+    "t": [
+      "მას ეს არ მოსწონს, მე კი მომწონს.",
+      "მას ეს არ მოსწონს, მაგრამ მე მომწონს.",
+      "ეს მას არ მოსწონს, მე კი მომწონს."
+    ]
+  },
+  "a2-u3-mi-mne.build-jemu-sa-to-nepaci.distractors": {
+    "en": [
+      "she",
+      "we"
+    ],
+    "t": [
+      "მოგწონს",
+      "ჩვენ"
+    ]
+  },
+  "a2-u3-mi-mne.choice-je-mi-to-luto.question": {
+    "en": "Tomáš can't come. How does Emma say she's sorry?",
+    "t": "ტომაში ვერ მოვა. როგორ იტყვის ემა, რომ წუხს?"
+  },
+  "a2-u3-mi-mne.choice-je-mi-to-luto.why": {
+    "en": "The one who is sorry is in the dative: je **mi** to ľúto. Ma is the object form.",
+    "t": "ის, ვინც წუხს, datív-შია: je **mi** to ľúto. Ma ობიექტის ფორმაა."
+  },
+  "a2-u3-mi-mne.speak-je-mi-zima.en": {
+    "en": "I'm cold.",
+    "t": "მცივა."
+  },
+  "a2-u3-mojej-mame.titleEn": {
+    "en": "To my mum, to our uncle",
+    "t": "ჩემს დედას, ჩვენს ბიძას"
+  },
+  "a2-u3-mojej-mame.grammar-possessives-dative.title": {
+    "en": "My, your, our in the dative",
+    "t": "ჩემი, შენი, ჩვენი datív-ში"
+  },
+  "a2-u3-mojej-mame.grammar-possessives-dative.body": {
+    "en": [
+      "Môj, tvoj, náš and váš change too. For him or it: **-mu** (môj**mu**, náš**mu**). For her: **-ej** (moj**ej**, naš**ej**). For more than one: **-im** (moj**im**, naš**im**). Like môjho and nášho, môjmu and nášmu keep their ô and á; mojej, našej and mojim don't.",
+      "**Jeho, jej** and **ich** never change: Dám to **jeho** mame."
+    ],
+    "t": [
+      "Môj, tvoj, náš და váš იცვლება, როგორც ქართულში ჩემი → ჩემს დედას. მამრობით და საშუალო სქესში: **-mu** (môj**mu**, náš**mu**). მდედრობითში: **-ej** (moj**ej**, naš**ej**). მრავლობითში: **-im** (moj**im**, naš**im**). როგორც môjho და nášho, môjmu და nášmu ინარჩუნებს ô-ს და á-ს; mojej, našej და mojim — არა.",
+      "**Jeho, jej** და **ich** არასდროს იცვლება: Dám to **jeho** mame. (ამას მის დედას მივცემ.)"
+    ]
+  },
+  "a2-u3-mojej-mame.grammar-possessives-dative.table.head": {
+    "en": [
+      "",
+      "he, it",
+      "she",
+      "they"
+    ],
+    "t": [
+      "",
+      "მამრობითი, საშუალო",
+      "მდედრობითი",
+      "მრავლობითი"
+    ]
+  },
+  "a2-u3-mojej-mame.grammar-possessives-dative.table.rows": {
+    "en": [
+      [
+        "môj",
+        "**môjmu** bratovi",
+        "**mojej** mame",
+        "**mojim** rodičom"
+      ],
+      [
+        "tvoj",
+        "**tvojmu** ujovi",
+        "**tvojej** tete",
+        "**tvojim** súrodencom"
+      ],
+      [
+        "náš",
+        "**nášmu** otcovi",
+        "**našej** babke",
+        "**našim** deťom"
+      ],
+      [
+        "váš",
+        "**vášmu** synovi",
+        "**vašej** dcére",
+        "**vašim** kamarátom"
+      ]
+    ],
+    "t": [
+      [
+        "môj",
+        "**môjmu** bratovi",
+        "**mojej** mame",
+        "**mojim** rodičom"
+      ],
+      [
+        "tvoj",
+        "**tvojmu** ujovi",
+        "**tvojej** tete",
+        "**tvojim** súrodencom"
+      ],
+      [
+        "náš",
+        "**nášmu** otcovi",
+        "**našej** babke",
+        "**našim** deťom"
+      ],
+      [
+        "váš",
+        "**vášmu** synovi",
+        "**vašej** dcére",
+        "**vašim** kamarátom"
+      ]
+    ]
+  },
+  "a2-u3-mojej-mame.grammar-possessives-dative.examples": {
+    "en": [
+      "Will you give it to my mum?",
+      "What shall we buy your son?"
+    ],
+    "t": [
+      "ამას ჩემს დედას მისცემ?",
+      "რა ვუყიდოთ თქვენს ვაჟს?"
+    ]
+  },
+  "a2-u3-mojej-mame.grammar-svoj-dative.title": {
+    "en": "Svoj in the dative",
+    "t": "Svoj datív-ში"
+  },
+  "a2-u3-mojej-mame.grammar-svoj-dative.body": {
+    "en": [
+      "You know svoj from unit 2. In the dative it goes like môj: **svojmu**, **svojej**, **svojim**.",
+      "Emma kúpi šál **svojej** mame: her own mum. **Jej** mame would be another woman's mum, say Lucia's."
+    ],
+    "t": [
+      "svoj მე-2 თავიდან იცით. Datív-ში ის môj-ივით იცვლება: **svojmu**, **svojej**, **svojim**.",
+      "Emma kúpi šál **svojej** mame: საკუთარ დედას, ზუსტად როგორც ქართული „თავის დედას“. **Jej** mame სხვა ქალის დედა იქნებოდა, მაგალითად ლუციასი."
+    ]
+  },
+  "a2-u3-mojej-mame.grammar-svoj-dative.examples": {
+    "en": [
+      "Emma will buy her mum a scarf.",
+      "I'll buy it for my brother."
+    ],
+    "t": [
+      "ემა თავის დედას შარფს უყიდის.",
+      "ამას ჩემს ძმას ვუყიდი."
+    ]
+  },
+  "a2-u3-mojej-mame.fill-das-to-mojej-mame.en": {
+    "en": "Will you give it to my mum?",
+    "t": "ამას ჩემს დედას მისცემ?"
+  },
+  "a2-u3-mojej-mame.fill-das-to-mojej-mame.why": {
+    "en": "Mame is feminine and in the dative, so môj takes **-ej**: moj**ej** mame. Moju is the object form.",
+    "t": "Mame მდედრობითია და datív-შია, ამიტომ môj **-ej**-ს იღებს: moj**ej** mame. Moju ობიექტის ფორმაა."
+  },
+  "a2-u3-mojej-mame.fill-co-kupime-tvojmu.en": {
+    "en": "What shall we buy your brother?",
+    "t": "რა ვუყიდოთ შენს ძმას?"
+  },
+  "a2-u3-mojej-mame.fill-co-kupime-tvojmu.why": {
+    "en": "Bratovi is masculine dative, so tvoj takes **-mu**: tvoj**mu** bratovi. Tvojho is the object form.",
+    "t": "Bratovi მამრობითი datív-ია, ამიტომ tvoj **-mu**-ს იღებს: tvoj**mu** bratovi. Tvojho ობიექტის ფორმაა."
+  },
+  "a2-u3-mojej-mame.fill-poslem-fotky-tvojim.en": {
+    "en": "I'll send the photos to your parents.",
+    "t": "ფოტოებს შენს მშობლებს გავუგზავნი."
+  },
+  "a2-u3-mojej-mame.fill-poslem-fotky-tvojim.why": {
+    "en": "Rodičom is plural dative, so tvoj takes **-im**: tvoj**im** rodičom. Tvojich is the object form.",
+    "t": "Rodičom მრავლობითი datív-ია, ამიტომ tvoj **-im**-ს იღებს: tvoj**im** rodičom. Tvojich ობიექტის ფორმაა."
+  },
+  "a2-u3-mojej-mame.fill-dakujem-vasej-rodine.en": {
+    "en": "My thanks to your family for the invitation.",
+    "t": "მადლობა თქვენს ოჯახს მოწვევისთვის."
+  },
+  "a2-u3-mojej-mame.fill-dakujem-vasej-rodine.why": {
+    "en": "Ďakovať takes the dative, and rodina is feminine: **vašej** rodine. Vašu is the object form.",
+    "t": "Ďakovať datív-ს მოითხოვს, როგორც ქართული „მადლობა თქვენს ოჯახს“, rodina კი მდედრობითია: **vašej** rodine. Vašu ობიექტის ფორმაა."
+  },
+  "a2-u3-mojej-mame.build-tie-papuce-sa-pacia.prompt": {
+    "en": "Our grandma likes those slippers.",
+    "t": "ჩვენს ბებიას ის ჩუსტები მოსწონს."
+  },
+  "a2-u3-mojej-mame.build-tie-papuce-sa-pacia.traps": {
+    "en": [
+      "Babka is the one who likes them, so she's in the dative, and so is náš: **našej** babke.",
+      "Papuče is plural, so the verb is **páčia** sa."
+    ],
+    "t": [
+      "ბებია ის არის, ვისაც მოსწონს, ამიტომ datív-შია, náš-იც: **našej** babke, ზუსტად როგორც „ჩვენს ბებიას“.",
+      "Papuče მრავლობითია, ამიტომ ზმნა არის **páčia** sa."
+    ]
+  },
+  "a2-u3-mojej-mame.choice-emma-kupi-jej-mame.question": {
+    "en": "Emma is buying a present for Lucia's mum. Emma kúpi darček ___ mame. Which word fits?",
+    "t": "ემა ლუციას დედისთვის საჩუქარს ყიდულობს. Emma kúpi darček ___ mame. რომელი სიტყვა ერგება?"
+  },
+  "a2-u3-mojej-mame.choice-emma-kupi-jej-mame.why": {
+    "en": "It's Lucia's mum, so “her” is **jej**, which never changes. Svojej would mean Emma's own mum.",
+    "t": "ეს ლუციას დედაა, ამიტომ „მისი“ (ქალის) არის **jej**, რომელიც არასდროს იცვლება. Svojej ემას საკუთარ, თავის დედას ნიშნავდა."
+  },
+  "a2-u3-mojej-mame.fill-emma-posle-svojej-sestre.en": {
+    "en": "Emma will send her sister a postcard.",
+    "t": "ემა თავის დას ღია ბარათს გაუგზავნის."
+  },
+  "a2-u3-mojej-mame.fill-emma-posle-svojej-sestre.why": {
+    "en": "Emma is the subject and the owner, so it's **svoj**, and sestre is feminine dative: **svojej** sestre.",
+    "t": "ემა ქვემდებარეცაა და პატრონიც, ამიტომ **svoj** (თავისი), sestre კი მდედრობითი datív-ია: **svojej** sestre."
+  },
+  "a2-u3-mojej-mame.choice-nasmu-ujovi.question": {
+    "en": "“To our uncle”: which is right?",
+    "t": "„ჩვენს ბიძას“: რომელია სწორი?"
+  },
+  "a2-u3-mojej-mame.choice-nasmu-ujovi.why": {
+    "en": "Ujo is masculine and in the dative, so both words take the dative ending: **nášmu** ujovi.",
+    "t": "Ujo მამრობითია და datív-შია, ამიტომ ორივე სიტყვა datív-ის დაბოლოებას იღებს: **nášmu** ujovi."
+  },
+  "a2-u3-mojej-mame.build-co-kupime-vasmu-synovi.prompt": {
+    "en": "What shall we buy your son? (to uncle and aunt)",
+    "t": "რა ვუყიდოთ თქვენს ვაჟს? (ბიძასა და ბიცოლას)"
+  },
+  "a2-u3-mojej-mame.build-co-kupime-vasmu-synovi.traps": {
+    "en": [
+      "Synovi is in the dative, so váš takes **-mu**: váš**mu** synovi.",
+      "Your son gets the present, so he's in the dative: syn**ovi**. Syna is the object form."
+    ],
+    "t": [
+      "Synovi datív-შია, ამიტომ váš **-mu**-ს იღებს: váš**mu** synovi.",
+      "საჩუქარს თქვენი ვაჟი იღებს, ამიტომ ის datív-შია: syn**ovi**. Syna ობიექტის ფორმაა."
+    ]
+  },
+  "a2-u3-mojej-mame.build-dam-to-jeho-mame.answers": {
+    "en": [
+      "I'll give it to his mum.",
+      "I'll give it to his mother."
+    ],
+    "t": [
+      "ამას მის დედას მივცემ.",
+      "მის დედას ამას მივცემ.",
+      "ამას მივცემ მის დედას."
+    ]
+  },
+  "a2-u3-mojej-mame.build-dam-to-jeho-mame.distractors": {
+    "en": [
+      "her",
+      "my"
+    ],
+    "t": [
+      "ჩემს",
+      "მამას"
+    ]
+  },
+  "a2-u3-mojej-mame.speak-kupim-to-svojej.en": {
+    "en": "I'll buy it for my mum.",
+    "t": "ამას ჩემს დედას ვუყიდი."
+  },
+  "a2-u3-stedry-vecer.titleEn": {
+    "en": "Christmas Eve",
+    "t": "შობის წინა საღამო"
+  },
+  "a2-u3-stedry-vecer.stedry-vecer.en": {
+    "en": "Christmas Eve (the evening of 24 December)",
+    "t": "შობის წინა საღამო (24 დეკემბრის საღამო)"
+  },
+  "a2-u3-stedry-vecer.stedry-vecer.note": {
+    "en": "The day is **Štedrý deň**. Slovaks celebrate (**oslavovať**) with a big dinner on Christmas Eve, and open their presents after it.",
+    "t": "თავად დღე არის **Štedrý deň** (štedrý = ხელგაშლილი). სლოვაკები შობის წინა საღამოს დიდი ვახშმით აღნიშნავენ (**oslavovať**, აღნიშვნა) და საჩუქრებს ვახშმის შემდეგ ხსნიან."
+  },
+  "a2-u3-stedry-vecer.vianocny-stromcek.en": {
+    "en": "Christmas tree",
+    "t": "საშობაო ნაძვის ხე"
+  },
+  "a2-u3-stedry-vecer.vianocny-stromcek.note": {
+    "en": "The family **zdobí** (decorates) it just before Christmas, with **ozdoby** and **salónky**, sweets in shiny paper. Under it there's often a **betlehem**, a nativity scene.",
+    "t": "ოჯახი მას შობის წინ **zdobí** (რთავს) **ozdoby**-თი (სათამაშოებით) და **salónky**-თი, პრიალა ქაღალდში გახვეული კანფეტებით. ნაძვის ხის ქვეშ ხშირად დგას **betlehem**, ბეთლემის ბაგა (შობის სცენა)."
+  },
+  "a2-u3-stedry-vecer.build-na-stedry-den-zdobime.prompt": {
+    "en": "We decorate the tree on 24 December.",
+    "t": "ნაძვის ხეს 24 დეკემბერს ვრთავთ."
+  },
+  "a2-u3-stedry-vecer.build-na-stedry-den-zdobime.traps": {
+    "en": [
+      "“We” is my, so the verb ends in **-me**: zdobíme.",
+      "One tree: **stromček**. Stromčeky is the plural."
+    ],
+    "t": [
+      "„ჩვენ“ არის my, ამიტომ ზმნა **-me**-ზე ბოლოვდება: zdobíme.",
+      "ერთი ნაძვის ხე: **stromček**. Stromčeky მრავლობითია."
+    ]
+  },
+  "a2-u3-stedry-vecer.oplatky-s-medom.en": {
+    "en": "Christmas wafers with honey",
+    "t": "საშობაო ვაფლები თაფლით"
+  },
+  "a2-u3-stedry-vecer.oplatky-s-medom.note": {
+    "en": "Dinner starts with thin wafers, **oplátky** (also called oblátky), with honey, **med**.",
+    "t": "ვახშამი თხელი ვაფლებით, **oplátky**-თი (მათ oblátky-საც ეძახიან), და თაფლით, **med**, იწყება."
+  },
+  "a2-u3-stedry-vecer.kapustnica.en": {
+    "en": "sauerkraut soup",
+    "t": "მჟავე კომბოსტოს წვნიანი"
+  },
+  "a2-u3-stedry-vecer.kapustnica.note": {
+    "en": "The Christmas soup, made from sauerkraut, often with mushrooms (**huby**) and sausage. Every family thinks theirs is the best.",
+    "t": "საშობაო წვნიანი მჟავე კომბოსტოსგან, ხშირად სოკოთი (**huby**) და ძეხვით. ყველა ოჯახი ფიქრობს, რომ მისი კაპუსტნიცა საუკეთესოა."
+  },
+  "a2-u3-stedry-vecer.fill-na-stedry-vecer-jeme.en": {
+    "en": "On Christmas Eve we eat sauerkraut soup.",
+    "t": "შობის წინა საღამოს კომბოსტოს წვნიანს ვჭამთ."
+  },
+  "a2-u3-stedry-vecer.fill-na-stedry-vecer-jeme.why": {
+    "en": "The soup is what we eat, the object, so kapustnica changes -a to **-u**.",
+    "t": "წვნიანი ის არის, რასაც ვჭამთ, ანუ ობიექტი, ამიტომ kapustnica -a-ს **-u**-თი ცვლის."
+  },
+  "a2-u3-stedry-vecer.kapor.en": {
+    "en": "carp",
+    "t": "კობრი"
+  },
+  "a2-u3-stedry-vecer.kapor.note": {
+    "en": "Fried carp with potato salad, **zemiakový šalát**, is the main course. Some families buy a live kapor and keep it in the bath until Christmas Eve!",
+    "t": "მთავარი კერძია შემწვარი კობრი კარტოფილის სალათით, **zemiakový šalát**. ზოგი ოჯახი ცოცხალ კობრს ყიდულობს და შობის წინა საღამომდე აბაზანაში ინახავს!"
+  },
+  "a2-u3-stedry-vecer.koleda.en": {
+    "en": "carol",
+    "t": "საშობაო სიმღერა"
+  },
+  "a2-u3-stedry-vecer.koleda.note": {
+    "en": "After dinner, families sing **koledy** by the tree. Late in the evening many go to church for **polnočná omša**, Midnight Mass.",
+    "t": "ვახშმის შემდეგ ოჯახები ნაძვის ხესთან **koledy**-ს მღერიან, საშობაო სიმღერებს, როგორც საქართველოში ალილოს. გვიან საღამოს ბევრი ეკლესიაში მიდის **polnočná omša**-ზე, შუაღამის წირვაზე."
+  },
+  "a2-u3-stedry-vecer.vesele-vianoce.en": {
+    "en": "Merry Christmas!",
+    "t": "გილოცავთ შობას!"
+  },
+  "a2-u3-stedry-vecer.vesele-vianoce.note": {
+    "en": "Children's presents come from **Ježiško**, baby Jesus, not from Father Christmas, and children write him a **list**, a letter.",
+    "t": "ბავშვებს საჩუქრებს **Ježiško**, პატარა იესო, უტოვებს და არა თოვლის ბაბუა. ბავშვები მას **list**-ს, წერილს, სწერენ."
+  },
+  "a2-u3-stedry-vecer.fill-deti-pisu-list-jeziskovi.en": {
+    "en": "Children write a letter to baby Jesus.",
+    "t": "ბავშვები პატარა იესოს წერილს სწერენ."
+  },
+  "a2-u3-stedry-vecer.fill-deti-pisu-list-jeziskovi.why": {
+    "en": "The letter goes to Ježiško, so he's in the dative, with **-ovi**: Ježišk**ovi**.",
+    "t": "წერილი Ježiško-ს ეგზავნება, ამიტომ ის datív-შია, **-ovi**-თი: Ježišk**ovi**."
+  },
+  "a2-u3-stedry-vecer.match-kapustnica.pairs": {
+    "en": [
+      "sauerkraut soup",
+      "carp",
+      "Christmas wafers",
+      "nativity scene",
+      "Midnight Mass"
+    ],
+    "t": [
+      "კომბოსტოს წვნიანი",
+      "კობრი",
+      "საშობაო ვაფლები",
+      "ბეთლემის ბაგა",
+      "შუაღამის წირვა"
+    ]
+  },
+  "a2-u3-stedry-vecer.fill-darceky-su-pod.en": {
+    "en": "The presents are under the tree.",
+    "t": "საჩუქრები ნაძვის ხის ქვეშაა."
+  },
+  "a2-u3-stedry-vecer.fill-darceky-su-pod.why": {
+    "en": "**Pod** (under) takes the instrumental when it says where: pod stromček**om**.",
+    "t": "**Pod** (ქვეშ), როცა ამბობს, სად არის რამე, inštrumentál-ს (მოქმედებით ბრუნვას) მოითხოვს: pod stromček**om**. ქართული „ქვეშ“ სიტყვის შემდეგ დგას, სლოვაკური pod კი მის წინ."
+  },
+  "a2-u3-stedry-vecer.choice-po-veceri-spievame.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "a2-u3-stedry-vecer.choice-po-veceri-spievame.options": {
+    "en": [
+      "Before dinner we decorate the tree.",
+      "After dinner we sing carols by the tree.",
+      "After dinner we open the presents."
+    ],
+    "t": [
+      "ვახშმამდე ნაძვის ხეს ვრთავთ.",
+      "ვახშმის შემდეგ ნაძვის ხესთან საშობაო სიმღერებს ვმღერით.",
+      "ვახშმის შემდეგ საჩუქრებს ვხსნით."
+    ]
+  },
+  "a2-u3-stedry-vecer.choice-kedy-otvaraju-darceky.question": {
+    "en": "When do Slovak children open their presents?",
+    "t": "როდის ხსნიან სლოვაკი ბავშვები საჩუქრებს?"
+  },
+  "a2-u3-stedry-vecer.build-ako-oslavujete-vianoce.prompt": {
+    "en": "How do you celebrate Christmas in Ireland?",
+    "t": "როგორ აღნიშნავთ შობას ირლანდიაში?"
+  },
+  "a2-u3-stedry-vecer.build-ako-oslavujete-vianoce.traps": {
+    "en": [
+      "In Ireland answers “where?”: v + the locative, **v Írsku**. Z Írska means from Ireland.",
+      "Christmas is what you celebrate, the object, and **Vianoce** doesn't change as an object."
+    ],
+    "t": [
+      "„ირლანდიაში“ კითხვას „სად?“ პასუხობს: v + lokál, **v Írsku**. Z Írska ნიშნავს „ირლანდიიდან“.",
+      "შობა ის არის, რასაც აღნიშნავთ, ანუ ობიექტი, **Vianoce** კი ობიექტად არ იცვლება."
+    ]
+  },
+  "a2-u3-stedry-vecer.build-babka-vari-najlepsiu.answers": {
+    "en": [
+      "Grandma makes the best sauerkraut soup.",
+      "Grandma cooks the best sauerkraut soup."
+    ],
+    "t": [
+      "ბებია საუკეთესო კომბოსტოს წვნიანს ამზადებს.",
+      "ბებია ამზადებს საუკეთესო კომბოსტოს წვნიანს.",
+      "ბებია საუკეთესო კომბოსტოს წვნიანს აკეთებს.",
+      "ბებია ყველაზე კარგ კომბოსტოს წვნიანს ამზადებს."
+    ]
+  },
+  "a2-u3-stedry-vecer.build-babka-vari-najlepsiu.distractors": {
+    "en": [
+      "worst",
+      "Mum"
+    ],
+    "t": [
+      "დედა",
+      "წვნიანი"
+    ]
+  },
+  "a2-u3-stedry-vecer.speak-vesele-vianoce.en": {
+    "en": "Merry Christmas!",
+    "t": "გილოცავთ შობას!"
+  },
+  "a2-u3-paci-sa.titleEn": {
+    "en": "Three ways to like",
+    "t": "„მომწონს“ სამნაირად"
+  },
+  "a2-u3-paci-sa.grammar-three-ways-like.title": {
+    "en": "Mám rád, páči sa mi, chutí mi",
+    "t": "Mám rád, páči sa mi, chutí mi"
+  },
+  "a2-u3-paci-sa.grammar-three-ways-like.body": {
+    "en": [
+      "You know all three from A1: **mám rád** + the object form for liking someone or something in general (Mám rada babku), **páči sa mi** for what you see or hear, **chutí mi** for food and drink.",
+      "With páči sa and chutí, the thing you like is the subject, and the person is in the dative: mi, ti, babke…"
+    ],
+    "t": [
+      "სამივე A1-დან იცით; ქართულად სამივე ხშირად „მომწონს“ ან „მიყვარს“-ია. **mám rád** + ობიექტის ფორმა: ვინმე ან რამე ზოგადად მოგწონთ, გიყვართ (Mám rada babku). **páči sa mi**: მოგწონთ ის, რასაც ხედავთ ან გესმით. **chutí mi**: საჭმელი და სასმელი.",
+      "páči sa-სა და chutí-სთან ის, რაც მოგწონთ, ქვემდებარეა, ადამიანი კი datív-შია: mi, ti, babke… ზუსტად როგორც ქართულ „მომწონს“-ში: ბებიას (ვის?) მოსწონს ნაძვის ხე (რა?). Mám rád კი სხვაგვარად მუშაობს: ja (მე) ქვემდებარეა, საგანი კი ობიექტი."
+    ]
+  },
+  "a2-u3-paci-sa.grammar-three-ways-like.table.head": {
+    "en": [
+      "",
+      "the person",
+      "the thing"
+    ],
+    "t": [
+      "",
+      "ადამიანი",
+      "საგანი"
+    ]
+  },
+  "a2-u3-paci-sa.grammar-three-ways-like.table.rows": {
+    "en": [
+      [
+        "mať rád",
+        "**ja** mám rada",
+        "kapustnic**u**"
+      ],
+      [
+        "páčiť sa",
+        "páči sa **mi**",
+        "stromček"
+      ],
+      [
+        "chutiť",
+        "chutí **mi**",
+        "kapustnic**a**"
+      ]
+    ],
+    "t": [
+      [
+        "mať rád",
+        "**ja** mám rada",
+        "kapustnic**u**"
+      ],
+      [
+        "páčiť sa",
+        "páči sa **mi**",
+        "stromček"
+      ],
+      [
+        "chutiť",
+        "chutí **mi**",
+        "kapustnic**a**"
+      ]
+    ]
+  },
+  "a2-u3-paci-sa.grammar-three-ways-like.examples": {
+    "en": [
+      "I like sauerkraut soup.",
+      "I like the sauerkraut soup. (its taste)",
+      "Grandma likes your tree."
+    ],
+    "t": [
+      "კომბოსტოს წვნიანი მიყვარს.",
+      "კომბოსტოს წვნიანი მომწონს. (გემოთი)",
+      "ბებიას თქვენი ნაძვის ხე მოსწონს."
+    ]
+  },
+  "a2-u3-paci-sa.grammar-paci-pacia.title": {
+    "en": "Páči sa or páčia sa?",
+    "t": "Páči sa თუ páčia sa?"
+  },
+  "a2-u3-paci-sa.grammar-paci-pacia.body": {
+    "en": [
+      "As in A1, the verb agrees with the thing you like: páči sa mi stromček, **páčia** sa mi ozdoby. Chutiť does the same: chutí mi koláč, **chutia** mi koláče.",
+      "In the past it agrees too: **páčil** sa mi film, **páčila** sa mi kniha, **páčili** sa mi Vianoce."
+    ],
+    "t": [
+      "როგორც A1-ში, ზმნა იმას ეთანხმება, რაც მოგწონთ: páči sa mi stromček, **páčia** sa mi ozdoby. Chutiť-იც ასევე: chutí mi koláč, **chutia** mi koláče. ქართული „მომწონს“ აქ არ იცვლება: ნამცხვარი მომწონს, ნამცხვრები მომწონს.",
+      "წარსულშიც ეთანხმება, სქესითაც: **páčil** sa mi film, **páčila** sa mi kniha, **páčili** sa mi Vianoce."
+    ]
+  },
+  "a2-u3-paci-sa.grammar-paci-pacia.examples": {
+    "en": [
+      "I like your slippers.",
+      "We like Grandma's cakes.",
+      "How did you like Christmas?"
+    ],
+    "t": [
+      "შენი ჩუსტები მომწონს.",
+      "ბებიის ნამცხვრები მოგვწონს.",
+      "როგორ მოგეწონა შობა?"
+    ]
+  },
+  "a2-u3-paci-sa.fill-paci-sa-mi-vas-stromcek.en": {
+    "en": "I like your Christmas tree.",
+    "t": "თქვენი ნაძვის ხე მომწონს."
+  },
+  "a2-u3-paci-sa.fill-paci-sa-mi-vas-stromcek.why": {
+    "en": "One tree, so the verb is singular: **Páči** sa mi stromček. Páčia is for more than one thing.",
+    "t": "ნაძვის ხე ერთია, ამიტომ ზმნა მხოლობითშია: **Páči** sa mi stromček. Páčia ერთზე მეტი საგნისთვისაა."
+  },
+  "a2-u3-paci-sa.fill-babke-sa-pacia-koledy.en": {
+    "en": "Grandma likes carols.",
+    "t": "ბებიას საშობაო სიმღერები მოსწონს."
+  },
+  "a2-u3-paci-sa.fill-babke-sa-pacia-koledy.why": {
+    "en": "Koledy is plural, so the verb is too: **páčia** sa. It agrees with the carols, not with babka.",
+    "t": "Koledy მრავლობითია, ამიტომ ზმნაც: **páčia** sa. ზმნა სიმღერებს ეთანხმება და არა ბებიას."
+  },
+  "a2-u3-paci-sa.fill-chuti-ti-kapustnica.en": {
+    "en": "Do you like the sauerkraut soup?",
+    "t": "კომბოსტოს წვნიანი მოგწონს?"
+  },
+  "a2-u3-paci-sa.fill-chuti-ti-kapustnica.why": {
+    "en": "With chutiť, the food is the subject, so it doesn't change: **kapustnica**. Mám rád would need the object form, kapustnicu.",
+    "t": "chutiť-თან საჭმელი ქვემდებარეა, ამიტომ არ იცვლება: **kapustnica**. Mám rád-ს ობიექტის ფორმა დასჭირდებოდა: kapustnicu."
+  },
+  "a2-u3-paci-sa.fill-mam-rada-kapustnicu.en": {
+    "en": "I like sauerkraut soup.",
+    "t": "კომბოსტოს წვნიანი მიყვარს."
+  },
+  "a2-u3-paci-sa.fill-mam-rada-kapustnicu.why": {
+    "en": "After mám rád, what you like is the object, so -a becomes **-u**: kapustnic**u**.",
+    "t": "mám rád-ის შემდეგ ის, რაც გიყვართ, ობიექტია, ამიტომ -a ხდება **-u**: kapustnic**u**."
+  },
+  "a2-u3-paci-sa.choice-emma-sees-scarf.question": {
+    "en": "Emma sees Lucia's new scarf for the first time. What does she say?",
+    "t": "ემა ლუციას ახალ შარფს პირველად ხედავს. რას ეტყვის?"
+  },
+  "a2-u3-paci-sa.choice-emma-sees-scarf.why": {
+    "en": "For something you see and like, say **páči sa mi**. Chutí is only for food, and mám rada is liking in general, often for a long time.",
+    "t": "რასაც ხედავთ და მოგწონთ, მასზე თქვით **páči sa mi**. Chutí მხოლოდ საჭმელზე ითქმის, mám rada კი ზოგადი, ხშირად დიდი ხნის მოწონებაა, „მიყვარს“."
+  },
+  "a2-u3-paci-sa.build-babke-sa-pacia-koledy.prompt": {
+    "en": "Grandma likes the carols.",
+    "t": "ბებიას საშობაო სიმღერები მოსწონს."
+  },
+  "a2-u3-paci-sa.build-babke-sa-pacia-koledy.traps": {
+    "en": [
+      "Koledy is plural, so the verb is **páčia** sa.",
+      "With páčiť sa, the one who likes it is in the dative: **babke**."
+    ],
+    "t": [
+      "Koledy მრავლობითია, ამიტომ ზმნა არის **páčia** sa.",
+      "páčiť sa-სთან ის, ვისაც მოსწონს, datív-შია: **babke**, როგორც ქართულში „ბებიას“."
+    ]
+  },
+  "a2-u3-paci-sa.build-chutila-mi-polievka.prompt": {
+    "en": "I liked the soup.",
+    "t": "წვნიანი მომეწონა."
+  },
+  "a2-u3-paci-sa.build-chutila-mi-polievka.traps": {
+    "en": [
+      "The past agrees with the soup: polievka is feminine, so **chutila**.",
+      "The one who likes it is in the dative: **mi**. Ma is the object form."
+    ],
+    "t": [
+      "წარსული წვნიანს ეთანხმება: polievka მდედრობითია, ამიტომ **chutila**.",
+      "ის, ვისაც მოსწონს, datív-შია: **mi**. Ma ობიექტის ფორმაა."
+    ]
+  },
+  "a2-u3-paci-sa.fill-ako-sa-vam-pacili.en": {
+    "en": "How did you like Christmas in Slovakia?",
+    "t": "როგორ მოგეწონათ შობა სლოვაკეთში?"
+  },
+  "a2-u3-paci-sa.fill-ako-sa-vam-pacili.why": {
+    "en": "Vianoce is plural, so the past ends in **-li**: páčili.",
+    "t": "Vianoce მრავლობითია, ამიტომ წარსული **-li**-ზე ბოლოვდება: páčili. ქართული „შობა“ მხოლობითია, სლოვაკური Vianoce კი ყოველთვის მრავლობითი."
+  },
+  "a2-u3-paci-sa.choice-marekovi-chuti.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "a2-u3-paci-sa.choice-marekovi-chuti.options": {
+    "en": [
+      "Grandma likes Marek's sauerkraut soup.",
+      "Marek is cooking Grandma's sauerkraut soup.",
+      "Marek likes Grandma's sauerkraut soup."
+    ],
+    "t": [
+      "ბებიას მარეკის კომბოსტოს წვნიანი მოსწონს.",
+      "მარეკი ბებიის კომბოსტოს წვნიანს ამზადებს.",
+      "მარეკს ბებიის კომბოსტოს წვნიანი მოსწონს."
+    ]
+  },
+  "a2-u3-paci-sa.choice-marekovi-chuti.why": {
+    "en": "**Marekovi** is the dative, the one who likes it. Kapustnica is the subject, and babkina says whose it is.",
+    "t": "**Marekovi** datív-ია: ის, ვისაც მოსწონს. Kapustnica ქვემდებარეა, babkina კი ამბობს, ვისია (ბებიის)."
+  },
+  "a2-u3-paci-sa.fill-chutia-vam-kolace.en": {
+    "en": "Do you like Grandma's cakes?",
+    "t": "ბებიის ნამცხვრები მოგწონთ?"
+  },
+  "a2-u3-paci-sa.fill-chutia-vam-kolace.why": {
+    "en": "Koláče is plural, so the verb is plural too: **chutia**.",
+    "t": "Koláče მრავლობითია, ამიტომ ზმნაც მრავლობითშია: **chutia**."
+  },
+  "a2-u3-paci-sa.speak-paci-sa-mi-vas.en": {
+    "en": "I like your Christmas tree.",
+    "t": "თქვენი ნაძვის ხე მომწონს."
+  },
+  "a2-u3-slovesa.titleEn": {
+    "en": "Thanks for the present: verbs with the dative",
+    "t": "მადლობა საჩუქრისთვის: ზმნები datív-ით"
+  },
+  "a2-u3-slovesa.grammar-verbs-dative.title": {
+    "en": "Give someone something",
+    "t": "ვინმესთვის რამის მიცემა"
+  },
+  "a2-u3-slovesa.grammar-verbs-dative.body": {
+    "en": [
+      "Many verbs have two objects: the thing, in the accusative, and the person who gets it, in the dative: dať **mame** darček, ukázať **babke** fotky, povedať **Lucii** niečo.",
+      "Some take only the dative: **pomáhať** (to help), **telefonovať** (to phone), **rozumieť** (to understand), **patriť** (to belong to)."
+    ],
+    "t": [
+      "ბევრ ზმნას ორი დამატება აქვს: საგანი akuzatív-ში (ბრალდებით ბრუნვაში) და ადამიანი, ვინც მას იღებს, datív-ში (მიცემით ბრუნვაში): dať **mame** darček, ukázať **babke** fotky, povedať **Lucii** niečo. ქართულშიც ასეა: დედას (ვის?) საჩუქარს (რას?) მივცემ.",
+      "ზოგი მხოლოდ datív-ს მოითხოვს: **pomáhať** (დახმარება), **telefonovať** (დარეკვა), **rozumieť** (გაგება), **patriť** (კუთვნილება, „ეკუთვნის“)."
+    ]
+  },
+  "a2-u3-slovesa.grammar-verbs-dative.table.head": {
+    "en": [
+      "verb",
+      "example"
+    ],
+    "t": [
+      "ზმნა",
+      "მაგალითი"
+    ]
+  },
+  "a2-u3-slovesa.grammar-verbs-dative.table.rows": {
+    "en": [
+      [
+        "dať, darovať (give)",
+        "Darujem **mame** knihu."
+      ],
+      [
+        "ukázať (show)",
+        "Ukážem **babke** fotky."
+      ],
+      [
+        "povedať (tell)",
+        "Poviem **ti** niečo."
+      ],
+      [
+        "sľúbiť (promise)",
+        "Sľúbil som **Samkovi** knihu."
+      ],
+      [
+        "pomáhať (help)",
+        "Pomáham **mame** v kuchyni."
+      ],
+      [
+        "rozumieť (understand)",
+        "Rozumieš **babke**?"
+      ],
+      [
+        "patriť (belong)",
+        "Ten šál patrí **Lucii**."
+      ],
+      [
+        "blahoželať (congratulate)",
+        "Blahoželám **ti**!"
+      ]
+    ],
+    "t": [
+      [
+        "dať, darovať (მიცემა, ჩუქება)",
+        "Darujem **mame** knihu."
+      ],
+      [
+        "ukázať (ჩვენება)",
+        "Ukážem **babke** fotky."
+      ],
+      [
+        "povedať (თქმა)",
+        "Poviem **ti** niečo."
+      ],
+      [
+        "sľúbiť (დაპირება)",
+        "Sľúbil som **Samkovi** knihu."
+      ],
+      [
+        "pomáhať (დახმარება)",
+        "Pomáham **mame** v kuchyni."
+      ],
+      [
+        "rozumieť (გაგება)",
+        "Rozumieš **babke**?"
+      ],
+      [
+        "patriť (კუთვნილება)",
+        "Ten šál patrí **Lucii**."
+      ],
+      [
+        "blahoželať (მილოცვა)",
+        "Blahoželám **ti**!"
+      ]
+    ]
+  },
+  "a2-u3-slovesa.grammar-verbs-dative.examples": {
+    "en": [
+      "Lucia is helping Mum in the kitchen.",
+      "Whose scarf is that? – Lucia's."
+    ],
+    "t": [
+      "ლუცია დედას სამზარეულოში ეხმარება.",
+      "ვისია ეს შარფი? – ლუციასი."
+    ]
+  },
+  "a2-u3-slovesa.grammar-dakovat-za.title": {
+    "en": "Thank someone for something",
+    "t": "მადლობა: ვის და რისთვის"
+  },
+  "a2-u3-slovesa.grammar-dakovat-za.body": {
+    "en": [
+      "**Ďakovať** takes the person in the dative and **za** + the object form for the reason: Ďakujem **ti** za darček. Ďakujeme **babke** za večeru.",
+      "With **kúpiť**, **uvariť** (to cook) and **pripraviť** (to make), you can say who it's for in two ways: Uvarím **ti** čaj. = Uvarím čaj **pre teba**."
+    ],
+    "t": [
+      "**Ďakovať** (მადლობის თქმა) ადამიანს datív-ში იყენებს, მიზეზს კი **za** + ობიექტის ფორმით ამბობს: Ďakujem **ti** za darček. Ďakujeme **babke** za večeru. za აქ ქართული „-თვის“-ია: მადლობა საჩუქრისთვის.",
+      "**kúpiť**-თან (ყიდვა), **uvariť**-თან (მოხარშვა) და **pripraviť**-თან (მომზადება) იმას, ვისთვისაც არის, ორნაირად იტყვით: Uvarím **ti** čaj. = Uvarím čaj **pre teba**. ქართულშიც ასეა: ჩაის გაგიკეთებ = ჩაის შენთვის გავაკეთებ."
+    ]
+  },
+  "a2-u3-slovesa.grammar-dakovat-za.examples": {
+    "en": [
+      "Thank you for the invitation.",
+      "We thank Grandma for the dinner.",
+      "I'll make you some tea."
+    ],
+    "t": [
+      "გმადლობთ მოწვევისთვის.",
+      "ბებიას ვახშმისთვის მადლობას ვუხდით.",
+      "ჩაის გაგიკეთებ."
+    ]
+  },
+  "a2-u3-slovesa.fill-dakujem-ti-za-darcek.en": {
+    "en": "Thank you for the present.",
+    "t": "მადლობა საჩუქრისთვის."
+  },
+  "a2-u3-slovesa.fill-dakujem-ti-za-darcek.why": {
+    "en": "You thank someone **za** (for) something: ďakujem ti **za** darček.",
+    "t": "მადლობას ვინმეს რამისთვის უხდით, **za**-თი: ďakujem ti **za** darček."
+  },
+  "a2-u3-slovesa.fill-lucia-pomaha-mame.en": {
+    "en": "Lucia is helping Mum in the kitchen.",
+    "t": "ლუცია დედას სამზარეულოში ეხმარება."
+  },
+  "a2-u3-slovesa.fill-lucia-pomaha-mame.why": {
+    "en": "**Pomáhať** takes the dative, so mama changes to **mame**. Mamu is the object form.",
+    "t": "**Pomáhať** datív-ს მოითხოვს, როგორც ქართულში „დედას ეხმარება“, ამიტომ mama ხდება **mame**. Mamu ობიექტის ფორმაა."
+  },
+  "a2-u3-slovesa.build-ukazem-babke-fotky.prompt": {
+    "en": "I'll show Grandma the photos.",
+    "t": "ბებიას ფოტოებს ვაჩვენებ."
+  },
+  "a2-u3-slovesa.build-ukazem-babke-fotky.traps": {
+    "en": [
+      "Grandma is the one you show them to, so she's in the dative: **babke**. Babku is the object form.",
+      "“I” is ja, so the verb ends in **-m**: ukážem."
+    ],
+    "t": [
+      "ბებია ის არის, ვისაც ფოტოებს აჩვენებთ, ამიტომ datív-შია: **babke**. Babku ობიექტის ფორმაა.",
+      "„მე“ არის ja, ამიტომ ზმნა **-m**-ზე ბოლოვდება: ukážem."
+    ]
+  },
+  "a2-u3-slovesa.fill-na-vianoce-darujem-mame.en": {
+    "en": "For Christmas I'm giving Mum a book.",
+    "t": "შობაზე დედას წიგნს ვაჩუქებ."
+  },
+  "a2-u3-slovesa.fill-na-vianoce-darujem-mame.why": {
+    "en": "**Darovať** (to give as a present) takes the person in the dative: mam**e**. Mamu is the object form.",
+    "t": "**Darovať** (ჩუქება) ადამიანს datív-ში იყენებს: mam**e**. Mamu ობიექტის ფორმაა."
+  },
+  "a2-u3-slovesa.build-prepacte-nerozumiem-vam.prompt": {
+    "en": "Sorry, I don't understand you. (Emma to babka)",
+    "t": "მაპატიეთ, ვერ გიგებთ. (ემა ბებიას)"
+  },
+  "a2-u3-slovesa.build-prepacte-nerozumiem-vam.traps": {
+    "en": [
+      "**Rozumieť** takes the dative: **vám**. Vás is the object form.",
+      "Not understanding is ne- + the verb, written as one word: **nerozumiem**."
+    ],
+    "t": [
+      "**Rozumieť** datív-ს მოითხოვს: **vám**. Vás ობიექტის ფორმაა.",
+      "„ვერ გიგებთ“ არის ne- + ზმნა, ერთ სიტყვად დაწერილი: **nerozumiem**."
+    ]
+  },
+  "a2-u3-slovesa.fill-komu-patri-ten-sal.en": {
+    "en": "Whose scarf is that? – Lucia's.",
+    "t": "ვისია ეს შარფი? – ლუციასი."
+  },
+  "a2-u3-slovesa.fill-komu-patri-ten-sal.why": {
+    "en": "**Patriť** (to belong) takes the dative, and Lucia becomes **Lucii**.",
+    "t": "**Patriť** (კუთვნილება) datív-ს მოითხოვს, როგორც ქართული „ეკუთვნის ლუციას“, და Lucia ხდება **Lucii**."
+  },
+  "a2-u3-slovesa.grammar-chybat.title": {
+    "en": "Chýbaš mi: I miss you",
+    "t": "Chýbaš mi: მენატრები"
+  },
+  "a2-u3-slovesa.grammar-chybat.body": {
+    "en": [
+      "Like páčiť sa and chutiť, **chýbať** turns the sentence round: the one you miss is the subject, and you're in the dative.",
+      "**Chýbaš mi.** = I miss you (you are missing to me). **Chýba mi rodina.** = I miss my family. **Chýbajú mi** rodičia. = I miss my parents."
+    ],
+    "t": [
+      "როგორც páčiť sa და chutiť, **chýbať**-იც წინადადებას „აბრუნებს“: ის, ვინც გენატრებათ, ქვემდებარეა, თქვენ კი datív-ში ხართ, ზუსტად როგორც ქართულ „მენატრება“-ში.",
+      "**Chýbaš mi.** = მენატრები. **Chýba mi rodina.** = ოჯახი მენატრება. **Chýbajú mi** rodičia. = მშობლები მენატრებიან."
+    ]
+  },
+  "a2-u3-slovesa.grammar-chybat.examples": {
+    "en": [
+      "I miss you.",
+      "Emma misses her family."
+    ],
+    "t": [
+      "მენატრები.",
+      "ემას ოჯახი ენატრება."
+    ]
+  },
+  "a2-u3-slovesa.choice-chybas-mi.question": {
+    "en": "Emma phones her mum in Dublin on Christmas Day. How does she say “I miss you”?",
+    "t": "შობის დღეს ემა დედას დუბლინში ურეკავს. როგორ ეტყვის „მენატრები“?"
+  },
+  "a2-u3-slovesa.choice-chybas-mi.why": {
+    "en": "The one you miss is the subject, **chýbaš** (you are missing), and you're in the dative, **mi**. Chýbam ti would mean “you miss me”.",
+    "t": "ის, ვინც გენატრებათ, ქვემდებარეა: **chýbaš** (შენ), თქვენ კი datív-ში ხართ: **mi**, ზუსტად როგორც „მენატრები“-ში. Chýbam ti ნიშნავდა „გენატრები“, ანუ შენ გენატრები მე."
+  },
+  "a2-u3-slovesa.build-chyba-mi-rodina.prompt": {
+    "en": "I miss my family.",
+    "t": "ოჯახი მენატრება."
+  },
+  "a2-u3-slovesa.build-chyba-mi-rodina.traps": {
+    "en": [
+      "The one who misses is in the dative: **mi**. Ma is the object form.",
+      "The family is the subject, so the verb is **chýba** (it is missing). Chýbam would mean “I am missing”."
+    ],
+    "t": [
+      "ის, ვისაც ენატრება, datív-შია: **mi**. Ma ობიექტის ფორმაა.",
+      "ოჯახი ქვემდებარეა, ამიტომ ზმნა მესამე პირშია: **chýba**, როგორც „მენატრება“. Chýbam ნიშნავდა, რომ თქვენ ვიღაცას ენატრებით."
+    ]
+  },
+  "a2-u3-slovesa.fill-samko-slubil-babke.en": {
+    "en": "Samko promised Grandma he'd be good.",
+    "t": "სამკო ბებიას დაჰპირდა, რომ კარგად მოიქცეოდა."
+  },
+  "a2-u3-slovesa.fill-samko-slubil-babke.why": {
+    "en": "You promise something **to** someone, so it's the dative: babk**e**.",
+    "t": "რამეს ვინმეს ჰპირდებით, ამიტომ datív-ია: babk**e**, როგორც ქართულ „ბებიას დაჰპირდა“-ში."
+  },
+  "a2-u3-slovesa.fill-uvarim-caj-pre-teba.en": {
+    "en": "I'll make some tea for you.",
+    "t": "შენთვის ჩაის გავაკეთებ."
+  },
+  "a2-u3-slovesa.fill-uvarim-caj-pre-teba.why": {
+    "en": "**Pre** takes the object form, the long one after a preposition: pre **teba**. Without pre: Uvarím **ti** čaj.",
+    "t": "**Pre** ობიექტის ფორმას მოითხოვს, წინდებულის შემდეგ კი გრძელს: pre **teba**. pre-ს გარეშე: Uvarím **ti** čaj."
+  },
+  "a2-u3-slovesa.fill-blahozelam-ti-samko.en": {
+    "en": "Congratulations, Samko!",
+    "t": "გილოცავ, სამკო!"
+  },
+  "a2-u3-slovesa.fill-blahozelam-ti-samko.why": {
+    "en": "**Blahoželať** (to congratulate) takes the dative: **ti**, the short form. Ťa and teba are object forms.",
+    "t": "**Blahoželať** (მილოცვა) datív-ს მოითხოვს: **ti**, მოკლე ფორმა, როგორც ქართულ „გილოცავ“-ში. Ťa და teba ობიექტის ფორმებია."
+  },
+  "a2-u3-slovesa.build-dakujeme-babke-za-veceru.prompt": {
+    "en": "We thank Grandma for the dinner.",
+    "t": "ბებიას ვახშმისთვის მადლობას ვუხდით."
+  },
+  "a2-u3-slovesa.build-dakujeme-babke-za-veceru.traps": {
+    "en": [
+      "Ďakovať takes the person in the dative: **babke**.",
+      "After **za** comes the object form: za večer**u**."
+    ],
+    "t": [
+      "Ďakovať ადამიანს datív-ში იყენებს: **babke**.",
+      "**za**-ს შემდეგ ობიექტის ფორმა მოდის: za večer**u**."
+    ]
+  },
+  "a2-u3-slovesa.build-ten-sal-patri-emme.answers": {
+    "en": [
+      "That scarf belongs to Emma, not Lucia.",
+      "That scarf belongs to Emma, not to Lucia."
+    ],
+    "t": [
+      "ეს შარფი ემას ეკუთვნის და არა ლუციას.",
+      "ეს შარფი ემას ეკუთვნის, არა ლუციას.",
+      "ეს შარფი ემასია და არა ლუციასი.",
+      "ეს შარფი ემასია, არა ლუციასი."
+    ]
+  },
+  "a2-u3-slovesa.build-ten-sal-patri-emme.distractors": {
+    "en": [
+      "gives",
+      "mine"
+    ],
+    "t": [
+      "აძლევს",
+      "ჩემია"
+    ]
+  },
+  "a2-u3-slovesa.speak-dakujem-ti-za-darcek.en": {
+    "en": "Thank you for the present.",
+    "t": "მადლობა საჩუქრისთვის."
+  },
+  "a2-u3-pocity.titleEn": {
+    "en": "How do you feel?",
+    "t": "როგორ გრძნობ თავს?"
+  },
+  "a2-u3-pocity.stastny-a-nestastny.en": {
+    "en": "happy and unhappy",
+    "t": "ბედნიერი და უბედური"
+  },
+  "a2-u3-pocity.stastny-a-nestastny.note": {
+    "en": "Emma is **šťastná**: there was a present for her under the Šimkos' tree too.",
+    "t": "ემა **šťastná** არის, ბედნიერი: შიმკოების ნაძვის ხის ქვეშ მისთვისაც იყო საჩუქარი."
+  },
+  "a2-u3-pocity.fill-emma-je-stastna.en": {
+    "en": "Emma is very happy.",
+    "t": "ემა ძალიან ბედნიერია."
+  },
+  "a2-u3-pocity.fill-emma-je-stastna.why": {
+    "en": "Emma is a woman, so the adjective ends in **-á**: šťastn**á**.",
+    "t": "ემა ქალია, ამიტომ ზედსართავი **-á**-ზე ბოლოვდება: šťastn**á**."
+  },
+  "a2-u3-pocity.prekvapeny.en": {
+    "en": "surprised",
+    "t": "გაკვირვებული"
+  },
+  "a2-u3-pocity.prekvapeny.note": {
+    "en": "You met prekvapený in unit 2: pán Kováč wasn't angry, just surprised. A surprise is a **prekvapenie**: To je prekvapenie!",
+    "t": "prekvapený მე-2 თავში შეგხვდათ: ბატონი კოვაჩი გაბრაზებული კი არ იყო, უბრალოდ გაკვირვებული. სიურპრიზი არის **prekvapenie**: To je prekvapenie! (რა სიურპრიზია!)"
+  },
+  "a2-u3-pocity.choice-babka-bola-prekvapena.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "a2-u3-pocity.choice-babka-bola-prekvapena.options": {
+    "en": [
+      "Grandma was very angry.",
+      "Grandma was very tired.",
+      "Grandma was very surprised."
+    ],
+    "t": [
+      "ბებია ძალიან გაბრაზებული იყო.",
+      "ბებია ძალიან დაღლილი იყო.",
+      "ბებია ძალიან გაკვირვებული იყო."
+    ]
+  },
+  "a2-u3-pocity.build-preco-si-nahnevany.prompt": {
+    "en": "Why are you cross, Samko?",
+    "t": "რატომ ხარ გაბრაზებული, სამკო?"
+  },
+  "a2-u3-pocity.build-preco-si-nahnevany.traps": {
+    "en": [
+      "Samko is a boy, so it's nahnevan**ý**.",
+      "You're asking Samko himself (ty), so byť is **si**."
+    ],
+    "t": [
+      "სამკო ბიჭია, ამიტომ nahnevan**ý**.",
+      "თავად სამკოს ეკითხებით (ty), ამიტომ byť არის **si**."
+    ]
+  },
+  "a2-u3-pocity.fill-samko-je-nahnevany-pretoze.en": {
+    "en": "Samko is cross because he has to go to bed.",
+    "t": "სამკო გაბრაზებულია, რადგან დასაძინებლად უნდა წავიდეს."
+  },
+  "a2-u3-pocity.fill-samko-je-nahnevany-pretoze.why": {
+    "en": "**Pretože** (because) gives the reason. Prečo asks why.",
+    "t": "**Pretože** (რადგან) მიზეზს ამბობს. Prečo კითხულობს „რატომ?“."
+  },
+  "a2-u3-pocity.zalubeny.en": {
+    "en": "in love",
+    "t": "შეყვარებული"
+  },
+  "a2-u3-pocity.zalubeny.note": {
+    "en": "Ujo Pavol a teta Mirka sú stále **zaľúbení**. (**stále** = still, all the time)",
+    "t": "Ujo Pavol a teta Mirka sú stále **zaľúbení**. (ბიძა პავოლი და ბიცოლა მირკა ისევ შეყვარებულები არიან.) **stále** = ისევ, სულ."
+  },
+  "a2-u3-pocity.fill-ujo-a-teta-su-zalubeni.en": {
+    "en": "Uncle Pavol and Aunt Mirka are still in love.",
+    "t": "ბიძა პავოლი და ბიცოლა მირკა ისევ შეყვარებულები არიან."
+  },
+  "a2-u3-pocity.fill-ujo-a-teta-su-zalubeni.why": {
+    "en": "A man and a woman together count as men, so the adjective ends in **-í**: zaľúben**í**.",
+    "t": "კაცი და ქალი ერთად კაცებად ითვლება, ამიტომ ზედსართავი **-í**-ზე ბოლოვდება: zaľúben**í**."
+  },
+  "a2-u3-pocity.bojim-sa.en": {
+    "en": "I'm scared.",
+    "t": "მეშინია."
+  },
+  "a2-u3-pocity.bojim-sa.note": {
+    "en": "**báť sa** = to be afraid: bojím sa, bojíš sa, bojí sa… Nebojím sa! = I'm not scared!",
+    "t": "**báť sa** = შიში: bojím sa, bojíš sa, bojí sa… Nebojím sa! = არ მეშინია! ქართული „მეშინია“-სგან განსხვავებით, აქ ადამიანი ქვემდებარეა: (ja) bojím sa."
+  },
+  "a2-u3-pocity.fill-samko-sa-boji.en": {
+    "en": "Samko is afraid that baby Jesus won't come.",
+    "t": "სამკოს ეშინია, რომ პატარა იესო არ მოვა."
+  },
+  "a2-u3-pocity.fill-samko-sa-boji.why": {
+    "en": "Samko is on, so the verb has no ending: **bojí** sa. Bojím goes with ja, boja with oni.",
+    "t": "სამკო = on, ამიტომ ზმნას დაბოლოება არ აქვს: **bojí** sa. Bojím ja-სთან დგას, boja — oni-სთან."
+  },
+  "a2-u3-pocity.match-stastny.pairs": {
+    "en": [
+      "happy",
+      "unhappy",
+      "angry",
+      "surprised",
+      "in love"
+    ],
+    "t": [
+      "ბედნიერი",
+      "უბედური",
+      "გაბრაზებული",
+      "გაკვირვებული",
+      "შეყვარებული"
+    ]
+  },
+  "a2-u3-pocity.build-dnes-je-samko-stastnejsi.prompt": {
+    "en": "Today Samko is happier than yesterday.",
+    "t": "დღეს სამკო გუშინდელზე უფრო ბედნიერია."
+  },
+  "a2-u3-pocity.build-dnes-je-samko-stastnejsi.traps": {
+    "en": [
+      "Samko is a boy, so the comparative ends in **-í**: šťastnejš**í**.",
+      "Comparing with yesterday takes the comparative, **šťastnejší** ako… Naj- is for the happiest of all."
+    ],
+    "t": [
+      "სამკო ბიჭია, ამიტომ შედარებითი ხარისხი **-í**-ზე ბოლოვდება: šťastnejš**í**.",
+      "გუშინდელთან შედარებისთვის შედარებითი ხარისხი გჭირდებათ: **šťastnejší** ako… Naj- „ყველაზე“-სთვისაა: ყველაზე ბედნიერი."
+    ]
+  },
+  "a2-u3-pocity.choice-emma-je-trochu-smutna.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "a2-u3-pocity.choice-emma-je-trochu-smutna.options": {
+    "en": [
+      "Emma is a bit tired; she's going home.",
+      "Emma is a bit sad; she misses her family.",
+      "Emma is happy; her family is coming."
+    ],
+    "t": [
+      "ემა ცოტა დაღლილია, სახლში მიდის.",
+      "ემა ცოტა მოწყენილია, ოჯახი ენატრება.",
+      "ემა ბედნიერია, ოჯახი ჩამოდის."
+    ]
+  },
+  "a2-u3-pocity.build-to-je-prekvapenie.answers": {
+    "en": [
+      "What a surprise!",
+      "That's a surprise!",
+      "It's a surprise!"
+    ],
+    "t": [
+      "რა სიურპრიზია!",
+      "ეს სიურპრიზია!",
+      "ეს რა სიურპრიზია!"
+    ]
+  },
+  "a2-u3-pocity.build-to-je-prekvapenie.distractors": {
+    "en": [
+      "pity",
+      "present"
+    ],
+    "t": [
+      "სამწუხაროა",
+      "საჩუქარია"
+    ]
+  },
+  "a2-u3-pocity.speak-som-velmi-stastna.en": {
+    "en": "I'm very happy! (a woman speaking)",
+    "t": "ძალიან ბედნიერი ვარ! (ამბობს ქალი)"
+  },
+  "a2-u3-k-ujovi.titleEn": {
+    "en": "To uncle's, thanks to Grandma",
+    "t": "ბიძასთან, ბებიის წყალობით"
+  },
+  "a2-u3-k-ujovi.grammar-k-ku.title": {
+    "en": "k, ku: to someone's place",
+    "t": "k, ku: ვინმესთან"
+  },
+  "a2-u3-k-ujovi.grammar-k-ku.body": {
+    "en": [
+      "**k** + the dative means towards someone or something, or to someone's place: Ideme **k** ujovi. = We're going to uncle's. Sadneme si **k** stolu. = We'll sit down at the table. It also gives the occasion: darček **k** Vianociam.",
+      "Before a word starting with k or g, and before mne, it's **ku**: **ku** kamarátovi, **ku** mne. After k, on, ona and oni start with n-: k **nemu**, k **nej**, k **nim**.",
+      "Things take **-u**, not -ovi: stôl → k stol**u**, okno → k okn**u**. -ovi is for people and animals."
+    ],
+    "t": [
+      "**k** + datív ნიშნავს ვინმესკენ ან რამისკენ, ან ვინმესთან: Ideme **k** ujovi. = ბიძასთან მივდივართ. Sadneme si **k** stolu. = მაგიდასთან დავსხდებით. ის შემთხვევასაც აღნიშნავს: darček **k** Vianociam (საშობაო საჩუქარი). ქართული „-თან“ სიტყვის ბოლოში დგას, სლოვაკური k კი სიტყვის წინ.",
+      "k-ით ან g-თი დაწყებული სიტყვის წინ და mne-ს წინ ის **ku** ხდება: **ku** kamarátovi, **ku** mne. k-ის შემდეგ on, ona და oni n-ით იწყება: k **nemu**, k **nej**, k **nim**.",
+      "საგნები **-u**-ს იღებს და არა -ovi-ს: stôl → k stol**u**, okno → k okn**u**. -ovi ადამიანებისა და ცხოველებისთვისაა."
+    ]
+  },
+  "a2-u3-k-ujovi.grammar-k-ku.table.head": {
+    "en": [
+      "",
+      "to …"
+    ],
+    "t": [
+      "",
+      "…-თან"
+    ]
+  },
+  "a2-u3-k-ujovi.grammar-k-ku.table.rows": {
+    "en": [
+      [
+        "ujo",
+        "k uj**ovi**"
+      ],
+      [
+        "babka",
+        "k babk**e**"
+      ],
+      [
+        "rodičia",
+        "k rodič**om**"
+      ],
+      [
+        "stôl",
+        "k stol**u**"
+      ],
+      [
+        "ja",
+        "**ku** mne"
+      ],
+      [
+        "on",
+        "k **nemu**"
+      ],
+      [
+        "ona",
+        "k **nej**"
+      ],
+      [
+        "oni",
+        "k **nim**"
+      ]
+    ],
+    "t": [
+      [
+        "ujo",
+        "k uj**ovi**"
+      ],
+      [
+        "babka",
+        "k babk**e**"
+      ],
+      [
+        "rodičia",
+        "k rodič**om**"
+      ],
+      [
+        "stôl",
+        "k stol**u**"
+      ],
+      [
+        "ja",
+        "**ku** mne"
+      ],
+      [
+        "on",
+        "k **nemu**"
+      ],
+      [
+        "ona",
+        "k **nej**"
+      ],
+      [
+        "oni",
+        "k **nim**"
+      ]
+    ]
+  },
+  "a2-u3-k-ujovi.grammar-k-ku.examples": {
+    "en": [
+      "We're going to Grandma's for Christmas.",
+      "Will you come to my place?"
+    ],
+    "t": [
+      "შობაზე ბებიასთან მივდივართ.",
+      "ჩემთან მოხვალ?"
+    ]
+  },
+  "a2-u3-k-ujovi.grammar-oproti-vdaka.title": {
+    "en": "Opposite, thanks to, because of",
+    "t": "პირდაპირ, წყალობით, გამო"
+  },
+  "a2-u3-k-ujovi.grammar-oproti-vdaka.body": {
+    "en": [
+      "Six more prepositions take the dative. New words here: **chrípka** (flu) and **von** (out). You know sneh (snow) and stanica (station).",
+      "**Vďaka** is for a good cause, **kvôli** for a bad or neutral one: Vďaka babke je večera výborná. Kvôli snehu mešká vlak."
+    ],
+    "t": [
+      "კიდევ ექვსი წინდებული მოითხოვს datív-ს. ახალი სიტყვები: **chrípka** (გრიპი) და **von** (გარეთ). sneh (თოვლი) და stanica (სადგური) უკვე იცით.",
+      "**Vďaka** კარგი მიზეზისთვისაა (ქართ. „წყალობით“), **kvôli** — ცუდი ან ნეიტრალურისთვის (ქართ. „გამო“): Vďaka babke je večera výborná. Kvôli snehu mešká vlak."
+    ]
+  },
+  "a2-u3-k-ujovi.grammar-oproti-vdaka.table.head": {
+    "en": [
+      "",
+      "means",
+      "example"
+    ],
+    "t": [
+      "",
+      "ნიშნავს",
+      "მაგალითი"
+    ]
+  },
+  "a2-u3-k-ujovi.grammar-oproti-vdaka.table.rows": {
+    "en": [
+      [
+        "oproti",
+        "opposite",
+        "Oproti domu je kostol."
+      ],
+      [
+        "naproti",
+        "to meet someone",
+        "Otec išiel Emme naproti."
+      ],
+      [
+        "vďaka",
+        "thanks to",
+        "Vďaka babke je večera výborná."
+      ],
+      [
+        "kvôli",
+        "because of",
+        "Kvôli snehu mešká vlak."
+      ],
+      [
+        "proti",
+        "against",
+        "Čaj proti chrípke."
+      ],
+      [
+        "napriek",
+        "in spite of",
+        "Napriek snehu ideme von."
+      ]
+    ],
+    "t": [
+      [
+        "oproti",
+        "პირდაპირ, მოპირდაპირედ",
+        "Oproti domu je kostol."
+      ],
+      [
+        "naproti",
+        "ვინმეს შესახვედრად",
+        "Otec išiel Emme naproti."
+      ],
+      [
+        "vďaka",
+        "წყალობით",
+        "Vďaka babke je večera výborná."
+      ],
+      [
+        "kvôli",
+        "გამო",
+        "Kvôli snehu mešká vlak."
+      ],
+      [
+        "proti",
+        "საწინააღმდეგო, წინააღმდეგ",
+        "Čaj proti chrípke."
+      ],
+      [
+        "napriek",
+        "მიუხედავად",
+        "Napriek snehu ideme von."
+      ]
+    ]
+  },
+  "a2-u3-k-ujovi.grammar-oproti-vdaka.examples": {
+    "en": [
+      "Dad went to meet Emma and Lucia at the station.",
+      "Thanks to Grandma, dinner is excellent."
+    ],
+    "t": [
+      "მამა ემასა და ლუციას დასახვედრად სადგურზე წავიდა.",
+      "ბებიის წყალობით ვახშამი შესანიშნავია."
+    ]
+  },
+  "a2-u3-k-ujovi.fill-zajtra-ideme-k-ujovi.en": {
+    "en": "Tomorrow we're going to Uncle Pavol's.",
+    "t": "ხვალ ბიძა პავოლთან მივდივართ."
+  },
+  "a2-u3-k-ujovi.fill-zajtra-ideme-k-ujovi.why": {
+    "en": "To someone's place is **k** + the dative. Ku is only before k, g or mne, and do is for places, not people.",
+    "t": "ვინმესთან წასვლა არის **k** + datív. Ku მხოლოდ k-ს, g-ს ან mne-ს წინ დგას, do კი ადგილებისთვისაა და არა ადამიანებისთვის."
+  },
+  "a2-u3-k-ujovi.fill-prides-ku-mne.en": {
+    "en": "Will you come to my place?",
+    "t": "ჩემთან მოხვალ?"
+  },
+  "a2-u3-k-ujovi.fill-prides-ku-mne.why": {
+    "en": "Before **mne**, k becomes **ku**: ku mne.",
+    "t": "**mne**-ს წინ k ხდება **ku**: ku mne."
+  },
+  "a2-u3-k-ujovi.fill-sadneme-si-k-stolu.en": {
+    "en": "We'll sit down at the table.",
+    "t": "მაგიდასთან დავსხდებით."
+  },
+  "a2-u3-k-ujovi.fill-sadneme-si-k-stolu.why": {
+    "en": "**K** takes the dative, and stôl is a thing, so it takes **-u**, not -ovi (and ô becomes o): k stol**u**. Stole is the locative.",
+    "t": "**K** datív-ს მოითხოვს, stôl კი საგანია, ამიტომ **-u**-ს იღებს და არა -ovi-ს (ô კი o ხდება): k stol**u**. Stole lokál-ია."
+  },
+  "a2-u3-k-ujovi.fill-emma-ide-k-oknu.en": {
+    "en": "Emma goes over to the window.",
+    "t": "ემა ფანჯარასთან მიდის."
+  },
+  "a2-u3-k-ujovi.fill-emma-ide-k-oknu.why": {
+    "en": "**K** takes the dative, and okno, a neuter thing, takes **-u**: k okn**u**. Okne is the locative.",
+    "t": "**K** datív-ს მოითხოვს, okno კი, საშუალო სქესის საგანი, **-u**-ს იღებს: k okn**u**. Okne lokál-ია."
+  },
+  "a2-u3-k-ujovi.choice-ideme-k-nim.question": {
+    "en": "“We're going to their place.” Which is right?",
+    "t": "„მათთან მივდივართ.“ რომელია სწორი?"
+  },
+  "a2-u3-k-ujovi.choice-ideme-k-nim.why": {
+    "en": "After a preposition, oni starts with n-: k **nim**.",
+    "t": "წინდებულის შემდეგ oni n-ით იწყება: k **nim**."
+  },
+  "a2-u3-k-ujovi.fill-kostol-je-oproti.en": {
+    "en": "The church is opposite our house.",
+    "t": "ჩვენი სახლის პირდაპირ ეკლესიაა."
+  },
+  "a2-u3-k-ujovi.fill-kostol-je-oproti.why": {
+    "en": "**Oproti** takes the dative, so náš becomes **nášmu**, like dom → domu.",
+    "t": "**Oproti** datív-ს მოითხოვს, ამიტომ náš ხდება **nášmu**, როგორც dom → domu. ქართულში აქ ნათესაობითია (სახლის პირდაპირ), სლოვაკურში კი datív."
+  },
+  "a2-u3-k-ujovi.build-otec-isiel-emme-naproti.prompt": {
+    "en": "Dad went to meet Emma at the station.",
+    "t": "მამა ემას დასახვედრად სადგურზე წავიდა."
+  },
+  "a2-u3-k-ujovi.build-otec-isiel-emme-naproti.traps": {
+    "en": [
+      "**Naproti** takes the dative: Emm**e**. Emmu is the object form.",
+      "Going to meet someone is ísť niekomu **naproti**. Oproti means opposite."
+    ],
+    "t": [
+      "**Naproti** datív-ს მოითხოვს: Emm**e**. Emmu ობიექტის ფორმაა.",
+      "ვინმეს დასახვედრად წასვლა არის ísť niekomu **naproti**. Oproti ნიშნავს „პირდაპირ“, „მოპირდაპირედ“."
+    ]
+  },
+  "a2-u3-k-ujovi.fill-kvoli-snehu.en": {
+    "en": "The train is late because of the snow.",
+    "t": "თოვლის გამო მატარებელი იგვიანებს."
+  },
+  "a2-u3-k-ujovi.fill-kvoli-snehu.why": {
+    "en": "The snow is a bad cause, so it's **kvôli** (because of). Vďaka is for good causes.",
+    "t": "თოვლი ცუდი მიზეზია, ამიტომ **kvôli** (გამო). Vďaka კარგი მიზეზებისთვისაა."
+  },
+  "a2-u3-k-ujovi.fill-vdaka-babke.en": {
+    "en": "Thanks to Grandma, the sauerkraut soup is excellent.",
+    "t": "ბებიის წყალობით კომბოსტოს წვნიანი შესანიშნავია."
+  },
+  "a2-u3-k-ujovi.fill-vdaka-babke.why": {
+    "en": "Grandma is a good cause: **vďaka** (thanks to).",
+    "t": "ბებია კარგი მიზეზია: **vďaka** (წყალობით)."
+  },
+  "a2-u3-k-ujovi.fill-caj-proti-chripke.en": {
+    "en": "Grandma is making a tea against flu.",
+    "t": "ბებია გრიპის საწინააღმდეგო ჩაის ამზადებს."
+  },
+  "a2-u3-k-ujovi.fill-caj-proti-chripke.why": {
+    "en": "**Proti** takes the dative: chrípka → chrípk**e**.",
+    "t": "**Proti** datív-ს მოითხოვს: chrípka → chrípk**e**."
+  },
+  "a2-u3-k-ujovi.build-napriek-snehu-ideme.answers": {
+    "en": [
+      "We're going out in spite of the snow.",
+      "We're going out despite the snow.",
+      "In spite of the snow, we're going out."
+    ],
+    "t": [
+      "თოვლის მიუხედავად გარეთ გავდივართ.",
+      "თოვლის მიუხედავად გარეთ მივდივართ.",
+      "გარეთ გავდივართ თოვლის მიუხედავად."
+    ]
+  },
+  "a2-u3-k-ujovi.build-napriek-snehu-ideme.distractors": {
+    "en": [
+      "because",
+      "rain"
+    ],
+    "t": [
+      "გამო",
+      "წვიმის"
+    ]
+  },
+  "a2-u3-k-ujovi.fill-darcek-k-vianociam.en": {
+    "en": "This is a Christmas present.",
+    "t": "ეს საშობაო საჩუქარია."
+  },
+  "a2-u3-k-ujovi.fill-darcek-k-vianociam.why": {
+    "en": "**K** takes the dative, here for the occasion: Vianoce → Vianoc**iam**.",
+    "t": "**K** datív-ს მოითხოვს, აქ შემთხვევის აღსანიშნავად: Vianoce → Vianoc**iam**."
+  },
+  "a2-u3-k-ujovi.choice-ku-kamaratovi.question": {
+    "en": "Which is right?",
+    "t": "რომელია სწორი?"
+  },
+  "a2-u3-k-ujovi.choice-ku-kamaratovi.why": {
+    "en": "**Ku** comes before a word starting with k or g: **ku** kamarátovi. Otherwise it's k: k ujovi, k babke.",
+    "t": "**Ku** k-ით ან g-თი დაწყებული სიტყვის წინ დგას: **ku** kamarátovi. სხვა შემთხვევაში — k: k ujovi, k babke."
+  },
+  "a2-u3-k-ujovi.speak-na-vianoce-ideme-k-babke.en": {
+    "en": "We're going to Grandma's for Christmas.",
+    "t": "შობაზე ბებიასთან მივდივართ."
+  },
+  "a2-u3-sviatky.titleEn": {
+    "en": "Holidays and wishes",
+    "t": "დღესასწაულები და მილოცვები"
+  },
+  "a2-u3-sviatky.prvy-sviatok-vianocny.en": {
+    "en": "Christmas Day (25 December)",
+    "t": "შობის პირველი დღე (25 დეკემბერი)"
+  },
+  "a2-u3-sviatky.prvy-sviatok-vianocny.note": {
+    "en": "Families stay at home and have a festive lunch, a **slávnostný** obed. 26 December is **druhý sviatok vianočný**, St Stephen's Day.",
+    "t": "ოჯახები სახლში რჩებიან და სადღესასწაულო სადილი აქვთ, **slávnostný** obed. 26 დეკემბერი არის **druhý sviatok vianočný**, წმინდა სტეფანეს დღე."
+  },
+  "a2-u3-sviatky.navsteva.en": {
+    "en": "a visit; visitors",
+    "t": "სტუმრობა; სტუმრები"
+  },
+  "a2-u3-sviatky.navsteva.note": {
+    "en": "On St Stephen's Day people go **na návštevu** to family and friends. Máme návštevu! = We've got visitors!",
+    "t": "წმინდა სტეფანეს დღეს ხალხი ნათესავებთან და მეგობრებთან **na návštevu** (სტუმრად) მიდის. Máme návštevu! = სტუმრები გვყავს!"
+  },
+  "a2-u3-sviatky.fill-ideme-na-navstevu.en": {
+    "en": "We're going to visit our aunt.",
+    "t": "დეიდასთან სტუმრად მივდივართ."
+  },
+  "a2-u3-sviatky.fill-ideme-na-navstevu.why": {
+    "en": "Going somewhere is **na** + the object form: na návštev**u**.",
+    "t": "სადმე წასვლა არის **na** + ობიექტის ფორმა: na návštev**u**."
+  },
+  "a2-u3-sviatky.build-dakujeme-za-pozvanie.prompt": {
+    "en": "Thank you for inviting us!",
+    "t": "გმადლობთ, რომ დაგვპატიჟეთ!"
+  },
+  "a2-u3-sviatky.build-dakujeme-za-pozvanie.traps": {
+    "en": [
+      "“Us” means you speak for a group (my), so it's **ďakujeme**.",
+      "Thanks for inviting is za **pozvanie**. A pozvánka is an invitation card."
+    ],
+    "t": [
+      "„დაგვპატიჟეთ“ ნიშნავს, რომ ჯგუფის სახელით ლაპარაკობთ (my), ამიტომ **ďakujeme**.",
+      "მოწვევისთვის მადლობა არის za **pozvanie**. Pozvánka მოსაწვევი ბარათია."
+    ]
+  },
+  "a2-u3-sviatky.build-na-prvy-sviatok.answers": {
+    "en": [
+      "On Christmas Day we have a festive lunch.",
+      "We have a festive lunch on Christmas Day."
+    ],
+    "t": [
+      "შობის პირველ დღეს სადღესასწაულო სადილი გვაქვს.",
+      "სადღესასწაულო სადილი შობის პირველ დღეს გვაქვს.",
+      "შობის პირველ დღეს გვაქვს სადღესასწაულო სადილი."
+    ]
+  },
+  "a2-u3-sviatky.build-na-prvy-sviatok.distractors": {
+    "en": [
+      "dinner",
+      "Eve"
+    ],
+    "t": [
+      "ვახშამი",
+      "საღამოს"
+    ]
+  },
+  "a2-u3-sviatky.meniny.en": {
+    "en": "name day",
+    "t": "სახელობის დღე"
+  },
+  "a2-u3-sviatky.meniny.note": {
+    "en": "Every day in the Slovak calendar has its names, and people celebrate them. 24 December is for Adam and Eva, 26 December for **Štefan**.",
+    "t": "სლოვაკურ კალენდარში ყოველ დღეს თავისი სახელები აქვს და ხალხი მათ აღნიშნავს, როგორც საქართველოში გიორგობას ან ნინოობას. 24 დეკემბერი ადამისა და ევას დღეა, 26 დეკემბერი — **Štefan**-ისა (შტეფანისა)."
+  },
+  "a2-u3-sviatky.vsetko-najlepsie-k-meninam.en": {
+    "en": "Happy name day!",
+    "t": "გილოცავ სახელობის დღეს!"
+  },
+  "a2-u3-sviatky.vsetko-najlepsie-k-meninam.note": {
+    "en": "**k** + the dative gives the occasion: k narodeninám (birthday), k Vianociam.",
+    "t": "**k** + datív შემთხვევას აღნიშნავს: k narodeninám (დაბადების დღე), k Vianociam (შობა)."
+  },
+  "a2-u3-sviatky.fill-vsetko-najlepsie-k-narodeninam.en": {
+    "en": "Happy birthday!",
+    "t": "გილოცავ დაბადების დღეს!"
+  },
+  "a2-u3-sviatky.fill-vsetko-najlepsie-k-narodeninam.why": {
+    "en": "**K** takes the dative, and the plural word narodeniny becomes **narodeninám**.",
+    "t": "**K** datív-ს მოითხოვს, მრავლობითი სიტყვა narodeniny კი ხდება **narodeninám**."
+  },
+  "a2-u3-sviatky.zelat.en": {
+    "en": "to wish",
+    "t": "სურვება (ვუსურვებ)"
+  },
+  "a2-u3-sviatky.zelat.note": {
+    "en": "**priať** means the same: prajem, praješ… The person is in the dative: Želám **vám** veselé Vianoce!",
+    "t": "**priať** იგივეს ნიშნავს: prajem, praješ… ადამიანი datív-შია, როგორც ქართულ „გისურვებთ“-ში: Želám **vám** veselé Vianoce! (გისურვებთ ბედნიერ შობას!)"
+  },
+  "a2-u3-sviatky.build-zelam-ti-vesele-vianoce.prompt": {
+    "en": "I wish you a merry Christmas. (to a friend)",
+    "t": "გისურვებ ბედნიერ შობას. (მეგობარს)"
+  },
+  "a2-u3-sviatky.build-zelam-ti-vesele-vianoce.traps": {
+    "en": [
+      "You wish something **to** someone, so it's the dative: **ti**. Ťa is the object form.",
+      "“I” is ja, so the verb ends in **-m**: želám."
+    ],
+    "t": [
+      "რამეს ვინმეს უსურვებთ, ამიტომ datív-ია: **ti**. Ťa ობიექტის ფორმაა.",
+      "„მე“ არის ja, ამიტომ ზმნა **-m**-ზე ბოლოვდება: želám."
+    ]
+  },
+  "a2-u3-sviatky.gratulovat.en": {
+    "en": "to congratulate",
+    "t": "მილოცვა"
+  },
+  "a2-u3-sviatky.gratulovat.note": {
+    "en": "You know **Gratulujem!** from the quiz. The person is in the dative, and the occasion takes k: Gratulujem ti k narodeninám! **Blahoželať** means the same, a little more formal.",
+    "t": "**Gratulujem!** ვიქტორინიდან იცით. ადამიანი datív-შია, შემთხვევა კი k-ით ითქმის: Gratulujem ti k narodeninám! (გილოცავ დაბადების დღეს!) **Blahoželať** იგივეს ნიშნავს, ცოტა უფრო ოფიციალურად."
+  },
+  "a2-u3-sviatky.fill-gratulujem-ti-k-meninam.en": {
+    "en": "Happy name day!",
+    "t": "გილოცავ სახელობის დღეს!"
+  },
+  "a2-u3-sviatky.fill-gratulujem-ti-k-meninam.why": {
+    "en": "Gratulovať takes the dative: **ti**, the short form. Ťa and teba are object forms.",
+    "t": "Gratulovať datív-ს მოითხოვს: **ti**, მოკლე ფორმა. Ťa და teba ობიექტის ფორმებია."
+  },
+  "a2-u3-sviatky.build-babka-zela-marekovi.prompt": {
+    "en": "Grandma wishes Marek a merry Christmas.",
+    "t": "ბებია მარეკს ბედნიერ შობას უსურვებს."
+  },
+  "a2-u3-sviatky.build-babka-zela-marekovi.traps": {
+    "en": [
+      "Marek gets the wish, so he's in the dative: Marek**ovi**. Mareka is the object form.",
+      "Babka is ona, so the verb has no ending: **želá**."
+    ],
+    "t": [
+      "სურვილს მარეკი იღებს, ამიტომ ის datív-შია: Marek**ovi**. Mareka ობიექტის ფორმაა.",
+      "Babka = ona, ამიტომ ზმნას დაბოლოება არ აქვს: **želá**."
+    ]
+  },
+  "a2-u3-sviatky.traja-krali.en": {
+    "en": "Epiphany (6 January)",
+    "t": "სამი მეფის დღე (6 იანვარი)"
+  },
+  "a2-u3-sviatky.traja-krali.note": {
+    "en": "The Three Kings end the Christmas holidays; after them, the tree comes down.",
+    "t": "სამი მეფე (მოგვი) შობის დღესასწაულებს ამთავრებს; ამის შემდეგ ნაძვის ხეს შლიან. საქართველოში კი ამ დღეს შობა ჯერ კიდევ წინაა."
+  },
+  "a2-u3-sviatky.match-sviatky.pairs": {
+    "en": [
+      "24 December",
+      "25 December",
+      "26 December",
+      "31 December",
+      "6 January"
+    ],
+    "t": [
+      "24 დეკემბერი",
+      "25 დეკემბერი",
+      "26 დეკემბერი",
+      "31 დეკემბერი",
+      "6 იანვარი"
+    ]
+  },
+  "a2-u3-sviatky.choice-sused-stefan.question": {
+    "en": "It's 26 December, and your neighbour Štefan is at the door. What do you say?",
+    "t": "26 დეკემბერია და კარზე თქვენი მეზობელი შტეფანი დგას. რას ეტყვით?"
+  },
+  "a2-u3-sviatky.choice-sused-stefan.why": {
+    "en": "26 December is Štefan's name day, so you wish him **všetko najlepšie k meninám**.",
+    "t": "26 დეკემბერი შტეფანის სახელობის დღეა, ამიტომ მას უსურვებთ: **všetko najlepšie k meninám**."
+  },
+  "a2-u3-sviatky.speak-vsetko-najlepsie-k-meninam.en": {
+    "en": "Happy name day!",
+    "t": "გილოცავ სახელობის დღეს!"
+  },
+  "a2-u3-silvester.titleEn": {
+    "en": "New Year's Eve",
+    "t": "ახალი წლის ღამე"
+  },
+  "a2-u3-silvester.o-polnoci.en": {
+    "en": "at midnight",
+    "t": "შუაღამისას"
+  },
+  "a2-u3-silvester.o-polnoci.note": {
+    "en": "**polnoc** = midnight, from pol (half) + noc (night). Ujo Pavol's family has come over, and everyone is waiting for midnight.",
+    "t": "**polnoc** = შუაღამე: pol (ნახევარი) + noc (ღამე). ბიძა პავოლის ოჯახი სტუმრად მოვიდა და ყველა შუაღამეს ელოდება."
+  },
+  "a2-u3-silvester.ohnostroj.en": {
+    "en": "fireworks",
+    "t": "ფეიერვერკი"
+  },
+  "a2-u3-silvester.ohnostroj.note": {
+    "en": "At midnight the sky over Žilina is full of **ohňostroje**.",
+    "t": "შუაღამისას ჟილინის ცა **ohňostroje**-ით, ფეიერვერკებით, ივსება."
+  },
+  "a2-u3-silvester.fill-o-polnoci-je-ohnostroj.en": {
+    "en": "There are fireworks at midnight.",
+    "t": "შუაღამისას ფეიერვერკია."
+  },
+  "a2-u3-silvester.fill-o-polnoci-je-ohnostroj.why": {
+    "en": "At a time is **o** + the locative: o poln**oci**, like o jednej.",
+    "t": "დროის თქმა („რომელ საათზე?“) არის **o** + lokál: o poln**oci**, როგორც o jednej (პირველ საათზე)."
+  },
+  "a2-u3-silvester.sampanske.en": {
+    "en": "champagne",
+    "t": "შამპანური"
+  },
+  "a2-u3-silvester.sampanske.note": {
+    "en": "Neuter, and it changes like an adjective: Dáš si **šampanské**? A toast: **Na zdravie!**",
+    "t": "საშუალო სქესისაა და ზედსართავივით იცვლება: Dáš si **šampanské**? (შამპანურს დალევ?) სადღეგრძელო: **Na zdravie!** (გაუმარჯოს!)"
+  },
+  "a2-u3-silvester.stastny-novy-rok.en": {
+    "en": "Happy New Year!",
+    "t": "გილოცავთ ახალ წელს!"
+  },
+  "a2-u3-silvester.stastny-novy-rok.note": {
+    "en": "On cards you'll see both wishes together: **Veselé Vianoce a šťastný nový rok!**",
+    "t": "ბარათებზე ორივე მილოცვას ერთად ნახავთ: **Veselé Vianoce a šťastný nový rok!** (გილოცავთ შობას და ახალ წელს!)"
+  },
+  "a2-u3-silvester.choice-o-polnoci-co-povedia.question": {
+    "en": "It's midnight on 31 December. What do people say?",
+    "t": "31 დეკემბრის შუაღამეა. რას ამბობს ხალხი?"
+  },
+  "a2-u3-silvester.build-na-zdravie-na-nasu.prompt": {
+    "en": "Cheers! To our family!",
+    "t": "გაუმარჯოს! ჩვენს ოჯახს!"
+  },
+  "a2-u3-silvester.build-na-zdravie-na-nasu.traps": {
+    "en": [
+      "A toast is **na** + the object form, so naša becomes **našu**.",
+      "Na + the object form: rodin**u**. Rodine is the dative or the locative."
+    ],
+    "t": [
+      "სადღეგრძელო არის **na** + ობიექტის ფორმა, ამიტომ naša ხდება **našu**.",
+      "ქართულად „ოჯახს გაუმარჯოს“ ვამბობთ, სლოვაკურ სადღეგრძელოში კი datív კი არა, na + ობიექტის ფორმაა: rodin**u**. Rodine datív-ის ან lokál-ის ფორმაა."
+    ]
+  },
+  "a2-u3-silvester.mozem-s-nou-hovorit.en": {
+    "en": "Can I speak to her?",
+    "t": "შეიძლება მას დაველაპარაკო? (ქალს)"
+  },
+  "a2-u3-silvester.mozem-s-nou-hovorit.note": {
+    "en": "Before midnight, Tomáš rings the Šimkos' home phone: **Je Lucia doma?** Môžem s ňou hovoriť? For a man: s ním.",
+    "t": "შუაღამემდე ტომაში შიმკოების სახლის ტელეფონზე რეკავს: **Je Lucia doma?** (ლუცია სახლშია?) Môžem s ňou hovoriť? კაცზე: s ním."
+  },
+  "a2-u3-silvester.build-je-lucia-doma.prompt": {
+    "en": "Good evening, it's Tomáš. Is Lucia at home?",
+    "t": "საღამო მშვიდობისა, ტომაში ვარ. ლუცია სახლშია?"
+  },
+  "a2-u3-silvester.build-je-lucia-doma.traps": {
+    "en": [
+      "Being at home is **doma**. Domov is for going home.",
+      "Lucia's dad answers the phone, so Tomáš is polite: **Dobrý** večer."
+    ],
+    "t": [
+      "სახლში ყოფნა არის **doma**. Domov სახლში წასვლისთვისაა.",
+      "ტელეფონს ლუციას მამა პასუხობს, ამიტომ ტომაში თავაზიანია: **Dobrý** večer."
+    ]
+  },
+  "a2-u3-silvester.fill-mozem-s-nim-hovorit.en": {
+    "en": "Is Marek at home? Can I speak to him?",
+    "t": "მარეკი სახლშია? შეიძლება მას დაველაპარაკო?"
+  },
+  "a2-u3-silvester.fill-mozem-s-nim-hovorit.why": {
+    "en": "Marek is on, and s takes the instrumental: s **ním**. S ňou is with her, s nimi with them.",
+    "t": "Marek = on, s კი inštrumentál-ს მოითხოვს: s **ním**. S ňou ნიშნავს „მასთან“ (ქალთან), s nimi — „მათთან“."
+  },
+  "a2-u3-silvester.build-kto-je-ta-pani-v-cervenom.prompt": {
+    "en": "Who's that lady in the red sweater?",
+    "t": "ვინ არის ის ქალბატონი წითელ სვიტერში?"
+  },
+  "a2-u3-silvester.build-kto-je-ta-pani-v-cervenom.traps": {
+    "en": [
+      "Pani is a woman, so “that” is **tá**.",
+      "In what you wear answers “where?”: v + the locative, v **svetri**. Svetre is the plural."
+    ],
+    "t": [
+      "Pani ქალია, ამიტომ „ის“ არის **tá**.",
+      "„რა აცვია?“ აქ „სად?“-ის კითხვასავით მუშაობს: v + lokál, v **svetri** (სვიტერში). Svetre მრავლობითია."
+    ]
+  },
+  "a2-u3-silvester.dakujem-za-vsetko.en": {
+    "en": "Thank you for everything.",
+    "t": "მადლობა ყველაფრისთვის."
+  },
+  "a2-u3-silvester.dakujem-za-vsetko.note": {
+    "en": "Emma's last evening in Žilina. Bolo mi u vás veľmi dobre. = I've had a lovely time with you.",
+    "t": "ემას ბოლო საღამოა ჟილინაში. Bolo mi u vás veľmi dobre. = თქვენთან ძალიან კარგად გავატარე დრო."
+  },
+  "a2-u3-silvester.match-silvester.pairs": {
+    "en": [
+      "fireworks",
+      "champagne",
+      "midnight",
+      "New Year's Eve",
+      "New Year's Day"
+    ],
+    "t": [
+      "ფეიერვერკი",
+      "შამპანური",
+      "შუაღამე",
+      "ახალი წლის ღამე",
+      "ახალი წელი (1 იანვარი)"
+    ]
+  },
+  "a2-u3-silvester.build-o-polnoci-sme-pili.answers": {
+    "en": [
+      "At midnight we drank champagne.",
+      "We drank champagne at midnight."
+    ],
+    "t": [
+      "შუაღამისას შამპანური დავლიეთ.",
+      "შამპანური შუაღამისას დავლიეთ.",
+      "შუაღამისას დავლიეთ შამპანური."
+    ]
+  },
+  "a2-u3-silvester.build-o-polnoci-sme-pili.distractors": {
+    "en": [
+      "wine",
+      "Christmas"
+    ],
+    "t": [
+      "ღვინო",
+      "შობას"
+    ]
+  },
+  "a2-u3-silvester.speak-stastny-novy-rok.en": {
+    "en": "Happy New Year!",
+    "t": "გილოცავთ ახალ წელს!"
+  },
+  "a2-u3-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "წერითი ვარჯიში"
+  },
+  "a2-u3-pisanie.listen-chces-prist-k-nam.en": {
+    "en": "Do you want to come to us for Christmas?",
+    "t": "გინდა, შობაზე ჩვენთან მოხვიდე?"
+  },
+  "a2-u3-pisanie.listen-babka-je-najstarsia.en": {
+    "en": "Grandma is the oldest in the family.",
+    "t": "ბებია ოჯახში ყველაზე უფროსია."
+  },
+  "a2-u3-pisanie.listen-ujo-pavol-je-mamin.en": {
+    "en": "Uncle Pavol is Mum's brother.",
+    "t": "ბიძა პავოლი დედის ძმაა."
+  },
+  "a2-u3-pisanie.listen-kupim-otcovi-sal.en": {
+    "en": "I'll buy Dad a warm scarf.",
+    "t": "მამას თბილ შარფს ვუყიდი."
+  },
+  "a2-u3-pisanie.listen-je-mi-zima.en": {
+    "en": "I'm cold and sleepy.",
+    "t": "მცივა და მეძინება."
+  },
+  "a2-u3-pisanie.listen-chuti-ti-kapustnica.en": {
+    "en": "Do you like the sauerkraut soup?",
+    "t": "კომბოსტოს წვნიანი მოგწონს?"
+  },
+  "a2-u3-pisanie.listen-zelam-vam-vesele.en": {
+    "en": "I wish you a merry Christmas!",
+    "t": "გისურვებთ ბედნიერ შობას!"
+  },
+  "a2-u3-pisanie.listen-dakujem-ti-za-darcek.en": {
+    "en": "Thank you for the present.",
+    "t": "მადლობა საჩუქრისთვის."
+  },
+  "a2-u3-pisanie.listen-marek-je-o-devat.en": {
+    "en": "Marek is nine years older.",
+    "t": "მარეკი ცხრა წლით უფროსია."
+  },
+  "a2-u3-opakovanie.titleEn": {
+    "en": "Review",
+    "t": "გამეორება"
+  },
+  "a2-u3-opakovanie.match-rodina.pairs": {
+    "en": [
+      "grandma",
+      "cousin",
+      "nephew",
+      "niece",
+      "relative"
+    ],
+    "t": [
+      "ბებია",
+      "ბიძაშვილი, დეიდაშვილი",
+      "ძმის ან დის ვაჟი",
+      "ძმის ან დის ქალიშვილი",
+      "ნათესავი"
+    ]
+  },
+  "a2-u3-opakovanie.fill-marek-je-vyssi-ako-samko.en": {
+    "en": "Marek is taller than Samko.",
+    "t": "მარეკი სამკოზე მაღალია."
+  },
+  "a2-u3-opakovanie.fill-marek-je-vyssi-ako-samko.why": {
+    "en": "Comparing two people takes the comparative, and Marek is a man: vy**šší** ako… Naj- is for the tallest of all.",
+    "t": "ორი ადამიანის შედარებას შედარებითი ხარისხი სჭირდება, მარეკი კი კაცია: vy**šší** ako… Naj- „ყველაზე“-სთვისაა: ყველაზე მაღალი."
+  },
+  "a2-u3-opakovanie.build-kupim-babke-teple-papuce.prompt": {
+    "en": "I'll buy Grandma warm slippers.",
+    "t": "ბებიას თბილ ჩუსტებს ვუყიდი."
+  },
+  "a2-u3-opakovanie.build-kupim-babke-teple-papuce.traps": {
+    "en": [
+      "Grandma gets the slippers, so she's in the dative: babk**e**. Babku is the object form.",
+      "Papuče is a plural thing, so the adjective ends in **-é**: tepl**é** papuče."
+    ],
+    "t": [
+      "ჩუსტებს ბებია იღებს, ამიტომ ის datív-შია: babk**e**. Babku ობიექტის ფორმაა.",
+      "Papuče მრავლობითი საგანია, ამიტომ ზედსართავი **-é**-ზე ბოლოვდება: tepl**é** papuče."
+    ]
+  },
+  "a2-u3-opakovanie.choice-audio-chce-sa-mi-spat.question": {
+    "en": "What do you hear?",
+    "t": "რა გესმით?"
+  },
+  "a2-u3-opakovanie.choice-audio-chce-sa-mi-spat.options": {
+    "en": [
+      "I'm cold.",
+      "I'm hungry.",
+      "I'm sleepy."
+    ],
+    "t": [
+      "მცივა.",
+      "მშია.",
+      "მეძინება."
+    ]
+  },
+  "a2-u3-opakovanie.fill-pacia-sa-mi-tvoje.en": {
+    "en": "I like your slippers.",
+    "t": "შენი ჩუსტები მომწონს."
+  },
+  "a2-u3-opakovanie.fill-pacia-sa-mi-tvoje.why": {
+    "en": "Papuče is plural, so the verb is too: **Páčia** sa mi.",
+    "t": "Papuče მრავლობითია, ამიტომ ზმნაც: **Páčia** sa mi."
+  },
+  "a2-u3-opakovanie.build-na-silvester-ideme-k-nim.prompt": {
+    "en": "We're going to their place for New Year's Eve.",
+    "t": "ახალი წლის ღამეს მათთან მივდივართ."
+  },
+  "a2-u3-opakovanie.build-na-silvester-ideme-k-nim.traps": {
+    "en": [
+      "After a preposition, oni starts with n-: k **nim**.",
+      "K takes the dative, and after a preposition it's **nim**. Ich is the object form."
+    ],
+    "t": [
+      "წინდებულის შემდეგ oni n-ით იწყება: k **nim**.",
+      "K datív-ს მოითხოვს, წინდებულის შემდეგ კი ის **nim**-ია. Ich ობიექტის ფორმაა."
+    ]
+  },
+  "a2-u3-opakovanie.fill-emma-dakuje-lucii.en": {
+    "en": "Emma thanks Lucia for the invitation.",
+    "t": "ემა ლუციას მოწვევისთვის მადლობას უხდის."
+  },
+  "a2-u3-opakovanie.fill-emma-dakuje-lucii.why": {
+    "en": "Ďakovať takes the dative, and -ia becomes **-ii**: Luci**i**.",
+    "t": "Ďakovať datív-ს მოითხოვს, -ia კი ხდება **-ii**: Luci**i**."
+  },
+  "a2-u3-opakovanie.choice-babka-je-najstarsia.question": {
+    "en": "Which sentence is right?",
+    "t": "რომელი წინადადებაა სწორი?"
+  },
+  "a2-u3-opakovanie.choice-babka-je-najstarsia.why": {
+    "en": "Babka is a woman, so the superlative ends in **-ia**: **naj**staršia.",
+    "t": "ბებია ქალია, ამიტომ აღმატებითი ხარისხი **-ia**-ზე ბოლოვდება: **naj**staršia."
+  },
+  "a2-u3-opakovanie.fill-otec-nam-ide-naproti.en": {
+    "en": "Dad is coming to meet us at the station.",
+    "t": "მამა სადგურზე დაგვხვდება."
+  },
+  "a2-u3-opakovanie.fill-otec-nam-ide-naproti.why": {
+    "en": "Ísť niekomu naproti takes the dative: **nám** (to us). Nás is the object form.",
+    "t": "Ísť niekomu naproti datív-ს მოითხოვს: **nám** (ჩვენ). Nás ობიექტის ფორმაა."
+  },
+  "a2-u3-opakovanie.build-vdaka-mame-su-vianoce.answers": {
+    "en": [
+      "Thanks to Mum, Christmas at our place is lovely.",
+      "Thanks to Mum, Christmas is lovely at our place."
+    ],
+    "t": [
+      "დედის წყალობით ჩვენთან შობა მშვენიერია.",
+      "დედის წყალობით შობა ჩვენთან მშვენიერია.",
+      "დედის წყალობით ჩვენს სახლში შობა მშვენიერია.",
+      "დედის წყალობით შობა ჩვენთან ლამაზია."
+    ]
+  },
+  "a2-u3-opakovanie.build-vdaka-mame-su-vianoce.distractors": {
+    "en": [
+      "because",
+      "Dad"
+    ],
+    "t": [
+      "გამო",
+      "მამის"
+    ]
+  },
+  "a2-u3-opakovanie.fill-chutia-ti-oplatky.en": {
+    "en": "Do you like the Christmas wafers?",
+    "t": "საშობაო ვაფლები მოგწონს?"
+  },
+  "a2-u3-opakovanie.fill-chutia-ti-oplatky.why": {
+    "en": "With chutiť, the food is the subject, so it stays as it is: **oplátky**. That's why the verb is plural, chutia.",
+    "t": "chutiť-თან საჭმელი ქვემდებარეა, ამიტომ არ იცვლება: **oplátky**. ამიტომაა ზმნაც მრავლობითში: chutia."
+  },
+  "a2-u3-opakovanie.build-zelam-ti-vsetko-najlepsie.prompt": {
+    "en": "I wish you all the best for your name day.",
+    "t": "სახელობის დღესთან დაკავშირებით ყოველივე საუკეთესოს გისურვებ."
+  },
+  "a2-u3-opakovanie.build-zelam-ti-vsetko-najlepsie.traps": {
+    "en": [
+      "You wish something to someone, so it's the dative: **ti**.",
+      "**K** takes the dative: meniny → menin**ám**."
+    ],
+    "t": [
+      "რამეს ვინმეს უსურვებთ, ამიტომ datív-ია: **ti**.",
+      "**K** datív-ს მოითხოვს: meniny → menin**ám**."
+    ]
+  },
+  "a2-u3-opakovanie.choice-lucia-je-o-dva-roky.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "a2-u3-opakovanie.choice-lucia-je-o-dva-roky.options": {
+    "en": [
+      "Lucia is two years younger than Emma.",
+      "Lucia is two years older than Emma.",
+      "Emma is two years younger than Lucia."
+    ],
+    "t": [
+      "ლუცია ემაზე ორი წლით უმცროსია.",
+      "ლუცია ემაზე ორი წლით უფროსია.",
+      "ემა ლუციაზე ორი წლით უმცროსია."
+    ]
+  },
+  "a2-u3-opakovanie.choice-lucia-je-o-dva-roky.why": {
+    "en": "**Mladšia** means younger, and **o** dva roky says by how much.",
+    "t": "**Mladšia** ნიშნავს „უმცროსს“, **o** dva roky კი ამბობს, რამდენით (ორი წლით)."
+  },
+  "a2-u3-opakovanie.fill-kupim-to-svojmu-bratovi.en": {
+    "en": "I'll buy it for my brother.",
+    "t": "ამას ჩემს ძმას ვუყიდი."
+  },
+  "a2-u3-opakovanie.fill-kupim-to-svojmu-bratovi.why": {
+    "en": "Bratovi is masculine dative, so svoj takes **-mu**: svoj**mu** bratovi.",
+    "t": "Bratovi მამრობითი datív-ია, ამიტომ svoj **-mu**-ს იღებს: svoj**mu** bratovi."
+  },
+  "a2-u3-opakovanie.speak-vesele-vianoce-a-stastny.en": {
+    "en": "Merry Christmas and a happy New Year!",
+    "t": "გილოცავთ შობას და ახალ წელს!"
+  }
+}

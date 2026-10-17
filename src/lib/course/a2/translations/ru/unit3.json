@@ -1,0 +1,4364 @@
+{
+  "a2-u3.titleEn": {
+    "en": "Christmas in Žilina",
+    "t": "Рождество в Жилине"
+  },
+  "a2-u3.topics": {
+    "en": [
+      "Inviting and visiting",
+      "The family and relatives",
+      "Looks and character",
+      "Presents and shopping",
+      "Slovak Christmas and New Year",
+      "Wishes and congratulations"
+    ],
+    "t": [
+      "Приглашения и визиты",
+      "Семья и родственники",
+      "Внешность и характер",
+      "Подарки и покупки",
+      "Рождество и Новый год в Словакии",
+      "Пожелания и поздравления"
+    ]
+  },
+  "a2-u3.grammar": {
+    "en": [
+      "Comparatives and superlatives",
+      "The dative: nouns and adjectives",
+      "Dative pronouns and possessives",
+      "Verbs with the dative",
+      "Mám rád, páči sa mi, chutí mi",
+      "Prepositions with the dative"
+    ],
+    "t": [
+      "Сравнительная и превосходная степень",
+      "Дательный падеж: существительные и прилагательные",
+      "Дательный падеж местоимений и притяжательных слов",
+      "Глаголы с дательным падежом",
+      "Mám rád, páči sa mi, chutí mi",
+      "Предлоги с дательным падежом"
+    ]
+  },
+  "a2-u3-pozvanka.titleEn": {
+    "en": "An invitation for Christmas",
+    "t": "Приглашение на Рождество"
+  },
+  "a2-u3-pozvanka.na-vianoce.en": {
+    "en": "for Christmas, at Christmas",
+    "t": "на Рождество"
+  },
+  "a2-u3-pozvanka.na-vianoce.note": {
+    "en": "It's **advent**, the weeks before Christmas, and Emma isn't going home to Ireland this year. **Vianoce** is always plural: Vianoce sú v decembri.",
+    "t": "Сейчас **advent** — предрождественские недели, и в этом году Эмма не едет домой в Ирландию. **Vianoce** всегда во множественном числе, как «святки»: Vianoce sú v decembri."
+  },
+  "a2-u3-pozvanka.chces-prist-k-nam.en": {
+    "en": "Do you want to come to us for Christmas?",
+    "t": "Хочешь приехать к нам на Рождество?"
+  },
+  "a2-u3-pozvanka.chces-prist-k-nam.note": {
+    "en": "**k nám** = to our place. Lucia is inviting Emma home to her family in Žilina.",
+    "t": "**k nám** = к нам, как в русском. Луция приглашает Эмму домой, к своей семье в Жилину."
+  },
+  "a2-u3-pozvanka.choice-chces-prist-k-nam.question": {
+    "en": "What does Lucia mean?",
+    "t": "Что Луция имеет в виду?"
+  },
+  "a2-u3-pozvanka.choice-chces-prist-k-nam.options": {
+    "en": [
+      "Do you want to go home for Christmas?",
+      "Do you want to come to us for Christmas?",
+      "Do you want to come to the Christmas party?"
+    ],
+    "t": [
+      "Хочешь поехать домой на Рождество?",
+      "Хочешь приехать к нам на Рождество?",
+      "Хочешь прийти на рождественскую вечеринку?"
+    ]
+  },
+  "a2-u3-pozvanka.choice-chces-prist-k-nam.why": {
+    "en": "**k nám** means to our place: prísť k nám = to come to us. Going home would be ísť **domov**.",
+    "t": "**k nám** — это «к нам», к нам домой: prísť k nám = приехать к нам. Поехать домой было бы ísť **domov**."
+  },
+  "a2-u3-pozvanka.rada-pridem.en": {
+    "en": "I'd love to come! (a woman speaking)",
+    "t": "С радостью приду! (говорит женщина)"
+  },
+  "a2-u3-pozvanka.rada-pridem.note": {
+    "en": "**rád, rada** + a verb = glad to, happy to. Prídem points to the future, like kúpim: I'll come.",
+    "t": "**rád, rada** + глагол = «с радостью», как наше «рад». Prídem говорит о будущем, как kúpim: приду."
+  },
+  "a2-u3-pozvanka.fill-dakujem-za-pozvanie-rada.en": {
+    "en": "Thanks for the invitation. I'd love to come!",
+    "t": "Спасибо за приглашение. С радостью приду!"
+  },
+  "a2-u3-pozvanka.fill-dakujem-za-pozvanie-rada.why": {
+    "en": "Emma is talking about herself (ja), so the verb ends in **-m**: rada **prídem**. Prídeš goes with ty, príde with on or ona.",
+    "t": "Эмма говорит о себе (ja), поэтому глагол на **-m**: rada **prídem** (приду). Prídeš — с ty, príde — с on или ona."
+  },
+  "a2-u3-pozvanka.choice-mila-emma.question": {
+    "en": "Lucia writes Emma an e-mail. It starts “Dear Emma”. Which is right?",
+    "t": "Луция пишет Эмме письмо по электронной почте. Оно начинается словами «Дорогая Эмма». Как правильно?"
+  },
+  "a2-u3-pozvanka.choice-mila-emma.why": {
+    "en": "In letters and e-mails, **milý** (kind) means dear, and it agrees like any adjective: Emma is a woman, so **Milá** Emma. To Tomáš: Milý Tomáš.",
+    "t": "В письмах **milý** (милый) значит «дорогой» и согласуется, как любое прилагательное: Эмма — женщина, поэтому **Milá** Emma. Томашу: Milý Tomáš."
+  },
+  "a2-u3-pozvanka.build-lucia-ide-na-vianoce.prompt": {
+    "en": "Lucia is going home for Christmas.",
+    "t": "Луция едет домой на Рождество."
+  },
+  "a2-u3-pozvanka.build-lucia-ide-na-vianoce.traps": {
+    "en": [
+      "Going home answers “where to?”, so it's **domov**. Doma is being at home: Som doma.",
+      "Lucia is one person (ona), so ísť is **ide**. Idú is for oni."
+    ],
+    "t": [
+      "Ехать домой — это «куда?», поэтому **domov**, как «домой». Doma — «дома», где: Som doma.",
+      "Луция одна (ona), поэтому ísť — **ide** (едет). Idú — для oni."
+    ]
+  },
+  "a2-u3-pozvanka.silvester-a-novy-rok.en": {
+    "en": "New Year's Eve and New Year's Day",
+    "t": "канун Нового года и Новый год"
+  },
+  "a2-u3-pozvanka.silvester-a-novy-rok.note": {
+    "en": "**Silvester** is 31 December, named after the saint of that day; **Nový rok** is 1 January. Lucia invites Tomáš for Silvester too.",
+    "t": "**Silvester** — 31 декабря, по имени святого этого дня (Сильвестра); **Nový rok** — 1 января. На Silvester Луция приглашает и Томаша."
+  },
+  "a2-u3-pozvanka.build-dakujem-za-pozvanie-ale.prompt": {
+    "en": "Thanks for the invitation, but I can't come.",
+    "t": "Спасибо за приглашение, но я не могу прийти."
+  },
+  "a2-u3-pozvanka.build-dakujem-za-pozvanie-ale.traps": {
+    "en": [
+      "Tomáš is talking about himself (ja), so môcť is **nemôžem**. Nemôžeš goes with ty.",
+      "After nemôžem comes the infinitive, the -ť form: nemôžem **prísť**."
+    ],
+    "t": [
+      "Томаш говорит о себе (ja), поэтому môcť — **nemôžem** (не могу). Nemôžeš — с ty.",
+      "После nemôžem идёт инфинитив, форма на -ť: nemôžem **prísť**, как «не могу прийти»."
+    ]
+  },
+  "a2-u3-pozvanka.choice-tomas-nemoze-prist.question": {
+    "en": "Tomáš can't come for New Year's Eve: he'll be with his parents in Košice. What does Lucia say?",
+    "t": "Томаш не сможет прийти в новогоднюю ночь: он будет у родителей в Кошице. Что скажет Луция?"
+  },
+  "a2-u3-pozvanka.choice-tomas-nemoze-prist.why": {
+    "en": "**To je škoda!** (what a pity) is for news you're sorry to hear. Teší ma is for meeting someone.",
+    "t": "**To je škoda!** (как жаль!) говорят, когда новость огорчает. Teší ma — при знакомстве."
+  },
+  "a2-u3-pozvanka.fill-na-silvester-budem.en": {
+    "en": "I'll be in Košice on New Year's Eve.",
+    "t": "В новогоднюю ночь я буду в Кошице."
+  },
+  "a2-u3-pozvanka.fill-na-silvester-budem.why": {
+    "en": "New Year's Eve is still to come, so byť takes its future form: **budem**. Som is now, bol the past.",
+    "t": "Новогодняя ночь ещё впереди, поэтому byť в будущем времени: **budem** (буду). Som — сейчас, bol — в прошлом."
+  },
+  "a2-u3-pozvanka.build-tesim-sa-na-teba.prompt": {
+    "en": "I'm looking forward to seeing you!",
+    "t": "Жду встречи с тобой!"
+  },
+  "a2-u3-pozvanka.build-tesim-sa-na-teba.traps": {
+    "en": [
+      "After a preposition like na, a pronoun takes its long form: na **teba**. Ťa is the short form.",
+      "**Tešiť sa na** takes the object form, and its long form is **teba**."
+    ],
+    "t": [
+      "После предлога, например na, местоимение стоит в полной форме: na **teba**. Ťa — краткая форма.",
+      "**Tešiť sa na** требует винительного (на кого?), а его полная форма — **teba**. Tebe — это «тебе», дательный."
+    ]
+  },
+  "a2-u3-pozvanka.listen-na-vianoce-idem.en": {
+    "en": "I'm going home for Christmas.",
+    "t": "На Рождество я еду домой."
+  },
+  "a2-u3-pozvanka.speak-chces-prist-k-nam.en": {
+    "en": "Do you want to come to us for Christmas?",
+    "t": "Хочешь приехать к нам на Рождество?"
+  },
+  "a2-u3-rodina.titleEn": {
+    "en": "Lucia's family",
+    "t": "Семья Луции"
+  },
+  "a2-u3-rodina.babka-a-dedko.en": {
+    "en": "grandma and grandpa",
+    "t": "бабушка и дедушка"
+  },
+  "a2-u3-rodina.babka-a-dedko.note": {
+    "en": "Lucia is showing Emma photos of her family. Formally they're **stará mama** and **starý otec**, together the **starí rodičia** (grandparents). Babka Helena, Lucia's dad's mum, lives with the family.",
+    "t": "Луция показывает Эмме семейные фотографии. Официально это **stará mama** и **starý otec**, а вместе — **starí rodičia** (бабушка и дедушка). Бабушка Гелена, мама Луциного папы, живёт с семьёй. Babka — ласковое слово, как «бабушка»."
+  },
+  "a2-u3-rodina.ujo-a-teta.en": {
+    "en": "uncle and aunt",
+    "t": "дядя и тётя"
+  },
+  "a2-u3-rodina.ujo-a-teta.note": {
+    "en": "Ujo Pavol is Lucia's mum's brother, and teta Mirka is his wife. A dad's brother is properly **strýko**, but many Slovaks say ujo for both.",
+    "t": "Дядя Павол — брат Луциной мамы, а тётя Мирка — его жена. Брат отца правильно называется **strýko**, но многие словаки говорят ujo о любом дяде."
+  },
+  "a2-u3-rodina.match-babka.pairs": {
+    "en": [
+      "grandma",
+      "grandpa",
+      "uncle",
+      "aunt",
+      "grandparents"
+    ],
+    "t": [
+      "бабушка",
+      "дедушка",
+      "дядя",
+      "тётя",
+      "бабушка и дедушка"
+    ]
+  },
+  "a2-u3-rodina.fill-ujo-pavol-je-mamin.en": {
+    "en": "Uncle Pavol is Mum's brother.",
+    "t": "Дядя Павол — мамин брат."
+  },
+  "a2-u3-rodina.fill-ujo-pavol-je-mamin.why": {
+    "en": "**Mamin** (Mum's) is made like Luciin: mama drops -a and adds -in. Brat is masculine, so no ending: **mamin** brat. Mamina goes with a feminine word.",
+    "t": "**Mamin** образуется точно как «мамин»: mama без -a + -in. Brat — мужского рода, поэтому без окончания: **mamin** brat. Mamina — с женским родом, как «мамина»."
+  },
+  "a2-u3-rodina.bratranec-a-sesternica.en": {
+    "en": "cousin (a boy, a girl)",
+    "t": "двоюродный брат, двоюродная сестра"
+  },
+  "a2-u3-rodina.bratranec-a-sesternica.note": {
+    "en": "Samko, the son of ujo Pavol and teta Mirka, is Lucia's **bratranec**. He's eight.",
+    "t": "Самко, сын дяди Павола и тёти Мирки, — Луцин **bratranec**. Ему восемь лет."
+  },
+  "a2-u3-rodina.fill-samko-je-luciin.en": {
+    "en": "Samko is Lucia's cousin.",
+    "t": "Самко — двоюродный брат Луции."
+  },
+  "a2-u3-rodina.fill-samko-je-luciin.why": {
+    "en": "Samko is the son of Lucia's uncle, so he's her cousin, and a boy: **bratranec**. A girl cousin is a sesternica.",
+    "t": "Самко — сын Луциного дяди, то есть её двоюродный брат: **bratranec**. Двоюродная сестра — sesternica, а brat — родной брат."
+  },
+  "a2-u3-rodina.vnuk-a-vnucka.en": {
+    "en": "grandson and granddaughter",
+    "t": "внук и внучка"
+  },
+  "a2-u3-rodina.vnuk-a-vnucka.note": {
+    "en": "Lucia is babka Helena's **vnučka**, and Marek is her **vnuk**. Grandchildren together: **vnúčatá**.",
+    "t": "Луция — **vnučka** бабушки Гелены, а Марек — её **vnuk**. Внуки вместе — **vnúčatá** (ср. «внучата»)."
+  },
+  "a2-u3-rodina.synovec-a-neter.en": {
+    "en": "nephew and niece",
+    "t": "племянник и племянница"
+  },
+  "a2-u3-rodina.synovec-a-neter.note": {
+    "en": "To ujo Pavol, Lucia is a **neter**. To Lucia's mum, Samko is a **synovec**.",
+    "t": "Для дяди Павола Луция — **neter**. Для Луциной мамы Самко — **synovec**."
+  },
+  "a2-u3-rodina.choice-kto-je-samko-mame.question": {
+    "en": "Samko is the son of Lucia's mum's brother. What is he to Lucia's mum?",
+    "t": "Самко — сын брата Луциной мамы. Кем он приходится Луциной маме?"
+  },
+  "a2-u3-rodina.choice-kto-je-samko-mame.why": {
+    "en": "The son of your brother or sister is your **synovec** (nephew). To Lucia he's a bratranec, a cousin; a vnuk is a grandson.",
+    "t": "Сын брата или сестры — **synovec** (племянник). Для Луции он bratranec, двоюродный брат, а vnuk — это внук."
+  },
+  "a2-u3-rodina.build-babka-helena-je-otcova.prompt": {
+    "en": "Grandma Helena is Dad's mum.",
+    "t": "Бабушка Гелена — папина мама."
+  },
+  "a2-u3-rodina.build-babka-helena-je-otcova.traps": {
+    "en": [
+      "**Otcov** (Dad's) agrees with mama, a feminine word, so it adds **-a**: otcov**a** mama.",
+      "Mamina means Mum's. Babka Helena is Dad's mum: otec drops its e and adds -ov, **otcova**."
+    ],
+    "t": [
+      "**Otcov** (папин) согласуется с mama, словом женского рода, поэтому добавляется **-a**: otcov**a** mama, как «папина мама».",
+      "Mamina — «мамина». А бабушка Гелена — папина мама: otec теряет e и получает -ov, **otcova**."
+    ]
+  },
+  "a2-u3-rodina.pribuzny.en": {
+    "en": "relative",
+    "t": "родственник"
+  },
+  "a2-u3-rodina.pribuzny.note": {
+    "en": "Plural: **príbuzní**. Na Vianoce prídu príbuzní. = Relatives are coming for Christmas.",
+    "t": "Множественное число — **príbuzní**. Na Vianoce prídu príbuzní. = На Рождество приедут родственники."
+  },
+  "a2-u3-rodina.build-lucia-je-babkina.answers": {
+    "en": [
+      "Lucia is Grandma's granddaughter and Marek is her grandson."
+    ],
+    "t": [
+      "Луция — бабушкина внучка, а Марек — её внук.",
+      "Луция — внучка бабушки, а Марек — её внук."
+    ]
+  },
+  "a2-u3-rodina.build-lucia-je-babkina.distractors": {
+    "en": [
+      "niece",
+      "his"
+    ],
+    "t": [
+      "племянница",
+      "его"
+    ]
+  },
+  "a2-u3-rodina.matka-mama-mamka.en": {
+    "en": "mother, mum, mummy",
+    "t": "мать, мама, мамочка"
+  },
+  "a2-u3-rodina.matka-mama-mamka.note": {
+    "en": "**Matka** is formal, for forms and the news; at home it's **mama** or **mamka**. Dad is **otec**, and daddy **ocko**.",
+    "t": "**Matka** — официальное слово, для анкет и новостей; дома говорят **mama** или **mamka**. Отец — **otec**, а папочка — **ocko**."
+  },
+  "a2-u3-rodina.choice-formal-matka.question": {
+    "en": "Lucia is filling in a form. Which word for “mother” does the form use?",
+    "t": "Луция заполняет анкету. Какое слово для «мать» стоит в анкете?"
+  },
+  "a2-u3-rodina.choice-formal-matka.why": {
+    "en": "**Matka** is the formal word, the one on forms. Mamka is what you call your mum at home, and ocko means daddy.",
+    "t": "**Matka** — официальное слово, как «мать» в анкете. Mamka — так зовут маму дома, а ocko — это «папочка»."
+  },
+  "a2-u3-rodina.build-ocko-kde-je-mamka.answers": {
+    "en": [
+      "Daddy, where's Mummy?",
+      "Daddy, where is Mummy?"
+    ],
+    "t": [
+      "Папочка, где мамочка?",
+      "Папа, где мама?",
+      "Пап, где мама?"
+    ]
+  },
+  "a2-u3-rodina.build-ocko-kde-je-mamka.distractors": {
+    "en": [
+      "Grandma",
+      "who"
+    ],
+    "t": [
+      "бабушка",
+      "кто"
+    ]
+  },
+  "a2-u3-rodina.fill-moji-rodicia-byvaju.en": {
+    "en": "My parents live in Žilina.",
+    "t": "Мои родители живут в Жилине."
+  },
+  "a2-u3-rodina.fill-moji-rodicia-byvaju.why": {
+    "en": "Rodičia is plural (oni), so the verb ends in **-ajú**: bývajú. Býva is for one person, bývam for ja.",
+    "t": "Rodičia — множественное число (oni), поэтому глагол на **-ajú**: bývajú (живут). Býva — для одного человека, bývam — для ja."
+  },
+  "a2-u3-rodina.build-mam-velku-rodinu.prompt": {
+    "en": "I have a big family.",
+    "t": "У меня большая семья."
+  },
+  "a2-u3-rodina.build-mam-velku-rodinu.traps": {
+    "en": [
+      "The family is what you have, the object, so the adjective changes -á to **-ú**: veľk**ú**.",
+      "As the object, rodina changes -a to **-u**: mám **rodinu**."
+    ],
+    "t": [
+      "Семья — то, что у вас есть, дополнение к mám, поэтому прилагательное меняет -á на **-ú**: veľk**ú**.",
+      "В роли дополнения rodina меняет -a на **-u**: mám **rodinu**. По-русски «у меня семья», а по-словацки «имею семью»."
+    ]
+  },
+  "a2-u3-rodina.speak-otec-pracuje.en": {
+    "en": "Dad works as a driver.",
+    "t": "Папа работает водителем."
+  },
+  "a2-u3-vyzor.titleEn": {
+    "en": "What does he look like?",
+    "t": "Как он выглядит?"
+  },
+  "a2-u3-vyzor.ako-vyzera.en": {
+    "en": "What does he (she) look like?",
+    "t": "Как он (она) выглядит?"
+  },
+  "a2-u3-vyzor.ako-vyzera.note": {
+    "en": "**vyzerať** = to look (like): vyzerám, vyzeráš, vyzerá… Your face is your **tvár**.",
+    "t": "**vyzerať** = выглядеть: vyzerám, vyzeráš, vyzerá… Лицо — **tvár**."
+  },
+  "a2-u3-vyzor.fuzy.en": {
+    "en": "moustache",
+    "t": "усы"
+  },
+  "a2-u3-vyzor.fuzy.note": {
+    "en": "Always plural, like vlasy: Pán Kováč má sivé **fúzy**. (**sivý** = grey)",
+    "t": "Всегда во множественном числе, как «усы» и vlasy: Pán Kováč má sivé **fúzy**. (**sivý** = седой, серый; ср. «сивый»)"
+  },
+  "a2-u3-vyzor.fill-lucia-ma-dlhe.en": {
+    "en": "Lucia has long dark hair and wears glasses.",
+    "t": "У Луции длинные тёмные волосы, и она носит очки."
+  },
+  "a2-u3-vyzor.fill-tomas-ma-ciernu.en": {
+    "en": "Tomáš has a short black beard.",
+    "t": "У Томаша короткая чёрная борода."
+  },
+  "a2-u3-vyzor.fill-tomas-ma-ciernu.why": {
+    "en": "The beard is what Tomáš has, the object, so brada changes -a to **-u**, and its adjectives -á to -ú: krátk**u** čiern**u** brad**u**.",
+    "t": "Борода — то, что у Томаша есть, дополнение, поэтому brada меняет -a на **-u**, а прилагательные — -á на -ú: krátk**u** čiern**u** brad**u**, как «короткую чёрную бороду»."
+  },
+  "a2-u3-vyzor.nizky.en": {
+    "en": "short (not tall), low",
+    "t": "невысокий, низкий"
+  },
+  "a2-u3-vyzor.nizky.note": {
+    "en": "The opposite of **vysoký** (tall): Babka je **nízka**, ale Marek je vysoký.",
+    "t": "Противоположное — **vysoký** (высокий): Babka je **nízka**, ale Marek je vysoký."
+  },
+  "a2-u3-vyzor.stihly.en": {
+    "en": "slim",
+    "t": "стройный"
+  },
+  "a2-u3-vyzor.stihly.note": {
+    "en": "The opposite, **tučný** (fat), isn't polite about people: Ten kapor je veľký a tučný! Your build is your **postava**: Má štíhlu postavu.",
+    "t": "Противоположное, **tučný** (толстый; ср. «тучный»), о людях звучит невежливо: Ten kapor je veľký a tučný! Фигура — **postava**: Má štíhlu postavu."
+  },
+  "a2-u3-vyzor.choice-ujo-pavol-je-vysoky.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u3-vyzor.choice-ujo-pavol-je-vysoky.options": {
+    "en": [
+      "Uncle Pavol is tall and has a beard.",
+      "Uncle Pavol is short and has a beard.",
+      "Uncle Pavol is tall and wears glasses."
+    ],
+    "t": [
+      "Дядя Павол высокий, у него борода.",
+      "Дядя Павол невысокий, у него борода.",
+      "Дядя Павол высокий и носит очки."
+    ]
+  },
+  "a2-u3-vyzor.fill-babka-je-nizka.en": {
+    "en": "Grandma is short and slim.",
+    "t": "Бабушка невысокая и стройная."
+  },
+  "a2-u3-vyzor.fill-babka-je-nizka.why": {
+    "en": "Babka is feminine: **nízka**. The ending is a short -a, not -á, because the syllable before it is long (í), and Slovak avoids two long syllables in a row.",
+    "t": "Babka — женского рода: **nízka**. Окончание краткое -a, а не -á: слог перед ним уже долгий (í), а словацкий избегает двух долгих слогов подряд."
+  },
+  "a2-u3-vyzor.kuceravy.en": {
+    "en": "curly",
+    "t": "кудрявый"
+  },
+  "a2-u3-vyzor.kuceravy.note": {
+    "en": "Marek má krátke **kučeravé** vlasy. Red hair is **ryšavé** vlasy; fair hair is **blond**, which never changes its ending.",
+    "t": "Marek má krátke **kučeravé** vlasy. Рыжие волосы — **ryšavé** vlasy; светлые — **blond**, это слово никогда не меняет окончания."
+  },
+  "a2-u3-vyzor.build-kto-je-ten-pan.prompt": {
+    "en": "Who's that man with the beard?",
+    "t": "Кто этот мужчина с бородой?"
+  },
+  "a2-u3-vyzor.build-kto-je-ten-pan.traps": {
+    "en": [
+      "After **s** (with) comes the instrumental: brada → s brad**ou**.",
+      "Pán is masculine, so “that” is **ten**. Tá goes with feminine words: tá pani."
+    ],
+    "t": [
+      "После **s** (с) идёт творительный падеж: brada → s brad**ou**, как «с бородой».",
+      "Pán — мужского рода, поэтому «этот» — **ten**. Tá — с женским родом: tá pani."
+    ]
+  },
+  "a2-u3-vyzor.fill-ta-pani-s-rysavymi.en": {
+    "en": "Who's that lady with the red hair?",
+    "t": "Кто эта женщина с рыжими волосами?"
+  },
+  "a2-u3-vyzor.fill-ta-pani-s-rysavymi.why": {
+    "en": "After **s** (with), plural words take the instrumental, and adjectives end in **-ými**: s ryšav**ými** vlasmi.",
+    "t": "После **s** (с) множественное число стоит в творительном, а прилагательные оканчиваются на **-ými**: s ryšav**ými** vlasmi, как «с рыжими волосами»."
+  },
+  "a2-u3-vyzor.match-vlasy.pairs": {
+    "en": [
+      "hair",
+      "eyes",
+      "beard",
+      "face",
+      "figure, build"
+    ],
+    "t": [
+      "волосы",
+      "глаза",
+      "борода",
+      "лицо",
+      "фигура"
+    ]
+  },
+  "a2-u3-vyzor.build-marek-ma-kratke.answers": {
+    "en": [
+      "Marek has short curly hair."
+    ],
+    "t": [
+      "У Марека короткие кудрявые волосы.",
+      "У Марека кудрявые короткие волосы."
+    ]
+  },
+  "a2-u3-vyzor.build-marek-ma-kratke.distractors": {
+    "en": [
+      "long",
+      "red"
+    ],
+    "t": [
+      "длинные",
+      "рыжие"
+    ]
+  },
+  "a2-u3-vyzor.choice-liam-je-vysoky.question": {
+    "en": "Emma's brother Liam is fifteen, tall and slim. Which sentence says so?",
+    "t": "Брату Эммы, Лиаму, пятнадцать лет, он высокий и стройный. Какое предложение подходит?"
+  },
+  "a2-u3-vyzor.speak-ako-vyzera-tvoj.en": {
+    "en": "What does your cousin look like?",
+    "t": "Как выглядит твой двоюродный брат?"
+  },
+  "a2-u3-povaha.titleEn": {
+    "en": "What's Uncle Pavol like?",
+    "t": "Какой он, дядя Павол?"
+  },
+  "a2-u3-povaha.vazny-a-vtipny.en": {
+    "en": "serious and funny",
+    "t": "серьёзный и остроумный"
+  },
+  "a2-u3-povaha.vazny-a-vtipny.note": {
+    "en": "Ujo Pavol is never **vážny**: he's vtipný and tells jokes all evening. **Taký, taká, také** = so, such: Prečo si dnes taký vážny?",
+    "t": "Дядя Павол никогда не бывает **vážny** (это «серьёзный», а не «важный»!): он vtipný и весь вечер рассказывает анекдоты. **Taký, taká, také** = такой: Prečo si dnes taký vážny?"
+  },
+  "a2-u3-povaha.smiat-sa.en": {
+    "en": "to laugh",
+    "t": "смеяться"
+  },
+  "a2-u3-povaha.smiat-sa.note": {
+    "en": "smejem sa, smeješ sa, smeje sa… Ujo Pavol sa veľa **smeje**. Laughter is **smiech**.",
+    "t": "smejem sa, smeješ sa, smeje sa… Ujo Pavol sa veľa **smeje**. Смех — **smiech**."
+  },
+  "a2-u3-povaha.fill-babka-je-ticha.en": {
+    "en": "Grandma is quiet and kind.",
+    "t": "Бабушка тихая и милая."
+  },
+  "a2-u3-povaha.fill-babka-je-ticha.why": {
+    "en": "Babka is feminine, so the adjective ends in **-á**: tich**á**, like mil**á**.",
+    "t": "Babka — женского рода, поэтому прилагательное на **-á**: tich**á**, как и mil**á**."
+  },
+  "a2-u3-povaha.hlucny.en": {
+    "en": "loud, noisy",
+    "t": "шумный, громкий"
+  },
+  "a2-u3-povaha.hlucny.note": {
+    "en": "The opposite of **tichý** (quiet). Pán Kováč nemá rád **hlučnú** hudbu. = Mr Kováč doesn't like loud music.",
+    "t": "Противоположное — **tichý** (тихий). Pán Kováč nemá rád **hlučnú** hudbu. = Пан Ковач не любит громкую музыку."
+  },
+  "a2-u3-povaha.build-samko-nie-je-hanblivy.prompt": {
+    "en": "Samko isn't shy, he's very loud.",
+    "t": "Самко не стеснительный, он очень шумный."
+  },
+  "a2-u3-povaha.build-samko-nie-je-hanblivy.traps": {
+    "en": [
+      "Samko is a boy, so the adjective ends in **-ý**: hanblivý. Hanblivá is for a woman or a girl.",
+      "Loud is **hlučný**. Tichý means quiet, the opposite."
+    ],
+    "t": [
+      "Самко — мальчик, поэтому прилагательное на **-ý**: hanblivý. Hanblivá — о женщине или девочке.",
+      "«Шумный» — **hlučný**. Tichý — «тихий», противоположное."
+    ]
+  },
+  "a2-u3-povaha.choice-marek-je-pracovity.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u3-povaha.choice-marek-je-pracovity.options": {
+    "en": [
+      "Marek works hard, he isn't lazy.",
+      "Marek is lazy, he doesn't work.",
+      "Marek is tired after work."
+    ],
+    "t": [
+      "Марек трудолюбивый, он не ленивый.",
+      "Марек ленивый, он не работает.",
+      "Марек устал после работы."
+    ]
+  },
+  "a2-u3-povaha.pokojny.en": {
+    "en": "calm",
+    "t": "спокойный"
+  },
+  "a2-u3-povaha.pokojny.note": {
+    "en": "Someone lively and hot-tempered is **temperamentný**: Teta Mirka je temperamentná, ujo Pavol je pokojný.",
+    "t": "Живой и вспыльчивый человек — **temperamentný** (темпераментный): Teta Mirka je temperamentná, ujo Pavol je pokojný."
+  },
+  "a2-u3-povaha.fill-teta-a-ujo-su.en": {
+    "en": "Aunt Mirka and Uncle Pavol are very friendly.",
+    "t": "Тётя Мирка и дядя Павол очень дружелюбные."
+  },
+  "a2-u3-povaha.fill-teta-a-ujo-su.why": {
+    "en": "A woman and a man together count as men, so the adjective takes the men's plural **-í**: priateľsk**í**.",
+    "t": "Женщина и мужчина вместе считаются как мужчины, поэтому прилагательное получает мужское окончание множественного числа **-í**: priateľsk**í**."
+  },
+  "a2-u3-povaha.match-vazny.pairs": {
+    "en": [
+      "serious",
+      "quiet",
+      "shy",
+      "lazy",
+      "calm"
+    ],
+    "t": [
+      "серьёзный",
+      "тихий",
+      "стеснительный",
+      "ленивый",
+      "спокойный"
+    ]
+  },
+  "a2-u3-povaha.fill-preco-si-taky.en": {
+    "en": "Why are you so serious, Samko?",
+    "t": "Почему ты такой серьёзный, Самко?"
+  },
+  "a2-u3-povaha.fill-preco-si-taky.why": {
+    "en": "**Taký** (so) changes like an adjective. Samko is a boy, so it's tak**ý**, like vážn**y**.",
+    "t": "**Taký** (такой) меняется, как прилагательное. Самко — мальчик, поэтому tak**ý**, как vážn**y**."
+  },
+  "a2-u3-povaha.fill-teta-mirka-sa-smeje.en": {
+    "en": "Aunt Mirka is cheerful and laughs a lot.",
+    "t": "Тётя Мирка весёлая и много смеётся."
+  },
+  "a2-u3-povaha.fill-teta-mirka-sa-smeje.why": {
+    "en": "Teta Mirka is ona, so the verb has no ending: **smeje** sa. Smejem goes with ja, smejú with oni.",
+    "t": "Тётя Мирка — ona, поэтому у глагола нет окончания: **smeje** sa (смеётся). Smejem — с ja, smejú — с oni."
+  },
+  "a2-u3-povaha.choice-teta-mirka-je.question": {
+    "en": "Teta Mirka laughs a lot, talks fast and is full of energy. Which word fits her?",
+    "t": "Тётя Мирка много смеётся, быстро говорит и полна энергии. Какое слово ей подходит?"
+  },
+  "a2-u3-povaha.build-preco-si-taka-smutna.prompt": {
+    "en": "Why are you so sad, Lucia?",
+    "t": "Почему ты такая грустная, Луция?"
+  },
+  "a2-u3-povaha.build-preco-si-taka-smutna.traps": {
+    "en": [
+      "Lucia is a woman, so taký takes the feminine ending: **taká**, like smutná.",
+      "Lucia is a woman, so the adjective ends in **-á**: smutn**á**."
+    ],
+    "t": [
+      "Луция — женщина, поэтому taký в женском роде: **taká**, как smutná.",
+      "Луция — женщина, поэтому прилагательное на **-á**: smutn**á** (грустная, а не «смутная»)."
+    ]
+  },
+  "a2-u3-povaha.build-ujo-pavol-je-vtipny.answers": {
+    "en": [
+      "Uncle Pavol is very funny and good fun.",
+      "Uncle Pavol is very funny and fun."
+    ],
+    "t": [
+      "Дядя Павол очень остроумный и весёлый.",
+      "Дядя Павол очень смешной и весёлый.",
+      "Дядя Павол очень весёлый и остроумный."
+    ]
+  },
+  "a2-u3-povaha.build-ujo-pavol-je-vtipny.distractors": {
+    "en": [
+      "serious",
+      "quiet"
+    ],
+    "t": [
+      "серьёзный",
+      "тихий"
+    ]
+  },
+  "a2-u3-povaha.speak-ujo-pavol-je-vtipny.en": {
+    "en": "Uncle Pavol is very funny.",
+    "t": "Дядя Павол очень остроумный."
+  },
+  "a2-u3-starsi.titleEn": {
+    "en": "Older than me",
+    "t": "Старше меня"
+  },
+  "a2-u3-starsi.grammar-comparative.title": {
+    "en": "Older, quieter: the comparative",
+    "t": "Старше, тише: сравнительная степень"
+  },
+  "a2-u3-starsi.grammar-comparative.body": {
+    "en": [
+      "To compare, add **-ší** when one consonant comes before the ending: mlad-ý → mlad**ší**, tich-ý → tich**ší** (ch is one letter). After two or more, add **-ejší**: siln-ý → siln**ejší**, vážn-y → vážn**ejší**.",
+      "Adjectives in -ký and -oký drop the k (or ok), and s, z become š, ž: vysoký → vy**šší**, nízky → ni**žší**.",
+      "The endings: **-í** for him, **-ia** for her, **-ie** for it: starš**í** brat, starš**ia** sestra, starš**ie** dieťa."
+    ],
+    "t": [
+      "Чтобы сравнить, добавьте **-ší**, если перед окончанием одна согласная: mlad-ý → mlad**ší**, tich-ý → tich**ší** (ch — одна буква). Если согласных две или больше — **-ejší**: siln-ý → siln**ejší**, vážn-y → vážn**ejší**. Это не «сильнейший», а просто «сильнее».",
+      "У прилагательных на -ký и -oký k (или ok) выпадает, а s, z становятся š, ž: vysoký → vy**šší**, nízky → ni**žší** (ср. «высший, низший»).",
+      "Окончания: **-í** — мужской род, **-ia** — женский, **-ie** — средний: starš**í** brat, starš**ia** sestra, starš**ie** dieťa. Похоже на «старший брат, старшая сестра», но значит «старше»."
+    ]
+  },
+  "a2-u3-starsi.grammar-comparative.table.head": {
+    "en": [
+      "adjective",
+      "comparative"
+    ],
+    "t": [
+      "прилагательное",
+      "сравнительная степень"
+    ]
+  },
+  "a2-u3-starsi.grammar-comparative.table.rows": {
+    "en": [
+      [
+        "mladý",
+        "mlad**ší**"
+      ],
+      [
+        "starý",
+        "star**ší**"
+      ],
+      [
+        "tichý",
+        "tich**ší**"
+      ],
+      [
+        "silný",
+        "siln**ejší**"
+      ],
+      [
+        "vážny",
+        "vážn**ejší**"
+      ],
+      [
+        "vysoký",
+        "vy**šší**"
+      ],
+      [
+        "nízky",
+        "ni**žší**"
+      ]
+    ],
+    "t": [
+      [
+        "mladý",
+        "mlad**ší**"
+      ],
+      [
+        "starý",
+        "star**ší**"
+      ],
+      [
+        "tichý",
+        "tich**ší**"
+      ],
+      [
+        "silný",
+        "siln**ejší**"
+      ],
+      [
+        "vážny",
+        "vážn**ejší**"
+      ],
+      [
+        "vysoký",
+        "vy**šší**"
+      ],
+      [
+        "nízky",
+        "ni**žší**"
+      ]
+    ]
+  },
+  "a2-u3-starsi.grammar-comparative.examples": {
+    "en": [
+      "Marek is older.",
+      "Lucia is younger.",
+      "Grandma is quieter."
+    ],
+    "t": [
+      "Марек старше.",
+      "Луция младше.",
+      "Бабушка тише."
+    ]
+  },
+  "a2-u3-starsi.grammar-ako-nez.title": {
+    "en": "Than: ako or než",
+    "t": "Чем: ako или než"
+  },
+  "a2-u3-starsi.grammar-ako-nez.body": {
+    "en": [
+      "“Than” is **ako** or **než**. Both are right; ako is more common: Marek je starší **ako** Lucia.",
+      "To say by how much, use **o** and the object form: Marek je **o** deväť rokov starší. Emma je staršia **o** dva roky."
+    ],
+    "t": [
+      "«Чем» — это **ako** или **než** (ср. «нежели»). Правильно и то и другое, но ako встречается чаще: Marek je starší **ako** Lucia. Родительный, как в «старше Луции», здесь не используется.",
+      "Разницу передаёт **o** + винительный, а не «на», как в русском: Marek je **o** deväť rokov starší (на девять лет старше). Emma je staršia **o** dva roky."
+    ]
+  },
+  "a2-u3-starsi.grammar-ako-nez.examples": {
+    "en": [
+      "Emma is older than Lucia.",
+      "Tomáš is taller than Marek.",
+      "Marek is nine years older than Lucia."
+    ],
+    "t": [
+      "Эмма старше Луции.",
+      "Томаш выше Марека.",
+      "Марек на девять лет старше Луции."
+    ]
+  },
+  "a2-u3-starsi.fill-marek-je-starsi.en": {
+    "en": "Marek is older than Lucia.",
+    "t": "Марек старше Луции."
+  },
+  "a2-u3-starsi.fill-marek-je-starsi.why": {
+    "en": "Marek is a man, so the comparative ends in **-í**: starš**í**. Staršia is for a woman, staršie for a thing.",
+    "t": "Марек — мужчина, поэтому сравнительная степень на **-í**: starš**í**. Staršia — для женщины, staršie — для среднего рода."
+  },
+  "a2-u3-starsi.fill-lucia-je-mladsia.en": {
+    "en": "Lucia is younger than Marek.",
+    "t": "Луция младше Марека."
+  },
+  "a2-u3-starsi.fill-lucia-je-mladsia.why": {
+    "en": "Lucia is a woman, so the comparative ends in **-ia**: mladš**ia**.",
+    "t": "Луция — женщина, поэтому сравнительная степень на **-ia**: mladš**ia**."
+  },
+  "a2-u3-starsi.build-emma-je-starsia.prompt": {
+    "en": "Emma is older than Lucia.",
+    "t": "Эмма старше Луции."
+  },
+  "a2-u3-starsi.build-emma-je-starsia.traps": {
+    "en": [
+      "Emma is a woman, so the comparative ends in **-ia**: starš**ia**.",
+      "Older is **staršia**, from starý. Mladšia means younger."
+    ],
+    "t": [
+      "Эмма — женщина, поэтому сравнительная степень на **-ia**: starš**ia**.",
+      "«Старше» — **staršia**, от starý. Mladšia — «младше»."
+    ]
+  },
+  "a2-u3-starsi.fill-babka-je-tichsia.en": {
+    "en": "Grandma is quieter than Samko.",
+    "t": "Бабушка тише, чем Самко."
+  },
+  "a2-u3-starsi.fill-babka-je-tichsia.why": {
+    "en": "Tichý has one consonant (ch) before the ending, so it takes **-ší**, and babka is a woman: tich**šia**.",
+    "t": "У tichý перед окончанием одна согласная (ch), поэтому **-ší**, а бабушка — женщина: tich**šia**."
+  },
+  "a2-u3-starsi.fill-samko-je-hlucnejsi.en": {
+    "en": "Samko is louder than Lucia.",
+    "t": "Самко шумнее Луции."
+  },
+  "a2-u3-starsi.fill-samko-je-hlucnejsi.why": {
+    "en": "Hlučný has two consonants (čn) before the ending, so it takes **-ejší**, and Samko is a boy: hlučn**ejší**.",
+    "t": "У hlučný перед окончанием две согласные (čn), поэтому **-ejší**, а Самко — мальчик: hlučn**ejší**."
+  },
+  "a2-u3-starsi.choice-marek-o-devat-rokov.question": {
+    "en": "Marek is 28 and Lucia is 19. Which is true?",
+    "t": "Мареку 28 лет, а Луции 19. Что верно?"
+  },
+  "a2-u3-starsi.choice-marek-o-devat-rokov.why": {
+    "en": "Marek is the elder, so he's **starší**, and **o** deväť rokov says by how much.",
+    "t": "Марек старше, поэтому он **starší**, а **o** deväť rokov говорит, на сколько: на девять лет."
+  },
+  "a2-u3-starsi.fill-emma-je-o-dva-roky.en": {
+    "en": "Emma is two years older than Lucia.",
+    "t": "Эмма на два года старше Луции."
+  },
+  "a2-u3-starsi.fill-emma-je-o-dva-roky.why": {
+    "en": "By how much is **o** + the object form: **o** dva roky.",
+    "t": "Разница — **o** + винительный: **o** dva roky. По-русски «на два года», но na здесь не подходит."
+  },
+  "a2-u3-starsi.build-tomas-je-o-dva-roky.prompt": {
+    "en": "Tomáš is two years older than Marek.",
+    "t": "Томаш на два года старше Марека."
+  },
+  "a2-u3-starsi.build-tomas-je-o-dva-roky.traps": {
+    "en": [
+      "Tomáš is a man, so the comparative ends in **-í**: starš**í**.",
+      "By how much is **o**: o dva roky."
+    ],
+    "t": [
+      "Томаш — мужчина, поэтому сравнительная степень на **-í**: starš**í**.",
+      "Разница — это **o**, а не na, как в «на два года»: o dva roky."
+    ]
+  },
+  "a2-u3-starsi.fill-tomas-je-vyssi.en": {
+    "en": "Tomáš is taller than Marek.",
+    "t": "Томаш выше Марека."
+  },
+  "a2-u3-starsi.fill-tomas-je-vyssi.why": {
+    "en": "Vysoký drops -ok- and s becomes š: vy**šší**. Tomáš is a man, so it ends in -í.",
+    "t": "У vysoký выпадает -ok-, а s становится š: vy**šší** (ср. «высший»). Томаш — мужчина, поэтому на -í."
+  },
+  "a2-u3-starsi.build-vlak-je-rychlejsi.answers": {
+    "en": [
+      "The train is faster than the bus.",
+      "A train is faster than a bus."
+    ],
+    "t": [
+      "Поезд быстрее автобуса.",
+      "Поезд быстрее, чем автобус.",
+      "Поезд едет быстрее автобуса."
+    ]
+  },
+  "a2-u3-starsi.build-vlak-je-rychlejsi.distractors": {
+    "en": [
+      "slower",
+      "cheaper"
+    ],
+    "t": [
+      "медленнее",
+      "дешевле"
+    ]
+  },
+  "a2-u3-starsi.match-starsi.pairs": {
+    "en": [
+      "older",
+      "younger",
+      "taller",
+      "quieter",
+      "more serious"
+    ],
+    "t": [
+      "старше",
+      "младше",
+      "выше",
+      "тише",
+      "серьёзнее"
+    ]
+  },
+  "a2-u3-starsi.speak-marek-je-starsi.en": {
+    "en": "Marek is older than me.",
+    "t": "Марек старше меня."
+  },
+  "a2-u3-darceky.titleEn": {
+    "en": "Christmas presents",
+    "t": "Рождественские подарки"
+  },
+  "a2-u3-darceky.roman-a-detektivka.en": {
+    "en": "a novel and a detective story",
+    "t": "роман и детектив"
+  },
+  "a2-u3-darceky.roman-a-detektivka.note": {
+    "en": "Emma and Lucia are buying presents. Lucia's mum loves **detektívky**, babka likes **romány**, and Dad likes **ľudová hudba**, folk music.",
+    "t": "Эмма и Луция покупают подарки. Мама Луции обожает **detektívky**, бабушка любит **romány**, а папа любит народную музыку — **ľudová hudba**."
+  },
+  "a2-u3-darceky.fill-ten-roman-je-pre.en": {
+    "en": "That novel is for Grandma.",
+    "t": "Этот роман для бабушки."
+  },
+  "a2-u3-darceky.fill-ten-roman-je-pre.why": {
+    "en": "**Pre** (for) takes the object form: babka → pre babk**u**.",
+    "t": "**Pre** (для) требует винительного, а не родительного, как «для»: babka → pre babk**u**."
+  },
+  "a2-u3-darceky.sal-a-rukavice.en": {
+    "en": "a scarf and gloves",
+    "t": "шарф и перчатки"
+  },
+  "a2-u3-darceky.sal-a-rukavice.note": {
+    "en": "Shopping is a **nákup**. Gloves come in pairs, so you mostly say **rukavice** (one glove is a rukavica). Warm slippers are **teplé papuče**.",
+    "t": "Покупки — **nákup**. Перчатки парные, поэтому обычно говорят **rukavice** (одна перчатка — rukavica; ср. «рукавицы»). Тёплые тапочки — **teplé papuče**."
+  },
+  "a2-u3-darceky.fill-emma-a-lucia-idu-na.en": {
+    "en": "Emma and Lucia are going shopping.",
+    "t": "Эмма и Луция идут за покупками."
+  },
+  "a2-u3-darceky.fill-emma-a-lucia-idu-na.why": {
+    "en": "Going somewhere is **na** + the object form, and nákup (shopping) is a masculine thing, so it doesn't change: na **nákup**.",
+    "t": "Куда идут — **na** + винительный, а nákup (покупки) — неодушевлённое мужского рода, поэтому не меняется: na **nákup**."
+  },
+  "a2-u3-darceky.fill-tento-sal-je-lacnejsi.en": {
+    "en": "This scarf is cheaper than that one.",
+    "t": "Этот шарф дешевле того."
+  },
+  "a2-u3-darceky.fill-tento-sal-je-lacnejsi.why": {
+    "en": "Šál is masculine, so the comparative ends in **-í**: lacnejš**í**.",
+    "t": "Šál — мужского рода, поэтому сравнительная степень на **-í**: lacnejš**í**."
+  },
+  "a2-u3-darceky.build-mate-lacnejsie-rukavice.prompt": {
+    "en": "Do you have cheaper gloves?",
+    "t": "У вас есть перчатки подешевле?"
+  },
+  "a2-u3-darceky.build-mate-lacnejsie-rukavice.traps": {
+    "en": [
+      "Rukavice is plural and a thing, so the comparative ends in **-ie**: lacnejš**ie** rukavice.",
+      "Gloves come in pairs: **rukavice**. Rukavica is one glove."
+    ],
+    "t": [
+      "Rukavice — множественное число, неодушевлённое, поэтому сравнительная степень на **-ie**: lacnejš**ie** rukavice.",
+      "Перчатки парные: **rukavice**. Rukavica — одна перчатка."
+    ]
+  },
+  "a2-u3-darceky.choice-je-mi-luto-ten-sal.question": {
+    "en": "What does the shop assistant mean?",
+    "t": "Что имеет в виду продавец?"
+  },
+  "a2-u3-darceky.choice-je-mi-luto-ten-sal.options": {
+    "en": [
+      "Sorry, that scarf isn't for sale.",
+      "I'm sorry, that scarf is too expensive.",
+      "I'm sorry, we don't have that scarf any more."
+    ],
+    "t": [
+      "Извините, этот шарф не продаётся.",
+      "Мне жаль, этот шарф слишком дорогой.",
+      "Мне жаль, этого шарфа у нас больше нет."
+    ]
+  },
+  "a2-u3-darceky.vymenit.en": {
+    "en": "to exchange, to swap",
+    "t": "обменять, поменять"
+  },
+  "a2-u3-darceky.vymenit.note": {
+    "en": "Lucia bought Dad a sweater last week, but it's too small. Môžem ten sveter **vymeniť**? = Can I exchange this sweater?",
+    "t": "На прошлой неделе Луция купила папе свитер, но он мал. Môžem ten sveter **vymeniť**? = Можно обменять этот свитер?"
+  },
+  "a2-u3-darceky.fill-mozem-ten-sveter.en": {
+    "en": "Can I exchange this sweater?",
+    "t": "Можно обменять этот свитер?"
+  },
+  "a2-u3-darceky.fill-mozem-ten-sveter.why": {
+    "en": "After **môžem** comes the infinitive, the -ť form: môžem **vymeniť**.",
+    "t": "После **môžem** идёт инфинитив, форма на -ť: môžem **vymeniť**, как «могу обменять»."
+  },
+  "a2-u3-darceky.omyl.en": {
+    "en": "mistake",
+    "t": "ошибка"
+  },
+  "a2-u3-darceky.omyl.note": {
+    "en": "Prepáčte, to je asi **omyl**. = Sorry, that must be a mistake. (**asi** = probably)",
+    "t": "Prepáčte, to je asi **omyl**. = Извините, это, наверное, ошибка. (**asi** = наверное)"
+  },
+  "a2-u3-darceky.build-prepacte-to-je-asi.prompt": {
+    "en": "Excuse me, that's probably a mistake.",
+    "t": "Извините, это, наверное, ошибка."
+  },
+  "a2-u3-darceky.build-prepacte-to-je-asi.traps": {
+    "en": [
+      "You say vy to a shop assistant, so it's **Prepáčte**. Prepáč is for a friend.",
+      "“That is” is to **je**. Som goes with ja."
+    ],
+    "t": [
+      "С продавцом вы на «вы», поэтому **Prepáčte**. Prepáč — для друга.",
+      "«Это (есть)» — to **je**. Som — с ja."
+    ]
+  },
+  "a2-u3-darceky.match-roman.pairs": {
+    "en": [
+      "novel",
+      "detective story",
+      "scarf",
+      "gloves",
+      "slippers"
+    ],
+    "t": [
+      "роман",
+      "детектив",
+      "шарф",
+      "перчатки",
+      "тапочки"
+    ]
+  },
+  "a2-u3-darceky.fill-otec-ma-rad-ludovu.en": {
+    "en": "Dad likes folk music.",
+    "t": "Папа любит народную музыку."
+  },
+  "a2-u3-darceky.fill-otec-ma-rad-ludovu.why": {
+    "en": "Music is what Dad likes, the object, so ľudová changes -á to **-ú**, just as hudba → hudbu.",
+    "t": "Музыка — то, что папа любит, дополнение, поэтому ľudová меняет -á на **-ú**, так же как hudba → hudbu: «народную музыку»."
+  },
+  "a2-u3-darceky.build-mama-rada-cita.answers": {
+    "en": [
+      "Mum likes reading detective stories.",
+      "Mum likes to read detective stories."
+    ],
+    "t": [
+      "Мама любит читать детективы.",
+      "Мама с удовольствием читает детективы."
+    ]
+  },
+  "a2-u3-darceky.build-mama-rada-cita.distractors": {
+    "en": [
+      "novels",
+      "writes"
+    ],
+    "t": [
+      "романы",
+      "пишет"
+    ]
+  },
+  "a2-u3-darceky.speak-mozem-to-vymenit.en": {
+    "en": "Can I exchange it?",
+    "t": "Можно это обменять?"
+  },
+  "a2-u3-najlepsi.titleEn": {
+    "en": "The best present",
+    "t": "Лучший подарок"
+  },
+  "a2-u3-najlepsi.grammar-irregular-comparative.title": {
+    "en": "Better, bigger: irregular comparatives",
+    "t": "Лучше, больше: особые формы"
+  },
+  "a2-u3-najlepsi.grammar-irregular-comparative.body": {
+    "en": [
+      "Five everyday adjectives change completely. Learn them as words. **zlý** = bad.",
+      "They end like any comparative: lepš**í** darček, lepš**ia** kniha, lepš**ie** auto."
+    ],
+    "t": [
+      "Пять обычных прилагательных меняются полностью, как и в русском: хороший → лучше, плохой → хуже. Учите их как отдельные слова. **zlý** = плохой (не только «злой»).",
+      "Окончания у них обычные: lepš**í** darček, lepš**ia** kniha, lepš**ie** auto."
+    ]
+  },
+  "a2-u3-najlepsi.grammar-irregular-comparative.table.head": {
+    "en": [
+      "adjective",
+      "comparative"
+    ],
+    "t": [
+      "прилагательное",
+      "сравнительная степень"
+    ]
+  },
+  "a2-u3-najlepsi.grammar-irregular-comparative.table.rows": {
+    "en": [
+      [
+        "dobrý",
+        "**lepší**"
+      ],
+      [
+        "zlý",
+        "**horší**"
+      ],
+      [
+        "veľký",
+        "**väčší**"
+      ],
+      [
+        "malý",
+        "**menší**"
+      ],
+      [
+        "pekný",
+        "**krajší**"
+      ]
+    ],
+    "t": [
+      [
+        "dobrý",
+        "**lepší**"
+      ],
+      [
+        "zlý",
+        "**horší**"
+      ],
+      [
+        "veľký",
+        "**väčší**"
+      ],
+      [
+        "malý",
+        "**menší**"
+      ],
+      [
+        "pekný",
+        "**krajší**"
+      ]
+    ]
+  },
+  "a2-u3-najlepsi.grammar-irregular-comparative.examples": {
+    "en": [
+      "This scarf is nicer.",
+      "I need smaller gloves.",
+      "Košice is bigger than Žilina."
+    ],
+    "t": [
+      "Этот шарф красивее.",
+      "Мне нужны перчатки поменьше.",
+      "Кошице больше Жилины."
+    ]
+  },
+  "a2-u3-najlepsi.grammar-superlative-naj.title": {
+    "en": "The best: naj-",
+    "t": "Самый лучший: naj-"
+  },
+  "a2-u3-najlepsi.grammar-superlative-naj.body": {
+    "en": [
+      "For “the most”, add **naj-** to the comparative: starší → **naj**starší, lepší → **naj**lepší. You know one already: Všetko **naj**lepšie! = All the best!",
+      "To say “in”, use v or na with the locative: najstarší **v rodine** (the oldest in the family), najväčšie mesto **na Slovensku**."
+    ],
+    "t": [
+      "Чтобы сказать «самый», добавьте **naj-** к сравнительной степени (ср. «наилучший»): starší → **naj**starší, lepší → **naj**lepší. Одно такое слово вы уже знаете: Všetko **naj**lepšie! = Всего наилучшего!",
+      "«В семье», «в Словакии» — v или na с предложным падежом: najstarší **v rodine** (самый старший в семье), najväčšie mesto **na Slovensku** (самый большой город в Словакии)."
+    ]
+  },
+  "a2-u3-najlepsi.grammar-superlative-naj.table.head": {
+    "en": [
+      "comparative",
+      "the most"
+    ],
+    "t": [
+      "сравнительная степень",
+      "самый"
+    ]
+  },
+  "a2-u3-najlepsi.grammar-superlative-naj.table.rows": {
+    "en": [
+      [
+        "starší",
+        "**naj**starší"
+      ],
+      [
+        "mladší",
+        "**naj**mladší"
+      ],
+      [
+        "lepší",
+        "**naj**lepší"
+      ],
+      [
+        "väčší",
+        "**naj**väčší"
+      ],
+      [
+        "krajší",
+        "**naj**krajší"
+      ]
+    ],
+    "t": [
+      [
+        "starší",
+        "**naj**starší"
+      ],
+      [
+        "mladší",
+        "**naj**mladší"
+      ],
+      [
+        "lepší",
+        "**naj**lepší"
+      ],
+      [
+        "väčší",
+        "**naj**väčší"
+      ],
+      [
+        "krajší",
+        "**naj**krajší"
+      ]
+    ]
+  },
+  "a2-u3-najlepsi.grammar-superlative-naj.examples": {
+    "en": [
+      "Grandma is the oldest in the family.",
+      "Samko is the youngest.",
+      "That's the best present!"
+    ],
+    "t": [
+      "Бабушка самая старшая в семье.",
+      "Самко самый младший.",
+      "Это лучший подарок!"
+    ]
+  },
+  "a2-u3-najlepsi.fill-tento-sal-je-krajsi.en": {
+    "en": "This scarf is nicer than the green one.",
+    "t": "Этот шарф красивее, чем тот зелёный."
+  },
+  "a2-u3-najlepsi.fill-tento-sal-je-krajsi.why": {
+    "en": "Pekný has an irregular comparative, **krajší**. Šál is masculine, so it ends in -í.",
+    "t": "У pekný особая сравнительная степень — **krajší** (ср. «краше»). Šál — мужского рода, поэтому на -í."
+  },
+  "a2-u3-najlepsi.fill-potrebujem-mensie.en": {
+    "en": "Those gloves are too big. I need smaller ones.",
+    "t": "Эти перчатки велики. Мне нужны поменьше."
+  },
+  "a2-u3-najlepsi.fill-potrebujem-mensie.why": {
+    "en": "Too big, so you need smaller: malý → **menší**, and rukavice is a plural thing, so **menšie**.",
+    "t": "Велики — значит, нужны меньше: malý → **menší**, а rukavice — множественное число, неодушевлённое, поэтому **menšie**."
+  },
+  "a2-u3-najlepsi.choice-opposite-lepsi.question": {
+    "en": "Which word is the opposite of lepší (better)?",
+    "t": "Какое слово противоположно lepší (лучше)?"
+  },
+  "a2-u3-najlepsi.choice-opposite-lepsi.why": {
+    "en": "Lepší comes from dobrý; its opposite, worse, comes from zlý: **horší**. Both are irregular.",
+    "t": "Lepší — от dobrý, а противоположное, «хуже», — от zlý: **horší** (ср. «горше»). Обе формы особые."
+  },
+  "a2-u3-najlepsi.build-to-je-najlepsi-darcek.prompt": {
+    "en": "That's the best present!",
+    "t": "Это лучший подарок!"
+  },
+  "a2-u3-najlepsi.build-to-je-najlepsi-darcek.traps": {
+    "en": [
+      "Darček is masculine, so it's najlepš**í**.",
+      "The best of all takes **naj-**: **naj**lepší. Lepší is just better."
+    ],
+    "t": [
+      "Darček — мужского рода, поэтому najlepš**í**.",
+      "Лучший из всех — с **naj-**: **naj**lepší. Lepší — просто «лучше»."
+    ]
+  },
+  "a2-u3-najlepsi.fill-samko-je-najmladsi.en": {
+    "en": "Samko is the youngest in the family.",
+    "t": "Самко самый младший в семье."
+  },
+  "a2-u3-najlepsi.fill-samko-je-najmladsi.why": {
+    "en": "The youngest of all takes **naj-**, and Samko is a boy: **naj**mladší.",
+    "t": "«Самый младший» — с **naj-**, а Самко — мальчик: **naj**mladší."
+  },
+  "a2-u3-najlepsi.choice-ktore-mesto-je-najvacsie.question": {
+    "en": "Samko is quizzing Emma. What's the answer?",
+    "t": "Самко устраивает Эмме викторину. Какой ответ правильный?"
+  },
+  "a2-u3-najlepsi.fill-co-je-vacsie.en": {
+    "en": "Which is bigger: Žilina or Košice?",
+    "t": "Что больше: Жилина или Кошице?"
+  },
+  "a2-u3-najlepsi.fill-co-je-vacsie.why": {
+    "en": "After **čo** (what), the adjective is neuter: čo je väčš**ie**? Veľký → väčší is irregular.",
+    "t": "После **čo** (что) прилагательное стоит в среднем роде: čo je väčš**ie**? Veľký → väčší — особая форма."
+  },
+  "a2-u3-najlepsi.build-kosice-su-vacsie.prompt": {
+    "en": "Košice is bigger than Žilina.",
+    "t": "Кошице больше Жилины."
+  },
+  "a2-u3-najlepsi.build-kosice-su-vacsie.traps": {
+    "en": [
+      "Košice is a plural word in Slovak, so byť is **sú**.",
+      "Košice is plural and not a group of men, so the comparative ends in **-ie**: väčš**ie**."
+    ],
+    "t": [
+      "Košice по-словацки — множественное число, поэтому byť — **sú**.",
+      "Košice — множественное число, и это не группа мужчин, поэтому сравнительная степень на **-ie**: väčš**ie**."
+    ]
+  },
+  "a2-u3-najlepsi.fill-februar-je-najkratsi.en": {
+    "en": "February is the shortest month.",
+    "t": "Февраль — самый короткий месяц."
+  },
+  "a2-u3-najlepsi.fill-februar-je-najkratsi.why": {
+    "en": "Krátky drops its k (and á gets short): krat**ší**; the shortest takes naj-: **naj**kratší. Mesiac is masculine, so -í.",
+    "t": "У krátky выпадает k (а á становится кратким): krat**ší**; «самый короткий» — с naj-: **naj**kratší. Mesiac — мужского рода, поэтому на -í."
+  },
+  "a2-u3-najlepsi.build-marek-je-najlepsi-kuchar.answers": {
+    "en": [
+      "Marek is the best cook in the family."
+    ],
+    "t": [
+      "Марек — лучший повар в семье.",
+      "Марек — самый лучший повар в семье."
+    ]
+  },
+  "a2-u3-najlepsi.build-marek-je-najlepsi-kuchar.distractors": {
+    "en": [
+      "worst",
+      "oldest"
+    ],
+    "t": [
+      "худший",
+      "старший"
+    ]
+  },
+  "a2-u3-najlepsi.match-lepsi.pairs": {
+    "en": [
+      "better",
+      "worse",
+      "bigger",
+      "smaller",
+      "nicer, prettier"
+    ],
+    "t": [
+      "лучше",
+      "хуже",
+      "больше",
+      "меньше",
+      "красивее"
+    ]
+  },
+  "a2-u3-najlepsi.speak-to-je-najlepsi.en": {
+    "en": "That's the best present!",
+    "t": "Это лучший подарок!"
+  },
+  "a2-u3-komu.titleEn": {
+    "en": "To whom? The dative",
+    "t": "Кому? Дательный падеж"
+  },
+  "a2-u3-komu.grammar-dative-komu.title": {
+    "en": "To whom? The dative",
+    "t": "Кому? Дательный падеж"
+  },
+  "a2-u3-komu.grammar-dative-komu.body": {
+    "en": [
+      "You know **Páči sa mi** and **Zavolám ti**: mi and ti mean “to me, to you”. That's the dative, the to-whom case. Nouns have it too: Kúpim darček **mame**. = I'll buy Mum a present.",
+      "Ask **Komu?** (to whom?). Men take **-ovi**: otec → otc**ovi**, ujo → uj**ovi**, Marek → Marek**ovi**. Women change -a to **-e**: mama → mam**e**, babka → babk**e**."
+    ],
+    "t": [
+      "Вы уже знаете **Páči sa mi** и **Zavolám ti**: mi и ti — это «мне, тебе». Это дательный падеж, как и в русском. Он есть и у существительных: Kúpim darček **mame**. = Куплю маме подарок.",
+      "Вопрос — **Komu?** (кому?). Мужчины получают **-ovi** (у нас -у): otec → otc**ovi**, ujo → uj**ovi**, Marek → Marek**ovi**. У женщин -a меняется на **-e**, как в русском: mama → mam**e**, babka → babk**e**."
+    ]
+  },
+  "a2-u3-komu.grammar-dative-komu.table.head": {
+    "en": [
+      "",
+      "kto?",
+      "komu?"
+    ],
+    "t": [
+      "",
+      "kto?",
+      "komu?"
+    ]
+  },
+  "a2-u3-komu.grammar-dative-komu.table.rows": {
+    "en": [
+      [
+        "he",
+        "otec",
+        "otc**ovi**"
+      ],
+      [
+        "he",
+        "ujo",
+        "uj**ovi**"
+      ],
+      [
+        "he",
+        "Samko",
+        "Samk**ovi**"
+      ],
+      [
+        "she",
+        "mama",
+        "mam**e**"
+      ],
+      [
+        "she",
+        "babka",
+        "babk**e**"
+      ],
+      [
+        "she",
+        "teta",
+        "tet**e**"
+      ]
+    ],
+    "t": [
+      [
+        "он",
+        "otec",
+        "otc**ovi**"
+      ],
+      [
+        "он",
+        "ujo",
+        "uj**ovi**"
+      ],
+      [
+        "он",
+        "Samko",
+        "Samk**ovi**"
+      ],
+      [
+        "она",
+        "mama",
+        "mam**e**"
+      ],
+      [
+        "она",
+        "babka",
+        "babk**e**"
+      ],
+      [
+        "она",
+        "teta",
+        "tet**e**"
+      ]
+    ]
+  },
+  "a2-u3-komu.grammar-dative-komu.examples": {
+    "en": [
+      "Who are you buying that scarf for? – Grandma.",
+      "I'll buy Dad a book.",
+      "What shall we buy Samko?"
+    ],
+    "t": [
+      "Кому ты купишь этот шарф? — Бабушке.",
+      "Я куплю папе книгу.",
+      "Что мы купим Самко?"
+    ]
+  },
+  "a2-u3-komu.fill-kupim-ten-sal-babke.en": {
+    "en": "I'll buy that scarf for Grandma.",
+    "t": "Я куплю этот шарф бабушке."
+  },
+  "a2-u3-komu.fill-kupim-ten-sal-babke.why": {
+    "en": "Grandma is the one who gets it, so she's in the dative: babk**e**. Babku would need pre: pre babku.",
+    "t": "Бабушка получает подарок, поэтому она в дательном: babk**e**, как «бабушке». Babku нужно с pre: pre babku (для бабушки)."
+  },
+  "a2-u3-komu.fill-dam-tu-knihu-marekovi.en": {
+    "en": "I'll give that book to Marek.",
+    "t": "Я дам эту книгу Мареку."
+  },
+  "a2-u3-komu.fill-dam-tu-knihu-marekovi.why": {
+    "en": "Marek gets the book, so he's in the dative, and men add **-ovi**: Marek**ovi**. Mareka is the object form.",
+    "t": "Марек получает книгу, значит, он в дательном, а мужчины получают **-ovi**: Marek**ovi** (Мареку). Mareka — винительный."
+  },
+  "a2-u3-komu.choice-komu-koho-kto.question": {
+    "en": "Which question asks who gets something?",
+    "t": "Каким вопросом спрашивают, кто что-то получает?"
+  },
+  "a2-u3-komu.choice-komu-koho-kto.why": {
+    "en": "**Komu?** (to whom?) asks for the dative. Koho? asks for the object, kto? for the subject.",
+    "t": "**Komu?** (кому?) — вопрос дательного падежа. Koho? (кого?) спрашивает о дополнении в винительном, kto? (кто?) — о подлежащем."
+  },
+  "a2-u3-komu.build-kupim-otcovi-knihu.prompt": {
+    "en": "I'll buy Dad a book.",
+    "t": "Я куплю папе книгу."
+  },
+  "a2-u3-komu.build-kupim-otcovi-knihu.traps": {
+    "en": [
+      "Dad is the one who gets the book, so he's in the dative: otec → otc**ovi**. Otca is the object form.",
+      "The book is what you buy, the object, so kniha changes -a to **-u**."
+    ],
+    "t": [
+      "Папа получает книгу, поэтому он в дательном: otec → otc**ovi** (отцу). Otca — винительный.",
+      "Книга — то, что покупают, дополнение, поэтому kniha меняет -a на **-u**, как «книгу»."
+    ]
+  },
+  "a2-u3-komu.fill-co-kupis-ujovi.en": {
+    "en": "What will you buy Uncle Pavol?",
+    "t": "Что ты купишь дяде Паволу?"
+  },
+  "a2-u3-komu.fill-co-kupis-ujovi.why": {
+    "en": "Both words are in the dative, each with **-ovi**: **ujovi** Pavlovi.",
+    "t": "Оба слова в дательном, у обоих **-ovi**: **ujovi** Pavlovi (дяде Паволу)."
+  },
+  "a2-u3-komu.grammar-dative-ii-u.title": {
+    "en": "Lucii, sesternici, dieťaťu",
+    "t": "Lucii, sesternici, dieťaťu"
+  },
+  "a2-u3-komu.grammar-dative-ii-u.body": {
+    "en": [
+      "Women's words in **-ia** take **-ii**: Lucia → Luci**i**. After a soft letter, and in words without -a, it's **-i**: sesternica → sesternic**i**, neter → neter**i**. Neuter words take **-u**: dieťa → dieťať**u** (a child).",
+      "Adjectives take **-ému** for him or it (a comparative takes **-iemu**) and **-ej** for her. Ten becomes **tomu** and **tej**: tomu mal**ému** dieťaťu, mladš**iemu** bratovi, tej mil**ej** pani."
+    ],
+    "t": [
+      "Женские слова на **-ia** получают **-ii**, как в русском: Lucia → Luci**i** (Луции). После мягкой согласной и у слов без -a — **-i**: sesternica → sesternic**i**, neter → neter**i**. Средний род получает **-u**: dieťa → dieťať**u** (ребёнку; ср. «дитяти»).",
+      "Прилагательные: **-ému** для мужского и среднего рода (у сравнительной степени **-iemu**) и **-ej** для женского, как наши -ому и -ой. Ten становится **tomu** и **tej** (тому, той): tomu mal**ému** dieťaťu, mladš**iemu** bratovi, tej mil**ej** pani."
+    ]
+  },
+  "a2-u3-komu.grammar-dative-ii-u.table.head": {
+    "en": [
+      "",
+      "kto?",
+      "komu?"
+    ],
+    "t": [
+      "",
+      "kto?",
+      "komu?"
+    ]
+  },
+  "a2-u3-komu.grammar-dative-ii-u.table.rows": {
+    "en": [
+      [
+        "she",
+        "Lucia",
+        "Luci**i**"
+      ],
+      [
+        "she",
+        "sesternica",
+        "sesternic**i**"
+      ],
+      [
+        "she",
+        "neter",
+        "neter**i**"
+      ],
+      [
+        "it",
+        "dieťa",
+        "dieťať**u**"
+      ],
+      [
+        "he",
+        "malý brat",
+        "mal**ému** brat**ovi**"
+      ],
+      [
+        "she",
+        "milá teta",
+        "mil**ej** tet**e**"
+      ]
+    ],
+    "t": [
+      [
+        "она",
+        "Lucia",
+        "Luci**i**"
+      ],
+      [
+        "она",
+        "sesternica",
+        "sesternic**i**"
+      ],
+      [
+        "она",
+        "neter",
+        "neter**i**"
+      ],
+      [
+        "оно",
+        "dieťa",
+        "dieťať**u**"
+      ],
+      [
+        "он",
+        "malý brat",
+        "mal**ému** brat**ovi**"
+      ],
+      [
+        "она",
+        "milá teta",
+        "mil**ej** tet**e**"
+      ]
+    ]
+  },
+  "a2-u3-komu.grammar-dative-ii-u.examples": {
+    "en": [
+      "Emma will send her cousin a postcard.",
+      "I'll buy it for my younger brother."
+    ],
+    "t": [
+      "Эмма пошлёт двоюродной сестре открытку.",
+      "Я куплю это младшему брату."
+    ]
+  },
+  "a2-u3-komu.fill-kupim-to-malemu-samkovi.en": {
+    "en": "I'll buy it for little Samko.",
+    "t": "Я куплю это маленькому Самко."
+  },
+  "a2-u3-komu.fill-kupim-to-malemu-samkovi.why": {
+    "en": "Samkovi is in the dative, so its adjective is too: for him, **-ému**, mal**ému** Samkovi. Malého is the object form.",
+    "t": "Samkovi — в дательном, значит, и прилагательное тоже: мужской род — **-ému**, mal**ému** Samkovi (маленькому). Malého — винительный."
+  },
+  "a2-u3-komu.fill-kupim-to-starej-mame.en": {
+    "en": "I'll buy it for Grandma.",
+    "t": "Я куплю это бабушке."
+  },
+  "a2-u3-komu.fill-kupim-to-starej-mame.why": {
+    "en": "Stará mama is grandma. Mame is feminine and in the dative, so the adjective takes **-ej**: star**ej** mame. Starú is the object form.",
+    "t": "Stará mama — бабушка. Mame — женского рода и в дательном, поэтому прилагательное на **-ej**: star**ej** mame. Starú — винительный."
+  },
+  "a2-u3-komu.fill-emma-zavola-sesternici.en": {
+    "en": "Emma will phone her cousin.",
+    "t": "Эмма позвонит двоюродной сестре."
+  },
+  "a2-u3-komu.fill-emma-zavola-sesternici.why": {
+    "en": "Phoning someone is zavolať + the dative. The object form, as in A1's volať Luciu, is also standard. Sesternica has a soft c before the -a, so it takes **-i**: sesternic**i**.",
+    "t": "Zavolať + дательный, как «позвонить сестре». Винительный, как в A1 (volať Luciu), тоже правильный. В sesternica перед -a мягкое c, поэтому **-i**: sesternic**i**."
+  },
+  "a2-u3-komu.fill-emma-kupi-sal-lucii.en": {
+    "en": "Emma will buy Lucia a scarf.",
+    "t": "Эмма купит Луции шарф."
+  },
+  "a2-u3-komu.fill-emma-kupi-sal-lucii.why": {
+    "en": "Lucia ends in -ia, so the dative is **-ii**: Luci**i**. Luciu is the object form.",
+    "t": "Lucia оканчивается на -ia, поэтому дательный на **-ii**: Luci**i**, как «Луции». Luciu — винительный."
+  },
+  "a2-u3-komu.fill-emma-kupi-mladsiemu.en": {
+    "en": "Emma will buy her younger brother a book.",
+    "t": "Эмма купит младшему брату книгу."
+  },
+  "a2-u3-komu.fill-emma-kupi-mladsiemu.why": {
+    "en": "Bratovi is in the dative, so its adjective is too, and a comparative takes **-iemu**: mladš**iemu** bratovi.",
+    "t": "Bratovi — в дательном, значит, и прилагательное тоже, а сравнительная степень получает **-iemu**: mladš**iemu** bratovi (младшему брату)."
+  },
+  "a2-u3-komu.build-co-kupis-samkovi.prompt": {
+    "en": "What will you buy Samko?",
+    "t": "Что ты купишь Самко?"
+  },
+  "a2-u3-komu.build-co-kupis-samkovi.traps": {
+    "en": [
+      "Samko gets the present, so he's in the dative: Samk**ovi**. Samka is the object form.",
+      "The question is to ty, so the verb ends in **-š**: kúpiš."
+    ],
+    "t": [
+      "Самко получает подарок, поэтому он в дательном: Samk**ovi**. Samka — винительный.",
+      "Вопрос к ty, поэтому глагол на **-š**: kúpiš (купишь)."
+    ]
+  },
+  "a2-u3-komu.fill-ten-darcek-je-pre-mamu.en": {
+    "en": "That present is for Mum.",
+    "t": "Этот подарок для мамы."
+  },
+  "a2-u3-komu.fill-ten-darcek-je-pre-mamu.why": {
+    "en": "After **pre** (for) comes the object form: pre mam**u**. Without pre, use the dative: Dám ho mam**e**.",
+    "t": "После **pre** (для) идёт винительный: pre mam**u**. Без pre — дательный, как «маме»: Dám ho mam**e**."
+  },
+  "a2-u3-komu.choice-kupim-marekovi-knihu.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u3-komu.choice-kupim-marekovi-knihu.options": {
+    "en": [
+      "I'll buy Marek a book.",
+      "Marek will buy me a book.",
+      "I'll buy a book with Marek."
+    ],
+    "t": [
+      "Я куплю Мареку книгу.",
+      "Марек купит мне книгу.",
+      "Я куплю книгу вместе с Мареком."
+    ]
+  },
+  "a2-u3-komu.choice-kupim-marekovi-knihu.why": {
+    "en": "**Marekovi** is the dative: Marek is the one who gets the book. With Marek would be s Marekom.",
+    "t": "**Marekovi** — дательный (Мареку): книгу получает Марек. «С Мареком» было бы s Marekom."
+  },
+  "a2-u3-komu.fill-komu-das-tu-kavu.en": {
+    "en": "Who will you give that coffee to? – That man by the window.",
+    "t": "Кому ты отдашь этот кофе? — Тому мужчине у окна."
+  },
+  "a2-u3-komu.fill-komu-das-tu-kavu.why": {
+    "en": "Pánovi is in the dative, so “that” is too: **tomu** pánovi. Toho is the object form.",
+    "t": "Pánovi — в дательном, поэтому «тот» тоже: **tomu** pánovi (тому). Toho — винительный."
+  },
+  "a2-u3-komu.speak-co-kupime-babke.en": {
+    "en": "What shall we buy Grandma?",
+    "t": "Что мы купим бабушке?"
+  },
+  "a2-u3-rodicom.titleEn": {
+    "en": "To parents and children",
+    "t": "Родителям и детям"
+  },
+  "a2-u3-rodicom.grammar-dative-plural.title": {
+    "en": "To them: -om, -ám",
+    "t": "Им: -om, -ám"
+  },
+  "a2-u3-rodicom.grammar-dative-plural.body": {
+    "en": [
+      "In the plural, masculine words take **-om**: rodičia → rodič**om**, kamaráti → kamarát**om**. Feminine and neuter words take **-ám**: sestry → sestr**ám**, mestá → mest**ám**.",
+      "After a long syllable it's a short **-am**: kamarátky → kamarátk**am**. Two words have their own forms: deti → **deťom**, ľudia → **ľuďom**.",
+      "Adjectives and ten end in **-ým**: **tým** mil**ým** ľuďom, star**ým** rodičom."
+    ],
+    "t": [
+      "Во множественном числе мужской род получает **-om**: rodičia → rodič**om**, kamaráti → kamarát**om**. Женский и средний — **-ám**: sestry → sestr**ám**, mestá → mest**ám**. В русском у всех -ам (родителям), а здесь у мужского рода -om.",
+      "После долгого слога — краткое **-am**: kamarátky → kamarátk**am**. У двух слов свои формы: deti → **deťom**, ľudia → **ľuďom** (детям, людям).",
+      "Прилагательные и ten оканчиваются на **-ým**: **tým** mil**ým** ľuďom, star**ým** rodičom (тем милым людям)."
+    ]
+  },
+  "a2-u3-rodicom.grammar-dative-plural.table.head": {
+    "en": [
+      "more than one",
+      "komu?"
+    ],
+    "t": [
+      "несколько",
+      "komu?"
+    ]
+  },
+  "a2-u3-rodicom.grammar-dative-plural.table.rows": {
+    "en": [
+      [
+        "rodičia",
+        "rodič**om**"
+      ],
+      [
+        "súrodenci",
+        "súrodenc**om**"
+      ],
+      [
+        "vnuci",
+        "vnuk**om**"
+      ],
+      [
+        "sestry",
+        "sestr**ám**"
+      ],
+      [
+        "kamarátky",
+        "kamarátk**am**"
+      ],
+      [
+        "deti",
+        "deť**om**"
+      ],
+      [
+        "ľudia",
+        "ľuď**om**"
+      ]
+    ],
+    "t": [
+      [
+        "rodičia",
+        "rodič**om**"
+      ],
+      [
+        "súrodenci",
+        "súrodenc**om**"
+      ],
+      [
+        "vnuci",
+        "vnuk**om**"
+      ],
+      [
+        "sestry",
+        "sestr**ám**"
+      ],
+      [
+        "kamarátky",
+        "kamarátk**am**"
+      ],
+      [
+        "deti",
+        "deť**om**"
+      ],
+      [
+        "ľudia",
+        "ľuď**om**"
+      ]
+    ]
+  },
+  "a2-u3-rodicom.grammar-dative-plural.examples": {
+    "en": [
+      "I'll phone my parents at Christmas.",
+      "I'll send my friends some photos.",
+      "Grandma is telling the children about Christmas."
+    ],
+    "t": [
+      "На Рождество я позвоню родителям.",
+      "Я пошлю подругам фотографии.",
+      "Бабушка рассказывает детям о Рождестве."
+    ]
+  },
+  "a2-u3-rodicom.fill-na-vianoce-zavolam.en": {
+    "en": "I'll phone my parents at Christmas.",
+    "t": "На Рождество я позвоню родителям."
+  },
+  "a2-u3-rodicom.fill-na-vianoce-zavolam.why": {
+    "en": "Phoning someone is zavolať + the dative, and masculine plurals end in **-om**: rodič**om**. Rodičoch is the locative.",
+    "t": "Zavolať + дательный, как «позвонить родителям», а мужской род во множественном числе оканчивается на **-om**: rodič**om**. Rodičoch — предложный."
+  },
+  "a2-u3-rodicom.fill-kupime-darceky-detom.en": {
+    "en": "We'll buy the children presents.",
+    "t": "Мы купим детям подарки."
+  },
+  "a2-u3-rodicom.fill-kupime-darceky-detom.why": {
+    "en": "The children get the presents, so they're in the dative: deti → **deťom**. Deťoch is the locative: o deťoch.",
+    "t": "Дети получают подарки, поэтому они в дательном: deti → **deťom** (детям). Deťoch — предложный: o deťoch."
+  },
+  "a2-u3-rodicom.build-lucia-pise-kamaratkam.prompt": {
+    "en": "Lucia is writing to her friends.",
+    "t": "Луция пишет подругам."
+  },
+  "a2-u3-rodicom.build-lucia-pise-kamaratkam.traps": {
+    "en": [
+      "Lucia writes **to** her friends, so they're in the dative: kamarátk**am**, with a short -am after the long á.",
+      "Lucia is one person (ona), so písať is **píše**."
+    ],
+    "t": [
+      "Подруги — те, кому Луция пишет, поэтому они в дательном: kamarátk**am**, с кратким -am после долгого á.",
+      "Луция одна (ona), поэтому písať — **píše** (пишет)."
+    ]
+  },
+  "a2-u3-rodicom.choice-zavolam-rodicom.question": {
+    "en": "“I'll phone my parents.” Which is right?",
+    "t": "«Я позвоню родителям». Как правильно?"
+  },
+  "a2-u3-rodicom.choice-zavolam-rodicom.why": {
+    "en": "Zavolať takes the dative, and rodičia becomes **rodičom**. Rodičoch is the locative.",
+    "t": "Zavolať требует дательного, и rodičia становится **rodičom** (родителям). Rodičoch — предложный."
+  },
+  "a2-u3-rodicom.fill-babka-dava-jablka-tym.en": {
+    "en": "Grandma gave apples to those little children.",
+    "t": "Бабушка дала яблоки тем маленьким детям."
+  },
+  "a2-u3-rodicom.fill-babka-dava-jablka-tym.why": {
+    "en": "Deťom is in the dative plural, so “those” and the adjective are too: **tým** mal**ým** deťom.",
+    "t": "Deťom — дательный множественного числа, поэтому «тем» и прилагательное тоже: **tým** mal**ým** deťom (тем маленьким детям)."
+  },
+  "a2-u3-rodicom.fill-babka-rozprava-vnucatam.en": {
+    "en": "Grandma tells her grandchildren about Christmas.",
+    "t": "Бабушка рассказывает внукам о Рождестве."
+  },
+  "a2-u3-rodicom.fill-babka-rozprava-vnucatam.why": {
+    "en": "Babka tells it to them, so they're in the dative: neuter -á becomes **-ám**, vnúčat**ám**.",
+    "t": "Бабушка рассказывает им, поэтому они в дательном: средний род -á становится **-ám**, vnúčat**ám** (внучатам)."
+  },
+  "a2-u3-rodicom.build-tomas-pise-kamaratom.prompt": {
+    "en": "Tomáš is writing his friends an e-mail.",
+    "t": "Томаш пишет друзьям электронное письмо."
+  },
+  "a2-u3-rodicom.build-tomas-pise-kamaratom.traps": {
+    "en": [
+      "His friends get the e-mail, so they're in the dative: kamarát**om**. Kamarátov is the object form.",
+      "Tomáš is one person (on), so písať is **píše**."
+    ],
+    "t": [
+      "Друзья получают письмо, поэтому они в дательном: kamarát**om** (друзьям). Kamarátov — винительный.",
+      "Томаш один (on), поэтому písať — **píše** (пишет)."
+    ]
+  },
+  "a2-u3-rodicom.fill-volame-starym-rodicom.en": {
+    "en": "Over Christmas we phone our grandparents.",
+    "t": "На Рождество мы звоним бабушке и дедушке."
+  },
+  "a2-u3-rodicom.fill-volame-starym-rodicom.why": {
+    "en": "Rodičom is in the dative plural, so the adjective ends in **-ým**: star**ým** rodičom.",
+    "t": "Rodičom — дательный множественного числа, поэтому прилагательное на **-ým**: star**ým** rodičom."
+  },
+  "a2-u3-rodicom.choice-babka-dala-detom.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u3-rodicom.choice-babka-dala-detom.options": {
+    "en": [
+      "The children gave Grandma apples.",
+      "Grandma ate apples with the children.",
+      "Grandma gave the children apples."
+    ],
+    "t": [
+      "Дети дали бабушке яблоки.",
+      "Бабушка ела яблоки с детьми.",
+      "Бабушка дала детям яблоки."
+    ]
+  },
+  "a2-u3-rodicom.choice-babka-dala-detom.why": {
+    "en": "**Deťom** is the dative plural: the children get the apples. Babka is the subject, the one who gives.",
+    "t": "**Deťom** — дательный множественного числа (детям): яблоки получают дети. Babka — подлежащее, это она даёт."
+  },
+  "a2-u3-rodicom.build-poslem-rodicom-fotky.answers": {
+    "en": [
+      "I'll send my parents photos.",
+      "I'll send photos to my parents.",
+      "I'll send my parents some photos."
+    ],
+    "t": [
+      "Я пошлю родителям фотографии.",
+      "Я отправлю родителям фотографии.",
+      "Я пошлю фотографии родителям.",
+      "Пошлю родителям фотографии."
+    ]
+  },
+  "a2-u3-rodicom.build-poslem-rodicom-fotky.distractors": {
+    "en": [
+      "children",
+      "sent"
+    ],
+    "t": [
+      "детям",
+      "послал"
+    ]
+  },
+  "a2-u3-rodicom.speak-zavolam-rodicom.en": {
+    "en": "I'll phone my parents.",
+    "t": "Я позвоню родителям."
+  },
+  "a2-u3-navsteva.titleEn": {
+    "en": "Welcome to our home!",
+    "t": "Добро пожаловать!"
+  },
+  "a2-u3-navsteva.vitajte-u-nas.en": {
+    "en": "Welcome (to our home)!",
+    "t": "Добро пожаловать (к нам)!"
+  },
+  "a2-u3-navsteva.vitajte-u-nas.note": {
+    "en": "Emma and Lucia arrive in Žilina by train. **u nás** = at our place. Lucia's mum says vitajte to both girls; to one friend: Vitaj u nás!",
+    "t": "Эмма и Луция приезжают в Жилину на поезде. **u nás** = у нас. Мама Луции говорит vitajte обеим девушкам; одной подруге: Vitaj u nás!"
+  },
+  "a2-u3-navsteva.choice-mama-otvara-dvere.question": {
+    "en": "Lucia's mum opens the door to Lucia and Emma. What does she say?",
+    "t": "Мама Луции открывает дверь Луции и Эмме. Что она скажет?"
+  },
+  "a2-u3-navsteva.choice-mama-otvara-dvere.why": {
+    "en": "She's welcoming two people, so she uses the vy form: **Vitajte**. Vitaj is for one friend.",
+    "t": "Она встречает двоих, поэтому выбирает форму для vy: **Vitajte**. Vitaj — одному человеку, на «ты»."
+  },
+  "a2-u3-navsteva.mate-krasny-dom.en": {
+    "en": "You have a lovely house.",
+    "t": "У вас красивый дом."
+  },
+  "a2-u3-navsteva.mate-krasny-dom.note": {
+    "en": "**dom** = a house; **krásny** = beautiful, lovely. Emma says vy to Lucia's parents and grandma; they say ty to her.",
+    "t": "**dom** = дом; **krásny** = красивый, прекрасный. Эмма говорит родителям и бабушке Луции «вы», а они ей — «ты»."
+  },
+  "a2-u3-navsteva.build-dakujem-za-pozvanie-mate.prompt": {
+    "en": "Thank you for the invitation. You have a lovely house.",
+    "t": "Спасибо за приглашение. У вас красивый дом."
+  },
+  "a2-u3-navsteva.build-dakujem-za-pozvanie-mate.traps": {
+    "en": [
+      "Emma says vy to Lucia's parents, so it's **máte**. Máš is for ty.",
+      "A house is **dom**. Domov is home as in where to: ísť domov."
+    ],
+    "t": [
+      "Эмма обращается к родителям Луции на «вы», поэтому **máte**. Máš — на «ты».",
+      "Дом — **dom**. Domov — это «домой»: ísť domov."
+    ]
+  },
+  "a2-u3-navsteva.sme-radi-ze-si-tu.en": {
+    "en": "We're glad you're here.",
+    "t": "Мы рады, что ты здесь."
+  },
+  "a2-u3-navsteva.sme-radi-ze-si-tu.note": {
+    "en": "**rád, rada, radi** + **že** = glad that. Lucia's mum on her own: Som rada, že si tu, Emma.",
+    "t": "**rád, rada, radi** + **že** = рад, что. Мама Луции от себя: Som rada, že si tu, Emma."
+  },
+  "a2-u3-navsteva.je-ti-zima.en": {
+    "en": "Are you cold?",
+    "t": "Тебе холодно?"
+  },
+  "a2-u3-navsteva.je-ti-zima.note": {
+    "en": "Je zima. = It's cold (out). **Je mi zima.** = I'm cold: mi and ti, to me and to you, say who feels it.",
+    "t": "Je zima. = Холодно (на улице). **Je mi zima.** = Мне холодно: mi и ti (мне, тебе) говорят, кому холодно, точно как в русском."
+  },
+  "a2-u3-navsteva.fill-emma-je-ti-zima.en": {
+    "en": "Emma, are you cold?",
+    "t": "Эмма, тебе холодно?"
+  },
+  "a2-u3-navsteva.fill-emma-je-ti-zima.why": {
+    "en": "Who feels the cold is in the dative: **ti** (to you), the short form, in second place. Ťa is the object form.",
+    "t": "Тот, кому холодно, — в дательном: **ti** (тебе), краткая форма, на втором месте. Ťa — винительный (тебя)."
+  },
+  "a2-u3-navsteva.si-hladna.en": {
+    "en": "Are you hungry? (to a woman)",
+    "t": "Ты голодная? (к женщине)"
+  },
+  "a2-u3-navsteva.si-hladna.note": {
+    "en": "Thirsty is **smädný**. Babka has baked: Chceš **ochutnať** koláč? = Do you want to try a cake? (**koláč** = a cake, a pastry)",
+    "t": "Тот, кто хочет пить, — **smädný** (в русском одного такого слова нет). Бабушка испекла: Chceš **ochutnať** koláč? = Хочешь попробовать пирог? (**koláč** = пирог, выпечка; ср. «калач»)"
+  },
+  "a2-u3-navsteva.fill-si-hladna-emma.en": {
+    "en": "Are you hungry, Emma? Will you have some soup?",
+    "t": "Ты голодная, Эмма? Будешь суп?"
+  },
+  "a2-u3-navsteva.fill-si-hladna-emma.why": {
+    "en": "Emma is a woman, so the adjective ends in **-á**: hladn**á**.",
+    "t": "Эмма — женщина, поэтому прилагательное на **-á**: hladn**á**."
+  },
+  "a2-u3-navsteva.choice-emma-is-cold.question": {
+    "en": "Emma is cold. What does she say?",
+    "t": "Эмме холодно. Что она скажет?"
+  },
+  "a2-u3-navsteva.choice-emma-is-cold.why": {
+    "en": "**Je mi zima** says that you feel cold: mi = to me. Je zima only says it's cold out, and mám zima isn't Slovak.",
+    "t": "**Je mi zima** — «мне холодно»: mi = мне, как в русском. Je zima — просто «холодно» на улице, а mám zima по-словацки не говорят."
+  },
+  "a2-u3-navsteva.chce-sa-mi-spat.en": {
+    "en": "I'm sleepy.",
+    "t": "Мне хочется спать."
+  },
+  "a2-u3-navsteva.chce-sa-mi-spat.note": {
+    "en": "Literally “it wants itself to me to sleep”. The same pattern: Chce sa mi jesť. = I feel like eating.",
+    "t": "Как и в русском «мне хочется», тот, кому хочется, стоит в дательном. Так же: Chce sa mi jesť. = Мне хочется есть."
+  },
+  "a2-u3-navsteva.build-sme-radi-ze-si-tu.answers": {
+    "en": [
+      "We're glad you're here, Emma.",
+      "We are glad you are here, Emma."
+    ],
+    "t": [
+      "Мы рады, что ты здесь, Эмма.",
+      "Эмма, мы рады, что ты здесь.",
+      "Мы рады, что ты тут, Эмма."
+    ]
+  },
+  "a2-u3-navsteva.build-sme-radi-ze-si-tu.distractors": {
+    "en": [
+      "sorry",
+      "they"
+    ],
+    "t": [
+      "жаль",
+      "они"
+    ]
+  },
+  "a2-u3-navsteva.fill-chce-sa-mi-spat.en": {
+    "en": "I'm tired. I'm sleepy.",
+    "t": "Я устала. Мне хочется спать."
+  },
+  "a2-u3-navsteva.fill-chce-sa-mi-spat.why": {
+    "en": "Who feels like it is in the dative, so it's chce sa **mi**. Ma is the object form, ja the subject.",
+    "t": "Тот, кому хочется, — в дательном, поэтому chce sa **mi** (мне). Ma — винительный, ja — подлежащее."
+  },
+  "a2-u3-navsteva.build-chces-ochutnat-kolac.prompt": {
+    "en": "Do you want to try a cake?",
+    "t": "Хочешь попробовать пирог?"
+  },
+  "a2-u3-navsteva.build-chces-ochutnat-kolac.traps": {
+    "en": [
+      "After chceš comes the infinitive, the -ť form: chceš **ochutnať**.",
+      "Koláč is a thing, so as the object it doesn't change: ochutnať **koláč**."
+    ],
+    "t": [
+      "После chceš идёт инфинитив, форма на -ť: chceš **ochutnať** (попробовать).",
+      "Koláč — неодушевлённое мужского рода, поэтому как дополнение не меняется: ochutnať **koláč**, как «попробовать пирог»."
+    ]
+  },
+  "a2-u3-navsteva.match-hladny.pairs": {
+    "en": [
+      "hungry",
+      "thirsty",
+      "tired",
+      "lovely",
+      "house"
+    ],
+    "t": [
+      "голодный",
+      "испытывающий жажду",
+      "уставший",
+      "красивый",
+      "дом"
+    ]
+  },
+  "a2-u3-navsteva.speak-vitajte-u-nas.en": {
+    "en": "Welcome to our home!",
+    "t": "Добро пожаловать к нам!"
+  },
+  "a2-u3-mi-mne.titleEn": {
+    "en": "Mi or mne? Pronouns",
+    "t": "Mi или mne? Местоимения"
+  },
+  "a2-u3-mi-mne.grammar-dative-pronouns.title": {
+    "en": "To me, to him: mi, mu, jej",
+    "t": "Мне, ему, ей: mi, mu, jej"
+  },
+  "a2-u3-mi-mne.grammar-dative-pronouns.body": {
+    "en": [
+      "Pronouns have a dative too. You know **mi**, **ti** and **vám**: Páči sa mi. Zavolám ti. Ako sa vám páčila konferencia?",
+      "The short forms are small words that go in second place, like sa: Kúpim **mu** knihu. Dám **jej** šál."
+    ],
+    "t": [
+      "У местоимений тоже есть дательный падеж. Вы уже знаете **mi**, **ti** и **vám**: Páči sa mi. Zavolám ti. Ako sa vám páčila konferencia?",
+      "Краткие формы — маленькие слова, которые стоят на втором месте, как sa: Kúpim **mu** knihu. Dám **jej** šál. Полные формы похожи на русские: mne — мне, tebe — тебе, jemu — ему."
+    ]
+  },
+  "a2-u3-mi-mne.grammar-dative-pronouns.table.head": {
+    "en": [
+      "",
+      "short",
+      "stressed"
+    ],
+    "t": [
+      "",
+      "краткая",
+      "полная"
+    ]
+  },
+  "a2-u3-mi-mne.grammar-dative-pronouns.table.rows": {
+    "en": [
+      [
+        "ja",
+        "mi",
+        "**mne**"
+      ],
+      [
+        "ty",
+        "ti",
+        "**tebe**"
+      ],
+      [
+        "on, ono",
+        "mu",
+        "**jemu**"
+      ],
+      [
+        "ona",
+        "jej",
+        "jej"
+      ],
+      [
+        "my",
+        "nám",
+        "nám"
+      ],
+      [
+        "vy",
+        "vám",
+        "vám"
+      ],
+      [
+        "oni, ony",
+        "im",
+        "im"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "mi",
+        "**mne**"
+      ],
+      [
+        "ty",
+        "ti",
+        "**tebe**"
+      ],
+      [
+        "on, ono",
+        "mu",
+        "**jemu**"
+      ],
+      [
+        "ona",
+        "jej",
+        "jej"
+      ],
+      [
+        "my",
+        "nám",
+        "nám"
+      ],
+      [
+        "vy",
+        "vám",
+        "vám"
+      ],
+      [
+        "oni, ony",
+        "im",
+        "im"
+      ]
+    ]
+  },
+  "a2-u3-mi-mne.grammar-dative-pronouns.examples": {
+    "en": [
+      "I'll buy him a book.",
+      "I'll give her a scarf.",
+      "I'll phone them tomorrow."
+    ],
+    "t": [
+      "Я куплю ему книгу.",
+      "Я дам ей шарф.",
+      "Я позвоню им завтра."
+    ]
+  },
+  "a2-u3-mi-mne.grammar-mne-tebe-jemu.title": {
+    "en": "Mne, tebe, jemu: stressed",
+    "t": "Mne, tebe, jemu: полные формы"
+  },
+  "a2-u3-mi-mne.grammar-mne-tebe-jemu.body": {
+    "en": [
+      "Use the long forms **mne, tebe, jemu** at the start of a sentence, alone as an answer, or to stress who: **Mne** sa páči, ale **jemu** nie. Komu? – **Tebe**.",
+      "A short form never starts a sentence: Páči sa **mi**, but **Mne** sa páči."
+    ],
+    "t": [
+      "Полные формы **mne, tebe, jemu** нужны в начале предложения, в ответе из одного слова или когда важно, кому именно: **Mne** sa páči, ale **jemu** nie. Komu? – **Tebe**.",
+      "Краткая форма никогда не начинает предложение: Páči sa **mi**, но **Mne** sa páči."
+    ]
+  },
+  "a2-u3-mi-mne.grammar-mne-tebe-jemu.examples": {
+    "en": [
+      "I like your scarf, but he doesn't.",
+      "Who are you giving that present to? – You."
+    ],
+    "t": [
+      "Мне нравится твой шарф, а ему нет.",
+      "Кому ты отдашь этот подарок? — Тебе."
+    ]
+  },
+  "a2-u3-mi-mne.fill-kupim-mu-roman.en": {
+    "en": "Uncle Pavol likes reading. I'll buy him a novel.",
+    "t": "Дядя Павол любит читать. Я куплю ему роман."
+  },
+  "a2-u3-mi-mne.fill-kupim-mu-roman.why": {
+    "en": "Ujo Pavol is on, so to him is **mu**. Jej is to her, im to them.",
+    "t": "Дядя Павол — on, поэтому «ему» — **mu**. Jej — «ей», im — «им»."
+  },
+  "a2-u3-mi-mne.fill-komu-das-tebe.en": {
+    "en": "Who will you give that present to? – You.",
+    "t": "Кому ты отдашь этот подарок? — Тебе."
+  },
+  "a2-u3-mi-mne.fill-komu-das-tebe.why": {
+    "en": "Alone, as an answer, the pronoun takes its long form: **Tebe**. Ti is the short form, teba the object form.",
+    "t": "В ответе из одного слова местоимение стоит в полной форме: **Tebe**. Ti — краткая форма, teba — винительный (тебя)."
+  },
+  "a2-u3-mi-mne.build-dam-jej-sal.prompt": {
+    "en": "I'll give her the scarf.",
+    "t": "Я дам ей шарф."
+  },
+  "a2-u3-mi-mne.build-dam-jej-sal.traps": {
+    "en": [
+      "She's the one who gets the scarf, so it's the dative: **jej**. Ju is the object form.",
+      "Mu is to him; to her is **jej**."
+    ],
+    "t": [
+      "Она получает шарф, поэтому нужен дательный: **jej** (ей). Ju — винительный (её).",
+      "Mu — «ему», а «ей» — **jej**."
+    ]
+  },
+  "a2-u3-mi-mne.choice-mne-sa-paci.question": {
+    "en": "Which sentence is right?",
+    "t": "Какое предложение правильное?"
+  },
+  "a2-u3-mi-mne.choice-mne-sa-paci.why": {
+    "en": "A short form never starts a sentence, and neither does sa. At the start, use the long form: **Mne** sa páči… (or: Páči sa mi…).",
+    "t": "Ни краткая форма, ни sa не начинают предложение. В начале нужна полная форма: **Mne** sa páči… (или: Páči sa mi…)."
+  },
+  "a2-u3-mi-mne.fill-dame-im-polievku.en": {
+    "en": "Lucia and Marek are hungry. We'll give them some soup.",
+    "t": "Луция и Марек голодные. Мы дадим им суп."
+  },
+  "a2-u3-mi-mne.fill-dame-im-polievku.why": {
+    "en": "They get the soup, so it's the dative of oni: **im**. Ich is the object form or “their”.",
+    "t": "Они получают суп, поэтому нужен дательный от oni: **im** (им). Ich — винительный (их) или «их» в значении «чей»."
+  },
+  "a2-u3-mi-mne.grammar-je-mi-zima.title": {
+    "en": "Je mi zima: how you feel",
+    "t": "Je mi zima: как вы себя чувствуете"
+  },
+  "a2-u3-mi-mne.grammar-je-mi-zima.body": {
+    "en": [
+      "Slovak often says how you feel with the dative: **Je mi zima.** = I'm cold. **Je mi ľúto.** = I'm sorry. **Chce sa mi spať.** = I'm sleepy. Swap the pronoun for someone else: Je **mu** zle. = He feels sick.",
+      "**Ako sa ti darí?** = How are you getting on? Darí sa **mi** dobre. = I'm doing well."
+    ],
+    "t": [
+      "О самочувствии по-словацки часто говорят с дательным, совсем как по-русски: **Je mi zima.** = Мне холодно. **Je mi ľúto.** = Мне жаль. **Chce sa mi spať.** = Мне хочется спать. Поменяйте местоимение — и речь о другом: Je **mu** zle. = Ему плохо.",
+      "**Ako sa ti darí?** = Как у тебя дела? Darí sa **mi** dobre. = У меня всё хорошо (ср. «мне удаётся»)."
+    ]
+  },
+  "a2-u3-mi-mne.grammar-je-mi-zima.examples": {
+    "en": [
+      "I'm cold.",
+      "He feels sick.",
+      "She's sleepy.",
+      "How are you getting on?"
+    ],
+    "t": [
+      "Мне холодно.",
+      "Ему плохо.",
+      "Ей хочется спать.",
+      "Как у вас дела?"
+    ]
+  },
+  "a2-u3-mi-mne.fill-babka-chce-sa-jej.en": {
+    "en": "Grandma is tired. She's sleepy.",
+    "t": "Бабушка устала. Ей хочется спать."
+  },
+  "a2-u3-mi-mne.fill-babka-chce-sa-jej.why": {
+    "en": "Who feels like sleeping is in the dative. Babka is ona, so **jej**. Ju is the object form.",
+    "t": "Тот, кому хочется спать, — в дательном. Бабушка — ona, поэтому **jej** (ей). Ju — винительный."
+  },
+  "a2-u3-mi-mne.build-ako-sa-vam-dari.prompt": {
+    "en": "How are you getting on? (Emma to babka)",
+    "t": "Как у вас дела? (Эмма — бабушке)"
+  },
+  "a2-u3-mi-mne.build-ako-sa-vam-dari.traps": {
+    "en": [
+      "Dariť sa takes the dative: **vám**. Vás is the object form.",
+      "Emma says vy to babka, so it's **vám**. Ti is for a friend."
+    ],
+    "t": [
+      "Dariť sa требует дательного: **vám** (вам). Vás — винительный.",
+      "Эмма обращается к бабушке на «вы», поэтому **vám**. Ti — для друга."
+    ]
+  },
+  "a2-u3-mi-mne.fill-samko-je-ti-zle.en": {
+    "en": "Samko, do you feel sick?",
+    "t": "Самко, тебе плохо?"
+  },
+  "a2-u3-mi-mne.fill-samko-je-ti-zle.why": {
+    "en": "How you feel takes the dative, with the short form in second place: je **ti** zle.",
+    "t": "Самочувствие — с дательным, краткая форма на втором месте: je **ti** zle (тебе плохо)."
+  },
+  "a2-u3-mi-mne.build-jemu-sa-to-nepaci.answers": {
+    "en": [
+      "He doesn't like it, but I do."
+    ],
+    "t": [
+      "Ему это не нравится, а мне нравится.",
+      "Ему это не нравится, а мне да.",
+      "Ему не нравится, а мне нравится."
+    ]
+  },
+  "a2-u3-mi-mne.build-jemu-sa-to-nepaci.distractors": {
+    "en": [
+      "she",
+      "we"
+    ],
+    "t": [
+      "ей",
+      "нам"
+    ]
+  },
+  "a2-u3-mi-mne.choice-je-mi-to-luto.question": {
+    "en": "Tomáš can't come. How does Emma say she's sorry?",
+    "t": "Томаш не может прийти. Как Эмма скажет, что ей жаль?"
+  },
+  "a2-u3-mi-mne.choice-je-mi-to-luto.why": {
+    "en": "The one who is sorry is in the dative: je **mi** to ľúto. Ma is the object form.",
+    "t": "Тот, кому жаль, — в дательном: je **mi** to ľúto (мне жаль). Ma — винительный."
+  },
+  "a2-u3-mi-mne.speak-je-mi-zima.en": {
+    "en": "I'm cold.",
+    "t": "Мне холодно."
+  },
+  "a2-u3-mojej-mame.titleEn": {
+    "en": "To my mum, to our uncle",
+    "t": "Моей маме, нашему дяде"
+  },
+  "a2-u3-mojej-mame.grammar-possessives-dative.title": {
+    "en": "My, your, our in the dative",
+    "t": "Мой, твой, наш в дательном падеже"
+  },
+  "a2-u3-mojej-mame.grammar-possessives-dative.body": {
+    "en": [
+      "Môj, tvoj, náš and váš change too. For him or it: **-mu** (môj**mu**, náš**mu**). For her: **-ej** (moj**ej**, naš**ej**). For more than one: **-im** (moj**im**, naš**im**). Like môjho and nášho, môjmu and nášmu keep their ô and á; mojej, našej and mojim don't.",
+      "**Jeho, jej** and **ich** never change: Dám to **jeho** mame."
+    ],
+    "t": [
+      "Môj, tvoj, náš и váš тоже меняются, почти как в русском. Мужской и средний род: **-mu** (môj**mu**, náš**mu** — моему, нашему). Женский: **-ej** (moj**ej**, naš**ej** — моей, нашей). Множественное число: **-im** (moj**im**, naš**im** — моим, нашим). Как в môjho и nášho, в môjmu и nášmu остаются ô и á; в mojej, našej и mojim их нет.",
+      "**Jeho, jej** и **ich** не меняются никогда, как «его, её, их»: Dám to **jeho** mame."
+    ]
+  },
+  "a2-u3-mojej-mame.grammar-possessives-dative.table.head": {
+    "en": [
+      "",
+      "he, it",
+      "she",
+      "they"
+    ],
+    "t": [
+      "",
+      "он, оно",
+      "она",
+      "они"
+    ]
+  },
+  "a2-u3-mojej-mame.grammar-possessives-dative.table.rows": {
+    "en": [
+      [
+        "môj",
+        "**môjmu** bratovi",
+        "**mojej** mame",
+        "**mojim** rodičom"
+      ],
+      [
+        "tvoj",
+        "**tvojmu** ujovi",
+        "**tvojej** tete",
+        "**tvojim** súrodencom"
+      ],
+      [
+        "náš",
+        "**nášmu** otcovi",
+        "**našej** babke",
+        "**našim** deťom"
+      ],
+      [
+        "váš",
+        "**vášmu** synovi",
+        "**vašej** dcére",
+        "**vašim** kamarátom"
+      ]
+    ],
+    "t": [
+      [
+        "môj",
+        "**môjmu** bratovi",
+        "**mojej** mame",
+        "**mojim** rodičom"
+      ],
+      [
+        "tvoj",
+        "**tvojmu** ujovi",
+        "**tvojej** tete",
+        "**tvojim** súrodencom"
+      ],
+      [
+        "náš",
+        "**nášmu** otcovi",
+        "**našej** babke",
+        "**našim** deťom"
+      ],
+      [
+        "váš",
+        "**vášmu** synovi",
+        "**vašej** dcére",
+        "**vašim** kamarátom"
+      ]
+    ]
+  },
+  "a2-u3-mojej-mame.grammar-possessives-dative.examples": {
+    "en": [
+      "Will you give it to my mum?",
+      "What shall we buy your son?"
+    ],
+    "t": [
+      "Ты отдашь это моей маме?",
+      "Что мы купим вашему сыну?"
+    ]
+  },
+  "a2-u3-mojej-mame.grammar-svoj-dative.title": {
+    "en": "Svoj in the dative",
+    "t": "Svoj в дательном падеже"
+  },
+  "a2-u3-mojej-mame.grammar-svoj-dative.body": {
+    "en": [
+      "You know svoj from unit 2. In the dative it goes like môj: **svojmu**, **svojej**, **svojim**.",
+      "Emma kúpi šál **svojej** mame: her own mum. **Jej** mame would be another woman's mum, say Lucia's."
+    ],
+    "t": [
+      "Svoj вы знаете из раздела 2. В дательном он меняется как môj: **svojmu**, **svojej**, **svojim**.",
+      "Emma kúpi šál **svojej** mame — своей, Эмминой маме, как и в русском. **Jej** mame — маме другой женщины, например Луции."
+    ]
+  },
+  "a2-u3-mojej-mame.grammar-svoj-dative.examples": {
+    "en": [
+      "Emma will buy her mum a scarf.",
+      "I'll buy it for my brother."
+    ],
+    "t": [
+      "Эмма купит своей маме шарф.",
+      "Я куплю это своему брату."
+    ]
+  },
+  "a2-u3-mojej-mame.fill-das-to-mojej-mame.en": {
+    "en": "Will you give it to my mum?",
+    "t": "Ты отдашь это моей маме?"
+  },
+  "a2-u3-mojej-mame.fill-das-to-mojej-mame.why": {
+    "en": "Mame is feminine and in the dative, so môj takes **-ej**: moj**ej** mame. Moju is the object form.",
+    "t": "Mame — женского рода и в дательном, поэтому môj получает **-ej**: moj**ej** mame (моей маме). Moju — винительный."
+  },
+  "a2-u3-mojej-mame.fill-co-kupime-tvojmu.en": {
+    "en": "What shall we buy your brother?",
+    "t": "Что мы купим твоему брату?"
+  },
+  "a2-u3-mojej-mame.fill-co-kupime-tvojmu.why": {
+    "en": "Bratovi is masculine dative, so tvoj takes **-mu**: tvoj**mu** bratovi. Tvojho is the object form.",
+    "t": "Bratovi — мужской род, дательный, поэтому tvoj получает **-mu**: tvoj**mu** bratovi (твоему брату). Tvojho — винительный."
+  },
+  "a2-u3-mojej-mame.fill-poslem-fotky-tvojim.en": {
+    "en": "I'll send the photos to your parents.",
+    "t": "Я пошлю фотографии твоим родителям."
+  },
+  "a2-u3-mojej-mame.fill-poslem-fotky-tvojim.why": {
+    "en": "Rodičom is plural dative, so tvoj takes **-im**: tvoj**im** rodičom. Tvojich is the object form.",
+    "t": "Rodičom — дательный множественного числа, поэтому tvoj получает **-im**: tvoj**im** rodičom (твоим родителям). Tvojich — винительный."
+  },
+  "a2-u3-mojej-mame.fill-dakujem-vasej-rodine.en": {
+    "en": "My thanks to your family for the invitation.",
+    "t": "Спасибо вашей семье за приглашение."
+  },
+  "a2-u3-mojej-mame.fill-dakujem-vasej-rodine.why": {
+    "en": "Ďakovať takes the dative, and rodina is feminine: **vašej** rodine. Vašu is the object form.",
+    "t": "Ďakovať требует дательного, как «спасибо вам», а rodina — женского рода: **vašej** rodine. Vašu — винительный."
+  },
+  "a2-u3-mojej-mame.build-tie-papuce-sa-pacia.prompt": {
+    "en": "Our grandma likes those slippers.",
+    "t": "Нашей бабушке нравятся эти тапочки."
+  },
+  "a2-u3-mojej-mame.build-tie-papuce-sa-pacia.traps": {
+    "en": [
+      "Babka is the one who likes them, so she's in the dative, and so is náš: **našej** babke.",
+      "Papuče is plural, so the verb is **páčia** sa."
+    ],
+    "t": [
+      "Нравится бабушке, поэтому она в дательном, и náš тоже: **našej** babke (нашей бабушке).",
+      "Papuče — множественное число, поэтому глагол — **páčia** sa (нравятся)."
+    ]
+  },
+  "a2-u3-mojej-mame.choice-emma-kupi-jej-mame.question": {
+    "en": "Emma is buying a present for Lucia's mum. Emma kúpi darček ___ mame. Which word fits?",
+    "t": "Эмма покупает подарок маме Луции. Emma kúpi darček ___ mame. Какое слово подходит?"
+  },
+  "a2-u3-mojej-mame.choice-emma-kupi-jej-mame.why": {
+    "en": "It's Lucia's mum, so “her” is **jej**, which never changes. Svojej would mean Emma's own mum.",
+    "t": "Это мама Луции, поэтому «её» — **jej**, это слово не меняется. Svojej значило бы «своей», то есть Эмминой маме, как и в русском."
+  },
+  "a2-u3-mojej-mame.fill-emma-posle-svojej-sestre.en": {
+    "en": "Emma will send her sister a postcard.",
+    "t": "Эмма пошлёт своей сестре открытку."
+  },
+  "a2-u3-mojej-mame.fill-emma-posle-svojej-sestre.why": {
+    "en": "Emma is the subject and the owner, so it's **svoj**, and sestre is feminine dative: **svojej** sestre.",
+    "t": "Эмма — подлежащее и владелец, поэтому **svoj** (свой), а sestre — женский род, дательный: **svojej** sestre."
+  },
+  "a2-u3-mojej-mame.choice-nasmu-ujovi.question": {
+    "en": "“To our uncle”: which is right?",
+    "t": "«Нашему дяде»: как правильно?"
+  },
+  "a2-u3-mojej-mame.choice-nasmu-ujovi.why": {
+    "en": "Ujo is masculine and in the dative, so both words take the dative ending: **nášmu** ujovi.",
+    "t": "Ujo — мужского рода и в дательном, поэтому оба слова получают окончание дательного: **nášmu** ujovi (нашему дяде)."
+  },
+  "a2-u3-mojej-mame.build-co-kupime-vasmu-synovi.prompt": {
+    "en": "What shall we buy your son? (to uncle and aunt)",
+    "t": "Что мы купим вашему сыну? (дяде и тёте)"
+  },
+  "a2-u3-mojej-mame.build-co-kupime-vasmu-synovi.traps": {
+    "en": [
+      "Synovi is in the dative, so váš takes **-mu**: váš**mu** synovi.",
+      "Your son gets the present, so he's in the dative: syn**ovi**. Syna is the object form."
+    ],
+    "t": [
+      "Synovi — в дательном, поэтому váš получает **-mu**: váš**mu** synovi (вашему).",
+      "Ваш сын получает подарок, поэтому он в дательном: syn**ovi** (сыну). Syna — винительный."
+    ]
+  },
+  "a2-u3-mojej-mame.build-dam-to-jeho-mame.answers": {
+    "en": [
+      "I'll give it to his mum.",
+      "I'll give it to his mother."
+    ],
+    "t": [
+      "Я дам это его маме.",
+      "Я отдам это его маме.",
+      "Я дам это его матери."
+    ]
+  },
+  "a2-u3-mojej-mame.build-dam-to-jeho-mame.distractors": {
+    "en": [
+      "her",
+      "my"
+    ],
+    "t": [
+      "её",
+      "моей"
+    ]
+  },
+  "a2-u3-mojej-mame.speak-kupim-to-svojej.en": {
+    "en": "I'll buy it for my mum.",
+    "t": "Я куплю это своей маме."
+  },
+  "a2-u3-stedry-vecer.titleEn": {
+    "en": "Christmas Eve",
+    "t": "Сочельник"
+  },
+  "a2-u3-stedry-vecer.stedry-vecer.en": {
+    "en": "Christmas Eve (the evening of 24 December)",
+    "t": "Сочельник (вечер 24 декабря)"
+  },
+  "a2-u3-stedry-vecer.stedry-vecer.note": {
+    "en": "The day is **Štedrý deň**. Slovaks celebrate (**oslavovať**) with a big dinner on Christmas Eve, and open their presents after it.",
+    "t": "Сам день — **Štedrý deň** (ср. «щедрый»). Словаки празднуют (**oslavovať**) Рождество 24–26 декабря: в Сочельник — большой ужин, а после него открывают подарки."
+  },
+  "a2-u3-stedry-vecer.vianocny-stromcek.en": {
+    "en": "Christmas tree",
+    "t": "рождественская ёлка"
+  },
+  "a2-u3-stedry-vecer.vianocny-stromcek.note": {
+    "en": "The family **zdobí** (decorates) it just before Christmas, with **ozdoby** and **salónky**, sweets in shiny paper. Under it there's often a **betlehem**, a nativity scene.",
+    "t": "Семья **zdobí** (наряжает) её прямо перед Рождеством: вешает **ozdoby** (украшения) и **salónky** — конфеты в блестящей обёртке. Под ёлкой часто стоит **betlehem** — вертеп, сцена Рождества."
+  },
+  "a2-u3-stedry-vecer.build-na-stedry-den-zdobime.prompt": {
+    "en": "We decorate the tree on 24 December.",
+    "t": "Мы наряжаем ёлку 24 декабря."
+  },
+  "a2-u3-stedry-vecer.build-na-stedry-den-zdobime.traps": {
+    "en": [
+      "“We” is my, so the verb ends in **-me**: zdobíme.",
+      "One tree: **stromček**. Stromčeky is the plural."
+    ],
+    "t": [
+      "«Мы» — это my, поэтому глагол на **-me**: zdobíme (наряжаем).",
+      "Ёлка одна: **stromček**. Stromčeky — множественное число."
+    ]
+  },
+  "a2-u3-stedry-vecer.oplatky-s-medom.en": {
+    "en": "Christmas wafers with honey",
+    "t": "рождественские облатки с мёдом"
+  },
+  "a2-u3-stedry-vecer.oplatky-s-medom.note": {
+    "en": "Dinner starts with thin wafers, **oplátky** (also called oblátky), with honey, **med**.",
+    "t": "Ужин начинается с тонких вафель — **oplátky** (облатки; говорят и oblátky) — с мёдом, **med**."
+  },
+  "a2-u3-stedry-vecer.kapustnica.en": {
+    "en": "sauerkraut soup",
+    "t": "капустница (суп из квашеной капусты)"
+  },
+  "a2-u3-stedry-vecer.kapustnica.note": {
+    "en": "The Christmas soup, made from sauerkraut, often with mushrooms (**huby**) and sausage. Every family thinks theirs is the best.",
+    "t": "Рождественский суп из квашеной капусты, похожий на кислые щи, часто с грибами (**huby**) и колбасой. Каждая семья уверена, что её капустница — лучшая."
+  },
+  "a2-u3-stedry-vecer.fill-na-stedry-vecer-jeme.en": {
+    "en": "On Christmas Eve we eat sauerkraut soup.",
+    "t": "В Сочельник мы едим капустницу."
+  },
+  "a2-u3-stedry-vecer.fill-na-stedry-vecer-jeme.why": {
+    "en": "The soup is what we eat, the object, so kapustnica changes -a to **-u**.",
+    "t": "Суп — то, что едят, дополнение, поэтому kapustnica меняет -a на **-u**."
+  },
+  "a2-u3-stedry-vecer.kapor.en": {
+    "en": "carp",
+    "t": "карп"
+  },
+  "a2-u3-stedry-vecer.kapor.note": {
+    "en": "Fried carp with potato salad, **zemiakový šalát**, is the main course. Some families buy a live kapor and keep it in the bath until Christmas Eve!",
+    "t": "Жареный карп с картофельным салатом, **zemiakový šalát**, — главное блюдо. Некоторые семьи покупают живого карпа и держат его в ванне до Сочельника!"
+  },
+  "a2-u3-stedry-vecer.koleda.en": {
+    "en": "carol",
+    "t": "колядка, рождественская песня"
+  },
+  "a2-u3-stedry-vecer.koleda.note": {
+    "en": "After dinner, families sing **koledy** by the tree. Late in the evening many go to church for **polnočná omša**, Midnight Mass.",
+    "t": "После ужина семьи поют **koledy** у ёлки. Поздно вечером многие идут в костёл на **polnočná omša** — полуночную мессу."
+  },
+  "a2-u3-stedry-vecer.vesele-vianoce.en": {
+    "en": "Merry Christmas!",
+    "t": "С Рождеством!"
+  },
+  "a2-u3-stedry-vecer.vesele-vianoce.note": {
+    "en": "Children's presents come from **Ježiško**, baby Jesus, not from Father Christmas, and children write him a **list**, a letter.",
+    "t": "Подарки детям приносит не Дед Мороз, а **Ježiško** — младенец Иисус, и дети пишут ему **list** — письмо (а не «лист»)."
+  },
+  "a2-u3-stedry-vecer.fill-deti-pisu-list-jeziskovi.en": {
+    "en": "Children write a letter to baby Jesus.",
+    "t": "Дети пишут письмо младенцу Иисусу."
+  },
+  "a2-u3-stedry-vecer.fill-deti-pisu-list-jeziskovi.why": {
+    "en": "The letter goes to Ježiško, so he's in the dative, with **-ovi**: Ježišk**ovi**.",
+    "t": "Письмо адресовано Ježiško, поэтому он в дательном, с **-ovi**: Ježišk**ovi**."
+  },
+  "a2-u3-stedry-vecer.match-kapustnica.pairs": {
+    "en": [
+      "sauerkraut soup",
+      "carp",
+      "Christmas wafers",
+      "nativity scene",
+      "Midnight Mass"
+    ],
+    "t": [
+      "суп из квашеной капусты",
+      "карп",
+      "рождественские облатки",
+      "вертеп",
+      "полуночная месса"
+    ]
+  },
+  "a2-u3-stedry-vecer.fill-darceky-su-pod.en": {
+    "en": "The presents are under the tree.",
+    "t": "Подарки лежат под ёлкой."
+  },
+  "a2-u3-stedry-vecer.fill-darceky-su-pod.why": {
+    "en": "**Pod** (under) takes the instrumental when it says where: pod stromček**om**.",
+    "t": "**Pod** (под) на вопрос «где?» требует творительного, как и в русском: pod stromček**om** (под ёлкой)."
+  },
+  "a2-u3-stedry-vecer.choice-po-veceri-spievame.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u3-stedry-vecer.choice-po-veceri-spievame.options": {
+    "en": [
+      "Before dinner we decorate the tree.",
+      "After dinner we sing carols by the tree.",
+      "After dinner we open the presents."
+    ],
+    "t": [
+      "Перед ужином мы наряжаем ёлку.",
+      "После ужина мы поём колядки у ёлки.",
+      "После ужина мы открываем подарки."
+    ]
+  },
+  "a2-u3-stedry-vecer.choice-kedy-otvaraju-darceky.question": {
+    "en": "When do Slovak children open their presents?",
+    "t": "Когда словацкие дети открывают подарки?"
+  },
+  "a2-u3-stedry-vecer.build-ako-oslavujete-vianoce.prompt": {
+    "en": "How do you celebrate Christmas in Ireland?",
+    "t": "Как вы празднуете Рождество в Ирландии?"
+  },
+  "a2-u3-stedry-vecer.build-ako-oslavujete-vianoce.traps": {
+    "en": [
+      "In Ireland answers “where?”: v + the locative, **v Írsku**. Z Írska means from Ireland.",
+      "Christmas is what you celebrate, the object, and **Vianoce** doesn't change as an object."
+    ],
+    "t": [
+      "«В Ирландии» отвечает на вопрос «где?»: v + предложный, **v Írsku**. Z Írska — «из Ирландии».",
+      "Рождество — то, что празднуют, дополнение, а **Vianoce** как дополнение не меняется."
+    ]
+  },
+  "a2-u3-stedry-vecer.build-babka-vari-najlepsiu.answers": {
+    "en": [
+      "Grandma makes the best sauerkraut soup.",
+      "Grandma cooks the best sauerkraut soup."
+    ],
+    "t": [
+      "Бабушка варит лучшую капустницу.",
+      "Бабушка готовит лучшую капустницу.",
+      "Бабушка варит самую лучшую капустницу.",
+      "Лучшую капустницу варит бабушка."
+    ]
+  },
+  "a2-u3-stedry-vecer.build-babka-vari-najlepsiu.distractors": {
+    "en": [
+      "worst",
+      "Mum"
+    ],
+    "t": [
+      "худшую",
+      "мама"
+    ]
+  },
+  "a2-u3-stedry-vecer.speak-vesele-vianoce.en": {
+    "en": "Merry Christmas!",
+    "t": "С Рождеством!"
+  },
+  "a2-u3-paci-sa.titleEn": {
+    "en": "Three ways to like",
+    "t": "Три способа сказать «нравится»"
+  },
+  "a2-u3-paci-sa.grammar-three-ways-like.title": {
+    "en": "Mám rád, páči sa mi, chutí mi",
+    "t": "Mám rád, páči sa mi, chutí mi"
+  },
+  "a2-u3-paci-sa.grammar-three-ways-like.body": {
+    "en": [
+      "You know all three from A1: **mám rád** + the object form for liking someone or something in general (Mám rada babku), **páči sa mi** for what you see or hear, **chutí mi** for food and drink.",
+      "With páči sa and chutí, the thing you like is the subject, and the person is in the dative: mi, ti, babke…"
+    ],
+    "t": [
+      "Все три вы знаете из A1: **mám rád** + винительный — любить кого-то или что-то вообще (Mám rada babku), **páči sa mi** — «мне нравится» о том, что видите или слышите, **chutí mi** — «мне вкусно» о еде и напитках (ср. Dobrú chuť!).",
+      "С páči sa и chutí то, что нравится, — подлежащее, а человек стоит в дательном: mi, ti, babke… Точно как в «мне нравится»."
+    ]
+  },
+  "a2-u3-paci-sa.grammar-three-ways-like.table.head": {
+    "en": [
+      "",
+      "the person",
+      "the thing"
+    ],
+    "t": [
+      "",
+      "человек",
+      "предмет"
+    ]
+  },
+  "a2-u3-paci-sa.grammar-three-ways-like.table.rows": {
+    "en": [
+      [
+        "mať rád",
+        "**ja** mám rada",
+        "kapustnic**u**"
+      ],
+      [
+        "páčiť sa",
+        "páči sa **mi**",
+        "stromček"
+      ],
+      [
+        "chutiť",
+        "chutí **mi**",
+        "kapustnic**a**"
+      ]
+    ],
+    "t": [
+      [
+        "mať rád",
+        "**ja** mám rada",
+        "kapustnic**u**"
+      ],
+      [
+        "páčiť sa",
+        "páči sa **mi**",
+        "stromček"
+      ],
+      [
+        "chutiť",
+        "chutí **mi**",
+        "kapustnic**a**"
+      ]
+    ]
+  },
+  "a2-u3-paci-sa.grammar-three-ways-like.examples": {
+    "en": [
+      "I like sauerkraut soup.",
+      "I like the sauerkraut soup. (its taste)",
+      "Grandma likes your tree."
+    ],
+    "t": [
+      "Я люблю капустницу.",
+      "Мне нравится капустница. (на вкус)",
+      "Бабушке нравится ваша ёлка."
+    ]
+  },
+  "a2-u3-paci-sa.grammar-paci-pacia.title": {
+    "en": "Páči sa or páčia sa?",
+    "t": "Páči sa или páčia sa?"
+  },
+  "a2-u3-paci-sa.grammar-paci-pacia.body": {
+    "en": [
+      "As in A1, the verb agrees with the thing you like: páči sa mi stromček, **páčia** sa mi ozdoby. Chutiť does the same: chutí mi koláč, **chutia** mi koláče.",
+      "In the past it agrees too: **páčil** sa mi film, **páčila** sa mi kniha, **páčili** sa mi Vianoce."
+    ],
+    "t": [
+      "Как и в A1, глагол согласуется с тем, что нравится: páči sa mi stromček, **páčia** sa mi ozdoby — как «нравится, нравятся». С chutiť так же: chutí mi koláč, **chutia** mi koláče.",
+      "В прошедшем времени тоже: **páčil** sa mi film, **páčila** sa mi kniha, **páčili** sa mi Vianoce — как «понравился, понравилась, понравились»."
+    ]
+  },
+  "a2-u3-paci-sa.grammar-paci-pacia.examples": {
+    "en": [
+      "I like your slippers.",
+      "We like Grandma's cakes.",
+      "How did you like Christmas?"
+    ],
+    "t": [
+      "Мне нравятся твои тапочки.",
+      "Нам нравятся бабушкины пироги.",
+      "Как тебе понравилось Рождество?"
+    ]
+  },
+  "a2-u3-paci-sa.fill-paci-sa-mi-vas-stromcek.en": {
+    "en": "I like your Christmas tree.",
+    "t": "Мне нравится ваша ёлка."
+  },
+  "a2-u3-paci-sa.fill-paci-sa-mi-vas-stromcek.why": {
+    "en": "One tree, so the verb is singular: **Páči** sa mi stromček. Páčia is for more than one thing.",
+    "t": "Ёлка одна, поэтому глагол в единственном числе: **Páči** sa mi stromček. Páčia — когда вещей несколько."
+  },
+  "a2-u3-paci-sa.fill-babke-sa-pacia-koledy.en": {
+    "en": "Grandma likes carols.",
+    "t": "Бабушке нравятся колядки."
+  },
+  "a2-u3-paci-sa.fill-babke-sa-pacia-koledy.why": {
+    "en": "Koledy is plural, so the verb is too: **páčia** sa. It agrees with the carols, not with babka.",
+    "t": "Koledy — множественное число, поэтому и глагол тоже: **páčia** sa (нравятся). Он согласуется с колядками, а не с бабушкой."
+  },
+  "a2-u3-paci-sa.fill-chuti-ti-kapustnica.en": {
+    "en": "Do you like the sauerkraut soup?",
+    "t": "Тебе нравится капустница?"
+  },
+  "a2-u3-paci-sa.fill-chuti-ti-kapustnica.why": {
+    "en": "With chutiť, the food is the subject, so it doesn't change: **kapustnica**. Mám rád would need the object form, kapustnicu.",
+    "t": "С chutiť еда — подлежащее, поэтому не меняется: **kapustnica**. С mám rád нужен был бы винительный: kapustnicu."
+  },
+  "a2-u3-paci-sa.fill-mam-rada-kapustnicu.en": {
+    "en": "I like sauerkraut soup.",
+    "t": "Я люблю капустницу."
+  },
+  "a2-u3-paci-sa.fill-mam-rada-kapustnicu.why": {
+    "en": "After mám rád, what you like is the object, so -a becomes **-u**: kapustnic**u**.",
+    "t": "После mám rád то, что любят, — дополнение, поэтому -a меняется на **-u**: kapustnic**u**, как «люблю капустницу»."
+  },
+  "a2-u3-paci-sa.choice-emma-sees-scarf.question": {
+    "en": "Emma sees Lucia's new scarf for the first time. What does she say?",
+    "t": "Эмма впервые видит новый шарф Луции. Что она скажет?"
+  },
+  "a2-u3-paci-sa.choice-emma-sees-scarf.why": {
+    "en": "For something you see and like, say **páči sa mi**. Chutí is only for food, and mám rada is liking in general, often for a long time.",
+    "t": "О том, что видите и что вам нравится, говорят **páči sa mi**. Chutí — только о еде, а mám rada — «люблю», часто давно."
+  },
+  "a2-u3-paci-sa.build-babke-sa-pacia-koledy.prompt": {
+    "en": "Grandma likes the carols.",
+    "t": "Бабушке нравятся колядки."
+  },
+  "a2-u3-paci-sa.build-babke-sa-pacia-koledy.traps": {
+    "en": [
+      "Koledy is plural, so the verb is **páčia** sa.",
+      "With páčiť sa, the one who likes it is in the dative: **babke**."
+    ],
+    "t": [
+      "Koledy — множественное число, поэтому **páčia** sa (нравятся).",
+      "С páčiť sa тот, кому нравится, стоит в дательном, как «бабушке»: **babke**."
+    ]
+  },
+  "a2-u3-paci-sa.build-chutila-mi-polievka.prompt": {
+    "en": "I liked the soup.",
+    "t": "Мне понравился суп."
+  },
+  "a2-u3-paci-sa.build-chutila-mi-polievka.traps": {
+    "en": [
+      "The past agrees with the soup: polievka is feminine, so **chutila**.",
+      "The one who likes it is in the dative: **mi**. Ma is the object form."
+    ],
+    "t": [
+      "Прошедшее время согласуется с супом: polievka — женского рода (не как «суп»), поэтому **chutila**.",
+      "Тот, кому понравилось, — в дательном: **mi** (мне). Ma — винительный."
+    ]
+  },
+  "a2-u3-paci-sa.fill-ako-sa-vam-pacili.en": {
+    "en": "How did you like Christmas in Slovakia?",
+    "t": "Как вам понравилось Рождество в Словакии?"
+  },
+  "a2-u3-paci-sa.fill-ako-sa-vam-pacili.why": {
+    "en": "Vianoce is plural, so the past ends in **-li**: páčili.",
+    "t": "Vianoce — множественное число, поэтому прошедшее время на **-li**: páčili."
+  },
+  "a2-u3-paci-sa.choice-marekovi-chuti.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u3-paci-sa.choice-marekovi-chuti.options": {
+    "en": [
+      "Grandma likes Marek's sauerkraut soup.",
+      "Marek is cooking Grandma's sauerkraut soup.",
+      "Marek likes Grandma's sauerkraut soup."
+    ],
+    "t": [
+      "Бабушке нравится капустница Марека.",
+      "Марек варит бабушкину капустницу.",
+      "Мареку нравится бабушкина капустница."
+    ]
+  },
+  "a2-u3-paci-sa.choice-marekovi-chuti.why": {
+    "en": "**Marekovi** is the dative, the one who likes it. Kapustnica is the subject, and babkina says whose it is.",
+    "t": "**Marekovi** — дательный (Мареку), это тот, кому нравится. Kapustnica — подлежащее, а babkina говорит, чья она: бабушкина."
+  },
+  "a2-u3-paci-sa.fill-chutia-vam-kolace.en": {
+    "en": "Do you like Grandma's cakes?",
+    "t": "Вам нравятся бабушкины пироги?"
+  },
+  "a2-u3-paci-sa.fill-chutia-vam-kolace.why": {
+    "en": "Koláče is plural, so the verb is plural too: **chutia**.",
+    "t": "Koláče — множественное число, поэтому и глагол тоже: **chutia**."
+  },
+  "a2-u3-paci-sa.speak-paci-sa-mi-vas.en": {
+    "en": "I like your Christmas tree.",
+    "t": "Мне нравится ваша ёлка."
+  },
+  "a2-u3-slovesa.titleEn": {
+    "en": "Thanks for the present: verbs with the dative",
+    "t": "Спасибо за подарок: глаголы с дательным падежом"
+  },
+  "a2-u3-slovesa.grammar-verbs-dative.title": {
+    "en": "Give someone something",
+    "t": "Дать кому-то что-то"
+  },
+  "a2-u3-slovesa.grammar-verbs-dative.body": {
+    "en": [
+      "Many verbs have two objects: the thing, in the accusative, and the person who gets it, in the dative: dať **mame** darček, ukázať **babke** fotky, povedať **Lucii** niečo.",
+      "Some take only the dative: **pomáhať** (to help), **telefonovať** (to phone), **rozumieť** (to understand), **patriť** (to belong to)."
+    ],
+    "t": [
+      "У многих глаголов два дополнения, как и в русском: что — в винительном, кому — в дательном: dať **mame** darček, ukázať **babke** fotky, povedať **Lucii** niečo.",
+      "Некоторые требуют только дательного: **pomáhať** (помогать), **telefonovať** (звонить), **rozumieť** (понимать: у нас «понимать кого», а здесь «кому»), **patriť** (принадлежать)."
+    ]
+  },
+  "a2-u3-slovesa.grammar-verbs-dative.table.head": {
+    "en": [
+      "verb",
+      "example"
+    ],
+    "t": [
+      "глагол",
+      "пример"
+    ]
+  },
+  "a2-u3-slovesa.grammar-verbs-dative.table.rows": {
+    "en": [
+      [
+        "dať, darovať (give)",
+        "Darujem **mame** knihu."
+      ],
+      [
+        "ukázať (show)",
+        "Ukážem **babke** fotky."
+      ],
+      [
+        "povedať (tell)",
+        "Poviem **ti** niečo."
+      ],
+      [
+        "sľúbiť (promise)",
+        "Sľúbil som **Samkovi** knihu."
+      ],
+      [
+        "pomáhať (help)",
+        "Pomáham **mame** v kuchyni."
+      ],
+      [
+        "rozumieť (understand)",
+        "Rozumieš **babke**?"
+      ],
+      [
+        "patriť (belong)",
+        "Ten šál patrí **Lucii**."
+      ],
+      [
+        "blahoželať (congratulate)",
+        "Blahoželám **ti**!"
+      ]
+    ],
+    "t": [
+      [
+        "dať, darovať (дать, подарить)",
+        "Darujem **mame** knihu."
+      ],
+      [
+        "ukázať (показать)",
+        "Ukážem **babke** fotky."
+      ],
+      [
+        "povedať (сказать)",
+        "Poviem **ti** niečo."
+      ],
+      [
+        "sľúbiť (обещать)",
+        "Sľúbil som **Samkovi** knihu."
+      ],
+      [
+        "pomáhať (помогать)",
+        "Pomáham **mame** v kuchyni."
+      ],
+      [
+        "rozumieť (понимать)",
+        "Rozumieš **babke**?"
+      ],
+      [
+        "patriť (принадлежать)",
+        "Ten šál patrí **Lucii**."
+      ],
+      [
+        "blahoželať (поздравлять)",
+        "Blahoželám **ti**!"
+      ]
+    ]
+  },
+  "a2-u3-slovesa.grammar-verbs-dative.examples": {
+    "en": [
+      "Lucia is helping Mum in the kitchen.",
+      "Whose scarf is that? – Lucia's."
+    ],
+    "t": [
+      "Луция помогает маме на кухне.",
+      "Чей это шарф? — Луции."
+    ]
+  },
+  "a2-u3-slovesa.grammar-dakovat-za.title": {
+    "en": "Thank someone for something",
+    "t": "Поблагодарить кого-то за что-то"
+  },
+  "a2-u3-slovesa.grammar-dakovat-za.body": {
+    "en": [
+      "**Ďakovať** takes the person in the dative and **za** + the object form for the reason: Ďakujem **ti** za darček. Ďakujeme **babke** za večeru.",
+      "With **kúpiť**, **uvariť** (to cook) and **pripraviť** (to make), you can say who it's for in two ways: Uvarím **ti** čaj. = Uvarím čaj **pre teba**."
+    ],
+    "t": [
+      "**Ďakovať** требует человека в дательном, как в «спасибо тебе» (а не «благодарю тебя»), а причину — **za** + винительный: Ďakujem **ti** za darček. Ďakujeme **babke** za večeru.",
+      "С **kúpiť**, **uvariť** (сварить, заварить) и **pripraviť** (приготовить) сказать, для кого, можно двумя способами: Uvarím **ti** čaj. = Uvarím čaj **pre teba**."
+    ]
+  },
+  "a2-u3-slovesa.grammar-dakovat-za.examples": {
+    "en": [
+      "Thank you for the invitation.",
+      "We thank Grandma for the dinner.",
+      "I'll make you some tea."
+    ],
+    "t": [
+      "Спасибо вам за приглашение.",
+      "Мы благодарим бабушку за ужин.",
+      "Я заварю тебе чай."
+    ]
+  },
+  "a2-u3-slovesa.fill-dakujem-ti-za-darcek.en": {
+    "en": "Thank you for the present.",
+    "t": "Спасибо тебе за подарок."
+  },
+  "a2-u3-slovesa.fill-dakujem-ti-za-darcek.why": {
+    "en": "You thank someone **za** (for) something: ďakujem ti **za** darček.",
+    "t": "Благодарят **za** (за) что-то, как и в русском: ďakujem ti **za** darček."
+  },
+  "a2-u3-slovesa.fill-lucia-pomaha-mame.en": {
+    "en": "Lucia is helping Mum in the kitchen.",
+    "t": "Луция помогает маме на кухне."
+  },
+  "a2-u3-slovesa.fill-lucia-pomaha-mame.why": {
+    "en": "**Pomáhať** takes the dative, so mama changes to **mame**. Mamu is the object form.",
+    "t": "**Pomáhať** требует дательного, как «помогать маме», поэтому mama меняется на **mame**. Mamu — винительный."
+  },
+  "a2-u3-slovesa.build-ukazem-babke-fotky.prompt": {
+    "en": "I'll show Grandma the photos.",
+    "t": "Я покажу бабушке фотографии."
+  },
+  "a2-u3-slovesa.build-ukazem-babke-fotky.traps": {
+    "en": [
+      "Grandma is the one you show them to, so she's in the dative: **babke**. Babku is the object form.",
+      "“I” is ja, so the verb ends in **-m**: ukážem."
+    ],
+    "t": [
+      "Бабушке показывают фотографии, поэтому она в дательном: **babke**. Babku — винительный.",
+      "«Я» — это ja, поэтому глагол на **-m**: ukážem (покажу)."
+    ]
+  },
+  "a2-u3-slovesa.fill-na-vianoce-darujem-mame.en": {
+    "en": "For Christmas I'm giving Mum a book.",
+    "t": "На Рождество я подарю маме книгу."
+  },
+  "a2-u3-slovesa.fill-na-vianoce-darujem-mame.why": {
+    "en": "**Darovať** (to give as a present) takes the person in the dative: mam**e**. Mamu is the object form.",
+    "t": "**Darovať** (дарить) требует человека в дательном, как «подарить маме»: mam**e**. Mamu — винительный."
+  },
+  "a2-u3-slovesa.build-prepacte-nerozumiem-vam.prompt": {
+    "en": "Sorry, I don't understand you. (Emma to babka)",
+    "t": "Извините, я вас не понимаю. (Эмма — бабушке)"
+  },
+  "a2-u3-slovesa.build-prepacte-nerozumiem-vam.traps": {
+    "en": [
+      "**Rozumieť** takes the dative: **vám**. Vás is the object form.",
+      "Not understanding is ne- + the verb, written as one word: **nerozumiem**."
+    ],
+    "t": [
+      "**Rozumieť** требует дательного: **vám**, хотя по-русски «понимаю вас». Vás — винительный.",
+      "«Не понимаю» — ne- вместе с глаголом, одним словом: **nerozumiem**."
+    ]
+  },
+  "a2-u3-slovesa.fill-komu-patri-ten-sal.en": {
+    "en": "Whose scarf is that? – Lucia's.",
+    "t": "Чей это шарф? — Луции."
+  },
+  "a2-u3-slovesa.fill-komu-patri-ten-sal.why": {
+    "en": "**Patriť** (to belong) takes the dative, and Lucia becomes **Lucii**.",
+    "t": "**Patriť** (принадлежать) требует дательного, как «принадлежит Луции», и Lucia становится **Lucii**."
+  },
+  "a2-u3-slovesa.grammar-chybat.title": {
+    "en": "Chýbaš mi: I miss you",
+    "t": "Chýbaš mi: я по тебе скучаю"
+  },
+  "a2-u3-slovesa.grammar-chybat.body": {
+    "en": [
+      "Like páčiť sa and chutiť, **chýbať** turns the sentence round: the one you miss is the subject, and you're in the dative.",
+      "**Chýbaš mi.** = I miss you (you are missing to me). **Chýba mi rodina.** = I miss my family. **Chýbajú mi** rodičia. = I miss my parents."
+    ],
+    "t": [
+      "Как páčiť sa и chutiť, **chýbať** переворачивает предложение: тот, по кому скучают, — подлежащее, а вы — в дательном. Похоже на «мне тебя не хватает».",
+      "**Chýbaš mi.** = Я по тебе скучаю (дословно «ты мне не хватаешь»). **Chýba mi rodina.** = Я скучаю по семье. **Chýbajú mi** rodičia. = Я скучаю по родителям."
+    ]
+  },
+  "a2-u3-slovesa.grammar-chybat.examples": {
+    "en": [
+      "I miss you.",
+      "Emma misses her family."
+    ],
+    "t": [
+      "Я по тебе скучаю.",
+      "Эмма скучает по семье."
+    ]
+  },
+  "a2-u3-slovesa.choice-chybas-mi.question": {
+    "en": "Emma phones her mum in Dublin on Christmas Day. How does she say “I miss you”?",
+    "t": "25 декабря Эмма звонит маме в Дублин. Как она скажет «Я по тебе скучаю»?"
+  },
+  "a2-u3-slovesa.choice-chybas-mi.why": {
+    "en": "The one you miss is the subject, **chýbaš** (you are missing), and you're in the dative, **mi**. Chýbam ti would mean “you miss me”.",
+    "t": "Тот, по кому скучают, — подлежащее, **chýbaš** (тебя не хватает), а вы — в дательном, **mi**. Chýbam ti значило бы «ты скучаешь по мне»."
+  },
+  "a2-u3-slovesa.build-chyba-mi-rodina.prompt": {
+    "en": "I miss my family.",
+    "t": "Я скучаю по семье."
+  },
+  "a2-u3-slovesa.build-chyba-mi-rodina.traps": {
+    "en": [
+      "The one who misses is in the dative: **mi**. Ma is the object form.",
+      "The family is the subject, so the verb is **chýba** (it is missing). Chýbam would mean “I am missing”."
+    ],
+    "t": [
+      "Тот, кто скучает, — в дательном: **mi** (мне). Ma — винительный.",
+      "Семья — подлежащее, поэтому глагол **chýba** (её не хватает). Chýbam значило бы «меня не хватает»."
+    ]
+  },
+  "a2-u3-slovesa.fill-samko-slubil-babke.en": {
+    "en": "Samko promised Grandma he'd be good.",
+    "t": "Самко пообещал бабушке, что будет хорошо себя вести."
+  },
+  "a2-u3-slovesa.fill-samko-slubil-babke.why": {
+    "en": "You promise something **to** someone, so it's the dative: babk**e**.",
+    "t": "Обещают кому-то, поэтому нужен дательный, как «обещал бабушке»: babk**e**."
+  },
+  "a2-u3-slovesa.fill-uvarim-caj-pre-teba.en": {
+    "en": "I'll make some tea for you.",
+    "t": "Я заварю чай для тебя."
+  },
+  "a2-u3-slovesa.fill-uvarim-caj-pre-teba.why": {
+    "en": "**Pre** takes the object form, the long one after a preposition: pre **teba**. Without pre: Uvarím **ti** čaj.",
+    "t": "**Pre** требует винительного, а после предлога — полная форма: pre **teba** (для тебя). Без pre: Uvarím **ti** čaj."
+  },
+  "a2-u3-slovesa.fill-blahozelam-ti-samko.en": {
+    "en": "Congratulations, Samko!",
+    "t": "Поздравляю, Самко!"
+  },
+  "a2-u3-slovesa.fill-blahozelam-ti-samko.why": {
+    "en": "**Blahoželať** (to congratulate) takes the dative: **ti**, the short form. Ťa and teba are object forms.",
+    "t": "**Blahoželať** (поздравлять) требует дательного: **ti**, краткая форма, хотя по-русски «поздравляю тебя». Ťa и teba — винительный."
+  },
+  "a2-u3-slovesa.build-dakujeme-babke-za-veceru.prompt": {
+    "en": "We thank Grandma for the dinner.",
+    "t": "Мы благодарим бабушку за ужин."
+  },
+  "a2-u3-slovesa.build-dakujeme-babke-za-veceru.traps": {
+    "en": [
+      "Ďakovať takes the person in the dative: **babke**.",
+      "After **za** comes the object form: za večer**u**."
+    ],
+    "t": [
+      "Ďakovať требует человека в дательном: **babke**, хотя по-русски «благодарим бабушку».",
+      "После **za** идёт винительный: za večer**u**, как «за ужин»."
+    ]
+  },
+  "a2-u3-slovesa.build-ten-sal-patri-emme.answers": {
+    "en": [
+      "That scarf belongs to Emma, not Lucia.",
+      "That scarf belongs to Emma, not to Lucia."
+    ],
+    "t": [
+      "Этот шарф принадлежит Эмме, а не Луции.",
+      "Этот шарф Эммин, а не Луцин.",
+      "Это шарф Эммы, а не Луции."
+    ]
+  },
+  "a2-u3-slovesa.build-ten-sal-patri-emme.distractors": {
+    "en": [
+      "gives",
+      "mine"
+    ],
+    "t": [
+      "даёт",
+      "мой"
+    ]
+  },
+  "a2-u3-slovesa.speak-dakujem-ti-za-darcek.en": {
+    "en": "Thank you for the present.",
+    "t": "Спасибо тебе за подарок."
+  },
+  "a2-u3-pocity.titleEn": {
+    "en": "How do you feel?",
+    "t": "Как ты себя чувствуешь?"
+  },
+  "a2-u3-pocity.stastny-a-nestastny.en": {
+    "en": "happy and unhappy",
+    "t": "счастливый и несчастный"
+  },
+  "a2-u3-pocity.stastny-a-nestastny.note": {
+    "en": "Emma is **šťastná**: there was a present for her under the Šimkos' tree too.",
+    "t": "Эмма **šťastná**: под ёлкой семьи Шимко был подарок и для неё."
+  },
+  "a2-u3-pocity.fill-emma-je-stastna.en": {
+    "en": "Emma is very happy.",
+    "t": "Эмма очень счастлива."
+  },
+  "a2-u3-pocity.fill-emma-je-stastna.why": {
+    "en": "Emma is a woman, so the adjective ends in **-á**: šťastn**á**.",
+    "t": "Эмма — женщина, поэтому прилагательное на **-á**: šťastn**á**."
+  },
+  "a2-u3-pocity.prekvapeny.en": {
+    "en": "surprised",
+    "t": "удивлённый"
+  },
+  "a2-u3-pocity.prekvapeny.note": {
+    "en": "You met prekvapený in unit 2: pán Kováč wasn't angry, just surprised. A surprise is a **prekvapenie**: To je prekvapenie!",
+    "t": "Prekvapený вы встречали в разделе 2: пан Ковач не рассердился, а просто удивился. Сюрприз — **prekvapenie**: To je prekvapenie!"
+  },
+  "a2-u3-pocity.choice-babka-bola-prekvapena.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u3-pocity.choice-babka-bola-prekvapena.options": {
+    "en": [
+      "Grandma was very angry.",
+      "Grandma was very tired.",
+      "Grandma was very surprised."
+    ],
+    "t": [
+      "Бабушка очень рассердилась.",
+      "Бабушка очень устала.",
+      "Бабушка очень удивилась."
+    ]
+  },
+  "a2-u3-pocity.build-preco-si-nahnevany.prompt": {
+    "en": "Why are you cross, Samko?",
+    "t": "Почему ты сердишься, Самко?"
+  },
+  "a2-u3-pocity.build-preco-si-nahnevany.traps": {
+    "en": [
+      "Samko is a boy, so it's nahnevan**ý**.",
+      "You're asking Samko himself (ty), so byť is **si**."
+    ],
+    "t": [
+      "Самко — мальчик, поэтому nahnevan**ý**.",
+      "Вы спрашиваете самого Самко (ty), поэтому byť — **si**."
+    ]
+  },
+  "a2-u3-pocity.fill-samko-je-nahnevany-pretoze.en": {
+    "en": "Samko is cross because he has to go to bed.",
+    "t": "Самко сердится, потому что ему пора спать."
+  },
+  "a2-u3-pocity.fill-samko-je-nahnevany-pretoze.why": {
+    "en": "**Pretože** (because) gives the reason. Prečo asks why.",
+    "t": "**Pretože** (потому что) называет причину. Prečo — «почему»."
+  },
+  "a2-u3-pocity.zalubeny.en": {
+    "en": "in love",
+    "t": "влюблённый"
+  },
+  "a2-u3-pocity.zalubeny.note": {
+    "en": "Ujo Pavol a teta Mirka sú stále **zaľúbení**. (**stále** = still, all the time)",
+    "t": "Ujo Pavol a teta Mirka sú stále **zaľúbení**. (**stále** = всё ещё, постоянно)"
+  },
+  "a2-u3-pocity.fill-ujo-a-teta-su-zalubeni.en": {
+    "en": "Uncle Pavol and Aunt Mirka are still in love.",
+    "t": "Дядя Павол и тётя Мирка всё ещё влюблены."
+  },
+  "a2-u3-pocity.fill-ujo-a-teta-su-zalubeni.why": {
+    "en": "A man and a woman together count as men, so the adjective ends in **-í**: zaľúben**í**.",
+    "t": "Мужчина и женщина вместе считаются как мужчины, поэтому прилагательное на **-í**: zaľúben**í**."
+  },
+  "a2-u3-pocity.bojim-sa.en": {
+    "en": "I'm scared.",
+    "t": "Я боюсь."
+  },
+  "a2-u3-pocity.bojim-sa.note": {
+    "en": "**báť sa** = to be afraid: bojím sa, bojíš sa, bojí sa… Nebojím sa! = I'm not scared!",
+    "t": "**báť sa** = бояться: bojím sa, bojíš sa, bojí sa… — почти как «боюсь, боишься». Nebojím sa! = Я не боюсь!"
+  },
+  "a2-u3-pocity.fill-samko-sa-boji.en": {
+    "en": "Samko is afraid that baby Jesus won't come.",
+    "t": "Самко боится, что младенец Иисус не придёт."
+  },
+  "a2-u3-pocity.fill-samko-sa-boji.why": {
+    "en": "Samko is on, so the verb has no ending: **bojí** sa. Bojím goes with ja, boja with oni.",
+    "t": "Самко — on, поэтому у глагола нет окончания: **bojí** sa (боится). Bojím — с ja, boja — с oni."
+  },
+  "a2-u3-pocity.match-stastny.pairs": {
+    "en": [
+      "happy",
+      "unhappy",
+      "angry",
+      "surprised",
+      "in love"
+    ],
+    "t": [
+      "счастливый",
+      "несчастный",
+      "сердитый",
+      "удивлённый",
+      "влюблённый"
+    ]
+  },
+  "a2-u3-pocity.build-dnes-je-samko-stastnejsi.prompt": {
+    "en": "Today Samko is happier than yesterday.",
+    "t": "Сегодня Самко счастливее, чем вчера."
+  },
+  "a2-u3-pocity.build-dnes-je-samko-stastnejsi.traps": {
+    "en": [
+      "Samko is a boy, so the comparative ends in **-í**: šťastnejš**í**.",
+      "Comparing with yesterday takes the comparative, **šťastnejší** ako… Naj- is for the happiest of all."
+    ],
+    "t": [
+      "Самко — мальчик, поэтому сравнительная степень на **-í**: šťastnejš**í**.",
+      "Сравнение со вчерашним днём — это сравнительная степень, **šťastnejší** ako… Naj- — для «самого счастливого»."
+    ]
+  },
+  "a2-u3-pocity.choice-emma-je-trochu-smutna.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u3-pocity.choice-emma-je-trochu-smutna.options": {
+    "en": [
+      "Emma is a bit tired; she's going home.",
+      "Emma is a bit sad; she misses her family.",
+      "Emma is happy; her family is coming."
+    ],
+    "t": [
+      "Эмма немного устала, она едет домой.",
+      "Эмме немного грустно, она скучает по семье.",
+      "Эмма счастлива, к ней приезжает семья."
+    ]
+  },
+  "a2-u3-pocity.build-to-je-prekvapenie.answers": {
+    "en": [
+      "What a surprise!",
+      "That's a surprise!",
+      "It's a surprise!"
+    ],
+    "t": [
+      "Вот это сюрприз!",
+      "Это сюрприз!",
+      "Какой сюрприз!"
+    ]
+  },
+  "a2-u3-pocity.build-to-je-prekvapenie.distractors": {
+    "en": [
+      "pity",
+      "present"
+    ],
+    "t": [
+      "жаль",
+      "подарок"
+    ]
+  },
+  "a2-u3-pocity.speak-som-velmi-stastna.en": {
+    "en": "I'm very happy! (a woman speaking)",
+    "t": "Я очень счастлива! (говорит женщина)"
+  },
+  "a2-u3-k-ujovi.titleEn": {
+    "en": "To uncle's, thanks to Grandma",
+    "t": "К дяде, благодаря бабушке"
+  },
+  "a2-u3-k-ujovi.grammar-k-ku.title": {
+    "en": "k, ku: to someone's place",
+    "t": "k, ku: к кому-то"
+  },
+  "a2-u3-k-ujovi.grammar-k-ku.body": {
+    "en": [
+      "**k** + the dative means towards someone or something, or to someone's place: Ideme **k** ujovi. = We're going to uncle's. Sadneme si **k** stolu. = We'll sit down at the table. It also gives the occasion: darček **k** Vianociam.",
+      "Before a word starting with k or g, and before mne, it's **ku**: **ku** kamarátovi, **ku** mne. After k, on, ona and oni start with n-: k **nemu**, k **nej**, k **nim**.",
+      "Things take **-u**, not -ovi: stôl → k stol**u**, okno → k okn**u**. -ovi is for people and animals."
+    ],
+    "t": [
+      "**k** + дательный — как русское «к»: к кому-то или к чему-то, к кому-то домой: Ideme **k** ujovi. = Идём к дяде. Sadneme si **k** stolu. = Сядем за стол. И повод, как в «подарок к Рождеству»: darček **k** Vianociam.",
+      "Перед словом на k или g и перед mne — **ku** (ср. «ко мне»): **ku** kamarátovi, **ku** mne. После k местоимения on, ona, oni начинаются с n-, совсем как в русском: k **nemu**, k **nej**, k **nim**.",
+      "Неодушевлённые слова получают **-u**, а не -ovi, как в «к столу»: stôl → k stol**u**, okno → k okn**u**. -ovi — для людей и животных."
+    ]
+  },
+  "a2-u3-k-ujovi.grammar-k-ku.table.head": {
+    "en": [
+      "",
+      "to …"
+    ],
+    "t": [
+      "",
+      "к …"
+    ]
+  },
+  "a2-u3-k-ujovi.grammar-k-ku.table.rows": {
+    "en": [
+      [
+        "ujo",
+        "k uj**ovi**"
+      ],
+      [
+        "babka",
+        "k babk**e**"
+      ],
+      [
+        "rodičia",
+        "k rodič**om**"
+      ],
+      [
+        "stôl",
+        "k stol**u**"
+      ],
+      [
+        "ja",
+        "**ku** mne"
+      ],
+      [
+        "on",
+        "k **nemu**"
+      ],
+      [
+        "ona",
+        "k **nej**"
+      ],
+      [
+        "oni",
+        "k **nim**"
+      ]
+    ],
+    "t": [
+      [
+        "ujo",
+        "k uj**ovi**"
+      ],
+      [
+        "babka",
+        "k babk**e**"
+      ],
+      [
+        "rodičia",
+        "k rodič**om**"
+      ],
+      [
+        "stôl",
+        "k stol**u**"
+      ],
+      [
+        "ja",
+        "**ku** mne"
+      ],
+      [
+        "on",
+        "k **nemu**"
+      ],
+      [
+        "ona",
+        "k **nej**"
+      ],
+      [
+        "oni",
+        "k **nim**"
+      ]
+    ]
+  },
+  "a2-u3-k-ujovi.grammar-k-ku.examples": {
+    "en": [
+      "We're going to Grandma's for Christmas.",
+      "Will you come to my place?"
+    ],
+    "t": [
+      "На Рождество мы едем к бабушке.",
+      "Придёшь ко мне?"
+    ]
+  },
+  "a2-u3-k-ujovi.grammar-oproti-vdaka.title": {
+    "en": "Opposite, thanks to, because of",
+    "t": "Напротив, благодаря, из-за"
+  },
+  "a2-u3-k-ujovi.grammar-oproti-vdaka.body": {
+    "en": [
+      "Six more prepositions take the dative. New words here: **chrípka** (flu) and **von** (out). You know sneh (snow) and stanica (station).",
+      "**Vďaka** is for a good cause, **kvôli** for a bad or neutral one: Vďaka babke je večera výborná. Kvôli snehu mešká vlak."
+    ],
+    "t": [
+      "Ещё шесть предлогов требуют дательного. Новые слова: **chrípka** (грипп) и **von** (на улицу, наружу). Sneh (снег) и stanica (вокзал) вы уже знаете.",
+      "**Vďaka** — хорошая причина (благодаря), **kvôli** — плохая или нейтральная (из-за): Vďaka babke je večera výborná. Kvôli snehu mešká vlak. Внимание: oproti и proti — тоже с дательным, хотя «напротив» и «против» требуют родительного."
+    ]
+  },
+  "a2-u3-k-ujovi.grammar-oproti-vdaka.table.head": {
+    "en": [
+      "",
+      "means",
+      "example"
+    ],
+    "t": [
+      "",
+      "значение",
+      "пример"
+    ]
+  },
+  "a2-u3-k-ujovi.grammar-oproti-vdaka.table.rows": {
+    "en": [
+      [
+        "oproti",
+        "opposite",
+        "Oproti domu je kostol."
+      ],
+      [
+        "naproti",
+        "to meet someone",
+        "Otec išiel Emme naproti."
+      ],
+      [
+        "vďaka",
+        "thanks to",
+        "Vďaka babke je večera výborná."
+      ],
+      [
+        "kvôli",
+        "because of",
+        "Kvôli snehu mešká vlak."
+      ],
+      [
+        "proti",
+        "against",
+        "Čaj proti chrípke."
+      ],
+      [
+        "napriek",
+        "in spite of",
+        "Napriek snehu ideme von."
+      ]
+    ],
+    "t": [
+      [
+        "oproti",
+        "напротив",
+        "Oproti domu je kostol."
+      ],
+      [
+        "naproti",
+        "навстречу",
+        "Otec išiel Emme naproti."
+      ],
+      [
+        "vďaka",
+        "благодаря",
+        "Vďaka babke je večera výborná."
+      ],
+      [
+        "kvôli",
+        "из-за",
+        "Kvôli snehu mešká vlak."
+      ],
+      [
+        "proti",
+        "против",
+        "Čaj proti chrípke."
+      ],
+      [
+        "napriek",
+        "вопреки, несмотря на",
+        "Napriek snehu ideme von."
+      ]
+    ]
+  },
+  "a2-u3-k-ujovi.grammar-oproti-vdaka.examples": {
+    "en": [
+      "Dad went to meet Emma and Lucia at the station.",
+      "Thanks to Grandma, dinner is excellent."
+    ],
+    "t": [
+      "Папа пошёл встречать Эмму и Луцию на вокзал.",
+      "Благодаря бабушке ужин отличный."
+    ]
+  },
+  "a2-u3-k-ujovi.fill-zajtra-ideme-k-ujovi.en": {
+    "en": "Tomorrow we're going to Uncle Pavol's.",
+    "t": "Завтра мы идём к дяде Паволу."
+  },
+  "a2-u3-k-ujovi.fill-zajtra-ideme-k-ujovi.why": {
+    "en": "To someone's place is **k** + the dative. Ku is only before k, g or mne, and do is for places, not people.",
+    "t": "К кому-то домой — **k** + дательный, как «к дяде». Ku — только перед k, g или mne, а do — для мест, а не людей."
+  },
+  "a2-u3-k-ujovi.fill-prides-ku-mne.en": {
+    "en": "Will you come to my place?",
+    "t": "Придёшь ко мне?"
+  },
+  "a2-u3-k-ujovi.fill-prides-ku-mne.why": {
+    "en": "Before **mne**, k becomes **ku**: ku mne.",
+    "t": "Перед **mne** k становится **ku**: ku mne, как «ко мне»."
+  },
+  "a2-u3-k-ujovi.fill-sadneme-si-k-stolu.en": {
+    "en": "We'll sit down at the table.",
+    "t": "Сядем за стол."
+  },
+  "a2-u3-k-ujovi.fill-sadneme-si-k-stolu.why": {
+    "en": "**K** takes the dative, and stôl is a thing, so it takes **-u**, not -ovi (and ô becomes o): k stol**u**. Stole is the locative.",
+    "t": "**K** требует дательного, а stôl — неодушевлённое, поэтому **-u**, а не -ovi (и ô становится o): k stol**u**, как «к столу». Stole — предложный."
+  },
+  "a2-u3-k-ujovi.fill-emma-ide-k-oknu.en": {
+    "en": "Emma goes over to the window.",
+    "t": "Эмма подходит к окну."
+  },
+  "a2-u3-k-ujovi.fill-emma-ide-k-oknu.why": {
+    "en": "**K** takes the dative, and okno, a neuter thing, takes **-u**: k okn**u**. Okne is the locative.",
+    "t": "**K** требует дательного, а okno, неодушевлённое среднего рода, получает **-u**: k okn**u**, как «к окну». Okne — предложный."
+  },
+  "a2-u3-k-ujovi.choice-ideme-k-nim.question": {
+    "en": "“We're going to their place.” Which is right?",
+    "t": "«Мы идём к ним». Как правильно?"
+  },
+  "a2-u3-k-ujovi.choice-ideme-k-nim.why": {
+    "en": "After a preposition, oni starts with n-: k **nim**.",
+    "t": "После предлога oni начинается с n-, как в русском: k **nim** (к ним)."
+  },
+  "a2-u3-k-ujovi.fill-kostol-je-oproti.en": {
+    "en": "The church is opposite our house.",
+    "t": "Костёл напротив нашего дома."
+  },
+  "a2-u3-k-ujovi.fill-kostol-je-oproti.why": {
+    "en": "**Oproti** takes the dative, so náš becomes **nášmu**, like dom → domu.",
+    "t": "**Oproti** требует дательного, а не родительного, как «напротив», поэтому náš становится **nášmu**, как dom → domu."
+  },
+  "a2-u3-k-ujovi.build-otec-isiel-emme-naproti.prompt": {
+    "en": "Dad went to meet Emma at the station.",
+    "t": "Папа пошёл встречать Эмму на вокзал."
+  },
+  "a2-u3-k-ujovi.build-otec-isiel-emme-naproti.traps": {
+    "en": [
+      "**Naproti** takes the dative: Emm**e**. Emmu is the object form.",
+      "Going to meet someone is ísť niekomu **naproti**. Oproti means opposite."
+    ],
+    "t": [
+      "**Naproti** требует дательного, как «навстречу Эмме»: Emm**e**. Emmu — винительный.",
+      "Встречать кого-то — ísť niekomu **naproti** (идти навстречу). Oproti — «напротив»."
+    ]
+  },
+  "a2-u3-k-ujovi.fill-kvoli-snehu.en": {
+    "en": "The train is late because of the snow.",
+    "t": "Поезд опаздывает из-за снега."
+  },
+  "a2-u3-k-ujovi.fill-kvoli-snehu.why": {
+    "en": "The snow is a bad cause, so it's **kvôli** (because of). Vďaka is for good causes.",
+    "t": "Снег — плохая причина, поэтому **kvôli** (из-за). Vďaka — для хороших причин."
+  },
+  "a2-u3-k-ujovi.fill-vdaka-babke.en": {
+    "en": "Thanks to Grandma, the sauerkraut soup is excellent.",
+    "t": "Благодаря бабушке капустница отличная."
+  },
+  "a2-u3-k-ujovi.fill-vdaka-babke.why": {
+    "en": "Grandma is a good cause: **vďaka** (thanks to).",
+    "t": "Бабушка — хорошая причина: **vďaka** (благодаря), с дательным, как и в русском."
+  },
+  "a2-u3-k-ujovi.fill-caj-proti-chripke.en": {
+    "en": "Grandma is making a tea against flu.",
+    "t": "Бабушка заваривает чай от гриппа."
+  },
+  "a2-u3-k-ujovi.fill-caj-proti-chripke.why": {
+    "en": "**Proti** takes the dative: chrípka → chrípk**e**.",
+    "t": "**Proti** требует дательного (у нас «против» — с родительным): chrípka → chrípk**e**."
+  },
+  "a2-u3-k-ujovi.build-napriek-snehu-ideme.answers": {
+    "en": [
+      "We're going out in spite of the snow.",
+      "We're going out despite the snow.",
+      "In spite of the snow, we're going out."
+    ],
+    "t": [
+      "Несмотря на снег, мы идём гулять.",
+      "Мы идём гулять, несмотря на снег.",
+      "Несмотря на снег, мы идём на улицу.",
+      "Мы идём на улицу, несмотря на снег."
+    ]
+  },
+  "a2-u3-k-ujovi.build-napriek-snehu-ideme.distractors": {
+    "en": [
+      "because",
+      "rain"
+    ],
+    "t": [
+      "из-за",
+      "дождь"
+    ]
+  },
+  "a2-u3-k-ujovi.fill-darcek-k-vianociam.en": {
+    "en": "This is a Christmas present.",
+    "t": "Это подарок к Рождеству."
+  },
+  "a2-u3-k-ujovi.fill-darcek-k-vianociam.why": {
+    "en": "**K** takes the dative, here for the occasion: Vianoce → Vianoc**iam**.",
+    "t": "**K** требует дательного, здесь — повод, как «подарок к Рождеству»: Vianoce → Vianoc**iam**."
+  },
+  "a2-u3-k-ujovi.choice-ku-kamaratovi.question": {
+    "en": "Which is right?",
+    "t": "Как правильно?"
+  },
+  "a2-u3-k-ujovi.choice-ku-kamaratovi.why": {
+    "en": "**Ku** comes before a word starting with k or g: **ku** kamarátovi. Otherwise it's k: k ujovi, k babke.",
+    "t": "**Ku** стоит перед словом на k или g: **ku** kamarátovi. В остальных случаях — k: k ujovi, k babke."
+  },
+  "a2-u3-k-ujovi.speak-na-vianoce-ideme-k-babke.en": {
+    "en": "We're going to Grandma's for Christmas.",
+    "t": "На Рождество мы едем к бабушке."
+  },
+  "a2-u3-sviatky.titleEn": {
+    "en": "Holidays and wishes",
+    "t": "Праздники и пожелания"
+  },
+  "a2-u3-sviatky.prvy-sviatok-vianocny.en": {
+    "en": "Christmas Day (25 December)",
+    "t": "первый день Рождества (25 декабря)"
+  },
+  "a2-u3-sviatky.prvy-sviatok-vianocny.note": {
+    "en": "Families stay at home and have a festive lunch, a **slávnostný** obed. 26 December is **druhý sviatok vianočný**, St Stephen's Day.",
+    "t": "Семьи остаются дома, и у них праздничный обед — **slávnostný** obed. 26 декабря — **druhý sviatok vianočný**, день святого Штефана (Стефана)."
+  },
+  "a2-u3-sviatky.navsteva.en": {
+    "en": "a visit; visitors",
+    "t": "визит; гости"
+  },
+  "a2-u3-sviatky.navsteva.note": {
+    "en": "On St Stephen's Day people go **na návštevu** to family and friends. Máme návštevu! = We've got visitors!",
+    "t": "В день святого Штефана ходят **na návštevu** (в гости) к родным и друзьям. Máme návštevu! = У нас гости!"
+  },
+  "a2-u3-sviatky.fill-ideme-na-navstevu.en": {
+    "en": "We're going to visit our aunt.",
+    "t": "Мы идём в гости к тёте."
+  },
+  "a2-u3-sviatky.fill-ideme-na-navstevu.why": {
+    "en": "Going somewhere is **na** + the object form: na návštev**u**.",
+    "t": "Куда идут — **na** + винительный: na návštev**u**, как «в гости»."
+  },
+  "a2-u3-sviatky.build-dakujeme-za-pozvanie.prompt": {
+    "en": "Thank you for inviting us!",
+    "t": "Спасибо, что пригласили нас!"
+  },
+  "a2-u3-sviatky.build-dakujeme-za-pozvanie.traps": {
+    "en": [
+      "“Us” means you speak for a group (my), so it's **ďakujeme**.",
+      "Thanks for inviting is za **pozvanie**. A pozvánka is an invitation card."
+    ],
+    "t": [
+      "«Нас» — значит, вы говорите от имени нескольких (my), поэтому **ďakujeme** (благодарим).",
+      "За то, что пригласили, — za **pozvanie** (за приглашение). Pozvánka — пригласительная открытка."
+    ]
+  },
+  "a2-u3-sviatky.build-na-prvy-sviatok.answers": {
+    "en": [
+      "On Christmas Day we have a festive lunch.",
+      "We have a festive lunch on Christmas Day."
+    ],
+    "t": [
+      "В первый день Рождества у нас праздничный обед.",
+      "У нас праздничный обед в первый день Рождества."
+    ]
+  },
+  "a2-u3-sviatky.build-na-prvy-sviatok.distractors": {
+    "en": [
+      "dinner",
+      "Eve"
+    ],
+    "t": [
+      "ужин",
+      "Сочельник"
+    ]
+  },
+  "a2-u3-sviatky.meniny.en": {
+    "en": "name day",
+    "t": "именины"
+  },
+  "a2-u3-sviatky.meniny.note": {
+    "en": "Every day in the Slovak calendar has its names, and people celebrate them. 24 December is for Adam and Eva, 26 December for **Štefan**.",
+    "t": "У каждого дня в словацком календаре свои имена, и именины празднуют. 24 декабря — Адам и Ева, 26 декабря — **Štefan**."
+  },
+  "a2-u3-sviatky.vsetko-najlepsie-k-meninam.en": {
+    "en": "Happy name day!",
+    "t": "С именинами!"
+  },
+  "a2-u3-sviatky.vsetko-najlepsie-k-meninam.note": {
+    "en": "**k** + the dative gives the occasion: k narodeninám (birthday), k Vianociam.",
+    "t": "**k** + дательный — повод, как «к именинам»: k narodeninám (ко дню рождения), k Vianociam (к Рождеству)."
+  },
+  "a2-u3-sviatky.fill-vsetko-najlepsie-k-narodeninam.en": {
+    "en": "Happy birthday!",
+    "t": "С днём рождения!"
+  },
+  "a2-u3-sviatky.fill-vsetko-najlepsie-k-narodeninam.why": {
+    "en": "**K** takes the dative, and the plural word narodeniny becomes **narodeninám**.",
+    "t": "**K** требует дательного, и слово во множественном числе narodeniny становится **narodeninám**."
+  },
+  "a2-u3-sviatky.zelat.en": {
+    "en": "to wish",
+    "t": "желать"
+  },
+  "a2-u3-sviatky.zelat.note": {
+    "en": "**priať** means the same: prajem, praješ… The person is in the dative: Želám **vám** veselé Vianoce!",
+    "t": "**priať** значит то же: prajem, praješ… Человек — в дательном, как и в русском: Želám **vám** veselé Vianoce! = Желаю вам счастливого Рождества!"
+  },
+  "a2-u3-sviatky.build-zelam-ti-vesele-vianoce.prompt": {
+    "en": "I wish you a merry Christmas. (to a friend)",
+    "t": "Желаю тебе счастливого Рождества."
+  },
+  "a2-u3-sviatky.build-zelam-ti-vesele-vianoce.traps": {
+    "en": [
+      "You wish something **to** someone, so it's the dative: **ti**. Ťa is the object form.",
+      "“I” is ja, so the verb ends in **-m**: želám."
+    ],
+    "t": [
+      "Желают кому-то, поэтому нужен дательный: **ti** (тебе). Ťa — винительный (тебя).",
+      "«Я» — это ja, поэтому глагол на **-m**: želám (желаю)."
+    ]
+  },
+  "a2-u3-sviatky.gratulovat.en": {
+    "en": "to congratulate",
+    "t": "поздравлять"
+  },
+  "a2-u3-sviatky.gratulovat.note": {
+    "en": "You know **Gratulujem!** from the quiz. The person is in the dative, and the occasion takes k: Gratulujem ti k narodeninám! **Blahoželať** means the same, a little more formal.",
+    "t": "**Gratulujem!** вы знаете из викторины. Человек — в дательном (а у нас «поздравляю тебя»), а повод — с k: Gratulujem ti k narodeninám! **Blahoželať** значит то же, чуть официальнее."
+  },
+  "a2-u3-sviatky.fill-gratulujem-ti-k-meninam.en": {
+    "en": "Happy name day!",
+    "t": "Поздравляю с именинами!"
+  },
+  "a2-u3-sviatky.fill-gratulujem-ti-k-meninam.why": {
+    "en": "Gratulovať takes the dative: **ti**, the short form. Ťa and teba are object forms.",
+    "t": "Gratulovať требует дательного: **ti**, краткая форма. Ťa и teba — винительный."
+  },
+  "a2-u3-sviatky.build-babka-zela-marekovi.prompt": {
+    "en": "Grandma wishes Marek a merry Christmas.",
+    "t": "Бабушка желает Мареку счастливого Рождества."
+  },
+  "a2-u3-sviatky.build-babka-zela-marekovi.traps": {
+    "en": [
+      "Marek gets the wish, so he's in the dative: Marek**ovi**. Mareka is the object form.",
+      "Babka is ona, so the verb has no ending: **želá**."
+    ],
+    "t": [
+      "Пожелание получает Марек, поэтому он в дательном: Marek**ovi** (Мареку). Mareka — винительный.",
+      "Бабушка — ona, поэтому у глагола нет окончания: **želá** (желает)."
+    ]
+  },
+  "a2-u3-sviatky.traja-krali.en": {
+    "en": "Epiphany (6 January)",
+    "t": "праздник Трёх королей (6 января)"
+  },
+  "a2-u3-sviatky.traja-krali.note": {
+    "en": "The Three Kings end the Christmas holidays; after them, the tree comes down.",
+    "t": "Три короля, или волхвы, завершают рождественские праздники; после них ёлку убирают."
+  },
+  "a2-u3-sviatky.match-sviatky.pairs": {
+    "en": [
+      "24 December",
+      "25 December",
+      "26 December",
+      "31 December",
+      "6 January"
+    ],
+    "t": [
+      "24 декабря",
+      "25 декабря",
+      "26 декабря",
+      "31 декабря",
+      "6 января"
+    ]
+  },
+  "a2-u3-sviatky.choice-sused-stefan.question": {
+    "en": "It's 26 December, and your neighbour Štefan is at the door. What do you say?",
+    "t": "26 декабря, у двери ваш сосед Штефан. Что вы скажете?"
+  },
+  "a2-u3-sviatky.choice-sused-stefan.why": {
+    "en": "26 December is Štefan's name day, so you wish him **všetko najlepšie k meninám**.",
+    "t": "26 декабря — именины Штефана, поэтому ему желают **všetko najlepšie k meninám**."
+  },
+  "a2-u3-sviatky.speak-vsetko-najlepsie-k-meninam.en": {
+    "en": "Happy name day!",
+    "t": "С именинами!"
+  },
+  "a2-u3-silvester.titleEn": {
+    "en": "New Year's Eve",
+    "t": "Канун Нового года"
+  },
+  "a2-u3-silvester.o-polnoci.en": {
+    "en": "at midnight",
+    "t": "в полночь"
+  },
+  "a2-u3-silvester.o-polnoci.note": {
+    "en": "**polnoc** = midnight, from pol (half) + noc (night). Ujo Pavol's family has come over, and everyone is waiting for midnight.",
+    "t": "**polnoc** = полночь, от pol (пол-) + noc (ночь). Пришла семья дяди Павола, и все ждут полуночи."
+  },
+  "a2-u3-silvester.ohnostroj.en": {
+    "en": "fireworks",
+    "t": "фейерверк, салют"
+  },
+  "a2-u3-silvester.ohnostroj.note": {
+    "en": "At midnight the sky over Žilina is full of **ohňostroje**.",
+    "t": "В полночь всё небо над Жилиной в фейерверках — **ohňostroje**."
+  },
+  "a2-u3-silvester.fill-o-polnoci-je-ohnostroj.en": {
+    "en": "There are fireworks at midnight.",
+    "t": "В полночь будет фейерверк."
+  },
+  "a2-u3-silvester.fill-o-polnoci-je-ohnostroj.why": {
+    "en": "At a time is **o** + the locative: o poln**oci**, like o jednej.",
+    "t": "Время — **o** + предложный: o poln**oci**, как o jednej. По-русски «в полночь», а по-словацки с o."
+  },
+  "a2-u3-silvester.sampanske.en": {
+    "en": "champagne",
+    "t": "шампанское"
+  },
+  "a2-u3-silvester.sampanske.note": {
+    "en": "Neuter, and it changes like an adjective: Dáš si **šampanské**? A toast: **Na zdravie!**",
+    "t": "Среднего рода и изменяется как прилагательное, точно как «шампанское»: Dáš si **šampanské**? Тост: **Na zdravie!** (За здоровье!)"
+  },
+  "a2-u3-silvester.stastny-novy-rok.en": {
+    "en": "Happy New Year!",
+    "t": "С Новым годом!"
+  },
+  "a2-u3-silvester.stastny-novy-rok.note": {
+    "en": "On cards you'll see both wishes together: **Veselé Vianoce a šťastný nový rok!**",
+    "t": "На открытках часто оба пожелания вместе: **Veselé Vianoce a šťastný nový rok!**"
+  },
+  "a2-u3-silvester.choice-o-polnoci-co-povedia.question": {
+    "en": "It's midnight on 31 December. What do people say?",
+    "t": "Полночь 31 декабря. Что говорят люди?"
+  },
+  "a2-u3-silvester.build-na-zdravie-na-nasu.prompt": {
+    "en": "Cheers! To our family!",
+    "t": "За здоровье! За нашу семью!"
+  },
+  "a2-u3-silvester.build-na-zdravie-na-nasu.traps": {
+    "en": [
+      "A toast is **na** + the object form, so naša becomes **našu**.",
+      "Na + the object form: rodin**u**. Rodine is the dative or the locative."
+    ],
+    "t": [
+      "Тост — **na** + винительный (у нас «за»), поэтому naša становится **našu**.",
+      "Na + винительный: rodin**u**, как «за семью». Rodine — дательный или предложный."
+    ]
+  },
+  "a2-u3-silvester.mozem-s-nou-hovorit.en": {
+    "en": "Can I speak to her?",
+    "t": "Можно с ней поговорить?"
+  },
+  "a2-u3-silvester.mozem-s-nou-hovorit.note": {
+    "en": "Before midnight, Tomáš rings the Šimkos' home phone: **Je Lucia doma?** Môžem s ňou hovoriť? For a man: s ním.",
+    "t": "Перед полуночью Томаш звонит на домашний телефон семьи Шимко: **Je Lucia doma?** Môžem s ňou hovoriť? О мужчине: s ním (с ним)."
+  },
+  "a2-u3-silvester.build-je-lucia-doma.prompt": {
+    "en": "Good evening, it's Tomáš. Is Lucia at home?",
+    "t": "Добрый вечер, это Томаш. Луция дома?"
+  },
+  "a2-u3-silvester.build-je-lucia-doma.traps": {
+    "en": [
+      "Being at home is **doma**. Domov is for going home.",
+      "Lucia's dad answers the phone, so Tomáš is polite: **Dobrý** večer."
+    ],
+    "t": [
+      "Быть дома — **doma**, как «дома». Domov — «домой».",
+      "Трубку берёт папа Луции, поэтому Томаш говорит вежливо: **Dobrý** večer."
+    ]
+  },
+  "a2-u3-silvester.fill-mozem-s-nim-hovorit.en": {
+    "en": "Is Marek at home? Can I speak to him?",
+    "t": "Марек дома? Можно с ним поговорить?"
+  },
+  "a2-u3-silvester.fill-mozem-s-nim-hovorit.why": {
+    "en": "Marek is on, and s takes the instrumental: s **ním**. S ňou is with her, s nimi with them.",
+    "t": "Марек — on, а s требует творительного: s **ním** (с ним). S ňou — «с ней», s nimi — «с ними»."
+  },
+  "a2-u3-silvester.build-kto-je-ta-pani-v-cervenom.prompt": {
+    "en": "Who's that lady in the red sweater?",
+    "t": "Кто эта женщина в красном свитере?"
+  },
+  "a2-u3-silvester.build-kto-je-ta-pani-v-cervenom.traps": {
+    "en": [
+      "Pani is a woman, so “that” is **tá**.",
+      "In what you wear answers “where?”: v + the locative, v **svetri**. Svetre is the plural."
+    ],
+    "t": [
+      "Pani — женщина, поэтому «эта» — **tá**.",
+      "«В чём» здесь отвечает на вопрос «где?»: v + предложный, v **svetri**, как «в свитере». Svetre — множественное число."
+    ]
+  },
+  "a2-u3-silvester.dakujem-za-vsetko.en": {
+    "en": "Thank you for everything.",
+    "t": "Спасибо за всё."
+  },
+  "a2-u3-silvester.dakujem-za-vsetko.note": {
+    "en": "Emma's last evening in Žilina. Bolo mi u vás veľmi dobre. = I've had a lovely time with you.",
+    "t": "Последний вечер Эммы в Жилине. Bolo mi u vás veľmi dobre. = Мне было у вас очень хорошо."
+  },
+  "a2-u3-silvester.match-silvester.pairs": {
+    "en": [
+      "fireworks",
+      "champagne",
+      "midnight",
+      "New Year's Eve",
+      "New Year's Day"
+    ],
+    "t": [
+      "фейерверк",
+      "шампанское",
+      "полночь",
+      "канун Нового года",
+      "Новый год (1 января)"
+    ]
+  },
+  "a2-u3-silvester.build-o-polnoci-sme-pili.answers": {
+    "en": [
+      "At midnight we drank champagne.",
+      "We drank champagne at midnight."
+    ],
+    "t": [
+      "В полночь мы пили шампанское.",
+      "Мы пили шампанское в полночь."
+    ]
+  },
+  "a2-u3-silvester.build-o-polnoci-sme-pili.distractors": {
+    "en": [
+      "wine",
+      "Christmas"
+    ],
+    "t": [
+      "вино",
+      "Рождество"
+    ]
+  },
+  "a2-u3-silvester.speak-stastny-novy-rok.en": {
+    "en": "Happy New Year!",
+    "t": "С Новым годом!"
+  },
+  "a2-u3-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Письменная практика"
+  },
+  "a2-u3-pisanie.listen-chces-prist-k-nam.en": {
+    "en": "Do you want to come to us for Christmas?",
+    "t": "Хочешь приехать к нам на Рождество?"
+  },
+  "a2-u3-pisanie.listen-babka-je-najstarsia.en": {
+    "en": "Grandma is the oldest in the family.",
+    "t": "Бабушка самая старшая в семье."
+  },
+  "a2-u3-pisanie.listen-ujo-pavol-je-mamin.en": {
+    "en": "Uncle Pavol is Mum's brother.",
+    "t": "Дядя Павол — мамин брат."
+  },
+  "a2-u3-pisanie.listen-kupim-otcovi-sal.en": {
+    "en": "I'll buy Dad a warm scarf.",
+    "t": "Я куплю папе тёплый шарф."
+  },
+  "a2-u3-pisanie.listen-je-mi-zima.en": {
+    "en": "I'm cold and sleepy.",
+    "t": "Мне холодно, и хочется спать."
+  },
+  "a2-u3-pisanie.listen-chuti-ti-kapustnica.en": {
+    "en": "Do you like the sauerkraut soup?",
+    "t": "Тебе нравится капустница?"
+  },
+  "a2-u3-pisanie.listen-zelam-vam-vesele.en": {
+    "en": "I wish you a merry Christmas!",
+    "t": "Желаю вам счастливого Рождества!"
+  },
+  "a2-u3-pisanie.listen-dakujem-ti-za-darcek.en": {
+    "en": "Thank you for the present.",
+    "t": "Спасибо тебе за подарок."
+  },
+  "a2-u3-pisanie.listen-marek-je-o-devat.en": {
+    "en": "Marek is nine years older.",
+    "t": "Марек на девять лет старше."
+  },
+  "a2-u3-opakovanie.titleEn": {
+    "en": "Review",
+    "t": "Повторение"
+  },
+  "a2-u3-opakovanie.match-rodina.pairs": {
+    "en": [
+      "grandma",
+      "cousin",
+      "nephew",
+      "niece",
+      "relative"
+    ],
+    "t": [
+      "бабушка",
+      "двоюродный брат",
+      "племянник",
+      "племянница",
+      "родственник"
+    ]
+  },
+  "a2-u3-opakovanie.fill-marek-je-vyssi-ako-samko.en": {
+    "en": "Marek is taller than Samko.",
+    "t": "Марек выше, чем Самко."
+  },
+  "a2-u3-opakovanie.fill-marek-je-vyssi-ako-samko.why": {
+    "en": "Comparing two people takes the comparative, and Marek is a man: vy**šší** ako… Naj- is for the tallest of all.",
+    "t": "Сравнивают двоих — нужна сравнительная степень, а Марек — мужчина: vy**šší** ako… Naj- — для «самого высокого»."
+  },
+  "a2-u3-opakovanie.build-kupim-babke-teple-papuce.prompt": {
+    "en": "I'll buy Grandma warm slippers.",
+    "t": "Я куплю бабушке тёплые тапочки."
+  },
+  "a2-u3-opakovanie.build-kupim-babke-teple-papuce.traps": {
+    "en": [
+      "Grandma gets the slippers, so she's in the dative: babk**e**. Babku is the object form.",
+      "Papuče is a plural thing, so the adjective ends in **-é**: tepl**é** papuče."
+    ],
+    "t": [
+      "Бабушка получает тапочки, поэтому она в дательном: babk**e**. Babku — винительный.",
+      "Papuče — множественное число, неодушевлённое, поэтому прилагательное на **-é**: tepl**é** papuče."
+    ]
+  },
+  "a2-u3-opakovanie.choice-audio-chce-sa-mi-spat.question": {
+    "en": "What do you hear?",
+    "t": "Что вы слышите?"
+  },
+  "a2-u3-opakovanie.choice-audio-chce-sa-mi-spat.options": {
+    "en": [
+      "I'm cold.",
+      "I'm hungry.",
+      "I'm sleepy."
+    ],
+    "t": [
+      "Мне холодно.",
+      "Я хочу есть.",
+      "Мне хочется спать."
+    ]
+  },
+  "a2-u3-opakovanie.fill-pacia-sa-mi-tvoje.en": {
+    "en": "I like your slippers.",
+    "t": "Мне нравятся твои тапочки."
+  },
+  "a2-u3-opakovanie.fill-pacia-sa-mi-tvoje.why": {
+    "en": "Papuče is plural, so the verb is too: **Páčia** sa mi.",
+    "t": "Papuče — множественное число, поэтому и глагол тоже: **Páčia** sa mi (нравятся)."
+  },
+  "a2-u3-opakovanie.build-na-silvester-ideme-k-nim.prompt": {
+    "en": "We're going to their place for New Year's Eve.",
+    "t": "В новогоднюю ночь мы идём к ним."
+  },
+  "a2-u3-opakovanie.build-na-silvester-ideme-k-nim.traps": {
+    "en": [
+      "After a preposition, oni starts with n-: k **nim**.",
+      "K takes the dative, and after a preposition it's **nim**. Ich is the object form."
+    ],
+    "t": [
+      "После предлога oni начинается с n-: k **nim**, как «к ним».",
+      "K требует дательного, а после предлога это **nim**. Ich — винительный."
+    ]
+  },
+  "a2-u3-opakovanie.fill-emma-dakuje-lucii.en": {
+    "en": "Emma thanks Lucia for the invitation.",
+    "t": "Эмма благодарит Луцию за приглашение."
+  },
+  "a2-u3-opakovanie.fill-emma-dakuje-lucii.why": {
+    "en": "Ďakovať takes the dative, and -ia becomes **-ii**: Luci**i**.",
+    "t": "Ďakovať требует дательного (хотя по-русски «благодарит Луцию»), а -ia становится **-ii**: Luci**i**."
+  },
+  "a2-u3-opakovanie.choice-babka-je-najstarsia.question": {
+    "en": "Which sentence is right?",
+    "t": "Какое предложение правильное?"
+  },
+  "a2-u3-opakovanie.choice-babka-je-najstarsia.why": {
+    "en": "Babka is a woman, so the superlative ends in **-ia**: **naj**staršia.",
+    "t": "Babka — женщина, поэтому превосходная степень на **-ia**: **naj**staršia."
+  },
+  "a2-u3-opakovanie.fill-otec-nam-ide-naproti.en": {
+    "en": "Dad is coming to meet us at the station.",
+    "t": "Папа идёт встречать нас на вокзал."
+  },
+  "a2-u3-opakovanie.fill-otec-nam-ide-naproti.why": {
+    "en": "Ísť niekomu naproti takes the dative: **nám** (to us). Nás is the object form.",
+    "t": "Ísť niekomu naproti требует дательного, как «идти навстречу нам»: **nám**. Nás — винительный."
+  },
+  "a2-u3-opakovanie.build-vdaka-mame-su-vianoce.answers": {
+    "en": [
+      "Thanks to Mum, Christmas at our place is lovely.",
+      "Thanks to Mum, Christmas is lovely at our place."
+    ],
+    "t": [
+      "Благодаря маме Рождество у нас прекрасное.",
+      "Благодаря маме у нас прекрасное Рождество.",
+      "Рождество у нас прекрасное благодаря маме."
+    ]
+  },
+  "a2-u3-opakovanie.build-vdaka-mame-su-vianoce.distractors": {
+    "en": [
+      "because",
+      "Dad"
+    ],
+    "t": [
+      "из-за",
+      "папе"
+    ]
+  },
+  "a2-u3-opakovanie.fill-chutia-ti-oplatky.en": {
+    "en": "Do you like the Christmas wafers?",
+    "t": "Тебе нравятся облатки?"
+  },
+  "a2-u3-opakovanie.fill-chutia-ti-oplatky.why": {
+    "en": "With chutiť, the food is the subject, so it stays as it is: **oplátky**. That's why the verb is plural, chutia.",
+    "t": "С chutiť еда — подлежащее, поэтому не меняется: **oplátky**. Потому и глагол во множественном числе: chutia."
+  },
+  "a2-u3-opakovanie.build-zelam-ti-vsetko-najlepsie.prompt": {
+    "en": "I wish you all the best for your name day.",
+    "t": "Желаю тебе всего наилучшего в день именин."
+  },
+  "a2-u3-opakovanie.build-zelam-ti-vsetko-najlepsie.traps": {
+    "en": [
+      "You wish something to someone, so it's the dative: **ti**.",
+      "**K** takes the dative: meniny → menin**ám**."
+    ],
+    "t": [
+      "Желают кому-то, поэтому нужен дательный: **ti** (тебе).",
+      "**K** требует дательного: meniny → menin**ám**."
+    ]
+  },
+  "a2-u3-opakovanie.choice-lucia-je-o-dva-roky.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u3-opakovanie.choice-lucia-je-o-dva-roky.options": {
+    "en": [
+      "Lucia is two years younger than Emma.",
+      "Lucia is two years older than Emma.",
+      "Emma is two years younger than Lucia."
+    ],
+    "t": [
+      "Луция на два года младше Эммы.",
+      "Луция на два года старше Эммы.",
+      "Эмма на два года младше Луции."
+    ]
+  },
+  "a2-u3-opakovanie.choice-lucia-je-o-dva-roky.why": {
+    "en": "**Mladšia** means younger, and **o** dva roky says by how much.",
+    "t": "**Mladšia** — «младше», а **o** dva roky — «на два года»."
+  },
+  "a2-u3-opakovanie.fill-kupim-to-svojmu-bratovi.en": {
+    "en": "I'll buy it for my brother.",
+    "t": "Я куплю это своему брату."
+  },
+  "a2-u3-opakovanie.fill-kupim-to-svojmu-bratovi.why": {
+    "en": "Bratovi is masculine dative, so svoj takes **-mu**: svoj**mu** bratovi.",
+    "t": "Bratovi — мужской род, дательный, поэтому svoj получает **-mu**: svoj**mu** bratovi (своему брату)."
+  },
+  "a2-u3-opakovanie.speak-vesele-vianoce-a-stastny.en": {
+    "en": "Merry Christmas and a happy New Year!",
+    "t": "С Рождеством и Новым годом!"
+  }
+}

@@ -1,0 +1,3959 @@
+{
+  "a2-u1.titleEn": {
+    "en": "The quiz begins",
+    "t": "Viktorina boshlanadi"
+  },
+  "a2-u1.topics": {
+    "en": [
+      "A new academic year",
+      "A quiz evening about Slovakia",
+      "Introducing yourself and others",
+      "Life stories, studies and work",
+      "Character and looks",
+      "Opinions about TV"
+    ],
+    "t": [
+      "Yangi oʻquv yili",
+      "Slovakiya haqida viktorina kechasi",
+      "Oʻzingizni va boshqalarni tanishtirish",
+      "Hayot yoʻli, oʻqish va ish",
+      "Feʼl-atvor va tashqi koʻrinish",
+      "Televideniye haqida fikrlar"
+    ]
+  },
+  "a2-u1.grammar": {
+    "en": [
+      "Voicing: in a word and across words",
+      "Consonant groups",
+      "The rhythmic law",
+      "Possessives in every case (review)",
+      "Hard and soft adjectives (review)"
+    ],
+    "t": [
+      "Jarangli va jarangsiz undoshlar: soʻz ichida va soʻzlar orasida",
+      "Undoshlar birikmasi",
+      "Ritm qonuni",
+      "Egalik olmoshlari barcha kelishiklarda (takrorlash)",
+      "Qattiq va yumshoq sifatlar (takrorlash)"
+    ]
+  },
+  "a2-u1-l1.titleEn": {
+    "en": "A new semester",
+    "t": "Yangi semestr"
+  },
+  "a2-u1-l1.vitaj-spat.en": {
+    "en": "Welcome back! (to a friend)",
+    "t": "Yana xush kelibsan! (sen)"
+  },
+  "a2-u1-l1.vitaj-spat.note": {
+    "en": "It's September, and Emma is back in Bratislava for her second year. To someone you call vy: **Vitajte späť!**",
+    "t": "Sentyabr. Emma ikkinchi kursda oʻqish uchun Bratislavaga qaytdi. «Vy» (siz) deb murojaat qiladigan odamga: **Vitajte späť!**"
+  },
+  "a2-u1-l1.choice-vitajte-spat-emma.question": {
+    "en": "Pán Kováč, the porter, sees Emma at the door. What does he say?",
+    "t": "Qorovul janob Kovach Emmani eshik oldida koʻrdi. U nima deydi?"
+  },
+  "a2-u1-l1.choice-vitajte-spat-emma.why": {
+    "en": "Pán Kováč and Emma say vy to each other, so he uses the vy form: **Vitajte** späť. Vitaj is for a friend.",
+    "t": "Janob Kovach va Emma bir-biriga «vy» (siz) deb murojaat qiladi, shuning uchun u vy shaklini ishlatadi: **Vitajte** späť. Vitaj — doʻstga (sen)."
+  },
+  "a2-u1-l1.semester.en": {
+    "en": "semester, term",
+    "t": "semestr"
+  },
+  "a2-u1-l1.semester.note": {
+    "en": "The **zimný semester** (winter semester) starts in September, the **letný semester** (summer semester) in February.",
+    "t": "**zimný semester** (qishki semestr) sentyabrda, **letný semester** (yozgi semestr) esa fevralda boshlanadi."
+  },
+  "a2-u1-l1.zacinat-sa.en": {
+    "en": "to begin, to start",
+    "t": "boshlanmoq"
+  },
+  "a2-u1-l1.zacinat-sa.note": {
+    "en": "Semester **sa začína** v pondelok. = The semester starts on Monday. Events often start without sa too: Prednáška začína o deviatej.",
+    "t": "Semester **sa začína** v pondelok. = Semestr dushanba kuni boshlanadi. Tadbirlar haqida sa ishlatmasdan ham aytiladi: Prednáška začína o deviatej. = Maʼruza soat toʻqqizda boshlanadi."
+  },
+  "a2-u1-l1.choice-semester-sa-zacina.question": {
+    "en": "Which sentence is correct?",
+    "t": "Qaysi gap toʻgʻri?"
+  },
+  "a2-u1-l1.choice-semester-sa-zacina.why": {
+    "en": "**Sa** never starts a sentence: it takes second place, right after the first word or phrase. Semester **sa** začína…",
+    "t": "**Sa** hech qachon gapni boshlamaydi: u ikkinchi oʻrinda, birinchi soʻz yoki soʻz birikmasidan keyin turadi. Semester **sa** začína…"
+  },
+  "a2-u1-l1.fill-zimny-semester-sa.en": {
+    "en": "The winter semester starts in September.",
+    "t": "Qishki semestr sentyabrda boshlanadi."
+  },
+  "a2-u1-l1.fill-zimny-semester-sa.why": {
+    "en": "The semester is one thing, like on, so the verb has no ending: **začína**. Začínajú is for oni, začínam for ja.",
+    "t": "Semestr — bitta narsa, on (u) kabi, shuning uchun feʼl qoʻshimchasiz keladi: **začína**. Začínajú oni bilan, začínam esa ja bilan keladi."
+  },
+  "a2-u1-l1.predmet.en": {
+    "en": "subject (at school or university)",
+    "t": "fan (maktab yoki universitetda)"
+  },
+  "a2-u1-l1.predmet.note": {
+    "en": "Emma študuje **ekonómiu** (economics). Other subjects: **história** (history), **právo** (law). Každý predmet má **kredity** (credits).",
+    "t": "Emma študuje **ekonómiu** (iqtisodiyot). Boshqa fanlar: **história** (tarix), **právo** (huquq). Každý predmet má **kredity**: har bir fanning kreditlari bor."
+  },
+  "a2-u1-l1.fill-emma-studuje-ekonomiu.en": {
+    "en": "Emma studies economics.",
+    "t": "Emma iqtisodiyotni oʻqiydi."
+  },
+  "a2-u1-l1.fill-emma-studuje-ekonomiu.why": {
+    "en": "Economics is what Emma studies, the object, so ekonómia changes -a to **-u**: študuje **ekonómiu**.",
+    "t": "Iqtisodiyot — Emma oʻqiydigan narsa, toʻldiruvchi, shuning uchun ekonómia soʻzida -a oʻrniga **-u** keladi: študuje **ekonómiu**."
+  },
+  "a2-u1-l1.build-tento-semester-mam.answers": {
+    "en": [
+      "This semester I have five subjects.",
+      "I have five subjects this semester.",
+      "This term I have five subjects.",
+      "I have five subjects this term."
+    ],
+    "t": [
+      "Bu semestrda beshta fanim bor.",
+      "Bu semestr beshta fanim bor.",
+      "Bu semestrda menda beshta fan bor."
+    ]
+  },
+  "a2-u1-l1.build-tento-semester-mam.distractors": {
+    "en": [
+      "lectures",
+      "year"
+    ],
+    "t": [
+      "fanlarim",
+      "yilda"
+    ]
+  },
+  "a2-u1-l1.stipendium.en": {
+    "en": "scholarship, grant",
+    "t": "stipendiya, grant"
+  },
+  "a2-u1-l1.stipendium.note": {
+    "en": "Emma má **štipendium**: dostáva peniaze na štúdium. (**peniaze** = money, **štúdium** = studies)",
+    "t": "Emma má **štipendium**: dostáva peniaze na štúdium. = Emma stipendiya oladi: oʻqish uchun pul oladi. (**peniaze** = pul, **štúdium** = oʻqish, tahsil)"
+  },
+  "a2-u1-l1.studovat-v-zahranici.en": {
+    "en": "to study abroad",
+    "t": "chet elda oʻqimoq"
+  },
+  "a2-u1-l1.studovat-v-zahranici.note": {
+    "en": "Emma študuje v zahraničí: je **zahraničná študentka** (a foreign student).",
+    "t": "Emma študuje v zahraničí: je **zahraničná študentka**. = Emma chet elda oʻqiydi: u xorijiy talaba."
+  },
+  "a2-u1-l1.build-emma-studuje-v.prompt": {
+    "en": "Emma is studying abroad and has a scholarship.",
+    "t": "Emma chet elda oʻqiydi va stipendiya oladi."
+  },
+  "a2-u1-l1.build-emma-studuje-v.traps": {
+    "en": [
+      "Abroad answers “where?” here, so after v it takes the locative, and -ie becomes **-í**: v **zahraničí**, like na oddelení.",
+      "Emma is ona, so the verb has no ending: **študuje**. Študujem is for ja."
+    ],
+    "t": [
+      "Bu yerda «chet elda» «qayerda?» savoliga javob beradi, shuning uchun v dan keyin lokál (oʻrin-payt kelishigi) keladi, -ie esa **-í** boʻladi: v **zahraničí**, xuddi na oddelení kabi.",
+      "Emma — ona (u), shuning uchun feʼl qoʻshimchasiz keladi: **študuje**. Študujem ja bilan keladi."
+    ]
+  },
+  "a2-u1-l1.spoluziak.en": {
+    "en": "classmate",
+    "t": "kursdosh, sinfdosh"
+  },
+  "a2-u1-l1.spoluziak.note": {
+    "en": "Emma has a new classmate this year: Kristína, a first-year economics student in one of her seminars.",
+    "t": "Bu yil Emmaning yangi kursdoshi bor: Kristina. U iqtisodiyot yoʻnalishining birinchi kurs talabasi va Emmaning seminarlaridan birida oʻqiydi."
+  },
+  "a2-u1-l1.fill-kristina-je-moja.en": {
+    "en": "Kristína is my new classmate.",
+    "t": "Kristina — mening yangi kursdoshim."
+  },
+  "a2-u1-l1.fill-kristina-je-moja.why": {
+    "en": "Kristína is a woman, so the feminine word: **spolužiačka**. After je it keeps its basic form, like moja nová.",
+    "t": "Kristina — ayol, shuning uchun ayol jinsidagi soʻz keladi: **spolužiačka**. je soʻzidan keyin u asosiy shaklda qoladi, xuddi moja nová kabi."
+  },
+  "a2-u1-l1.match-semester.pairs": {
+    "en": [
+      "semester",
+      "subject",
+      "scholarship",
+      "classmate",
+      "exam"
+    ],
+    "t": [
+      "semestr",
+      "fan",
+      "stipendiya",
+      "kursdosh",
+      "imtihon"
+    ]
+  },
+  "a2-u1-l1.build-toto-je-moj.prompt": {
+    "en": "This is my second year in Bratislava.",
+    "t": "Bu mening Bratislavadagi ikkinchi yilim."
+  },
+  "a2-u1-l1.build-toto-je-moj.traps": {
+    "en": [
+      "Rok (year) is masculine, so “second” ends in **-ý**: môj **druhý** rok. Druhá goes with a feminine word.",
+      "In Bratislava answers “where?”, so after v it takes the locative: v **Bratislave**."
+    ],
+    "t": [
+      "Rok (yil) — erkak jinsida, shuning uchun «ikkinchi» **-ý** bilan tugaydi: môj **druhý** rok. Druhá ayol jinsidagi soʻz bilan keladi.",
+      "«Bratislavada» «qayerda?» savoliga javob beradi, shuning uchun v dan keyin lokál keladi: v **Bratislave**."
+    ]
+  },
+  "a2-u1-l1.speak-v-januari-mam.en": {
+    "en": "I have exams in January.",
+    "t": "Yanvarda imtihonlarim bor."
+  },
+  "a2-u1-skusky.titleEn": {
+    "en": "Exams and credits",
+    "t": "Imtihonlar va kreditlar"
+  },
+  "a2-u1-skusky.kredit.en": {
+    "en": "credit (at university)",
+    "t": "kredit (universitetda)"
+  },
+  "a2-u1-skusky.kredit.note": {
+    "en": "Za každý predmet dostaneš **kredity**. Za semester potrebuješ tridsať **kreditov** (from five up: -ov, like rokov).",
+    "t": "Za každý predmet dostaneš **kredity**. = Har bir fan uchun kredit olasan. Za semester potrebuješ tridsať **kreditov**. = Bir semestrda oʻttiz kredit kerak. (Beshdan boshlab: -ov, xuddi rokov kabi.)"
+  },
+  "a2-u1-skusky.fill-tento-semester-potrebujem.en": {
+    "en": "This semester I need thirty credits.",
+    "t": "Bu semestrda menga oʻttiz kredit kerak."
+  },
+  "a2-u1-skusky.fill-tento-semester-potrebujem.why": {
+    "en": "From five up, the noun takes **-ov**, as in tridsať rokov: tridsať **kreditov**. Kredity goes with dva, tri, štyri.",
+    "t": "Beshdan boshlab ot **-ov** oladi, xuddi tridsať rokov kabi: tridsať **kreditov**. Kredity esa dva, tri, štyri bilan keladi. Oʻzbekchada sondan keyin ot oʻzgarmaydi, slovakchada esa oʻzgaradi."
+  },
+  "a2-u1-skusky.urobit-skusku.en": {
+    "en": "to pass an exam",
+    "t": "imtihondan oʻtmoq"
+  },
+  "a2-u1-skusky.urobit-skusku.note": {
+    "en": "**Urobila som skúšku!** = I passed! Not passing is **neurobiť** skúšku. All the exams: **všetky** skúšky.",
+    "t": "**Urobila som skúšku!** = Imtihondan oʻtdim! (ayol gapiryapti) Oʻtolmaslik — **neurobiť** skúšku. Hamma imtihonlar: **všetky** skúšky."
+  },
+  "a2-u1-skusky.choice-neurobil-som-skusku.question": {
+    "en": "A classmate talks about his exam. What happened?",
+    "t": "Kursdosh (erkak) imtihoni haqida gapiryapti. Nima boʻldi?"
+  },
+  "a2-u1-skusky.choice-neurobil-som-skusku.options": {
+    "en": [
+      "He failed the exam.",
+      "He passed the exam.",
+      "He didn't have an exam."
+    ],
+    "t": [
+      "U imtihondan oʻtolmadi.",
+      "U imtihondan oʻtdi.",
+      "Uning imtihoni yoʻq edi."
+    ]
+  },
+  "a2-u1-skusky.choice-neurobil-som-skusku.why": {
+    "en": "**Urobiť** skúšku is to pass it, so with ne- in front, **neurobil** som skúšku, he didn't pass.",
+    "t": "**Urobiť** skúšku — imtihondan oʻtish. Oldiga ne- qoʻshilsa (oʻzbekchadagi -ma kabi): **neurobil** som skúšku — oʻtolmadim."
+  },
+  "a2-u1-skusky.ako-bolo-na.en": {
+    "en": "How did the exam go?",
+    "t": "Imtihon qanday oʻtdi?"
+  },
+  "a2-u1-skusky.ako-bolo-na.note": {
+    "en": "Answers: Dobre, urobila som ju! Zle, neurobila som ju. (a woman speaking)",
+    "t": "Javoblar: Dobre, urobila som ju! = Yaxshi, oʻtdim! Zle, neurobila som ju. = Yomon, oʻtolmadim. (ayol gapiryapti)"
+  },
+  "a2-u1-skusky.choice-ako-bolo-na.question": {
+    "en": "Kristína wants to know how Emma's exam went. What does she ask?",
+    "t": "Kristina Emmaning imtihoni qanday oʻtganini bilmoqchi. U nima deb soʻraydi?"
+  },
+  "a2-u1-skusky.build-v-januari-som.prompt": {
+    "en": "Emma: In January I passed all my exams.",
+    "t": "Emma: Yanvarda hamma imtihonlarimdan oʻtdim."
+  },
+  "a2-u1-skusky.build-v-januari-som.traps": {
+    "en": [
+      "Emma is a woman, so the past form ends in **-la**: **urobila** som.",
+      "All the exams are more than one, so the plural: všetky **skúšky**."
+    ],
+    "t": [
+      "Emma — ayol, shuning uchun oʻtgan zamon shakli **-la** bilan tugaydi: **urobila** som.",
+      "Hamma imtihonlar — bittadan koʻp, shuning uchun koʻplik: všetky **skúšky**."
+    ]
+  },
+  "a2-u1-skusky.rocnik.en": {
+    "en": "year (of a course)",
+    "t": "kurs (oʻqish yili)"
+  },
+  "a2-u1-skusky.rocnik.note": {
+    "en": "Emma: Som v **druhom ročníku**. = I'm in my second year. Kristína je v prvom ročníku: je **prváčka** (a first-year student).",
+    "t": "Emma: Som v **druhom ročníku**. = Ikkinchi kursdaman. Kristína je v prvom ročníku: je **prváčka** (birinchi kurs talabasi)."
+  },
+  "a2-u1-skusky.fill-kristina-je-v.en": {
+    "en": "Kristína is in her first year.",
+    "t": "Kristina birinchi kursda oʻqiydi."
+  },
+  "a2-u1-skusky.fill-kristina-je-v.why": {
+    "en": "Being in a year answers “where?”, so after v comes the locative. After k, masculine words take **-u**: v prvom **ročníku**.",
+    "t": "Kursda boʻlish «qayerda?» savoliga javob beradi, shuning uchun v dan keyin lokál keladi. k bilan tugaydigan erkak jinsidagi otlar **-u** oladi: v prvom **ročníku**."
+  },
+  "a2-u1-skusky.fakulta.en": {
+    "en": "faculty (part of a university)",
+    "t": "fakultet"
+  },
+  "a2-u1-skusky.fakulta.note": {
+    "en": "Na ktorej **fakulte** študuješ? História je na **filozofickej fakulte** (the faculty of arts).",
+    "t": "Na ktorej **fakulte** študuješ? = Qaysi fakultetda oʻqiysan? História je na **filozofickej fakulte** (gumanitar fanlar fakulteti)."
+  },
+  "a2-u1-skusky.build-na-ktorej-fakulte.prompt": {
+    "en": "Which faculty do you study at? (to a friend)",
+    "t": "Qaysi fakultetda oʻqiysan? (sen)"
+  },
+  "a2-u1-skusky.build-na-ktorej-fakulte.traps": {
+    "en": [
+      "Studying at a faculty answers “where?”, so after na comes the locative: na **fakulte**.",
+      "You're asking a friend, ty, so the verb ends in **-š**: **študuješ**."
+    ],
+    "t": [
+      "Fakultetda oʻqish «qayerda?» savoliga javob beradi, shuning uchun na dan keyin lokál keladi: na **fakulte**.",
+      "Siz doʻstingizdan soʻrayapsiz (ty), shuning uchun feʼl **-š** bilan tugaydi: **študuješ**."
+    ]
+  },
+  "a2-u1-skusky.build-v-pondelok-mam.prompt": {
+    "en": "On Monday I have a lecture and on Wednesday a seminar.",
+    "t": "Dushanba kuni maʼruzam, chorshanba kuni esa seminarim bor."
+  },
+  "a2-u1-skusky.build-v-pondelok-mam.traps": {
+    "en": [
+      "The lecture is what you have, the object, so prednáška changes -a to **-u**: mám **prednášku**.",
+      "The seminar is the object of mám too. A masculine thing doesn't change: mám **seminár**. Seminári is “at the seminar”."
+    ],
+    "t": [
+      "Maʼruza — sizda bor narsa, toʻldiruvchi, shuning uchun prednáška soʻzida -a oʻrniga **-u** keladi: mám **prednášku**.",
+      "Seminar ham mám feʼlining toʻldiruvchisi. Erkak jinsidagi narsa nomi oʻzgarmaydi: mám **seminár**. Seminári esa «seminarda» degani."
+    ]
+  },
+  "a2-u1-skusky.match-kredit.pairs": {
+    "en": [
+      "credit",
+      "year of study",
+      "faculty",
+      "lecture",
+      "seminar"
+    ],
+    "t": [
+      "kredit",
+      "kurs",
+      "fakultet",
+      "maʼruza",
+      "seminar"
+    ]
+  },
+  "a2-u1-skusky.speak-urobila-som-skusku.en": {
+    "en": "I passed the exam! (a woman speaking)",
+    "t": "Imtihondan oʻtdim! (ayol gapiryapti)"
+  },
+  "a2-u1-l2.titleEn": {
+    "en": "Please introduce yourselves",
+    "t": "Iltimos, oʻzingizni tanishtiring"
+  },
+  "a2-u1-l2.kviz.en": {
+    "en": "quiz",
+    "t": "viktorina, kviz"
+  },
+  "a2-u1-l2.kviz.note": {
+    "en": "Vo štvrtok je na univerzite **kvíz o Slovensku**, a quiz evening for students. Kvíz **moderuje** pani Horváthová (moderovať = to host).",
+    "t": "Vo štvrtok je na univerzite **kvíz o Slovensku**: payshanba kuni universitetda talabalar uchun Slovakiya haqida viktorina kechasi boʻladi. Kvíz **moderuje** pani Horváthová. = Viktorinani Horvatova xonim olib boradi. (moderovať = olib bormoq)"
+  },
+  "a2-u1-l2.moderatorka.en": {
+    "en": "host, presenter (a woman)",
+    "t": "boshlovchi (ayol)"
+  },
+  "a2-u1-l2.choice-kviz-moderuje-pani.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "a2-u1-l2.choice-kviz-moderuje-pani.options": {
+    "en": [
+      "Mrs Horváthová is hosting the quiz.",
+      "Mrs Horváthová is playing in the quiz.",
+      "Mrs Horváthová doesn't like quizzes."
+    ],
+    "t": [
+      "Viktorinani Horvatova xonim olib boryapti.",
+      "Horvatova xonim viktorinada qatnashyapti.",
+      "Horvatova xonim viktorinalarni yoqtirmaydi."
+    ]
+  },
+  "a2-u1-l2.choice-kviz-moderuje-pani.why": {
+    "en": "Slovak can put the object first. Kvíz is what is hosted; pani Horváthová is the one who **moderuje** (hosts).",
+    "t": "Slovak tilida toʻldiruvchi gap boshida kelishi mumkin. Kvíz — olib boriladigan narsa, pani Horváthová esa uni **moderuje** (olib boradi)."
+  },
+  "a2-u1-l2.damy-a-pani.en": {
+    "en": "Ladies and gentlemen!",
+    "t": "Xonimlar va janoblar!"
+  },
+  "a2-u1-l2.damy-a-pani.note": {
+    "en": "**dáma** = lady; **páni** is the plural of pán. Then: Vitajte! = Welcome! (to everyone)",
+    "t": "**dáma** = xonim; **páni** — pán soʻzining koʻplik shakli. Keyin: Vitajte! = Xush kelibsiz! (hammaga)"
+  },
+  "a2-u1-l2.build-kto-je-ta.answers": {
+    "en": [
+      "Who is that lady? That's our teacher.",
+      "Who's that lady? That's our teacher.",
+      "Who is that lady? She's our teacher."
+    ],
+    "t": [
+      "U xonim kim? Bu bizning oʻqituvchimiz.",
+      "Bu xonim kim? U bizning oʻqituvchimiz.",
+      "Anavi xonim kim? U bizning oʻqituvchimiz.",
+      "U xonim kim? U bizning oʻqituvchimiz."
+    ]
+  },
+  "a2-u1-l2.build-kto-je-ta.distractors": {
+    "en": [
+      "host",
+      "man"
+    ],
+    "t": [
+      "boshlovchi",
+      "erkak"
+    ]
+  },
+  "a2-u1-l2.predstavit.en": {
+    "en": "to introduce (someone)",
+    "t": "tanishtirmoq (kimnidir)"
+  },
+  "a2-u1-l2.predstavit.note": {
+    "en": "**Chcem vám predstaviť** Daniela. = I'd like to introduce Daniel to you.",
+    "t": "**Chcem vám predstaviť** Daniela. = Sizlarni Daniel bilan tanishtirmoqchiman."
+  },
+  "a2-u1-l2.fill-chcem-vam-predstavit.en": {
+    "en": "I'd like to introduce Daniel to you.",
+    "t": "Sizlarni Daniel bilan tanishtirmoqchiman."
+  },
+  "a2-u1-l2.fill-chcem-vam-predstavit.why": {
+    "en": "Daniel is the person you introduce, the object, so a man's name adds **-a**: predstaviť **Daniela**, like Tomáš → Tomáša.",
+    "t": "Daniel — siz tanishtirayotgan odam, toʻldiruvchi, shuning uchun erkak ismiga **-a** qoʻshiladi: predstaviť **Daniela**, xuddi Tomáš → Tomáša kabi."
+  },
+  "a2-u1-l2.predstavit-sa.en": {
+    "en": "to introduce yourself",
+    "t": "oʻzini tanishtirmoq"
+  },
+  "a2-u1-l2.predstavit-sa.note": {
+    "en": "**Prosím, predstavte sa.** = Please introduce yourself (vy), or yourselves. To a friend: Môžeš sa predstaviť? Daniel: Som **z Mníchova** (from Munich).",
+    "t": "**Prosím, predstavte sa.** = Iltimos, oʻzingizni tanishtiring (bir kishiga «siz» yoki bir necha kishiga). Doʻstga: Môžeš sa predstaviť? Daniel: Som **z Mníchova**. = Myunxendanman."
+  },
+  "a2-u1-l2.choice-prosim-predstavte-sa.question": {
+    "en": "Mrs Horváthová asks the students to introduce themselves. What does she say?",
+    "t": "Horvatova xonim talabalardan oʻzlarini tanishtirishni soʻraydi. U nima deydi?"
+  },
+  "a2-u1-l2.choice-prosim-predstavte-sa.why": {
+    "en": "She's speaking to several students, so it's the vy form, predstav**te**, as in Vitajte. Introducing yourself also needs **sa**.",
+    "t": "U bir nechta talabaga gapiryapti, shuning uchun vy shakli: predstav**te**, xuddi Vitajte kabi. Oʻzini tanishtirish uchun **sa** ham kerak."
+  },
+  "a2-u1-l2.choice-volam-sa-daniel.question": {
+    "en": "Daniel introduces himself. Where is he from?",
+    "t": "Daniel oʻzini tanishtiryapti. U qayerdan?"
+  },
+  "a2-u1-l2.choice-volam-sa-daniel.options": {
+    "en": [
+      "Vienna",
+      "Munich",
+      "Nitra"
+    ],
+    "t": [
+      "Vena",
+      "Myunxen",
+      "Nitra"
+    ]
+  },
+  "a2-u1-l2.choice-tesi-ma-daniel.question": {
+    "en": "Emma meets Daniel. What does she say?",
+    "t": "Emma Daniel bilan tanishyapti. U nima deydi?"
+  },
+  "a2-u1-l2.choice-tesi-ma-daniel.why": {
+    "en": "Nice to meet you is **Teší ma**, literally “it pleases me”: ma is me. Teší sa means he's looking forward to something.",
+    "t": "«Tanishganimdan xursandman» — **Teší ma**, soʻzma-soʻz «meni xursand qiladi»: ma — «meni». Teší sa esa «u nimanidir intiqlik bilan kutyapti» degani."
+  },
+  "a2-u1-l2.tim.en": {
+    "en": "team",
+    "t": "jamoa"
+  },
+  "a2-u1-l2.tim.note": {
+    "en": "Náš tím sa volá **Hviezdy** (hviezda = star). Emma, Lucia, Daniel a Kristína sú v jednom tíme.",
+    "t": "Náš tím sa volá **Hviezdy** (hviezda = yulduz). = Jamoamizning nomi «Yulduzlar». Emma, Lucia, Daniel a Kristína sú v jednom tíme. = Ular bitta jamoada."
+  },
+  "a2-u1-l2.build-daniel-a-kristina.prompt": {
+    "en": "Daniel and Kristína are in our team.",
+    "t": "Daniel va Kristina bizning jamoada."
+  },
+  "a2-u1-l2.build-daniel-a-kristina.traps": {
+    "en": [
+      "In our team answers “where?”, so after v náš takes the locative: v **našom** tíme, like v mojom byte.",
+      "In the team answers “where?”: after v, a masculine noun adds **-e**: v **tíme**."
+    ],
+    "t": [
+      "«Bizning jamoada» «qayerda?» savoliga javob beradi, shuning uchun v dan keyin náš lokálda keladi: v **našom** tíme, xuddi v mojom byte kabi.",
+      "«Jamoada» «qayerda?» savoliga javob beradi: v dan keyin erkak jinsidagi ot **-e** oladi: v **tíme**."
+    ]
+  },
+  "a2-u1-l2.build-som-kristina-som.answers": {
+    "en": [
+      "I'm Kristína, I'm from Trenčín and I study economics.",
+      "I'm Kristína, I'm from Trenčín and I'm studying economics.",
+      "I am Kristína, I am from Trenčín and I study economics."
+    ],
+    "t": [
+      "Men Kristinaman, Trenchindanman va iqtisodiyotni oʻqiyman.",
+      "Kristinaman, Trenchindanman va iqtisodiyotni oʻqiyman.",
+      "Men Kristina, Trenchindanman va iqtisodiyotni oʻqiyman.",
+      "Men Kristinaman, Trenchindanman va iqtisodiyot oʻqiyman."
+    ]
+  },
+  "a2-u1-l2.build-som-kristina-som.distractors": {
+    "en": [
+      "history",
+      "teach"
+    ],
+    "t": [
+      "tarixni",
+      "oʻqitaman"
+    ]
+  },
+  "a2-u1-l2.sutaz.en": {
+    "en": "competition, contest",
+    "t": "musobaqa, tanlov"
+  },
+  "a2-u1-l2.sutaz.note": {
+    "en": "Kvíz je súťaž: tímy **súťažia** (compete). The players are the **súťažiaci**.",
+    "t": "Kvíz je súťaž: tímy **súťažia**. = Viktorina — bu musobaqa: jamoalar bellashadi. Qatnashchilar — **súťažiaci**."
+  },
+  "a2-u1-l2.fill-damy-a-pani.en": {
+    "en": "Ladies and gentlemen, welcome to our competition!",
+    "t": "Xonimlar va janoblar, musobaqamizga xush kelibsiz!"
+  },
+  "a2-u1-l2.fill-damy-a-pani.why": {
+    "en": "Being at the competition answers “where?”, so na takes the locative. Súťaž ends in a soft ž, so it takes **-i**: na **súťaži**.",
+    "t": "Musobaqada boʻlish «qayerda?» savoliga javob beradi, shuning uchun na dan keyin lokál keladi. Súťaž yumshoq ž bilan tugaydi, shuning uchun **-i** oladi: na **súťaži**."
+  },
+  "a2-u1-l2.match-kviz.pairs": {
+    "en": [
+      "quiz",
+      "team",
+      "competition",
+      "host",
+      "star"
+    ],
+    "t": [
+      "viktorina",
+      "jamoa",
+      "musobaqa",
+      "boshlovchi",
+      "yulduz"
+    ]
+  },
+  "a2-u1-l2.speak-prosim-predstavte-sa.en": {
+    "en": "Please introduce yourselves.",
+    "t": "Iltimos, oʻzingizni tanishtiring."
+  },
+  "a2-u1-l3.titleEn": {
+    "en": "Who's who?",
+    "t": "Kim kim?"
+  },
+  "a2-u1-l3.cudzi-jazyk.en": {
+    "en": "foreign language",
+    "t": "chet tili"
+  },
+  "a2-u1-l3.cudzi-jazyk.note": {
+    "en": "Aké **cudzie jazyky** ovládaš? = What foreign languages do you speak? (**ovládať** = to know well) New ones: po **francúzsky** (French), po **španielsky** (Spanish).",
+    "t": "Aké **cudzie jazyky** ovládaš? = Qaysi chet tillarini bilasan? (**ovládať** = yaxshi bilmoq) Yangilari: po **francúzsky** (fransuzcha), po **španielsky** (ispancha)."
+  },
+  "a2-u1-l3.choice-hovorim-po-nemecky.question": {
+    "en": "Daniel answers. Which languages does he speak?",
+    "t": "Daniel javob beryapti. U qaysi tillarda gapiradi?"
+  },
+  "a2-u1-l3.choice-hovorim-po-nemecky.options": {
+    "en": [
+      "German and English, but not Slovak",
+      "Slovak, French and English",
+      "German, Slovak and English"
+    ],
+    "t": [
+      "Nemischa va inglizcha, lekin slovakcha emas",
+      "Slovakcha, fransuzcha va inglizcha",
+      "Nemischa, slovakcha va inglizcha"
+    ]
+  },
+  "a2-u1-l3.dvojjazycny.en": {
+    "en": "bilingual",
+    "t": "ikki tilli"
+  },
+  "a2-u1-l3.dvojjazycny.note": {
+    "en": "Daniel je dvojjazyčný: jeho mama je Slovenka a otec je Nemec. Po slovensky hovorí aj s **babkou a dedkom** (grandma and grandpa).",
+    "t": "Daniel je dvojjazyčný: jeho mama je Slovenka a otec je Nemec. = Daniel ikki tilli: onasi slovak, otasi nemis. Po slovensky hovorí aj s **babkou a dedkom**. = Buvisi va bobosi bilan ham slovakcha gaplashadi."
+  },
+  "a2-u1-l3.fill-daniel-hovori-po.en": {
+    "en": "Daniel speaks Slovak with his grandma and grandpa.",
+    "t": "Daniel buvisi va bobosi bilan slovakcha gaplashadi."
+  },
+  "a2-u1-l3.fill-daniel-hovori-po.why": {
+    "en": "After **s** (with) comes the instrumental, and feminine -a becomes **-ou**: s **babkou**, like s Luciou.",
+    "t": "**s** (bilan) soʻzidan keyin inštrumentál keladi, ayol jinsidagi -a esa **-ou** boʻladi: s **babkou**, xuddi s Luciou kabi."
+  },
+  "a2-u1-l3.build-jeho-babka-a.prompt": {
+    "en": "His grandma and grandpa live in Nitra.",
+    "t": "Uning buvisi va bobosi Nitrada yashaydi."
+  },
+  "a2-u1-l3.build-jeho-babka-a.traps": {
+    "en": [
+      "They're Daniel's grandparents, a man's, so **jeho** (his). Jej means her.",
+      "Babka a dedko are two people (oni), so the verb is **bývajú**. Býva is for one person."
+    ],
+    "t": [
+      "Bu Danielning, yaʼni erkakning buvisi va bobosi, shuning uchun **jeho**. Jej — ayolning «uning»i. Oʻzbekchada ikkalasi ham «uning».",
+      "Babka a dedko — ikki kishi (oni), shuning uchun feʼl **bývajú** boʻladi. Býva — bitta kishi uchun."
+    ]
+  },
+  "a2-u1-l3.poznat.en": {
+    "en": "to know (a person or a place)",
+    "t": "tanimoq (odamni yoki joyni)"
+  },
+  "a2-u1-l3.poznat.note": {
+    "en": "Poznáš Daniela? = Do you know Daniel? Áno, poznám ho. For facts, use vedieť: Viem, odkiaľ je.",
+    "t": "Poznáš Daniela? = Danielni taniysanmi? Áno, poznám ho. = Ha, taniyman. Biror narsani bilish uchun vedieť ishlatiladi: Viem, odkiaľ je. = Uning qayerdan ekanini bilaman."
+  },
+  "a2-u1-l3.build-poznas-daniela.prompt": {
+    "en": "Do you know Daniel? (to a friend)",
+    "t": "Danielni taniysanmi? (sen)"
+  },
+  "a2-u1-l3.build-poznas-daniela.traps": {
+    "en": [
+      "Daniel is the object, the person you know, so a man's name adds **-a**: poznáš **Daniela**.",
+      "You know a person with **poznať**: Poznáš Daniela? Vedieť is for facts: Vieš, odkiaľ je?"
+    ],
+    "t": [
+      "Daniel — toʻldiruvchi, siz taniydigan odam, shuning uchun erkak ismiga **-a** qoʻshiladi: poznáš **Daniela**.",
+      "Odamni tanish — **poznať**: Poznáš Daniela? Vedieť esa biror narsani bilish uchun: Vieš, odkiaľ je? Oʻzbekchada ham shunday farq bor: «tanimoq» va «bilmoq»."
+    ]
+  },
+  "a2-u1-l3.ako-sa-vola.en": {
+    "en": "What's his (her) name? Where's he (she) from? What does he (she) do?",
+    "t": "Uning ismi nima? U qayerdan? U nima ish qiladi?"
+  },
+  "a2-u1-l3.ako-sa-vola.note": {
+    "en": "Questions about someone else. And **Aký je? Aká je?** = What's he (she) like?",
+    "t": "Boshqa odam haqida savollar. Yana: **Aký je? Aká je?** = U qanday odam? (Aký — erkak haqida, Aká — ayol haqida)"
+  },
+  "a2-u1-l3.choice-odkial-je-kristina.question": {
+    "en": "Emma asks Lucia where Kristína is from. What does she say?",
+    "t": "Emma Lusiyadan Kristina qayerdan ekanini soʻrayapti. U nima deydi?"
+  },
+  "a2-u1-l3.choice-odkial-je-kristina.why": {
+    "en": "**Odkiaľ** asks where from, and **je** is for someone else. Kde je asks where she is now; Odkiaľ si asks Kristína herself.",
+    "t": "**Odkiaľ** — «qayerdan?», **je** esa boshqa odam haqida. Kde je — u hozir qayerda ekanini soʻraydi; Odkiaľ si esa Kristinaning oʻzidan soʻraydi."
+  },
+  "a2-u1-l3.fill-kristina-nehovori-po.en": {
+    "en": "Kristína doesn't speak German, but she speaks a little Spanish.",
+    "t": "Kristina nemischa gapirmaydi, lekin biroz ispancha gapiradi."
+  },
+  "a2-u1-l3.fill-kristina-nehovori-po.why": {
+    "en": "Kristína is ona, so the verb has no ending: **hovorí**. Hovoria is for oni, hovorím for ja.",
+    "t": "Kristina — ona (u), shuning uchun feʼl qoʻshimchasiz keladi: **hovorí**. Hovoria oni bilan, hovorím esa ja bilan keladi."
+  },
+  "a2-u1-l3.slobodny.en": {
+    "en": "single, unmarried (a man)",
+    "t": "boʻydoq, uylanmagan (erkak)"
+  },
+  "a2-u1-l3.slobodny.note": {
+    "en": "On forms and in life stories: **ženatý / vydatá** (married) or **slobodný / slobodná** (single).",
+    "t": "Anketalarda va tarjimai holda: **ženatý / vydatá** (uylangan / turmushga chiqqan) yoki **slobodný / slobodná** (boʻydoq / turmushga chiqmagan)."
+  },
+  "a2-u1-l3.fill-daniel-nie-je.en": {
+    "en": "Daniel isn't married, he's single.",
+    "t": "Daniel uylanmagan, u boʻydoq."
+  },
+  "a2-u1-l3.fill-daniel-nie-je.why": {
+    "en": "Daniel is a man, so the adjective ends in **-ý**: slobodn**ý**. Slobodná is for a woman.",
+    "t": "Daniel — erkak, shuning uchun sifat **-ý** bilan tugaydi: slobodn**ý**. Slobodná — ayol uchun."
+  },
+  "a2-u1-l3.build-nie-daniel-nestuduje.prompt": {
+    "en": "No, Daniel doesn't study economics, he studies history.",
+    "t": "Yoʻq, Daniel iqtisodiyotni emas, tarixni oʻqiydi."
+  },
+  "a2-u1-l3.build-nie-daniel-nestuduje.traps": {
+    "en": [
+      "“Doesn't” is ne- in front of the verb, written as one word: **neštuduje**.",
+      "History is what he studies, the object, so história changes -a to **-u**: **históriu**."
+    ],
+    "t": [
+      "Inkor — feʼl oldidagi ne-, u feʼl bilan qoʻshib yoziladi: **neštuduje** (oʻqimaydi). Oʻzbekchadagi -ma kabi, faqat soʻz boshida.",
+      "Tarix — u oʻqiydigan narsa, toʻldiruvchi, shuning uchun história soʻzida -a oʻrniga **-u** keladi: **históriu**."
+    ]
+  },
+  "a2-u1-l3.match-po-nemecky.pairs": {
+    "en": [
+      "German",
+      "French",
+      "Spanish",
+      "English",
+      "Slovak"
+    ],
+    "t": [
+      "nemischa",
+      "fransuzcha",
+      "ispancha",
+      "inglizcha",
+      "slovakcha"
+    ]
+  },
+  "a2-u1-l3.build-emma-hovori-po.prompt": {
+    "en": "Emma speaks English, Slovak and a little French.",
+    "t": "Emma inglizcha, slovakcha va biroz fransuzcha gapiradi."
+  },
+  "a2-u1-l3.build-emma-hovori-po.traps": {
+    "en": [
+      "Emma is ona, so the verb is **hovorí**. Hovoria is for oni.",
+      "A little is **trochu**; veľa means a lot."
+    ],
+    "t": [
+      "Emma — ona (u), shuning uchun feʼl **hovorí** boʻladi. Hovoria — oni (ular) uchun.",
+      "«Biroz» — **trochu**; veľa esa «koʻp» degani."
+    ]
+  },
+  "a2-u1-l3.choice-daniel-to-je.question": {
+    "en": "Emma introduces Lucia to Daniel. What does she say?",
+    "t": "Emma Lusiyani Daniel bilan tanishtiryapti. U nima deydi?"
+  },
+  "a2-u1-l3.choice-daniel-to-je.why": {
+    "en": "Emma is talking about Lucia, a woman: **moja kamarátka**, and **je** zo Žiliny. Som is only for yourself.",
+    "t": "Emma Lusiya haqida, yaʼni ayol haqida gapiryapti: **moja kamarátka**, va **je** zo Žiliny. Som — faqat oʻzingiz haqingizda."
+  },
+  "a2-u1-l3.speak-ake-cudzie-jazyky.en": {
+    "en": "What foreign languages do you speak?",
+    "t": "Qaysi chet tillarini bilasan?"
+  },
+  "a2-u1-l4.titleEn": {
+    "en": "The first round",
+    "t": "Birinchi tur"
+  },
+  "a2-u1-l4.otazka-a-odpoved.en": {
+    "en": "question and answer",
+    "t": "savol va javob"
+  },
+  "a2-u1-l4.otazka-a-odpoved.note": {
+    "en": "Prvá **otázka**: Ktorá rieka tečie cez Bratislavu? (**tiecť** = to flow; Slovak rivers: Dunaj, the Danube, Váh, Hron…) Aká je **odpoveď**?",
+    "t": "Prvá **otázka**: Ktorá rieka tečie cez Bratislavu? = Birinchi savol: Bratislavadan qaysi daryo oqib oʻtadi? (**tiecť** = oqmoq; Slovakiya daryolari: Dunaj — Dunay, Váh, Hron…) Aká je **odpoveď**? = Javob qanday?"
+  },
+  "a2-u1-l4.choice-ktora-rieka-tecie.question": {
+    "en": "Mrs Horváthová reads the first question. What's the answer?",
+    "t": "Horvatova xonim birinchi savolni oʻqiydi. Toʻgʻri javob qaysi?"
+  },
+  "a2-u1-l4.spravny.en": {
+    "en": "right, correct",
+    "t": "toʻgʻri"
+  },
+  "a2-u1-l4.spravny.note": {
+    "en": "**Správna odpoveď!** = The right answer! **Správne!** = Correct!",
+    "t": "**Správna odpoveď!** = Toʻgʻri javob! **Správne!** = Toʻgʻri!"
+  },
+  "a2-u1-l4.fill-myslim-si-ze.en": {
+    "en": "I think the right answer is the Danube.",
+    "t": "Menimcha, toʻgʻri javob — Dunay."
+  },
+  "a2-u1-l4.fill-myslim-si-ze.why": {
+    "en": "The answer is **odpoveď**; otázka is the question. Bod is a point, and it's masculine, so it wouldn't fit správna.",
+    "t": "Javob — **odpoveď**; otázka — savol. Bod — ball, u erkak jinsida, shuning uchun správna bilan mos kelmaydi."
+  },
+  "a2-u1-l4.fill-vyborne-to-je.en": {
+    "en": "Well done! That's the right answer!",
+    "t": "Ofarin! Bu toʻgʻri javob!"
+  },
+  "a2-u1-l4.fill-vyborne-to-je.why": {
+    "en": "Odpoveď is feminine, so its adjective ends in **-a**: správn**a**. Správny is masculine, správne neuter.",
+    "t": "Odpoveď — ayol jinsida, shuning uchun uning sifati **-a** bilan tugaydi: správn**a**. Správny — erkak jinsi, správne — oʻrta jins."
+  },
+  "a2-u1-l4.bod.en": {
+    "en": "point",
+    "t": "ball, ochko"
+  },
+  "a2-u1-l4.bod.note": {
+    "en": "jeden bod, dva body, päť **bodov** (from five up: -ov, like päť rokov). **kolo** = round: prvé kolo, v druhom kole.",
+    "t": "jeden bod, dva body, päť **bodov** (beshdan boshlab: -ov, xuddi päť rokov kabi). **kolo** = tur, raund: prvé kolo (birinchi tur), v druhom kole (ikkinchi turda)."
+  },
+  "a2-u1-l4.choice-mame-pat-bodov.question": {
+    "en": "Your team has five points. How do you say it?",
+    "t": "Jamoangizda beshta ball bor. Buni qanday aytasiz?"
+  },
+  "a2-u1-l4.choice-mame-pat-bodov.why": {
+    "en": "From five up, the noun takes **-ov**, as in päť rokov: päť **bodov**. Body goes with dva, tri, štyri.",
+    "t": "Beshdan boshlab ot **-ov** oladi, xuddi päť rokov kabi: päť **bodov**. Body esa dva, tri, štyri bilan keladi."
+  },
+  "a2-u1-l4.pozor.en": {
+    "en": "Attention! Careful!",
+    "t": "Diqqat! Ehtiyot boʻling!"
+  },
+  "a2-u1-l4.pozor.note": {
+    "en": "Pozor, otázka číslo dva! **Musíme sa koncentrovať.** = We have to concentrate. (koncentrovať sa = to concentrate)",
+    "t": "Pozor, otázka číslo dva! = Diqqat, ikkinchi savol! **Musíme sa koncentrovať.** = Diqqatimizni jamlashimiz kerak. (koncentrovať sa = diqqatni jamlamoq)"
+  },
+  "a2-u1-l4.choice-ma-slovensko-more.question": {
+    "en": "Second question. What's the right answer?",
+    "t": "Ikkinchi savol. Toʻgʻri javob qaysi?"
+  },
+  "a2-u1-l4.build-musime-sa-koncentrovat.prompt": {
+    "en": "We have to concentrate.",
+    "t": "Diqqatimizni jamlashimiz kerak."
+  },
+  "a2-u1-l4.build-musime-sa-koncentrovat.traps": {
+    "en": [
+      "“We” is my, so musieť is **musíme**. Musím is for ja.",
+      "Koncentrovať sa comes with **sa**, and sa takes second place: Musíme **sa** koncentrovať."
+    ],
+    "t": [
+      "«Biz» — my, shuning uchun musieť feʼli **musíme** boʻladi. Musím — ja uchun.",
+      "Koncentrovať sa **sa** bilan keladi, sa esa ikkinchi oʻrinda turadi: Musíme **sa** koncentrovať."
+    ]
+  },
+  "a2-u1-l4.je-mi-to-luto.en": {
+    "en": "I'm sorry. (about bad news)",
+    "t": "Afsusdaman. (yomon xabarga)"
+  },
+  "a2-u1-l4.je-mi-to-luto.note": {
+    "en": "For bad news or a wrong answer: Je mi to ľúto, to nie je správna odpoveď. Bumping into someone? Say Prepáčte!",
+    "t": "Yomon xabar yoki notoʻgʻri javobga: Je mi to ľúto, to nie je správna odpoveď. = Afsusdaman, bu toʻgʻri javob emas. Birovga urilib ketsangiz esa: Prepáčte! (Kechirasiz!)"
+  },
+  "a2-u1-l4.choice-je-mi-to.question": {
+    "en": "A team gives the wrong answer. What does Mrs Horváthová say?",
+    "t": "Bir jamoa notoʻgʻri javob berdi. Horvatova xonim nima deydi?"
+  },
+  "a2-u1-l4.choice-je-mi-to.why": {
+    "en": "The answer is wrong, so it's bad news: **Je mi to ľúto**, to **nie je** správne. The others say it's right.",
+    "t": "Javob notoʻgʻri, demak bu yomon xabar: **Je mi to ľúto**, to **nie je** správne. Qolgan variantlar javob toʻgʻri deydi."
+  },
+  "a2-u1-l4.choice-v-ktorom-roku.question": {
+    "en": "Third question: when did Slovakia become an independent country?",
+    "t": "Uchinchi savol: Slovakiya qachon mustaqil davlat boʻlgan?"
+  },
+  "a2-u1-l4.fill-po-prvom-kole.en": {
+    "en": "After the first round we have ten points.",
+    "t": "Birinchi turdan keyin bizda oʻn ball bor."
+  },
+  "a2-u1-l4.fill-po-prvom-kole.why": {
+    "en": "From five up, the noun takes **-ov**: desať **bodov**, like desať rokov.",
+    "t": "Beshdan boshlab ot **-ov** oladi: desať **bodov**, xuddi desať rokov kabi."
+  },
+  "a2-u1-l4.build-pozor-druhe-kolo.answers": {
+    "en": [
+      "Attention, the second round is starting!",
+      "Careful, the second round is starting!",
+      "Attention, the second round starts!",
+      "Attention, the second round is beginning!"
+    ],
+    "t": [
+      "Diqqat, ikkinchi tur boshlanyapti!",
+      "Diqqat, ikkinchi tur boshlanadi!",
+      "Ehtiyot boʻling, ikkinchi tur boshlanyapti!"
+    ]
+  },
+  "a2-u1-l4.build-pozor-druhe-kolo.distractors": {
+    "en": [
+      "first",
+      "ends"
+    ],
+    "t": [
+      "birinchi",
+      "tugayapti"
+    ]
+  },
+  "a2-u1-l4.match-otazka.pairs": {
+    "en": [
+      "question",
+      "answer",
+      "point",
+      "round",
+      "right, correct"
+    ],
+    "t": [
+      "savol",
+      "javob",
+      "ball",
+      "tur",
+      "toʻgʻri"
+    ]
+  },
+  "a2-u1-l4.speak-myslim-si-ze.en": {
+    "en": "I think it's the Danube.",
+    "t": "Menimcha, bu Dunay."
+  },
+  "a2-u1-l5.titleEn": {
+    "en": "My story",
+    "t": "Mening hikoyam"
+  },
+  "a2-u1-l5.rozhovor.en": {
+    "en": "interview, conversation",
+    "t": "intervyu, suhbat"
+  },
+  "a2-u1-l5.rozhovor.note": {
+    "en": "In the break, Martina from the student radio (**študentské rádio**) does short **rozhovory** with the players.",
+    "t": "Tanaffusda talabalar radiosidan (**študentské rádio**) Martina oʻyinchilar bilan qisqa **rozhovory** (intervyular) oʻtkazadi."
+  },
+  "a2-u1-l5.vyrastat.en": {
+    "en": "to grow up",
+    "t": "ulgʻaymoq, katta boʻlmoq"
+  },
+  "a2-u1-l5.vyrastat.note": {
+    "en": "Daniel: Narodil som sa v Mníchove a tam som aj **vyrastal**. = I was born in Munich and grew up there too.",
+    "t": "Daniel: Narodil som sa v Mníchove a tam som aj **vyrastal**. = Myunxenda tugʻilganman va oʻsha yerda katta boʻlganman."
+  },
+  "a2-u1-l5.fill-kristina-sa-narodila.en": {
+    "en": "Kristína was born and grew up in Trenčín.",
+    "t": "Kristina Trenchinda tugʻilgan va oʻsha yerda katta boʻlgan."
+  },
+  "a2-u1-l5.fill-kristina-sa-narodila.why": {
+    "en": "Kristína is a woman, so the past tense ends in **-la**: vyrasta**la**, like narodila.",
+    "t": "Kristina — ayol, shuning uchun oʻtgan zamon **-la** bilan tugaydi: vyrasta**la**, xuddi narodila kabi."
+  },
+  "a2-u1-l5.build-kedy-si-sa.prompt": {
+    "en": "When were you born? (Martina asks Daniel)",
+    "t": "Qachon tugʻilgansan? (Martina Danieldan soʻrayapti)"
+  },
+  "a2-u1-l5.build-kedy-si-sa.traps": {
+    "en": [
+      "Daniel is a man, so the past form has no -a: **narodil**. Narodila is for a woman.",
+      "Martina is asking Daniel, ty, so the little word is **si**: Kedy **si** sa narodil? Som is for ja."
+    ],
+    "t": [
+      "Daniel — erkak, shuning uchun oʻtgan zamon shaklida -a yoʻq: **narodil**. Narodila — ayol uchun.",
+      "Martina Danieldan soʻrayapti (ty), shuning uchun kichik soʻz **si** boʻladi: Kedy **si** sa narodil? Som — ja uchun."
+    ]
+  },
+  "a2-u1-l5.choice-narodil-som-sa.question": {
+    "en": "Daniel answers. When was he born?",
+    "t": "Daniel javob beryapti. U qachon tugʻilgan?"
+  },
+  "a2-u1-l5.choice-narodil-som-sa.options": {
+    "en": [
+      "on 2 June 2007",
+      "on 12 July 2007",
+      "on 12 June 2007"
+    ],
+    "t": [
+      "2007-yil 2-iyunda",
+      "2007-yil 12-iyulda",
+      "2007-yil 12-iyunda"
+    ]
+  },
+  "a2-u1-l5.vystudovat.en": {
+    "en": "to graduate, to finish a degree",
+    "t": "oʻqishni tamomlamoq, oliy maʼlumot olmoq"
+  },
+  "a2-u1-l5.vystudovat.note": {
+    "en": "Pani Horváthová **vyštudovala** slovenčinu a angličtinu (English). Študovať = to study; vyštudovať = to finish your studies.",
+    "t": "Pani Horváthová **vyštudovala** slovenčinu a angličtinu. = Horvatova xonim slovak va ingliz tili boʻyicha oʻqishni tamomlagan. Študovať = oʻqimoq; vyštudovať = oʻqishni tamomlamoq."
+  },
+  "a2-u1-l5.build-pani-horvathova-vystudovala.answers": {
+    "en": [
+      "Mrs Horváthová graduated in Slovak in Bratislava.",
+      "Mrs Horváthová studied Slovak in Bratislava.",
+      "Mrs Horváthová took her degree in Slovak in Bratislava."
+    ],
+    "t": [
+      "Horvatova xonim Bratislavada slovak tili boʻyicha oʻqishni tamomlagan.",
+      "Horvatova xonim Bratislavada slovak tilini oʻqigan.",
+      "Horvatova xonim slovak tilini Bratislavada oʻqigan.",
+      "Horvatova xonim Bratislavada slovak tili boʻyicha taʼlim olgan."
+    ]
+  },
+  "a2-u1-l5.build-pani-horvathova-vystudovala.distractors": {
+    "en": [
+      "teaches",
+      "Košice"
+    ],
+    "t": [
+      "oʻqitadi",
+      "Koshitseda"
+    ]
+  },
+  "a2-u1-l5.brigada.en": {
+    "en": "student job, summer job",
+    "t": "talabaning vaqtinchalik ishi, yozgi ish"
+  },
+  "a2-u1-l5.brigada.note": {
+    "en": "Slovak students often have a **brigáda**. Emma: Cez leto som mala brigádu v kaviarni.",
+    "t": "Slovak talabalarida koʻpincha **brigáda**, yaʼni vaqtinchalik ish boʻladi. Emma: Cez leto som mala brigádu v kaviarni. = Yozda kafeda vaqtincha ishladim."
+  },
+  "a2-u1-l5.choice-po-strednej-skole.question": {
+    "en": "Kristína talks about the year after secondary school (stredná škola). What did she do?",
+    "t": "Kristina oʻrta maktabni (stredná škola) bitirgandan keyingi yil haqida gapiryapti. U nima qilgan?"
+  },
+  "a2-u1-l5.choice-po-strednej-skole.options": {
+    "en": [
+      "She worked as a waitress for a year.",
+      "She studied for a year.",
+      "She lived abroad for a year."
+    ],
+    "t": [
+      "Bir yil ofitsiant boʻlib ishlagan.",
+      "Bir yil oʻqigan.",
+      "Bir yil chet elda yashagan."
+    ]
+  },
+  "a2-u1-l5.build-studovala-som-ekonomiu.prompt": {
+    "en": "Emma: I studied economics in Dublin.",
+    "t": "Emma: Dublinda iqtisodiyotni oʻqiganman."
+  },
+  "a2-u1-l5.build-studovala-som-ekonomiu.traps": {
+    "en": [
+      "Emma is a woman, so the past tense ends in **-la**: **študovala** som.",
+      "In Dublin answers “where?”, so after v it takes the locative: v **Dubline**."
+    ],
+    "t": [
+      "Emma — ayol, shuning uchun oʻtgan zamon **-la** bilan tugaydi: **študovala** som.",
+      "«Dublinda» «qayerda?» savoliga javob beradi, shuning uchun v dan keyin lokál keladi: v **Dubline**."
+    ]
+  },
+  "a2-u1-l5.fill-tomas-teraz-pracuje.en": {
+    "en": "Tomáš now works as a programmer for a company in Bratislava.",
+    "t": "Tomash hozir Bratislavadagi bir firmada dasturchi boʻlib ishlaydi."
+  },
+  "a2-u1-l5.fill-tomas-teraz-pracuje.why": {
+    "en": "Teraz (now) needs the present, and Tomáš is on: **pracuje**. Pracoval is the past, pracujú is for oni.",
+    "t": "Teraz (hozir) hozirgi zamonni talab qiladi, Tomash esa on: **pracuje**. Pracoval — oʻtgan zamon, pracujú — oni uchun."
+  },
+  "a2-u1-l5.prestahovat-sa.en": {
+    "en": "to move (house)",
+    "t": "koʻchib oʻtmoq (yangi joyga)"
+  },
+  "a2-u1-l5.prestahovat-sa.note": {
+    "en": "Kristína: V septembri som sa **presťahovala** do Bratislavy. = In September I moved to Bratislava.",
+    "t": "Kristína: V septembri som sa **presťahovala** do Bratislavy. = Sentyabrda Bratislavaga koʻchib keldim."
+  },
+  "a2-u1-l5.fill-v-septembri-som.en": {
+    "en": "In September I moved to Bratislava. (Kristína)",
+    "t": "Sentyabrda Bratislavaga koʻchib keldim. (Kristina)"
+  },
+  "a2-u1-l5.fill-v-septembri-som.why": {
+    "en": "It's the past with som, and Kristína is a woman: som sa **presťahovala**. Presťahovať is the infinitive.",
+    "t": "Bu som bilan keladigan oʻtgan zamon, Kristina esa ayol: som sa **presťahovala**. Presťahovať — infinitív."
+  },
+  "a2-u1-l5.dakujem-za-rozhovor.en": {
+    "en": "Thanks for the interview.",
+    "t": "Suhbat uchun rahmat."
+  },
+  "a2-u1-l5.dakujem-za-rozhovor.note": {
+    "en": "Also after a nice chat. You know Ďakujem za darček and Ďakujem za pozvanie.",
+    "t": "Yoqimli suhbatdan keyin ham aytiladi. Siz Ďakujem za darček (sovgʻa uchun rahmat) va Ďakujem za pozvanie (taklif uchun rahmat) iboralarini bilasiz."
+  },
+  "a2-u1-l5.build-studujem-ekonomiu-a.prompt": {
+    "en": "I study economics and I have a part-time job in a café.",
+    "t": "Men iqtisodiyotni oʻqiyman va kafeda vaqtincha ishlayman."
+  },
+  "a2-u1-l5.build-studujem-ekonomiu-a.traps": {
+    "en": [
+      "“I” is ja, so the verb ends in **-m**: **študujem**.",
+      "In a café answers “where?”: kaviareň ends in a soft ň, so after v it takes **-i**: v **kaviarni**."
+    ],
+    "t": [
+      "«Men» — ja, shuning uchun feʼl **-m** bilan tugaydi: **študujem**.",
+      "«Kafeda» «qayerda?» savoliga javob beradi: kaviareň yumshoq ň bilan tugaydi, shuning uchun v dan keyin **-i** oladi: v **kaviarni**."
+    ]
+  },
+  "a2-u1-l5.choice-dakujem-za-rozhovor.question": {
+    "en": "Martina has finished her interview with Kristína. What does she say?",
+    "t": "Martina Kristina bilan intervyuni tugatdi. U nima deydi?"
+  },
+  "a2-u1-l5.match-rozhovor.pairs": {
+    "en": [
+      "interview",
+      "student job",
+      "to grow up",
+      "to graduate",
+      "to move house"
+    ],
+    "t": [
+      "intervyu",
+      "vaqtinchalik ish",
+      "ulgʻaymoq",
+      "oʻqishni tamomlamoq",
+      "koʻchib oʻtmoq"
+    ]
+  },
+  "a2-u1-l5.speak-cez-leto-som.en": {
+    "en": "I had a summer job. (a woman speaking)",
+    "t": "Yozda vaqtincha ishladim. (ayol gapiryapti)"
+  },
+  "a2-u1-l6.titleEn": {
+    "en": "What are they like?",
+    "t": "U qanday odam?"
+  },
+  "a2-u1-l6.vtipny-a-priatelsky.en": {
+    "en": "funny and friendly",
+    "t": "hazilkash va samimiy"
+  },
+  "a2-u1-l6.vtipny-a-priatelsky.note": {
+    "en": "Daniel je vtipný: rád rozpráva **vtipy** (jokes; one is a **vtip**; rozprávať = to tell, to talk).",
+    "t": "Daniel je vtipný: rád rozpráva **vtipy**. = Daniel hazilkash: hazil aytishni yaxshi koʻradi. (bitta hazil — **vtip**; rozprávať = aytib bermoq, gapirmoq)"
+  },
+  "a2-u1-l6.hanblivy-a-tichy.en": {
+    "en": "shy and quiet",
+    "t": "uyatchan va kamgap"
+  },
+  "a2-u1-l6.fill-kristina-je-trochu.en": {
+    "en": "Kristína is a bit shy and quiet, but very clever.",
+    "t": "Kristina biroz uyatchan va kamgap, lekin juda aqlli."
+  },
+  "a2-u1-l6.fill-kristina-je-trochu.why": {
+    "en": "Kristína is a woman, so the adjective ends in **-á**: hanblivá, like tichá.",
+    "t": "Kristina — ayol, shuning uchun sifat **-á** bilan tugaydi: hanblivá, xuddi tichá kabi."
+  },
+  "a2-u1-l6.choice-daniel-rad-rozprava.question": {
+    "en": "What is Daniel like?",
+    "t": "Daniel qanday odam?"
+  },
+  "a2-u1-l6.choice-daniel-rad-rozprava.options": {
+    "en": [
+      "He's shy.",
+      "He's funny.",
+      "He's lazy."
+    ],
+    "t": [
+      "U uyatchan.",
+      "U hazilkash.",
+      "U dangasa."
+    ]
+  },
+  "a2-u1-l6.choice-daniel-rad-rozprava.why": {
+    "en": "Someone who likes telling jokes (**vtipy**) is **vtipný**: funny.",
+    "t": "Hazil (**vtipy**) aytishni yaxshi koʻradigan odam — **vtipný**, yaʼni hazilkash."
+  },
+  "a2-u1-l6.pracovity-a-lenivy.en": {
+    "en": "hard-working and lazy",
+    "t": "mehnatkash va dangasa"
+  },
+  "a2-u1-l6.build-lucia-je-pracovita.prompt": {
+    "en": "Lucia is hard-working, but Daniel is a bit lazy.",
+    "t": "Lusiya mehnatkash, Daniel esa biroz dangasa."
+  },
+  "a2-u1-l6.build-lucia-je-pracovita.traps": {
+    "en": [
+      "Lucia is a woman, so the adjective ends in **-á**: pracovit**á**.",
+      "Daniel is a man, so the adjective ends in **-ý**: leniv**ý**."
+    ],
+    "t": [
+      "Lusiya — ayol, shuning uchun sifat **-á** bilan tugaydi: pracovit**á**.",
+      "Daniel — erkak, shuning uchun sifat **-ý** bilan tugaydi: leniv**ý**."
+    ]
+  },
+  "a2-u1-l6.vlasy-a-oci.en": {
+    "en": "hair and eyes",
+    "t": "soch va koʻzlar"
+  },
+  "a2-u1-l6.vlasy-a-oci.note": {
+    "en": "Both are plural: Kristína má **krátke** (short) **kučeravé** (curly) vlasy a zelené oči. Also: **dlhé** (long), **svetlé** (fair), **tmavé** (dark) vlasy.",
+    "t": "Slovakchada ikkalasi ham koʻplikda: Kristína má **krátke** (qisqa) **kučeravé** (jingalak) vlasy a zelené oči. = Kristinaning sochi qisqa va jingalak, koʻzlari yashil. Yana: **dlhé** (uzun), **svetlé** (och rangli), **tmavé** (toʻq rangli) vlasy."
+  },
+  "a2-u1-l6.fill-kristina-ma-kratke.en": {
+    "en": "Kristína has short curly hair and green eyes.",
+    "t": "Kristinaning sochi qisqa va jingalak, koʻzlari esa yashil."
+  },
+  "a2-u1-l6.fill-kristina-ma-kratke.why": {
+    "en": "Hair is plural in Slovak, **vlasy**, so its adjectives take the plural -é: kučerav**é**, and krátk**e**, short after the long á. Vlas is one single hair.",
+    "t": "Slovak tilida soch koʻplikda: **vlasy**, shuning uchun uning sifatlari koʻplikdagi -é qoʻshimchasini oladi: kučerav**é**; krátk**e** esa qisqa e bilan, chunki oldingi boʻgʻinda choʻziq á bor. Vlas — bitta tola soch."
+  },
+  "a2-u1-l6.build-daniel-je-vysoky.prompt": {
+    "en": "Daniel is tall and has short fair hair.",
+    "t": "Daniel baland boʻyli, sochi qisqa va och rangli."
+  },
+  "a2-u1-l6.build-daniel-je-vysoky.traps": {
+    "en": [
+      "Vlasy is plural, so the adjective ends in **-e**: **krátke** svetlé vlasy.",
+      "Hair is plural in Slovak: **vlasy**. Vlas is one single hair."
+    ],
+    "t": [
+      "Vlasy koʻplikda, shuning uchun sifat **-e** bilan tugaydi: **krátke** svetlé vlasy.",
+      "Slovak tilida soch koʻplikda: **vlasy**. Vlas — bitta tola soch."
+    ]
+  },
+  "a2-u1-l6.nosit-okuliare.en": {
+    "en": "to wear glasses",
+    "t": "koʻzoynak taqmoq"
+  },
+  "a2-u1-l6.nosit-okuliare.note": {
+    "en": "**nosiť** = to wear (also: to carry): nosím, nosíš, nosí… Daniel nosí okuliare.",
+    "t": "**nosiť** = kiymoq, taqmoq (yana: olib yurmoq): nosím, nosíš, nosí… Daniel nosí okuliare. = Daniel koʻzoynak taqadi."
+  },
+  "a2-u1-l6.to-bol-len.en": {
+    "en": "It was only a joke.",
+    "t": "Bu shunchaki hazil edi."
+  },
+  "a2-u1-l6.to-bol-len.note": {
+    "en": "**len** = only. Daniel tells everyone he's a prince from Munich, then: Prepáčte, to bol len vtip!",
+    "t": "**len** = faqat, shunchaki. Daniel hammaga oʻzini Myunxendan kelgan shahzoda deb aytadi, keyin esa: Prepáčte, to bol len vtip! = Kechirasiz, bu shunchaki hazil edi!"
+  },
+  "a2-u1-l6.fill-prepac-to-bol.en": {
+    "en": "Sorry, it was only a joke!",
+    "t": "Kechir, bu shunchaki hazil edi!"
+  },
+  "a2-u1-l6.fill-prepac-to-bol.why": {
+    "en": "You need the noun, one joke, to go with bol: **vtip**. Vtipný is the adjective, funny; vtipy is the plural.",
+    "t": "Bu yerda bol bilan ot kerak, bitta hazil: **vtip**. Vtipný — sifat (hazilkash), vtipy — koʻplik."
+  },
+  "a2-u1-l6.build-daniel-rad-hra.prompt": {
+    "en": "Emma: Daniel likes playing football, but I like reading.",
+    "t": "Emma: Daniel futbol oʻynashni yaxshi koʻradi, men esa kitob oʻqishni."
+  },
+  "a2-u1-l6.build-daniel-rad-hra.traps": {
+    "en": [
+      "“I” is ja, so the verb ends in **-m**: ja rada **čítam**.",
+      "Daniel is on, so the verb has no ending: rád **hrá**."
+    ],
+    "t": [
+      "«Men» — ja, shuning uchun feʼl **-m** bilan tugaydi: ja rada **čítam**.",
+      "Daniel — on, shuning uchun feʼl qoʻshimchasiz keladi: rád **hrá**."
+    ]
+  },
+  "a2-u1-l6.choice-aky-si-ty.question": {
+    "en": "Lucia asks Daniel what he's like. What does she say?",
+    "t": "Lusiya Danieldan qanday odam ekanini soʻrayapti. U nima deydi?"
+  },
+  "a2-u1-l6.choice-aky-si-ty.why": {
+    "en": "Asking about a man: **aký** (aká is for a woman). With ty the verb is **si**: Aký **si** ty?",
+    "t": "Erkak haqida soʻralganda: **aký** (aká — ayol uchun). Ty bilan feʼl **si** boʻladi: Aký **si** ty?"
+  },
+  "a2-u1-l6.build-daniel-nosi-okuliare.answers": {
+    "en": [
+      "Daniel wears glasses and likes telling jokes.",
+      "Daniel wears glasses and he likes telling jokes.",
+      "Daniel wears glasses and likes to tell jokes."
+    ],
+    "t": [
+      "Daniel koʻzoynak taqadi va hazil aytishni yaxshi koʻradi.",
+      "Daniel koʻzoynak taqadi va latifa aytishni yaxshi koʻradi.",
+      "Daniel koʻzoynak taqadi va hazil qilishni yaxshi koʻradi."
+    ]
+  },
+  "a2-u1-l6.build-daniel-nosi-okuliare.distractors": {
+    "en": [
+      "shy",
+      "reading"
+    ],
+    "t": [
+      "uyatchan",
+      "oʻqishni"
+    ]
+  },
+  "a2-u1-l6.speak-daniel-nema-rad.en": {
+    "en": "Daniel doesn't like exams.",
+    "t": "Daniel imtihonlarni yoqtirmaydi."
+  },
+  "a2-u1-l6.speak-kristina-je-hanbliva.en": {
+    "en": "Kristína is shy, but clever.",
+    "t": "Kristina uyatchan, lekin aqlli."
+  },
+  "a2-u1-l7.titleEn": {
+    "en": "Voiced and voiceless",
+    "t": "Jarangli va jarangsiz"
+  },
+  "a2-u1-l7.grammar-voiced-voiceless.title": {
+    "en": "Voiced and voiceless consonants",
+    "t": "Jarangli va jarangsiz undoshlar"
+  },
+  "a2-u1-l7.grammar-voiced-voiceless.body": {
+    "en": [
+      "Put a hand on your throat and say zzz, then sss. With z your throat buzzes: z is **voiced** (znelá). With s it doesn't: s is **voiceless** (neznelá).",
+      "Most Slovak consonants come in such pairs; so do dz and c, dž and č. **m, n, ň, l, ľ, r, j** have no pair: they are always voiced. v is special: it turns into f only at the start of a word (next cards)."
+    ],
+    "t": [
+      "Qoʻlingizni tomogʻingizga qoʻyib, avval zzz, keyin sss deng. z aytilganda tomoq titraydi: z — **jarangli** (znelá). s aytilganda titramaydi: s — **jarangsiz** (neznelá). Oʻzbek tilida ham undoshlar shunday ataladi.",
+      "Slovak undoshlarining koʻpi shunday juft boʻladi; dz va c, dž va č ham juft. **m, n, ň, l, ľ, r, j** ning jufti yoʻq: ular doim jarangli. v alohida: u faqat soʻz boshida f ga aylanadi (keyingi kartochkalarda)."
+    ]
+  },
+  "a2-u1-l7.grammar-voiced-voiceless.table.head": {
+    "en": [
+      "voiced",
+      "voiceless"
+    ],
+    "t": [
+      "jarangli",
+      "jarangsiz"
+    ]
+  },
+  "a2-u1-l7.grammar-voiced-voiceless.table.rows": {
+    "en": [
+      [
+        "**b**",
+        "**p**"
+      ],
+      [
+        "**d**",
+        "**t**"
+      ],
+      [
+        "**ď**",
+        "**ť**"
+      ],
+      [
+        "**g**",
+        "**k**"
+      ],
+      [
+        "**z**",
+        "**s**"
+      ],
+      [
+        "**ž**",
+        "**š**"
+      ],
+      [
+        "**h**",
+        "**ch**"
+      ],
+      [
+        "**v**",
+        "**f**"
+      ]
+    ],
+    "t": [
+      [
+        "**b**",
+        "**p**"
+      ],
+      [
+        "**d**",
+        "**t**"
+      ],
+      [
+        "**ď**",
+        "**ť**"
+      ],
+      [
+        "**g**",
+        "**k**"
+      ],
+      [
+        "**z**",
+        "**s**"
+      ],
+      [
+        "**ž**",
+        "**š**"
+      ],
+      [
+        "**h**",
+        "**ch**"
+      ],
+      [
+        "**v**",
+        "**f**"
+      ]
+    ]
+  },
+  "a2-u1-l7.grammar-voiced-voiceless.examples": {
+    "en": [
+      "a point, under",
+      "a goat, a scythe"
+    ],
+    "t": [
+      "ball, ostida",
+      "echki, chalgʻi"
+    ]
+  },
+  "a2-u1-l7.grammar-end-of-word.title": {
+    "en": "At the end of a word",
+    "t": "Soʻz oxirida"
+  },
+  "a2-u1-l7.grammar-end-of-word.body": {
+    "en": [
+      "At the end of a word, before a pause, a voiced consonant becomes voiceless: hrad (castle) sounds [hrat], obraz (picture) [obras], klub (club) [klup].",
+      "The spelling stays the same: you still write hrad. Add an ending and the voice comes back: hrady, obrazy, kluby.",
+      "One exception: after a vowel, v at the end of a word or before a consonant sounds like the u in “how”, never like f: domov [domou̯], päť bodov [bodou̯], slávny [sláu̯ni]."
+    ],
+    "t": [
+      "Soʻz oxirida, pauzadan oldin jarangli undosh jarangsizga aylanadi: hrad (qalʼa) [hrat], obraz (rasm) [obras], klub (klub) [klup] deb aytiladi. Oʻzbek tilida ham shunday: kitob soʻzini [kitop] deymiz.",
+      "Yozuv oʻzgarmaydi: baribir hrad deb yoziladi. Qoʻshimcha qoʻshilsa, jaranglilik qaytadi: hrady, obrazy, kluby.",
+      "Bitta istisno: unlidan keyin, soʻz oxirida yoki undosh oldida v hech qachon f kabi emas, qisqa u kabi eshitiladi (oʻzbekcha «ovqat» soʻzidagi v kabi): domov [domou̯], päť bodov [bodou̯], slávny [sláu̯ni]."
+    ]
+  },
+  "a2-u1-l7.grammar-end-of-word.table.head": {
+    "en": [
+      "you write",
+      "you say"
+    ],
+    "t": [
+      "yozilishi",
+      "aytilishi"
+    ]
+  },
+  "a2-u1-l7.grammar-end-of-word.table.rows": {
+    "en": [
+      [
+        "hra**d**",
+        "[hra**t**]"
+      ],
+      [
+        "obra**z**",
+        "[obra**s**]"
+      ],
+      [
+        "klu**b**",
+        "[klu**p**]"
+      ],
+      [
+        "chlie**b**",
+        "[chlie**p**]"
+      ],
+      [
+        "mu**ž**",
+        "[mu**š**]"
+      ],
+      [
+        "zu**b**",
+        "[zu**p**]"
+      ]
+    ],
+    "t": [
+      [
+        "hra**d**",
+        "[hra**t**]"
+      ],
+      [
+        "obra**z**",
+        "[obra**s**]"
+      ],
+      [
+        "klu**b**",
+        "[klu**p**]"
+      ],
+      [
+        "chlie**b**",
+        "[chlie**p**]"
+      ],
+      [
+        "mu**ž**",
+        "[mu**š**]"
+      ],
+      [
+        "zu**b**",
+        "[zu**p**]"
+      ]
+    ]
+  },
+  "a2-u1-l7.grammar-end-of-word.examples": {
+    "en": [
+      "That's our castle.",
+      "I'll buy some bread."
+    ],
+    "t": [
+      "Bu bizning qalʼamiz.",
+      "Non sotib olaman."
+    ]
+  },
+  "a2-u1-l7.choice-hrad.question": {
+    "en": "Listen. How does the d at the end of hrad sound?",
+    "t": "Tinglang. hrad soʻzi oxiridagi d qanday eshitiladi?"
+  },
+  "a2-u1-l7.choice-hrad.options": {
+    "en": [
+      "like d",
+      "you don't hear it",
+      "like t"
+    ],
+    "t": [
+      "d kabi",
+      "eshitilmaydi",
+      "t kabi"
+    ]
+  },
+  "a2-u1-l7.choice-hrad.why": {
+    "en": "At the end of a word, a voiced consonant becomes voiceless: d sounds like **t**, [hrat]. You still write hrad.",
+    "t": "Soʻz oxirida jarangli undosh jarangsizlanadi: d **t** kabi eshitiladi, [hrat]. Yozuvda esa baribir hrad."
+  },
+  "a2-u1-l7.choice-hrad-hrady-dom.question": {
+    "en": "In which word does the d sound like t?",
+    "t": "Qaysi soʻzda d t kabi eshitiladi?"
+  },
+  "a2-u1-l7.choice-hrad-hrady-dom.why": {
+    "en": "Only at the end of a word: hra**d** sounds [hrat]. In hrady a vowel follows, and in dom the d starts the word, so it stays d.",
+    "t": "Faqat soʻz oxirida: hra**d** [hrat] deb aytiladi. hrady soʻzida d dan keyin unli keladi, dom soʻzida esa d soʻz boshida turadi, shuning uchun d boʻlib qoladi."
+  },
+  "a2-u1-l7.choice-obraz-obrazy-zima.question": {
+    "en": "In which word do you hear an s?",
+    "t": "Qaysi soʻzda s eshitiladi?"
+  },
+  "a2-u1-l7.choice-obraz-obrazy-zima.why": {
+    "en": "At the end of obra**z** the z becomes voiceless: [obras]. In obrazy and zima a vowel follows, so it stays z.",
+    "t": "obra**z** oxirida z jarangsizlanadi: [obras]. obrazy va zima soʻzlarida z dan keyin unli keladi, shuning uchun z boʻlib qoladi."
+  },
+  "a2-u1-l7.choice-pat-bodov.question": {
+    "en": "How does the v at the end of päť bodov sound?",
+    "t": "päť bodov oxiridagi v qanday eshitiladi?"
+  },
+  "a2-u1-l7.choice-pat-bodov.options": {
+    "en": [
+      "like the u in “how”",
+      "like f",
+      "like v"
+    ],
+    "t": [
+      "qisqa u kabi",
+      "f kabi",
+      "v kabi"
+    ]
+  },
+  "a2-u1-l7.choice-pat-bodov.why": {
+    "en": "After a vowel, v at the end of a word sounds like a short u: [bodou̯]. It never sounds like f there, and the same goes for domov.",
+    "t": "Unlidan keyin soʻz oxiridagi v qisqa u kabi eshitiladi: [bodou̯]. U yerda hech qachon f kabi eshitilmaydi; domov soʻzida ham shunday."
+  },
+  "a2-u1-l7.obraz.en": {
+    "en": "picture, painting",
+    "t": "rasm, surat"
+  },
+  "a2-u1-l7.obraz.note": {
+    "en": "Plural: obrazy. Na obraze je hrad. = There's a castle in the picture. Also: **klub** (club), as in futbalový klub.",
+    "t": "Koʻplik: obrazy. Na obraze je hrad. = Rasmda qalʼa bor. Yana: **klub** (klub), masalan, futbalový klub (futbol klubi)."
+  },
+  "a2-u1-l7.vtip.en": {
+    "en": "joke",
+    "t": "hazil, latifa"
+  },
+  "a2-u1-l7.vtip.note": {
+    "en": "You know it from Daniel's jokes: rozprávať vtipy. Say it [ftip]: the v starts the word, before a voiceless t.",
+    "t": "Bu soʻzni Danielning hazillaridan bilasiz: rozprávať vtipy. [ftip] deb ayting: v soʻz boshida, jarangsiz t oldida turibdi."
+  },
+  "a2-u1-l7.podpis.en": {
+    "en": "signature",
+    "t": "imzo"
+  },
+  "a2-u1-l7.podpis.note": {
+    "en": "Kde je tvoj **podpis**? = Where's your signature? You know podpísať sa (to sign) from A1.",
+    "t": "Kde je tvoj **podpis**? = Imzoing qayerda? podpísať sa (imzo qoʻymoq) feʼlini A1 darajasidan bilasiz."
+  },
+  "a2-u1-l7.match-hrad.pairs": {
+    "en": [
+      "castle",
+      "picture",
+      "club",
+      "joke",
+      "signature"
+    ],
+    "t": [
+      "qalʼa",
+      "rasm",
+      "klub",
+      "hazil",
+      "imzo"
+    ]
+  },
+  "a2-u1-l7.grammar-inside-word.title": {
+    "en": "Inside a word, the second one decides",
+    "t": "Soʻz ichida ikkinchi undosh hal qiladi"
+  },
+  "a2-u1-l7.grammar-inside-word.body": {
+    "en": [
+      "When two consonants meet, the second one decides: before a voiceless consonant a voiced one becomes voiceless, and before a voiced one a voiceless one becomes voiced. So podpis sounds [potpis], otázka [otáska], futbal [fudbal], kde [gďe].",
+      "At the start of a word, v before a voiceless consonant sounds like f: vtip [ftip], všetko [fšetko], včera [fčera]. After a vowel it stays a short u, as in the last card. Inside a word, m, n, l, r, j and v never change the consonant before them: tvoj, smutný."
+    ],
+    "t": [
+      "Ikki undosh yonma-yon kelsa, ikkinchisi hal qiladi: jarangsiz undosh oldida jarangli undosh jarangsizlanadi, jarangli undosh oldida esa jarangsiz undosh jaranglashadi. Shuning uchun podpis [potpis], otázka [otáska], futbal [fudbal], kde [gďe] deb aytiladi.",
+      "Soʻz boshida jarangsiz undosh oldidagi v f kabi eshitiladi: vtip [ftip], všetko [fšetko], včera [fčera]. Unlidan keyin esa, oldingi kartochkadagidek, qisqa u boʻlib qoladi. Soʻz ichida m, n, l, r, j va v oʻzidan oldingi undoshni oʻzgartirmaydi: tvoj, smutný."
+    ]
+  },
+  "a2-u1-l7.grammar-inside-word.table.head": {
+    "en": [
+      "you write",
+      "you say"
+    ],
+    "t": [
+      "yozilishi",
+      "aytilishi"
+    ]
+  },
+  "a2-u1-l7.grammar-inside-word.table.rows": {
+    "en": [
+      [
+        "po**d**pis",
+        "[po**t**pis]"
+      ],
+      [
+        "otá**z**ka",
+        "[otá**s**ka]"
+      ],
+      [
+        "fu**t**bal",
+        "[fu**d**bal]"
+      ],
+      [
+        "**k**de",
+        "[**g**ďe]"
+      ],
+      [
+        "ni**k**dy",
+        "[ňi**g**di]"
+      ],
+      [
+        "**v**tip",
+        "[**f**tip]"
+      ],
+      [
+        "**v**šetko",
+        "[**f**šetko]"
+      ]
+    ],
+    "t": [
+      [
+        "po**d**pis",
+        "[po**t**pis]"
+      ],
+      [
+        "otá**z**ka",
+        "[otá**s**ka]"
+      ],
+      [
+        "fu**t**bal",
+        "[fu**d**bal]"
+      ],
+      [
+        "**k**de",
+        "[**g**ďe]"
+      ],
+      [
+        "ni**k**dy",
+        "[ňi**g**di]"
+      ],
+      [
+        "**v**tip",
+        "[**f**tip]"
+      ],
+      [
+        "**v**šetko",
+        "[**f**šetko]"
+      ]
+    ]
+  },
+  "a2-u1-l7.grammar-inside-word.examples": {
+    "en": [
+      "That joke is good.",
+      "Daniel plays football.",
+      "I was at home yesterday."
+    ],
+    "t": [
+      "Bu hazil yaxshi.",
+      "Daniel futbol oʻynaydi.",
+      "Kecha uyda edim."
+    ]
+  },
+  "a2-u1-l7.choice-podpis.question": {
+    "en": "In podpis, how does the d sound?",
+    "t": "podpis soʻzida d qanday eshitiladi?"
+  },
+  "a2-u1-l7.choice-podpis.options": {
+    "en": [
+      "like d",
+      "like t"
+    ],
+    "t": [
+      "d kabi",
+      "t kabi"
+    ]
+  },
+  "a2-u1-l7.choice-podpis.why": {
+    "en": "The next consonant, p, is voiceless, so d becomes voiceless too: [potpis]. The second consonant decides.",
+    "t": "Keyingi undosh p jarangsiz, shuning uchun d ham jarangsizlanadi: [potpis]. Ikkinchi undosh hal qiladi."
+  },
+  "a2-u1-l7.choice-vtip-vela-tvoj.question": {
+    "en": "In which word do you hear an f?",
+    "t": "Qaysi soʻzda f eshitiladi?"
+  },
+  "a2-u1-l7.choice-vtip-vela-tvoj.why": {
+    "en": "Before a voiceless t, v sounds like f: **v**tip [ftip]. In veľa a vowel follows the v, and in tvoj the v comes after the t.",
+    "t": "Jarangsiz t oldida v f kabi eshitiladi: **v**tip [ftip]. veľa soʻzida v dan keyin unli keladi, tvoj soʻzida esa v t dan keyin turadi."
+  },
+  "a2-u1-l7.choice-kde-kto-kino.question": {
+    "en": "In which word does the k sound like g?",
+    "t": "Qaysi soʻzda k g kabi eshitiladi?"
+  },
+  "a2-u1-l7.choice-kde-kto-kino.why": {
+    "en": "In **k**de the next consonant, d, is voiced, so k becomes g: [gďe]. In kto the t is voiceless, and in kino a vowel follows.",
+    "t": "**k**de soʻzida keyingi undosh d jarangli, shuning uchun k g ga aylanadi: [gďe]. kto soʻzida t jarangsiz, kino soʻzida esa k dan keyin unli keladi."
+  },
+  "a2-u1-l7.listen-kde-je-tvoj.en": {
+    "en": "Where's your signature?",
+    "t": "Imzoing qayerda?"
+  },
+  "a2-u1-l7.build-ten-vtip-je.prompt": {
+    "en": "That joke is really good.",
+    "t": "Bu hazil juda yaxshi."
+  },
+  "a2-u1-l7.build-ten-vtip-je.traps": {
+    "en": [
+      "Vtip ends in a consonant, so it's masculine and “that” is **ten**. Tá goes with feminine words.",
+      "Vtip is masculine, so the adjective ends in **-ý**: dobr**ý**."
+    ],
+    "t": [
+      "Vtip undosh bilan tugaydi, demak u erkak jinsida, «bu» esa **ten** boʻladi. Tá ayol jinsidagi soʻzlar bilan keladi.",
+      "Vtip erkak jinsida, shuning uchun sifat **-ý** bilan tugaydi: dobr**ý**."
+    ]
+  },
+  "a2-u1-l7.build-daniel-hra-vo.prompt": {
+    "en": "Daniel plays in a football club.",
+    "t": "Daniel futbol klubida oʻynaydi."
+  },
+  "a2-u1-l7.build-daniel-hra-vo.traps": {
+    "en": [
+      "In a club answers “where?”, so after vo it takes the locative: vo **klube**.",
+      "The adjective takes the locative too, masculine **-om**: vo **futbalovom** klube."
+    ],
+    "t": [
+      "«Klubda» «qayerda?» savoliga javob beradi, shuning uchun vo dan keyin lokál (oʻrin-payt kelishigi) keladi: vo **klube**.",
+      "Sifat ham lokálda keladi, erkak jinsida **-om** bilan: vo **futbalovom** klube."
+    ]
+  },
+  "a2-u1-l7.speak-na-obraze-je.en": {
+    "en": "There's a castle in the picture.",
+    "t": "Rasmda qalʼa bor."
+  },
+  "a2-u1-l8.titleEn": {
+    "en": "Between words",
+    "t": "Soʻzlar orasida"
+  },
+  "a2-u1-l8.grammar-across-words.title": {
+    "en": "Across words and with prepositions",
+    "t": "Soʻzlar orasida va predloglar bilan"
+  },
+  "a2-u1-l8.grammar-across-words.body": {
+    "en": [
+      "In a phrase you say in one breath, voicing changes across words too: the first sound of the next word decides. Náš dom sounds [náž dom], už teraz [uš teras].",
+      "Short prepositions (v, z, s, pred, pod) are said together with the next word, so their sound changes the most: v piatok [f piatok], s bratom [z bratom], z Trenčína [s trenčína]. Before s, z, š, ž you say so, zo: so sestrou [zo sestrou]."
+    ],
+    "t": [
+      "Bir nafasda aytiladigan iborada jaranglilik soʻzlar orasida ham oʻzgaradi: keyingi soʻzning birinchi tovushi hal qiladi. Náš dom [náž dom], už teraz [uš teras] deb aytiladi.",
+      "Qisqa predloglar (v, z, s, pred, pod) keyingi soʻz bilan qoʻshib aytiladi, shuning uchun ularning tovushi eng koʻp oʻzgaradi: v piatok [f piatok], s bratom [z bratom], z Trenčína [s trenčína]. s, z, š, ž oldida so, zo deyiladi: so sestrou [zo sestrou]."
+    ]
+  },
+  "a2-u1-l8.grammar-across-words.table.head": {
+    "en": [
+      "you write",
+      "you say"
+    ],
+    "t": [
+      "yozilishi",
+      "aytilishi"
+    ]
+  },
+  "a2-u1-l8.grammar-across-words.table.rows": {
+    "en": [
+      [
+        "ná**š** dom",
+        "[ná**ž** dom]"
+      ],
+      [
+        "u**ž** teraz",
+        "[u**š** teras]"
+      ],
+      [
+        "**v** piatok",
+        "[**f** piatok]"
+      ],
+      [
+        "**s** bratom",
+        "[**z** bratom]"
+      ],
+      [
+        "**z** Trenčína",
+        "[**s** trenčína]"
+      ],
+      [
+        "pre**d** školou",
+        "[pre**t** školou]"
+      ],
+      [
+        "**s**o sestrou",
+        "[**z**o sestrou]"
+      ]
+    ],
+    "t": [
+      [
+        "ná**š** dom",
+        "[ná**ž** dom]"
+      ],
+      [
+        "u**ž** teraz",
+        "[u**š** teras]"
+      ],
+      [
+        "**v** piatok",
+        "[**f** piatok]"
+      ],
+      [
+        "**s** bratom",
+        "[**z** bratom]"
+      ],
+      [
+        "**z** Trenčína",
+        "[**s** trenčína]"
+      ],
+      [
+        "pre**d** školou",
+        "[pre**t** školou]"
+      ],
+      [
+        "**s**o sestrou",
+        "[**z**o sestrou]"
+      ]
+    ]
+  },
+  "a2-u1-l8.grammar-across-words.examples": {
+    "en": [
+      "I'm at home on Friday.",
+      "Kristína is from Trenčín.",
+      "Our house is here."
+    ],
+    "t": [
+      "Juma kuni uydaman.",
+      "Kristina Trenchindan.",
+      "Bizning uyimiz shu yerda."
+    ]
+  },
+  "a2-u1-l8.choice-v-piatok.question": {
+    "en": "How does the v in v piatok sound?",
+    "t": "v piatok iborasida v qanday eshitiladi?"
+  },
+  "a2-u1-l8.choice-v-piatok.options": {
+    "en": [
+      "like v",
+      "like f",
+      "like u"
+    ],
+    "t": [
+      "v kabi",
+      "f kabi",
+      "u kabi"
+    ]
+  },
+  "a2-u1-l8.choice-v-piatok.why": {
+    "en": "The preposition is said together with piatok, and p is voiceless, so v becomes voiceless too: [f piatok].",
+    "t": "Predlog piatok bilan qoʻshib aytiladi, p esa jarangsiz, shuning uchun v ham jarangsizlanadi: [f piatok]."
+  },
+  "a2-u1-l8.choice-s-bratom.question": {
+    "en": "How does the s in s bratom sound?",
+    "t": "s bratom iborasida s qanday eshitiladi?"
+  },
+  "a2-u1-l8.choice-s-bratom.options": {
+    "en": [
+      "like z",
+      "like s"
+    ],
+    "t": [
+      "z kabi",
+      "s kabi"
+    ]
+  },
+  "a2-u1-l8.choice-s-bratom.why": {
+    "en": "b is voiced, so the s before it becomes voiced too: [z bratom]. You still write s.",
+    "t": "b jarangli, shuning uchun undan oldingi s ham jaranglashadi: [z bratom]. Yozuvda baribir s."
+  },
+  "a2-u1-l8.choice-z-trencina-z.question": {
+    "en": "In which one does the z sound like s?",
+    "t": "Qaysi birida z s kabi eshitiladi?"
+  },
+  "a2-u1-l8.choice-z-trencina-z.why": {
+    "en": "t is voiceless, so z becomes s: [s trenčína]. Before the voiced b and before a vowel, z stays z.",
+    "t": "t jarangsiz, shuning uchun z s ga aylanadi: [s trenčína]. Jarangli b oldida va unli oldida z oʻzgarmaydi."
+  },
+  "a2-u1-l8.fill-idem-so-sestrou.en": {
+    "en": "I'm going to the cinema with my sister.",
+    "t": "Singlim bilan kinoga ketyapman."
+  },
+  "a2-u1-l8.fill-idem-so-sestrou.why": {
+    "en": "Before a word starting with s, z, š or ž, **s** becomes **so**: **so** sestrou. You say it [zo sestrou].",
+    "t": "s, z, š yoki ž bilan boshlanadigan soʻz oldida **s** oʻrniga **so** keladi: **so** sestrou. [zo sestrou] deb aytiladi."
+  },
+  "a2-u1-l8.build-v-piatok-mame.prompt": {
+    "en": "On Friday we've got an exam.",
+    "t": "Juma kuni imtihonimiz bor."
+  },
+  "a2-u1-l8.build-v-piatok-mame.traps": {
+    "en": [
+      "“We” is my, so mať is **máme**. Mám is for ja.",
+      "The exam is what we have, the object, so skúška changes -a to **-u**: **skúšku**."
+    ],
+    "t": [
+      "«Biz» — my, shuning uchun mať **máme** boʻladi. Mám — ja uchun.",
+      "Imtihon — bizda bor narsa, toʻldiruvchi, shuning uchun skúška soʻzida -a oʻrniga **-u** keladi: **skúšku**."
+    ]
+  },
+  "a2-u1-l8.build-daniel-je-z.prompt": {
+    "en": "Daniel is from Munich and Kristína from Trenčín.",
+    "t": "Daniel Myunxendan, Kristina esa Trenchindan."
+  },
+  "a2-u1-l8.build-daniel-je-z.traps": {
+    "en": [
+      "Daniel is one person, on, so byť is **je**. Sú is for oni.",
+      "Zo comes only before s, z, š, ž, as in zo Slovenska. Before m and t it's **z**: z Mníchova, z Trenčína."
+    ],
+    "t": [
+      "Daniel — bitta odam, on, shuning uchun byť **je** boʻladi. Sú — oni uchun.",
+      "Zo faqat s, z, š, ž oldida keladi: zo Slovenska. m va t oldida **z**: z Mníchova, z Trenčína."
+    ]
+  },
+  "a2-u1-l8.grammar-before-vowel.title": {
+    "en": "Before a vowel or m, n, l, r, j",
+    "t": "Unli yoki m, n, l, r, j oldida"
+  },
+  "a2-u1-l8.grammar-before-vowel.body": {
+    "en": [
+      "Here Slovak is special. At the end of a word, a voiceless consonant becomes voiced before a vowel or before m, n, ň, l, ľ, r, j in the next word: vlak ide [vlag ide], brat a sestra [brad a sestra], s Emmou [z emou]. It happens across words. One short word does it on its own: **sme** sounds [zme], though inside other words s stays s (smutný).",
+      "One exception: s and so before a pronoun keep their voiceless sound: s nami, so mnou."
+    ],
+    "t": [
+      "Bu — slovak tilining oʻziga xos qoidasi. Soʻz oxiridagi jarangsiz undosh keyingi soʻz unli yoki m, n, ň, l, ľ, r, j bilan boshlansa, jaranglashadi: vlak ide [vlag ide], brat a sestra [brad a sestra], s Emmou [z emou]. Bu soʻzlar orasida boʻladi. Faqat bitta qisqa soʻzda bu oʻz ichida boʻladi: **sme** [zme] deb aytiladi, boshqa soʻzlar ichida esa s oʻzgarmaydi (smutný).",
+      "Bitta istisno: olmosh oldida s va so jarangsiz qoladi: s nami, so mnou."
+    ]
+  },
+  "a2-u1-l8.grammar-before-vowel.table.head": {
+    "en": [
+      "you write",
+      "you say"
+    ],
+    "t": [
+      "yozilishi",
+      "aytilishi"
+    ]
+  },
+  "a2-u1-l8.grammar-before-vowel.table.rows": {
+    "en": [
+      [
+        "vla**k** ide",
+        "[vla**g** ide]"
+      ],
+      [
+        "bra**t** a sestra",
+        "[bra**d** a sestra]"
+      ],
+      [
+        "**s** Emmou",
+        "[**z** emou]"
+      ],
+      [
+        "**s**me",
+        "[**z**me]"
+      ],
+      [
+        "**s** nami",
+        "[**s** nami]"
+      ],
+      [
+        "**s**o mnou",
+        "[**s**o mnou]"
+      ]
+    ],
+    "t": [
+      [
+        "vla**k** ide",
+        "[vla**g** ide]"
+      ],
+      [
+        "bra**t** a sestra",
+        "[bra**d** a sestra]"
+      ],
+      [
+        "**s** Emmou",
+        "[**z** emou]"
+      ],
+      [
+        "**s**me",
+        "[**z**me]"
+      ],
+      [
+        "**s** nami",
+        "[**s** nami]"
+      ],
+      [
+        "**s**o mnou",
+        "[**s**o mnou]"
+      ]
+    ]
+  },
+  "a2-u1-l8.grammar-before-vowel.examples": {
+    "en": [
+      "The brother and sister are at home.",
+      "We're at the quiz.",
+      "Are you coming with me?"
+    ],
+    "t": [
+      "Aka va singil uyda.",
+      "Biz viktorinadamiz.",
+      "Men bilan borasanmi?"
+    ]
+  },
+  "a2-u1-l8.choice-vlak-ide.question": {
+    "en": "How does the k in vlak ide sound?",
+    "t": "Vlak ide iborasida k qanday eshitiladi?"
+  },
+  "a2-u1-l8.choice-vlak-ide.options": {
+    "en": [
+      "like g",
+      "like k"
+    ],
+    "t": [
+      "g kabi",
+      "k kabi"
+    ]
+  },
+  "a2-u1-l8.choice-vlak-ide.why": {
+    "en": "The next word starts with a vowel, so the k at the end of vlak becomes voiced: [vlag ide]. This happens across words.",
+    "t": "Keyingi soʻz unli bilan boshlanadi, shuning uchun vlak oxiridagi k jaranglashadi: [vlag ide]. Bu soʻzlar orasida boʻladi."
+  },
+  "a2-u1-l8.choice-sme-doma.question": {
+    "en": "How does sme start?",
+    "t": "sme qanday tovush bilan boshlanadi?"
+  },
+  "a2-u1-l8.choice-sme-doma.options": {
+    "en": [
+      "with a z sound",
+      "with an s sound"
+    ],
+    "t": [
+      "z tovushi bilan",
+      "s tovushi bilan"
+    ]
+  },
+  "a2-u1-l8.choice-sme-doma.why": {
+    "en": "**Sme** is the one word where s turns into z before m: [zme]. Inside other words it stays s: smutný. You still write sme.",
+    "t": "**Sme** — m oldida s z ga aylanadigan yagona soʻz: [zme]. Boshqa soʻzlar ichida s oʻzgarmaydi: smutný. Yozuvda baribir sme."
+  },
+  "a2-u1-l8.choice-s-nami-s.question": {
+    "en": "In which one does the s keep its s sound?",
+    "t": "Qaysi birida s oʻz tovushini saqlaydi?"
+  },
+  "a2-u1-l8.choice-s-nami-s.why": {
+    "en": "**s nami** is the exception: before a pronoun, s keeps its sound. Before a vowel (s Emmou) or a voiced b (s bratom), it sounds like z.",
+    "t": "**s nami** — istisno: olmosh oldida s oʻz tovushini saqlaydi. Unli oldida (s Emmou) yoki jarangli b oldida (s bratom) u z kabi eshitiladi."
+  },
+  "a2-u1-l8.match-v-piatok.pairs": {
+    "en": [
+      "on Friday",
+      "with a brother",
+      "under the table",
+      "with me",
+      "from Trenčín"
+    ],
+    "t": [
+      "juma kuni",
+      "aka bilan",
+      "stol tagida",
+      "men bilan",
+      "Trenchindan"
+    ]
+  },
+  "a2-u1-l8.speak-ides-so-mnou.en": {
+    "en": "Are you coming to the quiz with me?",
+    "t": "Men bilan viktorinaga borasanmi?"
+  },
+  "a2-u1-l8.speak-tomas-a-emma.en": {
+    "en": "Tomáš and Emma are in the café.",
+    "t": "Tomash va Emma kafeda."
+  },
+  "a2-u1-l9.titleEn": {
+    "en": "Consonant groups",
+    "t": "Undoshlar birikmasi"
+  },
+  "a2-u1-l9.grammar-double-consonants.title": {
+    "en": "Double letters, one long sound",
+    "t": "Qoʻsh harf — bitta choʻziq tovush"
+  },
+  "a2-u1-l9.grammar-double-consonants.body": {
+    "en": [
+      "Two identical consonants are said as one long consonant: hold it a little longer, but don't say it twice. You know dvojjazyčný; others are rodinný (family), mäkký (soft) and oddelenie."
+    ],
+    "t": [
+      "Ikkita bir xil undosh bitta choʻziq undosh kabi aytiladi: uni biroz uzunroq ayting, lekin ikki marta aytmang, xuddi oʻzbekcha «katta», «ikki» soʻzlaridagi kabi. dvojjazyčný soʻzini bilasiz; boshqalari: rodinný (oilaviy), mäkký (yumshoq) va oddelenie (boʻlim)."
+    ]
+  },
+  "a2-u1-l9.grammar-double-consonants.table.head": {
+    "en": [
+      "you write",
+      "you say"
+    ],
+    "t": [
+      "yozilishi",
+      "aytilishi"
+    ]
+  },
+  "a2-u1-l9.grammar-double-consonants.table.rows": {
+    "en": [
+      [
+        "rodi**nn**ý",
+        "one long n"
+      ],
+      [
+        "mä**kk**ý",
+        "one long k"
+      ],
+      [
+        "dvo**jj**azyčný",
+        "one long j"
+      ],
+      [
+        "o**dd**elenie",
+        "one long ď"
+      ]
+    ],
+    "t": [
+      [
+        "rodi**nn**ý",
+        "bitta choʻziq n"
+      ],
+      [
+        "mä**kk**ý",
+        "bitta choʻziq k"
+      ],
+      [
+        "dvo**jj**azyčný",
+        "bitta choʻziq j"
+      ],
+      [
+        "o**dd**elenie",
+        "bitta choʻziq ď"
+      ]
+    ]
+  },
+  "a2-u1-l9.grammar-double-consonants.examples": {
+    "en": [
+      "Daniel is bilingual.",
+      "It's a family house."
+    ],
+    "t": [
+      "Daniel ikki tilli.",
+      "Bu oilaviy uy."
+    ]
+  },
+  "a2-u1-l9.grammar-consonant-groups.title": {
+    "en": "Groups that get simpler",
+    "t": "Soddalashadigan birikmalar"
+  },
+  "a2-u1-l9.grammar-consonant-groups.body": {
+    "en": [
+      "In a few groups of consonants, sounds merge or drop. dst sounds [ct]: predstaviť [prectaviť]. ds sounds [c]: dvadsať [dvacať], tridsať [tricať]. stsk and zsk sound [sk]: mestský (town, city) [meskí], francúzsky [francúski].",
+      "Most groups keep every consonant, and every consonant is pronounced: šťastný (happy), perfektný, spišský."
+    ],
+    "t": [
+      "Baʼzi undosh birikmalarida tovushlar qoʻshilib ketadi yoki tushib qoladi (c = ts). dst [ct] kabi aytiladi: predstaviť [prectaviť]. ds — [c] kabi: dvadsať [dvacať], tridsať [tricať]. stsk va zsk — [sk] kabi: mestský (shaharga oid) [meskí], francúzsky [francúski].",
+      "Koʻp birikmalarda esa har bir undosh saqlanadi va aytiladi: šťastný (baxtli), perfektný, spišský."
+    ]
+  },
+  "a2-u1-l9.grammar-consonant-groups.table.head": {
+    "en": [
+      "you write",
+      "you say"
+    ],
+    "t": [
+      "yozilishi",
+      "aytilishi"
+    ]
+  },
+  "a2-u1-l9.grammar-consonant-groups.table.rows": {
+    "en": [
+      [
+        "pre**dst**aviť",
+        "[pre**ct**aviť]"
+      ],
+      [
+        "dva**ds**ať",
+        "[dva**c**ať]"
+      ],
+      [
+        "me**stsk**ý",
+        "[me**sk**í]"
+      ],
+      [
+        "francú**zsk**y",
+        "[francú**sk**i]"
+      ],
+      [
+        "šťa**stn**ý",
+        "[šťa**stn**í]"
+      ]
+    ],
+    "t": [
+      [
+        "pre**dst**aviť",
+        "[pre**ct**aviť]"
+      ],
+      [
+        "dva**ds**ať",
+        "[dva**c**ať]"
+      ],
+      [
+        "me**stsk**ý",
+        "[me**sk**í]"
+      ],
+      [
+        "francú**zsk**y",
+        "[francú**sk**i]"
+      ],
+      [
+        "šťa**stn**ý",
+        "[šťa**stn**í]"
+      ]
+    ]
+  },
+  "a2-u1-l9.grammar-consonant-groups.examples": {
+    "en": [
+      "I'd like to introduce Daniel to you.",
+      "I'm twenty.",
+      "Daniel is a city person."
+    ],
+    "t": [
+      "Sizlarni Daniel bilan tanishtirmoqchiman.",
+      "Yigirma yoshdaman.",
+      "Daniel — shaharlik odam."
+    ]
+  },
+  "a2-u1-l9.choice-rodinny.question": {
+    "en": "How many n sounds do you hear in rodinný?",
+    "t": "rodinný soʻzida nechta n eshitiladi?"
+  },
+  "a2-u1-l9.choice-rodinny.options": {
+    "en": [
+      "one long n",
+      "two separate n sounds",
+      "one short n"
+    ],
+    "t": [
+      "bitta choʻziq n",
+      "ikkita alohida n",
+      "bitta qisqa n"
+    ]
+  },
+  "a2-u1-l9.choice-rodinny.why": {
+    "en": "Double letters are one long sound: rodi**nn**ý has one n, held a little longer.",
+    "t": "Qoʻsh harf — bitta choʻziq tovush: rodi**nn**ý soʻzida bitta n bor, u biroz choʻzib aytiladi."
+  },
+  "a2-u1-l9.fill-daniel-hovori-po-nemecky.en": {
+    "en": "Daniel speaks German and Slovak: he's bilingual.",
+    "t": "Daniel nemischa ham, slovakcha ham gapiradi: u ikki tilli."
+  },
+  "a2-u1-l9.fill-daniel-hovori-po-nemecky.why": {
+    "en": "Daniel is a man, so the adjective ends in **-ý**: dvojjazyčn**ý**. Say the jj as one long j.",
+    "t": "Daniel — erkak, shuning uchun sifat **-ý** bilan tugaydi: dvojjazyčn**ý**. jj ni bitta choʻziq j kabi ayting."
+  },
+  "a2-u1-l9.choice-predstavit.question": {
+    "en": "How does dst sound in predstaviť?",
+    "t": "predstaviť soʻzida dst qanday eshitiladi?"
+  },
+  "a2-u1-l9.choice-predstavit.options": {
+    "en": [
+      "like dst",
+      "like st",
+      "like ct"
+    ],
+    "t": [
+      "dst kabi",
+      "st kabi",
+      "ct kabi"
+    ]
+  },
+  "a2-u1-l9.choice-predstavit.why": {
+    "en": "In predstaviť the group dst merges into **ct**: [prectaviť]. You still write dst.",
+    "t": "predstaviť soʻzida dst birikmasi **ct** ga aylanadi: [prectaviť]. Yozuvda baribir dst."
+  },
+  "a2-u1-l9.choice-dvadsat.question": {
+    "en": "What do you hear in the middle of dvadsať?",
+    "t": "dvadsať soʻzining oʻrtasida nima eshitiladi?"
+  },
+  "a2-u1-l9.choice-dvadsat.options": {
+    "en": [
+      "a d and then an s",
+      "only an s",
+      "a c sound, like ts"
+    ],
+    "t": [
+      "avval d, keyin s",
+      "faqat s",
+      "c tovushi, yaʼni ts"
+    ]
+  },
+  "a2-u1-l9.choice-dvadsat.why": {
+    "en": "ds merges into one sound, **c**: dvadsať sounds [dvacať], and tridsať [tricať].",
+    "t": "ds bitta tovushga, **c** ga qoʻshilib ketadi: dvadsať [dvacať], tridsať esa [tricať] deb aytiladi."
+  },
+  "a2-u1-l9.choice-stastny-mestsky.question": {
+    "en": "In which word do you hear every consonant?",
+    "t": "Qaysi soʻzda har bir undosh eshitiladi?"
+  },
+  "a2-u1-l9.choice-stastny-mestsky.why": {
+    "en": "The group stn keeps every consonant: šťa**stn**ý. In mestský the t drops, [meskí], and predstaviť sounds [prectaviť].",
+    "t": "stn birikmasida har bir undosh saqlanadi: šťa**stn**ý. mestský soʻzida t tushib qoladi [meskí], predstaviť esa [prectaviť] deb aytiladi."
+  },
+  "a2-u1-l9.build-kristina-je-velmi.prompt": {
+    "en": "Kristína is very happy.",
+    "t": "Kristina juda baxtli."
+  },
+  "a2-u1-l9.build-kristina-je-velmi.traps": {
+    "en": [
+      "Kristína is a woman, so the adjective ends in **-á**: šťastn**á**.",
+      "Kristína is a woman, so the adjective ends in **-á**: šťastn**á**. -é is for neuter words."
+    ],
+    "t": [
+      "Kristina — ayol, shuning uchun sifat **-á** bilan tugaydi: šťastn**á**.",
+      "Kristina — ayol, shuning uchun sifat **-á** bilan tugaydi: šťastn**á**. -é oʻrta jinsdagi soʻzlar uchun."
+    ]
+  },
+  "a2-u1-l9.build-chcem-vam-predstavit.prompt": {
+    "en": "I'd like to introduce the new students to you.",
+    "t": "Sizlarni yangi talabalar bilan tanishtirmoqchiman."
+  },
+  "a2-u1-l9.build-chcem-vam-predstavit.traps": {
+    "en": [
+      "The students are the object, and with men as the object adjectives end in **-ých**: **nových** študentov.",
+      "Men as the object end in **-ov**: predstaviť **študentov**."
+    ],
+    "t": [
+      "Talabalar — toʻldiruvchi; erkaklar toʻldiruvchi boʻlganda sifat **-ých** bilan tugaydi: **nových** študentov.",
+      "Toʻldiruvchi boʻlgan erkaklar (koʻplikda) **-ov** bilan tugaydi: predstaviť **študentov**."
+    ]
+  },
+  "a2-u1-l9.grammar-r-l-syllable.title": {
+    "en": "Words with no vowel",
+    "t": "Unlisiz soʻzlar"
+  },
+  "a2-u1-l9.grammar-r-l-syllable.body": {
+    "en": [
+      "r and l (and long ŕ, ĺ) can carry a syllable on their own: štvrtok (Thursday), prst (finger), krk (neck), vlk (wolf), trh (market). Say the r clearly and it does the work of a vowel.",
+      "That's why Slovak tongue twisters (jazykolamy) can be so full of consonants. Sound words work the same way: Brrr! Pst!"
+    ],
+    "t": [
+      "r va l (choʻziq ŕ, ĺ ham) oʻzi boʻgʻin hosil qila oladi: štvrtok (payshanba), prst (barmoq), krk (boʻyin), vlk (boʻri), trh (bozor). r ni aniq ayting: u unli vazifasini bajaradi.",
+      "Shuning uchun slovak tez aytishlari (jazykolamy) undoshlarga juda boy boʻladi. Taqlid soʻzlar ham shunday: Brrr! Pst!"
+    ]
+  },
+  "a2-u1-l9.grammar-r-l-syllable.table.head": {
+    "en": [
+      "sound word",
+      "what it means"
+    ],
+    "t": [
+      "taqlid soʻz",
+      "maʼnosi"
+    ]
+  },
+  "a2-u1-l9.grammar-r-l-syllable.table.rows": {
+    "en": [
+      [
+        "**Pst!**",
+        "Shh!"
+      ],
+      [
+        "**Brrr!**",
+        "It's cold!"
+      ],
+      [
+        "**Ha-ha!**",
+        "laughing"
+      ],
+      [
+        "**Klop-klop!**",
+        "knocking at the door"
+      ],
+      [
+        "**Crrrn!**",
+        "a phone or a bell ringing"
+      ]
+    ],
+    "t": [
+      [
+        "**Pst!**",
+        "Jim!"
+      ],
+      [
+        "**Brrr!**",
+        "Sovuq!"
+      ],
+      [
+        "**Ha-ha!**",
+        "kulgi"
+      ],
+      [
+        "**Klop-klop!**",
+        "eshik taqillashi"
+      ],
+      [
+        "**Crrrn!**",
+        "telefon yoki qoʻngʻiroq jiringlashi"
+      ]
+    ]
+  },
+  "a2-u1-l9.grammar-r-l-syllable.examples": {
+    "en": [
+      "On Thursday four students study.",
+      "Shh! Kristína is reading the question."
+    ],
+    "t": [
+      "Payshanba kuni toʻrtta talaba oʻqiydi.",
+      "Jim! Kristina savolni oʻqiyapti."
+    ]
+  },
+  "a2-u1-l9.choice-krk-kino-kde.question": {
+    "en": "Which word has no vowel?",
+    "t": "Qaysi soʻzda unli yoʻq?"
+  },
+  "a2-u1-l9.choice-krk-kino-kde.why": {
+    "en": "In **krk** the r carries the syllable, so the word needs no vowel. Kino has i and o, kde has e.",
+    "t": "**krk** soʻzida boʻgʻinni r hosil qiladi, shuning uchun soʻzga unli kerak emas. kino soʻzida i va o, kde soʻzida esa e bor."
+  },
+  "a2-u1-l9.match-pst.pairs": {
+    "en": [
+      "Shh!",
+      "It's so cold!",
+      "(laughing)",
+      "Knock, knock!",
+      "Ring, ring!"
+    ],
+    "t": [
+      "Jim!",
+      "Voy, sovuq!",
+      "(kulgi)",
+      "Taq-taq!",
+      "Jiring-jiring!"
+    ]
+  },
+  "a2-u1-l9.choice-v-kniznici-pst.question": {
+    "en": "In the library, Daniel's phone rings. What does Lucia whisper?",
+    "t": "Kutubxonada Danielning telefoni jiringladi. Lusiya nima deb shivirlaydi?"
+  },
+  "a2-u1-l9.speak-vo-stvrtok-styria.en": {
+    "en": "On Thursday four students study.",
+    "t": "Payshanba kuni toʻrtta talaba oʻqiydi."
+  },
+  "a2-u1-l9.speak-daniel-je-mestsky.en": {
+    "en": "Daniel is a city person.",
+    "t": "Daniel — shaharlik odam."
+  },
+  "a2-u1-l10.titleEn": {
+    "en": "Short after long",
+    "t": "Choʻziqdan keyin qisqa"
+  },
+  "a2-u1-l10.grammar-two-long-syllables.title": {
+    "en": "Never two long syllables in a row",
+    "t": "Ikki choʻziq boʻgʻin ketma-ket kelmaydi"
+  },
+  "a2-u1-l10.grammar-two-long-syllables.body": {
+    "en": [
+      "You met this rule in dates: piateho, not piatého. It works all over Slovak: two long syllables don't follow each other in a word. A syllable is long when it has á, é, í, ó, ú, ý, or ia, ie, iu, ô.",
+      "So after a long syllable, an ending that's normally long becomes short: dobrý but krásny, mestá (towns) but miesta (places), slová (words) but čísla (numbers). This is the **rhythmic law** (rytmický zákon)."
+    ],
+    "t": [
+      "Bu qoidani sanalarda koʻrgansiz: piatého emas, piateho. U butun slovak tilida amal qiladi: soʻzda ikki choʻziq boʻgʻin ketma-ket kelmaydi. Boʻgʻinda á, é, í, ó, ú, ý yoki ia, ie, iu, ô boʻlsa, u choʻziq hisoblanadi.",
+      "Shuning uchun choʻziq boʻgʻindan keyin odatda choʻziq boʻladigan qoʻshimcha qisqaradi: dobrý, lekin krásny; mestá (shaharlar), lekin miesta (joylar); slová (soʻzlar), lekin čísla (raqamlar). Bu — **ritm qonuni** (rytmický zákon)."
+    ]
+  },
+  "a2-u1-l10.grammar-two-long-syllables.table.head": {
+    "en": [
+      "short syllable before",
+      "long syllable before"
+    ],
+    "t": [
+      "oldidagi boʻgʻin qisqa",
+      "oldidagi boʻgʻin choʻziq"
+    ]
+  },
+  "a2-u1-l10.grammar-two-long-syllables.table.rows": {
+    "en": [
+      [
+        "dobr**ý**",
+        "krásn**y**"
+      ],
+      [
+        "mlad**á**",
+        "slávn**a**"
+      ],
+      [
+        "nov**é**",
+        "biel**e**"
+      ],
+      [
+        "mest**á**",
+        "miest**a**"
+      ],
+      [
+        "slov**á**",
+        "čísl**a**"
+      ]
+    ],
+    "t": [
+      [
+        "dobr**ý**",
+        "krásn**y**"
+      ],
+      [
+        "mlad**á**",
+        "slávn**a**"
+      ],
+      [
+        "nov**é**",
+        "biel**e**"
+      ],
+      [
+        "mest**á**",
+        "miest**a**"
+      ],
+      [
+        "slov**á**",
+        "čísl**a**"
+      ]
+    ]
+  },
+  "a2-u1-l10.grammar-two-long-syllables.examples": {
+    "en": [
+      "It's a beautiful day.",
+      "That's the right answer."
+    ],
+    "t": [
+      "Ajoyib kun.",
+      "Bu toʻgʻri javob."
+    ]
+  },
+  "a2-u1-l10.choice-why-krasny.question": {
+    "en": "Why does krásny end in a short y, when dobrý has a long ý?",
+    "t": "Nega dobrý choʻziq ý bilan tugaydi-yu, krásny qisqa y bilan tugaydi?"
+  },
+  "a2-u1-l10.choice-why-krasny.options": {
+    "en": [
+      "Krásny is feminine",
+      "Krásny is plural",
+      "The syllable before it is long: krá-"
+    ],
+    "t": [
+      "Krásny ayol jinsida",
+      "Krásny koʻplikda",
+      "Oldidagi boʻgʻin choʻziq: krá-"
+    ]
+  },
+  "a2-u1-l10.choice-why-krasny.why": {
+    "en": "Two long syllables can't follow each other: krá- is long, so the ending is short, krásn**y**. In dobrý, do- is short.",
+    "t": "Ikki choʻziq boʻgʻin ketma-ket kela olmaydi: krá- choʻziq, shuning uchun qoʻshimcha qisqa: krásn**y**. dobrý soʻzida esa do- qisqa."
+  },
+  "a2-u1-l10.fill-kristina-nie-je.en": {
+    "en": "Kristína isn't stupid, she's very clever.",
+    "t": "Kristina ahmoq emas, u juda aqlli."
+  },
+  "a2-u1-l10.fill-kristina-nie-je.why": {
+    "en": "Kristína is a woman: -a. And it's short because mú- is already long: múdr**a**, unlike dobrá.",
+    "t": "Kristina — ayol: -a. U qisqa, chunki mú- allaqachon choʻziq: múdr**a**, dobrá soʻzidan farqli."
+  },
+  "a2-u1-l10.fill-bratislava-a-kosice.en": {
+    "en": "Bratislava and Košice are big cities.",
+    "t": "Bratislava va Koshitse — katta shaharlar."
+  },
+  "a2-u1-l10.fill-bratislava-a-kosice.why": {
+    "en": "Two cities need the plural, where -o becomes **-á**: mest**á**. It's long because me- is short; miesto gives miesta.",
+    "t": "Ikki shahar — koʻplik, unda -o oʻrniga **-á** keladi: mest**á**. U choʻziq, chunki me- qisqa; miesto esa miesta boʻladi."
+  },
+  "a2-u1-l10.fill-tu-su-nase.en": {
+    "en": "Here are our seats.",
+    "t": "Mana bizning joylarimiz."
+  },
+  "a2-u1-l10.fill-tu-su-nase.why": {
+    "en": "Sú needs the plural. Miesto has a long ie, so its plural ending is short: miest**a**, not like mestá.",
+    "t": "Sú koʻplikni talab qiladi. Miesto soʻzida choʻziq ie bor, shuning uchun koʻplik qoʻshimchasi qisqa: miest**a**, mestá soʻzidagidek emas."
+  },
+  "a2-u1-l10.match-mesta.pairs": {
+    "en": [
+      "towns",
+      "places",
+      "words",
+      "numbers",
+      "beautiful"
+    ],
+    "t": [
+      "shaharlar",
+      "joylar",
+      "soʻzlar",
+      "raqamlar",
+      "chiroyli"
+    ]
+  },
+  "a2-u1-l10.grammar-rhythm-verbs.title": {
+    "en": "Verbs follow it too",
+    "t": "Feʼllar ham bu qoidaga boʻysunadi"
+  },
+  "a2-u1-l10.grammar-rhythm-verbs.body": {
+    "en": [
+      "Verb endings follow the rule too: after a long syllable, the ending is short. volám but čítam, znamená but začína, robím but kúpim.",
+      "One exception: the oni ending -ia stays long, even after a long syllable: robia, kúpia. The new verb **skúsiť** (to try) goes like kúpiť: skúsim, skúsi, skúsia."
+    ],
+    "t": [
+      "Feʼl qoʻshimchalari ham shu qoidaga amal qiladi: choʻziq boʻgʻindan keyin qoʻshimcha qisqa boʻladi. volám, lekin čítam; znamená, lekin začína; robím, lekin kúpim.",
+      "Bitta istisno: oni (ular) shaklidagi -ia choʻziq boʻgʻindan keyin ham choʻziq qoladi: robia, kúpia. Yangi **skúsiť** (urinib koʻrmoq) feʼli kúpiť kabi tuslanadi: skúsim, skúsi, skúsia."
+    ]
+  },
+  "a2-u1-l10.grammar-rhythm-verbs.table.head": {
+    "en": [
+      "short syllable before",
+      "long syllable before"
+    ],
+    "t": [
+      "oldidagi boʻgʻin qisqa",
+      "oldidagi boʻgʻin choʻziq"
+    ]
+  },
+  "a2-u1-l10.grammar-rhythm-verbs.table.rows": {
+    "en": [
+      [
+        "vol**ám**",
+        "čít**am**"
+      ],
+      [
+        "znamen**á**",
+        "začín**a**"
+      ],
+      [
+        "rob**ím**",
+        "kúp**im**"
+      ],
+      [
+        "rob**í**",
+        "kúp**i**"
+      ],
+      [
+        "rob**ia**",
+        "kúp**ia**"
+      ]
+    ],
+    "t": [
+      [
+        "vol**ám**",
+        "čít**am**"
+      ],
+      [
+        "znamen**á**",
+        "začín**a**"
+      ],
+      [
+        "rob**ím**",
+        "kúp**im**"
+      ],
+      [
+        "rob**í**",
+        "kúp**i**"
+      ],
+      [
+        "rob**ia**",
+        "kúp**ia**"
+      ]
+    ]
+  },
+  "a2-u1-l10.grammar-rhythm-verbs.examples": {
+    "en": [
+      "I'm reading a book.",
+      "I'll try.",
+      "Lucia and Daniel will give it a try."
+    ],
+    "t": [
+      "Kitob oʻqiyapman.",
+      "Urinib koʻraman.",
+      "Lusiya va Daniel buni sinab koʻrishadi."
+    ]
+  },
+  "a2-u1-l10.skusit.en": {
+    "en": "to try",
+    "t": "urinib koʻrmoq, sinab koʻrmoq"
+  },
+  "a2-u1-l10.skusit.note": {
+    "en": "One try, so like kúpiť it points to the future: **Skúsim to!** = I'll try!",
+    "t": "Bir martalik harakat, yaʼni tugallangan tur, shuning uchun kúpiť kabi hozirgi zamon shakli kelajakni bildiradi: **Skúsim to!** = Urinib koʻraman!"
+  },
+  "a2-u1-l10.fill-lucia-a-daniel.en": {
+    "en": "Lucia and Daniel will try it.",
+    "t": "Lusiya va Daniel buni sinab koʻrishadi."
+  },
+  "a2-u1-l10.fill-lucia-a-daniel.why": {
+    "en": "Two people are oni, and their ending **-ia** stays long even after a long syllable: skús**ia**. Skúsi is for one person.",
+    "t": "Ikki kishi — oni, ularning **-ia** qoʻshimchasi choʻziq boʻgʻindan keyin ham choʻziq qoladi: skús**ia**. Skúsi — bitta kishi uchun."
+  },
+  "a2-u1-l10.fill-emma-cita-knihu.en": {
+    "en": "Emma is reading a book about Slovakia.",
+    "t": "Emma Slovakiya haqida kitob oʻqiyapti."
+  },
+  "a2-u1-l10.fill-emma-cita-knihu.why": {
+    "en": "Emma is ona: no ending, **číta**. The a is short because čí- is long, unlike volá.",
+    "t": "Emma — ona: feʼl qoʻshimchasiz keladi, **číta**. a qisqa, chunki čí- choʻziq, volá soʻzidan farqli."
+  },
+  "a2-u1-l10.choice-kupi-robi-vola.question": {
+    "en": "Which verb has a short ending because of the rule?",
+    "t": "Qaysi feʼlning qoʻshimchasi shu qoida tufayli qisqa?"
+  },
+  "a2-u1-l10.choice-kupi-robi-vola.why": {
+    "en": "kú- is long, so the ending is short: kúp**i**. In robí and volá the syllable before is short, so the ending stays long.",
+    "t": "kú- choʻziq, shuning uchun qoʻshimcha qisqa: kúp**i**. robí va volá soʻzlarida oldingi boʻgʻin qisqa, shuning uchun qoʻshimcha choʻziq qoladi."
+  },
+  "a2-u1-l10.build-to-su-krasne.prompt": {
+    "en": "Those are beautiful places.",
+    "t": "Bular goʻzal joylar."
+  },
+  "a2-u1-l10.build-to-su-krasne.traps": {
+    "en": [
+      "Sú needs the plural: **miesta**, with a short a after the long ie.",
+      "Miesta are neuter and plural, so the adjective ends in **-e**: krásn**e**."
+    ],
+    "t": [
+      "Sú koʻplikni talab qiladi: **miesta**, choʻziq ie dan keyin qisqa a bilan.",
+      "Miesta oʻrta jinsda va koʻplikda, shuning uchun sifat **-e** bilan tugaydi: krásn**e**."
+    ]
+  },
+  "a2-u1-l10.build-neviem-ale-skusim.answers": {
+    "en": [
+      "I don't know, but I'll try.",
+      "I don't know, but I'll give it a try.",
+      "I don't know, but I'll try it."
+    ],
+    "t": [
+      "Bilmayman, lekin urinib koʻraman.",
+      "Bilmadim, lekin urinib koʻraman.",
+      "Bilmayman, ammo urinib koʻraman.",
+      "Bilmayman, lekin harakat qilib koʻraman."
+    ]
+  },
+  "a2-u1-l10.build-neviem-ale-skusim.distractors": {
+    "en": [
+      "buy",
+      "can"
+    ],
+    "t": [
+      "koʻrasan",
+      "bilaman"
+    ]
+  },
+  "a2-u1-l10.speak-je-to-krasny.en": {
+    "en": "It's a beautiful day.",
+    "t": "Ajoyib kun."
+  },
+  "a2-u1-l11.titleEn": {
+    "en": "My, your, our",
+    "t": "Mening, sening, bizning"
+  },
+  "a2-u1-l11.grammar-possessives-singular.title": {
+    "en": "Môj and náš in every case",
+    "t": "Môj va náš barcha kelishiklarda"
+  },
+  "a2-u1-l11.grammar-possessives-singular.body": {
+    "en": [
+      "You know môj, moja, moje from A1. They change like adjectives, with the same endings: môjho like nového, mojom like novom, mojou like novou. Môj keeps its ô in môj, môjho and môjmu, and náš its á in náš, nášho and nášmu. Elsewhere the vowel is short: mojom, našom, s naším bratom.",
+      "For men and animals the object is môjho: Poznáš môjho brata? For things it stays môj: Vidíš môj dom? Tvoj goes like môj, váš like náš. Jeho, jej and ich never change."
+    ],
+    "t": [
+      "môj, moja, moje ni A1 darajasidan bilasiz. Ular sifatlar kabi, xuddi shunday qoʻshimchalar bilan oʻzgaradi: môjho — nového kabi, mojom — novom kabi, mojou — novou kabi. môj faqat môj, môjho va môjmu shakllarida ô bilan yoziladi; náš esa náš, nášho va nášmu shakllarida á bilan. Boshqa shakllarda unli qisqa: mojom, našom, s naším bratom.",
+      "Erkaklar va hayvonlar uchun toʻldiruvchi shakli — môjho: Poznáš môjho brata? Narsalar uchun môj oʻzgarmaydi: Vidíš môj dom? Tvoj môj kabi, váš esa náš kabi oʻzgaradi. Jeho, jej va ich hech qachon oʻzgarmaydi. Oʻzbekchada «mening» oʻzgarmaydi, slovakchada esa môj ot bilan birga oʻzgaradi."
+    ]
+  },
+  "a2-u1-l11.grammar-possessives-singular.table.head": {
+    "en": [
+      "",
+      "masculine",
+      "feminine",
+      "neuter"
+    ],
+    "t": [
+      "",
+      "erkak jinsi",
+      "ayol jinsi",
+      "oʻrta jins"
+    ]
+  },
+  "a2-u1-l11.grammar-possessives-singular.table.rows": {
+    "en": [
+      [
+        "kto? čo?",
+        "môj / náš",
+        "moja / naša",
+        "moje / naše"
+      ],
+      [
+        "koho? čo?",
+        "môj**ho** / náš**ho**",
+        "moj**u** / naš**u**",
+        "moj**e** / naš**e**"
+      ],
+      [
+        "o kom? o čom?",
+        "moj**om** / naš**om**",
+        "moj**ej** / naš**ej**",
+        "moj**om** / naš**om**"
+      ],
+      [
+        "s kým? s čím?",
+        "moj**ím** / naš**ím**",
+        "moj**ou** / naš**ou**",
+        "moj**ím** / naš**ím**"
+      ]
+    ],
+    "t": [
+      [
+        "kto? čo?",
+        "môj / náš",
+        "moja / naša",
+        "moje / naše"
+      ],
+      [
+        "koho? čo?",
+        "môj**ho** / náš**ho**",
+        "moj**u** / naš**u**",
+        "moj**e** / naš**e**"
+      ],
+      [
+        "o kom? o čom?",
+        "moj**om** / naš**om**",
+        "moj**ej** / naš**ej**",
+        "moj**om** / naš**om**"
+      ],
+      [
+        "s kým? s čím?",
+        "moj**ím** / naš**ím**",
+        "moj**ou** / naš**ou**",
+        "moj**ím** / naš**ím**"
+      ]
+    ]
+  },
+  "a2-u1-l11.grammar-possessives-singular.examples": {
+    "en": [
+      "Do you know my brother?",
+      "We're talking about your town.",
+      "Lucia is talking to my mum.",
+      "Do you know that book? Its author is Slovak."
+    ],
+    "t": [
+      "Akamni taniysanmi?",
+      "Sizning shahringiz haqida gaplashyapmiz.",
+      "Lusiya onam bilan gaplashyapti.",
+      "Bu kitobni bilasanmi? Uning muallifi slovak."
+    ]
+  },
+  "a2-u1-l11.fill-poznas-mojho.en": {
+    "en": "Do you know my brother?",
+    "t": "Akamni taniysanmi?"
+  },
+  "a2-u1-l11.fill-poznas-mojho.why": {
+    "en": "Brat is a man and the object, so môj takes **-ho**, like nového: **môjho** brata.",
+    "t": "Brat — erkak va toʻldiruvchi, shuning uchun môj **-ho** oladi, nového kabi: **môjho** brata."
+  },
+  "a2-u1-l11.fill-lucia-hovori-s.en": {
+    "en": "Lucia is talking to my mum.",
+    "t": "Lusiya onam bilan gaplashyapti."
+  },
+  "a2-u1-l11.fill-lucia-hovori-s.why": {
+    "en": "After **s** (with), feminine words take **-ou**, and môj does too: s **mojou** mamou.",
+    "t": "**s** (bilan) soʻzidan keyin ayol jinsidagi soʻzlar **-ou** oladi, môj ham: s **mojou** mamou."
+  },
+  "a2-u1-l11.fill-v-nasej-izbe.en": {
+    "en": "It's warm in our room.",
+    "t": "Xonamizda issiq."
+  },
+  "a2-u1-l11.fill-v-nasej-izbe.why": {
+    "en": "In our room answers “where?”. Feminine words take **-ej** in the locative, so naša becomes **našej**.",
+    "t": "«Xonamizda» «qayerda?» savoliga javob beradi. Ayol jinsidagi sifat va olmoshlar lokálda **-ej** oladi, shuning uchun naša **našej** boʻladi."
+  },
+  "a2-u1-l11.build-poznas-moju-kamaratku.prompt": {
+    "en": "Do you know my friend Kristína? (to a friend)",
+    "t": "Dugonam Kristinani taniysanmi? (sen)"
+  },
+  "a2-u1-l11.build-poznas-moju-kamaratku.traps": {
+    "en": [
+      "Kristína is the object, so feminine words take **-u**, and môj does too: **moju** kamarátku.",
+      "As the object, a woman's name changes -a to **-u**: **Kristínu**."
+    ],
+    "t": [
+      "Kristina — toʻldiruvchi, shuning uchun ayol jinsidagi soʻzlar **-u** oladi, môj ham: **moju** kamarátku.",
+      "Toʻldiruvchi boʻlganda ayol ismida -a oʻrniga **-u** keladi: **Kristínu**."
+    ]
+  },
+  "a2-u1-l11.fill-daniel-poznam-jeho.en": {
+    "en": "Daniel? I know his grandma.",
+    "t": "Danielmi? Uning buvisini taniyman."
+  },
+  "a2-u1-l11.fill-daniel-poznam-jeho.why": {
+    "en": "Daniel is a man, so **jeho** (his). It never changes: jeho babka, jeho babku, s jeho babkou.",
+    "t": "Daniel — erkak, shuning uchun **jeho** (uning). U hech qachon oʻzgarmaydi: jeho babka, jeho babku, s jeho babkou."
+  },
+  "a2-u1-l11.fill-daniel-cita-knihu.en": {
+    "en": "Daniel is reading a book. Its author is Slovak.",
+    "t": "Daniel kitob oʻqiyapti. Uning muallifi slovak."
+  },
+  "a2-u1-l11.fill-daniel-cita-knihu.why": {
+    "en": "It's the book's author, and kniha is feminine, so **jej**, like for a woman. Jeho autor would be Daniel's.",
+    "t": "Gap kitobning muallifi haqida, kniha esa ayol jinsida, shuning uchun ayol haqidagidek **jej**. Jeho autor — Danielning muallifi boʻlardi."
+  },
+  "a2-u1-l11.grammar-possessives-plural.title": {
+    "en": "Moji, mojich, mojimi: the plural",
+    "t": "Moji, mojich, mojimi: koʻplik"
+  },
+  "a2-u1-l11.grammar-possessives-plural.body": {
+    "en": [
+      "In the plural, men (or a mixed group) take moji, women and things moje (A1, unit 4). The other forms are the same for all genders: mojich and mojimi, like nových and novými.",
+      "One difference: men as the object take mojich (Poznáš mojich kamarátov?), while women and things stay moje (Poznáš moje kamarátky?)."
+    ],
+    "t": [
+      "Koʻplikda erkaklar (yoki aralash guruh) uchun moji, ayollar va narsalar uchun moje ishlatiladi (A1, 4-boʻlim). Boshqa shakllar barcha jinslar uchun bir xil: mojich va mojimi, nových va novými kabi.",
+      "Bitta farq bor: toʻldiruvchi boʻlgan erkaklar uchun mojich (Poznáš mojich kamarátov?), ayollar va narsalar uchun esa moje qoladi (Poznáš moje kamarátky?)."
+    ]
+  },
+  "a2-u1-l11.grammar-possessives-plural.table.head": {
+    "en": [
+      "",
+      "men",
+      "women and things"
+    ],
+    "t": [
+      "",
+      "erkaklar",
+      "ayollar va narsalar"
+    ]
+  },
+  "a2-u1-l11.grammar-possessives-plural.table.rows": {
+    "en": [
+      [
+        "kto? čo?",
+        "moj**i** kamaráti",
+        "moj**e** kamarátky"
+      ],
+      [
+        "koho? čo?",
+        "moj**ich** kamarátov",
+        "moj**e** kamarátky"
+      ],
+      [
+        "o kom? o čom?",
+        "o moj**ich** kamarátoch",
+        "o moj**ich** sestrách"
+      ],
+      [
+        "s kým? s čím?",
+        "s moj**imi** kamarátmi",
+        "s moj**imi** sestrami"
+      ]
+    ],
+    "t": [
+      [
+        "kto? čo?",
+        "moj**i** kamaráti",
+        "moj**e** kamarátky"
+      ],
+      [
+        "koho? čo?",
+        "moj**ich** kamarátov",
+        "moj**e** kamarátky"
+      ],
+      [
+        "o kom? o čom?",
+        "o moj**ich** kamarátoch",
+        "o moj**ich** sestrách"
+      ],
+      [
+        "s kým? s čím?",
+        "s moj**imi** kamarátmi",
+        "s moj**imi** sestrami"
+      ]
+    ]
+  },
+  "a2-u1-l11.grammar-possessives-plural.examples": {
+    "en": [
+      "These are my new friends.",
+      "Do you know our new students?",
+      "We're talking about your friends."
+    ],
+    "t": [
+      "Bular mening yangi doʻstlarim.",
+      "Yangi talabalarimizni taniysizmi?",
+      "Sizning doʻstlaringiz haqida gaplashyapmiz."
+    ]
+  },
+  "a2-u1-l11.fill-to-su-moji.en": {
+    "en": "These are my new friends, Daniel and Kristína.",
+    "t": "Bular mening yangi doʻstlarim, Daniel va Kristina."
+  },
+  "a2-u1-l11.fill-to-su-moji.why": {
+    "en": "A mixed group counts as men, so **moji**, like noví. Moje is for women and things.",
+    "t": "Aralash guruh erkaklar kabi hisoblanadi, shuning uchun **moji**, noví kabi. Moje — ayollar va narsalar uchun."
+  },
+  "a2-u1-l11.fill-pan-kovac-este.en": {
+    "en": "Pán Kováč doesn't know our new friends yet.",
+    "t": "Janob Kovach yangi doʻstlarimizni hali tanimaydi."
+  },
+  "a2-u1-l11.fill-pan-kovac-este.why": {
+    "en": "The friends are men and the object, so náš takes **-ich**, like nových: **našich** kamarátov.",
+    "t": "Doʻstlar — erkaklar va toʻldiruvchi, shuning uchun náš **-ich** oladi, nových kabi: **našich** kamarátov."
+  },
+  "a2-u1-l11.fill-emma-ide-do.en": {
+    "en": "Emma is going to the cinema with our friends.",
+    "t": "Emma doʻstlarimiz bilan kinoga ketyapti."
+  },
+  "a2-u1-l11.fill-emma-ide-do.why": {
+    "en": "After **s** (with), the plural ends in **-imi**, like novými: s **našimi** kamarátmi.",
+    "t": "**s** (bilan) soʻzidan keyin koʻplik **-imi** bilan tugaydi, novými kabi: s **našimi** kamarátmi."
+  },
+  "a2-u1-l11.choice-kristinina-mama-je.question": {
+    "en": "Kristínina mama je Slovenka. How else can you say it?",
+    "t": "Kristínina mama je Slovenka. Buni yana qanday aytish mumkin?"
+  },
+  "a2-u1-l11.choice-kristinina-mama-je.why": {
+    "en": "Kristínina means Kristína's, a woman's, so **jej** (her). Jeho is his, ich their.",
+    "t": "Kristínina — «Kristinaning», yaʼni ayolning, shuning uchun **jej**. Jeho — erkakning, ich — ularning."
+  },
+  "a2-u1-l11.fill-lucia-ide-do.en": {
+    "en": "Lucia is going to the cinema with my brother.",
+    "t": "Lusiya akam bilan kinoga ketyapti."
+  },
+  "a2-u1-l11.fill-lucia-ide-do.why": {
+    "en": "After **s** (with), masculine words take **-ím** in môj, like novým: s **mojím** bratom. Mojom is for “where?” or “about”.",
+    "t": "**s** (bilan) soʻzidan keyin erkak jinsida môj **-ím** oladi, novým kabi: s **mojím** bratom. Mojom — «qayerda?» yoki «haqida» uchun."
+  },
+  "a2-u1-l11.fill-je-v-tvojom.en": {
+    "en": "Is there a balcony in your flat?",
+    "t": "Kvartirangda balkon bormi?"
+  },
+  "a2-u1-l11.fill-je-v-tvojom.why": {
+    "en": "In your flat answers “where?”, so after v comes the locative. Tvoj goes like môj: **tvojom**, like v mojom byte.",
+    "t": "«Kvartirangda» «qayerda?» savoliga javob beradi, shuning uchun v dan keyin lokál keladi. Tvoj môj kabi oʻzgaradi: **tvojom**, v mojom byte kabi."
+  },
+  "a2-u1-l11.build-poznam-tvojho-brata.prompt": {
+    "en": "I know your brother. (to a friend)",
+    "t": "Akangni taniyman. (sen)"
+  },
+  "a2-u1-l11.build-poznam-tvojho-brata.traps": {
+    "en": [
+      "Your brother is a man and the object, so tvoj takes **-ho**, like môjho: **tvojho** brata.",
+      "A man as the object adds **-a**: poznám **brata**."
+    ],
+    "t": [
+      "Akang — erkak va toʻldiruvchi, shuning uchun tvoj **-ho** oladi, môjho kabi: **tvojho** brata.",
+      "Toʻldiruvchi boʻlgan erkak **-a** oladi: poznám **brata**."
+    ]
+  },
+  "a2-u1-l11.build-hovorili-sme-o.prompt": {
+    "en": "We were talking about your teacher. (to a group)",
+    "t": "Sizlarning oʻqituvchingiz (ayol) haqida gaplashdik. (bir necha kishiga)"
+  },
+  "a2-u1-l11.build-hovorili-sme-o.traps": {
+    "en": [
+      "After **o** (about) comes the locative, feminine **-ej**: vaša becomes **vašej**.",
+      "After o, a feminine noun in -a takes **-e**: o **učiteľke**."
+    ],
+    "t": [
+      "**o** (haqida) soʻzidan keyin lokál keladi, ayol jinsida **-ej**: vaša **vašej** boʻladi.",
+      "o dan keyin -a bilan tugaydigan ayol jinsidagi ot **-e** oladi: o **učiteľke**."
+    ]
+  },
+  "a2-u1-l11.speak-to-su-moji.en": {
+    "en": "These are my new friends.",
+    "t": "Bular mening yangi doʻstlarim."
+  },
+  "a2-u1-l12.titleEn": {
+    "en": "What do you think?",
+    "t": "Nima deb oʻylaysan?"
+  },
+  "a2-u1-l12.relacia.en": {
+    "en": "(TV or radio) programme, show",
+    "t": "koʻrsatuv, eshittirish (televizor yoki radioda)"
+  },
+  "a2-u1-l12.relacia.note": {
+    "en": "Pozeráš túto reláciu? = Do you watch this show? (**pozerať** = to watch) Martina from the student radio is doing a poll (**anketa**) about TV quiz shows.",
+    "t": "Pozeráš túto reláciu? = Bu koʻrsatuvni koʻrasanmi? (**pozerať** = tomosha qilmoq) Talabalar radiosidan Martina televizion viktorinalar haqida soʻrovnoma (**anketa**) oʻtkazyapti."
+  },
+  "a2-u1-l12.choice-emma-pozera-kvizove.question": {
+    "en": "Why does Emma watch quiz shows?",
+    "t": "Emma nega viktorina koʻrsatuvlarini koʻradi?"
+  },
+  "a2-u1-l12.choice-emma-pozera-kvizove.options": {
+    "en": [
+      "To learn Slovak.",
+      "Because she's bored.",
+      "To win a prize."
+    ],
+    "t": [
+      "Slovak tilini oʻrganish uchun.",
+      "Zerikkani uchun.",
+      "Sovrin yutish uchun."
+    ]
+  },
+  "a2-u1-l12.podla-mna.en": {
+    "en": "in my opinion",
+    "t": "menimcha, mening fikrimcha"
+  },
+  "a2-u1-l12.podla-mna.note": {
+    "en": "Daniel: Podľa mňa je tá relácia **nudná** (boring). Emma: Podľa mňa je **zábavná** (fun)!",
+    "t": "Daniel: Podľa mňa je tá relácia **nudná** (zerikarli). Emma: Podľa mňa je **zábavná** (qiziqarli)!"
+  },
+  "a2-u1-l12.fill-podla-mna-je.en": {
+    "en": "In my opinion that show is boring.",
+    "t": "Menimcha, bu koʻrsatuv zerikarli."
+  },
+  "a2-u1-l12.fill-podla-mna-je.why": {
+    "en": "Relácia is feminine, so the adjective ends in **-á**: nudn**á**, like tá.",
+    "t": "Relácia ayol jinsida, shuning uchun sifat **-á** bilan tugaydi: nudn**á**, xuddi tá kabi."
+  },
+  "a2-u1-l12.celebrita.en": {
+    "en": "celebrity",
+    "t": "taniqli shaxs, mashhur odam"
+  },
+  "a2-u1-l12.celebrita.note": {
+    "en": "Je to celebrita: všetci ju poznajú. (**všetci** = everyone) A big star is a **hviezda**.",
+    "t": "Je to celebrita: všetci ju poznajú. = U taniqli shaxs: hamma uni taniydi. (**všetci** = hamma) Katta yulduz esa — **hviezda**."
+  },
+  "a2-u1-l12.slavny.en": {
+    "en": "famous",
+    "t": "mashhur"
+  },
+  "a2-u1-l12.slavny.note": {
+    "en": "Ten moderátor je veľmi slávny. Here v sounds like u, as in English “how”: [sláu̯ni]. The same in správny [spráu̯ni].",
+    "t": "Ten moderátor je veľmi slávny. = U boshlovchi juda mashhur. Bu yerda v qisqa u kabi eshitiladi: [sláu̯ni]. správny [spráu̯ni] soʻzida ham shunday."
+  },
+  "a2-u1-l12.build-ten-moderator-je.prompt": {
+    "en": "That presenter is very famous.",
+    "t": "U boshlovchi juda mashhur."
+  },
+  "a2-u1-l12.build-ten-moderator-je.traps": {
+    "en": [
+      "Moderátor is a man, so “that” is **ten**. Tá is for a woman: tá moderátorka.",
+      "Moderátor is masculine, so the ending is **-y**, short after the long á: slávn**y**."
+    ],
+    "t": [
+      "Moderátor — erkak, shuning uchun «u» **ten** boʻladi. Tá — ayol uchun: tá moderátorka.",
+      "Moderátor erkak jinsida, shuning uchun qoʻshimcha **-y**, choʻziq á dan keyin qisqa: slávn**y**."
+    ]
+  },
+  "a2-u1-l12.choice-daniel-doesnt-like.question": {
+    "en": "Daniel doesn't like the show. What does he say?",
+    "t": "Daniel koʻrsatuvni yoqtirmaydi. U nima deydi?"
+  },
+  "a2-u1-l12.build-co-si-myslite.answers": {
+    "en": [
+      "What do you think of that show?",
+      "What do you think about that show?",
+      "What do you think of that programme?",
+      "What do you think about that programme?"
+    ],
+    "t": [
+      "U koʻrsatuv haqida nima deb oʻylaysiz?",
+      "Bu koʻrsatuv haqida nima deb oʻylaysiz?",
+      "U koʻrsatuv haqida fikringiz qanday?",
+      "Bu koʻrsatuv haqida fikringiz qanday?"
+    ]
+  },
+  "a2-u1-l12.build-co-si-myslite.distractors": {
+    "en": [
+      "presenter",
+      "where"
+    ],
+    "t": [
+      "boshlovchi",
+      "qayerda"
+    ]
+  },
+  "a2-u1-l12.co-to-znamena.en": {
+    "en": "What does that mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "a2-u1-l12.co-to-znamena.note": {
+    "en": "**znamenať** = to mean. The answer often starts **To znamená, že…** = It means that…",
+    "t": "**znamenať** = anglatmoq. Javob koʻpincha **To znamená, že…** (Bu shuni anglatadiki…) bilan boshlanadi."
+  },
+  "a2-u1-l12.zavinac.en": {
+    "en": "at sign (@)",
+    "t": "@ belgisi («kuchukcha»)"
+  },
+  "a2-u1-l12.zavinac.note": {
+    "en": "Slovaks read the @ in an e-mail address as **zavináč**: emma zavináč…",
+    "t": "Slovaklar elektron pochta manzilidagi @ belgisini **zavináč** deb oʻqiydi: emma zavináč…"
+  },
+  "a2-u1-l12.choice-co-znamena-zavinac.question": {
+    "en": "Emma asks Daniel about a word. What's the answer?",
+    "t": "Emma Danieldan bir soʻz haqida soʻrayapti. Javob qanday?"
+  },
+  "a2-u1-l12.choice-co-znamena-zavinac.options": {
+    "en": [
+      "a famous presenter",
+      "a quiz question",
+      "the @ sign in an e-mail address"
+    ],
+    "t": [
+      "mashhur boshlovchi",
+      "viktorina savoli",
+      "elektron pochta manzilidagi @ belgisi"
+    ]
+  },
+  "a2-u1-l12.choice-co-znamena-zavinac.why": {
+    "en": "**Zavináč** is the @ sign. Slovaks read an e-mail address like this: emma zavináč…",
+    "t": "**Zavináč** — @ belgisi. Slovaklar elektron pochta manzilini shunday oʻqiydi: emma zavináč…"
+  },
+  "a2-u1-l12.fill-daniel-nosi-okuliare.en": {
+    "en": "Daniel wears glasses? That means he can't see well.",
+    "t": "Daniel koʻzoynak taqadimi? Demak, koʻzi yaxshi koʻrmaydi."
+  },
+  "a2-u1-l12.fill-daniel-nosi-okuliare.why": {
+    "en": "To (that) works like on or ona: no ending, **znamená**. The á is long because me- is short.",
+    "t": "To (bu) on yoki ona kabi ishlaydi: feʼl qoʻshimchasiz keladi, **znamená**. á choʻziq, chunki me- qisqa."
+  },
+  "a2-u1-l12.match-relacia.pairs": {
+    "en": [
+      "show",
+      "celebrity",
+      "famous",
+      "boring",
+      "fun"
+    ],
+    "t": [
+      "koʻrsatuv",
+      "taniqli shaxs",
+      "mashhur",
+      "zerikarli",
+      "qiziqarli"
+    ]
+  },
+  "a2-u1-l12.build-podla-mna-bol.prompt": {
+    "en": "In my opinion, the quiz was fun.",
+    "t": "Menimcha, viktorina qiziqarli boʻldi."
+  },
+  "a2-u1-l12.build-podla-mna-bol.traps": {
+    "en": [
+      "Kvíz is masculine, so the adjective ends in **-ý**: zábavn**ý**.",
+      "The quiz is over, so byť is in the past: kvíz **bol**. Je is now."
+    ],
+    "t": [
+      "Kvíz erkak jinsida, shuning uchun sifat **-ý** bilan tugaydi: zábavn**ý**.",
+      "Viktorina tugagan, shuning uchun byť oʻtgan zamonda: kvíz **bol**. Je — hozirgi zamon."
+    ]
+  },
+  "a2-u1-l12.speak-prepacte-co-to.en": {
+    "en": "Sorry, what does that mean?",
+    "t": "Kechirasiz, bu nimani anglatadi?"
+  },
+  "a2-u1-l13.titleEn": {
+    "en": "Hard and soft adjectives",
+    "t": "Qattiq va yumshoq sifatlar"
+  },
+  "a2-u1-l13.grammar-pekny-cudzi.title": {
+    "en": "Pekný and cudzí",
+    "t": "Pekný va cudzí"
+  },
+  "a2-u1-l13.grammar-pekny-cudzi.body": {
+    "en": [
+      "The consonant before the ending decides. After a hard consonant (d, t, n, l, k, h, ch, g, b, m, p, r, s, v, z, f) adjectives go like pekný, as in A1. After a soft consonant (c, č, dz, dž, ž, š, j, ď, ť, ň, ľ) they go like **cudzí** (foreign, strange): long ý, á, é, ú become í, ia, ie, iu, and y becomes i.",
+      "You know two already: horúci (hot), and tretí (third), whose t is a soft ť: before í the hook isn't written, as in Teší ma. New: **domáci** (home, homemade) and **budúci** (next). After a long syllable their endings are short, by the rhythmic law: domáca úloha (homework), budúci týždeň (next week)."
+    ],
+    "t": [
+      "Qoʻshimchadan oldingi undosh hal qiladi. Qattiq undoshdan (d, t, n, l, k, h, ch, g, b, m, p, r, s, v, z, f) keyin sifatlar A1 darajasidagidek pekný kabi oʻzgaradi. Yumshoq undoshdan (c, č, dz, dž, ž, š, j, ď, ť, ň, ľ) keyin esa **cudzí** (begona, chet) kabi oʻzgaradi: choʻziq ý, á, é, ú oʻrniga í, ia, ie, iu, y oʻrniga esa i keladi.",
+      "Ikkitasini allaqachon bilasiz: horúci (issiq) va tretí (uchinchi); undagi t — yumshoq ť, faqat í oldida qalpoqcha yozilmaydi, xuddi Teší ma iborasidagi kabi. Yangilari: **domáci** (uyga oid, uyda tayyorlangan) va **budúci** (kelasi). Choʻziq boʻgʻindan keyin ularning qoʻshimchalari ritm qonuniga koʻra qisqa: domáca úloha (uy vazifasi), budúci týždeň (kelasi hafta)."
+    ]
+  },
+  "a2-u1-l13.grammar-pekny-cudzi.table.head": {
+    "en": [
+      "",
+      "hard: pekný",
+      "soft: cudzí"
+    ],
+    "t": [
+      "",
+      "qattiq: pekný",
+      "yumshoq: cudzí"
+    ]
+  },
+  "a2-u1-l13.grammar-pekny-cudzi.table.rows": {
+    "en": [
+      [
+        "he",
+        "pekn**ý**",
+        "cudz**í**"
+      ],
+      [
+        "she",
+        "pekn**á**",
+        "cudz**ia**"
+      ],
+      [
+        "it",
+        "pekn**é**",
+        "cudz**ie**"
+      ],
+      [
+        "object: she",
+        "pekn**ú**",
+        "cudz**iu**"
+      ],
+      [
+        "object: he (a person)",
+        "pekn**ého**",
+        "cudz**ieho**"
+      ],
+      [
+        "o kom? (he, it / she)",
+        "pekn**om** / pekn**ej**",
+        "cudz**om** / cudz**ej**"
+      ],
+      [
+        "s kým? (he, it / she)",
+        "pekn**ým** / pekn**ou**",
+        "cudz**ím** / cudz**ou**"
+      ],
+      [
+        "plural: o kom? / s kým?",
+        "pekn**ých** / pekn**ými**",
+        "cudz**ích** / cudz**ími**"
+      ]
+    ],
+    "t": [
+      [
+        "erkak jinsi",
+        "pekn**ý**",
+        "cudz**í**"
+      ],
+      [
+        "ayol jinsi",
+        "pekn**á**",
+        "cudz**ia**"
+      ],
+      [
+        "oʻrta jins",
+        "pekn**é**",
+        "cudz**ie**"
+      ],
+      [
+        "toʻldiruvchi: ayol jinsi",
+        "pekn**ú**",
+        "cudz**iu**"
+      ],
+      [
+        "toʻldiruvchi: erkak (shaxs)",
+        "pekn**ého**",
+        "cudz**ieho**"
+      ],
+      [
+        "o kom? (erkak, oʻrta / ayol jinsi)",
+        "pekn**om** / pekn**ej**",
+        "cudz**om** / cudz**ej**"
+      ],
+      [
+        "s kým? (erkak, oʻrta / ayol jinsi)",
+        "pekn**ým** / pekn**ou**",
+        "cudz**ím** / cudz**ou**"
+      ],
+      [
+        "koʻplik: o kom? / s kým?",
+        "pekn**ých** / pekn**ými**",
+        "cudz**ích** / cudz**ími**"
+      ]
+    ]
+  },
+  "a2-u1-l13.grammar-pekny-cudzi.examples": {
+    "en": [
+      "I'm learning a foreign language.",
+      "Bratislava isn't a strange city any more.",
+      "I'm doing my homework."
+    ],
+    "t": [
+      "Chet tilini oʻrganyapman.",
+      "Bratislava endi begona shahar emas.",
+      "Uy vazifasini qilyapman."
+    ]
+  },
+  "a2-u1-l13.grammar-men-plural-i.title": {
+    "en": "Groups of men: -í",
+    "t": "Erkaklar guruhi: -í"
+  },
+  "a2-u1-l13.grammar-men-plural-i.body": {
+    "en": [
+      "You know tí mladí kuchári from A1: with men, or a mixed group, adjectives end in **-í**. Everything else in the plural ends in -é, or -ie in the soft type.",
+      "Adjectives in -ský and -cký keep their k: slovenskí, anglickí. Soft adjectives have one form for one man and for men: cudzí človek (a stranger), cudzí ľudia (strangers)."
+    ],
+    "t": [
+      "tí mladí kuchári (oʻsha yosh oshpazlar) iborasini A1 darajasidan bilasiz: erkaklar yoki aralash guruh haqida gapirilganda sifatlar **-í** bilan tugaydi. Koʻplikdagi qolgan barcha soʻzlar -é bilan, yumshoq turda esa -ie bilan tugaydi.",
+      "-ský va -cký bilan tugaydigan sifatlar k ni saqlaydi: slovenskí, anglickí. Yumshoq sifatlarda bitta erkak va erkaklar uchun shakl bir xil: cudzí človek (notanish odam), cudzí ľudia (notanish odamlar)."
+    ]
+  },
+  "a2-u1-l13.grammar-men-plural-i.table.head": {
+    "en": [
+      "one man",
+      "men",
+      "women, things"
+    ],
+    "t": [
+      "bitta erkak",
+      "erkaklar",
+      "ayollar, narsalar"
+    ]
+  },
+  "a2-u1-l13.grammar-men-plural-i.table.rows": {
+    "en": [
+      [
+        "nov**ý** študent",
+        "nov**í** študenti",
+        "nov**é** študentky"
+      ],
+      [
+        "slovensk**ý** študent",
+        "slovensk**í** študenti",
+        "slovensk**é** študentky"
+      ],
+      [
+        "zahraničn**ý** študent",
+        "zahraničn**í** študenti",
+        "zahraničn**é** študentky"
+      ],
+      [
+        "cudz**í** človek",
+        "cudz**í** ľudia",
+        "cudz**ie** mestá"
+      ]
+    ],
+    "t": [
+      [
+        "nov**ý** študent",
+        "nov**í** študenti",
+        "nov**é** študentky"
+      ],
+      [
+        "slovensk**ý** študent",
+        "slovensk**í** študenti",
+        "slovensk**é** študentky"
+      ],
+      [
+        "zahraničn**ý** študent",
+        "zahraničn**í** študenti",
+        "zahraničn**é** študentky"
+      ],
+      [
+        "cudz**í** človek",
+        "cudz**í** ľudia",
+        "cudz**ie** mestá"
+      ]
+    ]
+  },
+  "a2-u1-l13.grammar-men-plural-i.examples": {
+    "en": [
+      "The new students are in the library.",
+      "Slovak students speak English."
+    ],
+    "t": [
+      "Yangi talabalar kutubxonada.",
+      "Slovak talabalari inglizcha gapiradi."
+    ]
+  },
+  "a2-u1-l13.fill-ucim-sa-cudzi.en": {
+    "en": "I'm learning a foreign language.",
+    "t": "Chet tilini oʻrganyapman."
+  },
+  "a2-u1-l13.fill-ucim-sa-cudzi.why": {
+    "en": "Jazyk is a masculine thing, so as the object it stays as it is: **cudzí** jazyk. Cudzieho is for a person or an animal.",
+    "t": "Jazyk — erkak jinsidagi narsa, shuning uchun toʻldiruvchi boʻlganda oʻzgarmaydi: **cudzí** jazyk. Cudzieho — shaxs yoki hayvon uchun."
+  },
+  "a2-u1-l13.fill-kristina-ovlada-dva.en": {
+    "en": "Kristína speaks two foreign languages.",
+    "t": "Kristina ikkita chet tilini biladi."
+  },
+  "a2-u1-l13.fill-kristina-ovlada-dva.why": {
+    "en": "Jazyky are things in the plural, so the soft ending is **-ie**: cudz**ie** jazyky, like pekné.",
+    "t": "Jazyky — koʻplikdagi narsalar, shuning uchun yumshoq qoʻshimcha **-ie**: cudz**ie** jazyky, pekné kabi."
+  },
+  "a2-u1-l13.fill-vecer-robim-domacu.en": {
+    "en": "In the evening I do my homework.",
+    "t": "Kechqurun uy vazifasini qilaman."
+  },
+  "a2-u1-l13.fill-vecer-robim-domacu.why": {
+    "en": "Úloha is feminine and the object, so **-u**: domác**u**. It's short because má- is long.",
+    "t": "Úloha ayol jinsida va toʻldiruvchi, shuning uchun **-u**: domác**u**. U qisqa, chunki má- choʻziq."
+  },
+  "a2-u1-l13.fill-buduci-tyzden-mam.en": {
+    "en": "Next week I have an exam.",
+    "t": "Kelasi hafta imtihonim bor."
+  },
+  "a2-u1-l13.fill-buduci-tyzden-mam.why": {
+    "en": "Týždeň is masculine: **budúci**, the soft type, with a short i after the long ú.",
+    "t": "Týždeň erkak jinsida: **budúci** — yumshoq tur, choʻziq ú dan keyin qisqa i bilan."
+  },
+  "a2-u1-l13.fill-na-seminari-hovorime.en": {
+    "en": "At the seminar we talk about a foreign culture.",
+    "t": "Seminarda xorijiy madaniyat haqida gaplashamiz."
+  },
+  "a2-u1-l13.fill-na-seminari-hovorime.why": {
+    "en": "After o comes the locative. Kultúra is feminine, so **-ej**: cudz**ej**, just like peknej.",
+    "t": "o dan keyin lokál keladi. Kultúra ayol jinsida, shuning uchun **-ej**: cudz**ej**, xuddi peknej kabi."
+  },
+  "a2-u1-l13.choice-which-like-cudzi.question": {
+    "en": "Which adjective goes like cudzí?",
+    "t": "Qaysi sifat cudzí kabi oʻzgaradi?"
+  },
+  "a2-u1-l13.choice-which-like-cudzi.why": {
+    "en": "In domáci a soft **c** comes before the ending, so it's the soft type. Slávny and slovenský have a hard n and k.",
+    "t": "domáci soʻzida qoʻshimchadan oldin yumshoq **c** keladi, shuning uchun bu yumshoq tur. Slávny va slovenský soʻzlarida esa qattiq n va k bor."
+  },
+  "a2-u1-l13.grammar-i-or-y.title": {
+    "en": "One sound, two letters: i and y",
+    "t": "Bitta tovush, ikkita harf: i va y"
+  },
+  "a2-u1-l13.grammar-i-or-y.body": {
+    "en": [
+      "i and y sound the same, and so do í and ý: Slovak has one sound but two letters. In adjective endings you can tell which one to write.",
+      "After a hard consonant write y, ý: pekný, krásny. After a soft one write i, í: cudzí, domáci. And for groups of men always i, í: pekní, noví. So nový študent and noví študenti sound exactly the same: only the spelling shows one man or more."
+    ],
+    "t": [
+      "i va y bir xil eshitiladi, í va ý ham: slovak tilida tovush bitta, harf esa ikkita. Sifat qoʻshimchalarida qaysi birini yozishni bilish mumkin.",
+      "Qattiq undoshdan keyin y, ý yoziladi: pekný, krásny. Yumshoq undoshdan keyin i, í: cudzí, domáci. Erkaklar guruhi uchun esa doim i, í: pekní, noví. Shuning uchun nový študent va noví študenti aynan bir xil eshitiladi: bitta erkakmi yoki koʻpmi, faqat yozuvda koʻrinadi."
+    ]
+  },
+  "a2-u1-l13.grammar-i-or-y.examples": {
+    "en": [
+      "The new student is from Munich.",
+      "The new students are from Munich."
+    ],
+    "t": [
+      "Yangi talaba Myunxendan.",
+      "Yangi talabalar Myunxendan."
+    ]
+  },
+  "a2-u1-l13.fill-na-univerzite-su.en": {
+    "en": "There are new students at the university.",
+    "t": "Universitetda yangi talabalar bor."
+  },
+  "a2-u1-l13.fill-na-univerzite-su.why": {
+    "en": "Študenti are men (or a mixed group), so the ending is **-í**: nov**í**. Nový is for one man, nové for women and things.",
+    "t": "Študenti — erkaklar (yoki aralash guruh), shuning uchun qoʻshimcha **-í**: nov**í**. Nový — bitta erkak uchun, nové — ayollar va narsalar uchun."
+  },
+  "a2-u1-l13.choice-novi-studenti-su.question": {
+    "en": "The first two sound the same. Which one is spelled correctly?",
+    "t": "Birinchi ikkitasi bir xil eshitiladi. Qaysi biri toʻgʻri yozilgan?"
+  },
+  "a2-u1-l13.choice-novi-studenti-su.why": {
+    "en": "Groups of men take **-í**, written with i: nov**í** študenti. Nový sounds the same, but it's for one man.",
+    "t": "Erkaklar guruhi **-í** oladi, u i bilan yoziladi: nov**í** študenti. Nový ham xuddi shunday eshitiladi, lekin u bitta erkak uchun."
+  },
+  "a2-u1-l13.build-slovenski-studenti-hovoria.prompt": {
+    "en": "Slovak students speak English well.",
+    "t": "Slovak talabalari inglizcha yaxshi gapiradi."
+  },
+  "a2-u1-l13.build-slovenski-studenti-hovoria.traps": {
+    "en": [
+      "Študenti are men (or a mixed group), so the adjective ends in **-í**: **slovenskí** študenti. Slovenské is for women and things.",
+      "Študenti are oni, so the verb is **hovoria**. Hovorí is for one person."
+    ],
+    "t": [
+      "Študenti — erkaklar (yoki aralash guruh), shuning uchun sifat **-í** bilan tugaydi: **slovenskí** študenti. Slovenské — ayollar va narsalar uchun.",
+      "Študenti — oni, shuning uchun feʼl **hovoria** boʻladi. Hovorí — bitta kishi uchun."
+    ]
+  },
+  "a2-u1-l13.build-zahranicni-studenti-su.prompt": {
+    "en": "The foreign students are in the library.",
+    "t": "Xorijiy talabalar kutubxonada."
+  },
+  "a2-u1-l13.build-zahranicni-studenti-su.traps": {
+    "en": [
+      "Študenti are men (or a mixed group), so **-í**: **zahraniční**. Zahraničné is for women and things.",
+      "In the library answers “where?”: after v, -ca becomes **-ci**: v **knižnici**."
+    ],
+    "t": [
+      "Študenti — erkaklar (yoki aralash guruh), shuning uchun **-í**: **zahraniční**. Zahraničné — ayollar va narsalar uchun.",
+      "«Kutubxonada» «qayerda?» savoliga javob beradi: v dan keyin -ca oʻrniga **-ci** keladi: v **knižnici**."
+    ]
+  },
+  "a2-u1-l13.build-daniel-rad-hovori.answers": {
+    "en": [
+      "Daniel likes talking to strangers too.",
+      "Daniel likes talking with strangers too.",
+      "Daniel even likes talking to strangers.",
+      "Daniel likes to talk to strangers too."
+    ],
+    "t": [
+      "Daniel notanish odamlar bilan ham gaplashishni yaxshi koʻradi.",
+      "Daniel begona odamlar bilan ham gaplashishni yaxshi koʻradi.",
+      "Daniel notanishlar bilan ham gaplashishni yaxshi koʻradi."
+    ]
+  },
+  "a2-u1-l13.build-daniel-rad-hovori.distractors": {
+    "en": [
+      "friends",
+      "hates"
+    ],
+    "t": [
+      "doʻstlari",
+      "yoqtirmaydi"
+    ]
+  },
+  "a2-u1-l13.speak-bratislava-uz-nie.en": {
+    "en": "Bratislava isn't a strange city any more.",
+    "t": "Bratislava endi begona shahar emas."
+  },
+  "a2-u1-l14.titleEn": {
+    "en": "The last round",
+    "t": "Soʻnggi tur"
+  },
+  "a2-u1-l14.hranica.en": {
+    "en": "border",
+    "t": "chegara"
+  },
+  "a2-u1-l14.hranica.note": {
+    "en": "Bratislava je pri **hranici** s Rakúskom a s Maďarskom. (**Rakúsko** = Austria, **Maďarsko** = Hungary, **krajina** = country)",
+    "t": "Bratislava je pri **hranici** s Rakúskom a s Maďarskom. = Bratislava Avstriya va Vengriya bilan chegarada joylashgan. (**Rakúsko** = Avstriya, **Maďarsko** = Vengriya, **krajina** = mamlakat)"
+  },
+  "a2-u1-l14.choice-s-ktorou-krajinou.question": {
+    "en": "The last round, first question. What's the right answer?",
+    "t": "Soʻnggi tur, birinchi savol. Toʻgʻri javob qaysi?"
+  },
+  "a2-u1-l14.hory.en": {
+    "en": "mountains",
+    "t": "togʻlar"
+  },
+  "a2-u1-l14.hory.note": {
+    "en": "One is a **hora**. Vysoké Tatry sú hory na **severe** Slovenska (in the north). Also: na **juhu** (in the south), na **východe** (in the east), na **západe** (in the west).",
+    "t": "Bitta togʻ — **hora**. Vysoké Tatry sú hory na **severe** Slovenska. = Baland Tatra — Slovakiya shimolidagi togʻlar. Yana: na **juhu** (janubda), na **východe** (sharqda), na **západe** (gʻarbda)."
+  },
+  "a2-u1-l14.choice-kde-su-vysoke.question": {
+    "en": "Second question. What's the answer?",
+    "t": "Ikkinchi savol. Javob qanday?"
+  },
+  "a2-u1-l14.spissky-hrad.en": {
+    "en": "Spiš Castle",
+    "t": "Spish qalʼasi"
+  },
+  "a2-u1-l14.spissky-hrad.note": {
+    "en": "One of the biggest castles in Central Europe. It's **na Spiši**, a **región** (region) in the east of Slovakia: na východe Slovenska.",
+    "t": "Markaziy Yevropadagi eng katta qalʼalardan biri. U Slovakiya sharqidagi Spish mintaqasida (**región**) joylashgan: **na Spiši**, na východe Slovenska."
+  },
+  "a2-u1-l14.choice-v-ktorom-regione.question": {
+    "en": "Third question. Mrs Horváthová says it's an easy one.",
+    "t": "Uchinchi savol. Horvatova xonimning aytishicha, bu oson savol."
+  },
+  "a2-u1-l14.choice-v-ktorom-regione.why": {
+    "en": "The name says it: **spišský** means “of Spiš”, so Spišský hrad is na Spiši, in the east.",
+    "t": "Nomining oʻzi aytib turibdi: **spišský** — «Spishga oid», demak Spišský hrad na Spiši, yaʼni sharqda."
+  },
+  "a2-u1-l14.vyhrat.en": {
+    "en": "to win",
+    "t": "yutmoq, gʻalaba qozonmoq"
+  },
+  "a2-u1-l14.vyhrat.note": {
+    "en": "**Vyhrali sme!** = We've won! The winner is the **víťaz**; the winners are the víťazi.",
+    "t": "**Vyhrali sme!** = Biz yutdik! Gʻolib — **víťaz**; gʻoliblar — víťazi."
+  },
+  "a2-u1-l14.build-nas-tim-vyhral.prompt": {
+    "en": "Our team has won!",
+    "t": "Bizning jamoamiz yutdi!"
+  },
+  "a2-u1-l14.build-nas-tim-vyhral.traps": {
+    "en": [
+      "Tím (team) is one masculine thing, like on, so the past form is **vyhral**. Vyhrali is for more people: vyhrali sme.",
+      "The team is the subject here, so the basic form: **náš** tím. Našom answers “where?”: v našom tíme."
+    ],
+    "t": [
+      "Tím (jamoa) — bitta, erkak jinsidagi narsa, on kabi, shuning uchun oʻtgan zamon shakli **vyhral**. Vyhrali — bir necha kishi uchun: vyhrali sme.",
+      "Bu yerda jamoa — ega, shuning uchun asosiy shakl: **náš** tím. Našom «qayerda?» savoliga javob beradi: v našom tíme."
+    ]
+  },
+  "a2-u1-l14.gratulujem.en": {
+    "en": "Congratulations!",
+    "t": "Tabriklayman!"
+  },
+  "a2-u1-l14.gratulujem.note": {
+    "en": "**Gratulujem, vyhrali ste!** = Congratulations, you've won!",
+    "t": "**Gratulujem, vyhrali ste!** = Tabriklayman, siz yutdingiz!"
+  },
+  "a2-u1-l14.fill-gratulujem-vyhrali-ste.en": {
+    "en": "Congratulations, you've won!",
+    "t": "Tabriklayman, siz yutdingiz!"
+  },
+  "a2-u1-l14.fill-gratulujem-vyhrali-ste.why": {
+    "en": "With **vy**, the past always ends in **-li**, even for one person: vyhrali ste.",
+    "t": "**vy** bilan oʻtgan zamon doim **-li** bilan tugaydi, bitta kishiga «siz» deganda ham: vyhrali ste."
+  },
+  "a2-u1-l14.cena.en": {
+    "en": "prize",
+    "t": "sovrin, mukofot"
+  },
+  "a2-u1-l14.cena.note": {
+    "en": "Cena pre víťazov je kniha o Slovensku. Cena also means price: Aká je cena?",
+    "t": "Cena pre víťazov je kniha o Slovensku. = Gʻoliblarga sovrin — Slovakiya haqida kitob. Cena «narx» degani ham: Aká je cena? = Narxi qancha?"
+  },
+  "a2-u1-l14.fanusik.en": {
+    "en": "fan, supporter",
+    "t": "muxlis"
+  },
+  "a2-u1-l14.fanusik.note": {
+    "en": "Plural: **fanúšikovia**. Naši fanúšikovia sú tu!",
+    "t": "Koʻplik: **fanúšikovia**. Naši fanúšikovia sú tu! = Muxlislarimiz shu yerda!"
+  },
+  "a2-u1-l14.choice-gratulujem-si-nasa.question": {
+    "en": "Kristína knew almost every answer. What does Daniel tell her?",
+    "t": "Kristina deyarli hamma javobni bildi. Daniel unga nima deydi?"
+  },
+  "a2-u1-l14.build-kristina-vedela-spravne.prompt": {
+    "en": "Kristína knew the right answers.",
+    "t": "Kristina toʻgʻri javoblarni bildi."
+  },
+  "a2-u1-l14.build-kristina-vedela-spravne.traps": {
+    "en": [
+      "Kristína is a woman, so the past form ends in **-la**: **vedela**.",
+      "Odpovede is plural, so the adjective ends in **-e**: **správne** odpovede."
+    ],
+    "t": [
+      "Kristina — ayol, shuning uchun oʻtgan zamon shakli **-la** bilan tugaydi: **vedela**.",
+      "Odpovede koʻplikda, shuning uchun sifat **-e** bilan tugaydi: **správne** odpovede."
+    ]
+  },
+  "a2-u1-l14.build-bratislava-je-pri.answers": {
+    "en": [
+      "Bratislava is near the border with Austria.",
+      "Bratislava is on the border with Austria.",
+      "Bratislava is by the border with Austria."
+    ],
+    "t": [
+      "Bratislava Avstriya bilan chegara yaqinida.",
+      "Bratislava Avstriya chegarasi yaqinida.",
+      "Bratislava Avstriya bilan chegarada joylashgan.",
+      "Bratislava Avstriya chegarasida."
+    ]
+  },
+  "a2-u1-l14.build-bratislava-je-pri.distractors": {
+    "en": [
+      "Hungary",
+      "far"
+    ],
+    "t": [
+      "Vengriya",
+      "uzoqda"
+    ]
+  },
+  "a2-u1-l14.match-hranica.pairs": {
+    "en": [
+      "border",
+      "mountains",
+      "winner",
+      "prize",
+      "fan"
+    ],
+    "t": [
+      "chegara",
+      "togʻlar",
+      "gʻolib",
+      "sovrin",
+      "muxlis"
+    ]
+  },
+  "a2-u1-l14.speak-gratulujem-vyhrali-ste.en": {
+    "en": "Congratulations, you've won!",
+    "t": "Tabriklayman, siz yutdingiz!"
+  },
+  "a2-u1-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Yozma mashq"
+  },
+  "a2-u1-pisanie.listen-prosim-predstavte-sa.en": {
+    "en": "Please introduce yourselves.",
+    "t": "Iltimos, oʻzingizni tanishtiring."
+  },
+  "a2-u1-pisanie.listen-kristina-je-moja.en": {
+    "en": "Kristína is my new classmate.",
+    "t": "Kristina — mening yangi kursdoshim."
+  },
+  "a2-u1-pisanie.listen-daniel-hovori-po.en": {
+    "en": "Daniel speaks German and Slovak.",
+    "t": "Daniel nemischa ham, slovakcha ham gapiradi."
+  },
+  "a2-u1-pisanie.listen-aka-je-spravna.en": {
+    "en": "What's the right answer?",
+    "t": "Toʻgʻri javob qanday?"
+  },
+  "a2-u1-pisanie.listen-kviz-sa-zacina.en": {
+    "en": "The quiz starts at seven.",
+    "t": "Viktorina soat yettida boshlanadi."
+  },
+  "a2-u1-pisanie.listen-to-bol-len.en": {
+    "en": "It was only a joke.",
+    "t": "Bu shunchaki hazil edi."
+  },
+  "a2-u1-pisanie.listen-gratulujem-vyhrali-ste.en": {
+    "en": "Congratulations, you've won!",
+    "t": "Tabriklayman, siz yutdingiz!"
+  },
+  "a2-u1-l15.titleEn": {
+    "en": "Review",
+    "t": "Takrorlash"
+  },
+  "a2-u1-l15.match-predmet.pairs": {
+    "en": [
+      "subject",
+      "scholarship",
+      "classmate",
+      "competition",
+      "winner"
+    ],
+    "t": [
+      "fan",
+      "stipendiya",
+      "kursdosh",
+      "musobaqa",
+      "gʻolib"
+    ]
+  },
+  "a2-u1-l15.fill-poznas-moju-kamaratku.en": {
+    "en": "Do you know my friend Kristína?",
+    "t": "Dugonam Kristinani taniysanmi?"
+  },
+  "a2-u1-l15.fill-poznas-moju-kamaratku.why": {
+    "en": "Kristína is the object, so môj takes the feminine **-u**: **moju** kamarátku.",
+    "t": "Kristina — toʻldiruvchi, shuning uchun môj ayol jinsidagi **-u** qoʻshimchasini oladi: **moju** kamarátku."
+  },
+  "a2-u1-l15.choice-obraz.question": {
+    "en": "How does the z at the end of obraz sound?",
+    "t": "obraz oxiridagi z qanday eshitiladi?"
+  },
+  "a2-u1-l15.choice-obraz.options": {
+    "en": [
+      "like z",
+      "like s"
+    ],
+    "t": [
+      "z kabi",
+      "s kabi"
+    ]
+  },
+  "a2-u1-l15.choice-obraz.why": {
+    "en": "At the end of a word, a voiced consonant becomes voiceless: z sounds like **s**, [obras].",
+    "t": "Soʻz oxirida jarangli undosh jarangsizlanadi: z **s** kabi eshitiladi, [obras]."
+  },
+  "a2-u1-l15.build-prosim-predstavte-sa.prompt": {
+    "en": "Please introduce yourselves.",
+    "t": "Iltimos, oʻzingizni tanishtiring. (bir necha kishiga)"
+  },
+  "a2-u1-l15.build-prosim-predstavte-sa.traps": {
+    "en": [
+      "You're speaking to several people, so it's the vy form: **predstavte**. Predstav is for one friend.",
+      "Introducing yourself is **predstaviť sa**, with sa."
+    ],
+    "t": [
+      "Siz bir necha kishiga gapiryapsiz, shuning uchun vy shakli: **predstavte**. Predstav — bitta doʻstga.",
+      "Oʻzini tanishtirish — **predstaviť sa**, sa bilan."
+    ]
+  },
+  "a2-u1-l15.fill-na-kvize-boli.en": {
+    "en": "There were Slovak students at the quiz too.",
+    "t": "Viktorinada slovak talabalari ham bor edi."
+  },
+  "a2-u1-l15.fill-na-kvize-boli.why": {
+    "en": "Študenti are men (or a mixed group), so the adjective ends in **-í**: slovensk**í**.",
+    "t": "Študenti — erkaklar (yoki aralash guruh), shuning uchun sifat **-í** bilan tugaydi: slovensk**í**."
+  },
+  "a2-u1-l15.fill-je-mi-to.en": {
+    "en": "I'm sorry, that's not the right answer.",
+    "t": "Afsusdaman, bu toʻgʻri javob emas."
+  },
+  "a2-u1-l15.fill-je-mi-to.why": {
+    "en": "Odpoveď is feminine, so **-a**, and it's short after the long á: správn**a**.",
+    "t": "Odpoveď ayol jinsida, shuning uchun **-a**, choʻziq á dan keyin esa qisqa: správn**a**."
+  },
+  "a2-u1-l15.choice-which-soft.question": {
+    "en": "Which adjective is the soft type, like cudzí?",
+    "t": "Qaysi sifat cudzí kabi yumshoq turga kiradi?"
+  },
+  "a2-u1-l15.choice-which-soft.why": {
+    "en": "In budúci a soft **c** comes before the ending, so it goes like cudzí: budúci, budúca, budúce.",
+    "t": "budúci soʻzida qoʻshimchadan oldin yumshoq **c** keladi, shuning uchun u cudzí kabi oʻzgaradi: budúci, budúca, budúce."
+  },
+  "a2-u1-l15.build-kristina-sa-narodila.prompt": {
+    "en": "Kristína was born and grew up in Trenčín.",
+    "t": "Kristina Trenchinda tugʻilgan va oʻsha yerda katta boʻlgan."
+  },
+  "a2-u1-l15.build-kristina-sa-narodila.traps": {
+    "en": [
+      "Kristína is a woman, so the past form ends in **-la**: **narodila** sa.",
+      "In Trenčín answers “where?”, so after v it takes the locative: v **Trenčíne**."
+    ],
+    "t": [
+      "Kristina — ayol, shuning uchun oʻtgan zamon shakli **-la** bilan tugaydi: **narodila** sa.",
+      "«Trenchinda» «qayerda?» savoliga javob beradi, shuning uchun v dan keyin lokál keladi: v **Trenčíne**."
+    ]
+  },
+  "a2-u1-l15.speak-dakujem-za-rozhovor.en": {
+    "en": "Thanks for the interview.",
+    "t": "Suhbat uchun rahmat."
+  },
+  "a2-u1-l15.fill-daniel-ano-jeho.en": {
+    "en": "Daniel? Yes, his grandma is from Slovakia.",
+    "t": "Danielmi? Ha, uning buvisi Slovakiyadan."
+  },
+  "a2-u1-l15.fill-daniel-ano-jeho.why": {
+    "en": "Daniel is a man, so **jeho** (his). It's the same in every form: jeho babka, jeho babku.",
+    "t": "Daniel — erkak, shuning uchun **jeho** (uning). U barcha shakllarda bir xil: jeho babka, jeho babku."
+  },
+  "a2-u1-l15.fill-lucia-a-kristina.en": {
+    "en": "Lucia and Kristína will give it a try.",
+    "t": "Lusiya va Kristina buni sinab koʻrishadi."
+  },
+  "a2-u1-l15.fill-lucia-a-kristina.why": {
+    "en": "Two people are ony, and their ending **-ia** stays long even after the long ú: skús**ia**.",
+    "t": "Ikki ayol — ony (ular), ularning **-ia** qoʻshimchasi choʻziq ú dan keyin ham choʻziq qoladi: skús**ia**."
+  },
+  "a2-u1-l15.choice-v-piatok-mam.question": {
+    "en": "How does the v in v piatok sound?",
+    "t": "v piatok iborasida v qanday eshitiladi?"
+  },
+  "a2-u1-l15.choice-v-piatok-mam.options": {
+    "en": [
+      "like f",
+      "like v"
+    ],
+    "t": [
+      "f kabi",
+      "v kabi"
+    ]
+  },
+  "a2-u1-l15.choice-v-piatok-mam.why": {
+    "en": "The preposition is said with the next word, and p is voiceless, so v becomes voiceless too: [f piatok].",
+    "t": "Predlog keyingi soʻz bilan qoʻshib aytiladi, p esa jarangsiz, shuning uchun v ham jarangsizlanadi: [f piatok]."
+  },
+  "a2-u1-l15.build-podla-mna-je.answers": {
+    "en": [
+      "In my opinion, Daniel is funny and friendly.",
+      "I think Daniel is funny and friendly."
+    ],
+    "t": [
+      "Menimcha, Daniel hazilkash va samimiy.",
+      "Mening fikrimcha, Daniel hazilkash va samimiy.",
+      "Menimcha, Daniel quvnoq va samimiy."
+    ]
+  },
+  "a2-u1-l15.build-podla-mna-je.distractors": {
+    "en": [
+      "shy",
+      "lazy"
+    ],
+    "t": [
+      "uyatchan",
+      "dangasa"
+    ]
+  },
+  "a2-u1-l15.fill-hovorime-o-vasich.en": {
+    "en": "We're talking about your friends.",
+    "t": "Sizning doʻstlaringiz haqida gaplashyapmiz."
+  },
+  "a2-u1-l15.fill-hovorime-o-vasich.why": {
+    "en": "After **o** (about) comes the locative, and in the plural it's **vašich** for all genders, like nových.",
+    "t": "**o** (haqida) soʻzidan keyin lokál keladi, koʻplikda esa barcha jinslar uchun **vašich**, nových kabi."
+  },
+  "a2-u1-l15.build-ovladas-cudzie-jazyky.prompt": {
+    "en": "Do you speak any foreign languages? (to a friend)",
+    "t": "Chet tillarini bilasanmi? (sen)"
+  },
+  "a2-u1-l15.build-ovladas-cudzie-jazyky.traps": {
+    "en": [
+      "Jazyky are things in the plural, so the soft ending is **-ie**: **cudzie** jazyky.",
+      "Languages, more than one: **jazyky**."
+    ],
+    "t": [
+      "Jazyky — koʻplikdagi narsalar, shuning uchun yumshoq qoʻshimcha **-ie**: **cudzie** jazyky.",
+      "Tillar — bittadan koʻp: **jazyky**."
+    ]
+  },
+  "a2-u1-l15.speak-gratulujem-si-nasa.en": {
+    "en": "Congratulations, you're our star!",
+    "t": "Tabriklayman, sen bizning yulduzimizsan!"
+  }
+}

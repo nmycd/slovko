@@ -1,0 +1,302 @@
+{
+  "a2-u2-l1#volny-cas": {
+    "picture": "A sunny Saturday afternoon on the grass by the Danube: Emma lies on her front reading a book with her shoes off, Lucia dozes in the sun beside her, and Tomáš throws a frisbee to Marek.",
+    "book": null
+  },
+  "a2-u2-l1#co-rada-robis": {
+    "reuse": "a2-u2-l1#volny-cas",
+    "book": null
+  },
+  "a2-u2-l1#konicek": {
+    "reuse": "a2-u2-l1#kreslit-a-fotografovat",
+    "book": null
+  },
+  "a2-u2-l1#kreslit-a-fotografovat": {
+    "picture": "Two halves on the square in the Old Town, by the fountain. Left: Emma sits on the fountain's edge, drawing the pastel houses in a sketchbook. Right: Lucia crouches to take a photo of the same houses with a camera.",
+    "book": null
+  },
+  "a2-u2-l1#oddychovat-a-pozerat": {
+    "picture": "Evening at home: Tomáš lies stretched out on a sofa in his socks, a cushion behind his head and a bowl of crisps on his chest, watching TV.",
+    "book": null
+  },
+  "a2-u2-l1#hrat-na-gitare": {
+    "reuse": "u5-mam-rad#hudba-a-film",
+    "book": null
+  },
+  "a2-u2-l1#nakupne-centrum": {
+    "picture": "Inside a big, bright shopping centre with shops on two floors, escalators and a glass roof: Emma and Lucia sit at a small café table on the upper floor, shopping bags at their feet.",
+    "book": null
+  },
+  "a2-u2-l1#stretavat-sa-s": {
+    "picture": "Saturday afternoon at the fountain on the square in the Old Town: Lucia, Tomáš and Marek are already waiting; Emma arrives and waves, and Lucia goes to hug her.",
+    "book": null
+  },
+  "a2-u2-l1#choice-cez-vikend-sa": {
+    "reuse": "a2-u2-l1#stretavat-sa-s",
+    "book": null
+  },
+  "a2-u2-l2#rad-ta-pocujem": {
+    "picture": "Split picture of a phone call. Left: Tomáš walks along the Danube embankment with his phone to his ear, beaming. Right: Lucia, at her desk in the dorm room, answers, delighted to hear from him.",
+    "book": null
+  },
+  "a2-u2-l2#choice-ahoj-tomas-rada": {
+    "reuse": "a2-u2-l2#rad-ta-pocujem",
+    "book": null
+  },
+  "a2-u2-l2#mas-chut-ist": {
+    "reuse": "u4-l2#kino",
+    "book": null
+  },
+  "a2-u2-l2#plavaren-a-sauna": {
+    "picture": "An indoor swimming pool with lanes under a high glass wall. Emma swims front crawl fast down one lane, with Tomáš far behind her in the next, impressed. Through a glass door at the side, Lucia sits in a wooden sauna, wrapped in a towel and red-cheeked.",
+    "book": null
+  },
+  "a2-u2-l2#plavky": {
+    "picture": "In the dorm room, Emma packs her sports bag for the pool: she holds up her swimsuit, with a rolled towel and goggles beside the bag on her bed.",
+    "book": null
+  },
+  "a2-u2-l2#to-znie-dobre": {
+    "reuse": "a2-u2-l2#plati",
+    "book": null
+  },
+  "a2-u2-l2#plati": {
+    "picture": "In the café near the university, Tomáš holds out his hand across the table and Emma shakes it with a grin, while Lucia, beside her, gives a thumbs up: the plan is agreed.",
+    "book": null
+  },
+  "a2-u2-l2#choice-no-jasne": {
+    "reuse": "a2-u2-l2#plati",
+    "book": null
+  },
+  "a2-u2-l2#mozes-s-nami": {
+    "reuse": "a2-u2-l2#plati",
+    "book": null
+  },
+  "a2-u2-l2#choice-dakujem-za-pozvanie": {
+    "reuse": "u6-l6#dakujem-za-pozvanie",
+    "book": null
+  },
+  "a2-u2-l3#mas-v-piatok-cas": {
+    "reuse": "a2-u2-l3#bohuzial-nemozem",
+    "book": null
+  },
+  "a2-u2-l3#bohuzial-nemozem": {
+    "picture": "Split picture of a phone call. Left: Lucia, at her desk in the dorm room, phone to her ear, asks hopefully. Right: Marek, in his white chef's jacket in the busy kitchen of his restaurant, holds the phone between ear and shoulder while stirring a big pot, and pulls an apologetic face.",
+    "book": null
+  },
+  "a2-u2-l3#choice-dakujem-za-pozvanie": {
+    "reuse": "a2-u2-l3#bohuzial-nemozem",
+    "book": null
+  },
+  "a2-u2-l3#to-je-skoda": {
+    "picture": "In the dorm room, Lucia holds up a board game she has ready for Friday and sighs with disappointment, as Emma, pulling on her coat, shakes her head apologetically.",
+    "book": null
+  },
+  "a2-u2-l3#choice-to-je-skoda": {
+    "reuse": "a2-u2-l3#to-je-skoda",
+    "book": null
+  },
+  "a2-u2-l3#upiect-tortu": {
+    "picture": "In the narrow kitchen of his flat, Marek, in his red flannel shirt and an apron, flour on his hands, lifts a round cake out of the oven and smiles at the smell.",
+    "book": null
+  },
+  "a2-u2-l3#ja-to-nemusim": {
+    "picture": "In Marek's living room, Tomáš and Marek leap up from the sofa, cheering at a football match on the TV, while Lucia, curled up at the end of the sofa with a book, rolls her eyes.",
+    "book": null
+  },
+  "a2-u2-l3#choice-futbal-ja-to": {
+    "reuse": "a2-u2-l3#ja-to-nemusim",
+    "book": null
+  },
+  "a2-u2-l3#mam-alergiu-na": {
+    "picture": "In the hallway of a friend's flat, a fluffy grey cat rubs against Lucia's legs and she sneezes hard into a tissue, her eyes red and watery, while Emma scoops the cat away.",
+    "book": null
+  },
+  "a2-u2-l3#choice-prepac-lucia-v": {
+    "reuse": "a2-u2-l3#to-je-skoda",
+    "book": null
+  },
+  "a2-u2-l4#choice-lucia-nema-rada": {
+    "reuse": "a2-u2-l3#ja-to-nemusim",
+    "book": null
+  },
+  "a2-u2-l5#sportovat": {
+    "reuse": "u5-mam-rad#futbal-a-tenis",
+    "book": null
+  },
+  "a2-u2-l5#bicyklovat-sa": {
+    "reuse": "u8-l2#v-lete",
+    "book": null
+  },
+  "a2-u2-l5#hrat-volejbal": {
+    "picture": "On a sand volleyball court by the Danube, Tomáš leaps at the net to smash the ball, Marek beside him; on the other side, Emma and Lucia dive for it.",
+    "book": null
+  },
+  "a2-u2-l5#plavec-plavkyna": {
+    "reuse": "a2-u2-l2#plavaren-a-sauna",
+    "book": null
+  },
+  "a2-u2-l5#choice-si-vyborna-plavkyna": {
+    "reuse": "a2-u2-l2#plavaren-a-sauna",
+    "book": null
+  },
+  "a2-u2-l5#cerstvy-vzduch": {
+    "reuse": "a2-u2-l8#vylet",
+    "book": null
+  },
+  "a2-u2-l5#cvicit-jogu": {
+    "picture": "In the dorm room, on mats between the beds, Lucia holds a calm yoga pose, balancing on one leg, while Emma tries to copy her and wobbles.",
+    "book": null
+  },
+  "a2-u2-l5#lyzovat-sa": {
+    "picture": "On a sunny, snowy slope in the mountains, Tomáš skis down with ease, spraying snow; further up the slope, Emma stands on skis for the first time, arms out, wobbling.",
+    "book": null
+  },
+  "a2-u2-l5#choice-neviem-sa-lyzovat": {
+    "reuse": "a2-u2-l5#lyzovat-sa",
+    "book": null
+  },
+  "a2-u2-l6#korculovat-sa": {
+    "reuse": "a2-u2-l6#zimny-stadion",
+    "book": null
+  },
+  "a2-u2-l6#zimny-stadion": {
+    "picture": "The ice rink: a big indoor hall with a curved roof, white ice inside low boards and rows of seats around it. Skaters circle the ice; Lucia skates backwards, holding both of Emma's hands as Emma takes her first wobbly glides. By the boards, a counter hires out skates.",
+    "book": null
+  },
+  "a2-u2-l6#spadnut": {
+    "picture": "On the ice rink, Emma's legs fly out from under her and she lands on the ice with a thump; Lucia skates up to her, trying not to laugh.",
+    "book": null
+  },
+  "a2-u2-l6#modrina": {
+    "picture": "Back in the dorm room, Emma sits on her bed and rolls up her jeans to show Lucia a big blue-purple bruise on her knee; Lucia winces.",
+    "book": null
+  },
+  "a2-u2-l6#som-uplne-hotova": {
+    "reuse": "u7-l3#vecer-som-unavena",
+    "book": null
+  },
+  "a2-u2-l6#choice-som-uplne-hotova": {
+    "reuse": "u7-l3#vecer-som-unavena",
+    "book": null
+  },
+  "a2-u2-l8#vylet": {
+    "picture": "A day trip: Emma, Lucia, Tomáš and Marek, with backpacks, walk a path over a wooded hilltop, a castle ruin on the next hill ahead; Emma, in front, spreads her arms and breathes in the fresh air.",
+    "book": null
+  },
+  "a2-u2-l8#plagat": {
+    "picture": "Emma and Lucia stop at a noticeboard at the university to look at a big colourful poster with a picture of a gorilla on it; smaller posters around it show a concert and a painting. The posters have pictures only, no writing.",
+    "book": null
+  },
+  "a2-u2-l8#zoo": {
+    "picture": "Bratislava's zoo on a wooded hillside: Emma and Lucia stand among visitors at the big glass wall of the gorilla enclosure, where a big gorilla sits looking back at them; in the next enclosure monkeys swing on ropes, and a giraffe peers over the trees beyond.",
+    "book": null
+  },
+  "a2-u2-l8#choice-zoo-otvorene-denne": {
+    "reuse": "a2-u2-l8#zoo",
+    "book": null
+  },
+  "a2-u2-l8#zviera": {
+    "reuse": "a2-u2-l8#zoo",
+    "book": null
+  },
+  "a2-u2-l8#choice-gorily-a-opice": {
+    "reuse": "a2-u2-l8#zoo",
+    "book": null
+  },
+  "a2-u2-l8#vystava": {
+    "reuse": "u4-l2#muzeum",
+    "book": null
+  },
+  "a2-u2-l8#choice-studenti-maju-zlavu": {
+    "reuse": "a2-u2-l8#plagat",
+    "book": null
+  },
+  "a2-u2-l10#zbierat": {
+    "picture": "In the porter's lodge, pán Kováč proudly opens a thick album full of rows of colourful postage stamps for Emma; more albums are stacked high on the shelf behind him, and Emma stares, amazed.",
+    "book": null
+  },
+  "a2-u2-l10#postova-znamka": {
+    "reuse": "a2-u2-l10#zbierat",
+    "book": null
+  },
+  "a2-u2-l10#choice-pan-kovac-zbiera": {
+    "reuse": "a2-u2-l10#zbierat",
+    "book": null
+  },
+  "a2-u2-l10#to-je-neuveritelne": {
+    "reuse": "a2-u2-l10#zbierat",
+    "book": null
+  },
+  "a2-u2-l10#choice-naozaj-to-je": {
+    "reuse": "a2-u2-l10#zbierat",
+    "book": null
+  },
+  "a2-u2-l10#sach-a-karty": {
+    "picture": "Lucia's games evening in the dorm kitchen: at one end of the table, Tomáš plays chess with Emma, frowning in concentration; at the other end, Lucia deals out cards.",
+    "book": null
+  },
+  "a2-u2-l10#spolocenska-hra": {
+    "picture": "Later at the games evening in the dorm kitchen, Emma, Lucia and Tomáš sit round a board game with a big board, lots of little pieces and cards; Tomáš frowns over a long rule booklet while Emma scratches her head.",
+    "book": null
+  },
+  "a2-u2-l10#zlozity": {
+    "reuse": "a2-u2-l10#spolocenska-hra",
+    "book": null
+  },
+  "a2-u2-l12#nechat": {
+    "picture": "Friday afternoon at the porter's lodge, the big clock on the wall at five: Marek, in his white chef's jacket under an open coat, sets a cake box down on the ledge of the lodge window and hurries off to work, waving; pán Kováč nods to him.",
+    "book": null
+  },
+  "a2-u2-l12#choice-mimochodom-kde-je": {
+    "reuse": "a2-u2-l10#spolocenska-hra",
+    "book": null
+  },
+  "a2-u2-l12#prazdna-krabica": {
+    "picture": "In the porter's lodge, the big clock on the wall at seven: pán Kováč, back at his desk, lifts the lid of the cake box and stares into it. It is empty but for a few crumbs.",
+    "book": null
+  },
+  "a2-u2-l12#zmiznut": {
+    "reuse": "a2-u2-l12#prazdna-krabica",
+    "book": null
+  },
+  "a2-u2-l12#svedok": {
+    "picture": "In the dormitory corridor, pán Kováč, playing detective with a magnifying glass and a notebook, questions Emma; she points down the corridor, remembering what she saw.",
+    "book": null
+  },
+  "a2-u2-l12#choice-pan-kovac-hlada": {
+    "reuse": "a2-u2-l12#svedok",
+    "book": null
+  },
+  "a2-u2-l14#vlasy": {
+    "picture": "Friday evening in the dormitory corridor: Emma, her skates over her shoulder, glimpses Filip hurrying round a corner, a young man with long straight brown hair falling over his face.",
+    "book": null
+  },
+  "a2-u2-l14#brada": {
+    "picture": "Tomáš stands at a bathroom mirror and proudly trims his neat short black beard with small scissors.",
+    "book": null
+  },
+  "a2-u2-l14#tichy-a-hanblivy": {
+    "picture": "In the dorm kitchen, Lucia chats away cheerfully to Filip, the new student; Filip looks at his feet, his hair over his face and his hands in his hoodie pocket, and says nothing.",
+    "book": null
+  },
+  "a2-u2-l14#pes": {
+    "picture": "In Filip's dorm room, Filip's dog sits in a basket beside the bed, wagging its tail, a food bowl next to it; Filip kneels to stroke it.",
+    "book": null
+  },
+  "a2-u2-l14#chovat-psa": {
+    "reuse": "a2-u2-l14#pes",
+    "book": null
+  },
+  "a2-u2-l14#choice-prepacte-pan-kovac": {
+    "picture": "At the porter's lodge, Filip, red-faced, holds up his dog, its nose white with cream, and apologises to pán Kováč, who stands with his arms folded and a stern frown.",
+    "book": null
+  },
+  "a2-u2-l14#si-nahnevany": {
+    "reuse": "a2-u2-l14#choice-prepacte-pan-kovac",
+    "book": null
+  },
+  "a2-u2-l15#choice-tichy": {
+    "reuse": "a2-u2-l14#tichy-a-hanblivy",
+    "book": null
+  }
+}

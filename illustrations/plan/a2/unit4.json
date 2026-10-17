@@ -1,0 +1,670 @@
+{
+  "unit": "a2-u4",
+  "pictures": 34,
+  "items": [
+    {
+      "lesson": "a2-u4-l1",
+      "exercise": "rozlucit-sa",
+      "type": "intro",
+      "text": "rozlúčiť sa = to say goodbye",
+      "picture": "A snowy morning after New Year outside the Šimkos' house in Žilina. Emma and Lucia, bags packed, say goodbye to the family on the doorstep: babka Helena hugs Lucia, and Emma holds Lucia's mum's hands to thank her. Lucia's dad waits by his car with the boot open.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l1",
+      "exercise": "dakujem-za-odvoz",
+      "type": "intro",
+      "text": "Ďakujem za odvoz. = Thanks for the lift.",
+      "picture": "Outside Žilina station, snow on the ground: Lucia's dad lifts the suitcases out of his car boot, and Emma thanks him with a big smile.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l1",
+      "exercise": "choice-dakujem-vam-za",
+      "type": "choice",
+      "text": "Emma thanks Lucia's mum, pani Šimková, for everything. What does she say?",
+      "reuse": "a2-u4-l1#rozlucit-sa",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l1",
+      "exercise": "velmi-sa-nam-tu-pacilo",
+      "type": "intro",
+      "text": "Veľmi sa nám tu páčilo. = We really enjoyed it here.",
+      "reuse": "a2-u4-l1#rozlucit-sa",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l1",
+      "exercise": "stastnu-cestu",
+      "type": "intro",
+      "text": "Šťastnú cestu! = Have a good trip!",
+      "picture": "On the platform at Žilina station, Lucia's mum and dad wave as the train starts to move; Emma and Lucia wave back from the train window.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l1",
+      "exercise": "cestovny-poriadok",
+      "type": "intro",
+      "text": "cestovný poriadok = timetable (trains, buses)",
+      "picture": "In the warm kitchen of the Šimkos' house, Lucia scrolls through the train timetable in an app on her phone, a long list of trains with their times; Emma leans over her shoulder to look.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l1",
+      "exercise": "choice-lucia-chce-zistit",
+      "type": "choice",
+      "text": "Lucia chce zistiť, kedy ide vlak do Bratislavy. What does this mean?",
+      "reuse": "a2-u4-l1#cestovny-poriadok",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l1",
+      "exercise": "rychlik",
+      "type": "intro",
+      "text": "rýchlik = fast train",
+      "reuse": "a2-u4-l2#nastupiste",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l1",
+      "exercise": "odchod-a-prichod",
+      "type": "intro",
+      "text": "odchod a príchod = departure and arrival",
+      "reuse": "a2-u4-l1#cestovny-poriadok",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l1",
+      "exercise": "choice-v-aplikacii-rychlik",
+      "type": "choice",
+      "text": "V aplikácii: rýchlik, odchod zo Žiliny 15:10, príchod do Bratislavy 18:05. This is the line in Lucia's app. When does the train get to Bratislava?",
+      "reuse": "a2-u4-l1#cestovny-poriadok",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l2",
+      "exercise": "stanica",
+      "type": "intro",
+      "text": "stanica = station",
+      "picture": "Žilina station on a snowy afternoon: the hall with its ticket-office windows, benches and big clock. Emma and Lucia come in from the street pulling their suitcases, Lucia's mum and dad behind them.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l2",
+      "exercise": "pokladna",
+      "type": "intro",
+      "text": "pokladňa = ticket office",
+      "picture": "At a ticket-office window in Žilina station, Emma slides her student card under the glass to the clerk, a woman behind the window; Lucia waits beside her with the suitcases.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l2",
+      "exercise": "jednosmerny-alebo-spiatocny",
+      "type": "intro",
+      "text": "Jednosmerný alebo spiatočný? = One-way or return?",
+      "reuse": "a2-u4-l2#pokladna",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l2",
+      "exercise": "studentsky-listok",
+      "type": "intro",
+      "text": "študentský lístok = student ticket",
+      "reuse": "a2-u4-l2#pokladna",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l2",
+      "exercise": "miestenka",
+      "type": "intro",
+      "text": "miestenka = seat reservation",
+      "reuse": "a2-u4-l3#vozen",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l2",
+      "exercise": "nastupiste",
+      "type": "intro",
+      "text": "nástupište = platform",
+      "picture": "On a snowy platform at Žilina station, a long fast train pulls in; Emma and Lucia stand ready with their suitcases among the other passengers.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l2",
+      "exercise": "vlak-meska-desat-minut",
+      "type": "intro",
+      "text": "Vlak mešká desať minút. = The train is ten minutes late.",
+      "picture": "On the cold platform at Žilina station, Emma and Lucia stamp their feet beside their suitcases and look up at the big station clock; the track beside them is still empty.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l2",
+      "exercise": "choice-rychlik-meska",
+      "type": "choice",
+      "text": "Rýchlik do Bratislavy mešká dvadsať minút. You hear this at the station. What is it about?",
+      "reuse": "a2-u4-l2#vlak-meska-desat-minut",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l3",
+      "exercise": "vozen",
+      "type": "intro",
+      "text": "vozeň = carriage (of a train)",
+      "picture": "Inside the train carriage: Emma and Lucia pull their suitcases along the narrow corridor past the compartments' sliding glass doors; Emma checks the seat reservation in her hand.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l3",
+      "exercise": "je-tu-volne",
+      "type": "intro",
+      "text": "Je tu voľné? = Is this seat free?",
+      "picture": "In the train compartment, a friendly bald man of about 50 in a dark winter coat stands at the open sliding door and points at the empty seat next to Emma; Emma nods, smiling. Lucia sits opposite by the window.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l3",
+      "exercise": "choice-prepacte-je-tu",
+      "type": "choice",
+      "text": "Prepáčte, je tu voľné? A man points at the seat next to Emma. What is he asking?",
+      "reuse": "a2-u4-l3#je-tu-volne",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l3",
+      "exercise": "batozina",
+      "type": "intro",
+      "text": "batožina = luggage",
+      "reuse": "a2-u4-l3#kufor",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l3",
+      "exercise": "kufor",
+      "type": "intro",
+      "text": "kufor = suitcase",
+      "picture": "In the train compartment, Emma strains on tiptoe to lift her heavy suitcase onto the luggage rack, already crowded with bags; the friendly bald man of about 50 in a dark winter coat gets up to help her.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l3",
+      "exercise": "pomohli-by-ste-mi",
+      "type": "intro",
+      "text": "Pomohli by ste mi? = Could you help me?",
+      "reuse": "a2-u4-l3#kufor",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l3",
+      "exercise": "sprievodkyna",
+      "type": "intro",
+      "text": "sprievodkyňa = conductor (a woman)",
+      "picture": "The conductor, a woman of about 50 in a dark-blue railway uniform and cap, stands at the compartment door checking tickets; Emma holds out her ticket and her student card.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l3",
+      "exercise": "pokuta",
+      "type": "intro",
+      "text": "pokuta = fine (to pay)",
+      "picture": "In the train compartment, the conductor, a woman of about 50 in a dark-blue railway uniform and cap, writes out a fine on her pad. Lucia, her bag turned inside out in vain for her student card, hands her the money with a shrug and a rueful smile; Emma looks on, sympathetic.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l3",
+      "exercise": "no-co-uz",
+      "type": "intro",
+      "text": "No čo už. = Oh well. Never mind.",
+      "reuse": "a2-u4-l3#pokuta",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l3",
+      "exercise": "choice-lucia-plati-pokutu",
+      "type": "choice",
+      "text": "Lucia pays the fine and shrugs. What does she say?",
+      "reuse": "a2-u4-l3#pokuta",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l4",
+      "exercise": "pero",
+      "type": "intro",
+      "text": "pero = pen",
+      "reuse": "u9-l5#dotaznik",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l4",
+      "exercise": "choice-poslem-ti-listky",
+      "type": "choice",
+      "text": "Pošlem ti lístky e-mailom. What does this mean?",
+      "reuse": "u9-l3#poslat-e-mailom",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l5",
+      "exercise": "objednat-si-taxik",
+      "type": "intro",
+      "text": "objednať si taxík = to order a taxi",
+      "picture": "Half past six on a dark winter evening outside Bratislava's main station: Lucia, phone to her ear, orders a taxi, while Emma sits on their heavy suitcases beside her.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l5",
+      "exercise": "choice-taxik-pride-o",
+      "type": "choice",
+      "text": "Taxík príde o päť minút. The taxi company tells Lucia this. What does it mean?",
+      "reuse": "a2-u4-l5#objednat-si-taxik",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l5",
+      "exercise": "taxikar",
+      "type": "intro",
+      "text": "taxikár = taxi driver",
+      "picture": "Inside a taxi at night: the taxi driver, a cheerful, heavy-set man of about 50 with a shaved head and a black leather jacket, turns round from the wheel to ask Emma and Lucia on the back seat where they're going.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l5",
+      "exercise": "kam-to-bude",
+      "type": "intro",
+      "text": "Kam to bude? = Where to?",
+      "reuse": "a2-u4-l5#taxikar",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l5",
+      "exercise": "kolko-platim",
+      "type": "intro",
+      "text": "Koľko platím? = How much do I owe?",
+      "reuse": "a2-u4-l5#ja-to-zaplatim",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l5",
+      "exercise": "choice-kartou-alebo-v",
+      "type": "choice",
+      "text": "The driver asks: Kartou alebo v hotovosti? Emma has no cash. What does she answer?",
+      "reuse": "a2-u4-l5#ja-to-zaplatim",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l5",
+      "exercise": "ja-to-zaplatim",
+      "type": "intro",
+      "text": "Ja to zaplatím. = I'll pay for this.",
+      "picture": "The taxi has stopped outside the dormitory at night. The taxi driver, a heavy-set man of about 50 with a shaved head and a black leather jacket, turns round holding out his card reader, a little paper receipt curling out of it; on the back seat, Emma holds her bank card to it while Lucia is still rummaging in her bag for her purse.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l5",
+      "exercise": "potvrdenka",
+      "type": "intro",
+      "text": "potvrdenka = receipt",
+      "reuse": "a2-u4-l5#ja-to-zaplatim",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l5",
+      "exercise": "pekny-vecer",
+      "type": "intro",
+      "text": "Pekný večer! = Have a nice evening!",
+      "picture": "Outside the dormitory at night, Emma and Lucia stand on the pavement with their suitcases; the taxi driver, a heavy-set man with a shaved head, leans out of his window and waves goodbye as he pulls away. Emma waves back.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l5",
+      "exercise": "choice-pekny-vecer-aj",
+      "type": "choice",
+      "text": "The taxi driver says: Pekný večer! What does Emma answer?",
+      "reuse": "a2-u4-l5#pekny-vecer",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l6",
+      "exercise": "letenka",
+      "type": "intro",
+      "text": "letenka = plane ticket",
+      "picture": "At her desk in the dorm room, Emma looks at an ad on her laptop: a big picture of a plane flying over green Irish hills. Her face lights up.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l6",
+      "exercise": "choice-emma-cita-inzerat",
+      "type": "choice",
+      "text": "Emma číta inzerát: Lacné letenky do Dublinu! What is Emma reading?",
+      "reuse": "a2-u4-l6#letenka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l6",
+      "exercise": "priamy-let",
+      "type": "intro",
+      "text": "priamy let = direct flight",
+      "picture": "A map of Europe seen from above: a small plane, Emma waving from its window, flies in one straight line from Slovakia to Ireland, a dotted trail behind it.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l6",
+      "exercise": "let-s-prestupom",
+      "type": "intro",
+      "text": "let s prestupom = flight with a change",
+      "picture": "A map of Europe seen from above: a dotted route runs from Slovakia to London, then on to Ireland. At London, Emma hurries with her bag from one small plane to another.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l6",
+      "exercise": "rezervovat",
+      "type": "intro",
+      "text": "rezervovať = to book, to reserve",
+      "reuse": "a2-u4-l6#na-ake-meno-bude",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l6",
+      "exercise": "na-ake-meno-bude",
+      "type": "intro",
+      "text": "Na aké meno bude letenka? = What name should the ticket be in?",
+      "picture": "Split picture of a phone call. Left: at an airline's booking office, a woman with a headset types at her computer. Right: Emma, at her desk in the dorm room, phone to her ear, spells out her name, her passport open in front of her.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l6",
+      "exercise": "odlet-a-prilet",
+      "type": "intro",
+      "text": "odlet a prílet = departure and arrival (of a plane)",
+      "picture": "Two halves. Left: before dawn at Bratislava airport, a plane takes off into the dark sky. Right: in the arrivals hall in Dublin, Emma's mum, Emma's dad and Emma's brother and sister wave as Emma comes through with her suitcase.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l6",
+      "exercise": "bohuzial",
+      "type": "choice",
+      "text": "Bohužiaľ, na piatok už nemáme letenky. Emma wants to fly on Friday. What does the airline tell her?",
+      "reuse": "a2-u4-l6#na-ake-meno-bude",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l6",
+      "exercise": "choice-rezervaciu-mate-v",
+      "type": "choice",
+      "text": "Ďakujeme. Rezerváciu máte v e-maile. Emma has paid. What does the airline tell her?",
+      "reuse": "a2-u4-l6#na-ake-meno-bude",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l7",
+      "exercise": "letisko",
+      "type": "intro",
+      "text": "letisko = airport",
+      "picture": "Five in the morning, still dark: a taxi drops Emma and her suitcase outside the glass terminal of Bratislava airport; the lights of a plane glow on the runway beyond.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l7",
+      "exercise": "pas",
+      "type": "intro",
+      "text": "pas = passport",
+      "reuse": "a2-u4-l7#check-in",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l7",
+      "exercise": "check-in",
+      "type": "intro",
+      "text": "check-in = check-in (desk)",
+      "picture": "At the check-in desk at Bratislava airport, Emma hands her passport across the counter to the smiling check-in clerk; her suitcase sits on the scales beside her.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l7",
+      "exercise": "prirucna-batozina",
+      "type": "intro",
+      "text": "príručná batožina = hand luggage",
+      "picture": "At the departure gate, Emma lifts her small cabin bag into the metal sizing frame to show that it fits, while a member of the ground staff watches.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l7",
+      "exercise": "letuska",
+      "type": "intro",
+      "text": "letuška = flight attendant (a woman)",
+      "picture": "At the open door of the plane, a smiling flight attendant in a neat uniform greets Emma as she steps aboard with her small cabin bag.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l7",
+      "exercise": "prijemny-let",
+      "type": "intro",
+      "text": "Príjemný let! = Have a pleasant flight!",
+      "reuse": "a2-u4-l7#letuska",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l7",
+      "exercise": "choice-letuska-hovori",
+      "type": "choice",
+      "text": "What does the flight attendant wish Emma as she gets on the plane?",
+      "reuse": "a2-u4-l7#letuska",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l10",
+      "exercise": "urcite",
+      "type": "intro",
+      "text": "určite = definitely, for sure",
+      "picture": "Before dawn at the door of the dorm room, Emma, suitcase in hand, hugs Lucia goodbye. Lucia, in her pyjamas, asks if she'll call from Dublin; Emma nods firmly, a hand to her ear like a phone.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l10",
+      "exercise": "choice-zavolas-mi-z",
+      "type": "choice",
+      "text": "Lucia asks: Zavoláš mi z Dublinu? Emma is sure she will. What does she say?",
+      "reuse": "a2-u4-l10#urcite",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l10",
+      "exercise": "choice-je-neskoro-autobus",
+      "type": "choice",
+      "text": "Je neskoro, autobus už asi nejde. What does this mean?",
+      "reuse": "a2-u4-l17#posledny-autobus",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l11",
+      "exercise": "cestujuci",
+      "type": "intro",
+      "text": "cestujúci = passenger (a man)",
+      "reuse": "a2-u4-l3#je-tu-volne",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l12",
+      "exercise": "pracovat-z-domu",
+      "type": "intro",
+      "text": "pracovať z domu = to work from home",
+      "picture": "Morning in Tomáš's flat in Košice: Tomáš, in his slippers, works at his laptop at the kitchen table, a mug of coffee beside him.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l12",
+      "exercise": "vacsinou",
+      "type": "intro",
+      "text": "väčšinou = mostly, most of the time",
+      "reuse": "a2-u4-l12#pracovat-z-domu",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l12",
+      "exercise": "choice-tomas-vacsinou-pracuje",
+      "type": "choice",
+      "text": "Tomáš väčšinou pracuje z domu. What does this mean?",
+      "reuse": "a2-u4-l12#pracovat-z-domu",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l12",
+      "exercise": "dochadzat-do-prace",
+      "type": "intro",
+      "text": "dochádzať do práce = to commute (to work)",
+      "picture": "Early morning on the train from Košice: Tomáš sits by the compartment window with his laptop open on the fold-out table and a coffee beside it, the sun rising over the hills outside.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l12",
+      "exercise": "notebook",
+      "type": "intro",
+      "text": "notebook = laptop",
+      "reuse": "a2-u4-l12#dochadzat-do-prace",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l12",
+      "exercise": "choice-cesta-ic-ckom",
+      "type": "choice",
+      "text": "Cesta IC-čkom do Bratislavy trvá asi päť hodín. How long does Tomáš's journey take?",
+      "reuse": "a2-u4-l12#dochadzat-do-prace",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l12",
+      "exercise": "zastavka",
+      "type": "intro",
+      "text": "zastávka = stop (bus, tram)",
+      "reuse": "u6-l4#ako-ides-domov",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l13",
+      "exercise": "choice-lucia-musela-zaplatit",
+      "type": "choice",
+      "text": "Lucia musela zaplatiť pokutu, lebo zabudla preukaz. Which sentence means the same?",
+      "reuse": "a2-u4-l3#pokuta",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l14",
+      "exercise": "chcela-by-som-letenku",
+      "type": "intro",
+      "text": "Chcela by som letenku. = I'd like a plane ticket. (a woman speaking)",
+      "reuse": "a2-u4-l6#na-ake-meno-bude",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l14",
+      "exercise": "choice-mohli-by-ste",
+      "type": "choice",
+      "text": "Emma asks a stranger for help, as politely as she can. What does she say?",
+      "reuse": "u2-l5#mozete-mi-pomoct",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l15",
+      "exercise": "choice-mala-by-si",
+      "type": "choice",
+      "text": "Lucia is very tired. What advice does Emma give her?",
+      "reuse": "u1-l1#choice-dobru-noc",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l16",
+      "exercise": "stratit",
+      "type": "intro",
+      "text": "stratiť = to lose",
+      "picture": "In the departures hall of the airport, Emma has tipped her tote bag out onto a bench and searches through everything in a panic: where is her passport?",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l17",
+      "exercise": "zruseny-let",
+      "type": "intro",
+      "text": "zrušený let = cancelled flight",
+      "picture": "Monday evening at Dublin airport: in the waiting hall, Emma, sitting with her bags, looks up at the departures board, where one line flashes red; the passengers around her groan.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l17",
+      "exercise": "choice-let-do-londyna",
+      "type": "choice",
+      "text": "Let do Londýna je zrušený. What does the board say?",
+      "reuse": "a2-u4-l17#zruseny-let",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l17",
+      "exercise": "pricestovat",
+      "type": "intro",
+      "text": "pricestovať = to arrive (from a journey)",
+      "reuse": "a2-u4-l17#posledny-autobus",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l17",
+      "exercise": "posledny-autobus",
+      "type": "intro",
+      "text": "posledný autobus = the last bus",
+      "picture": "Midnight outside Bratislava airport: Emma, just arrived and worn out, with only her small cabin bag, stands at the empty bus stop as the tail lights of the last bus disappear down the road.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l17",
+      "exercise": "choice-emma-caka-na",
+      "type": "choice",
+      "text": "Emma čaká na zastávke, ale autobus už nepríde. What does this mean?",
+      "reuse": "a2-u4-l17#posledny-autobus",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l17",
+      "exercise": "mala-som-smolu",
+      "type": "intro",
+      "text": "Mala som smolu. = I was unlucky. (a woman speaking)",
+      "reuse": "a2-u4-l17#co-ti-je",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l17",
+      "exercise": "co-ti-je",
+      "type": "intro",
+      "text": "Čo ti je? = What's wrong?",
+      "picture": "Morning in the dorm room: Emma sits slumped on her bed, still in yesterday's clothes, only her small cabin bag beside her. Lucia, in her pyjamas, sits down next to her, worried, and asks what's wrong.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l17",
+      "exercise": "choice-rano-lucia-vidi",
+      "type": "choice",
+      "text": "In the morning Lucia sees that Emma is upset. What does she ask?",
+      "reuse": "a2-u4-l17#co-ti-je",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l17",
+      "exercise": "pokazit-sa",
+      "type": "intro",
+      "text": "pokaziť sa = to break down",
+      "picture": "A tram has broken down in the middle of a Bratislava street, its doors open; passengers climb out, and Tomáš, his laptop bag on his shoulder, looks at his watch in dismay.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l17",
+      "exercise": "choice-elektricka-sa-pokazila",
+      "type": "choice",
+      "text": "Električka sa pokazila, preto Tomáš prišiel neskoro. Why was Tomáš late?",
+      "reuse": "a2-u4-l17#pokazit-sa",
+      "book": null
+    },
+    {
+      "lesson": "a2-u4-l18",
+      "exercise": "choice-vlak-do-kosic",
+      "type": "choice",
+      "text": "Vlak do Košíc mešká pol hodiny. Listen to the announcement. What does it say?",
+      "reuse": "a2-u4-l2#vlak-meska-desat-minut",
+      "book": null
+    }
+  ]
+}

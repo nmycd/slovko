@@ -1,0 +1,3297 @@
+{
+  "a2-u8.titleEn": {
+    "en": "The music festival",
+    "t": "Musiqa festivali"
+  },
+  "a2-u8.topics": {
+    "en": [
+      "A summer music festival",
+      "Weather and forecasts",
+      "Packing for camping",
+      "Clothes and shoes",
+      "Messages and posts"
+    ],
+    "t": [
+      "Yozgi musiqa festivali",
+      "Ob-havo va ob-havo prognozi",
+      "Kempingga yigʻinish",
+      "Kiyim va poyabzal",
+      "Xabarlar va postlar"
+    ]
+  },
+  "a2-u8.grammar": {
+    "en": [
+      "Weather verbs without a subject",
+      "Should: mal by som",
+      "Adjectives in -ný and -ový",
+      "pre: because of",
+      "Real conditions with ak",
+      "Imagined conditions with keby"
+    ],
+    "t": [
+      "Egasiz ob-havo feʼllari",
+      "«…ish kerak»: mal by som",
+      "-ný va -ový bilan sifatlar",
+      "pre: …sababli",
+      "Ak bilan real shart",
+      "Keby bilan xayoliy shart"
+    ]
+  },
+  "a2-u8-l1.titleEn": {
+    "en": "Coming to the festival with us?",
+    "t": "Biz bilan festivalga borasanmi?"
+  },
+  "a2-u8-l1.festival.en": {
+    "en": "festival",
+    "t": "festival"
+  },
+  "a2-u8-l1.festival.note": {
+    "en": "A **hudobný festival** is a music festival. This one is in July, **pri jazere** (by a lake).",
+    "t": "**hudobný festival** — musiqa festivali. Bu festival iyulda, **pri jazere** (koʻl boʻyida) boʻladi."
+  },
+  "a2-u8-l1.mas-chvilu.en": {
+    "en": "Have you got a minute?",
+    "t": "Bir daqiqang bormi?"
+  },
+  "a2-u8-l1.mas-chvilu.note": {
+    "en": "**chvíľa** = a moment. To someone you call vy: **Máte chvíľu?**",
+    "t": "**chvíľa** = bir lahza, bir daqiqa. «Siz» deb murojaat qiladigan odamga: **Máte chvíľu?** (Bir daqiqangiz bormi?)"
+  },
+  "a2-u8-l1.choice-mas-chvilu.question": {
+    "en": "Lucia phones Emma. How does she ask if Emma has a minute?",
+    "t": "Lusiya Emmaga qoʻngʻiroq qilyapti. U Emmadan bir daqiqasi bor-yoʻqligini qanday soʻraydi?"
+  },
+  "a2-u8-l1.choice-mas-chvilu.why": {
+    "en": "Lucia and Emma are friends, so Lucia says ty: **máš** chvíľu? Máte is for vy, and mám would be about herself.",
+    "t": "Lusiya va Emma — dugonalar, shuning uchun Lusiya ty (sen) deydi: **máš** chvíľu? Máte — vy (siz) uchun, mám esa uning oʻzi haqida boʻlardi."
+  },
+  "a2-u8-l1.kapela.en": {
+    "en": "band",
+    "t": "musiqa guruhi"
+  },
+  "a2-u8-l1.kapela.note": {
+    "en": "Also **skupina** (a group). **Kapela hrá.** = The band is playing.",
+    "t": "Yana **skupina** (guruh) ham deyiladi. **Kapela hrá.** = Guruh chalyapti."
+  },
+  "a2-u8-l1.koncert.en": {
+    "en": "concert",
+    "t": "konsert"
+  },
+  "a2-u8-l1.koncert.note": {
+    "en": "Going: **na koncert**. Being there: **na koncerte**. A ticket for a concert or a festival is a **vstupenka**.",
+    "t": "Borish: **na koncert** (konsertga). U yerda boʻlish: **na koncerte** (konsertda). Konsert yoki festivalga chipta — **vstupenka**."
+  },
+  "a2-u8-l1.fill-ideme-na-koncert.en": {
+    "en": "On Friday evening we're going to a concert.",
+    "t": "Juma kuni kechqurun konsertga boramiz."
+  },
+  "a2-u8-l1.fill-ideme-na-koncert.why": {
+    "en": "Going to an event takes **na** + the object form: ísť **na** koncert, like na festival or na oslavu.",
+    "t": "Biror tadbirga borish — **na** + toʻldiruvchi shakli: ísť **na** koncert (konsertga), xuddi na festival yoki na oslavu kabi."
+  },
+  "a2-u8-l1.choice-lucia-telefonuje-emme.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "a2-u8-l1.choice-lucia-telefonuje-emme.options": {
+    "en": [
+      "Emma is phoning Lucia about a festival.",
+      "Lucia and Emma are at a festival.",
+      "Lucia is phoning Emma and inviting her to a festival."
+    ],
+    "t": [
+      "Emma Lusiyaga festival haqida qoʻngʻiroq qilyapti.",
+      "Lusiya va Emma festivalda.",
+      "Lusiya Emmaga qoʻngʻiroq qilib, uni festivalga taklif qilyapti."
+    ]
+  },
+  "a2-u8-l1.fill-kapela-hra-na.en": {
+    "en": "The band is playing at the festival on Saturday.",
+    "t": "Guruh shanba kuni festivalda chiqish qiladi."
+  },
+  "a2-u8-l1.fill-kapela-hra-na.why": {
+    "en": "**Kapela** is one band (ona), so the verb has no ending: kapela **hrá**. Hrajú is for oni, hrám for ja.",
+    "t": "**Kapela** — bitta guruh (ona), shuning uchun feʼl qoʻshimchasiz keladi: kapela **hrá**. Hrajú — oni (ular), hrám esa ja (men) uchun."
+  },
+  "a2-u8-l1.stan.en": {
+    "en": "tent",
+    "t": "chodir"
+  },
+  "a2-u8-l1.stan.note": {
+    "en": "**postaviť stan** = to put up a tent. Sleeping in it: **v stane**.",
+    "t": "**postaviť stan** = chodir tikmoq. Uning ichida uxlash: **v stane** (chodirda)."
+  },
+  "a2-u8-l1.spacak-a-karimatka.en": {
+    "en": "sleeping bag and sleeping mat",
+    "t": "uyqu xaltasi va turistik gilamcha"
+  },
+  "a2-u8-l1.spacak-a-karimatka.note": {
+    "en": "**spacák** is everyday Slovak; the neutral word is **spací vak**.",
+    "t": "**spacák** — soʻzlashuv soʻzi; rasmiyroq soʻz — **spací vak**."
+  },
+  "a2-u8-l1.match-koncert.pairs": {
+    "en": [
+      "concert",
+      "band",
+      "tent",
+      "sleeping bag",
+      "sleeping mat"
+    ],
+    "t": [
+      "konsert",
+      "musiqa guruhi",
+      "chodir",
+      "uyqu xaltasi",
+      "turistik gilamcha"
+    ]
+  },
+  "a2-u8-l1.build-budeme-spat-v.prompt": {
+    "en": "We'll sleep in a tent by the lake.",
+    "t": "Koʻl boʻyida chodirda uxlaymiz."
+  },
+  "a2-u8-l1.build-budeme-spat-v.traps": {
+    "en": [
+      "Sleeping in it answers “where?”, so **v** takes the locative: v **stane**.",
+      "The festival is still to come: **budeme** + the infinitive, budeme spať. Sme is now."
+    ],
+    "t": [
+      "Chodirda uxlash «qayerda?» savoliga javob beradi, shuning uchun **v** lokál (oʻrin-payt kelishigi) talab qiladi: v **stane** (chodirda).",
+      "Festival hali oldinda: **budeme** + infinitív, budeme spať (uxlaymiz). Sme — hozir."
+    ]
+  },
+  "a2-u8-l1.choice-mohli-by-sme.question": {
+    "en": "Lucia suggests going together. What does she say?",
+    "t": "Lusiya birga borishni taklif qilyapti. U nima deydi?"
+  },
+  "a2-u8-l1.choice-mohli-by-sme.why": {
+    "en": "A friendly suggestion takes the conditional: **mohli by sme** = we could. Išli sme is the past, and musíme (we must) sounds like an order.",
+    "t": "Doʻstona taklif shart maylida aytiladi: **mohli by sme** = …sak boʻlardi (birga borsak boʻlardi). Išli sme — oʻtgan zamon (bordik), musíme (…ishimiz kerak) esa buyruqdek eshitiladi."
+  },
+  "a2-u8-l1.fill-uz-som-kupila.en": {
+    "en": "I've already bought a ticket for the festival.",
+    "t": "Festivalga chiptani allaqachon sotib oldim."
+  },
+  "a2-u8-l1.fill-uz-som-kupila.why": {
+    "en": "The ticket is what she bought, the object, so vstupenka changes -a to **-u**: kúpila som **vstupenku**.",
+    "t": "Chipta — u sotib olgan narsa, toʻldiruvchi, shuning uchun vstupenka soʻzida -a oʻrniga **-u** keladi: kúpila som **vstupenku**."
+  },
+  "a2-u8-l1.build-mohli-by-sme.answers": {
+    "en": [
+      "We could go to the concert together.",
+      "We could go together to the concert."
+    ],
+    "t": [
+      "Konsertga birga borsak boʻlardi.",
+      "Birga konsertga borsak boʻlardi.",
+      "Konsertga birga borishimiz mumkin."
+    ]
+  },
+  "a2-u8-l1.build-mohli-by-sme.distractors": {
+    "en": [
+      "should",
+      "festival"
+    ],
+    "t": [
+      "borsam",
+      "festivalga"
+    ]
+  },
+  "a2-u8-l1.build-prepac-zabudla-som.prompt": {
+    "en": "Sorry, I forgot to call you.",
+    "t": "Kechir, senga qoʻngʻiroq qilishni unutibman."
+  },
+  "a2-u8-l1.build-prepac-zabudla-som.traps": {
+    "en": [
+      "To a friend, the ty form: **prepáč**. Prepáčte is for vy.",
+      "Phoning someone, zavolať takes the to-whom form: zavolať **ti**, as in Zavolám ti. Ťa is the object form."
+    ],
+    "t": [
+      "Doʻstga ty (sen) shakli aytiladi: **prepáč** (kechir). Prepáčte (kechirasiz) — vy uchun.",
+      "Qoʻngʻiroq qilganda zavolať «kimga?» shaklini talab qiladi: zavolať **ti** (senga), xuddi Zavolám ti iborasidagi kabi. Ťa — toʻldiruvchi shakli (seni)."
+    ]
+  },
+  "a2-u8-l1.listen-v-juli-ideme.en": {
+    "en": "In July we're going to a festival.",
+    "t": "Iyulda festivalga boramiz."
+  },
+  "a2-u8-l1.speak-ides-s-nami.en": {
+    "en": "Are you coming to the festival with us?",
+    "t": "Biz bilan festivalga borasanmi?"
+  },
+  "a2-u8-l2.titleEn": {
+    "en": "The weather forecast",
+    "t": "Ob-havo prognozi"
+  },
+  "a2-u8-l2.predpoved-pocasia.en": {
+    "en": "weather forecast",
+    "t": "ob-havo prognozi"
+  },
+  "a2-u8-l2.predpoved-pocasia.note": {
+    "en": "**predpoveď** (feminine) = a forecast. Aká je predpoveď na víkend? = What's the forecast for the weekend?",
+    "t": "**predpoveď** (ayol jinsi) = prognoz. Aká je predpoveď na víkend? = Dam olish kunlariga prognoz qanday?"
+  },
+  "a2-u8-l2.surfovat-po-internete.en": {
+    "en": "to surf the internet",
+    "t": "internetda kezmoq"
+  },
+  "a2-u8-l2.surfovat-po-internete.note": {
+    "en": "It goes like študovať: **surfujem**, surfuješ… A website is a **webová stránka**.",
+    "t": "Študovať kabi tuslanadi: **surfujem**, surfuješ… Veb-sayt — **webová stránka**."
+  },
+  "a2-u8-l2.fill-emma-hlada-predpoved.en": {
+    "en": "Emma is looking for the weather forecast on a website.",
+    "t": "Emma veb-saytda ob-havo prognozini qidiryapti."
+  },
+  "a2-u8-l2.fill-emma-hlada-predpoved.why": {
+    "en": "On a website answers “where?”, so **na** takes the locative: feminine -a becomes **-e**, and the adjective takes -ej: na webov**ej** stránk**e**.",
+    "t": "Saytda — «qayerda?» savoliga javob, shuning uchun **na** lokál (oʻrin-payt kelishigi) talab qiladi: ayol jinsidagi -a **-e** ga aylanadi, sifat esa -ej oladi: na webov**ej** stránk**e**."
+  },
+  "a2-u8-l2.polooblacno.en": {
+    "en": "partly cloudy",
+    "t": "qisman bulutli"
+  },
+  "a2-u8-l2.polooblacno.note": {
+    "en": "**polo-** = half. When the sky is all grey, it's overcast: **Je zamračené.** When it's sunny: **Svieti slnko.** = The sun is shining.",
+    "t": "**polo-** = yarim. Osmonni butunlay bulut qoplagan boʻlsa: **Je zamračené.** (Havo tund.) Quyosh charaqlasa: **Svieti slnko.** = Quyosh charaqlayapti."
+  },
+  "a2-u8-l2.match-slnecno.pairs": {
+    "en": [
+      "sunny",
+      "cloudy",
+      "partly cloudy",
+      "overcast",
+      "it's raining"
+    ],
+    "t": [
+      "quyoshli",
+      "bulutli",
+      "qisman bulutli",
+      "tund",
+      "yomgʻir yogʻyapti"
+    ]
+  },
+  "a2-u8-l2.fill-v-sobotu-bude.en": {
+    "en": "On Saturday it will be partly cloudy and warm.",
+    "t": "Shanba kuni havo qisman bulutli va iliq boʻladi."
+  },
+  "a2-u8-l2.fill-v-sobotu-bude.why": {
+    "en": "With no noun, weather words end in **-o**, like teplo and slnečno: bude **polooblačno**. Polooblačný would need a masculine noun: polooblačný deň.",
+    "t": "Ot boʻlmasa, ob-havo soʻzlari **-o** bilan tugaydi, xuddi teplo va slnečno kabi: bude **polooblačno**. Polooblačný uchun erkak jinsidagi ot kerak: polooblačný deň (qisman bulutli kun)."
+  },
+  "a2-u8-l2.build-v-piatok-bude.prompt": {
+    "en": "On Friday the sun will shine.",
+    "t": "Juma kuni quyosh charaqlaydi."
+  },
+  "a2-u8-l2.build-v-piatok-bude.traps": {
+    "en": [
+      "Friday is still to come: **bude** + the infinitive, the -ť form: bude **svietiť**. Svieti is now.",
+      "Friday is still to come: **bude** + the infinitive, bude svietiť. Je is now."
+    ],
+    "t": [
+      "Juma hali oldinda: **bude** + infinitív, yaʼni -ť shakli: bude **svietiť**. Svieti — hozir.",
+      "Juma hali oldinda: **bude** + infinitív, bude svietiť. Je — hozir."
+    ]
+  },
+  "a2-u8-l2.teplota.en": {
+    "en": "the highest temperature",
+    "t": "eng yuqori harorat"
+  },
+  "a2-u8-l2.teplota.note": {
+    "en": "You know teplota from the doctor's (unit 5). In a forecast: **najvyššia** / **najnižšia** teplota, the highest / lowest. A degree is a **stupeň**; chilly is **chladno**, hot **horúco**.",
+    "t": "Teplota soʻzini shifokor qabulidan (5-boʻlim) bilasiz. Prognozda: **najvyššia** / **najnižšia** teplota — eng yuqori / eng past harorat. Daraja — **stupeň**; salqin — **chladno**, issiq — **horúco**."
+  },
+  "a2-u8-l2.fill-najvyssia-teplota-bude.en": {
+    "en": "The highest temperature will be thirty degrees.",
+    "t": "Eng yuqori harorat oʻttiz daraja boʻladi."
+  },
+  "a2-u8-l2.fill-najvyssia-teplota-bude.why": {
+    "en": "From five up, the noun takes the genitive plural, as in Mám teplotu tridsaťosem stupňov: tridsať **stupňov**. Dva, tri and štyri take stupne.",
+    "t": "Beshdan boshlab ot genitív (qaratqich kelishigi) koʻplik shaklida keladi, xuddi Mám teplotu tridsaťosem stupňov iborasidagi kabi: tridsať **stupňov**. Dva, tri va štyri bilan stupne keladi."
+  },
+  "a2-u8-l2.co-su-prehanky.en": {
+    "en": "What are showers?",
+    "t": "Jala degani nima?"
+  },
+  "a2-u8-l2.co-su-prehanky.note": {
+    "en": "**prehánky** = showers, a **krátky dážď** (a short rain). To ask about any word: **Čo znamená** …? = What does … mean?",
+    "t": "**prehánky** = jala, yaʼni **krátky dážď** (qisqa yomgʻir). Istalgan soʻz haqida soʻrash uchun: **Čo znamená** …? = … nima degani?"
+  },
+  "a2-u8-l2.choice-co-su-prehanky.question": {
+    "en": "Emma asks: Čo sú prehánky? What does Lucia answer?",
+    "t": "Emma soʻraydi: Čo sú prehánky? Lusiya nima deb javob beradi?"
+  },
+  "a2-u8-l2.build-v-noci-bude.answers": {
+    "en": [
+      "At night it will be chilly and overcast.",
+      "It will be chilly and overcast at night."
+    ],
+    "t": [
+      "Kechasi havo salqin va tund boʻladi.",
+      "Kechasi salqin va tund boʻladi.",
+      "Tunda havo salqin va tund boʻladi."
+    ]
+  },
+  "a2-u8-l2.build-v-noci-bude.distractors": {
+    "en": [
+      "hot",
+      "sunny"
+    ],
+    "t": [
+      "issiq",
+      "boʻldi"
+    ]
+  },
+  "a2-u8-l2.fill-zajtra-bude-teplejsie.en": {
+    "en": "Tomorrow will be warmer than today.",
+    "t": "Ertaga bugungidan iliqroq boʻladi."
+  },
+  "a2-u8-l2.fill-zajtra-bude-teplejsie.why": {
+    "en": "**Ako** (than) compares two days, so you need the comparative: **teplejšie** = warmer. Teplý is an adjective, for a noun: teplý deň.",
+    "t": "**Ako** (…dan) ikki kunni solishtiradi, shuning uchun qiyosiy daraja kerak: **teplejšie** = iliqroq (oʻzbekchadagi -roq kabi). Teplý — sifat, otga qoʻshiladi: teplý deň (iliq kun)."
+  },
+  "a2-u8-l2.neboj-sa.en": {
+    "en": "Don't worry!",
+    "t": "Xavotir olma!"
+  },
+  "a2-u8-l2.neboj-sa.note": {
+    "en": "You said it on the May trip (unit 7). From **báť sa** (to be afraid). To vy: **Nebojte sa!** Also: **To nie je problém.** = It's no problem.",
+    "t": "Buni may oyidagi sayohatda (7-boʻlim) aytgansiz. **báť sa** (qoʻrqmoq) feʼlidan. «Siz» deb murojaat qilganda: **Nebojte sa!** Yana: **To nie je problém.** = Bu muammo emas."
+  },
+  "a2-u8-l2.choice-neboj-sa-mame.question": {
+    "en": "Emma is worried about the rain. What does Lucia tell her?",
+    "t": "Emma yomgʻirdan xavotirda. Lusiya unga nima deydi?"
+  },
+  "a2-u8-l2.choice-neboj-sa-mame.why": {
+    "en": "Lucia speaks to a friend, so she uses the ty form: **Neboj sa**. Nebojte sa is for vy. And a good tent is the reason not to worry.",
+    "t": "Lusiya dugonasi bilan gaplashyapti, shuning uchun ty (sen) shaklini ishlatadi: **Neboj sa**. Nebojte sa — vy (siz) uchun. Xavotir olmaslikka sabab esa — yaxshi chodir."
+  },
+  "a2-u8-l2.dufat.en": {
+    "en": "to hope",
+    "t": "umid qilmoq"
+  },
+  "a2-u8-l2.dufat.note": {
+    "en": "You know Dúfam, že to stihneme from the trip (unit 7). **Dúfam, že nebude pršať.** = I hope it won't rain.",
+    "t": "Dúfam, že to stihneme iborasini sayohatdan (7-boʻlim) bilasiz. **Dúfam, že nebude pršať.** = Umid qilamanki, yomgʻir yogʻmaydi."
+  },
+  "a2-u8-l2.build-dufam-ze-bude.prompt": {
+    "en": "I hope it will be sunny.",
+    "t": "Umid qilamanki, havo quyoshli boʻladi."
+  },
+  "a2-u8-l2.build-dufam-ze-bude.traps": {
+    "en": [
+      "I (ja) hope: **dúfam**, with -m. Dúfa is for on or ona.",
+      "The sun is hoped for later, so byť takes the future: **bude** slnečno. Je is now."
+    ],
+    "t": [
+      "Men (ja) umid qilaman: **dúfam**, -m bilan. Dúfa — on yoki ona uchun.",
+      "Quyoshli havo keyinroq kutilyapti, shuning uchun byť kelasi zamonda: **bude** slnečno. Je — hozir."
+    ]
+  },
+  "a2-u8-l2.speak-dufam-ze-nebude.en": {
+    "en": "I hope it won't rain.",
+    "t": "Umid qilamanki, yomgʻir yogʻmaydi."
+  },
+  "a2-u8-l3.titleEn": {
+    "en": "Packing",
+    "t": "Narsalarni yigʻyapmiz"
+  },
+  "a2-u8-l3.balit-sa.en": {
+    "en": "to pack",
+    "t": "yoʻlga yigʻinmoq, narsalarni joylamoq"
+  },
+  "a2-u8-l3.balit-sa.note": {
+    "en": "balím sa, balíš sa… Done: **zbaliť sa**. A packing list is a **zoznam vecí** (**vec** = a thing).",
+    "t": "balím sa, balíš sa… Yigʻinib boʻlish: **zbaliť sa**. Narsalar roʻyxati — **zoznam vecí** (**vec** = narsa)."
+  },
+  "a2-u8-l3.ruksak.en": {
+    "en": "rucksack",
+    "t": "ryukzak"
+  },
+  "a2-u8-l3.ruksak.note": {
+    "en": "A suitcase is a **kufor**, a bag a **taška**. For a festival, a ruksak is better.",
+    "t": "Chamadon — **kufor**, sumka — **taška**. Festivalga ryukzak qulayroq."
+  },
+  "a2-u8-l3.fill-pisem-si-zoznam.en": {
+    "en": "I'm writing a list of things for the festival.",
+    "t": "Festival uchun narsalar roʻyxatini yozyapman."
+  },
+  "a2-u8-l3.fill-pisem-si-zoznam.why": {
+    "en": "The list is what you write, the object, and masculine things don't change in the object form: píšem si **zoznam**.",
+    "t": "Roʻyxat — siz yozayotgan narsa, toʻldiruvchi; erkak jinsidagi narsalar toʻldiruvchi shaklida oʻzgarmaydi: píšem si **zoznam**."
+  },
+  "a2-u8-l3.dazdnik-a-prsiplast.en": {
+    "en": "umbrella and raincoat",
+    "t": "soyabon va yomgʻirpoʻsh"
+  },
+  "a2-u8-l3.dazdnik-a-prsiplast.note": {
+    "en": "Both come from the rain: **dážď**, **pršať**. Warm things are **teplé veci**.",
+    "t": "Ikkalasi ham yomgʻir soʻzidan: **dážď** (yomgʻir), **pršať** (yomgʻir yogʻmoq). Issiq kiyimlar — **teplé veci**."
+  },
+  "a2-u8-l3.match-ruksak.pairs": {
+    "en": [
+      "rucksack",
+      "suitcase",
+      "umbrella",
+      "raincoat",
+      "sleeping bag"
+    ],
+    "t": [
+      "ryukzak",
+      "chamadon",
+      "soyabon",
+      "yomgʻirpoʻsh",
+      "uyqu xaltasi"
+    ]
+  },
+  "a2-u8-l3.zobrat-si.en": {
+    "en": "to take (with you)",
+    "t": "oʻzi bilan olmoq"
+  },
+  "a2-u8-l3.zobrat-si.note": {
+    "en": "zoberiem si, zoberieš si… To a friend: **Zober si** dáždnik! = Take an umbrella!",
+    "t": "zoberiem si, zoberieš si… Doʻstga: **Zober si** dáždnik! = Soyabonni olib ol!"
+  },
+  "a2-u8-l3.fill-zober-si-teple.en": {
+    "en": "Take some warm things!",
+    "t": "Issiq kiyimlarni olib ol!"
+  },
+  "a2-u8-l3.fill-zober-si-teple.why": {
+    "en": "**Zobrať si** is taking something for yourself, with si and an object after it, like kúpiť si: zober **si** teplé veci.",
+    "t": "**Zobrať si** — biror narsani oʻzingiz uchun olish: si bilan, undan keyin toʻldiruvchi keladi, xuddi kúpiť si kabi: zober **si** teplé veci."
+  },
+  "a2-u8-l3.grammar-should-mal-by.title": {
+    "en": "Should: mal by som",
+    "t": "«…ish kerak»: mal by som"
+  },
+  "a2-u8-l3.grammar-should-mal-by.body": {
+    "en": [
+      "You know **mal by si** (you should) from unit 4: mať in the conditional + an infinitive. **Mal by som** sa zbaliť. = I should pack. A woman says **mala by som**.",
+      "It also says what's expected: V piatok **by malo** byť teplo. = It should be warm on Friday."
+    ],
+    "t": [
+      "**Mal by si** (…ishing kerak, …ganing maʼqul) sizga 4-boʻlimdan tanish: shart maylidagi (by bilan keladigan shakl) mať + infinitív. **Mal by som** sa zbaliť. = Narsalarimni yigʻishim kerak. Ayol **mala by som** deydi.",
+      "U kutilayotgan narsani ham bildiradi: V piatok **by malo** byť teplo. = Juma kuni havo iliq boʻlishi kerak."
+    ]
+  },
+  "a2-u8-l3.grammar-should-mal-by.table.head": {
+    "en": [
+      "",
+      "should"
+    ],
+    "t": [
+      "",
+      "kerak"
+    ]
+  },
+  "a2-u8-l3.grammar-should-mal-by.table.rows": {
+    "en": [
+      [
+        "ja",
+        "mal / mala **by som**"
+      ],
+      [
+        "ty",
+        "mal / mala **by si**"
+      ],
+      [
+        "on, ona, ono",
+        "mal / mala / malo **by**"
+      ],
+      [
+        "my",
+        "mali **by sme**"
+      ],
+      [
+        "vy",
+        "mali **by ste**"
+      ],
+      [
+        "oni, ony",
+        "mali **by**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "mal / mala **by som**"
+      ],
+      [
+        "ty",
+        "mal / mala **by si**"
+      ],
+      [
+        "on, ona, ono",
+        "mal / mala / malo **by**"
+      ],
+      [
+        "my",
+        "mali **by sme**"
+      ],
+      [
+        "vy",
+        "mali **by ste**"
+      ],
+      [
+        "oni, ony",
+        "mali **by**"
+      ]
+    ]
+  },
+  "a2-u8-l3.grammar-should-mal-by.examples": {
+    "en": [
+      "I should take an umbrella.",
+      "You should pack a jumper.",
+      "It should be warm on Friday."
+    ],
+    "t": [
+      "Soyabon olib olishim kerak.",
+      "Sviter olib olganing maʼqul.",
+      "Juma kuni havo iliq boʻlishi kerak."
+    ]
+  },
+  "a2-u8-l3.fill-emma-mala-by.en": {
+    "en": "Emma, you should take a raincoat.",
+    "t": "Emma, yomgʻirpoʻsh olib olganing maʼqul."
+  },
+  "a2-u8-l3.fill-emma-mala-by.why": {
+    "en": "Speaking to Emma (ty), the conditional takes **si**: mala by **si**. The second si belongs to zobrať si.",
+    "t": "Emmaga (ty) gapirilyapti, shuning uchun shart mayli **si** oladi: mala by **si**. Ikkinchi si esa zobrať si feʼliga tegishli."
+  },
+  "a2-u8-l3.build-mala-by-som.prompt": {
+    "en": "I should pack.",
+    "t": "Narsalarimni yigʻishim kerak."
+  },
+  "a2-u8-l3.build-mala-by-som.traps": {
+    "en": [
+      "Packing your things is **zbaliť sa**, with sa: mala by som **sa** zbaliť.",
+      "Should is mať in the conditional: **mala** by som. Musím means must."
+    ],
+    "t": [
+      "Narsalarni yigʻish — **zbaliť sa**, sa bilan: mala by som **sa** zbaliť.",
+      "Maslahat maʼnosidagi «kerak» — shart maylidagi mať: **mala** by som. Musím esa «majburman» degani."
+    ]
+  },
+  "a2-u8-l3.pozicat.en": {
+    "en": "to lend",
+    "t": "berib turmoq, qarzga bermoq"
+  },
+  "a2-u8-l3.pozicat.note": {
+    "en": "One finished action, like kúpiť, so požičiam talks about the future: **Požičiam ti** spacák. = I'll lend you a sleeping bag.",
+    "t": "Kúpiť kabi bitta tugallangan harakat, shuning uchun požičiam kelajakni bildiradi: **Požičiam ti** spacák. = Senga uyqu xaltamni berib turaman."
+  },
+  "a2-u8-l3.choice-poziciam-ti-spacak.question": {
+    "en": "Emma has no sleeping bag. What does Lucia say?",
+    "t": "Emmaning uyqu xaltasi yoʻq. Lusiya nima deydi?"
+  },
+  "a2-u8-l3.choice-poziciam-ti-spacak.why": {
+    "en": "You lend something **to** someone, so the to-whom form: požičiam **ti**, as in Zavolám ti. Ťa is the object form, and požičiaš mi would have Emma lending one.",
+    "t": "Biror narsani **kimgadir** berib turasiz, shuning uchun «kimga?» shakli: požičiam **ti** (senga), xuddi Zavolám ti kabi. Ťa — toʻldiruvchi shakli (seni), požičiaš mi esa Emma uyqu xaltasini berib turishini bildirardi."
+  },
+  "a2-u8-l3.build-tomas-mi-pozicia.prompt": {
+    "en": "Tomáš will lend me a sleeping mat.",
+    "t": "Tomash menga turistik gilamcha berib turadi."
+  },
+  "a2-u8-l3.build-tomas-mi-pozicia.traps": {
+    "en": [
+      "The mat is the object, so karimatka changes -a to **-u**: požičia **karimatku**.",
+      "He lends it **to** me, so the to-whom form: **mi**, as in Môžete mi pomôcť? Ma is the object form: Hľadá ma."
+    ],
+    "t": [
+      "Gilamcha — toʻldiruvchi, shuning uchun karimatka soʻzida -a oʻrniga **-u** keladi: požičia **karimatku**.",
+      "U **menga** beradi, shuning uchun «kimga?» shakli: **mi** (menga), xuddi Môžete mi pomôcť? kabi. Ma — toʻldiruvchi shakli (meni): Hľadá ma."
+    ]
+  },
+  "a2-u8-l3.fill-lucia-mohla-by.en": {
+    "en": "Lucia, could you lend me a sleeping bag?",
+    "t": "Lusiya, menga uyqu xaltangni berib turolmaysanmi?"
+  },
+  "a2-u8-l3.fill-lucia-mohla-by.why": {
+    "en": "After **môcť**, even in the conditional, comes the infinitive, the -ť form: mohla by si mi **požičať**.",
+    "t": "**Môcť** feʼlidan keyin, shart maylida ham, infinitív, yaʼni -ť shakli keladi: mohla by si mi **požičať**."
+  },
+  "a2-u8-l3.ak.en": {
+    "en": "if",
+    "t": "agar"
+  },
+  "a2-u8-l3.ak.note": {
+    "en": "**Ak bude pršať**, zoberiem si pršiplášť. = If it rains, I'll take my raincoat. About the future, Slovak says “if it will rain”.",
+    "t": "**Ak bude pršať**, zoberiem si pršiplášť. = Agar yomgʻir yogʻsa, yomgʻirpoʻshimni olaman. Kelajak haqida slovakchada «agar yomgʻir yogʻadigan boʻlsa» kabi kelasi zamon ishlatiladi."
+  },
+  "a2-u8-l3.build-ak-bude-prsat.answers": {
+    "en": [
+      "If it rains, I'll take my raincoat.",
+      "If it rains, I'll take a raincoat."
+    ],
+    "t": [
+      "Agar yomgʻir yogʻsa, yomgʻirpoʻshimni olaman.",
+      "Yomgʻir yogʻsa, yomgʻirpoʻshimni olaman.",
+      "Agar yomgʻir yogʻsa, yomgʻirpoʻsh olaman.",
+      "Agar yomgʻir yogʻsa, yomgʻirpoʻshimni olib olaman."
+    ]
+  },
+  "a2-u8-l3.build-ak-bude-prsat.distractors": {
+    "en": [
+      "umbrella",
+      "would"
+    ],
+    "t": [
+      "soyabonimni",
+      "olardim"
+    ]
+  },
+  "a2-u8-l3.build-emma-pomoze-tomasovi.prompt": {
+    "en": "Emma will help Tomáš put up the tent.",
+    "t": "Emma Tomashga chodir tikishga yordam beradi."
+  },
+  "a2-u8-l3.build-emma-pomoze-tomasovi.traps": {
+    "en": [
+      "**Pomôcť** takes the to-whom form (the dative), and men's names add **-ovi**: pomôže **Tomášovi**.",
+      "The help is still to come: **pomôže** = will help. Pomohla is the past."
+    ],
+    "t": [
+      "**Pomôcť** «kimga?» shaklini — datívni (joʻnalish kelishigi) talab qiladi, xuddi oʻzbekchadagi «Tomashga yordam beradi» kabi; erkak ismlari **-ovi** oladi: pomôže **Tomášovi**.",
+      "Yordam hali oldinda: **pomôže** = yordam beradi. Pomohla — oʻtgan zamon."
+    ]
+  },
+  "a2-u8-l3.speak-zober-si-dazdnik.en": {
+    "en": "Take an umbrella!",
+    "t": "Soyabonni olib ol!"
+  },
+  "a2-u8-l4.titleEn": {
+    "en": "The festival programme",
+    "t": "Festival dasturi"
+  },
+  "a2-u8-l4.program.en": {
+    "en": "programme",
+    "t": "dastur"
+  },
+  "a2-u8-l4.program.note": {
+    "en": "**program festivalu** = the festival programme; it's on a big **plagát** (poster). **ponúkať** = to offer.",
+    "t": "**program festivalu** = festival dasturi. U katta afishada yozilgan, afisha esa — **plagát**. **ponúkať** = taklif qilmoq."
+  },
+  "a2-u8-l4.podium.en": {
+    "en": "stage",
+    "t": "sahna"
+  },
+  "a2-u8-l4.podium.note": {
+    "en": "**hlavné pódium** = the main stage. Being on it: **na pódiu**.",
+    "t": "**hlavné pódium** = asosiy sahna. Sahnada: **na pódiu**."
+  },
+  "a2-u8-l4.build-hlavne-podium-je.answers": {
+    "en": [
+      "The main stage is by the lake.",
+      "The main stage is near the lake."
+    ],
+    "t": [
+      "Asosiy sahna koʻl boʻyida.",
+      "Asosiy sahna koʻl yonida."
+    ]
+  },
+  "a2-u8-l4.build-hlavne-podium-je.distractors": {
+    "en": [
+      "tent",
+      "poster"
+    ],
+    "t": [
+      "chodir",
+      "koʻlda"
+    ]
+  },
+  "a2-u8-l4.tvoriva-dielna.en": {
+    "en": "workshop",
+    "t": "ijodiy ustaxona"
+  },
+  "a2-u8-l4.tvoriva-dielna.note": {
+    "en": "**tvorivý** = creative. **Tvorivé dielne** are in the **hlavný stan** (main tent): music, dance, photography.",
+    "t": "**tvorivý** = ijodiy. **Tvorivé dielne** asosiy chodirda (**hlavný stan**) boʻladi: musiqa, raqs, fotografiya."
+  },
+  "a2-u8-l4.fill-dielne-su-v.en": {
+    "en": "The workshops are in the main tent.",
+    "t": "Ijodiy ustaxonalar asosiy chodirda."
+  },
+  "a2-u8-l4.fill-dielne-su-v.why": {
+    "en": "Being in the tent answers “where?”, so **v** takes the locative, and masculine things add **-e**: v hlavnom **stane**.",
+    "t": "Chodirda boʻlish «qayerda?» savoliga javob beradi, shuning uchun **v** lokál talab qiladi, erkak jinsidagi narsalar esa **-e** oladi: v hlavnom **stane**."
+  },
+  "a2-u8-l4.grammar-adjectives-from-nouns.title": {
+    "en": "More adjectives from nouns: -ný, -ový",
+    "t": "Otdan yasalgan sifatlar: -ný, -ový"
+  },
+  "a2-u8-l4.grammar-adjectives-from-nouns.body": {
+    "en": [
+      "You know **-ný** from unit 5: zub → zubný lekár. It often brings a small change inside: hudba → hudob**ný**, noc → noč**ný**.",
+      "Others add **-ový**, very often newer or foreign words: džez → džez**ový**, rock → rock**ový**. Then they take the usual endings: džez**ová** noc."
+    ],
+    "t": [
+      "**-ný** qoʻshimchasini 5-boʻlimdan bilasiz: zub → zubný lekár (tish shifokori). Oʻzbekchadagi musiqa → musiqiy, kecha → kechki kabi. Koʻpincha soʻz ichida kichik oʻzgarish ham boʻladi: hudba → hudob**ný**, noc → noč**ný**.",
+      "Boshqalari **-ový** oladi, koʻpincha yangi yoki chet el soʻzlari: džez → džez**ový**, rock → rock**ový**. Keyin ular odatdagi qoʻshimchalarni oladi: džez**ová** noc."
+    ]
+  },
+  "a2-u8-l4.grammar-adjectives-from-nouns.table.head": {
+    "en": [
+      "noun",
+      "adjective"
+    ],
+    "t": [
+      "ot",
+      "sifat"
+    ]
+  },
+  "a2-u8-l4.grammar-adjectives-from-nouns.table.rows": {
+    "en": [
+      [
+        "hudba (music)",
+        "hudob**ný** festival"
+      ],
+      [
+        "noc (night)",
+        "noč**ný** koncert"
+      ],
+      [
+        "večer (evening)",
+        "večer**ný** program"
+      ],
+      [
+        "divadlo (theatre)",
+        "divadel**ný** stan"
+      ],
+      [
+        "deň (day)",
+        "den**né** teploty"
+      ],
+      [
+        "džez (jazz)",
+        "džez**ová** noc"
+      ],
+      [
+        "rock",
+        "rock**ová** kapela"
+      ],
+      [
+        "festival",
+        "festival**ový** plagát"
+      ]
+    ],
+    "t": [
+      [
+        "hudba (musiqa)",
+        "hudob**ný** festival"
+      ],
+      [
+        "noc (tun)",
+        "noč**ný** koncert"
+      ],
+      [
+        "večer (kech)",
+        "večer**ný** program"
+      ],
+      [
+        "divadlo (teatr)",
+        "divadel**ný** stan"
+      ],
+      [
+        "deň (kun)",
+        "den**né** teploty"
+      ],
+      [
+        "džez (jaz)",
+        "džez**ová** noc"
+      ],
+      [
+        "rock",
+        "rock**ová** kapela"
+      ],
+      [
+        "festival",
+        "festival**ový** plagát"
+      ]
+    ]
+  },
+  "a2-u8-l4.grammar-adjectives-from-nouns.examples": {
+    "en": [
+      "On Saturday there's a jazz night.",
+      "It's a big music festival."
+    ],
+    "t": [
+      "Shanba kuni jaz kechasi boʻladi.",
+      "Bu katta musiqa festivali."
+    ]
+  },
+  "a2-u8-l4.fill-v-sobotu-vecer.en": {
+    "en": "On Saturday evening there's a jazz night.",
+    "t": "Shanba kuni kechqurun jaz kechasi boʻladi."
+  },
+  "a2-u8-l4.fill-v-sobotu-vecer.why": {
+    "en": "Noc is feminine (like posteľ, it has no -a), so the adjective takes **-á**: džez**ová** noc. Džez is the noun.",
+    "t": "Noc — ayol jinsida (posteľ kabi, -a siz), shuning uchun sifat **-á** oladi: džez**ová** noc. Džez — ot."
+  },
+  "a2-u8-l4.fill-na-hlavnom-podiu.en": {
+    "en": "A rock band is playing on the main stage.",
+    "t": "Asosiy sahnada rok guruhi chalyapti."
+  },
+  "a2-u8-l4.fill-na-hlavnom-podiu.why": {
+    "en": "From the noun rock comes the adjective rock**ový**, and kapela is feminine, so: **rocková** kapela.",
+    "t": "Rock otidan rock**ový** sifati yasaladi, kapela esa ayol jinsida, shuning uchun: **rocková** kapela."
+  },
+  "a2-u8-l4.fill-v-juli-je.en": {
+    "en": "In July there's a big music festival by the lake.",
+    "t": "Iyulda koʻl boʻyida katta musiqa festivali boʻladi."
+  },
+  "a2-u8-l4.fill-v-juli-je.why": {
+    "en": "From hudba comes **hudobný**: -ný, with an o inside. Festival is masculine, so -ý: **hudobný** festival. Hudba is the noun.",
+    "t": "Hudba soʻzidan **hudobný** yasaladi: -ný, ichida o bilan. Festival erkak jinsida, shuning uchun -ý: **hudobný** festival. Hudba — ot."
+  },
+  "a2-u8-l4.fill-v-piatok-je.en": {
+    "en": "On Friday there's a night concert by the lake.",
+    "t": "Juma kuni koʻl boʻyida tungi konsert boʻladi."
+  },
+  "a2-u8-l4.fill-v-piatok-je.why": {
+    "en": "From noc comes **nočný**: c changes to č before -ný. Koncert is masculine, so **nočný** koncert. Nočná is for feminine words.",
+    "t": "Noc soʻzidan **nočný** yasaladi: -ný oldidan c č ga aylanadi. Koncert erkak jinsida, shuning uchun **nočný** koncert. Nočná — ayol jinsidagi soʻzlar uchun."
+  },
+  "a2-u8-l4.build-vecerny-program-zacina.answers": {
+    "en": [
+      "The evening programme starts at eight.",
+      "The evening programme begins at eight."
+    ],
+    "t": [
+      "Kechki dastur soat sakkizda boshlanadi.",
+      "Kechki dastur sakkizda boshlanadi."
+    ]
+  },
+  "a2-u8-l4.build-vecerny-program-zacina.distractors": {
+    "en": [
+      "morning",
+      "ends"
+    ],
+    "t": [
+      "ertalabki",
+      "tugaydi"
+    ]
+  },
+  "a2-u8-l4.kam-by-si.en": {
+    "en": "Where would you go?",
+    "t": "Qayerga borarding?"
+  },
+  "a2-u8-l4.kam-by-si.note": {
+    "en": "The conditional, for choosing from the programme. An answer: **Išla by som** na tvorivú dielňu.",
+    "t": "Dasturdan tanlash uchun shart mayli. Javob: **Išla by som** na tvorivú dielňu. = Ijodiy ustaxonaga borardim."
+  },
+  "a2-u8-l4.choice-isla-by-som.question": {
+    "en": "Lucia asks Emma: Kam by si išla? What can Emma answer?",
+    "t": "Lusiya Emmadan soʻraydi: Kam by si išla? Emma nima deb javob berishi mumkin?"
+  },
+  "a2-u8-l4.choice-isla-by-som.why": {
+    "en": "Emma is a woman, so **išla**; and the question imagines a choice, so the answer is conditional too: išla **by som**. Išla som is the past.",
+    "t": "Emma — ayol, shuning uchun **išla**; savol xayoliy tanlov haqida, shuning uchun javob ham shart maylida: išla **by som** (borardim). Išla som — oʻtgan zamon (bordim)."
+  },
+  "a2-u8-l4.co-keby-sme.en": {
+    "en": "How about…?",
+    "t": "…sak-chi?"
+  },
+  "a2-u8-l4.co-keby-sme.note": {
+    "en": "You know it from unit 4: Čo keby sme išli taxíkom? At the festival: **Čo keby sme išli** na koncert? = How about going to the concert?",
+    "t": "Buni 4-boʻlimdan bilasiz: Čo keby sme išli taxíkom? (Taksida borsak-chi?) Festivalda: **Čo keby sme išli** na koncert? = Konsertga borsak-chi?"
+  },
+  "a2-u8-l4.build-co-keby-sme.prompt": {
+    "en": "How about going to the jazz night?",
+    "t": "Jaz kechasiga borsak-chi?"
+  },
+  "a2-u8-l4.build-co-keby-sme.traps": {
+    "en": [
+      "**Na** (where to) takes the object form, so feminine -á becomes **-ú**: na **džezovú** noc.",
+      "After **čo keby sme**, the verb takes its past form: keby sme **išli**."
+    ],
+    "t": [
+      "**Na** (qayerga?) toʻldiruvchi shaklini talab qiladi, shuning uchun ayol jinsidagi -á **-ú** ga aylanadi: na **džezovú** noc.",
+      "**Čo keby sme** iborasidan keyin feʼl oʻtgan zamon shaklida keladi: keby sme **išli**."
+    ]
+  },
+  "a2-u8-l4.fill-festival-ponuka-koncerty.en": {
+    "en": "The festival offers concerts, theatre and workshops.",
+    "t": "Festival konsertlar, teatr va ijodiy ustaxonalarni taklif qiladi."
+  },
+  "a2-u8-l4.fill-festival-ponuka-koncerty.why": {
+    "en": "The festival is one thing (on), so the verb has no ending: festival **ponúka**. Ponúkajú is for oni.",
+    "t": "Festival — bitta narsa (on), shuning uchun feʼl qoʻshimchasiz keladi: festival **ponúka**. Ponúkajú — oni uchun."
+  },
+  "a2-u8-l4.match-program.pairs": {
+    "en": [
+      "programme",
+      "poster",
+      "stage",
+      "workshop",
+      "main tent"
+    ],
+    "t": [
+      "dastur",
+      "afisha",
+      "sahna",
+      "ijodiy ustaxona",
+      "asosiy chodir"
+    ]
+  },
+  "a2-u8-l4.speak-co-keby-sme.en": {
+    "en": "How about going to the concert?",
+    "t": "Konsertga borsak-chi?"
+  },
+  "a2-u8-l5.titleEn": {
+    "en": "Did you like the concert?",
+    "t": "Konsert senga yoqdimi?"
+  },
+  "a2-u8-l5.pacil-sa-ti.en": {
+    "en": "Did you like the concert?",
+    "t": "Konsert senga yoqdimi?"
+  },
+  "a2-u8-l5.pacil-sa-ti.note": {
+    "en": "Páči sa mi in the past. The thing you liked chooses the ending: koncert sa mi **páčil**, kapela sa mi **páčila**.",
+    "t": "Bu — páči sa mi ning oʻtgan zamoni. Qoʻshimchani yoqqan narsa tanlaydi: koncert sa mi **páčil**, kapela sa mi **páčila**."
+  },
+  "a2-u8-l5.nebolo-to-zle.en": {
+    "en": "It wasn't bad.",
+    "t": "Yomon emas edi."
+  },
+  "a2-u8-l5.nebolo-to-zle.note": {
+    "en": "**zlý** = bad. Not your kind of music? **To nie je môj štýl.** = It's not my style.",
+    "t": "**zlý** = yomon. Bu siz yoqtiradigan musiqa emasmi? **To nie je môj štýl.** = Bu mening uslubim emas."
+  },
+  "a2-u8-l5.fill-pacila-sa-ti.en": {
+    "en": "Did you like the band?",
+    "t": "Guruh senga yoqdimi?"
+  },
+  "a2-u8-l5.fill-pacila-sa-ti.why": {
+    "en": "**Páčila** ends in -a, so what you liked is feminine: **kapela**. Koncert and festival are masculine and would take páčil.",
+    "t": "**Páčila** -a bilan tugaydi, demak yoqqan narsa ayol jinsida: **kapela**. Koncert va festival erkak jinsida, ular bilan páčil boʻlardi."
+  },
+  "a2-u8-l5.fanusik.en": {
+    "en": "I'm a rock fan.",
+    "t": "Men rok muxlisiman."
+  },
+  "a2-u8-l5.fanusik.note": {
+    "en": "You know fanúšik from unit 1. Marek loves rock; Lucia prefers folk.",
+    "t": "Fanúšik soʻzini 1-boʻlimdan bilasiz. Marek rokni yaxshi koʻradi, Lusiya esa folkni afzal koʻradi."
+  },
+  "a2-u8-l5.choice-som-fanusik-rocku.question": {
+    "en": "Marek loves rock. What does he say?",
+    "t": "Marek rokni yaxshi koʻradi. U nima deydi?"
+  },
+  "a2-u8-l5.choice-som-fanusik-rocku.why": {
+    "en": "Marek is a man, so **fanúšik**. Like čašník and čašníčka, a woman is a fanúšička.",
+    "t": "Marek — erkak, shuning uchun **fanúšik**. Čašník va čašníčka kabi, ayol — fanúšička."
+  },
+  "a2-u8-l5.rock-folk-dzez.en": {
+    "en": "rock, folk, jazz",
+    "t": "rok, folk, jaz"
+  },
+  "a2-u8-l5.rock-folk-dzez.note": {
+    "en": "Also **pop**, **punk** and **metal**. Slovak writes jazz as **džez**: džezový koncert.",
+    "t": "Yana **pop**, **punk** va **metal**. Slovakchada jazz **džez** deb yoziladi: džezový koncert."
+  },
+  "a2-u8-l5.build-folk-nie-je.prompt": {
+    "en": "Folk isn't my style.",
+    "t": "Folk mening uslubim emas."
+  },
+  "a2-u8-l5.build-folk-nie-je.traps": {
+    "en": [
+      "Štýl is masculine (it ends in a consonant), so **môj** štýl. Moja is for feminine words.",
+      "Folk is the subject (on), so byť is **je**: folk nie **je**… Som is for ja."
+    ],
+    "t": [
+      "Štýl erkak jinsida (undosh bilan tugaydi), shuning uchun **môj** štýl. Moja — ayol jinsidagi soʻzlar uchun.",
+      "Folk — ega (on), shuning uchun byť — **je**: folk nie **je**… Som — ja uchun."
+    ]
+  },
+  "a2-u8-l5.fill-koncert-sa-mi.en": {
+    "en": "I liked that concert a lot.",
+    "t": "Oʻsha konsert menga juda yoqdi."
+  },
+  "a2-u8-l5.fill-koncert-sa-mi.why": {
+    "en": "What you liked, koncert, is masculine (on), so the past form ends in plain **-l**: koncert sa mi **páčil**.",
+    "t": "Yoqqan narsa — koncert, erkak jinsida (on), shuning uchun oʻtgan zamon oddiy **-l** bilan tugaydi: koncert sa mi **páčil**."
+  },
+  "a2-u8-l5.hrat-na-gitare.en": {
+    "en": "to play the drums",
+    "t": "baraban chalmoq"
+  },
+  "a2-u8-l5.hrat-na-gitare.note": {
+    "en": "Like hrať na gitare (unit 2): an instrument takes **na** + the locative. **bubny** = drums, **klavír** = piano: hrať na klavíri.",
+    "t": "Hrať na gitare (2-boʻlim) kabi: cholgʻu asbobi **na** + lokál bilan keladi. **bubny** = baraban, **klavír** = pianino: hrať na klavíri. Oʻzbekchada esa shunchaki «gitara chalmoq» deymiz."
+  },
+  "a2-u8-l5.fill-na-tvorivej-dielni.en": {
+    "en": "At the workshop Emma is learning to play the guitar.",
+    "t": "Ijodiy ustaxonada Emma gitara chalishni oʻrganyapti."
+  },
+  "a2-u8-l5.fill-na-tvorivej-dielni.why": {
+    "en": "Playing an instrument is **hrať na** + the locative: hrať **na** gitare. Without na, hrať is for games: hrať futbal.",
+    "t": "Cholgʻu chalish — **hrať na** + lokál: hrať **na** gitare. Na boʻlmasa, hrať oʻyin uchun: hrať futbal (futbol oʻynamoq)."
+  },
+  "a2-u8-l5.reporterka.en": {
+    "en": "reporter",
+    "t": "muxbir"
+  },
+  "a2-u8-l5.reporterka.note": {
+    "en": "A radio reporter asks Emma about the festival, with vy: **Ako sa vám páči festival?**",
+    "t": "Radio muxbiri Emmadan festival haqida «siz» deb soʻraydi: **Ako sa vám páči festival?** (Festival sizga yoqyaptimi?)"
+  },
+  "a2-u8-l5.choice-videla-som-dzezovy.question": {
+    "en": "The reporter asks Emma: Čo ste videli na festivale? What can Emma answer?",
+    "t": "Muxbir Emmadan soʻraydi: Čo ste videli na festivale? Emma nima deb javob berishi mumkin?"
+  },
+  "a2-u8-l5.choice-videla-som-dzezovy.why": {
+    "en": "Emma is a woman, so the past tense ends in **-la**: **videla** som. Uvidím is the future.",
+    "t": "Emma — ayol, shuning uchun oʻtgan zamon **-la** bilan tugaydi: **videla** som. Uvidím — kelasi zamon."
+  },
+  "a2-u8-l5.build-bola-som-na.prompt": {
+    "en": "I was at a workshop.",
+    "t": "Ijodiy ustaxonada boʻldim."
+  },
+  "a2-u8-l5.build-bola-som-na.traps": {
+    "en": [
+      "Being somewhere answers “where?”, so **na** takes the locative; after a soft ň the ending is **-i**: na **dielni**.",
+      "In the locative, feminine adjectives end in **-ej**: na **tvorivej** dielni. Tvorivú is the object form."
+    ],
+    "t": [
+      "Biror joyda boʻlish «qayerda?» savoliga javob beradi, shuning uchun **na** lokál talab qiladi; yumshoq ň dan keyin qoʻshimcha **-i**: na **dielni**.",
+      "Lokálda ayol jinsidagi sifatlar **-ej** bilan tugaydi: na **tvorivej** dielni. Tvorivú — toʻldiruvchi shakli."
+    ]
+  },
+  "a2-u8-l5.build-ako-sa-vam.answers": {
+    "en": [
+      "How did you like the festival?"
+    ],
+    "t": [
+      "Festival sizga yoqdimi?",
+      "Festival sizga qanday yoqdi?"
+    ]
+  },
+  "a2-u8-l5.build-ako-sa-vam.distractors": {
+    "en": [
+      "concert",
+      "will"
+    ],
+    "t": [
+      "senga",
+      "yoqadimi"
+    ]
+  },
+  "a2-u8-l5.match-fanusik.pairs": {
+    "en": [
+      "fan",
+      "style",
+      "group, band",
+      "piano",
+      "drums"
+    ],
+    "t": [
+      "muxlis",
+      "uslub",
+      "guruh",
+      "pianino",
+      "baraban"
+    ]
+  },
+  "a2-u8-l5.speak-nebolo-to-zle.en": {
+    "en": "It wasn't bad.",
+    "t": "Yomon emas edi."
+  },
+  "a2-u8-l6.titleEn": {
+    "en": "The concert's been cancelled",
+    "t": "Konsert bekor qilindi"
+  },
+  "a2-u8-l6.mam-pre-teba.en": {
+    "en": "I've got bad news for you.",
+    "t": "Senga yomon xabarim bor."
+  },
+  "a2-u8-l6.mam-pre-teba.note": {
+    "en": "**správa** = a message, a piece of news. **zlá** správa = bad news, **dobrá** správa = good news.",
+    "t": "**správa** = xabar, yangilik. **zlá** správa = yomon xabar, **dobrá** správa = yaxshi xabar."
+  },
+  "a2-u8-l6.zrusit.en": {
+    "en": "to cancel",
+    "t": "bekor qilmoq"
+  },
+  "a2-u8-l6.zrusit.note": {
+    "en": "**Koncert zrušili.** = The concert's been cancelled (literally: they cancelled the concert).",
+    "t": "**Koncert zrušili.** = Konsert bekor qilindi (soʻzma-soʻz: konsertni bekor qilishdi)."
+  },
+  "a2-u8-l6.choice-vecerny-koncert-na.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "a2-u8-l6.choice-vecerny-koncert-na.options": {
+    "en": [
+      "The evening concert on the main stage is starting.",
+      "The evening concert has moved to the main stage.",
+      "The evening concert on the main stage has been cancelled."
+    ],
+    "t": [
+      "Asosiy sahnadagi kechki konsert boshlanyapti.",
+      "Kechki konsert asosiy sahnaga koʻchirildi.",
+      "Asosiy sahnadagi kechki konsert bekor qilindi."
+    ]
+  },
+  "a2-u8-l6.to-nemoze-byt.en": {
+    "en": "That can't be true!",
+    "t": "Bu rost boʻlishi mumkin emas!"
+  },
+  "a2-u8-l6.to-nemoze-byt.note": {
+    "en": "**pravda** = the truth. Also: **Škoda!** = What a pity!",
+    "t": "**pravda** = haqiqat, rost. Yana: **Škoda!** = Attang!"
+  },
+  "a2-u8-l6.vraj.en": {
+    "en": "apparently, supposedly",
+    "t": "aytishlaricha, …emish"
+  },
+  "a2-u8-l6.vraj.note": {
+    "en": "For what other people say: **Speváčka je vraj chorá.** = Apparently the singer is ill. Or: **Počula som, že**… = I heard that…",
+    "t": "Boshqalardan eshitilgan gap uchun, oʻzbekchadagi -mish kabi: **Speváčka je vraj chorá.** = Qoʻshiqchi kasal emish. Yoki: **Počula som, že**… = Eshitishimcha, …"
+  },
+  "a2-u8-l6.build-kapela-vraj-bude.answers": {
+    "en": [
+      "Apparently the band will play on Sunday.",
+      "The band will apparently play on Sunday."
+    ],
+    "t": [
+      "Aytishlaricha, guruh yakshanba kuni chiqish qilarmish.",
+      "Guruh yakshanba kuni chiqish qilarmish.",
+      "Aytishlaricha, guruh yakshanba kuni chiqish qiladi."
+    ]
+  },
+  "a2-u8-l6.build-kapela-vraj-bude.distractors": {
+    "en": [
+      "definitely",
+      "yesterday"
+    ],
+    "t": [
+      "albatta",
+      "kecha"
+    ]
+  },
+  "a2-u8-l6.build-pocula-som-ze.prompt": {
+    "en": "I heard that the singer is ill.",
+    "t": "Qoʻshiqchi (ayol) kasal ekanini eshitdim."
+  },
+  "a2-u8-l6.build-pocula-som-ze.traps": {
+    "en": [
+      "You heard it earlier, so the past tense: **počula** som. Počujem is now.",
+      "The singer is a woman, speváčka, so the adjective ends in **-á**: **chorá**."
+    ],
+    "t": [
+      "Buni avvalroq eshitgansiz, shuning uchun oʻtgan zamon: **počula** som. Počujem — hozir.",
+      "Qoʻshiqchi — ayol, speváčka, shuning uchun sifat **-á** bilan tugaydi: **chorá**."
+    ]
+  },
+  "a2-u8-l6.burka.en": {
+    "en": "storm",
+    "t": "boʻron"
+  },
+  "a2-u8-l6.burka.note": {
+    "en": "A thunderstorm: rain, wind, thunder and lightning. **V sobotu poobede bola búrka.** = There was a storm on Saturday afternoon.",
+    "t": "Momaqaldiroqli boʻron: yomgʻir, shamol, momaqaldiroq va chaqmoq. **V sobotu poobede bola búrka.** = Shanba kuni tushdan keyin boʻron boʻldi."
+  },
+  "a2-u8-l6.grammar-pre-because.title": {
+    "en": "pre: because of",
+    "t": "pre: …sababli"
+  },
+  "a2-u8-l6.grammar-pre-because.body": {
+    "en": [
+      "You know **pre** + the object form as “for”: darček pre Luciu. With a word for an event or a problem, it means **because of**: Koncert zrušili **pre búrku**.",
+      "It means the same as **kvôli** from unit 3 (kvôli snehu), but kvôli takes the dative and pre the object form: feminine -a becomes **-u**, and most other words don't change."
+    ],
+    "t": [
+      "**Pre** + toʻldiruvchi shaklini «uchun» maʼnosida bilasiz: darček pre Luciu (Lusiya uchun sovgʻa). Hodisa yoki muammoni bildiruvchi soʻz bilan esa u **sababli** degani: Koncert zrušili **pre búrku**. = Konsert boʻron sababli bekor qilindi.",
+      "Bu 3-boʻlimdagi **kvôli** bilan bir xil maʼnoda (kvôli snehu — qor sababli), lekin kvôli datív talab qiladi, pre esa toʻldiruvchi shaklini: ayol jinsidagi -a **-u** ga aylanadi, boshqa koʻp soʻzlar esa oʻzgarmaydi."
+    ]
+  },
+  "a2-u8-l6.grammar-pre-because.table.head": {
+    "en": [
+      "what happened",
+      "because of it"
+    ],
+    "t": [
+      "nima boʻldi",
+      "shu sababli"
+    ]
+  },
+  "a2-u8-l6.grammar-pre-because.table.rows": {
+    "en": [
+      [
+        "búrka (a storm)",
+        "pre búrk**u**"
+      ],
+      [
+        "zápcha (a traffic jam)",
+        "pre zápch**u**"
+      ],
+      [
+        "havária (a crash)",
+        "pre havári**u**"
+      ],
+      [
+        "zlé počasie",
+        "pre zlé počasie"
+      ],
+      [
+        "silný vietor",
+        "pre silný vietor"
+      ]
+    ],
+    "t": [
+      [
+        "búrka (boʻron)",
+        "pre búrk**u**"
+      ],
+      [
+        "zápcha (tirbandlik)",
+        "pre zápch**u**"
+      ],
+      [
+        "havária (avariya)",
+        "pre havári**u**"
+      ],
+      [
+        "zlé počasie",
+        "pre zlé počasie"
+      ],
+      [
+        "silný vietor",
+        "pre silný vietor"
+      ]
+    ]
+  },
+  "a2-u8-l6.grammar-pre-because.examples": {
+    "en": [
+      "The concert was cancelled because of the storm.",
+      "Tomáš was late because of a traffic jam."
+    ],
+    "t": [
+      "Konsert boʻron sababli bekor qilindi.",
+      "Tomash tirbandlik sababli kechikdi."
+    ]
+  },
+  "a2-u8-l6.zapcha-na-dialnici.en": {
+    "en": "traffic jam on the motorway",
+    "t": "avtomagistraldagi tirbandlik"
+  },
+  "a2-u8-l6.zapcha-na-dialnici.note": {
+    "en": "**diaľnica** = a motorway. On Friday it was blocked: **Na diaľnici bola havária.** **obrovský** = huge.",
+    "t": "**diaľnica** = avtomagistral. Juma kuni u yerda yoʻl toʻsilib qoldi: **Na diaľnici bola havária.** = Avtomagistralda avariya boʻldi. **obrovský** = ulkan."
+  },
+  "a2-u8-l6.fill-kapela-meska-pre.en": {
+    "en": "The band is late because of a traffic jam.",
+    "t": "Guruh tirbandlik sababli kechikyapti."
+  },
+  "a2-u8-l6.fill-kapela-meska-pre.why": {
+    "en": "**Pre** takes the object form, so zápcha changes -a to **-u**: pre **zápchu**.",
+    "t": "**Pre** toʻldiruvchi shaklini talab qiladi, shuning uchun zápcha soʻzida -a oʻrniga **-u** keladi: pre **zápchu**."
+  },
+  "a2-u8-l6.fill-na-dialnici-bola.en": {
+    "en": "There was a huge traffic jam on the motorway.",
+    "t": "Avtomagistralda ulkan tirbandlik boʻldi."
+  },
+  "a2-u8-l6.fill-na-dialnici-bola.why": {
+    "en": "Zápcha is feminine, so its adjective ends in **-á**: **obrovská** zápcha.",
+    "t": "Zápcha — ayol jinsida, shuning uchun uning sifati **-á** bilan tugaydi: **obrovská** zápcha."
+  },
+  "a2-u8-l6.build-tomas-meskal-pre.prompt": {
+    "en": "Tomáš was late because of a crash on the motorway.",
+    "t": "Tomash avtomagistraldagi avariya sababli kechikdi."
+  },
+  "a2-u8-l6.build-tomas-meskal-pre.traps": {
+    "en": [
+      "**Pre** takes the object form, so havária changes -a to **-u**: pre **haváriu**.",
+      "“Was late” is the past tense: **meškal**. Mešká is now."
+    ],
+    "t": [
+      "**Pre** toʻldiruvchi shaklini talab qiladi, shuning uchun havária soʻzida -a oʻrniga **-u** keladi: pre **haváriu**.",
+      "«Kechikdi» — oʻtgan zamon: **meškal**. Mešká — hozir (kechikyapti)."
+    ]
+  },
+  "a2-u8-l6.prepacte-mohla-by.en": {
+    "en": "Excuse me, could I ask you something?",
+    "t": "Kechirasiz, sizdan bir narsa soʻrasam boʻladimi?"
+  },
+  "a2-u8-l6.prepacte-mohla-by.note": {
+    "en": "Polite, for a stranger: vy and the conditional. **spýtať sa** = to ask (a question).",
+    "t": "Notanish odamga hurmat bilan: vy va shart mayli. **spýtať sa** = soʻramoq (savol bermoq)."
+  },
+  "a2-u8-l6.choice-preco-ste-zrusili.question": {
+    "en": "Emma asks one of the organisers why. What does she say?",
+    "t": "Emma tashkilotchilardan biridan sababini soʻraydi. U nima deydi?"
+  },
+  "a2-u8-l6.choice-preco-ste-zrusili.why": {
+    "en": "The organiser is a stranger, so Emma uses **vy**, and vy in the past takes **ste** and -li: prečo **ste** zrušili…? Si is for a friend; sme means we.",
+    "t": "Tashkilotchi — notanish odam, shuning uchun Emma **vy** (siz) deydi, vy bilan oʻtgan zamonda esa **ste** va -li keladi: prečo **ste** zrušili…? Si — doʻst uchun; sme — «biz»."
+  },
+  "a2-u8-l6.fill-v-hlavnom-stane.en": {
+    "en": "In the main tent they're offering people hot tea.",
+    "t": "Asosiy chodirda odamlarga issiq choy taklif qilishyapti."
+  },
+  "a2-u8-l6.fill-v-hlavnom-stane.why": {
+    "en": "You offer something **to** someone, so the people take the to-whom form (the dative): ponúkajú **ľuďom** čaj. Ľudia would be the subject.",
+    "t": "Biror narsani **kimgadir** taklif qilasiz, shuning uchun odamlar «kimga?» shaklida — datívda (joʻnalish kelishigi) keladi: ponúkajú **ľuďom** čaj (odamlarga). Ľudia ega boʻlardi."
+  },
+  "a2-u8-l6.match-zla-sprava.pairs": {
+    "en": [
+      "bad news",
+      "to cancel",
+      "storm",
+      "traffic jam",
+      "crash"
+    ],
+    "t": [
+      "yomon xabar",
+      "bekor qilmoq",
+      "boʻron",
+      "tirbandlik",
+      "avariya"
+    ]
+  },
+  "a2-u8-l6.speak-to-nemoze-byt.en": {
+    "en": "That can't be true!",
+    "t": "Bu rost boʻlishi mumkin emas!"
+  },
+  "a2-u8-l7.titleEn": {
+    "en": "Weather: past, present, future",
+    "t": "Ob-havo: oʻtgan, hozirgi, kelasi zamon"
+  },
+  "a2-u8-l7.grammar-weather-no-subject.title": {
+    "en": "Weather with no subject",
+    "t": "Egasiz ob-havo"
+  },
+  "a2-u8-l7.grammar-weather-no-subject.body": {
+    "en": [
+      "You know **Prší.** = It's raining. Weather verbs have no subject at all, not even “it”: just the verb, in its on form.",
+      "In the past they end in **-lo**, like a neuter word: **pršalo**. The future is **bude** + the infinitive: **bude pršať**."
+    ],
+    "t": [
+      "**Prší.** = Yomgʻir yogʻyapti — buni bilasiz. Oʻzbekchada «yomgʻir» soʻzi kerak, slovakchada esa ob-havo feʼllarining umuman egasi yoʻq: faqat feʼlning oʻzi, on shaklida.",
+      "Oʻtgan zamonda ular oʻrta jinsdagi soʻz kabi **-lo** bilan tugaydi: **pršalo**. Kelasi zamon — **bude** + infinitív: **bude pršať**."
+    ]
+  },
+  "a2-u8-l7.grammar-weather-no-subject.table.head": {
+    "en": [
+      "",
+      "včera",
+      "dnes",
+      "zajtra"
+    ],
+    "t": [
+      "",
+      "včera (kecha)",
+      "dnes (bugun)",
+      "zajtra (ertaga)"
+    ]
+  },
+  "a2-u8-l7.grammar-weather-no-subject.table.rows": {
+    "en": [
+      [
+        "rain",
+        "Prša**lo**.",
+        "Prší.",
+        "**Bude** pršať."
+      ],
+      [
+        "snow",
+        "Sneži**lo**.",
+        "Sneží.",
+        "**Bude** snežiť."
+      ],
+      [
+        "thunder",
+        "Hrme**lo**.",
+        "Hrmí.",
+        "**Bude** hrmieť."
+      ],
+      [
+        "lightning",
+        "Blýska**lo** sa.",
+        "Blýska sa.",
+        "**Bude** sa blýskať."
+      ],
+      [
+        "frost",
+        "Mrz**lo**.",
+        "Mrzne.",
+        "**Bude** mrznúť."
+      ]
+    ],
+    "t": [
+      [
+        "yomgʻir",
+        "Prša**lo**.",
+        "Prší.",
+        "**Bude** pršať."
+      ],
+      [
+        "qor",
+        "Sneži**lo**.",
+        "Sneží.",
+        "**Bude** snežiť."
+      ],
+      [
+        "momaqaldiroq",
+        "Hrme**lo**.",
+        "Hrmí.",
+        "**Bude** hrmieť."
+      ],
+      [
+        "chaqmoq",
+        "Blýska**lo** sa.",
+        "Blýska sa.",
+        "**Bude** sa blýskať."
+      ],
+      [
+        "ayoz",
+        "Mrz**lo**.",
+        "Mrzne.",
+        "**Bude** mrznúť."
+      ]
+    ]
+  },
+  "a2-u8-l7.grammar-weather-no-subject.examples": {
+    "en": [
+      "It rained all day yesterday.",
+      "It will freeze tonight.",
+      "There's thunder and lightning."
+    ],
+    "t": [
+      "Kecha kun boʻyi yomgʻir yogʻdi.",
+      "Kechasi ayoz boʻladi.",
+      "Momaqaldiroq gumburlayapti, chaqmoq chaqyapti."
+    ]
+  },
+  "a2-u8-l7.grammar-weather-byt-je.title": {
+    "en": "Weather with byť: je, bolo, bude",
+    "t": "Byť bilan ob-havo: je, bolo, bude"
+  },
+  "a2-u8-l7.grammar-weather-byt-je.body": {
+    "en": [
+      "You know **Je slnečno.** and **Cez víkend bude pekne.** Weather words like slnečno, teplo or pekne go with byť: in the past it's **bolo**, in the future **bude**.",
+      "With a noun, byť agrees with the noun: **bola** búrka, **bola** zima (feminine), **bol** silný vietor (masculine)."
+    ],
+    "t": [
+      "**Je slnečno.** va **Cez víkend bude pekne.** iboralarini bilasiz. Slnečno, teplo yoki pekne kabi ob-havo soʻzlari byť bilan keladi: oʻtgan zamonda — **bolo**, kelasi zamonda — **bude**.",
+      "Ot bilan esa byť otga moslashadi: **bola** búrka, **bola** zima (ayol jinsi), **bol** silný vietor (erkak jinsi)."
+    ]
+  },
+  "a2-u8-l7.grammar-weather-byt-je.table.head": {
+    "en": [
+      "dnes",
+      "včera",
+      "zajtra"
+    ],
+    "t": [
+      "dnes (bugun)",
+      "včera (kecha)",
+      "zajtra (ertaga)"
+    ]
+  },
+  "a2-u8-l7.grammar-weather-byt-je.table.rows": {
+    "en": [
+      [
+        "Je slnečno.",
+        "**Bolo** slnečno.",
+        "**Bude** slnečno."
+      ],
+      [
+        "Je teplo.",
+        "**Bolo** teplo.",
+        "**Bude** teplo."
+      ],
+      [
+        "Je zamračené.",
+        "**Bolo** zamračené.",
+        "**Bude** zamračené."
+      ],
+      [
+        "Je búrka.",
+        "**Bola** búrka.",
+        "**Bude** búrka."
+      ]
+    ],
+    "t": [
+      [
+        "Je slnečno.",
+        "**Bolo** slnečno.",
+        "**Bude** slnečno."
+      ],
+      [
+        "Je teplo.",
+        "**Bolo** teplo.",
+        "**Bude** teplo."
+      ],
+      [
+        "Je zamračené.",
+        "**Bolo** zamračené.",
+        "**Bude** zamračené."
+      ],
+      [
+        "Je búrka.",
+        "**Bola** búrka.",
+        "**Bude** búrka."
+      ]
+    ]
+  },
+  "a2-u8-l7.grammar-weather-byt-je.examples": {
+    "en": [
+      "It was nice yesterday.",
+      "There was a storm on Saturday."
+    ],
+    "t": [
+      "Kecha havo yaxshi edi.",
+      "Shanba kuni boʻron boʻldi."
+    ]
+  },
+  "a2-u8-l7.fill-vcera-rano-prsalo.en": {
+    "en": "It rained yesterday morning.",
+    "t": "Kecha ertalab yomgʻir yogʻdi."
+  },
+  "a2-u8-l7.fill-vcera-rano-prsalo.why": {
+    "en": "**Včera** is the past, and weather verbs end in **-lo** there: **pršalo**. Prší is now, bude pršať later.",
+    "t": "**Včera** (kecha) — oʻtgan zamon, u yerda ob-havo feʼllari **-lo** bilan tugaydi: **pršalo**. Prší — hozir, bude pršať — keyinroq."
+  },
+  "a2-u8-l7.hrom-a-blesk.en": {
+    "en": "thunder and lightning",
+    "t": "momaqaldiroq va chaqmoq"
+  },
+  "a2-u8-l7.hrom-a-blesk.note": {
+    "en": "**Hrmí.** = It's thundering. **Blýska sa.** = There's lightning. Together they make a **búrka**.",
+    "t": "**Hrmí.** = Momaqaldiroq gumburlayapti. **Blýska sa.** = Chaqmoq chaqyapti. Ikkalasi birga — **búrka** (boʻron)."
+  },
+  "a2-u8-l7.fill-v-noci-hrmelo.en": {
+    "en": "In the night there was thunder and lightning.",
+    "t": "Kechasi momaqaldiroq gumburladi va chaqmoq chaqdi."
+  },
+  "a2-u8-l7.fill-v-noci-hrmelo.why": {
+    "en": "Blýskalo sa is the past, so the thunder is too: **hrmelo**, with **-lo**, because there's no subject. Hrmel would need a subject like on.",
+    "t": "Blýskalo sa — oʻtgan zamon, demak momaqaldiroq ham: **hrmelo**, **-lo** bilan, chunki ega yoʻq. Hrmel uchun on kabi ega kerak boʻlardi."
+  },
+  "a2-u8-l7.build-poobede-bude-hrmiet.prompt": {
+    "en": "There'll be thunder in the afternoon.",
+    "t": "Tushdan keyin momaqaldiroq boʻladi."
+  },
+  "a2-u8-l7.build-poobede-bude-hrmiet.traps": {
+    "en": [
+      "In the future, weather verbs take **bude** + the infinitive: bude **hrmieť**. Hrmí is now.",
+      "Hrmelo is the past. The afternoon is still to come: bude **hrmieť**."
+    ],
+    "t": [
+      "Kelasi zamonda ob-havo feʼllari **bude** + infinitív bilan keladi: bude **hrmieť**. Hrmí — hozir.",
+      "Hrmelo — oʻtgan zamon. Tushdan keyingi vaqt hali oldinda: bude **hrmieť**."
+    ]
+  },
+  "a2-u8-l7.vietor.en": {
+    "en": "wind",
+    "t": "shamol"
+  },
+  "a2-u8-l7.vietor.note": {
+    "en": "The e drops in the other forms: **vetra**, o **vetre**. **silný vietor** = a strong wind.",
+    "t": "Boshqa shakllarda e tushib qoladi: **vetra**, o **vetre**. **silný vietor** = kuchli shamol."
+  },
+  "a2-u8-l7.grammar-fukat-mrznut-subject.title": {
+    "en": "Fúkať and mrznúť: with a subject",
+    "t": "Fúkať va mrznúť: ega bilan"
+  },
+  "a2-u8-l7.grammar-fukat-mrznut-subject.body": {
+    "en": [
+      "Two weather verbs can also have a subject. **Vietor fúka.** = The wind is blowing. Fúkať goes like čítať: fúkam, fúkaš, fúka…",
+      "**Mrznúť** goes like stretnúť: mrznem, mrzneš… **Mrznem!** = I'm freezing! To say you're cold: **Je mi zima.**"
+    ],
+    "t": [
+      "Ikki ob-havo feʼlining egasi ham boʻlishi mumkin. **Vietor fúka.** = Shamol esyapti. Fúkať čítať kabi tuslanadi: fúkam, fúkaš, fúka…",
+      "**Mrznúť** stretnúť kabi tuslanadi: mrznem, mrzneš… **Mrznem!** = Muzlayapman! Sovqotganingizni aytish uchun: **Je mi zima.**"
+    ]
+  },
+  "a2-u8-l7.grammar-fukat-mrznut-subject.table.head": {
+    "en": [
+      "",
+      "fúkať",
+      "mrznúť"
+    ],
+    "t": [
+      "",
+      "fúkať (esmoq)",
+      "mrznúť (muzlamoq)"
+    ]
+  },
+  "a2-u8-l7.grammar-fukat-mrznut-subject.table.rows": {
+    "en": [
+      [
+        "ja",
+        "fúk**am**",
+        "mrzn**em**"
+      ],
+      [
+        "ty",
+        "fúk**aš**",
+        "mrzn**eš**"
+      ],
+      [
+        "on, ona, ono",
+        "fúk**a**",
+        "mrzn**e**"
+      ],
+      [
+        "my",
+        "fúk**ame**",
+        "mrzn**eme**"
+      ],
+      [
+        "vy",
+        "fúk**ate**",
+        "mrzn**ete**"
+      ],
+      [
+        "oni, ony",
+        "fúk**ajú**",
+        "mrzn**ú**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "fúk**am**",
+        "mrzn**em**"
+      ],
+      [
+        "ty",
+        "fúk**aš**",
+        "mrzn**eš**"
+      ],
+      [
+        "on, ona, ono",
+        "fúk**a**",
+        "mrzn**e**"
+      ],
+      [
+        "my",
+        "fúk**ame**",
+        "mrzn**eme**"
+      ],
+      [
+        "vy",
+        "fúk**ate**",
+        "mrzn**ete**"
+      ],
+      [
+        "oni, ony",
+        "fúk**ajú**",
+        "mrzn**ú**"
+      ]
+    ]
+  },
+  "a2-u8-l7.grammar-fukat-mrznut-subject.examples": {
+    "en": [
+      "A strong wind is blowing outside.",
+      "I'm cold. I'm freezing!"
+    ],
+    "t": [
+      "Tashqarida kuchli shamol esyapti.",
+      "Sovqotyapman. Muzlayapman!"
+    ]
+  },
+  "a2-u8-l7.fill-pri-jazere-fuka.en": {
+    "en": "A cold wind is blowing by the lake.",
+    "t": "Koʻl boʻyida sovuq shamol esyapti."
+  },
+  "a2-u8-l7.fill-pri-jazere-fuka.why": {
+    "en": "Here the wind is the subject (on), so fúkať takes its on form: vietor **fúka**. Fúkam is ja; fúkalo has no subject.",
+    "t": "Bu yerda shamol — ega (on), shuning uchun fúkať on shaklida: vietor **fúka**. Fúkam — ja; fúkalo esa egasiz."
+  },
+  "a2-u8-l7.fill-je-mi-zima.en": {
+    "en": "I'm cold, I'm freezing!",
+    "t": "Sovqotyapman, muzlayapman!"
+  },
+  "a2-u8-l7.fill-je-mi-zima.why": {
+    "en": "The one freezing is ja, so mrznúť takes **-em**: **mrznem**. Mrzne is for the weather, or for on and ona.",
+    "t": "Muzlayotgan — ja (men), shuning uchun mrznúť **-em** oladi: **mrznem**. Mrzne — ob-havo uchun yoki on va ona uchun."
+  },
+  "a2-u8-l7.choice-vcera-bolo-pekne.question": {
+    "en": "Which one means “It was nice yesterday”?",
+    "t": "Qaysi biri «Kecha havo yaxshi edi» degani?"
+  },
+  "a2-u8-l7.choice-vcera-bolo-pekne.why": {
+    "en": "With no noun, weather takes the neuter in the past: **bolo** pekne. Bola needs a feminine noun, as in bola búrka; je is now.",
+    "t": "Ot boʻlmasa, ob-havo oʻtgan zamonda oʻrta jinsda keladi: **bolo** pekne. Bola uchun ayol jinsidagi ot kerak, masalan bola búrka; je — hozir."
+  },
+  "a2-u8-l7.fill-v-sobotu-poobede.en": {
+    "en": "On Saturday afternoon there was a big storm.",
+    "t": "Shanba kuni tushdan keyin kuchli boʻron boʻldi."
+  },
+  "a2-u8-l7.fill-v-sobotu-poobede.why": {
+    "en": "With a noun, byť agrees with it. Búrka is feminine, so **bola** búrka.",
+    "t": "Ot bilan byť otga moslashadi. Búrka — ayol jinsida, shuning uchun **bola** búrka."
+  },
+  "a2-u8-l7.build-vcera-bolo-zamracene.prompt": {
+    "en": "Yesterday it was overcast and it rained.",
+    "t": "Kecha havo tund edi va yomgʻir yogʻdi."
+  },
+  "a2-u8-l7.build-vcera-bolo-zamracene.traps": {
+    "en": [
+      "There's no noun, so the past is neuter: **bolo** zamračené.",
+      "Yesterday is the past: **pršalo**, with -lo."
+    ],
+    "t": [
+      "Ot yoʻq, shuning uchun oʻtgan zamon oʻrta jinsda: **bolo** zamračené.",
+      "Kecha — oʻtgan zamon: **pršalo**, -lo bilan."
+    ]
+  },
+  "a2-u8-l7.slnko-a-dazd.en": {
+    "en": "sun and rain",
+    "t": "quyosh va yomgʻir"
+  },
+  "a2-u8-l7.slnko-a-dazd.note": {
+    "en": "**Svieti slnko.** = The sun is shining. **Prší**, there's rain: **dážď** (o daždi).",
+    "t": "**Svieti slnko.** = Quyosh charaqlayapti. **Prší** — yomgʻir yogʻyapti, yomgʻirning oʻzi esa **dážď** (o daždi)."
+  },
+  "a2-u8-l7.sneh-a-mraz.en": {
+    "en": "snow and frost",
+    "t": "qor va ayoz"
+  },
+  "a2-u8-l7.sneh-a-mraz.note": {
+    "en": "**Sneží.** = It's snowing. **Mrzne.** = It's freezing. Emma still remembers January in Bratislava.",
+    "t": "**Sneží.** = Qor yogʻyapti. **Mrzne.** = Ayoz boʻlyapti. Emma Bratislavadagi yanvarni hali ham eslaydi."
+  },
+  "a2-u8-l7.build-v-januari-casto.answers": {
+    "en": [
+      "In January it often snowed and froze.",
+      "It often snowed and froze in January."
+    ],
+    "t": [
+      "Yanvarda tez-tez qor yogʻdi va ayoz boʻldi.",
+      "Yanvarda koʻpincha qor yogʻdi va ayoz boʻldi.",
+      "Yanvarda tez-tez qor yogʻib, ayoz boʻldi."
+    ]
+  },
+  "a2-u8-l7.build-v-januari-casto.distractors": {
+    "en": [
+      "rained",
+      "will"
+    ],
+    "t": [
+      "yomgʻir",
+      "yogʻadi"
+    ]
+  },
+  "a2-u8-l7.match-prsat.pairs": {
+    "en": [
+      "to rain",
+      "to snow",
+      "to thunder",
+      "to freeze",
+      "to blow"
+    ],
+    "t": [
+      "yomgʻir yogʻmoq",
+      "qor yogʻmoq",
+      "momaqaldiroq gumburlamoq",
+      "muzlamoq",
+      "esmoq"
+    ]
+  },
+  "a2-u8-l7.speak-je-mi-zima.en": {
+    "en": "I'm cold. I'm freezing!",
+    "t": "Sovqotyapman. Muzlayapman!"
+  },
+  "a2-u8-l8.titleEn": {
+    "en": "What shall I wear?",
+    "t": "Nima kiyaman?"
+  },
+  "a2-u8-l8.obliect-si.en": {
+    "en": "to put on (clothes)",
+    "t": "kiymoq (kiyim)"
+  },
+  "a2-u8-l8.obliect-si.note": {
+    "en": "oblečiem si, oblečieš si… **Obleč si** sveter! = Put on a jumper! You know **Obliekam sa.** = I'm getting dressed.",
+    "t": "oblečiem si, oblečieš si… **Obleč si** sveter! = Sviter kiy! **Obliekam sa.** = Kiyinyapman — buni bilasiz."
+  },
+  "a2-u8-l8.bunda-a-kabat.en": {
+    "en": "jacket and coat",
+    "t": "kurtka va palto"
+  },
+  "a2-u8-l8.bunda-a-kabat.note": {
+    "en": "A **bunda** is short and sporty; a **kabát** is long and warm, for winter.",
+    "t": "**bunda** — kalta, sportcha; **kabát** — uzun va issiq, qish uchun."
+  },
+  "a2-u8-l8.fill-vecer-bude-chladno.en": {
+    "en": "It'll be chilly this evening. Put on a jacket!",
+    "t": "Kechqurun salqin boʻladi. Kurtka kiy!"
+  },
+  "a2-u8-l8.fill-vecer-bude-chladno.why": {
+    "en": "The jacket is the object, so bunda changes -a to **-u**: obleč si **bundu**.",
+    "t": "Kurtka — toʻldiruvchi, shuning uchun bunda soʻzida -a oʻrniga **-u** keladi: obleč si **bundu**."
+  },
+  "a2-u8-l8.saty.en": {
+    "en": "dress",
+    "t": "ayollar koʻylagi"
+  },
+  "a2-u8-l8.saty.note": {
+    "en": "Always plural, like nohavice: **Tie šaty sú** nové. = That dress is new.",
+    "t": "Nohavice kabi doim koʻplikda: **Tie šaty sú** nové. = Oʻsha koʻylak yangi."
+  },
+  "a2-u8-l8.fill-tie-saty-su.en": {
+    "en": "That dress is very nice.",
+    "t": "Oʻsha koʻylak juda chiroyli."
+  },
+  "a2-u8-l8.fill-tie-saty-su.why": {
+    "en": "**Šaty** is always plural, even for one dress, so the verb is plural too: šaty **sú**.",
+    "t": "**Šaty** bitta koʻylak boʻlsa ham doim koʻplikda, shuning uchun feʼl ham koʻplikda: šaty **sú**."
+  },
+  "a2-u8-l8.sortky.en": {
+    "en": "shorts",
+    "t": "shortik"
+  },
+  "a2-u8-l8.sortky.note": {
+    "en": "Plural only, like šaty. Also **krátke nohavice**, short trousers.",
+    "t": "Šaty kabi faqat koʻplikda. Yana **krátke nohavice** (kalta shim) deyiladi."
+  },
+  "a2-u8-l8.siltovka.en": {
+    "en": "baseball cap",
+    "t": "kepka"
+  },
+  "a2-u8-l8.siltovka.note": {
+    "en": "In winter you wear a warm **čiapka** (hat) and a **šál** (scarf). Against the sun: **slnečné okuliare**.",
+    "t": "Qishda issiq **čiapka** (shapka) va **šál** (sharf) kiyiladi. Quyoshdan himoya: **slnečné okuliare** (quyosh koʻzoynagi)."
+  },
+  "a2-u8-l8.match-saty.pairs": {
+    "en": [
+      "dress",
+      "jacket",
+      "coat",
+      "shorts",
+      "baseball cap"
+    ],
+    "t": [
+      "ayollar koʻylagi",
+      "kurtka",
+      "palto",
+      "shortik",
+      "kepka"
+    ]
+  },
+  "a2-u8-l8.choice-je-horuco-a.question": {
+    "en": "It's hot and sunny at the festival. What does Emma put on?",
+    "t": "Festivalda issiq va quyoshli. Emma nima kiyadi?"
+  },
+  "a2-u8-l8.rolak.en": {
+    "en": "polo neck",
+    "t": "baland yoqali sviter"
+  },
+  "a2-u8-l8.rolak.note": {
+    "en": "A jumper with a high neck. Any jumper is a **sveter** or a **pulóver**.",
+    "t": "Yoqasi baland sviter. Har qanday sviter — **sveter** yoki **pulóver**."
+  },
+  "a2-u8-l8.build-oblecim-si-saty.prompt": {
+    "en": "I'll put on a dress and a jacket.",
+    "t": "Koʻylak va kurtka kiyaman."
+  },
+  "a2-u8-l8.build-oblecim-si-saty.traps": {
+    "en": [
+      "The jacket is the object, so bunda changes -a to **-u**: oblečiem si **bundu**.",
+      "Putting something on, once and later, is **oblečiem si** (I'll put on). Obliekam sa means I'm getting dressed."
+    ],
+    "t": [
+      "Kurtka — toʻldiruvchi, shuning uchun bunda soʻzida -a oʻrniga **-u** keladi: oblečiem si **bundu**.",
+      "Biror narsani bir marta, keyinroq kiyish — **oblečiem si** (kiyaman). Obliekam sa — «kiyinyapman» degani."
+    ]
+  },
+  "a2-u8-l8.choice-co-si-oblecies.question": {
+    "en": "Lucia wants to know what Emma will wear to the theatre. What does she ask?",
+    "t": "Lusiya Emma teatrga nima kiyishini bilmoqchi. U nima deb soʻraydi?"
+  },
+  "a2-u8-l8.choice-co-si-oblecies.why": {
+    "en": "Going somewhere takes **do** + the place: **do divadla**, like do kina. V divadle is being there, and obliekla is the past.",
+    "t": "Biror joyga borish — **do** + joy: **do divadla** (teatrga), xuddi do kina kabi. V divadle — u yerda boʻlish (teatrda), obliekla esa oʻtgan zamon."
+  },
+  "a2-u8-l8.fill-co-si-oblecies.en": {
+    "en": "What will you wear to the concert?",
+    "t": "Konsertga nima kiyasan?"
+  },
+  "a2-u8-l8.fill-co-si-oblecies.why": {
+    "en": "An event takes **na**: na koncert, na festival. **Do** is for places you go into: do divadla, do práce.",
+    "t": "Tadbir **na** bilan keladi: na koncert, na festival. **Do** — ichiga kiradigan joylar uchun: do divadla, do práce."
+  },
+  "a2-u8-l8.build-do-divadla-si.answers": {
+    "en": [
+      "I'll wear a new dress to the theatre.",
+      "I'll put on a new dress for the theatre."
+    ],
+    "t": [
+      "Teatrga yangi koʻylak kiyaman.",
+      "Teatrga yangi koʻylagimni kiyaman.",
+      "Teatrga yangi koʻylak kiyib boraman."
+    ]
+  },
+  "a2-u8-l8.build-do-divadla-si.distractors": {
+    "en": [
+      "coat",
+      "work"
+    ],
+    "t": [
+      "palto",
+      "teatrda"
+    ]
+  },
+  "a2-u8-l8.ciapka.en": {
+    "en": "hat",
+    "t": "shapka"
+  },
+  "a2-u8-l8.ciapka.note": {
+    "en": "A warm winter hat. With it, a **šál** (scarf). Even in July, nights by the lake can be cold.",
+    "t": "Issiq qishki shapka. U bilan — **šál** (sharf). Iyulda ham koʻl boʻyida tunlar sovuq boʻlishi mumkin."
+  },
+  "a2-u8-l8.build-zober-si-ciapku.prompt": {
+    "en": "Take a hat and a scarf!",
+    "t": "Shapka va sharf olib ol!"
+  },
+  "a2-u8-l8.build-zober-si-ciapku.traps": {
+    "en": [
+      "The hat is the object, so čiapka changes -a to **-u**: zober si **čiapku**.",
+      "**Zobrať si** takes si, with the thing you take after it: zober **si** čiapku."
+    ],
+    "t": [
+      "Shapka — toʻldiruvchi, shuning uchun čiapka soʻzida -a oʻrniga **-u** keladi: zober si **čiapku**.",
+      "**Zobrať si** si bilan keladi, undan keyin olinadigan narsa turadi: zober **si** čiapku."
+    ]
+  },
+  "a2-u8-l8.speak-oblec-si-nieco.en": {
+    "en": "Put on something warm!",
+    "t": "Issiqroq narsa kiy!"
+  },
+  "a2-u8-l9.titleEn": {
+    "en": "Which shoes will you wear?",
+    "t": "Qaysi poyabzalni kiyasan?"
+  },
+  "a2-u8-l9.topanky-a-tenisky.en": {
+    "en": "shoes and trainers",
+    "t": "poyabzal va krossovka"
+  },
+  "a2-u8-l9.topanky-a-tenisky.note": {
+    "en": "One shoe: **topánka**. **Tenisky** are sports shoes. Socks are **ponožky**.",
+    "t": "Bitta poy: **topánka**. **Tenisky** — sport poyabzali. Paypoq — **ponožky**."
+  },
+  "a2-u8-l9.sandale-a-cizmy.en": {
+    "en": "sandals and boots",
+    "t": "sandal va etik"
+  },
+  "a2-u8-l9.sandale-a-cizmy.note": {
+    "en": "**gumené čižmy** = rubber boots, good for a muddy festival.",
+    "t": "**gumené čižmy** = rezina etik, loy festivalda ayni muddao."
+  },
+  "a2-u8-l9.grammar-putting-clothes-shoes.title": {
+    "en": "Putting on clothes and shoes",
+    "t": "Kiyim va poyabzal kiyish"
+  },
+  "a2-u8-l9.grammar-putting-clothes-shoes.body": {
+    "en": [
+      "Clothes go on with **obliecť si**, shoes with **obuť si**. Both are one finished action, so the present form talks about the future: Obujem si tenisky. = I'll put on my trainers.",
+      "To a friend: **Obleč si**…! **Obuj si**…! What you're wearing right now: **Mám na sebe** šaty."
+    ],
+    "t": [
+      "Oʻzbekchada ikkalasi ham «kiymoq», slovakchada esa kiyim **obliecť si** bilan, poyabzal **obuť si** bilan kiyiladi. Ikkalasi ham bitta tugallangan harakat, shuning uchun hozirgi zamon shakli kelajakni bildiradi: Obujem si tenisky. = Krossovkamni kiyaman.",
+      "Doʻstga: **Obleč si**…! **Obuj si**…! Hozir egningizda bor kiyim: **Mám na sebe** šaty. = Koʻylak kiyib olganman."
+    ]
+  },
+  "a2-u8-l9.grammar-putting-clothes-shoes.table.head": {
+    "en": [
+      "",
+      "obliecť si",
+      "obuť si"
+    ],
+    "t": [
+      "",
+      "obliecť si (kiyim)",
+      "obuť si (poyabzal)"
+    ]
+  },
+  "a2-u8-l9.grammar-putting-clothes-shoes.table.rows": {
+    "en": [
+      [
+        "ja",
+        "obleč**iem** si",
+        "obuj**em** si"
+      ],
+      [
+        "ty",
+        "obleč**ieš** si",
+        "obuj**eš** si"
+      ],
+      [
+        "on, ona",
+        "obleč**ie** si",
+        "obuj**e** si"
+      ],
+      [
+        "my",
+        "obleč**ieme** si",
+        "obuj**eme** si"
+      ],
+      [
+        "vy",
+        "obleč**iete** si",
+        "obuj**ete** si"
+      ],
+      [
+        "oni, ony",
+        "obleč**ú** si",
+        "obuj**ú** si"
+      ],
+      [
+        "to a friend",
+        "**obleč** si!",
+        "**obuj** si!"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "obleč**iem** si",
+        "obuj**em** si"
+      ],
+      [
+        "ty",
+        "obleč**ieš** si",
+        "obuj**eš** si"
+      ],
+      [
+        "on, ona",
+        "obleč**ie** si",
+        "obuj**e** si"
+      ],
+      [
+        "my",
+        "obleč**ieme** si",
+        "obuj**eme** si"
+      ],
+      [
+        "vy",
+        "obleč**iete** si",
+        "obuj**ete** si"
+      ],
+      [
+        "oni, ony",
+        "obleč**ú** si",
+        "obuj**ú** si"
+      ],
+      [
+        "doʻstga",
+        "**obleč** si!",
+        "**obuj** si!"
+      ]
+    ]
+  },
+  "a2-u8-l9.grammar-putting-clothes-shoes.examples": {
+    "en": [
+      "I'll put on my rubber boots.",
+      "Put on your jacket!",
+      "What are you wearing?"
+    ],
+    "t": [
+      "Rezina etigimni kiyaman.",
+      "Kurtkangni kiy!",
+      "Nima kiyib olgansan?"
+    ]
+  },
+  "a2-u8-l9.fill-na-koncert-si.en": {
+    "en": "I'll put on trainers for the concert.",
+    "t": "Konsertga krossovka kiyaman."
+  },
+  "a2-u8-l9.fill-na-koncert-si.why": {
+    "en": "Shoes go with **obuť si**: **obujem** si tenisky. Oblečiem si is for clothes, and obujú is oni.",
+    "t": "Poyabzal **obuť si** bilan kiyiladi: **obujem** si tenisky. Oblečiem si — kiyim uchun, obujú esa oni shakli."
+  },
+  "a2-u8-l9.fill-je-zima-oblec.en": {
+    "en": "It's cold, put on your coat!",
+    "t": "Sovuq, paltongni kiy!"
+  },
+  "a2-u8-l9.fill-je-zima-oblec.why": {
+    "en": "A coat is clothing, so **obleč** si. Obuj si is for shoes, and oblečie is on or ona.",
+    "t": "Palto — kiyim, shuning uchun **obleč** si. Obuj si — poyabzal uchun, oblečie esa on yoki ona shakli."
+  },
+  "a2-u8-l9.match-topanky.pairs": {
+    "en": [
+      "shoes",
+      "trainers",
+      "sandals",
+      "boots",
+      "socks"
+    ],
+    "t": [
+      "poyabzal",
+      "krossovka",
+      "sandal",
+      "etik",
+      "paypoq"
+    ]
+  },
+  "a2-u8-l9.build-obuj-si-cizmy.prompt": {
+    "en": "Put your boots on, it's raining!",
+    "t": "Etigingni kiy, yomgʻir yogʻyapti!"
+  },
+  "a2-u8-l9.build-obuj-si-cizmy.traps": {
+    "en": [
+      "Boots are shoes, so **obuj** si. Obleč si is for clothes.",
+      "**Obuť si** takes si, with the shoes after it: obuj **si** čižmy."
+    ],
+    "t": [
+      "Etik — poyabzal, shuning uchun **obuj** si. Obleč si — kiyim uchun.",
+      "**Obuť si** si bilan keladi, undan keyin poyabzal turadi: obuj **si** čižmy."
+    ]
+  },
+  "a2-u8-l9.sako-a-kravata.en": {
+    "en": "blazer and tie",
+    "t": "pidjak va galstuk"
+  },
+  "a2-u8-l9.sako-a-kravata.note": {
+    "en": "A whole suit is an **oblek**. Emma wears a **sako** to the office; Tomáš never wears a tie.",
+    "t": "Toʻliq kostyum — **oblek**. Emma ofisga **sako** kiyadi; Tomash hech qachon galstuk taqmaydi."
+  },
+  "a2-u8-l9.fill-tomas-ma-na.en": {
+    "en": "Tomáš is wearing a new suit.",
+    "t": "Tomash yangi kostyum kiyib olgan."
+  },
+  "a2-u8-l9.fill-tomas-ma-na.why": {
+    "en": "**Nový** is the masculine form, and only **oblek** is masculine. Šaty would need nové, and kravatu needs novú.",
+    "t": "**Nový** — erkak jinsi shakli, bu yerda faqat **oblek** erkak jinsida. Šaty uchun nové, kravatu uchun esa novú kerak boʻlardi."
+  },
+  "a2-u8-l9.build-do-prace-si.answers": {
+    "en": [
+      "I'll wear a blazer and trousers to work.",
+      "I'll put on a blazer and trousers for work."
+    ],
+    "t": [
+      "Ishga pidjak va shim kiyaman.",
+      "Ishga shim va pidjak kiyaman.",
+      "Ishga pidjak bilan shim kiyaman."
+    ]
+  },
+  "a2-u8-l9.build-do-prace-si.distractors": {
+    "en": [
+      "dress",
+      "theatre"
+    ],
+    "t": [
+      "koʻylak",
+      "teatrga"
+    ]
+  },
+  "a2-u8-l9.vyskusat-si.en": {
+    "en": "to try on",
+    "t": "kiyib koʻrmoq"
+  },
+  "a2-u8-l9.vyskusat-si.note": {
+    "en": "In a shop: **Môžem si to vyskúšať?** = Can I try it on? Without si it's to try out, to test: vyskúšať nový stan.",
+    "t": "Doʻkonda: **Môžem si to vyskúšať?** = Kiyib koʻrsam boʻladimi? Si siz esa «sinab koʻrmoq»: vyskúšať nový stan (yangi chodirni sinab koʻrmoq)."
+  },
+  "a2-u8-l9.choice-mozem-si-vyskusat.question": {
+    "en": "In a shop, Emma wants to try on some boots. What does she ask?",
+    "t": "Doʻkonda Emma etikni kiyib koʻrmoqchi. U nima deb soʻraydi?"
+  },
+  "a2-u8-l9.build-emma-ma-na.prompt": {
+    "en": "Emma is wearing a dress and sandals.",
+    "t": "Emma koʻylak va sandal kiyib olgan."
+  },
+  "a2-u8-l9.build-emma-ma-na.traps": {
+    "en": [
+      "Emma is ona, so mať has no ending: Emma **má** na sebe…",
+      "What you're wearing is **na sebe**, on yourself, a locative form. Sebou goes with s: so sebou (with you)."
+    ],
+    "t": [
+      "Emma — ona, shuning uchun mať qoʻshimchasiz keladi: Emma **má** na sebe…",
+      "Egningizdagi kiyim — **na sebe** («oʻz ustida»), lokál shakli. Sebou s bilan keladi: so sebou (oʻzing bilan)."
+    ]
+  },
+  "a2-u8-l9.speak-mozem-si-to.en": {
+    "en": "Can I try it on?",
+    "t": "Kiyib koʻrsam boʻladimi?"
+  },
+  "a2-u8-l10.titleEn": {
+    "en": "Weather around Slovakia",
+    "t": "Slovakiyada ob-havo"
+  },
+  "a2-u8-l10.vonku-je-chladno.en": {
+    "en": "It's chilly outside.",
+    "t": "Tashqarida salqin."
+  },
+  "a2-u8-l10.vonku-je-chladno.note": {
+    "en": "**Ako je vonku?** = What's it like outside? Hot is **horúco**.",
+    "t": "**Ako je vonku?** = Tashqarida havo qanday? Issiq — **horúco**."
+  },
+  "a2-u8-l10.pod-nulou.en": {
+    "en": "below zero",
+    "t": "noldan past"
+  },
+  "a2-u8-l10.pod-nulou.note": {
+    "en": "**nula** = zero. V januári bolo desať stupňov **pod nulou**. = In January it was minus ten.",
+    "t": "**nula** = nol. V januári bolo desať stupňov **pod nulou**. = Yanvarda minus oʻn daraja edi."
+  },
+  "a2-u8-l10.fill-kosice-su-na.en": {
+    "en": "Košice is in the east of Slovakia.",
+    "t": "Koshitse Slovakiyaning sharqida."
+  },
+  "a2-u8-l10.fill-kosice-su-na.why": {
+    "en": "Being somewhere answers “where?”, so **na** takes the locative, and masculine words add **-e**: na **východe**.",
+    "t": "Biror joyda boʻlish «qayerda?» savoliga javob beradi, shuning uchun **na** lokál talab qiladi, erkak jinsidagi soʻzlar esa **-e** oladi: na **východe** (sharqda)."
+  },
+  "a2-u8-l10.choice-na-severe-bude.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "a2-u8-l10.choice-na-severe-bude.options": {
+    "en": [
+      "It will rain in the south and be sunny in the north.",
+      "It's raining in the north and sunny in the south.",
+      "It will rain in the north and be sunny in the south."
+    ],
+    "t": [
+      "Janubda yomgʻir yogʻadi, shimolda esa quyoshli boʻladi.",
+      "Shimolda yomgʻir yogʻyapti, janubda esa quyoshli.",
+      "Shimolda yomgʻir yogʻadi, janubda esa quyoshli boʻladi."
+    ]
+  },
+  "a2-u8-l10.choice-na-severe-bude.why": {
+    "en": "**Bude** pršať and **bude** slnečno are the future: it will rain, it will be sunny. Sever is the north, juh the south.",
+    "t": "**Bude** pršať va **bude** slnečno — kelasi zamon: yomgʻir yogʻadi, quyoshli boʻladi. Sever — shimol, juh — janub."
+  },
+  "a2-u8-l10.fill-v-januari-bolo.en": {
+    "en": "In February it was five degrees below zero.",
+    "t": "Fevralda minus besh daraja edi."
+  },
+  "a2-u8-l10.fill-v-januari-bolo.why": {
+    "en": "**Pod** (under) takes the instrumental, as in pod stolom, so nula changes -a to **-ou**: pod **nulou**.",
+    "t": "**Pod** (ostida) inštrumentál («bilan» kelishigi) talab qiladi, xuddi pod stolom (stol ostida) kabi, shuning uchun nula soʻzida -a oʻrniga **-ou** keladi: pod **nulou**."
+  },
+  "a2-u8-l10.build-na-juhu-bude.prompt": {
+    "en": "In the south it will be warmer than in the north.",
+    "t": "Janubda shimoldagidan iliqroq boʻladi."
+  },
+  "a2-u8-l10.build-na-juhu-bude.traps": {
+    "en": [
+      "With **ako** (than) you compare, so you need the comparative: **teplejšie** = warmer.",
+      "In the south answers “where?”, so **na** takes the locative; after h the ending is **-u**: na **juhu**."
+    ],
+    "t": [
+      "**Ako** (…dan) bilan solishtirasiz, shuning uchun qiyosiy daraja kerak: **teplejšie** = iliqroq.",
+      "Janubda — «qayerda?» savoliga javob, shuning uchun **na** lokál talab qiladi; h dan keyin qoʻshimcha **-u**: na **juhu**."
+    ]
+  },
+  "a2-u8-l10.fill-zajtra-by-malo.en": {
+    "en": "It should be nice tomorrow.",
+    "t": "Ertaga havo yaxshi boʻlishi kerak."
+  },
+  "a2-u8-l10.fill-zajtra-by-malo.why": {
+    "en": "Weather has no subject, so mať takes the neuter **-lo**, like pršalo: zajtra by **malo** byť pekne.",
+    "t": "Ob-havoning egasi yoʻq, shuning uchun mať oʻrta jinsdagi **-lo** ni oladi, xuddi pršalo kabi: zajtra by **malo** byť pekne."
+  },
+  "a2-u8-l10.zostat-doma.en": {
+    "en": "to stay at home",
+    "t": "uyda qolmoq"
+  },
+  "a2-u8-l10.zostat-doma.note": {
+    "en": "zostanem, zostaneš… Like stretnúť, it points to the future: **Zostanem doma.** = I'll stay at home.",
+    "t": "zostanem, zostaneš… Stretnúť kabi kelajakni bildiradi: **Zostanem doma.** = Uyda qolaman."
+  },
+  "a2-u8-l10.build-ak-bude-prsat.prompt": {
+    "en": "If it rains, we'll stay at home.",
+    "t": "Agar yomgʻir yogʻsa, uyda qolamiz."
+  },
+  "a2-u8-l10.build-ak-bude-prsat.traps": {
+    "en": [
+      "About the future, ak takes **bude** + the infinitive: ak bude **pršať**.",
+      "This is the future: **zostaneme** = we'll stay. Zostali is the past."
+    ],
+    "t": [
+      "Kelajak haqida ak **bude** + infinitív bilan keladi: ak bude **pršať**.",
+      "Bu kelasi zamon: **zostaneme** = qolamiz. Zostali — oʻtgan zamon."
+    ]
+  },
+  "a2-u8-l10.ist-na-vylet.en": {
+    "en": "picnic",
+    "t": "piknik"
+  },
+  "a2-u8-l10.ist-na-vylet.note": {
+    "en": "Ak bude pekne, pôjdeme na výlet a urobíme si **piknik**. = If it's nice, we'll go on a trip and have a picnic.",
+    "t": "Ak bude pekne, pôjdeme na výlet a urobíme si **piknik**. = Havo yaxshi boʻlsa, sayrga chiqamiz va piknik qilamiz."
+  },
+  "a2-u8-l10.fill-ak-bude-zajtra.en": {
+    "en": "If it's nice tomorrow, we'll go on a trip.",
+    "t": "Ertaga havo yaxshi boʻlsa, sayrga chiqamiz."
+  },
+  "a2-u8-l10.fill-ak-bude-zajtra.why": {
+    "en": "Weather with byť takes the -o or -e form, not an adjective: bude **pekne**, like je teplo.",
+    "t": "Byť bilan ob-havo sifat emas, -o yoki -e shaklini oladi: bude **pekne**, xuddi je teplo kabi."
+  },
+  "a2-u8-l10.skaredo.en": {
+    "en": "horrible (weather)",
+    "t": "yomon (havo haqida)"
+  },
+  "a2-u8-l10.skaredo.note": {
+    "en": "The opposite of pekne: **Dnes je škaredo.** = The weather's horrible today. Also: **hrozné počasie** = terrible weather.",
+    "t": "Pekne ning teskarisi: **Dnes je škaredo.** = Bugun havo juda yomon. Yana: **hrozné počasie** = dahshatli havo."
+  },
+  "a2-u8-l10.build-v-radiu-hovorili.answers": {
+    "en": [
+      "The radio said there'd be a storm in the west."
+    ],
+    "t": [
+      "Radioda gʻarbda boʻron boʻladi, deyishdi.",
+      "Radioda gʻarbda boʻron boʻlishini aytishdi."
+    ]
+  },
+  "a2-u8-l10.build-v-radiu-hovorili.distractors": {
+    "en": [
+      "east",
+      "snow"
+    ],
+    "t": [
+      "sharqda",
+      "qor"
+    ]
+  },
+  "a2-u8-l10.choice-je-hrozne-pocasie.question": {
+    "en": "It's cold and windy, and it's raining. What do you say?",
+    "t": "Sovuq, shamol esyapti va yomgʻir yogʻyapti. Nima deysiz?"
+  },
+  "a2-u8-l10.match-sever.pairs": {
+    "en": [
+      "north",
+      "south",
+      "east",
+      "west",
+      "below zero"
+    ],
+    "t": [
+      "shimol",
+      "janub",
+      "sharq",
+      "gʻarb",
+      "noldan past"
+    ]
+  },
+  "a2-u8-l10.speak-ake-bude-zajtra.en": {
+    "en": "What will the weather be like tomorrow?",
+    "t": "Ertaga havo qanday boʻladi?"
+  },
+  "a2-u8-l11.titleEn": {
+    "en": "If it's nice…",
+    "t": "Havo yaxshi boʻlsa…"
+  },
+  "a2-u8-l11.grammar-ak-real-conditions.title": {
+    "en": "Ak: real conditions",
+    "t": "Ak: real shart"
+  },
+  "a2-u8-l11.grammar-ak-real-conditions.body": {
+    "en": [
+      "**Ak** (if) starts a condition that is real or likely. After ak the verb keeps its normal tense: the present for now, the past for the past. Ak prší, sedíme v stane. = If it rains, we sit in the tent.",
+      "For the future, Slovak uses the **future after ak too**, where English uses the present: **Ak bude** pršať, pôjdeme do stanu. = If it rains, we'll go to the tent."
+    ],
+    "t": [
+      "**Ak** (agar) real yoki ehtimoli bor shartni boshlaydi, oʻzbekchadagi «agar …sa» kabi. Ak dan keyin feʼl oʻz zamonida qoladi: hozir haqida — hozirgi zamon, oʻtmish haqida — oʻtgan zamon. Ak prší, sedíme v stane. = Yomgʻir yogʻsa, chodirda oʻtiramiz.",
+      "Kelajak haqida esa slovakchada ak dan keyin ham **kelasi zamon** ishlatiladi: **Ak bude** pršať, pôjdeme do stanu. = Agar yomgʻir yogʻsa, chodirga kiramiz. Oʻzbekchada «yogʻsa» yetadi, slovakchada esa bude pršať (yogʻadi) kerak."
+    ]
+  },
+  "a2-u8-l11.grammar-ak-real-conditions.table.head": {
+    "en": [
+      "time",
+      "ak …",
+      "then …"
+    ],
+    "t": [
+      "zamon",
+      "ak …",
+      "unda …"
+    ]
+  },
+  "a2-u8-l11.grammar-ak-real-conditions.table.rows": {
+    "en": [
+      [
+        "now",
+        "Ak **prší**,",
+        "**sedíme** v stane."
+      ],
+      [
+        "past",
+        "Ak si **bol** na koncerte,",
+        "**videl** si Mareka."
+      ],
+      [
+        "future",
+        "Ak **bude** pršať,",
+        "**pôjdeme** do stanu."
+      ],
+      [
+        "future",
+        "Ak **budeš** unavená,",
+        "**zostaneme** doma."
+      ]
+    ],
+    "t": [
+      [
+        "hozirgi",
+        "Ak **prší**,",
+        "**sedíme** v stane."
+      ],
+      [
+        "oʻtgan",
+        "Ak si **bol** na koncerte,",
+        "**videl** si Mareka."
+      ],
+      [
+        "kelasi",
+        "Ak **bude** pršať,",
+        "**pôjdeme** do stanu."
+      ],
+      [
+        "kelasi",
+        "Ak **budeš** unavená,",
+        "**zostaneme** doma."
+      ]
+    ]
+  },
+  "a2-u8-l11.grammar-ak-real-conditions.examples": {
+    "en": [
+      "If it rains, we'll stay in the tent.",
+      "If you've got time, come with us."
+    ],
+    "t": [
+      "Agar yomgʻir yogʻsa, chodirda qolamiz.",
+      "Vaqting boʻlsa, biz bilan yur."
+    ]
+  },
+  "a2-u8-l11.fill-ak-bude-prsat.en": {
+    "en": "If it rains, we'll go to the main tent.",
+    "t": "Agar yomgʻir yogʻsa, asosiy chodirga boramiz."
+  },
+  "a2-u8-l11.fill-ak-bude-prsat.why": {
+    "en": "The rain is still to come, so ak takes the future: ak **bude** pršať. English uses the present here; Slovak doesn't.",
+    "t": "Yomgʻir hali oldinda, shuning uchun ak kelasi zamonni talab qiladi: ak **bude** pršať. Oʻzbekchada «yogʻsa» deymiz, slovakchada esa bude kerak."
+  },
+  "a2-u8-l11.fill-ak-teraz-prsi.en": {
+    "en": "If it's raining now, take an umbrella.",
+    "t": "Agar hozir yomgʻir yogʻayotgan boʻlsa, soyabon olib ol."
+  },
+  "a2-u8-l11.fill-ak-teraz-prsi.why": {
+    "en": "**Teraz** (now) is the present, so the condition is too: ak teraz **prší**.",
+    "t": "**Teraz** (hozir) — hozirgi zamon, shuning uchun shart ham hozirgi zamonda: ak teraz **prší**."
+  },
+  "a2-u8-l11.build-ak-bude-zajtra.prompt": {
+    "en": "If it's hot tomorrow, we'll go swimming.",
+    "t": "Agar ertaga issiq boʻlsa, suzgani boramiz."
+  },
+  "a2-u8-l11.build-ak-bude-zajtra.traps": {
+    "en": [
+      "Tomorrow is still to come, so ak takes the future: ak **bude** horúco.",
+      "Swimming is in the future too, and ísť has its own future: **pôjdeme**. Ideme is now."
+    ],
+    "t": [
+      "Ertaga hali oldinda, shuning uchun ak kelasi zamonni talab qiladi: ak **bude** horúco.",
+      "Suzish ham kelajakda, ísť feʼlining esa oʻz kelasi zamoni bor: **pôjdeme** (boramiz). Ideme — hozir."
+    ]
+  },
+  "a2-u8-l11.choice-ak-bude-prsat.question": {
+    "en": "Which sentence is correct?",
+    "t": "Qaysi gap toʻgʻri?"
+  },
+  "a2-u8-l11.choice-ak-bude-prsat.why": {
+    "en": "About the future, both halves are future: ak **bude pršať**, **pôjdeme**. Bude needs the infinitive pršať after it, and išli sme is the past.",
+    "t": "Kelajak haqida ikkala qism ham kelasi zamonda: ak **bude pršať**, **pôjdeme**. Bude dan keyin infinitív pršať kerak, išli sme esa oʻtgan zamon."
+  },
+  "a2-u8-l11.build-ak-si-bol.answers": {
+    "en": [
+      "If you were at the concert yesterday, you saw Marek."
+    ],
+    "t": [
+      "Agar kecha konsertda boʻlgan boʻlsang, Marekni koʻrgansan.",
+      "Kecha konsertda boʻlgan boʻlsang, Marekni koʻrgansan."
+    ]
+  },
+  "a2-u8-l11.build-ak-si-bol.distractors": {
+    "en": [
+      "would",
+      "will"
+    ],
+    "t": [
+      "koʻrarding",
+      "koʻrasan"
+    ]
+  },
+  "a2-u8-l11.grammar-ak-perfective-verb.title": {
+    "en": "Ak with a perfective verb",
+    "t": "Ak va tugallangan tur feʼli"
+  },
+  "a2-u8-l11.grammar-ak-perfective-verb.body": {
+    "en": [
+      "You know from unit 7 that a perfective verb's present form is already its future: prídeš, kúpime, zavoláš. After ak it makes a condition about the future on its own, with no budem: **Ak prídeš** o piatej, stihneme koncert.",
+      "So: ak **kúpime** vstupenky, never ak budeme kúpiť."
+    ],
+    "t": [
+      "7-boʻlimdan bilasizki, tugallangan tur feʼlining hozirgi zamon shakli kelajakni bildiradi: prídeš (kelasan), kúpime (sotib olamiz), zavoláš (qoʻngʻiroq qilasan). Ak dan keyin u budem siz ham kelajak haqidagi shartni bildiradi: **Ak prídeš** o piatej, stihneme koncert.",
+      "Demak: ak **kúpime** vstupenky, hech qachon ak budeme kúpiť emas."
+    ]
+  },
+  "a2-u8-l11.grammar-ak-perfective-verb.table.head": {
+    "en": [
+      "ak + perfective",
+      "then …"
+    ],
+    "t": [
+      "ak + tugallangan tur",
+      "unda …"
+    ]
+  },
+  "a2-u8-l11.grammar-ak-perfective-verb.table.rows": {
+    "en": [
+      [
+        "Ak **prídeš** o piatej,",
+        "stihneme koncert."
+      ],
+      [
+        "Ak **kúpime** vstupenky dnes,",
+        "budú lacnejšie."
+      ],
+      [
+        "Ak **zavoláš** Tomášovi,",
+        "príde po nás autom."
+      ],
+      [
+        "Ak **zabudneš** pršiplášť,",
+        "požičiam ti môj."
+      ]
+    ],
+    "t": [
+      [
+        "Ak **prídeš** o piatej,",
+        "stihneme koncert."
+      ],
+      [
+        "Ak **kúpime** vstupenky dnes,",
+        "budú lacnejšie."
+      ],
+      [
+        "Ak **zavoláš** Tomášovi,",
+        "príde po nás autom."
+      ],
+      [
+        "Ak **zabudneš** pršiplášť,",
+        "požičiam ti môj."
+      ]
+    ]
+  },
+  "a2-u8-l11.grammar-ak-perfective-verb.examples": {
+    "en": [
+      "If you come at five, we'll make it to the concert.",
+      "If you forget your raincoat, I'll lend you mine."
+    ],
+    "t": [
+      "Soat beshda kelsang, konsertga ulguramiz.",
+      "Yomgʻirpoʻshingni unutsang, senga oʻzimnikini berib turaman."
+    ]
+  },
+  "a2-u8-l11.fill-ak-prides-o.en": {
+    "en": "If you come at six, you'll catch the whole concert.",
+    "t": "Soat oltida kelsang, konsertni boshidan oxirigacha koʻrasan."
+  },
+  "a2-u8-l11.fill-ak-prides-o.why": {
+    "en": "Prísť is perfective, so its present already means the future: ak **prídeš**. Never budeš prísť.",
+    "t": "Prísť — tugallangan tur, shuning uchun uning hozirgi zamoni kelajakni bildiradi: ak **prídeš**. Hech qachon budeš prísť emas."
+  },
+  "a2-u8-l11.fill-ak-kupime-vstupenky.en": {
+    "en": "If we buy the tickets online, they'll be cheaper.",
+    "t": "Chiptalarni internetdan sotib olsak, arzonroq boʻladi."
+  },
+  "a2-u8-l11.fill-ak-kupime-vstupenky.why": {
+    "en": "Kúpiť is perfective: **kúpime** already means we'll buy. Budeme never goes with it, and after ak you need a verb with an ending.",
+    "t": "Kúpiť — tugallangan tur: **kúpime** oʻzi «sotib olamiz» degani. Budeme u bilan hech qachon kelmaydi, ak dan keyin esa qoʻshimchali feʼl kerak."
+  },
+  "a2-u8-l11.fill-ak-bude-burka.en": {
+    "en": "If there's a storm, they'll cancel the concert.",
+    "t": "Boʻron boʻlsa, konsertni bekor qilishadi."
+  },
+  "a2-u8-l11.fill-ak-bude-burka.why": {
+    "en": "The result is in the future too, and zrušiť is perfective: **zrušia** = they'll cancel. Zrušili is the past.",
+    "t": "Natija ham kelajakda, zrušiť esa tugallangan tur: **zrušia** = bekor qilishadi. Zrušili — oʻtgan zamon."
+  },
+  "a2-u8-l11.build-ak-zavolas-lucii.prompt": {
+    "en": "If you call Lucia, she'll come with us.",
+    "t": "Lusiyaga qoʻngʻiroq qilsang, u biz bilan boradi."
+  },
+  "a2-u8-l11.build-ak-zavolas-lucii.traps": {
+    "en": [
+      "Zavolať is perfective: **zavoláš** already means you'll call, with no budeš.",
+      "**Zavolať** takes the to-whom form (the dative), as in Zavolám ti: Lucia → **Lucii**."
+    ],
+    "t": [
+      "Zavolať — tugallangan tur: **zavoláš** oʻzi «qoʻngʻiroq qilasan» degani, budeš kerak emas.",
+      "**Zavolať** «kimga?» shaklini — datívni (joʻnalish kelishigi) talab qiladi, xuddi Zavolám ti va oʻzbekchadagi «Lusiyaga» kabi: Lucia → **Lucii**."
+    ]
+  },
+  "a2-u8-l11.build-ak-mi-bude.prompt": {
+    "en": "If I'm cold, I'll put on a jumper.",
+    "t": "Agar sovqotsam, sviter kiyaman."
+  },
+  "a2-u8-l11.build-ak-mi-bude.traps": {
+    "en": [
+      "It's about later, so ak takes the future: ak mi **bude** zima.",
+      "One action in the future: **oblečiem** si. Obliekam sa means I'm getting dressed."
+    ],
+    "t": [
+      "Gap keyinroq haqida, shuning uchun ak kelasi zamonni talab qiladi: ak mi **bude** zima.",
+      "Kelajakdagi bitta harakat: **oblečiem** si (kiyaman). Obliekam sa — «kiyinyapman» degani."
+    ]
+  },
+  "a2-u8-l11.speak-ak-bude-prsat.en": {
+    "en": "If it rains, we'll go to the tent.",
+    "t": "Agar yomgʻir yogʻsa, chodirga kiramiz."
+  },
+  "a2-u8-l12.titleEn": {
+    "en": "If it weren't raining…",
+    "t": "Yomgʻir yogʻmaganida…"
+  },
+  "a2-u8-l12.grammar-keby-imagined-conditions.title": {
+    "en": "Keby and the weather",
+    "t": "Keby va ob-havo"
+  },
+  "a2-u8-l12.grammar-keby-imagined-conditions.body": {
+    "en": [
+      "You know **keby** from unit 4: something imagined takes keby + the past form, and the other half the conditional. Keby **som** mala čas, išla **by som** s vami. **Ak by** means the same as keby.",
+      "Weather has no subject, so after keby its past form ends in **-lo**: keby **nepršalo**, keby **bolo** teplejšie. The wind is a subject: keby **nefúkal** vietor."
+    ],
+    "t": [
+      "**Keby** ni 4-boʻlimdan bilasiz: xayoliy narsa keby + oʻtgan zamon shakli bilan, ikkinchi qism esa shart maylida (by bilan) aytiladi. Keby **som** mala čas, išla **by som** s vami. = Vaqtim boʻlganida, sizlar bilan borardim. Oʻzbekchada ham shunday: «…ganida, …ardim». **Ak by** ham keby bilan bir xil maʼnoda.",
+      "Ob-havoning egasi yoʻq, shuning uchun keby dan keyin uning oʻtgan zamon shakli **-lo** bilan tugaydi: keby **nepršalo**, keby **bolo** teplejšie. Shamol esa ega: keby **nefúkal** vietor."
+    ]
+  },
+  "a2-u8-l12.grammar-keby-imagined-conditions.table.head": {
+    "en": [
+      "keby …",
+      "… by"
+    ],
+    "t": [
+      "keby …",
+      "… by"
+    ]
+  },
+  "a2-u8-l12.grammar-keby-imagined-conditions.table.rows": {
+    "en": [
+      [
+        "Keby **nepršalo**,",
+        "boli **by sme** vonku."
+      ],
+      [
+        "Keby **bolo** teplejšie,",
+        "spali **by sme** vonku."
+      ],
+      [
+        "Keby **nefúkal** vietor,",
+        "sedeli **by sme** pri jazere."
+      ],
+      [
+        "Keby **som** mala stan,",
+        "išla **by som** na festival."
+      ]
+    ],
+    "t": [
+      [
+        "Keby **nepršalo**,",
+        "boli **by sme** vonku."
+      ],
+      [
+        "Keby **bolo** teplejšie,",
+        "spali **by sme** vonku."
+      ],
+      [
+        "Keby **nefúkal** vietor,",
+        "sedeli **by sme** pri jazere."
+      ],
+      [
+        "Keby **som** mala stan,",
+        "išla **by som** na festival."
+      ]
+    ]
+  },
+  "a2-u8-l12.grammar-keby-imagined-conditions.examples": {
+    "en": [
+      "If it weren't raining, we'd be outside.",
+      "If I had time, I'd go to the concert."
+    ],
+    "t": [
+      "Yomgʻir yogʻmaganida, tashqarida boʻlardik.",
+      "Vaqtim boʻlganida, konsertga borardim."
+    ]
+  },
+  "a2-u8-l12.fill-keby-som-mala.en": {
+    "en": "If I had a tent, I'd go to the festival.",
+    "t": "Chodirim boʻlganida, festivalga borardim."
+  },
+  "a2-u8-l12.fill-keby-som-mala.why": {
+    "en": "Keby already holds its by; the small word for ja follows it straight away: keby **som** mala…",
+    "t": "Keby ichida by allaqachon bor; ja (men) uchun kichik soʻz darhol undan keyin keladi: keby **som** mala…"
+  },
+  "a2-u8-l12.fill-keby-nefukal-vietor.en": {
+    "en": "If the wind weren't blowing, we'd be sitting by the lake.",
+    "t": "Shamol esmaganida, koʻl boʻyida oʻtirgan boʻlardik."
+  },
+  "a2-u8-l12.fill-keby-nefukal-vietor.why": {
+    "en": "The result is imagined, so it takes the conditional: sedeli **by sme**. Sedeli sme is the plain past, budeme the future.",
+    "t": "Natija xayoliy, shuning uchun shart maylida: sedeli **by sme**. Sedeli sme — oddiy oʻtgan zamon, budeme — kelasi zamon."
+  },
+  "a2-u8-l12.build-keby-som-mala.prompt": {
+    "en": "If I had a sleeping bag, I'd sleep in the tent.",
+    "t": "Uyqu xaltam boʻlganida, chodirda uxlardim."
+  },
+  "a2-u8-l12.build-keby-som-mala.traps": {
+    "en": [
+      "An imagined condition takes keby + the past form: keby som **mala**. Mám is a real present.",
+      "An imagined result takes **by**: spala **by** som. Budem is a real future."
+    ],
+    "t": [
+      "Xayoliy shart keby + oʻtgan zamon shakli bilan keladi: keby som **mala**. Mám — real hozirgi zamon.",
+      "Xayoliy natija **by** bilan keladi: spala **by** som (uxlardim). Budem — real kelasi zamon."
+    ]
+  },
+  "a2-u8-l12.build-keby-som-bola.answers": {
+    "en": [
+      "If I were at home, I'd be sleeping.",
+      "If I was at home, I'd be sleeping."
+    ],
+    "t": [
+      "Uyda boʻlganimda, uxlayotgan boʻlardim.",
+      "Agar uyda boʻlganimda, uxlayotgan boʻlardim.",
+      "Uyda boʻlganimda, uxlardim.",
+      "Uyda boʻlsam edi, uxlardim."
+    ]
+  },
+  "a2-u8-l12.build-keby-som-bola.distractors": {
+    "en": [
+      "will",
+      "am"
+    ],
+    "t": [
+      "uxlayman",
+      "uydaman"
+    ]
+  },
+  "a2-u8-l12.grammar-ak-or-keby.title": {
+    "en": "Ak or keby?",
+    "t": "Ak yoki keby?"
+  },
+  "a2-u8-l12.grammar-ak-or-keby.body": {
+    "en": [
+      "Real or likely: **ak** + the normal verb. Imagined, or too late to happen: **keby** + the conditional.",
+      "Keby also works for the past: Keby si **včera** prišiel, videl **by si** ten koncert. = If you'd come yesterday, you'd have seen that concert. The form doesn't change; words like včera show the time."
+    ],
+    "t": [
+      "Real yoki ehtimoli bor: **ak** + oddiy feʼl. Xayoliy yoki endi boʻlishi imkonsiz: **keby** + shart mayli.",
+      "Keby oʻtmish uchun ham ishlatiladi: Keby si **včera** prišiel, videl **by si** ten koncert. = Kecha kelganingda, oʻsha konsertni koʻrgan boʻlarding. Shakl oʻzgarmaydi; vaqtni včera kabi soʻzlar koʻrsatadi."
+    ]
+  },
+  "a2-u8-l12.grammar-ak-or-keby.table.head": {
+    "en": [
+      "real: ak",
+      "imagined: keby"
+    ],
+    "t": [
+      "real: ak",
+      "xayoliy: keby"
+    ]
+  },
+  "a2-u8-l12.grammar-ak-or-keby.table.rows": {
+    "en": [
+      [
+        "Ak bude pršať, budeme v stane.",
+        "Keby pršalo, boli by sme v stane."
+      ],
+      [
+        "Ak máš čas, poď s nami.",
+        "Keby si mal čas, išiel by si s nami."
+      ],
+      [
+        "Ak príde, uvidí koncert.",
+        "Keby včera prišiel, videl by koncert."
+      ]
+    ],
+    "t": [
+      [
+        "Ak bude pršať, budeme v stane.",
+        "Keby pršalo, boli by sme v stane."
+      ],
+      [
+        "Ak máš čas, poď s nami.",
+        "Keby si mal čas, išiel by si s nami."
+      ],
+      [
+        "Ak príde, uvidí koncert.",
+        "Keby včera prišiel, videl by koncert."
+      ]
+    ]
+  },
+  "a2-u8-l12.grammar-ak-or-keby.examples": {
+    "en": [
+      "If it rains, we'll be in the tent.",
+      "If you'd come yesterday, you'd have seen that concert."
+    ],
+    "t": [
+      "Agar yomgʻir yogʻsa, chodirda boʻlamiz.",
+      "Kecha kelganingda, oʻsha konsertni koʻrgan boʻlarding."
+    ]
+  },
+  "a2-u8-l12.choice-keby-bola-burka.question": {
+    "en": "Which sentence imagines something that isn't real?",
+    "t": "Qaysi gap real boʻlmagan narsani tasavvur qiladi?"
+  },
+  "a2-u8-l12.choice-keby-bola-burka.why": {
+    "en": "**Keby** + the conditional (zrušili **by**) imagines it. Ak + the future is a real plan, and in the third sentence it really happened.",
+    "t": "**Keby** + shart mayli (zrušili **by**) uni tasavvur qiladi. Ak + kelasi zamon — real reja, uchinchi gapda esa bu haqiqatan boʻlgan."
+  },
+  "a2-u8-l12.fill-keby-si-bol.en": {
+    "en": "If you'd been at the festival on Saturday, you'd have seen the storm.",
+    "t": "Shanba kuni festivalda boʻlganingda, boʻronni koʻrgan boʻlarding."
+  },
+  "a2-u8-l12.fill-keby-si-bol.why": {
+    "en": "Keby takes the past form, also for an imagined past: keby si **bol** v sobotu… Budeš is a real future.",
+    "t": "Keby oʻtgan zamon shaklini talab qiladi, xayoliy oʻtmish uchun ham: keby si **bol** v sobotu… Budeš — real kelasi zamon."
+  },
+  "a2-u8-l12.build-keby-bolo-teplejsie.prompt": {
+    "en": "If it were warmer, we'd sleep outside.",
+    "t": "Havo iliqroq boʻlganida, tashqarida uxlardik."
+  },
+  "a2-u8-l12.build-keby-bolo-teplejsie.traps": {
+    "en": [
+      "Keby takes the past form, and weather takes **-lo**: keby **bolo** teplejšie.",
+      "The result is imagined, so it's conditional: **spali** by sme."
+    ],
+    "t": [
+      "Keby oʻtgan zamon shaklini talab qiladi, ob-havo esa **-lo** oladi: keby **bolo** teplejšie.",
+      "Natija xayoliy, shuning uchun shart maylida: **spali** by sme."
+    ]
+  },
+  "a2-u8-l12.fill-ak-bude-zajtra.en": {
+    "en": "If it's nice tomorrow, we'll go on a trip.",
+    "t": "Ertaga havo yaxshi boʻlsa, sayrga chiqamiz."
+  },
+  "a2-u8-l12.fill-ak-bude-zajtra.why": {
+    "en": "Pôjdeme is a real future, so the condition is real too: ak **bude**. Ak by bolo would need išli by sme.",
+    "t": "Pôjdeme — real kelasi zamon, demak shart ham real: ak **bude**. Ak by bolo bilan išli by sme kerak boʻlardi."
+  },
+  "a2-u8-l12.fill-co-by-si.en": {
+    "en": "What would you do if there were a storm?",
+    "t": "Boʻron boʻlganida, nima qilarding?"
+  },
+  "a2-u8-l12.fill-co-by-si.why": {
+    "en": "Keby takes the past form, and búrka is feminine: keby **bola** búrka.",
+    "t": "Keby oʻtgan zamon shaklini talab qiladi, búrka esa ayol jinsida: keby **bola** búrka."
+  },
+  "a2-u8-l12.choice-keby-som-nemusel.question": {
+    "en": "Marek has to work on Friday, so he can't come. What does he say?",
+    "t": "Marek juma kuni ishlashi kerak, shuning uchun kela olmaydi. U nima deydi?"
+  },
+  "a2-u8-l12.choice-keby-som-nemusel.why": {
+    "en": "He does have to work, so it's imagined: **keby** + the past form (nemusel), and **by** in the result: išiel **by som**.",
+    "t": "U haqiqatan ishlashi kerak, demak bu xayoliy: **keby** + oʻtgan zamon shakli (nemusel), natijada esa **by**: išiel **by som** (borardim)."
+  },
+  "a2-u8-l12.speak-keby-neprsalo-boli.en": {
+    "en": "If it weren't raining, we'd be outside.",
+    "t": "Yomgʻir yogʻmaganida, tashqarida boʻlardik."
+  },
+  "a2-u8-l13.titleEn": {
+    "en": "Messages from the festival",
+    "t": "Festivaldan xabarlar"
+  },
+  "a2-u8-l13.prispevok.en": {
+    "en": "post",
+    "t": "post"
+  },
+  "a2-u8-l13.prispevok.note": {
+    "en": "On a **sociálna sieť** (social network) you write a príspevok. To add a photo (a **fotka**): **pridať fotku**. Under it: **Páči sa mi to.**",
+    "t": "Ijtimoiy tarmoqda — **sociálna sieť** — príspevok (post) yozasiz. Surat (**fotka**) qoʻshish: **pridať fotku**. Uning ostida: **Páči sa mi to.** (Menga yoqdi.)"
+  },
+  "a2-u8-l13.esemeska.question": {
+    "en": "Emma wants to send her mum a short message from her phone. What is it called?",
+    "t": "Emma onasiga telefonidan qisqa xabar yubormoqchi. U nima deb ataladi?"
+  },
+  "a2-u8-l13.build-napisem-mame-esemesku.prompt": {
+    "en": "I'll send Mum a text.",
+    "t": "Oyimga SMS yozaman."
+  },
+  "a2-u8-l13.build-napisem-mame-esemesku.traps": {
+    "en": [
+      "The text is what you write, the object, so esemeska changes -a to **-u**: napíšem **esemesku**.",
+      "You write **to** someone, so mama takes the to-whom form (the dative): napíšem **mame**."
+    ],
+    "t": [
+      "SMS — siz yozadigan narsa, toʻldiruvchi, shuning uchun esemeska soʻzida -a oʻrniga **-u** keladi: napíšem **esemesku**.",
+      "**Kimgadir** yozasiz, shuning uchun mama «kimga?» shaklida — datívda (joʻnalish kelishigi) keladi, oʻzbekchadagi «oyimga» kabi: napíšem **mame**."
+    ]
+  },
+  "a2-u8-l13.build-mami-prsi-ale.prompt": {
+    "en": "Mum, it's raining, but we're fine!",
+    "t": "Oyi, yomgʻir yogʻyapti, lekin bizda hammasi yaxshi!"
+  },
+  "a2-u8-l13.build-mami-prsi-ale.traps": {
+    "en": [
+      "Writing to your mum directly, mama becomes **mami**.",
+      "Fine is **dobre**: máme sa dobre. Zle means badly."
+    ],
+    "t": [
+      "Onangizga toʻgʻridan-toʻgʻri murojaat qilganda mama **mami** boʻladi (oʻzbekchadagi «oyi» kabi).",
+      "«Yaxshi» — **dobre**: máme sa dobre. Zle — «yomon» degani."
+    ]
+  },
+  "a2-u8-l13.build-lucia-pridala-fotky.answers": {
+    "en": [
+      "Lucia added photos from the festival.",
+      "Lucia posted photos from the festival."
+    ],
+    "t": [
+      "Lusiya festivaldan suratlar joyladi.",
+      "Lusiya festival suratlarini joyladi.",
+      "Lusiya festivaldan suratlar qoʻshdi."
+    ]
+  },
+  "a2-u8-l13.build-lucia-pridala-fotky.distractors": {
+    "en": [
+      "video",
+      "concert"
+    ],
+    "t": [
+      "video",
+      "konsertdan"
+    ]
+  },
+  "a2-u8-l13.nuda.en": {
+    "en": "boredom",
+    "t": "zerikish"
+  },
+  "a2-u8-l13.nuda.note": {
+    "en": "**To je nuda!** = It's so boring! Stronger: **Nenávidím dážď!** = I hate rain! (**nenávidieť** = to hate)",
+    "t": "**To je nuda!** = Juda zerikarli! Kuchliroq: **Nenávidím dážď!** = Yomgʻirni yomon koʻraman! (**nenávidieť** = yomon koʻrmoq)"
+  },
+  "a2-u8-l13.choice-to-je-nuda.question": {
+    "en": "It has rained all morning, and Lucia is bored. What does she say?",
+    "t": "Ertalabdan beri yomgʻir yogʻyapti, Lusiya zerikdi. U nima deydi?"
+  },
+  "a2-u8-l13.kocka-a-figurka.en": {
+    "en": "dice and counter",
+    "t": "zar va fishka"
+  },
+  "a2-u8-l13.kocka-a-figurka.note": {
+    "en": "In the tent they play a board game, a **hra**: **Hoď kockou!** = Throw the dice! A square is a **políčko**, a six a **šestka**. To win: **vyhrať**.",
+    "t": "Chodirda stol oʻyini — **hra** oʻynashyapti: **Hoď kockou!** = Zarni tashla! Katak — **políčko**, olti — **šestka**. Yutmoq — **vyhrať**."
+  },
+  "a2-u8-l13.fill-teraz-ty-emma.en": {
+    "en": "Your turn, Emma. Throw the dice!",
+    "t": "Navbat senda, Emma. Zarni tashla!"
+  },
+  "a2-u8-l13.fill-teraz-ty-emma.why": {
+    "en": "Slovak throws dice **with** something: the instrumental, so kocka changes -a to **-ou**: hoď **kockou**.",
+    "t": "Slovakchada zar «bilan» tashlanadi: inštrumentál («bilan» kelishigi), shuning uchun kocka soʻzida -a oʻrniga **-ou** keladi: hoď **kockou**."
+  },
+  "a2-u8-l13.build-ak-hodis-sestku.prompt": {
+    "en": "If you throw a six, you'll win.",
+    "t": "Olti tashlasang, yutasan."
+  },
+  "a2-u8-l13.build-ak-hodis-sestku.traps": {
+    "en": [
+      "It's about you (ty) and the future: **vyhráš**, a perfective present, means you'll win. Vyhrala is the past.",
+      "The six is what you throw, the object, so šestka changes -a to **-u**: hodíš **šestku**."
+    ],
+    "t": [
+      "Gap sen (ty) va kelajak haqida: **vyhráš** — tugallangan turning hozirgi zamoni, «yutasan» degani. Vyhrala — oʻtgan zamon.",
+      "Olti — siz tashlaydigan narsa, toʻldiruvchi, shuning uchun šestka soʻzida -a oʻrniga **-u** keladi: hodíš **šestku**."
+    ]
+  },
+  "a2-u8-l13.build-sme-v-stane.prompt": {
+    "en": "We're in the tent, playing a game.",
+    "t": "Chodirdamiz, oʻyin oʻynayapmiz."
+  },
+  "a2-u8-l13.build-sme-v-stane.traps": {
+    "en": [
+      "In the tent answers “where?”, so **v** takes the locative: v **stane**.",
+      "We (my) are playing: **hráme**, with -me. Hrajú is oni."
+    ],
+    "t": [
+      "Chodirda — «qayerda?» savoliga javob, shuning uchun **v** lokál talab qiladi: v **stane**.",
+      "Biz (my) oʻynayapmiz: **hráme**, -me bilan. Hrajú — oni."
+    ]
+  },
+  "a2-u8-l13.naspamat.en": {
+    "en": "by heart",
+    "t": "yoddan"
+  },
+  "a2-u8-l13.naspamat.note": {
+    "en": "Emma's phone has died. **Neviem Luciino číslo naspamäť.** = I don't know Lucia's number by heart. The contacts list in a phone is the **adresár**.",
+    "t": "Emmaning telefoni oʻchib qoldi. **Neviem Luciino číslo naspamäť.** = Lusiyaning raqamini yoddan bilmayman. Telefondagi kontaktlar roʻyxati — **adresár**."
+  },
+  "a2-u8-l13.choice-prepacte-mohli-by.question": {
+    "en": "Emma asks a stranger at the information tent to lend her a phone. What does she say?",
+    "t": "Emma maʼlumot chodiridagi notanish odamdan telefonini berib turishni soʻraydi. U nima deydi?"
+  },
+  "a2-u8-l13.choice-prepacte-mohli-by.why": {
+    "en": "To a stranger, **vy** and the polite conditional: mohli by **ste** mi požičať…? Mohol by si is for a friend, and vám požičať would be Emma lending hers.",
+    "t": "Notanish odamga **vy** va hurmatli shart mayli: mohli by **ste** mi požičať…? Mohol by si — doʻst uchun, vám požičať esa Emma oʻz telefonini berib turishini bildirardi."
+  },
+  "a2-u8-l13.build-neviem-jej-cislo.prompt": {
+    "en": "I don't know her number by heart.",
+    "t": "Uning (ayol) raqamini yoddan bilmayman."
+  },
+  "a2-u8-l13.build-neviem-jej-cislo.traps": {
+    "en": [
+      "I (ja) don't know: **neviem**, with -m. Nevie is on or ona.",
+      "Her is **jej**; jeho means his."
+    ],
+    "t": [
+      "Men (ja) bilmayman: **neviem**, -m bilan. Nevie — on yoki ona.",
+      "Ayolning raqami — **jej** (uning); jeho — erkakning."
+    ]
+  },
+  "a2-u8-l13.fill-jej-cislo-mam.en": {
+    "en": "I've got her number in my contacts.",
+    "t": "Uning raqami kontaktlarimda bor."
+  },
+  "a2-u8-l13.fill-jej-cislo-mam.why": {
+    "en": "In something answers “where?”, so **v** takes the locative, and adresár takes **-i**, like hotel → v hoteli.",
+    "t": "Biror narsaning ichida — «qayerda?» savoliga javob, shuning uchun **v** lokál talab qiladi, adresár esa **-i** oladi, xuddi hotel → v hoteli kabi."
+  },
+  "a2-u8-l13.match-esemeska.pairs": {
+    "en": [
+      "text message",
+      "post",
+      "photo",
+      "dice",
+      "boredom"
+    ],
+    "t": [
+      "SMS",
+      "post",
+      "surat",
+      "zar",
+      "zerikish"
+    ]
+  },
+  "a2-u8-l13.speak-napisem-ti-esemesku.en": {
+    "en": "I'll text you.",
+    "t": "Senga SMS yozaman."
+  },
+  "a2-u8-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Yozma mashq"
+  },
+  "a2-u8-pisanie.listen-budeme-spat-v.en": {
+    "en": "We'll sleep in a tent by the lake.",
+    "t": "Koʻl boʻyida chodirda uxlaymiz."
+  },
+  "a2-u8-pisanie.listen-zober-si-dazdnik.en": {
+    "en": "Take an umbrella and a raincoat!",
+    "t": "Soyabon va yomgʻirpoʻsh olib ol!"
+  },
+  "a2-u8-pisanie.listen-zajtra-bude-prsat.en": {
+    "en": "Tomorrow it will rain and a strong wind will blow.",
+    "t": "Ertaga yomgʻir yogʻadi va kuchli shamol esadi."
+  },
+  "a2-u8-pisanie.listen-v-noci-hrmelo.en": {
+    "en": "In the night there was thunder and lightning.",
+    "t": "Kechasi momaqaldiroq gumburladi va chaqmoq chaqdi."
+  },
+  "a2-u8-pisanie.listen-koncert-zrusili-pre.en": {
+    "en": "The concert was cancelled because of the storm.",
+    "t": "Konsert boʻron sababli bekor qilindi."
+  },
+  "a2-u8-pisanie.listen-obuj-si-cizmy.en": {
+    "en": "Put your boots on, it's raining outside.",
+    "t": "Etigingni kiy, tashqarida yomgʻir yogʻyapti."
+  },
+  "a2-u8-pisanie.listen-ak-bude-pekne.en": {
+    "en": "If it's nice, we'll go on a trip.",
+    "t": "Havo yaxshi boʻlsa, sayrga chiqamiz."
+  },
+  "a2-u8-pisanie.listen-keby-bolo-teplejsie.en": {
+    "en": "If it were warmer, we'd sleep outside.",
+    "t": "Havo iliqroq boʻlganida, tashqarida uxlardik."
+  },
+  "a2-u8-l14.titleEn": {
+    "en": "Review",
+    "t": "Takrorlash"
+  },
+  "a2-u8-l14.match-burka.pairs": {
+    "en": [
+      "storm",
+      "wind",
+      "weather forecast",
+      "temperature",
+      "umbrella"
+    ],
+    "t": [
+      "boʻron",
+      "shamol",
+      "ob-havo prognozi",
+      "harorat",
+      "soyabon"
+    ]
+  },
+  "a2-u8-l14.fill-vcera-cely-den.en": {
+    "en": "It rained all day yesterday.",
+    "t": "Kecha kun boʻyi yomgʻir yogʻdi."
+  },
+  "a2-u8-l14.fill-vcera-cely-den.why": {
+    "en": "**Včera** is the past, and weather verbs end in **-lo** there: **pršalo**.",
+    "t": "**Včera** (kecha) — oʻtgan zamon, u yerda ob-havo feʼllari **-lo** bilan tugaydi: **pršalo**."
+  },
+  "a2-u8-l14.build-oblec-si-sveter.prompt": {
+    "en": "Put on a jumper, it'll be chilly at night.",
+    "t": "Sviter kiy, kechasi salqin boʻladi."
+  },
+  "a2-u8-l14.build-oblec-si-sveter.traps": {
+    "en": [
+      "A jumper is clothing, so **obleč** si. Obuj si is for shoes.",
+      "The night is still to come: v noci **bude** chladno. Je is now."
+    ],
+    "t": [
+      "Sviter — kiyim, shuning uchun **obleč** si. Obuj si — poyabzal uchun.",
+      "Tun hali oldinda: v noci **bude** chladno. Je — hozir."
+    ]
+  },
+  "a2-u8-l14.choice-ak-bude-zajtra.question": {
+    "en": "Which one means “If it's nice tomorrow, we'll go on a trip”?",
+    "t": "Qaysi biri «Ertaga havo yaxshi boʻlsa, sayrga chiqamiz» degani?"
+  },
+  "a2-u8-l14.choice-ak-bude-zajtra.why": {
+    "en": "A real plan for the future: **ak** + the future, **pôjdeme**. The keby sentence only imagines it (we would go), and the one with včera is about yesterday.",
+    "t": "Kelajak uchun real reja: **ak** + kelasi zamon, **pôjdeme**. Keby bilan gap buni faqat tasavvur qiladi (chiqardik), včera bilan gap esa kecha haqida."
+  },
+  "a2-u8-l14.fill-koncert-zrusili-pre.en": {
+    "en": "The concert was cancelled because of the storm.",
+    "t": "Konsert boʻron sababli bekor qilindi."
+  },
+  "a2-u8-l14.fill-koncert-zrusili-pre.why": {
+    "en": "**Pre** takes the object form, so búrka changes -a to **-u**: pre **búrku**.",
+    "t": "**Pre** toʻldiruvchi shaklini talab qiladi, shuning uchun búrka soʻzida -a oʻrniga **-u** keladi: pre **búrku**."
+  },
+  "a2-u8-l14.build-mala-by-som.prompt": {
+    "en": "I should take a raincoat.",
+    "t": "Yomgʻirpoʻsh olib olishim kerak."
+  },
+  "a2-u8-l14.build-mala-by-som.traps": {
+    "en": [
+      "**Zobrať si** takes si, with the thing you take after it: si zobrať pršiplášť.",
+      "Should is mať + **by**: mala **by** som. Budem is the future."
+    ],
+    "t": [
+      "**Zobrať si** si bilan keladi, undan keyin olinadigan narsa turadi: si zobrať pršiplášť.",
+      "Maslahat maʼnosidagi «kerak» — mať + **by**: mala **by** som. Budem — kelasi zamon."
+    ]
+  },
+  "a2-u8-l14.fill-keby-nefukal-vietor.en": {
+    "en": "If the wind weren't blowing, we'd be by the lake.",
+    "t": "Shamol esmaganida, koʻl boʻyida boʻlardik."
+  },
+  "a2-u8-l14.fill-keby-nefukal-vietor.why": {
+    "en": "Keby takes the past form, and here the wind is the subject (on): keby **nefúkal** vietor. Nefúkalo would have no subject.",
+    "t": "Keby oʻtgan zamon shaklini talab qiladi, bu yerda shamol esa ega (on): keby **nefúkal** vietor. Nefúkalo egasiz boʻlardi."
+  },
+  "a2-u8-l14.build-na-vychode-bude.answers": {
+    "en": [
+      "In the east it will be partly cloudy and warmer.",
+      "It will be partly cloudy and warmer in the east."
+    ],
+    "t": [
+      "Sharqda qisman bulutli va iliqroq boʻladi.",
+      "Sharqda havo qisman bulutli va iliqroq boʻladi."
+    ]
+  },
+  "a2-u8-l14.build-na-vychode-bude.distractors": {
+    "en": [
+      "west",
+      "cooler"
+    ],
+    "t": [
+      "gʻarbda",
+      "salqinroq"
+    ]
+  },
+  "a2-u8-l14.choice-co-keby-sme.question": {
+    "en": "You'd like to suggest the jazz night to your friends. What do you say?",
+    "t": "Doʻstlaringizga jaz kechasiga borishni taklif qilmoqchisiz. Nima deysiz?"
+  },
+  "a2-u8-l14.choice-co-keby-sme.why": {
+    "en": "A suggestion is **Čo keby sme** + the past form: čo keby sme išli…? Without keby it asks about the past, and keby alone isn't a question.",
+    "t": "Taklif — **Čo keby sme** + oʻtgan zamon shakli: čo keby sme išli…? (…sak-chi?) Keby siz gap oʻtmish haqida soʻraydi, keby oʻzi esa savol emas."
+  },
+  "a2-u8-l14.fill-obuj-si.en": {
+    "en": "It's raining outside. Put your boots on!",
+    "t": "Tashqarida yomgʻir yogʻyapti. Etigingni kiy!"
+  },
+  "a2-u8-l14.fill-obuj-si.why": {
+    "en": "**Obuť si** is only for shoes, so: obuj si **čižmy**. Šaty and šortky go on with obliecť si.",
+    "t": "**Obuť si** faqat poyabzal uchun, shuning uchun: obuj si **čižmy**. Šaty va šortky obliecť si bilan kiyiladi."
+  },
+  "a2-u8-l14.fill-rockova-kapela-a.en": {
+    "en": "On the poster there's a rock band and a jazz concert.",
+    "t": "Afishada rok guruhi va jaz konserti bor."
+  },
+  "a2-u8-l14.fill-rockova-kapela-a.why": {
+    "en": "Koncert is masculine, so the adjective made from džez ends in **-ý**: **džezový** koncert.",
+    "t": "Koncert — erkak jinsida, shuning uchun džez soʻzidan yasalgan sifat **-ý** bilan tugaydi: **džezový** koncert."
+  },
+  "a2-u8-l14.build-emma-pozicia-lucii.prompt": {
+    "en": "Emma will lend Lucia an umbrella.",
+    "t": "Emma Lusiyaga soyabon berib turadi."
+  },
+  "a2-u8-l14.build-emma-pozicia-lucii.traps": {
+    "en": [
+      "You lend something **to** someone: the to-whom form (the dative), Lucia → **Lucii**.",
+      "It's still to come: **požičia** = will lend. Požičala is the past."
+    ],
+    "t": [
+      "Biror narsani **kimgadir** berib turasiz: «kimga?» shakli — datív (joʻnalish kelishigi), Lucia → **Lucii** (Lusiyaga).",
+      "Bu hali oldinda: **požičia** = berib turadi. Požičala — oʻtgan zamon."
+    ]
+  },
+  "a2-u8-l14.fill-toto-je-tomasov.en": {
+    "en": "This is Tomáš's tent. Marek sleeps in it too.",
+    "t": "Bu Tomashning chodiri. Unda Marek ham uxlaydi."
+  },
+  "a2-u8-l14.fill-toto-je-tomasov.why": {
+    "en": "Stan is masculine, so “in it” is v **ňom**, the locative of on. V nej is for feminine words.",
+    "t": "Stan — erkak jinsida, shuning uchun «unda» — v **ňom**, on olmoshining lokál shakli. V nej — ayol jinsidagi soʻzlar uchun."
+  },
+  "a2-u8-l14.build-tomas-meska-zavolam.prompt": {
+    "en": "Tomáš is late. I'll call him.",
+    "t": "Tomash kechikyapti. Unga qoʻngʻiroq qilaman."
+  },
+  "a2-u8-l14.build-tomas-meska-zavolam.traps": {
+    "en": [
+      "Phoning someone, **zavolať** takes the to-whom form: **mu** (to him), as in Zavolám ti. Ho is the object form.",
+      "Him is **mu**; ti is you."
+    ],
+    "t": [
+      "Qoʻngʻiroq qilganda **zavolať** «kimga?» shaklini talab qiladi: **mu** (unga, erkakka), xuddi Zavolám ti kabi. Ho — toʻldiruvchi shakli (uni).",
+      "«Unga» (erkakka) — **mu**; ti — «senga»."
+    ]
+  },
+  "a2-u8-l14.build-vraj-zrusili-aj.answers": {
+    "en": [
+      "Apparently they've cancelled the evening concert too.",
+      "Apparently they cancelled the evening concert too."
+    ],
+    "t": [
+      "Aytishlaricha, kechki konsertni ham bekor qilishibdi.",
+      "Kechki konsertni ham bekor qilishibdi.",
+      "Aytishlaricha, kechki konsert ham bekor qilinibdi."
+    ]
+  },
+  "a2-u8-l14.build-vraj-zrusili-aj.distractors": {
+    "en": [
+      "definitely",
+      "morning"
+    ],
+    "t": [
+      "albatta",
+      "ertalabki"
+    ]
+  },
+  "a2-u8-l14.speak-ak-bude-prsat.en": {
+    "en": "If it rains, we'll stay in the tent.",
+    "t": "Agar yomgʻir yogʻsa, chodirda qolamiz."
+  }
+}

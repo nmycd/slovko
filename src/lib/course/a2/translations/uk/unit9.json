@@ -1,0 +1,4452 @@
+{
+  "a2-u9.titleEn": {
+    "en": "The zoo, the circus and a romantic dinner",
+    "t": "Зоопарк, цирк і романтична вечеря"
+  },
+  "a2-u9.topics": {
+    "en": [
+      "Animals and the zoo",
+      "The circus",
+      "A family recipe and baking",
+      "A romantic dinner",
+      "Love and relationships"
+    ],
+    "t": [
+      "Тварини й зоопарк",
+      "Цирк",
+      "Сімейний рецепт і випічка",
+      "Романтична вечеря",
+      "Кохання й стосунки"
+    ]
+  },
+  "a2-u9.grammar": {
+    "en": [
+      "Animal nouns: singular like people, plural like things",
+      "Active participles: spiaci lev, vedúci",
+      "Passive participles: uvarený, prestretý",
+      "byť + participle, and bývať"
+    ],
+    "t": [
+      "Назви тварин: в однині — як люди, у множині — як речі",
+      "Активні дієприкметники: spiaci lev, vedúci",
+      "Пасивні дієприкметники: uvarený, prestretý",
+      "byť + дієприкметник, і bývať"
+    ]
+  },
+  "a2-u9-l1.titleEn": {
+    "en": "Visitors from Dublin",
+    "t": "Гості з Дубліна"
+  },
+  "a2-u9-l1.milovat.en": {
+    "en": "to love",
+    "t": "любити, обожнювати"
+  },
+  "a2-u9-l1.milovat.note": {
+    "en": "It goes like študovať: **milujem**, miluješ, miluje… Sarah miluje zvieratá. = Sarah loves animals.",
+    "t": "Змінюється, як študovať: **milujem**, miluješ, miluje… Sarah miluje zvieratá. = Сара обожнює тварин."
+  },
+  "a2-u9-l1.choice-liam-a-sarah.question": {
+    "en": "Emma's brother Liam (15) and her sister Sarah (11) live in Dublin. What does this mean?",
+    "t": "Еммин брат Ліам (15) і сестра Сара (11) живуть у Дубліні. Що це означає?"
+  },
+  "a2-u9-l1.choice-liam-a-sarah.options": {
+    "en": [
+      "Liam and Sarah are going home.",
+      "Liam and Sarah have got visitors.",
+      "Liam and Sarah are coming to visit."
+    ],
+    "t": [
+      "Ліам і Сара їдуть додому.",
+      "У Ліама й Сари гості.",
+      "Ліам і Сара приїдуть у гості."
+    ]
+  },
+  "a2-u9-l1.choice-sarah-ma-jedenast.question": {
+    "en": "What does this mean?",
+    "t": "Що це означає?"
+  },
+  "a2-u9-l1.choice-sarah-ma-jedenast.options": {
+    "en": [
+      "Sarah is eleven and loves animals.",
+      "Sarah is eleven and has a lot of animals.",
+      "Sarah is fifteen and loves animals."
+    ],
+    "t": [
+      "Сарі одинадцять років, і вона обожнює тварин.",
+      "Сарі одинадцять років, і в неї багато тварин.",
+      "Сарі п'ятнадцять років, і вона обожнює тварин."
+    ]
+  },
+  "a2-u9-l1.fill-liam-a-sarah-miluju.en": {
+    "en": "Liam and Sarah love animals.",
+    "t": "Ліам і Сара обожнюють тварин."
+  },
+  "a2-u9-l1.fill-liam-a-sarah-miluju.why": {
+    "en": "Liam a Sarah are two people, oni, so the verb ends in **-ú**: miluj**ú**, like študujú.",
+    "t": "Ліам і Сара — двоє, тобто oni, тож дієслово закінчується на **-ú**: miluj**ú**, як študujú."
+  },
+  "a2-u9-l1.build-zajtra-ideme-do.prompt": {
+    "en": "We're going to the zoo tomorrow.",
+    "t": "Завтра ми йдемо в зоопарк."
+  },
+  "a2-u9-l1.build-zajtra-ideme-do.traps": {
+    "en": [
+      "Going into a place like the zoo takes **do**: do zoo, like do kina.",
+      "“We” is my, so **ideme**. Idú is oni."
+    ],
+    "t": [
+      "Іти всередину, як у зоопарк, — це **do**: do zoo, як do kina («у кіно»).",
+      "«Ми» — це my, тож **ideme**. Idú — для oni."
+    ]
+  },
+  "a2-u9-l1.build-sarah-chce-psa.prompt": {
+    "en": "Sarah wants a dog.",
+    "t": "Сара хоче собаку."
+  },
+  "a2-u9-l1.build-sarah-chce-psa.traps": {
+    "en": [
+      "The dog is what Sarah wants, the object. A dog is alive, so it adds **-a**, like brat → brata: **psa**.",
+      "Sarah is ona, so **chce**. Chcem is ja."
+    ],
+    "t": [
+      "Собака — те, чого хоче Сара, додаток. Пес — істота, тож додає **-a**, як brat → brata, а e випадає, як у нас пес → пса: **psa**.",
+      "Сара — це ona, тож **chce**. Chcem — для ja."
+    ]
+  },
+  "a2-u9-l1.na-vlastne-oci.en": {
+    "en": "with my (your, her…) own eyes",
+    "t": "на власні очі"
+  },
+  "a2-u9-l1.na-vlastne-oci.note": {
+    "en": "Chcem to vidieť **na vlastné oči**. = I want to see it with my own eyes. (oči = eyes)",
+    "t": "Chcem to vidieť **na vlastné oči**. = Хочу побачити це на власні очі. (oči = очі)"
+  },
+  "a2-u9-l1.fill-sarah-chce-vidiet.en": {
+    "en": "Sarah wants to see the animals with her own eyes.",
+    "t": "Сара хоче побачити тварин на власні очі."
+  },
+  "a2-u9-l1.fill-sarah-chce-vidiet.why": {
+    "en": "Oči (eyes) is plural, so the adjective ends in **-é**: vlastn**é** oči, like tie nové mosty.",
+    "t": "Oči (очі) — множина, тож прикметник закінчується на **-é**: vlastn**é** oči, як tie nové mosty."
+  },
+  "a2-u9-l1.match-navsteva.pairs": {
+    "en": [
+      "visit",
+      "animal",
+      "dog",
+      "to love"
+    ],
+    "t": [
+      "відвідини",
+      "тварина",
+      "собака",
+      "любити"
+    ]
+  },
+  "a2-u9-l1.choice-uz-sa-neviem.question": {
+    "en": "It's the evening before the zoo. What does Sarah say?",
+    "t": "Вечір перед походом у зоопарк. Що каже Сара?"
+  },
+  "a2-u9-l1.fill-brat-a-sestra.en": {
+    "en": "My brother and sister are coming to visit.",
+    "t": "Брат і сестра приїдуть до мене в гості."
+  },
+  "a2-u9-l1.fill-brat-a-sestra.why": {
+    "en": "Here na answers “where to?”, so it takes the object form: -a → **-u**, na návštev**u**.",
+    "t": "Тут na відповідає на «куди?», тож потрібен знахідний: -a → **-u**, na návštev**u**."
+  },
+  "a2-u9-l1.build-mam-navstevu-z.answers": {
+    "en": [
+      "I've got visitors from Ireland.",
+      "I have visitors from Ireland."
+    ],
+    "t": [
+      "У мене гості з Ірландії.",
+      "До мене приїхали гості з Ірландії."
+    ]
+  },
+  "a2-u9-l1.build-mam-navstevu-z.distractors": {
+    "en": [
+      "friends",
+      "Scotland"
+    ],
+    "t": [
+      "друзі",
+      "Шотландії"
+    ]
+  },
+  "a2-u9-l1.speak-uz-sa-neviem.en": {
+    "en": "I can't wait!",
+    "t": "Не можу дочекатися!"
+  },
+  "a2-u9-l2.titleEn": {
+    "en": "At the zoo",
+    "t": "У зоопарку"
+  },
+  "a2-u9-l2.lev.en": {
+    "en": "lion",
+    "t": "лев"
+  },
+  "a2-u9-l2.lev.note": {
+    "en": "As an object, a lion adds -a, like a person: Vidím **leva**. = I can see a lion.",
+    "t": "Як додаток лев додає -a, як людина, — так само, як у нас: Vidím **leva**. = Я бачу лева."
+  },
+  "a2-u9-l2.tiger.en": {
+    "en": "tiger",
+    "t": "тигр"
+  },
+  "a2-u9-l2.tiger.note": {
+    "en": "The e drops before an ending: Vidím **tigra**.",
+    "t": "Перед закінченням e випадає: Vidím **tigra**. = Я бачу тигра."
+  },
+  "a2-u9-l2.choice-chcem-vidiet-leva.question": {
+    "en": "Sarah wants to see a lion. What does she say?",
+    "t": "Сара хоче побачити лева. Що вона каже?"
+  },
+  "a2-u9-l2.choice-chcem-vidiet-leva.why": {
+    "en": "A lion is alive, so as the object it adds **-a**, like brat → brata: vidieť **leva**. Tigra is a tiger.",
+    "t": "Лев — істота, тож як додаток він додає **-a**, як brat → brata: vidieť **leva**, «побачити лева». Tigra — це тигр."
+  },
+  "a2-u9-l2.slon.en": {
+    "en": "elephant",
+    "t": "слон"
+  },
+  "a2-u9-l2.slon.note": {
+    "en": "Slon je veľký. Vidíš **slona**? = Can you see the elephant?",
+    "t": "Slon je veľký. Vidíš **slona**? = Бачиш слона?"
+  },
+  "a2-u9-l2.opica.en": {
+    "en": "monkey",
+    "t": "мавпа"
+  },
+  "a2-u9-l2.opica.note": {
+    "en": "It goes like káva: Vidím **opicu**.",
+    "t": "Відмінюється як káva: Vidím **opicu**. = Я бачу мавпу."
+  },
+  "a2-u9-l2.fill-sarah-vidi-slona.en": {
+    "en": "Sarah can see an elephant.",
+    "t": "Сара бачить слона."
+  },
+  "a2-u9-l2.fill-sarah-vidi-slona.why": {
+    "en": "One elephant as the object: animals add **-a**, like people, so vidí **slona**.",
+    "t": "Один слон як додаток: тварини, як і люди, додають **-a**, тож vidí **slona**, «бачить слона»."
+  },
+  "a2-u9-l2.zirafa.en": {
+    "en": "giraffe",
+    "t": "жирафа"
+  },
+  "a2-u9-l2.medved.en": {
+    "en": "bear",
+    "t": "ведмідь"
+  },
+  "a2-u9-l2.medved.note": {
+    "en": "As an object: **medveďa**.",
+    "t": "Як додаток: **medveďa**, як «ведмедя»."
+  },
+  "a2-u9-l2.match-zvierata.pairs": {
+    "en": [
+      "lion",
+      "elephant",
+      "monkey",
+      "giraffe",
+      "bear"
+    ],
+    "t": [
+      "лев",
+      "слон",
+      "мавпа",
+      "жирафа",
+      "ведмідь"
+    ]
+  },
+  "a2-u9-l2.ktore-zviera-mas.en": {
+    "en": "Which animal do you like best?",
+    "t": "Яка тварина тобі подобається найбільше?"
+  },
+  "a2-u9-l2.ktore-zviera-mas.note": {
+    "en": "**najradšej** = best of all. Najradšej mám opice. = I like monkeys best.",
+    "t": "**najradšej** = найбільше, найохочіше. Najradšej mám opice. = Найбільше я люблю мавп."
+  },
+  "a2-u9-l2.choice-najradsej-mam-zirafy.question": {
+    "en": "Liam answers. Which animals does he like best?",
+    "t": "Ліам відповідає. Які тварини йому подобаються найбільше?"
+  },
+  "a2-u9-l2.choice-najradsej-mam-zirafy.options": {
+    "en": [
+      "Monkeys.",
+      "Giraffes.",
+      "Bears."
+    ],
+    "t": [
+      "Мавпи.",
+      "Жирафи.",
+      "Ведмеді."
+    ]
+  },
+  "a2-u9-l2.build-ktore-zviera-mas.prompt": {
+    "en": "Which animal do you like best, Sarah?",
+    "t": "Яка тварина тобі подобається найбільше, Саро?"
+  },
+  "a2-u9-l2.build-ktore-zviera-mas.traps": {
+    "en": [
+      "Zviera is neuter, so “which” is **ktoré**, like ktoré okno.",
+      "Emma says ty to her little sister: **máš**."
+    ],
+    "t": [
+      "Zviera — середнього роду, тож «яке» — **ktoré**, як ktoré okno.",
+      "До молодшої сестри Емма звертається на ty: **máš**."
+    ]
+  },
+  "a2-u9-l2.fill-najradsej-mam-opice.en": {
+    "en": "I like monkeys best.",
+    "t": "Найбільше я люблю мавп."
+  },
+  "a2-u9-l2.fill-najradsej-mam-opice.why": {
+    "en": "Monkeys in general means the plural, opica → **opice**, like rieka → rieky. As an object, it doesn't change.",
+    "t": "Мавпи загалом — це множина: opica → **opice**, як rieka → rieky. Як додаток ця форма не змінюється (у нас — «люблю мавп»)."
+  },
+  "a2-u9-l2.build-medved-je-velky.answers": {
+    "en": [
+      "The bear is big and strong."
+    ],
+    "t": [
+      "Ведмідь великий і сильний."
+    ]
+  },
+  "a2-u9-l2.build-medved-je-velky.distractors": {
+    "en": [
+      "weak",
+      "small"
+    ],
+    "t": [
+      "слабкий",
+      "малий"
+    ]
+  },
+  "a2-u9-l2.choice-zirafa-je-vysoka.question": {
+    "en": "Which is true?",
+    "t": "Що правда?"
+  },
+  "a2-u9-l2.choice-zirafa-je-vysoka.options": {
+    "en": [
+      "The giraffe is big and the elephant is tall.",
+      "The monkey is tall and the bear is big.",
+      "The giraffe is tall and the elephant is big."
+    ],
+    "t": [
+      "Жирафа велика, а слон високий.",
+      "Мавпа висока, а ведмідь великий.",
+      "Жирафа висока, а слон великий."
+    ]
+  },
+  "a2-u9-l2.choice-ahoj-mami-sme.question": {
+    "en": "Emma phones her mum in Dublin from the zoo. What does she say?",
+    "t": "Емма дзвонить із зоопарку мамі в Дублін. Що вона каже?"
+  },
+  "a2-u9-l2.choice-ahoj-mami-sme.why": {
+    "en": "Family gets ty and **Ahoj**; mami is how you call your mum. Emma is there with Liam and Sarah, so “we are”: **sme**.",
+    "t": "До рідних — на ty і **Ahoj**; mami — так звертаються до мами, як наше «мамо». Емма там із Ліамом і Сарою, тож «ми є»: **sme**."
+  },
+  "a2-u9-l2.speak-ktore-zviera-mas.en": {
+    "en": "Which animal do you like best?",
+    "t": "Яка тварина тобі подобається найбільше?"
+  },
+  "a2-u9-l3.titleEn": {
+    "en": "One lion, two lions",
+    "t": "Один лев, два леви"
+  },
+  "a2-u9-l3.grammar-animal-singular.title": {
+    "en": "One animal: like a person",
+    "t": "Одна тварина — як людина"
+  },
+  "a2-u9-l3.grammar-animal-singular.body": {
+    "en": [
+      "You know from A1 that animals add **-a** as objects, like people: Vidím leva, like brat → brata. They follow people in the other cases too: with s it's **-om**, and after o it's **-ovi**, like o Tomášovi.",
+      "Pes loses its e (psa, o psovi), and so does tiger (tigra)."
+    ],
+    "t": [
+      "З A1 ви знаєте, що тварини як додаток додають **-a**, як люди: Vidím leva, як brat → brata — так само, як у нас «бачу лева, брата». І в інших відмінках вони йдуть за людьми: після s — **-om**, а після o — **-ovi**, як o Tomášovi.",
+      "Pes губить e (psa, o psovi), як наше пес → пса. Так само tiger (tigra)."
+    ]
+  },
+  "a2-u9-l3.grammar-animal-singular.table.head": {
+    "en": [
+      "",
+      "a person",
+      "an animal"
+    ],
+    "t": [
+      "",
+      "людина",
+      "тварина"
+    ]
+  },
+  "a2-u9-l3.grammar-animal-singular.table.rows": {
+    "en": [
+      [
+        "kto? čo?",
+        "brat",
+        "lev"
+      ],
+      [
+        "koho? čo?",
+        "brat**a**",
+        "lev**a**"
+      ],
+      [
+        "s kým?",
+        "s brat**om**",
+        "s lev**om**"
+      ],
+      [
+        "o kom?",
+        "o brat**ovi**",
+        "o lev**ovi**"
+      ]
+    ],
+    "t": [
+      [
+        "kto? čo?",
+        "brat",
+        "lev"
+      ],
+      [
+        "koho? čo?",
+        "brat**a**",
+        "lev**a**"
+      ],
+      [
+        "s kým?",
+        "s brat**om**",
+        "s lev**om**"
+      ],
+      [
+        "o kom?",
+        "o brat**ovi**",
+        "o lev**ovi**"
+      ]
+    ]
+  },
+  "a2-u9-l3.grammar-animal-singular.examples": {
+    "en": [
+      "Sarah can see a lion.",
+      "Liam wants a dog.",
+      "We're talking about the elephant."
+    ],
+    "t": [
+      "Сара бачить лева.",
+      "Ліам хоче собаку.",
+      "Ми говоримо про слона."
+    ]
+  },
+  "a2-u9-l3.fill-emma-vidi-leva.en": {
+    "en": "Emma can see a lion.",
+    "t": "Емма бачить лева."
+  },
+  "a2-u9-l3.fill-emma-vidi-leva.why": {
+    "en": "One lion as the object takes **-a**, like a person: vidí **leva**. Levovi goes after o: o levovi.",
+    "t": "Один лев як додаток має **-a**, як людина: vidí **leva**. Levovi — після o: o levovi."
+  },
+  "a2-u9-l3.fill-liam-hovori-o.en": {
+    "en": "Liam is talking about the tiger.",
+    "t": "Ліам говорить про тигра."
+  },
+  "a2-u9-l3.fill-liam-hovori-o.why": {
+    "en": "O (about) takes the locative, and an animal adds **-ovi**, like a person: o **tigrovi**, o Tomášovi.",
+    "t": "O (про) вимагає місцевого відмінка, і тварина, як людина, отримує **-ovi**: o **tigrovi**, o Tomášovi (пор. наше «на тигрові»)."
+  },
+  "a2-u9-l3.grammar-animal-plural.title": {
+    "en": "Many animals: like things",
+    "t": "Багато тварин — як речі"
+  },
+  "a2-u9-l3.grammar-animal-plural.body": {
+    "en": [
+      "In the plural, animals switch sides: they change like things (mosty, hotely), not like men. So it's **tie** levy, adjectives end in **-é**, and the object form doesn't change: Vidím levy.",
+      "Soft words end in **-e**, like kaviarne: medveď → medvede, kôň → kone, papagáj → papagáje. Tiger drops its e: tigre."
+    ],
+    "t": [
+      "У множині тварини переходять на інший бік: вони змінюються як речі (mosty, hotely), а не як чоловіки. Тож **tie** levy, прикметники на **-é**, а знахідний не змінюється: Vidím levy — не «бачу левів», а як «бачу мости».",
+      "М'які слова мають **-e**, як kaviarne: medveď → medvede, kôň → kone, papagáj → papagáje. Tiger губить e: tigre."
+    ]
+  },
+  "a2-u9-l3.grammar-animal-plural.table.head": {
+    "en": [
+      "one",
+      "more than one"
+    ],
+    "t": [
+      "один",
+      "кілька"
+    ]
+  },
+  "a2-u9-l3.grammar-animal-plural.table.rows": {
+    "en": [
+      [
+        "lev",
+        "lev**y**"
+      ],
+      [
+        "slon",
+        "slon**y**"
+      ],
+      [
+        "pes",
+        "ps**y**"
+      ],
+      [
+        "krokodíl (crocodile)",
+        "krokodíl**y**"
+      ],
+      [
+        "tiger",
+        "tigr**e**"
+      ],
+      [
+        "medveď",
+        "medved**e**"
+      ],
+      [
+        "kôň (horse)",
+        "kon**e**"
+      ],
+      [
+        "papagáj (parrot)",
+        "papagáj**e**"
+      ]
+    ],
+    "t": [
+      [
+        "lev",
+        "lev**y**"
+      ],
+      [
+        "slon",
+        "slon**y**"
+      ],
+      [
+        "pes",
+        "ps**y**"
+      ],
+      [
+        "krokodíl (крокодил)",
+        "krokodíl**y**"
+      ],
+      [
+        "tiger",
+        "tigr**e**"
+      ],
+      [
+        "medveď",
+        "medved**e**"
+      ],
+      [
+        "kôň (кінь)",
+        "kon**e**"
+      ],
+      [
+        "papagáj (папуга)",
+        "papagáj**e**"
+      ]
+    ]
+  },
+  "a2-u9-l3.grammar-animal-plural.examples": {
+    "en": [
+      "Those lions are big.",
+      "Sarah can see the elephants and the giraffes.",
+      "Liam likes horses."
+    ],
+    "t": [
+      "Ті леви великі.",
+      "Сара бачить слонів і жираф.",
+      "Ліам любить коней."
+    ]
+  },
+  "a2-u9-l3.fill-tie-slony-su.en": {
+    "en": "Those elephants are big.",
+    "t": "Ті слони великі."
+  },
+  "a2-u9-l3.fill-tie-slony-su.why": {
+    "en": "In the plural, animals change like things: tie **slony**, with -y. Sloni would be the ending for men.",
+    "t": "У множині тварини змінюються як речі: tie **slony**, з -y. Sloni — це закінчення для чоловіків."
+  },
+  "a2-u9-l3.fill-sarah-hovori-s.en": {
+    "en": "Sarah is talking to the parrot.",
+    "t": "Сара розмовляє з папугою."
+  },
+  "a2-u9-l3.fill-sarah-hovori-s.why": {
+    "en": "S (with) takes the instrumental. One parrot works like a person: s **papagájom**, like s bratom.",
+    "t": "S (з) вимагає орудного відмінка. Один папуга поводиться як людина: s **papagájom**, як s bratom."
+  },
+  "a2-u9-l3.choice-tie-papagaje-hovoria.question": {
+    "en": "What does this mean?",
+    "t": "Що це означає?"
+  },
+  "a2-u9-l3.choice-tie-papagaje-hovoria.options": {
+    "en": [
+      "That parrot speaks English!",
+      "Those parrots speak English!",
+      "Those parrots understand English!"
+    ],
+    "t": [
+      "Той папуга говорить англійською!",
+      "Ті папуги говорять англійською!",
+      "Ті папуги розуміють англійську!"
+    ]
+  },
+  "a2-u9-l3.choice-tie-papagaje-hovoria.why": {
+    "en": "**Tie papagáje** is plural: soft words end in -e, like kaviarne. The verb is plural too: hovor**ia**.",
+    "t": "**Tie papagáje** — множина: м'які слова мають -e, як kaviarne. Дієслово теж у множині: hovor**ia**."
+  },
+  "a2-u9-l3.build-sarah-miluje-kone.prompt": {
+    "en": "Sarah loves horses.",
+    "t": "Сара обожнює коней."
+  },
+  "a2-u9-l3.build-sarah-miluje-kone.traps": {
+    "en": [
+      "Horses in general are plural, and kôň gives **kone**. Koňa is one horse as the object.",
+      "Sarah is ona: **miluje**. Milujem is ja."
+    ],
+    "t": [
+      "Коні загалом — множина, а kôň дає **kone**: множина тварин — як у речей, тож не «коней». Koňa — це один кінь як додаток.",
+      "Сара — це ona: **miluje**. Milujem — для ja."
+    ]
+  },
+  "a2-u9-l3.grammar-counting-animals.title": {
+    "en": "Counting animals",
+    "t": "Рахуємо тварин"
+  },
+  "a2-u9-l3.grammar-counting-animals.body": {
+    "en": [
+      "Animals count like things too: **dva**, tri, štyri + the plural, dva psy, tri levy. Dvaja, traja, štyria are only for men: dvaja kamaráti.",
+      "From five up, the noun takes the -ov form you know from päť rokov: päť slon**ov**, desať papagáj**ov**. Kôň is irregular: päť koní."
+    ],
+    "t": [
+      "Тварин теж рахують як речі: **dva**, tri, štyri + множина — dva psy, tri levy, як у нас «два пси, три леви». Dvaja, traja, štyria — лише для чоловіків: dvaja kamaráti.",
+      "Від п'яти іменник має форму на -ov, знайому з päť rokov: päť slon**ov**, desať papagáj**ov** — як «п'ять слонів». Kôň неправильний: päť koní."
+    ]
+  },
+  "a2-u9-l3.grammar-counting-animals.table.head": {
+    "en": [
+      "",
+      "animals",
+      "men"
+    ],
+    "t": [
+      "",
+      "тварини",
+      "чоловіки"
+    ]
+  },
+  "a2-u9-l3.grammar-counting-animals.table.rows": {
+    "en": [
+      [
+        "1",
+        "jeden lev",
+        "jeden kamarát"
+      ],
+      [
+        "2",
+        "**dva** lev**y**",
+        "**dvaja** kamarát**i**"
+      ],
+      [
+        "3, 4",
+        "tri, štyri lev**y**",
+        "traja, štyria kamarát**i**"
+      ],
+      [
+        "5…",
+        "päť lev**ov**",
+        "päť kamarát**ov**"
+      ]
+    ],
+    "t": [
+      [
+        "1",
+        "jeden lev",
+        "jeden kamarát"
+      ],
+      [
+        "2",
+        "**dva** lev**y**",
+        "**dvaja** kamarát**i**"
+      ],
+      [
+        "3, 4",
+        "tri, štyri lev**y**",
+        "traja, štyria kamarát**i**"
+      ],
+      [
+        "5…",
+        "päť lev**ov**",
+        "päť kamarát**ov**"
+      ]
+    ]
+  },
+  "a2-u9-l3.grammar-counting-animals.examples": {
+    "en": [
+      "There are two elephants at the zoo.",
+      "Liam saw five tigers."
+    ],
+    "t": [
+      "У зоопарку два слони.",
+      "Ліам бачив п'ять тигрів."
+    ]
+  },
+  "a2-u9-l3.choice-tri-opice-a.question": {
+    "en": "Sarah can see three monkeys and two bears. What does she say?",
+    "t": "Сара бачить трьох мавп і двох ведмедів. Що вона каже?"
+  },
+  "a2-u9-l3.choice-tri-opice-a.why": {
+    "en": "Bears count like things: **dva** medvede. Dvaja is only for men, and the -ov form comes after five.",
+    "t": "Ведмедів рахують як речі: **dva** medvede. Dvaja — лише для чоловіків, а форма на -ov — від п'яти."
+  },
+  "a2-u9-l3.fill-v-zoo-je-pat.en": {
+    "en": "There are five elephants at the zoo.",
+    "t": "У зоопарку п'ять слонів."
+  },
+  "a2-u9-l3.fill-v-zoo-je-pat.why": {
+    "en": "From five up, the -ov form: päť **slonov**, like päť rokov.",
+    "t": "Від п'яти — форма на -ov: päť **slonov**, як päť rokov і як наше «п'ять слонів»."
+  },
+  "a2-u9-l3.build-v-zoo-su-dva.prompt": {
+    "en": "There are two tigers and a lion at the zoo.",
+    "t": "У зоопарку два тигри й лев."
+  },
+  "a2-u9-l3.build-v-zoo-su-dva.traps": {
+    "en": [
+      "Animals count like things: **dva** tigre. Dvaja is for men: dvaja kamaráti.",
+      "Animal plurals follow things, and tiger drops its e: **tigre**. Tigri would sound like a group of men."
+    ],
+    "t": [
+      "Тварин рахують як речі: **dva** tigre. Dvaja — для чоловіків: dvaja kamaráti.",
+      "Множина тварин — як у речей, а tiger губить e: **tigre**. Tigri звучало б як група чоловіків."
+    ]
+  },
+  "a2-u9-l3.choice-liam-hlada-psa.question": {
+    "en": "Which sentence is about one dog?",
+    "t": "Яке речення про одного пса?"
+  },
+  "a2-u9-l3.choice-liam-hlada-psa.why": {
+    "en": "**Psa** is one dog as the object, like a person. Psy is the plural, which works like things.",
+    "t": "**Psa** — один пес як додаток, як людина (і як наше «шукає пса»). Psy — множина, а вона поводиться як речі."
+  },
+  "a2-u9-l3.build-videli-sme-tri.prompt": {
+    "en": "We saw three bears and five lions.",
+    "t": "Ми бачили трьох ведмедів і п'ять левів."
+  },
+  "a2-u9-l3.build-videli-sme-tri.traps": {
+    "en": [
+      "Bears count like things: **tri** medvede. Traja is for men.",
+      "After five comes the -ov form: päť **levov**. Levy is for two to four."
+    ],
+    "t": [
+      "Ведмедів рахують як речі: **tri** medvede. Traja — для чоловіків.",
+      "Від п'яти — форма на -ov: päť **levov**, «п'ять левів». Levy — для двох-чотирьох."
+    ]
+  },
+  "a2-u9-l3.speak-v-zoo-su-dva.en": {
+    "en": "There are two elephants at the zoo.",
+    "t": "У зоопарку два слони."
+  },
+  "a2-u9-l4.titleEn": {
+    "en": "Shall we go to the circus?",
+    "t": "Підемо в цирк?"
+  },
+  "a2-u9-l4.cirkus.en": {
+    "en": "circus",
+    "t": "цирк"
+  },
+  "a2-u9-l4.cirkus.note": {
+    "en": "Ideme **do cirkusu**. = We're going to the circus. Cirkus **bez** zvierat = a circus without animals.",
+    "t": "Ideme **do cirkusu**. = Ми йдемо в цирк. Cirkus **bez** zvierat = цирк без тварин."
+  },
+  "a2-u9-l4.predstavenie.en": {
+    "en": "show, performance",
+    "t": "вистава, виступ"
+  },
+  "a2-u9-l4.predstavenie.note": {
+    "en": "Predstavenie začína o siedmej. = The show starts at seven.",
+    "t": "Predstavenie začína o siedmej. = Вистава починається о сьомій."
+  },
+  "a2-u9-l4.choice-pozyvam-vas-do.question": {
+    "en": "Sarah has seen a circus poster in town. Emma invites her and Liam. What does she say?",
+    "t": "Сара побачила в місті афішу цирку. Емма запрошує її й Ліама. Що вона каже?"
+  },
+  "a2-u9-l4.choice-pozyvam-vas-do.why": {
+    "en": "Two people are vy, so the object form is **vás**. Ťa is for one friend.",
+    "t": "Двоє людей — це vy, тож форма додатка — **vás**, «вас». Ťa — для одного друга."
+  },
+  "a2-u9-l4.tyranie-zvierat.en": {
+    "en": "cruelty to animals",
+    "t": "знущання з тварин"
+  },
+  "a2-u9-l4.tyranie-zvierat.note": {
+    "en": "**týrať** = to treat cruelly. Zvierat = of animals; cirkus **so zvieratami** = a circus with animals. **Podľa mňa** je to týranie zvierat. = In my opinion, it's cruelty to animals.",
+    "t": "**týrať** = знущатися, мучити (пор. «тиранити»). Zvierat = тварин (родовий); cirkus **so zvieratami** = цирк із тваринами. **Podľa mňa** je to týranie zvierat. = На мою думку, це знущання з тварин."
+  },
+  "a2-u9-l4.choice-cirkus-so-zvieratami.question": {
+    "en": "Liam doesn't like circuses with animals. What does he say?",
+    "t": "Ліамові не подобаються цирки з тваринами. Що він каже?"
+  },
+  "a2-u9-l4.uznavam.en": {
+    "en": "I admit it. / Fair enough.",
+    "t": "Визнаю. / Справедливо."
+  },
+  "a2-u9-l4.uznavam.note": {
+    "en": "From **uznávať** (to admit). Uznávam, máš **pravdu**. = I admit you're right.",
+    "t": "Від **uznávať** (визнавати). Uznávam, máš **pravdu**. = Визнаю, твоя правда."
+  },
+  "a2-u9-l4.fill-uznavam-mas-pravdu.en": {
+    "en": "I admit you're right.",
+    "t": "Визнаю, твоя правда."
+  },
+  "a2-u9-l4.fill-uznavam-mas-pravdu.why": {
+    "en": "Liam is talking about himself, ja, so the verb ends in **-m**: uznáva**m**.",
+    "t": "Ліам говорить про себе, ja, тож дієслово закінчується на **-m**: uznáva**m**, «визнаю»."
+  },
+  "a2-u9-l4.zmenit-nazor.en": {
+    "en": "to change your mind",
+    "t": "змінити думку"
+  },
+  "a2-u9-l4.zmenit-nazor.note": {
+    "en": "**názor** = opinion. Ľudia menia názory. = People change their minds.",
+    "t": "**názor** = думка, погляд. Ľudia menia názory. = Люди змінюють погляди."
+  },
+  "a2-u9-l4.fill-liam-zmenil-nazor.en": {
+    "en": "A circus without animals? Liam has changed his mind.",
+    "t": "Цирк без тварин? Ліам змінив думку."
+  },
+  "a2-u9-l4.fill-liam-zmenil-nazor.why": {
+    "en": "Liam is a man, so the past ends in **-l**: zmenil.",
+    "t": "Ліам — чоловік, тож минулий час на **-l**: zmenil, як «змінив»."
+  },
+  "a2-u9-l4.hodi-sa-vam.en": {
+    "en": "Does that suit you?",
+    "t": "Вам це підходить?"
+  },
+  "a2-u9-l4.hodi-sa-vam.note": {
+    "en": "**hodiť sa** = to suit, to be convenient. Who it suits takes the to-whom form: Hodí sa **mi** to. = That suits me. To one friend: Hodí sa **ti** to?",
+    "t": "**hodiť sa** = підходити, бути зручним (пор. «годиться»). Той, кому підходить, — у давальному: Hodí sa **mi** to. = Мені це підходить. Другові: Hodí sa **ti** to?"
+  },
+  "a2-u9-l4.listky-su-vypredane.en": {
+    "en": "The tickets are sold out.",
+    "t": "Квитки розпродано."
+  },
+  "a2-u9-l4.listky-su-vypredane.note": {
+    "en": "You know vypredaný from the castle in May: Prehliadka je vypredaná. It comes from vypredať (to sell out), and this unit has more words like it.",
+    "t": "Vypredaný ви знаєте із замку в травні: Prehliadka je vypredaná. Це від vypredať (розпродати), і в цьому розділі буде більше таких слів."
+  },
+  "a2-u9-l4.choice-listky-na-sobotu.question": {
+    "en": "The woman at the box office says this. What does she offer?",
+    "t": "Це каже жінка в касі. Що вона пропонує?"
+  },
+  "a2-u9-l4.choice-listky-na-sobotu.options": {
+    "en": [
+      "Tickets for Sunday.",
+      "Tickets for Saturday.",
+      "Cheaper tickets for Saturday."
+    ],
+    "t": [
+      "Квитки на неділю.",
+      "Квитки на суботу.",
+      "Дешевші квитки на суботу."
+    ]
+  },
+  "a2-u9-l4.fill-nedela-sa-nam.en": {
+    "en": "Yes, Sunday suits us.",
+    "t": "Так, неділя нам підходить."
+  },
+  "a2-u9-l4.fill-nedela-sa-nam.why": {
+    "en": "Like páčiť sa, the thing that suits is the subject (nedeľa), and the people it suits take the to-whom form: **nám**.",
+    "t": "Як і з páčiť sa, те, що підходить, — підмет (nedeľa), а ті, кому підходить, — у давальному: **nám**, «нам»."
+  },
+  "a2-u9-l4.build-su-listky-na.prompt": {
+    "en": "Are the tickets for Saturday sold out?",
+    "t": "Квитки на суботу розпродані?"
+  },
+  "a2-u9-l4.build-su-listky-na.traps": {
+    "en": [
+      "Lístky is plural, so the ending is **-é**: vypredan**é**, like nové mosty.",
+      "For a day, na takes the object form: na sobot**u**."
+    ],
+    "t": [
+      "Lístky — множина, тож закінчення **-é**: vypredan**é**, як nové mosty.",
+      "З днем na вимагає знахідного, як «на суботу»: na sobot**u**."
+    ]
+  },
+  "a2-u9-l4.match-cirkus.pairs": {
+    "en": [
+      "circus",
+      "show",
+      "cruelty to animals",
+      "opinion"
+    ],
+    "t": [
+      "цирк",
+      "вистава",
+      "знущання з тварин",
+      "думка"
+    ]
+  },
+  "a2-u9-l4.build-podla-mna-je.answers": {
+    "en": [
+      "In my opinion it's cruelty to animals."
+    ],
+    "t": [
+      "На мою думку, це знущання з тварин.",
+      "Як на мене, це знущання з тварин."
+    ]
+  },
+  "a2-u9-l4.build-podla-mna-je.distractors": {
+    "en": [
+      "kindness",
+      "children"
+    ],
+    "t": [
+      "доброта",
+      "дітей"
+    ]
+  },
+  "a2-u9-l4.speak-uznavam-mas-pravdu.en": {
+    "en": "I admit you're right.",
+    "t": "Визнаю, твоя правда."
+  },
+  "a2-u9-l5.titleEn": {
+    "en": "At the circus",
+    "t": "У цирку"
+  },
+  "a2-u9-l5.artistka.en": {
+    "en": "circus performer (a woman)",
+    "t": "артистка цирку"
+  },
+  "a2-u9-l5.artistka.note": {
+    "en": "In a circus, artisti walk on ropes, fly through the air and juggle.",
+    "t": "У цирку artisti ходять по канату, літають у повітрі й жонглюють."
+  },
+  "a2-u9-l5.lano.en": {
+    "en": "rope",
+    "t": "канат, мотузка"
+  },
+  "a2-u9-l5.lano.note": {
+    "en": "**na lane** = on the rope.",
+    "t": "**na lane** = на канаті."
+  },
+  "a2-u9-l5.choice-artistka-tancuje-na.question": {
+    "en": "What does this mean?",
+    "t": "Що це означає?"
+  },
+  "a2-u9-l5.choice-artistka-tancuje-na.options": {
+    "en": [
+      "The performer is dancing on the stage.",
+      "The clown is dancing on the rope.",
+      "The performer is dancing on the rope."
+    ],
+    "t": [
+      "Артистка танцює на сцені.",
+      "Клоун танцює на канаті.",
+      "Артистка танцює на канаті."
+    ]
+  },
+  "a2-u9-l5.klaun.en": {
+    "en": "clown",
+    "t": "клоун"
+  },
+  "a2-u9-l5.klaun.note": {
+    "en": "Plural like men: **klauni**. An old word for a clown or a fool is **šašo**.",
+    "t": "Множина — як у чоловіків: **klauni**. Старе слово для клоуна чи дурника — **šašo** (блазень)."
+  },
+  "a2-u9-l5.zonglovat.en": {
+    "en": "to juggle",
+    "t": "жонглювати"
+  },
+  "a2-u9-l5.zonglovat.note": {
+    "en": "It goes like študovať: klaun **žongluje**.",
+    "t": "Змінюється, як študovať: klaun **žongluje**, «жонглює»."
+  },
+  "a2-u9-l5.fill-dvaja-klauni-zongluju.en": {
+    "en": "Two clowns are juggling.",
+    "t": "Двоє клоунів жонглюють."
+  },
+  "a2-u9-l5.fill-dvaja-klauni-zongluju.why": {
+    "en": "Dvaja klauni are oni, so the verb ends in **-ú**: žongluj**ú**, like študujú.",
+    "t": "Dvaja klauni — це oni, тож дієслово закінчується на **-ú**: žongluj**ú**, як študujú."
+  },
+  "a2-u9-l5.akrobat.en": {
+    "en": "acrobat",
+    "t": "акробат"
+  },
+  "a2-u9-l5.vystupovat.en": {
+    "en": "to perform",
+    "t": "виступати"
+  },
+  "a2-u9-l5.vystupovat.note": {
+    "en": "V cirkuse **vystupujú** artisti a klauni. = Performers and clowns perform at the circus.",
+    "t": "V cirkuse **vystupujú** artisti a klauni. = У цирку виступають артисти й клоуни."
+  },
+  "a2-u9-l5.choice-traja-akrobati-vystupuju.question": {
+    "en": "Three acrobats are performing. Which is right?",
+    "t": "Виступають троє акробатів. Як правильно?"
+  },
+  "a2-u9-l5.choice-traja-akrobati-vystupuju.why": {
+    "en": "Acrobats are people: men count with **traja** and take the men's plural, akrobat**i**. Tri with -y is for animals and things.",
+    "t": "Акробати — люди: чоловіків рахують із **traja** (пор. наше «троє») і вони мають чоловічу множину akrobat**i**. Tri з -y — для тварин і речей."
+  },
+  "a2-u9-l5.vzrusujuci.en": {
+    "en": "exciting",
+    "t": "захопливий"
+  },
+  "a2-u9-l5.vzrusujuci.note": {
+    "en": "Its endings: vzrušujúci, vzrušujúca, vzrušujúce. Predstavenie bolo **vzrušujúce**! = The show was exciting!",
+    "t": "Його закінчення: vzrušujúci, vzrušujúca, vzrušujúce. Predstavenie bolo **vzrušujúce**! = Вистава була захоплива!"
+  },
+  "a2-u9-l5.fill-predstavenie-bolo-vzrusujuce.en": {
+    "en": "That was an exciting show!",
+    "t": "Це була захоплива вистава!"
+  },
+  "a2-u9-l5.fill-predstavenie-bolo-vzrusujuce.why": {
+    "en": "Predstavenie is neuter, so the adjective takes the neuter ending, here **-e**: vzrušujúc**e**.",
+    "t": "Predstavenie — середнього роду, тож прикметник має закінчення середнього роду, тут **-e**: vzrušujúc**e**."
+  },
+  "a2-u9-l5.match-v-cirkuse.pairs": {
+    "en": [
+      "clown",
+      "rope",
+      "to juggle",
+      "to perform",
+      "acrobat"
+    ],
+    "t": [
+      "клоун",
+      "канат",
+      "жонглювати",
+      "виступати",
+      "акробат"
+    ]
+  },
+  "a2-u9-l5.build-artistka-tancuje-na.prompt": {
+    "en": "The performer is dancing on the rope.",
+    "t": "Артистка танцює на канаті."
+  },
+  "a2-u9-l5.build-artistka-tancuje-na.traps": {
+    "en": [
+      "On the rope answers “where?”, so na takes the locative: na **lane**, like v meste.",
+      "One performer is ona: **tancuje**."
+    ],
+    "t": [
+      "На канаті — це «де?», тож na + місцевий: na **lane**, як v meste.",
+      "Одна артистка — це ona: **tancuje**."
+    ]
+  },
+  "a2-u9-l5.build-klauni-zongluju-a.answers": {
+    "en": [
+      "The clowns are juggling and the acrobats are performing."
+    ],
+    "t": [
+      "Клоуни жонглюють, а акробати виступають.",
+      "Клоуни жонглюють, акробати виступають."
+    ]
+  },
+  "a2-u9-l5.build-klauni-zongluju-a.distractors": {
+    "en": [
+      "dancing",
+      "is"
+    ],
+    "t": [
+      "танцюють",
+      "виступає"
+    ]
+  },
+  "a2-u9-l5.choice-to-bolo-vzrusujuce.question": {
+    "en": "Sarah says this after the show. What does she mean?",
+    "t": "Сара каже це після вистави. Що вона має на увазі?"
+  },
+  "a2-u9-l5.choice-to-bolo-vzrusujuce.options": {
+    "en": [
+      "That was exciting!",
+      "That was boring!",
+      "That was too long!"
+    ],
+    "t": [
+      "Це було захопливо!",
+      "Це було нудно!",
+      "Це було задовго!"
+    ]
+  },
+  "a2-u9-l5.speak-predstavenie-bolo-vzrusujuce.en": {
+    "en": "The show was exciting!",
+    "t": "Вистава була захоплива!"
+  },
+  "a2-u9-l6.titleEn": {
+    "en": "A sleeping lion: -úci, -iaci",
+    "t": "Сплячий лев: -úci, -iaci"
+  },
+  "a2-u9-l6.grammar-active-participles.title": {
+    "en": "-úci, -iaci: who is doing it",
+    "t": "-úci, -iaci: той, хто це робить"
+  },
+  "a2-u9-l6.grammar-active-participles.body": {
+    "en": [
+      "Slovak can turn a verb into an adjective that says what someone is doing right now: a lion that is sleeping is a **spiaci** lev. You'll mostly read and hear these. In speech, Slovaks often say lev, ktorý spí.",
+      "Take the oni form: -ú or -ia goes, and **-úci** or **-iaci** comes in: spia → spiaci, plávajú → plávajúci. It changes like an adjective: -i for masculine, **-a** for feminine, **-e** for neuter and for the plural (only men keep -i)."
+    ],
+    "t": [
+      "Словацька вміє зробити з дієслова прикметник, який каже, що хтось робить саме зараз: лев, який спить, — **spiaci** lev, як наше «сплячий лев». Такі слова ви здебільшого читатимете й чутимете. У розмові, як і в нас, частіше кажуть lev, ktorý spí — «лев, який спить».",
+      "Візьміть форму oni: -ú чи -ia відпадає, і з'являється **-úci** чи **-iaci**: spia → spiaci, plávajú → plávajúci. Змінюється як прикметник: -i в чоловічому роді, **-a** в жіночому, **-e** в середньому й у множині (лише чоловіки зберігають -i)."
+    ]
+  },
+  "a2-u9-l6.grammar-active-participles.table.head": {
+    "en": [
+      "verb",
+      "oni",
+      "who is doing it"
+    ],
+    "t": [
+      "дієслово",
+      "oni",
+      "той, хто це робить"
+    ]
+  },
+  "a2-u9-l6.grammar-active-participles.table.rows": {
+    "en": [
+      [
+        "spať",
+        "spia",
+        "spiac**i** lev"
+      ],
+      [
+        "sedieť",
+        "sedia",
+        "sediac**a** opica"
+      ],
+      [
+        "hovoriť",
+        "hovoria",
+        "hovoriac**i** papagáj"
+      ],
+      [
+        "plávať",
+        "plávajú",
+        "plávajúc**e** krokodíly"
+      ],
+      [
+        "čítať",
+        "čítajú",
+        "čítajúc**i** študent"
+      ],
+      [
+        "tancovať",
+        "tancujú",
+        "tancujúc**a** artistka"
+      ]
+    ],
+    "t": [
+      [
+        "spať",
+        "spia",
+        "spiac**i** lev"
+      ],
+      [
+        "sedieť",
+        "sedia",
+        "sediac**a** opica"
+      ],
+      [
+        "hovoriť",
+        "hovoria",
+        "hovoriac**i** papagáj"
+      ],
+      [
+        "plávať",
+        "plávajú",
+        "plávajúc**e** krokodíly"
+      ],
+      [
+        "čítať",
+        "čítajú",
+        "čítajúc**i** študent"
+      ],
+      [
+        "tancovať",
+        "tancujú",
+        "tancujúc**a** artistka"
+      ]
+    ]
+  },
+  "a2-u9-l6.grammar-active-participles.examples": {
+    "en": [
+      "There's a sleeping lion.",
+      "That talking parrot can speak Slovak."
+    ],
+    "t": [
+      "Там сплячий лев.",
+      "Той балакучий папуга говорить словацькою."
+    ]
+  },
+  "a2-u9-l6.choice-co-je-spiaci.question": {
+    "en": "What is a spiaci lev?",
+    "t": "Що таке spiaci lev?"
+  },
+  "a2-u9-l6.choice-co-je-spiaci.options": {
+    "en": [
+      "a lion that is sleeping",
+      "a lion that is eating",
+      "a lion that is swimming"
+    ],
+    "t": [
+      "лев, який спить",
+      "лев, який їсть",
+      "лев, який плаває"
+    ]
+  },
+  "a2-u9-l6.choice-co-je-spiaci.why": {
+    "en": "Spiaci comes from spať (to sleep): spia → **spiaci**, the lion who is sleeping.",
+    "t": "Spiaci — від spať (спати): spia → **spiaci**, лев, який спить, — «сплячий»."
+  },
+  "a2-u9-l6.fill-tam-je-spiaca.en": {
+    "en": "There's a sleeping monkey.",
+    "t": "Там спляча мавпа."
+  },
+  "a2-u9-l6.fill-tam-je-spiaca.why": {
+    "en": "Opica is feminine, so the -ci word ends in **-a**: spiac**a** opica.",
+    "t": "Opica — жіночого роду, тож слово на -ci закінчується на **-a**: spiac**a** opica, «спляча мавпа»."
+  },
+  "a2-u9-l6.fill-spiaci-lev-je.en": {
+    "en": "A sleeping lion is a lion that is asleep.",
+    "t": "Сплячий лев — це лев, який спить."
+  },
+  "a2-u9-l6.fill-spiaci-lev-je.why": {
+    "en": "A -ci word says what someone is doing now, so the ktorý clause uses the present, for one lion: **spí**.",
+    "t": "Слово на -ci каже, що хтось робить зараз, тож у частині з ktorý — теперішній час, для одного лева: **spí**."
+  },
+  "a2-u9-l6.choice-sarah-vidi-plavajuce.question": {
+    "en": "What does this mean?",
+    "t": "Що це означає?"
+  },
+  "a2-u9-l6.choice-sarah-vidi-plavajuce.options": {
+    "en": [
+      "Sarah can see crocodiles sleeping.",
+      "Sarah is swimming with crocodiles.",
+      "Sarah can see crocodiles swimming."
+    ],
+    "t": [
+      "Сара бачить сплячих крокодилів.",
+      "Сара плаває з крокодилами.",
+      "Сара бачить крокодилів, які пливуть."
+    ]
+  },
+  "a2-u9-l6.choice-sarah-vidi-plavajuce.why": {
+    "en": "**Plávajúce** comes from plávať (plávajú): crocodiles who are swimming. It ends in -e for animals in the plural.",
+    "t": "**Plávajúce** — від plávať (plávajú): крокодили, які пливуть. Закінчення -e — для тварин у множині."
+  },
+  "a2-u9-l6.grammar-participle-words.title": {
+    "en": "Everyday words in -úci",
+    "t": "Повсякденні слова на -úci"
+  },
+  "a2-u9-l6.grammar-participle-words.body": {
+    "en": [
+      "Some -úci words have become everyday words. Used as nouns, they keep adjective endings: môj vedúci (my boss), moja vedúca (my boss, a woman).",
+      "Budúci and nasledujúci both mean “next”: budúci týždeň (next week), nasledujúca zastávka (the next stop)."
+    ],
+    "t": [
+      "Деякі слова на -úci стали звичайними словами. Як іменники вони зберігають закінчення прикметника: môj vedúci (мій керівник), moja vedúca (моя керівниця). Не плутайте з «ведучий»: vedúci — це начальник.",
+      "Budúci і nasledujúci обидва означають «наступний»: budúci týždeň (наступний тиждень), nasledujúca zastávka (наступна зупинка)."
+    ]
+  },
+  "a2-u9-l6.grammar-participle-words.table.head": {
+    "en": [
+      "word",
+      "meaning"
+    ],
+    "t": [
+      "слово",
+      "значення"
+    ]
+  },
+  "a2-u9-l6.grammar-participle-words.table.rows": {
+    "en": [
+      [
+        "vedúci, vedúca",
+        "boss, manager"
+      ],
+      [
+        "cestujúci",
+        "passenger"
+      ],
+      [
+        "spolubývajúci, spolubývajúca",
+        "flatmate, roommate"
+      ],
+      [
+        "budúci",
+        "next (week, month, year)"
+      ],
+      [
+        "nasledujúci",
+        "next, following"
+      ],
+      [
+        "vzrušujúci",
+        "exciting"
+      ]
+    ],
+    "t": [
+      [
+        "vedúci, vedúca",
+        "керівник, керівниця"
+      ],
+      [
+        "cestujúci",
+        "пасажир"
+      ],
+      [
+        "spolubývajúci, spolubývajúca",
+        "сусід, сусідка по кімнаті"
+      ],
+      [
+        "budúci",
+        "наступний (тиждень, місяць, рік)"
+      ],
+      [
+        "nasledujúci",
+        "наступний, подальший"
+      ],
+      [
+        "vzrušujúci",
+        "захопливий"
+      ]
+    ]
+  },
+  "a2-u9-l6.grammar-participle-words.examples": {
+    "en": [
+      "Emma is Lucia's roommate.",
+      "Next week I'll be in Dublin.",
+      "Next stop: Zoo."
+    ],
+    "t": [
+      "Емма — Луціїна сусідка по кімнаті.",
+      "Наступного тижня я буду в Дубліні.",
+      "Наступна зупинка: Зоопарк."
+    ]
+  },
+  "a2-u9-l6.fill-lucia-je-moja.en": {
+    "en": "Lucia is my roommate.",
+    "t": "Луція — моя сусідка по кімнаті."
+  },
+  "a2-u9-l6.fill-lucia-je-moja.why": {
+    "en": "Lucia is a woman, so the feminine ending **-a**, like moja: spolubývajúc**a**.",
+    "t": "Луція — жінка, тож жіноче закінчення **-a**, як у moja: spolubývajúc**a**."
+  },
+  "a2-u9-l6.fill-moj-veduci-je.en": {
+    "en": "My boss is in a meeting today.",
+    "t": "Мій керівник сьогодні на нараді."
+  },
+  "a2-u9-l6.fill-moj-veduci-je.why": {
+    "en": "Môj is masculine, so the boss is a man: **vedúci**. A woman would be moja vedúca.",
+    "t": "Môj — чоловічого роду, тож керівник — чоловік: **vedúci**. Жінка була б moja vedúca."
+  },
+  "a2-u9-l6.choice-nasledujuca-zastavka-zoo.question": {
+    "en": "Emma, Liam and Sarah hear this on the bus. What does it mean?",
+    "t": "Емма, Ліам і Сара чують це в автобусі. Що це означає?"
+  },
+  "a2-u9-l6.choice-nasledujuca-zastavka-zoo.options": {
+    "en": [
+      "Last stop: Zoo.",
+      "Next stop: Zoo.",
+      "This bus doesn't stop at the zoo."
+    ],
+    "t": [
+      "Кінцева зупинка: Зоопарк.",
+      "Наступна зупинка: Зоопарк.",
+      "Цей автобус не зупиняється біля зоопарку."
+    ]
+  },
+  "a2-u9-l6.build-buduci-tyzden-idu.prompt": {
+    "en": "Liam and Sarah are going home next week.",
+    "t": "Наступного тижня Ліам і Сара їдуть додому."
+  },
+  "a2-u9-l6.build-buduci-tyzden-idu.traps": {
+    "en": [
+      "Týždeň is masculine: **budúci** týždeň.",
+      "Liam a Sarah are oni: **idú**."
+    ],
+    "t": [
+      "Týždeň — чоловічого роду: **budúci** týždeň.",
+      "Ліам і Сара — це oni: **idú**."
+    ]
+  },
+  "a2-u9-l6.grammar-participles-sa.title": {
+    "en": "With sa, and spiaci or spací?",
+    "t": "Із sa, і spiaci чи spací?"
+  },
+  "a2-u9-l6.grammar-participles-sa.body": {
+    "en": [
+      "Verbs with sa keep it after the -úci word: hrajúce **sa** deti, children playing (hrať sa, to play).",
+      "Don't mix them up with adjectives in **-cí**, which say what a thing is for: a spací vak is a sleeping bag, a bag for sleeping. A spiaci chlapec is a boy who is asleep."
+    ],
+    "t": [
+      "Дієслова з sa зберігають його після слова на -úci: hrajúce **sa** deti, діти, що граються (hrať sa — гратися).",
+      "Не плутайте їх із прикметниками на **-cí**, які кажуть, для чого річ: spací vak — спальний мішок, мішок для сну. А spiaci chlapec — хлопчик, який спить. Як у нас: спальний ↔ сплячий."
+    ]
+  },
+  "a2-u9-l6.grammar-participles-sa.table.head": {
+    "en": [
+      "-úci, -iaci: doing it",
+      "-cí: for doing it"
+    ],
+    "t": [
+      "-úci, -iaci: робить зараз",
+      "-cí: для цього"
+    ]
+  },
+  "a2-u9-l6.grammar-participles-sa.table.rows": {
+    "en": [
+      [
+        "spiaci chlapec (a sleeping boy)",
+        "spací vak (a sleeping bag)"
+      ],
+      [
+        "píšuci študent (a student writing)",
+        "písací stôl (a writing desk)"
+      ]
+    ],
+    "t": [
+      [
+        "spiaci chlapec (сплячий хлопчик)",
+        "spací vak (спальний мішок)"
+      ],
+      [
+        "píšuci študent (студент, який пише)",
+        "písací stôl (письмовий стіл)"
+      ]
+    ]
+  },
+  "a2-u9-l6.grammar-participles-sa.examples": {
+    "en": [
+      "There are children playing in the park.",
+      "Liam is sleeping in a sleeping bag."
+    ],
+    "t": [
+      "У парку граються діти.",
+      "Ліам спить у спальному мішку."
+    ]
+  },
+  "a2-u9-l6.choice-ktory-je-spaci.question": {
+    "en": "Which one is a sleeping bag?",
+    "t": "Що з цього — спальний мішок?"
+  },
+  "a2-u9-l6.choice-ktory-je-spaci.why": {
+    "en": "A bag for sleeping takes **-cí**: spací vak. Spiaci means “who is sleeping right now”.",
+    "t": "Мішок для сну — це **-cí**: spací vak, «спальний». Spiaci означає «який спить просто зараз», «сплячий»."
+  },
+  "a2-u9-l6.choice-hrajuce-sa-deti.question": {
+    "en": "What does this mean?",
+    "t": "Що це означає?"
+  },
+  "a2-u9-l6.choice-hrajuce-sa-deti.options": {
+    "en": [
+      "children playing",
+      "children swimming",
+      "children's games"
+    ],
+    "t": [
+      "діти, що граються",
+      "діти, що плавають",
+      "дитячі ігри"
+    ]
+  },
+  "a2-u9-l6.choice-hrajuce-sa-deti.why": {
+    "en": "From hrať sa (to play): hrajú sa → hrajúce **sa**. Verbs with sa keep it after the -úci word.",
+    "t": "Від hrať sa (гратися): hrajú sa → hrajúce **sa**. Дієслова з sa зберігають його після слова на -úci."
+  },
+  "a2-u9-l6.build-cestujuci-cakaju-na.answers": {
+    "en": [
+      "The passengers are waiting for the bus."
+    ],
+    "t": [
+      "Пасажири чекають на автобус.",
+      "Пасажири чекають автобуса."
+    ]
+  },
+  "a2-u9-l6.build-cestujuci-cakaju-na.distractors": {
+    "en": [
+      "drivers",
+      "is"
+    ],
+    "t": [
+      "водії",
+      "чекає"
+    ]
+  },
+  "a2-u9-l6.speak-tam-je-spiaci.en": {
+    "en": "There's a sleeping lion.",
+    "t": "Там сплячий лев."
+  },
+  "a2-u9-l7.titleEn": {
+    "en": "Grandma's recipe",
+    "t": "Бабусин рецепт"
+  },
+  "a2-u9-l7.babka-a-vnuk.en": {
+    "en": "Hi, Grandma!",
+    "t": "Привіт, бабусю!"
+  },
+  "a2-u9-l7.babka-a-vnuk.note": {
+    "en": "Marek calls babka Helena **babi**, the way you say mami to Mum. You know he's her vnuk and Lucia her vnučka from Christmas.",
+    "t": "Марек називає бабусю Гелену **babi**, так само як маму — mami. Що він її vnuk (онук), а Луція — vnučka (онука), ви знаєте з Різдва."
+  },
+  "a2-u9-l7.kolac.en": {
+    "en": "cake",
+    "t": "пиріг"
+  },
+  "a2-u9-l7.kolac.note": {
+    "en": "A simple home-made cake, often baked in a tin. **babkin koláč** = Grandma's cake (babka → babkin, like Emma → Emmin).",
+    "t": "Простий домашній пиріг, часто спечений на деку чи у формі (не калач!). **babkin koláč** = бабусин пиріг (babka → babkin, як Emma → Emmin — і як наше бабуся → бабусин)."
+  },
+  "a2-u9-l7.recept.en": {
+    "en": "recipe",
+    "t": "рецепт"
+  },
+  "a2-u9-l7.recept.note": {
+    "en": "**recept na** koláč = a recipe for a cake. At the doctor's, a recept is a prescription.",
+    "t": "**recept na** koláč = рецепт пирога. Як і в нас, у лікаря recept — це рецепт на ліки."
+  },
+  "a2-u9-l7.choice-marek-telefonuje-s.question": {
+    "en": "Marek wants to cook dinner for Veronika, the doctor he met in winter. Why is he phoning his grandmother?",
+    "t": "Марек хоче приготувати вечерю для Вероніки — лікарки, з якою познайомився взимку. Навіщо він дзвонить бабусі?"
+  },
+  "a2-u9-l7.choice-marek-telefonuje-s.options": {
+    "en": [
+      "He wants her to bake him a cake.",
+      "He wants her cake recipe.",
+      "He wants to invite her to dinner."
+    ],
+    "t": [
+      "Хоче, щоб вона спекла йому пиріг.",
+      "Хоче її рецепт пирога.",
+      "Хоче запросити її на вечерю."
+    ]
+  },
+  "a2-u9-l7.dlho-si-sa.en": {
+    "en": "We haven't heard from you for ages!",
+    "t": "Ти так давно нам не озивався!"
+  },
+  "a2-u9-l7.dlho-si-sa.note": {
+    "en": "**ozvať sa** = to get in touch. Babka says **nám**, “to us”: the whole family in Žilina.",
+    "t": "**ozvať sa** = озватися, дати про себе знати. Бабуся каже **nám**, «нам»: уся родина в Жиліні."
+  },
+  "a2-u9-l7.fill-prepac-ze-som.en": {
+    "en": "Hi, Grandma! Sorry I haven't been in touch for so long.",
+    "t": "Привіт, бабусю! Вибач, що я так довго не озивався."
+  },
+  "a2-u9-l7.fill-prepac-ze-som.why": {
+    "en": "Marek is a man, so the past ends in **-l**: neozval. Lucia would say neozvala.",
+    "t": "Марек — чоловік, тож минулий час на **-l**: neozval, «не озивався». Луція сказала б neozvala."
+  },
+  "a2-u9-l7.stalo-sa-nieco.en": {
+    "en": "Has something happened? — No, don't worry.",
+    "t": "Щось сталося? — Ні, не хвилюйся."
+  },
+  "a2-u9-l7.stalo-sa-nieco.note": {
+    "en": "**Neboj sa!** = Don't worry! To vy: Nebojte sa! It comes from báť sa, to be afraid.",
+    "t": "**Neboj sa!** = Не хвилюйся! (дослівно «не бійся»). До «ви»: Nebojte sa! Від báť sa — боятися."
+  },
+  "a2-u9-l7.choice-nie-neboj-sa.question": {
+    "en": "Babka asks: Stalo sa niečo? Marek wants to calm her down. What does he say?",
+    "t": "Бабуся питає: Stalo sa niečo? Марек хоче її заспокоїти. Що він каже?"
+  },
+  "a2-u9-l7.choice-nie-neboj-sa.why": {
+    "en": "Marek says ty to his grandmother, so **neboj sa**. Nebojte sa is for vy.",
+    "t": "До бабусі Марек звертається на ty, тож **neboj sa**. Nebojte sa — для vy."
+  },
+  "a2-u9-l7.zvladnut.en": {
+    "en": "to manage, to cope",
+    "t": "впоратися, подужати"
+  },
+  "a2-u9-l7.zvladnut.note": {
+    "en": "It's perfective, so its present form means the future: **Zvládnem to.** = I'll manage.",
+    "t": "Це доконаний вид, тож його теперішня форма означає майбутнє, як і в нас: **Zvládnem to.** = Я впораюся."
+  },
+  "a2-u9-l7.si-si-isty.en": {
+    "en": "Are you sure?",
+    "t": "Ти впевнений?"
+  },
+  "a2-u9-l7.si-si-isty.note": {
+    "en": "**istý** = sure. Si si istý, že to zvládneš? = Are you sure you'll manage?",
+    "t": "**istý** = певний, упевнений. Si si istý, že to zvládneš? = Ти впевнений, що впораєшся?"
+  },
+  "a2-u9-l7.fill-si-si-isty.en": {
+    "en": "Are you sure you'll manage?",
+    "t": "Ти впевнений, що впораєшся?"
+  },
+  "a2-u9-l7.fill-si-si-isty.why": {
+    "en": "Babka is talking to Marek, a man, so **istý**. To Lucia she'd say istá.",
+    "t": "Бабуся говорить із Мареком, чоловіком, тож **istý**, «впевнений». Луції вона сказала б istá."
+  },
+  "a2-u9-l7.build-neboj-sa-babi.prompt": {
+    "en": "Don't worry, Grandma, I'll manage.",
+    "t": "Не хвилюйся, бабусю, я впораюся."
+  },
+  "a2-u9-l7.build-neboj-sa-babi.traps": {
+    "en": [
+      "Marek is talking about himself, ja: **zvládnem**. Zvládneš is ty.",
+      "To one person you say ty: **neboj** sa. Nebojte sa is for vy."
+    ],
+    "t": [
+      "Марек говорить про себе, ja: **zvládnem**. Zvládneš — для ty.",
+      "До однієї людини — на ty: **neboj** sa. Nebojte sa — для vy."
+    ]
+  },
+  "a2-u9-l7.match-babkin-recept.pairs": {
+    "en": [
+      "grandmother",
+      "grandson",
+      "cake",
+      "recipe",
+      "to manage"
+    ],
+    "t": [
+      "бабуся",
+      "онук",
+      "пиріг",
+      "рецепт",
+      "впоратися"
+    ]
+  },
+  "a2-u9-l7.build-mama-hovori-ze.prompt": {
+    "en": "Mum says you've got the best recipe.",
+    "t": "Мама каже, що в тебе найкращий рецепт."
+  },
+  "a2-u9-l7.build-mama-hovori-ze.traps": {
+    "en": [
+      "Recept is masculine, so the ending is **-í**: najlepš**í** recept.",
+      "Marek is talking to babka, ty: **máš**."
+    ],
+    "t": [
+      "Recept — чоловічого роду, тож закінчення **-í**: najlepš**í** recept.",
+      "Марек говорить до бабусі на ty: **máš**."
+    ]
+  },
+  "a2-u9-l7.build-si-si-isty.answers": {
+    "en": [
+      "Are you sure you'll manage?",
+      "Are you sure you will manage?"
+    ],
+    "t": [
+      "Ти впевнений, що впораєшся?",
+      "Ти певен, що впораєшся?"
+    ]
+  },
+  "a2-u9-l7.build-si-si-isty.distractors": {
+    "en": [
+      "I'll",
+      "we"
+    ],
+    "t": [
+      "впораюся",
+      "ми"
+    ]
+  },
+  "a2-u9-l7.speak-neboj-sa-zvladnem.en": {
+    "en": "Don't worry, I'll manage.",
+    "t": "Не хвилюйся, я впораюся."
+  },
+  "a2-u9-l8.titleEn": {
+    "en": "What do I need?",
+    "t": "Що мені потрібно?"
+  },
+  "a2-u9-l8.vajce.en": {
+    "en": "egg",
+    "t": "яйце"
+  },
+  "a2-u9-l8.vajce.note": {
+    "en": "More than one: **vajcia**. Slovaks often say vajíčko.",
+    "t": "Кілька: **vajcia**, «яйця». Словаки часто кажуть vajíčko, «яєчко»."
+  },
+  "a2-u9-l8.muka.en": {
+    "en": "flour",
+    "t": "борошно"
+  },
+  "a2-u9-l8.muka.note": {
+    "en": "**hrubá múka** = coarse flour, the kind many Slovak cakes use.",
+    "t": "Не «мука»! **hrubá múka** = борошно грубого помелу, з якого печуть багато словацьких пирогів."
+  },
+  "a2-u9-l8.choice-potrebujes-vajcia-a.question": {
+    "en": "Babka starts the list. What does Marek need?",
+    "t": "Бабуся починає список. Що потрібно Марекові?"
+  },
+  "a2-u9-l8.choice-potrebujes-vajcia-a.options": {
+    "en": [
+      "eggs and icing sugar",
+      "milk and coarse flour",
+      "eggs and coarse flour"
+    ],
+    "t": [
+      "яйця й цукрова пудра",
+      "молоко й борошно грубого помелу",
+      "яйця й борошно грубого помелу"
+    ]
+  },
+  "a2-u9-l8.cukor.en": {
+    "en": "sugar",
+    "t": "цукор"
+  },
+  "a2-u9-l8.cukor.note": {
+    "en": "**práškový cukor** = icing sugar. Káva s cukrom = coffee with sugar.",
+    "t": "**práškový cukor** = цукрова пудра. Káva s cukrom = кава з цукром."
+  },
+  "a2-u9-l8.fill-potrebujes-aj-praskovy.en": {
+    "en": "You need icing sugar too.",
+    "t": "Тобі потрібна ще й цукрова пудра."
+  },
+  "a2-u9-l8.fill-potrebujes-aj-praskovy.why": {
+    "en": "Cukor is masculine, so the adjective ends in **-ý**: práškov**ý** cukor.",
+    "t": "Cukor — чоловічого роду, тож прикметник на **-ý**: práškov**ý** cukor."
+  },
+  "a2-u9-l8.olej.en": {
+    "en": "oil",
+    "t": "олія"
+  },
+  "a2-u9-l8.olej.note": {
+    "en": "Masculine, like čaj.",
+    "t": "Чоловічого роду, як čaj (не як наша «олія»)."
+  },
+  "a2-u9-l8.prasok-do-peciva.en": {
+    "en": "baking powder",
+    "t": "розпушувач"
+  },
+  "a2-u9-l8.prasok-do-peciva.note": {
+    "en": "Literally “powder for baking”. Its other name is **kypriaci prášok**.",
+    "t": "Дослівно «порошок для випічки». Інша назва — **kypriaci prášok**, як наше «розпушувач»."
+  },
+  "a2-u9-l8.match-co-potrebujem.pairs": {
+    "en": [
+      "egg",
+      "flour",
+      "sugar",
+      "oil",
+      "milk"
+    ],
+    "t": [
+      "яйце",
+      "борошно",
+      "цукор",
+      "олія",
+      "молоко"
+    ]
+  },
+  "a2-u9-l8.jahoda.en": {
+    "en": "strawberry",
+    "t": "полуниця"
+  },
+  "a2-u9-l8.jahoda.note": {
+    "en": "Plural: **jahody**. **jahodový koláč** = strawberry cake.",
+    "t": "Не будь-яка ягода, а саме полуниця! Множина: **jahody**. **jahodový koláč** = полуничний пиріг."
+  },
+  "a2-u9-l8.build-potrebujem-vajcia-olej.prompt": {
+    "en": "I need eggs, oil and flour.",
+    "t": "Мені потрібні яйця, олія і борошно."
+  },
+  "a2-u9-l8.build-potrebujem-vajcia-olej.traps": {
+    "en": [
+      "Several eggs: the plural, **vajcia**.",
+      "The flour is what you need, the object: -a → **-u**, múk**u**."
+    ],
+    "t": [
+      "Кілька яєць — множина: **vajcia**.",
+      "Борошно — те, що потрібно, додаток: -a → **-u**, múk**u**."
+    ]
+  },
+  "a2-u9-l8.fill-kupim-cerstve-jahody.en": {
+    "en": "I'll buy fresh strawberries.",
+    "t": "Я куплю свіжої полуниці."
+  },
+  "a2-u9-l8.fill-kupim-cerstve-jahody.why": {
+    "en": "Jahody is plural, so the adjective ends in **-é**: čerstv**é** jahody, like zelené jablká.",
+    "t": "Jahody — множина, тож прикметник на **-é**: čerstv**é** jahody, як zelené jablká."
+  },
+  "a2-u9-l8.choice-co-pomoze-kolacu.question": {
+    "en": "Which one makes a cake rise?",
+    "t": "Що з цього допомагає пирогу піднятися?"
+  },
+  "a2-u9-l8.choice-mlieko-a-maslo.question": {
+    "en": "What is babka asking?",
+    "t": "Про що питає бабуся?"
+  },
+  "a2-u9-l8.choice-mlieko-a-maslo.options": {
+    "en": [
+      "Can you buy milk and butter?",
+      "Have you got milk and butter at home?",
+      "Do you like milk and butter?"
+    ],
+    "t": [
+      "Ти можеш купити молоко й масло?",
+      "Молоко й масло в тебе вдома є?",
+      "Ти любиш молоко й масло?"
+    ]
+  },
+  "a2-u9-l8.si-poklad.en": {
+    "en": "You're a treasure!",
+    "t": "Ти скарб!"
+  },
+  "a2-u9-l8.si-poklad.note": {
+    "en": "**poklad** = treasure. Babka answers: Ďakujem, **zlatko**! (darling) Or **synček**, “my boy”, the way grandmothers talk to grandsons.",
+    "t": "**poklad** = скарб. Бабуся відповідає: Ďakujem, **zlatko**! (золотко) Або **synček**, «синочку», як бабусі звертаються до онуків."
+  },
+  "a2-u9-l8.choice-babi-si-poklad.question": {
+    "en": "Babka has given Marek the whole recipe. What does he say?",
+    "t": "Бабуся дала Марекові весь рецепт. Що він каже?"
+  },
+  "a2-u9-l8.build-dakujem-syncek-aj.answers": {
+    "en": [
+      "Thank you, my boy. You're my treasure too."
+    ],
+    "t": [
+      "Дякую, синочку. Ти теж мій скарб.",
+      "Дякую, синочку. І ти мій скарб."
+    ]
+  },
+  "a2-u9-l8.build-dakujem-syncek-aj.distractors": {
+    "en": [
+      "girl",
+      "cake"
+    ],
+    "t": [
+      "доню",
+      "пиріг"
+    ]
+  },
+  "a2-u9-l8.speak-babi-si-poklad.en": {
+    "en": "Grandma, you're a treasure!",
+    "t": "Бабусю, ти скарб!"
+  },
+  "a2-u9-l9.titleEn": {
+    "en": "A kilo of strawberries",
+    "t": "Кіло полуниці"
+  },
+  "a2-u9-l9.kilo.en": {
+    "en": "kilo",
+    "t": "кілограм, кіло"
+  },
+  "a2-u9-l9.kilo.note": {
+    "en": "**pol kila** = half a kilo. At the market: Prosím si kilo jahôd. = A kilo of strawberries, please.",
+    "t": "**pol kila** = півкіло. На ринку: Prosím si kilo jahôd. = Кіло полуниці, будь ласка."
+  },
+  "a2-u9-l9.gram.en": {
+    "en": "gram",
+    "t": "грам"
+  },
+  "a2-u9-l9.gram.note": {
+    "en": "dvesto **gramov** = 200 grams. Slovaks also weigh in deka, ten grams: desať deka syra.",
+    "t": "dvesto **gramov** = двісті грамів. Словаки ще важать у deka, по десять грамів: desať deka syra = сто грамів сиру."
+  },
+  "a2-u9-l9.grammar-quantities-genitive.title": {
+    "en": "Quantities: kilo jahôd",
+    "t": "Кількість: kilo jahôd"
+  },
+  "a2-u9-l9.grammar-quantities-genitive.body": {
+    "en": [
+      "You know šálka čaju and kilo múky from unit 5: after a measure, the food takes the genitive, the “of” form. A recipe adds lyžica, vrecko and štipka, and these foods' genitives are worth learning: kilo **jahôd**, päť **vajec**, štipka **soli**."
+    ],
+    "t": [
+      "Šálka čaju і kilo múky ви знаєте з розділу 5: після міри продукт стоїть у родовому відмінку, як у нас «чашка чаю, кіло борошна». Рецепт додає lyžica, vrecko і štipka, а родові форми цих продуктів варто вивчити: kilo **jahôd**, päť **vajec** («п'ять яєць»), štipka **soli** («дрібка солі»)."
+    ]
+  },
+  "a2-u9-l9.grammar-quantities-genitive.table.head": {
+    "en": [
+      "food",
+      "how much"
+    ],
+    "t": [
+      "продукт",
+      "скільки"
+    ]
+  },
+  "a2-u9-l9.grammar-quantities-genitive.table.rows": {
+    "en": [
+      [
+        "cukor",
+        "dvesto gramov cukr**u**"
+      ],
+      [
+        "múka",
+        "dve šálky múk**y**"
+      ],
+      [
+        "olej",
+        "lyžica olej**a**"
+      ],
+      [
+        "mlieko",
+        "šálka mliek**a**"
+      ],
+      [
+        "soľ",
+        "štipka sol**i**"
+      ],
+      [
+        "prášok do pečiva",
+        "vrecko prášk**u** do pečiva"
+      ],
+      [
+        "jahody",
+        "kilo jah**ôd**"
+      ],
+      [
+        "vajcia",
+        "šesť vaj**ec**"
+      ]
+    ],
+    "t": [
+      [
+        "cukor",
+        "dvesto gramov cukr**u**"
+      ],
+      [
+        "múka",
+        "dve šálky múk**y**"
+      ],
+      [
+        "olej",
+        "lyžica olej**a**"
+      ],
+      [
+        "mlieko",
+        "šálka mliek**a**"
+      ],
+      [
+        "soľ",
+        "štipka sol**i**"
+      ],
+      [
+        "prášok do pečiva",
+        "vrecko prášk**u** do pečiva"
+      ],
+      [
+        "jahody",
+        "kilo jah**ôd**"
+      ],
+      [
+        "vajcia",
+        "šesť vaj**ec**"
+      ]
+    ]
+  },
+  "a2-u9-l9.grammar-quantities-genitive.examples": {
+    "en": [
+      "A kilo of strawberries, please.",
+      "We need a cup of flour."
+    ],
+    "t": [
+      "Кіло полуниці, будь ласка.",
+      "Нам потрібна чашка борошна."
+    ]
+  },
+  "a2-u9-l9.fill-prosim-si-pol.en": {
+    "en": "Half a kilo of strawberries, please.",
+    "t": "Півкіло полуниці, будь ласка."
+  },
+  "a2-u9-l9.fill-prosim-si-pol.why": {
+    "en": "After a quantity like pol kila, the food takes the of-form: **jahôd**.",
+    "t": "Після кількості, як-от pol kila, продукт стоїть у родовому: **jahôd**."
+  },
+  "a2-u9-l9.lyzica.en": {
+    "en": "spoon, spoonful",
+    "t": "ложка"
+  },
+  "a2-u9-l9.lyzica.note": {
+    "en": "**lyžička** = a teaspoon. Dve lyžice oleja = two spoonfuls of oil.",
+    "t": "**lyžička** = чайна ложка, ложечка. Dve lyžice oleja = дві ложки олії."
+  },
+  "a2-u9-l9.salka.en": {
+    "en": "cup",
+    "t": "чашка"
+  },
+  "a2-u9-l9.salka.note": {
+    "en": "In recipes it's also a measure: šálka múky. **Šálka kávy** = a cup of coffee.",
+    "t": "У рецептах це ще й міра: šálka múky. **Šálka kávy** = чашка кави."
+  },
+  "a2-u9-l9.fill-potrebujes-dve-lyzice.en": {
+    "en": "You need two spoonfuls of oil.",
+    "t": "Тобі потрібні дві ложки олії."
+  },
+  "a2-u9-l9.fill-potrebujes-dve-lyzice.why": {
+    "en": "After a quantity, the of-form: lyžica **oleja**. Masculine words take -a here.",
+    "t": "Після кількості — родовий: lyžica **oleja**. Чоловічий рід тут має -a."
+  },
+  "a2-u9-l9.vrecko.en": {
+    "en": "sachet, small bag",
+    "t": "пакетик"
+  },
+  "a2-u9-l9.vrecko.note": {
+    "en": "vrecko prášku do pečiva = a sachet of baking powder",
+    "t": "vrecko prášku do pečiva = пакетик розпушувача"
+  },
+  "a2-u9-l9.sol.en": {
+    "en": "salt",
+    "t": "сіль"
+  },
+  "a2-u9-l9.sol.note": {
+    "en": "Feminine. **štipka soli** = a pinch of salt.",
+    "t": "Жіночого роду, як і в нас. **štipka soli** = дрібка солі."
+  },
+  "a2-u9-l9.match-kolko.pairs": {
+    "en": [
+      "spoonful",
+      "cup",
+      "sachet",
+      "salt"
+    ],
+    "t": [
+      "ложка",
+      "чашка",
+      "пакетик",
+      "сіль"
+    ]
+  },
+  "a2-u9-l9.build-prosim-si-kilo.prompt": {
+    "en": "A kilo of strawberries and ten eggs, please.",
+    "t": "Кіло полуниці й десять яєць, будь ласка."
+  },
+  "a2-u9-l9.build-prosim-si-kilo.traps": {
+    "en": [
+      "After kilo, the of-form: kilo **jahôd**.",
+      "From five up, the of-form: desať **vajec**."
+    ],
+    "t": [
+      "Після kilo — родовий: kilo **jahôd**.",
+      "Від п'яти — родовий: desať **vajec**, як «десять яєць»."
+    ]
+  },
+  "a2-u9-l9.choice-potrebujem-dvesto-gramov.question": {
+    "en": "At the shop, Marek needs 200 grams of sugar. What does he say?",
+    "t": "У магазині Марекові потрібно двісті грамів цукру. Що він каже?"
+  },
+  "a2-u9-l9.choice-potrebujem-dvesto-gramov.why": {
+    "en": "From five up, the of-form, for both words: dvesto **gramov** cukr**u**.",
+    "t": "Від п'яти — родовий, для обох слів: dvesto **gramov** cukr**u**, як «двісті грамів цукру»."
+  },
+  "a2-u9-l9.choice-kolko-muky-potrebujes.question": {
+    "en": "Lucia asks, Marek answers. How much flour does he need?",
+    "t": "Луція питає, Марек відповідає. Скільки борошна йому потрібно?"
+  },
+  "a2-u9-l9.choice-kolko-muky-potrebujes.options": {
+    "en": [
+      "Two kilos.",
+      "Two spoonfuls.",
+      "Two cups."
+    ],
+    "t": [
+      "Два кілограми.",
+      "Дві ложки.",
+      "Дві чашки."
+    ]
+  },
+  "a2-u9-l9.fill-na-kolac-potrebujes.en": {
+    "en": "For the cake you also need a pinch of salt.",
+    "t": "Для пирога тобі потрібна ще й дрібка солі."
+  },
+  "a2-u9-l9.fill-na-kolac-potrebujes.why": {
+    "en": "After štipka (a pinch), the of-form: štipka **soli**.",
+    "t": "Після štipka (дрібка) — родовий: štipka **soli**, «дрібка солі»."
+  },
+  "a2-u9-l9.build-potrebujeme-vrecko-prasku.prompt": {
+    "en": "We need a sachet of baking powder.",
+    "t": "Нам потрібен пакетик розпушувача."
+  },
+  "a2-u9-l9.build-potrebujeme-vrecko-prasku.traps": {
+    "en": [
+      "After vrecko, the of-form: vrecko **prášku**.",
+      "One sachet is the object, and neuter words like vrecko don't change: **vrecko**."
+    ],
+    "t": [
+      "Після vrecko — родовий: vrecko **prášku**.",
+      "Один пакетик — додаток, а слова середнього роду, як vrecko, тут не змінюються: **vrecko**."
+    ]
+  },
+  "a2-u9-l9.listen-potrebujem-kilo-jahod.en": {
+    "en": "I need a kilo of strawberries and six eggs.",
+    "t": "Мені потрібно кіло полуниці й шість яєць."
+  },
+  "a2-u9-l9.speak-prosim-si-pol.en": {
+    "en": "Half a kilo of strawberries, please.",
+    "t": "Півкіло полуниці, будь ласка."
+  },
+  "a2-u9-l10.titleEn": {
+    "en": "Baking the cake",
+    "t": "Печемо пиріг"
+  },
+  "a2-u9-l10.piect-upiect.en": {
+    "en": "to bake",
+    "t": "пекти / спекти"
+  },
+  "a2-u9-l10.piect-upiect.note": {
+    "en": "You know **upiecť** from unit 2: Upečiem tortu, upiekol, upiekla. Its imperfective partner is **piecť**: **Pečiem** koláč. = I'm baking a cake (it's in the oven). Past: piekol, piekla.",
+    "t": "**upiecť** ви знаєте з розділу 2: Upečiem tortu, upiekol, upiekla. Його недоконана пара — **piecť**, як спекти — пекти: **Pečiem** koláč. = Я печу пиріг (він у духовці). Минулий час: piekol, piekla."
+  },
+  "a2-u9-l10.cesto.en": {
+    "en": "dough, cake mixture",
+    "t": "тісто"
+  },
+  "a2-u9-l10.cesto.note": {
+    "en": "Neuter, like mesto.",
+    "t": "Середнього роду, як mesto."
+  },
+  "a2-u9-l10.choice-zajtra-upeciem-kolac.question": {
+    "en": "Marek tells Lucia his plan. When will the cake be ready?",
+    "t": "Марек розповідає Луції свій план. Коли пиріг буде готовий?"
+  },
+  "a2-u9-l10.choice-zajtra-upeciem-kolac.options": {
+    "en": [
+      "It's in the oven now.",
+      "Tomorrow.",
+      "It was ready yesterday."
+    ],
+    "t": [
+      "Він уже в духовці.",
+      "Завтра.",
+      "Він був готовий учора."
+    ]
+  },
+  "a2-u9-l10.choice-zajtra-upeciem-kolac.why": {
+    "en": "**Upečiem** is perfective, so its present form means the future, like napíšem.",
+    "t": "**Upečiem** — доконаний вид, тож його теперішня форма означає майбутнє, як napíšem — і як наше «спечу»."
+  },
+  "a2-u9-l10.miesat-vymiesat.en": {
+    "en": "to mix, to stir",
+    "t": "мішати / змішати"
+  },
+  "a2-u9-l10.miesat-vymiesat.note": {
+    "en": "Recipes speak as my (we): **Vymiešame** vajcia s cukrom. = We mix the eggs with the sugar.",
+    "t": "Рецепти говорять від «ми» (my): **Vymiešame** vajcia s cukrom. = Змішуємо яйця з цукром."
+  },
+  "a2-u9-l10.slahat-vyslahat.en": {
+    "en": "to whisk, to whip",
+    "t": "збивати / збити"
+  },
+  "a2-u9-l10.slahat-vyslahat.note": {
+    "en": "**šľahačka** = whipped cream.",
+    "t": "**šľahačka** = збиті вершки."
+  },
+  "a2-u9-l10.fill-najprv-vymiesame-vajcia.en": {
+    "en": "First we mix the eggs with the sugar.",
+    "t": "Спочатку змішуємо яйця з цукром."
+  },
+  "a2-u9-l10.fill-najprv-vymiesame-vajcia.why": {
+    "en": "Recipes speak as my (we), so the verb ends in **-me**: vymieša**me**.",
+    "t": "Рецепти говорять від my (ми), тож дієслово на **-me**: vymieša**me**."
+  },
+  "a2-u9-l10.pridat.en": {
+    "en": "to add",
+    "t": "додати"
+  },
+  "a2-u9-l10.pridat.note": {
+    "en": "Perfective, like kúpiť: **Pridáme** múku. = We add the flour.",
+    "t": "Доконаний вид, як kúpiť: **Pridáme** múku. = Додаємо борошно."
+  },
+  "a2-u9-l10.build-potom-pridame-olej.prompt": {
+    "en": "Then we add the oil and the milk.",
+    "t": "Потім додаємо олію й молоко."
+  },
+  "a2-u9-l10.build-potom-pridame-olej.traps": {
+    "en": [
+      "A recipe speaks as my (we): **pridáme**. Pridám is ja.",
+      "There's no quantity here: the oil is just the object, and masculine things don't change, **olej**."
+    ],
+    "t": [
+      "Рецепт говорить від my (ми): **pridáme**. Pridám — для ja.",
+      "Тут немає кількості: олія — просто додаток, а речі чоловічого роду не змінюються: **olej**."
+    ]
+  },
+  "a2-u9-l10.rura.en": {
+    "en": "oven",
+    "t": "духовка"
+  },
+  "a2-u9-l10.rura.note": {
+    "en": "Pečieme v rúre na sto osemdesiat **stupňoch**. = We bake in the oven at 180 degrees. The baking tin is a **plech**.",
+    "t": "Pečieme v rúre na sto osemdesiat **stupňoch**. = Печемо в духовці за температури сто вісімдесят градусів. Деко для випікання — **plech**."
+  },
+  "a2-u9-l10.fill-kolac-pecieme-v.en": {
+    "en": "We bake the cake in the oven.",
+    "t": "Пиріг печемо в духовці."
+  },
+  "a2-u9-l10.fill-kolac-pecieme-v.why": {
+    "en": "V for “where” takes the locative: rúra → v **rúre**, like škola → v škole.",
+    "t": "V на питання «де?» вимагає місцевого: rúra → v **rúre**, як škola → v škole."
+  },
+  "a2-u9-l10.vychladnut.en": {
+    "en": "to cool down",
+    "t": "охолонути"
+  },
+  "a2-u9-l10.vychladnut.note": {
+    "en": "Perfective. While it's happening, the imperfective: Koláč **chladne**. = The cake is cooling.",
+    "t": "Доконаний вид. Поки це триває — недоконаний: Koláč **chladne**. = Пиріг холоне."
+  },
+  "a2-u9-l10.match-pecieme.pairs": {
+    "en": [
+      "to bake",
+      "to mix",
+      "to whisk",
+      "to add",
+      "oven"
+    ],
+    "t": [
+      "пекти",
+      "мішати",
+      "збивати",
+      "додати",
+      "духовка"
+    ]
+  },
+  "a2-u9-l10.choice-teraz-peciem-kolac.question": {
+    "en": "Lucia phones. Marek's cake is in the oven right now. What does he say?",
+    "t": "Дзвонить Луція. Мареків пиріг саме зараз у духовці. Що він каже?"
+  },
+  "a2-u9-l10.choice-teraz-peciem-kolac.why": {
+    "en": "What's going on right now is imperfective: **pečiem**. Upečiem is perfective, so it means the future.",
+    "t": "Те, що відбувається просто зараз, — недоконаний вид: **pečiem**, «печу». Upečiem — доконаний, тож означає майбутнє, «спечу»."
+  },
+  "a2-u9-l10.build-kolac-musi-vychladnut.prompt": {
+    "en": "The cake has to cool down.",
+    "t": "Пиріг має охолонути."
+  },
+  "a2-u9-l10.build-kolac-musi-vychladnut.traps": {
+    "en": [
+      "After musí comes the infinitive, the -ť form: **vychladnúť**.",
+      "The cake is on (it), so **musí**. Musím is ja."
+    ],
+    "t": [
+      "Після musí іде інфінітив, форма на -ť: **vychladnúť**.",
+      "Пиріг — це on (він), тож **musí**. Musím — для ja."
+    ]
+  },
+  "a2-u9-l10.build-pecieme-ho-styridsat.answers": {
+    "en": [
+      "We bake it for forty minutes."
+    ],
+    "t": [
+      "Печемо його сорок хвилин.",
+      "Ми печемо його сорок хвилин."
+    ]
+  },
+  "a2-u9-l10.build-pecieme-ho-styridsat.distractors": {
+    "en": [
+      "hours",
+      "fourteen"
+    ],
+    "t": [
+      "годин",
+      "чотирнадцять"
+    ]
+  },
+  "a2-u9-l10.choice-najprv-vyslahame-vajcia.question": {
+    "en": "What do we do first?",
+    "t": "Що робимо спочатку?"
+  },
+  "a2-u9-l10.choice-najprv-vyslahame-vajcia.options": {
+    "en": [
+      "Add the flour.",
+      "Bake the cake.",
+      "Whisk the eggs with the sugar."
+    ],
+    "t": [
+      "Додаємо борошно.",
+      "Печемо пиріг.",
+      "Збиваємо яйця з цукром."
+    ]
+  },
+  "a2-u9-l10.speak-zajtra-upeciem-kolac.en": {
+    "en": "I'll bake a cake tomorrow.",
+    "t": "Завтра я спечу пиріг."
+  },
+  "a2-u9-l11.titleEn": {
+    "en": "Grandma's tips",
+    "t": "Бабусині поради"
+  },
+  "a2-u9-l11.struhat-nastruhat.en": {
+    "en": "to grate",
+    "t": "терти / натерти"
+  },
+  "a2-u9-l11.struhat-nastruhat.note": {
+    "en": "**Nastrúhame** čokoládu. = We grate some chocolate.",
+    "t": "**Nastrúhame** čokoládu. = Натираємо шоколад на тертці."
+  },
+  "a2-u9-l11.krajat-pokrajat.en": {
+    "en": "to cut, to slice",
+    "t": "різати / нарізати"
+  },
+  "a2-u9-l11.krajat-pokrajat.note": {
+    "en": "Koláč **pokrájame na kocky**. = We cut the cake into squares (kocka = a cube, a square).",
+    "t": "Koláč **pokrájame na kocky**. = Ріжемо пиріг на квадратики (kocka = кубик, квадратик). Пор. наше «краяти»."
+  },
+  "a2-u9-l11.grammar-recipe-commands.title": {
+    "en": "Recipe steps: my, ty, vy",
+    "t": "Кроки рецепта: my, ty, vy"
+  },
+  "a2-u9-l11.grammar-recipe-commands.body": {
+    "en": [
+      "A recipe can speak as my (we): vymiešame. Or it uses the imperative you know from unit 6: babka says ty to Marek, **vymiešaj**, and a recipe book says vy, **vymiešajte**."
+    ],
+    "t": [
+      "Рецепт може говорити від my (ми): vymiešame. Або вживає наказовий спосіб, знайомий вам із розділу 6: бабуся до Марека на ty — **vymiešaj**, а кулінарна книжка на vy — **vymiešajte**. Як у нас: змішай — змішайте."
+    ]
+  },
+  "a2-u9-l11.grammar-recipe-commands.table.head": {
+    "en": [
+      "my (we)",
+      "ty (to a friend)",
+      "vy (in a book)"
+    ],
+    "t": [
+      "my (ми)",
+      "ty (до друга)",
+      "vy (у книжці)"
+    ]
+  },
+  "a2-u9-l11.grammar-recipe-commands.table.rows": {
+    "en": [
+      [
+        "vymiešame",
+        "vymieša**j**",
+        "vymieša**jte**"
+      ],
+      [
+        "pridáme",
+        "prida**j**",
+        "prida**jte**"
+      ],
+      [
+        "nastrúhame",
+        "nastrúha**j**",
+        "nastrúha**jte**"
+      ],
+      [
+        "pokrájame",
+        "pokrája**j**",
+        "pokrája**jte**"
+      ],
+      [
+        "upečieme",
+        "upeč",
+        "upeč**te**"
+      ],
+      [
+        "ozdobíme",
+        "ozdob",
+        "ozdob**te**"
+      ],
+      [
+        "natrieme",
+        "natri",
+        "natri**te**"
+      ]
+    ],
+    "t": [
+      [
+        "vymiešame",
+        "vymieša**j**",
+        "vymieša**jte**"
+      ],
+      [
+        "pridáme",
+        "prida**j**",
+        "prida**jte**"
+      ],
+      [
+        "nastrúhame",
+        "nastrúha**j**",
+        "nastrúha**jte**"
+      ],
+      [
+        "pokrájame",
+        "pokrája**j**",
+        "pokrája**jte**"
+      ],
+      [
+        "upečieme",
+        "upeč",
+        "upeč**te**"
+      ],
+      [
+        "ozdobíme",
+        "ozdob",
+        "ozdob**te**"
+      ],
+      [
+        "natrieme",
+        "natri",
+        "natri**te**"
+      ]
+    ]
+  },
+  "a2-u9-l11.grammar-recipe-commands.examples": {
+    "en": [
+      "Marek, add the flour!",
+      "Bake the cake in the oven."
+    ],
+    "t": [
+      "Мареку, додай борошно!",
+      "Спечіть пиріг у духовці."
+    ]
+  },
+  "a2-u9-l11.fill-marek-pokrajaj-jahody.en": {
+    "en": "Marek, slice the strawberries.",
+    "t": "Мареку, наріж полуницю."
+  },
+  "a2-u9-l11.fill-marek-pokrajaj-jahody.why": {
+    "en": "Babka says ty to Marek, so she uses the ty command: **pokrájaj**. Pokrájajte is for vy.",
+    "t": "Бабуся до Марека на ty, тож наказ для ty: **pokrájaj**, «наріж». Pokrájajte — для vy."
+  },
+  "a2-u9-l11.ukladat-poukladat.en": {
+    "en": "to lay out, to arrange",
+    "t": "викладати / викласти"
+  },
+  "a2-u9-l11.ukladat-poukladat.note": {
+    "en": "Jahody **poukladáme** na cesto. = We arrange the strawberries on the cake mixture.",
+    "t": "Jahody **poukladáme** na cesto. = Викладаємо полуницю на тісто."
+  },
+  "a2-u9-l11.zdobit-ozdobit.en": {
+    "en": "to decorate",
+    "t": "прикрашати / прикрасити"
+  },
+  "a2-u9-l11.zdobit-ozdobit.note": {
+    "en": "**Ozdobíme** ho šľahačkou. = We decorate it with whipped cream (the with form, no s).",
+    "t": "**Ozdobíme** ho šľahačkou. = Прикрашаємо його збитими вершками (орудний відмінок, без s — як і в нас)."
+  },
+  "a2-u9-l11.choice-kolac-pokrajajte-na.question": {
+    "en": "A recipe book says this. What does it mean?",
+    "t": "Так пише кулінарна книжка. Що це означає?"
+  },
+  "a2-u9-l11.choice-kolac-pokrajajte-na.options": {
+    "en": [
+      "Decorate the cake with cubes.",
+      "Cut the cake into squares.",
+      "Bake the cake in a square tin."
+    ],
+    "t": [
+      "Прикрасьте пиріг кубиками.",
+      "Наріжте пиріг на квадратики.",
+      "Спечіть пиріг у квадратній формі."
+    ]
+  },
+  "a2-u9-l11.natierat-natriet.en": {
+    "en": "to spread",
+    "t": "намазувати / намазати"
+  },
+  "a2-u9-l11.natierat-natriet.note": {
+    "en": "Chlieb **natrieme** maslom. = We spread the bread with butter.",
+    "t": "Chlieb **natrieme** maslom. = Намазуємо хліб маслом."
+  },
+  "a2-u9-l11.nakoniec.en": {
+    "en": "finally, in the end",
+    "t": "наостанок, нарешті"
+  },
+  "a2-u9-l11.nakoniec.note": {
+    "en": "Najprv…, potom…, **nakoniec**… = First…, then…, finally…",
+    "t": "Najprv…, potom…, **nakoniec**… = Спочатку…, потім…, наостанок…"
+  },
+  "a2-u9-l11.build-najprv-vymiesaj-vajcia.prompt": {
+    "en": "Babka to Marek: First mix the eggs, then add the flour.",
+    "t": "Бабуся Марекові: Спочатку змішай яйця, потім додай борошно."
+  },
+  "a2-u9-l11.build-najprv-vymiesaj-vajcia.traps": {
+    "en": [
+      "Babka says ty to Marek: **pridaj**. Pridajte is for vy.",
+      "The flour is the object: -a → **-u**, múk**u**."
+    ],
+    "t": [
+      "Бабуся до Марека на ty: **pridaj**. Pridajte — для vy.",
+      "Борошно — додаток: -a → **-u**, múk**u**."
+    ]
+  },
+  "a2-u9-l11.choice-recept-v-knihe.question": {
+    "en": "A recipe book uses vy. Which word fits? Nakoniec koláč ___ šľahačkou.",
+    "t": "Кулінарна книжка звертається на vy. Яке слово підходить? Nakoniec koláč ___ šľahačkou."
+  },
+  "a2-u9-l11.choice-recept-v-knihe.why": {
+    "en": "A recipe in a book says vy: the ty command + -te, **ozdobte**. Ozdob is for one friend.",
+    "t": "Рецепт у книжці говорить на vy: наказ для ty + -te, **ozdobte**, «прикрасьте». Ozdob — до одного друга."
+  },
+  "a2-u9-l11.match-babka-radi.pairs": {
+    "en": [
+      "to grate",
+      "to cut",
+      "to decorate",
+      "to spread",
+      "to arrange"
+    ],
+    "t": [
+      "терти",
+      "різати",
+      "прикрашати",
+      "намазувати",
+      "викладати"
+    ]
+  },
+  "a2-u9-l11.build-nakoniec-kolac-pokrajame.answers": {
+    "en": [
+      "Finally we cut the cake into squares."
+    ],
+    "t": [
+      "Наостанок ріжемо пиріг на квадратики.",
+      "Нарешті ріжемо пиріг на квадратики.",
+      "Наостанок наріжемо пиріг на квадратики."
+    ]
+  },
+  "a2-u9-l11.build-nakoniec-kolac-pokrajame.distractors": {
+    "en": [
+      "first",
+      "decorate"
+    ],
+    "t": [
+      "спочатку",
+      "прикрашаємо"
+    ]
+  },
+  "a2-u9-l11.choice-ozdob-ho-slahackou.question": {
+    "en": "Who is babka talking to?",
+    "t": "До кого звертається бабуся?"
+  },
+  "a2-u9-l11.choice-ozdob-ho-slahackou.options": {
+    "en": [
+      "Marek and Lucia",
+      "Marek alone",
+      "herself"
+    ],
+    "t": [
+      "до Марека й Луції",
+      "лише до Марека",
+      "до себе"
+    ]
+  },
+  "a2-u9-l11.choice-ozdob-ho-slahackou.why": {
+    "en": "**Ozdob**, with no -te, is the ty command: for one person you know well. To two people: ozdobte.",
+    "t": "**Ozdob**, без -te, — наказ для ty: до однієї близької людини. До двох: ozdobte."
+  },
+  "a2-u9-l11.build-babi-kolac-som.prompt": {
+    "en": "Grandma, I've already baked the cake!",
+    "t": "Бабусю, я вже спік пиріг!"
+  },
+  "a2-u9-l11.build-babi-kolac-som.traps": {
+    "en": [
+      "Marek is a man: **upiekol**. Upiekla is how a woman says it.",
+      "The cake is done, so the past of the perfective upiecť: **upiekol**. Pečiem means it's still in the oven."
+    ],
+    "t": [
+      "Марек — чоловік: **upiekol**, «спік». Upiekla — так скаже жінка.",
+      "Пиріг готовий, тож минулий час доконаного upiecť: **upiekol**. Pečiem означає, що він ще в духовці."
+    ]
+  },
+  "a2-u9-l11.speak-nakoniec-ho-ozdob.en": {
+    "en": "Finally, decorate it with whipped cream.",
+    "t": "Наостанок прикрась його збитими вершками."
+  },
+  "a2-u9-l12.titleEn": {
+    "en": "An invitation to dinner",
+    "t": "Запрошення на вечерю"
+  },
+  "a2-u9-l12.rande.en": {
+    "en": "date (a romantic meeting)",
+    "t": "побачення"
+  },
+  "a2-u9-l12.rande.note": {
+    "en": "It never changes: mať **rande**, ísť na rande. Mám rande s Veronikou. = I've got a date with Veronika.",
+    "t": "Ніколи не змінюється: mať **rande**, ísť na rande. Mám rande s Veronikou. = У мене побачення з Веронікою."
+  },
+  "a2-u9-l12.choice-marek-ty-mas.question": {
+    "en": "Lucia hears her brother on the phone. What is she asking?",
+    "t": "Луція чує, як брат говорить по телефону. Про що вона питає?"
+  },
+  "a2-u9-l12.choice-marek-ty-mas.options": {
+    "en": [
+      "Marek, are you cooking dinner?",
+      "Marek, have you got a date?",
+      "Marek, are you on the phone?"
+    ],
+    "t": [
+      "Мареку, ти готуєш вечерю?",
+      "Мареку, у тебе побачення?",
+      "Мареку, ти говориш по телефону?"
+    ]
+  },
+  "a2-u9-l12.build-pozyvam-ta-v.prompt": {
+    "en": "I'm inviting you to dinner on Friday.",
+    "t": "Запрошую тебе в п'ятницю на вечерю."
+  },
+  "a2-u9-l12.build-pozyvam-ta-v.traps": {
+    "en": [
+      "Pozývať na takes the object form: -a → **-u**, na večer**u**.",
+      "Marek is inviting one person he says ty to: **ťa**. Vás is for vy."
+    ],
+    "t": [
+      "Pozývať na вимагає знахідного: -a → **-u**, na večer**u**, «на вечерю».",
+      "Марек запрошує одну людину, до якої звертається на ty: **ťa**, «тебе». Vás — для vy."
+    ]
+  },
+  "a2-u9-l12.v-piatok-byvaju.en": {
+    "en": "On Fridays restaurants are usually full.",
+    "t": "У п'ятницю ресторани зазвичай повні."
+  },
+  "a2-u9-l12.v-piatok-byvaju.note": {
+    "en": "You know **bývať** as “to live”. It's also byť for what usually happens: Reštaurácia je plná (now). V piatok **býva** plná (most Fridays). **plný** = full.",
+    "t": "**bývať** ви знаєте як «жити». Але це ще й byť для того, що буває зазвичай, — як наше «бувати»: Reštaurácia je plná (зараз). V piatok **býva** plná (майже щоп'ятниці). **plný** = повний."
+  },
+  "a2-u9-l12.fill-cez-vikend-byvaju.en": {
+    "en": "At the weekend restaurants are usually full.",
+    "t": "На вихідних ресторани зазвичай повні."
+  },
+  "a2-u9-l12.fill-cez-vikend-byvaju.why": {
+    "en": "Reštaurácie are oni, so bývať takes **bývajú**, like byť → sú.",
+    "t": "Reštaurácie — це oni, тож bývať має форму **bývajú**, як byť → sú."
+  },
+  "a2-u9-l12.choice-nie-do-restauracie.question": {
+    "en": "Where will they have dinner?",
+    "t": "Де вони вечерятимуть?"
+  },
+  "a2-u9-l12.choice-nie-do-restauracie.options": {
+    "en": [
+      "In a restaurant.",
+      "At Veronika's flat.",
+      "At Marek's flat."
+    ],
+    "t": [
+      "У ресторані.",
+      "У Вероніки вдома.",
+      "У Марека вдома."
+    ]
+  },
+  "a2-u9-l12.choice-uvaril-by-som.question": {
+    "en": "Lucia asks: Čo uvaríš? Marek hasn't decided yet. What does he say?",
+    "t": "Луція питає: Čo uvaríš? Марек ще не вирішив. Що він каже?"
+  },
+  "a2-u9-l12.choice-uvaril-by-som.why": {
+    "en": "Marek is a man talking about himself, so **uvaril by som**: “I would cook”. Uvarila is a woman's form, and by si is ty.",
+    "t": "Марек — чоловік і говорить про себе, тож **uvaril by som**: «я зварив би». Uvarila — жіноча форма, а by si — для ty."
+  },
+  "a2-u9-l12.tajomstvo.en": {
+    "en": "secret",
+    "t": "таємниця"
+  },
+  "a2-u9-l12.tajomstvo.note": {
+    "en": "To je **tajomstvo**! = That's a secret!",
+    "t": "To je **tajomstvo**! = Це таємниця!"
+  },
+  "a2-u9-l12.prekvapenie.en": {
+    "en": "surprise",
+    "t": "сюрприз, несподіванка"
+  },
+  "a2-u9-l12.prekvapenie.note": {
+    "en": "Je to **prekvapenie**. = It's a surprise. Som prekvapená! = I'm surprised! (a woman)",
+    "t": "Je to **prekvapenie**. = Це сюрприз. Som prekvapená! = Я здивована!"
+  },
+  "a2-u9-l12.choice-to-je-tajomstvo.question": {
+    "en": "Veronika asks why he's inviting her. Marek doesn't want to tell her yet. What does he say?",
+    "t": "Вероніка питає, чому він її запрошує. Марек поки не хоче казати. Що він відповідає?"
+  },
+  "a2-u9-l12.fill-v-piatok-ano.en": {
+    "en": "Friday? Yes, that suits me.",
+    "t": "У п'ятницю? Так, мені це підходить."
+  },
+  "a2-u9-l12.fill-v-piatok-ano.why": {
+    "en": "**To** (that) is the subject, so the verb takes the on, ona, ono form: to sa mi **hodí**, like páči sa mi.",
+    "t": "**To** (це) — підмет, тож дієслово у формі on, ona, ono: to sa mi **hodí**, як páči sa mi."
+  },
+  "a2-u9-l12.vynimocny.en": {
+    "en": "special, exceptional",
+    "t": "особливий, винятковий"
+  },
+  "a2-u9-l12.vynimocny.note": {
+    "en": "Dnes je **výnimočný** deň. = Today is a special day.",
+    "t": "Dnes je **výnimočný** deň. = Сьогодні особливий день."
+  },
+  "a2-u9-l12.build-je-dnes-vynimocny.prompt": {
+    "en": "Is today a special day?",
+    "t": "Сьогодні особливий день?"
+  },
+  "a2-u9-l12.build-je-dnes-vynimocny.traps": {
+    "en": [
+      "Deň is masculine: **výnimočný** deň.",
+      "Today is now, so byť is in the present: **je**. Bude is the future."
+    ],
+    "t": [
+      "Deň — чоловічого роду: **výnimočný** deň.",
+      "Сьогодні — це зараз, тож byť у теперішньому часі: **je**. Bude — майбутній."
+    ]
+  },
+  "a2-u9-l12.match-pozvanie.pairs": {
+    "en": [
+      "date",
+      "secret",
+      "surprise",
+      "special",
+      "full"
+    ],
+    "t": [
+      "побачення",
+      "таємниця",
+      "сюрприз",
+      "особливий",
+      "повний"
+    ]
+  },
+  "a2-u9-l12.build-vecer-byvam-unaveny.answers": {
+    "en": [
+      "In the evening I'm usually tired."
+    ],
+    "t": [
+      "Увечері я зазвичай втомлений.",
+      "Увечері я буваю втомлений."
+    ]
+  },
+  "a2-u9-l12.build-vecer-byvam-unaveny.distractors": {
+    "en": [
+      "always",
+      "today"
+    ],
+    "t": [
+      "завжди",
+      "сьогодні"
+    ]
+  },
+  "a2-u9-l12.choice-ktora-veta-znamena.question": {
+    "en": "Which sentence means “Restaurants are usually full on Fridays”?",
+    "t": "Яке речення означає «У п'ятницю ресторани зазвичай повні»?"
+  },
+  "a2-u9-l12.choice-ktora-veta-znamena.why": {
+    "en": "**Bývajú** says what usually happens. Boli is last Friday, and budú is next Friday.",
+    "t": "**Bývajú** каже, що буває зазвичай. Boli — минулої п'ятниці, а budú — наступної."
+  },
+  "a2-u9-l12.speak-hodi-sa-ti.en": {
+    "en": "Does Friday suit you?",
+    "t": "Тобі зручно в п'ятницю?"
+  },
+  "a2-u9-l13.titleEn": {
+    "en": "A cooked dinner: -aný, -ený, -tý",
+    "t": "Зварена вечеря: -aný, -ený, -tý"
+  },
+  "a2-u9-l13.grammar-passive-participles.title": {
+    "en": "Done and ready: -aný, -ený",
+    "t": "Зроблено й готово: -aný, -ený"
+  },
+  "a2-u9-l13.grammar-passive-participles.body": {
+    "en": [
+      "To say a thing has had something done to it, Slovak turns the verb into an adjective: uvariť (to cook) → **uvarená** večera, a cooked dinner. It takes the endings you know: -ý, -á, -é.",
+      "Verbs in -ať and -ovať add **-aný** and **-ovaný**: upratať → uprataný, pozvať → pozvaný, rezervovať → rezervovaný. Verbs in -iť change it to **-ený**: uvariť → uvarený, kúpiť → kúpený. Upiecť gives upečený."
+    ],
+    "t": [
+      "Щоб сказати, що з річчю щось зробили, словацька, як і українська, робить із дієслова прикметник: uvariť (зварити) → **uvarená** večera, зварена вечеря. Закінчення знайомі: -ý, -á, -é.",
+      "Дієслова на -ať і -ovať додають **-aný** і **-ovaný**: upratať → uprataný, pozvať → pozvaný, rezervovať → rezervovaný. У дієслів на -iť буде **-ený**: uvariť → uvarený, kúpiť → kúpený, як «куплений». Upiecť дає upečený, «спечений»."
+    ]
+  },
+  "a2-u9-l13.grammar-passive-participles.table.head": {
+    "en": [
+      "verb",
+      "done"
+    ],
+    "t": [
+      "дієслово",
+      "зроблено"
+    ]
+  },
+  "a2-u9-l13.grammar-passive-participles.table.rows": {
+    "en": [
+      [
+        "upratať (to tidy)",
+        "uprata**ný** byt"
+      ],
+      [
+        "pozvať",
+        "pozva**ná** kamarátka"
+      ],
+      [
+        "rezervovať (to book)",
+        "rezervova**ný** stôl"
+      ],
+      [
+        "uvariť",
+        "uvar**ená** večera"
+      ],
+      [
+        "kúpiť",
+        "kúp**ené** víno"
+      ],
+      [
+        "zapáliť (to light)",
+        "zapál**ené** sviečky"
+      ],
+      [
+        "upiecť",
+        "upeč**ený** koláč"
+      ],
+      [
+        "napísať",
+        "napísa**ný** list (letter)"
+      ]
+    ],
+    "t": [
+      [
+        "upratať (прибрати)",
+        "uprata**ný** byt"
+      ],
+      [
+        "pozvať",
+        "pozva**ná** kamarátka"
+      ],
+      [
+        "rezervovať (забронювати)",
+        "rezervova**ný** stôl"
+      ],
+      [
+        "uvariť",
+        "uvar**ená** večera"
+      ],
+      [
+        "kúpiť",
+        "kúp**ené** víno"
+      ],
+      [
+        "zapáliť (запалити)",
+        "zapál**ené** sviečky"
+      ],
+      [
+        "upiecť",
+        "upeč**ený** koláč"
+      ],
+      [
+        "napísať",
+        "napísa**ný** list (лист)"
+      ]
+    ]
+  },
+  "a2-u9-l13.grammar-passive-participles.examples": {
+    "en": [
+      "The baked cake is on the table.",
+      "The wine we bought is in the kitchen."
+    ],
+    "t": [
+      "Спечений пиріг на столі.",
+      "Куплене вино на кухні."
+    ]
+  },
+  "a2-u9-l13.fill-na-stole-je.en": {
+    "en": "There's a freshly baked cake on the table.",
+    "t": "На столі свіжоспечений пиріг."
+  },
+  "a2-u9-l13.fill-na-stole-je.why": {
+    "en": "Koláč is masculine, so **upečený**.",
+    "t": "Koláč — чоловічого роду, тож **upečený**."
+  },
+  "a2-u9-l13.choice-uvarena-polievka.question": {
+    "en": "Uvariť means to cook. Which one is a cooked soup?",
+    "t": "Uvariť означає «зварити». Що з цього — зварений суп?"
+  },
+  "a2-u9-l13.choice-uvarena-polievka.why": {
+    "en": "Verbs in -iť change it to **-ený**: uvariť → uvar**ená**, with -á for polievka.",
+    "t": "У дієслів на -iť буде **-ený**: uvariť → uvar**ená**, з -á для polievka."
+  },
+  "a2-u9-l13.fill-veronika-je-pozvana.en": {
+    "en": "Veronika is invited to dinner.",
+    "t": "Вероніка запрошена на вечерю."
+  },
+  "a2-u9-l13.fill-veronika-je-pozvana.why": {
+    "en": "Veronika is a woman: **pozvaná**. From pozvať: -ať → -aný.",
+    "t": "Вероніка — жінка: **pozvaná**, «запрошена». Від pozvať: -ať → -aný."
+  },
+  "a2-u9-l13.grammar-participles-ty.title": {
+    "en": "-tý, and verbs with sa",
+    "t": "-tý, і дієслова з sa"
+  },
+  "a2-u9-l13.grammar-participles-ty.body": {
+    "en": [
+      "Some short verbs end in **-tý** instead: umyť (to wash) → umytý, prestrieť (to lay the table) → prestretý, zohriať (to warm up) → zohriaty, naliať (to pour) → naliaty. After a long syllable like ia, the ending is short: -ty, -ta, -te.",
+      "Unlike the -úci words (hrajúce sa deti), these lose sa: zaľúbiť sa (to fall in love) → **zaľúbený**, najesť sa (to eat your fill) → **najedený**, osprchovať sa → osprchovaný."
+    ],
+    "t": [
+      "Деякі короткі дієслова натомість мають **-tý**, як наше «вимитий, налитий»: umyť (вимити) → umytý, prestrieť (накрити на стіл) → prestretý, zohriať (підігріти) → zohriaty, naliať (налити) → naliaty. Після довгого складу, як ia, закінчення коротке: -ty, -ta, -te.",
+      "На відміну від слів на -úci (hrajúce sa deti), ці sa гублять, як і в нас (закохатися → закоханий): zaľúbiť sa → **zaľúbený**, najesť sa (наїстися) → **najedený**, osprchovať sa (прийняти душ) → osprchovaný."
+    ]
+  },
+  "a2-u9-l13.grammar-participles-ty.table.head": {
+    "en": [
+      "verb",
+      "done"
+    ],
+    "t": [
+      "дієслово",
+      "зроблено"
+    ]
+  },
+  "a2-u9-l13.grammar-participles-ty.table.rows": {
+    "en": [
+      [
+        "umyť",
+        "umy**tý** riad (washed dishes)"
+      ],
+      [
+        "prestrieť",
+        "prestre**tý** stôl"
+      ],
+      [
+        "zohriať",
+        "zohria**ta** polievka"
+      ],
+      [
+        "naliať",
+        "nalia**te** víno"
+      ],
+      [
+        "zaľúbiť sa",
+        "zaľúb**ený** Marek"
+      ],
+      [
+        "najesť sa",
+        "najed**ená** Veronika"
+      ]
+    ],
+    "t": [
+      [
+        "umyť",
+        "umy**tý** riad (вимитий посуд)"
+      ],
+      [
+        "prestrieť",
+        "prestre**tý** stôl"
+      ],
+      [
+        "zohriať",
+        "zohria**ta** polievka"
+      ],
+      [
+        "naliať",
+        "nalia**te** víno"
+      ],
+      [
+        "zaľúbiť sa",
+        "zaľúb**ený** Marek"
+      ],
+      [
+        "najesť sa",
+        "najed**ená** Veronika"
+      ]
+    ]
+  },
+  "a2-u9-l13.grammar-participles-ty.examples": {
+    "en": [
+      "The table is laid.",
+      "Marek is in love."
+    ],
+    "t": [
+      "Стіл накритий.",
+      "Марек закоханий."
+    ]
+  },
+  "a2-u9-l13.choice-stol-je-prestrety.question": {
+    "en": "Lucia has laid the table. Which word fits? Stôl je ___.",
+    "t": "Луція накрила на стіл. Яке слово підходить? Stôl je ___."
+  },
+  "a2-u9-l13.choice-stol-je-prestrety.why": {
+    "en": "Prestrieť is one of the short verbs that end in **-tý**: prestre**tý**.",
+    "t": "Prestrieť — одне з коротких дієслів на **-tý**: prestre**tý**, «накритий»."
+  },
+  "a2-u9-l13.fill-riad-je-umyty.en": {
+    "en": "The dishes are washed.",
+    "t": "Посуд вимитий."
+  },
+  "a2-u9-l13.fill-riad-je-umyty.why": {
+    "en": "Riad (the dishes) is masculine, so **umytý**.",
+    "t": "Riad (посуд) — чоловічого роду, тож **umytý**."
+  },
+  "a2-u9-l13.choice-marek-je-zalubeny.question": {
+    "en": "Marek is in love. How does Lucia say it?",
+    "t": "Марек закоханий. Як це скаже Луція?"
+  },
+  "a2-u9-l13.choice-marek-je-zalubeny.why": {
+    "en": "Verbs with sa lose it in the participle: zaľúbiť sa → je **zaľúbený**.",
+    "t": "Дієслова з sa гублять його в дієприкметнику, як закохатися → закоханий: zaľúbiť sa → je **zaľúbený**."
+  },
+  "a2-u9-l13.grammar-participles-agree.title": {
+    "en": "They change like adjectives",
+    "t": "Змінюються як прикметники"
+  },
+  "a2-u9-l13.grammar-participles-agree.body": {
+    "en": [
+      "These words change like pekný: -ý, -á, -é, and **-é** in the plural. Only men, or a group with men in it, take **-í**, like mladí kuchári: pozvaní hostia (invited guests)."
+    ],
+    "t": [
+      "Ці слова змінюються як pekný: -ý, -á, -é, і **-é** у множині. Лише чоловіки або група, де є чоловіки, мають **-í**, як mladí kuchári: pozvaní hostia (запрошені гості)."
+    ]
+  },
+  "a2-u9-l13.grammar-participles-agree.table.head": {
+    "en": [
+      "",
+      "one",
+      "more than one"
+    ],
+    "t": [
+      "",
+      "один",
+      "кілька"
+    ]
+  },
+  "a2-u9-l13.grammar-participles-agree.table.rows": {
+    "en": [
+      [
+        "masculine",
+        "upečený koláč",
+        "upečen**é** koláče"
+      ],
+      [
+        "feminine",
+        "uvarená polievka",
+        "uvaren**é** polievky"
+      ],
+      [
+        "neuter",
+        "umyté jablko",
+        "umyt**é** jablká"
+      ],
+      [
+        "men",
+        "pozvaný hosť (guest)",
+        "pozvan**í** hostia"
+      ]
+    ],
+    "t": [
+      [
+        "чоловічий рід",
+        "upečený koláč",
+        "upečen**é** koláče"
+      ],
+      [
+        "жіночий рід",
+        "uvarená polievka",
+        "uvaren**é** polievky"
+      ],
+      [
+        "середній рід",
+        "umyté jablko",
+        "umyt**é** jablká"
+      ],
+      [
+        "чоловіки",
+        "pozvaný hosť (гість)",
+        "pozvan**í** hostia"
+      ]
+    ]
+  },
+  "a2-u9-l13.grammar-participles-agree.examples": {
+    "en": [
+      "The invited guests are here.",
+      "We've eaten our fill."
+    ],
+    "t": [
+      "Запрошені гості вже тут.",
+      "Ми наїлися."
+    ]
+  },
+  "a2-u9-l13.fill-marek-a-veronika.en": {
+    "en": "Marek and Veronika have eaten their fill.",
+    "t": "Марек і Вероніка наїлися."
+  },
+  "a2-u9-l13.fill-marek-a-veronika.why": {
+    "en": "A man and a woman together count like men, so **-í**: najeden**í**.",
+    "t": "Чоловік і жінка разом — як чоловіки, тож **-í**: najeden**í**."
+  },
+  "a2-u9-l13.build-sviecky-su-zapalene.prompt": {
+    "en": "The candles are lit and the wine is poured.",
+    "t": "Свічки запалені, а вино налите."
+  },
+  "a2-u9-l13.build-sviecky-su-zapalene.traps": {
+    "en": [
+      "Sviečky is plural and not men: **zapálené**.",
+      "Víno is neuter, so **naliate**, with a short -e after the long ia."
+    ],
+    "t": [
+      "Sviečky — множина, і це не чоловіки: **zapálené**.",
+      "Víno — середнього роду, тож **naliate**, з коротким -e після довгого ia."
+    ]
+  },
+  "a2-u9-l13.fill-pozvani-hostia-sedia.en": {
+    "en": "The invited guests are sitting at the table.",
+    "t": "Запрошені гості сидять за столом."
+  },
+  "a2-u9-l13.fill-pozvani-hostia-sedia.why": {
+    "en": "Hostia are people, men or a mixed group, so **-í**: pozvan**í** hostia.",
+    "t": "Hostia — люди, чоловіки чи змішана група, тож **-í**: pozvan**í** hostia."
+  },
+  "a2-u9-l13.choice-na-stole-je.question": {
+    "en": "What does this mean?",
+    "t": "Що це означає?"
+  },
+  "a2-u9-l13.choice-na-stole-je.options": {
+    "en": [
+      "There's cold soup on the table.",
+      "The soup is still cooking.",
+      "There's warmed-up soup on the table."
+    ],
+    "t": [
+      "На столі холодний суп.",
+      "Суп ще вариться.",
+      "На столі підігрітий суп."
+    ]
+  },
+  "a2-u9-l13.choice-na-stole-je.why": {
+    "en": "**Zohriata** comes from zohriať (to warm up): soup that has been warmed up.",
+    "t": "**Zohriata** — від zohriať (підігріти): суп, який підігріли."
+  },
+  "a2-u9-l13.build-marek-ma-upeceny.prompt": {
+    "en": "Marek has a baked cake and a cooked dinner.",
+    "t": "У Марека спечений пиріг і зварена вечеря."
+  },
+  "a2-u9-l13.build-marek-ma-upeceny.traps": {
+    "en": [
+      "The dinner is what Marek has, the object, so -á → **-ú**, like dobrú kávu.",
+      "Koláč is masculine: **upečený**."
+    ],
+    "t": [
+      "Вечеря — те, що Марек má (має), додаток, тож -á → **-ú**, як dobrú kávu.",
+      "Koláč — чоловічого роду: **upečený**."
+    ]
+  },
+  "a2-u9-l13.speak-stol-je-prestrety.en": {
+    "en": "The table is laid.",
+    "t": "Стіл накритий."
+  },
+  "a2-u9-l14.titleEn": {
+    "en": "Is it done? byť + participle",
+    "t": "Чи готово? byť + дієприкметник"
+  },
+  "a2-u9-l14.grammar-byt-participle.title": {
+    "en": "Is it done? byť + the participle",
+    "t": "Чи готово? byť + дієприкметник"
+  },
+  "a2-u9-l14.grammar-byt-participle.body": {
+    "en": [
+      "To say something is done or ready, use byť and the participle. It agrees with its subject: Stôl **je** prestret**ý**. Sviečky **sú** zapálen**é**. In the past: Večera **bola** uvaren**á**.",
+      "Shops and phones use it a lot: obchod je zatvorený (closed) or otvorený (open), mobil je nabitý (charged) or vybitý (flat), zapnutý (on) or vypnutý (off), pokazený (broken: nefunguje, it doesn't work) or opravený (fixed).",
+      "Not done yet: nie je umytý, or before a noun as one word: neumytý riad."
+    ],
+    "t": [
+      "Щоб сказати, що щось зроблено чи готове, вживайте byť і дієприкметник. Він узгоджується з підметом: Stôl **je** prestret**ý**. Sviečky **sú** zapálen**é**. У минулому: Večera **bola** uvaren**á**. Як у нас: стіл накритий, вечеря була зварена.",
+      "Про магазини й телефони так кажуть постійно: obchod je zatvorený (зачинений) чи otvorený (відчинений), mobil je nabitý (заряджений) чи vybitý (розряджений), zapnutý (увімкнений) чи vypnutý (вимкнений), pokazený (зламаний: nefunguje, не працює) чи opravený (полагоджений).",
+      "Ще не зроблено: nie je umytý, а перед іменником — одним словом: neumytý riad, як наше «невимитий посуд»."
+    ]
+  },
+  "a2-u9-l14.grammar-byt-participle.table.head": {
+    "en": [
+      "",
+      "done"
+    ],
+    "t": [
+      "",
+      "зроблено"
+    ]
+  },
+  "a2-u9-l14.grammar-byt-participle.table.rows": {
+    "en": [
+      [
+        "stôl",
+        "je prestret**ý**"
+      ],
+      [
+        "večera",
+        "je uvaren**á**"
+      ],
+      [
+        "víno",
+        "je vychladen**é** (chilled)"
+      ],
+      [
+        "sviečky",
+        "sú zapálen**é**"
+      ],
+      [
+        "obchod",
+        "je zatvoren**ý**"
+      ],
+      [
+        "mobil",
+        "je vybit**ý**"
+      ]
+    ],
+    "t": [
+      [
+        "stôl",
+        "je prestret**ý**"
+      ],
+      [
+        "večera",
+        "je uvaren**á**"
+      ],
+      [
+        "víno",
+        "je vychladen**é** (охолоджене)"
+      ],
+      [
+        "sviečky",
+        "sú zapálen**é**"
+      ],
+      [
+        "obchod",
+        "je zatvoren**ý**"
+      ],
+      [
+        "mobil",
+        "je vybit**ý**"
+      ]
+    ]
+  },
+  "a2-u9-l14.grammar-byt-participle.examples": {
+    "en": [
+      "Everything is ready.",
+      "The shop is closed."
+    ],
+    "t": [
+      "Усе готово.",
+      "Магазин зачинений."
+    ]
+  },
+  "a2-u9-l14.fill-je-vsetko-pripravene.en": {
+    "en": "Is everything ready? Yes, the table is laid.",
+    "t": "Усе готово? Так, стіл накритий."
+  },
+  "a2-u9-l14.fill-je-vsetko-pripravene.why": {
+    "en": "Stôl is masculine, so after je the participle is **prestretý**.",
+    "t": "Stôl — чоловічого роду, тож після je дієприкметник **prestretý**."
+  },
+  "a2-u9-l14.choice-jeho-mobil-je.question": {
+    "en": "Tomáš doesn't answer his phone. Why not?",
+    "t": "Томаш не відповідає на дзвінки. Чому?"
+  },
+  "a2-u9-l14.choice-jeho-mobil-je.why": {
+    "en": "**Vypnutý** is switched off. Zapnutý is on, and nabitý is charged.",
+    "t": "**Vypnutý** — вимкнений. Zapnutý — увімкнений, а nabitý — заряджений."
+  },
+  "a2-u9-l14.build-riad-este-nie.prompt": {
+    "en": "The dishes aren't washed yet.",
+    "t": "Посуд ще не вимитий."
+  },
+  "a2-u9-l14.build-riad-este-nie.traps": {
+    "en": [
+      "Riad is masculine: **umytý**.",
+      "With byť, “not” is a separate word: **nie** je. Neje means “doesn't eat”."
+    ],
+    "t": [
+      "Riad — чоловічого роду: **umytý**.",
+      "З byť «не» — окреме слово: **nie** je. Neje означає «не їсть»."
+    ]
+  },
+  "a2-u9-l14.grammar-passive-sentences.title": {
+    "en": "Who did it? Passive sentences",
+    "t": "Хто це зробив? Пасивні речення"
+  },
+  "a2-u9-l14.grammar-passive-sentences.body": {
+    "en": [
+      "Marek uvaril večeru. = Marek cooked the dinner. Večera je uvarená. = The dinner is cooked. The second sentence is about the dinner, and it doesn't say who did it: the object becomes the subject, and byť + the participle follows.",
+      "Notices use this a lot: predstavenie je zrušené (the show is cancelled), miesto je obsadené (the seat is taken)."
+    ],
+    "t": [
+      "Marek uvaril večeru. = Марек зварив вечерю. Večera je uvarená. = Вечеря зварена. Друге речення — про вечерю, і в ньому не сказано, хто це зробив: додаток стає підметом, а за ним іде byť + дієприкметник.",
+      "В оголошеннях так пишуть постійно: predstavenie je zrušené (виставу скасовано), miesto je obsadené (місце зайняте)."
+    ]
+  },
+  "a2-u9-l14.grammar-passive-sentences.table.head": {
+    "en": [
+      "who did it",
+      "what is done"
+    ],
+    "t": [
+      "хто зробив",
+      "що зроблено"
+    ]
+  },
+  "a2-u9-l14.grammar-passive-sentences.table.rows": {
+    "en": [
+      [
+        "Marek uvaril večeru.",
+        "Večera je uvaren**á**."
+      ],
+      [
+        "Lucia prestrela stôl.",
+        "Stôl je prestret**ý**."
+      ],
+      [
+        "Marek umyl riad.",
+        "Riad je umyt**ý**."
+      ],
+      [
+        "Emma kúpila lístky.",
+        "Lístky sú kúpen**é**."
+      ]
+    ],
+    "t": [
+      [
+        "Marek uvaril večeru.",
+        "Večera je uvaren**á**."
+      ],
+      [
+        "Lucia prestrela stôl.",
+        "Stôl je prestret**ý**."
+      ],
+      [
+        "Marek umyl riad.",
+        "Riad je umyt**ý**."
+      ],
+      [
+        "Emma kúpila lístky.",
+        "Lístky sú kúpen**é**."
+      ]
+    ]
+  },
+  "a2-u9-l14.grammar-passive-sentences.examples": {
+    "en": [
+      "The show is cancelled.",
+      "The seat is taken."
+    ],
+    "t": [
+      "Виставу скасовано.",
+      "Місце зайняте."
+    ]
+  },
+  "a2-u9-l14.choice-marek-uvaril-veceru.question": {
+    "en": "Marek uvaril večeru. Which sentence says the same about the dinner?",
+    "t": "Marek uvaril večeru. Яке речення каже те саме про вечерю?"
+  },
+  "a2-u9-l14.choice-marek-uvaril-veceru.why": {
+    "en": "The dinner becomes the subject, and the participle agrees with it: večera je uvaren**á**. Who did it is left out.",
+    "t": "Вечеря стає підметом, і дієприкметник узгоджується з нею: večera je uvaren**á**. Хто це зробив, не сказано."
+  },
+  "a2-u9-l14.choice-predstavenie-je-zrusene.question": {
+    "en": "You see this on the circus door. What does it mean?",
+    "t": "Ви бачите це на дверях цирку. Що це означає?"
+  },
+  "a2-u9-l14.choice-predstavenie-je-zrusene.options": {
+    "en": [
+      "The show is cancelled.",
+      "The show is sold out.",
+      "The show has started."
+    ],
+    "t": [
+      "Виставу скасовано.",
+      "Квитки на виставу розпродано.",
+      "Вистава вже почалася."
+    ]
+  },
+  "a2-u9-l14.choice-predstavenie-je-zrusene.why": {
+    "en": "**Zrušené** comes from zrušiť, to cancel: the show has been cancelled. Sold out would be vypredané.",
+    "t": "**Zrušené** — від zrušiť, скасувати: виставу скасовано. «Розпродано» було б vypredané."
+  },
+  "a2-u9-l14.grammar-byvat-usually.title": {
+    "en": "Byť or bývať?",
+    "t": "Byť чи bývať?"
+  },
+  "a2-u9-l14.grammar-byvat-usually.body": {
+    "en": [
+      "Bývať is byť for what usually happens. Obchod **je** zatvorený: it's closed now. V nedeľu **býva** zatvorený: it's usually closed on Sundays.",
+      "It goes like volať: bývam, bývaš, býva… You know it as “to live” too: Bývam na internáte."
+    ],
+    "t": [
+      "Bývať — це byť для того, що буває зазвичай, як наше «бувати». Obchod **je** zatvorený: він зачинений зараз. V nedeľu **býva** zatvorený: у неділю він зазвичай зачинений.",
+      "Змінюється, як volať: bývam, bývaš, býva… Ви знаєте його і як «жити»: Bývam na internáte."
+    ]
+  },
+  "a2-u9-l14.grammar-byvat-usually.table.head": {
+    "en": [
+      "",
+      "now",
+      "usually"
+    ],
+    "t": [
+      "",
+      "зараз",
+      "зазвичай"
+    ]
+  },
+  "a2-u9-l14.grammar-byvat-usually.table.rows": {
+    "en": [
+      [
+        "ja",
+        "som",
+        "býva**m**"
+      ],
+      [
+        "ty",
+        "si",
+        "býva**š**"
+      ],
+      [
+        "on, ona, ono",
+        "je",
+        "býva"
+      ],
+      [
+        "my",
+        "sme",
+        "býva**me**"
+      ],
+      [
+        "vy",
+        "ste",
+        "býva**te**"
+      ],
+      [
+        "oni, ony",
+        "sú",
+        "býva**jú**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "som",
+        "býva**m**"
+      ],
+      [
+        "ty",
+        "si",
+        "býva**š**"
+      ],
+      [
+        "on, ona, ono",
+        "je",
+        "býva"
+      ],
+      [
+        "my",
+        "sme",
+        "býva**me**"
+      ],
+      [
+        "vy",
+        "ste",
+        "býva**te**"
+      ],
+      [
+        "oni, ony",
+        "sú",
+        "býva**jú**"
+      ]
+    ]
+  },
+  "a2-u9-l14.grammar-byvat-usually.examples": {
+    "en": [
+      "The shop is usually closed on Sundays.",
+      "Restaurants are usually full on Fridays."
+    ],
+    "t": [
+      "У неділю магазин зазвичай зачинений.",
+      "У п'ятницю ресторани зазвичай повні."
+    ]
+  },
+  "a2-u9-l14.fill-v-nedelu-byva.en": {
+    "en": "The post office is usually closed on Sundays.",
+    "t": "У неділю пошта зазвичай зачинена."
+  },
+  "a2-u9-l14.fill-v-nedelu-byva.why": {
+    "en": "Pošta is ona, so bývať takes the ona form, **býva**, like je.",
+    "t": "Pošta — це ona, тож bývať у формі ona: **býva**, як je."
+  },
+  "a2-u9-l14.build-v-zime-byvam.prompt": {
+    "en": "In winter I'm usually ill. (a woman speaking)",
+    "t": "Узимку я зазвичай буваю хвора."
+  },
+  "a2-u9-l14.build-v-zime-byvam.traps": {
+    "en": [
+      "The speaker is a woman: **chorá**.",
+      "About yourself, ja: **bývam**."
+    ],
+    "t": [
+      "Говорить жінка: **chorá**.",
+      "Про себе, ja: **bývam**."
+    ]
+  },
+  "a2-u9-l14.fill-moj-mobil-je.en": {
+    "en": "My phone is flat, I can't call you.",
+    "t": "Мій телефон розрядився, я не можу тобі подзвонити."
+  },
+  "a2-u9-l14.fill-moj-mobil-je.why": {
+    "en": "Mobil is masculine, so **vybitý**.",
+    "t": "Mobil — чоловічого роду, тож **vybitý**."
+  },
+  "a2-u9-l14.fill-mobil-nefunguje-je.en": {
+    "en": "The phone doesn't work, it's broken.",
+    "t": "Телефон не працює, він зламаний."
+  },
+  "a2-u9-l14.fill-mobil-nefunguje-je.why": {
+    "en": "Mobil is masculine, so **pokazený**.",
+    "t": "Mobil — чоловічого роду, тож **pokazený**."
+  },
+  "a2-u9-l14.choice-mobil-je-uz.question": {
+    "en": "Tomáš took his phone in to be repaired. What's the news?",
+    "t": "Томаш віддав телефон у ремонт. Які новини?"
+  },
+  "a2-u9-l14.choice-mobil-je-uz.options": {
+    "en": [
+      "The phone is still broken.",
+      "The phone is switched off.",
+      "The phone has been fixed."
+    ],
+    "t": [
+      "Телефон досі зламаний.",
+      "Телефон вимкнений.",
+      "Телефон уже полагодили."
+    ]
+  },
+  "a2-u9-l14.choice-mobil-je-uz.why": {
+    "en": "**Opravený** comes from opraviť (to repair): the phone has been fixed. Broken is pokazený.",
+    "t": "**Opravený** — від opraviť (полагодити): телефон полагоджено. «Зламаний» — pokazený."
+  },
+  "a2-u9-l14.build-v-kuchyni-je.answers": {
+    "en": [
+      "There are still unwashed dishes in the kitchen."
+    ],
+    "t": [
+      "На кухні ще є невимитий посуд.",
+      "На кухні ще стоїть невимитий посуд."
+    ]
+  },
+  "a2-u9-l14.build-v-kuchyni-je.distractors": {
+    "en": [
+      "clean",
+      "no"
+    ],
+    "t": [
+      "чистий",
+      "немає"
+    ]
+  },
+  "a2-u9-l14.speak-vsetko-je-pripravene.en": {
+    "en": "Everything is ready!",
+    "t": "Усе готово!"
+  },
+  "a2-u9-l15.titleEn": {
+    "en": "Are you ready?",
+    "t": "Ти готовий?"
+  },
+  "a2-u9-l15.nervozny.en": {
+    "en": "nervous",
+    "t": "знервований"
+  },
+  "a2-u9-l15.nervozny.note": {
+    "en": "Marek je pred rande **nervózny**. = Marek is nervous before the date.",
+    "t": "Marek je pred rande **nervózny**. = Марек нервує перед побаченням."
+  },
+  "a2-u9-l15.oholeny-a-ucesany.en": {
+    "en": "shaved, with your hair done",
+    "t": "поголений і зачесаний"
+  },
+  "a2-u9-l15.oholeny-a-ucesany.note": {
+    "en": "From **oholiť sa** (to shave) and **učesať sa** (to comb your hair). Like zaľúbený, they lose sa.",
+    "t": "Від **oholiť sa** (поголитися) і **učesať sa** (зачесатися). Як zaľúbený, вони гублять sa — як і в нас."
+  },
+  "a2-u9-l15.choice-marek-si-osprchovany.question": {
+    "en": "Lucia comes round to help. What does she notice?",
+    "t": "Луція приходить допомогти. Що вона помічає?"
+  },
+  "a2-u9-l15.choice-marek-si-osprchovany.options": {
+    "en": [
+      "Marek has shaved but hasn't showered yet.",
+      "Marek has cooked but hasn't washed up yet.",
+      "Marek has showered but hasn't shaved yet."
+    ],
+    "t": [
+      "Марек поголився, але ще не прийняв душ.",
+      "Марек приготував їсти, але ще не помив посуд.",
+      "Марек прийняв душ, але ще не поголився."
+    ]
+  },
+  "a2-u9-l15.fill-si-pekne-ucesany.en": {
+    "en": "Your hair looks nice!",
+    "t": "Ти гарно зачесаний!"
+  },
+  "a2-u9-l15.fill-si-pekne-ucesany.why": {
+    "en": "Lucia is talking to Marek, a man, so the -ý ending: učesan**ý**.",
+    "t": "Луція говорить із Мареком, чоловіком, тож закінчення -ý: učesan**ý**."
+  },
+  "a2-u9-l15.ladit-s.en": {
+    "en": "to go with, to match",
+    "t": "пасувати до, личити"
+  },
+  "a2-u9-l15.ladit-s.note": {
+    "en": "Táto košeľa **ladí s** nohavicami. = This shirt goes with the trousers.",
+    "t": "Táto košeľa **ladí s** nohavicami. = Ця сорочка пасує до штанів."
+  },
+  "a2-u9-l15.fill-biela-kosela-ladi.en": {
+    "en": "The white shirt goes with the dark trousers.",
+    "t": "Біла сорочка пасує до темних штанів."
+  },
+  "a2-u9-l15.fill-biela-kosela-ladi.why": {
+    "en": "S (with) takes the instrumental. In the plural, adjectives end in **-ými**: s tmav**ými** nohavicami.",
+    "t": "S (з) вимагає орудного. У множині прикметники закінчуються на **-ými**: s tmav**ými** nohavicami, як «з темними»."
+  },
+  "a2-u9-l15.to-nevadi.en": {
+    "en": "It doesn't matter. / Never mind.",
+    "t": "Нічого страшного. / Не біда."
+  },
+  "a2-u9-l15.to-nevadi.note": {
+    "en": "Veronika: Prídem **neskôr** (later). Marek: To nevadí. **Počkám.** = I'll wait.",
+    "t": "Veronika: Prídem **neskôr** (пізніше). Marek: To nevadí. **Počkám.** = Я почекаю."
+  },
+  "a2-u9-l15.choice-prepac-pridem-neskor.question": {
+    "en": "Veronika texts Marek. What's the problem?",
+    "t": "Вероніка пише Марекові. У чому проблема?"
+  },
+  "a2-u9-l15.choice-prepac-pridem-neskor.options": {
+    "en": [
+      "She can't come at all.",
+      "She's ill.",
+      "She'll be late: she's still at work."
+    ],
+    "t": [
+      "Вона взагалі не зможе прийти.",
+      "Вона захворіла.",
+      "Вона запізниться: вона ще на роботі."
+    ]
+  },
+  "a2-u9-l15.build-to-nevadi-pockam.prompt": {
+    "en": "Never mind, I'll wait.",
+    "t": "Нічого страшного, я почекаю."
+  },
+  "a2-u9-l15.build-to-nevadi-pockam.traps": {
+    "en": [
+      "Marek is talking about himself, ja: **počkám**.",
+      "To (it) is one thing: to **nevadí**."
+    ],
+    "t": [
+      "Марек говорить про себе, ja: **počkám**.",
+      "To (це) — одна річ: to **nevadí**."
+    ]
+  },
+  "a2-u9-l15.vyzeras-krasne.en": {
+    "en": "You look beautiful!",
+    "t": "Ти чудово виглядаєш!"
+  },
+  "a2-u9-l15.vyzeras-krasne.note": {
+    "en": "**vyzerať** = to look. Máš nové **šaty**? = Is that a new dress? (šaty is always plural)",
+    "t": "**vyzerať** = виглядати. Máš nové **šaty**? = У тебе нова сукня? (šaty — завжди множина, як наші «штани»)"
+  },
+  "a2-u9-l15.choice-vyzeras-krasne-mas.question": {
+    "en": "Veronika arrives in a new dress. What does Marek say?",
+    "t": "Вероніка приходить у новій сукні. Що каже Марек?"
+  },
+  "a2-u9-l15.choice-vyzeras-krasne-mas.why": {
+    "en": "**Šaty** (a dress) is always plural: nov**é** šaty. And Marek says ty to Veronika: vyzer**áš**.",
+    "t": "**Šaty** (сукня) — завжди множина: nov**é** šaty. А до Вероніки Марек звертається на ty: vyzer**áš**."
+  },
+  "a2-u9-l15.nebudem-vas-rusit.en": {
+    "en": "I won't disturb you.",
+    "t": "Не буду вам заважати."
+  },
+  "a2-u9-l15.nebudem-vas-rusit.note": {
+    "en": "**rušiť** = to disturb. Lucia says **vás**: Marek and Veronika.",
+    "t": "**rušiť** = заважати, турбувати. Луція каже **vás**: Марекові й Вероніці."
+  },
+  "a2-u9-l15.uzite-si-vecer.en": {
+    "en": "Enjoy your evening!",
+    "t": "Гарного вам вечора!"
+  },
+  "a2-u9-l15.uzite-si-vecer.note": {
+    "en": "**užiť si** = to enjoy. To one friend: Uži si to!",
+    "t": "**užiť si** = насолоджуватися, добре провести час. До одного друга: Uži si to!"
+  },
+  "a2-u9-l15.choice-nebudem-vas-rusit.question": {
+    "en": "Lucia is still there when Veronika arrives. Now she's leaving. What does she say?",
+    "t": "Луція ще тут, коли приходить Вероніка. Тепер вона йде. Що вона каже?"
+  },
+  "a2-u9-l15.choice-nebudem-vas-rusit.why": {
+    "en": "Lucia is talking to two people, Marek and Veronika, so she uses vy: **vás** and **užite**.",
+    "t": "Луція говорить до двох людей, Марека й Вероніки, тож на vy: **vás** і **užite**."
+  },
+  "a2-u9-l15.build-ahoj-nebudem-vas.prompt": {
+    "en": "Bye, I won't disturb you. (Lucia to Marek and Veronika)",
+    "t": "Бувайте, не буду вам заважати. (Луція Марекові й Вероніці)"
+  },
+  "a2-u9-l15.build-ahoj-nebudem-vas.traps": {
+    "en": [
+      "Lucia is talking to two people, vy: **vás**.",
+      "After nebudem comes the infinitive: nebudem **rušiť**."
+    ],
+    "t": [
+      "Луція говорить до двох людей, vy: **vás**.",
+      "Після nebudem іде інфінітив, як «не буду заважати»: nebudem **rušiť**."
+    ]
+  },
+  "a2-u9-l15.match-si-pripraveny.pairs": {
+    "en": [
+      "nervous",
+      "to go with",
+      "to disturb",
+      "to enjoy",
+      "later"
+    ],
+    "t": [
+      "знервований",
+      "пасувати",
+      "заважати",
+      "насолоджуватися",
+      "пізніше"
+    ]
+  },
+  "a2-u9-l15.speak-uzite-si-vecer.en": {
+    "en": "Enjoy your evening!",
+    "t": "Гарного вам вечора!"
+  },
+  "a2-u9-l16.titleEn": {
+    "en": "A romantic dinner",
+    "t": "Романтична вечеря"
+  },
+  "a2-u9-l16.mam-prazdny-zaludok.en": {
+    "en": "My stomach is empty. / I'm starving.",
+    "t": "У мене порожній шлунок. / Умираю з голоду."
+  },
+  "a2-u9-l16.mam-prazdny-zaludok.note": {
+    "en": "**žalúdok** = stomach. After the meal: Som najedená. = I'm full (a woman).",
+    "t": "**žalúdok** = шлунок. Після їжі: Som najedená. = Я наїлася."
+  },
+  "a2-u9-l16.choice-dnes-som-este.question": {
+    "en": "Veronika arrives. How is she?",
+    "t": "Приходить Вероніка. Як вона почувається?"
+  },
+  "a2-u9-l16.choice-dnes-som-este.options": {
+    "en": [
+      "Very hungry.",
+      "Full.",
+      "Tired and ill."
+    ],
+    "t": [
+      "Дуже голодна.",
+      "Сита.",
+      "Втомлена й хвора."
+    ]
+  },
+  "a2-u9-l16.grilovany.en": {
+    "en": "grilled",
+    "t": "смажений на грилі"
+  },
+  "a2-u9-l16.grilovany.note": {
+    "en": "From **grilovať**: grilovaná ryba, grilované mäso. It works like the -aný words.",
+    "t": "Від **grilovať**: grilovaná ryba (риба на грилі), grilované mäso. Утворюється як слова на -aný."
+  },
+  "a2-u9-l16.plnene-papriky.en": {
+    "en": "stuffed peppers",
+    "t": "фаршировані перці"
+  },
+  "a2-u9-l16.plnene-papriky.note": {
+    "en": "From **plniť** (to fill): -iť → -ený. A favourite Slovak dish.",
+    "t": "Від **plniť** (наповнювати): -iť → -ený. Улюблена словацька страва."
+  },
+  "a2-u9-l16.choice-das-si-grilovanu.question": {
+    "en": "What is Marek offering?",
+    "t": "Що пропонує Марек?"
+  },
+  "a2-u9-l16.choice-das-si-grilovanu.options": {
+    "en": [
+      "fried fish or green peppers",
+      "grilled chicken or stuffed peppers",
+      "grilled fish or stuffed peppers"
+    ],
+    "t": [
+      "смажену рибу або зелений перець",
+      "курку на грилі або фаршировані перці",
+      "рибу на грилі або фаршировані перці"
+    ]
+  },
+  "a2-u9-l16.fill-dam-si-grilovanu.en": {
+    "en": "I'll have the grilled fish.",
+    "t": "Я візьму рибу на грилі."
+  },
+  "a2-u9-l16.fill-dam-si-grilovanu.why": {
+    "en": "The fish is the object of dám si, so -á becomes **-ú**: grilovan**ú** rybu, like dobrú kávu.",
+    "t": "Риба — додаток до dám si, тож -á стає **-ú**: grilovan**ú** rybu, як dobrú kávu."
+  },
+  "a2-u9-l16.opekane-zemiaky.en": {
+    "en": "roast potatoes",
+    "t": "запечена картопля"
+  },
+  "a2-u9-l16.opekane-zemiaky.note": {
+    "en": "K tomu sú **opekané zemiaky**. = It comes with roast potatoes.",
+    "t": "K tomu sú **opekané zemiaky**. = До цього — запечена картопля."
+  },
+  "a2-u9-l16.build-das-si-sampanske.prompt": {
+    "en": "Will you have champagne or wine?",
+    "t": "Вип'єш шампанського чи вина?"
+  },
+  "a2-u9-l16.build-das-si-sampanske.traps": {
+    "en": [
+      "Šampanské is neuter, an adjective used as a noun: **šampanské**.",
+      "Marek says ty to Veronika: **dáš** si."
+    ],
+    "t": [
+      "Šampanské — середнього роду, прикметник у ролі іменника, як і наше «шампанське»: **šampanské**.",
+      "До Вероніки Марек звертається на ty: **dáš** si."
+    ]
+  },
+  "a2-u9-l16.co-oslavujeme.en": {
+    "en": "What are we celebrating?",
+    "t": "Що ми святкуємо?"
+  },
+  "a2-u9-l16.co-oslavujeme.note": {
+    "en": "**oslavovať** = to celebrate. Aký je **dôvod**? = What's the reason?",
+    "t": "**oslavovať** = святкувати. Aký je **dôvod**? = Який привід?"
+  },
+  "a2-u9-l16.choice-aky-je-dovod.question": {
+    "en": "Veronika sees the candles and the champagne. What does she ask?",
+    "t": "Вероніка бачить свічки й шампанське. Що вона питає?"
+  },
+  "a2-u9-l16.zakusok.en": {
+    "en": "dessert, a piece of cake",
+    "t": "десерт, тістечко"
+  },
+  "a2-u9-l16.zakusok.note": {
+    "en": "Na **zákusok** je koláč. = There's cake for dessert.",
+    "t": "Na **zákusok** je koláč. = На десерт — пиріг."
+  },
+  "a2-u9-l16.fill-na-zakusok-mame.en": {
+    "en": "For dessert we've got Grandma's strawberry cake.",
+    "t": "На десерт у нас бабусин полуничний пиріг."
+  },
+  "a2-u9-l16.fill-na-zakusok-mame.why": {
+    "en": "Na here takes the object form, and masculine things don't change: na **zákusok**.",
+    "t": "Na тут вимагає знахідного, як «на десерт», а речі чоловічого роду не змінюються: na **zákusok**."
+  },
+  "a2-u9-l16.match-vecera.pairs": {
+    "en": [
+      "grilled",
+      "champagne",
+      "dessert",
+      "stomach",
+      "peppers"
+    ],
+    "t": [
+      "на грилі",
+      "шампанське",
+      "десерт",
+      "шлунок",
+      "перці"
+    ]
+  },
+  "a2-u9-l16.choice-vsetko-vyzera-krasne.question": {
+    "en": "What does Veronika think of the dinner?",
+    "t": "Що Вероніка думає про вечерю?"
+  },
+  "a2-u9-l16.choice-vsetko-vyzera-krasne.options": {
+    "en": [
+      "It looks and tastes wonderful.",
+      "It looks nice, but it doesn't taste good.",
+      "She isn't hungry any more."
+    ],
+    "t": [
+      "Усе чудово виглядає і смакує.",
+      "Виглядає гарно, але несмачно.",
+      "Вона вже не голодна."
+    ]
+  },
+  "a2-u9-l16.build-dam-si-grilovanu.prompt": {
+    "en": "I'll have the grilled fish with roast potatoes.",
+    "t": "Я візьму рибу на грилі із запеченою картоплею."
+  },
+  "a2-u9-l16.build-dam-si-grilovanu.traps": {
+    "en": [
+      "S (with) takes the instrumental. Plural adjectives end in **-ými**: s opekan**ými** zemiakmi.",
+      "The fish is the object of dám si: **grilovanú** rybu."
+    ],
+    "t": [
+      "S (з) вимагає орудного. У множині прикметники на **-ými**: s opekan**ými** zemiakmi.",
+      "Риба — додаток до dám si: **grilovanú** rybu."
+    ]
+  },
+  "a2-u9-l16.build-som-najedena-ale.answers": {
+    "en": [
+      "I'm full, but I'll still have some cake."
+    ],
+    "t": [
+      "Я наїлася, але пиріг ще з'їм.",
+      "Я сита, але пиріг ще з'їм.",
+      "Я наїлася, але від пирога не відмовлюся."
+    ]
+  },
+  "a2-u9-l16.build-som-najedena-ale.distractors": {
+    "en": [
+      "hungry",
+      "won't"
+    ],
+    "t": [
+      "голодна",
+      "не"
+    ]
+  },
+  "a2-u9-l16.speak-na-zdravie-co.en": {
+    "en": "Cheers! What are we celebrating?",
+    "t": "Будьмо! Що ми святкуємо?"
+  },
+  "a2-u9-l17.titleEn": {
+    "en": "A declaration of love",
+    "t": "Освідчення в коханні"
+  },
+  "a2-u9-l17.vsimnut-si.en": {
+    "en": "to notice",
+    "t": "помітити"
+  },
+  "a2-u9-l17.vsimnut-si.note": {
+    "en": "Všimla si si niečo? = Have you noticed anything? (to a woman: si si, as in Dal si si kávu?)",
+    "t": "Všimla si si niečo? = Ти щось помітила? (до жінки: si si, як у Dal si si kávu?)"
+  },
+  "a2-u9-l17.fill-ano-vsimla-som.en": {
+    "en": "Yes, I've noticed the flowers.",
+    "t": "Так, я помітила букет."
+  },
+  "a2-u9-l17.fill-ano-vsimla-som.why": {
+    "en": "Veronika is a woman, so the past ends in **-la**: všim**la** som si, like stretnúť → stretla.",
+    "t": "Вероніка — жінка, тож минулий час на **-la**: všim**la** som si, як stretnúť → stretla."
+  },
+  "a2-u9-l17.zalubit-sa.en": {
+    "en": "to fall in love",
+    "t": "закохатися"
+  },
+  "a2-u9-l17.zalubit-sa.note": {
+    "en": "In love **with** someone: **do** + the of-form. Zaľúbil som sa **do teba**. = I've fallen in love with you.",
+    "t": "Закохатися в когось — словацькою **do** + родовий: Zaľúbil som sa **do teba**. = Я закохався в тебе."
+  },
+  "a2-u9-l17.na-prvy-pohlad.en": {
+    "en": "at first sight",
+    "t": "з першого погляду"
+  },
+  "a2-u9-l17.na-prvy-pohlad.note": {
+    "en": "**pohľad** = a look.",
+    "t": "**pohľad** = погляд."
+  },
+  "a2-u9-l17.choice-zalubil-som-sa.question": {
+    "en": "What does Marek tell Veronika?",
+    "t": "Що Марек каже Вероніці?"
+  },
+  "a2-u9-l17.choice-zalubil-som-sa.options": {
+    "en": [
+      "He fell in love with her at first sight.",
+      "He noticed her the first time he saw her.",
+      "He likes the way she looks."
+    ],
+    "t": [
+      "Він закохався в неї з першого погляду.",
+      "Він помітив її, щойно вперше побачив.",
+      "Йому подобається, як вона виглядає."
+    ]
+  },
+  "a2-u9-l17.fill-zalubil-som-sa.en": {
+    "en": "I've fallen in love with you.",
+    "t": "Я закохався в тебе."
+  },
+  "a2-u9-l17.fill-zalubil-som-sa.why": {
+    "en": "Do takes the genitive, and after a preposition a pronoun takes its long form: do **teba**, like od teba.",
+    "t": "Do вимагає родового, а після прийменника займенник має довгу форму: do **teba**, як od teba."
+  },
+  "a2-u9-l17.zlomena-ruka.en": {
+    "en": "a broken arm",
+    "t": "зламана рука"
+  },
+  "a2-u9-l17.zlomena-ruka.note": {
+    "en": "From zlomiť (to break). Marek met Veronika in winter, when he came to hospital **so zlomenou rukou**.",
+    "t": "Від zlomiť (зламати). Марек познайомився з Веронікою взимку, коли прийшов у лікарню **so zlomenou rukou**, «зі зламаною рукою»."
+  },
+  "a2-u9-l17.build-aj-ja-som.prompt": {
+    "en": "I fell in love with you too. (Veronika)",
+    "t": "Я теж у тебе закохалася."
+  },
+  "a2-u9-l17.build-aj-ja-som.traps": {
+    "en": [
+      "Veronika is a woman: zaľúbi**la**.",
+      "After do, the long form: do **teba**."
+    ],
+    "t": [
+      "Вероніка — жінка: zaľúbi**la**.",
+      "Після do — довга форма: do **teba**."
+    ]
+  },
+  "a2-u9-l17.lubim-ta.en": {
+    "en": "I love you.",
+    "t": "Я тебе кохаю."
+  },
+  "a2-u9-l17.lubim-ta.note": {
+    "en": "**ľúbiť** = to love someone. **Milujem ťa** says it even more strongly. **láska** = love: moja láska (my love); **miláčik** = darling.",
+    "t": "**ľúbiť** = кохати, любити. **Milujem ťa** — ще сильніше. **láska** = кохання, любов: moja láska (моє кохання); **miláčik** = коханий, любий."
+  },
+  "a2-u9-l17.choice-aj-ja-ta.question": {
+    "en": "Marek says Ľúbim ťa. What does Veronika answer?",
+    "t": "Марек каже: Ľúbim ťa. Що відповідає Вероніка?"
+  },
+  "a2-u9-l17.choice-aj-ja-ta.why": {
+    "en": "Veronika talks about herself, ja: **ľúbim**. **Miláčik** (darling) is for a partner; babi is for a grandmother.",
+    "t": "Вероніка говорить про себе, ja: **ľúbim**. **Miláčik** (коханий) — до партнера; babi — до бабусі."
+  },
+  "a2-u9-l17.chces-so-mnou.en": {
+    "en": "Will you go out with me?",
+    "t": "Будеш зі мною зустрічатися?"
+  },
+  "a2-u9-l17.chces-so-mnou.note": {
+    "en": "**chodiť s** = to go out with, to date. Then she's his **priateľka** (girlfriend).",
+    "t": "**chodiť s** = зустрічатися з кимось. Тоді вона його **priateľka** (дівчина)."
+  },
+  "a2-u9-l17.choice-chces-so-mnou.question": {
+    "en": "What does Marek mean?",
+    "t": "Що Марек має на увазі?"
+  },
+  "a2-u9-l17.choice-chces-so-mnou.options": {
+    "en": [
+      "Will you go out with me?",
+      "Will you go for a walk with me?",
+      "Will you come to the cinema with me?"
+    ],
+    "t": [
+      "Будеш зі мною зустрічатися?",
+      "Підеш зі мною на прогулянку?",
+      "Підеш зі мною в кіно?"
+    ]
+  },
+  "a2-u9-l17.choice-chces-so-mnou.why": {
+    "en": "**Chodiť s niekým** means to go out with someone: to be a couple.",
+    "t": "**Chodiť s niekým** — це не просто «ходити з кимось», а зустрічатися, бути парою."
+  },
+  "a2-u9-l17.podmienka.en": {
+    "en": "condition",
+    "t": "умова"
+  },
+  "a2-u9-l17.podmienka.note": {
+    "en": "Mám jednu **podmienku**. = I've got one condition.",
+    "t": "Mám jednu **podmienku**. = У мене одна умова."
+  },
+  "a2-u9-l17.fill-ano-ale-mam.en": {
+    "en": "Yes, but I've got one condition.",
+    "t": "Так, але в мене одна умова."
+  },
+  "a2-u9-l17.fill-ano-ale-mam.why": {
+    "en": "The condition is the object of mám: -a → **-u**, podmienk**u**, just like jedna → jednu.",
+    "t": "Умова — додаток до mám: -a → **-u**, podmienk**u**, так само як jedna → jednu."
+  },
+  "a2-u9-l17.choice-vzdy-v-piatok.question": {
+    "en": "What is Veronika's condition?",
+    "t": "Яка умова Вероніки?"
+  },
+  "a2-u9-l17.choice-vzdy-v-piatok.options": {
+    "en": [
+      "She cooks him dinner every Friday.",
+      "They eat out every Friday.",
+      "Marek cooks her dinner every Friday."
+    ],
+    "t": [
+      "Вона щоп'ятниці готує йому вечерю.",
+      "Щоп'ятниці вони вечеряють у ресторані.",
+      "Марек щоп'ятниці готує їй вечерю."
+    ]
+  },
+  "a2-u9-l17.match-vyznanie.pairs": {
+    "en": [
+      "to notice",
+      "to fall in love",
+      "look",
+      "condition",
+      "to love"
+    ],
+    "t": [
+      "помітити",
+      "закохатися",
+      "погляд",
+      "умова",
+      "кохати"
+    ]
+  },
+  "a2-u9-l17.build-lubim-ta-veronika.answers": {
+    "en": [
+      "I love you, Veronika."
+    ],
+    "t": [
+      "Я тебе кохаю, Вероніко.",
+      "Я кохаю тебе, Вероніко.",
+      "Кохаю тебе, Вероніко."
+    ]
+  },
+  "a2-u9-l17.build-lubim-ta-veronika.distractors": {
+    "en": [
+      "like",
+      "her"
+    ],
+    "t": [
+      "подобаєшся",
+      "її"
+    ]
+  },
+  "a2-u9-l17.speak-zalubil-som-sa.en": {
+    "en": "I've fallen in love with you.",
+    "t": "Я закохався в тебе."
+  },
+  "a2-u9-l18.titleEn": {
+    "en": "We're together",
+    "t": "Ми разом"
+  },
+  "a2-u9-l18.priatelka.en": {
+    "en": "girlfriend; (female) friend",
+    "t": "дівчина (кохана); подруга"
+  },
+  "a2-u9-l18.priatelka.note": {
+    "en": "Veronika je Marekova **priateľka**. A friend you're not going out with is usually a kamarátka.",
+    "t": "Veronika je Marekova **priateľka**. = Вероніка — Марекова дівчина. Подругу, з якою не зустрічаються, зазвичай називають kamarátka."
+  },
+  "a2-u9-l18.myslela-som-ze.en": {
+    "en": "I thought I'd never live to see it!",
+    "t": "Думала, що не доживу до цього!"
+  },
+  "a2-u9-l18.myslela-som-ze.note": {
+    "en": "**dožiť sa** = to live to see. Lucia laughs: her big brother has a girlfriend!",
+    "t": "**dožiť sa** = дожити до чогось. Луція сміється: у її старшого брата є дівчина!"
+  },
+  "a2-u9-l18.choice-marek-ma-priatelku.question": {
+    "en": "How does Lucia take the news?",
+    "t": "Як Луція сприймає новину?"
+  },
+  "a2-u9-l18.choice-marek-ma-priatelku.options": {
+    "en": [
+      "She's angry.",
+      "She's delighted and surprised.",
+      "She's sad."
+    ],
+    "t": [
+      "Вона сердиться.",
+      "Вона в захваті й здивована.",
+      "Їй сумно."
+    ]
+  },
+  "a2-u9-l18.stastny.en": {
+    "en": "happy",
+    "t": "щасливий"
+  },
+  "a2-u9-l18.stastny.note": {
+    "en": "The opposite: **nešťastný**, unhappy.",
+    "t": "Протилежне: **nešťastný**, нещасний."
+  },
+  "a2-u9-l18.fill-veronika-je-velmi.en": {
+    "en": "Veronika is very happy.",
+    "t": "Вероніка дуже щаслива."
+  },
+  "a2-u9-l18.fill-veronika-je-velmi.why": {
+    "en": "Veronika is a woman, so the adjective ends in **-á**: šťastn**á**.",
+    "t": "Вероніка — жінка, тож прикметник на **-á**: šťastn**á**."
+  },
+  "a2-u9-l18.zoznamit-sa.en": {
+    "en": "to meet (for the first time)",
+    "t": "познайомитися"
+  },
+  "a2-u9-l18.zoznamit-sa.note": {
+    "en": "Kde ste sa **zoznámili**? = Where did you meet? Pán Kováč: So ženou sme sa zoznámili na **plese** (at a ball).",
+    "t": "Kde ste sa **zoznámili**? = Де ви познайомилися? Пан Ковач: So ženou sme sa zoznámili na **plese** (на балу)."
+  },
+  "a2-u9-l18.choice-so-zenou-sme.question": {
+    "en": "Pán Kováč tells Emma about his wife. What does he say?",
+    "t": "Пан Ковач розповідає Еммі про свою дружину. Що він каже?"
+  },
+  "a2-u9-l18.choice-so-zenou-sme.options": {
+    "en": [
+      "He met his wife at a concert.",
+      "His wife is at a ball.",
+      "He met his wife at a ball."
+    ],
+    "t": [
+      "Він познайомився з дружиною на концерті.",
+      "Його дружина на балу.",
+      "Він познайомився з дружиною на балу."
+    ]
+  },
+  "a2-u9-l18.build-zoznamili-sme-sa.prompt": {
+    "en": "We met in Bratislava.",
+    "t": "Ми познайомилися в Братиславі."
+  },
+  "a2-u9-l18.build-zoznamili-sme-sa.traps": {
+    "en": [
+      "“We” is my, so the past takes **-li**, with sme: zoznámi**li** sme sa.",
+      "“Where?” takes the locative after v: v **Bratislave**."
+    ],
+    "t": [
+      "«Ми» — це my, тож минулий час на **-li**, із sme: zoznámi**li** sme sa.",
+      "«Де?» після v — місцевий: v **Bratislave**, «у Братиславі»."
+    ]
+  },
+  "a2-u9-l18.vziat-sa.en": {
+    "en": "to get married (of a couple)",
+    "t": "побратися, одружитися (про пару)"
+  },
+  "a2-u9-l18.vziat-sa.note": {
+    "en": "O rok sme sa **vzali**. = We got married a year later. The wedding is the **svadba**.",
+    "t": "O rok sme sa **vzali**. = Через рік ми побралися. Весілля — **svadba**."
+  },
+  "a2-u9-l18.fill-o-rok-sme.en": {
+    "en": "We got married a year later.",
+    "t": "Через рік ми побралися."
+  },
+  "a2-u9-l18.fill-o-rok-sme.why": {
+    "en": "We is my, so the past takes **-li**, with sme: vza**li** sme sa.",
+    "t": "«Ми» — це my, тож минулий час на **-li**, із sme: vza**li** sme sa."
+  },
+  "a2-u9-l18.build-kedy-bude-svadba.prompt": {
+    "en": "When's the wedding going to be?",
+    "t": "Коли буде весілля?"
+  },
+  "a2-u9-l18.build-kedy-bude-svadba.traps": {
+    "en": [
+      "Svadba is one thing, ona: **bude**.",
+      "Svadba is the subject here, so it stays **svadba**."
+    ],
+    "t": [
+      "Svadba — одна річ, ona: **bude**.",
+      "Svadba тут — підмет, тож лишається **svadba**."
+    ]
+  },
+  "a2-u9-l18.iba-zartujem.en": {
+    "en": "I'm only joking.",
+    "t": "Я лише жартую."
+  },
+  "a2-u9-l18.iba-zartujem.note": {
+    "en": "**žart** = a joke. **Nehnevaj sa!** = Don't be cross!",
+    "t": "**žart** = жарт. **Nehnevaj sa!** = Не сердься!"
+  },
+  "a2-u9-l18.choice-nehnevaj-sa-iba.question": {
+    "en": "Marek looks cross after Lucia's joke about a wedding. What does she say?",
+    "t": "Після Луціїного жарту про весілля Марек сердиться. Що вона каже?"
+  },
+  "a2-u9-l18.choice-nehnevaj-sa-iba.why": {
+    "en": "Lucia talks about herself, ja: žartuje**m**. To her brother she says ty: **nehnevaj** sa.",
+    "t": "Луція говорить про себе, ja: žartuje**m**. До брата — на ty: **nehnevaj** sa."
+  },
+  "a2-u9-l18.rozist-sa.en": {
+    "en": "to split up, to break up",
+    "t": "розійтися, розлучитися"
+  },
+  "a2-u9-l18.rozist-sa.note": {
+    "en": "**hádať sa** = to argue. Rozišli sa. = They split up. Divorced: **rozvedený** (a man), **rozvedená** (a woman).",
+    "t": "**hádať sa** = сваритися (не «гадати»!). Rozišli sa. = Вони розійшлися. Розлучений: **rozvedený** (чоловік), **rozvedená** (жінка)."
+  },
+  "a2-u9-l18.fill-casto-sa-hadali.en": {
+    "en": "They often argued, so they split up after a year.",
+    "t": "Вони часто сварилися, тож через рік розійшлися."
+  },
+  "a2-u9-l18.fill-casto-sa-hadali.why": {
+    "en": "They were two people, oni, so the past ends in **-li**: sa roziš**li**. Rozišiel is one man, rozišla one woman.",
+    "t": "Їх було двоє, oni, тож минулий час на **-li**: sa roziš**li**. Rozišiel — один чоловік, rozišla — одна жінка."
+  },
+  "a2-u9-l18.choice-laska-ide-cez.question": {
+    "en": "Lucia laughs about Marek's dinner. What does she mean?",
+    "t": "Луція сміється з Марекової вечері. Що вона має на увазі?"
+  },
+  "a2-u9-l18.choice-laska-ide-cez.options": {
+    "en": [
+      "Love makes you hungry.",
+      "The way to someone's heart is through their stomach.",
+      "Love is blind."
+    ],
+    "t": [
+      "Від кохання хочеться їсти.",
+      "Шлях до серця лежить через шлунок.",
+      "Кохання сліпе."
+    ]
+  },
+  "a2-u9-l18.speak-myslela-som-ze.en": {
+    "en": "I thought I'd never live to see it!",
+    "t": "Думала, що не доживу до цього!"
+  },
+  "a2-u9-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Письмова практика"
+  },
+  "a2-u9-pisanie.listen-sarah-miluje-zvierata.en": {
+    "en": "Sarah loves animals; she likes monkeys best.",
+    "t": "Сара обожнює тварин, а найбільше любить мавп."
+  },
+  "a2-u9-pisanie.listen-v-zoo-su.en": {
+    "en": "There are two elephants and three lions at the zoo.",
+    "t": "У зоопарку два слони й три леви."
+  },
+  "a2-u9-pisanie.listen-listky-na-sobotu.en": {
+    "en": "The tickets for Saturday are sold out.",
+    "t": "Квитки на суботу розпродано."
+  },
+  "a2-u9-pisanie.listen-najprv-vymiesame-vajcia.en": {
+    "en": "First we mix the eggs with the sugar.",
+    "t": "Спочатку змішуємо яйця з цукром."
+  },
+  "a2-u9-pisanie.listen-stol-je-prestrety.en": {
+    "en": "The table is laid and dinner is cooked.",
+    "t": "Стіл накритий, а вечеря зварена."
+  },
+  "a2-u9-pisanie.listen-zalubil-som-sa.en": {
+    "en": "I fell in love with you at first sight.",
+    "t": "Я закохався в тебе з першого погляду."
+  },
+  "a2-u9-pisanie.listen-marek-a-veronika.en": {
+    "en": "Marek and Veronika are going out together.",
+    "t": "Марек і Вероніка зустрічаються."
+  },
+  "a2-u9-l19.titleEn": {
+    "en": "Review",
+    "t": "Повторення"
+  },
+  "a2-u9-l19.match-opakovanie.pairs": {
+    "en": [
+      "bear",
+      "monkey",
+      "dough",
+      "oven",
+      "condition"
+    ],
+    "t": [
+      "ведмідь",
+      "мавпа",
+      "тісто",
+      "духовка",
+      "умова"
+    ]
+  },
+  "a2-u9-l19.fill-v-zoo-sme.en": {
+    "en": "We saw four tigers at the zoo.",
+    "t": "У зоопарку ми бачили чотирьох тигрів."
+  },
+  "a2-u9-l19.fill-v-zoo-sme.why": {
+    "en": "Two to four take the plural, and animal plurals work like things: štyri **tigre**. Tigrov comes after five.",
+    "t": "Від двох до чотирьох — множина, а множина тварин поводиться як речі: štyri **tigre**, як «чотири тигри». Tigrov — від п'яти."
+  },
+  "a2-u9-l19.choice-predstavenie-v-sobotu.question": {
+    "en": "You hear this at the circus box office. What's the news?",
+    "t": "Ви чуєте це в касі цирку. Яка новина?"
+  },
+  "a2-u9-l19.choice-predstavenie-v-sobotu.options": {
+    "en": [
+      "The Saturday show is cancelled.",
+      "There are still tickets for Saturday.",
+      "The Saturday show is sold out."
+    ],
+    "t": [
+      "Суботню виставу скасовано.",
+      "На суботу ще є квитки.",
+      "Квитки на суботню виставу розпродано."
+    ]
+  },
+  "a2-u9-l19.fill-na-stole-je.en": {
+    "en": "There's a cooked dinner on the table.",
+    "t": "На столі зварена вечеря."
+  },
+  "a2-u9-l19.fill-na-stole-je.why": {
+    "en": "Večera is feminine, so **uvarená**.",
+    "t": "Večera — жіночого роду, тож **uvarená**."
+  },
+  "a2-u9-l19.build-potrebujeme-dve-salky.prompt": {
+    "en": "We need two cups of flour and five eggs.",
+    "t": "Нам потрібні дві чашки борошна й п'ять яєць."
+  },
+  "a2-u9-l19.build-potrebujeme-dve-salky.traps": {
+    "en": [
+      "After a quantity, the of-form: dve šálky **múky**.",
+      "From five up, the of-form: päť **vajec**."
+    ],
+    "t": [
+      "Після кількості — родовий: dve šálky **múky**.",
+      "Від п'яти — родовий: päť **vajec**, «п'ять яєць»."
+    ]
+  },
+  "a2-u9-l19.choice-ktory-je-spiaci.question": {
+    "en": "Which one is a lion that is asleep?",
+    "t": "Що з цього — лев, який спить?"
+  },
+  "a2-u9-l19.choice-ktory-je-spiaci.why": {
+    "en": "Spať gives **spiaci**: who is sleeping. Spací is for things made for sleeping (spací vak), and lev is masculine, so -i.",
+    "t": "Spať дає **spiaci**: той, хто спить. Spací — для речей, призначених для сну (spací vak), а lev — чоловічого роду, тож -i."
+  },
+  "a2-u9-l19.fill-v-piatok-vecer.en": {
+    "en": "On Friday evenings restaurants are usually full.",
+    "t": "У п'ятницю ввечері ресторани зазвичай повні."
+  },
+  "a2-u9-l19.fill-v-piatok-vecer.why": {
+    "en": "Reštaurácie are oni: **bývajú**.",
+    "t": "Reštaurácie — це oni: **bývajú**."
+  },
+  "a2-u9-l19.build-nakoniec-ozdob-kolac.prompt": {
+    "en": "Babka to Marek: Finally, decorate the cake with whipped cream.",
+    "t": "Бабуся Марекові: Наостанок прикрась пиріг збитими вершками."
+  },
+  "a2-u9-l19.build-nakoniec-ozdob-kolac.traps": {
+    "en": [
+      "Babka says ty to Marek: **ozdob**. Ozdobte is for vy.",
+      "Whipped cream is what you decorate with: the instrumental, -a → **-ou**."
+    ],
+    "t": [
+      "Бабуся до Марека на ty: **ozdob**. Ozdobte — для vy.",
+      "Збиті вершки — те, чим прикрашають: орудний, -a → **-ou**, як «вершками»."
+    ]
+  },
+  "a2-u9-l19.choice-lucia-upratala-byt.question": {
+    "en": "Lucia upratala byt. Which sentence is about the flat?",
+    "t": "Lucia upratala byt. Яке речення про квартиру?"
+  },
+  "a2-u9-l19.choice-lucia-upratala-byt.why": {
+    "en": "The flat becomes the subject: byt **je** uprata**ný**, and who did it is left out.",
+    "t": "Квартира стає підметом: byt **je** uprata**ný**, а хто це зробив, не сказано."
+  },
+  "a2-u9-l19.fill-zalubila-som-sa.en": {
+    "en": "I've fallen in love with him.",
+    "t": "Я закохалася в нього."
+  },
+  "a2-u9-l19.fill-zalubila-som-sa.why": {
+    "en": "Do takes the genitive, and after a preposition a pronoun takes its long form: do **neho**, like bez neho.",
+    "t": "Do вимагає родового, а після прийменника займенник має довгу форму: do **neho**, як bez neho — і як наше «в нього»."
+  },
+  "a2-u9-l19.choice-lucia-je-moja.question": {
+    "en": "Emma introduces Lucia. What does she say?",
+    "t": "Емма представляє Луцію. Що вона каже?"
+  },
+  "a2-u9-l19.choice-lucia-je-moja.why": {
+    "en": "Lucia is a woman: moja **spolubývajúca**, with -a.",
+    "t": "Луція — жінка: moja **spolubývajúca**, з -a."
+  },
+  "a2-u9-l19.build-uznavam-cirkus-bez.answers": {
+    "en": [
+      "I admit the circus without animals is better."
+    ],
+    "t": [
+      "Визнаю, цирк без тварин кращий.",
+      "Визнаю, що цирк без тварин кращий."
+    ]
+  },
+  "a2-u9-l19.build-uznavam-cirkus-bez.distractors": {
+    "en": [
+      "with",
+      "worse"
+    ],
+    "t": [
+      "з",
+      "гірший"
+    ]
+  },
+  "a2-u9-l19.fill-klauni-zongluju-a.en": {
+    "en": "The clowns are juggling and the performer is dancing on the rope.",
+    "t": "Клоуни жонглюють, а артистка танцює на канаті."
+  },
+  "a2-u9-l19.fill-klauni-zongluju-a.why": {
+    "en": "Klauni are oni, so the verb ends in **-ú**: žongluj**ú**.",
+    "t": "Klauni — це oni, тож дієслово на **-ú**: žongluj**ú**."
+  },
+  "a2-u9-l19.choice-pridem-neskor-to.question": {
+    "en": "Veronika texts: Prídem neskôr. What does Marek answer?",
+    "t": "Вероніка пише: Prídem neskôr. Що відповідає Марек?"
+  },
+  "a2-u9-l19.build-stol-je-prestrety.prompt": {
+    "en": "The table is laid and the champagne is chilled.",
+    "t": "Стіл накритий, а шампанське охолоджене."
+  },
+  "a2-u9-l19.build-stol-je-prestrety.traps": {
+    "en": [
+      "Stôl is masculine: **prestretý**.",
+      "Šampanské is neuter: **vychladené**."
+    ],
+    "t": [
+      "Stôl — чоловічого роду: **prestretý**.",
+      "Šampanské — середнього роду: **vychladené**."
+    ]
+  },
+  "a2-u9-l19.speak-chces-so-mnou.en": {
+    "en": "Will you go out with me?",
+    "t": "Будеш зі мною зустрічатися?"
+  }
+}

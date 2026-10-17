@@ -1,0 +1,3300 @@
+{
+  "a2-u8.titleEn": {
+    "en": "The music festival",
+    "t": "Музыкальный фестиваль"
+  },
+  "a2-u8.topics": {
+    "en": [
+      "A summer music festival",
+      "Weather and forecasts",
+      "Packing for camping",
+      "Clothes and shoes",
+      "Messages and posts"
+    ],
+    "t": [
+      "Летний музыкальный фестиваль",
+      "Погода и прогнозы",
+      "Сборы в поход с палаткой",
+      "Одежда и обувь",
+      "Сообщения и посты"
+    ]
+  },
+  "a2-u8.grammar": {
+    "en": [
+      "Weather verbs without a subject",
+      "Should: mal by som",
+      "Adjectives in -ný and -ový",
+      "pre: because of",
+      "Real conditions with ak",
+      "Imagined conditions with keby"
+    ],
+    "t": [
+      "Погодные глаголы без подлежащего",
+      "«Следовало бы»: mal by som",
+      "Прилагательные на -ný и -ový",
+      "pre: «из-за»",
+      "Реальное условие с ak",
+      "Воображаемое условие с keby"
+    ]
+  },
+  "a2-u8-l1.titleEn": {
+    "en": "Coming to the festival with us?",
+    "t": "Поедешь с нами на фестиваль?"
+  },
+  "a2-u8-l1.festival.en": {
+    "en": "festival",
+    "t": "фестиваль"
+  },
+  "a2-u8-l1.festival.note": {
+    "en": "A **hudobný festival** is a music festival. This one is in July, **pri jazere** (by a lake).",
+    "t": "**Hudobný festival** — музыкальный фестиваль. Этот проходит в июле, **pri jazere** (у озера)."
+  },
+  "a2-u8-l1.mas-chvilu.en": {
+    "en": "Have you got a minute?",
+    "t": "У тебя есть минутка?"
+  },
+  "a2-u8-l1.mas-chvilu.note": {
+    "en": "**chvíľa** = a moment. To someone you call vy: **Máte chvíľu?**",
+    "t": "**chvíľa** = минутка, мгновение. Тому, к кому вы обращаетесь на «вы»: **Máte chvíľu?**"
+  },
+  "a2-u8-l1.choice-mas-chvilu.question": {
+    "en": "Lucia phones Emma. How does she ask if Emma has a minute?",
+    "t": "Луция звонит Эмме. Как она спросит, есть ли у Эммы минутка?"
+  },
+  "a2-u8-l1.choice-mas-chvilu.why": {
+    "en": "Lucia and Emma are friends, so Lucia says ty: **máš** chvíľu? Máte is for vy, and mám would be about herself.",
+    "t": "Луция и Эмма — подруги, поэтому Луция говорит на «ты»: **máš** chvíľu? Máte — на «вы», а mám было бы о ней самой."
+  },
+  "a2-u8-l1.kapela.en": {
+    "en": "band",
+    "t": "группа (музыкальная)"
+  },
+  "a2-u8-l1.kapela.note": {
+    "en": "Also **skupina** (a group). **Kapela hrá.** = The band is playing.",
+    "t": "Не «капелла», а просто группа. Ещё говорят **skupina**. **Kapela hrá.** = Группа играет."
+  },
+  "a2-u8-l1.koncert.en": {
+    "en": "concert",
+    "t": "концерт"
+  },
+  "a2-u8-l1.koncert.note": {
+    "en": "Going: **na koncert**. Being there: **na koncerte**. A ticket for a concert or a festival is a **vstupenka**.",
+    "t": "Куда? — **na koncert**. Где? — **na koncerte**, как у нас: на концерт, на концерте. Билет на концерт или фестиваль — **vstupenka**."
+  },
+  "a2-u8-l1.fill-ideme-na-koncert.en": {
+    "en": "On Friday evening we're going to a concert.",
+    "t": "В пятницу вечером мы идём на концерт."
+  },
+  "a2-u8-l1.fill-ideme-na-koncert.why": {
+    "en": "Going to an event takes **na** + the object form: ísť **na** koncert, like na festival or na oslavu.",
+    "t": "С мероприятиями, как и в русском, — **na** + винительный (куда?): ísť **na** koncert, как na festival или na oslavu."
+  },
+  "a2-u8-l1.choice-lucia-telefonuje-emme.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u8-l1.choice-lucia-telefonuje-emme.options": {
+    "en": [
+      "Emma is phoning Lucia about a festival.",
+      "Lucia and Emma are at a festival.",
+      "Lucia is phoning Emma and inviting her to a festival."
+    ],
+    "t": [
+      "Эмма звонит Луции насчёт фестиваля.",
+      "Луция и Эмма на фестивале.",
+      "Луция звонит Эмме и приглашает её на фестиваль."
+    ]
+  },
+  "a2-u8-l1.fill-kapela-hra-na.en": {
+    "en": "The band is playing at the festival on Saturday.",
+    "t": "В субботу группа играет на фестивале."
+  },
+  "a2-u8-l1.fill-kapela-hra-na.why": {
+    "en": "**Kapela** is one band (ona), so the verb has no ending: kapela **hrá**. Hrajú is for oni, hrám for ja.",
+    "t": "**Kapela** — одна группа (ona), поэтому у глагола нет окончания: kapela **hrá**. Hrajú — для oni, hrám — для ja."
+  },
+  "a2-u8-l1.stan.en": {
+    "en": "tent",
+    "t": "палатка"
+  },
+  "a2-u8-l1.stan.note": {
+    "en": "**postaviť stan** = to put up a tent. Sleeping in it: **v stane**.",
+    "t": "Не «стан», а палатка. **postaviť stan** = поставить палатку. Спать в ней — **v stane**."
+  },
+  "a2-u8-l1.spacak-a-karimatka.en": {
+    "en": "sleeping bag and sleeping mat",
+    "t": "спальник и туристический коврик"
+  },
+  "a2-u8-l1.spacak-a-karimatka.note": {
+    "en": "**spacák** is everyday Slovak; the neutral word is **spací vak**.",
+    "t": "**spacák** — разговорное слово, как наш «спальник»; нейтральное — **spací vak** (спальный мешок)."
+  },
+  "a2-u8-l1.match-koncert.pairs": {
+    "en": [
+      "concert",
+      "band",
+      "tent",
+      "sleeping bag",
+      "sleeping mat"
+    ],
+    "t": [
+      "концерт",
+      "группа",
+      "палатка",
+      "спальник",
+      "коврик"
+    ]
+  },
+  "a2-u8-l1.build-budeme-spat-v.prompt": {
+    "en": "We'll sleep in a tent by the lake.",
+    "t": "Мы будем спать в палатке у озера."
+  },
+  "a2-u8-l1.build-budeme-spat-v.traps": {
+    "en": [
+      "Sleeping in it answers “where?”, so **v** takes the locative: v **stane**.",
+      "The festival is still to come: **budeme** + the infinitive, budeme spať. Sme is now."
+    ],
+    "t": [
+      "Спать в палатке — ответ на вопрос «где?», поэтому **v** + предложный: v **stane**, как «в палатке».",
+      "Фестиваль ещё впереди: **budeme** + инфинитив, budeme spať — «будем спать». Sme — это сейчас."
+    ]
+  },
+  "a2-u8-l1.choice-mohli-by-sme.question": {
+    "en": "Lucia suggests going together. What does she say?",
+    "t": "Луция предлагает пойти вместе. Что она скажет?"
+  },
+  "a2-u8-l1.choice-mohli-by-sme.why": {
+    "en": "A friendly suggestion takes the conditional: **mohli by sme** = we could. Išli sme is the past, and musíme (we must) sounds like an order.",
+    "t": "Дружеское предложение — в условном наклонении, как с нашим «бы»: **mohli by sme** = мы могли бы. Išli sme — прошедшее время, а musíme (мы должны) звучит как приказ."
+  },
+  "a2-u8-l1.fill-uz-som-kupila.en": {
+    "en": "I've already bought a ticket for the festival.",
+    "t": "Я уже купила билет на фестиваль."
+  },
+  "a2-u8-l1.fill-uz-som-kupila.why": {
+    "en": "The ticket is what she bought, the object, so vstupenka changes -a to **-u**: kúpila som **vstupenku**.",
+    "t": "Билет — то, что она купила, дополнение, поэтому vstupenka меняет -a на **-u**: kúpila som **vstupenku**, как у нас «книга — книгу»."
+  },
+  "a2-u8-l1.build-mohli-by-sme.answers": {
+    "en": [
+      "We could go to the concert together.",
+      "We could go together to the concert."
+    ],
+    "t": [
+      "Мы могли бы пойти вместе на концерт.",
+      "Мы могли бы вместе пойти на концерт.",
+      "Мы могли бы пойти на концерт вместе.",
+      "Мы могли бы сходить вместе на концерт."
+    ]
+  },
+  "a2-u8-l1.build-mohli-by-sme.distractors": {
+    "en": [
+      "should",
+      "festival"
+    ],
+    "t": [
+      "должны",
+      "фестиваль"
+    ]
+  },
+  "a2-u8-l1.build-prepac-zabudla-som.prompt": {
+    "en": "Sorry, I forgot to call you.",
+    "t": "Прости, я забыл(а) тебе позвонить."
+  },
+  "a2-u8-l1.build-prepac-zabudla-som.traps": {
+    "en": [
+      "To a friend, the ty form: **prepáč**. Prepáčte is for vy.",
+      "Phoning someone, zavolať takes the to-whom form: zavolať **ti**, as in Zavolám ti. Ťa is the object form."
+    ],
+    "t": [
+      "Другу — на «ты»: **prepáč**. Prepáčte — на «вы».",
+      "Звонят кому-то, поэтому zavolať требует дательного, как и «позвонить тебе»: zavolať **ti**, как в Zavolám ti. Ťa — это «тебя», винительный."
+    ]
+  },
+  "a2-u8-l1.listen-v-juli-ideme.en": {
+    "en": "In July we're going to a festival.",
+    "t": "В июле мы едем на фестиваль."
+  },
+  "a2-u8-l1.speak-ides-s-nami.en": {
+    "en": "Are you coming to the festival with us?",
+    "t": "Поедешь с нами на фестиваль?"
+  },
+  "a2-u8-l2.titleEn": {
+    "en": "The weather forecast",
+    "t": "Прогноз погоды"
+  },
+  "a2-u8-l2.predpoved-pocasia.en": {
+    "en": "weather forecast",
+    "t": "прогноз погоды"
+  },
+  "a2-u8-l2.predpoved-pocasia.note": {
+    "en": "**predpoveď** (feminine) = a forecast. Aká je predpoveď na víkend? = What's the forecast for the weekend?",
+    "t": "**predpoveď** (женского рода) = прогноз, дословно «предсказание». Aká je predpoveď na víkend? = Какой прогноз на выходные?"
+  },
+  "a2-u8-l2.surfovat-po-internete.en": {
+    "en": "to surf the internet",
+    "t": "сидеть в интернете"
+  },
+  "a2-u8-l2.surfovat-po-internete.note": {
+    "en": "It goes like študovať: **surfujem**, surfuješ… A website is a **webová stránka**.",
+    "t": "Спрягается как študovať: **surfujem**, surfuješ… Сайт — **webová stránka**."
+  },
+  "a2-u8-l2.fill-emma-hlada-predpoved.en": {
+    "en": "Emma is looking for the weather forecast on a website.",
+    "t": "Эмма ищет прогноз погоды на сайте."
+  },
+  "a2-u8-l2.fill-emma-hlada-predpoved.why": {
+    "en": "On a website answers “where?”, so **na** takes the locative: feminine -a becomes **-e**, and the adjective takes -ej: na webov**ej** stránk**e**.",
+    "t": "«На сайте» отвечает на вопрос «где?», поэтому **na** + предложный: женское -a меняется на **-e**, а прилагательное получает -ej: na webov**ej** stránk**e**."
+  },
+  "a2-u8-l2.polooblacno.en": {
+    "en": "partly cloudy",
+    "t": "облачно с прояснениями"
+  },
+  "a2-u8-l2.polooblacno.note": {
+    "en": "**polo-** = half. When the sky is all grey, it's overcast: **Je zamračené.** When it's sunny: **Svieti slnko.** = The sun is shining.",
+    "t": "**polo-** = полу-. Если всё небо серое — пасмурно: **Je zamračené.** Если солнечно: **Svieti slnko.** = Светит солнце."
+  },
+  "a2-u8-l2.match-slnecno.pairs": {
+    "en": [
+      "sunny",
+      "cloudy",
+      "partly cloudy",
+      "overcast",
+      "it's raining"
+    ],
+    "t": [
+      "солнечно",
+      "облачно",
+      "облачно с прояснениями",
+      "пасмурно",
+      "идёт дождь"
+    ]
+  },
+  "a2-u8-l2.fill-v-sobotu-bude.en": {
+    "en": "On Saturday it will be partly cloudy and warm.",
+    "t": "В субботу будет облачно с прояснениями и тепло."
+  },
+  "a2-u8-l2.fill-v-sobotu-bude.why": {
+    "en": "With no noun, weather words end in **-o**, like teplo and slnečno: bude **polooblačno**. Polooblačný would need a masculine noun: polooblačný deň.",
+    "t": "Без существительного слова о погоде оканчиваются на **-o**, как teplo и slnečno — и как наши «тепло», «солнечно»: bude **polooblačno**. Polooblačný нужен при существительном мужского рода: polooblačný deň."
+  },
+  "a2-u8-l2.build-v-piatok-bude.prompt": {
+    "en": "On Friday the sun will shine.",
+    "t": "В пятницу будет светить солнце."
+  },
+  "a2-u8-l2.build-v-piatok-bude.traps": {
+    "en": [
+      "Friday is still to come: **bude** + the infinitive, the -ť form: bude **svietiť**. Svieti is now.",
+      "Friday is still to come: **bude** + the infinitive, bude svietiť. Je is now."
+    ],
+    "t": [
+      "Пятница ещё впереди: **bude** + инфинитив на -ť: bude **svietiť** — «будет светить». Svieti — это сейчас.",
+      "Пятница ещё впереди: **bude** + инфинитив, bude svietiť. Je — это сейчас."
+    ]
+  },
+  "a2-u8-l2.teplota.en": {
+    "en": "the highest temperature",
+    "t": "максимальная температура"
+  },
+  "a2-u8-l2.teplota.note": {
+    "en": "You know teplota from the doctor's (unit 5). In a forecast: **najvyššia** / **najnižšia** teplota, the highest / lowest. A degree is a **stupeň**; chilly is **chladno**, hot **horúco**.",
+    "t": "Слово teplota вы знаете по визиту к врачу (раздел 5). В прогнозе: **najvyššia** / **najnižšia** teplota — максимальная / минимальная (дословно «самая высокая / самая низкая»). Градус — **stupeň**; прохладно — **chladno**, жарко — **horúco**."
+  },
+  "a2-u8-l2.fill-najvyssia-teplota-bude.en": {
+    "en": "The highest temperature will be thirty degrees.",
+    "t": "Максимальная температура будет тридцать градусов."
+  },
+  "a2-u8-l2.fill-najvyssia-teplota-bude.why": {
+    "en": "From five up, the noun takes the genitive plural, as in Mám teplotu tridsaťosem stupňov: tridsať **stupňov**. Dva, tri and štyri take stupne.",
+    "t": "Начиная с пяти, существительное стоит в родительном падеже множественного числа, как и у нас: tridsať **stupňov** — «тридцать градусов», как в Mám teplotu tridsaťosem stupňov. После dva, tri, štyri — stupne (два градуса)."
+  },
+  "a2-u8-l2.co-su-prehanky.en": {
+    "en": "What are showers?",
+    "t": "Что такое кратковременные дожди?"
+  },
+  "a2-u8-l2.co-su-prehanky.note": {
+    "en": "**prehánky** = showers, a **krátky dážď** (a short rain). To ask about any word: **Čo znamená** …? = What does … mean?",
+    "t": "**prehánky** = кратковременные дожди, то есть **krátky dážď** (короткий дождь). Спросить о любом слове: **Čo znamená** …? = Что значит …?"
+  },
+  "a2-u8-l2.choice-co-su-prehanky.question": {
+    "en": "Emma asks: Čo sú prehánky? What does Lucia answer?",
+    "t": "Эмма спрашивает: Čo sú prehánky? Что ответит Луция?"
+  },
+  "a2-u8-l2.build-v-noci-bude.answers": {
+    "en": [
+      "At night it will be chilly and overcast.",
+      "It will be chilly and overcast at night."
+    ],
+    "t": [
+      "Ночью будет прохладно и пасмурно.",
+      "Ночью будет пасмурно и прохладно."
+    ]
+  },
+  "a2-u8-l2.build-v-noci-bude.distractors": {
+    "en": [
+      "hot",
+      "sunny"
+    ],
+    "t": [
+      "жарко",
+      "солнечно"
+    ]
+  },
+  "a2-u8-l2.fill-zajtra-bude-teplejsie.en": {
+    "en": "Tomorrow will be warmer than today.",
+    "t": "Завтра будет теплее, чем сегодня."
+  },
+  "a2-u8-l2.fill-zajtra-bude-teplejsie.why": {
+    "en": "**Ako** (than) compares two days, so you need the comparative: **teplejšie** = warmer. Teplý is an adjective, for a noun: teplý deň.",
+    "t": "**Ako** (чем) сравнивает два дня, поэтому нужна сравнительная степень: **teplejšie** = теплее. Teplý — прилагательное, оно ставится при существительном: teplý deň."
+  },
+  "a2-u8-l2.neboj-sa.en": {
+    "en": "Don't worry!",
+    "t": "Не волнуйся!"
+  },
+  "a2-u8-l2.neboj-sa.note": {
+    "en": "You said it on the May trip (unit 7). From **báť sa** (to be afraid). To vy: **Nebojte sa!** Also: **To nie je problém.** = It's no problem.",
+    "t": "Вы уже говорили это в майской поездке (раздел 7). От **báť sa** (бояться), то есть дословно «не бойся». На «вы»: **Nebojte sa!** Ещё: **To nie je problém.** = Это не проблема."
+  },
+  "a2-u8-l2.choice-neboj-sa-mame.question": {
+    "en": "Emma is worried about the rain. What does Lucia tell her?",
+    "t": "Эмма беспокоится из-за дождя. Что ей скажет Луция?"
+  },
+  "a2-u8-l2.choice-neboj-sa-mame.why": {
+    "en": "Lucia speaks to a friend, so she uses the ty form: **Neboj sa**. Nebojte sa is for vy. And a good tent is the reason not to worry.",
+    "t": "Луция говорит с подругой, поэтому на «ты»: **Neboj sa**. Nebojte sa — на «вы». А хорошая палатка — как раз повод не волноваться."
+  },
+  "a2-u8-l2.dufat.en": {
+    "en": "to hope",
+    "t": "надеяться"
+  },
+  "a2-u8-l2.dufat.note": {
+    "en": "You know Dúfam, že to stihneme from the trip (unit 7). **Dúfam, že nebude pršať.** = I hope it won't rain.",
+    "t": "Вы знаете Dúfam, že to stihneme из поездки (раздел 7). **Dúfam, že nebude pršať.** = Надеюсь, дождя не будет."
+  },
+  "a2-u8-l2.build-dufam-ze-bude.prompt": {
+    "en": "I hope it will be sunny.",
+    "t": "Надеюсь, будет солнечно."
+  },
+  "a2-u8-l2.build-dufam-ze-bude.traps": {
+    "en": [
+      "I (ja) hope: **dúfam**, with -m. Dúfa is for on or ona.",
+      "The sun is hoped for later, so byť takes the future: **bude** slnečno. Je is now."
+    ],
+    "t": [
+      "Надеюсь я (ja): **dúfam**, с -m. Dúfa — для on или ona.",
+      "На солнце надеются в будущем, поэтому byť в будущем времени: **bude** slnečno — «будет солнечно». Je — это сейчас."
+    ]
+  },
+  "a2-u8-l2.speak-dufam-ze-nebude.en": {
+    "en": "I hope it won't rain.",
+    "t": "Надеюсь, дождя не будет."
+  },
+  "a2-u8-l3.titleEn": {
+    "en": "Packing",
+    "t": "Собираем вещи"
+  },
+  "a2-u8-l3.balit-sa.en": {
+    "en": "to pack",
+    "t": "собираться (в дорогу)"
+  },
+  "a2-u8-l3.balit-sa.note": {
+    "en": "balím sa, balíš sa… Done: **zbaliť sa**. A packing list is a **zoznam vecí** (**vec** = a thing).",
+    "t": "balím sa, balíš sa… Совершенный вид (собраться) — **zbaliť sa**. Список вещей — **zoznam vecí** (**vec** = вещь)."
+  },
+  "a2-u8-l3.ruksak.en": {
+    "en": "rucksack",
+    "t": "рюкзак"
+  },
+  "a2-u8-l3.ruksak.note": {
+    "en": "A suitcase is a **kufor**, a bag a **taška**. For a festival, a ruksak is better.",
+    "t": "Чемодан — **kufor**, сумка — **taška**. На фестиваль лучше взять ruksak."
+  },
+  "a2-u8-l3.fill-pisem-si-zoznam.en": {
+    "en": "I'm writing a list of things for the festival.",
+    "t": "Я пишу список вещей на фестиваль."
+  },
+  "a2-u8-l3.fill-pisem-si-zoznam.why": {
+    "en": "The list is what you write, the object, and masculine things don't change in the object form: píšem si **zoznam**.",
+    "t": "Список — то, что пишут, дополнение, а неодушевлённые слова мужского рода в винительном не меняются, как и «пишу список»: píšem si **zoznam**."
+  },
+  "a2-u8-l3.dazdnik-a-prsiplast.en": {
+    "en": "umbrella and raincoat",
+    "t": "зонт и дождевик"
+  },
+  "a2-u8-l3.dazdnik-a-prsiplast.note": {
+    "en": "Both come from the rain: **dážď**, **pršať**. Warm things are **teplé veci**.",
+    "t": "Оба слова — от дождя: **dážď**, **pršať**. Тёплые вещи — **teplé veci**."
+  },
+  "a2-u8-l3.match-ruksak.pairs": {
+    "en": [
+      "rucksack",
+      "suitcase",
+      "umbrella",
+      "raincoat",
+      "sleeping bag"
+    ],
+    "t": [
+      "рюкзак",
+      "чемодан",
+      "зонт",
+      "дождевик",
+      "спальный мешок"
+    ]
+  },
+  "a2-u8-l3.zobrat-si.en": {
+    "en": "to take (with you)",
+    "t": "взять (с собой)"
+  },
+  "a2-u8-l3.zobrat-si.note": {
+    "en": "zoberiem si, zoberieš si… To a friend: **Zober si** dáždnik! = Take an umbrella!",
+    "t": "zoberiem si, zoberieš si… Другу: **Zober si** dáždnik! = Возьми зонт!"
+  },
+  "a2-u8-l3.fill-zober-si-teple.en": {
+    "en": "Take some warm things!",
+    "t": "Возьми тёплые вещи!"
+  },
+  "a2-u8-l3.fill-zober-si-teple.why": {
+    "en": "**Zobrať si** is taking something for yourself, with si and an object after it, like kúpiť si: zober **si** teplé veci.",
+    "t": "**Zobrať si** — взять что-то себе, с собой: с si («себе») и предметом после него, как kúpiť si: zober **si** teplé veci."
+  },
+  "a2-u8-l3.grammar-should-mal-by.title": {
+    "en": "Should: mal by som",
+    "t": "«Следовало бы»: mal by som"
+  },
+  "a2-u8-l3.grammar-should-mal-by.body": {
+    "en": [
+      "You know **mal by si** (you should) from unit 4: mať in the conditional + an infinitive. **Mal by som** sa zbaliť. = I should pack. A woman says **mala by som**.",
+      "It also says what's expected: V piatok **by malo** byť teplo. = It should be warm on Friday."
+    ],
+    "t": [
+      "**Mal by si** (тебе следовало бы) вы знаете из раздела 4: mať в условном наклонении (с by, как наше «бы») + инфинитив. Дословно «имел бы», а по смыслу — «надо бы», «следовало бы». **Mal by som** sa zbaliť. = Мне надо бы собраться. Женщина говорит **mala by som**.",
+      "Так же говорят о том, чего ожидают: V piatok **by malo** byť teplo. = В пятницу должно быть тепло."
+    ]
+  },
+  "a2-u8-l3.grammar-should-mal-by.table.head": {
+    "en": [
+      "",
+      "should"
+    ],
+    "t": [
+      "",
+      "следовало бы"
+    ]
+  },
+  "a2-u8-l3.grammar-should-mal-by.table.rows": {
+    "en": [
+      [
+        "ja",
+        "mal / mala **by som**"
+      ],
+      [
+        "ty",
+        "mal / mala **by si**"
+      ],
+      [
+        "on, ona, ono",
+        "mal / mala / malo **by**"
+      ],
+      [
+        "my",
+        "mali **by sme**"
+      ],
+      [
+        "vy",
+        "mali **by ste**"
+      ],
+      [
+        "oni, ony",
+        "mali **by**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "mal / mala **by som**"
+      ],
+      [
+        "ty",
+        "mal / mala **by si**"
+      ],
+      [
+        "on, ona, ono",
+        "mal / mala / malo **by**"
+      ],
+      [
+        "my",
+        "mali **by sme**"
+      ],
+      [
+        "vy",
+        "mali **by ste**"
+      ],
+      [
+        "oni, ony",
+        "mali **by**"
+      ]
+    ]
+  },
+  "a2-u8-l3.grammar-should-mal-by.examples": {
+    "en": [
+      "I should take an umbrella.",
+      "You should pack a jumper.",
+      "It should be warm on Friday."
+    ],
+    "t": [
+      "Мне надо бы взять зонт.",
+      "Тебе надо бы взять свитер.",
+      "В пятницу должно быть тепло."
+    ]
+  },
+  "a2-u8-l3.fill-emma-mala-by.en": {
+    "en": "Emma, you should take a raincoat.",
+    "t": "Эмма, тебе стоило бы взять дождевик."
+  },
+  "a2-u8-l3.fill-emma-mala-by.why": {
+    "en": "Speaking to Emma (ty), the conditional takes **si**: mala by **si**. The second si belongs to zobrať si.",
+    "t": "Эмме говорят «ты», поэтому после by — **si**: mala by **si**. Второе si — от zobrať si."
+  },
+  "a2-u8-l3.build-mala-by-som.prompt": {
+    "en": "I should pack.",
+    "t": "Мне надо бы собрать вещи."
+  },
+  "a2-u8-l3.build-mala-by-som.traps": {
+    "en": [
+      "Packing your things is **zbaliť sa**, with sa: mala by som **sa** zbaliť.",
+      "Should is mať in the conditional: **mala** by som. Musím means must."
+    ],
+    "t": [
+      "Собирать свои вещи — **zbaliť sa**, с sa: mala by som **sa** zbaliť.",
+      "«Надо бы» — это mať в условном наклонении: **mala** by som. Musím — «я должен», «мне нужно»."
+    ]
+  },
+  "a2-u8-l3.pozicat.en": {
+    "en": "to lend",
+    "t": "одолжить (кому-то)"
+  },
+  "a2-u8-l3.pozicat.note": {
+    "en": "One finished action, like kúpiť, so požičiam talks about the future: **Požičiam ti** spacák. = I'll lend you a sleeping bag.",
+    "t": "Одно законченное действие (совершенный вид), как kúpiť, поэтому požičiam — это будущее, как наше «одолжу»: **Požičiam ti** spacák. = Я одолжу тебе спальник."
+  },
+  "a2-u8-l3.choice-poziciam-ti-spacak.question": {
+    "en": "Emma has no sleeping bag. What does Lucia say?",
+    "t": "У Эммы нет спальника. Что скажет Луция?"
+  },
+  "a2-u8-l3.choice-poziciam-ti-spacak.why": {
+    "en": "You lend something **to** someone, so the to-whom form: požičiam **ti**, as in Zavolám ti. Ťa is the object form, and požičiaš mi would have Emma lending one.",
+    "t": "Одалживают **кому-то**, поэтому дательный (кому?): požičiam **ti** — «тебе», как в Zavolám ti. Ťa — это «тебя», винительный, а požičiaš mi значило бы, что спальник одалживает Эмма."
+  },
+  "a2-u8-l3.build-tomas-mi-pozicia.prompt": {
+    "en": "Tomáš will lend me a sleeping mat.",
+    "t": "Томаш одолжит мне коврик."
+  },
+  "a2-u8-l3.build-tomas-mi-pozicia.traps": {
+    "en": [
+      "The mat is the object, so karimatka changes -a to **-u**: požičia **karimatku**.",
+      "He lends it **to** me, so the to-whom form: **mi**, as in Môžete mi pomôcť? Ma is the object form: Hľadá ma."
+    ],
+    "t": [
+      "Коврик — дополнение (что?), поэтому karimatka меняет -a на **-u**: požičia **karimatku**.",
+      "Одолжит **мне** — дательный (кому?): **mi**, как в Môžete mi pomôcť? Ma — это «меня»: Hľadá ma."
+    ]
+  },
+  "a2-u8-l3.fill-lucia-mohla-by.en": {
+    "en": "Lucia, could you lend me a sleeping bag?",
+    "t": "Луция, ты не могла бы одолжить мне спальник?"
+  },
+  "a2-u8-l3.fill-lucia-mohla-by.why": {
+    "en": "After **môcť**, even in the conditional, comes the infinitive, the -ť form: mohla by si mi **požičať**.",
+    "t": "После **môcť**, даже в условном наклонении, идёт инфинитив на -ť, как и у нас «могла бы одолжить»: mohla by si mi **požičať**."
+  },
+  "a2-u8-l3.ak.en": {
+    "en": "if",
+    "t": "если"
+  },
+  "a2-u8-l3.ak.note": {
+    "en": "**Ak bude pršať**, zoberiem si pršiplášť. = If it rains, I'll take my raincoat. About the future, Slovak says “if it will rain”.",
+    "t": "**Ak bude pršať**, zoberiem si pršiplášť. = Если будет дождь, я возьму дождевик. Как и в русском, о будущем после ak говорят в будущем времени: «если будет дождь»."
+  },
+  "a2-u8-l3.build-ak-bude-prsat.answers": {
+    "en": [
+      "If it rains, I'll take my raincoat.",
+      "If it rains, I'll take a raincoat."
+    ],
+    "t": [
+      "Если будет дождь, я возьму дождевик.",
+      "Если пойдёт дождь, я возьму дождевик.",
+      "Если будет дождь, возьму дождевик.",
+      "Если пойдёт дождь, возьму дождевик."
+    ]
+  },
+  "a2-u8-l3.build-ak-bude-prsat.distractors": {
+    "en": [
+      "umbrella",
+      "would"
+    ],
+    "t": [
+      "зонт",
+      "бы"
+    ]
+  },
+  "a2-u8-l3.build-emma-pomoze-tomasovi.prompt": {
+    "en": "Emma will help Tomáš put up the tent.",
+    "t": "Эмма поможет Томашу поставить палатку."
+  },
+  "a2-u8-l3.build-emma-pomoze-tomasovi.traps": {
+    "en": [
+      "**Pomôcť** takes the to-whom form (the dative), and men's names add **-ovi**: pomôže **Tomášovi**.",
+      "The help is still to come: **pomôže** = will help. Pomohla is the past."
+    ],
+    "t": [
+      "**Pomôcť**, как и «помочь», требует дательного (кому?), а мужские имена получают **-ovi**: pomôže **Tomášovi** — «Томашу».",
+      "Помощь ещё впереди: **pomôže** = поможет. Pomohla — прошедшее время."
+    ]
+  },
+  "a2-u8-l3.speak-zober-si-dazdnik.en": {
+    "en": "Take an umbrella!",
+    "t": "Возьми зонт!"
+  },
+  "a2-u8-l4.titleEn": {
+    "en": "The festival programme",
+    "t": "Программа фестиваля"
+  },
+  "a2-u8-l4.program.en": {
+    "en": "programme",
+    "t": "программа"
+  },
+  "a2-u8-l4.program.note": {
+    "en": "**program festivalu** = the festival programme; it's on a big **plagát** (poster). **ponúkať** = to offer.",
+    "t": "**program festivalu** = программа фестиваля; она висит на большом плакате, афише (**plagát**). **ponúkať** = предлагать."
+  },
+  "a2-u8-l4.podium.en": {
+    "en": "stage",
+    "t": "сцена"
+  },
+  "a2-u8-l4.podium.note": {
+    "en": "**hlavné pódium** = the main stage. Being on it: **na pódiu**.",
+    "t": "**hlavné pódium** = главная сцена. На ней: **na pódiu**."
+  },
+  "a2-u8-l4.build-hlavne-podium-je.answers": {
+    "en": [
+      "The main stage is by the lake.",
+      "The main stage is near the lake."
+    ],
+    "t": [
+      "Главная сцена у озера.",
+      "Главная сцена находится у озера.",
+      "Главная сцена возле озера.",
+      "Главная сцена рядом с озером."
+    ]
+  },
+  "a2-u8-l4.build-hlavne-podium-je.distractors": {
+    "en": [
+      "tent",
+      "poster"
+    ],
+    "t": [
+      "палатка",
+      "плакат"
+    ]
+  },
+  "a2-u8-l4.tvoriva-dielna.en": {
+    "en": "workshop",
+    "t": "мастер-класс"
+  },
+  "a2-u8-l4.tvoriva-dielna.note": {
+    "en": "**tvorivý** = creative. **Tvorivé dielne** are in the **hlavný stan** (main tent): music, dance, photography.",
+    "t": "**tvorivý** = творческий, так что дословно это «творческая мастерская». **Tvorivé dielne** проходят в главном шатре (**hlavný stan**): музыка, танцы, фотография."
+  },
+  "a2-u8-l4.fill-dielne-su-v.en": {
+    "en": "The workshops are in the main tent.",
+    "t": "Мастер-классы проходят в главном шатре."
+  },
+  "a2-u8-l4.fill-dielne-su-v.why": {
+    "en": "Being in the tent answers “where?”, so **v** takes the locative, and masculine things add **-e**: v hlavnom **stane**.",
+    "t": "«В шатре» отвечает на вопрос «где?», поэтому **v** + предложный, а мужской род получает **-e**: v hlavnom **stane**."
+  },
+  "a2-u8-l4.grammar-adjectives-from-nouns.title": {
+    "en": "More adjectives from nouns: -ný, -ový",
+    "t": "Ещё прилагательные от существительных: -ný, -ový"
+  },
+  "a2-u8-l4.grammar-adjectives-from-nouns.body": {
+    "en": [
+      "You know **-ný** from unit 5: zub → zubný lekár. It often brings a small change inside: hudba → hudob**ný**, noc → noč**ný**.",
+      "Others add **-ový**, very often newer or foreign words: džez → džez**ový**, rock → rock**ový**. Then they take the usual endings: džez**ová** noc."
+    ],
+    "t": [
+      "**-ný** вы знаете из раздела 5: zub → zubný lekár. Это наше -ный, и внутри слова часто бывает небольшое изменение: hudba → hudob**ný** (музыкальный), noc → noč**ný** (ночной — тоже с ч).",
+      "Другие получают **-ový**, как наше -овый, — очень часто новые или иностранные слова: džez → džez**ový** (джазовый), rock → rock**ový** (у нас вместо прилагательного «рок-»: рок-группа). Дальше — обычные окончания: džez**ová** noc."
+    ]
+  },
+  "a2-u8-l4.grammar-adjectives-from-nouns.table.head": {
+    "en": [
+      "noun",
+      "adjective"
+    ],
+    "t": [
+      "существительное",
+      "прилагательное"
+    ]
+  },
+  "a2-u8-l4.grammar-adjectives-from-nouns.table.rows": {
+    "en": [
+      [
+        "hudba (music)",
+        "hudob**ný** festival"
+      ],
+      [
+        "noc (night)",
+        "noč**ný** koncert"
+      ],
+      [
+        "večer (evening)",
+        "večer**ný** program"
+      ],
+      [
+        "divadlo (theatre)",
+        "divadel**ný** stan"
+      ],
+      [
+        "deň (day)",
+        "den**né** teploty"
+      ],
+      [
+        "džez (jazz)",
+        "džez**ová** noc"
+      ],
+      [
+        "rock",
+        "rock**ová** kapela"
+      ],
+      [
+        "festival",
+        "festival**ový** plagát"
+      ]
+    ],
+    "t": [
+      [
+        "hudba (музыка)",
+        "hudob**ný** festival"
+      ],
+      [
+        "noc (ночь)",
+        "noč**ný** koncert"
+      ],
+      [
+        "večer (вечер)",
+        "večer**ný** program"
+      ],
+      [
+        "divadlo (театр)",
+        "divadel**ný** stan"
+      ],
+      [
+        "deň (день)",
+        "den**né** teploty"
+      ],
+      [
+        "džez (джаз)",
+        "džez**ová** noc"
+      ],
+      [
+        "rock",
+        "rock**ová** kapela"
+      ],
+      [
+        "festival",
+        "festival**ový** plagát"
+      ]
+    ]
+  },
+  "a2-u8-l4.grammar-adjectives-from-nouns.examples": {
+    "en": [
+      "On Saturday there's a jazz night.",
+      "It's a big music festival."
+    ],
+    "t": [
+      "В субботу — джазовая ночь.",
+      "Это большой музыкальный фестиваль."
+    ]
+  },
+  "a2-u8-l4.fill-v-sobotu-vecer.en": {
+    "en": "On Saturday evening there's a jazz night.",
+    "t": "В субботу вечером — джазовая ночь."
+  },
+  "a2-u8-l4.fill-v-sobotu-vecer.why": {
+    "en": "Noc is feminine (like posteľ, it has no -a), so the adjective takes **-á**: džez**ová** noc. Džez is the noun.",
+    "t": "Noc — женского рода (как posteľ, хоть и без -a; и как наша «ночь»), поэтому прилагательное на **-á**: džez**ová** noc. Džez — существительное."
+  },
+  "a2-u8-l4.fill-na-hlavnom-podiu.en": {
+    "en": "A rock band is playing on the main stage.",
+    "t": "На главной сцене играет рок-группа."
+  },
+  "a2-u8-l4.fill-na-hlavnom-podiu.why": {
+    "en": "From the noun rock comes the adjective rock**ový**, and kapela is feminine, so: **rocková** kapela.",
+    "t": "От существительного rock — прилагательное rock**ový**, а kapela женского рода, поэтому **rocková** kapela."
+  },
+  "a2-u8-l4.fill-v-juli-je.en": {
+    "en": "In July there's a big music festival by the lake.",
+    "t": "В июле у озера проходит большой музыкальный фестиваль."
+  },
+  "a2-u8-l4.fill-v-juli-je.why": {
+    "en": "From hudba comes **hudobný**: -ný, with an o inside. Festival is masculine, so -ý: **hudobný** festival. Hudba is the noun.",
+    "t": "От hudba — **hudobný**: -ný, а внутри появляется o. Festival мужского рода, поэтому -ý: **hudobný** festival. Hudba — существительное."
+  },
+  "a2-u8-l4.fill-v-piatok-je.en": {
+    "en": "On Friday there's a night concert by the lake.",
+    "t": "В пятницу у озера ночной концерт."
+  },
+  "a2-u8-l4.fill-v-piatok-je.why": {
+    "en": "From noc comes **nočný**: c changes to č before -ný. Koncert is masculine, so **nočný** koncert. Nočná is for feminine words.",
+    "t": "От noc — **nočný**: c перед -ný меняется на č, как у нас «ночь — ночной». Koncert мужского рода, поэтому **nočný** koncert. Nočná — для женского рода."
+  },
+  "a2-u8-l4.build-vecerny-program-zacina.answers": {
+    "en": [
+      "The evening programme starts at eight.",
+      "The evening programme begins at eight."
+    ],
+    "t": [
+      "Вечерняя программа начинается в восемь.",
+      "Вечерняя программа начнётся в восемь."
+    ]
+  },
+  "a2-u8-l4.build-vecerny-program-zacina.distractors": {
+    "en": [
+      "morning",
+      "ends"
+    ],
+    "t": [
+      "утренняя",
+      "заканчивается"
+    ]
+  },
+  "a2-u8-l4.kam-by-si.en": {
+    "en": "Where would you go?",
+    "t": "Куда бы ты пошла?"
+  },
+  "a2-u8-l4.kam-by-si.note": {
+    "en": "The conditional, for choosing from the programme. An answer: **Išla by som** na tvorivú dielňu.",
+    "t": "Условное наклонение (с by, как наше «бы») — чтобы выбрать что-то из программы. Ответ: **Išla by som** na tvorivú dielňu. = Я бы пошла на мастер-класс."
+  },
+  "a2-u8-l4.choice-isla-by-som.question": {
+    "en": "Lucia asks Emma: Kam by si išla? What can Emma answer?",
+    "t": "Луция спрашивает Эмму: Kam by si išla? Что может ответить Эмма?"
+  },
+  "a2-u8-l4.choice-isla-by-som.why": {
+    "en": "Emma is a woman, so **išla**; and the question imagines a choice, so the answer is conditional too: išla **by som**. Išla som is the past.",
+    "t": "Эмма — женщина, поэтому **išla**; а вопрос о воображаемом выборе, поэтому и ответ в условном наклонении: išla **by som** — «я бы пошла». Išla som — прошедшее время."
+  },
+  "a2-u8-l4.co-keby-sme.en": {
+    "en": "How about…?",
+    "t": "Может, нам…?"
+  },
+  "a2-u8-l4.co-keby-sme.note": {
+    "en": "You know it from unit 4: Čo keby sme išli taxíkom? At the festival: **Čo keby sme išli** na koncert? = How about going to the concert?",
+    "t": "Вы знаете это из раздела 4: Čo keby sme išli taxíkom? Дословно «что если бы мы…». На фестивале: **Čo keby sme išli** na koncert? = Может, сходим на концерт?"
+  },
+  "a2-u8-l4.build-co-keby-sme.prompt": {
+    "en": "How about going to the jazz night?",
+    "t": "Может, сходим на джазовую ночь?"
+  },
+  "a2-u8-l4.build-co-keby-sme.traps": {
+    "en": [
+      "**Na** (where to) takes the object form, so feminine -á becomes **-ú**: na **džezovú** noc.",
+      "After **čo keby sme**, the verb takes its past form: keby sme **išli**."
+    ],
+    "t": [
+      "**Na** (куда?) требует винительного, поэтому женское -á меняется на **-ú**: na **džezovú** noc.",
+      "После **čo keby sme** глагол стоит в форме прошедшего времени, как в нашем «если бы мы пошли»: keby sme **išli**."
+    ]
+  },
+  "a2-u8-l4.fill-festival-ponuka-koncerty.en": {
+    "en": "The festival offers concerts, theatre and workshops.",
+    "t": "Фестиваль предлагает концерты, театр и мастер-классы."
+  },
+  "a2-u8-l4.fill-festival-ponuka-koncerty.why": {
+    "en": "The festival is one thing (on), so the verb has no ending: festival **ponúka**. Ponúkajú is for oni.",
+    "t": "Фестиваль — один (on), поэтому у глагола нет окончания: festival **ponúka**. Ponúkajú — для oni."
+  },
+  "a2-u8-l4.match-program.pairs": {
+    "en": [
+      "programme",
+      "poster",
+      "stage",
+      "workshop",
+      "main tent"
+    ],
+    "t": [
+      "программа",
+      "плакат",
+      "сцена",
+      "мастер-класс",
+      "главный шатёр"
+    ]
+  },
+  "a2-u8-l4.speak-co-keby-sme.en": {
+    "en": "How about going to the concert?",
+    "t": "Может, сходим на концерт?"
+  },
+  "a2-u8-l5.titleEn": {
+    "en": "Did you like the concert?",
+    "t": "Тебе понравился концерт?"
+  },
+  "a2-u8-l5.pacil-sa-ti.en": {
+    "en": "Did you like the concert?",
+    "t": "Тебе понравился концерт?"
+  },
+  "a2-u8-l5.pacil-sa-ti.note": {
+    "en": "Páči sa mi in the past. The thing you liked chooses the ending: koncert sa mi **páčil**, kapela sa mi **páčila**.",
+    "t": "Páči sa mi в прошедшем времени. Как и в русском, окончание выбирает то, что понравилось: koncert sa mi **páčil** (концерт мне понравился), kapela sa mi **páčila** (группа мне понравилась)."
+  },
+  "a2-u8-l5.nebolo-to-zle.en": {
+    "en": "It wasn't bad.",
+    "t": "Было неплохо."
+  },
+  "a2-u8-l5.nebolo-to-zle.note": {
+    "en": "**zlý** = bad. Not your kind of music? **To nie je môj štýl.** = It's not my style.",
+    "t": "**zlý** = плохой. Не ваша музыка? **To nie je môj štýl.** = Это не мой стиль."
+  },
+  "a2-u8-l5.fill-pacila-sa-ti.en": {
+    "en": "Did you like the band?",
+    "t": "Тебе понравилась группа?"
+  },
+  "a2-u8-l5.fill-pacila-sa-ti.why": {
+    "en": "**Páčila** ends in -a, so what you liked is feminine: **kapela**. Koncert and festival are masculine and would take páčil.",
+    "t": "**Páčila** оканчивается на -a, значит, понравилось что-то женского рода: **kapela**. Koncert и festival — мужского рода, с ними было бы páčil."
+  },
+  "a2-u8-l5.fanusik.en": {
+    "en": "I'm a rock fan.",
+    "t": "Я фанат рока."
+  },
+  "a2-u8-l5.fanusik.note": {
+    "en": "You know fanúšik from unit 1. Marek loves rock; Lucia prefers folk.",
+    "t": "Слово fanúšik вы знаете из раздела 1. Марек обожает рок, а Луции больше нравится фолк."
+  },
+  "a2-u8-l5.choice-som-fanusik-rocku.question": {
+    "en": "Marek loves rock. What does he say?",
+    "t": "Марек обожает рок. Что он скажет?"
+  },
+  "a2-u8-l5.choice-som-fanusik-rocku.why": {
+    "en": "Marek is a man, so **fanúšik**. Like čašník and čašníčka, a woman is a fanúšička.",
+    "t": "Марек — мужчина, поэтому **fanúšik**. Как čašník — čašníčka, женщина — fanúšička."
+  },
+  "a2-u8-l5.rock-folk-dzez.en": {
+    "en": "rock, folk, jazz",
+    "t": "рок, фолк, джаз"
+  },
+  "a2-u8-l5.rock-folk-dzez.note": {
+    "en": "Also **pop**, **punk** and **metal**. Slovak writes jazz as **džez**: džezový koncert.",
+    "t": "Ещё **pop**, **punk** и **metal**. Джаз по-словацки пишется **džez**: džezový koncert."
+  },
+  "a2-u8-l5.build-folk-nie-je.prompt": {
+    "en": "Folk isn't my style.",
+    "t": "Фолк — не мой стиль."
+  },
+  "a2-u8-l5.build-folk-nie-je.traps": {
+    "en": [
+      "Štýl is masculine (it ends in a consonant), so **môj** štýl. Moja is for feminine words.",
+      "Folk is the subject (on), so byť is **je**: folk nie **je**… Som is for ja."
+    ],
+    "t": [
+      "Štýl — мужского рода (оканчивается на согласный), поэтому **môj** štýl. Moja — для женского рода.",
+      "Фолк — подлежащее (on), поэтому byť в форме **je**: folk nie **je**… Som — для ja."
+    ]
+  },
+  "a2-u8-l5.fill-koncert-sa-mi.en": {
+    "en": "I liked that concert a lot.",
+    "t": "Мне очень понравился этот концерт."
+  },
+  "a2-u8-l5.fill-koncert-sa-mi.why": {
+    "en": "What you liked, koncert, is masculine (on), so the past form ends in plain **-l**: koncert sa mi **páčil**.",
+    "t": "Понравился koncert — мужской род (on), поэтому прошедшее время на простое **-l**, как «понравился»: koncert sa mi **páčil**."
+  },
+  "a2-u8-l5.hrat-na-gitare.en": {
+    "en": "to play the drums",
+    "t": "играть на барабанах"
+  },
+  "a2-u8-l5.hrat-na-gitare.note": {
+    "en": "Like hrať na gitare (unit 2): an instrument takes **na** + the locative. **bubny** = drums, **klavír** = piano: hrať na klavíri.",
+    "t": "Как hrať na gitare (раздел 2) и как у нас: инструмент — **na** + предложный. **bubny** = барабаны, **klavír** = пианино: hrať na klavíri."
+  },
+  "a2-u8-l5.fill-na-tvorivej-dielni.en": {
+    "en": "At the workshop Emma is learning to play the guitar.",
+    "t": "На мастер-классе Эмма учится играть на гитаре."
+  },
+  "a2-u8-l5.fill-na-tvorivej-dielni.why": {
+    "en": "Playing an instrument is **hrať na** + the locative: hrať **na** gitare. Without na, hrať is for games: hrať futbal.",
+    "t": "Играть на инструменте — **hrať na** + предложный, точно как в русском: hrať **na** gitare. Без na hrať — про игры: hrať futbal (играть в футбол)."
+  },
+  "a2-u8-l5.reporterka.en": {
+    "en": "reporter",
+    "t": "репортёр (женщина)"
+  },
+  "a2-u8-l5.reporterka.note": {
+    "en": "A radio reporter asks Emma about the festival, with vy: **Ako sa vám páči festival?**",
+    "t": "Радиорепортёр спрашивает Эмму о фестивале на «вы»: **Ako sa vám páči festival?** (Как вам фестиваль?)"
+  },
+  "a2-u8-l5.choice-videla-som-dzezovy.question": {
+    "en": "The reporter asks Emma: Čo ste videli na festivale? What can Emma answer?",
+    "t": "Репортёр спрашивает Эмму: Čo ste videli na festivale? Что может ответить Эмма?"
+  },
+  "a2-u8-l5.choice-videla-som-dzezovy.why": {
+    "en": "Emma is a woman, so the past tense ends in **-la**: **videla** som. Uvidím is the future.",
+    "t": "Эмма — женщина, поэтому прошедшее время на **-la**: **videla** som (видела). Uvidím — будущее время."
+  },
+  "a2-u8-l5.build-bola-som-na.prompt": {
+    "en": "I was at a workshop.",
+    "t": "Я был(а) на мастер-классе."
+  },
+  "a2-u8-l5.build-bola-som-na.traps": {
+    "en": [
+      "Being somewhere answers “where?”, so **na** takes the locative; after a soft ň the ending is **-i**: na **dielni**.",
+      "In the locative, feminine adjectives end in **-ej**: na **tvorivej** dielni. Tvorivú is the object form."
+    ],
+    "t": [
+      "Быть где-то — вопрос «где?», поэтому **na** + предложный; после мягкого ň окончание **-i**: na **dielni**.",
+      "В предложном падеже прилагательные женского рода оканчиваются на **-ej**: na **tvorivej** dielni. Tvorivú — винительный."
+    ]
+  },
+  "a2-u8-l5.build-ako-sa-vam.answers": {
+    "en": [
+      "How did you like the festival?"
+    ],
+    "t": [
+      "Как вам понравился фестиваль?",
+      "Как вам фестиваль?"
+    ]
+  },
+  "a2-u8-l5.build-ako-sa-vam.distractors": {
+    "en": [
+      "concert",
+      "will"
+    ],
+    "t": [
+      "концерт",
+      "понравится"
+    ]
+  },
+  "a2-u8-l5.match-fanusik.pairs": {
+    "en": [
+      "fan",
+      "style",
+      "group, band",
+      "piano",
+      "drums"
+    ],
+    "t": [
+      "фанат",
+      "стиль",
+      "группа, ансамбль",
+      "пианино",
+      "барабаны"
+    ]
+  },
+  "a2-u8-l5.speak-nebolo-to-zle.en": {
+    "en": "It wasn't bad.",
+    "t": "Было неплохо."
+  },
+  "a2-u8-l6.titleEn": {
+    "en": "The concert's been cancelled",
+    "t": "Концерт отменили"
+  },
+  "a2-u8-l6.mam-pre-teba.en": {
+    "en": "I've got bad news for you.",
+    "t": "У меня для тебя плохая новость."
+  },
+  "a2-u8-l6.mam-pre-teba.note": {
+    "en": "**správa** = a message, a piece of news. **zlá** správa = bad news, **dobrá** správa = good news.",
+    "t": "**správa** = новость, сообщение (не «справка»!). **zlá** správa = плохая новость, **dobrá** správa = хорошая новость."
+  },
+  "a2-u8-l6.zrusit.en": {
+    "en": "to cancel",
+    "t": "отменить"
+  },
+  "a2-u8-l6.zrusit.note": {
+    "en": "**Koncert zrušili.** = The concert's been cancelled (literally: they cancelled the concert).",
+    "t": "Не «разрушить», а отменить. **Koncert zrušili.** = Концерт отменили — точно как по-русски, без подлежащего."
+  },
+  "a2-u8-l6.choice-vecerny-koncert-na.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u8-l6.choice-vecerny-koncert-na.options": {
+    "en": [
+      "The evening concert on the main stage is starting.",
+      "The evening concert has moved to the main stage.",
+      "The evening concert on the main stage has been cancelled."
+    ],
+    "t": [
+      "Вечерний концерт на главной сцене начинается.",
+      "Вечерний концерт перенесли на главную сцену.",
+      "Вечерний концерт на главной сцене отменили."
+    ]
+  },
+  "a2-u8-l6.to-nemoze-byt.en": {
+    "en": "That can't be true!",
+    "t": "Этого не может быть!"
+  },
+  "a2-u8-l6.to-nemoze-byt.note": {
+    "en": "**pravda** = the truth. Also: **Škoda!** = What a pity!",
+    "t": "**pravda** = правда; дословно «Это не может быть правдой!». Ещё: **Škoda!** = Жаль!"
+  },
+  "a2-u8-l6.vraj.en": {
+    "en": "apparently, supposedly",
+    "t": "говорят, якобы"
+  },
+  "a2-u8-l6.vraj.note": {
+    "en": "For what other people say: **Speváčka je vraj chorá.** = Apparently the singer is ill. Or: **Počula som, že**… = I heard that…",
+    "t": "Когда передаёте чужие слова: **Speváčka je vraj chorá.** = Говорят, певица заболела. Или: **Počula som, že**… = Я слышала, что…"
+  },
+  "a2-u8-l6.build-kapela-vraj-bude.answers": {
+    "en": [
+      "Apparently the band will play on Sunday.",
+      "The band will apparently play on Sunday."
+    ],
+    "t": [
+      "Говорят, группа будет играть в воскресенье.",
+      "Группа, говорят, будет играть в воскресенье.",
+      "Группа якобы будет играть в воскресенье."
+    ]
+  },
+  "a2-u8-l6.build-kapela-vraj-bude.distractors": {
+    "en": [
+      "definitely",
+      "yesterday"
+    ],
+    "t": [
+      "точно",
+      "вчера"
+    ]
+  },
+  "a2-u8-l6.build-pocula-som-ze.prompt": {
+    "en": "I heard that the singer is ill.",
+    "t": "Я слышал(а), что певица больна."
+  },
+  "a2-u8-l6.build-pocula-som-ze.traps": {
+    "en": [
+      "You heard it earlier, so the past tense: **počula** som. Počujem is now.",
+      "The singer is a woman, speváčka, so the adjective ends in **-á**: **chorá**."
+    ],
+    "t": [
+      "Вы услышали это раньше, поэтому прошедшее время: **počula** som. Počujem — «слышу» сейчас.",
+      "Певица — женщина, speváčka, поэтому прилагательное на **-á**: **chorá** — «больна»."
+    ]
+  },
+  "a2-u8-l6.burka.en": {
+    "en": "storm",
+    "t": "гроза"
+  },
+  "a2-u8-l6.burka.note": {
+    "en": "A thunderstorm: rain, wind, thunder and lightning. **V sobotu poobede bola búrka.** = There was a storm on Saturday afternoon.",
+    "t": "Búrka — это гроза: дождь, ветер, гром и молния. **V sobotu poobede bola búrka.** = В субботу днём была гроза."
+  },
+  "a2-u8-l6.grammar-pre-because.title": {
+    "en": "pre: because of",
+    "t": "pre: «из-за»"
+  },
+  "a2-u8-l6.grammar-pre-because.body": {
+    "en": [
+      "You know **pre** + the object form as “for”: darček pre Luciu. With a word for an event or a problem, it means **because of**: Koncert zrušili **pre búrku**.",
+      "It means the same as **kvôli** from unit 3 (kvôli snehu), but kvôli takes the dative and pre the object form: feminine -a becomes **-u**, and most other words don't change."
+    ],
+    "t": [
+      "**Pre** + винительный вы знаете в значении «для»: darček pre Luciu (подарок для Луции). Со словом, которое означает событие или проблему, pre значит **из-за**: Koncert zrušili **pre búrku**. = Концерт отменили из-за грозы.",
+      "То же значит **kvôli** из раздела 3 (kvôli snehu), но kvôli требует дательного, а pre — винительного (а не родительного, как наше «из-за»): женское -a меняется на **-u**, большинство других слов не меняется."
+    ]
+  },
+  "a2-u8-l6.grammar-pre-because.table.head": {
+    "en": [
+      "what happened",
+      "because of it"
+    ],
+    "t": [
+      "что случилось",
+      "из-за этого"
+    ]
+  },
+  "a2-u8-l6.grammar-pre-because.table.rows": {
+    "en": [
+      [
+        "búrka (a storm)",
+        "pre búrk**u**"
+      ],
+      [
+        "zápcha (a traffic jam)",
+        "pre zápch**u**"
+      ],
+      [
+        "havária (a crash)",
+        "pre havári**u**"
+      ],
+      [
+        "zlé počasie",
+        "pre zlé počasie"
+      ],
+      [
+        "silný vietor",
+        "pre silný vietor"
+      ]
+    ],
+    "t": [
+      [
+        "búrka (гроза)",
+        "pre búrk**u**"
+      ],
+      [
+        "zápcha (пробка)",
+        "pre zápch**u**"
+      ],
+      [
+        "havária (авария)",
+        "pre havári**u**"
+      ],
+      [
+        "zlé počasie",
+        "pre zlé počasie"
+      ],
+      [
+        "silný vietor",
+        "pre silný vietor"
+      ]
+    ]
+  },
+  "a2-u8-l6.grammar-pre-because.examples": {
+    "en": [
+      "The concert was cancelled because of the storm.",
+      "Tomáš was late because of a traffic jam."
+    ],
+    "t": [
+      "Концерт отменили из-за грозы.",
+      "Томаш опоздал из-за пробки."
+    ]
+  },
+  "a2-u8-l6.zapcha-na-dialnici.en": {
+    "en": "traffic jam on the motorway",
+    "t": "пробка на трассе"
+  },
+  "a2-u8-l6.zapcha-na-dialnici.note": {
+    "en": "**diaľnica** = a motorway. On Friday it was blocked: **Na diaľnici bola havária.** **obrovský** = huge.",
+    "t": "**diaľnica** = автомагистраль, трасса. В пятницу движение там встало: **Na diaľnici bola havária.** = На трассе была авария. **obrovský** = огромный."
+  },
+  "a2-u8-l6.fill-kapela-meska-pre.en": {
+    "en": "The band is late because of a traffic jam.",
+    "t": "Группа опаздывает из-за пробки."
+  },
+  "a2-u8-l6.fill-kapela-meska-pre.why": {
+    "en": "**Pre** takes the object form, so zápcha changes -a to **-u**: pre **zápchu**.",
+    "t": "**Pre** требует винительного, поэтому zápcha меняет -a на **-u**: pre **zápchu**."
+  },
+  "a2-u8-l6.fill-na-dialnici-bola.en": {
+    "en": "There was a huge traffic jam on the motorway.",
+    "t": "На трассе была огромная пробка."
+  },
+  "a2-u8-l6.fill-na-dialnici-bola.why": {
+    "en": "Zápcha is feminine, so its adjective ends in **-á**: **obrovská** zápcha.",
+    "t": "Zápcha — женского рода, поэтому прилагательное на **-á**: **obrovská** zápcha."
+  },
+  "a2-u8-l6.build-tomas-meskal-pre.prompt": {
+    "en": "Tomáš was late because of a crash on the motorway.",
+    "t": "Томаш опоздал из-за аварии на трассе."
+  },
+  "a2-u8-l6.build-tomas-meskal-pre.traps": {
+    "en": [
+      "**Pre** takes the object form, so havária changes -a to **-u**: pre **haváriu**.",
+      "“Was late” is the past tense: **meškal**. Mešká is now."
+    ],
+    "t": [
+      "**Pre** требует винительного, поэтому havária меняет -a на **-u**: pre **haváriu**.",
+      "«Опоздал» — прошедшее время: **meškal**. Mešká — опаздывает сейчас."
+    ]
+  },
+  "a2-u8-l6.prepacte-mohla-by.en": {
+    "en": "Excuse me, could I ask you something?",
+    "t": "Извините, можно вас кое о чём спросить?"
+  },
+  "a2-u8-l6.prepacte-mohla-by.note": {
+    "en": "Polite, for a stranger: vy and the conditional. **spýtať sa** = to ask (a question).",
+    "t": "Вежливо, к незнакомому человеку: на «вы» и в условном наклонении. Дословно «могла бы я вас кое о чём спросить?». **spýtať sa** = спросить."
+  },
+  "a2-u8-l6.choice-preco-ste-zrusili.question": {
+    "en": "Emma asks one of the organisers why. What does she say?",
+    "t": "Эмма спрашивает организатора, почему так вышло. Что она скажет?"
+  },
+  "a2-u8-l6.choice-preco-ste-zrusili.why": {
+    "en": "The organiser is a stranger, so Emma uses **vy**, and vy in the past takes **ste** and -li: prečo **ste** zrušili…? Si is for a friend; sme means we.",
+    "t": "Организатор — незнакомый человек, поэтому Эмма говорит на **vy**, а vy в прошедшем времени — это **ste** и -li: prečo **ste** zrušili…? Si — для друга, sme — это «мы»."
+  },
+  "a2-u8-l6.fill-v-hlavnom-stane.en": {
+    "en": "In the main tent they're offering people hot tea.",
+    "t": "В главном шатре людям предлагают горячий чай."
+  },
+  "a2-u8-l6.fill-v-hlavnom-stane.why": {
+    "en": "You offer something **to** someone, so the people take the to-whom form (the dative): ponúkajú **ľuďom** čaj. Ľudia would be the subject.",
+    "t": "Предлагают **кому-то**, поэтому люди стоят в дательном (кому?), как и у нас: ponúkajú **ľuďom** čaj — «людям». Ľudia было бы подлежащим."
+  },
+  "a2-u8-l6.match-zla-sprava.pairs": {
+    "en": [
+      "bad news",
+      "to cancel",
+      "storm",
+      "traffic jam",
+      "crash"
+    ],
+    "t": [
+      "плохая новость",
+      "отменить",
+      "гроза",
+      "пробка",
+      "авария"
+    ]
+  },
+  "a2-u8-l6.speak-to-nemoze-byt.en": {
+    "en": "That can't be true!",
+    "t": "Этого не может быть!"
+  },
+  "a2-u8-l7.titleEn": {
+    "en": "Weather: past, present, future",
+    "t": "Погода: вчера, сегодня, завтра"
+  },
+  "a2-u8-l7.grammar-weather-no-subject.title": {
+    "en": "Weather with no subject",
+    "t": "Погода без подлежащего"
+  },
+  "a2-u8-l7.grammar-weather-no-subject.body": {
+    "en": [
+      "You know **Prší.** = It's raining. Weather verbs have no subject at all, not even “it”: just the verb, in its on form.",
+      "In the past they end in **-lo**, like a neuter word: **pršalo**. The future is **bude** + the infinitive: **bude pršať**."
+    ],
+    "t": [
+      "Вы знаете **Prší.** = Идёт дождь. У погодных глаголов вообще нет подлежащего, как у наших «моросит», «светает»: только глагол, в форме для on (а «идёт дождь» по-словацки — одно слово).",
+      "В прошедшем времени они оканчиваются на **-lo**, как средний род и как наши «похолодало», «подморозило»: **pršalo**. Будущее — **bude** + инфинитив: **bude pršať**."
+    ]
+  },
+  "a2-u8-l7.grammar-weather-no-subject.table.head": {
+    "en": [
+      "",
+      "včera",
+      "dnes",
+      "zajtra"
+    ],
+    "t": [
+      "",
+      "včera",
+      "dnes",
+      "zajtra"
+    ]
+  },
+  "a2-u8-l7.grammar-weather-no-subject.table.rows": {
+    "en": [
+      [
+        "rain",
+        "Prša**lo**.",
+        "Prší.",
+        "**Bude** pršať."
+      ],
+      [
+        "snow",
+        "Sneži**lo**.",
+        "Sneží.",
+        "**Bude** snežiť."
+      ],
+      [
+        "thunder",
+        "Hrme**lo**.",
+        "Hrmí.",
+        "**Bude** hrmieť."
+      ],
+      [
+        "lightning",
+        "Blýska**lo** sa.",
+        "Blýska sa.",
+        "**Bude** sa blýskať."
+      ],
+      [
+        "frost",
+        "Mrz**lo**.",
+        "Mrzne.",
+        "**Bude** mrznúť."
+      ]
+    ],
+    "t": [
+      [
+        "дождь",
+        "Prša**lo**.",
+        "Prší.",
+        "**Bude** pršať."
+      ],
+      [
+        "снег",
+        "Sneži**lo**.",
+        "Sneží.",
+        "**Bude** snežiť."
+      ],
+      [
+        "гром",
+        "Hrme**lo**.",
+        "Hrmí.",
+        "**Bude** hrmieť."
+      ],
+      [
+        "молния",
+        "Blýska**lo** sa.",
+        "Blýska sa.",
+        "**Bude** sa blýskať."
+      ],
+      [
+        "мороз",
+        "Mrz**lo**.",
+        "Mrzne.",
+        "**Bude** mrznúť."
+      ]
+    ]
+  },
+  "a2-u8-l7.grammar-weather-no-subject.examples": {
+    "en": [
+      "It rained all day yesterday.",
+      "It will freeze tonight.",
+      "There's thunder and lightning."
+    ],
+    "t": [
+      "Вчера весь день шёл дождь.",
+      "Ночью будет подмораживать.",
+      "Гремит гром и сверкает молния."
+    ]
+  },
+  "a2-u8-l7.grammar-weather-byt-je.title": {
+    "en": "Weather with byť: je, bolo, bude",
+    "t": "Погода с byť: je, bolo, bude"
+  },
+  "a2-u8-l7.grammar-weather-byt-je.body": {
+    "en": [
+      "You know **Je slnečno.** and **Cez víkend bude pekne.** Weather words like slnečno, teplo or pekne go with byť: in the past it's **bolo**, in the future **bude**.",
+      "With a noun, byť agrees with the noun: **bola** búrka, **bola** zima (feminine), **bol** silný vietor (masculine)."
+    ],
+    "t": [
+      "Вы знаете **Je slnečno.** и **Cez víkend bude pekne.** Слова вроде slnečno, teplo или pekne идут с byť: в прошедшем времени **bolo**, в будущем **bude** — как наши «было тепло», «будет тепло».",
+      "С существительным byť согласуется с ним, как и у нас: **bola** búrka, **bola** zima (женский род), **bol** silný vietor (мужской род)."
+    ]
+  },
+  "a2-u8-l7.grammar-weather-byt-je.table.head": {
+    "en": [
+      "dnes",
+      "včera",
+      "zajtra"
+    ],
+    "t": [
+      "dnes",
+      "včera",
+      "zajtra"
+    ]
+  },
+  "a2-u8-l7.grammar-weather-byt-je.table.rows": {
+    "en": [
+      [
+        "Je slnečno.",
+        "**Bolo** slnečno.",
+        "**Bude** slnečno."
+      ],
+      [
+        "Je teplo.",
+        "**Bolo** teplo.",
+        "**Bude** teplo."
+      ],
+      [
+        "Je zamračené.",
+        "**Bolo** zamračené.",
+        "**Bude** zamračené."
+      ],
+      [
+        "Je búrka.",
+        "**Bola** búrka.",
+        "**Bude** búrka."
+      ]
+    ],
+    "t": [
+      [
+        "Je slnečno.",
+        "**Bolo** slnečno.",
+        "**Bude** slnečno."
+      ],
+      [
+        "Je teplo.",
+        "**Bolo** teplo.",
+        "**Bude** teplo."
+      ],
+      [
+        "Je zamračené.",
+        "**Bolo** zamračené.",
+        "**Bude** zamračené."
+      ],
+      [
+        "Je búrka.",
+        "**Bola** búrka.",
+        "**Bude** búrka."
+      ]
+    ]
+  },
+  "a2-u8-l7.grammar-weather-byt-je.examples": {
+    "en": [
+      "It was nice yesterday.",
+      "There was a storm on Saturday."
+    ],
+    "t": [
+      "Вчера была хорошая погода.",
+      "В субботу была гроза."
+    ]
+  },
+  "a2-u8-l7.fill-vcera-rano-prsalo.en": {
+    "en": "It rained yesterday morning.",
+    "t": "Вчера утром шёл дождь."
+  },
+  "a2-u8-l7.fill-vcera-rano-prsalo.why": {
+    "en": "**Včera** is the past, and weather verbs end in **-lo** there: **pršalo**. Prší is now, bude pršať later.",
+    "t": "**Včera** — это прошлое, а в прошлом погодные глаголы оканчиваются на **-lo**: **pršalo**. Prší — сейчас, bude pršať — потом."
+  },
+  "a2-u8-l7.hrom-a-blesk.en": {
+    "en": "thunder and lightning",
+    "t": "гром и молния"
+  },
+  "a2-u8-l7.hrom-a-blesk.note": {
+    "en": "**Hrmí.** = It's thundering. **Blýska sa.** = There's lightning. Together they make a **búrka**.",
+    "t": "**Hrmí.** = Гремит гром. **Blýska sa.** = Сверкает молния. Вместе это **búrka** (гроза)."
+  },
+  "a2-u8-l7.fill-v-noci-hrmelo.en": {
+    "en": "In the night there was thunder and lightning.",
+    "t": "Ночью гремел гром и сверкала молния."
+  },
+  "a2-u8-l7.fill-v-noci-hrmelo.why": {
+    "en": "Blýskalo sa is the past, so the thunder is too: **hrmelo**, with **-lo**, because there's no subject. Hrmel would need a subject like on.",
+    "t": "Blýskalo sa — прошедшее время, значит, и гром тоже: **hrmelo**, на **-lo**, потому что подлежащего нет. Для hrmel нужно подлежащее, например on."
+  },
+  "a2-u8-l7.build-poobede-bude-hrmiet.prompt": {
+    "en": "There'll be thunder in the afternoon.",
+    "t": "После обеда будет греметь гром."
+  },
+  "a2-u8-l7.build-poobede-bude-hrmiet.traps": {
+    "en": [
+      "In the future, weather verbs take **bude** + the infinitive: bude **hrmieť**. Hrmí is now.",
+      "Hrmelo is the past. The afternoon is still to come: bude **hrmieť**."
+    ],
+    "t": [
+      "В будущем погодные глаголы — это **bude** + инфинитив: bude **hrmieť**. Hrmí — сейчас.",
+      "Hrmelo — прошедшее время. А после обеда ещё впереди: bude **hrmieť**."
+    ]
+  },
+  "a2-u8-l7.vietor.en": {
+    "en": "wind",
+    "t": "ветер"
+  },
+  "a2-u8-l7.vietor.note": {
+    "en": "The e drops in the other forms: **vetra**, o **vetre**. **silný vietor** = a strong wind.",
+    "t": "В других формах e выпадает, как и у нас (ветер — ветра): **vetra**, o **vetre**. **silný vietor** = сильный ветер."
+  },
+  "a2-u8-l7.grammar-fukat-mrznut-subject.title": {
+    "en": "Fúkať and mrznúť: with a subject",
+    "t": "Fúkať и mrznúť: с подлежащим"
+  },
+  "a2-u8-l7.grammar-fukat-mrznut-subject.body": {
+    "en": [
+      "Two weather verbs can also have a subject. **Vietor fúka.** = The wind is blowing. Fúkať goes like čítať: fúkam, fúkaš, fúka…",
+      "**Mrznúť** goes like stretnúť: mrznem, mrzneš… **Mrznem!** = I'm freezing! To say you're cold: **Je mi zima.**"
+    ],
+    "t": [
+      "Два погодных глагола могут иметь подлежащее. **Vietor fúka.** = Дует ветер. Fúkať спрягается как čítať: fúkam, fúkaš, fúka…",
+      "**Mrznúť** спрягается как stretnúť: mrznem, mrzneš… **Mrznem!** = Я замерзаю! А сказать, что вам холодно, — **Je mi zima.**, как и у нас, с «мне»."
+    ]
+  },
+  "a2-u8-l7.grammar-fukat-mrznut-subject.table.head": {
+    "en": [
+      "",
+      "fúkať",
+      "mrznúť"
+    ],
+    "t": [
+      "",
+      "fúkať",
+      "mrznúť"
+    ]
+  },
+  "a2-u8-l7.grammar-fukat-mrznut-subject.table.rows": {
+    "en": [
+      [
+        "ja",
+        "fúk**am**",
+        "mrzn**em**"
+      ],
+      [
+        "ty",
+        "fúk**aš**",
+        "mrzn**eš**"
+      ],
+      [
+        "on, ona, ono",
+        "fúk**a**",
+        "mrzn**e**"
+      ],
+      [
+        "my",
+        "fúk**ame**",
+        "mrzn**eme**"
+      ],
+      [
+        "vy",
+        "fúk**ate**",
+        "mrzn**ete**"
+      ],
+      [
+        "oni, ony",
+        "fúk**ajú**",
+        "mrzn**ú**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "fúk**am**",
+        "mrzn**em**"
+      ],
+      [
+        "ty",
+        "fúk**aš**",
+        "mrzn**eš**"
+      ],
+      [
+        "on, ona, ono",
+        "fúk**a**",
+        "mrzn**e**"
+      ],
+      [
+        "my",
+        "fúk**ame**",
+        "mrzn**eme**"
+      ],
+      [
+        "vy",
+        "fúk**ate**",
+        "mrzn**ete**"
+      ],
+      [
+        "oni, ony",
+        "fúk**ajú**",
+        "mrzn**ú**"
+      ]
+    ]
+  },
+  "a2-u8-l7.grammar-fukat-mrznut-subject.examples": {
+    "en": [
+      "A strong wind is blowing outside.",
+      "I'm cold. I'm freezing!"
+    ],
+    "t": [
+      "На улице дует сильный ветер.",
+      "Мне холодно. Я замерзаю!"
+    ]
+  },
+  "a2-u8-l7.fill-pri-jazere-fuka.en": {
+    "en": "A cold wind is blowing by the lake.",
+    "t": "У озера дует холодный ветер."
+  },
+  "a2-u8-l7.fill-pri-jazere-fuka.why": {
+    "en": "Here the wind is the subject (on), so fúkať takes its on form: vietor **fúka**. Fúkam is ja; fúkalo has no subject.",
+    "t": "Здесь ветер — подлежащее (on), поэтому fúkať в форме для on: vietor **fúka**. Fúkam — для ja; у fúkalo нет подлежащего."
+  },
+  "a2-u8-l7.fill-je-mi-zima.en": {
+    "en": "I'm cold, I'm freezing!",
+    "t": "Мне холодно, я замерзаю!"
+  },
+  "a2-u8-l7.fill-je-mi-zima.why": {
+    "en": "The one freezing is ja, so mrznúť takes **-em**: **mrznem**. Mrzne is for the weather, or for on and ona.",
+    "t": "Замерзаю я (ja), поэтому mrznúť получает **-em**: **mrznem**. Mrzne — про погоду или для on и ona."
+  },
+  "a2-u8-l7.choice-vcera-bolo-pekne.question": {
+    "en": "Which one means “It was nice yesterday”?",
+    "t": "Какое предложение значит «Вчера была хорошая погода»?"
+  },
+  "a2-u8-l7.choice-vcera-bolo-pekne.why": {
+    "en": "With no noun, weather takes the neuter in the past: **bolo** pekne. Bola needs a feminine noun, as in bola búrka; je is now.",
+    "t": "Без существительного погода в прошедшем времени стоит в среднем роде: **bolo** pekne, как наше «было хорошо». Bola нужна с существительным женского рода, как bola búrka; je — это сейчас."
+  },
+  "a2-u8-l7.fill-v-sobotu-poobede.en": {
+    "en": "On Saturday afternoon there was a big storm.",
+    "t": "В субботу днём была сильная гроза."
+  },
+  "a2-u8-l7.fill-v-sobotu-poobede.why": {
+    "en": "With a noun, byť agrees with it. Búrka is feminine, so **bola** búrka.",
+    "t": "С существительным byť согласуется с ним, как и у нас. Búrka — женского рода, поэтому **bola** búrka — «была гроза»."
+  },
+  "a2-u8-l7.build-vcera-bolo-zamracene.prompt": {
+    "en": "Yesterday it was overcast and it rained.",
+    "t": "Вчера было пасмурно и шёл дождь."
+  },
+  "a2-u8-l7.build-vcera-bolo-zamracene.traps": {
+    "en": [
+      "There's no noun, so the past is neuter: **bolo** zamračené.",
+      "Yesterday is the past: **pršalo**, with -lo."
+    ],
+    "t": [
+      "Существительного нет, поэтому прошедшее время в среднем роде: **bolo** zamračené — «было пасмурно».",
+      "Вчера — это прошлое: **pršalo**, на -lo."
+    ]
+  },
+  "a2-u8-l7.slnko-a-dazd.en": {
+    "en": "sun and rain",
+    "t": "солнце и дождь"
+  },
+  "a2-u8-l7.slnko-a-dazd.note": {
+    "en": "**Svieti slnko.** = The sun is shining. **Prší**, there's rain: **dážď** (o daždi).",
+    "t": "**Svieti slnko.** = Светит солнце. **Prší** — идёт дождь: **dážď** (o daždi)."
+  },
+  "a2-u8-l7.sneh-a-mraz.en": {
+    "en": "snow and frost",
+    "t": "снег и мороз"
+  },
+  "a2-u8-l7.sneh-a-mraz.note": {
+    "en": "**Sneží.** = It's snowing. **Mrzne.** = It's freezing. Emma still remembers January in Bratislava.",
+    "t": "**Sneží.** = Идёт снег. **Mrzne.** = Морозит. Эмма до сих пор помнит январь в Братиславе."
+  },
+  "a2-u8-l7.build-v-januari-casto.answers": {
+    "en": [
+      "In January it often snowed and froze.",
+      "It often snowed and froze in January."
+    ],
+    "t": [
+      "В январе часто шёл снег и стоял мороз.",
+      "В январе часто шёл снег и морозило.",
+      "Часто в январе шёл снег и стоял мороз."
+    ]
+  },
+  "a2-u8-l7.build-v-januari-casto.distractors": {
+    "en": [
+      "rained",
+      "will"
+    ],
+    "t": [
+      "дождь",
+      "будет"
+    ]
+  },
+  "a2-u8-l7.match-prsat.pairs": {
+    "en": [
+      "to rain",
+      "to snow",
+      "to thunder",
+      "to freeze",
+      "to blow"
+    ],
+    "t": [
+      "идти (о дожде)",
+      "идти (о снеге)",
+      "греметь (о громе)",
+      "морозить",
+      "дуть"
+    ]
+  },
+  "a2-u8-l7.speak-je-mi-zima.en": {
+    "en": "I'm cold. I'm freezing!",
+    "t": "Мне холодно. Я замерзаю!"
+  },
+  "a2-u8-l8.titleEn": {
+    "en": "What shall I wear?",
+    "t": "Что мне надеть?"
+  },
+  "a2-u8-l8.obliect-si.en": {
+    "en": "to put on (clothes)",
+    "t": "надеть (одежду)"
+  },
+  "a2-u8-l8.obliect-si.note": {
+    "en": "oblečiem si, oblečieš si… **Obleč si** sveter! = Put on a jumper! You know **Obliekam sa.** = I'm getting dressed.",
+    "t": "oblečiem si, oblečieš si… **Obleč si** sveter! = Надень свитер! А **Obliekam sa.** = Я одеваюсь — это вы уже знаете."
+  },
+  "a2-u8-l8.bunda-a-kabat.en": {
+    "en": "jacket and coat",
+    "t": "куртка и пальто"
+  },
+  "a2-u8-l8.bunda-a-kabat.note": {
+    "en": "A **bunda** is short and sporty; a **kabát** is long and warm, for winter.",
+    "t": "**Bunda** — короткая, спортивная; **kabát** — длинный и тёплый, на зиму (и мужского рода, в отличие от «пальто»)."
+  },
+  "a2-u8-l8.fill-vecer-bude-chladno.en": {
+    "en": "It'll be chilly this evening. Put on a jacket!",
+    "t": "Вечером будет прохладно. Надень куртку!"
+  },
+  "a2-u8-l8.fill-vecer-bude-chladno.why": {
+    "en": "The jacket is the object, so bunda changes -a to **-u**: obleč si **bundu**.",
+    "t": "Куртка — дополнение (что?), поэтому bunda меняет -a на **-u**, как «куртка — куртку»: obleč si **bundu**."
+  },
+  "a2-u8-l8.saty.en": {
+    "en": "dress",
+    "t": "платье"
+  },
+  "a2-u8-l8.saty.note": {
+    "en": "Always plural, like nohavice: **Tie šaty sú** nové. = That dress is new.",
+    "t": "Всегда во множественном числе, как nohavice (брюки), — хотя наше «платье» в единственном: **Tie šaty sú** nové. = Это платье новое."
+  },
+  "a2-u8-l8.fill-tie-saty-su.en": {
+    "en": "That dress is very nice.",
+    "t": "Это платье очень красивое."
+  },
+  "a2-u8-l8.fill-tie-saty-su.why": {
+    "en": "**Šaty** is always plural, even for one dress, so the verb is plural too: šaty **sú**.",
+    "t": "**Šaty** — всегда множественное число, даже если платье одно, поэтому и глагол во множественном: šaty **sú**."
+  },
+  "a2-u8-l8.sortky.en": {
+    "en": "shorts",
+    "t": "шорты"
+  },
+  "a2-u8-l8.sortky.note": {
+    "en": "Plural only, like šaty. Also **krátke nohavice**, short trousers.",
+    "t": "Только множественное число, как šaty и как наши «шорты». Ещё говорят **krátke nohavice** — короткие брюки."
+  },
+  "a2-u8-l8.siltovka.en": {
+    "en": "baseball cap",
+    "t": "бейсболка, кепка"
+  },
+  "a2-u8-l8.siltovka.note": {
+    "en": "In winter you wear a warm **čiapka** (hat) and a **šál** (scarf). Against the sun: **slnečné okuliare**.",
+    "t": "Зимой носят тёплую шапку (**čiapka**) и шарф (**šál**). От солнца — **slnečné okuliare** (солнечные очки)."
+  },
+  "a2-u8-l8.match-saty.pairs": {
+    "en": [
+      "dress",
+      "jacket",
+      "coat",
+      "shorts",
+      "baseball cap"
+    ],
+    "t": [
+      "платье",
+      "куртка",
+      "пальто",
+      "шорты",
+      "бейсболка"
+    ]
+  },
+  "a2-u8-l8.choice-je-horuco-a.question": {
+    "en": "It's hot and sunny at the festival. What does Emma put on?",
+    "t": "На фестивале жарко и солнечно. Что наденет Эмма?"
+  },
+  "a2-u8-l8.rolak.en": {
+    "en": "polo neck",
+    "t": "водолазка"
+  },
+  "a2-u8-l8.rolak.note": {
+    "en": "A jumper with a high neck. Any jumper is a **sveter** or a **pulóver**.",
+    "t": "Свитер с высоким воротом. Любой свитер — **sveter** или **pulóver**."
+  },
+  "a2-u8-l8.build-oblecim-si-saty.prompt": {
+    "en": "I'll put on a dress and a jacket.",
+    "t": "Я надену платье и куртку."
+  },
+  "a2-u8-l8.build-oblecim-si-saty.traps": {
+    "en": [
+      "The jacket is the object, so bunda changes -a to **-u**: oblečiem si **bundu**.",
+      "Putting something on, once and later, is **oblečiem si** (I'll put on). Obliekam sa means I'm getting dressed."
+    ],
+    "t": [
+      "Куртка — дополнение, поэтому bunda меняет -a на **-u**: oblečiem si **bundu**.",
+      "Надеть что-то один раз, в будущем, — **oblečiem si** (надену). Obliekam sa значит «я одеваюсь»."
+    ]
+  },
+  "a2-u8-l8.choice-co-si-oblecies.question": {
+    "en": "Lucia wants to know what Emma will wear to the theatre. What does she ask?",
+    "t": "Луция хочет знать, что Эмма наденет в театр. Как она спросит?"
+  },
+  "a2-u8-l8.choice-co-si-oblecies.why": {
+    "en": "Going somewhere takes **do** + the place: **do divadla**, like do kina. V divadle is being there, and obliekla is the past.",
+    "t": "Куда? — **do** + место: **do divadla**, как do kina. V divadle — «в театре» (где?), а obliekla — прошедшее время."
+  },
+  "a2-u8-l8.fill-co-si-oblecies.en": {
+    "en": "What will you wear to the concert?",
+    "t": "Что ты наденешь на концерт?"
+  },
+  "a2-u8-l8.fill-co-si-oblecies.why": {
+    "en": "An event takes **na**: na koncert, na festival. **Do** is for places you go into: do divadla, do práce.",
+    "t": "С мероприятием — **na**, как и у нас: na koncert, na festival. **Do** — для мест, куда входят: do divadla, do práce."
+  },
+  "a2-u8-l8.build-do-divadla-si.answers": {
+    "en": [
+      "I'll wear a new dress to the theatre.",
+      "I'll put on a new dress for the theatre."
+    ],
+    "t": [
+      "В театр я надену новое платье.",
+      "Я надену в театр новое платье.",
+      "Я надену новое платье в театр."
+    ]
+  },
+  "a2-u8-l8.build-do-divadla-si.distractors": {
+    "en": [
+      "coat",
+      "work"
+    ],
+    "t": [
+      "пальто",
+      "работу"
+    ]
+  },
+  "a2-u8-l8.ciapka.en": {
+    "en": "hat",
+    "t": "шапка"
+  },
+  "a2-u8-l8.ciapka.note": {
+    "en": "A warm winter hat. With it, a **šál** (scarf). Even in July, nights by the lake can be cold.",
+    "t": "Тёплая зимняя шапка. К ней — **šál** (шарф). Даже в июле ночи у озера бывают холодными."
+  },
+  "a2-u8-l8.build-zober-si-ciapku.prompt": {
+    "en": "Take a hat and a scarf!",
+    "t": "Возьми шапку и шарф!"
+  },
+  "a2-u8-l8.build-zober-si-ciapku.traps": {
+    "en": [
+      "The hat is the object, so čiapka changes -a to **-u**: zober si **čiapku**.",
+      "**Zobrať si** takes si, with the thing you take after it: zober **si** čiapku."
+    ],
+    "t": [
+      "Шапка — дополнение, поэтому čiapka меняет -a на **-u**: zober si **čiapku**.",
+      "**Zobrať si** — с si («себе»), а после него то, что берёте: zober **si** čiapku."
+    ]
+  },
+  "a2-u8-l8.speak-oblec-si-nieco.en": {
+    "en": "Put on something warm!",
+    "t": "Надень что-нибудь тёплое!"
+  },
+  "a2-u8-l9.titleEn": {
+    "en": "Which shoes will you wear?",
+    "t": "Что ты обуешь?"
+  },
+  "a2-u8-l9.topanky-a-tenisky.en": {
+    "en": "shoes and trainers",
+    "t": "ботинки и кроссовки"
+  },
+  "a2-u8-l9.topanky-a-tenisky.note": {
+    "en": "One shoe: **topánka**. **Tenisky** are sports shoes. Socks are **ponožky**.",
+    "t": "Один ботинок или туфля — **topánka**; topánky — это обувь вообще. **Tenisky** — спортивная обувь, кроссовки. Носки — **ponožky**."
+  },
+  "a2-u8-l9.sandale-a-cizmy.en": {
+    "en": "sandals and boots",
+    "t": "сандалии и сапоги"
+  },
+  "a2-u8-l9.sandale-a-cizmy.note": {
+    "en": "**gumené čižmy** = rubber boots, good for a muddy festival.",
+    "t": "**gumené čižmy** = резиновые сапоги — то, что нужно на грязном фестивале."
+  },
+  "a2-u8-l9.grammar-putting-clothes-shoes.title": {
+    "en": "Putting on clothes and shoes",
+    "t": "Надеть и обуть"
+  },
+  "a2-u8-l9.grammar-putting-clothes-shoes.body": {
+    "en": [
+      "Clothes go on with **obliecť si**, shoes with **obuť si**. Both are one finished action, so the present form talks about the future: Obujem si tenisky. = I'll put on my trainers.",
+      "To a friend: **Obleč si**…! **Obuj si**…! What you're wearing right now: **Mám na sebe** šaty."
+    ],
+    "t": [
+      "Одежду надевают — **obliecť si**, обувь обувают — **obuť si**, как наше «обуть». Оба глагола совершенного вида, поэтому форма настоящего времени означает будущее: Obujem si tenisky. = Я обую кроссовки.",
+      "Другу: **Obleč si**…! **Obuj si**…! А то, что на вас сейчас: **Mám na sebe** šaty. = На мне платье."
+    ]
+  },
+  "a2-u8-l9.grammar-putting-clothes-shoes.table.head": {
+    "en": [
+      "",
+      "obliecť si",
+      "obuť si"
+    ],
+    "t": [
+      "",
+      "obliecť si",
+      "obuť si"
+    ]
+  },
+  "a2-u8-l9.grammar-putting-clothes-shoes.table.rows": {
+    "en": [
+      [
+        "ja",
+        "obleč**iem** si",
+        "obuj**em** si"
+      ],
+      [
+        "ty",
+        "obleč**ieš** si",
+        "obuj**eš** si"
+      ],
+      [
+        "on, ona",
+        "obleč**ie** si",
+        "obuj**e** si"
+      ],
+      [
+        "my",
+        "obleč**ieme** si",
+        "obuj**eme** si"
+      ],
+      [
+        "vy",
+        "obleč**iete** si",
+        "obuj**ete** si"
+      ],
+      [
+        "oni, ony",
+        "obleč**ú** si",
+        "obuj**ú** si"
+      ],
+      [
+        "to a friend",
+        "**obleč** si!",
+        "**obuj** si!"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "obleč**iem** si",
+        "obuj**em** si"
+      ],
+      [
+        "ty",
+        "obleč**ieš** si",
+        "obuj**eš** si"
+      ],
+      [
+        "on, ona",
+        "obleč**ie** si",
+        "obuj**e** si"
+      ],
+      [
+        "my",
+        "obleč**ieme** si",
+        "obuj**eme** si"
+      ],
+      [
+        "vy",
+        "obleč**iete** si",
+        "obuj**ete** si"
+      ],
+      [
+        "oni, ony",
+        "obleč**ú** si",
+        "obuj**ú** si"
+      ],
+      [
+        "другу (на «ты»)",
+        "**obleč** si!",
+        "**obuj** si!"
+      ]
+    ]
+  },
+  "a2-u8-l9.grammar-putting-clothes-shoes.examples": {
+    "en": [
+      "I'll put on my rubber boots.",
+      "Put on your jacket!",
+      "What are you wearing?"
+    ],
+    "t": [
+      "Я обую резиновые сапоги.",
+      "Надень куртку!",
+      "Что на тебе надето?"
+    ]
+  },
+  "a2-u8-l9.fill-na-koncert-si.en": {
+    "en": "I'll put on trainers for the concert.",
+    "t": "На концерт я обую кроссовки."
+  },
+  "a2-u8-l9.fill-na-koncert-si.why": {
+    "en": "Shoes go with **obuť si**: **obujem** si tenisky. Oblečiem si is for clothes, and obujú is oni.",
+    "t": "Обувь — с **obuť si**: **obujem** si tenisky. Oblečiem si — для одежды, а obujú — для oni."
+  },
+  "a2-u8-l9.fill-je-zima-oblec.en": {
+    "en": "It's cold, put on your coat!",
+    "t": "Холодно, надень пальто!"
+  },
+  "a2-u8-l9.fill-je-zima-oblec.why": {
+    "en": "A coat is clothing, so **obleč** si. Obuj si is for shoes, and oblečie is on or ona.",
+    "t": "Пальто — одежда, поэтому **obleč** si. Obuj si — для обуви, а oblečie — для on или ona."
+  },
+  "a2-u8-l9.match-topanky.pairs": {
+    "en": [
+      "shoes",
+      "trainers",
+      "sandals",
+      "boots",
+      "socks"
+    ],
+    "t": [
+      "ботинки",
+      "кроссовки",
+      "сандалии",
+      "сапоги",
+      "носки"
+    ]
+  },
+  "a2-u8-l9.build-obuj-si-cizmy.prompt": {
+    "en": "Put your boots on, it's raining!",
+    "t": "Обуй сапоги, идёт дождь!"
+  },
+  "a2-u8-l9.build-obuj-si-cizmy.traps": {
+    "en": [
+      "Boots are shoes, so **obuj** si. Obleč si is for clothes.",
+      "**Obuť si** takes si, with the shoes after it: obuj **si** čižmy."
+    ],
+    "t": [
+      "Сапоги — обувь, поэтому **obuj** si, как «обуй». Obleč si — для одежды.",
+      "**Obuť si** — с si, а после него обувь: obuj **si** čižmy."
+    ]
+  },
+  "a2-u8-l9.sako-a-kravata.en": {
+    "en": "blazer and tie",
+    "t": "пиджак и галстук"
+  },
+  "a2-u8-l9.sako-a-kravata.note": {
+    "en": "A whole suit is an **oblek**. Emma wears a **sako** to the office; Tomáš never wears a tie.",
+    "t": "Весь костюм — **oblek**. Эмма ходит в офис в пиджаке (**sako**), а Томаш никогда не носит галстук."
+  },
+  "a2-u8-l9.fill-tomas-ma-na.en": {
+    "en": "Tomáš is wearing a new suit.",
+    "t": "На Томаше новый костюм."
+  },
+  "a2-u8-l9.fill-tomas-ma-na.why": {
+    "en": "**Nový** is the masculine form, and only **oblek** is masculine. Šaty would need nové, and kravatu needs novú.",
+    "t": "**Nový** — форма мужского рода, а мужского рода здесь только **oblek**. Šaty требовали бы nové, а kravatu — novú."
+  },
+  "a2-u8-l9.build-do-prace-si.answers": {
+    "en": [
+      "I'll wear a blazer and trousers to work.",
+      "I'll put on a blazer and trousers for work."
+    ],
+    "t": [
+      "На работу я надену пиджак и брюки.",
+      "Я надену на работу пиджак и брюки.",
+      "Я надену пиджак и брюки на работу."
+    ]
+  },
+  "a2-u8-l9.build-do-prace-si.distractors": {
+    "en": [
+      "dress",
+      "theatre"
+    ],
+    "t": [
+      "платье",
+      "театр"
+    ]
+  },
+  "a2-u8-l9.vyskusat-si.en": {
+    "en": "to try on",
+    "t": "примерить"
+  },
+  "a2-u8-l9.vyskusat-si.note": {
+    "en": "In a shop: **Môžem si to vyskúšať?** = Can I try it on? Without si it's to try out, to test: vyskúšať nový stan.",
+    "t": "В магазине: **Môžem si to vyskúšať?** = Можно это примерить? Без si — испробовать, проверить: vyskúšať nový stan."
+  },
+  "a2-u8-l9.choice-mozem-si-vyskusat.question": {
+    "en": "In a shop, Emma wants to try on some boots. What does she ask?",
+    "t": "В магазине Эмма хочет примерить сапоги. Как она спросит?"
+  },
+  "a2-u8-l9.build-emma-ma-na.prompt": {
+    "en": "Emma is wearing a dress and sandals.",
+    "t": "На Эмме платье и сандалии."
+  },
+  "a2-u8-l9.build-emma-ma-na.traps": {
+    "en": [
+      "Emma is ona, so mať has no ending: Emma **má** na sebe…",
+      "What you're wearing is **na sebe**, on yourself, a locative form. Sebou goes with s: so sebou (with you)."
+    ],
+    "t": [
+      "Эмма — ona, поэтому у mať нет окончания: Emma **má** na sebe…",
+      "Что на вас надето — **na sebe** («на себе»), предложный падеж. Sebou — после s: so sebou (с собой)."
+    ]
+  },
+  "a2-u8-l9.speak-mozem-si-to.en": {
+    "en": "Can I try it on?",
+    "t": "Можно это примерить?"
+  },
+  "a2-u8-l10.titleEn": {
+    "en": "Weather around Slovakia",
+    "t": "Погода в Словакии"
+  },
+  "a2-u8-l10.vonku-je-chladno.en": {
+    "en": "It's chilly outside.",
+    "t": "На улице прохладно."
+  },
+  "a2-u8-l10.vonku-je-chladno.note": {
+    "en": "**Ako je vonku?** = What's it like outside? Hot is **horúco**.",
+    "t": "**Ako je vonku?** = Как там на улице? Жарко — **horúco**."
+  },
+  "a2-u8-l10.pod-nulou.en": {
+    "en": "below zero",
+    "t": "ниже нуля"
+  },
+  "a2-u8-l10.pod-nulou.note": {
+    "en": "**nula** = zero. V januári bolo desať stupňov **pod nulou**. = In January it was minus ten.",
+    "t": "**nula** = ноль. V januári bolo desať stupňov **pod nulou**. = В январе было десять градусов ниже нуля (дословно «под нулём»)."
+  },
+  "a2-u8-l10.fill-kosice-su-na.en": {
+    "en": "Košice is in the east of Slovakia.",
+    "t": "Кошице находятся на востоке Словакии."
+  },
+  "a2-u8-l10.fill-kosice-su-na.why": {
+    "en": "Being somewhere answers “where?”, so **na** takes the locative, and masculine words add **-e**: na **východe**.",
+    "t": "Быть где-то — вопрос «где?», поэтому **na** + предложный, а мужской род получает **-e**: na **východe** — «на востоке»."
+  },
+  "a2-u8-l10.choice-na-severe-bude.question": {
+    "en": "What does this mean?",
+    "t": "Что это значит?"
+  },
+  "a2-u8-l10.choice-na-severe-bude.options": {
+    "en": [
+      "It will rain in the south and be sunny in the north.",
+      "It's raining in the north and sunny in the south.",
+      "It will rain in the north and be sunny in the south."
+    ],
+    "t": [
+      "На юге будет дождь, а на севере будет солнечно.",
+      "На севере идёт дождь, а на юге солнечно.",
+      "На севере будет дождь, а на юге будет солнечно."
+    ]
+  },
+  "a2-u8-l10.choice-na-severe-bude.why": {
+    "en": "**Bude** pršať and **bude** slnečno are the future: it will rain, it will be sunny. Sever is the north, juh the south.",
+    "t": "**Bude** pršať и **bude** slnečno — будущее время: будет дождь, будет солнечно. Sever — север, juh — юг."
+  },
+  "a2-u8-l10.fill-v-januari-bolo.en": {
+    "en": "In February it was five degrees below zero.",
+    "t": "В феврале было пять градусов ниже нуля."
+  },
+  "a2-u8-l10.fill-v-januari-bolo.why": {
+    "en": "**Pod** (under) takes the instrumental, as in pod stolom, so nula changes -a to **-ou**: pod **nulou**.",
+    "t": "**Pod** (под) требует творительного, как pod stolom — «под столом», поэтому nula меняет -a на **-ou**: pod **nulou**."
+  },
+  "a2-u8-l10.build-na-juhu-bude.prompt": {
+    "en": "In the south it will be warmer than in the north.",
+    "t": "На юге будет теплее, чем на севере."
+  },
+  "a2-u8-l10.build-na-juhu-bude.traps": {
+    "en": [
+      "With **ako** (than) you compare, so you need the comparative: **teplejšie** = warmer.",
+      "In the south answers “where?”, so **na** takes the locative; after h the ending is **-u**: na **juhu**."
+    ],
+    "t": [
+      "С **ako** (чем) сравнивают, поэтому нужна сравнительная степень: **teplejšie** = теплее.",
+      "«На юге» отвечает на вопрос «где?», поэтому **na** + предложный; после h окончание **-u**: na **juhu**."
+    ]
+  },
+  "a2-u8-l10.fill-zajtra-by-malo.en": {
+    "en": "It should be nice tomorrow.",
+    "t": "Завтра должна быть хорошая погода."
+  },
+  "a2-u8-l10.fill-zajtra-by-malo.why": {
+    "en": "Weather has no subject, so mať takes the neuter **-lo**, like pršalo: zajtra by **malo** byť pekne.",
+    "t": "У погоды нет подлежащего, поэтому mať в среднем роде, на **-lo**, как pršalo и как наше «должно»: zajtra by **malo** byť pekne."
+  },
+  "a2-u8-l10.zostat-doma.en": {
+    "en": "to stay at home",
+    "t": "остаться дома"
+  },
+  "a2-u8-l10.zostat-doma.note": {
+    "en": "zostanem, zostaneš… Like stretnúť, it points to the future: **Zostanem doma.** = I'll stay at home.",
+    "t": "zostanem, zostaneš… Как stretnúť, это совершенный вид, поэтому форма говорит о будущем: **Zostanem doma.** = Я останусь дома."
+  },
+  "a2-u8-l10.build-ak-bude-prsat.prompt": {
+    "en": "If it rains, we'll stay at home.",
+    "t": "Если будет дождь, мы останемся дома."
+  },
+  "a2-u8-l10.build-ak-bude-prsat.traps": {
+    "en": [
+      "About the future, ak takes **bude** + the infinitive: ak bude **pršať**.",
+      "This is the future: **zostaneme** = we'll stay. Zostali is the past."
+    ],
+    "t": [
+      "О будущем после ak — **bude** + инфинитив, как «если будет дождь»: ak bude **pršať**.",
+      "Это будущее: **zostaneme** = останемся. Zostali — прошедшее время."
+    ]
+  },
+  "a2-u8-l10.ist-na-vylet.en": {
+    "en": "picnic",
+    "t": "пикник"
+  },
+  "a2-u8-l10.ist-na-vylet.note": {
+    "en": "Ak bude pekne, pôjdeme na výlet a urobíme si **piknik**. = If it's nice, we'll go on a trip and have a picnic.",
+    "t": "Ak bude pekne, pôjdeme na výlet a urobíme si **piknik**. = Если будет хорошая погода, поедем за город и устроим пикник."
+  },
+  "a2-u8-l10.fill-ak-bude-zajtra.en": {
+    "en": "If it's nice tomorrow, we'll go on a trip.",
+    "t": "Если завтра будет хорошая погода, поедем за город."
+  },
+  "a2-u8-l10.fill-ak-bude-zajtra.why": {
+    "en": "Weather with byť takes the -o or -e form, not an adjective: bude **pekne**, like je teplo.",
+    "t": "Погода с byť — это форма на -o или -e, а не прилагательное, как наши «тепло», «хорошо»: bude **pekne**, как je teplo."
+  },
+  "a2-u8-l10.skaredo.en": {
+    "en": "horrible (weather)",
+    "t": "мерзко (о погоде)"
+  },
+  "a2-u8-l10.skaredo.note": {
+    "en": "The opposite of pekne: **Dnes je škaredo.** = The weather's horrible today. Also: **hrozné počasie** = terrible weather.",
+    "t": "Противоположность pekne: **Dnes je škaredo.** = Сегодня мерзкая погода. Ещё: **hrozné počasie** = ужасная погода."
+  },
+  "a2-u8-l10.build-v-radiu-hovorili.answers": {
+    "en": [
+      "The radio said there'd be a storm in the west."
+    ],
+    "t": [
+      "По радио сказали, что на западе будет гроза.",
+      "По радио говорили, что на западе будет гроза."
+    ]
+  },
+  "a2-u8-l10.build-v-radiu-hovorili.distractors": {
+    "en": [
+      "east",
+      "snow"
+    ],
+    "t": [
+      "востоке",
+      "снег"
+    ]
+  },
+  "a2-u8-l10.choice-je-hrozne-pocasie.question": {
+    "en": "It's cold and windy, and it's raining. What do you say?",
+    "t": "Холодно, ветрено и идёт дождь. Что вы скажете?"
+  },
+  "a2-u8-l10.match-sever.pairs": {
+    "en": [
+      "north",
+      "south",
+      "east",
+      "west",
+      "below zero"
+    ],
+    "t": [
+      "север",
+      "юг",
+      "восток",
+      "запад",
+      "ниже нуля"
+    ]
+  },
+  "a2-u8-l10.speak-ake-bude-zajtra.en": {
+    "en": "What will the weather be like tomorrow?",
+    "t": "Какая завтра будет погода?"
+  },
+  "a2-u8-l11.titleEn": {
+    "en": "If it's nice…",
+    "t": "Если будет хорошая погода…"
+  },
+  "a2-u8-l11.grammar-ak-real-conditions.title": {
+    "en": "Ak: real conditions",
+    "t": "Ak: реальное условие"
+  },
+  "a2-u8-l11.grammar-ak-real-conditions.body": {
+    "en": [
+      "**Ak** (if) starts a condition that is real or likely. After ak the verb keeps its normal tense: the present for now, the past for the past. Ak prší, sedíme v stane. = If it rains, we sit in the tent.",
+      "For the future, Slovak uses the **future after ak too**, where English uses the present: **Ak bude** pršať, pôjdeme do stanu. = If it rains, we'll go to the tent."
+    ],
+    "t": [
+      "**Ak** (если) вводит реальное или вероятное условие. После ak глагол стоит в обычном времени: настоящее — о том, что сейчас, прошедшее — о прошлом. Ak prší, sedíme v stane. = Если идёт дождь, мы сидим в палатке.",
+      "О будущем после ak — **тоже будущее время**, точно как в русском: **Ak bude** pršať, pôjdeme do stanu. = Если будет дождь, пойдём в палатку."
+    ]
+  },
+  "a2-u8-l11.grammar-ak-real-conditions.table.head": {
+    "en": [
+      "time",
+      "ak …",
+      "then …"
+    ],
+    "t": [
+      "время",
+      "ak …",
+      "тогда …"
+    ]
+  },
+  "a2-u8-l11.grammar-ak-real-conditions.table.rows": {
+    "en": [
+      [
+        "now",
+        "Ak **prší**,",
+        "**sedíme** v stane."
+      ],
+      [
+        "past",
+        "Ak si **bol** na koncerte,",
+        "**videl** si Mareka."
+      ],
+      [
+        "future",
+        "Ak **bude** pršať,",
+        "**pôjdeme** do stanu."
+      ],
+      [
+        "future",
+        "Ak **budeš** unavená,",
+        "**zostaneme** doma."
+      ]
+    ],
+    "t": [
+      [
+        "сейчас",
+        "Ak **prší**,",
+        "**sedíme** v stane."
+      ],
+      [
+        "прошлое",
+        "Ak si **bol** na koncerte,",
+        "**videl** si Mareka."
+      ],
+      [
+        "будущее",
+        "Ak **bude** pršať,",
+        "**pôjdeme** do stanu."
+      ],
+      [
+        "будущее",
+        "Ak **budeš** unavená,",
+        "**zostaneme** doma."
+      ]
+    ]
+  },
+  "a2-u8-l11.grammar-ak-real-conditions.examples": {
+    "en": [
+      "If it rains, we'll stay in the tent.",
+      "If you've got time, come with us."
+    ],
+    "t": [
+      "Если будет дождь, мы останемся в палатке.",
+      "Если у тебя есть время, пойдём с нами."
+    ]
+  },
+  "a2-u8-l11.fill-ak-bude-prsat.en": {
+    "en": "If it rains, we'll go to the main tent.",
+    "t": "Если будет дождь, мы пойдём в главный шатёр."
+  },
+  "a2-u8-l11.fill-ak-bude-prsat.why": {
+    "en": "The rain is still to come, so ak takes the future: ak **bude** pršať. English uses the present here; Slovak doesn't.",
+    "t": "Дождь ещё впереди, поэтому после ak будущее время: ak **bude** pršať — «если будет дождь», как и по-русски."
+  },
+  "a2-u8-l11.fill-ak-teraz-prsi.en": {
+    "en": "If it's raining now, take an umbrella.",
+    "t": "Если сейчас идёт дождь, возьми зонт."
+  },
+  "a2-u8-l11.fill-ak-teraz-prsi.why": {
+    "en": "**Teraz** (now) is the present, so the condition is too: ak teraz **prší**.",
+    "t": "**Teraz** (сейчас) — настоящее время, значит, и условие в настоящем: ak teraz **prší**."
+  },
+  "a2-u8-l11.build-ak-bude-zajtra.prompt": {
+    "en": "If it's hot tomorrow, we'll go swimming.",
+    "t": "Если завтра будет жарко, мы пойдём купаться."
+  },
+  "a2-u8-l11.build-ak-bude-zajtra.traps": {
+    "en": [
+      "Tomorrow is still to come, so ak takes the future: ak **bude** horúco.",
+      "Swimming is in the future too, and ísť has its own future: **pôjdeme**. Ideme is now."
+    ],
+    "t": [
+      "Завтра ещё впереди, поэтому после ak будущее время: ak **bude** horúco.",
+      "Купаться тоже пойдём в будущем, а у ísť своя форма будущего: **pôjdeme** (пойдём). Ideme — идём сейчас."
+    ]
+  },
+  "a2-u8-l11.choice-ak-bude-prsat.question": {
+    "en": "Which sentence is correct?",
+    "t": "Какое предложение правильное?"
+  },
+  "a2-u8-l11.choice-ak-bude-prsat.why": {
+    "en": "About the future, both halves are future: ak **bude pršať**, **pôjdeme**. Bude needs the infinitive pršať after it, and išli sme is the past.",
+    "t": "О будущем — обе части в будущем времени: ak **bude pršať**, **pôjdeme**. После bude нужен инфинитив pršať, а išli sme — прошедшее время."
+  },
+  "a2-u8-l11.build-ak-si-bol.answers": {
+    "en": [
+      "If you were at the concert yesterday, you saw Marek."
+    ],
+    "t": [
+      "Если ты вчера был на концерте, ты видел Марека.",
+      "Если ты был вчера на концерте, ты видел Марека.",
+      "Если ты вчера был на концерте, то видел Марека."
+    ]
+  },
+  "a2-u8-l11.build-ak-si-bol.distractors": {
+    "en": [
+      "would",
+      "will"
+    ],
+    "t": [
+      "бы",
+      "увидишь"
+    ]
+  },
+  "a2-u8-l11.grammar-ak-perfective-verb.title": {
+    "en": "Ak with a perfective verb",
+    "t": "Ak с глаголом совершенного вида"
+  },
+  "a2-u8-l11.grammar-ak-perfective-verb.body": {
+    "en": [
+      "You know from unit 7 that a perfective verb's present form is already its future: prídeš, kúpime, zavoláš. After ak it makes a condition about the future on its own, with no budem: **Ak prídeš** o piatej, stihneme koncert.",
+      "So: ak **kúpime** vstupenky, never ak budeme kúpiť."
+    ],
+    "t": [
+      "Из раздела 7 вы знаете: у глагола совершенного вида форма настоящего времени уже означает будущее, как и у нас: prídeš (придёшь), kúpime (купим), zavoláš (позвонишь). После ak она сама по себе даёт условие о будущем, без budem: **Ak prídeš** o piatej, stihneme koncert.",
+      "Поэтому ak **kúpime** vstupenky, но никогда не ak budeme kúpiť — как и по-русски не говорят «если будем купить»."
+    ]
+  },
+  "a2-u8-l11.grammar-ak-perfective-verb.table.head": {
+    "en": [
+      "ak + perfective",
+      "then …"
+    ],
+    "t": [
+      "ak + совершенный вид",
+      "тогда …"
+    ]
+  },
+  "a2-u8-l11.grammar-ak-perfective-verb.table.rows": {
+    "en": [
+      [
+        "Ak **prídeš** o piatej,",
+        "stihneme koncert."
+      ],
+      [
+        "Ak **kúpime** vstupenky dnes,",
+        "budú lacnejšie."
+      ],
+      [
+        "Ak **zavoláš** Tomášovi,",
+        "príde po nás autom."
+      ],
+      [
+        "Ak **zabudneš** pršiplášť,",
+        "požičiam ti môj."
+      ]
+    ],
+    "t": [
+      [
+        "Ak **prídeš** o piatej,",
+        "stihneme koncert."
+      ],
+      [
+        "Ak **kúpime** vstupenky dnes,",
+        "budú lacnejšie."
+      ],
+      [
+        "Ak **zavoláš** Tomášovi,",
+        "príde po nás autom."
+      ],
+      [
+        "Ak **zabudneš** pršiplášť,",
+        "požičiam ti môj."
+      ]
+    ]
+  },
+  "a2-u8-l11.grammar-ak-perfective-verb.examples": {
+    "en": [
+      "If you come at five, we'll make it to the concert.",
+      "If you forget your raincoat, I'll lend you mine."
+    ],
+    "t": [
+      "Если придёшь в пять, мы успеем на концерт.",
+      "Если забудешь дождевик, я одолжу тебе свой."
+    ]
+  },
+  "a2-u8-l11.fill-ak-prides-o.en": {
+    "en": "If you come at six, you'll catch the whole concert.",
+    "t": "Если придёшь в шесть, успеешь на весь концерт."
+  },
+  "a2-u8-l11.fill-ak-prides-o.why": {
+    "en": "Prísť is perfective, so its present already means the future: ak **prídeš**. Never budeš prísť.",
+    "t": "Prísť — совершенного вида, поэтому его настоящее время уже означает будущее: ak **prídeš** — «если придёшь». Никогда не budeš prísť."
+  },
+  "a2-u8-l11.fill-ak-kupime-vstupenky.en": {
+    "en": "If we buy the tickets online, they'll be cheaper.",
+    "t": "Если купим билеты в интернете, они будут дешевле."
+  },
+  "a2-u8-l11.fill-ak-kupime-vstupenky.why": {
+    "en": "Kúpiť is perfective: **kúpime** already means we'll buy. Budeme never goes with it, and after ak you need a verb with an ending.",
+    "t": "Kúpiť — совершенного вида: **kúpime** уже значит «купим». Budeme с ним не употребляется, а после ak нужен глагол с окончанием, не инфинитив."
+  },
+  "a2-u8-l11.fill-ak-bude-burka.en": {
+    "en": "If there's a storm, they'll cancel the concert.",
+    "t": "Если будет гроза, концерт отменят."
+  },
+  "a2-u8-l11.fill-ak-bude-burka.why": {
+    "en": "The result is in the future too, and zrušiť is perfective: **zrušia** = they'll cancel. Zrušili is the past.",
+    "t": "Результат тоже в будущем, а zrušiť — совершенного вида: **zrušia** = отменят. Zrušili — прошедшее время."
+  },
+  "a2-u8-l11.build-ak-zavolas-lucii.prompt": {
+    "en": "If you call Lucia, she'll come with us.",
+    "t": "Если позвонишь Луции, она пойдёт с нами."
+  },
+  "a2-u8-l11.build-ak-zavolas-lucii.traps": {
+    "en": [
+      "Zavolať is perfective: **zavoláš** already means you'll call, with no budeš.",
+      "**Zavolať** takes the to-whom form (the dative), as in Zavolám ti: Lucia → **Lucii**."
+    ],
+    "t": [
+      "Zavolať — совершенного вида: **zavoláš** уже значит «позвонишь», без budeš.",
+      "**Zavolať**, как и «позвонить», требует дательного (кому?), как в Zavolám ti: Lucia → **Lucii** — «Луции»."
+    ]
+  },
+  "a2-u8-l11.build-ak-mi-bude.prompt": {
+    "en": "If I'm cold, I'll put on a jumper.",
+    "t": "Если мне будет холодно, я надену свитер."
+  },
+  "a2-u8-l11.build-ak-mi-bude.traps": {
+    "en": [
+      "It's about later, so ak takes the future: ak mi **bude** zima.",
+      "One action in the future: **oblečiem** si. Obliekam sa means I'm getting dressed."
+    ],
+    "t": [
+      "Речь о будущем, поэтому после ak будущее время: ak mi **bude** zima — «если мне будет холодно».",
+      "Одно действие в будущем: **oblečiem** si (надену). Obliekam sa — «я одеваюсь»."
+    ]
+  },
+  "a2-u8-l11.speak-ak-bude-prsat.en": {
+    "en": "If it rains, we'll go to the tent.",
+    "t": "Если будет дождь, пойдём в палатку."
+  },
+  "a2-u8-l12.titleEn": {
+    "en": "If it weren't raining…",
+    "t": "Если бы не дождь…"
+  },
+  "a2-u8-l12.grammar-keby-imagined-conditions.title": {
+    "en": "Keby and the weather",
+    "t": "Keby и погода"
+  },
+  "a2-u8-l12.grammar-keby-imagined-conditions.body": {
+    "en": [
+      "You know **keby** from unit 4: something imagined takes keby + the past form, and the other half the conditional. Keby **som** mala čas, išla **by som** s vami. **Ak by** means the same as keby.",
+      "Weather has no subject, so after keby its past form ends in **-lo**: keby **nepršalo**, keby **bolo** teplejšie. The wind is a subject: keby **nefúkal** vietor."
+    ],
+    "t": [
+      "**Keby** вы знаете из раздела 4 — это наше «если бы». Воображаемое условие: keby + форма прошедшего времени, а во второй части — условное наклонение, как и у нас: Keby **som** mala čas, išla **by som** s vami. = Если бы у меня было время, я бы пошла с вами. **Ak by** значит то же, что keby.",
+      "У погоды нет подлежащего, поэтому после keby прошедшее время на **-lo**: keby **nepršalo**, keby **bolo** teplejšie. А ветер — подлежащее: keby **nefúkal** vietor."
+    ]
+  },
+  "a2-u8-l12.grammar-keby-imagined-conditions.table.head": {
+    "en": [
+      "keby …",
+      "… by"
+    ],
+    "t": [
+      "keby …",
+      "… by"
+    ]
+  },
+  "a2-u8-l12.grammar-keby-imagined-conditions.table.rows": {
+    "en": [
+      [
+        "Keby **nepršalo**,",
+        "boli **by sme** vonku."
+      ],
+      [
+        "Keby **bolo** teplejšie,",
+        "spali **by sme** vonku."
+      ],
+      [
+        "Keby **nefúkal** vietor,",
+        "sedeli **by sme** pri jazere."
+      ],
+      [
+        "Keby **som** mala stan,",
+        "išla **by som** na festival."
+      ]
+    ],
+    "t": [
+      [
+        "Keby **nepršalo**,",
+        "boli **by sme** vonku."
+      ],
+      [
+        "Keby **bolo** teplejšie,",
+        "spali **by sme** vonku."
+      ],
+      [
+        "Keby **nefúkal** vietor,",
+        "sedeli **by sme** pri jazere."
+      ],
+      [
+        "Keby **som** mala stan,",
+        "išla **by som** na festival."
+      ]
+    ]
+  },
+  "a2-u8-l12.grammar-keby-imagined-conditions.examples": {
+    "en": [
+      "If it weren't raining, we'd be outside.",
+      "If I had time, I'd go to the concert."
+    ],
+    "t": [
+      "Если бы не шёл дождь, мы были бы на улице.",
+      "Если бы у меня было время, я бы пошла на концерт."
+    ]
+  },
+  "a2-u8-l12.fill-keby-som-mala.en": {
+    "en": "If I had a tent, I'd go to the festival.",
+    "t": "Если бы у меня была палатка, я бы поехала на фестиваль."
+  },
+  "a2-u8-l12.fill-keby-som-mala.why": {
+    "en": "Keby already holds its by; the small word for ja follows it straight away: keby **som** mala…",
+    "t": "В keby уже есть своё by; короткое слово для ja идёт сразу за ним: keby **som** mala…"
+  },
+  "a2-u8-l12.fill-keby-nefukal-vietor.en": {
+    "en": "If the wind weren't blowing, we'd be sitting by the lake.",
+    "t": "Если бы не дул ветер, мы бы сидели у озера."
+  },
+  "a2-u8-l12.fill-keby-nefukal-vietor.why": {
+    "en": "The result is imagined, so it takes the conditional: sedeli **by sme**. Sedeli sme is the plain past, budeme the future.",
+    "t": "Результат воображаемый, поэтому нужно условное наклонение: sedeli **by sme** — «мы бы сидели». Sedeli sme — просто прошедшее время, budeme — будущее."
+  },
+  "a2-u8-l12.build-keby-som-mala.prompt": {
+    "en": "If I had a sleeping bag, I'd sleep in the tent.",
+    "t": "Если бы у меня был спальник, я бы спал(а) в палатке."
+  },
+  "a2-u8-l12.build-keby-som-mala.traps": {
+    "en": [
+      "An imagined condition takes keby + the past form: keby som **mala**. Mám is a real present.",
+      "An imagined result takes **by**: spala **by** som. Budem is a real future."
+    ],
+    "t": [
+      "Воображаемое условие — keby + прошедшее время: keby som **mala** — «если бы у меня был». Mám — реальное настоящее.",
+      "Воображаемый результат — с **by**: spala **by** som — «я бы спала». Budem — реальное будущее."
+    ]
+  },
+  "a2-u8-l12.build-keby-som-bola.answers": {
+    "en": [
+      "If I were at home, I'd be sleeping.",
+      "If I was at home, I'd be sleeping."
+    ],
+    "t": [
+      "Если бы я была дома, я бы спала.",
+      "Если бы я была дома, спала бы.",
+      "Была бы я дома, я бы спала."
+    ]
+  },
+  "a2-u8-l12.build-keby-som-bola.distractors": {
+    "en": [
+      "will",
+      "am"
+    ],
+    "t": [
+      "буду",
+      "сплю"
+    ]
+  },
+  "a2-u8-l12.grammar-ak-or-keby.title": {
+    "en": "Ak or keby?",
+    "t": "Ak или keby?"
+  },
+  "a2-u8-l12.grammar-ak-or-keby.body": {
+    "en": [
+      "Real or likely: **ak** + the normal verb. Imagined, or too late to happen: **keby** + the conditional.",
+      "Keby also works for the past: Keby si **včera** prišiel, videl **by si** ten koncert. = If you'd come yesterday, you'd have seen that concert. The form doesn't change; words like včera show the time."
+    ],
+    "t": [
+      "Реальное или вероятное — **ak** + обычный глагол («если»). Воображаемое или то, что уже не может случиться, — **keby** + условное наклонение («если бы»).",
+      "Keby годится и для прошлого, как наше «если бы»: Keby si **včera** prišiel, videl **by si** ten koncert. = Если бы ты вчера пришёл, ты бы увидел этот концерт. Форма не меняется; на время указывают слова вроде včera."
+    ]
+  },
+  "a2-u8-l12.grammar-ak-or-keby.table.head": {
+    "en": [
+      "real: ak",
+      "imagined: keby"
+    ],
+    "t": [
+      "реальное: ak",
+      "воображаемое: keby"
+    ]
+  },
+  "a2-u8-l12.grammar-ak-or-keby.table.rows": {
+    "en": [
+      [
+        "Ak bude pršať, budeme v stane.",
+        "Keby pršalo, boli by sme v stane."
+      ],
+      [
+        "Ak máš čas, poď s nami.",
+        "Keby si mal čas, išiel by si s nami."
+      ],
+      [
+        "Ak príde, uvidí koncert.",
+        "Keby včera prišiel, videl by koncert."
+      ]
+    ],
+    "t": [
+      [
+        "Ak bude pršať, budeme v stane.",
+        "Keby pršalo, boli by sme v stane."
+      ],
+      [
+        "Ak máš čas, poď s nami.",
+        "Keby si mal čas, išiel by si s nami."
+      ],
+      [
+        "Ak príde, uvidí koncert.",
+        "Keby včera prišiel, videl by koncert."
+      ]
+    ]
+  },
+  "a2-u8-l12.grammar-ak-or-keby.examples": {
+    "en": [
+      "If it rains, we'll be in the tent.",
+      "If you'd come yesterday, you'd have seen that concert."
+    ],
+    "t": [
+      "Если будет дождь, мы будем в палатке.",
+      "Если бы ты вчера пришла, ты бы увидела этот концерт."
+    ]
+  },
+  "a2-u8-l12.choice-keby-bola-burka.question": {
+    "en": "Which sentence imagines something that isn't real?",
+    "t": "Какое предложение описывает то, чего на самом деле нет?"
+  },
+  "a2-u8-l12.choice-keby-bola-burka.why": {
+    "en": "**Keby** + the conditional (zrušili **by**) imagines it. Ak + the future is a real plan, and in the third sentence it really happened.",
+    "t": "**Keby** + условное наклонение (zrušili **by**) — это воображаемое: «если бы была гроза, отменили бы». Ak + будущее — реальный план, а в третьем предложении всё действительно случилось."
+  },
+  "a2-u8-l12.fill-keby-si-bol.en": {
+    "en": "If you'd been at the festival on Saturday, you'd have seen the storm.",
+    "t": "Если бы ты был на фестивале в субботу, ты бы увидел грозу."
+  },
+  "a2-u8-l12.fill-keby-si-bol.why": {
+    "en": "Keby takes the past form, also for an imagined past: keby si **bol** v sobotu… Budeš is a real future.",
+    "t": "Keby требует прошедшего времени, и для воображаемого прошлого тоже: keby si **bol** v sobotu… Budeš — реальное будущее."
+  },
+  "a2-u8-l12.build-keby-bolo-teplejsie.prompt": {
+    "en": "If it were warmer, we'd sleep outside.",
+    "t": "Если бы было теплее, мы бы спали на улице."
+  },
+  "a2-u8-l12.build-keby-bolo-teplejsie.traps": {
+    "en": [
+      "Keby takes the past form, and weather takes **-lo**: keby **bolo** teplejšie.",
+      "The result is imagined, so it's conditional: **spali** by sme."
+    ],
+    "t": [
+      "Keby требует прошедшего времени, а погода — на **-lo**: keby **bolo** teplejšie — «если бы было теплее».",
+      "Результат воображаемый, поэтому условное наклонение: **spali** by sme — «мы бы спали»."
+    ]
+  },
+  "a2-u8-l12.fill-ak-bude-zajtra.en": {
+    "en": "If it's nice tomorrow, we'll go on a trip.",
+    "t": "Если завтра будет хорошая погода, поедем за город."
+  },
+  "a2-u8-l12.fill-ak-bude-zajtra.why": {
+    "en": "Pôjdeme is a real future, so the condition is real too: ak **bude**. Ak by bolo would need išli by sme.",
+    "t": "Pôjdeme — реальное будущее, значит, и условие реальное: ak **bude**. А с ak by bolo во второй части нужно было бы išli by sme."
+  },
+  "a2-u8-l12.fill-co-by-si.en": {
+    "en": "What would you do if there were a storm?",
+    "t": "Что бы ты делала, если бы была гроза?"
+  },
+  "a2-u8-l12.fill-co-by-si.why": {
+    "en": "Keby takes the past form, and búrka is feminine: keby **bola** búrka.",
+    "t": "Keby требует прошедшего времени, а búrka — женского рода: keby **bola** búrka — «если бы была гроза»."
+  },
+  "a2-u8-l12.choice-keby-som-nemusel.question": {
+    "en": "Marek has to work on Friday, so he can't come. What does he say?",
+    "t": "Мареку в пятницу нужно работать, поэтому он не сможет пойти. Что он скажет?"
+  },
+  "a2-u8-l12.choice-keby-som-nemusel.why": {
+    "en": "He does have to work, so it's imagined: **keby** + the past form (nemusel), and **by** in the result: išiel **by som**.",
+    "t": "Работать ему действительно надо, значит, это воображаемое: **keby** + прошедшее время (nemusel) и **by** в результате: išiel **by som** — «если бы мне не надо было работать, я бы пошёл»."
+  },
+  "a2-u8-l12.speak-keby-neprsalo-boli.en": {
+    "en": "If it weren't raining, we'd be outside.",
+    "t": "Если бы не шёл дождь, мы были бы на улице."
+  },
+  "a2-u8-l13.titleEn": {
+    "en": "Messages from the festival",
+    "t": "Сообщения с фестиваля"
+  },
+  "a2-u8-l13.prispevok.en": {
+    "en": "post",
+    "t": "пост"
+  },
+  "a2-u8-l13.prispevok.note": {
+    "en": "On a **sociálna sieť** (social network) you write a príspevok. To add a photo (a **fotka**): **pridať fotku**. Under it: **Páči sa mi to.**",
+    "t": "В соцсети (**sociálna sieť**) пишут príspevok. Добавить фото (**fotka**, как наша «фотка»): **pridať fotku**. Под постом: **Páči sa mi to.** (Нравится.)"
+  },
+  "a2-u8-l13.esemeska.question": {
+    "en": "Emma wants to send her mum a short message from her phone. What is it called?",
+    "t": "Эмма хочет отправить маме короткое сообщение с телефона. Как оно называется?"
+  },
+  "a2-u8-l13.build-napisem-mame-esemesku.prompt": {
+    "en": "I'll send Mum a text.",
+    "t": "Я напишу маме эсэмэску."
+  },
+  "a2-u8-l13.build-napisem-mame-esemesku.traps": {
+    "en": [
+      "The text is what you write, the object, so esemeska changes -a to **-u**: napíšem **esemesku**.",
+      "You write **to** someone, so mama takes the to-whom form (the dative): napíšem **mame**."
+    ],
+    "t": [
+      "Эсэмэска — то, что пишут, дополнение, поэтому esemeska меняет -a на **-u**: napíšem **esemesku** — «эсэмэску».",
+      "Пишут **кому-то**, поэтому mama в дательном (кому?), как и у нас: napíšem **mame** — «маме»."
+    ]
+  },
+  "a2-u8-l13.build-mami-prsi-ale.prompt": {
+    "en": "Mum, it's raining, but we're fine!",
+    "t": "Мам, идёт дождь, но у нас всё хорошо!"
+  },
+  "a2-u8-l13.build-mami-prsi-ale.traps": {
+    "en": [
+      "Writing to your mum directly, mama becomes **mami**.",
+      "Fine is **dobre**: máme sa dobre. Zle means badly."
+    ],
+    "t": [
+      "Когда обращаются к маме, mama меняется на **mami**, как наше «мам!».",
+      "«Всё хорошо» — **dobre**: máme sa dobre. Zle — «плохо»."
+    ]
+  },
+  "a2-u8-l13.build-lucia-pridala-fotky.answers": {
+    "en": [
+      "Lucia added photos from the festival.",
+      "Lucia posted photos from the festival."
+    ],
+    "t": [
+      "Луция выложила фотки с фестиваля.",
+      "Луция выложила фото с фестиваля.",
+      "Луция добавила фотки с фестиваля.",
+      "Луция добавила фото с фестиваля."
+    ]
+  },
+  "a2-u8-l13.build-lucia-pridala-fotky.distractors": {
+    "en": [
+      "video",
+      "concert"
+    ],
+    "t": [
+      "видео",
+      "концерта"
+    ]
+  },
+  "a2-u8-l13.nuda.en": {
+    "en": "boredom",
+    "t": "скука"
+  },
+  "a2-u8-l13.nuda.note": {
+    "en": "**To je nuda!** = It's so boring! Stronger: **Nenávidím dážď!** = I hate rain! (**nenávidieť** = to hate)",
+    "t": "**To je nuda!** = Какая скука! Сильнее: **Nenávidím dážď!** = Ненавижу дождь! (**nenávidieť** = ненавидеть)"
+  },
+  "a2-u8-l13.choice-to-je-nuda.question": {
+    "en": "It has rained all morning, and Lucia is bored. What does she say?",
+    "t": "Всё утро шёл дождь, и Луции скучно. Что она скажет?"
+  },
+  "a2-u8-l13.kocka-a-figurka.en": {
+    "en": "dice and counter",
+    "t": "кубик и фишка"
+  },
+  "a2-u8-l13.kocka-a-figurka.note": {
+    "en": "In the tent they play a board game, a **hra**: **Hoď kockou!** = Throw the dice! A square is a **políčko**, a six a **šestka**. To win: **vyhrať**.",
+    "t": "В палатке играют в настольную игру — **hra**: **Hoď kockou!** = Бросай кубик! Клетка на поле — **políčko**, шестёрка — **šestka**. Выиграть — **vyhrať**."
+  },
+  "a2-u8-l13.fill-teraz-ty-emma.en": {
+    "en": "Your turn, Emma. Throw the dice!",
+    "t": "Твой ход, Эмма. Бросай кубик!"
+  },
+  "a2-u8-l13.fill-teraz-ty-emma.why": {
+    "en": "Slovak throws dice **with** something: the instrumental, so kocka changes -a to **-ou**: hoď **kockou**.",
+    "t": "По-словацки бросают «чем?» — кубиком, творительный падеж, поэтому kocka меняет -a на **-ou**: hoď **kockou**."
+  },
+  "a2-u8-l13.build-ak-hodis-sestku.prompt": {
+    "en": "If you throw a six, you'll win.",
+    "t": "Если выбросишь шестёрку, выиграешь."
+  },
+  "a2-u8-l13.build-ak-hodis-sestku.traps": {
+    "en": [
+      "It's about you (ty) and the future: **vyhráš**, a perfective present, means you'll win. Vyhrala is the past.",
+      "The six is what you throw, the object, so šestka changes -a to **-u**: hodíš **šestku**."
+    ],
+    "t": [
+      "Речь о тебе (ty) и о будущем: **vyhráš** — совершенный вид, значит «выиграешь». Vyhrala — прошедшее время.",
+      "Шестёрка — то, что бросают, дополнение, поэтому šestka меняет -a на **-u**: hodíš **šestku**."
+    ]
+  },
+  "a2-u8-l13.build-sme-v-stane.prompt": {
+    "en": "We're in the tent, playing a game.",
+    "t": "Мы в палатке и играем в игру."
+  },
+  "a2-u8-l13.build-sme-v-stane.traps": {
+    "en": [
+      "In the tent answers “where?”, so **v** takes the locative: v **stane**.",
+      "We (my) are playing: **hráme**, with -me. Hrajú is oni."
+    ],
+    "t": [
+      "«В палатке» отвечает на вопрос «где?», поэтому **v** + предложный: v **stane**.",
+      "Играем мы (my): **hráme**, на -me. Hrajú — для oni."
+    ]
+  },
+  "a2-u8-l13.naspamat.en": {
+    "en": "by heart",
+    "t": "наизусть"
+  },
+  "a2-u8-l13.naspamat.note": {
+    "en": "Emma's phone has died. **Neviem Luciino číslo naspamäť.** = I don't know Lucia's number by heart. The contacts list in a phone is the **adresár**.",
+    "t": "У Эммы сел телефон. **Neviem Luciino číslo naspamäť.** = Я не помню номер Луции наизусть (дословно «не знаю»). Список контактов в телефоне — **adresár**."
+  },
+  "a2-u8-l13.choice-prepacte-mohli-by.question": {
+    "en": "Emma asks a stranger at the information tent to lend her a phone. What does she say?",
+    "t": "Эмма просит незнакомого человека в информационной палатке одолжить ей телефон. Что она скажет?"
+  },
+  "a2-u8-l13.choice-prepacte-mohli-by.why": {
+    "en": "To a stranger, **vy** and the polite conditional: mohli by **ste** mi požičať…? Mohol by si is for a friend, and vám požičať would be Emma lending hers.",
+    "t": "К незнакомому человеку — на **vy** и в вежливом условном наклонении: mohli by **ste** mi požičať…? — «не могли бы вы одолжить мне…?» Mohol by si — для друга, а vám požičať значило бы, что телефон одалживает Эмма."
+  },
+  "a2-u8-l13.build-neviem-jej-cislo.prompt": {
+    "en": "I don't know her number by heart.",
+    "t": "Я не помню её номер наизусть."
+  },
+  "a2-u8-l13.build-neviem-jej-cislo.traps": {
+    "en": [
+      "I (ja) don't know: **neviem**, with -m. Nevie is on or ona.",
+      "Her is **jej**; jeho means his."
+    ],
+    "t": [
+      "Не знаю я (ja): **neviem**, с -m. Nevie — для on или ona.",
+      "«Её» — **jej**; jeho — «его»."
+    ]
+  },
+  "a2-u8-l13.fill-jej-cislo-mam.en": {
+    "en": "I've got her number in my contacts.",
+    "t": "Её номер у меня в контактах."
+  },
+  "a2-u8-l13.fill-jej-cislo-mam.why": {
+    "en": "In something answers “where?”, so **v** takes the locative, and adresár takes **-i**, like hotel → v hoteli.",
+    "t": "«В чём?» — это вопрос «где?», поэтому **v** + предложный, а adresár получает **-i**, как hotel → v hoteli."
+  },
+  "a2-u8-l13.match-esemeska.pairs": {
+    "en": [
+      "text message",
+      "post",
+      "photo",
+      "dice",
+      "boredom"
+    ],
+    "t": [
+      "эсэмэска",
+      "пост",
+      "фото",
+      "кубик",
+      "скука"
+    ]
+  },
+  "a2-u8-l13.speak-napisem-ti-esemesku.en": {
+    "en": "I'll text you.",
+    "t": "Я напишу тебе эсэмэску."
+  },
+  "a2-u8-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Письменная практика"
+  },
+  "a2-u8-pisanie.listen-budeme-spat-v.en": {
+    "en": "We'll sleep in a tent by the lake.",
+    "t": "Мы будем спать в палатке у озера."
+  },
+  "a2-u8-pisanie.listen-zober-si-dazdnik.en": {
+    "en": "Take an umbrella and a raincoat!",
+    "t": "Возьми зонт и дождевик!"
+  },
+  "a2-u8-pisanie.listen-zajtra-bude-prsat.en": {
+    "en": "Tomorrow it will rain and a strong wind will blow.",
+    "t": "Завтра будет дождь и сильный ветер."
+  },
+  "a2-u8-pisanie.listen-v-noci-hrmelo.en": {
+    "en": "In the night there was thunder and lightning.",
+    "t": "Ночью гремел гром и сверкала молния."
+  },
+  "a2-u8-pisanie.listen-koncert-zrusili-pre.en": {
+    "en": "The concert was cancelled because of the storm.",
+    "t": "Концерт отменили из-за грозы."
+  },
+  "a2-u8-pisanie.listen-obuj-si-cizmy.en": {
+    "en": "Put your boots on, it's raining outside.",
+    "t": "Обуй сапоги, на улице дождь."
+  },
+  "a2-u8-pisanie.listen-ak-bude-pekne.en": {
+    "en": "If it's nice, we'll go on a trip.",
+    "t": "Если будет хорошая погода, поедем за город."
+  },
+  "a2-u8-pisanie.listen-keby-bolo-teplejsie.en": {
+    "en": "If it were warmer, we'd sleep outside.",
+    "t": "Если бы было теплее, мы бы спали на улице."
+  },
+  "a2-u8-l14.titleEn": {
+    "en": "Review",
+    "t": "Повторение"
+  },
+  "a2-u8-l14.match-burka.pairs": {
+    "en": [
+      "storm",
+      "wind",
+      "weather forecast",
+      "temperature",
+      "umbrella"
+    ],
+    "t": [
+      "гроза",
+      "ветер",
+      "прогноз погоды",
+      "температура",
+      "зонт"
+    ]
+  },
+  "a2-u8-l14.fill-vcera-cely-den.en": {
+    "en": "It rained all day yesterday.",
+    "t": "Вчера весь день шёл дождь."
+  },
+  "a2-u8-l14.fill-vcera-cely-den.why": {
+    "en": "**Včera** is the past, and weather verbs end in **-lo** there: **pršalo**.",
+    "t": "**Včera** — это прошлое, а в прошлом погодные глаголы оканчиваются на **-lo**: **pršalo**."
+  },
+  "a2-u8-l14.build-oblec-si-sveter.prompt": {
+    "en": "Put on a jumper, it'll be chilly at night.",
+    "t": "Надень свитер, ночью будет прохладно."
+  },
+  "a2-u8-l14.build-oblec-si-sveter.traps": {
+    "en": [
+      "A jumper is clothing, so **obleč** si. Obuj si is for shoes.",
+      "The night is still to come: v noci **bude** chladno. Je is now."
+    ],
+    "t": [
+      "Свитер — одежда, поэтому **obleč** si. Obuj si — для обуви.",
+      "Ночь ещё впереди: v noci **bude** chladno. Je — это сейчас."
+    ]
+  },
+  "a2-u8-l14.choice-ak-bude-zajtra.question": {
+    "en": "Which one means “If it's nice tomorrow, we'll go on a trip”?",
+    "t": "Какое предложение значит «Если завтра будет хорошая погода, поедем за город»?"
+  },
+  "a2-u8-l14.choice-ak-bude-zajtra.why": {
+    "en": "A real plan for the future: **ak** + the future, **pôjdeme**. The keby sentence only imagines it (we would go), and the one with včera is about yesterday.",
+    "t": "Реальный план на будущее: **ak** + будущее время, **pôjdeme**. Предложение с keby только воображает («поехали бы»), а предложение с včera — про вчера."
+  },
+  "a2-u8-l14.fill-koncert-zrusili-pre.en": {
+    "en": "The concert was cancelled because of the storm.",
+    "t": "Концерт отменили из-за грозы."
+  },
+  "a2-u8-l14.fill-koncert-zrusili-pre.why": {
+    "en": "**Pre** takes the object form, so búrka changes -a to **-u**: pre **búrku**.",
+    "t": "**Pre** требует винительного, поэтому búrka меняет -a на **-u**: pre **búrku**."
+  },
+  "a2-u8-l14.build-mala-by-som.prompt": {
+    "en": "I should take a raincoat.",
+    "t": "Мне надо бы взять дождевик."
+  },
+  "a2-u8-l14.build-mala-by-som.traps": {
+    "en": [
+      "**Zobrať si** takes si, with the thing you take after it: si zobrať pršiplášť.",
+      "Should is mať + **by**: mala **by** som. Budem is the future."
+    ],
+    "t": [
+      "**Zobrať si** — с si, а после него то, что берёте: si zobrať pršiplášť.",
+      "«Надо бы» — это mať + **by**: mala **by** som. Budem — будущее время."
+    ]
+  },
+  "a2-u8-l14.fill-keby-nefukal-vietor.en": {
+    "en": "If the wind weren't blowing, we'd be by the lake.",
+    "t": "Если бы не дул ветер, мы были бы у озера."
+  },
+  "a2-u8-l14.fill-keby-nefukal-vietor.why": {
+    "en": "Keby takes the past form, and here the wind is the subject (on): keby **nefúkal** vietor. Nefúkalo would have no subject.",
+    "t": "Keby требует прошедшего времени, а здесь ветер — подлежащее (on): keby **nefúkal** vietor. У nefúkalo подлежащего бы не было."
+  },
+  "a2-u8-l14.build-na-vychode-bude.answers": {
+    "en": [
+      "In the east it will be partly cloudy and warmer.",
+      "It will be partly cloudy and warmer in the east."
+    ],
+    "t": [
+      "На востоке будет облачно с прояснениями и теплее.",
+      "На востоке будет теплее, облачно с прояснениями."
+    ]
+  },
+  "a2-u8-l14.build-na-vychode-bude.distractors": {
+    "en": [
+      "west",
+      "cooler"
+    ],
+    "t": [
+      "западе",
+      "холоднее"
+    ]
+  },
+  "a2-u8-l14.choice-co-keby-sme.question": {
+    "en": "You'd like to suggest the jazz night to your friends. What do you say?",
+    "t": "Вы хотите предложить друзьям сходить на джазовую ночь. Что вы скажете?"
+  },
+  "a2-u8-l14.choice-co-keby-sme.why": {
+    "en": "A suggestion is **Čo keby sme** + the past form: čo keby sme išli…? Without keby it asks about the past, and keby alone isn't a question.",
+    "t": "Предложение — это **Čo keby sme** + форма прошедшего времени: čo keby sme išli…? («может, сходим…?»). Без keby это вопрос о прошлом, а одно keby — не вопрос."
+  },
+  "a2-u8-l14.fill-obuj-si.en": {
+    "en": "It's raining outside. Put your boots on!",
+    "t": "На улице дождь. Обуй сапоги!"
+  },
+  "a2-u8-l14.fill-obuj-si.why": {
+    "en": "**Obuť si** is only for shoes, so: obuj si **čižmy**. Šaty and šortky go on with obliecť si.",
+    "t": "**Obuť si** — только про обувь: obuj si **čižmy**. Šaty и šortky надевают с obliecť si."
+  },
+  "a2-u8-l14.fill-rockova-kapela-a.en": {
+    "en": "On the poster there's a rock band and a jazz concert.",
+    "t": "На афише — рок-группа и джазовый концерт."
+  },
+  "a2-u8-l14.fill-rockova-kapela-a.why": {
+    "en": "Koncert is masculine, so the adjective made from džez ends in **-ý**: **džezový** koncert.",
+    "t": "Koncert — мужского рода, поэтому прилагательное от džez оканчивается на **-ý**: **džezový** koncert."
+  },
+  "a2-u8-l14.build-emma-pozicia-lucii.prompt": {
+    "en": "Emma will lend Lucia an umbrella.",
+    "t": "Эмма одолжит Луции зонт."
+  },
+  "a2-u8-l14.build-emma-pozicia-lucii.traps": {
+    "en": [
+      "You lend something **to** someone: the to-whom form (the dative), Lucia → **Lucii**.",
+      "It's still to come: **požičia** = will lend. Požičala is the past."
+    ],
+    "t": [
+      "Одалживают **кому-то**: дательный (кому?), Lucia → **Lucii** — «Луции».",
+      "Это ещё впереди: **požičia** = одолжит. Požičala — прошедшее время."
+    ]
+  },
+  "a2-u8-l14.fill-toto-je-tomasov.en": {
+    "en": "This is Tomáš's tent. Marek sleeps in it too.",
+    "t": "Это палатка Томаша. В ней спит и Марек."
+  },
+  "a2-u8-l14.fill-toto-je-tomasov.why": {
+    "en": "Stan is masculine, so “in it” is v **ňom**, the locative of on. V nej is for feminine words.",
+    "t": "Stan — мужского рода (хотя «палатка» у нас женского), поэтому «в ней» по-словацки — v **ňom**, предложный от on. V nej — для женского рода."
+  },
+  "a2-u8-l14.build-tomas-meska-zavolam.prompt": {
+    "en": "Tomáš is late. I'll call him.",
+    "t": "Томаш опаздывает. Я ему позвоню."
+  },
+  "a2-u8-l14.build-tomas-meska-zavolam.traps": {
+    "en": [
+      "Phoning someone, **zavolať** takes the to-whom form: **mu** (to him), as in Zavolám ti. Ho is the object form.",
+      "Him is **mu**; ti is you."
+    ],
+    "t": [
+      "**Zavolať**, как и «позвонить», требует дательного (кому?): **mu** — «ему», как в Zavolám ti. Ho — это «его».",
+      "«Ему» — **mu**; ti — «тебе»."
+    ]
+  },
+  "a2-u8-l14.build-vraj-zrusili-aj.answers": {
+    "en": [
+      "Apparently they've cancelled the evening concert too.",
+      "Apparently they cancelled the evening concert too."
+    ],
+    "t": [
+      "Говорят, вечерний концерт тоже отменили.",
+      "Говорят, отменили и вечерний концерт.",
+      "Вечерний концерт, говорят, тоже отменили."
+    ]
+  },
+  "a2-u8-l14.build-vraj-zrusili-aj.distractors": {
+    "en": [
+      "definitely",
+      "morning"
+    ],
+    "t": [
+      "точно",
+      "утренний"
+    ]
+  },
+  "a2-u8-l14.speak-ak-bude-prsat.en": {
+    "en": "If it rains, we'll stay in the tent.",
+    "t": "Если будет дождь, мы останемся в палатке."
+  }
+}

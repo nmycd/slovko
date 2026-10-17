@@ -1,0 +1,5157 @@
+{
+  "a2-u5.titleEn": {
+    "en": "At the doctor's",
+    "t": "ექიმთან"
+  },
+  "a2-u5.topics": {
+    "en": [
+      "Feeling ill: a cold and its symptoms",
+      "At the doctor's surgery",
+      "At the pharmacy",
+      "An accident and the hospital",
+      "The body and the face",
+      "Looks",
+      "Specialists"
+    ],
+    "t": [
+      "ცუდად ყოფნა: გაციება და მისი ნიშნები",
+      "ექიმის კაბინეტში",
+      "აფთიაქში",
+      "უბედური შემთხვევა და საავადმყოფო",
+      "სხეული და სახე",
+      "გარეგნობა",
+      "ექიმი-სპეციალისტები"
+    ]
+  },
+  "a2-u5.grammar": {
+    "en": [
+      "Bolí or bolia; adjectives from nouns (-ný, -ský)",
+      "The genitive singular of nouns",
+      "Adjectives, ten and possessives in the genitive; whose",
+      "The genitive plural",
+      "Quantities and numbers with the genitive",
+      "Prepositions with the genitive",
+      "Pronouns in the genitive; báť sa, opýtať sa"
+    ],
+    "t": [
+      "Bolí თუ bolia; ზედსართავები არსებითი სახელებიდან (-ný, -ský)",
+      "არსებითი სახელების genitív მხოლობითში",
+      "ზედსართავები, ten და კუთვნილებითი ნაცვალსახელები genitív-ში; ვისი?",
+      "genitív მრავლობითში",
+      "რაოდენობა და რიცხვები + genitív",
+      "წინდებულები + genitív",
+      "ნაცვალსახელები genitív-ში; báť sa, opýtať sa"
+    ]
+  },
+  "a2-u5-l1.titleEn": {
+    "en": "I don't feel well",
+    "t": "თავს კარგად არ ვგრძნობ"
+  },
+  "a2-u5-l1.nemas-chut-ist-zajtra.en": {
+    "en": "Do you fancy going skating tomorrow?",
+    "t": "ხვალ ციგურაობაზე წასვლა ხომ არ გინდა?"
+  },
+  "a2-u5-l1.nemas-chut-ist-zajtra.note": {
+    "en": "You know **Máš chuť…?** from unit 2; with **ne-** it's a gentler invitation. After ísť, korčuľovať sa often drops its sa: ísť korčuľovať. To someone you call vy: **Nemáte chuť**…?",
+    "t": "**Máš chuť…?** მე-2 თავიდან იცით; **ne-**-თი მიპატიჟება უფრო რბილად ჟღერს, როგორც ქართული „ხომ არ გინდა…?“. ísť-ის შემდეგ korčuľovať sa ხშირად კარგავს sa-ს: ísť korčuľovať. ვისაც vy-თი (თქვენობით) მიმართავთ: **Nemáte chuť**…?"
+  },
+  "a2-u5-l1.choice-prosim-ahoj-emma.question": {
+    "en": "Emma's phone rings. What does Tomáš want?",
+    "t": "ემას ტელეფონი რეკავს. რა უნდა ტომაშს?"
+  },
+  "a2-u5-l1.choice-prosim-ahoj-emma.options": {
+    "en": [
+      "To go skating with her tomorrow.",
+      "To go to the cinema tomorrow.",
+      "To know how she is."
+    ],
+    "t": [
+      "ხვალ მასთან ერთად ციგურაობაზე წასვლა.",
+      "ხვალ კინოში წასვლა.",
+      "იმის გაგება, როგორ არის ემა."
+    ]
+  },
+  "a2-u5-l1.choice-ako-zdvihnut-telefon.question": {
+    "en": "Your phone rings. How can you answer it?",
+    "t": "ტელეფონი რეკავს. როგორ უპასუხებთ?"
+  },
+  "a2-u5-l1.choice-ako-zdvihnut-telefon.why": {
+    "en": "**Prosím?** is the usual way to answer the phone, like Haló? Nech sa páči is for handing something over.",
+    "t": "**Prosím?** ტელეფონზე პასუხის ჩვეულებრივი ფორმაა, როგორც ქართული „დიახ?“ ან „ალო?“. Nech sa páči რამის მიწოდებისას ითქმის (ინებეთ)."
+  },
+  "a2-u5-l1.ako-sa-citis.en": {
+    "en": "How are you feeling?",
+    "t": "როგორ გრძნობ თავს?"
+  },
+  "a2-u5-l1.ako-sa-citis.note": {
+    "en": "**cítiť sa** = to feel, as in Necítim sa dobre; a short answer is dobre or zle. To someone you call vy: **Ako sa cítite?**",
+    "t": "**cítiť sa** = თავის გრძნობა, როგორც Necítim sa dobre-ში; მოკლე პასუხია dobre (კარგად) ან zle (ცუდად). ვისაც vy-თი მიმართავთ: **Ako sa cítite?**"
+  },
+  "a2-u5-l1.fill-ako-sa-citite-pani.en": {
+    "en": "How are you feeling, Mrs Horváthová?",
+    "t": "როგორ გრძნობთ თავს, ქალბატონო ჰორვატოვა?"
+  },
+  "a2-u5-l1.fill-ako-sa-citite-pani.why": {
+    "en": "Emma calls her teacher **vy**, so the verb ends in **-te**: Ako sa **cítite**? Cítiš is for a friend, cíti for on or ona.",
+    "t": "ემა მასწავლებელს **vy**-თი მიმართავს, ამიტომ ზმნა **-te**-ზე ბოლოვდება: Ako sa **cítite**? Cítiš მეგობრისთვისაა, cíti — on-ისა და ona-სთვის."
+  },
+  "a2-u5-l1.prechladla-som.en": {
+    "en": "I've caught a cold. (a woman speaking)",
+    "t": "გავცივდი. (ამბობს ქალი)"
+  },
+  "a2-u5-l1.prechladla-som.note": {
+    "en": "**prechladnúť** = to catch a cold. Like stretnúť, it swaps -núť for -ol, -la in the past.",
+    "t": "**prechladnúť** = გაცივება. stretnúť-ის მსგავსად, წარსულში -núť-ს -ol, -la ცვლის: prechladol, prechladla."
+  },
+  "a2-u5-l1.mam-nadchu.en": {
+    "en": "I've got a runny nose.",
+    "t": "სურდო მაქვს."
+  },
+  "a2-u5-l1.mam-nadchu.note": {
+    "en": "**nádcha** is a cold in the nose. Like horúčka, it's what you have, the object, so -a changes to -u: mám nádch**u**.",
+    "t": "**nádcha** ცხვირის გაციებაა, სურდო. horúčka-ს მსგავსად, ეს ის არის, რაც გაქვთ, ანუ ობიექტი, ამიტომ -a იცვლება -u-თი: mám nádch**u**."
+  },
+  "a2-u5-l1.kaslem.en": {
+    "en": "I've got a cough.",
+    "t": "ვახველებ."
+  },
+  "a2-u5-l1.kaslem.note": {
+    "en": "**kašľať** = to cough: kašlem, kašleš, kašle… The cough itself is **kašeľ**.",
+    "t": "**kašľať** = ხველება: kašlem, kašleš, kašle… თავად ხველა არის **kašeľ**."
+  },
+  "a2-u5-l1.match-kaslem.pairs": {
+    "en": [
+      "I've got a cough.",
+      "I've got a runny nose.",
+      "I've got a sore throat.",
+      "I've got a temperature.",
+      "I've caught a cold."
+    ],
+    "t": [
+      "ვახველებ.",
+      "სურდო მაქვს.",
+      "ყელი მტკივა.",
+      "სიცხე მაქვს.",
+      "გავცივდი."
+    ]
+  },
+  "a2-u5-l1.fill-emma-kasle-a-ma.en": {
+    "en": "Emma has a cough and a runny nose.",
+    "t": "ემა ახველებს და სურდო აქვს."
+  },
+  "a2-u5-l1.fill-emma-kasle-a-ma.why": {
+    "en": "The cold is what Emma has, the object of **má**, so nádcha changes -a to **-u**: má **nádchu**.",
+    "t": "სურდო ის არის, რაც ემას აქვს, ანუ **má**-ს ობიექტი, ამიტომ nádcha -a-ს **-u**-თი ცვლის: má **nádchu**."
+  },
+  "a2-u5-l1.build-dakujem-za-pozvanie.prompt": {
+    "en": "Thanks for the invitation, but I don't feel well.",
+    "t": "მადლობა მოპატიჟებისთვის, მაგრამ თავს კარგად არ ვგრძნობ."
+  },
+  "a2-u5-l1.build-dakujem-za-pozvanie.traps": {
+    "en": [
+      "**Cítiť sa** always comes with **sa**: necítim **sa** dobre.",
+      "You're talking about yourself (ja), and saying not: ne- + cítim = **necítim**. Cíti is on or ona."
+    ],
+    "t": [
+      "**Cítiť sa** ყოველთვის **sa**-თი მოდის: necítim **sa** dobre.",
+      "საკუთარ თავზე ლაპარაკობთ (ja) და უარყოფთ: ne- + cítim = **necítim**. Cíti on-ის ან ona-ს ფორმაა."
+    ]
+  },
+  "a2-u5-l1.pozdrav-luciu-pozdravim.en": {
+    "en": "Say hello to Lucia (from me)! – I will.",
+    "t": "ლუციას მოკითხვა გადაეცი! – გადავცემ."
+  },
+  "a2-u5-l1.pozdrav-luciu-pozdravim.note": {
+    "en": "**Pozdrav**… (from pozdraviť, to greet) asks a friend to pass on your greetings, and **Pozdravím** promises to. To someone you call vy: **Pozdravte**…!",
+    "t": "**Pozdrav**… (pozdraviť-დან, მისალმება) მეგობარს სთხოვს, რომ თქვენი მოკითხვა გადასცეს, **Pozdravím** კი დაპირებაა, რომ გადასცემს. ვისაც vy-თი მიმართავთ: **Pozdravte**…!"
+  },
+  "a2-u5-l1.fill-pozdrav-mareka.en": {
+    "en": "Say hello to Marek! — I will.",
+    "t": "მარეკს მოკითხვა გადაეცი! — გადავცემ."
+  },
+  "a2-u5-l1.fill-pozdrav-mareka.why": {
+    "en": "You promise to pass the greeting on, so it's the ja form: **Pozdravím** (I'll greet him). Pozdrav is the request itself.",
+    "t": "გპირდებით, რომ მოკითხვას გადასცემთ, ამიტომ ja-ს ფორმაა: **Pozdravím** (მოვიკითხავ). Pozdrav თავად თხოვნაა."
+  },
+  "a2-u5-l1.listen-kaslem-a-boli.en": {
+    "en": "I've got a cough and a sore throat.",
+    "t": "ვახველებ და ყელი მტკივა."
+  },
+  "a2-u5-l1.speak-necitim-sa-dobre-mam.en": {
+    "en": "I don't feel well, I've got a runny nose.",
+    "t": "თავს კარგად არ ვგრძნობ, სურდო მაქვს."
+  },
+  "a2-u5-l1.build-tomas-ide-zajtra.answers": {
+    "en": [
+      "Tomáš is going skating with Lucia tomorrow.",
+      "Tomorrow Tomáš is going skating with Lucia."
+    ],
+    "t": [
+      "ტომაში ხვალ ლუციასთან ერთად ციგურაობაზე მიდის.",
+      "ხვალ ტომაში ლუციასთან ერთად ციგურაობაზე მიდის.",
+      "ტომაში ხვალ ციგურაობაზე ლუციასთან ერთად მიდის."
+    ]
+  },
+  "a2-u5-l1.build-tomas-ide-zajtra.distractors": {
+    "en": [
+      "skiing",
+      "Sunday"
+    ],
+    "t": [
+      "კვირას",
+      "მიდიან"
+    ]
+  },
+  "a2-u5-l2.titleEn": {
+    "en": "You look ill",
+    "t": "ცუდად გამოიყურები"
+  },
+  "a2-u5-l2.vyzeras-zle.en": {
+    "en": "You look ill.",
+    "t": "ცუდად გამოიყურები."
+  },
+  "a2-u5-l2.vyzeras-zle.note": {
+    "en": "You know **vyzerať** from Ako vyzerá? (unit 3); with dobre or zle it says how someone looks today. Vyzeráš dobre! = You look well! To someone you call vy: Vyzeráte zle.",
+    "t": "**vyzerať** Ako vyzerá?-დან იცით (მე-3 თავი); dobre-სთან ან zle-სთან ერთად ის ამბობს, როგორ გამოიყურება ვინმე დღეს. Vyzeráš dobre! = კარგად გამოიყურები! ვისაც vy-თი მიმართავთ: Vyzeráte zle."
+  },
+  "a2-u5-l2.si-bleda.en": {
+    "en": "You're pale. (to a woman)",
+    "t": "ფერმკრთალი ხარ. (ქალს, შენ)"
+  },
+  "a2-u5-l2.fill-marek-si-velmi.en": {
+    "en": "Marek, you're very pale.",
+    "t": "მარეკ, ძალიან ფერმკრთალი ხარ."
+  },
+  "a2-u5-l2.fill-marek-si-velmi.why": {
+    "en": "Marek is a man, so the adjective takes the masculine **-ý**: bled**ý**. Bledá is for a woman.",
+    "t": "მარეკი კაცია, ამიტომ ზედსართავი მამრობით **-ý**-ს იღებს: bled**ý**. Bledá ქალზე ითქმის."
+  },
+  "a2-u5-l2.teplota.en": {
+    "en": "temperature",
+    "t": "ტემპერატურა"
+  },
+  "a2-u5-l2.teplota.note": {
+    "en": "Akú máš teplotu? — Tridsaťosem stupňov. = What's your temperature? — 38 degrees. Over 38 it's **horúčka**, a fever; a **teplomer** is a thermometer.",
+    "t": "Akú máš teplotu? — Tridsaťosem stupňov. = რა ტემპერატურა გაქვს? — ოცდათვრამეტი გრადუსი. 38-ზე მეტი უკვე **horúčka**-ა, სიცხე; **teplomer** თერმომეტრია."
+  },
+  "a2-u5-l2.choice-mam-teplotu.question": {
+    "en": "Emma looks at the thermometer. What does she say?",
+    "t": "ემა თერმომეტრს უყურებს. რას ამბობს?"
+  },
+  "a2-u5-l2.choice-mam-teplotu.options": {
+    "en": [
+      "It's 38 degrees in the room.",
+      "I've got a temperature of 38.",
+      "I'm 38."
+    ],
+    "t": [
+      "ოთახში 38 გრადუსია.",
+      "38 გრადუსი ტემპერატურა მაქვს.",
+      "38 წლის ვარ."
+    ]
+  },
+  "a2-u5-l2.mala-by-si-ist.en": {
+    "en": "You should go to the doctor. (to a woman)",
+    "t": "ექიმთან უნდა მიხვიდე. (ქალს, შენ)"
+  },
+  "a2-u5-l2.mala-by-si-ist.note": {
+    "en": "Advice with **mal by si**, as in unit 4. **k lekárke** = to the (woman) doctor; to a man doctor, k lekárovi.",
+    "t": "რჩევა **mal by si**-ით, როგორც მე-4 თავში. **k lekárke** = ექიმთან, როცა ექიმი ქალია; თუ ექიმი კაცია — k lekárovi."
+  },
+  "a2-u5-l2.med.en": {
+    "en": "honey",
+    "t": "თაფლი"
+  },
+  "a2-u5-l2.med.note": {
+    "en": "**Uvarím ti** čaj s medom a citrónom. = I'll make you tea with honey and lemon. Lucia's grandmother (**babka**) says it always helps: vždy **pomáha**.",
+    "t": "**Uvarím ti** čaj s medom a citrónom. = თაფლით და ლიმონით ჩაის გაგიკეთებ. ლუციას ბებია (**babka**) ამბობს, რომ ეს ყოველთვის შველის: vždy **pomáha**."
+  },
+  "a2-u5-l2.build-uvarim-ti-caj.prompt": {
+    "en": "I'll make you tea with honey.",
+    "t": "თაფლიან ჩაის გაგიკეთებ."
+  },
+  "a2-u5-l2.build-uvarim-ti-caj.traps": {
+    "en": [
+      "After **s** (with), the noun takes the “with” form: med → s **medom**.",
+      "The tea is for you (ty), so it's **ti**: uvarím **ti** čaj. Mi would be for me."
+    ],
+    "t": [
+      "**s**-ის („-ით“, „-თან ერთად“) შემდეგ არსებითი სახელი „-ით“ ფორმას იღებს: med → s **medom**, როგორც ქართულში: თაფლით.",
+      "ჩაი შენთვისაა (ty), ამიტომ **ti**: uvarím **ti** čaj. Mi ნიშნავს „ჩემთვის“."
+    ]
+  },
+  "a2-u5-l2.rada-ti-pomozem.en": {
+    "en": "I'm happy to help you. (a woman speaking)",
+    "t": "სიამოვნებით დაგეხმარები. (ამბობს ქალი)"
+  },
+  "a2-u5-l2.rada-ti-pomozem.note": {
+    "en": "Rád, rada + a verb, as in Rada prídem! (unit 3). **pomôcť** points to the future: pomôžem = I'll help.",
+    "t": "Rád, rada + ზმნა, როგორც Rada prídem!-ში (მე-3 თავი). **pomôcť** მომავალზე მიუთითებს: pomôžem = დაგეხმარები."
+  },
+  "a2-u5-l2.fill-lucia-ti-rada.en": {
+    "en": "Lucia will be happy to help you.",
+    "t": "ლუცია სიამოვნებით დაგეხმარება."
+  },
+  "a2-u5-l2.fill-lucia-ti-rada.why": {
+    "en": "Lucia is a woman, so it's **rada**. Rád is for a man, radi for a group.",
+    "t": "ლუცია ქალია, ამიტომ **rada**. Rád კაცისთვისაა, radi — რამდენიმე ადამიანისთვის."
+  },
+  "a2-u5-l2.ordinacne-hodiny.en": {
+    "en": "surgery hours",
+    "t": "მიღების საათები"
+  },
+  "a2-u5-l2.ordinacne-hodiny.note": {
+    "en": "Lekárka **ordinuje** od siedmej do tretej. = The doctor sees patients from seven to three. Her surgery is her **ordinácia**.",
+    "t": "Lekárka **ordinuje** od siedmej do tretej. = ექიმი პაციენტებს შვიდიდან სამამდე იღებს. მისი კაბინეტი არის **ordinácia**."
+  },
+  "a2-u5-l2.choice-nasa-lekarka-ordinuje.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "a2-u5-l2.choice-nasa-lekarka-ordinuje.options": {
+    "en": [
+      "Our doctor works from 3 to 7.",
+      "Our doctor sees patients at 7 and at 3.",
+      "Our doctor sees patients from 7 to 3."
+    ],
+    "t": [
+      "ჩვენი ექიმი სამიდან შვიდამდე მუშაობს.",
+      "ჩვენი ექიმი პაციენტებს შვიდზე და სამზე იღებს.",
+      "ჩვენი ექიმი პაციენტებს შვიდიდან სამამდე იღებს."
+    ]
+  },
+  "a2-u5-l2.build-mala-by-si.prompt": {
+    "en": "You should go to the doctor, Emma.",
+    "t": "ემა, ექიმთან უნდა მიხვიდე."
+  },
+  "a2-u5-l2.build-mala-by-si.traps": {
+    "en": [
+      "Emma is a woman, so the advice takes the feminine form: **mala** by si. Mal is for a man.",
+      "Going to someone is **k** + the to-whom form: **k lekárke**."
+    ],
+    "t": [
+      "ემა ქალია, ამიტომ რჩევა მდედრობით ფორმას იღებს: **mala** by si. Mal კაცისთვისაა.",
+      "ვინმესთან მისვლა არის **k** + „ვის?“ ფორმა (datív): **k lekárke**."
+    ]
+  },
+  "a2-u5-l2.match-vyzerat.pairs": {
+    "en": [
+      "to look (ill, well)",
+      "pale",
+      "temperature",
+      "honey",
+      "surgery hours"
+    ],
+    "t": [
+      "გამოყურება (ცუდად, კარგად)",
+      "ფერმკრთალი",
+      "ტემპერატურა",
+      "თაფლი",
+      "მიღების საათები"
+    ]
+  },
+  "a2-u5-l2.build-mam-teplotu-tridsatosem.prompt": {
+    "en": "I've got a temperature of 38 degrees.",
+    "t": "38 გრადუსი ტემპერატურა მაქვს."
+  },
+  "a2-u5-l2.build-mam-teplotu-tridsatosem.traps": {
+    "en": [
+      "The temperature is what you have, the object of mám, so teplota changes -a to **-u**: mám **teplotu**.",
+      "From five up the noun takes a special form, as in päť eur: tridsaťosem **stupňov**. Stupne goes with 2, 3 and 4."
+    ],
+    "t": [
+      "ტემპერატურა ის არის, რაც გაქვთ, ანუ mám-ის ობიექტი, ამიტომ teplota -a-ს **-u**-თი ცვლის: mám **teplotu**.",
+      "ხუთიდან ზემოთ არსებითი სახელი განსაკუთრებულ ფორმას იღებს, როგორც päť eur-ში: tridsaťosem **stupňov**. Stupne 2-ს, 3-სა და 4-ს მიჰყვება. ქართულში რიცხვის შემდეგ სიტყვა უბრალოდ მხოლობითშია: ოცდათვრამეტი გრადუსი."
+    ]
+  },
+  "a2-u5-l2.speak-vyzeras-zle-si.en": {
+    "en": "You look ill, you're pale.",
+    "t": "ცუდად გამოიყურები, ფერმკრთალი ხარ."
+  },
+  "a2-u5-l2.build-babka-hovori-ze.answers": {
+    "en": [
+      "Grandma says that tea with honey always helps.",
+      "Grandma says tea with honey always helps.",
+      "Granny says that tea with honey always helps.",
+      "Granny says tea with honey always helps."
+    ],
+    "t": [
+      "ბებია ამბობს, რომ თაფლიანი ჩაი ყოველთვის შველის.",
+      "ბებია ამბობს, რომ ჩაი თაფლით ყოველთვის შველის.",
+      "ბებია ამბობს, თაფლიანი ჩაი ყოველთვის შველისო."
+    ]
+  },
+  "a2-u5-l2.build-babka-hovori-ze.distractors": {
+    "en": [
+      "never",
+      "coffee"
+    ],
+    "t": [
+      "არასდროს",
+      "ყავა"
+    ]
+  },
+  "a2-u5-l3.titleEn": {
+    "en": "In the waiting room",
+    "t": "მოსაცდელ ოთახში"
+  },
+  "a2-u5-l3.sestricka.en": {
+    "en": "nurse",
+    "t": "ექთანი"
+  },
+  "a2-u5-l3.sestricka.note": {
+    "en": "Officially **zdravotná sestra**; patients usually say **sestrička**. Sestra is also a sister.",
+    "t": "ოფიციალურად **zdravotná sestra**; პაციენტები ჩვეულებრივ **sestrička**-ს ეძახიან. Sestra დასაც ნიშნავს."
+  },
+  "a2-u5-l3.preukaz-poistenca.en": {
+    "en": "health insurance card",
+    "t": "სადაზღვევო ბარათი"
+  },
+  "a2-u5-l3.preukaz-poistenca.note": {
+    "en": "**poistenec** = an insured person. Emma has a European card: **európsky preukaz zdravotného poistenia**.",
+    "t": "**poistenec** = დაზღვეული. ემას ევროპული ბარათი აქვს: **európsky preukaz zdravotného poistenia**."
+  },
+  "a2-u5-l3.choice-mate-preukaz-poistenca.question": {
+    "en": "What does the nurse want to see?",
+    "t": "რისი ნახვა უნდა ექთანს?"
+  },
+  "a2-u5-l3.choice-mate-preukaz-poistenca.options": {
+    "en": [
+      "Emma's prescription",
+      "Emma's passport",
+      "Emma's health insurance card"
+    ],
+    "t": [
+      "ემას რეცეპტის",
+      "ემას პასპორტის",
+      "ემას სადაზღვევო ბარათის"
+    ]
+  },
+  "a2-u5-l3.poistovna.en": {
+    "en": "insurance company",
+    "t": "სადაზღვევო კომპანია"
+  },
+  "a2-u5-l3.poistovna.note": {
+    "en": "**zdravotná poisťovňa** = health insurance company. Emma's is in Ireland: Moja poisťovňa je v Írsku.",
+    "t": "**zdravotná poisťovňa** = ჯანმრთელობის სადაზღვევო კომპანია. ემასი ირლანდიაშია: Moja poisťovňa je v Írsku."
+  },
+  "a2-u5-l3.fill-mam-europsky-preukaz.en": {
+    "en": "I've got a European health insurance card.",
+    "t": "ევროპული სადაზღვევო ბარათი მაქვს."
+  },
+  "a2-u5-l3.fill-mam-europsky-preukaz.why": {
+    "en": "The card is what you have, the object. Preukaz is a masculine thing, so it doesn't change: mám **preukaz**.",
+    "t": "ბარათი ის არის, რაც გაქვთ, ანუ ობიექტი. Preukaz მამრობითი სქესის საგანია, ამიტომ არ იცვლება: mám **preukaz**."
+  },
+  "a2-u5-l3.cakaren.en": {
+    "en": "waiting room",
+    "t": "მოსაცდელი ოთახი"
+  },
+  "a2-u5-l3.cakaren.note": {
+    "en": "From **čakať** (to wait). V čakárni = in the waiting room.",
+    "t": "**čakať**-იდან (ლოდინი), როგორც ქართული „მოსაცდელი“ — „ცდიდან“. V čakárni = მოსაცდელ ოთახში."
+  },
+  "a2-u5-l3.fill-emma-caka-v.en": {
+    "en": "Emma is waiting in the waiting room.",
+    "t": "ემა მოსაცდელ ოთახში ელოდება."
+  },
+  "a2-u5-l3.fill-emma-caka-v.why": {
+    "en": "**V** answering “where?” takes the locative. Čakáreň ends in a soft ň, so it takes **-i** and drops its e: v **čakárni**, like v kaviarni.",
+    "t": "„სად?“-ზე პასუხად **v** lokál-ს მოითხოვს. Čakáreň რბილ ň-ზე ბოლოვდება, ამიტომ **-i**-ს იღებს და e-ს კარგავს: v **čakárni**, როგორც v kaviarni."
+  },
+  "a2-u5-l3.dalsi-prosim.en": {
+    "en": "Next, please!",
+    "t": "შემდეგი, გთხოვთ!"
+  },
+  "a2-u5-l3.dalsi-prosim.note": {
+    "en": "The nurse or the doctor calls in the next patient. Then: **Poďte ďalej.** (Come in.)",
+    "t": "ასე იძახებს ექთანი ან ექიმი შემდეგ პაციენტს. მერე: **Poďte ďalej.** (შემობრძანდით.)"
+  },
+  "a2-u5-l3.choice-sestricka-otvori-dvere.question": {
+    "en": "The nurse opens the door to call in the next patient. What does she say?",
+    "t": "ექთანი კარს აღებს, რომ შემდეგი პაციენტი შემოიძახოს. რას ამბობს?"
+  },
+  "a2-u5-l3.lekar-a-pacient.en": {
+    "en": "doctor and patient",
+    "t": "ექიმი და პაციენტი"
+  },
+  "a2-u5-l3.lekar-a-pacient.note": {
+    "en": "Patients call a doctor **pán doktor** or **pani doktorka**.",
+    "t": "პაციენტები ექიმს **pán doktor** ან **pani doktorka** მიმართავენ (ბატონო ექიმო, ქალბატონო ექიმო)."
+  },
+  "a2-u5-l3.co-vam-je.en": {
+    "en": "What's the matter?",
+    "t": "რა გაწუხებთ?"
+  },
+  "a2-u5-l3.co-vam-je.note": {
+    "en": "The doctor's first question. To a friend: **Čo ti je?** You may also hear: **Aký máte problém?**",
+    "t": "ექიმის პირველი კითხვა. მეგობარს: **Čo ti je?** (რა გჭირს?) შეიძლება ესეც გაიგოთ: **Aký máte problém?**"
+  },
+  "a2-u5-l3.fill-lucia-co-ti.en": {
+    "en": "Lucia, what's the matter? You look ill.",
+    "t": "ლუცია, რა გჭირს? ცუდად გამოიყურები."
+  },
+  "a2-u5-l3.fill-lucia-co-ti.why": {
+    "en": "Lucia is a friend, so it's ty: Čo **ti** je? Čo vám je? is for someone you call vy, like a patient.",
+    "t": "ლუცია მეგობარია, ამიტომ ty: Čo **ti** je? Čo vám je? იმისთვისაა, ვისაც vy-თი მიმართავთ, მაგალითად პაციენტისთვის."
+  },
+  "a2-u5-l3.build-emma-caka-na.prompt": {
+    "en": "Emma is waiting for the doctor.",
+    "t": "ემა ექიმს ელოდება."
+  },
+  "a2-u5-l3.build-emma-caka-na.traps": {
+    "en": [
+      "**Čakať na** takes the object form, so lekárka changes -a to **-u**: na **lekárku**.",
+      "Waiting for someone is **čakať na** + the object form: čaká **na** lekárku."
+    ],
+    "t": [
+      "**Čakať na** ობიექტის ფორმას მოითხოვს, ამიტომ lekárka -a-ს **-u**-თი ცვლის: na **lekárku**.",
+      "ვინმეს ლოდინი არის **čakať na** + ობიექტის ფორმა: čaká **na** lekárku. ქართულს აქ წინდებული არ სჭირდება („ექიმს ელოდება“), სლოვაკურს კი — na."
+    ]
+  },
+  "a2-u5-l3.match-sestricka.pairs": {
+    "en": [
+      "nurse",
+      "patient",
+      "waiting room",
+      "health insurance card",
+      "insurance company"
+    ],
+    "t": [
+      "ექთანი",
+      "პაციენტი",
+      "მოსაცდელი ოთახი",
+      "სადაზღვევო ბარათი",
+      "სადაზღვევო კომპანია"
+    ]
+  },
+  "a2-u5-l3.speak-som-z-irska.en": {
+    "en": "I'm from Ireland, I've got a European card.",
+    "t": "ირლანდიიდან ვარ, ევროპული ბარათი მაქვს."
+  },
+  "a2-u5-l3.build-v-cakarni-sedi.answers": {
+    "en": [
+      "Five patients are sitting in the waiting room.",
+      "There are five patients sitting in the waiting room.",
+      "There are five patients in the waiting room."
+    ],
+    "t": [
+      "მოსაცდელ ოთახში ხუთი პაციენტი ზის.",
+      "ხუთი პაციენტი ზის მოსაცდელ ოთახში.",
+      "მოსაცდელში ხუთი პაციენტი ზის."
+    ]
+  },
+  "a2-u5-l3.build-v-cakarni-sedi.distractors": {
+    "en": [
+      "nurses",
+      "standing"
+    ],
+    "t": [
+      "ექთანი",
+      "დგას"
+    ]
+  },
+  "a2-u5-l4.titleEn": {
+    "en": "The examination",
+    "t": "გასინჯვა"
+  },
+  "a2-u5-l4.vyzlecte-sa.en": {
+    "en": "Get undressed, please.",
+    "t": "გაიხადეთ, გთხოვთ."
+  },
+  "a2-u5-l4.vyzlecte-sa.note": {
+    "en": "The doctor's instructions are vy forms ending in -te; learn them as phrases for now. **Vyzlečte sa do pása.** = Undress to the waist.",
+    "t": "ექიმის მითითებები vy-ს ფორმებია, -te-ზე; ჯერჯერობით ისწავლეთ ისინი მზა ფრაზებად. **Vyzlečte sa do pása.** = წელს ზემოთ გაიხადეთ."
+  },
+  "a2-u5-l4.dychajte-zhlboka.en": {
+    "en": "Breathe deeply.",
+    "t": "ღრმად ისუნთქეთ."
+  },
+  "a2-u5-l4.dychajte-zhlboka.note": {
+    "en": "**dýchať** = to breathe, **zhlboka** = deeply. The doctor listens to your **hruď** (chest), then: **Nedýchajte.** = Hold your breath.",
+    "t": "**dýchať** = სუნთქვა, **zhlboka** = ღრმად. ექიმი თქვენს **hruď**-ს (მკერდს) უსმენს, შემდეგ კი: **Nedýchajte.** = სუნთქვა შეიკავეთ."
+  },
+  "a2-u5-l4.choice-lekarka-chce-vyzlecte.question": {
+    "en": "The doctor wants Emma to take her top off. What does she say?",
+    "t": "ექიმს უნდა, რომ ემამ ზედა ტანსაცმელი გაიხადოს. რას ეუბნება?"
+  },
+  "a2-u5-l4.ukazte-mi-hrdlo.en": {
+    "en": "Show me your throat.",
+    "t": "ყელი მაჩვენეთ."
+  },
+  "a2-u5-l4.ukazte-mi-hrdlo.note": {
+    "en": "Then: **Otvorte ústa** (open your mouth) and **Povedzte á.** (say ah). Or: Ukážte jazyk. (Show me your tongue.)",
+    "t": "შემდეგ: **Otvorte ústa** (პირი გააღეთ) და **Povedzte á.** (თქვით „ა“). ან: Ukážte jazyk. (ენა მაჩვენეთ.)"
+  },
+  "a2-u5-l4.build-otvorte-usta-a.prompt": {
+    "en": "Open your mouth and say ah.",
+    "t": "პირი გააღეთ და თქვით „ა“."
+  },
+  "a2-u5-l4.build-otvorte-usta-a.traps": {
+    "en": [
+      "You open your mouth, **ústa**, so the doctor can see your throat (hrdlo).",
+      "The doctor's phrase is **Otvorte** ústa, as on the card. Otvoriť (to open) is the infinitive, not what she says."
+    ],
+    "t": [
+      "პირს აღებთ, **ústa**-ს, რომ ექიმმა ყელი (hrdlo) დაინახოს.",
+      "ექიმის ფრაზაა **Otvorte** ústa, როგორც ბარათზე. Otvoriť (გაღება) ინფინიტივია და ექიმი ასე არ ამბობს."
+    ]
+  },
+  "a2-u5-l4.angina.en": {
+    "en": "tonsillitis, strep throat",
+    "t": "ანგინა"
+  },
+  "a2-u5-l4.angina.note": {
+    "en": "**Máte angínu.** = You've got tonsillitis. It isn't **chrípka** (flu) or **zápal pľúc** (pneumonia).",
+    "t": "**Máte angínu.** = ანგინა გაქვთ. ეს არ არის **chrípka** (გრიპი) ან **zápal pľúc** (ფილტვების ანთება)."
+  },
+  "a2-u5-l4.choice-nie-je-to-zapal.question": {
+    "en": "What does the doctor say?",
+    "t": "რას ამბობს ექიმი?"
+  },
+  "a2-u5-l4.choice-nie-je-to-zapal.options": {
+    "en": [
+      "It's pneumonia, not tonsillitis.",
+      "It's flu and tonsillitis.",
+      "It isn't pneumonia, it's tonsillitis."
+    ],
+    "t": [
+      "ფილტვების ანთებაა და არა ანგინა.",
+      "გრიპიც არის და ანგინაც.",
+      "ფილტვების ანთება არ არის, ანგინაა."
+    ]
+  },
+  "a2-u5-l4.fill-mate-anginu.en": {
+    "en": "You've got tonsillitis.",
+    "t": "ანგინა გაქვთ."
+  },
+  "a2-u5-l4.fill-mate-anginu.why": {
+    "en": "The illness is what you have, the object of **máte**, so angína changes -a to **-u**: máte **angínu**.",
+    "t": "დაავადება ის არის, რაც გაქვთ, ანუ **máte**-ს ობიექტი, ამიტომ angína -a-ს **-u**-თი ცვლის: máte **angínu**."
+  },
+  "a2-u5-l4.mam-chripku.en": {
+    "en": "I've got flu.",
+    "t": "გრიპი მაქვს."
+  },
+  "a2-u5-l4.mam-chripku.note": {
+    "en": "**chrípka** = flu. Other things a doctor may find: **vysoký tlak** (high blood pressure), **kŕče** (cramps).",
+    "t": "**chrípka** = გრიპი. სხვა რამ, რაც ექიმმა შეიძლება აღმოაჩინოს: **vysoký tlak** (მაღალი წნევა), **kŕče** (კრუნჩხვები)."
+  },
+  "a2-u5-l4.fill-nemam-anginu-mam.en": {
+    "en": "I haven't got tonsillitis, I've got flu.",
+    "t": "ანგინა არ მაქვს, გრიპი მაქვს."
+  },
+  "a2-u5-l4.fill-nemam-anginu-mam.why": {
+    "en": "The illness is what you have, the object of **mám**, so chrípka changes -a to **-u**: mám **chrípku**, like mám angínu.",
+    "t": "დაავადება ის არის, რაც გაქვთ, ანუ **mám**-ის ობიექტი, ამიტომ chrípka -a-ს **-u**-თი ცვლის: mám **chrípku**, როგორც mám angínu."
+  },
+  "a2-u5-l4.antibiotika.en": {
+    "en": "antibiotics",
+    "t": "ანტიბიოტიკები"
+  },
+  "a2-u5-l4.antibiotika.note": {
+    "en": "**Napíšem vám antibiotiká.** = I'll prescribe you antibiotics. **Tu je recept.** = Here's the prescription.",
+    "t": "**Napíšem vám antibiotiká.** = ანტიბიოტიკებს გამოგიწერთ. **Tu je recept.** = აი, რეცეპტი."
+  },
+  "a2-u5-l4.pite-vela-tekutin.en": {
+    "en": "Drink plenty of fluids.",
+    "t": "ბევრი სითხე დალიეთ."
+  },
+  "a2-u5-l4.pite-vela-tekutin.note": {
+    "en": "**tekutina** = a liquid, like **voda** (water) or čaj; after veľa it's tekutín, a form this unit explains. Also: **Oddychujte.** or **Musíte si oddýchnuť.** = Rest.",
+    "t": "**tekutina** = სითხე, მაგალითად **voda** (წყალი) ან čaj; veľa-ს შემდეგ ის tekutín-ია — ამ ფორმას ეს თავი აგიხსნით. ასევე: **Oddychujte.** ან **Musíte si oddýchnuť.** = დაისვენეთ."
+  },
+  "a2-u5-l4.build-oddychujte-a-pite.prompt": {
+    "en": "Rest and drink plenty of fluids.",
+    "t": "დაისვენეთ და ბევრი სითხე დალიეთ."
+  },
+  "a2-u5-l4.build-oddychujte-a-pite.traps": {
+    "en": [
+      "After **veľa** (a lot of), Slovak uses a special form of the noun: veľa **tekutín**. This unit's grammar lessons explain it.",
+      "The doctor's phrase is **Pite** veľa tekutín, as on the card. Piť (to drink) is the infinitive, not what she says."
+    ],
+    "t": [
+      "**veľa**-ს (ბევრი) შემდეგ სლოვაკური არსებითი სახელის განსაკუთრებულ ფორმას იყენებს: veľa **tekutín**. ამას ამ თავის გრამატიკის გაკვეთილები აგიხსნით.",
+      "ექიმის ფრაზაა **Pite** veľa tekutín, როგორც ბარათზე. Piť (დალევა) ინფინიტივია და ექიმი ასე არ ამბობს."
+    ]
+  },
+  "a2-u5-l4.pridte-na-kontrolu.en": {
+    "en": "Come back for a check-up.",
+    "t": "საკონტროლოდ მობრძანდით."
+  },
+  "a2-u5-l4.pridte-na-kontrolu.note": {
+    "en": "**O týždeň** príďte na kontrolu. = Come back for a check-up in a week. **kontrola** = check-up.",
+    "t": "**O týždeň** príďte na kontrolu. = ერთ კვირაში საკონტროლოდ მობრძანდით. **kontrola** = საკონტროლო ვიზიტი."
+  },
+  "a2-u5-l4.fill-o-tyzden-pridte.en": {
+    "en": "Come back for a check-up in a week.",
+    "t": "ერთ კვირაში საკონტროლოდ მობრძანდით."
+  },
+  "a2-u5-l4.fill-o-tyzden-pridte.why": {
+    "en": "**O** + a length of time means “in”, with the object form: o hodinu, o **týždeň**.",
+    "t": "**O** + დროის მონაკვეთი ნიშნავს „-ში“ (ერთ კვირაში), ობიექტის ფორმით: o hodinu, o **týždeň**."
+  },
+  "a2-u5-l4.match-vyzlecte-sa.pairs": {
+    "en": [
+      "Get undressed.",
+      "Breathe deeply.",
+      "Show me your throat.",
+      "Come back for a check-up.",
+      "fluids"
+    ],
+    "t": [
+      "გაიხადეთ.",
+      "ღრმად ისუნთქეთ.",
+      "ყელი მაჩვენეთ.",
+      "საკონტროლოდ მობრძანდით.",
+      "სითხეები"
+    ]
+  },
+  "a2-u5-l4.speak-dychajte-zhlboka.en": {
+    "en": "Breathe deeply.",
+    "t": "ღრმად ისუნთქეთ."
+  },
+  "a2-u5-l4.build-lekarka-mi-napisala.answers": {
+    "en": [
+      "The doctor prescribed me antibiotics and gave me a prescription.",
+      "The doctor prescribed antibiotics and gave me a prescription."
+    ],
+    "t": [
+      "ექიმმა ანტიბიოტიკები გამომიწერა და რეცეპტი მომცა.",
+      "ექიმმა გამომიწერა ანტიბიოტიკები და მომცა რეცეპტი.",
+      "ექიმმა ანტიბიოტიკები გამომიწერა და მომცა რეცეპტი."
+    ]
+  },
+  "a2-u5-l4.build-lekarka-mi-napisala.distractors": {
+    "en": [
+      "vitamins",
+      "sold"
+    ],
+    "t": [
+      "ვიტამინები",
+      "მომყიდა"
+    ]
+  },
+  "a2-u5-l5.titleEn": {
+    "en": "On prescription",
+    "t": "რეცეპტით"
+  },
+  "a2-u5-l5.lekarnicka.en": {
+    "en": "pharmacist (a woman)",
+    "t": "ფარმაცევტი (ქალი)"
+  },
+  "a2-u5-l5.lekarnicka.note": {
+    "en": "She works **v lekárni**, in the pharmacy (lekáreň).",
+    "t": "ის **v lekárni**, აფთიაქში (lekáreň) მუშაობს."
+  },
+  "a2-u5-l5.na-recept-bez-receptu.en": {
+    "en": "on prescription, over the counter",
+    "t": "რეცეპტით, ურეცეპტოდ"
+  },
+  "a2-u5-l5.na-recept-bez-receptu.note": {
+    "en": "**bez** = without. Medicines you can buy without a prescription are sold at the **voľný predaj** window.",
+    "t": "**bez** = გარეშე. წამლებს, რომლებიც რეცეპტის გარეშე იყიდება, **voľný predaj**-ის (თავისუფალი გაყიდვის) სარკმელთან ყიდიან."
+  },
+  "a2-u5-l5.choice-antibiotika-su-na.question": {
+    "en": "What does the pharmacist say?",
+    "t": "რას ამბობს ფარმაცევტი?"
+  },
+  "a2-u5-l5.choice-antibiotika-su-na.options": {
+    "en": [
+      "You need a prescription for antibiotics.",
+      "Antibiotics are free.",
+      "You don't need a prescription for antibiotics."
+    ],
+    "t": [
+      "ანტიბიოტიკებისთვის რეცეპტი გჭირდებათ.",
+      "ანტიბიოტიკები უფასოა.",
+      "ანტიბიოტიკებისთვის რეცეპტი არ გჭირდებათ."
+    ]
+  },
+  "a2-u5-l5.tabletka.en": {
+    "en": "tablet, pill",
+    "t": "აბი, ტაბლეტი"
+  },
+  "a2-u5-l5.tabletka.note": {
+    "en": "Plural: tabletky. **užívať** = to take (medicine): Užívajte jednu tabletku. = Take one tablet.",
+    "t": "მრავლობითი: tabletky. **užívať** = (წამლის) მიღება: Užívajte jednu tabletku. = მიიღეთ ერთი აბი."
+  },
+  "a2-u5-l5.fill-tieto-lieky-su.en": {
+    "en": "These medicines are on prescription.",
+    "t": "ეს წამლები რეცეპტით იყიდება."
+  },
+  "a2-u5-l5.fill-tieto-lieky-su.why": {
+    "en": "**Na recept** (on prescription) uses the object form, so recept doesn't change. Bez takes another form: bez **receptu**.",
+    "t": "**Na recept** (რეცეპტით) ობიექტის ფორმას იყენებს, ამიტომ recept არ იცვლება. Bez სხვა ფორმას მოითხოვს: bez **receptu**."
+  },
+  "a2-u5-l5.trikrat-denne.en": {
+    "en": "three times a day",
+    "t": "დღეში სამჯერ"
+  },
+  "a2-u5-l5.trikrat-denne.note": {
+    "en": "**denne** = a day, daily. It takes -krát like dvakrát týždenne (unit 4): **raz** denne (once a day), dvakrát denne, trikrát denne…",
+    "t": "**denne** = დღეში, ყოველდღე. -krát-თან ერთად მოდის, როგორც dvakrát týždenne (მე-4 თავი): **raz** denne (დღეში ერთხელ), dvakrát denne, trikrát denne…"
+  },
+  "a2-u5-l5.fill-antibiotika-uzivajte.en": {
+    "en": "Take the antibiotics three times a day.",
+    "t": "ანტიბიოტიკები დღეში სამჯერ მიიღეთ."
+  },
+  "a2-u5-l5.fill-antibiotika-uzivajte.why": {
+    "en": "To say how many times, add **-krát**: raz, dvakrát, **trikrát** denne.",
+    "t": "რამდენჯერ — ამისთვის დაუმატეთ **-krát**, როგორც ქართული „-ჯერ“: raz, dvakrát, **trikrát** denne."
+  },
+  "a2-u5-l5.choice-uzivajte-dve-tabletky.question": {
+    "en": "The pharmacist says: Užívajte dve tabletky dvakrát denne. How many tablets a day is that?",
+    "t": "ფარმაცევტი ამბობს: Užívajte dve tabletky dvakrát denne. დღეში რამდენი აბი გამოდის?"
+  },
+  "a2-u5-l5.choice-uzivajte-dve-tabletky.options": {
+    "en": [
+      "two",
+      "six",
+      "four"
+    ],
+    "t": [
+      "ორი",
+      "ექვსი",
+      "ოთხი"
+    ]
+  },
+  "a2-u5-l5.choice-uzivajte-dve-tabletky.why": {
+    "en": "**Dvakrát denne** is twice a day, and each time **dve tabletky**: four in all.",
+    "t": "**Dvakrát denne** დღეში ორჯერ ნიშნავს, ყოველ ჯერზე კი **dve tabletky**: სულ ოთხი."
+  },
+  "a2-u5-l5.build-uzivajte-jednu-tabletku.prompt": {
+    "en": "Take one tablet three times a day.",
+    "t": "მიიღეთ ერთი აბი დღეში სამჯერ."
+  },
+  "a2-u5-l5.build-uzivajte-jednu-tabletku.traps": {
+    "en": [
+      "The tablet is the object, so jedna changes like tabletka: **jednu** tabletku.",
+      "One tablet, the object: tabletka changes -a to **-u**. Tabletky is the plural."
+    ],
+    "t": [
+      "აბი ობიექტია, ამიტომ jedna იცვლება tabletka-ს მსგავსად: **jednu** tabletku.",
+      "ერთი აბი, ობიექტი: tabletka -a-ს **-u**-თი ცვლის. Tabletky მრავლობითია."
+    ]
+  },
+  "a2-u5-l5.balenie.en": {
+    "en": "pack, packet",
+    "t": "შეფუთვა, კოლოფი"
+  },
+  "a2-u5-l5.balenie.note": {
+    "en": "V jednom balení je dvadsať tabletiek. = There are twenty tablets in one pack.",
+    "t": "V jednom balení je dvadsať tabletiek. = ერთ შეფუთვაში ოცი აბია."
+  },
+  "a2-u5-l5.choice-v-jednom-baleni.question": {
+    "en": "What does this tell you?",
+    "t": "რას გეუბნებათ ეს?"
+  },
+  "a2-u5-l5.choice-v-jednom-baleni.options": {
+    "en": [
+      "You take twenty tablets a day.",
+      "A pack has twenty tablets.",
+      "A pack costs twenty euros."
+    ],
+    "t": [
+      "დღეში ოც აბს იღებთ.",
+      "ერთ შეფუთვაში ოცი აბია.",
+      "ერთი შეფუთვა ოცი ევრო ღირს."
+    ]
+  },
+  "a2-u5-l5.fill-lekarnicka-pracuje-v.en": {
+    "en": "The pharmacist works in a pharmacy.",
+    "t": "ფარმაცევტი აფთიაქში მუშაობს."
+  },
+  "a2-u5-l5.fill-lekarnicka-pracuje-v.why": {
+    "en": "**V** answering “where?” takes the locative. Lekáreň ends in a soft ň, so it takes **-i** and drops its e: v **lekárni**.",
+    "t": "„სად?“-ზე პასუხად **v** lokál-ს მოითხოვს. Lekáreň რბილ ň-ზე ბოლოვდება, ამიტომ **-i**-ს იღებს და e-ს კარგავს: v **lekárni**."
+  },
+  "a2-u5-l5.match-lekarnicka.pairs": {
+    "en": [
+      "pharmacist",
+      "on prescription",
+      "over the counter",
+      "tablet",
+      "three times a day"
+    ],
+    "t": [
+      "ფარმაცევტი",
+      "რეცეპტით",
+      "ურეცეპტოდ",
+      "აბი",
+      "დღეში სამჯერ"
+    ]
+  },
+  "a2-u5-l5.speak-mam-recept-od.en": {
+    "en": "Hello, I've got a prescription from the doctor.",
+    "t": "გამარჯობათ, ექიმის რეცეპტი მაქვს."
+  },
+  "a2-u5-l5.build-v-lekarni-plati.answers": {
+    "en": [
+      "Emma is paying by card at the pharmacy.",
+      "Emma pays by card at the pharmacy.",
+      "At the pharmacy Emma pays by card."
+    ],
+    "t": [
+      "აფთიაქში ემა ბარათით იხდის.",
+      "ემა აფთიაქში ბარათით იხდის.",
+      "ემა ბარათით იხდის აფთიაქში."
+    ]
+  },
+  "a2-u5-l5.build-v-lekarni-plati.distractors": {
+    "en": [
+      "cash",
+      "shop"
+    ],
+    "t": [
+      "ნაღდით",
+      "მაღაზიაში"
+    ]
+  },
+  "a2-u5-l6.titleEn": {
+    "en": "Over the counter",
+    "t": "ურეცეპტოდ"
+  },
+  "a2-u5-l6.sirup-proti-kaslu.en": {
+    "en": "cough syrup",
+    "t": "ხველის სიროფი"
+  },
+  "a2-u5-l6.sirup-proti-kaslu.note": {
+    "en": "**Proti** + the dative, as in čaj proti chrípke (unit 3): kašeľ → proti **kašľu**. So also: niečo proti nádche, something for a runny nose.",
+    "t": "**Proti** + datív, როგორც čaj proti chrípke-ში (მე-3 თავი): kašeľ → proti **kašľu**. ასევე: niečo proti nádche, რამე სურდოს საწინააღმდეგო."
+  },
+  "a2-u5-l6.kvapky-do-nosa.en": {
+    "en": "nose drops",
+    "t": "ცხვირის წვეთები"
+  },
+  "a2-u5-l6.kvapky-do-nosa.note": {
+    "en": "**kvapka** = a drop, **nos** = nose: do nosa, into the nose.",
+    "t": "**kvapka** = წვეთი, **nos** = ცხვირი: do nosa, ცხვირში."
+  },
+  "a2-u5-l6.choice-mate-nieco-proti.question": {
+    "en": "What is Emma asking for?",
+    "t": "რას ითხოვს ემა?"
+  },
+  "a2-u5-l6.choice-mate-nieco-proti.options": {
+    "en": [
+      "something for a cough",
+      "something for a headache",
+      "something for a runny nose"
+    ],
+    "t": [
+      "ხველის წამალს",
+      "თავის ტკივილის წამალს",
+      "სურდოს წამალს"
+    ]
+  },
+  "a2-u5-l6.co-mi-odporucate.en": {
+    "en": "What do you recommend?",
+    "t": "რას მირჩევთ?"
+  },
+  "a2-u5-l6.co-mi-odporucate.note": {
+    "en": "**odporúčať**, **odporučiť** = to recommend. The pharmacist answers: **Odporúčam vám** tento sirup.",
+    "t": "**odporúčať**, **odporučiť** = რჩევა, რეკომენდაცია. ფარმაცევტი პასუხობს: **Odporúčam vám** tento sirup. (ამ სიროფს გირჩევთ.)"
+  },
+  "a2-u5-l6.fill-odporucam-vam-tento.en": {
+    "en": "I recommend this syrup (to you).",
+    "t": "ამ სიროფს გირჩევთ."
+  },
+  "a2-u5-l6.fill-odporucam-vam-tento.why": {
+    "en": "You recommend something **to** someone, so the person takes the to-whom form: odporúčam **vám**, like **mi** in Čo mi odporúčate?",
+    "t": "რამეს ვინმეს ურჩევთ, ამიტომ ადამიანი „ვის?“ ფორმაშია: odporúčam **vám**, როგორც **mi** Čo mi odporúčate?-ში."
+  },
+  "a2-u5-l6.vitaminy.en": {
+    "en": "vitamins",
+    "t": "ვიტამინები"
+  },
+  "a2-u5-l6.vitaminy.note": {
+    "en": "Máte aj **nejaké** vitamíny? = Do you have any vitamins too? One vitamin: vitamín.",
+    "t": "Máte aj **nejaké** vitamíny? = ვიტამინებიც ხომ არ გაქვთ? ერთი ვიტამინი: vitamín."
+  },
+  "a2-u5-l6.build-mate-aj-vitaminy.prompt": {
+    "en": "Do you also have vitamins?",
+    "t": "ვიტამინებიც გაქვთ?"
+  },
+  "a2-u5-l6.build-mate-aj-vitaminy.traps": {
+    "en": [
+      "You call the pharmacist **vy**, so it's **Máte**…? Máš is for a friend.",
+      "More than one vitamin: the plural, **vitamíny**."
+    ],
+    "t": [
+      "ფარმაცევტს **vy**-თი მიმართავთ, ამიტომ **Máte**…? Máš მეგობრისთვისაა.",
+      "ერთზე მეტი ვიტამინი: მრავლობითი, **vitamíny**."
+    ]
+  },
+  "a2-u5-l6.to-si-nemozem-dovolit.en": {
+    "en": "I can't afford that.",
+    "t": "ამის საშუალება არ მაქვს."
+  },
+  "a2-u5-l6.to-si-nemozem-dovolit.note": {
+    "en": "**dovoliť si** = to afford. Si takes second place, right after to: To **si** nemôžem dovoliť.",
+    "t": "**dovoliť si** = (ფულით) რამის საშუალების ქონა. Si მეორე ადგილზე დგას, პირდაპირ to-ს შემდეგ: To **si** nemôžem dovoliť."
+  },
+  "a2-u5-l6.build-tie-vitaminy-su.prompt": {
+    "en": "Those vitamins are expensive, I can't afford them.",
+    "t": "ის ვიტამინები ძვირია, მათი ყიდვის საშუალება არ მაქვს."
+  },
+  "a2-u5-l6.build-tie-vitaminy-su.traps": {
+    "en": [
+      "To afford is **dovoliť si**, with si: to **si** nemôžem dovoliť.",
+      "Vitamíny are plural things, so the adjective ends in **-é**: sú **drahé**."
+    ],
+    "t": [
+      "„საშუალების ქონა“ არის **dovoliť si**, si-თი: to **si** nemôžem dovoliť.",
+      "Vitamíny მრავლობითი საგნებია, ამიტომ ზედსართავი **-é**-ზე ბოლოვდება: sú **drahé**."
+    ]
+  },
+  "a2-u5-l6.nechaj-tak-ja-to.en": {
+    "en": "Leave it, I'll pay.",
+    "t": "დაანებე თავი, მე გადავიხდი."
+  },
+  "a2-u5-l6.nechaj-tak-ja-to.note": {
+    "en": "Said when you insist on paying for a friend. To ask what you owe a friend: **Koľko ti dám?**",
+    "t": "ასე ამბობენ, როცა მეგობრის მაგივრად გადახდას დაჟინებით ცდილობენ. მეგობარს რომ ჰკითხოთ, რამდენი გმართებთ: **Koľko ti dám?**"
+  },
+  "a2-u5-l6.choice-lucia-chce-zaplatit.question": {
+    "en": "Lucia wants to pay for Emma's vitamins. What does she say?",
+    "t": "ლუციას უნდა, რომ ემას ვიტამინების ფული თვითონ გადაიხადოს. რას ამბობს?"
+  },
+  "a2-u5-l6.fill-dakujem-kolko-ti.en": {
+    "en": "Thanks! How much do I owe you?",
+    "t": "მადლობა! რამდენი მოგცე?"
+  },
+  "a2-u5-l6.fill-dakujem-kolko-ti.why": {
+    "en": "Emma is asking Lucia, a friend, so it's ty: **ti**. Koľko vám dám? is for someone you call vy.",
+    "t": "ემა ლუციას, მეგობარს, ეკითხება, ამიტომ ty: **ti**. Koľko vám dám? იმისთვისაა, ვისაც vy-თი მიმართავთ."
+  },
+  "a2-u5-l6.match-sirup.pairs": {
+    "en": [
+      "cough syrup",
+      "nose drops",
+      "vitamins",
+      "to recommend",
+      "to afford"
+    ],
+    "t": [
+      "ხველის სიროფი",
+      "ცხვირის წვეთები",
+      "ვიტამინები",
+      "რჩევა, რეკომენდაცია",
+      "საშუალების ქონა"
+    ]
+  },
+  "a2-u5-l6.build-mate-nieco-proti.prompt": {
+    "en": "Have you got anything for a cough?",
+    "t": "ხველის საწინააღმდეგო რამე გაქვთ?"
+  },
+  "a2-u5-l6.build-mate-nieco-proti.traps": {
+    "en": [
+      "After **proti** (against), kašeľ changes, as in sirup proti **kašľu**.",
+      "You call the pharmacist **vy**, so it's **Máte**…? Máš is for a friend."
+    ],
+    "t": [
+      "**proti**-ს (საწინააღმდეგოდ) შემდეგ kašeľ იცვლება, როგორც sirup proti **kašľu**-ში.",
+      "ფარმაცევტს **vy**-თი მიმართავთ, ამიტომ **Máte**…? Máš მეგობრისთვისაა."
+    ]
+  },
+  "a2-u5-l6.speak-co-mi-odporucate.en": {
+    "en": "What do you recommend for a cough?",
+    "t": "ხველისთვის რას მირჩევთ?"
+  },
+  "a2-u5-l6.build-emma-zabudla-peniaze.answers": {
+    "en": [
+      "Emma forgot her money at home.",
+      "Emma has forgotten her money at home.",
+      "Emma left her money at home."
+    ],
+    "t": [
+      "ემას ფული სახლში დაავიწყდა.",
+      "ემას სახლში დაავიწყდა ფული.",
+      "ემას ფული სახლში დარჩა."
+    ]
+  },
+  "a2-u5-l6.build-emma-zabudla-peniaze.distractors": {
+    "en": [
+      "card",
+      "lost"
+    ],
+    "t": [
+      "ემამ",
+      "ბარათი"
+    ]
+  },
+  "a2-u5-l6.build-kvapky-do-nosa.answers": {
+    "en": [
+      "Use the nose drops twice a day.",
+      "Use nose drops twice a day.",
+      "Take the nose drops twice a day."
+    ],
+    "t": [
+      "ცხვირის წვეთები დღეში ორჯერ მიიღეთ.",
+      "ცხვირის წვეთები მიიღეთ დღეში ორჯერ.",
+      "დღეში ორჯერ მიიღეთ ცხვირის წვეთები.",
+      "ცხვირის წვეთები დღეში ორჯერ ჩაიწვეთეთ."
+    ]
+  },
+  "a2-u5-l6.build-kvapky-do-nosa.distractors": {
+    "en": [
+      "three",
+      "eyes"
+    ],
+    "t": [
+      "სამჯერ",
+      "თვალის"
+    ]
+  },
+  "a2-u5-l7.titleEn": {
+    "en": "A skiing trip",
+    "t": "სათხილამურო გასვლა"
+  },
+  "a2-u5-l7.lyzovat.en": {
+    "en": "skiing trip",
+    "t": "სათხილამურო გასვლა"
+  },
+  "a2-u5-l7.lyzovat.note": {
+    "en": "From **lyžovať sa** (unit 2). After ísť the sa is often left out: ísť lyžovať. Ísť **na hory** = to go to the mountains; **na lyžovačke** = on a skiing trip.",
+    "t": "**lyžovať sa**-დან (მე-2 თავი). ísť-ის შემდეგ sa ხშირად გამოტოვებულია: ísť lyžovať. Ísť **na hory** = მთაში წასვლა; **na lyžovačke** = თხილამურებზე, სათხილამურო გასვლისას."
+  },
+  "a2-u5-l7.choice-v-sobotu-idu.question": {
+    "en": "What are Marek and Tomáš doing on Saturday?",
+    "t": "რას აკეთებენ მარეკი და ტომაში შაბათს?"
+  },
+  "a2-u5-l7.choice-v-sobotu-idu.options": {
+    "en": [
+      "going skating in town",
+      "going skiing in the mountains",
+      "going walking in the mountains"
+    ],
+    "t": [
+      "ქალაქში ციგურაობაზე მიდიან",
+      "მთაში თხილამურებით სასრიალოდ მიდიან",
+      "მთაში სასეირნოდ მიდიან"
+    ]
+  },
+  "a2-u5-l7.spadol-som.en": {
+    "en": "I fell. (a man speaking)",
+    "t": "წავიქეცი. (ამბობს კაცი)"
+  },
+  "a2-u5-l7.spadol-som.note": {
+    "en": "You know **spadnúť** from Emma's skating in unit 2: spadol, spadla.",
+    "t": "**spadnúť** ემას ციგურაობიდან იცით, მე-2 თავიდან: spadol, spadla."
+  },
+  "a2-u5-l7.zlomil-som-si-ruku.en": {
+    "en": "I've broken my arm. (a man speaking)",
+    "t": "ხელი მოვიტეხე. (ამბობს კაცი)"
+  },
+  "a2-u5-l7.zlomil-som-si-ruku.note": {
+    "en": "**zlomiť si** + a part of the body: si does the job of “my”. **ruka** is the hand and the arm; **noha** the foot and the leg.",
+    "t": "**zlomiť si** + სხეულის ნაწილი: si აქ „ჩემის“ როლს ასრულებს, როგორც „ი“ ქართულ „მოვიტეხე“-ში. **ruka** ხელიცაა და მკლავიც, ზუსტად როგორც ქართული „ხელი“; **noha** — ფეხიც და ტერფიც."
+  },
+  "a2-u5-l7.fill-marek-si-zlomil.en": {
+    "en": "Marek has broken his arm.",
+    "t": "მარეკმა ხელი მოიტეხა."
+  },
+  "a2-u5-l7.fill-marek-si-zlomil.why": {
+    "en": "The arm is what he broke, the object, so ruka changes -a to **-u**: zlomil si **ruku**.",
+    "t": "ხელი ის არის, რაც მოიტეხა, ანუ ობიექტი, ამიტომ ruka -a-ს **-u**-თი ცვლის: zlomil si **ruku**."
+  },
+  "a2-u5-l7.zavolaj-sanitku.en": {
+    "en": "Call an ambulance!",
+    "t": "სასწრაფო გამოიძახე!"
+  },
+  "a2-u5-l7.zavolaj-sanitku.note": {
+    "en": "**sanitka** = ambulance. The emergency number in Slovakia, as in the whole EU, is **112**, a free call; the ambulance alone is 155.",
+    "t": "**sanitka** = სასწრაფო დახმარების მანქანა. სლოვაკეთში, როგორც მთელ ევროკავშირსა და საქართველოში, საგანგებო ნომერია **112**, ზარი უფასოა; მხოლოდ სასწრაფო — 155."
+  },
+  "a2-u5-l7.choice-marek-nemoze-vstat.question": {
+    "en": "Marek can't get up. Which number does Tomáš call?",
+    "t": "მარეკი ვერ დგება. რომელ ნომერზე რეკავს ტომაში?"
+  },
+  "a2-u5-l7.choice-marek-nemoze-vstat.options": {
+    "en": [
+      "911",
+      "999",
+      "112"
+    ],
+    "t": [
+      "911",
+      "999",
+      "112"
+    ]
+  },
+  "a2-u5-l7.choice-marek-nemoze-vstat.why": {
+    "en": "**112** is the emergency number all over the EU, Slovakia included. 911 is the American number, 999 the British and Irish one.",
+    "t": "**112** საგანგებო ნომერია მთელ ევროკავშირში, სლოვაკეთის ჩათვლით, და საქართველოშიც. 911 ამერიკული ნომერია, 999 — ბრიტანული და ირლანდიური."
+  },
+  "a2-u5-l7.nemocnica.en": {
+    "en": "hospital",
+    "t": "საავადმყოფო"
+  },
+  "a2-u5-l7.nemocnica.note": {
+    "en": "**v nemocnici** = in hospital; the ambulance takes Marek **do nemocnice**, to the hospital.",
+    "t": "**v nemocnici** = საავადმყოფოში (იქ ყოფნა); სასწრაფოს მარეკი **do nemocnice**, საავადმყოფოში მიჰყავს. ქართულში ორივე „საავადმყოფოში“-ა, სლოვაკურში — არა."
+  },
+  "a2-u5-l7.build-marek-je-v.prompt": {
+    "en": "Marek is in hospital, he's broken his arm.",
+    "t": "მარეკი საავადმყოფოშია, ხელი მოიტეხა."
+  },
+  "a2-u5-l7.build-marek-je-v.traps": {
+    "en": [
+      "In hospital answers “where?”, so **v** takes the locative: v **nemocnici**, like v knižnici.",
+      "Breaking a part of your own body is **zlomiť si**: zlomil **si** ruku."
+    ],
+    "t": [
+      "„საავადმყოფოში“ აქ „სად?“-ს პასუხობს, ამიტომ **v** lokál-ს მოითხოვს: v **nemocnici**, როგორც v knižnici.",
+      "საკუთარი სხეულის ნაწილის მოტეხვა არის **zlomiť si**: zlomil **si** ruku."
+    ]
+  },
+  "a2-u5-l7.pohotovost.en": {
+    "en": "A&E, emergency service",
+    "t": "გადაუდებელი დახმარება, მორიგე ექიმი"
+  },
+  "a2-u5-l7.pohotovost.note": {
+    "en": "The hospital's emergency department, and the doctor on call at night and at weekends, when your own doctor isn't seeing patients.",
+    "t": "საავადმყოფოს გადაუდებელი დახმარების განყოფილება, ასევე მორიგე ექიმი ღამით და შაბათ-კვირას, როცა თქვენი ექიმი პაციენტებს არ იღებს."
+  },
+  "a2-u5-l7.fill-lekarka-dnes-neordinuje.en": {
+    "en": "The doctor isn't seeing patients today, we have to go to A&E.",
+    "t": "ექიმი დღეს პაციენტებს არ იღებს, გადაუდებელ განყოფილებაში უნდა წავიდეთ."
+  },
+  "a2-u5-l7.fill-lekarka-dnes-neordinuje.why": {
+    "en": "Going there: **na** + the object form. Pohotovosť is feminine and ends in a consonant, so it doesn't change: na **pohotovosť**. Na pohotovosti is being there.",
+    "t": "იქ წასვლა: **na** + ობიექტის ფორმა. Pohotovosť მდედრობითია და თანხმოვანზე ბოლოვდება, ამიტომ არ იცვლება: na **pohotovosť**. Na pohotovosti იქ ყოფნაა."
+  },
+  "a2-u5-l7.match-lyzovat.pairs": {
+    "en": [
+      "skiing trip",
+      "to fall",
+      "ambulance",
+      "hospital",
+      "A&E"
+    ],
+    "t": [
+      "სათხილამურო გასვლა",
+      "დაცემა",
+      "სასწრაფო",
+      "საავადმყოფო",
+      "გადაუდებელი განყოფილება"
+    ]
+  },
+  "a2-u5-l7.speak-zavolaj-sanitku-marek.en": {
+    "en": "Call an ambulance! Marek has fallen.",
+    "t": "სასწრაფო გამოიძახე! მარეკი წაიქცა."
+  },
+  "a2-u5-l7.build-tomas-isiel-s.answers": {
+    "en": [
+      "Tomáš went to the hospital with Marek.",
+      "Tomáš went to hospital with Marek.",
+      "Tomáš went with Marek to the hospital."
+    ],
+    "t": [
+      "ტომაში მარეკთან ერთად საავადმყოფოში წავიდა.",
+      "ტომაში საავადმყოფოში მარეკთან ერთად წავიდა.",
+      "ტომაში მარეკს საავადმყოფოში გაჰყვა."
+    ]
+  },
+  "a2-u5-l7.build-tomas-isiel-s.distractors": {
+    "en": [
+      "mountains",
+      "home"
+    ],
+    "t": [
+      "მთაში",
+      "სახლში"
+    ]
+  },
+  "a2-u5-l8.titleEn": {
+    "en": "In hospital",
+    "t": "საავადმყოფოში"
+  },
+  "a2-u5-l8.kde-vas-boli.en": {
+    "en": "Where does it hurt?",
+    "t": "სად გტკივათ?"
+  },
+  "a2-u5-l8.kde-vas-boli.note": {
+    "en": "To a friend: **Kde ťa bolí?** The answer can be just **Tu.** (Here.)",
+    "t": "მეგობარს: **Kde ťa bolí?** (სად გტკივა?) პასუხი შეიძლება უბრალოდ **Tu.** (აქ.) იყოს."
+  },
+  "a2-u5-l8.choice-dobry-den-volam.question": {
+    "en": "Who is talking to Marek at A&E?",
+    "t": "ვინ ელაპარაკება მარეკს გადაუდებელ განყოფილებაში?"
+  },
+  "a2-u5-l8.choice-dobry-den-volam.options": {
+    "en": [
+      "the nurse",
+      "the pharmacist",
+      "the doctor"
+    ],
+    "t": [
+      "ექთანი",
+      "ფარმაცევტი",
+      "ექიმი"
+    ]
+  },
+  "a2-u5-l8.zlomenina.en": {
+    "en": "fracture, break",
+    "t": "მოტეხილობა"
+  },
+  "a2-u5-l8.zlomenina.note": {
+    "en": "From **zlomiť**: Je to zlomenina. = It's a fracture. The doctor sees it on the X-ray, the **snímka**.",
+    "t": "**zlomiť**-იდან: Je to zlomenina. = ეს მოტეხილობაა. ექიმი მას რენტგენის სურათზე, **snímka**-ზე ხედავს."
+  },
+  "a2-u5-l8.sadra.en": {
+    "en": "plaster cast",
+    "t": "თაბაშირი"
+  },
+  "a2-u5-l8.sadra.note": {
+    "en": "**Ruka bude v sadre** šesť týždňov. = The arm will be in plaster for six weeks.",
+    "t": "**Ruka bude v sadre** šesť týždňov. = ხელი ექვსი კვირა თაბაშირში იქნება."
+  },
+  "a2-u5-l8.fill-ruka-bude-sest.en": {
+    "en": "The arm will be in plaster for six weeks.",
+    "t": "ხელი ექვსი კვირა თაბაშირში იქნება."
+  },
+  "a2-u5-l8.fill-ruka-bude-sest.why": {
+    "en": "**V** answering “where?” takes the locative, and sadra changes -a to **-e**: v **sadre**, like v škole.",
+    "t": "„სად?“-ზე პასუხად **v** lokál-ს მოითხოვს, sadra კი -a-ს **-e**-თი ცვლის: v **sadre**, როგორც v škole."
+  },
+  "a2-u5-l8.byt-na-pn-ke.en": {
+    "en": "to be on sick leave",
+    "t": "ბიულეტენზე ყოფნა"
+  },
+  "a2-u5-l8.byt-na-pn-ke.note": {
+    "en": "**PN** is said pé en, and a **PN-ka** (péenka) is a sick note. The official word is **práceneschopný**, unable to work.",
+    "t": "**PN** წარმოითქმის „პე-ენ“, **PN-ka** (péenka) კი ავადმყოფობის ფურცელია, ბიულეტენი. ოფიციალური სიტყვაა **práceneschopný**, შრომისუუნარო."
+  },
+  "a2-u5-l8.choice-sest-tyzdnov-budete.question": {
+    "en": "What does Veronika tell Marek?",
+    "t": "რას ეუბნება ვერონიკა მარეკს?"
+  },
+  "a2-u5-l8.choice-sest-tyzdnov-budete.options": {
+    "en": [
+      "He'll be in hospital for six weeks.",
+      "He'll be on sick leave for six weeks.",
+      "He has to come back in six weeks."
+    ],
+    "t": [
+      "ექვსი კვირა საავადმყოფოში იქნება.",
+      "ექვსი კვირა ბიულეტენზე იქნება.",
+      "ექვს კვირაში უკან უნდა მოვიდეს."
+    ]
+  },
+  "a2-u5-l8.praca-vam-neutecie.en": {
+    "en": "Work can wait.",
+    "t": "საქმე არსად გაგექცევათ."
+  },
+  "a2-u5-l8.praca-vam-neutecie.note": {
+    "en": "Literally “work won't run away from you”, from **utiecť** (to run away). To a friend: **Práca ti neutečie.**",
+    "t": "სიტყვასიტყვით „სამსახური არ გაგექცევათ“, **utiecť**-იდან (გაქცევა); ქართულიც ასე ამბობს: საქმე არსად გაიქცევა. მეგობარს: **Práca ti neutečie.**"
+  },
+  "a2-u5-l8.build-ale-musim-ist.prompt": {
+    "en": "But I have to go to work, I'm a cook!",
+    "t": "მაგრამ სამსახურში უნდა წავიდე, მზარეული ვარ!"
+  },
+  "a2-u5-l8.build-ale-musim-ist.traps": {
+    "en": [
+      "You know **do práce** as a phrase: after do (to), práca changes -a to **-e**.",
+      "Marek is a man, so he's a **kuchár**. Kuchárka is a woman cook."
+    ],
+    "t": [
+      "**do práce** მზა ფრაზად იცით: do-ს შემდეგ práca -a-ს **-e**-თი ცვლის.",
+      "მარეკი კაცია, ამიტომ ის **kuchár**-ია. Kuchárka ქალი მზარეულია."
+    ]
+  },
+  "a2-u5-l8.fill-marek-praca-ti.en": {
+    "en": "Lucia to her brother: “Marek, work can wait!”",
+    "t": "ლუცია ძმას: „მარეკ, საქმე არსად გაგექცევა!“"
+  },
+  "a2-u5-l8.fill-marek-praca-ti.why": {
+    "en": "Lucia is talking to her brother, so it's ty: práca **ti** neutečie. Veronika, his doctor, says vám.",
+    "t": "ლუცია ძმას ელაპარაკება, ამიტომ ty: práca **ti** neutečie. ვერონიკა, მისი ექიმი, vám-ს ამბობს."
+  },
+  "a2-u5-l8.som-nahnevany.question": {
+    "en": "Marek can't cook for six weeks. What does he mean?",
+    "t": "მარეკს ექვსი კვირა საჭმლის მომზადება არ შეუძლია. რას გულისხმობს?"
+  },
+  "a2-u5-l8.som-nahnevany.options": {
+    "en": [
+      "I'm tired.",
+      "I'm cross.",
+      "I'm pale."
+    ],
+    "t": [
+      "დაღლილი ვარ.",
+      "გაბრაზებული ვარ.",
+      "ფერმკრთალი ვარ."
+    ]
+  },
+  "a2-u5-l8.fill-lucia-je-nahnevana.en": {
+    "en": "Lucia is cross.",
+    "t": "ლუცია გაბრაზებულია."
+  },
+  "a2-u5-l8.fill-lucia-je-nahnevana.why": {
+    "en": "Lucia is a woman, so the adjective takes the feminine **-á**: nahnevan**á**.",
+    "t": "ლუცია ქალია, ამიტომ ზედსართავი მდედრობით **-á**-ს იღებს: nahnevan**á**."
+  },
+  "a2-u5-l8.match-snimka.pairs": {
+    "en": [
+      "X-ray",
+      "plaster cast",
+      "fracture",
+      "to be on sick leave",
+      "angry"
+    ],
+    "t": [
+      "რენტგენის სურათი",
+      "თაბაშირი",
+      "მოტეხილობა",
+      "ბიულეტენზე ყოფნა",
+      "გაბრაზებული"
+    ]
+  },
+  "a2-u5-l8.choice-musite-si-oddychnut.question": {
+    "en": "What does Veronika tell Marek before he goes home?",
+    "t": "რას ეუბნება ვერონიკა მარეკს, სანამ ის სახლში წავა?"
+  },
+  "a2-u5-l8.choice-musite-si-oddychnut.options": {
+    "en": [
+      "You need to work less. Rest can wait.",
+      "You need to rest. Work can wait.",
+      "You can go back to work soon."
+    ],
+    "t": [
+      "ნაკლები უნდა იმუშაოთ. დასვენება მოიცდის.",
+      "უნდა დაისვენოთ. საქმე მოიცდის.",
+      "მალე შეძლებთ სამსახურში დაბრუნებას."
+    ]
+  },
+  "a2-u5-l8.speak-kde-vas-boli.en": {
+    "en": "Where does it hurt?",
+    "t": "სად გტკივათ?"
+  },
+  "a2-u5-l8.build-ta-mlada-lekarka.answers": {
+    "en": [
+      "That young doctor was very nice.",
+      "The young doctor was very nice.",
+      "That young doctor was very kind.",
+      "The young doctor was very kind."
+    ],
+    "t": [
+      "ის ახალგაზრდა ექიმი ძალიან კეთილი იყო.",
+      "ის ახალგაზრდა ექიმი ძალიან საყვარელი იყო.",
+      "ის ახალგაზრდა ექიმი ძალიან სასიამოვნო იყო."
+    ]
+  },
+  "a2-u5-l8.build-ta-mlada-lekarka.distractors": {
+    "en": [
+      "old",
+      "nurse"
+    ],
+    "t": [
+      "მოხუცი",
+      "ექთანი"
+    ]
+  },
+  "a2-u5-l9.titleEn": {
+    "en": "The human body",
+    "t": "ადამიანის სხეული"
+  },
+  "a2-u5-l9.hlava-a-krk.en": {
+    "en": "head and neck",
+    "t": "თავი და კისერი"
+  },
+  "a2-u5-l9.hlava-a-krk.note": {
+    "en": "**krk** = neck. Slovaks also say Bolí ma krk for a sore throat.",
+    "t": "**krk** = კისერი. სლოვაკები ყელის ტკივილზეც ამბობენ: Bolí ma krk."
+  },
+  "a2-u5-l9.rameno-a-ruka.en": {
+    "en": "shoulder and arm",
+    "t": "მხარი და ხელი"
+  },
+  "a2-u5-l9.rameno-a-ruka.note": {
+    "en": "**rameno** = shoulder (also **plece**). On the hand: **prsty** (fingers; one is a prst) and the **palec** (thumb).",
+    "t": "**rameno** = მხარი (ასევე **plece**). ხელზე: **prsty** (თითები; ერთი — prst) და **palec** (ცერი)."
+  },
+  "a2-u5-l9.match-krk.pairs": {
+    "en": [
+      "head",
+      "neck",
+      "shoulder",
+      "arm, hand",
+      "finger"
+    ],
+    "t": [
+      "თავი",
+      "კისერი",
+      "მხარი",
+      "ხელი",
+      "თითი"
+    ]
+  },
+  "a2-u5-l9.chrbat-a-brucho.en": {
+    "en": "back and stomach",
+    "t": "ზურგი და მუცელი"
+  },
+  "a2-u5-l9.chrbat-a-brucho.note": {
+    "en": "Bolí ma chrbát. = My back hurts. Bolí ma brucho. = I've got a stomach ache.",
+    "t": "Bolí ma chrbát. = ზურგი მტკივა. Bolí ma brucho. = მუცელი მტკივა."
+  },
+  "a2-u5-l9.noha-a-koleno.en": {
+    "en": "leg and knee",
+    "t": "ფეხი და მუხლი"
+  },
+  "a2-u5-l9.noha-a-koleno.note": {
+    "en": "Plurals: **nohy, kolená**. Noha is the leg and the foot.",
+    "t": "მრავლობითი: **nohy, kolená**. Noha, როგორც ქართული „ფეხი“, მთელი ფეხიცაა და ტერფიც."
+  },
+  "a2-u5-l9.choice-boli-ma-chrbat.question": {
+    "en": "Where does it hurt?",
+    "t": "სად სტკივა?"
+  },
+  "a2-u5-l9.choice-boli-ma-chrbat.options": {
+    "en": [
+      "neck and knee",
+      "back and shoulder",
+      "stomach and back"
+    ],
+    "t": [
+      "კისერი და მუხლი",
+      "ზურგი და მხარი",
+      "მუცელი და ზურგი"
+    ]
+  },
+  "a2-u5-l9.grammar-boli-or-bolia.title": {
+    "en": "Bolí or bolia?",
+    "t": "Bolí თუ bolia?"
+  },
+  "a2-u5-l9.grammar-boli-or-bolia.body": {
+    "en": [
+      "You know **Bolí ma hlava** and **Bolia ma zuby** from A1: what hurts is the subject of **bolieť**, so one thing **bolí**, more than one **bolia**, and the body part doesn't change.",
+      "The person in pain is the object, as in Emmu bolí hlava. Here are all the short forms, and a name: **Mareka** bolí ruka."
+    ],
+    "t": [
+      "**Bolí ma hlava** და **Bolia ma zuby** A1-დან იცით: ის, რაც გტკივათ, **bolieť**-ის ქვემდებარეა, ამიტომ ერთ რამეზე **bolí**, ერთზე მეტზე — **bolia**, სხეულის ნაწილი კი არ იცვლება. ქართული „მტკივა“ ორივეგან ერთნაირია: თავი მტკივა, კბილები მტკივა.",
+      "ვისაც სტკივა, ის ობიექტია, როგორც Emmu bolí hlava-ში (ემას თავი სტკივა). აი ყველა მოკლე ფორმა და ერთი სახელიც: **Mareka** bolí ruka."
+    ]
+  },
+  "a2-u5-l9.grammar-boli-or-bolia.table.head": {
+    "en": [
+      "",
+      "one thing",
+      "more than one"
+    ],
+    "t": [
+      "",
+      "ერთი რამ",
+      "ერთზე მეტი"
+    ]
+  },
+  "a2-u5-l9.grammar-boli-or-bolia.table.rows": {
+    "en": [
+      [
+        "ja",
+        "**Bolí** ma chrbát.",
+        "**Bolia** ma nohy."
+      ],
+      [
+        "ty",
+        "**Bolí** ťa hlava?",
+        "**Bolia** ťa zuby?"
+      ],
+      [
+        "on",
+        "**Bolí** ho ruka.",
+        "**Bolia** ho prsty."
+      ],
+      [
+        "ona",
+        "**Bolí** ju krk.",
+        "**Bolia** ju kolená."
+      ],
+      [
+        "vy",
+        "**Bolí** vás hrdlo?",
+        "**Bolia** vás ramená?"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "**Bolí** ma chrbát.",
+        "**Bolia** ma nohy."
+      ],
+      [
+        "ty",
+        "**Bolí** ťa hlava?",
+        "**Bolia** ťa zuby?"
+      ],
+      [
+        "on",
+        "**Bolí** ho ruka.",
+        "**Bolia** ho prsty."
+      ],
+      [
+        "ona",
+        "**Bolí** ju krk.",
+        "**Bolia** ju kolená."
+      ],
+      [
+        "vy",
+        "**Bolí** vás hrdlo?",
+        "**Bolia** vás ramená?"
+      ]
+    ]
+  },
+  "a2-u5-l9.grammar-boli-or-bolia.examples": {
+    "en": [
+      "Marek's arm hurts.",
+      "My legs hurt."
+    ],
+    "t": [
+      "მარეკს ხელი სტკივა.",
+      "ფეხები მტკივა."
+    ]
+  },
+  "a2-u5-l9.fill-po-lyzovacke-ma.en": {
+    "en": "My legs hurt after skiing.",
+    "t": "თხილამურების შემდეგ ფეხები მტკივა."
+  },
+  "a2-u5-l9.fill-po-lyzovacke-ma.why": {
+    "en": "Nohy (legs) are more than one thing, and they're the subject, so the verb is **bolia**. Bolí is for one thing.",
+    "t": "Nohy (ფეხები) ერთზე მეტია და ისინი ქვემდებარეა, ამიტომ ზმნა **bolia**-ა. Bolí ერთი რამისთვისაა."
+  },
+  "a2-u5-l9.fill-mareka-boli.en": {
+    "en": "Marek's arm hurts.",
+    "t": "მარეკს ხელი სტკივა."
+  },
+  "a2-u5-l9.fill-mareka-boli.why": {
+    "en": "The arm is what hurts, the subject, so **ruka** doesn't change. Marek is the object: **Mareka**.",
+    "t": "ხელი ის არის, რაც სტკივა, ანუ ქვემდებარე, ამიტომ **ruka** არ იცვლება. მარეკი ობიექტია: **Mareka**."
+  },
+  "a2-u5-l9.laket-a-zapastie.en": {
+    "en": "elbow and wrist",
+    "t": "იდაყვი და მაჯა"
+  },
+  "a2-u5-l9.laket-a-zapastie.note": {
+    "en": "On the arm: **lakeť** (elbow), **zápästie** (wrist), **dlaň** (palm).",
+    "t": "ხელზე: **lakeť** (იდაყვი), **zápästie** (მაჯა), **dlaň** (ხელისგული)."
+  },
+  "a2-u5-l9.clenok-a-pata.en": {
+    "en": "ankle and heel",
+    "t": "კოჭი და ქუსლი"
+  },
+  "a2-u5-l9.clenok-a-pata.note": {
+    "en": "A skier's injury: **Vyvrtol som si členok.** = I've sprained my ankle.",
+    "t": "მოთხილამურის ტრავმა: **Vyvrtol som si členok.** = კოჭი ვიღრძე."
+  },
+  "a2-u5-l9.match-lakete.pairs": {
+    "en": [
+      "elbow",
+      "wrist",
+      "knee",
+      "ankle",
+      "heel"
+    ],
+    "t": [
+      "იდაყვი",
+      "მაჯა",
+      "მუხლი",
+      "კოჭი",
+      "ქუსლი"
+    ]
+  },
+  "a2-u5-l9.choice-ktora-veta-kolena.question": {
+    "en": "Which sentence is correct?",
+    "t": "რომელი წინადადებაა სწორი?"
+  },
+  "a2-u5-l9.choice-ktora-veta-kolena.why": {
+    "en": "Kolená (knees) are more than one thing, so the verb is **bolia**. With one knee: Bolí ma koleno.",
+    "t": "Kolená (მუხლები) ერთზე მეტია, ამიტომ ზმნა **bolia**-ა. ერთი მუხლი: Bolí ma koleno."
+  },
+  "a2-u5-l9.srdce.en": {
+    "en": "heart",
+    "t": "გული"
+  },
+  "a2-u5-l9.srdce.note": {
+    "en": "Neuter, like more: to srdce.",
+    "t": "საშუალო სქესისაა, როგორც more: to srdce."
+  },
+  "a2-u5-l9.fill-tomas-nemoze-hrat.en": {
+    "en": "Tomáš can't play football, his knee hurts.",
+    "t": "ტომაშს ფეხბურთის თამაში არ შეუძლია, მუხლი სტკივა."
+  },
+  "a2-u5-l9.fill-tomas-nemoze-hrat.why": {
+    "en": "Tomáš is **on**, and the object form of on is **ho**: bolí **ho** koleno. Ju is for ona, ma for ja.",
+    "t": "ტომაში **on**-ია, on-ის ობიექტის ფორმა კი **ho**-ა: bolí **ho** koleno. Ju ona-სთვისაა, ma — ja-სთვის."
+  },
+  "a2-u5-l9.build-boli-ta-koleno.prompt": {
+    "en": "Does your knee hurt, Tomáš?",
+    "t": "მუხლი გტკივა, ტომაშ?"
+  },
+  "a2-u5-l9.build-boli-ta-koleno.traps": {
+    "en": [
+      "One knee, one thing: **bolí**. Bolia is for more than one.",
+      "You're asking Tomáš himself (ty), so the object form is **ťa**. Ho would be him."
+    ],
+    "t": [
+      "ერთი მუხლი, ერთი რამ: **bolí**. Bolia ერთზე მეტისთვისაა.",
+      "თავად ტომაშს ეკითხებით (ty), ამიტომ ობიექტის ფორმაა **ťa**. Ho მასზე, მესამე პირზე ითქმის."
+    ]
+  },
+  "a2-u5-l9.build-lucia-nemoze-pisat.answers": {
+    "en": [
+      "Lucia can't write, her finger hurts.",
+      "Lucia can't write because her finger hurts."
+    ],
+    "t": [
+      "ლუციას წერა არ შეუძლია, თითი სტკივა.",
+      "ლუცია ვერ წერს, თითი სტკივა.",
+      "ლუციას წერა არ შეუძლია, რადგან თითი სტკივა."
+    ]
+  },
+  "a2-u5-l9.build-lucia-nemoze-pisat.distractors": {
+    "en": [
+      "hand",
+      "his"
+    ],
+    "t": [
+      "ხელი",
+      "მტკივა"
+    ]
+  },
+  "a2-u5-l9.speak-boli-ma-chrbat.en": {
+    "en": "My back hurts.",
+    "t": "ზურგი მტკივა."
+  },
+  "a2-u5-l10.titleEn": {
+    "en": "The face",
+    "t": "სახე"
+  },
+  "a2-u5-l10.tvar.en": {
+    "en": "face",
+    "t": "სახე"
+  },
+  "a2-u5-l10.tvar.note": {
+    "en": "Feminine, like posteľ: tá tvár. Má peknú tvár. = She has a pretty face.",
+    "t": "მდედრობითია, როგორც posteľ: tá tvár. Má peknú tvár. = ლამაზი სახე აქვს."
+  },
+  "a2-u5-l10.oci-a-usi.en": {
+    "en": "eyes and ears",
+    "t": "თვალები და ყურები"
+  },
+  "a2-u5-l10.oci-a-usi.note": {
+    "en": "One eye is **oko** and one ear **ucho**, but two are **oči** and **uši**, plurals of their own: Mám modré oči.",
+    "t": "ერთი თვალი **oko**-ა, ერთი ყური — **ucho**, ორი კი **oči** და **uši**, საკუთარი მრავლობითით: Mám modré oči. (ცისფერი თვალები მაქვს.)"
+  },
+  "a2-u5-l10.nos-a-usta.en": {
+    "en": "nose and mouth",
+    "t": "ცხვირი და პირი"
+  },
+  "a2-u5-l10.nos-a-usta.note": {
+    "en": "**ústa** exists only in the plural: Ústa **sú**… In the mouth are **zuby** (teeth) and the **jazyk** (tongue); around it, the **pery** (lips).",
+    "t": "**ústa** მხოლოდ მრავლობითში არსებობს: Ústa **sú**… პირში არის **zuby** (კბილები) და **jazyk** (ენა), ირგვლივ კი — **pery** (ტუჩები)."
+  },
+  "a2-u5-l10.match-tvar.pairs": {
+    "en": [
+      "face",
+      "eyes",
+      "ears",
+      "nose",
+      "mouth"
+    ],
+    "t": [
+      "სახე",
+      "თვალები",
+      "ყურები",
+      "ცხვირი",
+      "პირი"
+    ]
+  },
+  "a2-u5-l10.fill-veronika-ma-dlhe.en": {
+    "en": "Veronika has long dark hair.",
+    "t": "ვერონიკას გრძელი მუქი თმა აქვს."
+  },
+  "a2-u5-l10.fill-veronika-ma-dlhe.why": {
+    "en": "Hair is plural in Slovak, **vlasy**, and so are its adjectives: dlhé tmavé **vlasy**.",
+    "t": "სლოვაკურში თმა მრავლობითშია, **vlasy**, და მისი ზედსართავებიც: dlhé tmavé **vlasy**. ქართული „თმა“ მხოლობითია, ამიტომ ეს ადვილად გამოგრჩებათ."
+  },
+  "a2-u5-l10.choice-marek-ma-kratke.question": {
+    "en": "What does Marek look like?",
+    "t": "როგორ გამოიყურება მარეკი?"
+  },
+  "a2-u5-l10.choice-marek-ma-kratke.options": {
+    "en": [
+      "He has short curly hair.",
+      "He has long straight hair.",
+      "He has a short beard."
+    ],
+    "t": [
+      "მოკლე ხვეული თმა აქვს.",
+      "გრძელი სწორი თმა აქვს.",
+      "მოკლე წვერი აქვს."
+    ]
+  },
+  "a2-u5-l10.fill-veronika-ma-stihlu.en": {
+    "en": "Veronika is slim.",
+    "t": "ვერონიკა მოხდენილი აღნაგობისაა."
+  },
+  "a2-u5-l10.fill-veronika-ma-stihlu.why": {
+    "en": "Her figure is what she has, the object, so postava changes -a to **-u**, like štíhla → štíhl**u**: má štíhlu **postavu**.",
+    "t": "აღნაგობა ის არის, რაც მას აქვს, ანუ ობიექტი, ამიტომ postava -a-ს **-u**-თი ცვლის, ისევე როგორც štíhla → štíhl**u**: má štíhlu **postavu**."
+  },
+  "a2-u5-l10.build-veronika-je-vysoka.prompt": {
+    "en": "Veronika is tall and slim, she has big dark eyes.",
+    "t": "ვერონიკა მაღალი და გამხდარია, დიდი მუქი თვალები აქვს."
+  },
+  "a2-u5-l10.build-veronika-je-vysoka.traps": {
+    "en": [
+      "Veronika is a woman, so the adjective is feminine. After the long í the ending stays short: **štíhla**, not štíhlá.",
+      "Two eyes are **oči**, a plural of its own. Oko is one eye."
+    ],
+    "t": [
+      "ვერონიკა ქალია, ამიტომ ზედსართავი მდედრობითშია. გრძელი í-ს შემდეგ დაბოლოება მოკლე რჩება: **štíhla** და არა štíhlá.",
+      "ორი თვალი არის **oči**, საკუთარი მრავლობითი. Oko ერთი თვალია."
+    ]
+  },
+  "a2-u5-l10.choice-marek-velmi-casto.question": {
+    "en": "What does Lucia notice?",
+    "t": "რას ამჩნევს ლუცია?"
+  },
+  "a2-u5-l10.choice-marek-velmi-casto.options": {
+    "en": [
+      "Marek often talks to Veronika on the phone.",
+      "Marek talks about Veronika a lot.",
+      "Marek is often at Veronika's."
+    ],
+    "t": [
+      "მარეკი ვერონიკას ხშირად ელაპარაკება ტელეფონით.",
+      "მარეკი ვერონიკაზე ბევრს ლაპარაკობს.",
+      "მარეკი ხშირად არის ვერონიკასთან."
+    ]
+  },
+  "a2-u5-l10.fill-tomas-je-vyssi.en": {
+    "en": "Tomáš is taller than Marek.",
+    "t": "ტომაში მარეკზე მაღალია."
+  },
+  "a2-u5-l10.fill-tomas-je-vyssi.why": {
+    "en": "Comparing two people: **vyšší ako** = taller than.",
+    "t": "ორი ადამიანის შედარება: **vyšší ako** = უფრო მაღალი, ვიდრე (ქართულად: -ზე მაღალი)."
+  },
+  "a2-u5-l10.speak-ma-modre-oci.en": {
+    "en": "She has blue eyes and long hair.",
+    "t": "ცისფერი თვალები და გრძელი თმა აქვს."
+  },
+  "a2-u5-l10.build-lucia-ma-okuliare.answers": {
+    "en": [
+      "Lucia has glasses and long dark hair.",
+      "Lucia wears glasses and has long dark hair."
+    ],
+    "t": [
+      "ლუციას სათვალე და გრძელი მუქი თმა აქვს.",
+      "ლუცია სათვალეს ატარებს და გრძელი მუქი თმა აქვს.",
+      "ლუციას აქვს სათვალე და გრძელი მუქი თმა."
+    ]
+  },
+  "a2-u5-l10.build-lucia-ma-okuliare.distractors": {
+    "en": [
+      "short",
+      "beard"
+    ],
+    "t": [
+      "მოკლე",
+      "წვერი"
+    ]
+  },
+  "a2-u5-l11.titleEn": {
+    "en": "Which doctor?",
+    "t": "რომელ ექიმთან?"
+  },
+  "a2-u5-l11.zubar.en": {
+    "en": "dentist",
+    "t": "კბილის ექიმი"
+  },
+  "a2-u5-l11.zubar.note": {
+    "en": "The everyday word for **zubný lekár**. Ísť **k zubárovi** = to go to the dentist.",
+    "t": "**zubný lekár**-ის ყოველდღიური სიტყვა. Ísť **k zubárovi** = კბილის ექიმთან წასვლა."
+  },
+  "a2-u5-l11.vseobecny-lekar.en": {
+    "en": "GP, family doctor",
+    "t": "ოჯახის ექიმი"
+  },
+  "a2-u5-l11.vseobecny-lekar.note": {
+    "en": "Your first doctor, for colds, flu and sick notes.",
+    "t": "თქვენი პირველი ექიმი — გაციების, გრიპისა და ბიულეტენისთვის."
+  },
+  "a2-u5-l11.grammar-adjectives-from-nouns.title": {
+    "en": "Adjectives from nouns: -ný, -ský",
+    "t": "ზედსართავები არსებითი სახელებიდან: -ný, -ský"
+  },
+  "a2-u5-l11.grammar-adjectives-from-nouns.body": {
+    "en": [
+      "Many adjectives are made from nouns with **-ný** or **-ský**, and doctors are named this way: zub (tooth) → **zubný** lekár, a dentist.",
+      "They take the usual endings: zubný lekár, zubná lekárka, zubné problémy."
+    ],
+    "t": [
+      "ბევრი ზედსართავი არსებითი სახელისგან **-ný**-ით ან **-ský**-ით იწარმოება, და ექიმებსაც ასე ჰქვიათ: zub (კბილი) → **zubný** lekár, კბილის ექიმი. ქართული აქ ნათესაობითს იყენებს (კბილის ექიმი), სლოვაკური კი — ზედსართავს.",
+      "მათ ჩვეულებრივი დაბოლოებები აქვთ: zubný lekár, zubná lekárka, zubné problémy."
+    ]
+  },
+  "a2-u5-l11.grammar-adjectives-from-nouns.table.head": {
+    "en": [
+      "noun",
+      "adjective",
+      "doctor"
+    ],
+    "t": [
+      "არსებითი სახელი",
+      "ზედსართავი",
+      "ექიმი"
+    ]
+  },
+  "a2-u5-l11.grammar-adjectives-from-nouns.table.rows": {
+    "en": [
+      [
+        "zub (tooth)",
+        "zub**ný**",
+        "zubný lekár (dentist)"
+      ],
+      [
+        "oči (eyes)",
+        "oč**ný**",
+        "očný lekár (eye doctor)"
+      ],
+      [
+        "uši (ears)",
+        "uš**ný**",
+        "ušný lekár (ear doctor)"
+      ],
+      [
+        "koža (skin)",
+        "kož**ný**",
+        "kožný lekár (skin doctor)"
+      ],
+      [
+        "dieťa (child)",
+        "det**ský**",
+        "detský lekár (children's doctor)"
+      ],
+      [
+        "žena (woman)",
+        "žen**ský**",
+        "ženský lekár (gynaecologist)"
+      ]
+    ],
+    "t": [
+      [
+        "zub (კბილი)",
+        "zub**ný**",
+        "zubný lekár (კბილის ექიმი)"
+      ],
+      [
+        "oči (თვალები)",
+        "oč**ný**",
+        "očný lekár (თვალის ექიმი)"
+      ],
+      [
+        "uši (ყურები)",
+        "uš**ný**",
+        "ušný lekár (ყურის ექიმი)"
+      ],
+      [
+        "koža (კანი)",
+        "kož**ný**",
+        "kožný lekár (კანის ექიმი)"
+      ],
+      [
+        "dieťa (ბავშვი)",
+        "det**ský**",
+        "detský lekár (ბავშვთა ექიმი, პედიატრი)"
+      ],
+      [
+        "žena (ქალი)",
+        "žen**ský**",
+        "ženský lekár (გინეკოლოგი)"
+      ]
+    ]
+  },
+  "a2-u5-l11.grammar-adjectives-from-nouns.examples": {
+    "en": [
+      "I've got toothache, I need a dentist.",
+      "Is your mum a children's doctor?"
+    ],
+    "t": [
+      "კბილი მტკივა, კბილის ექიმი მჭირდება.",
+      "შენი დედა ბავშვთა ექიმია?"
+    ]
+  },
+  "a2-u5-l11.choice-emma-boli-zub.question": {
+    "en": "Emma has toothache. Who does she go to?",
+    "t": "ემას კბილი სტკივა. ვისთან მიდის?"
+  },
+  "a2-u5-l11.choice-emma-boli-zub.why": {
+    "en": "A tooth is **zub**, so the tooth doctor is the **zubný** lekár, or zubár: k **zubárovi**.",
+    "t": "კბილი არის **zub**, ამიტომ კბილის ექიმი არის **zubný** lekár, ანუ zubár: k **zubárovi**."
+  },
+  "a2-u5-l11.koza.en": {
+    "en": "skin",
+    "t": "კანი"
+  },
+  "a2-u5-l11.koza.note": {
+    "en": "So a skin doctor is a **kožný lekár**.",
+    "t": "ამიტომ კანის ექიმი არის **kožný lekár**."
+  },
+  "a2-u5-l11.nevidim-dobre.en": {
+    "en": "I can't see well.",
+    "t": "კარგად ვერ ვხედავ."
+  },
+  "a2-u5-l11.nevidim-dobre.note": {
+    "en": "**vidieť** = to see, **počuť** = to hear: **Nepočujem dobre.** = I can't hear well.",
+    "t": "**vidieť** = ხედვა, **počuť** = სმენა: **Nepočujem dobre.** = კარგად ვერ მესმის."
+  },
+  "a2-u5-l11.fill-nevidim-dobre-musim.en": {
+    "en": "I can't see well, I have to go to the eye doctor.",
+    "t": "კარგად ვერ ვხედავ, თვალის ექიმთან უნდა წავიდე."
+  },
+  "a2-u5-l11.fill-nevidim-dobre-musim.why": {
+    "en": "You see with your eyes, **oči**, so the eye doctor is the **očný** lekár (after k, očnému).",
+    "t": "თვალებით, **oči**-თი ხედავთ, ამიტომ თვალის ექიმი არის **očný** lekár (k-ს შემდეგ — očnému)."
+  },
+  "a2-u5-l11.fill-moja-sestra-je.en": {
+    "en": "My sister is a children's doctor, she works with children.",
+    "t": "ჩემი და ბავშვთა ექიმია, ბავშვებთან მუშაობს."
+  },
+  "a2-u5-l11.fill-moja-sestra-je.why": {
+    "en": "**Detský** comes from dieťa (child), and a woman doctor takes the feminine ending: **detská** lekárka.",
+    "t": "**Detský** dieťa-დან (ბავშვი) მოდის, ექიმი ქალი კი მდედრობით დაბოლოებას იღებს: **detská** lekárka."
+  },
+  "a2-u5-l11.bolest.en": {
+    "en": "pain, ache",
+    "t": "ტკივილი"
+  },
+  "a2-u5-l11.bolest.note": {
+    "en": "**bolesť hlavy** = a headache, **bolesť zubov** = toothache. Lucia's babka says a **prechádzka** (a walk) helps more than pills.",
+    "t": "**bolesť hlavy** = თავის ტკივილი, **bolesť zubov** = კბილის ტკივილი; hlavy და zubov აქ ქართული „თავის“, „კბილის“ ფორმაა, რომელსაც ეს თავი მალე აგიხსნით. ლუციას ბებია ამბობს, რომ **prechádzka** (გასეირნება) აბებზე მეტად შველის."
+  },
+  "a2-u5-l11.choice-na-bolest-hlavy.question": {
+    "en": "What helps a headache, says Lucia's grandmother?",
+    "t": "ლუციას ბებიის თქმით, რა შველის თავის ტკივილს?"
+  },
+  "a2-u5-l11.choice-na-bolest-hlavy.options": {
+    "en": [
+      "pills, not a walk",
+      "sleep and pills",
+      "a walk, not pills"
+    ],
+    "t": [
+      "აბები და არა გასეირნება",
+      "ძილი და აბები",
+      "გასეირნება და არა აბები"
+    ]
+  },
+  "a2-u5-l11.match-zubar.pairs": {
+    "en": [
+      "dentist",
+      "eye doctor",
+      "ear doctor",
+      "skin doctor",
+      "children's doctor"
+    ],
+    "t": [
+      "კბილის ექიმი",
+      "თვალის ექიმი",
+      "ყურის ექიმი",
+      "კანის ექიმი",
+      "ბავშვთა ექიმი"
+    ]
+  },
+  "a2-u5-l11.build-boli-ma-zub.prompt": {
+    "en": "I've got toothache, I'm going to the dentist.",
+    "t": "კბილი მტკივა, კბილის ექიმთან მივდივარ."
+  },
+  "a2-u5-l11.build-boli-ma-zub.traps": {
+    "en": [
+      "Going **to** a person is **k** + the to-whom form: k **zubárovi**, like k lekárovi.",
+      "One tooth hurts, one thing, so it's **bolí**."
+    ],
+    "t": [
+      "ადამიანთან მისვლა არის **k** + „ვის?“ ფორმა (datív): k **zubárovi**, როგორც k lekárovi.",
+      "ერთი კბილი მტკივა, ერთი რამ, ამიტომ **bolí**."
+    ]
+  },
+  "a2-u5-l11.choice-pan-kovac-nepocuje.question": {
+    "en": "Pán Kováč says: Nepočujem dobre. Which doctor should he see?",
+    "t": "ბატონი კოვაჩი ამბობს: Nepočujem dobre. რომელ ექიმთან უნდა წავიდეს?"
+  },
+  "a2-u5-l11.choice-pan-kovac-nepocuje.why": {
+    "en": "He can't hear well, and you hear with your ears, **uši**: the ear doctor, the **ušný** lekár.",
+    "t": "კარგად არ ესმის, გვესმის კი ყურებით, **uši**-თი: ყურის ექიმი, **ušný** lekár."
+  },
+  "a2-u5-l11.speak-prepacte-nepocujem-dobre.en": {
+    "en": "Sorry, I can't hear well.",
+    "t": "უკაცრავად, კარგად ვერ მესმის."
+  },
+  "a2-u5-l11.build-luciina-mama-pracuje.answers": {
+    "en": [
+      "Lucia's mum works as a nurse in Žilina.",
+      "Lucia's mother works as a nurse in Žilina."
+    ],
+    "t": [
+      "ლუციას დედა ჟილინაში ექთნად მუშაობს.",
+      "ლუციას დედა ექთნად მუშაობს ჟილინაში.",
+      "ლუციას დედა ჟილინაში ექთანია."
+    ]
+  },
+  "a2-u5-l11.build-luciina-mama-pracuje.distractors": {
+    "en": [
+      "doctor",
+      "Bratislava"
+    ],
+    "t": [
+      "ექიმად",
+      "ბრატისლავაში"
+    ]
+  },
+  "a2-u5-l12.titleEn": {
+    "en": "The genitive",
+    "t": "Genitív: ვისი? რისი?"
+  },
+  "a2-u5-l12.grammar-genitive-koho-coho.title": {
+    "en": "The genitive: do, z, od, bez, u",
+    "t": "Genitív: do, z, od, bez, u"
+  },
+  "a2-u5-l12.grammar-genitive-koho-coho.body": {
+    "en": [
+      "You already know **do kina**, **do práce** and **z Írska**. After do, z and a few other little words, a noun takes the **genitive** (genitív), the “of” case. Its questions are **koho?** (whom?) and **čoho?** (what?). Koho? is also the object question you know (Koho hľadáš?); the end of this unit sorts the two out.",
+      "These little words are prepositions. Learn each one with its meaning: the genitive always follows them."
+    ],
+    "t": [
+      "**do kina**, **do práce** და **z Írska** უკვე იცით. do-ს, z-ისა და რამდენიმე სხვა პატარა სიტყვის შემდეგ არსებითი სახელი **genitív**-ში (ნათესაობით ბრუნვაში) დგება. მისი კითხვებია **koho?** (ვისი?) და **čoho?** (რისი?), როგორც ქართული ნათესაობითისა. Koho? ასევე ობიექტის კითხვაა, რომელიც იცით (Koho hľadáš? — ვის ეძებ?); მათ ერთმანეთისგან ამ თავის ბოლოს გავარჩევთ.",
+      "ეს პატარა სიტყვები წინდებულებია: სლოვაკურში ისინი სახელის წინ დგას, ქართული თანდებულები კი — ბოლოში (წყლის გარეშე). ისწავლეთ თითოეული თავისი მნიშვნელობით: მათ შემდეგ ყოველთვის genitív მოდის."
+    ]
+  },
+  "a2-u5-l12.grammar-genitive-koho-coho.table.head": {
+    "en": [
+      "word",
+      "meaning",
+      "example"
+    ],
+    "t": [
+      "სიტყვა",
+      "მნიშვნელობა",
+      "მაგალითი"
+    ]
+  },
+  "a2-u5-l12.grammar-genitive-koho-coho.table.rows": {
+    "en": [
+      [
+        "do",
+        "to, into",
+        "do lekár**ne**"
+      ],
+      [
+        "z, zo",
+        "from, out of",
+        "z nemocnic**e**"
+      ],
+      [
+        "od",
+        "from (someone)",
+        "od lekárk**y**"
+      ],
+      [
+        "bez",
+        "without",
+        "bez vod**y**"
+      ],
+      [
+        "u",
+        "at someone's",
+        "u kamarátk**y**"
+      ]
+    ],
+    "t": [
+      [
+        "do",
+        "-ში (სადმე შესვლა)",
+        "do lekár**ne**"
+      ],
+      [
+        "z, zo",
+        "-დან (შიგნიდან)",
+        "z nemocnic**e**"
+      ],
+      [
+        "od",
+        "-გან (ვინმესგან)",
+        "od lekárk**y**"
+      ],
+      [
+        "bez",
+        "გარეშე",
+        "bez vod**y**"
+      ],
+      [
+        "u",
+        "ვინმესთან (მის სახლში)",
+        "u kamarátk**y**"
+      ]
+    ]
+  },
+  "a2-u5-l12.grammar-genitive-koho-coho.examples": {
+    "en": [
+      "Emma is going to the pharmacy.",
+      "I've got a prescription from the doctor."
+    ],
+    "t": [
+      "ემა აფთიაქში მიდის.",
+      "ექიმისგან რეცეპტი მაქვს."
+    ]
+  },
+  "a2-u5-l12.grammar-genitive-feminine.title": {
+    "en": "Feminine nouns: -y, -e, -i",
+    "t": "მდედრობითი სახელები: -y, -e, -i"
+  },
+  "a2-u5-l12.grammar-genitive-feminine.body": {
+    "en": [
+      "Most feminine nouns change -a to **-y**: lekárka → od lekárk**y**. After a soft letter it's **-e**: nemocnica → z nemocnic**e**, and -ia becomes **-ie**: kancelária → z kancelári**e**.",
+      "Feminine nouns ending in a consonant take **-e** too: lekáreň → do lekárn**e**. Those in **-osť** take **-i**: pohotovosť → z pohotovost**i**."
+    ],
+    "t": [
+      "მდედრობითი სახელების უმეტესობა -a-ს **-y**-ით ცვლის: lekárka → od lekárk**y**. რბილი ასოს შემდეგ **-e**-ა: nemocnica → z nemocnic**e**, -ia კი **-ie** ხდება: kancelária → z kancelári**e**.",
+      "თანხმოვანზე დაბოლოებული მდედრობითი სახელებიც **-e**-ს იღებს: lekáreň → do lekárn**e**. **-osť**-ზე დაბოლოებულები კი **-i**-ს: pohotovosť → z pohotovost**i**."
+    ]
+  },
+  "a2-u5-l12.grammar-genitive-feminine.table.head": {
+    "en": [
+      "",
+      "who? what?",
+      "genitive"
+    ],
+    "t": [
+      "",
+      "ვინ? რა?",
+      "genitív"
+    ]
+  },
+  "a2-u5-l12.grammar-genitive-feminine.table.rows": {
+    "en": [
+      [
+        "-a → -y",
+        "lekárka, voda",
+        "lekárk**y**, vod**y**"
+      ],
+      [
+        "soft -a → -e",
+        "nemocnica, ulica",
+        "nemocnic**e**, ulic**e**"
+      ],
+      [
+        "-ia → -ie",
+        "kancelária",
+        "kancelári**e**"
+      ],
+      [
+        "consonant → -e",
+        "lekáreň, posteľ",
+        "lekárn**e**, postel**e**"
+      ],
+      [
+        "-osť → -i",
+        "pohotovosť",
+        "pohotovost**i**"
+      ]
+    ],
+    "t": [
+      [
+        "-a → -y",
+        "lekárka, voda",
+        "lekárk**y**, vod**y**"
+      ],
+      [
+        "რბილი -a → -e",
+        "nemocnica, ulica",
+        "nemocnic**e**, ulic**e**"
+      ],
+      [
+        "-ia → -ie",
+        "kancelária",
+        "kancelári**e**"
+      ],
+      [
+        "თანხმოვანი → -e",
+        "lekáreň, posteľ",
+        "lekárn**e**, postel**e**"
+      ],
+      [
+        "-osť → -i",
+        "pohotovosť",
+        "pohotovost**i**"
+      ]
+    ]
+  },
+  "a2-u5-l12.grammar-genitive-feminine.examples": {
+    "en": [
+      "Marek has come back from hospital.",
+      "Lucia is at her friend's."
+    ],
+    "t": [
+      "მარეკი საავადმყოფოდან დაბრუნდა.",
+      "ლუცია თავის მეგობართანაა."
+    ]
+  },
+  "a2-u5-l12.fill-emma-ide-do.en": {
+    "en": "Emma is going to the pharmacy.",
+    "t": "ემა აფთიაქში მიდის."
+  },
+  "a2-u5-l12.fill-emma-ide-do.why": {
+    "en": "**Do** takes the genitive. Lekáreň ends in a consonant, so it takes **-e** and drops its e: do **lekárne**. V lekárni is being there.",
+    "t": "**Do** genitív-ს მოითხოვს. Lekáreň თანხმოვანზე ბოლოვდება, ამიტომ **-e**-ს იღებს და თავის e-ს კარგავს: do **lekárne**. V lekárni იქ ყოფნაა."
+  },
+  "a2-u5-l12.fill-mam-recept-od.en": {
+    "en": "I've got a prescription from the doctor.",
+    "t": "ექიმისგან რეცეპტი მაქვს."
+  },
+  "a2-u5-l12.fill-mam-recept-od.why": {
+    "en": "**Od** (from someone) takes the genitive, so lekárka changes -a to **-y**: od **lekárky**. Lekárku is the object form.",
+    "t": "**Od** (ვინმესგან) genitív-ს მოითხოვს, ამიტომ lekárka -a-ს **-y**-ით ცვლის: od **lekárky**. Lekárku ობიექტის ფორმაა."
+  },
+  "a2-u5-l12.build-marek-sa-vratil.prompt": {
+    "en": "Marek came back from hospital.",
+    "t": "მარეკი საავადმყოფოდან დაბრუნდა."
+  },
+  "a2-u5-l12.build-marek-sa-vratil.traps": {
+    "en": [
+      "**Z** (from, out of) takes the genitive, and nemocnica has a soft c, so it's **-e**: z **nemocnice**. V nemocnici is the locative.",
+      "He came **from** the hospital, so it's **z**. Do means to, into."
+    ],
+    "t": [
+      "**Z** (-დან) genitív-ს მოითხოვს, nemocnica-ს კი რბილი c აქვს, ამიტომ **-e**: z **nemocnice**. V nemocnici lokál-ია.",
+      "ის საავადმყოფოდან მოვიდა, ამიტომ **z**. Do ნიშნავს „-ში“ (შიგნით შესვლას)."
+    ]
+  },
+  "a2-u5-l12.choice-emma-je-u.question": {
+    "en": "Which one means “Emma is at her friend's”?",
+    "t": "რომელი ნიშნავს „ემა მეგობართანაა“?"
+  },
+  "a2-u5-l12.choice-emma-je-u.why": {
+    "en": "**U** + the genitive is being at someone's place: **u kamarátky**. Od kamarátky is coming from there, ku kamarátke going there.",
+    "t": "**U** + genitív ვინმესთან, მის სახლში ყოფნაა: **u kamarátky**. Od kamarátky იქიდან მოსვლაა, ku kamarátke — იქ მისვლა."
+  },
+  "a2-u5-l12.fill-marek-sa-vratil-z.en": {
+    "en": "Marek has come back from A&E.",
+    "t": "მარეკი გადაუდებელი განყოფილებიდან დაბრუნდა."
+  },
+  "a2-u5-l12.fill-marek-sa-vratil-z.why": {
+    "en": "**Z** takes the genitive, and feminine nouns in **-osť** take **-i**: z **pohotovosti**.",
+    "t": "**Z** genitív-ს მოითხოვს, **-osť**-ზე დაბოლოებული მდედრობითი სახელები კი **-i**-ს იღებს: z **pohotovosti**."
+  },
+  "a2-u5-l12.grammar-genitive-neuter.title": {
+    "en": "Neuter nouns: -a, -ia",
+    "t": "საშუალო სქესის სახელები: -a, -ia"
+  },
+  "a2-u5-l12.grammar-genitive-neuter.body": {
+    "en": [
+      "Neuter nouns in -o or -e take **-a**: mesto → do mest**a**, more → od mor**a**, srdce → bez srdc**a**. Those in -ie take **-ia**: námestie → z námesti**a**.",
+      "So kino gives do kin**a**, which you know. Dieťa adds -ťa: u dieťa**ťa**."
+    ],
+    "t": [
+      "-o-ზე ან -e-ზე დაბოლოებული საშუალო სქესის სახელები **-a**-ს იღებს: mesto → do mest**a**, more → od mor**a**, srdce → bez srdc**a**. -ie-ზე დაბოლოებულები — **-ia**-ს: námestie → z námesti**a**.",
+      "ასე რომ, kino-დან არის do kin**a**, რაც უკვე იცით. Dieťa -ťa-ს ამატებს: u dieťa**ťa**."
+    ]
+  },
+  "a2-u5-l12.grammar-genitive-neuter.table.head": {
+    "en": [
+      "who? what?",
+      "genitive"
+    ],
+    "t": [
+      "ვინ? რა?",
+      "genitív"
+    ]
+  },
+  "a2-u5-l12.grammar-genitive-neuter.table.rows": {
+    "en": [
+      [
+        "mesto",
+        "do mest**a**"
+      ],
+      [
+        "kino",
+        "do kin**a**"
+      ],
+      [
+        "mlieko",
+        "bez mliek**a**"
+      ],
+      [
+        "more",
+        "od mor**a**"
+      ],
+      [
+        "námestie",
+        "z námesti**a**"
+      ],
+      [
+        "dieťa",
+        "u dieťa**ťa**"
+      ]
+    ],
+    "t": [
+      [
+        "mesto",
+        "do mest**a**"
+      ],
+      [
+        "kino",
+        "do kin**a**"
+      ],
+      [
+        "mlieko",
+        "bez mliek**a**"
+      ],
+      [
+        "more",
+        "od mor**a**"
+      ],
+      [
+        "námestie",
+        "z námesti**a**"
+      ],
+      [
+        "dieťa",
+        "u dieťa**ťa**"
+      ]
+    ]
+  },
+  "a2-u5-l12.grammar-genitive-neuter.examples": {
+    "en": [
+      "I drink my coffee without milk.",
+      "I'm going home from town."
+    ],
+    "t": [
+      "ყავას რძის გარეშე ვსვამ.",
+      "ქალაქიდან სახლში მივდივარ."
+    ]
+  },
+  "a2-u5-l12.fill-kavu-pijem-bez.en": {
+    "en": "I drink my coffee without milk.",
+    "t": "ყავას რძის გარეშე ვსვამ."
+  },
+  "a2-u5-l12.fill-kavu-pijem-bez.why": {
+    "en": "**Bez** takes the genitive, and neuter mlieko changes -o to **-a**: bez **mlieka**. S mliekom is with milk.",
+    "t": "**Bez** genitív-ს მოითხოვს, საშუალო სქესის mlieko კი -o-ს **-a**-თი ცვლის: bez **mlieka**, როგორც ქართული რძის გარეშე. S mliekom რძით ნიშნავს."
+  },
+  "a2-u5-l12.fill-tomas-ide-do.en": {
+    "en": "Tomáš is going into town.",
+    "t": "ტომაში ქალაქში მიდის."
+  },
+  "a2-u5-l12.fill-tomas-ide-do.why": {
+    "en": "**Do** takes the genitive: mesto → do **mesta**, just like do kina.",
+    "t": "**Do** genitív-ს მოითხოვს: mesto → do **mesta**, ზუსტად როგორც do kina."
+  },
+  "a2-u5-l12.fill-autobus-ide-z.en": {
+    "en": "The bus leaves from the square.",
+    "t": "ავტობუსი მოედნიდან გადის."
+  },
+  "a2-u5-l12.fill-autobus-ide-z.why": {
+    "en": "**Z** takes the genitive, and námestie, in -ie, takes **-ia**: z **námestia**.",
+    "t": "**Z** genitív-ს მოითხოვს, -ie-ზე დაბოლოებული námestie კი **-ia**-ს იღებს: z **námestia**."
+  },
+  "a2-u5-l12.build-emma-ide-z.prompt": {
+    "en": "Emma is going from the pharmacy to the dorm.",
+    "t": "ემა აფთიაქიდან საერთო საცხოვრებელში მიდის."
+  },
+  "a2-u5-l12.build-emma-ide-z.traps": {
+    "en": [
+      "**Z** takes the genitive: lekáreň → z **lekárne**.",
+      "Coming out of somewhere is **z** + the genitive: z **lekárne**. V lekárni is being inside."
+    ],
+    "t": [
+      "**Z** genitív-ს მოითხოვს: lekáreň → z **lekárne**.",
+      "საიდანმე გამოსვლა არის **z** + genitív: z **lekárne**. V lekárni შიგნით ყოფნაა."
+    ]
+  },
+  "a2-u5-l12.speak-idem-do-lekarne.en": {
+    "en": "I'm going to the pharmacy.",
+    "t": "აფთიაქში მივდივარ."
+  },
+  "a2-u5-l12.build-lucia-ma-darcek.answers": {
+    "en": [
+      "Lucia has a present from her grandma.",
+      "Lucia has a present from her granny.",
+      "Lucia's got a present from her grandma.",
+      "Lucia's got a present from her granny."
+    ],
+    "t": [
+      "ლუციას ბებიისგან საჩუქარი აქვს.",
+      "ლუციას საჩუქარი ბებიისგან აქვს.",
+      "ლუციას ბებიის საჩუქარი აქვს."
+    ]
+  },
+  "a2-u5-l12.build-lucia-ma-darcek.distractors": {
+    "en": [
+      "for",
+      "grandpa"
+    ],
+    "t": [
+      "ბებიისთვის",
+      "ბაბუისგან"
+    ]
+  },
+  "a2-u5-l13.titleEn": {
+    "en": "The genitive: masculine nouns",
+    "t": "Genitív: მამრობითი სქესი"
+  },
+  "a2-u5-l13.grammar-genitive-masculine-people.title": {
+    "en": "Men and animals: -a, like the object form",
+    "t": "კაცები და ცხოველები: -a, როგორც ობიექტის ფორმაში"
+  },
+  "a2-u5-l13.grammar-genitive-masculine-people.body": {
+    "en": [
+      "For men and animals, the genitive is the same as the object form you know: Hľadám lekár**a**. → Som u lekár**a**. Names too: od Marek**a**, u Tomáš**a**.",
+      "Men's words in -a, like **kolega** (colleague), take **-u**: od koleg**u**. **pes** (dog) loses its e: bez ps**a**."
+    ],
+    "t": [
+      "კაცებისა და ცხოველებისთვის genitív იგივეა, რაც ობიექტის ფორმა, რომელიც იცით: Hľadám lekár**a**. → Som u lekár**a**. სახელებიც: od Marek**a**, u Tomáš**a**.",
+      "-a-ზე დაბოლოებული მამრობითი სიტყვები, მაგალითად **kolega** (კოლეგა), **-u**-ს იღებს: od koleg**u**. **pes** (ძაღლი) e-ს კარგავს: bez ps**a**."
+    ]
+  },
+  "a2-u5-l13.grammar-genitive-masculine-people.table.head": {
+    "en": [
+      "who?",
+      "genitive"
+    ],
+    "t": [
+      "ვინ?",
+      "genitív"
+    ]
+  },
+  "a2-u5-l13.grammar-genitive-masculine-people.table.rows": {
+    "en": [
+      [
+        "lekár",
+        "u lekár**a**"
+      ],
+      [
+        "brat",
+        "od brat**a**"
+      ],
+      [
+        "Marek",
+        "bez Marek**a**"
+      ],
+      [
+        "pán Kováč",
+        "od pán**a** Kováč**a**"
+      ],
+      [
+        "kolega",
+        "od koleg**u**"
+      ],
+      [
+        "pes",
+        "bez ps**a**"
+      ]
+    ],
+    "t": [
+      [
+        "lekár",
+        "u lekár**a**"
+      ],
+      [
+        "brat",
+        "od brat**a**"
+      ],
+      [
+        "Marek",
+        "bez Marek**a**"
+      ],
+      [
+        "pán Kováč",
+        "od pán**a** Kováč**a**"
+      ],
+      [
+        "kolega",
+        "od koleg**u**"
+      ],
+      [
+        "pes",
+        "bez ps**a**"
+      ]
+    ]
+  },
+  "a2-u5-l13.grammar-genitive-masculine-people.examples": {
+    "en": [
+      "I've been to the doctor's.",
+      "Lucia is at her brother's."
+    ],
+    "t": [
+      "ექიმთან ვიყავი.",
+      "ლუცია ძმასთანაა."
+    ]
+  },
+  "a2-u5-l13.fill-emma-bola-vcera.en": {
+    "en": "Emma went to the doctor's yesterday.",
+    "t": "ემა გუშინ ექიმთან იყო."
+  },
+  "a2-u5-l13.fill-emma-bola-vcera.why": {
+    "en": "**U** takes the genitive, and a man adds **-a**, the same as the object form: u **lekára**.",
+    "t": "**U** genitív-ს მოითხოვს, კაცი კი **-a**-ს იღებს, იგივეს, რაც ობიექტის ფორმაში: u **lekára**."
+  },
+  "a2-u5-l13.fill-lucia-je-dnes.en": {
+    "en": "Lucia is at Marek's today.",
+    "t": "ლუცია დღეს მარეკთანაა."
+  },
+  "a2-u5-l13.fill-lucia-je-dnes.why": {
+    "en": "**U** + the genitive: a man's name adds **-a**: u **Mareka**, at Marek's place.",
+    "t": "**U** + genitív: კაცის სახელი **-a**-ს იღებს: u **Mareka**, მარეკთან, მის სახლში."
+  },
+  "a2-u5-l13.grammar-genitive-masculine-things.title": {
+    "en": "Masculine things: -u or -a",
+    "t": "მამრობითი საგნები: -u თუ -a"
+  },
+  "a2-u5-l13.grammar-genitive-masculine-things.body": {
+    "en": [
+      "Masculine things take **-u** or **-a**, and there's no sure rule: learn the genitive with the word. Many take -u: recept → bez recept**u**, čaj → bez čaj**u**, cukor → bez cukr**u**.",
+      "-a is usual in words in -ík and -ok (lístok → bez lístk**a**), parts of the body (zub → zub**a**, nos → do nos**a**), days and months (pondelok → od pondelk**a**), and in chlieb, syr and stôl: chleb**a**, syr**a**, stol**a**.",
+      "Before s, z, š or ž, z becomes **zo**: zo stola, zo Žiliny. You get on with **nastúpiť do** and off with **vystúpiť z**: do autobusu, z vlaku."
+    ],
+    "t": [
+      "მამრობითი საგნები **-u**-ს ან **-a**-ს იღებს და მყარი წესი არ არსებობს: genitív სიტყვასთან ერთად ისწავლეთ. ბევრი -u-ს იღებს: recept → bez recept**u**, čaj → bez čaj**u**, cukor → bez cukr**u**.",
+      "-a ჩვეულებრივია -ík-სა და -ok-ზე დაბოლოებულ სიტყვებში (lístok → bez lístk**a**), სხეულის ნაწილებში (zub → zub**a**, nos → do nos**a**), დღეებსა და თვეებში (pondelok → od pondelk**a**), ასევე chlieb, syr და stôl სიტყვებში: chleb**a**, syr**a**, stol**a**.",
+      "s, z, š ან ž-ის წინ z ხდება **zo**: zo stola, zo Žiliny. ტრანსპორტში ასვლა არის **nastúpiť do**, ჩასვლა — **vystúpiť z**: do autobusu, z vlaku."
+    ]
+  },
+  "a2-u5-l13.grammar-genitive-masculine-things.table.head": {
+    "en": [
+      "-u",
+      "-a"
+    ],
+    "t": [
+      "-u",
+      "-a"
+    ]
+  },
+  "a2-u5-l13.grammar-genitive-masculine-things.table.rows": {
+    "en": [
+      [
+        "recept → recept**u**",
+        "stôl → stol**a**"
+      ],
+      [
+        "čaj → čaj**u**",
+        "chlieb → chleb**a**"
+      ],
+      [
+        "cukor → cukr**u**",
+        "zub → zub**a**"
+      ],
+      [
+        "internát → internát**u**",
+        "nos → nos**a**"
+      ],
+      [
+        "obchod → obchod**u**",
+        "lístok → lístk**a**"
+      ],
+      [
+        "problém → problém**u**",
+        "pondelok → pondelk**a**"
+      ]
+    ],
+    "t": [
+      [
+        "recept → recept**u**",
+        "stôl → stol**a**"
+      ],
+      [
+        "čaj → čaj**u**",
+        "chlieb → chleb**a**"
+      ],
+      [
+        "cukor → cukr**u**",
+        "zub → zub**a**"
+      ],
+      [
+        "internát → internát**u**",
+        "nos → nos**a**"
+      ],
+      [
+        "obchod → obchod**u**",
+        "lístok → lístk**a**"
+      ],
+      [
+        "problém → problém**u**",
+        "pondelok → pondelk**a**"
+      ]
+    ]
+  },
+  "a2-u5-l13.grammar-genitive-masculine-things.examples": {
+    "en": [
+      "Tea without sugar, please.",
+      "The phone fell off the table.",
+      "I'll get on the bus.",
+      "I'll get off the bus at the hospital."
+    ],
+    "t": [
+      "ჩაი შაქრის გარეშე, თუ შეიძლება.",
+      "ტელეფონი მაგიდიდან ჩამოვარდა.",
+      "ავტობუსში ავალ.",
+      "ავტობუსიდან საავადმყოფოსთან ჩავალ."
+    ]
+  },
+  "a2-u5-l13.fill-pijem-caj-bez.en": {
+    "en": "I drink tea without sugar.",
+    "t": "ჩაის შაქრის გარეშე ვსვამ."
+  },
+  "a2-u5-l13.fill-pijem-caj-bez.why": {
+    "en": "**Bez** takes the genitive. Cukor takes **-u** and drops its o: bez **cukru**. S cukrom is with sugar.",
+    "t": "**Bez** genitív-ს მოითხოვს. Cukor **-u**-ს იღებს და o-ს კარგავს: bez **cukru**. S cukrom შაქრით ნიშნავს."
+  },
+  "a2-u5-l13.fill-tento-sirup-je.en": {
+    "en": "This syrup is over the counter.",
+    "t": "ეს სიროფი ურეცეპტოდ იყიდება."
+  },
+  "a2-u5-l13.fill-tento-sirup-je.why": {
+    "en": "**Bez** takes the genitive, and recept takes **-u**: bez **receptu**.",
+    "t": "**Bez** genitív-ს მოითხოვს, recept კი **-u**-ს იღებს: bez **receptu**."
+  },
+  "a2-u5-l13.choice-telefon-spadol-zo.question": {
+    "en": "Which sentence is correct?",
+    "t": "რომელი წინადადებაა სწორი?"
+  },
+  "a2-u5-l13.choice-telefon-spadol-zo.why": {
+    "en": "Stôl takes **-a** and loses its ô: stola. Before s, z becomes **zo**: **zo stola**.",
+    "t": "Stôl **-a**-ს იღებს და ô-ს კარგავს: stola. s-ის წინ z ხდება **zo**: **zo stola**."
+  },
+  "a2-u5-l13.fill-tomas-vystupil-z.en": {
+    "en": "Tomáš got off the train in Bratislava.",
+    "t": "ტომაში ბრატისლავაში მატარებლიდან ჩავიდა."
+  },
+  "a2-u5-l13.fill-tomas-vystupil-z.why": {
+    "en": "**Vystúpiť z** (to get off) takes the genitive, and vlak takes **-u**: z **vlaku**. Vlakom is by train.",
+    "t": "**Vystúpiť z** (ჩასვლა) genitív-ს მოითხოვს, vlak კი **-u**-ს იღებს: z **vlaku**. Vlakom მატარებლით ნიშნავს."
+  },
+  "a2-u5-l13.build-kde-mam-vystupit.prompt": {
+    "en": "Where do I get off?",
+    "t": "სად უნდა ჩავიდე?"
+  },
+  "a2-u5-l13.build-kde-mam-vystupit.traps": {
+    "en": [
+      "Getting off is **vystúpiť** (z), getting on is nastúpiť (do).",
+      "After **mám** (should I), the verb takes the -ť form: mám **vystúpiť**."
+    ],
+    "t": [
+      "ჩასვლა არის **vystúpiť** (z), ასვლა — nastúpiť (do).",
+      "**mám**-ის (უნდა) შემდეგ ზმნა -ť ფორმას იღებს: mám **vystúpiť**."
+    ]
+  },
+  "a2-u5-l13.build-emma-ma-darcek.prompt": {
+    "en": "Emma has a present from her brother.",
+    "t": "ემას ძმისგან საჩუქარი აქვს."
+  },
+  "a2-u5-l13.build-emma-ma-darcek.traps": {
+    "en": [
+      "**Od** takes the genitive, and a man adds **-a**: od **brata**.",
+      "**Od** takes the genitive: od **brata**. Bratovi is the to-whom form."
+    ],
+    "t": [
+      "**Od** genitív-ს მოითხოვს, კაცი კი **-a**-ს იღებს: od **brata**.",
+      "**Od** genitív-ს მოითხოვს: od **brata**. Bratovi „ვის?“ ფორმაა (datív)."
+    ]
+  },
+  "a2-u5-l13.build-idem-do-obchodu.prompt": {
+    "en": "I'm going to the shop for bread.",
+    "t": "მაღაზიაში პურის საყიდლად მივდივარ."
+  },
+  "a2-u5-l13.build-idem-do-obchodu.traps": {
+    "en": [
+      "**Do** takes the genitive, and obchod takes **-u**: do **obchodu**.",
+      "**Po** (to get) takes the object form, so chlieb doesn't change: po **chlieb**. Chleba is the genitive."
+    ],
+    "t": [
+      "**Do** genitív-ს მოითხოვს, obchod კი **-u**-ს იღებს: do **obchodu**.",
+      "**Po** (რამის მოსატანად) ობიექტის ფორმას მოითხოვს, ამიტომ chlieb არ იცვლება: po **chlieb**. Chleba genitív-ია."
+    ]
+  },
+  "a2-u5-l13.fill-mam-spravu-od.en": {
+    "en": "Tomáš has a message from a colleague.",
+    "t": "ტომაშს კოლეგისგან შეტყობინება აქვს."
+  },
+  "a2-u5-l13.fill-mam-spravu-od.why": {
+    "en": "Men's words in -a, like kolega, take **-u** in the genitive: od **kolegu**.",
+    "t": "-a-ზე დაბოლოებული მამრობითი სიტყვები, მაგალითად kolega, genitív-ში **-u**-ს იღებს: od **kolegu**."
+  },
+  "a2-u5-l13.choice-ktore-slovo-ma.question": {
+    "en": "Which word takes -a in the genitive?",
+    "t": "რომელი სიტყვა იღებს genitív-ში -a-ს?"
+  },
+  "a2-u5-l13.choice-ktore-slovo-ma.why": {
+    "en": "Parts of the body usually take **-a**: bez **zuba**. Čaj and recept take -u: bez čaju, bez receptu.",
+    "t": "სხეულის ნაწილები ჩვეულებრივ **-a**-ს იღებს: bez **zuba**. Čaj და recept -u-ს იღებს: bez čaju, bez receptu."
+  },
+  "a2-u5-l13.speak-bola-som-u.en": {
+    "en": "I've been to the doctor's.",
+    "t": "ექიმთან ვიყავი."
+  },
+  "a2-u5-l13.build-tomas-prisiel-z.answers": {
+    "en": [
+      "Tomáš came back from the shop without bread.",
+      "Tomáš came from the shop without bread.",
+      "Tomáš came back from the shop without the bread."
+    ],
+    "t": [
+      "ტომაში მაღაზიიდან პურის გარეშე მოვიდა.",
+      "ტომაში მაღაზიიდან პურის გარეშე დაბრუნდა.",
+      "ტომაში მაღაზიიდან უპუროდ დაბრუნდა."
+    ]
+  },
+  "a2-u5-l13.build-tomas-prisiel-z.distractors": {
+    "en": [
+      "with",
+      "cheese"
+    ],
+    "t": [
+      "პურით",
+      "ყველის"
+    ]
+  },
+  "a2-u5-l14.titleEn": {
+    "en": "My brother's card",
+    "t": "ჩემი ძმის ბარათი"
+  },
+  "a2-u5-l14.grammar-genitive-adjectives-ten.title": {
+    "en": "Adjectives and ten in the genitive",
+    "t": "ზედსართავები და ten genitív-ში"
+  },
+  "a2-u5-l14.grammar-genitive-adjectives-ten.body": {
+    "en": [
+      "Adjectives and ten change with their noun. Masculine and neuter: **-ého**, **toho**. Feminine: **-ej**, **tej**.",
+      "You know -ého from the object form of men (nového kamaráta) and -ej from the locative (vo veľkej firme)."
+    ],
+    "t": [
+      "ზედსართავები და ten თავიანთ არსებით სახელთან ერთად იცვლება. მამრობითი და საშუალო: **-ého**, **toho**. მდედრობითი: **-ej**, **tej**.",
+      "-ého-ს კაცების ობიექტის ფორმიდან იცნობთ (nového kamaráta), -ej-ს კი lokál-იდან (vo veľkej firme)."
+    ]
+  },
+  "a2-u5-l14.grammar-genitive-adjectives-ten.table.head": {
+    "en": [
+      "",
+      "who? what?",
+      "genitive"
+    ],
+    "t": [
+      "",
+      "ვინ? რა?",
+      "genitív"
+    ]
+  },
+  "a2-u5-l14.grammar-genitive-adjectives-ten.table.rows": {
+    "en": [
+      [
+        "masculine",
+        "ten mladý lekár",
+        "t**oho** mlad**ého** lekára"
+      ],
+      [
+        "masculine",
+        "ten nový obchod",
+        "t**oho** nov**ého** obchodu"
+      ],
+      [
+        "feminine",
+        "tá nová lekáreň",
+        "t**ej** nov**ej** lekárne"
+      ],
+      [
+        "neuter",
+        "to veľké mesto",
+        "t**oho** veľk**ého** mesta"
+      ]
+    ],
+    "t": [
+      [
+        "მამრობითი",
+        "ten mladý lekár",
+        "t**oho** mlad**ého** lekára"
+      ],
+      [
+        "მამრობითი",
+        "ten nový obchod",
+        "t**oho** nov**ého** obchodu"
+      ],
+      [
+        "მდედრობითი",
+        "tá nová lekáreň",
+        "t**ej** nov**ej** lekárne"
+      ],
+      [
+        "საშუალო",
+        "to veľké mesto",
+        "t**oho** veľk**ého** mesta"
+      ]
+    ]
+  },
+  "a2-u5-l14.grammar-genitive-adjectives-ten.examples": {
+    "en": [
+      "I've got a prescription from that young doctor.",
+      "I'm going to that new shop."
+    ],
+    "t": [
+      "იმ ახალგაზრდა ექიმისგან რეცეპტი მაქვს.",
+      "იმ ახალ მაღაზიაში მივდივარ."
+    ]
+  },
+  "a2-u5-l14.grammar-genitive-possessives.title": {
+    "en": "Môjho, mojej: possessives",
+    "t": "Môjho, mojej: კუთვნილებითი ნაცვალსახელები"
+  },
+  "a2-u5-l14.grammar-genitive-possessives.body": {
+    "en": [
+      "Possessives change like adjectives: **môjho**, tvojho, nášho, vášho with masculine and neuter nouns, **mojej**, tvojej, našej, vašej with feminine ones. **Svoj** (your own) too: svojho, svojej.",
+      "**Jeho**, **jej** and **ich** never change, as you know."
+    ],
+    "t": [
+      "კუთვნილებითი ნაცვალსახელები ზედსართავებივით იცვლება: **môjho**, tvojho, nášho, vášho მამრობით და საშუალო სახელებთან, **mojej**, tvojej, našej, vašej — მდედრობითებთან. **Svoj** (საკუთარი, თავისი) — ასევე: svojho, svojej.",
+      "**Jeho**, **jej** და **ich** არასდროს იცვლება, როგორც იცით."
+    ]
+  },
+  "a2-u5-l14.grammar-genitive-possessives.table.head": {
+    "en": [
+      "who? what?",
+      "genitive"
+    ],
+    "t": [
+      "ვინ? რა?",
+      "genitív"
+    ]
+  },
+  "a2-u5-l14.grammar-genitive-possessives.table.rows": {
+    "en": [
+      [
+        "môj brat",
+        "od **môjho** brata"
+      ],
+      [
+        "naša lekárka",
+        "od **našej** lekárky"
+      ],
+      [
+        "tvoj byt",
+        "z **tvojho** bytu"
+      ],
+      [
+        "vaša izba",
+        "z **vašej** izby"
+      ],
+      [
+        "jeho sestra",
+        "od **jeho** sestry"
+      ]
+    ],
+    "t": [
+      [
+        "môj brat",
+        "od **môjho** brata"
+      ],
+      [
+        "naša lekárka",
+        "od **našej** lekárky"
+      ],
+      [
+        "tvoj byt",
+        "z **tvojho** bytu"
+      ],
+      [
+        "vaša izba",
+        "z **vašej** izby"
+      ],
+      [
+        "jeho sestra",
+        "od **jeho** sestry"
+      ]
+    ]
+  },
+  "a2-u5-l14.grammar-genitive-possessives.examples": {
+    "en": [
+      "I've got a present from my brother.",
+      "Lucia is at her brother's."
+    ],
+    "t": [
+      "ჩემი ძმისგან საჩუქარი მაქვს.",
+      "ლუცია თავის ძმასთანაა."
+    ]
+  },
+  "a2-u5-l14.fill-mam-kvapky-od.en": {
+    "en": "I've got drops from our doctor.",
+    "t": "ჩვენი ექიმისგან წვეთები მაქვს."
+  },
+  "a2-u5-l14.fill-mam-kvapky-od.why": {
+    "en": "**Od** takes the genitive, and a possessive with a feminine noun ends in **-ej**: od **našej** lekárky.",
+    "t": "**Od** genitív-ს მოითხოვს, მდედრობით სახელთან კუთვნილებითი ნაცვალსახელი კი **-ej**-ზე ბოლოვდება: od **našej** lekárky."
+  },
+  "a2-u5-l14.fill-idem-do-toho.en": {
+    "en": "I'm going to that new shop.",
+    "t": "იმ ახალ მაღაზიაში მივდივარ."
+  },
+  "a2-u5-l14.fill-idem-do-toho.why": {
+    "en": "**Do** takes the genitive. Obchod is masculine, so the adjective ends in **-ého**, like toho: do toho **nového** obchodu.",
+    "t": "**Do** genitív-ს მოითხოვს. Obchod მამრობითია, ამიტომ ზედსართავი **-ého**-ზე ბოლოვდება, როგორც toho: do toho **nového** obchodu."
+  },
+  "a2-u5-l14.fill-marek-sa-vratil-z-tej.en": {
+    "en": "Marek has come back from that big hospital.",
+    "t": "მარეკი იმ დიდი საავადმყოფოდან დაბრუნდა."
+  },
+  "a2-u5-l14.fill-marek-sa-vratil-z-tej.why": {
+    "en": "**Z** takes the genitive, and with a feminine noun tá becomes **tej**, like veľkej: z **tej** veľkej nemocnice.",
+    "t": "**Z** genitív-ს მოითხოვს, მდედრობით სახელთან კი tá ხდება **tej**, როგორც veľkej: z **tej** veľkej nemocnice."
+  },
+  "a2-u5-l14.grammar-genitive-whose.title": {
+    "en": "Whose? The owner goes after",
+    "t": "ვისი? მფლობელი შემდეგ მოდის"
+  },
+  "a2-u5-l14.grammar-genitive-whose.body": {
+    "en": [
+      "To say whose something is, put the owner after it, in the genitive: preukaz **Emmy**, Emma's card; telefón **môjho brata**, my brother's phone. You can ask Čí je to…?, or, as people often do, **Koho je to…?**",
+      "The same “of” form follows other nouns too: koniec **týždňa** (the end of the week), centrum **mesta** (the town centre), preukaz **poistenca**."
+    ],
+    "t": [
+      "იმის სათქმელად, თუ ვისია რამე, მფლობელი მის შემდეგ დასვით, genitív-ში: preukaz **Emmy**, ემას ბარათი; telefón **môjho brata**, ჩემი ძმის ტელეფონი. ქართულში რიგი პირიქითაა: მფლობელი წინ დგას (ემას ბარათი). შეგიძლიათ იკითხოთ Čí je to…?, ან, როგორც ხშირად ამბობენ, **Koho je to…?**",
+      "იგივე ფორმა სხვა არსებით სახელებსაც მოსდევს: koniec **týždňa** (კვირის ბოლო), centrum **mesta** (ქალაქის ცენტრი), preukaz **poistenca**."
+    ]
+  },
+  "a2-u5-l14.grammar-genitive-whose.table.head": {
+    "en": [
+      "owner",
+      "whose?"
+    ],
+    "t": [
+      "მფლობელი",
+      "ვისი?"
+    ]
+  },
+  "a2-u5-l14.grammar-genitive-whose.table.rows": {
+    "en": [
+      [
+        "Emma",
+        "preukaz Emm**y**"
+      ],
+      [
+        "Marek",
+        "ruka Marek**a**"
+      ],
+      [
+        "môj brat",
+        "telefón môj**ho** brat**a**"
+      ],
+      [
+        "tá nová študentka",
+        "izba tej nov**ej** študentk**y**"
+      ]
+    ],
+    "t": [
+      [
+        "Emma",
+        "preukaz Emm**y**"
+      ],
+      [
+        "Marek",
+        "ruka Marek**a**"
+      ],
+      [
+        "môj brat",
+        "telefón môj**ho** brat**a**"
+      ],
+      [
+        "tá nová študentka",
+        "izba tej nov**ej** študentk**y**"
+      ]
+    ]
+  },
+  "a2-u5-l14.grammar-genitive-whose.examples": {
+    "en": [
+      "Whose card is this? — Emma's.",
+      "At the end of the week I'm going for a check-up."
+    ],
+    "t": [
+      "ვისია ეს ბარათი? — ემასი.",
+      "კვირის ბოლოს საკონტროლოდ მივდივარ."
+    ]
+  },
+  "a2-u5-l14.choice-lucia-najde-preukaz.question": {
+    "en": "Lucia finds a card on the table. How does she ask whose it is?",
+    "t": "ლუცია მაგიდაზე ბარათს პოულობს. როგორ იკითხავს, ვისია?"
+  },
+  "a2-u5-l14.choice-lucia-najde-preukaz.why": {
+    "en": "Whose? asks for the owner in the genitive: **koho** (the genitive of kto) + je to: **Koho** je to preukaz? Kto je to? asks who someone is.",
+    "t": "„ვისი?“ მფლობელს genitív-ში ეკითხება: **koho** (kto-ს genitív) + je to: **Koho** je to preukaz? Kto je to? ეკითხება, ვინ არის ვინმე."
+  },
+  "a2-u5-l14.fill-to-je-preukaz.en": {
+    "en": "That's Emma's card.",
+    "t": "ეს ემას ბარათია."
+  },
+  "a2-u5-l14.fill-to-je-preukaz.why": {
+    "en": "The owner comes after the thing, in the genitive: Emma → preukaz **Emmy**.",
+    "t": "მფლობელი საგნის შემდეგ მოდის, genitív-ში: Emma → preukaz **Emmy**."
+  },
+  "a2-u5-l14.build-to-je-telefon.prompt": {
+    "en": "That's my brother's phone.",
+    "t": "ეს ჩემი ძმის ტელეფონია."
+  },
+  "a2-u5-l14.build-to-je-telefon.traps": {
+    "en": [
+      "The owner, my brother, goes after the phone in the genitive, so môj becomes **môjho**.",
+      "The owner is in the genitive: brat → **brata**, like the object form."
+    ],
+    "t": [
+      "მფლობელი, ჩემი ძმა, ტელეფონის შემდეგ genitív-ში დგას, ამიტომ môj ხდება **môjho**.",
+      "მფლობელი genitív-შია: brat → **brata**, როგორც ობიექტის ფორმაში."
+    ]
+  },
+  "a2-u5-l14.fill-na-konci-tyzdna.en": {
+    "en": "At the end of the week I'll go for a check-up.",
+    "t": "კვირის ბოლოს საკონტროლოდ წავალ."
+  },
+  "a2-u5-l14.fill-na-konci-tyzdna.why": {
+    "en": "“Of the week” after konci is the genitive, and týždeň loses its e: **týždňa**.",
+    "t": "konci-ს შემდეგ „კვირის“ genitív-ია, týždeň კი e-ს კარგავს: **týždňa**. ქართულშიც ნათესაობითია: კვირის ბოლოს."
+  },
+  "a2-u5-l14.build-lucia-je-v.prompt": {
+    "en": "Lucia is in her brother's flat.",
+    "t": "ლუცია თავისი ძმის ბინაშია."
+  },
+  "a2-u5-l14.build-lucia-je-v.traps": {
+    "en": [
+      "The brother is Lucia's own, and Lucia is the subject, so Slovak uses **svoj**: v byte **svojho** brata.",
+      "The owner goes after the flat, in the genitive: **brata**."
+    ],
+    "t": [
+      "ძმა ლუციას საკუთარი ძმაა, ლუცია კი ქვემდებარეა, ამიტომ სლოვაკური **svoj**-ს იყენებს, როგორც ქართული „თავისი“-ს: v byte **svojho** brata.",
+      "მფლობელი ბინის შემდეგ მოდის, genitív-ში: **brata**."
+    ]
+  },
+  "a2-u5-l14.fill-lekaren-je-v.en": {
+    "en": "The pharmacy is in the town centre.",
+    "t": "აფთიაქი ქალაქის ცენტრშია."
+  },
+  "a2-u5-l14.fill-lekaren-je-v.why": {
+    "en": "The centre **of** the town: the genitive after centre, **mesta**.",
+    "t": "ქალაქის ცენტრი: centre-ს შემდეგ genitív, **mesta**."
+  },
+  "a2-u5-l14.speak-koho-je-to.en": {
+    "en": "Whose car is this?",
+    "t": "ვისია ეს მანქანა?"
+  },
+  "a2-u5-l14.build-sestra-mojej-kamaratky.answers": {
+    "en": [
+      "My friend's sister is a doctor."
+    ],
+    "t": [
+      "ჩემი მეგობრის და ექიმია.",
+      "ჩემი მეგობარი გოგოს და ექიმია."
+    ]
+  },
+  "a2-u5-l14.build-sestra-mojej-kamaratky.distractors": {
+    "en": [
+      "brother",
+      "nurse"
+    ],
+    "t": [
+      "ძმა",
+      "ექთანი"
+    ]
+  },
+  "a2-u5-l15.titleEn": {
+    "en": "The genitive plural",
+    "t": "წამლების გარეშე"
+  },
+  "a2-u5-l15.grammar-genitive-plural-masculine.title": {
+    "en": "The genitive plural: masculine -ov",
+    "t": "Genitív მრავლობითში: მამრობითი -ov"
+  },
+  "a2-u5-l15.grammar-genitive-plural-masculine.body": {
+    "en": [
+      "In the plural, masculine nouns end in **-ov**, people and things alike: lekár → lekár**ov**, liek → liek**ov**, zub → zub**ov**. A few everyday ones, like ľudia, peniaze and dni, are irregular (next card).",
+      "Adjectives and ten end in **-ých** for every gender: t**ých** nov**ých** liekov. Possessives end in **-ich**: mojich, tvojich, našich, vašich, svojich."
+    ],
+    "t": [
+      "მრავლობითში მამრობითი სახელები **-ov**-ზე ბოლოვდება, ადამიანებიც და საგნებიც: lekár → lekár**ov**, liek → liek**ov**, zub → zub**ov**. რამდენიმე ყოველდღიური სიტყვა, მაგალითად ľudia, peniaze და dni, არაწესიერია (შემდეგი ბარათი).",
+      "ზედსართავები და ten ყველა სქესში **-ých**-ზე ბოლოვდება: t**ých** nov**ých** liekov. კუთვნილებითები — **-ich**-ზე: mojich, tvojich, našich, vašich, svojich."
+    ]
+  },
+  "a2-u5-l15.grammar-genitive-plural-masculine.table.head": {
+    "en": [
+      "one",
+      "genitive plural"
+    ],
+    "t": [
+      "ერთი",
+      "genitív მრავლობითში"
+    ]
+  },
+  "a2-u5-l15.grammar-genitive-plural-masculine.table.rows": {
+    "en": [
+      [
+        "lekár",
+        "lekár**ov**"
+      ],
+      [
+        "študent",
+        "študent**ov**"
+      ],
+      [
+        "liek",
+        "liek**ov**"
+      ],
+      [
+        "vitamín",
+        "vitamín**ov**"
+      ],
+      [
+        "ten nový recept",
+        "t**ých** nov**ých** recept**ov**"
+      ],
+      [
+        "môj kamarát",
+        "moj**ich** kamarát**ov**"
+      ]
+    ],
+    "t": [
+      [
+        "lekár",
+        "lekár**ov**"
+      ],
+      [
+        "študent",
+        "študent**ov**"
+      ],
+      [
+        "liek",
+        "liek**ov**"
+      ],
+      [
+        "vitamín",
+        "vitamín**ov**"
+      ],
+      [
+        "ten nový recept",
+        "t**ých** nov**ých** recept**ov**"
+      ],
+      [
+        "môj kamarát",
+        "moj**ich** kamarát**ov**"
+      ]
+    ]
+  },
+  "a2-u5-l15.grammar-genitive-plural-masculine.examples": {
+    "en": [
+      "Lucia is at her parents' at the weekend.",
+      "It won't work without medicine."
+    ],
+    "t": [
+      "ლუცია შაბათ-კვირას თავის მშობლებთანაა.",
+      "წამლების გარეშე არ გამოვა."
+    ]
+  },
+  "a2-u5-l15.grammar-genitive-plural-fem-neut.title": {
+    "en": "Feminine and neuter: no ending, or -í",
+    "t": "მდედრობითი და საშუალო: დაბოლოების გარეშე, ან -í"
+  },
+  "a2-u5-l15.grammar-genitive-plural-fem-neut.body": {
+    "en": [
+      "Feminine nouns in -a and neuter nouns in -o lose their ending: kniha → kníh, nemocnica → nemocníc, mesto → miest, auto → áut. The last syllable usually gets longer (see the next card).",
+      "Feminine words ending in a consonant, words in -ia and neuter words in -ie take **-í**: lekáreň → lekárn**í**, vec → vec**í**, reštaurácia → reštaurác**ií**, námestie → námest**í**.",
+      "A few everyday words are irregular: ľudia → **ľudí**, deti → **detí**, peniaze → **peňazí**, dni → **dní**, oči → **očí**, uši → **uší**."
+    ],
+    "t": [
+      "-a-ზე დაბოლოებული მდედრობითი და -o-ზე დაბოლოებული საშუალო სქესის სახელები დაბოლოებას კარგავს: kniha → kníh, nemocnica → nemocníc, mesto → miest, auto → áut. ბოლო მარცვალი ჩვეულებრივ გრძელდება (იხ. შემდეგი ბარათი).",
+      "თანხმოვანზე დაბოლოებული მდედრობითი სიტყვები, -ia-ზე დაბოლოებულები და -ie-ზე დაბოლოებული საშუალო სქესის სიტყვები **-í**-ს იღებს: lekáreň → lekárn**í**, vec → vec**í**, reštaurácia → reštaurác**ií**, námestie → námest**í**.",
+      "რამდენიმე ყოველდღიური სიტყვა არაწესიერია: ľudia → **ľudí**, deti → **detí**, peniaze → **peňazí**, dni → **dní**, oči → **očí**, uši → **uší**."
+    ]
+  },
+  "a2-u5-l15.grammar-genitive-plural-fem-neut.table.head": {
+    "en": [
+      "one",
+      "genitive plural"
+    ],
+    "t": [
+      "ერთი",
+      "genitív მრავლობითში"
+    ]
+  },
+  "a2-u5-l15.grammar-genitive-plural-fem-neut.table.rows": {
+    "en": [
+      [
+        "kniha",
+        "kn**í**h"
+      ],
+      [
+        "mesto",
+        "m**ie**st"
+      ],
+      [
+        "auto",
+        "**á**ut"
+      ],
+      [
+        "lekáreň",
+        "lekárn**í**"
+      ],
+      [
+        "reštaurácia",
+        "reštaurác**ií**"
+      ],
+      [
+        "námestie",
+        "námest**í**"
+      ]
+    ],
+    "t": [
+      [
+        "kniha",
+        "kn**í**h"
+      ],
+      [
+        "mesto",
+        "m**ie**st"
+      ],
+      [
+        "auto",
+        "**á**ut"
+      ],
+      [
+        "lekáreň",
+        "lekárn**í**"
+      ],
+      [
+        "reštaurácia",
+        "reštaurác**ií**"
+      ],
+      [
+        "námestie",
+        "námest**í**"
+      ]
+    ]
+  },
+  "a2-u5-l15.grammar-genitive-plural-fem-neut.examples": {
+    "en": [
+      "Emma came without her books.",
+      "A town without cars is nice."
+    ],
+    "t": [
+      "ემა წიგნების გარეშე მოვიდა.",
+      "ქალაქი მანქანების გარეშე ლამაზია."
+    ]
+  },
+  "a2-u5-l15.fill-lucia-je-cez.en": {
+    "en": "Lucia is at her parents' at the weekend.",
+    "t": "ლუცია შაბათ-კვირას თავის მშობლებთანაა."
+  },
+  "a2-u5-l15.fill-lucia-je-cez.why": {
+    "en": "**U** takes the genitive, and in the plural masculine words end in **-ov**: u **rodičov**.",
+    "t": "**U** genitív-ს მოითხოვს, მრავლობითში კი მამრობითი სიტყვები **-ov**-ზე ბოლოვდება: u **rodičov**."
+  },
+  "a2-u5-l15.build-emma-ma-darcek-od.prompt": {
+    "en": "Emma has a present from her parents.",
+    "t": "ემას მშობლებისგან საჩუქარი აქვს."
+  },
+  "a2-u5-l15.build-emma-ma-darcek-od.traps": {
+    "en": [
+      "**Od** takes the genitive, and the plural of masculine words ends in **-ov**: od **rodičov**.",
+      "Rodičmi goes with s (with). **Od** takes the genitive: od **rodičov**."
+    ],
+    "t": [
+      "**Od** genitív-ს მოითხოვს, მამრობითი სიტყვების მრავლობითი კი **-ov**-ზე ბოლოვდება: od **rodičov**.",
+      "Rodičmi s-ს (-თან ერთად) მიჰყვება. **Od** genitív-ს მოითხოვს: od **rodičov**."
+    ]
+  },
+  "a2-u5-l15.choice-mesto-bez-aut.question": {
+    "en": "Which one means “a town without cars”?",
+    "t": "რომელი ნიშნავს „ქალაქი მანქანების გარეშე“?"
+  },
+  "a2-u5-l15.choice-mesto-bez-aut.why": {
+    "en": "Cars, plural: auto loses its ending in the genitive plural, and a becomes á: bez **áut**. Bez auta is without one car.",
+    "t": "მანქანები, მრავლობითი: genitív მრავლობითში auto დაბოლოებას კარგავს, a კი á ხდება: bez **áut**. Bez auta ერთი მანქანის გარეშეა."
+  },
+  "a2-u5-l15.fill-mam-pozdrav-od.en": {
+    "en": "I've got greetings from my friends.",
+    "t": "ჩემი მეგობრები მოკითხვას გითვლიან."
+  },
+  "a2-u5-l15.fill-mam-pozdrav-od.why": {
+    "en": "Possessives in the genitive plural end in **-ich**: od **mojich** kamarátov.",
+    "t": "კუთვნილებითები genitív მრავლობითში **-ich**-ზე ბოლოვდება: od **mojich** kamarátov."
+  },
+  "a2-u5-l15.choice-genitiv-ludia.question": {
+    "en": "Which is the genitive plural of ľudia (people)?",
+    "t": "რომელია ľudia-ს (ადამიანები) genitív მრავლობითში?"
+  },
+  "a2-u5-l15.choice-genitiv-ludia.why": {
+    "en": "**Ľudia** is irregular: **ľudí**, like detí and peňazí.",
+    "t": "**Ľudia** არაწესიერია: **ľudí**, როგორც detí და peňazí."
+  },
+  "a2-u5-l15.grammar-genitive-plural-longer.title": {
+    "en": "No ending, a longer syllable",
+    "t": "დაბოლოება არ არის, მარცვალი გრძელდება"
+  },
+  "a2-u5-l15.grammar-genitive-plural-longer.body": {
+    "en": [
+      "When the ending drops, the last syllable gets longer: a → á (mapa → máp), i → í (kniha → kníh), u → ú (ruka → rúk), o → ô (noha → nôh), e → ie (žena → žien), ä → ia (fľaša → fliaš), even r → ŕ and l → ĺ (srdce → sŕdc, jablko → jabĺk).",
+      "Two consonants at the end get a vowel between them: **-ie-** (tabletka → tablet**ie**k), but **-o-** after a long syllable (kamarátka → kamarát**o**k). A syllable that is already long stays: práca → prác."
+    ],
+    "t": [
+      "როცა დაბოლოება იკარგება, ბოლო მარცვალი გრძელდება: a → á (mapa → máp), i → í (kniha → kníh), u → ú (ruka → rúk), o → ô (noha → nôh), e → ie (žena → žien), ä → ia (fľaša → fliaš), r → ŕ და l → ĺ-იც კი (srdce → sŕdc, jablko → jabĺk).",
+      "ბოლოში ორ თანხმოვანს შორის ხმოვანი ჩნდება: **-ie-** (tabletka → tablet**ie**k), მაგრამ გრძელი მარცვლის შემდეგ — **-o-** (kamarátka → kamarát**o**k). უკვე გრძელი მარცვალი არ იცვლება: práca → prác."
+    ]
+  },
+  "a2-u5-l15.grammar-genitive-plural-longer.table.head": {
+    "en": [
+      "one",
+      "genitive plural"
+    ],
+    "t": [
+      "ერთი",
+      "genitív მრავლობითში"
+    ]
+  },
+  "a2-u5-l15.grammar-genitive-plural-longer.table.rows": {
+    "en": [
+      [
+        "ruka",
+        "r**ú**k"
+      ],
+      [
+        "noha",
+        "n**ô**h"
+      ],
+      [
+        "žena",
+        "ž**ie**n"
+      ],
+      [
+        "jablko",
+        "jab**ĺ**k"
+      ],
+      [
+        "sestra",
+        "sest**ie**r"
+      ],
+      [
+        "tabletka",
+        "tablet**ie**k"
+      ],
+      [
+        "kamarátka",
+        "kamarát**o**k"
+      ]
+    ],
+    "t": [
+      [
+        "ruka",
+        "r**ú**k"
+      ],
+      [
+        "noha",
+        "n**ô**h"
+      ],
+      [
+        "žena",
+        "ž**ie**n"
+      ],
+      [
+        "jablko",
+        "jab**ĺ**k"
+      ],
+      [
+        "sestra",
+        "sest**ie**r"
+      ],
+      [
+        "tabletka",
+        "tablet**ie**k"
+      ],
+      [
+        "kamarátka",
+        "kamarát**o**k"
+      ]
+    ]
+  },
+  "a2-u5-l15.grammar-genitive-plural-longer.examples": {
+    "en": [
+      "I can't sleep without those tablets.",
+      "It's a present from my friends."
+    ],
+    "t": [
+      "იმ აბების გარეშე ვერ ვიძინებ.",
+      "ეს ჩემი მეგობარი გოგოების საჩუქარია."
+    ]
+  },
+  "a2-u5-l15.fill-emma-ide-domov.en": {
+    "en": "Emma is going home from her lectures.",
+    "t": "ემა ლექციებიდან სახლში მიდის."
+  },
+  "a2-u5-l15.fill-emma-ide-domov.why": {
+    "en": "**Z** takes the genitive. Prednáška loses its ending, and š-k gets a vowel between them; after the long á it's **-o-**: z **prednášok**.",
+    "t": "**Z** genitív-ს მოითხოვს. Prednáška დაბოლოებას კარგავს, š-სა და k-ს შორის კი ხმოვანი ჩნდება; გრძელი á-ს შემდეგ ეს **-o-**-ა: z **prednášok**."
+  },
+  "a2-u5-l15.fill-je-to-darcek.en": {
+    "en": "It's a present from my (girl) friends.",
+    "t": "ეს ჩემი მეგობარი გოგოების საჩუქარია."
+  },
+  "a2-u5-l15.fill-je-to-darcek.why": {
+    "en": "**Od** takes the genitive. In the plural kamarátka has no ending; t-k gets **-o-** between them, after the long á: **kamarátok**.",
+    "t": "**Od** genitív-ს მოითხოვს. მრავლობითში kamarátka დაბოლოებას კარგავს; t-სა და k-ს შორის, გრძელი á-ს შემდეგ, **-o-** ჩნდება: **kamarátok**."
+  },
+  "a2-u5-l15.fill-prisla-som-bez.en": {
+    "en": "I came without my books.",
+    "t": "წიგნების გარეშე მოვედი."
+  },
+  "a2-u5-l15.fill-prisla-som-bez.why": {
+    "en": "**Bez** takes the genitive. In the plural kniha has no ending, and its i gets longer: bez **kníh**.",
+    "t": "**Bez** genitív-ს მოითხოვს. მრავლობითში kniha დაბოლოებას კარგავს, მისი i კი გრძელდება: bez **kníh**."
+  },
+  "a2-u5-l15.build-nemozem-spat-bez.prompt": {
+    "en": "I can't sleep without those new tablets.",
+    "t": "იმ ახალი აბების გარეშე ვერ ვიძინებ."
+  },
+  "a2-u5-l15.build-nemozem-spat-bez.traps": {
+    "en": [
+      "**Bez** takes the genitive plural: tabletka has no ending, and t-k gets **-ie-** between them: **tabletiek**.",
+      "In the genitive plural, tie becomes **tých**, and adjectives end in -ých: **tých** nových."
+    ],
+    "t": [
+      "**Bez** genitív მრავლობითს მოითხოვს: tabletka დაბოლოებას კარგავს, t-სა და k-ს შორის კი **-ie-** ჩნდება: **tabletiek**.",
+      "genitív მრავლობითში tie ხდება **tých**, ზედსართავები კი -ých-ზე ბოლოვდება: **tých** nových."
+    ]
+  },
+  "a2-u5-l15.fill-emma-prisla-na.en": {
+    "en": "Emma came to the dorm without her things.",
+    "t": "ემა საერთო საცხოვრებელში თავისი ნივთების გარეშე მოვიდა."
+  },
+  "a2-u5-l15.fill-emma-prisla-na.why": {
+    "en": "**Bez** takes the genitive plural. Vec ends in a consonant, so it takes **-í**: bez **vecí**.",
+    "t": "**Bez** genitív მრავლობითს მოითხოვს. Vec თანხმოვანზე ბოლოვდება, ამიტომ **-í**-ს იღებს: bez **vecí**."
+  },
+  "a2-u5-l15.build-v-nasom-meste.prompt": {
+    "en": "There are five pharmacies in our town.",
+    "t": "ჩვენს ქალაქში ხუთი აფთიაქია."
+  },
+  "a2-u5-l15.build-v-nasom-meste.traps": {
+    "en": [
+      "From five up, the genitive plural, as in päť eur. Lekáreň ends in a consonant, so it takes **-í**: päť **lekární**.",
+      "With five and up the verb is singular, as in Je päť hodín: **je** päť lekární."
+    ],
+    "t": [
+      "ხუთიდან ზემოთ genitív მრავლობითია, როგორც päť eur-ში (ქართულში კი უბრალოდ მხოლობითი: ხუთი აფთიაქი). Lekáreň თანხმოვანზე ბოლოვდება, ამიტომ **-í**-ს იღებს: päť **lekární**.",
+      "ხუთსა და მეტთან ზმნა მხოლობითშია, როგორც Je päť hodín-ში: **je** päť lekární."
+    ]
+  },
+  "a2-u5-l15.fill-mam-pozvanku-od.en": {
+    "en": "I've got an invitation from those new students.",
+    "t": "იმ ახალი სტუდენტებისგან მოსაწვევი მაქვს."
+  },
+  "a2-u5-l15.fill-mam-pozvanku-od.why": {
+    "en": "In the genitive plural, adjectives end in **-ých**, like tých: od tých **nových** študentov.",
+    "t": "genitív მრავლობითში ზედსართავები **-ých**-ზე ბოლოვდება, როგორც tých: od tých **nových** študentov."
+  },
+  "a2-u5-l15.fill-na-pohotovosti-caka.en": {
+    "en": "A lot of young people are waiting at A&E.",
+    "t": "გადაუდებელ განყოფილებაში ბევრი ახალგაზრდა ელოდება."
+  },
+  "a2-u5-l15.fill-na-pohotovosti-caka.why": {
+    "en": "Ľudí is the genitive plural, and its adjective ends in **-ých**, for every gender: veľa **mladých** ľudí.",
+    "t": "Ľudí genitív მრავლობითია, მისი ზედსართავი კი ყველა სქესში **-ých**-ზე ბოლოვდება: veľa **mladých** ľudí."
+  },
+  "a2-u5-l15.speak-som-bez-penazi.en": {
+    "en": "I've got no money on me.",
+    "t": "ფული თან არ მაქვს."
+  },
+  "a2-u5-l15.build-lucia-sa-vratila.answers": {
+    "en": [
+      "Lucia came back from her parents' in Žilina.",
+      "Lucia has come back from her parents' in Žilina.",
+      "Lucia came back from her parents in Žilina.",
+      "Lucia has come back from her parents in Žilina."
+    ],
+    "t": [
+      "ლუცია ჟილინიდან მშობლებისგან დაბრუნდა.",
+      "ლუცია მშობლებისგან ჟილინიდან დაბრუნდა.",
+      "ლუცია ჟილინაში მშობლებთან იყო და დაბრუნდა."
+    ]
+  },
+  "a2-u5-l15.build-lucia-sa-vratila.distractors": {
+    "en": [
+      "grandma's",
+      "Bratislava"
+    ],
+    "t": [
+      "ბებიისგან",
+      "ბრატისლავიდან"
+    ]
+  },
+  "a2-u5-l16.titleEn": {
+    "en": "How much? How many?",
+    "t": "რამდენი?"
+  },
+  "a2-u5-l16.grammar-quantity-words.title": {
+    "en": "Veľa, málo, trochu + the genitive",
+    "t": "Veľa, málo, trochu + genitív"
+  },
+  "a2-u5-l16.grammar-quantity-words.body": {
+    "en": [
+      "After words of quantity, the noun takes the genitive: veľa vody, málo času, trochu medu, dosť peňazí, viac vitamínov, niekoľko dní. **Koľko?** works the same way: Koľko liekov užívaš?",
+      "Things you can't count stay singular: veľa vod**y**, trochu cukr**u**. Things you can count go plural: veľa liek**ov**, niekoľko tablet**iek**."
+    ],
+    "t": [
+      "რაოდენობის სიტყვების შემდეგ არსებითი სახელი genitív-ში დგება: veľa vody, málo času, trochu medu, dosť peňazí, viac vitamínov, niekoľko dní. **Koľko?** იმავენაირად მოქმედებს: Koľko liekov užívaš? ქართულში ასეთი სიტყვების შემდეგ სახელი უბრალოდ მხოლობითშია (ბევრი წამალი), სლოვაკურში კი ბრუნდება.",
+      "რასაც ვერ დათვლით, მხოლობითში რჩება: veľa vod**y**, trochu cukr**u**. რასაც დათვლით, მრავლობითში დგება: veľa liek**ov**, niekoľko tablet**iek**."
+    ]
+  },
+  "a2-u5-l16.grammar-quantity-words.table.head": {
+    "en": [
+      "word",
+      "meaning",
+      "example"
+    ],
+    "t": [
+      "სიტყვა",
+      "მნიშვნელობა",
+      "მაგალითი"
+    ]
+  },
+  "a2-u5-l16.grammar-quantity-words.table.rows": {
+    "en": [
+      [
+        "veľa, mnoho",
+        "a lot of, many",
+        "veľa tekutín"
+      ],
+      [
+        "málo",
+        "little, few",
+        "málo čas**u**"
+      ],
+      [
+        "trochu",
+        "a little",
+        "trochu med**u**"
+      ],
+      [
+        "dosť",
+        "enough",
+        "dosť peňazí"
+      ],
+      [
+        "viac, menej",
+        "more, less",
+        "viac vitamín**ov**"
+      ],
+      [
+        "niekoľko, zopár",
+        "several, a few",
+        "niekoľko dní"
+      ]
+    ],
+    "t": [
+      [
+        "veľa, mnoho",
+        "ბევრი",
+        "veľa tekutín"
+      ],
+      [
+        "málo",
+        "ცოტა, მცირე",
+        "málo čas**u**"
+      ],
+      [
+        "trochu",
+        "ცოტაოდენი",
+        "trochu med**u**"
+      ],
+      [
+        "dosť",
+        "საკმარისი",
+        "dosť peňazí"
+      ],
+      [
+        "viac, menej",
+        "მეტი, ნაკლები",
+        "viac vitamín**ov**"
+      ],
+      [
+        "niekoľko, zopár",
+        "რამდენიმე",
+        "niekoľko dní"
+      ]
+    ]
+  },
+  "a2-u5-l16.grammar-quantity-words.examples": {
+    "en": [
+      "Marek has a lot of time now.",
+      "Drink plenty of fluids."
+    ],
+    "t": [
+      "მარეკს ახლა ბევრი დრო აქვს.",
+      "ბევრი სითხე დალიეთ."
+    ]
+  },
+  "a2-u5-l16.grammar-from-five-up.title": {
+    "en": "From five up: päť tabletiek",
+    "t": "ხუთიდან ზემოთ: päť tabletiek"
+  },
+  "a2-u5-l16.grammar-from-five-up.body": {
+    "en": [
+      "You know päť eur and desať rokov: from five up, the noun takes the genitive plural. So päť tabletiek, šesť týždňov, desať študentov. With 2, 3 and 4 it's the plural you know: dve tabletky.",
+      "After five and up, and after veľa or niekoľko, the verb is singular: Prišlo päť študentov. In the past it ends in **-lo**: V čakárni sedel**o** desať ľudí."
+    ],
+    "t": [
+      "päť eur და desať rokov იცით: ხუთიდან ზემოთ არსებითი სახელი genitív მრავლობითში დგება. ასე რომ: päť tabletiek, šesť týždňov, desať študentov. 2-თან, 3-სა და 4-თან ჩვეულებრივი მრავლობითია, რომელიც იცით: dve tabletky. ქართულში კი რიცხვის შემდეგ ყოველთვის მხოლობითია: ხუთი აბი.",
+      "ხუთისა და მეტის შემდეგ, ასევე veľa-სა და niekoľko-ს შემდეგ, ზმნა მხოლობითშია, ისევე როგორც ქართულში (ხუთი სტუდენტი მოვიდა): Prišlo päť študentov. წარსულში ის **-lo**-ზე ბოლოვდება: V čakárni sedel**o** desať ľudí."
+    ]
+  },
+  "a2-u5-l16.grammar-from-five-up.table.head": {
+    "en": [
+      "2, 3, 4",
+      "5 and up"
+    ],
+    "t": [
+      "2, 3, 4",
+      "5 და მეტი"
+    ]
+  },
+  "a2-u5-l16.grammar-from-five-up.table.rows": {
+    "en": [
+      [
+        "dve tabletky",
+        "päť tablet**iek**"
+      ],
+      [
+        "tri týždne",
+        "šesť týždň**ov**"
+      ],
+      [
+        "štyria študenti",
+        "desať študent**ov**"
+      ],
+      [
+        "dve lekárne",
+        "päť lekárn**í**"
+      ]
+    ],
+    "t": [
+      [
+        "dve tabletky",
+        "päť tablet**iek**"
+      ],
+      [
+        "tri týždne",
+        "šesť týždň**ov**"
+      ],
+      [
+        "štyria študenti",
+        "desať študent**ov**"
+      ],
+      [
+        "dve lekárne",
+        "päť lekárn**í**"
+      ]
+    ]
+  },
+  "a2-u5-l16.grammar-from-five-up.examples": {
+    "en": [
+      "Ten people were sitting in the waiting room.",
+      "Five friends went skiing."
+    ],
+    "t": [
+      "მოსაცდელ ოთახში ათი ადამიანი იჯდა.",
+      "ხუთი მეგობარი თხილამურებზე წავიდა."
+    ]
+  },
+  "a2-u5-l16.fill-mam-dnes-malo.en": {
+    "en": "I haven't got much time today.",
+    "t": "დღეს ცოტა დრო მაქვს."
+  },
+  "a2-u5-l16.fill-mam-dnes-malo.why": {
+    "en": "After **málo**, the genitive: čas → **času**.",
+    "t": "**málo**-ს შემდეგ genitív: čas → **času**."
+  },
+  "a2-u5-l16.fill-marek-musis-pit.en": {
+    "en": "Marek, you must drink more water!",
+    "t": "მარეკ, მეტი წყალი უნდა დალიო!"
+  },
+  "a2-u5-l16.fill-marek-musis-pit.why": {
+    "en": "After **viac** (more), the genitive: voda → **vody**. You can't count water, so it stays singular.",
+    "t": "**viac**-ის (მეტი) შემდეგ genitív: voda → **vody**. წყალს ვერ დათვლით, ამიტომ მხოლობითში რჩება."
+  },
+  "a2-u5-l16.fill-emma-bola-niekolko.en": {
+    "en": "Emma was at home for several days.",
+    "t": "ემა რამდენიმე დღე სახლში იყო."
+  },
+  "a2-u5-l16.fill-emma-bola-niekolko.why": {
+    "en": "After **niekoľko**, the genitive plural, and deň is irregular: **dní**.",
+    "t": "**niekoľko**-ს შემდეგ genitív მრავლობითი, deň კი არაწესიერია: **dní**."
+  },
+  "a2-u5-l16.choice-v-cakarni-sedelo.question": {
+    "en": "Which sentence is correct?",
+    "t": "რომელი წინადადებაა სწორი?"
+  },
+  "a2-u5-l16.choice-v-cakarni-sedelo.why": {
+    "en": "From five up the verb is singular, in the past **-lo**: **sedelo**. And the noun is in the genitive plural: desať **ľudí**.",
+    "t": "ხუთიდან ზემოთ ზმნა მხოლობითშია, წარსულში **-lo**: **sedelo**. არსებითი სახელი კი genitív მრავლობითშია: desať **ľudí**."
+  },
+  "a2-u5-l16.fill-v-baleni-je.en": {
+    "en": "There are twenty tablets in the pack.",
+    "t": "შეფუთვაში ოცი აბია."
+  },
+  "a2-u5-l16.fill-v-baleni-je.why": {
+    "en": "From five up the noun takes the genitive plural: **tabletiek**. Tabletky goes with 2, 3 and 4.",
+    "t": "ხუთიდან ზემოთ არსებითი სახელი genitív მრავლობითს იღებს: **tabletiek**. Tabletky 2-ს, 3-სა და 4-ს მიჰყვება."
+  },
+  "a2-u5-l16.grammar-containers.title": {
+    "en": "A cup of tea, a kilo of apples",
+    "t": "ერთი ფინჯანი ჩაი, ერთი კილო ვაშლი"
+  },
+  "a2-u5-l16.grammar-containers.body": {
+    "en": [
+      "Containers and measures take the genitive too, like English “of”: šálka čaju, fľaša vody, kúsok torty.",
+      "With **kilo**, things you can't count stay singular (kilo múky, kilo cukru), and things you can count go plural (kilo jabĺk, kilo zemiakov)."
+    ],
+    "t": [
+      "ჭურჭლისა და საზომის სიტყვებიც genitív-ს მოითხოვს: šálka čaju, fľaša vody, kúsok torty. ქართულში ორივე სიტყვა უბრალოდ გვერდიგვერდ დგას (ერთი ფინჯანი ჩაი), სლოვაკურში კი მეორე genitív-შია.",
+      "**kilo**-სთან ის, რასაც ვერ დათვლით, მხოლობითში რჩება (kilo múky, kilo cukru), რასაც დათვლით — მრავლობითში (kilo jabĺk, kilo zemiakov)."
+    ]
+  },
+  "a2-u5-l16.grammar-containers.table.head": {
+    "en": [
+      "Slovak",
+      "English"
+    ],
+    "t": [
+      "სლოვაკურად",
+      "ქართულად"
+    ]
+  },
+  "a2-u5-l16.grammar-containers.table.rows": {
+    "en": [
+      [
+        "šálka čaj**u**",
+        "a cup of tea"
+      ],
+      [
+        "fľaša vod**y**",
+        "a bottle of water"
+      ],
+      [
+        "pohár mliek**a**",
+        "a glass of milk"
+      ],
+      [
+        "kilo múk**y**",
+        "a kilo of flour"
+      ],
+      [
+        "kilo jab**ĺ**k",
+        "a kilo of apples"
+      ],
+      [
+        "kúsok tort**y**",
+        "a piece of cake"
+      ],
+      [
+        "krajec chleb**a**",
+        "a slice of bread"
+      ],
+      [
+        "konzerva polievk**y**",
+        "a tin of soup"
+      ]
+    ],
+    "t": [
+      [
+        "šálka čaj**u**",
+        "ერთი ფინჯანი ჩაი"
+      ],
+      [
+        "fľaša vod**y**",
+        "ერთი ბოთლი წყალი"
+      ],
+      [
+        "pohár mliek**a**",
+        "ერთი ჭიქა რძე"
+      ],
+      [
+        "kilo múk**y**",
+        "ერთი კილო ფქვილი"
+      ],
+      [
+        "kilo jab**ĺ**k",
+        "ერთი კილო ვაშლი"
+      ],
+      [
+        "kúsok tort**y**",
+        "ერთი ნაჭერი ტორტი"
+      ],
+      [
+        "krajec chleb**a**",
+        "ერთი ნაჭერი პური"
+      ],
+      [
+        "konzerva polievk**y**",
+        "ერთი ქილა წვნიანი"
+      ]
+    ]
+  },
+  "a2-u5-l16.grammar-containers.examples": {
+    "en": [
+      "I'll have a cup of tea.",
+      "I need a kilo of flour and a kilo of apples."
+    ],
+    "t": [
+      "ერთ ფინჯან ჩაის ავიღებ.",
+      "ერთი კილო ფქვილი და ერთი კილო ვაშლი მჭირდება."
+    ]
+  },
+  "a2-u5-l16.fill-dam-si-salku.en": {
+    "en": "I'll have a cup of tea.",
+    "t": "ერთ ფინჯან ჩაის ავიღებ."
+  },
+  "a2-u5-l16.fill-dam-si-salku.why": {
+    "en": "A cup **of** tea: after šálka, the genitive: čaj → **čaju**.",
+    "t": "ფინჯანი ჩაი: šálka-ს შემდეგ genitív: čaj → **čaju**."
+  },
+  "a2-u5-l16.build-potrebujem-kilo-jablk.prompt": {
+    "en": "I need a kilo of apples and a bottle of milk.",
+    "t": "ერთი კილო ვაშლი და ერთი ბოთლი რძე მჭირდება."
+  },
+  "a2-u5-l16.build-potrebujem-kilo-jablk.traps": {
+    "en": [
+      "After kilo, things you can count go into the genitive plural: jablko → **jabĺk**, with a long ĺ.",
+      "A bottle **of** milk: the genitive, **mlieka**."
+    ],
+    "t": [
+      "kilo-ს შემდეგ დასათვლელი საგნები genitív მრავლობითში დგება: jablko → **jabĺk**, გრძელი ĺ-ით.",
+      "ბოთლი რძე: genitív, **mlieka**."
+    ]
+  },
+  "a2-u5-l16.fill-marek-potrebuje-kilo.en": {
+    "en": "Marek needs a kilo of flour.",
+    "t": "მარეკს ერთი კილო ფქვილი სჭირდება."
+  },
+  "a2-u5-l16.fill-marek-potrebuje-kilo.why": {
+    "en": "You can't count flour, so after kilo it stays singular, in the genitive: **múky**.",
+    "t": "ფქვილს ვერ დათვლით, ამიტომ kilo-ს შემდეგ მხოლობითში რჩება, genitív-ში: **múky**."
+  },
+  "a2-u5-l16.build-pat-kamaratov-prislo.prompt": {
+    "en": "Five friends came to the hospital.",
+    "t": "საავადმყოფოში ხუთი მეგობარი მოვიდა."
+  },
+  "a2-u5-l16.build-pat-kamaratov-prislo.traps": {
+    "en": [
+      "With five and up the verb is singular, and in the past it ends in **-lo**: **prišlo**.",
+      "From five up the noun takes the genitive plural: **kamarátov**."
+    ],
+    "t": [
+      "ხუთსა და მეტთან ზმნა მხოლობითშია, როგორც ქართულ „ხუთი მეგობარი მოვიდა“-ში, წარსულში კი **-lo**-ზე ბოლოვდება: **prišlo**.",
+      "ხუთიდან ზემოთ არსებითი სახელი genitív მრავლობითს იღებს: **kamarátov**."
+    ]
+  },
+  "a2-u5-l16.fill-kolko-liekov-uzivas.en": {
+    "en": "How many medicines are you taking?",
+    "t": "რამდენ წამალს იღებ?"
+  },
+  "a2-u5-l16.fill-kolko-liekov-uzivas.why": {
+    "en": "**Koľko** takes the genitive, and medicines can be counted, so it's plural: **liekov**.",
+    "t": "**Koľko** genitív-ს მოითხოვს, წამლები კი დაითვლება, ამიტომ მრავლობითია: **liekov**."
+  },
+  "a2-u5-l16.speak-salku-caju-s.en": {
+    "en": "A cup of tea with honey, please.",
+    "t": "ერთი ფინჯანი ჩაი თაფლით, თუ შეიძლება."
+  },
+  "a2-u5-l16.build-marekovi-sme-kupili.answers": {
+    "en": [
+      "We bought Marek two tins of soup.",
+      "We bought two tins of soup for Marek.",
+      "We bought Marek two cans of soup.",
+      "We bought two cans of soup for Marek."
+    ],
+    "t": [
+      "მარეკს ორი ქილა წვნიანი ვუყიდეთ.",
+      "მარეკს ვუყიდეთ ორი ქილა წვნიანი.",
+      "ორი ქილა წვნიანი მარეკს ვუყიდეთ.",
+      "მარეკისთვის ორი ქილა წვნიანი ვიყიდეთ."
+    ]
+  },
+  "a2-u5-l16.build-marekovi-sme-kupili.distractors": {
+    "en": [
+      "bottles",
+      "kilos"
+    ],
+    "t": [
+      "ბოთლი",
+      "კილო"
+    ]
+  },
+  "a2-u5-l17.titleEn": {
+    "en": "Near the dorm",
+    "t": "საერთო საცხოვრებელთან ახლოს"
+  },
+  "a2-u5-l17.grammar-genitive-place.title": {
+    "en": "Where? blízko, vedľa, okolo, uprostred",
+    "t": "სად? blízko, vedľa, okolo, uprostred"
+  },
+  "a2-u5-l17.grammar-genitive-place.body": {
+    "en": [
+      "More prepositions take the genitive. Many of them say where something is: **blízko** (near), **vedľa** (next to), **okolo** (around), **uprostred** (in the middle of).",
+      "**Okolo** also means “about” with a time: okolo piatej, at about five."
+    ],
+    "t": [
+      "genitív-ს სხვა წინდებულებიც მოითხოვს. ბევრი მათგანი ამბობს, სად არის რამე: **blízko** (ახლოს), **vedľa** (გვერდით), **okolo** (გარშემო), **uprostred** (შუაში). ქართულშიც ეს თანდებულები ნათესაობითთან დგას: ფოსტის გვერდით, პარკის გარშემო.",
+      "**Okolo** დროსთან ერთად „დაახლოებით“-საც ნიშნავს: okolo piatej, დაახლოებით ხუთზე."
+    ]
+  },
+  "a2-u5-l17.grammar-genitive-place.table.head": {
+    "en": [
+      "word",
+      "meaning",
+      "example"
+    ],
+    "t": [
+      "სიტყვა",
+      "მნიშვნელობა",
+      "მაგალითი"
+    ]
+  },
+  "a2-u5-l17.grammar-genitive-place.table.rows": {
+    "en": [
+      [
+        "blízko",
+        "near",
+        "blízko internát**u**"
+      ],
+      [
+        "vedľa",
+        "next to",
+        "vedľa pošt**y**"
+      ],
+      [
+        "okolo",
+        "around",
+        "okolo park**u**"
+      ],
+      [
+        "uprostred",
+        "in the middle of",
+        "uprostred námesti**a**"
+      ]
+    ],
+    "t": [
+      [
+        "blízko",
+        "ახლოს",
+        "blízko internát**u**"
+      ],
+      [
+        "vedľa",
+        "გვერდით",
+        "vedľa pošt**y**"
+      ],
+      [
+        "okolo",
+        "გარშემო",
+        "okolo park**u**"
+      ],
+      [
+        "uprostred",
+        "შუაში, შუაგულში",
+        "uprostred námesti**a**"
+      ]
+    ]
+  },
+  "a2-u5-l17.grammar-genitive-place.examples": {
+    "en": [
+      "The pharmacy is near the dorm, next to the post office.",
+      "The porter's lodge is next to the lift.",
+      "I'll come at about five."
+    ],
+    "t": [
+      "აფთიაქი საერთო საცხოვრებელთან ახლოსაა, ფოსტის გვერდით.",
+      "რეცეფცია ლიფტის გვერდითაა.",
+      "დაახლოებით ხუთზე მოვალ."
+    ]
+  },
+  "a2-u5-l17.grammar-genitive-time.title": {
+    "en": "When? od … do, počas",
+    "t": "როდის? od … do, počas"
+  },
+  "a2-u5-l17.grammar-genitive-time.body": {
+    "en": [
+      "For time, **od … do** means from … to: od pondelka do piatku, od ôsmej do štvrtej. **Do** alone means until, **od** alone since.",
+      "**Počas** means during: počas zimy, počas víkendu."
+    ],
+    "t": [
+      "დროისთვის **od … do** ნიშნავს „-დან -მდე“: od pondelka do piatku, od ôsmej do štvrtej. მარტო **do** ნიშნავს „-მდე“, მარტო **od** — „-დან“, „მას შემდეგ, რაც“.",
+      "**Počas** ნიშნავს „დროს“, „განმავლობაში“: počas zimy, počas víkendu."
+    ]
+  },
+  "a2-u5-l17.grammar-genitive-time.table.head": {
+    "en": [
+      "Slovak",
+      "English"
+    ],
+    "t": [
+      "სლოვაკურად",
+      "ქართულად"
+    ]
+  },
+  "a2-u5-l17.grammar-genitive-time.table.rows": {
+    "en": [
+      [
+        "od pondelk**a** do piatk**u**",
+        "from Monday to Friday"
+      ],
+      [
+        "od ôsm**ej** do štvrt**ej**",
+        "from eight to four"
+      ],
+      [
+        "do sobot**y**",
+        "until Saturday"
+      ],
+      [
+        "od január**a**",
+        "since January"
+      ],
+      [
+        "počas zim**y**",
+        "during the winter"
+      ],
+      [
+        "počas víkend**u**",
+        "during the weekend"
+      ]
+    ],
+    "t": [
+      [
+        "od pondelk**a** do piatk**u**",
+        "ორშაბათიდან პარასკევამდე"
+      ],
+      [
+        "od ôsm**ej** do štvrt**ej**",
+        "რვიდან ოთხამდე"
+      ],
+      [
+        "do sobot**y**",
+        "შაბათამდე"
+      ],
+      [
+        "od január**a**",
+        "იანვრიდან"
+      ],
+      [
+        "počas zim**y**",
+        "ზამთრის განმავლობაში"
+      ],
+      [
+        "počas víkend**u**",
+        "შაბათ-კვირას"
+      ]
+    ]
+  },
+  "a2-u5-l17.grammar-genitive-time.examples": {
+    "en": [
+      "The doctor sees patients from Monday to Friday.",
+      "Marek will be on sick leave until April."
+    ],
+    "t": [
+      "ექიმი პაციენტებს ორშაბათიდან პარასკევამდე იღებს.",
+      "მარეკი აპრილამდე ბიულეტენზე იქნება."
+    ]
+  },
+  "a2-u5-l17.fill-lekaren-je-blizko.en": {
+    "en": "The pharmacy is near the dorm.",
+    "t": "აფთიაქი საერთო საცხოვრებელთან ახლოსაა."
+  },
+  "a2-u5-l17.fill-lekaren-je-blizko.why": {
+    "en": "**Blízko** takes the genitive: internát → blízko **internátu**.",
+    "t": "**Blízko** genitív-ს მოითხოვს: internát → blízko **internátu**."
+  },
+  "a2-u5-l17.fill-ordinacia-je-vedla.en": {
+    "en": "The surgery is next to the post office.",
+    "t": "ექიმის კაბინეტი ფოსტის გვერდითაა."
+  },
+  "a2-u5-l17.fill-ordinacia-je-vedla.why": {
+    "en": "**Vedľa** takes the genitive: pošta → vedľa **pošty**.",
+    "t": "**Vedľa** genitív-ს მოითხოვს: pošta → vedľa **pošty**, როგორც ქართული ფოსტის გვერდით."
+  },
+  "a2-u5-l17.choice-tomas-prijde-okolo.question": {
+    "en": "Tomáš says: Prídem okolo piatej. When will he come?",
+    "t": "ტომაში ამბობს: Prídem okolo piatej. როდის მოვა?"
+  },
+  "a2-u5-l17.choice-tomas-prijde-okolo.options": {
+    "en": [
+      "before five",
+      "at about five",
+      "after five"
+    ],
+    "t": [
+      "ხუთამდე",
+      "დაახლოებით ხუთზე",
+      "ხუთის შემდეგ"
+    ]
+  },
+  "a2-u5-l17.choice-tomas-prijde-okolo.why": {
+    "en": "**Okolo** with a time means about: okolo piatej = at about five.",
+    "t": "**Okolo** დროსთან ერთად „დაახლოებით“-ს ნიშნავს: okolo piatej = დაახლოებით ხუთზე."
+  },
+  "a2-u5-l17.fill-kostol-je-uprostred.en": {
+    "en": "The church is in the middle of the square.",
+    "t": "ეკლესია მოედნის შუაგულშია."
+  },
+  "a2-u5-l17.fill-kostol-je-uprostred.why": {
+    "en": "**Uprostred** takes the genitive: námestie → uprostred **námestia**.",
+    "t": "**Uprostred** genitív-ს მოითხოვს: námestie → uprostred **námestia**."
+  },
+  "a2-u5-l17.fill-lekarka-ordinuje-od.en": {
+    "en": "The doctor sees patients from Monday to Friday.",
+    "t": "ექიმი პაციენტებს ორშაბათიდან პარასკევამდე იღებს."
+  },
+  "a2-u5-l17.fill-lekarka-ordinuje-od.why": {
+    "en": "**Do** takes the genitive. Piatok drops its o and, unlike the other days, takes **-u**: do **piatku**.",
+    "t": "**Do** genitív-ს მოითხოვს. Piatok o-ს კარგავს და, სხვა დღეებისგან განსხვავებით, **-u**-ს იღებს: do **piatku**."
+  },
+  "a2-u5-l17.build-marek-nebude-pracovat.prompt": {
+    "en": "Marek won't be working until April.",
+    "t": "მარეკი აპრილამდე არ იმუშავებს."
+  },
+  "a2-u5-l17.build-marek-nebude-pracovat.traps": {
+    "en": [
+      "**Do** (until) takes the genitive: apríl → do **apríla**, as in dates.",
+      "Until is **do**. V apríli means in April."
+    ],
+    "t": [
+      "**Do** (-მდე) genitív-ს მოითხოვს: apríl → do **apríla**, როგორც თარიღებში.",
+      "„-მდე“ არის **do**. V apríli აპრილში ნიშნავს."
+    ]
+  },
+  "a2-u5-l17.grammar-bez-okrem-namiesto.title": {
+    "en": "bez, okrem, namiesto, podľa",
+    "t": "bez, okrem, namiesto, podľa"
+  },
+  "a2-u5-l17.grammar-bez-okrem-namiesto.body": {
+    "en": [
+      "Four more take the genitive: **bez** (without), **okrem** (except), **namiesto** (instead of) and **podľa** (according to).",
+      "Bez also starts adjectives that mean “without”: bez platenia (without paying) → **bezplatný**, free of charge. Číslo 112 je bezplatné."
+    ],
+    "t": [
+      "კიდევ ოთხი genitív-ს მოითხოვს: **bez** (გარეშე), **okrem** (გარდა), **namiesto** (ნაცვლად) და **podľa** (მიხედვით, ვინმეს თქმით). მათი ქართული შესატყვისებიც ნათესაობითთან დგას: რეცეპტის გარეშე, მარეკის გარდა.",
+      "Bez „გარეშე“-ს მნიშვნელობის ზედსართავებსაც იწყებს, როგორც ქართული „უ-“: bez platenia (გადახდის გარეშე) → **bezplatný**, უფასო. Číslo 112 je bezplatné."
+    ]
+  },
+  "a2-u5-l17.grammar-bez-okrem-namiesto.table.head": {
+    "en": [
+      "word",
+      "meaning",
+      "example"
+    ],
+    "t": [
+      "სიტყვა",
+      "მნიშვნელობა",
+      "მაგალითი"
+    ]
+  },
+  "a2-u5-l17.grammar-bez-okrem-namiesto.table.rows": {
+    "en": [
+      [
+        "bez",
+        "without",
+        "bez recept**u**"
+      ],
+      [
+        "okrem",
+        "except",
+        "okrem Marek**a**"
+      ],
+      [
+        "namiesto",
+        "instead of",
+        "čaj namiesto káv**y**"
+      ],
+      [
+        "podľa",
+        "according to",
+        "podľa lekárk**y**"
+      ]
+    ],
+    "t": [
+      [
+        "bez",
+        "გარეშე",
+        "bez recept**u**"
+      ],
+      [
+        "okrem",
+        "გარდა",
+        "okrem Marek**a**"
+      ],
+      [
+        "namiesto",
+        "ნაცვლად",
+        "čaj namiesto káv**y**"
+      ],
+      [
+        "podľa",
+        "მიხედვით, ვინმეს თქმით",
+        "podľa lekárk**y**"
+      ]
+    ]
+  },
+  "a2-u5-l17.grammar-bez-okrem-namiesto.examples": {
+    "en": [
+      "Everyone is going skiing except Marek.",
+      "According to the doctor, it isn't flu."
+    ],
+    "t": [
+      "მარეკის გარდა ყველა თხილამურებზე მიდის.",
+      "ექიმის თქმით, ეს გრიპი არ არის."
+    ]
+  },
+  "a2-u5-l17.fill-vecer-pijem-caj.en": {
+    "en": "In the evening I drink tea instead of coffee.",
+    "t": "საღამოს ყავის ნაცვლად ჩაის ვსვამ."
+  },
+  "a2-u5-l17.fill-vecer-pijem-caj.why": {
+    "en": "**Namiesto** takes the genitive: káva → namiesto **kávy**.",
+    "t": "**Namiesto** genitív-ს მოითხოვს: káva → namiesto **kávy**."
+  },
+  "a2-u5-l17.fill-vsetci-idu-korculovat.en": {
+    "en": "Everyone is going skating except Marek.",
+    "t": "მარეკის გარდა ყველა ციგურაობაზე მიდის."
+  },
+  "a2-u5-l17.fill-vsetci-idu-korculovat.why": {
+    "en": "**Okrem** takes the genitive, and a man's name adds **-a**: okrem **Mareka**.",
+    "t": "**Okrem** genitív-ს მოითხოვს, კაცის სახელი კი **-a**-ს იღებს: okrem **Mareka**."
+  },
+  "a2-u5-l17.choice-podla-lekarky-bude.question": {
+    "en": "Who says Marek will be in plaster for six weeks?",
+    "t": "ვინ ამბობს, რომ მარეკი ექვსი კვირა თაბაშირში იქნება?"
+  },
+  "a2-u5-l17.choice-podla-lekarky-bude.options": {
+    "en": [
+      "Marek",
+      "the doctor",
+      "the nurse"
+    ],
+    "t": [
+      "მარეკი",
+      "ექიმი",
+      "ექთანი"
+    ]
+  },
+  "a2-u5-l17.choice-podla-lekarky-bude.why": {
+    "en": "**Podľa** + the genitive = according to: podľa **lekárky**, according to the doctor.",
+    "t": "**Podľa** + genitív = ვინმეს თქმით, მიხედვით: podľa **lekárky**, ექიმის თქმით."
+  },
+  "a2-u5-l17.build-cislo-112-je.prompt": {
+    "en": "The number 112 is free of charge.",
+    "t": "ნომერი 112 უფასოა."
+  },
+  "a2-u5-l17.build-cislo-112-je.traps": {
+    "en": [
+      "Číslo is neuter, so the adjective ends in **-é**: **bezplatné**."
+    ],
+    "t": [
+      "Číslo საშუალო სქესისაა, ამიტომ ზედსართავი **-é**-ზე ბოლოვდება: **bezplatné**."
+    ]
+  },
+  "a2-u5-l17.speak-lekaren-je-blizko.en": {
+    "en": "The pharmacy is near the dorm.",
+    "t": "აფთიაქი საერთო საცხოვრებელთან ახლოსაა."
+  },
+  "a2-u5-l17.build-pocas-zimy-je-tu.answers": {
+    "en": [
+      "There are a lot of patients here during the winter.",
+      "During the winter there are a lot of patients here.",
+      "In winter there are a lot of patients here.",
+      "There are many patients here during the winter."
+    ],
+    "t": [
+      "ზამთარში აქ ბევრი პაციენტია.",
+      "ზამთრის განმავლობაში აქ ბევრი პაციენტია.",
+      "აქ ზამთარში ბევრი პაციენტია."
+    ]
+  },
+  "a2-u5-l17.build-pocas-zimy-je-tu.distractors": {
+    "en": [
+      "summer",
+      "few"
+    ],
+    "t": [
+      "ზაფხულში",
+      "ცოტა"
+    ]
+  },
+  "a2-u5-zamena.titleEn": {
+    "en": "Pronouns after prepositions",
+    "t": "ნაცვალსახელები წინდებულების შემდეგ"
+  },
+  "a2-u5-zamena.grammar-genitive-pronouns.title": {
+    "en": "Pronouns: u mňa, od teba, bez neho",
+    "t": "ნაცვალსახელები: u mňa, od teba, bez neho"
+  },
+  "a2-u5-zamena.grammar-genitive-pronouns.body": {
+    "en": [
+      "After a preposition with the genitive, pronouns take these forms: **mňa, teba, neho, nej, nás, vás, nich**. Before mňa, od, bez and z add an -o: **odo mňa**, **bezo mňa**, **zo mňa**.",
+      "Most of them look like the forms after pre (pre mňa, pre neho). Only ona is different: pre **ňu**, but od **nej**."
+    ],
+    "t": [
+      "genitív-იანი წინდებულის შემდეგ ნაცვალსახელები ასეთ ფორმებს იღებს: **mňa, teba, neho, nej, nás, vás, nich**. mňa-ს წინ od, bez და z -o-ს იმატებს: **odo mňa**, **bezo mňa**, **zo mňa**.",
+      "მათი უმეტესობა pre-ს შემდეგ ფორმებს ჰგავს (pre mňa, pre neho). მხოლოდ ona განსხვავდება: pre **ňu**, მაგრამ od **nej**."
+    ]
+  },
+  "a2-u5-zamena.grammar-genitive-pronouns.table.head": {
+    "en": [
+      "",
+      "after a preposition"
+    ],
+    "t": [
+      "",
+      "წინდებულის შემდეგ"
+    ]
+  },
+  "a2-u5-zamena.grammar-genitive-pronouns.table.rows": {
+    "en": [
+      [
+        "ja",
+        "u **mňa**, odo **mňa**"
+      ],
+      [
+        "ty",
+        "od **teba**"
+      ],
+      [
+        "on, ono",
+        "bez **neho**"
+      ],
+      [
+        "ona",
+        "okolo **nej**"
+      ],
+      [
+        "my",
+        "u **nás**"
+      ],
+      [
+        "vy",
+        "od **vás**"
+      ],
+      [
+        "oni, ony",
+        "bez **nich**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "u **mňa**, odo **mňa**"
+      ],
+      [
+        "ty",
+        "od **teba**"
+      ],
+      [
+        "on, ono",
+        "bez **neho**"
+      ],
+      [
+        "ona",
+        "okolo **nej**"
+      ],
+      [
+        "my",
+        "u **nás**"
+      ],
+      [
+        "vy",
+        "od **vás**"
+      ],
+      [
+        "oni, ony",
+        "bez **nich**"
+      ]
+    ]
+  },
+  "a2-u5-zamena.grammar-genitive-pronouns.examples": {
+    "en": [
+      "I'm not going without you.",
+      "I've got a present from her."
+    ],
+    "t": [
+      "უშენოდ არ წავალ.",
+      "მისგან საჩუქარი მაქვს."
+    ]
+  },
+  "a2-u5-zamena.fill-bez-teba-nejdem.en": {
+    "en": "I'm not going without you!",
+    "t": "უშენოდ არ წავალ!"
+  },
+  "a2-u5-zamena.fill-bez-teba-nejdem.why": {
+    "en": "After a preposition, the long form: bez **teba**. Ťa is the short form, used without one.",
+    "t": "წინდებულის შემდეგ — გრძელი ფორმა: bez **teba**. Ťa მოკლე ფორმაა, წინდებულის გარეშე."
+  },
+  "a2-u5-zamena.fill-lucia-mam-darcek.en": {
+    "en": "Lucia? I've got a present from her.",
+    "t": "ლუცია? მისგან საჩუქარი მაქვს."
+  },
+  "a2-u5-zamena.fill-lucia-mam-darcek.why": {
+    "en": "After a genitive preposition, ona is **nej**: od **nej**. Ňu goes with pre or na, and jej is used without a preposition.",
+    "t": "genitív-იანი წინდებულის შემდეგ ona არის **nej**: od **nej**. Ňu pre-სთან ან na-სთან დგას, jej კი — წინდებულის გარეშე."
+  },
+  "a2-u5-zamena.build-tomas-je-marek.prompt": {
+    "en": "Tomáš, is Marek at your place?",
+    "t": "ტომაშ, მარეკი შენთანაა?"
+  },
+  "a2-u5-zamena.build-tomas-je-marek.traps": {
+    "en": [
+      "After the preposition **u**, the long form: u **teba**.",
+      "**U** takes the genitive: **teba**. Tebe is the to-whom form."
+    ],
+    "t": [
+      "**u** წინდებულის შემდეგ — გრძელი ფორმა: u **teba**.",
+      "**U** genitív-ს მოითხოვს: **teba**. Tebe „ვის?“ ფორმაა (datív)."
+    ]
+  },
+  "a2-u5-zamena.fill-ten-darcek-je.en": {
+    "en": "That present is from me.",
+    "t": "ეს საჩუქარი ჩემგანაა."
+  },
+  "a2-u5-zamena.fill-ten-darcek-je.why": {
+    "en": "Before mňa, od becomes **odo**: **odo** mňa.",
+    "t": "mňa-ს წინ od ხდება **odo**: **odo** mňa."
+  },
+  "a2-u5-zamena.fill-vecer-je-u.en": {
+    "en": "There's a party at our place this evening.",
+    "t": "საღამოს ჩვენთან წვეულებაა."
+  },
+  "a2-u5-zamena.fill-vecer-je-u.why": {
+    "en": "**U** takes the genitive, and my becomes **nás**: u **nás**, at our place. Nami goes with s.",
+    "t": "**U** genitív-ს მოითხოვს, my კი ხდება **nás**: u **nás**, ჩვენთან. Nami s-თან დგას."
+  },
+  "a2-u5-zamena.fill-pani-doktorka-ten.en": {
+    "en": "Doctor, is this prescription from you?",
+    "t": "ქალბატონო ექიმო, ეს რეცეპტი თქვენგანაა?"
+  },
+  "a2-u5-zamena.fill-pani-doktorka-ten.why": {
+    "en": "**Od** takes the genitive, and vy becomes **vás**: od **vás**. Vám is the to-whom form.",
+    "t": "**Od** genitív-ს მოითხოვს, vy კი ხდება **vás**: od **vás**. Vám „ვის?“ ფორმაა (datív)."
+  },
+  "a2-u5-zamena.build-bez-nich-nejdeme.prompt": {
+    "en": "We're not going without them.",
+    "t": "მათ გარეშე არ წავალთ."
+  },
+  "a2-u5-zamena.build-bez-nich-nejdeme.traps": {
+    "en": [
+      "After a preposition, oni is **nich**: bez **nich**. Ich is used without one.",
+      "Nimi goes with s (with). **Bez** takes the genitive: bez **nich**."
+    ],
+    "t": [
+      "წინდებულის შემდეგ oni არის **nich**: bez **nich**. Ich წინდებულის გარეშე დგას.",
+      "Nimi s-თან (-თან ერთად) დგას. **Bez** genitív-ს მოითხოვს: bez **nich**."
+    ]
+  },
+  "a2-u5-zamena.fill-lucia-ma-narodeniny.en": {
+    "en": "Lucia is singing, and her friends are standing around her.",
+    "t": "ლუცია მღერის, მეგობრები კი მის გარშემო დგანან."
+  },
+  "a2-u5-zamena.fill-lucia-ma-narodeniny.why": {
+    "en": "**Okolo** takes the genitive, and ona after a preposition is **nej**. Ju is the object form, ňou goes with s.",
+    "t": "**Okolo** genitív-ს მოითხოვს, ona კი წინდებულის შემდეგ **nej**-ა. Ju ობიექტის ფორმაა, ňou s-თან დგას."
+  },
+  "a2-u5-zamena.build-lucia-je-dnes.prompt": {
+    "en": "Lucia is at my place today.",
+    "t": "ლუცია დღეს ჩემთანაა."
+  },
+  "a2-u5-zamena.build-lucia-je-dnes.traps": {
+    "en": [
+      "After a preposition, ja is **mňa**: u **mňa**. Ma is the short form, used without one.",
+      "**U** takes the genitive: u **mňa**. Mne is the to-whom form, or the form after o and v."
+    ],
+    "t": [
+      "წინდებულის შემდეგ ja არის **mňa**: u **mňa**. Ma მოკლე ფორმაა, წინდებულის გარეშე.",
+      "**U** genitív-ს მოითხოვს: u **mňa**. Mne „ვის?“ ფორმაა (datív), ან o-სა და v-ს შემდეგ ფორმა."
+    ]
+  },
+  "a2-u5-zamena.choice-ten-darcek-je-od.question": {
+    "en": "Which sentence is correct?",
+    "t": "რომელი წინადადებაა სწორი?"
+  },
+  "a2-u5-zamena.choice-ten-darcek-je-od.why": {
+    "en": "After **od**, oni is **nich**. Ich is the form without a preposition, nimi goes with s.",
+    "t": "**od**-ის შემდეგ oni არის **nich**. Ich წინდებულის გარეშე ფორმაა, nimi s-თან დგას."
+  },
+  "a2-u5-zamena.speak-ten-darcek-je.en": {
+    "en": "That present is from me.",
+    "t": "ეს საჩუქარი ჩემგანაა."
+  },
+  "a2-u5-zamena.build-lekaren-je-blizko-nas.answers": {
+    "en": [
+      "The pharmacy is near us.",
+      "The pharmacy is close to us."
+    ],
+    "t": [
+      "აფთიაქი ჩვენთან ახლოსაა.",
+      "აფთიაქი ჩვენთან ახლოს არის."
+    ]
+  },
+  "a2-u5-zamena.build-lekaren-je-blizko-nas.distractors": {
+    "en": [
+      "far",
+      "them"
+    ],
+    "t": [
+      "შორსაა",
+      "მათთან"
+    ]
+  },
+  "a2-u5-l18.titleEn": {
+    "en": "Ask her!",
+    "t": "ჰკითხე მას!"
+  },
+  "a2-u5-l18.grammar-verbs-with-genitive.title": {
+    "en": "Verbs with the genitive: báť sa, opýtať sa",
+    "t": "ზმნები genitív-ით: báť sa, opýtať sa"
+  },
+  "a2-u5-l18.grammar-verbs-with-genitive.body": {
+    "en": [
+      "A few verbs take the genitive with no preposition: **báť sa** (to be afraid of: bojím sa, bojíš sa…) and **opýtať sa** (to ask someone): Bojím sa pavúkov. Opýtam sa lekárky.",
+      "Pronouns use their short forms here: **ma, ťa, ho, jej, nás, vás, ich**. Stressed, they get longer: **mňa, teba, jeho**. Opýtaj sa ho! – Prečo **jeho**? – Pretože on to vie."
+    ],
+    "t": [
+      "რამდენიმე ზმნა genitív-ს წინდებულის გარეშე მოითხოვს: **báť sa** (შიში: bojím sa, bojíš sa…) და **opýtať sa** (ვინმესთვის კითხვა): Bojím sa pavúkov. Opýtam sa lekárky. ქართული „ეშინია“-ც ნათესაობითს მოითხოვს: ობობების მეშინია.",
+      "ნაცვალსახელები აქ მოკლე ფორმებს იყენებს: **ma, ťa, ho, jej, nás, vás, ich**. მახვილით ისინი გრძელდება: **mňa, teba, jeho**. Opýtaj sa ho! – Prečo **jeho**? – Pretože on to vie."
+    ]
+  },
+  "a2-u5-l18.grammar-verbs-with-genitive.table.head": {
+    "en": [
+      "",
+      "short",
+      "stressed"
+    ],
+    "t": [
+      "",
+      "მოკლე",
+      "მახვილიანი"
+    ]
+  },
+  "a2-u5-l18.grammar-verbs-with-genitive.table.rows": {
+    "en": [
+      [
+        "ja",
+        "ma",
+        "mňa"
+      ],
+      [
+        "ty",
+        "ťa",
+        "teba"
+      ],
+      [
+        "on",
+        "ho",
+        "jeho"
+      ],
+      [
+        "ona",
+        "jej",
+        "jej"
+      ],
+      [
+        "oni, ony",
+        "ich",
+        "ich"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "ma",
+        "mňa"
+      ],
+      [
+        "ty",
+        "ťa",
+        "teba"
+      ],
+      [
+        "on",
+        "ho",
+        "jeho"
+      ],
+      [
+        "ona",
+        "jej",
+        "jej"
+      ],
+      [
+        "oni, ony",
+        "ich",
+        "ich"
+      ]
+    ]
+  },
+  "a2-u5-l18.grammar-verbs-with-genitive.examples": {
+    "en": [
+      "I'm afraid of spiders.",
+      "Can I ask you something?",
+      "You needn't be afraid."
+    ],
+    "t": [
+      "ობობების მეშინია.",
+      "შეიძლება რამე გკითხო?",
+      "არ უნდა გეშინოდეს."
+    ]
+  },
+  "a2-u5-l18.fill-emma-sa-boji.en": {
+    "en": "Emma is afraid of the dentist.",
+    "t": "ემას კბილის ექიმის ეშინია."
+  },
+  "a2-u5-l18.fill-emma-sa-boji.why": {
+    "en": "**Báť sa** takes the genitive, and a man adds **-a**: bojí sa **zubára**.",
+    "t": "**Báť sa** genitív-ს მოითხოვს, როგორც ქართული „ეშინია“, კაცი კი **-a**-ს იღებს: bojí sa **zubára**."
+  },
+  "a2-u5-l18.fill-opytam-sa-lekarky.en": {
+    "en": "I'll ask the doctor when I can cook.",
+    "t": "ექიმს ვკითხავ, როდის შემიძლია საჭმლის მომზადება."
+  },
+  "a2-u5-l18.fill-opytam-sa-lekarky.why": {
+    "en": "**Opýtať sa** takes the genitive, so lekárka changes -a to **-y**: opýtam sa **lekárky**. Lekárku is the object form.",
+    "t": "**Opýtať sa** genitív-ს მოითხოვს, ამიტომ lekárka -a-ს **-y**-ით ცვლის: opýtam sa **lekárky**. Lekárku ობიექტის ფორმაა."
+  },
+  "a2-u5-l18.choice-opytaj-sa-tomasa.question": {
+    "en": "Why does the second speaker say jeho, not ho?",
+    "t": "რატომ ამბობს მეორე მოლაპარაკე jeho-ს და არა ho-ს?"
+  },
+  "a2-u5-l18.choice-opytaj-sa-tomasa.options": {
+    "en": [
+      "It comes after a preposition.",
+      "It's stressed: why him?",
+      "Tomáš is the subject."
+    ],
+    "t": [
+      "წინდებულის შემდეგ დგას.",
+      "მახვილიანია: რატომ მაინცდამაინც ის?",
+      "ტომაში ქვემდებარეა."
+    ]
+  },
+  "a2-u5-l18.choice-opytaj-sa-tomasa.why": {
+    "en": "With stress, the short form ho gets longer: **jeho**. After a preposition it would be neho.",
+    "t": "მახვილით მოკლე ho გრძელდება: **jeho**. წინდებულის შემდეგ ეს იქნებოდა neho."
+  },
+  "a2-u5-l18.build-nebojim-sa-ho.prompt": {
+    "en": "The dog? I'm not afraid of it.",
+    "t": "ძაღლი? მისი არ მეშინია."
+  },
+  "a2-u5-l18.build-nebojim-sa-ho.traps": {
+    "en": [
+      "No preposition here, so the short form: nebojím sa **ho**. Neho comes after a preposition, like od neho.",
+      "**Báť sa** takes the genitive: **ho**. Mu is the to-whom form."
+    ],
+    "t": [
+      "აქ წინდებული არ არის, ამიტომ მოკლე ფორმაა: nebojím sa **ho**. Neho წინდებულის შემდეგ დგას, მაგალითად od neho.",
+      "**Báť sa** genitív-ს მოითხოვს: **ho**. Mu „ვის?“ ფორმაა (datív)."
+    ]
+  },
+  "a2-u5-l18.grammar-six-cases.title": {
+    "en": "Six cases, six questions",
+    "t": "ექვსი ბრუნვა, ექვსი კითხვა"
+  },
+  "a2-u5-l18.grammar-six-cases.body": {
+    "en": [
+      "Slovak has six cases, and each has its question. Asking it is a quick way to find the right form.",
+      "Koho? belongs to two cases: the genitive (Koho sa bojíš?) and the object form (Koho hľadáš?)."
+    ],
+    "t": [
+      "სლოვაკურს ექვსი ბრუნვა აქვს და თითოეულს, ქართული ბრუნვების მსგავსად, თავისი კითხვა აქვს. კითხვის დასმა სწორი ფორმის პოვნის სწრაფი გზაა.",
+      "Koho? ორ ბრუნვას ეკუთვნის: genitív-ს (Koho sa bojíš? — ვისი გეშინია?) და ობიექტის ფორმას, akuzatív-ს (Koho hľadáš? — ვის ეძებ?)."
+    ]
+  },
+  "a2-u5-l18.grammar-six-cases.table.head": {
+    "en": [
+      "case",
+      "question",
+      "example"
+    ],
+    "t": [
+      "ბრუნვა",
+      "კითხვა",
+      "მაგალითი"
+    ]
+  },
+  "a2-u5-l18.grammar-six-cases.table.rows": {
+    "en": [
+      [
+        "nominative",
+        "kto? čo?",
+        "lekárka"
+      ],
+      [
+        "genitive",
+        "koho? čoho?",
+        "od lekárky"
+      ],
+      [
+        "dative",
+        "komu? čomu?",
+        "k lekárke"
+      ],
+      [
+        "accusative",
+        "koho? čo?",
+        "na lekárku"
+      ],
+      [
+        "locative",
+        "o kom? o čom?",
+        "o lekárke"
+      ],
+      [
+        "instrumental",
+        "s kým? s čím?",
+        "s lekárkou"
+      ]
+    ],
+    "t": [
+      [
+        "nominatív (სახელობითი)",
+        "kto? čo?",
+        "lekárka"
+      ],
+      [
+        "genitív (ნათესაობითი)",
+        "koho? čoho?",
+        "od lekárky"
+      ],
+      [
+        "datív (მიცემითი)",
+        "komu? čomu?",
+        "k lekárke"
+      ],
+      [
+        "akuzatív (ბრალდებითი)",
+        "koho? čo?",
+        "na lekárku"
+      ],
+      [
+        "lokál (ადგილობითი)",
+        "o kom? o čom?",
+        "o lekárke"
+      ],
+      [
+        "inštrumentál (მოქმედებითი)",
+        "s kým? s čím?",
+        "s lekárkou"
+      ]
+    ]
+  },
+  "a2-u5-l18.grammar-six-cases.examples": {
+    "en": [
+      "Who are you afraid of? — The dentist.",
+      "What are you afraid of? — Heights."
+    ],
+    "t": [
+      "ვისი გეშინია? — კბილის ექიმის.",
+      "რისი გეშინია? — სიმაღლის."
+    ]
+  },
+  "a2-u5-l18.fill-koho-sa-bojis.en": {
+    "en": "Who are you afraid of? — The dentist.",
+    "t": "ვისი გეშინია? — კბილის ექიმის."
+  },
+  "a2-u5-l18.fill-koho-sa-bojis.why": {
+    "en": "**Báť sa** takes the genitive, so the question is **Koho**?, and the answer, zubára, is in the genitive too.",
+    "t": "**Báť sa** genitív-ს მოითხოვს, ამიტომ კითხვაა **Koho**?, პასუხიც, zubára, genitív-შია — როგორც ქართულში: ვისი? — ექიმის."
+  },
+  "a2-u5-l18.choice-ktory-pad-po.question": {
+    "en": "Which case comes after vedľa (next to)?",
+    "t": "რომელი ბრუნვა მოდის vedľa-ს (გვერდით) შემდეგ?"
+  },
+  "a2-u5-l18.choice-ktory-pad-po.options": {
+    "en": [
+      "the genitive",
+      "the locative",
+      "the instrumental"
+    ],
+    "t": [
+      "genitív (ნათესაობითი)",
+      "lokál (ადგილობითი)",
+      "inštrumentál (მოქმედებითი)"
+    ]
+  },
+  "a2-u5-l18.choice-ktory-pad-po.why": {
+    "en": "**Vedľa** takes the genitive, like blízko and okolo: vedľa pošty. Pri (by) takes the locative, pred and za the instrumental.",
+    "t": "**Vedľa** genitív-ს მოითხოვს, როგორც blízko და okolo: vedľa pošty. Pri (-თან, ახლოს) lokál-ს მოითხოვს, pred და za — inštrumentál-ს."
+  },
+  "a2-u5-l18.build-emma-caka-pred.prompt": {
+    "en": "Emma is waiting in front of the pharmacy, next to the post office.",
+    "t": "ემა აფთიაქის წინ ელოდება, ფოსტის გვერდით."
+  },
+  "a2-u5-l18.build-emma-caka-pred.traps": {
+    "en": [
+      "**Pred** (in front of) takes the “with” form, the instrumental: pred **lekárňou**. Lekárne is the genitive.",
+      "**Vedľa** takes the genitive: vedľa **pošty**. Pošte is the locative, as after pri or na."
+    ],
+    "t": [
+      "**Pred** (წინ) „-ით“ ფორმას, inštrumentál-ს მოითხოვს: pred **lekárňou**. Lekárne genitív-ია.",
+      "**Vedľa** genitív-ს მოითხოვს: vedľa **pošty**. Pošte lokál-ია, როგორც pri-სა ან na-ს შემდეგ."
+    ]
+  },
+  "a2-u5-l18.choice-lekaren-je-pri.question": {
+    "en": "Which sentence is correct?",
+    "t": "რომელი წინადადებაა სწორი?"
+  },
+  "a2-u5-l18.choice-lekaren-je-pri.why": {
+    "en": "**Pri** (by) takes the locative: pri **pošte**. Vedľa, with the same meaning, takes the genitive: vedľa pošty.",
+    "t": "**Pri** (-თან, ახლოს) lokál-ს მოითხოვს: pri **pošte**. Vedľa, იმავე მნიშვნელობით, genitív-ს მოითხოვს: vedľa pošty."
+  },
+  "a2-u5-l18.speak-mozem-sa-ta.en": {
+    "en": "Can I ask you something?",
+    "t": "შეიძლება რამე გკითხო?"
+  },
+  "a2-u5-l18.build-marek-sa-opytal.answers": {
+    "en": [
+      "Marek asked the doctor when he can cook.",
+      "Marek asked the doctor when he could cook."
+    ],
+    "t": [
+      "მარეკმა ექიმს ჰკითხა, როდის შეუძლია საჭმლის მომზადება.",
+      "მარეკმა ექიმს ჰკითხა, როდის შეძლებს საჭმლის მომზადებას."
+    ]
+  },
+  "a2-u5-l18.build-marek-sa-opytal.distractors": {
+    "en": [
+      "nurse",
+      "why"
+    ],
+    "t": [
+      "ექთანს",
+      "რატომ"
+    ]
+  },
+  "a2-u5-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "ვწერთ"
+  },
+  "a2-u5-pisanie.listen-prechladla-som-a.en": {
+    "en": "I've caught a cold and I've got a runny nose.",
+    "t": "გავცივდი და სურდო მაქვს."
+  },
+  "a2-u5-pisanie.listen-mate-preukaz-poistenca.en": {
+    "en": "Have you got your health insurance card?",
+    "t": "სადაზღვევო ბარათი გაქვთ?"
+  },
+  "a2-u5-pisanie.listen-uzivajte-jednu-tabletku.en": {
+    "en": "Take one tablet three times a day.",
+    "t": "მიიღეთ ერთი აბი დღეში სამჯერ."
+  },
+  "a2-u5-pisanie.listen-marek-si-zlomil.en": {
+    "en": "Marek has broken his arm.",
+    "t": "მარეკმა ხელი მოიტეხა."
+  },
+  "a2-u5-pisanie.listen-veronika-je-lekarka.en": {
+    "en": "Veronika is a doctor at the hospital.",
+    "t": "ვერონიკა საავადმყოფოში ექიმია."
+  },
+  "a2-u5-pisanie.listen-boli-ma-chrbat.en": {
+    "en": "My back hurts and my legs hurt.",
+    "t": "ზურგი მტკივა და ფეხები მტკივა."
+  },
+  "a2-u5-pisanie.listen-lekaren-je-blizko.en": {
+    "en": "The pharmacy is near the dorm.",
+    "t": "აფთიაქი საერთო საცხოვრებელთან ახლოსაა."
+  },
+  "a2-u5-pisanie.listen-salku-caju-s.en": {
+    "en": "A cup of tea with honey, please.",
+    "t": "ერთი ფინჯანი ჩაი თაფლით, თუ შეიძლება."
+  },
+  "a2-u5-l19.titleEn": {
+    "en": "Review",
+    "t": "გამეორება"
+  },
+  "a2-u5-l19.match-kaslem.pairs": {
+    "en": [
+      "I've got a cough.",
+      "back",
+      "knee",
+      "ambulance",
+      "pharmacy"
+    ],
+    "t": [
+      "ვახველებ.",
+      "ზურგი",
+      "მუხლი",
+      "სასწრაფო",
+      "აფთიაქი"
+    ]
+  },
+  "a2-u5-l19.fill-emma-ide-do.en": {
+    "en": "Emma is going to the pharmacy with her prescription.",
+    "t": "ემა რეცეპტით აფთიაქში მიდის."
+  },
+  "a2-u5-l19.fill-emma-ide-do.why": {
+    "en": "**Do** takes the genitive: lekáreň → do **lekárne**. V lekárni is being there.",
+    "t": "**Do** genitív-ს მოითხოვს: lekáreň → do **lekárne**. V lekárni იქ ყოფნაა."
+  },
+  "a2-u5-l19.build-zlomila-som-si-nohu.prompt": {
+    "en": "I've broken my leg. (a woman speaking)",
+    "t": "ფეხი მოვიტეხე. (ამბობს ქალი)"
+  },
+  "a2-u5-l19.build-zlomila-som-si-nohu.traps": {
+    "en": [
+      "The leg is what you broke, the object, so noha changes -a to **-u**: **nohu**.",
+      "Breaking a part of your own body is **zlomiť si**: zlomila som **si** nohu."
+    ],
+    "t": [
+      "ფეხი ის არის, რაც მოიტეხეთ, ანუ ობიექტი, ამიტომ noha -a-ს **-u**-თი ცვლის: **nohu**.",
+      "საკუთარი სხეულის ნაწილის მოტეხვა არის **zlomiť si**: zlomila som **si** nohu."
+    ]
+  },
+  "a2-u5-l19.choice-uzivajte-jednu-tabletku.question": {
+    "en": "Listen. How often should you take the tablet?",
+    "t": "მოუსმინეთ. რამდენად ხშირად უნდა მიიღოთ აბი?"
+  },
+  "a2-u5-l19.choice-uzivajte-jednu-tabletku.options": {
+    "en": [
+      "three times a day",
+      "once a day",
+      "every three days"
+    ],
+    "t": [
+      "დღეში სამჯერ",
+      "დღეში ერთხელ",
+      "ყოველ სამ დღეში"
+    ]
+  },
+  "a2-u5-l19.fill-po-lyzovacke-ma.en": {
+    "en": "My shoulders hurt after skiing.",
+    "t": "თხილამურების შემდეგ მხრები მტკივა."
+  },
+  "a2-u5-l19.fill-po-lyzovacke-ma.why": {
+    "en": "Ramená (shoulders) are more than one thing, the subject, so the verb is **bolia**.",
+    "t": "Ramená (მხრები) ერთზე მეტია და ქვემდებარეა, ამიტომ ზმნა **bolia**-ა."
+  },
+  "a2-u5-l19.build-mate-preukaz-poistenca.prompt": {
+    "en": "Have you got your health insurance card?",
+    "t": "სადაზღვევო ბარათი გაქვთ?"
+  },
+  "a2-u5-l19.build-mate-preukaz-poistenca.traps": {
+    "en": [
+      "The nurse calls a patient **vy**, so it's **Máte**…? Máš is for a friend.",
+      "The card **of** an insured person: the genitive, **poistenca**."
+    ],
+    "t": [
+      "ექთანი პაციენტს **vy**-თი მიმართავს, ამიტომ **Máte**…? Máš მეგობრისთვისაა.",
+      "დაზღვეულის ბარათი: genitív, **poistenca**."
+    ]
+  },
+  "a2-u5-l19.fill-v-cakarni-sedelo.en": {
+    "en": "Five patients were sitting in the waiting room.",
+    "t": "მოსაცდელ ოთახში ხუთი პაციენტი იჯდა."
+  },
+  "a2-u5-l19.fill-v-cakarni-sedelo.why": {
+    "en": "From five up the noun takes the genitive plural, masculine **-ov**: päť **pacientov**, and the verb is singular: sedelo.",
+    "t": "ხუთიდან ზემოთ არსებითი სახელი genitív მრავლობითს იღებს, მამრობითი **-ov**: päť **pacientov**, ზმნა კი მხოლობითშია: sedelo."
+  },
+  "a2-u5-l19.choice-boli-ma-zub.question": {
+    "en": "Bolí ma zub. Who do you go to?",
+    "t": "Bolí ma zub. ვისთან მიდიხართ?"
+  },
+  "a2-u5-l19.choice-boli-ma-zub.why": {
+    "en": "A tooth is **zub**, so you go to the **zubár**, the zubný lekár.",
+    "t": "კბილი არის **zub**, ამიტომ **zubár**-თან, ანუ zubný lekár-თან მიდიხართ."
+  },
+  "a2-u5-l19.fill-tomas-bez-neho.en": {
+    "en": "Tomáš? I'm not going skiing without him.",
+    "t": "ტომაში? მის გარეშე თხილამურებზე არ წავალ."
+  },
+  "a2-u5-l19.fill-tomas-bez-neho.why": {
+    "en": "After the preposition **bez**, on is **neho**. Ho is the short form without a preposition, ním goes with s.",
+    "t": "**bez** წინდებულის შემდეგ on არის **neho**. Ho მოკლე ფორმაა, წინდებულის გარეშე, ním s-თან დგას."
+  },
+  "a2-u5-l19.build-caj-bez-cukru.prompt": {
+    "en": "Tea without sugar, please.",
+    "t": "ჩაი შაქრის გარეშე, თუ შეიძლება."
+  },
+  "a2-u5-l19.build-caj-bez-cukru.traps": {
+    "en": [
+      "**Bez** takes the genitive: cukor → bez **cukru**.",
+      "Without is **bez**. S cukrom would be with sugar."
+    ],
+    "t": [
+      "**Bez** genitív-ს მოითხოვს: cukor → bez **cukru**.",
+      "„გარეშე“ არის **bez**. S cukrom შაქრით იქნებოდა."
+    ]
+  },
+  "a2-u5-l19.speak-pite-vela-tekutin.en": {
+    "en": "Drink plenty of fluids.",
+    "t": "ბევრი სითხე დალიეთ."
+  },
+  "a2-u5-l19.fill-to-je-preukaz.en": {
+    "en": "That's my brother's card.",
+    "t": "ეს ჩემი ძმის ბარათია."
+  },
+  "a2-u5-l19.fill-to-je-preukaz.why": {
+    "en": "The owner goes after the card, in the genitive: môjho **brata**.",
+    "t": "მფლობელი ბარათის შემდეგ მოდის, genitív-ში: môjho **brata**."
+  },
+  "a2-u5-l19.choice-lekaren-je-vedla.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "a2-u5-l19.choice-lekaren-je-vedla.options": {
+    "en": [
+      "The pharmacy is in the hospital.",
+      "The pharmacy is far from the hospital.",
+      "The pharmacy is next to the hospital."
+    ],
+    "t": [
+      "აფთიაქი საავადმყოფოშია.",
+      "აფთიაქი საავადმყოფოსგან შორსაა.",
+      "აფთიაქი საავადმყოფოს გვერდითაა."
+    ]
+  },
+  "a2-u5-l19.fill-dam-si-salku.en": {
+    "en": "I'll have a cup of coffee with milk.",
+    "t": "ერთ ფინჯან ყავას რძით ავიღებ."
+  },
+  "a2-u5-l19.fill-dam-si-salku.why": {
+    "en": "A cup **of** coffee: after šálku, the genitive: káva → **kávy**.",
+    "t": "ფინჯანი ყავა: šálku-ს შემდეგ genitív: káva → **kávy**."
+  },
+  "a2-u5-l19.build-marek-bude-na.answers": {
+    "en": [
+      "Marek will be on sick leave until April.",
+      "Marek is on sick leave until April."
+    ],
+    "t": [
+      "მარეკი აპრილამდე ბიულეტენზე იქნება.",
+      "მარეკი ბიულეტენზე აპრილამდე იქნება.",
+      "მარეკი აპრილამდე ბიულეტენზეა."
+    ]
+  },
+  "a2-u5-l19.build-marek-bude-na.distractors": {
+    "en": [
+      "since",
+      "May"
+    ],
+    "t": [
+      "აპრილიდან",
+      "მაისამდე"
+    ]
+  },
+  "a2-u5-l19.fill-opytam-sa-jej.en": {
+    "en": "Veronika knows. I'll ask her.",
+    "t": "ვერონიკამ იცის. მას ვკითხავ."
+  },
+  "a2-u5-l19.fill-opytam-sa-jej.why": {
+    "en": "**Opýtať sa** takes the genitive, with no preposition, so ona is **jej**. Nej comes after a preposition, ju is the object form.",
+    "t": "**Opýtať sa** genitív-ს წინდებულის გარეშე მოითხოვს, ამიტომ ona არის **jej**. Nej წინდებულის შემდეგ დგას, ju ობიექტის ფორმაა."
+  }
+}

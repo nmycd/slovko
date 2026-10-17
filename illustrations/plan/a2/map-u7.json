@@ -1,0 +1,354 @@
+{
+  "a2-u7-l1#vylet": {
+    "reuse": "a2-u7-l2#som-na-ceste",
+    "book": null
+  },
+  "a2-u7-l1#hory": {
+    "reuse": "a2-u7-l9#tura",
+    "book": null
+  },
+  "a2-u7-l1#choice-v-maji-ideme": {
+    "reuse": "a2-u7-l9#tura",
+    "book": null
+  },
+  "a2-u7-l1#mat-v-plane": {
+    "picture": "Evening in the dorm kitchen: Emma, Lucia, Tomáš and Marek lean over a big map of Slovakia spread out on the table. Emma draws a route with a pen in a loop from Bratislava up to the mountains and back; Marek points to a castle on the map and Tomáš nods. No names or letters on the map.",
+    "book": null
+  },
+  "a2-u7-l1#navrh": {
+    "reuse": "a2-u7-l1#mat-v-plane",
+    "book": null
+  },
+  "a2-u7-l1#choice-to-znie-dobre": {
+    "reuse": "a2-u7-l1#mat-v-plane",
+    "book": null
+  },
+  "a2-u7-l1#uz-sa-neviem-dockat": {
+    "picture": "The night before the trip, in Emma and Lucia's dorm room: Emma, already in her hiking boots, sits on her packed backpack and grins at the clock, far too excited to sleep. Lucia, in pyjamas, laughs at her from her bed.",
+    "book": null
+  },
+  "a2-u7-l2#som-na-ceste": {
+    "picture": "Friday morning, Tomáš's car on the road out of Bratislava, the city behind and green hills ahead, bags piled in the boot. Tomáš is at the wheel, Marek beside him holding a road map, Lucia in the back on her phone, and Emma asleep against the back window.",
+    "book": null
+  },
+  "a2-u7-l2#davaj-si-pozor": {
+    "picture": "Split picture of a phone call. Left: Lucia's mum, in a white nurse's tunic in a hospital corridor in Žilina, holds her phone to her ear and raises a warning finger, worried. Right: Lucia, in the back seat of Tomáš's car with the countryside going past, phone to her ear, smiles and rolls her eyes fondly.",
+    "book": null
+  },
+  "a2-u7-l2#choice-sme-na-ceste": {
+    "reuse": "a2-u7-l2#davaj-si-pozor",
+    "book": null
+  },
+  "a2-u7-l2#nerob-si-starosti": {
+    "reuse": "a2-u7-l2#davaj-si-pozor",
+    "book": null
+  },
+  "a2-u7-l2#choice-nerob-si-starosti": {
+    "reuse": "a2-u7-l2#davaj-si-pozor",
+    "book": null
+  },
+  "a2-u7-l2#zdravotnik": {
+    "reuse": "a2-u7-l2#davaj-si-pozor",
+    "book": null
+  },
+  "a2-u7-l2#o-co-som-prisla": {
+    "picture": "Later in Tomáš's car: Emma wakes up in the back seat, rubbing her eyes and blinking at the wooded hills outside; Lucia, beside her, laughs, and Marek turns round from the front seat grinning.",
+    "book": null
+  },
+  "a2-u7-l2#dufam-ze-to": {
+    "reuse": "a2-u7-l2#som-na-ceste",
+    "book": null
+  },
+  "a2-u7-l4#vstupenka": {
+    "picture": "At the ticket office by the gate at the foot of Orava Castle, the castle rising in tiers up its rock behind: the cashier slides four tickets through the window to Tomáš, while Emma and Lucia hold up their student cards beside him.",
+    "book": null
+  },
+  "a2-u7-l4#prehliadka": {
+    "picture": "Inside Orava Castle, a young woman guide leads a small group of visitors through an old hall with suits of armour and dark portraits on the walls; Emma, Lucia, Tomáš and Marek listen among them, Emma gazing round in wonder.",
+    "book": null
+  },
+  "a2-u7-l4#prehliadka-je-vypredana": {
+    "picture": "At the ticket office at the foot of Orava Castle, the cashier spreads her hands apologetically behind her window; Emma, at the front of the queue, sighs in disappointment while Lucia, Tomáš and Marek look at their watches.",
+    "book": null
+  },
+  "a2-u7-l4#studentsky-preukaz": {
+    "reuse": "a2-u7-l4#vstupenka",
+    "book": null
+  },
+  "a2-u7-l4#sprievodca": {
+    "reuse": "a2-u7-l4#prehliadka",
+    "book": null
+  },
+  "a2-u7-l4#chceli-sme-vas": {
+    "picture": "After the tour, at the gate of Orava Castle: Lucia's mum and Lucia's dad stand waiting with big smiles. Lucia, astonished, runs to hug them, while Emma, Tomáš and Marek look on, laughing.",
+    "book": null
+  },
+  "a2-u7-l6#penzion": {
+    "picture": "Evening in the Tatras: Tomáš's car pulls up in front of pani Sokolová's guesthouse, a chalet-style house with a steep roof and wooden balconies, the mountains behind it. Emma, Lucia, Tomáš and Marek get out and unload their bags.",
+    "book": null
+  },
+  "a2-u7-l6#mam-rezervaciu": {
+    "picture": "At the small reception desk of the guesthouse, a rack of keys on the wall behind it and a card reader on the counter: Emma, her passport in her hand, leans on the counter and talks to pani Sokolová, who runs a finger down the page of her big bookings book. Lucia, Tomáš and Marek wait behind with their bags.",
+    "book": null
+  },
+  "a2-u7-l6#ubytovat-sa": {
+    "reuse": "a2-u7-l6#mam-rezervaciu",
+    "book": null
+  },
+  "a2-u7-l6#choice-vas-pas-prosim": {
+    "reuse": "a2-u7-l6#mam-rezervaciu",
+    "book": null
+  },
+  "a2-u7-l6#dvojpostelova-izba": {
+    "picture": "Upstairs in the guesthouse: a twin room with pine furniture, two beds side by side and a balcony door looking out at the peaks. Emma and Lucia drop their bags and Lucia flops happily onto one of the beds.",
+    "book": null
+  },
+  "a2-u7-l6#kluc": {
+    "picture": "Pani Sokolová takes two room keys with big wooden fobs from the rack behind the reception desk and hands them to Emma with a warm smile.",
+    "book": null
+  },
+  "a2-u7-l6#ranajky": {
+    "picture": "Morning in the guesthouse breakfast room, wooden tables and a big window onto the peaks: Emma, Lucia, Tomáš and Marek have breakfast of rolls, eggs, cheese, ham and jam, while pani Sokolová brings a pot of coffee to the table.",
+    "book": null
+  },
+  "a2-u7-l6#choice-ranajky-podavame-od": {
+    "reuse": "a2-u7-l6#ranajky",
+    "book": null
+  },
+  "a2-u7-l6#prajem-vam-prijemny": {
+    "reuse": "a2-u7-l6#kluc",
+    "book": null
+  },
+  "a2-u7-l8#informacne-centrum": {
+    "picture": "A small tourist information office in a Tatra village: racks of colourful brochures, a big map of the mountains on the wall, a desk. A friendly woman behind the desk hands Emma a brochure and a folded map, while Lucia leafs through a brochure full of photos of waterfalls, castles and lakes. No words on the brochures or the map.",
+    "book": null
+  },
+  "a2-u7-l8#brozurka": {
+    "reuse": "a2-u7-l8#informacne-centrum",
+    "book": null
+  },
+  "a2-u7-l8#choice-mate-mapu-tatier": {
+    "reuse": "a2-u7-l8#informacne-centrum",
+    "book": null
+  },
+  "a2-u7-l8#co-nam-odporucate": {
+    "reuse": "a2-u7-l8#informacne-centrum",
+    "book": null
+  },
+  "a2-u7-l8#choice-na-slovensku-si": {
+    "reuse": "a2-u7-l8#informacne-centrum",
+    "book": null
+  },
+  "a2-u7-l8#otvorene-a-zatvorene": {
+    "picture": "Two halves showing the same small museum door in a Tatra village. Left: the door stands wide open, lights on inside, and a family walks in. Right: the door is shut with a grille pulled across it, the windows dark, and Marek stands outside looking disappointed.",
+    "book": null
+  },
+  "a2-u7-l8#choice-muzeum-otvorene-od": {
+    "reuse": "a2-u7-l8#otvorene-a-zatvorene",
+    "book": null
+  },
+  "a2-u7-l8#dakujem-vam-za": {
+    "reuse": "a2-u7-l8#informacne-centrum",
+    "book": null
+  },
+  "a2-u7-l8#choice-dakujem-vam-za": {
+    "reuse": "a2-u7-l8#informacne-centrum",
+    "book": null
+  },
+  "a2-u7-l9#tura": {
+    "picture": "A sunny morning in the High Tatras: Emma, Lucia, Tomáš and Marek set off on a hike with backpacks and walking poles, jagged grey peaks rising above the green valley ahead of them.",
+    "book": null
+  },
+  "a2-u7-l9#turisticky-chodnik": {
+    "picture": "A stony hiking trail winds up through dwarf pines in the Tatras; red-and-white painted stripes mark the rocks and a tree trunk beside it, and a wooden signpost with blank arms stands at a fork. Lucia, leading, points the way along the marks and the others follow.",
+    "book": null
+  },
+  "a2-u7-l9#vodopad": {
+    "picture": "In a wooded mountain valley, a tall waterfall tumbles over rocks into a foaming pool; the four friends stand on a small wooden footbridge in front of it, Emma gazing up in delight and Marek taking a photo.",
+    "book": null
+  },
+  "a2-u7-l9#chata": {
+    "picture": "A stone-and-timber mountain hut high in the Tatras, smoke rising from its chimney, hikers resting on benches outside; Emma, Lucia, Tomáš and Marek sit at a wooden table in front of it with steaming mugs of tea.",
+    "book": null
+  },
+  "a2-u7-l9#les": {
+    "picture": "Deep in a green spruce forest, sunlight slanting between the tall trunks: Emma, Lucia, Tomáš and Marek walk along a path of roots and needles, small among the huge trees.",
+    "book": null
+  },
+  "a2-u7-l9#pleso": {
+    "picture": "A small, clear mountain lake high in the Tatras, mirroring the rocky peaks around it; the four friends sit on boulders at its edge eating sandwiches.",
+    "book": null
+  },
+  "a2-u7-l9#kondicia": {
+    "picture": "On a steep mountain trail, Lucia, Emma and Tomáš wait far up near the top; Marek, a long way behind, red-faced and puffing, leans on his walking poles and calls up to them.",
+    "book": null
+  },
+  "a2-u7-l9#choice-pockajte-na-mna": {
+    "reuse": "a2-u7-l9#kondicia",
+    "book": null
+  },
+  "a2-u7-l11#mam-jednu-prosbu": {
+    "reuse": "a2-u7-l6#mam-rezervaciu",
+    "book": null
+  },
+  "a2-u7-l11#predlzit-pobyt": {
+    "reuse": "a2-u7-l6#mam-rezervaciu",
+    "book": null
+  },
+  "a2-u7-l11#choice-ubytovanie-mame-len": {
+    "reuse": "a2-u7-l6#mam-rezervaciu",
+    "book": null
+  },
+  "a2-u7-l11#choice-bohuzial-na-pondelok": {
+    "reuse": "a2-u7-l6#mam-rezervaciu",
+    "book": null
+  },
+  "a2-u7-l11#zariadim-to": {
+    "reuse": "a2-u7-l6#mam-rezervaciu",
+    "book": null
+  },
+  "a2-u7-l11#choice-dokedy-chcete-zostat": {
+    "reuse": "a2-u7-l6#mam-rezervaciu",
+    "book": null
+  },
+  "a2-u7-l11#jaskyna": {
+    "picture": "Inside a big cave in the Low Tatras: lit-up stalactites and stalagmites, a narrow path with a railing. Emma, Lucia, Tomáš and Marek, zipped up in jackets, their breath steaming in the cold, gaze up in wonder; Emma hugs herself to keep warm.",
+    "book": null
+  },
+  "a2-u7-l11#kupalisko": {
+    "picture": "Evening at an outdoor thermal pool, steam rising off the warm water, the mountains behind; Emma, Lucia, Tomáš and Marek relax in the pool, Marek floating on his back.",
+    "book": null
+  },
+  "a2-u7-l12#peniaze": {
+    "reuse": "a2-u7-l12#bankomat",
+    "book": null
+  },
+  "a2-u7-l12#zmenaren": {
+    "picture": "At the window of a small exchange office in a Tatra town, Marek slides a few euro notes under the glass; the clerk behind it counts out Polish banknotes for him. Above the window, a board of little national flags with blank panels beside them.",
+    "book": null
+  },
+  "a2-u7-l12#vymenit": {
+    "reuse": "a2-u7-l12#zmenaren",
+    "book": null
+  },
+  "a2-u7-l12#kurz": {
+    "reuse": "a2-u7-l12#zmenaren",
+    "book": null
+  },
+  "a2-u7-l12#choice-aky-je-dnes": {
+    "reuse": "a2-u7-l12#zmenaren",
+    "book": null
+  },
+  "a2-u7-l12#bankomat": {
+    "picture": "On a street in a Tatra town, Tomáš takes a handful of banknotes out of a cash machine in a wall; Lucia, behind him, taps his shoulder and points at the machine with a warning look.",
+    "book": null
+  },
+  "a2-u7-l12#poplatok": {
+    "reuse": "a2-u7-l12#bankomat",
+    "book": null
+  },
+  "a2-u7-l12#choice-platite-kartou-alebo": {
+    "reuse": "a2-u7-l6#mam-rezervaciu",
+    "book": null
+  },
+  "a2-u7-l13#sever-a-juh": {
+    "picture": "On the wall of the guesthouse breakfast room hangs a big map of Slovakia: its eight regions in different soft colours, the neighbouring countries round it in grey, mountains along the top and the Danube along the bottom, and a compass rose with four plain arrows in the corner. Emma traces the mountains in the north with her finger while Lucia points down to the Danube in the south. No names or letters on the map.",
+    "book": null
+  },
+  "a2-u7-l13#vychod-a-zapad": {
+    "reuse": "a2-u7-l13#sever-a-juh",
+    "book": null
+  },
+  "a2-u7-l13#choice-vysoke-tatry-su": {
+    "reuse": "a2-u7-l13#sever-a-juh",
+    "book": null
+  },
+  "a2-u7-l13#slovensko-susedi-s": {
+    "reuse": "a2-u7-l13#sever-a-juh",
+    "book": null
+  },
+  "a2-u7-l13#kraj": {
+    "reuse": "a2-u7-l13#sever-a-juh",
+    "book": null
+  },
+  "a2-u7-l13#choice-kde-sa-nachadza": {
+    "reuse": "a2-u7-l9#tura",
+    "book": null
+  },
+  "a2-u7-l13#choice-slovensky-raj-je": {
+    "reuse": "a2-u7-l9#vodopad",
+    "book": null
+  },
+  "a2-u7-l13#ostrov": {
+    "reuse": "u2-l1#som-z-irska",
+    "book": null
+  },
+  "a2-u7-l14#banske-mesto": {
+    "picture": "Banská Štiavnica, an old mining town: steep cobbled streets and pastel houses climbing the hillsides, an old castle above the rooftops and a white castle on the hill opposite. Emma, Lucia, Tomáš and Marek walk up a steep street, Marek taking a photo.",
+    "book": null
+  },
+  "a2-u7-l14#skanzen": {
+    "picture": "At an open-air mining museum, old mine carts stand on rails outside a tunnel propped with timber; Emma, Lucia, Tomáš and Marek, in hard hats with lamps, follow a guide into the dark tunnel.",
+    "book": null
+  },
+  "a2-u7-l14#choice-rano-sme-boli": {
+    "reuse": "a2-u7-l11#jaskyna",
+    "book": null
+  },
+  "a2-u7-l14#ako-sa-dostaneme": {
+    "reuse": "u4-l2#chodte-rovno-potom",
+    "book": null
+  },
+  "a2-u7-l14#odbocit": {
+    "reuse": "u4-l2#chodte-rovno-potom",
+    "book": null
+  },
+  "a2-u7-l14#zabludit": {
+    "picture": "Emma alone in a maze of steep, narrow old streets in Banská Štiavnica, her phone to her ear, turning round on the spot, lost and anxious.",
+    "book": null
+  },
+  "a2-u7-l14#choice-zabludila-som": {
+    "reuse": "a2-u7-l14#zabludit",
+    "book": null
+  },
+  "a2-u7-l15#pohladnica": {
+    "picture": "Evening in the guesthouse breakfast room: Emma sits at a wooden table writing a postcard to her family, a little pile of picture postcards of the mountains beside her; Lucia, next to her, reads a brochure.",
+    "book": null
+  },
+  "a2-u7-l15#znamka": {
+    "reuse": "u4-l2#posta-je-oproti",
+    "book": null
+  },
+  "a2-u7-l15#pozdrav-z-tatier": {
+    "picture": "At the red front door of Emma's family home in Ireland, Emma's mum reads Emma's postcard, its picture of rocky peaks above a mountain lake facing us; Emma's dad and Emma's brother and sister crowd round her to see.",
+    "book": null
+  },
+  "a2-u7-l15#nezabudnutelny": {
+    "picture": "At sunset on a mountain ridge in the Tatras, Emma, Lucia, Tomáš and Marek stand arm in arm, looking out over the peaks glowing pink and gold: a moment none of them will ever forget.",
+    "book": null
+  },
+  "a2-u7-l15#choice-ahojte-pozdravujem-vas": {
+    "reuse": "a2-u7-l15#pozdrav-z-tatier",
+    "book": null
+  },
+  "a2-u7-l15#majte-sa-pekne": {
+    "reuse": "a2-u7-l15#pohladnica",
+    "book": null
+  },
+  "a2-u7-l15#choice-ako-konci-emma": {
+    "reuse": "a2-u7-l15#pohladnica",
+    "book": null
+  },
+  "a2-u7-l16#grammar-ked-kym-aspect": {
+    "reuse": "a2-u7-l2#som-na-ceste",
+    "book": null
+  },
+  "a2-u7-l17#choice-prehliadka-je-vypredana": {
+    "reuse": "a2-u7-l4#prehliadka-je-vypredana",
+    "book": null
+  },
+  "a2-u7-l17#choice-ako-bolo-na": {
+    "reuse": "a2-u7-l15#nezabudnutelny",
+    "book": null
+  }
+}

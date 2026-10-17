@@ -1,0 +1,334 @@
+{
+  "a2-u4-l1#rozlucit-sa": {
+    "picture": "A snowy morning after New Year outside the Šimkos' house in Žilina. Emma and Lucia, bags packed, say goodbye to the family on the doorstep: babka Helena hugs Lucia, and Emma holds Lucia's mum's hands to thank her. Lucia's dad waits by his car with the boot open.",
+    "book": null
+  },
+  "a2-u4-l1#dakujem-za-odvoz": {
+    "picture": "Outside Žilina station, snow on the ground: Lucia's dad lifts the suitcases out of his car boot, and Emma thanks him with a big smile.",
+    "book": null
+  },
+  "a2-u4-l1#choice-dakujem-vam-za": {
+    "reuse": "a2-u4-l1#rozlucit-sa",
+    "book": null
+  },
+  "a2-u4-l1#velmi-sa-nam-tu-pacilo": {
+    "reuse": "a2-u4-l1#rozlucit-sa",
+    "book": null
+  },
+  "a2-u4-l1#stastnu-cestu": {
+    "picture": "On the platform at Žilina station, Lucia's mum and dad wave as the train starts to move; Emma and Lucia wave back from the train window.",
+    "book": null
+  },
+  "a2-u4-l1#cestovny-poriadok": {
+    "picture": "In the warm kitchen of the Šimkos' house, Lucia scrolls through the train timetable in an app on her phone, a long list of trains with their times; Emma leans over her shoulder to look.",
+    "book": null
+  },
+  "a2-u4-l1#choice-lucia-chce-zistit": {
+    "reuse": "a2-u4-l1#cestovny-poriadok",
+    "book": null
+  },
+  "a2-u4-l1#rychlik": {
+    "reuse": "a2-u4-l2#nastupiste",
+    "book": null
+  },
+  "a2-u4-l1#odchod-a-prichod": {
+    "reuse": "a2-u4-l1#cestovny-poriadok",
+    "book": null
+  },
+  "a2-u4-l1#choice-v-aplikacii-rychlik": {
+    "reuse": "a2-u4-l1#cestovny-poriadok",
+    "book": null
+  },
+  "a2-u4-l2#stanica": {
+    "picture": "Žilina station on a snowy afternoon: the hall with its ticket-office windows, benches and big clock. Emma and Lucia come in from the street pulling their suitcases, Lucia's mum and dad behind them.",
+    "book": null
+  },
+  "a2-u4-l2#pokladna": {
+    "picture": "At a ticket-office window in Žilina station, Emma slides her student card under the glass to the clerk, a woman behind the window; Lucia waits beside her with the suitcases.",
+    "book": null
+  },
+  "a2-u4-l2#jednosmerny-alebo-spiatocny": {
+    "reuse": "a2-u4-l2#pokladna",
+    "book": null
+  },
+  "a2-u4-l2#studentsky-listok": {
+    "reuse": "a2-u4-l2#pokladna",
+    "book": null
+  },
+  "a2-u4-l2#miestenka": {
+    "reuse": "a2-u4-l3#vozen",
+    "book": null
+  },
+  "a2-u4-l2#nastupiste": {
+    "picture": "On a snowy platform at Žilina station, a long fast train pulls in; Emma and Lucia stand ready with their suitcases among the other passengers.",
+    "book": null
+  },
+  "a2-u4-l2#vlak-meska-desat-minut": {
+    "picture": "On the cold platform at Žilina station, Emma and Lucia stamp their feet beside their suitcases and look up at the big station clock; the track beside them is still empty.",
+    "book": null
+  },
+  "a2-u4-l2#choice-rychlik-meska": {
+    "reuse": "a2-u4-l2#vlak-meska-desat-minut",
+    "book": null
+  },
+  "a2-u4-l3#vozen": {
+    "picture": "Inside the train carriage: Emma and Lucia pull their suitcases along the narrow corridor past the compartments' sliding glass doors; Emma checks the seat reservation in her hand.",
+    "book": null
+  },
+  "a2-u4-l3#je-tu-volne": {
+    "picture": "In the train compartment, a friendly bald man of about 50 in a dark winter coat stands at the open sliding door and points at the empty seat next to Emma; Emma nods, smiling. Lucia sits opposite by the window.",
+    "book": null
+  },
+  "a2-u4-l3#choice-prepacte-je-tu": {
+    "reuse": "a2-u4-l3#je-tu-volne",
+    "book": null
+  },
+  "a2-u4-l3#batozina": {
+    "reuse": "a2-u4-l3#kufor",
+    "book": null
+  },
+  "a2-u4-l3#kufor": {
+    "picture": "In the train compartment, Emma strains on tiptoe to lift her heavy suitcase onto the luggage rack, already crowded with bags; the friendly bald man of about 50 in a dark winter coat gets up to help her.",
+    "book": null
+  },
+  "a2-u4-l3#pomohli-by-ste-mi": {
+    "reuse": "a2-u4-l3#kufor",
+    "book": null
+  },
+  "a2-u4-l3#sprievodkyna": {
+    "picture": "The conductor, a woman of about 50 in a dark-blue railway uniform and cap, stands at the compartment door checking tickets; Emma holds out her ticket and her student card.",
+    "book": null
+  },
+  "a2-u4-l3#pokuta": {
+    "picture": "In the train compartment, the conductor, a woman of about 50 in a dark-blue railway uniform and cap, writes out a fine on her pad. Lucia, her bag turned inside out in vain for her student card, hands her the money with a shrug and a rueful smile; Emma looks on, sympathetic.",
+    "book": null
+  },
+  "a2-u4-l3#no-co-uz": {
+    "reuse": "a2-u4-l3#pokuta",
+    "book": null
+  },
+  "a2-u4-l3#choice-lucia-plati-pokutu": {
+    "reuse": "a2-u4-l3#pokuta",
+    "book": null
+  },
+  "a2-u4-l4#pero": {
+    "reuse": "u9-l5#dotaznik",
+    "book": null
+  },
+  "a2-u4-l4#choice-poslem-ti-listky": {
+    "reuse": "u9-l3#poslat-e-mailom",
+    "book": null
+  },
+  "a2-u4-l5#objednat-si-taxik": {
+    "picture": "Half past six on a dark winter evening outside Bratislava's main station: Lucia, phone to her ear, orders a taxi, while Emma sits on their heavy suitcases beside her.",
+    "book": null
+  },
+  "a2-u4-l5#choice-taxik-pride-o": {
+    "reuse": "a2-u4-l5#objednat-si-taxik",
+    "book": null
+  },
+  "a2-u4-l5#taxikar": {
+    "picture": "Inside a taxi at night: the taxi driver, a cheerful, heavy-set man of about 50 with a shaved head and a black leather jacket, turns round from the wheel to ask Emma and Lucia on the back seat where they're going.",
+    "book": null
+  },
+  "a2-u4-l5#kam-to-bude": {
+    "reuse": "a2-u4-l5#taxikar",
+    "book": null
+  },
+  "a2-u4-l5#kolko-platim": {
+    "reuse": "a2-u4-l5#ja-to-zaplatim",
+    "book": null
+  },
+  "a2-u4-l5#choice-kartou-alebo-v": {
+    "reuse": "a2-u4-l5#ja-to-zaplatim",
+    "book": null
+  },
+  "a2-u4-l5#ja-to-zaplatim": {
+    "picture": "The taxi has stopped outside the dormitory at night. The taxi driver, a heavy-set man of about 50 with a shaved head and a black leather jacket, turns round holding out his card reader, a little paper receipt curling out of it; on the back seat, Emma holds her bank card to it while Lucia is still rummaging in her bag for her purse.",
+    "book": null
+  },
+  "a2-u4-l5#potvrdenka": {
+    "reuse": "a2-u4-l5#ja-to-zaplatim",
+    "book": null
+  },
+  "a2-u4-l5#pekny-vecer": {
+    "picture": "Outside the dormitory at night, Emma and Lucia stand on the pavement with their suitcases; the taxi driver, a heavy-set man with a shaved head, leans out of his window and waves goodbye as he pulls away. Emma waves back.",
+    "book": null
+  },
+  "a2-u4-l5#choice-pekny-vecer-aj": {
+    "reuse": "a2-u4-l5#pekny-vecer",
+    "book": null
+  },
+  "a2-u4-l6#letenka": {
+    "picture": "At her desk in the dorm room, Emma looks at an ad on her laptop: a big picture of a plane flying over green Irish hills. Her face lights up.",
+    "book": null
+  },
+  "a2-u4-l6#choice-emma-cita-inzerat": {
+    "reuse": "a2-u4-l6#letenka",
+    "book": null
+  },
+  "a2-u4-l6#priamy-let": {
+    "picture": "A map of Europe seen from above: a small plane, Emma waving from its window, flies in one straight line from Slovakia to Ireland, a dotted trail behind it.",
+    "book": null
+  },
+  "a2-u4-l6#let-s-prestupom": {
+    "picture": "A map of Europe seen from above: a dotted route runs from Slovakia to London, then on to Ireland. At London, Emma hurries with her bag from one small plane to another.",
+    "book": null
+  },
+  "a2-u4-l6#rezervovat": {
+    "reuse": "a2-u4-l6#na-ake-meno-bude",
+    "book": null
+  },
+  "a2-u4-l6#na-ake-meno-bude": {
+    "picture": "Split picture of a phone call. Left: at an airline's booking office, a woman with a headset types at her computer. Right: Emma, at her desk in the dorm room, phone to her ear, spells out her name, her passport open in front of her.",
+    "book": null
+  },
+  "a2-u4-l6#odlet-a-prilet": {
+    "picture": "Two halves. Left: before dawn at Bratislava airport, a plane takes off into the dark sky. Right: in the arrivals hall in Dublin, Emma's mum, Emma's dad and Emma's brother and sister wave as Emma comes through with her suitcase.",
+    "book": null
+  },
+  "a2-u4-l6#bohuzial": {
+    "reuse": "a2-u4-l6#na-ake-meno-bude",
+    "book": null
+  },
+  "a2-u4-l6#choice-rezervaciu-mate-v": {
+    "reuse": "a2-u4-l6#na-ake-meno-bude",
+    "book": null
+  },
+  "a2-u4-l7#letisko": {
+    "picture": "Five in the morning, still dark: a taxi drops Emma and her suitcase outside the glass terminal of Bratislava airport; the lights of a plane glow on the runway beyond.",
+    "book": null
+  },
+  "a2-u4-l7#pas": {
+    "reuse": "a2-u4-l7#check-in",
+    "book": null
+  },
+  "a2-u4-l7#check-in": {
+    "picture": "At the check-in desk at Bratislava airport, Emma hands her passport across the counter to the smiling check-in clerk; her suitcase sits on the scales beside her.",
+    "book": null
+  },
+  "a2-u4-l7#prirucna-batozina": {
+    "picture": "At the departure gate, Emma lifts her small cabin bag into the metal sizing frame to show that it fits, while a member of the ground staff watches.",
+    "book": null
+  },
+  "a2-u4-l7#letuska": {
+    "picture": "At the open door of the plane, a smiling flight attendant in a neat uniform greets Emma as she steps aboard with her small cabin bag.",
+    "book": null
+  },
+  "a2-u4-l7#prijemny-let": {
+    "reuse": "a2-u4-l7#letuska",
+    "book": null
+  },
+  "a2-u4-l7#choice-letuska-hovori": {
+    "reuse": "a2-u4-l7#letuska",
+    "book": null
+  },
+  "a2-u4-l10#urcite": {
+    "picture": "Before dawn at the door of the dorm room, Emma, suitcase in hand, hugs Lucia goodbye. Lucia, in her pyjamas, asks if she'll call from Dublin; Emma nods firmly, a hand to her ear like a phone.",
+    "book": null
+  },
+  "a2-u4-l10#choice-zavolas-mi-z": {
+    "reuse": "a2-u4-l10#urcite",
+    "book": null
+  },
+  "a2-u4-l10#choice-je-neskoro-autobus": {
+    "reuse": "a2-u4-l17#posledny-autobus",
+    "book": null
+  },
+  "a2-u4-l11#cestujuci": {
+    "reuse": "a2-u4-l3#je-tu-volne",
+    "book": null
+  },
+  "a2-u4-l12#pracovat-z-domu": {
+    "picture": "Morning in Tomáš's flat in Košice: Tomáš, in his slippers, works at his laptop at the kitchen table, a mug of coffee beside him.",
+    "book": null
+  },
+  "a2-u4-l12#vacsinou": {
+    "reuse": "a2-u4-l12#pracovat-z-domu",
+    "book": null
+  },
+  "a2-u4-l12#choice-tomas-vacsinou-pracuje": {
+    "reuse": "a2-u4-l12#pracovat-z-domu",
+    "book": null
+  },
+  "a2-u4-l12#dochadzat-do-prace": {
+    "picture": "Early morning on the train from Košice: Tomáš sits by the compartment window with his laptop open on the fold-out table and a coffee beside it, the sun rising over the hills outside.",
+    "book": null
+  },
+  "a2-u4-l12#notebook": {
+    "reuse": "a2-u4-l12#dochadzat-do-prace",
+    "book": null
+  },
+  "a2-u4-l12#choice-cesta-ic-ckom": {
+    "reuse": "a2-u4-l12#dochadzat-do-prace",
+    "book": null
+  },
+  "a2-u4-l12#zastavka": {
+    "reuse": "u6-l4#ako-ides-domov",
+    "book": null
+  },
+  "a2-u4-l13#choice-lucia-musela-zaplatit": {
+    "reuse": "a2-u4-l3#pokuta",
+    "book": null
+  },
+  "a2-u4-l14#chcela-by-som-letenku": {
+    "reuse": "a2-u4-l6#na-ake-meno-bude",
+    "book": null
+  },
+  "a2-u4-l14#choice-mohli-by-ste": {
+    "reuse": "u2-l5#mozete-mi-pomoct",
+    "book": null
+  },
+  "a2-u4-l15#choice-mala-by-si": {
+    "reuse": "u1-l1#choice-dobru-noc",
+    "book": null
+  },
+  "a2-u4-l16#stratit": {
+    "picture": "In the departures hall of the airport, Emma has tipped her tote bag out onto a bench and searches through everything in a panic: where is her passport?",
+    "book": null
+  },
+  "a2-u4-l17#zruseny-let": {
+    "picture": "Monday evening at Dublin airport: in the waiting hall, Emma, sitting with her bags, looks up at the departures board, where one line flashes red; the passengers around her groan.",
+    "book": null
+  },
+  "a2-u4-l17#choice-let-do-londyna": {
+    "reuse": "a2-u4-l17#zruseny-let",
+    "book": null
+  },
+  "a2-u4-l17#pricestovat": {
+    "reuse": "a2-u4-l17#posledny-autobus",
+    "book": null
+  },
+  "a2-u4-l17#posledny-autobus": {
+    "picture": "Midnight outside Bratislava airport: Emma, just arrived and worn out, with only her small cabin bag, stands at the empty bus stop as the tail lights of the last bus disappear down the road.",
+    "book": null
+  },
+  "a2-u4-l17#choice-emma-caka-na": {
+    "reuse": "a2-u4-l17#posledny-autobus",
+    "book": null
+  },
+  "a2-u4-l17#mala-som-smolu": {
+    "reuse": "a2-u4-l17#co-ti-je",
+    "book": null
+  },
+  "a2-u4-l17#co-ti-je": {
+    "picture": "Morning in the dorm room: Emma sits slumped on her bed, still in yesterday's clothes, only her small cabin bag beside her. Lucia, in her pyjamas, sits down next to her, worried, and asks what's wrong.",
+    "book": null
+  },
+  "a2-u4-l17#choice-rano-lucia-vidi": {
+    "reuse": "a2-u4-l17#co-ti-je",
+    "book": null
+  },
+  "a2-u4-l17#pokazit-sa": {
+    "picture": "A tram has broken down in the middle of a Bratislava street, its doors open; passengers climb out, and Tomáš, his laptop bag on his shoulder, looks at his watch in dismay.",
+    "book": null
+  },
+  "a2-u4-l17#choice-elektricka-sa-pokazila": {
+    "reuse": "a2-u4-l17#pokazit-sa",
+    "book": null
+  },
+  "a2-u4-l18#choice-vlak-do-kosic": {
+    "reuse": "a2-u4-l2#vlak-meska-desat-minut",
+    "book": null
+  }
+}

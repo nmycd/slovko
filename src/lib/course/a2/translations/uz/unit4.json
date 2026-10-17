@@ -1,0 +1,4229 @@
+{
+  "a2-u4.titleEn": {
+    "en": "Travelling",
+    "t": "Safarda"
+  },
+  "a2-u4.topics": {
+    "en": [
+      "Saying goodbye after a visit",
+      "Tickets and the train",
+      "A taxi",
+      "Booking a flight",
+      "At the airport",
+      "Commuting",
+      "Travel mishaps"
+    ],
+    "t": [
+      "Mehmondorchilikdan keyin xayrlashish",
+      "Chiptalar va poyezd",
+      "Taksi",
+      "Aviachipta band qilish",
+      "Aeroportda",
+      "Ishga qatnash",
+      "Yoʻldagi omadsizliklar"
+    ]
+  },
+  "a2-u4.grammar": {
+    "en": [
+      "The instrumental of means",
+      "Adverbs and their comparison",
+      "Adverbs of degree and certainty",
+      "Relative ktorý",
+      "Lebo and preto",
+      "The conditional",
+      "Keby"
+    ],
+    "t": [
+      "Vosita bildiruvchi inštrumentál",
+      "Ravishlar va ularni qiyoslash",
+      "Daraja va ishonch ravishlari",
+      "Nisbiy ktorý",
+      "Lebo va preto",
+      "Shart mayli",
+      "Keby"
+    ]
+  },
+  "a2-u4-l1.titleEn": {
+    "en": "Back to Bratislava",
+    "t": "Bratislavaga qaytish"
+  },
+  "a2-u4-l1.rozlucit-sa.en": {
+    "en": "to say goodbye",
+    "t": "xayrlashmoq"
+  },
+  "a2-u4-l1.rozlucit-sa.note": {
+    "en": "After New Year in Žilina, Emma and Lucia say goodbye to Lucia's family: **rozlúčiť sa s** + the “with” form, s rodinou. A goodbye is a **rozlúčka**.",
+    "t": "Jilinada Yangi yilni nishonlagach, Emma va Lusiya Lusiyaning oilasi bilan xayrlashadi: **rozlúčiť sa s** + «bilan» shakli (inštrumentál): s rodinou (oila bilan). Xayrlashuv — **rozlúčka**."
+  },
+  "a2-u4-l1.dakujem-za-odvoz.en": {
+    "en": "Thanks for the lift.",
+    "t": "Olib borib qoʻyganingiz uchun rahmat."
+  },
+  "a2-u4-l1.dakujem-za-odvoz.note": {
+    "en": "Lucia's dad drives them to the station. **odvoz** = a lift.",
+    "t": "Lusiyaning dadasi ularni mashinada vokzalga olib boradi. **odvoz** = (mashinada) olib borib qoʻyish."
+  },
+  "a2-u4-l1.fill-musime-sa-rozlucit.en": {
+    "en": "We have to say goodbye to Lucia's family.",
+    "t": "Lusiyaning oilasi bilan xayrlashishimiz kerak."
+  },
+  "a2-u4-l1.fill-musime-sa-rozlucit.why": {
+    "en": "**Rozlúčiť sa s** takes the “with” form, the instrumental, so feminine -a becomes **-ou**: s Luciin**ou** rodin**ou**.",
+    "t": "**Rozlúčiť sa s** «bilan» shaklini, yaʼni inštrumentálni talab qiladi, shuning uchun ayol jinsidagi -a **-ou** ga aylanadi: s Luciin**ou** rodin**ou**."
+  },
+  "a2-u4-l1.choice-dakujem-vam-za.question": {
+    "en": "Emma thanks Lucia's mum, pani Šimková, for everything. What does she say?",
+    "t": "Emma Lusiyaning onasi Shimkova xonimga hamma narsa uchun rahmat aytadi. U nima deydi?"
+  },
+  "a2-u4-l1.choice-dakujem-vam-za.why": {
+    "en": "Emma says vy to Lucia's mum, so thanking her takes **vám**, as in Aj vám. Ti is for a friend, and vás is the object form.",
+    "t": "Emma Lusiyaning onasiga vy (siz) deydi, shuning uchun rahmat aytganda **vám** (sizga) kerak, xuddi Aj vám dagi kabi. Ti — doʻst uchun, vás esa toʻldiruvchi shakli (sizni)."
+  },
+  "a2-u4-l1.velmi-sa-nam-tu-pacilo.en": {
+    "en": "We really enjoyed it here.",
+    "t": "Bu yer bizga juda yoqdi."
+  },
+  "a2-u4-l1.velmi-sa-nam-tu-pacilo.note": {
+    "en": "The past of **páči sa**: it pleased us. One person says: Veľmi sa **mi** tu páčilo.",
+    "t": "**páči sa** ning oʻtgan zamoni: bizga yoqdi. Bir kishi esa shunday deydi: Veľmi sa **mi** tu páčilo. (menga)"
+  },
+  "a2-u4-l1.fill-velmi-sa-mi.en": {
+    "en": "Thank you, we really enjoyed it here.",
+    "t": "Rahmat, bu yer bizga juda yoqdi."
+  },
+  "a2-u4-l1.fill-velmi-sa-mi.why": {
+    "en": "There's no he or she that pleased us, just “it”, so the past form takes the neuter **-lo**: páči**lo**.",
+    "t": "Bu yerda yoqqan narsa «u» (erkak yoki ayol) emas, shunchaki «bu», shuning uchun oʻtgan zamon oʻrta jinsdagi **-lo** ni oladi: páči**lo**."
+  },
+  "a2-u4-l1.stastnu-cestu.en": {
+    "en": "Have a good trip!",
+    "t": "Oq yoʻl!"
+  },
+  "a2-u4-l1.stastnu-cestu.note": {
+    "en": "**cesta** = a journey, a trip. Lucia's mum says it at the station; the answer is Ďakujeme!",
+    "t": "**cesta** = yoʻl, safar. Lusiyaning onasi buni vokzalda aytadi; javob — Ďakujeme! (Rahmat!)"
+  },
+  "a2-u4-l1.match-rozlucka.pairs": {
+    "en": [
+      "to say goodbye",
+      "Thank you for everything.",
+      "Thanks for the lift.",
+      "Have a good trip!"
+    ],
+    "t": [
+      "xayrlashmoq",
+      "Hamma narsa uchun rahmat.",
+      "Olib borib qoʻyganingiz uchun rahmat.",
+      "Oq yoʻl!"
+    ]
+  },
+  "a2-u4-l1.cestovny-poriadok.en": {
+    "en": "timetable (trains, buses)",
+    "t": "qatnov jadvali (poyezd, avtobus)"
+  },
+  "a2-u4-l1.cestovny-poriadok.note": {
+    "en": "Lucia looks at it in an app (v aplikácii): she wants to **zistiť** (find out) when the train leaves. For classes, the timetable is a rozvrh hodín.",
+    "t": "Lusiya uni ilovada (v aplikácii) koʻradi: u poyezd qachon joʻnashini **zistiť** (bilib olmoq) istaydi. Darslar jadvali esa — rozvrh hodín."
+  },
+  "a2-u4-l1.choice-lucia-chce-zistit.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "a2-u4-l1.choice-lucia-chce-zistit.options": {
+    "en": [
+      "Lucia wants to buy a ticket for the train to Bratislava.",
+      "Lucia wants to know when the train from Bratislava arrives.",
+      "Lucia wants to find out when the train to Bratislava leaves."
+    ],
+    "t": [
+      "Lusiya Bratislavaga ketadigan poyezdga chipta olmoqchi.",
+      "Lusiya Bratislavadan keladigan poyezd qachon yetib kelishini bilmoqchi.",
+      "Lusiya Bratislavaga ketadigan poyezd qachon joʻnashini bilib olmoqchi."
+    ]
+  },
+  "a2-u4-l1.fill-kedy-ide-vlak.en": {
+    "en": "When is there a train to Bratislava?",
+    "t": "Bratislavaga poyezd qachon boʻladi?"
+  },
+  "a2-u4-l1.fill-kedy-ide-vlak.why": {
+    "en": "The train is one thing, on, so ísť is **ide**. Idú is for oni, ideš for ty.",
+    "t": "Poyezd bitta, on (u), shuning uchun ísť — **ide**. Idú — oni (ular) uchun, ideš — ty (sen) uchun."
+  },
+  "a2-u4-l1.rychlik.en": {
+    "en": "fast train",
+    "t": "tezyurar poyezd"
+  },
+  "a2-u4-l1.rychlik.note": {
+    "en": "Slower is an **osobný vlak**, which stops everywhere. Faster is the **IC-čko** (an InterCity), which needs a reservation: to Bratislava it **trvá** (takes) two hours.",
+    "t": "Sekinrogʻi — **osobný vlak** (oddiy yoʻlovchi poyezdi), u har bekatda toʻxtaydi. Tezrogʻi — **IC-čko** (InterCity), unga joy band qilish kerak: Bratislavagacha yoʻl ikki soat **trvá** (davom etadi)."
+  },
+  "a2-u4-l1.odchod-a-prichod.en": {
+    "en": "departure and arrival",
+    "t": "joʻnash va kelish"
+  },
+  "a2-u4-l1.odchod-a-prichod.note": {
+    "en": "In the app: **odchod** 15.10 (leaving), **príchod** 18.05 (arriving). Rýchlik má príchod o šiestej. = The fast train gets in at six.",
+    "t": "Ilovada: **odchod** 15.10 (joʻnaydi), **príchod** 18.05 (yetib keladi). Rýchlik má príchod o šiestej. = Tezyurar poyezd soat oltida yetib keladi."
+  },
+  "a2-u4-l1.choice-v-aplikacii-rychlik.question": {
+    "en": "This is the line in Lucia's app. When does the train get to Bratislava?",
+    "t": "Bu Lusiyaning ilovasidagi qator. Poyezd Bratislavaga qachon yetib keladi?"
+  },
+  "a2-u4-l1.choice-v-aplikacii-rychlik.options": {
+    "en": [
+      "at 15:10",
+      "at 18:05",
+      "at 17:05"
+    ],
+    "t": [
+      "15:10 da",
+      "18:05 da",
+      "17:05 da"
+    ]
+  },
+  "a2-u4-l1.choice-v-aplikacii-rychlik.why": {
+    "en": "Getting in is the arrival, **príchod**: 18:05. Odchod, 15:10, is when it leaves Žilina.",
+    "t": "Yetib kelish — **príchod**: 18:05. Odchod (15:10) — poyezd Jilinadan joʻnaydigan vaqt."
+  },
+  "a2-u4-l1.build-rychlik-je-pomalsi.prompt": {
+    "en": "The fast train is slower than the IC, but it's cheaper.",
+    "t": "Tezyurar poyezd IC dan sekinroq, lekin arzonroq."
+  },
+  "a2-u4-l1.build-rychlik-je-pomalsi.traps": {
+    "en": [
+      "Rýchlik is masculine, so the comparative ends in **-ší**: pomal**ší**. Pomalšie would fit a neuter word like IC-čko.",
+      "It's still the rýchlik that's cheaper, a masculine word: lacnej**ší**."
+    ],
+    "t": [
+      "Rýchlik — erkak jinsida, shuning uchun qiyosiy daraja **-ší** bilan tugaydi: pomal**ší**. Pomalšie esa IC-čko kabi oʻrta jinsdagi soʻzga mos keladi.",
+      "Arzonroq ham rýchlik, yaʼni erkak jinsidagi soʻz: lacnej**ší**."
+    ]
+  },
+  "a2-u4-l1.fill-rychlik-ma-odchod.en": {
+    "en": "The fast train leaves Žilina at three and gets to Bratislava at six.",
+    "t": "Tezyurar poyezd Jilinadan soat uchda joʻnaydi va Bratislavaga soat oltida yetib keladi."
+  },
+  "a2-u4-l1.fill-rychlik-ma-odchod.why": {
+    "en": "Getting to Bratislava is the arrival, **príchod**. Odchod is leaving, here from Žilina.",
+    "t": "Bratislavaga yetib kelish — **príchod**. Odchod — joʻnash, bu yerda Jilinadan."
+  },
+  "a2-u4-l1.build-cesta-ic-ckom-trva.answers": {
+    "en": [
+      "The journey by IC takes two hours."
+    ],
+    "t": [
+      "IC poyezdida yoʻl ikki soat davom etadi.",
+      "IC bilan yoʻl ikki soat davom etadi.",
+      "IC poyezdida yoʻl ikki soat oladi.",
+      "Yoʻl IC poyezdida ikki soat davom etadi."
+    ]
+  },
+  "a2-u4-l1.build-cesta-ic-ckom-trva.distractors": {
+    "en": [
+      "minutes",
+      "bus"
+    ],
+    "t": [
+      "daqiqa",
+      "avtobusda"
+    ]
+  },
+  "a2-u4-l1.speak-dakujeme-za-vsetko.en": {
+    "en": "Thank you for everything!",
+    "t": "Hamma narsa uchun rahmat!"
+  },
+  "a2-u4-l2.titleEn": {
+    "en": "At the ticket office",
+    "t": "Kassada"
+  },
+  "a2-u4-l2.stanica.en": {
+    "en": "station",
+    "t": "vokzal, stansiya"
+  },
+  "a2-u4-l2.stanica.note": {
+    "en": "A railway station is a **železničná stanica**; the main one is the **hlavná stanica**. Na stanici = at the station, na stanicu = to the station.",
+    "t": "Temir yoʻl vokzali — **železničná stanica**; asosiysi — **hlavná stanica** (markaziy vokzal). Na stanici = vokzalda, na stanicu = vokzalga."
+  },
+  "a2-u4-l2.pokladna.en": {
+    "en": "ticket office",
+    "t": "kassa"
+  },
+  "a2-u4-l2.pokladna.note": {
+    "en": "Lístky sú **v pokladni**. = Tickets are at the ticket office. In a shop, the pokladňa is the till.",
+    "t": "Lístky sú **v pokladni**. = Chiptalar kassada. Doʻkonda ham pokladňa — toʻlov kassasi."
+  },
+  "a2-u4-l2.fill-listky-kupite-v.en": {
+    "en": "You can buy tickets at the station, at the ticket office.",
+    "t": "Chiptalarni vokzalda, kassada sotib olasiz."
+  },
+  "a2-u4-l2.fill-listky-kupite-v.why": {
+    "en": "Where? takes the locative after **v**, and after a soft ň the ending is **-i**: v poklad**ni**, like v kaviarni.",
+    "t": "«Qayerda?» savoli **v** dan keyin lokálni (oʻrin-payt kelishigi) talab qiladi, yumshoq ň dan keyin esa qoʻshimcha **-i**: v poklad**ni**, xuddi v kaviarni kabi."
+  },
+  "a2-u4-l2.jednosmerny-alebo-spiatocny.en": {
+    "en": "One-way or return?",
+    "t": "Bir tomongami yoki borib-kelishmi?"
+  },
+  "a2-u4-l2.jednosmerny-alebo-spiatocny.note": {
+    "en": "A **jednosmerný** lístok goes one way; a **spiatočný** goes there and back (tam aj **naspäť**). Naspäť = späť = back.",
+    "t": "**jednosmerný** lístok — bir tomonga; **spiatočný** esa borib-kelish uchun (tam aj **naspäť** — u yoqqa ham, orqaga ham). Naspäť = späť = orqaga."
+  },
+  "a2-u4-l2.choice-spiatocny.question": {
+    "en": "Lucia's dad is going to Bratislava and coming back in the evening. Which ticket does he need?",
+    "t": "Lusiyaning dadasi Bratislavaga boradi va kechqurun qaytadi. Unga qaysi chipta kerak?"
+  },
+  "a2-u4-l2.choice-spiatocny.why": {
+    "en": "There and back is **spiatočný**. Jednosmerný goes one way only, and a jedálny lístok is a menu.",
+    "t": "Borib-kelish — **spiatočný**. Jednosmerný faqat bir tomonga, jedálny lístok esa menyu."
+  },
+  "a2-u4-l2.studentsky-listok.en": {
+    "en": "student ticket",
+    "t": "talaba chiptasi"
+  },
+  "a2-u4-l2.studentsky-listok.note": {
+    "en": "The clerk asks: **Máte študentský preukaz?** (a student card). A full fare is a **celý** lístok, a half fare for children a **polovičný** lístok.",
+    "t": "Kassir soʻraydi: **Máte študentský preukaz?** (Talabalik guvohnomangiz bormi?) Toʻliq narxdagi chipta — **celý** lístok, bolalar uchun yarim narxdagisi — **polovičný** lístok."
+  },
+  "a2-u4-l2.fill-jeden-cely-a.en": {
+    "en": "One full-fare and one student ticket, please.",
+    "t": "Bitta toʻliq va bitta talaba chiptasi, iltimos."
+  },
+  "a2-u4-l2.fill-jeden-cely-a.why": {
+    "en": "Lístok is masculine, so the adjective ends in **-ý**: študentsk**ý** lístok.",
+    "t": "Lístok — erkak jinsida, shuning uchun sifat **-ý** bilan tugaydi: študentsk**ý** lístok."
+  },
+  "a2-u4-l2.build-dva-studentske-listky.prompt": {
+    "en": "Two student tickets, please.",
+    "t": "Ikkita talaba chiptasi, iltimos."
+  },
+  "a2-u4-l2.build-dva-studentske-listky.traps": {
+    "en": [
+      "Lístok is masculine, so two is **dva**: dva lístky. Dve is for feminine and neuter words.",
+      "In the plural, adjectives with things end in **-é**: študentsk**é** lístky."
+    ],
+    "t": [
+      "Lístok — erkak jinsida, shuning uchun «ikki» — **dva**: dva lístky. Dve — ayol va oʻrta jinsdagi soʻzlar uchun.",
+      "Koʻplikda narsalar bilan kelgan sifatlar **-é** bilan tugaydi: študentsk**é** lístky."
+    ]
+  },
+  "a2-u4-l2.miestenka.en": {
+    "en": "seat reservation",
+    "t": "joy broni"
+  },
+  "a2-u4-l2.miestenka.note": {
+    "en": "On the IC-čko you need a ticket **and** a miestenka. **miesto pri okne** = a window seat.",
+    "t": "IC-čko uchun chipta **va** miestenka (joy broni) kerak. **miesto pri okne** = deraza yonidagi joy."
+  },
+  "a2-u4-l2.fill-na-ic-cko-potrebujete.en": {
+    "en": "For the IC you also need a seat reservation.",
+    "t": "IC poyezdi uchun joy broni ham kerak."
+  },
+  "a2-u4-l2.fill-na-ic-cko-potrebujete.why": {
+    "en": "The reservation is what you need, the object, so miestenka changes -a to **-u**: potrebujete miestenk**u**.",
+    "t": "Joy broni — sizga kerak boʻlgan narsa, toʻldiruvchi, shuning uchun miestenka da -a **-u** ga aylanadi: potrebujete miestenk**u**."
+  },
+  "a2-u4-l2.build-kolko-stoji-spiatocny.prompt": {
+    "en": "How much is a return ticket to Bratislava?",
+    "t": "Bratislavaga borib-kelish chiptasi qancha turadi?"
+  },
+  "a2-u4-l2.build-kolko-stoji-spiatocny.traps": {
+    "en": [
+      "One ticket costs: **stojí**. Stoja is for two or more things.",
+      "Lístok is masculine, so the adjective ends in **-ý**: spiatočn**ý**."
+    ],
+    "t": [
+      "Bitta chipta turadi: **stojí**. Stoja — ikki yoki undan koʻp narsa uchun.",
+      "Lístok — erkak jinsida, shuning uchun sifat **-ý** bilan tugaydi: spiatočn**ý**."
+    ]
+  },
+  "a2-u4-l2.nastupiste.en": {
+    "en": "platform",
+    "t": "platforma"
+  },
+  "a2-u4-l2.nastupiste.note": {
+    "en": "**Na ktoré nástupište** príde vlak? – Na druhé. Standing there: **na nástupišti**.",
+    "t": "**Na ktoré nástupište** príde vlak? – Na druhé. (Poyezd qaysi platformaga keladi? – Ikkinchisiga.) Platformada turish: **na nástupišti**."
+  },
+  "a2-u4-l2.fill-vlak-pride-na.en": {
+    "en": "The train to Bratislava will arrive at platform two.",
+    "t": "Bratislavaga ketadigan poyezd ikkinchi platformaga keladi."
+  },
+  "a2-u4-l2.fill-vlak-pride-na.why": {
+    "en": "Nástupište is neuter (it ends in -e), so the ordinal ends in **-é**: na druh**é** nástupište.",
+    "t": "Nástupište — oʻrta jinsda (-e bilan tugaydi), shuning uchun tartib son **-é** bilan tugaydi: na druh**é** nástupište."
+  },
+  "a2-u4-l2.vlak-meska-desat-minut.en": {
+    "en": "The train is ten minutes late.",
+    "t": "Poyezd oʻn daqiqa kechikyapti."
+  },
+  "a2-u4-l2.vlak-meska-desat-minut.note": {
+    "en": "**meškať** = to be late: meškám, meškáš, mešká… A delay is a **meškanie**; you wait in the **čakáreň** (waiting room).",
+    "t": "**meškať** = kechikmoq: meškám, meškáš, mešká… Kechikish — **meškanie**; kutish uchun **čakáreň** (kutish zali) bor."
+  },
+  "a2-u4-l2.choice-rychlik-meska.question": {
+    "en": "You hear this at the station. What is it about?",
+    "t": "Buni vokzalda eshitasiz. Gap nima haqida?"
+  },
+  "a2-u4-l2.choice-rychlik-meska.options": {
+    "en": [
+      "The fast train to Bratislava leaves in twenty minutes.",
+      "The fast train from Bratislava is on time.",
+      "The fast train to Bratislava is twenty minutes late."
+    ],
+    "t": [
+      "Bratislavaga ketadigan tezyurar poyezd yigirma daqiqadan keyin joʻnaydi.",
+      "Bratislavadan keladigan tezyurar poyezd oʻz vaqtida.",
+      "Bratislavaga ketadigan tezyurar poyezd yigirma daqiqa kechikyapti."
+    ]
+  },
+  "a2-u4-l2.listen-vlak-do-bratislavy.en": {
+    "en": "The train to Bratislava will arrive at platform three.",
+    "t": "Bratislavaga ketadigan poyezd uchinchi platformaga keladi."
+  },
+  "a2-u4-l2.build-mate-este-miestenku.prompt": {
+    "en": "Have you still got a seat reservation by the window?",
+    "t": "Sizda hali deraza yonidagi joy broni bormi?"
+  },
+  "a2-u4-l2.build-mate-este-miestenku.traps": {
+    "en": [
+      "The reservation is what you want to have, the object, so miestenka changes -a to **-u**: miestenk**u**.",
+      "**Pri** (by, next to) takes the locative: pri okn**e**."
+    ],
+    "t": [
+      "Joy broni — siz olmoqchi boʻlgan narsa, toʻldiruvchi, shuning uchun miestenka da -a **-u** ga aylanadi: miestenk**u**.",
+      "**Pri** (yonida) lokálni talab qiladi: pri okn**e**."
+    ]
+  },
+  "a2-u4-l2.speak-jeden-studentsky-listok.en": {
+    "en": "One student ticket, please.",
+    "t": "Bitta talaba chiptasi, iltimos."
+  },
+  "a2-u4-l3.titleEn": {
+    "en": "On the train",
+    "t": "Poyezdda"
+  },
+  "a2-u4-l3.vozen.en": {
+    "en": "carriage (of a train)",
+    "t": "vagon (poyezdda)"
+  },
+  "a2-u4-l3.vozen.note": {
+    "en": "Their seats are **vo vozni** číslo päť, in a **kupé** (a compartment; the word never changes).",
+    "t": "Ularning joylari **vo vozni** číslo päť — beshinchi vagonda, **kupé** da (kupeda; bu soʻz hech qachon oʻzgarmaydi)."
+  },
+  "a2-u4-l3.fill-nase-miesta-su-vo.en": {
+    "en": "Our seats are in carriage number five.",
+    "t": "Joylarimiz beshinchi vagonda."
+  },
+  "a2-u4-l3.fill-nase-miesta-su-vo.why": {
+    "en": "Where? takes the locative: after a soft letter like ň the ending is **-i**, and the e drops out: vozeň → vo voz**ni**.",
+    "t": "«Qayerda?» lokálni talab qiladi: ň kabi yumshoq harfdan keyin qoʻshimcha **-i**, e esa tushib qoladi: vozeň → vo voz**ni**."
+  },
+  "a2-u4-l3.build-nase-miesta-su-pri.prompt": {
+    "en": "Our seats are by the window.",
+    "t": "Joylarimiz deraza yonida."
+  },
+  "a2-u4-l3.build-nase-miesta-su-pri.traps": {
+    "en": [
+      "**Pri** (by, next to) takes the locative: pri **okne**.",
+      "Two seats, so the plural: miest**a**, like mestá."
+    ],
+    "t": [
+      "**Pri** (yonida) lokálni talab qiladi: pri **okne**.",
+      "Ikkita joy, shuning uchun koʻplik: miest**a**, xuddi mestá kabi."
+    ]
+  },
+  "a2-u4-l3.je-tu-volne.en": {
+    "en": "Is this seat free?",
+    "t": "Bu joy boʻshmi?"
+  },
+  "a2-u4-l3.je-tu-volne.note": {
+    "en": "Or **Máte tu voľné?** The answer: Áno, nech sa páči. / Nie, je **obsadené** (taken).",
+    "t": "Yoki **Máte tu voľné?** Javob: Áno, nech sa páči. (Ha, marhamat.) / Nie, je **obsadené** (Yoʻq, band)."
+  },
+  "a2-u4-l3.choice-prepacte-je-tu.question": {
+    "en": "A man points at the seat next to Emma. What is he asking?",
+    "t": "Bir erkak Emmaning yonidagi joyni koʻrsatyapti. U nima soʻrayapti?"
+  },
+  "a2-u4-l3.choice-prepacte-je-tu.options": {
+    "en": [
+      "Excuse me, is this seat free?",
+      "Excuse me, is this your bag?",
+      "Excuse me, is this carriage five?"
+    ],
+    "t": [
+      "Kechirasiz, bu joy boʻshmi?",
+      "Kechirasiz, bu sizning sumkangizmi?",
+      "Kechirasiz, bu beshinchi vagonmi?"
+    ]
+  },
+  "a2-u4-l3.batozina.en": {
+    "en": "luggage",
+    "t": "yuk, bagaj"
+  },
+  "a2-u4-l3.batozina.note": {
+    "en": "All the bags you travel with. Big ones go **hore**, up on the rack.",
+    "t": "Safarga olib ketadigan barcha sumkalaringiz. Kattalari **hore** — tepaga, javonga qoʻyiladi."
+  },
+  "a2-u4-l3.kufor.en": {
+    "en": "suitcase",
+    "t": "chamadon"
+  },
+  "a2-u4-l3.kufor.note": {
+    "en": "With s, its o drops out: s **kufrom**, and the plural is kufre. A smaller bag is a **taška**.",
+    "t": "s bilan uning o si tushib qoladi: s **kufrom** (chamadon bilan), koʻpligi esa kufre. Kichikroq sumka — **taška**."
+  },
+  "a2-u4-l3.pomohli-by-ste-mi.en": {
+    "en": "Could you help me?",
+    "t": "Yordamlashib yubora olmaysizmi?"
+  },
+  "a2-u4-l3.pomohli-by-ste-mi.note": {
+    "en": "Even politer than Môžete mi pomôcť? It's the conditional, coming later in the unit. With the luggage: Pomohli by ste mi **s kufrom**?",
+    "t": "Môžete mi pomôcť? dan ham muloyimroq. Bu shart mayli, uni shu boʻlimda keyinroq oʻrganasiz. Yuk bilan: Pomohli by ste mi **s kufrom**? (Chamadonimga yordamlashib yubora olmaysizmi?)"
+  },
+  "a2-u4-l3.build-pomohli-by-ste.prompt": {
+    "en": "Could you help me with my suitcase?",
+    "t": "Chamadonimga yordamlashib yubora olmaysizmi?"
+  },
+  "a2-u4-l3.build-pomohli-by-ste.traps": {
+    "en": [
+      "**S** (with) takes the instrumental, -om, and the o of kufor drops out: s **kufrom**.",
+      "Emma is asking a stranger, vy, so it's by **ste**. By si is for a friend."
+    ],
+    "t": [
+      "**S** (bilan) inštrumentálni, -om ni talab qiladi, kufor ning o si esa tushib qoladi: s **kufrom**.",
+      "Emma notanish odamdan soʻrayapti, vy (siz), shuning uchun by **ste**. By si — doʻst uchun."
+    ]
+  },
+  "a2-u4-l3.fill-mozem-otvorit-okno.en": {
+    "en": "It's warm in here. Can I open the window?",
+    "t": "Bu yer issiq. Derazani ochsam boʻladimi?"
+  },
+  "a2-u4-l3.fill-mozem-otvorit-okno.why": {
+    "en": "The window is what you open, the object, and neuter nouns don't change: otvoriť **okno**. Okne is “where”, oknom “with”.",
+    "t": "Deraza — siz ochadigan narsa, toʻldiruvchi, oʻrta jinsdagi otlar esa oʻzgarmaydi: otvoriť **okno**. Okne — «qayerda», oknom — «bilan»."
+  },
+  "a2-u4-l3.sprievodkyna.en": {
+    "en": "conductor (a woman)",
+    "t": "konduktor (ayol)"
+  },
+  "a2-u4-l3.sprievodkyna.note": {
+    "en": "She checks the tickets: **Cestovné lístky, prosím.** = Tickets, please.",
+    "t": "U chiptalarni tekshiradi: **Cestovné lístky, prosím.** = Chiptalaringizni koʻrsating, iltimos."
+  },
+  "a2-u4-l3.pokuta.en": {
+    "en": "fine (to pay)",
+    "t": "jarima"
+  },
+  "a2-u4-l3.pokuta.note": {
+    "en": "Lucia has a student ticket, but she has left her student card in Žilina. **Musíte zaplatiť pokutu.** = You have to pay a fine.",
+    "t": "Lusiyada talaba chiptasi bor, lekin talabalik guvohnomasini Jilinada qoldirgan. **Musíte zaplatiť pokutu.** = Jarima toʻlashingiz kerak."
+  },
+  "a2-u4-l3.fill-lucia-musi-zaplatit.en": {
+    "en": "Lucia doesn't have her student card. She has to pay a fine.",
+    "t": "Lusiyada talabalik guvohnomasi yoʻq. U jarima toʻlashi kerak."
+  },
+  "a2-u4-l3.fill-lucia-musi-zaplatit.why": {
+    "en": "The fine is what she pays, the object, so pokuta changes -a to **-u**: zaplatiť pokut**u**.",
+    "t": "Jarima — u toʻlaydigan narsa, toʻldiruvchi, shuning uchun pokuta da -a **-u** ga aylanadi: zaplatiť pokut**u**."
+  },
+  "a2-u4-l3.no-co-uz.en": {
+    "en": "Oh well. Never mind.",
+    "t": "Nachora. Mayli."
+  },
+  "a2-u4-l3.no-co-uz.note": {
+    "en": "When nothing can be done. You can also say **Nič sa nedá robiť.**",
+    "t": "Hech narsa qilib boʻlmaganda aytiladi. Yana shunday deyish mumkin: **Nič sa nedá robiť.** (Hech narsa qilib boʻlmaydi.)"
+  },
+  "a2-u4-l3.choice-lucia-plati-pokutu.question": {
+    "en": "Lucia pays the fine and shrugs. What does she say?",
+    "t": "Lusiya jarimani toʻlaydi va yelka qisadi. U nima deydi?"
+  },
+  "a2-u4-l3.match-vo-vlaku.pairs": {
+    "en": [
+      "carriage",
+      "compartment",
+      "luggage",
+      "conductor",
+      "fine"
+    ],
+    "t": [
+      "vagon",
+      "kupe",
+      "yuk",
+      "konduktor",
+      "jarima"
+    ]
+  },
+  "a2-u4-l3.build-lucia-zabudla-preukaz.answers": {
+    "en": [
+      "Lucia forgot her student card in Žilina."
+    ],
+    "t": [
+      "Lusiya talabalik guvohnomasini Jilinada unutib qoldirdi.",
+      "Lusiya talabalik guvohnomasini Jilinada qoldirib ketdi.",
+      "Lusiya talabalik guvohnomasini Jilinada unutdi."
+    ]
+  },
+  "a2-u4-l3.build-lucia-zabudla-preukaz.distractors": {
+    "en": [
+      "ticket",
+      "Bratislava"
+    ],
+    "t": [
+      "chiptasini",
+      "Bratislavada"
+    ]
+  },
+  "a2-u4-l3.speak-prepacte-mate-tu.en": {
+    "en": "Excuse me, is this seat free?",
+    "t": "Kechirasiz, bu joy boʻshmi?"
+  },
+  "a2-u4-l4.titleEn": {
+    "en": "By train, by card, with a pen",
+    "t": "Poyezdda, karta bilan, ruchka bilan"
+  },
+  "a2-u4-l4.grammar-instrumental-means.title": {
+    "en": "How, with what: the instrumental without s",
+    "t": "Qanday, nima bilan: s predlogisiz inštrumentál"
+  },
+  "a2-u4-l4.grammar-instrumental-means.body": {
+    "en": [
+      "You know **Idem vlakom.** The vehicle takes the instrumental, with no s. The same form says what you do something with, the means or the tool: **Platím kartou.** **Píšem perom.** **Pošlem to e-mailom.**",
+      "Use **s** only for what comes along with you: a person, or something you carry. Cestujem **s** Luciou. Idem **s** kufrom. The means itself never takes s."
+    ],
+    "t": [
+      "**Idem vlakom.** (Poyezdda boraman.) ni bilasiz. Transport inštrumentálda («bilan» shaklida) keladi, s predlogisiz. Xuddi shu shakl ish nima bilan qilinishini — vosita yoki asbobni bildiradi: **Platím kartou.** (Karta bilan toʻlayman.) **Píšem perom.** (Ruchka bilan yozaman.) **Pošlem to e-mailom.** (Uni elektron pochta orqali yuboraman.)",
+      "Oʻzbekchada «bilan» ikkala maʼnoda ham ishlatiladi, slovakchada esa **s** faqat siz bilan birga boradigan narsa uchun: odam yoki olib yurgan narsangiz. Cestujem **s** Luciou. Idem **s** kufrom. Vositaning oʻzi hech qachon s olmaydi."
+    ]
+  },
+  "a2-u4-l4.grammar-instrumental-means.table.head": {
+    "en": [
+      "the means (no s)",
+      "together with (s)"
+    ],
+    "t": [
+      "vosita (s predlogisiz)",
+      "birga (s predlogi bilan)"
+    ]
+  },
+  "a2-u4-l4.grammar-instrumental-means.table.rows": {
+    "en": [
+      [
+        "Idem vlak**om**.",
+        "Idem s Luci**ou**."
+      ],
+      [
+        "Platím kart**ou**.",
+        "Pijem kávu s mliek**om**."
+      ],
+      [
+        "Píšem per**om**.",
+        "Cestujem s kufr**om**."
+      ],
+      [
+        "Pošlem to e-mail**om**.",
+        "Bývam s kamarátk**ou**."
+      ]
+    ],
+    "t": [
+      [
+        "Idem vlak**om**.",
+        "Idem s Luci**ou**."
+      ],
+      [
+        "Platím kart**ou**.",
+        "Pijem kávu s mliek**om**."
+      ],
+      [
+        "Píšem per**om**.",
+        "Cestujem s kufr**om**."
+      ],
+      [
+        "Pošlem to e-mail**om**.",
+        "Bývam s kamarátk**ou**."
+      ]
+    ]
+  },
+  "a2-u4-l4.grammar-instrumental-means.examples": {
+    "en": [
+      "Emma pays by card.",
+      "Tomáš travels by IC.",
+      "Lucia is travelling with Emma by train."
+    ],
+    "t": [
+      "Emma karta bilan toʻlaydi.",
+      "Tomash IC poyezdida qatnaydi.",
+      "Lusiya Emma bilan poyezdda ketyapti."
+    ]
+  },
+  "a2-u4-l4.fill-tomas-cestuje-do.en": {
+    "en": "Tomáš travels to Bratislava by train.",
+    "t": "Tomash Bratislavaga poyezdda boradi."
+  },
+  "a2-u4-l4.fill-tomas-cestuje-do.why": {
+    "en": "How he travels: the vehicle takes the instrumental, **-om**, with no s: vlak**om**.",
+    "t": "U qanday boradi: transport inštrumentálda, **-om** bilan, s predlogisiz keladi: vlak**om**."
+  },
+  "a2-u4-l4.pero.en": {
+    "en": "pen",
+    "t": "ruchka"
+  },
+  "a2-u4-l4.pero.note": {
+    "en": "**písať perom** = to write with a pen. A pencil is a **ceruzka**: píšem ceruzkou.",
+    "t": "**písať perom** = ruchka bilan yozmoq. Qalam — **ceruzka**: píšem ceruzkou (qalam bilan yozaman)."
+  },
+  "a2-u4-l4.fill-dotaznik-musite-vypisat.en": {
+    "en": "Please fill in the questionnaire with a pen.",
+    "t": "Soʻrovnomani ruchka bilan toʻldiring, iltimos."
+  },
+  "a2-u4-l4.fill-dotaznik-musite-vypisat.why": {
+    "en": "The pen is the tool you write with, so it takes the instrumental with no s: per**om**, like vlakom.",
+    "t": "Ruchka — yozish asbobi, shuning uchun s predlogisiz inštrumentálda keladi: per**om**, xuddi vlakom kabi."
+  },
+  "a2-u4-l4.choice-platim-kartou.question": {
+    "en": "Which sentence is right?",
+    "t": "Qaysi gap toʻgʻri?"
+  },
+  "a2-u4-l4.choice-platim-kartou.why": {
+    "en": "The card is how you pay, the means, so it takes the instrumental with no s: platím **kartou**. S is for company: s Luciou.",
+    "t": "Karta — toʻlov vositasi, shuning uchun s predlogisiz inštrumentálda: platím **kartou**. S esa birga boʻlgan odam uchun: s Luciou."
+  },
+  "a2-u4-l4.build-idem-na-stanicu.prompt": {
+    "en": "I'm going to the station by taxi.",
+    "t": "Vokzalga taksida boraman."
+  },
+  "a2-u4-l4.build-idem-na-stanicu.traps": {
+    "en": [
+      "How you go: the vehicle takes the instrumental, **-om**: taxík**om**.",
+      "Going somewhere takes **na** + the object form: na stanic**u**. Na stanici is being there."
+    ],
+    "t": [
+      "Qanday borasiz: transport inštrumentálda, **-om** bilan: taxík**om**.",
+      "Biror joyga borish **na** + toʻldiruvchi shaklini talab qiladi: na stanic**u**. Na stanici — vokzalda boʻlish."
+    ]
+  },
+  "a2-u4-l4.build-lucia-cestuje-s.prompt": {
+    "en": "Lucia is travelling with Emma.",
+    "t": "Lusiya Emma bilan sayohat qilyapti."
+  },
+  "a2-u4-l4.build-lucia-cestuje-s.traps": {
+    "en": [
+      "A person who comes along takes **s** + the instrumental: Emma → s Emm**ou**.",
+      "**So** is only for words that start with s, z, š or ž (so syrom). Before Emmou it's just **s**."
+    ],
+    "t": [
+      "Birga boradigan odam **s** + inštrumentál bilan keladi: Emma → s Emm**ou**.",
+      "**So** faqat s, z, š yoki ž bilan boshlanadigan soʻzlar oldida keladi (so syrom). Emmou oldida shunchaki **s**."
+    ]
+  },
+  "a2-u4-l4.v-hotovosti.en": {
+    "en": "in cash",
+    "t": "naqd pulda"
+  },
+  "a2-u4-l4.v-hotovosti.note": {
+    "en": "**Kartou alebo v hotovosti?** = By card or in cash? Cash comes out of a **bankomat** (a cash machine).",
+    "t": "**Kartou alebo v hotovosti?** = Karta bilanmi yoki naqd pulmi? Naqd pulni **bankomat** dan olasiz."
+  },
+  "a2-u4-l4.fill-platite-kartou-alebo.en": {
+    "en": "Are you paying by card or in cash?",
+    "t": "Karta bilan toʻlaysizmi yoki naqd pulmi?"
+  },
+  "a2-u4-l4.fill-platite-kartou-alebo.why": {
+    "en": "How you pay is the means, so karta takes the instrumental: -a becomes **-ou**: kart**ou**.",
+    "t": "Qanday toʻlash — vosita, shuning uchun karta inštrumentálga oʻtadi: -a **-ou** ga aylanadi: kart**ou**."
+  },
+  "a2-u4-l4.build-emma-plati-mobilom.prompt": {
+    "en": "Emma pays by phone.",
+    "t": "Emma telefon orqali toʻlaydi."
+  },
+  "a2-u4-l4.build-emma-plati-mobilom.traps": {
+    "en": [
+      "How she pays is the means, so the phone takes the instrumental: mobil**om**."
+    ],
+    "t": [
+      "Qanday toʻlashi — vosita, shuning uchun telefon inštrumentálda keladi: mobil**om**."
+    ]
+  },
+  "a2-u4-l4.choice-poslem-ti-listky.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "a2-u4-l4.choice-poslem-ti-listky.options": {
+    "en": [
+      "I'll send the tickets to you and Emma.",
+      "I'll send you the tickets by e-mail.",
+      "I'll buy you the tickets on the internet."
+    ],
+    "t": [
+      "Chiptalarni senga va Emmaga yuboraman.",
+      "Chiptalarni senga elektron pochta orqali yuboraman.",
+      "Chiptalarni senga internetdan sotib olaman."
+    ]
+  },
+  "a2-u4-l4.choice-poslem-ti-listky.why": {
+    "en": "**E-mailom** is the means, in the instrumental with no s: by e-mail. Sending them with Emma would be s Emmou.",
+    "t": "**E-mailom** — vosita, s predlogisiz inštrumentálda: elektron pochta orqali. Emma bilan birga yuborish s Emmou boʻlardi."
+  },
+  "a2-u4-l4.fill-do-dublinu-cestujem.en": {
+    "en": "I travel to Dublin by plane.",
+    "t": "Dublinga samolyotda boraman."
+  },
+  "a2-u4-l4.fill-do-dublinu-cestujem.why": {
+    "en": "The plane is the means, so it takes the instrumental: neuter -o becomes **-om**: lietadl**om**. Lietadle is “where”: v lietadle.",
+    "t": "Samolyot — vosita, shuning uchun inštrumentálda: oʻrta jinsdagi -o **-om** ga aylanadi: lietadl**om**. Lietadle — «ichida» maʼnosidagi «qayerda»: v lietadle (samolyot ichida)."
+  },
+  "a2-u4-l4.match-vlakom-kartou.pairs": {
+    "en": [
+      "by train",
+      "by card",
+      "with a pen",
+      "by e-mail",
+      "in cash"
+    ],
+    "t": [
+      "poyezdda",
+      "karta bilan",
+      "ruchka bilan",
+      "elektron pochta orqali",
+      "naqd pulda"
+    ]
+  },
+  "a2-u4-l4.build-tomas-pise-ceruzkou.answers": {
+    "en": [
+      "Tomáš is writing with a pencil, not a pen."
+    ],
+    "t": [
+      "Tomash ruchka bilan emas, qalam bilan yozyapti.",
+      "Tomash qalam bilan yozyapti, ruchka bilan emas.",
+      "Tomash ruchkada emas, qalamda yozyapti.",
+      "Tomash qalamda yozyapti, ruchkada emas."
+    ]
+  },
+  "a2-u4-l4.build-tomas-pise-ceruzkou.distractors": {
+    "en": [
+      "by",
+      "pens"
+    ],
+    "t": [
+      "ruchkalar",
+      "yozdi"
+    ]
+  },
+  "a2-u4-l4.speak-mozem-platit-kartou.en": {
+    "en": "Can I pay by card?",
+    "t": "Karta bilan toʻlasam boʻladimi?"
+  },
+  "a2-u4-l5.titleEn": {
+    "en": "A taxi",
+    "t": "Taksi"
+  },
+  "a2-u4-l5.objednat-si-taxik.en": {
+    "en": "to order a taxi",
+    "t": "taksi chaqirmoq"
+  },
+  "a2-u4-l5.objednat-si-taxik.note": {
+    "en": "Half past six in the evening at the main station in Bratislava, with heavy bags. Lucia phones: **Prosím si taxík na hlavnú stanicu.**",
+    "t": "Kechki olti yarim, Bratislava markaziy vokzali, qoʻlda ogʻir sumkalar. Lusiya qoʻngʻiroq qiladi: **Prosím si taxík na hlavnú stanicu.** (Markaziy vokzalga bitta taksi, iltimos.)"
+  },
+  "a2-u4-l5.fill-prosim-si-taxik.en": {
+    "en": "Good evening, a taxi to the main station, please.",
+    "t": "Xayrli kech, markaziy vokzalga bitta taksi, iltimos."
+  },
+  "a2-u4-l5.fill-prosim-si-taxik.why": {
+    "en": "The taxi is what you ask for, the object, and masculine things don't change: prosím si **taxík**. Taxíkom is how you travel.",
+    "t": "Taksi — siz soʻrayotgan narsa, toʻldiruvchi, erkak jinsidagi narsalar esa oʻzgarmaydi: prosím si **taxík**. Taxíkom — qanday borishingiz."
+  },
+  "a2-u4-l5.choice-taxik-pride-o.question": {
+    "en": "The taxi company tells Lucia this. What does it mean?",
+    "t": "Taksi xizmati Lusiyaga shuni aytadi. Bu nimani anglatadi?"
+  },
+  "a2-u4-l5.choice-taxik-pride-o.options": {
+    "en": [
+      "The taxi will be there in five minutes.",
+      "The taxi costs five euros.",
+      "The taxi came five minutes ago."
+    ],
+    "t": [
+      "Taksi besh daqiqadan keyin keladi.",
+      "Taksi besh yevro turadi.",
+      "Taksi besh daqiqa oldin keldi."
+    ]
+  },
+  "a2-u4-l5.choice-taxik-pride-o.why": {
+    "en": "**Príde** points to the future, and **o** + a length of time means in: o päť minút = in five minutes, like Kedy prídeš? – O hodinu.",
+    "t": "**Príde** kelasi zamonni bildiradi, **o** + vaqt miqdori esa «…dan keyin» degani: o päť minút = besh daqiqadan keyin, xuddi Kedy prídeš? – O hodinu. (Qachon kelasan? – Bir soatdan keyin.) kabi."
+  },
+  "a2-u4-l5.taxikar.en": {
+    "en": "taxi driver",
+    "t": "taksi haydovchisi"
+  },
+  "a2-u4-l5.taxikar.note": {
+    "en": "He puts their bags in the car. You say vy to a taxikár, and he says vy to you.",
+    "t": "U sumkalarni mashinaga joylaydi. Taksi haydovchisiga vy (siz) deysiz, u ham sizga vy deydi."
+  },
+  "a2-u4-l5.kam-to-bude.en": {
+    "en": "Where to?",
+    "t": "Qayerga boramiz?"
+  },
+  "a2-u4-l5.kam-to-bude.note": {
+    "en": "The taxi driver's question. Answer with where to: **Na internát, prosím.**",
+    "t": "Taksi haydovchisining savoli. Qayerga ekanini ayting: **Na internát, prosím.** (Yotoqxonaga, iltimos.)"
+  },
+  "a2-u4-l5.build-na-internat-prosim.prompt": {
+    "en": "To the dorm, please.",
+    "t": "Yotoqxonaga, iltimos."
+  },
+  "a2-u4-l5.build-na-internat-prosim.traps": {
+    "en": [
+      "Where to? takes **na** + the object form, and masculine things don't change: na **internát**. Na internáte is being there.",
+      "Where to? takes **na** + the object form: na **internát**. Internátom is the instrumental, for the means or with s."
+    ],
+    "t": [
+      "«Qayerga?» **na** + toʻldiruvchi shaklini talab qiladi, erkak jinsidagi narsalar esa oʻzgarmaydi: na **internát**. Na internáte — yotoqxonada boʻlish.",
+      "«Qayerga?» **na** + toʻldiruvchi shaklini talab qiladi: na **internát**. Internátom — inštrumentál, vosita uchun yoki s bilan keladi."
+    ]
+  },
+  "a2-u4-l5.kolko-platim.en": {
+    "en": "How much do I owe?",
+    "t": "Qancha toʻlayman?"
+  },
+  "a2-u4-l5.kolko-platim.note": {
+    "en": "The driver: **Dvanásť eur.** Then he asks: Kartou alebo v hotovosti?",
+    "t": "Haydovchi: **Dvanásť eur.** (Oʻn ikki yevro.) Keyin soʻraydi: Kartou alebo v hotovosti?"
+  },
+  "a2-u4-l5.choice-kartou-alebo-v.question": {
+    "en": "The driver asks: Kartou alebo v hotovosti? Emma has no cash. What does she answer?",
+    "t": "Haydovchi soʻraydi: Kartou alebo v hotovosti? Emmada naqd pul yoʻq. U nima deb javob beradi?"
+  },
+  "a2-u4-l5.choice-kartou-alebo-v.why": {
+    "en": "He's asking how she'll pay, and with no cash she answers with the means: **kartou** (by card).",
+    "t": "U qanday toʻlashini soʻrayapti; naqd pul yoʻq, shuning uchun Emma vosita bilan javob beradi: **kartou** (karta bilan)."
+  },
+  "a2-u4-l5.ja-to-zaplatim.en": {
+    "en": "I'll pay for this.",
+    "t": "Men toʻlayman."
+  },
+  "a2-u4-l5.ja-to-zaplatim.note": {
+    "en": "Offering to pay. Money, **peniaze**, is always plural: Peniaze **sú** v taške.",
+    "t": "Toʻlashni taklif qilish. Pul — **peniaze** — doim koʻplikda: Peniaze **sú** v taške. (Pul sumkada.)"
+  },
+  "a2-u4-l5.build-zaplatim-kartou.prompt": {
+    "en": "I'll pay by card.",
+    "t": "Karta bilan toʻlayman."
+  },
+  "a2-u4-l5.build-zaplatim-kartou.traps": {
+    "en": [
+      "How you pay is the instrumental: karta → kart**ou**. Kartu is the object form."
+    ],
+    "t": [
+      "Qanday toʻlash — inštrumentál: karta → kart**ou**. Kartu — toʻldiruvchi shakli."
+    ]
+  },
+  "a2-u4-l5.potvrdenka.en": {
+    "en": "receipt",
+    "t": "chek, kvitansiya"
+  },
+  "a2-u4-l5.potvrdenka.note": {
+    "en": "**Potrebujete potvrdenku?** = Do you need a receipt? – Nie, ďakujem.",
+    "t": "**Potrebujete potvrdenku?** = Chek kerakmi? – Nie, ďakujem. (Yoʻq, rahmat.)"
+  },
+  "a2-u4-l5.fill-potrebujete-potvrdenku.en": {
+    "en": "Do you need a receipt? – No, thank you.",
+    "t": "Chek kerakmi? – Yoʻq, rahmat."
+  },
+  "a2-u4-l5.fill-potrebujete-potvrdenku.why": {
+    "en": "The receipt is what you need, the object, so potvrdenka changes -a to **-u**: potvrdenk**u**.",
+    "t": "Chek — sizga kerak boʻlgan narsa, toʻldiruvchi, shuning uchun potvrdenka da -a **-u** ga aylanadi: potvrdenk**u**."
+  },
+  "a2-u4-l5.pekny-vecer.en": {
+    "en": "Have a nice evening!",
+    "t": "Kechingiz yaxshi oʻtsin!"
+  },
+  "a2-u4-l5.pekny-vecer.note": {
+    "en": "The answer is **Aj vám.** to a stranger, or Aj tebe. to a friend.",
+    "t": "Notanish odamga javob — **Aj vám.** (Sizga ham.), doʻstga — Aj tebe. (Senga ham.)"
+  },
+  "a2-u4-l5.choice-pekny-vecer-aj.question": {
+    "en": "The taxi driver says: Pekný večer! What does Emma answer?",
+    "t": "Taksi haydovchisi aytadi: Pekný večer! Emma nima deb javob beradi?"
+  },
+  "a2-u4-l5.choice-pekny-vecer-aj.why": {
+    "en": "The driver is a stranger, so Emma says vy: **Aj vám.** Aj tebe is for a friend.",
+    "t": "Haydovchi — notanish odam, shuning uchun Emma vy deydi: **Aj vám.** Aj tebe — doʻst uchun."
+  },
+  "a2-u4-l5.match-taxik.pairs": {
+    "en": [
+      "taxi driver",
+      "receipt",
+      "Where to?",
+      "How much do I owe?"
+    ],
+    "t": [
+      "taksi haydovchisi",
+      "chek",
+      "Qayerga boramiz?",
+      "Qancha toʻlayman?"
+    ]
+  },
+  "a2-u4-l5.choice-je-tu-bankomat.question": {
+    "en": "What does Emma need?",
+    "t": "Emmaga nima kerak?"
+  },
+  "a2-u4-l5.choice-je-tu-bankomat.options": {
+    "en": [
+      "A taxi",
+      "A cash machine",
+      "A receipt"
+    ],
+    "t": [
+      "Taksi",
+      "Bankomat",
+      "Chek"
+    ]
+  },
+  "a2-u4-l5.speak-na-hlavnu-stanicu.en": {
+    "en": "To the main station, please.",
+    "t": "Markaziy vokzalga, iltimos."
+  },
+  "a2-u4-l6.titleEn": {
+    "en": "A plane ticket",
+    "t": "Aviachipta"
+  },
+  "a2-u4-l6.letenka.en": {
+    "en": "plane ticket",
+    "t": "aviachipta"
+  },
+  "a2-u4-l6.letenka.note": {
+    "en": "For a train or a bus it's a lístok; for a plane, a **letenka**. Emma wants to fly home to Dublin for a few days: a **spiatočná letenka**.",
+    "t": "Poyezd yoki avtobus uchun — lístok, samolyot uchun — **letenka**. Emma bir necha kunga uyiga, Dublinga uchib bormoqchi: unga **spiatočná letenka** (borib-kelish aviachiptasi) kerak."
+  },
+  "a2-u4-l6.choice-emma-cita-inzerat.question": {
+    "en": "What is Emma reading?",
+    "t": "Emma nimani oʻqiyapti?"
+  },
+  "a2-u4-l6.choice-emma-cita-inzerat.options": {
+    "en": [
+      "A timetable of flights to Dublin",
+      "An e-mail from her family in Dublin",
+      "An ad for cheap plane tickets to Dublin"
+    ],
+    "t": [
+      "Dublinga reyslar jadvalini",
+      "Dublindagi oilasidan kelgan elektron xatni",
+      "Dublinga arzon aviachiptalar haqidagi eʼlonni"
+    ]
+  },
+  "a2-u4-l6.fill-kupim-si-spiatocnu.en": {
+    "en": "I'll buy a return plane ticket to Dublin.",
+    "t": "Dublinga borib-kelish aviachiptasini sotib olaman."
+  },
+  "a2-u4-l6.fill-kupim-si-spiatocnu.why": {
+    "en": "For a plane it's **letenka**, and as the object it ends in -u: letenk**u**. Spiatočnú also needs a feminine word, so lístok doesn't fit.",
+    "t": "Samolyot uchun — **letenka**, toʻldiruvchi sifatida esa u -u bilan tugaydi: letenk**u**. Spiatočnú ham ayol jinsidagi soʻzni talab qiladi, shuning uchun lístok toʻgʻri kelmaydi."
+  },
+  "a2-u4-l6.priamy-let.en": {
+    "en": "direct flight",
+    "t": "toʻgʻridan-toʻgʻri reys"
+  },
+  "a2-u4-l6.priamy-let.note": {
+    "en": "**let** = a flight, from letieť (to fly). Priamy let do Dublinu trvá tri hodiny.",
+    "t": "**let** = parvoz, reys; letieť (uchmoq) dan. Priamy let do Dublinu trvá tri hodiny. = Dublinga toʻgʻridan-toʻgʻri reys uch soat davom etadi."
+  },
+  "a2-u4-l6.let-s-prestupom.en": {
+    "en": "flight with a change",
+    "t": "samolyot almashtiriladigan reys"
+  },
+  "a2-u4-l6.let-s-prestupom.note": {
+    "en": "A **prestup** is a change. To change is **prestupovať**, like študovať: V Londýne prestupujem.",
+    "t": "**prestup** — (transportni) almashtirish. Almashtirmoq — **prestupovať**, u študovať kabi tuslanadi: V Londýne prestupujem. = Londonda samolyot almashtiraman."
+  },
+  "a2-u4-l6.choice-priamy-let-trva.question": {
+    "en": "Which flight is faster?",
+    "t": "Qaysi reys tezroq?"
+  },
+  "a2-u4-l6.choice-priamy-let-trva.options": {
+    "en": [
+      "The flight with a change",
+      "The direct flight",
+      "They take the same time"
+    ],
+    "t": [
+      "Samolyot almashtiriladigan reys",
+      "Toʻgʻridan-toʻgʻri reys",
+      "Ikkalasi bir xil vaqt oladi"
+    ]
+  },
+  "a2-u4-l6.fill-v-londyne-prestupujem.en": {
+    "en": "I haven't got a direct flight; I change in London.",
+    "t": "Toʻgʻridan-toʻgʻri reysim yoʻq, Londonda samolyot almashtiraman."
+  },
+  "a2-u4-l6.fill-v-londyne-prestupujem.why": {
+    "en": "This needs a verb: **prestupovať** (to change) goes like študovať, so -ova- becomes -uje-: prestup**ujem**.",
+    "t": "Bu yerga feʼl kerak: **prestupovať** (almashtirmoq) študovať kabi tuslanadi, -ova- oʻrniga -uje- keladi: prestup**ujem**."
+  },
+  "a2-u4-l6.rezervovat.en": {
+    "en": "to book, to reserve",
+    "t": "band qilmoq, bron qilmoq"
+  },
+  "a2-u4-l6.rezervovat.note": {
+    "en": "Done and finished: **zarezervovať si**: Zarezervovala som si letenku. A booking is a **rezervácia**.",
+    "t": "Tugallangan turi — **zarezervovať si**: Zarezervovala som si letenku. (Aviachipta band qildim.) Bron — **rezervácia**."
+  },
+  "a2-u4-l6.build-emma-si-zarezervovala.prompt": {
+    "en": "Emma booked a flight to Dublin.",
+    "t": "Emma Dublinga reys band qildi."
+  },
+  "a2-u4-l6.build-emma-si-zarezervovala.traps": {
+    "en": [
+      "Emma is a woman, so the past form ends in **-la**: zarezervova**la**.",
+      "Booking something for yourself is **zarezervovať si**, with si: Emma **si** zarezervovala let."
+    ],
+    "t": [
+      "Emma — ayol, shuning uchun oʻtgan zamon **-la** bilan tugaydi: zarezervova**la**.",
+      "Oʻzingiz uchun biror narsani band qilish — **zarezervovať si**, si bilan: Emma **si** zarezervovala let."
+    ]
+  },
+  "a2-u4-l6.na-ake-meno-bude.en": {
+    "en": "What name should the ticket be in?",
+    "t": "Chipta kimning nomiga boʻladi?"
+  },
+  "a2-u4-l6.na-ake-meno-bude.note": {
+    "en": "Asked for any booking. Short: **Na aké meno?**",
+    "t": "Har qanday bronda soʻraladi. Qisqasi: **Na aké meno?** (Kimning nomiga?)"
+  },
+  "a2-u4-l6.odlet-a-prilet.en": {
+    "en": "departure and arrival (of a plane)",
+    "t": "uchib ketish va uchib kelish (samolyot)"
+  },
+  "a2-u4-l6.odlet-a-prilet.note": {
+    "en": "For trains it's odchod and príchod. For planes: **odlet** and **prílet**, from letieť.",
+    "t": "Poyezdlar uchun — odchod va príchod. Samolyotlar uchun: **odlet** va **prílet**, letieť dan."
+  },
+  "a2-u4-l6.fill-odlet-je-o.en": {
+    "en": "Departure is at seven in the morning and arrival in Dublin at nine.",
+    "t": "Uchib ketish ertalab soat yettida, Dublinga uchib kelish esa soat toʻqqizda."
+  },
+  "a2-u4-l6.fill-odlet-je-o.why": {
+    "en": "Getting there by plane is **prílet**: príchod is for trains, and odlet is the departure.",
+    "t": "Samolyotda yetib kelish — **prílet**: príchod poyezdlar uchun, odlet esa uchib ketish."
+  },
+  "a2-u4-l6.bohuzial.question": {
+    "en": "Emma wants to fly on Friday. What does the airline tell her?",
+    "t": "Emma juma kuni uchmoqchi. Aviakompaniya unga nima deydi?"
+  },
+  "a2-u4-l6.bohuzial.options": {
+    "en": [
+      "Luckily, we still have tickets for Friday.",
+      "Unfortunately, the Friday flight is late.",
+      "Unfortunately, we've no tickets left for Friday."
+    ],
+    "t": [
+      "Baxtimizga, juma kuniga hali chiptalar bor.",
+      "Afsuski, juma kungi reys kechikyapti.",
+      "Afsuski, juma kuniga chiptalar qolmadi."
+    ]
+  },
+  "a2-u4-l6.choice-rezervaciu-mate-v.question": {
+    "en": "Emma has paid. What does the airline tell her?",
+    "t": "Emma pulni toʻladi. Aviakompaniya unga nima deydi?"
+  },
+  "a2-u4-l6.choice-rezervaciu-mate-v.options": {
+    "en": [
+      "Thank you. Please send us an e-mail.",
+      "Thank you. Your ticket is at the airport.",
+      "Thank you. Your booking is in your e-mail."
+    ],
+    "t": [
+      "Rahmat. Iltimos, bizga elektron xat yuboring.",
+      "Rahmat. Chiptangiz aeroportda.",
+      "Rahmat. Broningiz elektron pochtangizda."
+    ]
+  },
+  "a2-u4-l6.match-letenka.pairs": {
+    "en": [
+      "plane ticket",
+      "direct flight",
+      "change (of plane)",
+      "departure (by plane)",
+      "unfortunately"
+    ],
+    "t": [
+      "aviachipta",
+      "toʻgʻridan-toʻgʻri reys",
+      "samolyot almashtirish",
+      "uchib ketish",
+      "afsuski"
+    ]
+  },
+  "a2-u4-l6.build-potrebujem-spiatocnu.prompt": {
+    "en": "I need a return ticket to Dublin.",
+    "t": "Menga Dublinga borib-kelish aviachiptasi kerak."
+  },
+  "a2-u4-l6.build-potrebujem-spiatocnu.traps": {
+    "en": [
+      "The ticket is the object of potrebujem, so the adjective ends in **-ú**: spiatočn**ú** letenku.",
+      "A ticket for a plane is a **letenka**, here as the object: letenk**u**. Lístok is for trains and buses."
+    ],
+    "t": [
+      "Chipta — potrebujem ning toʻldiruvchisi, shuning uchun sifat **-ú** bilan tugaydi: spiatočn**ú** letenku.",
+      "Samolyot chiptasi — **letenka**, bu yerda toʻldiruvchi: letenk**u**. Lístok poyezd va avtobus uchun."
+    ]
+  },
+  "a2-u4-l6.speak-na-ake-meno.en": {
+    "en": "What name should the ticket be in?",
+    "t": "Chipta kimning nomiga boʻladi?"
+  },
+  "a2-u4-l7.titleEn": {
+    "en": "At the airport",
+    "t": "Aeroportda"
+  },
+  "a2-u4-l7.letisko.en": {
+    "en": "airport",
+    "t": "aeroport"
+  },
+  "a2-u4-l7.letisko.note": {
+    "en": "On Thursday at five in the morning, Emma goes **na letisko** by taxi. At the airport: **na letisku**.",
+    "t": "Payshanba kuni ertalab soat beshda Emma taksida **na letisko** (aeroportga) boradi. Aeroportda: **na letisku**."
+  },
+  "a2-u4-l7.fill-emma-ide-na.en": {
+    "en": "Emma is going to the airport by taxi.",
+    "t": "Emma aeroportga taksida boryapti."
+  },
+  "a2-u4-l7.fill-emma-ide-na.why": {
+    "en": "How she goes: the vehicle takes the instrumental, **-om**, with no s: taxík**om**.",
+    "t": "U qanday boryapti: transport inštrumentálda, **-om** bilan, s predlogisiz keladi: taxík**om**."
+  },
+  "a2-u4-l7.grammar-one-root-let.title": {
+    "en": "One root: let- (flying)",
+    "t": "Bitta oʻzak: let- (uchish)"
+  },
+  "a2-u4-l7.grammar-one-root-let.body": {
+    "en": [
+      "Many words at the airport come from **letieť** (to fly). If you know the root, you can guess the word: **let**, **liet**adlo, **let**isko, **let**enka.",
+      "**Od-** means away and **prí-** means arriving: **od**let and **prí**let, like **od**chod and **prí**chod. The halls are named after them: **odletová hala** (departures) and **príletová hala** (arrivals)."
+    ],
+    "t": [
+      "Aeroportdagi koʻp soʻzlar **letieť** (uchmoq) dan kelib chiqqan. Oʻzakni bilsangiz, soʻz maʼnosini topa olasiz: **let**, **liet**adlo, **let**isko, **let**enka.",
+      "**Od-** «ketish», **prí-** esa «kelish» maʼnosini beradi: **od**let va **prí**let, xuddi **od**chod va **prí**chod kabi. Zallar ham shunday nomlangan: **odletová hala** (uchib ketish zali) va **príletová hala** (uchib kelish zali)."
+    ]
+  },
+  "a2-u4-l7.grammar-one-root-let.table.head": {
+    "en": [
+      "word",
+      "English"
+    ],
+    "t": [
+      "soʻz",
+      "Oʻzbekcha"
+    ]
+  },
+  "a2-u4-l7.grammar-one-root-let.table.rows": {
+    "en": [
+      [
+        "**let**ieť",
+        "to fly"
+      ],
+      [
+        "**let**",
+        "flight"
+      ],
+      [
+        "**liet**adlo",
+        "plane"
+      ],
+      [
+        "**let**isko",
+        "airport"
+      ],
+      [
+        "**let**enka",
+        "plane ticket"
+      ],
+      [
+        "**let**uška",
+        "flight attendant"
+      ],
+      [
+        "**let**ecká spoločnosť",
+        "airline"
+      ],
+      [
+        "od**let**ová / prí**let**ová hala",
+        "departures / arrivals hall"
+      ]
+    ],
+    "t": [
+      [
+        "**let**ieť",
+        "uchmoq"
+      ],
+      [
+        "**let**",
+        "parvoz, reys"
+      ],
+      [
+        "**liet**adlo",
+        "samolyot"
+      ],
+      [
+        "**let**isko",
+        "aeroport"
+      ],
+      [
+        "**let**enka",
+        "aviachipta"
+      ],
+      [
+        "**let**uška",
+        "styuardessa"
+      ],
+      [
+        "**let**ecká spoločnosť",
+        "aviakompaniya"
+      ],
+      [
+        "od**let**ová / prí**let**ová hala",
+        "uchib ketish / uchib kelish zali"
+      ]
+    ]
+  },
+  "a2-u4-l7.grammar-one-root-let.examples": {
+    "en": [
+      "I'm flying to Dublin.",
+      "The plane is at the airport.",
+      "The family is waiting in arrivals."
+    ],
+    "t": [
+      "Dublinga uchyapman.",
+      "Samolyot aeroportda.",
+      "Oila uchib kelish zalida kutyapti."
+    ]
+  },
+  "a2-u4-l7.choice-ktore-slovo-je.question": {
+    "en": "Which word is the plane?",
+    "t": "Qaysi soʻz samolyotni bildiradi?"
+  },
+  "a2-u4-l7.choice-ktore-slovo-je.why": {
+    "en": "All three come from letieť (to fly). **Lietadlo** is the plane; letisko is the airport and letenka the ticket.",
+    "t": "Uchalasi ham letieť (uchmoq) dan. **Lietadlo** — samolyot; letisko — aeroport, letenka esa aviachipta."
+  },
+  "a2-u4-l7.pas.en": {
+    "en": "passport",
+    "t": "pasport"
+  },
+  "a2-u4-l7.pas.note": {
+    "en": "Emma is Irish, so she flies with her **pas**. Slovaks often fly with an ID card, an **občiansky preukaz**.",
+    "t": "Emma — irlandiyalik, shuning uchun u **pas** (pasport) bilan uchadi. Slovaklar koʻpincha shaxsiy guvohnoma — **občiansky preukaz** bilan uchishadi."
+  },
+  "a2-u4-l7.check-in.en": {
+    "en": "check-in (desk)",
+    "t": "roʻyxatdan oʻtish (peshtaxtasi)"
+  },
+  "a2-u4-l7.check-in.note": {
+    "en": "Also called **registrácia**. At the desk: **Váš pas, prosím.**",
+    "t": "Uni **registrácia** ham deyishadi. Peshtaxtada: **Váš pas, prosím.** (Pasportingiz, iltimos.)"
+  },
+  "a2-u4-l7.fill-na-check-in-potrebujem.en": {
+    "en": "For check-in I need my passport and ticket.",
+    "t": "Roʻyxatdan oʻtish uchun menga pasport va chipta kerak."
+  },
+  "a2-u4-l7.fill-na-check-in-potrebujem.why": {
+    "en": "The passport is what you need, the object, and masculine things don't change: potrebujem **pas**.",
+    "t": "Pasport — sizga kerak boʻlgan narsa, toʻldiruvchi, erkak jinsidagi narsalar esa oʻzgarmaydi: potrebujem **pas**."
+  },
+  "a2-u4-l7.prirucna-batozina.en": {
+    "en": "hand luggage",
+    "t": "qoʻl yuki"
+  },
+  "a2-u4-l7.prirucna-batozina.note": {
+    "en": "A bigger suitcase goes in the hold, and a heavy one costs a **poplatok** (a fee): poplatok za kufor.",
+    "t": "Kattaroq chamadon yuk boʻlimiga topshiriladi, ogʻiri uchun esa **poplatok** (toʻlov) olinadi: poplatok za kufor (chamadon uchun toʻlov)."
+  },
+  "a2-u4-l7.build-musim-zaplatit-poplatok.prompt": {
+    "en": "I have to pay a fee for the suitcase.",
+    "t": "Chamadon uchun toʻlov qilishim kerak."
+  },
+  "a2-u4-l7.build-musim-zaplatit-poplatok.traps": {
+    "en": [
+      "**Za** (for) takes the object form, and a masculine thing doesn't change: za **kufor**. Kufrom is “with”.",
+      "The fee is what you pay, the object, so it stays **poplatok**."
+    ],
+    "t": [
+      "**Za** (uchun) toʻldiruvchi shaklini talab qiladi, erkak jinsidagi narsa esa oʻzgarmaydi: za **kufor**. Kufrom — «bilan».",
+      "Toʻlov — siz toʻlaydigan narsa, toʻldiruvchi, shuning uchun **poplatok** oʻzgarmaydi."
+    ]
+  },
+  "a2-u4-l7.letuska.en": {
+    "en": "flight attendant (a woman)",
+    "t": "styuardessa"
+  },
+  "a2-u4-l7.letuska.note": {
+    "en": "The **pilot** flies the plane; the letuška looks after the passengers.",
+    "t": "**pilot** (uchuvchi) samolyotni boshqaradi, letuška esa yoʻlovchilarga qaraydi."
+  },
+  "a2-u4-l7.fill-letuska-a-pilot.en": {
+    "en": "The flight attendant and the pilot work on the plane.",
+    "t": "Styuardessa va uchuvchi samolyotda ishlaydi."
+  },
+  "a2-u4-l7.fill-letuska-a-pilot.why": {
+    "en": "Where? takes the locative after **v**: neuter nouns change -o to **-e**: v lietadl**e**.",
+    "t": "«Qayerda?» **v** dan keyin lokálni talab qiladi: oʻrta jinsdagi otlarda -o **-e** ga aylanadi: v lietadl**e**."
+  },
+  "a2-u4-l7.prijemny-let.en": {
+    "en": "Have a pleasant flight!",
+    "t": "Parvozingiz yoqimli boʻlsin!"
+  },
+  "a2-u4-l7.prijemny-let.note": {
+    "en": "What the check-in staff or a friend wish you. On a train or a bus: Šťastnú cestu!",
+    "t": "Roʻyxatdan oʻtkazuvchi xodim yoki doʻstingiz shunday tilaydi. Poyezd yoki avtobusda: Šťastnú cestu! (Oq yoʻl!)"
+  },
+  "a2-u4-l7.choice-letuska-hovori.question": {
+    "en": "What does the flight attendant wish Emma as she gets on the plane?",
+    "t": "Emma samolyotga chiqayotganda styuardessa unga nima tilaydi?"
+  },
+  "a2-u4-l7.fill-emmina-rodina-caka.en": {
+    "en": "Emma's family is waiting in the arrivals hall in Dublin.",
+    "t": "Emmaning oilasi Dublinda uchib kelish zalida kutyapti."
+  },
+  "a2-u4-l7.fill-emmina-rodina-caka.why": {
+    "en": "They're waiting for Emma to arrive, so it's the arrivals hall: **príletová**, from prílet.",
+    "t": "Ular Emma uchib kelishini kutyapti, shuning uchun bu uchib kelish zali: **príletová**, prílet dan."
+  },
+  "a2-u4-l7.match-letisko.pairs": {
+    "en": [
+      "airport",
+      "plane",
+      "passport",
+      "hand luggage",
+      "departures hall"
+    ],
+    "t": [
+      "aeroport",
+      "samolyot",
+      "pasport",
+      "qoʻl yuki",
+      "uchib ketish zali"
+    ]
+  },
+  "a2-u4-l7.build-emma-caka-v.answers": {
+    "en": [
+      "Emma is waiting in the departures hall."
+    ],
+    "t": [
+      "Emma uchib ketish zalida kutyapti.",
+      "Emma uchib ketish zalida kutib turibdi."
+    ]
+  },
+  "a2-u4-l7.build-emma-caka-v.distractors": {
+    "en": [
+      "arrivals",
+      "plane"
+    ],
+    "t": [
+      "kelish",
+      "samolyotda"
+    ]
+  },
+  "a2-u4-l7.speak-prijemny-let.en": {
+    "en": "Have a pleasant flight!",
+    "t": "Parvozingiz yoqimli boʻlsin!"
+  },
+  "a2-u4-l8.titleEn": {
+    "en": "Fast and comfortably",
+    "t": "Tez va qulay"
+  },
+  "a2-u4-l8.grammar-adverbs-o-e.title": {
+    "en": "Adverbs: how you do something",
+    "t": "Ravishlar: ish qanday bajariladi"
+  },
+  "a2-u4-l8.grammar-adverbs-o-e.body": {
+    "en": [
+      "An adjective goes with a noun: **pohodlný** vlak (a comfortable train). An adverb goes with a verb and says how: cestujeme **pohodlne** (we travel comfortably).",
+      "Most adverbs swap the adjective's -ý for **-o** or **-e**. No rule says which, so learn each one as a word. You already know two with -e: dobrý → **dobre**, zlý → **zle**."
+    ],
+    "t": [
+      "Sifat ot bilan keladi: **pohodlný** vlak (qulay poyezd). Ravish feʼl bilan keladi va «qanday?» savoliga javob beradi: cestujeme **pohodlne** (qulay sayohat qilamiz). Oʻzbekchada «tez» ham sifat, ham ravish boʻla oladi; slovakchada esa soʻzning oxiri oʻzgaradi.",
+      "Koʻp ravishlarda sifatning -ý qoʻshimchasi **-o** yoki **-e** ga almashadi. Qaysi biri kelishini aytadigan qoida yoʻq, shuning uchun har birini alohida soʻz sifatida yodlang. -e bilan tugaydigan ikkitasini allaqachon bilasiz: dobrý → **dobre**, zlý → **zle**."
+    ]
+  },
+  "a2-u4-l8.grammar-adverbs-o-e.table.head": {
+    "en": [
+      "adjective",
+      "adverb",
+      "English"
+    ],
+    "t": [
+      "sifat",
+      "ravish",
+      "Oʻzbekcha"
+    ]
+  },
+  "a2-u4-l8.grammar-adverbs-o-e.table.rows": {
+    "en": [
+      [
+        "rýchl**y**",
+        "rýchl**o**",
+        "fast"
+      ],
+      [
+        "drah**ý**",
+        "drah**o**",
+        "expensive, expensively"
+      ],
+      [
+        "lacn**ý**",
+        "lacn**o**",
+        "cheap, cheaply"
+      ],
+      [
+        "dlh**ý**",
+        "dlh**o**",
+        "long, for a long time"
+      ],
+      [
+        "ďalek**ý**",
+        "ďalek**o**",
+        "far"
+      ],
+      [
+        "ťažk**ý**",
+        "ťažk**o**",
+        "heavy, hard; with difficulty"
+      ],
+      [
+        "pohodln**ý**",
+        "pohodln**e**",
+        "comfortable, comfortably"
+      ],
+      [
+        "bezpečn**ý**",
+        "bezpečn**e**",
+        "safe, safely"
+      ]
+    ],
+    "t": [
+      [
+        "rýchl**y**",
+        "rýchl**o**",
+        "tez"
+      ],
+      [
+        "drah**ý**",
+        "drah**o**",
+        "qimmat; qimmatga"
+      ],
+      [
+        "lacn**ý**",
+        "lacn**o**",
+        "arzon; arzonga"
+      ],
+      [
+        "dlh**ý**",
+        "dlh**o**",
+        "uzun; uzoq (vaqt)"
+      ],
+      [
+        "ďalek**ý**",
+        "ďalek**o**",
+        "uzoq; uzoqda"
+      ],
+      [
+        "ťažk**ý**",
+        "ťažk**o**",
+        "ogʻir, qiyin; zoʻrgʻa"
+      ],
+      [
+        "pohodln**ý**",
+        "pohodln**e**",
+        "qulay; qulay tarzda"
+      ],
+      [
+        "bezpečn**ý**",
+        "bezpečn**e**",
+        "xavfsiz; xavfsiz tarzda"
+      ]
+    ]
+  },
+  "a2-u4-l8.grammar-adverbs-o-e.examples": {
+    "en": [
+      "The IC is fast. It goes fast.",
+      "The journey is long. It takes a long time.",
+      "The train is comfortable. We travel comfortably."
+    ],
+    "t": [
+      "IC tez. U tez yuradi.",
+      "Yoʻl uzun. U uzoq davom etadi.",
+      "Poyezd qulay. Biz qulay sayohat qilamiz."
+    ]
+  },
+  "a2-u4-l8.fill-toto-kupe-je.en": {
+    "en": "This compartment is very comfortable.",
+    "t": "Bu kupe juda qulay."
+  },
+  "a2-u4-l8.fill-toto-kupe-je.why": {
+    "en": "After **je** you're describing the compartment, a noun, so use the adjective; kupé is neuter: pohodln**é**. Pohodlne would go with a verb.",
+    "t": "**je** dan keyin kupeni, yaʼni otni tasvirlayapsiz, shuning uchun sifat kerak; kupé esa oʻrta jinsda: pohodln**é**. Pohodlne feʼl bilan kelardi."
+  },
+  "a2-u4-l8.choice-cestujeme-pohodlne.question": {
+    "en": "Which sentence is right?",
+    "t": "Qaysi gap toʻgʻri?"
+  },
+  "a2-u4-l8.choice-cestujeme-pohodlne.why": {
+    "en": "It says how we travel, so it goes with the verb: the adverb **pohodlne**. Pohodlný and pohodlná go with nouns.",
+    "t": "Gap qanday sayohat qilishimiz haqida, demak soʻz feʼl bilan keladi: ravish **pohodlne**. Pohodlný va pohodlná otlar bilan keladi."
+  },
+  "a2-u4-l8.fill-taxikom-cestujeme-rychlo.en": {
+    "en": "By taxi we travel fast, but it costs a lot.",
+    "t": "Taksida tez yetamiz, lekin qimmatga tushadi."
+  },
+  "a2-u4-l8.fill-taxikom-cestujeme-rychlo.why": {
+    "en": "Like rýchlo, it says how we travel, so it's the adverb: drah**o**.",
+    "t": "rýchlo kabi, bu ham qanday sayohat qilishimizni aytadi, shuning uchun ravish: drah**o**."
+  },
+  "a2-u4-l8.build-letisko-je-daleko.prompt": {
+    "en": "The airport is far away.",
+    "t": "Aeroport uzoqda."
+  },
+  "a2-u4-l8.build-letisko-je-daleko.traps": {
+    "en": [
+      "Far away says where the airport is, not what it's like, so Slovak uses the adverb: je **ďaleko**.",
+      "The airport is the subject, so it's the basic form: **letisko**. Letisku is “where”: na letisku."
+    ],
+    "t": [
+      "«Uzoqda» aeroport qandayligini emas, qayerdaligini aytadi, shuning uchun slovakchada ravish ishlatiladi: je **ďaleko**.",
+      "Aeroport — ega, shuning uchun asosiy shakl: **letisko**. Letisku — «qayerda»: na letisku."
+    ]
+  },
+  "a2-u4-l8.fill-lucia-hovori-dobre.en": {
+    "en": "Lucia speaks English well.",
+    "t": "Lusiya inglizcha yaxshi gapiradi."
+  },
+  "a2-u4-l8.fill-lucia-hovori-dobre.why": {
+    "en": "It says how she speaks, so it's the adverb of dobrý: **dobre**.",
+    "t": "Gap uning qanday gapirishi haqida, shuning uchun dobrý ning ravishi kerak: **dobre**."
+  },
+  "a2-u4-l8.fill-moj-kufor-je.en": {
+    "en": "My suitcase is heavy; I can hardly carry it.",
+    "t": "Chamadonim ogʻir, uni zoʻrgʻa koʻtaryapman."
+  },
+  "a2-u4-l8.fill-moj-kufor-je.why": {
+    "en": "After **je**, describing the suitcase (a noun), use the adjective: ťažk**ý**. Ťažko goes with the verb: nesiem ho ťažko.",
+    "t": "**je** dan keyin chamadonni (otni) tasvirlaganda sifat kerak: ťažk**ý**. Ťažko feʼl bilan keladi: nesiem ho ťažko."
+  },
+  "a2-u4-l8.grammar-adverbs-y-soft-n.title": {
+    "en": "Adverbs in -y, and a soft ň",
+    "t": "-y bilan tugaydigan ravishlar va yumshoq ň"
+  },
+  "a2-u4-l8.grammar-adverbs-y-soft-n.body": {
+    "en": [
+      "Adjectives in **-ský** and **-cký** make adverbs in **-y**, like po slovensky. **Pomalý** does the same: **pomaly** (slowly).",
+      "The **-ne** adverbs are said with a soft ň, as if written ňe: pohodlne [pohodlňe], pekne [pekňe], pokojne [pokojňe] (calmly). In the adjective the n stays hard: pohodlný."
+    ],
+    "t": [
+      "**-ský** va **-cký** bilan tugaydigan sifatlardan ravish **-y** bilan yasaladi, xuddi po slovensky kabi. **Pomalý** ham shunday: **pomaly** (sekin).",
+      "**-ne** bilan tugaydigan ravishlar yumshoq ň bilan, xuddi ňe deb yozilgandek aytiladi: pohodlne [pohodlňe], pekne [pekňe], pokojne [pokojňe] (xotirjam). Sifatda esa n qattiq qoladi: pohodlný."
+    ]
+  },
+  "a2-u4-l8.grammar-adverbs-y-soft-n.table.head": {
+    "en": [
+      "adjective",
+      "adverb",
+      "English"
+    ],
+    "t": [
+      "sifat",
+      "ravish",
+      "Oʻzbekcha"
+    ]
+  },
+  "a2-u4-l8.grammar-adverbs-y-soft-n.table.rows": {
+    "en": [
+      [
+        "pomal**ý**",
+        "pomal**y**",
+        "slow, slowly"
+      ],
+      [
+        "slovensk**ý**",
+        "po slovensk**y**",
+        "Slovak, in Slovak"
+      ],
+      [
+        "praktick**ý**",
+        "praktick**y**",
+        "practical, practically"
+      ],
+      [
+        "optimistick**ý**",
+        "optimistick**y**",
+        "optimistic, optimistically"
+      ]
+    ],
+    "t": [
+      [
+        "pomal**ý**",
+        "pomal**y**",
+        "sekin"
+      ],
+      [
+        "slovensk**ý**",
+        "po slovensk**y**",
+        "slovak; slovakcha"
+      ],
+      [
+        "praktick**ý**",
+        "praktick**y**",
+        "amaliy; amalda"
+      ],
+      [
+        "optimistick**ý**",
+        "optimistick**y**",
+        "optimistik; optimizm bilan"
+      ]
+    ]
+  },
+  "a2-u4-l8.grammar-adverbs-y-soft-n.examples": {
+    "en": [
+      "The train is going slowly.",
+      "Tomáš sees it optimistically."
+    ],
+    "t": [
+      "Poyezd sekin ketyapti.",
+      "Tomash bunga optimizm bilan qaraydi."
+    ]
+  },
+  "a2-u4-l8.build-autobus-ide-pomaly.prompt": {
+    "en": "The bus goes slowly, but it's cheap.",
+    "t": "Avtobus sekin yuradi, lekin arzon."
+  },
+  "a2-u4-l8.build-autobus-ide-pomaly.traps": {
+    "en": [
+      "How the bus goes goes with the verb, so use the adverb: pomal**y**.",
+      "After **je**, describing the bus itself, use the adjective: lacn**ý**."
+    ],
+    "t": [
+      "Avtobus qanday yurishi feʼlga tegishli, shuning uchun ravish: pomal**y**.",
+      "**je** dan keyin avtobusning oʻzini tasvirlaganda sifat kerak: lacn**ý**."
+    ]
+  },
+  "a2-u4-l8.choice-ako-sa-povie.question": {
+    "en": "How do you say pohodlne?",
+    "t": "pohodlne qanday aytiladi?"
+  },
+  "a2-u4-l8.choice-ako-sa-povie.options": {
+    "en": [
+      "With a soft ň: [pohodlňe]",
+      "With a hard n, as in English"
+    ],
+    "t": [
+      "Yumshoq ň bilan: [pohodlňe]",
+      "Qattiq n bilan, oʻzbekchadagi kabi"
+    ]
+  },
+  "a2-u4-l8.choice-ako-sa-povie.why": {
+    "en": "Adverbs in **-ne** are said with a soft ň: pohodl**ne** sounds like [pohodlňe]. Only the adjective pohodlný keeps a hard n.",
+    "t": "**-ne** bilan tugaydigan ravishlar yumshoq ň bilan aytiladi: pohodl**ne** [pohodlňe] kabi eshitiladi. Faqat pohodlný sifati qattiq n ni saqlaydi."
+  },
+  "a2-u4-l8.fill-tomas-je-optimista.en": {
+    "en": "Tomáš is an optimist; he sees everything optimistically.",
+    "t": "Tomash — optimist, u hamma narsaga optimizm bilan qaraydi."
+  },
+  "a2-u4-l8.fill-tomas-je-optimista.why": {
+    "en": "It says how he sees things, so it's the adverb, and -cký adjectives make it with **-y**: optimistick**y**.",
+    "t": "Gap uning qanday qarashi haqida, shuning uchun ravish kerak, -cký sifatlari esa uni **-y** bilan yasaydi: optimistick**y**."
+  },
+  "a2-u4-l8.build-emma-hovori-po.answers": {
+    "en": [
+      "Emma speaks Slovak slowly but well."
+    ],
+    "t": [
+      "Emma slovakcha sekin, lekin yaxshi gapiradi.",
+      "Emma slovak tilida sekin, lekin yaxshi gapiradi.",
+      "Emma slovakcha sekin, ammo yaxshi gapiradi.",
+      "Emma slovakcha sekin gapiradi, lekin yaxshi."
+    ]
+  },
+  "a2-u4-l8.build-emma-hovori-po.distractors": {
+    "en": [
+      "fast",
+      "good"
+    ],
+    "t": [
+      "tez",
+      "yomon"
+    ]
+  },
+  "a2-u4-l8.fill-osobny-vlak-ide.en": {
+    "en": "The slow train goes very slowly.",
+    "t": "Oddiy poyezd juda sekin yuradi."
+  },
+  "a2-u4-l8.fill-osobny-vlak-ide.why": {
+    "en": "It says how the train goes, so it's the adverb, with **-y**: pomal**y**. Pomalý goes with a noun: pomalý vlak.",
+    "t": "Gap poyezd qanday yurishi haqida, shuning uchun ravish, **-y** bilan: pomal**y**. Pomalý ot bilan keladi: pomalý vlak."
+  },
+  "a2-u4-l8.speak-cestujeme-pohodlne-a.en": {
+    "en": "We travel comfortably and cheaply.",
+    "t": "Qulay va arzon sayohat qilamiz."
+  },
+  "a2-u4-l9.titleEn": {
+    "en": "Faster and fastest",
+    "t": "Tezroq va eng tez"
+  },
+  "a2-u4-l9.grammar-comparing-adverbs.title": {
+    "en": "Faster, fastest: comparing adverbs",
+    "t": "Tezroq, eng tez: ravishlarni qiyoslash"
+  },
+  "a2-u4-l9.grammar-comparing-adverbs.body": {
+    "en": [
+      "Adverbs compare like adjectives (rýchlejší, lacnejší), but end in **-ie**: rýchlo → **rýchlejšie** (faster), draho → **drahšie** (more expensively). **Naj-** in front makes the most: **najrýchlejšie** (fastest). Dlho is an exception: **dlhšie**, not dlhejšie, as dlhý → dlhší.",
+      "Compare with **ako** (than): IC-čkom cestujem rýchlejšie **ako** rýchlikom. For “as … as”, use **tak** … **ako**: Autobus ide **tak** rýchlo **ako** vlak."
+    ],
+    "t": [
+      "Ravishlar sifatlar kabi qiyoslanadi (rýchlejší, lacnejší), lekin **-ie** bilan tugaydi: rýchlo → **rýchlejšie** (tezroq), draho → **drahšie** (qimmatroq). Bu oʻzbekchadagi -roq ga oʻxshaydi. Oldiga **naj-** qoʻshilsa, «eng» degani: **najrýchlejšie** (eng tez). Dlho — istisno: dlhejšie emas, **dlhšie**, xuddi dlhý → dlhší kabi.",
+      "**ako** (…dan, …ga qaraganda) bilan qiyoslang: IC-čkom cestujem rýchlejšie **ako** rýchlikom. «…chalik» uchun **tak** … **ako** ishlating: Autobus ide **tak** rýchlo **ako** vlak."
+    ]
+  },
+  "a2-u4-l9.grammar-comparing-adverbs.table.head": {
+    "en": [
+      "",
+      "more",
+      "most"
+    ],
+    "t": [
+      "",
+      "-roq",
+      "eng"
+    ]
+  },
+  "a2-u4-l9.grammar-comparing-adverbs.table.rows": {
+    "en": [
+      [
+        "rýchlo",
+        "rýchl**ejšie**",
+        "**naj**rýchlejšie"
+      ],
+      [
+        "lacno",
+        "lacn**ejšie**",
+        "**naj**lacnejšie"
+      ],
+      [
+        "pohodlne",
+        "pohodln**ejšie**",
+        "**naj**pohodlnejšie"
+      ],
+      [
+        "draho",
+        "drah**šie**",
+        "**naj**drahšie"
+      ],
+      [
+        "pomaly",
+        "pomal**šie**",
+        "**naj**pomalšie"
+      ],
+      [
+        "dlho",
+        "dlh**šie**",
+        "**naj**dlhšie"
+      ],
+      [
+        "ťažko",
+        "ťaž**šie**",
+        "**naj**ťažšie"
+      ]
+    ],
+    "t": [
+      [
+        "rýchlo",
+        "rýchl**ejšie**",
+        "**naj**rýchlejšie"
+      ],
+      [
+        "lacno",
+        "lacn**ejšie**",
+        "**naj**lacnejšie"
+      ],
+      [
+        "pohodlne",
+        "pohodln**ejšie**",
+        "**naj**pohodlnejšie"
+      ],
+      [
+        "draho",
+        "drah**šie**",
+        "**naj**drahšie"
+      ],
+      [
+        "pomaly",
+        "pomal**šie**",
+        "**naj**pomalšie"
+      ],
+      [
+        "dlho",
+        "dlh**šie**",
+        "**naj**dlhšie"
+      ],
+      [
+        "ťažko",
+        "ťaž**šie**",
+        "**naj**ťažšie"
+      ]
+    ]
+  },
+  "a2-u4-l9.grammar-comparing-adverbs.examples": {
+    "en": [
+      "I travel faster by IC than by fast train.",
+      "By plane is fastest.",
+      "The bus goes as fast as the train."
+    ],
+    "t": [
+      "IC poyezdida tezyurar poyezddagidan tezroq yetaman.",
+      "Samolyotda eng tez.",
+      "Avtobus poyezdchalik tez yuradi."
+    ]
+  },
+  "a2-u4-l9.fill-ic-ckom-cestujeme.en": {
+    "en": "We travel faster by IC than by slow train.",
+    "t": "IC poyezdida oddiy poyezddagidan tezroq yetamiz."
+  },
+  "a2-u4-l9.fill-ic-ckom-cestujeme.why": {
+    "en": "Comparing two trains with **ako** (than) needs the comparative: rýchl**ejšie**. Naj- is for the fastest of all.",
+    "t": "**ako** (…dan) bilan ikki poyezdni qiyoslash uchun qiyosiy daraja kerak: rýchl**ejšie**. Naj- — hammasidan eng tezi uchun."
+  },
+  "a2-u4-l9.fill-autobus-ide-rychlo.en": {
+    "en": "The bus goes fast, the train even faster, and the plane flies fastest of all.",
+    "t": "Avtobus tez yuradi, poyezd undan ham tezroq, samolyot esa hammasidan tez uchadi."
+  },
+  "a2-u4-l9.fill-autobus-ide-rychlo.why": {
+    "en": "Of the three, the plane is the fastest of all, so put **naj-** in front: **naj**rýchlejšie.",
+    "t": "Uchtasidan samolyot eng tezi, shuning uchun oldiga **naj-** qoʻying: **naj**rýchlejšie."
+  },
+  "a2-u4-l9.fill-autobus-ide-tak.en": {
+    "en": "The bus goes as fast as the train.",
+    "t": "Avtobus poyezdchalik tez yuradi."
+  },
+  "a2-u4-l9.fill-autobus-ide-tak.why": {
+    "en": "With **tak … ako** (as … as), the adverb stays in its basic form: tak **rýchlo** ako.",
+    "t": "**tak … ako** (…chalik) bilan ravish asosiy shaklida qoladi: tak **rýchlo** ako."
+  },
+  "a2-u4-l9.fill-rychlik-je-pomalsi.en": {
+    "en": "The fast train is slower, but we travel more cheaply.",
+    "t": "Tezyurar poyezd sekinroq, lekin biz arzonroqqa boramiz."
+  },
+  "a2-u4-l9.fill-rychlik-je-pomalsi.why": {
+    "en": "It says how we travel, so it's the adverb, which ends in **-ie**: lacnejš**ie**. Lacnejší is the adjective.",
+    "t": "Gap qanday sayohat qilishimiz haqida, shuning uchun ravish kerak, u esa **-ie** bilan tugaydi: lacnejš**ie**. Lacnejší — sifat."
+  },
+  "a2-u4-l9.grammar-irregular-adverbs.title": {
+    "en": "Better, worse, more, less",
+    "t": "Yaxshiroq, yomonroq, koʻproq, kamroq"
+  },
+  "a2-u4-l9.grammar-irregular-adverbs.body": {
+    "en": [
+      "A few adverbs change completely, just like their adjectives: dobre → **lepšie** → **najlepšie**, zle → **horšie** → **najhoršie**.",
+      "Also veľa → **viac** (a lot → more) and málo → **menej** (little → less). And you know rád → **radšej** → **najradšej** from unit 2: Najradšej cestujem vlakom."
+    ],
+    "t": [
+      "Baʼzi ravishlar xuddi sifatlari kabi butunlay oʻzgaradi: dobre → **lepšie** → **najlepšie**, zle → **horšie** → **najhoršie**.",
+      "Yana: veľa → **viac** (koʻp → koʻproq) va málo → **menej** (kam → kamroq). rád → **radšej** → **najradšej** ni esa 2-boʻlimdan bilasiz: Najradšej cestujem vlakom."
+    ]
+  },
+  "a2-u4-l9.grammar-irregular-adverbs.table.head": {
+    "en": [
+      "",
+      "more",
+      "most"
+    ],
+    "t": [
+      "",
+      "-roq",
+      "eng"
+    ]
+  },
+  "a2-u4-l9.grammar-irregular-adverbs.table.rows": {
+    "en": [
+      [
+        "dobre",
+        "**lepšie**",
+        "**najlepšie**"
+      ],
+      [
+        "zle",
+        "**horšie**",
+        "**najhoršie**"
+      ],
+      [
+        "veľa",
+        "**viac**",
+        "**najviac**"
+      ],
+      [
+        "málo",
+        "**menej**",
+        "**najmenej**"
+      ],
+      [
+        "pekne",
+        "**krajšie**",
+        "**najkrajšie**"
+      ],
+      [
+        "ďaleko",
+        "**ďalej**",
+        "**najďalej**"
+      ],
+      [
+        "rád",
+        "**radšej**",
+        "**najradšej**"
+      ]
+    ],
+    "t": [
+      [
+        "dobre",
+        "**lepšie**",
+        "**najlepšie**"
+      ],
+      [
+        "zle",
+        "**horšie**",
+        "**najhoršie**"
+      ],
+      [
+        "veľa",
+        "**viac**",
+        "**najviac**"
+      ],
+      [
+        "málo",
+        "**menej**",
+        "**najmenej**"
+      ],
+      [
+        "pekne",
+        "**krajšie**",
+        "**najkrajšie**"
+      ],
+      [
+        "ďaleko",
+        "**ďalej**",
+        "**najďalej**"
+      ],
+      [
+        "rád",
+        "**radšej**",
+        "**najradšej**"
+      ]
+    ]
+  },
+  "a2-u4-l9.grammar-irregular-adverbs.examples": {
+    "en": [
+      "I feel better today.",
+      "I like travelling by train best."
+    ],
+    "t": [
+      "Bugun oʻzimni yaxshiroq his qilyapman.",
+      "Hammasidan koʻra poyezdda sayohat qilishni yoqtiraman."
+    ]
+  },
+  "a2-u4-l9.fill-vcera-mi-bolo.en": {
+    "en": "Yesterday I felt ill, but today I feel better.",
+    "t": "Kecha mazam yoʻq edi, bugun esa oʻzimni yaxshiroq his qilyapman."
+  },
+  "a2-u4-l9.fill-vcera-mi-bolo.why": {
+    "en": "Dobre is irregular: dobre → **lepšie**. There's no dobrejšie, and lepší is the adjective.",
+    "t": "Dobre — istisno: dobre → **lepšie**. Dobrejšie degan soʻz yoʻq, lepší esa sifat."
+  },
+  "a2-u4-l9.build-najradsej-cestujem-vlakom.prompt": {
+    "en": "I like travelling by train best.",
+    "t": "Hammasidan koʻra poyezdda sayohat qilishni yoqtiraman."
+  },
+  "a2-u4-l9.build-najradsej-cestujem-vlakom.traps": {
+    "en": [
+      "Best of all is the superlative, with naj-: **naj**radšej. Radšej means rather.",
+      "How you travel takes the instrumental: vlak**om**."
+    ],
+    "t": [
+      "«Hammasidan koʻra» — orttirma daraja, naj- bilan: **naj**radšej. Radšej — «yaxshisi», «…dan koʻra».",
+      "Qanday sayohat qilish inštrumentálda keladi: vlak**om**."
+    ]
+  },
+  "a2-u4-l9.build-lucia-hovori-lepsie.prompt": {
+    "en": "Lucia speaks English better than Marek.",
+    "t": "Lusiya inglizchani Marekdan yaxshiroq gapiradi."
+  },
+  "a2-u4-l9.build-lucia-hovori-lepsie.traps": {
+    "en": [
+      "It says how she speaks, so it's the adverb: dobre → **lepšie**. Lepší is the adjective.",
+      "Comparing with **ako** (than) needs the comparative: dobre → **lepšie**."
+    ],
+    "t": [
+      "Gap qanday gapirishi haqida, shuning uchun ravish: dobre → **lepšie**. Lepší — sifat.",
+      "**ako** (…dan) bilan qiyoslash uchun qiyosiy daraja kerak: dobre → **lepšie**."
+    ]
+  },
+  "a2-u4-l9.choice-tomas-pracuje-viac.question": {
+    "en": "Which sentence is right?",
+    "t": "Qaysi gap toʻgʻri?"
+  },
+  "a2-u4-l9.choice-tomas-pracuje-viac.why": {
+    "en": "Veľa is irregular: “more” is **viac**. There's no veľejšie, and veľa can't compare with ako.",
+    "t": "Veľa — istisno: «koʻproq» — **viac**. Veľejšie degan soʻz yoʻq, veľa esa ako bilan qiyoslanmaydi."
+  },
+  "a2-u4-l9.fill-v-bratislave-prsi.en": {
+    "en": "It rains less in Bratislava than in Dublin.",
+    "t": "Bratislavada Dublindagiga qaraganda kamroq yomgʻir yogʻadi."
+  },
+  "a2-u4-l9.fill-v-bratislave-prsi.why": {
+    "en": "Comparing with **ako** needs the comparative, and málo is irregular: málo → **menej** (less).",
+    "t": "**ako** bilan qiyoslash uchun qiyosiy daraja kerak, málo esa istisno: málo → **menej** (kamroq)."
+  },
+  "a2-u4-l9.fill-cesta-autobusom-trva.en": {
+    "en": "The journey by bus takes longer than by train.",
+    "t": "Avtobusda yoʻl poyezddagidan uzoqroq davom etadi."
+  },
+  "a2-u4-l9.fill-cesta-autobusom-trva.why": {
+    "en": "It says how long it takes, so it's the adverb, and with **ako** the comparative: dlh**šie**. Dlhší is the adjective.",
+    "t": "Gap qancha davom etishi haqida, shuning uchun ravish kerak, **ako** bilan esa qiyosiy daraja: dlh**šie**. Dlhší — sifat."
+  },
+  "a2-u4-l9.build-najhorsie-je-cakat.answers": {
+    "en": [
+      "The worst thing is waiting at the airport."
+    ],
+    "t": [
+      "Eng yomoni aeroportda kutish.",
+      "Aeroportda kutish eng yomoni.",
+      "Eng yomon narsa aeroportda kutish."
+    ]
+  },
+  "a2-u4-l9.build-najhorsie-je-cakat.distractors": {
+    "en": [
+      "best",
+      "station"
+    ],
+    "t": [
+      "yaxshisi",
+      "vokzalda"
+    ]
+  },
+  "a2-u4-l9.speak-vlakom-je-to.en": {
+    "en": "By train is the most comfortable.",
+    "t": "Poyezdda eng qulay."
+  },
+  "a2-u4-l10.titleEn": {
+    "en": "Probably, maybe, definitely",
+    "t": "Ehtimol, balki, albatta"
+  },
+  "a2-u4-l10.asi.en": {
+    "en": "probably; about",
+    "t": "ehtimol; taxminan"
+  },
+  "a2-u4-l10.asi.note": {
+    "en": "Emma is packing for Dublin. Máš všetko? – **Asi áno.** = Probably. You've met both meanings: to je asi omyl (probably a mistake) and mal asi tridsať rokov (about thirty).",
+    "t": "Emma Dublinga ketish uchun narsalarini yigʻyapti. Máš všetko? (Hammasini oldingmi?) – **Asi áno.** = Shekilli, ha. Ikkala maʼnoni ham uchratgansiz: to je asi omyl (bu, ehtimol, xato) va mal asi tridsať rokov (taxminan oʻttiz yoshda edi)."
+  },
+  "a2-u4-l10.fill-lietadlo-leti-rano.en": {
+    "en": "The plane leaves in the morning, at about seven.",
+    "t": "Samolyot ertalab, taxminan soat yettida uchadi."
+  },
+  "a2-u4-l10.fill-lietadlo-leti-rano.why": {
+    "en": "With a time, **asi** means about: asi o siedmej = at about seven.",
+    "t": "Vaqt bilan **asi** «taxminan» degani: asi o siedmej = taxminan soat yettida."
+  },
+  "a2-u4-l10.mozno.en": {
+    "en": "maybe, perhaps",
+    "t": "balki"
+  },
+  "a2-u4-l10.mozno.note": {
+    "en": "**Možno** bude v Dubline pršať. = Maybe it'll rain in Dublin.",
+    "t": "**Možno** bude v Dubline pršať. = Balki Dublinda yomgʻir yogʻar."
+  },
+  "a2-u4-l10.urcite.en": {
+    "en": "definitely, for sure",
+    "t": "albatta, aniq"
+  },
+  "a2-u4-l10.urcite.note": {
+    "en": "**Určite** ti zavolám. = I'll definitely call you. On its own, a strong yes: Určite!",
+    "t": "**Určite** ti zavolám. = Senga albatta qoʻngʻiroq qilaman. Yolgʻiz oʻzi — qatʼiy «ha»: Určite! (Albatta!)"
+  },
+  "a2-u4-l10.choice-zavolas-mi-z.question": {
+    "en": "Lucia asks: Zavoláš mi z Dublinu? Emma is sure she will. What does she say?",
+    "t": "Lusiya soʻraydi: Zavoláš mi z Dublinu? Emma qoʻngʻiroq qilishiga ishonchi komil. U nima deydi?"
+  },
+  "a2-u4-l10.choice-zavolas-mi-z.why": {
+    "en": "Being sure is **určite** (definitely). Možno is only maybe, and asi nie means probably not.",
+    "t": "Ishonch — **určite** (albatta). Možno — faqat «balki», asi nie esa «ehtimol, yoʻq»."
+  },
+  "a2-u4-l10.build-v-dubline-mozno.prompt": {
+    "en": "Maybe it'll rain in Dublin.",
+    "t": "Balki Dublinda yomgʻir yogʻar."
+  },
+  "a2-u4-l10.build-v-dubline-mozno.traps": {
+    "en": [
+      "After **bude**, use the infinitive, the -ť form: bude **pršať**. Prší is now.",
+      "Where? takes the locative after **v**: v Dublin**e**."
+    ],
+    "t": [
+      "**bude** dan keyin infinitív, yaʼni -ť shakli keladi: bude **pršať**. Prší — hozir.",
+      "«Qayerda?» **v** dan keyin lokálni talab qiladi: v Dublin**e**."
+    ]
+  },
+  "a2-u4-l10.dost.en": {
+    "en": "quite; enough",
+    "t": "ancha; yetarli"
+  },
+  "a2-u4-l10.dost.note": {
+    "en": "Before an adjective or an adverb it means quite: **dosť ďaleko** = quite far. On its own, enough: To je dosť.",
+    "t": "Sifat yoki ravish oldida «ancha» degani: **dosť ďaleko** = ancha uzoq. Yolgʻiz oʻzi — «yetarli»: To je dosť. (Shu yetarli.)"
+  },
+  "a2-u4-l10.malo.en": {
+    "en": "little, not much",
+    "t": "kam, oz"
+  },
+  "a2-u4-l10.malo.note": {
+    "en": "The opposite of veľa: **málo spím** = I don't sleep much.",
+    "t": "veľa (koʻp) ning teskarisi: **málo spím** = kam uxlayman."
+  },
+  "a2-u4-l10.fill-letisko-je-dost.en": {
+    "en": "The airport is quite far, so I'll go by taxi.",
+    "t": "Aeroport ancha uzoq, taksida boraman."
+  },
+  "a2-u4-l10.fill-letisko-je-dost.why": {
+    "en": "Before an adverb, **dosť** means quite: dosť ďaleko = quite far. Málo and veľa say how much.",
+    "t": "Ravish oldida **dosť** «ancha» degani: dosť ďaleko = ancha uzoq. Málo va veľa «qancha»ligini bildiradi."
+  },
+  "a2-u4-l10.fill-emma-je-unavena.en": {
+    "en": "Emma is tired because she didn't sleep much last night.",
+    "t": "Emma charchagan, chunki kechasi kam uxladi."
+  },
+  "a2-u4-l10.fill-emma-je-unavena.why": {
+    "en": "She's tired, so she didn't sleep much: **málo** (little). Veľa and dosť would mean she slept well.",
+    "t": "U charchagan, demak kam uxlagan: **málo** (kam). Veľa va dosť u yaxshi uxlaganini bildirardi."
+  },
+  "a2-u4-l10.skoro-a-neskoro.en": {
+    "en": "early and late",
+    "t": "erta va kech"
+  },
+  "a2-u4-l10.skoro-a-neskoro.note": {
+    "en": "**Zajtra musím vstávať skoro.** = I have to get up early tomorrow. **Je neskoro.** = It's late.",
+    "t": "**Zajtra musím vstávať skoro.** = Ertaga erta turishim kerak. **Je neskoro.** = Kech boʻldi."
+  },
+  "a2-u4-l10.nacas.en": {
+    "en": "on time",
+    "t": "oʻz vaqtida"
+  },
+  "a2-u4-l10.nacas.note": {
+    "en": "Lietadlo letí **načas**. = The plane is on time. The opposite: mešká.",
+    "t": "Lietadlo letí **načas**. = Samolyot oʻz vaqtida uchadi. Teskarisi: mešká (kechikyapti)."
+  },
+  "a2-u4-l10.choice-je-neskoro-autobus.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "a2-u4-l10.choice-je-neskoro-autobus.options": {
+    "en": [
+      "It's early; the bus probably isn't here yet.",
+      "It's late, but the bus is definitely coming.",
+      "It's late; the bus probably isn't running any more."
+    ],
+    "t": [
+      "Hali erta, avtobus, ehtimol, hali kelmagan.",
+      "Kech boʻldi, lekin avtobus albatta keladi.",
+      "Kech boʻldi, avtobus, ehtimol, endi qatnamaydi."
+    ]
+  },
+  "a2-u4-l10.build-vlak-pride-nacas.prompt": {
+    "en": "The train will arrive on time.",
+    "t": "Poyezd oʻz vaqtida keladi."
+  },
+  "a2-u4-l10.build-vlak-pride-nacas.traps": {
+    "en": [
+      "On time is **načas**; neskoro means late.",
+      "It hasn't arrived yet: **príde** points to the future. Prišiel is the past."
+    ],
+    "t": [
+      "«Oʻz vaqtida» — **načas**; neskoro «kech» degani.",
+      "Poyezd hali kelmagan: **príde** kelasi zamonni bildiradi. Prišiel — oʻtgan zamon."
+    ]
+  },
+  "a2-u4-l10.build-emma-leti-naspat.prompt": {
+    "en": "Emma is flying back on Monday.",
+    "t": "Emma dushanba kuni qaytib uchadi."
+  },
+  "a2-u4-l10.build-emma-leti-naspat.traps": {
+    "en": [
+      "Emma is ona, so the verb has no ending: **letí**. Letím is ja.",
+      "Monday is **pondelok**; utorok is Tuesday."
+    ],
+    "t": [
+      "Emma — ona (u), shuning uchun feʼl shaxs qoʻshimchasisiz: **letí**. Letím — ja (men).",
+      "Dushanba — **pondelok**; utorok — seshanba."
+    ]
+  },
+  "a2-u4-l10.match-asi-mozno.pairs": {
+    "en": [
+      "probably",
+      "maybe",
+      "definitely",
+      "quite, enough",
+      "not much"
+    ],
+    "t": [
+      "ehtimol",
+      "balki",
+      "albatta",
+      "ancha, yetarli",
+      "kam"
+    ]
+  },
+  "a2-u4-l10.build-zajtra-musim-vstavat.answers": {
+    "en": [
+      "Tomorrow I have to get up early.",
+      "I have to get up early tomorrow."
+    ],
+    "t": [
+      "Ertaga erta turishim kerak.",
+      "Ertaga men erta turishim kerak.",
+      "Men ertaga erta turishim kerak."
+    ]
+  },
+  "a2-u4-l10.build-zajtra-musim-vstavat.distractors": {
+    "en": [
+      "late",
+      "today"
+    ],
+    "t": [
+      "kech",
+      "bugun"
+    ]
+  },
+  "a2-u4-l10.speak-urcite-pridem-nacas.en": {
+    "en": "I'll definitely be on time!",
+    "t": "Albatta oʻz vaqtida kelaman!"
+  },
+  "a2-u4-l11.titleEn": {
+    "en": "Someone who travels",
+    "t": "Sayohat qiladigan odam"
+  },
+  "a2-u4-l11.grammar-ktory-who-which.title": {
+    "en": "Ktorý: who, which, that",
+    "t": "Ktorý: ikki gapni bogʻlash"
+  },
+  "a2-u4-l11.grammar-ktory-who-which.body": {
+    "en": [
+      "You know ktorý? as a question: which one? It also joins two sentences into one: Sprievodca je muž. Kontroluje lístky. → Sprievodca je muž, **ktorý** kontroluje (checks) lístky. A comma always comes before it.",
+      "Ktorý takes the gender and number of the noun it's about: **ktorý**, **ktorá**, **ktoré**. In the plural it's **ktorí** for men or a mixed group, and **ktoré** for everything else."
+    ],
+    "t": [
+      "ktorý? ni savol sifatida bilasiz: qaysi biri? U ikki gapni bitta gapga ham bogʻlaydi: Sprievodca je muž. Kontroluje lístky. → Sprievodca je muž, **ktorý** kontroluje (tekshiradi) lístky. Oʻzbekchada buni sifatdosh bilan aytamiz: «chiptalarni tekshiradigan odam». Ktorý oldida doim vergul turadi.",
+      "Ktorý oʻzi bogʻlangan otning jinsi va sonini oladi: **ktorý**, **ktorá**, **ktoré**. Koʻplikda erkaklar yoki aralash guruh uchun **ktorí**, qolgan hamma narsa uchun **ktoré**."
+    ]
+  },
+  "a2-u4-l11.grammar-ktory-who-which.table.head": {
+    "en": [
+      "",
+      "one",
+      "more than one"
+    ],
+    "t": [
+      "",
+      "bitta",
+      "bir nechta"
+    ]
+  },
+  "a2-u4-l11.grammar-ktory-who-which.table.rows": {
+    "en": [
+      [
+        "men",
+        "muž, **ktorý**…",
+        "muži, **ktorí**…"
+      ],
+      [
+        "things (he)",
+        "vlak, **ktorý**…",
+        "vlaky, **ktoré**…"
+      ],
+      [
+        "women, things (she)",
+        "žena, **ktorá**…",
+        "ženy, **ktoré**…"
+      ],
+      [
+        "it",
+        "miesto, **ktoré**…",
+        "miesta, **ktoré**…"
+      ]
+    ],
+    "t": [
+      [
+        "erkaklar",
+        "muž, **ktorý**…",
+        "muži, **ktorí**…"
+      ],
+      [
+        "narsalar (erkak jinsi)",
+        "vlak, **ktorý**…",
+        "vlaky, **ktoré**…"
+      ],
+      [
+        "ayollar, narsalar (ayol jinsi)",
+        "žena, **ktorá**…",
+        "ženy, **ktoré**…"
+      ],
+      [
+        "oʻrta jins",
+        "miesto, **ktoré**…",
+        "miesta, **ktoré**…"
+      ]
+    ]
+  },
+  "a2-u4-l11.grammar-ktory-who-which.examples": {
+    "en": [
+      "A steward is a man who works on a plane.",
+      "That's the train that goes to Košice.",
+      "A conductor is a man who checks tickets."
+    ],
+    "t": [
+      "Styuard — samolyotda ishlaydigan erkak.",
+      "Bu Koshitsega boradigan poyezd.",
+      "Konduktor — chiptalarni tekshiradigan erkak."
+    ]
+  },
+  "a2-u4-l11.fill-letuska-je-zena.en": {
+    "en": "A flight attendant is a woman who works on a plane.",
+    "t": "Styuardessa — samolyotda ishlaydigan ayol."
+  },
+  "a2-u4-l11.fill-letuska-je-zena.why": {
+    "en": "Ktorý takes the gender of its noun: žena is feminine, so **ktorá**.",
+    "t": "Ktorý oʻz otining jinsini oladi: žena ayol jinsida, shuning uchun **ktorá**."
+  },
+  "a2-u4-l11.fill-kde-je-vlak.en": {
+    "en": "Where's the train that goes to Bratislava?",
+    "t": "Bratislavaga boradigan poyezd qayerda?"
+  },
+  "a2-u4-l11.fill-kde-je-vlak.why": {
+    "en": "Vlak is a masculine thing, so **ktorý**. Ktorí is only for a group of people with a man in it.",
+    "t": "Vlak — erkak jinsidagi narsa, shuning uchun **ktorý**. Ktorí faqat ichida erkak boʻlgan odamlar guruhi uchun."
+  },
+  "a2-u4-l11.cestujuci.en": {
+    "en": "passenger (a man)",
+    "t": "yoʻlovchi (erkak)"
+  },
+  "a2-u4-l11.cestujuci.note": {
+    "en": "It works like an adjective, and the plural looks the same: cestujúci, **ktorí** čakajú = passengers who are waiting.",
+    "t": "U sifat kabi oʻzgaradi, koʻpligi ham xuddi shunday koʻrinadi: cestujúci, **ktorí** čakajú = kutayotgan yoʻlovchilar."
+  },
+  "a2-u4-l11.fill-cestujuci-ktori-nemaju.en": {
+    "en": "Passengers who don't have tickets must pay a fine.",
+    "t": "Chiptasi yoʻq yoʻlovchilar jarima toʻlashi kerak."
+  },
+  "a2-u4-l11.fill-cestujuci-ktori-nemaju.why": {
+    "en": "These cestujúci are many people, men or mixed (the verb is nemajú), so the plural is **ktorí**.",
+    "t": "Bu yerda cestujúci — koʻp odamlar, erkaklar yoki aralash guruh (feʼl — nemajú), shuning uchun koʻplik **ktorí**."
+  },
+  "a2-u4-l11.choice-je-to-zena.question": {
+    "en": "Who is this?",
+    "t": "Bu kim?"
+  },
+  "a2-u4-l11.build-emma-ma-kamarata.prompt": {
+    "en": "Emma has a friend who lives in Košice.",
+    "t": "Emmaning Koshitseda yashaydigan doʻsti bor."
+  },
+  "a2-u4-l11.build-emma-ma-kamarata.traps": {
+    "en": [
+      "The friend is a man, kamarát, so it's **ktorý**.",
+      "Košice is plural, and living there is the locative: v Košic**iach**."
+    ],
+    "t": [
+      "Doʻst — erkak, kamarát, shuning uchun **ktorý**.",
+      "Košice — koʻplikda, u yerda yashash esa lokál: v Košic**iach**."
+    ]
+  },
+  "a2-u4-l11.choice-letusky-nemaju-rady.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "a2-u4-l11.choice-letusky-nemaju-rady.options": {
+    "en": [
+      "Flight attendants don't listen to the passengers.",
+      "Flight attendants don't like passengers who don't listen.",
+      "Passengers don't like flight attendants who don't listen."
+    ],
+    "t": [
+      "Styuardessalar yoʻlovchilarning gapiga quloq solmaydi.",
+      "Styuardessalar gapga quloq solmaydigan yoʻlovchilarni yoqtirmaydi.",
+      "Yoʻlovchilar gapga quloq solmaydigan styuardessalarni yoqtirmaydi."
+    ]
+  },
+  "a2-u4-l11.choice-letusky-nemaju-rady.why": {
+    "en": "**Ktorí** goes back to cestujúcich, the people just before it: the passengers are the ones who don't listen.",
+    "t": "**Ktorí** oʻzidan oldingi cestujúcich (yoʻlovchilar) ga qaytadi: quloq solmaydiganlar — yoʻlovchilar."
+  },
+  "a2-u4-l11.build-letusky-ktore-pracuju.prompt": {
+    "en": "The flight attendants who work on this plane are from Slovakia.",
+    "t": "Bu samolyotda ishlaydigan styuardessalar Slovakiyadan."
+  },
+  "a2-u4-l11.build-letusky-ktore-pracuju.traps": {
+    "en": [
+      "Letušky are women, so the plural is **ktoré**. Ktorí is only for men or a mixed group.",
+      "The flight attendants are oni, so the verb ends in **-ú**: pracuj**ú**."
+    ],
+    "t": [
+      "Letušky — ayollar, shuning uchun koʻplik **ktoré**. Ktorí faqat erkaklar yoki aralash guruh uchun.",
+      "Styuardessalar — oni (ular), shuning uchun feʼl **-ú** bilan tugaydi: pracuj**ú**."
+    ]
+  },
+  "a2-u4-l11.grammar-ktory-other-cases.title": {
+    "en": "Ktorý as an object, or after v, na, s",
+    "t": "Ktorý toʻldiruvchi sifatida yoki v, na, s dan keyin"
+  },
+  "a2-u4-l11.grammar-ktory-other-cases.body": {
+    "en": [
+      "Inside its own part of the sentence, ktorý can be the object or follow a preposition. Then it changes like an adjective: letenka, **ktorú** som kúpila (the ticket I bought); mesto, **v ktorom** bývam (the town I live in); vlak, **ktorým** cestujem (the train I travel by).",
+      "As an object, a masculine thing keeps **ktorý**: kufor, ktorý hľadám. For a man it's **ktorého**: kamarát, **ktorého** hľadám."
+    ],
+    "t": [
+      "Oʻz qismida ktorý toʻldiruvchi boʻlishi yoki predlogdan keyin kelishi mumkin. Unda u sifat kabi oʻzgaradi: letenka, **ktorú** som kúpila (men sotib olgan chipta); mesto, **v ktorom** bývam (men yashaydigan shahar); vlak, **ktorým** cestujem (men yuradigan poyezd).",
+      "Toʻldiruvchi sifatida erkak jinsidagi narsa **ktorý** ni saqlaydi: kufor, ktorý hľadám (men qidirayotgan chamadon). Erkak kishi uchun esa **ktorého**: kamarát, **ktorého** hľadám."
+    ]
+  },
+  "a2-u4-l11.grammar-ktory-other-cases.table.head": {
+    "en": [
+      "",
+      "masculine",
+      "feminine",
+      "neuter"
+    ],
+    "t": [
+      "",
+      "erkak jinsi",
+      "ayol jinsi",
+      "oʻrta jins"
+    ]
+  },
+  "a2-u4-l11.grammar-ktory-other-cases.table.rows": {
+    "en": [
+      [
+        "object (koho? čo?)",
+        "ktorý · ktorého (men)",
+        "ktorú",
+        "ktoré"
+      ],
+      [
+        "where? (v, na)",
+        "v ktorom",
+        "v ktorej",
+        "v ktorom"
+      ],
+      [
+        "by, with (s)",
+        "ktorým",
+        "ktorou",
+        "ktorým"
+      ]
+    ],
+    "t": [
+      [
+        "toʻldiruvchi (koho? čo?)",
+        "ktorý · ktorého (erkak kishi)",
+        "ktorú",
+        "ktoré"
+      ],
+      [
+        "qayerda? (v, na)",
+        "v ktorom",
+        "v ktorej",
+        "v ktorom"
+      ],
+      [
+        "vosita, bilan (s)",
+        "ktorým",
+        "ktorou",
+        "ktorým"
+      ]
+    ]
+  },
+  "a2-u4-l11.grammar-ktory-other-cases.examples": {
+    "en": [
+      "That's the ticket I bought.",
+      "Žilina is the town where Lucia's family lives.",
+      "The IC is the train Tomáš travels on."
+    ],
+    "t": [
+      "Bu men sotib olgan chipta.",
+      "Jilina — Lusiyaning oilasi yashaydigan shahar.",
+      "IC — Tomash qatnaydigan poyezd."
+    ]
+  },
+  "a2-u4-l11.fill-kde-je-ta.en": {
+    "en": "Where's the ticket I bought yesterday?",
+    "t": "Kecha sotib olgan chiptam qayerda?"
+  },
+  "a2-u4-l11.fill-kde-je-ta.why": {
+    "en": "In its own part, the ticket is what I bought, the object, so ktorá changes to **ktorú**, just like letenka → letenku.",
+    "t": "Oʻz qismida chipta — men sotib olgan narsa, toʻldiruvchi, shuning uchun ktorá **ktorú** ga aylanadi, xuddi letenka → letenku kabi."
+  },
+  "a2-u4-l11.fill-listky-ktore-som.en": {
+    "en": "The tickets I bought are in my e-mail.",
+    "t": "Sotib olgan chiptalarim elektron pochtamda."
+  },
+  "a2-u4-l11.fill-listky-ktore-som.why": {
+    "en": "Lístky are things in the plural, so it's **ktoré**. Ktorí is only for men or a mixed group, and ktorá is one woman or feminine thing.",
+    "t": "Lístky — koʻplikdagi narsalar, shuning uchun **ktoré**. Ktorí faqat erkaklar yoki aralash guruh uchun, ktorá esa bitta ayol yoki ayol jinsidagi narsa uchun."
+  },
+  "a2-u4-l11.fill-cakaren-je-miesto.en": {
+    "en": "The waiting room is the place where passengers wait.",
+    "t": "Kutish zali — yoʻlovchilar kutadigan joy."
+  },
+  "a2-u4-l11.fill-cakaren-je-miesto.why": {
+    "en": "After **v** (where?), ktorý takes the locative, and miesto is neuter: v **ktorom**, like v novom meste.",
+    "t": "**v** (qayerda?) dan keyin ktorý lokálga oʻtadi, miesto esa oʻrta jinsda: v **ktorom**, xuddi v novom meste kabi."
+  },
+  "a2-u4-l11.build-tomas-cestuje-vlakom.prompt": {
+    "en": "Tomáš travels on the train that leaves at five.",
+    "t": "Tomash soat beshda joʻnaydigan poyezdda ketadi."
+  },
+  "a2-u4-l11.build-tomas-cestuje-vlakom.traps": {
+    "en": [
+      "In its own part, the train is the subject (it leaves), so **ktorý** stays as it is.",
+      "How he travels takes the instrumental: vlak**om**."
+    ],
+    "t": [
+      "Oʻz qismida poyezd — ega (u joʻnaydi), shuning uchun **ktorý** oʻzgarmaydi.",
+      "Qanday ketishi inštrumentálda keladi: vlak**om**."
+    ]
+  },
+  "a2-u4-l11.fill-to-je-tomas.en": {
+    "en": "That's Tomáš, who we're waiting for.",
+    "t": "Mana, biz kutayotgan Tomash."
+  },
+  "a2-u4-l11.fill-to-je-tomas.why": {
+    "en": "Čakať na takes the object form, and for a man ktorý becomes **ktorého**: na **ktorého** čakáme.",
+    "t": "Čakať na toʻldiruvchi shaklini talab qiladi, erkak kishi uchun esa ktorý **ktorého** ga aylanadi: na **ktorého** čakáme."
+  },
+  "a2-u4-l11.build-kufor-ktory-som.answers": {
+    "en": [
+      "The suitcase I was looking for is in the compartment."
+    ],
+    "t": [
+      "Men qidirgan chamadon kupeda.",
+      "Men qidirayotgan chamadon kupeda.",
+      "Qidirgan chamadonim kupeda."
+    ]
+  },
+  "a2-u4-l11.build-kufor-ktory-som.distractors": {
+    "en": [
+      "station",
+      "found"
+    ],
+    "t": [
+      "vokzalda",
+      "topgan"
+    ]
+  },
+  "a2-u4-l11.speak-to-je-vlak.en": {
+    "en": "That's the train that's late.",
+    "t": "Mana shu kechikayotgan poyezd."
+  },
+  "a2-u4-l12.titleEn": {
+    "en": "The way to work",
+    "t": "Ishga yoʻl"
+  },
+  "a2-u4-l12.pracovat-z-domu.en": {
+    "en": "to work from home",
+    "t": "uydan turib ishlamoq"
+  },
+  "a2-u4-l12.pracovat-z-domu.note": {
+    "en": "Tomáš lives in Košice, but his company is in Bratislava. Most days he **pracuje z domu**.",
+    "t": "Tomash Koshitseda yashaydi, firmasi esa Bratislavada. Koʻp kunlari u **pracuje z domu** (uydan turib ishlaydi)."
+  },
+  "a2-u4-l12.vacsinou.en": {
+    "en": "mostly, most of the time",
+    "t": "koʻpincha, asosan"
+  },
+  "a2-u4-l12.vacsinou.note": {
+    "en": "**Väčšinou** pracujem z domu. = Most days I work from home.",
+    "t": "**Väčšinou** pracujem z domu. = Koʻpincha uydan turib ishlayman."
+  },
+  "a2-u4-l12.choice-tomas-vacsinou-pracuje.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "a2-u4-l12.choice-tomas-vacsinou-pracuje.options": {
+    "en": [
+      "Tomáš works from home most of the time.",
+      "Tomáš never works from home.",
+      "Tomáš works from home at the weekend."
+    ],
+    "t": [
+      "Tomash koʻpincha uydan turib ishlaydi.",
+      "Tomash hech qachon uydan turib ishlamaydi.",
+      "Tomash dam olish kunlari uydan turib ishlaydi."
+    ]
+  },
+  "a2-u4-l12.dvakrat-tyzdenne.en": {
+    "en": "twice a week",
+    "t": "haftasiga ikki marta"
+  },
+  "a2-u4-l12.dvakrat-tyzdenne.note": {
+    "en": "**raz** týždenne = once a week, **trikrát** = three times. Tomáš goes to the office dvakrát týždenne: on Tuesday and Thursday.",
+    "t": "**raz** týždenne = haftasiga bir marta, **trikrát** = uch marta. Tomash ofisga dvakrát týždenne boradi: seshanba va payshanba kunlari."
+  },
+  "a2-u4-l12.fill-do-bratislavy-cestuje.en": {
+    "en": "Tomáš travels to Bratislava twice a week.",
+    "t": "Tomash Bratislavaga haftasiga ikki marta boradi."
+  },
+  "a2-u4-l12.fill-do-bratislavy-cestuje.why": {
+    "en": "How many times is **-krát**: raz, dva**krát**, tri**krát**. Dva and dve count things: dva vlaky.",
+    "t": "Necha marta — **-krát**: raz, dva**krát**, tri**krát**. Dva va dve narsalarni sanaydi: dva vlaky."
+  },
+  "a2-u4-l12.dochadzat-do-prace.en": {
+    "en": "to commute (to work)",
+    "t": "ishga qatnamoq"
+  },
+  "a2-u4-l12.dochadzat-do-prace.note": {
+    "en": "Tomáš **dochádza** do práce IC-čkom: about five hours each way.",
+    "t": "Tomash **dochádza** do práce IC-čkom — ishga IC poyezdida qatnaydi: bir tomonga taxminan besh soat."
+  },
+  "a2-u4-l12.build-tomas-dochadza-do.prompt": {
+    "en": "Tomáš commutes to work by train.",
+    "t": "Tomash ishga poyezdda qatnaydi."
+  },
+  "a2-u4-l12.build-tomas-dochadza-do.traps": {
+    "en": [
+      "How he travels takes the instrumental: vlak**om**.",
+      "Tomáš is on, so the verb has no ending: **dochádza**. Dochádzam is ja."
+    ],
+    "t": [
+      "Qanday qatnashi inštrumentálda keladi: vlak**om**.",
+      "Tomash — on (u), shuning uchun feʼl shaxs qoʻshimchasisiz: **dochádza**. Dochádzam — ja (men)."
+    ]
+  },
+  "a2-u4-l12.notebook.en": {
+    "en": "laptop",
+    "t": "noutbuk"
+  },
+  "a2-u4-l12.notebook.note": {
+    "en": "Vo vlaku pracuje **na notebooku**. = On the train he works on his laptop.",
+    "t": "Vo vlaku pracuje **na notebooku**. = Poyezdda noutbukda ishlaydi."
+  },
+  "a2-u4-l12.fill-vo-vlaku-tomas.en": {
+    "en": "On the train Tomáš works on his laptop.",
+    "t": "Poyezdda Tomash noutbukda ishlaydi."
+  },
+  "a2-u4-l12.fill-vo-vlaku-tomas.why": {
+    "en": "**Na** + where? takes the locative, and after k the ending is **-u**: na notebook**u**.",
+    "t": "**Na** + «qayerda?» lokálni talab qiladi, k dan keyin esa qoʻshimcha **-u**: na notebook**u**."
+  },
+  "a2-u4-l12.choice-cesta-ic-ckom.question": {
+    "en": "How long does Tomáš's journey take?",
+    "t": "Tomashning yoʻli qancha vaqt oladi?"
+  },
+  "a2-u4-l12.choice-cesta-ic-ckom.options": {
+    "en": [
+      "Exactly five hours",
+      "About five hours",
+      "About two hours"
+    ],
+    "t": [
+      "Roppa-rosa besh soat",
+      "Taxminan besh soat",
+      "Taxminan ikki soat"
+    ]
+  },
+  "a2-u4-l12.choice-cesta-ic-ckom.why": {
+    "en": "**Asi** with a number means about: asi päť hodín = about five hours.",
+    "t": "Son bilan **asi** «taxminan» degani: asi päť hodín = taxminan besh soat."
+  },
+  "a2-u4-l12.sluzobna-cesta.en": {
+    "en": "business trip",
+    "t": "xizmat safari"
+  },
+  "a2-u4-l12.sluzobna-cesta.note": {
+    "en": "This Friday, Tomáš ide **na služobnú cestu** do Viedne (to Vienna).",
+    "t": "Shu juma Tomash Venaga (do Viedne) **na služobnú cestu** — xizmat safariga boradi."
+  },
+  "a2-u4-l12.fill-v-piatok-ide.en": {
+    "en": "On Friday Tomáš is going on a business trip to Vienna.",
+    "t": "Juma kuni Tomash Venaga xizmat safariga boradi."
+  },
+  "a2-u4-l12.fill-v-piatok-ide.why": {
+    "en": "**Ísť na** + the object form: cesta → na služobnú cest**u**.",
+    "t": "**Ísť na** + toʻldiruvchi shakli: cesta → na služobnú cest**u**."
+  },
+  "a2-u4-l12.fill-rano-pije-tomas.en": {
+    "en": "In the morning Tomáš has a coffee in the station hall.",
+    "t": "Ertalab Tomash vokzal zalida qahva ichadi."
+  },
+  "a2-u4-l12.fill-rano-pije-tomas.why": {
+    "en": "Where? takes the locative after **v**: feminine -a becomes **-e**: v staničnej hal**e**, like v Bratislave.",
+    "t": "«Qayerda?» **v** dan keyin lokálni talab qiladi: ayol jinsidagi -a **-e** ga aylanadi: v staničnej hal**e**, xuddi v Bratislave kabi."
+  },
+  "a2-u4-l12.zastavka.en": {
+    "en": "stop (bus, tram)",
+    "t": "bekat (avtobus, tramvay)"
+  },
+  "a2-u4-l12.zastavka.note": {
+    "en": "From the station Tomáš goes to the office by tram. He buys a **lístok na električku** from the machine (**automat**) or in the app, and waits **na zastávke**.",
+    "t": "Vokzaldan ofisga Tomash tramvayda boradi. U tramvay chiptasini — **lístok na električku** — avtomatdan (**automat**) yoki ilovadan oladi va **na zastávke** (bekatda) kutadi."
+  },
+  "a2-u4-l12.build-kde-kupim-listok.prompt": {
+    "en": "Where can I buy a tram ticket?",
+    "t": "Tramvay chiptasini qayerdan olsam boʻladi?"
+  },
+  "a2-u4-l12.build-kde-kupim-listok.traps": {
+    "en": [
+      "A ticket for the tram is **lístok na** + the object form: na električk**u**.",
+      "You're asking about yourself, ja, so the verb ends in **-m**: kúpi**m**."
+    ],
+    "t": [
+      "Tramvay chiptasi — **lístok na** + toʻldiruvchi shakli: na električk**u**.",
+      "Oʻzingiz haqingizda, ja, soʻrayapsiz, shuning uchun feʼl **-m** bilan tugaydi: kúpi**m**."
+    ]
+  },
+  "a2-u4-l12.fill-tomas-caka-na.en": {
+    "en": "Tomáš is waiting for the tram at the stop outside the station.",
+    "t": "Tomash vokzal oldidagi bekatda tramvay kutyapti."
+  },
+  "a2-u4-l12.fill-tomas-caka-na.why": {
+    "en": "Where? takes the locative after **na**: feminine -a becomes **-e**: na zastávk**e**.",
+    "t": "«Qayerda?» **na** dan keyin lokálni talab qiladi: ayol jinsidagi -a **-e** ga aylanadi: na zastávk**e**."
+  },
+  "a2-u4-l12.match-cesta-do-prace.pairs": {
+    "en": [
+      "mostly",
+      "twice a week",
+      "business trip",
+      "laptop",
+      "to work from home"
+    ],
+    "t": [
+      "koʻpincha",
+      "haftasiga ikki marta",
+      "xizmat safari",
+      "noutbuk",
+      "uydan turib ishlamoq"
+    ]
+  },
+  "a2-u4-l12.speak-vacsinou-pracujem-z.en": {
+    "en": "Most days I work from home.",
+    "t": "Koʻpincha uydan turib ishlayman."
+  },
+  "a2-u4-l13.titleEn": {
+    "en": "Because, or so?",
+    "t": "Chunki yoki shuning uchun?"
+  },
+  "a2-u4-l13.grammar-lebo-preto.title": {
+    "en": "Because and so: lebo, preto",
+    "t": "Chunki va shuning uchun: lebo, preto"
+  },
+  "a2-u4-l13.grammar-lebo-preto.body": {
+    "en": [
+      "You know **pretože** (because). **Lebo** means the same and is more everyday. Both bring the cause, and answer **Prečo?**: Prečo pracuje Tomáš z domu? – **Lebo** býva v Košiciach.",
+      "**Preto** (so, that's why) goes the other way: first the cause, then preto and what follows from it: Býva v Košiciach, **preto** pracuje z domu. Swap the halves, and lebo becomes preto."
+    ],
+    "t": [
+      "**pretože** (chunki) ni bilasiz. **Lebo** ham xuddi shu maʼnoda, faqat kundalik nutqda koʻproq ishlatiladi. Ikkalasi ham sababni bildiradi va **Prečo?** (Nega?) savoliga javob beradi: Prečo pracuje Tomáš z domu? – **Lebo** býva v Košiciach.",
+      "**Preto** (shuning uchun) teskari yoʻnalishda ishlaydi: avval sabab, keyin preto va undan kelib chiqadigan natija: Býva v Košiciach, **preto** pracuje z domu. Xuddi oʻzbekchadagi «chunki» va «shuning uchun» kabi. Qismlarning oʻrnini almashtirsangiz, lebo preto ga aylanadi."
+    ]
+  },
+  "a2-u4-l13.grammar-lebo-preto.table.head": {
+    "en": [
+      "cause, preto, result",
+      "result, lebo, cause"
+    ],
+    "t": [
+      "sabab, preto, natija",
+      "natija, lebo, sabab"
+    ]
+  },
+  "a2-u4-l13.grammar-lebo-preto.table.rows": {
+    "en": [
+      [
+        "Býva v Košiciach, **preto** pracuje z domu.",
+        "Pracuje z domu, **lebo** býva v Košiciach."
+      ],
+      [
+        "IC-čko bolo drahé, **preto** išli rýchlikom.",
+        "Išli rýchlikom, **lebo** IC-čko bolo drahé."
+      ],
+      [
+        "Vlak meškal, **preto** prišli neskoro.",
+        "Prišli neskoro, **lebo** vlak meškal."
+      ]
+    ],
+    "t": [
+      [
+        "Býva v Košiciach, **preto** pracuje z domu.",
+        "Pracuje z domu, **lebo** býva v Košiciach."
+      ],
+      [
+        "IC-čko bolo drahé, **preto** išli rýchlikom.",
+        "Išli rýchlikom, **lebo** IC-čko bolo drahé."
+      ],
+      [
+        "Vlak meškal, **preto** prišli neskoro.",
+        "Prišli neskoro, **lebo** vlak meškal."
+      ]
+    ]
+  },
+  "a2-u4-l13.grammar-lebo-preto.examples": {
+    "en": [
+      "Why is Tomáš going to Bratislava? – Because he has a meeting.",
+      "Lucia didn't have her card, so she had to pay a fine."
+    ],
+    "t": [
+      "Tomash nega Bratislavaga boryapti? – Chunki uning yigʻilishi bor.",
+      "Lusiyada guvohnomasi yoʻq edi, shuning uchun jarima toʻlashiga toʻgʻri keldi."
+    ]
+  },
+  "a2-u4-l13.fill-tomas-nikdy-nemeska.en": {
+    "en": "Tomáš is never late, but today he is, because the train is late.",
+    "t": "Tomash hech qachon kechikmaydi, lekin bugun kechikyapti, chunki poyezd kechikyapti."
+  },
+  "a2-u4-l13.fill-tomas-nikdy-nemeska.why": {
+    "en": "What follows is the cause (the train is late), so it's **lebo**, because. Preto would bring a result.",
+    "t": "Keyingi qism — sabab (poyezd kechikyapti), shuning uchun **lebo** (chunki). Preto natijani bildirardi."
+  },
+  "a2-u4-l13.fill-letenky-boli-lacne.en": {
+    "en": "The tickets were cheap, so Emma is flying to Dublin.",
+    "t": "Aviachiptalar arzon edi, shuning uchun Emma Dublinga uchyapti."
+  },
+  "a2-u4-l13.fill-letenky-boli-lacne.why": {
+    "en": "What follows is the result of the cheap tickets, so it's **preto**, so. Lebo and pretože bring a cause.",
+    "t": "Keyingi qism — arzon chiptalarning natijasi, shuning uchun **preto** (shuning uchun). Lebo va pretože sababni bildiradi."
+  },
+  "a2-u4-l13.choice-preco-isli-emma.question": {
+    "en": "Which answer fits?",
+    "t": "Qaysi javob mos keladi?"
+  },
+  "a2-u4-l13.choice-preco-isli-emma.why": {
+    "en": "Prečo? asks for the cause, and the cause comes after **lebo** (or pretože). And the rýchlik is the cheaper train.",
+    "t": "Prečo? sababni soʻraydi, sabab esa **lebo** (yoki pretože) dan keyin keladi. Bundan tashqari, rýchlik — arzonroq poyezd."
+  },
+  "a2-u4-l13.build-vlak-meskal-preto.prompt": {
+    "en": "The train was late, so we took a taxi.",
+    "t": "Poyezd kechikdi, shuning uchun taksida bordik."
+  },
+  "a2-u4-l13.build-vlak-meskal-preto.traps": {
+    "en": [
+      "The taxi is the result of the delay, so it's **preto** (so). Lebo would bring the cause.",
+      "How you go takes the instrumental: taxík**om**."
+    ],
+    "t": [
+      "Taksi — kechikishning natijasi, shuning uchun **preto** (shuning uchun). Lebo sababni bildirardi.",
+      "Qanday borish inštrumentálda keladi: taxík**om**."
+    ]
+  },
+  "a2-u4-l13.build-emma-je-unavena.prompt": {
+    "en": "Emma is tired because she slept badly.",
+    "t": "Emma charchagan, chunki yomon uxladi."
+  },
+  "a2-u4-l13.build-emma-je-unavena.traps": {
+    "en": [
+      "Sleeping badly is the cause, so it's **lebo** (because).",
+      "Emma is a woman, so the adjective ends in **-á**: unaven**á**."
+    ],
+    "t": [
+      "Yomon uxlash — sabab, shuning uchun **lebo** (chunki).",
+      "Emma — ayol, shuning uchun sifat **-á** bilan tugaydi: unaven**á**."
+    ]
+  },
+  "a2-u4-l13.choice-lucia-musela-zaplatit.question": {
+    "en": "Which sentence means the same?",
+    "t": "Qaysi gap xuddi shu maʼnoni beradi?"
+  },
+  "a2-u4-l13.choice-lucia-musela-zaplatit.why": {
+    "en": "Swap the halves and swap the word: the cause (zabudla preukaz) comes first, then **preto** and the result.",
+    "t": "Qismlarning ham, soʻzning ham oʻrnini almashtiring: avval sabab (zabudla preukaz), keyin **preto** va natija."
+  },
+  "a2-u4-l13.fill-preco-meskas.en": {
+    "en": "Why are you late? – Because I missed the bus.",
+    "t": "Nega kechikyapsan? – Chunki avtobusga ulgurmadim."
+  },
+  "a2-u4-l13.fill-preco-meskas.why": {
+    "en": "An answer to Prečo? gives the cause, so it starts with **lebo** (or pretože).",
+    "t": "Prečo? ga javob sababni aytadi, shuning uchun **lebo** (yoki pretože) bilan boshlanadi."
+  },
+  "a2-u4-l13.build-tomas-ma-v.answers": {
+    "en": [
+      "Tomáš has a meeting on Tuesday, so he's going to Bratislava."
+    ],
+    "t": [
+      "Tomashning seshanba kuni yigʻilishi bor, shuning uchun Bratislavaga boryapti.",
+      "Seshanba kuni Tomashning yigʻilishi bor, shuning uchun Bratislavaga boryapti.",
+      "Tomashning seshanba kuni yigʻilishi bor, shuning uchun u Bratislavaga boryapti.",
+      "Tomashning seshanba kuni yigʻilishi bor, shuning uchun Bratislavaga boradi."
+    ]
+  },
+  "a2-u4-l13.build-tomas-ma-v.distractors": {
+    "en": [
+      "because"
+    ],
+    "t": [
+      "chunki"
+    ]
+  },
+  "a2-u4-l13.fill-emma-sa-uci.en": {
+    "en": "Emma is learning Slovak because she studies in Bratislava.",
+    "t": "Emma slovak tilini oʻrganyapti, chunki Bratislavada oʻqiydi."
+  },
+  "a2-u4-l13.fill-emma-sa-uci.why": {
+    "en": "Studying in Bratislava is the cause of learning Slovak, so it's **lebo** (because).",
+    "t": "Bratislavada oʻqishi — slovak tilini oʻrganishining sababi, shuning uchun **lebo** (chunki)."
+  },
+  "a2-u4-l13.fill-tomas-byva-daleko.en": {
+    "en": "Tomáš lives far away, so he gets up very early.",
+    "t": "Tomash uzoqda yashaydi, shuning uchun juda erta turadi."
+  },
+  "a2-u4-l13.fill-tomas-byva-daleko.why": {
+    "en": "Getting up early is the result of living far away, so it's **preto** (so).",
+    "t": "Erta turish — uzoqda yashashning natijasi, shuning uchun **preto** (shuning uchun)."
+  },
+  "a2-u4-l13.speak-prepac-vlak-meska.en": {
+    "en": "Sorry, the train's late, so I'm late.",
+    "t": "Kechir, poyezd kechikyapti, shuning uchun kechikyapman."
+  },
+  "a2-u4-l14.titleEn": {
+    "en": "I'd like…",
+    "t": "Xohlardim…"
+  },
+  "a2-u4-l14.grammar-conditional-would.title": {
+    "en": "Would: the conditional",
+    "t": "«…ardim»: shart mayli"
+  },
+  "a2-u4-l14.grammar-conditional-would.body": {
+    "en": [
+      "To say what you would do, take the past form and add **by**: chcel → **chcel by som** (I'd like). As in the past, it shows who is speaking: chcel by som (a man), **chcela** by som (a woman).",
+      "Som, si, sme or ste comes right after by. With on, ona and oni there's only by: Lucia **by** chcela… Formal vy takes the -li form, as in the past: Chceli by ste…?"
+    ],
+    "t": [
+      "Nima qilardingiz, deyish uchun oʻtgan zamon shaklini oling va **by** qoʻshing: chcel → **chcel by som** (xohlardim). Bu shart mayli (by bilan keladigan shakl), u oʻzbekchadagi «-ardim»ga oʻxshaydi. Oʻtgan zamondagi kabi, kim gapirayotgani koʻrinib turadi: chcel by som (erkak), **chcela** by som (ayol).",
+      "Som, si, sme yoki ste by dan darhol keyin keladi. On, ona va oni bilan faqat by: Lucia **by** chcela… Hurmat bildiruvchi vy oʻtgan zamondagi kabi -li shaklini oladi: Chceli by ste…?"
+    ]
+  },
+  "a2-u4-l14.grammar-conditional-would.table.rows": {
+    "en": [
+      [
+        "ja",
+        "chcel / chcela **by som**"
+      ],
+      [
+        "ty",
+        "chcel / chcela **by si**"
+      ],
+      [
+        "on, ona",
+        "chcel / chcela **by**"
+      ],
+      [
+        "my",
+        "chceli **by sme**"
+      ],
+      [
+        "vy",
+        "chceli **by ste**"
+      ],
+      [
+        "oni, ony",
+        "chceli **by**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "chcel / chcela **by som**"
+      ],
+      [
+        "ty",
+        "chcel / chcela **by si**"
+      ],
+      [
+        "on, ona",
+        "chcel / chcela **by**"
+      ],
+      [
+        "my",
+        "chceli **by sme**"
+      ],
+      [
+        "vy",
+        "chceli **by ste**"
+      ],
+      [
+        "oni, ony",
+        "chceli **by**"
+      ]
+    ]
+  },
+  "a2-u4-l14.grammar-conditional-would.examples": {
+    "en": [
+      "I'd like a coffee, please.",
+      "When would you like to fly?",
+      "Tomáš would rather go by car."
+    ],
+    "t": [
+      "Bitta qahva xohlardim, iltimos.",
+      "Qachon uchishni xohlardingiz?",
+      "Tomash mashinada borishni afzal koʻrardi."
+    ]
+  },
+  "a2-u4-l14.chcela-by-som-letenku.en": {
+    "en": "I'd like a plane ticket. (a woman speaking)",
+    "t": "Aviachipta olmoqchi edim. (ayol gapiryapti)"
+  },
+  "a2-u4-l14.chcela-by-som-letenku.note": {
+    "en": "The polite way to ask for something: in a shop, at a ticket office, on the phone. Much softer than Chcem…",
+    "t": "Biror narsani muloyim soʻrash usuli: doʻkonda, kassada, telefonda. Chcem… (xohlayman) dan ancha yumshoqroq."
+  },
+  "a2-u4-l14.fill-dobry-den-chcela.en": {
+    "en": "Hello, I'd like a ticket to Dublin.",
+    "t": "Assalomu alaykum, Dublinga chipta olmoqchi edim."
+  },
+  "a2-u4-l14.fill-dobry-den-chcela.why": {
+    "en": "I would: the past form + **by som**: chcela **by som**. Chcela som is just the past, and by alone is for ona.",
+    "t": "«Xohlardim» — oʻtgan zamon shakli + **by som**: chcela **by som**. Chcela som — oddiy oʻtgan zamon, yolgʻiz by esa ona uchun."
+  },
+  "a2-u4-l14.fill-dal-by-som.en": {
+    "en": "I'd have a coffee, says Tomáš.",
+    "t": "«Men qahva olardim», deydi Tomash."
+  },
+  "a2-u4-l14.fill-dal-by-som.why": {
+    "en": "Tomáš is a man, so the past form has no ending: **dal** by som. Dala is for a woman, dali for more people.",
+    "t": "Tomash — erkak, shuning uchun oʻtgan zamon shakli qoʻshimchasiz: **dal** by som. Dala — ayol uchun, dali — bir necha kishi uchun."
+  },
+  "a2-u4-l14.fill-kedy-by-ste.en": {
+    "en": "When would you like to fly back?",
+    "t": "Qachon qaytib uchishni xohlardingiz?"
+  },
+  "a2-u4-l14.fill-kedy-by-ste.why": {
+    "en": "Formal vy takes the -li form, even for one person: by ste **chceli**. Chcete is the present.",
+    "t": "Hurmat bildiruvchi vy bitta odam uchun ham -li shaklini oladi: by ste **chceli**. Chcete — hozirgi zamon."
+  },
+  "a2-u4-l14.build-chceli-by-sme.prompt": {
+    "en": "We'd like two coffees, please.",
+    "t": "Ikkita qahva olmoqchi edik, iltimos."
+  },
+  "a2-u4-l14.build-chceli-by-sme.traps": {
+    "en": [
+      "We is my, so after by comes **sme**: by **sme**.",
+      "With my the past form ends in **-li**: chce**li** by sme."
+    ],
+    "t": [
+      "«Biz» — my, shuning uchun by dan keyin **sme**: by **sme**.",
+      "my bilan oʻtgan zamon shakli **-li** bilan tugaydi: chce**li** by sme."
+    ]
+  },
+  "a2-u4-l14.grammar-polite-requests-wishes.title": {
+    "en": "Polite requests and wishes",
+    "t": "Muloyim iltimos va istaklar"
+  },
+  "a2-u4-l14.grammar-polite-requests-wishes.body": {
+    "en": [
+      "The conditional makes a request softer: **Mohli by ste mi pomôcť?** (Could you help me?) is politer than Môžete mi pomôcť? You've met Pomohli by ste mi? too.",
+      "It also says what you'd like: **Dal(a) by som si** čaj (I'd have tea), **Rád / Rada by som**… (I'd love to…), **Páčilo by sa mi**… (I'd like it)."
+    ],
+    "t": [
+      "Shart mayli iltimosni yumshoqroq qiladi: **Mohli by ste mi pomôcť?** (Menga yordam bera olmaysizmi?) Môžete mi pomôcť? dan muloyimroq. Pomohli by ste mi? ni ham uchratgansiz.",
+      "U istakni ham bildiradi: **Dal(a) by som si** čaj (choy olardim), **Rád / Rada by som**… (…ni juda xohlardim), **Páčilo by sa mi**… (…menga yoqardi)."
+    ]
+  },
+  "a2-u4-l14.grammar-polite-requests-wishes.table.head": {
+    "en": [
+      "plain",
+      "more polite"
+    ],
+    "t": [
+      "oddiy",
+      "muloyimroq"
+    ]
+  },
+  "a2-u4-l14.grammar-polite-requests-wishes.table.rows": {
+    "en": [
+      [
+        "Môžete mi pomôcť?",
+        "**Mohli by ste** mi pomôcť?"
+      ],
+      [
+        "Dám si čaj.",
+        "**Dala by som si** čaj."
+      ],
+      [
+        "Chcem letenku.",
+        "**Chcela by som** letenku."
+      ],
+      [
+        "Pomôžeš mi?",
+        "**Pomohol by si** mi?"
+      ]
+    ],
+    "t": [
+      [
+        "Môžete mi pomôcť?",
+        "**Mohli by ste** mi pomôcť?"
+      ],
+      [
+        "Dám si čaj.",
+        "**Dala by som si** čaj."
+      ],
+      [
+        "Chcem letenku.",
+        "**Chcela by som** letenku."
+      ],
+      [
+        "Pomôžeš mi?",
+        "**Pomohol by si** mi?"
+      ]
+    ]
+  },
+  "a2-u4-l14.grammar-polite-requests-wishes.examples": {
+    "en": [
+      "Could you bring us the bill?",
+      "I'd love to live by the sea."
+    ],
+    "t": [
+      "Bizga hisobni olib kela olmaysizmi?",
+      "Dengiz boʻyida yashashni juda xohlardim."
+    ]
+  },
+  "a2-u4-l14.choice-mohli-by-ste.question": {
+    "en": "Emma asks a stranger for help, as politely as she can. What does she say?",
+    "t": "Emma notanish odamdan iloji boricha muloyim yordam soʻraydi. U nima deydi?"
+  },
+  "a2-u4-l14.choice-mohli-by-ste.why": {
+    "en": "To a stranger, use vy, and the conditional makes it softer: **Mohli by ste**…? Môžeš and pomôžeš are ty forms, for friends.",
+    "t": "Notanish odamga vy ishlating, shart mayli esa iltimosni yumshatadi: **Mohli by ste**…? Môžeš va pomôžeš — ty shakllari, doʻstlar uchun."
+  },
+  "a2-u4-l14.fill-priniesli-by-ste.en": {
+    "en": "Could you bring us the bill, please?",
+    "t": "Bizga hisobni olib kela olmaysizmi, iltimos?"
+  },
+  "a2-u4-l14.fill-priniesli-by-ste.why": {
+    "en": "You're asking the waiter, so it's vy: after by comes **ste**.",
+    "t": "Ofitsiantdan soʻrayapsiz, demak vy: by dan keyin **ste**."
+  },
+  "a2-u4-l14.build-lucia-pomohla-by.prompt": {
+    "en": "Lucia, could you help me with the suitcase?",
+    "t": "Lusiya, chamadonga yordamlashib yubora olmaysanmi?"
+  },
+  "a2-u4-l14.build-lucia-pomohla-by.traps": {
+    "en": [
+      "Lucia is a friend, ty, so after by comes **si**.",
+      "Lucia is a woman, so the past form ends in **-la**: pomoh**la**."
+    ],
+    "t": [
+      "Lusiya — doʻst, ty, shuning uchun by dan keyin **si**.",
+      "Lusiya — ayol, shuning uchun oʻtgan zamon shakli **-la** bilan tugaydi: pomoh**la**."
+    ]
+  },
+  "a2-u4-l14.choice-pacilo-by-sa.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "a2-u4-l14.choice-pacilo-by-sa.options": {
+    "en": [
+      "I liked living in Žilina.",
+      "I live in Žilina and I like it.",
+      "I'd like to live in Žilina."
+    ],
+    "t": [
+      "Jilinada yashash menga yoqdi.",
+      "Jilinada yashayman va bu menga yoqadi.",
+      "Jilinada yashashni xohlardim."
+    ]
+  },
+  "a2-u4-l14.choice-pacilo-by-sa.why": {
+    "en": "**By** makes it the conditional: páčilo **by** sa mi = I would like it. Without by, páčilo sa mi is the past: I liked it.",
+    "t": "**By** gapni shart mayliga aylantiradi: páčilo **by** sa mi = menga yoqardi. By boʻlmasa, páčilo sa mi — oʻtgan zamon: menga yoqdi."
+  },
+  "a2-u4-l14.fill-lucia-by-chcela.en": {
+    "en": "Lucia would like to go to Ireland.",
+    "t": "Lusiya Irlandiyaga borishni xohlardi."
+  },
+  "a2-u4-l14.fill-lucia-by-chcela.why": {
+    "en": "With ona there's no som or si, just **by**: Lucia **by** chcela.",
+    "t": "ona bilan som ham, si ham kelmaydi, faqat **by**: Lucia **by** chcela."
+  },
+  "a2-u4-l14.fill-radsej-by-sme.en": {
+    "en": "We'd rather go by train.",
+    "t": "Yaxshisi, poyezdda borardik."
+  },
+  "a2-u4-l14.fill-radsej-by-sme.why": {
+    "en": "Som, si, sme or ste always comes right after by, never before it: Radšej **by sme** išli. Without by, sme gives the past.",
+    "t": "Som, si, sme yoki ste doim by dan darhol keyin keladi, hech qachon oldin emas: Radšej **by sme** išli. By boʻlmasa, sme oʻtgan zamonni beradi."
+  },
+  "a2-u4-l14.build-dala-by-som.answers": {
+    "en": [
+      "I'd have tea with lemon."
+    ],
+    "t": [
+      "Limonli choy olardim.",
+      "Limonli choy ichardim.",
+      "Men limonli choy olardim.",
+      "Limon bilan choy olardim."
+    ]
+  },
+  "a2-u4-l14.build-dala-by-som.distractors": {
+    "en": [
+      "coffee",
+      "had"
+    ],
+    "t": [
+      "qahva",
+      "oldim"
+    ]
+  },
+  "a2-u4-l14.speak-chcela-by-som.en": {
+    "en": "I'd like a coffee, please.",
+    "t": "Bitta qahva xohlardim, iltimos."
+  },
+  "a2-u4-l15.titleEn": {
+    "en": "You should…",
+    "t": "…ishing kerak"
+  },
+  "a2-u4-l15.grammar-suggestions-advice.title": {
+    "en": "Suggestions, advice, plans",
+    "t": "Takliflar, maslahatlar, rejalar"
+  },
+  "a2-u4-l15.grammar-suggestions-advice.body": {
+    "en": [
+      "**Mohli by sme**… makes a suggestion: Mohli by sme ísť spolu. So does **Čo keby sme**…? (How about…?), with the past form: Čo keby sme išli taxíkom? Keby already has by inside it, so there's no second by.",
+      "**Mal by si** (you should) gives advice, and so does **na tvojom mieste by som**… (if I were you, I'd…). Not goes on the past form: **nemal by si** = you shouldn't.",
+      "**Rád / Rada by som**…, **ale**… says what you'd love to do but can't: Rada by som išla, ale nemám čas."
+    ],
+    "t": [
+      "**Mohli by sme**… taklif bildiradi: Mohli by sme ísť spolu. (Birga borsak boʻlardi.) **Čo keby sme**…? (…sak-chi?) ham taklif, u oʻtgan zamon shakli bilan keladi: Čo keby sme išli taxíkom? Keby ichida by allaqachon bor, shuning uchun ikkinchi by qoʻshilmaydi.",
+      "**Mal by si** (…ishing kerak, …ganing maʼqul) maslahat beradi, **na tvojom mieste by som**… (sening oʻrningda boʻlsam, …ardim) ham shunday. Inkor oʻtgan zamon shakliga qoʻshiladi: **nemal by si** = …masliging kerak.",
+      "**Rád / Rada by som**…, **ale**… juda xohlagan, lekin qila olmaydigan ishingizni aytadi: Rada by som išla, ale nemám čas. (Borishni juda xohlardim, lekin vaqtim yoʻq.)"
+    ]
+  },
+  "a2-u4-l15.grammar-suggestions-advice.table.head": {
+    "en": [
+      "",
+      "Slovak",
+      "English"
+    ],
+    "t": [
+      "",
+      "Slovakcha",
+      "Oʻzbekcha"
+    ]
+  },
+  "a2-u4-l15.grammar-suggestions-advice.table.rows": {
+    "en": [
+      [
+        "suggestion",
+        "**Mohli by sme** ísť spolu.",
+        "We could go together."
+      ],
+      [
+        "suggestion",
+        "**Čo keby sme** išli taxíkom?",
+        "How about taking a taxi?"
+      ],
+      [
+        "advice",
+        "**Mal by si** ísť spať.",
+        "You should go to bed."
+      ],
+      [
+        "advice",
+        "**Nemali by ste** meškať.",
+        "You shouldn't be late."
+      ],
+      [
+        "a plan you can't keep",
+        "**Rada by som** išla, ale…",
+        "I'd love to go, but…"
+      ]
+    ],
+    "t": [
+      [
+        "taklif",
+        "**Mohli by sme** ísť spolu.",
+        "Birga borsak boʻlardi."
+      ],
+      [
+        "taklif",
+        "**Čo keby sme** išli taxíkom?",
+        "Taksida borsak-chi?"
+      ],
+      [
+        "maslahat",
+        "**Mal by si** ísť spať.",
+        "Uxlashga yotishing kerak."
+      ],
+      [
+        "maslahat",
+        "**Nemali by ste** meškať.",
+        "Kechikmasligingiz kerak."
+      ],
+      [
+        "bajarib boʻlmaydigan reja",
+        "**Rada by som** išla, ale…",
+        "Borishni juda xohlardim, lekin…"
+      ]
+    ]
+  },
+  "a2-u4-l15.grammar-suggestions-advice.examples": {
+    "en": [
+      "We could go to the airport together.",
+      "If I were you, I'd go by train."
+    ],
+    "t": [
+      "Aeroportga birga borsak boʻlardi.",
+      "Sening oʻrningda boʻlsam, poyezdda borardim."
+    ]
+  },
+  "a2-u4-l15.fill-mohli-by-sme.en": {
+    "en": "We could go to the station together.",
+    "t": "Vokzalga birga borsak boʻlardi."
+  },
+  "a2-u4-l15.fill-mohli-by-sme.why": {
+    "en": "A suggestion for us: the past form with -li + **by sme**: **Mohli** by sme. Môžeme is plain can, and mohla is one woman.",
+    "t": "Biz uchun taklif: -li bilan tugaydigan oʻtgan zamon shakli + **by sme**: **Mohli** by sme. Môžeme — oddiy «qila olamiz», mohla esa bitta ayol."
+  },
+  "a2-u4-l15.choice-mala-by-si.question": {
+    "en": "Lucia is very tired. What advice does Emma give her?",
+    "t": "Lusiya juda charchagan. Emma unga qanday maslahat beradi?"
+  },
+  "a2-u4-l15.choice-mala-by-si.why": {
+    "en": "Advice to a friend is **by si**, and Lucia is a woman, so **mala**. Mala by som is about yourself.",
+    "t": "Doʻstga maslahat — **by si**, Lusiya esa ayol, shuning uchun **mala**. Mala by som — oʻzingiz haqingizda."
+  },
+  "a2-u4-l15.build-co-keby-sme.prompt": {
+    "en": "How about taking a taxi?",
+    "t": "Taksida borsak-chi?"
+  },
+  "a2-u4-l15.build-co-keby-sme.traps": {
+    "en": [
+      "Čo keby sme… takes the past form: keby sme **išli**.",
+      "How you go takes the instrumental: taxík**om**."
+    ],
+    "t": [
+      "Čo keby sme… oʻtgan zamon shaklini talab qiladi: keby sme **išli**.",
+      "Qanday borish inštrumentálda keladi: taxík**om**."
+    ]
+  },
+  "a2-u4-l15.fill-nemali-by-ste.en": {
+    "en": "You shouldn't work so much, Mr Kováč.",
+    "t": "Bunchalik koʻp ishlamasligingiz kerak, janob Kovach."
+  },
+  "a2-u4-l15.fill-nemali-by-ste.why": {
+    "en": "You say vy to pán Kováč, so after by comes **ste**.",
+    "t": "Janob Kovachga vy deysiz, shuning uchun by dan keyin **ste**."
+  },
+  "a2-u4-l15.choice-nemal-by-si.question": {
+    "en": "Which means “You shouldn't be late”?",
+    "t": "Qaysi biri «Kechikmasliging kerak» degani?"
+  },
+  "a2-u4-l15.choice-nemal-by-si.why": {
+    "en": "Not goes on the past form of mať, as one word: **nemal** by si. Without by, nemal si is the past.",
+    "t": "Inkor mať ning oʻtgan zamon shakliga qoʻshilib, bitta soʻz boʻlib yoziladi: **nemal** by si. By boʻlmasa, nemal si — oʻtgan zamon."
+  },
+  "a2-u4-l15.grammar-conditional-word-order.title": {
+    "en": "Word order: by comes second",
+    "t": "Soʻz tartibi: by ikkinchi oʻrinda"
+  },
+  "a2-u4-l15.grammar-conditional-word-order.body": {
+    "en": [
+      "**By** is a small word like som and sa, so it goes second, right after the first word or phrase. Then come som, si, sme or ste, then sa or si, then short pronouns like mi.",
+      "When something else comes first, the past form moves after this group: Zajtra **by sme sa** mohli stretnúť. Kedy **by ste sa** chceli vrátiť?"
+    ],
+    "t": [
+      "**By** — som va sa kabi kichik soʻz, shuning uchun u ikkinchi oʻrinda, birinchi soʻz yoki iboradan darhol keyin turadi. Undan keyin som, si, sme yoki ste, keyin sa yoki si, keyin mi kabi qisqa olmoshlar keladi.",
+      "Boshida boshqa soʻz tursa, oʻtgan zamon shakli shu guruhdan keyinga oʻtadi: Zajtra **by sme sa** mohli stretnúť. Kedy **by ste sa** chceli vrátiť?"
+    ]
+  },
+  "a2-u4-l15.grammar-conditional-word-order.table.head": {
+    "en": [
+      "first",
+      "by",
+      "som, sa, mi…",
+      "the rest"
+    ],
+    "t": [
+      "birinchi",
+      "by",
+      "som, sa, mi…",
+      "qolgani"
+    ]
+  },
+  "a2-u4-l15.grammar-conditional-word-order.table.rows": {
+    "en": [
+      [
+        "Chcela",
+        "**by**",
+        "**som**",
+        "letenku."
+      ],
+      [
+        "Zajtra",
+        "**by**",
+        "**sme sa**",
+        "mohli stretnúť."
+      ],
+      [
+        "Tomáš",
+        "**by**",
+        "",
+        "išiel vlakom."
+      ],
+      [
+        "Pomohli",
+        "**by**",
+        "**ste mi**",
+        "s kufrom?"
+      ]
+    ],
+    "t": [
+      [
+        "Chcela",
+        "**by**",
+        "**som**",
+        "letenku."
+      ],
+      [
+        "Zajtra",
+        "**by**",
+        "**sme sa**",
+        "mohli stretnúť."
+      ],
+      [
+        "Tomáš",
+        "**by**",
+        "",
+        "išiel vlakom."
+      ],
+      [
+        "Pomohli",
+        "**by**",
+        "**ste mi**",
+        "s kufrom?"
+      ]
+    ]
+  },
+  "a2-u4-l15.grammar-conditional-word-order.examples": {
+    "en": [
+      "When would you like to come back?",
+      "We could meet tomorrow."
+    ],
+    "t": [
+      "Qachon qaytishni xohlardingiz?",
+      "Ertaga uchrashsak boʻlardi."
+    ]
+  },
+  "a2-u4-l15.choice-zajtra-by-som.question": {
+    "en": "Which is right?",
+    "t": "Qaysi biri toʻgʻri?"
+  },
+  "a2-u4-l15.choice-zajtra-by-som.why": {
+    "en": "**By** comes second, right after zajtra; then som, then sa: Zajtra **by som sa**…",
+    "t": "**By** ikkinchi oʻrinda, zajtra dan darhol keyin; keyin som, keyin sa: Zajtra **by som sa**…"
+  },
+  "a2-u4-l15.fill-pomohli-by-ste.en": {
+    "en": "Could you help me with my luggage?",
+    "t": "Yukimga yordamlashib yubora olmaysizmi?"
+  },
+  "a2-u4-l15.fill-pomohli-by-ste.why": {
+    "en": "**By** comes right after the first word, and ste follows it: Pomohli **by ste** mi…",
+    "t": "**By** birinchi soʻzdan darhol keyin keladi, ste esa undan keyin: Pomohli **by ste** mi…"
+  },
+  "a2-u4-l15.build-zajtra-by-sme.prompt": {
+    "en": "Tomorrow we could meet at the station.",
+    "t": "Ertaga vokzalda uchrashsak boʻlardi."
+  },
+  "a2-u4-l15.build-zajtra-by-sme.traps": {
+    "en": [
+      "Meeting at the station answers where?, so it's the locative: na stanic**i**.",
+      "Could, as a suggestion, is the conditional: **mohli** by sme."
+    ],
+    "t": [
+      "Vokzalda uchrashish «qayerda?» savoliga javob beradi, shuning uchun lokál: na stanic**i**.",
+      "Taklif maʼnosidagi «…sak boʻlardi» — shart mayli: **mohli** by sme."
+    ]
+  },
+  "a2-u4-l15.fill-rada-by-som.en": {
+    "en": "I'd love to come with you, but I have to work.",
+    "t": "Sizlar bilan borishni juda xohlardim, lekin ishlashim kerak."
+  },
+  "a2-u4-l15.fill-rada-by-som.why": {
+    "en": "Something you'd love to do but can't: Rada by som…, **ale** (but)… The second half says why not.",
+    "t": "Juda xohlagan, lekin qila olmaydigan ish: Rada by som…, **ale** (lekin)… Ikkinchi qism nega qila olmasligingizni aytadi."
+  },
+  "a2-u4-l15.fill-co-keby-sme.en": {
+    "en": "How about going to the cinema on Saturday?",
+    "t": "Shanba kuni kinoga borsak-chi?"
+  },
+  "a2-u4-l15.fill-co-keby-sme.why": {
+    "en": "**Keby** already has by inside it, so only **sme** follows: Čo keby **sme**…",
+    "t": "**Keby** ichida by allaqachon bor, shuning uchun undan keyin faqat **sme** keladi: Čo keby **sme**…"
+  },
+  "a2-u4-l15.build-na-tvojom-mieste.answers": {
+    "en": [
+      "If I were you, I'd go by train."
+    ],
+    "t": [
+      "Sening oʻrningda boʻlsam, poyezdda borardim.",
+      "Sening oʻrningda boʻlganimda, poyezdda borardim.",
+      "Oʻrningda boʻlsam, poyezdda borardim.",
+      "Sening oʻrningda men poyezdda borardim."
+    ]
+  },
+  "a2-u4-l15.build-na-tvojom-mieste.distractors": {
+    "en": [
+      "plane",
+      "went"
+    ],
+    "t": [
+      "samolyotda",
+      "bordim"
+    ]
+  },
+  "a2-u4-l15.speak-mohli-by-sme.en": {
+    "en": "We could go together.",
+    "t": "Birga borsak boʻlardi."
+  },
+  "a2-u4-l16.titleEn": {
+    "en": "If…",
+    "t": "Agar…"
+  },
+  "a2-u4-l16.grammar-keby-if.title": {
+    "en": "Keby: if it were so",
+    "t": "Keby: agar shunday boʻlganida"
+  },
+  "a2-u4-l16.grammar-keby-if.body": {
+    "en": [
+      "For something that isn't true, or isn't likely, Slovak uses **keby** (if) with the past form, and the conditional in the other half: **Keby** som mala peniaze, letela by som domov. = If I had the money, I'd fly home.",
+      "Keby already has by inside it, so som, si, sme or ste comes right after it: keby **som**, keby **si**, keby **sme**, keby **ste**. With on, ona and oni it's just keby: keby vlak nemeškal."
+    ],
+    "t": [
+      "Haqiqatda boʻlmagan yoki boʻlishi qiyin narsa haqida gapirganda slovak tilida **keby** (agar) oʻtgan zamon shakli bilan, ikkinchi qismda esa shart mayli ishlatiladi: **Keby** som mala peniaze, letela by som domov. = Pulim boʻlganida, uyga uchib ketardim. Oʻzbekchada ham shunday: «…ganida, …ardim».",
+      "Keby ichida by allaqachon bor, shuning uchun som, si, sme yoki ste undan darhol keyin keladi: keby **som**, keby **si**, keby **sme**, keby **ste**. On, ona va oni bilan shunchaki keby: keby vlak nemeškal."
+    ]
+  },
+  "a2-u4-l16.grammar-keby-if.table.head": {
+    "en": [
+      "if…",
+      "…then"
+    ],
+    "t": [
+      "agar…",
+      "…unda"
+    ]
+  },
+  "a2-u4-l16.grammar-keby-if.table.rows": {
+    "en": [
+      [
+        "Keby **som** mal(a) čas,",
+        "išiel / išla **by som** s vami."
+      ],
+      [
+        "Keby **si** mal(a) auto,",
+        "nemusel(a) **by si** čakať."
+      ],
+      [
+        "Keby vlak nemeškal,",
+        "boli **by sme** doma."
+      ],
+      [
+        "Keby **ste** stratili pas,",
+        "čo **by ste** robili?"
+      ]
+    ],
+    "t": [
+      [
+        "Keby **som** mal(a) čas,",
+        "išiel / išla **by som** s vami."
+      ],
+      [
+        "Keby **si** mal(a) auto,",
+        "nemusel(a) **by si** čakať."
+      ],
+      [
+        "Keby vlak nemeškal,",
+        "boli **by sme** doma."
+      ],
+      [
+        "Keby **ste** stratili pas,",
+        "čo **by ste** robili?"
+      ]
+    ]
+  },
+  "a2-u4-l16.grammar-keby-if.examples": {
+    "en": [
+      "If I had time, I'd go with you.",
+      "If the train weren't late, we'd be home by now."
+    ],
+    "t": [
+      "Vaqtim boʻlganida, sen bilan borardim.",
+      "Poyezd kechikmaganida, allaqachon uyda boʻlardik."
+    ]
+  },
+  "a2-u4-l16.stratit.en": {
+    "en": "to lose",
+    "t": "yoʻqotmoq"
+  },
+  "a2-u4-l16.stratit.note": {
+    "en": "**Stratila som pas!** = I've lost my passport! The opposite is **nájsť** (to find): našla som ho.",
+    "t": "**Stratila som pas!** = Pasportimni yoʻqotib qoʻydim! Teskarisi — **nájsť** (topmoq): našla som ho (uni topdim)."
+  },
+  "a2-u4-l16.fill-keby-som-mala.en": {
+    "en": "If I had a car, I'd drive to the airport.",
+    "t": "Mashinam boʻlganida, aeroportga mashinada borardim."
+  },
+  "a2-u4-l16.fill-keby-som-mala.why": {
+    "en": "Keby already has by inside it, so only **som** follows: keby **som** mala.",
+    "t": "Keby ichida by allaqachon bor, shuning uchun undan keyin faqat **som** keladi: keby **som** mala."
+  },
+  "a2-u4-l16.fill-keby-som-mala-peniaze.en": {
+    "en": "If I had the money, I'd fly to Dublin more often.",
+    "t": "Pulim boʻlganida, Dublinga tez-tezroq uchib borardim."
+  },
+  "a2-u4-l16.fill-keby-som-mala-peniaze.why": {
+    "en": "The other half is the conditional: the past form + by som: **letela** by som.",
+    "t": "Ikkinchi qism — shart mayli: oʻtgan zamon shakli + by som: **letela** by som."
+  },
+  "a2-u4-l16.build-keby-som-mal.prompt": {
+    "en": "Tomáš: If I had time, I'd go with you.",
+    "t": "Tomash: Vaqtim boʻlganida, sen bilan borardim."
+  },
+  "a2-u4-l16.build-keby-som-mal.traps": {
+    "en": [
+      "Tomáš is a man, so the past form has no ending: **mal**.",
+      "The result is the conditional: the past form + by som: **išiel** by som."
+    ],
+    "t": [
+      "Tomash — erkak, shuning uchun oʻtgan zamon shakli qoʻshimchasiz: **mal**.",
+      "Natija — shart mayli: oʻtgan zamon shakli + by som: **išiel** by som."
+    ]
+  },
+  "a2-u4-l16.choice-keby-lietadlo-nemeskalo.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "a2-u4-l16.choice-keby-lietadlo-nemeskalo.options": {
+    "en": [
+      "The plane was late, but I'm already in Dublin.",
+      "When the plane is late, I get to Dublin late.",
+      "If the plane weren't late, I'd be in Dublin by now."
+    ],
+    "t": [
+      "Samolyot kechikdi, lekin men allaqachon Dublindaman.",
+      "Samolyot kechiksa, Dublinga kech yetib boraman.",
+      "Samolyot kechikmaganida, allaqachon Dublinda boʻlardim."
+    ]
+  },
+  "a2-u4-l16.choice-keby-lietadlo-nemeskalo.why": {
+    "en": "Keby + the past form talks about something that isn't so: the plane **is** late, so she isn't in Dublin yet.",
+    "t": "Keby + oʻtgan zamon shakli haqiqatda boʻlmagan narsa haqida gapiradi: samolyot aslida **kechikyapti**, shuning uchun u hali Dublinda emas."
+  },
+  "a2-u4-l16.fill-keby-som-nezabudla.en": {
+    "en": "If I hadn't forgotten my passport, I wouldn't have to go home.",
+    "t": "Pasportimni unutmaganimda, uyga qaytishim shart boʻlmasdi."
+  },
+  "a2-u4-l16.fill-keby-som-nezabudla.why": {
+    "en": "She did forget it, so the keby half says the opposite, with not on the past form as one word: keby som **nezabudla**.",
+    "t": "U pasportni unutgan, shuning uchun keby qismi buning teskarisini aytadi, inkor esa oʻtgan zamon shakliga qoʻshilib bitta soʻz boʻladi: keby som **nezabudla**."
+  },
+  "a2-u4-l16.choice-keby-som-mala.question": {
+    "en": "Which is right?",
+    "t": "Qaysi biri toʻgʻri?"
+  },
+  "a2-u4-l16.choice-keby-som-mala.why": {
+    "en": "Keby already contains by, so don't add another: keby **som**. The other half needs by: prišla **by som**.",
+    "t": "Keby ichida by bor, yana qoʻshmang: keby **som**. Ikkinchi qismga esa by kerak: prišla **by som**."
+  },
+  "a2-u4-l16.build-co-by-ste.prompt": {
+    "en": "What would you do if you lost your passport?",
+    "t": "Pasportingizni yoʻqotib qoʻysangiz, nima qilardingiz?"
+  },
+  "a2-u4-l16.build-co-by-ste.traps": {
+    "en": [
+      "Would do is the conditional: the past form + by ste: by ste **robili**.",
+      "After keby comes the past form: keby ste **stratili**."
+    ],
+    "t": [
+      "«Qilardingiz» — shart mayli: oʻtgan zamon shakli + by ste: by ste **robili**.",
+      "keby dan keyin oʻtgan zamon shakli keladi: keby ste **stratili**."
+    ]
+  },
+  "a2-u4-l16.fill-co-by-si.en": {
+    "en": "What would you do if you missed the train to Žilina?",
+    "t": "Jilinaga ketadigan poyezdga ulgurmasang, nima qilarding?"
+  },
+  "a2-u4-l16.fill-co-by-si.why": {
+    "en": "After keby si, use the past form: keby si **nestihla**.",
+    "t": "keby si dan keyin oʻtgan zamon shaklini ishlating: keby si **nestihla**."
+  },
+  "a2-u4-l16.build-keby-som-bola.answers": {
+    "en": [
+      "If I were in Dublin, I'd be with my family."
+    ],
+    "t": [
+      "Dublinda boʻlganimda, oilam bilan boʻlardim.",
+      "Agar Dublinda boʻlganimda, oilam bilan boʻlardim.",
+      "Dublinda boʻlsam edi, oilam bilan boʻlardim.",
+      "Dublinda boʻlsam, oilam bilan boʻlardim."
+    ]
+  },
+  "a2-u4-l16.build-keby-som-bola.distractors": {
+    "en": [
+      "was",
+      "friends"
+    ],
+    "t": [
+      "boʻldim",
+      "doʻstlarim"
+    ]
+  },
+  "a2-u4-l16.fill-keby-sme-mali.en": {
+    "en": "If we had a car, we'd drive to the station.",
+    "t": "Mashinamiz boʻlganida, vokzalga mashinada borardik."
+  },
+  "a2-u4-l16.fill-keby-sme-mali.why": {
+    "en": "With my, the past form ends in **-li**: **išli** by sme.",
+    "t": "my bilan oʻtgan zamon shakli **-li** bilan tugaydi: **išli** by sme."
+  },
+  "a2-u4-l16.speak-keby-som-mala.en": {
+    "en": "If I had time, I'd come.",
+    "t": "Vaqtim boʻlganida, kelardim."
+  },
+  "a2-u4-l17.titleEn": {
+    "en": "Bad luck on the way",
+    "t": "Yoʻldagi omadsizlik"
+  },
+  "a2-u4-l17.zruseny-let.en": {
+    "en": "cancelled flight",
+    "t": "bekor qilingan reys"
+  },
+  "a2-u4-l17.zruseny-let.note": {
+    "en": "Monday evening in Dublin: the flight to London is **zrušený** (zrušiť = to cancel). Emma's flight only **mešká**, so she waits in the **čakacia hala** (waiting hall).",
+    "t": "Dushanba kechqurun, Dublin: Londonga reys **zrušený** — bekor qilingan (zrušiť = bekor qilmoq). Emmaning reysi esa faqat **mešká** (kechikyapti), shuning uchun u **čakacia hala** da (kutish zalida) kutadi."
+  },
+  "a2-u4-l17.choice-let-do-londyna.question": {
+    "en": "What does the board say?",
+    "t": "Tabloda nima deyilgan?"
+  },
+  "a2-u4-l17.choice-let-do-londyna.options": {
+    "en": [
+      "The flight to London is cancelled.",
+      "The flight to London is delayed.",
+      "The flight to London is full."
+    ],
+    "t": [
+      "Londonga reys bekor qilingan.",
+      "Londonga reys kechikyapti.",
+      "Londonga reysda joy qolmagan."
+    ]
+  },
+  "a2-u4-l17.fill-emmino-lietadlo.en": {
+    "en": "Emma's plane was two hours late.",
+    "t": "Emmaning samolyoti ikki soat kechikdi."
+  },
+  "a2-u4-l17.fill-emmino-lietadlo.why": {
+    "en": "Lietadlo is neuter, so the past form ends in **-lo**: meška**lo**.",
+    "t": "Lietadlo — oʻrta jinsda, shuning uchun oʻtgan zamon **-lo** bilan tugaydi: meška**lo**."
+  },
+  "a2-u4-l17.pricestovat.en": {
+    "en": "to arrive (from a journey)",
+    "t": "(safardan) yetib kelmoq"
+  },
+  "a2-u4-l17.pricestovat.note": {
+    "en": "**od**cestovať = to leave on a journey. Emma odcestovala vo štvrtok a **pri**cestovala v pondelok **o polnoci** (at midnight).",
+    "t": "**od**cestovať = safarga joʻnab ketmoq. Emma odcestovala vo štvrtok a **pri**cestovala v pondelok **o polnoci**. = Emma payshanba kuni joʻnab ketdi va dushanba kuni yarim tunda qaytib keldi."
+  },
+  "a2-u4-l17.fill-emma-do-bratislavy.en": {
+    "en": "Emma arrived in Bratislava at midnight.",
+    "t": "Emma Bratislavaga yarim tunda yetib keldi."
+  },
+  "a2-u4-l17.fill-emma-do-bratislavy.why": {
+    "en": "Getting to Bratislava is arriving: **pri**cestovala. Pri- (prí- in príchod and prílet) means arriving. Odcestovala means she left.",
+    "t": "Bratislavaga yetib kelish — kelish: **pri**cestovala. Pri- (príchod va prílet dagi prí-) kelishni bildiradi. Odcestovala esa u joʻnab ketganini bildiradi."
+  },
+  "a2-u4-l17.posledny-autobus.en": {
+    "en": "the last bus",
+    "t": "oxirgi avtobus"
+  },
+  "a2-u4-l17.posledny-autobus.note": {
+    "en": "**Nestihla som posledný autobus.** = I missed the last bus. **zmeškať** also means to miss: zmeškať vlak.",
+    "t": "**Nestihla som posledný autobus.** = Oxirgi avtobusga ulgurmadim. **zmeškať** ham «ulgurmay qolmoq» degani: zmeškať vlak (poyezddan qolib ketmoq)."
+  },
+  "a2-u4-l17.build-emma-nestihla-posledny.prompt": {
+    "en": "Emma missed the last bus.",
+    "t": "Emma oxirgi avtobusga ulgurmadi."
+  },
+  "a2-u4-l17.build-emma-nestihla-posledny.traps": {
+    "en": [
+      "Emma is a woman, so the past form ends in **-la**: nestih**la**.",
+      "The bus is the object, and masculine things don't change: **posledný** autobus."
+    ],
+    "t": [
+      "Emma — ayol, shuning uchun oʻtgan zamon **-la** bilan tugaydi: nestih**la**.",
+      "Avtobus — toʻldiruvchi, erkak jinsidagi narsalar esa oʻzgarmaydi: **posledný** autobus."
+    ]
+  },
+  "a2-u4-l17.fill-jej-kufor.en": {
+    "en": "Her suitcase didn't arrive in Bratislava.",
+    "t": "Uning chamadoni Bratislavaga kelmadi."
+  },
+  "a2-u4-l17.fill-jej-kufor.why": {
+    "en": "Kufor is masculine, so the past of prísť is **prišiel**, with ne- in front: **ne**prišiel.",
+    "t": "Kufor — erkak jinsida, shuning uchun prísť ning oʻtgan zamoni **prišiel**, oldida ne- bilan: **ne**prišiel."
+  },
+  "a2-u4-l17.choice-emma-caka-na.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "a2-u4-l17.choice-emma-caka-na.options": {
+    "en": [
+      "Emma is waiting at the station for the next train.",
+      "Emma is on the bus, but it's late.",
+      "Emma is waiting at the stop, but the bus won't come any more."
+    ],
+    "t": [
+      "Emma vokzalda keyingi poyezdni kutyapti.",
+      "Emma avtobusda, lekin avtobus kechikyapti.",
+      "Emma bekatda kutyapti, lekin avtobus endi kelmaydi."
+    ]
+  },
+  "a2-u4-l17.mala-som-smolu.en": {
+    "en": "I was unlucky. (a woman speaking)",
+    "t": "Omadim kelmadi. (ayol gapiryapti)"
+  },
+  "a2-u4-l17.mala-som-smolu.note": {
+    "en": "**smola** = bad luck. The opposite: Mala som šťastie. = I was lucky.",
+    "t": "**smola** = omadsizlik. Teskarisi: Mala som šťastie. = Omadim keldi."
+  },
+  "a2-u4-l17.co-ti-je.en": {
+    "en": "What's wrong?",
+    "t": "Senga nima boʻldi?"
+  },
+  "a2-u4-l17.co-ti-je.note": {
+    "en": "Asked when someone looks upset or ill. To someone you call vy: **Čo vám je?**",
+    "t": "Kimdir xafa yoki betob koʻrinsa, shunday soʻraladi. Vy deb murojaat qilinadigan odamga: **Čo vám je?** (Sizga nima boʻldi?)"
+  },
+  "a2-u4-l17.choice-rano-lucia-vidi.question": {
+    "en": "In the morning Lucia sees that Emma is upset. What does she ask?",
+    "t": "Ertalab Lusiya Emmaning xafa ekanini koʻradi. U nima deb soʻraydi?"
+  },
+  "a2-u4-l17.choice-rano-lucia-vidi.why": {
+    "en": "Emma is her friend, so Lucia says ty: Čo **ti** je? Čo vám je is for someone you call vy.",
+    "t": "Emma — uning dugonasi, shuning uchun Lusiya ty deydi: Čo **ti** je? Čo vám je — vy deb murojaat qilinadigan odam uchun."
+  },
+  "a2-u4-l17.build-taxik-bol-drahy.prompt": {
+    "en": "The taxi was very expensive.",
+    "t": "Taksi juda qimmat boʻldi."
+  },
+  "a2-u4-l17.build-taxik-bol-drahy.traps": {
+    "en": [
+      "After **bol**, describing the taxi itself (a noun), use the adjective: drah**ý**. Draho goes with a verb.",
+      "Taxík is masculine, so the adjective ends in **-ý**: drah**ý**."
+    ],
+    "t": [
+      "**bol** dan keyin taksining oʻzini (otni) tasvirlaganda sifat kerak: drah**ý**. Draho feʼl bilan keladi.",
+      "Taxík — erkak jinsida, shuning uchun sifat **-ý** bilan tugaydi: drah**ý**."
+    ]
+  },
+  "a2-u4-l17.pokazit-sa.en": {
+    "en": "to break down",
+    "t": "buzilib qolmoq"
+  },
+  "a2-u4-l17.pokazit-sa.note": {
+    "en": "Električka sa pokazila. = The tram broke down. Tomáš is never late, but that morning…",
+    "t": "Električka sa pokazila. = Tramvay buzilib qoldi. Tomash hech qachon kechikmaydi, lekin oʻsha kuni ertalab…"
+  },
+  "a2-u4-l17.choice-elektricka-sa-pokazila.question": {
+    "en": "Why was Tomáš late?",
+    "t": "Tomash nega kechikdi?"
+  },
+  "a2-u4-l17.choice-elektricka-sa-pokazila.options": {
+    "en": [
+      "He missed the tram.",
+      "The tram was full.",
+      "The tram broke down."
+    ],
+    "t": [
+      "U tramvayga ulgurmadi.",
+      "Tramvay odamga toʻla edi.",
+      "Tramvay buzilib qoldi."
+    ]
+  },
+  "a2-u4-l17.match-smola.pairs": {
+    "en": [
+      "cancelled flight",
+      "the last bus",
+      "bad luck",
+      "to break down",
+      "to lose"
+    ],
+    "t": [
+      "bekor qilingan reys",
+      "oxirgi avtobus",
+      "omadsizlik",
+      "buzilib qolmoq",
+      "yoʻqotmoq"
+    ]
+  },
+  "a2-u4-l17.build-emma-odcestovala-vo.answers": {
+    "en": [
+      "Emma left on Thursday and arrived on Monday."
+    ],
+    "t": [
+      "Emma payshanba kuni joʻnab ketdi va dushanba kuni qaytib keldi.",
+      "Emma payshanba kuni joʻnab ketib, dushanba kuni qaytib keldi.",
+      "Emma payshanba kuni joʻnab ketdi va dushanba kuni yetib keldi.",
+      "Emma payshanba kuni ketdi va dushanba kuni qaytib keldi."
+    ]
+  },
+  "a2-u4-l17.build-emma-odcestovala-vo.distractors": {
+    "en": [
+      "Tuesday",
+      "flew"
+    ],
+    "t": [
+      "seshanba",
+      "uchdi"
+    ]
+  },
+  "a2-u4-l17.speak-no-co-uz.en": {
+    "en": "Oh well, I was unlucky.",
+    "t": "Nachora, omadim kelmadi."
+  },
+  "a2-u4-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Yozma mashq"
+  },
+  "a2-u4-pisanie.listen-jeden-spiatocny-listok.en": {
+    "en": "One return ticket to Žilina, please.",
+    "t": "Jilinaga bitta borib-kelish chiptasi, iltimos."
+  },
+  "a2-u4-pisanie.listen-prepacte-je-tu.en": {
+    "en": "Excuse me, is this seat free?",
+    "t": "Kechirasiz, bu joy boʻshmi?"
+  },
+  "a2-u4-pisanie.listen-kam-to-bude.en": {
+    "en": "Where to? To the airport, please.",
+    "t": "Qayerga boramiz? Aeroportga, iltimos."
+  },
+  "a2-u4-pisanie.listen-chcela-by-som.en": {
+    "en": "I'd like a window seat reservation.",
+    "t": "Deraza yonidagi joyga bron olmoqchi edim."
+  },
+  "a2-u4-pisanie.listen-tomas-vacsinou-pracuje.en": {
+    "en": "Tomáš mostly works from home.",
+    "t": "Tomash koʻpincha uydan turib ishlaydi."
+  },
+  "a2-u4-pisanie.listen-lucia-zaplatila-pokutu.en": {
+    "en": "Lucia paid a fine because she forgot her card.",
+    "t": "Lusiya jarima toʻladi, chunki guvohnomasini unutgan edi."
+  },
+  "a2-u4-pisanie.listen-keby-som-mala.en": {
+    "en": "If I had time, I'd go with you.",
+    "t": "Vaqtim boʻlganida, sizlar bilan borardim."
+  },
+  "a2-u4-pisanie.listen-lietadlo-meskalo.en": {
+    "en": "The plane was two hours late.",
+    "t": "Samolyot ikki soat kechikdi."
+  },
+  "a2-u4-l18.titleEn": {
+    "en": "Review",
+    "t": "Takrorlash"
+  },
+  "a2-u4-l18.match-cestovanie.pairs": {
+    "en": [
+      "platform",
+      "seat reservation",
+      "plane ticket",
+      "receipt",
+      "luggage"
+    ],
+    "t": [
+      "platforma",
+      "joy broni",
+      "aviachipta",
+      "chek",
+      "yuk"
+    ]
+  },
+  "a2-u4-l18.fill-jeden-spiatocny.en": {
+    "en": "One return ticket to Košice, please.",
+    "t": "Koshitsega bitta borib-kelish chiptasi, iltimos."
+  },
+  "a2-u4-l18.fill-jeden-spiatocny.why": {
+    "en": "Lístok is masculine, so the adjective ends in **-ý**: spiatočn**ý**.",
+    "t": "Lístok — erkak jinsida, shuning uchun sifat **-ý** bilan tugaydi: spiatočn**ý**."
+  },
+  "a2-u4-l18.choice-vlak-do-kosic.question": {
+    "en": "Listen to the announcement. What does it say?",
+    "t": "Eʼlonni tinglang. Unda nima deyilyapti?"
+  },
+  "a2-u4-l18.choice-vlak-do-kosic.options": {
+    "en": [
+      "The train to Košice is half an hour late.",
+      "The train to Košice leaves in half an hour.",
+      "The train from Košice arrives in an hour."
+    ],
+    "t": [
+      "Koshitsega ketadigan poyezd yarim soat kechikyapti.",
+      "Koshitsega ketadigan poyezd yarim soatdan keyin joʻnaydi.",
+      "Koshitsedan keladigan poyezd bir soatdan keyin yetib keladi."
+    ]
+  },
+  "a2-u4-l18.build-chceli-by-sme-dva.prompt": {
+    "en": "We'd like two tickets to Žilina.",
+    "t": "Jilinaga ikkita chipta olmoqchi edik."
+  },
+  "a2-u4-l18.build-chceli-by-sme-dva.traps": {
+    "en": [
+      "Lístok is masculine, so two is **dva**: dva lístky.",
+      "We is my, so after by comes **sme**."
+    ],
+    "t": [
+      "Lístok — erkak jinsida, shuning uchun «ikki» — **dva**: dva lístky.",
+      "«Biz» — my, shuning uchun by dan keyin **sme**."
+    ]
+  },
+  "a2-u4-l18.fill-ic-cko-ide.en": {
+    "en": "The IC goes faster than the fast train.",
+    "t": "IC poyezdi tezyurar poyezddan tezroq yuradi."
+  },
+  "a2-u4-l18.fill-ic-cko-ide.why": {
+    "en": "It says how the train goes, so it's the adverb, and with **ako** (than) the comparative: rýchl**ejšie**.",
+    "t": "Gap poyezd qanday yurishi haqida, shuning uchun ravish kerak, **ako** (…dan) bilan esa qiyosiy daraja: rýchl**ejšie**."
+  },
+  "a2-u4-l18.fill-kufor-ktory-som.en": {
+    "en": "The suitcase I lost is at the airport.",
+    "t": "Men yoʻqotgan chamadon aeroportda."
+  },
+  "a2-u4-l18.fill-kufor-ktory-som.why": {
+    "en": "Kufor is a masculine thing, and as the object it keeps **ktorý**. Ktorého is only for men.",
+    "t": "Kufor — erkak jinsidagi narsa, toʻldiruvchi sifatida esa **ktorý** ni saqlaydi. Ktorého faqat erkak kishilar uchun."
+  },
+  "a2-u4-l18.build-lietadlo-meskalo-preto.prompt": {
+    "en": "The plane was late, so Emma took a taxi.",
+    "t": "Samolyot kechikdi, shuning uchun Emma taksida ketdi."
+  },
+  "a2-u4-l18.build-lietadlo-meskalo-preto.traps": {
+    "en": [
+      "The taxi is the result of the delay, so it's **preto** (so). Lebo brings a cause.",
+      "Lietadlo is neuter, so the past form ends in **-lo**: meška**lo**."
+    ],
+    "t": [
+      "Taksi — kechikishning natijasi, shuning uchun **preto** (shuning uchun). Lebo sababni bildiradi.",
+      "Lietadlo — oʻrta jinsda, shuning uchun oʻtgan zamon **-lo** bilan tugaydi: meška**lo**."
+    ]
+  },
+  "a2-u4-l18.choice-kedy-by-si.question": {
+    "en": "Which is right?",
+    "t": "Qaysi biri toʻgʻri?"
+  },
+  "a2-u4-l18.choice-kedy-by-si.why": {
+    "en": "**By** comes second, right after kedy; then si, then sa: Kedy **by si sa**…",
+    "t": "**By** ikkinchi oʻrinda, kedy dan darhol keyin; keyin si, keyin sa: Kedy **by si sa**…"
+  },
+  "a2-u4-l18.fill-keby-som-mal.en": {
+    "en": "If I had the money, I'd fly to Dublin.",
+    "t": "Pulim boʻlganida, Dublinga uchib ketardim."
+  },
+  "a2-u4-l18.fill-keby-som-mal.why": {
+    "en": "The other half of a keby sentence is the conditional: the past form + by som: **letel** by som.",
+    "t": "keby bilan kelgan gapning ikkinchi qismi shart maylida boʻladi: oʻtgan zamon shakli + by som: **letel** by som."
+  },
+  "a2-u4-l18.build-deti-cestuju-s.answers": {
+    "en": [
+      "Children travel with a half-fare ticket."
+    ],
+    "t": [
+      "Bolalar yarim narxdagi chipta bilan yuradi.",
+      "Bolalar yarim narxli chipta bilan yuradi.",
+      "Bolalar yarim narxdagi chiptada yuradi.",
+      "Bolalar yarim narxdagi chipta bilan sayohat qiladi."
+    ]
+  },
+  "a2-u4-l18.build-deti-cestuju-s.distractors": {
+    "en": [
+      "full",
+      "adults"
+    ],
+    "t": [
+      "toʻliq",
+      "kattalar"
+    ]
+  },
+  "a2-u4-l18.fill-tomas-nemal-by.en": {
+    "en": "Tomáš, you shouldn't work so much.",
+    "t": "Tomash, bunchalik koʻp ishlamasliging kerak."
+  },
+  "a2-u4-l18.fill-tomas-nemal-by.why": {
+    "en": "Tomáš is a friend, ty, so after by comes **si**.",
+    "t": "Tomash — doʻst, ty, shuning uchun by dan keyin **si**."
+  },
+  "a2-u4-l18.fill-neviem-mozno.en": {
+    "en": "I don't know, maybe I'll come, maybe not.",
+    "t": "Bilmadim, balki kelarman, balki yoʻq."
+  },
+  "a2-u4-l18.fill-neviem-mozno.why": {
+    "en": "The speaker isn't sure, so it's **možno** (maybe), like the možno nie after it. Určite means definitely.",
+    "t": "Gapiruvchining ishonchi komil emas, shuning uchun **možno** (balki), xuddi undan keyingi možno nie kabi. Určite — «albatta»."
+  },
+  "a2-u4-l18.build-lietadlom-je-to.prompt": {
+    "en": "By plane it's the fastest.",
+    "t": "Samolyotda eng tez."
+  },
+  "a2-u4-l18.build-lietadlom-je-to.traps": {
+    "en": [
+      "The fastest of all is the superlative, with **naj-**: **naj**rýchlejšie.",
+      "By plane is the means: the instrumental, lietadl**om**."
+    ],
+    "t": [
+      "«Hammasidan tez» — orttirma daraja, **naj-** bilan: **naj**rýchlejšie.",
+      "Samolyotda — vosita: inštrumentál, lietadl**om**."
+    ]
+  },
+  "a2-u4-l18.build-rozlucka-na-stanici.answers": {
+    "en": [
+      "The goodbye at the station was sad."
+    ],
+    "t": [
+      "Vokzaldagi xayrlashuv gʻamgin boʻldi.",
+      "Vokzaldagi xayrlashuv qaygʻuli boʻldi.",
+      "Vokzalda xayrlashuv gʻamgin boʻldi."
+    ]
+  },
+  "a2-u4-l18.build-rozlucka-na-stanici.distractors": {
+    "en": [
+      "airport",
+      "happy"
+    ],
+    "t": [
+      "aeroportdagi",
+      "quvnoq"
+    ]
+  },
+  "a2-u4-l18.build-emma-cakala-dve.answers": {
+    "en": [
+      "Emma waited two hours in the waiting hall."
+    ],
+    "t": [
+      "Emma kutish zalida ikki soat kutdi.",
+      "Emma ikki soat kutish zalida kutdi.",
+      "Emma kutish zalida ikki soat kutib turdi."
+    ]
+  },
+  "a2-u4-l18.build-emma-cakala-dve.distractors": {
+    "en": [
+      "minutes",
+      "station"
+    ],
+    "t": [
+      "daqiqa",
+      "vokzalda"
+    ]
+  },
+  "a2-u4-l18.speak-pomohli-by-ste.en": {
+    "en": "Could you help me with my suitcase?",
+    "t": "Chamadonimga yordamlashib yubora olmaysizmi?"
+  }
+}

@@ -1,0 +1,4454 @@
+{
+  "a2-u9.titleEn": {
+    "en": "The zoo, the circus and a romantic dinner",
+    "t": "ზოოპარკი, ცირკი და რომანტიკული ვახშამი"
+  },
+  "a2-u9.topics": {
+    "en": [
+      "Animals and the zoo",
+      "The circus",
+      "A family recipe and baking",
+      "A romantic dinner",
+      "Love and relationships"
+    ],
+    "t": [
+      "ცხოველები და ზოოპარკი",
+      "ცირკი",
+      "საოჯახო რეცეპტი და ცხობა",
+      "რომანტიკული ვახშამი",
+      "სიყვარული და ურთიერთობები"
+    ]
+  },
+  "a2-u9.grammar": {
+    "en": [
+      "Animal nouns: singular like people, plural like things",
+      "Active participles: spiaci lev, vedúci",
+      "Passive participles: uvarený, prestretý",
+      "byť + participle, and bývať"
+    ],
+    "t": [
+      "ცხოველთა სახელები: მხოლობითში — როგორც ადამიანები, მრავლობითში — როგორც ნივთები",
+      "მოქმედებითი გვარის მიმღეობები: spiaci lev, vedúci",
+      "ვნებითი გვარის მიმღეობები: uvarený, prestretý",
+      "byť + მიმღეობა და bývať"
+    ]
+  },
+  "a2-u9-l1.titleEn": {
+    "en": "Visitors from Dublin",
+    "t": "სტუმრები დუბლინიდან"
+  },
+  "a2-u9-l1.milovat.en": {
+    "en": "to love",
+    "t": "სიყვარული"
+  },
+  "a2-u9-l1.milovat.note": {
+    "en": "It goes like študovať: **milujem**, miluješ, miluje… Sarah miluje zvieratá. = Sarah loves animals.",
+    "t": "უღლდება როგორც študovať: **milujem**, miluješ, miluje… Sarah miluje zvieratá. = სარას ცხოველები უყვარს."
+  },
+  "a2-u9-l1.choice-liam-a-sarah.question": {
+    "en": "Emma's brother Liam (15) and her sister Sarah (11) live in Dublin. What does this mean?",
+    "t": "ემას 15 წლის ძმა ლიამი და 11 წლის დაიკო სარა დუბლინში ცხოვრობენ. რას ნიშნავს ეს?"
+  },
+  "a2-u9-l1.choice-liam-a-sarah.options": {
+    "en": [
+      "Liam and Sarah are going home.",
+      "Liam and Sarah have got visitors.",
+      "Liam and Sarah are coming to visit."
+    ],
+    "t": [
+      "ლიამი და სარა შინ ბრუნდებიან.",
+      "ლიამსა და სარას სტუმრები ჰყავთ.",
+      "ლიამი და სარა სტუმრად ჩამოდიან."
+    ]
+  },
+  "a2-u9-l1.choice-sarah-ma-jedenast.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "a2-u9-l1.choice-sarah-ma-jedenast.options": {
+    "en": [
+      "Sarah is eleven and loves animals.",
+      "Sarah is eleven and has a lot of animals.",
+      "Sarah is fifteen and loves animals."
+    ],
+    "t": [
+      "სარა თერთმეტი წლისაა და ცხოველები უყვარს.",
+      "სარა თერთმეტი წლისაა და ბევრი ცხოველი ჰყავს.",
+      "სარა თხუთმეტი წლისაა და ცხოველები უყვარს."
+    ]
+  },
+  "a2-u9-l1.fill-liam-a-sarah-miluju.en": {
+    "en": "Liam and Sarah love animals.",
+    "t": "ლიამსა და სარას ცხოველები უყვართ."
+  },
+  "a2-u9-l1.fill-liam-a-sarah-miluju.why": {
+    "en": "Liam a Sarah are two people, oni, so the verb ends in **-ú**: miluj**ú**, like študujú.",
+    "t": "Liam a Sarah ორი ადამიანია, oni, ამიტომ ზმნა **-ú**-ზე ბოლოვდება: miluj**ú**, როგორც študujú."
+  },
+  "a2-u9-l1.build-zajtra-ideme-do.prompt": {
+    "en": "We're going to the zoo tomorrow.",
+    "t": "ხვალ ზოოპარკში მივდივართ."
+  },
+  "a2-u9-l1.build-zajtra-ideme-do.traps": {
+    "en": [
+      "Going into a place like the zoo takes **do**: do zoo, like do kina.",
+      "“We” is my, so **ideme**. Idú is oni."
+    ],
+    "t": [
+      "ზოოპარკისნაირ ადგილას წასვლა (შიგნით შესვლა) **do**-თი ითქმის: do zoo, როგორც do kina. ქართულში აქ „-ში“ გვაქვს.",
+      "„ჩვენ“ არის my, ამიტომ **ideme**. Idú oni-ს ფორმაა."
+    ]
+  },
+  "a2-u9-l1.build-sarah-chce-psa.prompt": {
+    "en": "Sarah wants a dog.",
+    "t": "სარას ძაღლი უნდა."
+  },
+  "a2-u9-l1.build-sarah-chce-psa.traps": {
+    "en": [
+      "The dog is what Sarah wants, the object. A dog is alive, so it adds **-a**, like brat → brata: **psa**.",
+      "Sarah is ona, so **chce**. Chcem is ja."
+    ],
+    "t": [
+      "ძაღლი ის არის, რაც სარას უნდა, ანუ ობიექტი. ძაღლი სულიერია, ამიტომ **-a**-ს იღებს, როგორც brat → brata: **psa**.",
+      "სარა = ona, ამიტომ **chce**. Chcem ja-ს ფორმაა."
+    ]
+  },
+  "a2-u9-l1.na-vlastne-oci.en": {
+    "en": "with my (your, her…) own eyes",
+    "t": "საკუთარი თვალით"
+  },
+  "a2-u9-l1.na-vlastne-oci.note": {
+    "en": "Chcem to vidieť **na vlastné oči**. = I want to see it with my own eyes. (oči = eyes)",
+    "t": "Chcem to vidieť **na vlastné oči**. = მინდა, ეს საკუთარი თვალით ვნახო. (oči = თვალები; სლოვაკურად აქ მრავლობითია)"
+  },
+  "a2-u9-l1.fill-sarah-chce-vidiet.en": {
+    "en": "Sarah wants to see the animals with her own eyes.",
+    "t": "სარას უნდა, რომ ცხოველები საკუთარი თვალით ნახოს."
+  },
+  "a2-u9-l1.fill-sarah-chce-vidiet.why": {
+    "en": "Oči (eyes) is plural, so the adjective ends in **-é**: vlastn**é** oči, like tie nové mosty.",
+    "t": "Oči (თვალები) მრავლობითია, ამიტომ ზედსართავი **-é**-ზე ბოლოვდება: vlastn**é** oči, როგორც tie nové mosty."
+  },
+  "a2-u9-l1.match-navsteva.pairs": {
+    "en": [
+      "visit",
+      "animal",
+      "dog",
+      "to love"
+    ],
+    "t": [
+      "სტუმრობა",
+      "ცხოველი",
+      "ძაღლი",
+      "სიყვარული"
+    ]
+  },
+  "a2-u9-l1.choice-uz-sa-neviem.question": {
+    "en": "It's the evening before the zoo. What does Sarah say?",
+    "t": "ზოოპარკის წინა საღამოა. რას ამბობს სარა?"
+  },
+  "a2-u9-l1.fill-brat-a-sestra.en": {
+    "en": "My brother and sister are coming to visit.",
+    "t": "ჩემი ძმა და დაიკო სტუმრად ჩამოდიან."
+  },
+  "a2-u9-l1.fill-brat-a-sestra.why": {
+    "en": "Here na answers “where to?”, so it takes the object form: -a → **-u**, na návštev**u**.",
+    "t": "აქ na „საით?“ კითხვას პასუხობს, ამიტომ ობიექტის ფორმას მოითხოვს: -a → **-u**, na návštev**u**."
+  },
+  "a2-u9-l1.build-mam-navstevu-z.answers": {
+    "en": [
+      "I've got visitors from Ireland.",
+      "I have visitors from Ireland."
+    ],
+    "t": [
+      "ირლანდიიდან სტუმრები მყავს.",
+      "სტუმრები მყავს ირლანდიიდან.",
+      "მყავს სტუმრები ირლანდიიდან."
+    ]
+  },
+  "a2-u9-l1.build-mam-navstevu-z.distractors": {
+    "en": [
+      "friends",
+      "Scotland"
+    ],
+    "t": [
+      "მეგობრები",
+      "შოტლანდიიდან"
+    ]
+  },
+  "a2-u9-l1.speak-uz-sa-neviem.en": {
+    "en": "I can't wait!",
+    "t": "ვეღარ ვითმენ!"
+  },
+  "a2-u9-l2.titleEn": {
+    "en": "At the zoo",
+    "t": "ზოოპარკში"
+  },
+  "a2-u9-l2.lev.en": {
+    "en": "lion",
+    "t": "ლომი"
+  },
+  "a2-u9-l2.lev.note": {
+    "en": "As an object, a lion adds -a, like a person: Vidím **leva**. = I can see a lion.",
+    "t": "ობიექტის ფორმაში ლომი, ადამიანივით, -a-ს იღებს: Vidím **leva**. = ლომს ვხედავ."
+  },
+  "a2-u9-l2.tiger.en": {
+    "en": "tiger",
+    "t": "ვეფხვი"
+  },
+  "a2-u9-l2.tiger.note": {
+    "en": "The e drops before an ending: Vidím **tigra**.",
+    "t": "დაბოლოების წინ e იკარგება: Vidím **tigra**. (ვეფხვს ვხედავ.)"
+  },
+  "a2-u9-l2.choice-chcem-vidiet-leva.question": {
+    "en": "Sarah wants to see a lion. What does she say?",
+    "t": "სარას ლომის ნახვა უნდა. რას ამბობს?"
+  },
+  "a2-u9-l2.choice-chcem-vidiet-leva.why": {
+    "en": "A lion is alive, so as the object it adds **-a**, like brat → brata: vidieť **leva**. Tigra is a tiger.",
+    "t": "ლომი სულიერია, ამიტომ ობიექტად **-a**-ს იღებს, როგორც brat → brata: vidieť **leva**. Tigra ვეფხვია."
+  },
+  "a2-u9-l2.slon.en": {
+    "en": "elephant",
+    "t": "სპილო"
+  },
+  "a2-u9-l2.slon.note": {
+    "en": "Slon je veľký. Vidíš **slona**? = Can you see the elephant?",
+    "t": "Slon je veľký. = სპილო დიდია. Vidíš **slona**? = სპილოს ხედავ?"
+  },
+  "a2-u9-l2.opica.en": {
+    "en": "monkey",
+    "t": "მაიმუნი"
+  },
+  "a2-u9-l2.opica.note": {
+    "en": "It goes like káva: Vidím **opicu**.",
+    "t": "ბრუნდება როგორც káva: Vidím **opicu**. (მაიმუნს ვხედავ.)"
+  },
+  "a2-u9-l2.fill-sarah-vidi-slona.en": {
+    "en": "Sarah can see an elephant.",
+    "t": "სარა სპილოს ხედავს."
+  },
+  "a2-u9-l2.fill-sarah-vidi-slona.why": {
+    "en": "One elephant as the object: animals add **-a**, like people, so vidí **slona**.",
+    "t": "ერთი სპილო ობიექტად: ცხოველები, ადამიანებივით, **-a**-ს იღებენ, ამიტომ vidí **slona**."
+  },
+  "a2-u9-l2.zirafa.en": {
+    "en": "giraffe",
+    "t": "ჟირაფი"
+  },
+  "a2-u9-l2.medved.en": {
+    "en": "bear",
+    "t": "დათვი"
+  },
+  "a2-u9-l2.medved.note": {
+    "en": "As an object: **medveďa**.",
+    "t": "ობიექტად: **medveďa**."
+  },
+  "a2-u9-l2.match-zvierata.pairs": {
+    "en": [
+      "lion",
+      "elephant",
+      "monkey",
+      "giraffe",
+      "bear"
+    ],
+    "t": [
+      "ლომი",
+      "სპილო",
+      "მაიმუნი",
+      "ჟირაფი",
+      "დათვი"
+    ]
+  },
+  "a2-u9-l2.ktore-zviera-mas.en": {
+    "en": "Which animal do you like best?",
+    "t": "რომელი ცხოველი გიყვარს ყველაზე მეტად?"
+  },
+  "a2-u9-l2.ktore-zviera-mas.note": {
+    "en": "**najradšej** = best of all. Najradšej mám opice. = I like monkeys best.",
+    "t": "**najradšej** = ყველაზე მეტად. Najradšej mám opice. = ყველაზე მეტად მაიმუნები მიყვარს."
+  },
+  "a2-u9-l2.choice-najradsej-mam-zirafy.question": {
+    "en": "Liam answers. Which animals does he like best?",
+    "t": "ლიამი პასუხობს. რომელი ცხოველები უყვარს ყველაზე მეტად?"
+  },
+  "a2-u9-l2.choice-najradsej-mam-zirafy.options": {
+    "en": [
+      "Monkeys.",
+      "Giraffes.",
+      "Bears."
+    ],
+    "t": [
+      "მაიმუნები.",
+      "ჟირაფები.",
+      "დათვები."
+    ]
+  },
+  "a2-u9-l2.build-ktore-zviera-mas.prompt": {
+    "en": "Which animal do you like best, Sarah?",
+    "t": "რომელი ცხოველი გიყვარს ყველაზე მეტად, სარა?"
+  },
+  "a2-u9-l2.build-ktore-zviera-mas.traps": {
+    "en": [
+      "Zviera is neuter, so “which” is **ktoré**, like ktoré okno.",
+      "Emma says ty to her little sister: **máš**."
+    ],
+    "t": [
+      "Zviera საშუალო სქესისაა, ამიტომ „რომელი“ არის **ktoré**, როგორც ktoré okno.",
+      "ემა პატარა დას ty-თი (შენობით) მიმართავს: **máš**."
+    ]
+  },
+  "a2-u9-l2.fill-najradsej-mam-opice.en": {
+    "en": "I like monkeys best.",
+    "t": "ყველაზე მეტად მაიმუნები მიყვარს."
+  },
+  "a2-u9-l2.fill-najradsej-mam-opice.why": {
+    "en": "Monkeys in general means the plural, opica → **opice**, like rieka → rieky. As an object, it doesn't change.",
+    "t": "მაიმუნები ზოგადად მრავლობითია: opica → **opice**, როგორც rieka → rieky. ობიექტად ეს ფორმა არ იცვლება."
+  },
+  "a2-u9-l2.build-medved-je-velky.answers": {
+    "en": [
+      "The bear is big and strong."
+    ],
+    "t": [
+      "დათვი დიდი და ძლიერია.",
+      "დათვი დიდია და ძლიერი."
+    ]
+  },
+  "a2-u9-l2.build-medved-je-velky.distractors": {
+    "en": [
+      "weak",
+      "small"
+    ],
+    "t": [
+      "სუსტია",
+      "პატარა"
+    ]
+  },
+  "a2-u9-l2.choice-zirafa-je-vysoka.question": {
+    "en": "Which is true?",
+    "t": "რომელია სწორი?"
+  },
+  "a2-u9-l2.choice-zirafa-je-vysoka.options": {
+    "en": [
+      "The giraffe is big and the elephant is tall.",
+      "The monkey is tall and the bear is big.",
+      "The giraffe is tall and the elephant is big."
+    ],
+    "t": [
+      "ჟირაფი დიდია, სპილო კი მაღალი.",
+      "მაიმუნი მაღალია, დათვი კი დიდი.",
+      "ჟირაფი მაღალია, სპილო კი დიდი."
+    ]
+  },
+  "a2-u9-l2.choice-ahoj-mami-sme.question": {
+    "en": "Emma phones her mum in Dublin from the zoo. What does she say?",
+    "t": "ემა ზოოპარკიდან დუბლინში დედას ურეკავს. რას ეუბნება?"
+  },
+  "a2-u9-l2.choice-ahoj-mami-sme.why": {
+    "en": "Family gets ty and **Ahoj**; mami is how you call your mum. Emma is there with Liam and Sarah, so “we are”: **sme**.",
+    "t": "ოჯახის წევრებს ty-თი და **Ahoj**-ით მიმართავენ; mami ასე ეძახიან დედას. ემა იქ ლიამთან და სარასთან ერთადაა, ამიტომ „ვართ“: **sme**."
+  },
+  "a2-u9-l2.speak-ktore-zviera-mas.en": {
+    "en": "Which animal do you like best?",
+    "t": "რომელი ცხოველი გიყვარს ყველაზე მეტად?"
+  },
+  "a2-u9-l3.titleEn": {
+    "en": "One lion, two lions",
+    "t": "ერთი ლომი, ორი ლომი"
+  },
+  "a2-u9-l3.grammar-animal-singular.title": {
+    "en": "One animal: like a person",
+    "t": "ერთი ცხოველი: როგორც ადამიანი"
+  },
+  "a2-u9-l3.grammar-animal-singular.body": {
+    "en": [
+      "You know from A1 that animals add **-a** as objects, like people: Vidím leva, like brat → brata. They follow people in the other cases too: with s it's **-om**, and after o it's **-ovi**, like o Tomášovi.",
+      "Pes loses its e (psa, o psovi), and so does tiger (tigra)."
+    ],
+    "t": [
+      "A1-დან იცით, რომ ცხოველები ობიექტად **-a**-ს იღებენ, ადამიანებივით: Vidím leva, როგორც brat → brata (ქართულ გრამატიკაშიც ცხოველი სულიერია). სხვა ბრუნვებშიც ადამიანებს მიჰყვებიან: s-თან („-თან ერთად“) **-om**, o-ს („შესახებ“) შემდეგ კი **-ovi**, როგორც o Tomášovi.",
+      "Pes კარგავს e-ს (psa, o psovi), ასევე tiger (tigra)."
+    ]
+  },
+  "a2-u9-l3.grammar-animal-singular.table.head": {
+    "en": [
+      "",
+      "a person",
+      "an animal"
+    ],
+    "t": [
+      "",
+      "ადამიანი",
+      "ცხოველი"
+    ]
+  },
+  "a2-u9-l3.grammar-animal-singular.table.rows": {
+    "en": [
+      [
+        "kto? čo?",
+        "brat",
+        "lev"
+      ],
+      [
+        "koho? čo?",
+        "brat**a**",
+        "lev**a**"
+      ],
+      [
+        "s kým?",
+        "s brat**om**",
+        "s lev**om**"
+      ],
+      [
+        "o kom?",
+        "o brat**ovi**",
+        "o lev**ovi**"
+      ]
+    ],
+    "t": [
+      [
+        "kto? čo?",
+        "brat",
+        "lev"
+      ],
+      [
+        "koho? čo?",
+        "brat**a**",
+        "lev**a**"
+      ],
+      [
+        "s kým?",
+        "s brat**om**",
+        "s lev**om**"
+      ],
+      [
+        "o kom?",
+        "o brat**ovi**",
+        "o lev**ovi**"
+      ]
+    ]
+  },
+  "a2-u9-l3.grammar-animal-singular.examples": {
+    "en": [
+      "Sarah can see a lion.",
+      "Liam wants a dog.",
+      "We're talking about the elephant."
+    ],
+    "t": [
+      "სარა ლომს ხედავს.",
+      "ლიამს ძაღლი უნდა.",
+      "სპილოზე ვლაპარაკობთ."
+    ]
+  },
+  "a2-u9-l3.fill-emma-vidi-leva.en": {
+    "en": "Emma can see a lion.",
+    "t": "ემა ლომს ხედავს."
+  },
+  "a2-u9-l3.fill-emma-vidi-leva.why": {
+    "en": "One lion as the object takes **-a**, like a person: vidí **leva**. Levovi goes after o: o levovi.",
+    "t": "ერთი ლომი ობიექტად **-a**-ს იღებს, ადამიანივით: vidí **leva**. Levovi o-ს შემდეგ დგას: o levovi."
+  },
+  "a2-u9-l3.fill-liam-hovori-o.en": {
+    "en": "Liam is talking about the tiger.",
+    "t": "ლიამი ვეფხვზე ლაპარაკობს."
+  },
+  "a2-u9-l3.fill-liam-hovori-o.why": {
+    "en": "O (about) takes the locative, and an animal adds **-ovi**, like a person: o **tigrovi**, o Tomášovi.",
+    "t": "O („შესახებ“) lokál-ს (ადგილობით ბრუნვას) მოითხოვს, ცხოველი კი, ადამიანივით, **-ovi**-ს იღებს: o **tigrovi**, o Tomášovi."
+  },
+  "a2-u9-l3.grammar-animal-plural.title": {
+    "en": "Many animals: like things",
+    "t": "ბევრი ცხოველი: როგორც ნივთები"
+  },
+  "a2-u9-l3.grammar-animal-plural.body": {
+    "en": [
+      "In the plural, animals switch sides: they change like things (mosty, hotely), not like men. So it's **tie** levy, adjectives end in **-é**, and the object form doesn't change: Vidím levy.",
+      "Soft words end in **-e**, like kaviarne: medveď → medvede, kôň → kone, papagáj → papagáje. Tiger drops its e: tigre."
+    ],
+    "t": [
+      "მრავლობითში ცხოველები მხარეს იცვლიან: ისინი ნივთებივით იცვლებიან (mosty, hotely), არა კაცებივით. ამიტომ **tie** levy, ზედსართავები **-é**-ზე ბოლოვდება, ობიექტის ფორმა კი არ იცვლება: Vidím levy.",
+      "რბილი სიტყვები **-e**-ზე ბოლოვდება, როგორც kaviarne: medveď → medvede, kôň → kone, papagáj → papagáje. Tiger e-ს კარგავს: tigre."
+    ]
+  },
+  "a2-u9-l3.grammar-animal-plural.table.head": {
+    "en": [
+      "one",
+      "more than one"
+    ],
+    "t": [
+      "ერთი",
+      "ერთზე მეტი"
+    ]
+  },
+  "a2-u9-l3.grammar-animal-plural.table.rows": {
+    "en": [
+      [
+        "lev",
+        "lev**y**"
+      ],
+      [
+        "slon",
+        "slon**y**"
+      ],
+      [
+        "pes",
+        "ps**y**"
+      ],
+      [
+        "krokodíl (crocodile)",
+        "krokodíl**y**"
+      ],
+      [
+        "tiger",
+        "tigr**e**"
+      ],
+      [
+        "medveď",
+        "medved**e**"
+      ],
+      [
+        "kôň (horse)",
+        "kon**e**"
+      ],
+      [
+        "papagáj (parrot)",
+        "papagáj**e**"
+      ]
+    ],
+    "t": [
+      [
+        "lev",
+        "lev**y**"
+      ],
+      [
+        "slon",
+        "slon**y**"
+      ],
+      [
+        "pes",
+        "ps**y**"
+      ],
+      [
+        "krokodíl (ნიანგი)",
+        "krokodíl**y**"
+      ],
+      [
+        "tiger",
+        "tigr**e**"
+      ],
+      [
+        "medveď",
+        "medved**e**"
+      ],
+      [
+        "kôň (ცხენი)",
+        "kon**e**"
+      ],
+      [
+        "papagáj (თუთიყუში)",
+        "papagáj**e**"
+      ]
+    ]
+  },
+  "a2-u9-l3.grammar-animal-plural.examples": {
+    "en": [
+      "Those lions are big.",
+      "Sarah can see the elephants and the giraffes.",
+      "Liam likes horses."
+    ],
+    "t": [
+      "ის ლომები დიდები არიან.",
+      "სარა სპილოებსა და ჟირაფებს ხედავს.",
+      "ლიამს ცხენები უყვარს."
+    ]
+  },
+  "a2-u9-l3.fill-tie-slony-su.en": {
+    "en": "Those elephants are big.",
+    "t": "ის სპილოები დიდები არიან."
+  },
+  "a2-u9-l3.fill-tie-slony-su.why": {
+    "en": "In the plural, animals change like things: tie **slony**, with -y. Sloni would be the ending for men.",
+    "t": "მრავლობითში ცხოველები ნივთებივით იცვლებიან: tie **slony**, -y-ით. Sloni კაცების დაბოლოება იქნებოდა."
+  },
+  "a2-u9-l3.fill-sarah-hovori-s.en": {
+    "en": "Sarah is talking to the parrot.",
+    "t": "სარა თუთიყუშს ელაპარაკება."
+  },
+  "a2-u9-l3.fill-sarah-hovori-s.why": {
+    "en": "S (with) takes the instrumental. One parrot works like a person: s **papagájom**, like s bratom.",
+    "t": "S („-თან ერთად“) inštrumentál-ს (მოქმედებით ბრუნვას) მოითხოვს. ერთი თუთიყუში ადამიანივით იცვლება: s **papagájom**, როგორც s bratom."
+  },
+  "a2-u9-l3.choice-tie-papagaje-hovoria.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "a2-u9-l3.choice-tie-papagaje-hovoria.options": {
+    "en": [
+      "That parrot speaks English!",
+      "Those parrots speak English!",
+      "Those parrots understand English!"
+    ],
+    "t": [
+      "ის თუთიყუში ინგლისურად ლაპარაკობს!",
+      "ის თუთიყუშები ინგლისურად ლაპარაკობენ!",
+      "იმ თუთიყუშებს ინგლისური ესმით!"
+    ]
+  },
+  "a2-u9-l3.choice-tie-papagaje-hovoria.why": {
+    "en": "**Tie papagáje** is plural: soft words end in -e, like kaviarne. The verb is plural too: hovor**ia**.",
+    "t": "**Tie papagáje** მრავლობითია: რბილი სიტყვები -e-ზე ბოლოვდება, როგორც kaviarne. ზმნაც მრავლობითშია: hovor**ia**."
+  },
+  "a2-u9-l3.build-sarah-miluje-kone.prompt": {
+    "en": "Sarah loves horses.",
+    "t": "სარას ცხენები უყვარს."
+  },
+  "a2-u9-l3.build-sarah-miluje-kone.traps": {
+    "en": [
+      "Horses in general are plural, and kôň gives **kone**. Koňa is one horse as the object.",
+      "Sarah is ona: **miluje**. Milujem is ja."
+    ],
+    "t": [
+      "ცხენები ზოგადად მრავლობითია, kôň-ისგან კი **kone** მიიღება. Koňa ერთი ცხენია ობიექტად.",
+      "სარა = ona: **miluje**. Milujem ja-ს ფორმაა."
+    ]
+  },
+  "a2-u9-l3.grammar-counting-animals.title": {
+    "en": "Counting animals",
+    "t": "ცხოველების თვლა"
+  },
+  "a2-u9-l3.grammar-counting-animals.body": {
+    "en": [
+      "Animals count like things too: **dva**, tri, štyri + the plural, dva psy, tri levy. Dvaja, traja, štyria are only for men: dvaja kamaráti.",
+      "From five up, the noun takes the -ov form you know from päť rokov: päť slon**ov**, desať papagáj**ov**. Kôň is irregular: päť koní."
+    ],
+    "t": [
+      "ცხოველებიც ნივთებივით ითვლება: **dva**, tri, štyri + მრავლობითი, dva psy, tri levy (ქართულისგან განსხვავებით, სადაც რიცხვის შემდეგ მხოლობითია: ორი ლომი). Dvaja, traja, štyria მხოლოდ კაცებისთვისაა: dvaja kamaráti.",
+      "ხუთიდან ზემოთ არსებითი სახელი -ov ფორმას იღებს, რომელიც päť rokov-იდან იცით: päť slon**ov**, desať papagáj**ov**. Kôň არაწესიერია: päť koní."
+    ]
+  },
+  "a2-u9-l3.grammar-counting-animals.table.head": {
+    "en": [
+      "",
+      "animals",
+      "men"
+    ],
+    "t": [
+      "",
+      "ცხოველები",
+      "კაცები"
+    ]
+  },
+  "a2-u9-l3.grammar-counting-animals.table.rows": {
+    "en": [
+      [
+        "1",
+        "jeden lev",
+        "jeden kamarát"
+      ],
+      [
+        "2",
+        "**dva** lev**y**",
+        "**dvaja** kamarát**i**"
+      ],
+      [
+        "3, 4",
+        "tri, štyri lev**y**",
+        "traja, štyria kamarát**i**"
+      ],
+      [
+        "5…",
+        "päť lev**ov**",
+        "päť kamarát**ov**"
+      ]
+    ],
+    "t": [
+      [
+        "1",
+        "jeden lev",
+        "jeden kamarát"
+      ],
+      [
+        "2",
+        "**dva** lev**y**",
+        "**dvaja** kamarát**i**"
+      ],
+      [
+        "3, 4",
+        "tri, štyri lev**y**",
+        "traja, štyria kamarát**i**"
+      ],
+      [
+        "5…",
+        "päť lev**ov**",
+        "päť kamarát**ov**"
+      ]
+    ]
+  },
+  "a2-u9-l3.grammar-counting-animals.examples": {
+    "en": [
+      "There are two elephants at the zoo.",
+      "Liam saw five tigers."
+    ],
+    "t": [
+      "ზოოპარკში ორი სპილოა.",
+      "ლიამმა ხუთი ვეფხვი ნახა."
+    ]
+  },
+  "a2-u9-l3.choice-tri-opice-a.question": {
+    "en": "Sarah can see three monkeys and two bears. What does she say?",
+    "t": "სარა სამ მაიმუნს და ორ დათვს ხედავს. რას ამბობს?"
+  },
+  "a2-u9-l3.choice-tri-opice-a.why": {
+    "en": "Bears count like things: **dva** medvede. Dvaja is only for men, and the -ov form comes after five.",
+    "t": "დათვები ნივთებივით ითვლება: **dva** medvede. Dvaja მხოლოდ კაცებისთვისაა, -ov ფორმა კი ხუთიდან იწყება."
+  },
+  "a2-u9-l3.fill-v-zoo-je-pat.en": {
+    "en": "There are five elephants at the zoo.",
+    "t": "ზოოპარკში ხუთი სპილოა."
+  },
+  "a2-u9-l3.fill-v-zoo-je-pat.why": {
+    "en": "From five up, the -ov form: päť **slonov**, like päť rokov.",
+    "t": "ხუთიდან ზემოთ -ov ფორმაა: päť **slonov**, როგორც päť rokov."
+  },
+  "a2-u9-l3.build-v-zoo-su-dva.prompt": {
+    "en": "There are two tigers and a lion at the zoo.",
+    "t": "ზოოპარკში ორი ვეფხვი და ერთი ლომია."
+  },
+  "a2-u9-l3.build-v-zoo-su-dva.traps": {
+    "en": [
+      "Animals count like things: **dva** tigre. Dvaja is for men: dvaja kamaráti.",
+      "Animal plurals follow things, and tiger drops its e: **tigre**. Tigri would sound like a group of men."
+    ],
+    "t": [
+      "ცხოველები ნივთებივით ითვლება: **dva** tigre. Dvaja კაცებისთვისაა: dvaja kamaráti.",
+      "ცხოველების მრავლობითი ნივთებს მიჰყვება, tiger კი e-ს კარგავს: **tigre**. Tigri ისე ჟღერს, თითქოს კაცების ჯგუფზე იყოს ლაპარაკი."
+    ]
+  },
+  "a2-u9-l3.choice-liam-hlada-psa.question": {
+    "en": "Which sentence is about one dog?",
+    "t": "რომელი წინადადებაა ერთ ძაღლზე?"
+  },
+  "a2-u9-l3.choice-liam-hlada-psa.why": {
+    "en": "**Psa** is one dog as the object, like a person. Psy is the plural, which works like things.",
+    "t": "**Psa** ერთი ძაღლია ობიექტად, ადამიანივით. Psy მრავლობითია, რომელიც ნივთებივით იცვლება."
+  },
+  "a2-u9-l3.build-videli-sme-tri.prompt": {
+    "en": "We saw three bears and five lions.",
+    "t": "სამი დათვი და ხუთი ლომი ვნახეთ."
+  },
+  "a2-u9-l3.build-videli-sme-tri.traps": {
+    "en": [
+      "Bears count like things: **tri** medvede. Traja is for men.",
+      "After five comes the -ov form: päť **levov**. Levy is for two to four."
+    ],
+    "t": [
+      "დათვები ნივთებივით ითვლება: **tri** medvede. Traja კაცებისთვისაა.",
+      "ხუთის შემდეგ -ov ფორმა მოდის: päť **levov**. Levy ორიდან ოთხამდეა."
+    ]
+  },
+  "a2-u9-l3.speak-v-zoo-su-dva.en": {
+    "en": "There are two elephants at the zoo.",
+    "t": "ზოოპარკში ორი სპილოა."
+  },
+  "a2-u9-l4.titleEn": {
+    "en": "Shall we go to the circus?",
+    "t": "წავიდეთ ცირკში?"
+  },
+  "a2-u9-l4.cirkus.en": {
+    "en": "circus",
+    "t": "ცირკი"
+  },
+  "a2-u9-l4.cirkus.note": {
+    "en": "Ideme **do cirkusu**. = We're going to the circus. Cirkus **bez** zvierat = a circus without animals.",
+    "t": "Ideme **do cirkusu**. = ცირკში მივდივართ. Cirkus **bez** zvierat = ცირკი ცხოველების გარეშე."
+  },
+  "a2-u9-l4.predstavenie.en": {
+    "en": "show, performance",
+    "t": "წარმოდგენა"
+  },
+  "a2-u9-l4.predstavenie.note": {
+    "en": "Predstavenie začína o siedmej. = The show starts at seven.",
+    "t": "Predstavenie začína o siedmej. = წარმოდგენა შვიდზე იწყება."
+  },
+  "a2-u9-l4.choice-pozyvam-vas-do.question": {
+    "en": "Sarah has seen a circus poster in town. Emma invites her and Liam. What does she say?",
+    "t": "სარამ ქალაქში ცირკის აფიშა დაინახა. ემა მას და ლიამს ეპატიჟება. რას ამბობს?"
+  },
+  "a2-u9-l4.choice-pozyvam-vas-do.why": {
+    "en": "Two people are vy, so the object form is **vás**. Ťa is for one friend.",
+    "t": "ორი ადამიანი vy-ა, ამიტომ ობიექტის ფორმაა **vás** (როგორც ქართულ „გეპატიჟებით“-ში). Ťa ერთი მეგობრისთვისაა."
+  },
+  "a2-u9-l4.tyranie-zvierat.en": {
+    "en": "cruelty to animals",
+    "t": "ცხოველების მიმართ სისასტიკე"
+  },
+  "a2-u9-l4.tyranie-zvierat.note": {
+    "en": "**týrať** = to treat cruelly. Zvierat = of animals; cirkus **so zvieratami** = a circus with animals. **Podľa mňa** je to týranie zvierat. = In my opinion, it's cruelty to animals.",
+    "t": "**týrať** = წამება, სასტიკად მოპყრობა. Zvierat = ცხოველების; cirkus **so zvieratami** = ცხოველებიანი ცირკი. **Podľa mňa** je to týranie zvierat. = ჩემი აზრით, ეს ცხოველების მიმართ სისასტიკეა."
+  },
+  "a2-u9-l4.choice-cirkus-so-zvieratami.question": {
+    "en": "Liam doesn't like circuses with animals. What does he say?",
+    "t": "ლიამს ცხოველებიანი ცირკები არ მოსწონს. რას ამბობს?"
+  },
+  "a2-u9-l4.uznavam.en": {
+    "en": "I admit it. / Fair enough.",
+    "t": "ვაღიარებ. / ვეთანხმები."
+  },
+  "a2-u9-l4.uznavam.note": {
+    "en": "From **uznávať** (to admit). Uznávam, máš **pravdu**. = I admit you're right.",
+    "t": "**uznávať**-იდან (აღიარება). Uznávam, máš **pravdu**. = ვაღიარებ, მართალი ხარ."
+  },
+  "a2-u9-l4.fill-uznavam-mas-pravdu.en": {
+    "en": "I admit you're right.",
+    "t": "ვაღიარებ, მართალი ხარ."
+  },
+  "a2-u9-l4.fill-uznavam-mas-pravdu.why": {
+    "en": "Liam is talking about himself, ja, so the verb ends in **-m**: uznáva**m**.",
+    "t": "ლიამი საკუთარ თავზე ლაპარაკობს, ja, ამიტომ ზმნა **-m**-ზე ბოლოვდება: uznáva**m**."
+  },
+  "a2-u9-l4.zmenit-nazor.en": {
+    "en": "to change your mind",
+    "t": "აზრის შეცვლა"
+  },
+  "a2-u9-l4.zmenit-nazor.note": {
+    "en": "**názor** = opinion. Ľudia menia názory. = People change their minds.",
+    "t": "**názor** = აზრი, შეხედულება. Ľudia menia názory. = ადამიანები აზრს იცვლიან."
+  },
+  "a2-u9-l4.fill-liam-zmenil-nazor.en": {
+    "en": "A circus without animals? Liam has changed his mind.",
+    "t": "ცირკი ცხოველების გარეშე? ლიამმა აზრი შეიცვალა."
+  },
+  "a2-u9-l4.fill-liam-zmenil-nazor.why": {
+    "en": "Liam is a man, so the past ends in **-l**: zmenil.",
+    "t": "ლიამი კაცია, ამიტომ წარსული **-l**-ზე ბოლოვდება: zmenil."
+  },
+  "a2-u9-l4.hodi-sa-vam.en": {
+    "en": "Does that suit you?",
+    "t": "გაწყობთ?"
+  },
+  "a2-u9-l4.hodi-sa-vam.note": {
+    "en": "**hodiť sa** = to suit, to be convenient. Who it suits takes the to-whom form: Hodí sa **mi** to. = That suits me. To one friend: Hodí sa **ti** to?",
+    "t": "**hodiť sa** = აწყობა, მოხერხებულობა. როგორც ქართულ „მაწყობს“-ში, ვისაც აწყობს, ის datív-შია (მიცემით ბრუნვაში): Hodí sa **mi** to. = ეს მაწყობს. მეგობარს: Hodí sa **ti** to? (გაწყობს?)"
+  },
+  "a2-u9-l4.listky-su-vypredane.en": {
+    "en": "The tickets are sold out.",
+    "t": "ბილეთები გაყიდულია."
+  },
+  "a2-u9-l4.listky-su-vypredane.note": {
+    "en": "You know vypredaný from the castle in May: Prehliadka je vypredaná. It comes from vypredať (to sell out), and this unit has more words like it.",
+    "t": "vypredaný მაისიდან იცით, ციხესიმაგრის ექსკურსიიდან: Prehliadka je vypredaná. ის vypredať-იდან (გაყიდვა) მოდის, როგორც „გაყიდული“ — „გაყიდვიდან“. ამ თავში ასეთი სიტყვები კიდევ შეგხვდებათ."
+  },
+  "a2-u9-l4.choice-listky-na-sobotu.question": {
+    "en": "The woman at the box office says this. What does she offer?",
+    "t": "სალაროში ქალი ამას ამბობს. რას გთავაზობთ?"
+  },
+  "a2-u9-l4.choice-listky-na-sobotu.options": {
+    "en": [
+      "Tickets for Sunday.",
+      "Tickets for Saturday.",
+      "Cheaper tickets for Saturday."
+    ],
+    "t": [
+      "ბილეთებს კვირისთვის.",
+      "ბილეთებს შაბათისთვის.",
+      "უფრო იაფ ბილეთებს შაბათისთვის."
+    ]
+  },
+  "a2-u9-l4.fill-nedela-sa-nam.en": {
+    "en": "Yes, Sunday suits us.",
+    "t": "დიახ, კვირა გვაწყობს."
+  },
+  "a2-u9-l4.fill-nedela-sa-nam.why": {
+    "en": "Like páčiť sa, the thing that suits is the subject (nedeľa), and the people it suits take the to-whom form: **nám**.",
+    "t": "როგორც páčiť sa-ში, ის, რაც აწყობს, ქვემდებარეა (nedeľa), ვისაც აწყობს, ის კი datív-შია (მიცემით ბრუნვაში): **nám**. ზუსტად როგორც „კვირა გვაწყობს“."
+  },
+  "a2-u9-l4.build-su-listky-na.prompt": {
+    "en": "Are the tickets for Saturday sold out?",
+    "t": "შაბათის ბილეთები გაყიდულია?"
+  },
+  "a2-u9-l4.build-su-listky-na.traps": {
+    "en": [
+      "Lístky is plural, so the ending is **-é**: vypredan**é**, like nové mosty.",
+      "For a day, na takes the object form: na sobot**u**."
+    ],
+    "t": [
+      "Lístky მრავლობითია, ამიტომ დაბოლოებაა **-é**: vypredan**é**, როგორც nové mosty.",
+      "დღესთან na ობიექტის ფორმას მოითხოვს: na sobot**u**."
+    ]
+  },
+  "a2-u9-l4.match-cirkus.pairs": {
+    "en": [
+      "circus",
+      "show",
+      "cruelty to animals",
+      "opinion"
+    ],
+    "t": [
+      "ცირკი",
+      "წარმოდგენა",
+      "ცხოველების მიმართ სისასტიკე",
+      "აზრი"
+    ]
+  },
+  "a2-u9-l4.build-podla-mna-je.answers": {
+    "en": [
+      "In my opinion it's cruelty to animals."
+    ],
+    "t": [
+      "ჩემი აზრით, ეს ცხოველების მიმართ სისასტიკეა.",
+      "ეს, ჩემი აზრით, ცხოველების მიმართ სისასტიკეა."
+    ]
+  },
+  "a2-u9-l4.build-podla-mna-je.distractors": {
+    "en": [
+      "kindness",
+      "children"
+    ],
+    "t": [
+      "სიკეთეა",
+      "ბავშვების"
+    ]
+  },
+  "a2-u9-l4.speak-uznavam-mas-pravdu.en": {
+    "en": "I admit you're right.",
+    "t": "ვაღიარებ, მართალი ხარ."
+  },
+  "a2-u9-l5.titleEn": {
+    "en": "At the circus",
+    "t": "ცირკში"
+  },
+  "a2-u9-l5.artistka.en": {
+    "en": "circus performer (a woman)",
+    "t": "ცირკის არტისტი (ქალი)"
+  },
+  "a2-u9-l5.artistka.note": {
+    "en": "In a circus, artisti walk on ropes, fly through the air and juggle.",
+    "t": "ცირკში artisti თოკზე დადიან, ჰაერში დაფრინავენ და ჟონგლიორობენ."
+  },
+  "a2-u9-l5.lano.en": {
+    "en": "rope",
+    "t": "თოკი"
+  },
+  "a2-u9-l5.lano.note": {
+    "en": "**na lane** = on the rope.",
+    "t": "**na lane** = თოკზე."
+  },
+  "a2-u9-l5.choice-artistka-tancuje-na.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "a2-u9-l5.choice-artistka-tancuje-na.options": {
+    "en": [
+      "The performer is dancing on the stage.",
+      "The clown is dancing on the rope.",
+      "The performer is dancing on the rope."
+    ],
+    "t": [
+      "არტისტი სცენაზე ცეკვავს.",
+      "კლოუნი თოკზე ცეკვავს.",
+      "არტისტი თოკზე ცეკვავს."
+    ]
+  },
+  "a2-u9-l5.klaun.en": {
+    "en": "clown",
+    "t": "კლოუნი"
+  },
+  "a2-u9-l5.klaun.note": {
+    "en": "Plural like men: **klauni**. An old word for a clown or a fool is **šašo**.",
+    "t": "მრავლობითი კაცებივითაა: **klauni**. კლოუნის ან სულელის ძველი სიტყვაა **šašo**."
+  },
+  "a2-u9-l5.zonglovat.en": {
+    "en": "to juggle",
+    "t": "ჟონგლიორობა"
+  },
+  "a2-u9-l5.zonglovat.note": {
+    "en": "It goes like študovať: klaun **žongluje**.",
+    "t": "უღლდება როგორც študovať: klaun **žongluje**."
+  },
+  "a2-u9-l5.fill-dvaja-klauni-zongluju.en": {
+    "en": "Two clowns are juggling.",
+    "t": "ორი კლოუნი ჟონგლიორობს."
+  },
+  "a2-u9-l5.fill-dvaja-klauni-zongluju.why": {
+    "en": "Dvaja klauni are oni, so the verb ends in **-ú**: žongluj**ú**, like študujú.",
+    "t": "Dvaja klauni = oni, ამიტომ ზმნა **-ú**-ზე ბოლოვდება: žongluj**ú**, როგორც študujú. ქართულში რიცხვის შემდეგ ზმნა მხოლობითშია, სლოვაკურში კი მრავლობითში."
+  },
+  "a2-u9-l5.akrobat.en": {
+    "en": "acrobat",
+    "t": "აკრობატი"
+  },
+  "a2-u9-l5.vystupovat.en": {
+    "en": "to perform",
+    "t": "გამოსვლა (სცენაზე)"
+  },
+  "a2-u9-l5.vystupovat.note": {
+    "en": "V cirkuse **vystupujú** artisti a klauni. = Performers and clowns perform at the circus.",
+    "t": "V cirkuse **vystupujú** artisti a klauni. = ცირკში არტისტები და კლოუნები გამოდიან."
+  },
+  "a2-u9-l5.choice-traja-akrobati-vystupuju.question": {
+    "en": "Three acrobats are performing. Which is right?",
+    "t": "სამი აკრობატი გამოდის. რომელია სწორი?"
+  },
+  "a2-u9-l5.choice-traja-akrobati-vystupuju.why": {
+    "en": "Acrobats are people: men count with **traja** and take the men's plural, akrobat**i**. Tri with -y is for animals and things.",
+    "t": "აკრობატები ადამიანები არიან: კაცები **traja**-თი ითვლება და კაცების მრავლობითს იღებს: akrobat**i**. Tri და -y ცხოველებისა და ნივთებისთვისაა."
+  },
+  "a2-u9-l5.vzrusujuci.en": {
+    "en": "exciting",
+    "t": "ამაღელვებელი"
+  },
+  "a2-u9-l5.vzrusujuci.note": {
+    "en": "Its endings: vzrušujúci, vzrušujúca, vzrušujúce. Predstavenie bolo **vzrušujúce**! = The show was exciting!",
+    "t": "მისი დაბოლოებები: vzrušujúci, vzrušujúca, vzrušujúce. Predstavenie bolo **vzrušujúce**! = წარმოდგენა ამაღელვებელი იყო!"
+  },
+  "a2-u9-l5.fill-predstavenie-bolo-vzrusujuce.en": {
+    "en": "That was an exciting show!",
+    "t": "ეს ამაღელვებელი წარმოდგენა იყო!"
+  },
+  "a2-u9-l5.fill-predstavenie-bolo-vzrusujuce.why": {
+    "en": "Predstavenie is neuter, so the adjective takes the neuter ending, here **-e**: vzrušujúc**e**.",
+    "t": "Predstavenie საშუალო სქესისაა, ამიტომ ზედსართავი საშუალო სქესის დაბოლოებას იღებს, აქ **-e**: vzrušujúc**e**."
+  },
+  "a2-u9-l5.match-v-cirkuse.pairs": {
+    "en": [
+      "clown",
+      "rope",
+      "to juggle",
+      "to perform",
+      "acrobat"
+    ],
+    "t": [
+      "კლოუნი",
+      "თოკი",
+      "ჟონგლიორობა",
+      "გამოსვლა",
+      "აკრობატი"
+    ]
+  },
+  "a2-u9-l5.build-artistka-tancuje-na.prompt": {
+    "en": "The performer is dancing on the rope.",
+    "t": "არტისტი თოკზე ცეკვავს."
+  },
+  "a2-u9-l5.build-artistka-tancuje-na.traps": {
+    "en": [
+      "On the rope answers “where?”, so na takes the locative: na **lane**, like v meste.",
+      "One performer is ona: **tancuje**."
+    ],
+    "t": [
+      "„თოკზე“ „სად?“ კითხვას პასუხობს, ამიტომ na lokál-ს (ადგილობით ბრუნვას) მოითხოვს: na **lane**, როგორც v meste.",
+      "ერთი არტისტი ქალი = ona: **tancuje**."
+    ]
+  },
+  "a2-u9-l5.build-klauni-zongluju-a.answers": {
+    "en": [
+      "The clowns are juggling and the acrobats are performing."
+    ],
+    "t": [
+      "კლოუნები ჟონგლიორობენ, აკრობატები კი გამოდიან.",
+      "კლოუნები ჟონგლიორობენ და აკრობატები გამოდიან."
+    ]
+  },
+  "a2-u9-l5.build-klauni-zongluju-a.distractors": {
+    "en": [
+      "dancing",
+      "is"
+    ],
+    "t": [
+      "ცეკვავენ",
+      "ჟონგლიორობს"
+    ]
+  },
+  "a2-u9-l5.choice-to-bolo-vzrusujuce.question": {
+    "en": "Sarah says this after the show. What does she mean?",
+    "t": "სარა წარმოდგენის შემდეგ ამას ამბობს. რას გულისხმობს?"
+  },
+  "a2-u9-l5.choice-to-bolo-vzrusujuce.options": {
+    "en": [
+      "That was exciting!",
+      "That was boring!",
+      "That was too long!"
+    ],
+    "t": [
+      "ეს ამაღელვებელი იყო!",
+      "ეს მოსაწყენი იყო!",
+      "ეს ზედმეტად გრძელი იყო!"
+    ]
+  },
+  "a2-u9-l5.speak-predstavenie-bolo-vzrusujuce.en": {
+    "en": "The show was exciting!",
+    "t": "წარმოდგენა ამაღელვებელი იყო!"
+  },
+  "a2-u9-l6.titleEn": {
+    "en": "A sleeping lion: -úci, -iaci",
+    "t": "მძინარე ლომი: -úci, -iaci"
+  },
+  "a2-u9-l6.grammar-active-participles.title": {
+    "en": "-úci, -iaci: who is doing it",
+    "t": "-úci, -iaci: ვინც ამას აკეთებს"
+  },
+  "a2-u9-l6.grammar-active-participles.body": {
+    "en": [
+      "Slovak can turn a verb into an adjective that says what someone is doing right now: a lion that is sleeping is a **spiaci** lev. You'll mostly read and hear these. In speech, Slovaks often say lev, ktorý spí.",
+      "Take the oni form: -ú or -ia goes, and **-úci** or **-iaci** comes in: spia → spiaci, plávajú → plávajúci. It changes like an adjective: -i for masculine, **-a** for feminine, **-e** for neuter and for the plural (only men keep -i)."
+    ],
+    "t": [
+      "სლოვაკურში ზმნისგან შეიძლება ზედსართავი გაკეთდეს, რომელიც ამბობს, რას აკეთებს ვინმე ახლა: ლომი, რომელსაც სძინავს, არის **spiaci** lev, ზუსტად როგორც ქართული „მძინარე ლომი“ (ორივე მიმღეობაა). ასეთ სიტყვებს უმეტესად წაიკითხავთ და გაიგონებთ; ლაპარაკისას სლოვაკები ხშირად ამბობენ lev, ktorý spí.",
+      "აიღეთ oni-ს ფორმა: -ú ან -ia მოაშორეთ და დაუმატეთ **-úci** ან **-iaci**: spia → spiaci, plávajú → plávajúci. ის ზედსართავივით იცვლება: -i მამრობითისთვის, **-a** მდედრობითისთვის, **-e** საშუალოსა და მრავლობითისთვის (-i მხოლოდ კაცებთან რჩება)."
+    ]
+  },
+  "a2-u9-l6.grammar-active-participles.table.head": {
+    "en": [
+      "verb",
+      "oni",
+      "who is doing it"
+    ],
+    "t": [
+      "ზმნა",
+      "oni",
+      "ვინც ამას აკეთებს"
+    ]
+  },
+  "a2-u9-l6.grammar-active-participles.table.rows": {
+    "en": [
+      [
+        "spať",
+        "spia",
+        "spiac**i** lev"
+      ],
+      [
+        "sedieť",
+        "sedia",
+        "sediac**a** opica"
+      ],
+      [
+        "hovoriť",
+        "hovoria",
+        "hovoriac**i** papagáj"
+      ],
+      [
+        "plávať",
+        "plávajú",
+        "plávajúc**e** krokodíly"
+      ],
+      [
+        "čítať",
+        "čítajú",
+        "čítajúc**i** študent"
+      ],
+      [
+        "tancovať",
+        "tancujú",
+        "tancujúc**a** artistka"
+      ]
+    ],
+    "t": [
+      [
+        "spať",
+        "spia",
+        "spiac**i** lev"
+      ],
+      [
+        "sedieť",
+        "sedia",
+        "sediac**a** opica"
+      ],
+      [
+        "hovoriť",
+        "hovoria",
+        "hovoriac**i** papagáj"
+      ],
+      [
+        "plávať",
+        "plávajú",
+        "plávajúc**e** krokodíly"
+      ],
+      [
+        "čítať",
+        "čítajú",
+        "čítajúc**i** študent"
+      ],
+      [
+        "tancovať",
+        "tancujú",
+        "tancujúc**a** artistka"
+      ]
+    ]
+  },
+  "a2-u9-l6.grammar-active-participles.examples": {
+    "en": [
+      "There's a sleeping lion.",
+      "That talking parrot can speak Slovak."
+    ],
+    "t": [
+      "იქ მძინარე ლომია.",
+      "ის მოლაპარაკე თუთიყუში სლოვაკურად ლაპარაკობს."
+    ]
+  },
+  "a2-u9-l6.choice-co-je-spiaci.question": {
+    "en": "What is a spiaci lev?",
+    "t": "რა არის spiaci lev?"
+  },
+  "a2-u9-l6.choice-co-je-spiaci.options": {
+    "en": [
+      "a lion that is sleeping",
+      "a lion that is eating",
+      "a lion that is swimming"
+    ],
+    "t": [
+      "ლომი, რომელსაც სძინავს",
+      "ლომი, რომელიც ჭამს",
+      "ლომი, რომელიც ცურავს"
+    ]
+  },
+  "a2-u9-l6.choice-co-je-spiaci.why": {
+    "en": "Spiaci comes from spať (to sleep): spia → **spiaci**, the lion who is sleeping.",
+    "t": "Spiaci spať-იდან (ძილი) მოდის: spia → **spiaci**, ლომი, რომელსაც სძინავს."
+  },
+  "a2-u9-l6.fill-tam-je-spiaca.en": {
+    "en": "There's a sleeping monkey.",
+    "t": "იქ მძინარე მაიმუნია."
+  },
+  "a2-u9-l6.fill-tam-je-spiaca.why": {
+    "en": "Opica is feminine, so the -ci word ends in **-a**: spiac**a** opica.",
+    "t": "Opica მდედრობითია, ამიტომ -ci სიტყვა **-a**-ზე ბოლოვდება: spiac**a** opica."
+  },
+  "a2-u9-l6.fill-spiaci-lev-je.en": {
+    "en": "A sleeping lion is a lion that is asleep.",
+    "t": "მძინარე ლომი ლომია, რომელსაც სძინავს."
+  },
+  "a2-u9-l6.fill-spiaci-lev-je.why": {
+    "en": "A -ci word says what someone is doing now, so the ktorý clause uses the present, for one lion: **spí**.",
+    "t": "-ci სიტყვა ამბობს, რას აკეთებს ვინმე ახლა, ამიტომ ktorý-იან ნაწილში აწმყოა, ერთი ლომისთვის: **spí**."
+  },
+  "a2-u9-l6.choice-sarah-vidi-plavajuce.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "a2-u9-l6.choice-sarah-vidi-plavajuce.options": {
+    "en": [
+      "Sarah can see crocodiles sleeping.",
+      "Sarah is swimming with crocodiles.",
+      "Sarah can see crocodiles swimming."
+    ],
+    "t": [
+      "სარა ხედავს, როგორ სძინავთ ნიანგებს.",
+      "სარა ნიანგებთან ერთად ცურავს.",
+      "სარა ხედავს, როგორ ცურავენ ნიანგები."
+    ]
+  },
+  "a2-u9-l6.choice-sarah-vidi-plavajuce.why": {
+    "en": "**Plávajúce** comes from plávať (plávajú): crocodiles who are swimming. It ends in -e for animals in the plural.",
+    "t": "**Plávajúce** plávať-იდან (plávajú) მოდის: ნიანგები, რომლებიც ცურავენ. ცხოველების მრავლობითში ის -e-ზე ბოლოვდება."
+  },
+  "a2-u9-l6.grammar-participle-words.title": {
+    "en": "Everyday words in -úci",
+    "t": "ყოველდღიური სიტყვები -úci-ზე"
+  },
+  "a2-u9-l6.grammar-participle-words.body": {
+    "en": [
+      "Some -úci words have become everyday words. Used as nouns, they keep adjective endings: môj vedúci (my boss), moja vedúca (my boss, a woman).",
+      "Budúci and nasledujúci both mean “next”: budúci týždeň (next week), nasledujúca zastávka (the next stop)."
+    ],
+    "t": [
+      "ზოგი -úci სიტყვა ჩვეულებრივ სიტყვად იქცა (ქართულშიც ასეა: მასწავლებელი, მწერალი). არსებით სახელად ხმარებისას ისინი ზედსართავის დაბოლოებებს ინარჩუნებენ: môj vedúci (ჩემი უფროსი), moja vedúca (ჩემი უფროსი, ქალი).",
+      "Budúci და nasledujúci ორივე „შემდეგს“ ნიშნავს: budúci týždeň (მომავალი კვირა), nasledujúca zastávka (შემდეგი გაჩერება)."
+    ]
+  },
+  "a2-u9-l6.grammar-participle-words.table.head": {
+    "en": [
+      "word",
+      "meaning"
+    ],
+    "t": [
+      "სიტყვა",
+      "მნიშვნელობა"
+    ]
+  },
+  "a2-u9-l6.grammar-participle-words.table.rows": {
+    "en": [
+      [
+        "vedúci, vedúca",
+        "boss, manager"
+      ],
+      [
+        "cestujúci",
+        "passenger"
+      ],
+      [
+        "spolubývajúci, spolubývajúca",
+        "flatmate, roommate"
+      ],
+      [
+        "budúci",
+        "next (week, month, year)"
+      ],
+      [
+        "nasledujúci",
+        "next, following"
+      ],
+      [
+        "vzrušujúci",
+        "exciting"
+      ]
+    ],
+    "t": [
+      [
+        "vedúci, vedúca",
+        "უფროსი, ხელმძღვანელი"
+      ],
+      [
+        "cestujúci",
+        "მგზავრი"
+      ],
+      [
+        "spolubývajúci, spolubývajúca",
+        "ოთახის მეზობელი, თანამცხოვრები"
+      ],
+      [
+        "budúci",
+        "მომავალი (კვირა, თვე, წელი)"
+      ],
+      [
+        "nasledujúci",
+        "შემდეგი"
+      ],
+      [
+        "vzrušujúci",
+        "ამაღელვებელი"
+      ]
+    ]
+  },
+  "a2-u9-l6.grammar-participle-words.examples": {
+    "en": [
+      "Emma is Lucia's roommate.",
+      "Next week I'll be in Dublin.",
+      "Next stop: Zoo."
+    ],
+    "t": [
+      "ემა ლუციას ოთახის მეზობელია.",
+      "მომავალ კვირას დუბლინში ვიქნები.",
+      "შემდეგი გაჩერება: ზოოპარკი."
+    ]
+  },
+  "a2-u9-l6.fill-lucia-je-moja.en": {
+    "en": "Lucia is my roommate.",
+    "t": "ლუცია ჩემი ოთახის მეზობელია."
+  },
+  "a2-u9-l6.fill-lucia-je-moja.why": {
+    "en": "Lucia is a woman, so the feminine ending **-a**, like moja: spolubývajúc**a**.",
+    "t": "ლუცია ქალია, ამიტომ მდედრობითი დაბოლოება **-a**, როგორც moja: spolubývajúc**a**."
+  },
+  "a2-u9-l6.fill-moj-veduci-je.en": {
+    "en": "My boss is in a meeting today.",
+    "t": "ჩემი უფროსი დღეს თათბირზეა."
+  },
+  "a2-u9-l6.fill-moj-veduci-je.why": {
+    "en": "Môj is masculine, so the boss is a man: **vedúci**. A woman would be moja vedúca.",
+    "t": "Môj მამრობითია, ამიტომ უფროსი კაცია: **vedúci**. ქალი იქნებოდა moja vedúca."
+  },
+  "a2-u9-l6.choice-nasledujuca-zastavka-zoo.question": {
+    "en": "Emma, Liam and Sarah hear this on the bus. What does it mean?",
+    "t": "ემა, ლიამი და სარა ავტობუსში ამას ისმენენ. რას ნიშნავს?"
+  },
+  "a2-u9-l6.choice-nasledujuca-zastavka-zoo.options": {
+    "en": [
+      "Last stop: Zoo.",
+      "Next stop: Zoo.",
+      "This bus doesn't stop at the zoo."
+    ],
+    "t": [
+      "ბოლო გაჩერება: ზოოპარკი.",
+      "შემდეგი გაჩერება: ზოოპარკი.",
+      "ეს ავტობუსი ზოოპარკთან არ ჩერდება."
+    ]
+  },
+  "a2-u9-l6.build-buduci-tyzden-idu.prompt": {
+    "en": "Liam and Sarah are going home next week.",
+    "t": "ლიამი და სარა მომავალ კვირას სახლში ბრუნდებიან."
+  },
+  "a2-u9-l6.build-buduci-tyzden-idu.traps": {
+    "en": [
+      "Týždeň is masculine: **budúci** týždeň.",
+      "Liam a Sarah are oni: **idú**."
+    ],
+    "t": [
+      "Týždeň მამრობითია: **budúci** týždeň.",
+      "Liam a Sarah = oni: **idú**."
+    ]
+  },
+  "a2-u9-l6.grammar-participles-sa.title": {
+    "en": "With sa, and spiaci or spací?",
+    "t": "sa-თი, და spiaci თუ spací?"
+  },
+  "a2-u9-l6.grammar-participles-sa.body": {
+    "en": [
+      "Verbs with sa keep it after the -úci word: hrajúce **sa** deti, children playing (hrať sa, to play).",
+      "Don't mix them up with adjectives in **-cí**, which say what a thing is for: a spací vak is a sleeping bag, a bag for sleeping. A spiaci chlapec is a boy who is asleep."
+    ],
+    "t": [
+      "sa-იანი ზმნები -úci სიტყვის შემდეგაც ინარჩუნებენ sa-ს: hrajúce **sa** deti, მოთამაშე ბავშვები (hrať sa, თამაში).",
+      "ნუ აურევთ მათ **-cí**-ზე დაბოლოებულ ზედსართავებში, რომლებიც ამბობენ, რისთვისაა ნივთი: spací vak საძილე ტომარაა, ძილისთვის განკუთვნილი. spiaci chlapec კი ბიჭია, რომელსაც სძინავს. ზუსტად როგორც ქართულში „მძინარე“ და „საძილე“."
+    ]
+  },
+  "a2-u9-l6.grammar-participles-sa.table.head": {
+    "en": [
+      "-úci, -iaci: doing it",
+      "-cí: for doing it"
+    ],
+    "t": [
+      "-úci, -iaci: ვინც აკეთებს",
+      "-cí: რისთვისაა"
+    ]
+  },
+  "a2-u9-l6.grammar-participles-sa.table.rows": {
+    "en": [
+      [
+        "spiaci chlapec (a sleeping boy)",
+        "spací vak (a sleeping bag)"
+      ],
+      [
+        "píšuci študent (a student writing)",
+        "písací stôl (a writing desk)"
+      ]
+    ],
+    "t": [
+      [
+        "spiaci chlapec (მძინარე ბიჭი)",
+        "spací vak (საძილე ტომარა)"
+      ],
+      [
+        "píšuci študent (სტუდენტი, რომელიც წერს)",
+        "písací stôl (საწერი მაგიდა)"
+      ]
+    ]
+  },
+  "a2-u9-l6.grammar-participles-sa.examples": {
+    "en": [
+      "There are children playing in the park.",
+      "Liam is sleeping in a sleeping bag."
+    ],
+    "t": [
+      "პარკში ბავშვები თამაშობენ.",
+      "ლიამს საძილე ტომარაში სძინავს."
+    ]
+  },
+  "a2-u9-l6.choice-ktory-je-spaci.question": {
+    "en": "Which one is a sleeping bag?",
+    "t": "რომელია საძილე ტომარა?"
+  },
+  "a2-u9-l6.choice-ktory-je-spaci.why": {
+    "en": "A bag for sleeping takes **-cí**: spací vak. Spiaci means “who is sleeping right now”.",
+    "t": "ძილისთვის განკუთვნილი ტომარა **-cí**-ს იღებს: spací vak (საძილე). Spiaci ნიშნავს „ვისაც ახლა სძინავს“ (მძინარე)."
+  },
+  "a2-u9-l6.choice-hrajuce-sa-deti.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "a2-u9-l6.choice-hrajuce-sa-deti.options": {
+    "en": [
+      "children playing",
+      "children swimming",
+      "children's games"
+    ],
+    "t": [
+      "მოთამაშე ბავშვები",
+      "მოცურავე ბავშვები",
+      "ბავშვების თამაშები"
+    ]
+  },
+  "a2-u9-l6.choice-hrajuce-sa-deti.why": {
+    "en": "From hrať sa (to play): hrajú sa → hrajúce **sa**. Verbs with sa keep it after the -úci word.",
+    "t": "hrať sa-დან (თამაში): hrajú sa → hrajúce **sa**. sa-იანი ზმნები -úci სიტყვის შემდეგაც ინარჩუნებენ sa-ს."
+  },
+  "a2-u9-l6.build-cestujuci-cakaju-na.answers": {
+    "en": [
+      "The passengers are waiting for the bus."
+    ],
+    "t": [
+      "მგზავრები ავტობუსს ელოდებიან.",
+      "ავტობუსს მგზავრები ელოდებიან."
+    ]
+  },
+  "a2-u9-l6.build-cestujuci-cakaju-na.distractors": {
+    "en": [
+      "drivers",
+      "is"
+    ],
+    "t": [
+      "მძღოლები",
+      "ელოდება"
+    ]
+  },
+  "a2-u9-l6.speak-tam-je-spiaci.en": {
+    "en": "There's a sleeping lion.",
+    "t": "იქ მძინარე ლომია."
+  },
+  "a2-u9-l7.titleEn": {
+    "en": "Grandma's recipe",
+    "t": "ბებიას რეცეპტი"
+  },
+  "a2-u9-l7.babka-a-vnuk.en": {
+    "en": "Hi, Grandma!",
+    "t": "სალამი, ბებო!"
+  },
+  "a2-u9-l7.babka-a-vnuk.note": {
+    "en": "Marek calls babka Helena **babi**, the way you say mami to Mum. You know he's her vnuk and Lucia her vnučka from Christmas.",
+    "t": "მარეკი ბებია ჰელენას **babi**-ს ეძახის, ისევე როგორც დედას — mami. შობიდან იცით, რომ ის მისი vnuk-ია (შვილიშვილი, ბიჭი), ლუცია კი vnučka (შვილიშვილი, გოგო)."
+  },
+  "a2-u9-l7.kolac.en": {
+    "en": "cake",
+    "t": "ნამცხვარი"
+  },
+  "a2-u9-l7.kolac.note": {
+    "en": "A simple home-made cake, often baked in a tin. **babkin koláč** = Grandma's cake (babka → babkin, like Emma → Emmin).",
+    "t": "უბრალო შინაური ნამცხვარი, ხშირად ფორმაში გამომცხვარი. **babkin koláč** = ბებიას ნამცხვარი (babka → babkin, როგორც Emma → Emmin)."
+  },
+  "a2-u9-l7.recept.en": {
+    "en": "recipe",
+    "t": "რეცეპტი"
+  },
+  "a2-u9-l7.recept.note": {
+    "en": "**recept na** koláč = a recipe for a cake. At the doctor's, a recept is a prescription.",
+    "t": "**recept na** koláč = ნამცხვრის რეცეპტი. ქართულის მსგავსად, ექიმთან recept წამლის რეცეპტია."
+  },
+  "a2-u9-l7.choice-marek-telefonuje-s.question": {
+    "en": "Marek wants to cook dinner for Veronika, the doctor he met in winter. Why is he phoning his grandmother?",
+    "t": "მარეკს უნდა, ვახშამი მოუმზადოს ვერონიკას, ექიმს, რომელიც ზამთარში გაიცნო. რატომ ურეკავს ბებიას?"
+  },
+  "a2-u9-l7.choice-marek-telefonuje-s.options": {
+    "en": [
+      "He wants her to bake him a cake.",
+      "He wants her cake recipe.",
+      "He wants to invite her to dinner."
+    ],
+    "t": [
+      "უნდა, რომ ბებიამ ნამცხვარი გამოუცხოს.",
+      "ბებიას ნამცხვრის რეცეპტი უნდა.",
+      "უნდა, რომ ბებია ვახშამზე დაპატიჟოს."
+    ]
+  },
+  "a2-u9-l7.dlho-si-sa.en": {
+    "en": "We haven't heard from you for ages!",
+    "t": "რამდენი ხანია, არ გამოგვხმაურებიხარ!"
+  },
+  "a2-u9-l7.dlho-si-sa.note": {
+    "en": "**ozvať sa** = to get in touch. Babka says **nám**, “to us”: the whole family in Žilina.",
+    "t": "**ozvať sa** = გამოხმაურება, ხმის გაცემა. ბებია ამბობს **nám**, „ჩვენ“: მთელ ოჯახს გულისხმობს ჟილინაში."
+  },
+  "a2-u9-l7.fill-prepac-ze-som.en": {
+    "en": "Hi, Grandma! Sorry I haven't been in touch for so long.",
+    "t": "სალამი, ბებო! მაპატიე, რომ დიდხანს არ გამოგეხმაურე."
+  },
+  "a2-u9-l7.fill-prepac-ze-som.why": {
+    "en": "Marek is a man, so the past ends in **-l**: neozval. Lucia would say neozvala.",
+    "t": "მარეკი კაცია, ამიტომ წარსული **-l**-ზე ბოლოვდება: neozval. ლუცია იტყოდა neozvala."
+  },
+  "a2-u9-l7.stalo-sa-nieco.en": {
+    "en": "Has something happened? — No, don't worry.",
+    "t": "რამე მოხდა? — არა, ნუ ღელავ."
+  },
+  "a2-u9-l7.stalo-sa-nieco.note": {
+    "en": "**Neboj sa!** = Don't worry! To vy: Nebojte sa! It comes from báť sa, to be afraid.",
+    "t": "**Neboj sa!** = ნუ ღელავ! (სიტყვასიტყვით „ნუ გეშინია“). vy-სთან: Nebojte sa! báť sa-დან (შიში) მოდის."
+  },
+  "a2-u9-l7.choice-nie-neboj-sa.question": {
+    "en": "Babka asks: Stalo sa niečo? Marek wants to calm her down. What does he say?",
+    "t": "ბებია ეკითხება: Stalo sa niečo? მარეკს მისი დამშვიდება უნდა. რას ამბობს?"
+  },
+  "a2-u9-l7.choice-nie-neboj-sa.why": {
+    "en": "Marek says ty to his grandmother, so **neboj sa**. Nebojte sa is for vy.",
+    "t": "მარეკი ბებიას ty-თი (შენობით) მიმართავს, ამიტომ **neboj sa**. Nebojte sa vy-სთვისაა."
+  },
+  "a2-u9-l7.zvladnut.en": {
+    "en": "to manage, to cope",
+    "t": "თავის გართმევა"
+  },
+  "a2-u9-l7.zvladnut.note": {
+    "en": "It's perfective, so its present form means the future: **Zvládnem to.** = I'll manage.",
+    "t": "ის სრული ასპექტისაა, ამიტომ მისი აწმყოს ფორმა მომავალს ნიშნავს: **Zvládnem to.** = თავს გავართმევ."
+  },
+  "a2-u9-l7.si-si-isty.en": {
+    "en": "Are you sure?",
+    "t": "დარწმუნებული ხარ?"
+  },
+  "a2-u9-l7.si-si-isty.note": {
+    "en": "**istý** = sure. Si si istý, že to zvládneš? = Are you sure you'll manage?",
+    "t": "**istý** = დარწმუნებული. Si si istý, že to zvládneš? = დარწმუნებული ხარ, რომ თავს გაართმევ?"
+  },
+  "a2-u9-l7.fill-si-si-isty.en": {
+    "en": "Are you sure you'll manage?",
+    "t": "დარწმუნებული ხარ, რომ თავს გაართმევ?"
+  },
+  "a2-u9-l7.fill-si-si-isty.why": {
+    "en": "Babka is talking to Marek, a man, so **istý**. To Lucia she'd say istá.",
+    "t": "ბებია მარეკს, კაცს, ელაპარაკება, ამიტომ **istý**. ლუციას ეტყოდა istá. ქართულ „დარწმუნებულს“ სქესი არ აქვს, სლოვაკურს კი აქვს."
+  },
+  "a2-u9-l7.build-neboj-sa-babi.prompt": {
+    "en": "Don't worry, Grandma, I'll manage.",
+    "t": "ნუ ღელავ, ბებო, თავს გავართმევ."
+  },
+  "a2-u9-l7.build-neboj-sa-babi.traps": {
+    "en": [
+      "Marek is talking about himself, ja: **zvládnem**. Zvládneš is ty.",
+      "To one person you say ty: **neboj** sa. Nebojte sa is for vy."
+    ],
+    "t": [
+      "მარეკი საკუთარ თავზე ლაპარაკობს, ja: **zvládnem**. Zvládneš ty-ს ფორმაა.",
+      "ერთ ადამიანს, ვისაც შენობით მიმართავთ, ty-ს ფორმით ეუბნებით: **neboj** sa. Nebojte sa vy-სთვისაა."
+    ]
+  },
+  "a2-u9-l7.match-babkin-recept.pairs": {
+    "en": [
+      "grandmother",
+      "grandson",
+      "cake",
+      "recipe",
+      "to manage"
+    ],
+    "t": [
+      "ბებია",
+      "შვილიშვილი",
+      "ნამცხვარი",
+      "რეცეპტი",
+      "თავის გართმევა"
+    ]
+  },
+  "a2-u9-l7.build-mama-hovori-ze.prompt": {
+    "en": "Mum says you've got the best recipe.",
+    "t": "დედა ამბობს, რომ საუკეთესო რეცეპტი შენ გაქვს."
+  },
+  "a2-u9-l7.build-mama-hovori-ze.traps": {
+    "en": [
+      "Recept is masculine, so the ending is **-í**: najlepš**í** recept.",
+      "Marek is talking to babka, ty: **máš**."
+    ],
+    "t": [
+      "Recept მამრობითია, ამიტომ დაბოლოებაა **-í**: najlepš**í** recept.",
+      "მარეკი ბებიას ელაპარაკება, ty: **máš**."
+    ]
+  },
+  "a2-u9-l7.build-si-si-isty.answers": {
+    "en": [
+      "Are you sure you'll manage?",
+      "Are you sure you will manage?"
+    ],
+    "t": [
+      "დარწმუნებული ხარ, რომ თავს გაართმევ?",
+      "დარწმუნებული ხარ, რომ გაართმევ თავს?"
+    ]
+  },
+  "a2-u9-l7.build-si-si-isty.distractors": {
+    "en": [
+      "I'll",
+      "we"
+    ],
+    "t": [
+      "გავართმევ",
+      "ვართ"
+    ]
+  },
+  "a2-u9-l7.speak-neboj-sa-zvladnem.en": {
+    "en": "Don't worry, I'll manage.",
+    "t": "ნუ ღელავ, თავს გავართმევ."
+  },
+  "a2-u9-l8.titleEn": {
+    "en": "What do I need?",
+    "t": "რა მჭირდება?"
+  },
+  "a2-u9-l8.vajce.en": {
+    "en": "egg",
+    "t": "კვერცხი"
+  },
+  "a2-u9-l8.vajce.note": {
+    "en": "More than one: **vajcia**. Slovaks often say vajíčko.",
+    "t": "ერთზე მეტი: **vajcia**. სლოვაკები ხშირად ამბობენ vajíčko."
+  },
+  "a2-u9-l8.muka.en": {
+    "en": "flour",
+    "t": "ფქვილი"
+  },
+  "a2-u9-l8.muka.note": {
+    "en": "**hrubá múka** = coarse flour, the kind many Slovak cakes use.",
+    "t": "**hrubá múka** = უხეშად დაფქული ფქვილი, ასეთს ბევრი სლოვაკური ნამცხვარი იყენებს."
+  },
+  "a2-u9-l8.choice-potrebujes-vajcia-a.question": {
+    "en": "Babka starts the list. What does Marek need?",
+    "t": "ბებია სიას იწყებს. რა სჭირდება მარეკს?"
+  },
+  "a2-u9-l8.choice-potrebujes-vajcia-a.options": {
+    "en": [
+      "eggs and icing sugar",
+      "milk and coarse flour",
+      "eggs and coarse flour"
+    ],
+    "t": [
+      "კვერცხები და შაქრის პუდრა",
+      "რძე და უხეში ფქვილი",
+      "კვერცხები და უხეში ფქვილი"
+    ]
+  },
+  "a2-u9-l8.cukor.en": {
+    "en": "sugar",
+    "t": "შაქარი"
+  },
+  "a2-u9-l8.cukor.note": {
+    "en": "**práškový cukor** = icing sugar. Káva s cukrom = coffee with sugar.",
+    "t": "**práškový cukor** = შაქრის პუდრა. Káva s cukrom = ყავა შაქრით."
+  },
+  "a2-u9-l8.fill-potrebujes-aj-praskovy.en": {
+    "en": "You need icing sugar too.",
+    "t": "შაქრის პუდრაც გჭირდება."
+  },
+  "a2-u9-l8.fill-potrebujes-aj-praskovy.why": {
+    "en": "Cukor is masculine, so the adjective ends in **-ý**: práškov**ý** cukor.",
+    "t": "Cukor მამრობითია, ამიტომ ზედსართავი **-ý**-ზე ბოლოვდება: práškov**ý** cukor."
+  },
+  "a2-u9-l8.olej.en": {
+    "en": "oil",
+    "t": "ზეთი"
+  },
+  "a2-u9-l8.olej.note": {
+    "en": "Masculine, like čaj.",
+    "t": "მამრობითია, როგორც čaj."
+  },
+  "a2-u9-l8.prasok-do-peciva.en": {
+    "en": "baking powder",
+    "t": "საცხობი ფხვნილი"
+  },
+  "a2-u9-l8.prasok-do-peciva.note": {
+    "en": "Literally “powder for baking”. Its other name is **kypriaci prášok**.",
+    "t": "სიტყვასიტყვით „ფხვნილი ცხობისთვის“. მისი მეორე სახელია **kypriaci prášok** („გამაფხვიერებელი ფხვნილი“)."
+  },
+  "a2-u9-l8.match-co-potrebujem.pairs": {
+    "en": [
+      "egg",
+      "flour",
+      "sugar",
+      "oil",
+      "milk"
+    ],
+    "t": [
+      "კვერცხი",
+      "ფქვილი",
+      "შაქარი",
+      "ზეთი",
+      "რძე"
+    ]
+  },
+  "a2-u9-l8.jahoda.en": {
+    "en": "strawberry",
+    "t": "მარწყვი"
+  },
+  "a2-u9-l8.jahoda.note": {
+    "en": "Plural: **jahody**. **jahodový koláč** = strawberry cake.",
+    "t": "მრავლობითი: **jahody**. **jahodový koláč** = მარწყვის ნამცხვარი."
+  },
+  "a2-u9-l8.build-potrebujem-vajcia-olej.prompt": {
+    "en": "I need eggs, oil and flour.",
+    "t": "კვერცხები, ზეთი და ფქვილი მჭირდება."
+  },
+  "a2-u9-l8.build-potrebujem-vajcia-olej.traps": {
+    "en": [
+      "Several eggs: the plural, **vajcia**.",
+      "The flour is what you need, the object: -a → **-u**, múk**u**."
+    ],
+    "t": [
+      "რამდენიმე კვერცხი მრავლობითია: **vajcia**.",
+      "ფქვილი ის არის, რაც გჭირდებათ, ანუ ობიექტი: -a → **-u**, múk**u**."
+    ]
+  },
+  "a2-u9-l8.fill-kupim-cerstve-jahody.en": {
+    "en": "I'll buy fresh strawberries.",
+    "t": "ახალ მარწყვს ვიყიდი."
+  },
+  "a2-u9-l8.fill-kupim-cerstve-jahody.why": {
+    "en": "Jahody is plural, so the adjective ends in **-é**: čerstv**é** jahody, like zelené jablká.",
+    "t": "Jahody მრავლობითია, ამიტომ ზედსართავი **-é**-ზე ბოლოვდება: čerstv**é** jahody, როგორც zelené jablká."
+  },
+  "a2-u9-l8.choice-co-pomoze-kolacu.question": {
+    "en": "Which one makes a cake rise?",
+    "t": "რომელი აფუებს ნამცხვარს?"
+  },
+  "a2-u9-l8.choice-mlieko-a-maslo.question": {
+    "en": "What is babka asking?",
+    "t": "რას ეკითხება ბებია?"
+  },
+  "a2-u9-l8.choice-mlieko-a-maslo.options": {
+    "en": [
+      "Can you buy milk and butter?",
+      "Have you got milk and butter at home?",
+      "Do you like milk and butter?"
+    ],
+    "t": [
+      "შეგიძლია, რძე და კარაქი იყიდო?",
+      "რძე და კარაქი სახლში გაქვს?",
+      "რძე და კარაქი მოგწონს?"
+    ]
+  },
+  "a2-u9-l8.si-poklad.en": {
+    "en": "You're a treasure!",
+    "t": "საუნჯე ხარ!"
+  },
+  "a2-u9-l8.si-poklad.note": {
+    "en": "**poklad** = treasure. Babka answers: Ďakujem, **zlatko**! (darling) Or **synček**, “my boy”, the way grandmothers talk to grandsons.",
+    "t": "**poklad** = საუნჯე, განძი. ბებია პასუხობს: Ďakujem, **zlatko**! (მადლობა, ჩემო ოქრო!) ან **synček**, „შვილო“, როგორც ბებიები მიმართავენ შვილიშვილ ბიჭებს."
+  },
+  "a2-u9-l8.choice-babi-si-poklad.question": {
+    "en": "Babka has given Marek the whole recipe. What does he say?",
+    "t": "ბებიამ მარეკს მთელი რეცეპტი უთხრა. რას ამბობს ის?"
+  },
+  "a2-u9-l8.build-dakujem-syncek-aj.answers": {
+    "en": [
+      "Thank you, my boy. You're my treasure too."
+    ],
+    "t": [
+      "მადლობა, შვილო. შენც ჩემი საუნჯე ხარ.",
+      "გმადლობ, შვილო. შენც ჩემი საუნჯე ხარ."
+    ]
+  },
+  "a2-u9-l8.build-dakujem-syncek-aj.distractors": {
+    "en": [
+      "girl",
+      "cake"
+    ],
+    "t": [
+      "გოგო",
+      "ნამცხვარი"
+    ]
+  },
+  "a2-u9-l8.speak-babi-si-poklad.en": {
+    "en": "Grandma, you're a treasure!",
+    "t": "ბებო, საუნჯე ხარ!"
+  },
+  "a2-u9-l9.titleEn": {
+    "en": "A kilo of strawberries",
+    "t": "ერთი კილო მარწყვი"
+  },
+  "a2-u9-l9.kilo.en": {
+    "en": "kilo",
+    "t": "კილო"
+  },
+  "a2-u9-l9.kilo.note": {
+    "en": "**pol kila** = half a kilo. At the market: Prosím si kilo jahôd. = A kilo of strawberries, please.",
+    "t": "**pol kila** = ნახევარი კილო. ბაზარში: Prosím si kilo jahôd. = ერთი კილო მარწყვი, თუ შეიძლება."
+  },
+  "a2-u9-l9.gram.en": {
+    "en": "gram",
+    "t": "გრამი"
+  },
+  "a2-u9-l9.gram.note": {
+    "en": "dvesto **gramov** = 200 grams. Slovaks also weigh in deka, ten grams: desať deka syra.",
+    "t": "dvesto **gramov** = 200 გრამი. სლოვაკები deka-თიც წონიან, ანუ ათი გრამით: desať deka syra = 100 გრამი ყველი."
+  },
+  "a2-u9-l9.grammar-quantities-genitive.title": {
+    "en": "Quantities: kilo jahôd",
+    "t": "რაოდენობა: kilo jahôd"
+  },
+  "a2-u9-l9.grammar-quantities-genitive.body": {
+    "en": [
+      "You know šálka čaju and kilo múky from unit 5: after a measure, the food takes the genitive, the “of” form. A recipe adds lyžica, vrecko and štipka, and these foods' genitives are worth learning: kilo **jahôd**, päť **vajec**, štipka **soli**."
+    ],
+    "t": [
+      "šálka čaju და kilo múky მე-5 თავიდან იცით: საზომის შემდეგ საკვები genitív-შია (ნათესაობით ბრუნვაში), „რისი?“ ფორმაში, ქართულისგან განსხვავებით, სადაც ვამბობთ „ერთი კილო მარწყვი“. რეცეპტს ემატება lyžica, vrecko და štipka, ამ საკვების genitív კი კარგად უნდა ისწავლოთ: kilo **jahôd**, päť **vajec**, štipka **soli**."
+    ]
+  },
+  "a2-u9-l9.grammar-quantities-genitive.table.head": {
+    "en": [
+      "food",
+      "how much"
+    ],
+    "t": [
+      "საკვები",
+      "რამდენი"
+    ]
+  },
+  "a2-u9-l9.grammar-quantities-genitive.table.rows": {
+    "en": [
+      [
+        "cukor",
+        "dvesto gramov cukr**u**"
+      ],
+      [
+        "múka",
+        "dve šálky múk**y**"
+      ],
+      [
+        "olej",
+        "lyžica olej**a**"
+      ],
+      [
+        "mlieko",
+        "šálka mliek**a**"
+      ],
+      [
+        "soľ",
+        "štipka sol**i**"
+      ],
+      [
+        "prášok do pečiva",
+        "vrecko prášk**u** do pečiva"
+      ],
+      [
+        "jahody",
+        "kilo jah**ôd**"
+      ],
+      [
+        "vajcia",
+        "šesť vaj**ec**"
+      ]
+    ],
+    "t": [
+      [
+        "cukor",
+        "dvesto gramov cukr**u**"
+      ],
+      [
+        "múka",
+        "dve šálky múk**y**"
+      ],
+      [
+        "olej",
+        "lyžica olej**a**"
+      ],
+      [
+        "mlieko",
+        "šálka mliek**a**"
+      ],
+      [
+        "soľ",
+        "štipka sol**i**"
+      ],
+      [
+        "prášok do pečiva",
+        "vrecko prášk**u** do pečiva"
+      ],
+      [
+        "jahody",
+        "kilo jah**ôd**"
+      ],
+      [
+        "vajcia",
+        "šesť vaj**ec**"
+      ]
+    ]
+  },
+  "a2-u9-l9.grammar-quantities-genitive.examples": {
+    "en": [
+      "A kilo of strawberries, please.",
+      "We need a cup of flour."
+    ],
+    "t": [
+      "ერთი კილო მარწყვი, თუ შეიძლება.",
+      "ერთი ჭიქა ფქვილი გვჭირდება."
+    ]
+  },
+  "a2-u9-l9.fill-prosim-si-pol.en": {
+    "en": "Half a kilo of strawberries, please.",
+    "t": "ნახევარი კილო მარწყვი, თუ შეიძლება."
+  },
+  "a2-u9-l9.fill-prosim-si-pol.why": {
+    "en": "After a quantity like pol kila, the food takes the of-form: **jahôd**.",
+    "t": "ისეთი რაოდენობის შემდეგ, როგორიცაა pol kila, საკვები genitív-შია (ნათესაობით ბრუნვაში): **jahôd**."
+  },
+  "a2-u9-l9.lyzica.en": {
+    "en": "spoon, spoonful",
+    "t": "კოვზი"
+  },
+  "a2-u9-l9.lyzica.note": {
+    "en": "**lyžička** = a teaspoon. Dve lyžice oleja = two spoonfuls of oil.",
+    "t": "**lyžička** = ჩაის კოვზი. Dve lyžice oleja = ორი კოვზი ზეთი."
+  },
+  "a2-u9-l9.salka.en": {
+    "en": "cup",
+    "t": "ფინჯანი, ჭიქა"
+  },
+  "a2-u9-l9.salka.note": {
+    "en": "In recipes it's also a measure: šálka múky. **Šálka kávy** = a cup of coffee.",
+    "t": "რეცეპტებში ის საზომიცაა: šálka múky = ერთი ჭიქა ფქვილი. **Šálka kávy** = ერთი ფინჯანი ყავა."
+  },
+  "a2-u9-l9.fill-potrebujes-dve-lyzice.en": {
+    "en": "You need two spoonfuls of oil.",
+    "t": "ორი კოვზი ზეთი გჭირდება."
+  },
+  "a2-u9-l9.fill-potrebujes-dve-lyzice.why": {
+    "en": "After a quantity, the of-form: lyžica **oleja**. Masculine words take -a here.",
+    "t": "რაოდენობის შემდეგ genitív (ნათესაობითი ბრუნვა) მოდის: lyžica **oleja**. მამრობითი სიტყვები აქ -a-ს იღებენ."
+  },
+  "a2-u9-l9.vrecko.en": {
+    "en": "sachet, small bag",
+    "t": "პატარა პაკეტი"
+  },
+  "a2-u9-l9.vrecko.note": {
+    "en": "vrecko prášku do pečiva = a sachet of baking powder",
+    "t": "vrecko prášku do pečiva = ერთი პაკეტი საცხობი ფხვნილი"
+  },
+  "a2-u9-l9.sol.en": {
+    "en": "salt",
+    "t": "მარილი"
+  },
+  "a2-u9-l9.sol.note": {
+    "en": "Feminine. **štipka soli** = a pinch of salt.",
+    "t": "მდედრობითია. **štipka soli** = ერთი პრიწა მარილი."
+  },
+  "a2-u9-l9.match-kolko.pairs": {
+    "en": [
+      "spoonful",
+      "cup",
+      "sachet",
+      "salt"
+    ],
+    "t": [
+      "კოვზი",
+      "ჭიქა",
+      "პაკეტი",
+      "მარილი"
+    ]
+  },
+  "a2-u9-l9.build-prosim-si-kilo.prompt": {
+    "en": "A kilo of strawberries and ten eggs, please.",
+    "t": "ერთი კილო მარწყვი და ათი კვერცხი, თუ შეიძლება."
+  },
+  "a2-u9-l9.build-prosim-si-kilo.traps": {
+    "en": [
+      "After kilo, the of-form: kilo **jahôd**.",
+      "From five up, the of-form: desať **vajec**."
+    ],
+    "t": [
+      "kilo-ს შემდეგ genitív (ნათესაობითი ბრუნვა) მოდის: kilo **jahôd**.",
+      "ხუთიდან ზემოთ genitív მოდის: desať **vajec**."
+    ]
+  },
+  "a2-u9-l9.choice-potrebujem-dvesto-gramov.question": {
+    "en": "At the shop, Marek needs 200 grams of sugar. What does he say?",
+    "t": "მაღაზიაში მარეკს 200 გრამი შაქარი სჭირდება. რას ამბობს?"
+  },
+  "a2-u9-l9.choice-potrebujem-dvesto-gramov.why": {
+    "en": "From five up, the of-form, for both words: dvesto **gramov** cukr**u**.",
+    "t": "ხუთიდან ზემოთ ორივე სიტყვა genitív-შია (ნათესაობით ბრუნვაში): dvesto **gramov** cukr**u**."
+  },
+  "a2-u9-l9.choice-kolko-muky-potrebujes.question": {
+    "en": "Lucia asks, Marek answers. How much flour does he need?",
+    "t": "ლუცია ეკითხება, მარეკი პასუხობს. რამდენი ფქვილი სჭირდება?"
+  },
+  "a2-u9-l9.choice-kolko-muky-potrebujes.options": {
+    "en": [
+      "Two kilos.",
+      "Two spoonfuls.",
+      "Two cups."
+    ],
+    "t": [
+      "ორი კილო.",
+      "ორი კოვზი.",
+      "ორი ჭიქა."
+    ]
+  },
+  "a2-u9-l9.fill-na-kolac-potrebujes.en": {
+    "en": "For the cake you also need a pinch of salt.",
+    "t": "ნამცხვრისთვის ერთი პრიწა მარილიც გჭირდება."
+  },
+  "a2-u9-l9.fill-na-kolac-potrebujes.why": {
+    "en": "After štipka (a pinch), the of-form: štipka **soli**.",
+    "t": "štipka-ს (პრიწა) შემდეგ genitív (ნათესაობითი ბრუნვა) მოდის: štipka **soli**."
+  },
+  "a2-u9-l9.build-potrebujeme-vrecko-prasku.prompt": {
+    "en": "We need a sachet of baking powder.",
+    "t": "ერთი პაკეტი საცხობი ფხვნილი გვჭირდება."
+  },
+  "a2-u9-l9.build-potrebujeme-vrecko-prasku.traps": {
+    "en": [
+      "After vrecko, the of-form: vrecko **prášku**.",
+      "One sachet is the object, and neuter words like vrecko don't change: **vrecko**."
+    ],
+    "t": [
+      "vrecko-ს შემდეგ genitív (ნათესაობითი ბრუნვა) მოდის: vrecko **prášku**.",
+      "ერთი პაკეტი ობიექტია, საშუალო სქესის სიტყვები კი, როგორიცაა vrecko, ობიექტად არ იცვლება: **vrecko**."
+    ]
+  },
+  "a2-u9-l9.listen-potrebujem-kilo-jahod.en": {
+    "en": "I need a kilo of strawberries and six eggs.",
+    "t": "ერთი კილო მარწყვი და ექვსი კვერცხი მჭირდება."
+  },
+  "a2-u9-l9.speak-prosim-si-pol.en": {
+    "en": "Half a kilo of strawberries, please.",
+    "t": "ნახევარი კილო მარწყვი, თუ შეიძლება."
+  },
+  "a2-u9-l10.titleEn": {
+    "en": "Baking the cake",
+    "t": "ნამცხვარს ვაცხობთ"
+  },
+  "a2-u9-l10.piect-upiect.en": {
+    "en": "to bake",
+    "t": "ცხობა / გამოცხობა"
+  },
+  "a2-u9-l10.piect-upiect.note": {
+    "en": "You know **upiecť** from unit 2: Upečiem tortu, upiekol, upiekla. Its imperfective partner is **piecť**: **Pečiem** koláč. = I'm baking a cake (it's in the oven). Past: piekol, piekla.",
+    "t": "**upiecť** მე-2 თავიდან იცით: Upečiem tortu, upiekol, upiekla. მისი უსრული ასპექტის წყვილია **piecť**: **Pečiem** koláč. = ნამცხვარს ვაცხობ (ახლა ღუმელშია). წარსული: piekol, piekla. ქართულშიც ასეა: „ვაცხობ“ და „გამოვაცხობ“."
+  },
+  "a2-u9-l10.cesto.en": {
+    "en": "dough, cake mixture",
+    "t": "ცომი"
+  },
+  "a2-u9-l10.cesto.note": {
+    "en": "Neuter, like mesto.",
+    "t": "საშუალო სქესისაა, როგორც mesto."
+  },
+  "a2-u9-l10.choice-zajtra-upeciem-kolac.question": {
+    "en": "Marek tells Lucia his plan. When will the cake be ready?",
+    "t": "მარეკი ლუციას თავის გეგმას უყვება. როდის იქნება ნამცხვარი მზად?"
+  },
+  "a2-u9-l10.choice-zajtra-upeciem-kolac.options": {
+    "en": [
+      "It's in the oven now.",
+      "Tomorrow.",
+      "It was ready yesterday."
+    ],
+    "t": [
+      "ახლა ღუმელშია.",
+      "ხვალ.",
+      "გუშინ იყო მზად."
+    ]
+  },
+  "a2-u9-l10.choice-zajtra-upeciem-kolac.why": {
+    "en": "**Upečiem** is perfective, so its present form means the future, like napíšem.",
+    "t": "**Upečiem** სრული ასპექტისაა, ამიტომ მისი აწმყოს ფორმა მომავალს ნიშნავს, როგორც napíšem, ან ქართული „გამოვაცხობ“."
+  },
+  "a2-u9-l10.miesat-vymiesat.en": {
+    "en": "to mix, to stir",
+    "t": "არევა, მორევა"
+  },
+  "a2-u9-l10.miesat-vymiesat.note": {
+    "en": "Recipes speak as my (we): **Vymiešame** vajcia s cukrom. = We mix the eggs with the sugar.",
+    "t": "რეცეპტები my-ს (ჩვენ) ფორმით ლაპარაკობს: **Vymiešame** vajcia s cukrom. = კვერცხებს შაქართან ერთად ავურევთ."
+  },
+  "a2-u9-l10.slahat-vyslahat.en": {
+    "en": "to whisk, to whip",
+    "t": "ათქვეფა"
+  },
+  "a2-u9-l10.slahat-vyslahat.note": {
+    "en": "**šľahačka** = whipped cream.",
+    "t": "**šľahačka** = ათქვეფილი ნაღები."
+  },
+  "a2-u9-l10.fill-najprv-vymiesame-vajcia.en": {
+    "en": "First we mix the eggs with the sugar.",
+    "t": "ჯერ კვერცხებს შაქართან ერთად ავურევთ."
+  },
+  "a2-u9-l10.fill-najprv-vymiesame-vajcia.why": {
+    "en": "Recipes speak as my (we), so the verb ends in **-me**: vymieša**me**.",
+    "t": "რეცეპტები my-ს (ჩვენ) ფორმით ლაპარაკობს, ამიტომ ზმნა **-me**-ზე ბოლოვდება: vymieša**me**."
+  },
+  "a2-u9-l10.pridat.en": {
+    "en": "to add",
+    "t": "დამატება"
+  },
+  "a2-u9-l10.pridat.note": {
+    "en": "Perfective, like kúpiť: **Pridáme** múku. = We add the flour.",
+    "t": "სრული ასპექტისაა, როგორც kúpiť: **Pridáme** múku. = ფქვილს დავამატებთ."
+  },
+  "a2-u9-l10.build-potom-pridame-olej.prompt": {
+    "en": "Then we add the oil and the milk.",
+    "t": "შემდეგ ზეთს და რძეს დავამატებთ."
+  },
+  "a2-u9-l10.build-potom-pridame-olej.traps": {
+    "en": [
+      "A recipe speaks as my (we): **pridáme**. Pridám is ja.",
+      "There's no quantity here: the oil is just the object, and masculine things don't change, **olej**."
+    ],
+    "t": [
+      "რეცეპტი my-ს (ჩვენ) ფორმით ლაპარაკობს: **pridáme**. Pridám ja-ს ფორმაა.",
+      "აქ რაოდენობა არ არის: ზეთი უბრალოდ ობიექტია, მამრობითი ნივთები კი ობიექტად არ იცვლება: **olej**."
+    ]
+  },
+  "a2-u9-l10.rura.en": {
+    "en": "oven",
+    "t": "ღუმელი"
+  },
+  "a2-u9-l10.rura.note": {
+    "en": "Pečieme v rúre na sto osemdesiat **stupňoch**. = We bake in the oven at 180 degrees. The baking tin is a **plech**.",
+    "t": "Pečieme v rúre na sto osemdesiat **stupňoch**. = ღუმელში 180 გრადუსზე ვაცხობთ. საცხობ ფორმას ჰქვია **plech**."
+  },
+  "a2-u9-l10.fill-kolac-pecieme-v.en": {
+    "en": "We bake the cake in the oven.",
+    "t": "ნამცხვარს ღუმელში ვაცხობთ."
+  },
+  "a2-u9-l10.fill-kolac-pecieme-v.why": {
+    "en": "V for “where” takes the locative: rúra → v **rúre**, like škola → v škole.",
+    "t": "v „სად?“-ის მნიშვნელობით lokál-ს (ადგილობით ბრუნვას) მოითხოვს: rúra → v **rúre**, როგორც škola → v škole."
+  },
+  "a2-u9-l10.vychladnut.en": {
+    "en": "to cool down",
+    "t": "გაცივება"
+  },
+  "a2-u9-l10.vychladnut.note": {
+    "en": "Perfective. While it's happening, the imperfective: Koláč **chladne**. = The cake is cooling.",
+    "t": "სრული ასპექტისაა. სანამ პროცესი მიმდინარეობს, უსრული ასპექტი გამოიყენება: Koláč **chladne**. = ნამცხვარი ცივდება."
+  },
+  "a2-u9-l10.match-pecieme.pairs": {
+    "en": [
+      "to bake",
+      "to mix",
+      "to whisk",
+      "to add",
+      "oven"
+    ],
+    "t": [
+      "ცხობა",
+      "არევა",
+      "ათქვეფა",
+      "დამატება",
+      "ღუმელი"
+    ]
+  },
+  "a2-u9-l10.choice-teraz-peciem-kolac.question": {
+    "en": "Lucia phones. Marek's cake is in the oven right now. What does he say?",
+    "t": "ლუცია რეკავს. მარეკის ნამცხვარი ახლა ღუმელშია. რას ამბობს ის?"
+  },
+  "a2-u9-l10.choice-teraz-peciem-kolac.why": {
+    "en": "What's going on right now is imperfective: **pečiem**. Upečiem is perfective, so it means the future.",
+    "t": "ის, რაც ახლა ხდება, უსრული ასპექტით ითქმის: **pečiem**. Upečiem სრული ასპექტისაა, ამიტომ მომავალს ნიშნავს."
+  },
+  "a2-u9-l10.build-kolac-musi-vychladnut.prompt": {
+    "en": "The cake has to cool down.",
+    "t": "ნამცხვარი უნდა გაცივდეს."
+  },
+  "a2-u9-l10.build-kolac-musi-vychladnut.traps": {
+    "en": [
+      "After musí comes the infinitive, the -ť form: **vychladnúť**.",
+      "The cake is on (it), so **musí**. Musím is ja."
+    ],
+    "t": [
+      "musí-ს შემდეგ ინფინიტივი მოდის, -ť ფორმა: **vychladnúť**.",
+      "ნამცხვარი = on (ის), ამიტომ **musí**. Musím ja-ს ფორმაა."
+    ]
+  },
+  "a2-u9-l10.build-pecieme-ho-styridsat.answers": {
+    "en": [
+      "We bake it for forty minutes."
+    ],
+    "t": [
+      "ორმოც წუთს ვაცხობთ.",
+      "მას ორმოც წუთს ვაცხობთ.",
+      "ორმოცი წუთის განმავლობაში ვაცხობთ."
+    ]
+  },
+  "a2-u9-l10.build-pecieme-ho-styridsat.distractors": {
+    "en": [
+      "hours",
+      "fourteen"
+    ],
+    "t": [
+      "საათს",
+      "თოთხმეტ"
+    ]
+  },
+  "a2-u9-l10.choice-najprv-vyslahame-vajcia.question": {
+    "en": "What do we do first?",
+    "t": "რას ვაკეთებთ ჯერ?"
+  },
+  "a2-u9-l10.choice-najprv-vyslahame-vajcia.options": {
+    "en": [
+      "Add the flour.",
+      "Bake the cake.",
+      "Whisk the eggs with the sugar."
+    ],
+    "t": [
+      "ფქვილს ვამატებთ.",
+      "ნამცხვარს ვაცხობთ.",
+      "კვერცხებს შაქართან ერთად ვთქვეფთ."
+    ]
+  },
+  "a2-u9-l10.speak-zajtra-upeciem-kolac.en": {
+    "en": "I'll bake a cake tomorrow.",
+    "t": "ხვალ ნამცხვარს გამოვაცხობ."
+  },
+  "a2-u9-l11.titleEn": {
+    "en": "Grandma's tips",
+    "t": "ბებიას რჩევები"
+  },
+  "a2-u9-l11.struhat-nastruhat.en": {
+    "en": "to grate",
+    "t": "ხეხვა / გახეხვა"
+  },
+  "a2-u9-l11.struhat-nastruhat.note": {
+    "en": "**Nastrúhame** čokoládu. = We grate some chocolate.",
+    "t": "**Nastrúhame** čokoládu. = შოკოლადს გავხეხავთ."
+  },
+  "a2-u9-l11.krajat-pokrajat.en": {
+    "en": "to cut, to slice",
+    "t": "ჭრა / დაჭრა"
+  },
+  "a2-u9-l11.krajat-pokrajat.note": {
+    "en": "Koláč **pokrájame na kocky**. = We cut the cake into squares (kocka = a cube, a square).",
+    "t": "Koláč **pokrájame na kocky**. = ნამცხვარს კვადრატებად დავჭრით (kocka = კუბი, კვადრატი)."
+  },
+  "a2-u9-l11.grammar-recipe-commands.title": {
+    "en": "Recipe steps: my, ty, vy",
+    "t": "რეცეპტის ნაბიჯები: my, ty, vy"
+  },
+  "a2-u9-l11.grammar-recipe-commands.body": {
+    "en": [
+      "A recipe can speak as my (we): vymiešame. Or it uses the imperative you know from unit 6: babka says ty to Marek, **vymiešaj**, and a recipe book says vy, **vymiešajte**."
+    ],
+    "t": [
+      "რეცეპტი შეიძლება my-ს (ჩვენ) ფორმით იყოს დაწერილი: vymiešame. ან ბრძანებითი ფორმით, რომელიც მე-6 თავიდან იცით: ბებია მარეკს ty-თი მიმართავს, **vymiešaj**, კულინარიული წიგნი კი vy-თი, **vymiešajte**. ქართულშიც ასეა: აურიე / აურიეთ."
+    ]
+  },
+  "a2-u9-l11.grammar-recipe-commands.table.head": {
+    "en": [
+      "my (we)",
+      "ty (to a friend)",
+      "vy (in a book)"
+    ],
+    "t": [
+      "my (ჩვენ)",
+      "ty (მეგობარს)",
+      "vy (წიგნში)"
+    ]
+  },
+  "a2-u9-l11.grammar-recipe-commands.table.rows": {
+    "en": [
+      [
+        "vymiešame",
+        "vymieša**j**",
+        "vymieša**jte**"
+      ],
+      [
+        "pridáme",
+        "prida**j**",
+        "prida**jte**"
+      ],
+      [
+        "nastrúhame",
+        "nastrúha**j**",
+        "nastrúha**jte**"
+      ],
+      [
+        "pokrájame",
+        "pokrája**j**",
+        "pokrája**jte**"
+      ],
+      [
+        "upečieme",
+        "upeč",
+        "upeč**te**"
+      ],
+      [
+        "ozdobíme",
+        "ozdob",
+        "ozdob**te**"
+      ],
+      [
+        "natrieme",
+        "natri",
+        "natri**te**"
+      ]
+    ],
+    "t": [
+      [
+        "vymiešame",
+        "vymieša**j**",
+        "vymieša**jte**"
+      ],
+      [
+        "pridáme",
+        "prida**j**",
+        "prida**jte**"
+      ],
+      [
+        "nastrúhame",
+        "nastrúha**j**",
+        "nastrúha**jte**"
+      ],
+      [
+        "pokrájame",
+        "pokrája**j**",
+        "pokrája**jte**"
+      ],
+      [
+        "upečieme",
+        "upeč",
+        "upeč**te**"
+      ],
+      [
+        "ozdobíme",
+        "ozdob",
+        "ozdob**te**"
+      ],
+      [
+        "natrieme",
+        "natri",
+        "natri**te**"
+      ]
+    ]
+  },
+  "a2-u9-l11.grammar-recipe-commands.examples": {
+    "en": [
+      "Marek, add the flour!",
+      "Bake the cake in the oven."
+    ],
+    "t": [
+      "მარეკ, ფქვილი დაამატე!",
+      "ნამცხვარი ღუმელში გამოაცხვეთ."
+    ]
+  },
+  "a2-u9-l11.fill-marek-pokrajaj-jahody.en": {
+    "en": "Marek, slice the strawberries.",
+    "t": "მარეკ, მარწყვი დაჭერი."
+  },
+  "a2-u9-l11.fill-marek-pokrajaj-jahody.why": {
+    "en": "Babka says ty to Marek, so she uses the ty command: **pokrájaj**. Pokrájajte is for vy.",
+    "t": "ბებია მარეკს ty-თი მიმართავს, ამიტომ ty-ს ბრძანებით ფორმას იყენებს: **pokrájaj**. Pokrájajte vy-სთვისაა."
+  },
+  "a2-u9-l11.ukladat-poukladat.en": {
+    "en": "to lay out, to arrange",
+    "t": "დაწყობა, დალაგება"
+  },
+  "a2-u9-l11.ukladat-poukladat.note": {
+    "en": "Jahody **poukladáme** na cesto. = We arrange the strawberries on the cake mixture.",
+    "t": "Jahody **poukladáme** na cesto. = მარწყვს ცომზე დავაწყობთ."
+  },
+  "a2-u9-l11.zdobit-ozdobit.en": {
+    "en": "to decorate",
+    "t": "მორთვა, გაფორმება"
+  },
+  "a2-u9-l11.zdobit-ozdobit.note": {
+    "en": "**Ozdobíme** ho šľahačkou. = We decorate it with whipped cream (the with form, no s).",
+    "t": "**Ozdobíme** ho šľahačkou. = მას ათქვეფილი ნაღებით მოვრთავთ (inštrumentál, ანუ მოქმედებითი ბრუნვა, s-ის გარეშე, ზუსტად როგორც ქართული „-ით“)."
+  },
+  "a2-u9-l11.choice-kolac-pokrajajte-na.question": {
+    "en": "A recipe book says this. What does it mean?",
+    "t": "კულინარიულ წიგნში ასე წერია. რას ნიშნავს?"
+  },
+  "a2-u9-l11.choice-kolac-pokrajajte-na.options": {
+    "en": [
+      "Decorate the cake with cubes.",
+      "Cut the cake into squares.",
+      "Bake the cake in a square tin."
+    ],
+    "t": [
+      "ნამცხვარი კუბიკებით მორთეთ.",
+      "ნამცხვარი კვადრატებად დაჭერით.",
+      "ნამცხვარი კვადრატულ ფორმაში გამოაცხვეთ."
+    ]
+  },
+  "a2-u9-l11.natierat-natriet.en": {
+    "en": "to spread",
+    "t": "წასმა"
+  },
+  "a2-u9-l11.natierat-natriet.note": {
+    "en": "Chlieb **natrieme** maslom. = We spread the bread with butter.",
+    "t": "Chlieb **natrieme** maslom. = პურს კარაქს წავუსვამთ."
+  },
+  "a2-u9-l11.nakoniec.en": {
+    "en": "finally, in the end",
+    "t": "ბოლოს"
+  },
+  "a2-u9-l11.nakoniec.note": {
+    "en": "Najprv…, potom…, **nakoniec**… = First…, then…, finally…",
+    "t": "Najprv…, potom…, **nakoniec**… = ჯერ…, მერე…, ბოლოს…"
+  },
+  "a2-u9-l11.build-najprv-vymiesaj-vajcia.prompt": {
+    "en": "Babka to Marek: First mix the eggs, then add the flour.",
+    "t": "ბებია მარეკს: ჯერ კვერცხები აურიე, მერე ფქვილი დაამატე."
+  },
+  "a2-u9-l11.build-najprv-vymiesaj-vajcia.traps": {
+    "en": [
+      "Babka says ty to Marek: **pridaj**. Pridajte is for vy.",
+      "The flour is the object: -a → **-u**, múk**u**."
+    ],
+    "t": [
+      "ბებია მარეკს ty-თი მიმართავს: **pridaj**. Pridajte vy-სთვისაა.",
+      "ფქვილი ობიექტია: -a → **-u**, múk**u**."
+    ]
+  },
+  "a2-u9-l11.choice-recept-v-knihe.question": {
+    "en": "A recipe book uses vy. Which word fits? Nakoniec koláč ___ šľahačkou.",
+    "t": "კულინარიული წიგნი vy-ს იყენებს. რომელი სიტყვა ჯდება? Nakoniec koláč ___ šľahačkou."
+  },
+  "a2-u9-l11.choice-recept-v-knihe.why": {
+    "en": "A recipe in a book says vy: the ty command + -te, **ozdobte**. Ozdob is for one friend.",
+    "t": "წიგნში რეცეპტი vy-ს ფორმით ლაპარაკობს: ty-ს ბრძანება + -te, **ozdobte**. Ozdob ერთი მეგობრისთვისაა."
+  },
+  "a2-u9-l11.match-babka-radi.pairs": {
+    "en": [
+      "to grate",
+      "to cut",
+      "to decorate",
+      "to spread",
+      "to arrange"
+    ],
+    "t": [
+      "გახეხვა",
+      "დაჭრა",
+      "მორთვა",
+      "წასმა",
+      "დაწყობა"
+    ]
+  },
+  "a2-u9-l11.build-nakoniec-kolac-pokrajame.answers": {
+    "en": [
+      "Finally we cut the cake into squares."
+    ],
+    "t": [
+      "ბოლოს ნამცხვარს კვადრატებად დავჭრით.",
+      "ბოლოს ნამცხვარს დავჭრით კვადრატებად."
+    ]
+  },
+  "a2-u9-l11.build-nakoniec-kolac-pokrajame.distractors": {
+    "en": [
+      "first",
+      "decorate"
+    ],
+    "t": [
+      "ჯერ",
+      "მოვრთავთ"
+    ]
+  },
+  "a2-u9-l11.choice-ozdob-ho-slahackou.question": {
+    "en": "Who is babka talking to?",
+    "t": "ვის ელაპარაკება ბებია?"
+  },
+  "a2-u9-l11.choice-ozdob-ho-slahackou.options": {
+    "en": [
+      "Marek and Lucia",
+      "Marek alone",
+      "herself"
+    ],
+    "t": [
+      "მარეკს და ლუციას",
+      "მხოლოდ მარეკს",
+      "საკუთარ თავს"
+    ]
+  },
+  "a2-u9-l11.choice-ozdob-ho-slahackou.why": {
+    "en": "**Ozdob**, with no -te, is the ty command: for one person you know well. To two people: ozdobte.",
+    "t": "**Ozdob**, -te-ს გარეშე, ty-ს ბრძანებაა: ერთი ადამიანისთვის, ვისაც კარგად იცნობთ. ორს ეტყოდა: ozdobte."
+  },
+  "a2-u9-l11.build-babi-kolac-som.prompt": {
+    "en": "Grandma, I've already baked the cake!",
+    "t": "ბებო, ნამცხვარი უკვე გამოვაცხვე!"
+  },
+  "a2-u9-l11.build-babi-kolac-som.traps": {
+    "en": [
+      "Marek is a man: **upiekol**. Upiekla is how a woman says it.",
+      "The cake is done, so the past of the perfective upiecť: **upiekol**. Pečiem means it's still in the oven."
+    ],
+    "t": [
+      "მარეკი კაცია: **upiekol**. Upiekla ქალის ფორმაა.",
+      "ნამცხვარი მზადაა, ამიტომ სრული ასპექტის upiecť-ის წარსული: **upiekol**. Pečiem ნიშნავს, რომ ჯერ ისევ ღუმელშია."
+    ]
+  },
+  "a2-u9-l11.speak-nakoniec-ho-ozdob.en": {
+    "en": "Finally, decorate it with whipped cream.",
+    "t": "ბოლოს ათქვეფილი ნაღებით მორთე."
+  },
+  "a2-u9-l12.titleEn": {
+    "en": "An invitation to dinner",
+    "t": "ვახშამზე დაპატიჟება"
+  },
+  "a2-u9-l12.rande.en": {
+    "en": "date (a romantic meeting)",
+    "t": "პაემანი"
+  },
+  "a2-u9-l12.rande.note": {
+    "en": "It never changes: mať **rande**, ísť na rande. Mám rande s Veronikou. = I've got a date with Veronika.",
+    "t": "არასდროს იცვლება: mať **rande**, ísť na rande. Mám rande s Veronikou. = ვერონიკასთან პაემანი მაქვს."
+  },
+  "a2-u9-l12.choice-marek-ty-mas.question": {
+    "en": "Lucia hears her brother on the phone. What is she asking?",
+    "t": "ლუციას ესმის, როგორ ლაპარაკობს ძმა ტელეფონზე. რას ეკითხება?"
+  },
+  "a2-u9-l12.choice-marek-ty-mas.options": {
+    "en": [
+      "Marek, are you cooking dinner?",
+      "Marek, have you got a date?",
+      "Marek, are you on the phone?"
+    ],
+    "t": [
+      "მარეკ, ვახშამს ამზადებ?",
+      "მარეკ, პაემანი გაქვს?",
+      "მარეკ, ტელეფონზე ლაპარაკობ?"
+    ]
+  },
+  "a2-u9-l12.build-pozyvam-ta-v.prompt": {
+    "en": "I'm inviting you to dinner on Friday.",
+    "t": "პარასკევს ვახშამზე გეპატიჟები."
+  },
+  "a2-u9-l12.build-pozyvam-ta-v.traps": {
+    "en": [
+      "Pozývať na takes the object form: -a → **-u**, na večer**u**.",
+      "Marek is inviting one person he says ty to: **ťa**. Vás is for vy."
+    ],
+    "t": [
+      "Pozývať na ობიექტის ფორმას მოითხოვს: -a → **-u**, na večer**u**.",
+      "მარეკი ერთ ადამიანს ეპატიჟება, ვისაც ty-თი მიმართავს: **ťa**. Vás vy-სთვისაა."
+    ]
+  },
+  "a2-u9-l12.v-piatok-byvaju.en": {
+    "en": "On Fridays restaurants are usually full.",
+    "t": "პარასკევობით რესტორნები სავსეა ხოლმე."
+  },
+  "a2-u9-l12.v-piatok-byvaju.note": {
+    "en": "You know **bývať** as “to live”. It's also byť for what usually happens: Reštaurácia je plná (now). V piatok **býva** plná (most Fridays). **plný** = full.",
+    "t": "**bývať** „ცხოვრების“ მნიშვნელობით იცით. ის ასევე byť-ის ნაცვლად დგას, როცა რამე ჩვეულებრივ ხდება, ქართული „ხოლმე“-ს მსგავსად: Reštaurácia je plná (ახლა). V piatok **býva** plná (თითქმის ყოველ პარასკევს). **plný** = სავსე."
+  },
+  "a2-u9-l12.fill-cez-vikend-byvaju.en": {
+    "en": "At the weekend restaurants are usually full.",
+    "t": "შაბათ-კვირას რესტორნები სავსეა ხოლმე."
+  },
+  "a2-u9-l12.fill-cez-vikend-byvaju.why": {
+    "en": "Reštaurácie are oni, so bývať takes **bývajú**, like byť → sú.",
+    "t": "Reštaurácie = oni, ამიტომ bývať იღებს ფორმას **bývajú**, როგორც byť → sú."
+  },
+  "a2-u9-l12.choice-nie-do-restauracie.question": {
+    "en": "Where will they have dinner?",
+    "t": "სად ივახშმებენ?"
+  },
+  "a2-u9-l12.choice-nie-do-restauracie.options": {
+    "en": [
+      "In a restaurant.",
+      "At Veronika's flat.",
+      "At Marek's flat."
+    ],
+    "t": [
+      "რესტორანში.",
+      "ვერონიკასთან სახლში.",
+      "მარეკთან სახლში."
+    ]
+  },
+  "a2-u9-l12.choice-uvaril-by-som.question": {
+    "en": "Lucia asks: Čo uvaríš? Marek hasn't decided yet. What does he say?",
+    "t": "ლუცია ეკითხება: Čo uvaríš? მარეკს ჯერ არ გადაუწყვეტია. რას ამბობს?"
+  },
+  "a2-u9-l12.choice-uvaril-by-som.why": {
+    "en": "Marek is a man talking about himself, so **uvaril by som**: “I would cook”. Uvarila is a woman's form, and by si is ty.",
+    "t": "მარეკი კაცია და საკუთარ თავზე ლაპარაკობს, ამიტომ **uvaril by som**: „მოვამზადებდი“. Uvarila ქალის ფორმაა, by si კი ty-ს ფორმა."
+  },
+  "a2-u9-l12.tajomstvo.en": {
+    "en": "secret",
+    "t": "საიდუმლო"
+  },
+  "a2-u9-l12.tajomstvo.note": {
+    "en": "To je **tajomstvo**! = That's a secret!",
+    "t": "To je **tajomstvo**! = ეს საიდუმლოა!"
+  },
+  "a2-u9-l12.prekvapenie.en": {
+    "en": "surprise",
+    "t": "სიურპრიზი"
+  },
+  "a2-u9-l12.prekvapenie.note": {
+    "en": "Je to **prekvapenie**. = It's a surprise. Som prekvapená! = I'm surprised! (a woman)",
+    "t": "Je to **prekvapenie**. = ეს სიურპრიზია. Som prekvapená! = გაკვირვებული ვარ! (ამბობს ქალი)"
+  },
+  "a2-u9-l12.choice-to-je-tajomstvo.question": {
+    "en": "Veronika asks why he's inviting her. Marek doesn't want to tell her yet. What does he say?",
+    "t": "ვერონიკა ეკითხება, რატომ ეპატიჟება. მარეკს ჯერ თქმა არ უნდა. რას ამბობს?"
+  },
+  "a2-u9-l12.fill-v-piatok-ano.en": {
+    "en": "Friday? Yes, that suits me.",
+    "t": "პარასკევს? კი, მაწყობს."
+  },
+  "a2-u9-l12.fill-v-piatok-ano.why": {
+    "en": "**To** (that) is the subject, so the verb takes the on, ona, ono form: to sa mi **hodí**, like páči sa mi.",
+    "t": "**To** (ეს) ქვემდებარეა, ამიტომ ზმნა on, ona, ono-ს ფორმას იღებს: to sa mi **hodí**, როგორც páči sa mi."
+  },
+  "a2-u9-l12.vynimocny.en": {
+    "en": "special, exceptional",
+    "t": "განსაკუთრებული, გამორჩეული"
+  },
+  "a2-u9-l12.vynimocny.note": {
+    "en": "Dnes je **výnimočný** deň. = Today is a special day.",
+    "t": "Dnes je **výnimočný** deň. = დღეს განსაკუთრებული დღეა."
+  },
+  "a2-u9-l12.build-je-dnes-vynimocny.prompt": {
+    "en": "Is today a special day?",
+    "t": "დღეს განსაკუთრებული დღეა?"
+  },
+  "a2-u9-l12.build-je-dnes-vynimocny.traps": {
+    "en": [
+      "Deň is masculine: **výnimočný** deň.",
+      "Today is now, so byť is in the present: **je**. Bude is the future."
+    ],
+    "t": [
+      "Deň მამრობითია: **výnimočný** deň.",
+      "„დღეს“ ახლაა, ამიტომ byť აწმყოშია: **je**. Bude მომავალია."
+    ]
+  },
+  "a2-u9-l12.match-pozvanie.pairs": {
+    "en": [
+      "date",
+      "secret",
+      "surprise",
+      "special",
+      "full"
+    ],
+    "t": [
+      "პაემანი",
+      "საიდუმლო",
+      "სიურპრიზი",
+      "განსაკუთრებული",
+      "სავსე"
+    ]
+  },
+  "a2-u9-l12.build-vecer-byvam-unaveny.answers": {
+    "en": [
+      "In the evening I'm usually tired."
+    ],
+    "t": [
+      "საღამოობით დაღლილი ვარ ხოლმე.",
+      "საღამოს დაღლილი ვარ ხოლმე.",
+      "საღამოობით ჩვეულებრივ დაღლილი ვარ."
+    ]
+  },
+  "a2-u9-l12.build-vecer-byvam-unaveny.distractors": {
+    "en": [
+      "always",
+      "today"
+    ],
+    "t": [
+      "ყოველთვის",
+      "დღეს"
+    ]
+  },
+  "a2-u9-l12.choice-ktora-veta-znamena.question": {
+    "en": "Which sentence means “Restaurants are usually full on Fridays”?",
+    "t": "რომელი წინადადება ნიშნავს „პარასკევობით რესტორნები სავსეა ხოლმე“?"
+  },
+  "a2-u9-l12.choice-ktora-veta-znamena.why": {
+    "en": "**Bývajú** says what usually happens. Boli is last Friday, and budú is next Friday.",
+    "t": "**Bývajú** ამბობს, რა ხდება ჩვეულებრივ, „ხოლმე“. Boli გასული პარასკევია, budú კი მომავალი პარასკევი."
+  },
+  "a2-u9-l12.speak-hodi-sa-ti.en": {
+    "en": "Does Friday suit you?",
+    "t": "პარასკევი გაწყობს?"
+  },
+  "a2-u9-l13.titleEn": {
+    "en": "A cooked dinner: -aný, -ený, -tý",
+    "t": "მომზადებული ვახშამი: -aný, -ený, -tý"
+  },
+  "a2-u9-l13.grammar-passive-participles.title": {
+    "en": "Done and ready: -aný, -ený",
+    "t": "გაკეთებული და მზა: -aný, -ený"
+  },
+  "a2-u9-l13.grammar-passive-participles.body": {
+    "en": [
+      "To say a thing has had something done to it, Slovak turns the verb into an adjective: uvariť (to cook) → **uvarená** večera, a cooked dinner. It takes the endings you know: -ý, -á, -é.",
+      "Verbs in -ať and -ovať add **-aný** and **-ovaný**: upratať → uprataný, pozvať → pozvaný, rezervovať → rezervovaný. Verbs in -iť change it to **-ený**: uvariť → uvarený, kúpiť → kúpený. Upiecť gives upečený."
+    ],
+    "t": [
+      "იმის სათქმელად, რომ ნივთს რაღაც გაუკეთეს, სლოვაკური ზმნას ზედსართავად აქცევს: uvariť (მომზადება, მოხარშვა) → **uvarená** večera, მომზადებული ვახშამი. ქართულშიც ზუსტად ასეა: მოხარშული, გამომცხვარი, დაპატიჟებული (ვნებითი გვარის მიმღეობა). ის ნაცნობ დაბოლოებებს იღებს: -ý, -á, -é.",
+      "-ať და -ovať ზმნები **-aný** და **-ovaný**-ს იღებენ: upratať → uprataný, pozvať → pozvaný, rezervovať → rezervovaný. -iť ზმნებში ის **-ený**-ით იცვლება: uvariť → uvarený, kúpiť → kúpený. Upiecť-ისგან მიიღება upečený."
+    ]
+  },
+  "a2-u9-l13.grammar-passive-participles.table.head": {
+    "en": [
+      "verb",
+      "done"
+    ],
+    "t": [
+      "ზმნა",
+      "გაკეთებული"
+    ]
+  },
+  "a2-u9-l13.grammar-passive-participles.table.rows": {
+    "en": [
+      [
+        "upratať (to tidy)",
+        "uprata**ný** byt"
+      ],
+      [
+        "pozvať",
+        "pozva**ná** kamarátka"
+      ],
+      [
+        "rezervovať (to book)",
+        "rezervova**ný** stôl"
+      ],
+      [
+        "uvariť",
+        "uvar**ená** večera"
+      ],
+      [
+        "kúpiť",
+        "kúp**ené** víno"
+      ],
+      [
+        "zapáliť (to light)",
+        "zapál**ené** sviečky"
+      ],
+      [
+        "upiecť",
+        "upeč**ený** koláč"
+      ],
+      [
+        "napísať",
+        "napísa**ný** list (letter)"
+      ]
+    ],
+    "t": [
+      [
+        "upratať (დალაგება)",
+        "uprata**ný** byt"
+      ],
+      [
+        "pozvať",
+        "pozva**ná** kamarátka"
+      ],
+      [
+        "rezervovať (დაჯავშნა)",
+        "rezervova**ný** stôl"
+      ],
+      [
+        "uvariť",
+        "uvar**ená** večera"
+      ],
+      [
+        "kúpiť",
+        "kúp**ené** víno"
+      ],
+      [
+        "zapáliť (ანთება)",
+        "zapál**ené** sviečky"
+      ],
+      [
+        "upiecť",
+        "upeč**ený** koláč"
+      ],
+      [
+        "napísať",
+        "napísa**ný** list (წერილი)"
+      ]
+    ]
+  },
+  "a2-u9-l13.grammar-passive-participles.examples": {
+    "en": [
+      "The baked cake is on the table.",
+      "The wine we bought is in the kitchen."
+    ],
+    "t": [
+      "გამომცხვარი ნამცხვარი მაგიდაზეა.",
+      "ნაყიდი ღვინო სამზარეულოშია."
+    ]
+  },
+  "a2-u9-l13.fill-na-stole-je.en": {
+    "en": "There's a freshly baked cake on the table.",
+    "t": "მაგიდაზე ახლად გამომცხვარი ნამცხვარია."
+  },
+  "a2-u9-l13.fill-na-stole-je.why": {
+    "en": "Koláč is masculine, so **upečený**.",
+    "t": "Koláč მამრობითია, ამიტომ **upečený**."
+  },
+  "a2-u9-l13.choice-uvarena-polievka.question": {
+    "en": "Uvariť means to cook. Which one is a cooked soup?",
+    "t": "Uvariť ნიშნავს მოხარშვას. რომელია მოხარშული წვნიანი?"
+  },
+  "a2-u9-l13.choice-uvarena-polievka.why": {
+    "en": "Verbs in -iť change it to **-ený**: uvariť → uvar**ená**, with -á for polievka.",
+    "t": "-iť ზმნებში ის **-ený**-ით იცვლება: uvariť → uvar**ená**, polievka-სთვის -á-თი."
+  },
+  "a2-u9-l13.fill-veronika-je-pozvana.en": {
+    "en": "Veronika is invited to dinner.",
+    "t": "ვერონიკა ვახშამზეა დაპატიჟებული."
+  },
+  "a2-u9-l13.fill-veronika-je-pozvana.why": {
+    "en": "Veronika is a woman: **pozvaná**. From pozvať: -ať → -aný.",
+    "t": "ვერონიკა ქალია: **pozvaná**. pozvať-იდან: -ať → -aný."
+  },
+  "a2-u9-l13.grammar-participles-ty.title": {
+    "en": "-tý, and verbs with sa",
+    "t": "-tý და sa-იანი ზმნები"
+  },
+  "a2-u9-l13.grammar-participles-ty.body": {
+    "en": [
+      "Some short verbs end in **-tý** instead: umyť (to wash) → umytý, prestrieť (to lay the table) → prestretý, zohriať (to warm up) → zohriaty, naliať (to pour) → naliaty. After a long syllable like ia, the ending is short: -ty, -ta, -te.",
+      "Unlike the -úci words (hrajúce sa deti), these lose sa: zaľúbiť sa (to fall in love) → **zaľúbený**, najesť sa (to eat your fill) → **najedený**, osprchovať sa → osprchovaný."
+    ],
+    "t": [
+      "ზოგი მოკლე ზმნა **-tý**-ზე ბოლოვდება: umyť (რეცხვა) → umytý, prestrieť (სუფრის გაშლა) → prestretý, zohriať (გაცხელება) → zohriaty, naliať (ჩასხმა) → naliaty. გრძელი მარცვლის შემდეგ, მაგალითად ia-ს შემდეგ, დაბოლოება მოკლეა: -ty, -ta, -te.",
+      "-úci სიტყვებისგან განსხვავებით (hrajúce sa deti), ესენი sa-ს კარგავენ: zaľúbiť sa (შეყვარება) → **zaľúbený**, najesť sa (დანაყრება) → **najedený**, osprchovať sa → osprchovaný."
+    ]
+  },
+  "a2-u9-l13.grammar-participles-ty.table.head": {
+    "en": [
+      "verb",
+      "done"
+    ],
+    "t": [
+      "ზმნა",
+      "გაკეთებული"
+    ]
+  },
+  "a2-u9-l13.grammar-participles-ty.table.rows": {
+    "en": [
+      [
+        "umyť",
+        "umy**tý** riad (washed dishes)"
+      ],
+      [
+        "prestrieť",
+        "prestre**tý** stôl"
+      ],
+      [
+        "zohriať",
+        "zohria**ta** polievka"
+      ],
+      [
+        "naliať",
+        "nalia**te** víno"
+      ],
+      [
+        "zaľúbiť sa",
+        "zaľúb**ený** Marek"
+      ],
+      [
+        "najesť sa",
+        "najed**ená** Veronika"
+      ]
+    ],
+    "t": [
+      [
+        "umyť",
+        "umy**tý** riad (გარეცხილი ჭურჭელი)"
+      ],
+      [
+        "prestrieť",
+        "prestre**tý** stôl"
+      ],
+      [
+        "zohriať",
+        "zohria**ta** polievka"
+      ],
+      [
+        "naliať",
+        "nalia**te** víno"
+      ],
+      [
+        "zaľúbiť sa",
+        "zaľúb**ený** Marek"
+      ],
+      [
+        "najesť sa",
+        "najed**ená** Veronika"
+      ]
+    ]
+  },
+  "a2-u9-l13.grammar-participles-ty.examples": {
+    "en": [
+      "The table is laid.",
+      "Marek is in love."
+    ],
+    "t": [
+      "სუფრა გაშლილია.",
+      "მარეკი შეყვარებულია."
+    ]
+  },
+  "a2-u9-l13.choice-stol-je-prestrety.question": {
+    "en": "Lucia has laid the table. Which word fits? Stôl je ___.",
+    "t": "ლუციამ სუფრა გაშალა. რომელი სიტყვა ჯდება? Stôl je ___."
+  },
+  "a2-u9-l13.choice-stol-je-prestrety.why": {
+    "en": "Prestrieť is one of the short verbs that end in **-tý**: prestre**tý**.",
+    "t": "Prestrieť იმ მოკლე ზმნებიდანაა, რომლებიც **-tý**-ზე ბოლოვდება: prestre**tý**."
+  },
+  "a2-u9-l13.fill-riad-je-umyty.en": {
+    "en": "The dishes are washed.",
+    "t": "ჭურჭელი გარეცხილია."
+  },
+  "a2-u9-l13.fill-riad-je-umyty.why": {
+    "en": "Riad (the dishes) is masculine, so **umytý**.",
+    "t": "Riad (ჭურჭელი) მამრობითია, ამიტომ **umytý**."
+  },
+  "a2-u9-l13.choice-marek-je-zalubeny.question": {
+    "en": "Marek is in love. How does Lucia say it?",
+    "t": "მარეკი შეყვარებულია. როგორ იტყვის ამას ლუცია?"
+  },
+  "a2-u9-l13.choice-marek-je-zalubeny.why": {
+    "en": "Verbs with sa lose it in the participle: zaľúbiť sa → je **zaľúbený**.",
+    "t": "sa-იანი ზმნები მიმღეობაში sa-ს კარგავენ: zaľúbiť sa → je **zaľúbený**."
+  },
+  "a2-u9-l13.grammar-participles-agree.title": {
+    "en": "They change like adjectives",
+    "t": "ისინი ზედსართავებივით იცვლებიან"
+  },
+  "a2-u9-l13.grammar-participles-agree.body": {
+    "en": [
+      "These words change like pekný: -ý, -á, -é, and **-é** in the plural. Only men, or a group with men in it, take **-í**, like mladí kuchári: pozvaní hostia (invited guests)."
+    ],
+    "t": [
+      "ეს სიტყვები pekný-ს მსგავსად იცვლება: -ý, -á, -é, მრავლობითში კი **-é**. მხოლოდ კაცები, ან ჯგუფი, რომელშიც კაცებიც არიან, იღებენ **-í**-ს, როგორც mladí kuchári: pozvaní hostia (დაპატიჟებული სტუმრები)."
+    ]
+  },
+  "a2-u9-l13.grammar-participles-agree.table.head": {
+    "en": [
+      "",
+      "one",
+      "more than one"
+    ],
+    "t": [
+      "",
+      "ერთი",
+      "ერთზე მეტი"
+    ]
+  },
+  "a2-u9-l13.grammar-participles-agree.table.rows": {
+    "en": [
+      [
+        "masculine",
+        "upečený koláč",
+        "upečen**é** koláče"
+      ],
+      [
+        "feminine",
+        "uvarená polievka",
+        "uvaren**é** polievky"
+      ],
+      [
+        "neuter",
+        "umyté jablko",
+        "umyt**é** jablká"
+      ],
+      [
+        "men",
+        "pozvaný hosť (guest)",
+        "pozvan**í** hostia"
+      ]
+    ],
+    "t": [
+      [
+        "მამრობითი",
+        "upečený koláč",
+        "upečen**é** koláče"
+      ],
+      [
+        "მდედრობითი",
+        "uvarená polievka",
+        "uvaren**é** polievky"
+      ],
+      [
+        "საშუალო",
+        "umyté jablko",
+        "umyt**é** jablká"
+      ],
+      [
+        "კაცები",
+        "pozvaný hosť (სტუმარი)",
+        "pozvan**í** hostia"
+      ]
+    ]
+  },
+  "a2-u9-l13.grammar-participles-agree.examples": {
+    "en": [
+      "The invited guests are here.",
+      "We've eaten our fill."
+    ],
+    "t": [
+      "დაპატიჟებული სტუმრები აქ არიან.",
+      "დანაყრებულები ვართ."
+    ]
+  },
+  "a2-u9-l13.fill-marek-a-veronika.en": {
+    "en": "Marek and Veronika have eaten their fill.",
+    "t": "მარეკი და ვერონიკა დანაყრებულები არიან."
+  },
+  "a2-u9-l13.fill-marek-a-veronika.why": {
+    "en": "A man and a woman together count like men, so **-í**: najeden**í**.",
+    "t": "კაცი და ქალი ერთად კაცებივით ითვლება, ამიტომ **-í**: najeden**í**."
+  },
+  "a2-u9-l13.build-sviecky-su-zapalene.prompt": {
+    "en": "The candles are lit and the wine is poured.",
+    "t": "სანთლები ანთებულია და ღვინო ჩამოსხმულია."
+  },
+  "a2-u9-l13.build-sviecky-su-zapalene.traps": {
+    "en": [
+      "Sviečky is plural and not men: **zapálené**.",
+      "Víno is neuter, so **naliate**, with a short -e after the long ia."
+    ],
+    "t": [
+      "Sviečky მრავლობითია და კაცები არ არის: **zapálené**.",
+      "Víno საშუალო სქესისაა, ამიტომ **naliate**, გრძელი ia-ს შემდეგ მოკლე -e-თი."
+    ]
+  },
+  "a2-u9-l13.fill-pozvani-hostia-sedia.en": {
+    "en": "The invited guests are sitting at the table.",
+    "t": "დაპატიჟებული სტუმრები მაგიდასთან სხედან."
+  },
+  "a2-u9-l13.fill-pozvani-hostia-sedia.why": {
+    "en": "Hostia are people, men or a mixed group, so **-í**: pozvan**í** hostia.",
+    "t": "Hostia ადამიანები არიან, კაცები ან შერეული ჯგუფი, ამიტომ **-í**: pozvan**í** hostia."
+  },
+  "a2-u9-l13.choice-na-stole-je.question": {
+    "en": "What does this mean?",
+    "t": "რას ნიშნავს ეს?"
+  },
+  "a2-u9-l13.choice-na-stole-je.options": {
+    "en": [
+      "There's cold soup on the table.",
+      "The soup is still cooking.",
+      "There's warmed-up soup on the table."
+    ],
+    "t": [
+      "მაგიდაზე ცივი წვნიანია.",
+      "წვნიანი ჯერ კიდევ იხარშება.",
+      "მაგიდაზე გაცხელებული წვნიანია."
+    ]
+  },
+  "a2-u9-l13.choice-na-stole-je.why": {
+    "en": "**Zohriata** comes from zohriať (to warm up): soup that has been warmed up.",
+    "t": "**Zohriata** zohriať-იდან (გაცხელება) მოდის: წვნიანი, რომელიც გააცხელეს."
+  },
+  "a2-u9-l13.build-marek-ma-upeceny.prompt": {
+    "en": "Marek has a baked cake and a cooked dinner.",
+    "t": "მარეკს გამომცხვარი ნამცხვარი და მომზადებული ვახშამი აქვს."
+  },
+  "a2-u9-l13.build-marek-ma-upeceny.traps": {
+    "en": [
+      "The dinner is what Marek has, the object, so -á → **-ú**, like dobrú kávu.",
+      "Koláč is masculine: **upečený**."
+    ],
+    "t": [
+      "ვახშამი ის არის, რაც მარეკს აქვს, ანუ ობიექტი, ამიტომ -á → **-ú**, როგორც dobrú kávu.",
+      "Koláč მამრობითია: **upečený**."
+    ]
+  },
+  "a2-u9-l13.speak-stol-je-prestrety.en": {
+    "en": "The table is laid.",
+    "t": "სუფრა გაშლილია."
+  },
+  "a2-u9-l14.titleEn": {
+    "en": "Is it done? byť + participle",
+    "t": "მზადაა? byť + მიმღეობა"
+  },
+  "a2-u9-l14.grammar-byt-participle.title": {
+    "en": "Is it done? byť + the participle",
+    "t": "მზადაა? byť + მიმღეობა"
+  },
+  "a2-u9-l14.grammar-byt-participle.body": {
+    "en": [
+      "To say something is done or ready, use byť and the participle. It agrees with its subject: Stôl **je** prestret**ý**. Sviečky **sú** zapálen**é**. In the past: Večera **bola** uvaren**á**.",
+      "Shops and phones use it a lot: obchod je zatvorený (closed) or otvorený (open), mobil je nabitý (charged) or vybitý (flat), zapnutý (on) or vypnutý (off), pokazený (broken: nefunguje, it doesn't work) or opravený (fixed).",
+      "Not done yet: nie je umytý, or before a noun as one word: neumytý riad."
+    ],
+    "t": [
+      "იმის სათქმელად, რომ რამე გაკეთებულია ან მზადაა, გამოიყენეთ byť და მიმღეობა, ზუსტად როგორც ქართულში: სუფრა გაშლილია. მიმღეობა თავის ქვემდებარეს ეთანხმება: Stôl **je** prestret**ý**. Sviečky **sú** zapálen**é**. წარსულში: Večera **bola** uvaren**á**.",
+      "მაღაზიებსა და ტელეფონებზე ეს ხშირად გვხვდება: obchod je zatvorený (დაკეტილია) ან otvorený (ღიაა), mobil je nabitý (დამუხტულია) ან vybitý (დამჯდარია), zapnutý (ჩართულია) ან vypnutý (გამორთულია), pokazený (გაფუჭებულია: nefunguje, არ მუშაობს) ან opravený (შეკეთებულია).",
+      "ჯერ არ არის გაკეთებული: nie je umytý, ან არსებითი სახელის წინ ერთ სიტყვად: neumytý riad (გაურეცხავი ჭურჭელი)."
+    ]
+  },
+  "a2-u9-l14.grammar-byt-participle.table.head": {
+    "en": [
+      "",
+      "done"
+    ],
+    "t": [
+      "",
+      "გაკეთებულია"
+    ]
+  },
+  "a2-u9-l14.grammar-byt-participle.table.rows": {
+    "en": [
+      [
+        "stôl",
+        "je prestret**ý**"
+      ],
+      [
+        "večera",
+        "je uvaren**á**"
+      ],
+      [
+        "víno",
+        "je vychladen**é** (chilled)"
+      ],
+      [
+        "sviečky",
+        "sú zapálen**é**"
+      ],
+      [
+        "obchod",
+        "je zatvoren**ý**"
+      ],
+      [
+        "mobil",
+        "je vybit**ý**"
+      ]
+    ],
+    "t": [
+      [
+        "stôl",
+        "je prestret**ý**"
+      ],
+      [
+        "večera",
+        "je uvaren**á**"
+      ],
+      [
+        "víno",
+        "je vychladen**é** (გაცივებულია)"
+      ],
+      [
+        "sviečky",
+        "sú zapálen**é**"
+      ],
+      [
+        "obchod",
+        "je zatvoren**ý**"
+      ],
+      [
+        "mobil",
+        "je vybit**ý**"
+      ]
+    ]
+  },
+  "a2-u9-l14.grammar-byt-participle.examples": {
+    "en": [
+      "Everything is ready.",
+      "The shop is closed."
+    ],
+    "t": [
+      "ყველაფერი მზადაა.",
+      "მაღაზია დაკეტილია."
+    ]
+  },
+  "a2-u9-l14.fill-je-vsetko-pripravene.en": {
+    "en": "Is everything ready? Yes, the table is laid.",
+    "t": "ყველაფერი მზადაა? კი, სუფრა გაშლილია."
+  },
+  "a2-u9-l14.fill-je-vsetko-pripravene.why": {
+    "en": "Stôl is masculine, so after je the participle is **prestretý**.",
+    "t": "Stôl მამრობითია, ამიტომ je-ს შემდეგ მიმღეობაა **prestretý**."
+  },
+  "a2-u9-l14.choice-jeho-mobil-je.question": {
+    "en": "Tomáš doesn't answer his phone. Why not?",
+    "t": "ტომაში ტელეფონს არ პასუხობს. რატომ?"
+  },
+  "a2-u9-l14.choice-jeho-mobil-je.why": {
+    "en": "**Vypnutý** is switched off. Zapnutý is on, and nabitý is charged.",
+    "t": "**Vypnutý** გამორთულია. Zapnutý ჩართულია, nabitý კი დამუხტული."
+  },
+  "a2-u9-l14.build-riad-este-nie.prompt": {
+    "en": "The dishes aren't washed yet.",
+    "t": "ჭურჭელი ჯერ არ არის გარეცხილი."
+  },
+  "a2-u9-l14.build-riad-este-nie.traps": {
+    "en": [
+      "Riad is masculine: **umytý**.",
+      "With byť, “not” is a separate word: **nie** je. Neje means “doesn't eat”."
+    ],
+    "t": [
+      "Riad მამრობითია: **umytý**.",
+      "byť-თან „არ“ ცალკე სიტყვაა: **nie** je. Neje ნიშნავს „არ ჭამს“."
+    ]
+  },
+  "a2-u9-l14.grammar-passive-sentences.title": {
+    "en": "Who did it? Passive sentences",
+    "t": "ვინ გააკეთა? ვნებითი წინადადებები"
+  },
+  "a2-u9-l14.grammar-passive-sentences.body": {
+    "en": [
+      "Marek uvaril večeru. = Marek cooked the dinner. Večera je uvarená. = The dinner is cooked. The second sentence is about the dinner, and it doesn't say who did it: the object becomes the subject, and byť + the participle follows.",
+      "Notices use this a lot: predstavenie je zrušené (the show is cancelled), miesto je obsadené (the seat is taken)."
+    ],
+    "t": [
+      "Marek uvaril večeru. = მარეკმა ვახშამი მოამზადა. Večera je uvarená. = ვახშამი მომზადებულია. მეორე წინადადება ვახშამზეა და არ ამბობს, ვინ გააკეთა: ობიექტი ქვემდებარე ხდება, მას კი byť + მიმღეობა მოსდევს.",
+      "განცხადებებში ეს ხშირად გვხვდება: predstavenie je zrušené (წარმოდგენა გაუქმებულია), miesto je obsadené (ადგილი დაკავებულია)."
+    ]
+  },
+  "a2-u9-l14.grammar-passive-sentences.table.head": {
+    "en": [
+      "who did it",
+      "what is done"
+    ],
+    "t": [
+      "ვინ გააკეთა",
+      "რა არის გაკეთებული"
+    ]
+  },
+  "a2-u9-l14.grammar-passive-sentences.table.rows": {
+    "en": [
+      [
+        "Marek uvaril večeru.",
+        "Večera je uvaren**á**."
+      ],
+      [
+        "Lucia prestrela stôl.",
+        "Stôl je prestret**ý**."
+      ],
+      [
+        "Marek umyl riad.",
+        "Riad je umyt**ý**."
+      ],
+      [
+        "Emma kúpila lístky.",
+        "Lístky sú kúpen**é**."
+      ]
+    ],
+    "t": [
+      [
+        "Marek uvaril večeru.",
+        "Večera je uvaren**á**."
+      ],
+      [
+        "Lucia prestrela stôl.",
+        "Stôl je prestret**ý**."
+      ],
+      [
+        "Marek umyl riad.",
+        "Riad je umyt**ý**."
+      ],
+      [
+        "Emma kúpila lístky.",
+        "Lístky sú kúpen**é**."
+      ]
+    ]
+  },
+  "a2-u9-l14.grammar-passive-sentences.examples": {
+    "en": [
+      "The show is cancelled.",
+      "The seat is taken."
+    ],
+    "t": [
+      "წარმოდგენა გაუქმებულია.",
+      "ადგილი დაკავებულია."
+    ]
+  },
+  "a2-u9-l14.choice-marek-uvaril-veceru.question": {
+    "en": "Marek uvaril večeru. Which sentence says the same about the dinner?",
+    "t": "Marek uvaril večeru. რომელი წინადადება ამბობს იმავეს ვახშამზე?"
+  },
+  "a2-u9-l14.choice-marek-uvaril-veceru.why": {
+    "en": "The dinner becomes the subject, and the participle agrees with it: večera je uvaren**á**. Who did it is left out.",
+    "t": "ვახშამი ქვემდებარე ხდება და მიმღეობა მას ეთანხმება: večera je uvaren**á**. ვინ გააკეთა, აღარ ითქმის."
+  },
+  "a2-u9-l14.choice-predstavenie-je-zrusene.question": {
+    "en": "You see this on the circus door. What does it mean?",
+    "t": "ცირკის კარზე ამას ხედავთ. რას ნიშნავს?"
+  },
+  "a2-u9-l14.choice-predstavenie-je-zrusene.options": {
+    "en": [
+      "The show is cancelled.",
+      "The show is sold out.",
+      "The show has started."
+    ],
+    "t": [
+      "წარმოდგენა გაუქმებულია.",
+      "წარმოდგენაზე ბილეთები გაყიდულია.",
+      "წარმოდგენა დაიწყო."
+    ]
+  },
+  "a2-u9-l14.choice-predstavenie-je-zrusene.why": {
+    "en": "**Zrušené** comes from zrušiť, to cancel: the show has been cancelled. Sold out would be vypredané.",
+    "t": "**Zrušené** zrušiť-იდან (გაუქმება) მოდის: წარმოდგენა გააუქმეს. „გაყიდულია“ იქნებოდა vypredané."
+  },
+  "a2-u9-l14.grammar-byvat-usually.title": {
+    "en": "Byť or bývať?",
+    "t": "Byť თუ bývať?"
+  },
+  "a2-u9-l14.grammar-byvat-usually.body": {
+    "en": [
+      "Bývať is byť for what usually happens. Obchod **je** zatvorený: it's closed now. V nedeľu **býva** zatvorený: it's usually closed on Sundays.",
+      "It goes like volať: bývam, bývaš, býva… You know it as “to live” too: Bývam na internáte."
+    ],
+    "t": [
+      "Bývať არის byť იმისთვის, რაც ჩვეულებრივ ხდება, ქართული „ხოლმე“-ს მსგავსად. Obchod **je** zatvorený: ახლა დაკეტილია. V nedeľu **býva** zatvorený: კვირაობით დაკეტილია ხოლმე.",
+      "უღლდება როგორც volať: bývam, bývaš, býva… მას „ცხოვრების“ მნიშვნელობითაც იცნობთ: Bývam na internáte. = საერთო საცხოვრებელში ვცხოვრობ."
+    ]
+  },
+  "a2-u9-l14.grammar-byvat-usually.table.head": {
+    "en": [
+      "",
+      "now",
+      "usually"
+    ],
+    "t": [
+      "",
+      "ახლა",
+      "ჩვეულებრივ"
+    ]
+  },
+  "a2-u9-l14.grammar-byvat-usually.table.rows": {
+    "en": [
+      [
+        "ja",
+        "som",
+        "býva**m**"
+      ],
+      [
+        "ty",
+        "si",
+        "býva**š**"
+      ],
+      [
+        "on, ona, ono",
+        "je",
+        "býva"
+      ],
+      [
+        "my",
+        "sme",
+        "býva**me**"
+      ],
+      [
+        "vy",
+        "ste",
+        "býva**te**"
+      ],
+      [
+        "oni, ony",
+        "sú",
+        "býva**jú**"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "som",
+        "býva**m**"
+      ],
+      [
+        "ty",
+        "si",
+        "býva**š**"
+      ],
+      [
+        "on, ona, ono",
+        "je",
+        "býva"
+      ],
+      [
+        "my",
+        "sme",
+        "býva**me**"
+      ],
+      [
+        "vy",
+        "ste",
+        "býva**te**"
+      ],
+      [
+        "oni, ony",
+        "sú",
+        "býva**jú**"
+      ]
+    ]
+  },
+  "a2-u9-l14.grammar-byvat-usually.examples": {
+    "en": [
+      "The shop is usually closed on Sundays.",
+      "Restaurants are usually full on Fridays."
+    ],
+    "t": [
+      "კვირაობით მაღაზია დაკეტილია ხოლმე.",
+      "პარასკევობით რესტორნები სავსეა ხოლმე."
+    ]
+  },
+  "a2-u9-l14.fill-v-nedelu-byva.en": {
+    "en": "The post office is usually closed on Sundays.",
+    "t": "კვირაობით ფოსტა დაკეტილია ხოლმე."
+  },
+  "a2-u9-l14.fill-v-nedelu-byva.why": {
+    "en": "Pošta is ona, so bývať takes the ona form, **býva**, like je.",
+    "t": "Pošta = ona, ამიტომ bývať ona-ს ფორმას იღებს, **býva**, როგორც je."
+  },
+  "a2-u9-l14.build-v-zime-byvam.prompt": {
+    "en": "In winter I'm usually ill. (a woman speaking)",
+    "t": "ზამთარში ავად ვარ ხოლმე. (ამბობს ქალი)"
+  },
+  "a2-u9-l14.build-v-zime-byvam.traps": {
+    "en": [
+      "The speaker is a woman: **chorá**.",
+      "About yourself, ja: **bývam**."
+    ],
+    "t": [
+      "ლაპარაკობს ქალი: **chorá**.",
+      "საკუთარ თავზე, ja: **bývam**."
+    ]
+  },
+  "a2-u9-l14.fill-moj-mobil-je.en": {
+    "en": "My phone is flat, I can't call you.",
+    "t": "ტელეფონი დამჯდარი მაქვს, ვერ დაგირეკავ."
+  },
+  "a2-u9-l14.fill-moj-mobil-je.why": {
+    "en": "Mobil is masculine, so **vybitý**.",
+    "t": "Mobil მამრობითია, ამიტომ **vybitý**."
+  },
+  "a2-u9-l14.fill-mobil-nefunguje-je.en": {
+    "en": "The phone doesn't work, it's broken.",
+    "t": "ტელეფონი არ მუშაობს, გაფუჭებულია."
+  },
+  "a2-u9-l14.fill-mobil-nefunguje-je.why": {
+    "en": "Mobil is masculine, so **pokazený**.",
+    "t": "Mobil მამრობითია, ამიტომ **pokazený**."
+  },
+  "a2-u9-l14.choice-mobil-je-uz.question": {
+    "en": "Tomáš took his phone in to be repaired. What's the news?",
+    "t": "ტომაშმა ტელეფონი შესაკეთებლად წაიღო. რა ამბავია?"
+  },
+  "a2-u9-l14.choice-mobil-je-uz.options": {
+    "en": [
+      "The phone is still broken.",
+      "The phone is switched off.",
+      "The phone has been fixed."
+    ],
+    "t": [
+      "ტელეფონი ისევ გაფუჭებულია.",
+      "ტელეფონი გამორთულია.",
+      "ტელეფონი უკვე შეკეთებულია."
+    ]
+  },
+  "a2-u9-l14.choice-mobil-je-uz.why": {
+    "en": "**Opravený** comes from opraviť (to repair): the phone has been fixed. Broken is pokazený.",
+    "t": "**Opravený** opraviť-იდან (შეკეთება) მოდის: ტელეფონი შეაკეთეს. „გაფუჭებული“ არის pokazený."
+  },
+  "a2-u9-l14.build-v-kuchyni-je.answers": {
+    "en": [
+      "There are still unwashed dishes in the kitchen."
+    ],
+    "t": [
+      "სამზარეულოში ჯერ კიდევ გაურეცხავი ჭურჭელია.",
+      "სამზარეულოში ისევ გაურეცხავი ჭურჭელია."
+    ]
+  },
+  "a2-u9-l14.build-v-kuchyni-je.distractors": {
+    "en": [
+      "clean",
+      "no"
+    ],
+    "t": [
+      "სუფთა",
+      "გარეცხილი"
+    ]
+  },
+  "a2-u9-l14.speak-vsetko-je-pripravene.en": {
+    "en": "Everything is ready!",
+    "t": "ყველაფერი მზადაა!"
+  },
+  "a2-u9-l15.titleEn": {
+    "en": "Are you ready?",
+    "t": "მზად ხარ?"
+  },
+  "a2-u9-l15.nervozny.en": {
+    "en": "nervous",
+    "t": "ნერვიული"
+  },
+  "a2-u9-l15.nervozny.note": {
+    "en": "Marek je pred rande **nervózny**. = Marek is nervous before the date.",
+    "t": "Marek je pred rande **nervózny**. = მარეკი პაემნის წინ ნერვიულობს."
+  },
+  "a2-u9-l15.oholeny-a-ucesany.en": {
+    "en": "shaved, with your hair done",
+    "t": "გაპარსული და დავარცხნილი"
+  },
+  "a2-u9-l15.oholeny-a-ucesany.note": {
+    "en": "From **oholiť sa** (to shave) and **učesať sa** (to comb your hair). Like zaľúbený, they lose sa.",
+    "t": "**oholiť sa**-დან (გაპარსვა) და **učesať sa**-დან (დავარცხნა). zaľúbený-ს მსგავსად, ისინი sa-ს კარგავენ."
+  },
+  "a2-u9-l15.choice-marek-si-osprchovany.question": {
+    "en": "Lucia comes round to help. What does she notice?",
+    "t": "ლუცია დასახმარებლად მოდის. რას ამჩნევს?"
+  },
+  "a2-u9-l15.choice-marek-si-osprchovany.options": {
+    "en": [
+      "Marek has shaved but hasn't showered yet.",
+      "Marek has cooked but hasn't washed up yet.",
+      "Marek has showered but hasn't shaved yet."
+    ],
+    "t": [
+      "მარეკი გაიპარსა, მაგრამ შხაპი ჯერ არ მიუღია.",
+      "მარეკმა ვახშამი მოამზადა, მაგრამ ჭურჭელი ჯერ არ გაურეცხავს.",
+      "მარეკმა შხაპი მიიღო, მაგრამ ჯერ არ გაპარსულა."
+    ]
+  },
+  "a2-u9-l15.fill-si-pekne-ucesany.en": {
+    "en": "Your hair looks nice!",
+    "t": "ლამაზად დავარცხნილი ხარ!"
+  },
+  "a2-u9-l15.fill-si-pekne-ucesany.why": {
+    "en": "Lucia is talking to Marek, a man, so the -ý ending: učesan**ý**.",
+    "t": "ლუცია მარეკს, კაცს, ელაპარაკება, ამიტომ -ý დაბოლოება: učesan**ý**."
+  },
+  "a2-u9-l15.ladit-s.en": {
+    "en": "to go with, to match",
+    "t": "შეხამება"
+  },
+  "a2-u9-l15.ladit-s.note": {
+    "en": "Táto košeľa **ladí s** nohavicami. = This shirt goes with the trousers.",
+    "t": "Táto košeľa **ladí s** nohavicami. = ეს პერანგი შარვალს ეხამება."
+  },
+  "a2-u9-l15.fill-biela-kosela-ladi.en": {
+    "en": "The white shirt goes with the dark trousers.",
+    "t": "თეთრი პერანგი მუქ შარვალს ეხამება."
+  },
+  "a2-u9-l15.fill-biela-kosela-ladi.why": {
+    "en": "S (with) takes the instrumental. In the plural, adjectives end in **-ými**: s tmav**ými** nohavicami.",
+    "t": "S („-თან ერთად“) inštrumentál-ს (მოქმედებით ბრუნვას) მოითხოვს. მრავლობითში ზედსართავები **-ými**-ზე ბოლოვდება: s tmav**ými** nohavicami."
+  },
+  "a2-u9-l15.to-nevadi.en": {
+    "en": "It doesn't matter. / Never mind.",
+    "t": "არაფერია. / არაუშავს."
+  },
+  "a2-u9-l15.to-nevadi.note": {
+    "en": "Veronika: Prídem **neskôr** (later). Marek: To nevadí. **Počkám.** = I'll wait.",
+    "t": "ვერონიკა: Prídem **neskôr** (მოგვიანებით). მარეკი: To nevadí. **Počkám.** = დაგელოდები."
+  },
+  "a2-u9-l15.choice-prepac-pridem-neskor.question": {
+    "en": "Veronika texts Marek. What's the problem?",
+    "t": "ვერონიკა მარეკს ესემესს სწერს. რა პრობლემაა?"
+  },
+  "a2-u9-l15.choice-prepac-pridem-neskor.options": {
+    "en": [
+      "She can't come at all.",
+      "She's ill.",
+      "She'll be late: she's still at work."
+    ],
+    "t": [
+      "საერთოდ ვერ მოვა.",
+      "ავადაა.",
+      "დაიგვიანებს: ჯერ კიდევ სამსახურშია."
+    ]
+  },
+  "a2-u9-l15.build-to-nevadi-pockam.prompt": {
+    "en": "Never mind, I'll wait.",
+    "t": "არაფერია, დაგელოდები."
+  },
+  "a2-u9-l15.build-to-nevadi-pockam.traps": {
+    "en": [
+      "Marek is talking about himself, ja: **počkám**.",
+      "To (it) is one thing: to **nevadí**."
+    ],
+    "t": [
+      "მარეკი საკუთარ თავზე ლაპარაკობს, ja: **počkám**.",
+      "To (ეს) ერთი რამაა: to **nevadí**."
+    ]
+  },
+  "a2-u9-l15.vyzeras-krasne.en": {
+    "en": "You look beautiful!",
+    "t": "ლამაზად გამოიყურები!"
+  },
+  "a2-u9-l15.vyzeras-krasne.note": {
+    "en": "**vyzerať** = to look. Máš nové **šaty**? = Is that a new dress? (šaty is always plural)",
+    "t": "**vyzerať** = გამოყურება. Máš nové **šaty**? = ახალი კაბაა? (šaty ყოველთვის მრავლობითშია)"
+  },
+  "a2-u9-l15.choice-vyzeras-krasne-mas.question": {
+    "en": "Veronika arrives in a new dress. What does Marek say?",
+    "t": "ვერონიკა ახალი კაბით მოდის. რას ამბობს მარეკი?"
+  },
+  "a2-u9-l15.choice-vyzeras-krasne-mas.why": {
+    "en": "**Šaty** (a dress) is always plural: nov**é** šaty. And Marek says ty to Veronika: vyzer**áš**.",
+    "t": "**Šaty** (კაბა) ყოველთვის მრავლობითშია: nov**é** šaty. მარეკი ვერონიკას ty-თი მიმართავს: vyzer**áš**."
+  },
+  "a2-u9-l15.nebudem-vas-rusit.en": {
+    "en": "I won't disturb you.",
+    "t": "ხელს აღარ შეგიშლით."
+  },
+  "a2-u9-l15.nebudem-vas-rusit.note": {
+    "en": "**rušiť** = to disturb. Lucia says **vás**: Marek and Veronika.",
+    "t": "**rušiť** = ხელის შეშლა, შეწუხება. ლუცია ამბობს **vás**: მარეკს და ვერონიკას."
+  },
+  "a2-u9-l15.uzite-si-vecer.en": {
+    "en": "Enjoy your evening!",
+    "t": "კარგად გაატარეთ საღამო!"
+  },
+  "a2-u9-l15.uzite-si-vecer.note": {
+    "en": "**užiť si** = to enjoy. To one friend: Uži si to!",
+    "t": "**užiť si** = კარგად გატარება, სიამოვნების მიღება. ერთ მეგობარს: Uži si to!"
+  },
+  "a2-u9-l15.choice-nebudem-vas-rusit.question": {
+    "en": "Lucia is still there when Veronika arrives. Now she's leaving. What does she say?",
+    "t": "ლუცია ჯერ კიდევ იქაა, როცა ვერონიკა მოდის. ახლა მიდის. რას ამბობს?"
+  },
+  "a2-u9-l15.choice-nebudem-vas-rusit.why": {
+    "en": "Lucia is talking to two people, Marek and Veronika, so she uses vy: **vás** and **užite**.",
+    "t": "ლუცია ორ ადამიანს, მარეკსა და ვერონიკას, ელაპარაკება, ამიტომ vy-ს იყენებს: **vás** და **užite**."
+  },
+  "a2-u9-l15.build-ahoj-nebudem-vas.prompt": {
+    "en": "Bye, I won't disturb you. (Lucia to Marek and Veronika)",
+    "t": "კარგად, ხელს აღარ შეგიშლით. (ლუცია მარეკს და ვერონიკას)"
+  },
+  "a2-u9-l15.build-ahoj-nebudem-vas.traps": {
+    "en": [
+      "Lucia is talking to two people, vy: **vás**.",
+      "After nebudem comes the infinitive: nebudem **rušiť**."
+    ],
+    "t": [
+      "ლუცია ორ ადამიანს ელაპარაკება, vy: **vás**.",
+      "nebudem-ის შემდეგ ინფინიტივი მოდის: nebudem **rušiť**."
+    ]
+  },
+  "a2-u9-l15.match-si-pripraveny.pairs": {
+    "en": [
+      "nervous",
+      "to go with",
+      "to disturb",
+      "to enjoy",
+      "later"
+    ],
+    "t": [
+      "ნერვიული",
+      "შეხამება",
+      "ხელის შეშლა",
+      "კარგად გატარება",
+      "მოგვიანებით"
+    ]
+  },
+  "a2-u9-l15.speak-uzite-si-vecer.en": {
+    "en": "Enjoy your evening!",
+    "t": "კარგად გაატარეთ საღამო!"
+  },
+  "a2-u9-l16.titleEn": {
+    "en": "A romantic dinner",
+    "t": "რომანტიკული ვახშამი"
+  },
+  "a2-u9-l16.mam-prazdny-zaludok.en": {
+    "en": "My stomach is empty. / I'm starving.",
+    "t": "ცარიელი კუჭი მაქვს. / ძალიან მშია."
+  },
+  "a2-u9-l16.mam-prazdny-zaludok.note": {
+    "en": "**žalúdok** = stomach. After the meal: Som najedená. = I'm full (a woman).",
+    "t": "**žalúdok** = კუჭი. ჭამის შემდეგ: Som najedená. = დანაყრებული ვარ. (ამბობს ქალი)"
+  },
+  "a2-u9-l16.choice-dnes-som-este.question": {
+    "en": "Veronika arrives. How is she?",
+    "t": "ვერონიკა მოდის. როგორ არის?"
+  },
+  "a2-u9-l16.choice-dnes-som-este.options": {
+    "en": [
+      "Very hungry.",
+      "Full.",
+      "Tired and ill."
+    ],
+    "t": [
+      "ძალიან შია.",
+      "დანაყრებულია.",
+      "დაღლილი და ავადაა."
+    ]
+  },
+  "a2-u9-l16.grilovany.en": {
+    "en": "grilled",
+    "t": "გრილზე შემწვარი"
+  },
+  "a2-u9-l16.grilovany.note": {
+    "en": "From **grilovať**: grilovaná ryba, grilované mäso. It works like the -aný words.",
+    "t": "**grilovať**-იდან: grilovaná ryba, grilované mäso. ის -aný სიტყვებივით იცვლება."
+  },
+  "a2-u9-l16.plnene-papriky.en": {
+    "en": "stuffed peppers",
+    "t": "ჩაყრილი წიწაკა"
+  },
+  "a2-u9-l16.plnene-papriky.note": {
+    "en": "From **plniť** (to fill): -iť → -ený. A favourite Slovak dish.",
+    "t": "**plniť**-იდან (ავსება): -iť → -ený. სლოვაკების საყვარელი კერძი."
+  },
+  "a2-u9-l16.choice-das-si-grilovanu.question": {
+    "en": "What is Marek offering?",
+    "t": "რას სთავაზობს მარეკი?"
+  },
+  "a2-u9-l16.choice-das-si-grilovanu.options": {
+    "en": [
+      "fried fish or green peppers",
+      "grilled chicken or stuffed peppers",
+      "grilled fish or stuffed peppers"
+    ],
+    "t": [
+      "ტაფაზე შემწვარ თევზს ან მწვანე წიწაკას",
+      "გრილზე შემწვარ ქათამს ან ჩაყრილ წიწაკას",
+      "გრილზე შემწვარ თევზს ან ჩაყრილ წიწაკას"
+    ]
+  },
+  "a2-u9-l16.fill-dam-si-grilovanu.en": {
+    "en": "I'll have the grilled fish.",
+    "t": "გრილზე შემწვარ თევზს ავიღებ."
+  },
+  "a2-u9-l16.fill-dam-si-grilovanu.why": {
+    "en": "The fish is the object of dám si, so -á becomes **-ú**: grilovan**ú** rybu, like dobrú kávu.",
+    "t": "თევზი dám si-ს ობიექტია, ამიტომ -á ხდება **-ú**: grilovan**ú** rybu, როგორც dobrú kávu."
+  },
+  "a2-u9-l16.opekane-zemiaky.en": {
+    "en": "roast potatoes",
+    "t": "შემწვარი კარტოფილი"
+  },
+  "a2-u9-l16.opekane-zemiaky.note": {
+    "en": "K tomu sú **opekané zemiaky**. = It comes with roast potatoes.",
+    "t": "K tomu sú **opekané zemiaky**. = მას შემწვარი კარტოფილი მოყვება."
+  },
+  "a2-u9-l16.build-das-si-sampanske.prompt": {
+    "en": "Will you have champagne or wine?",
+    "t": "შამპანურს დალევ თუ ღვინოს?"
+  },
+  "a2-u9-l16.build-das-si-sampanske.traps": {
+    "en": [
+      "Šampanské is neuter, an adjective used as a noun: **šampanské**.",
+      "Marek says ty to Veronika: **dáš** si."
+    ],
+    "t": [
+      "Šampanské საშუალო სქესისაა, არსებით სახელად ქცეული ზედსართავი: **šampanské**.",
+      "მარეკი ვერონიკას ty-თი მიმართავს: **dáš** si."
+    ]
+  },
+  "a2-u9-l16.co-oslavujeme.en": {
+    "en": "What are we celebrating?",
+    "t": "რას ვზეიმობთ?"
+  },
+  "a2-u9-l16.co-oslavujeme.note": {
+    "en": "**oslavovať** = to celebrate. Aký je **dôvod**? = What's the reason?",
+    "t": "**oslavovať** = ზეიმი, აღნიშვნა. Aký je **dôvod**? = რა მიზეზია?"
+  },
+  "a2-u9-l16.choice-aky-je-dovod.question": {
+    "en": "Veronika sees the candles and the champagne. What does she ask?",
+    "t": "ვერონიკა სანთლებსა და შამპანურს ხედავს. რას კითხულობს?"
+  },
+  "a2-u9-l16.zakusok.en": {
+    "en": "dessert, a piece of cake",
+    "t": "დესერტი, ნამცხვრის ნაჭერი"
+  },
+  "a2-u9-l16.zakusok.note": {
+    "en": "Na **zákusok** je koláč. = There's cake for dessert.",
+    "t": "Na **zákusok** je koláč. = დესერტად ნამცხვარია."
+  },
+  "a2-u9-l16.fill-na-zakusok-mame.en": {
+    "en": "For dessert we've got Grandma's strawberry cake.",
+    "t": "დესერტად ბებიას მარწყვის ნამცხვარი გვაქვს."
+  },
+  "a2-u9-l16.fill-na-zakusok-mame.why": {
+    "en": "Na here takes the object form, and masculine things don't change: na **zákusok**.",
+    "t": "na აქ ობიექტის ფორმას მოითხოვს, მამრობითი ნივთები კი ამ ფორმაში არ იცვლება: na **zákusok**."
+  },
+  "a2-u9-l16.match-vecera.pairs": {
+    "en": [
+      "grilled",
+      "champagne",
+      "dessert",
+      "stomach",
+      "peppers"
+    ],
+    "t": [
+      "გრილზე შემწვარი",
+      "შამპანური",
+      "დესერტი",
+      "კუჭი",
+      "წიწაკა"
+    ]
+  },
+  "a2-u9-l16.choice-vsetko-vyzera-krasne.question": {
+    "en": "What does Veronika think of the dinner?",
+    "t": "რას ფიქრობს ვერონიკა ვახშამზე?"
+  },
+  "a2-u9-l16.choice-vsetko-vyzera-krasne.options": {
+    "en": [
+      "It looks and tastes wonderful.",
+      "It looks nice, but it doesn't taste good.",
+      "She isn't hungry any more."
+    ],
+    "t": [
+      "მშვენივრად გამოიყურება და ძალიან გემრიელია.",
+      "ლამაზად გამოიყურება, მაგრამ გემრიელი არ არის.",
+      "აღარ შია."
+    ]
+  },
+  "a2-u9-l16.build-dam-si-grilovanu.prompt": {
+    "en": "I'll have the grilled fish with roast potatoes.",
+    "t": "გრილზე შემწვარ თევზს შემწვარი კარტოფილით ავიღებ."
+  },
+  "a2-u9-l16.build-dam-si-grilovanu.traps": {
+    "en": [
+      "S (with) takes the instrumental. Plural adjectives end in **-ými**: s opekan**ými** zemiakmi.",
+      "The fish is the object of dám si: **grilovanú** rybu."
+    ],
+    "t": [
+      "S („-თან ერთად“) inštrumentál-ს (მოქმედებით ბრუნვას) მოითხოვს. მრავლობითში ზედსართავები **-ými**-ზე ბოლოვდება: s opekan**ými** zemiakmi.",
+      "თევზი dám si-ს ობიექტია: **grilovanú** rybu."
+    ]
+  },
+  "a2-u9-l16.build-som-najedena-ale.answers": {
+    "en": [
+      "I'm full, but I'll still have some cake."
+    ],
+    "t": [
+      "დანაყრებული ვარ, მაგრამ ნამცხვარს მაინც შევჭამ.",
+      "დანაყრებული ვარ, მაგრამ ნამცხვარს მაინც ავიღებ."
+    ]
+  },
+  "a2-u9-l16.build-som-najedena-ale.distractors": {
+    "en": [
+      "hungry",
+      "won't"
+    ],
+    "t": [
+      "მშიერი",
+      "არ"
+    ]
+  },
+  "a2-u9-l16.speak-na-zdravie-co.en": {
+    "en": "Cheers! What are we celebrating?",
+    "t": "გაუმარჯოს! რას ვზეიმობთ?"
+  },
+  "a2-u9-l17.titleEn": {
+    "en": "A declaration of love",
+    "t": "სიყვარულის ახსნა"
+  },
+  "a2-u9-l17.vsimnut-si.en": {
+    "en": "to notice",
+    "t": "შემჩნევა"
+  },
+  "a2-u9-l17.vsimnut-si.note": {
+    "en": "Všimla si si niečo? = Have you noticed anything? (to a woman: si si, as in Dal si si kávu?)",
+    "t": "Všimla si si niečo? = რამე შეამჩნიე? (ქალს ეკითხებიან. si ორჯერაა: ერთი „შენ“-ს აღნიშნავს, მეორე ზმნას ეკუთვნის, როგორც Dal si si kávu?-ში)"
+  },
+  "a2-u9-l17.fill-ano-vsimla-som.en": {
+    "en": "Yes, I've noticed the flowers.",
+    "t": "კი, თაიგული შევამჩნიე."
+  },
+  "a2-u9-l17.fill-ano-vsimla-som.why": {
+    "en": "Veronika is a woman, so the past ends in **-la**: všim**la** som si, like stretnúť → stretla.",
+    "t": "ვერონიკა ქალია, ამიტომ წარსული **-la**-ზე ბოლოვდება: všim**la** som si, როგორც stretnúť → stretla."
+  },
+  "a2-u9-l17.zalubit-sa.en": {
+    "en": "to fall in love",
+    "t": "შეყვარება"
+  },
+  "a2-u9-l17.zalubit-sa.note": {
+    "en": "In love **with** someone: **do** + the of-form. Zaľúbil som sa **do teba**. = I've fallen in love with you.",
+    "t": "ვინც შეგიყვარდათ, ის **do**-ს შემდეგ genitív-შია (ნათესაობით ბრუნვაში): Zaľúbil som sa **do teba**. = შენ შემიყვარდი."
+  },
+  "a2-u9-l17.na-prvy-pohlad.en": {
+    "en": "at first sight",
+    "t": "პირველი შეხედვით"
+  },
+  "a2-u9-l17.na-prvy-pohlad.note": {
+    "en": "**pohľad** = a look.",
+    "t": "**pohľad** = შეხედვა, მზერა."
+  },
+  "a2-u9-l17.choice-zalubil-som-sa.question": {
+    "en": "What does Marek tell Veronika?",
+    "t": "რას ეუბნება მარეკი ვერონიკას?"
+  },
+  "a2-u9-l17.choice-zalubil-som-sa.options": {
+    "en": [
+      "He fell in love with her at first sight.",
+      "He noticed her the first time he saw her.",
+      "He likes the way she looks."
+    ],
+    "t": [
+      "ვერონიკა პირველი შეხედვით შეუყვარდა.",
+      "ვერონიკა პირველივე შეხვედრისას შეამჩნია.",
+      "მოსწონს, როგორ გამოიყურება ვერონიკა."
+    ]
+  },
+  "a2-u9-l17.fill-zalubil-som-sa.en": {
+    "en": "I've fallen in love with you.",
+    "t": "შენ შემიყვარდი."
+  },
+  "a2-u9-l17.fill-zalubil-som-sa.why": {
+    "en": "Do takes the genitive, and after a preposition a pronoun takes its long form: do **teba**, like od teba.",
+    "t": "Do genitív-ს (ნათესაობით ბრუნვას) მოითხოვს, წინდებულის შემდეგ კი ნაცვალსახელი გრძელ ფორმას იღებს: do **teba**, როგორც od teba."
+  },
+  "a2-u9-l17.zlomena-ruka.en": {
+    "en": "a broken arm",
+    "t": "მოტეხილი ხელი"
+  },
+  "a2-u9-l17.zlomena-ruka.note": {
+    "en": "From zlomiť (to break). Marek met Veronika in winter, when he came to hospital **so zlomenou rukou**.",
+    "t": "zlomiť-იდან (მოტეხა). მარეკმა ვერონიკა ზამთარში გაიცნო, როცა საავადმყოფოში **so zlomenou rukou** (მოტეხილი ხელით) მივიდა."
+  },
+  "a2-u9-l17.build-aj-ja-som.prompt": {
+    "en": "I fell in love with you too. (Veronika)",
+    "t": "მეც შემიყვარდი. (ვერონიკა)"
+  },
+  "a2-u9-l17.build-aj-ja-som.traps": {
+    "en": [
+      "Veronika is a woman: zaľúbi**la**.",
+      "After do, the long form: do **teba**."
+    ],
+    "t": [
+      "ვერონიკა ქალია: zaľúbi**la**.",
+      "do-ს შემდეგ გრძელი ფორმაა: do **teba**."
+    ]
+  },
+  "a2-u9-l17.lubim-ta.en": {
+    "en": "I love you.",
+    "t": "მიყვარხარ."
+  },
+  "a2-u9-l17.lubim-ta.note": {
+    "en": "**ľúbiť** = to love someone. **Milujem ťa** says it even more strongly. **láska** = love: moja láska (my love); **miláčik** = darling.",
+    "t": "**ľúbiť** = ვინმეს სიყვარული. **Milujem ťa** იგივეა, ოღონდ უფრო ძლიერად ნათქვამი (ქართულად ორივე „მიყვარხარ“-ია). **láska** = სიყვარული: moja láska (ჩემო სიყვარულო); **miláčik** = ძვირფასო, საყვარელო."
+  },
+  "a2-u9-l17.choice-aj-ja-ta.question": {
+    "en": "Marek says Ľúbim ťa. What does Veronika answer?",
+    "t": "მარეკი ამბობს: Ľúbim ťa. რას პასუხობს ვერონიკა?"
+  },
+  "a2-u9-l17.choice-aj-ja-ta.why": {
+    "en": "Veronika talks about herself, ja: **ľúbim**. **Miláčik** (darling) is for a partner; babi is for a grandmother.",
+    "t": "ვერონიკა საკუთარ თავზე ლაპარაკობს, ja: **ľúbim**. **Miláčik** (ძვირფასო) საყვარელ ადამიანს ეუბნებიან, babi კი ბებიას."
+  },
+  "a2-u9-l17.chces-so-mnou.en": {
+    "en": "Will you go out with me?",
+    "t": "ჩემი შეყვარებული იქნები?"
+  },
+  "a2-u9-l17.chces-so-mnou.note": {
+    "en": "**chodiť s** = to go out with, to date. Then she's his **priateľka** (girlfriend).",
+    "t": "**chodiť s** = ვინმესთან ურთიერთობა, წყვილად ყოფნა (სიტყვასიტყვით „ვინმესთან სიარული“). ამის შემდეგ ვერონიკა მარეკის **priateľka**-ა (შეყვარებული)."
+  },
+  "a2-u9-l17.choice-chces-so-mnou.question": {
+    "en": "What does Marek mean?",
+    "t": "რას გულისხმობს მარეკი?"
+  },
+  "a2-u9-l17.choice-chces-so-mnou.options": {
+    "en": [
+      "Will you go out with me?",
+      "Will you go for a walk with me?",
+      "Will you come to the cinema with me?"
+    ],
+    "t": [
+      "ჩემი შეყვარებული იქნები?",
+      "ჩემთან ერთად გასეირნება გინდა?",
+      "ჩემთან ერთად კინოში წამოხვალ?"
+    ]
+  },
+  "a2-u9-l17.choice-chces-so-mnou.why": {
+    "en": "**Chodiť s niekým** means to go out with someone: to be a couple.",
+    "t": "**Chodiť s niekým** ნიშნავს ვინმესთან ურთიერთობას: წყვილად ყოფნას."
+  },
+  "a2-u9-l17.podmienka.en": {
+    "en": "condition",
+    "t": "პირობა"
+  },
+  "a2-u9-l17.podmienka.note": {
+    "en": "Mám jednu **podmienku**. = I've got one condition.",
+    "t": "Mám jednu **podmienku**. = ერთი პირობა მაქვს."
+  },
+  "a2-u9-l17.fill-ano-ale-mam.en": {
+    "en": "Yes, but I've got one condition.",
+    "t": "კი, მაგრამ ერთი პირობა მაქვს."
+  },
+  "a2-u9-l17.fill-ano-ale-mam.why": {
+    "en": "The condition is the object of mám: -a → **-u**, podmienk**u**, just like jedna → jednu.",
+    "t": "პირობა mám-ის ობიექტია: -a → **-u**, podmienk**u**, ზუსტად როგორც jedna → jednu."
+  },
+  "a2-u9-l17.choice-vzdy-v-piatok.question": {
+    "en": "What is Veronika's condition?",
+    "t": "რა პირობა აქვს ვერონიკას?"
+  },
+  "a2-u9-l17.choice-vzdy-v-piatok.options": {
+    "en": [
+      "She cooks him dinner every Friday.",
+      "They eat out every Friday.",
+      "Marek cooks her dinner every Friday."
+    ],
+    "t": [
+      "ვერონიკა ყოველ პარასკევს მარეკს ვახშამს მოუმზადებს.",
+      "ყოველ პარასკევს რესტორანში ივახშმებენ.",
+      "მარეკი ყოველ პარასკევს ვერონიკას ვახშამს მოუმზადებს."
+    ]
+  },
+  "a2-u9-l17.match-vyznanie.pairs": {
+    "en": [
+      "to notice",
+      "to fall in love",
+      "look",
+      "condition",
+      "to love"
+    ],
+    "t": [
+      "შემჩნევა",
+      "შეყვარება",
+      "შეხედვა",
+      "პირობა",
+      "სიყვარული"
+    ]
+  },
+  "a2-u9-l17.build-lubim-ta-veronika.answers": {
+    "en": [
+      "I love you, Veronika."
+    ],
+    "t": [
+      "მიყვარხარ, ვერონიკა.",
+      "ვერონიკა, მიყვარხარ."
+    ]
+  },
+  "a2-u9-l17.build-lubim-ta-veronika.distractors": {
+    "en": [
+      "like",
+      "her"
+    ],
+    "t": [
+      "მომწონხარ",
+      "მიყვარს"
+    ]
+  },
+  "a2-u9-l17.speak-zalubil-som-sa.en": {
+    "en": "I've fallen in love with you.",
+    "t": "შენ შემიყვარდი."
+  },
+  "a2-u9-l18.titleEn": {
+    "en": "We're together",
+    "t": "ერთად ვართ"
+  },
+  "a2-u9-l18.priatelka.en": {
+    "en": "girlfriend; (female) friend",
+    "t": "შეყვარებული (გოგო); მეგობარი (ქალი)"
+  },
+  "a2-u9-l18.priatelka.note": {
+    "en": "Veronika je Marekova **priateľka**. A friend you're not going out with is usually a kamarátka.",
+    "t": "Veronika je Marekova **priateľka**. = ვერონიკა მარეკის შეყვარებულია. მეგობარ გოგოს, ვისთანაც ურთიერთობა არ გაქვთ, ჩვეულებრივ kamarátka ჰქვია."
+  },
+  "a2-u9-l18.myslela-som-ze.en": {
+    "en": "I thought I'd never live to see it!",
+    "t": "მეგონა, ამას ვერასდროს მოვესწრებოდი!"
+  },
+  "a2-u9-l18.myslela-som-ze.note": {
+    "en": "**dožiť sa** = to live to see. Lucia laughs: her big brother has a girlfriend!",
+    "t": "**dožiť sa** = მოსწრება. ლუცია იცინის: მის უფროს ძმას შეყვარებული ჰყავს!"
+  },
+  "a2-u9-l18.choice-marek-ma-priatelku.question": {
+    "en": "How does Lucia take the news?",
+    "t": "როგორ ხვდება ლუცია ამ ამბავს?"
+  },
+  "a2-u9-l18.choice-marek-ma-priatelku.options": {
+    "en": [
+      "She's angry.",
+      "She's delighted and surprised.",
+      "She's sad."
+    ],
+    "t": [
+      "გაბრაზებულია.",
+      "გახარებული და გაკვირვებულია.",
+      "მოწყენილია."
+    ]
+  },
+  "a2-u9-l18.stastny.en": {
+    "en": "happy",
+    "t": "ბედნიერი"
+  },
+  "a2-u9-l18.stastny.note": {
+    "en": "The opposite: **nešťastný**, unhappy.",
+    "t": "საპირისპირო: **nešťastný**, უბედური."
+  },
+  "a2-u9-l18.fill-veronika-je-velmi.en": {
+    "en": "Veronika is very happy.",
+    "t": "ვერონიკა ძალიან ბედნიერია."
+  },
+  "a2-u9-l18.fill-veronika-je-velmi.why": {
+    "en": "Veronika is a woman, so the adjective ends in **-á**: šťastn**á**.",
+    "t": "ვერონიკა ქალია, ამიტომ ზედსართავი **-á**-ზე ბოლოვდება: šťastn**á**. ქართულ „ბედნიერს“ სქესი არ აქვს, სლოვაკურს კი აქვს."
+  },
+  "a2-u9-l18.zoznamit-sa.en": {
+    "en": "to meet (for the first time)",
+    "t": "გაცნობა (პირველად)"
+  },
+  "a2-u9-l18.zoznamit-sa.note": {
+    "en": "Kde ste sa **zoznámili**? = Where did you meet? Pán Kováč: So ženou sme sa zoznámili na **plese** (at a ball).",
+    "t": "Kde ste sa **zoznámili**? = სად გაიცანით ერთმანეთი? ბატონი კოვაჩი: So ženou sme sa zoznámili na **plese** (მეჯლისზე). = ცოლი მეჯლისზე გავიცანი."
+  },
+  "a2-u9-l18.choice-so-zenou-sme.question": {
+    "en": "Pán Kováč tells Emma about his wife. What does he say?",
+    "t": "ბატონი კოვაჩი ემას თავის ცოლზე უყვება. რას ამბობს?"
+  },
+  "a2-u9-l18.choice-so-zenou-sme.options": {
+    "en": [
+      "He met his wife at a concert.",
+      "His wife is at a ball.",
+      "He met his wife at a ball."
+    ],
+    "t": [
+      "ცოლი კონცერტზე გაიცნო.",
+      "მისი ცოლი მეჯლისზეა.",
+      "ცოლი მეჯლისზე გაიცნო."
+    ]
+  },
+  "a2-u9-l18.build-zoznamili-sme-sa.prompt": {
+    "en": "We met in Bratislava.",
+    "t": "ბრატისლავაში გავიცანით ერთმანეთი."
+  },
+  "a2-u9-l18.build-zoznamili-sme-sa.traps": {
+    "en": [
+      "“We” is my, so the past takes **-li**, with sme: zoznámi**li** sme sa.",
+      "“Where?” takes the locative after v: v **Bratislave**."
+    ],
+    "t": [
+      "„ჩვენ“ არის my, ამიტომ წარსული **-li**-ს იღებს, sme-სთან ერთად: zoznámi**li** sme sa.",
+      "„სად?“ v-ს შემდეგ lokál-ს (ადგილობით ბრუნვას) მოითხოვს: v **Bratislave**."
+    ]
+  },
+  "a2-u9-l18.vziat-sa.en": {
+    "en": "to get married (of a couple)",
+    "t": "დაქორწინება (წყვილზე)"
+  },
+  "a2-u9-l18.vziat-sa.note": {
+    "en": "O rok sme sa **vzali**. = We got married a year later. The wedding is the **svadba**.",
+    "t": "O rok sme sa **vzali**. = ერთი წლის შემდეგ დავქორწინდით. ქორწილი არის **svadba**."
+  },
+  "a2-u9-l18.fill-o-rok-sme.en": {
+    "en": "We got married a year later.",
+    "t": "ერთი წლის შემდეგ დავქორწინდით."
+  },
+  "a2-u9-l18.fill-o-rok-sme.why": {
+    "en": "We is my, so the past takes **-li**, with sme: vza**li** sme sa.",
+    "t": "„ჩვენ“ არის my, ამიტომ წარსული **-li**-ს იღებს, sme-სთან ერთად: vza**li** sme sa."
+  },
+  "a2-u9-l18.build-kedy-bude-svadba.prompt": {
+    "en": "When's the wedding going to be?",
+    "t": "როდის იქნება ქორწილი?"
+  },
+  "a2-u9-l18.build-kedy-bude-svadba.traps": {
+    "en": [
+      "Svadba is one thing, ona: **bude**.",
+      "Svadba is the subject here, so it stays **svadba**."
+    ],
+    "t": [
+      "Svadba ერთი რამაა, ona: **bude**.",
+      "Svadba აქ ქვემდებარეა, ამიტომ რჩება **svadba**."
+    ]
+  },
+  "a2-u9-l18.iba-zartujem.en": {
+    "en": "I'm only joking.",
+    "t": "უბრალოდ ვხუმრობ."
+  },
+  "a2-u9-l18.iba-zartujem.note": {
+    "en": "**žart** = a joke. **Nehnevaj sa!** = Don't be cross!",
+    "t": "**žart** = ხუმრობა. **Nehnevaj sa!** = ნუ გაბრაზდები!"
+  },
+  "a2-u9-l18.choice-nehnevaj-sa-iba.question": {
+    "en": "Marek looks cross after Lucia's joke about a wedding. What does she say?",
+    "t": "ლუციას ხუმრობის შემდეგ ქორწილზე მარეკი გაბრაზებული ჩანს. რას ეუბნება ლუცია?"
+  },
+  "a2-u9-l18.choice-nehnevaj-sa-iba.why": {
+    "en": "Lucia talks about herself, ja: žartuje**m**. To her brother she says ty: **nehnevaj** sa.",
+    "t": "ლუცია საკუთარ თავზე ლაპარაკობს, ja: žartuje**m**. ძმას ty-თი მიმართავს: **nehnevaj** sa."
+  },
+  "a2-u9-l18.rozist-sa.en": {
+    "en": "to split up, to break up",
+    "t": "დაშორება"
+  },
+  "a2-u9-l18.rozist-sa.note": {
+    "en": "**hádať sa** = to argue. Rozišli sa. = They split up. Divorced: **rozvedený** (a man), **rozvedená** (a woman).",
+    "t": "**hádať sa** = ჩხუბი, კამათი. Rozišli sa. = დაშორდნენ. განქორწინებული: **rozvedený** (კაცი), **rozvedená** (ქალი)."
+  },
+  "a2-u9-l18.fill-casto-sa-hadali.en": {
+    "en": "They often argued, so they split up after a year.",
+    "t": "ხშირად ჩხუბობდნენ, ამიტომ ერთი წლის შემდეგ დაშორდნენ."
+  },
+  "a2-u9-l18.fill-casto-sa-hadali.why": {
+    "en": "They were two people, oni, so the past ends in **-li**: sa roziš**li**. Rozišiel is one man, rozišla one woman.",
+    "t": "ისინი ორნი იყვნენ, oni, ამიტომ წარსული **-li**-ზე ბოლოვდება: sa roziš**li**. Rozišiel ერთი კაცია, rozišla კი ერთი ქალი."
+  },
+  "a2-u9-l18.choice-laska-ide-cez.question": {
+    "en": "Lucia laughs about Marek's dinner. What does she mean?",
+    "t": "ლუცია მარეკის ვახშამზე იცინის. რას გულისხმობს?"
+  },
+  "a2-u9-l18.choice-laska-ide-cez.options": {
+    "en": [
+      "Love makes you hungry.",
+      "The way to someone's heart is through their stomach.",
+      "Love is blind."
+    ],
+    "t": [
+      "სიყვარული მადას გიღვიძებს.",
+      "ადამიანის გულამდე გზა კუჭზე გადის.",
+      "სიყვარული ბრმაა."
+    ]
+  },
+  "a2-u9-l18.speak-myslela-som-ze.en": {
+    "en": "I thought I'd never live to see it!",
+    "t": "მეგონა, ამას ვერასდროს მოვესწრებოდი!"
+  },
+  "a2-u9-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "წერითი ვარჯიში"
+  },
+  "a2-u9-pisanie.listen-sarah-miluje-zvierata.en": {
+    "en": "Sarah loves animals; she likes monkeys best.",
+    "t": "სარას ძალიან უყვარს ცხოველები, ყველაზე მეტად კი მაიმუნები."
+  },
+  "a2-u9-pisanie.listen-v-zoo-su.en": {
+    "en": "There are two elephants and three lions at the zoo.",
+    "t": "ზოოპარკში ორი სპილო და სამი ლომია."
+  },
+  "a2-u9-pisanie.listen-listky-na-sobotu.en": {
+    "en": "The tickets for Saturday are sold out.",
+    "t": "შაბათის ბილეთები გაყიდულია."
+  },
+  "a2-u9-pisanie.listen-najprv-vymiesame-vajcia.en": {
+    "en": "First we mix the eggs with the sugar.",
+    "t": "ჯერ კვერცხებს შაქართან ერთად ავურევთ."
+  },
+  "a2-u9-pisanie.listen-stol-je-prestrety.en": {
+    "en": "The table is laid and dinner is cooked.",
+    "t": "სუფრა გაშლილია და ვახშამი მომზადებულია."
+  },
+  "a2-u9-pisanie.listen-zalubil-som-sa.en": {
+    "en": "I fell in love with you at first sight.",
+    "t": "პირველი შეხედვით შემიყვარდი."
+  },
+  "a2-u9-pisanie.listen-marek-a-veronika.en": {
+    "en": "Marek and Veronika are going out together.",
+    "t": "მარეკი და ვერონიკა ერთმანეთს ხვდებიან."
+  },
+  "a2-u9-l19.titleEn": {
+    "en": "Review",
+    "t": "გამეორება"
+  },
+  "a2-u9-l19.match-opakovanie.pairs": {
+    "en": [
+      "bear",
+      "monkey",
+      "dough",
+      "oven",
+      "condition"
+    ],
+    "t": [
+      "დათვი",
+      "მაიმუნი",
+      "ცომი",
+      "ღუმელი",
+      "პირობა"
+    ]
+  },
+  "a2-u9-l19.fill-v-zoo-sme.en": {
+    "en": "We saw four tigers at the zoo.",
+    "t": "ზოოპარკში ოთხი ვეფხვი ვნახეთ."
+  },
+  "a2-u9-l19.fill-v-zoo-sme.why": {
+    "en": "Two to four take the plural, and animal plurals work like things: štyri **tigre**. Tigrov comes after five.",
+    "t": "ორიდან ოთხამდე მრავლობითი მოდის, ცხოველების მრავლობითი კი ნივთებივით იცვლება: štyri **tigre**. Tigrov ხუთის შემდეგ მოდის."
+  },
+  "a2-u9-l19.choice-predstavenie-v-sobotu.question": {
+    "en": "You hear this at the circus box office. What's the news?",
+    "t": "ამას ცირკის სალაროში გაიგონებთ. რა ამბავია?"
+  },
+  "a2-u9-l19.choice-predstavenie-v-sobotu.options": {
+    "en": [
+      "The Saturday show is cancelled.",
+      "There are still tickets for Saturday.",
+      "The Saturday show is sold out."
+    ],
+    "t": [
+      "შაბათის წარმოდგენა გაუქმებულია.",
+      "შაბათისთვის ჯერ კიდევ არის ბილეთები.",
+      "შაბათის წარმოდგენაზე ბილეთები გაყიდულია."
+    ]
+  },
+  "a2-u9-l19.fill-na-stole-je.en": {
+    "en": "There's a cooked dinner on the table.",
+    "t": "მაგიდაზე მომზადებული ვახშამია."
+  },
+  "a2-u9-l19.fill-na-stole-je.why": {
+    "en": "Večera is feminine, so **uvarená**.",
+    "t": "Večera მდედრობითია, ამიტომ **uvarená**."
+  },
+  "a2-u9-l19.build-potrebujeme-dve-salky.prompt": {
+    "en": "We need two cups of flour and five eggs.",
+    "t": "ორი ჭიქა ფქვილი და ხუთი კვერცხი გვჭირდება."
+  },
+  "a2-u9-l19.build-potrebujeme-dve-salky.traps": {
+    "en": [
+      "After a quantity, the of-form: dve šálky **múky**.",
+      "From five up, the of-form: päť **vajec**."
+    ],
+    "t": [
+      "რაოდენობის შემდეგ genitív (ნათესაობითი ბრუნვა) მოდის: dve šálky **múky**.",
+      "ხუთიდან ზემოთ genitív მოდის: päť **vajec**."
+    ]
+  },
+  "a2-u9-l19.choice-ktory-je-spiaci.question": {
+    "en": "Which one is a lion that is asleep?",
+    "t": "რომელია ლომი, რომელსაც სძინავს?"
+  },
+  "a2-u9-l19.choice-ktory-je-spiaci.why": {
+    "en": "Spať gives **spiaci**: who is sleeping. Spací is for things made for sleeping (spací vak), and lev is masculine, so -i.",
+    "t": "Spať-ისგან მიიღება **spiaci**: ვისაც სძინავს (მძინარე). Spací ძილისთვის განკუთვნილი ნივთებისთვისაა (spací vak, საძილე ტომარა), lev კი მამრობითია, ამიტომ -i."
+  },
+  "a2-u9-l19.fill-v-piatok-vecer.en": {
+    "en": "On Friday evenings restaurants are usually full.",
+    "t": "პარასკევობით საღამოს რესტორნები სავსეა ხოლმე."
+  },
+  "a2-u9-l19.fill-v-piatok-vecer.why": {
+    "en": "Reštaurácie are oni: **bývajú**.",
+    "t": "Reštaurácie = oni: **bývajú**."
+  },
+  "a2-u9-l19.build-nakoniec-ozdob-kolac.prompt": {
+    "en": "Babka to Marek: Finally, decorate the cake with whipped cream.",
+    "t": "ბებია მარეკს: ბოლოს ნამცხვარი ათქვეფილი ნაღებით მორთე."
+  },
+  "a2-u9-l19.build-nakoniec-ozdob-kolac.traps": {
+    "en": [
+      "Babka says ty to Marek: **ozdob**. Ozdobte is for vy.",
+      "Whipped cream is what you decorate with: the instrumental, -a → **-ou**."
+    ],
+    "t": [
+      "ბებია მარეკს ty-თი მიმართავს: **ozdob**. Ozdobte vy-სთვისაა.",
+      "ათქვეფილი ნაღები ის არის, რითაც რთავთ: inštrumentál (მოქმედებითი ბრუნვა), -a → **-ou**, როგორც ქართული „-ით“."
+    ]
+  },
+  "a2-u9-l19.choice-lucia-upratala-byt.question": {
+    "en": "Lucia upratala byt. Which sentence is about the flat?",
+    "t": "Lucia upratala byt. რომელი წინადადებაა ბინაზე?"
+  },
+  "a2-u9-l19.choice-lucia-upratala-byt.why": {
+    "en": "The flat becomes the subject: byt **je** uprata**ný**, and who did it is left out.",
+    "t": "ბინა ქვემდებარე ხდება: byt **je** uprata**ný**, ვინ გააკეთა კი აღარ ითქმის."
+  },
+  "a2-u9-l19.fill-zalubila-som-sa.en": {
+    "en": "I've fallen in love with him.",
+    "t": "ის შემიყვარდა."
+  },
+  "a2-u9-l19.fill-zalubila-som-sa.why": {
+    "en": "Do takes the genitive, and after a preposition a pronoun takes its long form: do **neho**, like bez neho.",
+    "t": "Do genitív-ს (ნათესაობით ბრუნვას) მოითხოვს, წინდებულის შემდეგ კი ნაცვალსახელი გრძელ ფორმას იღებს: do **neho**, როგორც bez neho."
+  },
+  "a2-u9-l19.choice-lucia-je-moja.question": {
+    "en": "Emma introduces Lucia. What does she say?",
+    "t": "ემა ლუციას აცნობს. რას ამბობს?"
+  },
+  "a2-u9-l19.choice-lucia-je-moja.why": {
+    "en": "Lucia is a woman: moja **spolubývajúca**, with -a.",
+    "t": "ლუცია ქალია: moja **spolubývajúca**, -a-თი."
+  },
+  "a2-u9-l19.build-uznavam-cirkus-bez.answers": {
+    "en": [
+      "I admit the circus without animals is better."
+    ],
+    "t": [
+      "ვაღიარებ, ცირკი ცხოველების გარეშე უკეთესია.",
+      "ვაღიარებ, რომ ცირკი ცხოველების გარეშე უკეთესია.",
+      "ვეთანხმები, ცირკი ცხოველების გარეშე უკეთესია."
+    ]
+  },
+  "a2-u9-l19.build-uznavam-cirkus-bez.distractors": {
+    "en": [
+      "with",
+      "worse"
+    ],
+    "t": [
+      "ცხოველებით",
+      "უარესია"
+    ]
+  },
+  "a2-u9-l19.fill-klauni-zongluju-a.en": {
+    "en": "The clowns are juggling and the performer is dancing on the rope.",
+    "t": "კლოუნები ჟონგლიორობენ, არტისტი კი თოკზე ცეკვავს."
+  },
+  "a2-u9-l19.fill-klauni-zongluju-a.why": {
+    "en": "Klauni are oni, so the verb ends in **-ú**: žongluj**ú**.",
+    "t": "Klauni = oni, ამიტომ ზმნა **-ú**-ზე ბოლოვდება: žongluj**ú**."
+  },
+  "a2-u9-l19.choice-pridem-neskor-to.question": {
+    "en": "Veronika texts: Prídem neskôr. What does Marek answer?",
+    "t": "ვერონიკა ესემესს სწერს: Prídem neskôr. რას პასუხობს მარეკი?"
+  },
+  "a2-u9-l19.build-stol-je-prestrety.prompt": {
+    "en": "The table is laid and the champagne is chilled.",
+    "t": "სუფრა გაშლილია და შამპანური გაცივებულია."
+  },
+  "a2-u9-l19.build-stol-je-prestrety.traps": {
+    "en": [
+      "Stôl is masculine: **prestretý**.",
+      "Šampanské is neuter: **vychladené**."
+    ],
+    "t": [
+      "Stôl მამრობითია: **prestretý**.",
+      "Šampanské საშუალო სქესისაა: **vychladené**."
+    ]
+  },
+  "a2-u9-l19.speak-chces-so-mnou.en": {
+    "en": "Will you go out with me?",
+    "t": "ჩემი შეყვარებული იქნები?"
+  }
+}

@@ -1,0 +1,3985 @@
+{
+  "a2-u6.titleEn": {
+    "en": "Calls, e-mails and texts",
+    "t": "Qoʻngʻiroq, elektron xat, SMS"
+  },
+  "a2-u6.topics": {
+    "en": [
+      "On the phone",
+      "Taking a message",
+      "E-mails and letters",
+      "Forms",
+      "Text messages",
+      "At the post office"
+    ],
+    "t": [
+      "Telefonda",
+      "Xabar qabul qilish",
+      "Elektron xatlar va maktublar",
+      "Blanka toʻldirish",
+      "SMS xabarlar",
+      "Pochtada"
+    ]
+  },
+  "a2-u6.grammar": {
+    "en": [
+      "The imperative",
+      "Reported speech",
+      "Dative and accusative pronouns together"
+    ],
+    "t": [
+      "Buyruq mayli",
+      "Oʻzlashtirma gap",
+      "Datív va akuzatív olmoshlari birga"
+    ]
+  },
+  "a2-u6-l1.titleEn": {
+    "en": "Calling a friend",
+    "t": "Doʻstga qoʻngʻiroq"
+  },
+  "a2-u6-l1.nerusim.en": {
+    "en": "Am I disturbing you? (on the phone)",
+    "t": "Bezovta qilmayapmanmi? (telefonda)"
+  },
+  "a2-u6-l1.nerusim.note": {
+    "en": "**rušiť** = to disturb. When it's a good time, the answer is **Nie, nerušíš, pokojne hovor.** = No, go ahead (**pokojne** = calmly, freely).",
+    "t": "**rušiť** = bezovta qilmoq. Agar vaqti boʻlsa, javob: **Nie, nerušíš, pokojne hovor.** = Yoʻq, bezovta qilmayapsan, bemalol gapiraver (**pokojne** = bemalol, xotirjam)."
+  },
+  "a2-u6-l1.choice-nerusis-pokojne-hovor.question": {
+    "en": "Tomáš calls: “Ahoj, Emma, tu je Tomáš. Neruším?” Emma has time. What does she say?",
+    "t": "Tomash qoʻngʻiroq qiladi: «Ahoj, Emma, tu je Tomáš. Neruším?» Emmaning vaqti bor. U nima deydi?"
+  },
+  "a2-u6-l1.choice-nerusis-pokojne-hovor.why": {
+    "en": "Tomáš is a friend, so Emma uses ty: **nerušíš**, **hovor**. Nerušíte and hovorte are for someone you call vy.",
+    "t": "Tomash — doʻst, shuning uchun Emma ty (sen) ishlatadi: **nerušíš**, **hovor**. Nerušíte va hovorte — «siz» deb murojaat qilinadigan odam uchun."
+  },
+  "a2-u6-l1.nechces-ist-s-nami.en": {
+    "en": "Would you like to come on a trip with us?",
+    "t": "Biz bilan sayohatga borishni xohlamaysanmi?"
+  },
+  "a2-u6-l1.nechces-ist-s-nami.note": {
+    "en": "A friendly invitation often starts with **ne-**: Nechceš…? To someone you call vy: **Nechcete** ísť s nami?",
+    "t": "Samimiy taklif koʻpincha **ne-** bilan boshlanadi: Nechceš…? Oʻzbekchada ham shunday: «Biz bilan bormaysanmi?» «Siz» deb murojaat qilinadigan odamga: **Nechcete** ísť s nami?"
+  },
+  "a2-u6-l1.fill-ahoj-marek-nechces-ist.en": {
+    "en": "Hi, Marek! Would you like to come on a trip with us in May?",
+    "t": "Salom, Marek! May oyida biz bilan sayohatga borishni xohlamaysanmi?"
+  },
+  "a2-u6-l1.fill-ahoj-marek-nechces-ist.why": {
+    "en": "After **s** (with), my takes its with-form: s **nami**, like so mnou and s tebou.",
+    "t": "**s** (bilan) dan keyin my oʻzining «bilan» shaklini oladi: s **nami** (biz bilan), xuddi so mnou (men bilan) va s tebou (sen bilan) kabi."
+  },
+  "a2-u6-l1.build-lucia-nechces-ist.prompt": {
+    "en": "Lucia, would you like to come to the cinema with us?",
+    "t": "Lusiya, biz bilan kinoga borishni xohlamaysanmi?"
+  },
+  "a2-u6-l1.build-lucia-nechces-ist.traps": {
+    "en": [
+      "You're asking Lucia, a friend (ty), so the verb ends in **-š**: **nechceš**. Nechcem means I don't want.",
+      "Going to the cinema is a set phrase you know: do **kina**."
+    ],
+    "t": [
+      "Siz doʻstingiz Lusiyadan soʻrayapsiz (ty), shuning uchun feʼl **-š** bilan tugaydi: **nechceš**. Nechcem — «xohlamayman» degani.",
+      "Kinoga borish — sizga tanish turgʻun ibora: do **kina**."
+    ]
+  },
+  "a2-u6-l1.overim-si-to.en": {
+    "en": "I'll check.",
+    "t": "Tekshirib koʻraman."
+  },
+  "a2-u6-l1.overim-si-to.note": {
+    "en": "**overiť si** = to check, to make sure. Like zavolám, it points to the future: Overím si to v práci. = I'll check at work.",
+    "t": "**overiť si** = tekshirib koʻrmoq, aniqlamoq. zavolám kabi, u kelasi zamonni bildiradi: Overím si to v práci. = Ishda tekshirib koʻraman."
+  },
+  "a2-u6-l1.premysli-si-to.en": {
+    "en": "Think it over.",
+    "t": "Oʻylab koʻr."
+  },
+  "a2-u6-l1.premysli-si-to.note": {
+    "en": "**premyslieť si** = to think something over. The answer: **Premyslím si to.** = I'll think it over.",
+    "t": "**premyslieť si** = biror narsani oʻylab koʻrmoq. Javob: **Premyslím si to.** = Oʻylab koʻraman."
+  },
+  "a2-u6-l1.fill-este-si-to-premyslim.en": {
+    "en": "I don't know. I'll think it over a bit more.",
+    "t": "Bilmadim. Yana bir oʻylab koʻraman."
+  },
+  "a2-u6-l1.fill-este-si-to-premyslim.why": {
+    "en": "Here **ja** will do the thinking, so the verb ends in **-m**: premyslím si to. Premysli tells someone else to think it over.",
+    "t": "Bu yerda **ja** (men) oʻylaydi, shuning uchun feʼl **-m** bilan tugaydi: premyslím si to. Premysli esa boshqa odamga «oʻylab koʻr» deydi."
+  },
+  "a2-u6-l1.daj-mi-vediet.en": {
+    "en": "Let me know.",
+    "t": "Menga xabar ber."
+  },
+  "a2-u6-l1.daj-mi-vediet.note": {
+    "en": "**dať vedieť** = to let someone know. The answer: **Dám ti vedieť.** = I'll let you know. To someone you call vy: **Dajte** mi vedieť.",
+    "t": "**dať vedieť** = xabar bermoq. Javob: **Dám ti vedieť.** = Senga xabar beraman. «Siz» deb murojaat qilinadigan odamga: **Dajte** mi vedieť."
+  },
+  "a2-u6-l1.match-nerusim.pairs": {
+    "en": [
+      "Am I disturbing you?",
+      "Go ahead.",
+      "I'll check.",
+      "Think it over.",
+      "Let me know."
+    ],
+    "t": [
+      "Bezovta qilmayapmanmi?",
+      "Bemalol gapiraver.",
+      "Tekshirib koʻraman.",
+      "Oʻylab koʻr.",
+      "Menga xabar ber."
+    ]
+  },
+  "a2-u6-l1.build-overim-si-to-a.prompt": {
+    "en": "I'll check and let you know.",
+    "t": "Tekshirib koʻraman va senga xabar beraman."
+  },
+  "a2-u6-l1.build-overim-si-to-a.traps": {
+    "en": [
+      "You're the one who'll let them know, so it's the ja form: **dám** ti vedieť. Daj asks someone else to.",
+      "**Ja** will check, so the verb ends in **-m**: **Overím** si to. Overíš is ty."
+    ],
+    "t": [
+      "Xabarni siz berasiz, shuning uchun ja shakli: **dám** ti vedieť. Daj esa boshqa odamdan xabar berishni soʻraydi.",
+      "**Ja** (men) tekshiradi, shuning uchun feʼl **-m** bilan tugaydi: **Overím** si to. Overíš — ty shakli."
+    ]
+  },
+  "a2-u6-l1.vyhovuje-ti-to.en": {
+    "en": "Does that suit you?",
+    "t": "Senga toʻgʻri keladimi?"
+  },
+  "a2-u6-l1.vyhovuje-ti-to.note": {
+    "en": "**vyhovovať** = to suit. Like páči sa mi, the thing that suits is the subject: Sobota mi vyhovuje. = Saturday suits me. Polite: Vyhovuje **vám** to?",
+    "t": "**vyhovovať** = toʻgʻri kelmoq, maʼqul boʻlmoq. páči sa mi kabi, toʻgʻri keladigan narsa — ega: Sobota mi vyhovuje. = Shanba menga toʻgʻri keladi. Oʻzbekchadagi kabi, kimga toʻgʻri kelishi alohida aytiladi (mi = menga). Hurmat bilan: Vyhovuje **vám** to?"
+  },
+  "a2-u6-l1.fill-sobota-mi-vyhovuje.en": {
+    "en": "A trip on Saturday? Yes, Saturday suits me.",
+    "t": "Shanba kuni sayohatmi? Ha, shanba menga toʻgʻri keladi."
+  },
+  "a2-u6-l1.fill-sobota-mi-vyhovuje.why": {
+    "en": "The thing that suits is the subject, sobota (ona), so the verb has no ending: **vyhovuje**. Mi says who it suits, as in páči sa mi.",
+    "t": "Toʻgʻri keladigan narsa — ega, sobota (ona), shuning uchun feʼl qoʻshimchasiz: **vyhovuje**. Mi (menga) esa kimga toʻgʻri kelishini aytadi, xuddi páči sa mi dagi kabi."
+  },
+  "a2-u6-l1.choice-vyhovuje-ti-piatok.question": {
+    "en": "Emma wants to know if Friday suits Marek. What does she ask?",
+    "t": "Emma juma kuni Marekka toʻgʻri kelish-kelmasligini bilmoqchi. U nima deb soʻraydi?"
+  },
+  "a2-u6-l1.choice-vyhovuje-ti-piatok.why": {
+    "en": "Piatok is the subject, the thing that suits, so the verb is **vyhovuje**; ti (to you) says who it suits.",
+    "t": "Piatok — ega, toʻgʻri keladigan narsa, shuning uchun feʼl **vyhovuje**; ti (senga) kimga toʻgʻri kelishini aytadi."
+  },
+  "a2-u6-l1.zatial.en": {
+    "en": "Bye for now! See you!",
+    "t": "Hozircha xayr! Koʻrishguncha!"
+  },
+  "a2-u6-l1.zatial.note": {
+    "en": "A goodbye to a friend you'll see or speak to again soon. You know **Maj sa!** too: the answer is **Aj ty!** (You too!)",
+    "t": "Tez orada yana koʻradigan yoki gaplashadigan doʻstga aytiladigan xayrlashuv. **Maj sa!** ni ham bilasiz: unga javob — **Aj ty!** (Sen ham!)"
+  },
+  "a2-u6-l1.choice-maj-sa-aj-ty.question": {
+    "en": "At the end of the call Marek says “Maj sa!”. What do you answer?",
+    "t": "Suhbat oxirida Marek «Maj sa!» deydi. Nima deb javob berasiz?"
+  },
+  "a2-u6-l1.choice-maj-sa-aj-ty.why": {
+    "en": "**Maj sa** is said to a friend (ty), so the answer is **Aj ty**, with a friendly Zatiaľ. Aj vám and Dovidenia are polite, for vy.",
+    "t": "**Maj sa** doʻstga (ty) aytiladi, shuning uchun javob — **Aj ty**, samimiy Zatiaľ bilan. Aj vám va Dovidenia — hurmat shakli, vy uchun."
+  },
+  "a2-u6-l1.build-premysli-si-to-a.answers": {
+    "en": [
+      "Think it over and let me know. See you!",
+      "Think about it and let me know. See you!",
+      "Think it over and let me know. Bye for now!",
+      "Think about it and let me know. Bye for now!"
+    ],
+    "t": [
+      "Oʻylab koʻr va menga xabar ber. Koʻrishguncha!",
+      "Oʻylab koʻr va xabar ber. Koʻrishguncha!",
+      "Oʻylab koʻr va menga xabar ber. Hozircha xayr!",
+      "Yaxshilab oʻylab koʻr va menga xabar ber. Koʻrishguncha!"
+    ]
+  },
+  "a2-u6-l1.build-premysli-si-to-a.distractors": {
+    "en": [
+      "call",
+      "tomorrow"
+    ],
+    "t": [
+      "koʻraman",
+      "ertaga"
+    ]
+  },
+  "a2-u6-l1.speak-ahoj-marek-nerusim.en": {
+    "en": "Hi, Marek, am I disturbing you?",
+    "t": "Salom, Marek, bezovta qilmayapmanmi?"
+  },
+  "a2-u6-l2.titleEn": {
+    "en": "A bad line and a wrong number",
+    "t": "Aloqa yomon, raqam notoʻgʻri"
+  },
+  "a2-u6-l2.pocujeme-sa.en": {
+    "en": "Can you hear me?",
+    "t": "Meni eshityapsanmi?"
+  },
+  "a2-u6-l2.pocujeme-sa.note": {
+    "en": "Literally “Can we hear each other?” Tomáš is calling from the train: **Je tu slabý signál.** = The signal's weak here.",
+    "t": "Soʻzma-soʻz: «Bir-birimizni eshityapmizmi?» Tomash poyezddan qoʻngʻiroq qilyapti: **Je tu slabý signál.** = Bu yerda aloqa (signal) kuchsiz."
+  },
+  "a2-u6-l2.nepocujem-ta-dobre.en": {
+    "en": "I can't hear you well.",
+    "t": "Seni yaxshi eshitmayapman."
+  },
+  "a2-u6-l2.nepocujem-ta-dobre.note": {
+    "en": "You know **Nepočujem dobre** from unit 5; ťa says who. To someone you call vy: Nepočujem **vás** dobre.",
+    "t": "**Nepočujem dobre** ni 5-boʻlimdan bilasiz; ťa (seni) kimni eshitmayotganingizni aytadi. «Siz» deb murojaat qilinadigan odamga: Nepočujem **vás** dobre."
+  },
+  "a2-u6-l2.choice-nepocujem-ta-dobre.question": {
+    "en": "Tomáš: “Haló, Emma? Počujeme sa?” The line is bad. What does Emma say?",
+    "t": "Tomash: «Haló, Emma? Počujeme sa?» Aloqa yomon. Emma nima deydi?"
+  },
+  "a2-u6-l2.choice-nepocujem-ta-dobre.why": {
+    "en": "Tomáš is a friend and the object of počuť, so it's the short object form of ty: **ťa**. Vás is for vy; ti means to you.",
+    "t": "Tomash — doʻst va počuť feʼlining toʻldiruvchisi (kimni?), shuning uchun ty ning qisqa toʻldiruvchi shakli: **ťa** (seni). Vás — vy uchun; ti esa «senga» degani."
+  },
+  "a2-u6-l2.build-som-vo-vlaku.prompt": {
+    "en": "I'm on the train, the signal's weak here.",
+    "t": "Poyezddaman, bu yerda aloqa kuchsiz."
+  },
+  "a2-u6-l2.build-som-vo-vlaku.traps": {
+    "en": [
+      "Being on the train answers “where?”: **vo** + the locative, -u after k: vo **vlaku**.",
+      "Signál is masculine, so the adjective ends in **-ý**: **slabý** signál."
+    ],
+    "t": [
+      "Poyezdda boʻlish «qayerda?» savoliga javob beradi: **vo** + lokál (oʻrin-payt kelishigi), k dan keyin esa -u: vo **vlaku** (poyezdda).",
+      "Signál — erkak jinsida, shuning uchun sifat **-ý** bilan tugaydi: **slabý** signál."
+    ]
+  },
+  "a2-u6-l2.prerusilo-nas.en": {
+    "en": "We got cut off.",
+    "t": "Aloqa uzilib qoldi."
+  },
+  "a2-u6-l2.prerusilo-nas.note": {
+    "en": "Literally “it cut us off”: nobody did it, so the verb ends in **-o**, like Nič sa nestalo.",
+    "t": "Soʻzma-soʻz: «(u) bizni uzib qoʻydi». Buni hech kim qilmagan, shuning uchun feʼl **-o** bilan tugaydi, xuddi Nič sa nestalo dagi kabi."
+  },
+  "a2-u6-l2.volal-som-pred-chvilou.en": {
+    "en": "I called a moment ago.",
+    "t": "Hozirgina qoʻngʻiroq qildim."
+  },
+  "a2-u6-l2.volal-som-pred-chvilou.note": {
+    "en": "**chvíľa** = a moment: **pred chvíľou** = a moment ago, **o chvíľu** = in a moment.",
+    "t": "**chvíľa** = lahza, bir oz vaqt: **pred chvíľou** = hozirgina, biroz oldin; **o chvíľu** = birozdan keyin, hozir."
+  },
+  "a2-u6-l2.build-volala-som-pred.prompt": {
+    "en": "Emma: “I called a moment ago, but we got cut off.”",
+    "t": "Emma: «Hozirgina qoʻngʻiroq qildim, lekin aloqa uzilib qoldi.»"
+  },
+  "a2-u6-l2.build-volala-som-pred.traps": {
+    "en": [
+      "Emma is a woman, so the past form ends in **-la**: **Volala** som.",
+      "**Pred** (ago) takes the instrumental: pred **chvíľou**."
+    ],
+    "t": [
+      "Emma — ayol, shuning uchun oʻtgan zamon **-la** bilan tugaydi: **Volala** som.",
+      "**Pred** («…oldin» maʼnosida) inštrumentál talab qiladi: pred **chvíľou**."
+    ]
+  },
+  "a2-u6-l2.to-bude-asi-omyl.en": {
+    "en": "It must be a mistake. (a wrong number)",
+    "t": "Bu xato boʻlsa kerak. (notoʻgʻri raqam)"
+  },
+  "a2-u6-l2.to-bude-asi-omyl.note": {
+    "en": "You know **omyl** and **asi** from Prepáčte, to je asi omyl (unit 3); on the phone it means a wrong number. Also: **Máte nesprávne číslo.** = You've got the wrong number. **Pomýlili ste sa.** = You've dialled wrong.",
+    "t": "**omyl** va **asi** ni Prepáčte, to je asi omyl (3-boʻlim) iborasidan bilasiz; telefonda u notoʻgʻri raqamni bildiradi. Yana: **Máte nesprávne číslo.** = Siz notoʻgʻri raqam terdingiz. **Pomýlili ste sa.** = Adashdingiz."
+  },
+  "a2-u6-l2.choice-halo-je-to-pizzeria.question": {
+    "en": "A man calls Emma's mobile: “Haló, je to pizzeria?” What does she say?",
+    "t": "Bir erkak Emmaning mobil telefoniga qoʻngʻiroq qiladi: «Haló, je to pizzeria?» Emma nima deydi?"
+  },
+  "a2-u6-l2.choice-prepacte-pomylil-som-sa.question": {
+    "en": "The man says: “Prepáčte, pomýlil som sa.” What does Emma answer?",
+    "t": "Erkak: «Prepáčte, pomýlil som sa.» Emma nima deb javob beradi?"
+  },
+  "a2-u6-l2.fill-asi-ste-sa-pomylili.en": {
+    "en": "No, this isn't a pizzeria. You must have dialled wrong.",
+    "t": "Yoʻq, bu pitsseriya emas. Adashgan boʻlsangiz kerak."
+  },
+  "a2-u6-l2.fill-asi-ste-sa-pomylili.why": {
+    "en": "Polite **vy** always takes **-li** in the past, even for one person: ste sa **pomýlili**.",
+    "t": "Hurmat shakli **vy** oʻtgan zamonda doim **-li** oladi, hatto bir kishiga gapirganda ham: ste sa **pomýlili**. Oʻzbekchadagi «adashdingiz» kabi."
+  },
+  "a2-u6-l2.build-mate-nespravne-cislo.prompt": {
+    "en": "You've got the wrong number. (to a stranger)",
+    "t": "Siz notoʻgʻri raqam terdingiz. (notanish odamga)"
+  },
+  "a2-u6-l2.build-mate-nespravne-cislo.traps": {
+    "en": [
+      "The caller is a stranger, so use vy: **Máte**. Máš is for a friend.",
+      "**Nesprávne** číslo is the wrong number. Správne means right."
+    ],
+    "t": [
+      "Qoʻngʻiroq qilgan odam notanish, shuning uchun vy (siz): **Máte**. Máš — doʻst uchun.",
+      "**Nesprávne** číslo — notoʻgʻri raqam. Správne esa «toʻgʻri» degani."
+    ]
+  },
+  "a2-u6-l2.listen-volala-som-pred.en": {
+    "en": "I called a moment ago.",
+    "t": "Hozirgina qoʻngʻiroq qildim."
+  },
+  "a2-u6-l2.volane-cislo-je-nedostupne.en": {
+    "en": "The number you are calling is not available at the moment.",
+    "t": "Siz qoʻngʻiroq qilayotgan abonent bilan hozir bogʻlanib boʻlmaydi."
+  },
+  "a2-u6-l2.volane-cislo-je-nedostupne.note": {
+    "en": "A recorded message. **momentálne** = at the moment. Another one: **Linka je obsadená.** = The line is busy.",
+    "t": "Avtomatik javob. **momentálne** = hozirda, ayni paytda. Yana biri: **Linka je obsadená.** = Liniya band."
+  },
+  "a2-u6-l2.nechaj-mi-odkaz.en": {
+    "en": "Leave me a message.",
+    "t": "Menga xabar qoldir."
+  },
+  "a2-u6-l2.nechaj-mi-odkaz.note": {
+    "en": "Lucia's voicemail (**odkazová schránka**): Ahoj, tu je Lucia, teraz nemôžem hovoriť. Nechaj mi odkaz! **odkaz** = a message.",
+    "t": "Lusiyaning ovozli pochtasi (**odkazová schránka**): Ahoj, tu je Lucia, teraz nemôžem hovoriť. Nechaj mi odkaz! **odkaz** = (qoldirilgan) xabar."
+  },
+  "a2-u6-l2.match-pocujeme-sa.pairs": {
+    "en": [
+      "Can you hear me?",
+      "We got cut off.",
+      "The line is busy.",
+      "Leave me a message.",
+      "It must be a mistake."
+    ],
+    "t": [
+      "Meni eshityapsanmi?",
+      "Aloqa uzilib qoldi.",
+      "Liniya band.",
+      "Menga xabar qoldir.",
+      "Bu xato boʻlsa kerak."
+    ]
+  },
+  "a2-u6-l2.choice-volane-cislo-je.question": {
+    "en": "Emma calls Lucia and hears: “Volané číslo je momentálne nedostupné.” What does it mean?",
+    "t": "Emma Lusiyaga qoʻngʻiroq qiladi va shuni eshitadi: «Volané číslo je momentálne nedostupné.» Bu nimani anglatadi?"
+  },
+  "a2-u6-l2.choice-volane-cislo-je.options": {
+    "en": [
+      "Lucia's line is busy.",
+      "Lucia's phone can't be reached right now.",
+      "Emma has dialled the wrong number."
+    ],
+    "t": [
+      "Lusiyaning liniyasi band.",
+      "Lusiyaning telefoni bilan hozir bogʻlanib boʻlmaydi.",
+      "Emma notoʻgʻri raqam terdi."
+    ]
+  },
+  "a2-u6-l2.speak-pocujeme-sa-nepocujem.en": {
+    "en": "Can you hear me? I can't hear you well.",
+    "t": "Meni eshityapsanmi? Seni yaxshi eshitmayapman."
+  },
+  "a2-u6-l3.titleEn": {
+    "en": "At the reception",
+    "t": "Qabulxonada"
+  },
+  "a2-u6-l3.stazistka.en": {
+    "en": "intern (a woman)",
+    "t": "amaliyotchi (ayol)"
+  },
+  "a2-u6-l3.stazistka.note": {
+    "en": "You know **stáž** (an internship) from A1. Emma je od pondelka stážistka v Tomášovej firme. = From Monday Emma is an intern at Tomáš's company.",
+    "t": "**stáž** (amaliyot) soʻzini A1 dan bilasiz. Emma je od pondelka stážistka v Tomášovej firme. = Dushanbadan boshlab Emma Tomashning firmasida amaliyotchi."
+  },
+  "a2-u6-l3.recepcia.en": {
+    "en": "reception",
+    "t": "qabulxona"
+  },
+  "a2-u6-l3.recepcia.note": {
+    "en": "On her first morning Emma helps Petra Bartošová **na recepcii** and answers every **telefonát** (phone call): **Recepcia, dobrý deň.**",
+    "t": "Birinchi kuni ertalab Emma **na recepcii** (qabulxonada) Petra Bartoshovaga yordam beradi va har bir qoʻngʻiroqqa (**telefonát**) javob beradi: **Recepcia, dobrý deň.**"
+  },
+  "a2-u6-l3.pri-telefone-emma.en": {
+    "en": "Emma speaking.",
+    "t": "Telefonda Emma."
+  },
+  "a2-u6-l3.pri-telefone-emma.note": {
+    "en": "How you give your name when you answer at work. You know **Tu je Emma.** for when you're the one calling.",
+    "t": "Ishda telefonga javob berganda ismingizni shunday aytasiz. **Tu je Emma.** esa oʻzingiz qoʻngʻiroq qilganingizda aytiladi."
+  },
+  "a2-u6-l3.choice-recepcia-dobry-den.question": {
+    "en": "The phone rings at reception. What does Emma say?",
+    "t": "Qabulxonada telefon jiringlaydi. Emma nima deydi?"
+  },
+  "a2-u6-l3.choice-recepcia-dobry-den.why": {
+    "en": "At work you answer formally: the place, **Dobrý deň** and your name. Neruším? is what a caller asks, and Ahoj is for friends.",
+    "t": "Ishda rasmiy javob beriladi: joy nomi, **Dobrý deň** va ismingiz. Neruším? ni qoʻngʻiroq qilayotgan odam soʻraydi, Ahoj esa doʻstlar uchun."
+  },
+  "a2-u6-l3.mozem-hovorit-s-panom.en": {
+    "en": "May I speak to Mr Hudák?",
+    "t": "Janob Hudak bilan gaplashsam boʻladimi?"
+  },
+  "a2-u6-l3.mozem-hovorit-s-panom.note": {
+    "en": "After **s**, both words take the instrumental: s pán**om** Hudák**om**. **Pani** never changes: s pani Bartošov**ou**.",
+    "t": "**s** (bilan) dan keyin ikkala soʻz ham inštrumentál oladi — bu «bilan» maʼnosini beradigan kelishik: s pán**om** Hudák**om**. **Pani** esa hech qachon oʻzgarmaydi: s pani Bartošov**ou**."
+  },
+  "a2-u6-l3.fill-s-pani-bartosovou.en": {
+    "en": "Hello, may I speak to Mrs Bartošová?",
+    "t": "Assalomu alaykum, Bartoshova xonim bilan gaplashsam boʻladimi?"
+  },
+  "a2-u6-l3.fill-s-pani-bartosovou.why": {
+    "en": "Bartošová is a woman, and **pani** never changes, whatever the case: s **pani** Bartošovou. Pán and pánom are for a man.",
+    "t": "Bartošová — ayol, **pani** esa qaysi kelishikda boʻlmasin oʻzgarmaydi: s **pani** Bartošovou. Pán va pánom — erkak uchun."
+  },
+  "a2-u6-l3.fill-mozem-hovorit-s-tomasom.en": {
+    "en": "Excuse me, may I speak to Tomáš?",
+    "t": "Kechirasiz, Tomash bilan gaplashsam boʻladimi?"
+  },
+  "a2-u6-l3.fill-mozem-hovorit-s-tomasom.why": {
+    "en": "After **s** (with), a man's name takes the instrumental, **-om**: s **Tomášom**.",
+    "t": "**s** (bilan) dan keyin erkak ismi inštrumentálda **-om** oladi: s **Tomášom** (Tomash bilan)."
+  },
+  "a2-u6-l3.s-kym-chcete-hovorit.en": {
+    "en": "Who would you like to speak to?",
+    "t": "Kim bilan gaplashmoqchisiz?"
+  },
+  "a2-u6-l3.s-kym-chcete-hovorit.note": {
+    "en": "**s kým** = with whom, the instrumental of kto. When a caller doesn't say who they are: **Prepáčte, s kým hovorím?** = Sorry, who am I speaking to?",
+    "t": "**s kým** = kim bilan, kto ning inštrumentál shakli. Qoʻngʻiroq qilgan odam oʻzini tanishtirmasa: **Prepáčte, s kým hovorím?** = Kechirasiz, kim bilan gaplashyapman?"
+  },
+  "a2-u6-l3.fill-prepacte-s-kym-hovorim.en": {
+    "en": "Sorry, who am I speaking to?",
+    "t": "Kechirasiz, kim bilan gaplashyapman?"
+  },
+  "a2-u6-l3.fill-prepacte-s-kym-hovorim.why": {
+    "en": "After **s** (with), kto takes its instrumental form: s **kým**.",
+    "t": "**s** (bilan) dan keyin kto inštrumentál shaklini oladi: s **kým** (kim bilan)."
+  },
+  "a2-u6-l3.moment-prepojim-vas.en": {
+    "en": "One moment, I'll put you through.",
+    "t": "Bir daqiqa, sizni ulayman."
+  },
+  "a2-u6-l3.moment-prepojim-vas.note": {
+    "en": "**prepojiť** = to put through. When the person is close by: **Moment, hneď ho zavolám.** = One moment, I'll get him right away (**hneď** = right away).",
+    "t": "**prepojiť** = (telefonda) ulamoq. Kerakli odam yaqin boʻlsa: **Moment, hneď ho zavolám.** = Bir daqiqa, hozir uni chaqiraman (**hneď** = hozir, darhol)."
+  },
+  "a2-u6-l3.pan-inzinier-pani-inzinierka.en": {
+    "en": "Mr …, Mrs … (with an engineer's title)",
+    "t": "janob …, … xonim (muhandis unvoni bilan)"
+  },
+  "a2-u6-l3.pan-inzinier-pani-inzinierka.note": {
+    "en": "Slovaks often use titles at work: **pani doktorka**, **pán riaditeľ** (the director). Tomáš's boss (**šéf**) is pán inžinier Hudák: s pánom inžinierom Hudákom.",
+    "t": "Slovaklar ishda koʻpincha unvon ishlatadi: **pani doktorka**, **pán riaditeľ** (direktor). Tomashning boshligʻi (**šéf**) — pán inžinier Hudák: s pánom inžinierom Hudákom."
+  },
+  "a2-u6-l3.fill-s-panom-riaditelom.en": {
+    "en": "I'd like to speak to the director.",
+    "t": "Direktor bilan gaplashmoqchi edim."
+  },
+  "a2-u6-l3.fill-s-panom-riaditelom.why": {
+    "en": "After **s**, the title takes the instrumental too: s pán**om** riaditeľ**om**. Pani is the only word that never changes.",
+    "t": "**s** dan keyin unvon ham inštrumentál oladi: s pán**om** riaditeľ**om**. Faqat pani oʻzgarmaydi."
+  },
+  "a2-u6-l3.match-recepcia.pairs": {
+    "en": [
+      "reception",
+      "intern",
+      "phone call",
+      "to put through",
+      "right away"
+    ],
+    "t": [
+      "qabulxona",
+      "amaliyotchi",
+      "telefon qoʻngʻirogʻi",
+      "(telefonda) ulamoq",
+      "darhol"
+    ]
+  },
+  "a2-u6-l3.choice-pani-kollarova-moment.question": {
+    "en": "A caller asks for pani inžinierka Kollárová. She's at her desk. What does Emma say?",
+    "t": "Qoʻngʻiroq qilgan odam muhandis Kollarova xonimni soʻrayapti. Kollarova xonim oʻz joyida. Emma nima deydi?"
+  },
+  "a2-u6-l3.build-moment-hned-ho.answers": {
+    "en": [
+      "One moment, I'll get him right away.",
+      "Just a moment, I'll get him right away.",
+      "One moment, I'll call him right away."
+    ],
+    "t": [
+      "Bir daqiqa, hozir uni chaqiraman.",
+      "Bir daqiqa, uni hozir chaqiraman.",
+      "Bir lahza, hozir uni chaqiraman.",
+      "Bir daqiqa, hozir unga qoʻngʻiroq qilaman."
+    ]
+  },
+  "a2-u6-l3.build-moment-hned-ho.distractors": {
+    "en": [
+      "her",
+      "later"
+    ],
+    "t": [
+      "keyinroq",
+      "chaqirdim"
+    ]
+  },
+  "a2-u6-l3.build-s-kym-chcete.prompt": {
+    "en": "Who would you like to speak to? (to a caller)",
+    "t": "Kim bilan gaplashmoqchisiz? (qoʻngʻiroq qilgan kishiga)"
+  },
+  "a2-u6-l3.build-s-kym-chcete.traps": {
+    "en": [
+      "With **s** (with), kto takes its instrumental form: s **kým**.",
+      "A caller is a stranger, so use vy: **chcete**."
+    ],
+    "t": [
+      "**s** (bilan) dan keyin kto inštrumentál shaklini oladi: s **kým**.",
+      "Qoʻngʻiroq qilgan odam notanish, shuning uchun vy (siz): **chcete**."
+    ]
+  },
+  "a2-u6-l3.build-mozem-hovorit-s-pani.prompt": {
+    "en": "May I speak to Mrs Kollárová?",
+    "t": "Kollarova xonim bilan gaplashsam boʻladimi?"
+  },
+  "a2-u6-l3.build-mozem-hovorit-s-pani.traps": {
+    "en": [
+      "After **s**, a woman's surname takes **-ou**: s pani **Kollárovou**.",
+      "Kollárová is a woman, so it's **pani**, which never changes. Pánom is for a man."
+    ],
+    "t": [
+      "**s** dan keyin ayol familiyasi **-ou** oladi: s pani **Kollárovou**.",
+      "Kollárová — ayol, shuning uchun **pani**, u esa oʻzgarmaydi. Pánom — erkak uchun."
+    ]
+  },
+  "a2-u6-l3.speak-moment-prepojim-vas.en": {
+    "en": "One moment, I'll put you through.",
+    "t": "Bir daqiqa, sizni ulayman."
+  },
+  "a2-u6-l4.titleEn": {
+    "en": "Taking a message",
+    "t": "Xabar qabul qilish"
+  },
+  "a2-u6-l4.lutujem-prave-ma-poradu.en": {
+    "en": "I'm sorry, he's in a meeting right now.",
+    "t": "Afsuski, u hozir yigʻilishda."
+  },
+  "a2-u6-l4.lutujem-prave-ma-poradu.note": {
+    "en": "**Ľutujem** = I'm sorry, a polite way to say no. **práve** = right now. You know **porada** (a meeting) from A1.",
+    "t": "**Ľutujem** = afsuski, «yoʻq» deyishning muloyim usuli. **práve** = hozir, ayni paytda. **porada** (yigʻilish) ni A1 dan bilasiz."
+  },
+  "a2-u6-l4.momentalne-nie-je-v.en": {
+    "en": "He isn't in the office at the moment.",
+    "t": "U hozirda ofisda emas."
+  },
+  "a2-u6-l4.momentalne-nie-je-v.note": {
+    "en": "Or: je **na obede** (at lunch), **na služobnej ceste** (on a business trip), **na dovolenke** (on holiday).",
+    "t": "Yoki: je **na obede** (tushlikda), **na služobnej ceste** (xizmat safarida), **na dovolenke** (taʼtilda)."
+  },
+  "a2-u6-l4.choice-pan-hudak-je-tento.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "a2-u6-l4.choice-pan-hudak-je-tento.options": {
+    "en": [
+      "Mr Hudák is on a business trip this week.",
+      "Mr Hudák is on holiday this week.",
+      "Mr Hudák has a meeting this week."
+    ],
+    "t": [
+      "Janob Hudak bu hafta xizmat safarida.",
+      "Janob Hudak bu hafta taʼtilda.",
+      "Janob Hudakning bu hafta yigʻilishi bor."
+    ]
+  },
+  "a2-u6-l4.fill-pani-kollarova-je-dnes.en": {
+    "en": "Mrs Kollárová is at a conference today.",
+    "t": "Kollarova xonim bugun konferensiyada."
+  },
+  "a2-u6-l4.fill-pani-kollarova-je-dnes.why": {
+    "en": "Being somewhere answers “where?”, so **na** takes the locative, and nouns in -ia get **-ii**: na **konferencii**.",
+    "t": "Biror joyda boʻlish «qayerda?» savoliga javob beradi, shuning uchun **na** lokál talab qiladi, -ia bilan tugaydigan otlar esa **-ii** oladi: na **konferencii**."
+  },
+  "a2-u6-l4.chcete-nechat-odkaz.en": {
+    "en": "Would you like to leave a message?",
+    "t": "Xabar qoldirmoqchimisiz?"
+  },
+  "a2-u6-l4.chcete-nechat-odkaz.note": {
+    "en": "You know **nechať** (to leave) from unit 2 and **odkaz** from Lucia's voicemail: Nechaj mi odkaz.",
+    "t": "**nechať** (qoldirmoq) ni 2-boʻlimdan, **odkaz** ni esa Lusiyaning ovozli pochtasidan bilasiz: Nechaj mi odkaz."
+  },
+  "a2-u6-l4.nie-dakujem-zavolam-neskor.en": {
+    "en": "No, thank you, I'll call back later.",
+    "t": "Yoʻq, rahmat, keyinroq qoʻngʻiroq qilaman."
+  },
+  "a2-u6-l4.nie-dakujem-zavolam-neskor.note": {
+    "en": "**neskôr** = later. Or: zavolám **o hodinu** (in an hour), **o desať minút**, **zajtra**.",
+    "t": "**neskôr** = keyinroq. Yoki: zavolám **o hodinu** (bir soatdan keyin), **o desať minút** (oʻn daqiqadan keyin), **zajtra** (ertaga)."
+  },
+  "a2-u6-l4.build-zavolam-o-hodinu.prompt": {
+    "en": "I'll call back in an hour.",
+    "t": "Bir soatdan keyin qoʻngʻiroq qilaman."
+  },
+  "a2-u6-l4.build-zavolam-o-hodinu.traps": {
+    "en": [
+      "You're the one calling, so it's the ja form, which points to the future: **Zavolám**. Zavolaj tells someone else to call.",
+      "“In an hour” is **o** + the object form: o **hodinu**."
+    ],
+    "t": [
+      "Qoʻngʻiroqni siz qilasiz, shuning uchun ja shakli, u kelasi zamonni bildiradi: **Zavolám**. Zavolaj esa boshqa odamga «qoʻngʻiroq qil» deydi.",
+      "«Bir soatdan keyin» — **o** + toʻldiruvchi shakli: o **hodinu**."
+    ]
+  },
+  "a2-u6-l4.zavolajte-neskor-prosim.en": {
+    "en": "Please call back later.",
+    "t": "Iltimos, keyinroq qoʻngʻiroq qiling."
+  },
+  "a2-u6-l4.zavolajte-neskor-prosim.note": {
+    "en": "**Zavolajte** asks someone you call vy to call. The next lesson shows how these forms are made.",
+    "t": "**Zavolajte** — «siz» deb murojaat qilinadigan odamdan qoʻngʻiroq qilishni soʻrash. Bu shakllar qanday yasalishini keyingi dars koʻrsatadi."
+  },
+  "a2-u6-l4.choice-zavolajte-o-desat.question": {
+    "en": "Mr Hudák's meeting ends soon. What does Emma tell the caller?",
+    "t": "Janob Hudakning yigʻilishi tez orada tugaydi. Emma qoʻngʻiroq qilgan odamga nima deydi?"
+  },
+  "a2-u6-l4.choice-zavolajte-o-desat.why": {
+    "en": "Emma is asking the caller (vy) to call: **Zavolajte**. Zavolám would mean Emma will call, and nechaj is for a friend.",
+    "t": "Emma qoʻngʻiroq qilgan odamdan (vy) qoʻngʻiroq qilishni soʻrayapti: **Zavolajte**. Zavolám — «Emma qoʻngʻiroq qiladi» degani boʻlardi, nechaj esa doʻst uchun."
+  },
+  "a2-u6-l4.poviem-mu-to.en": {
+    "en": "I'll tell him.",
+    "t": "Unga (erkakka) aytib qoʻyaman."
+  },
+  "a2-u6-l4.poviem-mu-to.note": {
+    "en": "**povedať** = to tell, to say: poviem, povieš, povie… (it points to the future). **mu** = (to) him, **jej** = (to) her: Poviem jej to.",
+    "t": "**povedať** = aytmoq: poviem, povieš, povie… (kelasi zamonni bildiradi). **mu** = unga (erkakka), **jej** = unga (ayolga): Poviem jej to. Oʻzbekchada ikkalasi ham «unga», slovakchada esa farq bor."
+  },
+  "a2-u6-l4.fill-poviem-jej-to.en": {
+    "en": "Mrs Kollárová is at lunch. I'll tell her.",
+    "t": "Kollarova xonim tushlikda. Unga aytib qoʻyaman."
+  },
+  "a2-u6-l4.fill-poviem-jej-to.why": {
+    "en": "You tell something **to** someone, the to-whom form. Pani Kollárová is a woman, so **jej**. Ju is the object form (her), and mu is for a man.",
+    "t": "Biror narsani kimgadir aytasiz — «kimga?» shakli (datív, joʻnalish kelishigi). Kollarova xonim — ayol, shuning uchun **jej**. Ju — toʻldiruvchi shakli (uni, ayolni), mu esa erkak uchun."
+  },
+  "a2-u6-l4.mozem-poprosit-este-raz.en": {
+    "en": "Could I have your name again, please?",
+    "t": "Ismingizni yana bir bor aytib bera olasizmi?"
+  },
+  "a2-u6-l4.mozem-poprosit-este-raz.note": {
+    "en": "**poprosiť** = to ask for, politely; **ešte raz** = once more. Then: **Ako sa to píše?** (How do you spell that?) and **Na aké číslo vám môže zavolať?** (What number can he call you on?)",
+    "t": "**poprosiť** = (muloyimlik bilan) soʻramoq; **ešte raz** = yana bir marta. Keyin: **Ako sa to píše?** (Bu qanday yoziladi?) va **Na aké číslo vám môže zavolať?** (U sizga qaysi raqamga qoʻngʻiroq qilishi mumkin?)"
+  },
+  "a2-u6-l4.choice-mozem-poprosit-vase-meno.question": {
+    "en": "Emma didn't catch the caller's name. What does she ask?",
+    "t": "Emma qoʻngʻiroq qilgan odamning ismini eshitmay qoldi. U nima deb soʻraydi?"
+  },
+  "a2-u6-l4.choice-mozem-poprosit-vase-meno.why": {
+    "en": "A caller is a stranger, so it's vy and **vaše** meno. Tvoje and ako sa voláš are for a friend.",
+    "t": "Qoʻngʻiroq qilgan odam notanish, shuning uchun vy va **vaše** meno (ismingiz). Tvoje va ako sa voláš — doʻst uchun."
+  },
+  "a2-u6-l4.build-na-ake-cislo-vam-moze.prompt": {
+    "en": "What number can he call you on? (to a caller)",
+    "t": "U sizga qaysi raqamga qoʻngʻiroq qilishi mumkin? (qoʻngʻiroq qilgan kishiga)"
+  },
+  "a2-u6-l4.build-na-ake-cislo-vam-moze.traps": {
+    "en": [
+      "Číslo is neuter, so the question word matches it: **aké** číslo.",
+      "A caller is a stranger, so use vy: **vám** (to you)."
+    ],
+    "t": [
+      "Číslo — oʻrta jinsda, shuning uchun soʻroq soʻzi unga moslashadi: **aké** číslo.",
+      "Qoʻngʻiroq qilgan odam notanish, shuning uchun vy: **vám** (sizga)."
+    ]
+  },
+  "a2-u6-l4.build-chcete-nechat-odkaz.prompt": {
+    "en": "Would you like to leave a message? (to a caller)",
+    "t": "Xabar qoldirmoqchimisiz? (qoʻngʻiroq qilgan kishiga)"
+  },
+  "a2-u6-l4.build-chcete-nechat-odkaz.traps": {
+    "en": [
+      "A caller is a stranger, so use vy: **Chcete**.",
+      "After chcete comes the infinitive, the -ť form: chcete **nechať**."
+    ],
+    "t": [
+      "Qoʻngʻiroq qilgan odam notanish, shuning uchun vy: **Chcete**.",
+      "chcete dan keyin infinitív, yaʼni -ť bilan tugaydigan shakl keladi: chcete **nechať**."
+    ]
+  },
+  "a2-u6-l4.build-pan-hudak-momentalne.prompt": {
+    "en": "Mr Hudák isn't in the office at the moment.",
+    "t": "Janob Hudak hozirda ofisda emas."
+  },
+  "a2-u6-l4.build-pan-hudak-momentalne.traps": {
+    "en": [
+      "In the office answers “where?”: v + the locative, and nouns in -ia get **-ii**: v **kancelárii**.",
+      "Being somewhere is byť, and “not” with byť is a separate word: **nie** je. Nemá means doesn't have."
+    ],
+    "t": [
+      "Ofisda — «qayerda?» savoliga javob: v + lokál, -ia bilan tugaydigan otlar esa **-ii** oladi: v **kancelárii**.",
+      "Biror joyda boʻlish — byť, byť bilan inkor esa alohida soʻz: **nie** je (emas). Nemá — «unda yoʻq» degani."
+    ]
+  },
+  "a2-u6-l4.build-odkaz-pre-pana-hudaka.prompt": {
+    "en": "Emma writes the note: “Message for Mr Hudák: Mrs Kollárová called, she'll call back at three.”",
+    "t": "Emma yozib qoʻyadi: «Janob Hudak uchun xabar: Kollarova xonim qoʻngʻiroq qildi, soat uchda yana qoʻngʻiroq qiladi.»"
+  },
+  "a2-u6-l4.build-odkaz-pre-pana-hudaka.traps": {
+    "en": [
+      "**Pre** (for) takes the object form, and pán Hudák is a man, so both add **-a**: pre pána **Hudáka**.",
+      "Pani Kollárová is a woman, so the past form ends in **-la**: **volala**."
+    ],
+    "t": [
+      "**Pre** (uchun) toʻldiruvchi shaklini talab qiladi, pán Hudák esa erkak, shuning uchun ikkala soʻz ham **-a** oladi: pre pána **Hudáka**.",
+      "Kollarova xonim — ayol, shuning uchun oʻtgan zamon **-la** bilan tugaydi: **volala**."
+    ]
+  },
+  "a2-u6-l4.speak-zavolam-neskor-dopocutia.en": {
+    "en": "I'll call back later. Goodbye!",
+    "t": "Keyinroq qoʻngʻiroq qilaman. Xayr!"
+  },
+  "a2-u6-l5.titleEn": {
+    "en": "Telling people what to do",
+    "t": "Buyruq va iltimoslar"
+  },
+  "a2-u6-l5.grammar-imperative.title": {
+    "en": "The imperative: zavolaj, zavolajte",
+    "t": "Buyruq mayli: zavolaj, zavolajte"
+  },
+  "a2-u6-l5.grammar-imperative.body": {
+    "en": [
+      "You know a few commands already: Poďte ďalej, Prepáčte, Maj sa, Zavolajte neskôr. This form is the **imperative**. To make it, take the **oni** form and drop its ending: čítaj**ú** → čítaj. What's left is the ty form: Čítaj!",
+      "For vy (a stranger or a group), add **-te**: čítaj**te**. For my, “let's”, add **-me**: čítaj**me**. Only these three persons have an imperative."
+    ],
+    "t": [
+      "Bir nechta buyruqni allaqachon bilasiz: Poďte ďalej, Prepáčte, Maj sa, Zavolajte neskôr. Bu shakl — **buyruq mayli** (imperatív). Uni yasash uchun **oni** shaklini olib, qoʻshimchasini tashlang: čítaj**ú** → čítaj. Qolgani — ty (sen) shakli: Čítaj! (Oʻqi!) Oʻzbekchadagi kabi, bu feʼlning oʻzagi: oʻqi, yoz.",
+      "Vy (notanish odam yoki guruh) uchun **-te** qoʻshing: čítaj**te** (oʻqing). My uchun, yaʼni «-aylik» maʼnosida, **-me** qoʻshing: čítaj**me** (oʻqiylik). Buyruq shakli faqat shu uch shaxsda boʻladi."
+    ]
+  },
+  "a2-u6-l5.grammar-imperative.table.head": {
+    "en": [
+      "oni",
+      "ty",
+      "vy",
+      "my (let's)"
+    ],
+    "t": [
+      "oni",
+      "ty",
+      "vy",
+      "my (-aylik)"
+    ]
+  },
+  "a2-u6-l5.grammar-imperative.table.rows": {
+    "en": [
+      [
+        "čítaj**ú**",
+        "čítaj",
+        "čítaj**te**",
+        "čítaj**me**"
+      ],
+      [
+        "zavolaj**ú**",
+        "zavolaj",
+        "zavolaj**te**",
+        "zavolaj**me**"
+      ],
+      [
+        "počkaj**ú**",
+        "počkaj",
+        "počkaj**te**",
+        "počkaj**me**"
+      ],
+      [
+        "pracuj**ú**",
+        "pracuj",
+        "pracuj**te**",
+        "pracuj**me**"
+      ],
+      [
+        "píš**u**",
+        "píš",
+        "píš**te**",
+        "píš**me**"
+      ],
+      [
+        "hovor**ia**",
+        "hovor",
+        "hovor**te**",
+        "hovor**me**"
+      ]
+    ],
+    "t": [
+      [
+        "čítaj**ú**",
+        "čítaj",
+        "čítaj**te**",
+        "čítaj**me**"
+      ],
+      [
+        "zavolaj**ú**",
+        "zavolaj",
+        "zavolaj**te**",
+        "zavolaj**me**"
+      ],
+      [
+        "počkaj**ú**",
+        "počkaj",
+        "počkaj**te**",
+        "počkaj**me**"
+      ],
+      [
+        "pracuj**ú**",
+        "pracuj",
+        "pracuj**te**",
+        "pracuj**me**"
+      ],
+      [
+        "píš**u**",
+        "píš",
+        "píš**te**",
+        "píš**me**"
+      ],
+      [
+        "hovor**ia**",
+        "hovor",
+        "hovor**te**",
+        "hovor**me**"
+      ]
+    ]
+  },
+  "a2-u6-l5.grammar-imperative.examples": {
+    "en": [
+      "Call me this evening!",
+      "Please wait a moment.",
+      "Please speak slowly.",
+      "Let's call Tomáš!"
+    ],
+    "t": [
+      "Kechqurun menga qoʻngʻiroq qil!",
+      "Iltimos, biroz kuting.",
+      "Iltimos, sekin gapiring.",
+      "Tomashga qoʻngʻiroq qilaylik!"
+    ]
+  },
+  "a2-u6-l5.fill-tomas-zavolaj-mi.en": {
+    "en": "Tomáš, call me this evening!",
+    "t": "Tomash, kechqurun menga qoʻngʻiroq qil!"
+  },
+  "a2-u6-l5.fill-tomas-zavolaj-mi.why": {
+    "en": "Tomáš is a friend (ty), so it's the bare stem, with no ending: **zavolaj**. Zavolajte is for vy, and zavolám means I'll call.",
+    "t": "Tomash — doʻst (ty), shuning uchun qoʻshimchasiz oʻzak: **zavolaj**. Zavolajte — vy uchun, zavolám esa «qoʻngʻiroq qilaman» degani."
+  },
+  "a2-u6-l5.fill-pan-hudak-pockajte.en": {
+    "en": "Mr Hudák, please wait a moment.",
+    "t": "Janob Hudak, iltimos, biroz kuting."
+  },
+  "a2-u6-l5.fill-pan-hudak-pockajte.why": {
+    "en": "To someone you call vy, add **-te** to the stem: počkaj → **počkajte**. Počkáte, with a long á, means you will wait.",
+    "t": "«Siz» deb murojaat qilinadigan odamga oʻzakka **-te** qoʻshing: počkaj → **počkajte**. Choʻziq á bilan počkáte esa «kutasiz» degani."
+  },
+  "a2-u6-l5.choice-pis.question": {
+    "en": "Písať (to write) has the oni form píšu. What's the ty imperative?",
+    "t": "Písať (yozmoq) feʼlining oni shakli — píšu. Ty uchun buyruq shakli qanday?"
+  },
+  "a2-u6-l5.choice-pis.why": {
+    "en": "Drop the ending of píš**u** and you have the ty form: **Píš!** Píšte is for vy; píše means he or she writes.",
+    "t": "píš**u** ning qoʻshimchasini tashlasangiz, ty shakli qoladi: **Píš!** (Yoz!) Píšte — vy uchun; píše esa «u yozadi» degani."
+  },
+  "a2-u6-l5.build-hovorte-pomaly-prosim.prompt": {
+    "en": "Please speak slowly. (to a stranger)",
+    "t": "Iltimos, sekin gapiring. (notanish odamga)"
+  },
+  "a2-u6-l5.build-hovorte-pomaly-prosim.traps": {
+    "en": [
+      "To a stranger, the vy form: hovor + **-te** = **Hovorte**. Hovor is for a friend.",
+      "“Slowly” is the adverb **pomaly**; pomalý is the adjective, as in a slow train."
+    ],
+    "t": [
+      "Notanish odamga — vy shakli: hovor + **-te** = **Hovorte**. Hovor — doʻst uchun.",
+      "«Sekin» — ravish **pomaly**; pomalý esa sifat, masalan pomalý vlak (sekin poyezd)."
+    ]
+  },
+  "a2-u6-l5.fill-emma-a-lucia-napiste.en": {
+    "en": "Emma and Lucia, write to me tomorrow!",
+    "t": "Emma va Lusiya, ertaga menga yozinglar!"
+  },
+  "a2-u6-l5.fill-emma-a-lucia-napiste.why": {
+    "en": "Two people are vy, so add **-te**: napíš → **napíšte**. Napíš is for one friend, and napíšeme means we'll write.",
+    "t": "Ikki kishi — vy, shuning uchun **-te** qoʻshing: napíš → **napíšte**. Napíš — bitta doʻst uchun, napíšeme esa «yozamiz» degani."
+  },
+  "a2-u6-l5.fill-mame-cas-dajme.en": {
+    "en": "We've got time. Let's have a coffee!",
+    "t": "Vaqtimiz bor. Qahva ichaylik!"
+  },
+  "a2-u6-l5.fill-mame-cas-dajme.why": {
+    "en": "“Let's” is the my form, the stem + **-me**: daj → **Dajme** si kávu. Dajte and daj tell other people to have one.",
+    "t": "«-aylik» — my shakli, oʻzak + **-me**: daj → **Dajme** si kávu. Dajte va daj esa boshqalarga «iching / ich» deydi."
+  },
+  "a2-u6-l5.grammar-small-words-after.title": {
+    "en": "Small words after the command",
+    "t": "Buyruqdan keyingi kichik soʻzlar"
+  },
+  "a2-u6-l5.grammar-small-words-after.body": {
+    "en": [
+      "In a command the verb comes first, and small words like **mi**, **mu**, **sa** and **si** follow it straight away: **Daj mi** vedieť. **Zavolaj mu.** **Dajte si** kávu.",
+      "With prosím, both orders are polite: Počkajte, prosím. Prosím, počkajte."
+    ],
+    "t": [
+      "Buyruqda feʼl birinchi keladi, **mi**, **mu**, **sa** va **si** kabi kichik soʻzlar esa darhol undan keyin turadi: **Daj mi** vedieť. **Zavolaj mu.** **Dajte si** kávu.",
+      "prosím bilan ikkala tartib ham muloyim: Počkajte, prosím. Prosím, počkajte."
+    ]
+  },
+  "a2-u6-l5.grammar-small-words-after.examples": {
+    "en": [
+      "Let me know.",
+      "Have a coffee, Mr Hudák.",
+      "Leave me a message."
+    ],
+    "t": [
+      "Menga xabar ber.",
+      "Qahva iching, janob Hudak.",
+      "Menga xabar qoldir."
+    ]
+  },
+  "a2-u6-l5.choice-daj-mi-vediet.question": {
+    "en": "Which one is right?",
+    "t": "Qaysi biri toʻgʻri?"
+  },
+  "a2-u6-l5.choice-daj-mi-vediet.why": {
+    "en": "The command comes first, and the small word **mi** goes right after it: Daj **mi** vedieť.",
+    "t": "Buyruq birinchi keladi, kichik **mi** soʻzi esa darhol undan keyin: Daj **mi** vedieť."
+  },
+  "a2-u6-l5.build-pockaj-ma-pred.prompt": {
+    "en": "Wait for me in front of the office! (to a friend)",
+    "t": "Meni ofis oldida kut! (sen)"
+  },
+  "a2-u6-l5.build-pockaj-ma-pred.traps": {
+    "en": [
+      "You're telling a friend to wait: the ty form **Počkaj**. Počkám means I'll wait.",
+      "**Pred** (in front of) takes the instrumental: pred **kanceláriou**."
+    ],
+    "t": [
+      "Doʻstingizga kutishni aytyapsiz: ty shakli **Počkaj**. Počkám — «kutaman» degani.",
+      "**Pred** (oldida) inštrumentál talab qiladi: pred **kanceláriou** (ofis oldida)."
+    ]
+  },
+  "a2-u6-l5.fill-pani-bartosova-zatelefonujte.en": {
+    "en": "Mrs Bartošová, please phone me tomorrow morning.",
+    "t": "Bartoshova xonim, iltimos, ertaga ertalab menga qoʻngʻiroq qiling."
+  },
+  "a2-u6-l5.fill-pani-bartosova-zatelefonujte.why": {
+    "en": "Zatelefonovať (= zavolať) goes like pracovať: zatelefonujú → zatelefonuj, and for vy add **-te**: **zatelefonujte**. Zatelefonujete means you will phone.",
+    "t": "Zatelefonovať (= zavolať) pracovať kabi tuslanadi: zatelefonujú → zatelefonuj, vy uchun esa **-te** qoʻshiladi: **zatelefonujte**. Zatelefonujete — «qoʻngʻiroq qilasiz» degani."
+  },
+  "a2-u6-l5.fill-pani-kollarova-dajte-si.en": {
+    "en": "Mrs Kollárová, please have a coffee.",
+    "t": "Kollarova xonim, qahva iching, iltimos."
+  },
+  "a2-u6-l5.fill-pani-kollarova-dajte-si.why": {
+    "en": "To someone you call vy: daj + **-te** = **dajte**, and si comes right after it. Dáte means you will have.",
+    "t": "«Siz» deb murojaat qilinadigan odamga: daj + **-te** = **dajte**, si esa darhol undan keyin keladi. Dáte — «ichasiz (olasiz)» degani."
+  },
+  "a2-u6-l5.build-napiste-mi-mail.answers": {
+    "en": [
+      "Write me an e-mail and call me tomorrow.",
+      "Send me an e-mail and call me tomorrow."
+    ],
+    "t": [
+      "Menga elektron xat yozing va ertaga qoʻngʻiroq qiling.",
+      "Menga elektron xat yozing va ertaga menga qoʻngʻiroq qiling.",
+      "Menga elektron xat yuboring va ertaga qoʻngʻiroq qiling.",
+      "Menga xat yozing va ertaga qoʻngʻiroq qiling."
+    ]
+  },
+  "a2-u6-l5.build-napiste-mi-mail.distractors": {
+    "en": [
+      "today",
+      "text"
+    ],
+    "t": [
+      "bugun",
+      "yozaman"
+    ]
+  },
+  "a2-u6-l5.speak-zavolajte-neskor-prosim.en": {
+    "en": "Please call back later.",
+    "t": "Iltimos, keyinroq qoʻngʻiroq qiling."
+  },
+  "a2-u6-l6.titleEn": {
+    "en": "Passing on a message",
+    "t": "Gapni yetkazish"
+  },
+  "a2-u6-l6.grammar-reported-ze.title": {
+    "en": "Reported speech: povedal, že…",
+    "t": "Oʻzlashtirma gap: povedal, že…"
+  },
+  "a2-u6-l6.grammar-reported-ze.body": {
+    "en": [
+      "To pass on what someone said, use **povedať** (to say, to tell) or **napísať**, then a comma and **že** (that): Pán Hudák povedal, **že** zavolá neskôr.",
+      "Change the person, as in English: “Zavolám.” → povedal, že zavol**á**. But keep the tense: Slovak passes it on as it was said. “Mám poradu.” → Povedala, že **má** poradu. = She said she had a meeting."
+    ],
+    "t": [
+      "Kimdir aytgan gapni yetkazish uchun **povedať** (aytmoq) yoki **napísať** (yozmoq), keyin vergul va **že** (…ki, …ligini) ishlating: Pán Hudák povedal, **že** zavolá neskôr. = Janob Hudak keyinroq qoʻngʻiroq qilishini aytdi.",
+      "Shaxs oʻzgaradi: «Zavolám.» → povedal, že zavol**á**. Zamon esa oʻzgarmaydi, gap qanday aytilgan boʻlsa, shunday yetkaziladi: «Mám poradu.» → Povedala, že **má** poradu. = U yigʻilishi borligini aytdi. Oʻzbekchada ham «bor» hozirgi zamonda qoladi."
+    ]
+  },
+  "a2-u6-l6.grammar-reported-ze.table.head": {
+    "en": [
+      "they say…",
+      "you pass it on"
+    ],
+    "t": [
+      "ular aytadi…",
+      "siz yetkazasiz"
+    ]
+  },
+  "a2-u6-l6.grammar-reported-ze.table.rows": {
+    "en": [
+      [
+        "„Zavolám neskôr.“",
+        "Povedal, že zavol**á** neskôr."
+      ],
+      [
+        "„Mám poradu.“",
+        "Povedala, že **má** poradu."
+      ],
+      [
+        "„Som chorý.“",
+        "Napísal, že **je** chorý."
+      ],
+      [
+        "„Prídem o desiatej.“",
+        "Povedala, že **príde** o desiatej."
+      ]
+    ],
+    "t": [
+      [
+        "„Zavolám neskôr.“",
+        "Povedal, že zavol**á** neskôr."
+      ],
+      [
+        "„Mám poradu.“",
+        "Povedala, že **má** poradu."
+      ],
+      [
+        "„Som chorý.“",
+        "Napísal, že **je** chorý."
+      ],
+      [
+        "„Prídem o desiatej.“",
+        "Povedala, že **príde** o desiatej."
+      ]
+    ]
+  },
+  "a2-u6-l6.grammar-reported-ze.examples": {
+    "en": [
+      "Petra said Mr Hudák was at lunch.",
+      "Tomáš wrote that he'd come tomorrow."
+    ],
+    "t": [
+      "Petra janob Hudak tushlikda ekanini aytdi.",
+      "Tomash ertaga kelishini yozdi."
+    ]
+  },
+  "a2-u6-l6.fill-petra-povedala-ze.en": {
+    "en": "Petra said Mr Hudák had a meeting.",
+    "t": "Petra janob Hudakning yigʻilishi borligini aytdi."
+  },
+  "a2-u6-l6.fill-petra-povedala-ze.why": {
+    "en": "Passing on a statement takes **že** (that), after a comma. Kde and kedy would pass on a question.",
+    "t": "Darak gapni yetkazish uchun vergul va **že** (…ki) kerak. Kde va kedy esa savolni yetkazadi."
+  },
+  "a2-u6-l6.fill-tomas-povedal-ze-zavola.en": {
+    "en": "Tomáš: “I'll call in an hour.” Tomáš said he'd call in an hour.",
+    "t": "Tomash: «Bir soatdan keyin qoʻngʻiroq qilaman.» Tomash bir soatdan keyin qoʻngʻiroq qilishini aytdi."
+  },
+  "a2-u6-l6.fill-tomas-povedal-ze-zavola.why": {
+    "en": "Now Tomáš is on, so the person changes: zavolám → **zavolá**. The tense stays as he said it, so not zavolal.",
+    "t": "Endi Tomash — on (u), shuning uchun shaxs oʻzgaradi: zavolám → **zavolá**. Zamon esa u aytgandek qoladi, shuning uchun zavolal emas."
+  },
+  "a2-u6-l6.choice-lucia-napisala-ze.question": {
+    "en": "What does this mean?",
+    "t": "Bu nimani anglatadi?"
+  },
+  "a2-u6-l6.choice-lucia-napisala-ze.options": {
+    "en": [
+      "Lucia asked if you were ill.",
+      "Lucia wrote that she was ill.",
+      "Lucia wrote that you were ill."
+    ],
+    "t": [
+      "Lusiya kasalmisan, deb soʻradi.",
+      "Lusiya oʻzi kasal ekanini yozdi.",
+      "Lusiya sen kasal ekaningni yozdi."
+    ]
+  },
+  "a2-u6-l6.choice-lucia-napisala-ze.why": {
+    "en": "**Že** passes on a statement, and **je** chorá is she is ill. Slovak keeps the tense where English says “was”.",
+    "t": "**Že** darak gapni yetkazadi, **je** chorá esa «u kasal» degani. Slovak tilida zamon oʻzgarmaydi, xuddi oʻzbekchadagi «kasal ekanini yozdi» kabi."
+  },
+  "a2-u6-l6.build-povedal-ze-ma.prompt": {
+    "en": "He said he had a meeting.",
+    "t": "U (erkak) yigʻilishi borligini aytdi."
+  },
+  "a2-u6-l6.build-povedal-ze-ma.traps": {
+    "en": [
+      "Slovak keeps the tense of what was said: “Mám poradu.” → že **má** poradu. Only English says had.",
+      "He is on now, so the person changes: mám → **má**."
+    ],
+    "t": [
+      "Slovak tilida aytilgan gapning zamoni saqlanadi: «Mám poradu.» → že **má** poradu, oʻzbekchadagi «yigʻilishi bor» kabi.",
+      "Endi u haqida gapiryapsiz (on), shuning uchun shaxs oʻzgaradi: mám → **má**."
+    ]
+  },
+  "a2-u6-l6.grammar-reported-ci.title": {
+    "en": "Passing on a question: či, kde, kedy",
+    "t": "Savolni yetkazish: či, kde, kedy"
+  },
+  "a2-u6-l6.grammar-reported-ci.body": {
+    "en": [
+      "A question with a question word keeps it: “Kedy prídeš?” → Pýtala sa, **kedy** prídeš.",
+      "A yes-or-no question takes **či** (whether, if): “Máš čas?” → Pýtal sa, **či** máš čas. **pýtať sa**, **opýtať sa** = to ask, with the person in the genitive: opýtať sa **Petry**."
+    ],
+    "t": [
+      "Soʻroq soʻzli savolda soʻroq soʻzi saqlanadi: «Kedy prídeš?» → Pýtala sa, **kedy** prídeš. = Qachon kelishingni soʻradi.",
+      "«Ha» yoki «yoʻq» deb javob beriladigan savol **či** (…-mi, …-mi yoʻqmi) bilan yetkaziladi: «Máš čas?» → Pýtal sa, **či** máš čas. = Vaqting bor-yoʻqligini soʻradi. **pýtať sa**, **opýtať sa** = soʻramoq; kimdan soʻralsa, u genitívda (qaratqich kelishigi) boʻladi: opýtať sa **Petry** (Petradan soʻramoq)."
+    ]
+  },
+  "a2-u6-l6.grammar-reported-ci.table.head": {
+    "en": [
+      "they ask…",
+      "you pass it on"
+    ],
+    "t": [
+      "ular soʻraydi…",
+      "siz yetkazasiz"
+    ]
+  },
+  "a2-u6-l6.grammar-reported-ci.table.rows": {
+    "en": [
+      [
+        "„Kde si?“",
+        "Pýtal sa, **kde** si."
+      ],
+      [
+        "„Kedy prídeš?“",
+        "Pýtala sa, **kedy** prídeš."
+      ],
+      [
+        "„Máš čas?“",
+        "Pýtal sa, **či** máš čas."
+      ],
+      [
+        "„Je Tomáš v práci?“",
+        "Opýtala sa, **či** je Tomáš v práci."
+      ]
+    ],
+    "t": [
+      [
+        "„Kde si?“",
+        "Pýtal sa, **kde** si."
+      ],
+      [
+        "„Kedy prídeš?“",
+        "Pýtala sa, **kedy** prídeš."
+      ],
+      [
+        "„Máš čas?“",
+        "Pýtal sa, **či** máš čas."
+      ],
+      [
+        "„Je Tomáš v práci?“",
+        "Opýtala sa, **či** je Tomáš v práci."
+      ]
+    ]
+  },
+  "a2-u6-l6.grammar-reported-ci.examples": {
+    "en": [
+      "Mrs Kollárová asked if you were free tomorrow.",
+      "He asked me where the reception was."
+    ],
+    "t": [
+      "Kollarova xonim ertaga vaqting bor-yoʻqligini soʻradi.",
+      "U mendan qabulxona qayerdaligini soʻradi."
+    ]
+  },
+  "a2-u6-l6.fill-pytala-sa-ci-mas.en": {
+    "en": "“Are you free on Friday?” Lucia asked if you were free on Friday.",
+    "t": "«Juma kuni vaqting bormi?» Lusiya juma kuni vaqting bor-yoʻqligini soʻradi."
+  },
+  "a2-u6-l6.fill-pytala-sa-ci-mas.why": {
+    "en": "Lucia asked a yes-or-no question, and that's passed on with **či** (whether). Že is for statements.",
+    "t": "Lusiya «ha / yoʻq» savolini berdi, bunday savol esa **či** bilan yetkaziladi. Že — darak gaplar uchun."
+  },
+  "a2-u6-l6.fill-pytal-sa-kedy-prides.en": {
+    "en": "“When are you coming to the office?” He asked when you were coming to the office.",
+    "t": "«Ofisga qachon kelasan?» U ofisga qachon kelishingni soʻradi."
+  },
+  "a2-u6-l6.fill-pytal-sa-kedy-prides.why": {
+    "en": "The question word stays: **kedy**. Či is only for yes-or-no questions.",
+    "t": "Soʻroq soʻzi saqlanadi: **kedy** (qachon). Či faqat «ha / yoʻq» savollari uchun."
+  },
+  "a2-u6-l6.choice-pan-hudak-sa-pytal.question": {
+    "en": "Mr Hudák asked Emma: “Kde je Tomáš?” How does Emma pass it on to Tomáš?",
+    "t": "Janob Hudak Emmadan soʻradi: «Kde je Tomáš?» Emma buni Tomashga qanday yetkazadi?"
+  },
+  "a2-u6-l6.choice-pan-hudak-sa-pytal.why": {
+    "en": "Emma is talking to Tomáš, so he becomes ty: kde je → kde **si**. The question word kde stays.",
+    "t": "Emma Tomashning oʻziga gapiryapti, shuning uchun u ty (sen) boʻladi: kde je → kde **si**. Kde soʻroq soʻzi saqlanadi."
+  },
+  "a2-u6-l6.build-pytala-sa-ci-si.prompt": {
+    "en": "She asked if you were at home. (to a friend)",
+    "t": "U (ayol) uydamisan, deb soʻradi. (sen)"
+  },
+  "a2-u6-l6.build-pytala-sa-ci-si.traps": {
+    "en": [
+      "A yes-or-no question is passed on with **či**; že is for statements.",
+      "Slovak keeps the tense of the question, “Si doma?”: či **si** doma. Only English says were."
+    ],
+    "t": [
+      "«Ha / yoʻq» savoli **či** bilan yetkaziladi; že — darak gaplar uchun.",
+      "Slovak tilida savolning zamoni saqlanadi («Si doma?»): či **si** doma, xuddi oʻzbekchadagi «uydamisan» kabi."
+    ]
+  },
+  "a2-u6-l6.choice-mam-nejaky-odkaz.question": {
+    "en": "Tomáš calls from home: “Mám nejaký odkaz?” (Are there any messages for me?) Which answer is right?",
+    "t": "Tomash uydan qoʻngʻiroq qiladi: «Mám nejaký odkaz?» (Menga biror xabar bormi?) Qaysi javob toʻgʻri?"
+  },
+  "a2-u6-l6.choice-mam-nejaky-odkaz.why": {
+    "en": "A statement is passed on with **povedala, že**. Či goes with a question: pýtala sa, či…",
+    "t": "Darak gap **povedala, že** bilan yetkaziladi. Či esa savol bilan keladi: pýtala sa, či…"
+  },
+  "a2-u6-l6.build-tomas-napisal-ze.answers": {
+    "en": [
+      "Tomáš wrote that he'd come tomorrow.",
+      "Tomáš wrote that he would come tomorrow.",
+      "Tomáš wrote that he'll come tomorrow.",
+      "Tomáš wrote that he will come tomorrow."
+    ],
+    "t": [
+      "Tomash ertaga kelishini yozdi.",
+      "Tomash ertaga kelaman, deb yozdi.",
+      "Tomash ertaga kelishini yozib yubordi."
+    ]
+  },
+  "a2-u6-l6.build-tomas-napisal-ze.distractors": {
+    "en": [
+      "asked",
+      "today"
+    ],
+    "t": [
+      "soʻradi",
+      "bugun"
+    ]
+  },
+  "a2-u6-l6.fill-opytala-sa-ma.en": {
+    "en": "She asked Petra where the reception was.",
+    "t": "U Petradan qabulxona qayerdaligini soʻradi."
+  },
+  "a2-u6-l6.fill-opytala-sa-ma.why": {
+    "en": "**Opýtať sa** takes the genitive, so Petra changes -a to **-y**: opýtala sa **Petry**. Petru is the object form.",
+    "t": "**Opýtať sa** genitív talab qiladi (oʻzbekchada «Petradan»), shuning uchun Petra -a ni **-y** ga almashtiradi: opýtala sa **Petry**. Petru — toʻldiruvchi shakli."
+  },
+  "a2-u6-l6.speak-povedal-ze-zavola.en": {
+    "en": "He said he'd call back later.",
+    "t": "U keyinroq qoʻngʻiroq qilishini aytdi."
+  },
+  "a2-u6-l7.titleEn": {
+    "en": "Passing on a request",
+    "t": "Iltimosni yetkazish"
+  },
+  "a2-u6-l7.grammar-reported-aby.title": {
+    "en": "Passing on a request: aby + the past form",
+    "t": "Iltimosni yetkazish: aby + oʻtgan zamon shakli"
+  },
+  "a2-u6-l7.grammar-reported-aby.body": {
+    "en": [
+      "A request or an order is passed on with **aby** (to, so that). After aby comes the **past form** (-l, -la, -li), even when the request is about later: “Zavolaj mi!” → Povedala, **aby** si jej **zavolal**.",
+      "Aby takes som, si, sme and ste, just like the past tense: aby **som**, aby **si**. For on, ona and oni, aby stands alone: Povedzte mu, prosím, **aby** mi **zavolal**. (Povedzte = tell, to vy.)"
+    ],
+    "t": [
+      "Iltimos yoki buyruq **aby** (…sin deb, …ishini) bilan yetkaziladi. aby dan keyin **oʻtgan zamon shakli** (-l, -la, -li) keladi, hatto iltimos kelajak haqida boʻlsa ham: «Zavolaj mi!» → Povedala, **aby** si jej **zavolal**. = U sendan oʻziga qoʻngʻiroq qilishingni soʻradi.",
+      "aby oʻtgan zamondagi kabi som, si, sme va ste ni oladi: aby **som**, aby **si**. on, ona va oni bilan aby yolgʻiz turadi: Povedzte mu, prosím, **aby** mi **zavolal**. = Iltimos, unga ayting, menga qoʻngʻiroq qilsin. (Povedzte = ayting, vy uchun.)"
+    ]
+  },
+  "a2-u6-l7.grammar-reported-aby.table.head": {
+    "en": [
+      "",
+      "aby + the past form"
+    ],
+    "t": [
+      "",
+      "aby + oʻtgan zamon shakli"
+    ]
+  },
+  "a2-u6-l7.grammar-reported-aby.table.rows": {
+    "en": [
+      [
+        "ja",
+        "aby **som** zavolal / zavolala"
+      ],
+      [
+        "ty",
+        "aby **si** zavolal / zavolala"
+      ],
+      [
+        "on, ona",
+        "aby zavolal / zavolala"
+      ],
+      [
+        "my",
+        "aby **sme** zavolali"
+      ],
+      [
+        "vy",
+        "aby **ste** zavolali"
+      ],
+      [
+        "oni",
+        "aby zavolali"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "aby **som** zavolal / zavolala"
+      ],
+      [
+        "ty",
+        "aby **si** zavolal / zavolala"
+      ],
+      [
+        "on, ona",
+        "aby zavolal / zavolala"
+      ],
+      [
+        "my",
+        "aby **sme** zavolali"
+      ],
+      [
+        "vy",
+        "aby **ste** zavolali"
+      ],
+      [
+        "oni",
+        "aby zavolali"
+      ]
+    ]
+  },
+  "a2-u6-l7.grammar-reported-aby.examples": {
+    "en": [
+      "Please tell him to call me.",
+      "Mr Hudák wants us to come at nine.",
+      "Petra asked me to call Mrs Kollárová."
+    ],
+    "t": [
+      "Iltimos, unga ayting, menga qoʻngʻiroq qilsin.",
+      "Janob Hudak soat toʻqqizda kelishimizni xohlaydi.",
+      "Petra mendan Kollarova xonimga qoʻngʻiroq qilishimni soʻradi."
+    ]
+  },
+  "a2-u6-l7.fill-povedzte-jej-aby.en": {
+    "en": "Please tell her to call me tomorrow.",
+    "t": "Iltimos, unga ayting, ertaga menga qoʻngʻiroq qilsin."
+  },
+  "a2-u6-l7.fill-povedzte-jej-aby.why": {
+    "en": "After **aby** comes the past form, and she is a woman: aby mi **zavolala**. Zavolá would follow že.",
+    "t": "**aby** dan keyin oʻtgan zamon shakli keladi, u esa ayol: aby mi **zavolala**. Zavolá že dan keyin keladi."
+  },
+  "a2-u6-l7.fill-petra-mi-povedala-aby.en": {
+    "en": "Emma: “Petra told me to wait here.”",
+    "t": "Emma: «Petra menga shu yerda kutib turishimni aytdi.»"
+  },
+  "a2-u6-l7.fill-petra-mi-povedala-aby.why": {
+    "en": "After **aby**, the past form, and Emma is a woman: aby som **počkala**.",
+    "t": "**aby** dan keyin oʻtgan zamon shakli, Emma esa ayol: aby som **počkala**."
+  },
+  "a2-u6-l7.fill-pan-hudak-povedal-aby-ste.en": {
+    "en": "Mr Hudák told you (all) to write him an e-mail.",
+    "t": "Janob Hudak sizlarga oʻziga elektron xat yozishingizni aytdi."
+  },
+  "a2-u6-l7.fill-pan-hudak-povedal-aby-ste.why": {
+    "en": "For **vy**, aby takes **ste**: aby **ste** mu napísali. Si and som don't go with -li.",
+    "t": "**vy** uchun aby **ste** ni oladi: aby **ste** mu napísali. Si va som -li bilan kelmaydi."
+  },
+  "a2-u6-l7.build-povedzte-mu-prosim.prompt": {
+    "en": "Please tell him to call me. (to a stranger)",
+    "t": "Iltimos, unga (erkakka) ayting, menga qoʻngʻiroq qilsin. (notanish odamga)"
+  },
+  "a2-u6-l7.build-povedzte-mu-prosim.traps": {
+    "en": [
+      "After **aby**, the past form: aby mi **zavolal**. Zavolá goes after že.",
+      "Him, the one you tell, is **mu**; jej is for a woman."
+    ],
+    "t": [
+      "**aby** dan keyin oʻtgan zamon shakli: aby mi **zavolal**. Zavolá že dan keyin keladi.",
+      "Aytiladigan odam erkak boʻlsa, «unga» — **mu**; jej — ayol uchun."
+    ]
+  },
+  "a2-u6-l7.build-chce-aby-sme.prompt": {
+    "en": "He wants us to wait.",
+    "t": "U kutishimizni xohlaydi."
+  },
+  "a2-u6-l7.build-chce-aby-sme.traps": {
+    "en": [
+      "After **aby**, the past form: aby sme **počkali**. Počkáme means we'll wait.",
+      "Wanting someone to do something takes **aby**; že passes on a fact."
+    ],
+    "t": [
+      "**aby** dan keyin oʻtgan zamon shakli: aby sme **počkali**. Počkáme — «kutamiz» degani.",
+      "Kimdir biror ish qilishini xohlash — **aby**; že esa faktni yetkazadi."
+    ]
+  },
+  "a2-u6-l7.grammar-ze-or-aby.title": {
+    "en": "Že or aby?",
+    "t": "Že yoki aby?"
+  },
+  "a2-u6-l7.grammar-ze-or-aby.body": {
+    "en": [
+      "**Že** passes on a fact, in its own tense: Tomáš povedal, **že** počká. = Tomáš said he would wait.",
+      "**Aby** passes on a request, always with the past form: Tomáš povedal, **aby** sme počkali. = Tomáš told us to wait."
+    ],
+    "t": [
+      "**Že** faktni oʻz zamonida yetkazadi: Tomáš povedal, **že** počká. = Tomash kutishini aytdi.",
+      "**Aby** iltimosni yetkazadi, doim oʻtgan zamon shakli bilan: Tomáš povedal, **aby** sme počkali. = Tomash bizga kutib turishimizni aytdi."
+    ]
+  },
+  "a2-u6-l7.grammar-ze-or-aby.examples": {
+    "en": [
+      "Lucia wrote that she'd come later.",
+      "Lucia wrote asking us to wait for her."
+    ],
+    "t": [
+      "Lusiya keyinroq kelishini yozdi.",
+      "Lusiya oʻzini kutib turishimizni soʻrab yozdi."
+    ]
+  },
+  "a2-u6-l7.choice-tomas-povedal-ze-pocka.question": {
+    "en": "Tomáš said he would wait. Which sentence says that?",
+    "t": "Tomash kutishini aytdi. Qaysi gap shuni bildiradi?"
+  },
+  "a2-u6-l7.choice-tomas-povedal-ze-pocka.why": {
+    "en": "It's a fact about Tomáš, so **že** + počká. Aby počkal would mean he told someone else to wait.",
+    "t": "Bu Tomash haqidagi fakt, shuning uchun **že** + počká. Aby počkal esa «u boshqa odamga kutib turishni aytdi» degani boʻlardi."
+  },
+  "a2-u6-l7.choice-lucia-mi-povedala-aby.question": {
+    "en": "Lucia asked Emma to write to her. How does Emma say it?",
+    "t": "Lusiya Emmadan oʻziga yozishini soʻradi. Emma buni qanday aytadi?"
+  },
+  "a2-u6-l7.choice-lucia-mi-povedala-aby.why": {
+    "en": "A request: **aby** + the past form, and Emma is a woman: aby som jej **napísala**. Že jej napíšem would mean Emma promised to write.",
+    "t": "Bu iltimos: **aby** + oʻtgan zamon shakli, Emma esa ayol: aby som jej **napísala**. Že jej napíšem esa «Emma yozishga vaʼda berdi» degani boʻlardi."
+  },
+  "a2-u6-l7.build-lucia-ma-poprosila.prompt": {
+    "en": "Emma: “Lucia asked me to buy bread.”",
+    "t": "Emma: «Lusiya mendan non sotib olishimni soʻradi.»"
+  },
+  "a2-u6-l7.build-lucia-ma-poprosila.traps": {
+    "en": [
+      "After **aby**, the past form, and Emma is a woman: aby som **kúpila**.",
+      "It's a request, so **aby**; že passes on a fact."
+    ],
+    "t": [
+      "**aby** dan keyin oʻtgan zamon shakli, Emma esa ayol: aby som **kúpila**.",
+      "Bu iltimos, shuning uchun **aby**; že faktni yetkazadi."
+    ]
+  },
+  "a2-u6-l7.build-pani-kollarova-povedala.answers": {
+    "en": [
+      "Mrs Kollárová told you to call her.",
+      "Mrs Kollárová said you should call her.",
+      "Mrs Kollárová asked you to call her."
+    ],
+    "t": [
+      "Kollarova xonim oʻziga qoʻngʻiroq qilishingni aytdi.",
+      "Kollarova xonim sendan oʻziga qoʻngʻiroq qilishingni soʻradi.",
+      "Kollarova xonim senga oʻziga qoʻngʻiroq qilishingni aytdi.",
+      "Kollarova xonim unga qoʻngʻiroq qilishingni aytdi."
+    ]
+  },
+  "a2-u6-l7.build-pani-kollarova-povedala.distractors": {
+    "en": [
+      "him",
+      "would"
+    ],
+    "t": [
+      "qilishimni",
+      "menga"
+    ]
+  },
+  "a2-u6-l7.fill-mama-chce-aby.en": {
+    "en": "Mum wants me to call her on Sunday.",
+    "t": "Oyim yakshanba kuni oʻziga qoʻngʻiroq qilishimni xohlaydi."
+  },
+  "a2-u6-l7.fill-mama-chce-aby.why": {
+    "en": "Wanting someone else to do something takes **aby** + the past form: chce, **aby** som zavolala.",
+    "t": "Boshqa odam biror ish qilishini xohlash — **aby** + oʻtgan zamon shakli: chce, **aby** som zavolala."
+  },
+  "a2-u6-l7.speak-povedzte-mu-aby.en": {
+    "en": "Tell him to call me.",
+    "t": "Unga ayting, menga qoʻngʻiroq qilsin."
+  },
+  "a2-u6-l8.titleEn": {
+    "en": "An e-mail to friends",
+    "t": "Doʻstlarga elektron xat"
+  },
+  "a2-u6-l8.mila-lucia.en": {
+    "en": "Dear Lucia,",
+    "t": "Aziz Lusiya,"
+  },
+  "a2-u6-l8.mila-lucia.note": {
+    "en": "You saw **Milá Emma** in Lucia's e-mail in unit 3. To a man: **Milý Tomáš,** to a group of friends: **Milí kamaráti,** or simply **Ahoj, Lucia!**",
+    "t": "**Milá Emma** ni 3-boʻlimda Lusiyaning elektron xatida koʻrgansiz. Erkakka: **Milý Tomáš,** bir guruh doʻstlarga: **Milí kamaráti,** yoki shunchaki **Ahoj, Lucia!**"
+  },
+  "a2-u6-l8.choice-mily-tomas.question": {
+    "en": "Emma is writing to Tomáš. How does she start?",
+    "t": "Emma Tomashga xat yozyapti. U xatni qanday boshlaydi?"
+  },
+  "a2-u6-l8.choice-mily-tomas.why": {
+    "en": "**Milý** is an adjective, so it matches the person: milý for a man, milá for a woman: Milý Tomáš, Milá Lucia.",
+    "t": "**Milý** — sifat, shuning uchun u odamga moslashadi: erkakka milý, ayolga milá: Milý Tomáš, Milá Lucia. Oʻzbekchada «aziz» oʻzgarmaydi, slovakchada esa jins muhim."
+  },
+  "a2-u6-l8.navrh.en": {
+    "en": "suggestion, proposal",
+    "t": "taklif"
+  },
+  "a2-u6-l8.navrh.note": {
+    "en": "Mám pre vás **návrh**: výlet v máji! = I've got a suggestion for you: a trip in May! **navrhnúť** = to suggest; **trasa** = the route of a trip.",
+    "t": "Mám pre vás **návrh**: výlet v máji! = Sizlarga taklifim bor: may oyida sayohat! **navrhnúť** = taklif qilmoq; **trasa** = sayohat yoʻnalishi (marshrut)."
+  },
+  "a2-u6-l8.fill-ahoj-marek-mam-pre.en": {
+    "en": "Hi, Marek! I've got a suggestion for you.",
+    "t": "Salom, Marek! Senga bir taklifim bor."
+  },
+  "a2-u6-l8.fill-ahoj-marek-mam-pre.why": {
+    "en": "After **pre** (for), pronouns take their long forms: pre **teba**.",
+    "t": "**pre** (uchun) dan keyin olmoshlar uzun shaklini oladi: pre **teba** (sen uchun)."
+  },
+  "a2-u6-l8.fill-mili-kamarati.en": {
+    "en": "Dear friends, I've got a suggestion for you.",
+    "t": "Aziz doʻstlar, sizlarga bir taklifim bor."
+  },
+  "a2-u6-l8.fill-mili-kamarati.why": {
+    "en": "Kamaráti is a group with men in it, so the adjective takes the men's plural, **-í**: **Milí** kamaráti.",
+    "t": "Kamaráti — ichida erkaklar bor guruh, shuning uchun sifat erkaklar koʻplik qoʻshimchasi **-í** ni oladi: **Milí** kamaráti."
+  },
+  "a2-u6-l8.dakujem-ti-za-mail.en": {
+    "en": "Thanks for your e-mail.",
+    "t": "Xating uchun rahmat."
+  },
+  "a2-u6-l8.dakujem-ti-za-mail.note": {
+    "en": "In letters and e-mails, many Slovaks write **Ty**, **Ti**, **Teba**, **Vy**, **Vám** and **Vás** with a capital letter, to be polite.",
+    "t": "Xat va elektron xatlarda koʻp slovaklar hurmat belgisi sifatida **Ty**, **Ti**, **Teba**, **Vy**, **Vám** va **Vás** ni bosh harf bilan yozadi."
+  },
+  "a2-u6-l8.cim-skor.en": {
+    "en": "as soon as possible",
+    "t": "imkon qadar tezroq"
+  },
+  "a2-u6-l8.cim-skor.note": {
+    "en": "**Napíš mi čím skôr.** = Write back as soon as possible. Or: **Ozvi sa!** = Get in touch!",
+    "t": "**Napíš mi čím skôr.** = Imkon qadar tezroq javob yoz. Yoki: **Ozvi sa!** = Xabar ber! (Bogʻlan!)"
+  },
+  "a2-u6-l8.build-napis-mi-cim-skor.prompt": {
+    "en": "Write back as soon as possible! (to a friend)",
+    "t": "Imkon qadar tezroq javob yoz! (sen)"
+  },
+  "a2-u6-l8.build-napis-mi-cim-skor.traps": {
+    "en": [
+      "You're asking a friend to write: the command **Napíš**. Napíšem means I'll write.",
+      "**Čím skôr** = as soon as possible. Neskôr means later."
+    ],
+    "t": [
+      "Siz doʻstingizdan yozishni soʻrayapsiz: buyruq **Napíš**. Napíšem — «yozaman» degani.",
+      "**Čím skôr** = imkon qadar tezroq. Neskôr — «keyinroq» degani."
+    ]
+  },
+  "a2-u6-l8.kontakt.en": {
+    "en": "contact details",
+    "t": "kontakt, aloqa maʼlumotlari"
+  },
+  "a2-u6-l8.kontakt.note": {
+    "en": "**Dám ti kontakt na penzión.** = I'll give you the guesthouse's contact details. **penzión** = a guesthouse.",
+    "t": "**Dám ti kontakt na penzión.** = Senga mehmon uyining kontaktini beraman. **penzión** = mehmon uyi (kichik mehmonxona)."
+  },
+  "a2-u6-l8.build-dakujem-ti-za-pozvanie.prompt": {
+    "en": "Thank you for the invitation to the party. (in an e-mail to a friend)",
+    "t": "Bazmga taklif uchun rahmat. (doʻstga elektron xatda)"
+  },
+  "a2-u6-l8.build-dakujem-ti-za-pozvanie.traps": {
+    "en": [
+      "An invitation **to** the party: na + the object form, **oslavu**. Na oslave means at the party.",
+      "You thank **za** + the object form, and pozvanie is neuter, so it doesn't change: za **pozvanie**."
+    ],
+    "t": [
+      "Bazmga (**na**) taklif: na + toʻldiruvchi shakli, **oslavu**. Na oslave — «bazmda» degani.",
+      "Minnatdorchilik **za** + toʻldiruvchi shakli bilan bildiriladi, pozvanie esa oʻrta jinsda, shuning uchun oʻzgarmaydi: za **pozvanie**."
+    ]
+  },
+  "a2-u6-l8.build-dam-ti-kontakt.prompt": {
+    "en": "I'll give you the guesthouse's contact details.",
+    "t": "Senga mehmon uyining kontaktini beraman."
+  },
+  "a2-u6-l8.build-dam-ti-kontakt.traps": {
+    "en": [
+      "You'll be the one giving it: the ja form **Dám**. Daj asks someone else to give.",
+      "Kontakt **na** someone or something takes the object form: na **penzión**. Penzióne is the locative (in the guesthouse)."
+    ],
+    "t": [
+      "Kontaktni siz berasiz: ja shakli **Dám**. Daj esa boshqa odamdan berishni soʻraydi.",
+      "Kimningdir yoki nimaningdir kontakti — **na** + toʻldiruvchi shakli: na **penzión**. Penzióne — lokál (mehmon uyida)."
+    ]
+  },
+  "a2-u6-l8.pozdravuj-mareka.en": {
+    "en": "Say hi to Marek!",
+    "t": "Marekka salom ayt!"
+  },
+  "a2-u6-l8.pozdravuj-mareka.note": {
+    "en": "Like **Pozdrav Luciu!** (unit 5), from **pozdravovať**; both are common. Many e-mails to friends end with **Pozdravujem** (Best wishes) and your name.",
+    "t": "**Pozdrav Luciu!** (5-boʻlim) kabi, faqat **pozdravovať** feʼlidan; ikkalasi ham koʻp ishlatiladi. Doʻstlarga yozilgan koʻp elektron xatlar **Pozdravujem** (Salom bilan) va ismingiz bilan tugaydi."
+  },
+  "a2-u6-l8.maj-sa-dobre.en": {
+    "en": "Take care!",
+    "t": "Yaxshi qol!"
+  },
+  "a2-u6-l8.maj-sa-dobre.note": {
+    "en": "More friendly endings: **Pekný deň!** (Have a nice day!) Then sign: **Tvoja Emma** (a woman), **Tvoj Tomáš** (a man).",
+    "t": "Yana samimiy yakunlar: **Pekný deň!** (Kuning yaxshi oʻtsin!) Keyin imzo: **Tvoja Emma** (ayol), **Tvoj Tomáš** (erkak)."
+  },
+  "a2-u6-l8.choice-tvoj-tomas.question": {
+    "en": "How does Tomáš sign his e-mail to Emma?",
+    "t": "Tomash Emmaga yozgan xatiga qanday imzo qoʻyadi?"
+  },
+  "a2-u6-l8.choice-tvoj-tomas.why": {
+    "en": "**Tvoj** matches the writer: Tomáš is a man, so tvoj. Emma signs **Tvoja** Emma.",
+    "t": "**Tvoj** yozuvchiga moslashadi: Tomash — erkak, shuning uchun tvoj. Emma esa **Tvoja** Emma deb imzo qoʻyadi."
+  },
+  "a2-u6-l8.build-pozdravuj-tomasa.prompt": {
+    "en": "Say hi to Tomáš! Take care!",
+    "t": "Tomashga salom ayt! Yaxshi qol!"
+  },
+  "a2-u6-l8.build-pozdravuj-tomasa.traps": {
+    "en": [
+      "Tomáš is the one you greet, the object, so he adds **-a**: Pozdravuj **Tomáša**.",
+      "To one friend: **Maj** sa dobre. Majte sa is for vy."
+    ],
+    "t": [
+      "Tomash — siz salom aytayotgan odam, toʻldiruvchi, shuning uchun **-a** oladi: Pozdravuj **Tomáša**.",
+      "Bitta doʻstga: **Maj** sa dobre. Majte sa — vy uchun."
+    ]
+  },
+  "a2-u6-l8.choice-luciina-odpoved.question": {
+    "en": "Lucia's answer. Why didn't she write sooner?",
+    "t": "Lusiyaning javobi. Nega u avvalroq yozmadi?"
+  },
+  "a2-u6-l8.choice-luciina-odpoved.options": {
+    "en": [
+      "She had an exam.",
+      "She was ill.",
+      "She was away on a trip."
+    ],
+    "t": [
+      "Uning imtihoni bor edi.",
+      "U kasal edi.",
+      "U sayohatda edi."
+    ]
+  },
+  "a2-u6-l8.build-prepac-ze-som-ti.prompt": {
+    "en": "Emma ends her e-mail: “Sorry I didn't write sooner. Best wishes, Emma”",
+    "t": "Emma xatini shunday tugatadi: «Avvalroq yozmaganim uchun kechir. Salom bilan, Emma»"
+  },
+  "a2-u6-l8.build-prepac-ze-som-ti.traps": {
+    "en": [
+      "Emma is a woman, so the past form ends in **-la**: som Ti **nenapísala**.",
+      "Sooner is **skôr**, as in čím skôr. Neskôr means later."
+    ],
+    "t": [
+      "Emma — ayol, shuning uchun oʻtgan zamon **-la** bilan tugaydi: som Ti **nenapísala**.",
+      "«Avvalroq» — **skôr**, xuddi čím skôr dagi kabi. Neskôr — «keyinroq» degani."
+    ]
+  },
+  "a2-u6-l8.speak-mam-pre-teba-navrh.en": {
+    "en": "I've got a suggestion for you.",
+    "t": "Senga bir taklifim bor."
+  },
+  "a2-u6-l9.titleEn": {
+    "en": "A formal e-mail",
+    "t": "Rasmiy elektron xat"
+  },
+  "a2-u6-l9.vazena-pani-sokolova.en": {
+    "en": "Dear Mrs Sokolová,",
+    "t": "Hurmatli Sokolova xonim,"
+  },
+  "a2-u6-l9.vazena-pani-sokolova.note": {
+    "en": "How a formal letter or e-mail starts. To a man: **Vážený pán** Hudák, To someone whose name you don't know: **Dobrý deň,**",
+    "t": "Rasmiy xat yoki elektron xat shunday boshlanadi. Erkakka: **Vážený pán** Hudák, Ismini bilmagan odamga: **Dobrý deň,**"
+  },
+  "a2-u6-l9.choice-vazeny-pan-hudak.question": {
+    "en": "Emma writes a formal e-mail to pán Hudák. How does she start?",
+    "t": "Emma janob Hudakka rasmiy elektron xat yozyapti. U qanday boshlaydi?"
+  },
+  "a2-u6-l9.choice-vazeny-pan-hudak.why": {
+    "en": "**Vážený** is an adjective, so it matches a man: vážený pán. Milý is for friends, with their first name.",
+    "t": "**Vážený** — sifat, shuning uchun erkakka moslashadi: vážený pán. Milý — doʻstlar uchun, ularning ismi bilan."
+  },
+  "a2-u6-l9.ubytovanie.en": {
+    "en": "accommodation",
+    "t": "turar joy"
+  },
+  "a2-u6-l9.ubytovanie.note": {
+    "en": "Emma books the trip's **ubytovanie v penzióne** (rooms in a guesthouse) **na meno** Šimková, in Lucia's name. **s raňajkami** = with breakfast; **cena** = the price.",
+    "t": "Emma sayohat uchun mehmon uyidan joy (**ubytovanie v penzióne**) band qiladi, **na meno** Šimková — Lusiyaning nomiga. **s raňajkami** = nonushta bilan; **cena** = narx."
+  },
+  "a2-u6-l9.volna-izba.en": {
+    "en": "a free room, a vacancy",
+    "t": "boʻsh xona"
+  },
+  "a2-u6-l9.volna-izba.note": {
+    "en": "**Máte voľné izby?** = Have you got any rooms free? A **dvojposteľová** izba is a double room, a **jednoposteľová** a single; **rezervovať** = to book.",
+    "t": "**Máte voľné izby?** = Boʻsh xonalaringiz bormi? **Dvojposteľová** izba — ikki kishilik xona, **jednoposteľová** — bir kishilik; **rezervovať** = band qilmoq."
+  },
+  "a2-u6-l9.fill-chcela-by-som-sa-opytat.en": {
+    "en": "I'd like to ask whether you have any rooms free.",
+    "t": "Boʻsh xonalaringiz bor-yoʻqligini soʻramoqchi edim."
+  },
+  "a2-u6-l9.fill-chcela-by-som-sa-opytat.why": {
+    "en": "Izby is plural here, and plural things take **-é**: **voľné** izby.",
+    "t": "Bu yerda izby koʻplikda, koʻplikdagi narsalar esa **-é** oladi: **voľné** izby."
+  },
+  "a2-u6-l9.od-piatku-do-pondelka.en": {
+    "en": "from Friday to Monday",
+    "t": "jumadan dushanbagacha"
+  },
+  "a2-u6-l9.od-piatku-do-pondelka.note": {
+    "en": "**Od … do** + the genitive, as in unit 5: od soboty do nedele, od 15. do 17. mája.",
+    "t": "**Od … do** (…dan …gacha) + genitív (qaratqich kelishigi), 5-boʻlimdagi kabi: od soboty do nedele (shanbadan yakshanbagacha), od 15. do 17. mája."
+  },
+  "a2-u6-l9.build-mate-volnu-izbu.prompt": {
+    "en": "Have you got a room free from Friday to Monday?",
+    "t": "Jumadan dushanbagacha boʻsh xonangiz bormi?"
+  },
+  "a2-u6-l9.build-mate-volnu-izbu.traps": {
+    "en": [
+      "The room is what you're asking for, the object, so -á becomes **-ú**: **voľnú** izbu.",
+      "**Do** (until) takes the genitive: do **pondelka**, like od piatku."
+    ],
+    "t": [
+      "Xona — siz soʻrayotgan narsa, toʻldiruvchi, shuning uchun -á oʻrniga **-ú**: **voľnú** izbu.",
+      "**Do** (…gacha) genitív talab qiladi: do **pondelka**, xuddi od piatku kabi."
+    ]
+  },
+  "a2-u6-l9.dakujem-za-odpoved.en": {
+    "en": "Thank you for your reply.",
+    "t": "Javobingiz uchun rahmat."
+  },
+  "a2-u6-l9.dakujem-za-odpoved.note": {
+    "en": "You know **odpoveď** from otázka a odpoveď (unit 1); it's feminine. **odpovedať** = to reply: Pani Sokolová mi odpovedala.",
+    "t": "**odpoveď** ni otázka a odpoveď (savol va javob, 1-boʻlim) dan bilasiz; u ayol jinsida. **odpovedať** = javob bermoq: Pani Sokolová mi odpovedala. = Sokolova xonim menga javob berdi."
+  },
+  "a2-u6-l9.s-pozdravom.en": {
+    "en": "Kind regards",
+    "t": "Hurmat bilan"
+  },
+  "a2-u6-l9.s-pozdravom.note": {
+    "en": "The end of a formal letter or e-mail, with your name on the next line. Friends write **Pozdravujem** or **Maj sa!**",
+    "t": "Rasmiy xat yoki elektron xatning yakuni, keyingi qatorda esa ismingiz. Doʻstlar **Pozdravujem** yoki **Maj sa!** deb yozadi."
+  },
+  "a2-u6-l9.choice-s-pozdravom.question": {
+    "en": "How does Emma end her e-mail to pani Sokolová?",
+    "t": "Emma Sokolova xonimga yozgan xatini qanday tugatadi?"
+  },
+  "a2-u6-l9.choice-s-pozdravom.why": {
+    "en": "A formal e-mail ends with **S pozdravom** and your name. Maj sa and Zatiaľ are for friends.",
+    "t": "Rasmiy elektron xat **S pozdravom** va ismingiz bilan tugaydi. Maj sa va Zatiaľ — doʻstlar uchun."
+  },
+  "a2-u6-l9.izba-je-sice-mala.en": {
+    "en": "The room may be small, but it's nice.",
+    "t": "Xona kichik boʻlsa ham, chiroyli."
+  },
+  "a2-u6-l9.izba-je-sice-mala.note": {
+    "en": "**síce … ale** = it's true that…, but… Síce goes after the verb in the first part, and ale starts the second. **len** = only.",
+    "t": "**síce … ale** = …boʻlsa ham, … / …-ku, lekin… Síce birinchi qismda feʼldan keyin keladi, ale esa ikkinchi qismni boshlaydi. **len** = faqat."
+  },
+  "a2-u6-l9.fill-penzion-je-sice.en": {
+    "en": "The guesthouse may be expensive, but it's very nice.",
+    "t": "Mehmon uyi qimmat boʻlsa ham, juda chiroyli."
+  },
+  "a2-u6-l9.fill-penzion-je-sice.why": {
+    "en": "**Síce** in the first part gets ready for the **ale** in the second: síce drahý, ale pekný.",
+    "t": "Birinchi qismdagi **síce** ikkinchi qismdagi **ale** ga tayyorlaydi: síce drahý, ale pekný."
+  },
+  "a2-u6-l9.build-mame-sice-len.prompt": {
+    "en": "We've only got two rooms free, but they're big.",
+    "t": "Bizda faqat ikkita boʻsh xona bor, ammo ular katta."
+  },
+  "a2-u6-l9.build-mame-sice-len.traps": {
+    "en": [
+      "After dve, the plural, and plural things take **-é**: dve **voľné** izby.",
+      "The rooms (izby, plural) are big, so **-é**: sú **veľké**."
+    ],
+    "t": [
+      "dve dan keyin koʻplik keladi, koʻplikdagi narsalar esa **-é** oladi: dve **voľné** izby.",
+      "Xonalar (izby, koʻplik) katta, shuning uchun **-é**: sú **veľké**."
+    ]
+  },
+  "a2-u6-l9.choice-izbu-vam-rezervujem.question": {
+    "en": "Pani Sokolová's reply. How much is a room?",
+    "t": "Sokolova xonimning javobi. Bir xona qancha turadi?"
+  },
+  "a2-u6-l9.choice-izbu-vam-rezervujem.options": {
+    "en": [
+      "Thirty euros a night, with breakfast.",
+      "Thirty euros a night, without breakfast.",
+      "Thirteen euros a night, with breakfast."
+    ],
+    "t": [
+      "Bir kechaga oʻttiz yevro, nonushta bilan.",
+      "Bir kechaga oʻttiz yevro, nonushtasiz.",
+      "Bir kechaga oʻn uch yevro, nonushta bilan."
+    ]
+  },
+  "a2-u6-l9.fill-dakujem-vam-za-odpoved.en": {
+    "en": "Dear Mrs Sokolová, thank you for your reply.",
+    "t": "Hurmatli Sokolova xonim, javobingiz uchun rahmat."
+  },
+  "a2-u6-l9.fill-dakujem-vam-za-odpoved.why": {
+    "en": "In Slovak you give thanks **to** someone: the to-whom form, **Vám**, with a capital in a letter. Vás is the object form.",
+    "t": "Slovak tilida minnatdorchilik **kimga** bildiriladi: «kimga?» shakli (datív), **Vám**, xatda bosh harf bilan. Oʻzbekchada ham «sizga rahmat». Vás — toʻldiruvchi shakli."
+  },
+  "a2-u6-l9.build-pani-sokolova-mi-odpovedala.answers": {
+    "en": [
+      "Mrs Sokolová replied that she had a room free.",
+      "Mrs Sokolová replied that she had a free room.",
+      "Mrs Sokolová replied that she has a room free.",
+      "Mrs Sokolová answered that she had a room free."
+    ],
+    "t": [
+      "Sokolova xonim menga javob berib, boʻsh xonasi borligini aytdi.",
+      "Sokolova xonim menga boʻsh xonasi borligini javob berdi.",
+      "Sokolova xonim javobida boʻsh xonasi borligini yozdi.",
+      "Sokolova xonim menga javob berdi: boʻsh xonasi bor."
+    ]
+  },
+  "a2-u6-l9.build-pani-sokolova-mi-odpovedala.distractors": {
+    "en": [
+      "asked",
+      "two"
+    ],
+    "t": [
+      "soʻradi",
+      "ikkita"
+    ]
+  },
+  "a2-u6-l9.choice-emma-pise-kamaratom.question": {
+    "en": "Emma's e-mail to her friends. What's true?",
+    "t": "Emmaning doʻstlariga yozgan xati. Qaysi biri toʻgʻri?"
+  },
+  "a2-u6-l9.choice-emma-pise-kamaratom.options": {
+    "en": [
+      "They're going by train and staying three nights.",
+      "They're going by car and staying three nights.",
+      "They're going by car and staying two nights."
+    ],
+    "t": [
+      "Ular poyezdda borishadi va uch kecha qolishadi.",
+      "Ular mashinada borishadi va uch kecha qolishadi.",
+      "Ular mashinada borishadi va ikki kecha qolishadi."
+    ]
+  },
+  "a2-u6-l9.speak-dakujem-za-odpoved.en": {
+    "en": "Thank you for your reply.",
+    "t": "Javobingiz uchun rahmat."
+  },
+  "a2-u6-l10.titleEn": {
+    "en": "Personal details",
+    "t": "Shaxsiy maʼlumotlar"
+  },
+  "a2-u6-l10.osobne-udaje.en": {
+    "en": "personal details",
+    "t": "shaxsiy maʼlumotlar"
+  },
+  "a2-u6-l10.osobne-udaje.note": {
+    "en": "**údaj** = a piece of information. On a form: meno, priezvisko, **dátum a miesto narodenia** (date and place of birth), **povolanie** (occupation), adresa.",
+    "t": "**údaj** = (bitta) maʼlumot. Blankada: meno (ism), priezvisko (familiya), **dátum a miesto narodenia** (tugʻilgan sana va joy), **povolanie** (kasb), adresa (manzil)."
+  },
+  "a2-u6-l10.formular.en": {
+    "en": "form",
+    "t": "blanka"
+  },
+  "a2-u6-l10.formular.note": {
+    "en": "**vyplniť formulár** = to fill in a form. You know **dotazník** (a questionnaire) from A1.",
+    "t": "**vyplniť formulár** = blankani toʻldirmoq. **dotazník** (anketa) ni A1 dan bilasiz."
+  },
+  "a2-u6-l10.fill-vyplnte-prosim-tento.en": {
+    "en": "Please fill in this form.",
+    "t": "Iltimos, ushbu blankani toʻldiring."
+  },
+  "a2-u6-l10.fill-vyplnte-prosim-tento.why": {
+    "en": "The form is the object, and formulár is a masculine thing, so it doesn't change: tento **formulár**.",
+    "t": "Blanka — toʻldiruvchi, formulár esa erkak jinsidagi narsa, shuning uchun oʻzgarmaydi: tento **formulár**."
+  },
+  "a2-u6-l10.adresa.en": {
+    "en": "address",
+    "t": "manzil"
+  },
+  "a2-u6-l10.adresa.note": {
+    "en": "Emma's address: **Javorová 12, 841 04 Bratislava**: the street (ulica), the number, the postcode and the town.",
+    "t": "Emmaning manzili: **Javorová 12, 841 04 Bratislava** — koʻcha (ulica), uy raqami, pochta indeksi va shahar."
+  },
+  "a2-u6-l10.fill-byvam-na-javorovej.en": {
+    "en": "I live at number 12, Javorová Street.",
+    "t": "Men Yavorova koʻchasi, 12-uyda yashayman."
+  },
+  "a2-u6-l10.fill-byvam-na-javorovej.why": {
+    "en": "**Na** + “where?” takes the locative, and ulica (after c) takes **-i**: na Javorovej **ulici**.",
+    "t": "**Na** + «qayerda?» lokál talab qiladi, ulica esa (c dan keyin) **-i** oladi: na Javorovej **ulici**."
+  },
+  "a2-u6-l10.choice-emmin-formular.question": {
+    "en": "Emma's form. Where was she born?",
+    "t": "Emmaning blankasi. U qayerda tugʻilgan?"
+  },
+  "a2-u6-l10.choice-emmin-formular.options": {
+    "en": [
+      "In Bratislava.",
+      "In Dublin.",
+      "On Javorová Street."
+    ],
+    "t": [
+      "Bratislavada.",
+      "Dublinda.",
+      "Yavorova koʻchasida."
+    ]
+  },
+  "a2-u6-l10.mailova-adresa.en": {
+    "en": "e-mail address",
+    "t": "elektron pochta manzili"
+  },
+  "a2-u6-l10.mailova-adresa.note": {
+    "en": "You know **zavináč** (@) from unit 1; the dot is **bodka**: emma zavináč mail bodka sk.",
+    "t": "**zavináč** (@) ni 1-boʻlimdan bilasiz; nuqta esa **bodka**: emma zavináč mail bodka sk."
+  },
+  "a2-u6-l10.build-aka-je-vasa-mailova.prompt": {
+    "en": "What's your e-mail address? (polite)",
+    "t": "Elektron pochta manzilingiz qanday? (siz)"
+  },
+  "a2-u6-l10.build-aka-je-vasa-mailova.traps": {
+    "en": [
+      "Adresa is feminine, so the question word matches it: **Aká**.",
+      "The adjective matches adresa, feminine: **mailová** adresa."
+    ],
+    "t": [
+      "Adresa — ayol jinsida, shuning uchun soʻroq soʻzi unga moslashadi: **Aká**.",
+      "Sifat ayol jinsidagi adresa ga moslashadi: **mailová** adresa."
+    ]
+  },
+  "a2-u6-l10.choice-zavinac.question": {
+    "en": "Emma reads out her e-mail address. What is @ in Slovak?",
+    "t": "Emma elektron pochta manzilini aytib beryapti. Slovak tilida @ nima deyiladi?"
+  },
+  "a2-u6-l10.prihlasit-sa.en": {
+    "en": "to sign up, to register",
+    "t": "roʻyxatdan oʻtmoq, yozilmoq"
+  },
+  "a2-u6-l10.prihlasit-sa.note": {
+    "en": "**prihlásiť sa na** + the object form: Prihlásila som sa na seminár. You know **prihláška** (a registration form) from A1.",
+    "t": "**prihlásiť sa na** + toʻldiruvchi shakli: Prihlásila som sa na seminár. = Seminarga yozildim. **prihláška** (roʻyxatdan oʻtish arizasi) ni A1 dan bilasiz."
+  },
+  "a2-u6-l10.fill-chcela-by-som-sa-prihlasit.en": {
+    "en": "I'd like to sign up for the seminar on Friday.",
+    "t": "Juma kungi seminarga yozilmoqchi edim."
+  },
+  "a2-u6-l10.fill-chcela-by-som-sa-prihlasit.why": {
+    "en": "**Prihlásiť sa na** takes the object form; seminár is a masculine thing, so it stays the same: na **seminár**. Na seminári means at the seminar.",
+    "t": "**Prihlásiť sa na** toʻldiruvchi shaklini talab qiladi; seminár — erkak jinsidagi narsa, shuning uchun oʻzgarmaydi: na **seminár** (seminarga). Na seminári — «seminarda» degani."
+  },
+  "a2-u6-l10.choice-emma-sa-prihlasuje.question": {
+    "en": "Emma's e-mail. Why is she writing?",
+    "t": "Emmaning elektron xati. U nima uchun yozyapti?"
+  },
+  "a2-u6-l10.choice-emma-sa-prihlasuje.options": {
+    "en": [
+      "To book a room.",
+      "To cancel a meeting.",
+      "To sign up for the seminar."
+    ],
+    "t": [
+      "Xona band qilish uchun.",
+      "Uchrashuvni bekor qilish uchun.",
+      "Seminarga yozilish uchun."
+    ]
+  },
+  "a2-u6-l10.vazeny-pan-inzinier.en": {
+    "en": "Dear Sir, (to a man with an engineer's title)",
+    "t": "Hurmatli janob, (muhandis unvoniga ega erkakka)"
+  },
+  "a2-u6-l10.vazeny-pan-inzinier.note": {
+    "en": "Formal letters often use a title instead of the name: **Vážená pani inžinierka**, **Vážený pán riaditeľ**, **Vážená pani doktorka**.",
+    "t": "Rasmiy xatlarda koʻpincha ism oʻrniga unvon ishlatiladi: **Vážená pani inžinierka**, **Vážený pán riaditeľ**, **Vážená pani doktorka**."
+  },
+  "a2-u6-l10.priloha.en": {
+    "en": "attachment",
+    "t": "ilova (biriktirilgan fayl)"
+  },
+  "a2-u6-l10.priloha.note": {
+    "en": "**V prílohe posielam** formulár. = Please find the form attached (**posielať** = to send). At a meal, a príloha is a side dish!",
+    "t": "**V prílohe posielam** formulár. = Blankani ilovada yuboryapman (**posielať** = yubormoq). Ovqatda esa príloha — garnir!"
+  },
+  "a2-u6-l10.build-v-prilohe-posielam.prompt": {
+    "en": "I'm sending the form as an attachment.",
+    "t": "Blankani ilova sifatida yuboryapman."
+  },
+  "a2-u6-l10.build-v-prilohe-posielam.traps": {
+    "en": [
+      "In the attachment: **v** + the locative, -a becomes **-e**: v **prílohe**.",
+      "You're the one sending it: the ja form **posielam**. Posiela is he or she sends."
+    ],
+    "t": [
+      "Ilovada: **v** + lokál, -a oʻrniga **-e**: v **prílohe**.",
+      "Yuborayotgan — siz: ja shakli **posielam**. Posiela — «u yuboryapti» degani."
+    ]
+  },
+  "a2-u6-l10.build-som-z-irska-a-pracujem.prompt": {
+    "en": "Emma introduces herself in the e-mail: “I'm from Ireland and I work as an intern.”",
+    "t": "Emma elektron xatda oʻzini tanishtiradi: «Men Irlandiyadanman va amaliyotchi boʻlib ishlayman.»"
+  },
+  "a2-u6-l10.build-som-z-irska-a-pracujem.traps": {
+    "en": [
+      "Emma is a woman, so it's **stážistka**. Stážista is a man.",
+      "**Z** (from) takes the genitive: z **Írska**, as in Som z Írska."
+    ],
+    "t": [
+      "Emma — ayol, shuning uchun **stážistka**. Stážista — erkak.",
+      "**Z** (…dan) genitív talab qiladi: z **Írska**, xuddi Som z Írska dagi kabi."
+    ]
+  },
+  "a2-u6-l10.match-formular.pairs": {
+    "en": [
+      "form",
+      "address",
+      "surname",
+      "place of birth",
+      "@ (at)"
+    ],
+    "t": [
+      "blanka",
+      "manzil",
+      "familiya",
+      "tugʻilgan joy",
+      "@ belgisi"
+    ]
+  },
+  "a2-u6-l10.speak-aka-je-vasa-adresa.en": {
+    "en": "What's your address?",
+    "t": "Manzilingiz qanday?"
+  },
+  "a2-u6-l11.titleEn": {
+    "en": "Text messages",
+    "t": "SMS xabarlar"
+  },
+  "a2-u6-l11.esemeska.en": {
+    "en": "text message",
+    "t": "SMS"
+  },
+  "a2-u6-l11.esemeska.note": {
+    "en": "**Napíš mi esemesku!** = Text me! **esemeskovať** = to text (informal).",
+    "t": "**Napíš mi esemesku!** = Menga SMS yoz! **esemeskovať** = SMS yozmoq (soʻzlashuvda). Esemeska soʻzi SMS harflarining oʻqilishidan kelib chiqqan: es-em-es."
+  },
+  "a2-u6-l11.fill-napis-mi-esemesku.en": {
+    "en": "I can't talk now. Text me!",
+    "t": "Hozir gaplasha olmayman. Menga SMS yoz!"
+  },
+  "a2-u6-l11.fill-napis-mi-esemesku.why": {
+    "en": "The text is what you write, the object, so -a becomes **-u**: napíš mi **esemesku**.",
+    "t": "SMS — siz yozadigan narsa, toʻldiruvchi, shuning uchun -a oʻrniga **-u**: napíš mi **esemesku**."
+  },
+  "a2-u6-l11.budem-meskat.en": {
+    "en": "I'll be late.",
+    "t": "Kechikaman."
+  },
+  "a2-u6-l11.budem-meskat.note": {
+    "en": "**meškať** = to be late. **Prepáč, nehnevaj sa, budem meškať desať minút.** = Sorry, don't be cross, I'll be ten minutes late.",
+    "t": "**meškať** = kechikmoq. **Prepáč, nehnevaj sa, budem meškať desať minút.** = Kechir, xafa boʻlma, oʻn daqiqa kechikaman."
+  },
+  "a2-u6-l11.choice-prepac-budem-meskat.question": {
+    "en": "Emma is still on the tram, and she's meeting Lucia at five. What does she text?",
+    "t": "Emma hali tramvayda, Lusiya bilan esa soat beshda uchrashishi kerak. U nima deb yozadi?"
+  },
+  "a2-u6-l11.choice-prepac-budem-meskat.why": {
+    "en": "Lucia is a friend, so it's **Prepáč** (ty); Prepáčte is for vy. And from five up it's **minút**: desať minút.",
+    "t": "Lusiya — doʻst, shuning uchun **Prepáč** (ty); Prepáčte — vy uchun. Beshdan boshlab esa **minút**: desať minút."
+  },
+  "a2-u6-l11.nestiham.en": {
+    "en": "I can't make it. / I'm running late.",
+    "t": "Ulgurmayapman."
+  },
+  "a2-u6-l11.nestiham.note": {
+    "en": "**stíhať** = to keep up, to make it in time (you know **stihnúť** from A1). To move a meeting: **O tretej nestíham. Môžeme sa stretnúť o štvrtej?**",
+    "t": "**stíhať** = ulgurmoq, vaqtida yetib bormoq (**stihnúť** ni A1 dan bilasiz). Uchrashuvni boshqa vaqtga koʻchirish uchun: **O tretej nestíham. Môžeme sa stretnúť o štvrtej?** = Soat uchga ulgurmayman. Soat toʻrtda uchrasha olamizmi?"
+  },
+  "a2-u6-l11.build-o-tretej-nestiham.prompt": {
+    "en": "I can't make it at three. Can we meet at four?",
+    "t": "Soat uchga ulgurmayman. Soat toʻrtda uchrasha olamizmi?"
+  },
+  "a2-u6-l11.build-o-tretej-nestiham.traps": {
+    "en": [
+      "At three: **o** + the -ej form, o **tretej**.",
+      "After môžeme comes the infinitive: môžeme sa **stretnúť**."
+    ],
+    "t": [
+      "Soat uchda: **o** + -ej shakli, o **tretej**.",
+      "môžeme dan keyin infinitív keladi: môžeme sa **stretnúť**."
+    ]
+  },
+  "a2-u6-l11.musim-zrusit-stretnutie.en": {
+    "en": "I have to cancel our meeting.",
+    "t": "Uchrashuvimizni bekor qilishim kerak."
+  },
+  "a2-u6-l11.musim-zrusit-stretnutie.note": {
+    "en": "**zrušiť** = to cancel. Give a reason with pretože: Musím zrušiť **dnešné** (today's) stretnutie, pretože mám poradu.",
+    "t": "**zrušiť** = bekor qilmoq. Sababini pretože (chunki) bilan ayting: Musím zrušiť **dnešné** (bugungi) stretnutie, pretože mám poradu."
+  },
+  "a2-u6-l11.fill-pretoze-som-chora.en": {
+    "en": "Emma: “I have to cancel today's meeting because I'm ill.”",
+    "t": "Emma: «Bugungi uchrashuvni bekor qilishim kerak, chunki kasalman.»"
+  },
+  "a2-u6-l11.fill-pretoze-som-chora.why": {
+    "en": "Emma is a woman, so the adjective ends in **-á**: som **chorá**.",
+    "t": "Emma — ayol, shuning uchun sifat **-á** bilan tugaydi: som **chorá**."
+  },
+  "a2-u6-l11.dik-za-ponuku.en": {
+    "en": "Thanks for the offer!",
+    "t": "Taklif uchun rahmat!"
+  },
+  "a2-u6-l11.dik-za-ponuku.note": {
+    "en": "**dík** = thanks (informal, mostly in texts); **ponuka** = an offer. **Super nápad!** = Great idea!",
+    "t": "**dík** = rahmat (soʻzlashuvda, asosan SMSlarda); **ponuka** = taklif. **Super nápad!** = Zoʻr fikr!"
+  },
+  "a2-u6-l11.match-plati.pairs": {
+    "en": [
+      "Deal!",
+      "Sure!",
+      "I can't make it.",
+      "I'll be late.",
+      "to text"
+    ],
+    "t": [
+      "Kelishdik!",
+      "Albatta!",
+      "Ulgurmayapman.",
+      "Kechikaman.",
+      "SMS yozmoq"
+    ]
+  },
+  "a2-u6-l11.choice-ahoj-dnes-nestiham.question": {
+    "en": "A text from Tomáš. What does he want?",
+    "t": "Tomashdan SMS. U nima istaydi?"
+  },
+  "a2-u6-l11.choice-ahoj-dnes-nestiham.options": {
+    "en": [
+      "To cancel the trip.",
+      "To meet at his meeting.",
+      "To meet tomorrow instead."
+    ],
+    "t": [
+      "Sayohatni bekor qilmoqchi.",
+      "Yigʻilishida uchrashmoqchi.",
+      "Bugun emas, ertaga uchrashmoqchi."
+    ]
+  },
+  "a2-u6-l11.fill-prepac-nehnevaj-sa.en": {
+    "en": "Sorry, don't be cross! I'll be late.",
+    "t": "Kechir, xafa boʻlma! Kechikaman."
+  },
+  "a2-u6-l11.fill-prepac-nehnevaj-sa.why": {
+    "en": "To a friend, the ty form: **nehnevaj** sa. Nehnevajte sa is for vy, and hnevaj sa would mean “be cross!”.",
+    "t": "Doʻstga ty shakli: **nehnevaj** sa. Nehnevajte sa — vy uchun, hnevaj sa esa «xafa boʻl!» degani boʻlardi."
+  },
+  "a2-u6-l11.build-dik-za-ponuku.prompt": {
+    "en": "Thanks for the offer, great idea!",
+    "t": "Taklif uchun rahmat, zoʻr fikr!"
+  },
+  "a2-u6-l11.build-dik-za-ponuku.traps": {
+    "en": [
+      "**Za** in a thank-you takes the object form: za **ponuku**, like Ďakujem za darček.",
+      "One idea: **nápad**. Nápady is the plural."
+    ],
+    "t": [
+      "Minnatdorchilikdagi **za** toʻldiruvchi shaklini talab qiladi: za **ponuku**, xuddi Ďakujem za darček kabi.",
+      "Bitta fikr: **nápad**. Nápady — koʻplik."
+    ]
+  },
+  "a2-u6-l11.choice-stihas-to-o-piatej.question": {
+    "en": "A text from Lucia. What is she asking?",
+    "t": "Lusiyadan SMS. U nima soʻrayapti?"
+  },
+  "a2-u6-l11.choice-stihas-to-o-piatej.options": {
+    "en": [
+      "Can you make it at five?",
+      "Are you going to be late?",
+      "Did you cancel at five?"
+    ],
+    "t": [
+      "Soat beshga ulgurasanmi?",
+      "Kechikasanmi?",
+      "Soat beshdagi uchrashuvni bekor qildingmi?"
+    ]
+  },
+  "a2-u6-l11.build-musim-zrusit-stretnutie.answers": {
+    "en": [
+      "I have to cancel the meeting because I'm ill.",
+      "I have to cancel our meeting because I'm ill.",
+      "I must cancel the meeting because I'm ill.",
+      "I need to cancel the meeting because I'm ill."
+    ],
+    "t": [
+      "Uchrashuvni bekor qilishim kerak, chunki kasalman.",
+      "Uchrashuvimizni bekor qilishim kerak, chunki kasalman.",
+      "Uchrashuvni bekor qilishga majburman, chunki kasalman.",
+      "Kasal boʻlganim uchun uchrashuvni bekor qilishim kerak."
+    ]
+  },
+  "a2-u6-l11.build-musim-zrusit-stretnutie.distractors": {
+    "en": [
+      "tired",
+      "move"
+    ],
+    "t": [
+      "charchadim",
+      "koʻchirishim"
+    ]
+  },
+  "a2-u6-l11.choice-jasne-plati.question": {
+    "en": "Marek texts: “Kino o ôsmej?” Which answer says yes?",
+    "t": "Marek yozadi: «Kino o ôsmej?» Qaysi javob «ha» degani?"
+  },
+  "a2-u6-l11.speak-prepac-budem-meskat.en": {
+    "en": "Sorry, I'll be late.",
+    "t": "Kechir, kechikaman."
+  },
+  "a2-u6-l12.titleEn": {
+    "en": "Imperatives that change",
+    "t": "Oʻzgaradigan buyruq shakllari"
+  },
+  "a2-u6-l12.grammar-soft-endings.title": {
+    "en": "d, t, n go soft: príď, vráť, zostaň",
+    "t": "d, t, n yumshaydi: príď, vráť, zostaň"
+  },
+  "a2-u6-l12.grammar-soft-endings.body": {
+    "en": [
+      "When the stem ends in **d**, **t** or **n**, the ty form softens it to **ď**, **ť**, **ň**: prídu → **príď**, vrátia sa → **vráť sa**, zostanú → **zostaň** (zostať = to stay).",
+      "The vy and my forms keep the soft letter: príď**te**, príď**me**."
+    ],
+    "t": [
+      "Oʻzak **d**, **t** yoki **n** bilan tugasa, ty shaklida u yumshoq undoshga aylanadi: **ď**, **ť**, **ň**: prídu → **príď**, vrátia sa → **vráť sa**, zostanú → **zostaň** (zostať = qolmoq).",
+      "Vy va my shakllarida ham yumshoq harf saqlanadi: príď**te**, príď**me**."
+    ]
+  },
+  "a2-u6-l12.grammar-soft-endings.table.head": {
+    "en": [
+      "oni",
+      "ty",
+      "vy",
+      "my"
+    ],
+    "t": [
+      "oni",
+      "ty",
+      "vy",
+      "my"
+    ]
+  },
+  "a2-u6-l12.grammar-soft-endings.table.rows": {
+    "en": [
+      [
+        "prídu",
+        "prí**ď**",
+        "prí**ď**te",
+        "prí**ď**me"
+      ],
+      [
+        "vrátia sa",
+        "vrá**ť** sa",
+        "vrá**ť**te sa",
+        "vrá**ť**me sa"
+      ],
+      [
+        "zaplatia",
+        "zapla**ť**",
+        "zapla**ť**te",
+        "zapla**ť**me"
+      ],
+      [
+        "zostanú",
+        "zosta**ň**",
+        "zosta**ň**te",
+        "zosta**ň**me"
+      ],
+      [
+        "sedia",
+        "se**ď**",
+        "se**ď**te",
+        "se**ď**me"
+      ]
+    ],
+    "t": [
+      [
+        "prídu",
+        "prí**ď**",
+        "prí**ď**te",
+        "prí**ď**me"
+      ],
+      [
+        "vrátia sa",
+        "vrá**ť** sa",
+        "vrá**ť**te sa",
+        "vrá**ť**me sa"
+      ],
+      [
+        "zaplatia",
+        "zapla**ť**",
+        "zapla**ť**te",
+        "zapla**ť**me"
+      ],
+      [
+        "zostanú",
+        "zosta**ň**",
+        "zosta**ň**te",
+        "zosta**ň**me"
+      ],
+      [
+        "sedia",
+        "se**ď**",
+        "se**ď**te",
+        "se**ď**me"
+      ]
+    ]
+  },
+  "a2-u6-l12.grammar-soft-endings.examples": {
+    "en": [
+      "Come at seven tomorrow!",
+      "Please stay a moment."
+    ],
+    "t": [
+      "Ertaga soat yettida kel!",
+      "Iltimos, biroz qoling."
+    ]
+  },
+  "a2-u6-l12.fill-emma-prid-zajtra.en": {
+    "en": "Emma, come to reception at nine tomorrow!",
+    "t": "Emma, ertaga soat toʻqqizda qabulxonaga kel!"
+  },
+  "a2-u6-l12.fill-emma-prid-zajtra.why": {
+    "en": "Prísť → prídu: the stem ends in d, which softens: **príď**. Prídeš means you'll come.",
+    "t": "Prísť → prídu: oʻzak d bilan tugaydi, u yumshaydi: **príď**. Prídeš — «kelasan» degani."
+  },
+  "a2-u6-l12.fill-lucia-zaplat-za-kavu.en": {
+    "en": "Lucia, please pay for the coffee, I'll pay for lunch.",
+    "t": "Lusiya, iltimos, qahva uchun sen toʻla, men tushlik uchun toʻlayman."
+  },
+  "a2-u6-l12.fill-lucia-zaplat-za-kavu.why": {
+    "en": "Zaplatiť → zaplatia: the t softens to ť: **zaplať**. Zaplatí means he or she pays.",
+    "t": "Zaplatiť → zaplatia: t yumshab ť ga aylanadi: **zaplať**. Zaplatí — «u toʻlaydi» degani."
+  },
+  "a2-u6-l12.fill-zostante-tu-prosim.en": {
+    "en": "Mr Hudák will be here in a moment. Please stay here.",
+    "t": "Janob Hudak hozir keladi. Iltimos, shu yerda qoling."
+  },
+  "a2-u6-l12.fill-zostante-tu-prosim.why": {
+    "en": "Zostať → zostanú: n softens to ň, and for vy add -te: **Zostaňte**. Zostanete means you will stay; zostaň is for a friend.",
+    "t": "Zostať → zostanú: n yumshab ň boʻladi, vy uchun esa -te qoʻshiladi: **Zostaňte**. Zostanete — «qolasiz» degani; zostaň — doʻst uchun."
+  },
+  "a2-u6-l12.build-vrat-sa-o-siestej.prompt": {
+    "en": "Come back at six! (to a friend)",
+    "t": "Soat oltida qayt! (sen)"
+  },
+  "a2-u6-l12.build-vrat-sa-o-siestej.traps": {
+    "en": [
+      "Vrátia → **Vráť**: the t softens, with no ending for ty. Vráti means he or she comes back.",
+      "At six: o + the -ej form: o **šiestej**."
+    ],
+    "t": [
+      "Vrátia → **Vráť**: t yumshaydi, ty uchun qoʻshimcha yoʻq. Vráti — «u qaytadi» degani.",
+      "Soat oltida: o + -ej shakli: o **šiestej**."
+    ]
+  },
+  "a2-u6-l12.grammar-two-consonants-i.title": {
+    "en": "Two consonants: add -i",
+    "t": "Ikki undosh: -i qoʻshiladi"
+  },
+  "a2-u6-l12.grammar-two-consonants-i.body": {
+    "en": [
+      "If the stem ends in two consonants, the ty form adds **-i**: pošl**ú** → pošl**i**, sadn**ú** si → sadn**i** si. Then -te and -me go after the -i: pošli**te**, pošli**me**.",
+      "Sa and si stay right after the verb: **Sadni si!** **Ozvi sa!**"
+    ],
+    "t": [
+      "Oʻzak ikki undosh bilan tugasa, ty shakli **-i** oladi: pošl**ú** → pošl**i**, sadn**ú** si → sadn**i** si. -te va -me esa shu -i dan keyin keladi: pošli**te**, pošli**me**.",
+      "Sa va si darhol feʼldan keyin turadi: **Sadni si!** **Ozvi sa!**"
+    ]
+  },
+  "a2-u6-l12.grammar-two-consonants-i.table.caption": {
+    "en": "poslať = to send, sadnúť si = to sit down, ozvať sa = to get in touch, vziať si = to take, vysvetliť = to explain, navrhnúť = to suggest",
+    "t": "poslať = yubormoq, sadnúť si = oʻtirmoq, ozvať sa = xabar bermoq (bogʻlanmoq), vziať si = olmoq, vysvetliť = tushuntirmoq, navrhnúť = taklif qilmoq"
+  },
+  "a2-u6-l12.grammar-two-consonants-i.table.head": {
+    "en": [
+      "oni",
+      "ty",
+      "vy",
+      "my"
+    ],
+    "t": [
+      "oni",
+      "ty",
+      "vy",
+      "my"
+    ]
+  },
+  "a2-u6-l12.grammar-two-consonants-i.table.rows": {
+    "en": [
+      [
+        "pošlú",
+        "pošl**i**",
+        "pošl**i**te",
+        "pošl**i**me"
+      ],
+      [
+        "sadnú si",
+        "sadn**i** si",
+        "sadn**i**te si",
+        "sadn**i**me si"
+      ],
+      [
+        "ozvú sa",
+        "ozv**i** sa",
+        "ozv**i**te sa",
+        "ozv**i**me sa"
+      ],
+      [
+        "vezmú si",
+        "vezm**i** si",
+        "vezm**i**te si",
+        "vezm**i**me si"
+      ],
+      [
+        "vysvetlia",
+        "vysvetl**i**",
+        "vysvetl**i**te",
+        "vysvetl**i**me"
+      ],
+      [
+        "navrhnú",
+        "navrhn**i**",
+        "navrhn**i**te",
+        "navrhn**i**me"
+      ],
+      [
+        "premyslia si",
+        "premysl**i** si",
+        "premysl**i**te si",
+        "premysl**i**me si"
+      ]
+    ],
+    "t": [
+      [
+        "pošlú",
+        "pošl**i**",
+        "pošl**i**te",
+        "pošl**i**me"
+      ],
+      [
+        "sadnú si",
+        "sadn**i** si",
+        "sadn**i**te si",
+        "sadn**i**me si"
+      ],
+      [
+        "ozvú sa",
+        "ozv**i** sa",
+        "ozv**i**te sa",
+        "ozv**i**me sa"
+      ],
+      [
+        "vezmú si",
+        "vezm**i** si",
+        "vezm**i**te si",
+        "vezm**i**me si"
+      ],
+      [
+        "vysvetlia",
+        "vysvetl**i**",
+        "vysvetl**i**te",
+        "vysvetl**i**me"
+      ],
+      [
+        "navrhnú",
+        "navrhn**i**",
+        "navrhn**i**te",
+        "navrhn**i**me"
+      ],
+      [
+        "premyslia si",
+        "premysl**i** si",
+        "premysl**i**te si",
+        "premysl**i**me si"
+      ]
+    ]
+  },
+  "a2-u6-l12.grammar-two-consonants-i.examples": {
+    "en": [
+      "Send me the address.",
+      "Please sit down.",
+      "Get back to me tomorrow."
+    ],
+    "t": [
+      "Menga manzilni yubor.",
+      "Iltimos, oʻtiring.",
+      "Ertaga menga xabar ber."
+    ]
+  },
+  "a2-u6-l12.fill-plati-to-ozvi-sa.en": {
+    "en": "Is it on? Get back to me this evening.",
+    "t": "Kelishdikmi? Bugun kechqurun menga xabar ber."
+  },
+  "a2-u6-l12.fill-plati-to-ozvi-sa.why": {
+    "en": "Ozvať sa → ozvú sa: the stem ozv- ends in two consonants, so add **-i**: **Ozvi** sa.",
+    "t": "Ozvať sa → ozvú sa: ozv- oʻzagi ikki undosh bilan tugaydi, shuning uchun **-i** qoʻshiladi: **Ozvi** sa."
+  },
+  "a2-u6-l12.fill-pani-kollarova-sadnite-si.en": {
+    "en": "Mrs Kollárová, please sit down.",
+    "t": "Kollarova xonim, iltimos, oʻtiring."
+  },
+  "a2-u6-l12.fill-pani-kollarova-sadnite-si.why": {
+    "en": "For vy, -te goes after the -i: **sadnite** si. Sadni si is for a friend.",
+    "t": "Vy uchun -te shu -i dan keyin keladi: **sadnite** si. Sadni si — doʻst uchun."
+  },
+  "a2-u6-l12.choice-posli-mi-adresu.question": {
+    "en": "Lucia wants Tomáš to send her the guesthouse's address. What does she say?",
+    "t": "Lusiya Tomash oʻziga mehmon uyining manzilini yuborishini xohlaydi. U nima deydi?"
+  },
+  "a2-u6-l12.choice-posli-mi-adresu.why": {
+    "en": "Poslať → pošlú: the stem pošl- ends in two consonants, so add **-i**: **Pošli**. Pošle means he or she sends.",
+    "t": "Poslať → pošlú: pošl- oʻzagi ikki undosh bilan tugaydi, shuning uchun **-i** qoʻshiladi: **Pošli**. Pošle — «u yuboradi» degani."
+  },
+  "a2-u6-l12.build-vysvetlite-mi-to.prompt": {
+    "en": "Please explain it to me. (polite)",
+    "t": "Iltimos, buni menga tushuntiring. (siz)"
+  },
+  "a2-u6-l12.build-vysvetlite-mi-to.traps": {
+    "en": [
+      "Vysvetlíte, with a long í, means you will explain. The request is **Vysvetlite**: vysvetli + -te.",
+      "Vysvetli is for a friend; to someone you call vy, add -te: **Vysvetlite**."
+    ],
+    "t": [
+      "Choʻziq í bilan vysvetlíte — «tushuntirasiz» degani. Iltimos esa **Vysvetlite**: vysvetli + -te.",
+      "Vysvetli — doʻst uchun; «siz» deb murojaat qilinadigan odamga -te qoʻshing: **Vysvetlite**."
+    ]
+  },
+  "a2-u6-l12.choice-premysli-si-to.question": {
+    "en": "Which one means “Think it over”?",
+    "t": "Qaysi biri «Oʻylab koʻr» degani?"
+  },
+  "a2-u6-l12.choice-premysli-si-to.why": {
+    "en": "**Premysli** is the command: the stem premysl- ends in two consonants, so it adds -i. Premyslím means I'll think it over.",
+    "t": "**Premysli** — buyruq: premysl- oʻzagi ikki undosh bilan tugaydi, shuning uchun -i qoʻshiladi. Premyslím — «oʻylab koʻraman» degani."
+  },
+  "a2-u6-l12.match-prid.pairs": {
+    "en": [
+      "come!",
+      "send!",
+      "sit down!",
+      "get in touch!",
+      "stay!"
+    ],
+    "t": [
+      "kel!",
+      "yubor!",
+      "oʻtir!",
+      "xabar ber!",
+      "qol!"
+    ]
+  },
+  "a2-u6-l12.build-sadnite-si-a-vezmite.answers": {
+    "en": [
+      "Sit down and have a coffee.",
+      "Sit down and take a coffee.",
+      "Have a seat and have a coffee.",
+      "Take a seat and have a coffee.",
+      "Sit down and help yourself to a coffee."
+    ],
+    "t": [
+      "Oʻtiring va qahva oling.",
+      "Oʻtiring va qahva iching.",
+      "Marhamat, oʻtiring va qahva oling.",
+      "Oʻtiring va qahvadan oling."
+    ]
+  },
+  "a2-u6-l12.build-sadnite-si-a-vezmite.distractors": {
+    "en": [
+      "stand",
+      "tea"
+    ],
+    "t": [
+      "turing",
+      "choy"
+    ]
+  },
+  "a2-u6-l12.speak-prid-o-siedmej.en": {
+    "en": "Come at seven!",
+    "t": "Soat yettida kel!"
+  },
+  "a2-u6-l13.titleEn": {
+    "en": "Irregular imperatives",
+    "t": "Buyruq mayli: istisnolar"
+  },
+  "a2-u6-l13.grammar-irregular-imperatives.title": {
+    "en": "Learn these by heart: povedz, jedz, pi, buď",
+    "t": "Yod oling: povedz, jedz, pi, buď"
+  },
+  "a2-u6-l13.grammar-irregular-imperatives.body": {
+    "en": [
+      "A few common verbs have their own imperative: learn them as words. The vy and my forms add -te and -me as usual."
+    ],
+    "t": [
+      "Koʻp ishlatiladigan baʼzi feʼllarning oʻz buyruq shakli bor: ularni alohida soʻz sifatida yodlang. Vy va my shakllari odatdagidek -te va -me qoʻshadi."
+    ]
+  },
+  "a2-u6-l13.grammar-irregular-imperatives.table.head": {
+    "en": [
+      "",
+      "ty",
+      "vy",
+      "my"
+    ],
+    "t": [
+      "",
+      "ty",
+      "vy",
+      "my"
+    ]
+  },
+  "a2-u6-l13.grammar-irregular-imperatives.table.rows": {
+    "en": [
+      [
+        "povedať",
+        "povedz",
+        "povedz**te**",
+        "povedz**me**"
+      ],
+      [
+        "jesť",
+        "jedz",
+        "jedz**te**",
+        "jedz**me**"
+      ],
+      [
+        "piť",
+        "pi",
+        "pi**te**",
+        "pi**me**"
+      ],
+      [
+        "byť",
+        "buď",
+        "buď**te**",
+        "buď**me**"
+      ],
+      [
+        "umyť si",
+        "umy si",
+        "umy**te** si",
+        "umy**me** si"
+      ]
+    ],
+    "t": [
+      [
+        "povedať",
+        "povedz",
+        "povedz**te**",
+        "povedz**me**"
+      ],
+      [
+        "jesť",
+        "jedz",
+        "jedz**te**",
+        "jedz**me**"
+      ],
+      [
+        "piť",
+        "pi",
+        "pi**te**",
+        "pi**me**"
+      ],
+      [
+        "byť",
+        "buď",
+        "buď**te**",
+        "buď**me**"
+      ],
+      [
+        "umyť si",
+        "umy si",
+        "umy**te** si",
+        "umy**me** si"
+      ]
+    ]
+  },
+  "a2-u6-l13.grammar-irregular-imperatives.examples": {
+    "en": [
+      "Tell me when you're coming.",
+      "Please be here at nine.",
+      "Wash your hands!"
+    ],
+    "t": [
+      "Qachon kelishingni ayt.",
+      "Iltimos, soat toʻqqizda shu yerda boʻling.",
+      "Qoʻlingni yuv!"
+    ]
+  },
+  "a2-u6-l13.fill-povedz-mi-kde.en": {
+    "en": "Tell me where the reception is.",
+    "t": "Menga qabulxona qayerdaligini ayt."
+  },
+  "a2-u6-l13.fill-povedz-mi-kde.why": {
+    "en": "Povedať has its own short command: **Povedz**. Povieš means you'll tell.",
+    "t": "Povedať ning oʻz qisqa buyruq shakli bor: **Povedz**. Povieš — «aytasan» degani."
+  },
+  "a2-u6-l13.fill-deti-umyte-si-ruky.en": {
+    "en": "Children, wash your hands!",
+    "t": "Bolalar, qoʻllaringizni yuvinglar!"
+  },
+  "a2-u6-l13.fill-deti-umyte-si-ruky.why": {
+    "en": "To several people: umy + **-te** = **umyte** si ruky. Umy si is for one child.",
+    "t": "Bir necha kishiga: umy + **-te** = **umyte** si ruky. Umy si — bitta bola uchun."
+  },
+  "a2-u6-l13.choice-pi-vela-caju.question": {
+    "en": "Lucia has a cold. What does Emma tell her?",
+    "t": "Lusiya shamollagan. Emma unga nima deydi?"
+  },
+  "a2-u6-l13.choice-pi-vela-caju.why": {
+    "en": "Piť has a short command: **pi**, with no j. Piješ just says you drink.",
+    "t": "Piť ning qisqa buyruq shakli bor: **pi**, j siz. Piješ esa shunchaki «ichasan» degani."
+  },
+  "a2-u6-l13.fill-zajtra-mas-pohovor-bud.en": {
+    "en": "You've got an interview tomorrow. Be there at nine!",
+    "t": "Ertaga ish suhbating bor. Soat toʻqqizda u yerda boʻl!"
+  },
+  "a2-u6-l13.fill-zajtra-mas-pohovor-bud.why": {
+    "en": "Byť has its own command: **Buď**. Bude is the future, and si is now.",
+    "t": "Byť ning oʻz buyruq shakli bor: **Buď**. Bude — kelasi zamon, si esa hozirgi zamon."
+  },
+  "a2-u6-l13.grammar-chod-or-pod.title": {
+    "en": "Choď or poď?",
+    "t": "Choď yoki poď?"
+  },
+  "a2-u6-l13.grammar-chod-or-pod.body": {
+    "en": [
+      "Ísť has two imperatives. **Choď** sends someone away from you: Choď domov! **Poď** asks them to come with you or to you: **Poď sem!** (Come here!)",
+      "For “let's go”, only poď has a my form: **Poďme!** You know Poďte ďalej! and Choďte rovno from A1."
+    ],
+    "t": [
+      "Ísť ning ikki buyruq shakli bor. **Choď** odamni sizdan uzoqqa joʻnatadi: Choď domov! (Uyga bor!) **Poď** esa siz bilan yoki sizning oldingizga kelishga chaqiradi: **Poď sem!** (Bu yoqqa kel!) Oʻzbekchadagi «bor» va «kel» kabi.",
+      "«Ketdik» maʼnosida my shakli faqat poď da bor: **Poďme!** Poďte ďalej! va Choďte rovno ni A1 dan bilasiz."
+    ]
+  },
+  "a2-u6-l13.grammar-chod-or-pod.table.head": {
+    "en": [
+      "",
+      "ty",
+      "vy",
+      "my"
+    ],
+    "t": [
+      "",
+      "ty",
+      "vy",
+      "my"
+    ]
+  },
+  "a2-u6-l13.grammar-chod-or-pod.table.rows": {
+    "en": [
+      [
+        "go (away from me)",
+        "choď",
+        "choďte",
+        "–"
+      ],
+      [
+        "come (with me, to me)",
+        "poď",
+        "poďte",
+        "poďme"
+      ]
+    ],
+    "t": [
+      [
+        "bor (mendan uzoqqa)",
+        "choď",
+        "choďte",
+        "–"
+      ],
+      [
+        "kel (men bilan, men tomon)",
+        "poď",
+        "poďte",
+        "poďme"
+      ]
+    ]
+  },
+  "a2-u6-l13.grammar-chod-or-pod.examples": {
+    "en": [
+      "Come here!",
+      "Go away!",
+      "Let's go to the cinema!"
+    ],
+    "t": [
+      "Bu yoqqa kel!",
+      "Ket bu yerdan!",
+      "Kinoga ketdik!"
+    ]
+  },
+  "a2-u6-l13.fill-lucia-pod-sem.en": {
+    "en": "Lucia, come here! This is Tomáš's office.",
+    "t": "Lusiya, bu yoqqa kel! Bu — Tomashning ofisi."
+  },
+  "a2-u6-l13.fill-lucia-pod-sem.why": {
+    "en": "Coming towards the speaker is **poď**: Poď sem! Choď sends someone away.",
+    "t": "Gapiruvchi tomon kelish — **poď**: Poď sem! Choď esa odamni uzoqqa joʻnatadi."
+  },
+  "a2-u6-l13.fill-je-dvanast-hodin-podme.en": {
+    "en": "It's twelve o'clock. Let's go for lunch!",
+    "t": "Soat oʻn ikki. Tushlikka ketdik!"
+  },
+  "a2-u6-l13.fill-je-dvanast-hodin-podme.why": {
+    "en": "**Poďme** is “let's go”, the my form of poď.",
+    "t": "**Poďme** — «ketdik», poď ning my shakli."
+  },
+  "a2-u6-l13.choice-chod-prec.question": {
+    "en": "A cat walks into the office kitchen and wants your lunch. What do you tell it?",
+    "t": "Ofis oshxonasiga mushuk kirib, tushligingizni yemoqchi. Unga nima deysiz?"
+  },
+  "a2-u6-l13.choice-chod-prec.why": {
+    "en": "Away from you is **choď**: Choď preč! Poď means come, with you or to you.",
+    "t": "Sizdan uzoqqa — **choď**: Choď preč! Poď esa «kel» degani, siz bilan yoki siz tomon."
+  },
+  "a2-u6-l13.build-pod-dalej-a-sadni.prompt": {
+    "en": "Come in and sit down. (to a friend)",
+    "t": "Kir va oʻtir. (sen)"
+  },
+  "a2-u6-l13.build-pod-dalej-a-sadni.traps": {
+    "en": [
+      "Coming in, towards you, is **Poď** ďalej, like Poďte ďalej from A1.",
+      "To one friend: **sadni** si. Sadnite is for vy."
+    ],
+    "t": [
+      "Ichkariga, siz tomon kirish — **Poď** ďalej, A1 dagi Poďte ďalej kabi.",
+      "Bitta doʻstga: **sadni** si. Sadnite — vy uchun."
+    ]
+  },
+  "a2-u6-l13.build-povedz-mu-aby.prompt": {
+    "en": "Tell him to call me. (to a friend)",
+    "t": "Unga (erkakka) ayt, menga qoʻngʻiroq qilsin. (sen)"
+  },
+  "a2-u6-l13.build-povedz-mu-aby.traps": {
+    "en": [
+      "To a friend (ty): **Povedz**. Povedzte is for vy.",
+      "After **aby**, the past form: aby mi **zavolal**."
+    ],
+    "t": [
+      "Doʻstga (ty): **Povedz**. Povedzte — vy uchun.",
+      "**aby** dan keyin oʻtgan zamon shakli: aby mi **zavolal**."
+    ]
+  },
+  "a2-u6-l13.fill-polievka-je-horuca-jedzte.en": {
+    "en": "The soup's hot. Please eat slowly! (to the guests)",
+    "t": "Shoʻrva qaynoq. Iltimos, shoshilmay yeng! (mehmonlarga)"
+  },
+  "a2-u6-l13.fill-polievka-je-horuca-jedzte.why": {
+    "en": "Jesť has its own command, jedz, and for vy add -te: **Jedzte**. Jete just says you eat.",
+    "t": "Jesť ning oʻz buyruq shakli bor — jedz, vy uchun esa -te qoʻshing: **Jedzte**. Jete esa shunchaki «yeysiz» degani."
+  },
+  "a2-u6-l13.match-povedz.pairs": {
+    "en": [
+      "tell!",
+      "eat!",
+      "drink!",
+      "be!",
+      "come!"
+    ],
+    "t": [
+      "ayt!",
+      "ye!",
+      "ich!",
+      "boʻl!",
+      "kel!"
+    ]
+  },
+  "a2-u6-l13.speak-podme-na-obed.en": {
+    "en": "Let's go for lunch!",
+    "t": "Tushlikka ketdik!"
+  },
+  "a2-u6-l14.titleEn": {
+    "en": "Don't!",
+    "t": "Qilma!"
+  },
+  "a2-u6-l14.grammar-negative-imperative.title": {
+    "en": "Don't: ne- + the imperative",
+    "t": "Inkor: ne- + buyruq shakli"
+  },
+  "a2-u6-l14.grammar-negative-imperative.body": {
+    "en": [
+      "To say “don't”, put **ne-** in front, written as one word: **Ne**čakaj! **Ne**meškajte! **Ne**hnevaj sa!",
+      "Verbs for one finished action, like zavolať, napísať and kúpiť, usually say “don't” with their everyday partner verb instead: zavolaj → **nevolaj**, napíš → **nepíš**, kúp → **nekupuj** (kupovať = to buy). But **Nezabudni!** (Don't forget!) is a warning and keeps its verb."
+    ],
+    "t": [
+      "«Qilma» deyish uchun oldiga **ne-** qoʻying, u qoʻshib yoziladi: **Ne**čakaj! **Ne**meškajte! **Ne**hnevaj sa! Oʻzbekchadagi -ma kabi: kutma, kechikmang.",
+      "zavolať, napísať va kúpiť kabi bir martalik, tugallangan harakatni bildiradigan feʼllar (tugallangan tur) «qilma» deganda odatda oʻzining kundalik juftini (tugallanmagan turdagi feʼlni) ishlatadi: zavolaj → **nevolaj**, napíš → **nepíš**, kúp → **nekupuj** (kupovať = sotib olmoq). Lekin **Nezabudni!** (Unutma!) — ogohlantirish, u oʻz feʼlini saqlaydi."
+    ]
+  },
+  "a2-u6-l14.grammar-negative-imperative.table.head": {
+    "en": [
+      "do it",
+      "don't"
+    ],
+    "t": [
+      "qil",
+      "qilma"
+    ]
+  },
+  "a2-u6-l14.grammar-negative-imperative.table.rows": {
+    "en": [
+      [
+        "čakaj",
+        "**ne**čakaj"
+      ],
+      [
+        "meškajte",
+        "**ne**meškajte"
+      ],
+      [
+        "zavolaj",
+        "**ne**volaj"
+      ],
+      [
+        "napíš",
+        "**ne**píš"
+      ],
+      [
+        "kúp",
+        "**ne**kupuj"
+      ],
+      [
+        "povedz",
+        "**ne**hovor"
+      ],
+      [
+        "pošli",
+        "**ne**posielaj"
+      ]
+    ],
+    "t": [
+      [
+        "čakaj",
+        "**ne**čakaj"
+      ],
+      [
+        "meškajte",
+        "**ne**meškajte"
+      ],
+      [
+        "zavolaj",
+        "**ne**volaj"
+      ],
+      [
+        "napíš",
+        "**ne**píš"
+      ],
+      [
+        "kúp",
+        "**ne**kupuj"
+      ],
+      [
+        "povedz",
+        "**ne**hovor"
+      ],
+      [
+        "pošli",
+        "**ne**posielaj"
+      ]
+    ]
+  },
+  "a2-u6-l14.grammar-negative-imperative.examples": {
+    "en": [
+      "Don't wait for me, I'll be late.",
+      "Don't forget Lucia's birthday!",
+      "Don't tell Lucia."
+    ],
+    "t": [
+      "Meni kutma, kechroq kelaman.",
+      "Lusiyaning tugʻilgan kunini unutma!",
+      "Buni Lusiyaga aytma."
+    ]
+  },
+  "a2-u6-l14.fill-tomas-ma-poradu-nevolaj.en": {
+    "en": "Tomáš is in a meeting. Don't call him now!",
+    "t": "Tomash yigʻilishda. Hozir unga qoʻngʻiroq qilma!"
+  },
+  "a2-u6-l14.fill-tomas-ma-poradu-nevolaj.why": {
+    "en": "“Don't” takes the everyday partner verb: zavolaj → **Nevolaj**.",
+    "t": "«Qilma» deganda kundalik jufti ishlatiladi: zavolaj → **Nevolaj**."
+  },
+  "a2-u6-l14.fill-nezabudni-na-stretnutie.en": {
+    "en": "Don't forget the meeting at three!",
+    "t": "Soat uchdagi uchrashuvni unutma!"
+  },
+  "a2-u6-l14.fill-nezabudni-na-stretnutie.why": {
+    "en": "A warning: **Nezabudni** keeps its verb, with ne- in front. Zabudni would mean forget it!",
+    "t": "Ogohlantirish: **Nezabudni** oʻz feʼlini saqlaydi, oldida ne- bilan. Zabudni esa «unut!» degani boʻlardi."
+  },
+  "a2-u6-l14.choice-nekupuj-chlieb.question": {
+    "en": "Lucia wants to buy bread, but there's some at home. What do you say?",
+    "t": "Lusiya non sotib olmoqchi, lekin uyda non bor. Nima deysiz?"
+  },
+  "a2-u6-l14.choice-nekupuj-chlieb.why": {
+    "en": "“Don't buy” uses the partner verb kupovať: **nekupuj**. Nekupujem just says I'm not buying.",
+    "t": "«Sotib olma» uchun kúpiť ning kundalik jufti kupovať ishlatiladi: **nekupuj**. Nekupujem esa shunchaki «sotib olmayapman» degani."
+  },
+  "a2-u6-l14.fill-prepacte-nehnevajte-sa.en": {
+    "en": "I'm sorry, please don't be cross, but I have to go.",
+    "t": "Kechirasiz, xafa boʻlmang, lekin ketishim kerak."
+  },
+  "a2-u6-l14.fill-prepacte-nehnevajte-sa.why": {
+    "en": "To someone you call vy: ne- + hnevaj + -te = **nehnevajte** sa.",
+    "t": "«Siz» deb murojaat qilinadigan odamga: ne- + hnevaj + -te = **nehnevajte** sa."
+  },
+  "a2-u6-l14.build-nepis-mu-zavolaj-mu.prompt": {
+    "en": "Don't write to him, call him. (to a friend)",
+    "t": "Unga yozma, qoʻngʻiroq qil. (sen)"
+  },
+  "a2-u6-l14.build-nepis-mu-zavolaj-mu.traps": {
+    "en": [
+      "An everyday “don't write” uses the partner verb písať: **Nepíš**.",
+      "You're telling a friend to call: **zavolaj**. Zavolám means I'll call."
+    ],
+    "t": [
+      "Kundalik «yozma» uchun napísať ning jufti písať ishlatiladi: **Nepíš**.",
+      "Doʻstingizga qoʻngʻiroq qilishni aytyapsiz: **zavolaj**. Zavolám — «qoʻngʻiroq qilaman» degani."
+    ]
+  },
+  "a2-u6-l14.grammar-advice-vy.title": {
+    "en": "Advice and rules: the vy form",
+    "t": "Maslahat va qoidalar: vy shakli"
+  },
+  "a2-u6-l14.grammar-advice-vy.body": {
+    "en": [
+      "Advice for a group, or for someone you call vy, uses the vy form, positive and negative. On Emma's first day, pán Hudák gives the interns some tips."
+    ],
+    "t": [
+      "Guruhga yoki «siz» deb murojaat qilinadigan odamga maslahat vy shaklida beriladi — ham ijobiy, ham inkor shaklda. Emmaning birinchi ish kunida janob Hudak amaliyotchilarga bir nechta maslahat beradi."
+    ]
+  },
+  "a2-u6-l14.grammar-advice-vy.table.head": {
+    "en": [
+      "Slovak",
+      "English"
+    ],
+    "t": [
+      "Slovakcha",
+      "Oʻzbekcha"
+    ]
+  },
+  "a2-u6-l14.grammar-advice-vy.table.rows": {
+    "en": [
+      [
+        "Pýtajte sa.",
+        "Ask questions."
+      ],
+      [
+        "Nebojte sa.",
+        "Don't be afraid."
+      ],
+      [
+        "Čítajte maily každé ráno.",
+        "Read your e-mails every morning."
+      ],
+      [
+        "Nemeškajte na porady.",
+        "Don't be late for meetings."
+      ],
+      [
+        "Nepracujte každý deň do noci.",
+        "Don't work late every day."
+      ],
+      [
+        "V kancelárii nefajčite.",
+        "Don't smoke in the office."
+      ]
+    ],
+    "t": [
+      [
+        "Pýtajte sa.",
+        "Savol bering."
+      ],
+      [
+        "Nebojte sa.",
+        "Qoʻrqmang."
+      ],
+      [
+        "Čítajte maily každé ráno.",
+        "Har kuni ertalab elektron xatlarni oʻqing."
+      ],
+      [
+        "Nemeškajte na porady.",
+        "Yigʻilishlarga kechikmang."
+      ],
+      [
+        "Nepracujte každý deň do noci.",
+        "Har kuni kechgacha ishlamang."
+      ],
+      [
+        "V kancelárii nefajčite.",
+        "Ofisda chekmang."
+      ]
+    ]
+  },
+  "a2-u6-l14.grammar-advice-vy.examples": {
+    "en": [
+      "Be here at nine.",
+      "Good luck with your internship!"
+    ],
+    "t": [
+      "Soat toʻqqizda shu yerda boʻling.",
+      "Amaliyotingizga omad!"
+    ]
+  },
+  "a2-u6-l14.fill-porada-zacina-nemeskajte.en": {
+    "en": "The meeting starts at nine. Don't be late! (to the interns)",
+    "t": "Yigʻilish soat toʻqqizda boshlanadi. Kechikmang! (amaliyotchilarga)"
+  },
+  "a2-u6-l14.fill-porada-zacina-nemeskajte.why": {
+    "en": "Advice to a group uses vy: ne- + meškaj + -te = **Nemeškajte**. Nemeškáte just says you aren't late.",
+    "t": "Guruhga maslahat — vy: ne- + meškaj + -te = **Nemeškajte**. Nemeškáte esa shunchaki «kechikmaysiz» degani."
+  },
+  "a2-u6-l14.build-nebojte-sa-pytat.prompt": {
+    "en": "Don't be afraid to ask. (to the interns)",
+    "t": "Soʻrashdan qoʻrqmang. (amaliyotchilarga)"
+  },
+  "a2-u6-l14.build-nebojte-sa-pytat.traps": {
+    "en": [
+      "“Don't” is **ne-** in front, written as one word: **Nebojte** sa.",
+      "After nebojte sa comes the infinitive, the -ť form: **pýtať**."
+    ],
+    "t": [
+      "«Qilma» — oldida **ne-**, qoʻshib yoziladi: **Nebojte** sa.",
+      "nebojte sa dan keyin infinitív, yaʼni -ť bilan tugaydigan shakl keladi: **pýtať**."
+    ]
+  },
+  "a2-u6-l14.choice-nefajcite-prosim.question": {
+    "en": "Smoking isn't allowed in the office. What does the sign in the kitchen say?",
+    "t": "Ofisda chekish mumkin emas. Oshxonadagi yozuvda nima deyilgan?"
+  },
+  "a2-u6-l14.choice-nefajcite-prosim.why": {
+    "en": "A rule against something: ne- + the vy command, **Nefajčite**. Nefajčíte, with a long í, just says you don't smoke.",
+    "t": "Biror narsani taqiqlovchi qoida: ne- + vy buyrugʻi, **Nefajčite**. Choʻziq í bilan Nefajčíte esa shunchaki «chekmaysiz» degani."
+  },
+  "a2-u6-l14.build-nepiste-mi-esemesky.answers": {
+    "en": [
+      "Don't text me, call me.",
+      "Don't send me texts, call me.",
+      "Don't text me, phone me."
+    ],
+    "t": [
+      "Menga SMS yozmang, qoʻngʻiroq qiling.",
+      "Menga SMS yozmang, menga qoʻngʻiroq qiling.",
+      "Menga SMS yubormang, qoʻngʻiroq qiling.",
+      "SMS yozmang, menga qoʻngʻiroq qiling."
+    ]
+  },
+  "a2-u6-l14.build-nepiste-mi-esemesky.distractors": {
+    "en": [
+      "e-mail",
+      "tomorrow"
+    ],
+    "t": [
+      "xat",
+      "ertaga"
+    ]
+  },
+  "a2-u6-l14.fill-vela-uspechov-na-stazi.en": {
+    "en": "Good luck with your internship, Emma!",
+    "t": "Amaliyotda omad, Emma!"
+  },
+  "a2-u6-l14.fill-vela-uspechov-na-stazi.why": {
+    "en": "**Veľa** takes the genitive. Things you can count go plural, veľa **úspechov**; things you can't stay singular, as in veľa zdravia.",
+    "t": "**Veľa** genitív talab qiladi. Sanaladigan narsalar koʻplikda keladi — veľa **úspechov**; sanalmaydiganlar birlikda qoladi, xuddi veľa zdravia dagi kabi."
+  },
+  "a2-u6-l14.match-nevolaj.pairs": {
+    "en": [
+      "don't call",
+      "don't write",
+      "don't buy",
+      "don't say",
+      "don't wait"
+    ],
+    "t": [
+      "qoʻngʻiroq qilma",
+      "yozma",
+      "sotib olma",
+      "aytma",
+      "kutma"
+    ]
+  },
+  "a2-u6-l14.speak-nezabudni-na-stretnutie.en": {
+    "en": "Don't forget the meeting!",
+    "t": "Uchrashuvni unutma!"
+  },
+  "a2-u6-l15.titleEn": {
+    "en": "At the post office",
+    "t": "Pochtada"
+  },
+  "a2-u6-l15.list.en": {
+    "en": "letter",
+    "t": "xat"
+  },
+  "a2-u6-l15.list.note": {
+    "en": "**poslať** list = to send a letter: pošlem, pošleš, pošle… Emma píše list mame do Dublinu. = Emma is writing a letter to her mum in Dublin.",
+    "t": "**poslať** list = xat yubormoq: pošlem, pošleš, pošle… Emma píše list mame do Dublinu. = Emma Dublindagi oyisiga xat yozyapti."
+  },
+  "a2-u6-l15.balik.en": {
+    "en": "parcel",
+    "t": "posilka"
+  },
+  "a2-u6-l15.balik.note": {
+    "en": "**Chcela by som poslať balík do Írska.** = I'd like to send a parcel to Ireland.",
+    "t": "**Chcela by som poslať balík do Írska.** = Irlandiyaga posilka yubormoqchi edim."
+  },
+  "a2-u6-l15.znamka.en": {
+    "en": "How much is a stamp to Ireland?",
+    "t": "Irlandiyaga marka qancha turadi?"
+  },
+  "a2-u6-l15.znamka.note": {
+    "en": "You know **známka** and **pohľadnica** from pán Kováč's collection (unit 2). A stamp for a postcard: známka na pohľadnicu.",
+    "t": "**známka** (marka) va **pohľadnica** (ochiq xat) ni janob Kovachning kolleksiyasidan (2-boʻlim) bilasiz. Ochiq xat uchun marka: známka na pohľadnicu."
+  },
+  "a2-u6-l15.fill-potrebujem-dve-znamky.en": {
+    "en": "I need two stamps to Ireland.",
+    "t": "Irlandiyaga ikkita marka kerak."
+  },
+  "a2-u6-l15.fill-potrebujem-dve-znamky.why": {
+    "en": "After 2, 3 and 4, use the plural: dve **známky**.",
+    "t": "2, 3 va 4 dan keyin koʻplik ishlatiladi: dve **známky**. Oʻzbekchada «ikkita marka» birlikda, slovakchada esa koʻplikda."
+  },
+  "a2-u6-l15.obalka.en": {
+    "en": "envelope",
+    "t": "konvert"
+  },
+  "a2-u6-l15.obalka.note": {
+    "en": "**Na obálku napíšte adresu.** = Write the address on the envelope.",
+    "t": "**Na obálku napíšte adresu.** = Konvertga manzilni yozing."
+  },
+  "a2-u6-l15.adresat-a-odosielatel.en": {
+    "en": "addressee and sender",
+    "t": "oluvchi va joʻnatuvchi"
+  },
+  "a2-u6-l15.adresat-a-odosielatel.note": {
+    "en": "On an envelope or a parcel: the **adresát** gets it, the **odosielateľ** sends it.",
+    "t": "Konvert yoki posilkada: **adresát** — uni oladigan odam, **odosielateľ** — uni yuboradigan odam."
+  },
+  "a2-u6-l15.postove-smerovacie-cislo.en": {
+    "en": "postcode",
+    "t": "pochta indeksi"
+  },
+  "a2-u6-l15.postove-smerovacie-cislo.note": {
+    "en": "Written **PSČ**: 841 04 Bratislava. It goes before the town.",
+    "t": "Qisqacha **PSČ**: 841 04 Bratislava. U shahar nomidan oldin yoziladi."
+  },
+  "a2-u6-l15.match-list.pairs": {
+    "en": [
+      "letter",
+      "parcel",
+      "stamp",
+      "envelope",
+      "postcard"
+    ],
+    "t": [
+      "xat",
+      "posilka",
+      "marka",
+      "konvert",
+      "ochiq xat"
+    ]
+  },
+  "a2-u6-l15.choice-poslat-balik-do-irska.question": {
+    "en": "At the post office: Emma wants to send a parcel to Ireland. What does she say?",
+    "t": "Pochtada: Emma Irlandiyaga posilka yubormoqchi. U nima deydi?"
+  },
+  "a2-u6-l15.choice-poslat-balik-do-irska.why": {
+    "en": "Where to: **do** Írska. Z Írska means from Ireland, and v Írsku in Ireland.",
+    "t": "Qayerga: **do** Írska (Irlandiyaga). Z Írska — «Irlandiyadan», v Írsku esa «Irlandiyada»."
+  },
+  "a2-u6-l15.fill-na-obalku-napiste-adresu.en": {
+    "en": "Write the address and the postcode on the envelope.",
+    "t": "Konvertga manzil va pochta indeksini yozing."
+  },
+  "a2-u6-l15.fill-na-obalku-napiste-adresu.why": {
+    "en": "The address is what you write, the object, so -a becomes **-u**: napíšte **adresu**.",
+    "t": "Manzil — siz yozadigan narsa, toʻldiruvchi, shuning uchun -a oʻrniga **-u**: napíšte **adresu**."
+  },
+  "a2-u6-l15.build-byvam-na-hlavnej-ulici.prompt": {
+    "en": "I live at 5 Hlavná Street.",
+    "t": "Men Hlavna koʻchasi, 5-uyda yashayman."
+  },
+  "a2-u6-l15.build-byvam-na-hlavnej-ulici.traps": {
+    "en": [
+      "Where you live: **na** + the locative, and ulica (after c) takes **-i**: na **ulici**.",
+      "The street's name is an adjective, so it takes the locative too: na **Hlavnej** ulici."
+    ],
+    "t": [
+      "Qayerda yashaysiz: **na** + lokál, ulica esa (c dan keyin) **-i** oladi: na **ulici**.",
+      "Koʻcha nomi — sifat, shuning uchun u ham lokál shaklida keladi: na **Hlavnej** ulici."
+    ]
+  },
+  "a2-u6-l15.choice-adresa-na-obalke.question": {
+    "en": "How do you write Emma's address on an envelope?",
+    "t": "Emmaning manzili konvertga qanday yoziladi?"
+  },
+  "a2-u6-l15.choice-adresa-na-obalke.why": {
+    "en": "On an envelope: the street and its number first (Javorová 12), then the postcode before the town (841 04 Bratislava). Na Javorovej ulici is how you say it.",
+    "t": "Konvertda: avval koʻcha va uy raqami (Javorová 12), keyin shahar nomidan oldin pochta indeksi (841 04 Bratislava). Na Javorovej ulici esa ogʻzaki aytilishi."
+  },
+  "a2-u6-l15.build-kolko-stoji-znamka.prompt": {
+    "en": "How much is a stamp to Ireland?",
+    "t": "Irlandiyaga marka qancha turadi?"
+  },
+  "a2-u6-l15.build-kolko-stoji-znamka.traps": {
+    "en": [
+      "One stamp, so **stojí**. Stoja is for two or more.",
+      "**Do** (to) takes the genitive: do **Írska**, just like z Írska."
+    ],
+    "t": [
+      "Bitta marka, shuning uchun **stojí**. Stoja — ikki va undan koʻp narsa uchun.",
+      "**Do** (…ga) genitív talab qiladi: do **Írska**, xuddi z Írska kabi."
+    ]
+  },
+  "a2-u6-l15.choice-odosielatel.question": {
+    "en": "On a parcel, who is the odosielateľ?",
+    "t": "Posilkada odosielateľ kim?"
+  },
+  "a2-u6-l15.choice-odosielatel.options": {
+    "en": [
+      "the person it's for",
+      "the person who sends it",
+      "the post office"
+    ],
+    "t": [
+      "posilka atalgan odam",
+      "posilkani yuborgan odam",
+      "pochta boʻlimi"
+    ]
+  },
+  "a2-u6-l15.build-posielam-mame-balik.answers": {
+    "en": [
+      "I'm sending Mum a parcel and a letter.",
+      "I'm sending my mum a parcel and a letter.",
+      "I'm sending a parcel and a letter to Mum.",
+      "I'm sending a parcel and a letter to my mum."
+    ],
+    "t": [
+      "Oyimga posilka va xat yuboryapman.",
+      "Onamga posilka va xat yuboryapman.",
+      "Oyimga xat va posilka yuboryapman.",
+      "Men oyimga posilka va xat yuboryapman."
+    ]
+  },
+  "a2-u6-l15.build-posielam-mame-balik.distractors": {
+    "en": [
+      "postcard",
+      "dad"
+    ],
+    "t": [
+      "ochiq",
+      "dadamga"
+    ]
+  },
+  "a2-u6-l15.fill-dnes-nemam-cas-poslem.en": {
+    "en": "I haven't got time today, I'll send the parcel tomorrow.",
+    "t": "Bugun vaqtim yoʻq, posilkani ertaga yuboraman."
+  },
+  "a2-u6-l15.fill-dnes-nemam-cas-poslem.why": {
+    "en": "**Ja** will send it, so it's the ja form **pošlem**, which already points to the future, like zavolám.",
+    "t": "Uni **ja** (men) yuboradi, shuning uchun ja shakli **pošlem**, u zavolám kabi kelasi zamonni bildiradi."
+  },
+  "a2-u6-l15.build-chcela-by-som-poslat-list.prompt": {
+    "en": "Emma: “I'd like to send this letter to Dublin.”",
+    "t": "Emma: «Bu xatni Dublinga yubormoqchi edim.»"
+  },
+  "a2-u6-l15.build-chcela-by-som-poslat-list.traps": {
+    "en": [
+      "**Do** takes the genitive: do **Dublinu**.",
+      "The letter is the object, and list is a masculine thing, so it doesn't change: tento **list**."
+    ],
+    "t": [
+      "**Do** genitív talab qiladi: do **Dublinu**.",
+      "Xat — toʻldiruvchi, list esa erkak jinsidagi narsa, shuning uchun oʻzgarmaydi: tento **list**."
+    ]
+  },
+  "a2-u6-l15.speak-kolko-stoji-znamka.en": {
+    "en": "How much is a stamp to Ireland?",
+    "t": "Irlandiyaga marka qancha turadi?"
+  },
+  "a2-u6-l16.titleEn": {
+    "en": "Two pronouns together",
+    "t": "Ikki olmosh birga"
+  },
+  "a2-u6-l16.grammar-short-pronouns.title": {
+    "en": "To whom and what: the dative and the accusative",
+    "t": "Kimga va nimani: datív va akuzatív"
+  },
+  "a2-u6-l16.grammar-short-pronouns.body": {
+    "en": [
+      "You know from unit 3 that verbs like dať, ukázať and kúpiť take two objects, the person in the dative and the thing in the accusative: dať mame darček. **Požičať** (to lend) and **vrátiť** (to give back) work the same way: vrátiť **niekomu niečo**.",
+      "Here are the short pronouns of both cases side by side."
+    ],
+    "t": [
+      "3-boʻlimdan bilasiz: dať, ukázať va kúpiť kabi feʼllar ikkita toʻldiruvchi oladi — kishi datívda (joʻnalish kelishigi, kimga?), narsa esa akuzatívda (tushum kelishigi, nimani?): dať mame darček (oyiga sovgʻa bermoq). **Požičať** (qarzga bermoq) va **vrátiť** (qaytarib bermoq) ham shunday: vrátiť **niekomu niečo** (kimgadir nimanidir qaytarmoq).",
+      "Mana ikkala kelishikning qisqa olmoshlari yonma-yon."
+    ]
+  },
+  "a2-u6-l16.grammar-short-pronouns.table.head": {
+    "en": [
+      "",
+      "to whom (dative)",
+      "what, whom (accusative)"
+    ],
+    "t": [
+      "",
+      "kimga (datív)",
+      "nimani, kimni (akuzatív)"
+    ]
+  },
+  "a2-u6-l16.grammar-short-pronouns.table.rows": {
+    "en": [
+      [
+        "ja",
+        "mi",
+        "ma"
+      ],
+      [
+        "ty",
+        "ti",
+        "ťa"
+      ],
+      [
+        "on, ono",
+        "mu",
+        "ho"
+      ],
+      [
+        "ona",
+        "jej",
+        "ju"
+      ],
+      [
+        "my",
+        "nám",
+        "nás"
+      ],
+      [
+        "vy",
+        "vám",
+        "vás"
+      ],
+      [
+        "oni, ony",
+        "im",
+        "ich"
+      ]
+    ],
+    "t": [
+      [
+        "ja",
+        "mi",
+        "ma"
+      ],
+      [
+        "ty",
+        "ti",
+        "ťa"
+      ],
+      [
+        "on, ono",
+        "mu",
+        "ho"
+      ],
+      [
+        "ona",
+        "jej",
+        "ju"
+      ],
+      [
+        "my",
+        "nám",
+        "nás"
+      ],
+      [
+        "vy",
+        "vám",
+        "vás"
+      ],
+      [
+        "oni, ony",
+        "im",
+        "ich"
+      ]
+    ]
+  },
+  "a2-u6-l16.grammar-short-pronouns.examples": {
+    "en": [
+      "I'll send him the address.",
+      "I'll lend you my phone."
+    ],
+    "t": [
+      "Unga manzilni yuboraman.",
+      "Senga telefonimni berib turaman."
+    ]
+  },
+  "a2-u6-l16.grammar-dative-first.title": {
+    "en": "Two pronouns: the dative first",
+    "t": "Ikki olmosh: avval datív"
+  },
+  "a2-u6-l16.grammar-dative-first.body": {
+    "en": [
+      "When both objects are short pronouns, the to-whom one comes first: Pošlem **ti ho**. Dám **vám ju**.",
+      "Like sa and si, the pair goes in second place, after som, si, sme, ste: Včera som **ti ho** poslala."
+    ],
+    "t": [
+      "Ikkala toʻldiruvchi ham qisqa olmosh boʻlsa, avval «kimga?» olmoshi keladi: Pošlem **ti ho**. Dám **vám ju**.",
+      "sa va si kabi, bu juftlik ikkinchi oʻrinda, som, si, sme, ste dan keyin turadi: Včera som **ti ho** poslala."
+    ]
+  },
+  "a2-u6-l16.grammar-dative-first.table.rows": {
+    "en": [
+      [
+        "Balík? Pošlem **ti ho**.",
+        "The parcel? I'll send it to you."
+      ],
+      [
+        "Adresu? Dám **vám ju**.",
+        "The address? I'll give it to you."
+      ],
+      [
+        "Kľúče? Vrátim **mu ich**.",
+        "The keys? I'll give them back to him."
+      ],
+      [
+        "Mail? Už som **jej ho** poslala.",
+        "The e-mail? I've already sent it to her."
+      ]
+    ],
+    "t": [
+      [
+        "Balík? Pošlem **ti ho**.",
+        "Posilkami? Uni senga yuboraman."
+      ],
+      [
+        "Adresu? Dám **vám ju**.",
+        "Manzilmi? Uni sizga beraman."
+      ],
+      [
+        "Kľúče? Vrátim **mu ich**.",
+        "Kalitlarmi? Ularni unga qaytarib beraman."
+      ],
+      [
+        "Mail? Už som **jej ho** poslala.",
+        "Elektron xatmi? Uni unga allaqachon yubordim."
+      ]
+    ]
+  },
+  "a2-u6-l16.grammar-dative-first.examples": {
+    "en": [
+      "I'll send it to you tomorrow.",
+      "I sent it to you yesterday."
+    ],
+    "t": [
+      "Uni senga ertaga yuboraman.",
+      "Uni senga kecha yubordim."
+    ]
+  },
+  "a2-u6-l16.fill-mail-poslem-ti-ho.en": {
+    "en": "The e-mail? I'll send it to you this evening.",
+    "t": "Elektron xatmi? Uni senga kechqurun yuboraman."
+  },
+  "a2-u6-l16.fill-mail-poslem-ti-ho.why": {
+    "en": "“To you” is the dative, short: **ti**, and it comes before ho. Ťa is the accusative (you, as the object).",
+    "t": "«Senga» — datív, qisqa shakli: **ti**, u ho dan oldin keladi. Ťa — akuzatív (seni)."
+  },
+  "a2-u6-l16.fill-adresa-dam-vam-ju.en": {
+    "en": "The guesthouse's address? I'll give it to you tomorrow.",
+    "t": "Mehmon uyining manzilimi? Uni sizga ertaga beraman."
+  },
+  "a2-u6-l16.fill-adresa-dam-vam-ju.why": {
+    "en": "Adresa is feminine, so “it” is the accusative **ju**, after vám. Jej means to her.",
+    "t": "Adresa — ayol jinsida, shuning uchun «uni» — akuzatív **ju**, vám dan keyin. Jej — «unga (ayolga)» degani."
+  },
+  "a2-u6-l16.choice-dam-ti-ho.question": {
+    "en": "Which word order is right?",
+    "t": "Qaysi soʻz tartibi toʻgʻri?"
+  },
+  "a2-u6-l16.choice-dam-ti-ho.why": {
+    "en": "The to-whom pronoun comes first, and the pair takes second place: Dám **ti ho**. Small words like ti never start a sentence.",
+    "t": "Avval «kimga?» olmoshi keladi, juftlik esa ikkinchi oʻrinda turadi: Dám **ti ho**. ti kabi kichik soʻzlar hech qachon gapni boshlamaydi."
+  },
+  "a2-u6-l16.fill-tomas-chce-tvoju-knihu.en": {
+    "en": "Tomáš wants your book? Lend it to him!",
+    "t": "Tomashga kitobing kerakmi? Unga berib tur!"
+  },
+  "a2-u6-l16.fill-tomas-chce-tvoju-knihu.why": {
+    "en": "To him, Tomáš, is **mu**, before ju. Jej is to her, and im to them.",
+    "t": "Unga, yaʼni Tomashga — **mu**, ju dan oldin. Jej — «unga (ayolga)», im — «ularga»."
+  },
+  "a2-u6-l16.build-knihu-vratim-ti-ju.prompt": {
+    "en": "The book? I'll give it back to you tomorrow.",
+    "t": "Kitobmi? Uni senga ertaga qaytarib beraman."
+  },
+  "a2-u6-l16.build-knihu-vratim-ti-ju.traps": {
+    "en": [
+      "Kniha is feminine, so “it” is **ju**.",
+      "Next to another pronoun, use the short form: **ti**. Tebe is the stressed form."
+    ],
+    "t": [
+      "Kniha — ayol jinsida, shuning uchun «uni» — **ju**.",
+      "Boshqa olmosh yonida qisqa shakl ishlatiladi: **ti**. Tebe — urgʻuli shakl."
+    ]
+  },
+  "a2-u6-l16.fill-mail-pre-pana-hudaka.en": {
+    "en": "The e-mail for Mr Hudák? I've already sent it to him.",
+    "t": "Janob Hudak uchun elektron xatmi? Uni unga allaqachon yubordim."
+  },
+  "a2-u6-l16.fill-mail-pre-pana-hudaka.why": {
+    "en": "The short form **mu** goes right after som and before ho: Už som **mu ho** poslala.",
+    "t": "Qisqa **mu** shakli darhol som dan keyin va ho dan oldin turadi: Už som **mu ho** poslala."
+  },
+  "a2-u6-l16.build-mozes-mi-pozicat.prompt": {
+    "en": "Can you lend me ten euros? (to a friend)",
+    "t": "Menga oʻn yevro qarz berib tura olasanmi? (sen)"
+  },
+  "a2-u6-l16.build-mozes-mi-pozicat.traps": {
+    "en": [
+      "Lend **to** me: the dative, **mi**. Ma is the accusative (me, as the object).",
+      "From five up, Slovak uses the short form: desať **eur**."
+    ],
+    "t": [
+      "«Menga» qarz bermoq: datív, **mi**. Ma — akuzatív (meni).",
+      "Beshdan boshlab slovak tilida qisqa shakl ishlatiladi: desať **eur**."
+    ]
+  },
+  "a2-u6-l16.build-dik-vratim-ti-ich.prompt": {
+    "en": "Thanks! I'll give them back to you tomorrow.",
+    "t": "Rahmat! Ularni senga ertaga qaytarib beraman."
+  },
+  "a2-u6-l16.build-dik-vratim-ti-ich.traps": {
+    "en": [
+      "The euros are what you give back, the accusative: **ich** (them). Im means to them.",
+      "To you: the dative, **ti**. Ťa is the accusative."
+    ],
+    "t": [
+      "Yevrolar — siz qaytaradigan narsa, akuzatív: **ich** (ularni). Im — «ularga» degani.",
+      "Senga: datív, **ti**. Ťa — akuzatív (seni)."
+    ]
+  },
+  "a2-u6-l16.grammar-new-information-last.title": {
+    "en": "Nouns: the new information goes last",
+    "t": "Otlar: yangi maʼlumot oxirida"
+  },
+  "a2-u6-l16.grammar-new-information-last.body": {
+    "en": [
+      "With two nouns, Slovak puts the new information at the end of the sentence. Komu si poslala balík? (To whom?) – Poslala som balík **mame**. Čo si poslala mame? (What?) – Poslala som mame **balík**."
+    ],
+    "t": [
+      "Ikki ot boʻlsa, slovak tilida yangi maʼlumot gap oxiriga qoʻyiladi. Komu si poslala balík? (Kimga?) – Poslala som balík **mame**. Čo si poslala mame? (Nimani?) – Poslala som mame **balík**. Oʻzbekchada yangi maʼlumot odatda feʼl oldida turadi, slovakchada esa — eng oxirida."
+    ]
+  },
+  "a2-u6-l16.grammar-new-information-last.examples": {
+    "en": [
+      "I sent the parcel to Mum.",
+      "I sent Mum a parcel."
+    ],
+    "t": [
+      "Posilkani oyimga yubordim.",
+      "Oyimga posilka yubordim."
+    ]
+  },
+  "a2-u6-l16.choice-komu-si-poslala-list.question": {
+    "en": "Komu si poslala list? (Who did you send the letter to?)",
+    "t": "Komu si poslala list? (Xatni kimga yubording?)"
+  },
+  "a2-u6-l16.choice-komu-si-poslala-list.why": {
+    "en": "The question is “to whom?”, so the new information, **mame**, goes last.",
+    "t": "Savol — «kimga?», shuning uchun yangi maʼlumot, **mame**, oxirida keladi."
+  },
+  "a2-u6-l16.choice-co-si-kupil-tomasovi.question": {
+    "en": "Čo si kúpil Tomášovi? (What did you buy Tomáš?)",
+    "t": "Čo si kúpil Tomášovi? (Tomashga nima sotib olding?)"
+  },
+  "a2-u6-l16.choice-co-si-kupil-tomasovi.why": {
+    "en": "The question is “what?”, so the new information, **knihu**, goes last.",
+    "t": "Savol — «nima?», shuning uchun yangi maʼlumot, **knihu**, oxirida keladi."
+  },
+  "a2-u6-l16.build-kluc-dam-ti-ho.answers": {
+    "en": [
+      "The parcel? I'll give it to you this evening.",
+      "The parcel? I'll give it to you in the evening.",
+      "The parcel? I'll give you it this evening."
+    ],
+    "t": [
+      "Posilkami? Uni senga kechqurun beraman.",
+      "Posilkami? Kechqurun uni senga beraman.",
+      "Posilkami? Senga uni kechqurun beraman.",
+      "Posilka? Uni senga kechqurun beraman."
+    ]
+  },
+  "a2-u6-l16.build-kluc-dam-ti-ho.distractors": {
+    "en": [
+      "her",
+      "morning"
+    ],
+    "t": [
+      "ertalab",
+      "berdim"
+    ]
+  },
+  "a2-u6-l16.speak-poslem-ti-ho-zajtra.en": {
+    "en": "I'll send it to you tomorrow.",
+    "t": "Uni senga ertaga yuboraman."
+  },
+  "a2-u6-pisanie.titleEn": {
+    "en": "Written practice",
+    "t": "Yozma mashq"
+  },
+  "a2-u6-pisanie.listen-nerusim-mam-pre-teba.en": {
+    "en": "Am I disturbing you? I've got a suggestion for you.",
+    "t": "Bezovta qilmayapmanmi? Senga bir taklifim bor."
+  },
+  "a2-u6-pisanie.listen-mozem-hovorit-s-panom.en": {
+    "en": "May I speak to Mr Hudák?",
+    "t": "Janob Hudak bilan gaplashsam boʻladimi?"
+  },
+  "a2-u6-pisanie.listen-chcete-nechat-odkaz.en": {
+    "en": "Would you like to leave a message?",
+    "t": "Xabar qoldirmoqchimisiz?"
+  },
+  "a2-u6-pisanie.listen-zavolajte-neskor-prosim.en": {
+    "en": "Please call back later.",
+    "t": "Iltimos, keyinroq qoʻngʻiroq qiling."
+  },
+  "a2-u6-pisanie.listen-povedal-ze-ma-poradu.en": {
+    "en": "He said he had a meeting.",
+    "t": "U yigʻilishi borligini aytdi."
+  },
+  "a2-u6-pisanie.listen-napis-mi-cim-skor.en": {
+    "en": "Write back as soon as possible.",
+    "t": "Imkon qadar tezroq javob yoz."
+  },
+  "a2-u6-pisanie.listen-prepac-budem-meskat.en": {
+    "en": "Sorry, I'll be late.",
+    "t": "Kechir, kechikaman."
+  },
+  "a2-u6-pisanie.listen-kolko-stoji-znamka.en": {
+    "en": "How much is a stamp to Ireland?",
+    "t": "Irlandiyaga marka qancha turadi?"
+  },
+  "a2-u6-pisanie.listen-poslem-ti-ho-zajtra.en": {
+    "en": "I'll send it to you tomorrow.",
+    "t": "Uni senga ertaga yuboraman."
+  },
+  "a2-u6-l17.titleEn": {
+    "en": "Review",
+    "t": "Takrorlash"
+  },
+  "a2-u6-l17.match-odkaz.pairs": {
+    "en": [
+      "message",
+      "text message",
+      "attachment",
+      "stamp",
+      "accommodation"
+    ],
+    "t": [
+      "xabar",
+      "SMS",
+      "ilova",
+      "marka",
+      "turar joy"
+    ]
+  },
+  "a2-u6-l17.fill-mozem-hovorit-s-pani-kollarovou.en": {
+    "en": "Hello, may I speak to Mrs Kollárová?",
+    "t": "Assalomu alaykum, Kollarova xonim bilan gaplashsam boʻladimi?"
+  },
+  "a2-u6-l17.fill-mozem-hovorit-s-pani-kollarovou.why": {
+    "en": "After **s**, a woman's surname takes **-ou**: s pani **Kollárovou**. Pani itself never changes.",
+    "t": "**s** dan keyin ayol familiyasi **-ou** oladi: s pani **Kollárovou**. Pani ning oʻzi esa hech qachon oʻzgarmaydi."
+  },
+  "a2-u6-l17.choice-odkaz-od-lucie.question": {
+    "en": "Lucia leaves a message on Emma's phone. What does she want?",
+    "t": "Lusiya Emmaning telefoniga xabar qoldiradi. U nima istaydi?"
+  },
+  "a2-u6-l17.choice-odkaz-od-lucie.options": {
+    "en": [
+      "To cancel the meeting.",
+      "To meet at five.",
+      "To meet at six, not five."
+    ],
+    "t": [
+      "Uchrashuvni bekor qilmoqchi.",
+      "Soat beshda uchrashmoqchi.",
+      "Beshda emas, oltida uchrashmoqchi."
+    ]
+  },
+  "a2-u6-l17.build-zavolajte-o-hodinu.prompt": {
+    "en": "Please call back in an hour. (to a caller)",
+    "t": "Iltimos, bir soatdan keyin qoʻngʻiroq qiling. (qoʻngʻiroq qilgan kishiga)"
+  },
+  "a2-u6-l17.build-zavolajte-o-hodinu.traps": {
+    "en": [
+      "You're asking the caller, a stranger, to call: the vy command, **Zavolajte**. Zavolám means I'll call.",
+      "“In an hour” is **o** + the object form: o **hodinu**."
+    ],
+    "t": [
+      "Siz notanish odamdan qoʻngʻiroq qilishni soʻrayapsiz: vy buyrugʻi, **Zavolajte**. Zavolám — «qoʻngʻiroq qilaman» degani.",
+      "«Bir soatdan keyin» — **o** + toʻldiruvchi shakli: o **hodinu**."
+    ]
+  },
+  "a2-u6-l17.fill-tomas-posli-mi-adresu.en": {
+    "en": "Tomáš, send me the guesthouse's address!",
+    "t": "Tomash, menga mehmon uyining manzilini yubor!"
+  },
+  "a2-u6-l17.fill-tomas-posli-mi-adresu.why": {
+    "en": "Poslať → pošlú: two consonants at the end of the stem, so add **-i**: **pošli**. Pošlite is for vy.",
+    "t": "Poslať → pošlú: oʻzak oxirida ikki undosh, shuning uchun **-i** qoʻshiladi: **pošli**. Pošlite — vy uchun."
+  },
+  "a2-u6-l17.fill-lucia-sa-pytala-ci.en": {
+    "en": "Lucia asked if you were going on the trip on Friday.",
+    "t": "Lusiya juma kuni sayohatga borasanmi, deb soʻradi."
+  },
+  "a2-u6-l17.fill-lucia-sa-pytala-ci.why": {
+    "en": "A yes-or-no question is passed on with **či** (whether).",
+    "t": "«Ha / yoʻq» savoli **či** (…-mi) bilan yetkaziladi."
+  },
+  "a2-u6-l17.build-povedzte-jej-prosim.prompt": {
+    "en": "Please tell her to call me. (to a stranger)",
+    "t": "Iltimos, unga (ayolga) ayting, menga qoʻngʻiroq qilsin. (notanish odamga)"
+  },
+  "a2-u6-l17.build-povedzte-jej-prosim.traps": {
+    "en": [
+      "After **aby**, the past form, and she is a woman: aby mi **zavolala**.",
+      "Her, the one you tell, is **jej**; mu is for a man."
+    ],
+    "t": [
+      "**aby** dan keyin oʻtgan zamon shakli, u esa ayol: aby mi **zavolala**.",
+      "Aytiladigan odam ayol boʻlsa, «unga» — **jej**; mu — erkak uchun."
+    ]
+  },
+  "a2-u6-l17.choice-vazena-pani-sokolova.question": {
+    "en": "Which opening fits an e-mail to Mrs Sokolová?",
+    "t": "Sokolova xonimga yoziladigan elektron xatga qaysi murojaat mos?"
+  },
+  "a2-u6-l17.choice-vazena-pani-sokolova.why": {
+    "en": "**Vážená** matches pani, a woman: vážená pani. Ahoj is for friends.",
+    "t": "**Vážená** pani ga, yaʼni ayolga moslashadi: vážená pani. Ahoj — doʻstlar uchun."
+  },
+  "a2-u6-l17.choice-mila-emma-dakujem.question": {
+    "en": "An e-mail from Marek. What does he write?",
+    "t": "Marekdan elektron xat. U nima deb yozadi?"
+  },
+  "a2-u6-l17.choice-mila-emma-dakujem.options": {
+    "en": [
+      "He can't come on the trip.",
+      "He's glad to come on the trip.",
+      "He wants Lucia's address."
+    ],
+    "t": [
+      "U sayohatga bora olmaydi.",
+      "U sayohatga mamnuniyat bilan boradi.",
+      "U Lusiyaning manzilini soʻrayapti."
+    ]
+  },
+  "a2-u6-l17.fill-kluc-dam-ti-ho.en": {
+    "en": "The parcel? I'll give it to you this evening, Lucia.",
+    "t": "Posilkami? Uni senga kechqurun beraman, Lusiya."
+  },
+  "a2-u6-l17.fill-kluc-dam-ti-ho.why": {
+    "en": "To you is the short dative **ti**, and it comes first: Dám **ti ho**.",
+    "t": "«Senga» — qisqa datív **ti**, u birinchi keladi: Dám **ti ho**."
+  },
+  "a2-u6-l17.choice-odkaz-od-pani-kollarovej.question": {
+    "en": "Mrs Kollárová leaves a message on Tomáš's phone. What has changed?",
+    "t": "Kollarova xonim Tomashning telefoniga xabar qoldiradi. Nima oʻzgardi?"
+  },
+  "a2-u6-l17.choice-odkaz-od-pani-kollarovej.options": {
+    "en": [
+      "The meeting is cancelled.",
+      "The meeting is at four, not three.",
+      "The meeting is at three, not four."
+    ],
+    "t": [
+      "Yigʻilish bekor qilindi.",
+      "Yigʻilish uchda emas, toʻrtda.",
+      "Yigʻilish toʻrtda emas, uchda."
+    ]
+  },
+  "a2-u6-l17.build-prepac-nestiham-mozeme.answers": {
+    "en": [
+      "Sorry, I can't make it. Can we meet at four?",
+      "Sorry, I'm running late. Can we meet at four?",
+      "Sorry, I can't make it. Could we meet at four?"
+    ],
+    "t": [
+      "Kechir, ulgurmayapman. Soat toʻrtda uchrasha olamizmi?",
+      "Kechir, ulgurmayman. Soat toʻrtda uchrasha olamizmi?",
+      "Kechir, ulgurmayapman. Toʻrtda uchrashsak boʻladimi?",
+      "Kechir, ulgurmayapman. Soat toʻrtda uchrashsak boʻladimi?"
+    ]
+  },
+  "a2-u6-l17.build-prepac-nestiham-mozeme.distractors": {
+    "en": [
+      "three",
+      "cancel"
+    ],
+    "t": [
+      "uchda",
+      "bekor"
+    ]
+  },
+  "a2-u6-l17.choice-nevolaj-mu-teraz.question": {
+    "en": "Lucia wants to call Tomáš, but he's in a meeting. What do you tell her?",
+    "t": "Lusiya Tomashga qoʻngʻiroq qilmoqchi, lekin u yigʻilishda. Unga nima deysiz?"
+  },
+  "a2-u6-l17.choice-nevolaj-mu-teraz.why": {
+    "en": "“Don't call” is ne- + the everyday partner verb, volať: **Nevolaj**. Nevolám just says I'm not calling.",
+    "t": "«Qoʻngʻiroq qilma» — ne- + kundalik jufti volať: **Nevolaj**. Nevolám esa shunchaki «qoʻngʻiroq qilmayapman» degani."
+  },
+  "a2-u6-l17.build-budte-tu-o-deviatej.prompt": {
+    "en": "Please be here at nine. (to the interns)",
+    "t": "Iltimos, soat toʻqqizda shu yerda boʻling. (amaliyotchilarga)"
+  },
+  "a2-u6-l17.build-budte-tu-o-deviatej.traps": {
+    "en": [
+      "To a group, the vy form: buď + **-te** = **Buďte**.",
+      "At nine: o + the -ej form, o **deviatej**."
+    ],
+    "t": [
+      "Guruhga vy shakli: buď + **-te** = **Buďte**.",
+      "Soat toʻqqizda: o + -ej shakli, o **deviatej**."
+    ]
+  },
+  "a2-u6-l17.fill-potrebujem-tri-znamky.en": {
+    "en": "I need three stamps for postcards.",
+    "t": "Ochiq xatlar uchun uchta marka kerak."
+  },
+  "a2-u6-l17.fill-potrebujem-tri-znamky.why": {
+    "en": "After 2, 3 and 4, use the plural: tri **známky**.",
+    "t": "2, 3 va 4 dan keyin koʻplik ishlatiladi: tri **známky**."
+  },
+  "a2-u6-l17.speak-prepac-budem-meskat-desat.en": {
+    "en": "Sorry, I'll be ten minutes late.",
+    "t": "Kechir, oʻn daqiqa kechikaman."
+  }
+}

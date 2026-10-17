@@ -1,0 +1,518 @@
+{
+  "unit": "a2-u1",
+  "pictures": 34,
+  "items": [
+    {
+      "lesson": "a2-u1-l1",
+      "exercise": "vitaj-spat",
+      "type": "intro",
+      "text": "Vitaj späť! = Welcome back! (to a friend)",
+      "picture": "September in Emma and Lucia's dorm room: Emma, back from Ireland for her second year, comes in through the door pulling her suitcase, and Lucia jumps up from her desk with her arms wide to hug her.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l1",
+      "exercise": "choice-vitajte-spat-emma",
+      "type": "choice",
+      "text": "Pán Kováč, the porter, sees Emma at the door. What does he say?",
+      "reuse": "u3-l1#vratnica",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l1",
+      "exercise": "semester",
+      "type": "intro",
+      "text": "semester = semester, term",
+      "picture": "The first day of the winter semester, a sunny September morning: the university courtyard is full of students again, friends hugging after the summer, others hurrying in under the clock over the main building's entrance. Emma and Lucia walk in together among them with their bags.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l1",
+      "exercise": "zacinat-sa",
+      "type": "intro",
+      "text": "začínať sa = to begin, to start",
+      "reuse": "a2-u1-l1#semester",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l1",
+      "exercise": "predmet",
+      "type": "intro",
+      "text": "predmet = subject (at school or university)",
+      "reuse": "u7-l1#rozvrh-hodin",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l1",
+      "exercise": "stipendium",
+      "type": "intro",
+      "text": "štipendium = scholarship, grant",
+      "picture": "At the counter of the university's international office, the clerk at the international office hands Emma an official letter with a university seal. Emma reads it and beams: she has got the scholarship. A thought bubble above her shows a little pile of banknotes beside a stack of textbooks.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l1",
+      "exercise": "studovat-v-zahranici",
+      "type": "intro",
+      "text": "študovať v zahraničí = to study abroad",
+      "reuse": "u2-l1#odkial-si",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l1",
+      "exercise": "spoluziak",
+      "type": "intro",
+      "text": "spolužiak = classmate",
+      "picture": "A seminar in a small university room, the students round one big table: Emma sits next to Kristína, a new classmate, and the two of them share a textbook and smile at each other.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-skusky",
+      "exercise": "urobit-skusku",
+      "type": "intro",
+      "text": "urobiť skúšku = to pass an exam",
+      "picture": "In a university corridor outside an exam room: Emma bursts out of the door, beaming, and punches the air because she has passed. Kristína, waiting on a bench with her notes on her knees, looks up and asks her how it went.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-skusky",
+      "exercise": "ako-bolo-na",
+      "type": "intro",
+      "text": "Ako bolo na skúške? = How did the exam go?",
+      "reuse": "a2-u1-skusky#urobit-skusku",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-skusky",
+      "exercise": "choice-ako-bolo-na",
+      "type": "choice",
+      "text": "Kristína wants to know how Emma's exam went. What does she ask?",
+      "reuse": "a2-u1-skusky#urobit-skusku",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l2",
+      "exercise": "kviz",
+      "type": "intro",
+      "text": "kvíz = quiz",
+      "picture": "A quiz evening in a university hall: teams of students sit at round tables with answer sheets and pens. At the front, pani Horváthová, the host, stands at a microphone with a stack of question cards and welcomes everyone with an open arm.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l2",
+      "exercise": "moderatorka",
+      "type": "intro",
+      "text": "moderátorka = host, presenter (a woman)",
+      "reuse": "a2-u1-l2#kviz",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l2",
+      "exercise": "choice-kviz-moderuje-pani",
+      "type": "choice",
+      "text": "Kvíz moderuje pani Horváthová. What does this mean?",
+      "reuse": "a2-u1-l2#kviz",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l2",
+      "exercise": "damy-a-pani",
+      "type": "intro",
+      "text": "Dámy a páni! = Ladies and gentlemen!",
+      "reuse": "a2-u1-l2#kviz",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l2",
+      "exercise": "predstavit",
+      "type": "intro",
+      "text": "predstaviť = to introduce (someone)",
+      "picture": "At the quiz evening, Emma introduces Lucia to Daniel: she presents Lucia with an open hand, and Daniel, grinning, shakes Lucia's hand.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l2",
+      "exercise": "predstavit-sa",
+      "type": "intro",
+      "text": "predstaviť sa = to introduce yourself",
+      "picture": "At the quiz evening, Daniel stands up at his team's table and introduces himself to the hall, a hand on his chest and a wide grin; students at the other tables turn to listen.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l2",
+      "exercise": "choice-prosim-predstavte-sa",
+      "type": "choice",
+      "text": "Mrs Horváthová asks the students to introduce themselves. What does she say?",
+      "reuse": "a2-u1-l2#kviz",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l2",
+      "exercise": "choice-volam-sa-daniel",
+      "type": "choice",
+      "text": "Volám sa Daniel, som z Mníchova a študujem históriu. Daniel introduces himself. Where is he from?",
+      "reuse": "a2-u1-l2#predstavit-sa",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l2",
+      "exercise": "tim",
+      "type": "intro",
+      "text": "tím = team",
+      "picture": "A team at the quiz evening: Emma, Lucia, Daniel and Kristína put their heads together over one answer sheet at their table, whispering. A small cardboard star, their team's mascot, stands on the table.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l2",
+      "exercise": "sutaz",
+      "type": "intro",
+      "text": "súťaž = competition, contest",
+      "reuse": "a2-u1-l2#kviz",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l3",
+      "exercise": "cudzi-jazyk",
+      "type": "intro",
+      "text": "cudzí jazyk = foreign language",
+      "picture": "At her desk in the dorm room, Emma studies among a pile of textbooks and dictionaries for different languages, each with a small flag on its spine: Slovak, French, Spanish, German. She practises aloud from one of them.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l3",
+      "exercise": "poznat",
+      "type": "intro",
+      "text": "poznať = to know (a person or a place)",
+      "reuse": "u2-l3#kto-je-to",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l3",
+      "exercise": "ako-sa-vola",
+      "type": "intro",
+      "text": "Ako sa volá? Odkiaľ je? Čo robí? = What's his (her) name? Where's he (she) from? What does he (she) do?",
+      "picture": "At the quiz evening, Emma leans towards Lucia and nods discreetly towards Kristína, a quiet girl sitting alone at the end of their table, asking about her in a low voice.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l3",
+      "exercise": "choice-odkial-je-kristina",
+      "type": "choice",
+      "text": "Emma asks Lucia where Kristína is from. What does she say?",
+      "reuse": "a2-u1-l3#ako-sa-vola",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l3",
+      "exercise": "choice-daniel-to-je",
+      "type": "choice",
+      "text": "Emma introduces Lucia to Daniel. What does she say?",
+      "reuse": "a2-u1-l2#predstavit",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l4",
+      "exercise": "otazka-a-odpoved",
+      "type": "intro",
+      "text": "otázka a odpoveď = question and answer",
+      "picture": "At the quiz evening, pani Horváthová reads a question from a card into the microphone. At her team's table, Kristína's hand shoots up with the answer, and Emma, Lucia and Daniel turn to her.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l4",
+      "exercise": "choice-ktora-rieka-tecie",
+      "type": "choice",
+      "text": "Ktorá rieka tečie cez Bratislavu? Mrs Horváthová reads the first question. What's the answer?",
+      "reuse": "a2-u1-l4#otazka-a-odpoved",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l4",
+      "exercise": "spravny",
+      "type": "intro",
+      "text": "správny = right, correct",
+      "picture": "At the quiz evening, pani Horváthová, beaming, points to Emma's team and gives a thumbs up for the right answer. Kristína smiles shyly while Daniel and Emma cheer.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l4",
+      "exercise": "pozor",
+      "type": "intro",
+      "text": "Pozor! = Attention! Careful!",
+      "picture": "Two halves for the two meanings. Left: at the quiz evening, pani Horváthová raises a finger at the microphone for attention, and the teams sit up straight. Right: on a street outside the university, Lucia grabs Emma's arm and pulls her back from the kerb as a cyclist whizzes past; Emma, looking at her phone, hadn't seen him.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l4",
+      "exercise": "choice-ma-slovensko-more",
+      "type": "choice",
+      "text": "Má Slovensko more? Second question. What's the right answer?",
+      "reuse": "a2-u1-l4#otazka-a-odpoved",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l4",
+      "exercise": "je-mi-to-luto",
+      "type": "intro",
+      "text": "Je mi to ľúto. = I'm sorry. (about bad news)",
+      "picture": "At the quiz evening, pani Horváthová turns with a kind, sympathetic face to another team, three students whose faces fall: their answer was wrong.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l4",
+      "exercise": "choice-je-mi-to",
+      "type": "choice",
+      "text": "A team gives the wrong answer. What does Mrs Horváthová say?",
+      "reuse": "a2-u1-l4#je-mi-to-luto",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l4",
+      "exercise": "choice-v-ktorom-roku",
+      "type": "choice",
+      "text": "V ktorom roku vznikla Slovenská republika? Third question: when did Slovakia become an independent country?",
+      "reuse": "a2-u1-l4#otazka-a-odpoved",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l5",
+      "exercise": "rozhovor",
+      "type": "intro",
+      "text": "rozhovor = interview, conversation",
+      "picture": "In the break at the quiz evening, Martina from the student radio holds her microphone out to Kristína and interviews her; Kristína answers, a little nervous but smiling.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l5",
+      "exercise": "vyrastat",
+      "type": "intro",
+      "text": "vyrastať = to grow up",
+      "picture": "In a family kitchen, a mother marks the height of her little fair-haired son, about six, on the door frame as he stands very straight against it with his chin up. Above and below his head, a ladder of pencil marks shows how he has grown year by year.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l5",
+      "exercise": "vystudovat",
+      "type": "intro",
+      "text": "vyštudovať = to graduate, to finish a degree",
+      "picture": "A graduation ceremony in a grand old university hall: a young woman in a black gown receives her rolled diploma, tied with a ribbon, from the rector in his robe and chain and shakes his hand; her proud family claps in the front row.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l5",
+      "exercise": "brigada",
+      "type": "intro",
+      "text": "brigáda = student job, summer job",
+      "picture": "Summer in the café near the university: Emma, working behind the counter in an apron, makes a coffee at the coffee machine and hands a cup to a customer with a smile.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l5",
+      "exercise": "prestahovat-sa",
+      "type": "intro",
+      "text": "presťahovať sa = to move (house)",
+      "picture": "Moving day: Kristína, arms full with a big cardboard box, backs through the door of her new room in a Bratislava dormitory; more boxes, a suitcase and a pot plant wait in the corridor behind her.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l5",
+      "exercise": "dakujem-za-rozhovor",
+      "type": "intro",
+      "text": "Ďakujem za rozhovor. = Thanks for the interview.",
+      "reuse": "a2-u1-l5#rozhovor",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l5",
+      "exercise": "choice-dakujem-za-rozhovor",
+      "type": "choice",
+      "text": "Martina has finished her interview with Kristína. What does she say?",
+      "reuse": "a2-u1-l5#rozhovor",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l6",
+      "exercise": "vtipny-a-priatelsky",
+      "type": "intro",
+      "text": "vtipný a priateľský = funny and friendly",
+      "picture": "At the team's table at the quiz evening, Daniel, a paper crown on his head, has just told everyone he is a prince from Munich; now he grins and raises his hands to show it was only a joke, and Emma, Lucia and Kristína burst out laughing.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l6",
+      "exercise": "hanblivy-a-tichy",
+      "type": "intro",
+      "text": "hanblivý a tichý = shy and quiet",
+      "picture": "In a busy university corridor, students chat loudly in groups; Kristína stands a little apart by the wall, clutching her bag, looking down and blushing as someone says hello to her.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l6",
+      "exercise": "pracovity-a-lenivy",
+      "type": "intro",
+      "text": "pracovitý a lenivý = hard-working and lazy",
+      "picture": "Two halves. Left: Lucia at her desk in the dorm room, surrounded by piles of books, writing fast and busy. Right: Daniel sprawled on a sofa with his feet up, yawning, a bag of crisps on his chest.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l6",
+      "exercise": "vlasy-a-oci",
+      "type": "intro",
+      "text": "vlasy a oči = hair and eyes",
+      "picture": "A close portrait of Kristína, head and shoulders, smiling: her short curly black hair and her bright green eyes.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l6",
+      "exercise": "nosit-okuliare",
+      "type": "intro",
+      "text": "nosiť okuliare = to wear glasses",
+      "picture": "Daniel, reading a book in the university library, pushes his black-framed glasses back up his nose with one finger.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l6",
+      "exercise": "to-bol-len",
+      "type": "intro",
+      "text": "To bol len vtip. = It was only a joke.",
+      "reuse": "a2-u1-l6#vtipny-a-priatelsky",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l12",
+      "exercise": "relacia",
+      "type": "intro",
+      "text": "relácia = (TV or radio) programme, show",
+      "picture": "Evening in the dorm room: Emma, curled up on her bed, watches a TV quiz show on her laptop. On the screen, a presenter in a bright studio and contestants standing at podiums.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l12",
+      "exercise": "choice-emma-pozera-kvizove",
+      "type": "choice",
+      "text": "Emma pozerá kvízové relácie, pretože sa chce učiť slovenčinu. Why does Emma watch quiz shows?",
+      "reuse": "a2-u1-l12#relacia",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l12",
+      "exercise": "podla-mna",
+      "type": "intro",
+      "text": "podľa mňa = in my opinion",
+      "picture": "Outside the university, Martina from the student radio holds out her microphone to Daniel and Emma for a quick poll about a TV show: Daniel, bored, gives it a thumbs down; Emma, delighted, gives it a thumbs up.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l12",
+      "exercise": "celebrita",
+      "type": "intro",
+      "text": "celebrita = celebrity",
+      "picture": "A famous TV presenter, a glamorous man in a sparkly jacket and sunglasses, steps out of a car onto a red carpet; a crowd of fans behind a rope reaches out with phones and autograph books, and camera flashes go off.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l12",
+      "exercise": "slavny",
+      "type": "intro",
+      "text": "slávny = famous",
+      "reuse": "a2-u1-l12#celebrita",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l12",
+      "exercise": "choice-daniel-doesnt-like",
+      "type": "choice",
+      "text": "Daniel doesn't like the show. What does he say?",
+      "reuse": "a2-u1-l12#podla-mna",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l14",
+      "exercise": "hranica",
+      "type": "intro",
+      "text": "hranica = border",
+      "picture": "The open border between Slovakia and Austria on a quiet country road among fields: an empty old border post with no barrier, a Slovak flag on a pole on one side of the road and an Austrian flag on the other. A cyclist rides across.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l14",
+      "exercise": "choice-s-ktorou-krajinou",
+      "type": "choice",
+      "text": "S ktorou krajinou nemá Slovensko hranicu? The last round, first question. What's the right answer?",
+      "reuse": "a2-u1-l4#otazka-a-odpoved",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l14",
+      "exercise": "hory",
+      "type": "intro",
+      "text": "hory = mountains",
+      "picture": "The High Tatras: jagged grey peaks streaked with snow rise above dark pine forest, with a clear mountain lake below them. Two tiny hikers with backpacks walk the path along the shore.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l14",
+      "exercise": "choice-kde-su-vysoke",
+      "type": "choice",
+      "text": "Kde sú Vysoké Tatry? Second question. What's the answer?",
+      "reuse": "a2-u1-l4#otazka-a-odpoved",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l14",
+      "exercise": "spissky-hrad",
+      "type": "intro",
+      "text": "Spišský hrad = Spiš Castle",
+      "picture": "Spiš Castle: a vast white ruin of walls, towers and courtyards spread along the top of a long, bare hill, above green fields and a small village with a church.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l14",
+      "exercise": "choice-v-ktorom-regione",
+      "type": "choice",
+      "text": "V ktorom regióne je Spišský hrad? Third question. Mrs Horváthová says it's an easy one.",
+      "reuse": "a2-u1-l4#otazka-a-odpoved",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l14",
+      "exercise": "vyhrat",
+      "type": "intro",
+      "text": "vyhrať = to win",
+      "picture": "The end of the quiz evening: Emma, Lucia, Daniel and Kristína leap up from their table with their arms in the air, cheering, because their team has won; confetti falls around them.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l14",
+      "exercise": "gratulujem",
+      "type": "intro",
+      "text": "Gratulujem! = Congratulations!",
+      "picture": "At the front of the hall, pani Horváthová congratulates the winning team: she shakes Kristína's hand and gives her the prize, a big illustrated book about Slovakia tied with a ribbon, while Emma, Lucia and Daniel clap.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l14",
+      "exercise": "cena",
+      "type": "intro",
+      "text": "cena = prize",
+      "reuse": "a2-u1-l14#gratulujem",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l14",
+      "exercise": "fanusik",
+      "type": "intro",
+      "text": "fanúšik = fan, supporter",
+      "picture": "In the audience at the quiz evening, Tomáš and Marek cheer for their friends' team, waving cardboard stars over their heads and whistling.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u1-l14",
+      "exercise": "choice-gratulujem-si-nasa",
+      "type": "choice",
+      "text": "Kristína knew almost every answer. What does Daniel tell her?",
+      "reuse": "a2-u1-l14#vyhrat",
+      "book": null
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+{
+  "unit": "a2-u8",
+  "pictures": 34,
+  "items": [
+    {
+      "lesson": "a2-u8-l1",
+      "exercise": "festival",
+      "type": "intro",
+      "text": "festival = festival",
+      "picture": "A sunny July afternoon: Emma, Lucia and Tomáš, rucksacks on their backs, come over a low hill and look down at the festival by the lake: a meadow by the water with woods all round, the main stage at the water's edge, a big white main tent, a smaller theatre tent, a row of food stalls and a campsite of small tents, with crowds of young people everywhere.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l1",
+      "exercise": "mas-chvilu",
+      "type": "intro",
+      "text": "Máš chvíľu? = Have you got a minute?",
+      "picture": "Split picture of a phone call. Left: in the dorm room, Lucia, a colourful festival flyer in her other hand, phones her friend, bubbling with excitement. Right: Emma, at a café table on the sunny Danube embankment, answers her phone, curious.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l1",
+      "exercise": "choice-mas-chvilu",
+      "type": "choice",
+      "text": "Lucia phones Emma. How does she ask if Emma has a minute?",
+      "reuse": "a2-u8-l1#mas-chvilu",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l1",
+      "exercise": "koncert",
+      "type": "intro",
+      "text": "koncert = concert",
+      "picture": "Night at the festival by the lake: a rock band plays on the lit main stage at the water's edge, a singer, two guitarists and a drummer under coloured spotlights. In the cheering crowd in front, Marek punches the air and sings along at the top of his voice, Emma and Lucia dancing beside him.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l1",
+      "exercise": "kapela",
+      "type": "intro",
+      "text": "kapela = band",
+      "reuse": "a2-u8-l1#koncert",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l1",
+      "exercise": "stan",
+      "type": "intro",
+      "text": "stan = tent",
+      "picture": "At the festival campsite by the lake, Emma helps Tomáš put up the friends' big orange tent: she holds a pole upright while he kneels and hammers in a peg, other small tents and the water behind them.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l1",
+      "exercise": "spacak-a-karimatka",
+      "type": "intro",
+      "text": "spacák a karimatka = sleeping bag and sleeping mat",
+      "picture": "In the dorm room, Lucia hands Emma her rolled-up sleeping bag and Tomáš holds out a rolled-up sleeping mat; Emma, her arms full, thanks them with a big smile.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l1",
+      "exercise": "choice-mohli-by-sme",
+      "type": "choice",
+      "text": "Lucia suggests going together. What does she say?",
+      "reuse": "a2-u8-l1#mas-chvilu",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l2",
+      "exercise": "predpoved-pocasia",
+      "type": "intro",
+      "text": "predpoveď počasia = weather forecast",
+      "picture": "At Emma's desk in the dorm room, Emma and Lucia lean towards the laptop, where a weather forecast is open: a map of Slovakia covered with little sun, cloud and rain symbols for the weekend. Emma scrolls; Lucia points at a cloud.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l2",
+      "exercise": "surfovat-po-internete",
+      "type": "intro",
+      "text": "surfovať po internete = to surf the internet",
+      "reuse": "a2-u8-l2#predpoved-pocasia",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l2",
+      "exercise": "polooblacno",
+      "type": "intro",
+      "text": "polooblačno = partly cloudy",
+      "reuse": "u1-l3#mam-sa-dobre",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l2",
+      "exercise": "teplota",
+      "type": "intro",
+      "text": "najvyššia teplota = the highest temperature",
+      "reuse": "u10-l2#je-teplo-je",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l2",
+      "exercise": "co-su-prehanky",
+      "type": "intro",
+      "text": "Čo sú prehánky? = What are showers?",
+      "picture": "A sun shower at the festival campsite: the sun shines over the lake while a short burst of rain falls from one small grey cloud, a rainbow over the water. By the big orange tent, Emma holds out her palm to the drops, puzzled; Lucia laughs and explains.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l2",
+      "exercise": "choice-co-su-prehanky",
+      "type": "choice",
+      "text": "Emma asks: Čo sú prehánky? What does Lucia answer?",
+      "reuse": "a2-u8-l2#predpoved-pocasia",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l2",
+      "exercise": "neboj-sa",
+      "type": "intro",
+      "text": "Neboj sa! = Don't worry!",
+      "picture": "In the dorm room, Emma stands at the window looking out at heavy grey clouds, worried, her fingers crossed on both hands; Lucia puts an arm round her shoulders and smiles reassuringly.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l2",
+      "exercise": "choice-neboj-sa-mame",
+      "type": "choice",
+      "text": "Emma is worried about the rain. What does Lucia tell her?",
+      "reuse": "a2-u8-l2#neboj-sa",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l2",
+      "exercise": "dufat",
+      "type": "intro",
+      "text": "dúfať = to hope",
+      "reuse": "a2-u8-l2#neboj-sa",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l3",
+      "exercise": "balit-sa",
+      "type": "intro",
+      "text": "baliť sa = to pack",
+      "picture": "In the dorm room, Emma packs for the festival: a big hiking rucksack stands open on her bed among piles of clothes, a torch and a water bottle, and she stuffs in a jumper, ticking off a blank packing list held in her teeth.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l3",
+      "exercise": "ruksak",
+      "type": "intro",
+      "text": "ruksak = rucksack",
+      "reuse": "a2-u8-l3#balit-sa",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l3",
+      "exercise": "dazdnik-a-prsiplast",
+      "type": "intro",
+      "text": "dáždnik a pršiplášť = umbrella and raincoat",
+      "picture": "At the dormitory entrance on a drizzly morning, Lucia, already in a bright yellow raincoat with the hood up, hands Emma a folded umbrella as they set off with their rucksacks.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l3",
+      "exercise": "zobrat-si",
+      "type": "intro",
+      "text": "zobrať si = to take (with you)",
+      "reuse": "a2-u8-l3#dazdnik-a-prsiplast",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l3",
+      "exercise": "pozicat",
+      "type": "intro",
+      "text": "požičať = to lend",
+      "reuse": "a2-u8-l1#spacak-a-karimatka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l3",
+      "exercise": "choice-poziciam-ti-spacak",
+      "type": "choice",
+      "text": "Emma has no sleeping bag. What does Lucia say?",
+      "reuse": "a2-u8-l1#spacak-a-karimatka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l4",
+      "exercise": "program",
+      "type": "intro",
+      "text": "program = programme",
+      "picture": "At the festival entrance, Emma, Lucia and Tomáš study a big programme poster on a wooden board: rows of blank boxes, each with a little drawing of a guitar, a saxophone, a theatre mask or a camera. Lucia points at one box and turns to Emma.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l4",
+      "exercise": "podium",
+      "type": "intro",
+      "text": "pódium = stage",
+      "picture": "Afternoon at the festival: the main stage at the water's edge, the lake shining behind it. A crew sets up amplifiers, a drum kit and lights on the empty stage, while Emma and Lucia watch from the grass in front.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l4",
+      "exercise": "tvoriva-dielna",
+      "type": "intro",
+      "text": "tvorivá dielňa = workshop",
+      "picture": "Inside the big white main tent at the festival, a music workshop: people sit in a circle with instruments while a young teacher shows a chord on her guitar. Emma frowns in concentration over her first chord, and Tomáš, beside her, plays a drum kit with gusto.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l4",
+      "exercise": "kam-by-si",
+      "type": "intro",
+      "text": "Kam by si išla? = Where would you go?",
+      "reuse": "a2-u8-l4#program",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l4",
+      "exercise": "choice-isla-by-som",
+      "type": "choice",
+      "text": "Lucia asks Emma: Kam by si išla? What can Emma answer?",
+      "reuse": "a2-u8-l4#program",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l4",
+      "exercise": "co-keby-sme",
+      "type": "intro",
+      "text": "Čo keby sme…? = How about…?",
+      "reuse": "a2-u8-l4#program",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l5",
+      "exercise": "pacil-sa-ti",
+      "type": "intro",
+      "text": "Páčil sa ti koncert? = Did you like the concert?",
+      "picture": "Late at night, Emma and Lucia walk back from the main stage to the tents with torches, the lit stage behind them. Emma, glowing, asks Lucia something eagerly; Lucia wrinkles her nose and tilts a flat hand: so-so.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l5",
+      "exercise": "nebolo-to-zle",
+      "type": "intro",
+      "text": "Nebolo to zlé. = It wasn't bad.",
+      "reuse": "a2-u8-l5#pacil-sa-ti",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l5",
+      "exercise": "fanusik",
+      "type": "intro",
+      "text": "Som fanúšik rocku. = I'm a rock fan.",
+      "reuse": "a2-u8-l1#koncert",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l5",
+      "exercise": "choice-som-fanusik-rocku",
+      "type": "choice",
+      "text": "Marek loves rock. What does he say?",
+      "reuse": "a2-u8-l1#koncert",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l5",
+      "exercise": "rock-folk-dzez",
+      "type": "intro",
+      "text": "rock, folk, džez = rock, folk, jazz",
+      "picture": "Three small scenes side by side. Left: a rock band with electric guitars, the singer leaning into the microphone. Middle: a folk duo on hay bales, one with an acoustic guitar, one with a fiddle. Right: a jazz trio with a saxophone, a piano and a double bass in soft blue light.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l5",
+      "exercise": "hrat-na-gitare",
+      "type": "intro",
+      "text": "hrať na bubnoch = to play the drums",
+      "reuse": "a2-u8-l4#tvoriva-dielna",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l5",
+      "exercise": "reporterka",
+      "type": "intro",
+      "text": "reportérka = reporter",
+      "picture": "Near the main stage at the festival, Martina, the student radio reporter, holds her microphone out to Emma, who answers a little shyly; festival-goers stroll past behind them.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l5",
+      "exercise": "choice-videla-som-dzezovy",
+      "type": "choice",
+      "text": "The reporter asks Emma: Čo ste videli na festivale? What can Emma answer?",
+      "reuse": "a2-u8-l5#reporterka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l6",
+      "exercise": "mam-pre-teba",
+      "type": "intro",
+      "text": "Mám pre teba zlú správu. = I've got bad news for you.",
+      "picture": "At the festival campsite, Lucia walks up to Emma with her phone in her hand and a long face, bringing bad news; Emma, hearing it, clutches her head with both hands in disbelief.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l6",
+      "exercise": "zrusit",
+      "type": "intro",
+      "text": "zrušiť = to cancel",
+      "picture": "At the festival entrance, an organiser in a hi-vis vest with a walkie-talkie sticks a big red cross over the evening concert on the programme poster; the fans around him groan. Emma steps up to him politely to ask him something.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l6",
+      "exercise": "to-nemoze-byt",
+      "type": "intro",
+      "text": "To nemôže byť pravda! = That can't be true!",
+      "reuse": "a2-u8-l6#mam-pre-teba",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l6",
+      "exercise": "burka",
+      "type": "intro",
+      "text": "búrka = storm",
+      "picture": "A storm breaks over the festival by the lake on a Saturday afternoon: black clouds, a fork of lightning over the water, rain lashing down and wind bending the trees and flattening the tents. Festival-goers run for the big white main tent; Emma and Lucia dash after them, clutching their hoods.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l6",
+      "exercise": "zapcha-na-dialnici",
+      "type": "intro",
+      "text": "zápcha na diaľnici = traffic jam on the motorway",
+      "picture": "A long, unmoving queue of cars on the motorway, blue flashing lights of a crash far ahead. Tomáš, at the wheel of his old dark-blue estate car with the roof box, drums his fingers on the steering wheel and checks his watch, fed up.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l6",
+      "exercise": "prepacte-mohla-by",
+      "type": "intro",
+      "text": "Prepáčte, mohla by som sa vás na niečo spýtať? = Excuse me, could I ask you something?",
+      "reuse": "a2-u8-l6#zrusit",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l6",
+      "exercise": "choice-preco-ste-zrusili",
+      "type": "choice",
+      "text": "Emma asks one of the organisers why. What does she say?",
+      "reuse": "a2-u8-l6#zrusit",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l7",
+      "exercise": "hrom-a-blesk",
+      "type": "intro",
+      "text": "hrom a blesk = thunder and lightning",
+      "reuse": "a2-u8-l6#burka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l7",
+      "exercise": "vietor",
+      "type": "intro",
+      "text": "vietor = wind",
+      "reuse": "a2-u8-l10#skaredo",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l7",
+      "exercise": "slnko-a-dazd",
+      "type": "intro",
+      "text": "slnko a dážď = sun and rain",
+      "reuse": "a2-u8-l2#co-su-prehanky",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l7",
+      "exercise": "sneh-a-mraz",
+      "type": "intro",
+      "text": "sneh a mráz = snow and frost",
+      "reuse": "u8-l2#v-zime",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l8",
+      "exercise": "obliect-si",
+      "type": "intro",
+      "text": "obliecť si = to put on (clothes)",
+      "reuse": "a2-u8-l8#ciapka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l8",
+      "exercise": "bunda-a-kabat",
+      "type": "intro",
+      "text": "bunda a kabát = jacket and coat",
+      "picture": "In the dorm room at the open wardrobe, Emma holds up a short sporty jacket in one hand and a long warm winter coat in the other, deciding which to pack; Lucia, on her bed, points at the jacket.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l8",
+      "exercise": "saty",
+      "type": "intro",
+      "text": "šaty = dress",
+      "picture": "Evening at the festival campsite: Emma steps out of the big orange tent in a new summer dress, ready for the show in the theatre tent, and does a little twirl; Lucia gives her a thumbs-up.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l8",
+      "exercise": "sortky",
+      "type": "intro",
+      "text": "šortky = shorts",
+      "picture": "A hot morning at the festival campsite: Emma crawls out of the big orange tent in denim shorts and a T-shirt, bare-legged, squinting up at the blazing sun.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l8",
+      "exercise": "siltovka",
+      "type": "intro",
+      "text": "šiltovka = baseball cap",
+      "picture": "Blazing midday sun over the festival meadow: Tomáš, sweating, pulls a baseball cap down low over his eyes and puts on sunglasses.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l8",
+      "exercise": "choice-je-horuco-a",
+      "type": "choice",
+      "text": "It's hot and sunny at the festival. What does Emma put on?",
+      "reuse": "a2-u8-l8#siltovka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l8",
+      "exercise": "rolak",
+      "type": "intro",
+      "text": "rolák = polo neck",
+      "reuse": "a2-u8-l8#ciapka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l8",
+      "exercise": "choice-co-si-oblecies",
+      "type": "choice",
+      "text": "Lucia wants to know what Emma will wear to the theatre. What does she ask?",
+      "reuse": "a2-u8-l8#saty",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l8",
+      "exercise": "ciapka",
+      "type": "intro",
+      "text": "čiapka = hat",
+      "picture": "A cold night by the lake: by a small campfire outside the big orange tent, Emma, in a polo-neck jumper, pulls on a warm woolly hat while Lucia wraps a scarf round her neck; their breath steams in the air.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l9",
+      "exercise": "topanky-a-tenisky",
+      "type": "intro",
+      "text": "topánky a tenisky = shoes and trainers",
+      "reuse": "a2-u8-l9#vyskusat-si",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l9",
+      "exercise": "sandale-a-cizmy",
+      "type": "intro",
+      "text": "sandále a čižmy = sandals and boots",
+      "picture": "The festival campsite after the rain, all mud and puddles: Lucia stomps happily through the mud in rubber boots, while Emma, in sandals, stands stuck in a muddy puddle, looking down at her feet in dismay.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l9",
+      "exercise": "sako-a-kravata",
+      "type": "intro",
+      "text": "sako a kravata = blazer and tie",
+      "picture": "In a corridor at Tomáš's company, Emma, in a smart blazer, walks to a meeting beside pán Hudák, who straightens his burgundy tie; Tomáš, in his grey hoodie and no tie, grins at them from his office door.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l9",
+      "exercise": "vyskusat-si",
+      "type": "intro",
+      "text": "vyskúšať si = to try on",
+      "picture": "In a shoe shop, shelves of shoes and trainers on every wall: Emma sits on a low bench pulling on a boot, its partner in the open box beside her, while a young shop assistant waits to see if it fits.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l9",
+      "exercise": "choice-mozem-si-vyskusat",
+      "type": "choice",
+      "text": "In a shop, Emma wants to try on some boots. What does she ask?",
+      "reuse": "a2-u8-l9#vyskusat-si",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l10",
+      "exercise": "vonku-je-chladno",
+      "type": "intro",
+      "text": "Vonku je chladno. = It's chilly outside.",
+      "reuse": "a2-u8-l8#ciapka",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l10",
+      "exercise": "pod-nulou",
+      "type": "intro",
+      "text": "pod nulou = below zero",
+      "reuse": "u8-l2#v-zime",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l10",
+      "exercise": "ist-na-vylet",
+      "type": "intro",
+      "text": "piknik = picnic",
+      "picture": "A sunny day: Emma, Lucia, Tomáš and Marek have a picnic on a checked blanket in a meadow above the lake, with a basket, bread, cheese, fruit and a thermos; Marek hands round sandwiches.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l10",
+      "exercise": "skaredo",
+      "type": "intro",
+      "text": "škaredo = horrible (weather)",
+      "picture": "Horrible weather by the lake: cold rain blows sideways in a strong wind, the tents flap and the trees bend. Emma's umbrella has blown inside out, and Lucia, beside her, clutches her hood with both hands.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l10",
+      "exercise": "choice-je-hrozne-pocasie",
+      "type": "choice",
+      "text": "It's cold and windy, and it's raining. What do you say?",
+      "reuse": "a2-u8-l10#skaredo",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l12",
+      "exercise": "choice-keby-som-nemusel",
+      "type": "choice",
+      "text": "Marek has to work on Friday, so he can't come. What does he say?",
+      "reuse": "u4-l3#co-robis-som",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l13",
+      "exercise": "prispevok",
+      "type": "intro",
+      "text": "príspevok = post",
+      "picture": "In the big orange tent, Lucia posts a photo from the festival: on her phone screen, a picture of the four friends by the lake with a little heart under it. Emma leans over her shoulder to look.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l13",
+      "exercise": "esemeska",
+      "type": "choice",
+      "text": "Emma wants to send her mum a short message from her phone. What is it called?",
+      "reuse": "a2-u6-l11#esemeska",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l13",
+      "exercise": "nuda",
+      "type": "intro",
+      "text": "nuda = boredom",
+      "picture": "A rainy morning in the big orange tent: rain streams down past the open door, and Lucia lies on her back on her sleeping bag, staring up at the tent roof, bored stiff.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l13",
+      "exercise": "choice-to-je-nuda",
+      "type": "choice",
+      "text": "It has rained all morning, and Lucia is bored. What does she say?",
+      "reuse": "a2-u8-l13#nuda",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l13",
+      "exercise": "kocka-a-figurka",
+      "type": "intro",
+      "text": "kocka a figúrka = dice and counter",
+      "picture": "In the big orange tent while it rains outside, Emma, Lucia and Tomáš play a board game on a sleeping bag: Emma throws the dice, and the others lean in to watch, little coloured counters on the board.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l13",
+      "exercise": "naspamat",
+      "type": "intro",
+      "text": "naspamäť = by heart",
+      "picture": "At the festival information tent, Emma holds up her dead phone, its screen black, and frowns hard, trying to remember a number; a friendly young man at the counter holds out his own phone to her.",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l13",
+      "exercise": "choice-prepacte-mohli-by",
+      "type": "choice",
+      "text": "Emma asks a stranger at the information tent to lend her a phone. What does she say?",
+      "reuse": "a2-u8-l13#naspamat",
+      "book": null
+    },
+    {
+      "lesson": "a2-u8-l14",
+      "exercise": "choice-co-keby-sme",
+      "type": "choice",
+      "text": "You'd like to suggest the jazz night to your friends. What do you say?",
+      "reuse": "a2-u8-l4#program",
+      "book": null
+    }
+  ]
+}
