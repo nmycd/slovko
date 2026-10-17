@@ -40,6 +40,16 @@ export function graded(card: StoredCard, rating: Grade, now: number): StoredCard
   return store(scheduler.next(load(card), new Date(now), rating).card);
 }
 
+/**
+ * Whether an answer really moved a card: its first review, or a next interval that
+ * changed by at least a day and at least a tenth. Not a card that's stuck, at the
+ * 365-day cap or missed again at a day.
+ */
+export function moved(before: StoredCard, after: StoredCard): boolean {
+  if (before.state === State.New) return true;
+  return Math.abs(after.scheduled_days - before.scheduled_days) >= Math.max(1, 0.1 * before.scheduled_days);
+}
+
 export function isNew(card: StoredCard): boolean {
   return card.state === State.New;
 }

@@ -293,6 +293,8 @@ export const en = {
   "review.progress": "{n} of {total}",
   "review.done.title": "Review done",
   "review.done.body": "{right} of {total} right the first time. Each word comes back when it's due.",
+  "review.noXp.score": "No XP this time: it takes at least half right.",
+  "review.noXp.known": "No XP this time: you already know these words well.",
   "review.back": "Back to learning",
   "path.review": "Word review",
   "path.reviewDue": "{n} to review",

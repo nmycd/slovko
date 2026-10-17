@@ -20,8 +20,13 @@ import type { ReviewItem } from "@/lib/review/items";
 import { buildSession, nextDue, ratingFor, withoutAudio, type Drill, type SessionCard } from "@/lib/review/session";
 import { addRecallCards, getReviewCards, loadReviewDeck, recordAnswer, useReviewDeck } from "@/lib/review/store";
 
-/** XP for finishing a session. */
+/**
+ * XP for finishing a session, earned only when it was worth something: at least half
+ * the cards right the first time, and at least one card's schedule really moved (see
+ * `moved` in lib/review/schedule).
+ */
 const XP = 10;
+const PASS = 0.5;
 
 export function ReviewPlayer() {
   const router = useRouter();
@@ -60,6 +65,9 @@ function Session({ deck }: { deck: ReviewItem[] }) {
   // "Can't listen now": drills that need sound give way to silent ones for the rest of the session.
   const [audioOff, setAudioOff] = useState(false);
   const [done, setDone] = useState(false);
+  // Whether any answer this session really moved a card's schedule.
+  const [movedAny, setMovedAny] = useState(false);
+  const [earned, setEarned] = useState(0);
 
   const pictures = useMemo(
     () => cards.flatMap((c) => items.get(c.itemId)!.picture ?? []),
@@ -78,7 +86,7 @@ function Session({ deck }: { deck: ReviewItem[] }) {
   const frame = pictures.length ? "max-w-6xl px-4 lg:px-8" : "max-w-3xl px-4";
 
   if (!cards.length) return <NothingDue t={t} locale={locale} />;
-  if (done) return <Done right={right} total={cards.length} t={t} />;
+  if (done) return <Done right={right} total={cards.length} xp={earned} saturated={!movedAny} t={t} />;
 
   const item = queue[pos];
   const card = cards[item.index];
@@ -87,7 +95,7 @@ function Session({ deck }: { deck: ReviewItem[] }) {
 
   function onGraded(r: Resolution) {
     if (!item.retry) {
-      recordAnswer(card.cardId, ratingFor(card.direction, card.drill, asked, r));
+      if (recordAnswer(card.cardId, ratingFor(card.direction, card.drill, asked, r))) setMovedAny(true);
       if (r.correct) setRight((n) => n + 1);
       // A miss comes back once at the end, as in lessons (practice only: it's graded already).
       if (!r.correct) setQueue((q) => [...q, { index: item.index, key: `${item.key}r`, retry: true }]);
@@ -98,7 +106,9 @@ function Session({ deck }: { deck: ReviewItem[] }) {
 
   function next() {
     if (pos + 1 < queue.length) return setPos(pos + 1);
-    earnXp(XP);
+    const xp = right / cards.length >= PASS && movedAny ? XP : 0;
+    if (xp) earnXp(xp);
+    setEarned(xp);
     addRecallCards(); // words recognised in this session may be ready to recall
     setDone(true);
   }
@@ -204,7 +214,20 @@ function NothingDue({ t, locale }: { t: Translate; locale: Locale }) {
   );
 }
 
-function Done({ right, total, t }: { right: number; total: number; t: Translate }) {
+function Done({
+  right,
+  total,
+  xp,
+  saturated,
+  t,
+}: {
+  right: number;
+  total: number;
+  xp: number;
+  /** No answer really moved a card's schedule. */
+  saturated: boolean;
+  t: Translate;
+}) {
   return (
     <Screen>
       <RewindIcon size={80} className="animate-pop text-gold" />
@@ -213,7 +236,7 @@ function Done({ right, total, t }: { right: number; total: number; t: Translate 
         <p className="mt-2 text-muted">{t("review.done.body", { right, total })}</p>
       </div>
       <div className="grid w-full grid-cols-2 gap-3">
-        <Stat label={t("lesson.stat.xp")} value={`+${XP}`} color="var(--gold)" icon={<BoltIcon size={20} />} />
+        <Stat label={t("lesson.stat.xp")} value={`+${xp}`} color="var(--gold)" icon={<BoltIcon size={20} />} />
         <Stat
           label={t("lesson.stat.accuracy")}
           value={`${Math.round((right / total) * 100)}%`}
@@ -221,6 +244,11 @@ function Done({ right, total, t }: { right: number; total: number; t: Translate 
           icon={<CheckIcon size={20} />}
         />
       </div>
+      {!xp && (
+        <p className="text-sm text-muted">
+          {t(saturated && right / total >= PASS ? "review.noXp.known" : "review.noXp.score")}
+        </p>
+      )}
       <Link href="/learn" scroll={false} className="btn w-full">
         {t("review.back")}
       </Link>

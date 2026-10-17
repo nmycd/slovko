@@ -293,6 +293,8 @@ export const uz: Messages = {
   "review.progress": "{n} / {total}",
   "review.done.title": "Takrorlash tugadi",
   "review.done.body": "Birinchi urinishda toʻgʻri: {right} / {total}. Har bir soʻz vaqti kelganda yana qaytadi.",
+  "review.noXp.score": "Bu safar XP yoʻq: kamida yarmiga toʻgʻri javob berish kerak.",
+  "review.noXp.known": "Bu safar XP yoʻq: bu soʻzlarni allaqachon yaxshi bilasiz.",
   "review.back": "Oʻqishga qaytish",
   "path.review": "Soʻzlarni takrorlash",
   "path.reviewDue": "Takrorlash: {n}",

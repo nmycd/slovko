@@ -283,6 +283,8 @@ export const ru: Messages = {
   "review.progress": "{n} из {total}",
   "review.done.title": "Повторение завершено",
   "review.done.body": "С первой попытки правильно: {right} из {total}. Каждое слово вернётся, когда придёт его время.",
+  "review.noXp.score": "В этот раз без XP: нужно ответить правильно хотя бы на половину.",
+  "review.noXp.known": "В этот раз без XP: эти слова вы уже хорошо знаете.",
   "review.back": "Назад к учёбе",
   "path.review": "Повторение слов",
   "path.reviewDue": "Повторить: {n}",

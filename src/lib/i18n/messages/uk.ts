@@ -283,6 +283,8 @@ export const uk: Messages = {
   "review.progress": "{n} з {total}",
   "review.done.title": "Повторення завершено",
   "review.done.body": "З першої спроби правильно: {right} з {total}. Кожне слово повернеться, коли настане його час.",
+  "review.noXp.score": "Цього разу без XP: потрібно хоча б половину відповісти правильно.",
+  "review.noXp.known": "Цього разу без XP: ці слова ви вже добре знаєте.",
   "review.back": "Назад до навчання",
   "path.review": "Повторення слів",
   "path.reviewDue": "Повторити: {n}",

@@ -293,6 +293,8 @@ export const ka: Messages = {
   "review.progress": "{n} / {total}",
   "review.done.title": "გამეორება დასრულდა",
   "review.done.body": "პირველივე ცდაზე სწორი: {right} / {total}. ყოველი სიტყვა თავის დროზე დაბრუნდება.",
+  "review.noXp.score": "ამჯერად XP არ არის: საჭიროა სულ მცირე ნახევარზე სწორი პასუხი.",
+  "review.noXp.known": "ამჯერად XP არ არის: ეს სიტყვები უკვე კარგად იცით.",
   "review.back": "სწავლაზე დაბრუნება",
   "path.review": "სიტყვების გამეორება",
   "path.reviewDue": "გასამეორებელი: {n}",

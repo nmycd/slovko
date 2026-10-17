@@ -11,7 +11,7 @@ import type { Grade } from "ts-fsrs";
 import { progressStore } from "@/lib/progress-store";
 import { createStore } from "@/lib/store";
 import { cardId, type ReviewItem } from "./items";
-import { graded, newCard, type StoredCard } from "./schedule";
+import { graded, moved, newCard, type StoredCard } from "./schedule";
 import { recallReady } from "./session";
 
 export type ReviewCards = Record<string, StoredCard>;
@@ -90,13 +90,13 @@ function addCards(ids: string[], now: number) {
   queuePush(added);
 }
 
-/** Schedules a card (by card id) after an answer. */
-export function recordAnswer(id: string, rating: Grade, now = Date.now()) {
-  reviewStore.set((s) => ({
-    ...s,
-    cards: { ...s.cards, [id]: graded(s.cards[id] ?? newCard(now), rating, now) },
-  }));
+/** Schedules a card (by card id) after an answer. True if that really moved it (see `moved`). */
+export function recordAnswer(id: string, rating: Grade, now = Date.now()): boolean {
+  const before = reviewStore.get().cards[id] ?? newCard(now);
+  const after = graded(before, rating, now);
+  reviewStore.set((s) => ({ ...s, cards: { ...s.cards, [id]: after } }));
   queuePush([id]);
+  return moved(before, after);
 }
 
 /**
