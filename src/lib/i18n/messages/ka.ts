@@ -47,7 +47,6 @@ export const ka: Messages = {
   "practice.speaking": "საუბრის პრაქტიკა",
   "grammar.close": "კურსზე დაბრუნება",
   "grammar.all": "გრამატიკის ყველა გაკვეთილი",
-  "grammar.locked": "ამ გაკვეთილის გრამატიკა აქ გაიხსნება, როცა გაკვეთილს დაასრულებთ.",
   "path.dailyGoal": "დღის მიზანი",
   "path.xp": "{done}/{goal} XP",
   "path.premium.title": "Slovko Premium",

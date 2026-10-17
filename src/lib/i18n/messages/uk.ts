@@ -43,7 +43,6 @@ export const uk: Messages = {
   "practice.speaking": "Розмовна практика",
   "grammar.close": "Назад до курсу",
   "grammar.all": "Усі уроки граматики",
-  "grammar.locked": "Граматика цього уроку відкриється тут, коли ви його пройдете.",
   "path.dailyGoal": "Ціль на день",
   "path.xp": "{done}/{goal} XP",
   "path.premium.title": "Slovko Premium",

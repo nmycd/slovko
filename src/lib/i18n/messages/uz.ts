@@ -47,7 +47,6 @@ export const uz: Messages = {
   "practice.speaking": "Gapirish mashqi",
   "grammar.close": "Kursga qaytish",
   "grammar.all": "Barcha grammatika darslari",
-  "grammar.locked": "Bu darsning grammatikasi darsni tugatganingizdan keyin shu yerda ochiladi.",
   "path.dailyGoal": "Kunlik maqsad",
   "path.xp": "{done}/{goal} XP",
   "path.premium.title": "Slovko Premium",

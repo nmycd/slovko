@@ -47,7 +47,6 @@ export const en = {
   "practice.speaking": "Speaking practice",
   "grammar.close": "Back to the course",
   "grammar.all": "All grammar lessons",
-  "grammar.locked": "This lesson's grammar opens here once you've finished the lesson.",
   "path.dailyGoal": "Daily goal",
   "path.xp": "{done}/{goal} XP",
   "path.premium.title": "Slovko Premium",

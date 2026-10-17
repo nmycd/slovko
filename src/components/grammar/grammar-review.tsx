@@ -23,8 +23,8 @@ export type GrammarUnit = {
 /**
  * Grammar review: one grammar lesson's teaching cards in the lesson frame, read again,
  * with every grammar lesson of the course in a list beside them (above them on phones).
- * Nothing to answer, so no footer, and the bar at the top stays full. A lesson opens
- * here once it's finished (and its unit is open to the learner).
+ * Nothing to answer, so no footer, and the bar at the top stays full. Every lesson in
+ * a unit open to the learner can be read; the ones not finished yet are greyed in the list.
  */
 export function GrammarReview({
   course: courseId,
@@ -60,13 +60,12 @@ export function GrammarReview({
     return <div className="min-h-dvh" />;
   }
 
-  const isOpen = (id: string, premium: boolean) =>
-    (unlockAllLessons || dev || Boolean(progress.completed[id])) && (!premium || isPremium || unlockAllLessons);
-  const open = isOpen(lessonId, premiumUnit);
+  const canSee = (premium: boolean) => !premium || isPremium || unlockAllLessons;
+  const finished = (id: string) => Boolean(progress.completed[id]);
   const shownCards = cards[locale];
   const title = units[locale].flatMap((u) => u.lessons).find((l) => l.id === lessonId)?.title;
   const frame = "max-w-6xl px-4 lg:px-8";
-  const list = <LessonList units={units[locale]} current={lessonId} isOpen={isOpen} />;
+  const list = <LessonList units={units[locale]} current={lessonId} canSee={canSee} finished={finished} />;
 
   return (
     <div className="flex min-h-dvh flex-col">
@@ -98,16 +97,22 @@ export function GrammarReview({
             <summary className="cursor-pointer font-semibold">{t("grammar.all")}</summary>
             <div className="mt-3">{list}</div>
           </details>
-          {open ? (
+          {canSee(premiumUnit) ? (
             <div className="space-y-16">
               {shownCards.map((card) => (
                 <GrammarCard key={`${card.id}-${locale}`} card={card} picture={pictures[card.id]} />
               ))}
             </div>
           ) : (
-            <p className="flex items-center gap-2 text-lg text-muted">
-              <LockIcon size={20} className="shrink-0" /> {t("grammar.locked")}
-            </p>
+            <div>
+              <h1 className="flex items-center gap-2 text-2xl">
+                <LockIcon size={22} className="shrink-0" /> {t("lesson.paywall.title")}
+              </h1>
+              <p className="mt-2 text-muted">{t("lesson.paywall.body", { level: course.level })}</p>
+              <Link href="/pricing" className="btn btn-gold mt-5">
+                {t("lesson.paywall.button")}
+              </Link>
+            </div>
           )}
         </main>
       </div>
@@ -133,15 +138,20 @@ function GrammarCard({ card, picture }: { card: GrammarExercise; picture?: Illus
   );
 }
 
-/** The course's grammar lessons, unit by unit; the current one marked, closed ones greyed. */
+/**
+ * The course's grammar lessons, unit by unit: the current one marked, the ones not
+ * finished yet greyed (still open), Premium units' locked for learners without it.
+ */
 function LessonList({
   units,
   current,
-  isOpen,
+  canSee,
+  finished,
 }: {
   units: GrammarUnit[];
   current: string;
-  isOpen: (id: string, premium: boolean) => boolean;
+  canSee: (premium: boolean) => boolean;
+  finished: (id: string) => boolean;
 }) {
   const { t } = useApp();
   const listRef = useRef<HTMLDivElement>(null);
@@ -179,8 +189,11 @@ function LessonList({
               }
               return (
                 <li key={lesson.id}>
-                  {isOpen(lesson.id, unit.premium) ? (
-                    <Link href={`/grammar/${lesson.id}`} className="block rounded-xl px-3 py-2 hover:bg-surface-2">
+                  {canSee(unit.premium) ? (
+                    <Link
+                      href={`/grammar/${lesson.id}`}
+                      className={`block rounded-xl px-3 py-2 hover:bg-surface-2 ${finished(lesson.id) ? "" : "opacity-50 hover:opacity-100"}`}
+                    >
                       {label}
                     </Link>
                   ) : (
