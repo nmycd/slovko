@@ -38,7 +38,7 @@ export const uk: Messages = {
   "dictionary.grammar": "Граматика",
   "dictionary.none": "Нічого не знайдено.",
   "practice.title": "Додаткова практика",
-  "practice.grammar": "Повторення граматики",
+  "practice.grammar": "Граматичний довідник",
   "practice.writing": "Практика письма",
   "practice.speaking": "Практика вимови",
   "practice.done.title": "Практику завершено",
